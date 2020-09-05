@@ -61,14 +61,19 @@ Pointer to a caller-allocated WORK_QUEUE_ITEM structure to be initialized. This 
 [in]
 Pointer to a caller-defined routine that will be called to process the work item. This routine will be called in the context of a system thread at IRQL PASSIVE_LEVEL. This routine is declared as follows: 
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 (*PWORKER_THREAD_ROUTINE)(
     IN PVOID Parameter
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

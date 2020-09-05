@@ -131,9 +131,13 @@ The command queue will handle the following IOCTLs:
 </ul>
 The following example shows how to create a UFXENDPOINT object and initialize its context.
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 UfxEndpointAdd (
     _In_ UFXDEVICE Device,
     _In_ PUSB_ENDPOINT_DESCRIPTOR Descriptor,
@@ -244,7 +248,8 @@ End:
     TraceExit();
     return Status;
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 

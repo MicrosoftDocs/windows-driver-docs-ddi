@@ -232,16 +232,21 @@ Pointer to the callback data structure for the operation to be added to the noti
 [in, optional]
 Optional pointer to a callback routine to be invoked when a change occurs in a subdirectory that is being watched in a directory tree. This pointer lets the file system check whether the watcher has traverse access to that directory. Such a caller-supplied routine is declared as follows:
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 (*PCHECK_FOR_TRAVERSE_ACCESS) (
     IN PVOID NotifyContext,                     // FsContext
     IN PVOID TargetContext,                     // Context pointer
     IN PSECURITY_SUBJECT_CONTEXT SubjectContext // SubjectContext
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange">FsRtlNotifyFullReportChange</a> routine.
 
 ### -param SubjectContext 
@@ -254,15 +259,20 @@ Pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FltNo
 [in, optional]
 Optional pointer to a callback routine to be invoked when a change occurs to the directory. If this callback routine returns <b>TRUE</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange">FsRtlNotifyFilterReportChange</a> completes the pending IRP_MN_NOTIFY_CHANGE_DIRECTORY operations in the notify list; otherwise, it does not. Such a caller-supplied routine is declared as follows: 
 
-
-```cpp
-BOOLEAN
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN
 (*PFILTER_REPORT_CHANGE) (
     IN PVOID NotifyContext,                     // FsContext
     IN PVOID FilterContext                      // Context pointer
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -returns
 

@@ -84,11 +84,16 @@ If a driver requests a <i>DesiredTime</i> value that is less than the system clo
 </ul>
 If you use this routine to change the clock interrupt frequency, your driver <u>must</u> restore the default interrupt frequency, typically by making the following call before being unloaded:
 
-
-```cpp
-ExSetTimerResolution (0, FALSE);
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ExSetTimerResolution (0, FALSE);</pre>
+</td>
+</tr>
+</table></span></div>
 (If multiple drivers have attempted to modify the clock interrupt frequency, the system does not restore the default frequency until all of these drivers have called this routine with a <i>SetResolution</i> value of <b>FALSE</b>.)
 
 <u>Note that the result of changing the clock interrupt frequency is system-wide and can have a severely negative effect on system performance. Also note that higher clock interrupt frequencies can shorten a system's battery life.</u>

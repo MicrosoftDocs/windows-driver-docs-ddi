@@ -90,9 +90,13 @@ Then, the callback  function typically creates a WDF queue associated with the e
 
 #### Examples
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 Endpoint_EvtUcxUsbDeviceDefaultEndpointAdd(
     UCXCONTROLLER           UcxController,
     UCXUSBDEVICE            UcxUsbDevice,
@@ -164,9 +168,10 @@ Endpoint_EvtUcxUsbDeviceDefaultEndpointAdd(
 EvtUsbDeviceDefaultEndpointAddEnd:
 
     return status;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

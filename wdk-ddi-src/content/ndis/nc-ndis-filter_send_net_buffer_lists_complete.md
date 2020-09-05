@@ -142,25 +142,35 @@ To define a <i>FilterSendNetBufferListsComplete</i> function, you must first pro
 
 For example, to define a <i>FilterSendNetBufferListsComplete</i> function that is named "MySendNetBufferListsComplete", use the <b>FILTER_SEND_NET_BUFFER_LISTS_COMPLETE</b> type as shown in this code example:
 
-
-```cpp
-FILTER_SEND_NET_BUFFER_LISTS_COMPLETE MySendNetBufferListsComplete;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>FILTER_SEND_NET_BUFFER_LISTS_COMPLETE MySendNetBufferListsComplete;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your function as follows:
 
-
-```cpp
-_Use_decl_annotations_
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
 VOID
  MySendNetBufferListsComplete(
     NDIS_HANDLE  FilterModuleContext,
     PNET_BUFFER_LIST  NetBufferLists,
     ULONG  SendCompleteFlags
     )
-  {...}
-```
-
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>FILTER_SEND_NET_BUFFER_LISTS_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_SEND_NET_BUFFER_LISTS_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

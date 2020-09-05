@@ -82,9 +82,13 @@ The contents of the endpoint's Device Control register.
 
 An AER_ENDPOINT_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_ENDPOINT_DESCRIPTOR structure can be written to by the operating system. The AER_ENDPOINT_DESCRIPTOR_FLAGS union is defined as follows:
 
-
-```cpp
-typedef union _AER_ENDPOINT_DESCRIPTOR_FLAGS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef union _AER_ENDPOINT_DESCRIPTOR_FLAGS {
   struct {
     USHORT  UncorrectableErrorMaskRW:1;
     USHORT  UncorrectableErrorSeverityRW:1;
@@ -93,9 +97,10 @@ typedef union _AER_ENDPOINT_DESCRIPTOR_FLAGS {
     USHORT  Reserved:12;
   };
   USHORT  AsUSHORT;
-} AER_ENDPOINT_DESCRIPTOR_FLAGS, *PAER_ENDPOINT_DESCRIPTOR_FLAGS
-```
-
+} AER_ENDPOINT_DESCRIPTOR_FLAGS, *PAER_ENDPOINT_DESCRIPTOR_FLAGS</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

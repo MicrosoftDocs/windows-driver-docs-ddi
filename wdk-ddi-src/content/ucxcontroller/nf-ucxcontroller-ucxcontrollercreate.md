@@ -91,9 +91,13 @@ The method registers a device interface GUID_DEVINTERFACE_USB_HOST_CONTROLLER an
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
     WDF_OBJECT_ATTRIBUTES                   objectAttributes;
     UCX_CONTROLLER_CONFIG                   ucxControllerConfig;
     UCXCONTROLLER                           ucxController;
@@ -123,9 +127,10 @@ The method registers a device interface GUID_DEVINTERFACE_USB_HOST_CONTROLLER an
 
     ucxControllerContext = GetUcxControllerContext(ucxController);
     ucxControllerContext->WdfDevice = wdfDevice;
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

@@ -68,9 +68,13 @@ This member contains valid data only if the <b>ValidBits.ErrorStatus</b> bit is 
 
 A WHEA_PCIXDEVICE_ID structure that contains data that identifies the PCI or PCI-X device. The WHEA_PCIXDEVICE_ID structure is defined as follows:
 
-
-```cpp
-typedef struct _WHEA_PCIXDEVICE_ID {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _WHEA_PCIXDEVICE_ID {
   USHORT  VendorId;
   USHORT  DeviceId;
   ULONG  ClassCode:24;
@@ -80,9 +84,10 @@ typedef struct _WHEA_PCIXDEVICE_ID {
   ULONG  SegmentNumber:8;
   ULONG  Reserved1:8;
   ULONG  Reserved2;
-} WHEA_PCIXDEVICE_ID, *PWHEA_PCIXDEVICE_ID;
-```
-
+} WHEA_PCIXDEVICE_ID, *PWHEA_PCIXDEVICE_ID;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -157,14 +162,19 @@ This member contains valid data only if the <b>ValidBits.IoNumber</b> bit is set
 
 An array of WHEA_PCIXDEVICE_REGISTER_PAIR structures that contains the register address/data pair values for the PCI device. The WHEA_PCIXDEVICE_REGISTER_PAIR structure is defined as follows:
 
-
-```cpp
-typedef struct WHEA_PCIXDEVICE_REGISTER_PAIR {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct WHEA_PCIXDEVICE_REGISTER_PAIR {
   ULONGLONG  Register;
   ULONGLONG  Data;
-} WHEA_PCIXDEVICE_REGISTER_PAIR, *PWHEA_PCIXDEVICE_REGISTER_PAIR;
-```
-
+} WHEA_PCIXDEVICE_REGISTER_PAIR, *PWHEA_PCIXDEVICE_REGISTER_PAIR;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

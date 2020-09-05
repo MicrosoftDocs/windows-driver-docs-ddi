@@ -73,15 +73,20 @@ Indicates that the given <i>Srb</i> has finished. If this value is set, <b>ScsiP
 
 Syntax: 
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ PSCSI_REQUEST_BLOCK    Srb
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 <tr>
@@ -104,17 +109,22 @@ Indicates that the HBA is ready for another request for the specified logical un
 
 Syntax:
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_                        PathId,
   _In_opt_                        TargetId,
   _In_opt_                        Lun
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 <tr>
@@ -137,15 +147,20 @@ Indicates that the miniport driver requires the operating system-specific port d
 
 Syntax:
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ PHW_INTERRUPT          HwScsiXxxInterruptsCallback
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 <tr>
@@ -158,15 +173,20 @@ Indicates that the miniport driver requires the operating system-specific port d
 
 Syntax:
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ PHW_INTERRUPT          HwScsiXxxInterruptsCallback
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 <tr>
@@ -179,16 +199,21 @@ Indicates that the miniport driver requires the operating system-specific port d
 
 Syntax:
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ PHW_TIMER              HwScsiTimer,
   _In_opt_ ULONG                  MiniportTimerValue
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 <tr>
@@ -201,15 +226,20 @@ Indicates that a target device might have been added or removed from a dynamic b
 
 Syntax:
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ UCHAR                  PathId
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 <tr>
@@ -222,30 +252,40 @@ Indicates that the miniport driver has detected an event for which one or more W
 
 Syntax for PathId != 0xFF
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ PVOID                  WMIEvent,
   _In_opt_ UCHAR                  PathId,
   _In_opt_ UCHAR                  TargetId,
   _In_opt_ UCHAR                  Lun
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 Syntax for PathId = 0xFF
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ PVOID                  WMIEvent,
   _In_opt_ UCHAR                  PathId
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 <tr>
@@ -258,28 +298,38 @@ Indicates that the miniport driver has changed the data items or the number of i
 
 Syntax for PathId != 0xFF
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ UCHAR                  PathId,
   _In_opt_ UCHAR                  TargetId,
   _In_opt_ UCHAR                  Lun
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 Syntax for PathId = 0xFF
 
-
-```cpp
-VOID ScsiPortNotification(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID ScsiPortNotification(
   _In_     SCSI_NOTIFICATION_TYPE NotificationType,
   _In_     PVOID                  HwDeviceExtension,
   _In_opt_ UCHAR                  PathId
-);
-```
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 </td>
 </tr>
 </table>

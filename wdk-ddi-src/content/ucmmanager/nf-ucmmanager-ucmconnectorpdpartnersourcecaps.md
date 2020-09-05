@@ -79,9 +79,13 @@ If the partner connector is the power sink, the local connector port must query 
 
 #### Examples
 
-
-```cpp
-        UCM_PD_POWER_DATA_OBJECT Pdos[1];
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>        UCM_PD_POWER_DATA_OBJECT Pdos[1];
 
         UCM_PD_POWER_DATA_OBJECT_INIT_FIXED(&Pdos[0]);
 
@@ -99,9 +103,10 @@ If the partner connector is the power sink, the local connector port must query 
                 status);
             goto Exit;
         }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

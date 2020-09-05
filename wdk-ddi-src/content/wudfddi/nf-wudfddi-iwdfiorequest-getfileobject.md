@@ -66,9 +66,13 @@ When your driver calls <b>GetFileObject</b>, the framework increments the refere
 
 The following code example is taken from the WpdMultiTransportDriver sample in the WDK. The example declares a smart pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface, calls <b>GetFileObject</b>, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfobject-retrievecontext">RetrieveContext</a> on the file object.
 
-
-```cpp
-  CComPtr<IWDFFile>   pFileObject;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  CComPtr<IWDFFile>   pFileObject;
 
   ...
 
@@ -81,9 +85,10 @@ The following code example is taken from the WpdMultiTransportDriver sample in t
       hr = pFileObject->RetrieveContext((void**)&pClientContextMap);
       CHECK_HR(hr, "Failed to get Contextmap from WDF File Object");
   }
-  
-```
-
+  </pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

@@ -68,26 +68,36 @@ The value that the driver specifies for the <b>AddressDescriptionSize</b> member
 
 Address description structures are driver-defined. The driver must store the structure's size in the <b>AddressDescriptionSize</b> member. The size value must include the size of this header structure. For example, a driver might define an address descriptor as follows:
 
-
-```cpp
-typedef struct _IEEE_1394_CHILD_ADDRESS_DESCRIPTION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _IEEE_1394_CHILD_ADDRESS_DESCRIPTION {
   WDF_CHILD_ADDRESS_DESCRIPTION_HEADER  AddressHeader;
   //
   // Current bus generation
   //
   ULONG Generation;
-} IEEE_1394_CHILD_ADDRESS_DESCRIPTION, *PIEEE_1394_CHILD_ADDRESS_DESCRIPTION;
-```
-
+} IEEE_1394_CHILD_ADDRESS_DESCRIPTION, *PIEEE_1394_CHILD_ADDRESS_DESCRIPTION;</pre>
+</td>
+</tr>
+</table></span></div>
 To set the <b>AddressDescriptionSize</b> member for this address descriptor, the driver can use the following code:
 
-
-```cpp
-IEEE_1394_CHILD_ADDRESS_DESCRIPTION Addr_Description;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IEEE_1394_CHILD_ADDRESS_DESCRIPTION Addr_Description;
 WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT (&Addr_Description, 
-                                           sizeof(Addr_Description));
-```
-
+                                           sizeof(Addr_Description));</pre>
+</td>
+</tr>
+</table></span></div>
 For more information about address descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 ## -see-also

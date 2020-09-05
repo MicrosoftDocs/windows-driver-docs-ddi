@@ -47,11 +47,16 @@ api_name:
 ## -description
 
 The <i>FreeStackSymFrames</i> callback function frees memory from a stack provider.
-
-```cpp
- CALLBACK* PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES FreeStackSymFrames;
-```
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES FreeStackSymFrames;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 

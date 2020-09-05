@@ -55,15 +55,20 @@ The <b>KeRegisterNmiCallback</b> routine registers a routine to be called whenev
 [in]
 Pointer to a function of the form:
 
-
-```cpp
-BOOLEAN
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN
  XxxNmiCallback(
  IN PVOID Context,
   IN BOOLEAN Handled
- );
-```
-
+ );</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param Context 
 

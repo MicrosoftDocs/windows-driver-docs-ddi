@@ -62,16 +62,21 @@ The second parameter that is passed to <a href="https://docs.microsoft.com/windo
 
 The name <b>HwStorInitializeTracing</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
 
-
-```cpp
-typedef
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
 VOID
 HW_INITIALIZE_TRACING (
   _In_ PVOID  Arg1,
   _In_ PVOID  Arg2
-  );
-```
-
+  );</pre>
+</td>
+</tr>
+</table></span></div>
 The port driver calls the Storport virtual miniport's <b>HwStorInitializeTracing</b> at PASSIVE_LEVEL.
 
 
@@ -81,16 +86,25 @@ To define an <b>HwStorInitializeTracing</b> callback function, you must first pr
 
  For example, to define a <b>HwStorInitializeTracing</b> callback routine that is named <i>MyHwInitializeTracing</i>, use the <b>HW_INITIALIZE_TRACING</b> type as shown in this code example:
 
-
-```cpp
-HW_INITIALIZE_TRACING MyHwInitializeTracing;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HW_INITIALIZE_TRACING MyHwInitializeTracing;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your callback routine as follows:
 
-
-```cpp
-_Use_decl_annotations_
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
 VOID
 MyHwInitializeTracing (
   _In_ PVOID  Arg1,
@@ -98,9 +112,10 @@ MyHwInitializeTracing (
   );
   {
       ...
-  }
-```
-
+  }</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>HW_INITIALIZE_TRACING</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INITIALIZE_TRACING</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 <div class="code"></div>

@@ -198,16 +198,25 @@ To define a <i>ProtocolClMakeCallComplete</i> function, you must first provide a
 
 For example, to define a <i>ProtocolClMakeCallComplete</i> function that is named "MyClMakeCallComplete", use the <b>PROTOCOL_CL_MAKE_CALL_COMPLETE</b> type as shown in this code example:
 
-
-```cpp
-PROTOCOL_CL_MAKE_CALL_COMPLETE MyClMakeCallComplete;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PROTOCOL_CL_MAKE_CALL_COMPLETE MyClMakeCallComplete;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your function as follows:
 
-
-```cpp
-_Use_decl_annotations_
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
 VOID
  MyClMakeCallComplete(
     NDIS_STATUS  Status,
@@ -215,9 +224,10 @@ VOID
     NDIS_HANDLE  NdisPartyHandle,
     PCO_CALL_PARAMETERS  CallParameters
     )
-  {...}
-```
-
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>PROTOCOL_CL_MAKE_CALL_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_MAKE_CALL_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

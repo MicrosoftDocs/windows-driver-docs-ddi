@@ -75,9 +75,13 @@ The inquiry data for each SCSI bus includes information about all of the logical
 
 The following pseudocode example illustrates how to step through the SCSI buses on an HBA, and the logical units for each bus, reading and printing the inquiry data for each logical unit:
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 PrintInquiryData(PCHAR  DataBuffer)
 {
     PSCSI_ADAPTER_BUS_INFO  adapterInfo;
@@ -107,9 +111,10 @@ PrintInquiryData(PCHAR  DataBuffer)
        }
     }
     printf("\n\n");
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for next logical unit. Do not try to do this by pointer arithmetic. The positioning of each SCSI_INQUIRY_DATA structure is potentially different for each HBA miniport driver, because it depends on data alignment requirements.
 
 ## -see-also

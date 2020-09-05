@@ -182,14 +182,19 @@ The control register 8.
 
 A WHEA128A structure that contains the state of the global descriptor table register. The WHEA128A structure describes a 128-bit value and is defined as follows:
 
-
-```cpp
-typedef struct _WHEA128A {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _WHEA128A {
   ULONGLONG  Low;
   LONGLONG  High;
-} WHEA128A, *PWHEA128A;
-```
-
+} WHEA128A, *PWHEA128A;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

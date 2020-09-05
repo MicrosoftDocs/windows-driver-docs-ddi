@@ -70,9 +70,13 @@ In the client driver's implementation of the <a href="https://docs.microsoft.com
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 
 EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE EvtDevicePostPoFxRegister;
 
@@ -144,9 +148,10 @@ EvtDevicePrePoFxUnregister (
 
     UrsSetPoHandle(Device, NULL);
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

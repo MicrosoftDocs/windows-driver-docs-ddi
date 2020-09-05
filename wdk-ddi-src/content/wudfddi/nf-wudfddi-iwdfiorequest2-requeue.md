@@ -102,9 +102,13 @@ A driver can call <b>Requeue</b> only if it uses the <a href="https://docs.micro
 
 The following code example shows a segment of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackstatechange-onstatechange">IQueueCallbackStateChange::OnStateChange</a> callback function. The segment obtains an I/O request from the I/O and then returns the request to the queue.
 
-
-```cpp
-void 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void 
 CMyQueue::OnStateChange(
     __in IWDFIoQueue* pWdfQueue,
     __in WDF_IO_QUEUE_STATE 
@@ -134,9 +138,10 @@ CMyQueue::OnStateChange(
     hr = r2->Requeue();
     if (FAILED(hr)) goto Error;
 ...
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

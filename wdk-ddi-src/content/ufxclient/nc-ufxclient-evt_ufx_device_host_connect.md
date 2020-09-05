@@ -65,9 +65,13 @@ The client driver must not initiate connection with the host until UFX invokes t
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 EVT_UFX_DEVICE_HOST_CONNECT UfxDevice_EvtDeviceHostConnect;
 
 VOID
@@ -111,9 +115,10 @@ Arguments:
 
     TraceExit();
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

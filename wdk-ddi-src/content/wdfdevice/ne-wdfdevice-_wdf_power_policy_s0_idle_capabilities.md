@@ -84,9 +84,13 @@ The following code examples show how to enable idle support for a USB device. In
 
 <b>KMDF Example</b>
 
-
-```cpp
-WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(&idleSettings,
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(&idleSettings,
                                            IdleUsbSelectSuspend);
 status = WdfDeviceAssignS0IdleSettings(device,
                                        &idleSettings);
@@ -100,14 +104,19 @@ if (status == STATUS_POWER_STATE_INVALID){
                                            &IdleSettings);
     if (!NT_SUCCESS(status) {...}
  }
-else {...}
-```
-
+else {...}</pre>
+</td>
+</tr>
+</table></span></div>
 <b>UMDF Example</b>
 
-
-```cpp
-hr = pIWDFDevice2->AssignS0IdleSettings(IdleUsbSelectSuspend,
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>hr = pIWDFDevice2->AssignS0IdleSettings(IdleUsbSelectSuspend,
                                         PowerDeviceD3,
                                         IDLEWAKE_TIMEOUT_MSEC,
                                         IdleAllowUserControl,
@@ -124,9 +133,10 @@ if (hr == HRESULT_FROM_NT(STATUS_POWER_STATE_INVALID)){
                                          WdfTrue);
     if (!SUCCEEDED(hr)) {...}
 }
-else {...}
-```
-
+else {...}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

@@ -62,14 +62,19 @@ Doubly linked list structure. This structure is used to add the work item to the
 
 Pointer to a callback routine that processes this work item when the work item is dequeued. This callback routine is declared as follows: 
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 (*PWORKER_THREAD_ROUTINE)(
     IN PVOID Parameter
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

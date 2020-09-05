@@ -209,18 +209,23 @@ For more information about the safe string functions, see <a href="https://docs.
 
 The following example shows a basic use of <b>RtlStringCbPrintfW</b> using four arguments.
 
-
-```cpp
-int const arraysize = 30;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>int const arraysize = 30;
 WCHAR pszDest[arraysize]; 
 size_t cbDest = arraysize * sizeof(WCHAR);
 
 LPCWSTR pszFormat = L"%s %d + %d = %d.";
 WCHAR* pszTxt = L"The answer is";
 
-NTSTATUS status = RtlStringCbPrintfW(pszDest, cbDest, pszFormat, pszTxt, 1, 2, 3);
-```
-
+NTSTATUS status = RtlStringCbPrintfW(pszDest, cbDest, pszFormat, pszTxt, 1, 2, 3);</pre>
+</td>
+</tr>
+</table></span></div>
 The resultant string is "The answer is 1 + 2 = 3." It is contained in the buffer at <i>pszDest</i>.
 
 <div class="code"></div>

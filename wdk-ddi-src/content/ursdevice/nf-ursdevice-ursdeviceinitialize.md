@@ -78,9 +78,13 @@ The method creates resource lists for host and function roles and the queues req
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 
 EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS EvtUrsFilterResourceRequirements;
 EVT_URS_SET_ROLE EvtUrsSetRole;
@@ -124,9 +128,10 @@ EvtDriverDeviceAdd (
 ...
 
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

@@ -51,11 +51,16 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 <li>Get a list of structures that the DLL can format for printing.</li>
 <li>Get a single-line representation of a particular structure.</li>
 <li>Ask whether a particular structure should have its name printed along with its single-line representation.</li>
-</ul>
-```cpp
- CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT KnownStructOutput;
-```
-
+</ul><div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT KnownStructOutput;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 

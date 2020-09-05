@@ -71,15 +71,20 @@ Optionally points to a caller-supplied routine that the PnP manager calls after 
 
 The callback routine has the following type:
 
-
-```cpp
-typedef
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
 VOID
 (*PDEVICE_CHANGE_COMPLETE_CALLBACK)(
     IN PVOID Context
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 A device-change-complete callback routine should not block and must not call synchronous routines that generate PnP events.
 
 The PnP manager calls device-change-complete callback routines at IRQL = PASSIVE_LEVEL.

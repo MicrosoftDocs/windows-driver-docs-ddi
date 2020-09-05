@@ -65,16 +65,21 @@ Pointer to a callback data queue allocated by the minifilter driver.
 [in]
 Pointer to a caller-supplied insert callback routine. The Filter Manager calls this routine to insert the specified callback data structure into the queue. This routine is declared as follows: 
 
-
-```cpp
-typedef NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef NTSTATUS
 (*PFLT_CALLBACK_DATA_QUEUE_INSERT_IO)(
       _Inout_ PFLT_CALLBACK_DATA_QUEUE Cbdq,
       _In_ PFLT_CALLBACK_DATA Cbd,
       _In_opt_ PVOID InsertContext
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -100,15 +105,20 @@ Context information pointer that was passed as the <i>InsertContext</i> paramete
 [in]
 Pointer to a caller-supplied remove callback routine. The Filter Manager calls this routine to remove the specified callback data structure from the queue. This routine is declared as follows: 
 
-
-```cpp
-typedef VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
 (*PFLT_CALLBACK_DATA_QUEUE_REMOVE_IO)(
       _Inout_ PFLT_CALLBACK_DATA_QUEUE Cbdq,
       _In_ PFLT_CALLBACK_DATA Cbd
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -128,16 +138,21 @@ Pointer to the callback data structure to be removed from the queue.
 [in]
 Pointer to a caller-supplied peek callback routine. The Filter Manager calls this function to get a pointer to the next I/O operation matching <i>PeekContext</i> in the queue; or, if <i>Cbd</i> is <b>NULL</b>, to get a pointer to the first matching I/O operation in the queue. The minifilter driver entirely defines the meaning of <i>PeekContext</i> and defines when an I/O operation matches a given <i>PeekContext</i>. This routine is declared as follows: 
 
-
-```cpp
-typedef PFLT_CALLBACK_DATA
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef PFLT_CALLBACK_DATA
 (*PFLT_CALLBACK_DATA_QUEUE_PEEK_NEXT_IO)(
       _In_ PFLT_CALLBACK_DATA_QUEUE Cbdq,
       _In_opt_ PFLT_CALLBACK_DATA Cbd,
       _In_opt_ PVOID PeekContext
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -163,15 +178,20 @@ Context information pointer that was passed as the <i>PeekContext</i> parameter 
 [in]
 Pointer to a caller-supplied acquire queue lock callback routine. The Filter Manager calls this routine to acquire the lock on the queue before attempting to insert or remove an item from the queue. This routine is declared as follows: 
 
-
-```cpp
-typedef VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
 (*PFLT_CALLBACK_DATA_QUEUE_ACQUIRE)(
       _Inout_ PFLT_CALLBACK_DATA_QUEUE Cbdq,
       _Out_opt_ PKIRQL Irql
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -191,15 +211,20 @@ Pointer to a system-supplied variable that receives the current IRQL. The same v
 [in]
 Pointer to a caller-supplied release queue lock callback routine. The Filter Manager calls this routine to release the lock that it obtained by calling the corresponding <i>CbdqAcquire</i> routine. This routine is declared as follows: 
 
-
-```cpp
-typedef VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
 (*PFLT_CALLBACK_DATA_QUEUE_RELEASE)(
       _Inout_ PFLT_CALLBACK_DATA_QUEUE Cbdq,
       _In_opt_ KIRQL Irql
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -219,15 +244,20 @@ The same system-supplied variable that received the current IRQL as the <i>Irql<
 [in]
 Pointer to a caller-supplied cancel routine. The Filter Manager calls this routine to signal to the minifilter driver to complete a canceled I/O operation. This routine is declared as follows: 
 
-
-```cpp
-typedef VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
 (*PFLT_CALLBACK_DATA_QUEUE_COMPLETE_CANCELED_IO)(
       _Inout_ PFLT_CALLBACK_DATA_QUEUE Cbdq,
       _Inout_ PFLT_CALLBACK_DATA Cbd
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

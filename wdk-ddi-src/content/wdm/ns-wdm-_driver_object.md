@@ -104,17 +104,26 @@ A dispatch table consisting of an array of entry points for the driver's <i>Disp
 
 To help <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools, each <i>DispatchXxx</i> routine is declared using the DRIVER_DISPATCH type, as shown in this code example:
 
-
-```cpp
-
-DRIVER_DISPATCH DispatchXxx;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+DRIVER_DISPATCH DispatchXxx;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, the callback routine is implemented as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 _Use_decl_annotations_
 NTSTATUS
   DispatchXxx(
@@ -123,9 +132,10 @@ NTSTATUS
     )
   {
       // Function body
-  }
-```
-
+  }</pre>
+</td>
+</tr>
+</table></span></div>
 The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_DISPATCH function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -remarks

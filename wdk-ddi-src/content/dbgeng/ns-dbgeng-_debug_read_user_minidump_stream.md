@@ -87,9 +87,13 @@ The DEBUG_REQUEST_READ_USER_MINIDUMP_STREAM <a href="https://docs.microsoft.com/
 
 The DEBUG_READ_USER_MINIDUMP_STREAM structure holds the parameters for the DEBUG_REQUEST_READ_USER_MINIDUMP_STREAM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a> operation.
 
-
-```cpp
-typedef struct _DEBUG_READ_USER_MINIDUMP_STREAM
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _DEBUG_READ_USER_MINIDUMP_STREAM
 {
     IN ULONG  StreamType;
     IN ULONG  Flags;
@@ -97,9 +101,10 @@ typedef struct _DEBUG_READ_USER_MINIDUMP_STREAM
     OUT PVOID  Buffer;
     IN ULONG  BufferSize;
     OUT ULONG  BufferUsed;
-} DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM;
-```
-
+} DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Members"></a><a id="members"></a><a id="MEMBERS"></a>Members</h3>
 
 

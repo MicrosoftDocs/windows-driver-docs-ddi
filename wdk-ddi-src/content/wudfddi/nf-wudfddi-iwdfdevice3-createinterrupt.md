@@ -89,9 +89,13 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 #### Examples
 
-
-```cpp
-HRESULT  hr;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT  hr;
 IWDFInterrupt* pInterrupt;
 WUDF_INTERRUPT_CONFIG  interruptConfig;
 
@@ -101,9 +105,10 @@ WUDF_INTERRUPT_CONFIG_INIT(&interruptConfig,
 
 hr = pDevice->Create(&interruptConfig, 
                      &pInterrupt);
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

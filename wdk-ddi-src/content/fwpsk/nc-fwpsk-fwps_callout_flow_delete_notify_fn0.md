@@ -103,11 +103,16 @@ The filter engine calls a callout's
 The FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 type is defined as a pointer to the 
     <i>flowDeleteFn</i> function as follows.
 
-
-```cpp
-typedef void (NTAPI *FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0) flowDeleteFn
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef void (NTAPI *FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0) flowDeleteFn</pre>
+</td>
+</tr>
+</table></span></div>
 The filter engine calls a callout's 
     <i>flowDeleteFn</i> callout function at IRQL <= DISPATCH_LEVEL.
 

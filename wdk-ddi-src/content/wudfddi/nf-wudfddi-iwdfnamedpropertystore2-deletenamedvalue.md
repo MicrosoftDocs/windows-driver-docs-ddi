@@ -93,9 +93,13 @@ For more information about accessing the registry, see <a href="https://docs.mic
 
 The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iobjectcleanup-oncleanup">IObjectCleanup::OnCleanup</a> callback function for a device object. If the driver had previously added a value to the registry's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">DEVICEMAP key</a>, the callback function deletes the value.
 
-
-```cpp
-VOID 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
 CMyDevice::OnCleanup(
  IWDFObject*  pWdfObject
 )
@@ -109,9 +113,10 @@ CMyDevice::OnCleanup(
         SAFE_RELEASE(m_LegacyHardwarePropertyStore);
         delete[] m_PdoName;
     }    
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

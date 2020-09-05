@@ -77,17 +77,22 @@ A pointer to a miniport driver-supplied <i>ExecutionRoutine</i>. The Storport dr
 
 An <i>ExecutionRoutine</i> is declared as follows:
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 ExecutionRoutine (
     IN PVOID  *DeviceObject,
     IN PVOID  *Irp,
     IN PSTOR_SCATTER_GATHER_LIST  ScatterGather,
     IN PVOID  Context
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

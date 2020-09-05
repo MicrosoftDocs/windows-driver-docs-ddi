@@ -160,9 +160,13 @@ Pointer to an opaque ERESOURCE structure to be used as a resource lock. This par
 [in, optional]
 Pointer to a RTL_HEAP_PARAMETERS structure that contains parameters to be applied when creating the heap. This parameter is optional and can be <b>NULL</b>. 
 
-
-```cpp
-typedef struct _RTL_HEAP_PARAMETERS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _RTL_HEAP_PARAMETERS {
     ULONG Length;
     SIZE_T SegmentReserve;
     SIZE_T SegmentCommit;
@@ -174,9 +178,10 @@ typedef struct _RTL_HEAP_PARAMETERS {
     SIZE_T InitialReserve;
     PRTL_HEAP_COMMIT_ROUTINE CommitRoutine;
     SIZE_T Reserved[ 2 ];
-} RTL_HEAP_PARAMETERS, *PRTL_HEAP_PARAMETERS;
-```
-
+} RTL_HEAP_PARAMETERS, *PRTL_HEAP_PARAMETERS;</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Member</th>
@@ -303,16 +308,21 @@ Reserved for system use. Drivers must set this parameter to zero.
 </table>
  
 
-
-```cpp
-typedef NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef NTSTATUS
 (NTAPI * PRTL_HEAP_COMMIT_ROUTINE)(
     IN PVOID Base,
     IN OUT PVOID *CommitAddress,
     IN OUT PSIZE_T CommitSize
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Parameter</th>

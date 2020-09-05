@@ -96,15 +96,20 @@ A pointer to a caller-supplied callback routine. If an oplock break is in progre
 
 This routine is declared as follows: 
 
-
-```cpp
-typedef VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
 (*POPLOCK_WAIT_COMPLETE_ROUTINE) (
       IN PVOID Context,
       IN PIRP Irp
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 This routine has the following parameters: 
 
 
@@ -128,15 +133,20 @@ A pointer to a caller-supplied callback routine to be called if the I/O operatio
 
 This routine is declared as follows: 
 
-
-```cpp
-typedef VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
 (*POPLOCK_FS_PREPOST_IRP) (
       IN PVOID Context,
       IN PIRP Irp
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

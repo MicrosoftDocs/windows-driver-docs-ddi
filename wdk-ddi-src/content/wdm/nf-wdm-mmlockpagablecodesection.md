@@ -94,11 +94,16 @@ Because it is an expensive operation to lock down a section, if a driver locks d
 
 Each driver routine within a pageable code section must be marked with the following compiler directive:
 
-
-```cpp
-#pragma alloc_text(PAGExxxx, DriverRoutine)
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#pragma alloc_text(PAGExxxx, DriverRoutine)</pre>
+</td>
+</tr>
+</table></span></div>
 where <i>xxxx</i> is an optional four-character, unique identifier for the caller's pageable section and <i>DriverRoutine</i> is an entry point to be included within the pageable code section. The keyword <b>PAGE</b> and the driver-determined suffix, which can be up to four characters, are case-sensitive; that is, <b>PAGE</b> must be capitalized.
 
 A single call to <b>MmLockPagableCodeSection</b> in, for example, a driver's <i>DispatchCreate</i> routine, causes the entire section, containing every driver routine marked with the same <b>PAGE</b><i>xxxx</i> identifier, to be locked in system space.

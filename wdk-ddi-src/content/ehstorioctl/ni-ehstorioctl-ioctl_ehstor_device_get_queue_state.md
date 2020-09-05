@@ -62,14 +62,19 @@ None.
 
 The output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <b> ACT_QUEUE_STATE</b>  structure. <b>ACT_QUEUE_STATE</b> is declared in <i>ehstorioctl.h</i> as the following.
 
-
-```cpp
-typedef struct tagACT_QUEUE_STATE
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct tagACT_QUEUE_STATE
 {
     BOOLEAN fFrozen;
-} ACT_QUEUE_STATE;
-```
-
+} ACT_QUEUE_STATE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -output-buffer-length
 

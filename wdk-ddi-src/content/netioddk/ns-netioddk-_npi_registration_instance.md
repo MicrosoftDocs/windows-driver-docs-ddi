@@ -70,12 +70,17 @@ A pointer to the
      is registering as either a client or a provider. The NPIID data type is defined as:
      
 
-
-```cpp
-typedef GUID NPIID;
-typedef CONST NPIID *PNPIID;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef GUID NPIID;
+typedef CONST NPIID *PNPIID;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field ModuleId
 

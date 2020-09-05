@@ -553,11 +553,16 @@ The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structur
 A callout driver can use the following macro to test if a specific metadata value is present in an
     FWPS_INCOMING_METADATA_VALUES0 structure:
 
-
-```cpp
-FWPS_IS_METADATA_FIELD_PRESENT(metadataValues, metadataField)
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>FWPS_IS_METADATA_FIELD_PRESENT(metadataValues, metadataField)</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 If the FWPS_METADATA_FIELD_PACKET_DIRECTION metadata value is present in an

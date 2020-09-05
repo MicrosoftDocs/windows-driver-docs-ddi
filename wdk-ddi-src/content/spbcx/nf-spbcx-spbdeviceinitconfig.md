@@ -87,9 +87,13 @@ This method associates the configuration information for SpbCx with the <a href=
 
 The following code example shows how to use the <b>SpbDeviceInitConfig</b> method to associate the SpbCx framework extension's configuration information with the <b>WDFDEVICE_INIT</b> structure.
 
-
-```cpp
-//
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//
 // FxDeviceInit is a pointer to a WDFDEVICE_INIT structure that comes as a
 // parameter for an EvtDriverDeviceAdd handler, or from WdfPdoInitAllocate.
 //
@@ -113,9 +117,10 @@ if (!NT_SUCCESS(status))
 
 status = WdfDeviceCreate(&FxDeviceInit,...);
 
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

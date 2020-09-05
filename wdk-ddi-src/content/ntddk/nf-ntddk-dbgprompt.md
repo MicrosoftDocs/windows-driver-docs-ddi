@@ -77,9 +77,13 @@ After <b>DbgPrompt</b> returns, the <i>Response</i> buffer contains the user's r
 
 The following code example asks if the user wants to continue and accepts the letter "y" for yes and the letter "n" for no.
 
-
-```cpp
-CHAR Response[2];
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>CHAR Response[2];
 BOOLEAN Continue = FALSE;
 ULONG CharCount;
 for (;;) {
@@ -102,7 +106,8 @@ for (;;) {
     // Incorrect response. Display the prompt again.
     //
 }
- 
-```
-
+ </pre>
+</td>
+</tr>
+</table></span></div>
 

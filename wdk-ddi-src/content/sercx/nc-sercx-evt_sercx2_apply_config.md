@@ -81,31 +81,45 @@ To define an <i>EvtSerCx2ApplyConfig</i> callback function, you must first provi
 
 For example, to define an <i>EvtSerCx2ApplyConfig</i> callback function that is named <code>MyApplyConfig</code>, use the <b>EVT_SERCX2_APPLY_CONFIG</b> function type, as shown in this code example:
 
-
-```cpp
-EVT_SERCX2_APPLY_CONFIG  MyApplyConfig;
-```
-
+<div class="code"><span codelanguage="cpp"><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>EVT_SERCX2_APPLY_CONFIG  MyApplyConfig;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your callback function as follows:
 
-
-```cpp
-_Use_decl_annotations_
+<div class="code"><span codelanguage="cpp"><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
 NTSTATUS
   MyApplyConfig(
     WDFDEVICE  Device,
     PVOID  ConnectionParameters
     )
-  {...}
-```
-
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>EVT_SERCX2_APPLY_CONFIG</b> function type is defined in the Sercx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_SERCX2_APPLY_CONFIG</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
 
 The following code example shows a partial implementation of an <i>EvtSerCx2ApplyConfig</i> function for a UART:
 
-
-```cpp
-//
+<div class="code"><span codelanguage="cpp"><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//
 // Define the UART ACPI descriptor, plus any vendor-specific
 // data that is needed by the serial controller (UART) driver.
 //
@@ -190,9 +204,10 @@ VOID
     }
 
     return status;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The pshpack1.h and poppack.h header files in the preceding code example control the structure alignment mode used by the compiler. The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR pointer types are pointers to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/reshub/ns-reshub-_rh_query_connection_properties_output_buffer">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/reshub/ns-reshub-_pnp_serial_bus_descriptor">PNP_SERIAL_BUS_DESCRIPTOR</a> structures. For more information about the members of the <b>PNP_UART_SERIAL_BUS_DESCRIPTOR</b> structure, see Table 6-193 in the [ACPI 5.0 specification](https://uefi.org/specifications).
 
 ## -see-also

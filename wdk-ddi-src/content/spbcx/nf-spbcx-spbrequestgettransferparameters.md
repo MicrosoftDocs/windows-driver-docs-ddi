@@ -84,9 +84,13 @@ If <i>TransferDescriptor</i> is non-NULL, the caller must call the <a href="http
 
 #### Examples
 
-
-```cpp
-//
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>//
 // Note that this snippet shows a transfer completing synchronously. This
 // is a horrible thing for a driver to do, but demonstrates the DDI nicely.
 //
@@ -111,9 +115,10 @@ for (ULONG i = 0; i < parameters.SequenceCount; i += 1)
                             buffer);
 }
 
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

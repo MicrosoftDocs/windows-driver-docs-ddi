@@ -90,11 +90,16 @@ The <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure is a header for a larger data
 
 Each alternative list begins with an <b>IO_RESOURCE_LIST</b> structure, which serves as a header for an array of <b>IO_RESOURCE_DESCRIPTOR</b> structures. The length of this array determines the size of the list, which can vary from one alternative list to the next. Driver code can use pointer arithmetic to step from one alternative list to the next. For example, if a parameter named <i>list</i> is a pointer to the <b>IO_RESOURCE_LIST</b> structure at the start of one alternative list, <i>list</i> can be updated to point to the start of the next list as follows:
 
-
-```cpp
-    list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);</pre>
+</td>
+</tr>
+</table></span></div>
 In this example, <code>list->Descriptors</code> is a pointer to the start of the <b>IO_RESOURCE_DESCRIPTOR</b> array, and <code>list->Count</code> is the number of elements in the array. For more information about the <b>Descriptors</b> and <b>Count</b> members, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a>.
 
 
@@ -104,9 +109,13 @@ If a driver contains a handler for an <b>IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b>
 
 The FilterResources function returns <b>TRUE</b> (probably from the <b>switch</b> statement, although the details are omitted to simplify the code example) if it finds the resource that it is looking for in the list, or if it makes a change to the list that does not change the size of the list. Otherwise, it returns <b>FALSE</b>.
 
-
-```cpp
-/* Modify the resource list in place (without changing its size). */
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>/* Modify the resource list in place (without changing its size). */
 
 BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 {
@@ -139,9 +148,10 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
     }
 
     return FALSE;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

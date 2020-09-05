@@ -65,16 +65,21 @@ Opaque filter (PFLT_FILTER) or instance (PFLT_INSTANCE) pointer for the caller.
 [in]
 Pointer to a caller-supplied worker routine. This routine is declared as follows: 
 
-
-```cpp
-typedef VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef VOID
 (*PFLT_GENERIC_WORKITEM_ROUTINE) (
  _In_ PFLT_GENERIC_WORKITEM FltWorkItem,
  _In_ PVOID FltObject,
  _In_opt_ PVOID Context
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

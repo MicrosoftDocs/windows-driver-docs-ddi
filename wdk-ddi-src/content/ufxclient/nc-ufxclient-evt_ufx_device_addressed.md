@@ -68,9 +68,13 @@ The client driver indicates completion of this event by calling the <a href="htt
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 EVT_UFX_DEVICE_ADDRESSED UfxDevice_EvtDeviceAddressed;
 
 VOID
@@ -109,9 +113,10 @@ Arguments:
 
     TraceExit();
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

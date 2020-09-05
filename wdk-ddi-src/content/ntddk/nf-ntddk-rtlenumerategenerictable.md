@@ -62,15 +62,20 @@ Set to <b>TRUE</b> if the enumeration is to start at the first element in the ta
 
 To enumerate all elements in the table, use <b>RtlEnumerateGenericTable</b> as follows:
 
-
-```cpp
-for (p = RtlEnumerateGenericTable ( Table, TRUE );
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>for (p = RtlEnumerateGenericTable ( Table, TRUE );
      p != NULL;
      p = RtlEnumerateGenericTable ( Table, FALSE )) {
         // Process the element pointed to by p
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -returns
 

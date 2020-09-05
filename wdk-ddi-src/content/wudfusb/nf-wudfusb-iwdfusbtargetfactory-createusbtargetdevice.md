@@ -118,9 +118,13 @@ To use the newly created USB I/O target object in a device stack, the INF file t
 
 The following code example shows how to create and use a USB device object in an implementation of the UMDF driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware-onpreparehardware">IPnpCallbackHardware::OnPrepareHardware</a> method.
 
-
-```cpp
-HRESULT
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
 CUmdfHidDevice::OnPrepareHardware(
     __in IWDFDevice* WdfDevice
     )
@@ -197,9 +201,10 @@ CUmdfHidDevice::OnPrepareHardware(
         hr = SetupCollections();
     }
     return hr;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

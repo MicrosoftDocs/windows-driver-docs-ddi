@@ -213,16 +213,25 @@ Later versions of WDM support all the features available in earlier versions of 
 
 The following call returns <b>TRUE</b> on any of the listed operating systems, because all these systems support all the features of WDM 1.0:
 
-
-```cpp
-bVersion = IoIsWdmVersionAvailable(1,0);
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>bVersion = IoIsWdmVersionAvailable(1,0);</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how a driver can dynamically detect the current operating system:
 
-
-```cpp
-if (IoIsWdmVersionAvailable(1, 0x10)) {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>if (IoIsWdmVersionAvailable(1, 0x10)) {
     //
     //If WDM 1.10 is supported, this is Windows 2000
     //or better.
@@ -237,9 +246,10 @@ if (IoIsWdmVersionAvailable(1, 0x10)) {
     //WDM 1.0 is always supported, so this is Windows 98, 
     //Windows 98 SE, or better.
     //
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 As the example shows, calling <b>IoIsWdmVersionAvailable</b>(1, 5) returns <b>TRUE</b> on Windows Me, Windows 2000, and any succeeding operating systems, but <b>FALSE</b> on Windows 98 and Windows 98 SE.
 
 ## -see-also

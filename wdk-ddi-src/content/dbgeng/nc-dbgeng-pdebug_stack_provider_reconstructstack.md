@@ -47,11 +47,16 @@ api_name:
 ## -description
 
 The <i>ReconstructStack</i> callback function queries dump stream provider on a per-thread basis.
-
-```cpp
- CALLBACK* PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK ReconstructStack;
-```
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK ReconstructStack;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 

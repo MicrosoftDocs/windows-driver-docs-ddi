@@ -75,29 +75,44 @@ typedef struct _DOT11_MAC_ADDRESS {
 A unicast MAC address uniquely identifies a station on a WLAN. A MAC address is defined as a unicast
     address if the following is true:
 
-
-```cpp
-(DOT11_MAC_ADDRESS[0] & 0x01 == 0)
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>(DOT11_MAC_ADDRESS[0] & 0x01 == 0)</pre>
+</td>
+</tr>
+</table></span></div>
 A multicast MAC address uniquely identifies a group of stations on a WLAN. A MAC address is defined as
     a multicast address if the following is true:
 
-
-```cpp
-(DOT11_MAC_ADDRESS[0] & 0x01 == 1)
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>(DOT11_MAC_ADDRESS[0] & 0x01 == 1)</pre>
+</td>
+</tr>
+</table></span></div>
 A broadcast MAC address identifies all stations on a WLAN. The broadcast MAC address is
     0xFFFFFFFFFFFF.
 
 The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS type as follows:
 
-
-```cpp
-typedef DOT11_MAC_ADDRESS  *PDOT11_MAC_ADDRESS;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef DOT11_MAC_ADDRESS  *PDOT11_MAC_ADDRESS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

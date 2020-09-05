@@ -90,18 +90,23 @@ AMD64 machine check architecture.
 
 An XPF_MC_BANK_FLAGS union that indicates which of the members of the WHEA_XPF_MC_BANK_DESCRIPTOR structure can be written to by the operating system. The XPF_MC_BANK_FLAGS union is defined as follows:
 
-
-```cpp
-typedef union _XPF_MC_BANK_FLAGS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef union _XPF_MC_BANK_FLAGS {
   struct {
     UCHAR  ClearOnInitializationRW:1;
     UCHAR  ControlDataRW:1;
     UCHAR  Reserved:6;
   };
   UCHAR  AsUCHAR;
-} XPF_MC_BANK_FLAGS, *PXPF_MC_BANK_FLAGS;
-```
-
+} XPF_MC_BANK_FLAGS, *PXPF_MC_BANK_FLAGS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

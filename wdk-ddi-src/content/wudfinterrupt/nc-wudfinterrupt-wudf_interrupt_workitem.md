@@ -77,9 +77,13 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 The function type is declared in <i>Wudfworkitem.h</i>, as follows.
 
-
-```cpp
-typedef
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
 _Function_class_(WUDF_INTERRUPT_WORKITEM)
 VOID
 WUDF_INTERRUPT_WORKITEM(
@@ -89,21 +93,31 @@ WUDF_INTERRUPT_WORKITEM(
     IWDFObject* AssociatedObject
     );
 
-typedef WUDF_INTERRUPT_WORKITEM *PFN_WUDF_INTERRUPT_WORKITEM;
-```
-
+typedef WUDF_INTERRUPT_WORKITEM *PFN_WUDF_INTERRUPT_WORKITEM;</pre>
+</td>
+</tr>
+</table></span></div>
 To define an <i>OnInterruptWorkItem</i> callback function that is named <i>MyInterruptWorkItem</i>, you must first provide a function declaration that SDV and other verification tools require, as follows:
 
-
-```cpp
-WUDF_INTERRUPT_WORKITEM  MyInterruptWorkItem;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WUDF_INTERRUPT_WORKITEM  MyInterruptWorkItem;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your callback function as follows:
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
   MyInterruptWorkItem (
     _In_
     IWDFInterrupt* Interrupt,
@@ -111,9 +125,10 @@ VOID
     IWDFObject* AssociatedObject
     )
   {…}
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

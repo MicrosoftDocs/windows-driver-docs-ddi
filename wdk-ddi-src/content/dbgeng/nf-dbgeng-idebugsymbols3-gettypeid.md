@@ -95,13 +95,18 @@ If the specified symbol is a type, these methods return the type ID for that typ
 
 A variable whose type was defined using <b>typedef</b> has a type ID that identifies the original type, not the type created by <b>typedef</b>.  In the following example, the type ID of <b>MyInstance</b> corresponds to the name <b>MyStruct</b> (this correspondence can be seen by passing the type ID to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypename">GetTypeName</a>):
 
-
-```cpp
-struct MyStruct { int a; };
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>struct MyStruct { int a; };
 typedef struct MyStruct MyType;
-MyType MyInstance;
-```
-
+MyType MyInstance;</pre>
+</td>
+</tr>
+</table></span></div>
 Moreover, calling these methods for <b>MyStruct</b> and <b>MyType</b> yields type IDs corresponding to <b>MyStruct</b> and <b>MyType</b>, respectively.
 
 For more information about symbols and symbol names, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.

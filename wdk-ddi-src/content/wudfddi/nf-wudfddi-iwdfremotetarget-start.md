@@ -86,16 +86,21 @@ For more information about <b>Start</b>, and how to use remote I/O targets in UM
 
 The following code example restarts a remote I/O target.
 
-
-```cpp
-if (S_OK == RemoteTarget->Start())
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>if (S_OK == RemoteTarget->Start())
 {
     //
     // Resume sending I/O requests to the I/O target.
     //
-...}
-```
-
+...}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

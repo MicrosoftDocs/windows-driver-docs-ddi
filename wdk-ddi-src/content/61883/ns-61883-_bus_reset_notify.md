@@ -64,15 +64,20 @@ Pointer to a caller-supplied function to be called by the protocol driver when t
 
 This function uses the following prototype:
 
-
-```cpp
-Void
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Void
   (*PBUS_RESET_ROUTINE)( 
  IN PVOID  Context; 
  IN PBUS_GENERATION_NODE  BusResetInfo;
- );
-```
-
+ );</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field Context
 

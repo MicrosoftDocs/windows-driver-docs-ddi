@@ -85,9 +85,13 @@ If the <i>Thread</i> parameter is non-<b>NULL</b>, the thread's paging priority 
 
 The following pseudo-code example describes what I/O priority value is retrieved and placed in the <b>IoPriority</b> member of the IO_PRIORITY_INFO structure pointed to by the <i>PriorityInfo </i> parameter.
 
-
-```cpp
-Set the IoPriority member of the structure pointed to by the PriorityInfo parameter to the normal I/O priority value.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Set the IoPriority member of the structure pointed to by the PriorityInfo parameter to the normal I/O priority value.
 IF Data is not NULL and represents an IRP-based operation and has I/O priority information available THEN
  Set the IoPriority member of the structure pointed to by the PriorityInfo parameter to the Data's I/O priority value.
 ELSE 
@@ -95,9 +99,10 @@ ELSE
  Set the IoPriority member of the structure pointed to by the PriorityInfo parameter to the FileObject's I/O priority value.
  ELSE
  IF the Thread parameter is not NULL THEN
- Set the IoPriority member of the structure pointed to by the PriorityInfo parameter to the Thread's I/O priority value.
-```
-
+ Set the IoPriority member of the structure pointed to by the PriorityInfo parameter to the Thread's I/O priority value.</pre>
+</td>
+</tr>
+</table></span></div>
 
 <div class="alert"><b>Note</b>  
      If the IO_PRIORITY_INFO structure pointed to by the <i>PriorityInfo</i> parameter has not been initialized, you must do so prior to calling this routine, by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioinitializepriorityinfo">IoInitializePriorityInfo</a> routine.</div>

@@ -54,11 +54,16 @@ The <b>PWINDBG_EXTENSION_DLL_INIT</b> (<b> WinDbgExtensionDllInit</b>) callback 
 
 A pointer to a WINDBG_EXTENSION_APIS64 structure, which contains  pointers to functions that you can use for standard operations. Copy the entire structure to a global variable in your DLL. For example, you could create a  global variable named ExtensionApis as shown in the following example.
 
-
-```cpp
-WINDBG_EXTENSION_APIS64   ExtensionApis;
-```
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>WINDBG_EXTENSION_APIS64   ExtensionApis;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param MajorVersion
 

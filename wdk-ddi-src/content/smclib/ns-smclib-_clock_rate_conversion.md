@@ -66,9 +66,13 @@ Contains the maximum clock frequency that is allowed.  For more information, see
 
 As stated in the <i>ISO 7816-3 Specification</i>, the operating system defines an array of CLOCK_RATE_CONVERSION structures that determine the maximum operating frequency for a smart card or a smart card reader. The <i>ISO 7816-3 Specification</i> defines a mapping between ETUs and clock frequencies. The following array, defined in <i>Smclib.h</i>, shows the mapping:
 
-
-```cpp
-static CLOCK_RATE_CONVERSION ClockRateConversion[] = {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>static CLOCK_RATE_CONVERSION ClockRateConversion[] = {
   { 372, 4 MHZ }, 
   { 372, 5 MHZ }, 
   { 558, 6 MHZ }, 
@@ -85,7 +89,8 @@ static CLOCK_RATE_CONVERSION ClockRateConversion[] = {
   { 2048, 20 MHZ },
   { 0, 0 },
   { 0, 0 }
-}; 
-```
-
+}; </pre>
+</td>
+</tr>
+</table></span></div>
 

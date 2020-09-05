@@ -62,17 +62,22 @@ An 8-byte data buffer that contains the data that was read from the NMI I/O port
 
 A WHEA_NMI_ERROR__SECTION_FLAGS union that describes the source of the NMI error. The WHEA_NMI_ERROR_FLAGS union is defined as follows:
 
-
-```cpp
-typedef union _WHEA_NMI_ERROR_SECTION_FLAGS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef union _WHEA_NMI_ERROR_SECTION_FLAGS {
   struct {
     ULONG  HypervisorError:1;
     ULONG  Reserved:31;
   };
   ULONG  AsULONG;
-} WHEA_NMI_ERROR_SECTION_FLAGS, *PWHEA_NMI_ERROR_SECTION_FLAGS;
-```
-
+} WHEA_NMI_ERROR_SECTION_FLAGS, *PWHEA_NMI_ERROR_SECTION_FLAGS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -122,9 +122,13 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 The following code example shows a segment of a serial port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackdeviceiocontrol-ondeviceiocontrol">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a> callback function. From an I/O request's input buffer, the code segment obtains the baud rate that should be set for the device.
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 STDMETHODCALLTYPE
   CMyQueue::OnDeviceIoControl(
     __in IWDFIoQueue*  FxQueue,
@@ -156,9 +160,10 @@ STDMETHODCALLTYPE
 ...
         }
     }
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

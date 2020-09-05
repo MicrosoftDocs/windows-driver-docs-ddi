@@ -75,9 +75,13 @@ A pointer to an NDIS_SG_DMA_DESCRIPTION structure. This structure describes the 
      properties of the miniport driver. The structure is defined as follows:
      
 
-
-```cpp
-typedef struct _NDIS_SG_DMA_DESCRIPTION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _NDIS_SG_DMA_DESCRIPTION {
   NDIS_OBJECT_HEADER  Header;
   ULONG  Flags;
   ULONG  MaximumPhysicalMapping;
@@ -85,9 +89,10 @@ typedef struct _NDIS_SG_DMA_DESCRIPTION {
   MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE_HANDLER  SharedMemAllocateCompleteHandler;
   ULONG  ScatterGatherListSize;
 } NDIS_SG_DMA_DESCRIPTION, *PNDIS_SG_DMA_DESCRIPTION;
- 
-```
-
+ </pre>
+</td>
+</tr>
+</table></span></div>
 This structure includes the following members:
 
 

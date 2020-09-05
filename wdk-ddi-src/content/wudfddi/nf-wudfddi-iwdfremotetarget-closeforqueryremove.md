@@ -69,9 +69,13 @@ For more information about the <b>CloseForQueryRemove</b> method, see <a href="h
 
 The following code example shows an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iremotetargetcallbackremoval-onremotetargetqueryremove">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a> callback function that calls <b>CloseForQueryRemove</b>.
 
-
-```cpp
-BOOL
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
 STDMETHODCALLTYPE
 CMyRemoteTarget::OnRemoteTargetQueryRemove(
     __in IWDFRemoteTarget  *FxTarget
@@ -91,9 +95,10 @@ CMyRemoteTarget::OnRemoteTargetQueryRemove(
     // Return TRUE if you want to allow removal of the device.
     //
     return TRUE;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

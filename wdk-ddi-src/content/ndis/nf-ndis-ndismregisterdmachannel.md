@@ -85,9 +85,13 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
      as follows: 
      
 
-
-```cpp
-typedef struct _NDIS_DMA_DESCRIPTION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _NDIS_DMA_DESCRIPTION {
     BOOLEAN DemandMode;
     BOOLEAN AutoInitialize;
     BOOLEAN DmaChannelSpecified;
@@ -95,9 +99,10 @@ typedef struct _NDIS_DMA_DESCRIPTION {
     DMA_SPEED DmaSpeed;
     ULONG DmaPort;
     ULONG DmaChannel;
-} NDIS_DMA_DESCRIPTION, *PNDIS_DMA_DESCRIPTION;
-```
-
+} NDIS_DMA_DESCRIPTION, *PNDIS_DMA_DESCRIPTION;</pre>
+</td>
+</tr>
+</table></span></div>
 The driver should initialize this structure with zeros before filling in the following members:
 
 

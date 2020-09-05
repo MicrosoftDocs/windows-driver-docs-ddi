@@ -60,14 +60,19 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 [in]
 A pointer to a caller-supplied function whose execution is synchronized with the hardware error processing for the error source described by the <i>ErrorSource</i> parameter. A <i>SynchronizeRoutine</i> function is declared as follows:
 
-
-```cpp
-BOOLEAN
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN
 SynchronizeRoutine(
     _In_ PVOID  SynchronizeContext
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

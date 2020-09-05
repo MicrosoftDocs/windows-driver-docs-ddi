@@ -77,9 +77,13 @@ By default, for WDF drivers, the device's function driver is the power policy ow
 
 The following code snippet shows how to call <b>UfxFdoInit</b>.
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 UfxClientDeviceCreate(
     _In_ WDFDRIVER Driver,
     _In_ PWDFDEVICE_INIT DeviceInit
@@ -122,7 +126,8 @@ Return Value:
     
     ...
 
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 

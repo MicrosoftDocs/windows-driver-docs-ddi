@@ -131,9 +131,13 @@ For more information about using <a href="https://docs.microsoft.com/windows-har
 
 The following code example retrieves the value that is assigned to the <b>PortName</b> entry under a device's hardware key.
 
-
-```cpp
-IWDFPropertyStoreFactory *pPropertyStoreFactory = NULL;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IWDFPropertyStoreFactory *pPropertyStoreFactory = NULL;
 WDF_PROPERTY_STORE_ROOT RootSpecifier;
 IWDFNamedPropertyStore2 * pHardwarePropertyStore2 = NULL;
 PROPVARIANT comPortPV;
@@ -190,9 +194,10 @@ if (FAILED(hr))
 Exit:
     SAFE_RELEASE(pHardwarePropertyStore2);
     SAFE_RELEASE(pPropertyStoreFactory);
-...
-```
-
+...</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

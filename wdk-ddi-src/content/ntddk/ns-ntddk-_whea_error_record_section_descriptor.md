@@ -78,9 +78,13 @@ Reserved for system use.
 
 A WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS union that describes the error record section. The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS union is defined as follows:
 
-
-```cpp
-typedef union _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef union _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS {
   struct {
     ULONG  Primary:1;
     ULONG  ContainmentWarning:1;
@@ -91,9 +95,10 @@ typedef union _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS {
     ULONG  Reserved:26;
   };
   ULONG  AsULONG;
-} WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS, *PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS;
-```
-
+} WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS, *PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

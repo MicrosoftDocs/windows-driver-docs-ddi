@@ -66,9 +66,13 @@ The client driver calls <b>UfxDeviceNotifyReset</b> when it receives a bus reset
 
 The client driver typically calls <b>UfxDeviceNotifyReset</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function.  The following example shows how to handle a reset event.
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID
 HandleUsbConnect (
     WDFDEVICE WdfDevice
@@ -120,7 +124,8 @@ Arguments:
     ControllerContext->Connect = TRUE;
 
     TraceExit();
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 

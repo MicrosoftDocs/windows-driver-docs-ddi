@@ -85,9 +85,13 @@ If the driver is currently waiting it should stop waiting and continue
 
 In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver maintains PnP states in its device context. The deviceContext->PnpRebalancing is set to TRUE, when the driver receives <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a> and set to FALSE when it receives IRP_MN_START_DEVICE.
 
-
-```cpp
-    case IOCTL_SRIOV_DETACH:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    case IOCTL_SRIOV_DETACH:
 
         WdfWaitLockAcquire(deviceContext->PnpStateLock, NULL);
 
@@ -119,9 +123,10 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
         break;
 
 
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

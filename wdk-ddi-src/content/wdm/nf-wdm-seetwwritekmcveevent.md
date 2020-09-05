@@ -108,9 +108,13 @@ Source Name: Microsoft-Windows-Audit-CVE or CVE-Audit
 
 #### Examples
 
-
-```cpp
-//
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//
 
 NTStatus status;
 UNICODE_STRING CVEID;
@@ -124,7 +128,8 @@ RtlInitUnicodeString(&EventDetails, L”Vulnerable request with data is logged i
 status = SeEtwWriteKMCveEvent( &CVEID, &EventDetails);
 
 //
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 

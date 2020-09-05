@@ -68,15 +68,20 @@ The length of a
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains the event data returned from the radio. The data is available in the <b>EventInfo</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_event_info">BTH_VENDOR_EVENT_INFO</a> structure.
 
-
-```cpp
-typedef struct _BTH_VENDOR_EVENT_INFO {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _BTH_VENDOR_EVENT_INFO {
   BTH_ADDR BthAddress;
   ULONG    EventSize;
   UCHAR    EventInfo[1];
-} BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO;
-```
-
+} BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO;</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>EventSize</b> member provides the size of the vendor-specific event data returned from the radio.
 
 ### -output-buffer-length
@@ -185,9 +190,13 @@ The BTH_VENDOR_PATTERN structure specifies such patterns that follow the vendor-
     <b>AdjustTokenPrivileges</b> functions. The following code example demonstrates how to obtain this
     privilege. Note that the example does not demonstrate error handling.</div>
 <div> </div>
-
-```cpp
-HANDLE procToken;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HANDLE procToken;
 LUID luid;
 TOKEN_PRIVILEGES tp;
 
@@ -199,9 +208,10 @@ Tp.PrivilegeCount = 1;
 Tp.privileges[0].Luid = luid;
 Tp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
 
-AdjustTokenPrivileges(procToken, FALSE, &tp, sizeof(TOKEN_PRIVILEGES), (PTOKEN_PRIVILEGES) NULL, (PDWORD)NULL);
-```
-
+AdjustTokenPrivileges(procToken, FALSE, &tp, sizeof(TOKEN_PRIVILEGES), (PTOKEN_PRIVILEGES) NULL, (PDWORD)NULL);</pre>
+</td>
+</tr>
+</table></span></div>
 The event that is generated because of this command is copied into the output buffer (including the
     event header).
 

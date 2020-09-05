@@ -74,9 +74,13 @@ The client driver returns completion status in <i>Request</i> and in the USBD_ST
 
 #### Examples
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 RootHub_EvtRootHubGet20PortInfo(
     UCXROOTHUB         UcxRootHub,
     WDFREQUEST         Request
@@ -131,9 +135,10 @@ RootHub_EvtRootHubGet20PortInfo(
 RootHub_EvtRootHubGet20PortInfoEnd:
 
     WdfRequestComplete(Request, status);
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

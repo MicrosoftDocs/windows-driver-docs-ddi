@@ -104,16 +104,21 @@ The client driver calls <b>UfxDeviceEventComplete</b> to signal completion of th
 </ul>
 For example, your callback function could use the following code:
 
-
-```cpp
-    EventComplete = TRUE;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    EventComplete = TRUE;
 
     ...
 
     if (EventComplete) {
         UfxDeviceEventComplete(UfxDevice, STATUS_SUCCESS);
     }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 

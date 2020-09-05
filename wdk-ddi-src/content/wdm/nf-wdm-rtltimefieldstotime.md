@@ -55,9 +55,13 @@ The <b>RtlTimeFieldsToTime</b> routine converts <b>TIME_FIELDS</b> information t
 [in]
 Pointer to the following structure, containing the time information to be converted:
 
-
-```cpp
-typedef struct TIME_FIELDS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct TIME_FIELDS {
     CSHORT Year;
     CSHORT Month;
     CSHORT Day;
@@ -66,9 +70,10 @@ typedef struct TIME_FIELDS {
     CSHORT Second;
     CSHORT Milliseconds;
     CSHORT Weekday;
-} TIME_FIELDS;
-```
-
+} TIME_FIELDS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

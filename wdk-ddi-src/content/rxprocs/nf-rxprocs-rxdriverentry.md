@@ -99,11 +99,16 @@ If the <b>RxDriverEntry</b> call is successful, internal global RDBBS data struc
 <b>RxDriverEntry</b> will also attempt to open the following registry key:
 
 
-
-```cpp
-HKLM\System\CurrentControlSet\Services\LanmanWorkStation\Parameters
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HKLM\System\CurrentControlSet\Services\LanmanWorkStation\Parameters</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 If this key can be opened, then an attempt will be made to read some values under this key depending on the version of the operating system.
@@ -111,11 +116,16 @@ If this key can be opened, then an attempt will be made to read some values unde
 On Windows XP and later, <b>RxDriverEntry</b> will attempt to open the following value under the LanmanWorkStation\Parameters key:
 
 
-
-```cpp
-DisableByteRangeLockingOnReadOnlyFiles
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DisableByteRangeLockingOnReadOnlyFiles</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 This value is a DWORD that is treated as a boolean and stored as the boolean value for DisableByteRangeLockingOnReadOnlyFiles, an RDBSS variable for handling byte range locking on read only files. This variable affects how RDBSS handles a new SRV_OPEN request by the network mini-redirector on an FCB and decides whether it can be collapsed onto an existing SRV_OPEN if the attributes are compatible. If a network mini-redirector driver wants to change this behavior, the driver should set the value of DisableByteRangeLockingOnReadOnlyFiles to the appropriate value after the <b>RxDriverEntry</b> routine has returned. The RDBSSLIB.LIB static library exposes DisableByteRangeLockingOnReadOnlyFiles as an external variable.
@@ -123,11 +133,16 @@ This value is a DWORD that is treated as a boolean and stored as the boolean val
 On Windows 2000 and Windows XP, <b>RxDriverEntry</b> will attempt to open the following value under the LanmanWorkStation\Parameters key:
 
 
-
-```cpp
-ReadAheadGranularity
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>ReadAheadGranularity</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 This value is a DWORD that is treated as a number and stored as the value for an internal RDBSS option on the number of PAGE_SIZE pages for read ahead used by the Cache Manager. Any registry value greater than 16 is treated as if this value were limited to 16 (the maximum value currently allowed). This internal option is stored as the number of pages times the PAGE_SIZE on the processor (a maximum of 0x10000 or 64K for a 4K PAGE_SIZE, for example). On Windows 2000 and Windows XP, RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a> with this option for various create, read, and write operations. If a network mini-redirector driver wants to change this behavior, the driver should set the value of ReadAheadGranularity to the appropriate value after the <b>RxDriverEntry</b> routine has returned. The RDBSSLIB.LIB static library exposes ReadAheadGranularity as an external variable. 

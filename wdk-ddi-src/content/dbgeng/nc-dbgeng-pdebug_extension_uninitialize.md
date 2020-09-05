@@ -47,11 +47,16 @@ api_name:
 ## -description
 
 The <b>DebugExtensionUninitialize</b> callback function is called by the engine to uninitialize the DbgEng extension DLL before it is unloaded.
-
-```cpp
- CALLBACK* PDEBUG_EXTENSION_UNINITIALIZE DebugExtensionUninitialize;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_EXTENSION_UNINITIALIZE DebugExtensionUninitialize;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 

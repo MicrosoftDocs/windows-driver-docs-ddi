@@ -92,17 +92,22 @@ After the framework dequeues the request from the second queue and delivers the 
 
 The following code example sets up a request so that the framework can cancel it.
 
-
-```cpp
-    //
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    //
     // The QueryInteraface should not fail.
     //
     (VOID)this->QueryInterface(_uuidof(IRequestCallbackCancel),
                                (PVOID *)&cancelCallback);
 
-    pWdfRequest->MarkCancelable(cancelCallback);
-```
-
+    pWdfRequest->MarkCancelable(cancelCallback);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

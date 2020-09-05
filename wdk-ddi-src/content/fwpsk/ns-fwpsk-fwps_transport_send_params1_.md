@@ -81,9 +81,13 @@ A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP
      structure is defined in 
      Ws2ipdef.h as follows.
 
-
-```cpp
-typedef struct {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct {
   union {
     struct {
       ULONG  Zone : 28;
@@ -91,9 +95,10 @@ typedef struct {
     };
     ULONG  Value;
   };
-} SCOPE_ID, *PSCOPE_ID;
-```
-
+} SCOPE_ID, *PSCOPE_ID;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field OPTIONAL
 

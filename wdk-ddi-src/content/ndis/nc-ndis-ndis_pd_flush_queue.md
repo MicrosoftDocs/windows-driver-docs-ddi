@@ -72,23 +72,33 @@ To define a <i>PDFlushQueue</i> function, you must first provide a function decl
 
 For example, to define a <i>PDFlushQueue</i> function that is named "MyPDFlushQueue", use the <b>NDIS_PD_FLUSH_QUEUE</b> type as shown in this code example:
 
-
-```cpp
-NDIS_PD_FLUSH_QUEUE MyPDFlushQueue;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NDIS_PD_FLUSH_QUEUE MyPDFlushQueue;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your function as follows:
 
-
-```cpp
-_Use_decl_annotations_
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
 VOID
  MyPDFlushQueue(
     NDIS_PD_QUEUE*  NdisPDQueue
     )
-  {...}
-```
-
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>NDIS_PD_FLUSH_QUEUE</b> function type is defined in the Ntddndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_PD_FLUSH_QUEUE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

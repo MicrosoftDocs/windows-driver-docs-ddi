@@ -84,9 +84,13 @@ Before sending this request, the user mode application must obtain a handle to t
 
 In this example, the PF driver generates a unique identifier by calling <a href="..\ntddk\nf-ntddk-zwallocatelocallyuniqueid.md">ZwAllocateLocallyUniqueId</a>  and stores it in the device context.
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 
     case IOCTL_SRIOV_PROXY_QUERY_LUID:
 
@@ -103,9 +107,10 @@ In this example, the PF driver generates a unique identifier by calling <a href=
         WdfRequestSetInformation(Request, sizeof(LUID));
         status = STATUS_SUCCESS;
         break;
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

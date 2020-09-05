@@ -72,12 +72,17 @@ A full resource descriptor begins with a <a href="https://docs.microsoft.com/win
 
 Driver code can use pointer arithmetic to step from one full resource descriptor to the next. For example, if a parameter named <i>list</i> is a pointer to the <b>CM_FULL_RESOURCE_DESCRIPTOR</b> structure at the start of one full resource descriptor, <i>list</i> can be updated to point to the start of the next full resource descriptor as follows:
 
-
-```cpp
-    list = (PCM_FULL_RESOURCE_DESCRIPTOR)(list->PartialResourceList.PartialDescriptors +
-                                          list->PartialResourceList.Count);
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    list = (PCM_FULL_RESOURCE_DESCRIPTOR)(list->PartialResourceList.PartialDescriptors +
+                                          list->PartialResourceList.Count);</pre>
+</td>
+</tr>
+</table></span></div>
 In this example, <code>list->PartialResourceList.PartialDescriptors</code> is a pointer to the start of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> array, and <code>list->PartialResourceList.Count</code> is the number of elements in the array. For more information about the <b>PartialDescriptors</b> and <b>Count</b> members, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_list">CM_PARTIAL_RESOURCE_LIST</a>.
 
 
@@ -87,9 +92,13 @@ All PnP drivers must handle <a href="https://docs.microsoft.com/windows-hardware
 
 The GetAssignedResources function returns <b>TRUE</b> if it succeeds. Otherwise, it returns <b>FALSE</b> (probably from the <b>switch</b> statement, although the details are omitted to simplify the code example).
 
-
-```cpp
-/* Process the assigned hardware resources. */
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>/* Process the assigned hardware resources. */
 
 BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 {
@@ -123,9 +132,10 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
     }
 
     return TRUE;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

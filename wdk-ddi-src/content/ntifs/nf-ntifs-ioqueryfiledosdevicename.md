@@ -60,13 +60,18 @@ Pointer to a file object for the file.
 [out]
 A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure. This structure is filled in on successful return with the MS-DOS device name information. The structure is defined as follows: 
 
-
-```cpp
-typedef struct _OBJECT_NAME_INFORMATION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _OBJECT_NAME_INFORMATION {
     UNICODE_STRING Name;
-} OBJECT_NAME_INFORMATION, *POBJECT_NAME_INFORMATION;
-```
-
+} OBJECT_NAME_INFORMATION, *POBJECT_NAME_INFORMATION;</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>.</div>
 <div> </div>
 

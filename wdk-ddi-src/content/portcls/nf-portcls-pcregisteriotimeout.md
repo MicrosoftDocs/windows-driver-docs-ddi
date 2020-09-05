@@ -116,15 +116,20 @@ The meaning of the <i>pContext</i> parameter is determined by the adapter driver
 
 The <i>pTimerRoutine </i>parameter is of type PIO_TIMER_ROUTINE, which is defined in ntddk.h to be
 
-
-```cpp
-  VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  VOID
     (*PIO_TIMER_ROUTINE)(
       IN PDEVICE_OBJECT  DeviceObject,
       IN PVOID  Context
-      );
-```
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>DeviceObject</i> and <i>Context</i> parameters are the same values that the adapter driver previously passed as call parameters to <b>PcRegisterIoTimeout</b>. The port-class driver calls the timer routine at IRQL DISPATCH_LEVEL. The timer routine must not contain pageable code.
 
 ## -see-also

@@ -47,11 +47,16 @@ api_name:
 ## -description
 
 The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">pseudo-register</a> values.
-
-```cpp
- CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;
-```
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 

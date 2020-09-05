@@ -71,9 +71,13 @@ UCX typically calls this routine to update the default endpoint's maximum packet
 
 #### Examples
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 Endpoint_EvtUcxDefaultEndpointUpdate(
     UCXCONTROLLER   UcxController,
     WDFREQUEST      Request
@@ -91,9 +95,10 @@ Endpoint_EvtUcxDefaultEndpointUpdate(
     ...
 
     WdfRequestComplete(Request, STATUS_SUCCESS);
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

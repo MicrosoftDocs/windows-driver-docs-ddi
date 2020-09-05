@@ -457,16 +457,21 @@ Receives the actual number of bytes returned by the smart card, plus the size of
 </dl>
 When this function is called, <b>SmartcardExtension->IoRequest.RequestBuffer</b> points to an SCARD_IO_REQUEST structure followed by the data to transmit.
 
-
-```cpp
-typedef struct _SCARD_IO_REQUEST{
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _SCARD_IO_REQUEST{
   DWORD  dwProtocol;   // Protocol identifier
   DWORD  cbPciLength;  // Protocol Control Information Length
 } SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST;
     
-   
-```
-
+   </pre>
+</td>
+</tr>
+</table></span></div>
 The <b>dwProtocol</b> member must contain the protocol identifier that is returned by a call to IOCTL_SMARTCARD_SET_PROTOCOL. 
 
 The <b>cbPciLength</b> member contains the size, in bytes, of the SCARD_IO_REQUEST structure. The size of this structure is usually 8 bytes. 

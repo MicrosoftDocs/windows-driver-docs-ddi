@@ -79,9 +79,13 @@ Callers of <b>AppendTailList</b> can be running at any IRQL. If <b>AppendTailLis
 
 The following code example shows how to write a function named <code>MyAppendTailList</code> that is similar to <b>AppendTailList</b>, but that treats the <i>ListToAppend</i> parameter as a pointer to a list head instead of as a pointer to the first entry in a (headless) list. Unlike <b>AppendTailList</b>, the <code>MyAppendTailList</code> function avoids including the <b>LIST_ENTRY</b> structure pointed to by the <i>ListToAppend</i> parameter in the entries that are appended to the list pointed to by the <i>ListHead</i> parameter.
 
-
-```cpp
-VOID MyAppendTailList(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID MyAppendTailList(
     _Inout_  PLIST_ENTRY ListHead,
     _Inout_  PLIST_ENTRY ListToAppend
     )
@@ -95,9 +99,10 @@ VOID MyAppendTailList(
         AppendTailList(ListHead, entry);
     }
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <code>MyAppendTailList</code> function in this code example treats both the <i>ListHead</i> and <i>ListToAppend</i> parameters as pointers to list heads. When this function returns, the list pointed to by <i>ListToAppend</i> is empty; that is, it consists of a list head that has no associated list entries. All of the entries that were initially in this list have been appended to the list pointed to by <i>ListHead</i>.
 
 <div class="code"></div>

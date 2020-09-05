@@ -62,15 +62,20 @@ None.
 
 The output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure. <b>EHSTOR_DEVICE_PROPERTIES</b> is declared in <i>ehstorioctl.h</i> as the following.
 
-
-```cpp
-typedef struct _EHSTOR_DEVICE_PROPERTIES
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _EHSTOR_DEVICE_PROPERTIES
 {
     ULONG  StructSize;
     ULONG  BytesPerSector;
-} EHSTOR_DEVICE_PROPERTIES;
-```
-
+} EHSTOR_DEVICE_PROPERTIES;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -output-buffer-length
 

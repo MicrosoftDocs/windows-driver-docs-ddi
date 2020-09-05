@@ -126,9 +126,13 @@ In some processor architectures, such as the x86, devices can be either memory-m
 
 The following code example shows how to construct an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mm_physical_address_list">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
 
-
-```cpp
-extern ULONG64 BasePhysicalAddress;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>extern ULONG64 BasePhysicalAddress;
 extern SIZE_T ChunkSize;
 extern SIZE_T Stride;
 
@@ -152,9 +156,10 @@ AddressList[2].PhysicalAddress.QuadPart = BasePhysicalAddress;
 AddressList[2].NumberOfBytes = ChunkSize;
  
 Status = MmAllocateMdlForIoSpace (AddressList, ARRAYSIZE(AddressList), &Mdl);
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 In this example, the starting physical address is specified by the <code>BasePhysicalAddress</code> variable. The number of bytes in each physical address range is specified by the <code>ChunkSize</code> variable. The byte offset from the start of one physical range to the start of the next is specified by the <code>Stride</code> variable. <code>BasePhysicalAddress</code> must be aligned to a page boundary in memory, and <code>ChunkSize</code> and <code>Stride</code> must be multiples of the page size.
 
 <div class="code"></div>

@@ -78,9 +78,13 @@ The request cannot be cancelable. If the driver previously called the <a href="h
 
 The following code example shows how to forward a request to another queue if the request's buffer is insufficient to hold the required information.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
  if (OutputBufferSizeInBytes < sizeof(SWITCH_STATE)) {
     hr = HRESULT_FROM_NT(ERROR_INSUFFICIENT_BUFFER);
  }
@@ -91,9 +95,10 @@ HRESULT hr;
      if (SUCCEEDED(hr)) {
          completeRequest = false;
      }
-  }
-```
-
+  }</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

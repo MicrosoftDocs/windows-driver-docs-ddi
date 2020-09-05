@@ -120,9 +120,13 @@ A union that defines the request data. The information in the data varies accord
 This structure contains the parameters for an <b>NdisRequestQueryInformation</b> or
        <b>NdisRequestQueryStatistics</b> request type. This structure is specified as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 struct _QUERY
   {
     NDIS_OID    Oid;
@@ -131,9 +135,10 @@ struct _QUERY
     UINT        BytesWritten;
     UINT        BytesNeeded;
   } QUERY_INFORMATION;
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field DATA.QUERY_INFORMATION.Oid
 
@@ -175,9 +180,13 @@ If
 This structure contains the parameters for an <b>NdisRequestSetInformation</b> request type. This structure
        is specified as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 struct _SET
   {
     NDIS_OID    Oid;
@@ -186,9 +195,10 @@ struct _SET
     UINT        BytesRead;
     UINT        BytesNeeded;
   } SET_INFORMATION;
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field DATA.SET_INFORMATION.Oid
 
@@ -227,9 +237,13 @@ If
 This structure contains the parameters for an <b>NdisRequestMethod</b> request type. This structure is
        specified as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 struct _METHOD
   {
     NDIS_OID            Oid;
@@ -241,9 +255,10 @@ struct _METHOD
     UINT                BytesRead;
     UINT                BytesNeeded;
   } METHOD_INFORMATION;
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field DATA.METHOD_INFORMATION.Oid
 

@@ -53,15 +53,20 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-
 Another facet of <code>IInterruptSync</code> is its ability to synchronize execution of ISRs with other routines that are not ISRs. Once a non-ISR routine is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iinterruptsync-callsynchronizedroutine">IInterruptSync::CallSynchronizedRoutine</a> and begins running, execution of any ISRs that are registered with the sync object is guaranteed to be held off until that routine has finished running.
 
 Both the <b>RegisterServiceRoutine</b> and <b>CallSynchronizedRoutine</b> methods accept function pointers of type PINTERRUPTSYNCROUTINE, which is defined as follows:
-
-```cpp
-  typedef NTSTATUS (*PINTERRUPTSYNCROUTINE)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  typedef NTSTATUS (*PINTERRUPTSYNCROUTINE)
   (
       IN  struct IInterruptSync *InterruptSync,
       IN  PVOID                  DynamicContext
-  );
-```
-The <b>InterruptSync</b> member is a pointer to the sync object. The <b>DynamicContext</b> member contains a context value that is passed to the routine when it is called.
+  );</pre>
+</td>
+</tr>
+</table></span></div>The <b>InterruptSync</b> member is a pointer to the sync object. The <b>DynamicContext</b> member contains a context value that is passed to the routine when it is called.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/interrupt-sync-objects">Interrupt Sync Objects</a>.
 

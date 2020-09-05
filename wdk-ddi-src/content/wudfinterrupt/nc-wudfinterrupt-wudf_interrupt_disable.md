@@ -87,9 +87,13 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 The function type is declared in <i>Wudfinterrupt.h</i>, as follows.
 
-
-```cpp
-typedef
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
 __drv_functionClass(WUDF_INTERRUPT_DISABLE)
 HRESULT
 WUDF_INTERRUPT_DISABLE(
@@ -99,30 +103,41 @@ WUDF_INTERRUPT_DISABLE(
     IWDFDevice* AssociatedDevice
     );
 
-typedef WUDF_INTERRUPT_DISABLE *PFN_WUDF_INTERRUPT_DISABLE;
-```
-
+typedef WUDF_INTERRUPT_DISABLE *PFN_WUDF_INTERRUPT_DISABLE;</pre>
+</td>
+</tr>
+</table></span></div>
 To define an <i>OnInterruptDisable</i> callback function that is named <i>MyInterruptDisable</i>, you must first provide a function declaration that SDV and other verification tools require, as follows:
 
-
-```cpp
-WUDF_INTERRUPT_DISABLE  MyInterruptDisable;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WUDF_INTERRUPT_DISABLE  MyInterruptDisable;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your callback function as follows:
 
-
-```cpp
-HRESULT
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
   MyInterruptDisable (
     IN IWDFInterrupt* pInterrupt,
     IN IWDFDevice*  pAssociatedDevice
     )
   {…}
 
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

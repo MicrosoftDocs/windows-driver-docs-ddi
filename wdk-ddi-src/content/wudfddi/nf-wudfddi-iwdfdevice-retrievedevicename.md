@@ -90,9 +90,13 @@ The device name is not the physical device object (PDO) name. Instead, the devic
 
 The following code example shows how to retrieve the name of an underlying kernel-mode device.
 
-
-```cpp
-    PWSTR deviceName = NULL;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    PWSTR deviceName = NULL;
     DWORD deviceNameCch = 0;
     HRESULT hr;
     //
@@ -122,9 +126,10 @@ The following code example shows how to retrieve the name of an underlying kerne
                          NULL, 
                          OPEN_EXISTING, 
                          FILE_FLAG_OVERLAPPED, 
-                         NULL);
-```
-
+                         NULL);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

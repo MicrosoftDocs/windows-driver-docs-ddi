@@ -64,9 +64,13 @@ KD_DEBUGGER_NOT_PRESENT can be modified by Windows or any other kernel-mode bina
 <div> </div>
 The following sample shows how to use <b>KdRefreshDebuggerNotPresent</b>:
 
-
-```cpp
-if (KdRefreshDebuggerNotPresent() == FALSE)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>if (KdRefreshDebuggerNotPresent() == FALSE)
 {
     //  A kernel debugger is active.
     DbgPrint("A problem occurred\n");
@@ -76,9 +80,10 @@ else
 {
  //  No kernel debugger attached, or kernel debugging not enabled.
  KeBugCheckEx(...);
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

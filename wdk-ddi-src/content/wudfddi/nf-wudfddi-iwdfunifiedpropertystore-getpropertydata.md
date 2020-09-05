@@ -166,9 +166,13 @@ Then, the driver should then allocate a buffer based on the <i>PropertyDataRequi
 The following example demonstrates this 
 pattern.
 
-
-```cpp
-HRESULT
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
 GetFriendlyName(
     _In_ IWDFUnifiedPropertyStore * pUnifiedPropertyStore
     )
@@ -255,9 +259,10 @@ exit:
 
     return hr;
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

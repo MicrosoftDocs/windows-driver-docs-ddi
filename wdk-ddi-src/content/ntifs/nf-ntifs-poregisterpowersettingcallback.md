@@ -129,18 +129,23 @@ The initial call to a callback routine might occur immediately, before the <b>Po
 
 The function prototype of the power-setting callback routine is as follows:
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 POWER_SETTING_CALLBACK (
   _In_ LPCGUID SettingGuid,
   _In_ PVOID Value,
   _In_ ULONG ValueLength,
   _Inout_opt_ PVOID Context
 );
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The power-setting callback parameters are:
 
 
@@ -176,16 +181,25 @@ To define a power-setting callback routine, you must first provide a function de
 
 For example, to define a power-setting callback routine that is named <code>MyPowerSettingCallback</code>, use the POWER_SETTING_CALLBACK type as shown in this code example:
 
-
-```cpp
-POWER_SETTING_CALLBACK MyPowerSettingCallback;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>POWER_SETTING_CALLBACK MyPowerSettingCallback;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your callback routine as follows:
 
-
-```cpp
-_Use_decl_annotations_
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
 NTSTATUS
   MyPowerSettingCallback(
     LPCGUID SettingGuid,
@@ -195,9 +209,10 @@ NTSTATUS
     )
   {
       // Function body
-  }
-```
-
+  }</pre>
+</td>
+</tr>
+</table></span></div>
 The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the POWER_SETTING_CALLBACK function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

@@ -84,11 +84,16 @@ A value that indicates the IRQL at which the
 The FWPS_INJECT_COMPLETE0 type is defined as a pointer to the 
     <i>completionFn</i> function as follows:
 
-
-```cpp
-typedef void (NTAPI *FWPS_INJECT_COMPLETE0) completionFn
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef void (NTAPI *FWPS_INJECT_COMPLETE0) completionFn</pre>
+</td>
+</tr>
+</table></span></div>
 The 
     <b>Status</b> member of the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pointed to by 

@@ -104,9 +104,13 @@ A driver cannot call <b>Send</b> to send an I/O request to a USB pipe, if the dr
 
 The following code example forwards a request to a device's I/O target.
 
-
-```cpp
-    IWDFIoRequest* FxRequest;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    IWDFIoRequest* FxRequest;
 
     //
     // Set the completion callback.
@@ -145,9 +149,10 @@ The following code example forwards a request to a device's I/O target.
         // If the send failed, the driver must complete the 
         // request with the failure.
         FxRequest->CompleteWithInformation(hrSend, 0);
-    }
-```
-
+    }</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

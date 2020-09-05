@@ -145,17 +145,26 @@ To calculate the size of an ACL, add <b>sizeof</b>(ACL) to the size of all the A
 
 The following example shows how to calculate the size of an access-allowed ACE:
 
-
-```cpp
-sizeof (ACCESS_ALLOWED_ACE) - sizeof (ACCESS_ALLOWED_ACE.SidStart) 
-        + GetLengthSid (pAceSid);
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>sizeof (ACCESS_ALLOWED_ACE) - sizeof (ACCESS_ALLOWED_ACE.SidStart) 
+        + GetLengthSid (pAceSid);</pre>
+</td>
+</tr>
+</table></span></div>
 To calculate the size of an ACL, use the following algorithm, substituting the appropriate ACE structure in the <b>sizeof</b>(ACE) expression:
 
-
-```cpp
-cbAcl = sizeof (ACL);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>cbAcl = sizeof (ACL);
 for (i = 0 ; i < nAceCount ; i++) {
     // subtract ACE.SidStart from the size
     cbAce = sizeof (ACE) - sizeof (DWORD);
@@ -163,9 +172,10 @@ for (i = 0 ; i < nAceCount ; i++) {
     cbAce += GetLengthSid (pAceSid[i]);
     // add the length of each ACE to the total ACL length
     cbAcl += cbAce;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 For more information about security and access control, see the documentation on these topics in thePlatform Software Development Kit (SDK).
 
 ## -see-also

@@ -66,14 +66,19 @@ Specifies the maximum possible number of usages in the changed usage list.
 [in]
 Identifies the key direction for the specified change usage list. 
 
-
-```cpp
-typedef enum _HIDP_KEYBOARD_DIRECTION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum _HIDP_KEYBOARD_DIRECTION {
     HidP_Keyboard_Break,
     HidP_Keyboard_Make
-} HIDP_KEYBOARD_DIRECTION;
-```
-
+} HIDP_KEYBOARD_DIRECTION;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -93,9 +98,13 @@ Specifies a <i>make</i> direction (key down). The changed usage list contains th
 [in, out]
 Pointer to a _HIDP_KEYBOARD_MODIFIER_STATE structure that the caller maintains for use by the translate usages routine. The modifier state structure identifies the state of the keyboard modifier keys. 
 
-
-```cpp
-typedef struct _HIDP_KEYBOARD_MODIFIER_STATE {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _HIDP_KEYBOARD_MODIFIER_STATE {
     union {
       struct {
         ULONG LeftControl: 1;
@@ -112,9 +121,10 @@ typedef struct _HIDP_KEYBOARD_MODIFIER_STATE {
         ULONG Reserved: 21;
       };
       ULONG ul;
-};
-```
-
+};</pre>
+</td>
+</tr>
+</table></span></div>
 Each member of the modifier state structure identifies whether the corresponding usage is set to ON (1) or OFF (zero).
 
 See the Remarks section for more information about how a modifier state structure is used with the translate usage routine.
@@ -124,15 +134,20 @@ See the Remarks section for more information about how a modifier state structur
 [in]
 Pointer to a caller-supplied PHIDP_INSERT_SCANCODES-typed callback routine that the translate usage routine uses to return the mapped scan codes to the caller of the translate usage routine.
 
-
-```cpp
-typedef BOOLEAN (*PHIDP_INSERT_SCANCODES)(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef BOOLEAN (*PHIDP_INSERT_SCANCODES)(
     IN PVOID  Context,
     IN PCHAR  NewScanCodes,
     IN ULONG  Length
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -69,9 +69,13 @@ For more information about the <b>Close</b> method, see <a href="https://docs.mi
 
 The following code example shows an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iremotetargetcallbackremoval-onremotetargetremovecomplete">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a> callback function that calls <b>Close</b>.
 
-
-```cpp
-VOID 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID 
 STDMETHODCALLTYPE
 CMyRemoteTarget::OnRemoteTargetRemoveComplete(
     __in IWDFRemoteTarget *FxTarget
@@ -86,9 +90,10 @@ CMyRemoteTarget::OnRemoteTargetRemoveComplete(
     // Close the target.
     //
     FxTarget->Close();
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

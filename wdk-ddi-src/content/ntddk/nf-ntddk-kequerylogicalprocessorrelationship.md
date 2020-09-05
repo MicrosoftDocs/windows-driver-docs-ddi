@@ -139,9 +139,13 @@ To determine the buffer size to allocate, initially call <b>KeQueryLogicalProces
 
 The following code example gets processor relationship information for all the logical processors in a multiprocessor system:
 
-
-```cpp
-    //
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    //
     // Get required buffer size.
     //
     NTSTATUS Status;
@@ -166,9 +170,10 @@ The following code example gets processor relationship information for all the l
     if (NT_SUCCESS(Status))
     {
         Status = KeQueryLogicalProcessorRelationship(NULL, RelationAll, Info, &BufferSize);
-    }
-```
-
+    }</pre>
+</td>
+</tr>
+</table></span></div>
 The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is defined in the Ntdef.h header file.
 
 <div class="code"></div>

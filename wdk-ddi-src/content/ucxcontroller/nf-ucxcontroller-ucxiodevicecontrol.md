@@ -90,9 +90,13 @@ The client driver can call this method to allow UCX to handle IOCTLs listed in t
 
 #### Examples
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 Controller_WdfEvtIoDeviceControl(
     WDFQUEUE    WdfQueue,
     WDFREQUEST  WdfRequest,
@@ -171,9 +175,10 @@ Return Value:
 WdfEvtIoDeviceControlEnd:
 
     return;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

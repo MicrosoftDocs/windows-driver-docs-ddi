@@ -60,15 +60,20 @@ Pointer to a file object for the file.
 [in]
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b>, and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 
-
-```cpp
-typedef struct _CC_FILE_SIZES {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _CC_FILE_SIZES {
     LARGE_INTEGER AllocationSize;
     LARGE_INTEGER FileSize;
     LARGE_INTEGER ValidDataLength;
-} CC_FILE_SIZES, *PCC_FILE_SIZES;
-```
-
+} CC_FILE_SIZES, *PCC_FILE_SIZES;</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Member</th>
@@ -116,9 +121,13 @@ Set to <b>TRUE</b> if <b>CcPin</b><i>Xxx</i> routines will be used on the file.
 [in]
 Pointer to a structure allocated from nonpaged pool, containing entry points of caller-supplied read-ahead and write-behind callback routines.This structure and its members are defined as follows:
 
-
-```cpp
-typedef struct _CACHE_MANAGER_CALLBACKS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _CACHE_MANAGER_CALLBACKS {
     PACQUIRE_FOR_LAZY_WRITE AcquireForLazyWrite;
     PRELEASE_FROM_LAZY_WRITE ReleaseFromLazyWrite;
     PACQUIRE_FOR_READ_AHEAD AcquireForReadAhead;
@@ -141,9 +150,10 @@ BOOLEAN (*PACQUIRE_FOR_READ_AHEAD) (
 typedef
 VOID (*PRELEASE_FROM_READ_AHEAD) (
              IN PVOID Context
-             );
-```
-
+             );</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param LazyWriteContext 
 
@@ -164,14 +174,19 @@ When closing a file, every file system that supports file caching must call <a h
 
 The <b>CcIsFileCached</b> macro determines whether a file is cached or not.
 
-
-```cpp
-BOOLEAN CcIsFileCached(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN CcIsFileCached(
   [in] PFILE_OBJECT FileObject
 );
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Parameters
 
 <i>FileObject[in]</i> [in]

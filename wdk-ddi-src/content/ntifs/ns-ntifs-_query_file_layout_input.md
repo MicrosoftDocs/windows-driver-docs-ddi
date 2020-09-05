@@ -185,28 +185,38 @@ This member is ignored if <b>QUERY_FILE_LAYOUT_FILTER_TYPE_NONE</b> is specified
 Specifies a set of cluster ranges to filter layout information. The range structure has the following format.
 
 
-
-```cpp
-typedef struct _CLUSTER_RANGE {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _CLUSTER_RANGE {
     LARGE_INTEGER    StartingCluster;
     LARGE_INTEGER    ClusterCount;
-} CLUSTER_RANGE, *PCLUSTER_RANGE;
-```
-
+} CLUSTER_RANGE, *PCLUSTER_RANGE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field Filter.FileReferenceRanges
 
 Specifies a set of file reference ranges to filter layout information. The range structure has the following format.
 
 
-
-```cpp
-typedef struct _FILE_REFERENCE_RANGE {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _FILE_REFERENCE_RANGE {
     LARGE_INTEGER    StartingFileReference;
     LARGE_INTEGER    EndingReferenceNumber;
-} FILE_REFERENCE_RANGE, *PFILE_REFERENCE_RANGE;
-```
-
+} FILE_REFERENCE_RANGE, *PFILE_REFERENCE_RANGE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -remarks
 

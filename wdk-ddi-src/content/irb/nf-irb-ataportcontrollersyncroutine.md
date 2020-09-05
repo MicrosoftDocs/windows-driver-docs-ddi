@@ -70,15 +70,20 @@ The miniport driver uses this routine to synchronize access to data structures t
 
 The <i>ControllerSyncRoutine</i> function pointer is declared in <i>Irb.h</i> as follows:
 
-
-```cpp
-typedef
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
 VOID
 (*IDE_HW_DPC) (
   IN PVOID ChannelExtension
-  );
-```
-
+  );</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

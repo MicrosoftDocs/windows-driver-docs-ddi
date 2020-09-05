@@ -72,14 +72,19 @@ This member is optional and can be <b>NULL</b>.
 
 Pointer to a callback routine that frees the per-stream context structure. This routine and its parameters are defined as follows: 
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 (*PFREE_FUNCTION) (
      IN PVOID Buffer
-     );
-```
-
+     );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

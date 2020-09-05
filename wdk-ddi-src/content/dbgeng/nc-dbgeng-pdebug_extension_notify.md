@@ -47,11 +47,16 @@ api_name:
 ## -description
 
 The engine calls the <b>DebugExtensionNotify</b> callback function to inform the extension <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> when a session changes its active or accessible status.
-
-```cpp
- CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;
-```
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 

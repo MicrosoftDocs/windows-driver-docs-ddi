@@ -55,17 +55,22 @@ The <b>KeInitializeQueue</b> routine initializes a queue object on which threads
 [out]
 Pointer to a KQUEUE structure for which the caller must provide resident storage in nonpaged pool. This structure is defined as follows:
 
-
-```cpp
-typedef struct _KQUEUE {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _KQUEUE {
     DISPATCHER_HEADER Header;
     LIST_ENTRY EntryListHead;
     ULONG CurrentCount;
     ULONG MaximumCount;
     LIST_ENTRY ThreadListHead;
-} KQUEUE, *PKQUEUE, *RESTRICTED_POINTER PRKQUEUE;
-```
-
+} KQUEUE, *PKQUEUE, *RESTRICTED_POINTER PRKQUEUE;</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Member</th>

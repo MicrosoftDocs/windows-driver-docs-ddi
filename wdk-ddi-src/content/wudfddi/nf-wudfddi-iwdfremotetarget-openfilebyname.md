@@ -111,9 +111,13 @@ For more information about the <b>OpenFileByName</b> method and remote I/O targe
 
 The following code example creates a remote target object and opens an existing file with read-only access.
 
-
-```cpp
-UMDF_IO_TARGET_OPEN_PARAMS openParams;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>UMDF_IO_TARGET_OPEN_PARAMS openParams;
 HRESULT hr;
 
 //
@@ -136,9 +140,10 @@ openParams.dwFlagsAndAttributes = FILE_ATTRIBUTE_READONLY;
 hr = fxTarget->OpenFileByName(FILE_PATH,
                               GENERIC_READ,
                               &openParams);
- 
-```
-
+ </pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

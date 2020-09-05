@@ -77,16 +77,21 @@ If caller sets <i>AllocateDestinationString</i> to <b>TRUE</b>, the routine repl
 
 This routine is not declared in a header file. However, you can copy the following declaration to your source code:
 
-
-```cpp
-NTSYSAPI
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSYSAPI
 WCHAR
 NTAPI
 RtlAnsiCharToUnicodeChar(
     __inout PUCHAR *SourceCharacter
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 You can use the following routines to convert single-byte and double-byte characters to Unicode characters:
 
 

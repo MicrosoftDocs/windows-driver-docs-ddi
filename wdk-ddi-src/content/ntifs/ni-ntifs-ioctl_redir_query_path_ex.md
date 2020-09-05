@@ -49,11 +49,16 @@ api_name:
 The <b>IOCTL_REDIR_QUERY_PATH_EX</b> control code is sent by the multiple UNC provider (MUP) on Windows Vista or later to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request. This request is referred to as "prefix resolution." 
 
 MUP is a kernel-mode component responsible for channeling all remote file system accesses using a UNC name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used as illustrated by the following example that could be executed from a command line:
-
-```cpp
-notepad \\server\public\readme.txt
-```
-MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>notepad \\server\public\readme.txt</pre>
+</td>
+</tr>
+</table></span></div>MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
 
 For network redirectors that conform to the Windows Vista redirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case, MUP simply passes the operation to the network redirector that is involved.
 
@@ -77,16 +82,21 @@ The provider and the prefix that it claimed are entered in a prefix cache mainta
 
 <b>IrpSp->Parameters.DeviceIoControl.Type3InputBuffer</b> is set to a <b>QUERY_PATH_REQUEST_EX</b> data structure that contains the request. 
 
-
-```cpp
-typedef struct _QUERY_PATH_REQUEST_EX {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _QUERY_PATH_REQUEST_EX {
   PIO_SECURITY_CONTEXT  pSecurityContext;
   ULONG  EaLength;
   PVOID  pEaBuffer;
   UNICODE_STRING  PathName;
-} QUERY_PATH_REQUEST_EX, *PQUERY_PATH_REQUEST_EX;
-```
-
+} QUERY_PATH_REQUEST_EX, *PQUERY_PATH_REQUEST_EX;</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Structure member</th>
@@ -140,13 +150,18 @@ A non-NULL terminated Unicode string of the form \<server>\<share>\<path>.
 
 <b>IRP->UserBuffer</b> is set to a <b>QUERY_PATH_RESPONSE</b> data structure that contains the response.
 
-
-```cpp
-typedef struct _QUERY_PATH_RESPONSE {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _QUERY_PATH_RESPONSE {
   ULONG  LengthAccepted;
-} QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;
-```
-
+} QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Structure member</th>

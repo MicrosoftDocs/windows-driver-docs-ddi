@@ -47,11 +47,16 @@ api_name:
 ## -description
 
 The <i>EndThreadStackReconstruction</i> callback function may be called after stack reconstruction to clean up state.
-
-```cpp
- CALLBACK* PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION EndThreadStackReconstruction;
-```
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION EndThreadStackReconstruction;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 

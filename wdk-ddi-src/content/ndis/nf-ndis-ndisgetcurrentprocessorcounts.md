@@ -84,11 +84,16 @@ A driver might call
     <b>NdisGetCurrentProcessorCounts</b> periodically within a timer function. The driver can use the
     following calculation to determine the CPU usage for a multiple of the timer interval:
 
-
-```cpp
-CpuUsage = 100-100*(Idle - Idle[n])/(KernelAndUser - KernelAndUser[n]);
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>CpuUsage = 100-100*(Idle - Idle[n])/(KernelAndUser - KernelAndUser[n]);</pre>
+</td>
+</tr>
+</table></span></div>
 where:
 
 <ul>

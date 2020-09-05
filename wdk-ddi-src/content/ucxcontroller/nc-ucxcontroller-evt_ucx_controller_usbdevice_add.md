@@ -83,9 +83,13 @@ This callback function creates a new USB device object and registers the
 
 #### Examples
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 UsbDevice_EvtControllerUsbDeviceAdd(
     UCXCONTROLLER       UcxController,
     PUCXUSBDEVICE_INFO  UsbDeviceInfo,
@@ -144,9 +148,10 @@ UsbDevice_EvtControllerUsbDeviceAdd(
 EvtControllerUsbDeviceAddEnd:
 
     return status;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

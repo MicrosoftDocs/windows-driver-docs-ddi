@@ -128,9 +128,13 @@ The <b>SetPipePolicy</b> method generates a UMDF request and synchronously sends
 
 The following code example sets policy for input and output pipes.
 
-
-```cpp
-HRESULT
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
 CMyDevice::ConfigureUsbIoTargets(
     )
 {
@@ -176,9 +180,10 @@ CMyDevice::ConfigureUsbIoTargets(
        }
     }
  return hr;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

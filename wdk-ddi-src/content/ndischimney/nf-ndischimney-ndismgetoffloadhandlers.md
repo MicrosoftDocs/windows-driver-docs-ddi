@@ -90,13 +90,18 @@ A pointer to a variable supplied by the offload target. The size of this variabl
      follows:
      
 
-
-```cpp
-typedef struct _NDIS_OFFLOAD_EVENT_HANDLERS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _NDIS_OFFLOAD_EVENT_HANDLERS {
   NDIS_OBJECT_HEADER  Header;
-} NDIS_OFFLOAD_EVENT_HANDLERS, *PNDIS_OFFLOAD_EVENT_HANDLERS;
-```
-
+} NDIS_OFFLOAD_EVENT_HANDLERS, *PNDIS_OFFLOAD_EVENT_HANDLERS;</pre>
+</td>
+</tr>
+</table></span></div>
 This structure contains the following member:
 
 

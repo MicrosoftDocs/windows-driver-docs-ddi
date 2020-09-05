@@ -47,11 +47,16 @@ api_name:
 ## -description
 
 The <b>DebugExtensionInitialize</b> callback function is called by the engine after loading a DbgEng extension DLL.
-
-```cpp
- CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;
-```
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 
@@ -94,11 +99,16 @@ The engine looks for this function by name in each extension DLL.  This function
 
 The version number can be set by using the macro DEBUG_EXTENSION_VERSION found in dbgeng.h, for example:
 
-
-```cpp
-*Version = DEBUG_EXTENSION_VERSION(Major, Minor)
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>*Version = DEBUG_EXTENSION_VERSION(Major, Minor)</pre>
+</td>
+</tr>
+</table></span></div>
 Implementations of this function should initialize any global variables required by the extension DLL.
 
 There may or may not be a session active when this function is called, so the extension should not assume that it is able to query session information.

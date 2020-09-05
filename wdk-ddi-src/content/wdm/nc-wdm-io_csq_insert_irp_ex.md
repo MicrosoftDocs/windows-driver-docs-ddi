@@ -82,16 +82,25 @@ To define a <i>CsqInsertIrpEx</i> callback routine, you must first provide a fun
 
 For example, to define a <i>CsqInsertIrpEx</i> callback routine that is named <code>MyCsqInsertIrpEx</code>, use the IO_CSQ_INSERT_IRP_EX type as shown in this code example:
 
-
-```cpp
-IO_CSQ_INSERT_IRP_EX MyCsqInsertIrpEx;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IO_CSQ_INSERT_IRP_EX MyCsqInsertIrpEx;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your callback routine as follows:
 
-
-```cpp
-_Use_decl_annotations_
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
 NTSTATUS
  MyCsqInsertIrpEx(
     struct _IO_CSQ  *Csq,
@@ -100,9 +109,10 @@ NTSTATUS
     )
   {
       // Function body
-  }
-```
-
+  }</pre>
+</td>
+</tr>
+</table></span></div>
 The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_CSQ_INSERT_IRP_EX function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

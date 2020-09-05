@@ -84,9 +84,13 @@ The client driver must call <a href="https://docs.microsoft.com/windows-hardware
 
 The following code snippet shows how to call <b>UfxDeviceCreate</b>.
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 UfxDevice_DeviceCreate (
     _In_ WDFDEVICE WdfDevice
     )
@@ -170,7 +174,8 @@ Return Value:
 
     ...
 
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 

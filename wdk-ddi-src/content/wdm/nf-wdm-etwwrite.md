@@ -100,9 +100,13 @@ Events can be lost for several reasons; for example, if the event rate is too hi
 
 
 <h3><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
-
-```cpp
- 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre> 
  //
  // Register the provider with ETW in DriverEntry
  // Unregister the provider in DriverUnload 
@@ -137,9 +141,10 @@ Events can be lost for several reasons; for example, if the event rate is too hi
  EventDataDescriptor); // Array of data descriptors
     }              
 
-//
-```
-
+//</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -remarks
 

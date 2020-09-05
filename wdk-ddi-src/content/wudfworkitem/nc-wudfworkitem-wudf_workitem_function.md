@@ -72,38 +72,53 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The function type is declared in <i>Wudfworkitem.h</i>, as follows.
 
-
-```cpp
-typedef
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
 VOID
 WUDF_WORKITEM_FUNCTION(
     _In_
     IWDFWorkItem* pWorkItem
     );
 
-typedef WUDF_WORKITEM_FUNCTION *PFN_WUDF_WORKITEM;
-```
-
+typedef WUDF_WORKITEM_FUNCTION *PFN_WUDF_WORKITEM;</pre>
+</td>
+</tr>
+</table></span></div>
 To define an <i>OnWorkItem</i> callback function that is named <i>MyWorkItem</i>, you must first provide a function declaration that SDV and other verification tools require, as follows:
 
-
-```cpp
-WUDF_WORKITEM_FUNCTION  MyWorkItem;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WUDF_WORKITEM_FUNCTION  MyWorkItem;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your callback function as follows:
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
   MyWorkItem (
    _In_
     IWDFWorkItem* pWorkItem
     )
   {…}
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

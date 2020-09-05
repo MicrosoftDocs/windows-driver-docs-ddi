@@ -52,9 +52,13 @@ The <b>IoGetConfigurationInformation</b> routine returns a pointer to the I/O ma
 
 <b>IoGetConfigurationInformation</b> returns a pointer to the configuration information structure. This structure is defined as follows:
 
-
-```cpp
-typedef struct _CONFIGURATION_INFORMATION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _CONFIGURATION_INFORMATION {
 
     //
     // This field indicates the total number of disks in the system. This
@@ -94,9 +98,10 @@ typedef struct _CONFIGURATION_INFORMATION {
 
     ULONG MediumChangerCount;
 
-} CONFIGURATION_INFORMATION, *PCONFIGURATION_INFORMATION;
-```
-
+} CONFIGURATION_INFORMATION, *PCONFIGURATION_INFORMATION;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -remarks
 

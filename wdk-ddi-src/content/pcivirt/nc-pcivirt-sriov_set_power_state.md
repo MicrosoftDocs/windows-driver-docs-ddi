@@ -93,9 +93,13 @@ The PF driver registers its implementation by setting the <b>SetVfPowerState</b>
 
 Here is an example implementation of this callback function.
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 NTSTATUS
 Virtualization_SetPowerState (
     __inout              PVOID              Context,
@@ -153,7 +157,8 @@ Virtualization_SetPowerState (
 
     return status;
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 

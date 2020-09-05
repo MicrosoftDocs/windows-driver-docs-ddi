@@ -60,15 +60,20 @@ Pointer to a file object for the cached file.
 [in]
 Pointer to a CC_FILE_SIZES structure containing <b>AllocationSize</b>, <b>FileSize</b> and <b>ValidDataLength</b> for the file. This structure is defined as follows:
 
-
-```cpp
-typedef struct _CC_FILE_SIZES {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _CC_FILE_SIZES {
     LARGE_INTEGER AllocationSize;
     LARGE_INTEGER FileSize;
     LARGE_INTEGER ValidDataLength;
-} CC_FILE_SIZES, *PCC_FILE_SIZES;
-```
-
+} CC_FILE_SIZES, *PCC_FILE_SIZES;</pre>
+</td>
+</tr>
+</table></span></div>
 <table>
 <tr>
 <th>Member</th>
@@ -134,14 +139,19 @@ To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 The <b>CcGetFileSizePointer</b> macro returns the size of a file, given a pointer to a file object for the file.
 
-
-```cpp
-PLARGE_INTEGER CcGetFileSizePointer(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PLARGE_INTEGER CcGetFileSizePointer(
   [in] PFILE_OBJECT FileObject
 );
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Parameters
 
 <i>FileObject [in]</i>

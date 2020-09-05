@@ -91,15 +91,20 @@ The offset, in bytes, of a <a href="https://docs.microsoft.com/windows-hardware/
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure that contains the authorization key for the new band. The offset is from the beginning of <b>CREATE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 
-
-```cpp
-typedef struct _AUTH_KEY
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _AUTH_KEY
 {
     ULONG   KeySize;
     UCHAR   Key[ANYSIZE_ARRAY];
-} AUTH_KEY;
-```
-
+} AUTH_KEY;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

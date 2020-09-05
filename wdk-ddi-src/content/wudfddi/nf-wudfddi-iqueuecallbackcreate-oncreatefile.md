@@ -84,9 +84,13 @@ A UMDF driver might be required to open registry keys or files while it imperson
 
 This example is based on the WpdWudfSampleDriver sample, and is from the Queue.cpp file.
 
-
-```cpp
-STDMETHODIMP_ (void) CQueue::OnCreateFile(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP_ (void) CQueue::OnCreateFile(
 /*[in]*/ IWDFIoQueue* pQueue,
 /*[in]*/ IWDFIoRequest* pRequest,
 /*[in]*/ IWDFFile* pFileObject
@@ -108,9 +112,10 @@ hr = E_OUTOFMEMORY;
 }
 pRequest->Complete(hr);
 return;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

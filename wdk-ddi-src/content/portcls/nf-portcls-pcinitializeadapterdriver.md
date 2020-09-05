@@ -66,15 +66,20 @@ Specifies the registry path name that is to be passed as a parameter to the adap
 [in]
 Pointer to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> function. This is a pointer of type PDRIVER_ADD_DEVICE, which is defined in ntddk.h to be:
 
-
-```cpp
-  NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>  NTSTATUS
     (*PDRIVER_ADD_DEVICE)(
       IN struct _DRIVER_OBJECT  *DriverObject,
       IN struct _DEVICE_OBJECT  *PhysicalDeviceObject
-        );
-```
-
+        );</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -returns
 

@@ -115,18 +115,23 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 <b>ObCloseHandle</b> is not declared in a header file prior to Windows 7. To use this routine in your driver, include the following function declaration in your driver code:
 
-
-```cpp
-#if (NTDDI_VERSION < NTDDI_WIN7)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#if (NTDDI_VERSION < NTDDI_WIN7)
 NTKERNELAPI
 NTSTATUS
   ObCloseHandle(
     __in HANDLE Handle,
     __in KPROCESSOR_MODE PreviousMode
     );
-#endif
-```
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

@@ -70,14 +70,19 @@ Specifies the number of bytes in the array of bytes located at <b>Bytes</b>.
 
 Specifies one of the following write states:
 
-
-```cpp
-typedef enum _TRANSMIT_STATE {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum _TRANSMIT_STATE {
     Idle = 0,
     SendingBytes
-} TRANSMIT_STATE;
-```
-
+} TRANSMIT_STATE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -65,15 +65,20 @@ Set to <b>TRUE</b> if the enumeration is to start at the beginning of the list o
 
 To enumerate all byte-range locks for a given file, use <b>FsRtlGetNextFileLock</b> as follows:
 
-
-```cpp
-for (p = FsRtlGetNextFileLock( FileLock, TRUE );
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>for (p = FsRtlGetNextFileLock( FileLock, TRUE );
      p != NULL;
      p = FsRtlGetNextFileLock( FileLock, FALSE )) {
         // Process the lock information pointed to by p
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -returns
 

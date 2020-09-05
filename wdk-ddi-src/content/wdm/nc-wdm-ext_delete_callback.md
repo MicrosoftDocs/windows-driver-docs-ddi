@@ -70,23 +70,33 @@ To define an <i>ExTimerDeleteCallback</i> callback routine, you must first provi
 
 For example, to define an <i>ExTimerDeleteCallback</i> callback routine that is named <code>MyExTimerDeleteCallback</code>, use the EXT_DELETE_CALLBACK function type, as shown in this code example:
 
-
-```cpp
-EXT_DELETE_CALLBACK  MyExTimerDeleteCallback;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>EXT_DELETE_CALLBACK  MyExTimerDeleteCallback;</pre>
+</td>
+</tr>
+</table></span></div>
 Then, implement your callback routine as follows:
 
-
-```cpp
-_Use_decl_annotations_
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>_Use_decl_annotations_
 VOID
   MyExTimerDeleteCallback(
     PVOID  Context
     )
-  {...}
-```
-
+  {...}</pre>
+</td>
+</tr>
+</table></span></div>
 The EXT_DELETE_CALLBACK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the <b>_Use_decl_annotations_</b> annotation to your function definition. The <b>_Use_decl_annotations_</b> annotation ensures that the annotations that are applied to the EXT_DELETE_CALLBACK function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions Using Function Role Types for WDM Drivers</a>. For more information about <b>_Use_decl_annotations_</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

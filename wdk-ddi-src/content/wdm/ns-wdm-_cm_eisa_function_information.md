@@ -120,56 +120,76 @@ Specifies the type of device.
 
 Describes the EISA device memory configuration information, defined as follows:
 
-
-```cpp
-typedef struct _EISA_MEMORY_CONFIGURATION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _EISA_MEMORY_CONFIGURATION {
     EISA_MEMORY_TYPE ConfigurationByte;
     UCHAR DataSize;
     USHORT AddressLowWord;
     UCHAR AddressHighByte;
     USHORT MemorySize;
-} EISA_MEMORY_CONFIGURATION, *PEISA_MEMORY_CONFIGURATION;
-```
-
+} EISA_MEMORY_CONFIGURATION, *PEISA_MEMORY_CONFIGURATION;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field EisaIrq
 
 Describes the EISA interrupt configuration information, defined as follows:
 
-
-```cpp
-typedef struct _EISA_IRQ_CONFIGURATION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _EISA_IRQ_CONFIGURATION {
     EISA_IRQ_DESCRIPTOR ConfigurationByte;
     UCHAR Reserved;
-} EISA_IRQ_CONFIGURATION, *PEISA_IRQ_CONFIGURATION;
-```
-
+} EISA_IRQ_CONFIGURATION, *PEISA_IRQ_CONFIGURATION;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field EisaDma
 
 Describes the EISA DMA configuration information, defined as follows:
 
-
-```cpp
-typedef struct _EISA_DMA_CONFIGURATION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _EISA_DMA_CONFIGURATION {
     DMA_CONFIGURATION_BYTE0 ConfigurationByte0;
     DMA_CONFIGURATION_BYTE1 ConfigurationByte1;
-} EISA_DMA_CONFIGURATION, *PEISA_DMA_CONFIGURATION;
-```
-
+} EISA_DMA_CONFIGURATION, *PEISA_DMA_CONFIGURATION;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field EisaPort
 
 Describes the EISA device port configuration information, defined as follows:
 
-
-```cpp
-typedef struct _EISA_PORT_CONFIGURATION {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _EISA_PORT_CONFIGURATION {
     EISA_PORT_DESCRIPTOR Configuration;
     USHORT PortAddress;
-} EISA_PORT_CONFIGURATION, *PEISA_PORT_CONFIGURATION;
-```
-
+} EISA_PORT_CONFIGURATION, *PEISA_PORT_CONFIGURATION;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field InitializationData
 

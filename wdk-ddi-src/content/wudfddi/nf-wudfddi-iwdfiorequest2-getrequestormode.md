@@ -65,9 +65,13 @@ If <b>GetRequestorMode</b> returns <b>WdfUserMode</b>, the driver can call <a hr
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackwrite-onwrite">IQueueCallbackWrite::OnWrite</a> callback function can determine whether an I/O request is from kernel mode or user mode. If the request is from user mode, the example determines whether the request is from an application or another user-mode driver.
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 STDMETHODCALLTYPE
   CMyQueue::OnWrite(
     __in IWDFIoQueue *pWdfQueue,
@@ -89,9 +93,10 @@ STDMETHODCALLTYPE
         fromApp = r2->IsFromUserModeDriver();
     }
 ...
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

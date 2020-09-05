@@ -146,9 +146,13 @@ The UCX client driver registers its <i>EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY</
 
 #### Examples
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 Controller_EvtControllerQueryUsbCapability(
     UCXCONTROLLER   UcxController,
     PGUID           CapabilityType,
@@ -219,9 +223,10 @@ Controller_EvtControllerQueryUsbCapability(
     }
 
     return status;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

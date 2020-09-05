@@ -62,15 +62,20 @@ Address of a routine for the cache manager to call to write to the cached file. 
 
 The post routine is defined in ntifs.h as:
 
-
-```cpp
-typedef
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef
 VOID (*PCC_POST_DEFERRED_WRITE) (
     _In_ PVOID Context1,
     _In_ PVOID Context2
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param Context1 
 

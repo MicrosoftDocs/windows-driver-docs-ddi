@@ -173,11 +173,16 @@ An object type mismatch was encountered with the <i>DeviceObject</i> parameter.
 
 A network redirector must register with the multiple UNC provider (MUP) to handle Universal Naming Convention (UNC) names. MUP is a kernel-mode component responsible for channeling all remote file system accesses using a Universal Naming Convention (UNC) name to a network redirector (the UNC provider) that is capable of handling the remote file system requests. MUP is involved when a UNC path is used by an application as illustrated by the following example that could be executed from a command line: 
 
-
-```cpp
-notepad \\server\public\readme.txt
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>notepad \\server\public\readme.txt</pre>
+</td>
+</tr>
+</table></span></div>
 MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
 
 For network redirectors that conform to the Windows Vista redirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case, MUP simply passes the operation to the network redirector that is involved.
@@ -192,11 +197,16 @@ File objects on the remote file system stack owned by a network redirector that 
 
 The ProviderOrder registry value determines the order in which MUP issues prefix resolution requests to individual network redirectors. This order can be changed dynamically without a reboot. This registry value is located under the following registry key: 
 
-
-```cpp
-HKLM\CurrentControlSet\Control\NetworkProvider\Order
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HKLM\CurrentControlSet\Control\NetworkProvider\Order</pre>
+</td>
+</tr>
+</table></span></div>
 Only one network provider on a system can support mailslots. So the FSRTL_UNC_PROVIDER_FLAGS_MAILSLOTS_SUPPORTED option in the <i>Flags</i> parameter is normally only set for the Microsoft SMB redirector.
 
 To deregister a UNC provider, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a> and pass the <i>MupHandle</i> parameter.

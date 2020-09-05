@@ -68,12 +68,17 @@ The client driver calls <b>UfxDeviceProprietaryChargerDetectComplete</b> after a
 
 The following snippet shows how a client driver calls <b>UfxDeviceProprietaryChargerDetectComplete</b>:
 
-
-```cpp
-    UfxDeviceProprietaryChargerDetectComplete(
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>    UfxDeviceProprietaryChargerDetectComplete(
         ChargerContext->UfxDevice,
         &pControllerData->DetectedCharger);
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 

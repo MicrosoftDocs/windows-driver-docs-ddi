@@ -98,12 +98,17 @@ A pointer to an array of NET_FRAME_TYPE values, specifying the frame types that 
      address, and VLAN tag. NET_FRAME_TYPE is defined as follows:
      
 
-
-```cpp
-typedef USHORT  NET_FRAME_TYPE;
-typedef NET_FRAME_TYPE *PNET_FRAME_TYPE;
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef USHORT  NET_FRAME_TYPE;
+typedef NET_FRAME_TYPE *PNET_FRAME_TYPE;</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  NDIS uses the frame type values that the protocol driver provides in this array as
      a hint to optimize the receive indications that NDIS sends to the protocol driver. NDIS does not
      guarantee that a protocol driver will receive only packets with frame types that match the types in the

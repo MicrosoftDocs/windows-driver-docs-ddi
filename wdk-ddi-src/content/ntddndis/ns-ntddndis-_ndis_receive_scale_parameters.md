@@ -228,18 +228,28 @@ The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure defines the <a href="https://
 <div> </div>
 For NDIS 6.20 and later versions, the indirection table has the following format:
 
-
-```cpp
-PROCESSOR_NUMBER     IndirectionTable[IndirectionTableSize/sizeof(PROCESSOR_NUMBER)];
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PROCESSOR_NUMBER     IndirectionTable[IndirectionTableSize/sizeof(PROCESSOR_NUMBER)];</pre>
+</td>
+</tr>
+</table></span></div>
 For drivers earlier than NDIS 6.20, the indirection table has the following format:
 
-
-```cpp
-CCHAR     IndirectionTable[IndirectionTableSize];
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>CCHAR     IndirectionTable[IndirectionTableSize];</pre>
+</td>
+</tr>
+</table></span></div>
 NDIS automatically translates the indirection table if there are older and newer drivers in a driver stack.
 
 The miniport driver must examine the indirection table to determine the CPU numbers to associate with

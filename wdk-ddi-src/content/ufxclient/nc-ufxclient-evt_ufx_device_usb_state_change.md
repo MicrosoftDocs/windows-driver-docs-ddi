@@ -70,9 +70,13 @@ The client driver indicates completion of this event by calling the <a href="htt
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 EVT_UFX_DEVICE_USB_STATE_CHANGE UfxDevice_EvtDeviceUsbStateChange;
 
 VOID
@@ -146,9 +150,10 @@ Arguments:
     UfxDeviceEventComplete(UfxDevice, STATUS_SUCCESS);
     TraceExit();
 }
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

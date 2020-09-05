@@ -64,9 +64,13 @@ object error logging is enabled by default.
 The following example shows the logging output for a call to 
 <b>DeviceDepot.Query("Volume::")</b> when logging is enabled for an example system.
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 [ Ouput ]
 
 WDTF_TARGETS    : INFO  :  - Query("Volume::")
@@ -76,7 +80,8 @@ WDTF_TARGETS    : INFO  :          Target: HL-DT-ST RW/DVD MU10N ATA Device
 WDTF_TARGETS    : INFO  :          Target: Generic volume
 WDTF_TARGETS    : INFO  :          Target: Generic volume
 WDTF_TARGETS    : INFO  :          Target: Generic volume
-
-```
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 

@@ -47,11 +47,16 @@ api_name:
 ## -description
 
 The <b>DebugExtensionProvideValue</b> callback function sets <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">pseudo-register</a> values.
-
-```cpp
- CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
-```
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -parameters
 

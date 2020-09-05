@@ -73,25 +73,40 @@ The<b> FsRtlRemoveDotsFromPath</b> routine returns either STATUS_SUCCESS value f
 
 This routine would take a path as <i>OriginalString</i> like the following example:
 
-
-```cpp
-\dir1\dir2\..\dir3\.\file.txt
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>\dir1\dir2\..\dir3\.\file.txt</pre>
+</td>
+</tr>
+</table></span></div>
 The routine would modify <i>OriginalString</i> as follows:
 
-
-```cpp
-\dir1\dir3\file.txt
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>\dir1\dir3\file.txt</pre>
+</td>
+</tr>
+</table></span></div>
 The routine will fail with STATUS_IO_REPARSE_DATA_INVALID if any of the following strings are passed as <i>OriginalString</i>:
 
-
-```cpp
-\..
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>\..
 ..
-..\anyOtherContent
-```
-
+..\anyOtherContent</pre>
+</td>
+</tr>
+</table></span></div>
 

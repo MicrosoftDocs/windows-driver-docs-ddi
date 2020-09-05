@@ -104,9 +104,13 @@ Before calling <b>StopAcknowledge</b>, the driver's <a href="https://docs.micros
 
 The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackiostop-oniostop">IQueueCallbackIoStop::OnIoStop</a> callback function that checks to see if a received request is cancelable and, if it is, calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-unmarkcancelable">IWDFIoRequest::UnmarkCancelable</a>. If <b>IWDFIoRequest::UnmarkCancelable</b> returns HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED), the example just returns because the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackcancel-oncancel">IRequestCallbackCancel::OnCancel</a> callback function will handle the request. Otherwise, the example calls <b>StopAcknowledge</b> and specifies <b>FALSE</b> so that the framework will eventually call the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackioresume-onioresume">IQueueCallbackIoResume::OnIoResume</a> callback function. 
 
-
-```cpp
-void
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>void
 CMyReadWriteQueue::OnIoStop(
     __in IWDFIoQueue*  pWdfQueue,
     __in IWDFIoRequest*  pWdfRequest,
@@ -127,9 +131,10 @@ CMyReadWriteQueue::OnIoStop(
     CComQIPtr<IWDFIoRequest2> r2 = pWdfRequest;
 
     r2->StopAcknowledge(FALSE);
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

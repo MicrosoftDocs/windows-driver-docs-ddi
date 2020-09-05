@@ -71,9 +71,13 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 
 NTSTATUS
 EvtUrsSetRole (
@@ -106,9 +110,10 @@ EvtUrsSetRole (
     TRACE_FUNC_EXIT(TRACE_FLAG);
 
     return status;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

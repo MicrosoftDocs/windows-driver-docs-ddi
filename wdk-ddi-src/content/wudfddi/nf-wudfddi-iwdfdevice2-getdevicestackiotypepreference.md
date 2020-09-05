@@ -73,15 +73,20 @@ For more information about how the framework chooses a buffer access method, see
 
 The following code example retrieves the buffer access methods that the framework is using for a device.
 
-
-```cpp
-WDF_DEVICE_IO_TYPE ReadWriteAccessMethod;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>WDF_DEVICE_IO_TYPE ReadWriteAccessMethod;
 WDF_DEVICE_IO_TYPE IoControlAccessMethod;
 
 Device2->GetDeviceStackIoTypePreference(&ReadWriteAccessMethod,
-                                        &IoControlAccessMethod); 
-```
-
+                                        &IoControlAccessMethod); </pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

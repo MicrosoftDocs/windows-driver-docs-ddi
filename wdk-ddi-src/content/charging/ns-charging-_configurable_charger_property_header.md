@@ -70,30 +70,45 @@ The ID of the property to be configured.
 
 Extend this structure to add your own values for the input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/charging/ni-charging-ioctl_internal_configure_charger_property">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>. Create a new structure with <b>CONFIGURABLE_CHARGER_PROPERTY_HEADER</b> as the first field, and one or more values after it that correspond to your <b>PropertyId</b>. Here are two example structures.
 
-
-```cpp
-struct SET_MY_CHARGER_VOLTAGE {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>struct SET_MY_CHARGER_VOLTAGE {
     CONFIGURABLE_CHARGER_PROPERTY_HEADER Header;
     ULONG Voltage;
-};
-```
-
-
-```cpp
-struct SET_MY_CHARGER_CURRENT_AND_VOLTAGE {
+};</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>struct SET_MY_CHARGER_CURRENT_AND_VOLTAGE {
     CONFIGURABLE_CHARGER_PROPERTY_HEADER Header;
     ULONG Current;
     ULONG Voltage;
-};
-```
-
+};</pre>
+</td>
+</tr>
+</table></span></div>
 Make sure you set <b>Header.Size</b> to the appropriate size of your new structure.
 
-
-```cpp
-Header.Size = sizeof(SET_MY_CHARGER_VOLTAGE);
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Header.Size = sizeof(SET_MY_CHARGER_VOLTAGE);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

@@ -112,9 +112,13 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackread-onread">IQueueCallbackRead::OnRead</a> callback function can obtain the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface of the framework memory object that represents a read request's output buffer. The example then formats and sends the read request to a USB I/O target. 
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 STDMETHODCALLTYPE
   CMyQueue::OnRead(
      __in IWDFIoQueue *pWdfQueue,
@@ -150,9 +154,10 @@ Exit:
     }
     SAFE_RELEASE(pOutputMemory);
     return;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

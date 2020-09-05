@@ -73,9 +73,13 @@ In this callback function, the driver assigns the charger a GUID and sets the mi
 
 #### Examples
 
-
-```cpp
-NTSTATUS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>NTSTATUS
 UsbLowerFilter_ProprietaryChargerDetect(
     __in PVOID Context,
     __out PUFX_PROPRIETARY_CHARGER DetectedCharger
@@ -146,9 +150,10 @@ UsbLowerFilter_ProprietaryChargerDetect(
     }
 
     return Status;
-}
-```
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -see-also
 

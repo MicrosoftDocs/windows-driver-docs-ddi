@@ -60,16 +60,21 @@ A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a 
 [in]
 An entry point of a comparison callback routine, declared as follows:
 
-
-```cpp
-RTL_GENERIC_COMPARE_RESULTS
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>RTL_GENERIC_COMPARE_RESULTS
 (*PRTL_AVL_COMPARE_ROUTINE) (
     __in struct _RTL_AVL_TABLE  *Table,
     __in PVOID  FirstStruct,
     __in PVOID  SecondStruct
-    ); 
-```
-
+    ); </pre>
+</td>
+</tr>
+</table></span></div>
 The <i>CompareRoutine</i> parameters are as follows:
 
 
@@ -101,15 +106,20 @@ Given two such key values, the <i>CompareRoutine</i> returns <b>GenericLessThan<
 [in]
 An entry point of an allocation callback routine, declared as follows:
 
-
-```cpp
-PVOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PVOID
 (*PRTL_AVL_ALLOCATE_ROUTINE) (
     __in struct _RTL_AVL_TABLE  *Table,
     __in CLONG  ByteSize
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>AllocateRoutine</i> parameters are as follows:
 
 
@@ -133,15 +143,20 @@ For each new element, the <i>AllocateRoutine</i> is called to allocate memory fo
 [in]
 An entry point of a deallocation callback routine, declared as follows:
 
-
-```cpp
-VOID
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>VOID
 (*PRTL_AVL_FREE_ROUTINE) (
     __in struct _RTL_AVL_TABLE  *Table,
     __in PVOID  Buffer
-    );
-```
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>FreeRoutine</i> parameters are as follows:
 
 
@@ -183,11 +198,16 @@ The <b>RtlInitializeGenericTableAvl</b> routine explicitlly allocates a generic 
 
  If you want to configure the generic table routines, <i>Rtl...GenericTable</i>, to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
 
-
-```cpp
-#define RTL_USE_AVL_TABLES 0
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define RTL_USE_AVL_TABLES 0</pre>
+</td>
+</tr>
+</table></span></div>
 Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL <= DISPATCH_LEVEL. Note that if <i>Rtl...GenericTableAvl</i> routines are to be used at IRQL DISPATCH_LEVEL, the <i>CompareRoutine</i>, <i>AllocateRoutine</i>, and <i>FreeRoutine</i> must all be nonpageable code, and the <i>AllocateRoutine</i> should allocate memory from nonpaged pool.
 
 ## -see-also

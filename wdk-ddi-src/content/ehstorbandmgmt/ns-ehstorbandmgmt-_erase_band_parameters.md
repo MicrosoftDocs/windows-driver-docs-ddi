@@ -95,15 +95,20 @@ The starting byte location on the storage device to begin a band search. An atte
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the new authorization key for the band. The offset is from the beginning of <b>ERASE_BAND_PARAMETERS</b>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 
-
-```cpp
-typedef struct _AUTH_KEY
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _AUTH_KEY
 {
     ULONG   KeySize;
     UCHAR   Key[ANYSIZE_ARRAY];
-} AUTH_KEY;
-```
-
+} AUTH_KEY;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

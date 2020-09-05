@@ -90,11 +90,16 @@ The number of PDUs that are received over this connection.
 
 Initiators must register the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-connectionstatistics-wmi-class">MSiSCSI_ConnectionStatistics WMI Class</a> with the following dynamic instance name for the connection: 
 
-
-```cpp
-targetname_#:#
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>targetname_#:#</pre>
+</td>
+</tr>
+</table></span></div>
 The first number sign (#) is the value in the <b>USID</b> member of <b>MSiSCSI_ConnectionStatistics</b>, and the second number sign (#) is the value in the <b>CID</b> member. It is optional that you implement this class.
 
 The totals tracked by this structure are valid for the lifetime of the connection in the session. Totals for all connections in a session are obtained in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiprf/ns-iscsiprf-_msiscsi_sessionstatistics">MSiSCSI_SessionStatistics</a> structure.
