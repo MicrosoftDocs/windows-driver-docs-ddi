@@ -45,7 +45,7 @@ api_name:
  - ScsiInquiry_OUT
 ---
 
-# _ScsiInquiry_OUT structure
+# _ScsiInquiry_OUT structure (hbapiwmi.h)
 
 
 ## -description

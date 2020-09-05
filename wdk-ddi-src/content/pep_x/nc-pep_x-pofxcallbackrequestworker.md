@@ -41,7 +41,7 @@ api_name:
  - RequestWorker
 ---
 
-# POFXCALLBACKREQUESTWORKER callback function
+# POFXCALLBACKREQUESTWORKER callback function (pep_x.h)
 
 
 ## -description

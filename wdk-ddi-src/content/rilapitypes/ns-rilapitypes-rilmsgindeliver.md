@@ -43,7 +43,7 @@ api_name:
  - RILMSGINDELIVER
 ---
 
-# RILMSGINDELIVER structure
+# RILMSGINDELIVER structure (rilapitypes.h)
 
 
 ## -description

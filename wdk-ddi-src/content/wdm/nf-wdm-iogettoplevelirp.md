@@ -41,7 +41,7 @@ api_name:
  - IoGetTopLevelIrp
 ---
 
-# IoGetTopLevelIrp function
+# IoGetTopLevelIrp function (wdm.h)
 
 
 ## -description

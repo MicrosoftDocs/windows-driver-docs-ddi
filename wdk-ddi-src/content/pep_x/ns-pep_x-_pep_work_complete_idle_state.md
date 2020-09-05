@@ -45,7 +45,7 @@ api_name:
  - PEP_WORK_COMPLETE_IDLE_STATE
 ---
 
-# _PEP_WORK_COMPLETE_IDLE_STATE structure
+# _PEP_WORK_COMPLETE_IDLE_STATE structure (pep_x.h)
 
 
 ## -description

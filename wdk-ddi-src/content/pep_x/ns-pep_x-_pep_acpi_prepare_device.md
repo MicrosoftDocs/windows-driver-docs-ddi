@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_PREPARE_DEVICE
 ---
 
-# _PEP_ACPI_PREPARE_DEVICE structure
+# _PEP_ACPI_PREPARE_DEVICE structure (pep_x.h)
 
 
 ## -description

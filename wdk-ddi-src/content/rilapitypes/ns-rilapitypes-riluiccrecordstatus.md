@@ -44,7 +44,7 @@ api_name:
  - RILUICCRECORDSTATUS
 ---
 
-# RILUICCRECORDSTATUS structure
+# RILUICCRECORDSTATUS structure (rilapitypes.h)
 
 
 ## -description

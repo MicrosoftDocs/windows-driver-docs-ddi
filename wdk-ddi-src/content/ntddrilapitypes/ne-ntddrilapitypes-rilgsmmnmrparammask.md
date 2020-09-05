@@ -41,7 +41,7 @@ api_name:
  - RILGSMMNMRPARAMMASK
 ---
 
-# RILGSMMNMRPARAMMASK enumeration
+# RILGSMMNMRPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

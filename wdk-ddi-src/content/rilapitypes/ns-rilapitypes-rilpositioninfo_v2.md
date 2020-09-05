@@ -44,7 +44,7 @@ api_name:
  - RILPOSITIONINFO_V2
 ---
 
-# RILPOSITIONINFO_V2 structure
+# RILPOSITIONINFO_V2 structure (rilapitypes.h)
 
 
 ## -description

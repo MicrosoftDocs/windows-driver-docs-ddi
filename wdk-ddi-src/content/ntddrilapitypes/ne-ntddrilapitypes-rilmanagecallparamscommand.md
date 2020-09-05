@@ -41,7 +41,7 @@ api_name:
  - RILMANAGECALLPARAMSCOMMAND
 ---
 
-# RILMANAGECALLPARAMSCOMMAND enumeration
+# RILMANAGECALLPARAMSCOMMAND enumeration (ntddrilapitypes.h)
 
 
 ## -description

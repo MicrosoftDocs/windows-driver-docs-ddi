@@ -43,7 +43,7 @@ api_name:
  - RILPHONEBOOKENTRY
 ---
 
-# RILPHONEBOOKENTRY structure
+# RILPHONEBOOKENTRY structure (ntddrilapitypes.h)
 
 
 ## -description

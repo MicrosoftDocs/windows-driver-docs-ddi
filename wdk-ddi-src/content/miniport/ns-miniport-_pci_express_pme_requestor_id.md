@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_PME_REQUESTOR_ID
 ---
 
-# _PCI_EXPRESS_PME_REQUESTOR_ID structure
+# _PCI_EXPRESS_PME_REQUESTOR_ID structure (miniport.h)
 
 
 ## -description

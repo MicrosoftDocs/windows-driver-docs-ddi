@@ -43,7 +43,7 @@ api_name:
  - RILDISPLAYINFO
 ---
 
-# RILDISPLAYINFO structure
+# RILDISPLAYINFO structure (ntddrilapitypes.h)
 
 
 ## -description

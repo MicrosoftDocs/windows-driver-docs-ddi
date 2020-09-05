@@ -42,7 +42,7 @@ api_name:
  - READ_REGISTER_ULONG64
 ---
 
-# READ_REGISTER_ULONG64 function
+# READ_REGISTER_ULONG64 function (wdm.h)
 
 
 ## -description

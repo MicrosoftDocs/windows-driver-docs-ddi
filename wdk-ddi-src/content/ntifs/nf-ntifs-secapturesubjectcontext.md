@@ -41,7 +41,7 @@ api_name:
  - SeCaptureSubjectContext
 ---
 
-# SeCaptureSubjectContext function
+# SeCaptureSubjectContext function (ntifs.h)
 
 
 ## -description

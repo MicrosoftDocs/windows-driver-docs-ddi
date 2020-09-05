@@ -41,7 +41,7 @@ api_name:
  - RILIMSSIPCAUSECODE
 ---
 
-# RILIMSSIPCAUSECODE enumeration
+# RILIMSSIPCAUSECODE enumeration (ntddrilapitypes.h)
 
 
 ## -description

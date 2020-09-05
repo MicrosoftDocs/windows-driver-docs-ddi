@@ -43,7 +43,7 @@ api_name:
  - RILOPENUICCLOGICALCHANNELINFO
 ---
 
-# RILOPENUICCLOGICALCHANNELINFO structure
+# RILOPENUICCLOGICALCHANNELINFO structure (ntddrilapitypes.h)
 
 
 ## -description

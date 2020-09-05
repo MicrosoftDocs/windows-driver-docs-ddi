@@ -41,7 +41,7 @@ api_name:
  - KeQueryActiveProcessorCount
 ---
 
-# KeQueryActiveProcessorCount function
+# KeQueryActiveProcessorCount function (ntddk.h)
 
 
 ## -description

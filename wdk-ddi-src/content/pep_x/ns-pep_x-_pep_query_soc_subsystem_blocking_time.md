@@ -45,7 +45,7 @@ api_name:
  - PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
 ---
 
-# _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure
+# _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure (pep_x.h)
 
 
 ## -description

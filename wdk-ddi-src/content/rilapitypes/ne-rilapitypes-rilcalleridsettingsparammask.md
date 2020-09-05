@@ -41,7 +41,7 @@ api_name:
  - RILCALLERIDSETTINGSPARAMMASK
 ---
 
-# RILCALLERIDSETTINGSPARAMMASK enumeration
+# RILCALLERIDSETTINGSPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILCALLFORWARDINGSETTINGS
 ---
 
-# RILCALLFORWARDINGSETTINGS structure
+# RILCALLFORWARDINGSETTINGS structure (ntddrilapitypes.h)
 
 
 ## -description

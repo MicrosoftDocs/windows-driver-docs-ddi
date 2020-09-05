@@ -45,7 +45,7 @@ api_name:
  - KINTERRUPT_POLARITY
 ---
 
-# _KINTERRUPT_POLARITY enumeration
+# _KINTERRUPT_POLARITY enumeration (wdm.h)
 
 
 ## -description

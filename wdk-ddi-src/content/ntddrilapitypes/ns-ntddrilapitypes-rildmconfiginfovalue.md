@@ -43,7 +43,7 @@ api_name:
  - RILDMCONFIGINFOVALUE
 ---
 
-# RILDMCONFIGINFOVALUE structure
+# RILDMCONFIGINFOVALUE structure (ntddrilapitypes.h)
 
 
 ## -description

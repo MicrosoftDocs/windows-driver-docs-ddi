@@ -43,7 +43,7 @@ api_name:
  - RILSETCALLBARRINGSTATUSPARAMS
 ---
 
-# RILSETCALLBARRINGSTATUSPARAMS structure
+# RILSETCALLBARRINGSTATUSPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILSMSFORMAT
 ---
 
-# RILSMSFORMAT enumeration
+# RILSMSFORMAT enumeration (ntddrilapitypes.h)
 
 
 ## -description

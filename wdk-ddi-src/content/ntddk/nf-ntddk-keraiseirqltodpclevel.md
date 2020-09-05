@@ -42,7 +42,7 @@ api_name:
  - KeRaiseIrqlToDpcLevel
 ---
 
-# KeRaiseIrqlToDpcLevel function
+# KeRaiseIrqlToDpcLevel function (ntddk.h)
 
 
 ## -description

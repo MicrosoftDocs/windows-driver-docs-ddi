@@ -41,7 +41,7 @@ api_name:
  - RILUICCCOMMAND
 ---
 
-# RILUICCCOMMAND enumeration
+# RILUICCCOMMAND enumeration (ntddrilapitypes.h)
 
 
 ## -description

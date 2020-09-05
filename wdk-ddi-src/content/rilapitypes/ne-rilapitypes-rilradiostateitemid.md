@@ -41,7 +41,7 @@ api_name:
  - RILRADIOSTATEITEMID
 ---
 
-# RILRADIOSTATEITEMID enumeration
+# RILRADIOSTATEITEMID enumeration (rilapitypes.h)
 
 
 ## -description

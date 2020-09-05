@@ -41,7 +41,7 @@ api_name:
  - RILREGSTAT
 ---
 
-# RILREGSTAT enumeration
+# RILREGSTAT enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 ---
 
-# PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function
+# PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function (pep_x.h)
 
 
 ## -description

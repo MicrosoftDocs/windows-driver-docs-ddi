@@ -41,7 +41,7 @@ api_name:
  - AcceptDeviceNotification
 ---
 
-# PEPCALLBACKNOTIFYDPM callback function
+# PEPCALLBACKNOTIFYDPM callback function (pepfx.h)
 
 
 ## -description

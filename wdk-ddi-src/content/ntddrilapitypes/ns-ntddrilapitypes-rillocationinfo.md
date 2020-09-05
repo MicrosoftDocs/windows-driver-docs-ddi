@@ -43,7 +43,7 @@ api_name:
  - RILLOCATIONINFO
 ---
 
-# RILLOCATIONINFO structure
+# RILLOCATIONINFO structure (ntddrilapitypes.h)
 
 
 ## -description

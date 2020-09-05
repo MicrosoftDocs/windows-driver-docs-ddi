@@ -45,7 +45,7 @@ api_name:
  - TAPE_GET_POSITION
 ---
 
-# _TAPE_GET_POSITION structure
+# _TAPE_GET_POSITION structure (ntddtape.h)
 
 
 ## -description

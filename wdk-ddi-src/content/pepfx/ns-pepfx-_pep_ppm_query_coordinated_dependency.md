@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_COORDINATED_DEPENDENCY
 ---
 
-# _PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure
+# _PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure (pepfx.h)
 
 
 ## -description

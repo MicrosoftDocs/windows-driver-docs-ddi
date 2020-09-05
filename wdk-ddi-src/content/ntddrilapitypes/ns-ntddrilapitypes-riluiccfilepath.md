@@ -43,7 +43,7 @@ api_name:
  - RILUICCFILEPATH
 ---
 
-# RILUICCFILEPATH structure
+# RILUICCFILEPATH structure (ntddrilapitypes.h)
 
 
 ## -description

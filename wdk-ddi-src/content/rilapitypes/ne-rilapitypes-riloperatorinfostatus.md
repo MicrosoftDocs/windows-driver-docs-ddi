@@ -41,7 +41,7 @@ api_name:
  - RILOPERATORINFOSTATUS
 ---
 
-# RILOPERATORINFOSTATUS enumeration
+# RILOPERATORINFOSTATUS enumeration (rilapitypes.h)
 
 
 ## -description

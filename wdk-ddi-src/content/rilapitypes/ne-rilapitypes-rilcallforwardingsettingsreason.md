@@ -41,7 +41,7 @@ api_name:
  - RILCALLFORWARDINGSETTINGSREASON
 ---
 
-# RILCALLFORWARDINGSETTINGSREASON enumeration
+# RILCALLFORWARDINGSETTINGSREASON enumeration (rilapitypes.h)
 
 
 ## -description

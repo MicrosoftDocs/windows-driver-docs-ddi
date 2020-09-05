@@ -41,7 +41,7 @@ api_name:
  - RtlUTF8StringToUnicodeString
 ---
 
-# RtlUTF8StringToUnicodeString function
+# RtlUTF8StringToUnicodeString function (ntifs.h)
 
 
 ## -description

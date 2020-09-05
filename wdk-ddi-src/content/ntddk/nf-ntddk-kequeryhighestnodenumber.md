@@ -41,7 +41,7 @@ api_name:
  - KeQueryHighestNodeNumber
 ---
 
-# KeQueryHighestNodeNumber function
+# KeQueryHighestNodeNumber function (ntddk.h)
 
 
 ## -description

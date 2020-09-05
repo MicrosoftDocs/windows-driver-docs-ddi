@@ -45,7 +45,7 @@ api_name:
  - WDF_INTERRUPT_POLICY
 ---
 
-# _WDF_INTERRUPT_POLICY enumeration
+# _WDF_INTERRUPT_POLICY enumeration (wudfddi.h)
 
 
 ## -description

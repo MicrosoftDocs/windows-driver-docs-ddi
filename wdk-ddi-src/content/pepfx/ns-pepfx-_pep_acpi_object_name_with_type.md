@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_OBJECT_NAME_WITH_TYPE
 ---
 
-# _PEP_ACPI_OBJECT_NAME_WITH_TYPE structure
+# _PEP_ACPI_OBJECT_NAME_WITH_TYPE structure (pepfx.h)
 
 
 ## -description

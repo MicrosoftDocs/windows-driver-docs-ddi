@@ -45,7 +45,7 @@ api_name:
  - PEP_COORDINATED_IDLE_STATE
 ---
 
-# _PEP_COORDINATED_IDLE_STATE structure
+# _PEP_COORDINATED_IDLE_STATE structure (pep_x.h)
 
 
 ## -description

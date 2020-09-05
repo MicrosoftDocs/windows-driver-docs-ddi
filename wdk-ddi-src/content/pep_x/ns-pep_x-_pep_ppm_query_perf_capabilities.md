@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_PERF_CAPABILITIES
 ---
 
-# _PEP_PPM_QUERY_PERF_CAPABILITIES structure
+# _PEP_PPM_QUERY_PERF_CAPABILITIES structure (pep_x.h)
 
 
 ## -description

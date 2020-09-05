@@ -44,7 +44,7 @@ api_name:
  - RILPOSITIONINFOLTE
 ---
 
-# RILPOSITIONINFOLTE structure
+# RILPOSITIONINFOLTE structure (rilapitypes.h)
 
 
 ## -description

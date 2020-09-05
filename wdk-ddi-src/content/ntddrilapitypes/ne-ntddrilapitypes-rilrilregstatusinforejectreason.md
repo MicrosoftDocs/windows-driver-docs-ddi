@@ -41,7 +41,7 @@ api_name:
  - RILRILREGSTATUSINFOREJECTREASON
 ---
 
-# RILRILREGSTATUSINFOREJECTREASON enumeration
+# RILRILREGSTATUSINFOREJECTREASON enumeration (ntddrilapitypes.h)
 
 
 ## -description

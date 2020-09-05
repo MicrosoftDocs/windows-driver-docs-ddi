@@ -41,7 +41,7 @@ api_name:
  - PoClearPowerRequest
 ---
 
-# PoClearPowerRequest function
+# PoClearPowerRequest function (wdm.h)
 
 
 ## -description

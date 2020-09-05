@@ -41,7 +41,7 @@ api_name:
  - RILSMSMSGINFLAGS
 ---
 
-# RILSMSMSGINFLAGS enumeration
+# RILSMSMSGINFLAGS enumeration (rilapitypes.h)
 
 
 ## -description

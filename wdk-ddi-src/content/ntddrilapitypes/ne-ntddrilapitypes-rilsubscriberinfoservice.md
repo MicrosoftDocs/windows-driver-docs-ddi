@@ -41,7 +41,7 @@ api_name:
  - RILSUBSCRIBERINFOSERVICE
 ---
 
-# RILSUBSCRIBERINFOSERVICE enumeration
+# RILSUBSCRIBERINFOSERVICE enumeration (ntddrilapitypes.h)
 
 
 ## -description

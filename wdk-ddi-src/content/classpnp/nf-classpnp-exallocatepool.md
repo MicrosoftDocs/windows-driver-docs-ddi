@@ -41,7 +41,7 @@ api_name:
  - ExAllocatePool
 ---
 
-# ExAllocatePool macro
+# ExAllocatePool macro (classpnp.h)
 
 
 ## -description

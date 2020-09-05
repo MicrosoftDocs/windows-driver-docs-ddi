@@ -41,7 +41,7 @@ api_name:
  - KStrQueryReferenceString
 ---
 
-# PFNQUERYREFERENCESTRING callback function
+# PFNQUERYREFERENCESTRING callback function (swenum.h)
 
 
 ## -description

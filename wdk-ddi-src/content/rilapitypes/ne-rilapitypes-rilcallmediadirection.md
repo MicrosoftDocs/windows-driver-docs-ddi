@@ -41,7 +41,7 @@ api_name:
  - RILCALLMEDIADIRECTION
 ---
 
-# RILCALLMEDIADIRECTION enumeration
+# RILCALLMEDIADIRECTION enumeration (rilapitypes.h)
 
 
 ## -description

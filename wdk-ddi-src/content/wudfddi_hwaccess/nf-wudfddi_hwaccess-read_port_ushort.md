@@ -41,7 +41,7 @@ api_name:
  - READ_PORT_USHORT
 ---
 
-# READ_PORT_USHORT function
+# READ_PORT_USHORT function (wudfddi_hwaccess.h)
 
 
 ## -description

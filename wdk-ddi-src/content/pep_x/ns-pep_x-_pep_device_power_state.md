@@ -45,7 +45,7 @@ api_name:
  - PEP_DEVICE_POWER_STATE
 ---
 
-# _PEP_DEVICE_POWER_STATE structure
+# _PEP_DEVICE_POWER_STATE structure (pep_x.h)
 
 
 ## -description

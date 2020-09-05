@@ -45,7 +45,7 @@ api_name:
  - WDF_POWER_DEVICE_STATE
 ---
 
-# _WDF_POWER_DEVICE_STATE enumeration
+# _WDF_POWER_DEVICE_STATE enumeration (wudfddi_types.h)
 
 
 ## -description

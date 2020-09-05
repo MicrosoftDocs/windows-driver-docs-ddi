@@ -43,7 +43,7 @@ api_name:
  - RILADDRESS
 ---
 
-# RILADDRESS structure
+# RILADDRESS structure (ntddrilapitypes.h)
 
 
 ## -description

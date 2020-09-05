@@ -43,7 +43,7 @@ api_name:
  - RILNITZINFO_V1
 ---
 
-# RILNITZINFO_V1 structure
+# RILNITZINFO_V1 structure (ntddrilapitypes.h)
 
 
 ## -description

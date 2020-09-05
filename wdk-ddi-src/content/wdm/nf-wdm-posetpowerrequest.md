@@ -41,7 +41,7 @@ api_name:
  - PoSetPowerRequest
 ---
 
-# PoSetPowerRequest function
+# PoSetPowerRequest function (wdm.h)
 
 
 ## -description

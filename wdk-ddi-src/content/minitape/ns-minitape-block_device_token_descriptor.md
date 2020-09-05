@@ -43,7 +43,7 @@ api_name:
  - BLOCK_DEVICE_TOKEN_DESCRIPTOR
 ---
 
-# BLOCK_DEVICE_TOKEN_DESCRIPTOR structure
+# BLOCK_DEVICE_TOKEN_DESCRIPTOR structure (minitape.h)
 
 
 ## -description

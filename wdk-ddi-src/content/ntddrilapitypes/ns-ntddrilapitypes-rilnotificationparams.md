@@ -43,7 +43,7 @@ api_name:
  - RILNOTIFICATIONPARAMS
 ---
 
-# RILNOTIFICATIONPARAMS structure
+# RILNOTIFICATIONPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

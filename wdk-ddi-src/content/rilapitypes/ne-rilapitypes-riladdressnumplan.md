@@ -42,7 +42,7 @@ api_name:
  - RILADDRESSNUMPLAN
 ---
 
-# RILADDRESSNUMPLAN enumeration
+# RILADDRESSNUMPLAN enumeration (rilapitypes.h)
 
 
 ## -description

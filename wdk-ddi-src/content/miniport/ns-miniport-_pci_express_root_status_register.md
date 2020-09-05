@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_ROOT_STATUS_REGISTER
 ---
 
-# _PCI_EXPRESS_ROOT_STATUS_REGISTER structure
+# _PCI_EXPRESS_ROOT_STATUS_REGISTER structure (miniport.h)
 
 
 ## -description

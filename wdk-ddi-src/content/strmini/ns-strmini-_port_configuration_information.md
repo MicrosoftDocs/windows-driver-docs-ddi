@@ -45,7 +45,7 @@ api_name:
  - PORT_CONFIGURATION_INFORMATION
 ---
 
-# _PORT_CONFIGURATION_INFORMATION structure
+# _PORT_CONFIGURATION_INFORMATION structure (strmini.h)
 
 
 ## -description

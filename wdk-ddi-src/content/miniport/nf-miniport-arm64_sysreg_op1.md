@@ -37,7 +37,7 @@ api_name:
  - ARM64_SYSREG_OP1
 ---
 
-# ARM64_SYSREG_OP1 macro
+# ARM64_SYSREG_OP1 macro (miniport.h)
 
 
 ## -description

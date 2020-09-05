@@ -43,7 +43,7 @@ api_name:
  - RILDIALPARAMS_V1
 ---
 
-# RILDIALPARAMS_V1 structure
+# RILDIALPARAMS_V1 structure (rilapitypes.h)
 
 
 ## -description

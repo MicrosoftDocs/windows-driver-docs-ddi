@@ -42,7 +42,7 @@ api_name:
  - RILUICCAPPTYPE
 ---
 
-# RILUICCAPPTYPE enumeration
+# RILUICCAPPTYPE enumeration (rilapitypes.h)
 
 
 ## -description

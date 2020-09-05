@@ -45,7 +45,7 @@ api_name:
  - INTERFACE
 ---
 
-# _INTERFACE structure
+# _INTERFACE structure (wdm.h)
 
 
 ## -description

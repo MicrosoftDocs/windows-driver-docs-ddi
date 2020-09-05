@@ -43,7 +43,7 @@ api_name:
  - RILSMSREADYSTATUS
 ---
 
-# RILSMSREADYSTATUS structure
+# RILSMSREADYSTATUS structure (ntddrilapitypes.h)
 
 
 ## -description

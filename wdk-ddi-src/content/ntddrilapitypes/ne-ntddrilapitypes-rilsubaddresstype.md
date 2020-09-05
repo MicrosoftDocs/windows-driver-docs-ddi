@@ -41,7 +41,7 @@ api_name:
  - RILSUBADDRESSTYPE
 ---
 
-# RILSUBADDRESSTYPE enumeration
+# RILSUBADDRESSTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

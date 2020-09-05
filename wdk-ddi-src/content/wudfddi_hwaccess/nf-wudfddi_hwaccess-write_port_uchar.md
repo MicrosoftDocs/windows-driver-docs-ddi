@@ -41,7 +41,7 @@ api_name:
  - WRITE_PORT_UCHAR
 ---
 
-# WRITE_PORT_UCHAR function
+# WRITE_PORT_UCHAR function (wudfddi_hwaccess.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILDELETEPHONEBOOKENTRYPARAMS
 ---
 
-# RILDELETEPHONEBOOKENTRYPARAMS structure
+# RILDELETEPHONEBOOKENTRYPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

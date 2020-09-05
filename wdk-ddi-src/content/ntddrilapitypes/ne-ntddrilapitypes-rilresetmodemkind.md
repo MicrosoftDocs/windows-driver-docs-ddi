@@ -41,7 +41,7 @@ api_name:
  - RILRESETMODEMKIND
 ---
 
-# RILRESETMODEMKIND enumeration
+# RILRESETMODEMKIND enumeration (ntddrilapitypes.h)
 
 
 ## -description

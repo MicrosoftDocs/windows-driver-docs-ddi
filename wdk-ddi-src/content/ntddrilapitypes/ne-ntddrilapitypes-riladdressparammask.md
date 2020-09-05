@@ -41,7 +41,7 @@ api_name:
  - RILADDRESSPARAMMASK
 ---
 
-# RILADDRESSPARAMMASK enumeration
+# RILADDRESSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

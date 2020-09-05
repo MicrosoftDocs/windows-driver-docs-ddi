@@ -45,7 +45,7 @@ api_name:
  - ATTRIBUTE_INFO_4
 ---
 
-# _ATTRIBUTE_INFO_4 structure (winddiui.h)
+# _ATTRIBUTE_INFO_4 structure (winddiui.h) (winddiui.h)
 
 
 ## -description

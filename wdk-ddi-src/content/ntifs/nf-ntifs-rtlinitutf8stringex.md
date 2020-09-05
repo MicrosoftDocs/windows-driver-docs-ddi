@@ -42,7 +42,7 @@ product:
  - Windows
 ---
 
-# RtlInitUTF8StringEx function
+# RtlInitUTF8StringEx function (ntifs.h)
 
 
 ## -description

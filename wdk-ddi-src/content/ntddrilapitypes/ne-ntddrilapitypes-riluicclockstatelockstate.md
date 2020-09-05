@@ -41,7 +41,7 @@ api_name:
  - RILUICCLOCKSTATELOCKSTATE
 ---
 
-# RILUICCLOCKSTATELOCKSTATE enumeration
+# RILUICCLOCKSTATELOCKSTATE enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - KeInitializeCrashDumpHeader
 ---
 
-# KeInitializeCrashDumpHeader function
+# KeInitializeCrashDumpHeader function (wdm.h)
 
 
 ## -description

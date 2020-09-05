@@ -45,7 +45,7 @@ api_name:
  - PEP_POWER_CONTROL_COMPLETE
 ---
 
-# _PEP_POWER_CONTROL_COMPLETE structure
+# _PEP_POWER_CONTROL_COMPLETE structure (pep_x.h)
 
 
 ## -description

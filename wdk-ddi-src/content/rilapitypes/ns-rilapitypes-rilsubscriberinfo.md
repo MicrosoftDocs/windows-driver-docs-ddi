@@ -44,7 +44,7 @@ api_name:
  - RILSUBSCRIBERINFO
 ---
 
-# RILSUBSCRIBERINFO structure
+# RILSUBSCRIBERINFO structure (rilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILDELETEMSGPARAMS
 ---
 
-# RILDELETEMSGPARAMS structure
+# RILDELETEMSGPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

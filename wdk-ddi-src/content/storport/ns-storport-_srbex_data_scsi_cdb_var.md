@@ -45,7 +45,7 @@ api_name:
  - SRBEX_DATA_SCSI_CDB_VAR
 ---
 
-# _SRBEX_DATA_SCSI_CDB_VAR structure
+# _SRBEX_DATA_SCSI_CDB_VAR structure (storport.h)
 
 
 ## -description

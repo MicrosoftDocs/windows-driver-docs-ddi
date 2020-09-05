@@ -41,7 +41,7 @@ api_name:
  - RILSUBADDRESSTYPE
 ---
 
-# RILSUBADDRESSTYPE enumeration
+# RILSUBADDRESSTYPE enumeration (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - ExtRemoteTyped.ExtRemoteTyped
 ---
 
-# ExtRemoteTyped::ExtRemoteTyped
+# ExtRemoteTyped::ExtRemoteTyped (engextcpp.h)
 
 
 ## -description

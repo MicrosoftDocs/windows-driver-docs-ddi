@@ -43,7 +43,7 @@ api_name:
  - RILMSGSERVICEINFO
 ---
 
-# RILMSGSERVICEINFO structure
+# RILMSGSERVICEINFO structure (ntddrilapitypes.h)
 
 
 ## -description

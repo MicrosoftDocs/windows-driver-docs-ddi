@@ -45,7 +45,7 @@ api_name:
  - PEP_PROCESSOR_PARK_PREFERENCE
 ---
 
-# _PEP_PROCESSOR_PARK_PREFERENCE structure
+# _PEP_PROCESSOR_PARK_PREFERENCE structure (pepfx.h)
 
 
 ## -description

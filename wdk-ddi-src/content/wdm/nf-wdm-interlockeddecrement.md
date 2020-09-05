@@ -46,7 +46,7 @@ api_name:
  - InterlockedDecrement
 ---
 
-# InterlockedDecrement function
+# InterlockedDecrement function (wdm.h)
 
 
 ## -description

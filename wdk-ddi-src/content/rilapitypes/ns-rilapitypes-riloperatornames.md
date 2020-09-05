@@ -44,7 +44,7 @@ api_name:
  - RILOPERATORNAMES
 ---
 
-# RILOPERATORNAMES structure
+# RILOPERATORNAMES structure (rilapitypes.h)
 
 
 ## -description

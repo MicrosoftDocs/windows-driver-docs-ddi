@@ -45,7 +45,7 @@ api_name:
  - SCSI_REQUEST_BLOCK
 ---
 
-# _SCSI_REQUEST_BLOCK structure
+# _SCSI_REQUEST_BLOCK structure (minitape.h)
 
 
 ## -description

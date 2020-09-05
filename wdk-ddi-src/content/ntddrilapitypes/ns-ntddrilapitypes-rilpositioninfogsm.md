@@ -43,7 +43,7 @@ api_name:
  - RILPOSITIONINFOGSM
 ---
 
-# RILPOSITIONINFOGSM structure
+# RILPOSITIONINFOGSM structure (ntddrilapitypes.h)
 
 
 ## -description

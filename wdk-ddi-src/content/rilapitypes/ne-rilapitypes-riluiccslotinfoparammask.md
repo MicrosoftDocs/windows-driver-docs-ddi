@@ -41,7 +41,7 @@ api_name:
  - RILUICCSLOTINFOPARAMMASK
 ---
 
-# RILUICCSLOTINFOPARAMMASK enumeration
+# RILUICCSLOTINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

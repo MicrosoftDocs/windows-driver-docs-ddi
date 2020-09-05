@@ -43,7 +43,7 @@ api_name:
  - RILPOSITIONINFOUMTS
 ---
 
-# RILPOSITIONINFOUMTS structure
+# RILPOSITIONINFOUMTS structure (ntddrilapitypes.h)
 
 
 ## -description

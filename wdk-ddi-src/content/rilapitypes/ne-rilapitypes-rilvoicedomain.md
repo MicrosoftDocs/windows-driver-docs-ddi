@@ -41,7 +41,7 @@ api_name:
  - RILVOICEDOMAIN
 ---
 
-# RILVOICEDOMAIN enumeration
+# RILVOICEDOMAIN enumeration (rilapitypes.h)
 
 
 ## -description

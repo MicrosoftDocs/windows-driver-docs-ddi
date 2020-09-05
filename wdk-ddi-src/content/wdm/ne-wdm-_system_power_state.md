@@ -45,7 +45,7 @@ api_name:
  - SYSTEM_POWER_STATE
 ---
 
-# _SYSTEM_POWER_STATE enumeration
+# _SYSTEM_POWER_STATE enumeration (wdm.h)
 
 
 ## -description

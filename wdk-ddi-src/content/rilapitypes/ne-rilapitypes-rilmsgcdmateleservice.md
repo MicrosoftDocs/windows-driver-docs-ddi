@@ -41,7 +41,7 @@ api_name:
  - RILMSGCDMATELESERVICE
 ---
 
-# RILMSGCDMATELESERVICE enumeration
+# RILMSGCDMATELESERVICE enumeration (rilapitypes.h)
 
 
 ## -description

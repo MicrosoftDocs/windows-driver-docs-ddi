@@ -45,7 +45,7 @@ api_name:
  - STOR_DEVICE_POWER_STATE
 ---
 
-# _STOR_DEVICE_POWER_STATE enumeration
+# _STOR_DEVICE_POWER_STATE enumeration (srb.h)
 
 
 ## -description

@@ -42,7 +42,7 @@ api_name:
  - NtPowerInformation
 ---
 
-# NtPowerInformation function
+# NtPowerInformation function (wdm.h)
 
 
 ## -description

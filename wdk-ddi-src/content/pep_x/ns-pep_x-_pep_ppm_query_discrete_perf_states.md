@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_DISCRETE_PERF_STATES
 ---
 
-# _PEP_PPM_QUERY_DISCRETE_PERF_STATES structure
+# _PEP_PPM_QUERY_DISCRETE_PERF_STATES structure (pep_x.h)
 
 
 ## -description

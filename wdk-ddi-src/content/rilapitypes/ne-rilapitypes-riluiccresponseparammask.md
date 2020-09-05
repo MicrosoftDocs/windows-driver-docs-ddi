@@ -41,7 +41,7 @@ api_name:
  - RILUICCRESPONSEPARAMMASK
 ---
 
-# RILUICCRESPONSEPARAMMASK enumeration
+# RILUICCRESPONSEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - KeLeaveGuardedRegion
 ---
 
-# KeLeaveGuardedRegion function
+# KeLeaveGuardedRegion function (wdm.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - CM_EISA_SLOT_INFORMATION
 ---
 
-# _CM_EISA_SLOT_INFORMATION structure
+# _CM_EISA_SLOT_INFORMATION structure (miniport.h)
 
 
 ## -description

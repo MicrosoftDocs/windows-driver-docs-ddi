@@ -41,7 +41,7 @@ api_name:
  - TransitionCriticalResource
 ---
 
-# POFXCALLBACKCRITICALRESOURCE callback function
+# POFXCALLBACKCRITICALRESOURCE callback function (pepfx.h)
 
 
 ## -description

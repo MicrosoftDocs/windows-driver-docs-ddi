@@ -42,7 +42,7 @@ api_name:
  - RILUICCLOCKSTATELOCKSTATE
 ---
 
-# RILUICCLOCKSTATELOCKSTATE enumeration
+# RILUICCLOCKSTATELOCKSTATE enumeration (rilapitypes.h)
 
 
 ## -description

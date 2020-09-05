@@ -43,7 +43,7 @@ api_name:
  - RILDIALEDIDSETTINGS
 ---
 
-# RILDIALEDIDSETTINGS structure
+# RILDIALEDIDSETTINGS structure (ntddrilapitypes.h)
 
 
 ## -description

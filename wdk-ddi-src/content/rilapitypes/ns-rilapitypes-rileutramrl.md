@@ -44,7 +44,7 @@ api_name:
  - RILEUTRAMRL
 ---
 
-# RILEUTRAMRL structure
+# RILEUTRAMRL structure (rilapitypes.h)
 
 
 ## -description

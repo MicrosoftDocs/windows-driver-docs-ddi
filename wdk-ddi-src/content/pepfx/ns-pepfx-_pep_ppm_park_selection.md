@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PARK_SELECTION
 ---
 
-# _PEP_PPM_PARK_SELECTION structure
+# _PEP_PPM_PARK_SELECTION structure (pepfx.h)
 
 
 ## -description

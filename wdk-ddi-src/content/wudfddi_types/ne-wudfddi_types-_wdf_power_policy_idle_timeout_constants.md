@@ -43,7 +43,7 @@ api_name:
  - WDF_CALLBACK_CONSTRAINT
 ---
 
-# _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration
+# _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration (wudfddi_types.h)
 
 
 ## -description

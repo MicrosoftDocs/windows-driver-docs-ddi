@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PERF_SET_STATE
 ---
 
-# _PEP_PPM_PERF_SET_STATE structure
+# _PEP_PPM_PERF_SET_STATE structure (pep_x.h)
 
 
 ## -description

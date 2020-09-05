@@ -41,7 +41,7 @@ api_name:
  - KeEnterGuardedRegion
 ---
 
-# KeEnterGuardedRegion function
+# KeEnterGuardedRegion function (ntddk.h)
 
 
 ## -description

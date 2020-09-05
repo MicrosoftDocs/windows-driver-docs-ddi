@@ -43,7 +43,7 @@ api_name:
  - RILIMSSTATUS_V1
 ---
 
-# RILIMSSTATUS_V1 structure
+# RILIMSSTATUS_V1 structure (ntddrilapitypes.h)
 
 
 ## -description

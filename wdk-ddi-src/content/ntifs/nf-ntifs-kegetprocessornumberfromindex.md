@@ -41,7 +41,7 @@ api_name:
  - KeGetProcessorNumberFromIndex
 ---
 
-# KeGetProcessorNumberFromIndex function
+# KeGetProcessorNumberFromIndex function (ntifs.h)
 
 
 ## -description

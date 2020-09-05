@@ -41,7 +41,7 @@ api_name:
  - RILLOCATIONINFOPARAMMASK
 ---
 
-# RILLOCATIONINFOPARAMMASK enumeration
+# RILLOCATIONINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

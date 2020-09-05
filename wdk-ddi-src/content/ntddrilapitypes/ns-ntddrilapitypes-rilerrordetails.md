@@ -43,7 +43,7 @@ api_name:
  - RILERRORDETAILS
 ---
 
-# RILERRORDETAILS structure
+# RILERRORDETAILS structure (ntddrilapitypes.h)
 
 
 ## -description

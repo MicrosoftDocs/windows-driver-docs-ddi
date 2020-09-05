@@ -43,7 +43,7 @@ api_name:
  - PEP_ACPI_RESOURCE_TYPE
 ---
 
-# _PEP_ACPI_RESOURCE_TYPE enumeration
+# _PEP_ACPI_RESOURCE_TYPE enumeration (pepfx.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - IoSizeOfIrp
 ---
 
-# IoSizeOfIrp macro
+# IoSizeOfIrp macro (ntifs.h)
 
 
 ## -description

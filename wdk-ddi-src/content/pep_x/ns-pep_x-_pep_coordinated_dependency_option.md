@@ -45,7 +45,7 @@ api_name:
  - PEP_COORDINATED_DEPENDENCY_OPTION
 ---
 
-# _PEP_COORDINATED_DEPENDENCY_OPTION structure
+# _PEP_COORDINATED_DEPENDENCY_OPTION structure (pep_x.h)
 
 
 ## -description

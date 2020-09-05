@@ -41,7 +41,7 @@ api_name:
  - WDF_INTERRUPT_EXTENDED_POLICY_INIT
 ---
 
-# WDF_INTERRUPT_EXTENDED_POLICY_INIT function
+# WDF_INTERRUPT_EXTENDED_POLICY_INIT function (wudfinterrupt.h)
 
 
 ## -description

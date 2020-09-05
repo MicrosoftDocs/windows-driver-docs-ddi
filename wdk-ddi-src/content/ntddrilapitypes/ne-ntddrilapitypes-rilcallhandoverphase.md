@@ -41,7 +41,7 @@ api_name:
  - RILCALLHANDOVERPHASE
 ---
 
-# RILCALLHANDOVERPHASE enumeration
+# RILCALLHANDOVERPHASE enumeration (ntddrilapitypes.h)
 
 
 ## -description

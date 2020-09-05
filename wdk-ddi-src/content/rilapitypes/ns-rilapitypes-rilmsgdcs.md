@@ -43,7 +43,7 @@ api_name:
  - RILMSGDCS
 ---
 
-# RILMSGDCS structure
+# RILMSGDCS structure (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILMODEMRESETSTATE
 ---
 
-# RILMODEMRESETSTATE enumeration
+# RILMODEMRESETSTATE enumeration (ntddrilapitypes.h)
 
 
 ## -description

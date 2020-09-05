@@ -43,7 +43,7 @@ api_name:
  - RILDIALEDIDSETTINGS
 ---
 
-# RILDIALEDIDSETTINGS structure
+# RILDIALEDIDSETTINGS structure (rilapitypes.h)
 
 
 ## -description

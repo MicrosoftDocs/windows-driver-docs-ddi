@@ -41,7 +41,7 @@ api_name:
  - RILIMSSERVICE
 ---
 
-# RILIMSSERVICE enumeration
+# RILIMSSERVICE enumeration (ntddrilapitypes.h)
 
 
 ## -description

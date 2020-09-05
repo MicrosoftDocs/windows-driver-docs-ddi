@@ -43,7 +43,7 @@ api_name:
  - WDF_IO_TARGET_SENT_IO_ACTION
 ---
 
-# _WDF_IO_TARGET_SENT_IO_ACTION enumeration
+# _WDF_IO_TARGET_SENT_IO_ACTION enumeration (wudfddi_types.h)
 
 
 ## -description

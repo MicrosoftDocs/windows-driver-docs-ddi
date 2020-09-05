@@ -43,7 +43,7 @@ api_name:
  - RILCALLDISCONNECTDETAILS
 ---
 
-# RILCALLDISCONNECTDETAILS structure
+# RILCALLDISCONNECTDETAILS structure (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - PoSetDeviceBusyEx
 ---
 
-# PoSetDeviceBusyEx function
+# PoSetDeviceBusyEx function (wdm.h)
 
 
 ## -description

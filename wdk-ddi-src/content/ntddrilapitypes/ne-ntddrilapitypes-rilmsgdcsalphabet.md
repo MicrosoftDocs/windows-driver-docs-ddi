@@ -41,7 +41,7 @@ api_name:
  - RILMSGDCSALPHABET
 ---
 
-# RILMSGDCSALPHABET enumeration
+# RILMSGDCSALPHABET enumeration (ntddrilapitypes.h)
 
 
 ## -description

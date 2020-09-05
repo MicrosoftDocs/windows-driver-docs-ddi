@@ -43,7 +43,7 @@ api_name:
  - RILPROVISIONSTATUS
 ---
 
-# RILPROVISIONSTATUS structure
+# RILPROVISIONSTATUS structure (ntddrilapitypes.h)
 
 
 ## -description

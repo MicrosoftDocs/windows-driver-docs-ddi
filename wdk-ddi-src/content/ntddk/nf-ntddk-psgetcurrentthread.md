@@ -41,7 +41,7 @@ api_name:
  - PsGetCurrentThread
 ---
 
-# PsGetCurrentThread function
+# PsGetCurrentThread function (ntddk.h)
 
 
 ## -description

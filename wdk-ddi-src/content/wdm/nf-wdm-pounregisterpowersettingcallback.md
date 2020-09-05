@@ -41,7 +41,7 @@ api_name:
  - PoUnregisterPowerSettingCallback
 ---
 
-# PoUnregisterPowerSettingCallback function
+# PoUnregisterPowerSettingCallback function (wdm.h)
 
 
 ## -description

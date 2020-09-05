@@ -41,7 +41,7 @@ api_name:
  - KeLeaveCriticalRegion
 ---
 
-# KeLeaveCriticalRegion function
+# KeLeaveCriticalRegion function (wdm.h)
 
 
 ## -description

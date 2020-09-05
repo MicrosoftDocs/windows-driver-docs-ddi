@@ -43,7 +43,7 @@ api_name:
  - RILUICCCMDPARAMETERS
 ---
 
-# RILUICCCMDPARAMETERS structure
+# RILUICCCMDPARAMETERS structure (rilapitypes.h)
 
 
 ## -description

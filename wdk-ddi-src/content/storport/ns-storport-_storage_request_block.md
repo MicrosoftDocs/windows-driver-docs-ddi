@@ -45,7 +45,7 @@ api_name:
  - STORAGE_REQUEST_BLOCK
 ---
 
-# _STORAGE_REQUEST_BLOCK structure
+# _STORAGE_REQUEST_BLOCK structure (storport.h)
 
 
 ## -description

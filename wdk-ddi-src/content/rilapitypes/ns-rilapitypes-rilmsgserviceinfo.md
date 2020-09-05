@@ -43,7 +43,7 @@ api_name:
  - RILMSGSERVICEINFO
 ---
 
-# RILMSGSERVICEINFO structure
+# RILMSGSERVICEINFO structure (rilapitypes.h)
 
 
 ## -description

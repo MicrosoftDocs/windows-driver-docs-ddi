@@ -45,7 +45,7 @@ api_name:
  - ZONE_DESCRIPTIOR
 ---
 
-# _ZONE_DESCRIPTIOR structure
+# _ZONE_DESCRIPTIOR structure (storport.h)
 
 
 ## -description

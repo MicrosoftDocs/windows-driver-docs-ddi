@@ -43,7 +43,7 @@ api_name:
  - RILUICCAPPPERSOCHECKSTATUS
 ---
 
-# RILUICCAPPPERSOCHECKSTATUS structure
+# RILUICCAPPPERSOCHECKSTATUS structure (rilapitypes.h)
 
 
 ## -description

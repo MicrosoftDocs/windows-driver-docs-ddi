@@ -41,7 +41,7 @@ api_name:
  - PoStartDeviceBusy
 ---
 
-# PoStartDeviceBusy function
+# PoStartDeviceBusy function (wdm.h)
 
 
 ## -description

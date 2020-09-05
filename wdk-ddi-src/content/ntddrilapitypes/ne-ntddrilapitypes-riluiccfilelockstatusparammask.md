@@ -41,7 +41,7 @@ api_name:
  - RILUICCFILELOCKSTATUSPARAMMASK
 ---
 
-# RILUICCFILELOCKSTATUSPARAMMASK enumeration
+# RILUICCFILELOCKSTATUSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

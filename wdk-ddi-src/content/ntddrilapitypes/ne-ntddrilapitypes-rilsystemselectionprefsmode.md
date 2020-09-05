@@ -41,7 +41,7 @@ api_name:
  - RILSYSTEMSELECTIONPREFSMODE
 ---
 
-# RILSYSTEMSELECTIONPREFSMODE enumeration
+# RILSYSTEMSELECTIONPREFSMODE enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_DOMAIN_INFO
 ---
 
-# _PEP_PPM_QUERY_DOMAIN_INFO structure
+# _PEP_PPM_QUERY_DOMAIN_INFO structure (pepfx.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - WRITE_REGISTER_BUFFER_ULONG64
 ---
 
-# WRITE_REGISTER_BUFFER_ULONG64 function
+# WRITE_REGISTER_BUFFER_ULONG64 function (miniport.h)
 
 
 ## -description

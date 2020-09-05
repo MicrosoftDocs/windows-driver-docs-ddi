@@ -41,7 +41,7 @@ api_name:
  - RILMSGSERVICEINFOPARAMMASK
 ---
 
-# RILMSGSERVICEINFOPARAMMASK enumeration
+# RILMSGSERVICEINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -44,7 +44,7 @@ api_name:
  - RILUICCLOCKSTATE
 ---
 
-# RILUICCLOCKSTATE structure
+# RILUICCLOCKSTATE structure (rilapitypes.h)
 
 
 ## -description

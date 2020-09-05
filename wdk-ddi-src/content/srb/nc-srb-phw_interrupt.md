@@ -42,7 +42,7 @@ api_name:
  - (*PHW_INTERRUPT)
 ---
 
-# PHW_INTERRUPT callback
+# PHW_INTERRUPT callback (srb.h)
 
 
 ## -description

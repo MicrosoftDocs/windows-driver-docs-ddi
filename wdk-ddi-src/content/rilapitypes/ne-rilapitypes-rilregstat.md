@@ -42,7 +42,7 @@ api_name:
  - RILREGSTAT
 ---
 
-# RILREGSTAT enumeration
+# RILREGSTAT enumeration (rilapitypes.h)
 
 
 ## -description

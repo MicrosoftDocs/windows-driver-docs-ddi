@@ -41,7 +41,7 @@ api_name:
  - RILUICCCHANNELGROUP
 ---
 
-# RILUICCCHANNELGROUP enumeration
+# RILUICCCHANNELGROUP enumeration (rilapitypes.h)
 
 
 ## -description

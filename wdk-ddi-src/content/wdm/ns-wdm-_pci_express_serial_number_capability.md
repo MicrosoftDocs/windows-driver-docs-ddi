@@ -46,7 +46,7 @@ api_name:
  - PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
 ---
 
-# _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure
+# _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure (wdm.h)
 
 
 ## -description

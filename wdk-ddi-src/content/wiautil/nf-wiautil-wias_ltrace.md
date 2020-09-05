@@ -41,7 +41,7 @@ api_name:
  - WIAS_LTRACE
 ---
 
-# WIAS_LTRACE macro
+# WIAS_LTRACE macro (wiautil.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILDMCONFIGINFOTYPE
 ---
 
-# RILDMCONFIGINFOTYPE enumeration
+# RILDMCONFIGINFOTYPE enumeration (rilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILCHANGEUICCLOCKPASSWORDPARAMS
 ---
 
-# RILCHANGEUICCLOCKPASSWORDPARAMS structure
+# RILCHANGEUICCLOCKPASSWORDPARAMS structure (rilapitypes.h)
 
 
 ## -description

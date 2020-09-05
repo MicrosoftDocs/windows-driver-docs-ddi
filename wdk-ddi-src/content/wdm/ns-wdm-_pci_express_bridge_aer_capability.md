@@ -46,7 +46,7 @@ api_name:
  - PCI_EXPRESS_BRIDGE_AER_CAPABILITY
 ---
 
-# _PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure
+# _PCI_EXPRESS_BRIDGE_AER_CAPABILITY structure (wdm.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - IOCTL_SCSI_MINIPORT_DSM
 ---
 
-# IOCTL_SCSI_MINIPORT_DSM IOCTL
+# IOCTL_SCSI_MINIPORT_DSM IOCTL (storport.h)
 
 
 ## -description

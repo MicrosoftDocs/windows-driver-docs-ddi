@@ -41,7 +41,7 @@ api_name:
  - RILALPHAIDENTIFIDERTYPE
 ---
 
-# RILALPHAIDENTIFIDERTYPE enumeration
+# RILALPHAIDENTIFIDERTYPE enumeration (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILSUPSERVICEDATASTATUS
 ---
 
-# RILSUPSERVICEDATASTATUS enumeration
+# RILSUPSERVICEDATASTATUS enumeration (rilapitypes.h)
 
 
 ## -description

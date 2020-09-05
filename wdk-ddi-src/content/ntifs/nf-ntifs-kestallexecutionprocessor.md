@@ -41,7 +41,7 @@ api_name:
  - KeStallExecutionProcessor
 ---
 
-# KeStallExecutionProcessor function
+# KeStallExecutionProcessor function (ntifs.h)
 
 
 ## -description

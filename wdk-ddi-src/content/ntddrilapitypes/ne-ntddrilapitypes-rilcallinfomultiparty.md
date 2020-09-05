@@ -41,7 +41,7 @@ api_name:
  - RILCALLINFOMULTIPARTY
 ---
 
-# RILCALLINFOMULTIPARTY enumeration
+# RILCALLINFOMULTIPARTY enumeration (ntddrilapitypes.h)
 
 
 ## -description

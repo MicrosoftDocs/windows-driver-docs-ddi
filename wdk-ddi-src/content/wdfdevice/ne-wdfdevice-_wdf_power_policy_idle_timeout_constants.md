@@ -44,7 +44,7 @@ api_name:
  - WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ---
 
-# _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration
+# _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration (wdfdevice.h)
 
 
 ## -description

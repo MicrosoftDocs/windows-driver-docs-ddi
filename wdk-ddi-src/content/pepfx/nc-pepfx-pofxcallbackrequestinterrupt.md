@@ -41,7 +41,7 @@ api_name:
  - RequestInterrupt
 ---
 
-# POFXCALLBACKREQUESTINTERRUPT callback function
+# POFXCALLBACKREQUESTINTERRUPT callback function (pepfx.h)
 
 
 ## -description

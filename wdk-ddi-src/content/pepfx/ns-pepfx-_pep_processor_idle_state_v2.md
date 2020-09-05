@@ -45,7 +45,7 @@ api_name:
  - PEP_PROCESSOR_IDLE_STATE_V2
 ---
 
-# _PEP_PROCESSOR_IDLE_STATE_V2 structure
+# _PEP_PROCESSOR_IDLE_STATE_V2 structure (pepfx.h)
 
 
 ## -description

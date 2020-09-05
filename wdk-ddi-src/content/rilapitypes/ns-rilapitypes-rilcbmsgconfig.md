@@ -43,7 +43,7 @@ api_name:
  - RILCBMSGCONFIG
 ---
 
-# RILCBMSGCONFIG structure
+# RILCBMSGCONFIG structure (rilapitypes.h)
 
 
 ## -description

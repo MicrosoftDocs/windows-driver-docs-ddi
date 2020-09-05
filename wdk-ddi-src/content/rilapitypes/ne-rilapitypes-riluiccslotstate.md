@@ -42,7 +42,7 @@ api_name:
  - RILUICCSLOTSTATE
 ---
 
-# RILUICCSLOTSTATE enumeration
+# RILUICCSLOTSTATE enumeration (rilapitypes.h)
 
 
 ## -description

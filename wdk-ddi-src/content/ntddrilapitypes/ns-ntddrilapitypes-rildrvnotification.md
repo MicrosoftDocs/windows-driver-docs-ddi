@@ -43,7 +43,7 @@ api_name:
  - RILDRVNOTIFICATION
 ---
 
-# RILDRVNOTIFICATION structure
+# RILDRVNOTIFICATION structure (ntddrilapitypes.h)
 
 
 ## -description

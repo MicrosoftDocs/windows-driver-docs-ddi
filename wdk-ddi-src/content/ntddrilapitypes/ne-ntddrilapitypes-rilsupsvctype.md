@@ -41,7 +41,7 @@ api_name:
  - RILSUPSVCTYPE
 ---
 
-# RILSUPSVCTYPE enumeration
+# RILSUPSVCTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

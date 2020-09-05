@@ -45,7 +45,7 @@ api_name:
  - IRQ_DEVICE_POLICY
 ---
 
-# _IRQ_DEVICE_POLICY enumeration
+# _IRQ_DEVICE_POLICY enumeration (wdm.h)
 
 
 ## -description

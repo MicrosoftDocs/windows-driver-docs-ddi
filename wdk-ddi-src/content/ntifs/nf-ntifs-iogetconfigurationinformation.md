@@ -41,7 +41,7 @@ api_name:
  - IoGetConfigurationInformation
 ---
 
-# IoGetConfigurationInformation function
+# IoGetConfigurationInformation function (ntifs.h)
 
 
 ## -description

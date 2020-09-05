@@ -43,7 +43,7 @@ api_name:
  - RILSETSLOTPOWERPARAMS
 ---
 
-# RILSETSLOTPOWERPARAMS structure
+# RILSETSLOTPOWERPARAMS structure (rilapitypes.h)
 
 
 ## -description

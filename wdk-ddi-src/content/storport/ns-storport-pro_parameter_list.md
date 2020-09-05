@@ -43,7 +43,7 @@ api_name:
  - PRO_PARAMETER_LIST
 ---
 
-# PRO_PARAMETER_LIST structure
+# PRO_PARAMETER_LIST structure (storport.h)
 
 
 ## -description

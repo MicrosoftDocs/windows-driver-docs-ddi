@@ -45,7 +45,7 @@ api_name:
  - PEP_DEVICE_ACCEPTANCE_TYPE
 ---
 
-# _PEP_DEVICE_ACCEPTANCE_TYPE enumeration
+# _PEP_DEVICE_ACCEPTANCE_TYPE enumeration (pep_x.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILGSMNMR
 ---
 
-# RILGSMNMR structure
+# RILGSMNMR structure (ntddrilapitypes.h)
 
 
 ## -description

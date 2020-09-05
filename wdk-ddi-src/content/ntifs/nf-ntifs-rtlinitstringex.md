@@ -41,7 +41,7 @@ api_name:
  - RtlInitString
 ---
 
-# RtlInitStringEx function
+# RtlInitStringEx function (ntifs.h)
 
 
 ## -description

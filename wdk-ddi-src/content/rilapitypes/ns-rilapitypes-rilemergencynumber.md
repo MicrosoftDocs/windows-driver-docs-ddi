@@ -43,7 +43,7 @@ api_name:
  - RILEMERGENCYNUMBER
 ---
 
-# RILEMERGENCYNUMBER structure
+# RILEMERGENCYNUMBER structure (rilapitypes.h)
 
 
 ## -description

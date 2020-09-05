@@ -41,7 +41,7 @@ api_name:
  - RIL3GPP2TONE
 ---
 
-# RIL3GPP2TONE enumeration
+# RIL3GPP2TONE enumeration (ntddrilapitypes.h)
 
 
 ## -description

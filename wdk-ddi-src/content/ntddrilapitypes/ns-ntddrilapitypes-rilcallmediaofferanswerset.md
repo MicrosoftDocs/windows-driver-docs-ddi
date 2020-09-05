@@ -43,7 +43,7 @@ api_name:
  - RILCALLMEDIAOFFERANSWERSET
 ---
 
-# RILCALLMEDIAOFFERANSWERSET structure
+# RILCALLMEDIAOFFERANSWERSET structure (ntddrilapitypes.h)
 
 
 ## -description

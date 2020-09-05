@@ -45,7 +45,7 @@ api_name:
  - PEP_QUERY_COMPONENT_PERF_STATES
 ---
 
-# _PEP_QUERY_COMPONENT_PERF_STATES structure
+# _PEP_QUERY_COMPONENT_PERF_STATES structure (pepfx.h)
 
 
 ## -description

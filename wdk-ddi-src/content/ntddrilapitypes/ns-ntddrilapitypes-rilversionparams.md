@@ -43,7 +43,7 @@ api_name:
  - RILVERSIONPARAMS
 ---
 
-# RILVERSIONPARAMS structure
+# RILVERSIONPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

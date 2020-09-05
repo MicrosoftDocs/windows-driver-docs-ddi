@@ -41,7 +41,7 @@ api_name:
  - RILGEOSCOPE
 ---
 
-# RILGEOSCOPE enumeration
+# RILGEOSCOPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

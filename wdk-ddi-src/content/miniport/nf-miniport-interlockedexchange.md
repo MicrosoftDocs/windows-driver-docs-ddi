@@ -46,7 +46,7 @@ api_name:
  - InterlockedExchange
 ---
 
-# InterlockedExchange function
+# InterlockedExchange function (miniport.h)
 
 
 ## -description

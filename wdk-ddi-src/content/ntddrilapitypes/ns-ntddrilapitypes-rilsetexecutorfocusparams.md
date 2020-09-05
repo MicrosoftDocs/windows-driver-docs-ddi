@@ -43,7 +43,7 @@ api_name:
  - RILSETEXECUTORFOCUSPARAMS
 ---
 
-# RILSETEXECUTORFOCUSPARAMS structure
+# RILSETEXECUTORFOCUSPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

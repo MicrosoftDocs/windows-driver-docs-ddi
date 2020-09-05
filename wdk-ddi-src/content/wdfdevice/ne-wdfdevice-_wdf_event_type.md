@@ -44,7 +44,7 @@ api_name:
  - WDF_EVENT_TYPE
 ---
 
-# _WDF_EVENT_TYPE enumeration
+# _WDF_EVENT_TYPE enumeration (wdfdevice.h)
 
 
 ## -description

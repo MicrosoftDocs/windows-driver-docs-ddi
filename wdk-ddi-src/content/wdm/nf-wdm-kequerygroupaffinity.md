@@ -41,7 +41,7 @@ api_name:
  - KeQueryGroupAffinity
 ---
 
-# KeQueryGroupAffinity function
+# KeQueryGroupAffinity function (wdm.h)
 
 
 ## -description

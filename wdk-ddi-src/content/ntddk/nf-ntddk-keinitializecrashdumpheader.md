@@ -41,7 +41,7 @@ api_name:
  - KeInitializeCrashDumpHeader
 ---
 
-# KeInitializeCrashDumpHeader function
+# KeInitializeCrashDumpHeader function (ntddk.h)
 
 
 ## -description

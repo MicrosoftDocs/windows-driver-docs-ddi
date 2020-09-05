@@ -41,7 +41,7 @@ api_name:
  - RILIMSSIPREASON
 ---
 
-# RILIMSSIPREASON enumeration
+# RILIMSSIPREASON enumeration (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - KeQueryMaximumGroupCount
 ---
 
-# KeQueryMaximumGroupCount function
+# KeQueryMaximumGroupCount function (wdm.h)
 
 
 ## -description

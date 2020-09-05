@@ -42,7 +42,7 @@ api_name:
  - RILUICCRECORDTYPE
 ---
 
-# RILUICCRECORDTYPE enumeration
+# RILUICCRECORDTYPE enumeration (rilapitypes.h)
 
 
 ## -description

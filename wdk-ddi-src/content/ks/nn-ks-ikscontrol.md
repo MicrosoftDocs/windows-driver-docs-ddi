@@ -42,7 +42,7 @@ api_name:
  - IKsControl
 ---
 
-# IKsControl interface
+# IKsControl interface (ks.h)
 
 
 ## -description

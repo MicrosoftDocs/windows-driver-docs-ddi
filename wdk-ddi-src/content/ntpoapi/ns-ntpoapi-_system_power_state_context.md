@@ -45,7 +45,7 @@ api_name:
  - SYSTEM_POWER_STATE_CONTEXT
 ---
 
-# _SYSTEM_POWER_STATE_CONTEXT structure
+# _SYSTEM_POWER_STATE_CONTEXT structure (ntpoapi.h)
 
 
 ## -description

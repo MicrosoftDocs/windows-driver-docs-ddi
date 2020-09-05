@@ -41,7 +41,7 @@ api_name:
  - RILCALLWAITINGINFOPARAMMASK
 ---
 
-# RILCALLWAITINGINFOPARAMMASK enumeration
+# RILCALLWAITINGINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

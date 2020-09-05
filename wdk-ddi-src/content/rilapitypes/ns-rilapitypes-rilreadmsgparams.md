@@ -43,7 +43,7 @@ api_name:
  - RILREADMSGPARAMS
 ---
 
-# RILREADMSGPARAMS structure
+# RILREADMSGPARAMS structure (rilapitypes.h)
 
 
 ## -description

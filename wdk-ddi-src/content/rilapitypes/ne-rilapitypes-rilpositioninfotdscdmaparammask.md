@@ -42,7 +42,7 @@ api_name:
  - RILPOSITIONINFOTDSCDMAPARAMMASK
 ---
 
-# RILPOSITIONINFOTDSCDMAPARAMMASK enumeration
+# RILPOSITIONINFOTDSCDMAPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - WDFMEMORY_OFFSET
 ---
 
-# _WDFMEMORY_OFFSET structure
+# _WDFMEMORY_OFFSET structure (wudfddi_types.h)
 
 
 ## -description

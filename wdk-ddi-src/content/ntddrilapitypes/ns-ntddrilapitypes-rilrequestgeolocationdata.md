@@ -43,7 +43,7 @@ api_name:
  - RILREQUESTGEOLOCATIONDATA
 ---
 
-# RILREQUESTGEOLOCATIONDATA structure
+# RILREQUESTGEOLOCATIONDATA structure (ntddrilapitypes.h)
 
 
 ## -description

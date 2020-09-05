@@ -41,7 +41,7 @@ api_name:
  - KeEnterCriticalRegion
 ---
 
-# KeEnterCriticalRegion function
+# KeEnterCriticalRegion function (wdm.h)
 
 
 ## -description

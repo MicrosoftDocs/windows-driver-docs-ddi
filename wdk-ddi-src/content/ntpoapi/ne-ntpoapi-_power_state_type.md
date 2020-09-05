@@ -45,7 +45,7 @@ api_name:
  - POWER_STATE_TYPE
 ---
 
-# _POWER_STATE_TYPE enumeration
+# _POWER_STATE_TYPE enumeration (ntpoapi.h)
 
 
 ## -description

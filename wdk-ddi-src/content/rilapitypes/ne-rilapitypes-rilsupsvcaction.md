@@ -41,7 +41,7 @@ api_name:
  - RILSUPSVCACTION
 ---
 
-# RILSUPSVCACTION enumeration
+# RILSUPSVCACTION enumeration (rilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 ---
 
-# _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure
+# _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure (pep_x.h)
 
 
 ## -description

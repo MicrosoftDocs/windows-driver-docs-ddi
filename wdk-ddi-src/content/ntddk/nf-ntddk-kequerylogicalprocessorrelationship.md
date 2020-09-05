@@ -41,7 +41,7 @@ api_name:
  - KeQueryLogicalProcessorRelationship
 ---
 
-# KeQueryLogicalProcessorRelationship function
+# KeQueryLogicalProcessorRelationship function (ntddk.h)
 
 
 ## -description

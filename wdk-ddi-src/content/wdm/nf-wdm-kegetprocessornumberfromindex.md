@@ -41,7 +41,7 @@ api_name:
  - KeGetProcessorNumberFromIndex
 ---
 
-# KeGetProcessorNumberFromIndex function
+# KeGetProcessorNumberFromIndex function (wdm.h)
 
 
 ## -description

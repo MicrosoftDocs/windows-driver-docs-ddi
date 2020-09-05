@@ -45,7 +45,7 @@ api_name:
  - PEP_COMPONENT_V2
 ---
 
-# _PEP_COMPONENT_V2 structure
+# _PEP_COMPONENT_V2 structure (pep_x.h)
 
 
 ## -description

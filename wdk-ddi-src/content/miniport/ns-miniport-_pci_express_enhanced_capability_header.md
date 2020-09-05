@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 ---
 
-# _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure
+# _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure (miniport.h)
 
 
 ## -description

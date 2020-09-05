@@ -42,7 +42,7 @@ f1_keywords:
  - wdm/POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES
 ---
 
-# POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES structure
+# POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES structure (wdm.h)
 
 
 ## -description

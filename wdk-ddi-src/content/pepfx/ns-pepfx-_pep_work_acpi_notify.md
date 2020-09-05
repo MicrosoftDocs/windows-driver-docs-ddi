@@ -45,7 +45,7 @@ api_name:
  - PEP_WORK_ACPI_NOTIFY
 ---
 
-# _PEP_WORK_ACPI_NOTIFY structure
+# _PEP_WORK_ACPI_NOTIFY structure (pepfx.h)
 
 
 ## -description

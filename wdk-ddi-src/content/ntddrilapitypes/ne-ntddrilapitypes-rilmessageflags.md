@@ -41,7 +41,7 @@ api_name:
  - RILMESSAGEFLAGS
 ---
 
-# RILMESSAGEFLAGS enumeration
+# RILMESSAGEFLAGS enumeration (ntddrilapitypes.h)
 
 
 ## -description

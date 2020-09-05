@@ -43,7 +43,7 @@ api_name:
  - RILMSGOUTSUBMIT
 ---
 
-# RILMSGOUTSUBMIT structure
+# RILMSGOUTSUBMIT structure (rilapitypes.h)
 
 
 ## -description

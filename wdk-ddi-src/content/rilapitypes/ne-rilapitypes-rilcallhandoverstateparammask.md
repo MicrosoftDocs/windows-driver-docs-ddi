@@ -41,7 +41,7 @@ api_name:
  - RILCALLHANDOVERSTATEPARAMMASK
 ---
 
-# RILCALLHANDOVERSTATEPARAMMASK enumeration
+# RILCALLHANDOVERSTATEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

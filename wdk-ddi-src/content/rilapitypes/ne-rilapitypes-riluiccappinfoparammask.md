@@ -41,7 +41,7 @@ api_name:
  - RILUICCAPPINFOPARAMMASK
 ---
 
-# RILUICCAPPINFOPARAMMASK enumeration
+# RILUICCAPPINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

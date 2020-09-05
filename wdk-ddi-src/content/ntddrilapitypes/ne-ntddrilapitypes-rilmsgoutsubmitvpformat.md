@@ -41,7 +41,7 @@ api_name:
  - RILMSGOUTSUBMITVPFORMAT
 ---
 
-# RILMSGOUTSUBMITVPFORMAT enumeration
+# RILMSGOUTSUBMITVPFORMAT enumeration (ntddrilapitypes.h)
 
 
 ## -description

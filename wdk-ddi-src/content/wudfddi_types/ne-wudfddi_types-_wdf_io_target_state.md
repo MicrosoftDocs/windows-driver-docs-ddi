@@ -46,7 +46,7 @@ api_name:
  - WDF_IO_TARGET_STATE
 ---
 
-# _WDF_IO_TARGET_STATE enumeration
+# _WDF_IO_TARGET_STATE enumeration (wudfddi_types.h)
 
 
 ## -description

@@ -44,7 +44,7 @@ api_name:
  - RILIMSI
 ---
 
-# RILIMSI structure
+# RILIMSI structure (rilapitypes.h)
 
 
 ## -description

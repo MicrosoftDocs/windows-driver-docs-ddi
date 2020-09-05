@@ -43,7 +43,7 @@ api_name:
  - RILUICCSLOTINFO
 ---
 
-# RILUICCSLOTINFO structure
+# RILUICCSLOTINFO structure (rilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILPSMEDIACONFIGURATION
 ---
 
-# RILPSMEDIACONFIGURATION structure
+# RILPSMEDIACONFIGURATION structure (rilapitypes.h)
 
 
 ## -description

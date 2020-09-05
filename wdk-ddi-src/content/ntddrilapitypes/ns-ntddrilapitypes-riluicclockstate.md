@@ -43,7 +43,7 @@ api_name:
  - RILUICCLOCKSTATE
 ---
 
-# RILUICCLOCKSTATE structure
+# RILUICCLOCKSTATE structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - PoCreatePowerRequest
 ---
 
-# PoCreatePowerRequest function
+# PoCreatePowerRequest function (wdm.h)
 
 
 ## -description

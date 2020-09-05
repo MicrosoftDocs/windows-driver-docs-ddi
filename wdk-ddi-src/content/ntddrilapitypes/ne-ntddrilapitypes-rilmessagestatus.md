@@ -41,7 +41,7 @@ api_name:
  - RILMESSAGESTATUS
 ---
 
-# RILMESSAGESTATUS enumeration
+# RILMESSAGESTATUS enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -44,7 +44,7 @@ api_name:
  - RILTDSCDMAMRL
 ---
 
-# RILTDSCDMAMRL structure
+# RILTDSCDMAMRL structure (rilapitypes.h)
 
 
 ## -description

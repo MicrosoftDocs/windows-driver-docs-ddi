@@ -45,7 +45,7 @@ api_name:
  - ScsiReadCapacity_OUT
 ---
 
-# _ScsiReadCapacity_OUT structure
+# _ScsiReadCapacity_OUT structure (iscsiop.h)
 
 
 ## -description

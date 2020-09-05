@@ -41,7 +41,7 @@ api_name:
  - RILCALLAUDIOQUALITY
 ---
 
-# RILCALLAUDIOQUALITY enumeration
+# RILCALLAUDIOQUALITY enumeration (rilapitypes.h)
 
 
 ## -description

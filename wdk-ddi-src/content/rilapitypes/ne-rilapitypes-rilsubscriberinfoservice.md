@@ -42,7 +42,7 @@ api_name:
  - RILSUBSCRIBERINFOSERVICE
 ---
 
-# RILSUBSCRIBERINFOSERVICE enumeration
+# RILSUBSCRIBERINFOSERVICE enumeration (rilapitypes.h)
 
 
 ## -description

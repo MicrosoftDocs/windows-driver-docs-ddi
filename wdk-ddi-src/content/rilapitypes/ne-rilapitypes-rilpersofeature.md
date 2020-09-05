@@ -41,7 +41,7 @@ api_name:
  - RILPERSOFEATURE
 ---
 
-# RILPERSOFEATURE enumeration
+# RILPERSOFEATURE enumeration (rilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILSETMSGINUICCSTATUSPARAMS
 ---
 
-# RILSETMSGINUICCSTATUSPARAMS structure
+# RILSETMSGINUICCSTATUSPARAMS structure (rilapitypes.h)
 
 
 ## -description
