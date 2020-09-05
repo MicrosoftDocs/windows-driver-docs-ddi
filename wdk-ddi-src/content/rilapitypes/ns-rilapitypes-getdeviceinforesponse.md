@@ -42,7 +42,7 @@ api_name:
  - GETDEVICEINFORESPONSE
 ---
 
-# GETDEVICEINFORESPONSE structure
+# GETDEVICEINFORESPONSE structure (rilapitypes.h)
 
 
 ## -description

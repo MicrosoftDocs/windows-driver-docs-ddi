@@ -45,7 +45,7 @@ api_name:
  - POWER_REQUEST_TYPE
 ---
 
-# _POWER_REQUEST_TYPE enumeration
+# _POWER_REQUEST_TYPE enumeration (wdm.h)
 
 
 ## -description

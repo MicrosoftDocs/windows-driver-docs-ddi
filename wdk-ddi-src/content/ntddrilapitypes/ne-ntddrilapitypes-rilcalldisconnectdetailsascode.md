@@ -41,7 +41,7 @@ api_name:
  - RILCALLDISCONNECTDETAILSASCODE
 ---
 
-# RILCALLDISCONNECTDETAILSASCODE enumeration
+# RILCALLDISCONNECTDETAILSASCODE enumeration (ntddrilapitypes.h)
 
 
 ## -description

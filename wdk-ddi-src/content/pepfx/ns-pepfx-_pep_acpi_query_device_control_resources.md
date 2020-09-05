@@ -44,7 +44,7 @@ api_name:
  - PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
 ---
 
-# _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure
+# _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure (pepfx.h)
 
 
 ## -description

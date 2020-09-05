@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 ---
 
-# _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure
+# _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure (miniport.h)
 
 
 ## -description

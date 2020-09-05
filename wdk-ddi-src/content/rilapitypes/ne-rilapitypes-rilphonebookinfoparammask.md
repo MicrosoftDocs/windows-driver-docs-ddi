@@ -41,7 +41,7 @@ api_name:
  - RILPHONEBOOKINFOPARAMMASK
 ---
 
-# RILPHONEBOOKINFOPARAMMASK enumeration
+# RILPHONEBOOKINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

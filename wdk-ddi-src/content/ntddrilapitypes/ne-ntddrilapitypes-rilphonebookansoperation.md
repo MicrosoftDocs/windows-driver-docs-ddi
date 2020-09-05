@@ -41,7 +41,7 @@ api_name:
  - RILPHONEBOOKANSOPERATION
 ---
 
-# RILPHONEBOOKANSOPERATION enumeration
+# RILPHONEBOOKANSOPERATION enumeration (ntddrilapitypes.h)
 
 
 ## -description

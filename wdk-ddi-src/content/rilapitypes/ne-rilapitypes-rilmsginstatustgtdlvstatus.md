@@ -41,7 +41,7 @@ api_name:
  - RILMSGINSTATUSTGTDLVSTATUS
 ---
 
-# RILMSGINSTATUSTGTDLVSTATUS enumeration
+# RILMSGINSTATUSTGTDLVSTATUS enumeration (rilapitypes.h)
 
 
 ## -description

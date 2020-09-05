@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PLATFORM_STATE_RESIDENCIES
 ---
 
-# _PEP_PPM_PLATFORM_STATE_RESIDENCIES structure
+# _PEP_PPM_PLATFORM_STATE_RESIDENCIES structure (pepfx.h)
 
 
 ## -description

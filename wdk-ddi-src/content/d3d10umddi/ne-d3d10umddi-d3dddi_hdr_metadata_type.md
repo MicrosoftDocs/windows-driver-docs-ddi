@@ -38,7 +38,7 @@ product:
  - Windows
 ---
 
-# D3DDDI_HDR_METADATA_TYPE enumeration
+# D3DDDI_HDR_METADATA_TYPE enumeration (d3d10umddi.h)
 
 
 ## -description

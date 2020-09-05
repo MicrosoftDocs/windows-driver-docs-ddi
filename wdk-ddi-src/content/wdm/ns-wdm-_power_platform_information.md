@@ -45,7 +45,7 @@ api_name:
  - POWER_PLATFORM_INFORMATION
 ---
 
-# _POWER_PLATFORM_INFORMATION structure
+# _POWER_PLATFORM_INFORMATION structure (wdm.h)
 
 
 ## -description

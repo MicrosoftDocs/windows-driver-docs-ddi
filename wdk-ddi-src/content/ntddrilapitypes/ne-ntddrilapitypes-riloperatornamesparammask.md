@@ -41,7 +41,7 @@ api_name:
  - RILOPERATORNAMESPARAMMASK
 ---
 
-# RILOPERATORNAMESPARAMMASK enumeration
+# RILOPERATORNAMESPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

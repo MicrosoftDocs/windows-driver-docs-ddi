@@ -43,7 +43,7 @@ api_name:
  - ST_PARAMETER_DATA
 ---
 
-# ST_PARAMETER_DATA structure
+# ST_PARAMETER_DATA structure (minitape.h)
 
 
 ## -description

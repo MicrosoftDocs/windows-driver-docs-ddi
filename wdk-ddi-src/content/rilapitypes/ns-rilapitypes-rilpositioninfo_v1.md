@@ -43,7 +43,7 @@ api_name:
  - RILPOSITIONINFO_V1
 ---
 
-# RILPOSITIONINFO_V1 structure
+# RILPOSITIONINFO_V1 structure (rilapitypes.h)
 
 
 ## -description

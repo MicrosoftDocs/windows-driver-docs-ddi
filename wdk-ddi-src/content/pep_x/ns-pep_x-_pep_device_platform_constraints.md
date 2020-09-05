@@ -45,7 +45,7 @@ api_name:
  - PEP_DEVICE_PLATFORM_CONSTRAINTS
 ---
 
-# _PEP_DEVICE_PLATFORM_CONSTRAINTS structure
+# _PEP_DEVICE_PLATFORM_CONSTRAINTS structure (pep_x.h)
 
 
 ## -description

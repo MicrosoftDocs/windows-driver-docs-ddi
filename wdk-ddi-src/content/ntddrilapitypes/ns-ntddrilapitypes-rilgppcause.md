@@ -43,7 +43,7 @@ api_name:
  - RILGPPCAUSE
 ---
 
-# RILGPPCAUSE structure
+# RILGPPCAUSE structure (ntddrilapitypes.h)
 
 
 ## -description

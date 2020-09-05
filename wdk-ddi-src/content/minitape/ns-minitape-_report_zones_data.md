@@ -45,7 +45,7 @@ api_name:
  - REPORT_ZONES_DATA
 ---
 
-# _REPORT_ZONES_DATA structure
+# _REPORT_ZONES_DATA structure (minitape.h)
 
 
 ## -description

@@ -42,7 +42,7 @@ api_name:
  - RILUICCFILELOCKSTATUSPARAMMASK
 ---
 
-# RILUICCFILELOCKSTATUSPARAMMASK enumeration
+# RILUICCFILELOCKSTATUSPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

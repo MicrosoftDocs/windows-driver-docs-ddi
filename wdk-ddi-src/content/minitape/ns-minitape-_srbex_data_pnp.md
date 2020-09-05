@@ -45,7 +45,7 @@ api_name:
  - SRBEX_DATA_PNP
 ---
 
-# _SRBEX_DATA_PNP structure
+# _SRBEX_DATA_PNP structure (minitape.h)
 
 
 ## -description

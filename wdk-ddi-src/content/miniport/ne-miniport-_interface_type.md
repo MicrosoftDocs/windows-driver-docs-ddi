@@ -45,7 +45,7 @@ api_name:
  - INTERFACE_TYPE
 ---
 
-# _INTERFACE_TYPE enumeration
+# _INTERFACE_TYPE enumeration (miniport.h)
 
 
 ## -description

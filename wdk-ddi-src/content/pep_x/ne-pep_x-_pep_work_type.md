@@ -45,7 +45,7 @@ api_name:
  - PEP_WORK_TYPE
 ---
 
-# _PEP_WORK_TYPE enumeration
+# _PEP_WORK_TYPE enumeration (pep_x.h)
 
 
 ## -description

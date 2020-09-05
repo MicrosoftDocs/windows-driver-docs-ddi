@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_RESUME_FROM_SYSTEM_STATE
 ---
 
-# _PEP_PPM_RESUME_FROM_SYSTEM_STATE structure
+# _PEP_PPM_RESUME_FROM_SYSTEM_STATE structure (pep_x.h)
 
 
 ## -description

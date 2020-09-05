@@ -41,7 +41,7 @@ api_name:
  - PoRegisterDeviceForIdleDetection
 ---
 
-# PoRegisterDeviceForIdleDetection function
+# PoRegisterDeviceForIdleDetection function (wdm.h)
 
 
 ## -description

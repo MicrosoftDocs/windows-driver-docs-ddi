@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_QUERY_OBJECT_INFORMATION
 ---
 
-# _PEP_ACPI_QUERY_OBJECT_INFORMATION structure
+# _PEP_ACPI_QUERY_OBJECT_INFORMATION structure (pepfx.h)
 
 
 ## -description

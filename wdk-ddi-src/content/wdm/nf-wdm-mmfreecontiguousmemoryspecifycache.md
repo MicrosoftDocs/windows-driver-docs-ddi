@@ -41,7 +41,7 @@ api_name:
  - MmFreeContiguousMemorySpecifyCache
 ---
 
-# MmFreeContiguousMemorySpecifyCache function
+# MmFreeContiguousMemorySpecifyCache function (wdm.h)
 
 
 ## -description

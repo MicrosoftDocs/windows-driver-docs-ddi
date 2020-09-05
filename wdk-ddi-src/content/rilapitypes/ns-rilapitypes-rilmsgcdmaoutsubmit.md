@@ -43,7 +43,7 @@ api_name:
  - RILMSGCDMAOUTSUBMIT
 ---
 
-# RILMSGCDMAOUTSUBMIT structure
+# RILMSGCDMAOUTSUBMIT structure (rilapitypes.h)
 
 
 ## -description

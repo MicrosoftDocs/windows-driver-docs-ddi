@@ -43,7 +43,7 @@ api_name:
  - RILEMERGENCYMODECONTROLPARAMS
 ---
 
-# RILEMERGENCYMODECONTROLPARAMS structure
+# RILEMERGENCYMODECONTROLPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

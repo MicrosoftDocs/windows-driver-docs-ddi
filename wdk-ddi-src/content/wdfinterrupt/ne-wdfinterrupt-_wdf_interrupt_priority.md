@@ -45,7 +45,7 @@ api_name:
  - WDF_INTERRUPT_PRIORITY
 ---
 
-# _WDF_INTERRUPT_PRIORITY enumeration
+# _WDF_INTERRUPT_PRIORITY enumeration (wdfinterrupt.h)
 
 
 ## -description

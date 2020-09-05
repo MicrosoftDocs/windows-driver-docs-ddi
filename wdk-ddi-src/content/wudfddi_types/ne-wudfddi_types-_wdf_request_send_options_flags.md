@@ -43,7 +43,7 @@ api_name:
  - WDF_REQUEST_SEND_OPTIONS_FLAGS
 ---
 
-# _WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration
+# _WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration (wudfddi_types.h)
 
 
 ## -description

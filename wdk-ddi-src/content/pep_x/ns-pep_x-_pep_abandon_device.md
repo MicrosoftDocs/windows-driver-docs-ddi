@@ -45,7 +45,7 @@ api_name:
  - PEP_ABANDON_DEVICE
 ---
 
-# _PEP_ABANDON_DEVICE structure
+# _PEP_ABANDON_DEVICE structure (pep_x.h)
 
 
 ## -description

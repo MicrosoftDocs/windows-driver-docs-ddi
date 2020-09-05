@@ -41,7 +41,7 @@ api_name:
  - RILEQUIPMENTSTATE
 ---
 
-# RILEQUIPMENTSTATE enumeration
+# RILEQUIPMENTSTATE enumeration (ntddrilapitypes.h)
 
 
 ## -description

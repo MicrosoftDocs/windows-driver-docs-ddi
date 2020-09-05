@@ -41,7 +41,7 @@ api_name:
  - InterlockedCompareExchangePointer
 ---
 
-# InterlockedCompareExchangePointer function
+# InterlockedCompareExchangePointer function (miniport.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILADDCALLFORWARDINGPARAMS
 ---
 
-# RILADDCALLFORWARDINGPARAMS structure
+# RILADDCALLFORWARDINGPARAMS structure (rilapitypes.h)
 
 
 ## -description

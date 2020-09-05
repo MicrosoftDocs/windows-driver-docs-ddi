@@ -43,7 +43,7 @@ api_name:
  - RILHIDEIDSETTINGS
 ---
 
-# RILHIDEIDSETTINGS structure
+# RILHIDEIDSETTINGS structure (rilapitypes.h)
 
 
 ## -description

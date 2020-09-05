@@ -41,7 +41,7 @@ api_name:
  - KeQueryActiveProcessorCountEx
 ---
 
-# KeQueryActiveProcessorCountEx function
+# KeQueryActiveProcessorCountEx function (wdm.h)
 
 
 ## -description

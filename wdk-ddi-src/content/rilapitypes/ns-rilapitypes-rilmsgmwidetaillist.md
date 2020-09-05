@@ -43,7 +43,7 @@ api_name:
  - RILMSGMWIDETAILLIST
 ---
 
-# RILMSGMWIDETAILLIST structure
+# RILMSGMWIDETAILLIST structure (rilapitypes.h)
 
 
 ## -description

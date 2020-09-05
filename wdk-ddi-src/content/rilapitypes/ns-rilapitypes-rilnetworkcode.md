@@ -44,7 +44,7 @@ api_name:
  - RILNETWORKCODE
 ---
 
-# RILNETWORKCODE structure
+# RILNETWORKCODE structure (rilapitypes.h)
 
 
 ## -description

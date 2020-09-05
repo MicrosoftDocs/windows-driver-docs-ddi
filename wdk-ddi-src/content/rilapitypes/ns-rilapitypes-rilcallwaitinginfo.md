@@ -43,7 +43,7 @@ api_name:
  - RILCALLWAITINGINFO
 ---
 
-# RILCALLWAITINGINFO structure
+# RILCALLWAITINGINFO structure (rilapitypes.h)
 
 
 ## -description

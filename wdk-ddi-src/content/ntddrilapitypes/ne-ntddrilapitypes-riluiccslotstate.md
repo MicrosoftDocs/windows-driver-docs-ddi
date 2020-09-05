@@ -41,7 +41,7 @@ api_name:
  - RILUICCSLOTSTATE
 ---
 
-# RILUICCSLOTSTATE enumeration
+# RILUICCSLOTSTATE enumeration (ntddrilapitypes.h)
 
 
 ## -description

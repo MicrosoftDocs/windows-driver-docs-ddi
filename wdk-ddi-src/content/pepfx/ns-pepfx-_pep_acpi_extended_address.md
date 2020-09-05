@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_EXTENDED_ADDRESS
 ---
 
-# _PEP_ACPI_EXTENDED_ADDRESS structure
+# _PEP_ACPI_EXTENDED_ADDRESS structure (pepfx.h)
 
 
 ## -description

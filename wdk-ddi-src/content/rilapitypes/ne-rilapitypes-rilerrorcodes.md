@@ -41,7 +41,7 @@ api_name:
  - RILERRORCODES
 ---
 
-# RILERRORCODES enumeration
+# RILERRORCODES enumeration (rilapitypes.h)
 
 
 ## -description

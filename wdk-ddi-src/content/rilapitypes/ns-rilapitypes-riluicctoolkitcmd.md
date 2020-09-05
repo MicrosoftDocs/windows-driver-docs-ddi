@@ -43,7 +43,7 @@ api_name:
  - RILUICCTOOLKITCMD
 ---
 
-# RILUICCTOOLKITCMD structure
+# RILUICCTOOLKITCMD structure (rilapitypes.h)
 
 
 ## -description

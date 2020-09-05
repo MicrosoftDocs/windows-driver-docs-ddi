@@ -41,7 +41,7 @@ api_name:
  - RILMSGMWIDETAILLISTPARAMMASK
 ---
 
-# RILMSGMWIDETAILLISTPARAMMASK enumeration
+# RILMSGMWIDETAILLISTPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

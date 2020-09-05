@@ -43,7 +43,7 @@ api_name:
  - RILMESSAGESTORAGEFULL
 ---
 
-# RILMESSAGESTORAGEFULL structure
+# RILMESSAGESTORAGEFULL structure (ntddrilapitypes.h)
 
 
 ## -description

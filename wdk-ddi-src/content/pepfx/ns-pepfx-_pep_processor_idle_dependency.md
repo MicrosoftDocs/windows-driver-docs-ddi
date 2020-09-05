@@ -45,7 +45,7 @@ api_name:
  - PEP_PROCESSOR_IDLE_DEPENDENCY
 ---
 
-# _PEP_PROCESSOR_IDLE_DEPENDENCY structure
+# _PEP_PROCESSOR_IDLE_DEPENDENCY structure (pepfx.h)
 
 
 ## -description

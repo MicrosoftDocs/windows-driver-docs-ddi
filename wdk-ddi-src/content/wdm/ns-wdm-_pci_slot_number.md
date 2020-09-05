@@ -45,7 +45,7 @@ api_name:
  - PCI_SLOT_NUMBER
 ---
 
-# _PCI_SLOT_NUMBER structure
+# _PCI_SLOT_NUMBER structure (wdm.h)
 
 
 ## -description

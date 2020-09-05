@@ -43,7 +43,7 @@ api_name:
  - RILUICCFILES
 ---
 
-# RILUICCFILES structure
+# RILUICCFILES structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - KeQueryNodeActiveAffinity
 ---
 
-# KeQueryNodeActiveAffinity function
+# KeQueryNodeActiveAffinity function (ntddk.h)
 
 
 ## -description

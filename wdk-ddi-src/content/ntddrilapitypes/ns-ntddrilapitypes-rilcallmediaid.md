@@ -43,7 +43,7 @@ api_name:
  - RILCALLMEDIAID
 ---
 
-# RILCALLMEDIAID structure
+# RILCALLMEDIAID structure (ntddrilapitypes.h)
 
 
 ## -description

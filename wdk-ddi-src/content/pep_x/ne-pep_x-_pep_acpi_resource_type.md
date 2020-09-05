@@ -43,7 +43,7 @@ api_name:
  - PEP_ACPI_RESOURCE_TYPE
 ---
 
-# _PEP_ACPI_RESOURCE_TYPE enumeration
+# _PEP_ACPI_RESOURCE_TYPE enumeration (pep_x.h)
 
 
 ## -description

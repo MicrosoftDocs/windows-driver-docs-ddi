@@ -45,7 +45,7 @@ api_name:
  - SCSI_WMI_REQUEST_BLOCK
 ---
 
-# _SCSI_WMI_REQUEST_BLOCK structure
+# _SCSI_WMI_REQUEST_BLOCK structure (storport.h)
 
 
 ## -description

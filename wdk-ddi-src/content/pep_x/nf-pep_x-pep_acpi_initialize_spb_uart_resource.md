@@ -41,7 +41,7 @@ api_name:
  - PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 ---
 
-# PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function
+# PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function (pep_x.h)
 
 
 ## -description

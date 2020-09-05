@@ -43,7 +43,7 @@ api_name:
  - RILCALLMEDIASTATE
 ---
 
-# RILCALLMEDIASTATE structure
+# RILCALLMEDIASTATE structure (rilapitypes.h)
 
 
 ## -description

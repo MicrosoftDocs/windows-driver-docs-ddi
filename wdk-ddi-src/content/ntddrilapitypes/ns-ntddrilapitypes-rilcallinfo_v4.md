@@ -43,7 +43,7 @@ api_name:
  - RILCALLINFO_V4
 ---
 
-# RILCALLINFO_V4 structure
+# RILCALLINFO_V4 structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILCBMSGCONFIGPARAMMASK
 ---
 
-# RILCBMSGCONFIGPARAMMASK enumeration
+# RILCBMSGCONFIGPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

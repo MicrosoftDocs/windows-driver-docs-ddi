@@ -41,7 +41,7 @@ api_name:
  - RILMSGCDMAMSGSTATUSTYPE
 ---
 
-# RILMSGCDMAMSGSTATUSTYPE enumeration
+# RILMSGCDMAMSGSTATUSTYPE enumeration (rilapitypes.h)
 
 
 ## -description

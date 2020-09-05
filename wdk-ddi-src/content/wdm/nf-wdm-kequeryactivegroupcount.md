@@ -41,7 +41,7 @@ api_name:
  - KeQueryActiveGroupCount
 ---
 
-# KeQueryActiveGroupCount function
+# KeQueryActiveGroupCount function (wdm.h)
 
 
 ## -description

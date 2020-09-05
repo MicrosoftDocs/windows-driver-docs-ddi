@@ -41,7 +41,7 @@ api_name:
  - RILCALLINFODIRECTION
 ---
 
-# RILCALLINFODIRECTION enumeration
+# RILCALLINFODIRECTION enumeration (ntddrilapitypes.h)
 
 
 ## -description

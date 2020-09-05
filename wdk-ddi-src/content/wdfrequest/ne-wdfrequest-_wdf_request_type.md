@@ -43,7 +43,7 @@ api_name:
  - WDF_REQUEST_TYPE
 ---
 
-# _WDF_REQUEST_TYPE enumeration
+# _WDF_REQUEST_TYPE enumeration (wdfrequest.h)
 
 
 ## -description

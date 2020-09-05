@@ -45,7 +45,7 @@ api_name:
  - EMULATOR_ACCESS_ENTRY
 ---
 
-# _EMULATOR_ACCESS_ENTRY structure
+# _EMULATOR_ACCESS_ENTRY structure (dispmprt.h)
 
 
 ## -description

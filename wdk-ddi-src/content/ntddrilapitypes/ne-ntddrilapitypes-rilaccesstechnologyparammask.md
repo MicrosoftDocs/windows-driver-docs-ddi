@@ -41,7 +41,7 @@ api_name:
  - RILACCESSTECHNOLOGYPARAMMASK
 ---
 
-# RILACCESSTECHNOLOGYPARAMMASK enumeration
+# RILACCESSTECHNOLOGYPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

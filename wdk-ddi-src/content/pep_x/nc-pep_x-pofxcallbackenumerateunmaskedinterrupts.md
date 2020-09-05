@@ -41,7 +41,7 @@ api_name:
  - EnumerateUnmaskedInterrupts
 ---
 
-# POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function
+# POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function (pep_x.h)
 
 
 ## -description

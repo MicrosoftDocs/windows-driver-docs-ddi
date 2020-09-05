@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PARK_MASK
 ---
 
-# _PEP_PPM_PARK_MASK structure
+# _PEP_PPM_PARK_MASK structure (pepfx.h)
 
 
 ## -description

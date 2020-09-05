@@ -45,7 +45,7 @@ api_name:
  - PCI_PMCSR
 ---
 
-# _PCI_PMCSR structure
+# _PCI_PMCSR structure (miniport.h)
 
 
 ## -description

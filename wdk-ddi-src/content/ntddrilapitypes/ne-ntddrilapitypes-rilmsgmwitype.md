@@ -41,7 +41,7 @@ api_name:
  - RILMSGMWITYPE
 ---
 
-# RILMSGMWITYPE enumeration
+# RILMSGMWITYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILMESSAGE
 ---
 
-# RILMESSAGE structure
+# RILMESSAGE structure (ntddrilapitypes.h)
 
 
 ## -description

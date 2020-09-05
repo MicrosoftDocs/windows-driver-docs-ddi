@@ -43,7 +43,7 @@ api_name:
  - RILSUBSCRIBERINFO
 ---
 
-# RILSUBSCRIBERINFO structure
+# RILSUBSCRIBERINFO structure (ntddrilapitypes.h)
 
 
 ## -description

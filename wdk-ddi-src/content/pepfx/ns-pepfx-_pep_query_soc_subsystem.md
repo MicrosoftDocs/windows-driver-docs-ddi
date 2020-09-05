@@ -45,7 +45,7 @@ api_name:
  - PEP_QUERY_SOC_SUBSYSTEM
 ---
 
-# _PEP_QUERY_SOC_SUBSYSTEM structure
+# _PEP_QUERY_SOC_SUBSYSTEM structure (pepfx.h)
 
 
 ## -description

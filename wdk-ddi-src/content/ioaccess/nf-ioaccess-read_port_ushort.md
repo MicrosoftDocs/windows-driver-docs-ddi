@@ -42,7 +42,7 @@ api_name:
  - READ_PORT_USHORT
 ---
 
-# READ_PORT_USHORT function
+# READ_PORT_USHORT function (ioaccess.h)
 
 
 ## -description

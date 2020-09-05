@@ -45,7 +45,7 @@ api_name:
  - TAPE_SET_DRIVE_PARAMETERS
 ---
 
-# _TAPE_SET_DRIVE_PARAMETERS structure
+# _TAPE_SET_DRIVE_PARAMETERS structure (minitape.h)
 
 
 ## -description

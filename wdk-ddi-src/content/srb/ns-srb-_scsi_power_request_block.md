@@ -45,7 +45,7 @@ api_name:
  - SCSI_POWER_REQUEST_BLOCK
 ---
 
-# _SCSI_POWER_REQUEST_BLOCK structure
+# _SCSI_POWER_REQUEST_BLOCK structure (srb.h)
 
 
 ## -description

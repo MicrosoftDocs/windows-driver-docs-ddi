@@ -41,7 +41,7 @@ api_name:
  - PlatformIdleVeto
 ---
 
-# POFXCALLBACKPLATFORMIDLEVETO callback function
+# POFXCALLBACKPLATFORMIDLEVETO callback function (pepfx.h)
 
 
 ## -description

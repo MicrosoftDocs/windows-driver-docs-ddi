@@ -43,7 +43,7 @@ api_name:
  - RILTERMINALCAPABILITYINFO
 ---
 
-# RILTERMINALCAPABILITYINFO structure
+# RILTERMINALCAPABILITYINFO structure (ntddrilapitypes.h)
 
 
 ## -description

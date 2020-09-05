@@ -41,7 +41,7 @@ api_name:
  - KeSetImportanceDpc
 ---
 
-# KeSetImportanceDpc function
+# KeSetImportanceDpc function (wdm.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILCALLMODIFICATIONCAUSECODE
 ---
 
-# RILCALLMODIFICATIONCAUSECODE enumeration
+# RILCALLMODIFICATIONCAUSECODE enumeration (ntddrilapitypes.h)
 
 
 ## -description

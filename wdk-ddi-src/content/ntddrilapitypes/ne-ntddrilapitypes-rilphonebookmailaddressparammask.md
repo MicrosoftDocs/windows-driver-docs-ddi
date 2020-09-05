@@ -41,7 +41,7 @@ api_name:
  - RILPHONEBOOKMAILADDRESSPARAMMASK
 ---
 
-# RILPHONEBOOKMAILADDRESSPARAMMASK enumeration
+# RILPHONEBOOKMAILADDRESSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

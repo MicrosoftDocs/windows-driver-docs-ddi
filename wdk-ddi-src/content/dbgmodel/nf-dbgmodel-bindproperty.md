@@ -39,7 +39,7 @@ api_name:
  - BindProperty
 ---
 
-# BindProperty function
+# BindProperty function (dbgmodel.h)
 
 
 ## -description

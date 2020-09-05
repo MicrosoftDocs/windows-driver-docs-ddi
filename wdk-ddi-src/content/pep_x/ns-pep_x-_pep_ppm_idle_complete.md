@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_IDLE_COMPLETE
 ---
 
-# _PEP_PPM_IDLE_COMPLETE structure
+# _PEP_PPM_IDLE_COMPLETE structure (pep_x.h)
 
 
 ## -description

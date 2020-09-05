@@ -41,7 +41,7 @@ api_name:
  - RILCALLTYPE
 ---
 
-# RILCALLTYPE enumeration
+# RILCALLTYPE enumeration (rilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PERF_CONSTRAINTS
 ---
 
-# _PEP_PPM_QUERY_PERF_CONSTRAINTS structure
+# _PEP_PPM_QUERY_PERF_CONSTRAINTS structure (pepfx.h)
 
 
 ## -description

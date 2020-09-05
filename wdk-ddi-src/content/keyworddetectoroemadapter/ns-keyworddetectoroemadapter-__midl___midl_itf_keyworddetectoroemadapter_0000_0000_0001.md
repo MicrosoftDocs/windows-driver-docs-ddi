@@ -43,7 +43,7 @@ api_name:
  - SOUNDDETECTOR_PATTERNHEADER
 ---
 
-# __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001 structure
+# __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001 structure (keyworddetectoroemadapter.h)
 
 
 ## -description

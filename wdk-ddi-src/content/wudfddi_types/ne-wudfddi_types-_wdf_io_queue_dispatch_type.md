@@ -43,7 +43,7 @@ api_name:
  - WDF_IO_QUEUE_DISPATCH_TYPE
 ---
 
-# _WDF_IO_QUEUE_DISPATCH_TYPE enumeration
+# _WDF_IO_QUEUE_DISPATCH_TYPE enumeration (wudfddi_types.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - D3DDDI_COLOR_SPACE_TYPE
 ---
 
-# D3DDDI_COLOR_SPACE_TYPE enumeration
+# D3DDDI_COLOR_SPACE_TYPE enumeration (d3dukmdt.h)
 
 
 ## -description

@@ -42,7 +42,7 @@ api_name:
  - RILNOTIFICATIONCLASSES
 ---
 
-# RILNOTIFICATIONCLASSES enumeration
+# RILNOTIFICATIONCLASSES enumeration (rilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILMSGBCGENERALWARNINGTYPE
 ---
 
-# RILMSGBCGENERALWARNINGTYPE enumeration
+# RILMSGBCGENERALWARNINGTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

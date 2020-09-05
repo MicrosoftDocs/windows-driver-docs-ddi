@@ -45,7 +45,7 @@ api_name:
  - VPD_THIRD_PARTY_COPY_PAGE
 ---
 
-# _VPD_THIRD_PARTY_COPY_PAGE structure
+# _VPD_THIRD_PARTY_COPY_PAGE structure (storport.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PCI_PMC
 ---
 
-# _PCI_PMC structure
+# _PCI_PMC structure (miniport.h)
 
 
 ## -description

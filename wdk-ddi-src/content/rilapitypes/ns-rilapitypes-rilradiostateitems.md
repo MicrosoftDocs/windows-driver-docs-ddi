@@ -43,7 +43,7 @@ api_name:
  - RILRADIOSTATEITEMS
 ---
 
-# RILRADIOSTATEITEMS structure
+# RILRADIOSTATEITEMS structure (rilapitypes.h)
 
 
 ## -description

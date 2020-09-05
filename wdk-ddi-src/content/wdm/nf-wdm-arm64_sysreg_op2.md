@@ -37,7 +37,7 @@ api_name:
  - ARM64_SYSREG_OP2
 ---
 
-# ARM64_SYSREG_OP2 macro
+# ARM64_SYSREG_OP2 macro (wdm.h)
 
 
 ## -description

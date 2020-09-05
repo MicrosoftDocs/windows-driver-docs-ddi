@@ -43,7 +43,7 @@ api_name:
  - RILCALLRTTCAP
 ---
 
-# RILCALLRTTCAP structure
+# RILCALLRTTCAP structure (rilapitypes.h)
 
 
 ## -description

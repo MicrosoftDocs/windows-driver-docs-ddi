@@ -41,7 +41,7 @@ api_name:
  - InterlockedExchangePointer
 ---
 
-# InterlockedExchangePointer function
+# InterlockedExchangePointer function (wdm.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ product:
  - Windows
 ---
 
-# SOUNDDETECTOR_PATTERNHEADER structure
+# SOUNDDETECTOR_PATTERNHEADER structure (eventdetectoroemadapter.h)
 
 
 ## -description

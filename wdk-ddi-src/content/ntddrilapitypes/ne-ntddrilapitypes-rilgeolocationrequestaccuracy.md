@@ -41,7 +41,7 @@ api_name:
  - RILGEOLOCATIONREQUESTACCURACY
 ---
 
-# RILGEOLOCATIONREQUESTACCURACY enumeration
+# RILGEOLOCATIONREQUESTACCURACY enumeration (ntddrilapitypes.h)
 
 
 ## -description

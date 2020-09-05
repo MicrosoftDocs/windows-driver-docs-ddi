@@ -41,7 +41,7 @@ api_name:
  - RILPERSOLOCKSUPPORTCAPS
 ---
 
-# RILPERSOLOCKSUPPORTCAPS enumeration
+# RILPERSOLOCKSUPPORTCAPS enumeration (ntddrilapitypes.h)
 
 
 ## -description

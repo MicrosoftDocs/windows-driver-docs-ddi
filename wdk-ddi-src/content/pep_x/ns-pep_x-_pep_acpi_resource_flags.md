@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_RESOURCE_FLAGS
 ---
 
-# _PEP_ACPI_RESOURCE_FLAGS structure
+# _PEP_ACPI_RESOURCE_FLAGS structure (pep_x.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILMSGBCGENERAL
 ---
 
-# RILMSGBCGENERAL structure
+# RILMSGBCGENERAL structure (rilapitypes.h)
 
 
 ## -description

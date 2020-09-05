@@ -41,7 +41,7 @@ api_name:
  - RILPHONEBOOKLOCATIONCAPS
 ---
 
-# RILPHONEBOOKLOCATIONCAPS enumeration
+# RILPHONEBOOKLOCATIONCAPS enumeration (ntddrilapitypes.h)
 
 
 ## -description

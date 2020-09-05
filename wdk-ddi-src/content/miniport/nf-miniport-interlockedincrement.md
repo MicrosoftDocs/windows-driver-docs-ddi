@@ -46,7 +46,7 @@ api_name:
  - InterlockedIncrement
 ---
 
-# InterlockedIncrement function
+# InterlockedIncrement function (miniport.h)
 
 
 ## -description

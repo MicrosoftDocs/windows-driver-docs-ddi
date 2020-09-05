@@ -43,7 +43,7 @@ api_name:
  - RILCBGWLCONFIGINFO
 ---
 
-# RILCBGWLCONFIGINFO structure
+# RILCBGWLCONFIGINFO structure (ntddrilapitypes.h)
 
 
 ## -description

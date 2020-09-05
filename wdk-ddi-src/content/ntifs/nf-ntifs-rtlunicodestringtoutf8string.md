@@ -42,7 +42,7 @@ product:
  - Windows
 ---
 
-# RtlUnicodeStringToUTF8String function
+# RtlUnicodeStringToUTF8String function (ntifs.h)
 
 
 ## -description

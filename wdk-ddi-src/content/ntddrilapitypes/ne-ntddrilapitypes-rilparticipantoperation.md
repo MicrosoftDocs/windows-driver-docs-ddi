@@ -41,7 +41,7 @@ api_name:
  - RILPARTICIPANTOPERATION
 ---
 
-# RILPARTICIPANTOPERATION enumeration
+# RILPARTICIPANTOPERATION enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILSENDUICCTOOLKITENVELOPEPARAMS
 ---
 
-# RILSENDUICCTOOLKITENVELOPEPARAMS structure
+# RILSENDUICCTOOLKITENVELOPEPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

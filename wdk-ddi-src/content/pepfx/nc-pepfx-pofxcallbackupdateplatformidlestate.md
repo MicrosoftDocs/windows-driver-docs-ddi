@@ -41,7 +41,7 @@ api_name:
  - UpdatePlatformIdleState
 ---
 
-# POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function
+# POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function (pepfx.h)
 
 
 ## -description

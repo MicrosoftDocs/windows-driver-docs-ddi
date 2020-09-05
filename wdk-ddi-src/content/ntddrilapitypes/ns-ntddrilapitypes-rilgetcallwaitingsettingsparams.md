@@ -43,7 +43,7 @@ api_name:
  - RILGETCALLWAITINGSETTINGSPARAMS
 ---
 
-# RILGETCALLWAITINGSETTINGSPARAMS structure
+# RILGETCALLWAITINGSETTINGSPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

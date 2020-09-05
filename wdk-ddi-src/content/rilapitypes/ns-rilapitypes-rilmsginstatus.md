@@ -43,7 +43,7 @@ api_name:
  - RILMSGINSTATUS
 ---
 
-# RILMSGINSTATUS structure
+# RILMSGINSTATUS structure (rilapitypes.h)
 
 
 ## -description

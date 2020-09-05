@@ -43,7 +43,7 @@ api_name:
  - STOR_POWER_ACTION
 ---
 
-# STOR_POWER_ACTION enumeration
+# STOR_POWER_ACTION enumeration (srb.h)
 
 
 ## -description

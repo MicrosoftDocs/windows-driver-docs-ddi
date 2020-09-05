@@ -41,7 +41,7 @@ api_name:
  - RILMSGCDMALANGUAGE
 ---
 
-# RILMSGCDMALANGUAGE enumeration
+# RILMSGCDMALANGUAGE enumeration (ntddrilapitypes.h)
 
 
 ## -description

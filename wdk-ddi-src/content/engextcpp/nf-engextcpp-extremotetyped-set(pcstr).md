@@ -42,7 +42,7 @@ api_name:
  - ExtRemoteTyped.Set
 ---
 
-# ExtRemoteTyped::Set(PCSTR)
+# ExtRemoteTyped::Set(PCSTR) (engextcpp.h)
 
 
 ## -description

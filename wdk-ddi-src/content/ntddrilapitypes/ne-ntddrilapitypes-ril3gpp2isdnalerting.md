@@ -41,7 +41,7 @@ api_name:
  - RIL3GPP2ISDNALERTING
 ---
 
-# RIL3GPP2ISDNALERTING enumeration
+# RIL3GPP2ISDNALERTING enumeration (ntddrilapitypes.h)
 
 
 ## -description

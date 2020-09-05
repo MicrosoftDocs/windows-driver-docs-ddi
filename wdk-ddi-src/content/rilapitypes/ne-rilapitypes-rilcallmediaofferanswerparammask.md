@@ -41,7 +41,7 @@ api_name:
  - RILCALLMEDIAOFFERANSWERPARAMMASK
 ---
 
-# RILCALLMEDIAOFFERANSWERPARAMMASK enumeration
+# RILCALLMEDIAOFFERANSWERPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

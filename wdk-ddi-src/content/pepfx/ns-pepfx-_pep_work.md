@@ -45,7 +45,7 @@ api_name:
  - PEP_WORK
 ---
 
-# _PEP_WORK structure
+# _PEP_WORK structure (pepfx.h)
 
 
 ## -description

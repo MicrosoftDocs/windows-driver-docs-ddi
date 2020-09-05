@@ -39,7 +39,7 @@ api_name:
  - TypeSearchInfo
 ---
 
-# TypeSearchInfo function
+# TypeSearchInfo function (dbgmodel.h)
 
 
 ## -description

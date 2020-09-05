@@ -41,7 +41,7 @@ api_name:
  - PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
 ---
 
-# PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function
+# PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function (pepfx.h)
 
 
 ## -description

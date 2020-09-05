@@ -42,7 +42,7 @@ f1_keywords:
  - wdm/RtlInitUTF8StringEx
 ---
 
-# RtlInitUTF8StringEx function
+# RtlInitUTF8StringEx function (wdm.h)
 
 
 ## -description

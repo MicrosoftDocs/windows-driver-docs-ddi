@@ -43,7 +43,7 @@ api_name:
  - RILPHONEBOOKADDITIONALNUMBER
 ---
 
-# RILPHONEBOOKADDITIONALNUMBER structure
+# RILPHONEBOOKADDITIONALNUMBER structure (ntddrilapitypes.h)
 
 
 ## -description

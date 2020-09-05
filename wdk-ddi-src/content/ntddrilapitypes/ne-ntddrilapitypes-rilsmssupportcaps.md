@@ -41,7 +41,7 @@ api_name:
  - RILSMSSUPPORTCAPS
 ---
 
-# RILSMSSUPPORTCAPS enumeration
+# RILSMSSUPPORTCAPS enumeration (ntddrilapitypes.h)
 
 
 ## -description

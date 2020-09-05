@@ -41,7 +41,7 @@ api_name:
  - RILUICCAPPTYPE
 ---
 
-# RILUICCAPPTYPE enumeration
+# RILUICCAPPTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

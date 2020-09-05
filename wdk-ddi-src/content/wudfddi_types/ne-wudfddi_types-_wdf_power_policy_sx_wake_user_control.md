@@ -44,7 +44,7 @@ api_name:
  - WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 ---
 
-# _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration
+# _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration (wudfddi_types.h)
 
 
 ## -description

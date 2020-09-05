@@ -41,7 +41,7 @@ api_name:
  - RILGSMKIND
 ---
 
-# RILGSMKIND enumeration
+# RILGSMKIND enumeration (ntddrilapitypes.h)
 
 
 ## -description

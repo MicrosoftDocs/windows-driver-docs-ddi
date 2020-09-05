@@ -41,7 +41,7 @@ api_name:
  - MmAllocateContiguousMemorySpecifyCacheNode
 ---
 
-# MmAllocateContiguousMemorySpecifyCacheNode function
+# MmAllocateContiguousMemorySpecifyCacheNode function (wdm.h)
 
 
 ## -description

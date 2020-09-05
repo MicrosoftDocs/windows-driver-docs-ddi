@@ -43,7 +43,7 @@ api_name:
  - RILLINECONTROLINFO
 ---
 
-# RILLINECONTROLINFO structure
+# RILLINECONTROLINFO structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILUICCAPPPERSOCHECKSTATUSSTATE
 ---
 
-# RILUICCAPPPERSOCHECKSTATUSSTATE enumeration
+# RILUICCAPPPERSOCHECKSTATUSSTATE enumeration (ntddrilapitypes.h)
 
 
 ## -description

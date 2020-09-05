@@ -41,7 +41,7 @@ api_name:
  - RequestCommon
 ---
 
-# POFXCALLBACKREQUESTCOMMON callback function
+# POFXCALLBACKREQUESTCOMMON callback function (pepfx.h)
 
 
 ## -description

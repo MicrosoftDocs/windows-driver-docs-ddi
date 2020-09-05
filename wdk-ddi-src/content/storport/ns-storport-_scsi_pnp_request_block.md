@@ -45,7 +45,7 @@ api_name:
  - SCSI_PNP_REQUEST_BLOCK
 ---
 
-# _SCSI_PNP_REQUEST_BLOCK structure
+# _SCSI_PNP_REQUEST_BLOCK structure (storport.h)
 
 
 ## -description

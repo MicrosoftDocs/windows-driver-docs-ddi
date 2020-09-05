@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_INITIATE_WAKE
 ---
 
-# _PEP_PPM_INITIATE_WAKE structure
+# _PEP_PPM_INITIATE_WAKE structure (pep_x.h)
 
 
 ## -description

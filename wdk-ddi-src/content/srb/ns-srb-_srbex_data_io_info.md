@@ -45,7 +45,7 @@ api_name:
  - SRBEX_DATA_IO_INFO
 ---
 
-# _SRBEX_DATA_IO_INFO structure
+# _SRBEX_DATA_IO_INFO structure (srb.h)
 
 
 ## -description

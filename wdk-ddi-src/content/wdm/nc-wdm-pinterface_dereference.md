@@ -41,7 +41,7 @@ api_name:
  - InterfaceDereference
 ---
 
-# PINTERFACE_DEREFERENCE callback function
+# PINTERFACE_DEREFERENCE callback function (wdm.h)
 
 
 ## -description

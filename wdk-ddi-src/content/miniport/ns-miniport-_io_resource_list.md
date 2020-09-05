@@ -45,7 +45,7 @@ api_name:
  - IO_RESOURCE_LIST
 ---
 
-# _IO_RESOURCE_LIST structure
+# _IO_RESOURCE_LIST structure (miniport.h)
 
 
 ## -description

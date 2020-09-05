@@ -41,7 +41,7 @@ api_name:
  - RILMSGACKSTATUS
 ---
 
-# RILMSGACKSTATUS enumeration
+# RILMSGACKSTATUS enumeration (ntddrilapitypes.h)
 
 
 ## -description

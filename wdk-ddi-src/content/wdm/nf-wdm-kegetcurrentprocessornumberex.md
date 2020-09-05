@@ -41,7 +41,7 @@ api_name:
  - KeGetCurrentProcessorNumberEx
 ---
 
-# KeGetCurrentProcessorNumberEx function
+# KeGetCurrentProcessorNumberEx function (wdm.h)
 
 
 ## -description

@@ -41,7 +41,7 @@ api_name:
  - RILMSGCDMAMSGENCODING
 ---
 
-# RILMSGCDMAMSGENCODING enumeration
+# RILMSGCDMAMSGENCODING enumeration (rilapitypes.h)
 
 
 ## -description

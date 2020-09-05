@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_INTERRUPT_RESOURCE
 ---
 
-# _PEP_ACPI_INTERRUPT_RESOURCE structure
+# _PEP_ACPI_INTERRUPT_RESOURCE structure (pep_x.h)
 
 
 ## -description

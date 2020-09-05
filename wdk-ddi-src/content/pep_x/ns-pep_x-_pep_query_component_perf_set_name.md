@@ -45,7 +45,7 @@ api_name:
  - PEP_QUERY_COMPONENT_PERF_SET_NAME
 ---
 
-# _PEP_QUERY_COMPONENT_PERF_SET_NAME structure
+# _PEP_QUERY_COMPONENT_PERF_SET_NAME structure (pep_x.h)
 
 
 ## -description

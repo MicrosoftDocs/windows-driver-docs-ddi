@@ -41,7 +41,7 @@ api_name:
  - RILUICCCMDPARAMETERSPARAMMASK
 ---
 
-# RILUICCCMDPARAMETERSPARAMMASK enumeration
+# RILUICCCMDPARAMETERSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

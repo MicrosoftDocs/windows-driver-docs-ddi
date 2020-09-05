@@ -43,7 +43,7 @@ api_name:
  - RILEXCHANGEUICCAPDURESPONSE
 ---
 
-# RILEXCHANGEUICCAPDURESPONSE structure
+# RILEXCHANGEUICCAPDURESPONSE structure (rilapitypes.h)
 
 
 ## -description

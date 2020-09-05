@@ -46,7 +46,7 @@ api_name:
  - InterlockedIncrement
 ---
 
-# InterlockedIncrement function
+# InterlockedIncrement function (wdm.h)
 
 
 ## -description

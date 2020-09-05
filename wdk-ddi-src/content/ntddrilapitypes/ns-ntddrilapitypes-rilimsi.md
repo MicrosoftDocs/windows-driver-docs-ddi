@@ -43,7 +43,7 @@ api_name:
  - RILIMSI
 ---
 
-# RILIMSI structure
+# RILIMSI structure (ntddrilapitypes.h)
 
 
 ## -description

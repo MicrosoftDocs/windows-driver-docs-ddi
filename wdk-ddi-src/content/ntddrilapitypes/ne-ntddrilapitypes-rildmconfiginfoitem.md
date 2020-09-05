@@ -41,7 +41,7 @@ api_name:
  - RILDMCONFIGINFOITEM
 ---
 
-# RILDMCONFIGINFOITEM enumeration
+# RILDMCONFIGINFOITEM enumeration (ntddrilapitypes.h)
 
 
 ## -description

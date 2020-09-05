@@ -43,7 +43,7 @@ api_name:
  - RILSETCALLFORWARDINGSTATUSPARAMS
 ---
 
-# RILSETCALLFORWARDINGSTATUSPARAMS structure
+# RILSETCALLFORWARDINGSTATUSPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

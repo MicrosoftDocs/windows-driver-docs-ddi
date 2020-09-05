@@ -41,7 +41,7 @@ api_name:
  - IKsPropertySet.Get
 ---
 
-# IKsPropertySet::Get
+# IKsPropertySet::Get (dsound.h)
 
 
 ## -description

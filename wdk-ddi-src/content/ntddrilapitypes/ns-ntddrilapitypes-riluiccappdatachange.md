@@ -43,7 +43,7 @@ api_name:
  - RILUICCAPPDATACHANGE
 ---
 
-# RILUICCAPPDATACHANGE structure
+# RILUICCAPPDATACHANGE structure (ntddrilapitypes.h)
 
 
 ## -description

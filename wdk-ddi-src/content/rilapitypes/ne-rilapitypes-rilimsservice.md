@@ -42,7 +42,7 @@ api_name:
  - RILIMSSERVICE
 ---
 
-# RILIMSSERVICE enumeration
+# RILIMSSERVICE enumeration (rilapitypes.h)
 
 
 ## -description

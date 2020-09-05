@@ -41,7 +41,7 @@ api_name:
  - SOUNDDETECTOR_PATTERNHEADER
 ---
 
-# SOUNDDETECTOR_PATTERNHEADER structure (ksmedia.h)
+# SOUNDDETECTOR_PATTERNHEADER structure (ksmedia.h) (ksmedia.h)
 
 
 ## -description

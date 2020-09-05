@@ -45,7 +45,7 @@ api_name:
  - PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 ---
 
-# _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure
+# _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure (pepfx.h)
 
 
 ## -description

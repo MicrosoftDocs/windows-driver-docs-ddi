@@ -41,7 +41,7 @@ api_name:
  - WIAS_ERROR
 ---
 
-# WIAS_ERROR macro
+# WIAS_ERROR macro (wiamdef.h)
 
 
 ## -description

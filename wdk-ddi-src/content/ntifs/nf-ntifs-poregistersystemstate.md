@@ -41,7 +41,7 @@ api_name:
  - PoRegisterSystemState
 ---
 
-# PoRegisterSystemState function
+# PoRegisterSystemState function (ntifs.h)
 
 
 ## -description

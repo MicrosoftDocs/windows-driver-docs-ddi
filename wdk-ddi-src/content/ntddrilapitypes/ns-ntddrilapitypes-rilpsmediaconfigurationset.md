@@ -43,7 +43,7 @@ api_name:
  - RILPSMEDIACONFIGURATIONSET
 ---
 
-# RILPSMEDIACONFIGURATIONSET structure
+# RILPSMEDIACONFIGURATIONSET structure (ntddrilapitypes.h)
 
 
 ## -description

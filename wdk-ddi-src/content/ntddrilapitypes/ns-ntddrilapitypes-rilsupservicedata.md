@@ -43,7 +43,7 @@ api_name:
  - RILSUPSERVICEDATA
 ---
 
-# RILSUPSERVICEDATA structure
+# RILSUPSERVICEDATA structure (ntddrilapitypes.h)
 
 
 ## -description

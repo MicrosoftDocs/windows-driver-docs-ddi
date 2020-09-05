@@ -42,7 +42,7 @@ api_name:
  - WRITE_PORT_USHORT
 ---
 
-# WRITE_PORT_USHORT function
+# WRITE_PORT_USHORT function (miniport.h)
 
 
 ## -description

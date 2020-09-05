@@ -41,7 +41,7 @@ api_name:
  - RILPHONEBOOKENTRYPARAMMASK
 ---
 
-# RILPHONEBOOKENTRYPARAMMASK enumeration
+# RILPHONEBOOKENTRYPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

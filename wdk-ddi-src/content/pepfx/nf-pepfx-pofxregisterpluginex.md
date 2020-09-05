@@ -42,7 +42,7 @@ api_name:
  - PoFxRegisterPluginEx
 ---
 
-# PoFxRegisterPluginEx function
+# PoFxRegisterPluginEx function (pepfx.h)
 
 
 ## -description

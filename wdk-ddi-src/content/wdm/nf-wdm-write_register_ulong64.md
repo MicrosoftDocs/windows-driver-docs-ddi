@@ -42,7 +42,7 @@ api_name:
  - WRITE_REGISTER_ULONG64
 ---
 
-# WRITE_REGISTER_ULONG64 function
+# WRITE_REGISTER_ULONG64 function (wdm.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILSUBADDRESS
 ---
 
-# RILSUBADDRESS structure
+# RILSUBADDRESS structure (rilapitypes.h)
 
 
 ## -description

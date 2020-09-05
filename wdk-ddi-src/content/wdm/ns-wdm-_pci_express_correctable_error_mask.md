@@ -46,7 +46,7 @@ api_name:
  - PCI_EXPRESS_CORRECTABLE_ERROR_MASK
 ---
 
-# _PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure
+# _PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure (wdm.h)
 
 
 ## -description

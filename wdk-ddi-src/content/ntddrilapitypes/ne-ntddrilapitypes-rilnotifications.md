@@ -41,7 +41,7 @@ api_name:
  - RILNOTIFICATIONS
 ---
 
-# RILNOTIFICATIONS enumeration
+# RILNOTIFICATIONS enumeration (ntddrilapitypes.h)
 
 
 ## -description

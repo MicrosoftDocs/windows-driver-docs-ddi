@@ -42,7 +42,7 @@ api_name:
  - RILPOSITIONINFOUMTSPARAMMASK
 ---
 
-# RILPOSITIONINFOUMTSPARAMMASK enumeration
+# RILPOSITIONINFOUMTSPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

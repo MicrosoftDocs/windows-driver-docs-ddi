@@ -41,7 +41,7 @@ api_name:
  - RILMSGCDMAMSGPRIVACY
 ---
 
-# RILMSGCDMAMSGPRIVACY enumeration
+# RILMSGCDMAMSGPRIVACY enumeration (rilapitypes.h)
 
 
 ## -description

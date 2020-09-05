@@ -42,7 +42,7 @@ api_name:
  - PoFxRegisterCoreDevice
 ---
 
-# PoFxRegisterCoreDevice function
+# PoFxRegisterCoreDevice function (pepfx.h)
 
 
 ## -description

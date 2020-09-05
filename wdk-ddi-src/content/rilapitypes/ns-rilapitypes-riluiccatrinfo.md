@@ -43,7 +43,7 @@ api_name:
  - RILUICCATRINFO
 ---
 
-# RILUICCATRINFO structure
+# RILUICCATRINFO structure (rilapitypes.h)
 
 
 ## -description

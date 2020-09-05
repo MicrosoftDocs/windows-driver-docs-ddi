@@ -45,7 +45,7 @@ api_name:
  - STOR_ADDR_BTL8
 ---
 
-# _STOR_ADDR_BTL8 structure
+# _STOR_ADDR_BTL8 structure (minitape.h)
 
 
 ## -description

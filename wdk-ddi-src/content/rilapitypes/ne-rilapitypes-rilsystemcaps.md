@@ -41,7 +41,7 @@ api_name:
  - RILSYSTEMCAPS
 ---
 
-# RILSYSTEMCAPS enumeration
+# RILSYSTEMCAPS enumeration (rilapitypes.h)
 
 
 ## -description

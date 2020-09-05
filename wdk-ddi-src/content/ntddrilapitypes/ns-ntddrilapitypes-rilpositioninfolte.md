@@ -43,7 +43,7 @@ api_name:
  - RILPOSITIONINFOLTE
 ---
 
-# RILPOSITIONINFOLTE structure
+# RILPOSITIONINFOLTE structure (ntddrilapitypes.h)
 
 
 ## -description

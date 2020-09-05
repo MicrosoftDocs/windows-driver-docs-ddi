@@ -41,7 +41,7 @@ api_name:
  - RILNETWORKCODEPARAMMASK
 ---
 
-# RILNETWORKCODEPARAMMASK enumeration
+# RILNETWORKCODEPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

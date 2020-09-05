@@ -45,7 +45,7 @@ api_name:
  - PEP_REGISTER_DEBUGGER
 ---
 
-# _PEP_REGISTER_DEBUGGER structure
+# _PEP_REGISTER_DEBUGGER structure (pepfx.h)
 
 
 ## -description

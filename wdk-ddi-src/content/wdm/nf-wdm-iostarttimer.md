@@ -41,7 +41,7 @@ api_name:
  - IoStartTimer
 ---
 
-# IoStartTimer function
+# IoStartTimer function (wdm.h)
 
 
 ## -description

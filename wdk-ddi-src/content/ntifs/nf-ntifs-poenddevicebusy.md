@@ -41,7 +41,7 @@ api_name:
  - PoEndDeviceBusy
 ---
 
-# PoEndDeviceBusy function
+# PoEndDeviceBusy function (ntifs.h)
 
 
 ## -description

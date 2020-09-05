@@ -45,7 +45,7 @@ api_name:
  - PEP_UNREGISTER_DEVICE
 ---
 
-# _PEP_UNREGISTER_DEVICE structure
+# _PEP_UNREGISTER_DEVICE structure (pep_x.h)
 
 
 ## -description

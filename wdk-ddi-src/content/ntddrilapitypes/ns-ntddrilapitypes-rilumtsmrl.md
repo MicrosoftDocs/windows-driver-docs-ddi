@@ -43,7 +43,7 @@ api_name:
  - RILUMTSMRL
 ---
 
-# RILUMTSMRL structure
+# RILUMTSMRL structure (ntddrilapitypes.h)
 
 
 ## -description

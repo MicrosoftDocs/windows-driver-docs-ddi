@@ -43,7 +43,7 @@ api_name:
  - RILCBCDMACONFIGINFO
 ---
 
-# RILCBCDMACONFIGINFO structure
+# RILCBCDMACONFIGINFO structure (rilapitypes.h)
 
 
 ## -description

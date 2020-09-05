@@ -43,7 +43,7 @@ api_name:
  - RILREMOTEPARTYINFO
 ---
 
-# RILREMOTEPARTYINFO structure
+# RILREMOTEPARTYINFO structure (ntddrilapitypes.h)
 
 
 ## -description

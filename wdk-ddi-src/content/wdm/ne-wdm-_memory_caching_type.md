@@ -43,7 +43,7 @@ api_name:
  - MEMORY_CACHING_TYPE
 ---
 
-# _MEMORY_CACHING_TYPE enumeration
+# _MEMORY_CACHING_TYPE enumeration (wdm.h)
 
 
 ## -description

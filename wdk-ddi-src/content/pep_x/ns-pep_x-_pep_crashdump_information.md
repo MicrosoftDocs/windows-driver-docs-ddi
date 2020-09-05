@@ -45,7 +45,7 @@ api_name:
  - PEP_CRASHDUMP_INFORMATION
 ---
 
-# _PEP_CRASHDUMP_INFORMATION structure
+# _PEP_CRASHDUMP_INFORMATION structure (pep_x.h)
 
 
 ## -description

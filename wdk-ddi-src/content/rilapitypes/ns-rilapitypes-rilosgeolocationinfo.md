@@ -43,7 +43,7 @@ api_name:
  - RILOSGEOLOCATIONINFO
 ---
 
-# RILOSGEOLOCATIONINFO structure
+# RILOSGEOLOCATIONINFO structure (rilapitypes.h)
 
 
 ## -description

@@ -43,7 +43,7 @@ api_name:
  - RILDEACTIVATEPERSOPARAMS
 ---
 
-# RILDEACTIVATEPERSOPARAMS structure
+# RILDEACTIVATEPERSOPARAMS structure (rilapitypes.h)
 
 
 ## -description

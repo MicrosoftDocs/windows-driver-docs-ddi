@@ -45,7 +45,7 @@ api_name:
  - IRQ_PRIORITY
 ---
 
-# _IRQ_PRIORITY enumeration
+# _IRQ_PRIORITY enumeration (miniport.h)
 
 
 ## -description

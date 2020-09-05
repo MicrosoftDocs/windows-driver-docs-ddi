@@ -45,7 +45,7 @@ api_name:
  - TAPE_SET_MEDIA_PARAMETERS
 ---
 
-# _TAPE_SET_MEDIA_PARAMETERS structure
+# _TAPE_SET_MEDIA_PARAMETERS structure (minitape.h)
 
 
 ## -description

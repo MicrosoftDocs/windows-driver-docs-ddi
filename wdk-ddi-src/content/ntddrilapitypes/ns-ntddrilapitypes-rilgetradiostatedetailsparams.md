@@ -43,7 +43,7 @@ api_name:
  - RILGETRADIOSTATEDETAILSPARAMS
 ---
 
-# RILGETRADIOSTATEDETAILSPARAMS structure
+# RILGETRADIOSTATEDETAILSPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

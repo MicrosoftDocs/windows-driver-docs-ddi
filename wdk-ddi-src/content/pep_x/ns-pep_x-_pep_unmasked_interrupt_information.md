@@ -45,7 +45,7 @@ api_name:
  - PEP_UNMASKED_INTERRUPT_INFORMATION
 ---
 
-# _PEP_UNMASKED_INTERRUPT_INFORMATION structure
+# _PEP_UNMASKED_INTERRUPT_INFORMATION structure (pep_x.h)
 
 
 ## -description

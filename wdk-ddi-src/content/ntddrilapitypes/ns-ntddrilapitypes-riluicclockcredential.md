@@ -43,7 +43,7 @@ api_name:
  - RILUICCLOCKCREDENTIAL
 ---
 
-# RILUICCLOCKCREDENTIAL structure
+# RILUICCLOCKCREDENTIAL structure (ntddrilapitypes.h)
 
 
 ## -description

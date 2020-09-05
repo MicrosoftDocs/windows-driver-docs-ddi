@@ -41,7 +41,7 @@ api_name:
  - WRITE_REGISTER_ULONG
 ---
 
-# WRITE_REGISTER_ULONG function
+# WRITE_REGISTER_ULONG function (wdm.h)
 
 
 ## -description

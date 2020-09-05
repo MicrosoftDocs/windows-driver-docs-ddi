@@ -41,7 +41,7 @@ api_name:
  - RILEVDOKIND
 ---
 
-# RILEVDOKIND enumeration
+# RILEVDOKIND enumeration (rilapitypes.h)
 
 
 ## -description

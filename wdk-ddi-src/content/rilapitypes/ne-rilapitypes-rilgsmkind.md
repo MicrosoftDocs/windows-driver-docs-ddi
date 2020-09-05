@@ -41,7 +41,7 @@ api_name:
  - RILGSMKIND
 ---
 
-# RILGSMKIND enumeration
+# RILGSMKIND enumeration (rilapitypes.h)
 
 
 ## -description

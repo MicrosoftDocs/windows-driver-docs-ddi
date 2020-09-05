@@ -44,7 +44,7 @@ api_name:
  - WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
 ---
 
-# _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration
+# _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration (wudfddi_types.h)
 
 
 ## -description

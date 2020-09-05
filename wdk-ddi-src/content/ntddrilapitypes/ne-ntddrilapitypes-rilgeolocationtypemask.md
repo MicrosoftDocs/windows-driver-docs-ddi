@@ -41,7 +41,7 @@ api_name:
  - RILGEOLOCATIONTYPEMASK
 ---
 
-# RILGEOLOCATIONTYPEMASK enumeration
+# RILGEOLOCATIONTYPEMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

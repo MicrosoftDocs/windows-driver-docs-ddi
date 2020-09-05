@@ -43,7 +43,7 @@ api_name:
  - RILUICCFILEPATH
 ---
 
-# RILUICCFILEPATH structure
+# RILUICCFILEPATH structure (rilapitypes.h)
 
 
 ## -description

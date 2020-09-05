@@ -41,7 +41,7 @@ api_name:
  - ExtRemoteData.ExtRemoteData
 ---
 
-# ExtRemoteData::ExtRemoteData
+# ExtRemoteData::ExtRemoteData (engextcpp.h)
 
 
 ## -description

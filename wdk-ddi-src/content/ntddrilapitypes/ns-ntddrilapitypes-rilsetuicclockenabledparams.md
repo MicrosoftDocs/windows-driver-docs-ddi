@@ -43,7 +43,7 @@ api_name:
  - RILSETUICCLOCKENABLEDPARAMS
 ---
 
-# RILSETUICCLOCKENABLEDPARAMS structure
+# RILSETUICCLOCKENABLEDPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description
