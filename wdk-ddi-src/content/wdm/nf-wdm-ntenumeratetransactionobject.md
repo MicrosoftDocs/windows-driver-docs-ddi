@@ -240,13 +240,9 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 The following code example shows how to enumerate all of the transaction objects on a computer. In this example, the <b>KTMOBJECT_CURSOR</b> structure's GUID array contains only one element, so each call to <b>ZwEnumerateTransactionObject</b> returns one GUID. The routine creates a Unicode string from the GUID and displays the string.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS Status;
+
+```
+NTSTATUS Status;
 UNICODE_STRING GuidString;
 KTMOBJECT_CURSOR Cursor;
 ULONG ReturnedBytes;
@@ -274,10 +270,9 @@ do {
 } while (Status == STATUS_SUCCESS);
 if (Status == STATUS_NO_MORE_ENTRIES) {
     Status = STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

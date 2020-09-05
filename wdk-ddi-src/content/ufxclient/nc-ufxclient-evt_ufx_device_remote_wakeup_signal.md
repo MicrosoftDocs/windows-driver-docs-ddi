@@ -65,13 +65,9 @@ The client driver indicates completion of this event by calling the <a href="htt
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL UfxDevice_EvtDeviceRemoteWakeupSignal;
 
 VOID
@@ -124,10 +120,9 @@ End:
     UfxDeviceEventComplete(UfxDevice, Status);
     TraceExit();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

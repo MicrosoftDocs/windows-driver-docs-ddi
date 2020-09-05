@@ -79,34 +79,24 @@ To define an <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> callback function, you m
 
 For example, to define an <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> callback function that is named <code>MySystemDmaTransmitPurgeFifo</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO  MySystemDmaTransmitPurgeFifo;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO  MySystemDmaTransmitPurgeFifo;
+```
+
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```cpp
+_Use_decl_annotations_
 VOID
   MySystemDmaTransmitPurgeFifo(
     SERCX2SYSTEMDMATRANSMIT  SystemDmaTransmit,
     ULONG BytesAlreadyTransmittedToHardware
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO</b> function type is defined in the Sercx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

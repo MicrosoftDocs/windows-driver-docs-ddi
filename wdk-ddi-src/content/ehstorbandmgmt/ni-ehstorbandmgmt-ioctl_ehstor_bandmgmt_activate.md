@@ -54,39 +54,29 @@ This <b>IOCTL_EHSTOR_BANDMGMT_ACTIVATE</b> request is sent to activate the secur
 
 The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an  <b>ACTIVATE_REVERT_PARAMETERS</b>  structure. <b>ACTIVATE_REVERT_PARAMETERS</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _ACTIVATE_REVERT_PARAMETERS
+
+```
+typedef struct _ACTIVATE_REVERT_PARAMETERS
 {
     ULONG           StructSize;
     ULONG           Flags;
     ULONG           AuthKeyOffset;
-} ACTIVATE_REVERT_PARAMETERS;</pre>
-</td>
-</tr>
-</table></span></div>
+} ACTIVATE_REVERT_PARAMETERS;
+```
+
 
 
 Following <b>ACTIVATE_REVERT_PARAMETERS</b> in the system buffer is an <b>AUTH_KEY</b> structure. This holds the key data bytes for the authentication key. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _AUTH_KEY
+
+```
+typedef struct _AUTH_KEY
 {
     ULONG   KeySize;
     UCHAR   Key[ANYSIZE_ARRAY];
-} AUTH_KEY;</pre>
-</td>
-</tr>
-</table></span></div>
+} AUTH_KEY;
+```
+
 
 ### -input-buffer-length
 

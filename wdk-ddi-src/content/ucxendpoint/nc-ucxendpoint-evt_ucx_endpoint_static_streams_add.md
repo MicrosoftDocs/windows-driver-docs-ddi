@@ -87,13 +87,9 @@ A static streams object is not enabled
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```
+NTSTATUS
 Endpoint_EvtEndpointStaticStreamsAdd(
     UCXENDPOINT         UcxEndpoint,
     ULONG               NumberOfStreams,
@@ -126,8 +122,7 @@ Endpoint_EvtEndpointStaticStreamsAdd(
 
             UcxStaticStreamsSetStreamInfo(ucxStaticStreams, &streamInfo);
         }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

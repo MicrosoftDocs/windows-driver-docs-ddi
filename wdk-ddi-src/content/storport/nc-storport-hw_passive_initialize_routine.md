@@ -66,20 +66,15 @@ The <b>HwStorPassiveInitializeRoutine</b> routine should initialize any DPCs tha
 
 The name <b>HwStorPassiveInitializeRoutine</b> is just a placeholder. The actual prototype for this callback routine is defined in <i>storport.h</i>as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 BOOLEAN
 (*PHW_PASSIVE_INITIALIZE_ROUTINE) (
   _In_ PVOID DeviceExtension
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 The port driver calls the <b>HwStorPassiveInitializeRoutine</b> routine at PASSIVE IRQL without acquiring any spin locks.
 
 
@@ -89,35 +84,25 @@ To define an <b>HwStorPassiveInitializeRoutine</b> callback function, you must f
 
  For example, to define a <b>HwStorPassiveInitializeRoutine</b> callback routine that is named <i>MyHwPassiveInitialize</i>, use the <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HW_PASSIVE_INITIALIZE_ROUTINE MyHwPassiveInitialize;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+HW_PASSIVE_INITIALIZE_ROUTINE MyHwPassiveInitialize;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 BOOLEAN
 MyHwPassiveInitialize (
   _In_ PVOID  DeviceExtension
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 ## -see-also

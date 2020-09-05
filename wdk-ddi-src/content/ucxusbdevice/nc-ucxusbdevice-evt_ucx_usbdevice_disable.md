@@ -78,13 +78,9 @@ The client driver returns completion status in <i>Request</i>.  The driver can c
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 UsbDevice_EvtUcxUsbDeviceDisable(
     UCXCONTROLLER      UcxController,
     WDFREQUEST         Request
@@ -102,10 +98,9 @@ UsbDevice_EvtUcxUsbDeviceDisable(
     ...
 
     WdfRequestComplete(Request, STATUS_SUCCESS);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

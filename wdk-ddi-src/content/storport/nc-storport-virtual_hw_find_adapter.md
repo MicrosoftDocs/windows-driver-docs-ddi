@@ -141,13 +141,9 @@ The port driver calls the Storport virtual miniport's <b>VirtualHwStorFindAdapte
 
 The name <b>VirtualHwStorFindAdapter</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in Srb.h as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 ULONG
 VIRTUAL_HW_FIND_ADAPTER (
   _In_ PVOID  DeviceExtension,
@@ -157,10 +153,9 @@ VIRTUAL_HW_FIND_ADAPTER (
   _In_ PCHAR  ArgumentString,
   _Inout_ PPORT_CONFIGURATION_INFORMATION  ConfigInfo,
   _Out_ PBOOLEAN Again
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 
 #### Examples
 
@@ -168,25 +163,16 @@ To define an <b>VirtualHwStorFindAdapter</b> callback function, you must first p
 
  For example, to define a <b>VirtualHwStorFindAdapter</b> callback routine that is named <i>MyVirtualHwFindAdapter</i>, use the <b>VIRTUAL_HW_FIND_ADAPTER</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VIRTUAL_HW_FIND_ADAPTER MyVirtualHwFindAdapter;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+VIRTUAL_HW_FIND_ADAPTER MyVirtualHwFindAdapter;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 ULONG
 MyVirtualHwFindAdapter (
   _In_ PVOID  DeviceExtension,
@@ -199,10 +185,9 @@ MyVirtualHwFindAdapter (
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The <b>VIRTUAL_HW_FIND_ADAPTER</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>VIRTUAL_HW_FIND_ADAPTER</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 ## -see-also

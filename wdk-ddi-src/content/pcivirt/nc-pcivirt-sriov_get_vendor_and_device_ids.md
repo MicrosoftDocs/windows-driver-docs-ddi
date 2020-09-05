@@ -104,13 +104,9 @@ The PF driver registers its implementation by setting the <b>GetVendorAndDevice<
 
 Here is an example implementation of this callback function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 Virtualization_GetVendorAndDevice (
     _In_    PVOID           Context,
     _In_    USHORT          VfIndex,
@@ -130,8 +126,7 @@ Virtualization_GetVendorAndDevice (
 
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

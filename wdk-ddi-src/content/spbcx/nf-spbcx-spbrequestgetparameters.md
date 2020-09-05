@@ -70,22 +70,17 @@ A pointer to a caller-allocated <a href="https://docs.microsoft.com/previous-ver
 
 The following code example shows how to use <b>SpbRequestGetParameters</b> to retrieve the SPB-specific parameters from an I/O request. The  <i>spbRequest</i> variable contains an SPBREQUEST handle to the I/O request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>SPB_REQUEST_PARAMETERS parameters;
+
+```
+SPB_REQUEST_PARAMETERS parameters;
 
 SPB_REQUEST_PARAMETERS_INIT(&parameters);
 
 SpbRequestGetParameters(spbRequest, &parameters);
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

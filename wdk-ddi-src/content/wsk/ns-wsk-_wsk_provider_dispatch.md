@@ -116,30 +116,20 @@ When a WSK application calls the
 The major and minor version numbers that are contained within the 
     <b>Version</b> member are encoded by using the MAKE_WSK_VERSION macro:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Version = MAKE_WSK_VERSION(Major,Minor);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Version = MAKE_WSK_VERSION(Major,Minor);
+```
+
 The major and minor version numbers can be extracted from the 
     <b>Version</b> member by using the WSK_MAJOR_VERSION and WSK_MINOR_VERSION macros:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Major = WSK_MAJOR_VERSION(Version);
-Minor = WSK_MINOR_VERSION(Version);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Major = WSK_MAJOR_VERSION(Version);
+Minor = WSK_MINOR_VERSION(Version);
+```
+
 The minor version number that is contained within the 
     <b>Version</b> member of this structure might be a higher minor version number than what was requested by
     the WSK application in the 

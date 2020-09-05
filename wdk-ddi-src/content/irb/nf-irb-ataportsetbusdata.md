@@ -81,18 +81,13 @@ Contains a data mask buffer that controls which bits of PCI bus configuration da
 
 <b>AtaPortSetBusData</b> completes a bitwise OR, one byte at a time, of the current PCI configuration space data with the new data in <i>Buffer</i>. Only those bits not indicated by <i>DataMask</i> are left untouched. The byte of data that follows <i>ConfigDataOffset</i>, therefore, is updated as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ConfigDataOffest[i] = 
+
+```
+ConfigDataOffest[i] = 
     (ConfigDataOffest[i] & ~DataMask[i]) | 
-    (DataMask[i] & Buffer[i])</pre>
-</td>
-</tr>
-</table></span></div>
+    (DataMask[i] & Buffer[i])
+```
+
 
 ## -see-also
 

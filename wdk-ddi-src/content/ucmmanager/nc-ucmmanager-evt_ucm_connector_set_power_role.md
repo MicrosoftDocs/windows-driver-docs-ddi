@@ -80,13 +80,9 @@ After the swap operation completes, if the partner port sends a PR_Swap request,
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 EVT_UCM_CONNECTOR_SET_POWER_ROLE     EvtSetPowerRole;  
 
 NTSTATUS  
@@ -107,10 +103,9 @@ EvtSetPowerRole(
     TRACE_FUNC_EXIT();  
     return STATUS_SUCCESS;  
 }  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

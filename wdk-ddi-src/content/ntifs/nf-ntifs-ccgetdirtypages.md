@@ -60,13 +60,9 @@ Log handle stored by a previous call to <b>CcSetLogHandleForFile</b>.
 [in]
 Pointer to a callback routine that builds up a dirty page table from the pages found. This routine, which is called for each dirty page found, is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID (*PDIRTY_PAGE_ROUTINE) (
             IN PFILE_OBJECT FileObject,
             IN PLARGE_INTEGER FileOffset,
@@ -75,10 +71,9 @@ VOID (*PDIRTY_PAGE_ROUTINE) (
             IN PLARGE_INTEGER NewestLsn,
             IN PVOID Context1,
             IN PVOID Context2
-            );</pre>
-</td>
-</tr>
-</table></span></div>
+            );
+```
+
 
 
 

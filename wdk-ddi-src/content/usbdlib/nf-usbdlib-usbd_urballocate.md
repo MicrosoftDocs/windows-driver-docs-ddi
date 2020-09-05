@@ -88,13 +88,9 @@ You must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/u
 
 The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously. For the implementation of the SubmitUrbSync function, see the example section in [How to Submit an URB](https://docs.microsoft.com/windows-hardware/drivers/usbcon/send-requests-to-the-usb-driver-stack).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS CreateandSubmitURBSynchronously (
+
+```cpp
+NTSTATUS CreateandSubmitURBSynchronously (
     _In_ USBD_HANDLE USBDHandle 
 {
     PURB    Urb = NULL;
@@ -134,10 +130,9 @@ CreateandSubmitURBExit:
     return status;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

@@ -65,20 +65,15 @@ A pointer to a NET_BUFFER_POOL_PARAMETERS structure that defines the parameters 
      structure is defined as follows:
      
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _NET_BUFFER_POOL_PARAMETERS {
+
+```
+typedef struct _NET_BUFFER_POOL_PARAMETERS {
   NDIS_OBJECT_HEADER  Header;
   ULONG  PoolTag;
   ULONG  DataSize;
-} NET_BUFFER_POOL_PARAMETERS, *PNET_BUFFER_POOL_PARAMETERS;</pre>
-</td>
-</tr>
-</table></span></div>
+} NET_BUFFER_POOL_PARAMETERS, *PNET_BUFFER_POOL_PARAMETERS;
+```
+
 This structure includes the following members:
 
 

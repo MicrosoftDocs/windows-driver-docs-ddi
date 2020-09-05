@@ -192,13 +192,9 @@ For more information about supporting a device's idle capabilities, see <a href=
 
 The following code example is based on the UMDF version of the toaster sample. The example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface and then calls <b>AssignS0IdleSettings</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    IWDFDevice2 *pIWDFDevice2 = NULL;
+
+```
+    IWDFDevice2 *pIWDFDevice2 = NULL;
     HRESULT hr;
 
     //
@@ -220,10 +216,9 @@ The following code example is based on the UMDF version of the toaster sample. T
                                             WdfTrue);
     }
 ...
-    SAFE_RELEASE(pIWDFDevice2);</pre>
-</td>
-</tr>
-</table></span></div>
+    SAFE_RELEASE(pIWDFDevice2);
+```
+
 
 ## -see-also
 

@@ -92,13 +92,9 @@ For more information about <b>Reopen</b> and how to use remote I/O targets in UM
 
 The following code example shows an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iremotetargetcallbackremoval-onremotetargetremovecanceled">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a> callback function that calls <b>Reopen</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID 
+
+```
+VOID 
 STDMETHODCALLTYPE
 CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
     __in IWDFRemoteTarget* FxTarget
@@ -115,10 +111,9 @@ CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
     {
        FxTarget->Close();
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

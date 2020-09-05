@@ -60,21 +60,16 @@ A pointer to a callback object obtained from the <a href="https://docs.microsoft
 [in]
 A pointer to a driver-implemented callback routine, which must be nonpageable. The callback routine must conform to the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 (*PCALLBACK_FUNCTION ) (
     IN PVOID CallbackContext,
     IN PVOID Argument1,
     IN PVOID Argument2
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 The callback routine parameters are as follows:
 
 

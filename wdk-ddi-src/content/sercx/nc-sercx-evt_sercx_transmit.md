@@ -79,47 +79,32 @@ To register an <i>EvtSerCxTransmit</i> callback function, the controller driver 
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
   EVT_SERCX_TRANSMIT(
     __in WDFDEVICE Device
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 To define an <i>EvtSerCxTransmit</i> callback function that is named <code>MyEvtSerCxTransmit</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_TRANSMIT MyEvtSerCxTransmit;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+EVT_SERCX_TRANSMIT MyEvtSerCxTransmit;
+```
+
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
   MyEvtSerCxTransmit(
     __in WDFDEVICE Device
     )
-{ ... }</pre>
-</td>
-</tr>
-</table></span></div>
+{ ... }
+```
+
 For more information about SDV requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 <div class="code"></div>

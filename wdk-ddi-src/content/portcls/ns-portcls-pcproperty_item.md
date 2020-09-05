@@ -155,19 +155,14 @@ PCPROPERTY_ITEM_FLAG_SERIALIZERAW | PCPROPERTY_ITEM_FLAG_UNSERIALIZERAW | PCPROP
 
 Pointer to the property-handler routine. This member is a function pointer of type PCPFNPROPERTY_HANDLER, which is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  typedef NTSTATUS (*PCPFNPROPERTY_HANDLER)
+
+```
+  typedef NTSTATUS (*PCPFNPROPERTY_HANDLER)
   (
       IN PPCPROPERTY_REQUEST  PropertyRequest
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 See the following Remarks section.
 
 ## -remarks

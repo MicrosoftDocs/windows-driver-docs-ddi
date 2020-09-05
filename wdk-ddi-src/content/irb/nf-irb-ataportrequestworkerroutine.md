@@ -74,18 +74,13 @@ When the port driver calls the worker routine, the port driver will pass the poi
 
 The <i>WorkerRoutine</i> function pointer is declared in <i>Irb.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 (*IDE_HW_DPC) (
   IN PVOID ChannelExtension
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 

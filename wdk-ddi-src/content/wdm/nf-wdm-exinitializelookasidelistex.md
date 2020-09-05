@@ -184,30 +184,21 @@ Callers of <b>ExInitializeLookasideListEx</b> can be running at IRQL <= DISPATCH
 
 The driver-supplied <i>LookasideListAllocateEx</i> and <i>LookasideListFreeEx</i> routines both receive <i>Lookaside</i> parameters that point to the <b>LOOKASIDE_LIST_EX</b> structure that describes the lookaside list. The routines can use this parameter to access private data that the driver has associated with the lookaside list. For example, the driver might allocate an instance of the following structure to collect private data for each lookaside list that it creates:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct
+
+```
+typedef struct
 {
   ULONG NumberOfAllocations;  // number of entries allocated
   ULONG NumberOfFrees;        // number of entries freed
   LOOKASIDE_LIST_EX LookasideField;
-} MY_PRIVATE_DATA;</pre>
-</td>
-</tr>
-</table></span></div>
+} MY_PRIVATE_DATA;
+```
+
 The driver can initialize a lookaside list as shown in the following code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define ENTRY_SIZE  256
+
+```
+#define ENTRY_SIZE  256
 #define MY_POOL_TAG  'tsLL'	  
 MY_PRIVATE_DATA *MyContext;
 NTSTATUS status = STATUS_SUCCESS;
@@ -231,19 +222,14 @@ if (MyContext)
 else
 {
     status = STATUS_INSUFFICIENT_RESOURCES;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The following code example shows how the <i>LookasideListAllocateEx</i> routine can use its <i>Lookaside</i> parameter to access the private data that is associated with the lookaside list:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PVOID
+
+```
+PVOID
   MyLookasideListAllocateEx(
     __in POOL_TYPE  PoolType,
     __in SIZE_T  NumberOfBytes,
@@ -263,10 +249,9 @@ The following code example shows how the <i>LookasideListAllocateEx</i> routine 
     }
 
     return NewEntry;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> macro is defined in the Ntdef.h header file. The <i>LookAsideListFreeEx</i> routine can similarly use its <i>Lookaside</i> parameter to access private data.
 
 After the <code>MyLookasideListAllocateEx</code> routine in this example returns, <b>ExAllocateFromLookasideListEx</b> inserts the buffer pointed to by the <code>NewEntry</code> variable into the lookaside list. To make this insertion operation thread-safe, <b>ExAllocateFromLookasideListEx</b> synchronizes its access of the lookaside list with other list insertion and removal operations that might be performed by other threads. Similarly, when <b>ExFreeFromLookasideListEx</b> removes a buffer from the lookaside list, it synchronizes its access to the list.

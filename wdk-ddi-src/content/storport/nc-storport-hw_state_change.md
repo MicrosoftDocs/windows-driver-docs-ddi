@@ -87,13 +87,9 @@ If the value for <i>Status</i> is  < 0x80000000, then the notification processin
 
 The name <i>HwStorStateChange</i> is just a placeholder for the miniport function that is pointed to by the <i>HwStateChange</i> parameter of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 HW_STATE_CHANGE (
     _In_ PVOID HwDeviceExtension,
@@ -101,10 +97,9 @@ HW_STATE_CHANGE (
     _In_ SHORT AddressType,
     _In_ PVOID Address,
     _In_ ULONG Status
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 
 ## -see-also
 

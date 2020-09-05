@@ -79,19 +79,14 @@ The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> should contain an <a href="
 <b>
        Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. If the embedded ATA command is a write operation, the size of the input buffer should be the sum of <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_ex">ATA_PASS_THROUGH_EX</a>) and the value in the <b>DataTransferLength</b> member of <b>ATA_PASS_THROUGH_EX</b>. The following pseudocode example shows how to calculate the buffer size:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG buffsize; // size of the buffer
+
+```
+ULONG buffsize; // size of the buffer
 ATA_PASS_THROUGH_EX hdr;
 hdr.DataTransferLength = size in bytes of the data transfer
-buffsize = sizeof (ATA_PASS_THROUGH_EX) + hdr.DataTransferLength</pre>
-</td>
-</tr>
-</table></span></div>
+buffsize = sizeof (ATA_PASS_THROUGH_EX) + hdr.DataTransferLength
+```
+
 If the embedded ATA command is a read operation or a device control operation that does not involve data transfer, <b>InputBufferLength</b> should be equal to <b>sizeof</b> (ATA_PASS_THROUGH_EX). 
 
 In either case, if <b>InputBufferLength</b> is less than <b>sizeof</b> (ATA_PASS_THROUGH_EX), the port driver fails the I/O request and returns an error.

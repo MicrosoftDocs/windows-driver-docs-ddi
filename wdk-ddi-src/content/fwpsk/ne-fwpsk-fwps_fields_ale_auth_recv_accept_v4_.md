@@ -354,13 +354,9 @@ The following macros in
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4 enumeration
     values:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 #define FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ICMP_TYPE \
         FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_PORT
 
@@ -386,10 +382,9 @@ The following macros in
         FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_SIO_FIREWALL_SYSTEM_PORT
 #endif // (NTDDI_VERSION >= NTDDI_WIN7)
 #endif // (NTDDI_VERSION >= NTDDI_WIN6SP1)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 These macros are used to access the following IPV4 data fields:
 
 FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ICMP_TYPE  

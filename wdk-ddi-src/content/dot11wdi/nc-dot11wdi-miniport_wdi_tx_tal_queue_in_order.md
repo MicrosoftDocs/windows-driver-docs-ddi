@@ -87,35 +87,25 @@ To define a MiniportWdiTxTalQueueInOrder function, you must first provide a func
 
 For example, to define a MiniportWdiTxTalQueueInOrder function that is named "MyTxTalQueueInOrder", use the <b>MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER MyTxTalQueueInOrder;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER MyTxTalQueueInOrder;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 VOID
  MyTxTalQueueInOrder(
     TAL_TXRX_HANDLE MiniportTalTxRxContext,
     WDI_PEER_ID PeerId,
     UINT32 ExTidBitmask
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER</b> function type is defined in the dot11wdi.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

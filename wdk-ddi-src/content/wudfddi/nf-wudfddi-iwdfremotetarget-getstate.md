@@ -63,19 +63,14 @@ For more information about remote I/O target states, see <a href="https://docs.m
 
 The following code example determines whether a remote I/O target is closed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (FxRemoteTarget->GetState() == WdfIoTargetClosed)
+
+```
+if (FxRemoteTarget->GetState() == WdfIoTargetClosed)
 {
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

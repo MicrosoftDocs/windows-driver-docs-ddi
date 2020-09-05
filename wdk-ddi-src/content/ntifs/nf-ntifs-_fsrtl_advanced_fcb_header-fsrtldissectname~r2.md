@@ -198,13 +198,9 @@ A
 
 Note that upon returning, the <b>Buffer</b> members of the output parameters will point into the <b>Buffer</b> member of <b>Path</b>.  Therefore, the caller should not allocate storage for the <b>Buffer</b> members of the two output parameters, as shown in the following example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>.
+
+```
+.
 .
 .
 /*
@@ -222,10 +218,9 @@ allocated storage of FullPathName's Buffer member:
 FsRtlDissectName (FullPathName, &CurrentComponent, &RemainingComponent);
 .
 .
-.</pre>
-</td>
-</tr>
-</table></span></div>
+.
+```
+
 For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 

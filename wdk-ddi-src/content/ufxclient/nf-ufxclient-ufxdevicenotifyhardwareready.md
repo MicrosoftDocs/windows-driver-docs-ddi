@@ -59,13 +59,9 @@ A handle to a UFX device object that the driver created by calling <a href="http
 
 The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a> callback function, as shown in the following example.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```
+NTSTATUS
 OnEvtDeviceD0Entry (
   _In_ WDFDEVICE Device,
   _In_ WDF_POWER_DEVICE_STATE PreviousState
@@ -112,8 +108,7 @@ Return Value:
 
     TraceExit();
     return STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 

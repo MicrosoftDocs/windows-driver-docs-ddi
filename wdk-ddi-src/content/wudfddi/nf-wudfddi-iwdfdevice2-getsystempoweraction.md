@@ -91,23 +91,18 @@ For more information about low-power states, see <a href="https://docs.microsoft
 
 The following code example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface and then calls <b>GetSystemPowerAction</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>   IWDFDevice2 *pDevice2 = NULL;
+
+```
+   IWDFDevice2 *pDevice2 = NULL;
     HRESULT hrQI = pDevice->QueryInterface(IID_PPV_ARGS(&pDevice2));
     if (SUCCEEDED(hrQI))
     {
         POWER_ACTION powerAction = pDevice2->GetSystemPowerAction();
     }
 ...
-    SAFE_RELEASE(pDevice2);</pre>
-</td>
-</tr>
-</table></span></div>
+    SAFE_RELEASE(pDevice2);
+```
+
 
 ## -see-also
 

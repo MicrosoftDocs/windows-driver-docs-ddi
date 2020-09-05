@@ -222,28 +222,18 @@ All mount points are resolved.
 </ul>
 The following is an example of a normalized file name for a local file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1
+```
+
 The following is an example of a normalized file name for a remote file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1
+```
+
 The <i>opened name</i> for a file is the name that was used when the file was opened. Like the normalized name, it contains the full directory path for the file, including the volume name. It differs from the normalized name in the following ways: 
 
 <ul>
@@ -262,42 +252,27 @@ Mount points are not resolved.
 </ul>
 The following is an example of an opened file name for a local file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\Device\HarddiskVolume1\Docume~1\MyUser\MYDOCU~1\Test Results.txt:stream1:$DATA</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\Device\HarddiskVolume1\Docume~1\MyUser\MYDOCU~1\Test Results.txt:stream1:$DATA
+```
+
 The following is an example of an opened file name for a remote file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1
+```
+
 The <i>short name</i> for a file is the short (8.3) name for the final component of the file name. Because it is generated when the file is opened, the short name is not available for an unopened file object, and it is not available in the create dispatch ("pre-create") path. It is also not available for NTFS stream file objects. Not all open files have short file names. For example, on NTFS partitions where short file name generation has been disabled, no files have short file names. 
 
 The following is an example of a short name for a file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>TestRe~1.txt</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+TestRe~1.txt
+```
+
 To obtain an FLT_FILE_NAME_INFORMATION structure for a file, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe">FltGetFileNameInformationUnsafe</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation">FltGetDestinationFileNameInformation</a>. These routines returns a pointer to a Filter Manager-owned FLT_FILE_NAME_INFORMATION structure that is shared by all minifilters. 
 
 <div class="alert"><b>Note</b>    Do not modify the contents of FLT_FILE_NAME_INFORMATION structures, because these structures are cached by the Filter Manager so that all minifilters can use them. If your minifilter must modify this information in some way, it should copy the information into another buffer first. </div>

@@ -66,19 +66,14 @@ The client driver calls <b>UfxDevicePortDetectComplete</b> when port detection i
 
 The client driver typically calls <b>UfxDevicePortDetectComplete</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_port_detect">EVT_UFX_DEVICE_PORT_DETECT</a> callback function, as shown in this example.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    // In this example we will return an unknown port type.  This will allow UFX to connect to a host if
+
+```
+    // In this example we will return an unknown port type.  This will allow UFX to connect to a host if
     // one is present.  UFX will timeout after 5 seconds if no host is present and transition to
     // an invalid charger type, which will allow the controller to exit D0.
     //
     UfxDevicePortDetectComplete(ControllerContext->UfxDevice, UsbfnUnknownPort);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

@@ -47,16 +47,11 @@ api_name:
 ## -description
 
 The <i>DebugExtensionUnload</i> callback function unloads the debug extension. 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_EXTENSION_UNLOAD DebugExtensionUnload;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+ CALLBACK* PDEBUG_EXTENSION_UNLOAD DebugExtensionUnload;
+```
+
 
 ## -parameters
 

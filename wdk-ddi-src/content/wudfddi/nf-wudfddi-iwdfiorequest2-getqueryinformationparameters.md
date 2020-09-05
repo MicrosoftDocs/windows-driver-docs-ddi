@@ -73,13 +73,9 @@ Your driver must verify that the specified buffer size is large enough to receiv
 
 The following code example is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackdefaultiohandler-ondefaultiohandler">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a> callback function. If the callback function receives a query information request, it retrieves the request's parameters. If the driver supports the specified type of information, it copies the information into the request's output buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void
+
+```
+void
 CMyQueue::OnDefaultIoHandler(
     IWDFIoQueue*  pQueue,
     IWDFIoRequest*  pRequest
@@ -139,10 +135,9 @@ CMyQueue::OnDefaultIoHandler(
 ...
 exit:
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

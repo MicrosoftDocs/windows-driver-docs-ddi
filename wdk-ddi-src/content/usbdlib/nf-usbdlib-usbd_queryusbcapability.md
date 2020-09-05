@@ -240,13 +240,9 @@ Determines whether the frame number and QPC association feature is supported 
 
 The code snippet shows how to call <b>USBD_QueryUsbCapability</b> to determine the capabilities of the underlying USB driver stack.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 /*++
 
 Routine Description:
@@ -405,10 +401,9 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     return;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

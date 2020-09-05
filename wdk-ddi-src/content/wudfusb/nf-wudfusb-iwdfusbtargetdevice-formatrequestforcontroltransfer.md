@@ -127,13 +127,9 @@ After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/
 
 The following code example is taken from the <a href="https://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    WINUSB_CONTROL_SETUP_PACKET setupPacket;
+
+```
+    WINUSB_CONTROL_SETUP_PACKET setupPacket;
 
     ULONG bytesTransferred;
 
@@ -202,10 +198,9 @@ CMyDevice::SendControlTransferSynchronously(
                                                                    NULL); //TransferOffset
     }                                                          
       
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

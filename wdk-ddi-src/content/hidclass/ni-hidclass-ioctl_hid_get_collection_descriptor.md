@@ -89,17 +89,12 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 The <b>_HIDP_PREPARSED_DATA</b> structure contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _HIDP_PREPARSED_DATA * PHIDP_PREPARSED_DATA;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef struct _HIDP_PREPARSED_DATA * PHIDP_PREPARSED_DATA;
+
+```
+
 A user-mode application calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HidD_GetPreparsedData</a> to obtain a top-level collection's preparsed data in a variable length _HIDP_PREPARSED_DATA structure.
 
 A kernel-mode driver uses an <b>IOCTL_HID_GET_COLLECTION_DESCRIPTOR</b> request to obtain a pointer to a top-level collection's preparsed data.

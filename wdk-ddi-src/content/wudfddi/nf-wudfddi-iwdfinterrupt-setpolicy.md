@@ -87,23 +87,18 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 The following code example assigns a device interrupt to processor 0, with normal priority.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define AFFINITY_MASK(n) ((ULONG_PTR)1 << (n))
+
+```
+#define AFFINITY_MASK(n) ((ULONG_PTR)1 << (n))
 
 pIWdfInterrupt->SetPolicy(
                           WdfIrqPolicySpecifiedProcessors,
                           WdfIrqPriorityNormal,
                           AFFINITY_MASK(0)
                           );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 
