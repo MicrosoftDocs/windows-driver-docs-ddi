@@ -28,6 +28,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+targetos: Windows
+req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS
+f1_keywords:
+ - _NDIS_RECEIVE_SCALE_PARAMETERS
+ - ntddndis/_NDIS_RECEIVE_SCALE_PARAMETERS
+ - PNDIS_RECEIVE_SCALE_PARAMETERS
+ - ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS
+ - NDIS_RECEIVE_SCALE_PARAMETERS
+ - ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS
 topic_type:
 - APIRef
 - kbSyntax
@@ -37,8 +46,7 @@ api_location:
 - Ntddndis.h
 api_name:
 - NDIS_RECEIVE_SCALE_PARAMETERS
-targetos: Windows
-req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS
+
 ---
 
 # _NDIS_RECEIVE_SCALE_PARAMETERS structure
