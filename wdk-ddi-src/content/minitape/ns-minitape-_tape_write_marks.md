@@ -8,9 +8,6 @@ ms.assetid: 5baa7fd0-e806-4da8-9c87-c86ebc003e60
 ms.date: 03/29/2018
 keywords: ["TAPE_WRITE_MARKS structure"]
 ms.keywords: "*PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Storage Devices], TAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Storage Devices], _TAPE_WRITE_MARKS, ntddtape/PTAPE_WRITE_MARKS, ntddtape/TAPE_WRITE_MARKS, storage.tape_write_marks, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml"
-f1_keywords:
- - "minitape/TAPE_WRITE_MARKS"
- - "TAPE_WRITE_MARKS"
 req.header: minitape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
@@ -28,32 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddtape.h
-api_name:
-- TAPE_WRITE_MARKS
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+f1_keywords:
+ - _TAPE_WRITE_MARKS
+ - minitape/_TAPE_WRITE_MARKS
+ - PTAPE_WRITE_MARKS
+ - minitape/PTAPE_WRITE_MARKS
+ - TAPE_WRITE_MARKS
+ - minitape/TAPE_WRITE_MARKS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddtape.h
+api_name:
+ - TAPE_WRITE_MARKS
 ---
 
-# _TAPE_WRITE_MARKS structure
+# _TAPE_WRITE_MARKS structure (minitape.h)
 
 
 ## -description
 
-
-The TAPE_WRITE_MARKS structure is used in conjunction with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_write_marks">IOCTL_TAPE_WRITE_MARKS</a> request to write a setmark, a filemark, a short filemark, or a long filemark to tape. 
-
+The TAPE_WRITE_MARKS structure is used in conjunction with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_write_marks">IOCTL_TAPE_WRITE_MARKS</a> request to write a setmark, a filemark, a short filemark, or a long filemark to tape.
 
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -105,30 +104,20 @@ Writes the number of long filemarks specified by <b>Count</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Count
 
-Indicates the number of marks to write. 
-
+Indicates the number of marks to write.
 
 ### -field Immediate
 
 When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_write_marks">IOCTL_TAPE_WRITE_MARKS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWriteMarks</a>
- 
-
- 
 

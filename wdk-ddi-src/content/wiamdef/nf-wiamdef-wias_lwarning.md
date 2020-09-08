@@ -8,9 +8,6 @@ ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
 ms.date: 05/03/2018
 keywords: ["WIAS_LWARNING macro"]
 ms.keywords: IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, wiamdef/WIAS_LWARNING
-f1_keywords:
- - "wiamdef/WIAS_LWARNING"
- - "WIAS_LWARNING"
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamdef.h
-api_name:
-- WIAS_LWARNING
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WIAS_LWARNING
+ - wiamdef/WIAS_LWARNING
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamdef.h
+api_name:
+ - WIAS_LWARNING
 ---
 
-# WIAS_LWARNING macro
+# WIAS_LWARNING macro (wiamdef.h)
+
 
 ## -description
 
@@ -79,3 +80,4 @@ Please note that it does not write to the new log file used in modern Windows op
 [WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult)
 
 [WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_ltrace)
+

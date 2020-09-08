@@ -8,9 +8,6 @@ ms.assetid: 9F01D093-226E-4CB4-8085-812115EBA671
 ms.date: 05/03/2018
 keywords: ["SensorsCxSensorDataReady function"]
 ms.keywords: SensorsCxSensorDataReady, SensorsCxSensorDataReady function [Sensor Devices], sensors.sensorscxsensordataready, sensorscx/SensorsCxSensorDataReady
-f1_keywords:
- - "sensorscx/SensorsCxSensorDataReady"
- - "SensorsCxSensorDataReady"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SensorsCx.h
-api_name:
-- SensorsCxSensorDataReady
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SensorsCxSensorDataReady
+ - sensorscx/SensorsCxSensorDataReady
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SensorsCx.h
+api_name:
+ - SensorsCxSensorDataReady
 ---
 
 # SensorsCxSensorDataReady function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 This function notifies the class extension that the driver has retrieved data.
-
 
 ## -parameters
 
+### -param Sensor 
 
-
-
-### -param Sensor [in]
-
+[in]
 A reference to a sensor object.
 
+### -param pSensorData 
 
-### -param pSensorData [in]
-
+[in]
 A list of <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
-
 ## -returns
-
-
 
 This function returns NTSTATUS with different values. Some values that may be returned are the following:
 
@@ -89,23 +82,13 @@ STATUS_INVALID_PARAMETER is returned if any of the _In_ parameters are NULL.
         Calling SensorsCxSensorDataReady before it is Started can cause the sensor class extension to become unresponsive.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 This function is implemented by the class extension and the driver must call it. Note that when batch latency expires for sensor drivers
     that support data batching, <b>SensorsCxSensorDataReady</b> is called repeatedly until all the batched data samples are delivered to the client.
     For more information about the callback function related to  batch latency, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">EvtSensorSetBatchLatency</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">EvtSensorSetBatchLatency</a>
 
@@ -116,7 +99,4 @@ This function is implemented by the class extension and the driver must call it.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>
- 
-
- 
 

@@ -5,40 +5,38 @@ description: This routine rearranges activity data collection under certain cond
 ms.assetid: 10616185-a9af-4b35-a7b7-d3288c319121
 ms.date: 08/08/2018
 keywords: ["CollectionsListSortSubscribedActivitiesByConfidence function"]
-f1_keywords:
- - "sensorsutils/CollectionsListSortSubscribedActivitiesByConfidence"
- - "CollectionsListSortSubscribedActivitiesByConfidence"
 tech.root: sensors
 ms.keywords: CollectionsListSortSubscribedActivitiesByConfidence
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- CollectionsListSortSubscribedActivitiesByConfidence
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - CollectionsListSortSubscribedActivitiesByConfidence
+ - sensorsutils/CollectionsListSortSubscribedActivitiesByConfidence
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - CollectionsListSortSubscribedActivitiesByConfidence
 ---
 
 # CollectionsListSortSubscribedActivitiesByConfidence function
@@ -58,7 +56,6 @@ This routine rearranges activity data collection for following:
 
 > [!Caution] 
 > This routine assumes that there is no embedded pointer in the collection list.
-
 
 ## -parameters
 
@@ -83,3 +80,4 @@ Returns STATUS_SUCCESS when the collection list was properly sorted.
 ## -remarks
 
 ## -see-also
+

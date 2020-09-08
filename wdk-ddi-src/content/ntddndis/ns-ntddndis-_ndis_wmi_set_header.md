@@ -8,9 +8,6 @@ ms.assetid: ea6f37e0-a46f-41d9-84f2-624f5727863a
 ms.date: 05/02/2018
 keywords: ["NDIS_WMI_SET_HEADER structure"]
 ms.keywords: "*PNDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_SET_HEADER, PNDIS_WMI_SET_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WMI_SET_HEADER, ndis_wmi_ref_c7789da2-ca0f-48e3-8000-8abff7fe866e.xml, netvista.ndis_wmi_set_header, ntddndis/NDIS_WMI_SET_HEADER, ntddndis/PNDIS_WMI_SET_HEADER"
-f1_keywords:
- - "ntddndis/NDIS_WMI_SET_HEADER"
- - "NDIS_WMI_SET_HEADER"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_WMI_SET_HEADER
 targetos: Windows
 req.typenames: NDIS_WMI_SET_HEADER, *PNDIS_WMI_SET_HEADER
+f1_keywords:
+ - _NDIS_WMI_SET_HEADER
+ - ntddndis/_NDIS_WMI_SET_HEADER
+ - PNDIS_WMI_SET_HEADER
+ - ntddndis/PNDIS_WMI_SET_HEADER
+ - NDIS_WMI_SET_HEADER
+ - ntddndis/NDIS_WMI_SET_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_WMI_SET_HEADER
 ---
 
 # _NDIS_WMI_SET_HEADER structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_WMI_SET_HEADER, *PNDIS_WMI_SET_HEADER
 
 ## -description
 
-
 The NDIS_WMI_SET_HEADER structure provides information about a GUID set request from WMI
   clients.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -66,7 +65,6 @@ The
      <b>Size</b> member to 
      sizeof(NDIS_WMI_SET_HEADER).
 
-
 ### -field PortNumber
 
 The miniport adapter port, if any. If the GUID is not specific to a port, 
@@ -75,14 +73,12 @@ The miniport adapter port, if any. If the GUID is not specific to a port,
      GUID_NDIS_GEN_ENUMERATE_PORTS</a> GUID to obtain a list of the ports that are associated with a
      miniport adapter.
 
-
 ### -field NetLuid
 
 The NDIS network interface name of the miniport adapter. WMI clients can use the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">
      GUID_NDIS_ENUMERATE_ADAPTERS_EX</a> GUID to find a device name and the associated 
      <b>NetLuid</b> value.
-
 
 ### -field RequestId
 
@@ -102,7 +98,6 @@ NDIS or overlying drivers can also use the
 For more information about this member, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>.
 
-
 ### -field Timeout
 
 A time-out, in seconds, for the request. NDIS can reset the driver or cancel the request if the
@@ -111,28 +106,18 @@ A time-out, in seconds, for the request. NDIS can reset the driver or cancel the
 For more information about this member, see 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>.
 
-
 ### -field Padding
 
 This member is reserved
 
-
 ## -remarks
-
-
 
 NDIS translates WMI GUID set requests to NDIS OID requests.
 
 WMI GUID set requests that are specific to NDIS 6.0 and later versions include an NDIS_WMI_SET_HEADER
     structure that is followed by the GUID-specific data, if any.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
 
@@ -143,7 +128,4 @@ WMI GUID set requests that are specific to NDIS 6.0 and later versions include a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: E1F0BB4A-17FB-4C35-9373-CD648553A738
 ms.date: 04/23/2018
 keywords: ["SerCx2SystemDmaTransmitPurgeFifoComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitpurgefifocomplete
-f1_keywords:
- - "sercx/SerCx2SystemDmaTransmitPurgeFifoComplete"
- - "SerCx2SystemDmaTransmitPurgeFifoComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- 2.0\Sercx.h
-api_name:
-- SerCx2SystemDmaTransmitPurgeFifoComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SerCx2SystemDmaTransmitPurgeFifoComplete
+ - sercx/SerCx2SystemDmaTransmitPurgeFifoComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - SerCx2SystemDmaTransmitPurgeFifoComplete
 ---
 
 # SerCx2SystemDmaTransmitPurgeFifoComplete function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SerCx2SystemDmaTransmitPurgeFifoComplete</b> method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished purging the data from the transmit FIFO in the serial controller hardware.
-
 
 ## -parameters
 
+### -param SystemDmaTransmit 
 
-
-
-### -param SystemDmaTransmit [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
+### -param BytesPurged 
 
-### -param BytesPurged [in]
-
+[in]
 The number of bytes of unsent data that the serial controller driver purged from the transmit FIFO.
 
-
 ## -remarks
-
-
 
 SerCx2 calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_system_dma_transmit_purge_fifo">EvtSerCx2SystemDmaTransmitPurgeFifo</a> event callback function, if it is implemented, to tell the serial controller driver to terminate the current system-DMA-transmit transaction. SerCx2 previously initiated this transaction in response to a write (<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>) request from a client. For example, SerCx2 might call this function if the client cancels the pending write request, or if the write request times out. For more information, see <a href="https://docs.microsoft.com/previous-versions/hh406672(v=vs.85)">SerCx2 Handling of Read and Write Requests</a>.
 
@@ -79,13 +72,7 @@ SerCx2 uses the <i>BytesPurged</i> parameter value to determine how many bytes w
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/dn265338(v=vs.85)">SerCx2 System-DMA-Transmit Transactions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_system_dma_transmit_purge_fifo">EvtSerCx2SystemDmaTransmitPurgeFifo</a>
 
@@ -104,7 +91,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a>
- 
-
- 
 

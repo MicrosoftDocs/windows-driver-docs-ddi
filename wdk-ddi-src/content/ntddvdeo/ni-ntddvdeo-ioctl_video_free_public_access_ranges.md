@@ -8,9 +8,6 @@ ms.assetid: 6adc5234-a7c3-4860-8d3e-6c990f460ecc
 ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES IOCTL"]
 ms.keywords: IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_8b60ca4e-5d15-4fa1-8257-805d90276262.xml, display.ioctl_video_free_public_access_ranges, ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
-f1_keywords:
- - "ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES"
- - "IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvdeo.h
-api_name:
-- IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
+ - ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvdeo.h
+api_name:
+ - IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
 ---
 
 # IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES IOCTL
@@ -46,80 +46,35 @@ req.typenames:
 
 ## -description
 
-
-
 Releases the address range that was allocated by a preceding <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_query_public_access_ranges">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a> request. Support for this nonmodal request is optional.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a> structures to be released.
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The miniport driver does not set the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_query_public_access_ranges">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a>
- 
-
- 
 

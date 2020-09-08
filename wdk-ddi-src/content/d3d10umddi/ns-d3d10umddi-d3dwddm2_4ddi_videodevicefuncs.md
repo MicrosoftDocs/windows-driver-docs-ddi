@@ -5,38 +5,39 @@ description: Specifies the video function table for the Microsoft Direct3D drive
 ms.assetid: d7df13fe-cff3-4ecd-8215-370521cade1a
 ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDI_VIDEODEVICEFUNCS structure"]
-f1_keywords:
- - "d3d10umddi/D3DWDDM2_4DDI_VIDEODEVICEFUNCS"
- - "D3DWDDM2_4DDI_VIDEODEVICEFUNCS"
 ms.keywords: D3DWDDM2_4DDI_VIDEODEVICEFUNCS, D3DWDDM2_4DDI_VIDEODEVICEFUNCS,
 req.header: d3d10umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DWDDM2_4DDI_VIDEODEVICEFUNCS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3DWDDM2_4DDI_VIDEODEVICEFUNCS
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - D3DWDDM2_4DDI_VIDEODEVICEFUNCS
+ - d3d10umddi/D3DWDDM2_4DDI_VIDEODEVICEFUNCS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3DWDDM2_4DDI_VIDEODEVICEFUNCS
+product:
+ - Windows
 ---
 
 # D3DWDDM2_4DDI_VIDEODEVICEFUNCS structure
+
 
 ## -description
 
@@ -361,6 +362,7 @@ The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1
 ### -field pfnCryptoSessionGetHandle
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_cryptosessiongethandle.md">CryptoSessionGetHandle</a> function.
+
 ### -field pfnVideoProcessorSetStreamRotation
 
 The entry point for the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamrotation.md">VideoProcessorSetStreamRotation</a> function.
@@ -433,7 +435,7 @@ The entry point for the driver's VideoProcessorSetStreamHDRMetaData function.
 
 The entry point for the driver's NegotiateCryptoSessionKeyExchangeMT function.
 
-
 ## -remarks
 
 ## -see-also
+

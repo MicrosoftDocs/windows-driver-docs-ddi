@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetPalette"
- - "SetPalette"
+ - PFND3DDDI_SETPALETTE
+ - d3dumddi/PFND3DDDI_SETPALETTE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETPALETTE callback function
+
 
 ## -description
 

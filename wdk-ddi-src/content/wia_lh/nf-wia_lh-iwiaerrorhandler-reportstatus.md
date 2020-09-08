@@ -8,9 +8,6 @@ ms.assetid: c244d5a1-d3c1-4f8f-9b55-3729e5f13887
 ms.date: 05/03/2018
 keywords: ["IWiaErrorHandler::ReportStatus"]
 ms.keywords: IWiaErrorHandler interface [Imaging Devices],ReportStatus method, IWiaErrorHandler.ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices],IWiaErrorHandler interface, image.iwiaerrorhandler_reportstatus, wia_lh/IWiaErrorHandler::ReportStatus
-f1_keywords:
- - "wia_lh/IWiaErrorHandler.ReportStatus"
- - "IWiaErrorHandler.ReportStatus"
 req.header: wia_lh.h
 req.include-header: Wia.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wia_lh.h
-api_name:
-- IWiaErrorHandler.ReportStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaErrorHandler::ReportStatus
+ - wia_lh/IWiaErrorHandler::ReportStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wia_lh.h
+api_name:
+ - IWiaErrorHandler.ReportStatus
 ---
 
 # IWiaErrorHandler::ReportStatus
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReportStatus</b> method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error.
-
 
 ## -parameters
 
+### -param lFlags 
 
+[in]
+Currently unused. Should be set to zero.
 
+### -param hwndParent 
 
-### -param lFlags [in]
-
-Currently unused. Should be set to zero. 
-
-
-### -param hwndParent [in]
-
+[in]
 Caller supplied handle of the window that should be used as the parent window for any dialog boxes. If this is set to <b>NULL</b>, no dialog boxes should be displayed.
 
+### -param pWiaItem2 
 
-### -param pWiaItem2 [in]
-
+[in]
 Pointer to the <b>IWiaItem2</b> item being transferred. <b>IWiaItem2</b> is described in the Microsoft Windows SDK documentation.
 
+### -param hrStatus 
 
-### -param hrStatus [in]
-
+[in]
 HRESULT variable that contains the status code received by the WIA transfer method, for example the <b>IWiaDataCallback::BandedDataCallback</b> method (described in the Windows SDK documentation).
 
+### -param lPercentComplete 
 
-### -param lPercentComplete [in]
-
+[in]
 Size of the data, in bytes, the <i>pbData</i> pointer refers to.
 
-
 ## -returns
-
-
 
 Returns a standard COM error code if the error cannot be recovered from, or if the user chooses to abort the transfer in response to the displayed dialog box. There is additional information on the return values in the remarks section. Otherwise this method returns one of the following values:
 
@@ -114,14 +107,8 @@ No action was taken to handle the error or report status to the user.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The COM proxy callback object (described in the Windows SDK documentation) calls the <b>WiaErrorHandler::ReportStatus</b> method when the driver sends an IT_MSG_DEVICE_STATUS message to the <b>IWiaDataCallback::BandedDataCallback</b> method (described in the Windows SDK documentation). The dialog box that this method displays provides the user with error or status information and possibly gives an opportunity to recover from the error and continue the transfer. The UI should provide only an informational dialog box and a chance to cancel the transfer if the HRESULT is SEVERITY_SUCCESS.
 
@@ -131,20 +118,11 @@ The <i>hrStatus</i> parameter is set to WIA_STATUS_TRANSFER_BEGIN to inform the 
 
 If <i>hrStatus</i> is S_OK, the data transfer has resumed and no delay or error is currently in effect.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiaerrorhandler">IWiaErrorHandler</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiaerrorhandler-getstatusdescription">IWiaErrorHandler::GetStatusDescription</a>
- 
-
- 
 

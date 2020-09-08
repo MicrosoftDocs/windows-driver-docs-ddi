@@ -8,9 +8,6 @@ ms.assetid: b4e38b33-2f23-4439-b0bc-ab3524e5180e
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetFieldTypeAndOffsetWide"]
 ms.keywords: GetFieldTypeAndOffsetWide, GetFieldTypeAndOffsetWide method [Windows Debugging], GetFieldTypeAndOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldTypeAndOffsetWide method, IDebugSymbols3.GetFieldTypeAndOffsetWide, IDebugSymbols3::GetFieldTypeAndOffsetWide, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, debugger.getfieldtypeandoffsetwide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.GetFieldTypeAndOffsetWide"
- - "IDebugSymbols3.GetFieldTypeAndOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.GetFieldTypeAndOffsetWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetFieldTypeAndOffsetWide
+ - dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.GetFieldTypeAndOffsetWide
 ---
 
 # IDebugSymbols3::GetFieldTypeAndOffsetWide
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetFieldTypeAndOffsetWide</b>  method returns the type of a field and its offset within a container.
-
 
 ## -parameters
 
+### -param Module 
 
-
-
-### -param Module [in]
-
+[in]
 Specifies the module containing the types of both the container and the field.
 
+### -param ContainerTypeId 
 
-### -param ContainerTypeId [in]
-
+[in]
 Specifies the type ID for the container's type.  Examples of containers include structures, unions, and classes.
 
+### -param Field 
 
-### -param Field [in]
-
+[in]
 Specifies the name of the field whose type and offset are requested.  Subfields may be specified by using a dot-separated path.
 
+### -param FieldTypeId 
 
-### -param FieldTypeId [out, optional]
-
+[out, optional]
 Receives the type ID of the field.
 
+### -param Offset 
 
-### -param Offset [out, optional]
-
+[out, optional]
 Receives the offset of the field <i>Field</i> from the base memory location of an instance of the container.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -114,26 +107,14 @@ The field <i>Field</i> could not be found in the type specified by <i>ContainerT
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An example of a dot-separated path for the <i>Field</i> parameter is as follows.  Suppose the MyStruct structure contains a field <b>MyField</b> of type MySubStruct, and the MySubStruct structure contains the field <b>MySubField</b>.  Then the type of this field and its location relative to the location of MyStruct structure can be found by passing "MyField.MySubField" as the <i>Field</i> parameter to this method.
 
 For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.  For more information about symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols-getfieldoffset">GetFieldOffset</a>
 
@@ -144,7 +125,4 @@ For more information about types, see <a href="https://docs.microsoft.com/window
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

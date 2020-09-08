@@ -8,9 +8,6 @@ ms.assetid: 1686A3CA-AD4A-4560-8665-9AFBE920CDDA
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_POST_ADAPTER_RESTART callback function"]
 ms.keywords: MINIPORT_WDI_POST_ADAPTER_RESTART, MINIPORT_WDI_POST_ADAPTER_RESTART callback, MiniportWdiPostAdapterRestart, MiniportWdiPostAdapterRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterRestart, netvista.miniportwdipostadapterrestart
-f1_keywords:
- - "dot11wdi/MiniportWdiPostAdapterRestart"
- - "MiniportWdiPostAdapterRestart"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiPostAdapterRestart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_POST_ADAPTER_RESTART
+ - dot11wdi/MINIPORT_WDI_POST_ADAPTER_RESTART
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiPostAdapterRestart
 ---
 
 # MINIPORT_WDI_POST_ADAPTER_RESTART callback function
 
 
 ## -description
-
 
 The MiniportWdiPostAdapterRestart handler function is called by the Microsoft component after it finishes restarting the data path as part of the NDIS <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> requirements.
 
@@ -57,22 +56,17 @@ The NDIS <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/n
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to the context area that the miniport driver allocated.
 
+### -param RestartParameters 
 
-### -param RestartParameters [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_restart_parameters">NDIS_MINIPORT_RESTART_PARAMETERS</a> structure that defines the restart parameters for the miniport adapter.
 
-
 ## -returns
-
-
 
 MiniportWdiPostAdapterRestart can return any of the following return values.
 
@@ -115,15 +109,8 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a>
 
@@ -138,7 +125,4 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_restart_parameters">NDIS_MINIPORT_RESTART_PARAMETERS</a>
- 
-
- 
 

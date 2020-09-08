@@ -8,9 +8,6 @@ ms.assetid: 1d3c1084-8f51-4c8a-813e-6700d60c3dab
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_PIN_LIST structure"]
 ms.keywords: "*PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_LIST, PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml, _NDIS_WWAN_PIN_LIST, ndiswwan/NDIS_WWAN_PIN_LIST, ndiswwan/PNDIS_WWAN_PIN_LIST, netvista.ndis_wwan_pin_list"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_PIN_LIST"
- - "NDIS_WWAN_PIN_LIST"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_PIN_LIST
 targetos: Windows
 req.typenames: NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST
+f1_keywords:
+ - _NDIS_WWAN_PIN_LIST
+ - ndiswwan/_NDIS_WWAN_PIN_LIST
+ - PNDIS_WWAN_PIN_LIST
+ - ndiswwan/PNDIS_WWAN_PIN_LIST
+ - NDIS_WWAN_PIN_LIST
+ - ndiswwan/NDIS_WWAN_PIN_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_PIN_LIST
 ---
 
 # _NDIS_WWAN_PIN_LIST structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST
 
 ## -description
 
-
 The NDIS_WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers
   (PINs).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,7 +104,6 @@ sizeof(NDIS_WWAN_PIN_LIST)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -180,8 +178,6 @@ The operation failed because a bad SIM card was detected.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PinList
 
@@ -189,18 +185,11 @@ A formatted
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_list">WWAN_PIN_LIST</a> object that represents a list
      of descriptions of Personal Identification Numbers (PINs).
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_list">WWAN_PIN_LIST</a>
- 
-
- 
 

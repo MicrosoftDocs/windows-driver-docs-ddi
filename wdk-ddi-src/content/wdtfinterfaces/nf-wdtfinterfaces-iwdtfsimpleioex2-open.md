@@ -8,9 +8,6 @@ ms.assetid: 991a60a0-8d82-4f41-8cfe-bf633338bdda
 ms.date: 04/04/2018
 keywords: ["IWDTFSimpleIOEx2::Open"]
 ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],Open method, IWDTFSimpleIOEx2.Open, IWDTFSimpleIOEx2::Open, Microsoft.WDTF.IWDTFSimpleIOEx2.Open, Microsoft::WDTF::IWDTFSimpleIOEx2::Open, Open, Open method [Windows Device Testing Framework], Open method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, dtf.iwdtfsimpleioex2_open, wdtfinterfaces/IWDTFSimpleIOEx2::Open
-f1_keywords:
- - "wdtfinterfaces/IWDTFSimpleIOEx2.Open"
- - "IWDTFSimpleIOEx2.Open"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFInterfaces.Interop.dll
-api_name:
-- IWDTFSimpleIOEx2.Open
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimpleIOEx2::Open
+ - wdtfinterfaces/IWDTFSimpleIOEx2::Open
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFInterfaces.Interop.dll
+api_name:
+ - IWDTFSimpleIOEx2.Open
 ---
 
 # IWDTFSimpleIOEx2::Open
@@ -46,46 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Opens the device.
-
 
 ## -parameters
 
+### -param pResult 
 
-
-
-### -param pResult [out, retval]
-
+[out, retval]
 True if the operation succeeds; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 You should call the <b>Open</b> method before calling 
 the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleioex2-performio">IWDTFSimpleIOEx2::PerformIO</a> method.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleioex2">IWDTFSimpleIOEx2</a>
- 
-
- 
 

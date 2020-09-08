@@ -8,9 +8,6 @@ ms.assetid: a4e8aee0-d3ac-4086-99a3-a0339b198372
 ms.date: 05/08/2018
 keywords: ["PcGetContentRights function"]
 ms.keywords: PcGetContentRights, PcGetContentRights function [Audio Devices], audio.pcgetcontentrights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights
-f1_keywords:
- - "portcls/PcGetContentRights"
- - "PcGetContentRights"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcGetContentRights
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcGetContentRights
+ - portcls/PcGetContentRights
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcGetContentRights
 ---
 
 # PcGetContentRights function
@@ -47,50 +47,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>PcGetContentRights</b> function retrieves the DRM content rights assigned to a DRM content ID. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a> function, and its parameter definitions and return value are also identical.
-
 
 ## -parameters
 
+### -param ContentId 
 
-
-
-### -param ContentId [in]
-
+[in]
 Specifies the DRM content ID. This parameter identifies a KS audio stream.
 
+### -param DrmRights 
 
-### -param DrmRights [out]
-
+[out]
 Specifies the DRM content rights that are assigned to the stream that is identified by <i>ContentId</i>. This parameter is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a> structure.
-
 
 ## -returns
 
-
-
 See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>.
-
-
-
 
 ## -remarks
 
-
-
 For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 8f8abdb1-d018-4404-a80a-74017c324a0f
 ms.date: 05/02/2018
 keywords: ["NPI_CLIENT_ATTACH_PROVIDER_FN callback function"]
 ms.keywords: ClientAttachProvider, ClientAttachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_ATTACH_PROVIDER_FN, NPI_CLIENT_ATTACH_PROVIDER_FN callback, PNPI_CLIENT_ATTACH_PROVIDER_FN, PNPI_CLIENT_ATTACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientAttachProvider, netvista.clientattachprovider, nmrref_36b8ce1f-6570-40a1-b6f9-5d6782aac61d.xml
-f1_keywords:
- - "netioddk/PNPI_CLIENT_ATTACH_PROVIDER_FN"
- - "PNPI_CLIENT_ATTACH_PROVIDER_FN"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netioddk.h
-api_name:
-- PNPI_CLIENT_ATTACH_PROVIDER_FN
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NPI_CLIENT_ATTACH_PROVIDER_FN
+ - netioddk/NPI_CLIENT_ATTACH_PROVIDER_FN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netioddk.h
+api_name:
+ - PNPI_CLIENT_ATTACH_PROVIDER_FN
 ---
 
 # NPI_CLIENT_ATTACH_PROVIDER_FN callback function
@@ -46,41 +46,34 @@ req.typenames:
 
 ## -description
 
-
 A client module's 
   <i>ClientAttachProvider</i> callback function attaches the client module to a provider module.
 
-
 ## -parameters
 
+### -param NmrBindingHandle 
 
-
-
-### -param NmrBindingHandle [in]
-
+[in]
 A handle used by the NMR to represent the binding between the client module and the provider
      module.
 
+### -param ClientContext 
 
-### -param ClientContext [in]
-
+[in]
 A pointer to the client module's registration context. The client module passes this pointer to
      the NMR when it calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a> function to register
      itself with the NMR.
 
+### -param ProviderRegistrationInstance 
 
-### -param ProviderRegistrationInstance [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">
      NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the provider module's registration
      data.
 
-
 ## -returns
-
-
 
 A client module's 
      <i>ClientAttachProvider</i> callback function returns one of the following NTSTATUS codes:
@@ -125,14 +118,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After a client module has registered with the NMR, the NMR calls the client module's 
     <i>ClientAttachProvider</i> callback function, once for each provider module that is registered as a
@@ -178,13 +165,7 @@ If the client module successfully attaches to the provider module, it must save 
 The NMR calls a client module's 
     <i>ClientAttachProvider</i> callback function at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
 
@@ -208,7 +189,4 @@ The NMR calls a client module's
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a>
- 
-
- 
 

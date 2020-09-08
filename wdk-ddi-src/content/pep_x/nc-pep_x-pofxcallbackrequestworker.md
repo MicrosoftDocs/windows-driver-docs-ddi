@@ -8,9 +8,6 @@ ms.assetid: A77277D2-B644-469D-A668-78C23BF41367
 ms.date: 04/30/2018
 keywords: ["POFXCALLBACKREQUESTWORKER callback function"]
 ms.keywords: POFXCALLBACKREQUESTWORKER, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], kernel.requestworker, pepfx/RequestWorker
-f1_keywords:
- - "pep_x/RequestWorker"
- - "RequestWorker"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,41 +25,37 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- pepfx.h
-api_name:
-- RequestWorker
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - POFXCALLBACKREQUESTWORKER
+ - pep_x/POFXCALLBACKREQUESTWORKER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - pepfx.h
+api_name:
+ - RequestWorker
 ---
 
-# POFXCALLBACKREQUESTWORKER callback function
+# POFXCALLBACKREQUESTWORKER callback function (pep_x.h)
 
 
 ## -description
 
-
 The <b>RequestWorker</b> routine is called by a platform extension plug-in (PEP) to inform the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
-
 
 ## -parameters
 
+### -param PluginHandle 
 
-
-
-### -param PluginHandle [in]
-
+[in]
 A POHANDLE value that represents the registration of the device with PoFx. The PEP previously received this handle from PoFx during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
 
-
 ## -remarks
-
-
 
 This routine is implemented by PoFx and is called by the PEP. The <b>RequestWorker</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>RequestWorker</b> routine.
 
@@ -70,20 +63,11 @@ Each time the PEP calls this routine, PoFx responds by sending a <a href="https:
 
 A PEP can call this routine at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
- 
-
- 
 

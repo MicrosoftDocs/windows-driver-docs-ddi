@@ -5,42 +5,45 @@ description: This structure represents a linear range of supported millinit leve
 ms.assetid: 39ca173d-97a6-4eb3-bb6c-436801c56d1b
 ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_NIT_RANGE structure"]
-f1_keywords:
- - "d3dkmdt/_DXGK_BRIGHTNESS_NIT_RANGE"
- - "_DXGK_BRIGHTNESS_NIT_RANGE"
 ms.keywords: _DXGK_BRIGHTNESS_NIT_RANGE, DXGK_BRIGHTNESS_NIT_RANGE,
 req.header: d3dkmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_BRIGHTNESS_NIT_RANGE
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- _DXGK_BRIGHTNESS_NIT_RANGE
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_BRIGHTNESS_NIT_RANGE
+ - d3dkmdt/_DXGK_BRIGHTNESS_NIT_RANGE
+ - DXGK_BRIGHTNESS_NIT_RANGE
+ - d3dkmdt/DXGK_BRIGHTNESS_NIT_RANGE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - _DXGK_BRIGHTNESS_NIT_RANGE
+product:
+ - Windows
 ---
 
 # _DXGK_BRIGHTNESS_NIT_RANGE structure
 
+
 ## -description
 
-This structure represents a linear range of supported millinit levels. If the driver has not set [DXGK_BRIGHTNESS_CAPS.NitsBrightness](ns-d3dkmdt-_dxgk_brightness_caps.md), then all values represent brightness level in uncalibrated thousandths of a percent. 
+This structure represents a linear range of supported millinit levels. If the driver has not set [DXGK_BRIGHTNESS_CAPS.NitsBrightness](ns-d3dkmdt-_dxgk_brightness_caps.md), then all values represent brightness level in uncalibrated thousandths of a percent.
 
 ## -struct-fields
 

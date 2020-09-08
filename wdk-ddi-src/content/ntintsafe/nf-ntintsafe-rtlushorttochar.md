@@ -8,9 +8,6 @@ ms.assetid: 13C5988F-1669-4B18-9423-74587276320F
 ms.date: 04/30/2018
 keywords: ["RtlUShortToChar function"]
 ms.keywords: RtlUShortToChar, RtlUShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlushorttochar, ntintsafe/RtlUShortToChar
-f1_keywords:
- - "ntintsafe/RtlUShortToChar"
- - "RtlUShortToChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlUShortToChar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUShortToChar
+ - ntintsafe/RtlUShortToChar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlUShortToChar
 ---
 
 # RtlUShortToChar function
@@ -46,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>USHORT</b> to a value of type <b>CHAR</b>.
-
 
 ## -parameters
 
+### -param usOperand 
 
-
-
-### -param usOperand [in]
-
+[in]
 The value to be converted.
 
+### -param pch 
 
-### -param pch [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

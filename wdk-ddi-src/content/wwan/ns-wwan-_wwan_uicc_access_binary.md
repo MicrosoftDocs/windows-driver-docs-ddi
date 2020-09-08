@@ -1,52 +1,57 @@
 ---
 UID: NS:wwan._WWAN_UICC_ACCESS_BINARY
 title: _WWAN_UICC_ACCESS_BINARY (wwan.h)
-description: The WWAN_UICC_ACCESS_BINARY structure describes information about a UICC binary file to read or to which to write. 
+description: The WWAN_UICC_ACCESS_BINARY structure describes information about a UICC binary file to read or to which to write.
 tech.root: netvista
 ms.assetid: D22866FC-A344-4D8B-B4C4-A72DF90F1505
 ms.date: 04/10/2019
 keywords: ["WWAN_UICC_ACCESS_BINARY structure"]
-f1_keywords:
- - "wwan/_WWAN_UICC_ACCESS_BINARY"
- - "_WWAN_UICC_ACCESS_BINARY"
-ms.keywords: _WWAN_UICC_ACCESS_BINARY, WWAN_UICC_ACCESS_BINARY, *PWWAN_UICC_ACCESS_BINARY, 
+ms.keywords: _WWAN_UICC_ACCESS_BINARY, WWAN_UICC_ACCESS_BINARY, *PWWAN_UICC_ACCESS_BINARY,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: WWAN_UICC_ACCESS_BINARY, *PWWAN_UICC_ACCESS_BINARY
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_UICC_ACCESS_BINARY
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - _WWAN_UICC_ACCESS_BINARY
+ - wwan/_WWAN_UICC_ACCESS_BINARY
+ - PWWAN_UICC_ACCESS_BINARY
+ - wwan/PWWAN_UICC_ACCESS_BINARY
+ - WWAN_UICC_ACCESS_BINARY
+ - wwan/WWAN_UICC_ACCESS_BINARY
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_UICC_ACCESS_BINARY
 ---
 
 # _WWAN_UICC_ACCESS_BINARY structure
 
+
 ## -description
 
-The **WWAN_UICC_ACCESS_BINARY** structure describes information about a UICC binary file to read or to which to write. 
+The **WWAN_UICC_ACCESS_BINARY** structure describes information about a UICC binary file to read or to which to write.
 
 ## -struct-fields
 
 ### -field Version
 
 The version number of the structure that follows. In Windows 10, version 1903, this version must be set to **1**.
- 
+
 ### -field AppId
 
 The application ID.
@@ -90,3 +95,4 @@ This structure is used in the [**NDIS_WWAN_UICC_ACCESS_BINARY**](../ndiswwan/ns-
 [OID_WWAN_UICC_ACCESS_BINARY](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-binary)
 
 [**NDIS_WWAN_UICC_ACCESS_BINARY**](../ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_access_binary.md)
+

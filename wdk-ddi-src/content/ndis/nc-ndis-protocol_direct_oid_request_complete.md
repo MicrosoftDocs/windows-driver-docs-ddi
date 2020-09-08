@@ -8,9 +8,6 @@ ms.assetid: 6b23bbba-1b18-4da7-a45c-68df7c960aad
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_DIRECT_OID_REQUEST_COMPLETE callback function"]
 ms.keywords: PROTOCOL_DIRECT_OID_REQUEST_COMPLETE, PROTOCOL_DIRECT_OID_REQUEST_COMPLETE callback, ProtocolDirectOidRequestComplete, ProtocolDirectOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolDirectOidRequestComplete, ndis_request_direct_ref_d190a2bd-5db1-481e-aaee-deffd87c8968.xml, netvista.protocoldirectoidrequestcomplete
-f1_keywords:
- - "ndis/ProtocolDirectOidRequestComplete"
- - "ProtocolDirectOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolDirectOidRequestComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_DIRECT_OID_REQUEST_COMPLETE
+ - ndis/PROTOCOL_DIRECT_OID_REQUEST_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolDirectOidRequestComplete
 ---
 
 # PROTOCOL_DIRECT_OID_REQUEST_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolDirectOidRequestComplete</i> function completes the processing of a protocol
@@ -57,35 +56,30 @@ The
 
 ## -parameters
 
+### -param ProtocolBindingContext 
 
-
-
-### -param ProtocolBindingContext [in]
-
+[in]
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      per-binding run-time state. The driver supplied this handle when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
+### -param OidRequest 
 
-### -param OidRequest [in]
-
+[in]
 A pointer to the protocol driver-supplied 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
      previously passed to the 
      <b>NdisDirectOidRequest</b> function.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 The final status of the request. The underlying driver or NDIS determines this final status. This
      parameter determines what 
      <i>ProtocolDirectOidRequestComplete</i> does with the information at 
      <i>OidRequest</i>.
 
-
 ## -remarks
-
-
 
 <i>ProtocolDirectOidRequestComplete</i> is an optional function. If a protocol driver
     does not use direct OID requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
@@ -198,15 +192,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_DIRECT_OID_REQUEST_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_DIRECT_OID_REQUEST_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
@@ -230,7 +218,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
- 
-
- 
 

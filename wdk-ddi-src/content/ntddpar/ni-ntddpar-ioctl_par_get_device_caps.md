@@ -8,37 +8,37 @@ ms.assetid: 6446d667-1a35-4055-b9e7-41d372df9db2
 ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_GET_DEVICE_CAPS IOCTL"]
 ms.keywords: IOCTL_PAR_GET_DEVICE_CAPS, IOCTL_PAR_GET_DEVICE_CAPS control code [Parallel Ports], cisspd_ea215140-7641-4554-bf95-362942d13143.xml, ntddpar/IOCTL_PAR_GET_DEVICE_CAPS, parports.ioctl_par_get_device_caps
-f1_keywords:
- - "ntddpar/IOCTL_PAR_GET_DEVICE_CAPS"
- - "IOCTL_PAR_GET_DEVICE_CAPS"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddpar.h
-api_name:
-- IOCTL_PAR_GET_DEVICE_CAPS
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
+f1_keywords:
+ - IOCTL_PAR_GET_DEVICE_CAPS
+ - ntddpar/IOCTL_PAR_GET_DEVICE_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddpar.h
+api_name:
+ - IOCTL_PAR_GET_DEVICE_CAPS
 ---
 
 # IOCTL_PAR_GET_DEVICE_CAPS IOCTL
@@ -49,9 +49,8 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 
 [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
+
 ## -description
-
-
 
 The IOCTL_PAR_GET_DEVICE_CAPS request does the following:
 
@@ -67,51 +66,27 @@ Returns the operating protocols that the parallel device supports
 </ul>
 For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a USHORT buffer that the client allocates to input and output mode information. The request sets the input buffer to a bitwise OR of the modes that the parallel port bus driver must not use with a parallel device.
 
-
 ### -input-buffer-length
 
 The length of a USHORT.
-
 
 ### -output-buffer
 
 <b>AssociatedIrp.SystemBuffer</b> points to the USHORT buffer that the parallel port bus driver uses to output mode information. The parallel port bus driver sets the buffer to indicate which operating protocols the parallel device supports.
 
-
 ### -output-buffer-length
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a USHORT.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -126,7 +101,6 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than the size, in bytes, of a USHORT.
 
-
 ## -see-also
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
@@ -134,11 +108,4 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than the
 
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
-
-
-
- 
-
- 
-
 

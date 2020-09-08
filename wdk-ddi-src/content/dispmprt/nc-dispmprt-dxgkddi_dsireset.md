@@ -34,13 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_DSIRESET
 f1_keywords:
- - dispmprt//DXGKDDI_DSIRESET
  - DXGKDDI_DSIRESET
+ - dispmprt/DXGKDDI_DSIRESET
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_DSIRESET callback function
+
 
 ## -description
 
@@ -85,3 +86,4 @@ The output fields will be propagated back to the output buffer of the IOCTL.
 [*DxgkDdiSetTimingsFromVidPn*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_settimingsfromvidpn)
 
 [IOCTL_MIPI_DSI_RESET]()
+

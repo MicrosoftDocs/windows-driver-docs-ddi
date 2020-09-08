@@ -8,9 +8,6 @@ ms.assetid: 8040db26-0405-4dd3-87c5-b89d812549b5
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols interface"]
 ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], IDebugSymbols interface [Windows Debugging],described, IDebugSymbols_4046a7ad-b8ed-4a10-991e-f7d63f9e35d0.xml, dbgeng/IDebugSymbols, debugger.idebugsymbols
-f1_keywords:
- - "dbgeng/IDebugSymbols"
- - "IDebugSymbols"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols
+ - dbgeng/IDebugSymbols
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols
 ---
 
 # IDebugSymbols interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -58,15 +55,9 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols</b> interface i
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: ebc98e65-5d11-4c3d-aea1-dfad1434c093
 ms.date: 05/02/2018
 keywords: ["NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure"]
 ms.keywords: "*PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, netvista.ndis_miniport_offload_block_list, tcp_chim_struct_34a99dea-527f-421e-a3a7-92a7c1f7d503.xml"
-f1_keywords:
- - "ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST"
- - "NDIS_MINIPORT_OFFLOAD_BLOCK_LIST"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
 targetos: Windows
 req.typenames: NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, *PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+f1_keywords:
+ - _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+ - ndischimney/_NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+ - PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+ - ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+ - NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+ - ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
 ---
 
 # _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure
@@ -46,18 +50,13 @@ req.typenames: NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, *PNDIS_MINIPORT_OFFLOAD_BLOCK_L
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure is the basic building block of a TCP chimney offload
   state tree. An offload state tree can contain one or more NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
   structures.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -219,7 +218,6 @@ Specifies all of the TCP state information, including the constant, cached, and 
 
 Reserved for filter drivers.
 
-
 ### -field NextBlock
 
 A pointer to the next NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the offload state layer
@@ -229,7 +227,6 @@ A pointer to the next NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at the offload 
      <b>NextBlock</b> pointers are always at the same layer of the offload state. A 
      <b>NextBlock</b> value of <b>NULL</b> indicates that there is no additional next
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure at this level.
-
 
 ### -field DependentBlockList
 
@@ -261,11 +258,7 @@ A
      <b>DependentBlockList</b> value of <b>NULL</b> indicates that there is no dependent
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
 
-
 ### -field _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
-
- 
-
 
 ### -field Status
 
@@ -448,11 +441,9 @@ The path MTU for the TCP connection is larger than the offload target supports.
 
 Query, update, invalidate, or terminate offload: Not an allowed status value.
 
-
 ### -field NdisReserved
 
 Reserved for use by NDIS.
-
 
 ### -field MiniportOffloadContext
 
@@ -466,7 +457,6 @@ A pointer to a memory location into which the offload target writes a PVOID valu
      <b>MiniportOffloadContext</b> member itself is <b>NULL</b>, the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure is a
      placeholder in the offload state tree.
 
-
 ### -field NdisOffloadHandle
 
 The handle that the offload target supplies in subsequent calls to the 
@@ -476,36 +466,30 @@ The handle that the offload target supplies in subsequent calls to the
      NdisTcpOffloadReceiveHandler</a> function when making an indication on the offload state associated
      with this NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
 
-
 ### -field ProtocolReserved
 
 Reserved for use by protocol drivers, which can use this area for their own purposes. Offload
      targets must not modify this value.
-
 
 ### -field MiniportReserved
 
 Reserved for use by offload targets, which can use this area for their own purposes, such as
      queuing up the offload state associated with the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
 
-
 ### -field ImReserved
 
 Reserved for use by intermediate drivers, which can use this area for their own purposes. Offload
      targets must not modify this value.
-
 
 ### -field Scratch
 
 The offload target can use this area for internal tracking. The information in this area is valid
      only while the offload target has ownership of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST.
 
-
 ### -field SourceHandle
 
 This member is not significant for an offload target. An offload target must not modify this
      member.
-
 
 ### -field PortNumber
 
@@ -514,7 +498,6 @@ A port number that identifies a miniport adapter port. To assign a miniport adap
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter. Use the default port if the miniport driver has
      not allocated ports for the specified adapter.
-
 
 ### -field NetBufferListChain
 
@@ -547,10 +530,7 @@ An offload target can pass outstanding send data to the host stack when terminat
      connection that is being terminated, it must specify a <b>NULL</b> value for the 
      <b>NetBufferListChain</b> member.
 
-
 ## -remarks
-
-
 
 NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures can be linked together to build the framework of a TCP
     chimney 
@@ -655,13 +635,7 @@ Before completing an initiate offload, query offload, update offload, invalidate
     offload operation, an offload target must write the completion status to the 
     <b>Status</b> member of each NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in the state tree.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_initiate_offload_handler">MiniportInitiateOffload</a>
 
@@ -752,7 +726,4 @@ Before completing an initiate offload, query offload, update offload, invalidate
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
- 
-
- 
 

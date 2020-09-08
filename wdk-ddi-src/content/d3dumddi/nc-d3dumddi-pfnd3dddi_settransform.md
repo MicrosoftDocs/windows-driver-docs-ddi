@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetTransform"
- - "SetTransform"
+ - PFND3DDDI_SETTRANSFORM
+ - d3dumddi/PFND3DDDI_SETTRANSFORM
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETTRANSFORM callback function
+
 
 ## -description
 

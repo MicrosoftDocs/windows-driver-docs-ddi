@@ -8,9 +8,6 @@ ms.assetid: 0a47ea47-590c-4395-b38e-d1f1fb1929e1
 ms.date: 02/26/2018
 keywords: ["WdfFdoInitSetEventCallbacks function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_3a3fbec9-836c-422e-a921-654fa4866989.xml, WdfFdoInitSetEventCallbacks, WdfFdoInitSetEventCallbacks method, kmdf.wdffdoinitseteventcallbacks, wdf.wdffdoinitseteventcallbacks, wdffdo/WdfFdoInitSetEventCallbacks
-f1_keywords:
- - "wdffdo/WdfFdoInitSetEventCallbacks"
- - "WdfFdoInitSetEventCallbacks"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfFdoInitSetEventCallbacks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfFdoInitSetEventCallbacks
+ - wdffdo/WdfFdoInitSetEventCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfFdoInitSetEventCallbacks
 ---
 
 # WdfFdoInitSetEventCallbacks function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfFdoInitSetEventCallbacks</b> method registers a framework-based function driver's event callback functions, for a specified device.
 
-
 ## -parameters
 
+### -param DeviceInit 
 
-
-
-### -param DeviceInit [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
+### -param FdoEventCallbacks 
 
-### -param FdoEventCallbacks [in]
-
+[in]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/ns-wdffdo-_wdf_fdo_event_callbacks">WDF_FDO_EVENT_CALLBACKS</a> structure.
 
-
 ## -remarks
-
-
 
 Before calling <b>WdfFdoInitSetEventCallbacks</b>, the driver must allocate a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/ns-wdffdo-_wdf_fdo_event_callbacks">WDF_FDO_EVENT_CALLBACKS</a> structure and fill in the structure with pointers to the driver's event callback functions.
 
@@ -97,15 +90,7 @@ WdfFdoInitSetEventCallbacks(
                             );
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdf_fdo_event_callbacks_init">WDF_FDO_EVENT_CALLBACKS_INIT</a>
- 
-
- 
 

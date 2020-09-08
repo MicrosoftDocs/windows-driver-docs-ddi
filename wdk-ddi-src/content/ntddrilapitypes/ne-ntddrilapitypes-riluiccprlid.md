@@ -8,9 +8,6 @@ ms.assetid: fab3455a-c09f-4a08-a76d-4d80468accd2
 ms.date: 05/02/2018
 keywords: ["RILUICCPRLID enumeration"]
 ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid, ntddrilapitypes/RILUICCPRLID
-f1_keywords:
- - "ntddrilapitypes/RILUICCPRLID"
- - "RILUICCPRLID"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,27 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCPRLID
 targetos: Windows
 req.typenames: RILUICCPRLID
+f1_keywords:
+ - RILUICCPRLID
+ - ntddrilapitypes/RILUICCPRLID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCPRLID
 ---
 
-# RILUICCPRLID enumeration
+# RILUICCPRLID enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 

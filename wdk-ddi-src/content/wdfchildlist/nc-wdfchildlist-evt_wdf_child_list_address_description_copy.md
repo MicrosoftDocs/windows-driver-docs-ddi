@@ -8,9 +8,6 @@ ms.assetid: b73ec39c-8d93-4992-8791-5070a088701a
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY callback function"]
 ms.keywords: DFDeviceObjectChildListRef_9ee2403b-4dcb-41cc-9f53-9e96f6f41c4f.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY callback, EvtChildListAddressDescriptionCopy, EvtChildListAddressDescriptionCopy callback function, kmdf.evtchildlistaddressdescriptioncopy, wdf.evtchildlistaddressdescriptioncopy, wdfchildlist/EvtChildListAddressDescriptionCopy
-f1_keywords:
- - "wdfchildlist/EvtChildListAddressDescriptionCopy"
- - "EvtChildListAddressDescriptionCopy"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WdfChildlist.h
-api_name:
-- EvtChildListAddressDescriptionCopy
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY
+ - wdfchildlist/EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WdfChildlist.h
+api_name:
+ - EvtChildListAddressDescriptionCopy
 ---
 
 # EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY callback function
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtChildListAddressDescriptionCopy</i> event callback function copies a child address description from one specified location to another.
 
-
 ## -parameters
 
+### -param ChildList 
 
-
-
-### -param ChildList [in]
-
+[in]
 A handle to a framework child-list object.
 
+### -param SourceAddressDescription 
 
-### -param SourceAddressDescription [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies the source location of the child address description.
 
+### -param DestinationAddressDescription 
 
-### -param DestinationAddressDescription [out]
-
+[out]
 A pointer to a WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure that identifies the destination location of the child address description.
 
-
 ## -remarks
-
-
 
 If a bus driver is using <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">dynamic enumeration</a>, it can register an  <i>EvtChildListAddressDescriptionCopy</i> callback function by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetdefaultchildlistconfig">WdfFdoInitSetDefaultChildListConfig</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistcreate">WdfChildListCreate</a>.
 
@@ -132,14 +125,7 @@ If your driver supplies an <i>EvtChildListAddressDescriptionCopy</i> callback fu
 
 For more information about dynamic enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a><u>.</u>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nc-wdfchildlist-evt_wdf_child_list_address_description_cleanup">EvtChildListAddressDescriptionCleanup</a>
 
@@ -170,7 +156,4 @@ For more information about dynamic enumeration, see <a href="https://docs.micros
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetdefaultchildlistconfig">WdfFdoInitSetDefaultChildListConfig</a>
- 
-
- 
 

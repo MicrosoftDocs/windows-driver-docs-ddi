@@ -8,9 +8,6 @@ ms.assetid: 48bda241-18b0-44c2-8e8b-7d3ecaad8a05
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_USBDEVICE_ADDRESS callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_ADDRESS, EVT_UCX_USBDEVICE_ADDRESS callback, EvtUcxUsbDeviceAddress, EvtUcxUsbDeviceAddress callback function [Buses], PEVT_UCX_USBDEVICE_ADDRESS, PEVT_UCX_USBDEVICE_ADDRESS callback function pointer [Buses], buses.evt_ucx_usbdevice_address, ucxusbdevice/EvtUcxUsbDeviceAddress
-f1_keywords:
- - "ucxusbdevice/PEVT_UCX_USBDEVICE_ADDRESS"
- - "PEVT_UCX_USBDEVICE_ADDRESS"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ucxusbdevice.h
-api_name:
-- PEVT_UCX_USBDEVICE_ADDRESS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCX_USBDEVICE_ADDRESS
+ - ucxusbdevice/EVT_UCX_USBDEVICE_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ucxusbdevice.h
+api_name:
+ - PEVT_UCX_USBDEVICE_ADDRESS
 ---
 
 # EVT_UCX_USBDEVICE_ADDRESS callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation that UCX calls to address the USB device.
-
 
 ## -parameters
 
+### -param UcxController 
 
-
-
-### -param UcxController [in]
-
+[in]
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_address">USBDEVICE_ADDRESS</a>.
 
-
 ## -remarks
-
-
 
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
 
@@ -105,12 +98,7 @@ UsbDevice_EvtUcxUsbDeviceAddress(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
 
@@ -121,7 +109,4 @@ UsbDevice_EvtUcxUsbDeviceAddress(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdeviceinitseteventcallbacks">UcxUsbDeviceInitSetEventCallbacks</a>
- 
-
- 
 

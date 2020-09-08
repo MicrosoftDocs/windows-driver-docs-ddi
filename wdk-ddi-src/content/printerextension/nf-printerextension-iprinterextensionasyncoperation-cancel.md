@@ -8,9 +8,6 @@ ms.assetid: B5E1F3C4-A131-411B-BBAB-6E8B69433E13
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionAsyncOperation::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionAsyncOperation interface, IPrinterExtensionAsyncOperation interface [Print Devices],Cancel method, IPrinterExtensionAsyncOperation.Cancel, IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel, printerextension/IPrinterExtensionAsyncOperation::Cancel
-f1_keywords:
- - "printerextension/IPrinterExtensionAsyncOperation.Cancel"
- - "IPrinterExtensionAsyncOperation.Cancel"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionAsyncOperation.Cancel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionAsyncOperation::Cancel
+ - printerextension/IPrinterExtensionAsyncOperation::Cancel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionAsyncOperation.Cancel
 ---
 
 # IPrinterExtensionAsyncOperation::Cancel
@@ -46,36 +46,18 @@ req.typenames:
 
 ## -description
 
-
 Cancels the asynchronous operation.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 This method guarantees that the callback object will not be invoked. No other form of status is provided, such as a way to check to see if the operation has been canceled.
 Also, note that this method does not wait for the cancellation to be processed - it returns immediately.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation">IPrinterExtensionAsyncOperation</a>
- 
-
- 
 

@@ -8,13 +8,10 @@ ms.assetid: 1e731975-13f8-4b5d-93de-714f62e9591f
 ms.date: 05/03/2018
 keywords: ["IWiaDrvItem::GetItemName"]
 ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, GetItemName, GetItemName method [Imaging Devices], GetItemName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetItemName method, IWiaDrvItem.GetItemName, IWiaDrvItem::GetItemName, image.iwiadrvitem_getitemname, wiamindr_lh/IWiaDrvItem::GetItemName
-f1_keywords:
- - "wiamindr_lh/IWiaDrvItem.GetItemName"
- - "IWiaDrvItem.GetItemName"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaDrvItem.GetItemName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaDrvItem::GetItemName
+ - wiamindr_lh/IWiaDrvItem::GetItemName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaDrvItem.GetItemName
 ---
 
 # IWiaDrvItem::GetItemName
+
 
 ## -description
 
@@ -57,7 +58,7 @@ pbstrItemName [out, optional]
 
 #### - pbstrItemName [out, optional]
 
-Points to a memory location that will receive the address of the string containing the item name. 
+Points to a memory location that will receive the address of the string containing the item name.
 
 ## -returns
 
@@ -72,3 +73,4 @@ If there is enough memory available, the method allocates a string containing th
 [IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
 [IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname)
+

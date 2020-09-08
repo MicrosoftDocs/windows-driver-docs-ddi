@@ -8,9 +8,6 @@ ms.assetid: d9569b4b-ad71-46dd-b421-8493f595f030
 ms.date: 02/26/2018
 keywords: ["WdfDeviceRemoveDependentUsageDeviceObject function"]
 ms.keywords: DFDeviceObjectGeneralRef_22cf19f5-c56f-430f-a6a1-d15af92eb41b.xml, WdfDeviceRemoveDependentUsageDeviceObject, WdfDeviceRemoveDependentUsageDeviceObject method, kmdf.wdfdeviceremovedependentusagedeviceobject, wdf.wdfdeviceremovedependentusagedeviceobject, wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject
-f1_keywords:
- - "wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject"
- - "WdfDeviceRemoveDependentUsageDeviceObject"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceRemoveDependentUsageDeviceObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceRemoveDependentUsageDeviceObject
+ - wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceRemoveDependentUsageDeviceObject
 ---
 
 # WdfDeviceRemoveDependentUsageDeviceObject function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDeviceRemoveDependentUsageDeviceObject</b> method indicates that a specified device no longer depends on another device when the specified device is used to store <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_special_file_type">special files</a>. 
-
+The <b>WdfDeviceRemoveDependentUsageDeviceObject</b> method indicates that a specified device no longer depends on another device when the specified device is used to store <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_special_file_type">special files</a>.
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param DependentDevice 
 
-### -param DependentDevice [in]
-
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that identifies a device that <i>Device</i> depends on.
 
-
 ## -remarks
-
-
 
 Your driver can call <b>WdfDeviceRemoveDependentUsageDeviceObject</b> to remove a device dependency that a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceadddependentusagedeviceobject">WdfDeviceAddDependentUsageDeviceObject</a> created.
 
@@ -88,15 +81,7 @@ status = WdfDeviceRemoveDependentUsageDeviceObject(
                                                 );
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceadddependentusagedeviceobject">WdfDeviceAddDependentUsageDeviceObject</a>
- 
-
- 
 

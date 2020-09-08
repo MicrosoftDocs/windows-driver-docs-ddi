@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetMemberType
 title: IDebugHostType::GetMemberType (dbgmodel.h)
-description: For types which are pointer-to-member (as indicated by a type kind of TypeMemberPointer), the GetMemberType method returns the class the pointer is a pointer-to-member of. 
+description: For types which are pointer-to-member (as indicated by a type kind of TypeMemberPointer), the GetMemberType method returns the class the pointer is a pointer-to-member of.
 ms.assetid: baa26552-7b8d-444f-984a-51e9af4c4336
 ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetMemberType"]
-f1_keywords:
- - "dbgmodel/IDebugHostType.GetMemberType"
- - "IDebugHostType.GetMemberType"
 ms.keywords: IDebugHostType::GetMemberType, GetMemberType, IDebugHostType.GetMemberType, IDebugHostType::GetMemberType, IDebugHostType.GetMemberType
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostType.GetMemberType
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostType::GetMemberType
+ - dbgmodel/IDebugHostType::GetMemberType
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostType.GetMemberType
 ---
 
 # IDebugHostType::GetMemberType
@@ -44,15 +44,16 @@ ms.custom: RS5
 
 ## -description
 
-For types which are pointer-to-member (as indicated by a type kind of TypeMemberPointer), the GetMemberType method returns the class the pointer is a pointer-to-member of. 
+For types which are pointer-to-member (as indicated by a type kind of TypeMemberPointer), the GetMemberType method returns the class the pointer is a pointer-to-member of.
 
 ## -parameters
 
 ### -param memberType
+
 The class that the pointer is a pointer-to-member of will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -77,3 +78,4 @@ if (SUCCEEDED(spModule->FindTypeByName(L"int (MyClass::*)(int)", &spType)))
 ## -see-also
 
 [IDebugHostType interface](nn-dbgmodel-idebughosttype.md)
+

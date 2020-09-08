@@ -8,9 +8,6 @@ ms.assetid: 10d08fe7-13ab-4bdb-ab91-bac3822de8ee
 ms.date: 04/23/2018
 keywords: ["StreamClassCompleteRequestAndMarkQueueReady function"]
 ms.keywords: StreamClassCompleteRequestAndMarkQueueReady, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices], strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, stream.streamclasscompleterequestandmarkqueueready, strmini/StreamClassCompleteRequestAndMarkQueueReady
-f1_keywords:
- - "strmini/StreamClassCompleteRequestAndMarkQueueReady"
- - "StreamClassCompleteRequestAndMarkQueueReady"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Stream.lib
-- Stream.dll
-api_name:
-- StreamClassCompleteRequestAndMarkQueueReady
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StreamClassCompleteRequestAndMarkQueueReady
+ - strmini/StreamClassCompleteRequestAndMarkQueueReady
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Stream.lib
+ - Stream.dll
+api_name:
+ - StreamClassCompleteRequestAndMarkQueueReady
 ---
 
 # StreamClassCompleteRequestAndMarkQueueReady function
@@ -47,42 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>StreamClassCompleteRequestAndMarkQueueReady</b> routine completes a request, and signals the class driver that the minidriver is ready to receive a new request of the same type.
-
 
 ## -parameters
 
+### -param Srb 
 
-
-
-### -param Srb [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a> that the minidriver has completed processing.
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 This call is equivalent to calling <b>StreamClass</b><i>Xxx</i><b>Notification</b> twice, once to signal that the request is completed, and once to signal that the minidriver is ready for the next request of that type.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>
 
@@ -93,7 +75,4 @@ This call is equivalent to calling <b>StreamClass</b><i>Xxx</i><b>Notification</
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification">StreamClassStreamNotification</a>
- 
-
- 
 

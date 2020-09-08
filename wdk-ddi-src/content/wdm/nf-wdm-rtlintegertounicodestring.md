@@ -8,9 +8,6 @@ ms.assetid: d9c82a97-a8fb-4c23-aa9c-23711d98fd8b
 ms.date: 04/30/2018
 keywords: ["RtlIntegerToUnicodeString function"]
 ms.keywords: RtlIntegerToUnicodeString, RtlIntegerToUnicodeString routine [Kernel-Mode Driver Architecture], k109_2ed50455-f426-4072-be25-cab15c4c79cc.xml, kernel.rtlintegertounicodestring, wdm/RtlIntegerToUnicodeString
-f1_keywords:
- - "wdm/RtlIntegerToUnicodeString"
- - "RtlIntegerToUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- Ntdll.dll
-api_name:
-- RtlIntegerToUnicodeString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIntegerToUnicodeString
+ - wdm/RtlIntegerToUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - Ntdll.dll
+api_name:
+ - RtlIntegerToUnicodeString
 ---
 
 # RtlIntegerToUnicodeString function
@@ -47,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlIntegerToUnicodeString</b> routine converts an unsigned integer value to a null-terminated string of one or more Unicode characters in the specified base.
-
 
 ## -parameters
 
+### -param Value 
 
+[in]
+Specifies the ULONG value to convert.
 
+### -param Base 
 
-### -param Value [in]
-
-Specifies the ULONG value to convert. 
-
-
-### -param Base [in, optional]
-
+[in, optional]
 Specifies the base to use when converting <i>Value</i> to a string. The possible values are:
 
 <table>
@@ -111,17 +107,13 @@ Decimal
 </td>
 </tr>
 </table>
- 
 
+### -param String 
 
-### -param String [in, out]
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result. 
-
+[in, out]
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result.
 
 ## -returns
-
-
 
 <b>RtlIntegerToUnicodeString</b> returns an NTSTATUS value. Possible return values include:
 
@@ -164,15 +156,8 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlappendunicodestringtostring">RtlAppendUnicodeStringToString</a>
 
@@ -182,8 +167,5 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

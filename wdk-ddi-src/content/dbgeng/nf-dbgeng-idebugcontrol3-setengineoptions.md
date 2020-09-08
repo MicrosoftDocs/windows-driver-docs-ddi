@@ -8,9 +8,6 @@ ms.assetid: ff9008d7-1de9-4414-8197-2710fd11747e
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::SetEngineOptions"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetEngineOptions method, IDebugControl2 interface [Windows Debugging],SetEngineOptions method, IDebugControl2::SetEngineOptions, IDebugControl3 interface [Windows Debugging],SetEngineOptions method, IDebugControl3.SetEngineOptions, IDebugControl3::SetEngineOptions, IDebugControl::SetEngineOptions, IDebugControl_bcc66264-b955-480d-b610-5080386354c9.xml, SetEngineOptions, SetEngineOptions method [Windows Debugging], SetEngineOptions method [Windows Debugging],IDebugControl interface, SetEngineOptions method [Windows Debugging],IDebugControl2 interface, SetEngineOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetEngineOptions, dbgeng/IDebugControl3::SetEngineOptions, dbgeng/IDebugControl::SetEngineOptions, debugger.setengineoptions
-f1_keywords:
- - "dbgeng/IDebugControl.SetEngineOptions"
- - "IDebugControl.SetEngineOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.SetEngineOptions
-- IDebugControl2.SetEngineOptions
-- IDebugControl3.SetEngineOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::SetEngineOptions
+ - dbgeng/IDebugControl3::SetEngineOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.SetEngineOptions
+ - IDebugControl2.SetEngineOptions
+ - IDebugControl3.SetEngineOptions
 ---
 
 # IDebugControl3::SetEngineOptions
@@ -48,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetEngineOptions</b> method changes the engine's options.
-
 
 ## -parameters
 
+### -param Options 
 
-
-
-### -param Options [in]
-
+[in]
 Specifies the engine's new options.  <i>Options</i> is a bit-set; it will replace the existing symbol options.  For a description of the engine options, see Remarks.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -85,14 +78,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method will set the engine's options to those specified in <i>Options</i>.  Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addengineoptions">AddEngineOptions</a>, any symbol options that are not listed in the <i>Options</i> bit-set  will be removed.
 
@@ -333,15 +320,8 @@ Disables upload of Software Quality Metrics (SQM) data.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addengineoptions">AddEngineOptions</a>
 
@@ -364,7 +344,4 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removeengineoptions">RemoveEngineOptions</a>
- 
-
- 
 

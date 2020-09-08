@@ -8,9 +8,6 @@ ms.assetid: c60284ff-ebbd-455d-949c-e6d31ce65d5d
 ms.date: 02/15/2018
 keywords: ["UPSGetState function"]
 ms.keywords: UPSGetState, UPSGetState function [Battery Devices], UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, battery.upsgetstate, upssvc/UPSGetState
-f1_keywords:
- - "upssvc/UPSGetState"
- - "UPSGetState"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Upssvc.h
-api_name:
-- UPSGetState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UPSGetState
+ - upssvc/UPSGetState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Upssvc.h
+api_name:
+ - UPSGetState
 ---
 
 # UPSGetState function
@@ -46,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>UPSGetState</b> function returns the operational state of the UPS.
 
-
 ## -returns
-
-
 
 The <b>UPSGetState</b> function returns one of the following DWORD values:
 
@@ -106,16 +102,8 @@ Communication with the UPS is not currently established.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This is a nonblocking call. 
-
-
+This is a nonblocking call.
 

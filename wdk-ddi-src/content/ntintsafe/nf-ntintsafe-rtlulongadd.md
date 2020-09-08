@@ -8,9 +8,6 @@ ms.assetid: 03E5C0DB-E245-43E2-80C0-0C1D67673038
 ms.date: 04/30/2018
 keywords: ["RtlULongAdd function"]
 ms.keywords: RtlULongAdd, RtlULongAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongadd, ntintsafe/RtlULongAdd
-f1_keywords:
- - "ntintsafe/RtlULongAdd"
- - "RtlULongAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongAdd
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongAdd
+ - ntintsafe/RtlULongAdd
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongAdd
 ---
 
 # RtlULongAdd function
@@ -46,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Adds two values of type <b>ULONG</b>.
-
 
 ## -parameters
 
+### -param ulAugend 
 
-
-
-### -param ulAugend [in]
-
+[in]
 The first value in the equation.
 
+### -param ulAddend 
 
-### -param ulAddend [in]
-
+[in]
 The value to add to <i>ulAugend</i>.
 
+### -param pulResult 
 
-### -param pulResult [out]
-
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

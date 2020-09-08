@@ -8,9 +8,6 @@ ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.date: 05/03/2018
 keywords: ["IStiUSD::Initialize"]
 ms.keywords: IStiUSD interface [Imaging Devices],Initialize method, IStiUSD.Initialize, IStiUSD::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStiUSD interface, image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize
-f1_keywords:
- - "stiusd/IStiUSD.Initialize"
- - "IStiUSD.Initialize"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- stiusd.h
-api_name:
-- IStiUSD.Initialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IStiUSD::Initialize
+ - stiusd/IStiUSD::Initialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - stiusd.h
+api_name:
+ - IStiUSD.Initialize
 ---
 
 # IStiUSD::Initialize
+
 
 ## -description
 
@@ -111,3 +112,4 @@ STDMETHODIMP MyUSDDevice::Initialize(
     return hres;
 }
 ```
+

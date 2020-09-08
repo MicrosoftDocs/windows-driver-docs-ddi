@@ -8,9 +8,6 @@ ms.assetid: ebcbec0c-c5ee-4af1-be3c-36c730f82f4e
 ms.date: 04/30/2018
 keywords: ["WRITE_REGISTER_USHORT function"]
 ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml, kernel.write_register_ushort, wdm/WRITE_REGISTER_USHORT
-f1_keywords:
- - "miniport/WRITE_REGISTER_USHORT"
- - "WRITE_REGISTER_USHORT"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
@@ -28,32 +25,30 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- WRITE_REGISTER_USHORT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WRITE_REGISTER_USHORT
+ - miniport/WRITE_REGISTER_USHORT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - WRITE_REGISTER_USHORT
 ---
 
-# WRITE_REGISTER_USHORT function
+# WRITE_REGISTER_USHORT function (miniport.h)
 
 
 ## -description
 
-
 The <b>WRITE_REGISTER_USHORT</b> routine writes a USHORT value to the specified address.
 
-
 ## -parameters
-
-
-
 
 #### - Register [in]
 
@@ -62,14 +57,9 @@ Pointer to the register, which must be a mapped range in memory space.
 
 #### - Value [in]
 
-Specifies a USHORT value to be written to the register. 
-
+Specifies a USHORT value to be written to the register.
 
 ## -remarks
 
-
-
-Callers of <b>WRITE_REGISTER_USHORT</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory. 
-
-
+Callers of <b>WRITE_REGISTER_USHORT</b> can be running at any IRQL, assuming the <i>Register</i> is resident, mapped device memory.
 

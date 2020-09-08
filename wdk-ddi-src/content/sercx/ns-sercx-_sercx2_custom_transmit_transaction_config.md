@@ -8,9 +8,6 @@ ms.assetid: 40655056-8E29-4A53-812D-5F006A95C827
 ms.date: 04/23/2018
 keywords: ["SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG structure"]
 ms.keywords: "*PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, 2/PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, 2/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG structure pointer [Serial Ports], SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG structure [Serial Ports], _SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, serports.sercx2_custom_transmit_transaction_config"
-f1_keywords:
- - "sercx/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG"
- - "SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 2.0\Sercx.h
-api_name:
-- SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
 targetos: Windows
 req.typenames: SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, *PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+f1_keywords:
+ - _SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+ - sercx/_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+ - PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+ - sercx/PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+ - SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+ - sercx/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
 ---
 
 # _SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG structure
@@ -46,48 +50,31 @@ req.typenames: SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, *PSERCX2_CUSTOM_TRANSM
 
 ## -description
 
-
 The <b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</b> structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new custom-transmit-transaction object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
-
 ### -field EvtSerCx2CustomTransmitTransactionInitialize
 
 A pointer to the driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_custom_transmit_transaction_initialize">EvtSerCx2CustomTransmitTransactionInitialize</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
-
 
 ### -field EvtSerCx2CustomTransmitTransactionStart
 
 A pointer to the driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_custom_transmit_transaction_start">EvtSerCx2CustomTransmitTransactionStart</a> event callback function. This member must point to a valid function.
 
-
 ### -field EvtSerCx2CustomTransmitTransactionCleanup
 
 A pointer to the driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup">EvtSerCx2CustomTransmitTransactionCleanup</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomTransmitTransactionInitialize</b>, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2_custom_transmit_transaction_config_init">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT</a> function to initialize this structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_custom_transmit_transaction_cleanup">EvtSerCx2CustomTransmitTransactionCleanup</a>
 
@@ -106,7 +93,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-se
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a>
- 
-
- 
 

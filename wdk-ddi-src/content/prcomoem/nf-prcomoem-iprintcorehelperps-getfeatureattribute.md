@@ -8,9 +8,6 @@ ms.assetid: bf5d9081-20c8-43da-a71f-f089c2885b49
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelperPS::GetFeatureAttribute"]
 ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetFeatureAttribute method, IPrintCoreHelperPS.GetFeatureAttribute, IPrintCoreHelperPS::GetFeatureAttribute, prcomoem/IPrintCoreHelperPS::GetFeatureAttribute, print.iprintcorehelperps_getfeatureattribute, print_unidrv-pscript_allplugins_19fb9a4e-5314-486b-a1cc-0b9c4bcc690a.xml
-f1_keywords:
- - "prcomoem/IPrintCoreHelperPS.GetFeatureAttribute"
- - "IPrintCoreHelperPS.GetFeatureAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreHelperPS.GetFeatureAttribute
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreHelperPS::GetFeatureAttribute
+ - prcomoem/IPrintCoreHelperPS::GetFeatureAttribute
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreHelperPS.GetFeatureAttribute
 ---
 
 # IPrintCoreHelperPS::GetFeatureAttribute
@@ -46,37 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>IPrintCoreHelperPS::GetFeatureAttribute</b> method retrieves the feature attribute list or the value of a specific feature attribute.
-
 
 ## -parameters
 
+### -param pszFeatureKeyword 
 
-
-
-### -param pszFeatureKeyword [in]
-
+[in]
 A pointer to a caller-supplied buffer that contains an ANSI string that specifies the feature keyword to query for. This value can be obtained from a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumfeatures">IPrintCoreHelperPS::EnumFeatures</a>.
 
+### -param pszAttribute 
 
-### -param pszAttribute [in]
+[in]
+A pointer to a caller-supplied buffer that contains an ANSI string that specifies the attribute that was requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all of the supported feature attribute names instead of specifying a specific feature attribute name.
 
-A pointer to a caller-supplied buffer that contains an ANSI string that specifies the attribute that was requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all of the supported feature attribute names instead of specifying a specific feature attribute name. 
+### -param pdwDataType 
 
-
-### -param pdwDataType [out]
-
+[out]
 A pointer to a variable that receives a value that specifies the data type of the requested attribute. This value is an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration type, which is defined in printoem.h.
-
 
 ### -param ppbData
 
+### -param pcbSize 
 
-
-
-### -param pcbSize [out]
-
+[out]
 A pointer to a variable that receives the size, in bytes, of the buffer that is pointed to by the <i>pbData</i> parameter. 
 
 
@@ -84,10 +77,7 @@ A pointer to a variable that receives the size, in bytes, of the buffer that is 
 
 A pointer to a callee-allocated buffer containing the requested data. Upon completion of this method, the caller does not need to release this buffer.
 
-
 ## -returns
-
-
 
 <b>IPrintCoreHelperPS::GetFeatureAttribute</b> should return one of the following values. 
 
@@ -145,26 +135,14 @@ This value might also mean that the method was called with <i>pbData</i> set to 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <b>IPrintCoreHelperPS::GetFeatureAttribute</b> is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbSize</i> set to the number of bytes that are needed for the list of all of the supported attribute names for the feature. If this method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size that was specified in *<i>pcbSize</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration type) and <i>pbData</i> pointing to a NULL-delimited list of all of the supported attribute names for the feature. This list is terminated with two null characters.
 
 For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-getfeatureattribute">Using GetFeatureAttribute</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperps">IPrintCoreHelperPS</a>
 
@@ -175,7 +153,4 @@ For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getoptionattribute">IPrintCoreHelperPS::GetOptionAttribute</a>
- 
-
- 
 

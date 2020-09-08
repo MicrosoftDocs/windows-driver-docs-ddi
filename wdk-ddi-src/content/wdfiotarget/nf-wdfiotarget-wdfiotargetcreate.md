@@ -8,9 +8,6 @@ ms.assetid: 21a2fa9c-24c1-4964-aaa7-96ac86b8c078
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetCreate function"]
 ms.keywords: DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate, WdfIoTargetCreate method, kmdf.wdfiotargetcreate, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate
-f1_keywords:
- - "wdfiotarget/WdfIoTargetCreate"
- - "WdfIoTargetCreate"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoTargetCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoTargetCreate
+ - wdfiotarget/WdfIoTargetCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoTargetCreate
 ---
 
 # WdfIoTargetCreate function
@@ -49,35 +49,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetCreate</b> method creates a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets">remote I/O target</a> for a specified device.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param IoTargetAttributes 
 
-### -param IoTargetAttributes [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the I/O target object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param IoTarget 
 
-### -param IoTarget [out]
-
+[out]
 A pointer to a location that receives a handle to an I/O target object.
 
-
 ## -returns
-
-
 
 <b>WdfIoTargetCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -128,14 +121,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 After a driver calls <b>WdfIoTargetCreate</b>, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen">WdfIoTargetOpen</a> before it can send requests to the remote I/O target. 
 
@@ -154,19 +140,11 @@ For a code example that uses <b>WdfIoTargetCreate</b>, see <a href="https://docs
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen">WdfIoTargetOpen</a>
- 
-
- 
 

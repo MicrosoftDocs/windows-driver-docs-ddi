@@ -7,9 +7,6 @@ ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.date: 04/03/2020
 keywords: ["PORT_CONFIGURATION_INFORMATION structure"]
 ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices]"
-f1_keywords:
- - "storport/PORT_CONFIGURATION_INFORMATION"
- - "PORT_CONFIGURATION_INFORMATION"
 req.header: storport.h
 req.include-header: Srb.h, Storport.h, Strmini.h
 req.target-type: Windows
@@ -27,20 +24,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- srb.h
-api_name:
-- PORT_CONFIGURATION_INFORMATION
 targetos: Windows
 req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
+f1_keywords:
+ - _PORT_CONFIGURATION_INFORMATION
+ - storport/_PORT_CONFIGURATION_INFORMATION
+ - PPORT_CONFIGURATION_INFORMATION
+ - storport/PPORT_CONFIGURATION_INFORMATION
+ - PORT_CONFIGURATION_INFORMATION
+ - storport/PORT_CONFIGURATION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - srb.h
+api_name:
+ - PORT_CONFIGURATION_INFORMATION
 ---
 
-# _PORT_CONFIGURATION_INFORMATION structure
+# _PORT_CONFIGURATION_INFORMATION structure (storport.h)
+
 
 ## -description
 
@@ -411,3 +416,4 @@ The Storport driver allocates and initializes this structure, supplies as much H
 [**StorPortInitialize**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize)
 
 [**StorPortSetDeviceQueueDepth**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetdevicequeuedepth)
+

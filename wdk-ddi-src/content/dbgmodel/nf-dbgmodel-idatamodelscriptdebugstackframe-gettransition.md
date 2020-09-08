@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.GetTransition
 title: IDataModelScriptDebugStackFrame::GetTransition (dbgmodel.h)
-description: If a given stack frame is a transition point as determined by the IsTransition method, the GetTransition method returns information about the transition. 
+description: If a given stack frame is a transition point as determined by the IsTransition method, the GetTransition method returns information about the transition.
 ms.assetid: 8fbefa8a-9675-485e-8065-062ad7ad3a50
 ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugStackFrame::GetTransition"]
-f1_keywords:
- - "dbgmodel/IDataModelScriptDebugStackFrame.GetTransition"
- - "IDataModelScriptDebugStackFrame.GetTransition"
 ms.keywords: IDataModelScriptDebugStackFrame::GetTransition, GetTransition, IDataModelScriptDebugStackFrame.GetTransition, IDataModelScriptDebugStackFrame::GetTransition, IDataModelScriptDebugStackFrame.GetTransition
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelScriptDebugStackFrame.GetTransition
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelScriptDebugStackFrame::GetTransition
+ - dbgmodel/IDataModelScriptDebugStackFrame::GetTransition
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelScriptDebugStackFrame.GetTransition
 ---
 
 # IDataModelScriptDebugStackFrame::GetTransition
@@ -62,23 +62,25 @@ An example of a non-contiguous transition stack (where all properties are extens
 
 In the second case, it is entirely possible that the debugger for the imagined JavaScript debugger can see get firstProperty and get secondProperty without visibility into get intermediateProperty because it is an entirely different script provider (an imagined Python one here). The script debugger may indicate in the GetTransition method that the transition was from Script1 to Script2 as a non-contiguous transition. 
 
-If the overall debug interface is capable of stitching together information for the imagined Python portion, it will do so. The imagined JavaScript provider simply indicates the discontinuity. 
-
+If the overall debug interface is capable of stitching together information for the imagined Python portion, it will do so. The imagined JavaScript provider simply indicates the discontinuity.
 
 ## -parameters
 
 ### -param transitionScript
+
 The debugger returns the previous script here. The previous script is the one which called into the script represented by the stack segment containing this IDataModelStackDebugFrame.
 
-
 ### -param isTransitionContiguous
+
 An indication of whether the transition is contiguous or not is returned here.
 
-
 ## -returns
+
 This method returns HRESULT which indicates success or failure.
+
 ## -remarks
 
 ## -see-also
 
 [IDataModelScriptDebugStackFrame interface](nn-dbgmodel-idatamodelscriptdebugstackframe.md)
+

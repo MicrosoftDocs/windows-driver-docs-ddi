@@ -8,9 +8,6 @@ ms.assetid: 6c6f3824-5e04-45df-8128-f3778aaa3636
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3::GetCurrentProcessUpTime"]
 ms.keywords: GetCurrentProcessUpTime, GetCurrentProcessUpTime method [Windows Debugging], GetCurrentProcessUpTime method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessUpTime method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessUpTime method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessUpTime method, IDebugSystemObjects2::GetCurrentProcessUpTime, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessUpTime method, IDebugSystemObjects3.GetCurrentProcessUpTime, IDebugSystemObjects3::GetCurrentProcessUpTime, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessUpTime method, IDebugSystemObjects4::GetCurrentProcessUpTime, IDebugSystemObjects_cf0611a9-8535-4e53-ae13-32d46b887954.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessUpTime, dbgeng/IDebugSystemObjects3::GetCurrentProcessUpTime, dbgeng/IDebugSystemObjects4::GetCurrentProcessUpTime, debugger.getcurrentprocessuptime
-f1_keywords:
- - "dbgeng/IDebugSystemObjects2.GetCurrentProcessUpTime"
- - "IDebugSystemObjects2.GetCurrentProcessUpTime"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSystemObjects2.GetCurrentProcessUpTime
-- IDebugSystemObjects3.GetCurrentProcessUpTime
-- IDebugSystemObjects4.GetCurrentProcessUpTime
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects3::GetCurrentProcessUpTime
+ - dbgeng/IDebugSystemObjects3::GetCurrentProcessUpTime
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSystemObjects2.GetCurrentProcessUpTime
+ - IDebugSystemObjects3.GetCurrentProcessUpTime
+ - IDebugSystemObjects4.GetCurrentProcessUpTime
 ---
 
 # IDebugSystemObjects3::GetCurrentProcessUpTime
@@ -48,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetCurrentProcessUpTime</b> method returns the length of time the current process has been running.
-
 
 ## -parameters
 
+### -param UpTime 
 
-
-
-### -param UpTime [out]
-
+[out]
 Receives the number of seconds the current process has been running.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -85,7 +78,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

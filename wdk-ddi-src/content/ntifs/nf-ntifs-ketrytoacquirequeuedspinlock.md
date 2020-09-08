@@ -8,9 +8,6 @@ ms.assetid: e598c402-ef60-4f6c-924d-fc37114c3432
 ms.date: 04/16/2018
 keywords: ["KeTryToAcquireQueuedSpinLock function"]
 ms.keywords: KeTryToAcquireQueuedSpinLock, KeTryToAcquireQueuedSpinLock function [Installable File System Drivers], ifsk.ketrytoacquirequeuedspinlock, keref_754b75bd-31a8-4447-8ebe-3d24855150bf.xml, ntifs/KeTryToAcquireQueuedSpinLock
-f1_keywords:
- - "ntifs/KeTryToAcquireQueuedSpinLock"
- - "KeTryToAcquireQueuedSpinLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- KeTryToAcquireQueuedSpinLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeTryToAcquireQueuedSpinLock
+ - ntifs/KeTryToAcquireQueuedSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - KeTryToAcquireQueuedSpinLock
 ---
 
 # KeTryToAcquireQueuedSpinLock function
@@ -46,25 +46,15 @@ req.typenames:
 
 ## -description
 
-
-The <b>KeTryToAcquireQueuedSpinLock</b> routine is reserved for system use. 
-
+The <b>KeTryToAcquireQueuedSpinLock</b> routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param Number
 
 <p>Reserved.</p>
 
-
 ### -param OldIrql
 
 Reserved.
-
-
-
-
 

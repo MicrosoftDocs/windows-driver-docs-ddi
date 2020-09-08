@@ -8,9 +8,6 @@ ms.assetid: 3e4aa7fb-0dd4-4c45-ab5e-21342e9fb4d8
 ms.date: 05/02/2018
 keywords: ["NDIS_MEDIUM enumeration"]
 ms.keywords: "*PNDIS_MEDIUM, NDIS_MEDIUM, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], NdisMedium1394, NdisMedium802_3, NdisMedium802_5, NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, NdisMediumBpc, NdisMediumCoWan, NdisMediumDix, NdisMediumFddi, NdisMediumIP, NdisMediumInfiniBand, NdisMediumIrda, NdisMediumLocalTalk, NdisMediumLoopback, NdisMediumMax, NdisMediumNative802_11, NdisMediumTunnel, NdisMediumWan, NdisMediumWirelessWan, PNDIS_MEDIUM, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MEDIUM, netvista.ndis_medium, ntddndis/NDIS_MEDIUM, ntddndis/NdisMedium1394, ntddndis/NdisMedium802_3, ntddndis/NdisMedium802_5, ntddndis/NdisMediumArcnet878_2, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMediumAtm, ntddndis/NdisMediumBpc, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumDix, ntddndis/NdisMediumFddi, ntddndis/NdisMediumIP, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumIrda, ntddndis/NdisMediumLocalTalk, ntddndis/NdisMediumLoopback, ntddndis/NdisMediumMax, ntddndis/NdisMediumNative802_11, ntddndis/NdisMediumTunnel, ntddndis/NdisMediumWan, ntddndis/NdisMediumWirelessWan, ntddndis/PNDIS_MEDIUM, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml"
-f1_keywords:
- - "ntddndis/NDIS_MEDIUM"
- - "NDIS_MEDIUM"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_MEDIUM
 targetos: Windows
 req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
+f1_keywords:
+ - _NDIS_MEDIUM
+ - ntddndis/_NDIS_MEDIUM
+ - PNDIS_MEDIUM
+ - ntddndis/PNDIS_MEDIUM
+ - NDIS_MEDIUM
+ - ntddndis/NDIS_MEDIUM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_MEDIUM
 ---
 
 # _NDIS_MEDIUM enumeration
@@ -46,19 +50,13 @@ req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
 
 ## -description
 
-
 The <b>NDIS_MEDIUM</b> enumeration type identifies the medium types that NDIS drivers support.
 
-
 ## -enum-fields
-
-
-
 
 ### -field NdisMedium802_3
 
 Specifies an Ethernet (802.3) network.
-
 
 ### -field NdisMedium802_5
 
@@ -80,16 +78,13 @@ Specifies a wide area network. This type covers various forms of point-to-point 
      well as variant address/header formats that must be negotiated between the protocol driver and the
      underlying driver after the binding is established.
 
-
 ### -field NdisMediumLocalTalk
 
 Specifies a LocalTalk network.
 
-
 ### -field NdisMediumDix
 
 Specifies an Ethernet network for which the drivers use the DIX Ethernet header format.
-
 
 ### -field NdisMediumArcnetRaw
 
@@ -114,7 +109,6 @@ Specifies an ATM network. Connection-oriented client protocol drivers can bind t
      <b>NdisMedium802_5</b>, depending on how the LanE driver is configured by the network
      administrator.
 
-
 ### -field NdisMediumWirelessWan
 
 Specifies a wireless network. NDIS 5.X miniport drivers that support wireless LAN (WLAN) or
@@ -127,22 +121,17 @@ Specifies a wireless network. NDIS 5.X miniport drivers that support wireless LA
       be used for Mobile Broadband.</div>
 <div> </div>
 
-
-
 ### -field NdisMediumIrda
 
 Specifies an infrared (IrDA) network.
-
 
 ### -field NdisMediumBpc
 
 Specifies a broadcast PC network.
 
-
 ### -field NdisMediumCoWan
 
 Specifies a wide area network in a connection-oriented environment.
-
 
 ### -field NdisMedium1394
 
@@ -155,31 +144,25 @@ Specifies an IEEE 1394 (fire wire) network.
 
 Specifies an InfiniBand network.
 
-
 ### -field NdisMediumTunnel
 
 Specifies a tunnel network.
-
 
 ### -field NdisMediumNative802_11
 
 Specifies a native IEEE 802.11 network.
 
-
 ### -field NdisMediumLoopback
 
 Specifies an NDIS loopback network.
-
 
 ### -field NdisMediumWiMAX
 
 Specifies an IEEE 802.16 WiMAX network.
 
-
 ### -field NdisMediumIP
 
 Specifies a generic medium that is capable of sending and receiving raw IP packets.
-
 
 ### -field NdisMediumMax
 

@@ -8,9 +8,6 @@ ms.assetid: b0e18e39-2435-4823-aab4-ba52d218294a
 ms.date: 04/23/2018
 keywords: ["KsRegisterAggregatedClientUnknown function"]
 ms.keywords: KsRegisterAggregatedClientUnknown, KsRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml, ks/KsRegisterAggregatedClientUnknown, stream.ksregisteraggregatedclientunknown
-f1_keywords:
- - "ks/KsRegisterAggregatedClientUnknown"
- - "KsRegisterAggregatedClientUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsRegisterAggregatedClientUnknown
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsRegisterAggregatedClientUnknown
+ - ks/KsRegisterAggregatedClientUnknown
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsRegisterAggregatedClientUnknown
 ---
 
 # KsRegisterAggregatedClientUnknown function
@@ -47,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 In a manner very similar to COM, the <b>KsRegisterAggregatedClientUnknown</b> function aggregates two objects: the specified AVStream object and a client unknown object.
-
 
 ## -parameters
 
+### -param Object 
 
-
-
-### -param Object [in]
-
+[in]
 A pointer to the AVStream object to become the outer unknown interface.
 
+### -param ClientUnknown 
 
-### -param ClientUnknown [in]
-
+[in]
 A pointer to an <b>IUnknown</b> interface.
-
 
 ## -returns
 
-
-
 Returns the newly created aggregate object.
 
-
-
-
 ## -remarks
-
-
 
 The client unknown becomes the inner part of the aggregate object, and the AVStream object becomes the outer unknown. When an interface is queried that AVStream does not handle, AVStream passes the query is to the inner aggregate.
 
@@ -87,13 +75,7 @@ There are four wrappers to <b>KsRegisterAggregatedClientUnknown</b> that perform
 
 Minidrivers do not need to be running in a C++ environment to use this function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteraggregatedclientunknown">KsDeviceRegisterAggregatedClientUnknown</a>
 
@@ -112,7 +94,4 @@ Minidrivers do not need to be running in a C++ environment to use this function.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisteraggregatedclientunknown">KsPinRegisterAggregatedClientUnknown</a>
- 
-
- 
 

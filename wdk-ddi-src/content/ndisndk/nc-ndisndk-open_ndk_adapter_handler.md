@@ -8,9 +8,6 @@ ms.assetid: 85888B9A-669C-478F-9318-EE9821BC3AF3
 ms.date: 05/02/2018
 keywords: ["OPEN_NDK_ADAPTER_HANDLER callback function"]
 ms.keywords: OPEN_NDK_ADAPTER_HANDLER, OPEN_NDK_ADAPTER_HANDLER callback, OpenNdkAdapterHandler, OpenNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/OpenNdkAdapterHandler, netvista.open_ndk_adapter_handler
-f1_keywords:
- - "ndisndk/OpenNdkAdapterHandler"
- - "OpenNdkAdapterHandler"
 req.header: ndisndk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndisndk.h
-api_name:
-- OpenNdkAdapterHandler
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OPEN_NDK_ADAPTER_HANDLER
+ - ndisndk/OPEN_NDK_ADAPTER_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndisndk.h
+api_name:
+ - OpenNdkAdapterHandler
 ---
 
 # OPEN_NDK_ADAPTER_HANDLER callback function
@@ -46,24 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <i>OpenNDKAdapterHandler</i> (<i>OPEN_NDK_ADAPTER_HANDLER</i>) function opens an NDK adapter instance on an NDK-capable NDIS miniport adapter.
-
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 A handle to a context area that the miniport driver allocated in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for an NDIS miniport adapter.
 
+### -param Parameters 
 
-
-
-### -param Parameters [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/ns-ndisndk-_ndis_open_ndk_adapter_parameters">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a> structure that defines the input parameters to open an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a> instance.
 
 The  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/ns-ndisndk-_ndis_open_ndk_adapter_parameters">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a> structure must specify the  NDKPI major version, and the lowest NDKPI minor version that the NDK consumer can support. 
@@ -87,12 +81,9 @@ A pointer to a variable that holds the pointer to an <a href="https://docs.micro
 
 #### - ppNdkAdapter
 
-A pointer to a variable that holds the pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a> structure. On return from  <i>OPEN_NDK_ADAPTER_HANDLER</i>, the <b>NDK_ADAPTER</b> structure referenced by  <i>ppNdkAdapter</i> identifies the newly opened NDK adapter instance. 
-
+A pointer to a variable that holds the pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a> structure. On return from  <i>OPEN_NDK_ADAPTER_HANDLER</i>, the <b>NDK_ADAPTER</b> structure referenced by  <i>ppNdkAdapter</i> identifies the newly opened NDK adapter instance.
 
 ## -returns
-
-
 
 <i>OPEN_NDK_ADAPTER_HANDLER</i> can return one of the following values:
 
@@ -146,26 +137,14 @@ NDIS was unable to open the NDK adapter due to insufficient resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>OPEN_NDK_ADAPTER_HANDLER</i> opens an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a> instance on an NDK-capable NDIS miniport adapter.
 Multiple <b>NDK_ADAPTER</b> instances can be created on the same NDIS miniport adapter. Each <b>NDK_ADAPTER</b> instance contains a pointer to a table of dispatch  functions that implement the NDK application programming interface.
 The miniport driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-close_ndk_adapter_handler">CLOSE_NDK_ADAPTER_HANDLER</a> function to close the  NDK adapter instance and release the associated resources.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-close_ndk_adapter_handler">CLOSE_NDK_ADAPTER_HANDLER</a>
 
@@ -188,7 +167,4 @@ The miniport driver calls the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
- 
-
- 
 

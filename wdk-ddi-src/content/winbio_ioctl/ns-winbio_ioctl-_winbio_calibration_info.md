@@ -8,9 +8,6 @@ ms.assetid: 12ea0460-30c1-4ce0-9a3b-c59a71493fe7
 ms.date: 02/20/2018
 keywords: ["WINBIO_CALIBRATION_INFO structure"]
 ms.keywords: "*PWINBIO_CALIBRATION_INFO, PWINBIO_CALIBRATION_INFO, PWINBIO_CALIBRATION_INFO structure pointer [Biometric Devices], WINBIO_CALIBRATION_INFO, WINBIO_CALIBRATION_INFO structure [Biometric Devices], _WINBIO_CALIBRATION_INFO, biometric.winbio_calibration_info, biometric_ref_15065b26-3c1d-49f5-8546-b8962f848072.xml, winbio_ioctl/PWINBIO_CALIBRATION_INFO, winbio_ioctl/WINBIO_CALIBRATION_INFO"
-f1_keywords:
- - "winbio_ioctl/WINBIO_CALIBRATION_INFO"
- - "WINBIO_CALIBRATION_INFO"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winbio_ioctl.h
-api_name:
-- WINBIO_CALIBRATION_INFO
 targetos: Windows
 req.typenames: WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO
+f1_keywords:
+ - _WINBIO_CALIBRATION_INFO
+ - winbio_ioctl/_WINBIO_CALIBRATION_INFO
+ - PWINBIO_CALIBRATION_INFO
+ - winbio_ioctl/PWINBIO_CALIBRATION_INFO
+ - WINBIO_CALIBRATION_INFO
+ - winbio_ioctl/WINBIO_CALIBRATION_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winbio_ioctl.h
+api_name:
+ - WINBIO_CALIBRATION_INFO
 ---
 
 # _WINBIO_CALIBRATION_INFO structure
@@ -46,19 +50,13 @@ req.typenames: WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_calibrate">IOCTL_BIOMETRIC_CALIBRATE</a> IOCTL returns the WINBIO_CALIBRATION_INFO structure as output.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PayloadSize
 
 The total size of the payload.  This includes the fixed length structure and any variable data at the end.
-
 
 ### -field WinBioHresult
 

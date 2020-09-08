@@ -8,9 +8,6 @@ ms.assetid: 491217e9-8cc1-47de-af37-92db377a8c2d
 ms.date: 04/20/2018
 keywords: ["OEMDevMode function"]
 ms.keywords: OEMDevMode, OEMDevMode function [Print Devices], print.oemdevmode, print_obsoletefunctions_7a402f29-f8ab-48cc-951f-89b21f45aebd.xml, printoem/OEMDevMode
-f1_keywords:
- - "printoem/OEMDevMode"
- - "OEMDevMode"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMDevMode
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMDevMode
+ - printoem/OEMDevMode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMDevMode
 ---
 
 # OEMDevMode function
@@ -46,16 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
 
-
-
-
 ### -param dwMode
-
 
 ### -param pOemDMParam
 

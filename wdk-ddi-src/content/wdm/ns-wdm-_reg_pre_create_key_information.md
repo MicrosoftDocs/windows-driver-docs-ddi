@@ -8,9 +8,6 @@ ms.assetid: 9b7240b5-429b-4bf2-aa7b-373b63bb79ae
 ms.date: 04/30/2018
 keywords: ["REG_PRE_CREATE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_PRE_CREATE_KEY_INFORMATION, *PREG_PRE_OPEN_KEY_INFORMATION, PREG_PRE_CREATE_KEY_INFORMATION, PREG_PRE_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_PRE_CREATE_KEY_INFORMATION, REG_PRE_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_PRE_OPEN_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_PRE_CREATE_KEY_INFORMATION, kernel.reg_pre_open_key_information, kstruct_d_dc0e8cf3-5084-4d54-8767-50b4ff043da8.xml, wdm/PREG_PRE_CREATE_KEY_INFORMATION, wdm/REG_PRE_CREATE_KEY_INFORMATION, wdm/REG_PRE_OPEN_KEY_INFORMATION"
-f1_keywords:
- - "wdm/REG_PRE_CREATE_KEY_INFORMATION"
- - "REG_PRE_CREATE_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- REG_PRE_CREATE_KEY_INFORMATION
 targetos: Windows
 req.typenames: REG_PRE_CREATE_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION, *PREG_PRE_CREATE_KEY_INFORMATION, *PREG_PRE_OPEN_KEY_INFORMATION
+f1_keywords:
+ - _REG_PRE_CREATE_KEY_INFORMATION
+ - wdm/_REG_PRE_CREATE_KEY_INFORMATION
+ - PREG_PRE_CREATE_KEY_INFORMATION
+ - wdm/PREG_PRE_CREATE_KEY_INFORMATION
+ - REG_PRE_CREATE_KEY_INFORMATION
+ - wdm/REG_PRE_CREATE_KEY_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - REG_PRE_CREATE_KEY_INFORMATION
 ---
 
 # _REG_PRE_CREATE_KEY_INFORMATION structure
@@ -46,44 +50,27 @@ req.typenames: REG_PRE_CREATE_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION, *PR
 
 ## -description
 
-
 The <b>REG_PRE_OPEN_KEY_INFORMATION</b> structure contains the name of a registry key that is about to be opened.
-
 
 ## -struct-fields
 
-
-
-
 ### -field CompleteName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the complete path of the registry key.
-
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the complete path of the registry key.
 
 ## -remarks
 
-
-
 For more information about registry filtering operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
 

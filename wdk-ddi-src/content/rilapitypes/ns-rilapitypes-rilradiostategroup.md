@@ -8,9 +8,6 @@ ms.assetid: e3ad8454-0e23-48fd-a6ef-c9257dc4816d
 ms.date: 05/02/2018
 keywords: ["RILRADIOSTATEGROUP structure"]
 ms.keywords: "*LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroup, ntddrilapitypes/RILRADIOSTATEGROUP"
-f1_keywords:
- - "rilapitypes/RILRADIOSTATEGROUP"
- - "RILRADIOSTATEGROUP"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,41 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILRADIOSTATEGROUP
 targetos: Windows
 req.typenames: RILRADIOSTATEGROUP, *LPRILRADIOSTATEGROUP
+f1_keywords:
+ - RILRADIOSTATEGROUP
+ - rilapitypes/RILRADIOSTATEGROUP
+ - LPRILRADIOSTATEGROUP
+ - rilapitypes/LPRILRADIOSTATEGROUP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILRADIOSTATEGROUP
 ---
 
-# RILRADIOSTATEGROUP structure
+# RILRADIOSTATEGROUP structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwGroupId
-
 
 ### -field dwGroupType
 
-
 ### -field dwGroupFlags
-
 
 ### -field wszGroupText
 

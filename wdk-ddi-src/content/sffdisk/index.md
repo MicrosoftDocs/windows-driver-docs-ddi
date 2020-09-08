@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: sd
+f1_keywords:
+ - sffdisk
+ - sffdisk/sffdisk
 ---
 
 # Sffdisk.h header
@@ -16,7 +19,7 @@ tech.root: sd
 
 ## -description
 
-
 This header is used by sd. For more information, see:
 
 - [Secure Digital (SD) card](../_sd/index.md)
+

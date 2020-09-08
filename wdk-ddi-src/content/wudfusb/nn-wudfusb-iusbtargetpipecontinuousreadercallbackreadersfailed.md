@@ -8,9 +8,6 @@ ms.assetid: d0b68976-f7aa-4b0d-b6bb-258ad2c2e506
 ms.date: 02/26/2018
 keywords: ["IUsbTargetPipeContinuousReaderCallbackReadersFailed interface"]
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadersFailed, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, IUsbTargetPipeContinuousReaderCallbackReadersFailed interface,described, UMDFUSBref_c38e329c-f04a-4675-ad3b-25677fddedf9.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed, wdf.iusbtargetpipecontinuousreadercallbackreadersfailed, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed
-f1_keywords:
- - "wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed"
- - "IUsbTargetPipeContinuousReaderCallbackReadersFailed"
 req.header: wudfusb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wudfusb.h
-api_name:
-- IUsbTargetPipeContinuousReaderCallbackReadersFailed
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IUsbTargetPipeContinuousReaderCallbackReadersFailed
+ - wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wudfusb.h
+api_name:
+ - IUsbTargetPipeContinuousReaderCallbackReadersFailed
 ---
 
 # IUsbTargetPipeContinuousReaderCallbackReadersFailed interface
@@ -46,14 +46,10 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 <b>IUsbTargetPipeContinuousReaderCallbackReadersFailed</b> is a driver-supplied interface.
-
-
-
 
 ## -inheritance
 

@@ -7,9 +7,6 @@ ms.assetid: ebac0d06-53cb-4a84-9af9-f8aa9a6eccb6
 ms.date: 05/10/2018
 keywords: ["D3DKMTSetContextInProcessSchedulingPriority function"]
 ms.keywords: D3DKMTSetContextInProcessSchedulingPriority, D3DKMTSetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTSetContextInProcessSchedulingPriority, display.d3dkmtsetcontextinprocessschedulingpriority
-f1_keywords:
- - "d3dkmthk/D3DKMTSetContextInProcessSchedulingPriority"
- - "D3DKMTSetContextInProcessSchedulingPriority"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -24,24 +21,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTSetContextInProcessSchedulingPriority
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTSetContextInProcessSchedulingPriority
+ - d3dkmthk/D3DKMTSetContextInProcessSchedulingPriority
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTSetContextInProcessSchedulingPriority
 ---
 
 # D3DKMTSetContextInProcessSchedulingPriority function
+
 
 ## -description
 
@@ -61,9 +62,10 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The scheduling priority was successfully set.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetcontextinprocessschedulingpriority">D3DKMTGetContextInProcessSchedulingPriority</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setcontextinprocessschedulingpriority">D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
+

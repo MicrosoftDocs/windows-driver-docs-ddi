@@ -10,40 +10,40 @@ ms.date: 10/30/2019
 ms.topic: function
 ms.keywords: RtlQueryPackageIdentity returns the associated full package name, if any, of a token object. It can optionally also return the package relative application name, and whether an application is considered packaged.
 req.header: ntifs.h
-f1_keywords:
- - "ntifs/RtlQueryPackageIdentity"
- - "RtlQueryPackageIdentity"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Available on Windows 8 and later versions
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- 
-api_location: 
-- 
-api_name: 
-- RtlQueryPackageIdentity
-product: 
-- Windows
 targetos: Windows
-
+f1_keywords:
+ - RtlQueryPackageIdentity
+ - ntifs/RtlQueryPackageIdentity
+topic_type:
+ - apiref
+api_type:
+ - 
+api_location:
+ - 
+api_name:
+ - RtlQueryPackageIdentity
+product:
+ - Windows
 ---
 
 # RtlQueryPackageIdentity function
+
 
 ## -description
 
@@ -89,3 +89,4 @@ Pointer to a value that receives a BOOLEAN flag indicating whether the applicati
 ## -see-also
 
 [**RtlQueryPackageIdentityEx**](nf-ntifs-rtlquerypackageidentityex.md)
+

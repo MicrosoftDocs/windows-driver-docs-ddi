@@ -8,9 +8,6 @@ ms.assetid: 1bd1ec2a-8b07-4843-84b6-6b651453328c
 ms.date: 02/26/2018
 keywords: ["WdfRequestMarkCancelable function"]
 ms.keywords: DFRequestObjectRef_29a4ad0c-ce28-4f4b-b015-90b067feaeec.xml, WdfRequestMarkCancelable, WdfRequestMarkCancelable method, kmdf.wdfrequestmarkcancelable, wdf.wdfrequestmarkcancelable, wdfrequest/WdfRequestMarkCancelable
-f1_keywords:
- - "wdfrequest/WdfRequestMarkCancelable"
- - "WdfRequestMarkCancelable"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestMarkCancelable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestMarkCancelable
+ - wdfrequest/WdfRequestMarkCancelable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestMarkCancelable
 ---
 
 # WdfRequestMarkCancelable function
@@ -49,26 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestMarkCancelable</b> method enables cancellation of a specified I/O request.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
+### -param EvtRequestCancel 
 
-### -param EvtRequestCancel [in]
-
+[in]
 A pointer to a driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a> callback function, which the framework calls if it cancels the I/O request.
-
 
 ## -remarks
 
@@ -176,12 +171,7 @@ MyEvtRequestCancel(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a>
 
@@ -200,7 +190,4 @@ MyEvtRequestCancel(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestunmarkcancelable">WdfRequestUnmarkCancelable</a>
- 
-
- 
 

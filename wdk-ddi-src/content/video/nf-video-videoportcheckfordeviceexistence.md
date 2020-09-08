@@ -8,9 +8,6 @@ ms.assetid: 2e0480a5-39d3-4977-9c0f-508bcf6c29a8
 ms.date: 05/10/2018
 keywords: ["VideoPortCheckForDeviceExistence function"]
 ms.keywords: VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence function [Display Devices], VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, display.videoportcheckfordeviceexistence, video/VideoPortCheckForDeviceExistence
-f1_keywords:
- - "video/VideoPortCheckForDeviceExistence"
- - "VideoPortCheckForDeviceExistence"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortCheckForDeviceExistence
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortCheckForDeviceExistence
+ - video/VideoPortCheckForDeviceExistence
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortCheckForDeviceExistence
 ---
 
 # VideoPortCheckForDeviceExistence function
@@ -46,58 +46,55 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortCheckForDeviceExistence</b> function determines whether the specified PCI device exists in the system.
-
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param VendorId 
 
-### -param VendorId [in]
-
+[in]
 Specifies the vendor ID.
 
+### -param DeviceId 
 
-### -param DeviceId [in]
-
+[in]
 Specifies the device ID.
 
+### -param RevisionId 
 
-### -param RevisionId [in]
-
+[in]
 Specifies the revision ID.
 
+### -param SubVendorId 
 
-### -param SubVendorId [in]
-
+[in]
 Specifies the subvendor ID.
 
+### -param SubSystemId 
 
-### -param SubSystemId [in]
-
+[in]
 Specifies the subsystem ID.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Is a set of flags that determine whether the <i>RevisionID</i> and <i>SubSystemID</i> parameters should be used in checking for the new device. This parameter can be the logical OR of the following values:
 
 |Value|Meaning|
 |--- |--- |
 |CDE_USE_REVISION|Use the value in the RevisionID parameter in checking for the new device.|
 |CDE_USE_SUBSYSTEM_IDS|Use the value in the SubSystemID parameter in checking for the new device.|
- 
+
 ## -returns
 
 <b>VideoPortCheckForDeviceExistence</b> returns <b>TRUE</b> if the device exists in the system, and <b>FALSE</b> otherwise.
 
 ## -remarks
 
-For more information about PCI identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>. 
-
-
+For more information about PCI identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.
 

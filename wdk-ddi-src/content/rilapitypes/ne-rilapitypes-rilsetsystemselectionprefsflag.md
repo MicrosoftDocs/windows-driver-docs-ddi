@@ -8,9 +8,6 @@ ms.assetid: 081f4a23-43d8-4ad4-806c-1b6322e057d5
 ms.date: 05/02/2018
 keywords: ["RILSETSYSTEMSELECTIONPREFSFLAG enumeration"]
 ms.keywords: RILSETSYSTEMSELECTIONPREFSFLAG, RILSETSYSTEMSELECTIONPREFSFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_SSSPFLAG_ALL, RIL_SSSPFLAG_APPLYIMMEDIATELY, RIL_SSSPFLAG_ENFORCESCAN, netvista.rilsetsystemselectionprefsflag, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG, ntddrilapitypes/RIL_SSSPFLAG_ALL, ntddrilapitypes/RIL_SSSPFLAG_APPLYIMMEDIATELY, ntddrilapitypes/RIL_SSSPFLAG_ENFORCESCAN
-f1_keywords:
- - "rilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG"
- - "RILSETSYSTEMSELECTIONPREFSFLAG"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,41 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSETSYSTEMSELECTIONPREFSFLAG
 targetos: Windows
 req.typenames: RILSETSYSTEMSELECTIONPREFSFLAG
+f1_keywords:
+ - RILSETSYSTEMSELECTIONPREFSFLAG
+ - rilapitypes/RILSETSYSTEMSELECTIONPREFSFLAG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSETSYSTEMSELECTIONPREFSFLAG
 ---
 
-# RILSETSYSTEMSELECTIONPREFSFLAG enumeration
+# RILSETSYSTEMSELECTIONPREFSFLAG enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_SSSPFLAG_NONE
-
 
 ### -field RIL_SSSPFLAG_APPLYIMMEDIATELY
 
-
 ### -field RIL_SSSPFLAG_ENFORCESCAN
-
 
 ### -field RIL_SSSPFLAG_ALL
 

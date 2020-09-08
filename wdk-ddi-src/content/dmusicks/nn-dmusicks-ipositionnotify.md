@@ -8,9 +8,6 @@ ms.assetid: DB18BD9D-4BAA-48D8-BA30-E4F7EF4CDEE5
 ms.date: 05/08/2018
 keywords: ["IPositionNotify interface"]
 ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], IPositionNotify interface [Audio Devices],described, audio.ipositionnotify, dmusicks/IPositionNotify
-f1_keywords:
- - "dmusicks/IPositionNotify"
- - "IPositionNotify"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusicks.h
-api_name:
-- IPositionNotify
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPositionNotify
+ - dmusicks/IPositionNotify
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusicks.h
+api_name:
+ - IPositionNotify
 ---
 
 # IPositionNotify interface
@@ -46,8 +46,5 @@ req.typenames:
 
 ## -description
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-ipositionnotify-positionnotify">PositionNotify</a>
-
 

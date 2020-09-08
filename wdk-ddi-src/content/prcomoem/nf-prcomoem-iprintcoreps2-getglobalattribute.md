@@ -8,9 +8,6 @@ ms.assetid: a834cc10-eb59-4560-add3-e93f8292324b
 ms.date: 04/20/2018
 keywords: ["IPrintCorePS2::GetGlobalAttribute"]
 ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],GetGlobalAttribute method, IPrintCorePS2.GetGlobalAttribute, IPrintCorePS2::GetGlobalAttribute, prcomoem/IPrintCorePS2::GetGlobalAttribute, print.iprintcoreps2_getglobalattribute, print_unidrv-pscript_rendering_b9c86e58-8fbf-420a-81bc-a544d73b6aa7.xml
-f1_keywords:
- - "prcomoem/IPrintCorePS2.GetGlobalAttribute"
- - "IPrintCorePS2.GetGlobalAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCorePS2.GetGlobalAttribute
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCorePS2::GetGlobalAttribute
+ - prcomoem/IPrintCorePS2::GetGlobalAttribute
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCorePS2.GetGlobalAttribute
 ---
 
 # IPrintCorePS2::GetGlobalAttribute
@@ -46,53 +46,46 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCorePS2::GetGlobalAttribute</code> method retrieves the global attribute list or the value of a specific global attribute.
-
 
 ## -parameters
 
+### -param pdevobj 
 
-
-
-### -param pdevobj [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 Is reserved and must be set to zero.
 
+### -param pszAttribute 
 
-### -param pszAttribute [in]
-
+[in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying the single attribute requested. If this parameter is <b>NULL</b>, the caller is requesting a list of all supported global attribute names, as opposed to specifying a specific global attribute name.
 
+### -param pdwDataType 
 
-### -param pdwDataType [out]
-
+[out]
 Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
 
+### -param pbData 
 
-### -param pbData [out]
-
+[out]
 Pointer to a caller-supplied buffer that receives the requested data. To simply query for the number of bytes needed to fulfill a request, set this parameter to <b>NULL</b>.
 
+### -param cbSize 
 
-### -param cbSize [in]
-
+[in]
 Specifies the size, in bytes of the buffer pointed to by <i>pbData</i>.
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [out]
-
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the requested data.
 
-
 ## -returns
-
-
 
 This method must return one of the following values.
 
@@ -150,14 +143,8 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported global attribute names. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all supported global attribute names. This list is terminated with two null characters.
 
@@ -167,13 +154,7 @@ This method is supported for any Pscript5 render plug-in.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-getglobalattribute">Using GetGlobalAttribute</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a>
 
@@ -188,7 +169,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-getoptionattribute">IPrintCorePS2::GetOptionAttribute</a>
- 
-
- 
 

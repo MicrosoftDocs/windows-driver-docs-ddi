@@ -8,9 +8,6 @@ ms.assetid: 103796C6-989F-4FE3-A8E6-4B8F5648E521
 ms.date: 02/23/2018
 keywords: ["WppRecorderLogCreate macro"]
 ms.keywords: WppRecorderLogCreate, devtest.wpprecorderlogcreate, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], wpprecorder/imp_WppRecorderLogCreate
-f1_keywords:
- - "wpprecorder/imp_WppRecorderLogCreate"
- - "imp_WppRecorderLogCreate"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -28,33 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wpprecorder.h
-api_name:
-- imp_WppRecorderLogCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WppRecorderLogCreate
+ - wpprecorder/WppRecorderLogCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wpprecorder.h
+api_name:
+ - imp_WppRecorderLogCreate
 ---
 
 # WppRecorderLogCreate macro
 
+
 ## -description
 
 The [WppRecorderLogCreate](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate) method creates a buffer to contain the recorder log.
-
-## -syntax
-
-```cpp
-NTSTATUS WppRecorderLogCreate(
-   CreateParams,
-   RecorderLog
-);
-```
 
 ## -parameters
 
@@ -70,6 +62,15 @@ A handle for the recorder log.
 
 Returns NTSTATUS that indicates if the driver can use the *RecorderLog* handle for logging.
 
+## -syntax
+
+```cpp
+NTSTATUS WppRecorderLogCreate(
+   CreateParams,
+   RecorderLog
+);
+```
+
 ## -remarks
 
 Before calling [WppRecorderLogCreate](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate), allocate a [RECORDER_LOG_CREATE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params) structure and initialize by calling [RECORDER_LOG_CREATE_PARAMS_INIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_log_create_params_init).
@@ -82,3 +83,4 @@ If a successful NTSTATUS is not returned, the driver must use a **RECORDER_LOG**
 
 >[!NOTE]>
 >This method allocates memory for the log buffer from the non-paged pool.
+

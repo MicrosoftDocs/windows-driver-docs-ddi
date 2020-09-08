@@ -8,9 +8,6 @@ ms.assetid: 1755804c-d82f-465d-862f-8a2340516f8e
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback function"]
 ms.keywords: PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS, PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback, ProtocolCoReceiveNetBufferLists, ProtocolCoReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_cebb36c0-45b2-4318-b70d-aae2eada001f.xml, ndis/ProtocolCoReceiveNetBufferLists, netvista.protocolcoreceivenetbufferlists
-f1_keywords:
- - "ndis/ProtocolCoReceiveNetBufferLists"
- - "ProtocolCoReceiveNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCoReceiveNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS
+ - ndis/PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCoReceiveNetBufferLists
 ---
 
 # PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCoReceiveNetBufferLists</i> function processes receive indications from underlying
@@ -55,41 +54,39 @@ The
 
 ## -parameters
 
+### -param ProtocolBindingContext 
 
-
-
-### -param ProtocolBindingContext [in]
-
+[in]
 A handle to a context area that the protocol driver allocated to maintain state information for a
      binding. This handle was passed to NDIS in a previous call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
 
+### -param ProtocolVcContext 
 
-### -param ProtocolVcContext [in]
-
+[in]
 A handle to a protocol driver-allocated context area in which this driver maintains the
      per-virtual connection (VC) run-time state information. A client or stand-alone call manager supplied
      this handle either when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> function or from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
+### -param NetBufferLists 
 
-### -param NetBufferLists [in]
-
+[in]
 A linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
      underlying driver allocated. Each <b>NET_BUFFER_LIST</b> structure is usually associated with one 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
+### -param NumberOfNetBufferLists 
 
-### -param NumberOfNetBufferLists [in]
-
+[in]
 The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures that 
      <i>NetBufferLists</i> specifies.
 
+### -param ReceiveFlags 
 
-### -param ReceiveFlags [in]
-
+[in]
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
      <i>ProtocolCoReceiveNetBufferLists</i> supports the following flags:
@@ -112,10 +109,7 @@ NDIS reclaims ownership of the <a href="https://docs.microsoft.com/windows-hardw
        immediately after the call to 
        <i>ProtocolCoReceiveNetBufferLists</i> returns.
 
-
 ## -remarks
-
-
 
 The 
     <i>ProtocolCoReceiveNetBufferLists</i> function is required for CoNDIS protocol drivers. NDIS calls 
@@ -181,15 +175,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">CoNDIS Protocol Driver Send and Receive Functions</a>
 
@@ -230,7 +218,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_send_net_buffer_lists_complete">ProtocolCoSendNetBufferListsComplete</a>
- 
-
- 
 

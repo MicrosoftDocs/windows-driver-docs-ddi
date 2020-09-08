@@ -8,9 +8,6 @@ ms.assetid: 4d1a7451-8c0f-4df8-85c5-14aaaa9afd94
 ms.date: 05/02/2018
 keywords: ["NdisClCloseCall function"]
 ms.keywords: NdisClCloseCall, NdisClCloseCall function [Network Drivers Starting with Windows Vista], condis_client_ref_6d047338-0482-4d26-8dfa-4c07502fb8a2.xml, ndis/NdisClCloseCall, netvista.ndisclclosecall
-f1_keywords:
- - "ndis/NdisClCloseCall"
- - "NdisClCloseCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisClCloseCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisClCloseCall
+ - ndis/NdisClCloseCall
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisClCloseCall
 ---
 
 # NdisClCloseCall function
@@ -47,49 +47,42 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisClCloseCall</b> requests that a call on the specified VC be torn down.
-
 
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Handle to the VC of the call being closed or disconnected. This handle was supplied by NDIS when
      the VC was originally created with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, whether by the client in
      preparation for making an outgoing call or by the call manager in preparation for dispatching an
      incoming call to the client.
 
+### -param NdisPartyHandle 
 
-### -param NdisPartyHandle [in, optional]
-
+[in, optional]
 Handle to the last party to be dropped on a multipoint VC or <b>NULL</b>. If this is a multipoint VC, the
      client obtained this handle either from a preceding call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>.
 
+### -param Buffer 
 
-### -param Buffer [in, optional]
-
+[in, optional]
 Pointer to a caller-allocated buffer containing any data to be transmitted to the party on the
      remote node when the connection is closed. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 Specifies the size, in bytes, at 
      <i>Buffer</i>, zero if 
      <i>Buffer</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 When 
      <b>NdisClCloseCall</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
@@ -98,12 +91,7 @@ When
      ProtocolClCloseCallComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClCloseCallComplete</i> function when this operation is completed.
 
-
-
-
 ## -remarks
-
-
 
 Clients usually call 
     <b>NdisClCloseCall</b> in any one of the following circumstances:
@@ -213,13 +201,7 @@ After the client releases an
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function is
     called.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
 
@@ -273,7 +255,4 @@ After the client releases an
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_send_net_buffer_lists_complete">
    ProtocolCoSendNetBufferListsComplete</a>
- 
-
- 
 

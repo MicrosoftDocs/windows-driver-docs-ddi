@@ -8,9 +8,6 @@ ms.assetid: 43089473-3255-4016-8d51-f5ad4261bd8d
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::CompleteWithInformation"]
 ms.keywords: CompleteWithInformation, CompleteWithInformation method, CompleteWithInformation method,IWDFIoRequest interface, IWDFIoRequest interface,CompleteWithInformation method, IWDFIoRequest.CompleteWithInformation, IWDFIoRequest::CompleteWithInformation, UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, umdf.iwdfiorequest_completewithinformation, wdf.iwdfiorequest_completewithinformation, wudfddi/IWDFIoRequest::CompleteWithInformation
-f1_keywords:
- - "wudfddi/IWDFIoRequest.CompleteWithInformation"
- - "IWDFIoRequest.CompleteWithInformation"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest.CompleteWithInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest::CompleteWithInformation
+ - wudfddi/IWDFIoRequest::CompleteWithInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest.CompleteWithInformation
 ---
 
 # IWDFIoRequest::CompleteWithInformation
@@ -46,44 +46,31 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CompleteWithInformation</b> method completes a request with the supplied information.
 
-
 ## -parameters
 
+### -param CompletionStatus 
 
+[in]
+A status value to complete the request with.
 
+### -param Information 
 
-### -param CompletionStatus [in]
-
-A status value to complete the request with. 
-
-
-### -param Information [in]
-
+[in]
 Additional driver-supplied information that is related to the I/O operation.
 
 For read, write, and device I/O control operations, the driver should supply the number of bytes that are transferred.
 
-
 ## -remarks
-
-
 
 For more information about completing an I/O request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 For a code example of how to use the <b>CompleteWithInformation</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
 
@@ -94,7 +81,4 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">IWDFIoRequest::Send</a>
- 
-
- 
 

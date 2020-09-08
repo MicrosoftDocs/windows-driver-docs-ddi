@@ -8,9 +8,6 @@ ms.assetid: FA6BEAE9-5D48-463E-A398-518737D78867
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TX_ABORT callback function"]
 ms.keywords: MINIPORT_WDI_TX_ABORT, MINIPORT_WDI_TX_ABORT callback, MiniportWdiTxAbort, MiniportWdiTxAbort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxAbort, netvista.miniportwditxabort
-f1_keywords:
- - "dot11wdi/MiniportWdiTxAbort"
- - "MiniportWdiTxAbort"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiTxAbort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_TX_ABORT
+ - dot11wdi/MINIPORT_WDI_TX_ABORT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiTxAbort
 ---
 
 # MINIPORT_WDI_TX_ABORT callback function
 
 
 ## -description
-
 
 The 
   MiniportWdiTxAbort handler function aborts outstanding TX frames for a given port or peer, which includes initiating the completion of frames owned by the TAL/target. This request is issued to the TAL as part of handling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a> (adapter-wide TX abort), dot11 reset (port-wide abort), and after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_peer_delete_ind">NdisWdiPeerDeleteIndication</a> if WDI is operating in peer queuing mode.
@@ -56,32 +55,27 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 ## -parameters
 
+### -param MiniportTalTxRxContext 
 
-
-
-### -param MiniportTalTxRxContext [in]
-
+[in]
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
+### -param PortId 
 
-### -param PortId [in]
-
+[in]
 The port ID.
 
+### -param PeerId 
 
-### -param PeerId [in]
-
+[in]
 The peer ID.
 
+### -param pWifiStatus 
 
-### -param pWifiStatus [out]
-
+[out]
 Pointer to a status of the MiniportWdiTxAbort, which should be set by the IHV miniport.  See the <i>Remarks</i> section for more information.
 
-
 ## -remarks
-
-
 
 A wildcard may be specified for the <i>PeerId</i> to stop TX on a port.
 
@@ -132,15 +126,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_WDI_TX_ABORT</b> function type is defined in the dot11wdi.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_WDI_TX_ABORT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a>
 
@@ -175,7 +163,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
- 
-
- 
 

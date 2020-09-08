@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnCreateCommandQueue"
- - "pfnCreateCommandQueue"
+ - PFND3D12DDI_CREATECOMMANDQUEUE_0023
+ - d3d12umddi/PFND3D12DDI_CREATECOMMANDQUEUE_0023
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_CREATECOMMANDQUEUE_0023 callback function
+
 
 ## -description
 
@@ -67,7 +68,7 @@ The handle of the command queue for the driver to use when it calls back into th
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 

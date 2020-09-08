@@ -5,68 +5,47 @@ description: The PFND3D12DDI_PRESENT_0051 callback function copies content from 
 ms.assetid: 191033a4-5f8c-409b-9097-a9f096267844
 ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_PRESENT_0051 callback function"]
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_PRESENT_0051"
- - "PFND3D12DDI_PRESENT_0051"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_PRESENT_0051
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - PFND3D12DDI_PRESENT_0051
+ - d3d12umddi/PFND3D12DDI_PRESENT_0051
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_PRESENT_0051
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # PFND3D12DDI_PRESENT_0051 callback function
 
+
 ## -description
 
 The PFND3D12DDI_PRESENT_0051 callback function copies content from source allocations to a primary surface (and sometimes to off-screen system memory allocations).
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_PRESENT_0051 Pfnd3d12ddiPresent0051; 
-
-// Definition
-
-VOID Pfnd3d12ddiPresent0051 
-(
-	D3D12DDI_HCOMMANDLIST Arg1
-	D3D12DDI_HCOMMANDQUEUE Arg2
-	CONST D3D12DDIARG_PRESENT_0001 *
-	D3D12DDI_PRESENT_0051 *
-	D3D12DDI_PRESENT_CONTEXTS_0051 *
-	D3D12DDI_PRESENT_HWQUEUES_0051 *
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -94,11 +73,31 @@ Pointer to a [D3D12DDI_PRESENT_CONTEXTS_0051](ns-d3d12umddi-d3d12ddi_present_con
 
 Pointer to a [D3D12DDI_PRESENT_HWQUEUES_0051](ns-d3d12umddi-d3d12ddi_present_hwqueues_0051.md) structure.
 
+## -prototype
 
+```cpp
+//Declaration
+
+PFND3D12DDI_PRESENT_0051 Pfnd3d12ddiPresent0051; 
+
+// Definition
+
+VOID Pfnd3d12ddiPresent0051 
+(
+	D3D12DDI_HCOMMANDLIST Arg1
+	D3D12DDI_HCOMMANDQUEUE Arg2
+	CONST D3D12DDIARG_PRESENT_0001 *
+	D3D12DDI_PRESENT_0051 *
+	D3D12DDI_PRESENT_CONTEXTS_0051 *
+	D3D12DDI_PRESENT_HWQUEUES_0051 *
+)
+{...}
+
+```
 
 ## -remarks
 
 The PFND3D12DDI_PRESENT_0051 callback function split the output arguments into ones that are relevant for the command queue involved. For software scheduled command queues, the driver provides contexts. For hardware scheduled command queues, the driver provides hardware queues.
 
-
 ## -see-also
+

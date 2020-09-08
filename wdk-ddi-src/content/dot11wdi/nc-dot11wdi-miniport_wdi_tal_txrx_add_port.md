@@ -8,9 +8,6 @@ ms.assetid: D3006A0B-B0E0-4FEA-864A-FA4B75594FB0
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_ADD_PORT callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_ADD_PORT, MINIPORT_WDI_TAL_TXRX_ADD_PORT callback, MiniportWdiTalTxRxAddPort, MiniportWdiTalTxRxAddPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxAddPort, netvista.miniportwditaltxrxaddport
-f1_keywords:
- - "dot11wdi/MiniportWdiTalTxRxAddPort"
- - "MiniportWdiTalTxRxAddPort"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiTalTxRxAddPort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_TAL_TXRX_ADD_PORT
+ - dot11wdi/MINIPORT_WDI_TAL_TXRX_ADD_PORT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiTalTxRxAddPort
 ---
 
 # MINIPORT_WDI_TAL_TXRX_ADD_PORT callback function
 
 
 ## -description
-
 
 The 
   MiniportWdiTalTxRxAddPort handler function notifies the datapath components of the creation of a new virtual port. It is invoked after the completion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-task-create-port">OID_WDI_TASK_CREATE_PORT</a> command and specifies the PortID designated by the target for the port.
@@ -58,28 +57,22 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 ## -parameters
 
+### -param MiniportTalTxRxContext 
 
-
-
-### -param MiniportTalTxRxContext [in]
-
+[in]
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
+### -param PortId 
 
-### -param PortId [in]
-
+[in]
 Port ID designated by the target for the port.
 
+### -param OpMode 
 
-### -param OpMode [in]
-
+[in]
 Default operation mode for the port.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_wdi_data_handlers">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
@@ -102,7 +95,4 @@ Default operation mode for the port.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-port-id">WDI_PORT_ID</a>
- 
-
- 
 

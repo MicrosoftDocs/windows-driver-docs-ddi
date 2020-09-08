@@ -8,9 +8,6 @@ ms.assetid: 88dbdd78-43a4-4ae2-ae49-336a0a621c5c
 ms.date: 05/02/2018
 keywords: ["NdisRawReadPortUshort macro"]
 ms.keywords: NdisRawReadPortUshort, NdisRawReadPortUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_5d9255b3-3679-4cd2-bc07-baa0dc2c684f.xml, ndis/NdisRawReadPortUshort, netvista.ndisrawreadportushort
-f1_keywords:
- - "ndis/NdisRawReadPortUshort"
- - "NdisRawReadPortUshort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisRawReadPortUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisRawReadPortUshort
+ - ndis/NdisRawReadPortUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisRawReadPortUshort
 ---
 
 # NdisRawReadPortUshort macro
@@ -46,42 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisRawReadPortUshort</b> reads a USHORT value from a given I/O port on the NIC.
-
 
 ## -parameters
 
+### -param Port 
 
-
-
-### -param Port [in]
-
+[in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
+### -param Data 
 
-### -param Data [out]
-
+[out]
 Pointer to a caller-supplied variable in which this function returns a USHORT value read in from
      the port.
 
-
 ## -remarks
-
-
 
 <b>NdisRawReadPortUshort</b> runs fast because it need not map a bus-relative I/O port address onto a
     host-dependent logical port address at every call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -104,7 +91,4 @@ Pointer to a caller-supplied variable in which this function returns a USHORT va
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawwriteportushort">NdisRawWritePortUshort</a>
- 
-
- 
 

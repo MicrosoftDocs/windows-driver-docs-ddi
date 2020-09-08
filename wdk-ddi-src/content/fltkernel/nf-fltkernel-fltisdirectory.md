@@ -8,9 +8,6 @@ ms.assetid: a9343e09-0b7b-4ed8-9b30-63ee0b38d13d
 ms.date: 04/16/2018
 keywords: ["FltIsDirectory function"]
 ms.keywords: FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, FltIsDirectory, FltIsDirectory routine [Installable File System Drivers], fltkernel/FltIsDirectory, ifsk.fltisdirectory
-f1_keywords:
- - "fltkernel/FltIsDirectory"
- - "FltIsDirectory"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltIsDirectory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltIsDirectory
+ - fltkernel/FltIsDirectory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltIsDirectory
 ---
 
 # FltIsDirectory function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-A minifilter driver calls the <b>FltIsDirectory</b> routine to determine whether a given file object represents a directory. 
-
+A minifilter driver calls the <b>FltIsDirectory</b> routine to determine whether a given file object represents a directory.
 
 ## -parameters
 
+### -param FileObject 
 
+[in]
+Pointer to an already opened file object.
 
+### -param Instance 
 
-### -param FileObject [in]
+[in]
+Opaque instance pointer for the instance associated with this file object.
 
-Pointer to an already opened file object. 
+### -param IsDirectory 
 
-
-### -param Instance [in]
-
-Opaque instance pointer for the instance associated with this file object. 
-
-
-### -param IsDirectory [out]
-
-Pointer to a caller-supplied Boolean variable. On return, this variable receives <b>TRUE</b> if the file object represents a directory, <b>FALSE</b> otherwise. 
-
+[out]
+Pointer to a caller-supplied Boolean variable. On return, this variable receives <b>TRUE</b> if the file object represents a directory, <b>FALSE</b> otherwise.
 
 ## -returns
-
-
 
 <b>FltIsDirectory</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as the following: 
 
@@ -93,29 +86,15 @@ This error code is returned if the file system does not support stream contexts.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltIsDirectory</b> retrieves the desired information from the filter manager's internal stream context manager. The filter manager caches this information for future queries on this stream.
 
 <div class="alert"><b>Note</b>  This routine can only be called on an opened file object.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/ff547285(v=vs.85)">FsRtlSupportsPerStreamContexts</a>
- 
-
- 
 

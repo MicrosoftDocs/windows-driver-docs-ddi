@@ -8,9 +8,6 @@ ms.assetid: 4b0f4de6-b800-4bc0-ae1d-97d877e3b91e
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetTypeIdWide"]
 ms.keywords: GetTypeIdWide, GetTypeIdWide method [Windows Debugging], GetTypeIdWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetTypeIdWide method, IDebugSymbols3.GetTypeIdWide, IDebugSymbols3::GetTypeIdWide, dbgeng/IDebugSymbols3::GetTypeIdWide, debugger.gettypeidwide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.GetTypeIdWide"
- - "IDebugSymbols3.GetTypeIdWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.GetTypeIdWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetTypeIdWide
+ - dbgeng/IDebugSymbols3::GetTypeIdWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.GetTypeIdWide
 ---
 
 # IDebugSymbols3::GetTypeIdWide
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetTypeIdWide</b>  method looks up the specified type and return its type ID.
-
 
 ## -parameters
 
+### -param Module 
 
+[in]
+Specifies the base address of the module to which the type belongs.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.  If <i>Name</i> contains a module name, <i>Module</i> is ignored.
 
+### -param Name 
 
-### -param Module [in]
-
-Specifies the base address of the module to which the type belongs.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.  If <i>Name</i> contains a module name, <i>Module</i> is ignored. 
-
-
-### -param Name [in]
-
+[in]
 Specifies the name of the type whose type ID is desired.  If <i>Name</i> is a module-qualified name (for example <b>mymodule!main</b>), the <i>Module</i> parameter is ignored.
 
+### -param TypeId 
 
-### -param TypeId [out]
-
+[out]
 Receives the type ID of the symbol.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -93,14 +86,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the specified symbol is a type, these methods return the type ID for that type; otherwise, they return the type ID for the type of the symbol.
 
@@ -122,13 +109,7 @@ Moreover, calling these methods for <b>MyStruct</b> and <b>MyType</b> yields typ
 
 For more information about symbols and symbol names, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getoffsettypeid">GetOffsetTypeId</a>
 
@@ -139,7 +120,4 @@ For more information about symbols and symbol names, see <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

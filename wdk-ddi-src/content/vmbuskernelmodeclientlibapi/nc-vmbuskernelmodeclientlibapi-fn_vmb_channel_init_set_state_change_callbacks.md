@@ -6,39 +6,40 @@ tech.root: netvista
 ms.assetid: fb182313-12a8-4886-bc16-9255ac998684
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS"
- - "FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS
 ---
 
 # FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS callback function
+
 
 ## -description
 
@@ -46,29 +47,11 @@ ms.custom: RS5
 
 The <b>VmbChannelInitSetStateChangeCallbacks</b>  function sets optional callback functions for state changes.
 
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS FnVmbChannelInitSetStateChangeCallbacks; 
-
-// Definition
-
-NTSTATUS FnVmbChannelInitSetStateChangeCallbacks 
-(
-	VMBCHANNEL Channel
-	PVMB_CHANNEL_STATE_CHANGE_CALLBACKS StateChangeCallbacks
-)
-{...}
-
-```
-
 ## -parameters
 
 ### -param Channel
 
-A handle for a channel.  
+A handle for a channel.
 
 ### -param StateChangeCallbacks
 
@@ -118,6 +101,24 @@ The <i>StateChangeCallbacks</i> value is the wrong version or size.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS FnVmbChannelInitSetStateChangeCallbacks; 
+
+// Definition
+
+NTSTATUS FnVmbChannelInitSetStateChangeCallbacks 
+(
+	VMBCHANNEL Channel
+	PVMB_CHANNEL_STATE_CHANGE_CALLBACKS StateChangeCallbacks
+)
+{...}
+
+```
+
 ## -remarks
 
 > [!IMPORTANT]
@@ -126,3 +127,4 @@ The <i>StateChangeCallbacks</i> value is the wrong version or size.
 > For more information, see the Remarks section of the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 ## -see-also
+

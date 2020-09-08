@@ -8,9 +8,6 @@ ms.assetid: 8d881133-3ea7-43c4-99cc-d843026573d6
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_HW_CAPABILITY structure"]
 ms.keywords: D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices], DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml, _D3DKMDT_VIDPN_HW_CAPABILITY, d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, display.d3dkmdt_vidpn_hw_capability
-f1_keywords:
- - "d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY"
- - "D3DKMDT_VIDPN_HW_CAPABILITY"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- D3DKMDT_VIDPN_HW_CAPABILITY
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_HW_CAPABILITY
+f1_keywords:
+ - _D3DKMDT_VIDPN_HW_CAPABILITY
+ - d3dkmdt/_D3DKMDT_VIDPN_HW_CAPABILITY
+ - D3DKMDT_VIDPN_HW_CAPABILITY
+ - d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - D3DKMDT_VIDPN_HW_CAPABILITY
 ---
 
 # _D3DKMDT_VIDPN_HW_CAPABILITY structure
@@ -46,14 +48,9 @@ req.typenames: D3DKMDT_VIDPN_HW_CAPABILITY
 
 ## -description
 
-
 The D3DKMDT_VIDPN_HW_CAPABILITY structure describes the capabilities of the display miniport driver to perform display operations on a specified functional VidPN without dedicated GPU hardware support. For definitions of hardware terminology used in this topic, see the Remarks section.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DriverRotation
 
@@ -63,7 +60,6 @@ If set to a nonzero value, the driver uses software or the system-supplied graph
 
 If set to 0, the driver uses display pipeline hardware to directly generate the rotated image.
 
-
 ### -field DriverScaling
 
 A UINT value that describes the capability of the display miniport driver to display a scaled image.
@@ -71,7 +67,6 @@ A UINT value that describes the capability of the display miniport driver to dis
 If set to a nonzero value, the driver uses software or the system-supplied graphics engine to scale the on-screen image and then uses display pipeline hardware to display the scaled image.
 
 If set to 0, the driver uses display pipeline hardware to directly generate the scaled image.
-
 
 ### -field DriverCloning
 
@@ -81,7 +76,6 @@ If set to a nonzero value, the driver uses software or the system-supplied graph
 
 If set to 0, the driver uses display pipeline hardware to directly generate the cloned image.
 
-
 ### -field DriverColorConvert
 
 A UINT value that describes the capability of the display miniport driver to display a color-convert bit-block transfer (bitblt).
@@ -89,7 +83,6 @@ A UINT value that describes the capability of the display miniport driver to dis
 If set to a nonzero value, the driver uses software or the system-supplied graphics engine to generate the color-convert bitblt and then uses display pipeline hardware to display the color-converted image. For example, if the display pipeline hardware cannot color-convert from an 8-bit palletized surface format (defined by the D3DDDIFMT_P8 value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration), the driver can use the graphics engine to perform a color-convert bitblt from the D3DDDIFMT_ P8 format to the D3DDDIFMT_R8G8B8 format and then render the new D3DDDIFMT_R8G8B8 image using the display pipeline hardware.
 
 If set to 0, the driver uses display pipeline hardware to directly generate the color-converted image.
-
 
 ### -field DriverLinkedAdapaterOutput
 
@@ -99,7 +92,6 @@ If set to a nonzero value, the driver uses software or the system-supplied graph
 
 If set to 0, the driver uses display pipeline hardware to directly generate the bitblt from the first linked display adapter and to display it with the second linked display adapter.
 
-
 ### -field DriverRemoteDisplay
 
 A UINT value that describes whether the display pipeline hardware is located on the same device as the GPU graphics rendering pipeline.
@@ -108,30 +100,15 @@ If set to a nonzero value, the display pipeline hardware is not located on the s
 
 If set to 0, the display pipeline hardware is located on the same device as the GPU graphics rendering pipeline.
 
-
 ### -field Reserved
 
 Reserved for system use. The display miniport driver must set this value to 0.
 
-
 ## -remarks
-
-
 
 The following definitions of terms are used in this topic.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
- 
-
- 
 

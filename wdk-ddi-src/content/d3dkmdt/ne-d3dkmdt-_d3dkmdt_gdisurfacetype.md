@@ -8,9 +8,6 @@ ms.assetid: b1c8fc0a-b877-4321-85b9-0c5c174ffc45
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_GDISURFACETYPE enumeration"]
 ms.keywords: D3DKMDT_GDISURFACETYPE, D3DKMDT_GDISURFACETYPE enumeration [Display Devices], D3DKMDT_GDISURFACE_EXISTINGSYSMEM, D3DKMDT_GDISURFACE_INVALID, D3DKMDT_GDISURFACE_LOOKUPTABLE, D3DKMDT_GDISURFACE_STAGING, D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, D3DKMDT_GDISURFACE_TEXTURE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, DmEnums_5e870c41-1496-48ff-bddd-f01a2f9e36e6.xml, _D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACETYPE, d3dkmdt/D3DKMDT_GDISURFACE_EXISTINGSYSMEM, d3dkmdt/D3DKMDT_GDISURFACE_INVALID, d3dkmdt/D3DKMDT_GDISURFACE_LOOKUPTABLE, d3dkmdt/D3DKMDT_GDISURFACE_STAGING, d3dkmdt/D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER, d3dkmdt/D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER, display.d3dkmdt_gdisurfacetype
-f1_keywords:
- - "d3dkmdt/D3DKMDT_GDISURFACETYPE"
- - "D3DKMDT_GDISURFACETYPE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- D3DKMDT_GDISURFACETYPE
 targetos: Windows
 req.typenames: D3DKMDT_GDISURFACETYPE
+f1_keywords:
+ - _D3DKMDT_GDISURFACETYPE
+ - d3dkmdt/_D3DKMDT_GDISURFACETYPE
+ - D3DKMDT_GDISURFACETYPE
+ - d3dkmdt/D3DKMDT_GDISURFACETYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - D3DKMDT_GDISURFACETYPE
 ---
 
 # _D3DKMDT_GDISURFACETYPE enumeration
@@ -46,19 +48,13 @@ req.typenames: D3DKMDT_GDISURFACETYPE
 
 ## -description
 
-
 The D3DKMDT_GDISURFACETYPE enumeration indicates the type of lockable surface that is used by the Desktop Window Manager (DWM) for redirection.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DKMDT_GDISURFACE_INVALID
 
 The driver should not see this value.
-
 
 ### -field D3DKMDT_GDISURFACE_TEXTURE
 
@@ -185,7 +181,6 @@ Reserved for system use. Do not use this value in your driver.
 
 Supported starting with Windows 8.
 
-
 ### -field D3DKMDT_GDISURFACE_TEXTURE_CROSSADAPTER
 
 Indicates that the surface has the following properties:
@@ -206,18 +201,13 @@ The pitch and height must have the required alignment for the cross-adapter reso
 </ul>
 Supported starting with Windows 8.1.
 
-
 ### -field D3DKMDT_GDISURFACE_TEXTURE_CPUVISIBLE_CROSSADAPTER
 
 Reserved for system use. Do not use this value in your driver.
 
 Supported starting with Windows 8.1.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
@@ -236,7 +226,4 @@ Supported starting with Windows 8.1.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_renderkm_command">DXGK_RENDERKM_COMMAND</a>
- 
-
- 
 

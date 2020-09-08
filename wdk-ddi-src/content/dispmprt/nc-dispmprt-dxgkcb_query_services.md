@@ -8,9 +8,6 @@ ms.assetid: 0ce5df90-2019-4a92-97d6-0218acc8b1e8
 ms.date: 05/10/2018
 keywords: ["DXGKCB_QUERY_SERVICES callback function"]
 ms.keywords: DXGKCB_QUERY_SERVICES, DXGKCB_QUERY_SERVICES callback, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
-f1_keywords:
- - "dispmprt/DxgkCbQueryServices"
- - "DxgkCbQueryServices"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkCbQueryServices
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKCB_QUERY_SERVICES
+ - dispmprt/DXGKCB_QUERY_SERVICES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkCbQueryServices
 ---
 
 # DXGKCB_QUERY_SERVICES callback function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>DxgkCbQueryServices</b> function returns an interface implemented by the display port driver.
-
 
 ## -parameters
 
+### -param DeviceHandle 
 
-
-
-### -param DeviceHandle [in]
-
+[in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
+### -param ServicesType 
 
-### -param ServicesType [in]
-
+[in]
 A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ne-dispmprt-dxgk_services">DXGK_SERVICES</a> enumeration that specifies which interface is being requested. This parameter must be set to <b>DxgkServicesAgp</b>, <b>DxgkServicesDebugReport</b>, or <b>DxgkServicesTimedOperation</b>, as those are the only supported interfaces.
 
+### -param Interface 
 
-### -param Interface [in, out]
-
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure that receives the requested interface.
-
 
 ## -returns
 
-
-
 <b>DxgkCbQueryServices</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 An interface, in this context, is a set of functions implemented by the display port driver. The display port driver makes the functions of an interface available to other drivers by providing function pointers in response to <b>DxgkCbQueryServices</b>.
 
@@ -158,12 +146,7 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">AGP Interface</a>
 
@@ -178,7 +161,4 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Timed Operation Interface</a>
- 
-
- 
 

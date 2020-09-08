@@ -8,9 +8,6 @@ ms.assetid: 8d5653e4-a755-4066-b25a-f8f589821412
 ms.date: 05/02/2018
 keywords: ["FWPS_TRANSPORT_SEND_PARAMS1_ structure"]
 ms.keywords: FWPS_TRANSPORT_SEND_PARAMS1, FWPS_TRANSPORT_SEND_PARAMS1 structure [Network Drivers Starting with Windows Vista], FWPS_TRANSPORT_SEND_PARAMS1_, fwpsk/FWPS_TRANSPORT_SEND_PARAMS1, netvista.fwps_transport_send_params1, wfp_ref_3_struct_3_fwps_P-Z_55024e38-5ae1-4a2c-8595-2722e481a947.xml
-f1_keywords:
- - "fwpsk/FWPS_TRANSPORT_SEND_PARAMS1"
- - "FWPS_TRANSPORT_SEND_PARAMS1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FWPS_TRANSPORT_SEND_PARAMS1
 targetos: Windows
 req.typenames: FWPS_TRANSPORT_SEND_PARAMS1
+f1_keywords:
+ - FWPS_TRANSPORT_SEND_PARAMS1_
+ - fwpsk/FWPS_TRANSPORT_SEND_PARAMS1_
+ - FWPS_TRANSPORT_SEND_PARAMS1
+ - fwpsk/FWPS_TRANSPORT_SEND_PARAMS1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FWPS_TRANSPORT_SEND_PARAMS1
 ---
 
 # FWPS_TRANSPORT_SEND_PARAMS1_ structure
@@ -46,15 +48,11 @@ req.typenames: FWPS_TRANSPORT_SEND_PARAMS1
 
 ## -description
 
-
 The <b>FWPS_TRANSPORT_SEND_PARAMS1</b> structure defines properties of an outbound transport layer
   packet.
 <div class="alert"><b>Note</b>  <b>FWPS_TRANSPORT_SEND_PARAMS1</b> is the specific version of <b>FWPS_TRANSPORT_SEND_PARAMS</b> used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_transport_send_params0_">FWPS_TRANSPORT_SEND_PARAMS0</a> is available.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field remoteAddress
 
@@ -71,7 +69,6 @@ The buffer can contain an IPv4 address (4 bytes) or an IPv6 address (16 bytes), 
      FwpsInjectTransportSendAsync1</a> function.
 
 The buffer must remain valid until the injection completion function is called.
-
 
 ### -field remoteScopeId
 
@@ -145,11 +142,7 @@ The transport header to include.
 The length, in bytes, of the 
      <b>headerIncludeHeader</b> member.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
 
@@ -170,7 +163,4 @@ The length, in bytes, of the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

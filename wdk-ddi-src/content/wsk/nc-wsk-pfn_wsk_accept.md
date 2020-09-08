@@ -8,9 +8,6 @@ ms.assetid: 9fa8bb07-7ee5-400b-aaca-33db3911d79f
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_ACCEPT callback function"]
 ms.keywords: PFN_WSK_ACCEPT, PFN_WSK_ACCEPT callback, WskAccept, WskAccept callback function [Network Drivers Starting with Windows Vista], netvista.wskaccept, wsk/WskAccept, wskref_22de82fc-18c4-4fed-b0fe-7e048ba7cfeb.xml
-f1_keywords:
- - "wsk/WskAccept"
- - "WskAccept"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskAccept
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_ACCEPT
+ - wsk/PFN_WSK_ACCEPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskAccept
 ---
 
 # PFN_WSK_ACCEPT callback function
@@ -46,40 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskAccept</b> function accepts an incoming connection on a listening socket.
 
-
 ## -parameters
 
+### -param ListenSocket 
 
-
-
-### -param ListenSocket [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the listening or stream socket that is being checked for an incoming connection.
-
 
 ### -param Flags
 
 This parameter is reserved for system use. A WSK application must set this parameter to
      zero.
 
+### -param AcceptSocketContext 
 
-### -param AcceptSocketContext [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied context for the socket that is being accepted. The WSK subsystem
      passes this pointer to the accepted socket's event callback functions. The context information is opaque
      to the WSK subsystem. The context information must be stored in non-paged memory. If the WSK application
      will not be enabling any event callback functions on the accepted socket, it should set this pointer to
      <b>NULL</b>.
 
+### -param AcceptSocketDispatch 
 
-### -param AcceptSocketDispatch [in, optional]
-
+[in, optional]
 A pointer to a constant 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
      WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
@@ -89,36 +84,33 @@ A pointer to a constant
      application will not be enabling any event callback functions on the accepted socket, it should set this
      pointer to <b>NULL</b>.
 
+### -param LocalAddress 
 
-### -param LocalAddress [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer that receives the local transport address on which the
      incoming connection arrived. The buffer must be located in non-paged memory. The buffer must also be
      large enough to contain the specific SOCKADDR structure type that corresponds to the address family that
      the WSK application specified when it created the listening socket. This pointer is optional and can be
      <b>NULL</b>.
 
+### -param RemoteAddress 
 
-### -param RemoteAddress [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer that receives the remote transport address from which the
      incoming connection originated. The buffer must be located in non-paged memory. The buffer must also be
      large enough to contain the specific SOCKADDR structure type that corresponds to the address family that
      the WSK application specified when it created the listening socket. This pointer is optional and can be
      <b>NULL</b>.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the accept operation
      asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskAccept</b> returns one of the following NTSTATUS codes:
 
@@ -177,14 +169,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WSK application can call the 
     <b>WskAccept</b> function on either a listening socket or stream socket that it previously bound to a local transport address
@@ -254,13 +240,7 @@ The WSK subsystem allocates the memory for the socket object structure (
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>) for the accepted connection on
     behalf of the WSK application. The WSK subsystem deallocates this memory when the socket is closed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
@@ -296,7 +276,4 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
- 
-
- 
 

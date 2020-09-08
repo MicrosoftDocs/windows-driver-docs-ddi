@@ -8,9 +8,6 @@ ms.assetid: 39a50efc-b27a-4c73-b436-c6495256d9c6
 ms.date: 04/16/2018
 keywords: ["RtlAddAccessAllowedAce function"]
 ms.keywords: RtlAddAccessAllowedAce, RtlAddAccessAllowedAce routine [Installable File System Drivers], ifsk.rtladdaccessallowedace, ntifs/RtlAddAccessAllowedAce, rtlref_ab4b97bd-c68c-4f7b-a50e-8584f53e6720.xml
-f1_keywords:
- - "ntifs/RtlAddAccessAllowedAce"
- - "RtlAddAccessAllowedAce"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlAddAccessAllowedAce
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlAddAccessAllowedAce
+ - ntifs/RtlAddAccessAllowedAce
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlAddAccessAllowedAce
 ---
 
 # RtlAddAccessAllowedAce function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlAddAccessAllowedAce</b> routine adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to the specified security identifier (SID). 
-
+The <b>RtlAddAccessAllowedAce</b> routine adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to the specified security identifier (SID).
 
 ## -parameters
 
+### -param Acl 
 
-
-
-### -param Acl [in, out]
-
+[in, out]
 Pointer to a caller-allocated buffer containing the ACL to be modified. <b>RtlAddAccessAllowedAce</b> adds an access-allowed ACE to the end of this ACL. The ACE is in the form of an ACCESS_ALLOWED_ACE structure.
 
+### -param AceRevision 
 
-### -param AceRevision [in]
-
+[in]
 ACL revision level of the ACE to be added. Windows version requirments are the following:
 
 <table>
@@ -94,22 +90,18 @@ The revision level valid starting with Windows 2000.
 </td>
 </tr>
 </table>
- 
 
+### -param AccessMask 
 
-### -param AccessMask [in]
+[in]
+Bitmask of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags specifying the access rights to be granted to the specified SID. For more information, see the description of the <i>DesiredAccess</i> parameter of <b>ZwCreateFile</b>.
 
-Bitmask of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags specifying the access rights to be granted to the specified SID. For more information, see the description of the <i>DesiredAccess</i> parameter of <b>ZwCreateFile</b>. 
+### -param Sid 
 
-
-### -param Sid [in]
-
-Pointer to the SID structure representing a user, group, or logon account that is being granted access. 
-
+[in]
+Pointer to the SID structure representing a user, group, or logon account that is being granted access.
 
 ## -returns
-
-
 
 <b>RtlAddAccessAllowedAce</b> can return one of the following values:
 
@@ -174,24 +166,12 @@ The specified revision is not known or is not compatible with that of the ACL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
@@ -246,7 +226,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
- 
-
- 
 

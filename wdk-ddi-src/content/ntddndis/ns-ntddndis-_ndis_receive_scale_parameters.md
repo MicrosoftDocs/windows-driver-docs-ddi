@@ -8,9 +8,6 @@ ms.assetid: 0d51042e-06b4-4105-889f-84a368e5735a
 ms.date: 09/08/2020
 keywords: ["NDIS_RECEIVE_SCALE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PARAM_FLAG_BASE_CPU_UNCHANGED, NDIS_RSS_PARAM_FLAG_DISABLE_RSS, NDIS_RSS_PARAM_FLAG_HASH_INFO_UNCHANGED, NDIS_RSS_PARAM_FLAG_HASH_KEY_UNCHANGED, NDIS_RSS_PARAM_FLAG_ITABLE_UNCHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS, PNDIS_RECEIVE_SCALE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_PARAMETERS, netvista.ndis_receive_scale_parameters, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS, receive_scaling_structures_ref_1055bbcb-da8b-4ee1-bd03-55abfa79b5ab.xml"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS"
- - "NDIS_RECEIVE_SCALE_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -38,15 +35,14 @@ f1_keywords:
  - NDIS_RECEIVE_SCALE_PARAMETERS
  - ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- Ntddndis.h
+ - Ntddndis.h
 api_name:
-- NDIS_RECEIVE_SCALE_PARAMETERS
-
+ - NDIS_RECEIVE_SCALE_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_SCALE_PARAMETERS structure

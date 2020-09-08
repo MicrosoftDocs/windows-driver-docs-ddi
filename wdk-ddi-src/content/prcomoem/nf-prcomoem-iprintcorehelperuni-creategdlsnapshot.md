@@ -8,9 +8,6 @@ ms.assetid: 3dd9c7f9-27d4-45d2-8692-4270818c1823
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelperUni::CreateGDLSnapshot"]
 ms.keywords: CreateGDLSnapshot, CreateGDLSnapshot method [Print Devices], CreateGDLSnapshot method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],CreateGDLSnapshot method, IPrintCoreHelperUni.CreateGDLSnapshot, IPrintCoreHelperUni::CreateGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, print.iprintcorehelperuni_creategdlsnapshot, print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml
-f1_keywords:
- - "prcomoem/IPrintCoreHelperUni.CreateGDLSnapshot"
- - "IPrintCoreHelperUni.CreateGDLSnapshot"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreHelperUni.CreateGDLSnapshot
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreHelperUni::CreateGDLSnapshot
+ - prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreHelperUni.CreateGDLSnapshot
 ---
 
 # IPrintCoreHelperUni::CreateGDLSnapshot
@@ -46,55 +46,39 @@ req.typenames:
 
 ## -description
 
-
-The <code>IPrintCoreHelperUni::CreateGDLSnapshot</code> method creates a GDL snapshot of the driver configuration file based on the current configuration. 
-
+The <code>IPrintCoreHelperUni::CreateGDLSnapshot</code> method creates a GDL snapshot of the driver configuration file based on the current configuration.
 
 ## -parameters
 
+### -param pDevmode 
 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. If this pointer is provided, <code>IPrintCoreHelperUni::CreateGDLSnapshot</code>  should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider, there is no default DEVMODEW structure and the <i>pDevmode</i> parameter is required.
 
+### -param cbSize 
 
-### -param pDevmode [in]
+[in]
+The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter.
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure. If this pointer is provided, <code>IPrintCoreHelperUni::CreateGDLSnapshot</code>  should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider, there is no default DEVMODEW structure and the <i>pDevmode</i> parameter is required.
+### -param dwFlags 
 
-
-### -param cbSize [in]
-
-The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter. 
-
-
-### -param dwFlags [in]
-
+[in]
 Reserved for system use. This parameter must be set to zero.
 
+### -param ppSnapshotStream 
 
-### -param ppSnapshotStream [out]
-
+[out]
 A pointer to a stream that supplies the XML version of the GDL snapshot.
-
 
 ## -returns
 
-
-
 <code>IPrintCoreHelperUni::CreateGDLSnapshot</code> should return S_OK if the operation succeeds. Otherwise, this method should return a standard COM error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni">IPrintCoreHelperUni</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperuni-createdefaultgdlsnapshot">IPrintCoreHelperUni::CreateDefaultGDLSnapshot</a>
- 
-
- 
 

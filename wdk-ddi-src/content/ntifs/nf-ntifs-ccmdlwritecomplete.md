@@ -8,9 +8,6 @@ ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.date: 04/16/2018
 keywords: ["CcMdlWriteComplete function"]
 ms.keywords: CcMdlWriteComplete, CcMdlWriteComplete routine [Installable File System Drivers], ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, ifsk.ccmdlwritecomplete, ntifs/CcMdlWriteComplete
-f1_keywords:
- - "ntifs/CcMdlWriteComplete"
- - "CcMdlWriteComplete"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- CcMdlWriteComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CcMdlWriteComplete
+ - ntifs/CcMdlWriteComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - CcMdlWriteComplete
 ---
 
 # CcMdlWriteComplete function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>CcMdlWriteComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a> for a cached file.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 File object pointer that was passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 Value of <i>FileOffset</i> that was passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>.
 
+### -param MdlChain 
 
-### -param MdlChain [in]
-
+[in]
 Address of the MDL chain returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>.
 
-
 ## -remarks
-
-
 
 File systems call <b>CcMdlWriteComplete</b> to free the memory descriptor lists (MDL) created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a> for a cached file and to mark the specified byte range for write. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped.
 
@@ -84,20 +77,11 @@ Before using <b>CcMdlWriteComplete</b>, file system developers are strongly enco
 
 Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a> must be followed by a call to <b>CcMdlWriteComplete</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539166">CcMdlWriteAbort</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539166">CcMdlWriteAbort</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>
- 
-
- 
 

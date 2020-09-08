@@ -8,9 +8,6 @@ ms.assetid: 0b59056c-6e73-4078-b8b3-32ced29ff7b0
 ms.date: 04/30/2018
 keywords: ["KeInitializeEvent function"]
 ms.keywords: KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, kernel.keinitializeevent, wdm/KeInitializeEvent
-f1_keywords:
- - "wdm/KeInitializeEvent"
- - "KeInitializeEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeInitializeEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeInitializeEvent
+ - wdm/KeInitializeEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeInitializeEvent
 ---
 
 # KeInitializeEvent function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeInitializeEvent</b> routine initializes an event object as a synchronization (single waiter) or notification type event and sets it to a signaled or not-signaled state.
-
 
 ## -parameters
 
+### -param Event 
 
-
-
-### -param Event [out]
-
+[out]
 Pointer to an event object, for which the caller provides the storage.
 
+### -param Type 
 
-### -param Type [in]
-
+[in]
 Specifies the event type, either <b>NotificationEvent</b> or <b>SynchronizationEvent</b>.
 
+### -param State 
 
-### -param State [in]
-
+[in]
 Specifies the initial state of the event. <b>TRUE</b> indicates a signaled state.
 
-
 ## -remarks
-
-
 
 Storage for an event object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller. If you allocate the event on the stack, you must specify a <b>KernelMode</b> wait when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>. During a <b>KernelMode</b> wait, the stack containing the event will not be paged out.
 
@@ -82,13 +75,7 @@ A <b>SynchronizationEvent</b> is also called an <i>autoreset</i> or <i>autoclear
 
 For more information about event objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/event-objects">Event Objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keclearevent">KeClearEvent</a>
 
@@ -111,7 +98,4 @@ For more information about event objects, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
 

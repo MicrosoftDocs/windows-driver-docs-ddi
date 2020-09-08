@@ -8,9 +8,6 @@ ms.assetid: c5bdedee-dacd-4f4d-a3d1-f1cb71a68001
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE, PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE callback, ProtocolCmNotifyCloseAfComplete, ProtocolCmNotifyCloseAfComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_f10e7b00-20f8-4bb0-a4c0-94855572fc08.xml, ndis/ProtocolCmNotifyCloseAfComplete, netvista.protocolcmnotifycloseafcomplete
-f1_keywords:
- - "ndis/ProtocolCmNotifyCloseAfComplete"
- - "ProtocolCmNotifyCloseAfComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmNotifyCloseAfComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE
+ - ndis/PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmNotifyCloseAfComplete
 ---
 
 # PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmNotifyCloseAfComplete</i> function indicates that a client has completed the closing of an
@@ -59,17 +58,15 @@ The
 
 ## -parameters
 
+### -param CallMgrAfContext 
 
-
-
-### -param CallMgrAfContext [in]
-
+[in]
 A handle to the call manager's AF context area that the call manager supplied to NDIS in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 The clients final status for the AF close notification. 
      <i>Status</i> can be one of the following:
      
@@ -88,10 +85,7 @@ The client successfully closed its address family.
 
 The client failed the request for some driver-determined reason.
 
-
 ## -remarks
-
-
 
 The 
     <i>ProtocolCmNotifyCloseAfComplete</i> function is required for CoNDIS call managers.
@@ -147,15 +141,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmnotifycloseaddressfamily">
    NdisCmNotifyCloseAddressFamily</a>
@@ -168,7 +156,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
- 
-
- 
 

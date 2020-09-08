@@ -7,9 +7,6 @@ ms.assetid: 2eb99f42-3639-4327-a880-47e18d1da71d
 ms.date: 05/10/2018
 keywords: ["D3DKMT_DISPLAYMODELIST structure"]
 ms.keywords: D3DKMT_DISPLAYMODELIST, D3DKMT_DISPLAYMODELIST structure [Display Devices], _D3DKMT_DISPLAYMODELIST, d3dkmthk/D3DKMT_DISPLAYMODELIST, display.d3dkmt_displaymodelist
-f1_keywords:
- - "d3dkmthk/D3DKMT_DISPLAYMODELIST"
- - "D3DKMT_DISPLAYMODELIST"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMT_DISPLAYMODELIST
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DISPLAYMODELIST
+f1_keywords:
+ - _D3DKMT_DISPLAYMODELIST
+ - d3dkmthk/_D3DKMT_DISPLAYMODELIST
+ - D3DKMT_DISPLAYMODELIST
+ - d3dkmthk/D3DKMT_DISPLAYMODELIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMT_DISPLAYMODELIST
 ---
 
 # _D3DKMT_DISPLAYMODELIST structure
@@ -46,24 +48,17 @@ req.typenames: D3DKMT_DISPLAYMODELIST
 
 ## -description
 
-
 Describes a list of display modes.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VidPnSourceId
 
 [in] The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the display modes apply to.
 
-
 ### -field ModeCount
 
 [in/out] The number of display modes in the array that <b>pModeList</b> specifies.
-
 
 ### -field pModeList
 

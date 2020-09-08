@@ -8,9 +8,6 @@ ms.assetid: 457b13e5-5917-4aa2-b471-bc9fde14f950
 ms.date: 05/02/2018
 keywords: ["NdisRawWritePortBufferUshort macro"]
 ms.keywords: NdisRawWritePortBufferUshort, NdisRawWritePortBufferUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_43adee77-b540-4147-92a3-0035618064de.xml, ndis/NdisRawWritePortBufferUshort, netvista.ndisrawwriteportbufferushort
-f1_keywords:
- - "ndis/NdisRawWritePortBufferUshort"
- - "NdisRawWritePortBufferUshort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisRawWritePortBufferUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisRawWritePortBufferUshort
+ - ndis/NdisRawWritePortBufferUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisRawWritePortBufferUshort
 ---
 
 # NdisRawWritePortBufferUshort macro
@@ -46,36 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisRawWritePortBufferUshort</b> writes a specified number of USHORT values from a caller-supplied buffer
   to a given I/O port.
 
-
 ## -parameters
 
+### -param Port 
 
-
-
-### -param Port [in]
-
+[in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Pointer to a caller-allocated resident buffer containing the USHORTs to be written.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the number of USHORTs to write to the I/O port.
 
-
 ## -remarks
-
-
 
 A miniport driver calls 
     <b>NdisRawWritePortBufferUshort</b> to transfer a sequence of USHORTs, one at a time, to a NIC.
@@ -83,13 +76,7 @@ A miniport driver calls
 <b>NdisRawWritePortBufferUshort</b> runs fast because it need not map a bus-relative port address onto a
     host-dependent logical port address at every call.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -112,7 +99,4 @@ A miniport driver calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawwriteportushort">NdisRawWritePortUshort</a>
- 
-
- 
 

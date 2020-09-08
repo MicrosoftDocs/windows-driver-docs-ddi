@@ -8,9 +8,6 @@ ms.assetid: a5a3e98b-8f6b-412d-a2eb-a28b5664340d
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_PERSISTENT_RESERVE_IN IOCTL"]
 ms.keywords: IOCTL_STORAGE_PERSISTENT_RESERVE_IN, IOCTL_STORAGE_PERSISTENT_RESERVE_IN control, IOCTL_STORAGE_PERSISTENT_RESERVE_IN control code [Storage Devices], k307_d142d4f6-d2a1-420e-a41d-5bb630445ad2.xml, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_IN, storage.ioctl_storage_persistent_reserve_in
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_IN"
- - "IOCTL_STORAGE_PERSISTENT_RESERVE_IN"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- IOCTL_STORAGE_PERSISTENT_RESERVE_IN
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_PERSISTENT_RESERVE_IN
+ - ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - IOCTL_STORAGE_PERSISTENT_RESERVE_IN
 ---
 
 # IOCTL_STORAGE_PERSISTENT_RESERVE_IN IOCTL
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The generic storage class driver (<i>classpnp.sys</i>) exposes an I/O control (IOCTL) interface for issuing Persistent Reserve In commands. The behavior of the storage device when a Persistent Reserve In command is received is described in the <a href="https://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification. The IOCTL interface requires the caller to have read access to the physical device for Persistent Reserve In commands. User-mode applications, services, and kernel-mode drivers can use this IOCTL to control persistent reservations. If called from a driver, this IOCTL must be called from a thread running at IRQL < DISPATCH_LEVEL. This IOCTL is defined with FILE_READ_ACCESS, requiring a device handle to have read permissions to issue the Persistent Reserve In command.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -73,11 +68,9 @@ RESERVATION_ACTION_READ_RESERVATIONS
 </ul>
 PR_IN.Allocation length is the size (in bytes) of the buffer allocated for the returned parameter list.
 
-
 ### -input-buffer-length
 
 The length of .
-
 
 ### -output-buffer
 
@@ -87,29 +80,13 @@ For PR_IN.ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS, the output buffe
 
 If the allocated buffer is too small to return all the Persistent Reserve In data, success will be returned and the required size will be returned in the parameter list <b>AdditionalLength</b> field.
 
-
 ### -output-buffer-length
 
 The length of .
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

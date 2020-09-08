@@ -8,9 +8,6 @@ ms.assetid: 76954a20-7cd7-454b-a965-8c3f0cdb6e8f
 ms.date: 04/30/2018
 keywords: ["KeFlushIoBuffers function"]
 ms.keywords: KeFlushIoBuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, kernel.keflushiobuffers, wdm/KeFlushIoBuffers
-f1_keywords:
- - "wdm/KeFlushIoBuffers"
- - "KeFlushIoBuffers"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeFlushIoBuffers
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeFlushIoBuffers
+ - wdm/KeFlushIoBuffers
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeFlushIoBuffers
 ---
 
 # KeFlushIoBuffers function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeFlushIoBuffers</b> routine flushes the memory region described by an MDL from caches of all processors.
-
 
 ## -parameters
 
+### -param Mdl 
 
-
-
-### -param Mdl [in]
-
+[in]
 A pointer to an MDL that describes the range for the I/O buffer.
 
+### -param ReadOperation 
 
-### -param ReadOperation [in]
-
+[in]
 Specifies <b>TRUE</b> if the flush is being performed for a read operation, and <b>FALSE</b> for a write operation. For more information, see the following Remarks section.
 
+### -param DmaOperation 
 
-### -param DmaOperation [in]
-
+[in]
 Specifies <b>TRUE</b> for a DMA transfer, <b>FALSE</b> for PIO.
 
-
 ## -remarks
-
-
 
 Drivers call <b>KeFlushIoBuffers</b> to maintain data integrity during DMA or PIO device transfer operations. Calling this routine affects all processors in the machine.
 
@@ -89,15 +82,7 @@ For more information, see the following topics:
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations">Flushing Cached Data during DMA Operations</a>
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/flushing-cached-data-during-pio-operations">Flushing Cached Data during PIO Operations</a>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pflush_adapter_buffers">FlushAdapterBuffers</a>
- 
-
- 
 

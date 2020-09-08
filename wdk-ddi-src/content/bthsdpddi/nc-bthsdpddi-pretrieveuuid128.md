@@ -28,8 +28,8 @@ req.irql: <= PASSIVE_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "bthsdpddi/SdpRetrieveUuid128"
- - "SdpRetrieveUuid128"
+ - PRETRIEVEUUID128
+ - bthsdpddi/PRETRIEVEUUID128
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PRETRIEVEUUID128 callback function
+
 
 ## -description
 

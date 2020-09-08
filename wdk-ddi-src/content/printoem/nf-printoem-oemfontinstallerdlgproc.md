@@ -8,9 +8,6 @@ ms.assetid: 6007723b-c7db-42da-bc50-328e19f80448
 ms.date: 04/20/2018
 keywords: ["OEMFontInstallerDlgProc function"]
 ms.keywords: OEMFontInstallerDlgProc, OEMFontInstallerDlgProc function [Print Devices], print.oemfontinstallerdlgproc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, printoem/OEMFontInstallerDlgProc
-f1_keywords:
- - "printoem/OEMFontInstallerDlgProc"
- - "OEMFontInstallerDlgProc"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMFontInstallerDlgProc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMFontInstallerDlgProc
+ - printoem/OEMFontInstallerDlgProc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMFontInstallerDlgProc
 ---
 
 # OEMFontInstallerDlgProc function
@@ -46,22 +46,13 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hWnd
 
-
 ### -param usMsg
 
-
 ### -param wParam
-
 
 ### -param lParam
 

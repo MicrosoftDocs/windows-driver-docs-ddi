@@ -8,9 +8,6 @@ ms.assetid: 90020700-b9c8-42e6-bafa-908cbc3eb233
 ms.date: 05/10/2018
 keywords: ["PMINIPORT_GET_REGISTRY_ROUTINE callback function"]
 ms.keywords: HwVidQueryNamedValueCallback, HwVidQueryNamedValueCallback callback function [Display Devices], PMINIPORT_GET_REGISTRY_ROUTINE, PMINIPORT_GET_REGISTRY_ROUTINE callback, VideoMiniport_Functions_4e6a63e7-cf5f-4cb6-9e9a-10286e40d762.xml, display.hwvidquerynamedvaluecallback, video/HwVidQueryNamedValueCallback
-f1_keywords:
- - "video/HwVidQueryNamedValueCallback"
- - "HwVidQueryNamedValueCallback"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- HwVidQueryNamedValueCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PMINIPORT_GET_REGISTRY_ROUTINE
+ - video/PMINIPORT_GET_REGISTRY_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - HwVidQueryNamedValueCallback
 ---
 
 # PMINIPORT_GET_REGISTRY_ROUTINE callback function
@@ -46,52 +46,35 @@ req.typenames:
 
 ## -description
 
-
 <i>HwVidQueryNamedValueCallback</i> processes the specified data retrieved from the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
-
 ### -param Context
 
 Pointer to a driver-determined context specified as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetregistryparameters">VideoPortGetRegistryParameters</a> function.
-
 
 ### -param ValueName
 
 Pointer to a NULL-terminated Unicode string naming the entry.
 
-
 ### -param ValueData
 
 Pointer to the buffered data associated with <i>ValueName</i>, supplied by <b>VideoPortGetRegistryParameters</b>.
-
 
 ### -param ValueLength
 
 Specifies the size in bytes of the buffer at <i>ValueData</i>.
 
-
 ## -returns
-
-
 
 <i>HwVidQueryNamedValueCallback</i> returns the status of the operation.
 
-
-
-
 ## -remarks
-
-
 
 <i>HwVidQueryNamedValueCallback</i> is an optional miniport driver function passed in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetregistryparameters">VideoPortGetRegistryParameters</a>.
 
@@ -109,13 +92,7 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 <i>HwVidQueryNamedValueCallback</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
@@ -134,7 +111,4 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsetregistryparameters">VideoPortSetRegistryParameters</a>
- 
-
- 
 

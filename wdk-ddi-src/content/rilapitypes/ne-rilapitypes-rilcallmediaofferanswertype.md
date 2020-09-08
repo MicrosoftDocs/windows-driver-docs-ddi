@@ -8,9 +8,6 @@ ms.assetid: cc0c3fc5-1482-424c-8ca8-c1bfe641bc03
 ms.date: 05/02/2018
 keywords: ["RILCALLMEDIAOFFERANSWERTYPE enumeration"]
 ms.keywords: RILCALLMEDIAOFFERANSWERTYPE, RILCALLMEDIAOFFERANSWERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, RIL_CALLMEDIAOFFERANSWERTYPE_MAX, RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER, netvista.rilcallmediaofferanswertype, ntddrilapitypes/RILCALLMEDIAOFFERANSWERTYPE, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_MAX, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER
-f1_keywords:
- - "rilapitypes/RILCALLMEDIAOFFERANSWERTYPE"
- - "RILCALLMEDIAOFFERANSWERTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,50 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLMEDIAOFFERANSWERTYPE
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERTYPE
+f1_keywords:
+ - RILCALLMEDIAOFFERANSWERTYPE
+ - rilapitypes/RILCALLMEDIAOFFERANSWERTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLMEDIAOFFERANSWERTYPE
 ---
 
-# RILCALLMEDIAOFFERANSWERTYPE enumeration
+# RILCALLMEDIAOFFERANSWERTYPE enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_UNKNOWN
-
 
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT
 
-
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_OFFER
-
 
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER
 
-
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER
 
-
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER
-
 
 ### -field RIL_CALLMEDIAOFFERANSWERTYPE_MAX
 

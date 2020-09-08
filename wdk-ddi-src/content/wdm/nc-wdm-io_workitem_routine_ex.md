@@ -8,9 +8,6 @@ ms.assetid: 7b40f2c8-c862-4a0b-99f6-f7d8c454b845
 ms.date: 04/30/2018
 keywords: ["IO_WORKITEM_ROUTINE_EX callback function"]
 ms.keywords: DrvrRtns_1ce116f5-d27b-4be5-800f-51ca29221223.xml, IO_WORKITEM_ROUTINE_EX, WorkItemEx, WorkItemEx routine [Kernel-Mode Driver Architecture], kernel.workitemex, wdm/WorkItemEx
-f1_keywords:
- - "wdm/WorkItemEx"
- - "WorkItemEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- WorkItemEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IO_WORKITEM_ROUTINE_EX
+ - wdm/IO_WORKITEM_ROUTINE_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - WorkItemEx
 ---
 
 # IO_WORKITEM_ROUTINE_EX callback function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 A <i>WorkItemEx</i> routine performs the processing for a work item that was queued by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex">IoQueueWorkItemEx</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a> routine.
-
 
 ## -parameters
 
+### -param IoObject 
 
-
-
-### -param IoObject [in]
-
+[in]
 Pointer to the caller's driver object or to one of the caller's device objects. This is the pointer that was passed as the <i>DeviceObject</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a> when the work item was allocated, or as the <i>IoObject</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a> when the work item was initialized.
 
+### -param Context 
 
-### -param Context [in, optional]
-
+[in, optional]
 Specifies driver-specific context information. This is the value that was passed as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex">IoQueueWorkItemEx</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a> when the work item was queued.
 
+### -param IoWorkItem 
 
-### -param IoWorkItem [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure for the work item. This is the pointer that was passed as the <i>IoWorkItem</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex">IoQueueWorkItemEx</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a>.
 
-
 ## -remarks
-
-
 
 Drivers can implement <i>WorkItemEx</i> routines only on Windows Vista and later versions of Windows.
 
@@ -124,12 +117,7 @@ The IO_WORKITEM_ROUTINE_EX function type is defined in the Wdm.h header file. To
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a>
 
@@ -144,7 +132,4 @@ The IO_WORKITEM_ROUTINE_EX function type is defined in the Wdm.h header file. To
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a>
- 
-
- 
 

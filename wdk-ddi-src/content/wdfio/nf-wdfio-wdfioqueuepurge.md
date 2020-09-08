@@ -8,9 +8,6 @@ ms.assetid: bd6e9583-774f-4ca2-9c23-4d32b233daff
 ms.date: 02/26/2018
 keywords: ["WdfIoQueuePurge function"]
 ms.keywords: DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, WdfIoQueuePurge, WdfIoQueuePurge method, kmdf.wdfioqueuepurge, wdf.wdfioqueuepurge, wdfio/WdfIoQueuePurge
-f1_keywords:
- - "wdfio/WdfIoQueuePurge"
- - "WdfIoQueuePurge"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoQueuePurge
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoQueuePurge
+ - wdfio/WdfIoQueuePurge
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoQueuePurge
 ---
 
 # WdfIoQueuePurge function
@@ -49,31 +49,26 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfIoQueuePurge</b> method causes the framework to stop queuing I/O requests to an I/O queue and to cancel unprocessed requests. 
-
+The <b>WdfIoQueuePurge</b> method causes the framework to stop queuing I/O requests to an I/O queue and to cancel unprocessed requests.
 
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to a framework queue object.
 
+### -param PurgeComplete 
 
-### -param PurgeComplete [in, optional]
-
+[in, optional]
 A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
+### -param Context 
 
-### -param Context [in, optional]
-
+[in, optional]
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
-
 
 ## -remarks
 
@@ -107,12 +102,7 @@ WdfIoQueuePurge(
                 );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a>
 
@@ -123,7 +113,4 @@ WdfIoQueuePurge(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuepurgesynchronously">WdfIoQueuePurgeSynchronously</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: EFF55B5C-55E2-4E03-9D96-FDB1BC550A53
 ms.date: 04/20/2018
 keywords: ["IPrinterScriptablePropertyBag::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetWriteStream method, IPrinterScriptablePropertyBag.GetWriteStream, IPrinterScriptablePropertyBag::GetWriteStream, print.iprinterscriptablepropertybag_getwritestream, printerextension/IPrinterScriptablePropertyBag::GetWriteStream
-f1_keywords:
- - "printerextension/IPrinterScriptablePropertyBag.GetWriteStream"
- - "IPrinterScriptablePropertyBag.GetWriteStream"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterScriptablePropertyBag.GetWriteStream
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterScriptablePropertyBag::GetWriteStream
+ - printerextension/IPrinterScriptablePropertyBag::GetWriteStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterScriptablePropertyBag.GetWriteStream
 ---
 
 # IPrinterScriptablePropertyBag::GetWriteStream
@@ -46,56 +46,35 @@ req.typenames:
 
 ## -description
 
-
 Gets a stream and uses it  to write to a stream property.
-
 
 ## -parameters
 
+### -param bstrName 
 
-
-
-### -param bstrName [in]
-
+[in]
 The property to write.
 
+### -param ppStream 
 
-### -param ppStream [out, retval]
-
+[out, retval]
 The retrieved stream.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 <b>GetWriteStream</b> does not work with non-stream properties.
 
 A call to <b>GetWriteStream</b> will throw an exception, if the specified property is not found. We recommend that you use a try-catch statement around calls to this method, to allow your app to handle any failures gracefully.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
- 
-
- 
 

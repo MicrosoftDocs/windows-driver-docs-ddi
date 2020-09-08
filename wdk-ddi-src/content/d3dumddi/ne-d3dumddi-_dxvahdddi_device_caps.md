@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_DXVAHDDDI_DEVICE_CAPS"
- - "_DXVAHDDDI_DEVICE_CAPS"
+ - _DXVAHDDDI_DEVICE_CAPS
+ - d3dumddi/_DXVAHDDDI_DEVICE_CAPS
+ - DXVAHDDDI_DEVICE_CAPS
+ - d3dumddi/DXVAHDDDI_DEVICE_CAPS
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _DXVAHDDDI_DEVICE_CAPS enumeration
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 4fe37240-7cef-4bfb-91be-49a0bca2fa8f
 ms.date: 04/04/2018
 keywords: ["IWDTFTargets2::Clear"]
 ms.keywords: Clear, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Clear method, IWDTFTargets2.Clear, IWDTFTargets2::Clear, Microsoft.WDTF.IWDTFTargets2.Clear, Microsoft::WDTF::IWDTFTargets2::Clear, dtf.iwdtftargets2_clear, wdtf/IWDTFTargets2::Clear
-f1_keywords:
- - "wdtf/IWDTFTargets2.Clear"
- - "IWDTFTargets2.Clear"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTargets2.Clear
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTargets2::Clear
+ - wdtf/IWDTFTargets2::Clear
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTargets2.Clear
 ---
 
 # IWDTFTargets2::Clear
@@ -46,37 +46,19 @@ req.typenames:
 
 ## -description
 
-
 Removes all items from the collection.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 The lifetime of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface 
 instances are tied to their creator. If you clear all items from a collection, the items are
 not destroyed.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
- 
-
- 
 

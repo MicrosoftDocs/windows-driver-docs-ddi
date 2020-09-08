@@ -8,9 +8,6 @@ ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
 ms.date: 04/20/2018
 keywords: ["PFN_DrvWriteSpoolBuf callback function"]
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf callback, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
-f1_keywords:
- - "printoem/DrvWriteSpoolBuf"
- - "DrvWriteSpoolBuf"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- printoem.h
-api_name:
-- DrvWriteSpoolBuf
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_DrvWriteSpoolBuf
+ - printoem/PFN_DrvWriteSpoolBuf
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - printoem.h
+api_name:
+ - DrvWriteSpoolBuf
 ---
 
 # PFN_DrvWriteSpoolBuf callback function
@@ -46,24 +46,17 @@ req.typenames:
 
 ## -description
 
-
 The <b>DrvWriteSpoolBuf</b> function pointed to by this function pointer is obsolete.
 
  Windows 2000 and later render plug-ins should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a> (Unidrv plug-ins), <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverps-drvwritespoolbuf">IPrintOemDriverPS::DrvWriteSpoolBuf</a> (Pscript plug-ins), or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-drvwritespoolbuf">IPrintCorePS2::DrvWriteSpoolBuf</a> (Pscript plug-ins). 
 
 This function pointer prototype defines the <b>DrvWriteSpoolBuf</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
-
 ### -param pBuffer
-
 
 ### -param cbSize
 

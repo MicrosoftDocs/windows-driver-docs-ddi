@@ -8,9 +8,6 @@ ms.assetid: 9dfa8686-a815-417c-9488-dd86de0e15a2
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetDevice::RetrieveUsbInterface"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveUsbInterface method, IWDFUsbTargetDevice.RetrieveUsbInterface, IWDFUsbTargetDevice::RetrieveUsbInterface, RetrieveUsbInterface, RetrieveUsbInterface method, RetrieveUsbInterface method,IWDFUsbTargetDevice interface, UMDFUSBref_cc346a35-4508-40ac-b959-20174a1b39af.xml, umdf.iwdfusbtargetdevice_retrieveusbinterface, wdf.iwdfusbtargetdevice_retrieveusbinterface, wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface
-f1_keywords:
- - "wudfusb/IWDFUsbTargetDevice.RetrieveUsbInterface"
- - "IWDFUsbTargetDevice.RetrieveUsbInterface"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetDevice.RetrieveUsbInterface
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetDevice::RetrieveUsbInterface
+ - wudfusb/IWDFUsbTargetDevice::RetrieveUsbInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetDevice.RetrieveUsbInterface
 ---
 
 # IWDFUsbTargetDevice::RetrieveUsbInterface
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveUsbInterface</b> method retrieves the specified USB interface for a USB device.
 
-
 ## -parameters
 
+### -param InterfaceIndex 
 
-
-
-### -param InterfaceIndex [in]
-
+[in]
 The index of the interface to retrieve.
 
+### -param ppUsbInterface 
 
-### -param ppUsbInterface [out]
-
+[out]
 A pointer to a variable that receives a pointer to the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a> interface for the USB device.
 
-
 ## -returns
-
-
 
 <b>RetrieveUsbInterface</b> returns one of the following values: 
 
@@ -114,14 +107,8 @@ This value corresponds to the error code that the WinUsb API returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-getnuminterfaces">IWDFUsbTargetDevice::GetNumInterfaces</a> method to retrieve the total number of USB interfaces that are available. 
 
@@ -134,12 +121,7 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
 
@@ -154,7 +136,4 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_interface_information">USBD_INTERFACE_INFORMATION</a>
- 
-
- 
 

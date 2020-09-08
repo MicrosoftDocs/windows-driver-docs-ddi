@@ -8,9 +8,6 @@ ms.assetid: 4ECF51C3-D098-49E2-A675-78066A15C221
 ms.date: 09/12/2018
 keywords: ["IOCTL_STORAGE_REINITIALIZE_MEDIA IOCTL"]
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA, IOCTL_STORAGE_REINITIALIZE_MEDIA control, IOCTL_STORAGE_REINITIALIZE_MEDIA control code [Storage Devices], ntddstor/IOCTL_STORAGE_REINITIALIZE_MEDIA, storage.ioctl_storage_reinitialize_media
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_REINITIALIZE_MEDIA"
- - "IOCTL_STORAGE_REINITIALIZE_MEDIA"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- IOCTL_STORAGE_REINITIALIZE_MEDIA
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_REINITIALIZE_MEDIA
+ - ntddstor/IOCTL_STORAGE_REINITIALIZE_MEDIA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - IOCTL_STORAGE_REINITIALIZE_MEDIA
 ---
 
 # IOCTL_STORAGE_REINITIALIZE_MEDIA IOCTL
+
 
 ## -description
 
@@ -75,10 +76,11 @@ The **Information** field is set to zero if the operation completes successfully
 
 ## -remarks
 
-Initial implementation requires no input and returns no output other than status. Callers should first call [FSCTL_LOCK_VOLUME](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume) before calling this ioctl to flush out cached data in upper layers. No waiting of outstanding request completion is done before issuing the command to the device.
+Initial implementation requires no input and returns no output other than status. Callers should first call [FSCTL_LOCK_VOLUME](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-fsctl_lock_volume) before calling this ioctl to flush out cached data in upper layers. No waiting of outstanding request completion is done before issuing the command to the device.
 
 ## -see-also
 
 [_IO_STATUS_BLOCK structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
 
 [How to Complete an IRP in a Dispatch Routine](https://docs.microsoft.com/windows-hardware/drivers/kernel/how-to-complete-an-irp-in-a-dispatch-routine)
+

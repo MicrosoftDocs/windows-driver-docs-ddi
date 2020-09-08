@@ -6,37 +6,40 @@ tech.root: display
 ms.assetid: 228da293-6f46-4a8f-b916-0e3e9baaf237
 ms.date: 10/19/2018
 keywords: ["PANEL_BRIGHTNESS_SENSOR_DATA structure"]
-f1_keywords:
- - "ntddvdeo/_PANEL_BRIGHTNESS_SENSOR_DATA"
- - "_PANEL_BRIGHTNESS_SENSOR_DATA"
 ms.keywords: _PANEL_BRIGHTNESS_SENSOR_DATA, PANEL_BRIGHTNESS_SENSOR_DATA,
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: PANEL_BRIGHTNESS_SENSOR_DATA
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- _PANEL_BRIGHTNESS_SENSOR_DATA
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - _PANEL_BRIGHTNESS_SENSOR_DATA
+ - ntddvdeo/_PANEL_BRIGHTNESS_SENSOR_DATA
+ - PANEL_BRIGHTNESS_SENSOR_DATA
+ - ntddvdeo/PANEL_BRIGHTNESS_SENSOR_DATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - _PANEL_BRIGHTNESS_SENSOR_DATA
+product:
+ - Windows
 ---
 
 # _PANEL_BRIGHTNESS_SENSOR_DATA structure
+
 
 ## -description
 

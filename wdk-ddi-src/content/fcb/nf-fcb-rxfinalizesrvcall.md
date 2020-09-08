@@ -8,9 +8,6 @@ ms.assetid: 293bb629-ac31-4ae3-bba3-b06812e9e6cb
 ms.date: 04/16/2018
 keywords: ["RxFinalizeSrvCall function"]
 ms.keywords: RxFinalizeSrvCall, RxFinalizeSrvCall function [Installable File System Drivers], fcb/RxFinalizeSrvCall, ifsk.rxfinalizesrvcall, rxref_0560ef8e-f9e2-47ba-b78b-c3298e66238e.xml
-f1_keywords:
- - "fcb/RxFinalizeSrvCall"
- - "RxFinalizeSrvCall"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fcb.h
-api_name:
-- RxFinalizeSrvCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxFinalizeSrvCall
+ - fcb/RxFinalizeSrvCall
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fcb.h
+api_name:
+ - RxFinalizeSrvCall
 ---
 
 # RxFinalizeSrvCall function
@@ -46,53 +46,35 @@ req.typenames:
 
 ## -description
 
-
-<b>RxFinalizeSrvCall</b> finalizes the given SRV_CALL structure. The caller must have an exclusive lock on the netname table associated with the device object. 
-
+<b>RxFinalizeSrvCall</b> finalizes the given SRV_CALL structure. The caller must have an exclusive lock on the netname table associated with the device object.
 
 ## -parameters
 
+### -param ThisSrvCall 
 
-
-
-### -param ThisSrvCall [out]
-
+[out]
 A pointer to the SRV_CALL structure to finalize.
 
+### -param ForceFinalize 
 
-### -param ForceFinalize [in]
-
+[in]
 The value indicating whether the finalization should be forced, regardless of the reference count. 
 
-If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the SRV_CALL structure pointed to by <i>ThisSrvCall</i> must be 1 for the SRV_CALL to be finalized. 
-
+If <i>ForceFinalize</i> is <b>FALSE</b>, then the <b>NodeReferenceCount</b> member of the SRV_CALL structure pointed to by <i>ThisSrvCall</i> must be 1 for the SRV_CALL to be finalized.
 
 ## -returns
 
-
-
-<b>RxFinalizeSrvCall</b> returns <b>TRUE</b> on success or <b>FALSE</b> if the finalization did not occur: 
-
-
-
+<b>RxFinalizeSrvCall</b> returns <b>TRUE</b> on success or <b>FALSE</b> if the finalization did not occur:
 
 ## -remarks
-
-
 
 The <b>RxFinalizeSrvCall</b> routine is not normally called by network mini-redirector drivers directly. RDBSS calls this routine internally when the reference count on the SRV_CALL is decremented to 1. RDBSS also calls <b>RxFinalizeSrvCall</b> when the network mini-redirector driver is stopped or unloaded. 
 
 Before calling <b>RxFinalizeSrvCall</b>, a lock on the netname table associated with the device object must be acquired in exclusive mode. 
 
-If the current executing process ID is the same as the RDBSS process ID, then a delayed worker thread will be dispatched to destroy the SRV_CALL structure. This worker thread will later call the <b>MRxFinalizeSrvCall</b> routine provided by the network mini-redirector to finalize the SRV_CALL. Otherwise, the <b>MRxFinalizeSrvCall</b> routine will be called directly to finalize the SRV_CALL. 
-
-
-
+If the current executing process ID is the same as the RDBSS process ID, then a delayed worker thread will be dispatched to destroy the SRV_CALL structure. This worker thread will later call the <b>MRxFinalizeSrvCall</b> routine provided by the network mini-redirector to finalize the SRV_CALL. Otherwise, the <b>MRxFinalizeSrvCall</b> routine will be called directly to finalize the SRV_CALL.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_srvcall_calldown">MRxFinalizeSrvCall</a>
 
@@ -175,7 +157,4 @@ If the current executing process ID is the same as the RDBSS process ID, then a 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-srv-call-structure">The SRV_CALL Structure</a>
- 
-
- 
 

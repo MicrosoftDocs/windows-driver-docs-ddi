@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010"
- - "PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010"
+ - PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010
+ - d3d12umddi/PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010 callback function
+
 
 ## -description
 

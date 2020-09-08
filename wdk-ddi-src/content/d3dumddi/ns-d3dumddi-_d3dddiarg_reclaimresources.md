@@ -8,9 +8,6 @@ ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_RECLAIMRESOURCES structure"]
 ms.keywords: D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources
-f1_keywords:
- - "d3dumddi/D3DDDIARG_RECLAIMRESOURCES"
- - "D3DDDIARG_RECLAIMRESOURCES"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDIARG_RECLAIMRESOURCES
 targetos: Windows
 req.typenames: D3DDDIARG_RECLAIMRESOURCES
+f1_keywords:
+ - _D3DDDIARG_RECLAIMRESOURCES
+ - d3dumddi/_D3DDDIARG_RECLAIMRESOURCES
+ - D3DDDIARG_RECLAIMRESOURCES
+ - d3dumddi/D3DDDIARG_RECLAIMRESOURCES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDIARG_RECLAIMRESOURCES
 ---
 
 # _D3DDDIARG_RECLAIMRESOURCES structure
@@ -46,19 +48,13 @@ req.typenames: D3DDDIARG_RECLAIMRESOURCES
 
 ## -description
 
-
 Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimresources">ReclaimResources</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pResources
 
 [in] A pointer to an array of handles to the resources that are to be reclaimed.
-
 
 ### -field pDiscarded
 
@@ -70,23 +66,15 @@ The driver sets each Boolean value to <b>TRUE</b> if the corresponding resource 
 
 If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
-
 ### -field Resources
 
 [in] The number of elements in the arrays pointed to by <b>pResources</b> and <b>pDiscarded</b>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimresources">ReclaimResources</a>
- 
-
- 
 

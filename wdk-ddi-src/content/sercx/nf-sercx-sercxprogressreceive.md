@@ -8,9 +8,6 @@ ms.assetid: A1773CCB-971E-4439-A11F-82761FF8AF71
 ms.date: 04/23/2018
 keywords: ["SerCxProgressReceive function"]
 ms.keywords: 1/SerCxProgressReceive, SerCxProgressReceive, SerCxProgressReceive method [Serial Ports], serports.sercxprogressreceive
-f1_keywords:
- - "sercx/SerCxProgressReceive"
- - "SerCxProgressReceive"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- 1.0\Sercx.h
-api_name:
-- SerCxProgressReceive
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SerCxProgressReceive
+ - sercx/SerCxProgressReceive
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - SerCxProgressReceive
 ---
 
 # SerCxProgressReceive function
@@ -46,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>SerCxProgressReceive</b> method reports the progress of the current read (receive) operation.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
+### -param BytesReceived 
 
-### -param BytesReceived [in]
-
+[in]
 The number of bytes of data that the caller loaded into the receive buffer that was obtained by the latest call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> method.
 
+### -param ReceiveStatus 
 
-### -param ReceiveStatus [in]
-
+[in]
 The current status of the receive operation. Set this parameter to one of the following values:
 
 <ul>
@@ -76,10 +72,7 @@ The current status of the receive operation. Set this parameter to one of the fo
 </ul>
 For more information about these values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ne-sercx-_sercx_status">SERCX_STATUS</a>.
 
-
 ## -returns
-
-
 
 <b>SerCxProgressReceive</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
 
@@ -122,33 +115,18 @@ The receive operation has already been canceled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The serial controller driver calls this method to report progress on an outstanding read operation. Typically, the serial controller driver calls this method from its DMA completion callback (if the driver uses DMA to read the data) or from its transmit/receive DPC function (if PIO is used).
 
 If the <b>SerCxProgressReceive</b> does not complete all outstanding work for the read operation, the caller must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> method again to get a new buffer descriptor and continue to receive data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ne-sercx-_sercx_status">SERCX_STATUS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a>
- 
-
- 
 

@@ -7,9 +7,6 @@ ms.assetid: E076E9E6-FA7E-4F46-88B4-D3971E62DE1A
 ms.date: 05/10/2018
 keywords: ["D3DKMTFreeGpuVirtualAddress function"]
 ms.keywords: D3DKMTFreeGpuVirtualAddress, D3DKMTFreeGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTFreeGpuVirtualAddress, display.d3dkmtfreegpuvirtualaddress
-f1_keywords:
- - "d3dkmthk/D3DKMTFreeGpuVirtualAddress"
- - "D3DKMTFreeGpuVirtualAddress"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,27 +24,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTFreeGpuVirtualAddress
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTFreeGpuVirtualAddress
+ - d3dkmthk/D3DKMTFreeGpuVirtualAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTFreeGpuVirtualAddress
 ---
 
 # D3DKMTFreeGpuVirtualAddress function
 
+
 ## -description
 
-<b>D3DKMTFreeGpuVirtualAddress</b> releases a range of graphics processing unit (GPU) virtual addresses, which was previously reserved or mapped. 
+<b>D3DKMTFreeGpuVirtualAddress</b> releases a range of graphics processing unit (GPU) virtual addresses, which was previously reserved or mapped.
 
 ## -parameters
 
@@ -56,7 +57,6 @@ req.typenames:
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_freegpuvirtualaddress">D3DKMT_FREEGPUVIRTUALADDRESS</a> structure that describes the operation.
-
 
 ## -returns
 
@@ -82,7 +82,4 @@ The freed virtual address should not be accessed immediately after the call. If 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtupdategpuvirtualaddress">UpdateGpuVirtualAddress</a>
- 
-
- 
 

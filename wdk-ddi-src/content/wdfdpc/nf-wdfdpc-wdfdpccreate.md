@@ -8,9 +8,6 @@ ms.assetid: 46c6ffd1-4c01-4d1d-b7da-8f97f728ac71
 ms.date: 02/26/2018
 keywords: ["WdfDpcCreate function"]
 ms.keywords: DFDpcObjectRef_865403a4-b5c1-4113-b3b1-1929285bb82d.xml, WdfDpcCreate, WdfDpcCreate method, kmdf.wdfdpccreate, wdf.wdfdpccreate, wdfdpc/WdfDpcCreate
-f1_keywords:
- - "wdfdpc/WdfDpcCreate"
- - "WdfDpcCreate"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDpcCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDpcCreate
+ - wdfdpc/WdfDpcCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDpcCreate
 ---
 
 # WdfDpcCreate function
@@ -47,35 +47,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDpcCreate</b> method creates a framework DPC object and registers an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nc-wdfdpc-evt_wdf_dpc">EvtDpcFunc</a> callback function. 
-
+The <b>WdfDpcCreate</b> method creates a framework DPC object and registers an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nc-wdfdpc-evt_wdf_dpc">EvtDpcFunc</a> callback function.
 
 ## -parameters
 
+### -param Config 
 
-
-
-### -param Config [in]
-
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/ns-wdfdpc-_wdf_dpc_config">WDF_DPC_CONFIG</a> structure.
 
+### -param Attributes 
 
-### -param Attributes [in]
+[in]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the new DPC object.
 
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the new DPC object. 
+### -param Dpc 
 
-
-### -param Dpc [out]
-
+[out]
 A pointer to a location that receives a handle to the new framework DPC object.
 
-
 ## -returns
-
-
 
 <b>WdfDpcCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -146,12 +139,7 @@ For a list of other return values that the <b>WdfDpcCreate</b> method might retu
 
 This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 A driver typically calls <b>WdfDpcCreate</b> from within its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
@@ -190,12 +178,7 @@ if (!NT_SUCCESS(status)) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nc-wdfdpc-evt_wdf_dpc">EvtDpcFunc</a>
 
@@ -222,7 +205,4 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>
- 
-
- 
 

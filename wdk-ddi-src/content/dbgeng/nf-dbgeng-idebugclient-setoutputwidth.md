@@ -8,9 +8,6 @@ ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.date: 05/03/2018
 keywords: ["IDebugClient::SetOutputWidth"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputWidth method, IDebugClient.SetOutputWidth, IDebugClient::SetOutputWidth, SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging],IDebugClient interface, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth
-f1_keywords:
- - "dbgeng/IDebugClient.SetOutputWidth"
- - "IDebugClient.SetOutputWidth"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.SetOutputWidth
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient::SetOutputWidth
+ - dbgeng/IDebugClient::SetOutputWidth
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.SetOutputWidth
 ---
 
 # IDebugClient::SetOutputWidth
@@ -46,24 +46,17 @@ req.typenames:
 
 ## -description
 
-
     Controls the width of an output line for
-    commands that produce formatted output. 
-
+    commands that produce formatted output.
 
 ## -parameters
 
+### -param Columns 
 
-
-
-### -param Columns [in]
-
+[in]
 The number of columns in the output.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -84,27 +77,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This setting is a suggestion that can be overridden by other settings.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
- 
-
- 
 

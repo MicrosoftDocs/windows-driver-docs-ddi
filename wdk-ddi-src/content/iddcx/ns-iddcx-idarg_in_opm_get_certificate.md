@@ -8,9 +8,6 @@ ms.assetid: 0f6ce53f-f755-44f7-b579-ce3526e44c41
 ms.date: 05/10/2018
 keywords: ["IDARG_IN_OPM_GET_CERTIFICATE structure"]
 ms.keywords: IDARG_IN_OPM_GET_CERTIFICATE, IDARG_IN_OPM_GET_CERTIFICATE structure [Display Devices], display.idarg_in_opm_get_certificate, iddcx/IDARG_IN_OPM_GET_CERTIFICATE
-f1_keywords:
- - "iddcx/IDARG_IN_OPM_GET_CERTIFICATE"
- - "IDARG_IN_OPM_GET_CERTIFICATE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iddcx.h
-api_name:
-- IDARG_IN_OPM_GET_CERTIFICATE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDARG_IN_OPM_GET_CERTIFICATE
+ - iddcx/IDARG_IN_OPM_GET_CERTIFICATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iddcx.h
+api_name:
+ - IDARG_IN_OPM_GET_CERTIFICATE
 ---
 
 # IDARG_IN_OPM_GET_CERTIFICATE structure
@@ -46,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
-
                  Gives information about the 
              OPM certificate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CertificateType
 
-
                      [in] Type of certificate the information request is for.
-                 
-
 
 ### -field CertificateBufferSizeInBytes
 
-
                      [in] Size of the buffer provided for the driver to copy the certificate to.
-                 
-
 
 ### -field pCertificate
 
-
                      [out] A pointer to a buffer that the driver copies the certificate to.
-                 
 

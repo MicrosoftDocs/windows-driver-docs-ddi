@@ -8,9 +8,6 @@ ms.assetid: C140D11C-41D6-4812-AD95-990CBFA06FE8
 ms.date: 05/08/2018
 keywords: ["IPortClsStreamResourceManager2::AddStreamResource2"]
 ms.keywords: AddStreamResource2, AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices],IPortClsStreamResourceManager2 interface, IPortClsStreamResourceManager2 interface [Audio Devices],AddStreamResource2 method, IPortClsStreamResourceManager2.AddStreamResource2, IPortClsStreamResourceManager2::AddStreamResource2, audio.iportclsstreamresourcemanager2_addstreamresource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2
-f1_keywords:
- - "portcls/IPortClsStreamResourceManager2.AddStreamResource2"
- - "IPortClsStreamResourceManager2.AddStreamResource2"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- IPortClsStreamResourceManager2.AddStreamResource2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsStreamResourceManager2::AddStreamResource2
+ - portcls/IPortClsStreamResourceManager2::AddStreamResource2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - IPortClsStreamResourceManager2.AddStreamResource2
 ---
 
 # IPortClsStreamResourceManager2::AddStreamResource2
@@ -47,40 +47,32 @@ req.typenames:
 
 ## -description
 
-
 AddStreamResource2 adds a stream resource. 
 Two type of stream resources are supported: interrupts and driver-owned threads. The AddStreamResource2 method can only be used by audio waveRT miniport drivers.
 
-
 ## -parameters
 
+### -param PhysicalDeviceObject 
 
-
-
-### -param PhysicalDeviceObject [in]
-
+[in]
 Pointer to the device object. The device object is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
+### -param ResourceSet 
 
-### -param ResourceSet [in]
-
+[in]
 PVOID - Reserved for future use, set to NULL. Only device-scoped resources are supported at this time.
 
+### -param ResourceDescriptor 
 
-### -param ResourceDescriptor [in]
+[in]
+PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information see, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>.
 
-PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information see, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>. 
+### -param ResourceHandle 
 
-
-
-### -param ResourceHandle [out]
-
-PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>.  
-
+[out]
+PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>.
 
 ## -returns
-
-
 
 STATUS_SUCCESS – The driver was able to register the resource of the specified PDO. 
 
@@ -92,13 +84,7 @@ STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other
 
 Additional standard status codes may be returned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsstreamresourcemanager">IPortClsStreamResourceManager</a>
 
@@ -113,7 +99,4 @@ Additional standard status codes may be returned.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>
- 
-
- 
 

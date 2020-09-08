@@ -8,9 +8,6 @@ ms.assetid: 370da53a-3c20-4e45-8732-8f08aa2d96ae
 ms.date: 04/16/2018
 keywords: ["FsRtlSetEcpListIntoIrp function"]
 ms.keywords: FsRtlSetEcpListIntoIrp, FsRtlSetEcpListIntoIrp routine [Installable File System Drivers], fsrtlref_b292fe42-cbfa-430d-abca-528482cecbed.xml, ifsk.fsrtlsetecplistintoirp, ntifs/FsRtlSetEcpListIntoIrp
-f1_keywords:
- - "ntifs/FsRtlSetEcpListIntoIrp"
- - "FsRtlSetEcpListIntoIrp"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlSetEcpListIntoIrp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlSetEcpListIntoIrp
+ - ntifs/FsRtlSetEcpListIntoIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlSetEcpListIntoIrp
 ---
 
 # FsRtlSetEcpListIntoIrp function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>FsRtlSetEcpListIntoIrp</b> routine attaches an extra create parameter (ECP) context structure list to an IRP_MJ_CREATE operation. 
-
+The <b>FsRtlSetEcpListIntoIrp</b> routine attaches an extra create parameter (ECP) context structure list to an IRP_MJ_CREATE operation.
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in, out]
-
+[in, out]
 A pointer to the IRP for an IRP_MJ_CREATE operation to which the ECP context structure list is to be attached.
 
+### -param EcpList 
 
-### -param EcpList [in]
-
-Pointer to an ECP list that contains one or more ECP context structures. These structures will be attached to the IRP to which the <i>Irp</i> parameter points. 
-
+[in]
+Pointer to an ECP list that contains one or more ECP context structures. These structures will be attached to the IRP to which the <i>Irp</i> parameter points.
 
 ## -returns
-
-
 
 <b>FsRtlSetEcpListIntoIrp</b> returns one of the following NTSTATUS values:
 
@@ -110,33 +103,18 @@ An ECP list has already been attached to the given IRP.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>FsRtlSetEcpListIntoIrp</b> routine provides a mechanism for passing extra create parameters down the file system filter stack to underlying filter drivers.
 
 To retrieve an ECP list that is associated with a given IRP_MJ_CREATE operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546015">FsRtlGetEcpListFromIrp</a> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546015">FsRtlGetEcpListFromIrp</a>
- 
-
- 
 

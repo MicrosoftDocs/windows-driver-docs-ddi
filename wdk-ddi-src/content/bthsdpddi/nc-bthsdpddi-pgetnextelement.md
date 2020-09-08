@@ -28,8 +28,8 @@ req.irql: <= PASSIVE_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "bthsdpddi/SdpGetNextElement"
- - "SdpGetNextElement"
+ - PGETNEXTELEMENT
+ - bthsdpddi/PGETNEXTELEMENT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PGETNEXTELEMENT callback function
+
 
 ## -description
 

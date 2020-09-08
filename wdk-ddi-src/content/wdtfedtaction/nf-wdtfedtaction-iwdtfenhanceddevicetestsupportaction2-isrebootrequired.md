@@ -8,9 +8,6 @@ ms.assetid: 598c4e54-74e1-4e95-bdf9-23bc70f4b530
 ms.date: 04/04/2018
 keywords: ["IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired"]
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],IsRebootRequired method, IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IsRebootRequired method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, dtf.iwdtfenhanceddevicetestsupportaction2_isrebootrequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
-f1_keywords:
- - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired"
- - "IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFDriverEDTAction.Interop.dll
-api_name:
-- IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
+ - wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFDriverEDTAction.Interop.dll
+api_name:
+ - IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired
 ---
 
 # IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver requires a reboot.
-
 
 ## -parameters
 
+### -param pbRebootRequired 
 
-
-
-### -param pbRebootRequired [out, retval]
-
+[out, retval]
 True if reboot is required; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2">IWDTFEnhancedDeviceTestSupportAction2</a>
- 
-
- 
 

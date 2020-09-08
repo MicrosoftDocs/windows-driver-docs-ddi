@@ -8,9 +8,6 @@ ms.assetid: 3734b286-b5cb-4906-9947-3ad23ef54267
 ms.date: 04/16/2018
 keywords: ["FsRtlCheckLockForReadAccess function"]
 ms.keywords: FsRtlCheckLockForReadAccess, FsRtlCheckLockForReadAccess routine [Installable File System Drivers], fsrtlref_6ec3721a-c748-40c2-8469-336a56fd9eb6.xml, ifsk.fsrtlchecklockforreadaccess, ntifs/FsRtlCheckLockForReadAccess
-f1_keywords:
- - "ntifs/FsRtlCheckLockForReadAccess"
- - "FsRtlCheckLockForReadAccess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlCheckLockForReadAccess
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlCheckLockForReadAccess
+ - ntifs/FsRtlCheckLockForReadAccess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlCheckLockForReadAccess
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlCheckLockForReadAccess function
@@ -49,37 +49,25 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlCheckLockForReadAccess</b> routine determines whether the process associated with a given IRP has read access to a locked region of a file.
-
 
 ## -parameters
 
+### -param FileLock 
 
-
-
-### -param FileLock [in]
-
+[in]
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 Pointer to the IRP. Must be an IRP for a read operation.
-
 
 ## -returns
 
-
-
 <b>FsRtlCheckLockForReadAccess</b> returns <b>TRUE</b> if the process has read access, <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 On Microsoft Windows XP and later, <b>FsRtlCheckLockForReadAccess</b> checks the process to which the thread that requested the read operation is currently attached. 
 
@@ -89,15 +77,9 @@ On Microsoft Windows 2000 and earlier, <b>FsRtlCheckLockForReadAccess</b> checks
 
 <b>FsRtlCheckLockForReadAccess</b> does not complete the IRP specified by <i>Irp</i>. 
 
-Minifilters must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforreadaccess">FltCheckLockForReadAccess</a> instead of <b>FsRtlCheckLockForReadAccess</b>. 
-
-
-
+Minifilters must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforreadaccess">FltCheckLockForReadAccess</a> instead of <b>FsRtlCheckLockForReadAccess</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltchecklockforreadaccess">FltCheckLockForReadAccess</a>
 
@@ -120,7 +102,4 @@ Minifilters must call <a href="https://docs.microsoft.com/windows-hardware/drive
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock">FsRtlProcessFileLock</a>
- 
-
- 
 

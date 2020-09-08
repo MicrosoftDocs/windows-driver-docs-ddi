@@ -8,9 +8,6 @@ ms.assetid: 1bd9a156-a366-4f35-956f-d195c41ae722
 ms.date: 05/10/2018
 keywords: ["VideoPortGetDmaContext function"]
 ms.keywords: VideoPortGetDmaContext, VideoPortGetDmaContext function [Display Devices], VideoPort_Functions_97335d32-fa36-4130-a050-39fbdfc08517.xml, display.videoportgetdmacontext, video/VideoPortGetDmaContext
-f1_keywords:
- - "video/VideoPortGetDmaContext"
- - "VideoPortGetDmaContext"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortGetDmaContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortGetDmaContext
+ - video/VideoPortGetDmaContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortGetDmaContext
 ---
 
 # VideoPortGetDmaContext function
@@ -46,41 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortGetDmaContext</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 <b>VideoPortGetDmaContext</b> gets the context previously associated with the specified DMA handle.
 
-
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param pDma 
 
-### -param pDma [in]
-
-Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a> returns. 
-
+[in]
+Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a> returns.
 
 ## -returns
 
-
-
 <b>VideoPortGetDmaContext</b> always returns <b>NULL</b>.
-
-
-
 
 ## -remarks
 
-
-
 See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 3f10997f-263f-4d1b-ab0a-d44201aaaf37
 ms.date: 05/03/2018
 keywords: ["DEBUG_MODULE_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, _DEBUG_MODULE_PARAMETERS, dbgeng/DEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters"
-f1_keywords:
- - "dbgeng/DEBUG_MODULE_PARAMETERS"
- - "DEBUG_MODULE_PARAMETERS"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgEng.h
-api_name:
-- DEBUG_MODULE_PARAMETERS
 targetos: Windows
 req.typenames: DEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS
+f1_keywords:
+ - _DEBUG_MODULE_PARAMETERS
+ - dbgeng/_DEBUG_MODULE_PARAMETERS
+ - PDEBUG_MODULE_PARAMETERS
+ - dbgeng/PDEBUG_MODULE_PARAMETERS
+ - DEBUG_MODULE_PARAMETERS
+ - dbgeng/DEBUG_MODULE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgEng.h
+api_name:
+ - DEBUG_MODULE_PARAMETERS
 ---
 
 # _DEBUG_MODULE_PARAMETERS structure
@@ -46,34 +50,25 @@ req.typenames: DEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS
 
 ## -description
 
-
 The DEBUG_MODULE_PARAMETERS structure contains most of the parameters for describing a module.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Base
 
 The location in the target's virtual address space of the module's base.  If the value of <b>Base</b> is DEBUG_INVALID_OFFSET, the structure is invalid.
 
-
 ### -field Size
 
 The size, in bytes, of the memory range that is occupied by the module.
-
 
 ### -field TimeDateStamp
 
 The date and time stamp of the module's executable file.  This is the number of seconds elapsed since midnight (00:00:00), January 1, 1970 Coordinated Universal Time (UTC) as stored in the image file header.
 
-
 ### -field Checksum
 
 The checksum of the image.  This value can be zero.
-
 
 ### -field Flags
 
@@ -115,8 +110,6 @@ The checksum in the symbol file did not match the checksum for the module image.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SymbolType
 
@@ -208,48 +201,36 @@ Symbols in PDB format have been loaded through the DIA interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ImageNameSize
 
 The size of the file name for the module. The size is measured in characters, including the terminator.
 
-
 ### -field ModuleNameSize
 
 The size of the module name of the module. The size is measured in characters, including the terminator.
-
 
 ### -field LoadedImageNameSize
 
 The size of the loaded image name for the module. The size is measured in characters, including the terminator.
 
-
 ### -field SymbolFileNameSize
 
 The size of the symbol file name for the module. The size is measured in characters, including the terminator.
-
 
 ### -field MappedImageNameSize
 
 The size of the mapped image name of the module. The size is measured in characters, including the terminator.
 
-
 ### -field Reserved
 
 Reserved for system use.
 
-
 ## -remarks
-
-
 
 This structure is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmoduleparameters">GetModuleParameters</a>.
 
 To locate the different names for the module, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulenamestring">GetModuleNameString</a>.
 
 For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.  For details about the different names for the module, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulenamestring">GetModuleNameString</a>.
-
-
 

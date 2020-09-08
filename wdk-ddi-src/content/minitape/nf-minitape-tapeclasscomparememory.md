@@ -8,9 +8,6 @@ ms.assetid: dfff350c-ff76-49d3-b4ba-a5a51fabd419
 ms.date: 03/29/2018
 keywords: ["TapeClassCompareMemory function"]
 ms.keywords: TapeClassCompareMemory, TapeClassCompareMemory routine [Storage Devices], minitape/TapeClassCompareMemory, storage.tapeclasscomparememory, tapeclas_77631fdd-b72a-4569-8066-54f260cb4d9a.xml
-f1_keywords:
- - "minitape/TapeClassCompareMemory"
- - "TapeClassCompareMemory"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Tape.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Tape.lib
-- Tape.dll
-api_name:
-- TapeClassCompareMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - TapeClassCompareMemory
+ - minitape/TapeClassCompareMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Tape.lib
+ - Tape.dll
+api_name:
+ - TapeClassCompareMemory
 ---
 
 # TapeClassCompareMemory function
@@ -47,55 +47,34 @@ req.typenames:
 
 ## -description
 
-
 The <b>TapeClassCompareMemory</b> routine compares two memory buffers and returns the number of bytes that are equivalent.
-
 
 ## -parameters
 
+### -param Source1 
 
-
-
-### -param Source1 [in, out]
-
+[in, out]
 Pointer to the first buffer to be compared.
 
+### -param Source2 
 
-### -param Source2 [in, out]
-
+[in, out]
 Pointer to the second buffer to be compared.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the number of bytes to be compared.
-
 
 ## -returns
 
-
-
 <b>TapeClassCompareMemory</b> returns the number of bytes that are equivalent.
-
-
-
 
 ## -remarks
 
-
-
 A tape miniclass driver uses <b>TapeClassCompareMemory</b> to compare memory in a portable way. For example, a miniclass driver uses <b>TapeClassCompareMemory</b> in its TapeMiniVerifyInquiry routine to determine whether a given product ID matches one of the devices the driver supports.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a>
- 
-
- 
 

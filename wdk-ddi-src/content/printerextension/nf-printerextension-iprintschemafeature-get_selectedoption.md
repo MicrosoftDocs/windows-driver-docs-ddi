@@ -8,9 +8,6 @@ ms.assetid: C22BC037-05D2-4F44-8704-D1D56909B603
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaFeature::get_SelectedOption"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature.get_SelectedOption, IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices],IPrintSchemaFeature interface, get_SelectedOption, print.iprintschemafeature_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::get_SelectedOption
-f1_keywords:
- - "printerextension/IPrintSchemaFeature.SelectedOption"
- - "IPrintSchemaFeature.SelectedOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaFeature.SelectedOption
-- IPrintSchemaFeature.get_SelectedOption
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaFeature::get_SelectedOption
+ - printerextension/IPrintSchemaFeature::get_SelectedOption
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaFeature.SelectedOption
+ - IPrintSchemaFeature.get_SelectedOption
 ---
 
 # IPrintSchemaFeature::get_SelectedOption
@@ -47,19 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> representing the selected option.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>
 
@@ -70,7 +64,4 @@ This property is read-only.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket_GetCapabilities</a>
- 
-
- 
 

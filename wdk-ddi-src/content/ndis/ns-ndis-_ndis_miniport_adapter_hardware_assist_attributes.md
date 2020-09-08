@@ -8,9 +8,6 @@ ms.assetid: b0662a2c-feb6-4d66-89c9-586c2859b78b
 ms.date: 05/02/2018
 keywords: ["NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES, header_data_split_ref_cedb1474-09f1-4340-9d13-d6d7f5b96ed4.xml, ndis/NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES, netvista.ndis_miniport_adapter_hardware_assist_attributes"
-f1_keywords:
- - "ndis/NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES"
- - "NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
 targetos: Windows
 req.typenames: NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
+f1_keywords:
+ - _NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
+ - ndis/_NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
+ - PNDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
+ - ndis/PNDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
+ - NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
+ - ndis/NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
 ---
 
 # _NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES, *PNDIS_MINIPORT
 
 ## -description
 
-
 The <b>NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b> structure specifies the hardware-assisted attributes of the network adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -100,14 +99,12 @@ Original version for NDIS 6.1.
 Set the 
         <b>Size</b> member to NDIS_SIZEOF_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES_REVISION_1.
 
-
 ### -field HDSplitAttributes
 
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_hd_split_attributes">NDIS_HD_SPLIT_ATTRIBUTES</a> structure
      that represents the header-data split capabilities that the network adapter provides. If the network adapter does not support the header-data split feature, set 
      <b>HDSplitAttributes</b> to <b>NULL</b>.
-
 
 ### -field HardwareReceiveFilterCapabilities
 
@@ -184,34 +181,18 @@ If the adapter supports NDIS QoS capabilties but those capabilities are disabled
 
 ### -field HardwareGftOffloadCapabilities
 
- 
-
-
 ### -field CurrentGftOffloadCapabilities
 
- 
-
-
-
-
 ## -remarks
-
-
 
 To register the hardware-assisted capabilities of the underlying network adapter, the miniport driver calls the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
     NdisMSetMiniportAttributes</a> function from its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The driver passes 
     an initialized <b>NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b>
-    structure to the <i>MiniportAttributes</i> parameter of this function. 
-
-
-
+    structure to the <i>MiniportAttributes</i> parameter of this function.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -243,7 +224,4 @@ To register the hardware-assisted capabilities of the underlying network adapter
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

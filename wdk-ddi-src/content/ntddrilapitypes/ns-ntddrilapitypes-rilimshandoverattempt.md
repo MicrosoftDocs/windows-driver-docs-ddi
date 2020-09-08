@@ -8,9 +8,6 @@ ms.assetid: 22491e3c-fa23-473d-b3e6-92c776b81204
 ms.date: 05/02/2018
 keywords: ["RILIMSHANDOVERATTEMPT structure"]
 ms.keywords: "*LPRILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], netvista.rilimshandoverattempt, ntddrilapitypes/RILIMSHANDOVERATTEMPT"
-f1_keywords:
- - "ntddrilapitypes/RILIMSHANDOVERATTEMPT"
- - "RILIMSHANDOVERATTEMPT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,41 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILIMSHANDOVERATTEMPT
 targetos: Windows
 req.typenames: RILIMSHANDOVERATTEMPT, *LPRILIMSHANDOVERATTEMPT
+f1_keywords:
+ - RILIMSHANDOVERATTEMPT
+ - ntddrilapitypes/RILIMSHANDOVERATTEMPT
+ - LPRILIMSHANDOVERATTEMPT
+ - ntddrilapitypes/LPRILIMSHANDOVERATTEMPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILIMSHANDOVERATTEMPT
 ---
 
-# RILIMSHANDOVERATTEMPT structure
+# RILIMSHANDOVERATTEMPT structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwOldSystemType
 
-
 ### -field dwDestSystemType
-
 
 ### -field hrHandOverResult
 

@@ -8,9 +8,6 @@ ms.assetid: 44760191-77DD-40A9-AA11-AE8AB55AB307
 ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitSetEndpointsType function"]
 ms.keywords: UdecxUsbDeviceInitSetEndpointsType, UdecxUsbDeviceInitSetEndpointsType function [Buses], buses.udecxusbdeviceinitsetendpointstype, udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType
-f1_keywords:
- - "udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType"
- - "UdecxUsbDeviceInitSetEndpointsType"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbDeviceInitSetEndpointsType
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbDeviceInitSetEndpointsType
+ - udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbDeviceInitSetEndpointsType
 ---
 
 # UdecxUsbDeviceInitSetEndpointsType function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 Indicates the type of endpoint (simple or dynamic) in the initialization parameters that the client driver uses to create the virtual USB device.
-
 
 ## -parameters
 
+### -param UdecxUsbDeviceInit 
 
+[in, out]
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>.
 
+### -param UdecxEndpointType 
 
-### -param UdecxUsbDeviceInit [in, out]
-
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
-
-
-### -param UdecxEndpointType [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ne-udecxusbdevice-_udecx_endpoint_type">UDECX_ENDPOINT_TYPE</a>-type value that indicates the type of USB endpoint.
 
-
 ## -remarks
-
-
 
 Before creating the virtual USB device, the client driver must indicate the type of endpoint it supports. It can support one of two types (defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ne-udecxusbdevice-_udecx_endpoint_type">UDECX_ENDPOINT_TYPE</a>): 
 
@@ -93,13 +86,7 @@ The <i>UdecxUsbDeviceInit</i> is an opaque structure that contains pointers to c
 </ul>
 Before calling this method, the client driver must have set those pointers by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks">UdecxUsbDeviceInitSetStateChangeCallbacks</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -122,7 +109,4 @@ Before calling this method, the client driver must have set those pointers by ca
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

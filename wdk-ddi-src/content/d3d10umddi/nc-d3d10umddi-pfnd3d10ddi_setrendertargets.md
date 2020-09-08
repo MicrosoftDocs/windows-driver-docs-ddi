@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/SetRenderTargets"
- - "SetRenderTargets"
+ - PFND3D10DDI_SETRENDERTARGETS
+ - d3d10umddi/PFND3D10DDI_SETRENDERTARGETS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_SETRENDERTARGETS callback function
+
 
 ## -description
 

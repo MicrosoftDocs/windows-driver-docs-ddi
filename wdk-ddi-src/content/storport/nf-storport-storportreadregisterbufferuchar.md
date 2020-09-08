@@ -8,9 +8,6 @@ ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterBufferUchar macro"]
 ms.keywords: StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], storage.storportreadregisterbufferuchar, storport/StorPortReadRegisterBufferUchar, storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml
-f1_keywords:
- - "storport/StorPortReadRegisterBufferUchar"
- - "StorPortReadRegisterBufferUchar"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortReadRegisterBufferUchar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortReadRegisterBufferUchar
+ - storport/StorPortReadRegisterBufferUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortReadRegisterBufferUchar
 ---
 
 # StorPortReadRegisterBufferUchar macro
@@ -47,55 +47,39 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortReadRegisterBufferUchar</b> routine reads a value from a specified register address. 
-
+The <b>StorPortReadRegisterBufferUchar</b> routine reads a value from a specified register address.
 
 ## -parameters
 
+### -param h 
 
-
-
-### -param h [in]
-
+[in]
 A Pointer to the hardware device extension.
 
+### -param r 
 
-### -param r [in]
+[in]
+Pointer to the register where the data is to be read.
 
-Pointer to the register where the data is to be read. 
+### -param b 
 
-
-### -param b [in]
-
+[in]
 A pointer to the buffer that receives the data that is read.
 
+### -param c 
 
-### -param c [in]
-
-Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR). 
-
+[in]
+Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR).
 
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisterbufferuchar">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisteruchar">StorPortReadRegisterUchar</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisterbufferuchar">ScsiPortReadRegisterBufferUchar</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisteruchar">StorPortReadRegisterUchar</a>
- 
-
- 
 

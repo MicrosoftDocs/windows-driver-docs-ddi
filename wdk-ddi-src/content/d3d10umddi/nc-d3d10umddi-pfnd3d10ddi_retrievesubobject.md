@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/RetrieveSubObject(D3D11_1)"
- - "RetrieveSubObject(D3D11_1)"
+ - PFND3D10DDI_RETRIEVESUBOBJECT
+ - d3d10umddi/PFND3D10DDI_RETRIEVESUBOBJECT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_RETRIEVESUBOBJECT callback function
+
 
 ## -description
 

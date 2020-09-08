@@ -8,9 +8,6 @@ ms.assetid: E6A96765-3D95-431B-B29A-5BD7641325A8
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_CLOSE_ADAPTER callback function"]
 ms.keywords: MINIPORT_WDI_CLOSE_ADAPTER, MINIPORT_WDI_CLOSE_ADAPTER callback, MiniportWdiCloseAdapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCloseAdapter, netvista.miniportwdicloseadapter
-f1_keywords:
- - "dot11wdi/MiniportWdiCloseAdapter"
- - "MiniportWdiCloseAdapter"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiCloseAdapter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_CLOSE_ADAPTER
+ - dot11wdi/MINIPORT_WDI_CLOSE_ADAPTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiCloseAdapter
 ---
 
 # MINIPORT_WDI_CLOSE_ADAPTER callback function
 
 
 ## -description
-
 
 The MiniportWdiCloseAdapter handler function is used by the Microsoft component to initiate the Close Task operation on the IHV driver.
 
@@ -57,18 +56,12 @@ This call must complete quickly. If the close operation is successfully started,
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to the context area that the miniport driver allocated.
 
-
 ## -returns
-
-
-
 
             MiniportWdiCloseAdapter can return any of the following return values.
 
@@ -100,15 +93,8 @@ An appropriate NDIS_STATUS code in the case of a failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_close_adapter_complete">CloseAdapterComplete</a>
 
@@ -123,7 +109,4 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_init_parameters">NDIS_WDI_INIT_PARAMETERS</a>
- 
-
- 
 

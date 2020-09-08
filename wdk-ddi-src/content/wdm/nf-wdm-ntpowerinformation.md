@@ -8,9 +8,6 @@ ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.date: 04/30/2018
 keywords: ["NtPowerInformation function"]
 ms.keywords: NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation
-f1_keywords:
- - "wdm/ZwPowerInformation"
- - "ZwPowerInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntpoapi.h
 req.target-type: Universal
@@ -28,36 +25,35 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.lib
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.lib
-api_name:
-- ZwPowerInformation
-- NtPowerInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtPowerInformation
+ - wdm/NtPowerInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.lib
+api_name:
+ - ZwPowerInformation
+ - NtPowerInformation
 ---
 
-# NtPowerInformation function
+# NtPowerInformation function (wdm.h)
 
 
 ## -description
 
-
 The <b>ZwPowerInformation</b> routine sets or retrieves system power information.
-
 
 ## -parameters
 
+### -param InformationLevel 
 
-
-
-### -param InformationLevel [in]
-
+[in]
 Specifies the requested information level, which indicates the specific power information to be set or retrieved. Currently, the only supported <i>POWER_INFORMATION_LEVEL</i> value is <b>PlatformInformation</b>.
 
 <table>
@@ -76,32 +72,28 @@ Information represents the currently supported power capabilities of the system.
 </td>
 </tr>
 </table>
- 
 
+### -param InputBuffer 
 
-### -param InputBuffer [in, optional]
+[in, optional]
+Pointer to a caller-allocated input buffer. This parameter must be <b>NULL</b>, otherwise <b>ERROR_INVALID_PARAMETER</b> is returned.
 
-Pointer to a caller-allocated input buffer. This parameter must be <b>NULL</b>, otherwise <b>ERROR_INVALID_PARAMETER</b> is returned. 
+### -param InputBufferLength 
 
-
-### -param InputBufferLength [in]
-
+[in]
 Size, in bytes, of the buffer at <i>InputBuffer</i>. The parameter must be set to zero.
 
+### -param OutputBuffer 
 
-### -param OutputBuffer [out, optional]
-
+[out, optional]
 A pointer to an output buffer. The data type of this buffer depends on the information level requested in the <i>InformationLevel</i> parameter. For the <b>PlatformInformation</b> level, the only currently supported value, the <i>OutputBuffer </i> parameter is required and should be of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a> type.
 
+### -param OutputBufferLength 
 
-### -param OutputBufferLength [in]
-
+[in]
 Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. <i>PlatformInformation</i>, the only currently supported value, requires a buffer that is the size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a> structure.
 
-
 ## -returns
-
-
 
 Returns STATUS_SUCCESS if the call is successful. If the call fails, possible error codes include the following:
 
@@ -144,15 +136,8 @@ The caller had insufficient access rights to perform the requested action.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntpowerinformation">NtPowerInformation</a> and <b>ZwPowerInformation</b> are two versions of the same Windows Native System Services routine.
 
@@ -176,19 +161,11 @@ NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &PlatformInfo
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
- 
-
- 
 

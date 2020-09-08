@@ -8,9 +8,6 @@ ms.assetid: 0A44551A-F379-442D-99E9-87231F5FB178
 ms.date: 05/07/2018
 keywords: ["USBFN_GET_ATTACH_ACTION_ABORT callback function"]
 ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_GET_ATTACH_ACTION_ABORT callback, UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
-f1_keywords:
- - "usbfnattach/USBFN_SET_DEVICE_STATE"
- - "USBFN_SET_DEVICE_STATE"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbfnattach.h
-api_name:
-- USBFN_SET_DEVICE_STATE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBFN_GET_ATTACH_ACTION_ABORT
+ - usbfnattach/USBFN_GET_ATTACH_ACTION_ABORT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbfnattach.h
+api_name:
+ - USBFN_SET_DEVICE_STATE
 ---
 
 # USBFN_GET_ATTACH_ACTION_ABORT callback function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The filter driver's implementation to abort an attach-detect operation.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
     A pointer to a driver-defined context.
-
 
 ## -returns
 
-
-
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
-
-
-
 ## -remarks
-
-
 
 To support attach and detatch detection, the USB lower filter driver must publish its support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>.
 
@@ -106,15 +94,7 @@ UsbLowerFilter_GetAttachActionAbortOperation(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
- 
-
- 
 

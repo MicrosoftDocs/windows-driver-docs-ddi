@@ -7,9 +7,6 @@ ms.assetid: b6b142a4-20eb-4368-bd7f-8a25f4fe48ca
 ms.date: 05/10/2018
 keywords: ["DXGKCB_CREATECONTEXTALLOCATION callback function"]
 ms.keywords: DXGKCB_CREATECONTEXTALLOCATION, DXGKCB_CREATECONTEXTALLOCATION callback, DxgkCbCreateContextAllocation, DxgkCbCreateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbCreateContextAllocation, display.dxgkcbcreatecontextallocation
-f1_keywords:
- - "d3dkmddi/DxgkCbCreateContextAllocation"
- - "DxgkCbCreateContextAllocation"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkCbCreateContextAllocation
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - DXGKCB_CREATECONTEXTALLOCATION
+ - d3dkmddi/DXGKCB_CREATECONTEXTALLOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkCbCreateContextAllocation
 ---
 
 # DXGKCB_CREATECONTEXTALLOCATION callback function
@@ -46,12 +46,9 @@ req.typenames:
 
 ## -description
 
-
 Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to allocate a GPU context or device-specific context.
 
-
 ## -parameters
-
 
 ### -param 
 
@@ -59,19 +56,11 @@ Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport dr
 
 [in, out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure that specifies the attributes of the context to be allocated.
 
-
 ## -returns
-
-
 
 <i>DxgkCbCreateContextAllocation</i> returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 Starting with WDDM 1.2, display miniport drivers can allocate a GPU-specific context (<i>GPU context allocation</i>) or a device-specific context (<i>device context allocation</i>).
 
@@ -97,14 +86,7 @@ To ensure that the operating system sets a valid (non-<b>NULL</b>) virtual addre
 <li>Page in the allocation only to aperture segments by setting  the <b>SupportedSegmentSet</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure.</li>
 </ul>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_createcontextallocation">DXGKARGCB_CREATECONTEXTALLOCATION</a>
 
@@ -135,7 +117,4 @@ To ensure that the operating system sets a valid (non-<b>NULL</b>) virtual addre
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 297f7b03-efd0-4e9c-a758-1a3b5b89511d
 ms.date: 04/30/2018
 keywords: ["ClfsCreateLogFile function"]
 ms.keywords: ClfsCreateLogFile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, kernel.clfscreatelogfile, wdm/ClfsCreateLogFile
-f1_keywords:
- - "wdm/ClfsCreateLogFile"
- - "ClfsCreateLogFile"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsCreateLogFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsCreateLogFile
+ - wdm/ClfsCreateLogFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsCreateLogFile
 ---
 
 # ClfsCreateLogFile function
@@ -47,23 +47,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsCreateLogFile</b> routine creates or opens a CLFS stream. If necessary, <b>ClfsCreateLogFile</b> also creates the underlying physical log that holds the stream's records.
-
 
 ## -parameters
 
+### -param pplfoLog 
 
-
-
-### -param pplfoLog [out]
-
+[out]
 A pointer to a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream.
 
+### -param puszLogFileName 
 
-### -param puszLogFileName [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the name of the stream or the underlying physical log. 
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the name of the stream or the underlying physical log. 
 
 If the stream already exists and is the only stream of a dedicated log, the name has the form log:<i>physical log name</i>, where <i>physical log name</i> is the path name, on the underlying file system, of the existing physical log that contains the stream's records.
 
@@ -90,8 +86,9 @@ The following list gives some examples of valid names.
 </li>
 </ul>
 
-### -param fDesiredAccess [in]
+### -param fDesiredAccess 
 
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> that supplies the type of access the client will have (by using the pointer returned in <i>pplfoLog</i>) to the stream. If this parameter is zero, clients can query the stream for its attributes, but cannot read from or write to the stream. This parameter can be zero or any combination of the following flags:
 
 <table>
@@ -130,11 +127,10 @@ The client can mark the stream for deletion.
 </td>
 </tr>
 </table>
- 
 
+### -param dwShareMode 
 
-### -param dwShareMode [in]
-
+[in]
 The sharing mode of the stream, which can be zero (not shared) or any combination of the following flags:
 
 <table>
@@ -173,16 +169,15 @@ Subsequent requests to open the stream with write access will succeed.
 </td>
 </tr>
 </table>
- 
 
+### -param psdLogFile 
 
-### -param psdLogFile [in, optional]
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that supplies security attributes for the stream. This parameter can be <b>NULL</b>.
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that supplies security attributes for the stream. This parameter can be <b>NULL</b>. 
+### -param fCreateDisposition 
 
-
-### -param fCreateDisposition [in]
-
+[in]
 The action to take that depends on whether the stream already exists. This parameter must be set to one of the following values:
 
 <table>
@@ -221,11 +216,10 @@ Open an existing stream. Create the stream if it does not already exist.
 </td>
 </tr>
 </table>
- 
 
+### -param fCreateOptions 
 
-### -param fCreateOptions [in]
-
+[in]
 A set of flags that specify options to apply when creating or opening the stream. This parameter can be zero or a compatible combination of the following flags:
 
 <table>
@@ -264,18 +258,17 @@ All operations on the stream are performed synchronously. Waits in the system th
 </td>
 </tr>
 </table>
- 
 
+### -param fFlagsAndAttributes 
 
-### -param fFlagsAndAttributes [in]
-
+[in]
 A value that specifies whether the stream is opened for normal or read-only access. This parameter must be set to either 
 
 FILE_ATTRIBUTE_NORMAL or FILE_ATTRIBUTE_READONLY.
 
+### -param fLogOptionFlag 
 
-### -param fLogOptionFlag [in]
-
+[in]
 A hint about the relationship between CLFS and the component creating or opening the stream. This parameter must be set to one of the following values:
 	 
 
@@ -335,45 +328,30 @@ The creating component is a file system minifilter driver that sends all of its 
 </td>
 </tr>
 </table>
- 
 
+### -param pvContext 
 
-### -param pvContext [in, optional]
+[in, optional]
+A pointer to a context. The way the context is interpreted depends on the value passed to <i>fLogOptionsFlag</i>.
 
-A pointer to a context. The way the context is interpreted depends on the value passed to <i>fLogOptionsFlag</i>. 
+### -param cbContext 
 
-
-### -param cbContext [in]
-
-The size, in bytes, of the context pointed to by <i>pvContext</i>. If <i>pvContext</i> is not <b>NULL</b>, this parameter must be greater than zero. 
-
+[in]
+The size, in bytes, of the context pointed to by <i>pvContext</i>. If <i>pvContext</i> is not <b>NULL</b>, this parameter must be greater than zero.
 
 ## -returns
 
-
-
 <b>ClfsCreateLogFile</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 When you create a CLFS stream, it is backed by an underlying physical CLFS log. The underlying log can be either dedicated (backs only one stream) or multiplexed (backs several streams). A dedicated log cannot be converted to a multiplexed log, and a multiplexed log cannot be converted to a dedicated log.
 
 A physical CLFS log name does not include the .blf extension.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>. 
-
-
-
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscloseandresetlogfile">ClfsCloseAndResetLogFile</a>
 
@@ -388,7 +366,4 @@ For an explanation of CLFS concepts and terminology, see <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsdeletelogfile">ClfsDeleteLogFile</a>
- 
-
- 
 

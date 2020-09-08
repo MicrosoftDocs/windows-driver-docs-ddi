@@ -8,9 +8,6 @@ ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.date: 04/30/2018
 keywords: ["RtlCreateRegistryKey function"]
 ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey
-f1_keywords:
- - "wdm/RtlCreateRegistryKey"
- - "RtlCreateRegistryKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlCreateRegistryKey
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCreateRegistryKey
+ - wdm/RtlCreateRegistryKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlCreateRegistryKey
 ---
 
 # RtlCreateRegistryKey function
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlCreateRegistryKey</b> routine adds a key object in the registry along a given relative path.
-
 
 ## -parameters
 
+### -param RelativeTo 
 
-
-
-### -param RelativeTo [in]
-
+[in]
 Specifies whether <i>Path</i> is an absolute registry path or is relative to a predefined key path as one of the following.
 
 <table>
@@ -125,36 +121,21 @@ Path is relative to <b>\Registry\User\CurrentUser</b>. (For a system process, th
 </td>
 </tr>
 </table>
- 
 
+### -param Path 
 
-### -param Path [in]
-
-Specifies the registry path according to the <i>RelativeTo</i> value. 
-
+[in]
+Specifies the registry path according to the <i>RelativeTo</i> value.
 
 ## -returns
 
-
-
-<b>RtlCreateRegistryKey</b> returns STATUS_SUCCESS if the key is created. 
-
-
-
+<b>RtlCreateRegistryKey</b> returns STATUS_SUCCESS if the key is created.
 
 ## -remarks
 
-
-
-<b>RtlCreateRegistryKey</b> creates only the keys that you specify. It does not create missing keys in the path to the specified key. If any keys in the path are missing, the call will fail. To ensure that all keys in the path exist, you must call <b>RtlCreateRegistryKey</b> once for each key in the path. 
-
-
-
+<b>RtlCreateRegistryKey</b> creates only the keys that you specify. It does not create missing keys in the path to the specified key. If any keys in the path are missing, the call will fail. To ensure that all keys in the path exist, you must call <b>RtlCreateRegistryKey</b> once for each key in the path.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcheckregistrykey">RtlCheckRegistryKey</a>
 
@@ -177,7 +158,4 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
 

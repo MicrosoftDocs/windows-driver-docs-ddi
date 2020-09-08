@@ -8,9 +8,6 @@ ms.assetid: 4967e897-1a71-4f17-ad5b-9cc9916b0087
 ms.date: 05/10/2018
 keywords: ["IddCxDeviceInitialize function"]
 ms.keywords: IddCxDeviceInitialize, IddCxDeviceInitialize method [Display Devices], display.iddcxdeviceinitialize, iddcx/IddCxDeviceInitialize
-f1_keywords:
- - "iddcx/IddCxDeviceInitialize"
- - "IddCxDeviceInitialize"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -25,20 +22,23 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: IddCxStub.lib 
-req.dll: IddCx.dll 
+req.lib: IddCxStub.lib
+req.dll: IddCx.dll
 req.irql: _Must_inspect_result_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- IddCx.dll
-api_name:
-- IddCxDeviceInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IddCxDeviceInitialize
+ - iddcx/IddCxDeviceInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - IddCx.dll
+api_name:
+ - IddCxDeviceInitialize
 ---
 
 # IddCxDeviceInitialize function
@@ -46,29 +46,16 @@ req.typenames:
 
 ## -description
 
-
 Initializes a WDF device
-
-                
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 The WDF device that is being initialized.
-
 
 ## -returns
 
-
-
-
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-                    
-
-
 

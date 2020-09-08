@@ -8,9 +8,6 @@ ms.assetid: 804112cf-fc59-4a04-b848-4239b32e35d7
 ms.date: 05/02/2018
 keywords: ["NdisMCreateLog function"]
 ms.keywords: NdisMCreateLog, NdisMCreateLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_e6ca8197-b4f0-4eb9-bfe4-f4b957a124c8.xml, ndis/NdisMCreateLog, netvista.ndismcreatelog
-f1_keywords:
- - "ndis/NdisMCreateLog"
- - "NdisMCreateLog"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCreateLog
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCreateLog
+ - ndis/NdisMCreateLog
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCreateLog
 ---
 
 # NdisMCreateLog function
@@ -47,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCreateLog</b> allocates and opens a log file in which a miniport driver can write data to be
   displayed by a driver-dedicated Win32 application.
 
-
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 Specifies the handle input to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 Specifies how many bytes to allocate for the log file. NDIS creates a temporary file that is not
      stored on disk.
 
+### -param LogHandle 
 
-### -param LogHandle [out]
-
+[out]
 Pointer to a caller-supplied variable in which this function returns a handle to the log file.
      This handle is a required parameter to the 
      <b>Ndis</b><i>Xxx</i><b>Log</b> functions that the miniport driver calls subsequently.
 
-
 ## -returns
-
-
 
 <b>NdisMCreateLog</b> can return one of the following:
 
@@ -123,14 +116,8 @@ The driver already called
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A miniport driver can call the 
     <b>NdisM..Log</b> functions to provide any information the driver writer chooses. Whatever the miniport
@@ -150,13 +137,7 @@ Whatever size of log file is allocated, subsequent calls to
     file, which is treated as a circular buffer. That is, a sequence of calls to 
     <b>NdisMWriteLogData</b> eventually overwrites the data originally written to the log file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -171,7 +152,4 @@ Whatever size of log file is allocated, subsequent calls to
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismwritelogdata">NdisMWriteLogData</a>
- 
-
- 
 

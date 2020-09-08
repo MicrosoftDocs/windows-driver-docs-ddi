@@ -8,9 +8,6 @@ ms.assetid: DC23B286-8A52-4642-B345-D76802C83C55
 ms.date: 05/07/2018
 keywords: ["UcxEndpointSetWdfIoQueue function"]
 ms.keywords: UcxEndpointSetWdfIoQueue, UcxEndpointSetWdfIoQueue method [Buses], buses._ucxendpointsetwdfioqueue
-f1_keywords:
- - "ucxendpoint/UcxEndpointSetWdfIoQueue"
- - "UcxEndpointSetWdfIoQueue"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ucxendpoint.h
-api_name:
-- UcxEndpointSetWdfIoQueue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcxEndpointSetWdfIoQueue
+ - ucxendpoint/UcxEndpointSetWdfIoQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ucxendpoint.h
+api_name:
+ - UcxEndpointSetWdfIoQueue
 ---
 
 # UcxEndpointSetWdfIoQueue function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Sets a framework queue  on the specified endpoint object.
-
 
 ## -parameters
 
+### -param Endpoint 
 
-
-
-### -param Endpoint [in]
-
+[in]
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
 
+### -param WdfQueue 
 
-### -param WdfQueue [in]
-
+[in]
 A handle to the framework queue object to set on the endpoint.
 
-
 ## -remarks
-
-
 
 This routine can only get  called from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_endpoint_add">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_default_endpoint_add">EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD</a>
      callback functions.
@@ -75,16 +68,7 @@ This routine can only get  called from <a href="https://docs.microsoft.com/windo
 
 For a code example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_endpoint_add">EVT_UCX_USBDEVICE_ENDPOINT_ADD</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetPointerShape"
- - "DxgkDdiSetPointerShape"
+ - DXGKDDI_SETPOINTERSHAPE
+ - d3dkmddi/DXGKDDI_SETPOINTERSHAPE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SETPOINTERSHAPE callback function
+
 
 ## -description
 

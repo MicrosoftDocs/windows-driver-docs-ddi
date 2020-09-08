@@ -8,9 +8,6 @@ ms.assetid: 4b4295dd-0d4b-4d41-a2ca-f09fe2d8d8b2
 ms.date: 04/16/2018
 keywords: ["FsRtlFastCheckLockForWrite function"]
 ms.keywords: FsRtlFastCheckLockForWrite, FsRtlFastCheckLockForWrite routine [Installable File System Drivers], fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml, ifsk.fsrtlfastchecklockforwrite, ntifs/FsRtlFastCheckLockForWrite
-f1_keywords:
- - "ntifs/FsRtlFastCheckLockForWrite"
- - "FsRtlFastCheckLockForWrite"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlFastCheckLockForWrite
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlFastCheckLockForWrite
+ - ntifs/FsRtlFastCheckLockForWrite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlFastCheckLockForWrite
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlFastCheckLockForWrite function
@@ -49,58 +49,45 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlFastCheckLockForWrite</b> routine determines whether the specified process has write access to a locked byte range of a file.
-
 
 ## -parameters
 
+### -param FileLock 
 
-
-
-### -param FileLock [in]
-
+[in]
 A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>.
 
+### -param StartingByte 
 
-### -param StartingByte [in]
-
+[in]
 A pointer to a variable that specifies the starting byte offset within the file of the byte range to check.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 A pointer to a variable that specifies the length, in bytes, of the range to check.
 
+### -param Key 
 
-### -param Key [in]
-
+[in]
 The key for the byte range lock.
 
+### -param FileObject 
 
-### -param FileObject [in]
-
+[in]
 A pointer to the file object for the file.
 
+### -param ProcessId 
 
-### -param ProcessId [in]
-
+[in]
 A pointer to the EPROCESS for the process.
-
 
 ## -returns
 
-
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforwrite">FsRtlFastCheckLockForWrite</a> routine returns <b>TRUE</b> if the specified process has write access, <b>FALSE</b> otherwise.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
 
@@ -111,7 +98,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-nt
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
- 
-
- 
 

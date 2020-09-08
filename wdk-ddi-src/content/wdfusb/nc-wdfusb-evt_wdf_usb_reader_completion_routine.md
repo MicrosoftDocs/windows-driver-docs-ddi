@@ -8,9 +8,6 @@ ms.assetid: da762d78-6d73-4ab9-83a8-297c6f48855b
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_USB_READER_COMPLETION_ROUTINE callback function"]
 ms.keywords: DFUsbRef_6c37ab84-2c88-41d5-8a63-3e74207083ed.xml, EVT_WDF_USB_READER_COMPLETION_ROUTINE, EVT_WDF_USB_READER_COMPLETION_ROUTINE callback, EvtUsbTargetPipeReadComplete, EvtUsbTargetPipeReadComplete callback function, kmdf.evtusbtargetpipereadcomplete, wdf.evtusbtargetpipereadcomplete, wdfusb/EvtUsbTargetPipeReadComplete
-f1_keywords:
- - "wdfusb/EvtUsbTargetPipeReadComplete"
- - "EvtUsbTargetPipeReadComplete"
 req.header: wdfusb.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL  (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WdfUsb.h
-api_name:
-- EvtUsbTargetPipeReadComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_USB_READER_COMPLETION_ROUTINE
+ - wdfusb/EVT_WDF_USB_READER_COMPLETION_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WdfUsb.h
+api_name:
+ - EvtUsbTargetPipeReadComplete
 ---
 
 # EVT_WDF_USB_READER_COMPLETION_ROUTINE callback function
@@ -46,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtUsbTargetPipeReadComplete</i> event callback function informs the driver that a continuous reader has successfully completed a read request.
 
-
 ## -parameters
 
+### -param Pipe 
 
-
-
-### -param Pipe [in]
-
+[in]
 A handle to a framework pipe object.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 A handle to a framework memory object that represents a buffer that contains data from the device.
 
+### -param NumBytesTransferred 
 
-### -param NumBytesTransferred [in]
-
+[in]
 The number of bytes of data that are in the read buffer.
 
+### -param Context 
 
-### -param Context [in]
-
-Driver-defined context information that the driver specified in the <b>EvtUsbTargetPipeReadCompleteContext</b> member of the pipe's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure. 
-
+[in]
+Driver-defined context information that the driver specified in the <b>EvtUsbTargetPipeReadCompleteContext</b> member of the pipe's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure.
 
 ## -remarks
-
-
 
 To register an <i>EvtUsbTargetPipeReadComplete</i> callback function, the driver must place the function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure.
 
@@ -115,14 +108,7 @@ The driver must call <a href="https://docs.microsoft.com/windows-hardware/driver
 
 For more information about the <i>EvtUsbTargetPipeReadComplete</i> callback function and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/usb-i-o-targets">USB I/O Targets</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nc-wdfusb-evt_wdf_usb_readers_failed">EvtUsbTargetPipeReadersFailed</a>
 
@@ -133,7 +119,4 @@ For more information about the <i>EvtUsbTargetPipeReadComplete</i> callback func
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a>
- 
-
- 
 

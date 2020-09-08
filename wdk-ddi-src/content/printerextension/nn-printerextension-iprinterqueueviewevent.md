@@ -8,9 +8,6 @@ ms.assetid: 23951787-C147-43A6-99D6-71AC037F6A43
 ms.date: 04/20/2018
 keywords: ["IPrinterQueueViewEvent interface"]
 ms.keywords: IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], IPrinterQueueViewEvent interface [Print Devices],described, print.iprinterqueueviewevent, printerextension/IPrinterQueueViewEvent
-f1_keywords:
- - "printerextension/IPrinterQueueViewEvent"
- - "IPrinterQueueViewEvent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterQueueViewEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterQueueViewEvent
+ - printerextension/IPrinterQueueViewEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterQueueViewEvent
 ---
 
 # IPrinterQueueViewEvent interface
+
 
 ## -description
 
@@ -56,3 +57,4 @@ Provides the signature of the event handler.
 ## -see-also
 
 [Job Management](https://docs.microsoft.com/windows-hardware/drivers/print/job-management)
+

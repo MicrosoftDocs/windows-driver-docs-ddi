@@ -8,9 +8,6 @@ ms.assetid: 6BEB44C2-BB35-420F-B4A0-925FFAD7473C
 ms.date: 02/23/2018
 keywords: ["RECORDER_LOG_CREATE_PARAMS structure"]
 ms.keywords: "*PRECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS, PRECORDER_LOG_CREATE_PARAMS structure pointer [Driver Development Tools], RECORDER_LOG_CREATE_PARAMS, RECORDER_LOG_CREATE_PARAMS structure [Driver Development Tools], _RECORDER_LOG_CREATE_PARAMS, devtest.recorder_log_create_params, wpprecorder/PRECORDER_LOG_CREATE_PARAMS, wpprecorder/RECORDER_LOG_CREATE_PARAMS"
-f1_keywords:
- - "wpprecorder/RECORDER_LOG_CREATE_PARAMS"
- - "RECORDER_LOG_CREATE_PARAMS"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wpprecorder.h
-api_name:
-- RECORDER_LOG_CREATE_PARAMS
 targetos: Windows
 req.typenames: RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS
+f1_keywords:
+ - _RECORDER_LOG_CREATE_PARAMS
+ - wpprecorder/_RECORDER_LOG_CREATE_PARAMS
+ - PRECORDER_LOG_CREATE_PARAMS
+ - wpprecorder/PRECORDER_LOG_CREATE_PARAMS
+ - RECORDER_LOG_CREATE_PARAMS
+ - wpprecorder/RECORDER_LOG_CREATE_PARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wpprecorder.h
+api_name:
+ - RECORDER_LOG_CREATE_PARAMS
 ---
 
 # _RECORDER_LOG_CREATE_PARAMS structure
@@ -46,62 +50,43 @@ req.typenames: RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS
 
 ## -description
 
-
-The <b>RECORDER_LOG_CREATE_PARAMS</b> structure is an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a> method. 
-
+The <b>RECORDER_LOG_CREATE_PARAMS</b> structure is an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a> method.
 
 ## -struct-fields
-
-
-
 
 ### -field Size
 
  Size of this structure.
 
-
 ### -field LogTag
 
  Optional tag to associate with the allocated memory of the log.
-
 
 ### -field TotalBufferSize
 
 Size in bytes for the log area.
 
-
 ### -field ErrorPartitionSize
 
  The number of bytes out  of <b>TotalBufferSize</b> used to log error messages. Zero indicates no error partition.
-
 
 ### -field LogIdentifierAppendValue
 
  Number/pointer to append to log identifier.
 
-
 ### -field LogIdentifierAppendValueSet
 
  Specifies whether <b>LogIdentifierAppendValue</b> has been set.
-
 
 ### -field LogIdentifierSize
 
  Size of <b>LogIdentifier</b> field, in bytes (according to client's definition).
 
-
 ### -field LogIdentifier
 
 Identifier to print when debug messages are merged. Lives at end of structure so that, if at some point clients have different definitions of the array size, it remains simple to read the rest of the structure.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_log_create_params_init">RECORDER_LOG_CREATE_PARAMS_INIT</a>
- 
-
- 
 

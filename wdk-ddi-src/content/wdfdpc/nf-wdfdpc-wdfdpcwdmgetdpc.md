@@ -8,9 +8,6 @@ ms.assetid: a4ca55f9-0fbd-4969-8807-baa79099cff0
 ms.date: 02/26/2018
 keywords: ["WdfDpcWdmGetDpc function"]
 ms.keywords: DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, WdfDpcWdmGetDpc, WdfDpcWdmGetDpc method, kmdf.wdfdpcwdmgetdpc, wdf.wdfdpcwdmgetdpc, wdfdpc/WdfDpcWdmGetDpc
-f1_keywords:
- - "wdfdpc/WdfDpcWdmGetDpc"
- - "WdfDpcWdmGetDpc"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDpcWdmGetDpc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDpcWdmGetDpc
+ - wdfdpc/WdfDpcWdmGetDpc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDpcWdmGetDpc
 ---
 
 # WdfDpcWdmGetDpc function
@@ -47,38 +47,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDpcWdmGetDpc</b> method returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that is associated with a specified framework DPC object.
 
-
 ## -parameters
 
+### -param Dpc 
 
-
-
-### -param Dpc [in]
-
+[in]
 A handle to a framework DPC object.
 
-
 ## -returns
-
-
 
 <b>WdfDpcWdmGetDpc</b> returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that is associated with the specified framework DPC object.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The framework creates a KDPC structure when a framework-based driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a> to create a DPC object. 
 
@@ -97,12 +83,7 @@ PKDPC pWdmDpc;
 pWdmDpc = WdfDpcWdmGetDpc(PDevExt->CompleteWriteDpc);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nc-wdfdpc-evt_wdf_dpc">EvtDpcFunc</a>
 
@@ -117,7 +98,4 @@ pWdmDpc = WdfDpcWdmGetDpc(PDevExt->CompleteWriteDpc);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a>
- 
-
- 
 

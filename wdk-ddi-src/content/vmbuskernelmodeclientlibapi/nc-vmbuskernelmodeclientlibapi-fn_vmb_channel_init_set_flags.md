@@ -6,63 +6,46 @@ tech.root: netvista
 ms.assetid: 52b07c01-e194-436c-8c93-1d88d9a34499
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_INIT_SET_FLAGS callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_FLAGS"
- - "FN_VMB_CHANNEL_INIT_SET_FLAGS"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_INIT_SET_FLAGS
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_INIT_SET_FLAGS
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_FLAGS
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_INIT_SET_FLAGS
 ---
 
 # FN_VMB_CHANNEL_INIT_SET_FLAGS callback function
+
 
 ## -description
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelInitSetFlags</b> function sets flags common to server or client channel endpoints.
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_INIT_SET_FLAGS FnVmbChannelInitSetFlags; 
-
-// Definition
-
-NTSTATUS FnVmbChannelInitSetFlags 
-(
-	VMBCHANNEL Channel
-	UINT32 Flags
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -107,6 +90,24 @@ The value in <i>Flags</i> has invalid bits.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_INIT_SET_FLAGS FnVmbChannelInitSetFlags; 
+
+// Definition
+
+NTSTATUS FnVmbChannelInitSetFlags 
+(
+	VMBCHANNEL Channel
+	UINT32 Flags
+)
+{...}
+
+```
+
 ## -remarks
 
 > [!IMPORTANT]
@@ -115,3 +116,4 @@ The value in <i>Flags</i> has invalid bits.
 > For more information, see the Remarks section of [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 ## -see-also
+

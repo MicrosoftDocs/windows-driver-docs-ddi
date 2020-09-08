@@ -9,33 +9,37 @@ ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: ioctl
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddvdeo.h
-api_name: 
- - IOCTL_MIPI_DSI_RESET
-product: 
- - Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - IOCTL_MIPI_DSI_RESET
+product:
+ - Windows
+f1_keywords:
+ - IOCTL_MIPI_DSI_RESET
+ - ntddvdeo/IOCTL_MIPI_DSI_RESET
 ---
 
 # IOCTL_MIPI_DSI_RESET IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -99,3 +103,4 @@ The output fields will be propagated back to the output buffer of the IOCTL.
 [**IOCTL_MIPI_DSI_QUERY_CAPS**](ni-ntddvdeo-ioctl_mipi_dsi_query_caps.md)
 
 [**IOCTL_MIPI_DSI_TRANSMISSION**](ni-ntddvdeo-ioctl_mipi_dsi_transmission.md)
+

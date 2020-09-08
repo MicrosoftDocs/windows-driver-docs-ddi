@@ -8,9 +8,6 @@ ms.assetid: d4b91262-f349-4824-bab0-5e3725a81cb3
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelper::CreateInstanceOfMSXMLObject"]
 ms.keywords: CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], CreateInstanceOfMSXMLObject method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],CreateInstanceOfMSXMLObject method, IPrintCoreHelper.CreateInstanceOfMSXMLObject, IPrintCoreHelper::CreateInstanceOfMSXMLObject, prcomoem/IPrintCoreHelper::CreateInstanceOfMSXMLObject, print.iprintcorehelper_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_2768e9fd-1f73-400c-8e16-e1376a0e8633.xml
-f1_keywords:
- - "prcomoem/IPrintCoreHelper.CreateInstanceOfMSXMLObject"
- - "IPrintCoreHelper.CreateInstanceOfMSXMLObject"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreHelper.CreateInstanceOfMSXMLObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreHelper::CreateInstanceOfMSXMLObject
+ - prcomoem/IPrintCoreHelper::CreateInstanceOfMSXMLObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreHelper.CreateInstanceOfMSXMLObject
 ---
 
 # IPrintCoreHelper::CreateInstanceOfMSXMLObject
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
-The <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> method creates an instance of an MSXML 6.0 object by using the correct MSXML DLL. 
-
+The <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> method creates an instance of an MSXML 6.0 object by using the correct MSXML DLL.
 
 ## -parameters
 
+### -param rclsid 
 
+[in]
+The CLSID that is associated with the data and code that will be used to create the object.
 
+### -param pUnkOuter 
 
-### -param rclsid [in]
+[in]
+A pointer to the aggregate object's <b>IUnknown</b> interface (the controlling <b>IUnknown</b>). This parameter must be <b>NULL</b>, which means that the object is not being created as part of an aggregate.
 
-The CLSID that is associated with the data and code that will be used to create the object. 
+### -param dwClsContext 
 
-
-### -param pUnkOuter [in]
-
-A pointer to the aggregate object's <b>IUnknown</b> interface (the controlling <b>IUnknown</b>). This parameter must be <b>NULL</b>, which means that the object is not being created as part of an aggregate. 
-
-
-### -param dwClsContext [in]
-
+[in]
 The context in which the code that manages the newly created object will run. The only valid values are <b>NULL</b> and CLSCTX_INPROC_SERVER, which is a value of the CLSCTX enumeration (described in the Microsoft Windows SDK documentation).
 
+### -param riid 
 
-### -param riid [in]
+[in]
+A reference to the identifier of the interface that will be used to communicate with the object.
 
-A reference to the identifier of the interface that will be used to communicate with the object. 
+### -param ppv 
 
-
-### -param ppv [out]
-
-A pointer to a variable that receives the address of the interface that is requested in the <i>riid</i> parameter. If <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> successfully returns, *<i>ppv</i> contains the address of the requested interface. If this method fails, *<i>ppv</i> contains <b>NULL</b>. 
-
+[out]
+A pointer to a variable that receives the address of the interface that is requested in the <i>riid</i> parameter. If <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> successfully returns, *<i>ppv</i> contains the address of the requested interface. If this method fails, *<i>ppv</i> contains <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> should return one of the following values.
 
@@ -136,18 +129,10 @@ A specified class is not registered in the registration database. This value can
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> enables a plug-in to use MSXML objects safely even when it runs on down-level client machines (that is, client machines that run Windows Server 2003, Windows XP, or Windows 2000). 
 
 The parameters in this method map directly to those of the <b>CoCreateInstance</b> function (which is described in the Windows SDK documentation). Note that installing a Windows Vista driver on a machine that runs a previous version of Windows does not cause MSXML 6.0 to be installed. The actual DLL is included with the driver-dependent DLLs and is loaded from the driver directory. It is not registered on the system. Plug-ins that use this method should create only MSXML objects.
-
-
 

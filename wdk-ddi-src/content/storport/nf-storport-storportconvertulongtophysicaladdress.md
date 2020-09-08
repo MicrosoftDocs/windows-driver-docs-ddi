@@ -8,9 +8,6 @@ ms.assetid: 772ca60b-a957-47de-b95d-486497b295ce
 ms.date: 03/29/2018
 keywords: ["StorPortConvertUlongToPhysicalAddress function"]
 ms.keywords: StorPortConvertUlongToPhysicalAddress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices], storage.storportconvertulongtophysicaladdress, storport/StorPortConvertUlongToPhysicalAddress, storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml
-f1_keywords:
- - "storport/StorPortConvertUlongToPhysicalAddress"
- - "StorPortConvertUlongToPhysicalAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortConvertUlongToPhysicalAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortConvertUlongToPhysicalAddress
+ - storport/StorPortConvertUlongToPhysicalAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortConvertUlongToPhysicalAddress
 ---
 
 # StorPortConvertUlongToPhysicalAddress function
@@ -47,32 +47,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortConvertUlongToPhysicalAddress</b> routine converts an unsigned long address into a physical address.
-
 
 ## -parameters
 
+### -param UlongAddress 
 
-
-
-### -param UlongAddress [in]
-
+[in]
 Contains the address to be converted.
-
 
 ## -returns
 
-
-
 The <b>StorPortConvertUlongToPhysicalAddress</b> routine returns the physical address that corresponds to the unsigned long address that the caller passed in.
 
-
-
-
 ## -remarks
-
-
 
 <b>StorPortConvertUlongToPhysicalAddress</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent physical addresses.
 
@@ -139,6 +127,4 @@ Specifies an address value of type STOR_PHYSICAL_ADDRESS.
  
 
 StorPortConvertPhysicalAddressToULong64 uses <b>STOR_PHYSICAL_ADDRESS</b> to represent physical addresses.
-
-
 

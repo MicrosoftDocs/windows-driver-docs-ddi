@@ -8,9 +8,6 @@ ms.assetid: 2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7
 ms.date: 02/26/2018
 keywords: ["IWDFInterrupt::AcquireInterruptLock"]
 ms.keywords: AcquireInterruptLock, AcquireInterruptLock method, AcquireInterruptLock method,IWDFInterrupt interface, IWDFInterrupt interface,AcquireInterruptLock method, IWDFInterrupt.AcquireInterruptLock, IWDFInterrupt::AcquireInterruptLock, umdf.iwdfinterrupt_acquireinterruptlock, wdf.iwdfinterrupt_acquireinterruptlock, wudfddi/IWDFInterrupt::AcquireInterruptLock
-f1_keywords:
- - "wudfddi/IWDFInterrupt.AcquireInterruptLock"
- - "IWDFInterrupt.AcquireInterruptLock"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFInterrupt.AcquireInterruptLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFInterrupt::AcquireInterruptLock
+ - wudfddi/IWDFInterrupt::AcquireInterruptLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFInterrupt.AcquireInterruptLock
 ---
 
 # IWDFInterrupt::AcquireInterruptLock
@@ -46,15 +46,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>AcquireInterruptLock</b> method begins a code sequence that executes while holding an interrupt object's lock.
 
-
 ## -remarks
-
-
 
 When a driver calls <b>AcquireInterruptLock</b>, the system acquires the framework's interrupt lock.
 
@@ -86,13 +82,7 @@ For more information about manual interrupt locking, see <a href="https://docs.m
 
 For more information about handling interrupts in UMDF drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-hardware-and-handling-interrupts">Accessing Hardware and Handling Interrupts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
 
@@ -103,7 +93,4 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
- 
-
- 
 

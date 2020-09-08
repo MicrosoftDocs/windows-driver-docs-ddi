@@ -10,7 +10,7 @@ req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,8 +27,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0075"
- - "PFND3D12DDI_CREATE_PIPELINE_STATE_0075"
+ - PFND3D12DDI_CREATE_PIPELINE_STATE_0075
+ - d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0075
 topic_type:
  - APIRef
  - kbSyntax
@@ -43,6 +43,7 @@ product:
 ---
 
 # PFND3D12DDI_CREATE_PIPELINE_STATE_0075 callback function
+
 
 ## -description
 
@@ -73,3 +74,4 @@ Returns STATUS_SUCCESS if completed successfully.
 ## -see-also
 
 [**D3D12DDIARG_CREATE_PIPELINE_STATE_0075**](ns-d3d12umddi-d3d12ddiarg_create_pipeline_state_0075.md)
+

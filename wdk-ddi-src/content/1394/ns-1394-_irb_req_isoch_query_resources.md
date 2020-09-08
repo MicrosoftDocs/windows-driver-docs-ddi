@@ -8,9 +8,6 @@ ms.assetid: B9CDFB62-32CF-497A-BF0F-1E4FBCA36E82
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_QUERY_RESOURCES structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_QUERY_RESOURCES, IEEE.irb_req_isoch_query_resources, IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES structure [Buses], _IRB_REQ_ISOCH_QUERY_RESOURCES
-f1_keywords:
- - "1394/IRB_REQ_ISOCH_QUERY_RESOURCES"
- - "IRB_REQ_ISOCH_QUERY_RESOURCES"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ISOCH_QUERY_RESOURCES
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_QUERY_RESOURCES
+f1_keywords:
+ - _IRB_REQ_ISOCH_QUERY_RESOURCES
+ - 1394/_IRB_REQ_ISOCH_QUERY_RESOURCES
+ - IRB_REQ_ISOCH_QUERY_RESOURCES
+ - 1394/IRB_REQ_ISOCH_QUERY_RESOURCES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ISOCH_QUERY_RESOURCES
 ---
 
 # _IRB_REQ_ISOCH_QUERY_RESOURCES structure
@@ -46,14 +48,9 @@ req.typenames: IRB_REQ_ISOCH_QUERY_RESOURCES
 
 ## -description
 
-
 This structure contains the fields necessary to carry out a IsochQueryResources request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fulSpeed
 
@@ -95,13 +92,10 @@ SPEED_FLAGS_400
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BytesPerFrameAvailable
 
-On success, specifies the returned available bandwidth as expressed in bytes per isochronous frame. 
-
+On success, specifies the returned available bandwidth as expressed in bytes per isochronous frame.
 
 ### -field ChannelsAvailable
 

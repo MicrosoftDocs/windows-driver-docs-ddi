@@ -7,9 +7,6 @@ ms.assetid: 3390A01D-BD4B-4399-AA3E-91BB32264A13
 ms.date: 05/10/2018
 keywords: ["D3DKMTUpdateGpuVirtualAddress function"]
 ms.keywords: D3DKMTUpdateGpuVirtualAddress, D3DKMTUpdateGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTUpdateGpuVirtualAddress, display.d3dkmtupdategpuvirtualaddress
-f1_keywords:
- - "d3dkmthk/D3DKMTUpdateGpuVirtualAddress"
- - "D3DKMTUpdateGpuVirtualAddress"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,27 +24,31 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTUpdateGpuVirtualAddress
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTUpdateGpuVirtualAddress
+ - d3dkmthk/D3DKMTUpdateGpuVirtualAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTUpdateGpuVirtualAddress
 ---
 
 # D3DKMTUpdateGpuVirtualAddress function
 
+
 ## -description
 
-<b>D3DKMTUpdateGpuVirtualAddress</b> is a special operation used in the context of tile resources. It allows the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates. 
+<b>D3DKMTUpdateGpuVirtualAddress</b> is a special operation used in the context of tile resources. It allows the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.
 
 ## -parameters
 
@@ -84,20 +85,11 @@ In a single <b>UpdateVirtualAddress</b> call:
 
 Drivers can submit many <b>UpdateGpuVirtualAddress</b> calls, which will be queued behind the rendering fence. When the number of queued update operations exceeds 128, the calling thread will be blocked until the pervious operations are processed by the video memory manager.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_updategpuvirtualaddress">D3DKMT_UPDATEGPUVIRTUALADDRESS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange">ReserveGpuVirtualAddressRange</a>
- 
-
- 
 

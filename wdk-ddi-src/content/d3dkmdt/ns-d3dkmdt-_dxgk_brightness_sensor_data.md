@@ -5,38 +5,41 @@ description: Describes the sensor data brightness.
 ms.assetid: 38aca9c4-ed04-405b-a659-5d5d252a45dc
 ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_SENSOR_DATA structure"]
-f1_keywords:
- - "d3dkmdt/_DXGK_BRIGHTNESS_SENSOR_DATA"
- - "_DXGK_BRIGHTNESS_SENSOR_DATA"
 ms.keywords: _DXGK_BRIGHTNESS_SENSOR_DATA, DXGK_BRIGHTNESS_SENSOR_DATA,
 req.header: d3dkmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_BRIGHTNESS_SENSOR_DATA
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- _DXGK_BRIGHTNESS_SENSOR_DATA
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_BRIGHTNESS_SENSOR_DATA
+ - d3dkmdt/_DXGK_BRIGHTNESS_SENSOR_DATA
+ - DXGK_BRIGHTNESS_SENSOR_DATA
+ - d3dkmdt/DXGK_BRIGHTNESS_SENSOR_DATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - _DXGK_BRIGHTNESS_SENSOR_DATA
+product:
+ - Windows
 ---
 
 # _DXGK_BRIGHTNESS_SENSOR_DATA structure
+
 
 ## -description
 

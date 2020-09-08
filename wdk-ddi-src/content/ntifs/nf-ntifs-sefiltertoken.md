@@ -8,9 +8,6 @@ ms.assetid: 2de3980a-da78-4cdd-916b-0801f38f3637
 ms.date: 04/16/2018
 keywords: ["SeFilterToken function"]
 ms.keywords: SeFilterToken, SeFilterToken routine [Installable File System Drivers], ifsk.sefiltertoken, ntifs/SeFilterToken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml
-f1_keywords:
- - "ntifs/SeFilterToken"
- - "SeFilterToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeFilterToken
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeFilterToken
+ - ntifs/SeFilterToken
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeFilterToken
 ---
 
 # SeFilterToken function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>SeFilterToken</b> routine creates a new access token that is a restricted version of an existing access token. 
-
+The <b>SeFilterToken</b> routine creates a new access token that is a restricted version of an existing access token.
 
 ## -parameters
 
+### -param ExistingToken 
 
+[in]
+Pointer to a primary or impersonation token. The token can also be a restricted token. This token must already be open for TOKEN_DUPLICATE access. This pointer can be obtained from an existing token handle by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a>, specifying TOKEN_DUPLICATE as the <i>DesiredAccess</i> type.
 
+### -param Flags 
 
-### -param ExistingToken [in]
-
-Pointer to a primary or impersonation token. The token can also be a restricted token. This token must already be open for TOKEN_DUPLICATE access. This pointer can be obtained from an existing token handle by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a>, specifying TOKEN_DUPLICATE as the <i>DesiredAccess</i> type. 
-
-
-### -param Flags [in]
-
+[in]
 Specifies additional privilege options. This parameter can be zero or a combination of the following values. 
 
 <table>
@@ -90,11 +86,10 @@ Stores the TOKEN_SANDBOX_INERT flag in the token.
 </td>
 </tr>
 </table>
- 
 
+### -param SidsToDisable 
 
-### -param SidsToDisable [in, optional]
-
+[in, optional]
 Pointer to a TOKEN_GROUPS structure containing an array of SID_AND_ATTRIBUTES structures that specify the deny-only SIDs in the restricted token. The system uses a deny-only SID to deny access to a securable object. The absence of a deny-only SID does not allow access. 
 
 Disabling a SID <u>turns on</u> SE_GROUP_USE_FOR_DENY_ONLY and <u>turns off</u> SE_GROUP_ENABLED and SE_GROUP_ENABLED_BY_DEFAULT. All other attributes are ignored 
@@ -103,48 +98,37 @@ Deny-only attributes apply to any combination of an existing token's SIDs, inclu
 
 <b>SeFilterToken</b> ignores the <b>Attributes</b> members of the SID_AND_ATTRIBUTES structures. 
 
-This parameter is optional and can be <b>NULL</b>. 
+This parameter is optional and can be <b>NULL</b>.
 
+### -param PrivilegesToDelete 
 
-### -param PrivilegesToDelete [in, optional]
-
+[in, optional]
 Pointer to a TOKEN_PRIVILEGES structure containing an array of LUID_AND_ATTRIBUTES structures that specify the privileges to delete in the restricted token. 
 
 To get the privileges held by the existing token, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a> with the TokenPrivileges flag. <b>SeFilterToken</b> ignores any privileges in the array that are not held by the existing token. 
 
 <b>SeFilterToken</b> ignores the <b>Attributes</b> members of the LUID_AND_ATTRIBUTES structures. 
 
-This parameter is optional and can be <b>NULL</b>. 
+This parameter is optional and can be <b>NULL</b>.
 
+### -param RestrictedSids 
 
-### -param RestrictedSids [in, optional]
-
+[in, optional]
 Pointer to a TOKEN_GROUPS structure containing an array of SID_AND_ATTRIBUTES structures that specify a list of restricting SIDs for the new token. If the existing token is a restricted token, the list of restricting SIDs for the new token is the intersection of this array and the list of restricting SIDs for the existing token. 
 
 The <b>Attributes</b> members of the SID_AND_ATTRIBUTES structures must be zero. Restricting SIDs are always enabled for access checks. 
 
-This parameter is optional and can be <b>NULL</b>. 
-
+This parameter is optional and can be <b>NULL</b>.
 
 ### -param FilteredToken
 
 <p>Pointer to a caller-allocated variable that receives the address of the new restricted token. The new token is the same type, primary or impersonation, as the existing token. </p>
 
-
-
-
 ## -returns
 
-
-
-If one or more of the parameter values were invalid, <b>SeFilterToken</b> returns STATUS_INVALID_PARAMETER. (This value is returned if the target token is not an impersonation token.) Otherwise, <b>SeFilterToken</b> returns STATUS_SUCCESS. 
-
-
-
+If one or more of the parameter values were invalid, <b>SeFilterToken</b> returns STATUS_INVALID_PARAMETER. (This value is returned if the target token is not an impersonation token.) Otherwise, <b>SeFilterToken</b> returns STATUS_SUCCESS.
 
 ## -remarks
-
-
 
 <b>SeFilterToken</b> can restrict the token in the following ways: 
 
@@ -168,13 +152,7 @@ For more information about security and access control, see the documentation on
 
 When the token returned in <i>NewToken</i> is no longer needed, free it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_luid_and_attributes">LUID_AND_ATTRIBUTES</a>
 
@@ -217,7 +195,4 @@ When the token returned in <i>NewToken</i> is no longer needed, free it by calli
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_privileges">TOKEN_PRIVILEGES</a>
- 
-
- 
 

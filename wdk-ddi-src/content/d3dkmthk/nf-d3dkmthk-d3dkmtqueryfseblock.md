@@ -5,40 +5,40 @@ description: Query FSE block.
 ms.assetid: 1017fd2f-eae0-401e-aea0-49016415907b
 ms.date: 10/19/2018
 keywords: ["D3DKMTQueryFSEBlock function"]
-f1_keywords:
- - "d3dkmthk/D3DKMTQueryFSEBlock"
- - "D3DKMTQueryFSEBlock"
 ms.keywords: D3DKMTQueryFSEBlock
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1607
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Gdi32.dll
-api_name: 
-- D3DKMTQueryFSEBlock
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3DKMTQueryFSEBlock
+ - d3dkmthk/D3DKMTQueryFSEBlock
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTQueryFSEBlock
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3DKMTQueryFSEBlock function
@@ -61,3 +61,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

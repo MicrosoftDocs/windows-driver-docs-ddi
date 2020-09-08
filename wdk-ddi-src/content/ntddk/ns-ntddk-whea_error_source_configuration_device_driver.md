@@ -8,40 +8,44 @@ ms.assetid: c7a125f7-fc0b-4c16-b6a1-ea7f946d778b
 ms.author: windowsdriverdev
 ms.date: 04/01/2020
 keywords: ["WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure"]
-f1_keywords:
- - "ntddk/WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER"
- - "WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER"
-ms.keywords: WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER, WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER, *PWHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER, 
+ms.keywords: WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER, WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER, *PWHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER,
 req.header: ntddk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER, *PWHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddk.h
-api_name: 
- - WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
+ - ntddk/_WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
+ - PWHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
+ - ntddk/PWHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
+ - WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
+ - ntddk/WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
+product:
+ - Windows
 ---
 
 # WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure
 
-## -description
 
+## -description
 
 ## -struct-fields
 
@@ -51,7 +55,7 @@ A ULONG specifying the version of this structure to use. Starting in Windows 10,
 
 ### -field SourceGuid
 
-A GUID corresponding to the driver generating the errors. 
+A GUID corresponding to the driver generating the errors.
 
 ### -field LogTag
 
@@ -92,3 +96,4 @@ The WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure is used as input to 
 For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
 
 ## -see-also
+

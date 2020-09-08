@@ -8,9 +8,6 @@ ms.assetid: DC73A00D-F7FA-492A-ABAF-04A5CFD85881
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_RELEASE_CONTROLLER callback function"]
 ms.keywords: CLIENT_ReleaseController, CLIENT_ReleaseController callback, CLIENT_ReleaseController callback function [Parallel Ports], GPIO.client_releasecontroller, GPIO_CLIENT_RELEASE_CONTROLLER, gpioclx/CLIENT_ReleaseController
-f1_keywords:
- - "gpioclx/CLIENT_ReleaseController"
- - "CLIENT_ReleaseController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_ReleaseController
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_RELEASE_CONTROLLER
+ - gpioclx/GPIO_CLIENT_RELEASE_CONTROLLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_ReleaseController
 ---
 
 # GPIO_CLIENT_RELEASE_CONTROLLER callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_ReleaseController</i> event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device is no longer accessible.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the GPIO controller.
 
+### -param Context 
 
-### -param Context [in]
-
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
-
 
 ## -returns
 
-
-
 The <i>CLIENT_ReleaseController</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. The GPIO framework extension (GpioClx) calls this function after the GPIO controller device is no longer accessible.
 
@@ -125,19 +113,11 @@ The GPIO_CLIENT_RELEASE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_registration_packet">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
- 
-
- 
 

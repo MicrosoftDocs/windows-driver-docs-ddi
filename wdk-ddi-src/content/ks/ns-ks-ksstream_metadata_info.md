@@ -8,9 +8,6 @@ ms.assetid: 40C09BCD-407F-4F2D-8780-4DEC1C9246E8
 ms.date: 04/23/2018
 keywords: ["KSSTREAM_METADATA_INFO structure"]
 ms.keywords: "*PKSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO structure [Streaming Media Devices], PKSSTREAM_METADATA_INFO, PKSSTREAM_METADATA_INFO structure pointer [Streaming Media Devices], ks/KSSTREAM_METADATA_INFO, ks/PKSSTREAM_METADATA_INFO, stream.ksstream_metadata_info"
-f1_keywords:
- - "ks/KSSTREAM_METADATA_INFO"
- - "KSSTREAM_METADATA_INFO"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSSTREAM_METADATA_INFO
 targetos: Windows
 req.typenames: KSSTREAM_METADATA_INFO, *PKSSTREAM_METADATA_INFO
+f1_keywords:
+ - PKSSTREAM_METADATA_INFO
+ - ks/PKSSTREAM_METADATA_INFO
+ - KSSTREAM_METADATA_INFO
+ - ks/KSSTREAM_METADATA_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSSTREAM_METADATA_INFO
 ---
 
 # KSSTREAM_METADATA_INFO structure
@@ -46,39 +48,29 @@ req.typenames: KSSTREAM_METADATA_INFO, *PKSSTREAM_METADATA_INFO
 
 ## -description
 
-
 This structure contains the metadata information that is passed down to the driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BufferSize
 
 This value is set by the user mode component and is equal to the MaxMetadataBufferSize supplied by the driver.
 
-
 ### -field UsedSize
 
 The size of the metadata written by the driver in the SystemVa buffer.
-
 
 ### -field Data
 
 The metadata buffer that is passed down by the user mode component. This is mapped to <i>SystemVa</i>.
 
-
 ### -field SystemVa
 
 The buffer that is used by the driver to fill with metadata.
 
-
 ### -field Flags
 
 Set to KSCAMERA_EXTENDEDPROP_METADATA_SYSTEMMEMORY if the metadata buffer is allocated from the system memory.
-
 
 ### -field Reserved
 

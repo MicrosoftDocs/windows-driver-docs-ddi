@@ -8,9 +8,6 @@ ms.assetid: 24CC6A10-6462-4681-B340-E887B679F456
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_WIRE_FORMAT_AND_PREFERENCE structure"]
 ms.keywords: "*PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE union [Display Devices], PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE union pointer [Display Devices], _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, display.d3dkmdt_wire_format_and_preference"
-f1_keywords:
- - "d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE"
- - "D3DKMDT_WIRE_FORMAT_AND_PREFERENCE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
 targetos: Windows
 req.typenames: D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, *PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE
+f1_keywords:
+ - _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
+ - d3dkmdt/_D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
+ - PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE
+ - d3dkmdt/PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE
+ - D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
+ - d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
 ---
 
 # _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE structure
@@ -46,60 +50,43 @@ req.typenames: D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, *PD3DKMDT_WIRE_FORMAT_AND_PRE
 
 ## -description
 
-
 Holds information about the preferred pixel encoding format.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Preference
 
 Functions as it has in previous releases, but using only 2 bits.
 
-
 ### -field Rgb
 
 UINT describing supported/requested pixel encoding using RGB sample format.
-
 
 ### -field YCbCr444
 
 UINT describing supported/requested pixel encoding using YcbCr 4:4:4 sample format.
 
-
 ### -field YCbCr422
 
 UINT describing supported/requested pixel encoding using YcbCr 4:2:2 sample format.
-
 
 ### -field YCbCr420
 
 UINT describing supported/requested pixel encoding using YcbCr 4:2:0 sample format.
 
-
 ### -field Intensity
 
 UINT describing supported/requested pixel encoding using intensity only.
-
 
 ### -field Value
 
 UINT used to operate on the combined bit-fields.
 
-
 ## -remarks
-
-
 
 The five standard color sample formats for pixel transmission are exposed separately to allow the driver to report capabilities individually but it is expected that the vast majority of display devices will not support all sample formats as input, in particular support of intensity only signals is likely restricted to monochrome displays which should therefore not support color sample formats.
 
 During mode enumeration via EnumVidPnCofuncModality, the driver should set values into all five fields to indicate the pixel encodings that are supported as inputs to the display device in the current configuration.
 
 When SetTimingsFromVidPn is called, one of these fields will indicate the pixel encoding and sample format to be applied.
-
-
-
 

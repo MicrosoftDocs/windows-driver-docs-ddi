@@ -8,9 +8,6 @@ ms.assetid: 892b8eda-0b8e-40ab-940b-a0a423aaa5b8
 ms.date: 04/16/2018
 keywords: ["FILE_BOTH_DIR_INFORMATION structure"]
 ms.keywords: "*PFILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_BOTH_DIR_INFORMATION, PFILE_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_BOTH_DIR_INFORMATION, fileinformationstructures_6e3069a3-7938-4c57-b741-594c3b70a986.xml, ifsk.file_both_dir_information, ntifs/FILE_BOTH_DIR_INFORMATION, ntifs/PFILE_BOTH_DIR_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_BOTH_DIR_INFORMATION"
- - "FILE_BOTH_DIR_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_BOTH_DIR_INFORMATION
 targetos: Windows
 req.typenames: FILE_BOTH_DIR_INFORMATION, *PFILE_BOTH_DIR_INFORMATION
+f1_keywords:
+ - _FILE_BOTH_DIR_INFORMATION
+ - ntifs/_FILE_BOTH_DIR_INFORMATION
+ - PFILE_BOTH_DIR_INFORMATION
+ - ntifs/PFILE_BOTH_DIR_INFORMATION
+ - FILE_BOTH_DIR_INFORMATION
+ - ntifs/FILE_BOTH_DIR_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_BOTH_DIR_INFORMATION
 ---
 
 # _FILE_BOTH_DIR_INFORMATION structure
@@ -46,54 +50,41 @@ req.typenames: FILE_BOTH_DIR_INFORMATION, *PFILE_BOTH_DIR_INFORMATION
 
 ## -description
 
-
-The FILE_BOTH_DIR_INFORMATION structure is used to query detailed information for the files in a directory. 
-
+The FILE_BOTH_DIR_INFORMATION structure is used to query detailed information for the files in a directory.
 
 ## -struct-fields
 
-
-
-
 ### -field NextEntryOffset
 
-Byte offset of the next FILE_BOTH_DIR_INFORMATION entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one. 
-
+Byte offset of the next FILE_BOTH_DIR_INFORMATION entry, if multiple entries are present in a buffer. This member is zero if no other entries follow this one.
 
 ### -field FileIndex
 
-Byte offset of the file within the parent directory. This member is undefined for file systems, such as NTFS, in which the position of a file within the parent directory is not fixed and can be changed at any time to maintain sort order. 
-
+Byte offset of the file within the parent directory. This member is undefined for file systems, such as NTFS, in which the position of a file within the parent directory is not fixed and can be changed at any time to maintain sort order.
 
 ### -field CreationTime
 
-Time when the file was created. 
-
+Time when the file was created.
 
 ### -field LastAccessTime
 
-Last time the file was accessed. 
-
+Last time the file was accessed.
 
 ### -field LastWriteTime
 
-Last time information was written to the file. 
-
+Last time information was written to the file.
 
 ### -field ChangeTime
 
-Last time the file was changed. 
-
+Last time the file was changed.
 
 ### -field EndOfFile
 
 Absolute new end-of-file position as a byte offset from the start of the file. <b>EndOfFile</b> specifies the byte offset to the end of the file. Because this value is zero-based, it actually refers to the first free byte in the file. In other words, <b>EndOfFile</b> is the offset to the byte immediately following the last valid byte in the file.
 
-
 ### -field AllocationSize
 
-File allocation size, in bytes. Usually, this value is a multiple of the sector or cluster size of the underlying physical device. 
-
+File allocation size, in bytes. Usually, this value is a multiple of the sector or cluster size of the underlying physical device.
 
 ### -field FileAttributes
 
@@ -118,36 +109,27 @@ File attributes, which can be any valid combination of the following:
 <dd>FILE_ATTRIBUTE_ENCRYPTED</dd>
 </dl>
 
-
-
 ### -field FileNameLength
 
-Specifies the length, in bytes, of the file name string. 
-
+Specifies the length, in bytes, of the file name string.
 
 ### -field EaSize
 
-Combined length, in bytes, of the extended attributes (EA) for the file. 
-
+Combined length, in bytes, of the extended attributes (EA) for the file.
 
 ### -field ShortNameLength
 
-Specifies the length, in bytes, of the short file name string. 
-
+Specifies the length, in bytes, of the short file name string.
 
 ### -field ShortName
 
-Unicode string containing the short (8.3) name for the file. 
-
+Unicode string containing the short (8.3) name for the file.
 
 ### -field FileName
 
-Specifies the first character of the file name string. This is followed in memory by the remainder of the string. 
-
+Specifies the first character of the file name string. This is followed in memory by the remainder of the string.
 
 ## -remarks
-
-
 
 This information can be queried in either of the following ways: 
 
@@ -165,15 +147,9 @@ No specific access rights are required to query this information.
 
 All dates and times are in absolute system-time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601. 
 
-This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on an 8-byte boundary. 
-
-
-
+This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on an 8-byte boundary.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>
 
@@ -184,7 +160,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>
- 
-
- 
 

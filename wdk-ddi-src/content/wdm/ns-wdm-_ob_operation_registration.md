@@ -8,9 +8,6 @@ ms.assetid: 06da3ec0-b8d3-4bd8-8270-ead38b7deada
 ms.date: 04/30/2018
 keywords: ["OB_OPERATION_REGISTRATION structure"]
 ms.keywords: "*POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PsProcessType, PsThreadType, _OB_OPERATION_REGISTRATION, kernel.ob_operation_registration, kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, wdm/OB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION"
-f1_keywords:
- - "wdm/OB_OPERATION_REGISTRATION"
- - "OB_OPERATION_REGISTRATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- OB_OPERATION_REGISTRATION
-- PsProcessType
-- PsThreadType
 targetos: Windows
 req.typenames: OB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION
+f1_keywords:
+ - _OB_OPERATION_REGISTRATION
+ - wdm/_OB_OPERATION_REGISTRATION
+ - POB_OPERATION_REGISTRATION
+ - wdm/POB_OPERATION_REGISTRATION
+ - OB_OPERATION_REGISTRATION
+ - wdm/OB_OPERATION_REGISTRATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - OB_OPERATION_REGISTRATION
+ - PsProcessType
+ - PsThreadType
 ---
 
 # _OB_OPERATION_REGISTRATION structure
@@ -48,14 +52,9 @@ req.typenames: OB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION
 
 ## -description
 
-
-The <b>OB_OPERATION_REGISTRATION</b> structure specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> callback routines and the types of operations that the routines are called for. 
-
+The <b>OB_OPERATION_REGISTRATION</b> structure specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> callback routines and the types of operations that the routines are called for.
 
 ## -struct-fields
-
-
-
 
 ### -field ObjectType
 
@@ -85,32 +84,21 @@ A new process, thread, or desktop handle was or will be opened.
 
 A process, thread, or desktop handle was or will be duplicated.
 
-
 ### -field PreOperation
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a> routine. The system calls this routine before the requested operation occurs.
-
 
 ### -field PostOperation
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine. The system calls this routine after the requested operation occurs.
 
-
 ## -remarks
-
-
 
 This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obregistercallbacks">ObRegisterCallbacks</a> routine. The <i>CallBackRegistration</i> parameter to this routine is a pointer to a buffer that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_callback_registration">OB_CALLBACK_REGISTRATION</a> structure that is followed by an array of one or more <b>OB_OPERATION_REGISTRATION</b> structures.
 
 In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallback</b>, the caller must supply one or both callback routines. If the <b>PreOperation</b> and <b>PostOperation</b> members of this structure are both <b>NULL</b>, the callback registration operation fails.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_callback_registration">OB_CALLBACK_REGISTRATION</a>
 
@@ -125,7 +113,4 @@ In each <b>OB_OPERATION_REGISTRATION</b> structure passed to <b>ObRegisterCallba
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
- 
-
- 
 

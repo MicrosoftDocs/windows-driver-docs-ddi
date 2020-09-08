@@ -8,9 +8,6 @@ ms.assetid: 8c11811f-c3d3-494b-98d7-15540d5afb24
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetLogFile2Wide"]
 ms.keywords: GetLogFile2Wide, GetLogFile2Wide method [Windows Debugging], GetLogFile2Wide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFile2Wide method, IDebugControl4.GetLogFile2Wide, IDebugControl4::GetLogFile2Wide, dbgeng/IDebugControl4::GetLogFile2Wide, debugger.getlogfile2wide
-f1_keywords:
- - "dbgeng/IDebugControl4.GetLogFile2Wide"
- - "IDebugControl4.GetLogFile2Wide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.GetLogFile2Wide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::GetLogFile2Wide
+ - dbgeng/IDebugControl4::GetLogFile2Wide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.GetLogFile2Wide
 ---
 
 # IDebugControl4::GetLogFile2Wide
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetLogFile2Wide</b>  method returns the name of the currently open log file.
-
 
 ## -parameters
 
+### -param Buffer 
 
-
-
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the name of the currently open log file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size, in characters, of the <i>Buffer</i> buffer.
 
+### -param FileSize 
 
-### -param FileSize [out, optional]
-
+[out, optional]
 Receives the size, in characters, of the name of the log file.  If <i>FileSize</i> is <b>NULL</b>, this information is not returned.
 
+### -param Flags 
 
-### -param Flags [out]
-
+[out]
 Receives the bit-flags that were used when opening the log file.  See the <i>Flags</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-openlogfile2">OpenLogFile2</a> for a description of these flags.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -120,24 +113,12 @@ There is no currently open log file.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about log files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">Using Input and Output</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-closelogfile">CloseLogFile</a>
 
@@ -156,7 +137,4 @@ For more information about log files, see <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-openlogfile2">OpenLogFile2</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 686D141E-E6EA-4BB6-8556-0ECAC592E8F0
 ms.date: 03/29/2018
 keywords: ["StorPortFreeHostMemoryBuffer function"]
 ms.keywords: StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices], storage.storportfreehostmemorybuffer, storport/StorPortFreeHostMemoryBuffer
-f1_keywords:
- - "storport/StorPortFreeHostMemoryBuffer"
- - "StorPortFreeHostMemoryBuffer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortFreeHostMemoryBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortFreeHostMemoryBuffer
+ - storport/StorPortFreeHostMemoryBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortFreeHostMemoryBuffer
 ---
 
 # StorPortFreeHostMemoryBuffer function
@@ -46,35 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortFreeHostMemoryBuffer</b> routine frees the physically contiguous memory
-    that was allocated to be used for a Host Memory Buffer (HMB) 
-
+    that was allocated to be used for a Host Memory Buffer (HMB)
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
-
 
 ### -param PhysicalAddressRanges
 
 The array of physical address ranges that make up
         the Host Memory Buffer previously allocated by  <b>StorPortAllocateHostMemoryBuffer</b>.
 
+### -param PhysicalAddressRangeCount 
 
-### -param PhysicalAddressRangeCount [in]
-
- The number of entries in <b>PhysicalAddressRanges</b>. 
-
+[in]
+ The number of entries in <b>PhysicalAddressRanges</b>.
 
 ## -returns
-
-
 
 <b>StorPortFreeHostMemoryBuffer</b> returns one of the following status codes:
 
@@ -106,18 +98,8 @@ The host memory buffer was not valid (likely already freed).
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatehostmemorybuffer">StorPortAllocateHostMemoryBuffer</a>
- 
-
- 
 

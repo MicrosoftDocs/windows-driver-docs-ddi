@@ -8,9 +8,6 @@ ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_SUBMITCOMMANDFLAGS structure"]
 ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], _D3DDDICB_SUBMITCOMMANDFLAGS, d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags
-f1_keywords:
- - "d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS"
- - "D3DDDICB_SUBMITCOMMANDFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_SUBMITCOMMANDFLAGS
 targetos: Windows
 req.typenames: D3DDDICB_SUBMITCOMMANDFLAGS
+f1_keywords:
+ - _D3DDDICB_SUBMITCOMMANDFLAGS
+ - d3dumddi/_D3DDDICB_SUBMITCOMMANDFLAGS
+ - D3DDDICB_SUBMITCOMMANDFLAGS
+ - d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_SUBMITCOMMANDFLAGS
 ---
 
 # _D3DDDICB_SUBMITCOMMANDFLAGS structure
@@ -46,14 +48,9 @@ req.typenames: D3DDDICB_SUBMITCOMMANDFLAGS
 
 ## -description
 
-
 <b>D3DDDICB_SUBMITCOMMANDFLAGS</b> is used to indicate how to process command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NullRendering
 
@@ -63,14 +60,11 @@ Indicates  whether the associated  command buffers should be processed. When set
 
 Setting this member is equivalent to setting the first bit of the 32-bit Value member (0x00000001).
 
-
-
 ### -field Reserved
 
 This member is reserved and should be set to zero. 
 
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
-
 
 ### -field Value
 

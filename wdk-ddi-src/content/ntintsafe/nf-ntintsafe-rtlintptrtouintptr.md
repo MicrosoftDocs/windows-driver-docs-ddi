@@ -8,9 +8,6 @@ ms.assetid: A4677F86-C98A-4F8B-98CA-86082A7D77FD
 ms.date: 04/30/2018
 keywords: ["RtlIntPtrToUIntPtr function"]
 ms.keywords: RtlIntPtrToUIntPtr, RtlIntPtrToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlintptrtouintptr, ntintsafe/RtlIntPtrToUIntPtr
-f1_keywords:
- - "ntintsafe/RtlIntPtrToUIntPtr"
- - "RtlIntPtrToUIntPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlIntPtrToUIntPtr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIntPtrToUIntPtr
+ - ntintsafe/RtlIntPtrToUIntPtr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlIntPtrToUIntPtr
 ---
 
 # RtlIntPtrToUIntPtr function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>INT_PTR</b> to a value of type <b>UINT_PTR</b>.
-
 
 ## -parameters
 
+### -param iOperand 
 
-
-
-### -param iOperand [in]
-
+[in]
 The value to be converted.
 
+### -param puResult 
 
-### -param puResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -81,5 +74,4 @@ This function uses the following alternate name:
 <li>RtlPtrdiffTToSizeT
 </li>
 </ul>
-
 

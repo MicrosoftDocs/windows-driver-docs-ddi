@@ -8,9 +8,6 @@ ms.assetid: 5f92a711-97fe-4420-be50-89302cc9486c
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_HOME_PROVIDER structure"]
 ms.keywords: "*PNDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, _NDIS_WWAN_HOME_PROVIDER, ndiswwan/NDIS_WWAN_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_HOME_PROVIDER, netvista.ndis_wwan_home_provider"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_HOME_PROVIDER"
- - "NDIS_WWAN_HOME_PROVIDER"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_HOME_PROVIDER
 targetos: Windows
 req.typenames: NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER
+f1_keywords:
+ - _NDIS_WWAN_HOME_PROVIDER
+ - ndiswwan/_NDIS_WWAN_HOME_PROVIDER
+ - PNDIS_WWAN_HOME_PROVIDER
+ - ndiswwan/PNDIS_WWAN_HOME_PROVIDER
+ - NDIS_WWAN_HOME_PROVIDER
+ - ndiswwan/NDIS_WWAN_HOME_PROVIDER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_HOME_PROVIDER
 ---
 
 # _NDIS_WWAN_HOME_PROVIDER structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER
 
 ## -description
 
-
 The NDIS_WWAN_HOME_PROVIDER structure represents details about the home network provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,7 +103,6 @@ sizeof(NDIS_WWAN_HOME_PROVIDER)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -182,8 +180,6 @@ The operation failed because a bad SIM card was detected.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Provider
 
@@ -191,18 +187,11 @@ A formatted
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a> object that represents details
      about a network provider.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 52B9DD8B-E96F-464C-9D98-5EF8B6C050C5
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_NIC_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING, NDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_PARAMETERS, PNDIS_SWITCH_NIC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_PARAMETERS, netvista.ndis_switch_nic_parameters, ntddndis/NDIS_SWITCH_NIC_PARAMETERS, ntddndis/PNDIS_SWITCH_NIC_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_NIC_PARAMETERS"
- - "NDIS_SWITCH_NIC_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h, Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_NIC_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS
+f1_keywords:
+ - _NDIS_SWITCH_NIC_PARAMETERS
+ - ntddndis/_NDIS_SWITCH_NIC_PARAMETERS
+ - PNDIS_SWITCH_NIC_PARAMETERS
+ - ntddndis/PNDIS_SWITCH_NIC_PARAMETERS
+ - NDIS_SWITCH_NIC_PARAMETERS
+ - ntddndis/NDIS_SWITCH_NIC_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_NIC_PARAMETERS
 ---
 
 # _NDIS_SWITCH_NIC_PARAMETERS structure
@@ -46,17 +50,9 @@ req.typenames: NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS
 
 ## -description
 
-
-
-The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure specifies the configuration parameters for a network adapter (NIC) that is connected to a Hyper-V extensible switch port.  
-
-
-
+The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure specifies the configuration parameters for a network adapter (NIC) that is connected to a Hyper-V extensible switch port.
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -73,7 +69,6 @@ The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT.
 Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_NDIS_SWITCH_NIC_PARAMETERS_REVISION_1</b>.
-
 
 ### -field Flags
 
@@ -103,8 +98,6 @@ This flag is set when the <a href="https://docs.microsoft.com/windows-hardware/d
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NicName
 
@@ -112,16 +105,13 @@ This flag is set when the <a href="https://docs.microsoft.com/windows-hardware/d
 
 For more information, see the Remarks section.
 
-
 ### -field NicFriendlyName
 
  An NDIS_SWITCH_NIC_FRIENDLYNAME value that specifies the user-friendly description of the network adapter.
 
-
 ### -field PortId
 
 An NDIS_SWITCH_PORT_ID value that contains the unique identifier of the extensible switch port to which the network adapter is connected.
-
 
 ### -field NicIndex
 
@@ -129,16 +119,13 @@ An NDIS_SWITCH_NIC_INDEX value that specifies the index of the network adapter t
 
 For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-adapter-index-values">Network Adapter Index Values</a>.
 
-
 ### -field NicType
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_type">NDIS_SWITCH_NIC_TYPE</a> value that specifies the type of the network adapter that is connected to an extensible switch port.
 
-
 ### -field NicState
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_state">NDIS_SWITCH_NIC_STATE</a> value that specifies the current state of the network adapter.
-
 
 ### -field VmName
 
@@ -152,9 +139,6 @@ The Hyper-V child partition is also known as a virtual machine (VM).
 <div> </div>
 
 ### -field VmFriendlyName
-
- 
-
 
 ### -field NetCfgInstanceId
 
@@ -192,18 +176,13 @@ A <b>USHORT</b> value that specifies the identifier for the preferred Non-Unifor
 
 A <b>UCHAR</b> array that specifies the media access control (MAC) address as configured on the host partition for  the network adapter. This can be different from the MAC address currently in use by the network adapter.
 
-
 ### -field VMMacAddress
 
 A <b>UCHAR</b> array that specifies the MAC address that is configured on the network adapter inside the VM itself. The field is all zeros for non VM NICs. If <i>AllowMacSpoofing</i> (from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_property_security">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a>) is TRUE, this address will also be applied to the <i>CurrentMacAddress.</i>
 
-
 ### -field CurrentMacAddress
 
-A <b>UCHAR</b> array that specifies the MAC address that is currently being used in the switch for the network adapter. If <i>AllowMacSpoofing</i> and <i>AllowTeaming</i> are both FALSE, then this value will be equal to <i>PermanentMacAddress</i>. If <i>AllowMacSpoofing</i> is TRUE, this value will be equal to the <i>VMMacAddress</i>. If <i>AllowTeaming</i> is TRUE and teaming failover has occurred inside the VM, the <i>CurrentMacAddress</i> will be equal to the MAC address that was failed over to the network adapter or <i>PermanentMacAddress</i> if no failover has occurred. 
-
-
-
+A <b>UCHAR</b> array that specifies the MAC address that is currently being used in the switch for the network adapter. If <i>AllowMacSpoofing</i> and <i>AllowTeaming</i> are both FALSE, then this value will be equal to <i>PermanentMacAddress</i>. If <i>AllowMacSpoofing</i> is TRUE, this value will be equal to the <i>VMMacAddress</i>. If <i>AllowTeaming</i> is TRUE and teaming failover has occurred inside the VM, the <i>CurrentMacAddress</i> will be equal to the MAC address that was failed over to the network adapter or <i>PermanentMacAddress</i> if no failover has occurred.
 
 ### -field VFAssigned
 
@@ -225,12 +204,7 @@ For more information, see the Remarks section.
 
 An NDIS_VM_FRIENDLYNAME value that specifies the external name of the Hyper-V child partition that is attached to the VF. This member contains the user-friendly description of the partition.
 
-
-
-
 ## -remarks
-
-
 
 OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-array">OID_SWITCH_NIC_ARRAY</a> return an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_array">NDIS_SWITCH_NIC_ARRAY</a> structure that contains zero or more elements. Each element is formatted as an <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure.
 
@@ -309,13 +283,7 @@ The extension can remove a VF assignment by issuing an <a href="https://docs.mic
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-switch-port-remove-vf">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -374,7 +342,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
- 
-
- 
 

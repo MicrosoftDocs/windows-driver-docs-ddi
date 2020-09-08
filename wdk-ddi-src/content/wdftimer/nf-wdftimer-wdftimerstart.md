@@ -8,9 +8,6 @@ ms.assetid: 32c40be2-dee0-4ac7-9f78-a64b9f985f51
 ms.date: 02/26/2018
 keywords: ["WdfTimerStart function"]
 ms.keywords: DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, WdfTimerStart, WdfTimerStart method, kmdf.wdftimerstart, wdf.wdftimerstart, wdftimer/WdfTimerStart
-f1_keywords:
- - "wdftimer/WdfTimerStart"
- - "WdfTimerStart"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfTimerStart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfTimerStart
+ - wdftimer/WdfTimerStart
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfTimerStart
 ---
 
 # WdfTimerStart function
@@ -49,24 +49,20 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfTimerStart</b> method starts a timer's clock.
 
-
 ## -parameters
 
+### -param Timer 
 
-
-
-### -param Timer [in]
-
+[in]
 A handle to a framework timer object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
+### -param DueTime 
 
-### -param DueTime [in]
-
+[in]
 A time period, in system time units (100-nanosecond intervals). The framework calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function when the specified time period elapses. The time period value can be negative or positive as follows:
 <ul>
 <li>
@@ -83,21 +79,11 @@ Relative times are not affected by any changes to the system time that might occ
 
 The framework provides [time conversion functions](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcore/) that convert time values into system time units.
 
-
-
-
-
-
 ## -returns
-
-
 
 <b>WdfTimerStart</b> returns <b>TRUE</b> if the timer object was in the system's timer queue. Otherwise, this method returns <b>FALSE</b>. For more information, see the following Remarks section. 
 
 A bug check occurs if the driver supplies an invalid object handle.
-
-
-
 
 ## -remarks
 
@@ -131,12 +117,7 @@ inTimerQueue = WdfTimerStart(
                              );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a>
 
@@ -151,7 +132,4 @@ inTimerQueue = WdfTimerStart(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimerstop">WdfTimerStop</a>
- 
-
- 
 

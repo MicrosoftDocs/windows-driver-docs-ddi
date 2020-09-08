@@ -6,37 +6,40 @@ tech.root: netvista
 ms.assetid: 7836111a-f6e9-4177-858d-a05a30a2ec1a
 ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT structure"]
-f1_keywords:
- - "fragment/INSTANCE_PARTIAL_INFORMATION"
- - "INSTANCE_PARTIAL_INFORMATION"
-ms.keywords: _NET_FRAGMENT, NET_FRAGMENT, 
+ms.keywords: _NET_FRAGMENT, NET_FRAGMENT,
 req.header: fragment.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
-req.alt-api:
-req.alt-loc:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
+req.alt-api: 
+req.alt-loc: 
 req.typenames: NET_FRAGMENT, *PNET_FRAGMENT
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- fragment.h
-apiname: 
-- NET_FRAGMENT
 targetos: Windows
+f1_keywords:
+ - _NET_FRAGMENT
+ - fragment/_NET_FRAGMENT
+ - NET_FRAGMENT
+ - fragment/NET_FRAGMENT
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - fragment.h
+apiname:
+ - NET_FRAGMENT
 ---
 
 # _NET_FRAGMENT structure
+
 
 ## -description
 
@@ -81,3 +84,4 @@ A single [**NET_PACKET**](../packet/ns-packet-_net_packet.md) structure contains
 While each fragment is a virtually contiguous buffer of memory, a packet that contains more than one fragment is virtually discontiguous.
 
 ## -see-also
+

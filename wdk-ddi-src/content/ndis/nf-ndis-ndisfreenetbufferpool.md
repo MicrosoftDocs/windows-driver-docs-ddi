@@ -8,9 +8,6 @@ ms.assetid: e1ea63d1-9322-44c7-8196-2fe1a7b6a220
 ms.date: 05/02/2018
 keywords: ["NdisFreeNetBufferPool function"]
 ms.keywords: NdisFreeNetBufferPool, NdisFreeNetBufferPool function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferPool, ndis_netbuf_functions_ref_8fcb5f46-efc3-4059-9774-cbdf14c5500a.xml, netvista.ndisfreenetbufferpool
-f1_keywords:
- - "ndis/NdisFreeNetBufferPool"
- - "NdisFreeNetBufferPool"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFreeNetBufferPool
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFreeNetBufferPool
+ - ndis/NdisFreeNetBufferPool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFreeNetBufferPool
 ---
 
 # NdisFreeNetBufferPool function
 
 
 ## -description
-
 
 Call the 
   <b>NdisFreeNetBufferPool</b> function to free 
@@ -55,20 +54,14 @@ Call the
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">
   NdisAllocateNetBufferPool</a> function.
 
-
 ## -parameters
 
+### -param PoolHandle 
 
-
-
-### -param PoolHandle [in]
-
+[in]
 The pool handle for the NET_BUFFER structure pool to be freed.
 
-
 ## -remarks
-
-
 
 You should free all the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a pool before freeing
@@ -76,13 +69,7 @@ You should free all the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a> function to free each
     NET_BUFFER structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -93,7 +80,4 @@ You should free all the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a>
- 
-
- 
 

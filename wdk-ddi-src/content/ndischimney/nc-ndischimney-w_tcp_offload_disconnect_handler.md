@@ -8,9 +8,6 @@ ms.assetid: f8be12a9-c2c0-4a22-8a57-58c8b27ef69e
 ms.date: 05/02/2018
 keywords: ["W_TCP_OFFLOAD_DISCONNECT_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadDisconnect, MiniportTcpOffloadDisconnect callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_DISCONNECT_HANDLER, W_TCP_OFFLOAD_DISCONNECT_HANDLER callback, ndischimney/MiniportTcpOffloadDisconnect, netvista.miniporttcpoffloaddisconnect, tcp_chim_miniport_func_70f2c816-ff74-4297-9d87-50c983a03f2d.xml
-f1_keywords:
- - "ndischimney/MiniportTcpOffloadDisconnect"
- - "MiniportTcpOffloadDisconnect"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndischimney.h
-api_name:
-- MiniportTcpOffloadDisconnect
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - W_TCP_OFFLOAD_DISCONNECT_HANDLER
+ - ndischimney/W_TCP_OFFLOAD_DISCONNECT_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndischimney.h
+api_name:
+ - MiniportTcpOffloadDisconnect
 ---
 
 # W_TCP_OFFLOAD_DISCONNECT_HANDLER callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
@@ -55,14 +54,11 @@ The
   <i>MiniportTcpOffloadDisconnect</i> function that the function must transmit before sending a FIN
   segment.
 
-
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
@@ -71,24 +67,24 @@ The handle to an offload-target allocated context area in which the offload targ
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param MiniportOffloadContext 
 
-### -param MiniportOffloadContext [in]
-
+[in]
 A pointer to a memory location that contains a PVOID value. This PVOID value references the
      miniport offload context that contains the state object for the TCP connection to be disconnected. The
      offload target supplied this PVOID value when it offloaded the TCP connection state object.
 
+### -param NetBufferList 
 
-### -param NetBufferList [in]
-
+[in]
 A pointer to a single 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Only one 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure is associated with this
      NET_BUFFER_LIST structure.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 As one of the following values, the type of disconnect that the offload target must perform:
      
 
@@ -106,10 +102,7 @@ The offload target must perform an abortive disconnect by sending an RST segment
 
 The offload target must perform a graceful disconnect by sending a FIN segment.
 
-
 ## -returns
-
-
 
 The 
      <i>MiniportTcpOffloadDisconnect</i> function always returns NDIS_STATUS_PENDING. The offload target
@@ -117,12 +110,7 @@ The
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_disconnect_complete">
      NdisTcpOffloadDisconnectComplete</a>.
 
-
-
-
 ## -remarks
-
-
 
 Depending on the 
     <i>Flags</i> setting, the 
@@ -218,13 +206,7 @@ An offload target must not fail a disconnect request unless the specified TCP co
 The offload target must not free resources for the connection on which it has issued either an
     abortive or graceful disconnect until the host stack terminates the offload of the connection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -265,7 +247,4 @@ The offload target must not free resources for the connection on which it has is
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">NdisTcpOffloadSendComplete</a>
- 
-
- 
 

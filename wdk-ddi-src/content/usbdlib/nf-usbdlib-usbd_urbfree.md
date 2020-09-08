@@ -8,9 +8,6 @@ ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
 ms.date: 06/24/2019
 keywords: ["USBD_UrbFree function"]
 ms.keywords: USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree
-f1_keywords:
- - "usbdlib/USBD_UrbFree"
- - "USBD_UrbFree"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Usbdex.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Usbdex.lib
-- Usbdex.dll
-api_name:
-- USBD_UrbFree
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBD_UrbFree
+ - usbdlib/USBD_UrbFree
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Usbdex.lib
+ - Usbdex.dll
+api_name:
+ - USBD_UrbFree
 ---
 
 # USBD_UrbFree function
@@ -47,29 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBD_UrbFree</b> routine releases the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> that is allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_urballocate">USBD_UrbAllocate</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_isochurballocate">USBD_IsochUrbAllocate</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_selectconfigurballocateandbuild">USBD_SelectConfigUrbAllocateAndBuild</a>, or 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_selectinterfaceurballocateandbuild">USBD_SelectInterfaceUrbAllocateAndBuild</a>.
 
-
 ## -parameters
 
+### -param USBDHandle 
 
-
-
-### -param USBDHandle [in]
-
+[in]
 USBD handle that is retrieved by the client driver in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
+### -param Urb 
 
-### -param Urb [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure to be released.
 
-
 ## -remarks
-
-
 
 You must call <b>USBD_UrbFree</b> to release the URB allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_urballocate">USBD_UrbAllocate</a> after the request is complete. 
 
@@ -77,20 +70,11 @@ Failure to call <b>USBD_UrbFree</b> can cause a memory leak.
 
 For a code example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_urballocate">USBD_UrbAllocate</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_urballocate">USBD_UrbAllocate</a>
- 
-
- 
 

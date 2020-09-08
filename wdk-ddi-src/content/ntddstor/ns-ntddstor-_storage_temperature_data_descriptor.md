@@ -8,9 +8,6 @@ ms.assetid: A6041B10-0296-4A96-B65C-C35B8DCB2B5D
 ms.date: 03/29/2018
 keywords: ["STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR structure pointer [Storage Devices], STORAGE_TEMPERATURE_DATA_DESCRIPTOR, STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure [Storage Devices], _STORAGE_TEMPERATURE_DATA_DESCRIPTOR, ntddstor/PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, ntddstor/STORAGE_TEMPERATURE_DATA_DESCRIPTOR, storage.storage_temperature_data_descriptor"
-f1_keywords:
- - "ntddstor/STORAGE_TEMPERATURE_DATA_DESCRIPTOR"
- - "STORAGE_TEMPERATURE_DATA_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 targetos: Windows
 req.typenames: STORAGE_TEMPERATURE_DATA_DESCRIPTOR, *PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR
+f1_keywords:
+ - _STORAGE_TEMPERATURE_DATA_DESCRIPTOR
+ - ntddstor/_STORAGE_TEMPERATURE_DATA_DESCRIPTOR
+ - PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR
+ - ntddstor/PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR
+ - STORAGE_TEMPERATURE_DATA_DESCRIPTOR
+ - ntddstor/STORAGE_TEMPERATURE_DATA_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 ---
 
 # _STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure
@@ -46,49 +50,37 @@ req.typenames: STORAGE_TEMPERATURE_DATA_DESCRIPTOR, *PSTORAGE_TEMPERATURE_DATA_D
 
 ## -description
 
-
-This structure is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to return temperature data from a storage device or adapter. 
-
+This structure is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to return temperature data from a storage device or adapter.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Contains the size of this structure, in bytes. The value of this member will change as members are added to the structure.
 
-
 ### -field Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this structure.
 
-
 ### -field CriticalTemperature
 
-Indicates the minimum temperature in degrees Celsius that may prevent normal operation. Exceeding this temperature may result in possible data loss, automatic device shutdown, extreme performance throttling, or permanent damage.      
-
+Indicates the minimum temperature in degrees Celsius that may prevent normal operation. Exceeding this temperature may result in possible data loss, automatic device shutdown, extreme performance throttling, or permanent damage.
 
 ### -field WarningTemperature
 
-Indicates the maximum temperature in degrees Celsius at which the device is capable of operating continuously without degrading operation or reliability.    
-
+Indicates the maximum temperature in degrees Celsius at which the device is capable of operating continuously without degrading operation or reliability.
 
 ### -field InfoCount
 
 Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a> structures reported in <b>TemperatureInfo</b>. More than one set of temperature data may be returned when there are multiple sensors in the drive.
 
-
 ### -field Reserved0
 
 Reserved for future use.
 
-
 ### -field Reserved1
 
 Reserved for future use.
-
 
 ### -field TemperatureInfo
 
@@ -101,11 +93,7 @@ Reserved for future use.
 
 Device temperature data, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
@@ -120,7 +108,4 @@ Device temperature data, of type <a href="https://docs.microsoft.com/windows-har
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
- 
-
- 
 

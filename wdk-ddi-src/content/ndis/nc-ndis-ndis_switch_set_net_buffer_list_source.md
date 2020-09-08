@@ -8,9 +8,6 @@ ms.assetid: 6537824A-F521-4916-AAC8-7C0E6E5F7331
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback function"]
 ms.keywords: NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE, NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback, SetNetBufferListSource, SetNetBufferListSource callback function [Network Drivers Starting with Windows Vista], ndis/SetNetBufferListSource, netvista.setnetbufferlistsource
-f1_keywords:
- - "ndis/SetNetBufferListSource"
- - "SetNetBufferListSource"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- SetNetBufferListSource
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE
+ - ndis/NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - SetNetBufferListSource
 ---
 
 # NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback function
@@ -46,22 +46,14 @@ req.typenames:
 
 ## -description
 
-
-
 The <i>SetNetBufferListSource</i> function sets the Hyper-V extensible switch source port identifier and network adapter index for a packet that is specified by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
-
-
-
 
 ## -parameters
 
+### -param NdisSwitchContext 
 
-
-
-### -param NdisSwitchContext [in]
-
+[in]
 An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
-
 
 ### -param NetBufferList
 
@@ -70,13 +62,14 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 <div class="alert"><b>Note</b>  This structure must contain  an extensible switch forwarding context that was previously allocated by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_allocate_net_buffer_list_forwarding_context">AllocateNetBufferListForwardingContext</a> function. For more information about the extensible switch forwarding context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-forwarding-context">Hyper-V Extensible Switch Forwarding Context</a>.</div>
 <div> </div>
 
-### -param PortId [in]
+### -param PortId 
 
+[in]
 An NDIS_SWITCH_PORT_ID value that specifies the unique identifier of the source port on the extensible switch.
 
+### -param NicIndex 
 
-### -param NicIndex [in]
-
+[in]
 An NDIS_SWITCH_NIC_INDEX value that specifies the index of the network adapter that is connected to the extensible switch port specified by the <i>PortId</i> parameter.
 
 For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-adapter-index-values">Network Adapter Index Values</a>.
@@ -86,21 +79,11 @@ For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="https://docs.
 <div class="alert"><b>Note</b>  This parameter must specify the index value of a network adapter that is in a connected state. Index values for network adapters that are in a created or disconnected state cannot be specified. For more information about network connection states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-port-and-network-adapter-states">Hyper-V Extensible Switch Port and Network Adapter States</a>.</div>
 <div> </div>
 
-
 ## -returns
-
-
 
 If the call succeeds, the function returns NDIS_STATUS_SUCCESS. Otherwise, it returns an NDIS_STATUS_<i>Xxx</i> error code that is defined in Ndis.h.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The extensible switch extension calls the <i>SetNetBufferListSource</i> function to set the source port identifier and network adapter index in a packet's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. The extension does this for the following types of packets:
 
@@ -124,13 +107,7 @@ For example, a packet that has a source port identifier of <b>NDIS_SWITCH_DEFAUL
 <div> </div>
 For more information on packet send and receive operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/filter-module-send-and-receive-operations">Filter Module Send and Receive Operations</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -153,7 +130,4 @@ For more information on packet send and receive operations, see <a href="https:/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>
- 
-
- 
 

@@ -6,36 +6,41 @@ tech.root: netvista
 ms.assetid: 1d92e287-b6d5-4eb6-9d34-963331b04a00
 ms.date: 08/20/2018
 keywords: ["NDIS_WWAN_SET_SAR_CONFIG structure"]
-f1_keywords:
- - "ndiswwan/_NDIS_WWAN_SET_SAR_CONFIG"
- - "_NDIS_WWAN_SET_SAR_CONFIG"
-ms.keywords: _NDIS_WWAN_SET_SAR_CONFIG, NDIS_WWAN_SET_SAR_CONFIG, *PNDIS_WWAN_SET_SAR_CONFIG, 
+ms.keywords: _NDIS_WWAN_SET_SAR_CONFIG, NDIS_WWAN_SET_SAR_CONFIG, *PNDIS_WWAN_SET_SAR_CONFIG,
 req.header: ndiswwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NDIS_WWAN_SET_SAR_CONFIG, *PNDIS_WWAN_SET_SAR_CONFIG
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndiswwan.h
-api_name: 
-- _NDIS_WWAN_SET_SAR_CONFIG
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _NDIS_WWAN_SET_SAR_CONFIG
+ - ndiswwan/_NDIS_WWAN_SET_SAR_CONFIG
+ - PNDIS_WWAN_SET_SAR_CONFIG
+ - ndiswwan/PNDIS_WWAN_SET_SAR_CONFIG
+ - NDIS_WWAN_SET_SAR_CONFIG
+ - ndiswwan/NDIS_WWAN_SET_SAR_CONFIG
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - _NDIS_WWAN_SET_SAR_CONFIG
 ---
 
 # _NDIS_WWAN_SET_SAR_CONFIG structure
+
 
 ## -description
 
@@ -54,8 +59,9 @@ The header with type, revision, and size information about the **NDIS_WWAN_SET_S
 | Size | sizeof(NDIS_WWAN_SET_SAR_CONFIG) |
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md).
- 
+
 ### -field SetSarConfig
+
  
 A formatted [**WWAN_SET_SAR_CONFIG**](../wwan/ns-wwan-_wwan_set_sar_config.md) structure that describes the SAR information for the modem to set.
 
@@ -74,3 +80,4 @@ After completing the Set request, the modem should return an [NDIS_STATUS_WWAN_S
 [NDIS_STATUS_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-sar-config)
 
 [**WWAN_SET_SAR_CONFIG**](../wwan/ns-wwan-_wwan_set_sar_config.md)
+

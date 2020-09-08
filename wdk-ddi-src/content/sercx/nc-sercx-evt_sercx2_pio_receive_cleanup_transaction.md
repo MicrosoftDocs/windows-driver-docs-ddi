@@ -8,9 +8,6 @@ ms.assetid: 2CFCF5D9-23F8-4571-972A-0BE48EB2D046
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION callback function"]
 ms.keywords: 2/EvtSerCx2PioReceiveCleanupTransaction, EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION, EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION callback, EvtSerCx2PioReceiveCleanupTransaction, EvtSerCx2PioReceiveCleanupTransaction callback function [Serial Ports], serports.evtsercx2pioreceivecleanuptransaction
-f1_keywords:
- - "sercx/EvtSerCx2PioReceiveCleanupTransaction"
- - "EvtSerCx2PioReceiveCleanupTransaction"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 2.0\Sercx.h
-api_name:
-- EvtSerCx2PioReceiveCleanupTransaction
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION
+ - sercx/EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - EvtSerCx2PioReceiveCleanupTransaction
 ---
 
 # EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION callback function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCx2PioReceiveCleanupTransaction</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller's hardware state after a PIO-receive transaction ends.
-
 
 ## -parameters
 
+### -param PioReceive 
 
-
-
-### -param PioReceive [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> method to create this object.
 
-
 ## -remarks
-
-
 
 Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> method that creates the PIO-receive object.
 
@@ -108,12 +101,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION</b> function type is defined i
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
@@ -124,7 +112,4 @@ The <b>EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION</b> function type is defined i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a>
- 
-
- 
 

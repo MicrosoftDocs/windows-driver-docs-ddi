@@ -8,9 +8,6 @@ ms.assetid: F477ABEA-5E29-4934-995C-D7FB1EF87A5B
 ms.date: 02/26/2018
 keywords: ["WdfRequestSetUserModeDriverInitiatedIo function"]
 ms.keywords: WdfRequestSetUserModeDriverInitiatedIo, WdfRequestSetUserModeDriverInitiatedIo method, wdf.wdfrequestsetusermodedriverinitiatedio, wdfrequest/WdfRequestSetUserModeDriverInitiatedIo
-f1_keywords:
- - "wdfrequest/WdfRequestSetUserModeDriverInitiatedIo"
- - "WdfRequestSetUserModeDriverInitiatedIo"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: WUDFx02000.lib; WUDFx02000.dll
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- WUDFx02000.lib
-- WUDFx02000.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestSetUserModeDriverInitiatedIo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestSetUserModeDriverInitiatedIo
+ - wdfrequest/WdfRequestSetUserModeDriverInitiatedIo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - WUDFx02000.lib
+ - WUDFx02000.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestSetUserModeDriverInitiatedIo
 ---
 
 # WdfRequestSetUserModeDriverInitiatedIo function
@@ -49,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfRequestSetUserModeDriverInitiatedIo</b> method indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
+### -param IsUserModeDriverInitiated 
 
-### -param IsUserModeDriverInitiated [in]
-
+[in]
 A Boolean value that, if <b>TRUE</b>, indicates that the request should be treated as though it was initiated by a UMDF driver. If <b>FALSE</b>, this parameter indicates that the request should be treated as though it came from an application.
 
-
 ## -remarks
-
-
 
 If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the <b>IRP_UM_DRIVER_INITIATED_IO</b> flag in the <b>Flags</b> member of the WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure before forwarding the request to kernel-mode drivers.
 
@@ -84,16 +77,7 @@ A UMDF driver might set the <i>IsUserModeDriverInitiated</i> parameter to <b>TRU
 
 Requests that the driver created on its own are already marked as having originated from a UMDF driver.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetusermodedriverinitiatedio">WdfRequestGetUserModeDriverInitiatedIo</a>
- 
-
- 
 

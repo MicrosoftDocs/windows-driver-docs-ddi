@@ -8,13 +8,10 @@ ms.assetid: 1ea82b64-e0e0-445b-8200-70cd6920d29b
 ms.date: 05/03/2018
 keywords: ["wiasQueueEvent function"]
 ms.keywords: image.wiasqueueevent, wiamdef/wiasQueueEvent, wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiasQueueEvent, wiasQueueEvent function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasQueueEvent"
- - "wiasQueueEvent"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasQueueEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasQueueEvent
+ - wiamdef/wiasQueueEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasQueueEvent
 ---
 
 # wiasQueueEvent function
+
 
 ## -description
 
@@ -49,16 +50,19 @@ The **wiasQueueEvent** function informs the service that the device generated an
 
 ## -parameters
 
-### -param bstrDeviceId [in]
+### -param bstrDeviceId 
 
+[in]
 Specifies the device ID. This is the value passed to the minidriver in the call to the [IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia) method.
 
-### -param pEventGUID [in]
+### -param pEventGUID 
 
+[in]
 Pointer to a buffer that contains the GUID for the event.
 
-### -param bstrFullItemName [in, optional]
+### -param bstrFullItemName 
 
+[in, optional]
 Specifies the full item name, including path information.
 
 ## -returns
@@ -82,3 +86,4 @@ See the Windows SDK documentation for a complete list of WIA event identifiers.
 ## -see-also
 
 [IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia)
+

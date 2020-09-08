@@ -8,9 +8,6 @@ ms.assetid: AA716307-C235-47B2-BEB6-586FD6013280
 ms.date: 05/10/2018
 keywords: ["DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure"]
 ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure [Display Devices], display.dxgiddicb_present_multiplane_overlay1, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
-f1_keywords:
- - "dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1"
- - "DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1"
 req.header: dxgiddi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxgiddi.h
-api_name:
-- DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 targetos: Windows
 req.typenames: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
+f1_keywords:
+ - DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
+ - dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxgiddi.h
+api_name:
+ - DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 ---
 
 # DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure
@@ -46,24 +46,17 @@ req.typenames: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 
 ## -description
 
-
-Describes multiplane overlay allocations, private driver data, and context information for each multiplane overlay plane. 
-
+Describes multiplane overlay allocations, private driver data, and context information for each multiplane overlay plane.
 
 ## -struct-fields
-
-
-
 
 ### -field pDXGIContext
 
 A handle to the DXGI context. This handle is opaque to the driver. The driver should assign the handle from the pDXGIContext member DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY1 structure that the driver received in a call to its pfnPresentMultiplaneOverlay function to this member.
 
-
 ### -field PresentPlaneCount
 
 The number of planes in the array that the ppPresentPlanes member specifies.
-
 
 ### -field ppPresentPlanes
 

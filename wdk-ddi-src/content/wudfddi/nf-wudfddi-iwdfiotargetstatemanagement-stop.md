@@ -8,9 +8,6 @@ ms.assetid: c0d5ea59-c1df-403b-9e74-b1ab60761640
 ms.date: 02/26/2018
 keywords: ["IWDFIoTargetStateManagement::Stop"]
 ms.keywords: IWDFIoTargetStateManagement interface,Stop method, IWDFIoTargetStateManagement.Stop, IWDFIoTargetStateManagement::Stop, Stop, Stop method, Stop method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_e3b5b892-9d72-49ad-8d58-9cf751f831ad.xml, umdf.iwdfiotargetstatemanagement_stop, wdf.iwdfiotargetstatemanagement_stop, wudfddi/IWDFIoTargetStateManagement::Stop
-f1_keywords:
- - "wudfddi/IWDFIoTargetStateManagement.Stop"
- - "IWDFIoTargetStateManagement.Stop"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoTargetStateManagement.Stop
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoTargetStateManagement::Stop
+ - wudfddi/IWDFIoTargetStateManagement::Stop
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoTargetStateManagement.Stop
 ---
 
 # IWDFIoTargetStateManagement::Stop
@@ -46,34 +46,22 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Stop</b> method stops sending queued requests to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
-
 ## -parameters
 
+### -param Action 
 
-
-
-### -param Action [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_sent_io_action">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that identifies how to handle sent I/O when the I/O target object is stopped.
-
 
 ## -returns
 
-
-
 <b>Stop</b> always returns S_OK.
 
-
-
-
 ## -remarks
-
-
 
 If your driver can detect recoverable device errors, you might want your driver to call <b>Stop</b> to temporarily stop sending requests to the local I/O target, then later call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiotargetstatemanagement-start">IWDFIoTargetStateManagement::Start</a> to resume sending requests.
 
@@ -128,19 +116,11 @@ CMyDevice::OnD0Exit(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotargetstatemanagement">IWDFIoTargetStateManagement</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-stop">IWDFRemoteTarget::Stop</a>
- 
-
- 
 

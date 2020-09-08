@@ -8,9 +8,6 @@ ms.assetid: 7d3f743e-2422-474d-aaad-4386e0dc100a
 ms.date: 04/27/2018
 keywords: ["SdpFreeTree function"]
 ms.keywords: SdpFreeTree, SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, sdplib/SdpFreeTree
-f1_keywords:
- - "sdplib/SdpFreeTree"
- - "SdpFreeTree"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sdplib.h
-api_name:
-- SdpFreeTree
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SdpFreeTree
+ - sdplib/SdpFreeTree
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sdplib.h
+api_name:
+ - SdpFreeTree
 ---
 
 # SdpFreeTree function
@@ -46,34 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The Bluetooth 
   <b>SdpFreeTree</b> function is used to free the memory allocated for the tree-based representation of an SDP
   record.
 
-
 ## -parameters
 
+### -param Tree 
 
-
-
-### -param Tree [in]
-
+[in]
 The root node of the SDP tree-based representation to be freed.
-
 
 ## -returns
 
-
-
 Possible return values include:
 
-
-
-
 ## -remarks
-
-
 
 Callers should perform an 
     <b>SdpFreeTree</b> call when the tree-based representation of an SDP record is no longer needed. The 
@@ -91,13 +79,7 @@ Bluetooth profile drivers can obtain a pointer to the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">
     BTHDDI_SDP_NODE_INTERFACE</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>
 
@@ -116,7 +98,4 @@ Bluetooth profile drivers can obtain a pointer to the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpcreatenodetree">SdpCreateNodeTree</a>
- 
-
- 
 

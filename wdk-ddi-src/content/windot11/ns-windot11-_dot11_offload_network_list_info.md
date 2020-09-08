@@ -8,39 +8,43 @@ ms.assetid: 0FB1D72F-B183-408A-BB84-A9D54B6C276F
 ms.date: 02/16/2018
 keywords: ["DOT11_OFFLOAD_NETWORK_LIST_INFO structure"]
 ms.keywords: "*PDOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO, DOT11_OFFLOAD_NETWORK_LIST_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK_LIST_INFO, PDOT11_OFFLOAD_NETWORK_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_OFFLOAD_NETWORK_LIST_INFO, netvista.dot11_offload_network_list_info, windot11/DOT11_OFFLOAD_NETWORK_LIST_INFO, windot11/PDOT11_OFFLOAD_NETWORK_LIST_INFO"
-f1_keywords:
- - "windot11/DOT11_OFFLOAD_NETWORK_LIST_INFO"
- - "DOT11_OFFLOAD_NETWORK_LIST_INFO"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windot11.h
-api_name:
-- DOT11_OFFLOAD_NETWORK_LIST_INFO
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_OFFLOAD_NETWORK_LIST_INFO, *PDOT11_OFFLOAD_NETWORK_LIST_INFO
+f1_keywords:
+ - _DOT11_OFFLOAD_NETWORK_LIST_INFO
+ - windot11/_DOT11_OFFLOAD_NETWORK_LIST_INFO
+ - PDOT11_OFFLOAD_NETWORK_LIST_INFO
+ - windot11/PDOT11_OFFLOAD_NETWORK_LIST_INFO
+ - DOT11_OFFLOAD_NETWORK_LIST_INFO
+ - windot11/DOT11_OFFLOAD_NETWORK_LIST_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windot11.h
+api_name:
+ - DOT11_OFFLOAD_NETWORK_LIST_INFO
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # _DOT11_OFFLOAD_NETWORK_LIST_INFO structure
@@ -48,30 +52,9 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_OFFLOAD_NETWORK_LIST_INFO structure describes a network offload-list (NLO).
 
-
-## -syntax
-
-
-```cpp
-typedef struct _DOT11_OFFLOAD_NETWORK_LIST_INFO {
-  NDIS_OBJECT_HEADER    Header;
-  ULONG                 ulFlags;
-  ULONG                 FastScanPeriod;
-  ULONG                 FastScanIterations;
-  ULONG                 SlowScanPeriod;
-  ULONG                 uNumOfEntries;
-  DOT11_OFFLOAD_NETWORK offloadNetworkList[1];
-} DOT11_OFFLOAD_NETWORK_LIST_INFO, *PDOT11_OFFLOAD_NETWORK_LIST_INFO;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -95,8 +78,6 @@ The type, revision, and size of the DOT11_OFFLOAD_NETWORK_LIST_INFO structure. T
 <td>DOT11_SIZEOF_OFFLOAD_NETWORK_LIST_INFO_REVISION_1</td>
 </tr>
 </table>
- 
-
 
 ### -field ulFlags
 
@@ -120,37 +101,40 @@ Bit flags to specify extra attributes of this NLO from the following table:
 <td>Specifies that NLO is meant to be used at system resume on non-AOAC platfroms, which is never the case for AOAC platforms.  The NLO OID may be sent beforehand, when the systems is being suspended. Miniport/hardware should not start NLO scan right away. The list should be kept in miniport driver or hardware. When the system resumes, the miniport/hardware should try to connect to the previous connected network. The list should be scan right after the effort failed or when there is no previous connected AP to reconnect to.</td>
 </tr>
 </table>
- 
-
 
 ### -field FastScanPeriod
 
 Fast scan period, in seconds. When the NIC receives the offload list, it should scan for matches to the list within the <b>FastScanPeriod</b> interval. In the fast scan period, the NIC scans for interesting SSIDs every such period for <b>FastScanIteration</b> then it switches to <b>SlowScanPeriod</b>.
 
-
 ### -field FastScanIterations
 
 Number if iterations to repeat the fast scan. When the number of iterations is reached the  NIC switches to the <b>SlowScanPeriod</b>.
-
 
 ### -field SlowScanPeriod
 
 Slow scan period, in seconds.   After the <b>FastScanPeriod</b> expires, the NIC switch to the <b>SlowScanPeriod</b>.  The NIC should scan for matches to the list within the <b>SlowScanPeriod</b>.  The duration is open ended until Windows issues an updated  offload-list.
 
-
 ### -field uNumOfEntries
 
 Number of networks in the list of those requested to offload.
 
-
 ### -field offloadNetworkList
-
-
-
-
-
 
 #### - offloadNetworkList[1]
 
 Array of networks that hardware should automatically search for.
+
+## -syntax
+
+```cpp
+typedef struct _DOT11_OFFLOAD_NETWORK_LIST_INFO {
+  NDIS_OBJECT_HEADER    Header;
+  ULONG                 ulFlags;
+  ULONG                 FastScanPeriod;
+  ULONG                 FastScanIterations;
+  ULONG                 SlowScanPeriod;
+  ULONG                 uNumOfEntries;
+  DOT11_OFFLOAD_NETWORK offloadNetworkList[1];
+} DOT11_OFFLOAD_NETWORK_LIST_INFO, *PDOT11_OFFLOAD_NETWORK_LIST_INFO;
+```
 

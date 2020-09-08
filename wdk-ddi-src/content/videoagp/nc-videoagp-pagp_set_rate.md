@@ -8,9 +8,6 @@ ms.assetid: 6885df05-8cc4-4ae0-b7ca-6fd94374cfbf
 ms.date: 05/10/2018
 keywords: ["PAGP_SET_RATE callback function"]
 ms.keywords: AgpSetRate, AgpSetRate callback function [Display Devices], PAGP_SET_RATE, PAGP_SET_RATE callback, VideoPort_Functions_4dfdb762-5156-4a06-9dd8-1766bbe3dbe4.xml, display.agpsetrate, videoagp/AgpSetRate
-f1_keywords:
- - "videoagp/AgpSetRate"
- - "AgpSetRate"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- videoagp.h
-api_name:
-- AgpSetRate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PAGP_SET_RATE
+ - videoagp/PAGP_SET_RATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - videoagp.h
+api_name:
+ - AgpSetRate
 ---
 
 # PAGP_SET_RATE callback function
@@ -50,12 +50,14 @@ The <b>AgpSetRate</b> function reprograms the data transfer rate of the AGP chip
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 Pointer to the miniport driver's device extension.
 
-### -param AgpRate [in]
+### -param AgpRate 
 
+[in]
 Specifies the transfer rate to be set. This value can be one of the following:
 
 |Value|Meaning|
@@ -64,7 +66,7 @@ Specifies the transfer rate to be set. This value can be one of the following:
 |VIDEO_AGP_RATE_2X|Two times single speed|
 |VIDEO_AGP_RATE_4X|Four times single speed|
 |VIDEO_AGP_RATE_8X|Eight times single speed|
- 
+
 ## -returns
 
 <b>AgpSetRate</b> returns <b>TRUE</b> if it was successful in changing the transfer rate; otherwise, it returns <b>FALSE</b>.
@@ -80,3 +82,4 @@ The <b>AgpSetRate</b> function can be used to change an AGP chipset's data trans
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_agp_interface_2">VIDEO_PORT_AGP_INTERFACE_2</a>
+

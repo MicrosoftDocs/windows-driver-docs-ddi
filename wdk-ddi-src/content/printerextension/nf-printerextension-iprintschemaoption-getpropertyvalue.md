@@ -8,9 +8,6 @@ ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
 ms.date: 06/25/2020
 keywords: ["IPrintSchemaOption::GetPropertyValue"]
 ms.keywords: GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue method [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices],GetPropertyValue method, IPrintSchemaOption.GetPropertyValue, IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue, printerextension/IPrintSchemaOption::GetPropertyValue
-f1_keywords:
- - "printerextension/IPrintSchemaOption.GetPropertyValue"
- - "IPrintSchemaOption.GetPropertyValue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaOption.GetPropertyValue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaOption::GetPropertyValue
+ - printerextension/IPrintSchemaOption::GetPropertyValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaOption.GetPropertyValue
 ---
 
 # IPrintSchemaOption::GetPropertyValue
+
 
 ## -description
 
@@ -49,12 +50,14 @@ Gets the XML node for the value child element of a Property  or a ScoredProperty
 
 ## -parameters
 
-### -param bstrName [in]
+### -param bstrName 
 
+[in]
 The base value of the name attribute of the Property or the ScoredProperty element.
 
-### -param bstrNamespaceUri [in]
+### -param bstrNamespaceUri 
 
+[in]
 The namespace URI value of the name attribute of the Property or the ScoredProperty element.
 
 ### -param ppXmlValueNode
@@ -80,3 +83,4 @@ If the [IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/
 [IPrintSchemaOption](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
 
 [IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
+

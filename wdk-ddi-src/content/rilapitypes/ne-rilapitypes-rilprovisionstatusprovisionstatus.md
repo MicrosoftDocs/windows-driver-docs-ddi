@@ -8,9 +8,6 @@ ms.assetid: ed7fc20a-b5d5-4dc6-ab95-5ee9258dbdae
 ms.date: 05/02/2018
 keywords: ["RILPROVISIONSTATUSPROVISIONSTATUS enumeration"]
 ms.keywords: RILPROVISIONSTATUSPROVISIONSTATUS, RILPROVISIONSTATUSPROVISIONSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_PROVISIONSTAT_BIP_STARTED, RIL_PROVISIONSTAT_BIP_SUCCESS, RIL_PROVISIONSTAT_FAILURE_END, RIL_PROVISIONSTAT_FAILURE_RETRY, RIL_PROVISIONSTAT_MAX, RIL_PROVISIONSTAT_NEEDED, RIL_PROVISIONSTAT_SUCCESS, netvista.rilprovisionstatusprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUSPROVISIONSTATUS, ntddrilapitypes/RIL_PROVISIONSTAT_BIP_STARTED, ntddrilapitypes/RIL_PROVISIONSTAT_BIP_SUCCESS, ntddrilapitypes/RIL_PROVISIONSTAT_FAILURE_END, ntddrilapitypes/RIL_PROVISIONSTAT_FAILURE_RETRY, ntddrilapitypes/RIL_PROVISIONSTAT_MAX, ntddrilapitypes/RIL_PROVISIONSTAT_NEEDED, ntddrilapitypes/RIL_PROVISIONSTAT_SUCCESS
-f1_keywords:
- - "rilapitypes/RILPROVISIONSTATUSPROVISIONSTATUS"
- - "RILPROVISIONSTATUSPROVISIONSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,53 +25,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILPROVISIONSTATUSPROVISIONSTATUS
 targetos: Windows
 req.typenames: RILPROVISIONSTATUSPROVISIONSTATUS
+f1_keywords:
+ - RILPROVISIONSTATUSPROVISIONSTATUS
+ - rilapitypes/RILPROVISIONSTATUSPROVISIONSTATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILPROVISIONSTATUSPROVISIONSTATUS
 ---
 
-# RILPROVISIONSTATUSPROVISIONSTATUS enumeration
+# RILPROVISIONSTATUSPROVISIONSTATUS enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PROVISIONSTAT_STARTED
-
 
 ### -field RIL_PROVISIONSTAT_SUCCESS
 
-
 ### -field RIL_PROVISIONSTAT_FAILURE_END
-
 
 ### -field RIL_PROVISIONSTAT_FAILURE_RETRY
 
-
 ### -field RIL_PROVISIONSTAT_NEEDED
-
 
 ### -field RIL_PROVISIONSTAT_BIP_STARTED
 
-
 ### -field RIL_PROVISIONSTAT_BIP_SUCCESS
-
 
 ### -field RIL_PROVISIONSTAT_MAX
 

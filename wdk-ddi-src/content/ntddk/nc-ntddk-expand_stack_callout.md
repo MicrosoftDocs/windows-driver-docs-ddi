@@ -8,9 +8,6 @@ ms.assetid: ca9af049-f183-458c-b43f-891678a7be5e
 ms.date: 04/30/2018
 keywords: ["EXPAND_STACK_CALLOUT callback function"]
 ms.keywords: DrvrRtns_2b43fd11-2258-4b8d-adb7-58dcc5d37897.xml, EXPAND_STACK_CALLOUT, ExpandedStackCall, ExpandedStackCall routine [Kernel-Mode Driver Architecture], kernel.expandedstackcall, ntddk/ExpandedStackCall
-f1_keywords:
- - "ntddk/ExpandedStackCall"
- - "ExpandedStackCall"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntddk.h
-api_name:
-- ExpandedStackCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EXPAND_STACK_CALLOUT
+ - ntddk/EXPAND_STACK_CALLOUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntddk.h
+api_name:
+ - ExpandedStackCall
 ---
 
 # EXPAND_STACK_CALLOUT callback function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <i>ExpandedStackCall</i> routine executes with a guaranteed stack size.
-
 
 ## -parameters
 
+### -param Parameter 
 
-
-
-### -param Parameter [in, optional]
-
+[in, optional]
 The value passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout">KeExpandKernelStackAndCallout</a> routine that executed <i>ExpandedStackCall</i>.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 The <i>ExpandedStackCall</i> routine must handle all exceptions. Any unhandled exception causes the system to bug check with <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x1e--kmode-exception-not-handled">Bug Check 0x1E: KMODE_EXCEPTION_NOT_HANDLED</a>.
 
@@ -117,15 +105,7 @@ The EXPAND_STACK_CALLOUT function type is defined in the Wdm.h header file. To m
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout">KeExpandKernelStackAndCallout</a>
- 
-
- 
 

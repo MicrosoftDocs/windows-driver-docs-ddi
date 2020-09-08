@@ -8,9 +8,6 @@ ms.assetid: 76b076d1-640b-4378-bf6d-36d87a8a5042
 ms.date: 05/02/2018
 keywords: ["NdisQueryDepthSList macro"]
 ms.keywords: NdisQueryDepthSList, NdisQueryDepthSList macro [Network Drivers Starting with Windows Vista], ndis/NdisQueryDepthSList, ndis_interlocked_ref_f44c64cf-029a-408e-84a0-a8c09bc91592.xml, netvista.ndisquerydepthslist
-f1_keywords:
- - "ndis/NdisQueryDepthSList"
- - "NdisQueryDepthSList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisQueryDepthSList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisQueryDepthSList
+ - ndis/NdisQueryDepthSList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisQueryDepthSList
 ---
 
 # NdisQueryDepthSList macro
@@ -46,27 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisQueryDepthSList</b> function returns the current number of entries in a given sequenced, singly
   linked list.
 
-
 ## -parameters
 
+### -param SListHead 
 
-
-
-### -param SListHead [in]
-
+[in]
 A pointer to the head of the S-List to be queried, which the caller already initialized with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>
 
@@ -78,7 +70,4 @@ A pointer to the head of the S-List to be queried, which the caller already init
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedpushentryslist">
    NdisInterlockedPushEntrySList</a>
- 
-
- 
 

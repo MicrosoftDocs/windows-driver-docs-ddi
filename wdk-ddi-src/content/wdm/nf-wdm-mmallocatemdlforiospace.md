@@ -8,9 +8,6 @@ ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
 ms.date: 04/30/2018
 keywords: ["MmAllocateMdlForIoSpace function"]
 ms.keywords: MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace
-f1_keywords:
- - "wdm/MmAllocateMdlForIoSpace"
- - "MmAllocateMdlForIoSpace"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmAllocateMdlForIoSpace
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmAllocateMdlForIoSpace
+ - wdm/MmAllocateMdlForIoSpace
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmAllocateMdlForIoSpace
 ---
 
 # MmAllocateMdlForIoSpace function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmAllocateMdlForIoSpace</b> routine allocates an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> and initializes this MDL to describe a set of physical address ranges in I/O address space.
-
 
 ## -parameters
 
+### -param PhysicalAddressList 
 
-
-
-### -param PhysicalAddressList [in]
-
+[in]
 A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mm_physical_address_list">MM_PHYSICAL_ADDRESS_LIST</a> structures that describe the physical address ranges to include in the allocated MDL.
 
+### -param NumberOfEntries 
 
-### -param NumberOfEntries [in]
-
+[in]
 The number of elements in the <b>MM_PHYSICAL_ADDRESS_LIST</b> array pointed to by <i>PhysicalAddressList</i>.
 
+### -param NewMdl 
 
-### -param NewMdl [out]
-
+[out]
 A pointer to a location to which the routine writes a pointer to the newly allocated MDL.
 
-
 ## -returns
-
-
 
 <b>MmAllocateMdlForIoSpace</b> returns STATUS_SUCCESS if it is successful. Possible error return values include the following status codes.
 
@@ -108,12 +101,7 @@ Insufficient system resources are available to perform the requested operation.
 
 Do not assume that the preceding list of error return codes is exhaustive. The routine might return error codes that do not appear in the list.
 
-
-
-
 ## -remarks
-
-
 
 This routine accepts, as an input parameter, an array of <b>MM_PHYSICAL_ADDRESS_LIST</b> structures that describe a set of physical address ranges in I/O address space, and allocates an MDL that describes these ranges. Consecutive physical address ranges in the array are not required to be contiguous.
 
@@ -176,12 +164,7 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl">IoFreeMdl</a>
 
@@ -200,7 +183,4 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a>
- 
-
- 
 

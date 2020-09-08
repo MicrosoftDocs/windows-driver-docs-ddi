@@ -8,9 +8,6 @@ ms.assetid: c7c887e6-6861-4366-b8b4-fe6292ac5c99
 ms.date: 03/29/2018
 keywords: ["AtaPortWriteRegisterUchar function"]
 ms.keywords: AtaPortWriteRegisterUchar, AtaPortWriteRegisterUchar routine [Storage Devices], atartns_14d5eb64-a6b7-4eb4-94f6-0bd0952d2263.xml, irb/AtaPortWriteRegisterUchar, storage.ataportwriteregisteruchar
-f1_keywords:
- - "irb/AtaPortWriteRegisterUchar"
- - "AtaPortWriteRegisterUchar"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ataport.lib
-- ataport.dll
-- pciidex.lib
-- pciidex.dll
-api_name:
-- AtaPortWriteRegisterUchar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortWriteRegisterUchar
+ - irb/AtaPortWriteRegisterUchar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ataport.lib
+ - ataport.dll
+ - pciidex.lib
+ - pciidex.dll
+api_name:
+ - AtaPortWriteRegisterUchar
 ---
 
 # AtaPortWriteRegisterUchar function
@@ -49,29 +49,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortWriteRegisterUchar</b> routine transfers an unsigned byte to the HBA.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param Register 
 
-
-
-### -param Register [in]
-
+[in]
 A pointer to the destination register. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 Specifies the value to write to the register for the HBA.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetdevicebase">AtaPortGetDeviceBase</a>
 
@@ -82,7 +75,4 @@ Specifies the value to write to the register for the HBA.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportwriteregisterushort">AtaPortWriteRegisterUshort</a>
- 
-
- 
 

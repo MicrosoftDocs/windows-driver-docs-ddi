@@ -8,9 +8,6 @@ ms.assetid: d32c19b6-462e-48e3-b22b-02542dca9cc4
 ms.date: 05/02/2018
 keywords: ["FwpsApplyModifiedLayerData0 function"]
 ms.keywords: FWPS_CLASSIFY_FLAG_REAUTHORIZE_IF_MODIFIED_BY_OTHERS, FwpsApplyModifiedLayerData0, FwpsApplyModifiedLayerData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsApplyModifiedLayerData0, netvista.fwpsapplymodifiedlayerdata0, wfp_ref_2_funct_3_fwps_A-B_a7adbeec-b234-451e-9da0-d5e5b7cefc90.xml
-f1_keywords:
- - "fwpsk/FwpsApplyModifiedLayerData0"
- - "FwpsApplyModifiedLayerData0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsApplyModifiedLayerData0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsApplyModifiedLayerData0
+ - fwpsk/FwpsApplyModifiedLayerData0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsApplyModifiedLayerData0
 ---
 
 # FwpsApplyModifiedLayerData0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsApplyModifiedLayerData0</b> function applies changes to layer-specific data made after a call to 
@@ -55,26 +54,24 @@ The
 
 ## -parameters
 
+### -param classifyHandle 
 
-
-
-### -param classifyHandle [in]
-
+[in]
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
      FwpsAcquireClassifyHandle0</a>.
 
+### -param modifiedLayerData 
 
-### -param modifiedLayerData [in]
-
+[in]
 The data buffer obtained by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">FwpsAcquireWritableLayerDataPointer0</a> with members modified by the callout driver. Supported data
      types are defined as structures.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 
       The options to use with this function call. This flag can have the following
       value.
@@ -95,23 +92,13 @@ When set, this flag specifies that data at the layer of the pended classify acti
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 <b>FwpsApplyModifiedLayerData0</b> should be called once for every call made to 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">FwpsAcquireWritableLayerDataPointer0</a>, even if the callout driver didn't modify any data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-_fwps_bind_request0">FWPS_BIND_REQUEST0</a>
 
@@ -139,7 +126,4 @@ When set, this flag specifies that data at the layer of the pended classify acti
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 82fcf0da-e945-4cb4-90fc-bb095119ef20
 ms.date: 04/16/2018
 keywords: ["FsRtlGetFileSize function"]
 ms.keywords: FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, ifsk.fsrtlgetfilesize, ntifs/FsRtlGetFileSize
-f1_keywords:
- - "ntifs/FsRtlGetFileSize"
- - "FsRtlGetFileSize"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlGetFileSize
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlGetFileSize
+ - ntifs/FsRtlGetFileSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlGetFileSize
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlGetFileSize function
@@ -49,28 +49,21 @@ ms.custom: RS5
 
 ## -description
 
-
-The <b>FsRtlGetFileSize</b> routine is used to get the size of a file. 
-
+The <b>FsRtlGetFileSize</b> routine is used to get the size of a file.
 
 ## -parameters
 
+### -param FileObject 
 
+[in]
+A pointer to the file object to query.
 
+### -param FileSize 
 
-### -param FileObject [in]
-
-A pointer to the file object to query. 
-
-
-### -param FileSize [out]
-
+[out]
 A pointer to a large integer that receives the file size on output.
 
-
 ## -returns
-
-
 
 <b>FsRtlGetFileSize</b> returns STATUS_SUCCESS or an appropriate error status representing the final completion status of the operation. Possible error status codes include the following: 
 
@@ -102,33 +95,18 @@ The specified <i>FileObject </i>refers to a directory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>FsRtlGetFileSize</b> routine is used to retrieve the file size for a file. Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>, <b>FsRtlGetFileSize</b> does not acquire the file object lock on synchronous file objects. If you already own file system resources, you should call <b>FsRtlGetFileSize</b> instead of <b>ZwQueryInformationFile</b>, because attempting to acquire the file object lock would violate locking order and lead to deadlocks. The <b>ZwQueryInformationFile</b> function should be only if you do not already own file system resources. 
 
-<b>FsRtlGetFileSize</b> will use fast I/O if it is supported or regular IRP-based query to extract the file size. 
-
-
-
+<b>FsRtlGetFileSize</b> will use fast I/O if it is supported or regular IRP-based query to extract the file size.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile">FltQueryInformationFile</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
- 
-
- 
 

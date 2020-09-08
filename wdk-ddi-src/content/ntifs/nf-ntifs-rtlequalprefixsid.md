@@ -8,9 +8,6 @@ ms.assetid: 6db96d3b-721f-40d5-8f8d-54cdd33f85c8
 ms.date: 04/16/2018
 keywords: ["RtlEqualPrefixSid function"]
 ms.keywords: RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], ifsk.rtlequalprefixsid, ntifs/RtlEqualPrefixSid, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml
-f1_keywords:
- - "ntifs/RtlEqualPrefixSid"
- - "RtlEqualPrefixSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Ntdll.lib
 req.dll: Ntdll.dll
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlEqualPrefixSid
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlEqualPrefixSid
+ - ntifs/RtlEqualPrefixSid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlEqualPrefixSid
 ---
 
 # RtlEqualPrefixSid function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlEqualPrefixSid</b> routine determines whether two security-identifier (SID) prefixes are equal. An SID prefix is the entire SID except for the last subauthority value. 
-
+The <b>RtlEqualPrefixSid</b> routine determines whether two security-identifier (SID) prefixes are equal. An SID prefix is the entire SID except for the last subauthority value.
 
 ## -parameters
 
+### -param Sid1 
 
+[in]
+Pointer to the first SID structure to compare. Must point to a valid SID.
 
+### -param Sid2 
 
-### -param Sid1 [in]
-
-Pointer to the first SID structure to compare. Must point to a valid SID. 
-
-
-### -param Sid2 [in]
-
-Pointer to the second SID structure to compare. Must point to a valid SID. 
-
+[in]
+Pointer to the second SID structure to compare. Must point to a valid SID.
 
 ## -returns
 
-
-
-<b>RtlEqualPrefixSid</b> returns <b>TRUE</b> if the SID prefixes are equal, <b>FALSE</b> otherwise. If either SID structure is invalid, the return value is undefined. 
-
-
-
+<b>RtlEqualPrefixSid</b> returns <b>TRUE</b> if the SID prefixes are equal, <b>FALSE</b> otherwise. If either SID structure is invalid, the return value is undefined.
 
 ## -remarks
-
-
 
 <b>RtlEqualPrefixSid</b> enables a server in one domain to verify an attempt by a user to log on to another domain. For example, if a user attempts to log on to RemoteDomain from a workstation in LocalDomain, the server for LocalDomain can request the SIDs for the user and the user's groups from RemoteDomain. The domain controller for RemoteDomain responds with the relevant SIDs. 
 
@@ -86,13 +74,7 @@ It is advisable to modify the SID for a domain before comparing it with a group 
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcopysid">RtlCopySid</a>
 
@@ -107,7 +89,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
- 
-
- 
 

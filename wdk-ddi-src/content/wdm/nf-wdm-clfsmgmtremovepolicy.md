@@ -8,9 +8,6 @@ ms.assetid: 6f0ae6fc-4f2f-4a1a-ac2f-93689f6b7d50
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtRemovePolicy function"]
 ms.keywords: ClfsMgmtRemovePolicy, ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture], Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml, kernel.clfsmgmtremovepolicy, wdm/ClfsMgmtRemovePolicy
-f1_keywords:
- - "wdm/ClfsMgmtRemovePolicy"
- - "ClfsMgmtRemovePolicy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsMgmtRemovePolicy
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsMgmtRemovePolicy
+ - wdm/ClfsMgmtRemovePolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsMgmtRemovePolicy
 ---
 
 # ClfsMgmtRemovePolicy function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsMgmtRemovePolicy</b> routine resets a log's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure to its default value.
-
 
 ## -parameters
 
+### -param LogFile 
 
-
-
-### -param LogFile [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log whose policy is being removed.
 
+### -param PolicyType 
 
-### -param PolicyType [in]
-
+[in]
 A value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of the policy to be removed.
 
-
 ## -returns
-
-
 
 The <b>ClfsMgmtRemovePolicy</b> routine returns one of the following NTSTATUS values:
 
@@ -148,20 +141,11 @@ No policy of this type has been registered for the log file.
 
 This routine might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS Values</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
- 
-
- 
 

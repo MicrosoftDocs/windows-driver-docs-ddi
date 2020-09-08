@@ -8,9 +8,6 @@ ms.assetid: 2edf2104-ad17-4c84-b991-57e64565029f
 ms.date: 05/10/2018
 keywords: ["D3DDDI_RESOURCEFLAGS2 structure"]
 ms.keywords: D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], _D3DDDI_RESOURCEFLAGS2, d3dukmdt/D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2
-f1_keywords:
- - "d3dukmdt/D3DDDI_RESOURCEFLAGS2"
- - "D3DDDI_RESOURCEFLAGS2"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h, D3dkmddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dukmdt.h
-api_name:
-- D3DDDI_RESOURCEFLAGS2
 targetos: Windows
 req.typenames: D3DDDI_RESOURCEFLAGS2
+f1_keywords:
+ - _D3DDDI_RESOURCEFLAGS2
+ - d3dukmdt/_D3DDDI_RESOURCEFLAGS2
+ - D3DDDI_RESOURCEFLAGS2
+ - d3dukmdt/D3DDDI_RESOURCEFLAGS2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dukmdt.h
+api_name:
+ - D3DDDI_RESOURCEFLAGS2
 ---
 
 # _D3DDDI_RESOURCEFLAGS2 structure
@@ -46,14 +48,9 @@ req.typenames: D3DDDI_RESOURCEFLAGS2
 
 ## -description
 
-
 Identifies the type of resource to create in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource2">CreateResource2</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VideoEncoder
 
@@ -63,13 +60,11 @@ If this member is set, the driver must set  either the <b>FORMATOP_CAPTURE</b> o
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field UserMemory
 
 If set, indicates that the memory for this surface was allocated by the application, not by the Direct3D runtime.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
-
 
 ### -field CrossAdapter
 
@@ -79,11 +74,7 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 
 Supported starting with Windows 8.1.
 
-
 ### -field IsDisplayable
-
- 
-
 
 ### -field Reserved
 
@@ -93,23 +84,15 @@ Supported starting with Windows 8.1.
 
 Reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 A 32-bit value that identifies the type of resource to create.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource2">CreateResource2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_formatop">FORMATOP</a>
- 
-
- 
 

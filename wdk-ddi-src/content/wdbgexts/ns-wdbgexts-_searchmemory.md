@@ -8,37 +8,41 @@ ms.assetid: 7e07c47e-803b-44fa-9d0f-aa86475246d2
 ms.date: 02/27/2018
 keywords: ["SEARCHMEMORY structure"]
 ms.keywords: "*PSEARCHMEMORY, SEARCHMEMORY, SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, _SEARCHMEMORY, debugger.searchmemory, wdbgexts/SearchMemory"
-f1_keywords:
- - "wdbgexts/SearchMemory"
- - "SearchMemory"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- SearchMemory
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: SEARCHMEMORY, *PSEARCHMEMORY
+f1_keywords:
+ - _SEARCHMEMORY
+ - wdbgexts/_SEARCHMEMORY
+ - PSEARCHMEMORY
+ - wdbgexts/PSEARCHMEMORY
+ - SEARCHMEMORY
+ - wdbgexts/SEARCHMEMORY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - SearchMemory
 ---
 
 # _SEARCHMEMORY structure
@@ -46,9 +50,7 @@ req.typenames: SEARCHMEMORY, *PSEARCHMEMORY
 
 ## -description
 
-
 The <b>SearchMemory</b> function searches the target's virtual memory for a specified pattern of bytes.
-
 
 ## -struct-fields
 

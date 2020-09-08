@@ -8,9 +8,6 @@ ms.assetid: b40dff76-4330-4527-b1f6-69f625732604
 ms.date: 11/18/2019
 keywords: ["DrvSplAbort function"]
 ms.keywords: DrvSplAbort, DrvSplAbort function [Print Devices], print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, winddiui/DrvSplAbort
-f1_keywords:
- - "winddiui/DrvSplAbort"
- - "DrvSplAbort"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddiui.h
-api_name:
-- DrvSplAbort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DrvSplAbort
+ - winddiui/DrvSplAbort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddiui.h
+api_name:
+ - DrvSplAbort
 ---
 
 # DrvSplAbort function
+
 
 ## -description
 
@@ -60,3 +61,4 @@ The handle of the driver object.
 ## -remarks
 
 To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://docs.microsoft.com/windows-hardware/drivers/print/choosing-user-mode-or-kernel-mode).
+

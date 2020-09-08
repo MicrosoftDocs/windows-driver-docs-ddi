@@ -8,9 +8,6 @@ ms.assetid: aefbf6d6-c107-4bf2-993d-d7ba8ea7ffcd
 ms.date: 04/30/2018
 keywords: ["KeCancelTimer function"]
 ms.keywords: KeCancelTimer, KeCancelTimer routine [Kernel-Mode Driver Architecture], k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, kernel.kecanceltimer, wdm/KeCancelTimer
-f1_keywords:
- - "wdm/KeCancelTimer"
- - "KeCancelTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeCancelTimer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeCancelTimer
+ - wdm/KeCancelTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeCancelTimer
 ---
 
 # KeCancelTimer function
@@ -46,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeCancelTimer</b> routine dequeues a timer object before the timer interval, if any was set, expires.
-
 
 ## -parameters
 
+### -param Arg1 
 
-
-
-### -param Arg1 [in, out]
-
+[in, out]
 Pointer to an initialized timer object, for which the caller provides the storage.
-
-
-
 
 ## -returns
 
-
-
 If the specified timer object is in the system timer queue, <b>KeCancelTimer</b> returns <b>TRUE</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the timer object is currently in the system timer queue, it is removed from the queue. If a DPC object is associated with the timer, it too is canceled. Otherwise, no operation is performed.
 
@@ -87,13 +73,7 @@ Drivers do not need to synchronize for data stored in global variables or driver
 
 For more information about timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-objects-and-dpcs">Timer Objects and DPCs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
 
@@ -104,7 +84,4 @@ For more information about timer objects, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer">KeSetTimer</a>
- 
-
- 
 

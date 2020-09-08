@@ -27,8 +27,8 @@ api_location:
 api_name:
  - D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072
 f1_keywords:
- - d3d12umddi//D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072
  - D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072
+ - d3d12umddi/D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072
 dev_langs:
  - c++
 ---
@@ -58,3 +58,4 @@ See the [D3D Video Protected Resources Support Specification](https://microsoft.
 [**D3D12DDI_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES_DATA_0072**](ns-d3d12umddi-d3d12ddi_video_motion_estimator_protected_resources_data_0072.md)
 
 [**D3D12DDI_VIDEO_PROCESS_PROTECTED_RESOURCES_DATA_0072**](ns-d3d12umddi-d3d12ddi_video_process_protected_resources_data_0072.md)
+

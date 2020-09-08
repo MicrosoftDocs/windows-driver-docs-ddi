@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHostTypeSignature.AddRef
 title: IDebugHostTypeSignature::AddRef (dbgmodel.h)
-description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
 ms.assetid: 906e0710-948f-470e-b5e5-ddbc825b6656
 ms.date: 09/10/2018
 keywords: ["IDebugHostTypeSignature::AddRef"]
-f1_keywords:
- - "dbgmodel/IDebugHostTypeSignature.AddRef"
- - "IDebugHostTypeSignature.AddRef"
 ms.keywords: IDebugHostTypeSignature::AddRef, AddRef, IDebugHostTypeSignature.AddRef, IDebugHostTypeSignature::AddRef, IDebugHostTypeSignature.AddRef
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostTypeSignature.AddRef
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostTypeSignature::AddRef
+ - dbgmodel/IDebugHostTypeSignature::AddRef
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostTypeSignature.AddRef
 ---
 
 # IDebugHostTypeSignature::AddRef
@@ -48,7 +48,6 @@ Increments the reference count for an interface on an object. This method should
 
 For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
 ## -returns
 
 This method returns ULONG.
@@ -58,3 +57,4 @@ This method returns ULONG.
 ## -see-also
 
 [IDebugHostTypeSignature interface](nn-dbgmodel-idebughosttypesignature.md)
+

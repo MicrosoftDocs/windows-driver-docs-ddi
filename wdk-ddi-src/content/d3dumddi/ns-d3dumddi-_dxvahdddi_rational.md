@@ -8,9 +8,6 @@ ms.assetid: 4560fb48-24c3-4beb-acc3-b8d2ed3a81d3
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_RATIONAL structure"]
 ms.keywords: DXVA2_Structs_9e1313ee-e48b-4e3d-9f13-40af1babef82.xml, DXVAHDDDI_RATIONAL, DXVAHDDDI_RATIONAL structure [Display Devices], _DXVAHDDDI_RATIONAL, d3dumddi/DXVAHDDDI_RATIONAL, display.dxvahdddi_rational
-f1_keywords:
- - "d3dumddi/DXVAHDDDI_RATIONAL"
- - "DXVAHDDDI_RATIONAL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVAHDDDI_RATIONAL
 targetos: Windows
 req.typenames: DXVAHDDDI_RATIONAL
+f1_keywords:
+ - _DXVAHDDDI_RATIONAL
+ - d3dumddi/_DXVAHDDDI_RATIONAL
+ - DXVAHDDDI_RATIONAL
+ - d3dumddi/DXVAHDDDI_RATIONAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVAHDDDI_RATIONAL
 ---
 
 # _DXVAHDDDI_RATIONAL structure
@@ -46,32 +48,21 @@ req.typenames: DXVAHDDDI_RATIONAL
 
 ## -description
 
-
-The DXVAHDDDI_RATIONAL structure describes a fractional value that represents the vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync). 
-
+The DXVAHDDDI_RATIONAL structure describes a fractional value that represents the vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync).
 
 ## -struct-fields
 
-
-
-
 ### -field Numerator
 
-[in] The numerator of the frequency fraction. 
-
+[in] The numerator of the frequency fraction.
 
 ### -field Denominator
 
-[in] The denominator of the frequency fraction. 
-
+[in] The denominator of the frequency fraction.
 
 ## -remarks
 
-
-
 An output rate of 0/0 is valid. The driver interprets 0/0 as 0/1. The driver interprets 0/any value as zero. 
 
-The NTSC frame rate is 30000/1001, and the PAL frame rate is 25/1. 
-
-
+The NTSC frame rate is 30000/1001, and the PAL frame rate is 25/1.
 

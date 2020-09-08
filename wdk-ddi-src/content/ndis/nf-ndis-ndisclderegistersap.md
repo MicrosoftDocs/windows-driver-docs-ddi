@@ -8,9 +8,6 @@ ms.assetid: ee3eb668-04f5-4731-b0bd-5cc8a9d4407f
 ms.date: 05/02/2018
 keywords: ["NdisClDeregisterSap function"]
 ms.keywords: NdisClDeregisterSap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml, ndis/NdisClDeregisterSap, netvista.ndisclderegistersap
-f1_keywords:
- - "ndis/NdisClDeregisterSap"
- - "NdisClDeregisterSap"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisClDeregisterSap
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisClDeregisterSap
+ - ndis/NdisClDeregisterSap
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisClDeregisterSap
 ---
 
 # NdisClDeregisterSap function
@@ -47,24 +47,17 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisClDeregisterSap</b> releases a previously registered SAP.
-
 
 ## -parameters
 
+### -param NdisSapHandle 
 
-
-
-### -param NdisSapHandle [in]
-
+[in]
 Specifies the handle returned by 
      <b>NdisClRegisterSap</b>.
 
-
 ## -returns
-
-
 
 <b>NdisClDeregisterSap</b> can return one of the following:
 
@@ -104,14 +97,8 @@ The SAP already is being closed, so this is a redundant call. If
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>NdisClDeregisterSap</b> releases a SAP on which the client previously registered itself to receive
     incoming calls with 
@@ -121,13 +108,7 @@ The client should consider the given
     <i>NdisSapHandle</i> invalid as soon as it calls 
     <b>NdisClDeregisterSap</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>
 
@@ -147,7 +128,4 @@ The client should consider the given
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
- 
-
- 
 

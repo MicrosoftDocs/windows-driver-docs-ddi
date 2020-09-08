@@ -8,9 +8,6 @@ ms.assetid: 78b9eccf-34ef-40ae-b7fc-6fa8400f8c2a
 ms.date: 02/26/2018
 keywords: ["WdfCompanionCreate function"]
 ms.keywords: WdfCompanionCreate, WdfCompanionCreate method, wdf.wdfcompanioncreate, wdfcompanion/WdfCompanionCreate
-f1_keywords:
- - "wdfcompanion/WdfCompanionCreate"
- - "WdfCompanionCreate"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompanion.h
-api_name:
-- WdfCompanionCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCompanionCreate
+ - wdfcompanion/WdfCompanionCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompanion.h
+api_name:
+ - WdfCompanionCreate
 ---
 
 # WdfCompanionCreate function
@@ -46,21 +46,19 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
+### -param DeviceInit 
 
+[in, out]
 
+### -param DeviceAttributes 
 
-### -param DeviceInit [in, out]
+[in, optional]
 
+### -param Companion 
 
-### -param DeviceAttributes [in, optional]
-
-
-### -param Companion [out]
+[out]
 

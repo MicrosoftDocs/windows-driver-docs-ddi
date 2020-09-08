@@ -8,9 +8,6 @@ ms.assetid: 42A31C23-9C02-48F6-83CC-CA017F76DE18
 ms.date: 11/13/2018
 keywords: ["IDebugBreakpoint3 interface"]
 ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
-f1_keywords:
- - "dbgeng/IDebugBreakpoint3"
- - "IDebugBreakpoint3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugBreakpoint3
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugBreakpoint3
+ - dbgeng/IDebugBreakpoint3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugBreakpoint3
 ---
 
 # IDebugBreakpoint3 interface
@@ -47,7 +47,6 @@ req.typenames:
 ## -description
 
 IDebugBreakpoint3 interface.
-
 
 ## -inheritance
 

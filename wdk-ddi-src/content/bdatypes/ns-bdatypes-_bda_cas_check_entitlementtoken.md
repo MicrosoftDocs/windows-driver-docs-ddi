@@ -8,9 +8,6 @@ ms.assetid: B6B645DF-AB4C-42FE-A664-AF9C9DD4F9E6
 ms.date: 04/23/2018
 keywords: ["BDA_CAS_CHECK_ENTITLEMENTTOKEN structure"]
 ms.keywords: "*PBDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN structure [Streaming Media Devices], PBDA_CAS_CHECK_ENTITLEMENTTOKEN, PBDA_CAS_CHECK_ENTITLEMENTTOKEN structure pointer [Streaming Media Devices], _BDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/BDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/PBDA_CAS_CHECK_ENTITLEMENTTOKEN, stream.bda_cas_check_entitlementtoken"
-f1_keywords:
- - "bdatypes/BDA_CAS_CHECK_ENTITLEMENTTOKEN"
- - "BDA_CAS_CHECK_ENTITLEMENTTOKEN"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_CAS_CHECK_ENTITLEMENTTOKEN
 targetos: Windows
 req.typenames: BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN
+f1_keywords:
+ - _BDA_CAS_CHECK_ENTITLEMENTTOKEN
+ - bdatypes/_BDA_CAS_CHECK_ENTITLEMENTTOKEN
+ - PBDA_CAS_CHECK_ENTITLEMENTTOKEN
+ - bdatypes/PBDA_CAS_CHECK_ENTITLEMENTTOKEN
+ - BDA_CAS_CHECK_ENTITLEMENTTOKEN
+ - bdatypes/BDA_CAS_CHECK_ENTITLEMENTTOKEN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_CAS_CHECK_ENTITLEMENTTOKEN
 ---
 
 # _BDA_CAS_CHECK_ENTITLEMENTTOKEN structure
@@ -46,17 +50,9 @@ req.typenames: BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN
 
 ## -description
 
-
-
-
-
 ## -struct-fields
 
-
-
-
 ### -field lResult
-
 
 ### -field ulDescrambleStatus
 

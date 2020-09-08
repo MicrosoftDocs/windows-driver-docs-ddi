@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
+f1_keywords:
+ - ntstrsafe
+ - ntstrsafe/ntstrsafe
 ---
 
 # Ntstrsafe.h header
@@ -29,3 +32,4 @@ Unicode strings are specified within [**UNICODE_STRING**](https://docs.microsoft
 For more information, see:
 
 - [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions)
+

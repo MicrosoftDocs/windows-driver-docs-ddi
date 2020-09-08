@@ -8,9 +8,6 @@ ms.assetid: a2ba47e6-9dec-46b4-ac8b-a863345f228f
 ms.date: 05/02/2018
 keywords: ["RILSYSTEMSELECTIONPREFS_V1 structure"]
 ms.keywords: "*LPRILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v1, ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V1"
-f1_keywords:
- - "ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V1"
- - "RILSYSTEMSELECTIONPREFS_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,50 +25,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSYSTEMSELECTIONPREFS_V1
 targetos: Windows
 req.typenames: RILSYSTEMSELECTIONPREFS_V1, *LPRILSYSTEMSELECTIONPREFS_V1
+f1_keywords:
+ - RILSYSTEMSELECTIONPREFS_V1
+ - ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V1
+ - LPRILSYSTEMSELECTIONPREFS_V1
+ - ntddrilapitypes/LPRILSYSTEMSELECTIONPREFS_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSYSTEMSELECTIONPREFS_V1
 ---
 
-# RILSYSTEMSELECTIONPREFS_V1 structure
+# RILSYSTEMSELECTIONPREFS_V1 structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field dwSystemTypes
 
-
 ### -field dwMode
 
-
 ### -field plmnInfo
-
 
 ### -field dwRoamingMode
 

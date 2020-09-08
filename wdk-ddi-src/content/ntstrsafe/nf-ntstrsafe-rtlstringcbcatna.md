@@ -8,9 +8,6 @@ ms.assetid: 60ecabb1-5607-4962-82c6-8081916b507d
 ms.date: 04/30/2018
 keywords: ["RtlStringCbCatNA function"]
 ms.keywords: RtlStringCbCatN, RtlStringCbCatNA, RtlStringCbCatNW, RtlStringCbCatNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcatn, ntstrsafe/RtlStringCbCatNA, ntstrsafe/RtlStringCbCatNW, safestrings_3f453d8e-bae5-466f-a55a-2b6a68d5cb57.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCbCatNW"
- - "RtlStringCbCatNW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCbCatNW
-- RtlStringCbCatNA
-- RtlStringCbCatNW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCbCatNA
+ - ntstrsafe/RtlStringCbCatNA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCbCatNW
+ - RtlStringCbCatNA
+ - RtlStringCbCatNW
 ---
 
 # RtlStringCbCatNA function
@@ -49,44 +49,34 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlStringCbCatNW</b> and <b>RtlStringCbCatNA</b> functions concatenate two byte-counted strings while limiting the size of the appended string. 
-
+The <b>RtlStringCbCatNW</b> and <b>RtlStringCbCatNA</b> functions concatenate two byte-counted strings while limiting the size of the appended string.
 
 ## -parameters
 
+### -param pszDest 
 
-
-
-### -param pszDest [in, out]
-
+[in, out]
 Pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cbToAppend</i> bytes, is added to the end of the string at <i>pszDest</i> and terminated with a null character.
 
+### -param cbDest 
 
-### -param cbDest [in]
-
+[in]
 The size of the destination buffer, in bytes. The buffer must be large enough to include both strings and the terminating null character.
 
 For Unicode strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(WCHAR). 
 
-For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char). 
+For ANSI strings, the maximum number of bytes is NTSTRSAFE_MAX_CCH * sizeof(char).
 
+### -param pszSrc 
 
-### -param pszSrc [in]
-
-Pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>. 
-
+[in]
+Pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>.
 
 ### -param cbToAppend
 
 <p>The maximum number of bytes to append to the string that is contained in the buffer at <i>pszDest</i>.</p>
 
-
-
-
 ## -returns
-
-
 
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
@@ -137,14 +127,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCbCatNW</b> and <b>RtlStringCbCatNA</b> should be used instead of the following functions: 
 
@@ -203,15 +187,9 @@ If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior o
 
 Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatnexa">RtlStringCbCatNEx</a>.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcata">RtlStringCbCat</a>
 
@@ -222,7 +200,4 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcatna">RtlStringCchCatN</a>
- 
-
- 
 

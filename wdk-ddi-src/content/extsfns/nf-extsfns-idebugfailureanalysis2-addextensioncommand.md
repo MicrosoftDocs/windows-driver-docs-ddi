@@ -8,9 +8,6 @@ ms.assetid: 370A4EBA-80BF-46B2-8F52-9F04A4EC98D7
 ms.date: 05/03/2018
 keywords: ["IDebugFailureAnalysis2::AddExtensionCommand"]
 ms.keywords: AddExtensionCommand, AddExtensionCommand method [Windows Debugging], AddExtensionCommand method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddExtensionCommand method, IDebugFailureAnalysis2.AddExtensionCommand, IDebugFailureAnalysis2::AddExtensionCommand, debugger.idebugfailureanalysis2_addextensioncommand, extsfns/IDebugFailureAnalysis2::AddExtensionCommand
-f1_keywords:
- - "extsfns/IDebugFailureAnalysis2.AddString"
- - "IDebugFailureAnalysis2.AddString"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- extsfns.h
-api_name:
-- IDebugFailureAnalysis2.AddString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugFailureAnalysis2::AddExtensionCommand
+ - extsfns/IDebugFailureAnalysis2::AddExtensionCommand
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - extsfns.h
+api_name:
+ - IDebugFailureAnalysis2.AddString
 ---
 
 # IDebugFailureAnalysis2::AddExtensionCommand
@@ -46,45 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>AddExtensionCommand</b> method adds a new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object and sets the data block of the FA entry to a specified debugger command.
 
-
 ## -parameters
-
-
-
 
 ### -param Tag
 
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_EXTENSION_CMD</b> or <b>DEBUG_FA_ENTRY_ANSI_STRING</b>.
 
-
 ### -param Extension
-
-
-
-
-
 
 #### - Str [in]
 
 A pointer to a null-terminated ANSI string that is the debugger command. An example of debugger command is "!analyze -v".
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns a returns a pointer to the new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure. If this method fails, it returns <b>NULL</b>.
 
-
-
-
-
 ## -remarks
-
-
 
 This method sets the <b>DataSize</b> member of the new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure to the length, in bytes, of the extension command including the <b>NULL</b> terminator.
 
@@ -119,12 +99,7 @@ Question: When does the data type of a tag get fixed? Is it when the first FA en
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTags</a>
 
@@ -143,7 +118,4 @@ Question: When does the data type of a tag get fixed? Is it when the first FA en
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
- 
-
- 
 

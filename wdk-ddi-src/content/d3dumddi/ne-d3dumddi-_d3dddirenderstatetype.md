@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDIRENDERSTATETYPE"
- - "_D3DDDIRENDERSTATETYPE"
+ - _D3DDDIRENDERSTATETYPE
+ - d3dumddi/_D3DDDIRENDERSTATETYPE
+ - D3DDDIRENDERSTATETYPE
+ - d3dumddi/D3DDDIRENDERSTATETYPE
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDIRENDERSTATETYPE enumeration
+
 
 ## -description
 

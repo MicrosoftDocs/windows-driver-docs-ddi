@@ -7,9 +7,6 @@ ms.assetid: db8e7a91-d62a-4d2f-ac21-266e365a352c
 ms.date: 05/10/2018
 keywords: ["DXGKCB_GETHANDLEPARENT callback function"]
 ms.keywords: DXGKCB_GETHANDLEPARENT, DXGKCB_GETHANDLEPARENT callback, DpFunctions_7094d9b1-3262-45b9-88de-e834878b6b2d.xml, DxgkCbGetHandleParent, DxgkCbGetHandleParent callback function [Display Devices], d3dkmddi/DxgkCbGetHandleParent, display.dxgkcbgethandleparent
-f1_keywords:
- - "d3dkmddi/DxgkCbGetHandleParent"
- - "DxgkCbGetHandleParent"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkCbGetHandleParent
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - DXGKCB_GETHANDLEPARENT
+ - d3dkmddi/DXGKCB_GETHANDLEPARENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkCbGetHandleParent
 ---
 
 # DXGKCB_GETHANDLEPARENT callback function
@@ -46,23 +46,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>DxgkCbGetHandleParent</b> function retrieves the parent resource from the specified allocation.
 
-
 ## -parameters
-
-
-
 
 ### -param hAllocation
 
 [in] A handle to an allocation. This handle must be the kernel-mode handle that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) assigned for the allocation.
 
-
 ## -returns
-
-
 
 <b>DxgkCbGetHandleParent</b> returns a graphics subsystem-specific handle to the parent resource for the allocation that is associated with the handle that the <i>hAllocation</i> parameter specifies.
 
@@ -76,14 +68,7 @@ If <i>DxgkCbGetHandleParent</i> returns a <b>NULL</b> handle, the DirectX graphi
 </ul>
 If a <b>NULL</b> handle is returned, the display miniport driver should fail its currently running DDI function with STATUS_INVALID_HANDLE.
 
-
-
-
 ## -remarks
 
-
-
 For <b>DxgkCbGetHandleParent</b> to return a resource handle, the handle in <i>hAllocation</i> must be an allocation handle that is associated with a resource; otherwise, <b>DxgkCbGetHandleParent</b> returns <b>NULL</b>.
-
-
 

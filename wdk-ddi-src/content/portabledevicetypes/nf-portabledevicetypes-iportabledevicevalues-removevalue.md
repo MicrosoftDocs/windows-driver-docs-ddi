@@ -8,9 +8,6 @@ ms.assetid: aaa6cfd7-ac55-49b5-b077-98e42367ce0e
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::RemoveValue"]
 ms.keywords: IPortableDeviceValues interface,RemoveValue method, IPortableDeviceValues.RemoveValue, IPortableDeviceValues::RemoveValue, IPortableDeviceValuesRemoveValue, RemoveValue, RemoveValue method, RemoveValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::RemoveValue, wpddk.iportabledevicevalues_removevalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.RemoveValue"
- - "IPortableDeviceValues.RemoveValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.RemoveValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::RemoveValue
+ - portabledevicetypes/IPortableDeviceValues::RemoveValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.RemoveValue
 ---
 
 # IPortableDeviceValues::RemoveValue
@@ -47,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 The <b>RemoveValue</b> method removes an item from the collection.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> that specifies the item to remove.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -87,24 +77,12 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
@@ -115,7 +93,4 @@ None.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setvalue">IPortableDeviceValues::SetValue</a>
- 
-
- 
 

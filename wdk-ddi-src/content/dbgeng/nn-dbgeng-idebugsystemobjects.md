@@ -8,9 +8,6 @@ ms.assetid: ed830f09-10c0-4614-b002-8ede0e5e30bb
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects interface"]
 ms.keywords: IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], IDebugSystemObjects interface [Windows Debugging],described, IDebugSystemObjects_82c2f1f3-4eb4-4071-ba0b-d2e4d2929ce2.xml, dbgeng/IDebugSystemObjects, debugger.idebugsystemobjects
-f1_keywords:
- - "dbgeng/IDebugSystemObjects"
- - "IDebugSystemObjects"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSystemObjects
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects
+ - dbgeng/IDebugSystemObjects
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSystemObjects
 ---
 
 # IDebugSystemObjects interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -58,9 +55,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects</b> inter
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects2">IDebugSystemObjects2</a>
 
 
@@ -70,7 +64,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects</b> inter
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
- 
-
- 
 

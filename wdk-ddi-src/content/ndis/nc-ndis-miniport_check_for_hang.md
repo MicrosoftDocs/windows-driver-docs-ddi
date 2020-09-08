@@ -8,9 +8,6 @@ ms.assetid: ead0af85-0584-49de-82cc-8a059ebfdf4f
 ms.date: 05/02/2018
 keywords: ["MINIPORT_CHECK_FOR_HANG callback function"]
 ms.keywords: MINIPORT_CHECK_FOR_HANG, MINIPORT_CHECK_FOR_HANG callback, MiniportCheckForHangEx, MiniportCheckForHangEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_4dac5544-94b0-4be6-aa81-709bff9163a7.xml, ndis/MiniportCheckForHangEx, netvista.miniportcheckforhangex
-f1_keywords:
- - "ndis/MiniportCheckForHangEx"
- - "MiniportCheckForHangEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportCheckForHangEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_CHECK_FOR_HANG
+ - ndis/MINIPORT_CHECK_FOR_HANG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportCheckForHangEx
 ---
 
 # MINIPORT_CHECK_FOR_HANG callback function
@@ -57,29 +57,19 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
-
 ## -returns
-
-
 
 <i>MiniportCheckForHangEx</i> returns <b>TRUE</b> if the driver determines that a NIC is not
      operating and NDIS should call the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a> function. For more information, see the Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 A miniport driver specifies the 
     <i>MiniportCheckForHangEx</i> entry point when it calls the 
@@ -152,15 +142,9 @@ BOOLEAN
 </table></span></div>
 The <b>MINIPORT_CHECK_FOR_HANG</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_CHECK_FOR_HANG</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>
 
@@ -179,7 +163,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/dxgk_vidpntargetmodeset_interface_pfnAddMode"
- - "dxgk_vidpntargetmodeset_interface_pfnAddMode"
+ - DXGKDDI_VIDPNTARGETMODESET_ADDMODE
+ - d3dkmddi/DXGKDDI_VIDPNTARGETMODESET_ADDMODE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTARGETMODESET_ADDMODE callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: AC04051E-8412-4B61-B452-C05A9D8D5CD9
 ms.date: 05/08/2018
 keywords: ["IPortClsPnp interface"]
 ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices],described, audio.iportclspnp, portcls/IPortClsPnp
-f1_keywords:
- - "portcls/IPortClsPnp"
- - "IPortClsPnp"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortClsPnp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsPnp
+ - portcls/IPortClsPnp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortClsPnp
 ---
 
 # IPortClsPnp interface
@@ -46,13 +46,11 @@ req.typenames:
 
 ## -description
 
-
 <code>IPortClsPnp</code> is the PnP management interface that the port class driver (PortCls) exposes to the adapter.
 
 For more information,  see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers">Implement PnP Rebalance for PortCls Audio Drivers</a>.
 
-The <code>IPortClsPnp</code> interface is available in Windows 10, version 1511 and later versions of Windows. 
-
+The <code>IPortClsPnp</code> interface is available in Windows 10, version 1511 and later versions of Windows.
 
 ## -inheritance
 

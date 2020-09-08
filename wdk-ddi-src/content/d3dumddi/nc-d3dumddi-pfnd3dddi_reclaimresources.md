@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/ReclaimResources"
- - "ReclaimResources"
+ - PFND3DDDI_RECLAIMRESOURCES
+ - d3dumddi/PFND3DDDI_RECLAIMRESOURCES
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_RECLAIMRESOURCES callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 6fa0cf86-35f4-4e5d-bced-ebd2ec499b64
 ms.date: 04/30/2018
 keywords: ["KeInitializeCrashDumpHeader function"]
 ms.keywords: KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader
-f1_keywords:
- - "ntddk/KeInitializeCrashDumpHeader"
- - "KeInitializeCrashDumpHeader"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,70 +25,61 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeInitializeCrashDumpHeader
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeInitializeCrashDumpHeader
+ - ntddk/KeInitializeCrashDumpHeader
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeInitializeCrashDumpHeader
 ---
 
-# KeInitializeCrashDumpHeader function
+# KeInitializeCrashDumpHeader function (ntddk.h)
 
 
 ## -description
 
-
 The <b>KeInitializeCrashDumpHeader</b> routine supplies the header information the system requires for a crash dump file.
-
 
 ## -parameters
 
+### -param DumpType 
 
-
-
-### -param DumpType [in]
-
+[in]
 Specifies the type of dump file. The only valid value is DUMP_TYPE_FULL.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies flags for the dump file. The only valid value is 0.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Pointer to the buffer that receives the header information.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in bytes of the buffer pointed to by <i>Buffer</i>.
 
+### -param BufferNeeded 
 
-### -param BufferNeeded [out, optional]
-
+[out, optional]
 Optionally, a pointer to a variable that receives the size necessary to hold the complete header information.
-
 
 ## -returns
 
-
-
-<b>KeInitializeCrashDumpHeader</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure.   
-
-
-
+<b>KeInitializeCrashDumpHeader</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure.
 
 ## -remarks
-
-
 
 Drivers can use this routine to manually create a crash dump file. The file can be created at any time, and used by a debugger to examine the state of the system.
 
@@ -134,5 +122,4 @@ Starting with Windows 8, <b>KeInitializeCrashDumpHeader</b> is declared in the 
 </td>
 </tr>
 </table></span></div>
-
 

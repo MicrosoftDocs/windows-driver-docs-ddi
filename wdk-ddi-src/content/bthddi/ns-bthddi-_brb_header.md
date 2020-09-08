@@ -8,9 +8,6 @@ ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.date: 04/27/2018
 keywords: ["BRB_HEADER structure"]
 ms.keywords: BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], _BRB_HEADER, bltooth.brb_header, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bthddi/BRB_HEADER
-f1_keywords:
- - "bthddi/BRB_HEADER"
- - "BRB_HEADER"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- BRB_HEADER
 targetos: Windows
 req.typenames: BRB_HEADER
+f1_keywords:
+ - _BRB_HEADER
+ - bthddi/_BRB_HEADER
+ - BRB_HEADER
+ - bthddi/BRB_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - BRB_HEADER
 ---
 
 # _BRB_HEADER structure
@@ -46,21 +48,15 @@ req.typenames: BRB_HEADER
 
 ## -description
 
-
 The BRB_HEADER structure contains header information about a Bluetooth request block (BRB), including
   information about the BRB type that the Bluetooth driver stack uses to determine which kind of BRB type to
   process.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ListEntry
 
 A LIST_ENTRY structure used by the current owner of the BRB to place the BRB in a queue.
-
 
 ### -field Length
 
@@ -70,11 +66,9 @@ The size, in bytes, of the BRB, including the BRB_HEADER structure. The
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a> functions automatically set this
      member.
 
-
 ### -field Version
 
 For internal use only. Do not use.
-
 
 ### -field Type
 
@@ -115,11 +109,9 @@ The Bluetooth request block type. The
 
 For internal use only. Do not use.
 
-
 ### -field Status
 
 The NTSTATUS code that is passed when the BRB call completes.
-
 
 ### -field BtStatus
 
@@ -176,21 +168,16 @@ The Bluetooth status code (BTSTATUS) that corresponds to the NTSTATUS code that 
 
 For internal use only. Do not use.
 
-
 ### -field ClientContext
 
 The client context that is associated with the BRB call. The caller can use this member to store a
      pointer or other information.
 
-
 ### -field Reserved
 
 Reserved for future use. Do not use.
 
-
 ## -remarks
-
-
 
 The BRB_HEADER structure contains common types of information about the specified BRB. The BRB_HEADER
     structure is used by all BRB structures that are used as the input buffer for 
@@ -200,13 +187,7 @@ The BRB_HEADER structure contains common types of information about the specifie
 Profile drivers should not modify any of the members of the BRB_HEADER structure except 
     <b>ClientContext</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
 
@@ -217,7 +198,4 @@ Profile drivers should not modify any of the members of the BRB_HEADER structure
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a>
- 
-
- 
 

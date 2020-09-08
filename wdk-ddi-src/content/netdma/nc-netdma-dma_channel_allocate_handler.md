@@ -8,9 +8,6 @@ ms.assetid: 42bc0e08-3d85-424f-aaa4-4df788d3706a
 ms.date: 05/02/2018
 keywords: ["DMA_CHANNEL_ALLOCATE_HANDLER callback function"]
 ms.keywords: DMA_CHANNEL_ALLOCATE_HANDLER, DMA_CHANNEL_ALLOCATE_HANDLER callback, ProviderAllocateDmaChannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml, netvista.providerallocatedmachannel
-f1_keywords:
- - "netdma/ProviderAllocateDmaChannel"
- - "ProviderAllocateDmaChannel"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netdma.h
-api_name:
-- ProviderAllocateDmaChannel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DMA_CHANNEL_ALLOCATE_HANDLER
+ - netdma/DMA_CHANNEL_ALLOCATE_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netdma.h
+api_name:
+ - ProviderAllocateDmaChannel
 ---
 
 # DMA_CHANNEL_ALLOCATE_HANDLER callback function
@@ -46,51 +46,44 @@ req.typenames:
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
 in Windows 8 and later.</div><div> </div>The 
   <i>ProviderAllocateDmaChannel</i> function allocates a DMA channel.
 
-
 ## -parameters
 
+### -param ProviderContext 
 
-
-
-### -param ProviderContext [in]
-
+[in]
 A pointer that identifies a DMA provider's context area. The DMA provider driver passes this
      handle to the NetDMA interface in a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
+### -param ChannelParameters 
 
-### -param ChannelParameters [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
      NET_DMA_CHANNEL_PARAMETERS</a> structure that defines the configuration parameters for the DMA
      channel.
 
+### -param NetDmaChannelHandle 
 
-### -param NetDmaChannelHandle [in]
-
+[in]
 A handle that identifies the DMA channel. Provider drivers pass this handle to 
      <b>NetDma<i>Xxx</i></b> functions to identify the DMA channel.
 
+### -param pProviderChannelContext 
 
-### -param pProviderChannelContext [out]
-
+[out]
 A pointer to a value that is a pointer to a DMA provider's context area for the DMA channel. The
      DMA provider driver allocates this context area before returning from 
      <i>ProviderAllocateDmaChannel</i>. NetDMA passes the context area pointer to 
      <i>ProviderXxx</i> functions that require a provider channel context.
 
-
 ## -returns
-
-
 
 <i>ProviderAllocateDmaChannel</i> returns one of the following status values:
 
@@ -133,14 +126,8 @@ The operation failed for unspecified reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The NetDMA interface calls a DMA provider driver's 
     <i>ProviderAllocateDmaChannel</i> function to allocate a DMA channel. The NetDMA interface calls 
@@ -179,13 +166,7 @@ The NetDMA interface calls the
 NetDMA calls 
     <i>ProviderAllocateDmaChannel</i> at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesettargetprocessordpc">KeSetTargetProcessorDpc</a>
 
@@ -200,7 +181,4 @@ NetDMA calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_free_handler">ProviderFreeDmaChannel</a>
- 
-
- 
 

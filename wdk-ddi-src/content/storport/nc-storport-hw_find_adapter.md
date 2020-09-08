@@ -8,9 +8,6 @@ ms.assetid: 8642d0b8-ebc8-4053-b35e-3a81108a2f7f
 ms.date: 03/29/2018
 keywords: ["HW_FIND_ADAPTER callback function"]
 ms.keywords: HW_FIND_ADAPTER, HwStorFindAdapter, HwStorFindAdapter routine [Storage Devices], storage.hwstorfindadapter, stormini_844ef988-84c8-4f93-b732-eb0a2e8d611a.xml, storport/HwStorFindAdapter
-f1_keywords:
- - "storport/HwStorFindAdapter"
- - "HwStorFindAdapter"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorFindAdapter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_FIND_ADAPTER
+ - storport/HW_FIND_ADAPTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorFindAdapter
 ---
 
 # HW_FIND_ADAPTER callback function
+
 
 ## -description
 
@@ -53,24 +54,29 @@ The **HwStorFindAdapter** routine uses the supplied configuration to determine w
 
 Supplies a per adapter storage area.
 
-### -param HwContext [in]
+### -param HwContext 
 
+[in]
 Set to NULL.
 
-### -param BusInformation [in]
+### -param BusInformation 
 
+[in]
 Set to NULL.
 
-### -param ArgumentString [in]
+### -param ArgumentString 
 
+[in]
 Supplies a **NULL**-terminated string with context information about the driver.
 
-### -param ConfigInfo [in, out]
+### -param ConfigInfo 
 
+[in, out]
 Supplies an initialized [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md) structure that the miniport driver uses during initialization.
 
-### -param Reserved3 [in]
+### -param Reserved3 
 
+[in]
 Reserved for system use.
 
 ## -returns
@@ -146,3 +152,4 @@ The **HW_FIND_ADAPTER** function type is defined in the Storport.h header file. 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
 
 [**StorPortLogError**](nf-storport-storportlogerror.md)
+

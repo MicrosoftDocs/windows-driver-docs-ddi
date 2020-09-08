@@ -6,45 +6,50 @@ tech.root: netvista
 ms.assetid: 0B5CB7F0-C840-4138-8B22-4FE35120C7A5
 ms.date: 07/17/2018
 keywords: ["EVT_PACKET_QUEUE_START callback function"]
-f1_keywords:
- - "netpacketqueue/EVT_PACKET_QUEUE_START"
- - "EVT_PACKET_QUEUE_START"
 req.header: netpacketqueue.h
-req.include-header:
+req.include-header: netadaptercx.h 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- netpacketqueue.h
-api_name: 
-- EVT_PACKET_QUEUE_START
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - EVT_PACKET_QUEUE_START
+ - netpacketqueue/EVT_PACKET_QUEUE_START
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - netpacketqueue.h
+api_name:
+ - EVT_PACKET_QUEUE_START
 ---
 
 # EVT_PACKET_QUEUE_START callback function
 
+
 ## -description
 
-
-
 The *EvtPacketQueueStart* callback function is an optional callback that is implemented by the client driver to start the data path for a packet queue.
+
+## -parameters
+
+### -param PacketQueue
+
+A handle to a packet queue.
 
 ## -prototype
 
@@ -62,12 +67,6 @@ VOID EvtPacketQueueStart
 {...}
 
 ```
-
-## -parameters
-
-### -param PacketQueue
-
-A handle to a packet queue.
 
 ## -remarks
 
@@ -98,3 +97,4 @@ For more info and a diagram showing the NetAdapterCx data path polling model, se
 [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md)
 
 [*EVT_PACKET_QUEUE_STOP*](nc-netpacketqueue-evt_packet_queue_stop.md)
+

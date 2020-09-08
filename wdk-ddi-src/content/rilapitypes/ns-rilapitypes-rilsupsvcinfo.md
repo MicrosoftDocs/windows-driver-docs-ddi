@@ -8,9 +8,6 @@ ms.assetid: 1f8f7c8c-f09a-4bf5-a15b-42f210122b54
 ms.date: 05/02/2018
 keywords: ["RILSUPSVCINFO structure"]
 ms.keywords: "*LPRILSUPSVCINFO, RILSUPSVCINFO, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsupsvcinfo, ntddrilapitypes/RILSUPSVCINFO"
-f1_keywords:
- - "rilapitypes/RILSUPSVCINFO"
- - "RILSUPSVCINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,86 +25,68 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSUPSVCINFO
 targetos: Windows
 req.typenames: RILSUPSVCINFO, *LPRILSUPSVCINFO
+f1_keywords:
+ - RILSUPSVCINFO
+ - rilapitypes/RILSUPSVCINFO
+ - LPRILSUPSVCINFO
+ - rilapitypes/LPRILSUPSVCINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSUPSVCINFO
 ---
 
-# RILSUPSVCINFO structure
+# RILSUPSVCINFO structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
-
 
 ### -field fFromNetwork
 
-
 ### -field dwFailureReason
-
 
 ### -field dwSupSvcAction
 
-
 ### -field dwCallForwardingReason
-
 
 ### -field dwCallBarringType
 
-
 ### -field dwSupSvcType
-
 
 ### -field dwInfoClasses
 
-
 ### -field aiIdentifier
-
 
 ### -field szCallBarringPassword
 
-
 ### -field szNewCallBarringPassword
-
 
 ### -field callForwardSettings
 
-
 ### -field callerIdSettings
-
 
 ### -field dialedIdSettings
 
-
 ### -field hideIdSettings
 
-
 ### -field hideConnectedIdSettings
-
 
 ### -field supServiceData
 

@@ -8,9 +8,6 @@ ms.assetid: c8c26675-8b87-4818-ad51-4e0a341965d0
 ms.date: 05/10/2018
 keywords: ["DXGKCB_QUEUE_DPC callback function"]
 ms.keywords: DXGKCB_QUEUE_DPC, DXGKCB_QUEUE_DPC callback, DpFunctions_0d1685f8-bd6f-45cc-a958-54330281a44f.xml, DxgkCbQueueDpc, DxgkCbQueueDpc callback function [Display Devices], display.dxgkcbqueuedpc, dispmprt/DxgkCbQueueDpc
-f1_keywords:
- - "dispmprt/DxgkCbQueueDpc"
- - "DxgkCbQueueDpc"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkCbQueueDpc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKCB_QUEUE_DPC
+ - dispmprt/DXGKCB_QUEUE_DPC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkCbQueueDpc
 ---
 
 # DXGKCB_QUEUE_DPC callback function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>DxgkCbQueueDpc</b> function queues a deferred procedure call (DPC) for execution at IRQL  DISPATCH_LEVEL.
-
 
 ## -parameters
 
+### -param DeviceHandle 
 
-
-
-### -param DeviceHandle [in]
-
+[in]
 A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
-
 
 ## -returns
 
-
-
 <b>DxgkCbQueueDpc</b> returns <b>TRUE</b> if the DPC is successfully queued; otherwise it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function queues a DPC object for the display miniport and calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a> function when the interrupt service routine (ISR) requests it. 
 
@@ -88,19 +76,11 @@ For more information on the use of this function, see these topics:
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_queue_dpc">DxgkCbQueueDpc</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a>
- 
-
- 
 

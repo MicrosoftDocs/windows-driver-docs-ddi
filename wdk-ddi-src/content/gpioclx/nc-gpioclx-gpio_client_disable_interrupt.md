@@ -8,9 +8,6 @@ ms.assetid: D9EBBE6D-BB2C-4D38-963D-1BA5E67A5420
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_DISABLE_INTERRUPT callback function"]
 ms.keywords: CLIENT_DisableInterrupt, CLIENT_DisableInterrupt callback, CLIENT_DisableInterrupt callback function [Parallel Ports], GPIO.client_disableinterrupt, GPIO_CLIENT_DISABLE_INTERRUPT, gpioclx/CLIENT_DisableInterrupt
-f1_keywords:
- - "gpioclx/CLIENT_DisableInterrupt"
- - "CLIENT_DisableInterrupt"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_DisableInterrupt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_DISABLE_INTERRUPT
+ - gpioclx/GPIO_CLIENT_DISABLE_INTERRUPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_DisableInterrupt
 ---
 
 # GPIO_CLIENT_DISABLE_INTERRUPT callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_DisableInterrupt</i> event callback function disables interrupts on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
+### -param DisableParameters 
 
-### -param DisableParameters [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_disable_interrupt_parameters">GPIO_DISABLE_INTERRUPT_PARAMETERS</a> structure that describes the GPIO interrupt pin.
-
 
 ## -returns
 
-
-
 The <i>CLIENT_DisableInterrupt</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the GPIO controller driver. GpioClx  calls this function to disable interrupts on a GPIO pin that is configured as an interrupt request input.
 
@@ -123,12 +111,7 @@ The GPIO_CLIENT_DISABLE_INTERRUPT function type is defined in the Gpioclx.h head
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_enable_interrupt">CLIENT_EnableInterrupt</a>
 
@@ -143,7 +126,4 @@ The GPIO_CLIENT_DISABLE_INTERRUPT function type is defined in the Gpioclx.h head
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_disable_interrupt_parameters">GPIO_DISABLE_INTERRUPT_PARAMETERS</a>
- 
-
- 
 

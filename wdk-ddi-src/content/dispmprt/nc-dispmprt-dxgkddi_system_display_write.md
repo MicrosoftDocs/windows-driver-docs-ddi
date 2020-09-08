@@ -8,9 +8,6 @@ ms.assetid: 5C0F9878-522C-4DDE-A790-54C94880F119
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_SYSTEM_DISPLAY_WRITE callback function"]
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_WRITE, DXGKDDI_SYSTEM_DISPLAY_WRITE callback, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite
-f1_keywords:
- - "dispmprt/DxgkDdiSystemDisplayWrite"
- - "DxgkDdiSystemDisplayWrite"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiSystemDisplayWrite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_SYSTEM_DISPLAY_WRITE
+ - dispmprt/DXGKDDI_SYSTEM_DISPLAY_WRITE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiSystemDisplayWrite
 ---
 
 # DXGKDDI_SYSTEM_DISPLAY_WRITE callback function
@@ -46,57 +46,48 @@ req.typenames:
 
 ## -description
 
-
 Called by the operating system to request the display miniport driver to write an image block to the display device.
 
 Starting with Windows 8, the operating system calls this function during a bugcheck operation following a system stop error. The operating system calls this function only if the display device was previously reset through a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_enable">DxgkDdiSystemDisplayEnable</a>.
 
-
 ## -parameters
 
+### -param MiniportDeviceContext 
 
-
-
-### -param MiniportDeviceContext [in]
-
+[in]
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
+### -param Source 
 
-
-
-### -param Source [in]
-
+[in]
 A pointer to the start address of the source image to be written to the bugcheck screen that displays information about the system stop error.
 
+### -param SourceWidth 
 
-### -param SourceWidth [in]
-
+[in]
 A UINT value that specifies the width, in units of pixels, of the specified source image.
 
+### -param SourceHeight 
 
-### -param SourceHeight [in]
-
+[in]
 A UINT value that specifies the height, in units of pixels, of the specified source image.
 
+### -param SourceStride 
 
-### -param SourceStride [in]
-
+[in]
 A UINT value that specifies the number of bytes for each line of the specified source image.
 
+### -param PositionX 
 
-### -param PositionX [in]
-
+[in]
 A UINT value that specifies the starting X coordinate that the specified source image should be written to on the display device.
 
+### -param PositionY 
 
-### -param PositionY [in]
-
+[in]
 A UINT value that specifies the starting Y coordinate that the specified source image should be written to on the display device.
 
-
 ## -remarks
-
-
 
 <h3><a id="Source_image_restrictions"></a><a id="source_image_restrictions"></a><a id="SOURCE_IMAGE_RESTRICTIONS"></a>Source image restrictions</h3>
 The display miniport driver must follow these guidelines when its <i>DxgkDdiSystemDisplayWrite</i> function is called:
@@ -122,13 +113,7 @@ Windows kernel-mode functions might not be available while this function is bein
 
 <i>DxgkDdiSystemDisplayWrite</i> can be called at any IRQL, so it must be in nonpageable memory. <i>DxgkDdiSystemDisplayWrite</i> must not call any code that is in pageable memory and must not manipulate any data that is in pageable memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_acquire_post_display_ownership">DxgkCbAcquirePostDisplayOwnership</a>
 
@@ -143,7 +128,4 @@ Windows kernel-mode functions might not be available while this function is bein
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_enable">DxgkDdiSystemDisplayEnable</a>
- 
-
- 
 

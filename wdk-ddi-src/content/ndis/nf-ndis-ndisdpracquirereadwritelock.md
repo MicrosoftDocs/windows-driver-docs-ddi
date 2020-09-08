@@ -8,9 +8,6 @@ ms.assetid: 09B574FA-BCBA-4370-8F9F-BF30CE0BE52D
 ms.date: 05/02/2018
 keywords: ["NdisDprAcquireReadWriteLock function"]
 ms.keywords: NdisDprAcquireReadWriteLock, NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock
-f1_keywords:
- - "ndis/NdisDprAcquireReadWriteLock"
- - "NdisDprAcquireReadWriteLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: = DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisDprAcquireReadWriteLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisDprAcquireReadWriteLock
+ - ndis/NdisDprAcquireReadWriteLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisDprAcquireReadWriteLock
 ---
 
 # NdisDprAcquireReadWriteLock function
 
 
 ## -description
-
 
 The 
   <a href="https://msdn.microsoft.com/library/windows/hardware/hh205388">NdisDprAcquireReadWriteLock</a> function acquires a lock that the caller uses for either write or read
@@ -55,32 +54,27 @@ The
 
 ## -parameters
 
+### -param Lock 
 
-
-
-### -param Lock [in, out]
-
+[in, out]
 A pointer to an opaque variable that represents a lock. The caller can use this lock to access
      shared resources.
 
+### -param fWrite 
 
-### -param fWrite [in]
-
+[in]
 A Boolean value. If the value is TRUE, this function is provided with write access to shared
      resources; if the value is FALSE, this function is provided with read access.
 
+### -param LockState 
 
-### -param LockState [out]
-
+[out]
 A pointer to an opaque variable that tracks the state of the lock. This variable exists in the
      interval between the time the caller acquires and releases the lock. The caller must use a different
      variable of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state">LOCK_STATE</a> for each attempt that it makes to acquire the lock from the same non-ISR
      driver thread.
 
-
 ## -remarks
-
-
 
 The driver must initialize a variable of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_rw_lock">NDIS_RW_LOCK</a> using the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializereadwritelock">
@@ -121,13 +115,7 @@ For more information about acquiring and releasing NDIS spin locks, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state">LOCK_STATE</a>
 
@@ -164,7 +152,4 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsynchronizewithinterruptex">
    NdisMSynchronizeWithInterruptEx</a>
- 
-
- 
 

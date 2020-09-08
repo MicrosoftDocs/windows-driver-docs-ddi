@@ -8,9 +8,6 @@ ms.assetid: 5513a245-0417-42f7-9c01-99b8bd5745eb
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeWriteSynchronously function"]
 ms.keywords: DFUsbRef_9d78fb7e-eaf6-4d86-8376-4c68a1ab6ab9.xml, WdfUsbTargetPipeWriteSynchronously, WdfUsbTargetPipeWriteSynchronously method, kmdf.wdfusbtargetpipewritesynchronously, wdf.wdfusbtargetpipewritesynchronously, wdfusb/WdfUsbTargetPipeWriteSynchronously
-f1_keywords:
- - "wdfusb/WdfUsbTargetPipeWriteSynchronously"
- - "WdfUsbTargetPipeWriteSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetPipeWriteSynchronously
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetPipeWriteSynchronously
+ - wdfusb/WdfUsbTargetPipeWriteSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetPipeWriteSynchronously
 ---
 
 # WdfUsbTargetPipeWriteSynchronously function
@@ -49,45 +49,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeWriteSynchronously</b> method builds a write request and sends it synchronously to a specified USB output pipe.
 
-
 ## -parameters
 
+### -param Pipe 
 
-
-
-### -param Pipe [in]
-
+[in]
 A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
+### -param Request 
 
-### -param Request [in, optional]
-
+[in, optional]
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
+### -param RequestOptions 
 
-### -param RequestOptions [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
+### -param MemoryDescriptor 
 
-### -param MemoryDescriptor [in, optional]
+[in, optional]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure that describes the buffer that contains data that will be written to the device. For more information about this buffer, see the following Remarks section.
 
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure that describes the buffer that contains data that will be written to the device. For more information about this buffer, see the following Remarks section. 
+### -param BytesWritten 
 
-
-### -param BytesWritten [out, optional]
-
+[out, optional]
 A pointer to a location that receives the number of bytes written, if the operation succeeds. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetPipeWriteSynchronously</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -169,14 +162,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Use the <b>WdfUsbTargetPipeWriteSynchronously</b> method to send write requests synchronously. To send write requests asynchronously, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforwrite">WdfUsbTargetPipeFormatRequestForWrite</a>, followed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>.
 
@@ -324,12 +310,7 @@ status = WdfUsbTargetPipeWriteSynchronously(
                                             );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdf_memory_descriptor_init_buffer">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
 
@@ -348,7 +329,4 @@ status = WdfUsbTargetPipeWriteSynchronously(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipereadsynchronously">WdfUsbTargetPipeReadSynchronously</a>
- 
-
- 
 

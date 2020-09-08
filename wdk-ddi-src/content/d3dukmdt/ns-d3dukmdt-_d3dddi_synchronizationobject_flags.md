@@ -8,9 +8,6 @@ ms.assetid: 57e5ea18-ccdd-40a7-9ff5-4d6b94908e7c
 ms.date: 05/10/2018
 keywords: ["D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure"]
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure [Display Devices], D3D_other_Structs_3d266c5b-53c9-47d1-abe9-f492d05660a4.xml, _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS, display.d3dddi_synchronizationobject_flags
-f1_keywords:
- - "d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS"
- - "D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
 targetos: Windows
 req.typenames: D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
+f1_keywords:
+ - _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
+ - d3dukmdt/_D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
+ - D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
+ - d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
 ---
 
 # _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS structure
@@ -46,14 +48,9 @@ req.typenames: D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
 
 ## -description
 
-
 Identifies attributes of a synchronization object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Shared
 
@@ -62,7 +59,6 @@ A UINT value that specifies whether the synchronization object is shared.
 If <b>Shared</b> is set to 1 (<b>TRUE</b>), the synchronization object is shared. If <b>Shared</b> is set to zero (<b>FALSE</b>), the synchronization object is not shared.
 
 For more information, see the Remarks section.
-
 
 ### -field NtSecuritySharing
 
@@ -76,7 +72,6 @@ For more information, see the Remarks section.
 
 Supported starting with Windows 8.
 
-
 ### -field CrossAdapter
 
 A UINT value that specifies whether the synchronization object is a shared cross-adapter object on a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">hybrid system</a>.
@@ -84,7 +79,6 @@ A UINT value that specifies whether the synchronization object is a shared cross
 If <b>CrossAdapter</b> is set to 1 (<b>TRUE</b>), the synchronization object is a shared cross-adapter object. If <b>CrossAdapter</b> is set to zero (<b>FALSE</b>), the synchronization object is not a shared cross-adapter object.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">Using cross-adapter resources in a hybrid system</a>.
-
 
 ### -field TopOfPipeline
 
@@ -98,7 +92,6 @@ This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronizatio
 
 Supported starting with Windows 10.
 
-
 ### -field NoSignal
 
 |Value|Meaning|
@@ -110,7 +103,6 @@ Supported starting with Windows 10.
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
 
 Supported starting with Windows 10.
-
 
 ### -field NoWait
 
@@ -128,7 +120,6 @@ This flag cannot be set simultaneously with <b>NoSignal</b> flag.
 
 Supported starting with Windows 10.
 
-
 ### -field NoSignalMaxValueOnTdr
 
 |Value|Meaning|
@@ -139,16 +130,11 @@ Supported starting with Windows 10.
 
 Supported starting with Windows 10.
 
-
 ### -field NoGPUAccess
-
- 
-
 
 ### -field Reserved
 
 This member is reserved and should be set to zero.
-
 
 ### -field D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS_RESERVED0
 
@@ -156,15 +142,11 @@ This member is reserved and should be set to zero.
 
 Supported starting with Windows 8.
 
-
 ### -field Value
 
 [in] A member in the union that is contained in <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</b> that can hold one 32-bit value that identifies attributes of a synchronization object.
 
-
 ## -remarks
-
-
 
 Objects to be shared by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a> function must first be created with the <b>NtSecuritySharing</b> flag value set. This flag value is available in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocationflags">D3DKMT_CREATEALLOCATIONFLAGS</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>, and <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</b> structures.
 
@@ -176,12 +158,7 @@ Drivers should follow these guidelines on <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS<
 <li>If the synchronization object is shared with an NT handle to the process (and without a global <b>D3DKMT_HANDLE</b> kernel-mode handle to the resource), set <b>Shared</b> = 1 and <b>NtSecuritySharing</b> = 1.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_synchronizationobjectinfo2">D3DDDI_SYNCHRONIZATIONOBJECTINFO2</a>
 
@@ -200,7 +177,4 @@ Drivers should follow these guidelines on <b>D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS<
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex2_flags">D3DKMT_CREATEKEYEDMUTEX2_FLAGS</a>
- 
-
- 
 

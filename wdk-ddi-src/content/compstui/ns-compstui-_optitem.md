@@ -8,9 +8,6 @@ ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 ms.date: 04/20/2018
 keywords: ["OPTITEM structure"]
 ms.keywords: "*POPTITEM, OPTITEM, OPTITEM structure [Print Devices], POPTITEM, POPTITEM structure pointer [Print Devices], _OPTITEM, compstui/OPTITEM, compstui/POPTITEM, cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, print.optitem"
-f1_keywords:
- - "compstui/OPTITEM"
- - "OPTITEM"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- OPTITEM
 targetos: Windows
 req.typenames: OPTITEM, *POPTITEM
+f1_keywords:
+ - _OPTITEM
+ - compstui/_OPTITEM
+ - POPTITEM
+ - compstui/POPTITEM
+ - OPTITEM
+ - compstui/OPTITEM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - OPTITEM
 ---
 
 # _OPTITEM structure
+
 
 ## -description
 
@@ -281,3 +286,4 @@ Additionally, CPSUI sets the option's display text to **copy** for one copy and 
 If **DMPubID** is DMPUB_COLOR, its first [OPTPARAM](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam) structure (**Sel**=0) must represent Gray Scale, and **pData** in the OPTPARAM structure must be IDS_CPSUI_GRAYSCALE. Its second OPTPARAM structure (**Sel**=1) must represent Color, and **pData** in the OPTPARAM structure must be IDS_CPSUI_COLOR. If another option's **DMPubID** is DMPUB_ICMINTENT and if Color is not selected, CPSUI disables the option for which DMPUB_ICMINTENT is specified.
 
 CPSUI disables color matching when Color is not selected.
+

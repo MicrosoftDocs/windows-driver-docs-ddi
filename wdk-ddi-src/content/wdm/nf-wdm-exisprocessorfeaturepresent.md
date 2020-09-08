@@ -8,9 +8,6 @@ ms.assetid: d8c4d1d7-3510-48c4-b1a6-062157f4632e
 ms.date: 04/30/2018
 keywords: ["ExIsProcessorFeaturePresent function"]
 ms.keywords: ExIsProcessorFeaturePresent, ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture], k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml, kernel.exisprocessorfeaturepresent, wdm/ExIsProcessorFeaturePresent
-f1_keywords:
- - "wdm/ExIsProcessorFeaturePresent"
- - "ExIsProcessorFeaturePresent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExIsProcessorFeaturePresent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExIsProcessorFeaturePresent
+ - wdm/ExIsProcessorFeaturePresent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExIsProcessorFeaturePresent
 ---
 
 # ExIsProcessorFeaturePresent function
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExIsProcessorFeaturePresent</b> routine queries for the existence of a specified processor feature.
-
 
 ## -parameters
 
+### -param ProcessorFeature 
 
-
-
-### -param ProcessorFeature [in]
-
+[in]
 Specifies one of the following constant values:
 
 
@@ -151,12 +147,7 @@ The atomic compare 64-bit and exchange 128-bit operation (CMP8XCHG16) is availab
 
 The processor supports the XSAVE and XRSTOR instructions. This parameter value is supported only in Windows 7 and later versions of Windows.
 
-
 ## -returns
 
-
-
 <b>ExIsProcessorFeaturePresent</b> returns <b>TRUE</b> if the specified processor feature is present; otherwise, it returns <b>FALSE</b>.
-
-
 

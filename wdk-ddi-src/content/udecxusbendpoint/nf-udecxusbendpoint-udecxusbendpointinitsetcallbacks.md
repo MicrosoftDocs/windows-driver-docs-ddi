@@ -8,9 +8,6 @@ ms.assetid: 0F6EBBDA-FA0B-4044-905B-535D4FFEC5D2
 ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointInitSetCallbacks function"]
 ms.keywords: UdecxUsbEndpointInitSetCallbacks, UdecxUsbEndpointInitSetCallbacks function [Buses], buses.udecxusbendpointinitsetcallbacks, udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks
-f1_keywords:
- - "udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks"
- - "UdecxUsbEndpointInitSetCallbacks"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbEndpointInitSetCallbacks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbEndpointInitSetCallbacks
+ - udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbEndpointInitSetCallbacks
 ---
 
 # UdecxUsbEndpointInitSetCallbacks function
@@ -47,29 +47,20 @@ req.typenames:
 
 ## -description
 
-
 Sets pointers to UDE client driver-implemented  callback functions in the initialization parameters of the simple endpoint to create.
 
-
 ## -parameters
-
-
-
 
 ### -param UdecxUsbEndpointInit
 
 <p>A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate"><b>UdecxUsbSimpleEndpointInitAllocate</b></a>.</p>
 
+### -param EndpointCallbacks 
 
-### -param EndpointCallbacks [in]
-
-A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks">UDECX_USB_ENDPOINT_CALLBACKS</a> that contains function pointers to event callback functions implemented by the UDE client driver. 
-
+[in]
+A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/ns-udecxusbendpoint-_udecx_usb_endpoint_callbacks">UDECX_USB_ENDPOINT_CALLBACKS</a> that contains function pointers to event callback functions implemented by the UDE client driver.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -80,7 +71,4 @@ A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ud
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

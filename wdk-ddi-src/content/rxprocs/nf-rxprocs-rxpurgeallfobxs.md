@@ -8,9 +8,6 @@ ms.assetid: 3d2a31be-1b59-48a8-8cde-61d7f7319724
 ms.date: 04/16/2018
 keywords: ["RxPurgeAllFobxs function"]
 ms.keywords: RxPurgeAllFobxs, RxPurgeAllFobxs function [Installable File System Drivers], ifsk.rxpurgeallfobxs, rxprocs/RxPurgeAllFobxs, rxref_80dc8a6f-2b11-44b1-986b-b29402e4d46e.xml
-f1_keywords:
- - "rxprocs/RxPurgeAllFobxs"
- - "RxPurgeAllFobxs"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxprocs.h
-api_name:
-- RxPurgeAllFobxs
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxPurgeAllFobxs
+ - rxprocs/RxPurgeAllFobxs
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxprocs.h
+api_name:
+ - RxPurgeAllFobxs
 ---
 
 # RxPurgeAllFobxs function
@@ -46,23 +46,15 @@ req.typenames:
 
 ## -description
 
-
-<b>RxPurgeAllFobxs</b> purges all of the FOBX structures associated with a network mini-redirector. 
-
+<b>RxPurgeAllFobxs</b> purges all of the FOBX structures associated with a network mini-redirector.
 
 ## -parameters
-
-
-
 
 ### -param RxDeviceObject
 
 A pointer to the mini-redirector device object for which the purge should be done.
 
-
 ## -remarks
-
-
 
 At cleanup, there are no more user handles associated with the file object. In such cases, the time window between close and cleanup is dictated by the additional references maintained by memory manager and cache manager. RDBSS uses a scavenger process running on a separate thread to scavenge and purge unneeded FOBX and other structures.
 
@@ -87,12 +79,7 @@ The <b>Flink</b> and <b>Blink</b> members for a list entry are <b>NULL</b>.
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxpurgerelatedfobxs">RxPurgeRelatedFobxs</a>
 
@@ -103,7 +90,4 @@ The <b>Flink</b> and <b>Blink</b> members for a list entry are <b>NULL</b>.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scavengr/nf-scavengr-rxscavengefobxsfornetroot">RxScavengeFobxsForNetRoot</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe
 ms.date: 05/02/2018
 keywords: ["NdisCmDispatchIncomingDropParty function"]
 ms.keywords: NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty
-f1_keywords:
- - "ndis/NdisCmDispatchIncomingDropParty"
- - "NdisCmDispatchIncomingDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmDispatchIncomingDropParty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmDispatchIncomingDropParty
+ - ndis/NdisCmDispatchIncomingDropParty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmDispatchIncomingDropParty
 ---
 
 # NdisCmDispatchIncomingDropParty function
@@ -47,45 +47,38 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmDispatchIncomingDropParty</b> notifies a client that it should remove a particular party on a
   multipoint VC, usually because the call manager has received a request over the network to close an active
   multipoint connection.
 
-
 ## -parameters
 
+### -param DropStatus 
 
-
-
-### -param DropStatus [in]
-
+[in]
 Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
      simply requested that its connection be closed.
 
+### -param NdisPartyHandle 
 
-### -param NdisPartyHandle [in]
-
+[in]
 Specifies the handle that identifies the party to be dropped from the multipoint VC, which must
      have other parties that are still connected.
 
+### -param Buffer 
 
-### -param Buffer [in, optional]
-
+[in, optional]
 Pointer to a caller-allocated resident buffer containing additional protocol-specific data
      received from the remote party, if any. Depending on the underlying medium, this pointer can be
      <b>NULL</b>.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 In the course of normal network operations, a stand-alone call manager's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
@@ -117,13 +110,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     call-management support call 
     <b>NdisMCmDispatchIncomingDropParty</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
 
@@ -145,7 +132,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
    ProtocolCoReceiveNetBufferLists</a>
- 
-
- 
 

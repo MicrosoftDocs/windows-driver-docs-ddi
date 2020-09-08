@@ -8,9 +8,6 @@ ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
 ms.date: 05/29/2020
 keywords: ["FsRtlGetSupportedFeatures function"]
 ms.keywords: FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures, ntifs/FsRtlGetSupportedFeatures
-f1_keywords:
- - "ntifs/FsRtlGetSupportedFeatures"
- - "FsRtlGetSupportedFeatures"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlGetSupportedFeatures
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlGetSupportedFeatures
+ - ntifs/FsRtlGetSupportedFeatures
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlGetSupportedFeatures
 ---
 
 # FsRtlGetSupportedFeatures function
+
 
 ## -description
 
@@ -49,12 +50,14 @@ The **FsRtlGetSupportedFeatures** routine returns the supported features of a vo
 
 ## -parameters
 
-### -param DeviceObject [in]
+### -param DeviceObject 
 
+[in]
 The target device object attached to a volume.
 
-### -param SupportedFeatures [out]
+### -param SupportedFeatures 
 
+[out]
 A pointer to a caller-supplied **ULONG** value. On return, this value contains the supported feature flags for the attached volume.
 
 The supported features are a bitwise OR combination of the following flags.
@@ -77,3 +80,4 @@ The supported features are a bitwise OR combination of the following flags.
 ## -remarks
 
 Filter Manager looks at the supported features, specified by a minifilter's **SupportedFeatures** Registry value, for every minifilter attached to the volume. Every attached minifilter must support a specific feature in order for that feature bit to be set. The **SupportedFeatures** value does not apply to file systems.
+

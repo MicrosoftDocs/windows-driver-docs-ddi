@@ -8,9 +8,6 @@ ms.assetid: bfce0f28-4cca-48a2-8836-2f77f4b6370a
 ms.date: 05/02/2018
 keywords: ["NdisMReadDmaCounter function"]
 ms.keywords: NdisMReadDmaCounter, NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista], dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, ndis/NdisMReadDmaCounter, netvista.ndismreaddmacounter
-f1_keywords:
- - "ndis/NdisMReadDmaCounter"
- - "NdisMReadDmaCounter"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMReadDmaCounter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMReadDmaCounter
+ - ndis/NdisMReadDmaCounter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMReadDmaCounter
 ---
 
 # NdisMReadDmaCounter function
@@ -47,50 +47,29 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMReadDmaCounter</b> function returns the current value of the system DMA controller's counter.
 
-
 ## -parameters
 
+### -param MiniportDmaHandle 
 
-
-
-### -param MiniportDmaHandle [in]
-
+[in]
 The handle returned when the miniport driver called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> function
      during initialization.
 
-
 ## -returns
-
-
 
 <b>NdisMReadDmaCounter</b> returns the number of bytes remaining in the current DMA transfer on the
      channel used by the NIC.
 
-
-
-
 ## -remarks
-
-
 
 Miniport drivers of devices that use the system DMA controller's auto-initialize mode can call 
     <b>NdisMReadDmaCounter</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a>
- 
-
- 
 

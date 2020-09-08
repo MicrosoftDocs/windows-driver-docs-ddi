@@ -8,9 +8,6 @@ ms.assetid: d2140270-558d-4cd9-b497-f61be40c7a87
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::GetSpecificFilterParameters"]
 ms.keywords: GetSpecificFilterParameters, GetSpecificFilterParameters method [Windows Debugging], GetSpecificFilterParameters method [Windows Debugging],IDebugControl interface, GetSpecificFilterParameters method [Windows Debugging],IDebugControl2 interface, GetSpecificFilterParameters method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSpecificFilterParameters method, IDebugControl2 interface [Windows Debugging],GetSpecificFilterParameters method, IDebugControl2::GetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging],GetSpecificFilterParameters method, IDebugControl3.GetSpecificFilterParameters, IDebugControl3::GetSpecificFilterParameters, IDebugControl::GetSpecificFilterParameters, IDebugControl_ebe245a7-c76c-4b31-aa58-ccad250ed92a.xml, dbgeng/IDebugControl2::GetSpecificFilterParameters, dbgeng/IDebugControl3::GetSpecificFilterParameters, dbgeng/IDebugControl::GetSpecificFilterParameters, debugger.getspecificfilterparameters
-f1_keywords:
- - "dbgeng/IDebugControl.GetSpecificFilterParameters"
- - "IDebugControl.GetSpecificFilterParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.GetSpecificFilterParameters
-- IDebugControl2.GetSpecificFilterParameters
-- IDebugControl3.GetSpecificFilterParameters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::GetSpecificFilterParameters
+ - dbgeng/IDebugControl3::GetSpecificFilterParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.GetSpecificFilterParameters
+ - IDebugControl2.GetSpecificFilterParameters
+ - IDebugControl3.GetSpecificFilterParameters
 ---
 
 # IDebugControl3::GetSpecificFilterParameters
@@ -48,33 +48,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSpecificFilterParameters</b> method returns the parameters for specific event filters.
-
 
 ## -parameters
 
+### -param Start 
 
-
-
-### -param Start [in]
-
+[in]
 Specifies the index of the first specific event filter whose parameters will be returned.
 
+### -param Count 
 
-### -param Count [in]
-
+[in]
 Specifies the number of specific event filters to return parameters for.
 
+### -param Params 
 
-### -param Params [out]
-
+[out]
 Receives the parameters for the specific event filters.  <i>Params</i> is an array of elements of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_specific_filter_parameters">DEBUG_SPECIFIC_FILTER_PARAMETERS</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -95,24 +88,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/event-filters">event filters</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/event-filters">Event Filters</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getexceptionfilterparameters">GetExceptionFilterParameters</a>
 
@@ -135,7 +116,4 @@ For more information about <a href="https://docs.microsoft.com/windows-hardware/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/sx--sxd--sxe--sxi--sxn--sxr--sx---set-exceptions-">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
- 
-
- 
 

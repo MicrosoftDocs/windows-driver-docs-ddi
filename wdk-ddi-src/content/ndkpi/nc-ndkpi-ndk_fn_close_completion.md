@@ -8,9 +8,6 @@ ms.assetid: EB3C395F-235A-4B9A-B777-E4E8CD8AFC3C
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CLOSE_COMPLETION callback function"]
 ms.keywords: NDK_FN_CLOSE_COMPLETION, NDK_FN_CLOSE_COMPLETION callback, NdkCloseCompletion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseCompletion, netvista.ndk_fn_close_completion
-f1_keywords:
- - "ndkpi/NdkCloseCompletion"
- - "NdkCloseCompletion"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkCloseCompletion
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_CLOSE_COMPLETION
+ - ndkpi/NDK_FN_CLOSE_COMPLETION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkCloseCompletion
 ---
 
 # NDK_FN_CLOSE_COMPLETION callback function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
  The <i>NdkCloseCompletion</i> (<i>NDK_FN_CLOSE_COMPLETION</i>) function is an asynchronous completion function for closing NDK objects.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in, optional]
-
+[in, optional]
 A context value for each close request that is passed to the provider with the  asynchronous close request function (<i>NDK_FN_CLOSE_COMPLETION</i>)  pointer.
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This function is implemented by the NDK consumer and passed to the NDK provider.</div>
 <div> </div>
@@ -74,13 +67,7 @@ A close request will remain pending while there is another pending request or an
 
 The provider will call the <i>NdkCloseCompletion</i> function after all  pending requests have been completed for the object (that is, the provider called the associated completion function for a request and the completion function returned control back to the provider) and all in-progress notification callbacks have returned control back to the provider.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -95,7 +82,4 @@ The provider will call the <i>NdkCloseCompletion</i> function after all  pending
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ne-ndkpi-_ndk_object_type">NDK_OBJECT_TYPE</a>
- 
-
- 
 

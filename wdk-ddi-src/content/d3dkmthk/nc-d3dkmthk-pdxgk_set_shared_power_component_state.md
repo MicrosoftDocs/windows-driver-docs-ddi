@@ -7,38 +7,38 @@ ms.assetid: 779072A4-A82B-4251-93F5-5B6C7ED0598E
 ms.date: 04/16/2018
 keywords: ["PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function"]
 ms.keywords: PDXGK_SET_SHARED_POWER_COMPONENT_STATE, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback, PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function [Display Devices], d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE, display.pdxgk_set_shared_power_component_state
-f1_keywords:
- - "d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE"
- - "PDXGK_SET_SHARED_POWER_COMPONENT_STATE"
 req.header: d3dkmthk.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- PDXGK_SET_SHARED_POWER_COMPONENT_STATE
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
-req.typenames:
+req.typenames: 
+f1_keywords:
+ - PDXGK_SET_SHARED_POWER_COMPONENT_STATE
+ - d3dkmthk/PDXGK_SET_SHARED_POWER_COMPONENT_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PDXGK_SET_SHARED_POWER_COMPONENT_STATE
 ---
 
 # PDXGK_SET_SHARED_POWER_COMPONENT_STATE callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 A callback to indicate whether the specified power component is active.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceHandle
 
@@ -71,15 +66,7 @@ The index of the component. Generally, this will be the index used by the graphi
 
 Specifies whether the shared power component state is active.
 
-
-
-
-
 ## -returns
 
-
-
 Return STATUS_SUCCESS if the call succeeds.
-
-
 

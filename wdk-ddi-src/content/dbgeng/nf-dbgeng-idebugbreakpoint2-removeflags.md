@@ -8,9 +8,6 @@ ms.assetid: 60538544-6baf-4d23-a65f-5c5e82bd6f11
 ms.date: 05/03/2018
 keywords: ["IDebugBreakpoint2::RemoveFlags"]
 ms.keywords: ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint interface [Windows Debugging],RemoveFlags method, IDebugBreakpoint2 interface [Windows Debugging],RemoveFlags method, IDebugBreakpoint2.RemoveFlags, IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging],IDebugBreakpoint interface, RemoveFlags method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, debugger.removeflags
-f1_keywords:
- - "dbgeng/IDebugBreakpoint.RemoveFlags"
- - "IDebugBreakpoint.RemoveFlags"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugBreakpoint.RemoveFlags
-- IDebugBreakpoint2.RemoveFlags
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugBreakpoint2::RemoveFlags
+ - dbgeng/IDebugBreakpoint2::RemoveFlags
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugBreakpoint.RemoveFlags
+ - IDebugBreakpoint2.RemoveFlags
 ---
 
 # IDebugBreakpoint2::RemoveFlags
@@ -47,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>RemoveFlags</b> method removes flags from a breakpoint.
-
 
 ## -parameters
 
+### -param Flags 
 
-
-
-### -param Flags [in]
-
+[in]
 Flags to remove from the breakpoint.  <i>Flags</i> is a bit field. The new value of the flags in the engine is the old value and not the value of <i>Flags</i>.  For more information about the flag bit field and an explanation of each flag, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.  You cannot modify the DEBUG_BREAKPOINT_DEFERRED flag in the engine. This bit in <i>Flags</i> must always be zero.
 
-
 ## -returns
-
-
 
 <b>RemoveFlags</b> might return one of the following values:
 
@@ -88,14 +81,7 @@ The method was successful.
 
 This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
-
-
-
 ## -remarks
 
-
-
 For more information about breakpoint properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
-
-
 

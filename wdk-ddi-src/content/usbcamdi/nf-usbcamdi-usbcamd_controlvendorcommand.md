@@ -8,9 +8,6 @@ ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
 ms.date: 04/23/2018
 keywords: ["USBCAMD_ControlVendorCommand function"]
 ms.keywords: USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand function [Streaming Media Devices], stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml
-f1_keywords:
- - "usbcamdi/USBCAMD_ControlVendorCommand"
- - "USBCAMD_ControlVendorCommand"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: Greater than or equal to PASSIVE_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- usbcamd2.lib
-- usbcamd2.dll
-api_name:
-- USBCAMD_ControlVendorCommand
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBCAMD_ControlVendorCommand
+ - usbcamdi/USBCAMD_ControlVendorCommand
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - usbcamd2.lib
+ - usbcamd2.dll
+api_name:
+ - USBCAMD_ControlVendorCommand
 ---
 
 # USBCAMD_ControlVendorCommand function
@@ -47,63 +47,56 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBCAMD_ControlVendorCommand</b> function sends vendor-specific commands to the control pipe.
-
 
 ## -parameters
 
+### -param DeviceContext 
 
-
-
-### -param DeviceContext [in]
-
+[in]
 Pointer to device-specific context.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 Specifies the value of the <b>Request</b> field for the vendor command.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 Specifies the value of the <b>Value</b> field for the vendor command.
 
+### -param Index 
 
-### -param Index [in]
-
+[in]
 Specifies the value of the <b>Index</b> field for the vendor command.
 
+### -param Buffer 
 
-### -param Buffer [in, out, optional]
-
+[in, out, optional]
 Pointer to a data buffer if the command has data. If the command does not have any data, this value is <b>NULL</b>.
 
+### -param BufferLength 
 
-### -param BufferLength [in, out]
-
+[in, out]
 Pointer to the buffer length value. Buffer length is expressed in bytes. If the value of <i>Buffer</i> is <b>NULL</b>, <i>BufferLength</i> may also be <b>NULL</b>.
 
+### -param GetData 
 
-### -param GetData [in]
-
+[in]
 <i>GetData</i> indicates data was sent from the device to the host.
 
+### -param CommandComplete 
 
-### -param CommandComplete [in, optional]
-
+[in, optional]
 Pointer to a camera minidriver defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
 
+### -param CommandContext 
 
-### -param CommandContext [in, optional]
-
+[in, optional]
 Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>.
 
-
 ## -returns
-
-
 
 <b>USBCAMD_ControlVendorCommand </b>returns the NTSTATUS code from vendor command. Other possible error codes include:
 
@@ -135,27 +128,12 @@ There are insufficient resources to allocate the vendor command.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function may be called at IRQL >= PASSIVE_LEVEL. If the function is called at IRQL > PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a> is called and passed the value in the <i>CommandContext</i> argument<i>.</i>
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcommand_complete_function">CommandCompleteFunction</a>
- 
-
- 
 

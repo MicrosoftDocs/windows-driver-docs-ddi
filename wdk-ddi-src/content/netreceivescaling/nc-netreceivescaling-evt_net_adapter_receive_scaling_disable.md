@@ -6,43 +6,49 @@ tech.root: netvista
 ms.assetid: 3c249ff6-2a88-4b73-9f04-b3be1a2996d9
 ms.date: 03/08/2018
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE callback function"]
-f1_keywords:
- - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE"
- - "EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE"
 req.header: netreceivescaling.h
-req.include-header:
+req.include-header: netadaptercx.h 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.25
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location:
-- netreceivescaling.h
-api_name: 
-- EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE
 targetos: Windows
+f1_keywords:
+ - EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE
+ - netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - netreceivescaling.h
+api_name:
+ - EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE
 ---
 
 # EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE callback function
 
+
 ## -description
 
-
 The *EvtNetAdapterReceiveScalingDisable* callback function is implemented by the client driver to disable receive side scaling (RSS) for a network interface controller (NIC).
+
+## -parameters
+
+### -param Adapter 
+
+The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ## -prototype
 
@@ -62,12 +68,8 @@ VOID EvtNetAdapterReceiveScalingDisable
 typedef EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE *PFN_NET_ADAPTER_RECEIVE_SCALING_DISABLE;
 ```
 
-## -parameters
-
-### -param Adapter 
-The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
-
 ## -remarks
+
 Register your implementation of this callback function by setting the appropriate member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure and then calling [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md).Client drivers typically call **NetAdapterSetReceiveScalingCapabilities** when starting a net adapter, before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 
@@ -97,3 +99,4 @@ MyEvtNetAdapterReceiveScalingDisable(
 *[EvtNetAdapterReceiveScalingEnable](nc-netreceivescaling-evt_net_adapter_receive_scaling_enable.md)*
 
 [NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
+

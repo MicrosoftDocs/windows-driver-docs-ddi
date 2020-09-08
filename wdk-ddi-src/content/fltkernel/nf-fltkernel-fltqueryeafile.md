@@ -8,9 +8,6 @@ ms.assetid: 3981ab65-2d21-4188-88dc-04eb7aff0869
 ms.date: 04/16/2018
 keywords: ["FltQueryEaFile function"]
 ms.keywords: FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, FltQueryEaFile, FltQueryEaFile function [Installable File System Drivers], fltkernel/FltQueryEaFile, ifsk.fltqueryeafile
-f1_keywords:
- - "fltkernel/FltQueryEaFile"
- - "FltQueryEaFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltQueryEaFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltQueryEaFile
+ - fltkernel/FltQueryEaFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQueryEaFile
 ---
 
 # FltQueryEaFile function
@@ -46,68 +46,61 @@ req.typenames:
 
 ## -description
 
-
-<b>FltQueryEaFile</b> returns information about extended-attribute (EA) values for a file. 
-
+<b>FltQueryEaFile</b> returns information about extended-attribute (EA) values for a file.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the minifilter driver instance that the <i>QueryEa</i> operation is to be sent to. The instance must be attached to the volume where the file resides.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in]
+File object pointer for the file.
 
-Opaque instance pointer for the minifilter driver instance that the <i>QueryEa</i> operation is to be sent to. The instance must be attached to the volume where the file resides. 
+### -param ReturnedEaData 
 
+[out]
+Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer where the extended attribute values are to be returned.
 
-### -param FileObject [in]
+### -param Length 
 
-File object pointer for the file. 
+[in]
+Length, in bytes, of the buffer that the <i>ReturnedEaData</i> parameter points to.
 
+### -param ReturnSingleEntry 
 
-### -param ReturnedEaData [out]
+[in]
+Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should return only the first entry that is found.
 
-Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer where the extended attribute values are to be returned. 
+### -param EaList 
 
+[in, optional]
+Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input buffer specifying the extended attributes to be queried. This parameter is optional and can be <b>NULL</b>.
 
-### -param Length [in]
+### -param EaListLength 
 
-Length, in bytes, of the buffer that the <i>ReturnedEaData</i> parameter points to. 
+[in]
+Length, in bytes, of the buffer that the <i>EaList</i> parameter points to.
 
+### -param EaIndex 
 
-### -param ReturnSingleEntry [in]
+[in, optional]
+Index of the entry at which to begin scanning the file's extended-attribute list. This parameter is ignored if the <i>EaList</i> parameter points to a nonempty list. This parameter is optional and can be <b>NULL</b>.
 
-Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should return only the first entry that is found. 
+### -param RestartScan 
 
+[in]
+Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should begin the scan at the first entry in the file's extended-attribute list. If this parameter is not set to <b>TRUE</b>, the scan is resumed from a previous call to <b>FltQueryEaFile</b>.
 
-### -param EaList [in, optional]
+### -param LengthReturned 
 
-Pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input buffer specifying the extended attributes to be queried. This parameter is optional and can be <b>NULL</b>. 
-
-
-### -param EaListLength [in]
-
-Length, in bytes, of the buffer that the <i>EaList</i> parameter points to. 
-
-
-### -param EaIndex [in, optional]
-
-Index of the entry at which to begin scanning the file's extended-attribute list. This parameter is ignored if the <i>EaList</i> parameter points to a nonempty list. This parameter is optional and can be <b>NULL</b>. 
-
-
-### -param RestartScan [in]
-
-Set to <b>TRUE</b> if <b>FltQueryEaFile</b> should begin the scan at the first entry in the file's extended-attribute list. If this parameter is not set to <b>TRUE</b>, the scan is resumed from a previous call to <b>FltQueryEaFile</b>. 
-
-
-### -param LengthReturned [out, optional]
-
-Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>ReturnedEaData</i> buffer. This parameter is optional and can be <b>NULL</b>. 
-
+[out, optional]
+Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>ReturnedEaData</i> buffer. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltQueryEaFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -150,15 +143,8 @@ The instance or volume is being torn down. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>
 
@@ -173,7 +159,4 @@ The instance or volume is being torn down. This is an error code.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocheckeabuffervalidity">IoCheckEaBufferValidity</a>
- 
-
- 
 

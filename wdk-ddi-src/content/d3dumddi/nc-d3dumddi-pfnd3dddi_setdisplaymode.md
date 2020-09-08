@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetDisplayMode"
- - "SetDisplayMode"
+ - PFND3DDDI_SETDISPLAYMODE
+ - d3dumddi/PFND3DDDI_SETDISPLAYMODE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETDISPLAYMODE callback function
+
 
 ## -description
 

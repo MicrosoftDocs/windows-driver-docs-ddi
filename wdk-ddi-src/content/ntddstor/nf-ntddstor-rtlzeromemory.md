@@ -6,40 +6,39 @@ tech.root: storage
 ms.assetid: c45de332-ebef-43d7-b1ce-852c08291127
 ms.date: 09/20/2018
 keywords: ["RtlZeroMemory macro"]
-f1_keywords:
- - "ntddstor/RtlZeroMemory"
- - "RtlZeroMemory"
 ms.keywords: RtlZeroMemory
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddstor.h
-api_name: 
-- RtlZeroMemory
 targetos: Windows
-
+f1_keywords:
+ - RtlZeroMemory
+ - ntddstor/RtlZeroMemory
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - RtlZeroMemory
 ---
 
-# RtlZeroMemory macro
+# RtlZeroMemory macro (ntddstor.h)
 
 
 ## -description
@@ -56,7 +55,6 @@ Datatype: void*. A pointer to the memory block to be filled with zeros.
 
 Datatype: size_t. The number of bytes to fill with zeros.
 
-
 ## -remarks
 
 To zero out a memory buffer to erase security-sensitive data, use <a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a> instead.
@@ -70,3 +68,4 @@ Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination me
 
 
 <a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>To zero out a memory buffer to erase security-sensitive data, use <a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a> instead.
+

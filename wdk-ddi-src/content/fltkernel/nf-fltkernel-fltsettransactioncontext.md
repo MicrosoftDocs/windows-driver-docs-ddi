@@ -8,9 +8,6 @@ ms.assetid: bb68ee38-1726-4493-9c3b-71a1352dd9f2
 ms.date: 04/16/2018
 keywords: ["FltSetTransactionContext function"]
 ms.keywords: FLT_SET_CONTEXT_KEEP_IF_EXISTS, FLT_SET_CONTEXT_REPLACE_IF_EXISTS, FltApiRef_p_to_z_ac2c79a4-ca14-417d-a394-24a38d89f3bf.xml, FltSetTransactionContext, FltSetTransactionContext routine [Installable File System Drivers], fltkernel/FltSetTransactionContext, ifsk.fltsettransactioncontext
-f1_keywords:
- - "fltkernel/FltSetTransactionContext"
- - "FltSetTransactionContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: <= APC_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltMgr.sys
-api_name:
-- FltSetTransactionContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetTransactionContext
+ - fltkernel/FltSetTransactionContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltMgr.sys
+api_name:
+ - FltSetTransactionContext
 ---
 
 # FltSetTransactionContext function
@@ -46,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltSetTransactionContext</b> routine sets a context on a transaction. 
-
+The <b>FltSetTransactionContext</b> routine sets a context on a transaction.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller.
 
+### -param Transaction 
 
-### -param Instance [in]
+[in]
+Opaque transaction pointer for the transaction on which the context is being set.
 
-Opaque instance pointer for the caller. 
+### -param Operation 
 
-
-### -param Transaction [in]
-
-Opaque transaction pointer for the transaction on which the context is being set. 
-
-
-### -param Operation [in]
-
+[in]
 Flag that specifies the details of the operation to be performed. This parameter must be one of the following: 
 
 <table>
@@ -95,22 +91,18 @@ If a context is already set for the transaction pointed to by the <i>Transaction
 </td>
 </tr>
 </table>
- 
 
+### -param NewContext 
 
-### -param NewContext [in]
+[in]
+Pointer to the new context to be set for the instance. The context must have been allocated by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. This parameter is required and cannot be <b>NULL</b>.
 
-Pointer to the new context to be set for the instance. The context must have been allocated by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>. This parameter is required and cannot be <b>NULL</b>. 
+### -param OldContext 
 
-
-### -param OldContext [out, optional]
-
-Pointer to a caller-allocated variable that receives the address of the existing transaction context, if one is already set. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
-
+[out, optional]
+Pointer to a caller-allocated variable that receives the address of the existing transaction context, if one is already set. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
 
 ## -returns
-
-
 
 <b>FltSetTransactionContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -172,14 +164,8 @@ STATUS_INVALID_PARAMETER is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver calls <b>FltSetTransactionContext</b> to attach a context to a transaction or to remove or replace an existing transaction context. A minifilter driver can attach only one context to a given transaction. 
 
@@ -197,13 +183,7 @@ To delete a transaction context, call <a href="https://docs.microsoft.com/window
 
 For more information about context reference counting, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/referencing-contexts">Referencing Contexts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
@@ -246,7 +226,4 @@ For more information about context reference counting, see <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrollbackenlistment">FltRollbackEnlistment</a>
- 
-
- 
 

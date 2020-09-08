@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CreateLight"
- - "CreateLight"
+ - PFND3DDDI_CREATELIGHT
+ - d3dumddi/PFND3DDDI_CREATELIGHT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CREATELIGHT callback function
+
 
 ## -description
 

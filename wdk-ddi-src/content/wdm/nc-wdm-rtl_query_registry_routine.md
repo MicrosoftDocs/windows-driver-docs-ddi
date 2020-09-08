@@ -8,9 +8,6 @@ ms.assetid: 28f9cfcd-ed2e-4760-9016-3542c27cb347
 ms.date: 04/30/2018
 keywords: ["RTL_QUERY_REGISTRY_ROUTINE callback function"]
 ms.keywords: DrvrRtns_a5cd47f1-6d3c-495e-a83d-ccbd276c1728.xml, QueryRoutine, QueryRoutine routine [Kernel-Mode Driver Architecture], RTL_QUERY_REGISTRY_ROUTINE, kernel.queryroutine, wdm/QueryRoutine
-f1_keywords:
- - "wdm/QueryRoutine"
- - "QueryRoutine"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- QueryRoutine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RTL_QUERY_REGISTRY_ROUTINE
+ - wdm/RTL_QUERY_REGISTRY_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - QueryRoutine
 ---
 
 # RTL_QUERY_REGISTRY_ROUTINE callback function
@@ -46,57 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <i>QueryRoutine</i> routine provides information about a registry value that was requested in a preceding call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a> routine.
-
 
 ## -parameters
 
+### -param ValueName 
 
-
-
-### -param ValueName [in]
-
+[in]
 Specifies the registry key that is associated with the requested registry value. This parameter is a pointer to a null-terminated, Unicode string that contains the key.
 
+### -param ValueType 
 
-### -param ValueType [in]
-
+[in]
 Specifies the type of registry value that is stored with the specified registry key. For more information registry value types, see the definition of the <i>Type</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
 
+### -param ValueData 
 
-### -param ValueData [in]
-
+[in]
 A pointer to the data value that is associated with the specified registry key. The driver must treat this value as read-only. For more information about the type of value data that <i>ValueData</i> points to, see the definition of the <i>Type</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>.
 
+### -param ValueLength 
 
-### -param ValueLength [in]
-
+[in]
 Specifies the length, in bytes, of the value that <i>ValueData</i> points to.
 
+### -param Context 
 
-### -param Context [in, optional]
-
+[in, optional]
 Specifies the <i>Context</i> parameter value that the driver specified in the preceding call to <b>RtlQueryRegistryValues</b>.
 
+### -param EntryContext 
 
-### -param EntryContext [in, optional]
-
+[in, optional]
 Specifies an <b>EntryContext</b> value in a <i>QueryTable</i> array element that the driver specified in the preceding call to <b>RtlQueryRegistryValues</b>.
-
 
 ## -returns
 
-
-
 <i>QueryRoutine</i> returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code. Use only status codes that are defined in the Ntstatus.h header file.
 
-
-
-
 ## -remarks
-
-
 
 A kernel-mode driver implements a <i>QueryRoutine</i> routine. This routine is called by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a> routine.
 
@@ -149,19 +137,11 @@ The RTL_QUERY_REGISTRY_ROUTINE function type is defined in the Wdm.h header file
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_value_basic_information">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>
- 
-
- 
 

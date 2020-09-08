@@ -8,9 +8,6 @@ ms.assetid: 8c785e23-5b80-4518-8a90-3f46e8ad9b1d
 ms.date: 05/10/2018
 keywords: ["ENG_EVENT structure"]
 ms.keywords: "*PENG_EVENT, *PEVENT, ENG_EVENT, ENG_EVENT structure [Display Devices], PENG_EVENT, PENG_EVENT structure pointer [Display Devices], Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, _ENG_EVENT, display.eng_event, ntddvdeo/ENG_EVENT, ntddvdeo/PENG_EVENT"
-f1_keywords:
- - "ntddvdeo/ENG_EVENT"
- - "ENG_EVENT"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- ENG_EVENT
 targetos: Windows
 req.typenames: "*PEVENT, ENG_EVENT, *PENG_EVENT"
+f1_keywords:
+ - _ENG_EVENT
+ - ntddvdeo/_ENG_EVENT
+ - PEVENT
+ - ntddvdeo/PEVENT
+ - ENG_EVENT
+ - ntddvdeo/ENG_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - ENG_EVENT
 ---
 
 # _ENG_EVENT structure
@@ -46,19 +50,13 @@ req.typenames: "*PEVENT, ENG_EVENT, *PENG_EVENT"
 
 ## -description
 
-
 The ENG_EVENT structure is reserved for system use.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pKEvent
 
 Reserved for system use.
-
 
 ### -field fFlags
 

@@ -8,9 +8,6 @@ ms.assetid: B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F
 ms.date: 04/16/2018
 keywords: ["FsRtlQueryKernelEaFile function"]
 ms.keywords: FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile
-f1_keywords:
- - "ntifs/FsRtlQueryKernelEaFile"
- - "FsRtlQueryKernelEaFile"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FsRtlQueryKernelEaFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlQueryKernelEaFile
+ - ntifs/FsRtlQueryKernelEaFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FsRtlQueryKernelEaFile
 ---
 
 # FsRtlQueryKernelEaFile function
@@ -46,70 +46,63 @@ req.typenames:
 
 ## -description
 
-
 The routine <b>FsRtlQueryKernelEaFile</b> is used to build an explicit QueryEA request and synchronously wait
     for it to complete, returning the result. This allows the caller to do
     this by FileObject instead of a handle.
 
-
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 A pointer to a <b>FileObject</b> to send the QueryEA request to.
 
+### -param ReturnedEaData 
 
-### -param ReturnedEaData [out]
-
+[out]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured output buffer, where the extended attribute values are to be returned.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the length, in bytes, of <b>ReturnedEaData</b>
 
+### -param ReturnSingleEntry 
 
-### -param ReturnSingleEntry [in]
-
+[in]
 Specifies whether only a single entry should be returned
         rather than filling the buffer with as many EAs as possible.
 
+### -param EaList 
 
-### -param EaList [in]
-
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input buffer, which specifies the extended attributes to be queried. This parameter is optional and can be<b> NULL</b>.
 
+### -param EaListLength 
 
-### -param EaListLength [in]
-
+[in]
 Specifies the length of <b>EaList</b>, if an EA list was
         supplied.
 
+### -param EaIndex 
 
-### -param EaIndex [in, optional]
-
+[in, optional]
 Supplies the optional index of an EA whose value is to be
         returned.  If specified, then only that EA is returned.
 
+### -param RestartScan 
 
-### -param RestartScan [in]
-
+[in]
 Specifies whether the scan of the EAs should be restarted
         from the beginning.
 
+### -param LengthReturned 
 
-### -param LengthReturned [out, optional]
-
+[out, optional]
 Specifies the amount of valid data that is returned in the
         <b>ReturnedEaData</b> buffer.
 
-
 ## -returns
-
-
 
 The routine <b>FsRtlQueryKernelEaFile</b> returns one of the status codes:
 
@@ -163,24 +156,12 @@ The request was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are from kernel mode as it  requires that the given Input and Output buffers if specified, be kernel mode addresses.  The operation will fail if a user mode address is specified. 
-
-
-
+This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are from kernel mode as it  requires that the given Input and Output buffers if specified, be kernel mode addresses.  The operation will fail if a user mode address is specified.
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD">FsRtlSetKernelEaFile</a>
 
@@ -191,7 +172,4 @@ This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are fro
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
- 
-
- 
 

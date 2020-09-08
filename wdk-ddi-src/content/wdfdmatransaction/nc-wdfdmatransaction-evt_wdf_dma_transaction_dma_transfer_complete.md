@@ -8,9 +8,6 @@ ms.assetid: C638A505-AAE1-48FC-B06B-F2F161ADC948
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback function"]
 ms.keywords: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback, EvtDmaTransactionDmaTransferComplete, EvtDmaTransactionDmaTransferComplete callback function, kmdf.evtdmatransactiondmatransfercomplete, wdf.evtdmatransactiondmatransfercomplete, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete
-f1_keywords:
- - "wdfdmatransaction/EvtDmaTransactionDmaTransferComplete"
- - "EvtDmaTransactionDmaTransferComplete"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WdfDmaTransaction.h
-api_name:
-- EvtDmaTransactionDmaTransferComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE
+ - wdfdmatransaction/EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WdfDmaTransaction.h
+api_name:
+ - EvtDmaTransactionDmaTransferComplete
 ---
 
 # EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback function
@@ -46,46 +46,39 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    A driver's <i>EvtDmaTransactionDmaTransferComplete</i> event callback function is called when  the system-mode controller has completed the current DMA transfer.
 
-
 ## -parameters
 
+### -param Transaction 
 
-
-
-### -param Transaction [in]
-
+[in]
 A handle to a DMA transaction object representing the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a> that has just completed.
 
+### -param Device 
 
-### -param Device [in]
-
+[in]
 A handle to the framework device object that the driver specified when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
+### -param Context 
 
-### -param Context [in]
-
+[in]
 The context pointer that the driver specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsettransfercompletecallback">WdfDmaTransactionSetTransferCompleteCallback</a>.
 
+### -param Direction 
 
-### -param Direction [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_direction">WDF_DMA_DIRECTION</a>-typed value that specifies the direction of the completing DMA transfer operation.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-dma_completion_status">DMA_COMPLETION_STATUS</a>-typed value that specifies the status of the transfer.
 
-
 ## -remarks
-
-
 
 The hardware for a bus-master DMA device typically issues an interrupt when a DMA transfer is complete. The driver then completes the DMA transfer in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a>  callback function.
 
@@ -319,16 +312,7 @@ AttemptRequestCompletion(
 </table></span></div>
 The <b>EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE</b> function type is defined in the WdfDmaTransaction.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsettransfercompletecallback">WdfDmaTransactionSetTransferCompleteCallback</a>
- 
-
- 
 

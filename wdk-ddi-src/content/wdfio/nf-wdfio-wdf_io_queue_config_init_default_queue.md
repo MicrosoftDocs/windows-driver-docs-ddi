@@ -8,9 +8,6 @@ ms.assetid: c7d0c483-b534-471b-8172-174abdbb3c6a
 ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function"]
 ms.keywords: DFQueueObjectRef_e566e464-d9a3-44bf-a5a6-bb9b741ffe0f.xml, WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE, WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function, kmdf.wdf_io_queue_config_init_default_queue, wdf.wdf_io_queue_config_init_default_queue, wdfio/WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
-f1_keywords:
- - "wdfio/WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE"
- - "WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfio.h
-api_name:
-- WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
+ - wdfio/WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfio.h
+api_name:
+ - WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
 ---
 
 # WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.
 
-
 ## -parameters
 
+### -param Config 
 
-
-
-### -param Config [out]
-
+[out]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.
 
+### -param DispatchType 
 
-### -param DispatchType [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type">WDF_IO_QUEUE_DISPATCH_TYPE</a> enumerator that identifies the request dispatching type for the queue.
 
-
 ## -remarks
-
-
 
 Drivers should call <b>WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</b> when creating a power-managed I/O queue that is a device's default queue. The <b>WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</b> function zeros the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure and sets its <b>Size</b> member. It also sets the <b>PowerManaged</b> member to <b>WdfUseDefault</b>, sets the <b>DefaultQueue</b> member to <b>TRUE</b>, and stores the specified dispatching type in the <b>DispatchType</b> member.
 
@@ -77,13 +70,7 @@ Starting in KMDF version 1.9, if <i>DispatchType</i> is set to <b>WdfIoQueueDisp
 
 For a code example that uses <b>WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a>
 
@@ -98,7 +85,4 @@ For a code example that uses <b>WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</b>, see 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>
- 
-
- 
 

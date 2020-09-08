@@ -8,9 +8,6 @@ ms.assetid: 40ccd895-d01f-4057-a5d1-5274e9d9b913
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_COMPANION_POST_D0_EXIT callback function"]
 ms.keywords: EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT callback, EVT_WDF_COMPANION_POST_D0_EXIT callback function, wdf.evt_wdf_companion_post_d0_exit, wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT
-f1_keywords:
- - "wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT"
- - "EVT_WDF_COMPANION_POST_D0_EXIT"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdfcompanion.h
-api_name:
-- EVT_WDF_COMPANION_POST_D0_EXIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_COMPANION_POST_D0_EXIT
+ - wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdfcompanion.h
+api_name:
+ - EVT_WDF_COMPANION_POST_D0_EXIT
 ---
 
 # EVT_WDF_COMPANION_POST_D0_EXIT callback function
@@ -46,18 +46,15 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
+### -param Companion 
 
+[in]
 
+### -param TargetState 
 
-### -param Companion [in]
-
-
-### -param TargetState [in]
+[in]
 

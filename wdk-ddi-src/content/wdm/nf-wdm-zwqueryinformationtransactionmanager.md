@@ -8,9 +8,6 @@ ms.assetid: c87e0635-ad0a-4832-97ed-30c731559fb9
 ms.date: 04/30/2018
 keywords: ["ZwQueryInformationTransactionManager function"]
 ms.keywords: NtQueryInformationTransactionManager, ZwQueryInformationTransactionManager, ZwQueryInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationtransactionmanager, ktm_ref_3311322f-0cc0-4198-8c80-1b203403b080.xml, wdm/NtQueryInformationTransactionManager, wdm/ZwQueryInformationTransactionManager
-f1_keywords:
- - "wdm/ZwQueryInformationTransactionManager"
- - "ZwQueryInformationTransactionManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwQueryInformationTransactionManager
-- NtQueryInformationTransactionManager
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwQueryInformationTransactionManager
+ - wdm/ZwQueryInformationTransactionManager
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwQueryInformationTransactionManager
+ - NtQueryInformationTransactionManager
 ---
 
 # ZwQueryInformationTransactionManager function
@@ -47,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwQueryInformationTransactionManager</b> routine retrieves information about a specified transaction manager object.
-
 
 ## -parameters
 
+### -param TransactionManagerHandle 
 
-
-
-### -param TransactionManagerHandle [in]
-
+[in]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransactionmanager">ZwCreateTransactionManager</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransactionmanager">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_QUERY_INFORMATION access to the object.
 
+### -param TransactionManagerInformationClass 
 
-### -param TransactionManagerInformationClass [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_transactionmanager_information_class">TRANSACTIONMANAGER_INFORMATION_CLASS</a>-typed enumeration value that specifies the information to be obtained. This value must be one of the following:
 
 <ul>
@@ -79,27 +75,24 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_t
 
 </li>
 </ul>
-The enumeration's <b>TransactionManagerOnlineProbeInformation</b> value is not used with <b>ZwQueryInformationTransactionManager</b>. 
+The enumeration's <b>TransactionManagerOnlineProbeInformation</b> value is not used with <b>ZwQueryInformationTransactionManager</b>.
 
+### -param TransactionManagerInformation 
 
-### -param TransactionManagerInformation [out]
-
+[out]
 A pointer to a caller-allocated buffer that receives the information that the <i>TransactionManagerInformationClass</i> parameter specifies. The buffer's structure type must be <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_basic_information">TRANSACTIONMANAGER_BASIC_INFORMATION</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_log_information">TRANSACTIONMANAGER_LOG_INFORMATION</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_logpath_information">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_recovery_information">TRANSACTIONMANAGER_RECOVERY_INFORMATION</a>.
 
+### -param TransactionManagerInformationLength 
 
-### -param TransactionManagerInformationLength [in]
-
+[in]
 The length, in bytes, of the buffer that the <i>TransactionManagerInformation</i> parameter points to, including the length of any additional array elements that the caller has allocated to receive information.
 
+### -param ReturnLength 
 
-### -param ReturnLength [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated variable that receives the length, in bytes, of the information that KTM writes to the <i>TransactionManagerInformation</i> buffer. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>ZwQueryInformationTransactionManager</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
 
@@ -179,12 +172,7 @@ The buffer that is specified by the <i>TransactionManagerInformation </i>paramet
 
 The routine might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information about how to use <b>ZwQueryInformationTransactionManager</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-log-streams-with-ktm">Using Log Streams with KTM</a>.
 
@@ -192,13 +180,7 @@ For more information about how to use <b>ZwQueryInformationTransactionManager</b
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transactionmanager_basic_information">TRANSACTIONMANAGER_BASIC_INFORMATION</a>
 
@@ -233,7 +215,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntrollforwardtransactionmanager">ZwRollforwardTransactionManager</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1727AD96-FC0B-4B52-92C5-5E7502433021
 ms.date: 04/30/2018
 keywords: ["RtlUShortMult function"]
 ms.keywords: RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture], kernel.rtlushortmult, ntintsafe/RtlUShortMult
-f1_keywords:
- - "ntintsafe/RtlUShortMult"
- - "RtlUShortMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlUShortMult
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUShortMult
+ - ntintsafe/RtlUShortMult
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlUShortMult
 ---
 
 # RtlUShortMult function
@@ -46,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Multiplies one value of type <b>USHORT</b> by another.
-
 
 ## -parameters
 
+### -param usMultiplicand 
 
-
-
-### -param usMultiplicand [in]
-
+[in]
 The value to be multiplied by <i>usMultiplier</i>.
 
+### -param usMultiplier 
 
-### -param usMultiplier [in]
-
+[in]
 The value by which to multiply <i>usMultiplicand</i>.
 
+### -param pusResult 
 
-### -param pusResult [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

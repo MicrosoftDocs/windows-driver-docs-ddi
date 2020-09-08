@@ -6,38 +6,43 @@ tech.root: netvista
 ms.assetid: 11ffe280-f068-4196-9dc9-85c20e0527b0
 ms.date: 08/21/2018
 keywords: ["NDIS_WWAN_SET_NETWORK_BLACKLIST structure"]
-f1_keywords:
- - "ndiswwan/_NDIS_WWAN_SET_NETWORK_BLACKLIST"
- - "_NDIS_WWAN_SET_NETWORK_BLACKLIST"
-ms.keywords: _NDIS_WWAN_SET_NETWORK_BLACKLIST, NDIS_WWAN_SET_NETWORK_BLACKLIST, *PNDIS_WWAN_SET_NETWORK_BLACKLIST, 
+ms.keywords: _NDIS_WWAN_SET_NETWORK_BLACKLIST, NDIS_WWAN_SET_NETWORK_BLACKLIST, *PNDIS_WWAN_SET_NETWORK_BLACKLIST,
 req.header: ndiswwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NDIS_WWAN_SET_NETWORK_BLACKLIST, *PNDIS_WWAN_SET_NETWORK_BLACKLIST
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndiswwan.h
-api_name: 
-- _NDIS_WWAN_SET_NETWORK_BLACKLIST
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _NDIS_WWAN_SET_NETWORK_BLACKLIST
+ - ndiswwan/_NDIS_WWAN_SET_NETWORK_BLACKLIST
+ - PNDIS_WWAN_SET_NETWORK_BLACKLIST
+ - ndiswwan/PNDIS_WWAN_SET_NETWORK_BLACKLIST
+ - NDIS_WWAN_SET_NETWORK_BLACKLIST
+ - ndiswwan/NDIS_WWAN_SET_NETWORK_BLACKLIST
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - _NDIS_WWAN_SET_NETWORK_BLACKLIST
+product:
+ - Windows
 ---
 
 # _NDIS_WWAN_SET_NETWORK_BLACKLIST structure
+
 
 ## -description
 
@@ -56,7 +61,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_SET_N
 | Size | sizeof(NDIS_WWAN_SET_NETWORK_BLACKLIST) |
 
 For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md).
- 
+
 ### -field SetNetworkBlacklist
 
 A formatted [**WWAN_NETWORK_BLACKLIST_INFO**](../wwan/ns-wwan-_wwan_network_blacklist_info.md) structure that contains the new list of network blacklist providers for the modem.
@@ -76,3 +81,4 @@ After completing the Set request, the modem should return an [NDIS_STATUS_WWAN_N
 [NDIS_STATUS_WWAN_NETWORK_BLACKLIST](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-network-blacklist)
 
 [**WWAN_NETWORK_BLACKLIST_INFO**](../wwan/ns-wwan-_wwan_network_blacklist_info.md)
+

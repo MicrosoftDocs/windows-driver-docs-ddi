@@ -2,32 +2,34 @@
 UID: NC:ntddk.PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
 title: PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
 author: windows-driver-content
-description:
-tech.root:
+description: 
+tech.root: 
 ms.assetid: 0166926b-64aa-48a1-a8a5-c52a4f63c1e4
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER callback function"]
-f1_keywords:
- - "ntddk/PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER"
- - "PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER"
 req.header: ntddk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PROFILE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
+ - ntddk/PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
 topic_type:
  - apiref
 api_type:
@@ -36,11 +38,10 @@ api_location:
  - ntddk.h
 api_name:
  - PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
-targetos: Windows
-ms.custom: 19H1
 ---
 
 # PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER callback function
+
 
 ## -description
 
@@ -78,5 +79,5 @@ This callback is called at IRQL = PROFILE_LEVEL. This means it must always be me
 
 The callback does not need to handle clearing any overflow registers as it will be handled by the HAL.
 
-
 ## -see-also
+

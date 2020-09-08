@@ -31,14 +31,18 @@ api_name:
  - _DXGKARG_DPI2CIOTRANSMISSION
  - DXGKARG_DPI2CIOTRANSMISSION
 f1_keywords:
+ - _DXGKARG_DPI2CIOTRANSMISSION
  - dispmprt/_DXGKARG_DPI2CIOTRANSMISSION
- - dispmprt//DXGKARG_DPI2CIOTRANSMISSION
+ - PDXGKARG_DPI2CIOTRANSMISSION
+ - dispmprt/PDXGKARG_DPI2CIOTRANSMISSION
  - DXGKARG_DPI2CIOTRANSMISSION
+ - dispmprt/DXGKARG_DPI2CIOTRANSMISSION
 dev_langs:
  - c++
 ---
 
 # DXGKARG_DPI2CIOTRANSMISSION structure
+
 
 ## -description
 
@@ -108,7 +112,7 @@ Number of bytes to read for a read operation.
 
 ### -field DPNativeError
 
-Field in which the driver can encode more details about the error when returning STATUS_DEVICE_PROTOCOL_ERROR from [**DXGKDDI_DPI2CIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpi2ciotransmission.md).  
+Field in which the driver can encode more details about the error when returning STATUS_DEVICE_PROTOCOL_ERROR from [**DXGKDDI_DPI2CIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpi2ciotransmission.md).
 
 ### -field BytesWritten
 
@@ -137,3 +141,4 @@ For Windows 10 version 2004, a write operation is only allowed for MCCS I2C addr
 [**DXGKDDI_DPI2CIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpi2ciotransmission.md)
 
 [**DXGKDDI_QUERYDPCAPS**](nc-dispmprt-dxgkddi_querydpcaps.md)
+

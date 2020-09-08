@@ -8,9 +8,6 @@ ms.assetid: 4db198f5-9472-476d-bb0c-4858a3f98672
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetPowerPolicyOwnership function"]
 ms.keywords: DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, WdfDeviceInitSetPowerPolicyOwnership, WdfDeviceInitSetPowerPolicyOwnership method, kmdf.wdfdeviceinitsetpowerpolicyownership, wdf.wdfdeviceinitsetpowerpolicyownership, wdfdevice/WdfDeviceInitSetPowerPolicyOwnership
-f1_keywords:
- - "wdfdevice/WdfDeviceInitSetPowerPolicyOwnership"
- - "WdfDeviceInitSetPowerPolicyOwnership"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceInitSetPowerPolicyOwnership
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitSetPowerPolicyOwnership
+ - wdfdevice/WdfDeviceInitSetPowerPolicyOwnership
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceInitSetPowerPolicyOwnership
 ---
 
 # WdfDeviceInitSetPowerPolicyOwnership function
@@ -49,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceInitSetPowerPolicyOwnership</b> method establishes whether the calling driver is, or is not, the power policy owner for a specified device.
 
-
 ## -parameters
 
+### -param DeviceInit 
 
-
-
-### -param DeviceInit [in]
-
+[in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
+### -param IsPowerPolicyOwner 
 
-### -param IsPowerPolicyOwner [in]
-
+[in]
 A Boolean value that indicates whether the calling driver is the power policy owner. If <b>TRUE</b>, the calling driver is the power policy owner. If <b>FALSE</b>, it is not the power policy owner.
 
-
 ## -remarks
-
-
 
 If you are writing a framework-based function driver, the framework automatically establishes your driver as the power policy owner. (If the device operates in raw mode, the bus driver is the default power policy owner.) 
 
@@ -121,15 +114,7 @@ if(relinquishPowerPolicy) {
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>
- 
-
- 
 

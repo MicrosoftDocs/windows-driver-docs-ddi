@@ -8,9 +8,6 @@ ms.assetid: 91e2dc51-0f3a-4cda-abe6-72893fd4da79
 ms.date: 05/10/2018
 keywords: ["PDRIVER_IO_PORT_UCHAR callback function"]
 ms.keywords: PDRIVER_IO_PORT_UCHAR, PDRIVER_IO_PORT_UCHAR callback, SvgaHwIoPortUchar, SvgaHwIoPortUchar callback function [Display Devices], VideoMiniport_Functions_d926584b-82e3-463e-ad50-b04d065a1d9d.xml, display.svgahwioportuchar, video/SvgaHwIoPortUchar
-f1_keywords:
- - "video/SvgaHwIoPortUchar"
- - "SvgaHwIoPortUchar"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- SvgaHwIoPortUchar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDRIVER_IO_PORT_UCHAR
+ - video/PDRIVER_IO_PORT_UCHAR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - SvgaHwIoPortUchar
 ---
 
 # PDRIVER_IO_PORT_UCHAR callback function
@@ -46,24 +46,17 @@ req.typenames:
 
 ## -description
 
-
 <i>SvgaHwIoPortUchar</i> traps an I/O port to which a full-screen MS-DOS application in an x86-based machine is sending UCHAR-sized data.
 
-
 ## -parameters
-
-
-
 
 ### -param Context
 
 Specifies the miniport driver-defined context value that was set in the <b>EmulatorAccessEntriesContext</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>.
 
-
 ### -param Port
 
 Specifies the mapped I/O port to be trapped.
-
 
 ### -param AccessMode
 
@@ -75,25 +68,15 @@ Specifies the type of access to be trapped, which can be one or a combination (O
 <dt>EMULATOR_WRITE_ACCESS</dt>
 </dl>
 
-
-
 ### -param Data
 
 Pointer to the byte to be transferred.
 
-
 ## -returns
-
-
 
 <i>SvgaHwIoPortUchar</i> returns the final status of the operation.
 
-
-
-
 ## -remarks
-
-
 
 Only miniport drivers of VGA-compatible SVGA adapters have <i>SvgaHwIoPortXxx</i> functions. (See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">SVGA Functions</a>.)
 
@@ -107,13 +90,7 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 <i>SvgaHwIoPortUchar</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_emulator_access_entry">EMULATOR_ACCESS_ENTRY</a>
 
@@ -140,7 +117,4 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsettrappedemulatorports">VideoPortSetTrappedEmulatorPorts</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1a0f8ea5-9b1f-4301-b96d-aa37b80b4ce2
 ms.date: 02/26/2018
 keywords: ["WdfCmResourceListAppendDescriptor function"]
 ms.keywords: DFResourceObjectRef_13d42471-baa5-4985-a5fa-70336f2be352.xml, WdfCmResourceListAppendDescriptor, WdfCmResourceListAppendDescriptor method, kmdf.wdfcmresourcelistappenddescriptor, wdf.wdfcmresourcelistappenddescriptor, wdfresource/WdfCmResourceListAppendDescriptor
-f1_keywords:
- - "wdfresource/WdfCmResourceListAppendDescriptor"
- - "WdfCmResourceListAppendDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfCmResourceListAppendDescriptor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCmResourceListAppendDescriptor
+ - wdfresource/WdfCmResourceListAppendDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfCmResourceListAppendDescriptor
 ---
 
 # WdfCmResourceListAppendDescriptor function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfCmResourceListAppendDescriptor</b> method adds a resource descriptor to the end of a specified resource list.
 
-
 ## -parameters
 
+### -param List 
 
-
-
-### -param List [in]
-
+[in]
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
+### -param Descriptor 
 
-### -param Descriptor [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
-
 ## -returns
-
-
 
 <b>WdfCmResourceListAppendDescriptor</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -117,14 +110,7 @@ The framework could not allocate space to store the descriptor that the <i>Descr
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The framework copies the contents of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure into internal storage, so the driver routine that calls <b>WdfCmResourceListAppendDescriptor</b> can allocate the structure locally. After the driver calls <b>WdfCmResourceListAppendDescriptor</b> it can reuse the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure.
 
@@ -159,12 +145,7 @@ PdoEvtDeviceResourcesQuery(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
@@ -183,7 +164,4 @@ PdoEvtDeviceResourcesQuery(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfcmresourcelistinsertdescriptor">WdfCmResourceListInsertDescriptor</a>
- 
-
- 
 

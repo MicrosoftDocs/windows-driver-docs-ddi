@@ -8,9 +8,6 @@ ms.assetid: e79ed9a1-b271-4c0a-a82f-9fecab930569
 ms.date: 04/30/2018
 keywords: ["PoSetSystemWake function"]
 ms.keywords: PoSetSystemWake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], kernel.posetsystemwake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, wdm/PoSetSystemWake
-f1_keywords:
- - "wdm/PoSetSystemWake"
- - "PoSetSystemWake"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoSetSystemWake
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoSetSystemWake
+ - wdm/PoSetSystemWake
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoSetSystemWake
 ---
 
 # PoSetSystemWake function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoSetSystemWake</b> routine marks the specified IRP as one that contributed to waking the system from a sleep state.
-
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in, out]
-
+[in, out]
 A pointer to the wait/wake IRP.
 
-
 ## -remarks
-
-
 
 Drivers call <b>PoSetSystemWake</b> to mark an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-wait-wake">IRP_MN_WAIT_WAKE</a> IRP as contributing to waking the system from a sleep state. By default, wait/wake IRPs are considered to be device wake-up IRPs. It is the responsibility of the terminal device in a wait/wake chain to determine if it woke the system and to call <b>PoSetSystemWake</b> for the terminal wait/wake IRP. When a driver calls <b>PoSetSystemWake</b> on an IRP, it is marked as having contributed to waking the system from a sleep state. Only one driver in a stack needs to call this routine, and it should normally be the bus driver in a driver stack.
 
@@ -72,16 +65,7 @@ After a wait/wake IRP completes, the power manager checks if the IRP is marked a
 
 The power manager logs an Event Tracing for Windows (ETW) event (viewable in the global system channel) that includes information about which devices woke the system.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pogetsystemwake">PoGetSystemWake</a>
- 
-
- 
 

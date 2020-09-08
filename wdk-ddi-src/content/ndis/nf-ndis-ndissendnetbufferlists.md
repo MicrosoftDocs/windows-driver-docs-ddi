@@ -8,9 +8,6 @@ ms.assetid: f615acc4-7e3e-4390-8a6a-e68663fcc162
 ms.date: 05/02/2018
 keywords: ["NdisSendNetBufferLists function"]
 ms.keywords: NdisSendNetBufferLists, NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisSendNetBufferLists, ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, netvista.ndissendnetbufferlists
-f1_keywords:
- - "ndis/NdisSendNetBufferLists"
- - "NdisSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisSendNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisSendNetBufferLists
+ - ndis/NdisSendNetBufferLists
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisSendNetBufferLists
 ---
 
 # NdisSendNetBufferLists function
@@ -47,41 +47,37 @@ req.typenames:
 
 ## -description
 
-
 Protocol drivers call the 
   <b>NdisSendNetBufferLists</b> function to send network data that is contained in a list of 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
 
-
 ## -parameters
 
+### -param NdisBindingHandle 
 
-
-
-### -param NdisBindingHandle [in]
-
+[in]
 A handle that identifies the target adapter. A previous call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> returned this
      handle.
 
+### -param NetBufferLists 
 
-### -param NetBufferLists [in]
-
+[in]
 A pointer to a linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. Each
      NET_BUFFER_LIST structure describes a list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
+### -param PortNumber 
 
-### -param PortNumber [in]
-
+[in]
 A port number that identifies a miniport adapter port. The default port number of a miniport
      adapter is zero. Protocol drivers that do not use miniport adapter ports should specify the default
      port.
 
+### -param SendFlags 
 
-### -param SendFlags [in]
-
+[in]
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
      
@@ -106,10 +102,7 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
        criteria to the overlying driver. This flag has no effect on checking for loopback, or looping back,
        on other bindings.
 
-
 ## -remarks
-
-
 
 After a protocol driver calls 
     <b>NdisSendNetBufferLists</b>, NDIS submits the 
@@ -190,13 +183,7 @@ Until NDIS calls
     after calling 
     <b>NdisSendNetBufferLists</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -247,7 +234,4 @@ Until NDIS calls
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
    ProtocolSendNetBufferListsComplete</a>
- 
-
- 
 

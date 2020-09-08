@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiAcquireSwizzlingRange"
- - "DxgkDdiAcquireSwizzlingRange"
+ - DXGKDDI_ACQUIRESWIZZLINGRANGE
+ - d3dkmddi/DXGKDDI_ACQUIRESWIZZLINGRANGE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_ACQUIRESWIZZLINGRANGE callback function
+
 
 ## -description
 

@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: display
+f1_keywords:
+ - iddcx
+ - iddcx/iddcx
 ---
 
 # Iddcx.h header
@@ -16,8 +19,8 @@ tech.root: display
 
 ## -description
 
-
 This header is used by indirect display drivers. For more information, see:
 
 - [Indirect display driver model overview](https://docs.microsoft.com/windows-hardware/drivers/display/indirect-display-driver-model-overview)
 - [All display driver headers](../_display/index.md)
+

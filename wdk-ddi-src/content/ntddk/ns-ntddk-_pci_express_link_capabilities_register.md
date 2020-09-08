@@ -8,79 +8,53 @@ ms.assetid: d49d1deb-cb98-4dc0-9ec5-7015b765c9e4
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI.pci_express_link_capabilities_register, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml"
-f1_keywords:
- - "ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER"
- - "PCI_EXPRESS_LINK_CAPABILITIES_REGISTER"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 targetos: Windows
 req.typenames: PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+f1_keywords:
+ - _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+ - ntddk/_PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+ - PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+ - ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+ - PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+ - ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 ---
 
-# _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure
+# _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure (ntddk.h)
 
 
 ## -description
 
-
 The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) link capabilities register of a PCIe capability structure.
-
-
-## -syntax
-
-
-```cpp
-typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
-  struct {
-    ULONG MaximumLinkSpeed  :4;
-    ULONG MaximumLinkWidth  :6;
-    ULONG ActiveStatePMSupport  :2;
-    ULONG L0sExitLatency  :3;
-    ULONG L1ExitLatency  :3;
-    ULONG ClockPowerManagement  :1;
-    ULONG SurpriseDownErrorReportingCapable  :1;
-    ULONG DataLinkLayerActiveReportingCapable  :1;
-    ULONG Rsvd  :3;
-    ULONG PortNumber  :8;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER;
-```
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYSTRUCTNAME
-
-
-
 
 ### -field AsULONG
 
@@ -310,26 +284,33 @@ Reserved.
 
 A single bit that indicates that the component supports the optional capability of detecting and reporting a surprise-down error condition. This bit only applies to downstream ports.
 
+## -syntax
+
+```cpp
+typedef union _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER {
+  struct {
+    ULONG MaximumLinkSpeed  :4;
+    ULONG MaximumLinkWidth  :6;
+    ULONG ActiveStatePMSupport  :2;
+    ULONG L0sExitLatency  :3;
+    ULONG L1ExitLatency  :3;
+    ULONG ClockPowerManagement  :1;
+    ULONG SurpriseDownErrorReportingCapable  :1;
+    ULONG DataLinkLayerActiveReportingCapable  :1;
+    ULONG Rsvd  :3;
+    ULONG PortNumber  :8;
+  };
+  ULONG  AsULONG;
+} PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER;
+```
 
 ## -remarks
-
-
 
 The PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure is contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
 
-
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
-
-
-
- 
-
- 
-
 

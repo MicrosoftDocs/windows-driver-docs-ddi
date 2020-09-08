@@ -7,9 +7,6 @@ ms.assetid: 8651297B-BCF7-42A2-9175-D9D072E052D6
 ms.date: 05/10/2018
 keywords: ["D3DKMT_UNLOCK2 structure"]
 ms.keywords: D3DKMT_UNLOCK2, D3DKMT_UNLOCK2 structure [Display Devices], _D3DKMT_UNLOCK2, d3dkmthk/D3DKMT_UNLOCK2, display.d3dkmt_unlock2
-f1_keywords:
- - "d3dkmthk/D3DKMT_UNLOCK2"
- - "D3DKMT_UNLOCK2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMT_UNLOCK2
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_UNLOCK2
+f1_keywords:
+ - _D3DKMT_UNLOCK2
+ - d3dkmthk/_D3DKMT_UNLOCK2
+ - D3DKMT_UNLOCK2
+ - d3dkmthk/D3DKMT_UNLOCK2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMT_UNLOCK2
 ---
 
 # _D3DKMT_UNLOCK2 structure
@@ -46,19 +48,13 @@ req.typenames: D3DKMT_UNLOCK2
 
 ## -description
 
-
 <b>D3DKMT_UNLOCK2</b> describes an allocation to unlock.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hDevice
 
 The handle to the device.
-
 
 ### -field hAllocation
 

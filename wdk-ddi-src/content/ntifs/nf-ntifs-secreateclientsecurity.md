@@ -8,9 +8,6 @@ ms.assetid: 10aadf41-79c4-46d6-a5ae-e8b3b5f338f0
 ms.date: 04/16/2018
 keywords: ["SeCreateClientSecurity function"]
 ms.keywords: SeCreateClientSecurity, SeCreateClientSecurity routine [Installable File System Drivers], ifsk.secreateclientsecurity, ntifs/SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml
-f1_keywords:
- - "ntifs/SeCreateClientSecurity"
- - "SeCreateClientSecurity"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeCreateClientSecurity
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeCreateClientSecurity
+ - ntifs/SeCreateClientSecurity
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeCreateClientSecurity
 ---
 
 # SeCreateClientSecurity function
@@ -46,38 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeCreateClientSecurity</b> routine initializes a security client context structure with the information needed to call <b>SeImpersonateClientEx</b>.
-
 
 ## -parameters
 
+### -param ClientThread 
 
-
-
-### -param ClientThread [in]
-
+[in]
 Pointer to the thread of the client to be impersonated.
 
+### -param ClientSecurityQos 
 
-### -param ClientSecurityQos [in]
-
+[in]
 Pointer to a caller-allocated SECURITY_QUALITY_OF_SERVICE structure indicating what form of impersonation is to be performed.
-
 
 ### -param RemoteSession
 
 <p>Set to <b>TRUE</b> if the server of the client's request is remote.</p>
 
+### -param ClientContext 
 
-### -param ClientContext [out]
-
+[out]
 Pointer to a caller-allocated SECURITY_CLIENT_CONTEXT structure to be initialized.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -117,14 +109,8 @@ The client's effective token cannot be passed on for use by another server, beca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SeCreateClientSecurity</b> initializes a client security context block to represent a client's security context.
 
@@ -132,22 +118,13 @@ If the <b>ContextTrackingMode</b> member of <i>ClientSecurityQos</i> is set to S
 
 Each call to <b>SeCreateClientSecurity</b> must be matched by a subsequent call to <b>SeDeleteClientSecurity</b>.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sedeleteclientsecurity">SeDeleteClientSecurity</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seimpersonateclientex">SeImpersonateClientEx</a>
- 
-
- 
 

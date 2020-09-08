@@ -8,9 +8,6 @@ ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.date: 02/26/2018
 keywords: ["IWDFUnifiedPropertyStore::SetPropertyData"]
 ms.keywords: IWDFUnifiedPropertyStore interface,SetPropertyData method, IWDFUnifiedPropertyStore.SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData, SetPropertyData method, SetPropertyData method,IWDFUnifiedPropertyStore interface, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
-f1_keywords:
- - "wudfddi/IWDFUnifiedPropertyStore.SetPropertyData"
- - "IWDFUnifiedPropertyStore.SetPropertyData"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUnifiedPropertyStore.SetPropertyData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUnifiedPropertyStore::SetPropertyData
+ - wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUnifiedPropertyStore.SetPropertyData
 ---
 
 # IWDFUnifiedPropertyStore::SetPropertyData
@@ -46,50 +46,43 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPropertyData</b> method modifies the current setting of a device property.
 
-
 ## -parameters
 
+### -param PropertyKey 
 
-
-
-### -param PropertyKey [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315031(v=vs.85)">DEVPROPKEY</a> structure that specifies the device property key.
 
+### -param Lcid 
 
-### -param Lcid [in]
-
+[in]
 Specifies a locale identifier. Set this parameter either to a language-specific LCID value or to LOCALE_NEUTRAL. The LOCALE_NEUTRAL LCID specifies that the property is language-neutral (that is, not specific to any language). Do not set this parameter to LOCALE_SYSTEM_DEFAULT or LOCALE_USER_DEFAULT. For more information about language-specific LCID values, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8">LCID Structure</a>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Reserved. Drivers should set this value to 0.
 
+### -param PropertyType 
 
-### -param PropertyType [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a> value that specifies the type of the data that is provided in the <i>PropertyData</i> buffer.
 
+### -param PropertyDataSize 
 
-### -param PropertyDataSize [in]
-
+[in]
 The size, in bytes, of the buffer that <i>PropertyData</i> points to.
 
+### -param PropertyData 
 
-### -param PropertyData [in, optional]
-
+[in, optional]
 A pointer to the device property data. Set this parameter to <b>NULL</b> to delete the specified property.
 
-
 ## -returns
-
-
 
 <b>SetPropertyData</b> returns S_OK if the operation succeeds. Otherwise, the method might return the following values.
 
@@ -136,12 +129,7 @@ The driver can modify device interface property data only  starting with  Window
 
 This method might return an HRESULT-typed value corresponding to one of the other values that <i>Winerror.h</i> contains.
 
-
-
-
 ## -remarks
-
-
 
 Framework-based drivers use the <b>SetPropertyData</b> method to modify device properties that are defined as part of the unified device property model.
 
@@ -201,12 +189,7 @@ exit:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfunifiedpropertystore-getpropertydata">GetPropertyData</a>
 
@@ -229,7 +212,4 @@ exit:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_root_class">WDF_PROPERTY_STORE_ROOT_CLASS</a>
- 
-
- 
 

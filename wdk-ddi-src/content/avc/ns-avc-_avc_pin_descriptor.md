@@ -8,9 +8,6 @@ ms.assetid: 6d404c47-01ae-496c-8252-32f180cf0fd3
 ms.date: 04/23/2018
 keywords: ["AVC_PIN_DESCRIPTOR structure"]
 ms.keywords: "*PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], PAVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], _AVC_PIN_DESCRIPTOR, avc/AVC_PIN_DESCRIPTOR, avc/PAVC_PIN_DESCRIPTOR, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, stream.avc_pin_descriptor"
-f1_keywords:
- - "avc/AVC_PIN_DESCRIPTOR"
- - "AVC_PIN_DESCRIPTOR"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avc.h
-api_name:
-- AVC_PIN_DESCRIPTOR
 targetos: Windows
 req.typenames: AVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR
+f1_keywords:
+ - _AVC_PIN_DESCRIPTOR
+ - avc/_AVC_PIN_DESCRIPTOR
+ - PAVC_PIN_DESCRIPTOR
+ - avc/PAVC_PIN_DESCRIPTOR
+ - AVC_PIN_DESCRIPTOR
+ - avc/AVC_PIN_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avc.h
+api_name:
+ - AVC_PIN_DESCRIPTOR
 ---
 
 # _AVC_PIN_DESCRIPTOR structure
+
 
 ## -description
 
@@ -104,3 +109,4 @@ typedef struct {
 [AVC_MULTIFUNC_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_multifunc_irb)
 
 [KSPIN_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor)
+

@@ -8,9 +8,6 @@ ms.assetid: 998a028a-7dd8-429a-8195-68d4b4b1b156
 ms.date: 04/16/2018
 keywords: ["FLT_FILE_NAME_INFORMATION structure"]
 ms.keywords: "*PFLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION structure [Installable File System Drivers], FltSystemStructures_0c108c25-effe-413b-9d2a-a215f4eebf37.xml, PFLT_FILE_NAME_INFORMATION, PFLT_FILE_NAME_INFORMATION structure pointer [Installable File System Drivers], _FLT_FILE_NAME_INFORMATION, fltkernel/FLT_FILE_NAME_INFORMATION, fltkernel/PFLT_FILE_NAME_INFORMATION, ifsk.flt_file_name_information"
-f1_keywords:
- - "fltkernel/FLT_FILE_NAME_INFORMATION"
- - "FLT_FILE_NAME_INFORMATION"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltkernel.h
-api_name:
-- FLT_FILE_NAME_INFORMATION
 targetos: Windows
 req.typenames: FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION
+f1_keywords:
+ - _FLT_FILE_NAME_INFORMATION
+ - fltkernel/_FLT_FILE_NAME_INFORMATION
+ - PFLT_FILE_NAME_INFORMATION
+ - fltkernel/PFLT_FILE_NAME_INFORMATION
+ - FLT_FILE_NAME_INFORMATION
+ - fltkernel/FLT_FILE_NAME_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FLT_FILE_NAME_INFORMATION
 ---
 
 # _FLT_FILE_NAME_INFORMATION structure
@@ -46,19 +50,13 @@ req.typenames: FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION
 
 ## -description
 
-
-The FLT_FILE_NAME_INFORMATION structure contains file name information. 
-
+The FLT_FILE_NAME_INFORMATION structure contains file name information.
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-Size, in bytes, of the FLT_FILE_NAME_INFORMATION structure. 
-
+Size, in bytes, of the FLT_FILE_NAME_INFORMATION structure.
 
 ### -field NamesParsed
 
@@ -110,8 +108,6 @@ FLTFL_FILE_NAME_PARSED_PARENT_DIR
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Format
 
@@ -153,48 +149,36 @@ The <b>Name</b> member contains the short (8.3) name for the file. The short nam
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Name
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the file name string, formatted as specified by the <b>Format</b> member. 
-
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the file name string, formatted as specified by the <b>Format</b> member.
 
 ### -field Volume
 
-UNICODE_STRING structure that contains the volume name parsed from the <b>Name</b> string. If <b>Format</b> is FLT_FILE_NAME_SHORT, <b>Volume.Length</b> is zero. 
-
+UNICODE_STRING structure that contains the volume name parsed from the <b>Name</b> string. If <b>Format</b> is FLT_FILE_NAME_SHORT, <b>Volume.Length</b> is zero.
 
 ### -field Share
 
-UNICODE_STRING structure that contains the network share name parsed from the <b>Name</b> string for a remote file. If <b>Format</b> is FLT_FILE_NAME_SHORT, <b>Share.Length</b> is zero. 
-
+UNICODE_STRING structure that contains the network share name parsed from the <b>Name</b> string for a remote file. If <b>Format</b> is FLT_FILE_NAME_SHORT, <b>Share.Length</b> is zero.
 
 ### -field Extension
 
-UNICODE_STRING structure that contains the extension parsed from the <b>Name</b> string. If no extension is found, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a> sets <b>Extension.Length</b> to zero. 
-
+UNICODE_STRING structure that contains the extension parsed from the <b>Name</b> string. If no extension is found, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a> sets <b>Extension.Length</b> to zero.
 
 ### -field Stream
 
-UNICODE_STRING structure that contains the stream name parsed from the <b>Name</b> string. If no stream name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a> sets <b>Stream.Length</b> to zero. 
-
+UNICODE_STRING structure that contains the stream name parsed from the <b>Name</b> string. If no stream name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a> sets <b>Stream.Length</b> to zero.
 
 ### -field FinalComponent
 
-UNICODE_STRING structure that contains the final name component parsed from the <b>Name</b> string. If no final component name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a> sets <b>FinalComponent.Length</b> to zero. 
-
+UNICODE_STRING structure that contains the final name component parsed from the <b>Name</b> string. If no final component name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a> sets <b>FinalComponent.Length</b> to zero.
 
 ### -field ParentDir
 
-UNICODE_STRING structure that contains the parent directory name parsed from the <b>Name</b> string by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>. If no parent directory name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <b>FltParseFileNameInformation</b> sets <b>ParentDir.Length</b> to zero. 
-
+UNICODE_STRING structure that contains the parent directory name parsed from the <b>Name</b> string by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>. If no parent directory name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <b>FltParseFileNameInformation</b> sets <b>ParentDir.Length</b> to zero.
 
 ## -remarks
-
-
 
 The <b>Name</b> member contains one of the following: 
 
@@ -320,19 +304,13 @@ To obtain an FLT_FILE_NAME_INFORMATION structure for a file, call <a href="https
 <div> </div>
 File systems such as NTFS and FAT use a per-volume tunnel cache to briefly preserve file names and other metadata for files that are being renamed, linked to, or deleted. This file name tunneling can cause the final component in normalized file name information returned by a preoperation call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformationunsafe">FltGetFileNameInformationUnsafe</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation">FltGetDestinationFileNameInformation</a> to be invalidated. If a minifilter retrieves normalized file name information in the preoperation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>) routine for a create, hard-link, or rename operation, it must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgettunneledname">FltGetTunneledName</a> from its postoperation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine to retrieve the correct file name information for the file. 
 
-Although it contains numerous <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures, the FLT_FILE_NAME_INFORMATION structure does not occupy much space in memory because all of the UNICODE_STRING structures in a FLT_FILE_NAME_INFORMATION structure share a single buffer. 
+Although it contains numerous <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures, the FLT_FILE_NAME_INFORMATION structure does not occupy much space in memory because all of the UNICODE_STRING structures in a FLT_FILE_NAME_INFORMATION structure share a single buffer. 
 
 To parse the contents of the <b>Name</b> string, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>. This routine sets the values of the <b>Extension</b>, <b>Stream</b>, <b>FinalComponent</b>, <b>ParentDir</b>, and <b>NamesParsed</b> members of this structure. 
 
-Minifilters are responsible for calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation">FltReleaseFileNameInformation</a> to release the FLT_FILE_NAME_INFORMATION structure when it is no longer needed. 
-
-
-
+Minifilters are responsible for calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation">FltReleaseFileNameInformation</a> to release the FLT_FILE_NAME_INFORMATION structure when it is no longer needed.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options">FLT_FILE_NAME_OPTIONS</a>
 
@@ -378,8 +356,5 @@ Minifilters are responsible for calling <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

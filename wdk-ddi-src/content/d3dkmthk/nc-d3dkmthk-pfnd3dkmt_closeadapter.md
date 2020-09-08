@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmthk/D3DKMTCloseAdapter"
- - "D3DKMTCloseAdapter"
+ - PFND3DKMT_CLOSEADAPTER
+ - d3dkmthk/PFND3DKMT_CLOSEADAPTER
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DKMT_CLOSEADAPTER callback function
+
 
 ## -description
 

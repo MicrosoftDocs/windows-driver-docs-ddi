@@ -8,9 +8,6 @@ ms.assetid: 57d0969f-bc30-4235-93a5-dda51e15b4fc
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeAbortSynchronously function"]
 ms.keywords: DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, kmdf.wdfusbtargetpipeabortsynchronously, wdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously
-f1_keywords:
- - "wdfusb/WdfUsbTargetPipeAbortSynchronously"
- - "WdfUsbTargetPipeAbortSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetPipeAbortSynchronously
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetPipeAbortSynchronously
+ - wdfusb/WdfUsbTargetPipeAbortSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetPipeAbortSynchronously
 ---
 
 # WdfUsbTargetPipeAbortSynchronously function
@@ -49,35 +49,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbTargetPipeAbortSynchronously</b> method builds an abort request and sends it synchronously to a specified USB pipe.
 
-
 ## -parameters
 
+### -param Pipe 
 
+[in]
+A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
+### -param Request 
 
-### -param Pipe [in]
-
-A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>. 
-
-
-### -param Request [in, optional]
-
+[in, optional]
 A handle to a framework request object. This parameter is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
+### -param RequestOptions 
 
-### -param RequestOptions [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure that specifies options for the request. This pointer is optional and can be <b>NULL</b>. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetPipeAbortSynchronously</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -148,14 +141,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Use the <b>WdfUsbTargetPipeAbortSynchronously</b> method to send a USB abort request synchronously. To send such requests asynchronously, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforabort">WdfUsbTargetPipeFormatRequestForAbort</a>, followed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>.
 
@@ -221,19 +207,11 @@ for (i = 0; i < count; i++) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcancelsentrequest">WdfRequestCancelSentRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpiperesetsynchronously">WdfUsbTargetPipeResetSynchronously</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/SetBlendState"
- - "SetBlendState"
+ - PFND3D10DDI_SETBLENDSTATE
+ - d3d10umddi/PFND3D10DDI_SETBLENDSTATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_SETBLENDSTATE callback function
+
 
 ## -description
 
@@ -63,8 +64,9 @@ A handle to the display device (graphics context).
 
 A handle to the blend state to set.
 
-### -param FLOAT[4]
+### -param FLOAT
 
+[4]
 *pBlendFactor* [in]
 
 A four-element array of single-precision float vectors that the driver uses to set the blend state.

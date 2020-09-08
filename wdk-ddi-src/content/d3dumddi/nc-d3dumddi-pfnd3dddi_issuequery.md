@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/IssueQuery"
- - "IssueQuery"
+ - PFND3DDDI_ISSUEQUERY
+ - d3dumddi/PFND3DDDI_ISSUEQUERY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_ISSUEQUERY callback function
+
 
 ## -description
 

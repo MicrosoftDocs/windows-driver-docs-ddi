@@ -7,9 +7,6 @@ ms.assetid: de2d5e08-1c8f-4c67-91e0-db7552b0b883
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_CONTENT_PROTECTION_CAPS enumeration"]
 ms.keywords: D3D11_1DDI_CONTENT_PROTECTION_CAPS, D3D11_1DDI_CONTENT_PROTECTION_CAPS enumeration [Display Devices], D3D11_1DDI_CONTENT_PROTECTION_CAPS_CONTENT_KEY, D3D11_1DDI_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT, D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK, D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY, D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY, D3D11_1DDI_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY, D3D11_1DDI_CONTENT_PROTECTION_CAPS_HARDWARE, D3D11_1DDI_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION, D3D11_1DDI_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON, D3D11_1DDI_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV, D3D11_1DDI_CONTENT_PROTECTION_CAPS_SOFTWARE, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_TRANSITION, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED, D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN, d3d10umddi/, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_CONTENT_KEY, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_HARDWARE, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV, d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS_SOFTWARE, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_TRANSITION, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED, d3d10umddi/D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN, display.d3d11_1ddi_content_protection_caps
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS"
- - "D3D11_1DDI_CONTENT_PROTECTION_CAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_CONTENT_PROTECTION_CAPS
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_CONTENT_PROTECTION_CAPS
+f1_keywords:
+ - D3D11_1DDI_CONTENT_PROTECTION_CAPS
+ - d3d10umddi/D3D11_1DDI_CONTENT_PROTECTION_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_CONTENT_PROTECTION_CAPS
 ---
 
 # D3D11_1DDI_CONTENT_PROTECTION_CAPS enumeration
@@ -46,69 +46,53 @@ req.typenames: D3D11_1DDI_CONTENT_PROTECTION_CAPS
 
 ## -description
 
-
 Describes content-protection capabilities.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_SOFTWARE
 
 The encryption is implemented in software by the driver.
 
-
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_HARDWARE
 
 The encryption is implemented in hardware by the GPU.
-
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_PROTECTION_ALWAYS_ON
 
 Content protection is always applied to a protected surface, regardless of whether the application explicitly enables protection.
 
-
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION
 
 The driver can use partially encrypted buffers. If this capability is not present, the entire buffer must be either encrypted or clear.
-
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_CONTENT_KEY
 
 The driver can encrypt data using a separate content key that is encrypted using the session key.
 
-
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_FRESHEN_SESSION_KEY
 
 The driver can refresh the session key without renegotiating the key.
-
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK
 
 The driver can read back encrypted data from a protected surface. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt">EncryptionBlt(D3D11_1)</a>.
 
-
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY
 
 The driver requires a separate key to read encrypted data from a protected surface.
-
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV
 
 If the encryption type is <b>D3D11_1DDI_CRYPTO_TYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a> structure. For more information, see the Remarks for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt">EncryptionBlt(D3D11_1)</a> function.
 
-
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY
 
 The driver supports encrypted slice data, but does not support any other encrypted data in the DirectX Video Accelerator (DXVA) 2 compressed buffer. The caller should not encrypt any data within the buffer other than the slice data.
 
-
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT
 
 The driver supports calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt">DecryptionBlt(D3D11_1)</a> function.
-
 
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED
 
@@ -120,13 +104,11 @@ The hardware supports the protection of specific resources using the WDDM 2.0 an
 </ul>
 Supported starting with Windows 10.
 
-
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_PAGEABLE
 
 The physical pages of a protected resource can be evicted and potentially paged to disk in low memory conditions without losing the contents of the resource when paged back in.
 
 Supported starting with Windows 10.
-
 
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_TRANSITION
 
@@ -134,13 +116,11 @@ The hardware or driver can transition allocations between protected and unprotec
 
 Supported starting with Windows 10.
 
-
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_TEARDOWN
 
 The hardware supports an automatic tear-down mechanism that could trigger hardware keys or protected content to become lost in some conditions.  The application can register to know when these events occur.
 
 Supported starting with Windows 10.
-
 
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_DRM_COMMUNICATION
 
@@ -148,13 +128,7 @@ The secure environment is tightly coupled with the GPU and an <b>ID3D11CryptoSes
 
 Supported starting with Windows 10.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a>
 
@@ -169,7 +143,4 @@ Supported starting with Windows 10.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_sethardwareprotection">SetHardwareProtection</a>
- 
-
- 
 

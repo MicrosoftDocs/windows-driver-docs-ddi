@@ -8,9 +8,6 @@ ms.assetid: 34c50e32-37c8-4e6a-a666-fce8880cb000
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::SetScopeFromStoredEvent"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetScopeFromStoredEvent method, IDebugSymbols3.SetScopeFromStoredEvent, IDebugSymbols3::SetScopeFromStoredEvent, IDebugSymbols_710b59d8-620b-479f-bfeb-dd1196cd2dbc.xml, SetScopeFromStoredEvent, SetScopeFromStoredEvent method [Windows Debugging], SetScopeFromStoredEvent method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromStoredEvent, debugger.setscopefromstoredevent
-f1_keywords:
- - "dbgeng/IDebugSymbols3.SetScopeFromStoredEvent"
- - "IDebugSymbols3.SetScopeFromStoredEvent"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols3.SetScopeFromStoredEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::SetScopeFromStoredEvent
+ - dbgeng/IDebugSymbols3::SetScopeFromStoredEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols3.SetScopeFromStoredEvent
 ---
 
 # IDebugSymbols3::SetScopeFromStoredEvent
@@ -46,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetScopeFromStoredEvent</b> method sets the current scope to the scope of the stored event.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -75,12 +71,7 @@ The method was successful.
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 Currently only user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/user-mode-dump-files#minidumps">Minidumps</a> can contain a stored event.
 
@@ -88,13 +79,7 @@ The new scope is printed to the debugger console.
 
 For more information about scopes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-ecxr--display-exception-context-record-">.ecxr (Display Exception Context Record)</a>
 
@@ -113,7 +98,4 @@ For more information about scopes, see <a href="https://docs.microsoft.com/windo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setscopeframebyindex">SetScopeFrameByIndex</a>
- 
-
- 
 

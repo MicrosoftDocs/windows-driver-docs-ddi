@@ -8,9 +8,6 @@ ms.assetid: b8c14a2d-a2e6-4ed1-9445-3259ec570076
 ms.date: 04/30/2018
 keywords: ["DRIVER_INITIALIZE callback function"]
 ms.keywords: DRIVER_INITIALIZE, DriverEntry, DriverEntry routine [Kernel-Mode Driver Architecture], DrvrRtns_dc503a23-7c31-421d-ac7b-ff6f4651e44e.xml, kernel.driverentry, wdm/DriverEntry
-f1_keywords:
- - "wdm/DriverEntry"
- - "DriverEntry"
 req.header: wdm.h
 req.include-header: Mcd.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- DriverEntry
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DRIVER_INITIALIZE
+ - wdm/DRIVER_INITIALIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - DriverEntry
 ---
 
 # DRIVER_INITIALIZE callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 <b>DriverEntry</b> is the first routine called after a driver is loaded, and is responsible for initializing the driver.
-
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
+### -param RegistryPath 
 
-### -param RegistryPath [in]
-
+[in]
 A pointer to a counted Unicode string specifying the path to the driver's registry key.
-
 
 ## -returns
 
-
-
 If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must return one of the error status values defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 The <i>DriverObject</i> parameter supplies the <b>DriverEntry</b> routine with a pointer to the driver's driver object, which is allocated by the I/O manager. The <b>DriverEntry</b> routine must fill in the driver object with entry points for the driver's standard routines.
 
@@ -130,15 +118,7 @@ The DRIVER_INITIALIZE function type is defined in the Wdm.h header file. To more
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
- 
-
- 
 

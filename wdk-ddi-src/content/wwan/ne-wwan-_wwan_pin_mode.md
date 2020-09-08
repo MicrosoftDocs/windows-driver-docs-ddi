@@ -8,9 +8,6 @@ ms.assetid: 55fa9dd4-370e-4f72-be40-4f14373cee27
 ms.date: 05/02/2018
 keywords: ["WWAN_PIN_MODE enumeration"]
 ms.keywords: "*PWWAN_PIN_MODE, PWWAN_PIN_MODE, PWWAN_PIN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_MODE, WWAN_PIN_MODE enumeration [Network Drivers Starting with Windows Vista], WwanPinModeDisabled, WwanPinModeEnabled, WwanPinModeMax, WwanPinModeNotSupported, WwanRef_43194a1d-461a-4793-bb0b-40354466610c.xml, _WWAN_PIN_MODE, netvista.wwan_pin_mode, wwan/PWWAN_PIN_MODE, wwan/WWAN_PIN_MODE, wwan/WwanPinModeDisabled, wwan/WwanPinModeEnabled, wwan/WwanPinModeMax, wwan/WwanPinModeNotSupported"
-f1_keywords:
- - "wwan/WWAN_PIN_MODE"
- - "WWAN_PIN_MODE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_PIN_MODE
 targetos: Windows
 req.typenames: WWAN_PIN_MODE, *PWWAN_PIN_MODE
+f1_keywords:
+ - _WWAN_PIN_MODE
+ - wwan/_WWAN_PIN_MODE
+ - PWWAN_PIN_MODE
+ - wwan/PWWAN_PIN_MODE
+ - WWAN_PIN_MODE
+ - wwan/WWAN_PIN_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_PIN_MODE
 ---
 
 # _WWAN_PIN_MODE enumeration
@@ -46,43 +50,28 @@ req.typenames: WWAN_PIN_MODE, *PWWAN_PIN_MODE
 
 ## -description
 
-
 The WWAN_PIN_MODE enumeration lists the different states of a Personal Identification Number (PIN)
   type.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WwanPinModeNotSupported
 
 The PIN type is not supported.
 
-
 ### -field WwanPinModeEnabled
 
 The PIN type is supported and currently enabled.
-
 
 ### -field WwanPinModeDisabled
 
 The PIN type is supported though currently disabled.
 
-
 ### -field WwanPinModeMax
 
 The total number of supported PIN type states.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_desc">WWAN_PIN_DESC</a>
- 
-
- 
 

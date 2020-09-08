@@ -8,9 +8,6 @@ ms.assetid: B442AE8E-A4CE-481A-A69C-496CBF3E4722
 ms.date: 07/11/2018
 keywords: ["PrintPropertyValue structure"]
 ms.keywords: PrintPropertyValue, PrintPropertyValue structure [Print Devices], print.printpropertyvalue, winspool/PrintPropertyValue
-f1_keywords:
- - "winspool/PrintPropertyValue"
- - "PrintPropertyValue"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winspool.h
-api_name:
-- PrintPropertyValue
 targetos: Windows
 req.typenames: PrintPropertyValue
+f1_keywords:
+ - PrintPropertyValue
+ - winspool/PrintPropertyValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winspool.h
+api_name:
+ - PrintPropertyValue
 ---
 
 # PrintPropertyValue structure
@@ -48,37 +48,23 @@ req.typenames: PrintPropertyValue
 
 Describes the PrintPropertyValue structure.
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field ePropertyType
 
-
 ### -field value
-
 
 ### -field value.propertyByte
 
- 
 ### -field value.propertyString
 
- 
 ### -field value.propertyInt32
 
- 
 ### -field value.propertyInt64
 
- 
 ### -field value.propertyBlob
-
 
 ### -field value.propertyBlob.cbBuf
 
-
 ### -field value.propertyBlob.pBuf
-
 

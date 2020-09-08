@@ -8,9 +8,6 @@ ms.assetid: ce89aa5d-ea4e-4d12-a021-e9f52a6bdebb
 ms.date: 04/27/2018
 keywords: ["SdpCreateNodeUInt32 function"]
 ms.keywords: SdpCreateNodeUInt32, SdpCreateNodeUInt32 function [Bluetooth Devices], bltooth.sdpcreatenodeuint32, bth_funcs_8091d5c3-9231-4ee4-aefe-f696a2c04cb2.xml, sdplib/SdpCreateNodeUInt32
-f1_keywords:
- - "sdplib/SdpCreateNodeUInt32"
- - "SdpCreateNodeUInt32"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sdplib.h
-api_name:
-- SdpCreateNodeUInt32
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SdpCreateNodeUInt32
+ - sdplib/SdpCreateNodeUInt32
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sdplib.h
+api_name:
+ - SdpCreateNodeUInt32
 ---
 
 # SdpCreateNodeUInt32 function
@@ -46,41 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The Bluetooth 
   <b>SdpCreateNodeUInt32</b> function is used to allocate and initialize an 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structure to an unsigned 32-bit integer
   type.
 
-
 ## -parameters
 
+### -param ulVal 
 
-
-
-### -param ulVal [in]
-
+[in]
 The unsigned 32-bit integer value that is used to initialize the SDP_NODE structure.
 
+### -param tag 
 
-### -param tag [in]
-
+[in]
 A profile driver defined tag to associate with the node.
 
-
 ## -returns
-
-
 
 If successful, this function returns a pointer to the newly allocated SDP_NODE structure. If not
      successful, this function returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 After the 
     <b>SdpCreateNodeUInt32</b> function allocates an 
@@ -106,13 +94,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">
     BTHDDI_SDP_NODE_INTERFACE</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>
 
@@ -127,7 +109,4 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a>
- 
-
- 
 

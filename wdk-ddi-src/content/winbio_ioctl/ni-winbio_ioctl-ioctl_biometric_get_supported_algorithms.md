@@ -8,9 +8,6 @@ ms.assetid: 0bc373a8-af60-419a-88e1-58888b88f24d
 ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control code [Biometric Devices], biometric.ioctl_biometric_get_supported_algorithms, biometric_ref_64928d1a-978a-4bc9-8f4a-bac423c00133.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
-f1_keywords:
- - "winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS"
- - "IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbio_ioctl.h
-api_name:
-- IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
+ - winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbio_ioctl.h
+api_name:
+ - IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 ---
 
 # IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS IOCTL
@@ -46,52 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS IOCTL retrieves a list of cryptographic hash algorithms that are supported by the device. This IOCTL is optional.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_supported_algorithms">WINBIO_SUPPORTED_ALGORITHMS</a> structure.
 
-
 ### -output-buffer-length
 
 The smallest valid output buffer size is the size of DWORD.  If the driver receives an DWORD-sized output buffer, the driver should return the buffer size necessary for the requested operation.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -107,10 +84,7 @@ The <b>Status</b> member is set to one of the values in the following table.
 |E_UNEXPECTED|Any other failure that prevents the payload from being filled in.|
 |E_FAIL|Any other failure that prevents the payload from being filled in.|
 
-
 ## -remarks
-
-
 
 The algorithms are specified by using NULL-terminated UTF-8 encoded strings.  The algorithm identifier "OID" strings are defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=133011">RFC 3279 </a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=133012">RFC 3278 </a><u>.</u>
 
@@ -129,8 +103,4 @@ IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS must be implemented if the device suppo
 If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_supported_algorithms">WINBIO_SUPPORTED_ALGORITHMS</a> with the status of the Biometric operation.
 
 Possible values include:
-
-
-
-
 

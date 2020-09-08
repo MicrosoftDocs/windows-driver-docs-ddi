@@ -8,9 +8,6 @@ ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::ExecuteWide"]
 ms.keywords: ExecuteWide, ExecuteWide method [Windows Debugging], ExecuteWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ExecuteWide method, IDebugControl4.ExecuteWide, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide
-f1_keywords:
- - "dbgeng/IDebugControl4.ExecuteWide"
- - "IDebugControl4.ExecuteWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.ExecuteWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::ExecuteWide
+ - dbgeng/IDebugControl4::ExecuteWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.ExecuteWide
 ---
 
 # IDebugControl4::ExecuteWide
@@ -46,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExecuteWide</b>  method executes the specified debugger commands.
-
 
 ## -parameters
 
+### -param OutputControl 
 
-
-
-### -param OutputControl [in]
-
+[in]
 Specifies the output control to use while executing the command.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
+### -param Command 
 
-### -param Command [in]
-
+[in]
 Specifies the command string to execute.  The command is interpreted like those typed into a debugger command window.  This command string can contain multiple commands for the engine to execute.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-commands">Debugger Commands</a> for the command reference.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies a bit field of execution options for the command.  The default options are to log the command but to not send it to the output.  The following table lists the bits that can be set.
 
 <table>
@@ -105,12 +101,8 @@ If <i>Command</i> is an empty string, do not repeat the last command, and do not
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -131,31 +123,16 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method executes the given command string.  If the string has multiple commands, these methods will not return until all of the commands have been executed. This may involve waiting for the target to execute, so these methods can take an arbitrary amount of time to complete.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-executecommandfile">ExecuteCommandFile</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 365e669b-b4a1-432a-ab0c-9292a910256e
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_d7dab025-aa6d-4f66-a0cb-3784b3bc7b1c.xml, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback, EvtDeviceShutdownNotification, EvtDeviceShutdownNotification callback function, kmdf.evtdeviceshutdownnotification, wdf.evtdeviceshutdownnotification, wdfcontrol/EvtDeviceShutdownNotification
-f1_keywords:
- - "wdfcontrol/EvtDeviceShutdownNotification"
- - "EvtDeviceShutdownNotification"
 req.header: wdfcontrol.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WdfControl.h
-api_name:
-- EvtDeviceShutdownNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION
+ - wdfcontrol/EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WdfControl.h
+api_name:
+ - EvtDeviceShutdownNotification
 ---
 
 # EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback function
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceShutdownNotification</i> event callback function notifies the driver that the system is about to lose its power.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object that the driver initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
 
-
 ## -remarks
-
-
 
 To register an <i>EvtDeviceShutdownNotification</i> event callback function, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification">WdfControlDeviceInitSetShutdownNotification</a>. Only drivers that create control device objects can register this callback function.
 
@@ -72,20 +65,11 @@ The framework calls a driver's <i>EvtDeviceShutdownNotification</i> event callba
 
 For more information about control device objects and the <i>EvtDeviceShutdownNotification</i> callback function see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification">WdfControlDeviceInitSetShutdownNotification</a>
- 
-
- 
 

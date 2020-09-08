@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoProcessorBlt"
- - "pfnVideoProcessorBlt"
+ - PFND3D11_1DDI_VIDEOPROCESSORBLT
+ - d3d10umddi/PFND3D11_1DDI_VIDEOPROCESSORBLT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORBLT callback function
+
 
 ## -description
 

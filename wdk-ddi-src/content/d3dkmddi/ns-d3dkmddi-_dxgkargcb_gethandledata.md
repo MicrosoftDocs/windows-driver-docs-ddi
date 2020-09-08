@@ -7,9 +7,6 @@ ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346
 ms.date: 05/10/2018
 keywords: ["DXGKARGCB_GETHANDLEDATA structure"]
 ms.keywords: DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA structure [Display Devices], DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, _DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata
-f1_keywords:
- - "d3dkmddi/DXGKARGCB_GETHANDLEDATA"
- - "DXGKARGCB_GETHANDLEDATA"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKARGCB_GETHANDLEDATA
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARGCB_GETHANDLEDATA
+f1_keywords:
+ - _DXGKARGCB_GETHANDLEDATA
+ - d3dkmddi/_DXGKARGCB_GETHANDLEDATA
+ - DXGKARGCB_GETHANDLEDATA
+ - d3dkmddi/DXGKARGCB_GETHANDLEDATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKARGCB_GETHANDLEDATA
 ---
 
 # _DXGKARGCB_GETHANDLEDATA structure
@@ -46,19 +48,13 @@ req.typenames: DXGKARGCB_GETHANDLEDATA
 
 ## -description
 
-
 The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hObject
 
 [in] A handle to the private data. This handle is the kernel-mode handle that the Microsoft DirectX graphics kernel subsystem (which is part of <i>Dxgkrnl.sys</i>) assigned for the private data.
-
 
 ### -field Type
 
@@ -69,16 +65,11 @@ The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 | DXGK_HANDLE_ALLOCATION (1) | The allocations belong to a resource. | 
 | DXGK_HANDLE_RESOURCE (2) | The [DxgkDdiCreateAllocation](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation)  call is the result of the creation of the primary surface. |
 
-
 ### -field Flags
 
 [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_gethandledataflags">DXGKCB_GETHANDLEDATAFLAGS</a> structure that indicates if allocations belong to a resource.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_gethandledataflags">DXGKCB_GETHANDLEDATAFLAGS</a>
 
@@ -89,7 +80,4 @@ The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
- 
-
- 
 

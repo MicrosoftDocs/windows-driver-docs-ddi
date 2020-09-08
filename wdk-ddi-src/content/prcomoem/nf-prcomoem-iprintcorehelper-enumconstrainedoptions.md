@@ -8,9 +8,6 @@ ms.assetid: 16a9417c-6d47-49fc-9ba9-e2b522255942
 ms.date: 04/20/2018
 keywords: ["IPrintCoreHelper::EnumConstrainedOptions"]
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumConstrainedOptions method, IPrintCoreHelper.EnumConstrainedOptions, IPrintCoreHelper::EnumConstrainedOptions, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml
-f1_keywords:
- - "prcomoem/IPrintCoreHelper.EnumConstrainedOptions"
- - "IPrintCoreHelper.EnumConstrainedOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintCoreHelper.EnumConstrainedOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreHelper::EnumConstrainedOptions
+ - prcomoem/IPrintCoreHelper::EnumConstrainedOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintCoreHelper.EnumConstrainedOptions
 ---
 
 # IPrintCoreHelper::EnumConstrainedOptions
@@ -46,37 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>IPrintCoreHelper::EnumConstrainedOptions</b> method provides a list of all of the options that are constrained in a particular feature, based on current settings.
-
 
 ## -parameters
 
+### -param pDevmode 
 
-
-
-### -param pDevmode [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. If this pointer is provided, <b>IPrintCoreHelper::EnumConstrainedOptions</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode">IPrintOemPS::DevMode</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-devmode">IPrintOemUni::DevMode</a> or from a print ticket provider, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
+### -param cbSize 
 
-### -param cbSize [in]
-
+[in]
 The size, in bytes, of the DEVMODEW structure that is pointed to by the <i>pDevmode</i> parameter.
 
+### -param pszFeatureKeyword 
 
-### -param pszFeatureKeyword [in]
-
+[in]
 A string of ANSI characters that contain the feature name.
-
 
 ### -param pConstrainedOptionList
 
+### -param pdwNumOptions 
 
-
-
-### -param pdwNumOptions [out]
-
+[out]
 A pointer to a variable that receives the number of constrained options in the array that is pointed to by the <i>pConstrainedOptionList</i> parameter.
 
 
@@ -84,10 +77,7 @@ A pointer to a variable that receives the number of constrained options in the a
 
 A pointer to an array of ANSI character strings. When <b>IPrintCoreHelper::EnumConstrainedOptions</b> returns, these strings will contain the names of all of the options that are constrained within the specified feature. The caller is not responsible for freeing the array or the individual strings in the array.
 
-
 ## -returns
-
-
 
 <b>IPrintCoreHelper::EnumConstrainedOptions</b> should return one of the following values.
 
@@ -152,15 +142,8 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelper">IPrintCoreHelper</a>
 
@@ -171,7 +154,4 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelper-whyconstrained">IPrintCoreHelper::WhyConstrained</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: bbe58583-ea65-4920-9056-ab46bd881618
 ms.date: 05/02/2018
 keywords: ["NdisSetPhysicalAddressHigh macro"]
 ms.keywords: NdisSetPhysicalAddressHigh, NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml, ndis/NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh
-f1_keywords:
- - "ndis/NdisSetPhysicalAddressHigh"
- - "NdisSetPhysicalAddressHigh"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisSetPhysicalAddressHigh
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisSetPhysicalAddressHigh
+ - ndis/NdisSetPhysicalAddressHigh
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisSetPhysicalAddressHigh
 ---
 
 # NdisSetPhysicalAddressHigh macro
@@ -46,30 +46,22 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisSetPhysicalAddressHigh</b> sets the high-order part of a given physical address to a given
   value.
 
-
 ## -parameters
 
+### -param _PhysicalAddress 
 
-
-
-### -param _PhysicalAddress [in]
-
+[in]
 Specifies a physical address of an OS-dependent size.
 
+### -param _Value 
 
-### -param _Value [in]
-
+[in]
 Specifies the value to be written into the high-order part of the address.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff557129(v=vs.85)">NDIS_PHYSICAL_ADDRESS</a>
 
@@ -80,7 +72,4 @@ Specifies the value to be written into the high-order part of the address.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetphysicaladdresslow">NdisSetPhysicalAddressLow</a>
- 
-
- 
 

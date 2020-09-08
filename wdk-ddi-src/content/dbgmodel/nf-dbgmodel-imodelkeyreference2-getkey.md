@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.GetKey
 title: IModelKeyReference2::GetKey (dbgmodel.h)
-description: The GetKey method on a key reference behaves as the GetKey method on IModelObject would. 
+description: The GetKey method on a key reference behaves as the GetKey method on IModelObject would.
 ms.assetid: edcad7fa-c729-4d9b-b083-c350e346ac50
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::GetKey"]
-f1_keywords:
- - "dbgmodel/IModelKeyReference2.GetKey"
- - "IModelKeyReference2.GetKey"
 ms.keywords: IModelKeyReference2::GetKey, GetKey, IModelKeyReference2.GetKey, IModelKeyReference2::GetKey, IModelKeyReference2.GetKey
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelKeyReference2.GetKey
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelKeyReference2::GetKey
+ - dbgmodel/IModelKeyReference2::GetKey
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelKeyReference2.GetKey
 ---
 
 # IModelKeyReference2::GetKey
@@ -44,17 +44,20 @@ ms.custom: RS5
 
 ## -description
 
-The GetKey method on a key reference behaves as the GetKey method on [IModelObject](nn-dbgmodel-imodelobject.md) would. It returns the value of the underlying key and any metadata associated with the key. If the value of the key happens to be a property accessor, this will return the property accessor ([IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md)) boxed into an [IModelObject](nn-dbgmodel-imodelobject.md). This method will not call the underlying GetValue or SetValue methods on the property accessor. 
+The GetKey method on a key reference behaves as the GetKey method on [IModelObject](nn-dbgmodel-imodelobject.md) would. It returns the value of the underlying key and any metadata associated with the key. If the value of the key happens to be a property accessor, this will return the property accessor ([IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md)) boxed into an [IModelObject](nn-dbgmodel-imodelobject.md). This method will not call the underlying GetValue or SetValue methods on the property accessor.
 
 ## -parameters
 
 ### -param object
+
 The value of the key will be returned here.
 
 ### -param metadata
+
 Optional metadata which is associated with the key will be returned here.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -121,3 +124,4 @@ if (SUCCEEDED(spObject->GetKeyReference(L"Id", &spKeyRef, nullptr)))
 ## -see-also
 
 [IModelKeyReference2 interface](nn-dbgmodel-imodelkeyreference2.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 97820a22-aa20-4d47-a4c2-0c0d50540823
 ms.date: 05/02/2018
 keywords: ["NDIS_MINIPORT_PNP_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_MINIPORT_PNP_CHARACTERISTICS, NDIS_MINIPORT_PNP_CHARACTERISTICS, NDIS_MINIPORT_PNP_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_PNP_CHARACTERISTICS, PNDIS_MINIPORT_PNP_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_PNP_CHARACTERISTICS, ndis/NDIS_MINIPORT_PNP_CHARACTERISTICS, ndis/PNDIS_MINIPORT_PNP_CHARACTERISTICS, ndis_msix_ref_0f6182d0-b82c-4420-828e-e59d98fc82da.xml, netvista.ndis_miniport_pnp_characteristics"
-f1_keywords:
- - "ndis/NDIS_MINIPORT_PNP_CHARACTERISTICS"
- - "NDIS_MINIPORT_PNP_CHARACTERISTICS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_MINIPORT_PNP_CHARACTERISTICS
 targetos: Windows
 req.typenames: NDIS_MINIPORT_PNP_CHARACTERISTICS, *PNDIS_MINIPORT_PNP_CHARACTERISTICS
+f1_keywords:
+ - _NDIS_MINIPORT_PNP_CHARACTERISTICS
+ - ndis/_NDIS_MINIPORT_PNP_CHARACTERISTICS
+ - PNDIS_MINIPORT_PNP_CHARACTERISTICS
+ - ndis/PNDIS_MINIPORT_PNP_CHARACTERISTICS
+ - NDIS_MINIPORT_PNP_CHARACTERISTICS
+ - ndis/NDIS_MINIPORT_PNP_CHARACTERISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_MINIPORT_PNP_CHARACTERISTICS
 ---
 
 # _NDIS_MINIPORT_PNP_CHARACTERISTICS structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_MINIPORT_PNP_CHARACTERISTICS, *PNDIS_MINIPORT_PNP_CHARACTERI
 
 ## -description
 
-
 The NDIS_MINIPORT_PNP_CHARACTERISTICS structure specifies entry points for functions that allow a
   miniport driver to process some Plug and Play (PnP) I/O request packets (IRPs).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -66,12 +65,10 @@ The
      <b>Revision</b> member to NDIS_MINIPORT_PNP_CHARACTERISTICS_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_MINIPORT_PNP_CHARACTERISTICS_REVISION_1.
 
-
 ### -field MiniportAddDeviceHandler
 
 The entry point of the caller's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
-
 
 ### -field MiniportRemoveDeviceHandler
 
@@ -79,13 +76,11 @@ The entry point of the caller's
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_remove_device">
      MiniportRemoveDevice</a> function.
 
-
 ### -field MiniportFilterResourceRequirementsHandler
 
 The entry point of the caller's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
      MiniportFilterResourceRequirements</a> function.
-
 
 ### -field MiniportStartDeviceHandler
 
@@ -93,15 +88,11 @@ The entry point of the caller's
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">MiniportStartDevice</a> function, if
      any. If this function is not required, set this member to <b>NULL</b>.
 
-
 ### -field Flags
 
 Reserved.
 
-
 ## -remarks
-
-
 
 Miniport drivers that support MSI-X and will change the interrupt affinity for each MSI-X message
     register functions that are defined in the NDIS_MINIPORT_PNP_CHARACTERISTICS structure. To register these
@@ -113,13 +104,7 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
     <i>OptionalHandlers</i> parameter of 
     <b>NdisSetOptionalHandlers</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a>
 
@@ -147,7 +132,4 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: dc7b543b-1fb5-477c-a612-c8e7381e637e
 ms.date: 04/30/2018
 keywords: ["IoVerifyPartitionTable function"]
 ms.keywords: IoVerifyPartitionTable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, kernel.ioverifypartitiontable, ntddk/IoVerifyPartitionTable
-f1_keywords:
- - "ntddk/IoVerifyPartitionTable"
- - "IoVerifyPartitionTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoVerifyPartitionTable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoVerifyPartitionTable
+ - ntddk/IoVerifyPartitionTable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoVerifyPartitionTable
 ---
 
 # IoVerifyPartitionTable function
@@ -46,29 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoVerifyPartitionTable</b> routine checks the validity of the partition table 
    for a disk.
 
-
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Specifies the device object of the disk to verify.
 
+### -param FixErrors 
 
-### -param FixErrors [in]
-
+[in]
 Specifies if the routine should correct any correctable errors in the partition table.
 
-
 ## -returns
-
-
 
 The routine returns STATUS_SUCCESS if the partition table is error-free.
 
@@ -79,14 +72,7 @@ If the caller specifies <b>FALSE</b> for the <i>FixErrors</i> parameter
 
 The routine might also return other NT status error codes.
 
-
-
-
 ## -remarks
 
-
-
 <b>IoVerifyPartitionTable</b> must be used only by disk drivers.
-
-
 

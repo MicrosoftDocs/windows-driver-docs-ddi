@@ -8,9 +8,6 @@ ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::SetImagePathWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetImagePathWide method, IDebugSymbols3.SetImagePathWide, IDebugSymbols3::SetImagePathWide, SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.SetImagePathWide"
- - "IDebugSymbols3.SetImagePathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.SetImagePathWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::SetImagePathWide
+ - dbgeng/IDebugSymbols3::SetImagePathWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.SetImagePathWide
 ---
 
 # IDebugSymbols3::SetImagePathWide
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetImagePathWide</b>  method sets the executable image path.
-
 
 ## -parameters
 
+### -param Path 
 
-
-
-### -param Path [in]
-
+[in]
 Specifies the new executable image path.  This is a string that contains directories separated by semicolons (;).
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -83,26 +76,14 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The executable image path is used by the engine when searching for executable images.
 
 The executable image path can consist of several directories separated by semicolons.  These directories are searched in order.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-appendimagepath">AppendImagePath</a>
 
@@ -113,7 +94,4 @@ The executable image path can consist of several directories separated by semico
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

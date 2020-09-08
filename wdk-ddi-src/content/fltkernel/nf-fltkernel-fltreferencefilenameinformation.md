@@ -8,9 +8,6 @@ ms.assetid: d2df37f3-78f7-4e44-9139-2c2e569bb48d
 ms.date: 04/16/2018
 keywords: ["FltReferenceFileNameInformation function"]
 ms.keywords: FltApiRef_p_to_z_c6cfa7ad-ac72-45ad-9750-c466dd6ede6e.xml, FltReferenceFileNameInformation, FltReferenceFileNameInformation function [Installable File System Drivers], fltkernel/FltReferenceFileNameInformation, ifsk.fltreferencefilenameinformation
-f1_keywords:
- - "fltkernel/FltReferenceFileNameInformation"
- - "FltReferenceFileNameInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltReferenceFileNameInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltReferenceFileNameInformation
+ - fltkernel/FltReferenceFileNameInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltReferenceFileNameInformation
 ---
 
 # FltReferenceFileNameInformation function
@@ -46,44 +46,26 @@ req.typenames:
 
 ## -description
 
-
-<b>FltReferenceFileNameInformation</b> increments the reference count on a file name information structure. 
-
+<b>FltReferenceFileNameInformation</b> increments the reference count on a file name information structure.
 
 ## -parameters
 
+### -param FileNameInformation 
 
-
-
-### -param FileNameInformation [in]
-
-Pointer to the file name information (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>) structure. This parameter is required and cannot be <b>NULL</b>. 
-
+[in]
+Pointer to the file name information (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>) structure. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 <b>FltReferenceFileNameInformation</b> increments the reference count on a file name information (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>) structure returned by a previous call to a file name query routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilenameinformation">FltGetFileNameInformation</a>. 
 
-After a successful call to <b>FltReferenceFileNameInformation</b>, the caller is responsible for decrementing the reference count on the file name information structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation">FltReleaseFileNameInformation</a>. 
-
-
-
+After a successful call to <b>FltReferenceFileNameInformation</b>, the caller is responsible for decrementing the reference count on the file name information structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation">FltReleaseFileNameInformation</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>
 
@@ -106,7 +88,4 @@ After a successful call to <b>FltReferenceFileNameInformation</b>, the caller is
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation">FltReleaseFileNameInformation</a>
- 
-
- 
 

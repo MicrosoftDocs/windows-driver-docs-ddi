@@ -8,9 +8,6 @@ ms.assetid: 23a4c968-b1d1-48f4-9ea9-b97c4b5b4208
 ms.date: 02/26/2018
 keywords: ["IWDFPropertyStoreFactory::RetrieveDevicePropertyStore"]
 ms.keywords: IWDFPropertyStoreFactory interface,RetrieveDevicePropertyStore method, IWDFPropertyStoreFactory.RetrieveDevicePropertyStore, IWDFPropertyStoreFactory::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFPropertyStoreFactory interface, UMDFDeviceObjectRef_79101c30-a5ab-44cf-8fa0-52394d1cce32.xml, umdf.iwdfpropertystorefactory_retrievedevicepropertystore, wdf.iwdfpropertystorefactory_retrievedevicepropertystore, wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
-f1_keywords:
- - "wudfddi/IWDFPropertyStoreFactory.RetrieveDevicePropertyStore"
- - "IWDFPropertyStoreFactory.RetrieveDevicePropertyStore"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFPropertyStoreFactory.RetrieveDevicePropertyStore
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
+ - wudfddi/IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFPropertyStoreFactory.RetrieveDevicePropertyStore
 ---
 
 # IWDFPropertyStoreFactory::RetrieveDevicePropertyStore
@@ -46,51 +46,43 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicepropertystore">RetrieveDevicePropertyStore</a> method retrieves a property store interface that drivers can use to access the registry.
 
-
 ## -parameters
 
+### -param RootSpecifier 
 
-
-
-### -param RootSpecifier [in]
-
+[in]
 The address of a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdf_property_store_root">WDF_PROPERTY_STORE_ROOT</a> structure. The driver fills in this structure to identify the property store that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicepropertystore">RetrieveDevicePropertyStore</a> retrieves.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_retrieve_flags">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>-typed flag that specifies whether UMDF should create a specified registry entry if it does not exist, and whether the new entry should be deleted when Windows restarts.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 A REGSAM-typed bit mask that specifies the types of access to the registry that you want your driver to have. The REGSAM type is defined in Winreg.h, and is described in the Windows SDK at <a href="https://go.microsoft.com/fwlink/p/?linkid=138045">REGSAM</a>. The bit mask must not specify GENERIC_WRITE, KEY_CREATE_SUB_KEY, or WRITE_DAC access. (Although the driver cannot specify KEY_CREATE_SUB_KEY, its call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicepropertystore">RetrieveDevicePropertyStore</a> can create a subkey.)
 
+### -param SubkeyPath 
 
-### -param SubkeyPath [in]
-
+[in]
 A pointer to a caller-supplied character string that represents the name of a subkey located under the registry key that the <i>RootSpecifier</i> parameter specifies. This parameter is optional and can be <b>NULL</b>. See more information in Remarks.
 
+### -param PropertyStore 
 
-### -param PropertyStore [out]
-
+[out]
 The address of a location that receives a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfnamedpropertystore2">IWDFNamedPropertyStore2</a> interface. The driver uses this interface to access values in the registry.
 
+### -param Disposition 
 
-### -param Disposition [out]
-
-The address of a location that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_disposition">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value. 
-
+[out]
+The address of a location that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_property_store_disposition">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value.
 
 ## -returns
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicepropertystore">RetrieveDevicePropertyStore</a> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -126,14 +118,7 @@ An attempt to allocate memory failed.
 
 This method might return one of the other values that Winerror.h contains
 
-
-
-
-
-
 ## -remarks
-
-
 
 Your driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicepropertystore">RetrieveDevicePropertyStore</a> to obtain access to the driver's software key, the current device's hardware key, keys for the device interfaces that the current device supports, or the <b>DEVICEMAP</b> key.
 
@@ -214,12 +199,7 @@ Exit:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicepropertystore">IWDFDevice::RetrieveDevicePropertyStore</a>
 
@@ -230,7 +210,4 @@ Exit:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfpropertystorefactory">IWDFPropertyStoreFactory</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback function"]
 ms.keywords: DFQueueObjectRef_90eafb20-dd9c-49ca-b435-fdee9b13e4e1.xml, EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL, EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback, EvtIoDeviceControl, EvtIoDeviceControl callback function, kmdf.evtiodevicecontrol, wdf.evtiodevicecontrol, wdfio/EvtIoDeviceControl
-f1_keywords:
- - "wdfio/EvtIoDeviceControl"
- - "EvtIoDeviceControl"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfio.h
-api_name:
-- EvtIoDeviceControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL
+ - wdfio/EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfio.h
+api_name:
+ - EvtIoDeviceControl
 ---
 
 # EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback function
@@ -46,45 +46,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoDeviceControl</i> event callback function processes a specified device I/O control request.
 
-
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to the framework queue object that is associated with the I/O request.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
+### -param OutputBufferLength 
 
-### -param OutputBufferLength [in]
-
+[in]
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
+### -param InputBufferLength 
 
-### -param InputBufferLength [in]
-
+[in]
 The length, in bytes, of the request's input buffer, if an input buffer is available.
 
+### -param IoControlCode 
 
-### -param IoControlCode [in]
-
+[in]
 The driver-defined or system-defined I/O control code (IOCTL) that is associated with the request.
 
-
 ## -remarks
-
-
 
 A driver registers an <i>EvtIoDeviceControl</i> callback function when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>. For more information about calling <b>WdfIoQueueCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
 
@@ -118,14 +111,7 @@ A driver's <i>EvtIoDeviceControl</i> callback function should not call the follo
 </dd>
 </dl>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a>
 
@@ -144,7 +130,4 @@ A driver's <i>EvtIoDeviceControl</i> callback function should not call the follo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

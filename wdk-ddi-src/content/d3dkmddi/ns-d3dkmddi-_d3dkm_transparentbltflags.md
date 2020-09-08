@@ -7,9 +7,6 @@ ms.assetid: 8ac87e6e-bc24-45fe-b0c5-d253dd03da16
 ms.date: 05/10/2018
 keywords: ["D3DKM_TRANSPARENTBLTFLAGS structure"]
 ms.keywords: D3DKM_TRANSPARENTBLTFLAGS, D3DKM_TRANSPARENTBLTFLAGS structure [Display Devices], DmStructs_7190815e-5610-4c97-823f-8bdaae16c005.xml, _D3DKM_TRANSPARENTBLTFLAGS, d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS, display.d3dkm_transparentbltflags
-f1_keywords:
- - "d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS"
- - "D3DKM_TRANSPARENTBLTFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- D3DKM_TRANSPARENTBLTFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: D3DKM_TRANSPARENTBLTFLAGS
+f1_keywords:
+ - _D3DKM_TRANSPARENTBLTFLAGS
+ - d3dkmddi/_D3DKM_TRANSPARENTBLTFLAGS
+ - D3DKM_TRANSPARENTBLTFLAGS
+ - d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - D3DKM_TRANSPARENTBLTFLAGS
 ---
 
 # _D3DKM_TRANSPARENTBLTFLAGS structure
@@ -46,14 +48,9 @@ req.typenames: D3DKM_TRANSPARENTBLTFLAGS
 
 ## -description
 
-
 The D3DKM_TRANSPARENTBLTFLAGS structure specifies the display adapter's ability to perform a hardware-accelerated bit-block transfer (bitblt) with transparency.
 
-
 ## -struct-fields
-
-
-
 
 ### -field HonorAlpha
 
@@ -65,28 +62,15 @@ The D3DKM_TRANSPARENTBLTFLAGS structure specifies the display adapter's ability 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Value
 
 [in] A member in the union that D3DKM_TRANSPARENTBLTFLAGS contains. This member can hold a 32-bit value that specifies the display adapter's ability to perform hardware-accelerated bit-block transfer with transparency.
 
-
 ## -remarks
-
-
 
 For more information about how to use the members of this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a>
- 
-
- 
 

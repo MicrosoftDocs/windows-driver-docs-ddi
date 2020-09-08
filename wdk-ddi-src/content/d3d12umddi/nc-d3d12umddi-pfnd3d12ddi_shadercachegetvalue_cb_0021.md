@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/pfnShaderCacheGetValueCb"
- - "pfnShaderCacheGetValueCb"
+ - PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021
+ - d3d12umddi/PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 callback function
+
 
 ## -description
 
@@ -81,7 +82,7 @@ The length of the output value.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 

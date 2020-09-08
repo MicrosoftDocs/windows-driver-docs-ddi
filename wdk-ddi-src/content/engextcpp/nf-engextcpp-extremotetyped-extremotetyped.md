@@ -8,9 +8,6 @@ ms.assetid: 8ae4c301-5001-467f-8821-f51cdb0ff303
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::ExtRemoteTyped"]
 ms.keywords: EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(), ExtRemoteTyped::ExtRemoteTyped, debugger.extremotetyped_extremotetyped
-f1_keywords:
- - "engextcpp/ExtRemoteTyped.ExtRemoteTyped"
- - "ExtRemoteTyped.ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -28,32 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTyped.ExtRemoteTyped
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTyped::ExtRemoteTyped
+ - engextcpp/ExtRemoteTyped::ExtRemoteTyped
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTyped.ExtRemoteTyped
 ---
 
-# ExtRemoteTyped::ExtRemoteTyped
+# ExtRemoteTyped::ExtRemoteTyped (engextcpp.h)
 
 
 ## -description
 
-
 The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemoteTyped</b> class.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a>
 
@@ -108,7 +103,4 @@ The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemote
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-setprint">SetPrint</a>
- 
-
- 
 

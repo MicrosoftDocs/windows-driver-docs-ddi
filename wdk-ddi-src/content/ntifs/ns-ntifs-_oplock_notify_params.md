@@ -8,14 +8,11 @@ ms.assetid: d47100ad-cef6-4941-86dd-73f7eff97061
 ms.date: 03/24/2020
 ms.keywords: "*POPLOCK_NOTIFY_PARAMS, OPLOCK_NOTIFY_PARAMS, OPLOCK_NOTIFY_PARAMS structure [File System Drivers], FsRtlCheckOplockEx2"
 ms.topic: struct
-f1_keywords:
- - "ntifs/OPLOCK_NOTIFY_PARAMS"
- - "OPLOCK_NOTIFY_PARAMS"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- OPLOCK_NOTIFY_PARAMS
 targetos: Windows
 req.typenames: OPLOCK_NOTIFY_PARAMS, *POPLOCK_NOTIFY_PARAMS
+f1_keywords:
+ - _OPLOCK_NOTIFY_PARAMS
+ - ntifs/_OPLOCK_NOTIFY_PARAMS
+ - POPLOCK_NOTIFY_PARAMS
+ - ntifs/POPLOCK_NOTIFY_PARAMS
+ - OPLOCK_NOTIFY_PARAMS
+ - ntifs/OPLOCK_NOTIFY_PARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - OPLOCK_NOTIFY_PARAMS
 ---
 
 # _OPLOCK_NOTIFY_PARAMS structure
+
 
 ## -description
 
@@ -72,3 +77,4 @@ The NT status code returned from the *NotifyRoutine* callback. The interpretatio
 [**FsRtlCheckOplockEx2**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex2.md)
 
 [OPLOCK_NOTIFY_REASON](ne-ntifs-_oplock_notify_reason.md)
+

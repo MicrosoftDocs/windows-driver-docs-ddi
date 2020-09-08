@@ -8,9 +8,6 @@ ms.assetid: 3f377049-cc5f-427d-9b09-5e49e4b305c5
 ms.date: 10/29/2019
 keywords: ["FWPS_CALLOUT_NOTIFY_FN1 callback function"]
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN1, FWPS_CALLOUT_NOTIFY_FN1 callback, fwpsk/notifyFn1, netvista.notifyfn1, notifyFn1, notifyFn1 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_0cbdb762-b5f8-4c14-a361-a44589e1d663.xml
-f1_keywords:
- - "fwpsk/notifyFn1"
- - "notifyFn1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Fwpsk.h
-api_name:
-- notifyFn1
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FWPS_CALLOUT_NOTIFY_FN1
+ - fwpsk/FWPS_CALLOUT_NOTIFY_FN1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Fwpsk.h
+api_name:
+ - notifyFn1
 ---
 
 # FWPS_CALLOUT_NOTIFY_FN1 callback function
 
 
 ## -description
-
 
 The filter engine calls a callout's 
   <i>notifyFn1</i> callout function to notify the callout driver about events that are associated with the
@@ -54,11 +53,9 @@ The filter engine calls a callout's
 
 ## -parameters
 
+### -param notifyType 
 
-
-
-### -param notifyType [in]
-
+[in]
 A value that indicates the type of notification that the filter engine is sending to the callout.
      Valid values for this parameter are:
      
@@ -85,16 +82,16 @@ A filter is being deleted from the filter engine that specifies the callout for 
 
 A maximum value for testing purposes.
 
+### -param filterKey 
 
-### -param filterKey [in]
-
+[in]
 A pointer to the management identifier for the filter, as specified by the application or driver
      that is adding or deleting the filter. Must be <b>NULL</b> if the 
      <i>notifyType</i> parameter is set to FWPS_CALLOUT_NOTIFY_DELETE_FILTER. For more information, see Remarks.
 
+### -param filter 
 
-### -param filter [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> structure. This structure
      describes the filter that is being added to or deleted from the filter engine.
@@ -113,10 +110,7 @@ A callout driver's
      <i>notifyFn1</i> function can clean up any context associated with the filter when the filter is deleted
      from the filter engine.
 
-
 ## -returns
-
-
 
 A callout's 
      <i>notifyFn1</i> function returns one of the following NTSTATUS codes.
@@ -153,14 +147,8 @@ An error occurred. If the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver registers a callout's callout functions with the filter engine by calling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> function.
@@ -194,13 +182,7 @@ When a filter that specifies a callout for the filter's action is deleted from t
     <i>filterKey</i> parameter. For more information, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/processing-notify-callouts">Processing Notify Callouts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
@@ -227,7 +209,4 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a>
- 
-
- 
 

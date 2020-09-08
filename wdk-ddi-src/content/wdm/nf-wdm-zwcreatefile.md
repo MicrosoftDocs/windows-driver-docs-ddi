@@ -8,9 +8,6 @@ ms.assetid: c40b99be-5627-44f3-9853-c3ae31a8035c
 ms.date: 04/30/2018
 keywords: ["ZwCreateFile function"]
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
-f1_keywords:
- - "wdm/ZwCreateFile"
- - "ZwCreateFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwCreateFile
-- NtCreateFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwCreateFile
+ - wdm/ZwCreateFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwCreateFile
+ - NtCreateFile
 ---
 
 # ZwCreateFile function
@@ -47,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwCreateFile</b> routine creates a new file or opens an existing file.
-
 
 ## -parameters
 
+### -param FileHandle 
 
-
-
-### -param FileHandle [out]
-
+[out]
 A pointer to a HANDLE variable that receives a handle to the file.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
 
 <table>
@@ -239,14 +235,14 @@ Traverse the directory, in other words, include the directory in the path of a f
 
 For more information about access rights, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.
 
+### -param ObjectAttributes 
 
-### -param ObjectAttributes [in]
+[in]
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
+### -param IoStatusBlock 
 
-
-### -param IoStatusBlock [out]
-
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation. In particular, the <b>Information</b> member receives one of the following values:
 
 <ul>
@@ -276,18 +272,19 @@ FILE_DOES_NOT_EXIST
 </li>
 </ul>
 
-### -param AllocationSize [in, optional]
+### -param AllocationSize 
 
+[in, optional]
 A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes, for a file that is created or overwritten. If <i>AllocationSize</i> is <b>NULL</b>, no allocation size is specified. If no file is created or overwritten, <i>AllocationSize</i> is ignored.
 
+### -param FileAttributes 
 
-### -param FileAttributes [in]
-
+[in]
 Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_<i>XXX</i> flags, see the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, <i>FileAttributes</i> is ignored.
 
+### -param ShareAccess 
 
-### -param ShareAccess [in]
-
+[in]
 Type of share access, which is specified as zero or any combination of the following flags.
 
 <table>
@@ -330,9 +327,9 @@ Delete the file
 
 Device and intermediate drivers usually set <i>ShareAccess</i> to zero, which gives the caller exclusive access to the open file.
 
+### -param CreateDisposition 
 
-### -param CreateDisposition [in]
-
+[in]
 Specifies the action to perform if the file does or does not exist. <i>CreateDisposition</i> can be one of the values in the following table.
 
 <table>
@@ -426,11 +423,10 @@ Create the file.
 </td>
 </tr>
 </table>
- 
 
+### -param CreateOptions 
 
-### -param CreateOptions [in]
-
+[in]
 Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
 
 <table>
@@ -534,7 +530,7 @@ FILE_COMPLETE_IF_OPLOCKED
 
 </td>
 <td>
-Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks).
+Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks).
 
 </td>
 </tr>
@@ -554,7 +550,7 @@ FILE_OPEN_REPARSE_POINT
 
 </td>
 <td>
-Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points).
+Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](https://docs.microsoft.com/windows/win32/fileio/reparse-points).
 
 </td>
 </tr>
@@ -618,7 +614,7 @@ FILE_RESERVE_OPFILTER
 
 </td>
 <td>
-This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks).
+This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks).
 
 </td>
 </tr>
@@ -647,33 +643,25 @@ The client opening the file or device is session aware and per session access is
 </td>
 </tr>
 </table>
- 
 
+### -param EaBuffer 
 
-### -param EaBuffer [in, optional]
-
+[in, optional]
 For device and intermediate drivers, this parameter must be a <b>NULL</b> pointer.
 
+### -param EaLength 
 
-### -param EaLength [in]
-
+[in]
 For device and intermediate drivers, this parameter must be zero.
 
-
 ## -returns
-
-
 
 <b>ZwCreateFile</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS error code on failure. In the latter case, the caller can determine the cause of the failure by checking the <i>IoStatusBlock</i> parameter.
 
 <div class="alert"><b>Note</b>  <b>ZwCreateFile</b> might return STATUS_FILE_LOCK_CONFLICT as the return value or in the <b>Status</b> member of the <b>IO_STATUS_BLOCK</b> structure that is pointed to by the <i>IoStatusBlock</i> parameter. This would occur only if the NTFS log file is full, and an error occurs while <b>ZwCreateFile</b> tries to handle this situation.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 <b>ZwCreateFile</b> supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-files-in-a-driver">Using Files in a Driver</a>.
 
@@ -805,13 +793,7 @@ Callers of <b>ZwCreateFile</b> must be running at IRQL = PASSIVE_LEVEL and <a hr
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -856,6 +838,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
  
 
- [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
+ [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks)
 
-[Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points)
+[Reparse Points](https://docs.microsoft.com/windows/win32/fileio/reparse-points)
+

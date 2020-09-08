@@ -8,9 +8,6 @@ ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.date: 02/23/2018
 keywords: ["PosValueStatisticsEntry structure"]
 ms.keywords: PosValueStatisticsEntry, PosValueStatisticsEntry structure, _PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry
-f1_keywords:
- - "pointofservicedriverinterface/PosValueStatisticsEntry"
- - "PosValueStatisticsEntry"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- PointOfServiceDriverInterface.h
-api_name:
-- PosValueStatisticsEntry
 targetos: Windows
 req.typenames: PosValueStatisticsEntry
+f1_keywords:
+ - _PosValueStatisticsEntry
+ - pointofservicedriverinterface/_PosValueStatisticsEntry
+ - PosValueStatisticsEntry
+ - pointofservicedriverinterface/PosValueStatisticsEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - PointOfServiceDriverInterface.h
+api_name:
+ - PosValueStatisticsEntry
 ---
 
 # _PosValueStatisticsEntry structure
@@ -46,19 +48,13 @@ req.typenames: PosValueStatisticsEntry
 
 ## -description
 
-
 This structure contains the value of a statistic.
-
 
 ## -struct-fields
 
-
-
-
 ### -field EntryName
 
-Indicates the NULL-terminated statistic name (for example, <i>GoodScanCount</i> or <i>BadScanCount</i>).
-
+Indicates the NULL-terminated statistic name (for example, *GoodScanCount* or *BadScanCount*).
 
 ### -field Value
 

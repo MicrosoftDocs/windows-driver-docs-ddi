@@ -8,9 +8,6 @@ ms.assetid: bbbb5486-1217-4c4d-9421-96994a5fec82
 ms.date: 05/08/2018
 keywords: ["IPortEvents interface"]
 ms.keywords: IPortEvents, IPortEvents interface [Audio Devices], IPortEvents interface [Audio Devices],described, audio.iportevents, audmp-routines_8e6cf7c4-af42-4c89-8c00-29470317a455.xml, portcls/IPortEvents
-f1_keywords:
- - "portcls/IPortEvents"
- - "IPortEvents"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortEvents
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortEvents
+ - portcls/IPortEvents
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortEvents
 ---
 
 # IPortEvents interface
 
 
 ## -description
-
 
 The <code>IPortEvents</code> interface is used by miniport drivers to notify clients of <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/hardware-events">hardware events</a>. In Windows 98/Me and in Windows 2000 and later, all port drivers in portcls.sys implement this interface and expose it to miniport drivers. To determine whether a port driver supports the <code>IPortEvents</code> interface, the miniport driver calls the IPort<i>Xxx</i> object's <b>QueryInterface</b> method with REFIID <b>IID_IPortEvents</b>. <code>IPortEvents</code> inherits from the <b>IUnknown</b> interface.
 
@@ -96,3 +95,4 @@ This section also describes the following routine for handling event requests:
 
 </dd>
 </dl>
+

@@ -8,9 +8,6 @@ ms.assetid: CCA03E61-6FEF-42BC-9407-A02432C50542
 ms.date: 04/30/2018
 keywords: ["KeQueryInterruptTimePrecise function"]
 ms.keywords: KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise, wdm/KeQueryInterruptTimePrecise
-f1_keywords:
- - "wdm/KeQueryInterruptTimePrecise"
- - "KeQueryInterruptTimePrecise"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeQueryInterruptTimePrecise
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeQueryInterruptTimePrecise
+ - wdm/KeQueryInterruptTimePrecise
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeQueryInterruptTimePrecise
 ---
 
 # KeQueryInterruptTimePrecise function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeQueryInterruptTimePrecise</b> routine returns the current value of the system <a href="https://go.microsoft.com/fwlink/p/?linkid=201082">interrupt time</a> count, with accuracy to within a microsecond.
-
 
 ## -parameters
 
+### -param QpcTimeStamp 
 
-
-
-### -param QpcTimeStamp [out]
-
+[out]
 A pointer to a ULONG64 variable into which the routine writes the performance counter value used to interpolate the return value.
-
 
 ## -returns
 
-
-
 The current interrupt-time count in 100-nanosecond units.
 
-
-
-
 ## -remarks
-
-
 
 <b>KeQueryInterruptTimePrecise</b> returns the system's current interrupt time, which is the amount of time since the operating system was last started. <b>KeQueryInterruptTimePrecise</b> is similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryinterrupttime">KeQueryInterruptTime</a> routine, but is more precise. 
 
@@ -87,15 +75,9 @@ Precise interrupt time can be used to measure very fine-grained durations while 
 
 However, power-management state changes do affect the system interrupt time count. Maintenance of the interrupt time count is suspended during system sleep states. When a subsequent wake state transition occurs, the system adds a "bias" value to the interrupt time count to compensate for the estimated duration of such a sleep state. The interrupt time count that is returned by <b>KeQueryInterruptTimePrecise</b> includes this bias value. To obtain an unbiased interrupt time count, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryunbiasedinterrupttime">KeQueryUnbiasedInterruptTime</a>. A precise version of the unbiased interrupt time count is not currently available.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>
+<a href="https://docs.microsoft.com/windows/win32/sysinfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>
 
 
 
@@ -108,7 +90,4 @@ However, power-management state changes do affect the system interrupt time coun
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryunbiasedinterrupttime">KeQueryUnbiasedInterruptTime</a>
- 
-
- 
 

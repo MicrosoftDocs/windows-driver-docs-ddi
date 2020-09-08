@@ -8,9 +8,6 @@ ms.assetid: 8c4f9abc-f03d-4084-b0ce-34aea5dd7d96
 ms.date: 02/26/2018
 keywords: ["WdfMemoryCreatePreallocated function"]
 ms.keywords: DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated method, kmdf.wdfmemorycreatepreallocated, wdf.wdfmemorycreatepreallocated, wdfmemory/WdfMemoryCreatePreallocated
-f1_keywords:
- - "wdfmemory/WdfMemoryCreatePreallocated"
- - "WdfMemoryCreatePreallocated"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfMemoryCreatePreallocated
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfMemoryCreatePreallocated
+ - wdfmemory/WdfMemoryCreatePreallocated
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfMemoryCreatePreallocated
 ---
 
 # WdfMemoryCreatePreallocated function
@@ -49,40 +49,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfMemoryCreatePreallocated</b> method creates a framework memory object for a driver-supplied memory buffer. 
-
+The <b>WdfMemoryCreatePreallocated</b> method creates a framework memory object for a driver-supplied memory buffer.
 
 ## -parameters
 
+### -param Attributes 
 
-
-
-### -param Attributes [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new memory object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 A pointer to a driver-supplied buffer.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to.
 
+### -param Memory 
 
-### -param Memory [out]
-
+[out]
 A pointer to a location that receives a handle to the new memory object.
 
-
 ## -returns
-
-
 
 <b>WdfMemoryCreatePreallocated</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -122,12 +115,7 @@ For a list of other return values that the <b>WdfMemoryCreatePreallocated</b> me
 
 This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>WdfMemoryCreatePreallocated</b> method creates a framework memory object for a buffer that the driver has previously allocated or obtained. 
 
@@ -172,12 +160,7 @@ status = WdfMemoryCreatePreallocated(
                                      );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
@@ -200,7 +183,4 @@ status = WdfMemoryCreatePreallocated(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorycreatefromlookaside">WdfMemoryCreateFromLookaside</a>
- 
-
- 
 

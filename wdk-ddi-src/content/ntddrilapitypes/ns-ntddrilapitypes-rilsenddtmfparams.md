@@ -8,9 +8,6 @@ ms.assetid: b08767f9-6b2d-4930-bd02-ebc89f2bdb7d
 ms.date: 05/02/2018
 keywords: ["RILSENDDTMFPARAMS structure"]
 ms.keywords: "*LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS, RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenddtmfparams, ntddrilapitypes/RILSENDDTMFPARAMS"
-f1_keywords:
- - "ntddrilapitypes/RILSENDDTMFPARAMS"
- - "RILSENDDTMFPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,41 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSENDDTMFPARAMS
 targetos: Windows
 req.typenames: RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS
+f1_keywords:
+ - RILSENDDTMFPARAMS
+ - ntddrilapitypes/RILSENDDTMFPARAMS
+ - LPRILSENDDTMFPARAMS
+ - ntddrilapitypes/LPRILSENDDTMFPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSENDDTMFPARAMS
 ---
 
-# RILSENDDTMFPARAMS structure
+# RILSENDDTMFPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwExecutor
-
 
 ### -field szDTMF
 
-
 ### -field dwDigitOnTimeMs
-
 
 ### -field dwDigitOffTimeMs
 

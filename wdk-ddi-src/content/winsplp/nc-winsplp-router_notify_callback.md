@@ -8,9 +8,6 @@ ms.assetid: 97D8FEEA-B6D7-4AD7-A067-B503AF8F23FF
 ms.date: 04/20/2018
 keywords: ["ROUTER_NOTIFY_CALLBACK callback function"]
 ms.keywords: ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK callback, ROUTER_NOTIFY_CALLBACK callback function [Print Devices], print.router_notify_callback, winsplp/ROUTER_NOTIFY_CALLBACK
-f1_keywords:
- - "winsplp/ROUTER_NOTIFY_CALLBACK"
- - "ROUTER_NOTIFY_CALLBACK"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winsplp.h
-api_name:
-- ROUTER_NOTIFY_CALLBACK
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ROUTER_NOTIFY_CALLBACK
+ - winsplp/ROUTER_NOTIFY_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winsplp.h
+api_name:
+ - ROUTER_NOTIFY_CALLBACK
 ---
 
 # ROUTER_NOTIFY_CALLBACK callback function
@@ -46,29 +46,29 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param dwCommand 
 
+[in]
 
+### -param pContext 
 
-### -param dwCommand [in]
+[in]
 
+### -param dwColor 
 
-### -param pContext [in]
+[in]
 
+### -param pNofityInfo 
 
-### -param dwColor [in]
+[in]
 
+### -param fdwFlags 
 
-### -param pNofityInfo [in]
+[in]
 
+### -param pdwResult 
 
-### -param fdwFlags [in]
-
-
-### -param pdwResult [out]
+[out]
 

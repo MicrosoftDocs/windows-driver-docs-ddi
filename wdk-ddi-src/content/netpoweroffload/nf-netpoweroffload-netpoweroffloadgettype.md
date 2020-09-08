@@ -2,45 +2,45 @@
 UID: NF:netpoweroffload.NetPowerOffloadGetType
 title: NetPowerOffloadGetType function (netpoweroffload.h)
 author: windows-driver-content
-description: The NetPowerOffloadGetType method gets the power offload type for a low power protocol offload to a net adapter.
+description: The NetPowerOffloadGetType function gets the power offload type for a low power protocol offload to a net adapter.
 tech.root: netvista
 ms.assetid: 04e24520-1ccd-4c27-8bad-ff4cac890e2e
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetType function"]
-f1_keywords:
- - "netpoweroffload/NetPowerOffloadGetType"
- - "NetPowerOffloadGetType"
 ms.keywords: NetPowerOffloadGetType
 req.header: netpoweroffload.h
-req.include-header:
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetPowerOffloadGetType
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetPowerOffloadGetType
+ - netpoweroffload/NetPowerOffloadGetType
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetPowerOffloadGetType
+product:
+ - Windows
 ---
 
 # NetPowerOffloadGetType function
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetPowerOffloadGetType** method gets the power offload type for a low power protocol offload to a net adapter.
+The **NetPowerOffloadGetType** function gets the power offload type for a low power protocol offload to a net adapter.
 
 ## -parameters
 
@@ -71,3 +71,4 @@ The client driver must only call **NetPowerOffloadGetType** during a power trans
 [**NET_POWER_OFFLOAD_TYPE**](../netpoweroffload/ne-netpoweroffload-_net_power_offload_type.md)
 
 [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md)
+

@@ -7,9 +7,6 @@ ms.assetid: 1d602d09-cd80-4079-9132-1caced4d1eee
 ms.date: 05/10/2018
 keywords: ["D3DKMTSharedPrimaryUnLockNotification function"]
 ms.keywords: D3DKMTSharedPrimaryUnLockNotification, D3DKMTSharedPrimaryUnLockNotification function [Display Devices], OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml, d3dkmthk/D3DKMTSharedPrimaryUnLockNotification, display.d3dkmtsharedprimaryunlocknotification
-f1_keywords:
- - "d3dkmthk/D3DKMTSharedPrimaryUnLockNotification"
- - "D3DKMTSharedPrimaryUnLockNotification"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,21 +24,24 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- API-MS-Win-dx-d3dkmt-l1-1-0.dll
-- API-MS-Win-dx-d3dkmt-l1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTSharedPrimaryUnLockNotification
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTSharedPrimaryUnLockNotification
+ - d3dkmthk/D3DKMTSharedPrimaryUnLockNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-0.dll
+ - API-MS-Win-dx-d3dkmt-l1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTSharedPrimaryUnLockNotification
 ---
 
 # D3DKMTSharedPrimaryUnLockNotification function
@@ -81,7 +81,4 @@ The OpenGL ICD calls the <b>D3DKMTSharedPrimaryUnLockNotification</b> function t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_sharedprimaryunlocknotification">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a>
- 
-
- 
 

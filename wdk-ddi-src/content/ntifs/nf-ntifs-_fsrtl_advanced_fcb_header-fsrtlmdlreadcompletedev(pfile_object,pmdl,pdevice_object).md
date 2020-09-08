@@ -58,13 +58,13 @@ The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that th
 
 
 
-### -param FileObject [in]
-
+### -param FileObject 
+[in]
 A pointer to the file object.
 
 
-### -param MdlChain [in]
-
+### -param MdlChain 
+[in]
 On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
 
 

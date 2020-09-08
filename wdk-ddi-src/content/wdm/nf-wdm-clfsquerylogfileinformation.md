@@ -8,9 +8,6 @@ ms.assetid: a907f219-9e4a-415f-821c-d419b7fde729
 ms.date: 04/30/2018
 keywords: ["ClfsQueryLogFileInformation function"]
 ms.keywords: ClfsQueryLogFileInformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, kernel.clfsquerylogfileinformation, wdm/ClfsQueryLogFileInformation
-f1_keywords:
- - "wdm/ClfsQueryLogFileInformation"
- - "ClfsQueryLogFileInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsQueryLogFileInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsQueryLogFileInformation
+ - wdm/ClfsQueryLogFileInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsQueryLogFileInformation
 ---
 
 # ClfsQueryLogFileInformation function
@@ -47,37 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsQueryLogFileInformation</b> routine returns metadata and state information for a specified CLFS stream or its underlying physical log or both.
-
 
 ## -parameters
 
+### -param plfoLog 
 
-
-
-### -param plfoLog [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
+### -param eInformationClass 
 
-### -param eInformationClass [in]
-
+[in]
 A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_cls_log_information_class">CLFS_LOG_INFORMATION_CLASS</a> enumeration that specifies the type of information being requested.
-
 
 ### -param pinfoInputBuffer
 
 Optional input buffer which is required for some information classes.
 
-
 ### -param cbinfoInputBuffer
 
 Length in bytes of pinfoInputBuffer.
 
+### -param pinfoBuffer 
 
-### -param pinfoBuffer [out]
-
+[out]
 A pointer to a buffer that receives the log information. The structure of this buffer depends on the value of <i>eInformationClass</i>. The following table shows the relationship between the information class and the data type of the buffer.
 
 <table>
@@ -146,8 +140,6 @@ A pointer to a buffer that receives the log information. The structure of this b
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbInfoBuffer
 
@@ -160,32 +152,15 @@ Length in bytes of the incoming information buffer.
 
 The size, in bytes, of the buffer pointed to by <i>pinfoBuffer</i>.
 
-
 ## -returns
-
-
 
 <b>ClfsQueryLogFileInformation</b> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfssetlogfileinformation">ClfsSetLogFileInformation</a>
- 
-
- 
 

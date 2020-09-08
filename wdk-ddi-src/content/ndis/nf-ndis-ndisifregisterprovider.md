@@ -8,9 +8,6 @@ ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.date: 05/02/2018
 keywords: ["NdisIfRegisterProvider function"]
 ms.keywords: NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, netvista.ndisifregisterprovider
-f1_keywords:
- - "ndis/NdisIfRegisterProvider"
- - "NdisIfRegisterProvider"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisIfRegisterProvider
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisIfRegisterProvider
+ - ndis/NdisIfRegisterProvider
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisIfRegisterProvider
 ---
 
 # NdisIfRegisterProvider function
@@ -47,29 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisIfRegisterProvider</b> function registers an NDIS network interface provider.
 
-
 ## -parameters
 
+### -param ProviderCharacteristics 
 
-
-
-### -param ProviderCharacteristics [in]
-
+[in]
 A pointer to a caller-provided 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_if_provider_characteristics">
      NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure. This structure defines the characteristics of the
      provider, including the entry points for its provider callback functions.
 
+### -param IfProviderContext 
 
-### -param IfProviderContext [in]
-
+[in]
 A handle to a caller-provided context area for this network interface provider. Set this parameter
      to <b>NULL</b> if there is no context area.
-
 
 ### -param pNdisIfProviderHandle
 
@@ -78,8 +73,6 @@ A pointer to a caller-provided handle variable. If the registration operation su
      should retain this handle for use in subsequent calls that require an interface provider handle.
 
 ## -returns
-
-
 
 <b>NdisIfRegisterProvider</b> returns one of the following status values:
 
@@ -138,14 +131,8 @@ The operation failed because of insufficient resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisIfRegisterProvider</b> function once during initialization to register as an NDIS interface
@@ -178,13 +165,7 @@ A component that is no longer an interface provider can call the
     allocated when the driver called 
     <b>NdisIfRegisterProvider</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -200,7 +181,4 @@ A component that is no longer an interface provider can call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
- 
-
- 
 

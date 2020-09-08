@@ -8,9 +8,6 @@ ms.assetid: 94329e5a-9efb-4e88-92a6-457098d1245f
 ms.date: 02/26/2018
 keywords: ["WdfRequestCreate function"]
 ms.keywords: DFRequestObjectRef_9c240f29-fd5e-4d6e-9a54-31abb05507c5.xml, WdfRequestCreate, WdfRequestCreate method, kmdf.wdfrequestcreate, wdf.wdfrequestcreate, wdfrequest/WdfRequestCreate
-f1_keywords:
- - "wdfrequest/WdfRequestCreate"
- - "WdfRequestCreate"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestCreate
+ - wdfrequest/WdfRequestCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestCreate
 ---
 
 # WdfRequestCreate function
@@ -49,35 +49,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestCreate</b> method creates an empty framework request object.
 
-
 ## -parameters
 
+### -param RequestAttributes 
 
-
-
-### -param RequestAttributes [in, optional]
-
+[in, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the request object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param IoTarget 
 
-### -param IoTarget [in, optional]
-
+[in, optional]
 A handle to a framework I/O target object. This parameter is optional and can be <b>NULL</b>. If non-<b>NULL</b>, <b>WdfRequestCreate</b> verifies that the driver can eventually send the request to the specified I/O target.
 
+### -param Request 
 
-### -param Request [out]
-
-A pointer to a location that receives a handle to a framework request object. 
-
+[out]
+A pointer to a location that receives a handle to a framework request object.
 
 ## -returns
-
-
 
 <b>WdfRequestCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -128,15 +121,7 @@ For a list of additional return values, see <a href="https://docs.microsoft.com/
 
 This method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
-
-
-
 ## -remarks
-
-
 
 A framework-based driver can call <b>WdfRequestCreate</b> to create a new request that the driver subsequently passes to other framework functions for initialization. For example, a driver for a USB device might call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforread">WdfUsbTargetPipeFormatRequestForRead</a> to format a new read request.
 
@@ -178,12 +163,7 @@ if (!NT_SUCCESS(status)) {
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
 
@@ -206,7 +186,4 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a>
- 
-
- 
 

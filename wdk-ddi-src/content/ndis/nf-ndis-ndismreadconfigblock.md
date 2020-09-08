@@ -8,9 +8,6 @@ ms.assetid: a4b5e669-7abb-4c60-b2dc-249103d0b20c
 ms.date: 05/02/2018
 keywords: ["NdisMReadConfigBlock function"]
 ms.keywords: NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMReadConfigBlock, netvista.ndismreadconfigblock
-f1_keywords:
- - "ndis/NdisMReadConfigBlock"
- - "NdisMReadConfigBlock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMReadConfigBlock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMReadConfigBlock
+ - ndis/NdisMReadConfigBlock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMReadConfigBlock
 ---
 
 # NdisMReadConfigBlock function
@@ -47,41 +47,34 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the <b>NdisMReadConfigBlock</b> function to read data from a VF configuration block.  Read operations for a VF configuration block are handled by the miniport driver of the network adapter's PCIe Physical Function (PF).
 <div class="alert"><b>Note</b>  <b>NdisMReadConfigBlock</b> must only be called by the VF miniport driver.</div><div> </div>
 
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param BlockId 
 
-### -param BlockId [in]
-
+[in]
 A ULONG value that specifies the identifier of the VF configuration block to be read. This identifier is proprietary to the independent hardware vendor (IHV) and is used only by the PF and VF miniport drivers.
 
+### -param Buffer 
 
-
-### -param Buffer [out]
-
+[out]
 A pointer to a caller-allocated buffer that will contain the requested configuration data.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The number of bytes to be read from the VF configuration block.
 
-
 ## -returns
-
-
 
 <b>NdisMReadConfigBlock</b> can return one of the following status values:
 
@@ -113,14 +106,8 @@ The query operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The VF miniport driver  calls <b>NdisMReadConfigBlock</b> to initiate a backchannel read request of VF configuration data by the PF miniport driver. Once notified of this request, the PF driver returns the data from the specified VF configuration block.
 
@@ -139,13 +126,7 @@ If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as p
 
 The VBD that runs in a Hyper-V child partition's guest operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451146">GUID_VPCI_INTERFACE_STANDARD</a> interface by issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the VPCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_VPCI_INTERFACE_STANDARD.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -156,7 +137,4 @@ The VBD that runs in a Hyper-V child partition's guest operating system can quer
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh439637(v=vs.85)">ReadVfConfigBlock</a>
- 
-
- 
 

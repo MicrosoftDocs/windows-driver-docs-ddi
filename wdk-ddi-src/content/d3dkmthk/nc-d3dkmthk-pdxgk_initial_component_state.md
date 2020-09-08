@@ -5,71 +5,46 @@ description: The InitialComponentStateCb callback function is implemented by the
 ms.assetid: 98b7dfae-6112-4d88-8580-ac3314187e22
 ms.date: 10/19/2018
 keywords: ["PDXGK_INITIAL_COMPONENT_STATE callback function"]
-f1_keywords:
- - "d3dkmthk/PDXGK_INITIAL_COMPONENT_STATE"
- - "PDXGK_INITIAL_COMPONENT_STATE"
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- PDXGK_INITIAL_COMPONENT_STATE
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - PDXGK_INITIAL_COMPONENT_STATE
+ - d3dkmthk/PDXGK_INITIAL_COMPONENT_STATE
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PDXGK_INITIAL_COMPONENT_STATE
+product:
+ - Windows
 ---
 
 # PDXGK_INITIAL_COMPONENT_STATE callback function
 
+
 ## -description
 
 The InitialComponentStateCb callback function is implemented by the client driver to initialize the component state.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PDXGK_INITIAL_COMPONENT_STATE PdxgkInitialComponentState;
-
-// Definition
-
-VOID PdxgkInitialComponentState
-(
-	PVOID GraphicsDeviceHandle
-	PVOID PrivateHandle
-	ULONG ComponentIndex
-	BOOLEAN IsBlockingType
-	UINT InitialFState
-	GUID ComponentGuid
-	UINT PowerComponentMappingFlag
-)
-{...}
-
-PDXGK_INITIAL_COMPONENT_STATE
-
-
-```
 
 ## -parameters
 
@@ -105,8 +80,33 @@ The HIWORD indicates if this is a custom driver defined value (0 = no, 1 = yes).
 
 Does not return a value.
 
-## -remarks
+## -prototype
 
+```cpp
+//Declaration
+
+PDXGK_INITIAL_COMPONENT_STATE PdxgkInitialComponentState;
+
+// Definition
+
+VOID PdxgkInitialComponentState
+(
+	PVOID GraphicsDeviceHandle
+	PVOID PrivateHandle
+	ULONG ComponentIndex
+	BOOLEAN IsBlockingType
+	UINT InitialFState
+	GUID ComponentGuid
+	UINT PowerComponentMappingFlag
+)
+{...}
+
+PDXGK_INITIAL_COMPONENT_STATE
+
+
+```
+
+## -remarks
 
 Upon shared power registration (IoCallDriver call), if InitialComponentStateCb was provided, it is called once for each shared power component that exists for the graphics driver has reported. The behavior of this callback is such that:
 
@@ -116,3 +116,4 @@ Upon shared power registration (IoCallDriver call), if InitialComponentStateCb w
 * If any F-state transitions are currently in progress, a post-notification FStateNotificationCb will alert the driver of the final state. Such calls will be guaranteed to occur after the InitialComponentStateCb calls. However, it is possible that such callbacks could occur prior to IoCallDriver returning if synchronization is required. A spin lock should be around IoCallDriver and the FStateNotificationCb handler.
 
 ## -see-also
+

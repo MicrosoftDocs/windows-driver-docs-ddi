@@ -8,9 +8,6 @@ ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.date: 04/30/2018
 keywords: ["KeSetImportanceDpc function"]
 ms.keywords: KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, kernel.kesetimportancedpc, wdm/KeSetImportanceDpc
-f1_keywords:
- - "wdm/KeSetImportanceDpc"
- - "KeSetImportanceDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,40 +25,39 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSetImportanceDpc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSetImportanceDpc
+ - wdm/KeSetImportanceDpc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSetImportanceDpc
 ---
 
-# KeSetImportanceDpc function
+# KeSetImportanceDpc function (wdm.h)
 
 
 ## -description
 
-
-The <b>KeSetImportanceDpc</b> routine specifies how soon the DPC routine is run. 
-
+The <b>KeSetImportanceDpc</b> routine specifies how soon the DPC routine is run.
 
 ## -parameters
 
+### -param Dpc 
 
+[in, out]
+Pointer to the caller's DPC object, which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a> already initialized.
 
+### -param Importance 
 
-### -param Dpc [in, out]
-
-Pointer to the caller's DPC object, which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a> already initialized. 
-
-
-### -param Importance [in]
-
+[in]
 Specifies one of the following system-defined values to determine the behavior of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a> when either routine is used to queue the DPC.
 
 
@@ -108,12 +104,9 @@ Place the DPC at the end of the DPC queue, and begin processing the queue immedi
 
 ##### - Importance.MediumImportance
 
-Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
-
+Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>.
 
 ## -remarks
-
-
 
 The <b>KeSetImportanceDpc</b> routine influences how soon a DPC is run after it is queued by determining:
 
@@ -135,13 +128,7 @@ Note that a driver must call <b>KeSetImportanceDpc</b> before it calls <b>KeInse
 
 For more information about how the system processes the DPC queue, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/organization-of-dpc-queues">Organization of DPC Queues</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>
 
@@ -160,7 +147,4 @@ For more information about how the system processes the DPC queue, see <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>
- 
-
- 
 

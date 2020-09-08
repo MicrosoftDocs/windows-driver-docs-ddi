@@ -8,9 +8,6 @@ ms.assetid: da9a4058-1a0e-484b-afcd-9d4558810acd
 ms.date: 04/20/2018
 keywords: ["OEMDownloadCharGlyph function"]
 ms.keywords: OEMDownloadCharGlyph, OEMDownloadCharGlyph function [Print Devices], print.oemdownloadcharglyph, print_obsoletefunctions_fb2af04d-799c-419c-b675-3444fd7d3143.xml, printoem/OEMDownloadCharGlyph
-f1_keywords:
- - "printoem/OEMDownloadCharGlyph"
- - "OEMDownloadCharGlyph"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMDownloadCharGlyph
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMDownloadCharGlyph
+ - printoem/OEMDownloadCharGlyph
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMDownloadCharGlyph
 ---
 
 # OEMDownloadCharGlyph function
@@ -46,22 +46,15 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdevobj
 
-
 ### -param pUFObj
-
 
 ### -param hGlyph
 
+### -param pdwWidth 
 
-### -param pdwWidth [out]
+[out]
 

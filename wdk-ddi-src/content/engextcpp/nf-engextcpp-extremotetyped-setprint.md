@@ -8,9 +8,6 @@ ms.assetid: ae478779-8ec1-4a50-a37c-3017aca2c912
 ms.date: 05/03/2018
 keywords: ["ExtRemoteTyped::SetPrint"]
 ms.keywords: EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, ExtRemoteTyped interface [Windows Debugging],SetPrint method, ExtRemoteTyped.SetPrint, ExtRemoteTyped::SetPrint, SetPrint, SetPrint method [Windows Debugging], SetPrint method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_setprint
-f1_keywords:
- - "engextcpp/ExtRemoteTyped.SetPrint"
- - "ExtRemoteTyped.SetPrint"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteTyped.SetPrint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteTyped::SetPrint
+ - engextcpp/ExtRemoteTyped::SetPrint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteTyped.SetPrint
 ---
 
 # ExtRemoteTyped::SetPrint
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetPrint</b> method sets the typed data represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object by formatting an expression and then evaluating that expression.
-
 
 ## -parameters
 
+### -param Format 
 
-
-
-### -param Format [in]
-
+[in]
 The format string used to create the expression.  This is the same as the format string used by the C <b>printf</b> function.
 
 <div class="alert"><b>Note</b>   While other methods and functions in the debugger engine API provide additional, debugger-specific conversion characters, <b>SetPrint</b> only supports the conversion characters used by <b>printf</b>.</div>
@@ -64,29 +60,15 @@ The format string used to create the expression.  This is the same as the format
 
 ### -param param
 
-
-
-
-
-
 ####### - ...
 
 The arguments for the format string, as in <b>printf</b>.  The arguments should match the conversion characters in <i>Format</i>.
 
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
@@ -105,7 +87,4 @@ This method does not return a value.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set">ExtRemoteTyped::Set(pcstr)</a>
- 
-
- 
 

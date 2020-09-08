@@ -8,9 +8,6 @@ ms.assetid: B6C61023-F840-4517-83C1-BC9CBDFC27B0
 ms.date: 05/02/2018
 keywords: ["FwpsOpenToken0 function"]
 ms.keywords: FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsOpenToken0, netvista.fwpsopentoken0
-f1_keywords:
- - "fwpsk/FwpsOpenToken0"
- - "FwpsOpenToken0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FwpsOpenToken0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsOpenToken0
+ - fwpsk/FwpsOpenToken0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FwpsOpenToken0
 ---
 
 # FwpsOpenToken0 function
@@ -46,43 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>FwpsOpenToken0</b> function opens an access token.<div class="alert"><b>Note</b>  <b>FwpsOpenToken0</b> is a specific version of <b>FwpsOpenToken</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
-
-
 ## -parameters
 
+### -param engineHandle 
 
-
-
-### -param engineHandle [in]
-
+[in]
 A handle for an open session to the filter engine. A callout driver calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
+### -param modifiedId 
 
-### -param modifiedId [in]
-
+[in]
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a> that changes each time the token is modified. An application can use this value as a test of whether a security context has changed since it was last used.
 
+### -param desiredAccess 
 
-### -param desiredAccess [in]
-
+[in]
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<b>DACL</b>) to determine which accesses are granted or denied.
 
+### -param accessToken 
 
-### -param accessToken [out]
-
+[out]
 Pointer to a caller-allocated variable that receives a handle to the newly opened access token.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsOpenToken0</b> function returns one of the following NTSTATUS codes.
@@ -115,18 +107,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
- 
-
- 
 

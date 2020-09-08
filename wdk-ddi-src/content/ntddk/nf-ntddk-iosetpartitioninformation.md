@@ -8,9 +8,6 @@ ms.assetid: 3f1a6e3f-3bbc-4cc5-8efe-e3cf6ac3adf5
 ms.date: 03/29/2018
 keywords: ["IoSetPartitionInformation function"]
 ms.keywords: IoSetPartitionInformation, IoSetPartitionInformation routine [Storage Devices], ntddk/IoSetPartitionInformation, rtns-disk_58012dfd-a95d-4af6-a09d-e1a4bcb458e2.xml, storage.iosetpartitioninformation
-f1_keywords:
- - "ntddk/IoSetPartitionInformation"
- - "IoSetPartitionInformation"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSetPartitionInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetPartitionInformation
+ - ntddk/IoSetPartitionInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSetPartitionInformation
 ---
 
 # IoSetPartitionInformation function
@@ -46,49 +46,37 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoSetPartitionInformation</b> routine is <b>obsolete</b> and is provided only to support existing drivers. New drivers must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetpartitioninformationex">IoSetPartitionInformationEx</a>. 
 
 <b>IoSetPartitionInformation</b> sets the partition type and number in a partition table entry for the disk represented by <i>DeviceObject</i>.
 
-
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to the device object representing the device on which the partition type is to be set.
 
+### -param SectorSize 
 
-### -param SectorSize [in]
-
+[in]
 Specifies the size, in bytes, of sectors on the disk.
 
+### -param PartitionNumber 
 
-### -param PartitionNumber [in]
-
+[in]
 Specifies the partition number on the device whose partition type is to be set.
 
+### -param PartitionType 
 
-### -param PartitionType [in]
-
-Specifies the type for the partition. For a list of some of the key partition types see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_partition_information">PARTITION_INFORMATION</a>. 
-
+[in]
+Specifies the type for the partition. For a list of some of the key partition types see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_partition_information">PARTITION_INFORMATION</a>.
 
 ## -returns
 
-
-
 If <b>IoSetPartitionInformation</b> returns STATUS_SUCCESS, the disk driver updates its notion of the partition type for this partition in its device extension.
 
-
-
-
 ## -remarks
-
-
 
 <b>IoSetPartitionInformation</b> must only be used by disk drivers. Other drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info">IOCTL_DISK_SET_PARTITION_INFO</a> disk I/O request instead.
 
@@ -100,13 +88,7 @@ This routine operates under the assumption that the partition number passed in b
 
 This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel event object to synchronize I/O completion on the device. The event cannot be set to the Signaled state without queuing and executing the I/O system's special kernel APC routine for I/O completion.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable">IoReadPartitionTable</a>
 
@@ -117,7 +99,4 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iowritepartitiontable">IoWritePartitionTable</a>
- 
-
- 
 

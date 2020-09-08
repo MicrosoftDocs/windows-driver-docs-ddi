@@ -8,9 +8,6 @@ ms.assetid: e11a823d-0b08-42fd-b093-4c464c152afe
 ms.date: 02/26/2018
 keywords: ["IQueueCallbackRead::OnRead"]
 ms.keywords: IQueueCallbackRead interface,OnRead method, IQueueCallbackRead.OnRead, IQueueCallbackRead::OnRead, OnRead, OnRead method, OnRead method,IQueueCallbackRead interface, UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml, umdf.iqueuecallbackread_onread, wdf.iqueuecallbackread_onread, wudfddi/IQueueCallbackRead::OnRead
-f1_keywords:
- - "wudfddi/IQueueCallbackRead.OnRead"
- - "IQueueCallbackRead.OnRead"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wudfddi.h
-api_name:
-- IQueueCallbackRead.OnRead
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IQueueCallbackRead::OnRead
+ - wudfddi/IQueueCallbackRead::OnRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wudfddi.h
+api_name:
+ - IQueueCallbackRead.OnRead
 ---
 
 # IQueueCallbackRead::OnRead
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>OnRead</b> method is called to handle a read request when an application reads information from a device through the Microsoft Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function. 
-
+The <b>OnRead</b> method is called to handle a read request when an application reads information from a device through the Microsoft Win32 <b>ReadFile</b> or <b>ReadFileEx</b> function.
 
 ## -parameters
 
+### -param pWdfQueue 
 
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from.
 
+### -param pWdfRequest 
 
-### -param pWdfQueue [in]
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object.
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that the request arrives from. 
+### -param NumOfBytesToRead 
 
-
-### -param pWdfRequest [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface that represents the framework request object. 
-
-
-### -param NumOfBytesToRead [in]
-
+[in]
 The size, in bytes, of the read buffer for the request.
 
-
 ## -remarks
-
-
 
 A driver registers the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iqueuecallbackread">IQueueCallbackRead</a> interface when the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createioqueue">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. 
 
@@ -84,13 +77,7 @@ The <b>OnRead</b> method receives every read request type from the queue. (The r
 
 The driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getreadparameters">IWDFIoRequest::GetReadParameters</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a> methods to retrieve information about the request and the read buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iqueuecallbackread">IQueueCallbackRead</a>
 
@@ -109,7 +96,4 @@ The driver can call the <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>
- 
-
- 
 

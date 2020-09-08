@@ -8,9 +8,6 @@ ms.assetid: 58589d8c-f58c-4cb4-8f8e-0021f423efdf
 ms.date: 05/02/2018
 keywords: ["RILACCESSTECHNOLOGYPARAMMASK enumeration"]
 ms.keywords: RILACCESSTECHNOLOGYPARAMMASK, RILACCESSTECHNOLOGYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ACCTECH_ALL, RIL_PARAM_ACCTECH_SYSTEMKIND, netvista.rilaccesstechnologyparammask, ntddrilapitypes/RILACCESSTECHNOLOGYPARAMMASK, ntddrilapitypes/RIL_PARAM_ACCTECH_ALL, ntddrilapitypes/RIL_PARAM_ACCTECH_SYSTEMKIND
-f1_keywords:
- - "rilapitypes/RILACCESSTECHNOLOGYPARAMMASK"
- - "RILACCESSTECHNOLOGYPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,38 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILACCESSTECHNOLOGYPARAMMASK
 targetos: Windows
 req.typenames: RILACCESSTECHNOLOGYPARAMMASK
+f1_keywords:
+ - RILACCESSTECHNOLOGYPARAMMASK
+ - rilapitypes/RILACCESSTECHNOLOGYPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILACCESSTECHNOLOGYPARAMMASK
 ---
 
-# RILACCESSTECHNOLOGYPARAMMASK enumeration
+# RILACCESSTECHNOLOGYPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_PARAM_ACCTECH_SYSTEMTYPE
 
-
 ### -field RIL_PARAM_ACCTECH_SYSTEMKIND
-
 
 ### -field RIL_PARAM_ACCTECH_ALL
 

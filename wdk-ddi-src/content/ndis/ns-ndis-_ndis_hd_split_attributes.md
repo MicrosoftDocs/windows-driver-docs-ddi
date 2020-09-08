@@ -8,9 +8,6 @@ ms.assetid: c3e28d66-1fe8-4cb0-ada0-4292387da19a
 ms.date: 05/02/2018
 keywords: ["NDIS_HD_SPLIT_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES, NDIS_HD_SPLIT_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_HD_SPLIT_ATTRIBUTES, PNDIS_HD_SPLIT_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_HD_SPLIT_ATTRIBUTES, header_data_split_ref_32bcb512-6620-48a5-8073-7b9ef0ef1f18.xml, ndis/NDIS_HD_SPLIT_ATTRIBUTES, ndis/PNDIS_HD_SPLIT_ATTRIBUTES, netvista.ndis_hd_split_attributes"
-f1_keywords:
- - "ndis/NDIS_HD_SPLIT_ATTRIBUTES"
- - "NDIS_HD_SPLIT_ATTRIBUTES"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NDIS_HD_SPLIT_ATTRIBUTES
 targetos: Windows
 req.typenames: NDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES
+f1_keywords:
+ - _NDIS_HD_SPLIT_ATTRIBUTES
+ - ndis/_NDIS_HD_SPLIT_ATTRIBUTES
+ - PNDIS_HD_SPLIT_ATTRIBUTES
+ - ndis/PNDIS_HD_SPLIT_ATTRIBUTES
+ - NDIS_HD_SPLIT_ATTRIBUTES
+ - ndis/NDIS_HD_SPLIT_ATTRIBUTES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_HD_SPLIT_ATTRIBUTES
 ---
 
 # _NDIS_HD_SPLIT_ATTRIBUTES structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_HD_SPLIT_ATTRIBUTES, *PNDIS_HD_SPLIT_ATTRIBUTES
 
 ## -description
 
-
 The NDIS_HD_SPLIT_ATTRIBUTES structure defines header-data split attributes, if any, that are
   associated with a miniport adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -65,7 +64,6 @@ The
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_HD_SPLIT_ATTRIBUTES, the 
      <b>Revision</b> member to NDIS_OBJECT_HD_SPLIT_ATTRIBUTES_REVISION_1, and the 
      <b>Size</b> member to NDIS_SIZEOF_HD_SPLIT_ATTRIBUTES_REVISION_1.
-
 
 ### -field HardwareCapabilities
 
@@ -130,7 +128,6 @@ The current header-data split capabilities that the miniport adapter supports. T
      <b>HardwareCapabilities</b> member. In this case, the flags are set to indicate the current capabilities
      that depend on the current configuration settings.
 
-
 ### -field HDSplitFlags
 
 A set of flags that control the status of header-data split for a miniport adapter. The miniport
@@ -152,7 +149,6 @@ If this flag is set, the miniport driver should enable header-data split in the 
        driver also set the NDIS_HD_SPLIT_CAPS_SUPPORTS_HEADER_DATA_SPLIT flag in the 
        <b>CurrentCapabilities</b> member, NDIS sets NDIS_HD_SPLIT_ENABLE_HEADER_DATA_SPLIT.
 
-
 ### -field BackfillSize
 
 The backfill size, in bytes, for the data portion of a split frame. The miniport driver should set     
@@ -161,7 +157,6 @@ The backfill size, in bytes, for the data portion of a split frame. The miniport
      backfill storage in the data portion for split frames. After 
      <b>NdisMSetMiniportAttributes</b> successfully returns, the driver must use the 
      <b>BackfillSize</b> value that NDIS set to pre-allocate the data buffers.
-
 
 ### -field MaxHeaderSize
 
@@ -184,8 +179,6 @@ The maximum size, in bytes, for the header portion of a split frame. The minipor
 
 ## -remarks
 
-
-
 To support header-data split, a miniport driver passes a pointer to an 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">
     NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a> structure in the 
@@ -198,13 +191,7 @@ To support header-data split, a miniport driver passes a pointer to an
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function
     during initialization.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -220,7 +207,4 @@ To support header-data split, a miniport driver passes a pointer to an
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

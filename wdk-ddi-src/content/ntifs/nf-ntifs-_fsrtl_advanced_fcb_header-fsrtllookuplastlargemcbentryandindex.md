@@ -8,9 +8,6 @@ ms.assetid: 53c3109d-16e4-4db4-9c62-27c6d8501707
 ms.date: 04/16/2018
 keywords: ["FsRtlLookupLastLargeMcbEntryAndIndex function"]
 ms.keywords: FsRtlLookupLastLargeMcbEntryAndIndex, FsRtlLookupLastLargeMcbEntryAndIndex routine [Installable File System Drivers], fsrtlref_d7148458-8a3c-4633-8be3-578623ba4d01.xml, ifsk.fsrtllookuplastlargemcbentryandindex, ntifs/FsRtlLookupLastLargeMcbEntryAndIndex
-f1_keywords:
- - "ntifs/FsRtlLookupLastLargeMcbEntryAndIndex"
- - "FsRtlLookupLastLargeMcbEntryAndIndex"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlLookupLastLargeMcbEntryAndIndex
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlLookupLastLargeMcbEntryAndIndex
+ - ntifs/FsRtlLookupLastLargeMcbEntryAndIndex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlLookupLastLargeMcbEntryAndIndex
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlLookupLastLargeMcbEntryAndIndex function
@@ -49,47 +49,35 @@ ms.custom: RS5
 
 ## -description
 
-
-The <b>FsRtlLookupLastLargeMcbEntryAndIndex</b> routine retrieves the last mapping entry stored in a given map control block (MCB). 
-
+The <b>FsRtlLookupLastLargeMcbEntryAndIndex</b> routine retrieves the last mapping entry stored in a given map control block (MCB).
 
 ## -parameters
 
+### -param OpaqueMcb 
 
+[in]
+Pointer to an initialized MCB structure to be searched.
 
+### -param LargeVbn 
 
-### -param OpaqueMcb [in]
+[out]
+Pointer to a variable that receives the last virtual block number (VBN) that was mapped.
 
-Pointer to an initialized MCB structure to be searched. 
+### -param LargeLbn 
 
+[out]
+Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists.
 
-### -param LargeVbn [out]
+### -param Index 
 
-Pointer to a variable that receives the last virtual block number (VBN) that was mapped. 
-
-
-### -param LargeLbn [out]
-
-Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists. 
-
-
-### -param Index [out]
-
-Pointer to a variable that receives the index of the last run in the MCB. 
-
+[out]
+Pointer to a variable that receives the index of the last run in the MCB.
 
 ## -returns
 
-
-
-<b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>FALSE</b> if the MCB contains no mapping entries, <b>TRUE</b> otherwise. 
-
-
-
+<b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>FALSE</b> if the MCB contains no mapping entries, <b>TRUE</b> otherwise.
 
 ## -remarks
-
-
 
 <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>searches for the last mapping of the last run in the MCB: 
 
@@ -110,12 +98,7 @@ If the last mapping is not a hole, the lookup operation yields a positive value 
 <div class="alert"><b>Note</b>    The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used. </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a>
 
@@ -154,7 +137,4 @@ If the last mapping is not a hole, the lookup operation yields a positive value 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb">FsRtlUninitializeLargeMcb</a>
- 
-
- 
 

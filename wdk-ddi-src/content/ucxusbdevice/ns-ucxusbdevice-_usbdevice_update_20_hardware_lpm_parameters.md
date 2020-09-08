@@ -8,9 +8,6 @@ ms.assetid: B02CB10F-18C9-4E2C-9F30-042588800EA5
 ms.date: 05/07/2018
 keywords: ["USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure"]
 ms.keywords: P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure pointer [Buses], USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure [Buses], _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, buses._usbdevice_update_20_hardware_lpm_parameters, ucxusbdevice/P_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS, ucxusbdevice/_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
-f1_keywords:
- - "ucxusbdevice/USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS"
- - "USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucxusbdevice.h
-api_name:
-- USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
+f1_keywords:
+ - _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
+ - ucxusbdevice/_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
+ - USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
+ - ucxusbdevice/USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucxusbdevice.h
+api_name:
+ - USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 ---
 
 # _USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS structure
@@ -46,54 +48,39 @@ req.typenames: USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 
 ## -description
 
-
 Contains parameters for a request to update USB 2.0 link power management (LPM). UCX passes this structure in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_update">EVT_UCX_USBDEVICE_UPDATE</a> callback function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field HardwareLpmEnable
 
 If set, indicates are request to enable hardware LPM.
 
-
 ### -field RemoteWakeEnable
 
 If set, indicates are request to enable remote wake signal.
-
 
 ### -field HostInitiatedResumeDurationMode
 
 The requested resume period.
 
-
 ### -field BestEffortServiceLatency
 
 The requested best effort service latency.
-
 
 ### -field BestEffortServiceLatencyDeep
 
 The requested best effort service latency deep.
 
-
 ### -field L1Timeout
 
 The requested L1 timeout.
-
 
 ### -field Reserved
 
 Do not use.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_20port_info">ROOTHUB_20PORT_INFO</a>
 
@@ -108,7 +95,4 @@ Do not use.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_update_flags">USBDEVICE_UPDATE_FLAGS</a>
- 
-
- 
 

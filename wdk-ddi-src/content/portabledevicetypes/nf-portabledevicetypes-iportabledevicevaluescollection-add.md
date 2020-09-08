@@ -8,9 +8,6 @@ ms.assetid: 1e95fb27-b6a6-41da-8765-e17bac4f35a1
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValuesCollection::Add"]
 ms.keywords: Add, Add method, Add method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,Add method, IPortableDeviceValuesCollection.Add, IPortableDeviceValuesCollection::Add, IPortableDeviceValuesCollectionAdd, portabledevicetypes/IPortableDeviceValuesCollection::Add, wpddk.iportabledevicevaluescollection_add
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValuesCollection.Add"
- - "IPortableDeviceValuesCollection.Add"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValuesCollection.Add
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValuesCollection::Add
+ - portabledevicetypes/IPortableDeviceValuesCollection::Add
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValuesCollection.Add
 ---
 
 # IPortableDeviceValuesCollection::Add
@@ -47,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Adds an item to the collection.
-
-
-
 
 ## -parameters
 
+### -param pValues 
 
-
-
-### -param pValues [in]
-
+[in]
 Pointer to an <b>IPortableDeviceValues</b> interface to add to the collection. The interface is not actually copied, but <b>AddRef</b> is called on it.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,27 +88,12 @@ There is not enough memory available to add the value to the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection Interface</a>
- 
-
- 
 

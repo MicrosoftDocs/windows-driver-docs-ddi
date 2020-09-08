@@ -8,9 +8,6 @@ ms.assetid: 71a789f1-4f10-44c3-8bd0-a0ea74ec28ab
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_QUEUE_IO_STOP callback function"]
 ms.keywords: DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, EVT_WDF_IO_QUEUE_IO_STOP, EVT_WDF_IO_QUEUE_IO_STOP callback, EvtIoStop, EvtIoStop callback function, kmdf.evtiostop, wdf.evtiostop, wdfio/EvtIoStop
-f1_keywords:
- - "wdfio/EvtIoStop"
- - "EvtIoStop"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfio.h
-api_name:
-- EvtIoStop
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_QUEUE_IO_STOP
+ - wdfio/EVT_WDF_IO_QUEUE_IO_STOP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfio.h
+api_name:
+ - EvtIoStop
 ---
 
 # EVT_WDF_IO_QUEUE_IO_STOP callback function
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtIoStop</i> event callback function completes, requeues, or suspends processing of a specified request because the request's I/O queue is being stopped.
 
-
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to the framework queue object that is associated with the I/O request.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
+### -param ActionFlags 
 
-### -param ActionFlags [in]
-
+[in]
 A bitwise OR of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_stop_action_flags">WDF_REQUEST_STOP_ACTION_FLAGS</a>-typed flags that identify the reason that the callback function is being called and whether the request is cancelable.
 
-
 ## -remarks
-
-
 
 A driver registers an <i>EvtIoStop</i> callback function when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>. For more information about calling <b>WdfIoQueueCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
 
@@ -121,13 +114,7 @@ For more information about the <i>EvtIoStop</i> callback function, see <a href="
 
 This callback function can be called at IRQL <= DISPATCH_LEVEL, unless the <b>ExecutionLevel</b> member of the device or driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure is set to <b>WdfExecutionLevelPassive</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_resume">EvtIoResume</a>
 
@@ -150,7 +137,4 @@ This callback function can be called at IRQL <= DISPATCH_LEVEL, unless the <b>Ex
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequeststopacknowledge">WdfRequestStopAcknowledge</a>
- 
-
- 
 

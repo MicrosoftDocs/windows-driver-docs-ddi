@@ -8,9 +8,6 @@ ms.assetid: 9b729c52-b03b-4b53-ae1a-9a025585ba7b
 ms.date: 05/07/2018
 keywords: ["USBD_INTERFACE_LIST_ENTRY structure"]
 ms.keywords: "*PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY structure pointer [Buses], USBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY structure [Buses], _USBD_INTERFACE_LIST_ENTRY, buses.usbd_interface_list_entry, usbdlib/PUSBD_INTERFACE_LIST_ENTRY, usbdlib/USBD_INTERFACE_LIST_ENTRY, usbstrct_f42a04be-c6c2-44c6-ae18-725929020420.xml"
-f1_keywords:
- - "usbdlib/USBD_INTERFACE_LIST_ENTRY"
- - "USBD_INTERFACE_LIST_ENTRY"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbdlib.h
-api_name:
-- USBD_INTERFACE_LIST_ENTRY
 targetos: Windows
 req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
+f1_keywords:
+ - _USBD_INTERFACE_LIST_ENTRY
+ - usbdlib/_USBD_INTERFACE_LIST_ENTRY
+ - PUSBD_INTERFACE_LIST_ENTRY
+ - usbdlib/PUSBD_INTERFACE_LIST_ENTRY
+ - USBD_INTERFACE_LIST_ENTRY
+ - usbdlib/USBD_INTERFACE_LIST_ENTRY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbdlib.h
+api_name:
+ - USBD_INTERFACE_LIST_ENTRY
 ---
 
 # _USBD_INTERFACE_LIST_ENTRY structure
@@ -46,45 +50,27 @@ req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 
 ## -description
 
-
 The <b>USBD_INTERFACE_LIST_ENTRY</b> structure is used by USB client drivers to create an array of interfaces to be inserted into a configuration request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InterfaceDescriptor
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> structure that describes the interface to be added to the configuration request.
 
-
 ### -field Interface
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_interface_information">USBD_INTERFACE_INFORMATION</a> structure that describes the properties and settings of the interface pointed to by <i>InterfaceDescriptor</i>.
 
-
 ## -remarks
-
-
 
 This structure is used by USB clients with the routine <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createconfigurationrequestex">USBD_CreateConfigurationRequestEx</a>. Clients allocate an array of these structures, one for each interface to be configured. Clients must also allocate a <b>NULL</b> entry in the array to be used as a terminator before calling <b>USBD_CreateConfigurationRequestEx</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createconfigurationrequestex">USBD_CreateConfigurationRequestEx</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 5B0580FF-0829-406A-B511-C0CD91A08D5F
 ms.date: 05/03/2018
 keywords: ["IDebugPlmClient3 interface"]
 ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging],described, dbgeng/IDebugPlmClient3, debugger.idebugplmclient3
-f1_keywords:
- - "dbgeng/IDebugPlmClient3"
- - "IDebugPlmClient3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugPlmClient3
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugPlmClient3
+ - dbgeng/IDebugPlmClient3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugPlmClient3
 ---
 
 # IDebugPlmClient3 interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 This interface supports Process Lifecycle Management (PLM) for the debug client.
-
 
 ## -inheritance
 

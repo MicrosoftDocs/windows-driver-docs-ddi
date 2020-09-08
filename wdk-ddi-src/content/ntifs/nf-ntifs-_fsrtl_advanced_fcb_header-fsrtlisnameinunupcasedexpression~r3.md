@@ -6,37 +6,36 @@ ms.assetid: e7d84543-f480-4d05-9555-d9c4696dfe39
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["FsRtlIsNameInUnUpcasedExpression function"]
-f1_keywords:
- - "ntifs/FsRtlIsNameInUnUpcasedExpression"
- - "FsRtlIsNameInUnUpcasedExpression"
 ms.keywords: FsRtlIsNameInUnUpcasedExpression
 req.header: ntifs.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10 (Version 1803)
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: NtosKrnl.exe
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- FsRtlIsNameInUnUpcasedExpression
 targetos: Windows
-
+f1_keywords:
+ - FsRtlIsNameInUnUpcasedExpression
+ - ntifs/FsRtlIsNameInUnUpcasedExpression
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlIsNameInUnUpcasedExpression
 ---
 
 # FsRtlIsNameInUnUpcasedExpression function
@@ -44,13 +43,13 @@ targetos: Windows
 
 ## -description
 
-The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE. 
+The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE.
 
 ## -parameters
 
 ### -param Expression
 
-A pointer to the pattern string. Can contain wildcard characters. If IgnoreCase is TRUE, Expression must be lowercase. 
+A pointer to the pattern string. Can contain wildcard characters. If IgnoreCase is TRUE, Expression must be lowercase.
 
 ### -param Name
 
@@ -86,4 +85,6 @@ If only one of the string parameters has a length of zero, FsRtlIsNameInUnUpcase
 If both parameters are null strings, FsRtlIsNameInUnUpcasedExpression returns TRUE.
 
 ## -see-also
+
 - [FsRtlIsNameInExpression](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression)
+

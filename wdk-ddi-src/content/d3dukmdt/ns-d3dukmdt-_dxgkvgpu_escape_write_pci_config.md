@@ -8,9 +8,6 @@ ms.assetid: 2B0902DB-B59C-4DC5-A944-02ACE9DA16DC
 ms.date: 05/10/2018
 keywords: ["DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure"]
 ms.keywords: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, display.dxgkvgpu_escape_write_pci_config
-f1_keywords:
- - "d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG"
- - "DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
+f1_keywords:
+ - _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
+ - d3dukmdt/_DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
+ - DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
+ - d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
 ---
 
 # _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure
@@ -46,24 +48,15 @@ req.typenames: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG
 
 ## -description
 
-
 Used to write to the PCI config space.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Header
-
- 
-
 
 ### -field Offset
 
 Offset, in bytes, in the PCI config space.
-
 
 ### -field Size
 

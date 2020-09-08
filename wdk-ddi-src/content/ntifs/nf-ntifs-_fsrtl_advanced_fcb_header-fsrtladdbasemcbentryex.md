@@ -6,39 +6,39 @@ ms.assetid: a99ea591-5af1-410a-9aa3-89839b4330bc
 tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["FsRtlAddBaseMcbEntryEx function"]
-f1_keywords:
- - "ntifs/FsRtlAddBaseMcbEntryEx"
- - "FsRtlAddBaseMcbEntryEx"
 ms.keywords: FsRtlAddBaseMcbEntryEx
 req.header: ntifs.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- FsRtlAddBaseMcbEntryEx
 targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - FsRtlAddBaseMcbEntryEx
+ - ntifs/FsRtlAddBaseMcbEntryEx
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlAddBaseMcbEntryEx
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlAddBaseMcbEntryEx function
@@ -63,9 +63,11 @@ Supplies the starting VBN of the new mapping run to add to the Mcb.
 Supplies the starting Lbn of the new mapping run to add to the Mcb.
 
 ### -param SectorCount
+
 Supplies the size of the new mapping run (in sectors).
 
 ## -returns
+
 This function returns one of the following NTSTATUS values:
 
 Status|Meaning
@@ -87,3 +89,4 @@ An input Lbn value of zero is illegal (i.e., the Mcb structure will never
 map a VBN to a zero Lbn value).
 
 ## -see-also
+

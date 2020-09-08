@@ -8,9 +8,6 @@ ms.assetid: B39DC40A-2B7D-402F-B88C-E6684BF9AA0F
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEventArgs::get_DetailedReasonId"]
 ms.keywords: DetailedReasonId property [Print Devices], DetailedReasonId property [Print Devices],IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs interface [Print Devices],DetailedReasonId property, IPrinterExtensionEventArgs.DetailedReasonId, IPrinterExtensionEventArgs.get_DetailedReasonId, IPrinterExtensionEventArgs::DetailedReasonId, IPrinterExtensionEventArgs::get_DetailedReasonId, get_DetailedReasonId, print.iprinterextensioneventargs_detailedreasonid, printerextension/IPrinterExtensionEventArgs::DetailedReasonId, printerextension/IPrinterExtensionEventArgs::get_DetailedReasonId
-f1_keywords:
- - "printerextension/IPrinterExtensionEventArgs.DetailedReasonId"
- - "IPrinterExtensionEventArgs.DetailedReasonId"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionEventArgs.DetailedReasonId
-- IPrinterExtensionEventArgs.get_DetailedReasonId
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEventArgs::get_DetailedReasonId
+ - printerextension/IPrinterExtensionEventArgs::get_DetailedReasonId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionEventArgs.DetailedReasonId
+ - IPrinterExtensionEventArgs.get_DetailedReasonId
 ---
 
 # IPrinterExtensionEventArgs::get_DetailedReasonId
@@ -47,35 +47,21 @@ req.typenames:
 
 ## -description
 
-
 Gets a more detailed activation reason than what can be retrieved from  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_reasonid">ReasonId</a>.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The value of <b>DetailedReasonId</b> is always {5D5A1704-DFD1-4181-8EEE-815C86EDAD31}, which indicates that the printer extension was activated as  a result of a Bidi event.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_reasonid">ReasonId</a>
- 
-
- 
 

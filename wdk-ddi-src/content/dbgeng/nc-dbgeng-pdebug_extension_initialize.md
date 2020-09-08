@@ -8,9 +8,6 @@ ms.assetid: 2e68fa38-55fc-4538-ae97-ed943d5381be
 ms.date: 05/03/2018
 keywords: ["PDEBUG_EXTENSION_INITIALIZE callback function"]
 ms.keywords: DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml, PDEBUG_EXTENSION_INITIALIZE, PDEBUG_EXTENSION_INITIALIZE callback, dbgeng/DebugExtensionInitialize, debugger.debugextensioninitialize
-f1_keywords:
- - "dbgeng/DebugExtensionInitialize"
- - "DebugExtensionInitialize"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Universal
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dbgeng.h
-api_name:
-- DebugExtensionInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDEBUG_EXTENSION_INITIALIZE
+ - dbgeng/PDEBUG_EXTENSION_INITIALIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dbgeng.h
+api_name:
+ - DebugExtensionInitialize
 ---
 
 # PDEBUG_EXTENSION_INITIALIZE callback function
 
 
 ## -description
-
 
 The <b>DebugExtensionInitialize</b> callback function is called by the engine after loading a DbgEng extension DLL.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -61,22 +60,17 @@ The <b>DebugExtensionInitialize</b> callback function is called by the engine af
 
 ## -parameters
 
+### -param Version 
 
-
-
-### -param Version [out]
-
+[out]
 Receives the version of the extension.  The high 16 bits contain the major version number, and the low 16 bits contain the minor version number.
 
+### -param Flags 
 
-### -param Flags [out]
-
+[out]
 Set this to zero. (Reserved for future use.)
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -99,12 +93,7 @@ The extension was successfully initialized.
 
 Any other value indicates that the extension DLL was unable to initialize and the engine will unload it.
 
-
-
-
 ## -remarks
-
-
 
 The engine looks for this function by name in each extension DLL.  This function must be exported by a DbgEng extension DLL.
 
@@ -126,13 +115,7 @@ There may or may not be a session active when this function is called, so the ex
 
  The function type is defined as PDEBUG_EXTENSION_INITIALIZE in dbgeng.h.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_notify">DebugExtensionNotify</a>
 
@@ -143,7 +126,4 @@ There may or may not be a session active when this function is called, so the ex
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_known_struct">KnownStructOutput</a>
- 
-
- 
 

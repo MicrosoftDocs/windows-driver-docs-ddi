@@ -8,9 +8,6 @@ ms.assetid: 8a7e136a-fc87-481c-bb35-270408cb5071
 ms.date: 04/16/2018
 keywords: ["FILE_FS_CONTROL_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers], PFILE_FS_CONTROL_INFORMATION, PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_CONTROL_INFORMATION, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, ifsk.file_fs_control_information, ntifs/FILE_FS_CONTROL_INFORMATION, ntifs/PFILE_FS_CONTROL_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_FS_CONTROL_INFORMATION"
- - "FILE_FS_CONTROL_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_FS_CONTROL_INFORMATION
 targetos: Windows
 req.typenames: FILE_FS_CONTROL_INFORMATION, *PFILE_FS_CONTROL_INFORMATION
+f1_keywords:
+ - _FILE_FS_CONTROL_INFORMATION
+ - ntifs/_FILE_FS_CONTROL_INFORMATION
+ - PFILE_FS_CONTROL_INFORMATION
+ - ntifs/PFILE_FS_CONTROL_INFORMATION
+ - FILE_FS_CONTROL_INFORMATION
+ - ntifs/FILE_FS_CONTROL_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_FS_CONTROL_INFORMATION
 ---
 
 # _FILE_FS_CONTROL_INFORMATION structure
@@ -46,39 +50,29 @@ req.typenames: FILE_FS_CONTROL_INFORMATION, *PFILE_FS_CONTROL_INFORMATION
 
 ## -description
 
-
-The FILE_FS_CONTROL_INFORMATION structure is used to query or set control information for the files in a directory. 
-
+The FILE_FS_CONTROL_INFORMATION structure is used to query or set control information for the files in a directory.
 
 ## -struct-fields
 
-
-
-
 ### -field FreeSpaceStartFiltering
 
-Minimum amount of free disk space, in bytes, that is required for the Content-Indexing daemon to begin document filtering. 
-
+Minimum amount of free disk space, in bytes, that is required for the Content-Indexing daemon to begin document filtering.
 
 ### -field FreeSpaceThreshold
 
-Minimum amount of free disk space, in bytes, required for the Indexing Service to continue to filter documents and merge word lists. If the amount of free disk space falls below this threshold, a warning message is written to the Microsoft Windows application event log. Filtering and merging are halted until space is freed. 
-
+Minimum amount of free disk space, in bytes, required for the Indexing Service to continue to filter documents and merge word lists. If the amount of free disk space falls below this threshold, a warning message is written to the Microsoft Windows application event log. Filtering and merging are halted until space is freed.
 
 ### -field FreeSpaceStopFiltering
 
-Minimum amount of free disk space, in bytes, that is required for the Content-Indexing daemon to continue document filtering. If the amount of free disk space falls below this threshold, document filtering is halted. 
-
+Minimum amount of free disk space, in bytes, that is required for the Content-Indexing daemon to continue document filtering. If the amount of free disk space falls below this threshold, document filtering is halted.
 
 ### -field DefaultQuotaThreshold
 
-Default per-user disk quota warning threshold for the volume. 
-
+Default per-user disk quota warning threshold for the volume.
 
 ### -field DefaultQuotaLimit
 
-Default per-user disk quota limit for the volume. 
-
+Default per-user disk quota limit for the volume.
 
 ### -field FileSystemControlFlags
 
@@ -220,12 +214,8 @@ ORed combination of all flags in the above table.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 This information can be queried in either of the following ways: 
 
@@ -257,15 +247,9 @@ FILE_WRITE_DATA access to the volume is required to set this information.
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumeinformation">FltSetVolumeInformation</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>, or <b>ZwSetVolumeInformationFile</b> must be at least <b>sizeof</b> (FILE_FS_CONTROL_INFORMATION). 
 
-This structure must be aligned on a LONGLONG (8-byte) boundary. 
-
-
-
+This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>
 
@@ -288,7 +272,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567112">ZwSetVolumeInformationFile</a>
- 
-
- 
 

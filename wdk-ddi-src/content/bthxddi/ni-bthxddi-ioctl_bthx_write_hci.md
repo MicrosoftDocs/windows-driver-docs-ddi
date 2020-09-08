@@ -8,9 +8,6 @@ ms.assetid: 77BBF6AC-F5FA-4795-8898-6DC02983F573
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_WRITE_HCI IOCTL"]
 ms.keywords: IOCTL_BTHX_WRITE_HCI, IOCTL_BTHX_WRITE_HCI control, IOCTL_BTHX_WRITE_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_write, bltooth.ioctl_bthx_write_hci, bthxddi/IOCTL_BTHX_WRITE_HCI
-f1_keywords:
- - "bthxddi/IOCTL_BTHX_WRITE_HCI"
- - "IOCTL_BTHX_WRITE_HCI"
 req.header: bthxddi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BthXDDI.h
-api_name:
-- IOCTL_BTHX_WRITE_HCI
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTHX_WRITE_HCI
+ - bthxddi/IOCTL_BTHX_WRITE_HCI
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BthXDDI.h
+api_name:
+ - IOCTL_BTHX_WRITE_HCI
 ---
 
 # IOCTL_BTHX_WRITE_HCI IOCTL
@@ -46,17 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
 IOCTL_BTHX_WRITE_HCI is used to write Bluetooth ACL Data and Commands to the transport layer.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -68,11 +60,9 @@ The buffer describes a <a href="https://docs.microsoft.com/windows-hardware/driv
 
 Refer to the WDK Bluetooth samples for more information.
 
-
 ### -input-buffer-length
 
 The length of the buffer is the size of the <b>BTHX_HCI_READ_WRITE_CONTEXT</b> structure.
-
 
 ### -output-buffer
 
@@ -84,29 +74,13 @@ The buffer describes a ULONG of the number of bytes written for the input data s
 
 Refer to the WDK Bluetooth samples for more information.
 
-
 ### -output-buffer-length
 
 The length of the buffer is the size of a ULONG.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -132,16 +106,10 @@ The IOCTL completed successfully.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The Bluetooth stack sends IOCTL_BTHX_WRITE_HCI to write HCI ACL data and HCI command to the controller.
 
 The input buffer points to a BTHX_HCI_READ_WRITE_CONTEXT structure whose <b>DataLen</b> member specifies the number of bytes in the <b>Data</b> member. The <b>Type</b> member is set based on whether the packet is a command packet or an ACL data packet.
-
-
 

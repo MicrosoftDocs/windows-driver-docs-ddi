@@ -8,9 +8,6 @@ ms.assetid: 71e3283c-2dbc-4579-a374-e51e123b852f
 ms.date: 04/16/2018
 keywords: ["RxCeFreeIrp function"]
 ms.keywords: RxCeFreeIrp, RxCeFreeIrp function [Installable File System Drivers], ifsk.rxcefreeirp, rxce/RxCeFreeIrp, rxref_93b8da8d-d9fe-41e3-8423-5b3d8102f7a7.xml
-f1_keywords:
- - "rxce/RxCeFreeIrp"
- - "RxCeFreeIrp"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxce.h
-api_name:
-- RxCeFreeIrp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCeFreeIrp
+ - rxce/RxCeFreeIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxce.h
+api_name:
+ - RxCeFreeIrp
 ---
 
 # RxCeFreeIrp function
@@ -46,40 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <b>RxCeFreeIrp</b> frees an IRP.
 
-
 ## -parameters
-
-
-
 
 ### -param pIrp
 
 A pointer to the IRP to be freed.
 
-
 ## -remarks
-
-
 
 An IRP allocated with an associated memory descriptor list allocated with <b>RxCeAllocateIrpWithMDL</b> should be freed when the IRP is completed using <b>RxCeFreeIrp</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceallocateirpwithmdl">RxCeAllocateIrpWithMDL</a>
- 
-
- 
 

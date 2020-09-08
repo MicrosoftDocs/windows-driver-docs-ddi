@@ -8,9 +8,6 @@ ms.assetid: 3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0
 ms.date: 02/26/2018
 keywords: ["IWDFDevice::SetPnpState"]
 ms.keywords: IWDFDevice interface,SetPnpState method, IWDFDevice.SetPnpState, IWDFDevice::SetPnpState, SetPnpState, SetPnpState method, SetPnpState method,IWDFDevice interface, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, umdf.iwdfdevice_setpnpstate, wdf.iwdfdevice_setpnpstate, wudfddi/IWDFDevice::SetPnpState
-f1_keywords:
- - "wudfddi/IWDFDevice.SetPnpState"
- - "IWDFDevice.SetPnpState"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice.SetPnpState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice::SetPnpState
+ - wudfddi/IWDFDevice::SetPnpState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice.SetPnpState
 ---
 
 # IWDFDevice::SetPnpState
@@ -46,24 +46,20 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPnpState</b> method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device.
 
-
 ## -parameters
 
+### -param State 
 
-
-
-### -param State [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 A WDF_TRI_STATE-typed value that identifies how to set the PnP property that <i>State</i> specifies. The following table shows the possible values for <i>Value</i>.
 
 <table>
@@ -102,12 +98,8 @@ Turn on the PnP property.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Before the state of the PnP property that <b>SetPnpState</b> set can take effect, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-commitpnpstate">IWDFDevice::CommitPnpState</a> method.
 
@@ -161,12 +153,7 @@ CUmdfHidDevice::OnCompletion(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
 
@@ -181,7 +168,4 @@ CUmdfHidDevice::OnCompletion(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>
- 
-
- 
 

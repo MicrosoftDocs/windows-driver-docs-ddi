@@ -8,9 +8,6 @@ ms.assetid: 3138F5D7-CF7E-47B4-817C-AFF00C310AD5
 ms.date: 04/30/2018
 keywords: ["PoFxReportDevicePoweredOn function"]
 ms.keywords: PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], kernel.pofxreportdevicepoweredon, wdm/PoFxReportDevicePoweredOn
-f1_keywords:
- - "wdm/PoFxReportDevicePoweredOn"
- - "PoFxReportDevicePoweredOn"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- PoFxReportDevicePoweredOn
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxReportDevicePoweredOn
+ - wdm/PoFxReportDevicePoweredOn
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - PoFxReportDevicePoweredOn
 ---
 
 # PoFxReportDevicePoweredOn function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>PoFxReportDevicePoweredOn</b> routine notifies the power management framework (PoFx) that the device completed the requested transition to the D0 (fully on) power state.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
+[in]
 A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine.
 
-
 ## -remarks
-
-
 
 The driver for a registered device must call <b>PoFxReportDevicePoweredOn</b> after either of the following occurrences:
 
@@ -78,13 +71,7 @@ During a system transition to the S0 state, PoFx sends the driver an <b>IRP_MN_S
 
 On entry to <b>PoFxReportDevicePoweredOn</b>, the device might be in an uninitialized D0 power state in which all of the components in the device are turned on. In response to the <b>PoFxReportDevicePoweredOn</b> call, PoFx configures the device in an initialized D0 state. During this configuration, PoFx switches as many components as it can to low-power Fx power states.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_device_power_required_callback">DevicePowerRequiredCallback</a>
 
@@ -95,7 +82,4 @@ On entry to <b>PoFxReportDevicePoweredOn</b>, the device might be in an uninitia
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
- 
-
- 
 

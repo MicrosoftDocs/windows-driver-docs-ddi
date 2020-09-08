@@ -8,9 +8,6 @@ ms.assetid: 3683735d-ce00-4615-9782-dee9f4753cc7
 ms.date: 05/08/2018
 keywords: ["PCPROPERTY_REQUEST structure"]
 ms.keywords: "*PPCPROPERTY_REQUEST, PCPROPERTY_REQUEST, PCPROPERTY_REQUEST structure [Audio Devices], PPCPROPERTY_REQUEST, PPCPROPERTY_REQUEST structure pointer [Audio Devices], _PCPROPERTY_REQUEST, audio.pcproperty_request, audpc-struct_f153c6fb-8b21-4a81-ab9b-d7b7fef9f9db.xml, portcls/PCPROPERTY_REQUEST, portcls/PPCPROPERTY_REQUEST"
-f1_keywords:
- - "portcls/PCPROPERTY_REQUEST"
- - "PCPROPERTY_REQUEST"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- portcls.h
-api_name:
-- PCPROPERTY_REQUEST
 targetos: Windows
 req.typenames: PCPROPERTY_REQUEST, *PPCPROPERTY_REQUEST
+f1_keywords:
+ - _PCPROPERTY_REQUEST
+ - portcls/_PCPROPERTY_REQUEST
+ - PPCPROPERTY_REQUEST
+ - portcls/PPCPROPERTY_REQUEST
+ - PCPROPERTY_REQUEST
+ - portcls/PCPROPERTY_REQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - portcls.h
+api_name:
+ - PCPROPERTY_REQUEST
 ---
 
 # _PCPROPERTY_REQUEST structure
@@ -46,36 +50,25 @@ req.typenames: PCPROPERTY_REQUEST, *PPCPROPERTY_REQUEST
 
 ## -description
 
-
 The <b>PCPROPERTY_REQUEST</b> structure specifies a property request.
-
 
 ## -struct-fields
 
-
-
-
 ### -field MajorTarget
-
 
 <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer to the main miniport object. This member contains the <i>UnknownMiniport</i> parameter value that the adapter driver previously passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iport-init">IPort::Init</a> method.
 
-
 ### -field MinorTarget
 
-
 <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer to a stream object that is associated with the <b>MajorTarget</b> miniport object. If the target for the property request is a pin instance, this member contains the stream-object pointer that the IMiniport <i>Xxx</i>::NewStream method previously output to the port driver (for example, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavecyclic-newstream">IMiniportWaveCyclic::NewStream</a> method's <i>Stream</i> parameter). Otherwise (if the target for the property request is a filter instance), this member is <b>NULL</b>.
-
 
 ### -field Node
 
 Specifies a node ID. This member identifies the target node for the request. If the target is not a node, this member is set to ULONG(-1).
 
-
 ### -field PropertyItem
 
 Pointer to the property item, which is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcproperty_item">PCPROPERTY_ITEM</a>.
-
 
 ### -field Verb
 
@@ -133,35 +126,27 @@ KSPROPERTY_TYPE_TOPOLOGY
 </ul>
 These flags are described in <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
-
 ### -field InstanceSize
 
 Specifies the size in bytes of the property-instance buffer.
-
 
 ### -field Instance
 
 Pointer to the property-instance buffer
 
-
 ### -field ValueSize
 
 Specifies the size in bytes of the property-value buffer.
-
 
 ### -field Value
 
 Pointer to the property-value buffer
 
-
 ### -field Irp
 
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> containing the client's original property request
 
-
 ## -remarks
-
-
 
 This is the structure that the port driver passes to the miniport driver's property-handler routine. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcproperty_item">PCPROPERTY_ITEM</a> structure contains a function pointer to a property handler that takes a <b>PCPROPERTY_REQUEST</b> pointer as its only call parameter. The port driver allocates a <b>PCPROPERTY_REQUEST</b> structure, extracts the relevant information from the original property request (which the <b>Irp</b> member points to), and loads the information into this structure before calling the handler.
 
@@ -185,13 +170,7 @@ The handler can call <a href="https://docs.microsoft.com/windows/desktop/api/unk
 </ul>
 For background information about audio properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-endpoints--properties-and-events">Audio Endpoints, Properties and Events</a>. For a list of the available audio-specific properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-drivers-property-sets">Audio Drivers Property Sets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty">KSNODEPROPERTY</a>
 
@@ -206,7 +185,4 @@ For background information about audio properties, see <a href="https://docs.mic
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcproperty_item">PCPROPERTY_ITEM</a>
- 
-
- 
 

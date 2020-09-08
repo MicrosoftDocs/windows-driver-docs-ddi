@@ -8,9 +8,6 @@ ms.assetid: d5da15b9-a020-42bf-8876-cec9edf3119f
 ms.date: 02/15/2018
 keywords: ["GET_LOCAL_HOST_INFO6 structure"]
 ms.keywords: "*PGET_LOCAL_HOST_INFO6, 1394/GET_LOCAL_HOST_INFO6, 1394/PGET_LOCAL_HOST_INFO6, 1394stct_90799b58-816d-4624-a194-6b42d64b903c.xml, GET_LOCAL_HOST_INFO6, GET_LOCAL_HOST_INFO6 structure [Buses], IEEE.get_local_host_info6, PGET_LOCAL_HOST_INFO6, PGET_LOCAL_HOST_INFO6 structure pointer [Buses], _GET_LOCAL_HOST_INFO6"
-f1_keywords:
- - "1394/GET_LOCAL_HOST_INFO6"
- - "GET_LOCAL_HOST_INFO6"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- GET_LOCAL_HOST_INFO6
 targetos: Windows
 req.typenames: GET_LOCAL_HOST_INFO6, *PGET_LOCAL_HOST_INFO6
+f1_keywords:
+ - _GET_LOCAL_HOST_INFO6
+ - 1394/_GET_LOCAL_HOST_INFO6
+ - PGET_LOCAL_HOST_INFO6
+ - 1394/PGET_LOCAL_HOST_INFO6
+ - GET_LOCAL_HOST_INFO6
+ - 1394/GET_LOCAL_HOST_INFO6
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - GET_LOCAL_HOST_INFO6
 ---
 
 # _GET_LOCAL_HOST_INFO6 structure
@@ -46,14 +50,9 @@ req.typenames: GET_LOCAL_HOST_INFO6, *PGET_LOCAL_HOST_INFO6
 
 ## -description
 
-
 The GET_LOCAL_HOST_INFO6 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> = GET_HOST_CSR_CONTENTS.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CsrBaseAddress
 
@@ -87,39 +86,24 @@ The current topology map. The bus driver converts this from big-endian to machin
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CsrDataLength
 
 Specifies the length in bytes of the buffer that <b>CsrDataBuffer</b> points to.
 
-
 ### -field CsrDataBuffer
 
 Pointer to the buffer where the bus driver returns the requested CSR data.
 
-
 ## -remarks
-
-
 
 When submitted in a REQUEST_GET_LOCAL_HOST_INFO request, if the <b>CsrDataLength</b> is smaller than the size of the requested data, STATUS_INVALID_BUFFER_SIZE is returned. In this case, the correct buffer size is filled in the <b>CsrDataLength</b> member.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info2">GET_LOCAL_HOST_INFO2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
- 
-
- 
 

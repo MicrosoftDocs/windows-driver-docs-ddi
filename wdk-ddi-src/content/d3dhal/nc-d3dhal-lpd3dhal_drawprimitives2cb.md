@@ -8,9 +8,6 @@ ms.assetid: 6128ff7a-0d2c-48df-8b5e-cab33c5a74f5
 ms.date: 05/10/2018
 keywords: ["LPD3DHAL_DRAWPRIMITIVES2CB callback function"]
 ms.keywords: D3dDrawPrimitives2, D3dDrawPrimitives2 callback function [Display Devices], LPD3DHAL_DRAWPRIMITIVES2CB, LPD3DHAL_DRAWPRIMITIVES2CB callback, d3dfncs_5f3743b4-be3f-4216-883a-af5103a38c7a.xml, d3dhal/D3dDrawPrimitives2, display.d3ddrawprimitives2
-f1_keywords:
- - "d3dhal/D3dDrawPrimitives2"
- - "D3dDrawPrimitives2"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dhal.h
-api_name:
-- D3dDrawPrimitives2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - LPD3DHAL_DRAWPRIMITIVES2CB
+ - d3dhal/LPD3DHAL_DRAWPRIMITIVES2CB
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dhal.h
+api_name:
+ - D3dDrawPrimitives2
 ---
 
 # LPD3DHAL_DRAWPRIMITIVES2CB callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>D3dDrawPrimitives2</b> function renders primitives and returns the updated render state.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -61,19 +56,11 @@ The <b>D3dDrawPrimitives2</b> function renders primitives and returns the update
 
 Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_drawprimitives2data">D3DHAL_DRAWPRIMITIVES2DATA</a> structure that contains the information required for the driver to render one or more primitives.
 
-
 ## -returns
-
-
 
 <b>D3dDrawPrimitives2</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 <b>D3dDrawPrimitives2</b> must be implemented in Microsoft Direct3D drivers.
 
@@ -163,11 +150,7 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER); // Do not stall whethe
 DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBUFSIZE); // Do not stall
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2indexedlinelist">D3DHAL_DP2INDEXEDLINELIST</a>
 
@@ -214,7 +197,4 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/fvf--flexible-vertex-format-">FVF</a>
- 
-
- 
 

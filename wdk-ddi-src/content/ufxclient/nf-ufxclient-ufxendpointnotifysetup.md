@@ -8,9 +8,6 @@ ms.assetid: 147CE46A-315D-4B75-B345-A7C0B01B2078
 ms.date: 05/07/2018
 keywords: ["UfxEndpointNotifySetup function"]
 ms.keywords: UfxEndpointNotifySetup, UfxEndpointNotifySetup method [Buses], buses.ufxendpointnotifysetup, ufxclient/UfxEndpointNotifySetup
-f1_keywords:
- - "ufxclient/UfxEndpointNotifySetup"
- - "UfxEndpointNotifySetup"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxEndpointNotifySetup
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxEndpointNotifySetup
+ - ufxclient/UfxEndpointNotifySetup
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxEndpointNotifySetup
 ---
 
 # UfxEndpointNotifySetup function
@@ -46,28 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Notifies UFX when the client driver receives a setup packet from the host.
 
-
 ## -parameters
-
-
-
 
 ### -param UfxEndpoint
 
 <p>A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate"><b>UfxDeviceCreate</b></a>.</p>
 
+### -param SetupInfo 
 
-### -param SetupInfo [in]
-
+[in]
 A pointer to a USB setup packet described in a <b>USB_DEFAULT_PIPE_SETUP_PACKET</b> structure (defined in Usbspec.h).
 
-
 ## -remarks
-
-
 
 The following example shows how to handle setup packet completion.
 
@@ -90,5 +82,4 @@ The following example shows how to handle setup packet completion.
 </td>
 </tr>
 </table></span></div>
-
 

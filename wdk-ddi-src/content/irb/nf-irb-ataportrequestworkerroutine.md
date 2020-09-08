@@ -8,9 +8,6 @@ ms.assetid: 2d9a6886-aeec-4d61-8c9d-056d1409b905
 ms.date: 03/29/2018
 keywords: ["AtaPortRequestWorkerRoutine function"]
 ms.keywords: AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine routine [Storage Devices], atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, irb/AtaPortRequestWorkerRoutine, storage.ataportrequestworkerroutine
-f1_keywords:
- - "irb/AtaPortRequestWorkerRoutine"
- - "AtaPortRequestWorkerRoutine"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- irb.h
-api_name:
-- AtaPortRequestWorkerRoutine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortRequestWorkerRoutine
+ - irb/AtaPortRequestWorkerRoutine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - irb.h
+api_name:
+ - AtaPortRequestWorkerRoutine
 ---
 
 # AtaPortRequestWorkerRoutine function
@@ -46,39 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortRequestWorkerRoutine</b> routine requests a worker routine.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param ChannelExtension 
 
-
-
-### -param ChannelExtension [in]
-
-A pointer to the channel extension. 
-
+[in]
+A pointer to the channel extension.
 
 ### -param CallBackRoutine
 
 <p>A pointer of type IDE_HW_DPC to the worker routine to call. </p>
 
-
-
-
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
-
-
 
 The miniport driver can request a worker routine to perform tasks that cannot be done in the interrupt service routine. Transferring operations to a worker routine is an effective way to keep the interrupt service routine as small as possible.
 
@@ -102,5 +88,4 @@ VOID
 </td>
 </tr>
 </table></span></div>
-
 

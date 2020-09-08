@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetIndices"
- - "SetIndices"
+ - PFND3DDDI_SETINDICES
+ - d3dumddi/PFND3DDDI_SETINDICES
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETINDICES callback function
+
 
 ## -description
 

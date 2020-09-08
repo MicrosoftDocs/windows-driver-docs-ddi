@@ -8,9 +8,6 @@ ms.assetid: ac77b121-2495-4739-8c8f-96d6c48e4dc6
 ms.date: 04/23/2018
 keywords: ["USBCAMD_DriverEntry function"]
 ms.keywords: USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], stream.usbcamd_driverentry, usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml
-f1_keywords:
- - "usbcamdi/USBCAMD_DriverEntry"
- - "USBCAMD_DriverEntry"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- usbcamd2.lib
-- usbcamd2.dll
-api_name:
-- USBCAMD_DriverEntry
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBCAMD_DriverEntry
+ - usbcamdi/USBCAMD_DriverEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - usbcamd2.lib
+ - usbcamd2.dll
+api_name:
+ - USBCAMD_DriverEntry
 ---
 
 # USBCAMD_DriverEntry function
@@ -47,37 +47,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBCAMD_DriverEntry</b> function registers the minidriver with USBCAMD, effectively binding USBCAMD and the minidriver together.
-
 
 ## -parameters
 
+### -param Context1 
 
-
-
-### -param Context1 [in]
-
+[in]
 Pointer to the first argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the driver object that is created by the system and passed to DriverEntry.
 
+### -param Context2 
 
-### -param Context2 [in]
-
+[in]
 Pointer to the second argument that is passed to the camera minidriver's DriverEntry function. This is effectively a pointer to the registry path that describes the minidriver's registry key.
 
+### -param DeviceContextSize 
 
-### -param DeviceContextSize [in]
-
+[in]
 Specifies the size, in bytes, required for the minidriver's device-specific context.
-
 
 ### -param FrameCOntextSize
 
+### -param ReceivePacket 
 
-
-
-### -param ReceivePacket [in]
-
+[in]
 Pointer to the minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
 
 
@@ -85,32 +78,18 @@ Pointer to the minidriver-defined <a href="https://docs.microsoft.com/windows-ha
 
 Specifies the size, in bytes, required for the minidriver's frame-specific context structure. Use <b>NULL</b> if not needed.
 
-
 ## -returns
-
-
 
 <b>USBCAMD_DriverEntry </b>returns the status of the registration attempt. If a value other than STATUS_SUCCESS is returned, the minidriver is unloaded.
 
-
-
-
 ## -remarks
-
-
 
 A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <b>DriverEntry</b> routine. For more information, see <a href="https://docs.microsoft.com/previous-versions/ff558717(v=vs.85)">DriverEntry for Stream Class Minidrivers</a>
 
 
 <i>FrameContextSize</i> is optional. A non-<b>NULL</b> value should be provided only with calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine">CamNewVideoFrame</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine">CamProcessRawVideoFrame</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a>
 
@@ -121,7 +100,4 @@ A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine">CamProcessRawVideoFrame</a>
- 
-
- 
 

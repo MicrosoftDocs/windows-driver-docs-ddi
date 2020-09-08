@@ -29,8 +29,10 @@ tech.root: display
 req.typenames: D3DKMT_DRIVERVERSION
 ms.custom: 19H1
 f1_keywords:
- - "d3dkmthk/D3DKMT_DRIVERVERSION"
- - "D3DKMT_DRIVERVERSION"
+ - _QAI_DRIVERVERSION
+ - d3dkmthk/_QAI_DRIVERVERSION
+ - D3DKMT_DRIVERVERSION
+ - d3dkmthk/D3DKMT_DRIVERVERSION
 topic_type:
  - APIRef
  - kbSyntax
@@ -47,6 +49,7 @@ dev_langs:
 ---
 
 # _QAI_DRIVERVERSION enumeration
+
 
 ## -description
 

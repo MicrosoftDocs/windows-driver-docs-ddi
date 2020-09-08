@@ -8,9 +8,6 @@ ms.assetid: bca012b4-76ae-4ba5-99b4-92a367774de7
 ms.date: 05/03/2018
 keywords: ["IWiaLog::Log"]
 ms.keywords: IWiaLog interface [Imaging Devices],Log method, IWiaLog.Log, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log, Log method [Imaging Devices], Log method [Imaging Devices],IWiaLog interface, image.iwialog_log, wia_lh/IWiaLog::Log
-f1_keywords:
- - "wia_lh/IWiaLog.Log"
- - "IWiaLog.Log"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wia_lh.h
-api_name:
-- IWiaLog.Log
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaLog::Log
+ - wia_lh/IWiaLog::Log
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wia_lh.h
+api_name:
+ - IWiaLog.Log
 ---
 
 # IWiaLog::Log
+
 
 ## -description
 
@@ -49,14 +50,16 @@ The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagn
 
 ## -parameters
 
-### -param lFlags [in]
+### -param lFlags 
 
+[in]
 Specifies the type of diagnostic message. This parameter can be WIA_WARNING, WIA_TRACE or WIA_ERROR.
 
 ### -param lResID
 
-### -param lDetail [in]
+### -param lDetail 
 
+[in]
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
 
 | Level | Description |
@@ -67,8 +70,9 @@ Specifies the diagnostic detail level of the message. This parameter can be one 
 | WIALOG_LEVEL4 | Logs additional details for WIALOG_LEVEL3. |
 | WIALOG_LEVELXXX | User-defined log levels. |
 
-### -param bstrText [in]
+### -param bstrText 
 
+[in]
 Specifies the error text. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 #### - lResId [in]
@@ -78,3 +82,4 @@ Specifies the resource id. This parameter should be set to WIALOG_NO_RESOURCE_ID
 ## -returns
 
 If the method succeeds, it returns S_OK.  If the method fails, it returns a standard COM error code.
+

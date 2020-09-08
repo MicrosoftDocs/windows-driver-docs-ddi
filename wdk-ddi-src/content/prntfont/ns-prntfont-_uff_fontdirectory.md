@@ -8,9 +8,6 @@ ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.date: 04/20/2018
 keywords: ["UFF_FONTDIRECTORY structure"]
 ms.keywords: "*PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY structure pointer [Print Devices], UFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, print.uff_fontdirectory, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, prntfont/PUFF_FONTDIRECTORY, prntfont/UFF_FONTDIRECTORY"
-f1_keywords:
- - "prntfont/UFF_FONTDIRECTORY"
- - "UFF_FONTDIRECTORY"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- UFF_FONTDIRECTORY
 targetos: Windows
 req.typenames: UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY
+f1_keywords:
+ - _UFF_FONTDIRECTORY
+ - prntfont/_UFF_FONTDIRECTORY
+ - PUFF_FONTDIRECTORY
+ - prntfont/PUFF_FONTDIRECTORY
+ - UFF_FONTDIRECTORY
+ - prntfont/UFF_FONTDIRECTORY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - UFF_FONTDIRECTORY
 ---
 
 # _UFF_FONTDIRECTORY structure
@@ -46,34 +50,25 @@ req.typenames: UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY
 
 ## -description
 
-
 The UFF_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSignature
 
 Specifies the font metrics record signature. This value must be FONT_REC_SIG.
 
-
 ### -field wSize
 
 Specifies the size, in bytes, of the UFF_FONTDIRECTORY structure.
-
 
 ### -field wFontID
 
 Specifies the font identifier. This value must match the <b>wDataID</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure that specifies font metrics information within the .uff file.
 
-
 ### -field sGlyphID
 
 Specifies the glyph set identifier. This value specifies the glyph set that is to be associated with the font. See the following Remarks section.
-
 
 ### -field wFlags
 
@@ -155,42 +150,32 @@ Font metrics are specified in Windows 2000 and later <a href="https://docs.micro
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwInstallerSig
 
 Specifies the signature value of the font installer that installed the font.
 
-
 ### -field offFontName
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned, NULL-terminated, Unicode string representing the name of the font.
-
 
 ### -field offCartridgeName
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned, NULL-terminated, Unicode string representing the name of the font cartridge containing the font. If the font is not contained in a cartridge, this value should be zero.
 
-
 ### -field offFontData
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure specifying a font metrics section.
-
 
 ### -field offGlyphData
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned DATA_HEADER structure specifying a glyph set section. If <b>sGlyphID</b> is zero or negative, <b>offGlyphData</b> should be zero.
 
-
 ### -field offVarData
 
 Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure specifying a data section. If the FONT_FL_PERMANENT_SF flag is set in <b>wFlags</b>, <b>offVarData</b> must be zero.
 
-
 ## -remarks
-
-
 
 If <b>sGlyphID</b> is a greater than zero, it must match the <b>wDataID</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure that specifies a glyph set within the .uff file.
 
@@ -198,16 +183,7 @@ If <b>sGlyphID</b> is less than zero, it must be one of the CC_-prefixed constan
 
 If <b>sGlyphID</b> is zero, Unidrv uses the glyph set resource identifier contained in the font's UNIFM_HDR structure. The glyph set resource must be contained in the minidriver's resource DLL, or else Unidrv uses the default glyph translation.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.date: 04/16/2018
 keywords: ["FsRtlOplockBreakH function"]
 ms.keywords: FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers], fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH
-f1_keywords:
- - "ntifs/FsRtlOplockBreakH"
- - "FsRtlOplockBreakH"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlOplockBreakH
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlOplockBreakH
+ - ntifs/FsRtlOplockBreakH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlOplockBreakH
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlOplockBreakH function
@@ -49,27 +49,23 @@ ms.custom: RS5
 
 ## -description
 
-
-The <b>FsRtlOplockBreakH</b> routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks). 
-
+The <b>FsRtlOplockBreakH</b> routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks).
 
 ## -parameters
 
+### -param Oplock 
 
+[in]
+An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
+### -param Irp 
 
-### -param Oplock [in]
+[in]
+A pointer to the IRP for the I/O operation.
 
-An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>. 
+### -param Flags 
 
-
-### -param Irp [in]
-
-A pointer to the IRP for the I/O operation. 
-
-
-### -param Flags [in]
-
+[in]
 A bitmask for the associated file I/O operation. A file system or filter driver sets bits to specify the behavior of <b>FsRtlOplockBreakH</b>. The <i>Flags</i> parameter has the following options:
 
 
@@ -86,16 +82,16 @@ Specifies to allow an oplock break to proceed without blocking or pending the op
 
 Supported in Windows 7 and later versions.
 
-Specifies to allow CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key. 
+Specifies to allow CACHE_HANDLE_LEVEL oplock breaks to proceed regardless of the oplock key.
 
+### -param Context 
 
-### -param Context [in, optional]
+[in, optional]
+A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to.
 
-A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. 
+### -param CompletionRoutine 
 
-
-### -param CompletionRoutine [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the oplock break is completed. 
 
 This routine is declared as follows: 
@@ -128,11 +124,11 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 
 #### Irp
 
-A pointer to the IRP for the I/O operation. 
+A pointer to the IRP for the I/O operation.
 
+### -param PostIrpRoutine 
 
-### -param PostIrpRoutine [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied callback routine to be called if the I/O operation is to be pended. The routine is called before the oplock package pends the IRP. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 
@@ -163,12 +159,9 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 
 #### Irp
 
-A pointer to the IRP for the I/O operation. 
-
+A pointer to the IRP for the I/O operation.
 
 ## -returns
-
-
 
 <b>FsRtlOplockBreakH </b>returns STATUS_SUCCESS or an appropriate NTSTATUS code, such as one of the following: 
 
@@ -211,35 +204,20 @@ The opportunistic lock (oplock) break cannot be accomplished. The IRP is an IRP_
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When an operation must break CACHE_HANDLE_LEVEL oplocks, the operation calls <b>FsRtlOplockBreakH</b>. 
 
 If the caller specifies the OPLOCK_FLAG_IGNORE_OPLOCK_KEYS flag in the <i>Flags</i> parameter, <b>FsRtlOplockBreakH</b> breaks all CACHE_HANDLE_LEVEL oplocks, regardless of the oplock key. The default behavior of <b>FsRtlOplockBreakH</b> is to break oplocks whose keys do not match the key on the caller's file object.
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockbreakh">FltOplockBreakH</a> instead of <b>FsRtlOplockBreakH</b>. 
-
-
-
+Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockbreakh">FltOplockBreakH</a> instead of <b>FsRtlOplockBreakH</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockbreakh">FltOplockBreakH</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>
- 
-
- 
 

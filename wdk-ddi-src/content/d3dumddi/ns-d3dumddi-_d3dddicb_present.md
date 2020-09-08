@@ -8,9 +8,6 @@ ms.assetid: 086d95a3-1b3a-4e09-9a39-e1972e0e306c
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_PRESENT structure"]
 ms.keywords: D3DDDICB_PRESENT, D3DDDICB_PRESENT structure [Display Devices], D3D_param_Structs_969f252f-fe5c-4351-9c7a-746fd33cb405.xml, _D3DDDICB_PRESENT, d3dumddi/D3DDDICB_PRESENT, display.d3dddicb_present
-f1_keywords:
- - "d3dumddi/D3DDDICB_PRESENT"
- - "D3DDDICB_PRESENT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_PRESENT
 targetos: Windows
 req.typenames: D3DDDICB_PRESENT
+f1_keywords:
+ - _D3DDDICB_PRESENT
+ - d3dumddi/_D3DDDICB_PRESENT
+ - D3DDDICB_PRESENT
+ - d3dumddi/D3DDDICB_PRESENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_PRESENT
 ---
 
 # _D3DDDICB_PRESENT structure
@@ -46,34 +48,25 @@ req.typenames: D3DDDICB_PRESENT
 
 ## -description
 
-
-The D3DDDICB_PRESENT structure describes allocations that content is copied to and from. 
-
+The D3DDDICB_PRESENT structure describes allocations that content is copied to and from.
 
 ## -struct-fields
-
-
-
 
 ### -field hSrcAllocation
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the source allocation. The Microsoft Direct3D runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a> function returns this handle. Therefore, the user-mode display driver should use this handle to copy content from.
 
-
 ### -field hDstAllocation
 
 [in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the destination allocation. <b>hDstAllocation</b> can be zero if the destination is unknown; kernel mode will determine the destination just before DMA of the hardware command stream to the graphics processor.
 
-
 ### -field hContext
 
-[in] A handle to the context that the driver submits the copy operation to. The user-mode display driver previously created this context by calling the <a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function. 
-
+[in] A handle to the context that the driver submits the copy operation to. The user-mode display driver previously created this context by calling the <a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function.
 
 ### -field BroadcastContextCount
 
 [in] The number of additional contexts in the array that the <b>BroadcastContext</b> member specifies.
-
 
 ### -field BroadcastContext
 
@@ -81,8 +74,7 @@ The D3DDDICB_PRESENT structure describes allocations that content is copied to a
 
 Broadcasting is supported only for flip operations. To broadcast a flip operation, the display miniport driver must support memory mapped I/O (MMIO)-based flips. To indicate support of MMIO flips, the display miniport driver sets the <b>FlipOnVSyncMmIo</b> bit-field flag in the <b>FlipCaps</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a> structure when its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called.
 
-The original context that the <b>hContext</b> member specifies and that the user-mode display driver presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the user-mode display driver sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context. 
-
+The original context that the <b>hContext</b> member specifies and that the user-mode display driver presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the user-mode display driver sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context.
 
 ### -field BroadcastSrcAllocation
 
@@ -96,42 +88,30 @@ If non-zero, represents the destination allocations of the present.
 
 ### -field PrivateDriverDataSize
 
-Private driver data size in bytes. 
-
+Private driver data size in bytes.
 
 ### -field pPrivateDriverData
 
 Private driver data to pass to DdiPresent.
 
-
 ### -field bOptimizeForComposition
 
-DWM is involved in composition. 
-
+DWM is involved in composition.
 
 ### -field SyncIntervalOverrideValid
 
-Override app sync interval is valid. 
-
+Override app sync interval is valid.
 
 ### -field SyncIntervalOverride
 
  
 Override app sync interval.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentcb">pfnPresentCb</a>
- 
-
- 
 

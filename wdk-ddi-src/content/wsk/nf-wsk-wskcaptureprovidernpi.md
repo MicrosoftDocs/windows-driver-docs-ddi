@@ -8,9 +8,6 @@ ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.date: 05/02/2018
 keywords: ["WskCaptureProviderNPI function"]
 ms.keywords: WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml
-f1_keywords:
- - "wsk/WskCaptureProviderNPI"
- - "WskCaptureProviderNPI"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Netio.lib
-- Netio.dll
-api_name:
-- WskCaptureProviderNPI
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WskCaptureProviderNPI
+ - wsk/WskCaptureProviderNPI
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Netio.lib
+ - Netio.dll
+api_name:
+ - WskCaptureProviderNPI
 ---
 
 # WskCaptureProviderNPI function
@@ -47,28 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskCaptureProviderNPI</b> function captures a provider 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a> when it becomes available from the WSK subsystem.
 
-
 ## -parameters
 
+### -param WskRegistration 
 
-
-
-### -param WskRegistration [in]
-
+[in]
 A pointer to the memory location initialized by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance. For more information, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>.
 
+### -param WaitTimeout 
 
-### -param WaitTimeout [in]
-
+[in]
 The time, in milliseconds, that the 
      <b>WskCaptureProviderNPI</b> function can wait until the WSK provider NPI becomes available. Alternately,
      the following can be specified:
@@ -92,17 +88,14 @@ For more information about how this parameter is used, see
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
      Kernel Application</a>.
 
+### -param WskProviderNpi 
 
-### -param WskProviderNpi [out]
-
+[out]
 A pointer to the NPI returned by the WSK provider. This 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a> structure contains a
      pointer to the WSK provider dispatch table of WSK functions that the WSK application can call.
 
-
 ## -returns
-
-
 
 <b>WskCaptureProviderNPI</b> returns one of the following NTSTATUS codes:
 
@@ -156,14 +149,8 @@ The provider NPI capture failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For each call to 
     <b>WskCaptureProviderNPI</b> that returns a success code, there must be exactly one corresponding 
@@ -190,13 +177,7 @@ Callers of the
     <i>WaitTimeout</i> is not set to WSK_NO_WAIT; otherwise, callers must be running at IRQL <=
     DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskderegister">WskDeregister</a>
 
@@ -207,7 +188,4 @@ Callers of the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a>
- 
-
- 
 

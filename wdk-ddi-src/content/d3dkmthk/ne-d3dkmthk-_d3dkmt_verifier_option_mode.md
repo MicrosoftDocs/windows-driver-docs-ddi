@@ -5,36 +5,39 @@ description: The verifier option modes.
 ms.assetid: 9f290ab7-2580-45a4-a437-32642c91e7db
 ms.date: 10/19/2018
 keywords: ["D3DKMT_VERIFIER_OPTION_MODE enumeration"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_VERIFIER_OPTION_MODE"
- - "_D3DKMT_VERIFIER_OPTION_MODE"
-ms.keywords: _D3DKMT_VERIFIER_OPTION_MODE, D3DKMT_VERIFIER_OPTION_MODE, 
+ms.keywords: _D3DKMT_VERIFIER_OPTION_MODE, D3DKMT_VERIFIER_OPTION_MODE,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3DKMT_VERIFIER_OPTION_MODE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_VERIFIER_OPTION_MODE
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_VERIFIER_OPTION_MODE
+ - d3dkmthk/_D3DKMT_VERIFIER_OPTION_MODE
+ - D3DKMT_VERIFIER_OPTION_MODE
+ - d3dkmthk/D3DKMT_VERIFIER_OPTION_MODE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_VERIFIER_OPTION_MODE
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_VERIFIER_OPTION_MODE enumeration
+
 
 ## -description
 
@@ -53,3 +56,4 @@ Set.
 ## -remarks
 
 ## -see-also
+

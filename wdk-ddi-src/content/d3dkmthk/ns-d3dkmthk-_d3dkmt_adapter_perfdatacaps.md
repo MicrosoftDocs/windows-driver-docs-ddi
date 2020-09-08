@@ -5,38 +5,41 @@ description: Represents data capabilities that are static and queried once per G
 ms.assetid: 3b903827-ca27-425d-afdf-04e1d43436dc
 ms.date: 10/19/2018
 keywords: ["D3DKMT_ADAPTER_PERFDATACAPS structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_ADAPTER_PERFDATACAPS"
- - "_D3DKMT_ADAPTER_PERFDATACAPS"
 ms.keywords: _D3DKMT_ADAPTER_PERFDATACAPS, D3DKMT_ADAPTER_PERFDATACAPS,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_ADAPTER_PERFDATACAPS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmthk.h
-api_name:
-- _D3DKMT_ADAPTER_PERFDATACAPS
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _D3DKMT_ADAPTER_PERFDATACAPS
+ - d3dkmthk/_D3DKMT_ADAPTER_PERFDATACAPS
+ - D3DKMT_ADAPTER_PERFDATACAPS
+ - d3dkmthk/D3DKMT_ADAPTER_PERFDATACAPS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_ADAPTER_PERFDATACAPS
+product:
+ - Windows
 ---
 
 # _D3DKMT_ADAPTER_PERFDATACAPS structure
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: b9dd2890-4b2d-4fe1-88bb-30d94ff36c44
 ms.date: 04/16/2018
 keywords: ["FsRtlGetNextExtraCreateParameter function"]
 ms.keywords: FsRtlGetNextExtraCreateParameter, FsRtlGetNextExtraCreateParameter routine [Installable File System Drivers], fsrtlref_096516d0-6888-4dfa-98b3-b7b67794bf08.xml, ifsk.fsrtlgetnextextracreateparameter, ntifs/FsRtlGetNextExtraCreateParameter
-f1_keywords:
- - "ntifs/FsRtlGetNextExtraCreateParameter"
- - "FsRtlGetNextExtraCreateParameter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlGetNextExtraCreateParameter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlGetNextExtraCreateParameter
+ - ntifs/FsRtlGetNextExtraCreateParameter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlGetNextExtraCreateParameter
 ---
 
 # FsRtlGetNextExtraCreateParameter function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlGetNextExtraCreateParameter</b> routine returns a pointer to the next (or first) extra create parameter (ECP) context structure  in a given ECP list.
-
 
 ## -parameters
 
+### -param EcpList 
 
-
-
-### -param EcpList [in]
-
+[in]
 Pointer to the ECP list to examine.
 
+### -param CurrentEcpContext 
 
-### -param CurrentEcpContext [in, optional]
-
+[in, optional]
 Optional pointer to an ECP context structure in the given ECP list.  If present, <b>FsRtlGetNextExtraCreateParameter</b> returns a pointer to the ECP after the <i>CurrentEcpContext</i> ECP context structure.  If <i>CurrentEcpContext</i> is <b>NULL</b>, <b>FsRtlGetNextExtraCreateParameter</b> returns the first ECP context structure in the list.
 
+### -param NextEcpType 
 
-### -param NextEcpType [out, optional]
-
+[out, optional]
 Optional parameter that receives a pointer to the GUID of the returned ECP context structure.
 
+### -param NextEcpContext 
 
-### -param NextEcpContext [out]
-
+[out]
 Optional parameter that receives a pointer to the returned ECP context structure.
 
+### -param NextEcpContextSize 
 
-### -param NextEcpContextSize [out, optional]
-
+[out, optional]
 Optional parameter that receives the size, in bytes, of the returned ECP context structure.
 
-
 ## -returns
-
-
 
 <b>FsRtlGetNextExtraCreateParameter</b> returns one of the following NTSTATUS values:
 
@@ -125,24 +118,12 @@ The <i>EcpList</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The<b>FsRtlGetNextExtraCreateParameter</b> routine processes an ECP list in a non-circular manner.  That is, if the ECP context structure pointed to by the <i>CurrentEcpContext</i> parameter is the last element in the ECP list, there is no "next" ECP in the list and the routine returns STATUS_NOT_FOUND.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -189,7 +170,4 @@ The<b>FsRtlGetNextExtraCreateParameter</b> routine processes an ECP list in a no
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
- 
-
- 
 

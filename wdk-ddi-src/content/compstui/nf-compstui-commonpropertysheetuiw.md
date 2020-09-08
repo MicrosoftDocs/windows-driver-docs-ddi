@@ -8,9 +8,6 @@ ms.assetid: 63d88589-455a-4923-bb3a-61d977732603
 ms.date: 04/20/2018
 keywords: ["CommonPropertySheetUIW function"]
 ms.keywords: CommonPropertySheetUI, CommonPropertySheetUI function [Print Devices], CommonPropertySheetUIA, CommonPropertySheetUIW, compstui/CommonPropertySheetUI, cpsuifnc_547a4235-9e08-43fc-acae-b30091032ab3.xml, print.commonpropertysheetui
-f1_keywords:
- - "compstui/CommonPropertySheetUI"
- - "CommonPropertySheetUI"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- compstui.h
-api_name:
-- CommonPropertySheetUI
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CommonPropertySheetUIW
+ - compstui/CommonPropertySheetUIW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - compstui.h
+api_name:
+ - CommonPropertySheetUI
 ---
 
 # CommonPropertySheetUIW function
@@ -46,38 +46,27 @@ req.typenames:
 
 ## -description
 
-
 CPSUI's <b>CommonPropertySheetUI</b> function displays property sheet pages and allows user modifications to displayed values.
 
-
 ## -parameters
-
-
-
 
 ### -param hWndOwner
 
 Caller-supplied window handle identifying the window into which new property sheet pages are to be placed.
 
-
 ### -param pfnPropSheetUI
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed callback function.
-
 
 ### -param lParam
 
 Caller-supplied value that is used as an input argument to the <i>pfnPropSheetUI</i> function. This value can be a pointer.
 
-
 ### -param pResult
 
 Caller-supplied pointer to a DWORD that receives the <i>pfnPropSheetUI</i> function's final return status. If <b>NULL</b>, the final return status is not returned. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 The <b>CommonPropertySheetUI</b> function returns one of the following values:
 
@@ -142,14 +131,8 @@ A failure occurred. The ERR_CPSUI-prefixed error codes are defined in compstui.h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CommonPropertySheetUI</b> function is CPSUI's entry point for applications. A CPSUI application (such as the Microsoft NT-based operating system print spooler) can call the function to add one or more property sheet pages to a predefined parent window. CPSUI displays the pages, allows the user to modify them, and notifies the application of user activity through callback functions.
 
@@ -180,6 +163,4 @@ When the user chooses the <b>OK</b> or <b>Cancel</b> button, the <b>CommonProper
 For more information about the sequence of operation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-cpsui-with-printer-drivers">Using CPSUI with Printer Drivers</a>, in the section entitled <a href="https://docs.microsoft.com/windows-hardware/drivers/print/common-property-sheet-user-interface">CPSUI</a>.
 
 The <b>CommonPropertySheetUI</b> function actually calls the <i>pfnPropSheetUI</i> callback several times, specifying different <b>Reason</b> member values in the callback's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. Each time the callback returns, it places a result status in the PROPSHEETUI_INFO structure's <b>Result</b> member. When the <b>CommonPropertySheetUI</b> function returns, it copies the final contents of <b>Result</b> into the location pointed to by <i>pResult</i>.
-
-
 

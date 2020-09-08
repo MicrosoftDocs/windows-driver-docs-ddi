@@ -8,9 +8,6 @@ ms.assetid: 2BD1A2F8-BAA2-40A3-9C97-667780A6F395
 ms.date: 04/23/2018
 keywords: ["KSCOMPLETION_INVOCATION enumeration"]
 ms.keywords: KSCOMPLETION_INVOCATION, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnCancel, KsInvokeOnError, KsInvokeOnSuccess, ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnCancel, ks/KsInvokeOnError, ks/KsInvokeOnSuccess, stream.kscompletion_invocation
-f1_keywords:
- - "ks/KSCOMPLETION_INVOCATION"
- - "KSCOMPLETION_INVOCATION"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSCOMPLETION_INVOCATION
 targetos: Windows
 req.typenames: KSCOMPLETION_INVOCATION
+f1_keywords:
+ - KSCOMPLETION_INVOCATION
+ - ks/KSCOMPLETION_INVOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSCOMPLETION_INVOCATION
 ---
 
 # KSCOMPLETION_INVOCATION enumeration
@@ -46,24 +46,15 @@ req.typenames: KSCOMPLETION_INVOCATION
 
 ## -description
 
-
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field KsInvokeOnSuccess
 
 Invokes the completion routine on success.
 
-
 ### -field KsInvokeOnError
 
 Invokes the completion routine on error.
-
 
 ### -field KsInvokeOnCancel
 

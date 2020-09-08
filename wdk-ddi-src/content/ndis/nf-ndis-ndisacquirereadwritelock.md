@@ -8,9 +8,6 @@ ms.assetid: 563b4bff-36ee-4597-ae6e-7d3811592549
 ms.date: 05/02/2018
 keywords: ["NdisAcquireReadWriteLock function"]
 ms.keywords: NdisAcquireReadWriteLock, NdisAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireReadWriteLock, ndis_read_write_lock_ref_6a27c811-da37-410d-8ca6-d982832b1d09.xml, netvista.ndisacquirereadwritelock
-f1_keywords:
- - "ndis/NdisAcquireReadWriteLock"
- - "NdisAcquireReadWriteLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ndis.sys
-api_name:
-- NdisAcquireReadWriteLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAcquireReadWriteLock
+ - ndis/NdisAcquireReadWriteLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ndis.sys
+api_name:
+ - NdisAcquireReadWriteLock
 ---
 
 # NdisAcquireReadWriteLock function
 
 
 ## -description
-
 
 The 
   <b>NdisAcquireReadWriteLock</b> function acquires a lock that the caller uses for either write or read
@@ -54,20 +53,17 @@ The
 
 ## -parameters
 
+### -param Lock 
 
-
-
-### -param Lock [in, out]
-
+[in, out]
 A pointer to an opaque variable that represents a lock. The caller can use this lock to access
      shared resources.
 
+### -param fWrite 
 
-### -param fWrite [in]
-
+[in]
 A Boolean value. If the value is <b>TRUE</b>, this function is provided with write access to shared
      resources; if the value is <b>FALSE</b>, this function is provided with read access.
-
 
 ### -param _Requires_lock_not_held_
 
@@ -76,12 +72,7 @@ A Boolean value. If the value is <b>TRUE</b>, this function is provided with wri
      variable of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state">LOCK_STATE</a> for each attempt that it makes to acquire the lock from the same non-ISR
      driver thread.
 
-
-
-
 ## -remarks
-
-
 
 The driver must initialize a variable of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_rw_lock">NDIS_RW_LOCK</a> using the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializereadwritelock">
@@ -124,13 +115,7 @@ For more information about acquiring and releasing NDIS spin locks, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_disable_interrupt">MiniportDisableInterruptEx</a>
 
@@ -163,7 +148,4 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564521">NdisReleaseReadWriteLock</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: d36174ef-4df2-49ec-9167-cfb150f090f8
 ms.date: 05/02/2018
 keywords: ["NdisWriteErrorLogEntry function"]
 ms.keywords: NdisWriteErrorLogEntry, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, ndis/NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry
-f1_keywords:
- - "ndis/NdisWriteErrorLogEntry"
- - "NdisWriteErrorLogEntry"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisWriteErrorLogEntry
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisWriteErrorLogEntry
+ - ndis/NdisWriteErrorLogEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisWriteErrorLogEntry
 ---
 
 # NdisWriteErrorLogEntry function
@@ -47,24 +47,20 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisWriteErrorLogEntry</b> writes an entry to the system I/O error log file.
-
 
 ## -parameters
 
+### -param NdisAdapterHandle 
 
-
-
-### -param NdisAdapterHandle [in]
-
+[in]
 Specifies the handle representing the NIC that is the cause of the I/O error to be logged. This
      handle is an input parameter to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param ErrorCode 
 
-### -param ErrorCode [in]
-
+[in]
 Specifies the NDIS_ERROR_CODE_<i>XXX</i> code that best describes the I/O error as one of the following values:
      
 
@@ -160,11 +156,10 @@ The amount of receive buffer memory that is available is too small to receive da
 
 The network adapter hardware is disabled.
 
+### -param NumberOfErrorValues 
 
-### -param NumberOfErrorValues [in]
-
+[in]
 Specifies the number of ULONG values to follow this parameter.
-
 
 ### -param param
 
@@ -177,10 +172,7 @@ Specifies the number of ULONG values to follow this parameter.
 
 Specifies a variable-sized array of ULONGs associated with the error to be logged.
 
-
 ## -remarks
-
-
 
 <b>NdisWriteErrorLogEntry</b> allocates an I/O error log record, fills in the record with the supplied
     information about the error, and then writes the record to the I/O error log file.
@@ -208,13 +200,7 @@ In general, a miniport driver calls
     Logging these kinds of I/O errors helps users or system administrators to identify a badly configured NIC
     or a NIC with failing hardware components.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -225,7 +211,4 @@ In general, a miniport driver calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

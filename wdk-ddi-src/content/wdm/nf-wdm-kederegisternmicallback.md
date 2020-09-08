@@ -8,9 +8,6 @@ ms.assetid: 45022490-8130-449c-8ec9-380be0a3a03d
 ms.date: 04/30/2018
 keywords: ["KeDeregisterNmiCallback function"]
 ms.keywords: KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, kernel.kederegisternmicallback, wdm/KeDeregisterNmiCallback
-f1_keywords:
- - "wdm/KeDeregisterNmiCallback"
- - "KeDeregisterNmiCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeDeregisterNmiCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeDeregisterNmiCallback
+ - wdm/KeDeregisterNmiCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeDeregisterNmiCallback
 ---
 
 # KeDeregisterNmiCallback function
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeDeregisterNmiCallback</b> routine deregisters a nonmaskable interrupt (NMI) callback registered by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisternmicallback">KeRegisterNmiCallback</a>.
-
 
 ## -parameters
 
+### -param Handle 
 
-
-
-### -param Handle [in]
-
-Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisternmicallback">KeRegisterNmiCallback</a> when the NMI callback was registered. 
-
+[in]
+Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisternmicallback">KeRegisterNmiCallback</a> when the NMI callback was registered.
 
 ## -returns
 
-
-
 The <b>KeDeregisterNmiCallback</b> routine returns STATUS_SUCCESS if the callback is successfully removed. It returns STATUS_INVALID_HANDLE if no callback matching the provided <i>Handle</i> value is found.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisternmicallback">KeRegisterNmiCallback</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1e975626-fa47-456f-a2a9-48506c67cbe5
 ms.date: 04/16/2018
 keywords: ["FltGetVolumeProperties function"]
 ms.keywords: FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml, FltGetVolumeProperties, FltGetVolumeProperties routine [Installable File System Drivers], fltkernel/FltGetVolumeProperties, ifsk.fltgetvolumeproperties
-f1_keywords:
- - "fltkernel/FltGetVolumeProperties"
- - "FltGetVolumeProperties"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetVolumeProperties
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetVolumeProperties
+ - fltkernel/FltGetVolumeProperties
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetVolumeProperties
 ---
 
 # FltGetVolumeProperties function
@@ -46,38 +46,30 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetVolumeProperties</b> routine returns volume property information for the given volume. 
-
+The <b>FltGetVolumeProperties</b> routine returns volume property information for the given volume.
 
 ## -parameters
 
+### -param Volume 
 
+[in]
+Opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>.
 
+### -param VolumeProperties 
 
-### -param Volume [in]
-
-Opaque pointer for the volume. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param VolumeProperties [out]
-
-Pointer to a caller-allocated buffer that receives the requested volume property information. If <i>Length</i> is zero on input, this parameter is ignored. Otherwise, this parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated buffer that receives the requested volume property information. If <i>Length</i> is zero on input, this parameter is ignored. Otherwise, this parameter is required and cannot be <b>NULL</b>.
 
 ### -param VolumePropertiesLength
 
 <p>Size, in bytes, of the buffer pointed to by the <i>VolumeProperties</i> parameter. This parameter is optional and can be zero. If it is zero, <i>LengthReturned</i> receives the size, in bytes, of the buffer needed to hold the volume properties. If this parameter is nonzero, it must be at least the value of <b>sizeof(</b>FLT_VOLUME_PROPERTIES<b>)</b>. </p>
 
+### -param LengthReturned 
 
-### -param LengthReturned [out]
-
-Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in <i>VolumeProperties</i>. If <b>FltGetVolumeProperties</b> returns STATUS_BUFFER_TOO_SMALL, or if <i>Length</i> is zero on input, this parameter instead receives the size, in bytes, of the buffer needed to hold the volume properties. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in <i>VolumeProperties</i>. If <b>FltGetVolumeProperties</b> returns STATUS_BUFFER_TOO_SMALL, or if <i>Length</i> is zero on input, this parameter instead receives the size, in bytes, of the buffer needed to hold the volume properties. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetVolumeProperties</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -109,31 +101,16 @@ The buffer that the <i>VolumeProperties</i> parameter points to is not large eno
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>FltGetVolumeProperties</b> only returns information that can safely be queried during the mount process without risk of a system deadlock. Therefore, a minifilter driver commonly calls this routine from a post-mount callback function or an <i>InstanceSetupCallback</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>) routine to determine whether to attach to a given volume. 
-
-
-
+<b>FltGetVolumeProperties</b> only returns information that can safely be queried during the mount process without risk of a system deadlock. Therefore, a minifilter driver commonly calls this routine from a post-mount callback function or an <i>InstanceSetupCallback</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>) routine to determine whether to attach to a given volume.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_volume_properties">FLT_VOLUME_PROPERTIES</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>
- 
-
- 
 

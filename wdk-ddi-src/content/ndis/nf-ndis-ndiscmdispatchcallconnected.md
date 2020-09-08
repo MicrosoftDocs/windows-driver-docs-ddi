@@ -8,9 +8,6 @@ ms.assetid: c5fcca82-ab8f-4ea9-86df-295f43fe7afa
 ms.date: 05/02/2018
 keywords: ["NdisCmDispatchCallConnected function"]
 ms.keywords: NdisCmDispatchCallConnected, NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml, ndis/NdisCmDispatchCallConnected, netvista.ndiscmdispatchcallconnected
-f1_keywords:
- - "ndis/NdisCmDispatchCallConnected"
- - "NdisCmDispatchCallConnected"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmDispatchCallConnected
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmDispatchCallConnected
+ - ndis/NdisCmDispatchCallConnected
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmDispatchCallConnected
 ---
 
 # NdisCmDispatchCallConnected function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmDispatchCallConnected</b> notifies NDIS and the client that data transfers can begin on a VC that
   the call manager created for an 
   <i>incoming</i> call initiated on a remote node.
 
-
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle to the VC that represents the connection, which was created with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> when the call manager's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
      ProtocolCoReceiveNetBufferLists</a> function was notified of the incoming call.
 
-
 ## -remarks
-
-
 
 A stand-alone CM's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_incoming_call_complete">
@@ -86,13 +79,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     call-management support call 
     <b>NdisMCmDispatchCallConnected</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingcall">NdisCmDispatchIncomingCall</a>
 
@@ -113,7 +100,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
    ProtocolCoReceiveNetBufferLists</a>
- 
-
- 
 

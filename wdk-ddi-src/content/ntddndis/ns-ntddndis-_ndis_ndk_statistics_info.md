@@ -8,9 +8,6 @@ ms.assetid: F3FA3790-0754-4D5E-9F27-8ECD71278520
 ms.date: 05/02/2018
 keywords: ["NDIS_NDK_STATISTICS_INFO structure"]
 ms.keywords: NDIS_NDK_STATISTICS_INFO, NDIS_NDK_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_STATISTICS_INFO, PNDIS_NDK_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_STATISTICS_INFO, netvista.ndis_ndk_statistics_info, ntddndis/NDIS_NDK_STATISTICS_INFO, ntddndis/PNDIS_NDK_STATISTICS_INFO
-f1_keywords:
- - "ntddndis/NDIS_NDK_STATISTICS_INFO"
- - "NDIS_NDK_STATISTICS_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_NDK_STATISTICS_INFO
 targetos: Windows
 req.typenames: NDIS_NDK_STATISTICS_INFO
+f1_keywords:
+ - _NDIS_NDK_STATISTICS_INFO
+ - ntddndis/_NDIS_NDK_STATISTICS_INFO
+ - NDIS_NDK_STATISTICS_INFO
+ - ntddndis/NDIS_NDK_STATISTICS_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_NDK_STATISTICS_INFO
 ---
 
 # _NDIS_NDK_STATISTICS_INFO structure
@@ -46,14 +48,9 @@ req.typenames: NDIS_NDK_STATISTICS_INFO
 
 ## -description
 
-
 The <b>NDIS_NDK_STATISTICS_INFO</b> structure contains the NDK statistics.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,17 +64,11 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-
 
 ### -field Flags
 
- 
-
-
 ### -field CounterSet
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_performance_counters">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure that contains the NDK performance counters.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_NDK_STATISTICS_INFO</b> structure is returned with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-statistics">OID_NDK_STATISTICS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
 
@@ -85,13 +76,7 @@ The <b>NDIS_NDK_STATISTICS_INFO</b> structure is returned with the <a href="http
 
 The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> member, which is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_performance_counters">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_performance_counters">NDIS_NDK_PERFORMANCE_COUNTERS</a>
 
@@ -102,7 +87,4 @@ The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> mem
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-statistics">OID_NDK_STATISTICS</a>
- 
-
- 
 

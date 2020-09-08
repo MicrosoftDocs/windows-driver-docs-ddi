@@ -8,9 +8,6 @@ ms.assetid: 0633c710-20c4-49c0-a680-a5eff9298265
 ms.date: 05/03/2018
 keywords: ["IDebugClient2::SetKernelConnectionOptions"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient2 interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient2.SetKernelConnectionOptions, IDebugClient2::SetKernelConnectionOptions, IDebugClient3 interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient3::SetKernelConnectionOptions, IDebugClient4 interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient4::SetKernelConnectionOptions, IDebugClient5 interface [Windows Debugging],SetKernelConnectionOptions method, IDebugClient5::SetKernelConnectionOptions, IDebugClient::SetKernelConnectionOptions, IDebugClient_b7b26913-d776-41b9-b94a-d5fa685e5fa9.xml, SetKernelConnectionOptions, SetKernelConnectionOptions method [Windows Debugging], SetKernelConnectionOptions method [Windows Debugging],IDebugClient interface, SetKernelConnectionOptions method [Windows Debugging],IDebugClient2 interface, SetKernelConnectionOptions method [Windows Debugging],IDebugClient3 interface, SetKernelConnectionOptions method [Windows Debugging],IDebugClient4 interface, SetKernelConnectionOptions method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetKernelConnectionOptions, dbgeng/IDebugClient3::SetKernelConnectionOptions, dbgeng/IDebugClient4::SetKernelConnectionOptions, dbgeng/IDebugClient5::SetKernelConnectionOptions, dbgeng/IDebugClient::SetKernelConnectionOptions, debugger.setkernelconnectionoptions
-f1_keywords:
- - "dbgeng/IDebugClient.SetKernelConnectionOptions"
- - "IDebugClient.SetKernelConnectionOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.SetKernelConnectionOptions
-- IDebugClient2.SetKernelConnectionOptions
-- IDebugClient3.SetKernelConnectionOptions
-- IDebugClient4.SetKernelConnectionOptions
-- IDebugClient5.SetKernelConnectionOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient2::SetKernelConnectionOptions
+ - dbgeng/IDebugClient2::SetKernelConnectionOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.SetKernelConnectionOptions
+ - IDebugClient2.SetKernelConnectionOptions
+ - IDebugClient3.SetKernelConnectionOptions
+ - IDebugClient4.SetKernelConnectionOptions
+ - IDebugClient5.SetKernelConnectionOptions
 ---
 
 # IDebugClient2::SetKernelConnectionOptions
@@ -50,17 +50,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>SetKernelConnectionOptions</b>  method updates some of the connection options for a live kernel target.
-
 
 ## -parameters
 
+### -param Options 
 
-
-
-### -param Options [in]
-
+[in]
 Specifies the connection options to update.  The possible values are:
 
 <table>
@@ -89,12 +85,8 @@ For kernel connections through a COM port, cycle through the supported baud rate
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -126,26 +118,14 @@ The current target is not a live (non-local) kernel target.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is available only for live kernel targets that are not local and not connected through eXDI.  This method is reentrant.
 
 For more information about connecting to live kernel-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-kernel-mode-targets">Live Kernel-Mode Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachkernel">AttachKernel</a>
 
@@ -168,7 +148,4 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: B3135A43-A328-4103-AB75-A37F02322F70
 ms.date: 04/20/2018
 keywords: ["DevQueryPrint function"]
 ms.keywords: DevQueryPrint, DevQueryPrint function [Print Devices], print.devqueryprint, winsplp/DevQueryPrint
-f1_keywords:
- - "winsplp/DevQueryPrint"
- - "DevQueryPrint"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- DevQueryPrint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DevQueryPrint
+ - winsplp/DevQueryPrint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - DevQueryPrint
 ---
 
 # DevQueryPrint function
@@ -46,20 +46,17 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinter 
 
+[in]
 
+### -param pDevMode 
 
-### -param hPrinter [in]
+[in]
 
+### -param pResID 
 
-### -param pDevMode [in]
-
-
-### -param pResID [out]
+[out]
 

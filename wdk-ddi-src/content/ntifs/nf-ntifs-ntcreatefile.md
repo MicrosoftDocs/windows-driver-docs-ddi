@@ -8,9 +8,6 @@ ms.assetid: c40b99be-5627-44f3-9853-c3ae31a8035c
 ms.date: 04/30/2018
 keywords: ["NtCreateFile function"]
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
-f1_keywords:
- - "ntifs/ZwCreateFile"
- - "ZwCreateFile"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwCreateFile
-- NtCreateFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtCreateFile
+ - ntifs/NtCreateFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwCreateFile
+ - NtCreateFile
 ---
 
 # NtCreateFile function
+
 
 ## -description
 
@@ -50,12 +51,14 @@ The **NtCreateFile** routine creates a new file or opens an existing file.
 
 ## -parameters
 
-### -param FileHandle [out]
+### -param FileHandle 
 
+[out]
 A pointer to a HANDLE variable that receives a handle to the file.
 
-### -param DesiredAccess [in]
+### -param DesiredAccess 
 
+[in]
 Specifies an [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
 
 |ACCESS_MASK flag|Allows caller to do this|
@@ -92,12 +95,14 @@ If the file is actually a directory, the caller can also specify the following g
 
 For more information about access rights, see [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask).
 
-### -param ObjectAttributes [in]
+### -param ObjectAttributes 
 
+[in]
 A pointer to an [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes) structure that specifies the object name and other attributes. Use [InitializeObjectAttributes](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes) to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls **InitializeObjectAttributes**.
 
-### -param IoStatusBlock [out]
+### -param IoStatusBlock 
 
+[out]
 A pointer to an [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
 
 * FILE_CREATED
@@ -107,16 +112,19 @@ A pointer to an [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/dr
 * FILE_EXISTS
 * FILE_DOES_NOT_EXIST
 
-### -param AllocationSize [in, optional]
+### -param AllocationSize 
 
+[in, optional]
 A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes, for a file that is created or overwritten. If *AllocationSize* is **NULL**, no allocation size is specified. If no file is created or overwritten, *AllocationSize* is ignored.
 
-### -param FileAttributes [in]
+### -param FileAttributes 
 
+[in]
 Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
 
-### -param ShareAccess [in]
+### -param ShareAccess 
 
+[in]
 Type of share access, which is specified as zero or any combination of the following flags.
 
 |*ShareAccess* flag|Allows other threads to do this|
@@ -127,8 +135,9 @@ Type of share access, which is specified as zero or any combination of the follo
 
 Device and intermediate drivers usually set *ShareAccess* to zero, which gives the caller exclusive access to the open file.
 
-### -param CreateDisposition [in]
+### -param CreateDisposition 
 
+[in]
 Specifies the action to perform if the file does or does not exist. *CreateDisposition* can be one of the values in the following table.
 
 |*CreateDisposition* value|Action if file exists|Action if file does not exist|
@@ -140,8 +149,9 @@ Specifies the action to perform if the file does or does not exist. *CreateDispo
 |FILE_OVERWRITE|Open the file, and overwrite it.|Return an error.|
 |FILE_OVERWRITE_IF|Open the file, and overwrite it.|Create the file.|
 
-### -param CreateOptions [in]
+### -param CreateOptions 
 
+[in]
 Specifies the options to apply when the driver creates or opens the file. Use one or more of the flags in the following table.
 
 <table>
@@ -321,12 +331,14 @@ The client opening the file or device is session aware and per session access is
 </tr>
 </table>
 
-### -param EaBuffer [in, optional]
+### -param EaBuffer 
 
+[in, optional]
 For device and intermediate drivers, this parameter must be a **NULL** pointer.
 
-### -param EaLength [in]
+### -param EaLength 
 
+[in]
 For device and intermediate drivers, this parameter must be zero.
 
 ## -returns
@@ -435,3 +447,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [NtSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
 
 [NtWriteFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
+

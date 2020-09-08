@@ -5,37 +5,38 @@ description:
 ms.assetid: 83effb29-cc30-4be5-ac4c-e35b18b073f6
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL"]
-f1_keywords:
- - "sidebandaudio/IOCTL_SBAUD_GET_MUTEPROPERTYVALUES"
- - "IOCTL_SBAUD_GET_MUTEPROPERTYVALUES"
 req.header: sidebandaudio.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- sidebandaudio.h
-api_name: 
-- IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 tech.root: audio
 ms.custom: RS5
+f1_keywords:
+ - IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
+ - sidebandaudio/IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - sidebandaudio.h
+api_name:
+ - IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
 ---
 
 # IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -76,6 +77,8 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+
 [KSPROPERTY_AUDIO_MUTE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mute)
 
 [KSNODEPROPERTY_AUDIO_CHANNEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel)
+

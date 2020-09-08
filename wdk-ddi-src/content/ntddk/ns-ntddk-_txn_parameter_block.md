@@ -8,9 +8,6 @@ ms.assetid: 973f440a-ba17-466a-a9f4-f21c07e854d8
 ms.date: 04/16/2018
 keywords: ["TXN_PARAMETER_BLOCK structure"]
 ms.keywords: "*PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK, PTXN_PARAMETER_BLOCK structure pointer [Installable File System Drivers], TXN_PARAMETER_BLOCK, TXN_PARAMETER_BLOCK structure [Installable File System Drivers], _TXN_PARAMETER_BLOCK, fileinformationstructures_fd9a870c-f8bf-4a9d-8f7c-1dfbdcbab7aa.xml, ifsk.txn_parameter_block, ntddk/PTXN_PARAMETER_BLOCK, ntddk/_TXN_PARAMETER_BLOCK"
-f1_keywords:
- - "ntddk/TXN_PARAMETER_BLOCK"
- - "TXN_PARAMETER_BLOCK"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddk.h
-api_name:
-- TXN_PARAMETER_BLOCK
 targetos: Windows
 req.typenames: TXN_PARAMETER_BLOCK, *PTXN_PARAMETER_BLOCK
+f1_keywords:
+ - _TXN_PARAMETER_BLOCK
+ - ntddk/_TXN_PARAMETER_BLOCK
+ - PTXN_PARAMETER_BLOCK
+ - ntddk/PTXN_PARAMETER_BLOCK
+ - TXN_PARAMETER_BLOCK
+ - ntddk/TXN_PARAMETER_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddk.h
+api_name:
+ - TXN_PARAMETER_BLOCK
 ---
 
 # _TXN_PARAMETER_BLOCK structure
@@ -46,33 +50,23 @@ req.typenames: TXN_PARAMETER_BLOCK, *PTXN_PARAMETER_BLOCK
 
 ## -description
 
-
-The TXN_PARAMETER_BLOCK structure contains information about a transacted file operation. 
-
+The TXN_PARAMETER_BLOCK structure contains information about a transacted file operation.
 
 ## -struct-fields
 
-
-
-
 ### -field Length
 
-The size, in bytes, of the TXN_PARAMETER_BLOCK structure. 
-
+The size, in bytes, of the TXN_PARAMETER_BLOCK structure.
 
 ### -field TxFsContext
 
-The miniversion ID for the file. 
-
+The miniversion ID for the file.
 
 ### -field TransactionObject
 
-An opaque pointer to the transaction object for the transaction. 
-
+An opaque pointer to the transaction object for the transaction.
 
 ## -remarks
-
-
 
 A <i>miniversion</i> is a version of a file that a transacted writer creates during a transaction. (A <i>transacted writer</i> is a transacted file handle opened with any permission that is not part of generic read access, but is part of generic write access.) 
 
@@ -86,15 +80,9 @@ All miniversions created in a transaction go away when the transaction ends.  Af
 
 <div class="alert"><b>Note</b>    A miniversion is available only to the transacted writer that created the miniversion, not to a transacted reader or non-transacted reader.</div>
 <div> </div>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogettransactionparameterblock">IoGetTransactionParameterBlock</a> routine returns a pointer to this structure. 
-
-
-
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogettransactionparameterblock">IoGetTransactionParameterBlock</a> routine returns a pointer to this structure.
 
 ## -see-also
-
-
-
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=139790">FSCTL_TXFS_CREATE_MINIVERSION</a>
 
@@ -105,7 +93,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-nt
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566462">ZwFsControlFile</a>
- 
-
- 
 

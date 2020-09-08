@@ -8,38 +8,41 @@ ms.assetid: 0d68d5a2-5d25-4f33-96b5-57774a6f441e
 ms.author: windowsdriverdev
 ms.date: 10/24/2019
 keywords: ["NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure"]
-f1_keywords:
- - "netadapter/NET_ADAPTER_WAKE_BITMAP_CAPABILITIES"
- - "NET_ADAPTER_WAKE_BITMAP_CAPABILITIES"
-ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES, NET_ADAPTER_WAKE_BITMAP_CAPABILITIES, 
+ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES, NET_ADAPTER_WAKE_BITMAP_CAPABILITIES,
 req.header: netadapter.h
-req.include-header:
-req.target-type:
+req.include-header: netadaptercx.h 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - netadapter.h
-api_name: 
- - NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
-product: 
- - Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - _NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
+ - netadapter/_NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
+ - NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
+ - netadapter/NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netadapter.h
+api_name:
+ - NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
+product:
+ - Windows
 ---
 
 # NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure
+
 
 ## -description
 
@@ -50,18 +53,18 @@ The **NET_ADAPTER_WAKE_BITMAP_CAPABILITIES** structure describes a net adapter's
 ### -field Size
 
 The size of this structure, in bytes.
- 
+
 ### -field BitmapPattern
 
 A boolean value that describes if the net adapter is capable of waking from a bitmap pattern.
- 
+
 ### -field MaximumPatternCount
 
 The maximum number of bitmap patterns that the hardware supports.
- 
+
 ### -field MaximumPatternSize
 
-The maximum size, in bytes, for the bitmap patterns that the hardware supports. 
+The maximum size, in bytes, for the bitmap patterns that the hardware supports.
 
 ## -remarks
 
@@ -76,3 +79,4 @@ Call [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT**](../netadapter/nf-netadapter
 [**NetAdapterWakeSetBitmapCapabilities**](../netadapter/nf-netadapter-netadapterwakesetbitmapcapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
+

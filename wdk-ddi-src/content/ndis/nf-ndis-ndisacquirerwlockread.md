@@ -8,9 +8,6 @@ ms.assetid: a9c16537-e344-43d4-bae7-fb11487caa0e
 ms.date: 05/02/2018
 keywords: ["NdisAcquireRWLockRead function"]
 ms.keywords: NdisAcquireRWLockRead, NdisAcquireRWLockRead function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireRWLockRead, ndis_processor_group_ref_0ac3bf44-b94f-4818-af69-79eec8045cc9.xml, netvista.ndisacquirerwlockread
-f1_keywords:
- - "ndis/NdisAcquireRWLockRead"
- - "NdisAcquireRWLockRead"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAcquireRWLockRead
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAcquireRWLockRead
+ - ndis/NdisAcquireRWLockRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAcquireRWLockRead
 ---
 
 # NdisAcquireRWLockRead function
@@ -47,36 +47,32 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisAcquireRWLockRead</b> function obtains a read lock that the caller uses for read access to resources
   that are shared among driver threads.
 
-
 ## -parameters
 
+### -param Lock 
 
-
-
-### -param Lock [in]
-
+[in]
 A pointer to an opaque 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> variable that represents a
      lock. The caller can use this lock to gain write or read access to resources that are shared between
      non-ISR driver threads.
 
+### -param LockState 
 
-### -param LockState [out]
-
+[out]
 A pointer to an opaque 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state_ex">LOCK_STATE_EX</a> variable that tracks the state
      of the lock. This variable exists in the interval between the times that the caller obtains and releases
      the lock. The caller must use a different variable of type <b>LOCK_STATE_EX</b> for each attempt that it makes
      to obtain the lock from the same non-ISR driver thread.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A <b>ULONG</b> value that contains lock flags. Set this parameter to <b>NDIS_RWL_AT_DISPATCH_LEVEL</b> if the
      caller's current IRQL is <b>DISPATCH_LEVEL</b>. Otherwise, set this parameter to zero. For more information
      about dispatch IRQL tracking, see 
@@ -86,8 +82,6 @@ A <b>ULONG</b> value that contains lock flags. Set this parameter to <b>NDIS_RWL
 <div> </div>
 
 ## -remarks
-
-
 
 NDIS drivers call the 
     <b>NdisAcquireRWLockRead</b> function to obtain read-only access to resources that are shared between
@@ -127,13 +121,7 @@ The driver cannot use a lock to protect resources from read or write access that
 
 <b>NdisAcquireRWLockRead</b> always raises the IRQL to IRQL = <b>DISPATCH_LEVEL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state_ex">LOCK_STATE_EX</a>
 
@@ -170,7 +158,4 @@ The driver cannot use a lock to protect resources from read or write access that
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleaserwlock">NdisReleaseRWLock</a>
- 
-
- 
 

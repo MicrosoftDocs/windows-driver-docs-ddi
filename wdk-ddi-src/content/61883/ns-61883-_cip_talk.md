@@ -8,9 +8,6 @@ ms.assetid: DD5EB79D-122B-4D17-9109-37473AC49C4A
 ms.date: 02/15/2018
 keywords: ["CIP_TALK structure"]
 ms.keywords: "*PCIP_TALK, 61883/CIP_TALK, 61883/PCIP_TALK, CIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk, PCIP_TALK, PCIP_TALK structure pointer [Buses], _CIP_TALK"
-f1_keywords:
- - "61883/CIP_TALK"
- - "CIP_TALK"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 61883.h
-api_name:
-- CIP_TALK
 targetos: Windows
 req.typenames: CIP_TALK, *PCIP_TALK
+f1_keywords:
+ - _CIP_TALK
+ - 61883/_CIP_TALK
+ - PCIP_TALK
+ - 61883/PCIP_TALK
+ - CIP_TALK
+ - 61883/CIP_TALK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 61883.h
+api_name:
+ - CIP_TALK
 ---
 
 # _CIP_TALK structure
@@ -46,23 +50,15 @@ req.typenames: CIP_TALK, *PCIP_TALK
 
 ## -description
 
-
 This structure is used to begin transmission. The  request begins isochronous transmission on the specified connection. This request will start transmitting CIP packets, whether there are any frames attached. If no frames are attached, empty CIP packets are transmitted for every isochronous cycle.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hConnect
 
 On input, the handle of the connection to begin isochronous transmission.
 
-
 ## -remarks
-
-
 
 In the request, Flags can have these values:
 
@@ -89,16 +85,7 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp->IoStatu
 
 If the protocol driver is unable to allocate resources, it sets <b>Irp->IoStatus.Status </b>to STATUS_INSUFFICIENT_RESOURCES.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
- 
-
- 
 

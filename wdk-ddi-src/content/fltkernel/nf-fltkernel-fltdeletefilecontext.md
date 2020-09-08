@@ -8,9 +8,6 @@ ms.assetid: faffa053-0382-415c-8f61-ee9121839598
 ms.date: 04/16/2018
 keywords: ["FltDeleteFileContext function"]
 ms.keywords: FltApiRef_a_to_d_53ae4cfc-b70a-405d-b947-cb0f04d4663b.xml, FltDeleteFileContext, FltDeleteFileContext routine [Installable File System Drivers], fltkernel/FltDeleteFileContext, ifsk.fltdeletefilecontext
-f1_keywords:
- - "fltkernel/FltDeleteFileContext"
- - "FltDeleteFileContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltDeleteFileContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltDeleteFileContext
+ - fltkernel/FltDeleteFileContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltDeleteFileContext
 ---
 
 # FltDeleteFileContext function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltDeleteFileContext</b> routine retrieves and deletes a file context that a given minifilter driver has set for a given file. 
-
+The <b>FltDeleteFileContext</b> routine retrieves and deletes a file context that a given minifilter driver has set for a given file.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in]
+File object pointer for the file. This parameter is required and cannot be <b>NULL</b>.
 
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
+### -param OldContext 
 
-
-### -param FileObject [in]
-
-File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param OldContext [out]
-
-Pointer to a caller-allocated variable that receives the address of the deleted context. If no matching context is found, this variable receives NULL_CONTEXT. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.) 
-
+[out]
+Pointer to a caller-allocated variable that receives the address of the deleted context. If no matching context is found, this variable receives NULL_CONTEXT. This parameter is optional and can be <b>NULL</b>. (For more information about this parameter, see the following Remarks section.)
 
 ## -returns
-
-
 
 <b>FltDeleteFileContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
 
@@ -105,14 +98,8 @@ File contexts are not supported for this file. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>FltDeleteFileContext</b> routine is available on Windows Vista and later. 
 
@@ -134,15 +121,9 @@ To retrieve a file context, call <a href="https://docs.microsoft.com/windows-har
 
 To set a file context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetfilecontext">FltSetFileContext</a>. 
 
-To determine whether file contexts are supported for a given file, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontexts">FltSupportsFileContexts</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>. 
-
-
-
+To determine whether file contexts are supported for a given file, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontexts">FltSupportsFileContexts</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a>
 
@@ -173,7 +154,4 @@ To determine whether file contexts are supported for a given file, call <a href=
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsupportsfilecontextsex">FltSupportsFileContextsEx</a>
- 
-
- 
 

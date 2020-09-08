@@ -8,9 +8,6 @@ ms.assetid: D7CA9DAB-E350-42D5-A008-5CC12D5313D3
 ms.date: 04/16/2018
 keywords: ["FltSetActivityIdCallbackData function"]
 ms.keywords: FltSetActivityIdCallbackData, FltSetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltSetActivityIdCallbackData, ifsk.fltsetactivityidcallbackdata
-f1_keywords:
- - "fltkernel/FltSetActivityIdCallbackData"
- - "FltSetActivityIdCallbackData"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSetActivityIdCallbackData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetActivityIdCallbackData
+ - fltkernel/FltSetActivityIdCallbackData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSetActivityIdCallbackData
 ---
 
 # FltSetActivityIdCallbackData function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltSetActivityIdCallbackData</b> routine sets the a activity ID for an IRP in a minifilter's callback data.
-
 
 ## -parameters
 
+### -param CallbackData 
 
-
-
-### -param CallbackData [in, out]
-
+[in, out]
 A pointer to the callback data containing the request with an associated activity ID.
 
+### -param Guid 
 
-### -param Guid [in, optional]
-
+[in, optional]
 A optional pointer to the <b>GUID</b> structure receiving the activity ID. if <i>Guid</i> is <b>NULL</b>, the system will attempt to assign an ETW activity ID for the request.
 
-
 ## -returns
-
-
 
 <b>FltSetActivityIdCallbackData</b> returns one of the following <b>NTSTATUS</b> values.
 
@@ -114,22 +107,12 @@ An activity ID pointed to by <i>Guid</i> was set for the IRP in <i>CallbackData<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetactivityidcallbackdata">FltGetActivityIdCallbackData</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltpropagateactivityidtothread">FltPropagateActivityIdToThread</a>
- 
-
- 
 

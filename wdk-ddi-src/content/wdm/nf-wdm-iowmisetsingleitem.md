@@ -8,9 +8,6 @@ ms.assetid: 73c6ddaa-f090-430a-86b5-61b33cb8ffc8
 ms.date: 04/30/2018
 keywords: ["IoWMISetSingleItem function"]
 ms.keywords: IoWMISetSingleItem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, kernel.iowmisetsingleitem, wdm/IoWMISetSingleItem
-f1_keywords:
- - "wdm/IoWMISetSingleItem"
- - "IoWMISetSingleItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoWMISetSingleItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoWMISetSingleItem
+ - wdm/IoWMISetSingleItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoWMISetSingleItem
 ---
 
 # IoWMISetSingleItem function
@@ -46,48 +46,41 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoWMISetSingleItem</b> routine sets a single property in the data block instance that matches the specified WMI class and instance name. 
-
+The <b>IoWMISetSingleItem</b> routine sets a single property in the data block instance that matches the specified WMI class and instance name.
 
 ## -parameters
 
+### -param DataBlockObject 
 
+[in]
+Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_SET access right.
 
+### -param InstanceName 
 
-### -param DataBlockObject [in]
+[in]
+Specifies the name of the instance of the data block. This value corresponds to the value of the <b>InstanceName</b> property for the block.
 
-Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_SET access right. 
+### -param DataItemId 
 
-
-### -param InstanceName [in]
-
-Specifies the name of the instance of the data block. This value corresponds to the value of the <b>InstanceName</b> property for the block. 
-
-
-### -param DataItemId [in]
-
+[in]
 Specifies the data item ID for the property to be set. The value of this parameter corresponds to the value declared in the <b>WmiDataId</b> qualifier for the property.
 
+### -param Version 
 
-### -param Version [in]
-
+[in]
 Reserved for future use. Callers must set this parameter to zero.
 
+### -param ValueBufferSize 
 
-### -param ValueBufferSize [in]
-
+[in]
 Specifies the size, in bytes, of the buffer passed in the <i>ValueBuffer</i> parameter.
 
+### -param ValueBuffer 
 
-### -param ValueBuffer [in]
-
-Pointer to the buffer that contains the new value for the property specified by the <i>DataItemId</i> parameter. 
-
+[in]
+Pointer to the buffer that contains the new value for the property specified by the <i>DataItemId</i> parameter.
 
 ## -returns
-
-
 
 The routine returns an NTSTATUS code. Possible return values include:
 
@@ -163,26 +156,14 @@ The driver that implements the WMI data block instance is unable to update the p
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IoWMISetSingleItem</b> determines which drivers might support the specified WMI class and instance name. It issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-change-single-item">IRP_MN_CHANGE_SINGLE_ITEM</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property updates the specified property in the data block instance.
 
 Drivers can also use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetsingleinstance">IoWMISetSingleInstance</a> to update every property of the WMI class instance simultaneously.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-change-single-item">IRP_MN_CHANGE_SINGLE_ITEM</a>
 
@@ -197,7 +178,4 @@ Drivers can also use <a href="https://docs.microsoft.com/windows-hardware/driver
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetsingleinstance">IoWMISetSingleInstance</a>
- 
-
- 
 

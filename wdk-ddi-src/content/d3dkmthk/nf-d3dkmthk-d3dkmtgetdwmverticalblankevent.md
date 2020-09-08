@@ -5,40 +5,40 @@ description: Get DWM (desktop windows manager) vertical blank event.
 ms.assetid: ff9b94ac-9983-48e0-96a6-e5939a58695e
 ms.date: 10/19/2018
 keywords: ["D3DKMTGetDWMVerticalBlankEvent function"]
-f1_keywords:
- - "d3dkmthk/D3DKMTGetDWMVerticalBlankEvent"
- - "D3DKMTGetDWMVerticalBlankEvent"
 ms.keywords: D3DKMTGetDWMVerticalBlankEvent
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- Gdi32.dll
-api_name: 
-- D3DKMTGetDWMVerticalBlankEvent
 targetos: Windows
-dev_langs:
- - c++
 ms.custom: RS5
 tech.root: display
+f1_keywords:
+ - D3DKMTGetDWMVerticalBlankEvent
+ - d3dkmthk/D3DKMTGetDWMVerticalBlankEvent
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTGetDWMVerticalBlankEvent
+dev_langs:
+ - c++
 ---
 
 # D3DKMTGetDWMVerticalBlankEvent function
@@ -61,3 +61,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

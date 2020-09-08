@@ -8,9 +8,6 @@ ms.assetid: 4a343e55-9150-4411-bf37-f410b94ca0aa
 ms.date: 05/02/2018
 keywords: ["RILCALLINFOMULTIPARTY enumeration"]
 ms.keywords: RILCALLINFOMULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista], RIL_CALL_MAX, RIL_CALL_MULTIPARTY, netvista.rilcallinfomultiparty, ntddrilapitypes/RILCALLINFOMULTIPARTY, ntddrilapitypes/RIL_CALL_MAX, ntddrilapitypes/RIL_CALL_MULTIPARTY
-f1_keywords:
- - "ntddrilapitypes/RILCALLINFOMULTIPARTY"
- - "RILCALLINFOMULTIPARTY"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,38 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLINFOMULTIPARTY
 targetos: Windows
 req.typenames: RILCALLINFOMULTIPARTY
+f1_keywords:
+ - RILCALLINFOMULTIPARTY
+ - ntddrilapitypes/RILCALLINFOMULTIPARTY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLINFOMULTIPARTY
 ---
 
-# RILCALLINFOMULTIPARTY enumeration
+# RILCALLINFOMULTIPARTY enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_CALL_SINGLEPARTY
 
-
 ### -field RIL_CALL_MULTIPARTY
-
 
 ### -field RIL_CALL_MAX
 

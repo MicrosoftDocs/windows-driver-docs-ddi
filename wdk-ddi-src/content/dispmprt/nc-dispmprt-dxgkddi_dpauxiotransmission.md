@@ -28,13 +28,14 @@ api_location:
 api_name:
  - DXGKDDI_DPAUXIOTRANSMISSION
 f1_keywords:
- - dispmprt//DXGKDDI_DPAUXIOTRANSMISSION
  - DXGKDDI_DPAUXIOTRANSMISSION
+ - dispmprt/DXGKDDI_DPAUXIOTRANSMISSION
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_DPAUXIOTRANSMISSION callback function
+
 
 ## -description
 
@@ -71,3 +72,4 @@ Write operations are not supported in Windows 10, version 2004 and should be blo
 ## -see-also
 
 [DXGKARG_DPAUXIOTRANSMISSION](ns-dispmprt-dxgkarg_dpauxiotransmission.md)
+

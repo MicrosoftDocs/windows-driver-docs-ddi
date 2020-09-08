@@ -8,9 +8,6 @@ ms.assetid: 33eb0244-e0f3-4db7-b6df-2668e826fbd8
 ms.date: 04/23/2018
 keywords: ["IKsControl interface"]
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8
-f1_keywords:
- - "ks/IKsControl"
- - "IKsControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ks.h
-api_name:
-- IKsControl
 targetos: Windows
 req.typenames: 
 ms.custom: 19H1
+f1_keywords:
+ - IKsControl
+ - ks/IKsControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ks.h
+api_name:
+ - IKsControl
 ---
 
-# IKsControl interface
+# IKsControl interface (ks.h)
+
 
 ## -description
 
@@ -103,3 +104,4 @@ For more information, see [AVStream Overview](https://docs.microsoft.com/windows
 [KsPinGetConnectedFilterInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedfilterinterface)
 
 [KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface)
+

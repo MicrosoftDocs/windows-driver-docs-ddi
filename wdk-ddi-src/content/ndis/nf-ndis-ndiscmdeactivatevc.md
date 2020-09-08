@@ -8,9 +8,6 @@ ms.assetid: 141830de-e113-4f42-91f8-8f1cdbf3e32c
 ms.date: 05/02/2018
 keywords: ["NdisCmDeactivateVc function"]
 ms.keywords: NdisCmDeactivateVc, NdisCmDeactivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_3d365bcf-91cc-4724-a4af-77e9bea6fe0c.xml, ndis/NdisCmDeactivateVc, netvista.ndiscmdeactivatevc
-f1_keywords:
- - "ndis/NdisCmDeactivateVc"
- - "NdisCmDeactivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmDeactivateVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmDeactivateVc
+ - ndis/NdisCmDeactivateVc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmDeactivateVc
 ---
 
 # NdisCmDeactivateVc function
@@ -47,18 +47,14 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmDeactivateVc</b> notifies NDIS and the underlying miniport driver that there will be no further
   transfers on a particular active VC.
 
-
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle identifying the VC. This handle was supplied by NDIS to the call manager
      either when it called 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> for an incoming call or
@@ -66,10 +62,7 @@ Specifies the handle identifying the VC. This handle was supplied by NDIS to the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function set up
      the VC for a client-initiated outgoing call.
 
-
 ## -returns
-
-
 
 When 
      <b>NdisCmDeactivateVc</b> returns anything other than NDIS_STATUS_PENDING, the call manager should make
@@ -78,12 +71,7 @@ When
      ProtocolCmDeactivateVcComplete</a> function. Otherwise, NDIS calls the CM's 
      <i>ProtocolCmDeactivateVcComplete</i> function when this operation is completed.
 
-
-
-
 ## -remarks
-
-
 
 A stand-alone call manager calls 
     <b>NdisCmDeactivateVc</b> as an essential step in closing a call, usually after the packet exchange with
@@ -124,13 +112,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     support call 
     <b>NdisMCmDeactivateVc</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_deactivate_vc">MiniportCoDeactivateVc</a>
 
@@ -162,7 +144,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deactivate_vc_complete">
    ProtocolCmDeactivateVcComplete</a>
- 
-
- 
 

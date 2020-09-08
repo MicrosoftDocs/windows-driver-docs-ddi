@@ -8,9 +8,6 @@ ms.assetid: f739d5b8-80be-40e3-9139-93342c4fe458
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::Reload"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],Reload method, IDebugSymbols2 interface [Windows Debugging],Reload method, IDebugSymbols2.Reload, IDebugSymbols2::Reload, IDebugSymbols3 interface [Windows Debugging],Reload method, IDebugSymbols3::Reload, IDebugSymbols::Reload, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, Reload, Reload method [Windows Debugging], Reload method [Windows Debugging],IDebugSymbols interface, Reload method [Windows Debugging],IDebugSymbols2 interface, Reload method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::Reload, dbgeng/IDebugSymbols3::Reload, dbgeng/IDebugSymbols::Reload, debugger.reload
-f1_keywords:
- - "dbgeng/IDebugSymbols.Reload"
- - "IDebugSymbols.Reload"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.Reload
-- IDebugSymbols2.Reload
-- IDebugSymbols3.Reload
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols2::Reload
+ - dbgeng/IDebugSymbols2::Reload
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.Reload
+ - IDebugSymbols2.Reload
+ - IDebugSymbols3.Reload
 ---
 
 # IDebugSymbols2::Reload
@@ -48,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>Reload</b>  method deletes the engine's symbol information for the specified module and reload these symbols as needed.
-
 
 ## -parameters
 
+### -param Module 
 
-
-
-### -param Module [in]
-
+[in]
 Specifies the module to reload.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -87,24 +80,13 @@ The method was successful
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 This method behaves the same way as the debugger command <b>.reload</b>.  The <i>Module</i> parameter is treated the same way as the arguments to <b>.reload</b>.  For example, setting the <i>Module</i> parameter to "/u ntdll.dll" has the same effect as the command <b>.reload /u ntdll.dll</b>.
 
 For more information about symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">Symbols</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-reload--reload-module-">.reload (Reload Module)</a>
 
@@ -119,7 +101,4 @@ For more information about symbols, see <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

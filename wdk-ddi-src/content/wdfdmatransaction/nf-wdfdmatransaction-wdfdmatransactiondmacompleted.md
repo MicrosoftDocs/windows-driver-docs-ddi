@@ -8,9 +8,6 @@ ms.assetid: 83c1c4cb-b28b-4980-92fb-a1a49d95406e
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionDmaCompleted function"]
 ms.keywords: DFDmaObjectRef_d7fd815f-7c21-4b84-b4f2-0dcc13cf068a.xml, WdfDmaTransactionDmaCompleted, WdfDmaTransactionDmaCompleted method, kmdf.wdfdmatransactiondmacompleted, wdf.wdfdmatransactiondmacompleted, wdfdmatransaction/WdfDmaTransactionDmaCompleted
-f1_keywords:
- - "wdfdmatransaction/WdfDmaTransactionDmaCompleted"
- - "WdfDmaTransactionDmaCompleted"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDmaTransactionDmaCompleted
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDmaTransactionDmaCompleted
+ - wdfdmatransaction/WdfDmaTransactionDmaCompleted
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDmaTransactionDmaCompleted
 ---
 
 # WdfDmaTransactionDmaCompleted function
@@ -47,43 +47,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDmaTransactionDmaCompleted</b> method notifies the framework that a device's DMA transfer operation is completed.  
-
+The <b>WdfDmaTransactionDmaCompleted</b> method notifies the framework that a device's DMA transfer operation is completed.
 
 ## -parameters
 
+### -param DmaTransaction 
 
-
-
-### -param DmaTransaction [in]
-
+[in]
 A handle to a DMA transaction object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
+### -param Status 
 
-### -param Status [out]
-
+[out]
 A pointer to a location that receives the status of the DMA transfer. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 <b>WdfDmaTransactionDmaCompleted</b> returns <b>FALSE</b> and <i>Status</i> receives STATUS_MORE_PROCESSING_REQUIRED if additional transfers are needed to complete the DMA transaction. The method returns <b>TRUE</b> if no additional transfers are required. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Framework-based drivers must call one of the following methods whenever a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a> is complete:
 
@@ -238,12 +224,7 @@ AmccPciEvtInterruptDpc(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a>
 
@@ -278,7 +259,4 @@ AmccPciEvtInterruptDpc(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcompletewithinformation">WdfRequestCompleteWithInformation</a>
- 
-
- 
 

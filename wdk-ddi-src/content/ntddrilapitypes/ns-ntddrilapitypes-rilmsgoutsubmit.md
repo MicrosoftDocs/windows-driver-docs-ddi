@@ -8,9 +8,6 @@ ms.assetid: 83d15e40-b93f-4c7a-bfe4-db939c24b94f
 ms.date: 05/02/2018
 keywords: ["RILMSGOUTSUBMIT structure"]
 ms.keywords: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgoutsubmit, ntddrilapitypes/RILMSGOUTSUBMIT"
-f1_keywords:
- - "ntddrilapitypes/RILMSGOUTSUBMIT"
- - "RILMSGOUTSUBMIT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,59 +25,50 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMSGOUTSUBMIT
 targetos: Windows
 req.typenames: RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
+f1_keywords:
+ - RILMSGOUTSUBMIT
+ - ntddrilapitypes/RILMSGOUTSUBMIT
+ - LPRILMSGOUTSUBMIT
+ - ntddrilapitypes/LPRILMSGOUTSUBMIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMSGOUTSUBMIT
 ---
 
-# RILMSGOUTSUBMIT structure
+# RILMSGOUTSUBMIT structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field raDestAddress
-
 
 ### -field dwProtocolID
 
-
 ### -field rmdDataCoding
-
 
 ### -field dwVPFormat
 
-
 ### -field stVP
-
 
 ### -field dwMsgID
 
-
 ### -field cbHdrLength
-
 
 ### -field cchMsgLength
 
-
 ### -field rgbHdr
-
 
 ### -field rgbMsg
 

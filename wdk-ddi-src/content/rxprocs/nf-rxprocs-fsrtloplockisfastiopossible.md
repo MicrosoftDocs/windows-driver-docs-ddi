@@ -8,9 +8,6 @@ ms.assetid: ba482fbf-862c-48b4-b8f9-aaab6c5527ee
 ms.date: 04/16/2018
 keywords: ["FsRtlOplockIsFastIoPossible macro"]
 ms.keywords: FsRtlOplockIsFastIoPossible, FsRtlOplockIsFastIoPossible function [Installable File System Drivers], fsrtlref_94131dc4-e2ee-4ec0-92b9-39cd8a7d6e41.xml, ifsk.fsrtloplockisfastiopossible, rxprocs/FsRtlOplockIsFastIoPossible
-f1_keywords:
- - "rxprocs/FsRtlOplockIsFastIoPossible"
- - "FsRtlOplockIsFastIoPossible"
 req.header: rxprocs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlOplockIsFastIoPossible
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlOplockIsFastIoPossible
+ - rxprocs/FsRtlOplockIsFastIoPossible
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlOplockIsFastIoPossible
 ---
 
 # FsRtlOplockIsFastIoPossible macro
@@ -46,27 +46,15 @@ req.typenames:
 
 ## -description
 
-
-<b>FsRtlOplockIsFastIoPossible</b> checks a file's opportunistic lock (oplock) state to determine whether fast I/O can be performed on the file. 
-
+<b>FsRtlOplockIsFastIoPossible</b> checks a file's opportunistic lock (oplock) state to determine whether fast I/O can be performed on the file.
 
 ## -parameters
-
-
-
 
 ### -param __a
 
 <p>Opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock"><b>FsRtlInitializeOplock</b></a>. </p>
 
-
-
-
-
-
 ## -remarks
-
-
 
 <b>FsRtlOplockIsFastIoPossible</b> determines whether fast I/O can be performed on a file, according to the following conditions: 
 
@@ -82,15 +70,9 @@ If an exclusive opportunistic lock was granted for the file, but no oplock break
 </ul>
 For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockisfastiopossible">FltOplockIsFastIoPossible</a> instead of <b>FsRtlOplockIsFastIoPossible</b>. 
-
-
-
+Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockisfastiopossible">FltOplockIsFastIoPossible</a> instead of <b>FsRtlOplockIsFastIoPossible</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-opbatch-ack-close-pending">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
@@ -145,7 +127,4 @@ Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock">FsRtlUninitializeOplock</a>
- 
-
- 
 

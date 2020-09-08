@@ -8,9 +8,6 @@ ms.assetid: 57B41604-0189-48ED-847F-74C09C7746E8
 ms.date: 05/02/2018
 keywords: ["WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionNotSupported, WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionWriteSupported, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionReadSupported, wwan/WwanDeviceServiceSessionWriteSupported"
-f1_keywords:
- - "wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY"
- - "WWAN_DEVICE_SERVICE_SESSION_CAPABILITY"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
 targetos: Windows
 req.typenames: WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, *PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+f1_keywords:
+ - _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+ - wwan/_WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+ - PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+ - wwan/PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+ - WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+ - wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
 ---
 
 # _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration
@@ -46,37 +50,23 @@ req.typenames: WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, *PWWAN_DEVICE_SERVICE_SES
 
 ## -description
 
-
 The WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration lists the different device service session operations that are supported by the device service.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WwanDeviceServiceSessionNotSupported
 
 The device service does not support device service sessions.
 
-
 ### -field WwanDeviceServiceSessionWriteSupported
 
 The device service supports write operations from Windows to the miniport driver.
-
 
 ### -field WwanDeviceServiceSessionReadSupported
 
 The device service supports read indication  notifications on a session for data read from the device.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_entry">WWAN_DEVICE_SERVICE_ENTRY</a>
- 
-
- 
 

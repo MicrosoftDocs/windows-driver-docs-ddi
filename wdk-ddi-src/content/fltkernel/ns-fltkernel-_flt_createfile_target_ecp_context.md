@@ -8,9 +8,6 @@ ms.assetid: 95BDB715-E476-48EF-9867-112CF665B66D
 ms.date: 04/16/2018
 keywords: ["FLT_CREATEFILE_TARGET_ECP_CONTEXT structure"]
 ms.keywords: "*PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLTTCFL_AUTO_REPARSE, FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], PFLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], _FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context"
-f1_keywords:
- - "fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT"
- - "FLT_CREATEFILE_TARGET_ECP_CONTEXT"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fltkernel.h
-api_name:
-- FLT_CREATEFILE_TARGET_ECP_CONTEXT
 targetos: Windows
 req.typenames: FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CONTEXT
+f1_keywords:
+ - _FLT_CREATEFILE_TARGET_ECP_CONTEXT
+ - fltkernel/_FLT_CREATEFILE_TARGET_ECP_CONTEXT
+ - PFLT_CREATEFILE_TARGET_ECP_CONTEXT
+ - fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT
+ - FLT_CREATEFILE_TARGET_ECP_CONTEXT
+ - fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FLT_CREATEFILE_TARGET_ECP_CONTEXT
 ---
 
 # _FLT_CREATEFILE_TARGET_ECP_CONTEXT structure
@@ -46,29 +50,21 @@ req.typenames: FLT_CREATEFILE_TARGET_ECP_CONTEXT, *PFLT_CREATEFILE_TARGET_ECP_CO
 
 ## -description
 
-
 The <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> structure is an extra create parameter (ECP) used to return reparse target information back to the caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Instance
 
 The filter instance attached to the adjusted target.
 
-
 ### -field Volume
 
 The adjusted target volume.
 
-
 ### -field FileNameInformation
 
 The file information for the adjusted target.
-
 
 ### -field Flags
 
@@ -90,12 +86,8 @@ Request that the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 When a caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a> wishes to  enable reparsing for a volume target, a <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> can be included as an ECP to the ECP list in the <i>DriverContext</i> parameter.  If this ECP is present, <b>FltCreateFileEx2</b> will adjust the target device for the create operation and attempt to find a filtered instance  of a volume appropriate for the given file information. If the filter manager does not find a corresponding instance for the caller on the target volume, it will set the <b>Volume</b> and  <b>FileNameInformation</b> members of <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> for the new target. The caller can then use this information to decide how best to proceed.
 
@@ -446,12 +438,7 @@ CrossVolumeCreateExit:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
 
@@ -462,7 +449,4 @@ CrossVolumeCreateExit:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasefilenameinformation">FltReleaseFileNameInformation</a>
- 
-
- 
 

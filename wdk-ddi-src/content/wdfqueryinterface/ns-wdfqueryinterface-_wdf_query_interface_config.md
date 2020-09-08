@@ -8,9 +8,6 @@ ms.assetid: 2f7112fc-7f3e-415d-9994-ffd93f456d97
 ms.date: 02/26/2018
 keywords: ["WDF_QUERY_INTERFACE_CONFIG structure"]
 ms.keywords: "*PWDF_QUERY_INTERFACE_CONFIG, DFDeviceObjectDriverDefIntRef_5b68f6e3-95f7-4339-91c2-2ea2d88d698b.xml, PWDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG structure pointer, WDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG structure, _WDF_QUERY_INTERFACE_CONFIG, kmdf.wdf_query_interface_config, wdf.wdf_query_interface_config, wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG"
-f1_keywords:
- - "wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG"
- - "WDF_QUERY_INTERFACE_CONFIG"
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfqueryinterface.h
-api_name:
-- WDF_QUERY_INTERFACE_CONFIG
 targetos: Windows
 req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
+f1_keywords:
+ - _WDF_QUERY_INTERFACE_CONFIG
+ - wdfqueryinterface/_WDF_QUERY_INTERFACE_CONFIG
+ - PWDF_QUERY_INTERFACE_CONFIG
+ - wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG
+ - WDF_QUERY_INTERFACE_CONFIG
+ - wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfqueryinterface.h
+api_name:
+ - WDF_QUERY_INTERFACE_CONFIG
 ---
 
 # _WDF_QUERY_INTERFACE_CONFIG structure
@@ -46,52 +50,39 @@ req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_QUERY_INTERFACE_CONFIG</b> structure describes a driver-defined interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field Interface
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure that describes the driver-defined interface. 
-
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure that describes the driver-defined interface.
 
 ### -field InterfaceType
 
 A pointer to the GUID that identifies the interface.
 
-
 ### -field SendQueryToParentStack
 
 If <b>TRUE</b>, and if your driver specifies a device object that represents a physical device object (PDO) when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceaddqueryinterface">WdfDeviceAddQueryInterface</a>, the framework sends requests for the interface to the top of the parent device's driver stack. If this member is <b>FALSE</b>, or if the device object does not represent a PDO, the framework does not send requests to the parent device's stack. For more information, see the following Remarks section.
-
 
 ### -field EvtDeviceProcessQueryInterfaceRequest
 
 A pointer to your driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request">EvtDeviceProcessQueryInterfaceRequest</a> event callback function, which is called when another driver requests the interface.
 
-
 ### -field ImportInterface
 
 If <b>TRUE</b>, the interface supports two-way communication between your driver and drivers that request the interface. 
 
-If this member is <b>FALSE</b>, the interface supports one-way communication from your driver to drivers that request the interface. 
-
+If this member is <b>FALSE</b>, the interface supports one-way communication from your driver to drivers that request the interface.
 
 ## -remarks
-
-
 
 The <b>WDF_QUERY_INTERFACE_CONFIG</b> structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceaddqueryinterface">WdfDeviceAddQueryInterface</a> method. 
 
@@ -133,13 +124,7 @@ Drivers should initialize this structure by calling <a href="https://docs.micros
 
 For more information about driver-defined interfaces, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request">EvtDeviceProcessQueryInterfaceRequest</a>
 
@@ -166,7 +151,4 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: b2776618-2585-4a7a-9f8f-536f1d28745b
 ms.date: 02/26/2018
 keywords: ["WdfDeviceSetStaticStopRemove function"]
 ms.keywords: DFDeviceObjectGeneralRef_9874b784-6344-4336-9753-0b172563f981.xml, WdfDeviceSetStaticStopRemove, WdfDeviceSetStaticStopRemove method, kmdf.wdfdevicesetstaticstopremove, wdf.wdfdevicesetstaticstopremove, wdfdevice/WdfDeviceSetStaticStopRemove
-f1_keywords:
- - "wdfdevice/WdfDeviceSetStaticStopRemove"
- - "WdfDeviceSetStaticStopRemove"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceSetStaticStopRemove
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceSetStaticStopRemove
+ - wdfdevice/WdfDeviceSetStaticStopRemove
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceSetStaticStopRemove
 ---
 
 # WdfDeviceSetStaticStopRemove function
@@ -49,26 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceSetStaticStopRemove</b> method informs the framework whether a device can be stopped and removed.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Stoppable 
 
-### -param Stoppable [in]
-
+[in]
 A Boolean value that indicates whether the specified device can be stopped and removed. If <b>TRUE</b>, the device can be stopped and removed. If <b>FALSE</b>, the device cannot be stopped and removed.
-
 
 ## -remarks
 
@@ -98,5 +93,4 @@ WdfDeviceSetStaticStopRemove(
                              FALSE
                              );
 ```
-
 

@@ -8,9 +8,6 @@ ms.assetid: DE0D4A9A-F85D-4AA4-8A21-1BEC86837444
 ms.date: 02/15/2018
 keywords: ["GNSS_SELFTESTCONFIG structure"]
 ms.keywords: "*PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG structure [Sensor Devices], PGNSS_SELFTESTCONFIG, PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], gnss.gnss_selftestconfig, gnssdriver/GNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG"
-f1_keywords:
- - "gnssdriver/GNSS_SELFTESTCONFIG"
- - "GNSS_SELFTESTCONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_SELFTESTCONFIG
 targetos: Windows
 req.typenames: GNSS_SELFTESTCONFIG, *PGNSS_SELFTESTCONFIG
+f1_keywords:
+ - PGNSS_SELFTESTCONFIG
+ - gnssdriver/PGNSS_SELFTESTCONFIG
+ - GNSS_SELFTESTCONFIG
+ - gnssdriver/GNSS_SELFTESTCONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_SELFTESTCONFIG
 ---
 
 # GNSS_SELFTESTCONFIG structure
@@ -46,39 +48,27 @@ req.typenames: GNSS_SELFTESTCONFIG, *PGNSS_SELFTESTCONFIG
 
 ## -description
 
-
 This structure defines the specific data elements associated with a carrier wave test results returned from the driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
-
 
 ### -field TestType
 
 The type of self-test requested.
 
-
 ### -field Unused
-
- 
-
 
 ### -field InBufLen
 
 The length of the buffer for passing in any additional information about the self-test.
-
 
 ### -field InBuffer
 

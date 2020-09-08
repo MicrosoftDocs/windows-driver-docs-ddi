@@ -8,9 +8,6 @@ ms.assetid: 8f3abf40-bb47-4fa6-862b-6126edb00b36
 ms.date: 05/02/2018
 keywords: ["NdisEqualUnicodeString macro"]
 ms.keywords: NdisEqualUnicodeString, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualUnicodeString, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, netvista.ndisequalunicodestring
-f1_keywords:
- - "ndis/NdisEqualUnicodeString"
- - "NdisEqualUnicodeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisEqualUnicodeString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisEqualUnicodeString
+ - ndis/NdisEqualUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisEqualUnicodeString
 ---
 
 # NdisEqualUnicodeString macro
@@ -46,26 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisEqualUnicodeString</b> function compares two Unicode strings and returns whether they are
   equal.
 
-
 ## -parameters
 
+### -param _String1 
 
-
-
-### -param _String1 [in]
-
+[in]
 A pointer to an NDIS_STRING type that describes the first Unicode string.
 
+### -param _String2 
 
-### -param _String2 [in]
-
+[in]
 A pointer to an NDIS_STRING type that describes the second Unicode string.
-
 
 ### -param _CaseInsensitive
 
@@ -74,22 +69,11 @@ A Boolean value that is <b>TRUE</b>, if case should be ignored when doing the co
 
 ## -remarks
 
-
-
 Starting with Windows 2000 and later drivers, a string of type NDIS_STRING is a counted,
     null-terminated Unicode string. That is, NDIS defines the NDIS_STRING type as a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
-
-
-
+    <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

@@ -5,39 +5,40 @@ description: Arguments used by the PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback
 ms.assetid: 6a7a5e66-d569-44ef-8be6-a01ea4dbd3ab
 ms.date: 10/19/2018
 keywords: ["DXGIDDICB_SUBMITPRESENTTOHWQUEUE structure"]
-f1_keywords:
- - "dxgiddi/DXGIDDICB_SUBMITPRESENTTOHWQUEUE"
- - "DXGIDDICB_SUBMITPRESENTTOHWQUEUE"
-ms.keywords: DXGIDDICB_SUBMITPRESENTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTTOHWQUEUE, 
+ms.keywords: DXGIDDICB_SUBMITPRESENTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTTOHWQUEUE,
 req.header: dxgiddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGIDDICB_SUBMITPRESENTTOHWQUEUE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- dxgiddi.h
-api_name: 
-- DXGIDDICB_SUBMITPRESENTTOHWQUEUE
 targetos: Windows
 tech.root: display
+ms.custom: RS5, 19H1
+f1_keywords:
+ - DXGIDDICB_SUBMITPRESENTTOHWQUEUE
+ - dxgiddi/DXGIDDICB_SUBMITPRESENTTOHWQUEUE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dxgiddi.h
+api_name:
+ - DXGIDDICB_SUBMITPRESENTTOHWQUEUE
 dev_langs:
  - c++
-ms.custom: RS5, 19H1
 ---
 
 # DXGIDDICB_SUBMITPRESENTTOHWQUEUE structure
+
 
 ## -description
 
@@ -46,6 +47,7 @@ Arguments used by the [PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB](nc-dxgiddi-pfnddxgi
 ## -struct-fields
 
 ### -field pDXGIContext
+
  
 Pointer to a DXGI context.
 
@@ -74,11 +76,12 @@ The total size in bytes of the private data buffer.
 Pointer to the private data to pass to DdiPresent.
 
 ### -field bOptimizeForComposition
- 
+
 ### -field SyncIntervalOverrideValid
- 
+
 ### -field SyncIntervalOverride
 
 ## -remarks
 
 ## -see-also
+

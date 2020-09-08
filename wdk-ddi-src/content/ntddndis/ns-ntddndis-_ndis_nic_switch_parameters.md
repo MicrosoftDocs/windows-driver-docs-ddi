@@ -8,9 +8,6 @@ ms.assetid: BC43A7DF-51B4-4571-86C5-12B332B13084
 ms.date: 05/02/2018
 keywords: ["NDIS_NIC_SWITCH_PARAMETERS structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_PARAMETERS, netvista.ndis_nic_switch_parameters, ntddndis/NDIS_NIC_SWITCH_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_PARAMETERS"
-f1_keywords:
- - "ntddndis/NDIS_NIC_SWITCH_PARAMETERS"
- - "NDIS_NIC_SWITCH_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_NIC_SWITCH_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_PARAMETERS
+f1_keywords:
+ - _NDIS_NIC_SWITCH_PARAMETERS
+ - ntddndis/_NDIS_NIC_SWITCH_PARAMETERS
+ - PNDIS_NIC_SWITCH_PARAMETERS
+ - ntddndis/PNDIS_NIC_SWITCH_PARAMETERS
+ - NDIS_NIC_SWITCH_PARAMETERS
+ - ntddndis/NDIS_NIC_SWITCH_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_NIC_SWITCH_PARAMETERS
 ---
 
 # _NDIS_NIC_SWITCH_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_NIC_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_PARAMETERS
 
 ## -description
 
-
 The <b>NDIS_NIC_SWITCH_PARAMETERS</b> structure specifies the configuration parameters of a network adapter switch on the network adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -70,7 +69,6 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NIC_SWITCH_PARAMETERS_REVISION_1.
-
 
 ### -field Flags
 
@@ -110,7 +108,6 @@ An NDIS_NIC_SWITCH_ID value that contains a switch identifier. The switch identi
 
 An NDIS_NIC_SWITCH_FRIENDLY_NAME value that contains a description for the switch.
 
-
 ### -field NumVFs
 
 A ULONG value that specifies the number of PCI Express (PCIe) Virtual Functions (VFs) that are enabled on the network adapter. VFs are enabled on the adapter when virtualization is enabled through a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismenablevirtualization">NdisMEnableVirtualization</a>.
@@ -122,39 +119,23 @@ A ULONG value that specifies the number of PCI Express (PCIe) Virtual Functions 
 
 Reserved for NDIS.
 
-
 ### -field NdisReserved2
 
 Reserved for NDIS.
-
 
 ### -field NdisReserved3
 
 Reserved for NDIS.
 
-
 ### -field NumQueuePairsForDefaultVPort
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The <b>NDIS_NIC_SWITCH_PARAMETERS</b> structure is used in OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-parameters">OID_NIC_SWITCH_PARAMETERS</a>. These OID requests set or query the configuration parameters of a network adapter switch. 
 
 For more information about the SR-IOV interface, see 	<a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -177,7 +158,4 @@ For more information about the SR-IOV interface, see 	<a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-parameters">OID_NIC_SWITCH_PARAMETERS</a>
- 
-
- 
 

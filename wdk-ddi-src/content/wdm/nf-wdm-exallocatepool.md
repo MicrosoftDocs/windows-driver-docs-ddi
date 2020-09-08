@@ -8,9 +8,6 @@ ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.date: 04/30/2018
 keywords: ["ExAllocatePool function"]
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
-f1_keywords:
- - "wdm/ExAllocatePool"
- - "ExAllocatePool"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h, Smcnt.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAllocatePool
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAllocatePool
+ - wdm/ExAllocatePool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAllocatePool
 ---
 
 # ExAllocatePool function
@@ -46,41 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExAllocatePool</b> routine is <u>obsolete</u>, and is exported only for existing binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a> instead.
 
 <b>ExAllocatePool</b> allocates pool memory of the specified type and returns a pointer to the allocated block.
 
-
 ## -parameters
 
+### -param PoolType 
 
-
-
-### -param PoolType [in]
-
+[in]
 Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>.
 
 You can modify <i>PoolType</i> by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
+### -param NumberOfBytes 
 
-### -param NumberOfBytes [in]
-
-Specifies the number of bytes to allocate. 
-
+[in]
+Specifies the number of bytes to allocate.
 
 ## -returns
 
-
-
 <b>ExAllocatePool</b> returns <b>NULL</b> if there is insufficient memory in the free pool to satisfy the request. Otherwise the routine returns a pointer to the allocated memory.
 
-
-
-
 ## -remarks
-
-
 
 This routine is used for the general pool allocation of memory.
 
@@ -99,12 +87,7 @@ The system automatically sets certain standard event objects when the amount of 
 <div class="alert"><b>Note</b>  Memory that <b>ExAllocatePool</b> allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
@@ -115,7 +98,4 @@ The system automatically sets certain standard event objects when the amount of 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 38fa1687-5ad6-4536-8930-8505e5960207
 ms.date: 04/30/2018
 keywords: ["TRACE_INFORMATION_CLASS enumeration"]
 ms.keywords: AllLoggerHandlesClass, DiskIoNotifyRoutinesClass, EventLoggerHandleClass, FltIoNotifyRoutinesClass, GlobalLoggerHandleClass, LoggerEventsLoggedClass, LoggerEventsLostClass, MaxTraceInformationClass, TRACE_INFORMATION_CLASS, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TraceEnableFlagsClass, TraceEnableLevelClass, TraceHandleByNameClass, TraceHandleClass, TraceIdClass, TraceInformationClassReserved1, TraceInformationClassReserved2, TraceSessionSettingsClass, WdfNotifyRoutinesClass, _TRACE_INFORMATION_CLASS, kernel.trace_information_class, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/AllLoggerHandlesClass, wdm/DiskIoNotifyRoutinesClass, wdm/EventLoggerHandleClass, wdm/FltIoNotifyRoutinesClass, wdm/GlobalLoggerHandleClass, wdm/LoggerEventsLoggedClass, wdm/LoggerEventsLostClass, wdm/MaxTraceInformationClass, wdm/TRACE_INFORMATION_CLASS, wdm/TraceEnableFlagsClass, wdm/TraceEnableLevelClass, wdm/TraceHandleByNameClass, wdm/TraceHandleClass, wdm/TraceIdClass, wdm/TraceInformationClassReserved1, wdm/TraceInformationClassReserved2, wdm/TraceSessionSettingsClass, wdm/WdfNotifyRoutinesClass
-f1_keywords:
- - "wdm/TRACE_INFORMATION_CLASS"
- - "TRACE_INFORMATION_CLASS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- TRACE_INFORMATION_CLASS
 targetos: Windows
 req.typenames: TRACE_INFORMATION_CLASS
+f1_keywords:
+ - _TRACE_INFORMATION_CLASS
+ - wdm/_TRACE_INFORMATION_CLASS
+ - TRACE_INFORMATION_CLASS
+ - wdm/TRACE_INFORMATION_CLASS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - TRACE_INFORMATION_CLASS
 ---
 
 # _TRACE_INFORMATION_CLASS enumeration
@@ -46,113 +48,83 @@ req.typenames: TRACE_INFORMATION_CLASS
 
 ## -description
 
-
 The <b>TRACE_INFORMATION_CLASS</b> enumeration type is used to indicate types of information associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-event-tracing">WMI event tracing</a> session.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TraceIdClass
 
 Retrieves the logger ID (ULONG) of an event tracing session given a caller-supplied Wnode.
 
-
 ### -field TraceHandleClass
 
 Retrieves a trace handle (TRACEHANDLE) for an event tracing session given a caller-supplied logger ID (ULONG).
-
 
 ### -field TraceEnableFlagsClass
 
 Retrieves the enable flags (ULONG) set on a caller-supplied event trace handle (TRACEHANDLE).
 
-
 ### -field TraceEnableLevelClass
 
 Retrieves the enable level (ULONG) set on a caller-supplied event trace handle (TRACEHANDLE).
-
 
 ### -field GlobalLoggerHandleClass
 
 Retrieves an event trace handle (TRACEHANDLE) for the global logger.
 
-
 ### -field EventLoggerHandleClass
 
 Reserved for use by the operating system.
-
 
 ### -field AllLoggerHandlesClass
 
 Retrieves an array of event trace handles (TRACEHANDLE array) for all valid loggers.
 
-
 ### -field TraceHandleByNameClass
 
-Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure in buffer).
-
+Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure in buffer).
 
 ### -field LoggerEventsLostClass
 
 Retrieves the number (ULONG) of events lost for a logger session given a caller-supplied logger ID (ULONG).
 
-
 ### -field TraceSessionSettingsClass
 
 Retrieves the settings (<b>ETW_TRACE_SESSION_SETTINGS</b> structure) for a logger session given a caller-supplied trace handle (TRACEHANDLE).
-
 
 ### -field LoggerEventsLoggedClass
 
 Retrieves the number (ULONG) of events logged in a logger session given a caller-supplied logger ID (ULONG).
 
-
 ### -field DiskIoNotifyRoutinesClass
 
 Reserved for use by the operating system.
-
 
 ### -field TraceInformationClassReserved1
 
 Reserved for use by the operating system.
 
-
 ### -field FltIoNotifyRoutinesClass
 
 Reserved for use by the operating system.
-
 
 ### -field TraceInformationClassReserved2
 
 Reserved for use by the operating system.
 
-
 ### -field WdfNotifyRoutinesClass
 
 Reserved for use by the operating system.
-
 
 ### -field MaxTraceInformationClass
 
 The maximum value in this enumeration type.
 
-
 ## -remarks
-
-
 
 <b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmiquerytraceinformation">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
 
@@ -167,7 +139,4 @@ The maximum value in this enumeration type.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>
- 
-
- 
 

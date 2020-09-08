@@ -8,9 +8,6 @@ ms.assetid: fef8e8b8-7e79-4d88-b643-9b371e4297fd
 ms.date: 05/08/2018
 keywords: ["IPreFetchOffset::SetPreFetchOffset"]
 ms.keywords: IPreFetchOffset interface [Audio Devices],SetPreFetchOffset method, IPreFetchOffset.SetPreFetchOffset, IPreFetchOffset::SetPreFetchOffset, SetPreFetchOffset, SetPreFetchOffset method [Audio Devices], SetPreFetchOffset method [Audio Devices],IPreFetchOffset interface, audio.iprefetchoffset_setprefetchoffset, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml, portcls/IPreFetchOffset::SetPreFetchOffset
-f1_keywords:
- - "portcls/IPreFetchOffset.SetPreFetchOffset"
- - "IPreFetchOffset.SetPreFetchOffset"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPreFetchOffset.SetPreFetchOffset
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPreFetchOffset::SetPreFetchOffset
+ - portcls/IPreFetchOffset::SetPreFetchOffset
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPreFetchOffset.SetPreFetchOffset
 ---
 
 # IPreFetchOffset::SetPreFetchOffset
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <code>SetPreFetchOffset</code> method sets the prefetch offset, which is the number of bytes of data separating the write cursor from the play cursor in a DirectSound output stream.
-
 
 ## -parameters
 
+### -param PreFetchOffset 
 
-
-
-### -param PreFetchOffset [in]
-
+[in]
 Specifies the prefetch offset size in bytes.
 
-
 ## -remarks
-
-
 
 A WavePci miniport driver calls the <code>SetPreFetchOffset</code> method to specify the prefetch offset of a hardware-accelerated DirectSound output stream.
 
@@ -82,13 +75,7 @@ For more information about write cursors and play cursors, see <a href="https://
 
 For information about using <code>SetPreFetchOffset</code> to control a DirectSound stream's prefetch offset, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/prefetch-offsets">Prefetch Offsets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepcistream-getposition">IMiniportWavePciStream::GetPosition</a>
 
@@ -107,7 +94,4 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
- 
-
- 
 

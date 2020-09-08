@@ -8,9 +8,6 @@ ms.assetid: 1DE23CF6-970E-4BDE-9BEC-CAC0640B257A
 ms.date: 05/03/2018
 keywords: ["STACK_SYM_FRAME_INFO structure"]
 ms.keywords: "*PSTACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO structure pointer [Windows Debugging], STACK_SYM_FRAME_INFO, STACK_SYM_FRAME_INFO structure [Windows Debugging], _STACK_SYM_FRAME_INFO, dbgeng/PSTACK_SYM_FRAME_INFO, dbgeng/STACK_SYM_FRAME_INFO, debugger.stack_sym_frame_info"
-f1_keywords:
- - "dbgeng/STACK_SYM_FRAME_INFO"
- - "STACK_SYM_FRAME_INFO"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dbgeng.h
-api_name:
-- STACK_SYM_FRAME_INFO
 targetos: Windows
 req.typenames: STACK_SYM_FRAME_INFO, *PSTACK_SYM_FRAME_INFO
+f1_keywords:
+ - _STACK_SYM_FRAME_INFO
+ - dbgeng/_STACK_SYM_FRAME_INFO
+ - PSTACK_SYM_FRAME_INFO
+ - dbgeng/PSTACK_SYM_FRAME_INFO
+ - STACK_SYM_FRAME_INFO
+ - dbgeng/STACK_SYM_FRAME_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dbgeng.h
+api_name:
+ - STACK_SYM_FRAME_INFO
 ---
 
 # _STACK_SYM_FRAME_INFO structure
@@ -46,36 +50,23 @@ req.typenames: STACK_SYM_FRAME_INFO, *PSTACK_SYM_FRAME_INFO
 
 ## -description
 
-
-Defines stack source information for an extended stack frame. 
-
+Defines stack source information for an extended stack frame.
 
 ## -struct-fields
 
-
-
-
 ### -field StackFrameEx
 
-A stack frame as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a> structure. 
-
+A stack frame as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a> structure.
 
 ### -field SrcInfo
 
 Stack source information as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_stack_src_info">STACK_SRC_INFO</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_stack_src_info">STACK_SRC_INFO</a>
- 
-
- 
 

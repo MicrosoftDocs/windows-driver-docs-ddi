@@ -5,41 +5,44 @@ description: Contains arguments for the DXGKDDI_UPDATEMONITORLINKINFO callback f
 ms.assetid: a4a7f01c-ff10-4ce7-b666-0229e0e8bf85
 ms.date: 10/19/2018
 keywords: ["DXGKARG_UPDATEMONITORLINKINFO structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARG_UPDATEMONITORLINKINFO"
- - "_DXGKARG_UPDATEMONITORLINKINFO"
 ms.keywords: _DXGKARG_UPDATEMONITORLINKINFO, DXGKARG_UPDATEMONITORLINKINFO, *INOUT_PDXGKARG_UPDATEMONITORLINKINFO
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_UPDATEMONITORLINKINFO
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARG_UPDATEMONITORLINKINFO
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5, 19H1
+f1_keywords:
+ - _DXGKARG_UPDATEMONITORLINKINFO
+ - d3dkmddi/_DXGKARG_UPDATEMONITORLINKINFO
+ - DXGKARG_UPDATEMONITORLINKINFO
+ - d3dkmddi/DXGKARG_UPDATEMONITORLINKINFO
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARG_UPDATEMONITORLINKINFO
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: RS5, 19H1
 ---
 
 # _DXGKARG_UPDATEMONITORLINKINFO structure
+
 
 ## -description
 
@@ -58,3 +61,4 @@ Pointer to a [DXGK_MONITORLINKINFO](../d3dkmddi/ns-d3dkmddi-_dxgk_monitorlinkinf
 ## -remarks
 
 ## -see-also
+

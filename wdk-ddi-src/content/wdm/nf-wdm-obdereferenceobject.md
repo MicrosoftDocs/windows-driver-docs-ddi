@@ -8,9 +8,6 @@ ms.assetid: 8cd2d7ae-ebbe-41c6-8773-7a517bc6f714
 ms.date: 04/30/2018
 keywords: ["ObDereferenceObject macro"]
 ms.keywords: ObDereferenceObject, ObDereferenceObject routine [Kernel-Mode Driver Architecture], k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml, kernel.obdereferenceobject, wdm/ObDereferenceObject
-f1_keywords:
- - "wdm/ObDereferenceObject"
- - "ObDereferenceObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ObDereferenceObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObDereferenceObject
+ - wdm/ObDereferenceObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ObDereferenceObject
 ---
 
 # ObDereferenceObject macro
@@ -46,20 +46,14 @@ req.typenames:
 
 ## -description
 
-
 The <b>ObDereferenceObject</b> routine decrements the given object's reference count and performs retention checks.
-
 
 ## -parameters
 
+### -param a 
 
-
-
-### -param a [in]
-
-Pointer to the object's body. 
-
-
+[in]
+Pointer to the object's body.
 
 ## -remarks
 
@@ -94,12 +88,7 @@ Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-n
      Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectdeferdelete">ObDereferenceObjectDeferDelete</a> instead of <b>ObDereferenceObject</b> for any object, particularly <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-kernel-transaction-manager">Kernel Transaction Manager</a> (KTM) objects, when the immediate deletion by the current thread of the object (by using <b>ObDereferenceObject</b>) might result in a deadlock.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
@@ -118,7 +107,4 @@ Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-n
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwmaketemporaryobject">ZwMakeTemporaryObject</a>
- 
-
- 
 

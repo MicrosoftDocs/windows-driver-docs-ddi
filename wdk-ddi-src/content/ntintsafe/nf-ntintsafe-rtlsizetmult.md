@@ -8,9 +8,6 @@ ms.assetid: 3EC72857-2880-4F03-8CC3-9B9A80F19273
 ms.date: 04/30/2018
 keywords: ["RtlSizeTMult function"]
 ms.keywords: RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture], kernel.rtlsizetmult, ntintsafe/RtlSizeTMult
-f1_keywords:
- - "ntintsafe/RtlSizeTMult"
- - "RtlSizeTMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlSizeTMult
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlSizeTMult
+ - ntintsafe/RtlSizeTMult
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlSizeTMult
 ---
 
 # RtlSizeTMult function
@@ -46,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Multiplies one value of type <b>SIZE_T</b> by another.
-
 
 ## -parameters
 
+### -param Multiplicand 
 
-
-
-### -param Multiplicand [in]
-
+[in]
 The value to be multiplied by <i>Multiplier</i>.
 
+### -param Multiplier 
 
-### -param Multiplier [in]
-
+[in]
 The value by which to multiply <i>Multiplicand</i>.
 
+### -param pResult 
 
-### -param pResult [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

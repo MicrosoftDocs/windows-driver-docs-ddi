@@ -8,9 +8,6 @@ ms.assetid: 053b9f14-7319-4599-886e-3c03c717b348
 ms.date: 03/29/2018
 keywords: ["ISCSI_Supported_LB_Policies structure"]
 ms.keywords: "*PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], PISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies structure pointer [Storage Devices], _ISCSI_Supported_LB_Policies, iscsimgt/ISCSI_Supported_LB_Policies, iscsimgt/PISCSI_Supported_LB_Policies, storage.iscsi_supported_lb_policies, structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml"
-f1_keywords:
- - "iscsimgt/ISCSI_Supported_LB_Policies"
- - "ISCSI_Supported_LB_Policies"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsimgt.h
-api_name:
-- ISCSI_Supported_LB_Policies
 targetos: Windows
 req.typenames: ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies
+f1_keywords:
+ - _ISCSI_Supported_LB_Policies
+ - iscsimgt/_ISCSI_Supported_LB_Policies
+ - PISCSI_Supported_LB_Policies
+ - iscsimgt/PISCSI_Supported_LB_Policies
+ - ISCSI_Supported_LB_Policies
+ - iscsimgt/ISCSI_Supported_LB_Policies
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsimgt.h
+api_name:
+ - ISCSI_Supported_LB_Policies
 ---
 
 # _ISCSI_Supported_LB_Policies structure
@@ -46,19 +50,13 @@ req.typenames: ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies
 
 ## -description
 
-
 The ISCSI_Supported_LB_Policies structure contains information about load balancing policies for multiple connections per session (MCS).
 
-
 ## -struct-fields
-
-
-
 
 ### -field UniqueSessionId
 
 A 64-bit integer that uniquely identifies the session. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in their UniqueSessionId parameter. Do not confuse this value with the values in the ISID and TSID members.
-
 
 ### -field LoadBalancePolicy
 
@@ -130,30 +128,20 @@ Vendor-specific I/O policies are in effect.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iSCSI_PathCount
 
 The number of paths associated with a target in the context of this session.
 
-
 ### -field iSCSI_Paths
 
 Path information as shown in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_path">ISCSI_Path</a> structure.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
- 
-
- 
 

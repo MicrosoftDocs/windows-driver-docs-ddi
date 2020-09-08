@@ -8,9 +8,6 @@ ms.assetid: bebd704b-2824-4bea-aae8-d77c66830715
 ms.date: 05/08/2018
 keywords: ["IPortClsPower interface"]
 ms.keywords: IPortClsPower, IPortClsPower interface [Audio Devices], IPortClsPower interface [Audio Devices],described, audio.iportclspower, audmp-routines_d6815c8f-a34f-423a-a58d-e45a1292d22d.xml, portcls/IPortClsPower
-f1_keywords:
- - "portcls/IPortClsPower"
- - "IPortClsPower"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortClsPower
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortClsPower
+ - portcls/IPortClsPower
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortClsPower
 ---
 
 # IPortClsPower interface
 
 
 ## -description
-
 
 The <code>IPortClsPower</code> interface is supported in Windows Vista and later versions of Windows. <code>IPortClsPower</code> is the power management interface that the port class driver (PortCls) exposes to the adapter.
 

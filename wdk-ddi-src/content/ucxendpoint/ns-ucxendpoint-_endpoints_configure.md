@@ -8,9 +8,6 @@ ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.date: 05/07/2018
 keywords: ["ENDPOINTS_CONFIGURE structure"]
 ms.keywords: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], _ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE"
-f1_keywords:
- - "ucxendpoint/ENDPOINTS_CONFIGURE"
- - "ENDPOINTS_CONFIGURE"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucxendpoint.h
-api_name:
-- ENDPOINTS_CONFIGURE
 targetos: Windows
 req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
+f1_keywords:
+ - _ENDPOINTS_CONFIGURE
+ - ucxendpoint/_ENDPOINTS_CONFIGURE
+ - PENDPOINTS_CONFIGURE
+ - ucxendpoint/PENDPOINTS_CONFIGURE
+ - ENDPOINTS_CONFIGURE
+ - ucxendpoint/ENDPOINTS_CONFIGURE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucxendpoint.h
+api_name:
+ - ENDPOINTS_CONFIGURE
 ---
 
 # _ENDPOINTS_CONFIGURE structure
@@ -46,94 +50,63 @@ req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
 
 ## -description
 
-
 Describes   endpoints to enable or disable endpoints. This structure is passed by UCX in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>  callback function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_mgmt_header">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
 
-
 ### -field EndpointsToEnableCount
 
 The number of endpoints to configure.
-
 
 ### -field EndpointsToEnable
 
 A pointer to the first endpoint handle in the array of endpoints to  enable.
 
-
 ### -field EndpointsToDisableCount
 
 The number of endpoints to configure.
-
 
 ### -field EndpointsToDisable
 
 A pointer to the first endpoint handle in the array of endpoints to  enable.
 
-
 ### -field EndpointsEnabledAndUnchangedCount
 
 The number of endpoints that were enabled and unchanged.
-
 
 ### -field EndpointsEnabledAndUnchanged
 
 A pointer to the first endpoint handle in the array of endpoints that have not been changed.
 
-
 ### -field FailureFlags
 
 The errors, if any, that might occur when attempting to configure endpoints for the USB device or hub.
-
 
 ### -field ExitLatencyDelta
 
 The Exit Latency Delta (ELD) value. For more information see section 4.6.6.1 of the eXtensible Host Controller Interface specification.
 
-
 ### -field ConfigurationValue
 
-The configuration number of the USB configuration that contains the endpoints. 
-
+The configuration number of the USB configuration that contains the endpoints.
 
 ### -field InterfaceNumber
 
-The interface number of the USB interface that contains the endpoints. 
-
+The interface number of the USB interface that contains the endpoints.
 
 ### -field AlternateSetting
 
-The setting number of the alternate setting that contains the endpoints. 
-
+The setting number of the alternate setting that contains the endpoints.
 
 ### -field Reserved1
 
- 
-
-
 ### -field Reserved2
-
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_endpoints_configure">EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE</a>
- 
-
- 
 

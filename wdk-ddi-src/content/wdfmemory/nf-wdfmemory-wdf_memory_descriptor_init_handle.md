@@ -8,9 +8,6 @@ ms.assetid: e5449684-dd37-4d49-ae9f-372f295cecf8
 ms.date: 02/26/2018
 keywords: ["WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function"]
 ms.keywords: DFMemoryObjectRef_1cec1e9e-7279-4278-a5c2-2eaaaa7a8074.xml, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function, kmdf.wdf_memory_descriptor_init_handle, wdf.wdf_memory_descriptor_init_handle, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
-f1_keywords:
- - "wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE"
- - "WDF_MEMORY_DESCRIPTOR_INIT_HANDLE"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfmemory.h
-api_name:
-- WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
+ - wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfmemory.h
+api_name:
+ - WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
 ---
 
 # WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure so that it describes a specified framework memory object.
 
-
 ## -parameters
 
+### -param Descriptor 
 
-
-
-### -param Descriptor [out]
-
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure.
 
+### -param Memory 
 
-### -param Memory [in]
-
+[in]
 A handle to a framework memory object.
 
+### -param Offsets 
 
-### -param Offsets [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 The <b>WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</b> function zeros the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure and sets the structure's <b>Type</b> member to <b>WdfMemoryDescriptorTypeHandle</b>. Then it sets the structure's <b>u.HandleType.Memory</b> and <b>u.HandleType.Offsets</b> members to the values that the <i>Memory</i> and <i>Offsets</i> parameters specify, respectively.
 
@@ -121,12 +114,7 @@ status = WdfUsbTargetDeviceSendControlTransferSynchronously(
                                   );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
 
@@ -141,7 +129,4 @@ status = WdfUsbTargetDeviceSendControlTransferSynchronously(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdf_memory_descriptor_init_mdl">WDF_MEMORY_DESCRIPTOR_INIT_MDL</a>
- 
-
- 
 

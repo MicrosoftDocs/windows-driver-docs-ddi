@@ -8,9 +8,6 @@ ms.assetid: 03472920-cb22-42e1-b0e5-488c0319fc03
 ms.date: 04/16/2018
 keywords: ["FILE_STREAM_INFORMATION structure"]
 ms.keywords: "*PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION structure [Installable File System Drivers], PFILE_STREAM_INFORMATION, PFILE_STREAM_INFORMATION structure pointer [Installable File System Drivers], _FILE_STREAM_INFORMATION, fileinformationstructures_da535f6c-5769-4564-a2e7-e5a7ff952119.xml, ifsk.file_stream_information, ntifs/FILE_STREAM_INFORMATION, ntifs/PFILE_STREAM_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_STREAM_INFORMATION"
- - "FILE_STREAM_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_STREAM_INFORMATION
 targetos: Windows
 req.typenames: FILE_STREAM_INFORMATION, *PFILE_STREAM_INFORMATION
+f1_keywords:
+ - _FILE_STREAM_INFORMATION
+ - ntifs/_FILE_STREAM_INFORMATION
+ - PFILE_STREAM_INFORMATION
+ - ntifs/PFILE_STREAM_INFORMATION
+ - FILE_STREAM_INFORMATION
+ - ntifs/FILE_STREAM_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_STREAM_INFORMATION
 ---
 
 # _FILE_STREAM_INFORMATION structure
@@ -46,43 +50,31 @@ req.typenames: FILE_STREAM_INFORMATION, *PFILE_STREAM_INFORMATION
 
 ## -description
 
-
-The FILE_STREAM_INFORMATION structure is used to enumerate the streams for a file. 
-
+The FILE_STREAM_INFORMATION structure is used to enumerate the streams for a file.
 
 ## -struct-fields
 
-
-
-
 ### -field NextEntryOffset
 
-The offset of the next FILE_STREAM_INFORMATION entry. This member is zero if no other entries follow this one. 
-
+The offset of the next FILE_STREAM_INFORMATION entry. This member is zero if no other entries follow this one.
 
 ### -field StreamNameLength
 
-Length, in bytes, of the <b>StreamName</b> string. 
-
+Length, in bytes, of the <b>StreamName</b> string.
 
 ### -field StreamSize
 
-Size, in bytes, of the stream. 
-
+Size, in bytes, of the stream.
 
 ### -field StreamAllocationSize
 
-File stream allocation size, in bytes. Usually this value is a multiple of the sector or cluster size of the underlying physical device. 
-
+File stream allocation size, in bytes. Usually this value is a multiple of the sector or cluster size of the underlying physical device.
 
 ### -field StreamName
 
-Unicode string that contains the name of the stream. 
-
+Unicode string that contains the name of the stream.
 
 ## -remarks
-
-
 
 The FILE_STREAM_INFORMATION structure is used to enumerate the streams for a file. This operation can be performed in either of the following ways: 
 
@@ -122,15 +114,9 @@ By sending an IRP_MJ_QUERY_VOLUME_INFORMATION request to the file system and spe
 
 </li>
 </ul>
-The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on an 8-byte boundary. 
-
-
-
+The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on an 8-byte boundary.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile">FltQueryInformationFile</a>
 
@@ -157,7 +143,4 @@ The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) bou
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
- 
-
- 
 

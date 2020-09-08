@@ -8,9 +8,6 @@ ms.assetid: 5f29249f-bb62-45d1-aa0e-108db1d7f906
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::WriteTypedDataPhysical"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols.WriteTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols2::WriteTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging],WriteTypedDataPhysical method, IDebugSymbols3::WriteTypedDataPhysical, IDebugSymbols::WriteTypedDataPhysical, IDebugSymbols_b5205296-88eb-4af8-8448-b2a79f08e7b0.xml, WriteTypedDataPhysical, WriteTypedDataPhysical method [Windows Debugging], WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols interface, WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols2 interface, WriteTypedDataPhysical method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataPhysical, dbgeng/IDebugSymbols3::WriteTypedDataPhysical, dbgeng/IDebugSymbols::WriteTypedDataPhysical, debugger.writetypeddataphysical
-f1_keywords:
- - "dbgeng/IDebugSymbols.WriteTypedDataPhysical"
- - "IDebugSymbols.WriteTypedDataPhysical"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.WriteTypedDataPhysical
-- IDebugSymbols2.WriteTypedDataPhysical
-- IDebugSymbols3.WriteTypedDataPhysical
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols::WriteTypedDataPhysical
+ - dbgeng/IDebugSymbols::WriteTypedDataPhysical
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.WriteTypedDataPhysical
+ - IDebugSymbols2.WriteTypedDataPhysical
+ - IDebugSymbols3.WriteTypedDataPhysical
 ---
 
 # IDebugSymbols::WriteTypedDataPhysical
@@ -48,48 +48,41 @@ req.typenames:
 
 ## -description
 
-
 The <b>WriteTypedDataPhysical</b> method writes the value of a variable in the target computer's physical memory.
-
 
 ## -parameters
 
+### -param Offset 
 
-
-
-### -param Offset [in]
-
+[in]
 Specifies the physical address in the target computer's memory of the variable.
 
+### -param Module 
 
-### -param Module [in]
-
+[in]
 Specifies the base address of the module containing the type of the variable.
 
+### -param TypeId 
 
-### -param TypeId [in]
-
+[in]
 Specifies the type ID of the type of the variable.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Specifies the buffer containing the data to be written.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes to be written.
 
+### -param BytesWritten 
 
-### -param BytesWritten [out, optional]
-
+[out, optional]
 Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -121,14 +114,8 @@ The method was successful.  All the bytes in the buffer <i>Buffer</i> were writt
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is only available in kernel mode debugging.
 
@@ -137,6 +124,4 @@ The number of bytes this method attempts to write is the smaller of the size of 
 This is a convenience method.  The same result can be obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>.
 
 For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.
-
-
 

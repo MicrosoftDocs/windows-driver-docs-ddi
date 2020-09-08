@@ -8,9 +8,6 @@ ms.assetid: e54864de-9558-44b1-9c5a-0f2ecc6516b1
 ms.date: 05/02/2018
 keywords: ["NmrClientDetachProviderComplete function"]
 ms.keywords: NmrClientDetachProviderComplete, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrClientDetachProviderComplete, netvista.nmrclientdetachprovidercomplete, nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml
-f1_keywords:
- - "netioddk/NmrClientDetachProviderComplete"
- - "NmrClientDetachProviderComplete"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- netio.lib
-- netio.dll
-api_name:
-- NmrClientDetachProviderComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NmrClientDetachProviderComplete
+ - netioddk/NmrClientDetachProviderComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - netio.lib
+ - netio.dll
+api_name:
+ - NmrClientDetachProviderComplete
 ---
 
 # NmrClientDetachProviderComplete function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NmrClientDetachProviderComplete</b> function notifies the NMR that a client module has completed
   detaching from a provider module.
 
-
 ## -parameters
 
+### -param NmrBindingHandle 
 
-
-
-### -param NmrBindingHandle [in]
-
+[in]
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the client module when it calls the client module's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a> callback
      function.
 
-
 ## -remarks
-
-
 
 A client module calls the 
     <b>NmrClientDetachProviderComplete</b> function when it asynchronously completes detaching from a provider
@@ -81,20 +74,11 @@ A client module should not call the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a> callback
     function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
- 
-
- 
 

@@ -8,38 +8,38 @@ ms.assetid: 1e18515c-2f24-4690-b5fd-0915ef30307b
 ms.date: 02/16/2018
 keywords: ["DOT11EXTIHV_INIT_VIRTUAL_STATION callback"]
 ms.keywords: DOT11EXTIHV_INIT_VIRTUAL_STATION, Dot11ExtIhvInitVirtualStation, Dot11ExtIhvInitVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1daef8e4-6444-447a-b7a7-0189715a6ab9.xml, netvista.dot11extihvinitvirtualstation, wlanihv/Dot11ExtIhvInitVirtualStation
-f1_keywords:
- - "wlanihv/Dot11ExtIhvInitVirtualStation"
- - "Dot11ExtIhvInitVirtualStation"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wlanihv.h
-api_name:
-- Dot11ExtIhvInitVirtualStation
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
+f1_keywords:
+ - DOT11EXTIHV_INIT_VIRTUAL_STATION
+ - wlanihv/DOT11EXTIHV_INIT_VIRTUAL_STATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wlanihv.h
+api_name:
+ - Dot11ExtIhvInitVirtualStation
 ---
 
 # DOT11EXTIHV_INIT_VIRTUAL_STATION callback
@@ -47,14 +47,33 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvInitVirtualStation</i> function to initialize the IHV Extensions DLL for virtual station
   operations, and to initialize the API interface between the operating system and the DLL.
 
+## -parameters
+
+### -param pDot11ExtVSAPI 
+
+[in]
+A pointer to a
+     <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_apis.md">
+     DOT11EXT_VIRTUAL_STATION_APIS</a> structure, which contains the addresses of the IHV Extensibility
+     virtual station functions that are supported by the operating system. The operating system formats this
+     parameter with the function addresses before making a call to the
+     <i>Dot11ExtIhvInitVirtualStation</i> function.
+
+### -param pvReserved
+
+This parameter is reserved for use by the operating system and should be <b>NULL</b>.
+
+## -returns
+
+If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
+     defined in
+     Winerror.h.
 
 ## -prototype
-
 
 ```cpp
 DOT11EXTIHV_INIT_VIRTUAL_STATION Dot11ExtIhvInitVirtualStation;
@@ -66,41 +85,7 @@ DWORD APIENTRY Dot11ExtIhvInitVirtualStation(
 { ... }
 ```
 
-
-## -parameters
-
-
-
-
-### -param pDot11ExtVSAPI [in]
-
-A pointer to a
-     <a href="..\wlanihv\ns-wlanihv-_dot11ext_virtual_station_apis.md">
-     DOT11EXT_VIRTUAL_STATION_APIS</a> structure, which contains the addresses of the IHV Extensibility
-     virtual station functions that are supported by the operating system. The operating system formats this
-     parameter with the function addresses before making a call to the
-     <i>Dot11ExtIhvInitVirtualStation</i> function.
-
-
-### -param pvReserved
-
-This parameter is reserved for use by the operating system and should be <b>NULL</b>.
-
-
-## -returns
-
-
-
-If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in
-     Winerror.h.
-
-
-
-
 ## -remarks
-
-
 
 It is optional for the IHV Extensions DLL to implement and export this function.
 
@@ -143,9 +128,6 @@ The
 For more information about
     <b>GetProcAddress</b>, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
 
 <a href="..\wlanihv\ns-wlanihv-_dot11ext_apis.md">DOT11EXT_APIS</a>
@@ -157,11 +139,4 @@ For more information about
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
-
-
-
- 
-
- 
-
 

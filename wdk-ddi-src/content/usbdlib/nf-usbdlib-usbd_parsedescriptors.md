@@ -8,9 +8,6 @@ ms.assetid: d6d90a4a-a67d-4ef3-82b8-7146970e30f3
 ms.date: 05/07/2018
 keywords: ["USBD_ParseDescriptors function"]
 ms.keywords: USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], buses.usbd_parsedescriptors, usbdlib/USBD_ParseDescriptors, usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml
-f1_keywords:
- - "usbdlib/USBD_ParseDescriptors"
- - "USBD_ParseDescriptors"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Usbd.lib
 req.dll: 
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Usbd.lib
-- Usbd.dll
-api_name:
-- USBD_ParseDescriptors
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBD_ParseDescriptors
+ - usbdlib/USBD_ParseDescriptors
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Usbd.lib
+ - Usbd.dll
+api_name:
+ - USBD_ParseDescriptors
 ---
 
 # USBD_ParseDescriptors function
@@ -47,33 +47,28 @@ req.typenames:
 
 ## -description
 
-
-
    The <b>USBD_ParseDescriptors</b> routine searches a given configuration descriptor and returns a pointer to the first descriptor that matches the search criteria.
-
 
 ## -parameters
 
+### -param DescriptorBuffer 
 
-
-
-### -param DescriptorBuffer [in]
-
+[in]
 Pointer to a configuration descriptor that contains the descriptor for which to search.
 
+### -param TotalLength 
 
-### -param TotalLength [in]
-
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>DescriptorBuffer</i>.
 
+### -param StartPosition 
 
-### -param StartPosition [in]
-
+[in]
 Pointer to the address within the configuration descriptor, provided at <i>DescriptorBuffer</i>, to begin searching from. To search from the beginning of the configuration descriptor, the parameters <i>DescriptorBuffer</i> and <i>StartPosition</i> must be the same address.
 
+### -param DescriptorType 
 
-### -param DescriptorType [in]
-
+[in]
 Specifies the descriptor type code as assigned by USB. The following values are valid for USB-defined descriptor types:
 
 
@@ -96,34 +91,17 @@ Specifies that the descriptor being searched for is an interface descriptor.
 
 Specifies that the descriptor being searched for is an endpoint descriptor.
 
-
 ## -returns
-
-
 
 <b>USBD_ParseDescriptors</b> returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_common_descriptor">USB_COMMON_DESCRIPTOR</a> structure that is the head of the first descriptor that matches the given search criteria, or <b>NULL</b> is returned if no match is found:
 
-
-
-
 ## -remarks
-
-
 
 This structure is used to hold a portion of a descriptor, so that the caller of <b>USBD_ParseDescriptors</b> can determine the correct structure to use to access the remaining data in the descriptor. Every descriptor type has these fields at the beginning of the data and callers can use the <b>bLength</b> and <b>bDescriptorType</b> members to correctly identify the type of this descriptor.
 
 When this routine parses the configuration descriptor looking for the descriptor that matches the search criteria, it returns the first match, terminating the search.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
- 
-
- 
 

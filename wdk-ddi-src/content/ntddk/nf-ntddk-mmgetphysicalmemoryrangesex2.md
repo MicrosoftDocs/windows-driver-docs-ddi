@@ -34,8 +34,8 @@ api_location:
 api_name:
  - MmGetPhysicalMemoryRangesEx2
 f1_keywords:
- - ntddk//MmGetPhysicalMemoryRangesEx2
  - MmGetPhysicalMemoryRangesEx2
+ - ntddk/MmGetPhysicalMemoryRangesEx2
 dev_langs:
  - c++
 ---
@@ -43,8 +43,6 @@ dev_langs:
 ## -description
 
  This routine returns the virtual address of a nonpaged pool block which contains the physical memory ranges in the system.
-
-    
 
 ## -parameters
 

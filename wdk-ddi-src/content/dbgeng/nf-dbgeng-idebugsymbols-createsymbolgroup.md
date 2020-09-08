@@ -8,9 +8,6 @@ ms.assetid: f55aa290-5e57-48d8-9454-370c494bbd65
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols::CreateSymbolGroup"]
 ms.keywords: CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging],IDebugSymbols interface, CreateSymbolGroup method [Windows Debugging],IDebugSymbols2 interface, CreateSymbolGroup method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols.CreateSymbolGroup, IDebugSymbols2 interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols2::CreateSymbolGroup, IDebugSymbols3 interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols3::CreateSymbolGroup, IDebugSymbols::CreateSymbolGroup, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, dbgeng/IDebugSymbols2::CreateSymbolGroup, dbgeng/IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, debugger.createsymbolgroup
-f1_keywords:
- - "dbgeng/IDebugSymbols.CreateSymbolGroup"
- - "IDebugSymbols.CreateSymbolGroup"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols.CreateSymbolGroup
-- IDebugSymbols2.CreateSymbolGroup
-- IDebugSymbols3.CreateSymbolGroup
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols::CreateSymbolGroup
+ - dbgeng/IDebugSymbols::CreateSymbolGroup
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols.CreateSymbolGroup
+ - IDebugSymbols2.CreateSymbolGroup
+ - IDebugSymbols3.CreateSymbolGroup
 ---
 
 # IDebugSymbols::CreateSymbolGroup
@@ -48,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>CreateSymbolGroup</b>  method creates a new symbol group.
-
 
 ## -parameters
 
+### -param Group 
 
-
-
-### -param Group [out]
-
+[out]
 Receives an interface pointer for the new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup">IDebugSymbolGroup</a> object.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -87,12 +80,7 @@ The method was successful.
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 The newly created symbol group is empty; it does not contain any <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">symbols</a>.  Symbols may be added to the symbol group using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-addsymbol">IDebugSymbolGroup::AddSymbol</a>.
 
@@ -100,13 +88,7 @@ References to the returned object are managed like other COM objects, using the 
 
 For more information about symbol groups, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup">IDebugSymbolGroup</a>
 
@@ -125,7 +107,4 @@ For more information about symbol groups, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

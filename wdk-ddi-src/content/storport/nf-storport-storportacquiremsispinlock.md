@@ -8,9 +8,6 @@ ms.assetid: 8aa5a8a6-2024-4b3e-a500-5a484d937a62
 ms.date: 03/29/2018
 keywords: ["StorPortAcquireMSISpinLock function"]
 ms.keywords: StorPortAcquireMSISpinLock, StorPortAcquireMSISpinLock routine [Storage Devices], storage.storportacquiremsispinlock, storport/StorPortAcquireMSISpinLock, storprt_0db1ab5c-a2a5-4362-84e0-493a5cebc2d3.xml
-f1_keywords:
- - "storport/StorPortAcquireMSISpinLock"
- - "StorPortAcquireMSISpinLock"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortAcquireMSISpinLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortAcquireMSISpinLock
+ - storport/StorPortAcquireMSISpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortAcquireMSISpinLock
 ---
 
 # StorPortAcquireMSISpinLock function
+
 
 ## -description
 
@@ -49,16 +50,18 @@ The **StorPortAcquireMSISpinLock** routine acquires the message signaled interru
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param MessageId
 
 The identifier of the message whose spin lock the caller acquires.
 
-### -param OldIrql [in]
+### -param OldIrql 
 
+[in]
 A pointer to the storage for the original IRQL value to be used in a subsequent call to [**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md).
 
 ## -returns
@@ -84,3 +87,4 @@ When a miniport needs to synchronize with all messages, it can use one call to [
 [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md)
 
 [**StorPortReleaseMSISpinLock**](nf-storport-storportreleasemsispinlock.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 70efd8d7-c275-440e-a4df-f41b799a63f0
 ms.date: 04/16/2018
 keywords: ["RxIndicateChangeOfBufferingStateForSrvOpen function"]
 ms.keywords: RxIndicateChangeOfBufferingStateForSrvOpen, RxIndicateChangeOfBufferingStateForSrvOpen function [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstateforsrvopen, rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen, rxref_6fc017ff-369c-47c3-8a5c-45f808d1d86c.xml
-f1_keywords:
- - "rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen"
- - "RxIndicateChangeOfBufferingStateForSrvOpen"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Struchdr.h, Fcb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxprocs.h
-api_name:
-- RxIndicateChangeOfBufferingStateForSrvOpen
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxIndicateChangeOfBufferingStateForSrvOpen
+ - rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxprocs.h
+api_name:
+ - RxIndicateChangeOfBufferingStateForSrvOpen
 ---
 
 # RxIndicateChangeOfBufferingStateForSrvOpen function
@@ -46,40 +46,27 @@ req.typenames:
 
 ## -description
 
-
-<b>RxIndicateChangeOfBufferingStateForSrvOpen</b> is called to register a change buffering state request (an oplock break indication, for example) for later processing. If the necessary preconditions are satisfied, the oplock is processed further. 
-
+<b>RxIndicateChangeOfBufferingStateForSrvOpen</b> is called to register a change buffering state request (an oplock break indication, for example) for later processing. If the necessary preconditions are satisfied, the oplock is processed further.
 
 ## -parameters
-
-
-
 
 ### -param SrvCall
 
 A pointer to the SRV_CALL structure.
 
-
 ### -param SrvOpen
 
 A pointer to the SRV_OPEN structure.
-
 
 ### -param SrvOpenKey
 
 A pointer to the key for the SRV_OPEN key structure.
 
-
 ### -param Context
 
 <p>A pointer to the context to be passed back to the network mini-redirector during callbacks for processing the request.</p>
 
-
-
-
 ## -remarks
-
-
 
 This routine registers the change buffering state request by either inserting it in the registration list (DPC Level processing ) or the appropriate dispatcher/handler list.
 
@@ -91,15 +78,9 @@ If the resource for the FCB has already been acquired by this thread, the buffer
 
 The internal routines called by this routine can fail because of a lack of available memory (unable to allocate non-paged pool memory, for example), but since this is a VOID routine no error is returned when this condition occurs.
 
-If a buffering state request can be processed immediately instead of being queued for processing later, then <b>RxChangeBufferingState</b> can be called. 
-
-
-
+If a buffering state request can be processed immediately instead of being queued for processing later, then <b>RxChangeBufferingState</b> can be called.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
@@ -110,7 +91,4 @@ If a buffering state request can be processed immediately instead of being queue
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxindicatechangeofbufferingstate">RxIndicateChangeOfBufferingState</a>
- 
-
- 
 

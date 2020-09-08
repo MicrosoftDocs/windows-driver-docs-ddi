@@ -8,9 +8,6 @@ ms.assetid: 2a5c70da-69dc-431c-9ce9-908633045372
 ms.date: 04/16/2018
 keywords: ["RtlRandomEx function"]
 ms.keywords: RtlRandomEx, RtlRandomEx routine [Installable File System Drivers], ifsk.rtlrandomex, ntifs/RtlRandomEx, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml
-f1_keywords:
- - "ntifs/RtlRandomEx"
- - "RtlRandomEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlRandomEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlRandomEx
+ - ntifs/RtlRandomEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlRandomEx
 ---
 
 # RtlRandomEx function
@@ -46,47 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlRandomEx</b> routine returns a random number that was generated from a given seed value. 
-
+The <b>RtlRandomEx</b> routine returns a random number that was generated from a given seed value.
 
 ## -parameters
 
+### -param Seed 
 
-
-
-### -param Seed [in, out]
-
-Unsigned long value from which to generate a random number. 
-
+[in, out]
+Unsigned long value from which to generate a random number.
 
 ## -returns
 
-
-
-<b>RtlRandomEx</b> returns a random number in the range [0..MAXLONG-1]. 
-
-
-
+<b>RtlRandomEx</b> returns a random number in the range [0..MAXLONG-1].
 
 ## -remarks
 
-
-
 <b>RtlRandomEx</b> returns values that are uniformly distributed over the range from zero to the maximum possible LONG value less 1 if it is called repeatedly with the same <i>Seed</i>.
 
-The <b>RtlRandomEx</b> function is an improved version of the <b>RtlRandom</b> function. Compared with the <b>RtlRandom</b> function, <b>RtlRandomEx</b> is twice as fast and produces better random numbers since the period of the random numbers generated is comparatively higher. 
-
-
-
+The <b>RtlRandomEx</b> function is an improved version of the <b>RtlRandom</b> function. Compared with the <b>RtlRandom</b> function, <b>RtlRandomEx</b> is twice as fast and produces better random numbers since the period of the random numbers generated is comparatively higher.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlrandom">RtlRandom</a>
- 
-
- 
 

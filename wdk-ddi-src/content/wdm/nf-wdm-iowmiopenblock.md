@@ -8,9 +8,6 @@ ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.date: 04/30/2018
 keywords: ["IoWMIOpenBlock function"]
 ms.keywords: IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock, wdm/IoWMIOpenBlock
-f1_keywords:
- - "wdm/IoWMIOpenBlock"
- - "IoWMIOpenBlock"
 req.header: wdm.h
 req.include-header: Ntddk.h, Ntifs.h. The WMIGUID_XXX values are declared in Wmistr.h. To use them, include Wmistr.h.
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoWMIOpenBlock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoWMIOpenBlock
+ - wdm/IoWMIOpenBlock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoWMIOpenBlock
 ---
 
 # IoWMIOpenBlock function
@@ -46,21 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoWMIOpenBlock</b> routine opens the WMI data block object for the specified WMI class.
-
 
 ## -parameters
 
+### -param Guid
 
-
-
-### -param Guid[in]
-
+[in]
 Specifies the GUID for WMI class.
 
-### -param DesiredAccess [in]
+### -param DesiredAccess 
 
+[in]
 Specifies the desired access rights to the data block object. The caller must have particular access rights to perform certain operations. 
 
 The following is a description of each access right bit and the operations it allows:
@@ -89,26 +86,18 @@ The data block object can be used to query WMI class properties. This flag must 
 
 #### WMIGUID_SET
 
-The data block object can be used to set WMI class properties. This flag must be set to use any of the <b>IoWMISet<i>Xxx</i></b> routines on the data block object. 
+The data block object can be used to set WMI class properties. This flag must be set to use any of the <b>IoWMISet<i>Xxx</i></b> routines on the data block object.
 
+### -param DataBlockObject 
 
-### -param DataBlockObject [out]
-
+[out]
 Pointer to a memory location where the routine returns a pointer to the data block object.
-
 
 ## -returns
 
-
-
 Returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 The caller uses <b>IoWMIOpenBlock</b> to create a data block object for the specified WMI class GUID. Subsequently, the caller can use the data block object to read or write WMI class properties, run WMI class methods, and register callbacks for WMI events.
 
@@ -116,13 +105,7 @@ Use the <b>IoWMIQuery<i>Xxx</i></b> and <b>IoWMISet<i>Xxx</i></b> routines to re
 
 Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> to close the data block object once it is no longer needed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiexecutemethod">IoWMIExecuteMethod</a>
 
@@ -157,7 +140,4 @@ Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
- 
-
- 
 

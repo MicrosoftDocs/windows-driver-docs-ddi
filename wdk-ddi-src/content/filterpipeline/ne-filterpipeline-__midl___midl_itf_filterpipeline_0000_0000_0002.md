@@ -8,9 +8,6 @@ ms.assetid: 3a92b219-91ee-4c11-b5c1-8e2e0cbff406
 ms.date: 04/20/2018
 keywords: ["_MIDL___MIDL_itf_filterpipeline_0000_0000_0002 enumeration"]
 ms.keywords: EXpsFontOptions, EXpsFontOptions enumeration [Print Devices], Font_Normal, Font_Obfusticate, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, filterpipeline/EXpsFontOptions, filterpipeline/Font_Normal, filterpipeline/Font_Obfusticate, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, print.expsfontoptions
-f1_keywords:
- - "filterpipeline/EXpsFontOptions"
- - "EXpsFontOptions"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- filterpipeline.h
-api_name:
-- EXpsFontOptions
 targetos: Windows
 req.typenames: EXpsFontOptions
+f1_keywords:
+ - __MIDL___MIDL_itf_filterpipeline_0000_0000_0002
+ - filterpipeline/__MIDL___MIDL_itf_filterpipeline_0000_0000_0002
+ - EXpsFontOptions
+ - filterpipeline/EXpsFontOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - filterpipeline.h
+api_name:
+ - EXpsFontOptions
 ---
 
 # __MIDL___MIDL_itf_filterpipeline_0000_0000_0002 enumeration
@@ -46,19 +48,13 @@ req.typenames: EXpsFontOptions
 
 ## -description
 
-
 The EXpsFontOptions enumeration describes the font options for an XPS part.
 
-
 ## -enum-fields
-
-
-
 
 ### -field Font_Normal
 
 The font code is human-readable.
-
 
 ### -field Font_Obfusticate
 

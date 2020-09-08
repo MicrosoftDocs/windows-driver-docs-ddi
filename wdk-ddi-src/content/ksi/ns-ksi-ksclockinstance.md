@@ -8,9 +8,6 @@ ms.assetid: DC8A7CE9-7FDE-4FC9-8C71-3F3368E7E5C1
 ms.date: 04/23/2018
 keywords: ["KSCLOCKINSTANCE structure"]
 ms.keywords: "*PKSCLOCKINSTANCE, KSCLOCKINSTANCE, KSCLOCKINSTANCE structure [Streaming Media Devices], PKSCLOCKINSTANCE, PKSCLOCKINSTANCE structure pointer [Streaming Media Devices], ksi/KSCLOCKINSTANCE, ksi/PKSCLOCKINSTANCE, stream.ksclockinstance"
-f1_keywords:
- - "ksi/KSCLOCKINSTANCE"
- - "KSCLOCKINSTANCE"
 req.header: ksi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksi.h
-api_name:
-- KSCLOCKINSTANCE
 targetos: Windows
 req.typenames: KSCLOCKINSTANCE, *PKSCLOCKINSTANCE
+f1_keywords:
+ - PKSCLOCKINSTANCE
+ - ksi/PKSCLOCKINSTANCE
+ - KSCLOCKINSTANCE
+ - ksi/KSCLOCKINSTANCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksi.h
+api_name:
+ - KSCLOCKINSTANCE
 ---
 
 # KSCLOCKINSTANCE structure
@@ -46,20 +48,11 @@ req.typenames: KSCLOCKINSTANCE, *PKSCLOCKINSTANCE
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
-
 ### -field DefaultClock
-
 
 ### -field Reserved
 

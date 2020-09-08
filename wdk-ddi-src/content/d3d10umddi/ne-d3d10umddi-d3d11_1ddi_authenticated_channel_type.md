@@ -7,9 +7,6 @@ ms.assetid: da04ef5d-c3e4-4321-8cc8-e20763c5a7db
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE, D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE, display.d3d11_1ddi_authenticated_channel_type
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE"
- - "D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
+f1_keywords:
+ - D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
+ - d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
 ---
 
 # D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration
@@ -46,19 +46,13 @@ req.typenames: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
 
 ## -description
 
-
 Specifies the type of Microsoft Direct3D authenticated channel.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE
 
 Software driver channel. This channel provides communication with a driver that implements content protection mechanisms in software.
-
 
 ### -field D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE
 

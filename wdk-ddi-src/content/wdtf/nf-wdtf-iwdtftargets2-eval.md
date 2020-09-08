@@ -8,9 +8,6 @@ ms.assetid: 028a1fa9-686d-4f56-a49f-a7e90f960018
 ms.date: 04/04/2018
 keywords: ["IWDTFTargets2::Eval"]
 ms.keywords: Eval, Eval method [Windows Device Testing Framework], Eval method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Eval method, IWDTFTargets2.Eval, IWDTFTargets2::Eval, Microsoft.WDTF.IWDTFTargets2.Eval, Microsoft::WDTF::IWDTFTargets2::Eval, dtf.iwdtftargets2_eval, wdtf/IWDTFTargets2::Eval
-f1_keywords:
- - "wdtf/IWDTFTargets2.Eval"
- - "IWDTFTargets2.Eval"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFTargets2.Eval
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFTargets2::Eval
+ - wdtf/IWDTFTargets2::Eval
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFTargets2.Eval
 ---
 
 # IWDTFTargets2::Eval
@@ -46,41 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Evaluates whether all items in the collection match an SDEL statement.
-
 
 ## -parameters
 
+### -param SDEL 
 
-
-
-### -param SDEL [in]
-
+[in]
 The SDEL query string.
 
+### -param pResult 
 
-### -param pResult [out, retval]
-
+[out, retval]
 True if all items match; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
- 
-
- 
 

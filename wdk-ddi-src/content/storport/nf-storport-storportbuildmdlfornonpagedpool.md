@@ -8,9 +8,6 @@ ms.assetid: f22dbf1e-4b40-4294-bca5-3011f0a97644
 ms.date: 03/29/2018
 keywords: ["StorPortBuildMdlForNonPagedPool function"]
 ms.keywords: StorPortBuildMdlForNonPagedPool, StorPortBuildMdlForNonPagedPool routine [Storage Devices], storage.storportbuildmdlfornonpagedpool, storport/StorPortBuildMdlForNonPagedPool, storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml
-f1_keywords:
- - "storport/StorPortBuildMdlForNonPagedPool"
- - "StorPortBuildMdlForNonPagedPool"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortBuildMdlForNonPagedPool
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortBuildMdlForNonPagedPool
+ - storport/StorPortBuildMdlForNonPagedPool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortBuildMdlForNonPagedPool
 ---
 
 # StorPortBuildMdlForNonPagedPool function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortBuildMdlForNonPagedPool</b> routine updates the MDL to describe the associated non-paged memory.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Mdl 
 
-### -param Mdl [in, out]
-
+[in, out]
 A pointer to the MDL that specifies the memory buffer.
 
-
 ## -returns
-
-
 
 StorPortBuildMdlForNonPagedPool returns one of the following status codes:
 
@@ -121,7 +114,4 @@ The call was made at an invalid IRQL.
 </td>
 </tr>
 </table>
- 
-
-
 

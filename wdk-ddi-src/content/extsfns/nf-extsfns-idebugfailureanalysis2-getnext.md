@@ -8,9 +8,6 @@ ms.assetid: 935E4BAD-2B4E-44DD-8AE6-A0FD1FE9F2BF
 ms.date: 05/03/2018
 keywords: ["IDebugFailureAnalysis2::GetNext"]
 ms.keywords: GetNext, GetNext method [Windows Debugging], GetNext method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetNext method, IDebugFailureAnalysis2.GetNext, IDebugFailureAnalysis2::GetNext, debugger.idebugfailureanalysis2_getnext, extsfns/IDebugFailureAnalysis2::GetNext
-f1_keywords:
- - "extsfns/IDebugFailureAnalysis2.GetNext"
- - "IDebugFailureAnalysis2.GetNext"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- extsfns.h
-api_name:
-- IDebugFailureAnalysis2.GetNext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugFailureAnalysis2::GetNext
+ - extsfns/IDebugFailureAnalysis2::GetNext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - extsfns.h
+api_name:
+ - IDebugFailureAnalysis2.GetNext
 ---
 
 # IDebugFailureAnalysis2::GetNext
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
    The <b>GetNext</b> method searches a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object for the next <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>, after a given FA entry, that satisfies conditions specified by the <i>Tag</i> and <i>TagMask</i> parameters.
-
 
 ## -parameters
 
+### -param Entry 
 
-
-
-### -param Entry [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure. The search starts after this <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>. If this parameter is <b>NULL</b>, the starts at the beginning of the collection of FA entries.
 
+### -param Tag 
 
-### -param Tag [in]
-
+[in]
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
+### -param TagMask 
 
-### -param TagMask [in]
-
+[in]
 A mask that restricts the search to a subset of all possible tags. See Remarks. To search all possible tags, set this parameter to <b>DEBUG_FLR_MASK_ALL</b>.
-
 
 ## -returns
 
-
-
 If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object has an <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>, after the given entry, that satisfies the conditions, this method returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure. Otherwise, this method returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 This method searches for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure that satisfies this condition:
 
@@ -190,12 +178,7 @@ while(NULL != entry)
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-get">Get</a>
 
@@ -214,7 +197,4 @@ while(NULL != entry)
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
- 
-
- 
 

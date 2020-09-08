@@ -22,8 +22,10 @@ req.typenames: DXGK_GAMMA_DATA_TYPE
 targetos: Windows
 ms.custom: 19H1
 f1_keywords:
- - "d3dkmddi/DXGK_GAMMA_DATA_TYPE"
- - "DXGK_GAMMA_DATA_TYPE"
+ - _DXGK_GAMMA_DATA_TYPE
+ - d3dkmddi/_DXGK_GAMMA_DATA_TYPE
+ - DXGK_GAMMA_DATA_TYPE
+ - d3dkmddi/DXGK_GAMMA_DATA_TYPE
 topic_type:
  - apiref
 api_type:
@@ -39,6 +41,7 @@ dev_langs:
 ---
 
 # DXGK_GAMMA_DATA_TYPE enumeration
+
 
 ## -description
 

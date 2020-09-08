@@ -8,9 +8,6 @@ ms.assetid: E8A77709-7E35-4FFC-B7EC-19E5256AB55F
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_TAL_TXRX_DEINITIALIZE callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_DEINITIALIZE, MINIPORT_WDI_TAL_TXRX_DEINITIALIZE callback, MiniportWdiTalTxRxDeinitialize, MiniportWdiTalTxRxDeinitialize callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeinitialize, netvista.miniportwditaltxrxdeinitialize
-f1_keywords:
- - "dot11wdi/MiniportWdiTalTxRxDeinitialize"
- - "MiniportWdiTalTxRxDeinitialize"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiTalTxRxDeinitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_TAL_TXRX_DEINITIALIZE
+ - dot11wdi/MINIPORT_WDI_TAL_TXRX_DEINITIALIZE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiTalTxRxDeinitialize
 ---
 
 # MINIPORT_WDI_TAL_TXRX_DEINITIALIZE callback function
 
 
 ## -description
-
 
 The 
   MiniportWdiTalTxRxDeinitialize handler function is invoked in the context of miniport halt. The functional components RXEngine and TxEngine have already been stopped and any pending data frames completed/returned.
@@ -56,18 +55,12 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 
 ## -parameters
 
+### -param MiniportTalTxRxContext 
 
-
-
-### -param MiniportTalTxRxContext [in]
-
+[in]
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
@@ -78,7 +71,4 @@ TAL device handle returned by the IHV miniport in <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-general-datapath-interfaces">WDI general datapath interfaces</a>
- 
-
- 
 

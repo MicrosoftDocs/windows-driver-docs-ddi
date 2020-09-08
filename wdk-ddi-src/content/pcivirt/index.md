@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
+f1_keywords:
+ - pcivirt
+ - pcivirt/pcivirt
 ---
 
 # Pcivirt.h header

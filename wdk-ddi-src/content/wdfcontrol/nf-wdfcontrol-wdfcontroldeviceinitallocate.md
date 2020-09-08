@@ -8,9 +8,6 @@ ms.assetid: 3d423861-4c4d-45f2-bc44-b7cf1b230458
 ms.date: 02/26/2018
 keywords: ["WdfControlDeviceInitAllocate function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, WdfControlDeviceInitAllocate, WdfControlDeviceInitAllocate method, kmdf.wdfcontroldeviceinitallocate, wdf.wdfcontroldeviceinitallocate, wdfcontrol/WdfControlDeviceInitAllocate
-f1_keywords:
- - "wdfcontrol/WdfControlDeviceInitAllocate"
- - "WdfControlDeviceInitAllocate"
 req.header: wdfcontrol.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfControlDeviceInitAllocate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfControlDeviceInitAllocate
+ - wdfcontrol/WdfControlDeviceInitAllocate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfControlDeviceInitAllocate
 ---
 
 # WdfControlDeviceInitAllocate function
@@ -47,39 +47,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfControlDeviceInitAllocate</b> method allocates a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that a driver uses when creating a new control device object.
 
-
 ## -parameters
 
+### -param Driver 
 
-
-
-### -param Driver [in]
-
+[in]
 A handle to a framework driver object.
 
+### -param SDDLString 
 
-### -param SDDLString [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a Unicode string. This string is a Security Descriptor Definition Language (SDDL) representation of a security descriptor. For more information, see the following Remarks section.
-
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a Unicode string. This string is a Security Descriptor Definition Language (SDDL) representation of a security descriptor. For more information, see the following Remarks section.
 
 ## -returns
 
-
-
 <b>WdfControlDeviceInitAllocate</b> returns a pointer to a framework-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure, if the operation succeeds. Otherwise, the method returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If you want your driver to create a control device object, the driver must call <b>WdfControlDeviceInitAllocate</b> to obtain a WDFDEVICE_INIT structure that it can pass to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>. 
 
@@ -136,12 +124,7 @@ if (!NT_SUCCESS(status)) {
 WdfControlFinishInitializing(controlDevice);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a>
 
@@ -168,7 +151,4 @@ WdfControlFinishInitializing(controlDevice);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignsddlstring">WdfDeviceInitAssignSDDLString</a>
- 
-
- 
 

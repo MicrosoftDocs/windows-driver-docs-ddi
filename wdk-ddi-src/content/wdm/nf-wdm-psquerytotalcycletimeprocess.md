@@ -8,9 +8,6 @@ ms.assetid: 4DA34F96-A69A-46BE-B3D8-D542794052DE
 ms.date: 04/30/2018
 keywords: ["PsQueryTotalCycleTimeProcess function"]
 ms.keywords: PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, wdm/PsQueryTotalCycleTimeProcess
-f1_keywords:
- - "wdm/PsQueryTotalCycleTimeProcess"
- - "PsQueryTotalCycleTimeProcess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- PsQueryTotalCycleTimeProcess
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsQueryTotalCycleTimeProcess
+ - wdm/PsQueryTotalCycleTimeProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - PsQueryTotalCycleTimeProcess
 ---
 
 # PsQueryTotalCycleTimeProcess function
@@ -47,50 +47,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>PsQueryTotalCycleTimeProcess</b> routine returns the accumulated cycle time for the specified process.
-
 
 ## -parameters
 
+### -param Process 
 
-
-
-### -param Process [in, out]
-
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EPROCESS</a> structure that serves as the kernel object for the process.
 
+### -param CycleTimeStamp 
 
-### -param CycleTimeStamp [out]
-
+[out]
 A pointer to a ULONG64 variable to which the routine writes the current cycle counter value for the process.
-
 
 ## -returns
 
-
-
 <b>PsQueryTotalCycleTimeProcess</b> returns the accumulated cycle time for the specified process.
-
-
-
 
 ## -remarks
 
-
-
 This routine uses the time stamp counter to get the number of processor clock cycles used by the specified process.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EPROCESS</a>
- 
-
- 
 

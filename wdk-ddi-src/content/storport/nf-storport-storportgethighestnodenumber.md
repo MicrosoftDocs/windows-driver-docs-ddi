@@ -8,9 +8,6 @@ ms.assetid: 3e0b85f9-b6e4-4d53-b8dc-7f51e0f74be3
 ms.date: 03/29/2018
 keywords: ["StorPortGetHighestNodeNumber function"]
 ms.keywords: StorPortGetHighestNodeNumber, StorPortGetHighestNodeNumber routine [Storage Devices], storage.storportgethighestnodenumber, storport/StorPortGetHighestNodeNumber, storprt_e9e942e1-6de3-4170-87ec-00660ce9925a.xml
-f1_keywords:
- - "storport/StorPortGetHighestNodeNumber"
- - "StorPortGetHighestNodeNumber"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetHighestNodeNumber
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetHighestNodeNumber
+ - storport/StorPortGetHighestNodeNumber
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetHighestNodeNumber
 ---
 
 # StorPortGetHighestNodeNumber function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetHighestNodeNumber</b> routine returns the largest possible node number on the system.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param HighestNode 
 
-### -param HighestNode [out]
-
+[out]
 A pointer to a variable that holds the highest-numbered node.
 
-
 ## -returns
-
-
 
 The <b>StorPortGetHighestNodeNumber</b>routine returns one of the following status codes:
 
@@ -110,7 +103,4 @@ The operation fails with this return value if one or more of the parameters are 
 </td>
 </tr>
 </table>
- 
-
-
 

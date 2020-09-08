@@ -8,9 +8,6 @@ ms.assetid: 2e13d7da-7ef3-4c2e-b028-f7d37548c208
 ms.date: 04/30/2018
 keywords: ["IoStartTimer function"]
 ms.keywords: IoStartTimer, IoStartTimer routine [Kernel-Mode Driver Architecture], k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, kernel.iostarttimer, wdm/IoStartTimer
-f1_keywords:
- - "ntifs/IoStartTimer"
- - "IoStartTimer"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,51 +25,41 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoStartTimer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoStartTimer
+ - ntifs/IoStartTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoStartTimer
 ---
 
-# IoStartTimer function
+# IoStartTimer function (ntifs.h)
 
 
 ## -description
 
-
 The <b>IoStartTimer</b> routine enables the timer associated with a given device object so the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine is called once per second.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to a device object whose timer routine is to be called.
-
 
 ## -remarks
 
-
-
-The driver must already have set up the IoTimer routine for the <i>DeviceObject</i> by calling <b>IoInitializeTimer</b>. 
-
-
-
+The driver must already have set up the IoTimer routine for the <i>DeviceObject</i> by calling <b>IoInitializeTimer</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer">IoInitializeTimer</a>
 
@@ -95,7 +82,4 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer">KeSetTimer</a>
- 
-
- 
 

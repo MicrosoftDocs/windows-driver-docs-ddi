@@ -6,41 +6,39 @@ ms.assetid: 76aef6af-76a1-4bc2-aeee-7656b9745c40
 ms.date: 08/08/2018
 keywords: ["SensorCollectionGetAt function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/SensorCollectionGetAt"
- - "SensorCollectionGetAt"
 ms.keywords: SensorCollectionGetAt
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- SensorCollectionGetAt
+targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - SensorCollectionGetAt
+ - sensorsutils/SensorCollectionGetAt
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - SensorCollectionGetAt
 product:
  - Windows
-targetos: Windows
-
-
-ms.custom: RS5
 ---
 
 # SensorCollectionGetAt function
@@ -49,7 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine returns the PROPERTYKEY and PROPVARIANT associated with the nth element in the provided sensor collection list.
-
 
 ## -parameters
 
@@ -76,3 +73,4 @@ This function returns STATUS_NOT_FOUND if not found, STATUS_SUCCESS otherwise.
 ## -remarks
 
 ## -see-also
+

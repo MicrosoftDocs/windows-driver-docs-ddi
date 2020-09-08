@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDITEXTURESTAGESTATETYPE"
- - "_D3DDDITEXTURESTAGESTATETYPE"
+ - _D3DDDITEXTURESTAGESTATETYPE
+ - d3dumddi/_D3DDDITEXTURESTAGESTATETYPE
+ - D3DDDITEXTURESTAGESTATETYPE
+ - d3dumddi/D3DDDITEXTURESTAGESTATETYPE
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDITEXTURESTAGESTATETYPE enumeration
+
 
 ## -description
 

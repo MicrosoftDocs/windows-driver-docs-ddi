@@ -8,9 +8,6 @@ ms.assetid: 281f223a-1189-4045-9a3a-17433432a6a3
 ms.date: 04/30/2018
 keywords: ["PEP_PPM_RESUME_FROM_SYSTEM_STATE structure"]
 ms.keywords: "*PPEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], _PEP_PPM_RESUME_FROM_SYSTEM_STATE, kernel.pep_ppm_resume_from_system_state, pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE"
-f1_keywords:
- - "pep_x/PEP_PPM_RESUME_FROM_SYSTEM_STATE"
- - "PEP_PPM_RESUME_FROM_SYSTEM_STATE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,45 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pepfx.h
-api_name:
-- PEP_PPM_RESUME_FROM_SYSTEM_STATE
 targetos: Windows
 req.typenames: PEP_PPM_RESUME_FROM_SYSTEM_STATE, *PPEP_PPM_RESUME_FROM_SYSTEM_STATE
+f1_keywords:
+ - _PEP_PPM_RESUME_FROM_SYSTEM_STATE
+ - pep_x/_PEP_PPM_RESUME_FROM_SYSTEM_STATE
+ - PPEP_PPM_RESUME_FROM_SYSTEM_STATE
+ - pep_x/PPEP_PPM_RESUME_FROM_SYSTEM_STATE
+ - PEP_PPM_RESUME_FROM_SYSTEM_STATE
+ - pep_x/PEP_PPM_RESUME_FROM_SYSTEM_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pepfx.h
+api_name:
+ - PEP_PPM_RESUME_FROM_SYSTEM_STATE
 ---
 
-# _PEP_PPM_RESUME_FROM_SYSTEM_STATE structure
+# _PEP_PPM_RESUME_FROM_SYSTEM_STATE structure (pep_x.h)
 
 
 ## -description
 
-
-Used by the <b>PEP_NOTIFY_PPM_RESUME_FROM_SYSTEM_STATE</b> notification that notifies the PEP that the system has just resumed from a system power state. 
-
+Used by the <b>PEP_NOTIFY_PPM_RESUME_FROM_SYSTEM_STATE</b> notification that notifies the PEP that the system has just resumed from a system power state.
 
 ## -struct-fields
 
-
-
-
 ### -field TargetState
 
-On input, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
-
+On input, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
- 
-
- 
 

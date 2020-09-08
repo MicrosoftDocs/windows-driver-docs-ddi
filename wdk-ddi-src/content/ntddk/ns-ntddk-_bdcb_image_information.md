@@ -8,9 +8,6 @@ ms.assetid: 9D0A4D67-3284-4BCC-AC81-F0BCCC2DB9B7
 ms.date: 04/30/2018
 keywords: ["BDCB_IMAGE_INFORMATION structure"]
 ms.keywords: "*PBDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture], PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BDCB_IMAGE_INFORMATION, kernel.bdcb_image_information, ntddk/BDCB_IMAGE_INFORMATION, ntddk/PBDCB_IMAGE_INFORMATION"
-f1_keywords:
- - "ntddk/BDCB_IMAGE_INFORMATION"
- - "BDCB_IMAGE_INFORMATION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- BDCB_IMAGE_INFORMATION
 targetos: Windows
 req.typenames: BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION
+f1_keywords:
+ - _BDCB_IMAGE_INFORMATION
+ - ntddk/_BDCB_IMAGE_INFORMATION
+ - PBDCB_IMAGE_INFORMATION
+ - ntddk/PBDCB_IMAGE_INFORMATION
+ - BDCB_IMAGE_INFORMATION
+ - ntddk/BDCB_IMAGE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - BDCB_IMAGE_INFORMATION
 ---
 
 # _BDCB_IMAGE_INFORMATION structure
@@ -46,21 +50,15 @@ req.typenames: BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION
 
 ## -description
 
-
 The <b>BDCB_IMAGE_INFORMATION</b> structure describes information about a boot-start driver that is about to 
     be initialized, provided by Windows to a boot-start driver's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-boot_driver_callback_function">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Classification
 
 An enumeration of type [**BDCB_CLASSIFICATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification) that the ELAM driver sets to specify the classification of the boot start image.
-
 
 ### -field ImageFlags
 
@@ -103,38 +101,30 @@ Do not use. Reserved.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ImageName
 
 The name of the boot-start driver's binary image.
 
-
 ### -field RegistryPath
 
 The path in the registry where the boot-start driver is registered.
-
 
 ### -field CertificatePublisher
 
 The publisher of the image's certificate. If the image is not signed, the string is empty ("").
 
-
 ### -field CertificateIssuer
 
 The issuer of the image's certificate. If the image is not signed, the string is empty ("").
 
-
 ### -field ImageHash
 
-The Authenticode hash of the image, which can be calculated by  using SignTool.exe (Sign Tool). 
-
+The Authenticode hash of the image, which can be calculated by  using SignTool.exe (Sign Tool).
 
 ### -field CertificateThumbprint
 
 The hash of the certificate of the signer to be signed. Run <b>certutil –dump x,cer</b> to view this value as  "Signature Hash".
-
 
 ### -field ImageHashAlgorithm
 
@@ -218,28 +208,20 @@ CALG_SHA_512
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ThumbprintHashAlgorithm
 
 The algorithm of the certificate thumbprint. This member should be ignored if <b>CertificateThumbprint</b> is NULL.
 
-
 ### -field ImageHashLength
 
 The length of data pointed to by the <b>ImageHash</b> member.
-
 
 ### -field CertificateThumbprintLength
 
 The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification">BDCB_CLASSIFICATION</a>
 
@@ -247,5 +229,5 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 [**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
 
-[**ALG_ID**](https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id)
+[**ALG_ID**](https://docs.microsoft.com/windows/win32/seccrypto/alg-id)
 

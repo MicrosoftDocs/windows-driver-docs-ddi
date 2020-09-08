@@ -8,9 +8,6 @@ ms.assetid: 717fad3a-91b1-41c8-ac71-e9ea52533efd
 ms.date: 05/03/2018
 keywords: ["IDebugEventCallbacksWide interface"]
 ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging],described, dbgeng/IDebugEventCallbacksWide, debugger.idebugeventcallbackswide
-f1_keywords:
- - "dbgeng/IDebugEventCallbacksWide"
- - "IDebugEventCallbacksWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugEventCallbacksWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugEventCallbacksWide
+ - dbgeng/IDebugEventCallbacksWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugEventCallbacksWide
 ---
 
 # IDebugEventCallbacksWide interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 

@@ -8,9 +8,6 @@ ms.assetid: 2641a446-1890-4b7d-ac28-c72338207f87
 ms.date: 05/10/2018
 keywords: ["DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration"]
 ms.keywords: DIDDT1_AspectRatio_15x9, DIDDT1_AspectRatio_16x10, DIDDT1_AspectRatio_16x9, DIDDT1_AspectRatio_1x1, DIDDT1_AspectRatio_4x3, DIDDT1_AspectRatio_5x4, DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO, DmEnums_234cb76b-4b56-4ae4-b2b4-2eaa56cef4a9.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO, _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration [Display Devices], d3dkmdt/DIDDT1_AspectRatio_15x9, d3dkmdt/DIDDT1_AspectRatio_16x10, d3dkmdt/DIDDT1_AspectRatio_16x9, d3dkmdt/DIDDT1_AspectRatio_1x1, d3dkmdt/DIDDT1_AspectRatio_4x3, d3dkmdt/DIDDT1_AspectRatio_5x4, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO, display.displayid_detailed_timing_type_i_aspect_ratio
-f1_keywords:
- - "d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO"
- - "_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
+ - d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
 ---
 
 # _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration
@@ -46,39 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration indicates the display device's aspect ratio, defined as width by height (width x height).
 
-
 ## -enum-fields
-
-
-
 
 ### -field DIDDT1_AspectRatio_1x1
 
 Indicates a 1 x 1 aspect ratio.
 
-
 ### -field DIDDT1_AspectRatio_5x4
 
 Indicates a 5 x 4 aspect ratio.
-
 
 ### -field DIDDT1_AspectRatio_4x3
 
 Indicates a 4 x 3 aspect ratio.
 
-
 ### -field DIDDT1_AspectRatio_15x9
 
 Indicates a 15 x 9 aspect ratio.
 
-
 ### -field DIDDT1_AspectRatio_16x9
 
 Indicates a 16 x 9 aspect ratio.
-
 
 ### -field DIDDT1_AspectRatio_16x10
 

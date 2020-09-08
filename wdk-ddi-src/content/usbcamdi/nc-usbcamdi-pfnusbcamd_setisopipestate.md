@@ -8,9 +8,6 @@ ms.assetid: 6170c69d-f73d-4ba4-b7de-06257c8dd83c
 ms.date: 04/23/2018
 keywords: ["PFNUSBCAMD_SetIsoPipeState callback function"]
 ms.keywords: PFNUSBCAMD_SetIsoPipeState, USBCAMD_SetIsoPipeState, USBCAMD_SetIsoPipeState routine [Streaming Media Devices], stream.usbcamd_setisopipestate, usbcamdi/USBCAMD_SetIsoPipeState, usbcmdpr_6643c631-6892-4955-8a1f-ae152fd155e4.xml
-f1_keywords:
- - "usbcamdi/USBCAMD_SetIsoPipeState"
- - "USBCAMD_SetIsoPipeState"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbcamdi.h
-api_name:
-- USBCAMD_SetIsoPipeState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNUSBCAMD_SetIsoPipeState
+ - usbcamdi/PFNUSBCAMD_SetIsoPipeState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbcamdi.h
+api_name:
+ - USBCAMD_SetIsoPipeState
 ---
 
 # PFNUSBCAMD_SetIsoPipeState callback function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBCAMD_SetIsoPipeState</b> service permits the camera minidriver to control the streaming state on the isochronous pipe.
-
 
 ## -parameters
 
+### -param DeviceContext 
 
-
-
-### -param DeviceContext [in]
-
+[in]
 Pointer to device-specific context.
 
+### -param PipeStateFlags 
 
-### -param PipeStateFlags [in]
-
+[in]
 Specifies the isochronous pipe state. This argument should be set to either of the following values:
 
 <table>
@@ -90,12 +86,8 @@ This flags indicates to start streaming.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>USBCAMD_SetIsoPipeState</b> returns STATUS_SUCCESS if the call was successful. Other possible error codes include:
 
@@ -138,14 +130,8 @@ There are insufficient resources to allocate a work item to change the pipe stat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Note that the streaming state on the isochronous pipe works differently from the streaming state in the stream class and in Microsoft DirectShow. It is possible to stop the isochronous pipe from streaming for a short period while the overall video capture graph is still in a Run state.
 
@@ -155,16 +141,7 @@ Using this function does not enable you to change the alternate setting within t
 
 <b>USBCAMD_SetIsoPipeState</b> is not available in USBCAMD version 1.0.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
- 
-
- 
 

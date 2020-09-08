@@ -8,9 +8,6 @@ ms.assetid: 7922A3BD-8829-42A3-9F94-3C26F1262626
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX_TRANSMIT_CANCEL callback function"]
 ms.keywords: 1/EvtSerCxTransmitCancel, EVT_SERCX_TRANSMIT_CANCEL, EVT_SERCX_TRANSMIT_CANCEL callback, EvtSerCxTransmitCancel, EvtSerCxTransmitCancel callback function [Serial Ports], serports.evtsercxtransmitcancel
-f1_keywords:
- - "sercx/EvtSerCxTransmitCancel"
- - "EvtSerCxTransmitCancel"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 1.0\Sercx.h
-api_name:
-- EvtSerCxTransmitCancel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX_TRANSMIT_CANCEL
+ - sercx/EVT_SERCX_TRANSMIT_CANCEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - EvtSerCxTransmitCancel
 ---
 
 # EVT_SERCX_TRANSMIT_CANCEL callback function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCxTransmitCancel</i> event callback function notifies the serial controller driver that the pending transmit request is canceled.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
-
 ## -remarks
-
-
 
 The serial framework extension (SerCx) calls this function to inform the serial controller driver that the current transmit request has been canceled.  If the driver has an outstanding transmit operation in progress, the driver should cancel this operation and call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method to report the cancellation. In the <b>SerCxProgressTransmit</b> call, set <i>BytesTransmitted</i> to the number of bytes transmitted before the operation was canceled, and set <i>TransmitStatus</i> to <b>SerCxStatusCancelled</b>.
 
@@ -117,5 +110,4 @@ Then, implement your callback function as follows.
 For more information about SDV requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 <div class="code"></div>
-
 

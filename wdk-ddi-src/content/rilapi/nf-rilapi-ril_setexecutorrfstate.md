@@ -8,9 +8,6 @@ ms.assetid: 4543671c-222f-4913-9f88-682af3e54273
 ms.date: 05/02/2018
 keywords: ["RIL_SetExecutorRFState function"]
 ms.keywords: RIL_SetExecutorRFState, RIL_SetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorrfstate, rilapi/RIL_SetExecutorRFState
-f1_keywords:
- - "rilapi/RIL_SetExecutorRFState"
- - "RIL_SetExecutorRFState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SetExecutorRFState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SetExecutorRFState
+ - rilapi/RIL_SetExecutorRFState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SetExecutorRFState
 ---
 
 # RIL_SetExecutorRFState function
@@ -46,34 +46,19 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ### -param fExecutorRFState
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

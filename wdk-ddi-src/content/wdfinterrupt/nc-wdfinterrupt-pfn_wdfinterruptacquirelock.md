@@ -8,38 +8,38 @@ ms.assetid: 6a2fe0d5-bc7e-4d3e-8f47-8206fd42a36f
 ms.date: 01/11/2018
 keywords: ["PFN_WDFINTERRUPTACQUIRELOCK callback"]
 ms.keywords: wdf.wdfinterruptacquirelock, PFN_WDFINTERRUPTACQUIRELOCK, WdfInterruptAcquireLock callback function, WdfInterruptAcquireLock, wdfinterrupt/WdfInterruptAcquireLock, DFInterruptObjectRef_9d3cd9a1-801c-437a-b1df-7e2819d1465a.xml, kmdf.wdfinterruptacquirelock
-f1_keywords:
- - "wdfinterrupt/WdfInterruptAcquireLock"
- - "WdfInterruptAcquireLock"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
 req.ddi-compliance: DriverCreate, KmdfIrql, KmdfIrql2, WdfInterruptLock, WdfInterruptLockRelease
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: <= DIRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdfinterrupt.h
-api_name:
-- WdfInterruptAcquireLock
 targetos: Windows
 req.typenames: WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS
 req.product: Windows 10 or later.
+f1_keywords:
+ - PFN_WDFINTERRUPTACQUIRELOCK
+ - wdfinterrupt/PFN_WDFINTERRUPTACQUIRELOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdfinterrupt.h
+api_name:
+ - WdfInterruptAcquireLock
 ---
 
 # PFN_WDFINTERRUPTACQUIRELOCK callback
@@ -47,48 +47,29 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfInterruptAcquireLock</b> method begins a code sequence that executes at the device's device interrupt request level (DIRQL) while holding an interrupt object's spin lock.
 
 For passive level interrupt objects, the method begins a code sequence that executes at passive level while holding an interrupt object's passive lock.
 
+## -parameters
 
+### -param DriverGlobals
 
+### -param WDFINTERRUPT
+
+#### - Interrupt [in]
+
+A handle to a framework interrupt object.
 
 ## -prototype
-
 
 ```cpp
 VOID WdfInterruptAcquireLock(
   _In_ WDFINTERRUPT Interrupt
 );
 ```
-
-
-## -parameters
-
-
-
-
-### -param DriverGlobals
-
-
-
-### -param WDFINTERRUPT
-
-
-
-
-
-
-#### - Interrupt [in]
-
-A handle to a framework interrupt object.
-
-
-
 
 ## -remarks
 
@@ -126,7 +107,6 @@ Doing so avoids the possibility of deadlock, as described in the following scena
 <li>  The peripheral driver's I/O dispatch routine calls <b>WdfInterruptAcquireLock</b>, which then deadlocks attempting to acquire the interrupt object's passive lock.</li>
 </ol>
 
-
 ## -see-also
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsynchronize.md">WdfInterruptSynchronize</a>
@@ -144,9 +124,4 @@ Doing so avoids the possibility of deadlock, as described in the following scena
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>
-
- 
-
- 
-
 

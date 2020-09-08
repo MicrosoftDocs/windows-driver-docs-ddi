@@ -8,9 +8,6 @@ ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.date: 02/26/2018
 keywords: ["WdfPdoInitAddHardwareID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method, kmdf.wdfpdoinitaddhardwareid, wdf.wdfpdoinitaddhardwareid, wdfpdo/WdfPdoInitAddHardwareID
-f1_keywords:
- - "wdfpdo/WdfPdoInitAddHardwareID"
- - "WdfPdoInitAddHardwareID"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoInitAddHardwareID
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoInitAddHardwareID
+ - wdfpdo/WdfPdoInitAddHardwareID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoInitAddHardwareID
 ---
 
 # WdfPdoInitAddHardwareID function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoInitAddHardwareID</b> method adds a hardware ID to the list of hardware IDs for a child device.
 
-
 ## -parameters
 
+### -param DeviceInit 
 
-
-
-### -param DeviceInit [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
+### -param HardwareID 
 
-### -param HardwareID [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a hardware ID string. The driver can allocate the string's buffer from paged pool.
-
+[in]
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a hardware ID string. The driver can allocate the string's buffer from paged pool.
 
 ## -returns
-
-
 
 If the operation succeeds, the method returns STATUS_SUCCESS. Additional return values include:
 
@@ -106,12 +99,7 @@ The driver could not allocate space to store the hardware ID string.
 
 The method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The driver can add one or more hardware IDs for a device. They should be added in order from best match to worst match. The framework will deliver the IDs to the PnP manager in the order that they were added. For more information about hardware IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Setup Selects Drivers</a>.
 
@@ -132,12 +120,7 @@ status = WdfPdoInitAddHardwareID(
                                  );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitaddcompatibleid">WdfPdoInitAddCompatibleID</a>
 
@@ -148,7 +131,4 @@ status = WdfPdoInitAddHardwareID(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassigninstanceid">WdfPdoInitAssignInstanceID</a>
- 
-
- 
 

@@ -6,33 +6,38 @@ tech.root: netvista
 ms.assetid: 2c4aeedf-4c2c-4efe-8c3f-fe5c6b7d6009
 ms.date: 08/20/2018
 keywords: ["WWAN_SAR_BACKOFF_STATE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_SAR_BACKOFF_STATE"
- - "_WWAN_SAR_BACKOFF_STATE"
-ms.keywords: _WWAN_SAR_BACKOFF_STATE, WWAN_SAR_BACKOFF_STATE, *PWWAN_SAR_BACKOFF_STATE, 
+ms.keywords: _WWAN_SAR_BACKOFF_STATE, WWAN_SAR_BACKOFF_STATE, *PWWAN_SAR_BACKOFF_STATE,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_SAR_BACKOFF_STATE, *PWWAN_SAR_BACKOFF_STATE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_SAR_BACKOFF_STATE
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _WWAN_SAR_BACKOFF_STATE
+ - wwan/_WWAN_SAR_BACKOFF_STATE
+ - PWWAN_SAR_BACKOFF_STATE
+ - wwan/PWWAN_SAR_BACKOFF_STATE
+ - WWAN_SAR_BACKOFF_STATE
+ - wwan/WWAN_SAR_BACKOFF_STATE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_SAR_BACKOFF_STATE
 ---
 
 # _WWAN_SAR_BACKOFF_STATE enumeration
+
 
 ## -description
 
@@ -61,3 +66,4 @@ This enumeration is used in the [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_con
 [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_config_info.md)
 
 [**WWAN_SET_SAR_CONFIG**](ns-wwan-_wwan_set_sar_config.md)
+

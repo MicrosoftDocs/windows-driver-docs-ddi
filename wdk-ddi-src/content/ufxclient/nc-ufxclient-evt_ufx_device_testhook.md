@@ -8,9 +8,6 @@ ms.assetid: 132DC454-03AC-47F0-A093-3DAEB338B9C5
 ms.date: 05/07/2018
 keywords: ["EVT_UFX_DEVICE_TESTHOOK callback function"]
 ms.keywords: EVT_UFX_DEVICE_TESTHOOK, EVT_UFX_DEVICE_TESTHOOK callback, EvtUfxDeviceTesthook, EvtUfxDeviceTesthook callback function [Buses], buses.evt_ufx_device_testhook, ufxclient/EvtUfxDeviceTesthook
-f1_keywords:
- - "ufxclient/EVT_UFX_DEVICE_TESTHOOK callback"
- - "EVT_UFX_DEVICE_TESTHOOK callback"
 req.header: ufxclient.h
 req.include-header: Ufxclient.h
 req.target-type: Windows
@@ -28,16 +25,19 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ufxclient.h
-api_name:
-- EVT_UFX_DEVICE_TESTHOOK callback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UFX_DEVICE_TESTHOOK
+ - ufxclient/EVT_UFX_DEVICE_TESTHOOK
+topic_type:
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ufxclient.h
+api_name:
+ - EVT_UFX_DEVICE_TESTHOOK callback
 ---
 
 # EVT_UFX_DEVICE_TESTHOOK callback function
@@ -45,28 +45,11 @@ req.typenames:
 
 ## -description
 
-
 This IOCTL code is not supported.
-
 
 ## -parameters
 
-
-
-
-
-
-
-
-
-
-
-
 ## -returns
 
-
-
 TBD
-
-
 

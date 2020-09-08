@@ -8,9 +8,6 @@ ms.assetid: 7c3cb6e2-707a-4f8d-84b7-fce1354c06af
 ms.date: 04/23/2018
 keywords: ["PFNKSDEVICEIRPVOID callback function"]
 ms.keywords: AVStrMiniDeviceCancelStop, MyAVStrMiniDeviceIRP, MyAVStrMiniDeviceIRP routine [Streaming Media Devices], PFNKSDEVICEIRPVOID, avstclbk_5b19ddf6-52f4-4d93-b5e1-7d7b5a41fe8b.xml, ks/MyAVStrMiniDeviceIRP, stream.avstrminidevicecancelstop
-f1_keywords:
- - "ks/MyAVStrMiniDeviceIRP"
- - "MyAVStrMiniDeviceIRP"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- MyAVStrMiniDeviceIRP
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSDEVICEIRPVOID
+ - ks/PFNKSDEVICEIRPVOID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - MyAVStrMiniDeviceIRP
 ---
 
 # PFNKSDEVICEIRPVOID callback function
 
 
 ## -description
-
 
 An AVStream minidriver's IRP handling routine is called when these IRPs are dispatched by the device.
 
@@ -68,26 +67,19 @@ An AVStream minidriver's IRP handling routine is called when these IRPs are disp
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>
 
-
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> that dispatched the IRP.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 The IRP issued by <i>Device</i>.
 
-
 ## -remarks
-
-
 
 <table>
 <tr>
@@ -154,22 +146,12 @@ This routine is optional.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
- 
-
- 
 

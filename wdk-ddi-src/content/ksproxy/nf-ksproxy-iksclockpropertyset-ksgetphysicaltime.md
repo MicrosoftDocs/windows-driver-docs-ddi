@@ -8,9 +8,6 @@ ms.assetid: 25875f28-292f-40d9-8b29-ec9af49b0bc0
 ms.date: 04/23/2018
 keywords: ["IKsClockPropertySet::KsGetPhysicalTime"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetPhysicalTime method, IKsClockPropertySet.KsGetPhysicalTime, IKsClockPropertySet::KsGetPhysicalTime, KsGetPhysicalTime, KsGetPhysicalTime method [Streaming Media Devices], KsGetPhysicalTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetPhysicalTime, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml, stream.iksclockpropertyset_ksgetphysicaltime
-f1_keywords:
- - "ksproxy/IKsClockPropertySet.KsGetPhysicalTime"
- - "IKsClockPropertySet.KsGetPhysicalTime"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsClockPropertySet.KsGetPhysicalTime
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsClockPropertySet::KsGetPhysicalTime
+ - ksproxy/IKsClockPropertySet::KsGetPhysicalTime
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsClockPropertySet.KsGetPhysicalTime
 ---
 
 # IKsClockPropertySet::KsGetPhysicalTime
@@ -46,51 +46,30 @@ req.typenames:
 
 ## -description
 
-
-The <b>KsGetPhysicalTime</b> method retrieves the physical time from the underlying clock. 
-
+The <b>KsGetPhysicalTime</b> method retrieves the physical time from the underlying clock.
 
 ## -parameters
 
+### -param Time 
 
-
-
-### -param Time [out]
-
+[out]
 Pointer to a variable that receives the current physical time.
-
 
 ## -returns
 
-
-
 Returns NOERROR if successful; otherwise, returns an error code.
-
-
-
 
 ## -remarks
 
-
-
 The physical time is based on some underlying physical clock that always progresses, even if the physical type of clock must be changed in real time. Other physical clocks use an underlying clock's physical time for rate matching.
 
-The proxy uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-physicaltime">KSPROPERTY_CLOCK_PHYSICALTIME</a> property to retrieve the physical time. 
-
-
-
+The proxy uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-physicaltime">KSPROPERTY_CLOCK_PHYSICALTIME</a> property to retrieve the physical time.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-kssetphysicaltime">IKsClockPropertySet::KsSetPhysicalTime</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-physicaltime">KSPROPERTY_CLOCK_PHYSICALTIME</a>
- 
-
- 
 

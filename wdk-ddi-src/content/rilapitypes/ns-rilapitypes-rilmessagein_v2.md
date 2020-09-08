@@ -8,9 +8,6 @@ ms.assetid: 44d4f693-4aab-4023-88b7-19c1bfcc7e5a
 ms.date: 05/02/2018
 keywords: ["RILMESSAGEIN_V2 structure"]
 ms.keywords: "*LPRILMESSAGEIN, RILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v2, ntddrilapitypes/RILMESSAGEIN_V2"
-f1_keywords:
- - "rilapitypes/RILMESSAGEIN_V2"
- - "RILMESSAGEIN_V2"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,47 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMESSAGEIN_V2
 targetos: Windows
 req.typenames: RILMESSAGEIN_V2, RILMESSAGEIN, *LPRILMESSAGEIN
+f1_keywords:
+ - RILMESSAGEIN_V2
+ - rilapitypes/RILMESSAGEIN_V2
+ - LPRILMESSAGEIN
+ - rilapitypes/LPRILMESSAGEIN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMESSAGEIN_V2
 ---
 
-# RILMESSAGEIN_V2 structure
+# RILMESSAGEIN_V2 structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwExecutor
 
-
 ### -field hUiccApp
-
 
 ### -field dwAckID
 
-
 ### -field rm
-
 
 ### -field dwFlags
 

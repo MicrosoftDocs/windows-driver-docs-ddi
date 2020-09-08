@@ -8,9 +8,6 @@ ms.assetid: FE65B384-387E-4E04-8CF4-9C218F83A0C8
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CREATE_SHARED_ENDPOINT callback function"]
 ms.keywords: NDK_FN_CREATE_SHARED_ENDPOINT, NDK_FN_CREATE_SHARED_ENDPOINT callback, NdkCreateSharedEndpoint, NdkCreateSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSharedEndpoint, netvista.ndk_fn_create_shared_endpoint
-f1_keywords:
- - "ndkpi/NdkCreateSharedEndpoint"
- - "NdkCreateSharedEndpoint"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkCreateSharedEndpoint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_CREATE_SHARED_ENDPOINT
+ - ndkpi/NDK_FN_CREATE_SHARED_ENDPOINT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkCreateSharedEndpoint
 ---
 
 # NDK_FN_CREATE_SHARED_ENDPOINT callback function
@@ -46,50 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkCreateSharedEndpoint</i> (<i>NDK_FN_CREATE_SHARED_ENDPOINT</i>) function creates an NDK shared endpoint.
-
 
 ## -parameters
 
+### -param pNdkAdapter 
 
-
-
-### -param pNdkAdapter [in]
-
+[in]
 A pointer to an NDK adapter object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>).
-
 
 ### -param PSOCKADDR
 
 A local address to use for initiating outgoing connections. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
 
-### -param AddressLength [in]
+### -param AddressLength 
 
+[in]
 The size, in bytes, of local address data at the <i>pAddress</i> parameter.
 
+### -param CreateCompletion 
 
-
-
-### -param CreateCompletion [in]
-
+[in]
 A pointer to an <i>NdkCreateCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
+### -param RequestContext 
 
-### -param RequestContext [in, optional]
-
+[in, optional]
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
-
-#### -param *ppNdkSharedEndpoint
+### -param *ppNdkSharedEndpoint
 
 A pointer to a created shared endpoint object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
-
-
 ## -returns
-
-
 
 The 
      <i>NdkCreateSharedEndpoint</i> function returns one of the following NTSTATUS codes.
@@ -184,26 +173,14 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>NdkCreateSharedEndpoint</i> function creates an NDK shared endpoint to use as the local address for multiple outgoing connections that are destined to different remote addresses. This is analogous to having multiple incoming connections to the same local address that are represented by a listener object.
 
  If the function returns STATUS_SUCCESS, the created object is returned in the <i>ppNdkSharedEndpoint</i> parameter. If <i>NdkCreateSharedEndpoint</i> returns STATUS_PENDING, the created object is returned by the <i>NdkCreateCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_completion">NDK_FN_CREATE_COMPLETION</a>) function that is specified in the <i>CreateCompletion</i> parameter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
@@ -222,7 +199,4 @@ The <i>NdkCreateSharedEndpoint</i> function creates an NDK shared endpoint to us
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>
- 
-
- 
 

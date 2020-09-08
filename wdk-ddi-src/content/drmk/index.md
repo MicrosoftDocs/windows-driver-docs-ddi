@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: audio
+f1_keywords:
+ - drmk
+ - drmk/drmk
 ---
 
 # Drmk.h header
@@ -16,7 +19,7 @@ tech.root: audio
 
 ## -description
 
-
 This header is used by audio. For more information, see:
 
 - [Audio](../_audio/index.md)
+

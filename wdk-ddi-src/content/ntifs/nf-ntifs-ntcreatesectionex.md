@@ -6,39 +6,39 @@ ms.assetid: a895e706-38c0-40d7-95b1-f1268af775c1
 tech.root: kernel
 ms.date: 10/19/2018
 keywords: ["NtCreateSectionEx function"]
-f1_keywords:
- - "ntifs/NtCreateSectionEx"
- - "NtCreateSectionEx"
 ms.keywords: NtCreateSectionEx
 req.header: ntifs.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- NtCreateSectionEx
 targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - NtCreateSectionEx
+ - ntifs/NtCreateSectionEx
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - NtCreateSectionEx
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # NtCreateSectionEx function
@@ -51,10 +51,12 @@ An extended version of [**NtCreateSection**](nf-ntifs-ntcreatesection.md) that c
 ## -parameters
 
 ### -param SectionHandle
+
 [out] Pointer to a HANDLE variable that receives a handle to the section object.
 
-### -param DesiredAccess [out] 
+### -param DesiredAccess 
 
+[out] 
 Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>), the caller can specify any of the following access rights, which are specific to section objects:
 
 
@@ -66,37 +68,42 @@ Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel
 |SECTION_MAP_WRITE|Write views of the section.|
 |SECTION_QUERY|Query the section object for information about the section. Drivers should set this flag.|
 |SECTION_ALL_ACCESS|All of the previous flags combined with STANDARD_RIGHTS_REQUIRED.|
- 
 
+### -param ObjectAttributes 
 
-### -param ObjectAttributes [in, optional]
-
+[in, optional]
 Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
-### -param MaximumSize [in, optional]
+### -param MaximumSize 
 
+[in, optional]
 Specifies the maximum size, in bytes, of the section. <b>NtCreateSection</b> rounds this value up to the nearest multiple of PAGE_SIZE. If the section is backed by the paging file, <i>MaximumSize</i> specifies the actual size of the section. If the section is backed by an ordinary file, <i>MaximumSize</i> specifies the maximum size that the file can be extended or mapped to.
 
+### -param SectionPageProtection 
 
-### -param SectionPageProtection [in]
-
+[in]
 Specifies the protection to place on each page in the section. Use one of the following four values: PAGE_READONLY, PAGE_READWRITE, PAGE_EXECUTE, or PAGE_WRITECOPY. For a description of these values, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>.
 
-### -param AllocationAttributes [in]
+### -param AllocationAttributes 
 
+[in]
 Specifies a bitmask of SEC_<i>XXX</i> flags that determines the allocation attributes of the section. For a description of these flags, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>.
 
-### -param FileHandle [in, optional]
+### -param FileHandle 
 
-Optionally specifies a handle for an open file object. If the value of <i>FileHandle</i> is <b>NULL</b>, the section is backed by the paging file. Otherwise, the section is backed by the specified file. 
+[in, optional]
+Optionally specifies a handle for an open file object. If the value of <i>FileHandle</i> is <b>NULL</b>, the section is backed by the paging file. Otherwise, the section is backed by the specified file.
 
-### -param ExtendedParameters [in/out]
-A pointer to an array of [**MEM_EXTENDED_PARAMETER**](../wdm/ns-wdm-mem_extended_parameter.md) structures the contains the extended paramters to create the section.
+### -param ExtendedParameters 
+
+[in/out]A pointer to an array of [**MEM_EXTENDED_PARAMETER**](../wdm/ns-wdm-mem_extended_parameter.md) structures the contains the extended paramters to create the section.
 
 ### -param ExtendedParameterCount
+
 The size of the _ExtendedParameters_ array.
 
 ## -returns
+
 eturns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error status codes include the following:
 
 <table>
@@ -160,9 +167,9 @@ The value of <i>MaximumSize</i> is too big. This occurs when either <i>MaximumSi
 </td>
 </tr>
 </table>
- 
 
 ## -remarks
+
 Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">NtClose</a> to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-handles">Object Handles</a>. 
@@ -181,3 +188,4 @@ Only one instance of an extended parameter can be specified.
 Convert to a 1-based numa node number that is expected downstream of this API.
 
 ## -see-also
+

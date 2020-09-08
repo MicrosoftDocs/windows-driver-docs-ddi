@@ -28,8 +28,10 @@ targetos: Windows
 tech.root: display
 req.typenames: DXGK_RENDERKM_COMMAND
 f1_keywords:
- - "d3dkmddi/DXGK_RENDERKM_COMMAND"
- - "DXGK_RENDERKM_COMMAND"
+ - _DXGK_RENDERKM_COMMAND
+ - d3dkmddi/_DXGK_RENDERKM_COMMAND
+ - DXGK_RENDERKM_COMMAND
+ - d3dkmddi/DXGK_RENDERKM_COMMAND
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +46,7 @@ product:
 ---
 
 # _DXGK_RENDERKM_COMMAND structure
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 430B8951-37F0-4173-ACC6-89DB542B4081
 ms.date: 04/30/2018
 keywords: ["IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure"]
 ms.keywords: "*PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, kernel.io_report_interrupt_active_state_parameters, wdm/IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, wdm/PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS"
-f1_keywords:
- - "wdm/IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS"
- - "IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
 targetos: Windows
 req.typenames: IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, *PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+f1_keywords:
+ - _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+ - wdm/_IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+ - PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+ - wdm/PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+ - IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+ - wdm/IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
 ---
 
 # _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure
@@ -46,14 +50,9 @@ req.typenames: IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, *PIO_REPORT_INTERRUP
 
 ## -description
 
-
 The <b>IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</b> structure contains the connection context for a registered interrupt service routine (ISR) that was connected to an interrupt or interrupts by a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -67,32 +66,25 @@ The interrupt connection type described by this structure. This member must matc
 </ul>
 For more information, see Remarks.
 
-
 ### -field ConnectionContext
 
 A union that contains the connection context associated with the interrupt. Each union member is a pointer to a connection context of a particular type. If <b>Version</b> = CONNECT_MESSAGE_BASED, the <b>InterruptMessageTable</b> member of this union contains a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a> structure. For all other <b>Version</b> values, the <b>InterruptObject</b> member of this union contains a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure. Use the <b>Generic</b> member of this union to treat the connection context pointer as a PVOID value (and avoid casting).
 
 For more information, see Remarks.
 
-
 ### -field ConnectionContext.Generic
 
 A PVOID pointer to a connection context.
-
 
 ### -field ConnectionContext.InterruptObject
 
 A pointer to a connection context of type <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a>.
 
-
 ### -field ConnectionContext.InterruptMessageTable
 
 A pointer to a connection context of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a>.
 
-
 ## -remarks
-
-
 
 This structure is supplied as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreportinterruptactive">IoReportInterruptActive</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreportinterruptinactive">IoReportInterruptInactive</a> routines.
 
@@ -106,13 +98,7 @@ If the <i>Parameters-</i>><b>Version</b> value obtained from <b>IoConnectInterru
 
 If the <i>Parameters-</i>><b>Version</b> value obtained from <b>IoConnectInterruptEx</b> is CONNECT_LINE_BASED, and the caller initially set <i>Parameters-</i>><b>Version</b> to CONNECT_LINE_BASED, set the <b>ConnectionContext.InterruptObject</b> member of the <b>IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</b> structure to the *(<i>Parameters-</i>><b>LineBased.InterruptObject</b>) pointer value obtained from <b>IoConnectInterruptEx</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
 
@@ -123,7 +109,4 @@ If the <i>Parameters-</i>><b>Version</b> value obtained from <b>IoConnectInterru
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreportinterruptinactive">IoReportInterruptInactive</a>
- 
-
- 
 

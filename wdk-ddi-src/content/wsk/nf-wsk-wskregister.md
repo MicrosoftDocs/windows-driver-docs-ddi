@@ -8,9 +8,6 @@ ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
 ms.date: 05/02/2018
 keywords: ["WskRegister function"]
 ms.keywords: WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml
-f1_keywords:
- - "wsk/WskRegister"
- - "WskRegister"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Netio.lib
-- Netio.dll
-api_name:
-- WskRegister
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WskRegister
+ - wsk/WskRegister
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Netio.lib
+ - Netio.dll
+api_name:
+ - WskRegister
 ---
 
 # WskRegister function
@@ -47,35 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskRegister</b> function registers a WSK application, given the application's WSK client 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a>.
 
-
 ## -parameters
 
+### -param WskClientNpi 
 
-
-
-### -param WskClientNpi [in]
-
+[in]
 A pointer to the client NPI implemented by the WSK application.
 
+### -param WskRegistration 
 
-### -param WskRegistration [out]
-
+[out]
 A pointer to a memory location that identifies a WSK application's registration instance. This
      memory location will be initialized by the 
      <b>WskRegister</b> call and will be used by the other 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">WSK registration functions</a>. The
      WSK application should never change the contents of this memory location directly.
 
-
 ## -returns
-
-
 
 <b>WskRegister</b> returns one of the following NTSTATUS codes:
 
@@ -107,14 +100,8 @@ The registration failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WSK client object can call this function multiple times, but a different 
     <i>WskRegistration</i> parameter must be used for each call in order to create multiple registration
@@ -142,13 +129,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a>
 
@@ -159,7 +140,4 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskderegister">WskDeregister</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: BC66C993-F571-4EB9-8163-65B038ECE754
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback function"]
 ms.keywords: NDIS_WDI_TX_TRANSFER_COMPLETE_IND, NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback, NdisWdiTxTransferCompleteIndication, NdisWdiTxTransferCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxTransferCompleteIndication, netvista.ndiswditxtransfercompleteindication
-f1_keywords:
- - "dot11wdi/NdisWdiTxTransferCompleteIndication"
- - "NdisWdiTxTransferCompleteIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- NdisWdiTxTransferCompleteIndication
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_WDI_TX_TRANSFER_COMPLETE_IND
+ - dot11wdi/NDIS_WDI_TX_TRANSFER_COMPLETE_IND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - NdisWdiTxTransferCompleteIndication
 ---
 
 # NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback function
 
 
 ## -description
-
 
 The NdisWdiTxTransferCompleteIndication callback function specifies a list of frame buffers that have been transferred to the target.
 Frames with different TX Status values are completed in separate indications.
@@ -54,31 +53,24 @@ If the TX status is a failure code, an <a href="https://docs.microsoft.com/windo
 
 This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>.
 
-
 ## -parameters
 
+### -param NdisMiniportDataPathHandle 
 
-
-
-### -param NdisMiniportDataPathHandle [in]
-
+[in]
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
 
+### -param WifiTxFrameStatus 
 
-### -param WifiTxFrameStatus [in]
-
+[in]
 The TX status, specified as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_status">WDI_TX_FRAME_STATUS</a> value.
 
+### -param pNBL 
 
-### -param pNBL [in]
-
+[in]
 The null-terminated list of frame buffers that have been transferred to the target.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_data_api">NDIS_WDI_DATA_API</a>
 
@@ -93,7 +85,4 @@ The null-terminated list of frame buffers that have been transferred to the targ
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_status">WDI_TX_FRAME_STATUS</a>
- 
-
- 
 

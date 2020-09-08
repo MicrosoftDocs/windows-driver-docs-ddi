@@ -8,9 +8,6 @@ ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
 ms.date: 04/30/2018
 keywords: ["PsGetJobServerSilo function"]
 ms.keywords: PsGetJobServerSilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, ntddk/PsGetJobServerSilo
-f1_keywords:
- - "ntddk/PsGetJobServerSilo"
- - "PsGetJobServerSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsGetJobServerSilo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetJobServerSilo
+ - ntddk/PsGetJobServerSilo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsGetJobServerSilo
 ---
 
 # PsGetJobServerSilo function
@@ -46,33 +46,25 @@ req.typenames:
 
 ## -description
 
-
 This routine returns the effective <i>ServerSilo</i> for the job. The returned pointer is valid as long as the supplied <i>Job</i> object remains referenced.
 
 
 <div class="alert"><b>Note</b>  This returns a <i>ServerSilo</i> or a value indicating the host silo. Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetjobsilo">PsGetJobSilo</a>, it will not return an app silo, even if one is present.</div>
 <div> </div>
 
-
-
 ## -parameters
 
+### -param Job 
 
-
-
-### -param Job [in, optional]
-
+[in, optional]
 A job object.
 
+### -param ServerSilo 
 
-### -param ServerSilo [out]
-
+[out]
  A pointer that receives the server silo for the job.
 
-
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -104,16 +96,8 @@ A PESILO is returned successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>STATUS_SUCCESS</b> is returned even if a server silo is not in effect for the job. In that case, it will return the default host silo.
-
-
 

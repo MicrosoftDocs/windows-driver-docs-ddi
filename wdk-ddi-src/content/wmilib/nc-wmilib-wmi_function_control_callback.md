@@ -8,9 +8,6 @@ ms.assetid: c1480927-eefa-4078-a866-68dc1b7c5e9c
 ms.date: 04/30/2018
 keywords: ["WMI_FUNCTION_CONTROL_CALLBACK callback function"]
 ms.keywords: DpWmiFunctionControl, DpWmiFunctionControl callback function [Kernel-Mode Driver Architecture], WMI_FUNCTION_CONTROL_CALLBACK, WMI_FUNCTION_CONTROL_CALLBACK callback, k903_d43ba720-8de2-411d-ae6c-3ba6b7bfe3ca.xml, kernel.dpwmifunctioncontrol, wmilib/DpWmiFunctionControl
-f1_keywords:
- - "wmilib/DpWmiFunctionControl"
- - "DpWmiFunctionControl"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wmilib.h
-api_name:
-- DpWmiFunctionControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WMI_FUNCTION_CONTROL_CALLBACK
+ - wmilib/WMI_FUNCTION_CONTROL_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wmilib.h
+api_name:
+ - DpWmiFunctionControl
 ---
 
 # WMI_FUNCTION_CONTROL_CALLBACK callback function
@@ -46,52 +46,40 @@ req.typenames:
 
 ## -description
 
-
 The <i>DpWmiFunctionControl</i> routine enables or disables notification of events, and enables or disables data collection for data blocks that the driver registered as expensive to collect. This routine is optional.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to the driver's WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 Pointer to the IRP.
 
+### -param GuidIndex 
 
-### -param GuidIndex [in]
-
+[in]
 Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.
 
+### -param Function 
 
-### -param Function [in]
-
+[in]
 Specifies what to enable or disable. <b>WmiEventControl</b> indicates an event, and <b>WmiDataBlockControl</b> indicates data collection for a block that was registered as expensive to collect (that is, a block for which the driver set WMIREG_FLAG_EXPENSIVE in <b>Flags</b> of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmiguidreginfo">WMIGUIDREGINFO</a> structure used to register the block).
 
+### -param Enable 
 
-### -param Enable [in]
-
+[in]
 Specifies <b>TRUE</b> to enable the event or data collection, or <b>FALSE</b> to disable it.
-
 
 ## -returns
 
-
-
 <i>DpWmiFunctionControl</i> returns STATUS_SUCCESS or an appropriate error status such as:
 
-
-
-
 ## -remarks
-
-
 
 WMI calls a driver's <i>DpWmiFunctionControl</i> routine after the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> in response to one of the following requests:
 
@@ -133,13 +121,7 @@ This routine can be pageable.
 
 For more information about implementing this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/calling-wmisystemcontrol-to-handle-wmi-irps">Calling WmiSystemControl to Handle WMI IRPs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-disable-collection">IRP_MN_DISABLE_COLLECTION</a>
 
@@ -162,7 +144,4 @@ For more information about implementing this routine, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>
- 
-
- 
 

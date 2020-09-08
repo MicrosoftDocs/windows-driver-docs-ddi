@@ -8,9 +8,6 @@ ms.assetid: 9fb5805c-bb12-41ba-8c72-526b4193b6b5
 ms.date: 04/16/2018
 keywords: ["FsRtlCancellableWaitForMultipleObjects function"]
 ms.keywords: FsRtlCancellableWaitForMultipleObjects, FsRtlCancellableWaitForMultipleObjects routine [Installable File System Drivers], fsrtlref_8a221e67-4344-401f-9e56-8fac66bb03b7.xml, ifsk.fsrtlcancellablewaitformultipleobjects, ntifs/FsRtlCancellableWaitForMultipleObjects
-f1_keywords:
- - "ntifs/FsRtlCancellableWaitForMultipleObjects"
- - "FsRtlCancellableWaitForMultipleObjects"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlCancellableWaitForMultipleObjects
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlCancellableWaitForMultipleObjects
+ - ntifs/FsRtlCancellableWaitForMultipleObjects
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlCancellableWaitForMultipleObjects
 ---
 
 # FsRtlCancellableWaitForMultipleObjects function
@@ -46,32 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>FsRtlCancellableWaitForMultipleObjects</b> routine executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
-
 
 ## -parameters
 
+### -param Count 
 
-
-
-### -param Count [in]
-
+[in]
 The number of objects to be waited on.
 
+### -param ObjectArray 
 
-### -param ObjectArray [in]
-
+[in]
 A pointer to an array of pointers to dispatcher objects (events, mutexes, semaphores, threads, and timers) for which the caller supplies the storage.
 
+### -param WaitType 
 
-### -param WaitType [in]
-
+[in]
 Either <b>WaitAll</b>, which indicates that all of the specified objects must attain a signaled state before the wait is satisfied; or <b>WaitAny</b>, which indicates that any one of the objects must attain a signaled state before the wait is satisfied.
 
+### -param Timeout 
 
-### -param Timeout [in, optional]
-
+[in, optional]
 A pointer to an optional time-out value. This parameter specifies the absolute or relative time, in 100 nanosecond units, at which the wait is to be completed.
 
 If <i>Timeout </i>points to a zero value (that is, <i>*Timeout</i> == 0), the routine returns without waiting. If the caller supplies a <b>NULL</b> pointer (that is, <i>Timeout</i> == <b>NULL</b>), the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state.
@@ -82,20 +78,17 @@ If <i>Timeout</i> is specified, the wait will be automatically satisfied if none
 
 A time-out value of zero (that is, <i>*Timeout</i> == 0) allows you to test a set of wait conditions, and to conditionally perform any additional actions if the wait can be immediately satisfied, as in the acquisition of a mutex.
 
+### -param WaitBlockArray 
 
-### -param WaitBlockArray [in, optional]
-
+[in, optional]
 If <i>Count</i> <= THREAD_WAIT_OBJECTS, <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <code>sizeof(KWAIT_BLOCK * Count)</code> bytes. The routine uses this buffer for record-keeping while performing the wait operation.
 
+### -param Irp 
 
-### -param Irp [in, optional]
-
+[in, optional]
 A pointer to the original IRP that corresponds to the I/O operation that was issued by the user and that can be canceled by the user.  The caller must ensure that the IRP will remain valid for the duration of this routine and that the IRP must not have a cancel routine set (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a> must not have been called on the IRP).  Note that the IRP must be held by the caller, it cannot be passed to a lower-level driver.
 
-
 ## -returns
-
-
 
 <b>FsRtlCancellableWaitForMultipleObjects</b> can return one of the following values:
 
@@ -177,12 +170,7 @@ The return value only indicates the status of the wait. If applicable, the actua
 
 Note that the NT_SUCCESS macro returns <b>FALSE</b> ("failure") for the STATUS_CANCELLED and STATUS_THREAD_IS_TERMINATING status values and <b>TRUE</b> ("success") for all other status values.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FsRtlCancellableWaitForMultipleObjects</b> routine executes a cancelable wait operation on dispatcher objects.  If the thread is terminated by the user or by the application, or if <a href="https://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a> posts a cancel request on a threaded IRP (synchronous IRP) associated with the thread, the wait is canceled.
 
@@ -204,13 +192,7 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 <b>FsRtlCancellableWaitForMultipleObjects</b> will assert on debug builds if the IRQL is greater or equal to APC_LEVEL and the <i>Irp</i> parameter points to a valid IRP.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
@@ -245,7 +227,4 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
 

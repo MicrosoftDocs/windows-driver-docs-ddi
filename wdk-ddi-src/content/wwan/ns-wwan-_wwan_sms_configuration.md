@@ -8,9 +8,6 @@ ms.assetid: 85075b9d-72a7-4f3e-8a25-888689f9d5e1
 ms.date: 05/02/2018
 keywords: ["WWAN_SMS_CONFIGURATION structure"]
 ms.keywords: "*PWWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION, PWWAN_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CONFIGURATION, WWAN_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WwanRef_d68f5af0-d14e-4b01-a77d-4d3fea6db828.xml, _WWAN_SMS_CONFIGURATION, netvista.wwan_sms_configuration, wwan/PWWAN_SMS_CONFIGURATION, wwan/WWAN_SMS_CONFIGURATION"
-f1_keywords:
- - "wwan/WWAN_SMS_CONFIGURATION"
- - "WWAN_SMS_CONFIGURATION"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SMS_CONFIGURATION
 targetos: Windows
 req.typenames: WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION
+f1_keywords:
+ - _WWAN_SMS_CONFIGURATION
+ - wwan/_WWAN_SMS_CONFIGURATION
+ - PWWAN_SMS_CONFIGURATION
+ - wwan/PWWAN_SMS_CONFIGURATION
+ - WWAN_SMS_CONFIGURATION
+ - wwan/WWAN_SMS_CONFIGURATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SMS_CONFIGURATION
 ---
 
 # _WWAN_SMS_CONFIGURATION structure
@@ -46,14 +50,9 @@ req.typenames: WWAN_SMS_CONFIGURATION, *PWWAN_SMS_CONFIGURATION
 
 ## -description
 
-
 The WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ScAddress
 
@@ -78,14 +77,12 @@ For set requests, the MB Service can set this member to <b>NULL</b>. In this cas
      miniport driver does not need to update the 
      <b>ScAddress</b> member and should not update this member thereafter.
 
-
 ### -field SmsFormat
 
 The SMS message format that should be used for the unsolicited indication of new SMS message
      arrivals. CDMA-based devices support only the 
      <b>WwanSmsFormatCdma</b> format. The 
      <b>WwanSmsFormatCdma</b> format does not apply to GSM-based devices.
-
 
 ### -field ulMaxMessageIndex
 
@@ -94,28 +91,16 @@ The maximum number of messages that can be stored on the device. Miniport driver
      <i>query</i> requests. Unsolicited events that are used to notify the change of 
      <b>ScAddress</b> must also contain valid information for this member.
 
-
 ## -remarks
-
-
 
 Miniport drivers need to fill in this data structure only when processing 
     <i>query</i> requests, or in case of unsolicited events.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_configuration">NDIS_WWAN_SMS_CONFIGURATION</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>
- 
-
- 
 

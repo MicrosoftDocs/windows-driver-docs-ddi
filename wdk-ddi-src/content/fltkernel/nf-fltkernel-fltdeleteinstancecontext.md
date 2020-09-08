@@ -8,9 +8,6 @@ ms.assetid: 910b62d7-2ef3-4eb2-97c3-9b920fdb0558
 ms.date: 04/16/2018
 keywords: ["FltDeleteInstanceContext function"]
 ms.keywords: FltApiRef_a_to_d_2ccc7fef-0bff-4df4-b617-fb4749bb3ed6.xml, FltDeleteInstanceContext, FltDeleteInstanceContext function [Installable File System Drivers], fltkernel/FltDeleteInstanceContext, ifsk.fltdeleteinstancecontext
-f1_keywords:
- - "fltkernel/FltDeleteInstanceContext"
- - "FltDeleteInstanceContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltDeleteInstanceContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltDeleteInstanceContext
+ - fltkernel/FltDeleteInstanceContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltDeleteInstanceContext
 ---
 
 # FltDeleteInstanceContext function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
-<b>FltDeleteInstanceContext</b> removes a context from a given instance and marks the context for deletion. 
-
+<b>FltDeleteInstanceContext</b> removes a context from a given instance and marks the context for deletion.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the instance.
 
+### -param OldContext 
 
-### -param Instance [in]
-
-Opaque instance pointer for the instance. 
-
-
-### -param OldContext [out]
-
-Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to release this context when it is no longer needed. 
-
+[out]
+Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to release this context when it is no longer needed.
 
 ## -returns
-
-
 
 <b>FltDeleteInstanceContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -100,14 +93,8 @@ No matching context was found. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as <b>FltDeleteInstanceContext</b> to explicitly delete a context. 
 
@@ -117,15 +104,9 @@ To allocate a new context, call <a href="https://docs.microsoft.com/windows-hard
 
 To get an instance context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstancecontext">FltGetInstanceContext</a>. 
 
-To set an instance context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a>. 
-
-
-
+To set an instance context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
@@ -144,7 +125,4 @@ To set an instance context, call <a href="https://docs.microsoft.com/windows-har
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinstancecontext">FltSetInstanceContext</a>
- 
-
- 
 

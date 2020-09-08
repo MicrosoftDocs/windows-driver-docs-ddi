@@ -8,38 +8,38 @@ ms.assetid: A08294EC-7A1B-4A2D-A425-D19ABDCB9DCA
 ms.date: 02/24/2018
 keywords: ["GET_VIRTUAL_DEVICE_LOCATION callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_LOCATION, GetLocation, GetLocation routine, PCI.getlocation, wdm/GetLocation
-f1_keywords:
- - "wdm/GetLocation"
- - "GetLocation"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows Server.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- GetLocation
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
+f1_keywords:
+ - GET_VIRTUAL_DEVICE_LOCATION
+ - wdm/GET_VIRTUAL_DEVICE_LOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - GetLocation
 ---
 
 # GET_VIRTUAL_DEVICE_LOCATION callback
@@ -47,64 +47,36 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
-
-
-## -prototype
-
-
-```cpp
-GET_VIRTUAL_DEVICE_LOCATION GetLocation;
-
-NTSTATUS GetLocation(
-  _Inout_ PVOID   Context,
-  _In_    USHORT  VirtualFunction,
-  _Out_   PUINT16 SegmentNumber,
-  _Out_   PUINT8  BusNumber,
-  _Out_   PUINT8  FunctionNumber
-)
-{ ... }
-```
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in, out]
-
+[in, out]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
+### -param VirtualFunction 
 
-### -param VirtualFunction [in]
-
+[in]
 A zero-based value that specifies the VF on the device for  which the device location is returned
 
+### -param SegmentNumber 
 
-### -param SegmentNumber [out]
-
+[out]
 A pointer to a caller-supplied variable in which this routine returns a UINT16 value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
 
+### -param BusNumber 
 
-
-
-### -param BusNumber [out]
-
+[out]
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value. This value specifies the current PCI bus number on which the device is attached.
 
+### -param FunctionNumber 
 
-
-
-### -param FunctionNumber [out]
-
+[out]
 A pointer to a caller-supplied variable in which this routine returns a UINT8 value.  This value contains the function number for the specified VF on the PCI bus.
 
-
 ## -returns
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns one of the following NTSTATUS values:
 
@@ -136,14 +108,23 @@ The <i>VirtualFunction</i> parameter is larger than the value of the <b>TotalVFs
 </td>
 </tr>
 </table>
- 
 
+## -prototype
 
+```cpp
+GET_VIRTUAL_DEVICE_LOCATION GetLocation;
 
+NTSTATUS GetLocation(
+  _Inout_ PVOID   Context,
+  _In_    USHORT  VirtualFunction,
+  _Out_   PUINT16 SegmentNumber,
+  _Out_   PUINT8  BusNumber,
+  _Out_   PUINT8  FunctionNumber
+)
+{ ... }
+```
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns the current device location of a VF  in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
 
@@ -153,8 +134,6 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 <div class="alert"><b>Important</b>  The PCI bus number on which the VF is located can change. We do not recommend that drivers store the device location for a VF in nonvolatile storage such as the registry.</div>
 <div> </div>
-
-
 
 ## -see-also
 
@@ -167,11 +146,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 
 <b></b>
-
-
-
- 
-
- 
-
 

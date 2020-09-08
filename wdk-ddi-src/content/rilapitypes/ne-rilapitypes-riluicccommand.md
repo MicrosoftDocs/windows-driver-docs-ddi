@@ -8,9 +8,6 @@ ms.assetid: 1c2ded31-9d2d-46e4-a23f-a48528fd448f
 ms.date: 05/02/2018
 keywords: ["RILUICCCOMMAND enumeration"]
 ms.keywords: RILUICCCOMMAND, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], RIL_UICCCMD_MAX, RIL_UICCCMD_READRECORD, RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand, ntddrilapitypes/RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_MAX, ntddrilapitypes/RIL_UICCCMD_READRECORD, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD
-f1_keywords:
- - "rilapitypes/RILUICCCOMMAND"
- - "RILUICCCOMMAND"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,44 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCCOMMAND
 targetos: Windows
 req.typenames: RILUICCCOMMAND
+f1_keywords:
+ - RILUICCCOMMAND
+ - rilapitypes/RILUICCCOMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCCOMMAND
 ---
 
-# RILUICCCOMMAND enumeration
+# RILUICCCOMMAND enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_UICCCMD_READBINARY
-
 
 ### -field RIL_UICCCMD_READRECORD
 
-
 ### -field RIL_UICCCMD_UPDATEBINARY
 
-
 ### -field RIL_UICCCMD_UPDATERECORD
-
 
 ### -field RIL_UICCCMD_MAX
 

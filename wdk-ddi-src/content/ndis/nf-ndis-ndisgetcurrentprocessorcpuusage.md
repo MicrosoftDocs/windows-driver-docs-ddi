@@ -8,9 +8,6 @@ ms.assetid: 03f1559c-83a7-478c-a616-ebe6002cb724
 ms.date: 05/02/2018
 keywords: ["NdisGetCurrentProcessorCpuUsage function"]
 ms.keywords: NdisGetCurrentProcessorCpuUsage, NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCpuUsage, ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, netvista.ndisgetcurrentprocessorcpuusage
-f1_keywords:
- - "ndis/NdisGetCurrentProcessorCpuUsage"
- - "NdisGetCurrentProcessorCpuUsage"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetCurrentProcessorCpuUsage
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetCurrentProcessorCpuUsage
+ - ndis/NdisGetCurrentProcessorCpuUsage
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetCurrentProcessorCpuUsage
 ---
 
 # NdisGetCurrentProcessorCpuUsage function
 
 
 ## -description
-
 
 The 
   <b>NdisGetCurrentProcessorCpuUsage</b> function returns the  average amount of activity on the current processor since boot as a
@@ -55,32 +54,18 @@ The
 
 ## -parameters
 
+### -param pCpuUsage 
 
-
-
-### -param pCpuUsage [out]
-
+[out]
 A pointer to a caller-supplied variable that receives the average usage of the current processor since boot, expressed as a percentage.
 
-
 ## -remarks
-
-
 
 The <b>NdisGetCurrentProcessorCpuUsage</b> function returns the average amount of activity on the current processor since the last boot, not the current usage level. This information is not particularly useful. Therefore, we recommend that you don't use <b>NdisGetCurrentProcessorCpuUsage</b> in your driver.
 
 As an alternative, you can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetcurrentprocessorcounts">NdisGetCurrentProcessorCounts</a> to see whether the processor is currently loaded.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetcurrentprocessorcounts">NdisGetCurrentProcessorCounts</a>
- 
-
- 
 

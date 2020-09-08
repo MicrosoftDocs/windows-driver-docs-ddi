@@ -8,9 +8,6 @@ ms.assetid: D2F7C90E-BAF4-419D-94CF-5FC39E7B6A58
 ms.date: 02/15/2018
 keywords: ["GNSS_NI_RESPONSE structure"]
 ms.keywords: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnss.gnss_ni_response, gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE"
-f1_keywords:
- - "gnssdriver/GNSS_NI_RESPONSE"
- - "GNSS_NI_RESPONSE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_NI_RESPONSE
 targetos: Windows
 req.typenames: GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE
+f1_keywords:
+ - PGNSS_NI_RESPONSE
+ - gnssdriver/PGNSS_NI_RESPONSE
+ - GNSS_NI_RESPONSE
+ - gnssdriver/GNSS_NI_RESPONSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_NI_RESPONSE
 ---
 
 # GNSS_NI_RESPONSE structure
@@ -46,29 +48,21 @@ req.typenames: GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE
 
 ## -description
 
-
 This structure contains NI request response information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
 
-
 ### -field RequestId
 
 The ID to uniquely identify the NI request.
-
 
 ### -field UserResponse
 

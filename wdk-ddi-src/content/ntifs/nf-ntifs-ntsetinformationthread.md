@@ -8,9 +8,6 @@ ms.assetid: ec67c643-bc91-4784-b5f4-09a20e8406c3
 ms.date: 04/30/2018
 keywords: ["NtSetInformationThread function"]
 ms.keywords: MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_VERY_LOW, NtSetInformationThread, ZwSetInformationThread, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, kernel.zwsetinformationthread, ntddk/NtSetInformationThread, ntddk/ZwSetInformationThread
-f1_keywords:
- - "ntifs/ZwSetInformationThread"
- - "ZwSetInformationThread"
 req.header: ntifs.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwSetInformationThread
-- NtSetInformationThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NtSetInformationThread
+ - ntifs/NtSetInformationThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwSetInformationThread
+ - NtSetInformationThread
 ---
 
 # NtSetInformationThread function
@@ -47,27 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>NtSetInformationThread</b> routine sets the priority of a thread.
-
 
 ## -parameters
 
+### -param ThreadHandle 
 
-
-
-### -param ThreadHandle [in]
-
+[in]
 Handle to the thread object. To create a new thread and get a handle to it, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>. To specify the current thread, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">ZwCurrentThread</a> macro.
 
+### -param ThreadInformationClass 
 
-### -param ThreadInformationClass [in]
-
+[in]
 One of the system-defined values in the THREADINFOCLASS enumeration (see ntddk.h), <b>ThreadPriority</b>,   <b>ThreadBasePriority</b>,  <b>ThreadPagePriority</b>, or <b>ThreadPowerThrottlingState</b>.
 
+### -param ThreadInformation 
 
-### -param ThreadInformation [in]
-
+[in]
 Pointer to a variable that specifies the information to set. 
 
 If <b>ThreadInformationClass</b> is <b>ThreadPriority</b>, this value must be > LOW_PRIORITY and <= HIGH_PRIORITY. 
@@ -139,26 +135,17 @@ Normal memory priority. This is the default priority for all threads and process
 </td>
 </tr>
 </table>
- 
 
+### -param ThreadInformationLength 
 
-### -param ThreadInformationLength [in]
-
-The size, in bytes, of <b>ThreadInformation</b>. 
-
+[in]
+The size, in bytes, of <b>ThreadInformation</b>.
 
 ## -returns
 
-
-
 <b>NtSetInformationThread</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error codes include STATUS_INFO_LENGTH_MISMATCH or STATUS_INVALID_PARAMETER.
 
-
-
-
 ## -remarks
-
-
 
 <b>NtSetInformationThread</b> can be called by higher-level drivers to set the priority of a thread for which they have a handle.
 
@@ -176,13 +163,7 @@ To determine the page priority for a thread, call <a href="https://docs.microsof
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetbaseprioritythread">KeSetBasePriorityThread</a>
 
@@ -197,7 +178,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
- 
-
- 
 

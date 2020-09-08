@@ -8,9 +8,6 @@ ms.assetid: 45450486-3264-4fc8-8051-f7c48997e3dd
 ms.date: 03/29/2018
 keywords: ["StorPortAllocateMdl function"]
 ms.keywords: StorPortAllocateMdl, StorPortAllocateMdl routine [Storage Devices], storage.storportallocatemdl, storport/StorPortAllocateMdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml
-f1_keywords:
- - "storport/StorPortAllocateMdl"
- - "StorPortAllocateMdl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortAllocateMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortAllocateMdl
+ - storport/StorPortAllocateMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortAllocateMdl
 ---
 
 # StorPortAllocateMdl function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortAllocateMdl</b> routine allocates an MDL to describe the given non-paged pool memory.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param BufferPointer 
 
-### -param BufferPointer [in]
-
+[in]
 A pointer to the base virtual address of the buffer that the MDL is to describe.
 
+### -param NumberOfBytes 
 
-### -param NumberOfBytes [in]
-
+[in]
 This parameter specifies the length, in bytes, of the buffer that the MDL is to describe.
 
+### -param Mdl 
 
-### -param Mdl [out]
-
+[out]
 A pointer to receive the allocated MDL.
 
-
 ## -returns
-
-
 
 StorPortAllocateMdl returns one of the following status codes:
 
@@ -144,16 +137,8 @@ Unable to allocate MDL to describe the given buffer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A miniport driver calls the <b>StorPortAllocateMdl</b> routine to allocate an MDL to describe a block of memory from the non-paged pool. To free the MDL, the miniport driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreemdl">StorPortFreeMdl</a> routine.
-
-
 

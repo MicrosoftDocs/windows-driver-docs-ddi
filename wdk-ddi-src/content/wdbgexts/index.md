@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: debugger
+f1_keywords:
+ - wdbgexts
+ - wdbgexts/wdbgexts
 ---
 
 # Wdbgexts.h header
@@ -16,7 +19,7 @@ tech.root: debugger
 
 ## -description
 
-
 This header is used by debugger. For more information, see:
 
 - [Debugger](../_debugger/index.md)
+

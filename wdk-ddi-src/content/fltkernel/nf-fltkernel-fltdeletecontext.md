@@ -8,9 +8,6 @@ ms.assetid: 1cdb0747-7616-414b-8287-1ef73637ed05
 ms.date: 04/16/2018
 keywords: ["FltDeleteContext function"]
 ms.keywords: FltApiRef_a_to_d_d4c075e6-7a69-4d2f-9017-eccbf55eb9e0.xml, FltDeleteContext, FltDeleteContext function [Installable File System Drivers], fltkernel/FltDeleteContext, ifsk.fltdeletecontext
-f1_keywords:
- - "fltkernel/FltDeleteContext"
- - "FltDeleteContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltDeleteContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltDeleteContext
+ - fltkernel/FltDeleteContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltDeleteContext
 ---
 
 # FltDeleteContext function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
-<b>FltDeleteContext</b> marks a specified context for deletion. 
-
+<b>FltDeleteContext</b> marks a specified context for deletion.
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
-A pointer to the context to delete. This parameter is required and cannot be <b>NULL</b>. 
-
+[in]
+A pointer to the context to delete. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
 
-
-
-None. 
-
-
-
+None.
 
 ## -remarks
-
-
 
 Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine, such as <b>FltDeleteContext</b>, to explicitly delete a context. 
 
@@ -188,13 +176,7 @@ To decrement the reference count on a context, call <a href="https://docs.micros
 
 A section context, FLT_SECTION_CONTEXT type, must not be deleted using <b>FltDeleteContext</b>. Instead, use  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to deallocate a section context.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
@@ -233,7 +215,4 @@ A section context, FLT_SECTION_CONTEXT type, must not be deleted using <b>FltDel
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
- 
-
- 
 

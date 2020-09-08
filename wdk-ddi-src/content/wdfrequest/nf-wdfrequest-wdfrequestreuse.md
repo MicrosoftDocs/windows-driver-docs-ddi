@@ -8,9 +8,6 @@ ms.assetid: 3d649cc5-6512-432c-9bd9-60e18507a873
 ms.date: 02/26/2018
 keywords: ["WdfRequestReuse function"]
 ms.keywords: DFRequestObjectRef_8815216b-4632-4cc8-8afd-c4b1412ddbad.xml, WdfRequestReuse, WdfRequestReuse method, kmdf.wdfrequestreuse, wdf.wdfrequestreuse, wdfrequest/WdfRequestReuse
-f1_keywords:
- - "wdfrequest/WdfRequestReuse"
- - "WdfRequestReuse"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestReuse
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestReuse
+ - wdfrequest/WdfRequestReuse
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestReuse
 ---
 
 # WdfRequestReuse function
@@ -49,30 +49,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestReuse</b> method reinitializes a framework request object so that it can be reused.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
+### -param ReuseParams 
 
-### -param ReuseParams [in]
-
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
-
 ## -returns
-
-
 
 <b>WdfRequestReuse</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -108,12 +101,7 @@ The driver supplied an IRP in the <a href="https://docs.microsoft.com/windows-ha
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 A framework-based driver can reuse framework request objects that it created by previous calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcreate">WdfRequestCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestcreatefromirp">WdfRequestCreateFromIrp</a>. Drivers can also reuse request objects that they have <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/receiving-i-o-requests">received from the framework</a>, but they cannot set the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_reuse_flags">WDF_REQUEST_REUSE_SET_NEW_IRP</a> flag for those request objects.
 
@@ -158,12 +146,7 @@ MyRequestCompletionRoutine(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a>
 
@@ -186,7 +169,4 @@ MyRequestCompletionRoutine(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsetcompletionroutine">WdfRequestSetCompletionRoutine</a>
- 
-
- 
 

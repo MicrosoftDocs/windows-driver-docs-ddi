@@ -8,9 +8,6 @@ ms.assetid: 007E0DDE-0BD1-499D-A6C6-446644BBCE00
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ASYNC_WRITE structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_WRITE, IEEE.irb_req_async_write, IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE structure [Buses], _IRB_REQ_ASYNC_WRITE
-f1_keywords:
- - "1394/IRB_REQ_ASYNC_WRITE"
- - "IRB_REQ_ASYNC_WRITE"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ASYNC_WRITE
 targetos: Windows
 req.typenames: IRB_REQ_ASYNC_WRITE
+f1_keywords:
+ - _IRB_REQ_ASYNC_WRITE
+ - 1394/_IRB_REQ_ASYNC_WRITE
+ - IRB_REQ_ASYNC_WRITE
+ - 1394/IRB_REQ_ASYNC_WRITE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ASYNC_WRITE
 ---
 
 # _IRB_REQ_ASYNC_WRITE structure
@@ -46,24 +48,17 @@ req.typenames: IRB_REQ_ASYNC_WRITE
 
 ## -description
 
-
 This structure contains the fields necessary for the 1394 stack to carry out an asynchronous write request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DestinationAddress
 
 Specifies the 1394 64-bit destination address for this write operation. The driver only must fill in the <b>IA_Destination_Offset</b> member of <b>u.AsyncWrite.DestinationAddress</b>; the bus driver fills in the <b>IA_Destination_ID</b> member. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_io_address">IO_ADDRESS</a> for the structure description.
 
-
 ### -field nNumberOfBytesToWrite
 
 Specifies the number of bytes to write to the 1394 node.
-
 
 ### -field nBlockSize
 
@@ -123,36 +118,29 @@ Broadcast to all nodes on the bus.
 
 Use the bitwise operator OR to combine the settings.
 
-
 ### -field Mdl
 
 Points to an MDL that describes the device driver's buffer, which receives data from the 1394 node.
 
-
 ### -field ulGeneration
 
-Specifies the bus reset generation as known by the device driver that submitted this asynchronous request. If the generation count specified does not match the actual generation of the bus, this request is returned with a status of STATUS_INVALID_GENERATION.  
-
+Specifies the bus reset generation as known by the device driver that submitted this asynchronous request. If the generation count specified does not match the actual generation of the bus, this request is returned with a status of STATUS_INVALID_GENERATION.
 
 ### -field chPriority
 
 Reserved.
 
-
 ### -field nSpeed
 
 Reserved.
-
 
 ### -field tCode
 
 Reserved.
 
-
 ### -field Reserved
 
 Reserved.
-
 
 ### -field ElapsedTime
 

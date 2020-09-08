@@ -8,9 +8,6 @@ ms.assetid: 6a178ef0-0741-4b0c-a688-cae3923135ac
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_SETSTREAMSOURCE structure"]
 ms.keywords: D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml, _D3DDDIARG_SETSTREAMSOURCE, d3dumddi/D3DDDIARG_SETSTREAMSOURCE, display.d3dddiarg_setstreamsource
-f1_keywords:
- - "d3dumddi/D3DDDIARG_SETSTREAMSOURCE"
- - "D3DDDIARG_SETSTREAMSOURCE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDIARG_SETSTREAMSOURCE
 targetos: Windows
 req.typenames: D3DDDIARG_SETSTREAMSOURCE
+f1_keywords:
+ - _D3DDDIARG_SETSTREAMSOURCE
+ - d3dumddi/_D3DDDIARG_SETSTREAMSOURCE
+ - D3DDDIARG_SETSTREAMSOURCE
+ - d3dumddi/D3DDDIARG_SETSTREAMSOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDIARG_SETSTREAMSOURCE
 ---
 
 # _D3DDDIARG_SETSTREAMSOURCE structure
@@ -46,31 +48,23 @@ req.typenames: D3DDDIARG_SETSTREAMSOURCE
 
 ## -description
 
-
-The D3DDDIARG_SETSTREAMSOURCE structure describes the portion of the vertex stream to bind to a vertex buffer. 
-
+The D3DDDIARG_SETSTREAMSOURCE structure describes the portion of the vertex stream to bind to a vertex buffer.
 
 ## -struct-fields
-
-
-
 
 ### -field Stream
 
 [in] The stream to bind, which is a value between zero and the maximum number of streams that are specified by the driver.
 
-
 ### -field hVertexBuffer
 
 [in] A handle to the vertex buffer. If this member is zero, the stream should no longer be bound to a vertex buffer.
-
 
 ### -field Offset
 
 [in] The offset in bytes into the stream. 
 
 The <b>Offset</b> value must be DWORD-aligned.
-
 
 ### -field Stride
 
@@ -80,14 +74,7 @@ For example, an application might use two input source streams where the first s
 
 The <b>Stride</b> value must be DWORD-aligned.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsource">SetStreamSource</a>
- 
-
- 
 

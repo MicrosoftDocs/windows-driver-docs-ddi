@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/Unlock"
- - "Unlock"
+ - PFND3DDDI_UNLOCK
+ - d3dumddi/PFND3DDDI_UNLOCK
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_UNLOCK callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
 ms.date: 03/29/2018
 keywords: ["UFS_ATTRIBUTES_DESCRIPTOR enumeration"]
 ms.keywords: UFS_ATTRIBUTES_DESCRIPTOR, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_Obsolete, UFS_Reserved01, UFS_Reserved02, UFS_Reserved03, UFS_bActiveICCLevel, UFS_bBackgroundOpStatus, UFS_bBootLunEn, UFS_bConfigDescrLock, UFS_bCurrentPowerMode, UFS_bDeviceFFUStatus, UFS_bMaxDataInSize, UFS_bMaxDataOutSize, UFS_bMaxNumOfRTT, UFS_bOutOfOrderDataEn, UFS_bPSAState, UFS_bPurgeStatus, UFS_bRefClkFreq, UFS_dDynCapNeeded, UFS_dPSADataSize, UFS_dSecondsPassed, UFS_wContextConf, UFS_wExceptionEventControl, UFS_wExceptionEventStatus, storage.ufs_attributes_descriptor, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_Obsolete, ufs/UFS_Reserved01, ufs/UFS_Reserved02, ufs/UFS_Reserved03, ufs/UFS_bActiveICCLevel, ufs/UFS_bBackgroundOpStatus, ufs/UFS_bBootLunEn, ufs/UFS_bConfigDescrLock, ufs/UFS_bCurrentPowerMode, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bMaxDataInSize, ufs/UFS_bMaxDataOutSize, ufs/UFS_bMaxNumOfRTT, ufs/UFS_bOutOfOrderDataEn, ufs/UFS_bPSAState, ufs/UFS_bPurgeStatus, ufs/UFS_bRefClkFreq, ufs/UFS_dDynCapNeeded, ufs/UFS_dPSADataSize, ufs/UFS_dSecondsPassed, ufs/UFS_wContextConf, ufs/UFS_wExceptionEventControl, ufs/UFS_wExceptionEventStatus
-f1_keywords:
- - "ufs/UFS_ATTRIBUTES_DESCRIPTOR"
- - "UFS_ATTRIBUTES_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ufs.h
-api_name:
-- UFS_ATTRIBUTES_DESCRIPTOR
 targetos: Windows
 req.typenames: UFS_ATTRIBUTES_DESCRIPTOR
+f1_keywords:
+ - UFS_ATTRIBUTES_DESCRIPTOR
+ - ufs/UFS_ATTRIBUTES_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ufs.h
+api_name:
+ - UFS_ATTRIBUTES_DESCRIPTOR
 ---
 
 # UFS_ATTRIBUTES_DESCRIPTOR enumeration
@@ -46,24 +46,17 @@ req.typenames: UFS_ATTRIBUTES_DESCRIPTOR
 
 ## -description
 
-
 <b>UFS_ATTRIBUTES_DESCRIPTOR</b> describes the different types of attributes used by Universal Flash Storage (UFS) descriptors.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UFS_bBootLunEn
 
 Indicates if the Boot Logical Unit Number(LUN) is enabled.
 
-
 ### -field UFS_Reserved01
 
 Reserved for future use.
-
 
 ### -field UFS_bCurrentPowerMode
 
@@ -107,8 +100,6 @@ Indicates the current power mode. Contains one of the following values:
 <td>Reserved for future use.</td>
 </tr>
 </table>
- 
-
 
 ### -field UFS_bActiveICCLevel
 
@@ -116,12 +107,10 @@ Specifies the maximum
 current consumption allowed during
 Active Mode. Value ranges from 0x00 to 0x0F.
 
-
 ### -field UFS_bOutOfOrderDataEn
 
 Specifies if out-of-order data transfer is
 enabled
-
 
 ### -field UFS_bBackgroundOpStatus
 
@@ -149,13 +138,10 @@ Specifies if the device has a need for background operations. Contains one of th
 <td>Device has a critical need of background operations. </td>
 </tr>
 </table>
- 
-
 
 ### -field UFS_bPurgeStatus
 
 Specifies the current purge operation's status.
-
 
 ### -field UFS_bMaxDataInSize
 
@@ -163,18 +149,15 @@ Specifies the maximum data size in a DATA IN UFS Protocol Information Units (UPI
 host only when all logical unit task queues are
 empty.
 
-
 ### -field UFS_bMaxDataOutSize
 
 Specifies the maximum data-out size. This parameter can be written by the
 host only when all logical unit task queues are
 empty.
 
-
 ### -field UFS_dDynCapNeeded
 
 Specifies the dynamic capacity need.
-
 
 ### -field UFS_bRefClkFreq
 
@@ -202,19 +185,15 @@ Specifies the reference clock frequency value.
 <td>52 MHz</td>
 </tr>
 </table>
- 
-
 
 ### -field UFS_bConfigDescrLock
 
 Specifies if the configuration descriptor is locked.
 
-
 ### -field UFS_bMaxNumOfRTT
 
 Defines the current maximum number of outstanding READY TO TRANSFER UPIU’s (RTT's) that are
 allowed. This value can be set by the host.
-
 
 ### -field UFS_wExceptionEventControl
 
@@ -222,7 +201,6 @@ Specifies the Exception Event Controller. <b>UFS_wExceptionEventControl</b> enab
 <b>EVENT_ALERT</b> bit in the Device
 Information field, which is contained in
 the RESPONSE UPIU.
-
 
 ### -field UFS_wExceptionEventStatus
 
@@ -253,33 +231,26 @@ relevant event has occurred
 <td>Reserved.</td>
 </tr>
 </table>
- 
-
 
 ### -field UFS_dSecondsPassed
 
 Specifies the time passed in seconds.
 
-
 ### -field UFS_wContextConf
 
 Specifies the context attribute.
-
 
 ### -field UFS_Obsolete
 
 Obselete
 
-
 ### -field UFS_Reserved02
 
 Reserved for future use.
 
-
 ### -field UFS_Reserved03
 
 Reserved for future use.
-
 
 ### -field UFS_bDeviceFFUStatus
 
@@ -319,8 +290,6 @@ Specifies the Device Field Firmware Update (FFU) status.
 <td>General Error.</td>
 </tr>
 </table>
- 
-
 
 ### -field UFS_bPSAState
 
@@ -361,8 +330,6 @@ is locked after it is in
 ‘Soldered’ state.</td>
 </tr>
 </table>
- 
-
 
 ### -field UFS_dPSADataSize
 
@@ -370,10 +337,7 @@ Specifies the amount of data that the host plans
 to load to all logical units with
 <b>bPSASensitive</b> set to 1.
 
-
 ## -remarks
-
-
 
 <b>UFS_bCurrentPowerMode</b> is the only attribute the device is required to return in any power mode. If the device
 is not in Active power mode or Idle power mode, a <b>QUERY REQUEST UPIU</b> to access descriptors, flags, or attributes other than <b>bCurrentPowerMode</b> may fail.
@@ -381,15 +345,9 @@ is not in Active power mode or Idle power mode, a <b>QUERY REQUEST UPIU</b> to a
 <b>UFS_bDeviceFFUStatu</b>s value is kept after power cycle, hardware reset or any other type of reset. This attribute may change value when a
 microcode activation event occurs.
 
-<b>UFS_bMaxDataInSize</b> is equal to <b>bMaxInBufferSize</b> when a UFS device is shipped. 
-
-
-
+<b>UFS_bMaxDataInSize</b> is equal to <b>bMaxInBufferSize</b> when a UFS device is shipped.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor">UFS_CONFIG_DESCRIPTOR</a>
 
@@ -428,7 +386,4 @@ microcode activation event occurs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_descriptor">UFS_UNIT_DESCRIPTOR</a>
- 
-
- 
 

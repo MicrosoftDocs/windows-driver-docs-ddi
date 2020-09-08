@@ -8,9 +8,6 @@ ms.assetid: D778E6B6-B245-41D5-B25B-1CF183146BA9
 ms.date: 05/07/2018
 keywords: ["UcmConnectorTypeCAttach function"]
 ms.keywords: UcmConnectorTypeCAttach, UcmConnectorTypeCAttach method [Buses], buses.ucmconnectortypecattach, ucmmanager/UcmConnectorTypeCAttach
-f1_keywords:
- - "ucmmanager/UcmConnectorTypeCAttach"
- - "UcmConnectorTypeCAttach"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UcmCxstub.lib
-- UcmCxstub.dll
-api_name:
-- UcmConnectorTypeCAttach
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcmConnectorTypeCAttach
+ - ucmmanager/UcmConnectorTypeCAttach
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UcmCxstub.lib
+ - UcmCxstub.dll
+api_name:
+ - UcmConnectorTypeCAttach
 ---
 
 # UcmConnectorTypeCAttach function
@@ -47,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 Notifies the USB connector manager framework extension (UcmCx) when a partner connector is attached.
-
 
 ## -parameters
 
+### -param Connector 
 
-
-
-### -param Connector [in]
-
+[in]
 Handle to the connector object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
+### -param Params 
 
-### -param Params [in]
-
+[in]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_attach_params">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a> that has been initialized by  calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_connector_typec_attach_params_init">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>.
-
 
 ## -returns
 
-
-
-<b>UcmConnectorTypeCAttach</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value. 
-
-
-
+<b>UcmConnectorTypeCAttach</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value.
 
 ## -remarks
-
-
 
 When a connection to a partner connector is detected, the client driver calls this method to notify UcmCx with information about the partner connector. That information includes the connector role, down stream or upstream facing port, the amount of current connector can draw or deliver, and charging state. UcmCx uses that information to perform certain operations. For example, it may determine the role of the partner connector attached, and configure the USB controller in host or peripheral mode.
 
@@ -117,12 +105,7 @@ Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_typec_attach_params">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</a>
 
@@ -133,7 +116,4 @@ Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
- 
-
- 
 

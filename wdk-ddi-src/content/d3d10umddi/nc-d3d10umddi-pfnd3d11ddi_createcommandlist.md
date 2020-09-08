@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CreateCommandList"
- - "CreateCommandList"
+ - PFND3D11DDI_CREATECOMMANDLIST
+ - d3d10umddi/PFND3D11DDI_CREATECOMMANDLIST
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D11DDI_CREATECOMMANDLIST callback function
+
 
 ## -description
 

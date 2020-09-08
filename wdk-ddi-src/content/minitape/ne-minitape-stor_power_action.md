@@ -8,9 +8,6 @@ ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.date: 03/29/2018
 keywords: ["STOR_POWER_ACTION enumeration"]
 ms.keywords: "*PSTOR_POWER_ACTION, PSTOR_POWER_ACTION, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], STOR_POWER_ACTION, STOR_POWER_ACTION enumeration [Storage Devices], StorPowerActionHibernate, StorPowerActionNone, StorPowerActionReserved, StorPowerActionShutdown, StorPowerActionShutdownOff, StorPowerActionShutdownReset, StorPowerActionSleep, StorPowerActionWarmEject, storage.stor_power_action, storport/PSTOR_POWER_ACTION, storport/STOR_POWER_ACTION, storport/StorPowerActionHibernate, storport/StorPowerActionNone, storport/StorPowerActionReserved, storport/StorPowerActionShutdown, storport/StorPowerActionShutdownOff, storport/StorPowerActionShutdownReset, storport/StorPowerActionSleep, storport/StorPowerActionWarmEject, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml"
-f1_keywords:
- - "minitape/STOR_POWER_ACTION"
- - "STOR_POWER_ACTION"
 req.header: minitape.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
@@ -28,80 +25,66 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- STOR_POWER_ACTION
 targetos: Windows
 req.typenames: STOR_POWER_ACTION, *PSTOR_POWER_ACTION
+f1_keywords:
+ - PSTOR_POWER_ACTION
+ - minitape/PSTOR_POWER_ACTION
+ - STOR_POWER_ACTION
+ - minitape/STOR_POWER_ACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - STOR_POWER_ACTION
 ---
 
-# STOR_POWER_ACTION enumeration
+# STOR_POWER_ACTION enumeration (minitape.h)
 
 
 ## -description
 
-
-The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. 
-
+The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
 
 ## -enum-fields
-
-
-
 
 ### -field StorPowerActionNone
 
 No system shutdown is about to occur.
 
-
 ### -field StorPowerActionReserved
 
 Reserved.
-
 
 ### -field StorPowerActionSleep
 
 The system is entering standby.
 
-
 ### -field StorPowerActionHibernate
 
 The system is entering hibernation.
-
 
 ### -field StorPowerActionShutdown
 
 The system is shutting down, but the type of shutdown is not known.
 
-
 ### -field StorPowerActionShutdownReset
 
 The system is shutting down and resetting.
-
 
 ### -field StorPowerActionShutdownOff
 
 The system is shutting down and powering off.
 
-
 ### -field StorPowerActionWarmEject
 
 The system is preparing for ejection.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_power_request_block">SCSI_POWER_REQUEST_BLOCK</a>
- 
-
- 
 

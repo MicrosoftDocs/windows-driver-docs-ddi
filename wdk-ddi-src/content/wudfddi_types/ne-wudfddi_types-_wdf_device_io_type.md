@@ -8,9 +8,6 @@ ms.assetid: 52733647-d577-4507-a5ad-5f56f3a9f8a2
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_IO_TYPE enumeration"]
 ms.keywords: "*PWDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE, PWDF_DEVICE_IO_TYPE enumeration pointer, WDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE enumeration, WdfDeviceIoBuffered, WdfDeviceIoBufferedOrDirect, WdfDeviceIoDirect, WdfDeviceIoMaximum, WdfDeviceIoNeither, WdfDeviceIoUndefined, _WDF_DEVICE_IO_TYPE, umdf.wdf_device_io_type__umdf_, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, wdf.wdf_device_io_type__umdf_, wudfddi_types/PWDF_DEVICE_IO_TYPE, wudfddi_types/WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBuffered, wudfddi_types/WdfDeviceIoBufferedOrDirect, wudfddi_types/WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoMaximum, wudfddi_types/WdfDeviceIoNeither, wudfddi_types/WdfDeviceIoUndefined"
-f1_keywords:
- - "wudfddi_types/WDF_DEVICE_IO_TYPE"
- - "WDF_DEVICE_IO_TYPE"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
 req.target-type: Windows
@@ -28,69 +25,63 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wudfddi_types.h
-api_name:
-- WDF_DEVICE_IO_TYPE
 targetos: Windows
 req.typenames: WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE
+f1_keywords:
+ - _WDF_DEVICE_IO_TYPE
+ - wudfddi_types/_WDF_DEVICE_IO_TYPE
+ - PWDF_DEVICE_IO_TYPE
+ - wudfddi_types/PWDF_DEVICE_IO_TYPE
+ - WDF_DEVICE_IO_TYPE
+ - wudfddi_types/WDF_DEVICE_IO_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wudfddi_types.h
+api_name:
+ - WDF_DEVICE_IO_TYPE
 ---
 
-# _WDF_DEVICE_IO_TYPE enumeration
+# _WDF_DEVICE_IO_TYPE enumeration (wudfddi_types.h)
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
 The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used to specify a method for <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">accessing data buffers</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WdfDeviceIoUndefined
 
 Reserved for system use.
 
-
 ### -field WdfDeviceIoNeither
 
 Reserved for system use.
-
 
 ### -field WdfDeviceIoBuffered
 
 UMDF and the driver use <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">buffered I/O</a> to access data buffers.
 
-
 ### -field WdfDeviceIoDirect
 
 UMDF and the driver use <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">direct I/O</a> to access data buffers.
 
-
 ### -field WdfDeviceIoBufferedOrDirect
 
-UMDF and the driver can use either buffered I/O or direct I/O to access data buffers. 
-
+UMDF and the driver can use either buffered I/O or direct I/O to access data buffers.
 
 ### -field WdfDeviceIoMaximum
 
 Reserved for system use.
 
-
 ## -remarks
-
-
 
 The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference">IWDFDeviceInitialize2::SetIoTypePreference</a> and as output from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-geteffectiveiotype">IWDFIoRequest2::GetEffectiveIoType</a>.
 
@@ -114,13 +105,7 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 For the KMDF version of this enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference">IWDFDeviceInitialize2::SetIoTypePreference</a>
 
@@ -131,7 +116,4 @@ For the KMDF version of this enumeration, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_device_io_buffer_retrieval">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
- 
-
- 
 

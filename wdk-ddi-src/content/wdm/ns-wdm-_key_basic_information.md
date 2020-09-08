@@ -8,9 +8,6 @@ ms.assetid: 789c60b6-a5a4-4570-bb0c-acfe1166a302
 ms.date: 04/30/2018
 keywords: ["KEY_BASIC_INFORMATION structure"]
 ms.keywords: "*PKEY_BASIC_INFORMATION, KEY_BASIC_INFORMATION, KEY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_BASIC_INFORMATION, PKEY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_BASIC_INFORMATION, kernel.key_basic_information, kstruct_c_85ec4926-6fc1-42c1-8992-dd37ee92e5cf.xml, wdm/KEY_BASIC_INFORMATION, wdm/PKEY_BASIC_INFORMATION"
-f1_keywords:
- - "wdm/KEY_BASIC_INFORMATION"
- - "KEY_BASIC_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- KEY_BASIC_INFORMATION
 targetos: Windows
 req.typenames: KEY_BASIC_INFORMATION, *PKEY_BASIC_INFORMATION
+f1_keywords:
+ - _KEY_BASIC_INFORMATION
+ - wdm/_KEY_BASIC_INFORMATION
+ - PKEY_BASIC_INFORMATION
+ - wdm/PKEY_BASIC_INFORMATION
+ - KEY_BASIC_INFORMATION
+ - wdm/KEY_BASIC_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - KEY_BASIC_INFORMATION
 ---
 
 # _KEY_BASIC_INFORMATION structure
@@ -46,48 +50,31 @@ req.typenames: KEY_BASIC_INFORMATION, *PKEY_BASIC_INFORMATION
 
 ## -description
 
-
 The <b>KEY_BASIC_INFORMATION</b> structure defines a subset of the full information that is available for a registry key.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LastWriteTime
 
 The last time this key or any of its values changed. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar.
 
-
 ### -field TitleIndex
 
 Device and intermediate drivers should ignore this member.
-
 
 ### -field NameLength
 
 The size, in bytes, of the key name string in the <b>Name</b> array.
 
-
 ### -field Name
 
 An array of wide characters that contains the name of the registry key. This character string is <u>not</u> null-terminated. Only the first element in this array is included in the <b>KEY_BASIC_INFORMATION</b> structure definition. The storage for the remaining elements in the array immediately follows this element.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a> routines use the <b>KEY_BASIC_INFORMATION</b> structure to contain the basic information for a registry key. When the <i>KeyInformationClass</i> parameter of either routine is <b>KeyBasicInformation</b>, the <i>KeyInformation</i> buffer is treated as a <b>KEY_BASIC_INFORMATION</b> structure.  For more information about the <b>KeyBasicInformation</b> enumeration value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_information_class">KEY_INFORMATION_CLASS</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_key_cached_information">KEY_CACHED_INFORMATION</a>
 
@@ -118,7 +105,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwquerykey">ZwQueryKey</a>
- 
-
- 
 

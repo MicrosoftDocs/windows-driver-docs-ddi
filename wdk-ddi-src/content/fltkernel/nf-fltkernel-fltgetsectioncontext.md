@@ -8,9 +8,6 @@ ms.assetid: 0B5C1BF9-59C3-4AC9-B545-FD7260B75E90
 ms.date: 04/16/2018
 keywords: ["FltGetSectionContext function"]
 ms.keywords: FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], fltkernel/FltGetSectionContext, ifsk.fltgetsectioncontext
-f1_keywords:
- - "fltkernel/FltGetSectionContext"
- - "FltGetSectionContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetSectionContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetSectionContext
+ - fltkernel/FltGetSectionContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetSectionContext
 ---
 
 # FltGetSectionContext function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetSectionContext</b> routine retrieves a section context that was created for a file stream by a specified minifilter driver instance. 
-
+The <b>FltGetSectionContext</b> routine retrieves a section context that was created for a file stream by a specified minifilter driver instance.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+An opaque instance pointer for the minifilter driver instance whose context is to be retrieved.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in]
+A pointer to a file object for the stream.
 
-An opaque instance pointer for the minifilter driver instance whose context is to be retrieved. 
+### -param Context 
 
-
-### -param FileObject [in]
-
-A pointer to a file object for the stream. 
-
-
-### -param Context [out]
-
-A pointer to a caller-allocated variable that receives the address of the context. 
-
+[out]
+A pointer to a caller-allocated variable that receives the address of the context.
 
 ## -returns
-
-
 
 <b>FltGetSectionContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following. 
 
@@ -104,14 +97,8 @@ The volume attached to this instance does not support section contexts. This is 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltGetSectionContext</b> retrieves a section context that was created for a file stream by a specified minifilter driver instance. A section context is created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatesectionfordatascan">FltCreateSectionForDataScan</a>.
 
@@ -124,12 +111,7 @@ To allocate a new context, call <a href="https://docs.microsoft.com/windows-hard
 </div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
@@ -144,7 +126,4 @@ To allocate a new context, call <a href="https://docs.microsoft.com/windows-hard
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a>
- 
-
- 
 

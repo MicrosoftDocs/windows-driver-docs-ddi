@@ -8,9 +8,6 @@ ms.assetid: e75fdfa5-2b25-4d89-b3ef-40cb445f874f
 ms.date: 04/20/2018
 keywords: ["IPrintOemUni3::SetBandSize"]
 ms.keywords: BMF_16BPP, BMF_1BPP, BMF_24BPP, BMF_32BPP, BMF_4BPP, BMF_4RLE, BMF_8BPP, BMF_8RLE, IPrintOemUni3 interface [Print Devices],SetBandSize method, IPrintOemUni3.SetBandSize, IPrintOemUni3::SetBandSize, SetBandSize, SetBandSize method [Print Devices], SetBandSize method [Print Devices],IPrintOemUni3 interface, prcomoem/IPrintOemUni3::SetBandSize, print.iprintoemuni3_setbandsize, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml
-f1_keywords:
- - "prcomoem/IPrintOemUni3.SetBandSize"
- - "IPrintOemUni3.SetBandSize"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUni3.SetBandSize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUni3::SetBandSize
+ - prcomoem/IPrintOemUni3::SetBandSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUni3.SetBandSize
 ---
 
 # IPrintOemUni3::SetBandSize
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUni3::SetBandSize</code> method can be used with Unidrv-supported printers to specify the desired band size on the printed output.
-
 
 ## -parameters
 
+### -param pdevobj 
 
-
-
-### -param pdevobj [in]
-
+[in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
+### -param iFormat 
 
-### -param iFormat [in]
-
+[in]
 An integer value that specifies the format of the bitmap in terms of the number of bits of color information per pixel that are required. This parameter can be one of the following values.
 
 <table>
@@ -150,32 +146,28 @@ Monochrome
 </td>
 </tr>
 </table>
- 
 
+### -param dwPageWidthBytes 
 
-### -param dwPageWidthBytes [in]
-
+[in]
 A Unidrv-supplied value that specifies the width of the printing area, in bytes.
 
+### -param dwPageHeight 
 
-### -param dwPageHeight [in]
-
+[in]
 A Unidrv-supplied value that specifies the height of the printing area, in pixels.
 
+### -param dwMaxHeight 
 
-### -param dwMaxHeight [in]
-
+[in]
 A Unidrv-supplied value that specifies the maximum allowable height of the printing area, in pixels.
 
+### -param pdwRequiredHeight 
 
-### -param pdwRequiredHeight [in]
-
+[in]
 A caller-supplied pointer to a DWORD that contains the height of the printing area, in pixels, required by the rendering plug-in.
 
-
 ## -returns
-
-
 
 The method must return one of the following values:
 
@@ -218,14 +210,8 @@ Unidrv should compute the banding size.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is available in Windows Vista and later.
 
@@ -236,6 +222,4 @@ You can disable banding operations by Unidrv by setting the <i>dwPageHeight</i> 
 If this method is defined and the printer's generic printer description (GPD) file indicates that preanalysis is disabled (the GPD file includes "*<b>PreAnalysisOptions</b>: 0"), Unidrv calls this method to calculate band size. For information about the <b>PreAnalysisOptions</b> attribute, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/preanalysis-infrastructure">Preanalysis Infrastructure</a>.
 
 If the rendering plug-in supports <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-driverdms">IPrintOemUni::DriverDMS</a> and that method returns S_OK, <code>IPrintOemUni3::SetBandSize</code> is not called.
-
-
 

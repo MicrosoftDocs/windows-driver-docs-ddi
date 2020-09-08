@@ -8,9 +8,6 @@ ms.assetid: 83e7d4be-df76-4dc8-a8e2-91d279127ef1
 ms.date: 04/30/2018
 keywords: ["MmSizeOfMdl function"]
 ms.keywords: MmSizeOfMdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, kernel.mmsizeofmdl, wdm/MmSizeOfMdl
-f1_keywords:
- - "wdm/MmSizeOfMdl"
- - "MmSizeOfMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmSizeOfMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmSizeOfMdl
+ - wdm/MmSizeOfMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmSizeOfMdl
 ---
 
 # MmSizeOfMdl function
@@ -46,54 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmSizeOfMdl</b> routine returns the number of bytes to allocate for an MDL describing a given address range.
-
 
 ## -parameters
 
+### -param Base 
 
+[in]
+Pointer to the base virtual address for the range.
 
+### -param Length 
 
-### -param Base [in]
-
-Pointer to the base virtual address for the range. 
-
-
-### -param Length [in]
-
-Supplies the size, in bytes, of the range. 
-
+[in]
+Supplies the size, in bytes, of the range.
 
 ## -returns
 
-
-
-<b>MmSizeOfMdl</b> returns the number of bytes required to contain the MDL. 
-
-
-
+<b>MmSizeOfMdl</b> returns the number of bytes required to contain the MDL.
 
 ## -remarks
 
-
-
-Memory for the MDL itself must be allocated from nonpaged pool. 
-
-
-
+Memory for the MDL itself must be allocated from nonpaged pool.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">MmCreateMdl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmInitializeMdl</a>
- 
-
- 
 

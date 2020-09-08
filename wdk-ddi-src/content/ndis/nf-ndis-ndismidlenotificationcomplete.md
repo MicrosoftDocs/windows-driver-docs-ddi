@@ -8,9 +8,6 @@ ms.assetid: A6936B25-F804-4EF3-909C-7838346AC37E
 ms.date: 05/02/2018
 keywords: ["NdisMIdleNotificationComplete function"]
 ms.keywords: NdisMIdleNotificationComplete, NdisMIdleNotificationComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMIdleNotificationComplete, netvista.ndismidlenotificationcomplete
-f1_keywords:
- - "ndis/NdisMIdleNotificationComplete"
- - "NdisMIdleNotificationComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMIdleNotificationComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMIdleNotificationComplete
+ - ndis/NdisMIdleNotificationComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMIdleNotificationComplete
 ---
 
 # NdisMIdleNotificationComplete function
@@ -47,28 +47,16 @@ req.typenames:
 
 ## -description
 
-
-
 Miniport drivers call <b>NdisMIdleNotificationComplete</b> to complete a pending idle notification for an NDIS selective suspend operation. NDIS begins the operation when it calls the driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_idle_notification">MiniportIdleNotification</a> handler function.
-
-
-
 
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 The network adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
-
-
-
 ## -remarks
-
-
 
 NDIS calls the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_idle_notification">MiniportCancelIdleNotification</a> handler function to complete a pending idle notification for an NDIS selective suspend operation. Miniport drivers  call <b>NdisMIdleNotificationComplete</b> to notify NDIS that the idle notification is complete for the network adapter. NDIS then transitions the adapter to a full-power state in order to complete the selective suspend operation.
 
@@ -81,12 +69,7 @@ For more information on how miniport drivers complete NDIS selective suspend  id
 <div class="alert"><b>Note</b>  A miniport driver must not call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationconfirm">NdisMIdleNotificationConfirm</a> for a previously completed idle notification.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -105,7 +88,4 @@ For more information on how miniport drivers complete NDIS selective suspend  id
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationconfirm">NdisMIdleNotificationConfirm</a>
- 
-
- 
 

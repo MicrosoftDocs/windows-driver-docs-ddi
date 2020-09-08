@@ -34,13 +34,14 @@ api_location:
 api_name:
  - DXGKDDI_GETDISPLAYSTATEINTRUSIVE
 f1_keywords:
- - dispmprt//DXGKDDI_GETDISPLAYSTATEINTRUSIVE
  - DXGKDDI_GETDISPLAYSTATEINTRUSIVE
+ - dispmprt/DXGKDDI_GETDISPLAYSTATEINTRUSIVE
 dev_langs:
  - c++
 ---
 
 # DXGKDDI_GETDISPLAYSTATEINTRUSIVE callback function
+
 
 ## -description
 
@@ -99,3 +100,4 @@ Synchronization level for this DDI is [zero level synchronization](https://docs.
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiQueryInterface**](nc-dispmprt-dxgkddi_query_interface.md)
+

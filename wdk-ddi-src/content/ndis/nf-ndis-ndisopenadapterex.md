@@ -8,9 +8,6 @@ ms.assetid: 2dc356e6-a2ef-4b43-abe5-7c5058c15cf5
 ms.date: 05/02/2018
 keywords: ["NdisOpenAdapterEx function"]
 ms.keywords: NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenAdapterEx, netvista.ndisopenadapterex, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml
-f1_keywords:
- - "ndis/NdisOpenAdapterEx"
- - "NdisOpenAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisOpenAdapterEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisOpenAdapterEx
+ - ndis/NdisOpenAdapterEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisOpenAdapterEx
 ---
 
 # NdisOpenAdapterEx function
@@ -47,48 +47,44 @@ req.typenames:
 
 ## -description
 
-
 A protocol driver calls the
   <b>NdisOpenAdapterEx</b> function from its 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function to
   set up a binding between the protocol driver and an underlying driver.
 
-
 ## -parameters
 
+### -param NdisProtocolHandle 
 
-
-
-### -param NdisProtocolHandle [in]
-
+[in]
 The handle returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.
 
+### -param ProtocolBindingContext 
 
-### -param ProtocolBindingContext [in]
-
+[in]
 The handle for a caller-supplied context area in which the protocol driver maintains state
      information for this binding.
 
+### -param OpenParameters 
 
-### -param OpenParameters [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_open_parameters">NDIS_OPEN_PARAMETERS</a> structure that is
      set up by the caller.
 
+### -param BindContext 
 
-### -param BindContext [in]
-
+[in]
 The handle that identifies the NDIS context area for the bind operation. NDIS passed this handle
      to the 
      <i>BindContext</i> parameter of the 
      <i>ProtocolBindAdapterEx</i> function.
 
+### -param NdisBindingHandle 
 
-### -param NdisBindingHandle [out]
-
+[out]
 A pointer to a caller-supplied variable. NDIS writes a handle at 
      <i>NdisBindingHandle</i> that identifies the binding between the caller and the miniport adapter
      specified in the 
@@ -96,10 +92,7 @@ A pointer to a caller-supplied variable. NDIS writes a handle at
      <i>OpenParameters</i> . The caller uses this handle in subsequent calls to 
      <b>Ndis<i>Xxx</i></b> functions.
 
-
 ## -returns
-
-
 
 <b>NdisOpenAdapterEx</b> returns one of the following status values:
 
@@ -181,14 +174,8 @@ A pointer to a caller-supplied variable. NDIS writes a handle at
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A protocol driver must call 
     <b>NdisOpenAdapterEx</b> from its 
@@ -219,13 +206,7 @@ After the open operation completes successfully, the caller can use the value th
     <b>SelectedMediumIndex</b> member of the 
     <i>OpenParameters</i> parameter to determine how it should interact with the underlying driver.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_open_parameters">NDIS_OPEN_PARAMETERS</a>
 
@@ -241,7 +222,4 @@ After the open operation completes successfully, the caller can use the value th
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_open_adapter_complete_ex">
    ProtocolOpenAdapterCompleteEx</a>
- 
-
- 
 

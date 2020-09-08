@@ -8,9 +8,6 @@ ms.assetid: 804046ff-0cc7-4ff0-be07-b574cb40fd2b
 ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_SET_STATE callback function"]
 ms.keywords: DXGK_BRIGHTNESS_SET_STATE, DXGK_BRIGHTNESS_SET_STATE callback, DxgkDdiSetBrightnessState, DxgkDdiSetBrightnessState callback function [Display Devices], display.dxgkddisetbrightnessstate, dispmprt/DxgkDdiSetBrightnessState
-f1_keywords:
- - "dispmprt/DxgkDdiSetBrightnessState"
- - "DxgkDdiSetBrightnessState"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dispmprt.h
-api_name:
-- DxgkDdiSetBrightnessState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGK_BRIGHTNESS_SET_STATE
+ - dispmprt/DXGK_BRIGHTNESS_SET_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dispmprt.h
+api_name:
+ - DxgkDdiSetBrightnessState
 ---
 
 # DXGK_BRIGHTNESS_SET_STATE callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Enables smooth brightness control on an integrated display panel.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
+### -param BrightnessState 
 
-### -param BrightnessState [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgk_brightness_state">DXGK_BRIGHTNESS_STATE</a> structure that indicates that the display miniport driver should enable the smooth brightness control for the integrated display panel.
-
 
 ## -returns
 
-
-
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 For the operating system to be able to adjust screen brightness smoothly, starting with Windows 8 the display miniport driver must report 10 brightness levels, expressed from 0 to 100 percent. At a level of zero percent, the screen contents should be barely visible to the user. A level of 100 percent is the maximum brightness that the integrated display panel can produce. The driver and hardware can support finer brightness control for internal operations.
 
@@ -84,20 +72,11 @@ When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmp
 
 This function should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgk_brightness_set">DxgkDdiSetBrightness</a>
- 
-
- 
 

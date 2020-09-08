@@ -8,9 +8,6 @@ ms.assetid: 1d74aec3-dbc5-4494-ba52-135e3f545c1b
 ms.date: 04/16/2018
 keywords: ["FILE_MEMORY_PARTITION_INFORMATION structure"]
 ms.keywords: "*PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, wdm/FILE_MEMORY_PARTITION_INFORMATION"
-f1_keywords:
- - "wdm/FILE_MEMORY_PARTITION_INFORMATION"
- - "FILE_MEMORY_PARTITION_INFORMATION"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- FILE_MEMORY_PARTITION_INFORMATION
 targetos: Windows
 req.typenames: FILE_MEMORY_PARTITION_INFORMATION, *PFILE_MEMORY_PARTITION_INFORMATION
+f1_keywords:
+ - _FILE_MEMORY_PARTITION_INFORMATION
+ - wdm/_FILE_MEMORY_PARTITION_INFORMATION
+ - PFILE_MEMORY_PARTITION_INFORMATION
+ - wdm/PFILE_MEMORY_PARTITION_INFORMATION
+ - FILE_MEMORY_PARTITION_INFORMATION
+ - wdm/FILE_MEMORY_PARTITION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - FILE_MEMORY_PARTITION_INFORMATION
 ---
 
 # _FILE_MEMORY_PARTITION_INFORMATION structure
@@ -46,39 +50,27 @@ req.typenames: FILE_MEMORY_PARTITION_INFORMATION, *PFILE_MEMORY_PARTITION_INFORM
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Stores information about memory partition. This structure is used by the <b>ZwSetInformationFile</b> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OwnerPartitionHandle
 
 Handle to the specified partition.
 
-
 ### -field Flags
 
-
 ### -field Flags.DUMMYSTRUCTNAME
-
 
 ### -field Flags.DUMMYSTRUCTNAME.NoCrossPartitionAccess
 
 Determines whether cross-partition access is allowed.
 
-
 ### -field Flags.DUMMYSTRUCTNAME.Spare
-
- 
-
 
 ### -field Flags.AllFlags
 
-Bitwise of all flags. 
+Bitwise of all flags.
 

@@ -7,9 +7,6 @@ ms.assetid: 2e7170e8-2b77-45a7-9ff5-834452c13ddf
 ms.date: 05/10/2018
 keywords: ["PFND3D11DDI_SETSHADER_WITH_IFACES callback function"]
 ms.keywords: CsSetShaderWithIfaces, CsSetShaderWithIfaces callback function [Display Devices], PFND3D11DDI_SETSHADER_WITH_IFACES, PFND3D11DDI_SETSHADER_WITH_IFACES callback, UserModeDisplayDriverDx11_Functions_bffc7a50-c0dd-420e-b599-5fb1e223ef3c.xml, d3d10umddi/CsSetShaderWithIfaces, display.cssetshaderwithifaces
-f1_keywords:
- - "d3d10umddi/CsSetShaderWithIfaces"
- - "CsSetShaderWithIfaces"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- CsSetShaderWithIfaces
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D11DDI_SETSHADER_WITH_IFACES
+ - d3d10umddi/PFND3D11DDI_SETSHADER_WITH_IFACES
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - CsSetShaderWithIfaces
 ---
 
 # PFND3D11DDI_SETSHADER_WITH_IFACES callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
-The <b>CsSetShaderWithIfaces</b> function sets the compute shader code along with a group of interfaces so that all of the subsequent dispatching operations use that code and those interfaces. 
-
+The <b>CsSetShaderWithIfaces</b> function sets the compute shader code along with a group of interfaces so that all of the subsequent dispatching operations use that code and those interfaces.
 
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -65,26 +60,24 @@ A handle to the display device (graphics context).
 
 *hShader* [in]
 
-A handle to the compute shader code object. 
+A handle to the compute shader code object.
 
-### -param NumClassInstances [in]
+### -param NumClassInstances 
 
-The number of class instances for implementations of the interfaces. 
-
+[in]
+The number of class instances for implementations of the interfaces.
 
 ### -param Arg4
 
 *pPointerData* [in]
 
-An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_pointerdata">D3D11DDIARG_POINTERDATA</a> structures. Each structure describes the location of the data that is referenced by a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter. 
+An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_pointerdata">D3D11DDIARG_POINTERDATA</a> structures. Each structure describes the location of the data that is referenced by a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter.
 
 ### -param Arg5
 
 *pIfaces* [in]
 
-An array of function table identifiers. Each identifier corresponds to a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter. 
-
-
+An array of function table identifiers. Each identifier corresponds to a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter.
 
 ## -remarks
 
@@ -118,13 +111,7 @@ The <b>HsSetShaderWithIfaces</b> function sets the hull shader code along with a
 
 The <b>VsSetShaderWithIfaces</b> function sets the vertex shader code along with a group of interfaces so that all of the subsequent drawing operations use that code and those interfaces.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_pointerdata">D3D11DDIARG_POINTERDATA</a>
 
@@ -139,7 +126,4 @@ The <b>VsSetShaderWithIfaces</b> function sets the vertex shader code along with
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1689b6f9-88f3-456f-9a7c-c6b4e76cb336
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_OFFLOAD_SEND_COMPLETE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_SEND_COMPLETE, NDIS_TCP_OFFLOAD_SEND_COMPLETE callback, NdisTcpOffloadSendComplete, NdisTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadSendComplete, netvista.ndistcpoffloadsendcomplete, tcp_chim_ndis_func_8893982f-08b9-4963-8a52-533a8ee94cde.xml
-f1_keywords:
- - "ndischimney/NdisTcpOffloadSendComplete"
- - "NdisTcpOffloadSendComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndischimney.h
-api_name:
-- NdisTcpOffloadSendComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_TCP_OFFLOAD_SEND_COMPLETE
+ - ndischimney/NDIS_TCP_OFFLOAD_SEND_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisTcpOffloadSendComplete
 ---
 
 # NDIS_TCP_OFFLOAD_SEND_COMPLETE callback function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
@@ -54,21 +53,18 @@ An offload target calls the
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_send_handler">MiniportTcpOffloadSend</a> function of
   the offload target.
 
-
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The handle that the offload target obtained in a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function.
 
+### -param NetBufferList 
 
-### -param NetBufferList [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
@@ -76,10 +72,7 @@ A pointer to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_send_handler">
      MiniportTcpOffloadSend</a> function.
 
-
 ## -remarks
-
-
 
 To improve system performance, an offload target can create a linked list that contains 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures from multiple
@@ -148,12 +141,7 @@ Call the
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">MiniportSendNetBufferLists</a>
 
@@ -177,7 +165,4 @@ Call the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 6a026c2b-e2ed-41bf-9482-0fdc64b175f2
 ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_QUEUE_INFO_ARRAY structure"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_INFO_ARRAY, NDIS_RECEIVE_QUEUE_INFO_ARRAY, NDIS_RECEIVE_QUEUE_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_INFO_ARRAY, PNDIS_RECEIVE_QUEUE_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_INFO_ARRAY, netvista.ndis_receive_queue_info_array, ntddndis/NDIS_RECEIVE_QUEUE_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_QUEUE_INFO_ARRAY, virtual_machine_queue_ref_126f14fb-44b8-47bc-bc0d-eaa435470a6c.xml"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_QUEUE_INFO_ARRAY"
- - "NDIS_RECEIVE_QUEUE_INFO_ARRAY"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RECEIVE_QUEUE_INFO_ARRAY
 targetos: Windows
 req.typenames: NDIS_RECEIVE_QUEUE_INFO_ARRAY, *PNDIS_RECEIVE_QUEUE_INFO_ARRAY
+f1_keywords:
+ - _NDIS_RECEIVE_QUEUE_INFO_ARRAY
+ - ntddndis/_NDIS_RECEIVE_QUEUE_INFO_ARRAY
+ - PNDIS_RECEIVE_QUEUE_INFO_ARRAY
+ - ntddndis/PNDIS_RECEIVE_QUEUE_INFO_ARRAY
+ - NDIS_RECEIVE_QUEUE_INFO_ARRAY
+ - ntddndis/NDIS_RECEIVE_QUEUE_INFO_ARRAY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RECEIVE_QUEUE_INFO_ARRAY
 ---
 
 # _NDIS_RECEIVE_QUEUE_INFO_ARRAY structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_RECEIVE_QUEUE_INFO_ARRAY, *PNDIS_RECEIVE_QUEUE_INFO_ARRAY
 
 ## -description
 
-
 The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure specifies a list of receive queues on a network adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -64,7 +63,6 @@ The
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>, the 
      <b>Revision</b> member to <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY_REVISION_1</b>, and the 
      <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_INFO_ARRAY_REVISION_1</b>.
-
 
 ### -field FirstElementOffset
 
@@ -81,15 +79,11 @@ A ULONG value that specifies the offset, in bytes, to the first element in an ar
 A <b>ULONG</b> value that represents the number of elements in the list of elements that follow the
      <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure.
 
-
 ### -field ElementSize
 
 A <b>ULONG</b> value that specifies the size, in bytes, of each element in the array.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure is used in the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
@@ -98,13 +92,7 @@ The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure is used in the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_info">
     NDIS_RECEIVE_QUEUE_INFO</a> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -115,7 +103,4 @@ The <b>NDIS_RECEIVE_QUEUE_INFO_ARRAY</b> structure is used in the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
- 
-
- 
 

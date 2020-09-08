@@ -8,9 +8,6 @@ ms.assetid: f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0
 ms.date: 05/02/2018
 keywords: ["NdisMCmRegisterAddressFamilyEx function"]
 ms.keywords: NdisMCmRegisterAddressFamilyEx, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex
-f1_keywords:
- - "ndis/NdisMCmRegisterAddressFamilyEx"
- - "NdisMCmRegisterAddressFamilyEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCmRegisterAddressFamilyEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmRegisterAddressFamilyEx
+ - ndis/NdisMCmRegisterAddressFamilyEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCmRegisterAddressFamilyEx
 ---
 
 # NdisMCmRegisterAddressFamilyEx function
@@ -47,27 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisMCmRegisterAddressFamilyEx</b> function registers an address family (AF) for communication between a
   miniport call manager (MCM) and CoNDIS clients.
 
-
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 An NDIS-supplied handle that identifies a miniport adapter. This handle is an input parameter to
      the MCM's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param AddressFamily 
 
-### -param AddressFamily [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a> structure that identifies
      the AF that the MCM driver supports. 
@@ -78,10 +74,7 @@ The pointer becomes an input parameter to the
      ProtocolCoAfRegisterNotify</a> functions of all of the CoNDIS clients that are bound to this MCM
      driver.
 
-
 ## -returns
-
-
 
 <b>NdisMCmRegisterAddressFamilyEx</b> can return any of the following:
 
@@ -141,14 +134,8 @@ The caller tried to register a duplicate AF for a given miniport adapter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS MCMs, which register as NDIS miniport drivers by calling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
@@ -188,13 +175,7 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
     MCM driver can support a particular type of AF for clients that are bound to a given miniport
     adapter.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a>
 
@@ -239,7 +220,4 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request_complete">
    ProtocolCoOidRequestComplete</a>
- 
-
- 
 

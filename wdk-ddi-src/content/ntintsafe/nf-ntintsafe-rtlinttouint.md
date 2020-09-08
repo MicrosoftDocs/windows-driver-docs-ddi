@@ -8,9 +8,6 @@ ms.assetid: 9D2C7E0F-99E2-4B95-8CB6-9158DA1D906F
 ms.date: 04/30/2018
 keywords: ["RtlIntToUInt function"]
 ms.keywords: RtlIntToUInt, RtlIntToUInt function [Kernel-Mode Driver Architecture], kernel.rtlinttouint, ntintsafe/RtlIntToUInt
-f1_keywords:
- - "ntintsafe/RtlIntToUInt"
- - "RtlIntToUInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlIntToUInt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlIntToUInt
+ - ntintsafe/RtlIntToUInt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlIntToUInt
 ---
 
 # RtlIntToUInt function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>INT</b> to a value of type <b>UINT</b>.
-
 
 ## -parameters
 
+### -param iOperand 
 
-
-
-### -param iOperand [in]
-
+[in]
 The value to be converted.
 
+### -param puResult 
 
-### -param puResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
-
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
@@ -87,5 +80,4 @@ This function uses the following alternate name:
 <li>RtlInt32ToSizeT
 </li>
 </ul>
-
 

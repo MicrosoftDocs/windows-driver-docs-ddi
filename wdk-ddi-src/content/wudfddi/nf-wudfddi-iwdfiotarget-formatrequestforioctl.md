@@ -8,9 +8,6 @@ ms.assetid: fd0bbd6e-bb23-4d0c-9cac-9bb7657876a0
 ms.date: 02/26/2018
 keywords: ["IWDFIoTarget::FormatRequestForIoctl"]
 ms.keywords: FormatRequestForIoctl, FormatRequestForIoctl method, FormatRequestForIoctl method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForIoctl method, IWDFIoTarget.FormatRequestForIoctl, IWDFIoTarget::FormatRequestForIoctl, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, umdf.iwdfiotarget_formatrequestforioctl, wdf.iwdfiotarget_formatrequestforioctl, wudfddi/IWDFIoTarget::FormatRequestForIoctl
-f1_keywords:
- - "wudfddi/IWDFIoTarget.FormatRequestForIoctl"
- - "IWDFIoTarget.FormatRequestForIoctl"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoTarget.FormatRequestForIoctl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoTarget::FormatRequestForIoctl
+ - wudfddi/IWDFIoTarget::FormatRequestForIoctl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoTarget.FormatRequestForIoctl
 ---
 
 # IWDFIoTarget::FormatRequestForIoctl
@@ -46,65 +46,52 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>FormatRequestForIoctl</b> method formats an I/O request object for an I/O control operation.
 
-
 ## -parameters
 
+### -param pRequest 
 
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the request object to format.
 
+### -param IoctlCode 
 
-### -param pRequest [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the request object to format. 
-
-
-### -param IoctlCode [in]
-
+[in]
 A control code that identifies a specific operation to perform.
 
+### -param pFile 
 
-### -param pFile [in, optional]
-
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the I/O control request. For the default I/O target, this parameter must be non-NULL.
 
+### -param pInputMemory 
 
-### -param pInputMemory [in, optional]
-
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the input buffer for the request. This parameter is optional.
 
+### -param pInputMemoryOffset 
 
-### -param pInputMemoryOffset [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the input memory offset for the request. This parameter is optional.
 
+### -param pOutputMemory 
 
-### -param pOutputMemory [in, optional]
-
+[in, optional]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface that is used to access the output buffer for the request. This parameter is optional.
 
+### -param pOutputMemoryOffset 
 
-### -param pOutputMemoryOffset [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes the output memory offset for the request. This parameter is optional.
-
 
 ## -returns
 
-
-
-<b>FormatRequestForIoctl</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h. 
-
-
-
+<b>FormatRequestForIoctl</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
 
@@ -123,7 +110,4 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
- 
-
- 
 

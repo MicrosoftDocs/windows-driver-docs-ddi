@@ -8,9 +8,6 @@ ms.assetid: 40981ad1-9a3e-47c5-a3d2-e980659b8ca4
 ms.date: 05/02/2018
 keywords: ["RILGPP2CAUSE structure"]
 ms.keywords: "*LPRILGPP2CAUSE, RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpp2cause, ntddrilapitypes/RILGPP2CAUSE"
-f1_keywords:
- - "rilapitypes/RILGPP2CAUSE"
- - "RILGPP2CAUSE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,32 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILGPP2CAUSE
 targetos: Windows
 req.typenames: RILGPP2CAUSE, *LPRILGPP2CAUSE
+f1_keywords:
+ - RILGPP2CAUSE
+ - rilapitypes/RILGPP2CAUSE
+ - LPRILGPP2CAUSE
+ - rilapitypes/LPRILGPP2CAUSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILGPP2CAUSE
 ---
 
-# RILGPP2CAUSE structure
+# RILGPP2CAUSE structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwCauseValue
 

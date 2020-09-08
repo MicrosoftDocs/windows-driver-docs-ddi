@@ -8,9 +8,6 @@ ms.assetid: 58E663DC-8A2B-4017-A54F-4C127AE567CE
 ms.date: 04/23/2018
 keywords: ["SerCx2PioTransmitReady function"]
 ms.keywords: 2/SerCx2PioTransmitReady, SerCx2PioTransmitReady, SerCx2PioTransmitReady method [Serial Ports], serports.sercx2piotransmitready
-f1_keywords:
- - "sercx/SerCx2PioTransmitReady"
- - "SerCx2PioTransmitReady"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- 2.0\Sercx.h
-api_name:
-- SerCx2PioTransmitReady
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SerCx2PioTransmitReady
+ - sercx/SerCx2PioTransmitReady
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - SerCx2PioTransmitReady
 ---
 
 # SerCx2PioTransmitReady function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SerCx2PioTransmitReady</b> method notifies version 2 of the serial framework extension (SerCx2) that the transmit FIFO in the serial controller hardware is ready to accept more data.
-
 
 ## -parameters
 
+### -param PioTransmit 
 
-
-
-### -param PioTransmit [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
-
 ## -remarks
-
-
 
 To initiate a PIO-transmit transaction, SerCx2 calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_write_buffer">EvtSerCx2PioTransmitWriteBuffer</a> event callback function and supplies a write buffer that contains the data to be transmitted. If the return value from this call indicates that the transmit FIFO in the serial controller became full before the entire contents of the write buffer could be transmitted, SerCx2 calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_enable_ready_notification">EvtSerCx2PioTransmitEnableReadyNotification</a> event callback function to enable a ready notification to occur when the FIFO is ready to accept more data.
 
@@ -72,13 +65,7 @@ The serial controller driver must call <b>SerCx2PioTransmitReady</b> only in res
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/dn265336(v=vs.85)">SerCx2 PIO-Transmit Transactions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_enable_ready_notification">EvtSerCx2PioTransmitEnableReadyNotification</a>
 
@@ -93,7 +80,4 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a>
- 
-
- 
 

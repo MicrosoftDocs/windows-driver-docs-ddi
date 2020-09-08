@@ -8,9 +8,6 @@ ms.assetid: 6b377ba5-cd3b-433e-bd9c-315203c3bc69
 ms.date: 05/10/2018
 keywords: ["DXGK_TIMED_OPERATION structure"]
 ms.keywords: "*PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices], DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION structure pointer [Display Devices], _DXGK_TIMED_OPERATION, display.dxgk_timed_operation, dispmprt/DXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION"
-f1_keywords:
- - "dispmprt/DXGK_TIMED_OPERATION"
- - "DXGK_TIMED_OPERATION"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- DXGK_TIMED_OPERATION
 targetos: Windows
 req.typenames: DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION
+f1_keywords:
+ - _DXGK_TIMED_OPERATION
+ - dispmprt/_DXGK_TIMED_OPERATION
+ - PDXGK_TIMED_OPERATION
+ - dispmprt/PDXGK_TIMED_OPERATION
+ - DXGK_TIMED_OPERATION
+ - dispmprt/DXGK_TIMED_OPERATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - DXGK_TIMED_OPERATION
 ---
 
 # _DXGK_TIMED_OPERATION structure
@@ -46,61 +50,39 @@ req.typenames: DXGK_TIMED_OPERATION, *PDXGK_TIMED_OPERATION
 
 ## -description
 
-
 The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Timed Operation Interface</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 [in] The size, in bytes, of this structure.
 
-
 ### -field OwnerTag
 
 [system] A pointer to the place in the code that started the timed operation.
 
-
 ### -field OsHandled
 
-[system] For system use only. 
-
+[system] For system use only.
 
 ### -field TimeoutTriggered
 
-[out] A Boolean value that specifies whether the time-out was triggered. 
-
+[out] A Boolean value that specifies whether the time-out was triggered.
 
 ### -field Timeout
 
-[system] For system use only. 
-
+[system] For system use only.
 
 ### -field StartTick
 
-[system] For system use only. 
-
+[system] For system use only.
 
 ## -remarks
 
-
-
 Display miniport drivers should not change of rely on members that are marked with the  [system] designation.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Timed Operation Interface</a>
- 
-
- 
 

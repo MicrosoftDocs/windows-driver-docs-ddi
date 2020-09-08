@@ -8,9 +8,6 @@ ms.assetid: 33B0C9EF-B40A-4BE7-A5AB-81FFF4698F3F
 ms.date: 04/30/2018
 keywords: ["SpbRequestGetTransferParameters function"]
 ms.keywords: SPB.spbrequestgettransferparameters, SpbRequestGetTransferParameters, SpbRequestGetTransferParameters method [Buses], spbcx/SpbRequestGetTransferParameters
-f1_keywords:
- - "spbcx/SpbRequestGetTransferParameters"
- - "SpbRequestGetTransferParameters"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- spbcxstubs.lib
-- spbcxstubs.dll
-api_name:
-- SpbRequestGetTransferParameters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpbRequestGetTransferParameters
+ - spbcx/SpbRequestGetTransferParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - spbcxstubs.lib
+ - spbcxstubs.dll
+api_name:
+ - SpbRequestGetTransferParameters
 ---
 
 # SpbRequestGetTransferParameters function
@@ -47,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>SpbRequestGetTransferParameters</b> method retrieves the transfer parameters for an individual transfer in an <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/i-o-transfer-sequences">I/O transfer sequence</a>.
-
 
 ## -parameters
 
+### -param SpbRequest 
 
-
-
-### -param SpbRequest [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request from which to retrieve the transfer parameters. This parameter must be a handle to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request.
 
+### -param Index 
 
-### -param Index [in]
-
+[in]
 The index of a transfer in the I/O transfer sequence. For more information, see the following Remarks section.
 
+### -param TransferDescriptor 
 
-### -param TransferDescriptor [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/ns-spbcx-spb_transfer_descriptor">SPB_TRANSFER_DESCRIPTOR</a> structure into which  the method writes the transfer parameters. The <i>TransferDescriptor</i> parameter is optional and can be specified as NULL if the caller does not require the transfer parameters. For more information, see the following Remarks section.
 
+### -param TransferBuffer 
 
-### -param TransferBuffer [out, optional]
-
+[out, optional]
 A pointer to a location into which the method writes a pointer to an MDL (or an MDL chain) that describes the physical memory in the transfer buffer.  The caller must not modify the contents of this MDL. This parameter is optional and can be set to NULL if the MDL is not needed. For more information, see the following Remarks section.
 
-
 ## -remarks
-
-
 
 To request an I/O transfer sequence, a client (peripheral driver) of the SPB controller driver sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a> request that contains a list of the transfers in the sequence. Your controller driver can call <b>SpbRequestGetTransferParameters</b> to obtain information about a particular transfer in the sequence.
 
@@ -127,12 +120,7 @@ for (ULONG i = 0; i < parameters.SequenceCount; i += 1)
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
@@ -151,7 +139,4 @@ for (ULONG i = 0; i < parameters.SequenceCount; i += 1)
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
- 
-
- 
 

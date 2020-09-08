@@ -8,9 +8,6 @@ ms.assetid: 4867effa-a471-498f-9b06-e66204fa139c
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetSignedIntegerValue"]
 ms.keywords: GetSignedIntegerValue, GetSignedIntegerValue method, GetSignedIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetSignedIntegerValue method, IPortableDeviceValues.GetSignedIntegerValue, IPortableDeviceValues::GetSignedIntegerValue, IPortableDeviceValuesGetSignedIntegerValue, portabledevicetypes/IPortableDeviceValues::GetSignedIntegerValue, wpddk.iportabledevicevalues_getsignedintegervalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetSignedIntegerValue"
- - "IPortableDeviceValues.GetSignedIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetSignedIntegerValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetSignedIntegerValue
+ - portabledevicetypes/IPortableDeviceValues::GetSignedIntegerValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetSignedIntegerValue
 ---
 
 # IPortableDeviceValues::GetSignedIntegerValue
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Retrieves a <b>LONG</b> value (type VT_I4) that is specified by a key.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
+### -param pValue 
 
-### -param pValue [out]
-
+[out]
 Pointer to the retrieved <b>LONG</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -114,31 +104,16 @@ The property specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setsignedintegervalue">IPortableDeviceValues::SetSignedIntegerValue</a>
- 
-
- 
 

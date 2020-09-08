@@ -8,9 +8,6 @@ ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
 ms.date: 05/03/2018
 keywords: ["SensorsCxSensorCreate function"]
 ms.keywords: SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate, sensorscx/SensorsCxSensorCreate
-f1_keywords:
- - "sensorscx/SensorsCxSensorCreate"
- - "SensorsCxSensorCreate"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SensorsCx.h
-api_name:
-- SensorsCxSensorCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SensorsCxSensorCreate
+ - sensorscx/SensorsCxSensorCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SensorsCx.h
+api_name:
+ - SensorsCxSensorCreate
 ---
 
 # SensorsCxSensorCreate function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 This function creates an instance of a sensor in the class extension.
-
 
 ## -parameters
 
+### -param FxDevice 
 
-
-
-### -param FxDevice [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
+### -param pSensorAttributes 
 
-### -param pSensorAttributes [in]
-
+[in]
 A reference to <a href="https://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>.
 
+### -param pSensor 
 
-### -param pSensor [out]
-
+[out]
 A reference to a sensor object that is used within the class extension.
 
-
 ## -returns
-
-
 
 This function returns NTSTATUS with different values. Some values that may be returned are the following:
 
@@ -91,11 +84,7 @@ STATUS_INSUFFICIENT_RESOURCES is returned if there were insufficient resources t
 </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 SensorsCxSensorCreate is implemented by the class extension and must be called by the driver. 
 
@@ -107,22 +96,11 @@ SensorsCxSensorCreate is implemented by the class extension and must be called b
 
 The sensors class extension writes a set of properties for each sensor when SensorsCxSensorCreate. For information about these properties, see Enumeration properties.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/enumeration-properties">Enumeration properties</a>
 
 
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>
- 
-
- 
 

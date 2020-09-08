@@ -8,9 +8,6 @@ ms.assetid: bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630
 ms.date: 05/02/2018
 keywords: ["FwpsNetBufferListRemoveContext0 function"]
 ms.keywords: FwpsNetBufferListRemoveContext0, FwpsNetBufferListRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListRemoveContext0, netvista.fwpsnetbufferlistremovecontext0, wfp_ref_2_funct_3_fwps_J-Q_320b667d-7f90-4a71-acff-e5b0b216ea3c.xml
-f1_keywords:
- - "fwpsk/FwpsNetBufferListRemoveContext0"
- - "FwpsNetBufferListRemoveContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsNetBufferListRemoveContext0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsNetBufferListRemoveContext0
+ - fwpsk/FwpsNetBufferListRemoveContext0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsNetBufferListRemoveContext0
 ---
 
 # FwpsNetBufferListRemoveContext0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsNetBufferListRemoveContext0</b> function removes the context associated with a network buffer
@@ -55,30 +54,25 @@ The
 
 ## -parameters
 
+### -param netBufferList 
 
-
-
-### -param netBufferList [in, out, optional]
-
+[in, out, optional]
 A network buffer list that indicates one or more packets of interest to the callout driver. This
      parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the function will remove the context from all associated network
      buffer lists.
 
+### -param contextTag 
 
-### -param contextTag [in]
-
+[in]
 The context tag that was passed in the <i>contextTag</i> parameter to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">FwpsNetBufferListAssociateContext0</a>.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 This parameter is reserved for future use and must be zero.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsNetBufferListRemoveContext0</b> function returns one of the following <b>NTSTATUS</b> codes.
@@ -111,14 +105,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <b>FwpsNetBufferListRemoveContext0</b> function asynchronously removes the tagged context associated with a network buffer list.
@@ -131,13 +119,7 @@ Usually a callout driver will not need to use this function, because the tagged 
     is removed automatically when the packets move through the stack. This function is provided so that
     a callout driver can stop processing in situations where contexts aren't removed automatically. For example, in the case of an NDIS filter driver, the packets never enter the TCP/IP stack, and the contexts will need to be removed manually by calling <b>FwpsNetBufferListRemoveContext0</b> with the <i>netBufferList</i> parameter set to <b>NULL</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">
    FwpsNetBufferListAssociateContext0</a>
@@ -163,7 +145,4 @@ Usually a callout driver will not need to use this function, because the tagged 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-packet-tagging">Using Packet Tagging</a>
- 
-
- 
 

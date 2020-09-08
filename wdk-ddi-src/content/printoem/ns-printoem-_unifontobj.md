@@ -8,9 +8,6 @@ ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 ms.date: 04/20/2018
 keywords: ["UNIFONTOBJ structure"]
 ms.keywords: "*PUNIFONTOBJ, PUNIFONTOBJ, PUNIFONTOBJ structure pointer [Print Devices], UNIFONTOBJ, UNIFONTOBJ structure [Print Devices], _UNIFONTOBJ, print.unifontobj, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, printoem/PUNIFONTOBJ, printoem/UNIFONTOBJ"
-f1_keywords:
- - "printoem/UNIFONTOBJ"
- - "UNIFONTOBJ"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- UNIFONTOBJ
 targetos: Windows
 req.typenames: UNIFONTOBJ, *PUNIFONTOBJ
+f1_keywords:
+ - _UNIFONTOBJ
+ - printoem/_UNIFONTOBJ
+ - PUNIFONTOBJ
+ - printoem/PUNIFONTOBJ
+ - UNIFONTOBJ
+ - printoem/UNIFONTOBJ
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - UNIFONTOBJ
 ---
 
 # _UNIFONTOBJ structure
@@ -46,19 +50,13 @@ req.typenames: UNIFONTOBJ, *PUNIFONTOBJ
 
 ## -description
 
-
 The UNIFONTOBJ structure is used as an input parameter to font functions in rendering plug-ins.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulFontID
 
 Specifies a resource identifier for an RC_UFM resource contained in a Unidrv minidriver's resource DLL. Supplied by Unidrv.
-
 
 ### -field dwFlags
 
@@ -144,30 +142,20 @@ If set, the device font is a font substituted for the TrueType font. In the font
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pIFIMetrics
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure. Supplied by Unidrv.
-
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure. Supplied by Unidrv.
 
 ### -field pfnGetInfo
 
 Pointer to Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. Supplied by Unidrv.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
- 
-
- 
 

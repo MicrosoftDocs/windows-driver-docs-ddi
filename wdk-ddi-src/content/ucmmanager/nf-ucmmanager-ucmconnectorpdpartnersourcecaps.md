@@ -8,9 +8,6 @@ ms.assetid: 282E12E2-F16F-4399-BC8C-78BD64F05F13
 ms.date: 05/07/2018
 keywords: ["UcmConnectorPdPartnerSourceCaps function"]
 ms.keywords: UcmConnectorPdPartnerSourceCaps, UcmConnectorPdPartnerSourceCaps method [Buses], buses.ucmconnectorpdportpartnersourcecaps, ucmmanager/UcmConnectorPdPartnerSourceCaps
-f1_keywords:
- - "ucmmanager/UcmConnectorPdPartnerSourceCaps"
- - "UcmConnectorPdPartnerSourceCaps"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UcmCxstub.lib
-- UcmCxstub.dll
-api_name:
-- UcmConnectorPdPartnerSourceCaps
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcmConnectorPdPartnerSourceCaps
+ - ucmmanager/UcmConnectorPdPartnerSourceCaps
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UcmCxstub.lib
+ - UcmCxstub.dll
+api_name:
+ - UcmConnectorPdPartnerSourceCaps
 ---
 
 # UcmConnectorPdPartnerSourceCaps function
@@ -47,42 +47,29 @@ req.typenames:
 
 ## -description
 
-
 Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the partner connector.
-
 
 ## -parameters
 
+### -param Connector 
 
-
-
-### -param Connector [in]
-
+[in]
 Handle to the connector object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
-
 
 ### -param Pdos
 
 <p>A caller-allocated array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object"><b>UCM_PD_POWER_DATA_OBJECT</b></a> structures that describes the power source capabilities.</p>
 
+### -param PdoCount 
 
-### -param PdoCount [in]
-
+[in]
 Number of elements in the array specified by   <i>Pdos[]</i>.
-
 
 ## -returns
 
-
-
-<b>UcmConnectorPdPartnerSourceCaps</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value. 
-
-
-
+<b>UcmConnectorPdPartnerSourceCaps</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value.
 
 ## -remarks
-
-
 
 When using a Type-C connector for charging by using the power delivery (PD) mechanism, the local connector queries the partner connector for its supported power sourcing capabilities. That query is not required if the partner connector is the power source because in that case, the local connector cached the initial advertisement when the partner connector was attached. 	If the source capabilities changed, it sends an update to the local connector. 
 
@@ -121,15 +108,7 @@ If the partner connector is the power sink, the local connector port must query 
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
- 
-
- 
 

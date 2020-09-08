@@ -8,9 +8,6 @@ ms.assetid: 243a1236-4b8a-4f00-9f14-3142fa81c362
 ms.date: 05/02/2018
 keywords: ["MINIPORT_CO_ACTIVATE_VC callback function"]
 ms.keywords: MINIPORT_CO_ACTIVATE_VC, MINIPORT_CO_ACTIVATE_VC callback, MiniportCoActivateVc, MiniportCoActivateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b93127ea-bac1-48d1-b7fd-3c7f40cbcbdb.xml, ndis/MiniportCoActivateVc, netvista.miniportcoactivatevc
-f1_keywords:
- - "ndis/MiniportCoActivateVc"
- - "MiniportCoActivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportCoActivateVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_CO_ACTIVATE_VC
+ - ndis/MINIPORT_CO_ACTIVATE_VC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportCoActivateVc
 ---
 
 # MINIPORT_CO_ACTIVATE_VC callback function
 
 
 ## -description
-
 
 The 
   <i>MiniportCoActivateVc</i> function is required for connection-oriented miniports. 
@@ -56,26 +55,21 @@ The
 
 ## -parameters
 
+### -param MiniportVcContext 
 
-
-
-### -param MiniportVcContext [in]
-
+[in]
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains its per-VC state. The miniport driver supplied this handle to NDIS from its 
      <i>MiniportCoCreateVc</i> function.
 
+### -param CallParameters 
 
-### -param CallParameters [in, out]
-
+[in, out]
 Specifies the call parameters, as specified by the call manager, to be established for this VC. On
      output, the miniport driver returns altered call parameters if certain flags are set in the 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -134,14 +128,8 @@ Indicates that the miniport driver could not activate the VC because it could no
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The miniport driver must validate the call parameters for this VC, as specified in 
     <i>CallParameters</i>, to verify that the adapter can support the requested call. If
@@ -203,15 +191,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_CO_ACTIVATE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_CO_ACTIVATE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a>
 
@@ -222,7 +204,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcoactivatevccomplete">NdisMCoActivateVcComplete</a>
- 
-
- 
 

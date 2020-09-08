@@ -8,9 +8,6 @@ ms.assetid: 0BCF4141-BE4E-42C0-8986-BE039B27F5D5
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetRemoveLockOptions function"]
 ms.keywords: WdfDeviceInitSetRemoveLockOptions, WdfDeviceInitSetRemoveLockOptions method, kmdf.wdfdeviceinitsetremovelockoptions, wdf.wdfdeviceinitsetremovelockoptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions
-f1_keywords:
- - "wdfdevice/WdfDeviceInitSetRemoveLockOptions"
- - "WdfDeviceInitSetRemoveLockOptions"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceInitSetRemoveLockOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitSetRemoveLockOptions
+ - wdfdevice/WdfDeviceInitSetRemoveLockOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceInitSetRemoveLockOptions
 ---
 
 # WdfDeviceInitSetRemoveLockOptions function
@@ -47,31 +47,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 
    The <b>WdfDeviceInitSetRemoveLockOptions</b> method causes the framework to acquire a remove lock before delivering an IRP of any type to the driver.
 
-
 ## -parameters
 
+### -param DeviceInit 
 
-
-
-### -param DeviceInit [in]
-
+[in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
+### -param Options 
 
-### -param Options [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_remove_lock_options">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
-
 ## -remarks
-
-
 
 By default, the framework acquires a remove lock before it delivers IRPs of the following major types to the driver:
 
@@ -114,12 +107,7 @@ WdfDeviceInitSetRemoveLockOptions(
                                   );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_remove_lock_options">WDF_REMOVE_LOCK_OPTIONS</a>
 
@@ -130,7 +118,4 @@ WdfDeviceInitSetRemoveLockOptions(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_remove_lock_options_init">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: a78acf5d-07ec-487c-97bd-daca8d08863c
 ms.date: 05/02/2018
 keywords: ["NdisMGetOffloadHandlers function"]
 ms.keywords: NdisMGetOffloadHandlers, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], ndischimney/NdisMGetOffloadHandlers, netvista.ndismgetoffloadhandlers, tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml
-f1_keywords:
- - "ndischimney/NdisMGetOffloadHandlers"
- - "NdisMGetOffloadHandlers"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- NdisMGetOffloadHandlers
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMGetOffloadHandlers
+ - ndischimney/NdisMGetOffloadHandlers
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisMGetOffloadHandlers
 ---
 
 # NdisMGetOffloadHandlers function
@@ -46,19 +46,15 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 This function obtains the entry points of the NDIS functions for a particular chimney type.
 
-
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The handle to a context area that is offload target-allocated in which the offload target
      maintains state information about this instance of the adapter. The offload target provided this handle
      to NDIS when calling 
@@ -67,9 +63,9 @@ The handle to a context area that is offload target-allocated in which the offlo
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
+### -param ChimneyType 
 
-### -param ChimneyType [in]
-
+[in]
 A chimney type that is one of the following NDIS_CHIMNEY_OFFLOAD_TYPE values:
      
 
@@ -83,9 +79,9 @@ The TCP chimney offload type.
 
 All other NDIS_CHIMNEY_OFFLOAD_TYPE values are currently reserved.
 
+### -param OffloadHandlers 
 
-### -param OffloadHandlers [out]
-
+[out]
 A pointer to a variable supplied by the offload target. The size of this variable is 
      sizeof(PNDIS_OFFLOAD_EVENT_HANDLERS). If the call to the 
      <b>NdisMGetOffloadHandlers</b> function succeeds, the function returns, in this variable, a pointer to an
@@ -117,10 +113,7 @@ This structure contains the following member:
 Specifies an NDIS object header, which is formatted as an 
        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
-
 ## -returns
-
-
 
 <b>NdisMGetOffloadHandlers</b> can return either of the following:
 
@@ -155,14 +148,8 @@ NDIS does not support the chimney type specified by the offload target. In this 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The offload target calls this function from its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function to
@@ -220,13 +207,7 @@ The chimney-specific handlers structure contains the same NDIS_OBJECT_HEADER str
 The offload target copies the entry points from the chimney-specific structure into its own internal
     data structure and then returns.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -242,7 +223,4 @@ The offload target copies the entry points from the chimney-specific structure i
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
- 
-
- 
 

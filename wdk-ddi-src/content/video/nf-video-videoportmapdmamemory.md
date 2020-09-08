@@ -8,9 +8,6 @@ ms.assetid: 51148c26-c10d-4c57-9e3e-c7d82d6a1c79
 ms.date: 05/10/2018
 keywords: ["VideoPortMapDmaMemory function"]
 ms.keywords: VideoPortMapDmaMemory, VideoPortMapDmaMemory function [Display Devices], VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml, display.videoportmapdmamemory, video/VideoPortMapDmaMemory
-f1_keywords:
- - "video/VideoPortMapDmaMemory"
- - "VideoPortMapDmaMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortMapDmaMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortMapDmaMemory
+ - video/VideoPortMapDmaMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortMapDmaMemory
 ---
 
 # VideoPortMapDmaMemory function
+
 
 ## -description
 
@@ -51,25 +52,29 @@ The <b>VideoPortMapDmaMemory</b> function is <b>obsolete</b> in Windows 2000 and
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param pVrp 
 
-### -param pVrp [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>.
 
-### -param BoardAddress [in]
+### -param BoardAddress 
 
+[in]
 Specifies the adapter's beginning address.
 
-### -param Length [in]
+### -param Length 
 
+[in]
 Specifies the length, in bytes, of the range of memory.
 
-### -param InIoSpace [in]
+### -param InIoSpace 
 
+[in]
 Indicates the location of the range. This parameter can be one of the following values:
 
 |Value|Meaning|
@@ -80,16 +85,19 @@ Indicates the location of the range. This parameter can be one of the following 
 |VIDEO_MEMORY_SPACE_P6CACHE|P6 MTRR caching, which is equivalent to write-combine caching. (kernel and user mode).|
 |VIDEO_MEMORY_SPACE_USER_MODE|Memory pointer for application use.|
 
-### -param MappedUserEvent [in]
+### -param MappedUserEvent 
 
+[in]
 Is reserved for system use.
 
-### -param DisplayDriverEvent [in]
+### -param DisplayDriverEvent 
 
+[in]
 Is reserved for system use.
 
-### -param VirtualAddress [in, out]
+### -param VirtualAddress 
 
+[in, out]
 Is reserved for system use.
 
 ## -returns
@@ -99,6 +107,4 @@ Is reserved for system use.
 ## -remarks
 
 See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
-
-
 

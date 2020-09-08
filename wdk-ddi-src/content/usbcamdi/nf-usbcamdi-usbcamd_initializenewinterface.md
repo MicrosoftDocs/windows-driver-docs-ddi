@@ -8,9 +8,6 @@ ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
 ms.date: 04/23/2018
 keywords: ["USBCAMD_InitializeNewInterface function"]
 ms.keywords: USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], stream.usbcamd_initializenewinterface, usbcamdi/USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml
-f1_keywords:
- - "usbcamdi/USBCAMD_InitializeNewInterface"
- - "USBCAMD_InitializeNewInterface"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- usbcamd2.lib
-- usbcamd2.dll
-api_name:
-- USBCAMD_InitializeNewInterface
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBCAMD_InitializeNewInterface
+ - usbcamdi/USBCAMD_InitializeNewInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - usbcamd2.lib
+ - usbcamd2.dll
+api_name:
+ - USBCAMD_InitializeNewInterface
 ---
 
 # USBCAMD_InitializeNewInterface function
@@ -47,32 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>USBCAMD_InitializeNewInterface</b> function provides USBCAMD with all the necessary information to configure the camera minidriver to work correctly with the stream class driver and the USB bus driver.
-
 
 ## -parameters
 
+### -param DeviceContext 
 
-
-
-### -param DeviceContext [in]
-
+[in]
 Pointer to device-specific context.
 
+### -param DeviceData 
 
-### -param DeviceData [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a> structure.
 
+### -param Version 
 
-### -param Version [in]
-
+[in]
 Specifies the version information. This value should be set to the value USBCAMD_VERSION_200 for use with USBCAMD version 2.0.
 
+### -param CamControlFlag 
 
-### -param CamControlFlag [in]
-
+[in]
 Specifies how USBCAMD and the camera minidriver should interact. The camera minidriver should set this value to one or more of the following:
 
 <table>
@@ -121,40 +117,22 @@ Setting the USBCAMD_CamControlFlag_EnableDeviceEvents exposes a device event to 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 <b>USBCAMD_InitializeNewInterface</b> returns the value USBCAMD_VERSION_200.
-
-
-
 
 ## -remarks
 
-
-
 This function is only called by USBCAMD version 2.0.
 
-The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera minidriver upon receiving an <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a> request. 
-
-
-
+The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera minidriver upon receiving an <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a> request.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a>
- 
-
- 
 

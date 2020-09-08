@@ -8,9 +8,6 @@ ms.assetid: 32748776-fe07-4f7e-bceb-5b554fa8f9f1
 ms.date: 04/04/2018
 keywords: ["IWDTFSimulatedBatterySystemAction::EnableRealBatteries"]
 ms.keywords: EnableRealBatteries, EnableRealBatteries method [Windows Device Testing Framework], EnableRealBatteries method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],EnableRealBatteries method, IWDTFSimulatedBatterySystemAction.EnableRealBatteries, IWDTFSimulatedBatterySystemAction::EnableRealBatteries, dtf.iwdtfsimulatedbatterysystemaction_enablerealbatteries, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableRealBatteries
-f1_keywords:
- - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction.EnableRealBatteries"
- - "IWDTFSimulatedBatterySystemAction.EnableRealBatteries"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtfsimulatedbatterysystemaction.h
-api_name:
-- IWDTFSimulatedBatterySystemAction.EnableRealBatteries
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimulatedBatterySystemAction::EnableRealBatteries
+ - wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableRealBatteries
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtfsimulatedbatterysystemaction.h
+api_name:
+ - IWDTFSimulatedBatterySystemAction.EnableRealBatteries
 ---
 
 # IWDTFSimulatedBatterySystemAction::EnableRealBatteries
 
 
 ## -description
-
-
 
 Enables real batteries if they are present in the system.
 
@@ -56,31 +54,17 @@ Use this method to enable real batteries if they are present in the
     system.  If no real batteries are present, this method does nothing. This
     method should be called when disabling the simulated battery in order to return the system to its original state.
 
-
 ## -parameters
 
+### -param pbSuccess 
 
-
-
-### -param pbSuccess [out, retval]
-
+[out, retval]
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFSimulatedBatterySystemAction</a>
- 
-
- 
 

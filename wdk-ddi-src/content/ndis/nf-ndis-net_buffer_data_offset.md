@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: 8de2a456-0b0e-47f1-895b-eee5de319283
 ms.date: 04/12/2018
 keywords: ["NET_BUFFER_DATA_OFFSET macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_DATA_OFFSET"
- - "NET_BUFFER_DATA_OFFSET"
 ms.keywords: NET_BUFFER_DATA_OFFSET
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_DATA_OFFSET
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_DATA_OFFSET
+ - ndis/NET_BUFFER_DATA_OFFSET
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_DATA_OFFSET
 ---
 
 # NET_BUFFER_DATA_OFFSET macro
@@ -63,3 +62,4 @@ A pointer to a **NET_BUFFER** structure.
 ## -see-also
 
 [**NET_BUFFER**](ns-ndis-_net_buffer.md)
+

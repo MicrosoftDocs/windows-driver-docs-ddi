@@ -8,9 +8,6 @@ ms.assetid: ee78013c-7660-4017-97ec-eff9068b707a
 ms.date: 05/08/2018
 keywords: ["IMiniportMidiStream::SetState"]
 ms.keywords: IMiniportMidiStream interface [Audio Devices],SetState method, IMiniportMidiStream.SetState, IMiniportMidiStream::SetState, SetState, SetState method [Audio Devices], SetState method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_setstate, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, portcls/IMiniportMidiStream::SetState
-f1_keywords:
- - "portcls/IMiniportMidiStream.SetState"
- - "IMiniportMidiStream.SetState"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IMiniportMidiStream.SetState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportMidiStream::SetState
+ - portcls/IMiniportMidiStream::SetState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IMiniportMidiStream.SetState
 ---
 
 # IMiniportMidiStream::SetState
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <code>SetState</code> method sets the stream's transport state to a new state value.
-
 
 ## -parameters
 
+### -param State 
 
-
-
-### -param State [in]
-
+[in]
 Specifies the new state that the stream is to be set to. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
-
 
 ## -returns
 
-
-
 <code>SetState</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 For an audio filter graph, the four <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration values are interpreted as follows:
 
@@ -116,12 +104,7 @@ RUN -> PAUSE -> ACQUIRE -> STOP
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportmidi-newstream">IMiniportMidi::NewStream</a>
 
@@ -136,7 +119,4 @@ RUN -> PAUSE -> ACQUIRE -> STOP
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
- 
-
- 
 

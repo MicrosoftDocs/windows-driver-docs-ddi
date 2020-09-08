@@ -8,9 +8,6 @@ ms.assetid: b9a860b1-d169-44b6-8dbd-0d26b050b7b0
 ms.date: 04/20/2018
 keywords: ["IXpsDocumentConsumer::CloseSender"]
 ms.keywords: CloseSender, CloseSender method [Print Devices], CloseSender method [Print Devices],IXpsDocumentConsumer interface, IXpsDocumentConsumer interface [Print Devices],CloseSender method, IXpsDocumentConsumer.CloseSender, IXpsDocumentConsumer::CloseSender, filterpipeline/IXpsDocumentConsumer::CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, print.ixpsdocumentconsumer_closesender
-f1_keywords:
- - "filterpipeline/IXpsDocumentConsumer.CloseSender"
- - "IXpsDocumentConsumer.CloseSender"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Filterpipeline.h
-api_name:
-- IXpsDocumentConsumer.CloseSender
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsDocumentConsumer::CloseSender
+ - filterpipeline/IXpsDocumentConsumer::CloseSender
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Filterpipeline.h
+api_name:
+ - IXpsDocumentConsumer.CloseSender
 ---
 
 # IXpsDocumentConsumer::CloseSender
@@ -46,24 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <code>CloseSender</code> method tells the Pipeline Manager that the filter is done sending XPS parts.
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 The filter must call the <code>CloseSender</code> method when it has finished sending the XPS parts to the pipeline.
-
-
 

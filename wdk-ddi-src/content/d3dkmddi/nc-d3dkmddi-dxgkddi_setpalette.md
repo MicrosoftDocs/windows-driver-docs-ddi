@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetPalette"
- - "DxgkDdiSetPalette"
+ - DXGKDDI_SETPALETTE
+ - d3dkmddi/DXGKDDI_SETPALETTE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SETPALETTE callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: e0b7bd4c-cb3f-4bc3-8359-241c9a245204
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces4::VirtualToPhysical"]
 ms.keywords: IDebugDataSpaces2 interface [Windows Debugging],VirtualToPhysical method, IDebugDataSpaces2::VirtualToPhysical, IDebugDataSpaces3 interface [Windows Debugging],VirtualToPhysical method, IDebugDataSpaces3::VirtualToPhysical, IDebugDataSpaces4 interface [Windows Debugging],VirtualToPhysical method, IDebugDataSpaces4.VirtualToPhysical, IDebugDataSpaces4::VirtualToPhysical, IDebugDataSpaces_56267474-49c4-446c-83eb-3e4eb2e92734.xml, VirtualToPhysical, VirtualToPhysical method [Windows Debugging], VirtualToPhysical method [Windows Debugging],IDebugDataSpaces2 interface, VirtualToPhysical method [Windows Debugging],IDebugDataSpaces3 interface, VirtualToPhysical method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::VirtualToPhysical, dbgeng/IDebugDataSpaces3::VirtualToPhysical, dbgeng/IDebugDataSpaces4::VirtualToPhysical, debugger.virtualtophysical
-f1_keywords:
- - "dbgeng/IDebugDataSpaces2.VirtualToPhysical"
- - "IDebugDataSpaces2.VirtualToPhysical"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugDataSpaces2.VirtualToPhysical
-- IDebugDataSpaces3.VirtualToPhysical
-- IDebugDataSpaces4.VirtualToPhysical
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugDataSpaces4::VirtualToPhysical
+ - dbgeng/IDebugDataSpaces4::VirtualToPhysical
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugDataSpaces2.VirtualToPhysical
+ - IDebugDataSpaces3.VirtualToPhysical
+ - IDebugDataSpaces4.VirtualToPhysical
 ---
 
 # IDebugDataSpaces4::VirtualToPhysical
@@ -48,28 +48,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>VirtualToPhysical</b> method translates a location in the target's virtual address space into a physical memory address.
-
 
 ## -parameters
 
+### -param Virtual 
 
-
-
-### -param Virtual [in]
-
+[in]
 Specifies the location in the target's virtual address space to translate.
 
+### -param Physical 
 
-### -param Physical [out]
-
+[out]
 Receives the physical memory address.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -103,14 +96,7 @@ No physical page containing the specified address could be found.
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
 
-
-
 This method is only available in kernel-mode debugging.
-
-
 

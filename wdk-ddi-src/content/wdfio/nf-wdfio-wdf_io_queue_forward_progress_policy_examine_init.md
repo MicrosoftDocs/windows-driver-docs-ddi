@@ -8,9 +8,6 @@ ms.assetid: 3d1d7242-ff26-47e0-a1f6-ae67b27acf22
 ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function"]
 ms.keywords: DFQueueObjectRef_bd2ff7de-f07f-4557-9051-d22f23a0530c.xml, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function, kmdf.wdf_io_queue_forward_progress_policy_examine_init, wdf.wdf_io_queue_forward_progress_policy_examine_init, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT
-f1_keywords:
- - "wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT"
- - "WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfio.h
-api_name:
-- WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT
+ - wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfio.h
+api_name:
+ - WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT
 ---
 
 # WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_forward_progress_policy">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
 
-
 ## -parameters
 
+### -param Policy 
 
-
-
-### -param Policy [out]
-
+[out]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_forward_progress_policy">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure.
 
+### -param TotalForwardProgressRequests 
 
-### -param TotalForwardProgressRequests [in]
-
+[in]
 The number of request objects that the framework will attempt to reserve for use in low-memory situations. This number must be greater than zero.
 
+### -param EvtIoWdmIrpForForwardProgress 
 
-### -param EvtIoWdmIrpForForwardProgress [in]
-
+[in]
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress">EvtIoWdmIrpForForwardProgress</a> callback function.
 
-
 ## -remarks
-
-
 
 The <b>WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT</b> function zeros the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_forward_progress_policy">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY</a> structure and sets its <b>Size</b> member. It also sets the structure's <b>TotalForwardProgressRequests </b>and<b>ForwardProgressReservePolicySettings.Policy.ExaminePolicy.EvtIoWdmIrpForForwardProgress </b>members to the specified values, and it sets the <b>ForwardProgressReservedPolicy</b> member to <b>WdfIoForwardProgressReservedPolicyUseExamine</b>.
 
@@ -101,12 +94,7 @@ status = WdfIoQueueAssignForwardProgressPolicy(
     );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_forward_progress_policy_default_init">WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT</a>
 
@@ -117,7 +105,4 @@ status = WdfIoQueueAssignForwardProgressPolicy(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueueassignforwardprogresspolicy">WdfIoQueueAssignForwardProgressPolicy</a>
- 
-
- 
 

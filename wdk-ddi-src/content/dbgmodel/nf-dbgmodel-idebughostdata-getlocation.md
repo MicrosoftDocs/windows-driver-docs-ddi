@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.GetLocation
 title: IDebugHostData::GetLocation (dbgmodel.h)
-description: For data which has an address, the GetLocation method will return the abstract location (address) of the field. 
+description: For data which has an address, the GetLocation method will return the abstract location (address) of the field.
 ms.assetid: 3cee9292-712f-47f7-a5f3-ef327db222e3
 ms.date: 09/10/2018
 keywords: ["IDebugHostData::GetLocation"]
-f1_keywords:
- - "dbgmodel/IDebugHostData.GetLocation"
- - "IDebugHostData.GetLocation"
 ms.keywords: IDebugHostData::GetLocation, GetLocation, IDebugHostData.GetLocation, IDebugHostData::GetLocation, IDebugHostData.GetLocation
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostData.GetLocation
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostData::GetLocation
+ - dbgmodel/IDebugHostData::GetLocation
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostData.GetLocation
 ---
 
 # IDebugHostData::GetLocation
@@ -45,16 +45,16 @@ ms.custom: RS5
 ## -description
 
 For data which has an address, the GetLocation method will return the abstract location (address) of the field. 
-If the given data does not have a static location, the GetLocation method will fail. 
-
+If the given data does not have a static location, the GetLocation method will fail.
 
 ## -parameters
 
 ### -param location
+
 The abstract location (e.g.: address) of the data will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -73,4 +73,6 @@ if (SUCCEEDED(spData->GetLocation(&dataLocation)))
 ```
 
 ## -see-also
+
 [IDebugHostData interface](nn-dbgmodel-idebughostdata.md)
+

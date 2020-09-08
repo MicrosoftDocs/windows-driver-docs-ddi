@@ -8,9 +8,6 @@ ms.assetid: 8abf967f-776e-4438-b20a-d7c278793633
 ms.date: 05/02/2018
 keywords: ["FwpsPendClassify0 function"]
 ms.keywords: FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendClassify0, netvista.fwpspendclassify0, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml
-f1_keywords:
- - "fwpsk/FwpsPendClassify0"
- - "FwpsPendClassify0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsPendClassify0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsPendClassify0
+ - fwpsk/FwpsPendClassify0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsPendClassify0
 ---
 
 # FwpsPendClassify0 function
 
 
 ## -description
-
 
 A callout's 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function calls 
@@ -57,19 +56,17 @@ A callout's
 
 ## -parameters
 
+### -param classifyHandle 
 
-
-
-### -param classifyHandle [in]
-
+[in]
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
      FwpsAcquireClassifyHandle0</a>.
 
+### -param filterId 
 
-### -param filterId [in]
-
+[in]
 The value of the 
      <b>FilterId</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
@@ -77,14 +74,14 @@ The value of the
      <b>FilterId</b> member, see 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 Reserved for future use. Set to zero.
 
+### -param classifyOut 
 
-### -param classifyOut [in, out]
-
+[in, out]
 Set to the 
      <i>classifyOut</i> parameter of the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function. The 
@@ -93,10 +90,7 @@ Set to the
      input to be useful to the engine when passed to 
      <b>FwpsPendClassify</b>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsPendClassify0</b> function returns one of the following NTSTATUS codes.
@@ -141,14 +135,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FwpsPendClassify0</b> puts the classification of the indicated event in a pended state. A callout
     driver typically pends classification so that more processing can be done outside the scope of the 
@@ -168,13 +156,7 @@ FwpsPendClassify0 increments the reference count for the classification handle p
     FwpsReleaseClassifyHandle0</a> to release the local instance. When <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteclassify0">FwpsCompleteClassify0</a> is called, the
     reference to the handle will be decremented automatically.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
 
@@ -197,7 +179,4 @@ FwpsPendClassify0 increments the reference count for the classification handle p
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

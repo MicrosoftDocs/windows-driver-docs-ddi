@@ -8,9 +8,6 @@ ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
 ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitSetStateChangeCallbacks function"]
 ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], buses.udecxusbdeviceinitsetstatechangecallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
-f1_keywords:
- - "udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks"
- - "UdecxUsbDeviceInitSetStateChangeCallbacks"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Udecxstub.lib
-- Udecxstub.dll
-api_name:
-- UdecxUsbDeviceInitSetStateChangeCallbacks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UdecxUsbDeviceInitSetStateChangeCallbacks
+ - udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Udecxstub.lib
+ - Udecxstub.dll
+api_name:
+ - UdecxUsbDeviceInitSetStateChangeCallbacks
 ---
 
 # UdecxUsbDeviceInitSetStateChangeCallbacks function
@@ -47,29 +47,21 @@ req.typenames:
 
 ## -description
 
-
 Initializes a WDF-allocated structure with pointers to callback functions.
-
 
 ## -parameters
 
+### -param UdecxUsbDeviceInit 
 
+[in, out]
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>.
 
+### -param Callbacks 
 
-### -param UdecxUsbDeviceInit [in, out]
-
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
-
-
-### -param Callbacks [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_usb_device_state_change_callbacks">UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS</a> structure that contains pointers to callback functions implemented by the client driver.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
@@ -80,7 +72,4 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
- 
-
- 
 

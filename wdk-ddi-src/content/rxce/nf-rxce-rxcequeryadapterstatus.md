@@ -8,9 +8,6 @@ ms.assetid: ebe9bec3-6c38-48d8-b9af-03aadbc09d98
 ms.date: 04/16/2018
 keywords: ["RxCeQueryAdapterStatus function"]
 ms.keywords: RxCeQueryAdapterStatus, RxCeQueryAdapterStatus function [Installable File System Drivers], ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus, rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml
-f1_keywords:
- - "rxce/RxCeQueryAdapterStatus"
- - "RxCeQueryAdapterStatus"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxce.h
-api_name:
-- RxCeQueryAdapterStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCeQueryAdapterStatus
+ - rxce/RxCeQueryAdapterStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxce.h
+api_name:
+ - RxCeQueryAdapterStatus
 ---
 
 # RxCeQueryAdapterStatus function
@@ -46,28 +46,19 @@ req.typenames:
 
 ## -description
 
-
 <b>RxCeQueryAdapterStatus</b> returns the ADAPTER_STATUS structure for a given transport in a caller-allocated buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param pTransport
 
 A pointer to the RDBSS transport that is associated with an adapter.
 
-
 ### -param pAdapterStatus
 
 On input, this parameter contains a pointer to caller-allocated buffer to hold the adapter status. On output when this call is successful, the buffer contains the adapter status associated with the specified RDBSS transport.
 
-
 ## -returns
-
-
 
 <b>RxCeQueryAdapterStatus</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -110,26 +101,14 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>RxCeQueryAdapterStatus</b> returns an ADAPTER_STATUS structure for a given transport. This routine is most commonly used to get the NetBIOS name of the adapter. 
 
-<b>RxCeQueryAdapterStatus</b> calls <b>TdiBuildQueryInformation</b> with a TDI_QUERY_ADAPTER_STATUS query. 
-
-
-
+<b>RxCeQueryAdapterStatus</b> calls <b>TdiBuildQueryInformation</b> with a TDI_QUERY_ADAPTER_STATUS query.
 
 ## -see-also
-
-
-
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=138885">ADAPTER_STATUS</a>
 
@@ -140,7 +119,4 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequerytransportinformation">RxCeQueryTransportInformation</a>
- 
-
- 
 

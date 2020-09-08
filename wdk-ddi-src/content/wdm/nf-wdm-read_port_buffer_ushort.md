@@ -8,9 +8,6 @@ ms.assetid: 27c2f249-bfd2-497d-aa34-f5d1e1a1fac7
 ms.date: 04/30/2018
 keywords: ["READ_PORT_BUFFER_USHORT function"]
 ms.keywords: READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml, kernel.read_port_buffer_ushort, wdm/READ_PORT_BUFFER_USHORT
-f1_keywords:
- - "wdm/READ_PORT_BUFFER_USHORT"
- - "READ_PORT_BUFFER_USHORT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -28,65 +25,54 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hal.lib
-- Hal.dll
-api_name:
-- READ_PORT_BUFFER_USHORT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - READ_PORT_BUFFER_USHORT
+ - wdm/READ_PORT_BUFFER_USHORT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hal.lib
+ - Hal.dll
+api_name:
+ - READ_PORT_BUFFER_USHORT
 ---
 
-# READ_PORT_BUFFER_USHORT function
+# READ_PORT_BUFFER_USHORT function (wdm.h)
 
 
 ## -description
 
-
 The <b>READ_PORT_BUFFER_USHORT</b> routine reads a number of USHORT values from the specified port address into a buffer.
-
 
 ## -parameters
 
+### -param Port 
 
-
-
-### -param Port [in]
-
+[in]
 Specifies the port address, which must be a mapped memory range in I/O space.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Pointer to a buffer into which an array of USHORT values is read.
 
+### -param Count 
 
-### -param Count [in]
-
-Specifies the number of USHORT values to be read into the buffer. 
-
+[in]
+Specifies the number of USHORT values to be read into the buffer.
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 The size of the buffer must be large enough to contain at least the specified number of USHORT values.
 
 Callers of <b>READ_PORT_BUFFER_USHORT</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Port</i> is resident, mapped device memory.
-
-
 

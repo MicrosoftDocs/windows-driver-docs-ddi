@@ -8,9 +8,6 @@ ms.assetid: F4A7CF9A-023F-42FC-A40C-E95964EC5392
 ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_GET_CAPABILITIES_WHITE IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_WHITE, IOCTL_LAMP_GET_CAPABILITIES_WHITE control, IOCTL_LAMP_GET_CAPABILITIES_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE, stream.ioctl_lamp_get_capabilities_white
-f1_keywords:
- - "lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE"
- - "IOCTL_LAMP_GET_CAPABILITIES_WHITE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- lamp.h
-api_name:
-- IOCTL_LAMP_GET_CAPABILITIES_WHITE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_LAMP_GET_CAPABILITIES_WHITE
+ - lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - lamp.h
+api_name:
+ - IOCTL_LAMP_GET_CAPABILITIES_WHITE
 ---
 
 # IOCTL_LAMP_GET_CAPABILITIES_WHITE IOCTL
+
 
 ## -description
 
@@ -85,3 +86,4 @@ By requirement, a lamp whose driver supports the **GUID_DEVINTERFACE_LAMP** inte
 The payload of this IOCTL is a [LAMP_CAPABILITIES_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_capabilities_white) structure.
 
 The **IsLightIntensityAdjustable** field indicates whether the luminance level can be programmed. If this field evaluates to **FALSE**, it means that the underlying device only supports the on/off switch and the light intensity cannot be adjusted.
+

@@ -8,9 +8,6 @@ ms.assetid: 8c39a62d-0c05-4d26-b104-90c436e821cb
 ms.date: 04/30/2018
 keywords: ["InterlockedExchangePointer function"]
 ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer routine [Kernel-Mode Driver Architecture], k102_4959af35-65d8-4768-94f7-a2dad0a2db46.xml, kernel.interlockedexchangepointer, wdm/InterlockedExchangePointer
-f1_keywords:
- - "miniport/InterlockedExchangePointer"
- - "InterlockedExchangePointer"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Desktop
@@ -28,55 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- InterlockedExchangePointer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - InterlockedExchangePointer
+ - miniport/InterlockedExchangePointer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - InterlockedExchangePointer
 ---
 
-# InterlockedExchangePointer function
+# InterlockedExchangePointer function (miniport.h)
 
 
 ## -description
 
-
 The <b>InterlockedExchangePointer</b> routine performs an atomic operation that sets a pointer to a new value.
-
 
 ## -parameters
 
+### -param Target 
 
-
-
-### -param Target [in, out]
-
+[in, out]
 A pointer to a PVOID value. The routine sets (*<i>Target</i>) to <i>Value</i>.
 
+### -param Value 
 
-### -param Value [in, optional]
-
+[in, optional]
 Specifies the PVOID value to set (*<i>Target</i>) to.
-
 
 ## -returns
 
-
-
 <b>InterlockedExchangePointer</b> returns the original value of the pointer at *<i>Target</i> (that is, the value of this pointer at entry to the routine).
 
-
-
-
 ## -remarks
-
-
 
 <b>InterlockedExchangePointer</b> provides a fast, atomic way to synchronize updating a pointer variable that is shared by multiple threads.
 
@@ -86,15 +74,9 @@ The <i>Target</i> parameter should be aligned on either a 32-bit or 64-bit bound
 
 A call to <b>InterlockedExchangePointer</b> is atomic only with respect to other <b>Interlocked<i>Xxx</i></b> calls.
 
-Interlocked operations cannot be used on non-cached memory. 
-
-
-
+Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedcompareexchange">InterlockedCompareExchange</a>
 
@@ -105,7 +87,4 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedexchange">InterlockedExchange</a>
- 
-
- 
 

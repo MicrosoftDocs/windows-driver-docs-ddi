@@ -8,9 +8,6 @@ ms.assetid: 7f40a815-0247-428c-a46f-d3cdbf7e8058
 ms.date: 05/02/2018
 keywords: ["NDIS_RSS_PROCESSOR_INFO structure"]
 ms.keywords: "*PNDIS_RSS_PROCESSOR_INFO, NDIS_RSS_PROCESSOR_INFO, NDIS_RSS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RSS_PROCESSOR_INFO, PNDIS_RSS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSS_PROCESSOR_INFO, ndis_processor_group_ref_de5d0ed6-e4b3-4074-8816-8ab3c3ff0c4d.xml, netvista.ndis_rss_processor_info, ntddndis/NDIS_RSS_PROCESSOR_INFO, ntddndis/PNDIS_RSS_PROCESSOR_INFO"
-f1_keywords:
- - "ntddndis/NDIS_RSS_PROCESSOR_INFO"
- - "NDIS_RSS_PROCESSOR_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_RSS_PROCESSOR_INFO
 targetos: Windows
 req.typenames: NDIS_RSS_PROCESSOR_INFO, *PNDIS_RSS_PROCESSOR_INFO
+f1_keywords:
+ - _NDIS_RSS_PROCESSOR_INFO
+ - ntddndis/_NDIS_RSS_PROCESSOR_INFO
+ - PNDIS_RSS_PROCESSOR_INFO
+ - ntddndis/PNDIS_RSS_PROCESSOR_INFO
+ - NDIS_RSS_PROCESSOR_INFO
+ - ntddndis/NDIS_RSS_PROCESSOR_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_RSS_PROCESSOR_INFO
 ---
 
 # _NDIS_RSS_PROCESSOR_INFO structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_RSS_PROCESSOR_INFO, *PNDIS_RSS_PROCESSOR_INFO
 
 ## -description
 
-
 The <b>NDIS_RSS_PROCESSOR_INFO</b> structure specifies information about the CPU receive side scaling (RSS)
   processor set on the local computer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -91,13 +90,10 @@ NDIS 6.30
 <td><b>NDIS_SIZEOF_RSS_PROCESSOR_INFO_REVISION_2</b></td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
 Reserved. NDIS sets this member to zero.
-
 
 ### -field RssBaseProcessor
 
@@ -110,11 +106,9 @@ The starting processor number that is used for RSS.
 
 The maximum number of processors that are used for RSS
 
-
 ### -field PreferredNumaNode
 
 The preferred NUMA node, which is the node closest to the NIC
-
 
 ### -field RssProcessorArrayOffset
 
@@ -125,32 +119,25 @@ The offset, in bytes, from the start of the structure to an array of
      <b>RssProcessorEntrySize</b> member contains the size of the <b>NDIS_RSS_PROCESSOR</b> structures in the
      array.
 
-
 ### -field RssProcessorCount
 
 The number of elements in the array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a> structures that follows this
      structure.
-
 
 ### -field RssProcessorEntrySize
 
 The size, in bytes, of elements in the array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a> structures that follows this
      structure.
 
-
 ### -field RssMaxProcessor
 
 The maximum processor number that is used for RSS.
-
 
 ### -field RssProfile
 
 Reserved.
 
-
 ## -remarks
-
-
 
 NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetrssprocessorinformation">
@@ -158,13 +145,7 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
     <b>NdisGetRssProcessorInformation</b> returns, this structure contains information about the set of
     processors that will be used for receive side scaling (RSS).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -180,7 +161,4 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetrssprocessorinformation">
    NdisGetRssProcessorInformation</a>
- 
-
- 
 

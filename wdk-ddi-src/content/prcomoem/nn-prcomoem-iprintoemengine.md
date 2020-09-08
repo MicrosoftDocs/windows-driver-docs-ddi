@@ -8,9 +8,6 @@ ms.assetid: DE86FA8C-2E27-4B39-B52D-6227AF56F399
 ms.date: 04/20/2018
 keywords: ["IPrintOemEngine interface"]
 ms.keywords: IPrintOemEngine, IPrintOemEngine interface [Print Devices], IPrintOemEngine interface [Print Devices],described, prcomoem/IPrintOemEngine, print.iprintoemengine
-f1_keywords:
- - "prcomoem/IPrintOemEngine"
- - "IPrintOemEngine"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -28,32 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prcomoem.h
-api_name:
-- IPrintOemEngine
-- IPrintOemEngine.EnableDriver
-- IPrintOemEngine.DisableDriver
-- IPrintOemEngine.EnablePDEV
-- IPrintOemEngine.DisablePDEV
-- IPrintOemEngine.ResetPDEV
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemEngine
+ - prcomoem/IPrintOemEngine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prcomoem.h
+api_name:
+ - IPrintOemEngine
+ - IPrintOemEngine.EnableDriver
+ - IPrintOemEngine.DisableDriver
+ - IPrintOemEngine.EnablePDEV
+ - IPrintOemEngine.DisablePDEV
+ - IPrintOemEngine.ResetPDEV
 ---
 
 # IPrintOemEngine interface
 
 
 ## -description
-
-
-
-
 
 ## -inheritance
 

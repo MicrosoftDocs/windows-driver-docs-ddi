@@ -8,9 +8,6 @@ ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.date: 04/30/2018
 keywords: ["RtlCompareUnicodeString function"]
 ms.keywords: RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString
-f1_keywords:
- - "wdm/RtlCompareUnicodeString"
- - "RtlCompareUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlCompareUnicodeString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlCompareUnicodeString
+ - wdm/RtlCompareUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlCompareUnicodeString
 ---
 
 # RtlCompareUnicodeString function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlCompareUnicodeString</b> routine compares two Unicode strings.
-
 
 ## -parameters
 
+### -param String1 
 
-
-
-### -param String1 [in]
-
+[in]
 Pointer to the first string.
 
+### -param String2 
 
-### -param String2 [in]
-
+[in]
 Pointer to the second string.
 
+### -param CaseInSensitive 
 
-### -param CaseInSensitive [in]
-
-If <b>TRUE</b>, case should be ignored when doing the comparison. 
-
+[in]
+If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -returns
-
-
 
 <b>RtlCompareUnicodeString</b> returns a signed value that gives the results of the comparison:
 
@@ -115,22 +108,12 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlcomparestring">RtlCompareString</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlequalstring">RtlEqualString</a>
- 
-
- 
 

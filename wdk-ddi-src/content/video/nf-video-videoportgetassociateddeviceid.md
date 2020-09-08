@@ -8,9 +8,6 @@ ms.assetid: 6c40f98b-4d93-4ee8-8217-51e6f1170cf8
 ms.date: 05/10/2018
 keywords: ["VideoPortGetAssociatedDeviceID function"]
 ms.keywords: VideoPortGetAssociatedDeviceID, VideoPortGetAssociatedDeviceID function [Display Devices], VideoPort_Functions_56a3fa57-fd1a-4b45-8de7-ee9450a525f4.xml, display.videoportgetassociateddeviceid, video/VideoPortGetAssociatedDeviceID
-f1_keywords:
- - "video/VideoPortGetAssociatedDeviceID"
- - "VideoPortGetAssociatedDeviceID"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortGetAssociatedDeviceID
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortGetAssociatedDeviceID
+ - video/VideoPortGetAssociatedDeviceID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortGetAssociatedDeviceID
 ---
 
 # VideoPortGetAssociatedDeviceID function
@@ -46,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortGetAssociatedDeviceID</b> function obtains the child ID for a specified device object.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 Pointer to the child device object, a <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>.
-
 
 ## -returns
 
-
-
 <b>VideoPortGetAssociatedDeviceID</b> returns the child ID for the given device object.
-
-
-
 
 ## -remarks
 
-
-
-<b>VideoPortGetAssociatedDeviceID</b> can be used to obtain the child ID for a child device object. For example, this is useful with <a href="https://docs.microsoft.com/windows-hardware/drivers/">I2C</a>. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-i2c-to-communicate-with-a-child-device">Using I2C to Communicate with a Child Device</a> for more information. 
-
-
+<b>VideoPortGetAssociatedDeviceID</b> can be used to obtain the child ID for a child device object. For example, this is useful with <a href="https://docs.microsoft.com/windows-hardware/drivers/">I2C</a>. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-i2c-to-communicate-with-a-child-device">Using I2C to Communicate with a Child Device</a> for more information.
 

@@ -8,9 +8,6 @@ ms.assetid: 10a5ada8-98ab-4e1c-a4b5-2f6d60674952
 ms.date: 04/20/2018
 keywords: ["IPrintPipelinePropertyBag::GetProperty"]
 ms.keywords: GetProperty, GetProperty method [Print Devices], GetProperty method [Print Devices],IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag interface [Print Devices],GetProperty method, IPrintPipelinePropertyBag.GetProperty, IPrintPipelinePropertyBag::GetProperty, filterpipeline/IPrintPipelinePropertyBag::GetProperty, filterpipeline_6a2e804b-b8dd-4e20-a71a-7817181b825c.xml, print.iprintpipelinepropertybag_getproperty
-f1_keywords:
- - "filterpipeline/IPrintPipelinePropertyBag.GetProperty"
- - "IPrintPipelinePropertyBag.GetProperty"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPrintPipelinePropertyBag.GetProperty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintPipelinePropertyBag::GetProperty
+ - filterpipeline/IPrintPipelinePropertyBag::GetProperty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPrintPipelinePropertyBag.GetProperty
 ---
 
 # IPrintPipelinePropertyBag::GetProperty
@@ -46,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <code>GetProperty</code> method gets a property from a property bag.
-
 
 ## -parameters
 
+### -param pszName 
 
-
-
-### -param pszName [in]
-
+[in]
 The name of the property that you want to get from the property bag.
 
+### -param pVar 
 
-### -param pVar [out]
-
+[out]
 The <b>VARIANT</b> value to get from the property bag.
-
 
 ## -returns
 
-
-
 <code>GetProperty</code> returns an <b>HRESULT</b> value.
-
-
 

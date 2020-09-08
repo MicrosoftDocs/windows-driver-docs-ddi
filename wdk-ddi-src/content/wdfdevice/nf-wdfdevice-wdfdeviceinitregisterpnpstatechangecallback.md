@@ -8,9 +8,6 @@ ms.assetid: a14b790a-28d7-4fb8-823f-f37f05e7529f
 ms.date: 02/26/2018
 keywords: ["WdfDeviceInitRegisterPnpStateChangeCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_51127783-092b-409d-85ad-e502760b62e7.xml, WdfDeviceInitRegisterPnpStateChangeCallback, WdfDeviceInitRegisterPnpStateChangeCallback method, kmdf.wdfdeviceinitregisterpnpstatechangecallback, wdf.wdfdeviceinitregisterpnpstatechangecallback, wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback
-f1_keywords:
- - "wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback"
- - "WdfDeviceInitRegisterPnpStateChangeCallback"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDeviceInitRegisterPnpStateChangeCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceInitRegisterPnpStateChangeCallback
+ - wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDeviceInitRegisterPnpStateChangeCallback
 ---
 
 # WdfDeviceInitRegisterPnpStateChangeCallback function
@@ -47,40 +47,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDeviceInitRegisterPnpStateChangeCallback</b> method registers a driver-supplied event callback function that the framework calls when a device's Plug and Play state machine changes state.
 
-
 ## -parameters
 
+### -param DeviceInit 
 
-
-
-### -param DeviceInit [in]
-
+[in]
 A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
+### -param PnpState 
 
-### -param PnpState [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_pnp_state">WDF_DEVICE_PNP_STATE</a> enumerator that identifies the Plug and Play machine state for which the driver is requesting notification.
 
+### -param EvtDevicePnpStateChange 
 
-### -param EvtDevicePnpStateChange [in]
-
+[in]
 A caller-supplied pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_pnp_state_change_notification">EvtDevicePnpStateChange</a> event callback function.
 
+### -param CallbackTypes 
 
-### -param CallbackTypes [in]
-
+[in]
 An ORed combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerators.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfDeviceInitRegisterPnpStateChangeCallback</b> returns STATUS_SUCCESS. Additional return values include:
 
@@ -112,14 +105,8 @@ There is insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If your driver calls <b>WdfDeviceInitRegisterPnpStateChangeCallback</b>, it must do so before it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
@@ -139,12 +126,7 @@ status = WdfDeviceInitRegisterPnpStateChangeCallback(
                                                      );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_pnp_state_change_notification">EvtDevicePnpStateChange</a>
 
@@ -159,7 +141,4 @@ status = WdfDeviceInitRegisterPnpStateChangeCallback(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>
- 
-
- 
 

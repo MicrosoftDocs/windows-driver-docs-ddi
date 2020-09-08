@@ -8,9 +8,6 @@ ms.assetid: 17fe1fbc-ca55-4d4d-af79-73baad410bfb
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::AddSyntheticSymbol"]
 ms.keywords: AddSyntheticSymbol, AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticSymbol method, IDebugSymbols3.AddSyntheticSymbol, IDebugSymbols3::AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, dbgeng/IDebugSymbols3::AddSyntheticSymbol, debugger.addsyntheticsymbol
-f1_keywords:
- - "dbgeng/IDebugSymbols3.AddSyntheticSymbol"
- - "IDebugSymbols3.AddSyntheticSymbol"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dbgeng.h
-api_name:
-- IDebugSymbols3.AddSyntheticSymbol
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::AddSyntheticSymbol
+ - dbgeng/IDebugSymbols3::AddSyntheticSymbol
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dbgeng.h
+api_name:
+ - IDebugSymbols3.AddSyntheticSymbol
 ---
 
 # IDebugSymbols3::AddSyntheticSymbol
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>AddSyntheticSymbol</b>  method adds a synthetic symbol to a module in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/c">current process</a>.
-
 
 ## -parameters
 
+### -param Offset 
 
-
-
-### -param Offset [in]
-
+[in]
 Specifies the location in the process's virtual address space of the synthetic symbol.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 Specifies the size in bytes of the synthetic symbol.
 
+### -param Name 
 
-### -param Name [in]
-
+[in]
 Specifies the name of the synthetic symbol.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Set to DEBUG_ADDSYNTHSYM_DEFAULT.
 
+### -param Id 
 
-### -param Id [out, optional]
-
+[out, optional]
 Receives the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure that identifies the synthetic symbol.  If <i>Id</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -105,12 +98,7 @@ The method was successful.
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 The location of the synthetic symbol must not be the same as the location of another symbol.
 
@@ -118,13 +106,7 @@ If the module containing a synthetic symbol is reloaded - for example, by callin
 
 For more information about synthetic symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-symbols">Synthetic Symbols</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticmodule">AddSyntheticModule</a>
 
@@ -135,7 +117,4 @@ For more information about synthetic symbols, see <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-removesyntheticsymbol">RemoveSyntheticSymbol</a>
- 
-
- 
 

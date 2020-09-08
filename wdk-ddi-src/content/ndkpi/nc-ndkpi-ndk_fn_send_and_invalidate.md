@@ -8,9 +8,6 @@ ms.assetid: 7E344DFA-159A-4084-905A-0A0F9F102051
 ms.date: 05/02/2018
 keywords: ["NDK_FN_SEND_AND_INVALIDATE callback function"]
 ms.keywords: NDK_FN_SEND_AND_INVALIDATE, NDK_FN_SEND_AND_INVALIDATE callback, NDK_FN_SEND_AND_INVALIDATE callback function [Network Drivers Starting with Windows Vista], NDK_OP_FLAG_DEFER, NDK_OP_FLAG_INLINE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT, NDK_OP_FLAG_SILENT_SUCCESS, ndkpi/NDK_FN_SEND_AND_INVALIDATE, netvista.ndk_fn_send_and_invalidate
-f1_keywords:
- - "ndkpi/NDK_FN_SEND_AND_INVALIDATE"
- - "NDK_FN_SEND_AND_INVALIDATE"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NDK_FN_SEND_AND_INVALIDATE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_SEND_AND_INVALIDATE
+ - ndkpi/NDK_FN_SEND_AND_INVALIDATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NDK_FN_SEND_AND_INVALIDATE
 ---
 
 # NDK_FN_SEND_AND_INVALIDATE callback function
@@ -46,40 +46,34 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkSendAndInvalidate</i> (<i>NDK_FN_SEND_AND_INVALIDATE</i>) function posts a send request on an NDK queue pair (QP) and supplies a token to be invalidated at the remote peer upon receive completion.
-
 
 ## -parameters
 
+### -param pNdkQp 
 
-
-
-### -param pNdkQp [in]
-
+[in]
 A pointer to an NDK queue pair (QP) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
+### -param RequestContext 
 
-### -param RequestContext [in, optional]
-
+[in, optional]
 A context value to be returned in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a> structure for this request.
-
-
 
 ### -param NDK_SGE
 
 An array of SGE (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>)  structures that represent the buffers holding the data to send.
 
+### -param nSge 
 
-### -param nSge [in]
-
+[in]
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A bitwise OR of flags that specify the operations that are allowed. The following flags are supported:
 
 <table>
@@ -145,17 +139,13 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 </td>
 </tr>
 </table>
- 
 
+### -param RemoteToken 
 
-### -param RemoteToken [in]
-
+[in]
 The remote token to be invalidated at the peer upon receive completion. The NDK provider at the receiving peer must abort the connection, as specified by lower layer transport rules, if an invalid token was specified by the sending peer.
 
-
 ## -returns
-
-
 
 The 
      <i>NdkSendAndInvalidate</i> function returns one of the following NTSTATUS codes.
@@ -200,14 +190,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use the <b>NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT</b> flag if you issue multiple, related send requests. Set this flag on the last request in the group.
 
@@ -219,13 +203,7 @@ The NDK consumer should ensure that the <i>NdkSendAndInvalidate</i> function is 
 
 Any <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a> structure that is added to a completion queue as a result of a call to this function must specify <b>NdkOperationTypeSend</b> for the <b>Type</b> member. Note that you do not need to specify a value for the <b>TypeSpecificCompletionOutput</b> member of the <b>NDK_RESULT_EX</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-completion-handling-requirements">NDKPI Completion Handling Requirements</a>
 
@@ -252,7 +230,4 @@ Any <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-nd
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>
- 
-
- 
 

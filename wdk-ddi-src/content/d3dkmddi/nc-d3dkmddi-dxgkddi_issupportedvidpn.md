@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiIsSupportedVidPn"
- - "DxgkDdiIsSupportedVidPn"
+ - DXGKDDI_ISSUPPORTEDVIDPN
+ - d3dkmddi/DXGKDDI_ISSUPPORTEDVIDPN
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_ISSUPPORTEDVIDPN callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 31451163-bc60-4c84-88a7-e11edea97436
 ms.date: 04/23/2018
 keywords: ["tagAVC_FUNCTION enumeration"]
 ms.keywords: AVC_FUNCTION, AVC_FUNCTION enumeration [Streaming Media Devices], AVC_FUNCTION_ACQUIRE, AVC_FUNCTION_CLR_CONNECTINFO, AVC_FUNCTION_COMMAND, AVC_FUNCTION_FIND_PEER_DO, AVC_FUNCTION_GET_CONNECTINFO, AVC_FUNCTION_GET_EXT_PLUG_COUNTS, AVC_FUNCTION_GET_PIN_COUNT, AVC_FUNCTION_GET_PIN_DESCRIPTOR, AVC_FUNCTION_GET_REQUEST, AVC_FUNCTION_GET_SUBUNIT_INFO, AVC_FUNCTION_GET_UNIQUE_ID, AVC_FUNCTION_PEER_DO_LIST, AVC_FUNCTION_RELEASE, AVC_FUNCTION_SEND_RESPONSE, AVC_FUNCTION_SET_CONNECTINFO, _tagAVC_FUNCTION, avc/AVC_FUNCTION, avc/AVC_FUNCTION_ACQUIRE, avc/AVC_FUNCTION_CLR_CONNECTINFO, avc/AVC_FUNCTION_COMMAND, avc/AVC_FUNCTION_FIND_PEER_DO, avc/AVC_FUNCTION_GET_CONNECTINFO, avc/AVC_FUNCTION_GET_EXT_PLUG_COUNTS, avc/AVC_FUNCTION_GET_PIN_COUNT, avc/AVC_FUNCTION_GET_PIN_DESCRIPTOR, avc/AVC_FUNCTION_GET_REQUEST, avc/AVC_FUNCTION_GET_SUBUNIT_INFO, avc/AVC_FUNCTION_GET_UNIQUE_ID, avc/AVC_FUNCTION_PEER_DO_LIST, avc/AVC_FUNCTION_RELEASE, avc/AVC_FUNCTION_SEND_RESPONSE, avc/AVC_FUNCTION_SET_CONNECTINFO, avcref_aa8add30-67c7-469c-ab3d-9173e7b4b91e.xml, stream.avc_function, tagAVC_FUNCTION
-f1_keywords:
- - "avc/AVC_FUNCTION"
- - "AVC_FUNCTION"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- avc.h
-api_name:
-- AVC_FUNCTION
 targetos: Windows
 req.typenames: AVC_FUNCTION
+f1_keywords:
+ - _tagAVC_FUNCTION
+ - avc/_tagAVC_FUNCTION
+ - AVC_FUNCTION
+ - avc/AVC_FUNCTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - avc.h
+api_name:
+ - AVC_FUNCTION
 ---
 
 # _tagAVC_FUNCTION enumeration
@@ -46,14 +48,9 @@ req.typenames: AVC_FUNCTION
 
 ## -description
 
-
 The AVC_FUNCTION enumeration type is used to specify AV/C subunit functions.
 
-
 ## -enum-fields
-
-
-
 
 ### -field AVC_FUNCTION_COMMAND
 
@@ -61,13 +58,11 @@ This value is a function code used to send an AV/C request and receive a respons
 
 This function code is available to both peer and virtual instances of <i>avc.sys</i>.
 
-
 ### -field AVC_FUNCTION_GET_PIN_COUNT
 
 This value is a function code used to obtain the number of pins supported by the underlying subunit device. This function code uses the AVC_PIN_COUNT structure.
 
 This function code is available only to peer instances of <i>avc.sys</i>.
-
 
 ### -field AVC_FUNCTION_GET_PIN_DESCRIPTOR
 
@@ -75,13 +70,11 @@ This value is a function code used to obtain the pin descriptor for each pin ID.
 
 This function code is available only to peer instances of <i>avc.sys</i>.
 
-
 ### -field AVC_FUNCTION_GET_CONNECTINFO
 
 This value is a function code used to obtain the AVCPRECONNECTINFO structure for each pin ID. This function code uses the AVC_PRE_CONNECTINFO structure.
 
 This function code is available only to peer instances of <i>avc.sys</i>.
-
 
 ### -field AVC_FUNCTION_SET_CONNECTINFO
 
@@ -89,18 +82,15 @@ This value is a function code used to set the AVCCONNECTINFO structure for each 
 
 This function code is available only to peer instances of <i>avc.sys</i>.
 
-
 ### -field AVC_FUNCTION_ACQUIRE
 
 This value is a function code used to cause <i>avc.sys</i> to establish any connections suggested by cached AVCCONNECTINFO values. This function code uses the AVC_PIN_ID structure.
 
 This function code is available only to peer instances of <i>avc.sys</i>.
 
-
 ### -field AVC_FUNCTION_RELEASE
 
 This value is a function code used to cause <i>avc.sys</i> to release any connections suggested by cached AVCCONNECTINFO values. This function code uses the AVC_PIN_ID structure.
-
 
 ### -field AVC_FUNCTION_CLR_CONNECTINFO
 
@@ -108,13 +98,11 @@ This value is a function code used to cause <i>avc.sys</i> to remove any cached 
 
 This function code is available only to peer instances of <i>avc.sys</i>.
 
-
 ### -field AVC_FUNCTION_GET_EXT_PLUG_COUNTS
 
 This value is a function code used to cause <i>avc.sys</i> to obtain the external input and output plug counts. This function code uses the AVC_EXT_PLUG_COUNTS structure.
 
 This function code is available only to peer instances of <i>avc.sys</i>.
-
 
 ### -field AVC_FUNCTION_GET_UNIQUE_ID
 
@@ -122,13 +110,11 @@ This value is a function code used to obtain the unique ID of the AV/C unit. Thi
 
 This function code is available only to peer instances of <i>avc.sys</i>.
 
-
 ### -field AVC_FUNCTION_GET_REQUEST
 
 This value is a function code used to register to receive AV/C unit and subunit requests. This function code uses the AVC_COMMAND_IRB structure.
 
 This function code is available to both peer and virtual instances of <i>avc.sys</i>.
-
 
 ### -field AVC_FUNCTION_SEND_RESPONSE
 
@@ -136,13 +122,11 @@ This value is a function code used to cause <i>avc.sys</i> to respond to AV/C un
 
 This function code is available to both peer and virtual instances of <i>avc.sys</i>.
 
-
 ### -field AVC_FUNCTION_FIND_PEER_DO
 
 This value is a function code used to locate a nonvirtual <i>avc.sys</i> instance. This function code uses the AVC_PEER_DO_LOCATOR structure.
 
 This function code is available to both peer and virtual instances of <i>avc.sys</i>.
-
 
 ### -field AVC_FUNCTION_PEER_DO_LIST
 
@@ -150,18 +134,13 @@ This value is a function code used to locate all nonvirtual <i>avc.sys</i> insta
 
 This function code is available to both peer and virtual instances of <i>avc.sys</i>.
 
-
 ### -field AVC_FUNCTION_GET_SUBUNIT_INFO
 
 This value is a function code used to obtain the subunit information of the target device. This function code uses the AVC_SUBUNIT_INFO_BLOCK structure.
 
 This function code is available to both peer and virtual instances of <i>avc.sys</i>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_command_irb">AVC_COMMAND_IRB</a>
 
@@ -208,8 +187,4 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_unique_id">AVC_UNIQUE_ID</a>
- 
-
- 
-
 

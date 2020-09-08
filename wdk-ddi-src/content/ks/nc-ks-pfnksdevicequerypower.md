@@ -8,9 +8,6 @@ ms.assetid: db839cde-cb3e-47f2-9a06-54e37ac7ac67
 ms.date: 04/23/2018
 keywords: ["PFNKSDEVICEQUERYPOWER callback function"]
 ms.keywords: AVStrMiniDeviceQueryPower, AVStrMiniDeviceQueryPower routine [Streaming Media Devices], PFNKSDEVICEQUERYPOWER, avstclbk_47f0fecd-9906-4582-9f1d-bb80a469ffa6.xml, ks/AVStrMiniDeviceQueryPower, stream.avstrminidevicequerypower
-f1_keywords:
- - "ks/AVStrMiniDeviceQueryPower"
- - "AVStrMiniDeviceQueryPower"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniDeviceQueryPower
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSDEVICEQUERYPOWER
+ - ks/PFNKSDEVICEQUERYPOWER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniDeviceQueryPower
 ---
 
 # PFNKSDEVICEQUERYPOWER callback function
@@ -46,62 +46,50 @@ req.typenames:
 
 ## -description
 
-
 AVStream calls a minidriver's <i>AVStrMiniDeviceQueryPower</i> routine when it receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a> request.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure that dispatched the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a> issued by <i>Device</i>.
 
+### -param DeviceTo 
 
-### -param DeviceTo [in]
-
+[in]
 The power state requested by the issuer of <i>Irp</i>.
 
+### -param DeviceFrom 
 
-### -param DeviceFrom [in]
-
+[in]
 The current device power state.
 
+### -param SystemTo 
 
-### -param SystemTo [in]
-
+[in]
 System state to transition to, specified when a system power state transition is being queried. This value is unspecified if the call is due to a device power state change query.
 
+### -param SystemFrom 
 
-### -param SystemFrom [in]
-
+[in]
 Current system state, specified when a system power state transition is being queried. This value is unspecified if the call is due to a device power state change query.
 
+### -param Action 
 
-### -param Action [in]
-
+[in]
 Specifies additional information about the requested transition. Possible values are enumerators of the POWER_ACTION type.
-
 
 ## -returns
 
-
-
 Should return STATUS_SUCCESS or the error code that was returned from the attempt to perform the operation. By returning STATUS_SUCCESS, the driver guarantees that it will not start any operation that would change its ability to set the requested power state. The driver should queue any IRP that would require such an operation until it completes a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> that returns the device to an acceptable power state.
 
-
-
-
 ## -remarks
-
-
 
 The power manager or a device power policy owner sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a> request to determine whether it can change the system or device power state (for example, to go to sleep).
 
@@ -111,20 +99,11 @@ The minidriver specifies this routine's address in the <b>QueryPower</b> member 
 
 This routine is optional.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
- 
-
- 
 

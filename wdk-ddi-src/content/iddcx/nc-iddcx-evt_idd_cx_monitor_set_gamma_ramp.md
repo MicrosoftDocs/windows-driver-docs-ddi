@@ -8,9 +8,6 @@ ms.assetid: 3e0828ee-307a-48fd-a8ea-b469ac6214d0
 ms.date: 05/10/2018
 keywords: ["EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP, EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback, EvtIddCxMonitorSetGammaRamp, EvtIddCxMonitorSetGammaRamp callback function [Display Devices], PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP, PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function pointer [Display Devices], display.evt_idd_cx_monitor_set_gamma_ramp, iddcx/EvtIddCxMonitorSetGammaRamp
-f1_keywords:
- - "iddcx/PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP"
- - "PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _requires_same_
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- iddcx.h
-api_name:
-- PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP
+ - iddcx/EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - iddcx.h
+api_name:
+ - PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP
 ---
 
 # EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function
@@ -46,32 +46,21 @@ req.typenames:
 
 ## -description
 
-
 <b>EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP</b> is called by the OS to set a gamma ramp on the specified monitor.
-
 
 ## -parameters
 
+### -param MonitorObject 
 
-
-
-### -param MonitorObject [in]
-
+[in]
 A handle by the OS to identify the monitor to set a gamma ramp for.
 
+### -param pInArgs 
 
-### -param pInArgs [in]
-
+[in]
 Input arguments used by <b>EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP</b>.
-
 
 ## -returns
 
-
-
-
-(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
-                    
-
-
+(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 

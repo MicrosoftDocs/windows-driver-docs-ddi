@@ -8,9 +8,6 @@ ms.assetid: fd9a612b-b0a7-4bef-9fab-8212a3b594b6
 ms.date: 04/30/2018
 keywords: ["IoRegisterShutdownNotification function"]
 ms.keywords: IoRegisterShutdownNotification, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture], k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, kernel.ioregistershutdownnotification, wdm/IoRegisterShutdownNotification
-f1_keywords:
- - "wdm/IoRegisterShutdownNotification"
- - "IoRegisterShutdownNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoRegisterShutdownNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoRegisterShutdownNotification
+ - wdm/IoRegisterShutdownNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoRegisterShutdownNotification
 ---
 
 # IoRegisterShutdownNotification function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoRegisterShutdownNotification</b> routine registers the driver to receive an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a> IRP when the system is shut down.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
-Pointer to the device object of the device for which the driver requests shutdown notification. The system passes this pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routine. 
-
+[in]
+Pointer to the device object of the device for which the driver requests shutdown notification. The system passes this pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routine.
 
 ## -returns
 
-
-
 <b>IoRegisterShutdownNotification</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IoRegisterShutdownNotification</b> routine registers the driver to receive an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a> IRP for the specified device when the system shuts down. The driver receives one such IRP for each device it registers to receive notification for. Drivers handle <b>IRP_MJ_SHUTDOWN</b> IRPs within their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routines.
 
@@ -85,15 +73,9 @@ The registered <i>DispatchShutdown</i> routine is called before the power manage
 
 A driver writer can make no assumptions about the order in which the driver's <i>DispatchShutdown</i> routine will be called in relation to other such routines or to other shutdown activities.
 
-A PnP driver might register a shutdown routine to perform certain tasks before system shutdown starts, such as locking down code. 
-
-
-
+A PnP driver might register a shutdown routine to perform certain tasks before system shutdown starts, such as locking down code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a>
 
@@ -104,7 +86,4 @@ A PnP driver might register a shutdown routine to perform certain tasks before s
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregistershutdownnotification">IoUnregisterShutdownNotification</a>
- 
-
- 
 

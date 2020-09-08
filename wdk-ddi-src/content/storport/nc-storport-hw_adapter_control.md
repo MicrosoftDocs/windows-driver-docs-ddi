@@ -8,9 +8,6 @@ ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.date: 07/19/2019
 keywords: ["HW_ADAPTER_CONTROL callback function"]
 ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
-f1_keywords:
- - "storport/HwStorAdapterControl"
- - "HwStorAdapterControl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorAdapterControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_ADAPTER_CONTROL
+ - storport/HW_ADAPTER_CONTROL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorAdapterControl
 ---
 
 # HW_ADAPTER_CONTROL callback function
+
 
 ## -description
 
@@ -49,12 +50,14 @@ A miniport driver's <b>HwStorAdapterControl</b> routine is called to perform syn
 
 ## -parameters
 
-### -param DeviceExtension [in]
+### -param DeviceExtension 
 
+[in]
 A pointer to the miniport driver's per-HBA storage area.
 
-### -param ControlType [in]
+### -param ControlType 
 
+[in]
 Specifies  an adapter-control operation. Each control type initiates an action by the miniport driver. The following are the  control types and their meanings. Also  listed, are the current IRQL and the spinlock acquired when the control type issued.
 
 <table>
@@ -342,8 +345,9 @@ None
 </tr>
 </table>
 
-### -param Parameters [in]
+### -param Parameters 
 
+[in]
 Contains information related to the <i>ControlType</i>.  
 
 <table>
@@ -960,3 +964,4 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetbusdatabyoffset">StorPortSetBusDataByOffset</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetpowersettingnotificationguids">StorPortSetPowerSettingNotificationGuids</a>
+

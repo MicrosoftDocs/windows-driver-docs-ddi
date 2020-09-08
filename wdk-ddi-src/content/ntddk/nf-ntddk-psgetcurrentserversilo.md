@@ -8,9 +8,6 @@ ms.assetid: 4E30CD53-C078-40D7-BEF8-A39F57D71D42
 ms.date: 04/30/2018
 keywords: ["PsGetCurrentServerSilo function"]
 ms.keywords: PsGetCurrentServerSilo, PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentserversilo, ntddk/PsGetCurrentServerSilo
-f1_keywords:
- - "ntddk/PsGetCurrentServerSilo"
- - "PsGetCurrentServerSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: _IRQL_requires_max_(DISPATCH_LEVEL)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsGetCurrentServerSilo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetCurrentServerSilo
+ - ntddk/PsGetCurrentServerSilo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsGetCurrentServerSilo
 ---
 
 # PsGetCurrentServerSilo function
@@ -46,15 +46,9 @@ req.typenames:
 
 ## -description
 
-
 This routine returns the effective server silo for the thread.
-
 
 ## -returns
 
-
-
 A pointer to the current server silo.  This pointer is valid for the current thread, but must be referenced before transferring to another thread (for example, via a workitem).
-
-
 

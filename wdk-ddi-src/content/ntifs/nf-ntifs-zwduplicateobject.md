@@ -8,9 +8,6 @@ ms.assetid: 9a922379-b439-4f94-9eb1-7c229318382c
 ms.date: 04/30/2018
 keywords: ["ZwDuplicateObject function"]
 ms.keywords: NtDuplicateObject, ZwDuplicateObject, ZwDuplicateObject routine [Kernel-Mode Driver Architecture], kernel.zwduplicateobject, ntifs/NtDuplicateObject, ntifs/ZwDuplicateObject
-f1_keywords:
- - "ntifs/ZwDuplicateObject"
- - "ZwDuplicateObject"
 req.header: ntifs.h
 req.include-header: Ntdef.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- ZwDuplicateObject
-- NtDuplicateObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwDuplicateObject
+ - ntifs/ZwDuplicateObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - ZwDuplicateObject
+ - NtDuplicateObject
 ---
 
 # ZwDuplicateObject function
@@ -48,47 +48,43 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwDuplicateObject</b> routine creates a handle that is a duplicate of the specified source handle.
-
 
 ## -parameters
 
+### -param SourceProcessHandle 
 
-
-
-### -param SourceProcessHandle [in]
-
+[in]
 A handle to the source process for the handle being duplicated.
 
+### -param SourceHandle 
 
-### -param SourceHandle [in]
-
+[in]
 The handle to duplicate.
 
+### -param TargetProcessHandle 
 
-### -param TargetProcessHandle [in, optional]
-
+[in, optional]
 A handle to the target process that is to receive the new handle. This parameter is optional and can be specified as NULL if the <b>DUPLICATE_CLOSE_SOURCE</b> flag is set in <i>Options</i>.
 
+### -param TargetHandle 
 
-### -param TargetHandle [out, optional]
-
+[out, optional]
 A pointer to a HANDLE variable into which the routine writes the new duplicated handle. The duplicated handle is valid in the specified target process. This parameter is optional and can be specified as NULL if no duplicate handle is to be created.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the desired access for the new handle.
 
+### -param HandleAttributes 
 
-### -param HandleAttributes [in]
-
+[in]
 A ULONG that specifies the desired attributes for the new handle. For more information about attributes, see the description of the <b>Attributes</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>.
 
+### -param Options 
 
-### -param Options [in]
-
+[in]
 A set of flags to control the behavior of the duplication operation. Set this parameter to zero or to the bitwise OR of one or more of the following flags.
 
 <table>
@@ -109,21 +105,12 @@ A set of flags to control the behavior of the duplication operation. Set this pa
 <td>Close the source handle.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 <b>ZwDuplicateObject</b> returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code.
 
-
-
-
 ## -remarks
-
-
 
 The source handle is evaluated in the context of the specified source process. The calling process must have <b>PROCESS_DUP_HANDLE</b> access to the source process. The duplicate handle is created in the handle table of the specified target process. The calling process must have <b>PROCESS_DUP_HANDLE</b> access to the target process.
 
@@ -133,13 +120,7 @@ If the call to this function occurs in user mode, you should use the name "<b>Nt
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -150,7 +131,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
- 
-
- 
 

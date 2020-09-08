@@ -8,9 +8,6 @@ ms.assetid: FE572606-8F47-4C40-BF74-24D5F667D2EC
 ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_SET_VERSION IOCTL"]
 ms.keywords: IOCTL_BTHX_SET_VERSION, IOCTL_BTHX_SET_VERSION control, IOCTL_BTHX_SET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_set_version, bthxddi/IOCTL_BTHX_SET_VERSION
-f1_keywords:
- - "bthxddi/IOCTL_BTHX_SET_VERSION"
- - "IOCTL_BTHX_SET_VERSION"
 req.header: bthxddi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BthXDDI.h
-api_name:
-- IOCTL_BTHX_SET_VERSION
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_BTHX_SET_VERSION
+ - bthxddi/IOCTL_BTHX_SET_VERSION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BthXDDI.h
+api_name:
+ - IOCTL_BTHX_SET_VERSION
 ---
 
 # IOCTL_BTHX_SET_VERSION IOCTL
@@ -46,17 +46,9 @@ req.typenames:
 
 ## -description
 
-
-
 IOCTL_BTHX_SET_VERSION is used to inform the transport driver of the version of the extensibility interface being used.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -68,39 +60,21 @@ The buffer describes a <a href="https://docs.microsoft.com/windows-hardware/driv
 
 Refer to the WDK Bluetooth samples for more information.
 
-
 ### -input-buffer-length
 
 The length of the buffer is the size of the <b>BTHX_VERSION</b> structure.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -131,14 +105,9 @@ The IOCTL completed successfully.
 
 Any unsuccessful NT status code prevents the driver from loading.
 
-
 ## -remarks
-
-
 
 IOCTL_BTHX_SET_VERSION is a synchronous operation.
 
 Only one version will be selected and set.
-
-
 

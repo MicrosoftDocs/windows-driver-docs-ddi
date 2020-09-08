@@ -8,9 +8,6 @@ ms.assetid: 77c2515b-f20a-47ac-9564-9eab009cf625
 ms.date: 04/16/2018
 keywords: ["DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration"]
 ms.keywords: "*PDIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DirectoryNotifyExtendedInformation, DirectoryNotifyInformation, _DIRECTORY_NOTIFY_INFORMATION_CLASS, ifsk._directory_notify_information_class, wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DirectoryNotifyExtendedInformation, wdm/DirectoryNotifyInformation"
-f1_keywords:
- - "wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS"
- - "DIRECTORY_NOTIFY_INFORMATION_CLASS"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- DIRECTORY_NOTIFY_INFORMATION_CLASS
 targetos: Windows
 req.typenames: DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATION_CLASS
+f1_keywords:
+ - _DIRECTORY_NOTIFY_INFORMATION_CLASS
+ - wdm/_DIRECTORY_NOTIFY_INFORMATION_CLASS
+ - PDIRECTORY_NOTIFY_INFORMATION_CLASS
+ - wdm/PDIRECTORY_NOTIFY_INFORMATION_CLASS
+ - DIRECTORY_NOTIFY_INFORMATION_CLASS
+ - wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - DIRECTORY_NOTIFY_INFORMATION_CLASS
 ---
 
 # _DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration
@@ -46,21 +50,15 @@ req.typenames: DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATIO
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 A value that specifies which structure to use to query or set information for a files in a directory.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DirectoryNotifyInformation
 
 A <b>FILE_NOTIFY_INFORMATION </b>structure.
-
 
 ### -field DirectoryNotifyExtendedInformation
 

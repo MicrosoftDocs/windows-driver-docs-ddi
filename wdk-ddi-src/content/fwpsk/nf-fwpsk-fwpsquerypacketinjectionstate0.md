@@ -8,9 +8,6 @@ ms.assetid: 785d99a5-a8c9-4763-bdd4-e26f604f6be7
 ms.date: 05/02/2018
 keywords: ["FwpsQueryPacketInjectionState0 function"]
 ms.keywords: FwpsQueryPacketInjectionState0, FwpsQueryPacketInjectionState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryPacketInjectionState0, netvista.fwpsquerypacketinjectionstate0, wfp_ref_2_funct_3_fwps_J-Q_2eb3c709-15f8-46de-a55d-b4e99c085740.xml
-f1_keywords:
- - "fwpsk/FwpsQueryPacketInjectionState0"
- - "FwpsQueryPacketInjectionState0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsQueryPacketInjectionState0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsQueryPacketInjectionState0
+ - fwpsk/FwpsQueryPacketInjectionState0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsQueryPacketInjectionState0
 ---
 
 # FwpsQueryPacketInjectionState0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsQueryPacketInjectionState0</b> function is called by a callout to query the injection state of packet
@@ -55,47 +54,37 @@ The
 
 ## -parameters
 
+### -param injectionHandle 
 
-
-
-### -param injectionHandle [in]
-
+[in]
 An injection handle that was previously created by a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">
      FwpsInjectionHandleCreate0</a> function.
 
+### -param netBufferList 
 
-### -param netBufferList [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being classified. The packet can originate from the network stack, or it can be
      injected into the network stack by a WFP callout driver.
 
+### -param injectionContext 
 
-### -param injectionContext [out, optional]
-
+[out, optional]
 An optional handle to the injection context. If the pointer is specified, and if the packet
      injection state 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_packet_injection_state_">FWPS_PACKET_INJECTION_STATE</a> associated with the injection handle is FWPS_PACKET_INJECTED_BY_SELF
      or FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF, the injection context supplied when the packet was injected
      will be returned.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsQueryPacketInjectionState0</b> function returns one of the constant values of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_packet_injection_state_">FWPS_PACKET_INJECTION_STATE</a> enumeration.
 
-
-
-
 ## -remarks
-
-
 
 Because injected packet data can be reclassified against the callout that injected it, this function
     allows a callout to inspect the injection history of packet data when necessary, thereby avoiding the
@@ -121,15 +110,7 @@ If the return value is <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PRE
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function to one of the following
     values.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
 
@@ -148,7 +129,4 @@ If the return value is <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PRE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

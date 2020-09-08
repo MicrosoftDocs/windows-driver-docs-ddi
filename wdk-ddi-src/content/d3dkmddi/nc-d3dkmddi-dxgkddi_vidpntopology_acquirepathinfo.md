@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAcquirePathInfo"
- - "pfnAcquirePathInfo"
+ - DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO callback function
+
 
 ## -description
 

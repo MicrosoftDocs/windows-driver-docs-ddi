@@ -8,9 +8,6 @@ ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.date: 05/07/2018
 keywords: ["UfxFdoInit function"]
 ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, ufxclient/UfxFdoInit
-f1_keywords:
- - "ufxclient/UfxFdoInit"
- - "UfxFdoInit"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxFdoInit
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxFdoInit
+ - ufxclient/UfxFdoInit
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxFdoInit
 ---
 
 # UfxFdoInit function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 Initializes the WDFDEVICE_INIT structure that the client driver subsequently provides when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
-
 
 ## -parameters
 
+### -param WdfDriver 
 
-
-
-### -param WdfDriver [in]
-
+[in]
 A handle to the driver's WDF driver object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
+### -param DeviceInit 
 
-### -param DeviceInit [in, out]
-
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
+### -param FdoAttributes 
 
-### -param FdoAttributes [in, out]
-
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the 
-
+[in, out]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the
 
 ## -returns
 
-
-
 If the operation is successful, the method returns STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it returns a status value for which NT_SUCCESS(status) equals FALSE.
 
-
-
-
 ## -remarks
-
-
 
 The client driver receives a pointer to a framework-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.  It then calls <b>UfxFdoInit</b> with this pointer before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> to create the WDFDEVICE object.
 
@@ -142,5 +130,4 @@ Return Value:
 </td>
 </tr>
 </table></span></div>
-
 

@@ -5,39 +5,42 @@ description: Arguments used in the DxgkddiSuspendContext callback function.
 ms.assetid: 3ca4dc90-55b2-4b5d-8f58-0967e817a26d
 ms.date: 10/19/2018
 keywords: ["DXGKARG_SUSPENDCONTEXT structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARG_SUSPENDCONTEXT"
- - "_DXGKARG_SUSPENDCONTEXT"
 ms.keywords: _DXGKARG_SUSPENDCONTEXT, DXGKARG_SUSPENDCONTEXT,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_SUSPENDCONTEXT
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARG_SUSPENDCONTEXT
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - _DXGKARG_SUSPENDCONTEXT
+ - d3dkmddi/_DXGKARG_SUSPENDCONTEXT
+ - DXGKARG_SUSPENDCONTEXT
+ - d3dkmddi/DXGKARG_SUSPENDCONTEXT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARG_SUSPENDCONTEXT
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGKARG_SUSPENDCONTEXT structure
+
 
 ## -description
 
@@ -58,3 +61,4 @@ A monotonically increasing per-context value that will be reported by the GPU co
 The context suspend fence value is necessary to handle cases when the OS suspends a context, doesn’t wait for the suspend fence acknowledgment, resumes, and suspends a context again. The suspend fence value will allow the OS to distinguish between the previous suspend acknowledgement and the latest one.
 
 ## -see-also
+

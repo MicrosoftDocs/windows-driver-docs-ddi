@@ -8,9 +8,6 @@ ms.assetid: 4AE7E897-556B-40C4-BC12-31D957552690
 ms.date: 05/02/2018
 keywords: ["NDK_FN_WRITE callback function"]
 ms.keywords: NDK_FN_WRITE, NDK_FN_WRITE callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkWrite, NdkWrite callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkWrite, netvista.ndk_fn_write
-f1_keywords:
- - "ndkpi/NdkWrite"
- - "NdkWrite"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkWrite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_WRITE
+ - ndkpi/NDK_FN_WRITE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkWrite
 ---
 
 # NDK_FN_WRITE callback function
@@ -46,48 +46,43 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkWrite</i> (<i>NDK_FN_WRITE</i>) function posts a write request on an NDK queue pair (QP).
-
 
 ## -parameters
 
+### -param pNdkQp 
 
-
-
-### -param pNdkQp [in]
-
+[in]
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
+### -param RequestContext 
 
-### -param RequestContext [in, optional]
-
+[in, optional]
 A context value to be returned in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
-
-
 
 ### -param NDK_SGE
 
 An array of SGE structures (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>) that represent the buffers holding the data to write.
 
-### -param nSge [in]
+### -param nSge 
 
+[in]
 The number of SGE structures in the array  that is specified in the <i>pSgl</i>
 parameter.
 
+### -param RemoteAddress 
 
-### -param RemoteAddress [in]
-
+[in]
 The remote address to write to, provided in the local host's byte order. The NDK consumer might have added an offset to the remotely-provided value.
 
+### -param RemoteToken 
 
-### -param RemoteToken [in]
+[in]
+The remotely-provided memory token, an opaque array of bytes from the NDK consumer.
 
-The remotely-provided memory token, an opaque array of bytes from the NDK consumer. 
+### -param Flags 
 
-
-### -param Flags [in]
-
+[in]
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
 <table>
@@ -134,8 +129,6 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 
 ## -returns
 
-
-
 The <i>NdkWrite</i> function returns one of the following NTSTATUS codes.
 
 <table>
@@ -179,24 +172,12 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <i>NdkWrite</i> posts a write request on a queue pair (QP).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-deferred-processing-scheme">NDKPI Deferred Processing Scheme</a>
 
@@ -215,7 +196,4 @@ An error occurred.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_sge">NDK_SGE</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 960eee8a-2950-4baf-b32d-be13b3d65951
 ms.date: 05/02/2018
 keywords: ["WSK_CLIENT_CONNECTION_DISPATCH structure"]
 ms.keywords: "*PWSK_CLIENT_CONNECTION_DISPATCH, PWSK_CLIENT_CONNECTION_DISPATCH, PWSK_CLIENT_CONNECTION_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_CONNECTION_DISPATCH, WSK_CLIENT_CONNECTION_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_CONNECTION_DISPATCH, netvista.wsk_client_connection_dispatch, wsk/PWSK_CLIENT_CONNECTION_DISPATCH, wsk/WSK_CLIENT_CONNECTION_DISPATCH, wskref_2fd26ffb-dab8-4529-9fd0-6043509312c9.xml"
-f1_keywords:
- - "wsk/WSK_CLIENT_CONNECTION_DISPATCH"
- - "WSK_CLIENT_CONNECTION_DISPATCH"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wsk.h
-api_name:
-- WSK_CLIENT_CONNECTION_DISPATCH
 targetos: Windows
 req.typenames: WSK_CLIENT_CONNECTION_DISPATCH, *PWSK_CLIENT_CONNECTION_DISPATCH
+f1_keywords:
+ - _WSK_CLIENT_CONNECTION_DISPATCH
+ - wsk/_WSK_CLIENT_CONNECTION_DISPATCH
+ - PWSK_CLIENT_CONNECTION_DISPATCH
+ - wsk/PWSK_CLIENT_CONNECTION_DISPATCH
+ - WSK_CLIENT_CONNECTION_DISPATCH
+ - wsk/WSK_CLIENT_CONNECTION_DISPATCH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wsk.h
+api_name:
+ - WSK_CLIENT_CONNECTION_DISPATCH
 ---
 
 # _WSK_CLIENT_CONNECTION_DISPATCH structure
@@ -46,15 +50,10 @@ req.typenames: WSK_CLIENT_CONNECTION_DISPATCH, *PWSK_CLIENT_CONNECTION_DISPATCH
 
 ## -description
 
-
 The WSK_CLIENT_CONNECTION_DISPATCH structure specifies a WSK application's dispatch table of event
   callback functions for a connection-oriented socket.
 
-
 ## -struct-fields
-
-
-
 
 ### -field WskReceiveEvent
 
@@ -63,14 +62,12 @@ A pointer to the WSK application's
      for the socket. If the WSK application does not enable the 
      <i>WskReceiveEvent</i> event callback function for the socket, this pointer can be <b>NULL</b>.
 
-
 ### -field WskDisconnectEvent
 
 A pointer to the WSK application's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_disconnect_event">WskDisconnectEvent</a> event callback
      function for the socket. If the WSK application does not enable the 
      <i>WskDisconnectEvent</i> event callback function for the socket, this pointer can be <b>NULL</b>.
-
 
 ### -field WskSendBacklogEvent
 
@@ -79,10 +76,7 @@ A pointer to the WSK application's
      function for the socket. If the WSK application does not enable the 
      <i>WskSendBacklogEvent</i> event callback function for the socket, this pointer can be <b>NULL</b>.
 
-
 ## -remarks
-
-
 
 A WSK application passes a pointer to a WSK_CLIENT_CONNECTION_DISPATCH structure to the WSK subsystem
     in one of the following ways:
@@ -116,12 +110,7 @@ As a returned parameter when the WSK subsystem calls the WSK application's
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_connection_dispatch">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
@@ -153,7 +142,4 @@ As a returned parameter when the WSK subsystem calls the WSK application's
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
 

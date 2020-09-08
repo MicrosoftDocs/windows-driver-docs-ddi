@@ -1,56 +1,59 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.GetContextObject
 title: IModelKeyReference2::GetContextObject (dbgmodel.h)
-description: The GetContextObject method returns the context (this pointer) which will be passed to a property accessor's GetValue or SetValue method if the key in question refers to a property accessor. 
+description: The GetContextObject method returns the context (this pointer) which will be passed to a property accessor's GetValue or SetValue method if the key in question refers to a property accessor.
 ms.assetid: b54a6fc4-daaa-4832-ad64-0b4830f4353e
 ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::GetContextObject"]
-f1_keywords:
- - "dbgmodel/IModelKeyReference2.GetContextObject"
- - "IModelKeyReference2.GetContextObject"
 ms.keywords: IModelKeyReference2::GetContextObject, GetContextObject, IModelKeyReference2.GetContextObject, IModelKeyReference2::GetContextObject, IModelKeyReference2.GetContextObject
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelKeyReference2.GetContextObject
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelKeyReference2::GetContextObject
+ - dbgmodel/IModelKeyReference2::GetContextObject
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelKeyReference2.GetContextObject
 ---
 
 # IModelKeyReference2::GetContextObject
 
 
 ## -description
-The GetContextObject method returns the context (this pointer) which will be passed to a property accessor's GetValue or SetValue method if the key in question refers to a property accessor. The context object returned here may or may not be the same as the original object fetched from GetOriginalObject. If a key is on a parent model and there is a context adjustor associated with that parent model, the original object is the instance object on which GetKeyReference or EnumerateKeyReferences was called. The context object would be whatever comes out of the final context adjustor between the original object and the parent model containing the key to which this key reference is a handle. If there are no context adjustors, the original object and the context object are identical. 
+
+The GetContextObject method returns the context (this pointer) which will be passed to a property accessor's GetValue or SetValue method if the key in question refers to a property accessor. The context object returned here may or may not be the same as the original object fetched from GetOriginalObject. If a key is on a parent model and there is a context adjustor associated with that parent model, the original object is the instance object on which GetKeyReference or EnumerateKeyReferences was called. The context object would be whatever comes out of the final context adjustor between the original object and the parent model containing the key to which this key reference is a handle. If there are no context adjustors, the original object and the context object are identical.
 
 ## -parameters
 
 ### -param containingObject
+
 The context object which will be passed to any property accessor method is returned here.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -76,3 +79,4 @@ if (SUCCEEDED(spObject->GetKeyReference(L"Id", &spKeyRef, nullptr)))
 ## -see-also
 
 [IModelKeyReference2 interface](nn-dbgmodel-imodelkeyreference2.md)
+

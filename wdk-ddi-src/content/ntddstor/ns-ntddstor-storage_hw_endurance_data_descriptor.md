@@ -8,38 +8,43 @@ ms.assetid: 412c3c15-7884-4da0-8951-183b37a2022d
 ms.author: windowsdriverdev
 ms.date: 03/18/2019
 keywords: ["STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR structure"]
-f1_keywords:
- - "ntddstor/STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR"
- - "STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR"
 ms.keywords: STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR, STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR, *PSTORAGE_HW_ENDURANCE_DATA_DESCRIPTOR, IOCTL_MINIPORT_ENDURANCE_INFO, IOCTL_SCSI_MINIPORT, STORAGE_HW_ENDURANCE_INFO, STORAGE_ENDURANCE_DATA_DESCRIPTOR
 req.header: ntddstor.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR, *PSTORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
-topic_type: 
+targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - _STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
+ - ntddstor/_STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
+ - PSTORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
+ - ntddstor/PSTORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
+ - STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
+ - ntddstor/STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
+topic_type:
  - apiref
-api_type: 
+api_type:
  - HeaderDef
-api_location: 
+api_location:
  - ntddstor.h
-api_name: 
+api_name:
  - STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
 product:
  - Windows
-targetos: Windows
-ms.custom: 19H1
 ---
 
 # STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR structure
+
 
 ## -description
 
@@ -78,3 +83,4 @@ The miniport uses [STORAGE_ENDURANCE_DATA_DESCRIPTOR](../ntddscsi/ns-ntddscsi-st
 [STORAGE_ENDURANCE_DATA_DESCRIPTOR](../ntddscsi/ns-ntddscsi-storage_endurance_data_descriptor.md)
 
 [STORAGE_HW_ENDURANCE_INFO](ns-ntddstor-storage_hw_endurance_info.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 6d4e957e-ad9c-45da-8d1d-0ef5f108c692
 ms.date: 05/10/2018
 keywords: ["DXGKCB_AGP_FREE_POOL callback function"]
 ms.keywords: AgpFreePool, AgpFreePool callback function [Display Devices], DXGKCB_AGP_FREE_POOL, DXGKCB_AGP_FREE_POOL callback, DpFunctions_ffe16de5-aa04-4f4b-bae5-de5b25682f65.xml, display.agpfreepool, dispmprt/AgpFreePool
-f1_keywords:
- - "dispmprt/AgpFreePool"
- - "AgpFreePool"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- AgpFreePool
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKCB_AGP_FREE_POOL
+ - dispmprt/DXGKCB_AGP_FREE_POOL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - AgpFreePool
 ---
 
 # DXGKCB_AGP_FREE_POOL callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>AgpFreePool</b> function frees AGP memory that was previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param HANDLE
 
@@ -65,29 +60,15 @@ A handle to a context block that is associated with an AGP interface. The displa
 
 The base virtual address of the AGP allocation that is to be freed. This is the virtual address that was previously returned in the <i>VirtualAddress</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a> function.
 
-
 ## -returns
-
-
 
 <b>AgpFreePool</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 None.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a>
 
@@ -102,7 +83,4 @@ None.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>
- 
-
- 
 

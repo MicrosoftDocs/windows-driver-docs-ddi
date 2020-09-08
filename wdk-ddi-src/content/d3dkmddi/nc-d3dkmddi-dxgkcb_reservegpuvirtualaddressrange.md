@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbReserveGpuVirtualAddressRange"
- - "DxgkCbReserveGpuVirtualAddressRange"
+ - DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE
+ - d3dkmddi/DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE
 topic_type:
  - APIRef
  - kbSyntax
@@ -45,6 +45,7 @@ product:
 ---
 
 # DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE callback function
+
 
 ## -description
 

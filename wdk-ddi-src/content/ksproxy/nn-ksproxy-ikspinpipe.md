@@ -8,9 +8,6 @@ ms.assetid: bb9ebe0b-4a6e-41ff-a460-6c0b3a749d8d
 ms.date: 04/23/2018
 keywords: ["IKsPinPipe interface"]
 ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], IKsPinPipe interface [Streaming Media Devices],described, ksproxy/IKsPinPipe, ksproxy_baf35b14-3ad8-491c-86cf-9ac2b76d9504.xml, stream.ikspinpipe
-f1_keywords:
- - "ksproxy/IKsPinPipe"
- - "IKsPinPipe"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPinPipe
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPinPipe
+ - ksproxy/IKsPinPipe
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPinPipe
 ---
 
 # IKsPinPipe interface
@@ -46,11 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>IKsPinPipe</b> interface is for proxy use and not recommended for application use. <b>IKsPinPipe</b> provides methods that control a pin pipe. 
 
 The IID for this interface is IID_IKsPinPipe.
-
 
 ## -inheritance
 

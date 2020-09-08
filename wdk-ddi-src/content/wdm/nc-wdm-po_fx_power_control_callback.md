@@ -8,9 +8,6 @@ ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.date: 04/30/2018
 keywords: ["PO_FX_POWER_CONTROL_CALLBACK callback function"]
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
-f1_keywords:
- - "wdm/PowerControlCallback"
- - "PowerControlCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- PowerControlCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PO_FX_POWER_CONTROL_CALLBACK
+ - wdm/PO_FX_POWER_CONTROL_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - PowerControlCallback
 ---
 
 # PO_FX_POWER_CONTROL_CALLBACK callback function
@@ -46,45 +46,40 @@ req.typenames:
 
 ## -description
 
-
 The <i>PowerControlCallback</i> callback routine performs a power control operation that is requested by the power management framework (PoFx).
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceContext
 
+### -param PowerControlCode 
 
-### -param PowerControlCode [in]
-
+[in]
 A pointer to the power control code. This code is a GUID value that specifies the requested operation.
 
+### -param InBuffer 
 
-### -param InBuffer [in, optional]
-
+[in, optional]
 A pointer to the buffer that contains the input data for the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter. The <i>InBuffer</i> parameter is optional and can be specified as NULL if the specified operation requires no input data.
 
+### -param InBufferSize 
 
-### -param InBufferSize [in]
-
+[in]
 The size, in bytes, of the input buffer that is pointed to by the <i>InBuffer</i> parameter. If <i>InBuffer</i> is NULL, this parameter is zero.
 
+### -param OutBuffer 
 
-### -param OutBuffer [out, optional]
-
+[out, optional]
 A pointer to the buffer to which the callback routine writes the output data from the operation. The format for the data in this buffer depends on the power control code specified by the <i>PowerControlCode</i> parameter.  The <i>OutBuffer</i> parameter is optional and can be specified as NULL if the specified operation produces no output data.
 
+### -param OutBufferSize 
 
-### -param OutBufferSize [in]
-
+[in]
 The size, in bytes, of the output buffer that is pointed to by the <i>OutBuffer</i> parameter. If <i>OutBuffer</i> is NULL, this parameter is zero.
 
+### -param BytesReturned 
 
-### -param BytesReturned [out, optional]
-
+[out, optional]
 A pointer to a location into which the routine writes the number of bytes of data that were written to the buffer that is pointed to by <i>OutBuffer</i>. The number of bytes written must be less than or equal to <i>OutBufferSize</i>. This parameter is optional and can be specified as NULL if the caller does not need to know how many bytes were written to the output buffer.
 
 
@@ -92,19 +87,11 @@ A pointer to a location into which the routine writes the number of bytes of dat
 
 A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the driver used to register the device with PoFx. This context is opaque to PoFx.
 
-
 ## -returns
-
-
 
 The <i>PowerControlCallback</i> routine returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 PoFx calls this routine to send a power control request directly to the device driver. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to the driver and is not observed by other device drivers in the device stack. During a <i>PowerControlCallback</i> call, the driver synchronously performs the requested operation.
 
@@ -160,19 +147,11 @@ The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header fi
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxpowercontrol">PoFxPowerControl</a>
- 
-
- 
 

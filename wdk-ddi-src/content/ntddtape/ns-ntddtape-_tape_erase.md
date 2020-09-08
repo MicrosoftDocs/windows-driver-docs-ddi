@@ -8,9 +8,6 @@ ms.assetid: dc17efe6-9183-4908-8ca5-69c6ae38db6d
 ms.date: 03/29/2018
 keywords: ["TAPE_ERASE structure"]
 ms.keywords: "*PTAPE_ERASE, PTAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices], TAPE_ERASE, TAPE_ERASE structure [Storage Devices], _TAPE_ERASE, ntddtape/PTAPE_ERASE, ntddtape/TAPE_ERASE, storage.tape_erase, structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml"
-f1_keywords:
- - "ntddtape/TAPE_ERASE"
- - "TAPE_ERASE"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
@@ -28,50 +25,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddtape.h
-api_name:
-- TAPE_ERASE
 targetos: Windows
 req.typenames: TAPE_ERASE, *PTAPE_ERASE
+f1_keywords:
+ - _TAPE_ERASE
+ - ntddtape/_TAPE_ERASE
+ - PTAPE_ERASE
+ - ntddtape/PTAPE_ERASE
+ - TAPE_ERASE
+ - ntddtape/TAPE_ERASE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddtape.h
+api_name:
+ - TAPE_ERASE
 ---
 
-# _TAPE_ERASE structure
+# _TAPE_ERASE structure (ntddtape.h)
 
 
 ## -description
 
-
 The TAPE_ERASE structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a> request to erase the current tape partition.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Type
 
-Indicates the type of erasure to perform. When this member is set to TAPE_ERASE_LONG, the tape partition is overwritten with a filler pattern. When it is set to TAPE_ERASE_SHORT, an end-of-recorded-data mark is written to the current position. 
-
+Indicates the type of erasure to perform. When this member is set to TAPE_ERASE_LONG, the tape partition is overwritten with a filler pattern. When it is set to TAPE_ERASE_SHORT, an end-of-recorded-data mark is written to the current position.
 
 ### -field Immediate
 
-Indicates that the target device should return status immediately, when set to <b>TRUE</b>. When this member is set to <b>FALSE</b>, the device should return status after the operation is complete. 
-
+Indicates that the target device should return status immediately, when set to <b>TRUE</b>. When this member is set to <b>FALSE</b>, the device should return status after the operation is complete.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a>
- 
-
- 
 

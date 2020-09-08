@@ -8,9 +8,6 @@ ms.assetid: 8ea36895-4728-45ad-84f7-3517afd2327d
 ms.date: 05/02/2018
 keywords: ["NdisMCoDeactivateVcComplete function"]
 ms.keywords: NdisMCoDeactivateVcComplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, ndis/NdisMCoDeactivateVcComplete, netvista.ndismcodeactivatevccomplete
-f1_keywords:
- - "ndis/NdisMCoDeactivateVcComplete"
- - "NdisMCoDeactivateVcComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCoDeactivateVcComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCoDeactivateVcComplete
+ - ndis/NdisMCoDeactivateVcComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCoDeactivateVcComplete
 ---
 
 # NdisMCoDeactivateVcComplete function
@@ -47,36 +47,29 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCoDeactivateVcComplete</b> notifies NDIS and the call manager that the miniport driver has finished
   processing a CM-initiated deactivate-VC request, for which the miniport driver previously returned
   NDIS_STATUS_PENDING.
 
-
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 Specifies the final status of the deactivate-VC operation, which can be NDIS_STATUS_SUCCESS or any
      NDIS_STATUS_
      <i>XXX except</i> NDIS_STATUS_PENDING.
 
+### -param NdisVcHandle 
 
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_deactivate_vc">
      MiniportCoDeactivateVc</a> function.
 
-
 ## -remarks
-
-
 
 A connection-oriented miniport driver must call 
     <b>NdisMCoDeactivateVcComplete</b> if its 
@@ -100,13 +93,7 @@ A call to
     <b>NdisMCoDeactivateVcComplete</b>, the miniport driver can neither indicate receives nor transmit sends
     on the VC.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_deactivate_vc">MiniportCoDeactivateVc</a>
 
@@ -122,7 +109,4 @@ A call to
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deactivate_vc_complete">
    ProtocolCmDeactivateVcComplete</a>
- 
-
- 
 

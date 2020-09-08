@@ -8,9 +8,6 @@ ms.assetid: 7c49c394-d0b3-4594-a623-0a13825bdcec
 ms.date: 02/15/2018
 keywords: ["SDCMD_DESCRIPTOR structure"]
 ms.keywords: "*PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], SD.sdcmd_descriptor, SDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses], _SDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/PSDCMD_DESCRIPTOR, sddef/SDCMD_DESCRIPTOR"
-f1_keywords:
- - "sddef/SDCMD_DESCRIPTOR"
- - "SDCMD_DESCRIPTOR"
 req.header: sddef.h
 req.include-header: Sddef.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sddef.h
-api_name:
-- SDCMD_DESCRIPTOR
 targetos: Windows
 req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+f1_keywords:
+ - _SDCMD_DESCRIPTOR
+ - sddef/_SDCMD_DESCRIPTOR
+ - PSDCMD_DESCRIPTOR
+ - sddef/PSDCMD_DESCRIPTOR
+ - SDCMD_DESCRIPTOR
+ - sddef/SDCMD_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sddef.h
+api_name:
+ - SDCMD_DESCRIPTOR
 ---
 
 # _SDCMD_DESCRIPTOR structure
@@ -46,14 +50,9 @@ req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 
 ## -description
 
-
 The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Cmd
 
@@ -75,25 +74,19 @@ Contains an enumeration value of type <a href="https://docs.microsoft.com/window
 
 that specifies the class of the SD command.
 
-
 ### -field TransferDirection
 
 Contains an enumeration value of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538037(v=vs.85)">SD_TRANSFER_DIRECTION</a> that indicates the direction of the data transfer.
-
 
 ### -field TransferType
 
 Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_transfer_type">SD_TRANSFER_TYPE</a> that indicates the type of the data transfer.
 
-
 ### -field ResponseType
 
 Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_response_type">SD_RESPONSE_TYPE</a> that indicates the type of response that the card sends in response to the command indicated in the <b>Cmd</b> member.
 
-
 ## -remarks
-
-
 
 To send a command to an SD device, a device driver must complete the following steps:
 
@@ -113,13 +106,7 @@ Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACK
 </ol>
 If a driver submits a command request without properly initializing the <b>TransferDirection</b>, <b>TransferType</b>, and <b>ResponseType</b> members of the command descriptor, the request will fail. These members cannot be 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_command_class">SD_COMMAND_CLASS</a>
 
@@ -150,7 +137,4 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>
- 
-
- 
 

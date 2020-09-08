@@ -1,42 +1,41 @@
 ---
 UID: NF:storport.StorPortFreeDmaMemory
 title: StorPortFreeDmaMemory function (storport.h)
-description:  This function is the extended version of the StorPortFreeContiguousMemorySpecifyCache function. It deallocates a range of noncached memory in the nonpaged portion of the system address space.
+description: This function is the extended version of the StorPortFreeContiguousMemorySpecifyCache function. It deallocates a range of noncached memory in the nonpaged portion of the system address space.
 tech.root: storage
 ms.assetid: c32b4578-c75b-45ec-82f7-ff8081346aa8
 ms.date: 10/19/2018
 keywords: ["StorPortFreeDmaMemory function"]
-f1_keywords:
- - "storport/StorPortFreeDmaMemory"
- - "StorPortFreeDmaMemory"
 ms.keywords: StorPortFreeDmaMemory
 req.header: storport.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10 (Version 1803)
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- StorPortFreeDmaMemory
 targetos: Windows
-
+f1_keywords:
+ - StorPortFreeDmaMemory
+ - storport/StorPortFreeDmaMemory
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - StorPortFreeDmaMemory
 ---
 
 # StorPortFreeDmaMemory function
@@ -48,29 +47,28 @@ This function is the extended version of the [StorPortFreeContiguousMemorySpecif
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param BaseAddress 
 
-### -param BaseAddress [in]
-
+[in]
 The base virtual address to free.
 
+### -param NumberOfBytes 
 
-### -param NumberOfBytes [in]
-
+[in]
 The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the [StorPortAllocateContiguousMemorySpecifyCacheNode](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode) routine was previously called.
 
+### -param CacheType 
 
-### -param CacheType [in]
-
+[in]
 The cache type that is used in the call to the [StorPortAllocateContiguousMemorySpecifyCacheNode](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode) routine.
 
-
-
-
 ## -returns
+
 This function returns one of the following status codes:
 
 <table>
@@ -101,15 +99,8 @@ The operation was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a>
- 
+

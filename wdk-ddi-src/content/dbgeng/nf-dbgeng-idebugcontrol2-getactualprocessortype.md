@@ -8,9 +8,6 @@ ms.assetid: c02be0a4-f82a-4895-bbae-21f6ffdc5466
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::GetActualProcessorType"]
 ms.keywords: GetActualProcessorType, GetActualProcessorType method [Windows Debugging], GetActualProcessorType method [Windows Debugging],IDebugControl interface, GetActualProcessorType method [Windows Debugging],IDebugControl2 interface, GetActualProcessorType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetActualProcessorType method, IDebugControl2 interface [Windows Debugging],GetActualProcessorType method, IDebugControl2.GetActualProcessorType, IDebugControl2::GetActualProcessorType, IDebugControl3 interface [Windows Debugging],GetActualProcessorType method, IDebugControl3::GetActualProcessorType, IDebugControl::GetActualProcessorType, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml, dbgeng/IDebugControl2::GetActualProcessorType, dbgeng/IDebugControl3::GetActualProcessorType, dbgeng/IDebugControl::GetActualProcessorType, debugger.getactualprocessortype
-f1_keywords:
- - "dbgeng/IDebugControl.GetActualProcessorType"
- - "IDebugControl.GetActualProcessorType"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.GetActualProcessorType
-- IDebugControl2.GetActualProcessorType
-- IDebugControl3.GetActualProcessorType
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl2::GetActualProcessorType
+ - dbgeng/IDebugControl2::GetActualProcessorType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.GetActualProcessorType
+ - IDebugControl2.GetActualProcessorType
+ - IDebugControl3.GetActualProcessorType
 ---
 
 # IDebugControl2::GetActualProcessorType
@@ -48,17 +48,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetActualProcessorType</b> method returns the processor type of the physical processor of the computer that is running the target.
-
 
 ## -parameters
 
+### -param Type 
 
-
-
-### -param Type [out]
-
+[out]
 Receives the type of the processor.  The processor types are listed in the following table.     
 
 <table>
@@ -117,12 +113,8 @@ EFI byte code architecture
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -143,24 +135,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/target-information">Target Information</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-geteffectiveprocessortype">GetEffectiveProcessorType</a>
 
@@ -179,7 +159,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
 

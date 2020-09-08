@@ -8,9 +8,6 @@ ms.assetid: a2fbb125-42cf-4c33-83bb-3fc875712be3
 ms.date: 04/16/2018
 keywords: ["RtlGetGroupSecurityDescriptor function"]
 ms.keywords: RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetgroupsecuritydescriptor, ntifs/RtlGetGroupSecurityDescriptor, rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml
-f1_keywords:
- - "ntifs/RtlGetGroupSecurityDescriptor"
- - "RtlGetGroupSecurityDescriptor"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlGetGroupSecurityDescriptor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlGetGroupSecurityDescriptor
+ - ntifs/RtlGetGroupSecurityDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlGetGroupSecurityDescriptor
 ---
 
 # RtlGetGroupSecurityDescriptor function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlGetGroupSecurityDescriptor</b> routine returns the primary group information for a given security descriptor.
-
 
 ## -parameters
 
+### -param SecurityDescriptor 
 
-
-
-### -param SecurityDescriptor [in]
-
+[in]
 Pointer to the security descriptor whose primary group information is to be returned.
 
+### -param Group 
 
-### -param Group [out]
-
+[out]
 Pointer to a variable that receives a pointer to the security identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>) for the primary group. If the security descriptor does not contain a primary group, <i>*Group</i> receives <b>NULL</b>.
 
+### -param GroupDefaulted 
 
-### -param GroupDefaulted [out]
-
+[out]
 Pointer to a Boolean variable that receives the value of the SE_GROUP_DEFAULTED flag in the security descriptor's SECURITY_DESCRIPTOR_CONTROL structure. This value is valid only if <i>*Group</i> receives a non-<b>NULL</b> value.
 
-
 ## -returns
-
-
 
 <b>RtlGetGroupSecurityDescriptor</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following:
 
@@ -93,14 +86,8 @@ The security descriptor's revision level is not known or is not supported. This 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the security descriptor pointed to by <i>SecurityDescriptor</i> contains a primary group, <b>RtlGetGroupSecurityDescriptor</b> sets the pointer pointed to by <i>Group</i> to the address of the security descriptor's group SID and sets the variable pointed to by <i>GroupDefaulted</i> to a valid value. 
 
@@ -112,13 +99,7 @@ To retrieve the owner information for a security descriptor, use <a href="https:
 
 For more information about security and access control, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetownersecuritydescriptor">RtlGetOwnerSecurityDescriptor</a>
 
@@ -133,7 +114,4 @@ For more information about security and access control, see the Microsoft Window
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
- 
-
- 
 

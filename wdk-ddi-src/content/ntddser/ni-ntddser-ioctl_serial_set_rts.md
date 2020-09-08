@@ -8,9 +8,6 @@ ms.assetid: a3ce8e93-12b1-4f84-82e5-0a384ac44f66
 ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_RTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_RTS, IOCTL_SERIAL_SET_RTS control, IOCTL_SERIAL_SET_RTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_RTS, serports.ioctl_serial_set_rts, serref_bda4eddb-8ddc-4fd6-83ac-c4b6516fe949.xml
-f1_keywords:
- - "ntddser/IOCTL_SERIAL_SET_RTS"
- - "IOCTL_SERIAL_SET_RTS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddser.h
-api_name:
-- IOCTL_SERIAL_SET_RTS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SERIAL_SET_RTS
+ - ntddser/IOCTL_SERIAL_SET_RTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddser.h
+api_name:
+ - IOCTL_SERIAL_SET_RTS
 ---
 
 # IOCTL_SERIAL_SET_RTS IOCTL
@@ -46,56 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_SERIAL_SET_RTS</b> request sets RTS (request to send).
 
 If a handshake flow control of the device is configured to automatically use RTS, a client cannot clear or set RTS.
 
 A client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clr_rts">IOCTL_SERIAL_CLR_RTS</a> request to clear RTS.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -103,14 +80,7 @@ The <b>Information</b> member is set to zero.
 
 The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the handshake flow control of the device is set to automatically use RTS.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clr_rts">IOCTL_SERIAL_CLR_RTS</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: e6199eab-a1e8-428f-8a3c-4828d3899cec
 ms.date: 05/02/2018
 keywords: ["NdisAllocateSpinLock function"]
 ms.keywords: NdisAllocateSpinLock, NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSpinLock, ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, netvista.ndisallocatespinlock
-f1_keywords:
- - "ndis/NdisAllocateSpinLock"
- - "NdisAllocateSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisAllocateSpinLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisAllocateSpinLock
+ - ndis/NdisAllocateSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisAllocateSpinLock
 ---
 
 # NdisAllocateSpinLock function
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisAllocateSpinLock</b> function initializes a variable of type NDIS_SPIN_LOCK, used to synchronize
   access to resources shared among non-ISR driver functions.
 
-
 ## -parameters
 
+### -param SpinLock 
 
-
-
-### -param SpinLock [out]
-
+[out]
 Pointer to an opaque variable that represents a spin lock.
 
-
 ## -remarks
-
-
 
 Before a driver calls 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a>, 
@@ -164,13 +157,7 @@ Callers of
     <b>NdisAllocateSpinLock</b> can run at any IRQL. Usually a caller is running at IRQL = PASSIVE_LEVEL
     during initialization.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
    Drivers</a>
@@ -238,7 +225,4 @@ Callers of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
- 
-
- 
 

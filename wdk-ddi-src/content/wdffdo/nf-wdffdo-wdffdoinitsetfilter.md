@@ -8,9 +8,6 @@ ms.assetid: 6e195025-4e70-44fa-a12d-0a98417381a0
 ms.date: 02/26/2018
 keywords: ["WdfFdoInitSetFilter function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml, WdfFdoInitSetFilter, WdfFdoInitSetFilter method, kmdf.wdffdoinitsetfilter, wdf.wdffdoinitsetfilter, wdffdo/WdfFdoInitSetFilter
-f1_keywords:
- - "wdffdo/WdfFdoInitSetFilter"
- - "WdfFdoInitSetFilter"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfFdoInitSetFilter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfFdoInitSetFilter
+ - wdffdo/WdfFdoInitSetFilter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfFdoInitSetFilter
 ---
 
 # WdfFdoInitSetFilter function
@@ -49,25 +49,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfFdoInitSetFilter</b> method identifies the calling driver as an upper-level or lower-level <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filter-drivers">filter driver</a>, for a specified device.
 
-
 ## -parameters
 
+### -param DeviceInit 
 
-
-
-### -param DeviceInit [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
-
 ## -remarks
-
-
 
 Filter drivers typically process some I/O requests, but they simply pass most requests to the next driver in the driver stack. If the framework receives a request for one of your driver's devices, and if the driver has not created an I/O queue to receive requests that match the request type, the way the framework processes the request depends on whether the driver has called <b>WdfFdoInitSetFilter</b>:
 
@@ -96,15 +89,7 @@ The following code example identifies the calling driver as a filter driver for 
 WdfFdoInitSetFilter(DeviceInit);
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a>
- 
-
- 
 

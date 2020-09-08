@@ -8,9 +8,6 @@ ms.assetid: dc2c907c-1e3b-418c-85f8-9902dc83f7ab
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::SetInformation"]
 ms.keywords: IWDFIoRequest interface,SetInformation method, IWDFIoRequest.SetInformation, IWDFIoRequest::SetInformation, SetInformation, SetInformation method, SetInformation method,IWDFIoRequest interface, UMDFRequestObjectRef_6b29fa48-7024-44de-ab4f-68907515483a.xml, umdf.iwdfiorequest_setinformation, wdf.iwdfiorequest_setinformation, wudfddi/IWDFIoRequest::SetInformation
-f1_keywords:
- - "wudfddi/IWDFIoRequest.SetInformation"
- - "IWDFIoRequest.SetInformation"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest.SetInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest::SetInformation
+ - wudfddi/IWDFIoRequest::SetInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest.SetInformation
 ---
 
 # IWDFIoRequest::SetInformation
@@ -46,29 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetInformation</b> method sets the size of information for a request.
 
-
 ## -parameters
 
+### -param Information 
 
-
-
-### -param Information [in]
-
+[in]
 A ULONG_PTR value that specifies the size of information to set for the request.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
- 
-
- 
 

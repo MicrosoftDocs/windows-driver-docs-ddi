@@ -8,9 +8,6 @@ ms.assetid: c100aad1-2fb9-49e0-b68e-20b165a69701
 ms.date: 05/02/2018
 keywords: ["NdisRawReadPortBufferUshort macro"]
 ms.keywords: NdisRawReadPortBufferUshort, NdisRawReadPortBufferUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_fc8d7120-4fbc-46e3-9946-c269f2992f56.xml, ndis/NdisRawReadPortBufferUshort, netvista.ndisrawreadportbufferushort
-f1_keywords:
- - "ndis/NdisRawReadPortBufferUshort"
- - "NdisRawReadPortBufferUshort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisRawReadPortBufferUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisRawReadPortBufferUshort
+ - ndis/NdisRawReadPortBufferUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisRawReadPortBufferUshort
 ---
 
 # NdisRawReadPortBufferUshort macro
@@ -46,49 +46,36 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisRawReadPortBufferUshort</b> reads a specified number of USHORTs into a caller-supplied buffer.
-
 
 ## -parameters
 
+### -param Port 
 
-
-
-### -param Port [in]
-
+[in]
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterioportrange">
      NdisMRegisterIoPortRange</a>.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Pointer to a caller-allocated buffer, in resident memory, into which the USHORTs will be
      transferred from the NIC. The caller must allocate a buffer at least (<b>sizeof</b>(USHORT)
      *
      <i>Length</i> ).
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies how many USHORTs to transfer from the NIC.
 
-
 ## -remarks
-
-
 
 <b>NdisRawReadPortBufferUshort</b> reads each USHORT value, one at a time, from the given I/O port into
     the given buffer.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -111,7 +98,4 @@ Specifies how many USHORTs to transfer from the NIC.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisrawwriteportbufferushort">NdisRawWritePortBufferUshort</a>
- 
-
- 
 

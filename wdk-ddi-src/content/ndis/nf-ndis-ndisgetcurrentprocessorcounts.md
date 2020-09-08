@@ -8,9 +8,6 @@ ms.assetid: 43a75def-0288-4615-ac85-b5e340aa11e6
 ms.date: 05/02/2018
 keywords: ["NdisGetCurrentProcessorCounts function"]
 ms.keywords: NdisGetCurrentProcessorCounts, NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCounts, ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, netvista.ndisgetcurrentprocessorcounts
-f1_keywords:
- - "ndis/NdisGetCurrentProcessorCounts"
- - "NdisGetCurrentProcessorCounts"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisGetCurrentProcessorCounts
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisGetCurrentProcessorCounts
+ - ndis/NdisGetCurrentProcessorCounts
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisGetCurrentProcessorCounts
 ---
 
 # NdisGetCurrentProcessorCounts function
@@ -47,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisGetCurrentProcessorCounts</b> function returns counts for the current processor that a driver can use
   to determine CPU usage for a particular time interval.
 
-
 ## -parameters
 
+### -param pIdleCount 
 
-
-
-### -param pIdleCount [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns the cumulative idle time
      for the processor since the system was booted.
 
+### -param pKernelAndUser 
 
-### -param pKernelAndUser [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns the cumulative processing
      time (kernel-mode time plus user-mode time) for the processor since the system was booted.
 
+### -param pIndex 
 
-### -param pIndex [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns a zero-based index that
      identifies the processor within the computer.
 
-
 ## -remarks
-
-
 
 <b>NdisGetCurrentProcessorCounts</b> returns idle and CPU-usage counts that the caller can use to
     determine CPU usage for the current processor. The CPU utilization value indicates how loaded the CPU was
@@ -131,5 +124,4 @@ KernelandUser[n] is the KernelandUser value returned by a previous call, stored 
 
 </li>
 </ul>
-
 

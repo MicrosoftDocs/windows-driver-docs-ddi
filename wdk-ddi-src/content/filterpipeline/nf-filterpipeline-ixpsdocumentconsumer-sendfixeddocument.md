@@ -8,9 +8,6 @@ ms.assetid: 917dd9c3-5552-43d0-b396-9ba236f53132
 ms.date: 04/20/2018
 keywords: ["IXpsDocumentConsumer::SendFixedDocument"]
 ms.keywords: IXpsDocumentConsumer interface [Print Devices],SendFixedDocument method, IXpsDocumentConsumer.SendFixedDocument, IXpsDocumentConsumer::SendFixedDocument, SendFixedDocument, SendFixedDocument method [Print Devices], SendFixedDocument method [Print Devices],IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::SendFixedDocument, filterpipeline_a6ecc63d-889e-4ae1-8031-16accffa9c2a.xml, print.ixpsdocumentconsumer_sendfixeddocument
-f1_keywords:
- - "filterpipeline/IXpsDocumentConsumer.SendFixedDocument"
- - "IXpsDocumentConsumer.SendFixedDocument"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IXpsDocumentConsumer.SendFixedDocument
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsDocumentConsumer::SendFixedDocument
+ - filterpipeline/IXpsDocumentConsumer::SendFixedDocument
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IXpsDocumentConsumer.SendFixedDocument
 ---
 
 # IXpsDocumentConsumer::SendFixedDocument
@@ -46,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <code>SendFixedDocument</code> method sends a fixed document object to the pipeline.
-
 
 ## -parameters
 
+### -param pIFixedDocument 
 
-
-
-### -param pIFixedDocument [in]
-
+[in]
 A pointer to an XPS fixed document object.
-
 
 ## -returns
 
-
-
 <code>SendFixedDocument</code> returns an <b>HRESULT</b> value.
-
-
 

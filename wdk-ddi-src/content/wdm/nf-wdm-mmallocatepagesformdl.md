@@ -8,9 +8,6 @@ ms.assetid: 06b52af0-c2d3-444e-8714-4fce4181dddc
 ms.date: 04/30/2018
 keywords: ["MmAllocatePagesForMdl function"]
 ms.keywords: MmAllocatePagesForMdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, kernel.mmallocatepagesformdl, wdm/MmAllocatePagesForMdl
-f1_keywords:
- - "wdm/MmAllocatePagesForMdl"
- - "MmAllocatePagesForMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmAllocatePagesForMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmAllocatePagesForMdl
+ - wdm/MmAllocatePagesForMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmAllocatePagesForMdl
 ---
 
 # MmAllocatePagesForMdl function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmAllocatePagesForMdl</b> routine allocates zero-filled, nonpaged, physical memory pages to an MDL.
-
 
 ## -parameters
 
+### -param LowAddress 
 
-
-
-### -param LowAddress [in]
-
+[in]
 Specifies the physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocatePagesForMdl</b> cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocatePagesForMdl</b> adds the value of <i>SkipBytes</i> to the previous start address to obtain the start of the next address range.
 
+### -param HighAddress 
 
-### -param HighAddress [in]
+[in]
+Specifies the physical address of the end of the first address range from which the allocated pages can come.
 
-Specifies the physical address of the end of the first address range from which the allocated pages can come. 
+### -param SkipBytes 
 
+[in]
+Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes.
 
-### -param SkipBytes [in]
+### -param TotalBytes 
 
-Specifies the number of bytes to skip from the start of the previous address range from which the allocated pages can come. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes. 
-
-
-### -param TotalBytes [in]
-
-Specifies the total number of bytes to allocate for the MDL. 
-
+[in]
+Specifies the total number of bytes to allocate for the MDL.
 
 ## -returns
-
-
 
 <b>MmAllocatePagesForMdl</b> returns one of the following:
 
@@ -109,14 +102,8 @@ There are no physical memory pages in the specified address ranges, or there is 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Drivers that are running in Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a> routine instead of <b>MmAllocatePagesForMdl</b>. <b>MmAllocatePagesForMdlEx</b> provides better performance than <b>MmAllocatePagesForMdl</b> by avoiding unnecessary flushes of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">TLB</a> and cache memory.
 
@@ -130,15 +117,9 @@ The caller must use <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 In Windows 2000 and later versions of Windows, the maximum amount of memory that <b>MmAllocatePagesForMdl</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
-<b>MmAllocatePagesForMdl</b> runs at IRQL <= APC_LEVEL. Windows Server 2008 and later versions of the Windows operating system enable <b>MmAllocatePagesForMdl</b> callers to call at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below. 
-
-
-
+<b>MmAllocatePagesForMdl</b> runs at IRQL <= APC_LEVEL. Windows Server 2008 and later versions of the Windows operating system enable <b>MmAllocatePagesForMdl</b> callers to call at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
@@ -153,7 +134,4 @@ In Windows 2000 and later versions of Windows, the maximum amount of memory that
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpages">MmMapLockedPages</a>
- 
-
- 
 

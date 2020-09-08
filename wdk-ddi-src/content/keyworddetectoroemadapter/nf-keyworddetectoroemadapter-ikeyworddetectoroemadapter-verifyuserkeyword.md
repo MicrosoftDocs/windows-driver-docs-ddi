@@ -8,9 +8,6 @@ ms.assetid: AFF679B6-B389-4EA2-8834-9B1B47412B7D
 ms.date: 05/08/2018
 keywords: ["IKeywordDetectorOemAdapter::VerifyUserKeyword"]
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],VerifyUserKeyword method, IKeywordDetectorOemAdapter.VerifyUserKeyword, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], VerifyUserKeyword method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_verifyuserkeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword
-f1_keywords:
- - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.VerifyUserKeyword"
- - "IKeywordDetectorOemAdapter.VerifyUserKeyword"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- KeywordDetectorOemAdapter.h
-api_name:
-- IKeywordDetectorOemAdapter.VerifyUserKeyword
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKeywordDetectorOemAdapter::VerifyUserKeyword
+ - keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - KeywordDetectorOemAdapter.h
+api_name:
+ - IKeywordDetectorOemAdapter.VerifyUserKeyword
 ---
 
 # IKeywordDetectorOemAdapter::VerifyUserKeyword
@@ -46,37 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>VerifyUserKeyword</b> method is used by the training user experience  to verify that one instance of a spoken utterance, captured during training, matches a predefined keyword within some tolerance.
-
 
 ## -parameters
 
+### -param ModelData 
 
-
-
-### -param ModelData [in]
-
+[in]
 A pointer to an <b>IStream</b> object bound to model data for a given stored model. On the initial call this will be empty.
 
+### -param KeywordId 
 
-### -param KeywordId [in]
-
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002">KEYWORDID</a> in the  <i>UserRecording</i> parameter.
 
+### -param LangId 
 
-### -param LangId [in]
+[in]
+The <b>LANGID</b> of the spoken language in the <i>UserRecording</i> parameter.
 
-The <b>LANGID</b> of the spoken language in the <i>UserRecording</i> parameter. 
+### -param KeywordEndBytePos 
 
-
-### -param KeywordEndBytePos [in]
-
+[in]
 Indicates the end of the keyword in the UserRecording.
 
+### -param UserRecording 
 
-### -param UserRecording [in]
-
+[in]
 A pointer to the buffer containing the raw data in the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> format.
 
 The user recording must have the following attributes:
@@ -89,8 +85,6 @@ The user recording must have the following attributes:
 </ul>
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -149,14 +143,8 @@ The user recording didn't contain the specified keyword.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Note that audio is processed in a unique way for voice activation training. The following table summarizes the differences between voice activation training and the regular voice recognition usage. 
 
@@ -187,17 +175,8 @@ Note that audio is processed in a unique way for voice activation training. The 
 <td>All mics in array</td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter">IKeywordDetectorOemAdapter</a>
 
@@ -208,7 +187,4 @@ Note that audio is processed in a unique way for voice activation training. The 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002">KEYWORDID</a>
- 
-
- 
 

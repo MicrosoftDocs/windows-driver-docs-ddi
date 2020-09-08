@@ -8,13 +8,10 @@ ms.assetid: 4874ddab-5443-4e03-8f49-493682dabac1
 ms.date: 05/03/2018
 keywords: ["WIAS_ENDORSER_INFO structure"]
 ms.keywords: "*PWIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], WIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO structure [Imaging Devices], _WIAS_ENDORSER_INFO, image.wias_endorser_info, wiamindr_lh/PWIAS_ENDORSER_INFO, wiamindr_lh/WIAS_ENDORSER_INFO, wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml"
-f1_keywords:
- - "wiamindr_lh/WIAS_ENDORSER_INFO"
- - "WIAS_ENDORSER_INFO"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamindr_lh.h
-api_name:
-- WIAS_ENDORSER_INFO
 targetos: Windows
 req.typenames: WIAS_ENDORSER_INFO, *PWIAS_ENDORSER_INFO
+f1_keywords:
+ - _WIAS_ENDORSER_INFO
+ - wiamindr_lh/_WIAS_ENDORSER_INFO
+ - PWIAS_ENDORSER_INFO
+ - wiamindr_lh/PWIAS_ENDORSER_INFO
+ - WIAS_ENDORSER_INFO
+ - wiamindr_lh/WIAS_ENDORSER_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - WIAS_ENDORSER_INFO
 ---
 
 # _WIAS_ENDORSER_INFO structure
+
 
 ## -description
 
@@ -70,3 +75,4 @@ Currently, [wiasParseEndorserString](https://docs.microsoft.com/windows-hardware
 [WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value)
 
 [wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasparseendorserstring)
+

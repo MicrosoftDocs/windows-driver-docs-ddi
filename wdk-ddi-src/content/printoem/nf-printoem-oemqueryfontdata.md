@@ -8,9 +8,6 @@ ms.assetid: dccf1bca-6ea5-4cf0-b768-b569898c90e7
 ms.date: 04/20/2018
 keywords: ["OEMQueryFontData function"]
 ms.keywords: OEMQueryFontData, OEMQueryFontData function [Print Devices], print.oemqueryfontdata, print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml, printoem/OEMQueryFontData
-f1_keywords:
- - "printoem/OEMQueryFontData"
- - "OEMQueryFontData"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMQueryFontData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMQueryFontData
+ - printoem/OEMQueryFontData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMQueryFontData
 ---
 
 # OEMQueryFontData function
@@ -46,32 +46,23 @@ req.typenames:
 
 ## -description
 
-
-The <code>OEMQueryFontData</code> function retrieves information about a realized font. 
-
+The <code>OEMQueryFontData</code> function retrieves information about a realized font.
 
 ## -parameters
 
-
-
-
 ### -param dhpdev
-
 
 ### -param pfo
 
-
 ### -param iMode
-
 
 ### -param hg
 
-
 ### -param pgd
 
+### -param pv 
 
-### -param pv [out]
-
+[out]
 
 ### -param cjSize
 

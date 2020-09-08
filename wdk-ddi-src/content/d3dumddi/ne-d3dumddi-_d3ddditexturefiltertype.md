@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDITEXTUREFILTERTYPE"
- - "_D3DDDITEXTUREFILTERTYPE"
+ - _D3DDDITEXTUREFILTERTYPE
+ - d3dumddi/_D3DDDITEXTUREFILTERTYPE
+ - D3DDDITEXTUREFILTERTYPE
+ - d3dumddi/D3DDDITEXTUREFILTERTYPE
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDITEXTUREFILTERTYPE enumeration
+
 
 ## -description
 

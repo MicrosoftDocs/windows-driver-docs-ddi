@@ -8,9 +8,6 @@ ms.assetid: f774dde1-3498-423b-bf09-239d3d3421b4
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetSourceFileLineOffsetsWide"]
 ms.keywords: GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceFileLineOffsetsWide method, IDebugSymbols3.GetSourceFileLineOffsetsWide, IDebugSymbols3::GetSourceFileLineOffsetsWide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.GetSourceFileLineOffsetsWide"
- - "IDebugSymbols3.GetSourceFileLineOffsetsWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.GetSourceFileLineOffsetsWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetSourceFileLineOffsetsWide
+ - dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.GetSourceFileLineOffsetsWide
 ---
 
 # IDebugSymbols3::GetSourceFileLineOffsetsWide
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSourceFileLineOffsetsWide</b>  method maps each line in a source file to a location in the target's memory.
-
 
 ## -parameters
 
+### -param File 
 
-
-
-### -param File [in]
-
+[in]
 Specifies the name of the file whose lines will be turned into locations in the target's memory.  The symbols for each module in the target are queried for this file.  If the file is not located, the path is dropped and the symbols are queried again.
 
+### -param Buffer 
 
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the locations in the target's memory that correspond to the lines of the source code.  The first entry returned to this array corresponds to the first line of the file, so that <code>Buffer[i]</code> contains the location for line <code>i+1</code>.  If no symbol information is available for a line, the corresponding entry in <i>Buffer</i> is set to DEBUG_INVALID_OFFSET.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferLines 
 
-### -param BufferLines [in]
-
+[in]
 Specifies the number of PULONG64 objects that the <i>Buffer</i> array can hold.
 
+### -param FileLines 
 
-### -param FileLines [out, optional]
-
+[out, optional]
 Receives the number of lines in the source file specified by <i>File</i>.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -109,24 +102,12 @@ The method was successful.  However, the number of lines in the source file exce
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about using the source path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-findsourcefile">FindSourceFile</a>
 
@@ -137,7 +118,4 @@ For more information about using the source path, see <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

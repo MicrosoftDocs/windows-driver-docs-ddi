@@ -8,9 +8,6 @@ ms.assetid: 54FD0308-7E40-40C7-BA3A-FF1EFFBE0DB6
 ms.date: 04/30/2018
 keywords: ["PsCreateSiloContext function"]
 ms.keywords: PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], kernel.pscreatesilocontext, ntddk/PsCreateSiloContext
-f1_keywords:
- - "ntddk/PsCreateSiloContext"
- - "PsCreateSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsCreateSiloContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsCreateSiloContext
+ - ntddk/PsCreateSiloContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsCreateSiloContext
 ---
 
 # PsCreateSiloContext function
@@ -46,43 +46,35 @@ req.typenames:
 
 ## -description
 
-
 This routine  creates an object that will be inserted in a <i>Silo</i>.
-
 
 ## -parameters
 
+### -param Silo 
 
-
-
-### -param Silo [in]
-
+[in]
 A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 The size, in bytes, of the portion of the object defined by the caller.
 
+### -param PoolType 
 
-### -param PoolType [in]
-
+[in]
 The type of pool to allocate from. This parameter is required and must be one of the following: <b>NonPagedPoolNx</b> or <b>PagedPool</b>.
 
+### -param ContextCleanupCallback 
 
-### -param ContextCleanupCallback [in, optional]
-
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-silo_context_cleanup_callback">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>. 
-
+[in, optional]
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-silo_context_cleanup_callback">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>.
 
 ### -param ReturnedSiloContext
 
-A pointer to a caller-allocated variable that receives the address of the newly created object. 
-
+A pointer to a caller-allocated variable that receives the address of the newly created object.
 
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -125,7 +117,4 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
 

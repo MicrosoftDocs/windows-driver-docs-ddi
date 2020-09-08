@@ -8,9 +8,6 @@ ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
 ms.date: 04/20/2018
 keywords: ["IPrinterQueueView::SetViewRange"]
 ms.keywords: IPrinterQueueView interface [Print Devices],SetViewRange method, IPrinterQueueView.SetViewRange, IPrinterQueueView::SetViewRange, SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices],IPrinterQueueView interface, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
-f1_keywords:
- - "printerextension/IPrinterQueueView.SetViewRange"
- - "IPrinterQueueView.SetViewRange"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterQueueView.SetViewRange
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterQueueView::SetViewRange
+ - printerextension/IPrinterQueueView::SetViewRange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterQueueView.SetViewRange
 ---
 
 # IPrinterQueueView::SetViewRange
@@ -46,49 +46,32 @@ req.typenames:
 
 ## -description
 
-
 Sets the range of print jobs being monitored.
-
 
 ## -parameters
 
+### -param ulViewOffset 
 
-
-
-### -param ulViewOffset [in]
-
+[in]
 The start of the range of jobs being monitored. Note that the offset value uses a zero-based index.
 
+### -param ulViewSize 
 
-### -param ulViewSize [in]
-
+[in]
 The  size of the range of jobs being monitored.
-
 
 ## -returns
 
-
-
 This method returns the appropriate <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 Invoking this method causes the events for status change to the jobs to be fired. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged">IPrinterQueueViewEvent::OnChanged</a> event method returns the live queue in response, using the specified maximum range size.
 
 <div class="alert"><b>Note</b>  <i>ulViewSize</i> must be specified as a value less than or equal to 25. If the caller specifies a size which exceeds 25,  this method will return E_INVALIDARG.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-getprinterqueueview">IPrinterQueue2::GetPrinterQueueView</a>
 
@@ -99,7 +82,4 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged">IPrinterQueueViewEvent::OnChanged</a>
- 
-
- 
 

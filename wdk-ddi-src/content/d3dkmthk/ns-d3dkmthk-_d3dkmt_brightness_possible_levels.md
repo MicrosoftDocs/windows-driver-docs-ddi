@@ -7,9 +7,6 @@ ms.assetid: d7402839-2afe-43d3-9747-7b2e98d1c238
 ms.date: 05/10/2018
 keywords: ["D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure"]
 ms.keywords: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure [Display Devices], _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, display.d3dkmt_brightness_possible_levels
-f1_keywords:
- - "d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS"
- - "D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmthk.h
-api_name:
-- D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+f1_keywords:
+ - _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+ - d3dkmthk/_D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+ - D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+ - d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmthk.h
+api_name:
+ - D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
 ---
 
 # _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure
@@ -46,19 +48,13 @@ req.typenames: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
 
 ## -description
 
-
 Contains information about all possible brightness levels that an integrated display panel supports.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LevelCount
 
 The number of brightness levels that the integrated display panel supports.
-
 
 ### -field BrightnessLevels
 

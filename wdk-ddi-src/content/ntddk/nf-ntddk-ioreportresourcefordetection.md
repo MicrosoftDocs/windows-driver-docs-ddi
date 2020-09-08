@@ -8,9 +8,6 @@ ms.assetid: 83b8e0b0-112c-4263-91f8-0c2e20dd76a4
 ms.date: 04/30/2018
 keywords: ["IoReportResourceForDetection function"]
 ms.keywords: IoReportResourceForDetection, IoReportResourceForDetection routine [Kernel-Mode Driver Architecture], k104_e2a8d386-d1bb-4bf5-aa30-d3a905e91174.xml, kernel.ioreportresourcefordetection, ntddk/IoReportResourceForDetection
-f1_keywords:
- - "ntddk/IoReportResourceForDetection"
- - "IoReportResourceForDetection"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoReportResourceForDetection
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoReportResourceForDetection
+ - ntddk/IoReportResourceForDetection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoReportResourceForDetection
 ---
 
 # IoReportResourceForDetection function
@@ -46,53 +46,46 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoReportResourceForDetection</b> routine claims hardware resources in the configuration registry for a legacy device.
-
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 Pointer to the driver object that was input to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine.
 
+### -param DriverList 
 
-### -param DriverList [in, optional]
-
+[in, optional]
 Optionally points to a caller-supplied buffer that contains the driver's resource list, if the driver claims the same resources for all its devices. If the caller specifies a <i>DeviceList</i>, this parameter is ignored.
 
+### -param DriverListSize 
 
-### -param DriverListSize [in, optional]
-
+[in, optional]
 Specifies the size in bytes of an optional <i>DriverList</i>. If <i>DriverList</i> is <b>NULL</b>, this parameter should be zero.
 
+### -param DeviceObject 
 
-### -param DeviceObject [in, optional]
+[in, optional]
+Optionally points to the device object representing device for which the driver is attempting to claim resources.
 
-Optionally points to the device object representing device for which the driver is attempting to claim resources. 
+### -param DeviceList 
 
+[in, optional]
+Optionally points to a caller-supplied buffer containing the device's resource list. If the driver claims the same resources for all its devices, the caller can specify a <i>DriverList</i> instead.
 
-### -param DeviceList [in, optional]
+### -param DeviceListSize 
 
-Optionally points to a caller-supplied buffer containing the device's resource list. If the driver claims the same resources for all its devices, the caller can specify a <i>DriverList</i> instead. 
+[in, optional]
+Specifies the size in bytes of an optional <i>DeviceList</i>. If <i>DeviceList</i> is <b>NULL</b>, this parameter should be zero.
 
+### -param ConflictDetected 
 
-### -param DeviceListSize [in, optional]
-
-Specifies the size in bytes of an optional <i>DeviceList</i>. If <i>DeviceList</i> is <b>NULL</b>, this parameter should be zero. 
-
-
-### -param ConflictDetected [out]
-
-Pointer to a caller-supplied Boolean value that is set to <b>TRUE</b> on return if the resources are not available. 
-
+[out]
+Pointer to a caller-supplied Boolean value that is set to <b>TRUE</b> on return if the resources are not available.
 
 ## -returns
-
-
 
 <b>IoReportResourceForDetection</b> returns STATUS_SUCCESS if the resources are claimed. Possible error return values include the following.
 
@@ -124,14 +117,8 @@ The <i>DeviceList</i> or <i>DriverList</i> is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine is for drivers that detect earlier hardware which cannot be enumerated by Plug and Play (PnP).
 
@@ -161,20 +148,11 @@ A driver can call this routine more than once for a given device. If one set of 
 
 Callers of <b>IoReportResourceForDetection</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportdetecteddevice">IoReportDetectedDevice</a>
- 
-
- 
 

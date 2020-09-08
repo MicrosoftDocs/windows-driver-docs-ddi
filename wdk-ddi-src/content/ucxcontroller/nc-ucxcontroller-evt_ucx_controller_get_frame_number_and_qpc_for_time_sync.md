@@ -8,9 +8,6 @@ ms.assetid: A8D666BD-5C2A-416F-901E-5FF7CF38A084
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback, EvtUcxControllerGetFrameNumberAndQpcForTimeSync, EvtUcxControllerGetFrameNumberAndQpcForTimeSync callback function [Buses], buses.evt_ucx_controller_get_frame_number_and_qpc_for_time_sync, ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync
-f1_keywords:
- - "ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync"
- - "EvtUcxControllerGetFrameNumberAndQpcForTimeSync"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ucxcontroller.h
-api_name:
-- EvtUcxControllerGetFrameNumberAndQpcForTimeSync
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
+ - ucxcontroller/EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ucxcontroller.h
+api_name:
+ - EvtUcxControllerGetFrameNumberAndQpcForTimeSync
 ---
 
 # EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback function
@@ -46,44 +46,33 @@ req.typenames:
 
 ## -description
 
-
 UCX invokes this callback to retrieves the system query performance counter (QPC) value  synchronized with the  frame and microframe.
-
 
 ## -parameters
 
+### -param UcxController 
 
-
-
-### -param UcxController [in]
-
+[in]
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
+### -param WdfRequest 
 
-### -param WdfRequest [in]
-
+[in]
 A framework request object that contains the request to get the synchronized frame and microframe number.
 
+### -param OutputBufferLength 
 
-### -param OutputBufferLength [in]
-
+[in]
 The length, in bytes, of the request's output buffer, if an output buffer
-        is available. This value is the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_frame_number_and_qpc_for_time_sync_information">USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION</a> structure. 
+        is available. This value is the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_frame_number_and_qpc_for_time_sync_information">USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION</a> structure.
 
+### -param InputBufferLength 
 
-### -param InputBufferLength [in]
-
+[in]
 The length, in bytes, of the request's input buffer, if an input buffer
         is available. This value is the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_frame_number_and_qpc_for_time_sync_information">USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION</a> structure.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_frame_number_and_qpc_for_time_sync">IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC</a>
- 
-
- 
 

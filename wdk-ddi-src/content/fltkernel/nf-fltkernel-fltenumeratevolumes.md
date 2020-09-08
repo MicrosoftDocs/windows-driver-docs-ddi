@@ -8,9 +8,6 @@ ms.assetid: 67038ff5-c450-460b-b158-f5d817fdc972
 ms.date: 04/16/2018
 keywords: ["FltEnumerateVolumes function"]
 ms.keywords: FltApiRef_e_to_o_20e817de-0825-4c5f-a831-2815c216344e.xml, FltEnumerateVolumes, FltEnumerateVolumes routine [Installable File System Drivers], fltkernel/FltEnumerateVolumes, ifsk.fltenumeratevolumes
-f1_keywords:
- - "fltkernel/FltEnumerateVolumes"
- - "FltEnumerateVolumes"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltEnumerateVolumes
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltEnumerateVolumes
+ - fltkernel/FltEnumerateVolumes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltEnumerateVolumes
 ---
 
 # FltEnumerateVolumes function
@@ -47,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltEnumerateVolumes</b> routine enumerates all volumes in the system. 
-
+The <b>FltEnumerateVolumes</b> routine enumerates all volumes in the system.
 
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
+[in]
 Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param VolumeList 
 
-### -param VolumeList [out]
-
+[out]
 Pointer to a caller-allocated buffer that receives an array of opaque volume pointers. This parameter is optional and can be <b>NULL</b> if <i>VolumeListSize</i> is zero. If <i>VolumeListSize</i> is zero on input and <i>VolumeList</i> is <b>NULL</b>, <i>NumberVolumesReturned</i> receives the number of volumes found.
 
+### -param VolumeListSize 
 
-### -param VolumeListSize [in]
-
+[in]
 Number of opaque filter pointers that the buffer that <i>VolumeList</i> points to can hold. This parameter is optional and can be zero. If <i>VolumeListSize</i> is zero on input and <i>VolumeList</i> is <b>NULL</b>, <i>NumberVolumesReturned</i> receives the number of volumes found.
 
+### -param NumberVolumesReturned 
 
-### -param NumberVolumesReturned [out]
-
+[out]
 Pointer to a caller-allocated variable that receives the number of opaque volume pointers returned in the array that <i>VolumeList </i>points to. If <i>VolumeListSize</i> is too small and <i>VolumeList</i> is non-<b>NULL</b> on input, <b>FltEnumerateVolumes</b> returns STATUS_BUFFER_TOO_SMALL and sets <i>NumberVolumesReturned</i> to point to the number of volumes found. This parameter is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FltEnumerateVolumes</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
@@ -99,14 +92,8 @@ The buffer that the <i>VolumeList</i> parameter points to is not large enough to
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because the contents of the filter manager's volume list can change at any time, two calls to <b>FltEnumerateVolumes</b> are not guaranteed to return the same result. 
 
@@ -120,15 +107,9 @@ To enumerate all registered minifilter drivers, call <a href="https://docs.micro
 
 To enumerate all minifilter driver instances, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstances">FltEnumerateInstances</a>. 
 
-To enumerate all minifilter driver instances on a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>. 
-
-
-
+To enumerate all minifilter driver instances on a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a>
 
@@ -151,7 +132,4 @@ To enumerate all minifilter driver instances on a given volume, call <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
- 
-
- 
 

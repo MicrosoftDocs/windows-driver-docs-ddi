@@ -8,9 +8,6 @@ ms.assetid: 0b7f2f55-f7b8-415b-b683-3b6b96f84eb3
 ms.date: 02/23/2018
 keywords: ["KdBreakPointWithStatus macro"]
 ms.keywords: DebugFns_f34fa39a-d436-44db-97ff-3ccdd50384d8.xml, KdBreakPointWithStatus, KdBreakPointWithStatus function [Driver Development Tools], devtest.kdbreakpointwithstatus, ntddk/KdBreakPointWithStatus
-f1_keywords:
- - "wdm/KdBreakPointWithStatus"
- - "KdBreakPointWithStatus"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- KdBreakPointWithStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KdBreakPointWithStatus
+ - wdm/KdBreakPointWithStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - KdBreakPointWithStatus
 ---
 
 # KdBreakPointWithStatus macro
@@ -46,24 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>KdBreakPointWithStatus</b> macro breaks into the kernel debugger and sends the value of <i>Status</i> to the debugger.
-
 
 ## -parameters
 
+### -param s 
 
-
-
-### -param s [in]
-
+[in]
 Specifies a ULONG value to be sent to the debugger (for example, a status code or an address).
 
-
-
 ## -remarks
-
-
 
 <b>KdBreakPointWithStatus</b> is identical to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgbreakpointwithstatus">DbgBreakPointWithStatus</a> routine in code that is compiled for a debug configuration. This routine has no effect if compiled in a release configuration.
 
@@ -73,13 +65,7 @@ This routine raises an exception that is handled by the kernel debugger if one i
 
 In kernel mode, a break exception that is not handled will cause a bug check. You can, however, connect a kernel-mode debugger to a target computer that has stopped responding and has kernel debugging enabled. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/index">Windows Debugging</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgbreakpoint">DbgBreakPoint</a>
 
@@ -94,7 +80,4 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/index">Windows Debugging</a>
- 
-
- 
 

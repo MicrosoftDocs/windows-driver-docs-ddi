@@ -8,9 +8,6 @@ ms.assetid: 0f24bddd-9e22-4710-9028-dbeeac29e2d5
 ms.date: 05/02/2018
 keywords: ["RIL_SetMsgInUiccStatus function"]
 ms.keywords: RIL_SetMsgInUiccStatus, RIL_SetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsginuiccstatus, rilapi/RIL_SetMsgInUiccStatus
-f1_keywords:
- - "rilapi/RIL_SetMsgInUiccStatus"
- - "RIL_SetMsgInUiccStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SetMsgInUiccStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SetMsgInUiccStatus
+ - rilapi/RIL_SetMsgInUiccStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SetMsgInUiccStatus
 ---
 
 # RIL_SetMsgInUiccStatus function
@@ -46,37 +46,21 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param hUiccApp
-
 
 ### -param dwIndex
 
-
 ### -param dwStatus
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

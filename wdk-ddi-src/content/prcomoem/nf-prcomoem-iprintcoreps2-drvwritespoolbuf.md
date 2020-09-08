@@ -8,9 +8,6 @@ ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
 ms.date: 04/20/2018
 keywords: ["IPrintCorePS2::DrvWriteSpoolBuf"]
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],DrvWriteSpoolBuf method, IPrintCorePS2.DrvWriteSpoolBuf, IPrintCorePS2::DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
-f1_keywords:
- - "prcomoem/IPrintCorePS2.DrvWriteSpoolBuf"
- - "IPrintCorePS2.DrvWriteSpoolBuf"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCorePS2.DrvWriteSpoolBuf
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCorePS2::DrvWriteSpoolBuf
+ - prcomoem/IPrintCorePS2::DrvWriteSpoolBuf
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCorePS2.DrvWriteSpoolBuf
 ---
 
 # IPrintCorePS2::DrvWriteSpoolBuf
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCorePS2::DrvWriteSpoolBuf</code> method is provided by the Pscript5 driver so that a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/rendering-plug-ins">rendering plug-in</a> can send printer data to the spooler.
-
 
 ## -parameters
 
+### -param pdevobj 
 
-
-
-### -param pdevobj [in]
-
+[in]
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
+### -param pBuffer 
 
-### -param pBuffer [in]
-
+[in]
 Caller-supplied pointer to a buffer containing data to be sent to the print spooler.
 
+### -param cbSize 
 
-### -param cbSize [in]
+[in]
+Caller-supplied value representing the size, in bytes, of the buffer pointed to by <i>pBuffer</i>.
 
-Caller-supplied value representing the size, in bytes, of the buffer pointed to by <i>pBuffer</i>. 
+### -param pdwResult 
 
-
-### -param pdwResult [out]
-
+[out]
 Receives a method-supplied value representing the number of bytes sent to the spooler.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -120,31 +113,16 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method has the same behavior as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverps-drvwritespoolbuf">IPrintOemDriverPS::DrvWriteSpoolBuf</a>. This method is supported for any Pscript5 render plug-ins.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreps2">IPrintCorePS2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverps-drvwritespoolbuf">IPrintOemDriverPS::DrvWriteSpoolBuf</a>
- 
-
- 
 

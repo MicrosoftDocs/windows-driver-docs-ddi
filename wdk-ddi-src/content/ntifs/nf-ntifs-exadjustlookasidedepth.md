@@ -8,9 +8,6 @@ ms.assetid: 2c108eda-ab46-48ed-b43a-7a3da390c64b
 ms.date: 04/16/2018
 keywords: ["ExAdjustLookasideDepth function"]
 ms.keywords: ExAdjustLookasideDepth, ExAdjustLookasideDepth function [Installable File System Drivers], exref_c7837105-d91f-42c1-ba97-a292550b4eb5.xml, ifsk.exadjustlookasidedepth, ntifs/ExAdjustLookasideDepth
-f1_keywords:
- - "ntifs/ExAdjustLookasideDepth"
- - "ExAdjustLookasideDepth"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- ExAdjustLookasideDepth
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAdjustLookasideDepth
+ - ntifs/ExAdjustLookasideDepth
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - ExAdjustLookasideDepth
 ---
 
 # ExAdjustLookasideDepth function
@@ -46,7 +46,5 @@ req.typenames:
 
 ## -description
 
-
-This routine is reserved for system use. Do not use this routine in your driver. 
-
+This routine is reserved for system use. Do not use this routine in your driver.
 

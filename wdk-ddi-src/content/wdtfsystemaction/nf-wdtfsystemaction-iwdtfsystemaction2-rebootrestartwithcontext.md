@@ -8,9 +8,6 @@ ms.assetid: d88fe083-328c-4ce4-bb15-9fa824384f57
 ms.date: 04/04/2018
 keywords: ["IWDTFSystemAction2::RebootRestartWithContext"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],RebootRestartWithContext method, IWDTFSystemAction2.RebootRestartWithContext, IWDTFSystemAction2::RebootRestartWithContext, Microsoft.WDTF.IWDTFSystemAction2.RebootRestartWithContext, Microsoft::WDTF::IWDTFSystemAction2::RebootRestartWithContext, RebootRestartWithContext, RebootRestartWithContext method [Windows Device Testing Framework], RebootRestartWithContext method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_rebootrestartwithcontext, wdtfsystemaction/IWDTFSystemAction2::RebootRestartWithContext
-f1_keywords:
- - "wdtfsystemaction/IWDTFSystemAction2.RebootRestartWithContext"
- - "IWDTFSystemAction2.RebootRestartWithContext"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFSystemAction.Interop.dll
-api_name:
-- IWDTFSystemAction2.RebootRestartWithContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSystemAction2::RebootRestartWithContext
+ - wdtfsystemaction/IWDTFSystemAction2::RebootRestartWithContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFSystemAction.Interop.dll
+api_name:
+ - IWDTFSystemAction2.RebootRestartWithContext
 ---
 
 # IWDTFSystemAction2::RebootRestartWithContext
@@ -46,21 +46,11 @@ req.typenames:
 
 ## -description
 
-
 Reboots the  system and restarts the test script with context data.
-
 
 ## -parameters
 
-
-
-
 ### -param psContextName
-
-
-
-
-
 
 #### - psContext [in]
 
@@ -71,23 +61,11 @@ The context name.
 
 The context data.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 4fa3d51a-d2f5-4b5f-abc0-515bf7211b87
 ms.date: 05/03/2018
 keywords: ["ReadControlSpace64 function"]
 ms.keywords: ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, debugger.readcontrolspace64, wdbgexts/ReadControlSpace64
-f1_keywords:
- - "wdbgexts/ReadControlSpace64"
- - "ReadControlSpace64"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdbgexts.h
-api_name:
-- ReadControlSpace64
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ReadControlSpace64
+ - wdbgexts/ReadControlSpace64
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdbgexts.h
+api_name:
+ - ReadControlSpace64
 ---
 
 # ReadControlSpace64 function
@@ -46,38 +46,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReadControlSpace64</b> function reads the processor-specific control space into the array pointed to by <i>buf</i>.
 
-
 ## -parameters
-
-
-
 
 ### -param processor
 
 Specifies the number of the processor whose control space is to be read.
 
-
 ### -param address
 
 Specifies the address of the control space.
-
 
 ### -param buf
 
 Specifies the address of an array of bytes to hold the control space data.
 
-
 ### -param size
 
 Specifies the number of bytes in the array pointed to by <i>buf</i>.
 
-
 ## -remarks
-
-
 
 If you are writing 32-bit code, you should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readcontrolspace">ReadControlSpace</a> instead. See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/32-bit-pointers-and-64-bit-pointers">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
@@ -155,6 +144,4 @@ This macro does not return a value.
 
 
 The parameters provided to this macro are the same as those provided to the <b>ReadControlSpace64</b> function except that instead of providing a pointer to a structure and its size, the structure can be provided directly.
-
-
 

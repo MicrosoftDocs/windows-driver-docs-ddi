@@ -8,9 +8,6 @@ ms.assetid: 28d23e5e-4daf-4176-8d7b-af92eee8ccef
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::OpenLogFile2Wide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],OpenLogFile2Wide method, IDebugControl4.OpenLogFile2Wide, IDebugControl4::OpenLogFile2Wide, OpenLogFile2Wide, OpenLogFile2Wide method [Windows Debugging], OpenLogFile2Wide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OpenLogFile2Wide, debugger.openlogfile2wide
-f1_keywords:
- - "dbgeng/IDebugControl4.OpenLogFile2Wide"
- - "IDebugControl4.OpenLogFile2Wide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.OpenLogFile2Wide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::OpenLogFile2Wide
+ - dbgeng/IDebugControl4::OpenLogFile2Wide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.OpenLogFile2Wide
 ---
 
 # IDebugControl4::OpenLogFile2Wide
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>OpenLogFile2Wide</b>  method opens a log file that will receive output from the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">client objects</a>.
-
 
 ## -parameters
 
+### -param File 
 
-
-
-### -param File [in]
-
+[in]
 Specifies the name of the log file.  <i>File</i> can include a relative or absolute path; relative paths are relative to the directory in which the debugger  was started.  If the file does not exist, it will be created.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies the bit-flags that control the nature of the log file.  <i>Flags</i> can contain flags from the following table.
 
 <table>
@@ -94,10 +90,7 @@ The format of the log file will be Unicode instead of ASCII.
 
 Alternatively, <i>Flags</i> can be set to DEBUG_LOG_DEFAULT for the default set of options that contains none of the flags.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -118,26 +111,14 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only one log file can be open at a time.  If there is already a log file open, it will be closed.
 
 For more information about log files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">Using Input and Output</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-logappend--append-log-file-">.logappend (Append Log File)</a>
 
@@ -168,7 +149,4 @@ For more information about log files, see <a href="https://docs.microsoft.com/wi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setlogmask">SetLogMask</a>
- 
-
- 
 

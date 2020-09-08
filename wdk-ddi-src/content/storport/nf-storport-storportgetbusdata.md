@@ -8,9 +8,6 @@ ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.date: 03/29/2018
 keywords: ["StorPortGetBusData function"]
 ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
-f1_keywords:
- - "storport/StorPortGetBusData"
- - "StorPortGetBusData"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortGetBusData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetBusData
+ - storport/StorPortGetBusData
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortGetBusData
 ---
 
 # StorPortGetBusData function
+
 
 ## -description
 
@@ -50,30 +51,36 @@ The **StorPortGetBusData** routine retrieves the bus-specific configuration info
 
 ## -parameters
 
-### -param DeviceExtension [in]
+### -param DeviceExtension 
 
+[in]
 Pointer to the miniport driver's per-HBA storage area.
 
-### -param BusDataType [in]
+### -param BusDataType 
 
+[in]
 Contains a value of type [**BUS_DATA_TYPE**](..ntddk/ne-ntddk-_bus_data_type.md) that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: **Cmos**, **EisaConfiguration**, **Pos**, or **PCIConfiguration**. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always **MaximumBusDataType**.
 
-### -param SystemIoBusNumber [in]
+### -param SystemIoBusNumber 
 
+[in]
 Specifies the system-assigned number of the I/O bus. The miniport driver's [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routine obtains this value from the **SystemIoBusNumber** member initially set in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md).
 
-### -param SlotNumber [in]
+### -param SlotNumber 
 
+[in]
 Specifies the logical slot number or location of the device.
 
 If **PCIConfiguration** is specified as the *BusDataType*, this parameter must be specified as a PCI_SLOT_NUMBER-type value.
 
-### -param Buffer [in, out]
+### -param Buffer 
 
+[in, out]
 Pointer to a buffer or area to which the configuration data is returned or, if the given *Length* is zero, points to a location to which the OS-specific port driver returns a pointer to a buffer that it allocates.
 
-### -param Length [in]
+### -param Length 
 
+[in]
 Specifies the maximum number of bytes to return at *Buffer*, or zero if the caller requires the OS-specific port driver to allocate a buffer to contain the data.
 
 ## -returns
@@ -96,3 +103,4 @@ Configuration data returned by **StorPortGetBusData** is valid only until the mi
 [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md)
 
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
+

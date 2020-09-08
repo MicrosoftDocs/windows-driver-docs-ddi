@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetDisplayPrivateDriverFormat"
- - "DxgkDdiSetDisplayPrivateDriverFormat"
+ - DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT
+ - d3dkmddi/DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT callback function
+
 
 ## -description
 

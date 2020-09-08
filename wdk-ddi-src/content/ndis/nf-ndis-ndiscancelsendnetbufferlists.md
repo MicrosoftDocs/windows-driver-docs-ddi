@@ -8,9 +8,6 @@ ms.assetid: 7b61db73-ddd4-4d46-b378-9a82fdf041ea
 ms.date: 05/02/2018
 keywords: ["NdisCancelSendNetBufferLists function"]
 ms.keywords: NdisCancelSendNetBufferLists, NdisCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisCancelSendNetBufferLists, ndis_sendrcv_ref_f4aca438-863f-44fa-9503-8ac339010360.xml, netvista.ndiscancelsendnetbufferlists
-f1_keywords:
- - "ndis/NdisCancelSendNetBufferLists"
- - "NdisCancelSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCancelSendNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCancelSendNetBufferLists
+ - ndis/NdisCancelSendNetBufferLists
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCancelSendNetBufferLists
 ---
 
 # NdisCancelSendNetBufferLists function
@@ -47,32 +47,25 @@ req.typenames:
 
 ## -description
 
-
 Protocol drivers call the 
   <b>NdisCancelSendNetBufferLists</b> function to cancel the transmission of network data.
 
-
 ## -parameters
 
+### -param NdisBindingHandle 
 
-
-
-### -param NdisBindingHandle [in]
-
+[in]
 The handle returned by the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function that
      identifies the miniport driver or virtual miniport to which the cancellation applies.
 
+### -param CancelId 
 
-### -param CancelId [in]
-
+[in]
 The cancellation identifier. This identifier specifies the network data for which transmission is
      being canceled.
 
-
 ## -remarks
-
-
 
 A protocol driver maps IRPs that it receives from higher-level software to NDIS network data. A list
     of 
@@ -121,13 +114,7 @@ In all cases, NDIS returns network data that was submitted for transmission to t
     <b>NdisCancelSendNetBufferLists</b> and the return of the canceled NET_BUFFER_LIST structures can vary and
     therefore cannot be exactly specified.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>
 
@@ -152,7 +139,4 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
    ProtocolSendNetBufferListsComplete</a>
- 
-
- 
 

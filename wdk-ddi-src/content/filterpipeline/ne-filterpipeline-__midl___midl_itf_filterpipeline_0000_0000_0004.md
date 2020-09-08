@@ -8,9 +8,6 @@ ms.assetid: 079BEF8A-514E-42C3-8916-95655C605098
 ms.date: 04/20/2018
 keywords: ["_MIDL___MIDL_itf_filterpipeline_0000_0000_0004 enumeration"]
 ms.keywords: EXpsFontRestriction, EXpsFontRestriction enumeration [Print Devices], Xps_Restricted_Font_Editable, Xps_Restricted_Font_Installable, Xps_Restricted_Font_NoEmbedding, Xps_Restricted_Font_PreviewPrint, __MIDL___MIDL_itf_filterpipeline_0000_0000_0004, filterpipeline/EXpsFontRestriction, filterpipeline/Xps_Restricted_Font_Editable, filterpipeline/Xps_Restricted_Font_Installable, filterpipeline/Xps_Restricted_Font_NoEmbedding, filterpipeline/Xps_Restricted_Font_PreviewPrint, print.expsfontrestriction
-f1_keywords:
- - "filterpipeline/EXpsFontRestriction"
- - "EXpsFontRestriction"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Filterpipeline.h
-api_name:
-- EXpsFontRestriction
 targetos: Windows
 req.typenames: EXpsFontRestriction
+f1_keywords:
+ - __MIDL___MIDL_itf_filterpipeline_0000_0000_0004
+ - filterpipeline/__MIDL___MIDL_itf_filterpipeline_0000_0000_0004
+ - EXpsFontRestriction
+ - filterpipeline/EXpsFontRestriction
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Filterpipeline.h
+api_name:
+ - EXpsFontRestriction
 ---
 
 # __MIDL___MIDL_itf_filterpipeline_0000_0000_0004 enumeration
@@ -46,23 +48,13 @@ req.typenames: EXpsFontRestriction
 
 ## -description
 
-
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field Xps_Restricted_Font_Installable
 
-
 ### -field Xps_Restricted_Font_NoEmbedding
 
-
 ### -field Xps_Restricted_Font_PreviewPrint
-
 
 ### -field Xps_Restricted_Font_Editable
 

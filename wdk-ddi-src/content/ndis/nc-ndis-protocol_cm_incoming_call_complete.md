@@ -8,9 +8,6 @@ ms.assetid: 353e929b-17c8-47e8-82fd-b646e93a5b9a
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_INCOMING_CALL_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CM_INCOMING_CALL_COMPLETE, PROTOCOL_CM_INCOMING_CALL_COMPLETE callback, ProtocolCmIncomingCallComplete, ProtocolCmIncomingCallComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0760b8c9-29b8-40ff-b8a9-03e4c4f792e2.xml, ndis/ProtocolCmIncomingCallComplete, netvista.protocolcmincomingcallcomplete
-f1_keywords:
- - "ndis/ProtocolCmIncomingCallComplete"
- - "ProtocolCmIncomingCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmIncomingCallComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_INCOMING_CALL_COMPLETE
+ - ndis/PROTOCOL_CM_INCOMING_CALL_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmIncomingCallComplete
 ---
 
 # PROTOCOL_CM_INCOMING_CALL_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmIncomingCallComplete</i> function is required. When NDIS calls this function, 
@@ -58,32 +57,27 @@ The
 
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 Indicates the final status of the operation to dispatch an incoming call to a connection-oriented
      client.
 
+### -param CallMgrVcContext 
 
-### -param CallMgrVcContext [in]
-
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
+### -param CallParameters 
 
-### -param CallParameters [in]
-
+[in]
 Pointer to the call parameters as specified by the call manager in the call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingcall">NdisCmDispatchIncomingCall</a>.
      The signaling protocol determines which call parameters, if any, the call manager can change.
 
-
 ## -remarks
-
-
 
 When the connection-oriented client has completed processing of an incoming connection offer that the
     call manager dispatched to it, this routine will be called if 
@@ -134,15 +128,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CM_INCOMING_CALL_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_INCOMING_CALL_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdispatchincomingcall">NdisCmDispatchIncomingCall</a>
 
@@ -153,7 +141,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a>
- 
-
- 
 

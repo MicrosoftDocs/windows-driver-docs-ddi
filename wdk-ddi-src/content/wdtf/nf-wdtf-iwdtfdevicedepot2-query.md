@@ -8,9 +8,6 @@ ms.assetid: f8b0cb77-828a-43c7-b0f3-34eca0da49bf
 ms.date: 04/04/2018
 keywords: ["IWDTFDeviceDepot2::Query"]
 ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],Query method, IWDTFDeviceDepot2.Query, IWDTFDeviceDepot2::Query, Microsoft.WDTF.IWDTFDeviceDepot2.Query, Microsoft::WDTF::IWDTFDeviceDepot2::Query, Query, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_query, wdtf/IWDTFDeviceDepot2::Query
-f1_keywords:
- - "wdtf/IWDTFDeviceDepot2.Query"
- - "IWDTFDeviceDepot2.Query"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFDeviceDepot2.Query
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFDeviceDepot2::Query
+ - wdtf/IWDTFDeviceDepot2::Query
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFDeviceDepot2.Query
 ---
 
 # IWDTFDeviceDepot2::Query
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Returns a subset of the devices in the DeviceDepot.
-
 
 ## -parameters
 
+### -param SDEL 
 
-
-
-### -param SDEL [in]
-
+[in]
 The SDEL query string.
 
+### -param ppTargets 
 
-### -param ppTargets [out, retval]
-
+[out, retval]
 The collection of devices.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 The <b>Query</b> method provides the <i>SDEL</i> 
 parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-eval">IWDTFTarget2::Eval</a> 
@@ -88,16 +76,7 @@ Every target that returns <b>VARIANT_TRUE</b> is added to a new
 instance of the <b>IWDTFTargets2</b> collection 
 interface.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a>
- 
-
- 
 

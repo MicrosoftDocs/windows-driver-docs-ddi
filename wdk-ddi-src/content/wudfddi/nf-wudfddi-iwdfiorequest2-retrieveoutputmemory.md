@@ -8,9 +8,6 @@ ms.assetid: d17e7435-adc3-4248-a6c9-c7e267504291
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest2::RetrieveOutputMemory"]
 ms.keywords: IWDFIoRequest2 interface,RetrieveOutputMemory method, IWDFIoRequest2.RetrieveOutputMemory, IWDFIoRequest2::RetrieveOutputMemory, RetrieveOutputMemory, RetrieveOutputMemory method, RetrieveOutputMemory method,IWDFIoRequest2 interface, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, umdf.iwdfiorequest2_retrieveoutputmemory, wdf.iwdfiorequest2_retrieveoutputmemory, wudfddi/IWDFIoRequest2::RetrieveOutputMemory
-f1_keywords:
- - "wudfddi/IWDFIoRequest2.RetrieveOutputMemory"
- - "IWDFIoRequest2.RetrieveOutputMemory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest2.RetrieveOutputMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest2::RetrieveOutputMemory
+ - wudfddi/IWDFIoRequest2::RetrieveOutputMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest2.RetrieveOutputMemory
 ---
 
 # IWDFIoRequest2::RetrieveOutputMemory
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveOutputMemory</b> method retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface of a framework memory object that represents an I/O request's output buffer.
 
-
 ## -parameters
 
+### -param Memory 
 
-
-
-### -param Memory [out]
-
+[out]
 The address of a location that receives a pointer to the <b>IWDFMemory</b> interface of a UMDF memory object.
 
-
 ## -returns
-
-
 
 <b>RetrieveOutputMemory</b> returns S_OK if the operation succeeds. Otherwise, this method can return the following value:
 
@@ -100,16 +93,7 @@ Not enough memory is available to retrieve the buffer. The driver should complet
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
-
-
-
-
 ## -remarks
-
-
 
 A request's output buffer receives information, such as data from a disk, that the driver provides to the originator of the request. Your driver can call <b>RetrieveOutputMemory</b> to obtain the output buffer for a read request or a device I/O control request, but not for a write request (because write requests do not provide output data).
 
@@ -175,12 +159,7 @@ Exit:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
 
@@ -203,7 +182,4 @@ Exit:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a>
- 
-
- 
 

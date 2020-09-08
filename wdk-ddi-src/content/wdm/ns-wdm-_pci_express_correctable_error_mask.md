@@ -8,79 +8,54 @@ ms.assetid: d666cdd3-a673-4105-b982-e7cc942131ee
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure"]
 ms.keywords: "*PPCI_CORRECTABLE_ERROR_MASK, PCI.pci_express_correctable_error_mask, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], PPCI_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_CORRECTABLE_ERROR_MASK, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK, wdm/PPCI_CORRECTABLE_ERROR_MASK"
-f1_keywords:
- - "wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK"
- - "PCI_EXPRESS_CORRECTABLE_ERROR_MASK"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- PCI_EXPRESS_CORRECTABLE_ERROR_MASK
 targetos: Windows
 req.typenames: PCI_EXPRESS_CORRECTABLE_ERROR_MASK, *PPCI_CORRECTABLE_ERROR_MASK
 req.product: Windows 10 or later.
+f1_keywords:
+ - _PCI_EXPRESS_CORRECTABLE_ERROR_MASK
+ - wdm/_PCI_EXPRESS_CORRECTABLE_ERROR_MASK
+ - PPCI_CORRECTABLE_ERROR_MASK
+ - wdm/PPCI_CORRECTABLE_ERROR_MASK
+ - PCI_EXPRESS_CORRECTABLE_ERROR_MASK
+ - wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - PCI_EXPRESS_CORRECTABLE_ERROR_MASK
 ---
 
-# _PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure
+# _PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure (wdm.h)
 
 
 ## -description
 
-
 The PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) correctable error mask register of a PCIe advanced error reporting capability structure.
-
-
-## -syntax
-
-
-```cpp
-typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_MASK {
-  struct {
-    ULONG ReceiverError  :1;
-    ULONG Reserved1  :5;
-    ULONG BadTLP  :1;
-    ULONG BadDLLP  :1;
-    ULONG ReplayNumRollover  :1;
-    ULONG Reserved2  :3;
-    ULONG ReplayTimerTimeout  :1;
-    ULONG AdvisoryNonFatalError  :1;
-    ULONG Reserved3  :18;
-  };
-  ULONG  AsULONG;
-} PCI_EXPRESS_CORRECTABLE_ERROR_MASK, *PPCI_CORRECTABLE_ERROR_MASK;
-```
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYSTRUCTNAME
-
-
-
 
 ### -field AsULONG
 
@@ -131,17 +106,30 @@ Reserved.
 
 Reserved.
 
+## -syntax
+
+```cpp
+typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_MASK {
+  struct {
+    ULONG ReceiverError  :1;
+    ULONG Reserved1  :5;
+    ULONG BadTLP  :1;
+    ULONG BadDLLP  :1;
+    ULONG ReplayNumRollover  :1;
+    ULONG Reserved2  :3;
+    ULONG ReplayTimerTimeout  :1;
+    ULONG AdvisoryNonFatalError  :1;
+    ULONG Reserved3  :18;
+  };
+  ULONG  AsULONG;
+} PCI_EXPRESS_CORRECTABLE_ERROR_MASK, *PPCI_CORRECTABLE_ERROR_MASK;
+```
 
 ## -remarks
-
-
 
 The PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure is contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_bridge_aer_capability">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a> structures.
-
-
-
 
 ## -see-also
 
@@ -154,11 +142,4 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure is contained in the <a href="http
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_rootport_aer_capability">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
-
-
- 
-
- 
-
 

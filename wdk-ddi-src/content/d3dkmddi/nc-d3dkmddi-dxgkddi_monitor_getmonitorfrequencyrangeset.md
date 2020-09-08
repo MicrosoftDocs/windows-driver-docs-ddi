@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnGetMonitorFrequencyRangeSet"
- - "pfnGetMonitorFrequencyRangeSet"
+ - DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET
+ - d3dkmddi/DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET callback function
+
 
 ## -description
 

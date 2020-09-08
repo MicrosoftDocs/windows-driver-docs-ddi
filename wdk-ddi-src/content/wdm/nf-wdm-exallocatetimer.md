@@ -8,9 +8,6 @@ ms.assetid: 4FCFC48A-97BC-48E0-BBA7-F9E8B8A7588A
 ms.date: 04/30/2018
 keywords: ["ExAllocateTimer function"]
 ms.keywords: ExAllocateTimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], kernel.exallocatetimer, wdm/ExAllocateTimer
-f1_keywords:
- - "wdm/ExAllocateTimer"
- - "ExAllocateTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- ExAllocateTimer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAllocateTimer
+ - wdm/ExAllocateTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - ExAllocateTimer
 ---
 
 # ExAllocateTimer function
@@ -47,27 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExAllocateTimer</b> routine allocates and initializes a timer object.
-
 
 ## -parameters
 
+### -param Callback 
 
-
-
-### -param Callback [in, optional]
-
+[in, optional]
 A pointer to a driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine. The operating system calls this routine when the timer expires. This parameter is optional and can be <b>NULL</b> if no callback routine is needed.
 
+### -param CallbackContext 
 
-### -param CallbackContext [in, optional]
-
+[in, optional]
 A context value for the callback routine pointed to by the <i>Callback</i> parameter. The operating system passes this value as a parameter to the <i>ExTimerCallback</i> callback routine, if one is specified. This parameter is typically a pointer to a caller-defined structure that contains context information used by the callback routine. This parameter is optional and can be set to <b>NULL</b> if no context information is needed.
 
+### -param Attributes 
 
-### -param Attributes [in]
-
+[in]
 The timer attributes. Set this parameter to zero or to the bitwise-OR of one or more of the following timer flag bits.
 
 <table>
@@ -96,19 +92,11 @@ The EX_TIMER_HIGH_RESOLUTION and EX_TIMER_NO_WAKE flag bits are mutually exclusi
 
 For more information about timer attributes, see Remarks.
 
-
 ## -returns
-
-
 
 This routine returns a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure, if the call is successful. This structure is the timer object that the routine has allocated and initialized. If the call fails, the routine returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 This routine returns a pointer to the new timer object. To use the timer, the calling driver supplies this pointer in subsequent calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer">ExSetTimer</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excanceltimer">ExCancelTimer</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routines. If the driver supplies a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine as an input parameter to the <b>ExAllocateTimer</b> routine, the operating system passes this timer object as an input parameter to the <i>ExTimerCallback</i> routine.
 
@@ -124,13 +112,7 @@ The <i>Callback</i> parameter is optional. A driver that does not supply an <i>E
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">ExXxxTimer Routines and EX_TIMER Objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
@@ -149,7 +131,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a>
- 
-
- 
 

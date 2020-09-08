@@ -8,9 +8,6 @@ ms.assetid: 3c61d947-3e05-4750-a50c-be9b2dc573f0
 ms.date: 03/29/2018
 keywords: ["HW_INTERRUPT callback function"]
 ms.keywords: HW_INTERRUPT, HwStorInterrupt, HwStorInterrupt routine [Storage Devices], storage.hwstorinterrupt, stormini_17f68641-1cfd-47b3-a52f-be98f96e693f.xml, storport/HwStorInterrupt
-f1_keywords:
- - "storport/HwStorInterrupt"
- - "HwStorInterrupt"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Storport.h
-api_name:
-- HwStorInterrupt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_INTERRUPT
+ - storport/HW_INTERRUPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Storport.h
+api_name:
+ - HwStorInterrupt
 ---
 
 # HW_INTERRUPT callback function
@@ -46,32 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The Storport driver calls the <b>HwStorInterrupt</b> routine after the HBA generates an interrupt request.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceExtension
 
-A pointer to the miniport driver's per HBA storage area. 
-
+A pointer to the miniport driver's per HBA storage area.
 
 ## -returns
 
-
-
 If the miniport driver finds that its HBA did not generate the interrupt, <b>HwStorInterrupt</b> should return <b>FALSE</b> as soon as possible. The <b>HwStorInterrupt</b> routine should return within 50 microseconds.
 
-
-
-
 ## -remarks
-
-
 
 The name <b>HwStorInterrupt</b> is just a placeholder. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
@@ -122,20 +109,11 @@ MyHwInterrupt (
 </table></span></div>
 The <b>HW_INTERRUPT</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_INTERRUPT</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_dpc_routine">HwStorDpcRoutine</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
- 
-
- 
 

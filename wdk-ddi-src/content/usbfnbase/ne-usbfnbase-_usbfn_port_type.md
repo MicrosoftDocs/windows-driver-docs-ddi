@@ -8,9 +8,6 @@ ms.assetid: D45F8CD0-CB54-4DE4-BD6B-FF6A35FCBFEC
 ms.date: 05/07/2018
 keywords: ["USBFN_PORT_TYPE enumeration"]
 ms.keywords: "*PUSBFN_PORT_TYPE, USBFN_PORT_TYPE, USBFN_PORT_TYPE enumeration [Buses], UsbfnChargingDownstreamPort, UsbfnDedicatedChargingPort, UsbfnInvalidDedicatedChargingPort, UsbfnPortTypeMaximum, UsbfnProprietaryDedicatedChargingPort, UsbfnStandardDownstreamPort, UsbfnUnknownPort, _USBFN_PORT_TYPE, buses.usbfn_port_type, usbfnbase/USBFN_PORT_TYPE, usbfnbase/UsbfnChargingDownstreamPort, usbfnbase/UsbfnDedicatedChargingPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnPortTypeMaximum, usbfnbase/UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnStandardDownstreamPort, usbfnbase/UsbfnUnknownPort"
-f1_keywords:
- - "usbfnbase/USBFN_PORT_TYPE"
- - "USBFN_PORT_TYPE"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbfnbase.h
-api_name:
-- USBFN_PORT_TYPE
 targetos: Windows
 req.typenames: USBFN_PORT_TYPE, *PUSBFN_PORT_TYPE
+f1_keywords:
+ - _USBFN_PORT_TYPE
+ - usbfnbase/_USBFN_PORT_TYPE
+ - PUSBFN_PORT_TYPE
+ - usbfnbase/PUSBFN_PORT_TYPE
+ - USBFN_PORT_TYPE
+ - usbfnbase/USBFN_PORT_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbfnbase.h
+api_name:
+ - USBFN_PORT_TYPE
 ---
 
 # _USBFN_PORT_TYPE enumeration
@@ -46,57 +50,39 @@ req.typenames: USBFN_PORT_TYPE, *PUSBFN_PORT_TYPE
 
 ## -description
 
-
 Defines the possible port types that can be returned by the client driver during port detection.
 
-
 ## -enum-fields
-
-
-
 
 ### -field UsbfnUnknownPort
 
 Port detection was unable to determine the port type.
 
-
 ### -field UsbfnStandardDownstreamPort
 
 The upstream port has been detected as a standard downstream port (SDP) (as defined in the Battery Charging Specification, revision 1.2).
-
 
 ### -field UsbfnChargingDownstreamPort
 
 The upstream port has been detected as a charging downstream port (CDP), as defined in the Battery Charging Specification, revision 1.2.
 
-
 ### -field UsbfnDedicatedChargingPort
 
 The upstream port has been detected as a dedicated charging port (DCP) (as defined in the Battery Charging Specification, revision 1.2).
-
 
 ### -field UsbfnInvalidDedicatedChargingPort
 
 The upstream port has been detected as a dedicated charging port that does not comply with the Battery Charging Specification, revision 1.2.
 
-
 ### -field UsbfnProprietaryDedicatedChargingPort
 
 A proprietary charger was attached.
-
 
 ### -field UsbfnPortTypeMaximum
 
 The maximum value of the enumeration.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnattach/nc-usbfnattach-usbfn_get_attach_action">USBFN_GET_ATTACH_ACTION</a>
- 
-
- 
 

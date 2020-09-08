@@ -8,9 +8,6 @@ ms.assetid: 22840772-7DFC-4339-9C06-4900E47048B4
 ms.date: 04/25/2019
 keywords: ["PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK callback function"]
 ms.keywords: PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, SectionNotificationCallback, SectionNotificationCallback routine [Installable File System Drivers], fltkernel/SectionNotificationCallback, ifsk.pflt_section_conflict_notification_callback
-f1_keywords:
- - "fltkernel/SectionNotificationCallback"
- - "SectionNotificationCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- fltkernel.h
-api_name:
-- SectionNotificationCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK
+ - fltkernel/PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - fltkernel.h
+api_name:
+ - SectionNotificationCallback
 ---
 
 # PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK callback function
+
 
 ## -description
 
@@ -49,16 +50,19 @@ A minifilter driver can optionally register a routine of type PFLT_SECTION_CONFL
 
 ## -parameters
 
-### -param Instance [in]
+### -param Instance 
 
+[in]
 An opaque instance pointer to the minifilter driver instance that is initiating the I/O operation.
 
-### -param SectionContext [in]
+### -param SectionContext 
 
+[in]
 A pointer to the section context that incurred a data scan section conflict.
 
-### -param Data [in]
+### -param Data 
 
+[in]
 A pointer to a caller-allocated structure that contains the callback data.
 
 ## -returns
@@ -80,3 +84,4 @@ Certain situations can occur where holding a section open is incompatible with c
 [FltCreateSectionForDataScan](nf-fltkernel-fltcreatesectionfordatascan.md)
 
 [FltRegisterFilter](nf-fltkernel-fltregisterfilter.md)
+

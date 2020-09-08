@@ -8,9 +8,6 @@ ms.assetid: 46B3C57E-EE02-4821-9D5F-A2005CFC2998
 ms.date: 04/20/2018
 keywords: ["IPrintAsyncNotifyServerReferral interface"]
 ms.keywords: IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices],described, print.iprintasyncnotifyserverreferral, prnasntp/IPrintAsyncNotifyServerReferral
-f1_keywords:
- - "prnasntp/IPrintAsyncNotifyServerReferral"
- - "IPrintAsyncNotifyServerReferral"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintAsyncNotifyServerReferral
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintAsyncNotifyServerReferral
+ - prnasntp/IPrintAsyncNotifyServerReferral
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintAsyncNotifyServerReferral
 ---
 
 # IPrintAsyncNotifyServerReferral interface
 
 
 ## -description
-
-
-
-
 
 ## -inheritance
 

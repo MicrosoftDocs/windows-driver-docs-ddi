@@ -8,9 +8,6 @@ ms.assetid: 41687454-5468-4351-BEAF-2FB6BD80BEFC
 ms.date: 04/30/2018
 keywords: ["RtlULongPtrToIntPtr function"]
 ms.keywords: RtlULongPtrToIntPtr, RtlULongPtrToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtointptr, ntintsafe/RtlULongPtrToIntPtr
-f1_keywords:
- - "ntintsafe/RtlULongPtrToIntPtr"
- - "RtlULongPtrToIntPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongPtrToIntPtr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongPtrToIntPtr
+ - ntintsafe/RtlULongPtrToIntPtr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongPtrToIntPtr
 ---
 
 # RtlULongPtrToIntPtr function
@@ -46,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>ULONG_PTR</b> to a value of type <b>INT_PTR</b>.
-
 
 ## -parameters
 
+### -param ulOperand 
 
-
-
-### -param ulOperand [in]
-
+[in]
 The value to be converted.
 
+### -param piResult 
 
-### -param piResult [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

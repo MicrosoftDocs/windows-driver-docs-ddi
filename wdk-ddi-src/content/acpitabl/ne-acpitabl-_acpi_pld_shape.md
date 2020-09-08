@@ -5,32 +5,37 @@ description: Describes shape bits 74:77.
 ms.assetid: d53643a3-b52d-4e8d-b238-d09e5f727148
 ms.date: 10/02/2018
 keywords: ["ACPI_PLD_SHAPE enumeration"]
-f1_keywords:
- - "acpitabl/_ACPI_PLD_SHAPE"
- - "_ACPI_PLD_SHAPE"
 ms.keywords: _ACPI_PLD_SHAPE, ACPI_PLD_SHAPE, *PACPI_PLD_SHAPE, AcpiPldShape
 req.header: acpitabl.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: ACPI_PLD_SHAPE, *PACPI_PLD_SHAPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- acpitabl.h
-api_name: 
-- _ACPI_PLD_SHAPE
 targetos: Windows
+f1_keywords:
+ - _ACPI_PLD_SHAPE
+ - acpitabl/_ACPI_PLD_SHAPE
+ - PACPI_PLD_SHAPE
+ - acpitabl/PACPI_PLD_SHAPE
+ - ACPI_PLD_SHAPE
+ - acpitabl/ACPI_PLD_SHAPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _ACPI_PLD_SHAPE
 ---
 
 # _ACPI_PLD_SHAPE enumeration
+
 
 ## -description
 
@@ -77,3 +82,4 @@ Value is 8.
 ## -remarks
 
 ## -see-also
+

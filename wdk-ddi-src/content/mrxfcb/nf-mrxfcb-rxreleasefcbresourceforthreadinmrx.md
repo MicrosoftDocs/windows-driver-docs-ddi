@@ -8,9 +8,6 @@ ms.assetid: 86b6f18b-4088-4fa3-ace3-f083f61ef0d0
 ms.date: 04/16/2018
 keywords: ["RxReleaseFcbResourceForThreadInMRx function"]
 ms.keywords: RxReleaseFcbResourceForThreadInMRx, RxReleaseFcbResourceForThreadInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceforthreadinmrx, mrxfcb/RxReleaseFcbResourceForThreadInMRx, rxref_bed9a8b0-1761-413e-b816-599b51a7f305.xml
-f1_keywords:
- - "mrxfcb/RxReleaseFcbResourceForThreadInMRx"
- - "RxReleaseFcbResourceForThreadInMRx"
 req.header: mrxfcb.h
 req.include-header: Mrxfcb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mrxfcb.h
-api_name:
-- RxReleaseFcbResourceForThreadInMRx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxReleaseFcbResourceForThreadInMRx
+ - mrxfcb/RxReleaseFcbResourceForThreadInMRx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mrxfcb.h
+api_name:
+ - RxReleaseFcbResourceForThreadInMRx
 ---
 
 # RxReleaseFcbResourceForThreadInMRx function
@@ -46,45 +46,32 @@ req.typenames:
 
 ## -description
 
-
-<b>RxReleaseFcbResourceForThreadInMRx</b> releases the FCB resource acquired by a network mini-redirector driver with a particular thread ID. 
-
+<b>RxReleaseFcbResourceForThreadInMRx</b> releases the FCB resource acquired by a network mini-redirector driver with a particular thread ID.
 
 ## -parameters
 
+### -param pRxContext 
 
-
-
-### -param pRxContext [in]
-
+[in]
 A pointer to the RX_CONTEXT structure.
 
+### -param MrxFcb 
 
-### -param MrxFcb [in, out]
+[in, out]
+A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>.
 
-A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>. 
+### -param ResourceThreadId 
 
-
-### -param ResourceThreadId [in]
-
+[in]
 The thread ID that originally acquired the resource.
 
-
 ## -remarks
-
-
 
 The synchronization resources of interest to a network mini-redirector driver are primarily associated with the FCB. There is a paging I/O resource and a regular resource. The paging I/O resource is managed internally by RDBSS. The only resource accessible to a network mini-redirector driver is the regular resource. 
 
 The <b>RxReleaseFcbResourceForThreadInMRx</b> routine will release an FCB resource previously acquired for a particular thread ID. This resource would have been acquired by calling <b>RxAcquireExclusiveFcbResourceInMRx</b>, <b>RxAcquireSharedFcbResourceInMRx</b>, or <b>RxAcquireSharedFcbResourceInMRxEx</b>. If there are any pending buffering state change requests for this FCB, then these buffering state changes will be processed first before the <b>RxReleaseFcbResourceForThreadInMRx</b> routine returns.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxacquireexclusivefcbresourceinmrx">RxAcquireExclusiveFcbResourceInMRx</a>
 
@@ -99,7 +86,4 @@ The <b>RxReleaseFcbResourceForThreadInMRx</b> routine will release an FCB resour
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxreleasefcbresourceinmrx">RxReleaseFcbResourceInMRx</a>
- 
-
- 
 

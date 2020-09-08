@@ -8,9 +8,6 @@ ms.assetid: cabd2a6d-20d0-4499-8494-7ad746f2d915
 ms.date: 03/29/2018
 keywords: ["MPIO_GET_DESCRIPTOR structure"]
 ms.keywords: "*PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR structure [Storage Devices], PMPIO_GET_DESCRIPTOR, PMPIO_GET_DESCRIPTOR structure pointer [Storage Devices], _MPIO_GET_DESCRIPTOR, mpiodisk/MPIO_GET_DESCRIPTOR, mpiodisk/PMPIO_GET_DESCRIPTOR, storage.mpio_get_descriptor, structs-scsibus_4d648295-24f6-44c1-a0a9-8a46aeada604.xml"
-f1_keywords:
- - "mpiodisk/MPIO_GET_DESCRIPTOR"
- - "MPIO_GET_DESCRIPTOR"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiodisk.h
-api_name:
-- MPIO_GET_DESCRIPTOR
 targetos: Windows
 req.typenames: MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR
+f1_keywords:
+ - _MPIO_GET_DESCRIPTOR
+ - mpiodisk/_MPIO_GET_DESCRIPTOR
+ - PMPIO_GET_DESCRIPTOR
+ - mpiodisk/PMPIO_GET_DESCRIPTOR
+ - MPIO_GET_DESCRIPTOR
+ - mpiodisk/MPIO_GET_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiodisk.h
+api_name:
+ - MPIO_GET_DESCRIPTOR
 ---
 
 # _MPIO_GET_DESCRIPTOR structure
@@ -46,24 +50,17 @@ req.typenames: MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR
 
 ## -description
 
-
 The MPIO_GET_DESCRIPTOR structure is used to query for LUN instances that correspond to various paths. This structure retrieves device-path pairing information about a multi-path disk. The target of the request must be a pseudo-LUN that is addressed by using its WMI instance name.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NumberPdos
 
 An unsigned 32-bitfield that returns the number of real instances of the pseudo-LUN through its various paths.
 
-
 ### -field DeviceName
 
 A string field of maximum-length 63 characters that returns the device name that is created by MPIO for the LUN.
-
 
 ### -field PdoInformation
 

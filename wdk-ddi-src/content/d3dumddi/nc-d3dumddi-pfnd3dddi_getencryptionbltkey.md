@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/GetEncryptionBltKey"
- - "GetEncryptionBltKey"
+ - PFND3DDDI_GETENCRYPTIONBLTKEY
+ - d3dumddi/PFND3DDDI_GETENCRYPTIONBLTKEY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_GETENCRYPTIONBLTKEY callback function
+
 
 ## -description
 

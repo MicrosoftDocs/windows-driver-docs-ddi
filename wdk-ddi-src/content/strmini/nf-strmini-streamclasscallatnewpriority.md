@@ -8,9 +8,6 @@ ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.date: 04/23/2018
 keywords: ["StreamClassCallAtNewPriority function"]
 ms.keywords: StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority
-f1_keywords:
- - "strmini/StreamClassCallAtNewPriority"
- - "StreamClassCallAtNewPriority"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Stream.lib
 req.dll: 
 req.irql: (See Parameters section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Stream.lib
-- Stream.dll
-api_name:
-- StreamClassCallAtNewPriority
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StreamClassCallAtNewPriority
+ - strmini/StreamClassCallAtNewPriority
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Stream.lib
+ - Stream.dll
+api_name:
+ - StreamClassCallAtNewPriority
 ---
 
 # StreamClassCallAtNewPriority function
@@ -47,27 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>StreamClassCallAtNewPriority</b> routine schedules a routine to be called at a different priority.
-
 
 ## -parameters
 
+### -param StreamObject 
 
-
-
-### -param StreamObject [in, optional]
-
+[in, optional]
 Pointer to an HW_STREAM_OBJECT structure specifying the stream is associated with the routine, or <b>NULL</b> if the routine is associated with the device as a whole. There can be only one routine per stream, and only one routine for the device. This parameter is optional.
 
+### -param HwDeviceExtension 
 
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context">HW_TIME_CONTEXT</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
+### -param Priority 
 
-### -param Priority [in]
-
+[in]
 Specifies one of the values listed in the following table.
 
 <table>
@@ -116,24 +112,18 @@ Used to allow a thread called at low priority to return to high priority so that
 </td>
 </tr>
 </table>
- 
 
+### -param PriorityRoutine 
 
-### -param PriorityRoutine [in]
-
+[in]
 Pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_priority_routine">StrMiniPriorityRoutine</a> to be called at the specified priority level.
 
+### -param Context 
 
-### -param Context [in]
-
+[in]
 Specifies the parameter to be passed to the <i>PriorityRoutine</i>.
-
 
 ## -returns
 
-
-
 None
-
-
 

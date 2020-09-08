@@ -6,40 +6,40 @@ tech.root: storage
 ms.assetid: 689bb265-239d-442c-b2ae-be648cf8d641
 ms.date: 08/23/2019
 keywords: ["DeviceDsmGetInputLength function"]
-f1_keywords:
- - "ntddstor/DeviceDsmGetInputLength"
- - "DeviceDsmGetInputLength"
 ms.keywords: DeviceDsmGetInputLength
 req.header: ntddstor.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- NtosKrnl.exe
-api_name: 
-- DeviceDsmGetInputLength
 targetos: Windows
-
+f1_keywords:
+ - DeviceDsmGetInputLength
+ - ntddstor/DeviceDsmGetInputLength
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - DeviceDsmGetInputLength
 ---
 
 # DeviceDsmGetInputLength function
+
 
 ## -description
 
@@ -74,3 +74,4 @@ See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/d
 [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
 
 [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
+

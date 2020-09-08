@@ -8,9 +8,6 @@ ms.assetid: 0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a
 ms.date: 02/26/2018
 keywords: ["IWDFFile2::RetrieveCountedFileName"]
 ms.keywords: IWDFFile2 interface,RetrieveCountedFileName method, IWDFFile2.RetrieveCountedFileName, IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName, RetrieveCountedFileName method, RetrieveCountedFileName method,IWDFFile2 interface, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, umdf.iwdffile2_retrievecountedfilename, wdf.iwdffile2_retrievecountedfilename, wudfddi/IWDFFile2::RetrieveCountedFileName
-f1_keywords:
- - "wudfddi/IWDFFile2.RetrieveCountedFileName"
- - "IWDFFile2.RetrieveCountedFileName"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFFile2.RetrieveCountedFileName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFFile2::RetrieveCountedFileName
+ - wudfddi/IWDFFile2::RetrieveCountedFileName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFFile2.RetrieveCountedFileName
 ---
 
 # IWDFFile2::RetrieveCountedFileName
@@ -46,37 +46,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>RetrieveCountedFileName</b> method retrieves the full counted file name for a file that is associated with a device. 
-
+The <b>RetrieveCountedFileName</b> method retrieves the full counted file name for a file that is associated with a device.
 
 ## -parameters
 
+### -param pCountedFileName 
 
-
-
-### -param pCountedFileName [out]
-
-A pointer to a caller-allocated buffer. This buffer receives a <b>NULL</b>-terminated character string that represents the full name of the file that is associated with the device. If the pointer is <b>NULL</b>, <b>RetrieveCountedFileName</b> retrieves only the string length. 
-
+[out]
+A pointer to a caller-allocated buffer. This buffer receives a <b>NULL</b>-terminated character string that represents the full name of the file that is associated with the device. If the pointer is <b>NULL</b>, <b>RetrieveCountedFileName</b> retrieves only the string length.
 
 ### -param pdwCountedFileNameLengthInChars
 
-
-
-
-
-
 #### - pdwCountedFileNameLength [in, out]
 
-A pointer to a caller-allocated variable. On input, the driver sets the variable to the length, in characters, of the buffer that <i>pdwFileNameLengthInChars</i> points to. On output, the framework sets the variable to the length, in characters, of the character string (including the terminating <b>NULL</b> character) that it placed in the buffer. If a counted file name does not exist, the framework sets the variable to zero. 
-
+A pointer to a caller-allocated variable. On input, the driver sets the variable to the length, in characters, of the buffer that <i>pdwFileNameLengthInChars</i> points to. On output, the framework sets the variable to the length, in characters, of the character string (including the terminating <b>NULL</b> character) that it placed in the buffer. If a counted file name does not exist, the framework sets the variable to zero.
 
 ## -returns
-
-
 
 <b>RetrieveCountedFileName</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -123,12 +110,7 @@ The buffer that <i>pCountedFileName</i> points to is too small.
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
 ## -remarks
-
-
 
 A counted file name is a string that can include embedded <b>NULL</b> ('\0') characters in addition to a terminating <b>NULL</b>. To obtain a name string without embedded <b>NULL</b> characters, drivers can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile-retrievefilename">IWDFFile::RetrieveFileName</a>.
 
@@ -215,19 +197,11 @@ CMyQueue::OnCreateFile(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile2">IWDFFile2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile-retrievefilename">IWDFFile::RetrieveFileName</a>
- 
-
- 
 

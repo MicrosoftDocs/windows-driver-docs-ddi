@@ -8,9 +8,6 @@ ms.assetid: 72B31C26-89D3-49B2-A404-E6F096D0A334
 ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_EVENT_INFO structure"]
 ms.keywords: "*PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_EVENT_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_INFO, nfcsedev/SECURE_ELEMENT_EVENT_INFO, nfpdrivers.secure_element_event_info"
-f1_keywords:
- - "nfcsedev/SECURE_ELEMENT_EVENT_INFO"
- - "SECURE_ELEMENT_EVENT_INFO"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- SECURE_ELEMENT_EVENT_INFO
 targetos: Windows
 req.typenames: SECURE_ELEMENT_EVENT_INFO, *PSECURE_ELEMENT_EVENT_INFO
+f1_keywords:
+ - _SECURE_ELEMENT_EVENT_INFO
+ - nfcsedev/_SECURE_ELEMENT_EVENT_INFO
+ - PSECURE_ELEMENT_EVENT_INFO
+ - nfcsedev/PSECURE_ELEMENT_EVENT_INFO
+ - SECURE_ELEMENT_EVENT_INFO
+ - nfcsedev/SECURE_ELEMENT_EVENT_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - SECURE_ELEMENT_EVENT_INFO
 ---
 
 # _SECURE_ELEMENT_EVENT_INFO structure
@@ -46,29 +50,21 @@ req.typenames: SECURE_ELEMENT_EVENT_INFO, *PSECURE_ELEMENT_EVENT_INFO
 
 ## -description
 
-
 This structure provides information about a secure element event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field guidSecureElementId
 
 This is a unique identifier for the secure element.
 
-
 ### -field eEventType
 
 This is an event type. For more information about the types, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ne-nfcsedev-_secure_element_event_type">SECURE_ELEMENT_EVENT_TYPE</a> enumeration topic.
 
-
 ### -field cbEventData
 
 This is the amount of bytes for the pbEventData array.
-
 
 ### -field pbEventData
 

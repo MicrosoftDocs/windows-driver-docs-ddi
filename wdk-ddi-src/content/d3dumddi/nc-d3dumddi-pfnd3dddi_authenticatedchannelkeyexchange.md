@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/AuthenticatedChannelKeyExchange"
- - "AuthenticatedChannelKeyExchange"
+ - PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE
+ - d3dumddi/PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 3c078259-98e8-4874-aa5e-060f0da1a246
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetValue"]
 ms.keywords: GetValue, GetValue method, GetValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetValue method, IPortableDeviceValues.GetValue, IPortableDeviceValues::GetValue, IPortableDeviceValuesGetValue, portabledevicetypes/IPortableDeviceValues::GetValue, wpddk.iportabledevicevalues_getvalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetValue"
- - "IPortableDeviceValues.GetValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetValue
+ - portabledevicetypes/IPortableDeviceValues::GetValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetValue
 ---
 
 # IPortableDeviceValues::GetValue
@@ -47,31 +47,21 @@ ms.custom: RS5
 
 ## -description
 
-
-
 The GetValue interface retrieves a <b>PROPVARIANT</b> value that is specified by a key.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
+### -param pValue 
 
-### -param pValue [out]
-
+[out]
 A pointer to the retrieved <b>PROPVARIANT</b> value. The caller must release the memory by calling <b>PropVariantClear</b> when the call is complete.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible return values are shown in the following table.
 
@@ -103,26 +93,14 @@ The property that is specified by <i>key</i> is not in the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be used to retrieve a value of any type from the collection. However, if you know the value type in advance, use one of the specialized retrieval methods of this interface for additional type checking.
 
 When the VARTYPE for <i>pValue</i> is VT_VECTOR or VT_UI1, retrieving a <b>NULL</b> or zero-sized buffer is not supported. For example, neither  pValue.caub.pElems = <b>NULL</b> nor pValue.caub.cElems = 0 are allowed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
@@ -133,7 +111,4 @@ When the VARTYPE for <i>pValue</i> is VT_VECTOR or VT_UI1, retrieving a <b>NULL<
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setvalue">IPortableDeviceValues::SetValue</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: c4426dfa-7c14-4ef0-8660-855ee24ed7fe
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::GetBreakpointParameters"]
 ms.keywords: GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], GetBreakpointParameters method [Windows Debugging],IDebugControl interface, GetBreakpointParameters method [Windows Debugging],IDebugControl2 interface, GetBreakpointParameters method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetBreakpointParameters method, IDebugControl2 interface [Windows Debugging],GetBreakpointParameters method, IDebugControl2.GetBreakpointParameters, IDebugControl2::GetBreakpointParameters, IDebugControl3 interface [Windows Debugging],GetBreakpointParameters method, IDebugControl3::GetBreakpointParameters, IDebugControl::GetBreakpointParameters, IDebugControl_7b2d9423-82db-4274-a1f7-eebcda92e6c3.xml, dbgeng/IDebugControl2::GetBreakpointParameters, dbgeng/IDebugControl3::GetBreakpointParameters, dbgeng/IDebugControl::GetBreakpointParameters, debugger.getbreakpointparameters
-f1_keywords:
- - "dbgeng/IDebugControl.GetBreakpointParameters"
- - "IDebugControl.GetBreakpointParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Dbgeng.h, Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.GetBreakpointParameters
-- IDebugControl2.GetBreakpointParameters
-- IDebugControl3.GetBreakpointParameters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl2::GetBreakpointParameters
+ - dbgeng/IDebugControl2::GetBreakpointParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.GetBreakpointParameters
+ - IDebugControl2.GetBreakpointParameters
+ - IDebugControl3.GetBreakpointParameters
 ---
 
 # IDebugControl2::GetBreakpointParameters
@@ -48,38 +48,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetBreakpointParameters</b> method returns the parameters of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/breakpoints3">breakpoints</a>.
-
 
 ## -parameters
 
+### -param Count 
 
-
-
-### -param Count [in]
-
+[in]
 Specifies the number of breakpoints whose parameters are being requested.
 
+### -param Ids 
 
-### -param Ids [in, optional]
-
+[in, optional]
 Specifies an array containing the IDs of the breakpoints whose parameters are being requested.  The number of items in this array must be equal to the value specified in <i>Count</i>.  If <i>Ids</i> is <b>NULL</b>, <i>Start</i> is used instead.
 
+### -param Start 
 
-### -param Start [in]
-
+[in]
 Specifies the beginning index of the breakpoints whose parameters are being requested.  The parameters for breakpoints with indices <i>Start</i> through <i>Start</i> plus <i>Count</i> minus one will be returned.  <i>Start</i> is used only if <i>Ids</i> is <b>NULL</b>.
 
+### -param Params 
 
-### -param Params [out]
-
+[out]
 Receives the parameters for the specified breakpoints. The size of this array is equal to the value of <i>Count</i>.  For details on the structure returned, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_breakpoint_parameters">DEBUG_BREAKPOINT_PARAMETERS</a>.
 
-
 ## -returns
-
-
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -111,24 +104,12 @@ The method was successful. However, the parameters for some of the breakpoints w
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Some of the parameters might not be returned.  This happens if either a breakpoint could not be found or a breakpoint is private (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getflags">GetFlags</a>).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getbreakpointbyid">GetBreakpointById</a>
 
@@ -151,7 +132,4 @@ Some of the parameters might not be returned.  This happens if either a breakpoi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
 

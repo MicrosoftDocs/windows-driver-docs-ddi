@@ -8,9 +8,6 @@ ms.assetid: B6C3E94F-AFC9-45EC-91F1-F0E3586DBDA1
 ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceQueryUsbCapability function"]
 ms.keywords: WdfUsbTargetDeviceQueryUsbCapability, WdfUsbTargetDeviceQueryUsbCapability method, kmdf.wdfusbtargetdevicequeryusbcapability, wdf.wdfusbtargetdevicequeryusbcapability, wdfusb/WdfUsbTargetDeviceQueryUsbCapability
-f1_keywords:
- - "wdfusb/WdfUsbTargetDeviceQueryUsbCapability"
- - "WdfUsbTargetDeviceQueryUsbCapability"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetDeviceQueryUsbCapability
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetDeviceQueryUsbCapability
+ - wdfusb/WdfUsbTargetDeviceQueryUsbCapability
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetDeviceQueryUsbCapability
 ---
 
 # WdfUsbTargetDeviceQueryUsbCapability function
@@ -49,25 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 
    The <b>WdfUsbTargetDeviceQueryUsbCapability</b> method determines whether the host controller and USB driver stack support a specific capability.
 
-
 ## -parameters
 
+### -param UsbDevice 
 
-
-
-### -param UsbDevice [in]
-
+[in]
 A handle to a USB device object.
 
+### -param CapabilityType 
 
-### -param CapabilityType [in]
-
+[in]
 A pointer to a GUID that represents the capability about which the client driver wants to retrieve information. The possible  <i>PGUID</i>  values are  as follows:
 
 <ul>
@@ -82,26 +78,23 @@ A pointer to a GUID that represents the capability about which the client driver
 </ul>
 See more information in Remarks.
 
+### -param CapabilityBufferLength 
 
-### -param CapabilityBufferLength [in]
-
+[in]
 Length, in bytes, of the buffer pointed to by <i>CapabilityBuffer</i>.
 
+### -param CapabilityBuffer 
 
-### -param CapabilityBuffer [out, optional]
-
+[out, optional]
 A pointer to a caller-allocated buffer to receive the requested USB capability. This parameter is optional. If 
                        <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a> routine.
 
+### -param ResultLength 
 
-### -param ResultLength [out, optional]
-
+[out, optional]
 A pointer to a location containing the size, in bytes, of the returned capability. This parameter is optional.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetDeviceQueryUsbCapability</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -174,12 +167,7 @@ The specified capability is not supported by the host controller hardware.
 
 This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Before calling <b>WdfUsbTargetDeviceQueryUsbCapability</b>, the driver must call  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a> to register with the underlying USB driver stack.
 
@@ -254,22 +242,12 @@ This GUID applies to KMDF and UMDF drivers.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceretrieveinformation">WdfUsbTargetDeviceRetrieveInformation</a>
- 
-
- 
 

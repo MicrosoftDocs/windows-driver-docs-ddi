@@ -8,9 +8,6 @@ ms.assetid: 911d8b07-1313-4c4b-8d16-188857943327
 ms.date: 04/16/2018
 keywords: ["FltGetVolumeGuidName function"]
 ms.keywords: FltApiRef_e_to_o_b3c6abed-dbf8-44a2-92d6-470806b9a80f.xml, FltGetVolumeGuidName, FltGetVolumeGuidName routine [Installable File System Drivers], fltkernel/FltGetVolumeGuidName, ifsk.fltgetvolumeguidname
-f1_keywords:
- - "fltkernel/FltGetVolumeGuidName"
- - "FltGetVolumeGuidName"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetVolumeGuidName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetVolumeGuidName
+ - fltkernel/FltGetVolumeGuidName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetVolumeGuidName
 ---
 
 # FltGetVolumeGuidName function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetVolumeGuidName</b> routine returns the volume name for a given volume, in volume globally unique identifier (GUID) format. 
-
+The <b>FltGetVolumeGuidName</b> routine returns the volume name for a given volume, in volume globally unique identifier (GUID) format.
 
 ## -parameters
 
+### -param Volume 
 
+[in]
+Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be <b>NULL</b>.
 
+### -param VolumeGuidName 
 
-### -param Volume [in]
+[out]
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the volume's GUID name. This parameter is required and cannot be <b>NULL</b>.
 
-Opaque pointer for the volume. Must be a local file system volume. This parameter is required and cannot be <b>NULL</b>. 
+### -param BufferSizeNeeded 
 
-
-### -param VolumeGuidName [out]
-
-Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the volume's GUID name. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param BufferSizeNeeded [out, optional]
-
-Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. If <b>FltGetVolumeGuidName</b> returns STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required size for the structure that the <i>VolumeGuidName</i> parameter points to. This parameter is optional and can be <b>NULL</b>. 
-
+[out, optional]
+Pointer to a caller-allocated variable that receives the size, in bytes, of the requested volume GUID name. If <b>FltGetVolumeGuidName</b> returns STATUS_BUFFER_TOO_SMALL, you can use the value of the variable to determine the required size for the structure that the <i>VolumeGuidName</i> parameter points to. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetVolumeGuidName</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
 
@@ -126,14 +119,8 @@ No matching volume was found. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The returned volume GUID name is expressed in the following format: 
 
@@ -153,15 +140,9 @@ It is important to note that the volume GUID is not the same as the volume objec
 
 To get the volume object ID for a volume, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>, specifying <b>FileFsObjectIdInformation</b> for the <i>FsInformationClass</i> parameter. 
 
-<b>FltGetVolumeGuidName</b> is roughly equivalent to the Win32 <b>GetVolumeNameForVolumeMountPoint</b> function. (<b>GetVolumeNameForVolumeMountPoint</b> is documented in the Microsoft Windows SDK.) 
-
-
-
+<b>FltGetVolumeGuidName</b> is roughly equivalent to the Win32 <b>GetVolumeNameForVolumeMountPoint</b> function. (<b>GetVolumeNameForVolumeMountPoint</b> is documented in the Microsoft Windows SDK.)
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_objectid_information">FILE_FS_OBJECTID_INFORMATION</a>
 
@@ -171,12 +152,9 @@ To get the volume object ID for a volume, call <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
- 
-
- 
 

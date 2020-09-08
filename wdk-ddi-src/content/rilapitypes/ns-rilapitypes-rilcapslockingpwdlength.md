@@ -8,9 +8,6 @@ ms.assetid: 99f21862-5cd6-4bf9-abde-d5d24332a147
 ms.date: 05/02/2018
 keywords: ["RILCAPSLOCKINGPWDLENGTH structure"]
 ms.keywords: "*LPRILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista], netvista.rilcapslockingpwdlength, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTH"
-f1_keywords:
- - "rilapitypes/RILCAPSLOCKINGPWDLENGTH"
- - "RILCAPSLOCKINGPWDLENGTH"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,41 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCAPSLOCKINGPWDLENGTH
 targetos: Windows
 req.typenames: RILCAPSLOCKINGPWDLENGTH, *LPRILCAPSLOCKINGPWDLENGTH
+f1_keywords:
+ - RILCAPSLOCKINGPWDLENGTH
+ - rilapitypes/RILCAPSLOCKINGPWDLENGTH
+ - LPRILCAPSLOCKINGPWDLENGTH
+ - rilapitypes/LPRILCAPSLOCKINGPWDLENGTH
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCAPSLOCKINGPWDLENGTH
 ---
 
-# RILCAPSLOCKINGPWDLENGTH structure
+# RILCAPSLOCKINGPWDLENGTH structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwPersoFeature
-
 
 ### -field dwPasswordLength
 

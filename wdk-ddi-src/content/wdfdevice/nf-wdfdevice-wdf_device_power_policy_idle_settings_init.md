@@ -8,9 +8,6 @@ ms.assetid: e5a80021-1d9d-42f4-9344-9dd8d9524d0b
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_1aaae0d7-3b13-43f6-b7e4-7c105b2e41b2.xml, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, kmdf.wdf_device_power_policy_idle_settings_init, wdf.wdf_device_power_policy_idle_settings_init, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
-f1_keywords:
- - "wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT"
- - "WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-api_name:
-- WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
+ - wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+api_name:
+ - WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
 ---
 
 # WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
-
 ## -parameters
 
+### -param Settings 
 
-
-
-### -param Settings [out]
-
+[out]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure.
 
+### -param IdleCaps 
 
-### -param IdleCaps [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator.
 
-
 ## -remarks
-
-
 
 First, the <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</b> function zeros the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure and sets the structure's <b>Size</b> member. 
 
@@ -90,15 +83,7 @@ For a code example that uses <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</b>, 
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnReclaimAllocations3Cb"
- - "pfnReclaimAllocations3Cb"
+ - PFND3DDDI_RECLAIMALLOCATIONS3CB
+ - d3dumddi/PFND3DDDI_RECLAIMALLOCATIONS3CB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_RECLAIMALLOCATIONS3CB callback function
+
 
 ## -description
 

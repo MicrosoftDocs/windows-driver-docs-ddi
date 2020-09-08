@@ -8,9 +8,6 @@ ms.assetid: 6fe7465d-938a-400f-b141-76e8a5ffbe90
 ms.date: 02/26/2018
 keywords: ["WdfWaitLockAcquire function"]
 ms.keywords: DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, WdfWaitLockAcquire, WdfWaitLockAcquire method, kmdf.wdfwaitlockacquire, wdf.wdfwaitlockacquire, wdfsync/WdfWaitLockAcquire
-f1_keywords:
- - "wdfsync/WdfWaitLockAcquire"
- - "WdfWaitLockAcquire"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfWaitLockAcquire
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfWaitLockAcquire
+ - wdfsync/WdfWaitLockAcquire
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfWaitLockAcquire
 ---
 
 # WdfWaitLockAcquire function
@@ -49,24 +49,20 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWaitLockAcquire</b> method acquires a specified wait lock.
 
-
 ## -parameters
 
+### -param Lock 
 
-
-
-### -param Lock [in]
-
+[in]
 A handle to a framework wait-lock object, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
 
+### -param Timeout 
 
-### -param Timeout [in, optional]
-
+[in, optional]
 An optional pointer to a time-out value. The time-out value is specified in system time units (100-nanosecond intervals).
 
  If the pointer is non-<b>NULL</b>, the framework cancels the attempt to obtain the lock if it is not completed within the specified time-out period. Time-out values can be negative, positive, or zero, as follows:
@@ -91,10 +87,7 @@ The framework provides <a href="https://docs.microsoft.com/windows-hardware/driv
 
 If the caller supplies a <b>NULL</b> pointer, the method waits indefinitely until it has acquired the lock.
 
-
 ## -returns
-
-
 
 <b>WdfWaitLockAcquire</b> can return the following <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>:
 
@@ -138,14 +131,7 @@ The caller does not have to check the return value if the <i>Timeout</i> pointer
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>WdfWaitLockAcquire</b> method does not return until it acquires the wait lock or until the time-out period expires. 
 
@@ -177,12 +163,7 @@ if (!NT_SUCCESS(status)) {
 WdfWaitLockRelease(FilterDeviceCollectionLock);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
 
@@ -193,7 +174,4 @@ WdfWaitLockRelease(FilterDeviceCollectionLock);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfwaitlockrelease">WdfWaitLockRelease</a>
- 
-
- 
 

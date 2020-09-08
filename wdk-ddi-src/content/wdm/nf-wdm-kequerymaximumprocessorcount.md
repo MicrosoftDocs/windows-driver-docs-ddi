@@ -8,9 +8,6 @@ ms.assetid: bab2c478-4e46-40d9-a4b6-6f322b18ab0a
 ms.date: 04/30/2018
 keywords: ["KeQueryMaximumProcessorCount function"]
 ms.keywords: KeQueryMaximumProcessorCount, KeQueryMaximumProcessorCount routine [Kernel-Mode Driver Architecture], k105_231acd6b-2f7f-4e46-b2fb-ee5c61fc826b.xml, kernel.kequerymaximumprocessorcount, wdm/KeQueryMaximumProcessorCount
-f1_keywords:
- - "wdm/KeQueryMaximumProcessorCount"
- - "KeQueryMaximumProcessorCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
@@ -28,40 +25,34 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeQueryMaximumProcessorCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeQueryMaximumProcessorCount
+ - wdm/KeQueryMaximumProcessorCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeQueryMaximumProcessorCount
 ---
 
-# KeQueryMaximumProcessorCount function
+# KeQueryMaximumProcessorCount function (wdm.h)
 
 
 ## -description
 
-
 The <b>KeQueryMaximumProcessorCount</b> routine returns the maximum number of processors.
-
 
 ## -returns
 
-
-
 <b>KeQueryMaximumProcessorCount</b> returns the maximum number of processors as a ULONG value.
 
-
-
-
 ## -remarks
-
-
 
 The value returned by the <b>KeQueryMaximumProcessorCount</b> routine does not change at runtime.
 
@@ -73,20 +64,11 @@ If you are not optimizing and if the data structures that result from using maxi
 
 Windows 7 and later versions of Windows support processor groups. Drivers that are designed to handle information about processor groups should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumprocessorcountex">KeQueryMaximumProcessorCountEx</a> routine, which specifies a processor group, instead of <b>KeQueryMaximumProcessorCount</b>, which does not. However, the implementation of <b>KeQueryMaximumProcessorCount</b> in Windows 7 and later versions of Windows provides compatibility for drivers that were written for earlier versions of Windows, which do not support processor groups. In this implementation, <b>KeQueryMaximumProcessorCount</b> returns the maximum number of logical processors that can be in group 0.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumprocessorcountex">KeQueryMaximumProcessorCountEx</a>
- 
-
- 
 

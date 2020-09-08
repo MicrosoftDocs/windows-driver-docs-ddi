@@ -8,9 +8,6 @@ ms.assetid: CE43711F-E17B-4234-A885-4FE04EA53903
 ms.date: 05/03/2018
 keywords: ["IDebugFAEntryTags::GetType"]
 ms.keywords: GetType, GetType method [Windows Debugging], GetType method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetType method, IDebugFAEntryTags.GetType, IDebugFAEntryTags::GetType, debugger.idebugfaentrytags_gettype, extsfns/IDebugFAEntryTags::GetType
-f1_keywords:
- - "extsfns/IDebugFAEntryTags.GetType"
- - "IDebugFAEntryTags.GetType"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- extsfns.h
-api_name:
-- IDebugFAEntryTags.GetType
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugFAEntryTags::GetType
+ - extsfns/IDebugFAEntryTags::GetType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - extsfns.h
+api_name:
+ - IDebugFAEntryTags.GetType
 ---
 
 # IDebugFAEntryTags::GetType
@@ -46,33 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetType</b> method gets the data type that is associated with a tag in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfaentrytags">DebugFailureAnalysisTags</a> object.
 
-
 ## -parameters
-
-
-
 
 ### -param Tag
 
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-
 ## -returns
-
-
 
 A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/ne-extsfns-_fa_entry_type">FA_ENTRY_TYPE</a> enumeration.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTags</a>
 
@@ -91,7 +77,4 @@ A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
- 
-
- 
 

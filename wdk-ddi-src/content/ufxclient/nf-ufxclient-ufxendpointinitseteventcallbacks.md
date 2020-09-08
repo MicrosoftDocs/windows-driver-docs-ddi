@@ -8,9 +8,6 @@ ms.assetid: D3D8D948-400A-47A0-98E9-ECF5643DB5D2
 ms.date: 05/07/2018
 keywords: ["UfxEndpointInitSetEventCallbacks function"]
 ms.keywords: UfxEndpointInitSetEventCallbacks, UfxEndpointInitSetEventCallbacks method [Buses], buses.ufxendpointinitseteventcallbacks, ufxclient/UfxEndpointInitSetEventCallbacks
-f1_keywords:
- - "ufxclient/UfxEndpointInitSetEventCallbacks"
- - "UfxEndpointInitSetEventCallbacks"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxEndpointInitSetEventCallbacks
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxEndpointInitSetEventCallbacks
+ - ufxclient/UfxEndpointInitSetEventCallbacks
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxEndpointInitSetEventCallbacks
 ---
 
 # UfxEndpointInitSetEventCallbacks function
@@ -46,34 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Initialize a <b>UFXENDPOINT_INIT</b> structure.
-
 
 ## -parameters
 
+### -param EndpointInit 
 
-
-
-### -param EndpointInit [in, out]
-
+[in, out]
 Opaque structure passed by UFX in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_endpoint_add">EVT_UFX_DEVICE_ENDPOINT_ADD</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_default_endpoint_add">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a>.
 
+### -param Callbacks 
 
-### -param Callbacks [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure.
 
-
 ## -remarks
-
-
 
 The client driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_endpoint_add">EVT_UFX_DEVICE_ENDPOINT_ADD</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_default_endpoint_add">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a> event callback function in order to create a new endpoint.
 
   The client driver first calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufx_endpoint_callbacks_init">UFX_ENDPOINT_CALLBACKS_INIT</a> to initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure. Then it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a> with the initialized <b>UFX_ENDPOINT_CALLBACKS</b> structure.
 
 For an code example that shows how to create a UFXENDPOINT object and initialize its context, see the Remarks section of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>.
-
-
 

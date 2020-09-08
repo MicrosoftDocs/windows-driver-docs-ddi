@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnEnumPathTargetsFromSource"
- - "pfnEnumPathTargetsFromSource"
+ - DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 8653fac0-8b2f-4e77-9588-2854ae168c1a
 ms.date: 05/02/2018
 keywords: ["FwpsClassifyOptionSet0 function"]
 ms.keywords: FwpsClassifyOptionSet0, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsClassifyOptionSet0, netvista.fwpsclassifyoptionset0, wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml
-f1_keywords:
- - "fwpsk/FwpsClassifyOptionSet0"
- - "FwpsClassifyOptionSet0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Fwpkclnt.lib
-- Fwpkclnt.dll
-api_name:
-- FwpsClassifyOptionSet0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsClassifyOptionSet0
+ - fwpsk/FwpsClassifyOptionSet0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Fwpkclnt.lib
+ - Fwpkclnt.dll
+api_name:
+ - FwpsClassifyOptionSet0
 ---
 
 # FwpsClassifyOptionSet0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsClassifyOptionSet0</b> function is called by a callout filter's 
@@ -56,36 +55,31 @@ The
 
 ## -parameters
 
+### -param inMetadataValues 
 
-
-
-### -param inMetadataValues [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields at the layer that is being filtered.
 
+### -param option 
 
-### -param option [in]
-
+[in]
 An 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">FWP_CLASSIFY_OPTION_TYPE</a> enumeration
      constant that indicates whether the 
      <i>newValue</i> parameter refers to unicast, multicast, or loose source mapping states, or to data
      time-out values. For more information, see Remarks.
 
+### -param newValue 
 
-### -param newValue [in]
-
+[in]
 A pointer to an array of 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structures. Each structure in the
      array contains particular values for a particular FWP_OPTION_VALUE_XXX constant. For more information, see
      Remarks.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsClassifyOptionSet0</b> function returns one of the following NTSTATUS codes.
@@ -169,14 +163,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function should be called only by a callout filter's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function.
@@ -284,13 +272,7 @@ The first (highest weight) caller to set a particular option will be granted tha
     if callout A sets the multicast state option, callout B will not be able to do so, but callout B can set
     other options.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550078(v=vs.85)">FWPM_CLASSIFY_OPTION0</a>
 
@@ -314,7 +296,4 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

@@ -5,39 +5,42 @@ description: Supplies information for enumerating all graphics adapters on the s
 ms.assetid: 82fbef6f-b3ce-4ab8-b5af-cbb219593d3f
 ms.date: 03/24/2020
 keywords: ["D3DKMT_ENUMADAPTERS3 structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_ENUMADAPTERS3"
- - "_D3DKMT_ENUMADAPTERS3"
-ms.keywords: _D3DKMT_ENUMADAPTERS3, D3DKMT_ENUMADAPTERS3, 
+ms.keywords: _D3DKMT_ENUMADAPTERS3, D3DKMT_ENUMADAPTERS3,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_ENUMADAPTERS3
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_ENUMADAPTERS3
 targetos: Windows
-ms.custom:
+ms.custom: 
+tech.root: display
+f1_keywords:
+ - _D3DKMT_ENUMADAPTERS3
+ - d3dkmthk/_D3DKMT_ENUMADAPTERS3
+ - D3DKMT_ENUMADAPTERS3
+ - d3dkmthk/D3DKMT_ENUMADAPTERS3
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_ENUMADAPTERS3
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3DKMT_ENUMADAPTERS3 structure
+
 
 ## -description
 
@@ -74,3 +77,4 @@ On input, **NumAdapters** specifies how many adapters can be returned in the emp
 [**D3DKMTEnumAdapters3**](nf-d3dkmthk-d3dkmtenumadapters3.md)
 
 [**PFND3DKMT_ENUMADAPTERS3**](nc-d3dkmthk-pfnd3dkmt_enumadapters3.md)
+

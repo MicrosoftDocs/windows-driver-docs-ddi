@@ -8,9 +8,6 @@ ms.assetid: 2db9b1b4-0149-4477-9f68-588c55fcbdca
 ms.date: 04/30/2018
 keywords: ["KSYNCHRONIZE_ROUTINE callback function"]
 ms.keywords: DrvrRtns_ead80ba6-d012-4140-923c-683d877d5b60.xml, KSYNCHRONIZE_ROUTINE, SynchCritSection, SynchCritSection routine [Kernel-Mode Driver Architecture], kernel.synchcritsection, wdm/SynchCritSection
-f1_keywords:
- - "wdm/SynchCritSection"
- - "SynchCritSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at DIRQL (see Remarks section).
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- SynchCritSection
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KSYNCHRONIZE_ROUTINE
+ - wdm/KSYNCHRONIZE_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - SynchCritSection
 ---
 
 # KSYNCHRONIZE_ROUTINE callback function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <i>SynchCritSection</i> routine is used to access hardware resources or driver data that are shared with a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine.
-
 
 ## -parameters
 
+### -param SynchronizeContext 
 
-
-
-### -param SynchronizeContext [in]
-
+[in]
 Caller-supplied context information, specified by the driver's call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>.
-
 
 ## -returns
 
-
-
 If the routine's operation succeeds, the routine should return <b>TRUE</b>; otherwise, it should return <b>FALSE</b>. (Success and failure of this routine are driver-defined.) The specified return value becomes the return value for <b>KeSynchronizeExecution</b>.
 
-
-
-
 ## -remarks
-
-
 
 Drivers must use <i>SynchCritSection</i> routines to access hardware resources or driver data that can also be accessed by an <i>InterruptService</i> routine (ISR).
 
@@ -118,5 +106,4 @@ BOOLEAN
 The KSYNCHRONIZE_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the KSYNCHRONIZE_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
-
 

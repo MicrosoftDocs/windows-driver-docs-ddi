@@ -8,9 +8,6 @@ ms.assetid: 5e267d53-4e92-4c94-8a59-93d3c79574dd
 ms.date: 04/30/2018
 keywords: ["AuxKlibQueryModuleInformation function"]
 ms.keywords: AuxKlibQueryModuleInformation, AuxKlibQueryModuleInformation routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibQueryModuleInformation, aux_klib_555c5806-0b0d-48c1-9c50-b0496fb4e807.xml, kernel.auxklibquerymoduleinformation
-f1_keywords:
- - "aux_klib/AuxKlibQueryModuleInformation"
- - "AuxKlibQueryModuleInformation"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Aux_Klib.lib
-- Aux_Klib.dll
-api_name:
-- AuxKlibQueryModuleInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AuxKlibQueryModuleInformation
+ - aux_klib/AuxKlibQueryModuleInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Aux_Klib.lib
+ - Aux_Klib.dll
+api_name:
+ - AuxKlibQueryModuleInformation
 ---
 
 # AuxKlibQueryModuleInformation function
@@ -47,44 +47,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>AuxKlibQueryModuleInformation</b> routine retrieves information about the image modules that the operating system has loaded.
-
 
 ## -parameters
 
+### -param BufferSize 
 
+[in, out]
+A pointer to a location that contains or receives a buffer size, in bytes. If <i>QueryInfo</i> is <b>NULL</b>, the location receives the number of bytes that the driver must allocate for the array that receives the retrieved information. If <i>QueryInfo</i> is not <b>NULL</b>, the location must contain the specified number of bytes.
 
+### -param ElementSize 
 
-### -param BufferSize [in, out]
-
-A pointer to a location that contains or receives a buffer size, in bytes. If <i>QueryInfo</i> is <b>NULL</b>, the location receives the number of bytes that the driver must allocate for the array that receives the retrieved information. If <i>QueryInfo</i> is not <b>NULL</b>, the location must contain the specified number of bytes. 
-
-
-### -param ElementSize [in]
-
+[in]
 The size, in bytes, of each element of the array that <i>QueryInfo</i> points to. This value must be <b>sizeof</b>(<b>AUX_MODULE_BASIC_INFO</b>) or <b>sizeof</b>(<b>AUX_MODULE_EXTENDED_INFO</b>).
 
+### -param QueryInfo 
 
-### -param QueryInfo [out, optional]
-
+[out, optional]
 A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_extended_info">AUX_MODULE_EXTENDED_INFO</a> structures that receives information about loaded image modules. If this pointer is <b>NULL</b>, <b>AuxKlibQueryModuleInformation</b> writes the required buffer size to the location that <i>BufferSize</i> points to.
 
-
 ## -returns
-
-
 
 <b>AuxKlibQueryModuleInformation</b> returns STATUS_SUCCESS if the operation succeeds. <b>AuxKlibQueryModuleInformation</b> returns STATUS_BUFFER_TOO_SMALL if the <i>QueryInfo</i> pointer is not <b>NULL</b> and the driver-supplied <i>BufferSize</i> value is too small.
 
 The routine might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 To obtain information about the operating system's loaded image modules, a driver must:
 
@@ -175,12 +163,7 @@ if (!NT_SUCCESS(status)) {
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a>
 
@@ -199,7 +182,4 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
- 
-
- 
 

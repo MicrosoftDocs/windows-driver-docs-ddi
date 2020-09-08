@@ -9,15 +9,17 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: audio
+f1_keywords:
+ - eventdetectoroemadapter
+ - eventdetectoroemadapter/eventdetectoroemadapter
 ---
 
 # eventdetectoroemadapter.h header
+
 
 ## -description
 
 This header is used by audio driver technologies. For more information, see:
 
 - [Audio](../_audio/index.md)
-
-
 

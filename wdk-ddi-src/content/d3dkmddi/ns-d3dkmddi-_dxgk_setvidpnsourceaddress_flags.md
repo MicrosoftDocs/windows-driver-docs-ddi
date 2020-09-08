@@ -7,9 +7,6 @@ ms.assetid: cdc4aec6-45d4-4a5b-aa52-7830494a12b6
 ms.date: 05/10/2018
 keywords: ["DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure"]
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure [Display Devices], DmStructs_45e34e9d-e410-44f4-a41a-aad748f01688.xml, _DXGK_SETVIDPNSOURCEADDRESS_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS, display.dxgk_setvidpnsourceaddress_flags
-f1_keywords:
- - "d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS"
- - "DXGK_SETVIDPNSOURCEADDRESS_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_SETVIDPNSOURCEADDRESS_FLAGS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SETVIDPNSOURCEADDRESS_FLAGS
+f1_keywords:
+ - _DXGK_SETVIDPNSOURCEADDRESS_FLAGS
+ - d3dkmddi/_DXGK_SETVIDPNSOURCEADDRESS_FLAGS
+ - DXGK_SETVIDPNSOURCEADDRESS_FLAGS
+ - d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_SETVIDPNSOURCEADDRESS_FLAGS
 ---
 
 # _DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_SETVIDPNSOURCEADDRESS_FLAGS
 
 ## -description
 
-
 The DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure identifies the specific type of operation to perform in a call to the display miniport driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a> functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ModeChange
 
@@ -61,20 +58,17 @@ A UINT value that specifies for the driver to switch the display mode.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field FlipImmediate
 
 A UINT value that specifies for the driver to perform a flip operation that occurs without vertical sync.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
-
 ### -field FlipOnNextVSync
 
 A UINT value that specifies for the driver to perform a flip operation that occurs on the next vertical sync.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
-
 
 ### -field FlipStereo
 
@@ -92,7 +86,6 @@ For more requirements, see the Remarks section.
 
 Setting this member is equivalent to setting the    fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
-
 ### -field FlipStereoTemporaryMono
 
 [in] Supported beginning with Windows 8.
@@ -109,7 +102,6 @@ For more requirements, see the Remarks section.
 
 Setting this member is equivalent to setting the    fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
-
 ### -field FlipStereoPreferRight
 
 [in] Supported beginning with Windows 8.
@@ -121,7 +113,6 @@ The   <b>FlipStereoTemporaryMono</b> and <b>FlipStereoPreferRight</b> members ca
 For more requirements, see the Remarks section.
 
 Setting this member is equivalent to setting the    sixth bit of the 32-bit <b>Value</b> member (0x00000020).
-
 
 ### -field SharedPrimaryTransition
 
@@ -139,14 +130,11 @@ When <b>SharedPrimaryTransition</b> is set, the display miniport driver must val
 
 Setting this member is equivalent to setting the    seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
-
 ### -field IndependentFlipExclusive
 
 [in] Supported beginning with Windows 10.
 
-When <b>IndependentFlipExlusive</b> is set, the flip is done in the independent flip exclusive mode. The front buffer is accessed only by the display hardware (not by the DWM) and the kernel mode driver can apply vertical sync-related optimizations.   
-
-
+When <b>IndependentFlipExlusive</b> is set, the flip is done in the independent flip exclusive mode. The front buffer is accessed only by the display hardware (not by the DWM) and the kernel mode driver can apply vertical sync-related optimizations.
 
 ### -field MoveFlip
 
@@ -154,20 +142,15 @@ When <b>IndependentFlipExlusive</b> is set, the flip is done in the independent 
 
 When <b>MoveFlip</b> is set, the  driver is notified to use any state that has been saved from the previous flip to configure the new scanout request.
 
-
 ### -field Reserved
 
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 23 bits (0xFFFFFF00) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
-A member in the union that DXGK_SETVIDPNSOURCEADDRESS_FLAGS contains that can hold a 32-bit value that identifies operation type. 
-
+A member in the union that DXGK_SETVIDPNSOURCEADDRESS_FLAGS contains that can hold a 32-bit value that identifies operation type.
 
 ## -remarks
-
-
 
 If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStereoPreferRight</b>  members are set, these conditions apply:
 
@@ -178,13 +161,7 @@ If any of the <b>FlipStereo</b>, <b>FlipStereoTemporaryMono</b>, or <b>FlipStere
 </ul>
 Beginning with Windows 8, the display miniport driver can fail a call to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a> function, returning STATUS_INVALID_PARAMETER, when the <b>SharedPrimaryTransition</b> member is set in <i>pSetVidPnSourceAddress</i>-><b>Flags</b>. However, such a failure is not expected unless there is an error in either the user mode driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_checkdirectflipsupport">CheckDirectFlipSupport</a> function or in the Desktop Window Manager (DWM). If such a failure occurs, the operating system will not seamlessly fail back to composition mode, and presentation will be incorrect.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a>
 
@@ -203,7 +180,4 @@ Beginning with Windows 8, the display miniport driver can fail a call to the <a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>
- 
-
- 
 

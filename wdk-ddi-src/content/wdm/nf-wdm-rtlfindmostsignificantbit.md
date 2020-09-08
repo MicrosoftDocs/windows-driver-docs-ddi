@@ -8,9 +8,6 @@ ms.assetid: 372a155f-e270-49ab-a5ab-9b933b29ed74
 ms.date: 04/30/2018
 keywords: ["RtlFindMostSignificantBit function"]
 ms.keywords: RtlFindMostSignificantBit, RtlFindMostSignificantBit routine [Kernel-Mode Driver Architecture], k109_c8dcb9dd-ec2c-4b0c-92f2-167dcee10a96.xml, kernel.rtlfindmostsignificantbit, wdm/RtlFindMostSignificantBit
-f1_keywords:
- - "wdm/RtlFindMostSignificantBit"
- - "RtlFindMostSignificantBit"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlFindMostSignificantBit
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlFindMostSignificantBit
+ - wdm/RtlFindMostSignificantBit
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlFindMostSignificantBit
 ---
 
 # RtlFindMostSignificantBit function
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlFindMostSignificantBit</b> routine returns the zero-based position of the most significant nonzero bit in its parameter.
-
 
 ## -parameters
 
+### -param Set 
 
-
-
-### -param Set [in]
-
-The 64-bit value to be searched for its most significant nonzero bit. 
-
+[in]
+The 64-bit value to be searched for its most significant nonzero bit.
 
 ## -returns
 
-
-
 The zero-based bit position of the most significant nonzero bit, or -1 if every bit is zero.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindleastsignificantbit">RtlFindLeastSignificantBit</a>
- 
-
- 
 

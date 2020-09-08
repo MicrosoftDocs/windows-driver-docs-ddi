@@ -8,9 +8,6 @@ ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.date: 04/30/2018
 keywords: ["PCI_COMMON_CONFIG structure"]
 ms.keywords: "*PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], _PCI_COMMON_CONFIG, kernel.pci_common_config, kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, wdm/PCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG"
-f1_keywords:
- - "wdm/PCI_COMMON_CONFIG"
- - "PCI_COMMON_CONFIG"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Windows
@@ -28,37 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- PCI_COMMON_CONFIG
 targetos: Windows
 req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
+f1_keywords:
+ - _PCI_COMMON_CONFIG
+ - wdm/_PCI_COMMON_CONFIG
+ - PPCI_COMMON_CONFIG
+ - wdm/PPCI_COMMON_CONFIG
+ - PCI_COMMON_CONFIG
+ - wdm/PCI_COMMON_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - PCI_COMMON_CONFIG
 ---
 
-# _PCI_COMMON_CONFIG structure
+# _PCI_COMMON_CONFIG structure (wdm.h)
 
 
 ## -description
 
-
 The <b>PCI_COMMON_CONFIG</b> structure is <u>obsolete</u>. It defines standard PCI configuration information returned by the obsolete <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a> routine for the input <i>BusDataType</i> PCIConfiguration, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DeviceSpecific
 
 Contains any device-specific initialization information that is available.
-
 
 ### -field PCI_COMMON_HEADER
 
@@ -312,22 +310,13 @@ Reserved.
 
 Reserved.
 
-
 ## -remarks
-
-
 
 Certain members of this structure have read-only values, so attempts to reset them are ignored. These members include the following: <b>VendorID</b>, <b>DeviceID</b>, <b>RevisionID</b>, <b>ProgIf</b>, <b>SubClass</b>, <b>BaseClass</b>, <b>HeaderType</b>, <b>InterruptPin</b>, <b>MinimumGrant</b>, and <b>MaximumLatency.</b>
 
 Other members are provisionally read-only: that is, the system initializes them to their correct values, so drivers can safely treat them as read-only. However, they can be reset if a bus-master driver finds it necessary. These members include the following: <b>CacheLineSize</b> and <b>LatencyTimer</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalAssignSlotResources</a>
 
@@ -346,7 +335,4 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalSetBusDataByOffset</a>
- 
-
- 
 

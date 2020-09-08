@@ -8,9 +8,6 @@ ms.assetid: 40cd83c0-701a-436f-a3c3-b0ab14848a92
 ms.date: 02/26/2018
 keywords: ["WdfPdoRequestEject function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, WdfPdoRequestEject method, kmdf.wdfpdorequesteject, wdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject
-f1_keywords:
- - "wdfpdo/WdfPdoRequestEject"
- - "WdfPdoRequestEject"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoRequestEject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoRequestEject
+ - wdfpdo/WdfPdoRequestEject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoRequestEject
 ---
 
 # WdfPdoRequestEject function
@@ -47,21 +47,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoRequestEject</b> method informs the framework that a specified device is about to be ejected from its docking station.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object that represents the device's physical device object (PDO).
-
 
 ## -remarks
 
@@ -106,12 +101,7 @@ while ((hChild = WdfFdoRetrieveNextStaticChild(
 WdfFdoUnlockStaticChildListFromIteration(Device);
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdolockstaticchildlistforiteration">WdfFdoLockStaticChildListForIteration</a>
 
@@ -122,7 +112,4 @@ WdfFdoUnlockStaticChildListFromIteration(Device);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdounlockstaticchildlistfromiteration">WdfFdoUnlockStaticChildListFromIteration</a>
- 
-
- 
 

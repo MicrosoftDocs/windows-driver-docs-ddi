@@ -8,9 +8,6 @@ ms.assetid: 579a2cef-1e37-426c-9f69-8766dc9011ba
 ms.date: 02/26/2018
 keywords: ["IWDFFileHandleTargetFactory::CreateFileHandleTarget"]
 ms.keywords: CreateFileHandleTarget, CreateFileHandleTarget method, CreateFileHandleTarget method,IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory interface,CreateFileHandleTarget method, IWDFFileHandleTargetFactory.CreateFileHandleTarget, IWDFFileHandleTargetFactory::CreateFileHandleTarget, UMDFDeviceObjectRef_4a3fcfeb-e1a1-4375-8bd5-bdd75c36c454.xml, umdf.iwdffilehandletargetfactory_createfilehandletarget, wdf.iwdffilehandletargetfactory_createfilehandletarget, wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget
-f1_keywords:
- - "wudfddi/IWDFFileHandleTargetFactory.CreateFileHandleTarget"
- - "IWDFFileHandleTargetFactory.CreateFileHandleTarget"
 req.header: wudfddi.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFFileHandleTargetFactory.CreateFileHandleTarget
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFFileHandleTargetFactory::CreateFileHandleTarget
+ - wudfddi/IWDFFileHandleTargetFactory::CreateFileHandleTarget
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFFileHandleTargetFactory.CreateFileHandleTarget
 ---
 
 # IWDFFileHandleTargetFactory::CreateFileHandleTarget
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateFileHandleTarget</b> method creates a file-handle-based I/O target object.
 
-
 ## -parameters
 
+### -param hTarget 
 
+[in]
+A handle to the target device. The handle must have been previously opened with the FILE_FLAG_OVERLAPPED flag. For example, FILE_FLAG_OVERLAPPED must have been specified in the <i>dwFlagsAndAttributes</i> parameter of the Microsoft Win32 <b>CreateFile</b> function.
 
+### -param ppTarget 
 
-### -param hTarget [in]
-
-A handle to the target device. The handle must have been previously opened with the FILE_FLAG_OVERLAPPED flag. For example, FILE_FLAG_OVERLAPPED must have been specified in the <i>dwFlagsAndAttributes</i> parameter of the Microsoft Win32 <b>CreateFile</b> function. 
-
-
-### -param ppTarget [out]
-
+[out]
 A pointer to a location that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface of the I/O target object.
 
-
 ## -returns
-
-
 
 <b>CreateFileHandleTarget</b> returns one of the following values: 
 
@@ -107,14 +100,7 @@ A pointer to a location that receives a pointer to the <a href="https://docs.mic
 
 <b>CreateFileHandleTarget</b> might also return other HRESULT values that are defined in Winerror.h.
 
-
-
-
-
-
 ## -remarks
-
-
 
 If your driver uses a file-handle-based I/O target, the <b>DDInstall.WDF</b> section of the driver's INF file must set the <b>UmdfDispatcher</b> directive to <b>FileHandle</b>. For more information about <b>UmdfDispatcher</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives</a>.
 
@@ -174,12 +160,7 @@ if (SUCCEEDED(hr)) {
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffilehandletargetfactory">IWDFFileHandleTargetFactory</a>
 
@@ -190,7 +171,4 @@ if (SUCCEEDED(hr)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>
- 
-
- 
 

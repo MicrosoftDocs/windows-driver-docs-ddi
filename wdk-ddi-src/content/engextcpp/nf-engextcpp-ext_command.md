@@ -8,9 +8,6 @@ ms.assetid: 349712b1-bd1f-4f1f-a242-b6aa36e48773
 ms.date: 05/03/2018
 keywords: ["EXT_COMMAND macro"]
 ms.keywords: EXT_COMMAND, EXT_COMMAND function [Windows Debugging], EngExtCpp_Ref_a6dc21d7-b0c2-4e13-add5-ecfe3c38a94a.xml, debugger.ext_command, engextcpp/EXT_COMMAND
-f1_keywords:
- - "engextcpp/EXT_COMMAND"
- - "EXT_COMMAND"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- engextcpp.hpp
-api_name:
-- EXT_COMMAND
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EXT_COMMAND
+ - engextcpp/EXT_COMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - engextcpp.hpp
+api_name:
+ - EXT_COMMAND
 ---
 
 # EXT_COMMAND macro
@@ -46,16 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The EXT_COMMAND macro is used to define an extension command that was declared by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a> macro.
 
 An extension command is defined as follows:
 
-
 ## -parameters
-
-
-
 
 ### -param _Name
 
@@ -63,11 +58,9 @@ The name of the extension command.  This must be the same as the <i>_Name</i> pa
 
 Because EXT_COMMAND is a macro, <i>_Name</i> must be the bare name of the extension command and should not be enclosed in quotation marks or be a variable.
 
-
 ### -param _Desc
 
 A string describing the extension command.
-
 
 ### -param _Args
 
@@ -77,8 +70,6 @@ A string describing the arguments that are expected by the extension command.   
 <div> </div>
 
 ## -remarks
-
-
 
 The body of the extension command does not take any arguments.  However, because the extension command is declared as a method of the <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a> class, it has access to all the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a> base class, some of which are initialized for the execution of the extension command.
 
@@ -142,12 +133,7 @@ One of the source files to be compiled into the EngExtCpp extension library shou
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
@@ -158,7 +144,4 @@ One of the source files to be compiled into the EngExtCpp extension library shou
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
- 
-
- 
 

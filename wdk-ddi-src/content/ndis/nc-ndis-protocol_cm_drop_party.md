@@ -8,9 +8,6 @@ ms.assetid: be0fce3e-7308-42fa-b63a-4d5cfec7ea6c
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CM_DROP_PARTY callback function"]
 ms.keywords: PROTOCOL_CM_DROP_PARTY, PROTOCOL_CM_DROP_PARTY callback, ProtocolCmDropParty, ProtocolCmDropParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_cda3b3ab-baf4-43a7-b560-7a717687508e.xml, ndis/ProtocolCmDropParty, netvista.protocolcmdropparty
-f1_keywords:
- - "ndis/ProtocolCmDropParty"
- - "ProtocolCmDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCmDropParty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CM_DROP_PARTY
+ - ndis/PROTOCOL_CM_DROP_PARTY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCmDropParty
 ---
 
 # PROTOCOL_CM_DROP_PARTY callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCmDropParty</i> function is required. NDIS calls 
@@ -56,33 +55,28 @@ The
 
 ## -parameters
 
+### -param CallMgrPartyContext 
 
-
-
-### -param CallMgrPartyContext [in]
-
+[in]
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-party state. This handle was provided to NDIS in the call managers 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
+### -param CloseData 
 
-### -param CloseData [in, optional]
-
+[in, optional]
 Pointer to a buffer containing connection-oriented client-specific data that should be sent across
      the connection before the party is dropped. This parameter is <b>NULL</b> if the underlying network medium does
      not support transfers of data when closing a connection.
 
+### -param Size 
 
-### -param Size [in, optional]
-
+[in, optional]
 Specifies the length, in bytes, of the buffer at 
      <i>CloseData</i>, zero if 
      <i>CloseData</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <i>ProtocolCmDropParty</i> returns the status of its operation(s) as one of the following values:
 
@@ -132,14 +126,8 @@ Indicates that
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>ProtocolCmDropParty</i> communicates with network control devices or other media-specific agents, as
     necessary for its media, to drop a party from an existing multipoint call. If the call manager is
@@ -195,22 +183,13 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CM_DROP_PARTY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_DROP_PARTY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmdroppartycomplete">NdisCmDropPartyComplete</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
- 
-
- 
 

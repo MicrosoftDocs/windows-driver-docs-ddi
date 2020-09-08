@@ -6,41 +6,39 @@ ms.assetid: cb29c615-728a-46d7-82f7-7ca5ea59276e
 ms.date: 08/08/2018
 keywords: ["PropKeyFindKeySetPropVariant function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/PropKeyFindKeySetPropVariant"
- - "PropKeyFindKeySetPropVariant"
 ms.keywords: PropKeyFindKeySetPropVariant
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- PropKeyFindKeySetPropVariant
+targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - PropKeyFindKeySetPropVariant
+ - sensorsutils/PropKeyFindKeySetPropVariant
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - PropKeyFindKeySetPropVariant
 product:
  - Windows
-targetos: Windows
-
-
-ms.custom: RS5
 ---
 
 # PropKeyFindKeySetPropVariant function
@@ -79,3 +77,4 @@ This function returns one of the following NTSTATUS codes:
 ## -remarks
 
 ## -see-also
+

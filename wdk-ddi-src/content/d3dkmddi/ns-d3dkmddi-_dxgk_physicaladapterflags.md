@@ -7,9 +7,6 @@ ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
 ms.date: 03/24/2020
 keywords: ["DXGK_PHYSICALADAPTERFLAGS structure"]
 ms.keywords: DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags
-f1_keywords:
- - "d3dkmddi/DXGK_PHYSICALADAPTERFLAGS"
- - "DXGK_PHYSICALADAPTERFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,21 +24,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_PHYSICALADAPTERFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PHYSICALADAPTERFLAGS
+f1_keywords:
+ - _DXGK_PHYSICALADAPTERFLAGS
+ - d3dkmddi/_DXGK_PHYSICALADAPTERFLAGS
+ - DXGK_PHYSICALADAPTERFLAGS
+ - d3dkmddi/DXGK_PHYSICALADAPTERFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_PHYSICALADAPTERFLAGS
 ---
 
 # _DXGK_PHYSICALADAPTERFLAGS structure
+
 
 ## -description
 
@@ -80,3 +83,4 @@ This member is reserved and should be set to zero.
 ### -field Value
 
 The consolidated value of the bitfield members in this structure.
+

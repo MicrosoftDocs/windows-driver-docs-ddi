@@ -8,9 +8,6 @@ ms.assetid: be18a6e6-863d-4a0c-9bcd-a36ace0b54fe
 ms.date: 04/30/2018
 keywords: ["ExInitializeResourceLite function"]
 ms.keywords: ExInitializeResourceLite, ExInitializeResourceLite routine [Kernel-Mode Driver Architecture], k102_3264d595-09fb-4165-8147-4f805fb55557.xml, kernel.exinitializeresourcelite, wdm/ExInitializeResourceLite
-f1_keywords:
- - "wdm/ExInitializeResourceLite"
- - "ExInitializeResourceLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExInitializeResourceLite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExInitializeResourceLite
+ - wdm/ExInitializeResourceLite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExInitializeResourceLite
 ---
 
 # ExInitializeResourceLite function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>ExInitializeResourceLite</b> routine initializes a resource variable. 
-
+The <b>ExInitializeResourceLite</b> routine initializes a resource variable.
 
 ## -parameters
 
+### -param Resource 
 
-
-
-### -param Resource [out]
-
+[out]
 A pointer to the caller-supplied storage, which must be at least <b>sizeof</b>(<b>ERESOURCE</b>), for the resource variable being initialized. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
-
 
 ## -returns
 
-
-
 <b>ExInitializeResourceLite</b> returns STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 The storage for <b>ERESOURCE</b> must be allocated from nonpaged pool.
 
@@ -79,13 +67,7 @@ The resource variable can be used for synchronization by a set of threads. Altho
 
 Call <b>ExDeleteResourceLite</b> before freeing the memory for the resource.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544351">ExAcquireResourceExclusiveLite</a>
 
@@ -124,7 +106,4 @@ Call <b>ExDeleteResourceLite</b> before freeing the memory for the resource.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545585">ExReleaseResourceForThreadLite</a>
- 
-
- 
 

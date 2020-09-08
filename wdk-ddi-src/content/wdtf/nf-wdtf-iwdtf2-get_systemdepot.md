@@ -8,9 +8,6 @@ ms.assetid: 0a377d87-c164-4ac3-9020-7bfe20f78d46
 ms.date: 04/04/2018
 keywords: ["IWDTF2::get_SystemDepot"]
 ms.keywords: IWDTF2 interface [Windows Device Testing Framework],SystemDepot property, IWDTF2.SystemDepot, IWDTF2.get_SystemDepot, IWDTF2::SystemDepot, IWDTF2::get_SystemDepot, Microsoft.WDTF.IWDTF2.SystemDepot, Microsoft::WDTF::IWDTF2::SystemDepot, SystemDepot property [Windows Device Testing Framework], SystemDepot property [Windows Device Testing Framework],IWDTF2 interface, dtf.iwdtf2_systemdepot, get_SystemDepot, wdtf/IWDTF2::SystemDepot, wdtf/IWDTF2::get_SystemDepot
-f1_keywords:
- - "wdtf/IWDTF2.SystemDepot"
- - "IWDTF2.SystemDepot"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTF2.SystemDepot
-- IWDTF2.get_SystemDepot
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTF2::get_SystemDepot
+ - wdtf/IWDTF2::get_SystemDepot
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTF2.SystemDepot
+ - IWDTF2.get_SystemDepot
 ---
 
 # IWDTF2::get_SystemDepot
@@ -47,26 +47,17 @@ req.typenames:
 
 ## -description
 
-
 Gets the SystemDepot object.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a>
- 
-
- 
 

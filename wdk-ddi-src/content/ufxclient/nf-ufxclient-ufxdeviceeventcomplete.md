@@ -8,9 +8,6 @@ ms.assetid: DAC18721-5747-4D5E-8A25-24B80DE77C99
 ms.date: 05/07/2018
 keywords: ["UfxDeviceEventComplete function"]
 ms.keywords: UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses], buses.ufxdeviceeventcomplete, ufxclient/UfxDeviceEventComplete
-f1_keywords:
- - "ufxclient/UfxDeviceEventComplete"
- - "UfxDeviceEventComplete"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ufxclient.h
-api_name:
-- UfxDeviceEventComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UfxDeviceEventComplete
+ - ufxclient/UfxDeviceEventComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ufxclient.h
+api_name:
+ - UfxDeviceEventComplete
 ---
 
 # UfxDeviceEventComplete function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Informs UFX that the client driver has completed processing a UFX callback function.
-
 
 ## -parameters
 
+### -param UfxDevice 
 
-
-
-### -param UfxDevice [in]
-
+[in]
 A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 Status of the event being completed.
 
-
 ## -remarks
-
-
 
 The client driver calls <b>UfxDeviceEventComplete</b> to signal completion of the following callback functions:
 
@@ -128,5 +121,4 @@ For example, your callback function could use the following code:
 </td>
 </tr>
 </table></span></div>
-
 

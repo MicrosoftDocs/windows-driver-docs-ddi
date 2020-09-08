@@ -8,9 +8,6 @@ ms.assetid: BF50E28A-56CF-4718-93BB-CCC3DFE84072
 ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_DELETE_GEOFENCE IOCTL"]
 ms.keywords: IOCTL_GNSS_DELETE_GEOFENCE, IOCTL_GNSS_DELETE_GEOFENCE control, IOCTL_GNSS_DELETE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_delete_geofence, gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE
-f1_keywords:
- - "gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE"
- - "IOCTL_GNSS_DELETE_GEOFENCE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- IOCTL_GNSS_DELETE_GEOFENCE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_GNSS_DELETE_GEOFENCE
+ - gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - IOCTL_GNSS_DELETE_GEOFENCE
 ---
 
 # IOCTL_GNSS_DELETE_GEOFENCE IOCTL
 
 
 ## -description
-
 
 The <b>IOCTL_GNSS_DELETE_GEOFENCE</b> control code is used by the GNSS adapter to delete a previously created geofence.
 
@@ -56,59 +55,31 @@ The <b>IOCTL_GNSS_DELETE_GEOFENCE</b> control code is used by the GNSS adapter t
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_geofence_delete_param">GNSS_GEOFENCE_DELETE_PARAM</a> structure that defines the geofence to be deleted.
-
-
-
 
 ### -input-buffer-length
 
 Set to sizeof(GNSS_GEOFENCE_DELETE_PARAM).
 
-
-
-
 ### -output-buffer
 
 Set to <b>NULL</b>.
-
 
 ### -output-buffer-length
 
 Set to 0.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
-
-
 
 NTSTATUS  with the following indications:
 
@@ -130,13 +101,7 @@ If this is the last geofence, the GNSS driver should stop geofence tracking. If 
 
 If the geofence is successfully removed, the driver returns STATUS_SUCCESS. If the geofence cannot be deleted, a failure code,  STATUS_UNSUCCESSFUL, is returned. If a failure occurs, the GNSS adapter issues the GNSS_ResetGeofencesTracking command and recreates the desired geofences. If this command deletes the last defined geofence, the driver stops geofence tracking.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -151,7 +116,4 @@ If the geofence is successfully removed, the driver returns STATUS_SUCCESS. If t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

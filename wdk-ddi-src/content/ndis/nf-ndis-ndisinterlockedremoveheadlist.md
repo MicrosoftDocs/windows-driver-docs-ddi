@@ -8,9 +8,6 @@ ms.assetid: 85cbc158-7132-4666-8161-a78251a62e4d
 ms.date: 05/02/2018
 keywords: ["NdisInterlockedRemoveHeadList macro"]
 ms.keywords: NdisInterlockedRemoveHeadList, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedRemoveHeadList, ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, netvista.ndisinterlockedremoveheadlist
-f1_keywords:
- - "ndis/NdisInterlockedRemoveHeadList"
- - "NdisInterlockedRemoveHeadList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisInterlockedRemoveHeadList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInterlockedRemoveHeadList
+ - ndis/NdisInterlockedRemoveHeadList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisInterlockedRemoveHeadList
 ---
 
 # NdisInterlockedRemoveHeadList macro
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInterlockedRemoveHeadList</b> function removes an entry, usually a packet, from the head of a doubly
   linked list so that access to the list is synchronized in a multiprocessor-safe way.
 
-
 ## -parameters
 
+### -param _ListHead 
 
-
-
-### -param _ListHead [in]
-
+[in]
 A pointer to the head of the doubly linked list from which an entry is to be removed.
 
+### -param _SpinLock 
 
-### -param _SpinLock [in]
-
+[in]
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
 
-
 ## -remarks
-
-
 
 Before calling any 
     <b>NdisInterlocked..List</b> function, a driver must initialize the variable at 
@@ -102,13 +95,7 @@ If
     <b>NdisInterlockedRemoveHeadList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
     <i>ListHead</i> parameter must be resident.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
 
@@ -129,7 +116,4 @@ If
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedinserttaillist">
    NdisInterlockedInsertTailList</a>
- 
-
- 
 

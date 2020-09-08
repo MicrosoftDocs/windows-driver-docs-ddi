@@ -8,9 +8,6 @@ ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.date: 04/20/2018
 keywords: ["IBidiSpl::MultiSendRecv"]
 ms.keywords: IBidiSpl interface [Print Devices],MultiSendRecv method, IBidiSpl.MultiSendRecv, IBidiSpl::MultiSendRecv, MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv
-f1_keywords:
- - "bidispl/IBidiSpl.MultiSendRecv"
- - "IBidiSpl.MultiSendRecv"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiSpl.MultiSendRecv
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiSpl::MultiSendRecv
+ - bidispl/IBidiSpl::MultiSendRecv
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiSpl.MultiSendRecv
 ---
 
 # IBidiSpl::MultiSendRecv
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>MultiSendRecv</b> method sends a list of bidi requests.
-
 
 ## -parameters
 
+### -param pszAction 
 
-
-
-### -param pszAction [in]
-
+[in]
 A pointer to a NULL-terminated string that specifies the action for this bidi request. It can be one of the following constants.
 
 <table>
@@ -86,17 +82,13 @@ A pointer to a NULL-terminated string that specifies the action for this bidi re
 <td>Set a value of the schema. </td>
 </tr>
 </table>
- 
 
+### -param pRequestContainer 
 
-### -param pRequestContainer [in]
-
+[in]
 A pointer to the list of bidi requests.
 
-
 ## -returns
-
-
 
 The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
@@ -143,22 +135,11 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 Note that the <b>HRESULT</b> may contain a system error code defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidi-error-codes">Bidi Error Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 The BIDI_ACTION_* values are case insensitive strings.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -169,7 +150,4 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
- 
-
- 
 

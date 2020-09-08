@@ -8,9 +8,6 @@ ms.assetid: 4c95ccb6-c796-4bb2-b344-aa8eea28e131
 ms.date: 04/23/2018
 keywords: ["PFNKSSTREAMPOINTER callback function"]
 ms.keywords: AVStrMiniCancelCallback, AVStrMiniCancelCallback routine [Streaming Media Devices], PFNKSSTREAMPOINTER, avstclbk_b23a511e-6e6a-4eaf-a64e-707983534d6f.xml, ks/AVStrMiniCancelCallback, stream.avstrminicancelcallback
-f1_keywords:
- - "ks/AVStrMiniCancelCallback"
- - "AVStrMiniCancelCallback"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniCancelCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSSTREAMPOINTER
+ - ks/PFNKSSTREAMPOINTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniCancelCallback
 ---
 
 # PFNKSSTREAMPOINTER callback function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 AVStream calls a minidriver's <i>AVStrMiniCancelCallback</i> routine when the IRP that is associated with a cloned stream pointer is canceled. This routine is optional.
-
 
 ## -parameters
 
+### -param StreamPointer 
 
-
-
-### -param StreamPointer [in]
-
+[in]
 A pointer to the clone <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> that is associated with the IRP that was canceled. <i>StreamPointer</i> was created by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>.
 
-
 ## -remarks
-
-
 
 The minidriver specifies this routine's address in the <i>CancelCallback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>.
 
@@ -74,13 +67,7 @@ Finally, the minidriver must call <a href="https://docs.microsoft.com/windows-ha
 
 <i>AVStrMiniCancelCallback</i> is called with the queue's spin lock held, hence at DISPATCH_LEVEL. Accordingly, the callback routine cannot perform queue manipulation or call functions that acquire a mutex.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
 
@@ -91,7 +78,4 @@ Finally, the minidriver must call <a href="https://docs.microsoft.com/windows-ha
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a>
- 
-
- 
 

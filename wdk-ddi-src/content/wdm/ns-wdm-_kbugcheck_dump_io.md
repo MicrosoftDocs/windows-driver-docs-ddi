@@ -8,9 +8,6 @@ ms.assetid: d1c246bd-314d-475f-9df8-f1bf90355a5a
 ms.date: 05/02/2019
 keywords: ["KBUGCHECK_DUMP_IO structure"]
 ms.keywords: "*PKBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], PKBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_DUMP_IO, kernel.kbugcheck_dump_io, kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, wdm/KBUGCHECK_DUMP_IO, wdm/PKBUGCHECK_DUMP_IO"
-f1_keywords:
- - "wdm/KBUGCHECK_DUMP_IO"
- - "KBUGCHECK_DUMP_IO"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- KBUGCHECK_DUMP_IO
 targetos: Windows
 req.typenames: KBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO
+f1_keywords:
+ - _KBUGCHECK_DUMP_IO
+ - wdm/_KBUGCHECK_DUMP_IO
+ - PKBUGCHECK_DUMP_IO
+ - wdm/PKBUGCHECK_DUMP_IO
+ - KBUGCHECK_DUMP_IO
+ - wdm/KBUGCHECK_DUMP_IO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - KBUGCHECK_DUMP_IO
 ---
 
 # _KBUGCHECK_DUMP_IO structure
+
 
 ## -description
 
@@ -74,3 +79,4 @@ For information about how this structure is used, see <a href="https://docs.micr
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kbugcheck_dump_io_type">KBUGCHECK_DUMP_IO_TYPE</a>
+

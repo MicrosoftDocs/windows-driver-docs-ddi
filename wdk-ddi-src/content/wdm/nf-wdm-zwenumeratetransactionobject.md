@@ -8,9 +8,6 @@ ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.date: 04/30/2018
 keywords: ["ZwEnumerateTransactionObject function"]
 ms.keywords: NtEnumerateTransactionObject, ZwEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], kernel.zwenumeratetransactionobject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, wdm/NtEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject
-f1_keywords:
- - "wdm/ZwEnumerateTransactionObject"
- - "ZwEnumerateTransactionObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwEnumerateTransactionObject
-- NtEnumerateTransactionObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwEnumerateTransactionObject
+ - wdm/ZwEnumerateTransactionObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwEnumerateTransactionObject
+ - NtEnumerateTransactionObject
 ---
 
 # ZwEnumerateTransactionObject function
@@ -47,43 +47,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwEnumerateTransactionObject</b> routine enumerates the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ktm-objects">KTM objects</a> on a computer.
-
 
 ## -parameters
 
+### -param RootObjectHandle 
 
-
-
-### -param RootObjectHandle [in, optional]
-
+[in, optional]
 A handle to a KTM object. The routine enumerates the child objects of the specified object. This parameter is optional and can be <b>NULL</b>. For more information about valid values for this parameter, see the table in the following Remarks section.
 
+### -param QueryType 
 
-### -param QueryType [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_ktmobject_type">KTMOBJECT_TYPE</a>-typed value that identifies the object type to enumerate. For more information about valid values for this parameter, see the table in the following Remarks section.
 
+### -param ObjectCursor 
 
-### -param ObjectCursor [in, out]
-
+[in, out]
 A pointer to a caller-allocated buffer that begins with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ktmobject_cursor">KTMOBJECT_CURSOR</a> structure. <b>ZwEnumerateTransactionObject</b> uses the buffer to store the GUIDs of objects that it finds.
 
+### -param ObjectCursorLength 
 
-### -param ObjectCursorLength [in]
-
+[in]
 The length, in bytes, of the buffer that <i>ObjectCursor</i> points to.
 
+### -param ReturnLength 
 
-### -param ReturnLength [out]
-
+[out]
 A pointer to a caller-allocated location that receives the number of bytes that <b>ZwEnumerateTransactionObject</b> returns in the <i>ObjectCursor</i> buffer, including the length of the <b>KTMOBJECT_CURSOR</b> structure and the length of all returned GUIDs.
 
-
 ## -returns
-
-
 
 <b>ZwEnumerateTransactionObject</b> returns STATUS_SUCCESS if the operation succeeds but the routine has not enumerated all the objects. If there are no more objects to enumerate, the routine returns STATUS_NO_MORE_ENTRIES. Otherwise, this routine might return one of the following values:
 
@@ -141,12 +134,7 @@ The caller does not have appropriate access to the objects that are being enumer
 
 The routine might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The following table contains the valid values for the <i>RootObjectHandle</i> and <i>QueryType</i> parameters.
 
@@ -291,12 +279,7 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ktmobject_cursor">KTMOBJECT_CURSOR</a>
 
@@ -307,7 +290,4 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
- 
-
- 
 

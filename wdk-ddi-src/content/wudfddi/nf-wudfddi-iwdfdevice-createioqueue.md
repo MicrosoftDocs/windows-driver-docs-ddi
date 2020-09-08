@@ -8,9 +8,6 @@ ms.assetid: 54c19d8c-59eb-44b2-b406-8fe33cdfcd63
 ms.date: 02/26/2018
 keywords: ["IWDFDevice::CreateIoQueue"]
 ms.keywords: CreateIoQueue, CreateIoQueue method, CreateIoQueue method,IWDFDevice interface, IWDFDevice interface,CreateIoQueue method, IWDFDevice.CreateIoQueue, IWDFDevice::CreateIoQueue, UMDFDeviceObjectRef_ed702ef2-a628-44cc-9aba-421018c236c1.xml, umdf.iwdfdevice_createioqueue, wdf.iwdfdevice_createioqueue, wudfddi/IWDFDevice::CreateIoQueue
-f1_keywords:
- - "wudfddi/IWDFDevice.CreateIoQueue"
- - "IWDFDevice.CreateIoQueue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice.CreateIoQueue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice::CreateIoQueue
+ - wudfddi/IWDFDevice::CreateIoQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice.CreateIoQueue
 ---
 
 # IWDFDevice::CreateIoQueue
@@ -46,52 +46,45 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateIoQueue</b> method configures the default I/O queue that is associated with a device or creates a secondary I/O queue for the device.
 
-
 ## -parameters
 
+### -param pCallbackInterface 
 
-
-
-### -param pCallbackInterface [in, optional]
-
+[in, optional]
 A pointer to the <b>IUnknown</b> interface that the framework uses to determine the event callback functions that the driver subscribes to on the queue. These are the functions that the framework calls when the relevant events occur.
 
  For UMDF versions 1.9 and later, this parameter is required for I/O queues that use the sequential or parallel <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/configuring-dispatch-mode-for-an-i-o-queue">dispatching method</a><u>,</u> and it is optional (can be <b>NULL</b>) for I/O queues that use the manual dispatching method. For UMDF versions earlier than 1.9, this parameter is required for all dispatching methods.
 
+### -param bDefaultQueue 
 
-### -param bDefaultQueue [in]
-
+[in]
 A BOOL value that specifies whether to configure the default I/O queue or create a secondary I/O queue for the device. <b>TRUE</b> indicates to configure the default I/O queue; <b>FALSE</b> indicates to create a secondary I/O queue.
 
+### -param DispatchType 
 
-### -param DispatchType [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type">WDF_IO_QUEUE_DISPATCH_TYPE</a>-typed value that identifies how the driver must receive requests from the I/O queue.
 
+### -param bPowerManaged 
 
-### -param bPowerManaged [in]
-
+[in]
 A BOOL value that specifies whether the I/O queue is power managed. <b>TRUE</b> indicates the framework automatically coordinates dispatching for the I/O queue with Plug and Play (PnP) and the power state of the device; <b>FALSE</b> indicates no automatically coordinated dispatching.
 
+### -param bAllowZeroLengthRequests 
 
-### -param bAllowZeroLengthRequests [in]
-
+[in]
 A BOOL value that specifies whether the framework puts zero-length I/O requests directly in the I/O queue for the driver to handle. <b>TRUE</b> indicates that the driver should receive read and write requests that have zero-length buffers--that is, the framework automatically puts these request types directly in the I/O queue for the driver. <b>FALSE</b> indicates that the framework completes zero-length I/O requests instead of putting them in the I/O queue.
 
+### -param ppIoQueue 
 
-### -param ppIoQueue [out]
-
+[out]
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the newly created I/O queue object or the default I/O queue object.
 
-
 ## -returns
-
-
 
 <b>CreateIoQueue</b> returns one of the following values:
 
@@ -139,14 +132,7 @@ For more information about these configurations, see the Remarks section.
 
 <b>CreateIoQueue</b> might also return other HRESULT values.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>IUnknown</b> interface that the driver supplies for the <i>pCallbackInterface</i> parameter can support several queue callback functions. The framework calls the <b>QueryInterface</b> method on the supplied <b>IUnknown</b> interface multiple times to retrieve the interface methods that the driver supports. When applications perform actions that are related to the methods of the supported interfaces (such as, an I/O read request), the framework calls the methods (such as, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackread-onread">IQueueCallbackRead::OnRead</a> method) to notify the driver. The framework calls <b>QueryInterface</b> for the following interfaces:
 
@@ -201,12 +187,7 @@ For a code example of how to use the <b>CreateIoQueue</b> method, see <a href="h
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iobjectcleanup">IObjectCleanup</a>
 
@@ -253,7 +234,4 @@ For a code example of how to use the <b>CreateIoQueue</b> method, see <a href="h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type">WDF_IO_QUEUE_DISPATCH_TYPE</a>
- 
-
- 
 

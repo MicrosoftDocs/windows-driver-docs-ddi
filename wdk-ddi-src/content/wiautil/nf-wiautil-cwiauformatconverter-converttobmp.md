@@ -8,9 +8,6 @@ ms.assetid: 9ac85fe9-bc44-4a70-9619-bb13e878bb49
 ms.date: 05/03/2018
 keywords: ["CWiauFormatConverter::ConvertToBmp"]
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],ConvertToBmp method, CWiauFormatConverter.ConvertToBmp, CWiauFormatConverter::ConvertToBmp, ConvertToBmp, ConvertToBmp method [Imaging Devices], ConvertToBmp method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_converttobmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, wiautil/CWiauFormatConverter::ConvertToBmp
-f1_keywords:
- - "wiautil/CWiauFormatConverter.ConvertToBmp"
- - "CWiauFormatConverter.ConvertToBmp"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiautil.h
-api_name:
-- CWiauFormatConverter.ConvertToBmp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CWiauFormatConverter::ConvertToBmp
+ - wiautil/CWiauFormatConverter::ConvertToBmp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiautil.h
+api_name:
+ - CWiauFormatConverter.ConvertToBmp
 ---
 
 # CWiauFormatConverter::ConvertToBmp
@@ -46,74 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <b>CWiauFormatConverter::ConvertToBmp</b> method converts an image to BMP format.
 
-
 ## -parameters
-
-
-
 
 ### -param pSource
 
 Points to the memory location containing the first byte of the source image.
 
-
 ### -param iSourceSize
 
 Specifies the size, in bytes, of the source image.
-
 
 ### -param ppDest
 
 Pointer to a memory location that receives the address of the resulting image.
 
-
 ### -param piDestSize
 
 Pointer to a memory location that receives the size, in bytes, of the resulting image.
-
 
 ### -param pBmpImageInfo
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/ns-wiautil-_bmp_image_info">BMP_IMAGE_INFO</a> structure that receives information about the resulting image.
 
-
 ### -param iSkipAmt
-
-
-
-
-
 
 #### - iSkipAmt = SKIP_OFF
 
 <i>Optional</i>. Specifies the amount of the BMP header to skip. The default value of this parameter denotes that none of the BMP header is skipped.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
 
-
-
-
 ## -remarks
-
-
 
 The caller of this method can pass a result buffer in <i>ppDest</i> and the size in <i>piDestSize</i>. Alternatively, the caller can set *<i>ppDest</i> to <b>NULL</b> and *<i>piDestSize</i> to zero in the call to indicate that this method should allocate the memory. The caller is responsible for freeing the memory using the <b>delete []</b> operator.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/ns-wiautil-_bmp_image_info">BMP_IMAGE_INFO</a>
 
@@ -128,7 +99,4 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/ne-wiautil-skip_amount">SKIP_AMOUNT</a>
- 
-
- 
 

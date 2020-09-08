@@ -8,9 +8,6 @@ ms.assetid: 5BD4AC50-6029-41BE-A825-9290189F29B8
 ms.date: 05/02/2018
 keywords: ["WWAN_AUTH_AKAP_RESPONSE structure"]
 ms.keywords: "*PWWAN_AUTH_AKAP_RESPONSE, PWWAN_AUTH_AKAP_RESPONSE, PWWAN_AUTH_AKAP_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKAP_RESPONSE, WWAN_AUTH_AKAP_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKAP_RESPONSE, netvista.wwan_auth_akap_response, wwan/PWWAN_AUTH_AKAP_RESPONSE, wwan/WWAN_AUTH_AKAP_RESPONSE"
-f1_keywords:
- - "wwan/WWAN_AUTH_AKAP_RESPONSE"
- - "WWAN_AUTH_AKAP_RESPONSE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_AUTH_AKAP_RESPONSE
 targetos: Windows
 req.typenames: WWAN_AUTH_AKAP_RESPONSE, *PWWAN_AUTH_AKAP_RESPONSE
+f1_keywords:
+ - _WWAN_AUTH_AKAP_RESPONSE
+ - wwan/_WWAN_AUTH_AKAP_RESPONSE
+ - PWWAN_AUTH_AKAP_RESPONSE
+ - wwan/PWWAN_AUTH_AKAP_RESPONSE
+ - WWAN_AUTH_AKAP_RESPONSE
+ - wwan/WWAN_AUTH_AKAP_RESPONSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_AUTH_AKAP_RESPONSE
 ---
 
 # _WWAN_AUTH_AKAP_RESPONSE structure
@@ -46,34 +50,19 @@ req.typenames: WWAN_AUTH_AKAP_RESPONSE, *PWWAN_AUTH_AKAP_RESPONSE
 
 ## -description
 
-
 The WWAN_AUTH_AKAP_RESPONSE structure represents a response to an AKA' (AKA Prime) authentication challenge.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Res
-
- 
-
 
 ### -field ResLength
 
 The length of the response in the <b>Res</b> member.
 
-
 ### -field IKP
 
- 
-
-
 ### -field CKP
-
- 
-
 
 ### -field Auts
 
@@ -101,23 +90,11 @@ The integrating key. This member is valid only in case of success. This member r
 
 A 128-bit authentication result from the peer, which, together with the RAND, authenticates the peer to the server. This member is valid only in case of success. This member represents a multi-byte value in little-endian format.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4
 ms.date: 05/02/2018
 keywords: ["FILTER_SEND_NET_BUFFER_LISTS_COMPLETE callback function"]
 ms.keywords: FILTER_SEND_NET_BUFFER_LISTS_COMPLETE, FILTER_SEND_NET_BUFFER_LISTS_COMPLETE callback, FilterSendNetBufferListsComplete, FilterSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_5022c19b-6433-4c57-aa68-20270400950b.xml, ndis/FilterSendNetBufferListsComplete, netvista.filtersendnetbufferlistscomplete
-f1_keywords:
- - "ndis/FilterSendNetBufferListsComplete"
- - "FilterSendNetBufferListsComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- FilterSendNetBufferListsComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
+ - ndis/FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - FilterSendNetBufferListsComplete
 ---
 
 # FILTER_SEND_NET_BUFFER_LISTS_COMPLETE callback function
 
 
 ## -description
-
 
 NDIS calls the 
   <i>FilterSendNetBufferListsComplete</i> function to complete a send request that a filter driver started by
@@ -57,15 +56,12 @@ NDIS calls the
 
 ## -parameters
 
+### -param FilterModuleContext 
 
-
-
-### -param FilterModuleContext [in]
-
+[in]
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
-
 
 ### -param NetBufferList
 
@@ -75,8 +71,9 @@ A pointer to a linked list of
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsendnetbufferlists">
   NdisFSendNetBufferLists</a>.
 
-### -param SendCompleteFlags [in]
+### -param SendCompleteFlags 
 
+[in]
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to zero. This function supports the following flags:
 
 
@@ -102,8 +99,6 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 <div> </div>
 
 ## -remarks
-
-
 
 <i>FilterSendNetBufferListsComplete</i> is an optional function. If a filter driver does not filter send
     requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
@@ -178,15 +173,9 @@ VOID
 </table></span></div>
 The <b>FILTER_SEND_NET_BUFFER_LISTS_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_SEND_NET_BUFFER_LISTS_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -218,7 +207,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
- 
-
- 
 

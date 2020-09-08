@@ -8,9 +8,6 @@ ms.assetid: 52f65e2a-97a7-4c1c-a021-208bc2520b7d
 ms.date: 05/03/2018
 keywords: ["IDebugDataSpaces::ReadControl"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadControl method, IDebugDataSpaces.ReadControl, IDebugDataSpaces2 interface [Windows Debugging],ReadControl method, IDebugDataSpaces2::ReadControl, IDebugDataSpaces3 interface [Windows Debugging],ReadControl method, IDebugDataSpaces3::ReadControl, IDebugDataSpaces4 interface [Windows Debugging],ReadControl method, IDebugDataSpaces4::ReadControl, IDebugDataSpaces::ReadControl, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml, ReadControl, ReadControl method [Windows Debugging], ReadControl method [Windows Debugging],IDebugDataSpaces interface, ReadControl method [Windows Debugging],IDebugDataSpaces2 interface, ReadControl method [Windows Debugging],IDebugDataSpaces3 interface, ReadControl method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadControl, dbgeng/IDebugDataSpaces3::ReadControl, dbgeng/IDebugDataSpaces4::ReadControl, dbgeng/IDebugDataSpaces::ReadControl, debugger.readcontrol
-f1_keywords:
- - "dbgeng/IDebugDataSpaces.ReadControl"
- - "IDebugDataSpaces.ReadControl"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugDataSpaces.ReadControl
-- IDebugDataSpaces2.ReadControl
-- IDebugDataSpaces3.ReadControl
-- IDebugDataSpaces4.ReadControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugDataSpaces::ReadControl
+ - dbgeng/IDebugDataSpaces::ReadControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugDataSpaces.ReadControl
+ - IDebugDataSpaces2.ReadControl
+ - IDebugDataSpaces3.ReadControl
+ - IDebugDataSpaces4.ReadControl
 ---
 
 # IDebugDataSpaces::ReadControl
@@ -49,43 +49,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>ReadControl</b> method reads implementation-specific system data.
-
 
 ## -parameters
 
+### -param Processor 
 
-
-
-### -param Processor [in]
-
+[in]
 Specifies the processor whose information is to be read.
 
+### -param Offset 
 
-### -param Offset [in]
-
+[in]
 Specifies the offset in the control space of the memory to read.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Receives the data read from the control-space memory.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in bytes of the buffer <i>Buffer</i>.  This is the maximum number of bytes that will be read.
 
+### -param BytesRead 
 
-### -param BytesRead [out, optional]
-
+[out, optional]
 Receives the number of bytes returned in the buffer <i>Buffer</i>.  If <i>BytesRead</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -108,14 +101,7 @@ The method was successful.
 
 This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
 
-
-
 This method is only available in kernel-mode debugging.
-
-
 

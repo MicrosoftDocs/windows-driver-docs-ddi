@@ -10,38 +10,39 @@ ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
 req.header: wdm.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type:
-- DllExport
-api_location: 
-- wdm.h
-api_name: 
-- RtlUnicodeStringToUTF8String
-product: 
-- Windows
 targetos: Windows
-
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - wdm.h
+api_name:
+ - RtlUnicodeStringToUTF8String
+product:
+ - Windows
+f1_keywords:
+ - RtlUnicodeStringToUTF8String
+ - wdm/RtlUnicodeStringToUTF8String
 ---
 
-# RtlUnicodeStringToUTF8String function
-
+# RtlUnicodeStringToUTF8String function (wdm.h)
 
 
 ## -description
@@ -62,12 +63,11 @@ Pointer to the Unicode source string to be converted to UTF8.
 
 <b>TRUE</b> if this routine is to allocate the buffer space for the <i>DestinationString</i>. If it does, the buffer must be deallocated by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeutf8string">RtlFreeUTF8String</a>.
 
-
 ## -returns
 
 If the conversion succeeds, <b>RtlUnicodeStringToUTF8String</b> returns STATUS_SUCCESS. On failure, the routine does not allocate memory or perform a conversion.
 
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeutf8string">RtlFreeUTF8String</a>
+

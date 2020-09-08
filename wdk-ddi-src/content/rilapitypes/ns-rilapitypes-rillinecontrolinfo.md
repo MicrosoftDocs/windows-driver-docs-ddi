@@ -8,9 +8,6 @@ ms.assetid: 4a3bcbda-58e8-4b40-bcc2-fe7b1e624973
 ms.date: 05/02/2018
 keywords: ["RILLINECONTROLINFO structure"]
 ms.keywords: "*LPRILLINECONTROLINFO, RILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], netvista.rillinecontrolinfo, ntddrilapitypes/RILLINECONTROLINFO"
-f1_keywords:
- - "rilapitypes/RILLINECONTROLINFO"
- - "RILLINECONTROLINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,47 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILLINECONTROLINFO
 targetos: Windows
 req.typenames: RILLINECONTROLINFO, *LPRILLINECONTROLINFO
+f1_keywords:
+ - RILLINECONTROLINFO
+ - rilapitypes/RILLINECONTROLINFO
+ - LPRILLINECONTROLINFO
+ - rilapitypes/LPRILLINECONTROLINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILLINECONTROLINFO
 ---
 
-# RILLINECONTROLINFO structure
+# RILLINECONTROLINFO structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwExecutor
 
-
 ### -field fPolarityIncluded
-
 
 ### -field fToggleMode
 
-
 ### -field fReversePolarity
-
 
 ### -field dwPowerDenialTime
 

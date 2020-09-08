@@ -8,9 +8,6 @@ ms.assetid: 08111f70-d0cc-4abc-8bcd-86683af3eb32
 ms.date: 05/08/2018
 keywords: ["IMiniportDMus::Init"]
 ms.keywords: IMiniportDMus interface [Audio Devices],Init method, IMiniportDMus.Init, IMiniportDMus::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_init, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, dmusicks/IMiniportDMus::Init
-f1_keywords:
- - "dmusicks/IMiniportDMus.Init"
- - "IMiniportDMus.Init"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusicks.h
-api_name:
-- IMiniportDMus.Init
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportDMus::Init
+ - dmusicks/IMiniportDMus::Init
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusicks.h
+api_name:
+ - IMiniportDMus.Init
 ---
 
 # IMiniportDMus::Init
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <code>Init</code> method initializes the DMus miniport object.
-
 
 ## -parameters
 
+### -param UnknownAdapter 
 
-
-
-### -param UnknownAdapter [in, optional]
-
+[in, optional]
 Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
+### -param ResourceList 
 
-### -param ResourceList [in]
-
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iresourcelist">IResourceList</a> object that contains the adapter's resource list. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list.
 
+### -param Port 
 
-### -param Port [in]
-
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a> object that provides the port driver's callback interface.
 
+### -param ServiceGroup 
 
-### -param ServiceGroup [out]
-
+[out]
 Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the miniport driver's service group object. This is the service group that this miniport driver wants to have used for calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iportdmus-notify">IPortDMus::Notify</a>.
-
 
 ## -returns
 
-
-
 <code>Init</code> returns S_OK if the call was successful. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The <i>pUnknownAdapter</i> parameter is optional:
 
@@ -106,13 +94,7 @@ The <i>pUnknownAdapter</i> and <i>pResourceList</i> parameters are the same poin
 
 The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppServiceGroup</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>
 
@@ -143,7 +125,4 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewinterruptsync">PcNewInterruptSync</a>
- 
-
- 
 

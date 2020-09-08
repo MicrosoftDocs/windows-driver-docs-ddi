@@ -8,9 +8,6 @@ ms.assetid: 128fd929-6e83-46a0-9475-e459ede58f30
 ms.date: 10/28/2019
 keywords: ["FWPS_CALLOUT_CLASSIFY_FN1 callback function"]
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN1, FWPS_CALLOUT_CLASSIFY_FN1 callback, classifyFn1, classifyFn1 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn1, netvista.classifyfn1, wfp_ref_2_funct_4_callout_db29c2d0-9b7c-4737-b66f-472c78fff234.xml
-f1_keywords:
- - "fwpsk/classifyFn1"
- - "classifyFn1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Fwpsk.h
-api_name:
-- classifyFn1
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FWPS_CALLOUT_CLASSIFY_FN1
+ - fwpsk/FWPS_CALLOUT_CLASSIFY_FN1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Fwpsk.h
+api_name:
+ - classifyFn1
 ---
 
 # FWPS_CALLOUT_CLASSIFY_FN1 callback function
@@ -46,33 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The filter engine calls a callout's 
   <i>classifyFn1</i> callout function whenever there is data to be processed by the callout.
 <div class="alert"><b>Note</b>  <i>classifyFn1</i> is the specific version of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> is available.</div><div> </div>
 
 ## -parameters
 
+### -param inFixedValues 
 
-
-
-### -param inFixedValues [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a> structure. This
      structure contains the values for each of the data fields in the layer being filtered.
 
+### -param inMetaValues 
 
-### -param inMetaValues [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
      FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields in the layer being filtered.
 
+### -param layerData 
 
-### -param layerData [in, out]
-
+[in, out]
 A pointer to a structure that describes the raw data in the layer being filtered. This parameter
      might be <b>NULL</b>, depending on the layer being filtered and the conditions under which the 
      <i>classifyFn1</i> callout function is called. For the stream layer, this parameter points to an 
@@ -81,38 +78,35 @@ A pointer to a structure that describes the raw data in the layer being filtered
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure if it is not
      <b>NULL</b>.
 
+### -param classifyContext 
 
-### -param classifyContext [in, optional]
-
+[in, optional]
 A pointer to context data associated with the callout driver by the filter engine.
 
+### -param filter 
 
-### -param filter [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> structure. This structure
      describes the filter that specifies the callout for the filter's action.
 
+### -param flowContext 
 
-### -param flowContext [in]
-
+[in]
 A UINT64-typed variable that contains the context associated with the data flow. If no context is
      associated with the data flow, then this parameter is zero. If the callout is added to the filter engine
      at a filtering layer that does not support data flows, the 
      <i>classifyFn1</i> callout function should ignore this parameter.
 
+### -param classifyOut 
 
-### -param classifyOut [in, out]
-
+[in, out]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure that
      receives any data that the 
      <i>classifyFn1</i> callout function returns to the caller.
 
-
 ## -remarks
-
-
 
 A callout driver registers a callout's callout functions with the filter engine by calling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> function.
@@ -155,12 +149,7 @@ When a callout has indicated that it intends to modify the clone net buffer list
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/associating-context-with-a-data-flow">Associating Context with a Data Flow</a>
 
@@ -233,7 +222,4 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: f5bb3af4-c687-47ad-88ce-d56067c78d6d
 ms.date: 02/26/2018
 keywords: ["WdfWorkItemCreate function"]
 ms.keywords: DFWorkItemObjectRef_0041ea62-aa06-4e8b-8f84-807731ecc516.xml, WdfWorkItemCreate, WdfWorkItemCreate method, kmdf.wdfworkitemcreate, wdf.wdfworkitemcreate, wdfworkitem/WdfWorkItemCreate
-f1_keywords:
- - "wdfworkitem/WdfWorkItemCreate"
- - "WdfWorkItemCreate"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfWorkItemCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfWorkItemCreate
+ - wdfworkitem/WdfWorkItemCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfWorkItemCreate
 ---
 
 # WdfWorkItemCreate function
@@ -49,35 +49,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfWorkItemCreate</b> method creates a framework work-item object, which can subsequently be added to the system's work-item queue.
 
-
 ## -parameters
 
+### -param Config 
 
-
-
-### -param Config [in]
-
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure that the driver must have already initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdf_workitem_config_init">WDF_WORKITEM_CONFIG_INIT</a>.
 
+### -param Attributes 
 
-### -param Attributes [in]
+[in]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the work-item object.
 
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the work-item object. 
+### -param WorkItem 
 
-
-### -param WorkItem [out]
-
+[out]
 A pointer to a variable that receives a handle to the new work-item object.
 
-
 ## -returns
-
-
 
 <b>WdfWorkItemCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -142,14 +135,8 @@ The <i>Attributes</i> parameter was <b>NULL</b>, or the <b>ParentObject</b> memb
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After a driver calls <b>WdfWorkItemCreate</b> to create a work item, it typically stores item-specific information in the context memory of the work-item object. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> callback function, which performs the work item's tasks, can access this information to determine the tasks that it must perform. (For more information about storing information in the context memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.)
 
@@ -199,15 +186,7 @@ if (!NT_SUCCESS(status)) {
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemenqueue">WdfWorkItemEnqueue</a>
- 
-
- 
 

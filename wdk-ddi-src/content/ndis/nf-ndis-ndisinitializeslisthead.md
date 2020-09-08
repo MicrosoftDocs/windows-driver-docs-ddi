@@ -8,9 +8,6 @@ ms.assetid: 4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304
 ms.date: 05/02/2018
 keywords: ["NdisInitializeSListHead macro"]
 ms.keywords: NdisInitializeSListHead, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeSListHead, ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, netvista.ndisinitializeslisthead
-f1_keywords:
- - "ndis/NdisInitializeSListHead"
- - "NdisInitializeSListHead"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisInitializeSListHead
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisInitializeSListHead
+ - ndis/NdisInitializeSListHead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisInitializeSListHead
 ---
 
 # NdisInitializeSListHead macro
@@ -46,26 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisInitializeSListHead</b> function initializes the head of a sequenced, interlocked, singly linked
   list.
 
-
 ## -parameters
 
+### -param SListHead 
 
-
-
-### -param SListHead [in]
-
+[in]
 A pointer to the caller-supplied list head to be initialized, which must be in resident
      memory. The structure must be 16-byte aligned on 64-bit platforms.
 
-
 ## -remarks
-
-
 
 <b>NdisInitializeSListHead</b> zero-initializes the opaque list head at 
     <i>SListHead</i> and sets the first-entry pointer to <b>NULL</b>.
@@ -96,13 +89,7 @@ If
     <b>NdisInitializeSListHead</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
     <i>SListHead</i> parameter must be resident.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
    NdisInitializeNPagedLookasideList</a>
@@ -123,7 +110,4 @@ If
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisqueueioworkitem">NdisQueueIoWorkItem</a>
- 
-
- 
 

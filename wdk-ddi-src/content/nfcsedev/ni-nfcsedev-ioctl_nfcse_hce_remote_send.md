@@ -8,9 +8,6 @@ ms.assetid: 5BA627C9-747D-493A-B568-B2912BBB622F
 ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_HCE_REMOTE_SEND IOCTL"]
 ms.keywords: IOCTL_NFCSE_HCE_REMOTE_SEND, IOCTL_NFCSE_HCE_REMOTE_SEND control, IOCTL_NFCSE_HCE_REMOTE_SEND control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_SEND, nfpdrivers.ioctl_nfcse_hce_remote_send
-f1_keywords:
- - "nfcsedev/IOCTL_NFCSE_HCE_REMOTE_SEND"
- - "IOCTL_NFCSE_HCE_REMOTE_SEND"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- nfcsedev.h
-api_name:
-- IOCTL_NFCSE_HCE_REMOTE_SEND
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_NFCSE_HCE_REMOTE_SEND
+ - nfcsedev/IOCTL_NFCSE_HCE_REMOTE_SEND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - nfcsedev.h
+api_name:
+ - IOCTL_NFCSE_HCE_REMOTE_SEND
 ---
 
 # IOCTL_NFCSE_HCE_REMOTE_SEND IOCTL
@@ -46,55 +46,29 @@ req.typenames:
 
 ## -description
 
-
 Transmits response APDU from DeviceHost NFCEE to remote device. The caller must be sure that response APDU is conformant to ISO-IEC 7816-4.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Pointer to buffer containing <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_data_packet">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure.
 
-
-
 ### -input-buffer-length
 
 sizeof(SECURE_ELEMENT_HCE_DATA_PACKET)
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
 
 None
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -114,5 +88,4 @@ None
 <td> This code is returned if the IOCTL is sent on a handle other than with relative name ‘SEManage’.</td>
 </tr>
 </table>
- 
 

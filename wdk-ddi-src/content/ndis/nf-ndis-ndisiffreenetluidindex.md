@@ -8,9 +8,6 @@ ms.assetid: eba881f8-e946-44a8-9624-37f63471fb65
 ms.date: 05/02/2018
 keywords: ["NdisIfFreeNetLuidIndex function"]
 ms.keywords: NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfFreeNetLuidIndex, net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, netvista.ndisiffreenetluidindex
-f1_keywords:
- - "ndis/NdisIfFreeNetLuidIndex"
- - "NdisIfFreeNetLuidIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisIfFreeNetLuidIndex
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisIfFreeNetLuidIndex
+ - ndis/NdisIfFreeNetLuidIndex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisIfFreeNetLuidIndex
 ---
 
 # NdisIfFreeNetLuidIndex function
 
 
 ## -description
-
 
 The 
   <b>NdisIfFreeNetLuidIndex</b> function frees a network interface 
@@ -55,11 +54,7 @@ The
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifallocatenetluidindex">
   NdisIfAllocateNetLuidIndex</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param ifType
 
@@ -69,16 +64,13 @@ The interface type that the index was allocated for. The caller must provide the
      For a list of interface types, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-interface-types">NDIS Interface Types</a>.
 
-### -param NetLuidIndex [in]
+### -param NetLuidIndex 
 
+[in]
 The NET_LUID index value that NDIS should free. This index was allocated in a previous call to 
      <b>NdisIfAllocateNetLuidIndex</b>.
 
-
-
 ## -returns
-
-
 
 <b>NdisIfFreeNetLuidIndex</b> returns one of the following values:
 
@@ -120,12 +112,7 @@ If the call to
      the index. Removing the information will ensure that the provider does not keep trying to free an index
      that is already freed after the computer restarts.
 
-
-
-
 ## -remarks
-
-
 
 NDIS interface providers call the 
     <b>NdisIfFreeNetLuidIndex</b> function to free a 
@@ -142,20 +129,11 @@ The provider should not use the freed NET_LUID index or the associated NET_LUID 
     NDIS function calls after it calls 
     <b>NdisIfFreeNetLuidIndex</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifallocatenetluidindex">NdisIfAllocateNetLuidIndex</a>
- 
-
- 
 

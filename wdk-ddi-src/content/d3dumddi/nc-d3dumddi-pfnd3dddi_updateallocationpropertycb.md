@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnUpdateAllocationPropertyCb"
- - "pfnUpdateAllocationPropertyCb"
+ - PFND3DDDI_UPDATEALLOCATIONPROPERTYCB
+ - d3dumddi/PFND3DDDI_UPDATEALLOCATIONPROPERTYCB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_UPDATEALLOCATIONPROPERTYCB callback function
+
 
 ## -description
 

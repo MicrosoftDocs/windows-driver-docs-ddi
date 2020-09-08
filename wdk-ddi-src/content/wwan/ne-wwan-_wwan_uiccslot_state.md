@@ -8,9 +8,6 @@ ms.assetid: 63A3C2AA-6EBF-469D-933A-C51F5EC31C47
 ms.date: 05/02/2018
 keywords: ["WWAN_UICCSLOT_STATE enumeration"]
 ms.keywords: "*PWWAN_UICCSLOT_STATE, UICCSlotStateActive, UICCSlotStateEmpty, UICCSlotStateError, UICCSlotStateNotReady, UICCSlotStateOff, UICCSlotStateOffEmpty, UICCSlotStateUnknown, WWAN_UICCSLOT_STATE, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], _WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, wwan/UICCSlotStateActive, wwan/UICCSlotStateEmpty, wwan/UICCSlotStateError, wwan/UICCSlotStateNotReady, wwan/UICCSlotStateOff, wwan/UICCSlotStateOffEmpty, wwan/UICCSlotStateUnknown, wwan/WWAN_UICCSLOT_STATE"
-f1_keywords:
- - "wwan/WWAN_UICCSLOT_STATE"
- - "WWAN_UICCSLOT_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_UICCSLOT_STATE
 targetos: Windows
 req.typenames: WWAN_UICCSLOT_STATE, *PWWAN_UICCSLOT_STATE
+f1_keywords:
+ - _WWAN_UICCSLOT_STATE
+ - wwan/_WWAN_UICCSLOT_STATE
+ - PWWAN_UICCSLOT_STATE
+ - wwan/PWWAN_UICCSLOT_STATE
+ - WWAN_UICCSLOT_STATE
+ - wwan/WWAN_UICCSLOT_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_UICCSLOT_STATE
 ---
 
 # _WWAN_UICCSLOT_STATE enumeration
@@ -46,14 +50,9 @@ req.typenames: WWAN_UICCSLOT_STATE, *PWWAN_UICCSLOT_STATE
 
 ## -description
 
-
 The <b>WWAN_UICCSLOT_STATE</b> enumeration lists the different states of a UICC (SIM) card slot on a modem. The slot state represents a summary of both the slot state and the card state.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WwanUiccSlotStateUnknown
 
@@ -95,22 +94,11 @@ The card in the slot is an eSIM with no profiles or active profiles, and it is r
 
 The maximum value for this enumeration.
 
-
-
 ## -remarks
 
 The set of reported states is constrained by the capability of the slot hardware. In the most restrictive case, the slot hardware may only be able to determine that a card is present when it is powered on and active; in such a case the <b>OffEmpty</b> and <b>Off</b> states will not be reported.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_slot_info">WWAN_SLOT_INFO</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 3312e6ca-bf2c-4a53-bd86-d36d708ed596
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetWdmGetTargetFileHandle function"]
 ms.keywords: DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, WdfIoTargetWdmGetTargetFileHandle, WdfIoTargetWdmGetTargetFileHandle method, kmdf.wdfiotargetwdmgettargetfilehandle, wdf.wdfiotargetwdmgettargetfilehandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
-f1_keywords:
- - "wdfiotarget/WdfIoTargetWdmGetTargetFileHandle"
- - "WdfIoTargetWdmGetTargetFileHandle"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfIoTargetWdmGetTargetFileHandle
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoTargetWdmGetTargetFileHandle
+ - wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfIoTargetWdmGetTargetFileHandle
 ---
 
 # WdfIoTargetWdmGetTargetFileHandle function
@@ -47,38 +47,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetWdmGetTargetFileHandle</b> method returns a handle to the file that is associated with a specified remote I/O target.
 
-
 ## -parameters
 
+### -param IoTarget 
 
-
-
-### -param IoTarget [in]
-
+[in]
 A handle to a remote I/O target object. This handle was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>.
 
-
 ## -returns
-
-
 
 If the driver specified an object name when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen">WdfIoTargetOpen</a>, <b>WdfIoTargetWdmGetTargetFileHandle</b> returns the file handle that is associated with the specified I/O target. Otherwise <b>WdfIoTargetWdmGetTargetFileHandle</b> returns <b>NULL</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 For KMDF, the returned file handle is a kernel-mode handle that is valid in an arbitrary thread context. For information about how a driver can use this file handle, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-a-file-handle">Using a File Handle</a>. 
 
@@ -152,19 +138,11 @@ if (ioTarget != NULL) {
 
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfileobject">WdfIoTargetWdmGetTargetFileObject</a>
- 
-
- 
 

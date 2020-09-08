@@ -8,9 +8,6 @@ ms.assetid: ff622111-e4c3-47eb-9509-dbe86d0d5acf
 ms.date: 05/02/2018
 keywords: ["RILPOSITIONINFO_V1 structure"]
 ms.keywords: "*LPRILPOSITIONINFO_V1, RILPOSITIONINFO_V1, RILPOSITIONINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v1_2, ntddrilapitypes/RILPOSITIONINFO_V1"
-f1_keywords:
- - "rilapitypes/RILPOSITIONINFO_V1"
- - "RILPOSITIONINFO_V1"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,68 +25,56 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILPOSITIONINFO_V1
 targetos: Windows
 req.typenames: RILPOSITIONINFO_V1, *LPRILPOSITIONINFO_V1
+f1_keywords:
+ - RILPOSITIONINFO_V1
+ - rilapitypes/RILPOSITIONINFO_V1
+ - LPRILPOSITIONINFO_V1
+ - rilapitypes/LPRILPOSITIONINFO_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILPOSITIONINFO_V1
 ---
 
-# RILPOSITIONINFO_V1 structure
+# RILPOSITIONINFO_V1 structure (rilapitypes.h)
 
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwSystemType
 
-
 ### -field stGSMServingCellInfo
-
 
 ### -field stUMTSServingCellInfo
 
-
 ### -field stLTEServingCellInfo
-
 
 ### -field dwCntGSMNMR
 
-
 ### -field rgNMR
-
 
 ### -field dwCntUMTSMRL
 
-
 ### -field ruMRL
-
 
 ### -field dwCntEUTRAMRL
 
-
 ### -field reMRL
 
-
 ### -field dwCntC2KMRL
-
 
 ### -field rc2kMRL
 

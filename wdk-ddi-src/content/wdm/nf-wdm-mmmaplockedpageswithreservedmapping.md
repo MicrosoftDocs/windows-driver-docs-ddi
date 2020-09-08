@@ -8,9 +8,6 @@ ms.assetid: 3fc01bc5-05eb-482f-b625-67061d26915a
 ms.date: 04/30/2018
 keywords: ["MmMapLockedPagesWithReservedMapping function"]
 ms.keywords: MmMapLockedPagesWithReservedMapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture], k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, kernel.mmmaplockedpageswithreservedmapping, wdm/MmMapLockedPagesWithReservedMapping
-f1_keywords:
- - "wdm/MmMapLockedPagesWithReservedMapping"
- - "MmMapLockedPagesWithReservedMapping"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmMapLockedPagesWithReservedMapping
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmMapLockedPagesWithReservedMapping
+ - wdm/MmMapLockedPagesWithReservedMapping
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmMapLockedPagesWithReservedMapping
 ---
 
 # MmMapLockedPagesWithReservedMapping function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
-The <b>MmMapLockedPagesWithReservedMapping</b> routine maps all or part of an address range that was previously reserved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> routine. 
-
+The <b>MmMapLockedPagesWithReservedMapping</b> routine maps all or part of an address range that was previously reserved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> routine.
 
 ## -parameters
 
+### -param MappingAddress 
 
-
-
-### -param MappingAddress [in]
-
+[in]
 Pointer to the beginning of the reserved virtual memory range. This must be an address previously returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a>.
 
+### -param PoolTag 
 
-### -param PoolTag [in]
+[in]
+Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> that reserved the buffer.
 
-Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> that reserved the buffer. 
+### -param MemoryDescriptorList 
 
+[in]
+A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a> routine.
 
-### -param MemoryDescriptorList [in]
+### -param CacheType 
 
-A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a> routine. 
-
-
-### -param CacheType [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
-
 
 ## -returns
 
-
-
 <b>MmMapLockedPagesWithReservedMapping</b> returns a pointer to the beginning of the mapped memory, or <b>NULL</b> if the system could not map the memory. This routine returns <b>NULL</b> only if there is an error in the function parameters (for example, the driver's mapping address is not large enough to span the supplied MDL). This function is intended to enable drivers to make forward progress even in low-resource scenarios.
 
-
-
-
 ## -remarks
-
-
 
 The caller can use <b>MmMapLockedPagesWithReservedMapping</b> to map a subrange of the virtual memory range reserved by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> as follows: 
 
@@ -108,15 +96,9 @@ Once the caller does not need to access the memory, it unmaps the memory with <a
 
 Note that the <i>MappingAddress</i> parameter specifies the beginning of the range of memory previously reserved by the caller, <u>not</u> the beginning of the memory subrange to be mapped. The caller specifies the starting address and length of the buffer when it allocates the MDL with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatemdl">IoAllocateMdl</a>. The buffer must fit inside the reserved memory range, but it can be a strict subset.
 
-The routine uses the <i>CacheType</i> parameter only if the pages that are described by the MDL do not already have a cache type associated with them. However, in nearly all cases, the pages already have an associated cache type, and this cache type is used by the new mapping. An exception to this rule is for pages that are allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl">MmAllocatePagesForMdl</a>, which do not have a specific cache type associated with them. For such pages, the <i>CacheType</i> parameter determines the cache type of the mapping. 
-
-
-
+The routine uses the <i>CacheType</i> parameter only if the pages that are described by the MDL do not already have a cache type associated with them. However, in nearly all cases, the pages already have an associated cache type, and this cache type is used by the new mapping. An exception to this rule is for pages that are allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl">MmAllocatePagesForMdl</a>, which do not have a specific cache type associated with them. For such pages, the <i>CacheType</i> parameter determines the cache type of the mapping.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocatemdl">IoAllocateMdl</a>
 
@@ -147,7 +129,4 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a>
- 
-
- 
 

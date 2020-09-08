@@ -6,38 +6,44 @@ tech.root: netvista
 ms.assetid: C5EF1D54-AA43-4467-85B4-2134F9BA8E05
 ms.date: 02/27/2020
 ms.topic: struct
-f1_keywords:
- - "ntddndis/NDIS_UDP_SEGMENTATION_OFFLOAD"
-ms.keywords: _NDIS_UDP_SEGMENTATION_OFFLOAD, NDIS_UDP_SEGMENTATION_OFFLOAD, *PNDIS_UDP_SEGMENTATION_OFFLOAD, 
+ms.keywords: _NDIS_UDP_SEGMENTATION_OFFLOAD, NDIS_UDP_SEGMENTATION_OFFLOAD, *PNDIS_UDP_SEGMENTATION_OFFLOAD,
 req.header: ntddndis.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1912
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
-req.alt-api:
-req.alt-loc:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
+req.alt-api: 
+req.alt-loc: 
 req.typenames: NDIS_UDP_SEGMENTATION_OFFLOAD
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- ntddndis.h
-apiname: 
-- NDIS_UDP_SEGMENTATION_OFFLOAD
-product:
-- Windows
 targetos: Windows
+f1_keywords:
+ - _NDIS_UDP_SEGMENTATION_OFFLOAD
+ - ntddndis/_NDIS_UDP_SEGMENTATION_OFFLOAD
+ - PNDIS_UDP_SEGMENTATION_OFFLOAD
+ - ntddndis/PNDIS_UDP_SEGMENTATION_OFFLOAD
+ - NDIS_UDP_SEGMENTATION_OFFLOAD
+ - ntddndis/NDIS_UDP_SEGMENTATION_OFFLOAD
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - ntddndis.h
+apiname:
+ - NDIS_UDP_SEGMENTATION_OFFLOAD
+product:
+ - Windows
 ---
 
 # _NDIS_UDP_SEGMENTATION_OFFLOAD structure
+
 
 ## -description
 
@@ -148,3 +154,4 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 ## -see-also
 
 [UDP Segmentation Offload (USO)](https://docs.microsoft.com/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
+

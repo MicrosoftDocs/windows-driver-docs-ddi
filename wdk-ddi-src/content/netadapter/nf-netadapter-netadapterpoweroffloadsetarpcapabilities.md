@@ -2,45 +2,45 @@
 UID: NF:netadapter.NetAdapterPowerOffloadSetArpCapabilities
 title: NetAdapterPowerOffloadSetArpCapabilities function (netadapter.h)
 author: windows-driver-content
-description: The NetAdapterPowerOffloadSetArpCapabilities method sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
+description: The NetAdapterPowerOffloadSetArpCapabilities function sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
 tech.root: netvista
 ms.assetid: 213f7654-fb2a-4160-b1db-3d36d8e119f2
 ms.author: windowsdriverdev
 ms.date: 10/22/2019
 keywords: ["NetAdapterPowerOffloadSetArpCapabilities function"]
-f1_keywords:
- - "netadapter/NetAdapterPowerOffloadSetArpCapabilities"
- - "NetAdapterPowerOffloadSetArpCapabilities"
 ms.keywords: NetAdapterPowerOffloadSetArpCapabilities
 req.header: netadapter.h
-req.include-header:
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterPowerOffloadSetArpCapabilities
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetAdapterPowerOffloadSetArpCapabilities
+ - netadapter/NetAdapterPowerOffloadSetArpCapabilities
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterPowerOffloadSetArpCapabilities
+product:
+ - Windows
 ---
 
 # NetAdapterPowerOffloadSetArpCapabilities function
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetAdapterPowerOffloadSetArpCapabilities** method sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
+The **NetAdapterPowerOffloadSetArpCapabilities** function sets a net adapter's capabilities for IPv4 ARP low power protocol offload.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a client driver-allocated and initialized [**NET_ADAPTER_POWER_OFFL
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
 
@@ -81,3 +81,4 @@ Client drivers typically call this method from within their [*EvtDevicePrepareHa
 [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)
+

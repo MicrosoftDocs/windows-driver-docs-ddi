@@ -5,38 +5,38 @@ description: The EnumerateChildren method returns an enumerator which will enume
 ms.assetid: e79b7ff1-0636-4836-b3ee-a675320e2006
 ms.date: 08/22/2018
 keywords: ["IDebugHostType::EnumerateChildren"]
-f1_keywords:
- - "dbgmodel/IDebugHostType.EnumerateChildren"
- - "IDebugHostType.EnumerateChildren"
 ms.keywords: IDebugHostType::EnumerateChildren, EnumerateChildren, IDebugHostType.EnumerateChildren, IDebugHostType::EnumerateChildren, IDebugHostType.EnumerateChildren
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostType.EnumerateChildren
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostType::EnumerateChildren
+ - dbgmodel/IDebugHostType::EnumerateChildren
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostType.EnumerateChildren
 ---
 
 # IDebugHostType::EnumerateChildren
@@ -44,21 +44,24 @@ ms.custom: RS5
 
 ## -description
 
-The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol. For a C++ type, for example, the base classes, fields, member functions, and the like are all considered children of the type symbol. 
+The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol. For a C++ type, for example, the base classes, fields, member functions, and the like are all considered children of the type symbol.
 
 ## -parameters
 
 ### -param kind
+
 Indicates what kinds of child symbols the caller wishes to enumerate. If the flat value Symbol is passed, all kinds of child symbols will be enumerated.
 
 ### -param name
+
 If specified, only child symbols with a name as given in this argument will be enumerated.
 
 ### -param ppEnum
+
 An enumerator which enumerates child symbols of the specified kind and name will be returned here.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -96,3 +99,4 @@ if (SUCCEEDED(spType->EnumerateChildren(SymbolField, nullptr, &spEnum)))
 ## -see-also
 
 [IDebugHostType interface](nn-dbgmodel-idebughosttype.md)
+

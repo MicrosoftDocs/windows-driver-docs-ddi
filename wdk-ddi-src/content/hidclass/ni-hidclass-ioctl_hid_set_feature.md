@@ -8,9 +8,6 @@ ms.assetid: cbadc87a-b676-4df7-8116-b9692d93e345
 ms.date: 04/30/2018
 keywords: ["IOCTL_HID_SET_FEATURE IOCTL"]
 ms.keywords: IOCTL_HID_SET_FEATURE, IOCTL_HID_SET_FEATURE control, IOCTL_HID_SET_FEATURE control code [Human Input Devices], hid.ioctl_hid_set_feature2, hidclass/IOCTL_HID_SET_FEATURE, hidioreq_def58360-8e73-49dd-ab90-33cf3b6a92de.xml
-f1_keywords:
- - "hidclass/IOCTL_HID_SET_FEATURE"
- - "IOCTL_HID_SET_FEATURE"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hidclass.h
-api_name:
-- IOCTL_HID_SET_FEATURE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_HID_SET_FEATURE
+ - hidclass/IOCTL_HID_SET_FEATURE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hidclass.h
+api_name:
+ - IOCTL_HID_SET_FEATURE
 ---
 
 # IOCTL_HID_SET_FEATURE IOCTL
@@ -46,16 +46,11 @@ req.typenames:
 
 ## -description
 
-
 The IOCTL_HID_SET_FEATURE request sends a feature report to a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
+For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -69,24 +64,6 @@ The <b>Irp->AssociatedIrp.SystemBuffer</b> member points to the input buffer tha
 
 <b>Irp->UserBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_xfer_packet">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
 
-
-
-
-#### -ReportID
-
-Specifies the report ID for a top-level collection .
-
-
-#### -reportBuffer
-
-Pointer to a requester-allocated input buffer that contains a feature report.
-
-
-#### -reportBufferLen
-
-Specifies the size, in bytes, of the input buffer.
-
-
 ### -input-buffer-length
 
 The input buffer size, in bytes, must be large enough to hold the output report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
@@ -95,34 +72,17 @@ The input buffer size, in bytes, must be large enough to hold the output report 
 
  The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_xfer_packet">HID_XFER_PACKET</a> structure.
 
-
 ### -output-buffer
 
 None.
-
 
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -155,11 +115,19 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 </ul>
 HID minidrivers that call other drivers with this IOCTL to carry out the I/O, should ensure that the <b>Information</b> field of the status block is correct and not change the contents of the <b>Status</b> field.
 
+## -ReportID
+
+Specifies the report ID for a top-level collection .
+
+## -reportBuffer
+
+Pointer to a requester-allocated input buffer that contains a feature report.
+
+## -reportBufferLen
+
+Specifies the size, in bytes, of the input buffer.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getfeature">HidD_GetFeature</a>
 
@@ -182,7 +150,4 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report">IOCTL_HID_SET_OUTPUT_REPORT</a>
- 
-
- 
 

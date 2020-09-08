@@ -8,9 +8,6 @@ ms.assetid: 9a2a092d-f9b5-42a2-9be4-bc934a9304fb
 ms.date: 04/30/2018
 keywords: ["KeSetTimerEx function"]
 ms.keywords: KeSetTimerEx, KeSetTimerEx routine [Kernel-Mode Driver Architecture], k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, kernel.kesettimerex, wdm/KeSetTimerEx
-f1_keywords:
- - "wdm/KeSetTimerEx"
- - "KeSetTimerEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSetTimerEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSetTimerEx
+ - wdm/KeSetTimerEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSetTimerEx
 ---
 
 # KeSetTimerEx function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeSetTimerEx</b> routine sets the absolute or relative interval at which a timer object is to be set to a signaled state, optionally supplies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542983">CustomTimerDpc</a> routine to be executed when that interval expires, and optionally supplies a recurring interval for the timer.
-
 
 ## -parameters
 
+### -param Timer 
 
-
-
-### -param Timer [in, out]
-
+[in, out]
 Pointer to a timer object that was initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetimerex">KeInitializeTimerEx</a>.
 
+### -param DueTime 
 
-### -param DueTime [in]
-
+[in]
 Specifies the absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
+### -param Period 
 
-### -param Period [in]
-
+[in]
 Specifies an optional recurring interval for the timer in milliseconds. Must be a value that is greater than or equal to zero. If the value of this parameter is zero, the timer is a nonperiodic timer that does not automatically re-queue itself.
 
+### -param Dpc 
 
-### -param Dpc [in, optional]
-
-Pointer to a DPC object that was initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. This parameter is optional. 
-
+[in, optional]
+Pointer to a DPC object that was initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. This parameter is optional.
 
 ## -returns
 
-
-
 If the timer object was already in the system timer queue, <b>KeSetTimerEx</b> returns <b>TRUE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>KeSetTimerEx</b> routine does the following:
 
@@ -124,13 +112,7 @@ Drivers must cancel any active timers in their <a href="https://docs.microsoft.c
 
 For more information about timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-objects-and-dpcs">Timer Objects and DPCs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a>
 
@@ -157,7 +139,4 @@ For more information about timer objects, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
 

@@ -31,14 +31,18 @@ api_name:
  - _DXGK_DSI_RESET
  - DXGK_DSI_RESET
 f1_keywords:
+ - _DXGK_DSI_RESET
  - dispmprt/_DXGK_DSI_RESET
- - dispmprt//DXGK_DSI_RESET
+ - PDXGK_DSI_RESET
+ - dispmprt/PDXGK_DSI_RESET
  - DXGK_DSI_RESET
+ - dispmprt/DXGK_DSI_RESET
 dev_langs:
  - c++
 ---
 
 # DXGK_DSI_RESET structure
+
 
 ## -description
 
@@ -103,3 +107,4 @@ If set on return from calling the graphics driver, the OS must perform an unopti
 [**IOCTL_MIPI_DSI_RESET**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
 
 [**IOCTL_MIPI_DSI_TRANSMISSION**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_transmission.md)
+

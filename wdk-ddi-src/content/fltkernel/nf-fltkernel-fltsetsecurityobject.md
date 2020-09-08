@@ -8,9 +8,6 @@ ms.assetid: 3276dff3-d12a-4a30-bbdc-a582a2228df3
 ms.date: 04/16/2018
 keywords: ["FltSetSecurityObject function"]
 ms.keywords: FltApiRef_p_to_z_1174281c-5ba7-489b-8b8a-c0a4697ce678.xml, FltSetSecurityObject, FltSetSecurityObject function [Installable File System Drivers], fltkernel/FltSetSecurityObject, ifsk.fltsetsecurityobject
-f1_keywords:
- - "fltkernel/FltSetSecurityObject"
- - "FltSetSecurityObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSetSecurityObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetSecurityObject
+ - fltkernel/FltSetSecurityObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSetSecurityObject
 ---
 
 # FltSetSecurityObject function
@@ -46,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
-<b>FltSetSecurityObject</b> sets an object's security state. 
-
+<b>FltSetSecurityObject</b> sets an object's security state.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in]
+File object pointer for the object whose security state is to be set. The caller must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter. This parameter is required and cannot be <b>NULL</b>.
 
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
+### -param SecurityInformation 
 
-
-### -param FileObject [in]
-
-File object pointer for the object whose security state is to be set. The caller must have the access specified in the Meaning column of the table shown in the description of the <i>SecurityInformation</i> parameter. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param SecurityInformation [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be set as a combination of one or more of the following. This parameter is required and cannot be <b>NULL</b>. 
 
 <table>
@@ -115,17 +111,13 @@ Indicates the system ACL (SACL) of the object is to be set. Requires ACCESS_SYST
 </td>
 </tr>
 </table>
- 
 
+### -param SecurityDescriptor 
 
-### -param SecurityDescriptor [in]
-
-Pointer to the security descriptor to be set for the object. 
-
+[in]
+Pointer to the security descriptor to be set for the object.
 
 ## -returns
-
-
 
 <b>FltSetSecurityObject</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -223,28 +215,16 @@ The <b>FltSetSecurityObject</b> routine is present but not supported in the oper
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>FltSetSecurityObject</b> routine is present and supported starting with Windows Vista.  In Windows 2000, Windows XP, and Server 2003 SP1, the routine is present but not supported, and will return STATUS_NOT_IMPLEMENTED if called in any of these environments.
 
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. For more information, see "Absolute and Self-Relative Security Descriptors" in the Security section of the Microsoft Windows SDK documentation. 
 
-For more information about security and access control, see the documentation on these topics in the Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a>
 
@@ -263,7 +243,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567106">ZwSetSecurityObject</a>
- 
-
- 
 

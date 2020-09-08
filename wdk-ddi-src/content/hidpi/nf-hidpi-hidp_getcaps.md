@@ -8,9 +8,6 @@ ms.assetid: a43baab5-26d9-43f7-bc13-3b0864769e68
 ms.date: 04/30/2018
 keywords: ["HidP_GetCaps function"]
 ms.keywords: HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices], PHIDP_GETCAPS, PHIDP_GETCAPS callback, hid.hidp_getcaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hidpi/HidP_GetCaps
-f1_keywords:
- - "hidpi/HidP_GetCaps"
- - "HidP_GetCaps"
 req.header: hidpi.h
 req.include-header: Hidclass.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- hidpi.h
-api_name:
-- HidP_GetCaps
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidP_GetCaps
+ - hidpi/HidP_GetCaps
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - hidpi.h
+api_name:
+ - HidP_GetCaps
 ---
 
 # HidP_GetCaps function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidP_GetCaps</b> routine returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
-
 
 ## -parameters
 
+### -param PreparsedData 
 
-
-
-### -param PreparsedData [in]
-
+[in]
 Pointer to a top-level collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
+### -param Capabilities 
 
-### -param Capabilities [out]
-
+[out]
 Pointer to a caller-allocated buffer that the routine uses to return a collection's HIDP_CAPS structure.
 
-
 ## -returns
-
-
 
 <b>HidP_GetCaps</b> returns one of the following status values:
 
@@ -99,26 +92,14 @@ The specified preparsed data is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about a collection's capability, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/obtaining-collection-information">Obtaining Collection Information</a>.
 
-See also <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
-
-
-
+See also <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a>
 
@@ -137,7 +118,4 @@ See also <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
- 
-
- 
 

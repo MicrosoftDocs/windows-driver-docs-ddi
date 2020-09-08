@@ -8,9 +8,6 @@ ms.assetid: C4D09CAD-833A-43A0-AC03-EEDE8270EA12
 ms.date: 05/02/2018
 keywords: ["MINIPORT_WDI_OPEN_ADAPTER callback function"]
 ms.keywords: MINIPORT_WDI_OPEN_ADAPTER, MINIPORT_WDI_OPEN_ADAPTER callback, MiniportWdiOpenAdapter, MiniportWdiOpenAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiOpenAdapter, netvista.miniportwdiopenadapter
-f1_keywords:
- - "dot11wdi/MiniportWdiOpenAdapter"
- - "MiniportWdiOpenAdapter"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- MiniportWdiOpenAdapter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_WDI_OPEN_ADAPTER
+ - dot11wdi/MINIPORT_WDI_OPEN_ADAPTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - MiniportWdiOpenAdapter
 ---
 
 # MINIPORT_WDI_OPEN_ADAPTER callback function
 
 
 ## -description
-
 
 The MiniportWdiOpenAdapter handler function is used by the Microsoft component to initiate the Open Task operation on the IHV driver.
 
@@ -57,22 +56,17 @@ This call must complete quickly. If the open operation is successfully started, 
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 The handle to the context area that the miniport driver allocated.
 
+### -param MiniportInitParameters 
 
-### -param MiniportInitParameters [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_init_parameters">NDIS_MINIPORT_INIT_PARAMETERS</a> structure that defines the initialization parameters for the miniport adapter.
 
-
 ## -returns
-
-
 
 MiniportWdiOpenAdapter can return any of the following return values.
 
@@ -104,15 +98,8 @@ An appropriate NDIS_STATUS code in the case of a failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_allocate_adapter">MiniportWdiAllocateAdapter</a>
 
@@ -131,7 +118,4 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_open_adapter_complete">OpenAdapterComplete</a>
- 
-
- 
 

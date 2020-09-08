@@ -8,9 +8,6 @@ ms.assetid: 1dc18c48-2331-4980-b741-59a73d3edaa6
 ms.date: 02/26/2018
 keywords: ["WdfIoResourceRequirementsListSetSlotNumber function"]
 ms.keywords: DFResourceObjectRef_a4c6729c-ba18-49e0-8e8c-94c70c5c9e8a.xml, WdfIoResourceRequirementsListSetSlotNumber, WdfIoResourceRequirementsListSetSlotNumber method, kmdf.wdfioresourcerequirementslistsetslotnumber, wdf.wdfioresourcerequirementslistsetslotnumber, wdfresource/WdfIoResourceRequirementsListSetSlotNumber
-f1_keywords:
- - "wdfresource/WdfIoResourceRequirementsListSetSlotNumber"
- - "WdfIoResourceRequirementsListSetSlotNumber"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfIoResourceRequirementsListSetSlotNumber
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoResourceRequirementsListSetSlotNumber
+ - wdfresource/WdfIoResourceRequirementsListSetSlotNumber
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfIoResourceRequirementsListSetSlotNumber
 ---
 
 # WdfIoResourceRequirementsListSetSlotNumber function
@@ -47,26 +47,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoResourceRequirementsListSetSlotNumber</b> method assigns a slot number to a resource requirements list.
 
-
 ## -parameters
 
+### -param RequirementsList 
 
-
-
-### -param RequirementsList [in]
-
+[in]
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
+### -param SlotNumber 
 
-### -param SlotNumber [in]
-
+[in]
 A value that identifies the bus slot number to which the device is connected.
-
 
 ## -remarks
 
@@ -99,5 +94,4 @@ Example_EvtDeviceResourceRequirementsQuery(
 ...
 }
 ```
-
 

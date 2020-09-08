@@ -8,9 +8,6 @@ ms.assetid: e3669f11-7284-4f65-b814-624337e7fa7f
 ms.date: 04/23/2018
 keywords: ["KsPinGetAvailableByteCount function"]
 ms.keywords: KsPinGetAvailableByteCount, KsPinGetAvailableByteCount routine [Streaming Media Devices], avfunc_2ba6a7f8-59b4-45bf-989a-97f8a494b4bc.xml, ks/KsPinGetAvailableByteCount, stream.kspingetavailablebytecount
-f1_keywords:
- - "ks/KsPinGetAvailableByteCount"
- - "KsPinGetAvailableByteCount"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsPinGetAvailableByteCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsPinGetAvailableByteCount
+ - ks/KsPinGetAvailableByteCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsPinGetAvailableByteCount
 ---
 
 # KsPinGetAvailableByteCount function
@@ -47,42 +47,30 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsPinGetAvailableByteCount</b> routine outputs the number of bytes of input data ahead of the leading edge and the number of bytes of output buffer ahead of the leading edge, both for the queue of a caller-specified pin.
-
 
 ## -parameters
 
+### -param Pin 
 
-
-
-### -param Pin [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to calculate these queue parameters.
 
+### -param InputDataBytes 
 
-### -param InputDataBytes [out, optional]
-
+[out, optional]
 A pointer to a LONG value in which the routine returns the number of input data bytes ahead of the leading edge. Caller sets to <b>NULL</b> if this value is not requested.
 
+### -param OutputBufferBytes 
 
-### -param OutputBufferBytes [out, optional]
-
+[out, optional]
 A pointer to  a LONG value in which the routine returns the number of output buffer bytes ahead of the leading edge. Caller sets to <b>NULL</b> if this value is not requested.
-
 
 ## -returns
 
-
-
 Returns STATUS_SUCCESS if the requested count(s) have been retrieved. A nonsuccessful return status indicates that <i>Pin</i> does not have an associated queue.
 
-
-
-
 ## -remarks
-
-
 
 Noninplace pins should use <i>InputDataBytes</i> for input pins and <i>OutputBufferBytes</i> for output pins.
 
@@ -94,13 +82,7 @@ In Windows XP and DirectX 8.0, the <i>InputDataBytes</i> count is not valid unle
 
 For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/leading-and-trailing-edge-stream-pointers">Leading and Trailing Edge Stream Pointers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a>
 
@@ -139,7 +121,4 @@ For additional information, see <a href="https://docs.microsoft.com/windows-hard
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinreleaseprocessingmutex">KsPinReleaseProcessingMutex</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
 ms.date: 04/30/2018
 keywords: ["IoRegisterDeviceInterface function"]
 ms.keywords: IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
-f1_keywords:
- - "wdm/IoRegisterDeviceInterface"
- - "IoRegisterDeviceInterface"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoRegisterDeviceInterface
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoRegisterDeviceInterface
+ - wdm/IoRegisterDeviceInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoRegisterDeviceInterface
 ---
 
 # IoRegisterDeviceInterface function
@@ -46,46 +46,39 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoRegisterDeviceInterface</b> routine registers a [device interface class](https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes), if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
-
 
 ## -parameters
 
+### -param PhysicalDeviceObject 
 
-
-
-### -param PhysicalDeviceObject [in]
-
+[in]
 A pointer to the PDO for the device.
 
+### -param InterfaceClassGuid 
 
-### -param InterfaceClassGuid [in]
-
+[in]
 A pointer to the class GUID that identifies the functionality (the device interface class) being registered.
 
+### -param ReferenceString 
 
-### -param ReferenceString [in, optional]
-
-Optionally points to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>. The string must not contain any path separator characters ("/" or "\\"). Function drivers typically specify <b>NULL</b> for this parameter. Filter drivers must specify <b>NULL</b>.
+[in, optional]
+Optionally points to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>. The string must not contain any path separator characters ("/" or "\\"). Function drivers typically specify <b>NULL</b> for this parameter. Filter drivers must specify <b>NULL</b>.
 
 Reference strings are only used by a few bus drivers, such as <i>swenum</i>, which is a bus driver that uses device interface instances as placeholders for software devices created on demand. When an instance of an interface is opened, the I/O manager passes the instance's reference string to the driver. The string becomes part of the interface instance's name (as an appended path component). The driver can then use the reference string to differentiate between two interface instances of the same class for a single device.
 
 On Microsoft Windows 98/Me systems, the <i>ReferenceString</i> value can be no longer than MAX_PATH characters. There is no length limit on Windows 2000 and later versions of Windows.
 
+### -param SymbolicLinkName 
 
-### -param SymbolicLinkName [out]
-
+[out]
 A pointer to a Unicode string structure allocated by the caller. If this routine is successful, it initializes the Unicode string and allocates the string buffer containing the kernel-mode path to the symbolic link for an instance of the specified device interface class. 
 
 The caller must treat <i>SymbolicLinkName</i> as opaque and must not disassemble it.
 
 The caller is responsible for freeing <i>SymbolicLinkName</i> with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a> when it is no longer needed.
 
-
 ## -returns
-
-
 
 <b>IoRegisterDeviceInterface</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following.
 
@@ -106,14 +99,8 @@ The parameters are invalid. Possibilities include that <i>PhysicalDeviceObject</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IoRegisterDeviceInterface</b> registers a device interface class, if it has not been previously registered, and creates a new instance of the interface class. A driver can call this routine several times for a given device to register several interface classes and create instances of the classes. A function or filter driver typically registers device interfaces in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine. For example, a fault-tolerant volume driver might register an instance of a fault-tolerant-volume interface and an instance of a volume interface for a particular volume.
 
@@ -129,13 +116,7 @@ Callers of this routine are not required to remove the registration for a device
 
 Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>
 
@@ -150,7 +131,4 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
- 
-
- 
 

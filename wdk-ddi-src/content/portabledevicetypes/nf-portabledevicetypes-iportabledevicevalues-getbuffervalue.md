@@ -8,9 +8,6 @@ ms.assetid: 3ce1e4c4-21e0-4e4f-8cf2-3f78b47ee817
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::GetBufferValue"]
 ms.keywords: GetBufferValue, GetBufferValue method, GetBufferValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetBufferValue method, IPortableDeviceValues.GetBufferValue, IPortableDeviceValues::GetBufferValue, IPortableDeviceValuesGetBufferValue, portabledevicetypes/IPortableDeviceValues::GetBufferValue, wpddk.iportabledevicevalues_getbuffervalue
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.GetBufferValue"
- - "IPortableDeviceValues.GetBufferValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.GetBufferValue
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::GetBufferValue
+ - portabledevicetypes/IPortableDeviceValues::GetBufferValue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.GetBufferValue
 ---
 
 # IPortableDeviceValues::GetBufferValue
@@ -47,36 +47,26 @@ ms.custom: RS5
 
 ## -description
 
-
-
 The GetBufferValue interface retrieves a <b>byte array</b> value (type VT_VECTOR | VT_UI1) that is specified by a key.
-
-
-
 
 ## -parameters
 
+### -param key 
 
-
-
-### -param key [in]
-
+[in]
 A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
+### -param ppValue 
 
-### -param ppValue [out]
-
+[out]
 A pointer to the retrieved <b>BYTE*</b> value. The caller must free the memory by calling <b>CoTaskMemFree</b>.
 
+### -param pcbValue 
 
-### -param pcbValue [out]
-
+[out]
 A pointer to the size of <i>ppValue</i>, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible return values are shown in the following table.
 
@@ -130,31 +120,16 @@ One or more arguments specified are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Retrieving a <b>NULL</b> buffer or a zero-sized buffer is not supported  and will return E_INVALIDARG.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setbuffervalue">IPortableDeviceValues::SetBufferValue</a>
- 
-
- 
 

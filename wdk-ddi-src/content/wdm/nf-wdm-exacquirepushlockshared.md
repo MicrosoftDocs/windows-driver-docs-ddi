@@ -5,38 +5,37 @@ description: Acquires the given push lock for shared access by the calling threa
 ms.assetid: de40a669-9154-4ad6-bed3-75e66ee2b864
 ms.date: 09/30/2018
 keywords: ["ExAcquirePushLockShared macro"]
-f1_keywords:
- - "wdm/ExAcquirePushLockShared"
- - "ExAcquirePushLockShared"
 ms.keywords: ExAcquirePushLockShared
 req.header: wdm.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wdm.h
-api_name: 
-- ExAcquirePushLockShared
 targetos: Windows
-
 ms.custom: RS5
+f1_keywords:
+ - ExAcquirePushLockShared
+ - wdm/ExAcquirePushLockShared
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - ExAcquirePushLockShared
 ---
 
 # ExAcquirePushLockShared macro
@@ -49,9 +48,11 @@ Acquires the given push lock for shared access by the calling thread.
 ## -parameters
 
 ### -param Lock
+
 Opaque push lock pointer. This pointer must have been initialized by a previous call to [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md).
 
 ## -remarks
+
 Push locks are similar to ERESOURCE structures (also called resources) in that they can be acquired for shared or exclusive access. For more information about push locks, see the reference entry for [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md).
 
 Unlike ERESOURCE structures, push locks cannot be acquired recursively. If the caller already has acquired the push lock for exclusive access, the system will hang. If the caller already has acquired the push lock for shared access, it can receive shared access again. 
@@ -68,8 +69,7 @@ When the caller will be given shared access to the given push lock depends on th
 
 The caller is required call  [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) before calling **ExAcquirePushLockShared**.
 
-To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive**](nf-wdm-exacquirepushlockexclusive.md). 
-
+To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive**](nf-wdm-exacquirepushlockexclusive.md).
 
 ## -see-also
 
@@ -80,3 +80,4 @@ To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive*
 [**ExReleasePushLockShared**](nf-wdm-exreleasepushlockshared.md)
 
 [**ExAcquirePushLockExclusive**](nf-wdm-exacquirepushlockexclusive.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 5fa93ac6-8aee-4248-b0a6-ab82bc5486bf
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetCloseForQueryRemove function"]
 ms.keywords: DFIOTargetRef_ea857ade-1dcd-4e58-b198-50186a536159.xml, WdfIoTargetCloseForQueryRemove, WdfIoTargetCloseForQueryRemove method, kmdf.wdfiotargetcloseforqueryremove, wdf.wdfiotargetcloseforqueryremove, wdfiotarget/WdfIoTargetCloseForQueryRemove
-f1_keywords:
- - "wdfiotarget/WdfIoTargetCloseForQueryRemove"
- - "WdfIoTargetCloseForQueryRemove"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoTargetCloseForQueryRemove
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoTargetCloseForQueryRemove
+ - wdfiotarget/WdfIoTargetCloseForQueryRemove
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoTargetCloseForQueryRemove
 ---
 
 # WdfIoTargetCloseForQueryRemove function
@@ -49,21 +49,16 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoTargetCloseForQueryRemove</b> method temporarily closes a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets">remote I/O target</a> because the target device might soon be removed.
 
-
 ## -parameters
 
+### -param IoTarget 
 
-
-
-### -param IoTarget [in]
-
+[in]
 A handle to a remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>.
-
 
 ## -remarks
 
@@ -108,19 +103,11 @@ ToastMon_EvtIoTargetQueryRemove(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nc-wdfiotarget-evt_wdf_io_target_query_remove">EvtIoTargetQueryRemove</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>
- 
-
- 
 

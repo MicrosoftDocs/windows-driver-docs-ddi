@@ -8,9 +8,6 @@ ms.assetid: A3E28664-B286-4E4A-85DD-4EAAC7D257F0
 ms.date: 05/10/2018
 keywords: ["DXGK_INTEGRATED_DISPLAY_CHILD structure"]
 ms.keywords: "*PDXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices], PDXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], _DXGK_INTEGRATED_DISPLAY_CHILD, display.dxgk_integrated_display_child, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD"
-f1_keywords:
- - "dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD"
- - "DXGK_INTEGRATED_DISPLAY_CHILD"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- DXGK_INTEGRATED_DISPLAY_CHILD
 targetos: Windows
 req.typenames: DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD
+f1_keywords:
+ - _DXGK_INTEGRATED_DISPLAY_CHILD
+ - dispmprt/_DXGK_INTEGRATED_DISPLAY_CHILD
+ - PDXGK_INTEGRATED_DISPLAY_CHILD
+ - dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD
+ - DXGK_INTEGRATED_DISPLAY_CHILD
+ - dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - DXGK_INTEGRATED_DISPLAY_CHILD
 ---
 
 # _DXGK_INTEGRATED_DISPLAY_CHILD structure
@@ -46,14 +50,9 @@ req.typenames: DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD
 
 ## -description
 
-
 Gives information about the connected integrated display.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InterfaceTechnology
 

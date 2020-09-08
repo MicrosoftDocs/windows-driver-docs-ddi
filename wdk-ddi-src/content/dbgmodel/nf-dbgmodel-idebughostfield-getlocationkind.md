@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHostField.GetLocationKind
 title: IDebugHostField::GetLocationKind (dbgmodel.h)
-description: The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. 
+description: The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration.
 ms.assetid: 34e162cb-39d8-4d70-88f6-99fa71da87d5
 ms.date: 09/12/2018
 keywords: ["IDebugHostField::GetLocationKind"]
-f1_keywords:
- - "dbgmodel/IDebugHostField.GetLocationKind"
- - "IDebugHostField.GetLocationKind"
 ms.keywords: IDebugHostField::GetLocationKind, GetLocationKind, IDebugHostField.GetLocationKind, IDebugHostField::GetLocationKind, IDebugHostField.GetLocationKind
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostField.GetLocationKind
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostField::GetLocationKind
+ - dbgmodel/IDebugHostField::GetLocationKind
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostField.GetLocationKind
 ---
 
 # IDebugHostField::GetLocationKind
@@ -53,13 +53,14 @@ LocationStatic	| The field is static and has its own address. The GetLocation me
 LocationConstant	| The field is a constant and has a value. The GetValue method will return the value of the constant. The GetOffset and GetLocation methods will fail for a field which is LocationConstant
 LocationNone	| The field has no location. It may have been optimized out by the compiler or it may be a static field which is declared but never defined. Regardless of how such a field came to be, it has no physical presence or value. It is only in the symbols. All acquisition methods (GetOffset, GetLocation, and GetValue) will fail for a field which is LocationNone.
 
-
 ## -parameters
 
 ### -param locationKind
+
 The kind of location for this field will be returned here as a value of the LocationKind enumeration.
 
 ## -returns
+
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
@@ -76,7 +77,7 @@ if (SUCCEEDED(spField->GetLocationKind(&kind)))
 }
 ```
 
-
 ## -see-also
 
 [IDebugHostField interface](nn-dbgmodel-idebughostfield.md)
+

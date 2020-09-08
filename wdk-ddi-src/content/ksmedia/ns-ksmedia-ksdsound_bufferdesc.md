@@ -8,9 +8,6 @@ ms.assetid: 95b2f2ff-b98f-4210-9a4f-898573679aa7
 ms.date: 05/08/2018
 keywords: ["KSDSOUND_BUFFERDESC structure"]
 ms.keywords: "*PKSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC structure [Audio Devices], PKSDSOUND_BUFFERDESC, PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, audio.ksdsound_bufferdesc, ksmedia/KSDSOUND_BUFFERDESC, ksmedia/PKSDSOUND_BUFFERDESC"
-f1_keywords:
- - "ksmedia/KSDSOUND_BUFFERDESC"
- - "KSDSOUND_BUFFERDESC"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSDSOUND_BUFFERDESC
 targetos: Windows
 req.typenames: KSDSOUND_BUFFERDESC, *PKSDSOUND_BUFFERDESC
+f1_keywords:
+ - PKSDSOUND_BUFFERDESC
+ - ksmedia/PKSDSOUND_BUFFERDESC
+ - KSDSOUND_BUFFERDESC
+ - ksmedia/KSDSOUND_BUFFERDESC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSDSOUND_BUFFERDESC
 ---
 
 # KSDSOUND_BUFFERDESC structure
@@ -46,14 +48,9 @@ req.typenames: KSDSOUND_BUFFERDESC, *PKSDSOUND_BUFFERDESC
 
 ## -description
 
-
 The KSDSOUND_BUFFERDESC structure describes a DirectSound buffer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -84,7 +81,6 @@ Forces the buffer to use hardware mixing.
 #### KSDSOUND_BUFFER_LOCSOFTWARE
 
 Forces the buffer to be stored in system memory and use software mixing.
-
 
 ### -field Control
 
@@ -128,27 +124,17 @@ Indicates that the buffer has volume-control capability. If this bit is set, the
 
 Indicates that the buffer has position-notification capability. If this bit is set, the pin representing the buffer supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a> property.
 
-
 ### -field WaveFormatEx
 
-Specifies the wave-data format of the buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>.
-
+Specifies the wave-data format of the buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>.
 
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a> structure contains a <b>BufferDesc</b> member that is a KSDSOUND_BUFFERDESC structure.
 
 Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure can be extended to include additional format information (for example, a channel configuration mask). For details, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
 
@@ -174,12 +160,9 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
- 
-
- 
 

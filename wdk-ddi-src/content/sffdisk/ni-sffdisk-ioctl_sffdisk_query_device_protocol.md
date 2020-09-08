@@ -8,9 +8,6 @@ ms.assetid: 47eeb4a9-dece-4500-bbe7-891f64437eef
 ms.date: 02/15/2018
 keywords: ["IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL IOCTL"]
 ms.keywords: IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control code [Buses], SD.ioctl_sffdisk_query_device_protocol, sd-ioctls_4bf0f25d-2d73-4da4-a329-f7a0fa00fecf.xml, sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
-f1_keywords:
- - "sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL"
- - "IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL"
 req.header: sffdisk.h
 req.include-header: Sffdisk.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sffdisk.h
-api_name:
-- IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
+ - sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sffdisk.h
+api_name:
+ - IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
 ---
 
 # IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL IOCTL
 
 
 ## -description
-
 
 User-mode applications use this IOCTL to retrieve a protocol value that identifies the card as either an SD card or an MMC card. For a description of this command, see the <i>Secure Digital I/O (SDIO)</i> specification.
 
@@ -127,38 +126,29 @@ If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
 TBD
-
 
 ### -input-buffer-length
 
 TBD
 
-
 ### -output-buffer
 
 TBD
-
 
 ### -output-buffer-length
 
 TBD
 
-
 ### -in-out-buffer
 
 TBD
 
-
 ### -inout-buffer-length
 
 TBD
-
 
 ### -status-block
 

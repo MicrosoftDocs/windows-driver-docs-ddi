@@ -1,8 +1,7 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_2_SUBSPACE
 title: _PCC_REDUCED_2_SUBSPACE (acpitabl.h)
-ms.date: 05/11/2020
-ms.topic: language-reference
+ms.date: 08/12/2020
 ms.keywords: _PCC_REDUCED_2_SUBSPACE, PCC_REDUCED_2_SUBSPACE, *PPCC_REDUCED_2_SUBSPACE
 description: Contains information about the the ACPI Platform Communication Channel (PCC) HW-reduced Type 2 subspace.
 tech.root: acpi
@@ -21,25 +20,27 @@ req.target-type: Windows
 req.typenames: PCC_REDUCED_2_SUBSPACE, *PPCC_REDUCED_2_SUBSPACE
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- _PCC_REDUCED_2_SUBSPACE
-- PCC_REDUCED_2_SUBSPACE
-f1_keywords:
-- acpitabl/_PCC_REDUCED_2_SUBSPACE
-- acpitabl/PCC_REDUCED_2_SUBSPACE
-- PCC_REDUCED_2_SUBSPACE
-dev_langs:
-- c++
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _PCC_REDUCED_2_SUBSPACE
+ - PCC_REDUCED_2_SUBSPACE
+f1_keywords:
+ - _PCC_REDUCED_2_SUBSPACE
+ - acpitabl/_PCC_REDUCED_2_SUBSPACE
+ - PPCC_REDUCED_2_SUBSPACE
+ - acpitabl/PPCC_REDUCED_2_SUBSPACE
+ - PCC_REDUCED_2_SUBSPACE
+ - acpitabl/PCC_REDUCED_2_SUBSPACE
 ---
 
 # _PCC_REDUCED_2_SUBSPACE structure
+
 
 ## -description
 
@@ -122,3 +123,4 @@ The platform interrupt ack write mask.
 ## -remarks
 
 ## -see-also
+

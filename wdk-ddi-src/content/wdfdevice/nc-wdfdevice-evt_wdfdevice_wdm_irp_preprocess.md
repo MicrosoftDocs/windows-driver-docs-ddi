@@ -8,9 +8,6 @@ ms.assetid: aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a
 ms.date: 02/26/2018
 keywords: ["EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_7329adf6-5814-40cb-ac9b-a7fb67b5f05c.xml, EVT_WDFDEVICE_WDM_IRP_PREPROCESS, EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback, EvtDeviceWdmIrpPreprocess, EvtDeviceWdmIrpPreprocess callback function, kmdf.evtdevicewdmirppreprocess, wdf.evtdevicewdmirppreprocess, wdfdevice/EvtDeviceWdmIrpPreprocess
-f1_keywords:
- - "wdfdevice/EvtDeviceWdmIrpPreprocess"
- - "EvtDeviceWdmIrpPreprocess"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfdevice.h
-api_name:
-- EvtDeviceWdmIrpPreprocess
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDFDEVICE_WDM_IRP_PREPROCESS
+ - wdfdevice/EVT_WDFDEVICE_WDM_IRP_PREPROCESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfdevice.h
+api_name:
+ - EvtDeviceWdmIrpPreprocess
 ---
 
 # EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtDeviceWdmIrpPreprocess</i> event callback function receives an IRP before the framework processes the IRP.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
 
-
 ## -returns
-
-
 
 The <i>EvtDeviceWdmIrpPreprocess</i> callback function must:
 
@@ -83,13 +76,7 @@ The <i>EvtDeviceWdmIrpPreprocess</i> callback function must:
 </li>
 </ul>
 
-
-
-
-
 ## -remarks
-
-
 
 To register an <i>EvtDeviceWdmIrpPreprocess</i> callback function, your driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>. 
 
@@ -117,21 +104,11 @@ If your driver registers an <i>EvtDeviceWdmIrpPreprocess</i> callback function, 
 
 The <i>EvtDeviceWdmIrpPreprocess</i> callback function is called at the IRQL of the calling thread. The IRQL is determined by the type of IRP that the framework is passing to <i>EvtDeviceWdmIrpPreprocess</i>. For example, if the PnP manager sends <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a> at IRQL = PASSIVE_LEVEL, the framework calls <i>EvtDeviceWdmIrpPreprocess</i> at IRQL = PASSIVE_LEVEL.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>
- 
-
- 
 

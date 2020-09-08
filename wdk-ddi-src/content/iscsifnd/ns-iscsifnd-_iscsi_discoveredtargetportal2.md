@@ -8,9 +8,6 @@ ms.assetid: 68128d39-2490-4c6b-8780-e5aa542a4e3d
 ms.date: 03/29/2018
 keywords: ["ISCSI_DiscoveredTargetPortal2 structure"]
 ms.keywords: "*PISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2, ISCSI_DiscoveredTargetPortal2 structure [Storage Devices], PISCSI_DiscoveredTargetPortal2, PISCSI_DiscoveredTargetPortal2 structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortal2, iscsifnd/ISCSI_DiscoveredTargetPortal2, iscsifnd/PISCSI_DiscoveredTargetPortal2, storage.iscsi_discoveredtargetportal2, structs-iSCSI_bbb760ce-7dc5-4f04-880e-3ff53921ed78.xml"
-f1_keywords:
- - "iscsifnd/ISCSI_DiscoveredTargetPortal2"
- - "ISCSI_DiscoveredTargetPortal2"
 req.header: iscsifnd.h
 req.include-header: Iscsifnd.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- iscsifnd.h
-api_name:
-- ISCSI_DiscoveredTargetPortal2
 targetos: Windows
 req.typenames: ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2
+f1_keywords:
+ - _ISCSI_DiscoveredTargetPortal2
+ - iscsifnd/_ISCSI_DiscoveredTargetPortal2
+ - PISCSI_DiscoveredTargetPortal2
+ - iscsifnd/PISCSI_DiscoveredTargetPortal2
+ - ISCSI_DiscoveredTargetPortal2
+ - iscsifnd/ISCSI_DiscoveredTargetPortal2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - iscsifnd.h
+api_name:
+ - ISCSI_DiscoveredTargetPortal2
 ---
 
 # _ISCSI_DiscoveredTargetPortal2 structure
@@ -46,24 +50,17 @@ req.typenames: ISCSI_DiscoveredTargetPortal2, *PISCSI_DiscoveredTargetPortal2
 
 ## -description
 
-
-The ISCSI_DiscoveredTargetPortal2 structure provides information that is associated with a discovered target portal. 
-
+The ISCSI_DiscoveredTargetPortal2 structure provides information that is associated with a discovered target portal.
 
 ## -struct-fields
 
-
-
-
 ### -field Socket
 
-The socket number of the portal. 
-
+The socket number of the portal.
 
 ### -field Address
 
-The network address of the portal. 
-
+The network address of the portal.
 
 ### -field SecurityBitmap
 
@@ -149,20 +146,15 @@ The other mask values are valid. If this bit is not set security flags are not s
 
 For more information about how to configure the default security characteristics that are assigned of the target portal in the registry, see the Remarks section.
 
-
 ### -field KeySize
 
 The size, in bytes, of the encryption key in the <b>Key</b> member.
-
 
 ### -field Key
 
 A variable-length array of characters that contains the encryption key that is associated with the portal address.
 
-
 ## -remarks
-
-
 
 The ISCSI_DiscoveredTargetPortal2 structure is a superset of the information that is provided by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportal">ISCSI_DiscoveredTargetPortal</a> structure, which only defines the target portal address. In addition to the network address of the target portal, the ISCSI_DiscoveredTargetPortal2 structure contains information about the target portal's security characteristics.
 
@@ -172,15 +164,9 @@ The default security bitmap is useful in cases where the target portal is config
 
 In general, management applications should use the iSCSI client PSKey command to configure the security bitmap for a target portal. But if there are a large number of portals that have the same security bitmap, the default security bitmap is a good way to automatically assign the same bitmap to all portals.
 
-The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTargetPortal2 structure when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a> in <i>Discover.mof</i>. 
-
-
-
+The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTargetPortal2 structure when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a> in <i>Discover.mof</i>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportal">ISCSI_DiscoveredTargetPortal</a>
 
@@ -191,7 +177,4 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>
- 
-
- 
 

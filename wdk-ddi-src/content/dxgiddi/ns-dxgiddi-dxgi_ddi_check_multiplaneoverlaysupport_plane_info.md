@@ -8,9 +8,6 @@ ms.assetid: 3a1e41b5-cd62-436b-a4ed-6dee99c03cac
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO structure"]
 ms.keywords: DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO, DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO structure [Display Devices], DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO, DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO structure [Display Devices], display.dxgi_ddi_check_multiplaneoverlaysupport_plane_info, dxgiddi/DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO
-f1_keywords:
- - "dxgiddi/DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO"
- - "DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dxgiddi.h
-api_name:
-- DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
 targetos: Windows
 req.typenames: DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
+f1_keywords:
+ - DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO
+ - dxgiddi/DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO
+ - DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
+ - dxgiddi/DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dxgiddi.h
+api_name:
+ - DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
 ---
 
 # DXGI_DDI_CHECK_MULTIPLANEOVERLAYSUPPORT_PLANE_INFO structure
@@ -46,24 +48,17 @@ req.typenames: DXGI_DDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
 
 ## -description
 
-
 Specifies the support attributes that the hardware provides for multiplane overlays.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hResource
 
 A handle to the resource. The display miniport driver must set this member to a value that it can use to refer to its private tracking structure for the resource.
 
-
 ### -field SubResourceIndex
 
 The zero-based index into the resource, which is specified by the handle in the <b>hResource</b> member. This index indicates the subresource, or surface, on which an overlay plane is to be displayed.
-
 
 ### -field PlaneAttributes
 

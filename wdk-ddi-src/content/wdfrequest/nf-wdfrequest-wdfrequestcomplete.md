@@ -8,9 +8,6 @@ ms.assetid: cb5bfd4f-e45a-4894-acb4-0ece2de91510
 ms.date: 02/26/2018
 keywords: ["WdfRequestComplete function"]
 ms.keywords: DFRequestObjectRef_e723fb4c-f8f2-4eb9-9152-7f7ac74329df.xml, WdfRequestComplete, WdfRequestComplete method, kmdf.wdfrequestcomplete, wdf.wdfrequestcomplete, wdfrequest/WdfRequestComplete
-f1_keywords:
- - "wdfrequest/WdfRequestComplete"
- - "WdfRequestComplete"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestComplete
+ - wdfrequest/WdfRequestComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestComplete
 ---
 
 # WdfRequestComplete function
@@ -49,24 +49,20 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestComplete</b> method completes a specified I/O request and supplies a completion status.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
+[in]
 A handle to the framework request object that represents the I/O request that is being completed.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS value</a> that represents the completion status of the request. Valid status values include, but are not limited to, the following:
 
 
@@ -88,7 +84,6 @@ The driver is canceling the request.
 #### STATUS_UNSUCCESSFUL
 
 The driver has encountered an error while processing the request.
-
 
 ## -remarks
 
@@ -156,12 +151,7 @@ MyEvtIoDefault(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a>
 
@@ -184,7 +174,4 @@ MyEvtIoDefault(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetstatus">WdfRequestGetStatus</a>
- 
-
- 
 

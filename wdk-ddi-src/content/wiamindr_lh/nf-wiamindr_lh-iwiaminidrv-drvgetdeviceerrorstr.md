@@ -8,13 +8,10 @@ ms.assetid: c34a6834-8875-400c-9634-6c2b9b68164f
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvGetDeviceErrorStr"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetDeviceErrorStr method, IWiaMiniDrv.drvGetDeviceErrorStr, IWiaMiniDrv::drvGetDeviceErrorStr, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], drvGetDeviceErrorStr method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetdeviceerrorstr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvGetDeviceErrorStr"
- - "IWiaMiniDrv.drvGetDeviceErrorStr"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvGetDeviceErrorStr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvGetDeviceErrorStr
+ - wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvGetDeviceErrorStr
 ---
 
 # IWiaMiniDrv::drvGetDeviceErrorStr
+
 
 ## -description
 
@@ -96,3 +97,4 @@ On success, the method should return S_OK and clear the device error value point
 ## -remarks
 
 To obtain an error string that describes a device-specific minidriver-generated error value, the WIA service calls the **IWiaMiniDrv::drvGetDeviceErrorStr** method. In response to this call, the minidriver should use [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) to allocate memory that will contain a localized Unicode string corresponding to the error code passed to the minidriver. The WIA service (or an application) will free the memory. It is likely that an application will display the string, so it should be meaningful to an end user. The string should be loaded from a resource file, so that it can be localized into a variety of languages.
+

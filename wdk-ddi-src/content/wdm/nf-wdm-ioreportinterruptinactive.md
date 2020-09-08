@@ -8,9 +8,6 @@ ms.assetid: 614ECB39-E1D0-4BF0-B3C8-635BADD05508
 ms.date: 04/30/2018
 keywords: ["IoReportInterruptInactive function"]
 ms.keywords: IoReportInterruptInactive, IoReportInterruptInactive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptinactive, wdm/IoReportInterruptInactive
-f1_keywords:
- - "wdm/IoReportInterruptInactive"
- - "IoReportInterruptInactive"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoReportInterruptInactive
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoReportInterruptInactive
+ - wdm/IoReportInterruptInactive
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoReportInterruptInactive
 ---
 
 # IoReportInterruptInactive function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoReportInterruptInactive</b> routine informs the operating system that a registered interrupt service routine (ISR) is inactive and is not expecting interrupt requests.
-
 
 ## -parameters
 
+### -param Parameters 
 
-
-
-### -param Parameters [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_report_interrupt_active_state_parameters">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a> structure that contains the connection context associated with the interrupt. The caller received this context from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> call that registered the ISR.
 
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine registers an ISR and connects the ISR to an interrupt or interrupts. After the ISR is registered, the driver can make the ISR active or inactive by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreportinterruptactive">IoReportInterruptActive</a> or <b>IoReportInterruptInactive</b> routine. By default, the ISR is active after the <b>IoConnectInterruptEx</b> call.
 
@@ -72,13 +65,7 @@ The <b>IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</b> structure must contain a 
 
 For more information about <b>IoReportInterruptInactive</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-an-isr-active-or-inactive">Making an ISR Active or Inactive</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_report_interrupt_active_state_parameters">IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</a>
 
@@ -93,7 +80,4 @@ For more information about <b>IoReportInterruptInactive</b>, see <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreportinterruptactive">IoReportInterruptActive</a>
- 
-
- 
 

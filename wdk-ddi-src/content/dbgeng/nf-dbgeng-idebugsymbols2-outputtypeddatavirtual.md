@@ -8,9 +8,6 @@ ms.assetid: d6faa4ee-2fdb-425a-81db-8257285ba47d
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols2::OutputTypedDataVirtual"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],OutputTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging],OutputTypedDataVirtual method, IDebugSymbols2.OutputTypedDataVirtual, IDebugSymbols2::OutputTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging],OutputTypedDataVirtual method, IDebugSymbols3::OutputTypedDataVirtual, IDebugSymbols::OutputTypedDataVirtual, IDebugSymbols_0b8c7b9b-8e0a-4166-b474-830f662be2c6.xml, OutputTypedDataVirtual, OutputTypedDataVirtual method [Windows Debugging], OutputTypedDataVirtual method [Windows Debugging],IDebugSymbols interface, OutputTypedDataVirtual method [Windows Debugging],IDebugSymbols2 interface, OutputTypedDataVirtual method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::OutputTypedDataVirtual, dbgeng/IDebugSymbols3::OutputTypedDataVirtual, dbgeng/IDebugSymbols::OutputTypedDataVirtual, debugger.outputtypeddatavirtual
-f1_keywords:
- - "dbgeng/IDebugSymbols.OutputTypedDataVirtual"
- - "IDebugSymbols.OutputTypedDataVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols.OutputTypedDataVirtual
-- IDebugSymbols2.OutputTypedDataVirtual
-- IDebugSymbols3.OutputTypedDataVirtual
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols2::OutputTypedDataVirtual
+ - dbgeng/IDebugSymbols2::OutputTypedDataVirtual
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols.OutputTypedDataVirtual
+ - IDebugSymbols2.OutputTypedDataVirtual
+ - IDebugSymbols3.OutputTypedDataVirtual
 ---
 
 # IDebugSymbols2::OutputTypedDataVirtual
@@ -48,43 +48,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>OutputTypedDataVirtual</b> method formats the contents of a variable in the target's virtual memory, and then sends this to the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a>.
-
 
 ## -parameters
 
+### -param OutputControl 
 
-
-
-### -param OutputControl [in]
-
+[in]
 Specifies the output control used to determine which output callbacks can receive the output.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
 
+### -param Offset 
 
-### -param Offset [in]
-
+[in]
 Specifies the location in the target's virtual address space of the variable.
 
+### -param Module 
 
-### -param Module [in]
-
+[in]
 Specifies the base address of the module containing the type.
 
+### -param TypeId 
 
-### -param TypeId [in]
-
+[in]
 Specifies the type ID of the type.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies the formatting flags.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a> for possible values.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -105,18 +98,10 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dt--display-type-">dt (Display Type)</a>.
 
 For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.  For more information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
-
 

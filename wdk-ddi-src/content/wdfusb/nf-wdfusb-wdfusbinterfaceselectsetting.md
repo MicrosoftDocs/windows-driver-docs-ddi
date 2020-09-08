@@ -8,9 +8,6 @@ ms.assetid: 398b7649-152e-4fed-b633-16627dadf0f8
 ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceSelectSetting function"]
 ms.keywords: DFUsbRef_256e9b5d-8e9b-4935-9dc9-38a6071258a6.xml, WdfUsbInterfaceSelectSetting, WdfUsbInterfaceSelectSetting method, kmdf.wdfusbinterfaceselectsetting, wdf.wdfusbinterfaceselectsetting, wdfusb/WdfUsbInterfaceSelectSetting
-f1_keywords:
- - "wdfusb/WdfUsbInterfaceSelectSetting"
- - "WdfUsbInterfaceSelectSetting"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbInterfaceSelectSetting
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbInterfaceSelectSetting
+ - wdfusb/WdfUsbInterfaceSelectSetting
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbInterfaceSelectSetting
 ---
 
 # WdfUsbInterfaceSelectSetting function
@@ -49,35 +49,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbInterfaceSelectSetting</b> method selects a specified alternate setting for a specified USB interface.
 
-
 ## -parameters
 
+### -param UsbInterface 
 
+[in]
+A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>.
 
+### -param PipesAttributes 
 
-### -param UsbInterface [in]
-
-A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>. 
-
-
-### -param PipesAttributes [in, optional]
-
+[in, optional]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for pipe objects that the framework creates for the interface. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param Params 
 
-### -param Params [in]
-
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_interface_select_setting_params">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure that contains interface selection parameters.
 
-
 ## -returns
-
-
 
 <b>WdfUsbInterfaceSelectSetting</b> returns the I/O target's completion status value if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -117,14 +110,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 After your driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceselectconfig">WdfUsbTargetDeviceSelectConfig</a> to select a configuration, the driver can call <b>WdfUsbInterfaceSelectSetting</b> to select an alternate setting for one of the device's interfaces.
 
@@ -166,12 +152,7 @@ Status = WdfUsbInterfaceSelectSetting(
                                       );
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
 
@@ -206,7 +187,4 @@ Status = WdfUsbInterfaceSelectSetting(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceselectconfig">WdfUsbTargetDeviceSelectConfig</a>
- 
-
- 
 

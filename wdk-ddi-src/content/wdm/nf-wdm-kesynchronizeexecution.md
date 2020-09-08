@@ -8,9 +8,6 @@ ms.assetid: f378a30f-7e6b-4c81-b98b-a5b40e9a1a17
 ms.date: 04/30/2018
 keywords: ["KeSynchronizeExecution function"]
 ms.keywords: KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], k105_2abf2438-6849-4069-8571-7d24d348056f.xml, kernel.kesynchronizeexecution, wdm/KeSynchronizeExecution
-f1_keywords:
- - "wdm/KeSynchronizeExecution"
- - "KeSynchronizeExecution"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DIRQL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeSynchronizeExecution
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSynchronizeExecution
+ - wdm/KeSynchronizeExecution
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeSynchronizeExecution
 ---
 
 # KeSynchronizeExecution function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeSynchronizeExecution</b> routine synchronizes the execution of the specified routine with the interrupt service routine (ISR) that is assigned to a set of one or more interrupt objects.
-
 
 ## -parameters
 
+### -param Interrupt 
 
-
-
-### -param Interrupt [in, out]
-
+[in, out]
 A pointer to a set of interrupt objects. The caller obtained this pointer from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine.
 
+### -param SynchronizeRoutine 
 
-### -param SynchronizeRoutine [in]
-
+[in]
 Specifies a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine whose execution is to be synchronized with the execution of the ISR assigned to the interrupt objects.
 
+### -param SynchronizeContext 
 
-### -param SynchronizeContext [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied context value to be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine when it is called.
-
 
 ## -returns
 
-
-
 <b>KeSynchronizeExecution</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 When this routine is called, the following occurs:
 
@@ -105,20 +93,11 @@ Callers of <b>KeSynchronizeExecution</b> must be running at IRQL <= DIRQL; that 
 
 Starting with Windows 8, a driver can call <b>KeSynchronizeExecution</b> to synchronize execution of a <i>SynchCritSection</i> routine with an ISR that runs at IRQL = PASSIVE_LEVEL. In earlier versions of Windows, <b>KeSynchronizeExecution</b> can synchronize execution only with an ISR that runs at IRQL >= DISPATCH_LEVEL. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-passive-level-interrupt-handling-routines">Using Passive-Level Interrupt Service Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
- 
-
- 
 
