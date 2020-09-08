@@ -8,9 +8,6 @@ ms.assetid: 5fd9b381-c0e3-45bf-9061-da816da5e29f
 ms.date: 05/03/2018
 keywords: ["SCSISCAN_INFO structure"]
 ms.keywords: "*PSCSISCAN_INFO, PSCSISCAN_INFO, PSCSISCAN_INFO structure pointer [Imaging Devices], SCSISCAN_INFO, SCSISCAN_INFO structure [Imaging Devices], _SCSISCAN_INFO, image.scsiscan_info, scsiscan/PSCSISCAN_INFO, scsiscan/SCSISCAN_INFO, stifnc_157af712-4f72-49f3-9da6-b8f750826d3e.xml"
-f1_keywords:
- - "scsiscan/SCSISCAN_INFO"
- - "SCSISCAN_INFO"
 req.header: scsiscan.h
 req.include-header: Scsiscan.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsiscan.h
-api_name:
-- SCSISCAN_INFO
 targetos: Windows
 req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
+f1_keywords:
+ - _SCSISCAN_INFO
+ - scsiscan/_SCSISCAN_INFO
+ - PSCSISCAN_INFO
+ - scsiscan/PSCSISCAN_INFO
+ - SCSISCAN_INFO
+ - scsiscan/SCSISCAN_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsiscan.h
+api_name:
+ - SCSISCAN_INFO
 ---
 
 # _SCSISCAN_INFO structure
+
 
 ## -description
 
@@ -80,3 +85,4 @@ Target logical unit number (LUN).
 ### -field Reserved
 
 *For internal use only.*
+

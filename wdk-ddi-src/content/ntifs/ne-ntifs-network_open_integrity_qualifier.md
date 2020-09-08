@@ -8,9 +8,6 @@ ms.assetid: 6a51ee2e-2df6-44f4-8e95-776851d743a6
 ms.date: 04/16/2018
 keywords: ["NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration"]
 ms.keywords: ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, NETWORK_OPEN_INTEGRITY_QUALIFIER, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers], NetworkOpenIntegrityAny, NetworkOpenIntegrityEncrypted, NetworkOpenIntegrityMaximum, NetworkOpenIntegrityNone, NetworkOpenIntegritySigned, ifsk.network_open_integrity_qualifier, ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER, ntifs/NetworkOpenIntegrityAny, ntifs/NetworkOpenIntegrityEncrypted, ntifs/NetworkOpenIntegrityMaximum, ntifs/NetworkOpenIntegrityNone, ntifs/NetworkOpenIntegritySigned
-f1_keywords:
- - "ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER"
- - "NETWORK_OPEN_INTEGRITY_QUALIFIER"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- NETWORK_OPEN_INTEGRITY_QUALIFIER
 targetos: Windows
 req.typenames: NETWORK_OPEN_INTEGRITY_QUALIFIER
+f1_keywords:
+ - NETWORK_OPEN_INTEGRITY_QUALIFIER
+ - ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - NETWORK_OPEN_INTEGRITY_QUALIFIER
 ---
 
 # NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration
@@ -46,36 +46,27 @@ req.typenames: NETWORK_OPEN_INTEGRITY_QUALIFIER
 
 ## -description
 
-
 The NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration type contains values that identify the kind of integrity restriction to attach to a file.
-
 
 ## -enum-fields
 
-
-
-
 ### -field NetworkOpenIntegrityAny
 
-Indicates that the file has no integrity restrictions. That is, the file has no restrictions about how to sign, encrypt, and so on. 
-
+Indicates that the file has no integrity restrictions. That is, the file has no restrictions about how to sign, encrypt, and so on.
 
 ### -field NetworkOpenIntegrityNone
 
-Indicates that the file is not signed or encrypted. 
-
+Indicates that the file is not signed or encrypted.
 
 ### -field NetworkOpenIntegritySigned
 
-Indicates that the file is signed end-to-end. 
-
+Indicates that the file is signed end-to-end.
 
 ### -field NetworkOpenIntegrityEncrypted
 
-Indicates that the file is encrypted end-to-end. 
-
+Indicates that the file is encrypted end-to-end.
 
 ### -field NetworkOpenIntegrityMaximum
 
-Indicates that the file has the best integrity that is available. 
+Indicates that the file has the best integrity that is available.
 

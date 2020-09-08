@@ -8,9 +8,6 @@ ms.assetid: D951D5A0-3A93-4B67-B25A-31EE61C0A065
 ms.date: 05/07/2018
 keywords: ["USBFN_GET_ATTACH_ACTION callback function"]
 ms.keywords: PFN_USBFN_GET_ATTACH_ACTION, PFN_USBFN_GET_ATTACH_ACTION callback function pointer [Buses], USBFN_GET_ATTACH_ACTION, USBFN_GET_ATTACH_ACTION callback, UsbFnGetAttachAction, UsbFnGetAttachAction callback function [Buses], buses.usbfn_get_attach_action, usbfnattach/UsbFnGetAttachAction
-f1_keywords:
- - "usbfnattach/PFN_USBFN_GET_ATTACH_ACTION"
- - "PFN_USBFN_GET_ATTACH_ACTION"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbfnattach.h
-api_name:
-- PFN_USBFN_GET_ATTACH_ACTION
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - USBFN_GET_ATTACH_ACTION
+ - usbfnattach/USBFN_GET_ATTACH_ACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbfnattach.h
+api_name:
+ - PFN_USBFN_GET_ATTACH_ACTION
 ---
 
 # USBFN_GET_ATTACH_ACTION callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The filter driver's implementation that gets invoked when charger is attached to the port.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
     A pointer to a driver-defined context.
 
+### -param OnAttach 
 
-### -param OnAttach [out]
-
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnattach/ns-usbfnattach-_usbfn_on_attach">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
-
+[out]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnattach/ns-usbfnattach-_usbfn_on_attach">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port.
 
 ## -returns
 
-
-
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
-
-
-
 ## -remarks
-
-
 
 To support attach and detatch detection, the USB lower filter driver must publish its support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>.
 
@@ -144,15 +132,7 @@ UsbLowerFilter_GetAttachAction(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
- 
-
- 
 

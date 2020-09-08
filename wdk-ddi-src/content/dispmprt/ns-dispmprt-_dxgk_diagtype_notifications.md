@@ -5,38 +5,41 @@ description: A structure used to identify one or more diagnostic types in the No
 ms.assetid: cfebcf14-30cd-4577-a25d-98eea944834e
 ms.date: 10/19/2018
 keywords: ["DXGK_DIAGTYPE_NOTIFICATIONS structure"]
-f1_keywords:
- - "dispmprt/_DXGK_DIAGTYPE_NOTIFICATIONS"
- - "_DXGK_DIAGTYPE_NOTIFICATIONS"
 ms.keywords: _DXGK_DIAGTYPE_NOTIFICATIONS, DXGK_DIAGTYPE_NOTIFICATIONS,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_DIAGTYPE_NOTIFICATIONS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- _DXGK_DIAGTYPE_NOTIFICATIONS
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_DIAGTYPE_NOTIFICATIONS
+ - dispmprt/_DXGK_DIAGTYPE_NOTIFICATIONS
+ - DXGK_DIAGTYPE_NOTIFICATIONS
+ - dispmprt/DXGK_DIAGTYPE_NOTIFICATIONS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGK_DIAGTYPE_NOTIFICATIONS
+product:
+ - Windows
 ---
 
 # _DXGK_DIAGTYPE_NOTIFICATIONS structure
+
 
 ## -description
 

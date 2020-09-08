@@ -8,9 +8,6 @@ ms.assetid: d61f9e04-e308-4844-9d46-d15faee04e75
 ms.date: 05/02/2018
 keywords: ["FwpsReleaseClassifyHandle0 function"]
 ms.keywords: FwpsReleaseClassifyHandle0, FwpsReleaseClassifyHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReleaseClassifyHandle0, netvista.fwpsreleaseclassifyhandle0, wfp_ref_2_funct_3_fwps_R-Z_a488d8fc-0c0f-4580-a934-7dba9e2f98b9.xml
-f1_keywords:
- - "fwpsk/FwpsReleaseClassifyHandle0"
- - "FwpsReleaseClassifyHandle0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsReleaseClassifyHandle0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsReleaseClassifyHandle0
+ - fwpsk/FwpsReleaseClassifyHandle0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsReleaseClassifyHandle0
 ---
 
 # FwpsReleaseClassifyHandle0 function
 
 
 ## -description
-
 
 A callout driver calls 
   <b>FwpsReleaseClassifyHandle0</b> to release a classification handle that was previously acquired through a
@@ -57,20 +56,15 @@ A callout driver calls
 
 ## -parameters
 
+### -param classifyHandle 
 
-
-
-### -param classifyHandle [in]
-
+[in]
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
      FwpsAcquireClassifyHandle0</a>.
 
-
 ## -remarks
-
-
 
 Any time 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">FwpsAcquireClassifyHandle0</a> is
@@ -78,13 +72,7 @@ Any time
     <b>FwpsReleaseClassifyHandle0</b> must be made to free the system resources associated with the
     classification handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
 
@@ -103,7 +91,4 @@ Any time
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

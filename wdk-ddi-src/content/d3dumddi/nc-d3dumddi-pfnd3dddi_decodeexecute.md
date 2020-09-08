@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DecodeExecute"
- - "DecodeExecute"
+ - PFND3DDDI_DECODEEXECUTE
+ - d3dumddi/PFND3DDDI_DECODEEXECUTE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DECODEEXECUTE callback function
+
 
 ## -description
 

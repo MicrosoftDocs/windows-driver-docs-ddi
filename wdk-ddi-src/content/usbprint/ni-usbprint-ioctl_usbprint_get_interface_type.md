@@ -6,38 +6,39 @@ tech.root: print
 ms.assetid: cec2122d-17b3-407c-b374-be475024afc2
 ms.date: 04/03/2019
 keywords: ["IOCTL_USBPRINT_GET_INTERFACE_TYPE IOCTL"]
-f1_keywords:
- - "usbprint/IOCTL_USBPRINT_GET_INTERFACE_TYPE"
- - "IOCTL_USBPRINT_GET_INTERFACE_TYPE"
 ms.custom: 19H1
 req.header: usbprint.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - usbprint.h
-api_name: 
- - IOCTL_USBPRINT_GET_INTERFACE_TYPE
-product: 
- - Windows
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
+f1_keywords:
+ - IOCTL_USBPRINT_GET_INTERFACE_TYPE
+ - usbprint/IOCTL_USBPRINT_GET_INTERFACE_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - usbprint.h
+api_name:
+ - IOCTL_USBPRINT_GET_INTERFACE_TYPE
+product:
+ - Windows
 ---
 
 # IOCTL_USBPRINT_GET_INTERFACE_TYPE IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -66,7 +67,7 @@ sizeof(DWORD)
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
@@ -83,3 +84,4 @@ IOCTL_USBPRINT_GET_INTERFACE_TYPE returns one of the following values:
 7-1-4 refers to USB class printer(7), subclass(1), protocol(4==IPP over USB).
 
 ## -see-also
+

@@ -8,9 +8,6 @@ ms.assetid: 9cd2e943-dc20-4c5c-ab5c-090463e0a88c
 ms.date: 05/10/2018
 keywords: ["DXVADDI_AYUVSAMPLE16 structure"]
 ms.keywords: DXVA2_Structs_9e7fc230-f50c-4a07-b1cb-358694dc207d.xml, DXVADDI_AYUVSAMPLE16, DXVADDI_AYUVSAMPLE16 structure [Display Devices], _DXVADDI_AYUVSAMPLE16, d3dumddi/DXVADDI_AYUVSAMPLE16, display.dxvaddi_ayuvsample16
-f1_keywords:
- - "d3dumddi/DXVADDI_AYUVSAMPLE16"
- - "DXVADDI_AYUVSAMPLE16"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVADDI_AYUVSAMPLE16
 targetos: Windows
 req.typenames: DXVADDI_AYUVSAMPLE16
+f1_keywords:
+ - _DXVADDI_AYUVSAMPLE16
+ - d3dumddi/_DXVADDI_AYUVSAMPLE16
+ - DXVADDI_AYUVSAMPLE16
+ - d3dumddi/DXVADDI_AYUVSAMPLE16
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVADDI_AYUVSAMPLE16
 ---
 
 # _DXVADDI_AYUVSAMPLE16 structure
@@ -46,38 +48,27 @@ req.typenames: DXVADDI_AYUVSAMPLE16
 
 ## -description
 
-
 The DXVADDI_AYUVSAMPLE16 structure describes 16-bit Cr, Cb, and Y color values and an associated opacity.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Cr
 
 [in] A 16-bit chrominance (V) sample value.
 
-
 ### -field Cb
 
 [in] A 16-bit chrominance (U) sample value.
-
 
 ### -field Y
 
 [in] A 16-bit luminance (Y) sample value.
 
-
 ### -field Alpha
 
-[in] The 16-bit opacity of the pixel when it is used as a source graphic for blending with another picture. 
-
+[in] The 16-bit opacity of the pixel when it is used as a source graphic for blending with another picture.
 
 ## -remarks
-
-
 
 A value of 0 in the <b>Alpha</b> member indicates that the pixel is transparent (so that the other entries have no effect on the resulting blended picture), and a value of 255 indicates that the pixel is opaque (so that the other entries completely determine the value of the resulting blended picture sample). 
 
@@ -98,15 +89,9 @@ The width and height of the AYUV alpha-blending surface are specified in the ass
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_decodebufferdesc">DXVADDI_DECODEBUFFERDESC</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>
- 
-
- 
 

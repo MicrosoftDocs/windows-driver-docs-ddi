@@ -8,9 +8,6 @@ ms.assetid: F00FD4FB-08D5-42D4-8CC2-85EE02D95E4B
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionEvent::OnDriverEvent"]
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnDriverEvent method, IPrinterExtensionEvent.OnDriverEvent, IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_ondriverevent, printerextension/IPrinterExtensionEvent::OnDriverEvent
-f1_keywords:
- - "printerextension/IPrinterExtensionEvent.OnDriverEvent"
- - "IPrinterExtensionEvent.OnDriverEvent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- printerextension.h
-api_name:
-- IPrinterExtensionEvent.OnDriverEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionEvent::OnDriverEvent
+ - printerextension/IPrinterExtensionEvent::OnDriverEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - printerextension.h
+api_name:
+ - IPrinterExtensionEvent.OnDriverEvent
 ---
 
 # IPrinterExtensionEvent::OnDriverEvent
@@ -46,40 +46,24 @@ req.typenames:
 
 ## -description
 
-
 Called when a driver event occurs.
-
 
 ## -parameters
 
+### -param pEventArgs 
 
-
-
-### -param pEventArgs [in]
-
+[in]
 The event arguments.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionevent">IPrinterExtensionEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
- 
-
- 
 

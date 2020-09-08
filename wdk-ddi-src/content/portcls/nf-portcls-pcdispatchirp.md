@@ -8,9 +8,6 @@ ms.assetid: 01add66e-a007-4b1d-add6-c5be71dd0d61
 ms.date: 05/08/2018
 keywords: ["PcDispatchIrp function"]
 ms.keywords: PcDispatchIrp, PcDispatchIrp function [Audio Devices], audio.pcdispatchirp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, portcls/PcDispatchIrp
-f1_keywords:
- - "portcls/PcDispatchIrp"
- - "PcDispatchIrp"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcDispatchIrp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcDispatchIrp
+ - portcls/PcDispatchIrp
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcDispatchIrp
 ---
 
 # PcDispatchIrp function
@@ -47,51 +47,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>PcDispatchIrp</b> function dispatches an IRP to the PortCls system driver's default handler.
-
 
 ## -parameters
 
+### -param pDeviceObject 
 
-
-
-### -param pDeviceObject [in]
-
+[in]
 Pointer to the device object. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
+### -param pIrp 
 
-### -param pIrp [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> that is to be dispatched
-
 
 ## -returns
 
-
-
 <b>PcDispatchIrp</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 As part of its initialization process, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcinitializeadapterdriver">PcInitializeAdapterDriver</a> function loads pointers to handlers for several IRPs into the driver object. Following the call to <b>PcInitializeAdapterDriver</b>, an adapter driver can choose to overwrite one or more of the PortCls handler pointers with pointers to its own IRP handlers.
 
 If, after receiving an IRP, the adapter driver's IRP handler determines that the IRP should be handled by the PortCls IRP handler instead, the adapter driver's handler calls <b>PcDispatchIrp</b> to forward the IRP to the PortCls handler.
 
-For a code example, see the SB16 sample audio driver in the Microsoft Windows Driver Kit (WDK). 
-
-
-
+For a code example, see the SB16 sample audio driver in the Microsoft Windows Driver Kit (WDK).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
@@ -102,7 +84,4 @@ For a code example, see the SB16 sample audio driver in the Microsoft Windows Dr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcinitializeadapterdriver">PcInitializeAdapterDriver</a>
- 
-
- 
 

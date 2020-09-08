@@ -8,9 +8,6 @@ ms.assetid: a0749324-8b4e-4b82-8c51-b1b8883d521e
 ms.date: 02/26/2018
 keywords: ["WdfDeviceGetIoTarget function"]
 ms.keywords: DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, WdfDeviceGetIoTarget, WdfDeviceGetIoTarget method, kmdf.wdfdevicegetiotarget, wdf.wdfdevicegetiotarget, wdfdevice/WdfDeviceGetIoTarget
-f1_keywords:
- - "wdfdevice/WdfDeviceGetIoTarget"
- - "WdfDeviceGetIoTarget"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfDeviceGetIoTarget
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceGetIoTarget
+ - wdfdevice/WdfDeviceGetIoTarget
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfDeviceGetIoTarget
 ---
 
 # WdfDeviceGetIoTarget function
@@ -49,36 +49,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfDeviceGetIoTarget</b> method returns a handle to a function or filter driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets">local I/O target</a>, for a specified device.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfDeviceGetIoTarget</b> returns a handle to a framework I/O target object. If the specified framework device object represents a PDO, the method returns <b>NULL</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 When a UMDF driver sends a driver-created request to a local I/O target, the request has no associated file object. Some lower targets, such as a HIDClass-enumerated raw PDO, fail requests that have no associated file object. In this situation, a UMDF driver can specify <b>WdfIoTargetOpenLocalTargetByFile</b> to create an I/O target that represents the lower stack (just like a local target) using a file handle. As a result, any driver-created requests sent to this I/O target are associated with the file object corresponding to the handle opened.
 
@@ -96,5 +84,4 @@ WDFIOTARGET  ioTargetHandle;
 
 ioTargetHandle = WdfDeviceGetIoTarget(device);
 ```
-
 

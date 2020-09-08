@@ -8,9 +8,6 @@ ms.assetid: 1e0e6313-1dfa-4b68-8f58-bfa79f3124d6
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_UNLOCK structure"]
 ms.keywords: D3DDDICB_UNLOCK, D3DDDICB_UNLOCK structure [Display Devices], D3D_param_Structs_91515cd5-00b4-4ad6-a8a5-ff216ddec171.xml, _D3DDDICB_UNLOCK, d3dumddi/D3DDDICB_UNLOCK, display.d3dddicb_unlock
-f1_keywords:
- - "d3dumddi/D3DDDICB_UNLOCK"
- - "D3DDDICB_UNLOCK"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_UNLOCK
 targetos: Windows
 req.typenames: D3DDDICB_UNLOCK
+f1_keywords:
+ - _D3DDDICB_UNLOCK
+ - d3dumddi/_D3DDDICB_UNLOCK
+ - D3DDDICB_UNLOCK
+ - d3dumddi/D3DDDICB_UNLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_UNLOCK
 ---
 
 # _D3DDDICB_UNLOCK structure
@@ -46,36 +48,23 @@ req.typenames: D3DDDICB_UNLOCK
 
 ## -description
 
-
-The D3DDDICB_UNLOCK structure describes allocations to unlock. 
-
+The D3DDDICB_UNLOCK structure describes allocations to unlock.
 
 ## -struct-fields
 
-
-
-
 ### -field NumAllocations
 
-[in] The number of allocations in the array that is specified by <b>phAllocations</b>. 
-
+[in] The number of allocations in the array that is specified by <b>phAllocations</b>.
 
 ### -field phAllocations
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to unlock the allocations.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb">pfnUnlockCb</a>
- 
-
- 
 

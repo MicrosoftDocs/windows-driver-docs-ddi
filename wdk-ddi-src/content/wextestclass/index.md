@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: taef
+f1_keywords:
+ - wextestclass
+ - wextestclass/wextestclass
 ---
 
 # Wextestclass.h header
@@ -16,7 +19,7 @@ tech.root: taef
 
 ## -description
 
-
 This header is used by dtf. For more information, see:
 
 - [Windows Device Testing Framework (WDTF)](../_dtf/index.md)
+

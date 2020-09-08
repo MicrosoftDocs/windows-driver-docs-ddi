@@ -8,9 +8,6 @@ ms.assetid: 6f28a66a-9c17-4020-bfe2-295c22af6ba7
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_INTERRUPT_ISR callback function"]
 ms.keywords: DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, EVT_WDF_INTERRUPT_ISR, EVT_WDF_INTERRUPT_ISR callback, EvtInterruptIsr, EvtInterruptIsr callback function, kmdf.evtinterruptisr, wdf.evtinterruptisr, wdfinterrupt/EvtInterruptIsr
-f1_keywords:
- - "wdfinterrupt/EvtInterruptIsr"
- - "EvtInterruptIsr"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfinterrupt.h
-api_name:
-- EvtInterruptIsr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_INTERRUPT_ISR
+ - wdfinterrupt/EVT_WDF_INTERRUPT_ISR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfinterrupt.h
+api_name:
+ - EvtInterruptIsr
 ---
 
 # EVT_WDF_INTERRUPT_ISR callback function
@@ -46,39 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtInterruptIsr</i> event callback function services a hardware interrupt.
 
-
 ## -parameters
 
+### -param Interrupt 
 
-
-
-### -param Interrupt [in]
-
+[in]
 A handle to a framework interrupt object.
 
+### -param MessageID 
 
-### -param MessageID [in]
-
+[in]
 If the device is using message-signaled interrupts (MSIs), this parameter is the message number that identifies the device's hardware interrupt message. Otherwise, this value is 0.
-
 
 ## -returns
 
-
-
 The <i>EvtInterruptIsr</i> callback function must return <b>TRUE</b> if the function services the hardware interrupt. Otherwise, this function must return <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 To register an <i>EvtInterruptIsr</i> callback function, your driver must place the callback function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_config">WDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
 
@@ -102,13 +90,7 @@ Drivers that support passive-level interrupt handling can provide either an <a h
 
 For more information about handling interrupts in framework-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nc-wdfdpc-evt_wdf_dpc">EvtDpcFunc</a>
 
@@ -135,7 +117,4 @@ For more information about handling interrupts in framework-based drivers, see <
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptwdmgetinterrupt">WdfInterruptWdmGetInterrupt</a>
- 
-
- 
 

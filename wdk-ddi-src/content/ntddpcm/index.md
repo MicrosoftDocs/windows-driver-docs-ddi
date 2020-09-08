@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: pcmcia
+f1_keywords:
+ - ntddpcm
+ - ntddpcm/ntddpcm
 ---
 
 # Ntddpcm.h header
@@ -16,7 +19,7 @@ tech.root: pcmcia
 
 ## -description
 
-
 This header is used by pcmcia. For more information, see:
 
 - [PCMCIA bus drivers](../_pcmcia/index.md)
+

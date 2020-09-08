@@ -2,45 +2,45 @@
 UID: NF:netwakesourcelist.NetDeviceGetWakeSourceList
 title: NetDeviceGetWakeSourceList function (netwakesourcelist.h)
 author: windows-driver-content
-description: The NetDeviceGetWakeSourceList method gets the list of wake sources for a net adapter.
+description: The NetDeviceGetWakeSourceList function gets the list of wake sources for a net adapter.
 tech.root: netvista
 ms.assetid: a70770b8-04a4-4012-9f1b-dcf62cdc5a8b
 ms.author: windowsdriverdev
 ms.date: 10/08/2019
 keywords: ["NetDeviceGetWakeSourceList function"]
-f1_keywords:
- - "netwakesourcelist/NetDeviceGetWakeSourceList"
- - "NetDeviceGetWakeSourceList"
 ms.keywords: NetDeviceGetWakeSourceList
 req.header: netwakesourcelist.h
-req.include-header:
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetDeviceGetWakeSourceList
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetDeviceGetWakeSourceList
+ - netwakesourcelist/NetDeviceGetWakeSourceList
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetDeviceGetWakeSourceList
+product:
+ - Windows
 ---
 
 # NetDeviceGetWakeSourceList function
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetDeviceGetWakeSourceList** method gets the list of wake sources for a net adapter.
+The **NetDeviceGetWakeSourceList** function gets the list of wake sources for a net adapter.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_LIST**](../ne
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Call [**NET_WAKE_SOURCE_LIST_INIT**](../netwakesourcelist/nf-netwakesourcelist-net_wake_source_list_init.md) to initialize the [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure, then call this method to retrieve the wake source list.
+Call [**NET_WAKE_SOURCE_LIST_INIT**](../netwakesourcelist/nf-netwakesourcelist-net_wake_source_list_init.md) to initialize the [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure, then call this function to retrieve the wake source list.
 
 The client driver must only call **NetDeviceGetWakeSourceList** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)* callback function. Otherwise, the call results in a system bugcheck.
 
@@ -79,3 +79,4 @@ For a code sample of working with NETWAKESOURCE objects, see [Configuring power 
 [**NET_WAKE_SOURCE_LIST_INIT**](../netwakesourcelist/nf-netwakesourcelist-net_wake_source_list_init.md)
 
 [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md)
+

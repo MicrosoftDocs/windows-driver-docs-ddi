@@ -8,9 +8,6 @@ ms.assetid: c6701ca4-f3ce-40b9-8582-d70e8b2acde3
 ms.date: 04/20/2018
 keywords: ["MONITORUI structure"]
 ms.keywords: "*PMONITORUI, MONITORUI, MONITORUI structure [Print Devices], PMONITORUI, PMONITORUI structure pointer [Print Devices], _MONITORUI, print.monitorui, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, winsplp/MONITORUI, winsplp/PMONITORUI"
-f1_keywords:
- - "winsplp/MONITORUI"
- - "MONITORUI"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsplp.h
-api_name:
-- MONITORUI
 targetos: Windows
 req.typenames: MONITORUI, *PMONITORUI
+f1_keywords:
+ - _MONITORUI
+ - winsplp/_MONITORUI
+ - PMONITORUI
+ - winsplp/PMONITORUI
+ - MONITORUI
+ - winsplp/MONITORUI
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsplp.h
+api_name:
+ - MONITORUI
 ---
 
 # _MONITORUI structure
@@ -46,45 +50,25 @@ req.typenames: MONITORUI, *PMONITORUI
 
 ## -description
 
-
 The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwMonitorUISize
 
 Size, in bytes, of the MONITORUI structure.
 
-
 ### -field pfnAddPortUI
-
 
 ### -field pfnConfigurePortUI
 
-
 ### -field pfnDeletePortUI
-
 
 ## -remarks
 
-
-
 All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui">InitializePrintMonitorUI</a> function.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui">InitializePrintMonitorUI</a>
- 
-
- 
 

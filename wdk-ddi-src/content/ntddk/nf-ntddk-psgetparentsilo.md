@@ -8,9 +8,6 @@ ms.assetid: 57fa5563-3a02-449a-a934-85c75f450500
 ms.date: 04/30/2018
 keywords: ["PsGetParentSilo function"]
 ms.keywords: PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], kernel.psgetparentsilo, ntddk/PsGetParentSilo
-f1_keywords:
- - "ntddk/PsGetParentSilo"
- - "PsGetParentSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsGetParentSilo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetParentSilo
+ - ntddk/PsGetParentSilo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsGetParentSilo
 ---
 
 # PsGetParentSilo function
@@ -46,29 +46,18 @@ req.typenames:
 
 ## -description
 
-
 Retrieves the most immediate parent silo in the hierarchy
     for a given job object.
-			
-            
-
 
 ## -parameters
 
+### -param Job 
 
-
-
-### -param Job [in, optional]
-
-A pointer to an <b>EJOB</b> structure that represents the job object. 
-
+[in, optional]
+A pointer to an <b>EJOB</b> structure that represents the job object.
 
 ## -returns
 
-
-
 A pointer to the parent silo of the job. his value may be
     PSP_HOST_SILO, because all silos descend from the host.
-
-
 

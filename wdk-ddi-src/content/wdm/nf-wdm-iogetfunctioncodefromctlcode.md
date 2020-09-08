@@ -8,9 +8,6 @@ ms.assetid: 8bbde78d-49f4-4181-9d92-312010322a7a
 ms.date: 04/30/2018
 keywords: ["IoGetFunctionCodeFromCtlCode macro"]
 ms.keywords: IoGetFunctionCodeFromCtlCode, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture], k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, kernel.iogetfunctioncodefromctlcode, wdm/IoGetFunctionCodeFromCtlCode
-f1_keywords:
- - "wdm/IoGetFunctionCodeFromCtlCode"
- - "IoGetFunctionCodeFromCtlCode"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- IoGetFunctionCodeFromCtlCode
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetFunctionCodeFromCtlCode
+ - wdm/IoGetFunctionCodeFromCtlCode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - IoGetFunctionCodeFromCtlCode
 ---
 
 # IoGetFunctionCodeFromCtlCode macro
@@ -46,20 +46,14 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetFunctionCodeFromCtlCode</b> macro returns the value of the function code contained in an I/O control code.
-
 
 ## -parameters
 
+### -param ControlCode 
 
-
-
-### -param ControlCode [in]
-
+[in]
 The IOCTL_<i>XXX</i> (or FSCTL_<i>XXX</i>) value, which can be obtained from the driver's I/O stack location of the IRP at <b>Parameters.DeviceIoControl.IoControlCode</b>.
-
-
 
 ## -remarks
 
@@ -68,16 +62,7 @@ The IOCTL_<i>XXX</i> (or FSCTL_<i>XXX</i>) value, which can be obtained from the
 
 For information about the layout of IOCTL codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-i-o-control-codes">Using I/O Control Codes</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
- 
-
- 
 

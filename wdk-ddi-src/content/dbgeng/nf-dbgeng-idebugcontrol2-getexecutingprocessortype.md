@@ -8,9 +8,6 @@ ms.assetid: 62d0397b-da20-414e-accf-656749a771f6
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::GetExecutingProcessorType"]
 ms.keywords: GetExecutingProcessorType, GetExecutingProcessorType method [Windows Debugging], GetExecutingProcessorType method [Windows Debugging],IDebugControl interface, GetExecutingProcessorType method [Windows Debugging],IDebugControl2 interface, GetExecutingProcessorType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExecutingProcessorType method, IDebugControl2 interface [Windows Debugging],GetExecutingProcessorType method, IDebugControl2.GetExecutingProcessorType, IDebugControl2::GetExecutingProcessorType, IDebugControl3 interface [Windows Debugging],GetExecutingProcessorType method, IDebugControl3::GetExecutingProcessorType, IDebugControl::GetExecutingProcessorType, IDebugControl_b2aad495-5a68-4888-bedb-da76edbfbe7a.xml, dbgeng/IDebugControl2::GetExecutingProcessorType, dbgeng/IDebugControl3::GetExecutingProcessorType, dbgeng/IDebugControl::GetExecutingProcessorType, debugger.getexecutingprocessortype
-f1_keywords:
- - "dbgeng/IDebugControl.GetExecutingProcessorType"
- - "IDebugControl.GetExecutingProcessorType"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.GetExecutingProcessorType
-- IDebugControl2.GetExecutingProcessorType
-- IDebugControl3.GetExecutingProcessorType
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl2::GetExecutingProcessorType
+ - dbgeng/IDebugControl2::GetExecutingProcessorType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.GetExecutingProcessorType
+ - IDebugControl2.GetExecutingProcessorType
+ - IDebugControl3.GetExecutingProcessorType
 ---
 
 # IDebugControl2::GetExecutingProcessorType
@@ -48,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetExecutingProcessorType</b> method returns the executing processor type for the processor for which the last event occurred.
-
 
 ## -parameters
 
+### -param Type 
 
-
-
-### -param Type [out]
-
+[out]
 Receives the processor type.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a> for a list of possible values this parameter can receive.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -85,24 +78,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/target-information">Target Information</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a>
 
@@ -117,7 +98,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
 

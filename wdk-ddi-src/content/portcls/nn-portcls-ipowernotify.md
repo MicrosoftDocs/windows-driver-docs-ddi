@@ -8,9 +8,6 @@ ms.assetid: f4856f40-b462-4e69-9324-a2cc837b2893
 ms.date: 05/08/2018
 keywords: ["IPowerNotify interface"]
 ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], IPowerNotify interface [Audio Devices],described, audio.ipowernotify, audmp-routines_345bcede-d886-4423-b56e-0b7c15596744.xml, portcls/IPowerNotify
-f1_keywords:
- - "portcls/IPowerNotify"
- - "IPowerNotify"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPowerNotify
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPowerNotify
+ - portcls/IPowerNotify
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPowerNotify
 ---
 
 # IPowerNotify interface
 
 
 ## -description
-
 
 The <code>IPowerNotify</code> interface is an optional interface that miniport drivers can expose if they require advance notification of impending power-state changes. To determine whether the miniport driver supports the <code>IPowerNotify</code> interface, the port driver calls the miniport driver object's <b>QueryInterface</b> method with REFIID <b>IID_IPowerNotify</b>. The following miniport driver types can support <code>IPowerNotify</code>:
 <dl>
@@ -88,7 +87,6 @@ For example, when the operating system tells a wave audio device to go to a slee
 The process is reversed when the device is powering up. PortCls first calls the adapter's <b>PowerChangeState</b> method to power up the adapter. The port driver then calls the miniport driver's callback to allow the miniport driver to restore its context. Finally, the port driver unpauses any previously paused active audio streams.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-ipowernotify">Implementing IPowerNotify</a>.
-
 
 ## -inheritance
 

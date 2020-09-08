@@ -26,8 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/PFND3DDDI_INVALIDATECACHECB"
- - "PFND3DDDI_INVALIDATECACHECB"
+ - PFND3DDDI_INVALIDATECACHECB
+ - d3dumddi/PFND3DDDI_INVALIDATECACHECB
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3DDDI_INVALIDATECACHECB callback function
+
 
 ## -description
 

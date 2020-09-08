@@ -8,9 +8,6 @@ ms.assetid: d58a275a-aaaa-4159-ba00-6998b7a63434
 ms.date: 02/26/2018
 keywords: ["WdfCompanionTargetSendTaskSynchronously function"]
 ms.keywords: WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
-f1_keywords:
- - "wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously"
- - "WdfCompanionTargetSendTaskSynchronously"
 req.header: wdfcompaniontarget.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompaniontarget.h
-api_name:
-- WdfCompanionTargetSendTaskSynchronously
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCompanionTargetSendTaskSynchronously
+ - wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompaniontarget.h
+api_name:
+ - WdfCompanionTargetSendTaskSynchronously
 ---
 
 # WdfCompanionTargetSendTaskSynchronously function
@@ -46,33 +46,35 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
+### -param CompanionTarget 
 
+[in]
 
+### -param TaskQueueIdentifier 
 
-### -param CompanionTarget [in]
+[in]
 
+### -param TaskOperationCode 
 
-### -param TaskQueueIdentifier [in]
+[in]
 
+### -param InputBuffer 
 
-### -param TaskOperationCode [in]
+[in, optional]
 
+### -param OutputBuffer 
 
-### -param InputBuffer [in, optional]
+[in, optional]
 
+### -param TaskOptions 
 
-### -param OutputBuffer [in, optional]
+[in, optional]
 
+### -param BytesReturned 
 
-### -param TaskOptions [in, optional]
-
-
-### -param BytesReturned [out]
+[out]
 

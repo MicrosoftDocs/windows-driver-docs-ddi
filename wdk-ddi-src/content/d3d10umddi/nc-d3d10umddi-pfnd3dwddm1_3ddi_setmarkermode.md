@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/SetMarkerMode"
- - "SetMarkerMode"
+ - PFND3DWDDM1_3DDI_SETMARKERMODE
+ - d3d10umddi/PFND3DWDDM1_3DDI_SETMARKERMODE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM1_3DDI_SETMARKERMODE callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 9e4ca8a6-f33f-4403-a52f-f242ce40aac8
 ms.date: 05/03/2018
 keywords: ["IDebugControl3::GetNumberPossibleExecutingProcessorTypes"]
 ms.keywords: GetNumberPossibleExecutingProcessorTypes, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging], GetNumberPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl interface, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl2 interface, GetNumberPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNumberPossibleExecutingProcessorTypes method, IDebugControl2 interface [Windows Debugging],GetNumberPossibleExecutingProcessorTypes method, IDebugControl2::GetNumberPossibleExecutingProcessorTypes, IDebugControl3 interface [Windows Debugging],GetNumberPossibleExecutingProcessorTypes method, IDebugControl3.GetNumberPossibleExecutingProcessorTypes, IDebugControl3::GetNumberPossibleExecutingProcessorTypes, IDebugControl::GetNumberPossibleExecutingProcessorTypes, IDebugControl_62f066c6-6ffb-4323-ad82-786a8a763783.xml, dbgeng/IDebugControl2::GetNumberPossibleExecutingProcessorTypes, dbgeng/IDebugControl3::GetNumberPossibleExecutingProcessorTypes, dbgeng/IDebugControl::GetNumberPossibleExecutingProcessorTypes, debugger.getnumberpossibleexecutingprocessortypes
-f1_keywords:
- - "dbgeng/IDebugControl.GetNumberPossibleExecutingProcessorTypes"
- - "IDebugControl.GetNumberPossibleExecutingProcessorTypes"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.GetNumberPossibleExecutingProcessorTypes
-- IDebugControl2.GetNumberPossibleExecutingProcessorTypes
-- IDebugControl3.GetNumberPossibleExecutingProcessorTypes
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl3::GetNumberPossibleExecutingProcessorTypes
+ - dbgeng/IDebugControl3::GetNumberPossibleExecutingProcessorTypes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.GetNumberPossibleExecutingProcessorTypes
+ - IDebugControl2.GetNumberPossibleExecutingProcessorTypes
+ - IDebugControl3.GetNumberPossibleExecutingProcessorTypes
 ---
 
 # IDebugControl3::GetNumberPossibleExecutingProcessorTypes
@@ -48,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetNumberPossibleExecutingProcessorTypes</b> method returns the number of processor types that are supported by the computer running the current target.
-
 
 ## -parameters
 
+### -param Number 
 
-
-
-### -param Number [out]
-
+[out]
 Receives the number of processor types.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -85,24 +78,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/target-information">Target Information</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getpossibleexecutingprocessortypes">GetPossibleExecutingProcessorTypes</a>
 
@@ -117,7 +98,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
- 
-
- 
 

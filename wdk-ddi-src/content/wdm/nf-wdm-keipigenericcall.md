@@ -8,9 +8,6 @@ ms.assetid: 11424e94-d279-4003-a97c-a46d1a75e8e5
 ms.date: 04/30/2018
 keywords: ["KeIpiGenericCall function"]
 ms.keywords: KeIpiGenericCall, KeIpiGenericCall routine [Kernel-Mode Driver Architecture], k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml, kernel.keipigenericcall, wdm/KeIpiGenericCall
-f1_keywords:
- - "wdm/KeIpiGenericCall"
- - "KeIpiGenericCall"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < IPI_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeIpiGenericCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeIpiGenericCall
+ - wdm/KeIpiGenericCall
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeIpiGenericCall
 ---
 
 # KeIpiGenericCall function
@@ -46,50 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeIpiGenericCall</b> routine causes the specified routine to run on all processors simultaneously.
-
 
 ## -parameters
 
+### -param BroadcastFunction 
 
-
-
-### -param BroadcastFunction [in]
-
+[in]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a> routine. This routine is run on every processor simultaneously.
 
+### -param Context 
 
-### -param Context [in]
-
-Specifies the value to pass to <i>IpiGenericCall</i> when it is called. 
-
+[in]
+Specifies the value to pass to <i>IpiGenericCall</i> when it is called.
 
 ## -returns
 
-
-
-<b>KeIpiGenericCall</b> returns the value that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a> returns on the source processor (the processor that called <b>KeIpiGenericCall</b>). 
-
-
-
+<b>KeIpiGenericCall</b> returns the value that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a> returns on the source processor (the processor that called <b>KeIpiGenericCall</b>).
 
 ## -remarks
 
-
-
-When a driver calls <b>KeIpiGenericCall</b>, the system interrupts every processor and raises the IRQL to IPI_LEVEL (interprocessor interrupt level). Each processor spins on a barrier until all processors have reached the barrier; then, all processors begin calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a>. <b>KeIpiGenericCall</b> waits for all calls to <i>IpiGenericCall</i> to complete before returning. 
-
-
-
+When a driver calls <b>KeIpiGenericCall</b>, the system interrupts every processor and raises the IRQL to IPI_LEVEL (interprocessor interrupt level). Each processor spins on a barrier until all processors have reached the barrier; then, all processors begin calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a>. <b>KeIpiGenericCall</b> waits for all calls to <i>IpiGenericCall</i> to complete before returning.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a>
- 
-
- 
 

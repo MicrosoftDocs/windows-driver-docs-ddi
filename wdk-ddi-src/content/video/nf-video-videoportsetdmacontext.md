@@ -8,9 +8,6 @@ ms.assetid: 4f357612-c07d-42fe-a49f-59acec80a8bc
 ms.date: 05/10/2018
 keywords: ["VideoPortSetDmaContext function"]
 ms.keywords: VideoPortSetDmaContext, VideoPortSetDmaContext function [Display Devices], VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, display.videoportsetdmacontext, video/VideoPortSetDmaContext
-f1_keywords:
- - "video/VideoPortSetDmaContext"
- - "VideoPortSetDmaContext"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortSetDmaContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortSetDmaContext
+ - video/VideoPortSetDmaContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortSetDmaContext
 ---
 
 # VideoPortSetDmaContext function
@@ -46,44 +46,30 @@ req.typenames:
 
 ## -description
 
-
-The <b>VideoPortSetDmaContext</b> function is <b>obsolete</b> in Windows 2000 and later. 
-
+The <b>VideoPortSetDmaContext</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param pDma 
 
-### -param pDma [out]
+[out]
+Pointer to a DMA handle.
 
-Pointer to a DMA handle. 
+### -param InstanceContext 
 
-
-### -param InstanceContext [in]
-
+[in]
 Pointer to the DMA context to set.
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
-
-
 

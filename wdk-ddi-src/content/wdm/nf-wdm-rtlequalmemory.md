@@ -8,9 +8,6 @@ ms.assetid: 43695fa9-32e1-4bd5-b146-88d6d03fe9fb
 ms.date: 04/30/2018
 keywords: ["RtlEqualMemory macro"]
 ms.keywords: RtlEqualMemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml, kernel.rtlequalmemory, wdm/RtlEqualMemory
-f1_keywords:
- - "wdm/RtlEqualMemory"
- - "RtlEqualMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- RtlEqualMemory
-- memcmp
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlEqualMemory
+ - wdm/RtlEqualMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - RtlEqualMemory
+ - memcmp
 ---
 
 # RtlEqualMemory macro
@@ -47,11 +47,30 @@ req.typenames:
 
 ## -description
 
+The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whether the specified number of bytes are identical.
 
-The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whether the specified number of bytes are identical. 
+## -parameters
+
+### -param Destination 
+
+[in]
+A pointer to a caller-allocated block of memory to compare.
+
+### -param Source 
+
+[in]
+A pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points.
+
+### -param Length 
+
+[in]
+Specifies the number of bytes to be compared.
+
+## -returns
+
+**RtlEqualMemory** returns TRUE if Source1 and Source2 are equivalent; otherwise, it returns FALSE.
 
 ## -syntax
-
 
 ```
 BOOL WINAPI
@@ -62,47 +81,13 @@ RtlEqualMemory(
 );
 ```
 
-## -parameters
-
-
-
-
-### -param Destination [in]
-
-A pointer to a caller-allocated block of memory to compare.
-
-
-### -param Source [in]
-
-A pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points.
-
-
-### -param Length [in]
-
-Specifies the number of bytes to be compared.
-
-
-## -returns
-
-**RtlEqualMemory** returns TRUE if Source1 and Source2 are equivalent; otherwise, it returns FALSE. 
-
-
 ## -remarks
 
 **RtlEqualMemory** begins the comparison with byte zero of each block.
 
 Callers of **RtlEqualMemory** can be running at any IRQL if both blocks of memory are resident.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcomparememory">RtlCompareMemory</a>
- 
-
- 
 

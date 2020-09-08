@@ -8,9 +8,6 @@ ms.assetid: B0C1E602-83CE-4F4E-9198-B1B1CDAFF4BF
 ms.date: 05/03/2018
 keywords: ["IDebugControl5::OutputContextStackTraceEx"]
 ms.keywords: IDebugControl5 interface [Windows Debugging],OutputContextStackTraceEx method, IDebugControl5.OutputContextStackTraceEx, IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging], OutputContextStackTraceEx method [Windows Debugging],IDebugControl5 interface, dbgeng/IDebugControl5::OutputContextStackTraceEx, debugger.idebugcontrol5_outputcontextstacktraceex
-f1_keywords:
- - "dbgeng/IDebugControl5.OutputContextStackTraceEx"
- - "IDebugControl5.OutputContextStackTraceEx"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl5.OutputContextStackTraceEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl5::OutputContextStackTraceEx
+ - dbgeng/IDebugControl5::OutputContextStackTraceEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl5.OutputContextStackTraceEx
 ---
 
 # IDebugControl5::OutputContextStackTraceEx
@@ -46,47 +46,43 @@ req.typenames:
 
 ## -description
 
-
 The OutputContextStackTraceEx method prints the call stack specified by an array of stack frames and corresponding register contexts. The OutputContextStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-optimized-code-and-inline-functions-external">Debugging Optimized Code and Inline Functions</a>.
-
 
 ## -parameters
 
+### -param OutputControl 
 
-
-
-### -param OutputControl [in]
-
+[in]
 Specifies where to send the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
+### -param Frames 
 
-### -param Frames [in]
-
+[in]
 Specifies the array of stack frames to output.  The number of elements in this array is <i>FramesSize</i>.  If <i>Frames</i> is <b>NULL</b>, the current stack frame is used.
 
+### -param FramesSize 
 
-### -param FramesSize [in]
-
+[in]
 Specifies the number of frames to output.
 
+### -param FrameContexts 
 
-### -param FrameContexts [in]
-
+[in]
 Specifies the register context for each frame in the stack.  The entries in this array correspond to the entries in the <i>Frames</i> array.  The type of the thread context is the CONTEXT structure for the target's effective processor.
 
+### -param FrameContextsSize 
 
-### -param FrameContextsSize [in]
-
+[in]
 Specifies the size, in bytes, of the memory pointed to by <i>FrameContexts</i>.  The number of stack frames must equal the number of contexts, and <i>FrameContextsSize</i> must equal <i>FramesSize</i> multiplied by <i>FrameContextsEntrySize</i>.
 
+### -param FrameContextsEntrySize 
 
-### -param FrameContextsEntrySize [in]
-
+[in]
 Specifies the size, in bytes, of each frame context in <i>FrameContexts</i>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies bit flags that determine what information to output for each frame.  <i>Flags</i> can be any combination of values from the following table.
 
 <table>
@@ -205,12 +201,8 @@ Displays each parameter and its type and value on a new line.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -231,18 +223,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>
- 
-
- 
 

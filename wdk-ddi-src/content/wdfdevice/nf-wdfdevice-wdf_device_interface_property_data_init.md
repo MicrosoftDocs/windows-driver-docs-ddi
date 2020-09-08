@@ -8,9 +8,6 @@ ms.assetid: 8B3D6F59-BA76-4B14-9570-57263D204BFE
 ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function"]
 ms.keywords: WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT, WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function, wdf.wdf_device_interface_property_data_init, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
-f1_keywords:
- - "wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT"
- - "WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-api_name:
-- WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
+ - wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+api_name:
+ - WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
 ---
 
 # WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
 
-
 ## -parameters
 
+### -param PropertyData 
 
-
-
-### -param PropertyData [in]
-
+[in]
 A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
 
+### -param InterfaceClassGUID 
 
-### -param InterfaceClassGUID [in]
-
+[in]
 A pointer to a GUID that identifies the device interface class.
 
+### -param PropertyKey 
 
-### -param PropertyKey [in]
-
+[in]
 A pointer to a <b>DEVPROPKEY</b> structure that specifies the device property key.
 
-
 ## -remarks
-
-
 
 Before calling the following methods, a driver must call <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</b> to initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
 
@@ -93,13 +86,7 @@ The <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</b> function zeros the specified 
 
 For a code example that uses <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigninterfaceproperty">WdfDeviceAssignInterfaceProperty</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
 
@@ -114,7 +101,4 @@ For a code example that uses <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</b>, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>
- 
-
- 
 

@@ -6,41 +6,39 @@ ms.assetid: 80e70dfa-7f4b-4617-83cb-6c3c7d5396fe
 ms.date: 08/08/2018
 keywords: ["IsKeyPresentInCollectionList function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/IsKeyPresentInCollectionList"
- - "IsKeyPresentInCollectionList"
 ms.keywords: IsKeyPresentInCollectionList
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- IsKeyPresentInCollectionList
+targetos: Windows
+ms.custom: RS5
+f1_keywords:
+ - IsKeyPresentInCollectionList
+ - sensorsutils/IsKeyPresentInCollectionList
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - IsKeyPresentInCollectionList
 product:
  - Windows
-targetos: Windows
-
-
-ms.custom: RS5
 ---
 
 # IsKeyPresentInCollectionList function
@@ -67,3 +65,4 @@ This function returns TRUE if the key is present.
 ## -remarks
 
 ## -see-also
+

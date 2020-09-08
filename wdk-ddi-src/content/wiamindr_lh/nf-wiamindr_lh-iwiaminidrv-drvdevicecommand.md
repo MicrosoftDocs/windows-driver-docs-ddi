@@ -8,13 +8,10 @@ ms.assetid: e17c81a6-8c4e-41f0-bd98-f7a9a0f20893
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvDeviceCommand"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvDeviceCommand method, IWiaMiniDrv.drvDeviceCommand, IWiaMiniDrv::drvDeviceCommand, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, drvDeviceCommand, drvDeviceCommand method [Imaging Devices], drvDeviceCommand method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvdevicecommand, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvDeviceCommand"
- - "IWiaMiniDrv.drvDeviceCommand"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvDeviceCommand
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvDeviceCommand
+ - wiamindr_lh/IWiaMiniDrv::drvDeviceCommand
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvDeviceCommand
 ---
 
 # IWiaMiniDrv::drvDeviceCommand
+
 
 ## -description
 
@@ -122,3 +123,4 @@ The WIA service does not write any properties before calling this method. If the
 [IWiaMiniDrv::drvGetCapabilities](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities)
 
 [IWiaMiniDrv::drvWriteItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvwriteitemproperties)
+

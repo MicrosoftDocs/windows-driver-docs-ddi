@@ -8,9 +8,6 @@ ms.assetid: 191874ec-5d08-430e-ad14-520392e1a904
 ms.date: 04/23/2018
 keywords: ["KsGateRemoveOffInputFromOr function"]
 ms.keywords: KsGateRemoveOffInputFromOr, KsGateRemoveOffInputFromOr function [Streaming Media Devices], avfunc_6431bb18-7f16-4a0f-b012-c0137d85fba8.xml, ks/KsGateRemoveOffInputFromOr, stream.ksgateremoveoffinputfromor
-f1_keywords:
- - "ks/KsGateRemoveOffInputFromOr"
- - "KsGateRemoveOffInputFromOr"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KsGateRemoveOffInputFromOr
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsGateRemoveOffInputFromOr
+ - ks/KsGateRemoveOffInputFromOr
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KsGateRemoveOffInputFromOr
 ---
 
 # KsGateRemoveOffInputFromOr function
@@ -46,37 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsGateRemoveOffInputFromOr</b> function removes an existing input that is in the OFF state from an OR gate.
-
 
 ## -parameters
 
+### -param OrGate 
 
-
-
-### -param OrGate [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the OR gate from which to remove an OFF input.
 
-
 ## -remarks
-
-
 
 <b>KsGateRemoveOffInputFromOr</b> should only be used on gates that were specifically created as AND gates; AVStream does not verify that the given gate is truly an AND gate.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/flow-control-gates-in-avstream">Flow Control Gates in AVStream</a>.
 
-This call is an empty function. It should be used for code readability and clarity. 
-
-
-
+This call is an empty function. It should be used for code readability and clarity.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgateaddoffinputtoor">KsGateAddOffInputToOr</a>
 
@@ -95,7 +82,4 @@ This call is an empty function. It should be used for code readability and clari
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgateturninputon">KsGateTurnInputOn</a>
- 
-
- 
 

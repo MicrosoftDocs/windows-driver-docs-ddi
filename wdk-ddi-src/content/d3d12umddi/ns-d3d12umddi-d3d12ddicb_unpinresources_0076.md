@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDICB_UNPIN_RESOURCES_0076
 f1_keywords:
- - d3d12umddi//D3D12DDICB_UNPIN_RESOURCES_0076
  - D3D12DDICB_UNPIN_RESOURCES_0076
+ - d3d12umddi/D3D12DDICB_UNPIN_RESOURCES_0076
 dev_langs:
  - c++
 ---
@@ -56,3 +56,4 @@ The list of D3D12DDI_HRTRESOURCE resources to unpin.
 ## -see-also
 
 [**PFND3D12DDI_UNPINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_unpinresources_cb_0076.md)
+

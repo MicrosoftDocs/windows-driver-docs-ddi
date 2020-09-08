@@ -8,9 +8,6 @@ ms.assetid: a28a8ee0-24df-45b5-8850-f3b3984b3b64
 ms.date: 04/20/2018
 keywords: ["IPrintPipelineFilter::InitializeFilter"]
 ms.keywords: IPrintPipelineFilter interface [Print Devices],InitializeFilter method, IPrintPipelineFilter.InitializeFilter, IPrintPipelineFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Print Devices], InitializeFilter method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, print.iprintpipelinefilter_initializefilter
-f1_keywords:
- - "filterpipeline/IPrintPipelineFilter.InitializeFilter"
- - "IPrintPipelineFilter.InitializeFilter"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filterpipeline.h
-api_name:
-- IPrintPipelineFilter.InitializeFilter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintPipelineFilter::InitializeFilter
+ - filterpipeline/IPrintPipelineFilter::InitializeFilter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filterpipeline.h
+api_name:
+ - IPrintPipelineFilter.InitializeFilter
 ---
 
 # IPrintPipelineFilter::InitializeFilter
@@ -46,27 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <code>InitializeFilter</code> method initializes a filter.
-
 
 ## -parameters
 
-
-
-
 ### -param pINegotiation
 
+### -param pIPropertyBag 
 
-
-
-### -param pIPropertyBag [in]
-
+[in]
 A pointer to the<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a> interface.
 
+### -param pIPipelineControl 
 
-### -param pIPipelineControl [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a> interface.
 
 
@@ -74,19 +67,11 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a> interface.
 
-
 ## -returns
-
-
 
 <code>InitializeFilter</code> returns an <b>HRESULT</b> value. The method should return a value other than "S_OK" or "S_FALSE" if the necessary operations are not performed inside <code>InitializeFilter</code>.
 
-
-
-
 ## -remarks
-
-
 
 When the <code>InitializeFilter</code> method is called, the filters should:
 
@@ -101,12 +86,7 @@ Get the read and write interfaces.
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a>
 
@@ -121,7 +101,4 @@ Get the read and write interfaces.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: aa2c549c-eb16-4d59-9280-1913c8c0266a
 ms.date: 05/02/2018
 keywords: ["NdisMUpdateOffloadComplete function"]
 ms.keywords: NdisMUpdateOffloadComplete, NdisMUpdateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMUpdateOffloadComplete, netvista.ndismupdateoffloadcomplete, tcp_chim_ndis_func_c525f7d7-2a4d-47ef-8337-85551fb1f7ab.xml
-f1_keywords:
- - "ndischimney/NdisMUpdateOffloadComplete"
- - "NdisMUpdateOffloadComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- NdisMUpdateOffloadComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMUpdateOffloadComplete
+ - ndischimney/NdisMUpdateOffloadComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - NdisMUpdateOffloadComplete
 ---
 
 # NdisMUpdateOffloadComplete function
 
 
 ## -description
-
 
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
@@ -55,21 +54,18 @@ An offload target calls the
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">MiniportUpdateOffload</a> function of
   the offload target.
 
-
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The handle that the offload target obtained in a previous call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a>.
 
+### -param OffloadBlockList 
 
-### -param OffloadBlockList [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. The offload target obtained this pointer as an input
@@ -77,10 +73,7 @@ A pointer to an
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">
      MiniportUpdateOffload</a> function.
 
-
 ## -remarks
-
-
 
 Before calling the 
     <b>NdisMUpdateOffloadComplete</b> function, the offload target must write either of the following
@@ -104,12 +97,7 @@ The update operation did not succeed. The offload target should continue normal 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">MiniportUpdateOffload</a>
 
@@ -121,7 +109,4 @@ The update operation did not succeed. The offload target should continue normal 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
- 
-
- 
 

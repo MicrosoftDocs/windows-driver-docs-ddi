@@ -8,9 +8,6 @@ ms.assetid: effda249-3ba0-40e9-914b-4dd33126518c
 ms.date: 04/30/2018
 keywords: ["KeRevertToUserAffinityThreadEx function"]
 ms.keywords: KeRevertToUserAffinityThreadEx, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, kernel.kereverttouseraffinitythreadex, wdm/KeRevertToUserAffinityThreadEx
-f1_keywords:
- - "wdm/KeRevertToUserAffinityThreadEx"
- - "KeRevertToUserAffinityThreadEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section).
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeRevertToUserAffinityThreadEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeRevertToUserAffinityThreadEx
+ - wdm/KeRevertToUserAffinityThreadEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeRevertToUserAffinityThreadEx
 ---
 
 # KeRevertToUserAffinityThreadEx function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeRevertToUserAffinityThreadEx</b> routine restores the previous affinity of the current thread.
-
 
 ## -parameters
 
+### -param Affinity 
 
-
-
-### -param Affinity [in]
-
+[in]
 A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed variable that specifies the new system affinity of the current thread. Set this parameter to the value that was returned by a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemaffinitythreadex">KeSetSystemAffinityThreadEx</a> routine.
 
-
 ## -remarks
-
-
 
 <b>KeRevertToUserAffinityThreadEx</b> changes the affinity of the current thread. The affinity value is a mask that identifies a set of processors on which the thread can run. If successful, the routine schedules the thread to run on a processor in this set.
 
@@ -86,13 +79,7 @@ Windows 7 and later versions of Windows support processor groups. Drivers that a
 
 If <b>KeRevertToUserAffinityThreadEx</b> is called at IRQL <= APC_LEVEL and the call is successful, the new (reverted) affinity mask takes effect immediately. When the call returns, the calling thread is already running on a processor that is specified in the new affinity mask. If <b>KeRevertToUserAffinityThreadEx</b> is called at IRQL = DISPATCH_LEVEL and the call is successful, the pending processor change is deferred until the caller lowers the IRQL below DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
 
@@ -103,7 +90,4 @@ If <b>KeRevertToUserAffinityThreadEx</b> is called at IRQL <= APC_LEVEL and the 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetsystemaffinitythreadex">KeSetSystemAffinityThreadEx</a>
- 
-
- 
 

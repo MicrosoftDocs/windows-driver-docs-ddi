@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/QueryAuthenticatedChannel"
- - "QueryAuthenticatedChannel"
+ - PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
+ - d3dumddi/PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_QUERYAUTHENTICATEDCHANNEL callback function
+
 
 ## -description
 

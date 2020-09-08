@@ -8,9 +8,6 @@ ms.assetid: 071b5f2a-7129-4de5-9577-f2aa22f23765
 ms.date: 04/30/2018
 keywords: ["IoSetDeviceInterfaceState function"]
 ms.keywords: IoSetDeviceInterfaceState, IoSetDeviceInterfaceState routine [Kernel-Mode Driver Architecture], k104_da5493d0-6dd5-4404-a647-6c23825df29c.xml, kernel.iosetdeviceinterfacestate, wdm/IoSetDeviceInterfaceState
-f1_keywords:
- - "wdm/IoSetDeviceInterfaceState"
- - "IoSetDeviceInterfaceState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoSetDeviceInterfaceState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoSetDeviceInterfaceState
+ - wdm/IoSetDeviceInterfaceState
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoSetDeviceInterfaceState
 ---
 
 # IoSetDeviceInterfaceState function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoSetDeviceInterfaceState</b> routine enables or disables an instance of a previously registered device interface class. 
-
+The <b>IoSetDeviceInterfaceState</b> routine enables or disables an instance of a previously registered device interface class.
 
 ## -parameters
 
+### -param SymbolicLinkName 
 
+[in]
+Pointer to a string that identifies the device interface instance that is being enabled or disabled. This string was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>.
 
+### -param Enable 
 
-### -param SymbolicLinkName [in]
-
-Pointer to a string that identifies the device interface instance that is being enabled or disabled. This string was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>. 
-
-
-### -param Enable [in]
-
-<b>TRUE</b> indicates that the device interface is being enabled. <b>FALSE</b> indicates that the device interface is being disabled. 
-
+[in]
+<b>TRUE</b> indicates that the device interface is being enabled. <b>FALSE</b> indicates that the device interface is being disabled.
 
 ## -returns
-
-
 
 <b>IoSetDeviceInterfaceState</b> returns STATUS_SUCCESS if the call was successful. This routine returns an informational status of STATUS_OBJECT_NAME_EXISTS if the caller requested to enable a device interface that was already enabled. Possible error return values are described following.
 
@@ -88,14 +81,8 @@ The caller tried to disable a device interface that was not enabled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IoSetDeviceInterfaceState</b> enables an instance of a registered device interface for use by applications and other system components. The interface class must have been previously registered with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> or from user mode. 
 
@@ -113,13 +100,7 @@ The PnP manager does not send notification of interface instance arrivals until 
 
 Callers of <b>IoSetDeviceInterfaceState</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a>
 
@@ -142,7 +123,4 @@ Callers of <b>IoSetDeviceInterfaceState</b> must be running at IRQL = PASSIVE_LE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
- 
-
- 
 

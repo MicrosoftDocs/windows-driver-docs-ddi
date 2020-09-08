@@ -22,8 +22,8 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_0040
 targetos: Windows
 tech.root: display
 f1_keywords:
- - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0040"
- - "D3D12DDI_DEVICE_FUNCS_CORE_0040"
+ - D3D12DDI_DEVICE_FUNCS_CORE_0040
+ - d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0040
 topic_type:
  - apiref
 api_type:
@@ -37,6 +37,7 @@ product:
 ---
 
 # D3D12DDI_DEVICE_FUNCS_CORE_0040 structure
+
 
 ## -description
 

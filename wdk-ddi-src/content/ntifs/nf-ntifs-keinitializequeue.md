@@ -8,9 +8,6 @@ ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.date: 04/16/2018
 keywords: ["KeInitializeQueue function"]
 ms.keywords: KeInitializeQueue, KeInitializeQueue routine [Installable File System Drivers], ifsk.keinitializequeue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, ntifs/KeInitializeQueue
-f1_keywords:
- - "ntifs/KeInitializeQueue"
- - "KeInitializeQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeInitializeQueue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeInitializeQueue
+ - ntifs/KeInitializeQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeInitializeQueue
 ---
 
 # KeInitializeQueue function
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
-The <b>KeInitializeQueue</b> routine initializes a queue object on which threads can wait for entries. 
-
+The <b>KeInitializeQueue</b> routine initializes a queue object on which threads can wait for entries.
 
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [out]
-
+[out]
 Pointer to a KQUEUE structure for which the caller must provide resident storage in nonpaged pool. This structure is defined as follows:
 
 <div class="code"><span codelanguage=""><table>
@@ -131,31 +127,21 @@ Pointer to the first entry in the thread list.
 </td>
 </tr>
 </table>
- 
 
+### -param Count 
 
-### -param Count [in]
-
+[in]
 The maximum number of threads for which the waits on the queue object can be satisfied concurrently. If this parameter is not supplied, the number of processors in the machine is used.
 
-
 ## -remarks
-
-
 
 Usually the caller of <b>KeInitializeQueue</b> also creates a set of dedicated threads to queue and dequeue its entries. Such a caller can specify an explicit <i>Count</i> to prevent too many of its dedicated threads from waiting concurrently on its queue object. 
 
 <b>KeInitializeQueue</b> sets the queue object's initial signal state to Not Signaled.
 
-For more information about using driver-managed internal queues, see [Driver-Managed IRP Queues](https://docs.microsoft.com/windows-hardware/drivers/kernel/driver-managed-irp-queues). 
-
-
-
+For more information about using driver-managed internal queues, see [Driver-Managed IRP Queues](https://docs.microsoft.com/windows-hardware/drivers/kernel/driver-managed-irp-queues).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
@@ -182,7 +168,4 @@ For more information about using driver-managed internal queues, see [Driver-Man
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
- 
-
- 
 

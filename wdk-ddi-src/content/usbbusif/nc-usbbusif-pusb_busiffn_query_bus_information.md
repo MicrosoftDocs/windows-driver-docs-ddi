@@ -8,9 +8,6 @@ ms.assetid: cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c
 ms.date: 05/07/2018
 keywords: ["PUSB_BUSIFFN_QUERY_BUS_INFORMATION callback function"]
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_INFORMATION, QueryBusInformation, QueryBusInformation callback function [Buses], USB_BUSIFFN_QUERY_BUS_INFORMATION, USB_BUSIFFN_QUERY_BUS_INFORMATION callback, buses.querybusinformation, usbbusif/QueryBusInformation, usbinterKR_91d1f7ee-5cd2-4f87-bc4c-16972039f5e3.xml
-f1_keywords:
- - "usbbusif/QueryBusInformation"
- - "QueryBusInformation"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: < = DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbbusif.h
-api_name:
-- QueryBusInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PUSB_BUSIFFN_QUERY_BUS_INFORMATION
+ - usbbusif/PUSB_BUSIFFN_QUERY_BUS_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbbusif.h
+api_name:
+ - QueryBusInformation
 ---
 
 # PUSB_BUSIFFN_QUERY_BUS_INFORMATION callback function
@@ -46,22 +46,9 @@ req.typenames:
 
 ## -description
 
-
-The <b>QueryBusInformation</b> routine gets information about the bus. 
-
+The <b>QueryBusInformation</b> routine gets information about the bus.
 
 ## -parameters
-
-
-
-
-
-
-
-
-
-
-
 
 #### - BusContext [in]
 
@@ -85,12 +72,9 @@ On input, the length of the buffer specified by <i>BusInformationBuffer</i>. On 
 
 #### - Level [in]
 
-Specifies the level of information to be returned. If <i>Level</i> is 0, the function returns the total bandwidth and the total consumed bandwidth in bits per second. If <i>Level</i> is 1, the function returns the symbolic name of the controller in Unicode, in addition to the total bandwidth and the total consumed bandwidth. 
-
+Specifies the level of information to be returned. If <i>Level</i> is 0, the function returns the total bandwidth and the total consumed bandwidth in bits per second. If <i>Level</i> is 1, the function returns the symbolic name of the controller in Unicode, in addition to the total bandwidth and the total consumed bandwidth.
 
 ## -returns
-
-
 
 <b>QueryBusInformation</b> returns one of the following values:
 
@@ -126,14 +110,8 @@ Whenever Level = 1, this error code is returned if the size of the buffer pointe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The exact information returned by this routine depends on the value of the <i>Level</i> parameter. This routine replaces the <b>USBD_QueryBusInformation</b> library function provided by usbd.sys. 
 
@@ -148,12 +126,7 @@ The function definition that is provided on this reference page is an example ro
     OUT PULONG
   );</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_0">USB_BUS_INFORMATION_LEVEL_0</a>
 
@@ -164,7 +137,4 @@ The function definition that is provided on this reference page is an example ro
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
 ms.date: 02/26/2018
 keywords: ["WdfPdoUpdateAddressDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription
-f1_keywords:
- - "wdfpdo/WdfPdoUpdateAddressDescription"
- - "WdfPdoUpdateAddressDescription"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfPdoUpdateAddressDescription
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfPdoUpdateAddressDescription
+ - wdfpdo/WdfPdoUpdateAddressDescription
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfPdoUpdateAddressDescription
 ---
 
 # WdfPdoUpdateAddressDescription function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfPdoUpdateAddressDescription</b> method updates the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> that is associated with a specified framework device object.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object that represents a device's physical device object (PDO).
 
+### -param AddressDescription 
 
-### -param AddressDescription [in, out]
-
+[in, out]
 A pointer to a caller-allocated buffer that contains an address description. The address description must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns STATUS_SUCCESS. Additional return values include:
 
@@ -109,16 +102,7 @@ The method might also return other<a href="https://docs.microsoft.com/windows-ha
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoretrieveaddressdescription">WdfPdoRetrieveAddressDescription</a>
- 
-
- 
 

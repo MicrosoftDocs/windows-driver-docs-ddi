@@ -8,9 +8,6 @@ ms.assetid: 588ebf7a-db83-4eb8-8403-04b215bed12b
 ms.date: 05/10/2018
 keywords: ["D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure"]
 ms.keywords: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure [Display Devices], UMDisplayDriver_param_Structs_8fece49c-e3e6-4683-b4af-517da6f73cc7.xml, _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, display.d3dddiarg_getcaptureallocationhandle
-f1_keywords:
- - "d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE"
- - "D3DDDIARG_GETCAPTUREALLOCATIONHANDLE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 targetos: Windows
 req.typenames: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
+f1_keywords:
+ - _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
+ - d3dumddi/_D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
+ - D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
+ - d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 ---
 
 # _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure
@@ -46,32 +48,19 @@ req.typenames: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 
 ## -description
 
-
-The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for retrieving an allocation handle from a capture resource handle. 
-
+The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for retrieving an allocation handle from a capture resource handle.
 
 ## -struct-fields
-
-
-
 
 ### -field hResource
 
 [in] A handle to the capture resource that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
 
-
 ### -field hAllocation
 
 [out] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the allocation that is associated with the resource that <b>hResource</b> specifies.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle">GetCaptureAllocationHandle</a>
- 
-
- 
 

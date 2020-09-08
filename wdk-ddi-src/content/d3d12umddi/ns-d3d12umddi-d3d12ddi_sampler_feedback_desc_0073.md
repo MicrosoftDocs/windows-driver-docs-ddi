@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDI_SAMPLER_FEEDBACK_DESC_0073
 f1_keywords:
- - d3d12umddi//D3D12DDI_SAMPLER_FEEDBACK_DESC_0073
  - D3D12DDI_SAMPLER_FEEDBACK_DESC_0073
+ - d3d12umddi/D3D12DDI_SAMPLER_FEEDBACK_DESC_0073
 dev_langs:
  - c++
 ---
@@ -52,3 +52,4 @@ Deprecated - do not use.
 See the [D3D Sampler Feedback Specification](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html) for sampler feedback details.
 
 ## -see-also
+

@@ -5,39 +5,42 @@ description: Contains information about the device page fault state.
 ms.assetid: e2b07b4c-6826-4fde-8a6e-ad5647f5c4b8
 ms.date: 10/19/2018
 keywords: ["D3DKMT_DEVICEPAGEFAULT_STATE structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_DEVICEPAGEFAULT_STATE"
- - "_D3DKMT_DEVICEPAGEFAULT_STATE"
-ms.keywords: _D3DKMT_DEVICEPAGEFAULT_STATE, D3DKMT_DEVICEPAGEFAULT_STATE, 
+ms.keywords: _D3DKMT_DEVICEPAGEFAULT_STATE, D3DKMT_DEVICEPAGEFAULT_STATE,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_DEVICEPAGEFAULT_STATE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_DEVICEPAGEFAULT_STATE
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_DEVICEPAGEFAULT_STATE
+ - d3dkmthk/_D3DKMT_DEVICEPAGEFAULT_STATE
+ - D3DKMT_DEVICEPAGEFAULT_STATE
+ - d3dkmthk/D3DKMT_DEVICEPAGEFAULT_STATE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_DEVICEPAGEFAULT_STATE
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_DEVICEPAGEFAULT_STATE structure
+
 
 ## -description
 
@@ -66,9 +69,11 @@ Flags that specifies the nature of the fault.
 A structure that contains the error code describing the fault.
 
 ### -field FaultedVirtualAddress
+
  
 The virtual address of faulting resource, or D3DGPU_NULL if such information is not available.
 
 ## -remarks
 
 ## -see-also
+

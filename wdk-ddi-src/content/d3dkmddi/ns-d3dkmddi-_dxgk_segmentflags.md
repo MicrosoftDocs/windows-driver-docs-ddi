@@ -7,9 +7,6 @@ ms.assetid: 959dfdb2-cadf-427d-958a-33ce2a1610ae
 ms.date: 05/10/2018
 keywords: ["DXGK_SEGMENTFLAGS structure"]
 ms.keywords: DXGK_SEGMENTFLAGS, DXGK_SEGMENTFLAGS structure [Display Devices], DmStructs_a7239928-eb4e-42d0-8ced-9e37d28e9464.xml, _DXGK_SEGMENTFLAGS, d3dkmddi/DXGK_SEGMENTFLAGS, display.dxgk_segmentflags
-f1_keywords:
- - "d3dkmddi/DXGK_SEGMENTFLAGS"
- - "DXGK_SEGMENTFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_SEGMENTFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SEGMENTFLAGS
+f1_keywords:
+ - _DXGK_SEGMENTFLAGS
+ - d3dkmddi/_DXGK_SEGMENTFLAGS
+ - DXGK_SEGMENTFLAGS
+ - d3dkmddi/DXGK_SEGMENTFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_SEGMENTFLAGS
 ---
 
 # _DXGK_SEGMENTFLAGS structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_SEGMENTFLAGS
 
 ## -description
 
-
 The DXGK_SEGMENTFLAGS structure identifies properties for a segment that the driver provides through a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Aperture
 
@@ -63,13 +60,11 @@ If the driver specifies this member, it must also implement the map-aperture-seg
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
-
 ### -field Agp
 
 [out] A UINT value that specifies whether the segment is an <a href="https://docs.microsoft.com/windows-hardware/drivers/display/agp-support">AGP</a>-type aperture segment, which uses a portion of the AGP aperture that the chipset exposes. The video memory manager allocates the page for the underlying aperture and communicates with the graphic address remapping table (GART) driver to map and unmap memory for the aperture. Because only one AGP segment can exist, the driver should not specify the <b>Agp</b> bit-field flag with any other DXGK_SEGMENTFLAGS bit-field flags. 
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
-
 
 ### -field CpuVisible
 
@@ -81,13 +76,11 @@ See Remarks for more info.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
-
 ### -field UseBanking
 
 [out] A UINT value that specifies whether the segment is divided into banks that the driver uses to provide hints to the video memory manager about the placement of allocations within the segment. The driver should also specify valid bank information in the <b>NbOfBanks</b> and <b>pBankRangeTable</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_segmentdescriptor">DXGK_SEGMENTDESCRIPTOR</a> structure that describes the segment.
 
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
-
 
 ### -field CacheCoherent
 
@@ -95,20 +88,17 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
-
 ### -field PitchAlignment
 
 [out] A UINT value that specifies whether an allocation that is mapped into the segment must be pitch aligned. For this type of segment, the video memory manager uses the <b>Size</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfo">DXGK_ALLOCATIONINFO</a> structure for the allocation to allocate a backing store for the allocation. However, the video memory manager uses the <b>PitchAlignedSize</b> member of DXGK_ALLOCATIONINFO to allocate resources for the segment. An allocation that is targeted for this type of segment typically has a different size for the backing store and for the segment. When the backing-store size does not match the segment size, the driver must determine how to correctly move the data in the allocation. This type of segment cannot be used for eviction. 
 
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
 
-
 ### -field PopulatedFromSystemMemory
 
 [out] A UINT value that specifies whether the memory segment is actually populated from system memory that the driver allocated during initialization. If the memory segment is populated from system memory that the BIOS reserved and is not accessible to the operating system (that is, the operating system does not count this system memory when the operating system reports total amount of system memory), the driver should not set this flag. This flag is invalid and ignored on aperture segments.
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
-
 
 ### -field PreservedDuringStandby
 
@@ -119,7 +109,6 @@ For more information on power transition options, see Remarks.
 Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Value</b> member (0x00000080).
 
 Supported starting with Windows 8.
-
 
 ### -field PreservedDuringHibernate
 
@@ -133,7 +122,6 @@ Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Valu
 
 Supported starting with Windows 8.
 
-
 ### -field PartiallyPreservedDuringHibernate
 
 [out] A UINT value that specifies whether the segment is  partially preserved in a transition to a hibernate system power state. 
@@ -146,7 +134,6 @@ Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Valu
 
 Supported starting with Windows 8.
 
-
 ### -field DirectFlip
 
 [out] A UINT value that specifies whether a segment supports Direct Flip allocations. In this case, the driver must ensure that Direct Flip allocations can be pinned and scanned out from this segment.
@@ -155,13 +142,11 @@ Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>V
 
 Supported starting with Windows 8.
 
-
 ### -field Use64KBPages
 
 [out] When set, the GPU memory segment supports 64 KB pages. Otherwise, 4 KB pages are supported. When the driver sets the cap and an allocation can be paged-in to the segment, the allocation alignment, returned by the kernel mode driver from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_allocationinfo">DXGK_ALLOCATIONINFO</a>, must be multiple a of 64 KB.
 
 Supported starting with Windows 10.
-
 
 ### -field ReservedSysMem
 
@@ -169,13 +154,11 @@ Supported starting with Windows 10.
 
 Supported starting with Windows 10.
 
-
 ### -field SupportsCpuHostAperture
 
 [out] When set, the segment can be mapped through the CPU host aperture. This flag cannot be used in combination with the <b>CpuVisible</b> flag.
 
 Supported starting with Windows 10.
-
 
 ### -field SupportsCachedCpuHostAperture
 
@@ -183,38 +166,21 @@ Supported starting with Windows 10.
 
 Supported starting with Windows 10.
 
-
 ### -field ApplicationTarget
 
 [out] When set, it indicates that this segment should be targeted by application budgets.
 
 Supported starting with Windows 10.
 
-
 ### -field VprSupported
-
- 
-
 
 ### -field VprPreservedDuringStandby
 
- 
-
-
 ### -field EncryptedPagingSupported
-
- 
-
 
 ### -field LocalBudgetGroup
 
- 
-
-
 ### -field NonLocalBudgetGroup
-
- 
-
 
 ### -field Reserved
 
@@ -224,15 +190,11 @@ Supported starting with Windows 10.
 
 [out] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 22 bits (0xFFFFFC00) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 [out] A member in the union that DXGK_SEGMENTFLAGS contains that can hold a 32-bit value that identifies properties of the segment.
 
-
 ## -remarks
-
-
 
 The driver can specify properties of the segment by setting bits in the 32-bit <b>Value</b> member or by setting individual members of the structure in the union that DXGK_SEGMENTFLAGS contains.
 
@@ -264,15 +226,7 @@ If the <a href="https://docs.microsoft.com/windows-hardware/customize/power-sett
 
 The following are common combinations of member values.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>
 
@@ -299,7 +253,4 @@ The following are common combinations of member values.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
- 
-
- 
 

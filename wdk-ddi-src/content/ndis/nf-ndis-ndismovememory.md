@@ -8,9 +8,6 @@ ms.assetid: 1be08720-be44-4e1b-b0ec-b4eb0a2718a0
 ms.date: 05/02/2018
 keywords: ["NdisMoveMemory macro"]
 ms.keywords: NdisMoveMemory, NdisMoveMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, netvista.ndismovememory
-f1_keywords:
- - "ndis/NdisMoveMemory"
- - "NdisMoveMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMoveMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMoveMemory
+ - ndis/NdisMoveMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMoveMemory
 ---
 
 # NdisMoveMemory macro
@@ -46,39 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMoveMemory</b> function copies a specified number of bytes from one caller-supplied location to
   another.
 
-
 ## -parameters
 
+### -param Destination 
 
-
-
-### -param Destination [out]
-
+[out]
 A pointer to a system-space buffer that is the destination of the move. This buffer must be at
      least 
      <i>Length</i> bytes in size.
 
+### -param Source 
 
-### -param Source [in]
-
+[in]
 A pointer to a system-space buffer from which this function copies the data to the destination
      buffer. This buffer must be at least 
      <i>Length</i> bytes in size.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The number of bytes to copy.
 
-
 ## -remarks
-
-
 
 Both 
     <i>Source</i> and 
@@ -101,13 +94,7 @@ Callers of
     <i>Destination</i> are resident. Otherwise, callers must be running at IRQL < DISPATCH_LEVEL, as, for
     example if either address is on the stack.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatememorywithtagpriority">
    NdisAllocateMemoryWithTagPriority</a>
@@ -115,7 +102,4 @@ Callers of
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>
- 
-
- 
 

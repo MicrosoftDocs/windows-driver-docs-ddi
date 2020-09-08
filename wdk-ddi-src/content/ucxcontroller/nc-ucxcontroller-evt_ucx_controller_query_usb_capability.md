@@ -8,9 +8,6 @@ ms.assetid: c01150b6-e6cf-484c-be3e-c63984e97bb3
 ms.date: 05/07/2018
 keywords: ["EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback, EvtUcxControllerQueryUsbCapability, EvtUcxControllerQueryUsbCapability callback function [Buses], PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function pointer [Buses], buses.evt_ucx_controller_query_usb_capability, ucxcontroller/EvtUcxControllerQueryUsbCapability
-f1_keywords:
- - "ucxcontroller/PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY"
- - "PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ucxcontroller.h
-api_name:
-- PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
+ - ucxcontroller/EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ucxcontroller.h
+api_name:
+ - PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
 ---
 
 # EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The client driver's implementation to determine if the controller supports a specific capability.
-
 
 ## -parameters
 
+### -param UcxController 
 
-
-
-### -param UcxController [in]
-
+[in]
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
+### -param CapabilityType 
 
-### -param CapabilityType [in]
-
+[in]
 Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i>  values are  as follows:
 
 <ul>
@@ -80,26 +76,23 @@ Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i
 </ul>
    See the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a> for more information.
 
+### -param OutputBufferLength 
 
-### -param OutputBufferLength [in]
-
+[in]
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
+### -param OutputBuffer 
 
-### -param OutputBuffer [out, optional]
-
+[out, optional]
 A pointer to a location that receives the buffer's address. Certain capabilities may need to provide additional information
         to UCX in this buffer.
 
+### -param ResultLength 
 
-### -param ResultLength [out]
-
+[out]
 A location that, on return, contains the size, in bytes, of the information that the callback function stored in <i>OutputBuffer.</i>
 
-
 ## -returns
-
-
 
 If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise it must return a status value for which NT_SUCCESS(status) equals FALSE.
 
@@ -145,14 +138,8 @@ For GUID_USB_CAPABILITY_CLEAR_TT_BUFFER_ON_ASYNC_TRANSFER_CANCEL, the controller
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The UCX client driver registers its <i>EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY</i> implementation with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
@@ -241,15 +228,7 @@ Controller_EvtControllerQueryUsbCapability(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
- 
-
- 
 

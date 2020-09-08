@@ -8,9 +8,6 @@ ms.assetid: c3ad9d93-93e1-406b-9a58-26dcbf428b50
 ms.date: 04/30/2018
 keywords: ["InsertHeadList function"]
 ms.keywords: InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, kernel.insertheadlist, wdm/InsertHeadList
-f1_keywords:
- - "wdm/InsertHeadList"
- - "InsertHeadList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- InsertHeadList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - InsertHeadList
+ - wdm/InsertHeadList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - InsertHeadList
 ---
 
 # InsertHeadList function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>InsertHeadList</b> routine inserts an entry at the head of a doubly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structures.
-
 
 ## -parameters
 
+### -param ListHead 
 
-
-
-### -param ListHead [in, out]
-
+[in, out]
 Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of the list.
 
+### -param Entry 
 
-### -param Entry [in, out]
-
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be inserted into the list. 
-
+[in, out]
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be inserted into the list.
 
 ## -remarks
-
-
 
 <b>InsertHeadList</b> updates <i>ListHead</i>-><b>Flink</b> to point to <i>Entry</i>. It updates <i>Entry</i>-><b>Flink</b> to point to the old first entry in the list, and sets <i>Entry</i>-><b>Blink</b> to <i>ListHead</i>. The <b>Blink</b> field of the original first entry is also updated to point to <i>Entry</i>.
 
@@ -75,13 +68,7 @@ For information about using this routine when implementing a doubly linked list,
 
 Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for <i>ListHead</i> and the list entries must be resident.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545397">ExInterlockedInsertHeadList</a>
 
@@ -104,7 +91,4 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist">RemoveTailList</a>
- 
-
- 
 

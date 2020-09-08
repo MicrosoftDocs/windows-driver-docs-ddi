@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2"
- - "DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2"
+ - DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
+ - d3dkmddi/DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,6 +46,7 @@ product:
 # DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 callback function
 
 > [!NOTE] This callback has been replaced by [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3](nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md)
+
 
 ## -description
 
@@ -68,3 +69,4 @@ If this routine succeeds, it returns <b>NTSTATUS_SUCCESS</b>. The driver should 
 ## -see-also
 
 [DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.md)
+

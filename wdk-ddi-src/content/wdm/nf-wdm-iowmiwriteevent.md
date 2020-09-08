@@ -8,9 +8,6 @@ ms.assetid: 6b98861c-b108-4b07-b494-e3647d03de4c
 ms.date: 04/30/2018
 keywords: ["IoWMIWriteEvent function"]
 ms.keywords: IoWMIWriteEvent, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, kernel.iowmiwriteevent, wdm/IoWMIWriteEvent
-f1_keywords:
- - "wdm/IoWMIWriteEvent"
- - "IoWMIWriteEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoWMIWriteEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoWMIWriteEvent
+ - wdm/IoWMIWriteEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoWMIWriteEvent
 ---
 
 # IoWMIWriteEvent function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoWMIWriteEvent</b> routine delivers a given event to the user-mode WMI components for notification.
-
 
 ## -parameters
 
+### -param WnodeEventItem 
 
-
-
-### -param WnodeEventItem [in, out]
-
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a> structure to be delivered to the user-mode WMI components that requested notification of the event. 
-
+[in, out]
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a> structure to be delivered to the user-mode WMI components that requested notification of the event.
 
 ## -returns
-
-
 
 <b>IoWMIWriteEvent</b> returns a status code from the following list:
 
@@ -116,14 +109,8 @@ Indicates that insufficient resources were available for WMI to queue the event 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The WNODE_EVENT_ITEM structure that is allocated by the caller and passed in <i>WnodeEventItem</i> must be allocated from nonpaged pool. If <b>IoWMIWriteEvent</b> returns STATUS_SUCCESS, the memory for the event item will automatically be freed by the system. If <b>IoWMIWriteEvent</b> returns anything other than STATUS_SUCCESS, it is the caller's responsibility to free the buffer.
 
@@ -131,20 +118,11 @@ Drivers should only call <b>IoWMIWriteEvent</b> for events that have been enable
 
 Callers of this routine must be running at IRQL <= APC_LEVEL, with one exception. When the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a> structure contains WNODE_FLAG_TRACED_GUID, <b>IoWMIWriteEvent</b> can be called at any IRQL. (The <b>WNODE_HEADER</b> structure is a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a> structure that the <i>WnodeEventItem</i> parameter points to.)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmideviceobjecttoproviderid">IoWmiDeviceObjectToProviderId</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 49608EE6-1666-4430-AD22-9627EEF6F223
 ms.date: 02/26/2018
 keywords: ["WdfDeviceAssignInterfaceProperty function"]
 ms.keywords: WdfDeviceAssignInterfaceProperty, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, wdfdevice/WdfDeviceAssignInterfaceProperty
-f1_keywords:
- - "wdfdevice/WdfDeviceAssignInterfaceProperty"
- - "WdfDeviceAssignInterfaceProperty"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WUDFx02000.dll
-api_name:
-- WdfDeviceAssignInterfaceProperty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceAssignInterfaceProperty
+ - wdfdevice/WdfDeviceAssignInterfaceProperty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WUDFx02000.dll
+api_name:
+ - WdfDeviceAssignInterfaceProperty
 ---
 
 # WdfDeviceAssignInterfaceProperty function
@@ -46,48 +46,42 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfDeviceAssignInterfaceProperty</b> method modifies the current value of a <a href="https://docs.microsoft.com/previous-versions/ff541409(v=vs.85)">device interface property</a>.
 
 > [!NOTE]
 > To retrieve or modify a device interface property, a KMDF driver must call [**IoGetDeviceInterfacePropertyData**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfacepropertydata) or [**IoSetDeviceInterfacePropertyData**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacepropertydata) directly.
-> 
+>
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param PropertyData 
 
-### -param PropertyData [in]
-
+[in]
 A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure.
 
+### -param Type 
 
-### -param Type [in]
-
+[in]
 A <b>DEVPROPTYPE</b>-typed value that specifies the type of the data that is provided in <i>PropertyBuffer</i>.
 
+### -param BufferLength 
 
-### -param BufferLength [in]
-
+[in]
 Specifies the length, in bytes, of the buffer that <i>PropertyBuffer</i> points to.
 
+### -param PropertyBuffer 
 
-### -param PropertyBuffer [in, optional]
-
+[in, optional]
 A pointer to the device interface property data. Set this parameter to <b>NULL</b> to delete the specified property.
 
-
 ## -returns
-
-
 
 If the <b>WdfDeviceAssignInterfaceProperty</b> method encounters no errors, it returns STATUS_SUCCESS. Additional return values include:
 
@@ -112,12 +106,7 @@ One of the parameters is incorrect.
 
 The method might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 For information about related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-the-unified-device-property-model">Accessing the Unified Device Property Model</a>.
 
@@ -149,12 +138,7 @@ if (!NT_SUCCESS(status)) {
 
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
 
@@ -169,7 +153,4 @@ if (!NT_SUCCESS(status)) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>
- 
-
- 
 

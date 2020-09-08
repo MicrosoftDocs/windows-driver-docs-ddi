@@ -8,9 +8,6 @@ ms.assetid: 94dc33f4-06ad-4b36-9150-6fb7d491a247
 ms.date: 05/02/2018
 keywords: ["NdisCopyReceiveNetBufferListInfo function"]
 ms.keywords: NdisCopyReceiveNetBufferListInfo, NdisCopyReceiveNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopyReceiveNetBufferListInfo, ndis_netbuf_functions_ref_c7980afc-64b0-4dc4-812e-1a89254df50a.xml, netvista.ndiscopyreceivenetbufferlistinfo
-f1_keywords:
- - "ndis/NdisCopyReceiveNetBufferListInfo"
- - "NdisCopyReceiveNetBufferListInfo"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCopyReceiveNetBufferListInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCopyReceiveNetBufferListInfo
+ - ndis/NdisCopyReceiveNetBufferListInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCopyReceiveNetBufferListInfo
 ---
 
 # NdisCopyReceiveNetBufferListInfo function
@@ -47,31 +47,24 @@ req.typenames:
 
 ## -description
 
-
 Intermediate drivers call the 
   <b>NdisCopyReceiveNetBufferListInfo</b> function to copy the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> information in a received
   <b>NET_BUFFER_LIST</b> structure.
 
-
 ## -parameters
 
+### -param DestNetBufferList 
 
-
-
-### -param DestNetBufferList [in]
-
+[in]
 A pointer to the destination <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
+### -param SrcNetBufferList 
 
-### -param SrcNetBufferList [in]
-
+[in]
 A pointer to the source <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -remarks
-
-
 
 When an intermediate driver or filter driver gets receive indications from an underlying driver, it
     can, for example, clone the 
@@ -140,15 +133,8 @@ The following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/n
 <td>Windows 8</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
@@ -160,7 +146,4 @@ The following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/n
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscopysendnetbufferlistinfo">
     NdisCopySendNetBufferListInfo</a>
- 
-
- 
 

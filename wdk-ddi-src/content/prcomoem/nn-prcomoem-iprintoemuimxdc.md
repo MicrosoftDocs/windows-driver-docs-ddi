@@ -8,9 +8,6 @@ ms.assetid: 4a70c0a7-9de7-48ed-a678-64832f078018
 ms.date: 04/20/2018
 keywords: ["IPrintOemUIMXDC interface"]
 ms.keywords: IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], IPrintOemUIMXDC interface [Print Devices],described, prcomoem/IPrintOemUIMXDC, print.iprintoemuimxdc_interface, print_unidrv-pscript_ui_120354fc-1e37-41c9-b273-c28fde18079f.xml
-f1_keywords:
- - "prcomoem/IPrintOemUIMXDC"
- - "IPrintOemUIMXDC"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUIMXDC
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUIMXDC
+ - prcomoem/IPrintOemUIMXDC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUIMXDC
 ---
 
 # IPrintOemUIMXDC interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 This section describes the methods that are defined for the IPrintOemUIMXDC COM interface.
-
 
 ## -inheritance
 

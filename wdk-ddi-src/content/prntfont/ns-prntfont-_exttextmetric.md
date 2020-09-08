@@ -8,9 +8,6 @@ ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 ms.date: 04/20/2018
 keywords: ["EXTTEXTMETRIC structure"]
 ms.keywords: "*PEXTTEXTMETRIC, EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC, PEXTTEXTMETRIC structure pointer [Print Devices], _EXTTEXTMETRIC, print.exttextmetric, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, prntfont/EXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC"
-f1_keywords:
- - "prntfont/EXTTEXTMETRIC"
- - "EXTTEXTMETRIC"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- prntfont.h
-api_name:
-- EXTTEXTMETRIC
 targetos: Windows
 req.typenames: EXTTEXTMETRIC, *PEXTTEXTMETRIC
+f1_keywords:
+ - _EXTTEXTMETRIC
+ - prntfont/_EXTTEXTMETRIC
+ - PEXTTEXTMETRIC
+ - prntfont/PEXTTEXTMETRIC
+ - EXTTEXTMETRIC
+ - prntfont/EXTTEXTMETRIC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - prntfont.h
+api_name:
+ - EXTTEXTMETRIC
 ---
 
 # _EXTTEXTMETRIC structure
+
 
 ## -description
 
@@ -170,3 +175,4 @@ Specifies the number of character kerning pairs defined for this font.
 ### -field emKernTracks
 
 Specifies the number of kerning tracks defined for this font.
+

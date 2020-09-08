@@ -8,9 +8,6 @@ ms.assetid: 8284fdd4-26de-4622-b164-f33aee1d8742
 ms.date: 05/02/2018
 keywords: ["NdisCoSendNetBufferLists function"]
 ms.keywords: NdisCoSendNetBufferLists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, ndis/NdisCoSendNetBufferLists, netvista.ndiscosendnetbufferlists
-f1_keywords:
- - "ndis/NdisCoSendNetBufferLists"
- - "NdisCoSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCoSendNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCoSendNetBufferLists
+ - ndis/NdisCoSendNetBufferLists
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCoSendNetBufferLists
 ---
 
 # NdisCoSendNetBufferLists function
@@ -47,32 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisCoSendNetBufferLists</b> function sends network data that is contained in a specified list of 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
 
-
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 A handle to a virtual connection (VC) that identifies the target of the send request.
 
+### -param NetBufferLists 
 
-### -param NetBufferLists [in]
-
+[in]
 A pointer to a linked list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. Each
      NET_BUFFER_LIST structure describes a list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
+### -param SendFlags 
 
-### -param SendFlags [in]
-
+[in]
 Flags that define attributes for the send operation. The flags can be combined with a bitwise OR
      operation. To clear all of the flags, set this parameter to zero. 
      <b>NdisCoSendNetBufferLists</b> supports the following flags:
@@ -98,10 +94,7 @@ NDIS should check for loopback. By default, NDIS does not loop back data to the 
        NET_BUFFER structures that match the criteria to the overlying driver. This flag does not affect
        checking for loopback, or looping back, on other bindings.
 
-
 ## -remarks
-
-
 
 After a CoNDIS protocol driver calls 
     <b>NdisCoSendNetBufferLists</b>, NDIS submits the 
@@ -181,13 +174,7 @@ Until NDIS calls
     structures or any associated data after the driver calls 
     <b>NdisCoSendNetBufferLists</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
@@ -231,7 +218,4 @@ Until NDIS calls
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_send_net_buffer_lists_complete">
    ProtocolCoSendNetBufferListsComplete</a>
- 
-
- 
 

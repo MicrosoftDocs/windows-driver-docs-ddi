@@ -8,9 +8,6 @@ ms.assetid: 6760c893-0574-4fb1-b714-d506ebbd0872
 ms.date: 05/08/2018
 keywords: ["IMiniportMidi::NewStream"]
 ms.keywords: IMiniportMidi interface [Audio Devices],NewStream method, IMiniportMidi.NewStream, IMiniportMidi::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportMidi interface, audio.iminiportmidi_newstream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, portcls/IMiniportMidi::NewStream
-f1_keywords:
- - "portcls/IMiniportMidi.NewStream"
- - "IMiniportMidi.NewStream"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IMiniportMidi.NewStream
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportMidi::NewStream
+ - portcls/IMiniportMidi::NewStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IMiniportMidi.NewStream
 ---
 
 # IMiniportMidi::NewStream
@@ -46,74 +46,56 @@ req.typenames:
 
 ## -description
 
-
 The <code>NewStream</code> method creates a new instance of a logical stream associated with a specified physical channel.
-
 
 ## -parameters
 
+### -param Stream 
 
-
-
-### -param Stream [out]
-
+[out]
 Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a> interface.
 
+### -param OuterUnknown 
 
-### -param OuterUnknown [in, optional]
-
+[in, optional]
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the stream object. This parameter is optional. If aggregation is not required, the caller specifies this parameter as <b>NULL</b>.
 
+### -param PoolType 
 
-### -param PoolType [in]
-
+[in]
 Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration values.
 
+### -param Pin 
 
-### -param Pin [in]
-
+[in]
 Specifies the pin ID. This parameter identifies the pin that is to be opened. If the MIDI miniport object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
 
+### -param Capture 
 
-### -param Capture [in]
-
+[in]
 Specifies whether the channel is to be used for capture or for playback. If <b>TRUE</b>, it is a capture (input) channel. If <b>FALSE</b>, it is a playback (output) channel.
 
+### -param DataFormat 
 
-### -param DataFormat [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure that specifies the data format to use for this stream instance.
 
+### -param ServiceGroup 
 
-### -param ServiceGroup [out]
-
+[out]
 Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification.
-
 
 ## -returns
 
-
-
 <code>NewStream</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP.
 
 The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a>
 
@@ -136,7 +118,4 @@ The <i>Stream</i>, <i>OuterUnknown</i>, and <i>ServiceGroup</i> parameters follo
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
- 
-
- 
 

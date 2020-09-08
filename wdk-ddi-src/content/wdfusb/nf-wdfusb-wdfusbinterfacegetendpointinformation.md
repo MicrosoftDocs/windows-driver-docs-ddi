@@ -8,9 +8,6 @@ ms.assetid: c9e204db-f8fc-42e7-9a1b-f08099147ce7
 ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceGetEndpointInformation function"]
 ms.keywords: DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, kmdf.wdfusbinterfacegetendpointinformation, wdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation
-f1_keywords:
- - "wdfusb/WdfUsbInterfaceGetEndpointInformation"
- - "WdfUsbInterfaceGetEndpointInformation"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbInterfaceGetEndpointInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbInterfaceGetEndpointInformation
+ - wdfusb/WdfUsbInterfaceGetEndpointInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbInterfaceGetEndpointInformation
 ---
 
 # WdfUsbInterfaceGetEndpointInformation function
@@ -49,36 +49,31 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfUsbInterfaceGetEndpointInformation</b> method retrieves information about a specified USB device endpoint and its associated pipe.
 
-
 ## -parameters
 
+### -param UsbInterface 
 
+[in]
+A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>.
 
+### -param SettingIndex 
 
-### -param UsbInterface [in]
-
-A handle to a USB interface object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>. 
-
-
-### -param SettingIndex [in]
-
+[in]
 An index value that identifies an alternate setting for the interface. For more information about alternate settings, see the USB specification.
 
+### -param EndpointIndex 
 
-### -param EndpointIndex [in]
-
+[in]
 An index value that identifies an endpoint that is associated with the specified alternate setting of the specified interface. (This index value is not the endpoint address.)
 
+### -param EndpointInfo 
 
-### -param EndpointInfo [out]
-
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure that the framework fills in.
-
 
 ## -remarks
 
@@ -119,12 +114,7 @@ for (i = 0; i < numEndpoints; i++){
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a>
 
@@ -135,7 +125,4 @@ for (i = 0; i < numEndpoints; i++){
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicegetinterface">WdfUsbTargetDeviceGetInterface</a>
- 
-
- 
 

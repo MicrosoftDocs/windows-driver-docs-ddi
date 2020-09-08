@@ -8,9 +8,6 @@ ms.assetid: fba87554-766d-45e2-8257-584ee78dd873
 ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_QUEUE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_PARAMETERS, netvista.ndis_receive_queue_parameters, ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS, virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml"
-f1_keywords:
- - "ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS"
- - "NDIS_RECEIVE_QUEUE_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_RECEIVE_QUEUE_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS
+f1_keywords:
+ - _NDIS_RECEIVE_QUEUE_PARAMETERS
+ - ntddndis/_NDIS_RECEIVE_QUEUE_PARAMETERS
+ - PNDIS_RECEIVE_QUEUE_PARAMETERS
+ - ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS
+ - NDIS_RECEIVE_QUEUE_PARAMETERS
+ - ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_RECEIVE_QUEUE_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_QUEUE_PARAMETERS structure
@@ -46,15 +50,10 @@ req.typenames: NDIS_RECEIVE_QUEUE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_PARAMETERS
 
 ## -description
 
-
 The <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure contains the configuration parameters of a receive
   queue.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -79,7 +78,6 @@ Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_2
 Original version for NDIS 6.20.
 
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_PARAMETERS_REVISION_1</b>.
-
 
 ### -field Flags
 
@@ -147,23 +145,19 @@ The setting in the
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_receive_queue_type">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
      value that specifies the type of the receive queue.
 
-
 ### -field QueueId
 
 An <b>NDIS_RECEIVE_QUEUE_ID</b> type value that contains a receive queue identifier. This identifier is an integer value between zero and the number of queues that the network adapter supports. A value of <b>NDIS_DEFAULT_RECEIVE_QUEUE_ID</b> specifies the default receive queue.
 
-
 ### -field QueueGroupId
 
 This member is reserved for NDIS.
-
 
 ### -field ProcessorAffinity
 
 A <b>GROUP_AFFINITY</b> value that specifies the group number and a bitmap of the CPUs that this queue
      can be associated with. At least one processor must be specified. Therefore, the value must not be
      zero.
-
 
 ### -field NumSuggestedReceiveBuffers
 
@@ -172,11 +166,9 @@ A <b>ULONG</b> value that contains a suggested value for the number of receive b
      queues. For example, the actual number of receive buffers can be double or half of this suggested
      value.
 
-
 ### -field MSIXTableEntry
 
 This member is reserved for NDIS.
-
 
 ### -field LookaheadSize
 
@@ -198,34 +190,21 @@ A <b>ULONG</b> value for the size, in bytes, of the lookahead size requirement f
 
 An <b>NDIS_VM_NAME</b> value that contains the description of the virtual machine that users read.
 
-
 ### -field QueueName
 
 An <b>NDIS_QUEUE_NAME</b> value that contains the description of the queue that users read.
-
 
 ### -field PortId
 
 A ULONG value that contains the unique identifier of a port on the Hyper-V extensible switch to which the VM queue is attached.
 
-
-
-
 ### -field InterruptCoalescingDomainId
 
 This member is reserved for NDIS.
 
-
 ### -field QosSqId
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is used in the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
@@ -235,13 +214,7 @@ The <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is used in the
 
 In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-receive-filter-queue-parameters">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indications.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
@@ -267,7 +240,4 @@ In NDIS 6.30, the <b>NDIS_RECEIVE_QUEUE_PARAMETERS</b> structure is also used in
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
    OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a>
- 
-
- 
 

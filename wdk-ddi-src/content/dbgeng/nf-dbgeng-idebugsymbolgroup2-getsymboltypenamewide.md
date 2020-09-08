@@ -8,9 +8,6 @@ ms.assetid: 1e5b71cf-98c4-42bc-984d-6278ff30e8c1
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup2::GetSymbolTypeNameWide"]
 ms.keywords: GetSymbolTypeNameWide, GetSymbolTypeNameWide method [Windows Debugging], GetSymbolTypeNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolTypeNameWide method, IDebugSymbolGroup2.GetSymbolTypeNameWide, IDebugSymbolGroup2::GetSymbolTypeNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolTypeNameWide, debugger.getsymboltypenamewide
-f1_keywords:
- - "dbgeng/IDebugSymbolGroup2.GetSymbolTypeNameWide"
- - "IDebugSymbolGroup2.GetSymbolTypeNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbolGroup2.GetSymbolTypeNameWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbolGroup2::GetSymbolTypeNameWide
+ - dbgeng/IDebugSymbolGroup2::GetSymbolTypeNameWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbolGroup2.GetSymbolTypeNameWide
 ---
 
 # IDebugSymbolGroup2::GetSymbolTypeNameWide
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetSymbolTypeNameWide</b> method returns the name of the specified symbol's type.
-
 
 ## -parameters
 
+### -param Index 
 
-
-
-### -param Index [in]
-
+[in]
 The index of the symbol whose type name you want. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
+### -param Buffer 
 
-### -param Buffer [out, optional]
-
+[out, optional]
 The name of the symbol's type.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 The size, in characters, of the <i>Buffer</i> buffer.
 
+### -param NameSize 
 
-### -param NameSize [out, optional]
-
+[out, optional]
 The size, in characters, of the name of the symbol's type.  If <i>NameSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -111,22 +104,11 @@ The size of the buffer was smaller than the size of the name of the symbol's typ
 
 This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information about symbol groups, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getnumbersymbols">GetNumberSymbols</a>
 
@@ -137,7 +119,4 @@ For more information about symbol groups, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypename">IDebugSymbols::GetTypeName</a>
- 
-
- 
 

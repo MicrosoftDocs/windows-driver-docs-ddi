@@ -8,9 +8,6 @@ ms.assetid: 552b4024-03d3-4e9b-b149-cf584c7e7259
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_FREE_ADDRESS_INFO callback function"]
 ms.keywords: PFN_WSK_FREE_ADDRESS_INFO, PFN_WSK_FREE_ADDRESS_INFO callback, WskFreeAddressInfo, WskFreeAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskfreeaddressinfo, wsk/WskFreeAddressInfo, wskref_dff141b0-8164-439d-9ad7-69a4d2207f31.xml
-f1_keywords:
- - "wsk/WskFreeAddressInfo"
- - "WskFreeAddressInfo"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskFreeAddressInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_FREE_ADDRESS_INFO
+ - wsk/PFN_WSK_FREE_ADDRESS_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskFreeAddressInfo
 ---
 
 # PFN_WSK_FREE_ADDRESS_INFO callback function
@@ -46,20 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskFreeAddressInfo</b> function frees address information that the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a> function has dynamically
   allocated.
 
-
 ## -parameters
 
+### -param Client 
 
-
-
-### -param Client [in]
-
+[in]
 [in] A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
@@ -67,9 +63,9 @@ The
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
      WskCaptureProviderNPI</a> function.
 
+### -param AddrInfo 
 
-### -param AddrInfo [in]
-
+[in]
 [in] A pointer to a linked list of one or more <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that contain response
      information about the host. This pointer was returned through the 
      <i>Result</i> parameter of the 
@@ -88,9 +84,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-add
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a>
 
 
@@ -100,7 +93,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-add
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a>
- 
-
- 
 

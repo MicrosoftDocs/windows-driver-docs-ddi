@@ -8,9 +8,6 @@ ms.assetid: 71e219ff-3ed7-4eb1-bcd7-749b947a9aef
 ms.date: 02/26/2018
 keywords: ["WDF_TYPE_NAME_POINTER_TYPE macro"]
 ms.keywords: DFGenObjectRef_07b4c582-4483-4faa-862c-4b92d075289d.xml, WDF_TYPE_NAME_POINTER_TYPE, WDF_TYPE_NAME_POINTER_TYPE macro, kmdf.wdf_type_name_pointer_type, wdf.wdf_type_name_pointer_type, wdfobject/WDF_TYPE_NAME_POINTER_TYPE
-f1_keywords:
- - "wdfobject/WDF_TYPE_NAME_POINTER_TYPE"
- - "WDF_TYPE_NAME_POINTER_TYPE"
 req.header: wdfobject.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WDF_TYPE_NAME_POINTER_TYPE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_TYPE_NAME_POINTER_TYPE
+ - wdfobject/WDF_TYPE_NAME_POINTER_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WDF_TYPE_NAME_POINTER_TYPE
 ---
 
 # WDF_TYPE_NAME_POINTER_TYPE macro
@@ -49,14 +49,9 @@ req.typenames:
 
 ## -description
 
-
 This macro is reserved for internal use only.
 
-
 ## -parameters
-
-
-
 
 ### -param _contexttype
 

@@ -8,9 +8,6 @@ ms.assetid: 65743D54-3954-4C31-B3CB-032DE391A456
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_EVICT structure"]
 ms.keywords: D3DDDICB_EVICT, D3DDDICB_EVICT structure [Display Devices], d3dumddi/D3DDDICB_EVICT, display.d3dddicb_evict
-f1_keywords:
- - "d3dumddi/D3DDDICB_EVICT"
- - "D3DDDICB_EVICT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- D3DDDICB_EVICT
 targetos: Windows
 req.typenames: D3DDDICB_EVICT
+f1_keywords:
+ - D3DDDICB_EVICT
+ - d3dumddi/D3DDDICB_EVICT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - D3DDDICB_EVICT
 ---
 
 # D3DDDICB_EVICT structure
@@ -46,49 +46,33 @@ req.typenames: D3DDDICB_EVICT
 
 ## -description
 
-
 <b>D3DKMT_EVICT</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_evictcb">pfnEvictCb</a> to subtract one from the residency reference count.
 
 Once this count reaches zero, it will remove the allocation from the device residency list.
-  
-
 
 ## -struct-fields
-
-
-
 
 ### -field NumAllocations
 
 [in] Number of allocation handles in the <b>AllocationList</b> array.
 
-
 ### -field AllocationList
 
 [in] An array of <b>NumAllocations</b> allocation handles to mark for eviction. All allocations must be created on <b>hDevice</b>.
 
-
 ### -field Flags
 
-[in] Specifies eviction behavior as documented in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_evict_flags">D3DDDI_EVICT_FLAGS</a>. 
-
+[in] Specifies eviction behavior as documented in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_evict_flags">D3DDDI_EVICT_FLAGS</a>.
 
 ### -field NumBytesToTrim
 
 [out] When non-zero, specifies how much the application should evict in order to meet its current memory budget.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_evict_flags">D3DDDI_EVICT_FLAGS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_evictcb">pfnEvictCb</a>
- 
-
- 
 

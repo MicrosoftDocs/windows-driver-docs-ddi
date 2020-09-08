@@ -6,47 +6,48 @@ description: Returns langauges and detector features supported by the object.
 tech.root: audio
 ms.assetid: cd025bdc-7f10-4881-9620-b77570455c18
 ms.author: windowsdriverdev
-ms.date: 02/25/2019 
+ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::GetCapabilities"]
-f1_keywords:
- - "eventdetectoroemadapter/IEventDetectorOemAdapter.GetCapabilities"
- - "IEventDetectorOemAdapter.GetCapabilities"
 ms.keywords: IEventDetectorOemAdapter::GetCapabilities, GetCapabilities, IEventDetectorOemAdapter.GetCapabilities, IEventDetectorOemAdapter::GetCapabilities, IEventDetectorOemAdapter.GetCapabilities
 req.header: eventdetectoroemadapter.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
+req.ddi-compliance: 
+req.unicode-ansi: 
 req.idl: eventdetectoroemadapter.idl
-req.max-support:
-req.namespace:
-req.assembly:
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- eventdetectoroemadapter.h
-api_name: 
-- IEventDetectorOemAdapter.GetCapabilities
-product: 
-- Windows
 targetos: Windows
-ms.custom: 19H1 
+ms.custom: 19H1
+f1_keywords:
+ - IEventDetectorOemAdapter::GetCapabilities
+ - eventdetectoroemadapter/IEventDetectorOemAdapter::GetCapabilities
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - eventdetectoroemadapter.h
+api_name:
+ - IEventDetectorOemAdapter.GetCapabilities
+product:
+ - Windows
 ---
 
 # IEventDetectorOemAdapter::GetCapabilities
 
 
 ## -description
+
 Returns langauges and detector features supported by the object.
 
 ## -parameters
@@ -72,6 +73,7 @@ Returns langauges and detector features supported by the object.
 \[*Out*\] - Pointer to a pointer to the media type required by the object for user training and user customization.
 
 ## -returns
+
 This method returns HRESULT. It returns S_OK if the function exit successfully. It can return E_POINTER if one of the out parameter pointers is NULL.
 
 ## -remarks
@@ -83,3 +85,4 @@ This function is the part of the Event Detector OEM interface to be used for har
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
+

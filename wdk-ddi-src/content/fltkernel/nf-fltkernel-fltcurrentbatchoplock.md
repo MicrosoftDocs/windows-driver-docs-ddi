@@ -8,9 +8,6 @@ ms.assetid: 00eb27ee-2c6d-47c7-b3a6-63a6a7aac2fb
 ms.date: 04/16/2018
 keywords: ["FltCurrentBatchOplock function"]
 ms.keywords: FltApiRef_a_to_d_7835829e-3397-47c3-bc12-c77f8d844927.xml, FltCurrentBatchOplock, FltCurrentBatchOplock function [Installable File System Drivers], fltkernel/FltCurrentBatchOplock, ifsk.fltcurrentbatchoplock
-f1_keywords:
- - "fltkernel/FltCurrentBatchOplock"
- - "FltCurrentBatchOplock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltCurrentBatchOplock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCurrentBatchOplock
+ - fltkernel/FltCurrentBatchOplock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltCurrentBatchOplock
 ---
 
 # FltCurrentBatchOplock function
@@ -47,44 +47,26 @@ req.typenames:
 
 ## -description
 
-
-A minifilter driver calls <b>FltCurrentBatchOplock</b> to determine whether there are any batch or filter opportunistic locks (oplocks) on a file. 
-
+A minifilter driver calls <b>FltCurrentBatchOplock</b> to determine whether there are any batch or filter opportunistic locks (oplocks) on a file.
 
 ## -parameters
 
+### -param Oplock 
 
-
-
-### -param Oplock [in]
-
-Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>. 
-
+[in]
+Opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>.
 
 ## -returns
 
-
-
-<b>FltCurrentBatchOplock</b> returns <b>TRUE</b> if there are current outstanding batch or filter oplocks; <b>FALSE</b> otherwise. 
-
-
-
+<b>FltCurrentBatchOplock</b> returns <b>TRUE</b> if there are current outstanding batch or filter oplocks; <b>FALSE</b> otherwise.
 
 ## -remarks
 
-
-
 <b>FltCurrentBatchOplock</b> returns <b>FALSE</b> if no batch or filter opportunistic locks are currently held. 
 
-For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
-
-
-
+For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-opbatch-ack-close-pending">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
@@ -139,7 +121,4 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcurrentbatchoplock">FsRtlCurrentBatchOplock</a>
- 
-
- 
 

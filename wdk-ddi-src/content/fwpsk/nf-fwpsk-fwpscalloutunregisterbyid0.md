@@ -8,9 +8,6 @@ ms.assetid: 81e7e704-c387-48a0-a222-cae751bba1d3
 ms.date: 05/02/2018
 keywords: ["FwpsCalloutUnregisterById0 function"]
 ms.keywords: FwpsCalloutUnregisterById0, FwpsCalloutUnregisterById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterById0, netvista.fwpscalloutunregisterbyid0, wfp_ref_2_funct_3_fwps_C_7bfae7f1-e5f2-4361-bbc0-6c5fef63a267.xml
-f1_keywords:
- - "fwpsk/FwpsCalloutUnregisterById0"
- - "FwpsCalloutUnregisterById0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsCalloutUnregisterById0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsCalloutUnregisterById0
+ - fwpsk/FwpsCalloutUnregisterById0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsCalloutUnregisterById0
 ---
 
 # FwpsCalloutUnregisterById0 function
@@ -47,28 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsCalloutUnregisterById0</b> function unregisters a callout from the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpsCalloutUnregisterById0</b> is a specific version of <b>FwpsCalloutUnregisterById</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param calloutId 
 
-
-
-### -param calloutId [in]
-
+[in]
 The run-time identifier for the callout that is being unregistered from the filter engine. This
      must be the run-time identifier that was returned when the callout driver called either the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> function to
      register the callout with the filter engine.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsCalloutUnregisterById0</b> function returns one of the following NTSTATUS codes.
@@ -143,14 +137,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsCalloutUnregisterById0</b> function to unregister a callout from the filter engine, using the
@@ -163,13 +151,7 @@ A callout driver calls the
 A callout driver cannot be unloaded until all of the callouts that were previously registered with the
     filter engine have been successfully unregistered.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
 
@@ -188,7 +170,4 @@ A callout driver cannot be unloaded until all of the callouts that were previous
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/types-of-callouts">Types of Callouts</a>
- 
-
- 
 

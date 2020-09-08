@@ -8,34 +8,39 @@ ms.assetid: f9733b74-5773-4d29-b488-656064403e6a
 ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: enum
-ms.keywords: STOR_EVENT_TYPE, STOR_EVENT_TYPE, *PSTOR_EVENT_TYPE, 
+ms.keywords: STOR_EVENT_TYPE, STOR_EVENT_TYPE, *PSTOR_EVENT_TYPE,
 req.header: storport.h
-f1_keywords:
- - "storport/STOR_EVENT_TYPE"
- - "STOR_EVENT_TYPE"
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: STOR_EVENT_TYPE, *PSTOR_EVENT_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - storport.h
-api_name: 
- - STOR_EVENT_TYPE
-product: 
- - Windows
 targetos: Windows
+f1_keywords:
+ - _STOR_EVENT_TYPE
+ - storport/_STOR_EVENT_TYPE
+ - PSTOR_EVENT_TYPE
+ - storport/PSTOR_EVENT_TYPE
+ - STOR_EVENT_TYPE
+ - storport/STOR_EVENT_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - STOR_EVENT_TYPE
+product:
+ - Windows
 ---
 
 # STOR_EVENT_TYPE enumeration
+
 
 ## -description
 
@@ -58,3 +63,4 @@ A miniport initializes an event object by calling [**StorPortInitializeEvent**](
 ## -see-also
 
 [**StorPortInitializeEvent**](nf-storport-storport_initialize_event.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 0fc9fb57-219e-4a3d-bc82-904ab8657d66
 ms.date: 04/16/2018
 keywords: ["RxPostToWorkerThread function"]
 ms.keywords: RxPostToWorkerThread, RxPostToWorkerThread routine [Installable File System Drivers], ifsk.rxposttoworkerthread, rxref_19387eca-2666-41c0-a93d-2133d3ca03ee.xml, rxworkq/RxPostToWorkerThread
-f1_keywords:
- - "rxworkq/RxPostToWorkerThread"
- - "RxPostToWorkerThread"
 req.header: rxworkq.h
 req.include-header: Rxworkq.h, Rxstruc.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxworkq.h
-api_name:
-- RxPostToWorkerThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxPostToWorkerThread
+ - rxworkq/RxPostToWorkerThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxworkq.h
+api_name:
+ - RxPostToWorkerThread
 ---
 
 # RxPostToWorkerThread function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <b>RxPostToWorkerThread</b> invokes a routine passed as a parameter in the context of a worker thread. Memory for the WORK_QUEUE_ITEM must be allocated by the caller.
-
 
 ## -parameters
 
+### -param pMRxDeviceObject 
 
-
-
-### -param pMRxDeviceObject [in]
-
+[in]
 A pointer to the device object of the corresponding network mini-redirector driver.
 
+### -param WorkQueueType 
 
-### -param WorkQueueType [in]
-
+[in]
 The type of the work queue that represents the priority of the task. This parameter can be one of the following values:
 
 
@@ -84,25 +80,22 @@ Insert WORK_QUEUE_ITEM into the queue from which a system thread with a variable
 
 Insert WORK_QUEUE_ITEM into the queue from which a system thread will process the work item so that the routine to invoke is not blocked.
 
+### -param pWorkQueueItem 
 
-### -param pWorkQueueItem [in]
-
+[in]
 A pointer to WORK_QUEUE_ITEM.
 
+### -param Routine 
 
-### -param Routine [in]
-
+[in]
 A pointer to the routine to invoke.
 
+### -param pContext 
 
-### -param pContext [in]
-
+[in]
 A pointer to a context parameter associated with the work item to complete that is passed to the driver.
 
-
 ## -returns
-
-
 
 <b>RxDispatchToWorkerThread</b> returns STATUS_SUCCESS on success or one of the following error code on failure: 
 
@@ -123,14 +116,8 @@ The item could not be dispatched.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 There are two common cases of dispatching operations to worker threads. The trade-off between the following two dispatching operations is time versus space (memory usage):
 
@@ -150,13 +137,7 @@ The current implementation of the <b>RxPostToWorkerThread </b>routine queues wor
 
 If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a> routine is called with details of the error. If the <b>RxPostToWorkerThread </b>routine fails and WMI is enabled in the kernel, details of the error will be logged with WMI.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxdispatchtoworkerthread">RxDispatchToWorkerThread</a>
 
@@ -167,7 +148,4 @@ If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a>
- 
-
- 
 

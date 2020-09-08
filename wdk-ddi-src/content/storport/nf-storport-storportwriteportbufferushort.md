@@ -8,9 +8,6 @@ ms.assetid: e7b7718b-0c03-4114-8402-9657c49230ad
 ms.date: 03/29/2018
 keywords: ["StorPortWritePortBufferUshort macro"]
 ms.keywords: StorPortWritePortBufferUshort, StorPortWritePortBufferUshort routine [Storage Devices], storage.storportwriteportbufferushort, storport/StorPortWritePortBufferUshort, storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml
-f1_keywords:
- - "storport/StorPortWritePortBufferUshort"
- - "StorPortWritePortBufferUshort"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortWritePortBufferUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortWritePortBufferUshort
+ - storport/StorPortWritePortBufferUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortWritePortBufferUshort
 ---
 
 # StorPortWritePortBufferUshort macro
@@ -47,59 +47,35 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortWritePortBufferUshort</b> routine writes a value to a specified register address. 
-
+The <b>StorPortWritePortBufferUshort</b> routine writes a value to a specified register address.
 
 ## -parameters
-
-
-
 
 ### -param h
 
 <p>Pointer to the hardware device extension.</p>
 
-
 ### -param p
 
 <p>Contains the address of the port to be written to. </p>
-
 
 ### -param b
 
 <p>Pointer to the buffer containing the data to be written. </p>
 
-
 ### -param c
 
 <p>Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. </p>
 
-
-
-
-
-
 ## -remarks
 
-
-
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportbufferushort">ScsiPortWritePortBufferUshort</a>. For a non-buffered equivalent of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportushort">StorPortWritePortUshort</a>. 
-
-
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportbufferushort">ScsiPortWritePortBufferUshort</a>. For a non-buffered equivalent of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportushort">StorPortWritePortUshort</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportbufferushort">ScsiPortWritePortBufferUshort</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportushort">StorPortWritePortUshort</a>
- 
-
- 
 

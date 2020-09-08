@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetRenderTarget"
- - "SetRenderTarget"
+ - PFND3DDDI_SETRENDERTARGET
+ - d3dumddi/PFND3DDDI_SETRENDERTARGET
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETRENDERTARGET callback function
+
 
 ## -description
 

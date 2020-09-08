@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: sensors
+f1_keywords:
+ - sensorscx
+ - sensorscx/sensorscx
 ---
 
 # Sensorscx.h header
@@ -16,7 +19,7 @@ tech.root: sensors
 
 ## -description
 
-
 This header is used by sensors. For more information, see:
 
 - [Sensors](../_sensors/index.md)
+

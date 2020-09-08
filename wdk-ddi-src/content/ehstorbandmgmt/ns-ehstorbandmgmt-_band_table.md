@@ -8,9 +8,6 @@ ms.assetid: 2714E346-6BDD-49EF-9820-6B82F8F29380
 ms.date: 03/29/2018
 keywords: ["BAND_TABLE structure"]
 ms.keywords: "*PBAND_TABLE, BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], _BAND_TABLE, ehstorbandmgmt/BAND_TABLE, ehstorbandmgmt/PBAND_TABLE, storage.band_table"
-f1_keywords:
- - "ehstorbandmgmt/BAND_TABLE"
- - "BAND_TABLE"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorBandMgmt.h
-api_name:
-- BAND_TABLE
 targetos: Windows
 req.typenames: BAND_TABLE, *PBAND_TABLE
+f1_keywords:
+ - _BAND_TABLE
+ - ehstorbandmgmt/_BAND_TABLE
+ - PBAND_TABLE
+ - ehstorbandmgmt/PBAND_TABLE
+ - BAND_TABLE
+ - ehstorbandmgmt/BAND_TABLE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorBandMgmt.h
+api_name:
+ - BAND_TABLE
 ---
 
 # _BAND_TABLE structure
@@ -46,39 +50,27 @@ req.typenames: BAND_TABLE, *PBAND_TABLE
 
 ## -description
 
-
 The <b>BAND_TABLE</b> structure contains the table of bands returned from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a> request. The bands in the band table are selected by a match condition sent as input for <b>IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_enumerate_bands_parameters">ENUMERATE_BANDS_PARAMETERS</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructSize
 
 The size of this structure in bytes. Set to <b>sizeof</b>(BAND_TABLE).
 
-
 ### -field BandTableOffset
 
 The offset, in bytes, to the start of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table_entry">BAND_TABLE_ENTRY</a> structures.
-
 
 ### -field BandTableEntryCount
 
 The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table_entry">BAND_TABLE_ENTRY</a> returned in the array at <b>BandTableOffset</b>.
 
-
 ### -field BandTableEntrySize
 
 The size of each entry, in bytes, in the array at <b>BandTableOffset</b>. Instead of using the value of <b>sizeof</b>(BAND_TABLE_ENTRY), callers must use <b>BandTableEntrySize</b> when advancing to the next element in the band table array.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table_entry">BAND_TABLE_ENTRY</a>
 
@@ -89,7 +81,4 @@ The size of each entry, in bytes, in the array at <b>BandTableOffset</b>. Instea
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
- 
-
- 
 

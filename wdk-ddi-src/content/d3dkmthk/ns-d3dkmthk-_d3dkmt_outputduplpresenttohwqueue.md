@@ -8,42 +8,45 @@ ms.assetid: f970fcdd-e98a-4ad5-9536-7b08bbd19645
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE"
- - "_D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE, D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE, 
+ms.keywords: _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE, D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3dkmthk.h
-api_name: 
- - _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
-product: 
- - Windows
 targetos: Windows
+ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1
+f1_keywords:
+ - _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
+ - d3dkmthk/_D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
+ - D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
+ - d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1
 ---
 
 # _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure
+
 
 ## -description
 
@@ -82,3 +85,4 @@ A handle to the indirect hardware queue.
 ## -remarks
 
 ## -see-also
+

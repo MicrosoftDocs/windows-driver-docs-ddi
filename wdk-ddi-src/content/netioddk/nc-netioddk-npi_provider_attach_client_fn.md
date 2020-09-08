@@ -8,9 +8,6 @@ ms.assetid: 6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3
 ms.date: 05/02/2018
 keywords: ["NPI_PROVIDER_ATTACH_CLIENT_FN callback function"]
 ms.keywords: NPI_PROVIDER_ATTACH_CLIENT_FN, NPI_PROVIDER_ATTACH_CLIENT_FN callback, PNPI_PROVIDER_ATTACH_CLIENT_FN, PNPI_PROVIDER_ATTACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], ProviderAttachClient, ProviderAttachClient callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderAttachClient, netvista.providerattachclient, nmrref_7b693216-cb96-4608-aae0-77ddde6dc28c.xml
-f1_keywords:
- - "netioddk/PNPI_PROVIDER_ATTACH_CLIENT_FN"
- - "PNPI_PROVIDER_ATTACH_CLIENT_FN"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- netioddk.h
-api_name:
-- PNPI_PROVIDER_ATTACH_CLIENT_FN
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NPI_PROVIDER_ATTACH_CLIENT_FN
+ - netioddk/NPI_PROVIDER_ATTACH_CLIENT_FN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - netioddk.h
+api_name:
+ - PNPI_PROVIDER_ATTACH_CLIENT_FN
 ---
 
 # NPI_PROVIDER_ATTACH_CLIENT_FN callback function
@@ -46,40 +46,36 @@ req.typenames:
 
 ## -description
 
-
 A provider module's 
   <i>ProviderAttachClient</i> callback function attaches the provider module to a client module.
 
-
 ## -parameters
 
+### -param NmrBindingHandle 
 
-
-
-### -param NmrBindingHandle [in]
-
+[in]
 A handle used by the NMR to represent the binding between the client module and the provider
      module.
 
+### -param ProviderContext 
 
-### -param ProviderContext [in]
-
+[in]
 A pointer to the provider module's registration context. The provider module passes this pointer
      to the NMR when it calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function to
      register itself with the NMR.
 
+### -param ClientRegistrationInstance 
 
-### -param ClientRegistrationInstance [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">
      NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the client module's registration
      data.
 
+### -param ClientBindingContext 
 
-### -param ClientBindingContext [in]
-
+[in]
 A pointer to the client module's context for the binding between the client module and the
      provider module. The client module uses this context to keep track of the state of the binding. The
      contents of the client module's binding context are opaque to the provider module. The provider module
@@ -87,9 +83,9 @@ A pointer to the client module's context for the binding between the client modu
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions that
      require the client module's binding context.
 
+### -param ClientDispatch 
 
-### -param ClientDispatch [in]
-
+[in]
 A pointer to a constant structure that contains the dispatch table of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
      client module. The contents of the structure are 
@@ -97,9 +93,9 @@ A pointer to a constant structure that contains the dispatch table of
      NPI does not define a client
      dispatch table structure, then this pointer is <b>NULL</b>.
 
+### -param ProviderBindingContext 
 
-### -param ProviderBindingContext [out]
-
+[out]
 A pointer to a variable into which the provider module will store a pointer to its context for the
      binding between the client module and the provider module. The provider module uses this context to keep
      track of the state of the binding. The contents of the provider module's binding context are opaque to
@@ -129,10 +125,7 @@ A pointer to a variable into which the provider module will store a pointer to a
      long as the client module is attached to the provider module. The contents of the structure are 
      NPI-specific.
 
-
 ## -returns
-
-
 
 A provider module's 
      <i>ProviderAttachClient</i> callback function returns one of the following NTSTATUS codes:
@@ -176,14 +169,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The NMR calls a provider module's 
     <i>ProviderAttachClient</i> callback function whenever a client module calls the 
@@ -232,13 +219,7 @@ If the provider module attaches to the client module and it dynamically allocate
 The NMR calls a provider module's 
     <i>ProviderAttachClient</i> callback function at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">NPI_PROVIDER_CHARACTERISTICS</a>
 
@@ -267,7 +248,4 @@ The NMR calls a provider module's
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>
- 
-
- 
 

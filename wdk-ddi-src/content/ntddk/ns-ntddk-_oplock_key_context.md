@@ -8,9 +8,6 @@ ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
 ms.date: 04/16/2018
 keywords: ["OPLOCK_KEY_CONTEXT structure"]
 ms.keywords: "*POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_VERSION_WIN8, POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], _OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context, ntddk/OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT"
-f1_keywords:
- - "ntddk/OPLOCK_KEY_CONTEXT"
- - "OPLOCK_KEY_CONTEXT"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- OPLOCK_KEY_CONTEXT
 targetos: Windows
 req.typenames: OPLOCK_KEY_CONTEXT, *POPLOCK_KEY_CONTEXT
+f1_keywords:
+ - _OPLOCK_KEY_CONTEXT
+ - ntddk/_OPLOCK_KEY_CONTEXT
+ - POPLOCK_KEY_CONTEXT
+ - ntddk/POPLOCK_KEY_CONTEXT
+ - OPLOCK_KEY_CONTEXT
+ - ntddk/OPLOCK_KEY_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - OPLOCK_KEY_CONTEXT
 ---
 
 # _OPLOCK_KEY_CONTEXT structure
@@ -46,14 +50,9 @@ req.typenames: OPLOCK_KEY_CONTEXT, *POPLOCK_KEY_CONTEXT
 
 ## -description
 
-
 The <b>OPLOCK_KEY_CONTEXT</b> structure is returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontextex">IoGetOplockKeyContextEx</a>. This structure contains oplock keys for a specific file object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -85,8 +84,6 @@ This is a Windows 8 oplock key.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
@@ -118,39 +115,22 @@ A valid oplock key is present in <b>TargetOplockKey.</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ParentOplockKey
 
 A <b>GUID</b>  that represents the parent oplock  key value.
 
-
 ### -field TargetOplockKey
 
 A <b>GUID</b>  that represents the target oplock  key value.
 
-
 ### -field Reserved
-
- 
-
-
-
 
 ## -remarks
 
-
-
 If an oplock is requested for a file during an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request, a file system that supports oplocks   will attach an oplock key context to the file object created. The oplock key  context is later available through a pointer to an <b>OPLOCK_KEY_CONTEXT</b> structure.  The <b>OPLOCK_KEY_CONTEXT</b> structure is returned from a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontextex">IoGetOplockKeyContextEx</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/dual-oplock-key-ecp-context">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
 
@@ -161,7 +141,4 @@ If an oplock is requested for a file during an <a href="https://docs.microsoft.c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
- 
-
- 
 

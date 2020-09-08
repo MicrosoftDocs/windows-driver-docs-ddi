@@ -8,9 +8,6 @@ ms.assetid: 3f3e6c56-937e-4a4b-885a-71be2e9513d8
 ms.date: 04/16/2018
 keywords: ["RxFinalizeConnection function"]
 ms.keywords: RxFinalizeConnection, RxFinalizeConnection function [Installable File System Drivers], ifsk.rxfinalizeconnection, rxprocs/RxFinalizeConnection, rxref_4d5f5633-98fc-4cdc-9803-01ccc06486f5.xml
-f1_keywords:
- - "rxprocs/RxFinalizeConnection"
- - "RxFinalizeConnection"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxprocs.h
-api_name:
-- RxFinalizeConnection
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxFinalizeConnection
+ - rxprocs/RxFinalizeConnection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxprocs.h
+api_name:
+ - RxFinalizeConnection
 ---
 
 # RxFinalizeConnection function
@@ -46,24 +46,18 @@ req.typenames:
 
 ## -description
 
-
-<b>RxFinalizeConnection</b> deletes a connection to a share. Any files open on the connection are closed depending on the level of force specified. The network mini-redirector might choose to keep the transport connection open for performance reasons, unless some option is specified to force a close of connection. 
-
+<b>RxFinalizeConnection</b> deletes a connection to a share. Any files open on the connection are closed depending on the level of force specified. The network mini-redirector might choose to keep the transport connection open for performance reasons, unless some option is specified to force a close of connection.
 
 ## -parameters
 
+### -param NetRoot 
 
-
-
-### -param NetRoot [in, out]
-
+[in, out]
 A pointer to the NET_ROOT structure being finalized.
-
 
 ### -param OPTIONAL
 
 <p>A pointer to the V_NET_ROOT structure being finalized.</p>
-
 
 ### -param ForceFilesClosed
 
@@ -97,12 +91,7 @@ A pointer to the NET_ROOT structure being finalized.
     
   </dl>
 
-
-
-
 ## -returns
-
-
 
 <b>RxFinalizeConnection</b> returns STATUS_SUCCESS on success or one of the following error codes on failure: 
 
@@ -156,26 +145,14 @@ An exclusive lock on the associated
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RxFinalizeConnection</b> is normally called by a network mini-redirector driver in response to receiving a custom IOCTL request from user mode. For example, a user might execute from the command line a "NET USE x: /d" to delete a share. This request would be mapped through the network provider DLL provided by the network mini-redirector to a custom IOCTL request sent to the network mini-redirector kernel driver which would call the <b>RxFinalizeConnection</b> routine to delete the connection.
 
 <b>RxFinalizeConnection</b> cancels all the outstanding requests for a given V_NET_ROOT structure. These V_NET_ROOT structures are created and deleted independent of the files that are opened and manipulated on them. Therefore it is imperative that when a delete operation is attempted, all the outstanding requests are canceled.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxcreatenetfcb">RxCreateNetFcb</a>
 
@@ -258,7 +235,4 @@ An exclusive lock on the associated
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-v-net-root-structure">The V_NET_ROOT Structure</a>
- 
-
- 
 

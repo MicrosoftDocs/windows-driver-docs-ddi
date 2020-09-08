@@ -8,9 +8,6 @@ ms.assetid: 58a34fe6-6e63-4022-81b5-2bfc10a75372
 ms.date: 05/10/2018
 keywords: ["D3DSHADER_INSTRUCTION_OPCODE_TYPE enumeration"]
 ms.keywords: D3DSHADER_INSTRUCTION_OPCODE_TYPE, D3DSHADER_INSTRUCTION_OPCODE_TYPE enumeration [Display Devices], D3DSIO_ABS, D3DSIO_ADD, D3DSIO_BEM, D3DSIO_BREAK, D3DSIO_BREAKC, D3DSIO_BREAKP, D3DSIO_CALL, D3DSIO_CALLNZ, D3DSIO_CMP, D3DSIO_CND, D3DSIO_COMMENT, D3DSIO_CRS, D3DSIO_DCL, D3DSIO_DEF, D3DSIO_DEFB, D3DSIO_DEFI, D3DSIO_DP2ADD, D3DSIO_DP3, D3DSIO_DP4, D3DSIO_DST, D3DSIO_DSX, D3DSIO_DSY, D3DSIO_ELSE, D3DSIO_END, D3DSIO_ENDIF, D3DSIO_ENDLOOP, D3DSIO_ENDREP, D3DSIO_EXP, D3DSIO_EXPP, D3DSIO_FORCE_DWORD, D3DSIO_FRC, D3DSIO_IF, D3DSIO_IFC, D3DSIO_LABEL, D3DSIO_LIT, D3DSIO_LOG, D3DSIO_LOGP, D3DSIO_LOOP, D3DSIO_LRP, D3DSIO_M3x2, D3DSIO_M3x3, D3DSIO_M3x4, D3DSIO_M4x3, D3DSIO_M4x4, D3DSIO_MAD, D3DSIO_MAX, D3DSIO_MIN, D3DSIO_MOV, D3DSIO_MOVA, D3DSIO_MUL, D3DSIO_NOP, D3DSIO_NRM, D3DSIO_PHASE, D3DSIO_POW, D3DSIO_RCP, D3DSIO_REP, D3DSIO_RET, D3DSIO_RSQ, D3DSIO_SETP, D3DSIO_SGE, D3DSIO_SGN, D3DSIO_SINCOS, D3DSIO_SLT, D3DSIO_SUB, D3DSIO_TEX, D3DSIO_TEXBEM, D3DSIO_TEXBEML, D3DSIO_TEXCOORD, D3DSIO_TEXDEPTH, D3DSIO_TEXDP3, D3DSIO_TEXDP3TEX, D3DSIO_TEXKILL, D3DSIO_TEXLDD, D3DSIO_TEXLDL, D3DSIO_TEXM3x2DEPTH, D3DSIO_TEXM3x2PAD, D3DSIO_TEXM3x2TEX, D3DSIO_TEXM3x3, D3DSIO_TEXM3x3PAD, D3DSIO_TEXM3x3SPEC, D3DSIO_TEXM3x3TEX, D3DSIO_TEXM3x3VSPEC, D3DSIO_TEXREG2AR, D3DSIO_TEXREG2GB, D3DSIO_TEXREG2RGB, UserModeDisplayDriver_Shader_a344517d-f568-4577-9ef2-cd7c11cb471c.xml, _D3DSHADER_INSTRUCTION_OPCODE_TYPE, d3d9types/D3DSHADER_INSTRUCTION_OPCODE_TYPE, d3d9types/D3DSIO_ABS, d3d9types/D3DSIO_ADD, d3d9types/D3DSIO_BEM, d3d9types/D3DSIO_BREAK, d3d9types/D3DSIO_BREAKC, d3d9types/D3DSIO_BREAKP, d3d9types/D3DSIO_CALL, d3d9types/D3DSIO_CALLNZ, d3d9types/D3DSIO_CMP, d3d9types/D3DSIO_CND, d3d9types/D3DSIO_COMMENT, d3d9types/D3DSIO_CRS, d3d9types/D3DSIO_DCL, d3d9types/D3DSIO_DEF, d3d9types/D3DSIO_DEFB, d3d9types/D3DSIO_DEFI, d3d9types/D3DSIO_DP2ADD, d3d9types/D3DSIO_DP3, d3d9types/D3DSIO_DP4, d3d9types/D3DSIO_DST, d3d9types/D3DSIO_DSX, d3d9types/D3DSIO_DSY, d3d9types/D3DSIO_ELSE, d3d9types/D3DSIO_END, d3d9types/D3DSIO_ENDIF, d3d9types/D3DSIO_ENDLOOP, d3d9types/D3DSIO_ENDREP, d3d9types/D3DSIO_EXP, d3d9types/D3DSIO_EXPP, d3d9types/D3DSIO_FORCE_DWORD, d3d9types/D3DSIO_FRC, d3d9types/D3DSIO_IF, d3d9types/D3DSIO_IFC, d3d9types/D3DSIO_LABEL, d3d9types/D3DSIO_LIT, d3d9types/D3DSIO_LOG, d3d9types/D3DSIO_LOGP, d3d9types/D3DSIO_LOOP, d3d9types/D3DSIO_LRP, d3d9types/D3DSIO_M3x2, d3d9types/D3DSIO_M3x3, d3d9types/D3DSIO_M3x4, d3d9types/D3DSIO_M4x3, d3d9types/D3DSIO_M4x4, d3d9types/D3DSIO_MAD, d3d9types/D3DSIO_MAX, d3d9types/D3DSIO_MIN, d3d9types/D3DSIO_MOV, d3d9types/D3DSIO_MOVA, d3d9types/D3DSIO_MUL, d3d9types/D3DSIO_NOP, d3d9types/D3DSIO_NRM, d3d9types/D3DSIO_PHASE, d3d9types/D3DSIO_POW, d3d9types/D3DSIO_RCP, d3d9types/D3DSIO_REP, d3d9types/D3DSIO_RET, d3d9types/D3DSIO_RSQ, d3d9types/D3DSIO_SETP, d3d9types/D3DSIO_SGE, d3d9types/D3DSIO_SGN, d3d9types/D3DSIO_SINCOS, d3d9types/D3DSIO_SLT, d3d9types/D3DSIO_SUB, d3d9types/D3DSIO_TEX, d3d9types/D3DSIO_TEXBEM, d3d9types/D3DSIO_TEXBEML, d3d9types/D3DSIO_TEXCOORD, d3d9types/D3DSIO_TEXDEPTH, d3d9types/D3DSIO_TEXDP3, d3d9types/D3DSIO_TEXDP3TEX, d3d9types/D3DSIO_TEXKILL, d3d9types/D3DSIO_TEXLDD, d3d9types/D3DSIO_TEXLDL, d3d9types/D3DSIO_TEXM3x2DEPTH, d3d9types/D3DSIO_TEXM3x2PAD, d3d9types/D3DSIO_TEXM3x2TEX, d3d9types/D3DSIO_TEXM3x3, d3d9types/D3DSIO_TEXM3x3PAD, d3d9types/D3DSIO_TEXM3x3SPEC, d3d9types/D3DSIO_TEXM3x3TEX, d3d9types/D3DSIO_TEXM3x3VSPEC, d3d9types/D3DSIO_TEXREG2AR, d3d9types/D3DSIO_TEXREG2GB, d3d9types/D3DSIO_TEXREG2RGB, display.shader_operation_codes
-f1_keywords:
- - "d3d9types/D3DSHADER_INSTRUCTION_OPCODE_TYPE"
- - "D3DSHADER_INSTRUCTION_OPCODE_TYPE"
 req.header: d3d9types.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d9types.h
-api_name:
-- D3DSHADER_INSTRUCTION_OPCODE_TYPE
 targetos: Windows
 req.typenames: D3DSHADER_INSTRUCTION_OPCODE_TYPE
+f1_keywords:
+ - _D3DSHADER_INSTRUCTION_OPCODE_TYPE
+ - d3d9types/_D3DSHADER_INSTRUCTION_OPCODE_TYPE
+ - D3DSHADER_INSTRUCTION_OPCODE_TYPE
+ - d3d9types/D3DSHADER_INSTRUCTION_OPCODE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d9types.h
+api_name:
+ - D3DSHADER_INSTRUCTION_OPCODE_TYPE
 ---
 
 # _D3DSHADER_INSTRUCTION_OPCODE_TYPE enumeration
@@ -46,9 +48,7 @@ req.typenames: D3DSHADER_INSTRUCTION_OPCODE_TYPE
 
 ## -description
 
-
 This section lists the shader operation codes that can be contained in the first 16 bits (0 - 15) of an [Instruction token](https://docs.microsoft.com/windows-hardware/drivers/display/instruction-token). The sections that follow describe the token format of the instructions that correspond to the operation codes.
-
 
 ## -enum-fields
 
@@ -121,7 +121,6 @@ The RSQ instruction computes the reciprocal square root of the source and stores
 <br/>[destination parameter token](https://docs.microsoft.com/windows-hardware/drivers/display/destination-parameter-token).
 <br/>[source parameter token](https://docs.microsoft.com/windows-hardware/drivers/display/source-parameter-token). Requires explicit use of replicate swizzle, that is, the X, Y, Z, or W swizzle component (or the R, G, B, or A equivalent) must be specified.
 
-
 ### -field D3DSIO_DP3
 
 The DP3 instruction computes the three-component (RGB) dot product of the source registers, and stores the result in the destination.
@@ -148,7 +147,6 @@ The MIN instruction determines the minimum of the sources, and stores the minimu
 <br/>[destination parameter token](https://docs.microsoft.com/windows-hardware/drivers/display/destination-parameter-token).
 <br/>first [source parameter token](https://docs.microsoft.com/windows-hardware/drivers/display/source-parameter-token).
 <br/>second source parameter token.
-
 
 ### -field D3DSIO_MAX
 
@@ -833,11 +831,9 @@ The PHASE instruction marks the transition between pixel shader version 1 and 2.
 
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/comment-token">comment token</a>.
 
-
 ### -field D3DSIO_END
 
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/end-token">end token</a>.
-
 
 ### -field D3DSIO_FORCE_DWORD
 

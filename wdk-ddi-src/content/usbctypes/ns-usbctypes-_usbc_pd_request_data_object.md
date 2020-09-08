@@ -5,85 +5,131 @@ description: Describes a Request Data Object (RDO).
 ms.assetid: 53d143ae-6a32-4944-a238-e5bd7814ab99
 ms.date: 09/30/2018
 keywords: ["USBC_PD_REQUEST_DATA_OBJECT structure"]
-f1_keywords:
- - "usbctypes/_USBC_PD_REQUEST_DATA_OBJECT"
- - "_USBC_PD_REQUEST_DATA_OBJECT"
-ms.keywords: _USBC_PD_REQUEST_DATA_OBJECT, USBC_PD_REQUEST_DATA_OBJECT, *PUSBC_PD_REQUEST_DATA_OBJECT, 
+ms.keywords: _USBC_PD_REQUEST_DATA_OBJECT, USBC_PD_REQUEST_DATA_OBJECT, *PUSBC_PD_REQUEST_DATA_OBJECT,
 req.header: usbctypes.h
 req.include-header: usbctypes.h
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
 req.umdf-ver: N/A
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: USBC_PD_REQUEST_DATA_OBJECT, *PUSBC_PD_REQUEST_DATA_OBJECT
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- usbctypes.h
-api_name: 
-- _USBC_PD_REQUEST_DATA_OBJECT
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _USBC_PD_REQUEST_DATA_OBJECT
+ - usbctypes/_USBC_PD_REQUEST_DATA_OBJECT
+ - PUSBC_PD_REQUEST_DATA_OBJECT
+ - usbctypes/PUSBC_PD_REQUEST_DATA_OBJECT
+ - USBC_PD_REQUEST_DATA_OBJECT
+ - usbctypes/USBC_PD_REQUEST_DATA_OBJECT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - usbctypes.h
+api_name:
+ - _USBC_PD_REQUEST_DATA_OBJECT
 ---
 
 # _USBC_PD_REQUEST_DATA_OBJECT structure
 
+
 ## -description
+
 Describes a Request Data Object (RDO). For information about these members, see the [Power Delivery specification](https://www.usb.org/documents?search=&tid_2%5B0%5D=40&items_per_page=50).
 
 ## -struct-fields
 
 ### -field U
-Size of the structure. 
+
+Size of the structure.
+
 ### -field Common
- 
+
 ### -field Common.Reserved1
-Reserved. 
+
+Reserved.
+
 ### -field Common.ObjectPosition
-Object position. 
+
+Object position.
+
 ### -field Common.Reserved2
-Reserved. 
+
+Reserved.
+
 ### -field FixedAndVariableRdo
-Contains bitfields describing a request data object.  
+
+Contains bitfields describing a request data object.
+
 ### -field FixedAndVariableRdo.MaximumOperatingCurrentIn10mA
-Maximum current in 10 mA units. 
+
+Maximum current in 10 mA units.
+
 ### -field FixedAndVariableRdo.OperatingCurrentIn10mA
-Operating current in 10mA units. 
+
+Operating current in 10mA units.
+
 ### -field FixedAndVariableRdo.Reserved1
-Reserved. 
+
+Reserved.
+
 ### -field FixedAndVariableRdo.CapabilityMismatch
-Capability Mismatch 
+
+Capability Mismatch
+
 ### -field FixedAndVariableRdo.GiveBackFlag
-GiveBack Flag. 
+
+GiveBack Flag.
+
 ### -field FixedAndVariableRdo.ObjectPosition
-Object Position. 
+
+Object Position.
+
 ### -field FixedAndVariableRdo.Reserved2
-Reserved for future use. 
+
+Reserved for future use.
+
 ### -field BatteryRdo
-Contains bitfields describing a request data object. 
+
+Contains bitfields describing a request data object.
+
 ### -field BatteryRdo.MaximumOperatingPowerIn250mW
-Maximum Operating Power in 250mW units. 
+
+Maximum Operating Power in 250mW units.
+
 ### -field BatteryRdo.OperatingPowerIn250mW
-Operating Power in 250mW units. 
+
+Operating Power in 250mW units.
+
 ### -field BatteryRdo.Reserved1
-Reserved. 
+
+Reserved.
+
 ### -field BatteryRdo.CapabilityMismatch
-Capability Mismatch. 
+
+Capability Mismatch.
+
 ### -field BatteryRdo.GiveBackFlag
-Giveback flag. 
+
+Giveback flag.
+
 ### -field BatteryRdo.ObjectPosition
-Object Position. 
+
+Object Position.
+
 ### -field BatteryRdo.Reserved2
-Reserved. 
+
+Reserved.
 
 ## -remarks
 
 ## -see-also
+

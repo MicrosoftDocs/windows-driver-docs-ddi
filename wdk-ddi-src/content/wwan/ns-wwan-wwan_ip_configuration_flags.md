@@ -8,9 +8,6 @@ ms.assetid: 5157F48F-E1D3-4B22-BBB0-0FC7965C794B
 ms.date: 05/02/2018
 keywords: ["WWAN_IP_CONFIGURATION_FLAGS structure"]
 ms.keywords: WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], netvista.wwan_ip_configuration_flags, wwan/WWAN_IP_CONFIGURATION_FLAGS
-f1_keywords:
- - "wwan/WWAN_IP_CONFIGURATION_FLAGS"
- - "WWAN_IP_CONFIGURATION_FLAGS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_IP_CONFIGURATION_FLAGS
 targetos: Windows
 req.typenames: WWAN_IP_CONFIGURATION_FLAGS
+f1_keywords:
+ - WWAN_IP_CONFIGURATION_FLAGS
+ - wwan/WWAN_IP_CONFIGURATION_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_IP_CONFIGURATION_FLAGS
 ---
 
 # WWAN_IP_CONFIGURATION_FLAGS structure
@@ -46,19 +46,13 @@ req.typenames: WWAN_IP_CONFIGURATION_FLAGS
 
 ## -description
 
-
 The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that describe the availability of the IP address, gateway, DNS server, and/or MTU information of a PDP context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Value
 
 Reserved. Do not use.
-
 
 ### -field AddressAvailable
 
@@ -76,14 +70,7 @@ A DNS server is available.
 
 An MTU is available.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-wwan_ip_configuration_flags">WWAN_IP_CONFIGURATION_FLAGS</a>
- 
-
- 
 

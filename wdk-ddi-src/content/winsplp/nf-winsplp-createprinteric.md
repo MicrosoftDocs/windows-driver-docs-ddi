@@ -8,9 +8,6 @@ ms.assetid: 87C99B3A-EF77-4D87-9953-BBE9628D2A3D
 ms.date: 04/20/2018
 keywords: ["CreatePrinterIC function"]
 ms.keywords: CreatePrinterIC, CreatePrinterIC function [Print Devices], print.createprinteric, winsplp/CreatePrinterIC
-f1_keywords:
- - "winsplp/CreatePrinterIC"
- - "CreatePrinterIC"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- CreatePrinterIC
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - CreatePrinterIC
+ - winsplp/CreatePrinterIC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - CreatePrinterIC
 ---
 
 # CreatePrinterIC function
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinter 
 
+[in]
 
+### -param pDevMode 
 
-### -param hPrinter [in]
-
-
-### -param pDevMode [in, optional]
+[in, optional]
 

@@ -8,38 +8,38 @@ ms.assetid: 2DE7417D-C616-4D1F-835D-29F477410F1E
 ms.date: 02/24/2018
 keywords: ["GET_VIRTUAL_DEVICE_DATA callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_DATA, GetVirtualFunctionData, GetVirtualFunctionData routine, PCI.getvirtualfunctiondata, wdm/GetVirtualFunctionData
-f1_keywords:
- - "wdm/GetVirtualFunctionData"
- - "GetVirtualFunctionData"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- GetVirtualFunctionData
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
+f1_keywords:
+ - GET_VIRTUAL_DEVICE_DATA
+ - wdm/GET_VIRTUAL_DEVICE_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - GetVirtualFunctionData
 ---
 
 # GET_VIRTUAL_DEVICE_DATA callback
@@ -47,12 +47,41 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 The  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
+## -parameters
+
+### -param Context 
+
+[in, out]
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
+
+### -param VirtualFunction 
+
+[in]
+A zero-based value that specifies the VF on the device from which data is to be read.
+
+### -param Buffer 
+
+[out]
+A pointer to the buffer that contains the configuration information read from the PCIe configuration space of the VF.
+
+### -param Offset 
+
+[in]
+The offset into the PCIe configuration space data of the VF. This member specifies where this read operation begins.
+
+### -param Length 
+
+[in]
+The length, in bytes, of the data to be read.
+
+## -returns
+
+The
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
 
 ## -prototype
-
 
 ```cpp
 GET_VIRTUAL_DEVICE_DATA GetVirtualFunctionData;
@@ -67,50 +96,7 @@ ULONG GetVirtualFunctionData(
 { ... }
 ```
 
-
-## -parameters
-
-
-
-
-### -param Context [in, out]
-
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
-
-
-### -param VirtualFunction [in]
-
-A zero-based value that specifies the VF on the device from which data is to be read.
-
-
-### -param Buffer [out]
-
-A pointer to the buffer that contains the configuration information read from the PCIe configuration space of the VF.
-
-
-### -param Offset [in]
-
-The offset into the PCIe configuration space data of the VF. This member specifies where this read operation begins.
-
-
-### -param Length [in]
-
-The length, in bytes, of the data to be read.
-
-
-## -returns
-
-
-
-The
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
-
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine resembles the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).
 
@@ -118,8 +104,6 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 <div class="alert"><b>Note</b>  The virtualization stack calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> when a driver that is running in the guest operating system calls the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine.</div>
 <div> </div>
-
-
 
 ## -see-also
 
@@ -140,11 +124,4 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 
 <b></b>
-
-
-
- 
-
- 
-
 

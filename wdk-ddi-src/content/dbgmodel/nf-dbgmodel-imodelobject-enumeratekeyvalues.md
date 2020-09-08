@@ -5,38 +5,38 @@ description: The EnumerateKeyValues method is the first method a client will tur
 ms.assetid: e1452944-0567-4b3d-a892-fc3e45ae34af
 ms.date: 07/20/2018
 keywords: ["IModelObject::EnumerateKeyValues"]
-f1_keywords:
- - "dbgmodel/IModelObject.EnumerateKeyValues"
- - "IModelObject.EnumerateKeyValues"
 ms.keywords: IModelObject::EnumerateKeyValues, EnumerateKeyValues, IModelObject.EnumerateKeyValues, IModelObject::EnumerateKeyValues, IModelObject.EnumerateKeyValues
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelObject.EnumerateKeyValues
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelObject::EnumerateKeyValues
+ - dbgmodel/IModelObject::EnumerateKeyValues
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelObject.EnumerateKeyValues
 ---
 
 # IModelObject::EnumerateKeyValues
@@ -44,18 +44,19 @@ ms.custom: RS5
 
 ## -description
 
-The EnumerateKeyValues method is the first method a client will turn to in order to enumerate all of the keys on an object (this includes all keys implemented anywhere in the tree of parent models). It is important to note that EnumerateKeyValues will enumerate any keys defined by duplicate names in the object tree; however -- methods like GetKeyValue and SetKeyValue will only manipulate the first instance of a key with the given name as discovered by the depth-first-traversal. 
+The EnumerateKeyValues method is the first method a client will turn to in order to enumerate all of the keys on an object (this includes all keys implemented anywhere in the tree of parent models). It is important to note that EnumerateKeyValues will enumerate any keys defined by duplicate names in the object tree; however -- methods like GetKeyValue and SetKeyValue will only manipulate the first instance of a key with the given name as discovered by the depth-first-traversal.
 
 ## -parameters
 
 ### -param enumerator
+
 An enumerator for all keys on the object (and all of its parent models) and their values and metadata is returned in this argument as an [IKeyEnumerator](nn-dbgmodel-ikeyenumerator.md).
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
-
 
 **Code Sample**
 
@@ -89,3 +90,4 @@ if (SUCCEEDED(spObject->EnumerateKeyValues(&spEnum)))
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

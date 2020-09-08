@@ -8,9 +8,6 @@ ms.assetid: 71949653-08c7-4f22-951d-6e1595b10700
 ms.date: 05/03/2018
 keywords: ["WIAS_LERROR macro"]
 ms.keywords: IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, WIAS_LERROR, WIAS_LERROR macro [Imaging Devices], image.wias_lerror, wiamdef/WIAS_LERROR
-f1_keywords:
- - "wiautil/WIAS_LERROR"
- - "WIAS_LERROR"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamdef.h
-api_name:
-- WIAS_LERROR
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WIAS_LERROR
+ - wiautil/WIAS_LERROR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamdef.h
+api_name:
+ - WIAS_LERROR
 ---
 
-# WIAS_LERROR macro
+# WIAS_LERROR macro (wiautil.h)
+
 
 ## -description
 
@@ -83,3 +84,4 @@ The WIAS_LERROR macro is not recommended, because it does not record its output 
 [WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_ltrace)
 
 [WIAS_LWARNING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lwarning)
+

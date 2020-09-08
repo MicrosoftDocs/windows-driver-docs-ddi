@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: 58680bce-dbd5-43c2-aca8-0e922ef51155
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL"
- - "NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL"
 ms.keywords: NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
+ - ndis/NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
 ---
 
 # NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro
@@ -86,3 +85,4 @@ The **NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL** macro returns a pointer to the 
 [**NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO**](ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md)
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+

@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dkmthk/_KMTUMDVERSION"
- - "_KMTUMDVERSION"
+ - _KMTUMDVERSION
+ - d3dkmthk/_KMTUMDVERSION
+ - KMTUMDVERSION
+ - d3dkmthk/KMTUMDVERSION
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _KMTUMDVERSION enumeration
+
 
 ## -description
 

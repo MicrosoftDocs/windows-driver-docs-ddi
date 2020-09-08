@@ -8,9 +8,6 @@ ms.assetid: 3f50bcba-c7d2-4d81-bd8b-6080e08fbe74
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_NET_PNP_EVENT callback function"]
 ms.keywords: PROTOCOL_NET_PNP_EVENT, PROTOCOL_NET_PNP_EVENT callback, ProtocolNetPnPEvent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolNetPnPEvent, netvista.protocolnetpnpevent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml
-f1_keywords:
- - "ndis/ProtocolNetPnPEvent"
- - "ProtocolNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolNetPnPEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_NET_PNP_EVENT
+ - ndis/PROTOCOL_NET_PNP_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolNetPnPEvent
 ---
 
 # PROTOCOL_NET_PNP_EVENT callback function
 
 
 ## -description
-
 
 NDIS calls the 
   <i>ProtocolNetPnPEvent</i> function to indicate a network Plug and Play event, an NDIS
@@ -55,11 +54,9 @@ NDIS calls the
 
 ## -parameters
 
+### -param ProtocolBindingContext 
 
-
-
-### -param ProtocolBindingContext [in]
-
+[in]
 The handle to a protocol-driver-allocated context area in which this driver maintains per-binding
      run-time state information. The protocol driver supplied this handle when it called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. A 
@@ -69,15 +66,7 @@ The handle to a protocol-driver-allocated context area in which this driver main
      <b>NetEventReconfigure</b> can be indicated with a specified 
      <i>ProtocolBindingContext</i> or with a <b>NULL</b><i>ProtocolBindingContext</i>.
 
-
 ### -param NetPnPEventNotification
-
-
-
-
-
-
-
 
 #### - NetPnPEvent [in]
 
@@ -86,10 +75,7 @@ A pointer to a
      NET_PNP_EVENT_NOTIFICATION</a> structure which describes the Plug and Play event or Power Management
      event that NDIS is indicating to the protocol driver.
 
-
 ## -returns
-
-
 
 <i>ProtocolNetPnPEvent</i> can return any of the following:
 
@@ -266,12 +252,7 @@ A protocol driver should always succeed the
       <b>NetEventPause</b>, <b>NetEventPortDeactivation</b>, and 
       <b>NetEventPnPCapabilities</b> events by returning NDIS_STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 The 
     <i>ProtocolNetPnPEvent</i> function is required in protocol drivers to support Plug
@@ -380,15 +361,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_NET_PNP_EVENT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_NET_PNP_EVENT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
 
@@ -407,7 +382,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>
- 
-
- 
 

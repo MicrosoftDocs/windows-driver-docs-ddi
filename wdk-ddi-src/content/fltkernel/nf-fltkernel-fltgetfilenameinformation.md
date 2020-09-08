@@ -8,9 +8,6 @@ ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
 ms.date: 07/27/2020
 keywords: ["FltGetFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
-f1_keywords:
- - "fltkernel/FltGetFileNameInformation"
- - "FltGetFileNameInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL (See Return Value)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetFileNameInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetFileNameInformation
+ - fltkernel/FltGetFileNameInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetFileNameInformation
 ---
 
 # FltGetFileNameInformation function
+
 
 ## -description
 
@@ -49,12 +50,14 @@ The **FltGetFileNameInformation** routine returns name information for a file or
 
 ## -parameters
 
-### -param CallbackData [in]
+### -param CallbackData 
 
+[in]
 Pointer to a [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) structure, which is the callback data structure for the I/O operation. This parameter is required and cannot be **NULL**.
 
-### -param NameOptions [in]
+### -param NameOptions 
 
+[in]
 A [**FLT_FILE_NAME_OPTIONS**](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. (Additional flags can be used by name provider minifilter drivers to specify name query options.) This parameter is required and cannot be **NULL**.
 
 The following are the file name format flag values. Only one of the following flags can be specified. For an explanation of these formats, see [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md).
@@ -82,8 +85,9 @@ Name provider minifilters use the following flags to specify the properties of f
 | FLT_FILE_NAME_DO_NOT_CACHE | This flag denotes that the name retrieved from this query should not be cached. Name provider minifilters use this flag as they perform intermediate queries to generate a name. |
 | FLT_FILE_NAME_ALLOW_QUERY_ON_REPARSE | A name provider minifilter can use this flag to specify that it is safe to query the name in the post-create path even if STATUS_REPARSE was returned. It is the caller's responsibility to ensure that the **FileObject->FileName** field was not changed. Do not use this flag with mount points or symbolic link reparse points. |
 
-### -param FileNameInformation [out]
+### -param FileNameInformation 
 
+[out]
 Pointer to a caller-allocated variable that receives the address of a system-allocated [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md) structure containing the file name information. **FltGetFileNameInformation** allocates this structure from paged pool. This parameter is required and cannot be **NULL**.
 
 ## -returns
@@ -248,7 +252,7 @@ If **FltGetFileNameInformation** is called in the preoperation callback routine 
 
 In create, hard-link, and rename operations, file name tunneling can cause the final component in normalized file name information that a minifilter driver retrieves in a preoperation callback routine to be invalidated. If a minifilter driver retrieves normalized file name information in a preoperation callback ([PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)) routine by calling a routine such as **FltGetFileNameInformation**, it must call [FltGetTunneledName](nf-fltkernel-fltgettunneledname.md) from its postoperation callback ([PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)) routine to retrieve the correct file name information for the file.
 
-For Windows 8.1 and earlier, **FltGetFileNameInformation** can include a [stream type](https://docs.microsoft.com/windows/desktop/FileIO/file-streams) *only* when called from a filter’s pre-create callback. To distinguish between a file’s default stream and metadata streams, this call should be made in the pre-create operation. The resulting stream type will remain valid across the lifetime of the file.
+For Windows 8.1 and earlier, **FltGetFileNameInformation** can include a [stream type](https://docs.microsoft.com/windows/win32/fileio/file-streams) *only* when called from a filter’s pre-create callback. To distinguish between a file’s default stream and metadata streams, this call should be made in the pre-create operation. The resulting stream type will remain valid across the lifetime of the file.
 
  Prior to Windows 8, Filter Manager obtained the normalized name for a file or directory by collecting the name information for each component of  the file path. This required multiple queries to the file system to compile the complete path. Starting with Windows 8, local file systems support the  **FileNormalizedNameInformation** file information class and only a single query is necessary to obtain the normalized name. Remote file systems may not support the **FileNormalizedNameInformation** file information class. When this is the case, a query for each component of the file path is still required to assemble the normalized name. Under certain network conditions, a full name query can require a significant amount of time to complete.
 
@@ -290,3 +294,4 @@ The following paired operations can cause the file name *name* to be tunneled:
 [PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)
 
 [PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 1607439d-fc94-4ebd-84c8-bb5cabdeaab9
 ms.date: 04/23/2018
 keywords: ["IOCTL_INTERNAL_SERENUM_REMOVE_SELF IOCTL"]
 ms.keywords: IOCTL_INTERNAL_SERENUM_REMOVE_SELF, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control code [Serial Ports], ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF, senumref_e7d31955-3eb4-4769-a7fa-84b55272f47a.xml, serports.ioctl_internal_serenum_remove_self
-f1_keywords:
- - "ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF"
- - "IOCTL_INTERNAL_SERENUM_REMOVE_SELF"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddser.h
-api_name:
-- IOCTL_INTERNAL_SERENUM_REMOVE_SELF
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_SERENUM_REMOVE_SELF
+ - ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddser.h
+api_name:
+ - IOCTL_INTERNAL_SERENUM_REMOVE_SELF
 ---
 
 # IOCTL_INTERNAL_SERENUM_REMOVE_SELF IOCTL
@@ -46,55 +46,29 @@ req.typenames:
 
 ## -description
 
-
-
 The IOCTL_INTERNAL_SERENUM_REMOVE_SELF request invalidates the bus relations of the filter DO that are associated with a target PDO. (Physically, this request invalidates the bus relations of the RS-232 port to which the target device is attached.)
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

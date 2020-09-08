@@ -8,9 +8,6 @@ ms.assetid: 954498b6-f611-4c88-99e1-a1812d512866
 ms.date: 04/30/2018
 keywords: ["RtlInitString function"]
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], k109_c0bd87a9-811c-4312-b2b4-e82bdbfa5b8c.xml, kernel.rtlinitstring, wdm/RtlInitString
-f1_keywords:
- - "wdm/RtlInitString"
- - "RtlInitString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInitString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInitString
+ - wdm/RtlInitString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInitString
 ---
 
 # RtlInitString function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlInitString</b> routine initializes a counted string of 8-bit characters.
-
 
 ## -parameters
 
+### -param DestinationString 
 
-
-
-### -param DestinationString [out]
-
+[out]
 A pointer to the <b>STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure.
 
+### -param SourceString 
 
-### -param SourceString [in, optional]
-
+[in, optional]
 A pointer to a null-terminated character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 This routine initializes a counted character string.
 
@@ -108,16 +96,7 @@ The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="https://docs.microsof
 
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
- 
-
- 
 

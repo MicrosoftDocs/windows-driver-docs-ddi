@@ -8,9 +8,6 @@ ms.assetid: 18c4f26a-6463-4157-bd81-6bbb2100eff2
 ms.date: 05/02/2018
 keywords: ["RILSUBADDRESSTYPE enumeration"]
 ms.keywords: RILSUBADDRESSTYPE, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_MAX, RIL_SUBADDRTYPE_USER, netvista.rilsubaddresstype, ntddrilapitypes/RILSUBADDRESSTYPE, ntddrilapitypes/RIL_SUBADDRTYPE_MAX, ntddrilapitypes/RIL_SUBADDRTYPE_USER
-f1_keywords:
- - "rilapitypes/RILSUBADDRESSTYPE"
- - "RILSUBADDRESSTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,38 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILSUBADDRESSTYPE
 targetos: Windows
 req.typenames: RILSUBADDRESSTYPE
+f1_keywords:
+ - RILSUBADDRESSTYPE
+ - rilapitypes/RILSUBADDRESSTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILSUBADDRESSTYPE
 ---
 
-# RILSUBADDRESSTYPE enumeration
+# RILSUBADDRESSTYPE enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_SUBADDRTYPE_NSAP
 
-
 ### -field RIL_SUBADDRTYPE_USER
-
 
 ### -field RIL_SUBADDRTYPE_MAX
 

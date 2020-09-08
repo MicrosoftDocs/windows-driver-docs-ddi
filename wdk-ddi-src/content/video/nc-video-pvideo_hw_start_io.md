@@ -8,9 +8,6 @@ ms.assetid: 82951291-cf3e-486b-ad0e-f347fefe0370
 ms.date: 05/10/2018
 keywords: ["PVIDEO_HW_START_IO callback function"]
 ms.keywords: HwVidStartIO, HwVidStartIO callback function [Display Devices], PVIDEO_HW_START_IO, PVIDEO_HW_START_IO callback, VideoMiniport_Functions_5dd4317e-f80d-4f93-86b5-b7c83aca2546.xml, display.hwvidstartio, video/HwVidStartIO
-f1_keywords:
- - "video/HwVidStartIO"
- - "HwVidStartIO"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- video.h
-api_name:
-- HwVidStartIO
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PVIDEO_HW_START_IO
+ - video/PVIDEO_HW_START_IO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - video.h
+api_name:
+ - HwVidStartIO
 ---
 
 # PVIDEO_HW_START_IO callback function
@@ -46,37 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <i>HwVidStartIO</i> processes the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">VRP</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension
 
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
-
 ### -param RequestPacket
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> structure, which contains all the parameters originally passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeviceiocontrol">EngDeviceIoControl</a>.
 
-
 ## -returns
-
-
 
 <i>HwVidStartIO</i> must return <b>TRUE</b>, indicating that it has completed the request.
 
-
-
-
 ## -remarks
-
-
 
 Every video miniport driver must have a <i>HwVidStartIO</i> function.
 
@@ -106,13 +92,7 @@ However, every miniport driver's <i>HwVidStartIO</i> function must complete each
 
 <i>HwVidStartIO</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
 
@@ -123,7 +103,4 @@ However, every miniport driver's <i>HwVidStartIO</i> function must complete each
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>
- 
-
- 
 

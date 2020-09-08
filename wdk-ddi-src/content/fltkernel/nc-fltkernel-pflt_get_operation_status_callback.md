@@ -8,9 +8,6 @@ ms.assetid: f3fedf69-260c-4117-b302-db3ce6b182a0
 ms.date: 04/16/2018
 keywords: ["PFLT_GET_OPERATION_STATUS_CALLBACK callback function"]
 ms.keywords: OperationStatusCallback, OperationStatusCallback routine [Installable File System Drivers], PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback, ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK
-f1_keywords:
- - "fltkernel/OperationStatusCallback"
- - "OperationStatusCallback"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- FltKernel.h
-api_name:
-- OperationStatusCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFLT_GET_OPERATION_STATUS_CALLBACK
+ - fltkernel/PFLT_GET_OPERATION_STATUS_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - FltKernel.h
+api_name:
+ - OperationStatusCallback
 ---
 
 # PFLT_GET_OPERATION_STATUS_CALLBACK callback function
@@ -46,55 +46,39 @@ req.typenames:
 
 ## -description
 
-
 A minifilter driver can register a routine of type <i>PFLT_GET_OPERATION_STATUS_CALLBACK</i> as the minifilter driver's OperationStatusCallback routine.
-
-
-
 
 ## -parameters
 
+### -param FltObjects 
 
-
-
-### -param FltObjects [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
 
+### -param IopbSnapshot 
 
-### -param IopbSnapshot [in]
+[in]
+A pointer to the data structure containing parameters from the IO Request Packet for the operation.
 
-A pointer to the data structure containing parameters from the IO Request Packet for the operation. 
+### -param OperationStatus 
 
+[in]
+The NTSTATUS value of the I/O operation generating the callback.
 
-### -param OperationStatus [in]
+### -param RequesterContext 
 
-The NTSTATUS value of the I/O operation generating the callback. 
-
-
-### -param RequesterContext [in, optional]
-
-An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>. 
-
+[in, optional]
+An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>.
 
 ## -remarks
-
-
 
 A minifilter driver can register a routine of type <i>PFLT_GET_OPERATION_STATUS_CALLBACK</i> as the minifilter driver's OperationStatusCallback routine. 
 
 
 
-Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPERATION_STATUS_CALLBACK</i>. Normally, a minifilter driver only calls this routine to determine whether a requested opportunistic lock was granted. 
-
-
-
-
+Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPERATION_STATUS_CALLBACK</i>. Normally, a minifilter driver only calls this routine to determine whether a requested opportunistic lock was granted.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_io_parameter_block">FLT_IO_PARAMETER_BLOCK</a>
 
@@ -105,7 +89,4 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>
- 
-
- 
 

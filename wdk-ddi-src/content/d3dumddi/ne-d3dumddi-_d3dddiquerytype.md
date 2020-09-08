@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDIQUERYTYPE"
- - "_D3DDDIQUERYTYPE"
+ - _D3DDDIQUERYTYPE
+ - d3dumddi/_D3DDDIQUERYTYPE
+ - D3DDDIQUERYTYPE
+ - d3dumddi/D3DDDIQUERYTYPE
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDIQUERYTYPE enumeration
+
 
 ## -description
 

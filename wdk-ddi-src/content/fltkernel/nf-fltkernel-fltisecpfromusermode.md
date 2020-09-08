@@ -8,9 +8,6 @@ ms.assetid: d00cb2b1-b579-43c9-9e4d-cbdefd8a343a
 ms.date: 04/16/2018
 keywords: ["FltIsEcpFromUserMode function"]
 ms.keywords: FltApiRef_e_to_o_ea63cca7-3efb-4b45-b075-7efbc8138f88.xml, FltIsEcpFromUserMode, FltIsEcpFromUserMode routine [Installable File System Drivers], fltkernel/FltIsEcpFromUserMode, ifsk.fltisecpfromusermode
-f1_keywords:
- - "fltkernel/FltIsEcpFromUserMode"
- - "FltIsEcpFromUserMode"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltMgr.sys
-api_name:
-- FltIsEcpFromUserMode
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltIsEcpFromUserMode
+ - fltkernel/FltIsEcpFromUserMode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltMgr.sys
+api_name:
+ - FltIsEcpFromUserMode
 ---
 
 # FltIsEcpFromUserMode function
@@ -46,38 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltIsEcpFromUserMode </b>routine is used to determine if an extra create parameter context structure (ECP) originated from user mode.
-
 
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
+[in]
 Opaque filter pointer for the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
+### -param EcpContext 
 
-### -param EcpContext [in]
-
+[in]
 Pointer to the ECP to test.
-
 
 ## -returns
 
-
-
 The routine returns <b>TRUE</b> if the ECP originated in user mode and <b>FALSE</b> if the ECP originated in kernel mode.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -100,7 +87,4 @@ The routine returns <b>TRUE</b> if the ECP originated in user mode and <b>FALSE<
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a>
- 
-
- 
 

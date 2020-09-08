@@ -8,9 +8,6 @@ ms.assetid: f860c230-01ca-4c7f-8b67-5d92a80ff906
 ms.date: 04/30/2018
 keywords: ["MmAllocatePagesForMdlEx function"]
 ms.keywords: MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, MM_ALLOCATE_FULLY_REQUIRED, MM_ALLOCATE_NO_WAIT, MM_ALLOCATE_PREFER_CONTIGUOUS, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MM_DONT_ZERO_ALLOCATION, MmAllocatePagesForMdlEx, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, kernel.mmallocatepagesformdlex, wdm/MmAllocatePagesForMdlEx
-f1_keywords:
- - "wdm/MmAllocatePagesForMdlEx"
- - "MmAllocatePagesForMdlEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmAllocatePagesForMdlEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmAllocatePagesForMdlEx
+ - wdm/MmAllocatePagesForMdlEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmAllocatePagesForMdlEx
 ---
 
 # MmAllocatePagesForMdlEx function
@@ -46,42 +46,38 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmAllocatePagesForMdlEx</b> routine allocates nonpaged, physical memory pages to an MDL.
-
 
 ## -parameters
 
+### -param LowAddress 
 
-
-
-### -param LowAddress [in]
-
+[in]
 Specifies the physical address of the start of the first address range from which the allocated pages can come. If <b>MmAllocatePagesForMdlEx</b> cannot allocate the requested number of bytes in the first address range, it iterates through additional address ranges to get more pages. At each iteration, <b>MmAllocatePagesForMdlEx</b> adds the value of <i>SkipBytes</i> to the previous start address to obtain the start of the next address range.
 
+### -param HighAddress 
 
-### -param HighAddress [in]
-
+[in]
 Specifies the physical address of the end of the first address range that the allocated pages can come from.
 
+### -param SkipBytes 
 
-### -param SkipBytes [in]
-
+[in]
 Specifies the number of bytes to skip from the start of the previous address range that the allocated pages can come from. <i>SkipBytes</i> must be an integer multiple of the virtual memory page size, in bytes.
 
+### -param TotalBytes 
 
-### -param TotalBytes [in]
-
+[in]
 Specifies the total number of bytes to allocate for the MDL.
 
+### -param CacheType 
 
-### -param CacheType [in]
-
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies flags for this operation. Set this parameter to zero or to the bitwise OR of one or more of the following <b>MM_ALLOCATE_<i>XXX</i></b> flag bits:
 
 The last four items in the preceding list are supported only in Windows 7 and later versions of Windows.
@@ -96,10 +92,7 @@ The last four items in the preceding list are supported only in Windows 7 and la
 | **MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS** 0x00000020 |Contiguous memory is required. Starting with Windows 7, this flag indicates that the requested pages must be allocated as contiguous blocks of physical memory. If the SkipBytes parameter is zero, MmAllocatePagesForMdlEx either succeeds and returns a single, contiguous block, or it fails and returns NULL. It never returns a partial allocation. For SkipBytes = 0, the allocated pages satisfy the address range requirements that are specified by the LowAddress and HighAddress parameters, but the pages are subject to no special alignment restrictions. If SkipBytes is nonzero, SkipBytes must be a power of two and must be greater than or equal to PAGE_SIZE, and the TotalBytes parameter value must be a multiple of SkipBytes. In this case, the returned MDL can contain multiple blocks of contiguous pages. That is, each block is internally contiguous but the blocks are not necessarily contiguous with each other. Each block of contiguous pages is guaranteed to be exactly SkipBytes long and to be aligned on a SkipBytes boundary. Partial allocations can occur if SkipBytes is nonzero, but each contiguous block in a partial allocation is guaranteed to be SkipBytes long. |
 |**MM_ALLOCATE_FAST_LARGE_PAGES** 0x00000040| Starting with Windows 8, this flag specifies that the allocation must be satisfied from the operating system's large page cache. If the cache is empty, allocation fails.  If MM_ALLOCATE_FAST_LARGE_PAGES is not specified, **MmAllocatePagesForMdlEx** uses cached large pages if they are available. If the cache is exhausted, **MmAllocatePagesForMdlEx** attempts to construct additional large pages, which may take a long time. MM_ALLOCATE_FAST_LARGE_PAGES must be used  with the MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag. The _SkipBytes_ parameter must be set to a multiple of large page size.|
 
-
 ## -returns
-
-
 
 <b>MmAllocatePagesForMdlEx</b> returns one of the following:
 
@@ -131,14 +124,8 @@ Indicates that no physical memory pages are available in the specified address r
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, the physical memory pages that <b>MmAllocatePagesForMdlEx</b> returns are not contiguous pages. Starting with Windows 7, callers can override the default behavior of this routine by setting the MM_ALLOCATE_PREFER_CONTIGUOUS or MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag bit in the <i>Flags</i> parameter.
 
@@ -156,13 +143,7 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 <b>MmAllocatePagesForMdlEx</b> runs at IRQL <= APC_LEVEL. In Windows Server 2008 and later versions of Windows, callers of <b>MmAllocatePagesForMdlEx </b>are allowed to be at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
@@ -181,7 +162,4 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpages">MmMapLockedPages</a>
- 
-
- 
 

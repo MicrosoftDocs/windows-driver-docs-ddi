@@ -8,8 +8,6 @@ ms.assetid: ceb6647a-a43e-4ab1-88d4-49927103ecba
 ms.date: 02/27/2020
 ms.keywords: "*PNDIS_OFFLOAD_PARAMETERS, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_SET_OFF, NDIS_OFFLOAD_SET_ON, PNDIS_OFFLOAD_PARAMETERS, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_PARAMETERS, netvista.ndis_offload_parameters, ntddndis/NDIS_OFFLOAD_PARAMETERS, ntddndis/PNDIS_OFFLOAD_PARAMETERS, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml"
 ms.topic: struct
-f1_keywords:
- - "ntddndis/NDIS_OFFLOAD_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -27,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_OFFLOAD_PARAMETERS
 targetos: Windows
 req.typenames: NDIS_OFFLOAD_PARAMETERS, *PNDIS_OFFLOAD_PARAMETERS
+f1_keywords:
+ - _NDIS_OFFLOAD_PARAMETERS
+ - ntddndis/_NDIS_OFFLOAD_PARAMETERS
+ - PNDIS_OFFLOAD_PARAMETERS
+ - ntddndis/PNDIS_OFFLOAD_PARAMETERS
+ - NDIS_OFFLOAD_PARAMETERS
+ - ntddndis/NDIS_OFFLOAD_PARAMETERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_OFFLOAD_PARAMETERS
 ---
 
 # _NDIS_OFFLOAD_PARAMETERS structure
+
 
 ## -description
 
@@ -351,8 +357,6 @@ The miniport driver should not change the current setting.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TcpConnectionIPv6
 
@@ -376,14 +380,11 @@ The miniport driver should not change the current setting.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
 A set of flags that can be combined with a bitwise OR operation. Set this member to zero. There
      are currently no flags defined.
-
 
 ### -field IPsecV2
 
@@ -449,8 +450,6 @@ The IPsec offload version 2A H and ESP features are enabled for transmit and rec
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IPsecV2IPv4
 
@@ -517,8 +516,6 @@ The IPsec offload version 2A H and ESP features are enabled for transmit and rec
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RscIPv4
 
@@ -560,8 +557,6 @@ The RSC state is disabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RscIPv6
 
@@ -603,8 +598,6 @@ The RSC state is disabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EncapsulatedPacketTaskOffload
 
@@ -651,8 +644,6 @@ Disables NVGRE task offloads.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EncapsulationTypes
 
@@ -686,14 +677,12 @@ Specifies VXLAN encapsulation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EncapsulationProtocolParameters
 
 A union that describes the encapsulation parameters for VXLAN encapsulation. 
 
-If the miniport driver advertised **VxlanUDPPortNumerConfigurable** as **TRUE**, then a protocol driver can set **EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber** to a non-0 value. The minport driver must use this port number for matching and generating VXLAN frames after succeeding the OID, and also advertise the updated value in its capabilities. If the protocol driver passes a value of **0**, then the miniport driver continues to use the port number initialized from the standardized keyword. 
+If the miniport driver advertised **VxlanUDPPortNumerConfigurable** as **TRUE**, then a protocol driver can set **EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber** to a non-0 value. The minport driver must use this port number for matching and generating VXLAN frames after succeeding the OID, and also advertise the updated value in its capabilities. If the protocol driver passes a value of **0**, then the miniport driver continues to use the port number initialized from the standardized keyword.
 
 ### -field EncapsulationProtocolParameters.VxlanParameters
 
@@ -840,9 +829,6 @@ The feature that the member specifies is enabled for transmit and receive.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
@@ -853,7 +839,4 @@ The feature that the member specifies is enabled for transmit and receive.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a>
- 
-
- 
 

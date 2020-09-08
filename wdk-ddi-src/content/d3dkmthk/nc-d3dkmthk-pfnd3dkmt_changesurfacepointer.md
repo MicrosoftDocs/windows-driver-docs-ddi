@@ -7,9 +7,6 @@ ms.assetid: 3db4e04b-2707-4eb1-a249-2714304246a8
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_CHANGESURFACEPOINTER callback function"]
 ms.keywords: D3DKMTChangeSurfacePointer, D3DKMTChangeSurfacePointer callback function [Display Devices], OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml, PFND3DKMT_CHANGESURFACEPOINTER, PFND3DKMT_CHANGESURFACEPOINTER callback, d3dkmthk/D3DKMTChangeSurfacePointer, display.d3dkmtchangesurfacepointer
-f1_keywords:
- - "d3dkmthk/D3DKMTChangeSurfacePointer"
- - "D3DKMTChangeSurfacePointer"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMTChangeSurfacePointer
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_CHANGESURFACEPOINTER
+ - d3dkmthk/PFND3DKMT_CHANGESURFACEPOINTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMTChangeSurfacePointer
 ---
 
 # PFND3DKMT_CHANGESURFACEPOINTER callback function
@@ -46,36 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>D3DKMTChangeSurfacePointer</b> function is for system use only.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
-
 
 For system use only.
 
-
-
 ## -returns
-
-
 
 An opaque NTSTATUS value.
 
-
-
-
 ## -remarks
 
-
-
 This function is for system use only.
-
-
 

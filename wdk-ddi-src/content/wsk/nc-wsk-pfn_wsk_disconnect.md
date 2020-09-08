@@ -8,9 +8,6 @@ ms.assetid: 499ff5d0-2030-472c-8de2-44dcd253d7b9
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_DISCONNECT callback function"]
 ms.keywords: PFN_WSK_DISCONNECT, PFN_WSK_DISCONNECT callback, WskDisconnect, WskDisconnect callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnect, wsk/WskDisconnect, wskref_0c0dd54e-03d9-4bb6-9040-68f352cfb6ae.xml
-f1_keywords:
- - "wsk/WskDisconnect"
- - "WskDisconnect"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskDisconnect
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_DISCONNECT
+ - wsk/PFN_WSK_DISCONNECT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskDisconnect
 ---
 
 # PFN_WSK_DISCONNECT callback function
@@ -46,26 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>WskDisconnect</b> function disconnects a connection-oriented or stream socket from a remote transport
   address.
 
-
 ## -parameters
 
+### -param Socket 
 
-
-
-### -param Socket [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being disconnected.
 
+### -param Buffer 
 
-### -param Buffer [in, optional]
-
+[in, optional]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure. This structure describes a data
      buffer that contains data to be transmitted by the WSK subsystem to the remote transport address before
@@ -74,9 +70,9 @@ A pointer to a
      <i>Flags</i> parameter, the 
      <i>Buffer</i> parameter must be <b>NULL</b>.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A ULONG value that contains the following flag, or zero:
      
 
@@ -89,18 +85,15 @@ A ULONG value that contains the following flag, or zero:
 Directs the WSK subsystem to perform an abortive disconnect of the socket. If a WSK application
        does not specify this flag, the WSK subsystem will perform a graceful disconnect of the socket.
 
+### -param Irp 
 
-### -param Irp [in, out]
-
+[in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the disconnect
      operation asynchronously. For more information about using IRPs with WSK functions, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
-
 ## -returns
-
-
 
 <b>WskDisconnect</b> returns one of the following NTSTATUS codes:
 
@@ -161,14 +154,8 @@ An error occurred. The IRP will be completed with failure status.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WSK application can call the 
     <b>WskDisconnect</b> function only on a connection-oriented or stream socket that it previously connected to a
@@ -206,13 +193,7 @@ If an abortive disconnect is performed, the WSK subsystem cancels all in-progres
 A WSK application can completely close the connection by calling the 
     <b>WskCloseSocket</b> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a>
 
@@ -244,7 +225,4 @@ A WSK application can completely close the connection by calling the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
- 
-
- 
 

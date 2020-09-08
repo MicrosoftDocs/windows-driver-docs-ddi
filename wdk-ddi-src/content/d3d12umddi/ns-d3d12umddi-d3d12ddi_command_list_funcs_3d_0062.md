@@ -8,38 +8,39 @@ ms.assetid: ece51af6-7368-4ce2-aa45-d82d86b151c8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_3D_0062 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0062"
- - "D3D12DDI_COMMAND_LIST_FUNCS_3D_0062"
-ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0062, D3D12DDI_COMMAND_LIST_FUNCS_3D_0062, 
+ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0062, D3D12DDI_COMMAND_LIST_FUNCS_3D_0062,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_3D_0062
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDI_COMMAND_LIST_FUNCS_3D_0062
 targetos: Windows
+ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0062, 19H1
+f1_keywords:
+ - D3D12DDI_COMMAND_LIST_FUNCS_3D_0062
+ - d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0062
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_COMMAND_LIST_FUNCS_3D_0062
 dev_langs:
  - c++
-ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0062, 19H1
 ---
 
 # D3D12DDI_COMMAND_LIST_FUNCS_3D_0062 structure
+
 
 ## -description
 
@@ -312,9 +313,11 @@ Dispatch rays.
 Sets the command-level shading rate and combiners.
 
 ### -field pfnRSSetShadingRateImage
+
  
 Sets the screen space image.
 
 ## -remarks
 
 ## -see-also
+

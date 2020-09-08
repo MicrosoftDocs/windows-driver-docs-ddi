@@ -8,9 +8,6 @@ ms.assetid: c11265fb-df9d-405e-ac9f-e868ab392e7b
 ms.date: 06/30/2020
 keywords: ["ZwCreateEvent function"]
 ms.keywords: NtCreateEvent, ZwCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture], k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, kernel.zwcreateevent, ntifs/NtCreateEvent, ntifs/ZwCreateEvent
-f1_keywords:
- - "ntifs/ZwCreateEvent"
- - "ZwCreateEvent"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwCreateEvent
-- NtCreateEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwCreateEvent
+ - ntifs/ZwCreateEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwCreateEvent
+ - NtCreateEvent
 ---
 
 # ZwCreateEvent function
+
 
 ## -description
 
@@ -50,12 +51,14 @@ The **ZwCreateEvent** routine creates an event object, sets the initial state of
 
 ## -parameters
 
-### -param EventHandle [out]
+### -param EventHandle 
 
+[out]
 A pointer to a variable that will receive the event object handle. The handle includes bookkeeping information, such as a reference count and security context.
 
-### -param DesiredAccess [in]
+### -param DesiredAccess 
 
+[in]
 The [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that represents the desired types of access for the event object. The following table contains the event-specific ACCESS_MASK values.
 
 | Value | Desired access |
@@ -64,16 +67,19 @@ The [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel
 | EVENT_MODIFY_STATE | Modify the state of the event object. |
 | EVENT_ALL_ACCESS   | All possible access rights to the event object. |
 
-### -param ObjectAttributes [in, optional]
+### -param ObjectAttributes 
 
+[in, optional]
 A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the **ObjectName** and the [**SECURITY_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor), for example. This parameter is initialized by calling the [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) macro.
 
-### -param EventType [in]
+### -param EventType 
 
+[in]
 The type of the event, which can be **SynchronizationEvent** or a **NotificationEvent**. These values belong to the **EVENT_TYPE** enumeration, which is defined in the *ntdef.h* header file.
 
-### -param InitialState [in]
+### -param InitialState 
 
+[in]
 The initial state of the event object. Set to **TRUE** to initialize the event object to the Signaled state. Set to **FALSE** to initialize the event object to the not-Signaled state.
 
 ## -returns
@@ -155,3 +161,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**ZwSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwsetevent)
 
 [**ZwWaitForSingleObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwwaitforsingleobject)
+

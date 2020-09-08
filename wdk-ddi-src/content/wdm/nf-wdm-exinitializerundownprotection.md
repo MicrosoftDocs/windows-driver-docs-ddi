@@ -8,9 +8,6 @@ ms.assetid: 59B9C222-1A03-4C04-9F29-D9EA47E5E298
 ms.date: 04/30/2018
 keywords: ["ExInitializeRundownProtection function"]
 ms.keywords: ExInitializeRundownProtection, ExInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exinitializerundownprotection, wdm/ExInitializeRundownProtection
-f1_keywords:
- - "wdm/ExInitializeRundownProtection"
- - "ExInitializeRundownProtection"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExInitializeRundownProtection
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExInitializeRundownProtection
+ - wdm/ExInitializeRundownProtection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExInitializeRundownProtection
 ---
 
 # ExInitializeRundownProtection function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExInitializeRundownProtection</b> routine initializes run-down protection on a shared object.
-
 
 ## -parameters
 
+### -param RunRef 
 
-
-
-### -param RunRef [out]
-
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure that is to be initialized. The allocation must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 This routine is called by the driver that owns an object that resides in shared memory and is that accessed by other drivers.
 
@@ -74,13 +67,7 @@ After an <b>EX_RUNDOWN_REF</b> structure is initialized, other drivers that acce
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/run-down-protection">Run-Down Protection</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a>
 
@@ -91,7 +78,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotection">ExReleaseRundownProtection</a>
- 
-
- 
 

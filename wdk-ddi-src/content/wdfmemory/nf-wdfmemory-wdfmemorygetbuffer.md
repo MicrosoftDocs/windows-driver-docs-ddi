@@ -8,9 +8,6 @@ ms.assetid: a5044eb5-d619-4adb-a00c-2d01e0311ade
 ms.date: 02/26/2018
 keywords: ["WdfMemoryGetBuffer function"]
 ms.keywords: DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer, WdfMemoryGetBuffer method, kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer
-f1_keywords:
- - "wdfmemory/WdfMemoryGetBuffer"
- - "WdfMemoryGetBuffer"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfMemoryGetBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfMemoryGetBuffer
+ - wdfmemory/WdfMemoryGetBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfMemoryGetBuffer
 ---
 
 # WdfMemoryGetBuffer function
@@ -49,43 +49,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfMemoryGetBuffer</b> method returns a pointer to the buffer that is associated with a specified memory object.
 
-
 ## -parameters
 
+### -param Memory 
 
-
-
-### -param Memory [in]
-
+[in]
 A handle to a framework memory object.
 
+### -param BufferSize 
 
-### -param BufferSize [out, optional]
-
+[out, optional]
 A pointer to a location that receives the size, in bytes, of the memory buffer. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfMemoryGetBuffer</b> returns a pointer to the memory buffer.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 For more information about framework memory objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
@@ -115,12 +101,7 @@ OsrFxEvtUsbInterruptPipeReadComplete(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorycreate">WdfMemoryCreate</a>
 
@@ -131,7 +112,4 @@ OsrFxEvtUsbInterruptPipeReadComplete(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectcontextgetobject">WdfObjectContextGetObject</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 388dc11d-79cc-4e6b-bce0-b99cca556342
 ms.date: 04/16/2018
 keywords: ["FltQuerySecurityObject function"]
 ms.keywords: FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, FltQuerySecurityObject, FltQuerySecurityObject function [Installable File System Drivers], fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject
-f1_keywords:
- - "fltkernel/FltQuerySecurityObject"
- - "FltQuerySecurityObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltQuerySecurityObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltQuerySecurityObject
+ - fltkernel/FltQuerySecurityObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQuerySecurityObject
 ---
 
 # FltQuerySecurityObject function
@@ -46,30 +46,26 @@ req.typenames:
 
 ## -description
 
-
 <b>FltQuerySecurityObject</b> retrieves a copy of an object's security 
    descriptor.
 
-
 ## -parameters
 
+### -param Instance 
 
-
-
-### -param Instance [in]
-
+[in]
 Opaque instance pointer for the caller. This parameter is required and cannot be 
       <b>NULL</b>.
 
+### -param FileObject 
 
-### -param FileObject [in]
-
+[in]
 File object pointer for the object whose security descriptor is being queried. This parameter is required 
       and cannot be <b>NULL</b>.
 
+### -param SecurityInformation 
 
-### -param SecurityInformation [in]
-
+[in]
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value. This parameter is 
        required and must be one of the following:
@@ -124,32 +120,28 @@ The system ACL (SACL) of the object is being queried. Requires
 </td>
 </tr>
 </table>
- 
 
+### -param SecurityDescriptor 
 
-### -param SecurityDescriptor [in, out]
-
+[in, out]
 Pointer to a caller-supplied output buffer that receives a copy of the security descriptor for the 
       specified object. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> 
       structure is returned in self-relative format. This parameter is optional and can be 
       <b>NULL</b>.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Size, in bytes, of the <i>SecurityDescriptor</i> buffer.
 
+### -param LengthNeeded 
 
-### -param LengthNeeded [out, optional]
-
+[out, optional]
 Pointer to a caller-allocated variable that receives the number of bytes required to store the copied 
       security descriptor returned in the buffer pointed to by the <i>SecurityDescriptor</i> 
       parameter. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>FltQuerySecurityObject</b> returns STATUS_SUCCESS or an appropriate 
       <b>NTSTATUS</b> value such as one of the following:
@@ -183,14 +175,8 @@ The buffer is too small to contain the security descriptor. None of the security
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the 
      structure are located contiguously in memory. In absolute form, the structure contains only pointers to its 
@@ -207,13 +193,7 @@ The object that the <i>FileObject</i> parameter points to can represent a named 
 
 For more information about security and access control, see the Microsoft Windows SDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stream_information">FILE_STREAM_INFORMATION</a>
 
@@ -224,7 +204,4 @@ For more information about security and access control, see the Microsoft Window
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
- 
-
- 
 

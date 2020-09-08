@@ -8,9 +8,6 @@ ms.assetid: 6AF170BF-C422-4340-8935-31A4D4F3EFA5
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP callback function"]
 ms.keywords: DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP, DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP callback, DxgkDdiStopDeviceAndReleasePostDisplayOwnership, DxgkDdiStopDeviceAndReleasePostDisplayOwnership callback function [Display Devices], display.dxgkddireleasepostdisplayownership, dispmprt/DxgkDdiStopDeviceAndReleasePostDisplayOwnership
-f1_keywords:
- - "dispmprt/DxgkDdiStopDeviceAndReleasePostDisplayOwnership"
- - "DxgkDdiStopDeviceAndReleasePostDisplayOwnership"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP
+ - dispmprt/DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 ---
 
 # DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP callback function
@@ -46,50 +46,36 @@ req.typenames:
 
 ## -description
 
-
 Called by the operating system to request the display miniport driver to reset the  display device and to release ownership of the current  power-on self-test (POST)  device.
 
 Starting with Windows 8, the operating system calls this function during a Plug and Play (PnP) stop operation.
 
 To indicate to the operating system that this function is supported, the driver must set the <b>NonVGASupport</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a> structure when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called.
 
-
 ## -parameters
 
+### -param MiniportDeviceContext 
 
-
-
-### -param MiniportDeviceContext [in]
-
+[in]
 A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
+### -param TargetId 
 
-
-
-### -param TargetId [in]
-
+[in]
 A <b>D3DDDI_VIDEO_PRESENT_TARGET_ID</b> value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPN) state during the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>.
 
 For more details about the use of the <i>TargetId</i> parameter, see the following Remarks section.
 
+### -param DisplayInfo 
 
-### -param DisplayInfo [out]
-
+[out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_dxgk_display_information">DXGK_DISPLAY_INFORMATION</a> structure that is allocated by the operating system.
-
 
 ## -returns
 
-
-
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h. For more information, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Allowed_color_formats"></a><a id="allowed_color_formats"></a><a id="ALLOWED_COLOR_FORMATS"></a>Allowed color formats</h3>
 The display miniport driver should report only a 32-bit color format. Therefore the <i>DisplayInfo</i>-><b>ColorFormat</b> member must include only one of the following two formats:
@@ -157,13 +143,7 @@ On UEFI-only systems, if the display miniport driver fails a call to this functi
 
 For more information on how this function is used in PnP scenarios, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/plug-and-play--pnp--start-and-stop-cases">Plug and Play (PnP) in WDDM 1.2 and later</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a>
 
@@ -194,7 +174,4 @@ For more information on how this function is used in PnP scenarios, see <a href=
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_stop_device">DxgkDdiStopDevice</a>
- 
-
- 
 

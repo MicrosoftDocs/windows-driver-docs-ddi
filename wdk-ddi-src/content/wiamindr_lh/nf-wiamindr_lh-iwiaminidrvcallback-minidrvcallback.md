@@ -8,13 +8,10 @@ ms.assetid: 7d1c0d8a-65db-47fd-ad6a-a83c7ed3acd9
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrvCallBack::MiniDrvCallback"]
 ms.keywords: CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, IWiaMiniDrvCallBack interface [Imaging Devices],MiniDrvCallback method, IWiaMiniDrvCallBack.MiniDrvCallback, IWiaMiniDrvCallBack::MiniDrvCallback, MiniDrvCallback, MiniDrvCallback method [Imaging Devices], MiniDrvCallback method [Imaging Devices],IWiaMiniDrvCallBack interface, image.iwiaminidrvcallback_minidrvcallback, wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrvCallBack.MiniDrvCallback"
- - "IWiaMiniDrvCallBack.MiniDrvCallback"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrvCallBack.MiniDrvCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrvCallBack::MiniDrvCallback
+ - wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrvCallBack.MiniDrvCallback
 ---
 
 # IWiaMiniDrvCallBack::MiniDrvCallback
+
 
 ## -description
 
@@ -49,8 +50,9 @@ The **MiniDrvCallback** method provides a callback method for WIA minidrivers to
 
 ## -parameters
 
-### -param lReason [in]
+### -param lReason 
 
+[in]
 Specifies a constant value that designates a callback status message. This value is used to determine the purpose of the callback, and can be one of the following values:
 
 | Message | Definition |
@@ -64,8 +66,9 @@ Specifies a constant value that designates a callback status message. This value
 | IT_MSG_STATUS | Callback contains only status information about the transfer. |
 | IT_MSG_TERMINATION | Indicates that the data transfer is complete. |
 
-### -param lStatus [in]
+### -param lStatus 
 
+[in]
 Specifies the status of the transfer. This parameter is a bitwise OR of the following values:
 
 | Status | Definition |
@@ -74,24 +77,29 @@ Specifies the status of the transfer. This parameter is a bitwise OR of the foll
 | IT_STATUS_PROCESSING_DATA | Device and/or minidriver are processing the data. |
 | IT_STATUS_TRANSFER_TO_CLIENT | Transferring data from the minidriver to the WIA service. |
 
-### -param lPercentComplete [in]
+### -param lPercentComplete 
 
+[in]
 Specifies the current percentage of data transferred.
 
-### -param lOffset [in]
+### -param lOffset 
 
+[in]
 Specifies the current offset (in bytes) into the transfer buffer from the beginning of the buffer.
 
-### -param lLength [in]
+### -param lLength 
 
+[in]
 Specifies the number of bytes contained in the transfer.
 
-### -param pTranCtx [in]
+### -param pTranCtx 
 
+[in]
 Points to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure containing the data transfer values.
 
-### -param lReserved [in]
+### -param lReserved 
 
+[in]
 Reserved. Set to zero.
 
 ## -returns
@@ -109,3 +117,4 @@ IT_MSG_FILE_PREVIEW_DATA_HEADER  is for out-of-band-data. This allows the applic
 [IWiaMiniDrvCallBack](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvcallback)
 
 [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context)
+

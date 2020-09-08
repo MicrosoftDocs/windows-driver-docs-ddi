@@ -8,9 +8,6 @@ ms.assetid: 5625c4af-329d-4b16-9d5d-0ca962a7abff
 ms.date: 04/04/2018
 keywords: ["IWDTFSimpleIOStressAction2::Continue"]
 ms.keywords: Continue, Continue method [Windows Device Testing Framework], Continue method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],Continue method, IWDTFSimpleIOStressAction2.Continue, IWDTFSimpleIOStressAction2::Continue, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Continue, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Continue, dtf.iwdtfsimpleiostressaction2_continue, wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue
-f1_keywords:
- - "wdtfinterfaces/IWDTFSimpleIOStressAction2.Continue"
- - "IWDTFSimpleIOStressAction2.Continue"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFInterfaces.Interop.dll
-api_name:
-- IWDTFSimpleIOStressAction2.Continue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimpleIOStressAction2::Continue
+ - wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFInterfaces.Interop.dll
+api_name:
+ - IWDTFSimpleIOStressAction2.Continue
 ---
 
 # IWDTFSimpleIOStressAction2::Continue
@@ -46,43 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Continues the I/O.
-
 
 ## -parameters
 
-
-
-
 ### -param pResult
-
-
-
-
-
 
 #### - pbResult [out, retval]
 
 True if the I/O operation succeeded; otherwise, false.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>
- 
-
- 
 

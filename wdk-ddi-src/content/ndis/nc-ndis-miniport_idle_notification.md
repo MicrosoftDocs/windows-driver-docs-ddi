@@ -8,9 +8,6 @@ ms.assetid: D679DEF0-1229-4731-8024-4DEDAE5B0185
 ms.date: 05/02/2018
 keywords: ["MINIPORT_IDLE_NOTIFICATION callback function"]
 ms.keywords: MINIPORT_IDLE_NOTIFICATION, MINIPORT_IDLE_NOTIFICATION callback, MiniportIdleNotification, MiniportIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportIdleNotification, netvista.miniportidlenotification
-f1_keywords:
- - "ndis/MiniportIdleNotification"
- - "MiniportIdleNotification"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportIdleNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_IDLE_NOTIFICATION
+ - ndis/MINIPORT_IDLE_NOTIFICATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportIdleNotification
 ---
 
 # MINIPORT_IDLE_NOTIFICATION callback function
@@ -46,33 +46,23 @@ req.typenames:
 
 ## -description
 
-
-
 NDIS calls the  <i>MiniportIdleNotification</i> handler function to start the NDIS selective suspend operation on an idle network adapter. Through this operation, the network adapter is suspended and transitioned to a low-power state.
-
-
-
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 A handle to a context area that the miniport driver allocated in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for a network adapter.
 
+### -param ForceIdle 
 
-### -param ForceIdle [in]
-
+[in]
 A <b>BOOLEAN</b> value that, when set to <b>TRUE</b>, specifies that the miniport driver must not veto the idle notification and must continue with the low-power state transition.
 
 For more information about the <i>ForceIdle</i> parameter, see the Remarks section.
 
-
 ## -returns
-
-
 
 <i>MiniportIdleNotification</i> returns one of the following status values:
 
@@ -121,14 +111,8 @@ The miniport driver could not issue a bus-specific IRP successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>MiniportIdleNotification</i> handler function is required for miniport drivers that support the NDIS selective suspend interface. For more information about how the driver registers its selective suspend handler functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-ndis-selective-suspend-handler-functions">Registering NDIS Selective Suspend Handler Functions</a>.
 
@@ -181,13 +165,7 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 For guidelines on how to implement the <i>MiniportIdleNotification</i> handler function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/implementing-a-miniportidlenotification-handler-function">Implementing a MiniportIdleNotification Handler Function</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -198,7 +176,4 @@ For guidelines on how to implement the <i>MiniportIdleNotification</i> handler f
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a>
- 
-
- 
 

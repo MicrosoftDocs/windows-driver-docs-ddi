@@ -8,9 +8,6 @@ ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.date: 02/26/2018
 keywords: ["IWDFDevice2::StopIdle"]
 ms.keywords: IWDFDevice2 interface,StopIdle method, IWDFDevice2.StopIdle, IWDFDevice2::StopIdle, StopIdle, StopIdle method, StopIdle method,IWDFDevice2 interface, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, umdf.iwdfdevice2_stopidle, wdf.iwdfdevice2_stopidle, wudfddi/IWDFDevice2::StopIdle
-f1_keywords:
- - "wudfddi/IWDFDevice2.StopIdle"
- - "IWDFDevice2.StopIdle"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice2.StopIdle
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice2::StopIdle
+ - wudfddi/IWDFDevice2::StopIdle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice2.StopIdle
 ---
 
 # IWDFDevice2::StopIdle
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>StopIdle</b> method informs the framework that the device must be placed in its working (D0) power state.
 
-
 ## -parameters
 
+### -param WaitForD0 
 
-
-
-### -param WaitForD0 [in]
-
+[in]
 A Boolean value that indicates when <b>StopIdle</b> will return. If <b>TRUE</b>, it returns only after the specified device enters the D0 device power state. If <b>FALSE</b>, the method returns immediately.
 
-
 ## -returns
-
-
 
 <b>StopIdle</b> returns S_OK if the operation succeeds. Otherwise, the method might return one of the following values:
 
@@ -111,12 +104,7 @@ A device failure occurred and the device cannot enter its D0 power state.
 
 This method might return one of the other values that Winerror.h contains.
 
-
-
-
 ## -remarks
-
-
 
 If your device can enter a low-power state when it becomes idle, your driver might have to occasionally call <b>StopIdle</b> to bring the device back to its working (D0) state or to prevent it from entering a low-power state. 
 
@@ -165,19 +153,11 @@ The following code example obtains the <a href="https://docs.microsoft.com/windo
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-resumeidle">IWDFDevice2::ResumeIdle</a>
- 
-
- 
 

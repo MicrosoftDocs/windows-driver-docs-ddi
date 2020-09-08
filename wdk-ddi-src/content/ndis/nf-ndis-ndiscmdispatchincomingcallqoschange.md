@@ -8,9 +8,6 @@ ms.assetid: eee2625e-6dc8-4f54-81e9-2d31d25f62d7
 ms.date: 05/02/2018
 keywords: ["NdisCmDispatchIncomingCallQoSChange function"]
 ms.keywords: NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, ndis/NdisCmDispatchIncomingCallQoSChange, netvista.ndiscmdispatchincomingcallqoschange
-f1_keywords:
- - "ndis/NdisCmDispatchIncomingCallQoSChange"
- - "NdisCmDispatchIncomingCallQoSChange"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCmDispatchIncomingCallQoSChange
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCmDispatchIncomingCallQoSChange
+ - ndis/NdisCmDispatchIncomingCallQoSChange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCmDispatchIncomingCallQoSChange
 ---
 
 # NdisCmDispatchIncomingCallQoSChange function
@@ -47,35 +47,28 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCmDispatchIncomingCallQoSChange</b> notifies a client that a request to change the quality of service
   on that client's active connection has been received over the network.
 
-
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle to the VC for which the change in QoS is being requested. The call manager
      originally obtained this handle either when it called 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> to set up this connection
      for an incoming call or as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
+### -param CallParameters 
 
-### -param CallParameters [in]
-
+[in]
 Pointer to a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> that specifies the new
      QoS, requested by the client on the remote node, for this connection.
 
-
 ## -remarks
-
-
 
 A stand-alone call manager calls 
     <b>NdisCmDispatchIncomingCallQoSChange</b> to notify the client that it has received a request to modify
@@ -101,13 +94,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
     call-management support call 
     <b>NdisMCmDispatchIncomingCallQoSChange</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -141,7 +128,4 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
    ProtocolCoReceiveNetBufferLists</a>
- 
-
- 
 

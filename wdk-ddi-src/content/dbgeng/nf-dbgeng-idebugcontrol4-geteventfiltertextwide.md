@@ -8,9 +8,6 @@ ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetEventFilterTextWide"]
 ms.keywords: GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterTextWide method, IDebugControl4.GetEventFilterTextWide, IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide
-f1_keywords:
- - "dbgeng/IDebugControl4.GetEventFilterTextWide"
- - "IDebugControl4.GetEventFilterTextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.GetEventFilterTextWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::GetEventFilterTextWide
+ - dbgeng/IDebugControl4::GetEventFilterTextWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.GetEventFilterTextWide
 ---
 
 # IDebugControl4::GetEventFilterTextWide
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetEventFilterTextWide</b>  method returns a short description of an event for a specific filter.
-
 
 ## -parameters
 
+### -param Index 
 
-
-
-### -param Index [in]
-
+[in]
 Specifies the index of the event filter whose description will be returned.  Only the specific filters have a description attached to them; <i>Index</i> must refer to a specific filter.
 
+### -param Buffer 
 
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the description of the specific filter.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size, in characters, of the buffer that <i>Buffer</i> specifies.
 
+### -param TextSize 
 
-### -param TextSize [out, optional]
-
+[out, optional]
 Receives the size of the event description.  If <i>TextSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -109,24 +102,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/event-filters">event filters</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/event-filters">Event Filters</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getspecificfilterparameters">GetSpecificFilterParameters</a>
 
@@ -137,7 +118,4 @@ For more information about <a href="https://docs.microsoft.com/windows-hardware/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/sx--sxd--sxe--sxi--sxn--sxr--sx---set-exceptions-">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
- 
-
- 
 

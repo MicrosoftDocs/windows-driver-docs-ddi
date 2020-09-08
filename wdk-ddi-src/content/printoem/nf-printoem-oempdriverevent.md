@@ -8,9 +8,6 @@ ms.assetid: 761967c9-c31f-4b7b-837a-bd48285c54fc
 ms.date: 04/20/2018
 keywords: ["OEMPDriverEvent function"]
 ms.keywords: OEMPDriverEvent, OEMPDriverEvent function [Print Devices], print.oempdriverevent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, printoem/OEMPDriverEvent
-f1_keywords:
- - "printoem/OEMPDriverEvent"
- - "OEMPDriverEvent"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMPDriverEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMPDriverEvent
+ - printoem/OEMPDriverEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMPDriverEvent
 ---
 
 # OEMPDriverEvent function
@@ -46,22 +46,13 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwDriverEvent
 
-
 ### -param dwLevel
 
-
 ### -param pDriverInfo
-
 
 ### -param lParam
 

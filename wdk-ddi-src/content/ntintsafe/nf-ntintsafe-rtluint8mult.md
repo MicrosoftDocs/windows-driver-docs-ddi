@@ -8,9 +8,6 @@ ms.assetid: 3F9E47F5-1DE3-4949-BE92-8C8F571BFD3D
 ms.date: 04/30/2018
 keywords: ["RtlUInt8Mult function"]
 ms.keywords: RtlUInt8Mult, RtlUInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtluint8mult, ntintsafe/RtlUInt8Mult
-f1_keywords:
- - "ntintsafe/RtlUInt8Mult"
- - "RtlUInt8Mult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntintsafe.h
-api_name:
-- RtlUInt8Mult
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUInt8Mult
+ - ntintsafe/RtlUInt8Mult
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntintsafe.h
+api_name:
+ - RtlUInt8Mult
 ---
 
 # RtlUInt8Mult function
@@ -46,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Multiplies one value of type <b>UINT8</b> by another.
-
 
 ## -parameters
 
+### -param u8Multiplicand 
 
-
-
-### -param u8Multiplicand [in]
-
+[in]
 The value to be multiplied by <i>u8Multiplier</i>.
 
+### -param u8Multiplier 
 
-### -param u8Multiplier [in]
-
+[in]
 The value by which to multiply <i>u8Multiplicand</i>.
 
+### -param pu8Result 
 
-### -param pu8Result [out]
-
+[out]
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

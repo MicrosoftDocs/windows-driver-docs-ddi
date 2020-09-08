@@ -8,9 +8,6 @@ ms.assetid: 50e14e01-5879-4a84-a8c2-f03c953dbeec
 ms.date: 04/23/2018
 keywords: ["KsGetBusEnumIdentifier function"]
 ms.keywords: KsGetBusEnumIdentifier, KsGetBusEnumIdentifier function [Streaming Media Devices], ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, stream.ksgetbusenumidentifier, swenum/KsGetBusEnumIdentifier
-f1_keywords:
- - "swenum/KsGetBusEnumIdentifier"
- - "KsGetBusEnumIdentifier"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsGetBusEnumIdentifier
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsGetBusEnumIdentifier
+ - swenum/KsGetBusEnumIdentifier
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsGetBusEnumIdentifier
 ---
 
 # KsGetBusEnumIdentifier function
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <i>This function is intended for internal use only.</i>
 
-The <b>KsGetBusEnumIdentifier</b> function retrieves the software bus enumerator identifier for the bus device associated with the given IRP. 
-
+The <b>KsGetBusEnumIdentifier</b> function retrieves the software bus enumerator identifier for the bus device associated with the given IRP.
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in, out]
-
+[in, out]
 Pointer to the IRP that specifies the address and size of the user output buffer to receive the requested bus enumerator identifier.
 
-
 ## -returns
-
-
 
 Returns STATUS_SUCCESS if the bus enumerator identifier was retrieved successfully. Otherwise, it returns one of the following values:
 
@@ -108,7 +101,4 @@ No buffer was specified (the required buffer size is returned in the Irp).
 </td>
 </tr>
 </table>
- 
-
-
 

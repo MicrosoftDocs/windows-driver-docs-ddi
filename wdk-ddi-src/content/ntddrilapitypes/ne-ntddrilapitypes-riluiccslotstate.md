@@ -8,50 +8,63 @@ ms.assetid: e88c6e79-c1a0-4ff9-ac00-f8f367aaa7c4
 ms.date: 02/16/2018
 keywords: ["RILUICCSLOTSTATE enumeration"]
 ms.keywords: RILUICCSLOTSTATE, RILUICCSLOTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSLOT_ACTIVE, RIL_UICCSLOT_EMPTY, RIL_UICCSLOT_ERROR, RIL_UICCSLOT_NOT_READY, RIL_UICCSLOT_OFF, RIL_UICCSLOT_OFF_EMPTY, netvista.riluiccslotstate, rilapitypes/RILUICCSLOTSTATE, rilapitypes/RIL_UICCSLOT_ACTIVE, rilapitypes/RIL_UICCSLOT_EMPTY, rilapitypes/RIL_UICCSLOT_ERROR, rilapitypes/RIL_UICCSLOT_NOT_READY, rilapitypes/RIL_UICCSLOT_OFF, rilapitypes/RIL_UICCSLOT_OFF_EMPTY
-f1_keywords:
- - "ntddrilapitypes/RILUICCSLOTSTATE"
- - "RILUICCSLOTSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILUICCSLOTSTATE
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILUICCSLOTSTATE
+f1_keywords:
+ - RILUICCSLOTSTATE
+ - ntddrilapitypes/RILUICCSLOTSTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILUICCSLOTSTATE
 ---
 
-# RILUICCSLOTSTATE enumeration
+# RILUICCSLOTSTATE enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILUICCSLOTSTATE.
 
+## -enum-fields
+
+### -field RIL_UICCSLOT_OFF_EMPTY
+
+### -field RIL_UICCSLOT_OFF
+
+### -field RIL_UICCSLOT_EMPTY
+
+### -field RIL_UICCSLOT_NOT_READY
+
+### -field RIL_UICCSLOT_ACTIVE
+
+### -field RIL_UICCSLOT_ERROR
+
+### -field RIL_UICCSLOT_MAX
 
 ## -syntax
-
 
 ```cpp
 enum RILUICCSLOTSTATE {
@@ -65,43 +78,7 @@ enum RILUICCSLOTSTATE {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_UICCSLOT_OFF_EMPTY
-
-
-### -field RIL_UICCSLOT_OFF
-
-
-### -field RIL_UICCSLOT_EMPTY
-
-
-### -field RIL_UICCSLOT_NOT_READY
-
-
-### -field RIL_UICCSLOT_ACTIVE
-
-
-### -field RIL_UICCSLOT_ERROR
-
-
-### -field RIL_UICCSLOT_MAX
-
-
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
 

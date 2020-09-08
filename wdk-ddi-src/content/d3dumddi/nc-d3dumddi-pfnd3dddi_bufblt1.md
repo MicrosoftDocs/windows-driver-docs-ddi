@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/BufBlt1"
- - "BufBlt1"
+ - PFND3DDDI_BUFBLT1
+ - d3dumddi/PFND3DDDI_BUFBLT1
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_BUFBLT1 callback function
+
 
 ## -description
 

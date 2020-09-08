@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: battery
+f1_keywords:
+ - upssvc
+ - upssvc/upssvc
 ---
 
 # Upssvc.h header
@@ -16,7 +19,7 @@ tech.root: battery
 
 ## -description
 
-
 This header is used by battery. For more information, see:
 
 - [Battery](../_battery/index.md)
+

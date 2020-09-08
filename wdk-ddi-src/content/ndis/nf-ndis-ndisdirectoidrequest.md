@@ -8,9 +8,6 @@ ms.assetid: 771e5761-beea-4a31-9ebe-d65e9157f1f4
 ms.date: 05/02/2018
 keywords: ["NdisDirectOidRequest function"]
 ms.keywords: NdisDirectOidRequest, NdisDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisDirectOidRequest, ndis_request_direct_ref_3a98c424-2d24-4841-87a7-e782d4e6c79d.xml, netvista.ndisdirectoidrequest
-f1_keywords:
- - "ndis/NdisDirectOidRequest"
- - "NdisDirectOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisDirectOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisDirectOidRequest
+ - ndis/NdisDirectOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisDirectOidRequest
 ---
 
 # NdisDirectOidRequest function
@@ -47,34 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisDirectOidRequest</b> function forwards a direct OID request to the underlying drivers to query the
   capabilities or status of an adapter or set the state of an adapter.
 
-
 ## -parameters
 
+### -param NdisBindingHandle 
 
-
-
-### -param NdisBindingHandle [in]
-
+[in]
 The handle that the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function returns that
      identifies the target miniport adapter on the binding.
 
+### -param OidRequest 
 
-### -param OidRequest [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that specifies
      the operation that is requested with a given OID_<i>Xxx</i> code to either query the status of an adapter or to set the state of an adapter.
 
-
 ## -returns
-
-
 
 The underlying driver determines which NDIS_STATUS_<i>XXX</i> code 
      <b>NdisDirectOidRequest</b> returns, but it is usually one of the following values:
@@ -232,14 +225,8 @@ This value typically is a non-specific default, returned when none of the more s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <b>NdisDirectOidRequest</b> function cannot be used for general OID requests. For general OID requests,
@@ -286,12 +273,7 @@ The direct OID request interface is similar to the general OID request interface
 <div class="alert"><b>Note</b>  Although Direct OID requests are not generally serialized, NDIS itself may still pend a request with NDIS_STATUS_PENDING and queue the request for later completion. For example, NDIS may pend and queue a Direct OID request sent to a selective suspend miniport that is currently in a low power state. Protocols and filters must be prepared to handle an NDIS_STATUS_PENDING code, even if the underlying miniport would complete the request synchronously.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
@@ -326,7 +308,4 @@ The direct OID request interface is similar to the general OID request interface
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_status_ex">ProtocolStatusEx</a>
- 
-
- 
 

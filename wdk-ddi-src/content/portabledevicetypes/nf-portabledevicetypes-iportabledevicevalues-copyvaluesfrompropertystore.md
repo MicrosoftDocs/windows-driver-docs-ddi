@@ -8,9 +8,6 @@ ms.assetid: 2010802f-3803-46f9-9f19-11fd1f593fc8
 ms.date: 02/15/2018
 keywords: ["IPortableDeviceValues::CopyValuesFromPropertyStore"]
 ms.keywords: CopyValuesFromPropertyStore, CopyValuesFromPropertyStore method, CopyValuesFromPropertyStore method,IPortableDeviceValues interface, IPortableDeviceValues interface,CopyValuesFromPropertyStore method, IPortableDeviceValues.CopyValuesFromPropertyStore, IPortableDeviceValues::CopyValuesFromPropertyStore, IPortableDeviceValuesCopyValuesFromPropertyStore, portabledevicetypes/IPortableDeviceValues::CopyValuesFromPropertyStore, wpddk.iportabledevicevalues_copyvaluesfrompropertystore
-f1_keywords:
- - "portabledevicetypes/IPortableDeviceValues.CopyValuesFromPropertyStore"
- - "IPortableDeviceValues.CopyValuesFromPropertyStore"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceTypes.h
-api_name:
-- IPortableDeviceValues.CopyValuesFromPropertyStore
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDeviceValues::CopyValuesFromPropertyStore
+ - portabledevicetypes/IPortableDeviceValues::CopyValuesFromPropertyStore
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceTypes.h
+api_name:
+ - IPortableDeviceValues.CopyValuesFromPropertyStore
 ---
 
 # IPortableDeviceValues::CopyValuesFromPropertyStore
@@ -47,26 +47,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Copies the contents of an <b>IPropertyStore</b> into the collection.
-
-
-
 
 ## -parameters
 
+### -param pStore 
 
-
-
-### -param pStore [in]
-
+[in]
 Pointer to an <b>IPropertyStore</b> to copy into the collection.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -87,33 +77,18 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method automatically converts all VT_<b>BSTR</b> values to VT_<b>LPWSTR</b> values.
 
 Many external applications or components that communicate with your application, such as some shell applications, use the IPropertyStore interface. This method provides an efficient way to exchange data with these programs.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-copyvaluestopropertystore">IPortableDeviceValues::CopyValuesToPropertyStore</a>
- 
-
- 
 

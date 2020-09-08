@@ -8,9 +8,6 @@ ms.assetid: 4f6d14b1-45fd-4f45-a10a-1483c10cec12
 ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_BREAK_RESERVATION IOCTL"]
 ms.keywords: IOCTL_STORAGE_BREAK_RESERVATION, IOCTL_STORAGE_BREAK_RESERVATION control, IOCTL_STORAGE_BREAK_RESERVATION control code [Storage Devices], k307_c8e206c8-a186-4bd4-a68e-899c8ca652a4.xml, ntddstor/IOCTL_STORAGE_BREAK_RESERVATION, storage.ioctl_storage_break_reservation
-f1_keywords:
- - "ntddstor/IOCTL_STORAGE_BREAK_RESERVATION"
- - "IOCTL_STORAGE_BREAK_RESERVATION"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddstor.h
-api_name:
-- IOCTL_STORAGE_BREAK_RESERVATION
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_STORAGE_BREAK_RESERVATION
+ - ntddstor/IOCTL_STORAGE_BREAK_RESERVATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddstor.h
+api_name:
+ - IOCTL_STORAGE_BREAK_RESERVATION
 ---
 
 # IOCTL_STORAGE_BREAK_RESERVATION IOCTL
 
 
 ## -description
-
-
 
 Breaks a disk reservation. In a multi-initiator ("clustered") system, a single computer can reserve a disk resource, so that no other computer can access the disk. If the computer does not or cannot free the resource in a timely fashion, a means is needed to remove the reservation of the disk by force.
 
@@ -58,70 +56,39 @@ Resetting the bus clears all device reservations and transfer speed settings, wh
 
 The caller requires only read access to issue a bus reset. 
 
-The <b>SrbStatus</b> flag of pending SRBs is set to SRB_STATUS_BUS_RESET. 
-
-
-
+The <b>SrbStatus</b> flag of pending SRBs is set to SRB_STATUS_BUS_RESET.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_break_reservation_request">STORAGE_BREAK_RESERVATION_REQUEST</a> structure that identifies the bus to reset.
 
-
 ### -input-buffer-length
 
 The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_break_reservation_request">STORAGE_BREAK_RESERVATION_REQUEST</a> structure.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The <b>Information</b> field is set to zero. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INSUFFICIENT_RESOURCES, STATUS_NOT_IMPLEMENTED, or STATUS_INVALID_DEVICE_REQUEST.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_reset_bus">IOCTL_STORAGE_RESET_BUS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_break_reservation_request">STORAGE_BREAK_RESERVATION_REQUEST</a>
- 
-
- 
 

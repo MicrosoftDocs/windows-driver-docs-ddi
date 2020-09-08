@@ -8,9 +8,6 @@ ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
 ms.date: 04/30/2018
 keywords: ["WmiQueryTraceInformation function"]
 ms.keywords: WmiQueryTraceInformation, WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, kernel.wmiquerytraceinformation, wdm/WmiQueryTraceInformation
-f1_keywords:
- - "wdm/WmiQueryTraceInformation"
- - "WmiQueryTraceInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- WmiQueryTraceInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WmiQueryTraceInformation
+ - wdm/WmiQueryTraceInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - WmiQueryTraceInformation
 ---
 
 # WmiQueryTraceInformation function
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>WmiQueryTraceInformation</b> routine returns information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-event-tracing">WMI event trace</a>.
-
 
 ## -parameters
 
+### -param TraceInformationClass 
 
-
-
-### -param TraceInformationClass [in]
-
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_trace_information_class">TRACE_INFORMATION_CLASS</a> enumerator that indicates the type of information to return about an event trace.
 
+### -param TraceInformation 
 
-### -param TraceInformation [out]
-
+[out]
 A pointer to a caller-allocated output buffer where the routine returns the event trace information specified by <i>TraceInformationClass</i>.
 
+### -param TraceInformationLength 
 
-### -param TraceInformationLength [in]
-
+[in]
 Specifies the size, in bytes, of the <i>TraceInformation</i> buffer.
 
+### -param RequiredLength 
 
-### -param RequiredLength [out, optional]
-
+[out, optional]
 A pointer to the value returned by the routine that specifies the required size, in bytes, of the <i>TraceInformation</i> buffer. The caller should set <i>RequiredLength</i> to <b>NULL</b> if it does not use the required length information.
 
+### -param Buffer 
 
-### -param Buffer [in, optional]
-
-A pointer to the query-specific input information that a caller supplies. If caller-supplied information is not required, the caller should set <i>Buffer</i> to <b>NULL</b>. 
-
+[in, optional]
+A pointer to the query-specific input information that a caller supplies. If caller-supplied information is not required, the caller should set <i>Buffer</i> to <b>NULL</b>.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -178,14 +171,8 @@ A global logger was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For each type of event trace information specified by <i>TraceInformationClass</i>, the following table provides:
 
@@ -348,13 +335,7 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 <b>WmiQueryTraceInformation</b> runs at the IRQL of the caller.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent">IoWmiWriteEvent</a>
 
@@ -373,7 +354,4 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>
- 
-
- 
 

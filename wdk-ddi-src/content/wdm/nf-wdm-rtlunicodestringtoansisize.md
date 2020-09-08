@@ -8,9 +8,6 @@ ms.assetid: 4deaa42e-8c8b-461a-845e-424b543b52b1
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringToAnsiSize macro"]
 ms.keywords: RtlUnicodeStringToAnsiSize, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, kernel.rtlunicodestringtoansisize, wdm/RtlUnicodeStringToAnsiSize
-f1_keywords:
- - "wdm/RtlUnicodeStringToAnsiSize"
- - "RtlUnicodeStringToAnsiSize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlUnicodeStringToAnsiSize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringToAnsiSize
+ - wdm/RtlUnicodeStringToAnsiSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlUnicodeStringToAnsiSize
 ---
 
 # RtlUnicodeStringToAnsiSize macro
@@ -46,17 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlUnicodeStringToAnsiSize</b> routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
-
 
 ## -parameters
 
+### -param STRING 
 
-
-
-### -param STRING [in]
-
+[in]
 Pointer to the Unicode string for which to compute the number of bytes required for an equivalent null-terminated ANSI string.
 
 ## -remarks
@@ -68,16 +64,7 @@ The Unicode string is interpreted for the current system locale.
 
 <b>RtlUnicodeStringToAnsiSize</b> performs the same operation as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlxunicodestringtoansisize">RtlxUnicodeStringToAnsiSize</a>, but executes faster if the system does not use multibyte code pages.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlxunicodestringtoansisize">RtlxUnicodeStringToAnsiSize</a>
- 
-
- 
 

@@ -26,17 +26,17 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
 api_name:
  - WdfDeviceSetDeviceInterfaceStateEx
 f1_keywords:
- - wdfdevice//WdfDeviceSetDeviceInterfaceStateEx
  - WdfDeviceSetDeviceInterfaceStateEx
+ - wdfdevice/WdfDeviceSetDeviceInterfaceStateEx
 dev_langs:
  - c++
 ---
@@ -44,7 +44,6 @@ dev_langs:
 ## -description
 
 The <b>WdfDeviceSetDeviceInterfaceStateEx</b> method enables or disables a device interface for a specified device.
-
 
 ## -parameters
 
@@ -58,7 +57,7 @@ A pointer to a GUID that identifies the device interface class.
 
 ### -param ReferenceString
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b>. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b>.
 
 ### -param IsInterfaceEnabled
 
@@ -70,10 +69,11 @@ The driver can call this function from [*EVT_WDF_DRIVER_DEVICE_ADD*](https://doc
  
 When calling from [*EVT_WDF_DRIVER_DEVICE_ADD*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add), the driver should set **IsInterfaceEnabled** to FALSE. 
  
-When calling after the device has started, the behavior is the same as [**WdfDeviceSetDeviceInterfaceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate). 
+When calling after the device has started, the behavior is the same as [**WdfDeviceSetDeviceInterfaceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate).
 
 ## -see-also
 
 [**WdfDeviceSetDeviceInterfaceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate)
 
 [Enabling and Disabling a Device Interface](/windows-hardware/drivers/wdf/using-device-interfaces#enabling-and-disabling-a-device-interface)
+

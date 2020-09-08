@@ -8,9 +8,6 @@ ms.assetid: 900A8CAB-287D-4D92-B4CB-2959E87C8E67
 ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, storage.ioctl_ehstor_device_enumerate_pdos
-f1_keywords:
- - "ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS"
- - "IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- EhStorIoctl.h
-api_name:
-- IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
+ - ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EhStorIoctl.h
+api_name:
+ - IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
 ---
 
 # IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS IOCTL
 
 
 ## -description
-
-
 
 This IOCTL returns a result set containing the enumeration of all active storage Physical Device Objects (PDOs) associated with the given Addressable Command Target (ACT). The client may first probe for the required buffer size by issuing this IOCTL in the following manner:
 
@@ -74,13 +72,7 @@ This only works because STATUS_BUFFER_OVERFLOW (0x80000005) is an NT_WARNING() v
 
 Caution is required here because IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS is defined with METHOD_BUFFERED, therefore I/O manager will attempt to copy this number of bytes into the output buffer.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -88,11 +80,9 @@ The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a ULONG value a
 
 where either all of the PDOs, just the disk PDO, just the control PDO or all silo PDOs are enumerated respectively according to the provided PDO_TYPE input value.
 
-
 ### -input-buffer-length
 
 The length of a ULONG.
-
 
 ### -output-buffer
 
@@ -100,29 +90,13 @@ Irp->AssociatedIrp.SystemBuffer points to the buffer that will receive the PDO e
 
 The returned enumeration buffer contains a result set structured according to the following rules. The leading structure in the buffer, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_enum_pdo_results">ENUM_PDO_RESULTS</a>, consists of a structure count and an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_enum_pdo_entry">ENUM_PDO_ENTRY</a> structures.
 
-
 ### -output-buffer-length
 
-OutputBufferLength indicates a buffer size of sufficient length to include the entire result set. 
-
+OutputBufferLength indicates a buffer size of sufficient length to include the entire result set.
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -153,5 +127,4 @@ STATUS_INVALID_BUFFER_SIZE - The output buffer length supplied is insufficient t
 
 </dd>
 </dl>
-
 

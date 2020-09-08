@@ -8,9 +8,6 @@ ms.assetid: b66652b7-2e02-49f5-a7e3-60ff35363a19
 ms.date: 05/02/2018
 keywords: ["NdisCancelTimerObject function"]
 ms.keywords: NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisCancelTimerObject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, netvista.ndiscanceltimerobject
-f1_keywords:
- - "ndis/NdisCancelTimerObject"
- - "NdisCancelTimerObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCancelTimerObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCancelTimerObject
+ - ndis/NdisCancelTimerObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCancelTimerObject
 ---
 
 # NdisCancelTimerObject function
@@ -47,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisCancelTimerObject</b> function cancels a timer object that is associated with a previous call to the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissettimerobject">NdisSetTimerObject</a> function.
 
-
 ## -parameters
 
+### -param TimerObject 
 
-
-
-### -param TimerObject [in]
-
+[in]
 A handle to a timer object that NDIS provides when a driver calls the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">
      NdisAllocateTimerObject</a> function.
 
-
 ## -returns
-
-
 
 <b>NdisCancelTimerObject</b> returns <b>TRUE</b> if the specified timer object is in the system timer queue;
      otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 A call to 
     <b>NdisCancelTimerObject</b> cancels execution of a 
@@ -112,12 +100,7 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">NdisAllocateTimerObject</a>
 
@@ -128,7 +111,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
- 
-
- 
 

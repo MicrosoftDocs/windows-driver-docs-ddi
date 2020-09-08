@@ -8,9 +8,6 @@ ms.assetid: E03B5319-BBBE-4396-8D03-8BC82FB97D15
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback function"]
 ms.keywords: 2/EvtSerCx2PioReceiveInitializeTransaction, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback, EvtSerCx2PioReceiveInitializeTransaction, EvtSerCx2PioReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2pioreceiveinitializetransaction
-f1_keywords:
- - "sercx/EvtSerCx2PioReceiveInitializeTransaction"
- - "EvtSerCx2PioReceiveInitializeTransaction"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 2.0\Sercx.h
-api_name:
-- EvtSerCx2PioReceiveInitializeTransaction
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION
+ - sercx/EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - EvtSerCx2PioReceiveInitializeTransaction
 ---
 
 # EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCx2PioReceiveInitializeTransaction</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller to perform a PIO-receive transaction.
-
 
 ## -parameters
 
+### -param PioReceive 
 
-
-
-### -param PioReceive [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> method to create this object.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The number of bytes to be transferred in the PIO-receive transaction.
 
-
 ## -remarks
-
-
 
 Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> method that creates the PIO-receive object.
 
@@ -114,12 +107,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION</b> function type is define
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
@@ -130,7 +118,4 @@ The <b>EVT_SERCX2_PIO_RECEIVE_INITIALIZE_TRANSACTION</b> function type is define
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceiveinitializetransactioncomplete">SerCx2PioReceiveInitializeTransactionComplete</a>
- 
-
- 
 

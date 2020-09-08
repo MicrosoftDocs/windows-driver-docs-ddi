@@ -8,9 +8,6 @@ ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.date: 04/27/2018
 keywords: ["BRB_SCO_GET_SYSTEM_INFO structure"]
 ms.keywords: "_BRB_SCO_GET_SYSTEM_INFO, _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_system_info, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bthddi/_BRB_SCO_GET_SYSTEM_INFO"
-f1_keywords:
- - "bthddi/_BRB_SCO_GET_SYSTEM_INFO"
- - "_BRB_SCO_GET_SYSTEM_INFO"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- _BRB_SCO_GET_SYSTEM_INFO
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _BRB_SCO_GET_SYSTEM_INFO
+ - bthddi/_BRB_SCO_GET_SYSTEM_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - _BRB_SCO_GET_SYSTEM_INFO
 ---
 
 # _BRB_SCO_GET_SYSTEM_INFO structure
@@ -46,22 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The _BRB_SCO_GET_SYSTEM_INFO structure describes information about the local system's support for SCO
   connections.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
-
 
 ### -field Features
 
@@ -76,19 +70,15 @@ A flag or combination of flags that indicates what SCO features the system suppo
 <dt>SCO_FEATURE_SCO_LINKS</dt>
 </dl>
 
-
-
 ### -field MaxChannels
 
 The maximum number of active SCO channels that the system supports. This member is set to 0xFFFF
      if there is no limit or if the limit is unknown.
 
-
 ### -field TransferUnit
 
 The minimum data transfer speed per each request, in milliseconds . Set to 0xFFFF if this value is
      variable or unknown.
-
 
 ### -field PacketTypes
 
@@ -112,8 +102,6 @@ A flag or combination of flags that indicates the type of SCO data packets that 
 <dt>SCO_EV5</dt>
 </dl>
 
-
-
 ### -field DataFormats
 
 A flag or combination of flags the indicates the voice-encoding data formats supported by the
@@ -131,16 +119,11 @@ A flag or combination of flags the indicates the voice-encoding data formats sup
 <dt>SCO_DATA_FORMAT_TRANSPARENT</dt>
 </dl>
 
-
-
 ### -field Reserved
 
 Reserved for future use. Do not use.
 
-
 ## -remarks
-
-
 
 To get the local system's support for SCO connections, profile drivers should 
     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
@@ -150,20 +133,11 @@ Higher-level profile drivers can build and send a <b>BRB_SCO_GET_SYSTEM_INFO</b>
     the local Bluetooth driver stack supports SCO connections, the maximum number of SCO channels that the
     system supports, and other useful information for opening a SCO connection to a remote device.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff536625(v=vs.85)">BRB_SCO_GET_SYSTEM_INFO</a>
- 
-
- 
 

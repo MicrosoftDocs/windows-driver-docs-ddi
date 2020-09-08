@@ -8,9 +8,6 @@ ms.assetid: 2e21d2f8-467e-43d3-8261-2373a8b8daa4
 ms.date: 05/02/2018
 keywords: ["NdisDprAcquireSpinLock macro"]
 ms.keywords: NdisDprAcquireSpinLock, NdisDprAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireSpinLock, ndis_spin_lock_ref_c954c605-2544-4911-8ebd-ba0464228437.xml, netvista.ndisdpracquirespinlock
-f1_keywords:
- - "ndis/NdisDprAcquireSpinLock"
- - "NdisDprAcquireSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisDprAcquireSpinLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisDprAcquireSpinLock
+ - ndis/NdisDprAcquireSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisDprAcquireSpinLock
 ---
 
 # NdisDprAcquireSpinLock macro
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisDprAcquireSpinLock</b> function acquires a spin lock so the caller can synchronize access to
   resources shared among non-ISR driver functions in a multiprocessor-safe way.
 
-
 ## -parameters
 
+### -param _SpinLock 
 
-
-
-### -param _SpinLock [in]
-
+[in]
 Pointer to an opaque spin lock, already initialized by the caller.
 
-
 ## -remarks
-
-
 
 The miniport driver must initialize a variable of type NDIS_SPIN_LOCK with 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> before it calls
@@ -107,13 +100,7 @@ For more information about acquiring and releasing NDIS spin locks, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_disable_interrupt">MiniportDisableInterruptEx</a>
 
@@ -146,7 +133,4 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
- 
-
- 
 

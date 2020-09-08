@@ -8,9 +8,6 @@ ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.date: 04/30/2018
 keywords: ["InterlockedDecrement function"]
 ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, wdm/InterlockedDecrement
-f1_keywords:
- - "wdm/InterlockedDecrement"
- - "InterlockedDecrement"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
@@ -28,55 +25,46 @@ req.type-library:
 req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OneCoreUAP.lib
-- OneCoreUAP.dll
-- API-MS-Win-Core-Interlocked-l1-1-0.dll
-- API-MS-Win-Core-Interlocked-l1-2-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- InterlockedDecrement
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - InterlockedDecrement
+ - wdm/InterlockedDecrement
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OneCoreUAP.lib
+ - OneCoreUAP.dll
+ - API-MS-Win-Core-Interlocked-l1-1-0.dll
+ - API-MS-Win-Core-Interlocked-l1-2-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - InterlockedDecrement
 ---
 
-# InterlockedDecrement function
+# InterlockedDecrement function (wdm.h)
 
 
 ## -description
 
-
-The <b>InterlockedDecrement</b> routine decrements a caller-supplied variable of type LONG as an atomic operation. 
-
+The <b>InterlockedDecrement</b> routine decrements a caller-supplied variable of type LONG as an atomic operation.
 
 ## -parameters
 
+### -param Addend 
 
-
-
-### -param Addend [in, out]
-
-A pointer to a variable to be decremented. 
-
+[in, out]
+A pointer to a variable to be decremented.
 
 ## -returns
 
-
-
 <b>InterlockedDecrement</b> returns the decremented value.
 
-
-
-
 ## -remarks
-
-
 
 <b>InterlockedDecrement</b> should be used instead of <b>ExInterlockedDecrementLong</b> because it is both more efficient and faster. 
 
@@ -84,15 +72,9 @@ A pointer to a variable to be decremented.
 
 <b>InterlockedDecrement</b> is atomic only with respect to other <b>Interlocked<i>Xxx</i></b> calls. 
 
-Interlocked operations cannot be used on non-cached memory. 
-
-
-
+Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545335">ExInterlockedAddLargeInteger</a>
 
@@ -107,7 +89,4 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedincrement">InterlockedIncrement</a>
- 
-
- 
 

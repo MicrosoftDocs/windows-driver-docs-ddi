@@ -8,9 +8,6 @@ ms.assetid: 2af1f496-48cf-4f99-a22b-cf7d1837617e
 ms.date: 04/16/2018
 keywords: ["FltCheckOplockEx function"]
 ms.keywords: FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml, FltCheckOplockEx, FltCheckOplockEx routine [Installable File System Drivers], fltkernel/FltCheckOplockEx, ifsk.fltcheckoplockex
-f1_keywords:
- - "fltkernel/FltCheckOplockEx"
- - "FltCheckOplockEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltCheckOplockEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCheckOplockEx
+ - fltkernel/FltCheckOplockEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltCheckOplockEx
 ---
 
 # FltCheckOplockEx function
+
 
 ## -description
 
@@ -50,16 +51,19 @@ A minifilter driver calls the **FltCheckOplockEx** routine to synchronize the ca
 
 ## -parameters
 
-### -param Oplock [in]
+### -param Oplock 
 
+[in]
 An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to [FltInitializeOplock](nf-fltkernel-fltinitializeoplock.md).
 
-### -param CallbackData [in]
+### -param CallbackData 
 
+[in]
 A pointer to the callback data [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)structure for the I/O operation.
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 A bitmask for the associated file I/O operation. A minifilter driver sets bits to specify the behavior of **FltCheckOplockEx**. The *Flags* parameter has the following options:
 
 #### OPLOCK_FLAG_COMPLETE_IF_OPLOCKED (0x00000001)
@@ -78,12 +82,14 @@ Specifies that [FsRtlCheckOplockEx](https://docs.microsoft.com/windows-hardware/
 
 Allows all opportunistic lock breaks to proceed regardless of the opportunistic lock key.
 
-### -param Context [in, optional]
+### -param Context 
 
+[in, optional]
 A pointer to caller-defined context information to be passed to the callback routines that *WaitCompletionRoutine* and *PrePostCallbackDataRoutine* point to. The Filter Manager treats this information as opaque.
 
-### -param WaitCompletionRoutine [in, optional]
+### -param WaitCompletionRoutine 
 
+[in, optional]
 A pointer to a caller-supplied callback routine. If an oplock break is in progress, the Filter Manager calls this routine when the oplock break is completed. This parameter is optional and can be **NULL**. If it is **NULL**, the caller is put into a wait state until the oplock break is completed.
 
 This routine is declared as follows:
@@ -106,8 +112,9 @@ A pointer to the callback data structure for the I/O operation.
 
 A context information pointer that was passed in the *Context* parameter to **FltCheckOplockEx**.
 
-### -param PrePostCallbackDataRoutine [in, optional]
+### -param PrePostCallbackDataRoutine 
 
+[in, optional]
 A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be **NULL**.
 
 This routine is declared as follows:
@@ -219,3 +226,4 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
 
 [PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)
+

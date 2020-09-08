@@ -8,9 +8,6 @@ ms.assetid: 532b56c9-6c24-4737-b1d6-e44802a898e3
 ms.date: 02/26/2018
 keywords: ["WdfCmResourceListRemoveByDescriptor function"]
 ms.keywords: DFResourceObjectRef_14bc7eb5-5cf4-49ae-83da-144ba0c9adea.xml, WdfCmResourceListRemoveByDescriptor, WdfCmResourceListRemoveByDescriptor method, kmdf.wdfcmresourcelistremovebydescriptor, wdf.wdfcmresourcelistremovebydescriptor, wdfresource/WdfCmResourceListRemoveByDescriptor
-f1_keywords:
- - "wdfresource/WdfCmResourceListRemoveByDescriptor"
- - "WdfCmResourceListRemoveByDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfCmResourceListRemoveByDescriptor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCmResourceListRemoveByDescriptor
+ - wdfresource/WdfCmResourceListRemoveByDescriptor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfCmResourceListRemoveByDescriptor
 ---
 
 # WdfCmResourceListRemoveByDescriptor function
@@ -47,26 +47,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfCmResourceListRemoveByDescriptor</b> method removes a specified resource descriptor from a specified resource list.
 
-
 ## -parameters
 
+### -param List 
 
-
-
-### -param List [in]
-
+[in]
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
+### -param Descriptor 
 
-### -param Descriptor [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
-
 
 ## -remarks
 
@@ -131,19 +126,11 @@ MyEvtDeviceRemoveAddedResources(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfcmresourcelistremove">WdfCmResourceListRemove</a>
- 
-
- 
 

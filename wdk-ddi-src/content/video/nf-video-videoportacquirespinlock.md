@@ -8,9 +8,6 @@ ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
 ms.date: 05/10/2018
 keywords: ["VideoPortAcquireSpinLock function"]
 ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, video/VideoPortAcquireSpinLock
-f1_keywords:
- - "video/VideoPortAcquireSpinLock"
- - "VideoPortAcquireSpinLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortAcquireSpinLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortAcquireSpinLock
+ - video/VideoPortAcquireSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortAcquireSpinLock
 ---
 
 # VideoPortAcquireSpinLock function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortAcquireSpinLock</b> function obtains the specified spin lock.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in, out]
-
+[in, out]
 Pointer to the miniport driver's device extension.
 
+### -param SpinLock 
 
-### -param SpinLock [in]
-
+[in]
 Pointer to a memory location that contains the spin lock.
 
+### -param OldIrql 
 
-### -param OldIrql [out]
-
+[out]
 Pointer to a memory location that will receive the current IRQL.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 The current IRQL is saved in <i>OldIrql</i>. Then, the current IRQL is reset to DISPATCH_LEVEL, and the specified spin lock is acquired.
 
@@ -104,19 +92,11 @@ The caller should release the spin lock with <b>VideoPortReleaseSpinLock</b> as 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570176">VideoPortAcquireSpinLockAtDpcLevel</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570357">VideoPortReleaseSpinLock</a>
- 
-
- 
 

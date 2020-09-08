@@ -8,9 +8,6 @@ ms.assetid: 724FD17B-D12B-423D-AA0E-93D9D31DC93E
 ms.date: 04/23/2018
 keywords: ["BDA_DISEQC_RESPONSE structure"]
 ms.keywords: "*PBDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE structure [Streaming Media Devices], PBDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE structure pointer [Streaming Media Devices], _BDA_DISEQC_RESPONSE, bdatypes/BDA_DISEQC_RESPONSE, bdatypes/PBDA_DISEQC_RESPONSE, stream.bda_diseqc_response"
-f1_keywords:
- - "bdatypes/BDA_DISEQC_RESPONSE"
- - "BDA_DISEQC_RESPONSE"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bdatypes.h
-api_name:
-- BDA_DISEQC_RESPONSE
 targetos: Windows
 req.typenames: BDA_DISEQC_RESPONSE, *PBDA_DISEQC_RESPONSE
+f1_keywords:
+ - _BDA_DISEQC_RESPONSE
+ - bdatypes/_BDA_DISEQC_RESPONSE
+ - PBDA_DISEQC_RESPONSE
+ - bdatypes/PBDA_DISEQC_RESPONSE
+ - BDA_DISEQC_RESPONSE
+ - bdatypes/BDA_DISEQC_RESPONSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bdatypes.h
+api_name:
+ - BDA_DISEQC_RESPONSE
 ---
 
 # _BDA_DISEQC_RESPONSE structure
@@ -46,20 +50,11 @@ req.typenames: BDA_DISEQC_RESPONSE, *PBDA_DISEQC_RESPONSE
 
 ## -description
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field ulRequestId
 
-
 ### -field ulPacketLength
-
 
 ### -field argbPacketData
 

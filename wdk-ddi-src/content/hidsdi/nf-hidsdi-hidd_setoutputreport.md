@@ -8,9 +8,6 @@ ms.assetid: a4ec7a17-40c4-4812-a62a-585b3b486578
 ms.date: 06/19/2019
 keywords: ["HidD_SetOutputReport function"]
 ms.keywords: HidD_SetOutputReport, HidD_SetOutputReport routine [Human Input Devices], hid.hidd_setoutputreport, hidfunc_eb711fe9-fdf1-4757-90c1-6c4e115f3805.xml, hidsdi/HidD_SetOutputReport
-f1_keywords:
- - "hidsdi/HidD_SetOutputReport"
- - "HidD_SetOutputReport"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Hid.dll
-api_name:
-- HidD_SetOutputReport
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidD_SetOutputReport
+ - hidsdi/HidD_SetOutputReport
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Hid.dll
+api_name:
+ - HidD_SetOutputReport
 ---
 
 # HidD_SetOutputReport function
@@ -46,44 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidD_SetOutputReport</b> routine sends an output report to a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
-
 
 ## -parameters
 
+### -param HidDeviceObject 
 
-
-
-### -param HidDeviceObject [in]
-
+[in]
 Specifies an open handle to a top-level collection.
 
+### -param ReportBuffer 
 
-### -param ReportBuffer [in]
-
+[in]
 Pointer to a caller-allocated output report buffer that the caller uses to specify a report ID.
 
 For more information about this parameter, see the Remarks section.
 
+### -param ReportBufferLength 
 
-### -param ReportBufferLength [in]
-
+[in]
 Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the output report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
-
 
 ## -returns
 
-
-
-If <b>HidD_SetOutputReport</b> succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
-
-
-
+If <b>HidD_SetOutputReport</b> succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 ## -remarks
-
-
 
 Before it calls the <b>HidD_SetOutputReport</b> routine, the caller must do the following:
 
@@ -133,14 +121,7 @@ For more information, see the following topics:
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getfeature">HidD_GetFeature</a>
 
@@ -167,7 +148,4 @@ For more information, see the following topics:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report">IOCTL_HID_SET_OUTPUT_REPORT</a>
- 
-
- 
 

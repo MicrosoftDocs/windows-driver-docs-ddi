@@ -8,9 +8,6 @@ ms.assetid: 65828926-FDA7-4F65-AD55-B7E03639FA27
 ms.date: 04/30/2018
 keywords: ["PsStartSiloMonitor function"]
 ms.keywords: PsStartSiloMonitor, PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psstartsilomonitor, ntddk/PsStartSiloMonitor
-f1_keywords:
- - "ntddk/PsStartSiloMonitor"
- - "PsStartSiloMonitor"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsStartSiloMonitor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsStartSiloMonitor
+ - ntddk/PsStartSiloMonitor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsStartSiloMonitor
 ---
 
 # PsStartSiloMonitor function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 This routine tries to start the server silo monitor.
-
 
 ## -parameters
 
+### -param Monitor 
 
-
-
-### -param Monitor [in]
-
+[in]
 A pointer to the silo monitor.
 
-
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -105,7 +98,4 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
 

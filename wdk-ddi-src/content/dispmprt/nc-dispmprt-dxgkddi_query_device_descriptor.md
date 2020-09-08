@@ -8,9 +8,6 @@ ms.assetid: 0dfcc012-9fff-40b6-b71f-da2ca229896c
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback function"]
 ms.keywords: DXGKDDI_QUERY_DEVICE_DESCRIPTOR, DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback, DmFunctions_84688704-46fd-40d6-993e-298c6d3d5dcd.xml, DxgkDdiQueryDeviceDescriptor, DxgkDdiQueryDeviceDescriptor callback function [Display Devices], display.dxgkddiquerydevicedescriptor, dispmprt/DxgkDdiQueryDeviceDescriptor
-f1_keywords:
- - "dispmprt/DxgkDdiQueryDeviceDescriptor"
- - "DxgkDdiQueryDeviceDescriptor"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiQueryDeviceDescriptor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_QUERY_DEVICE_DESCRIPTOR
+ - dispmprt/DXGKDDI_QUERY_DEVICE_DESCRIPTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiQueryDeviceDescriptor
 ---
 
 # DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback function
@@ -46,29 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The <i>DxgkDdiQueryDeviceDescriptor</i> function returns a descriptor for a child device of a display adapter or for an external device (typically a monitor) connected to a child device of a display adapter.
-
 
 ## -parameters
 
+### -param MiniportDeviceContext 
 
-
-
-### -param MiniportDeviceContext [in]
-
+[in]
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
+### -param ChildUid 
 
-### -param ChildUid [in]
-
+[in]
 An integer that uniquely identifies the child device. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function previously provided this identifier to the display port driver.
 
+### -param DeviceDescriptor 
 
-### -param DeviceDescriptor [in, out]
-
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_device_descriptor">DXGK_DEVICE_DESCRIPTOR</a> structure. The caller initializes the <b>DescriptorLength</b> and <b>DescriptorBuffer</b> members. If the child device has a type of <b>TypeVideoOutput</b>, the caller also initializes the <b>DescriptorOffset</b> member. On return, the caller-allocated buffer pointed to by the <b>DescriptorBuffer</b> member receives the descriptor.
-
 
 ## -returns
 
@@ -79,12 +74,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_SUCCESS** | The function successfully returned the device descriptor. | 
 | **STATUS_GRAPHICS_CHILD_DESCRIPTOR_NOT_SUPPORTED** | The (onboard) child device identified by ChildUid does not support a descriptor. | 
 | **STATUS_MONITOR_NO_DESCRIPTOR** | The child device identified by ChildUid is connected to a monitor that does not support an EDID descriptor. | 
-| **STATUS_MONITOR_NO_MORE_DESCRIPTOR_DATA** | The child device identified by ChildUid is connected to a monitor that does support an EDID descriptor, but the descriptor does not have the EDID extension block specified by the DescriptorOffset and DescriptorLengthmembers of DeviceDescriptor. | 
-
+| **STATUS_MONITOR_NO_MORE_DESCRIPTOR_DATA** | The child device identified by ChildUid is connected to a monitor that does support an EDID descriptor, but the descriptor does not have the EDID extension block specified by the DescriptorOffset and DescriptorLengthmembers of DeviceDescriptor. |
 
 ## -remarks
-
-
 
 <i>DxgkDdiQueryDeviceDescriptor</i> must never write more than the number of bytes specified by <i>DeviceDescriptor</i>-><b>DescriptorLength</b>.
 
@@ -96,13 +88,7 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function can be called several times for
 
 <i>DxgkDdiQueryDeviceDescriptor</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a>
 
@@ -117,7 +103,4 @@ The <i>DxgkDdiQueryDeviceDescriptor</i> function can be called several times for
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_status">DxgkDdiQueryChildStatus</a>
- 
-
- 
 

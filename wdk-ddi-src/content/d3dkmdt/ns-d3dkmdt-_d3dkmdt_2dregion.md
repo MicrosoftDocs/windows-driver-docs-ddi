@@ -8,9 +8,6 @@ ms.assetid: 24f703c5-d025-4233-a32d-7cb8bcb5c6b7
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_2DREGION structure"]
 ms.keywords: D3DKMDT_2DOFFSET, D3DKMDT_2DREGION, D3DKMDT_2DREGION structure [Display Devices], DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, _D3DKMDT_2DREGION, d3dkmdt/D3DKMDT_2DREGION, display.d3dkmdt_2dregion
-f1_keywords:
- - "d3dkmdt/D3DKMDT_2DREGION"
- - "D3DKMDT_2DREGION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- D3DKMDT_2DREGION
 targetos: Windows
 req.typenames: D3DKMDT_2DREGION
+f1_keywords:
+ - _D3DKMDT_2DREGION
+ - d3dkmdt/_D3DKMDT_2DREGION
+ - D3DKMDT_2DREGION
+ - d3dkmdt/D3DKMDT_2DREGION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - D3DKMDT_2DREGION
 ---
 
 # _D3DKMDT_2DREGION structure
@@ -46,19 +48,13 @@ req.typenames: D3DKMDT_2DREGION
 
 ## -description
 
-
 The D3DKMDT_2DREGION structure is used to represent a point or an offset in a two-dimensional space.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cx
 
 The horizontal component of the point or offset.
-
 
 ### -field cy
 

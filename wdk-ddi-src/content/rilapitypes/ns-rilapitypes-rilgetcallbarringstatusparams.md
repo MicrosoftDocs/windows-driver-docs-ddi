@@ -8,9 +8,6 @@ ms.assetid: ce4ff193-1699-4712-93c1-c623474e1993
 ms.date: 05/02/2018
 keywords: ["RILGETCALLBARRINGSTATUSPARAMS structure"]
 ms.keywords: "*LPRILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetcallbarringstatusparams, ntddrilapitypes/RILGETCALLBARRINGSTATUSPARAMS"
-f1_keywords:
- - "rilapitypes/RILGETCALLBARRINGSTATUSPARAMS"
- - "RILGETCALLBARRINGSTATUSPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,41 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILGETCALLBARRINGSTATUSPARAMS
 targetos: Windows
 req.typenames: RILGETCALLBARRINGSTATUSPARAMS, *LPRILGETCALLBARRINGSTATUSPARAMS
+f1_keywords:
+ - RILGETCALLBARRINGSTATUSPARAMS
+ - rilapitypes/RILGETCALLBARRINGSTATUSPARAMS
+ - LPRILGETCALLBARRINGSTATUSPARAMS
+ - rilapitypes/LPRILGETCALLBARRINGSTATUSPARAMS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILGETCALLBARRINGSTATUSPARAMS
 ---
 
-# RILGETCALLBARRINGSTATUSPARAMS structure
+# RILGETCALLBARRINGSTATUSPARAMS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwExecutor
-
 
 ### -field dwType
 
-
 ### -field fAllClasses
-
 
 ### -field dwInfoClasses
 

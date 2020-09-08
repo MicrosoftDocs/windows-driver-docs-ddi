@@ -8,9 +8,6 @@ ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
 ms.date: 03/29/2018
 keywords: ["TAPE_SET_POSITION structure"]
 ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml"
-f1_keywords:
- - "minitape/TAPE_SET_POSITION"
- - "TAPE_SET_POSITION"
 req.header: minitape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
@@ -28,32 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddtape.h
-api_name:
-- TAPE_SET_POSITION
 targetos: Windows
 req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
+f1_keywords:
+ - _TAPE_SET_POSITION
+ - minitape/_TAPE_SET_POSITION
+ - PTAPE_SET_POSITION
+ - minitape/PTAPE_SET_POSITION
+ - TAPE_SET_POSITION
+ - minitape/TAPE_SET_POSITION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddtape.h
+api_name:
+ - TAPE_SET_POSITION
 ---
 
-# _TAPE_SET_POSITION structure
+# _TAPE_SET_POSITION structure (minitape.h)
 
 
 ## -description
 
-
 The TAPE_SET_POSITION structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_set_position">IOCTL_TAPE_SET_POSITION</a> request to move the current position on the tape to the specified partition and offset.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Method
 
@@ -119,8 +118,7 @@ Starting from the current position, positions the tape immediately after the num
 
 #### TAPE_SPACE_SEQUENTIAL_SMKS
 
-Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored. 
-
+Starting from the current position, positions the tape immediately after the next occurrence, if any, of the number of consecutive setmarks specified by <b>Offset</b>. The <b>Partition</b> member is ignored.
 
 ### -field Partition
 
@@ -134,22 +132,17 @@ Indicates the partition in which to set the tape's position. This member must ha
 </dl>
 
 
-If the media is not partitioned, this member is zero. 
-
+If the media is not partitioned, this member is zero.
 
 ### -field Offset
 
-Specifies an offset whose type depends on the value in <b>Method</b>. If the specified method positions the tape to a block address, <b>Offset</b> specifies the byte offset into the specified partition. If the specified method is to skip blocks, filemarks, or setmarks, <b>Offset</b> specifies the number to skip. If <b>Offset</b> is zero, the tape is positioned at the beginning of the partition. 
-
+Specifies an offset whose type depends on the value in <b>Method</b>. If the specified method positions the tape to a block address, <b>Offset</b> specifies the byte offset into the specified partition. If the specified method is to skip blocks, filemarks, or setmarks, <b>Offset</b> specifies the number to skip. If <b>Offset</b> is zero, the tape is positioned at the beginning of the partition.
 
 ### -field Immediate
 
-When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete. 
-
+When set to <b>TRUE</b>, indicates that the target device should return status immediately. When set to <b>FALSE</b>, indicates that the device should return status after the operation is complete.
 
 ## -remarks
-
-
 
 Note that a drive or a tape may not support all <b>Method</b> values.
 
@@ -157,20 +150,11 @@ Partitions are numbered logically from 1 to N. However, a partition number does 
 
 When the offset specifies a number of blocks, filemarks, or setmarks to position over, a positive value N in the offset causes forward positioning over N blocks, filemarks, or setmarks, halting on the end-of-partition or end-of-tape side of the block, filemark, or setmark. A zero value in the offset causes no change of position. A negative value N in the offset causes reverse positioning, toward the beginning of the partition or the tape media, over N blocks, filemarks, or setmarks, halting on the beginning-of-partition side of a block, filemark, or setmark.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_set_position">IOCTL_TAPE_SET_POSITION</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetPosition</a>
- 
-
- 
 

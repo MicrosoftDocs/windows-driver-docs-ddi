@@ -5,38 +5,41 @@ description: Arguments used by the DxgkcbPinFrameBufferForSave callback function
 ms.assetid: 7c151074-7ac1-42b2-84ae-78ae67087b44
 ms.date: 10/19/2018
 keywords: ["DXGKARGCB_PINFRAMEBUFFERFORSAVE structure"]
-f1_keywords:
- - "d3dkmddi/_DXGKARGCB_PINFRAMEBUFFERFORSAVE"
- - "_DXGKARGCB_PINFRAMEBUFFERFORSAVE"
 ms.keywords: _DXGKARGCB_PINFRAMEBUFFERFORSAVE, DXGKARGCB_PINFRAMEBUFFERFORSAVE, *INOUT_PDXGKARGCB_PINFRAMEBUFFERFORSAVE
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARGCB_PINFRAMEBUFFERFORSAVE
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGKARGCB_PINFRAMEBUFFERFORSAVE
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGKARGCB_PINFRAMEBUFFERFORSAVE
+ - d3dkmddi/_DXGKARGCB_PINFRAMEBUFFERFORSAVE
+ - DXGKARGCB_PINFRAMEBUFFERFORSAVE
+ - d3dkmddi/DXGKARGCB_PINFRAMEBUFFERFORSAVE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGKARGCB_PINFRAMEBUFFERFORSAVE
+product:
+ - Windows
 ---
 
 # _DXGKARGCB_PINFRAMEBUFFERFORSAVE structure
+
 
 ## -description
 
@@ -61,3 +64,4 @@ An MDL pointing to the pages of the frame buffer save area. These pages are guar
 ## -see-also
 
 [DxgkcbPinFrameBufferForSave](C:\drivers\wdk-ddi\wdk-ddi-src\content\d3dkmddi\nc-d3dkmddi-dxgkcb_pinframebufferforsave.md)
+

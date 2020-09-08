@@ -5,39 +5,42 @@ description: Present multi-plane overlay flags.
 ms.assetid: c393bd00-8e07-4f67-ab94-c8a348d39fe5
 ms.date: 10/19/2018
 keywords: ["D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS structure"]
-f1_keywords:
- - "d3dkmthk/_D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS"
- - "_D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS"
-ms.keywords: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS, D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS, 
+ms.keywords: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS, D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS,
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- _D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - _D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
+ - d3dkmthk/_D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
+ - D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
+ - d3dkmthk/D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - _D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # _D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS structure
+
 
 ## -description
 
@@ -81,7 +84,7 @@ Indicates whether the HDR metadata is valide.
 
 ### -field HMD
 
-The HMD (head mounted display). 
+The HMD (head mounted display).
 
 ### -field TrueImmediate
 
@@ -92,9 +95,11 @@ The true immediate.
 Reserved for internal use.
 
 ### -field Value
+
  
 The value used to operate over the other members.
 
 ## -remarks
 
 ## -see-also
+

@@ -8,9 +8,6 @@ ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
 ms.date: 04/30/2018
 keywords: ["PoFxRegisterPlugin function"]
 ms.keywords: PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, pepfx/PoFxRegisterPlugin
-f1_keywords:
- - "pepfx/PoFxRegisterPlugin"
- - "PoFxRegisterPlugin"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- PoFxRegisterPlugin
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxRegisterPlugin
+ - pepfx/PoFxRegisterPlugin
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - PoFxRegisterPlugin
 ---
 
-# PoFxRegisterPlugin function
+# PoFxRegisterPlugin function (pepfx.h)
+
 
 ## -description
 
@@ -50,12 +51,14 @@ The **PoFxRegisterPlugin** routine registers a platform extension plug-in (PEP) 
 
 ## -parameters
 
-### -param PepInformation [in]
+### -param PepInformation 
 
+[in]
 A pointer to a [PEP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_information) structure.
 
-### -param KernelInformation [in, out]
+### -param KernelInformation 
 
+[in, out]
 A pointer to a [PEP_KERNEL_INFORMATION_STRUCT_V3](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3) structure.
 
 ## -returns
@@ -85,3 +88,4 @@ The PEP must call **PoFxRegisterPlugin** at IRQL = PASSIVE_LEVEL.
 [PEP_KERNEL_INFORMATION_STRUCT_V3](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_kernel_information_struct_v3)
 
 [PoFxRegisterPluginEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/nf-pepfx-pofxregisterpluginex)
+

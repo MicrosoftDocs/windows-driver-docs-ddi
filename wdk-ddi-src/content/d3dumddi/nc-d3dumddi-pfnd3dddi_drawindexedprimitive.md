@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/DrawIndexedPrimitive"
- - "DrawIndexedPrimitive"
+ - PFND3DDDI_DRAWINDEXEDPRIMITIVE
+ - d3dumddi/PFND3DDDI_DRAWINDEXEDPRIMITIVE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DRAWINDEXEDPRIMITIVE callback function
+
 
 ## -description
 

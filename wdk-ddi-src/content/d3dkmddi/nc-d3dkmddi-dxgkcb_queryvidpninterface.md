@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbQueryVidPnInterface"
- - "DxgkCbQueryVidPnInterface"
+ - DXGKCB_QUERYVIDPNINTERFACE
+ - d3dkmddi/DXGKCB_QUERYVIDPNINTERFACE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKCB_QUERYVIDPNINTERFACE callback function
+
 
 ## -description
 

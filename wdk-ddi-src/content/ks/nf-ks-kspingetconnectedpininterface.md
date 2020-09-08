@@ -8,9 +8,6 @@ ms.assetid: 594614ee-0d30-4574-81ad-a523e7fadc2c
 ms.date: 04/23/2018
 keywords: ["KsPinGetConnectedPinInterface function"]
 ms.keywords: KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface function [Streaming Media Devices], avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml, ks/KsPinGetConnectedPinInterface, stream.kspingetconnectedpininterface
-f1_keywords:
- - "ks/KsPinGetConnectedPinInterface"
- - "KsPinGetConnectedPinInterface"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsPinGetConnectedPinInterface
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsPinGetConnectedPinInterface
+ - ks/KsPinGetConnectedPinInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsPinGetConnectedPinInterface
 ---
 
 # KsPinGetConnectedPinInterface function
@@ -47,42 +47,30 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsPinGetConnectedPinInterface</b> function queries the pin to which <i>Pin</i> is connected for a COM style interface.
-
 
 ## -parameters
 
+### -param Pin 
 
-
-
-### -param Pin [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure. AVStream queries the pin connected to <i>Pin</i> for the requested interface.
 
+### -param InterfaceId 
 
-### -param InterfaceId [in]
-
+[in]
 A pointer to the GUID specifying the interface type to be obtained. A <b>QueryInterface</b> call is automatically performed for this interface.
 
+### -param Interface 
 
-### -param Interface [out]
-
+[out]
 A pointer to a pointer that AVStream sets to the location of the COM interface.
-
 
 ## -returns
 
-
-
 <b>KsPinGetConnectedPinInterface</b> returns STATUS_SUCCESS or STATUS_NOINTERFACE. See details below.
 
-
-
-
 ## -remarks
-
-
 
 <i>Interface</i> has a corresponding reference count and <b>must</b> be released by the caller as in COM.
 
@@ -106,13 +94,7 @@ The connection is intra-AVStream (<i>Pin</i>'s connected pin is an AVStream pin)
 </ul>
 Otherwise, STATUS_UNSUCCESSFUL is returned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a>
 
@@ -139,7 +121,4 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksregisteraggregatedclientunknown">KsRegisterAggregatedClientUnknown</a>
- 
-
- 
 

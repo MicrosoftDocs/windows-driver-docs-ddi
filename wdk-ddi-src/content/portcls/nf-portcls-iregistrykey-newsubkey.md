@@ -8,9 +8,6 @@ ms.assetid: 39b352ba-4b6f-4d9c-baf5-a479d8c74ae0
 ms.date: 05/08/2018
 keywords: ["IRegistryKey::NewSubKey"]
 ms.keywords: IRegistryKey interface [Audio Devices],NewSubKey method, IRegistryKey.NewSubKey, IRegistryKey::NewSubKey, NewSubKey, NewSubKey method [Audio Devices], NewSubKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_newsubkey, audmp-routines_8a9e8a73-551d-46d4-90a8-f24183c38d8d.xml, portcls/IRegistryKey::NewSubKey
-f1_keywords:
- - "portcls/IRegistryKey.NewSubKey"
- - "IRegistryKey.NewSubKey"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IRegistryKey.NewSubKey
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IRegistryKey::NewSubKey
+ - portcls/IRegistryKey::NewSubKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IRegistryKey.NewSubKey
 ---
 
 # IRegistryKey::NewSubKey
@@ -46,57 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <code>NewSubKey</code> method either creates a new registry subkey or opens an existing subkey under the key represented by the <b>IRegistryKey</b> object.
-
 
 ## -parameters
 
+### -param RegistrySubKey 
 
-
-
-### -param RegistrySubKey [out]
-
+[out]
 Output pointer for the new subkey. This parameter points to a caller-allocated pointer variable into which the method writes the pointer to the new <b>IRegistryKey</b> object. This object represents the subkey being opened or created. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
+### -param OuterUnknown 
 
-### -param OuterUnknown [in]
-
+[in]
 Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate the registry key object. This parameter is optional. If aggregation is not required, specify this parameter as <b>NULL</b>.
 
+### -param DesiredAccess 
 
-### -param DesiredAccess [in]
-
+[in]
 Specifies the type of access that the caller requires to the subkey that is being opened or created. This parameter is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>. For more information, see the following Remarks section.
 
+### -param SubKeyName 
 
-### -param SubKeyName [in]
+[in]
+Pointer to the name that is to be assigned to the subkey. This parameter must be a valid, non-<b>NULL</b> pointer to an initialized structure of type <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>.
 
-Pointer to the name that is to be assigned to the subkey. This parameter must be a valid, non-<b>NULL</b> pointer to an initialized structure of type <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>.
+### -param CreateOptions 
 
-
-### -param CreateOptions [in]
-
+[in]
 Flags indicating the create options. Can be zero if none are desired. This parameter is required if the value of <i>RegistryKeyType</i> is <b>GeneralRegistryKey</b>; otherwise, the method does not use this parameter. For more information, see the following Remarks section.
 
+### -param Disposition 
 
-### -param Disposition [out, optional]
-
+[out, optional]
 Output pointer for the disposition value. This parameter points to a caller-allocated ULONG variable into which the method writes a status value indicating whether a new key was created or an existing key was opened. This parameter is optional and can be specified as <b>NULL</b> if the caller does not need it. For more information, see the following Remarks section.
-
 
 ## -returns
 
-
-
 <code>NewSubKey</code> returns STATUS_SUCCESS if the call was successful in outputting a valid <b>IRegistryKey</b> pointer through the <i>RegistrySubKey</i> parameter. Otherwise, the method returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The <code>NewSubKey</code> method either opens the specified registry key if it already exists, or creates a new key in the registry if it does not exist. The method outputs a pointer to the <b>IRegistryKey</b> interface of the new key through the <i>RegistrySubKey</i> parameter. The method also outputs a status value through the optional <i>Disposition</i> parameter to indicate whether the key was opened or created.
 
@@ -106,13 +94,7 @@ The <i>DesiredAccess</i> parameter is an access-control mask that specifies the 
 
 The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -130,8 +112,5 @@ The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

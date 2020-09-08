@@ -8,9 +8,6 @@ ms.assetid: 9dd3632c-4c88-470d-8419-10959eda0454
 ms.date: 05/03/2018
 keywords: ["DebugCreate function"]
 ms.keywords: ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, DebugCreate, DebugCreate function [Windows Debugging], dbgeng/DebugCreate, debugger.debugcreate
-f1_keywords:
- - "dbgeng/DebugCreate"
- - "DebugCreate"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- dbgeng.dll
-api_name:
-- DebugCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DebugCreate
+ - dbgeng/DebugCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - dbgeng.dll
+api_name:
+ - DebugCreate
 ---
 
 # DebugCreate function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>DebugCreate</b> function creates a new client object and returns an interface pointer to it.
-
 
 ## -parameters
 
+### -param InterfaceId 
 
-
-
-### -param InterfaceId [in]
-
+[in]
 Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
 
+### -param Interface 
 
-### -param Interface [out]
-
+[out]
 Receives an interface pointer for the new client.  The type of this interface is specified by <i>InterfaceId</i>.
 
-
 ## -returns
-
-
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -99,29 +92,14 @@ The client object doesn't implement the specified interface.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The parameters passed to <b>DebugCreate</b> are the same as those passed to <b>IUnknown::QueryInterface</b>, and they are treated the same way.
 
 As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longer needed, its <b>IUnknown::Release</b> method should be called.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">Client Objects</a>
- 
-
- 
 

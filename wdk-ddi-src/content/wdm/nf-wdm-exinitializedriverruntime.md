@@ -33,14 +33,13 @@ api_location:
 api_name:
  - ExInitializeDriverRuntime
 f1_keywords:
- - wdm//ExInitializeDriverRuntime
  - ExInitializeDriverRuntime
+ - wdm/ExInitializeDriverRuntime
 dev_langs:
  - c++
 ---
 
 ## -description
-
 
 POOL_NX_OPTIN allows device drivers to dynamically opt-in to making
 non-paged pool allocations non-executable by default based on whether or not
@@ -59,3 +58,4 @@ support NX non-paged pool allocations.
 ## -see-also
 
 [Single Binary Opt-In: POOL_NX_OPTIN](https://docs.microsoft.com/windows-hardware/drivers/kernel/single-binary-opt-in-pool-nx-optin)
+

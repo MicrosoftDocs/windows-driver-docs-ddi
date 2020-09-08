@@ -8,9 +8,6 @@ ms.assetid: 16e7d91c-04de-4a8c-97c2-c500d0d3697d
 ms.date: 05/10/2018
 keywords: ["D3DKMDT_MONITOR_ORIENTATION enumeration"]
 ms.keywords: D3DKMDT_MONITOR_ORIENTATION, D3DKMDT_MONITOR_ORIENTATION enumeration [Display Devices], D3DKMDT_MO_0DEG, D3DKMDT_MO_180DEG, D3DKMDT_MO_270DEG, D3DKMDT_MO_90DEG, D3DKMDT_MO_UNINITIALIZED, DmEnums_d8dfc33b-5b13-4fb0-8ef4-091c5b018424.xml, _D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MO_0DEG, d3dkmdt/D3DKMDT_MO_180DEG, d3dkmdt/D3DKMDT_MO_270DEG, d3dkmdt/D3DKMDT_MO_90DEG, d3dkmdt/D3DKMDT_MO_UNINITIALIZED, display.d3dkmdt_monitor_orientation
-f1_keywords:
- - "d3dkmdt/D3DKMDT_MONITOR_ORIENTATION"
- - "D3DKMDT_MONITOR_ORIENTATION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- D3DKMDT_MONITOR_ORIENTATION
 targetos: Windows
 req.typenames: D3DKMDT_MONITOR_ORIENTATION
+f1_keywords:
+ - _D3DKMDT_MONITOR_ORIENTATION
+ - d3dkmdt/_D3DKMDT_MONITOR_ORIENTATION
+ - D3DKMDT_MONITOR_ORIENTATION
+ - d3dkmdt/D3DKMDT_MONITOR_ORIENTATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - D3DKMDT_MONITOR_ORIENTATION
 ---
 
 # _D3DKMDT_MONITOR_ORIENTATION enumeration
@@ -46,34 +48,25 @@ req.typenames: D3DKMDT_MONITOR_ORIENTATION
 
 ## -description
 
-
 The D3DKMDT_MONITOR_ORIENTATION enumeration is used to describe the orientation (rotation angle) of a connected external display device.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DKMDT_MO_UNINITIALIZED
 
 Indicates that a variable of type D3DKMDT_MONITOR_ORIENTATION has not yet been assigned a meaningful value.
 
-
 ### -field D3DKMDT_MO_0DEG
 
 Indicates that the display device has not been rotated from its default orientation.
-
 
 ### -field D3DKMDT_MO_90DEG
 
 Indicates that the display device has been rotated 90 degrees clockwise from its default orientation.
 
-
 ### -field D3DKMDT_MO_180DEG
 
 Indicates that the display device has been rotated 180 degrees clockwise from its default orientation.
-
 
 ### -field D3DKMDT_MO_270DEG
 

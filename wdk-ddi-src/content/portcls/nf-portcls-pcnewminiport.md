@@ -8,9 +8,6 @@ ms.assetid: 15046dc7-42ae-4ebe-acb9-2b0bbad1e833
 ms.date: 05/08/2018
 keywords: ["PcNewMiniport function"]
 ms.keywords: PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport
-f1_keywords:
- - "portcls/PcNewMiniport"
- - "PcNewMiniport"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcNewMiniport
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcNewMiniport
+ - portcls/PcNewMiniport
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcNewMiniport
 ---
 
 # PcNewMiniport function
@@ -47,37 +47,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>PcNewMiniport</b> function creates an instance of one of the system-supplied miniport drivers that are built into the PortCls system driver, portcls.sys. A class ID specifies which of these miniport drivers to instantiate. The driver supports a miniport interface that is derived from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a>.
-
 
 ## -parameters
 
+### -param OutMiniPort 
 
-
-
-### -param OutMiniPort [out]
-
+[out]
 Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
+### -param ClassID 
 
-### -param ClassID [in]
-
+[in]
 Specifies the miniport interface that is being requested. For more information, see the following Remarks section.
-
 
 ## -returns
 
-
-
 <b>PcNewMiniport</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 The system-supplied miniport drivers for MPU-401 UARTs and OPL3 synthesizers can be instantiated by calling <b>PcNewMiniport</b> These are built-in miniport drivers that are provided with the portcls.sys system driver. Miniport drivers that are part of a vendor's adapter driver are not created in this way.
 
@@ -157,13 +145,7 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/subdevice
 
 The <i>OutMiniport</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiport">IMiniport</a>
 
@@ -182,7 +164,4 @@ The <i>OutMiniport</i> parameter follows the <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportmidi">IPortMidi</a>
- 
-
- 
 

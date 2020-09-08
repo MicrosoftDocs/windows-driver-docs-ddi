@@ -8,9 +8,6 @@ ms.assetid: 79BD2B77-E99A-4CFA-9F7B-AFC984D5F0B3
 ms.date: 04/23/2018
 keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback function"]
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitPurgeFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback, EvtSerCx2SystemDmaTransmitPurgeFifo, EvtSerCx2SystemDmaTransmitPurgeFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitpurgefifo
-f1_keywords:
- - "sercx/EvtSerCx2SystemDmaTransmitPurgeFifo"
- - "EvtSerCx2SystemDmaTransmitPurgeFifo"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- 2.0\Sercx.h
-api_name:
-- EvtSerCx2SystemDmaTransmitPurgeFifo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO
+ - sercx/EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - 2.0\Sercx.h
+api_name:
+ - EvtSerCx2SystemDmaTransmitPurgeFifo
 ---
 
 # EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to discard any bytes of unsent data that remain in the transmit FIFO in the serial controller hardware.
-
 
 ## -parameters
 
+### -param SystemDmaTransmit 
 
-
-
-### -param SystemDmaTransmit [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
+### -param BytesAlreadyTransmittedToHardware 
 
-### -param BytesAlreadyTransmittedToHardware [in]
-
+[in]
 The number of bytes that have already been loaded into the transmit FIFO during the current system-DMA-transmit transaction.
 
-
 ## -remarks
-
-
 
 Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a> call that creates the system-DMA-transmit object.
 
@@ -118,12 +111,7 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO</b> function type is defined in
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_system_dma_transmit_cancel_drain_fifo">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a>
 
@@ -146,7 +134,4 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO</b> function type is defined in
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitpurgefifocomplete">SerCx2SystemDmaTransmitPurgeFifoComplete</a>
- 
-
- 
 

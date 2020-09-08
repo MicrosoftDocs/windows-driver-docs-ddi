@@ -8,9 +8,6 @@ ms.assetid: 3668aa5a-1cb4-4ee1-91bd-bf2f3fa30622
 ms.date: 02/26/2018
 keywords: ["WdfIoResourceRequirementsListRemove function"]
 ms.keywords: DFResourceObjectRef_7f7c29e8-231a-48ec-b4e3-01989ad994b0.xml, WdfIoResourceRequirementsListRemove, WdfIoResourceRequirementsListRemove method, kmdf.wdfioresourcerequirementslistremove, wdf.wdfioresourcerequirementslistremove, wdfresource/WdfIoResourceRequirementsListRemove
-f1_keywords:
- - "wdfresource/WdfIoResourceRequirementsListRemove"
- - "WdfIoResourceRequirementsListRemove"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfIoResourceRequirementsListRemove
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoResourceRequirementsListRemove
+ - wdfresource/WdfIoResourceRequirementsListRemove
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfIoResourceRequirementsListRemove
 ---
 
 # WdfIoResourceRequirementsListRemove function
@@ -47,26 +47,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoResourceRequirementsListRemove</b> method removes a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> from a resource requirements list.
 
-
 ## -parameters
 
+### -param RequirementsList 
 
-
-
-### -param RequirementsList [in]
-
+[in]
 A handle to a framework resource-requirements-list object that represents a device's resource requirements list.
 
+### -param Index 
 
-### -param Index [in]
-
-A zero-based value that is used as an index into the resource requirements list that <i>RequirementsList</i> specifies. 
-
+[in]
+A zero-based value that is used as an index into the resource requirements list that <i>RequirementsList</i> specifies.
 
 ## -remarks
 
@@ -102,15 +97,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistremovebyioreslist">WdfIoResourceRequirementsListRemoveByIoResList</a>
- 
-
- 
 

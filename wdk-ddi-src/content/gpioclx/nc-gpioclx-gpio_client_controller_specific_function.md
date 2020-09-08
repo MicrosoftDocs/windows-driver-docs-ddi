@@ -8,9 +8,6 @@ ms.assetid: 27551BE5-1260-4F05-9847-97C90ADF7968
 ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback function"]
 ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
-f1_keywords:
- - "gpioclx/CLIENT_ControllerSpecificFunction"
- - "CLIENT_ControllerSpecificFunction"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Gpioclx.h
-api_name:
-- CLIENT_ControllerSpecificFunction
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION
+ - gpioclx/GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Gpioclx.h
+api_name:
+ - CLIENT_ControllerSpecificFunction
 ---
 
 # GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <i>CLIENT_ControllerSpecificFunction</i> event callback function performs an operation that is specific to a particular general-purpose I/O (GPIO) controller.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
+### -param Parameters 
 
-### -param Parameters [in, out]
-
+[in, out]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a> structure that contains the input and output buffers for the controller-specific operation.
 
-
 ## -returns
-
-
 
 The <i>CLIENT_ControllerSpecificFunction</i> function returns <b>STATUS_SUCCESS</b> if the call is successful. Possible return values include the following error codes.
 
@@ -99,14 +92,8 @@ The size of the input buffer or output buffer is too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 As an option, a GPIO controller driver can support <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a> requests. This type of I/O control request (IOCTL) performs controller-specific operations for the benefit of peripheral device drivers that require these operations. To support this IOCTL, a GPIO controller driver implements a <i>CLIENT_ControllerSpecificFunction</i> function.
 
@@ -157,19 +144,11 @@ The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type is defined in the Gpi
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
- 
-
- 
 

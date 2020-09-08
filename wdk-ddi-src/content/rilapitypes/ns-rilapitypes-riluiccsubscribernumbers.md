@@ -8,51 +8,58 @@ ms.assetid: e1a097b5-ce13-4070-a6f6-4b461ac086de
 ms.date: 02/26/2018
 keywords: ["RILUICCSUBSCRIBERNUMBERS structure"]
 ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers_2, rilapitypes/RILUICCSUBSCRIBERNUMBERS"
-f1_keywords:
- - "rilapitypes/RILUICCSUBSCRIBERNUMBERS"
- - "RILUICCSUBSCRIBERNUMBERS"
 req.header: rilapitypes.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILUICCSUBSCRIBERNUMBERS
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILUICCSUBSCRIBERNUMBERS, *LPRILUICCSUBSCRIBERNUMBERS
 req.product: Windows 10 or later.
+f1_keywords:
+ - RILUICCSUBSCRIBERNUMBERS
+ - rilapitypes/RILUICCSUBSCRIBERNUMBERS
+ - LPRILUICCSUBSCRIBERNUMBERS
+ - rilapitypes/LPRILUICCSUBSCRIBERNUMBERS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILUICCSUBSCRIBERNUMBERS
 ---
 
-# RILUICCSUBSCRIBERNUMBERS structure
+# RILUICCSUBSCRIBERNUMBERS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
+## -struct-fields
+
+### -field cbSize
+
+### -field dwNumSubscribers
+
+### -field rsiInfo
 
 ## -syntax
-
 
 ```cpp
 typedef struct _RILUICCSUBSCRIBERNUMBERS {
@@ -61,18 +68,4 @@ typedef struct _RILUICCSUBSCRIBERNUMBERS {
   RILSUBSCRIBERINFO [1] rsiInfo;
 } RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS;
 ```
-
-
-## -struct-fields
-
-
-
-
-### -field cbSize
-
-
-### -field dwNumSubscribers
-
-
-### -field rsiInfo
 

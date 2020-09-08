@@ -8,44 +8,45 @@ ms.assetid: 91951a88-18ba-4ddc-b8e0-d789f179fa1f
 ms.author: windowsdriverdev
 ms.date: 03/19/2019
 keywords: ["StorPortMarkDeviceFailed function"]
-f1_keywords:
- - "storport/StorPortMarkDeviceFailed"
- - "StorPortMarkDeviceFailed"
 ms.keywords: StorPortMarkDeviceFailed
 req.header: storport.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
+targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - StorPortMarkDeviceFailed
+ - storport/StorPortMarkDeviceFailed
+topic_type:
+ - apiref
+api_type:
+ - LibDef
 api_location:
-- storport.h
-api_name: 
-- StorPortMarkDeviceFailed
+ - storport.h
+api_name:
+ - StorPortMarkDeviceFailed
 product:
  - Windows
-targetos: Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # StorPortMarkDeviceFailed function
+
 
 ## -description
 
@@ -80,3 +81,4 @@ The PnP manager will send an IRP to query the failed device's PnP state. If *Fla
 [**IoInvalidateDeviceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinvalidatedevicestate)
 
 [**StorPortMarkDeviceFailedEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportmarkdevicefailedex)
+

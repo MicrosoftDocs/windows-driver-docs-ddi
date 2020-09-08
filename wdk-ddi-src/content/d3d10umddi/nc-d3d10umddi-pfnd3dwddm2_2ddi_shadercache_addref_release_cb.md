@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnShaderCacheAddRefCb"
- - "pfnShaderCacheAddRefCb"
+ - PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB
+ - d3d10umddi/PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 6fefc35f-fbbd-4c5e-bb8f-25ad3b6cdb67
 ms.date: 02/26/2018
 keywords: ["WDF_FILEOBJECT_CONFIG structure"]
 ms.keywords: "*PWDF_FILEOBJECT_CONFIG, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, PWDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, _WDF_FILEOBJECT_CONFIG, kmdf.wdf_fileobject_config, wdf.wdf_fileobject_config, wdfdevice/PWDF_FILEOBJECT_CONFIG, wdfdevice/WDF_FILEOBJECT_CONFIG"
-f1_keywords:
- - "wdfdevice/WDF_FILEOBJECT_CONFIG"
- - "WDF_FILEOBJECT_CONFIG"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdevice.h
-api_name:
-- WDF_FILEOBJECT_CONFIG
 targetos: Windows
 req.typenames: WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG
+f1_keywords:
+ - _WDF_FILEOBJECT_CONFIG
+ - wdfdevice/_WDF_FILEOBJECT_CONFIG
+ - PWDF_FILEOBJECT_CONFIG
+ - wdfdevice/PWDF_FILEOBJECT_CONFIG
+ - WDF_FILEOBJECT_CONFIG
+ - wdfdevice/WDF_FILEOBJECT_CONFIG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdevice.h
+api_name:
+ - WDF_FILEOBJECT_CONFIG
 ---
 
 # _WDF_FILEOBJECT_CONFIG structure
@@ -46,50 +50,37 @@ req.typenames: WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WDF_FILEOBJECT_CONFIG</b> structure contains configuration information of a driver's framework file objects. 
-
+The <b>WDF_FILEOBJECT_CONFIG</b> structure contains configuration information of a driver's framework file objects.
 
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size, in bytes, of this structure.
 
-
 ### -field EvtDeviceFileCreate
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function, or <b>NULL</b>.
-
 
 ### -field EvtFileClose
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback function, or <b>NULL</b>.
 
-
 ### -field EvtFileCleanup
 
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> callback function, or <b>NULL</b>.
-
 
 ### -field AutoForwardCleanupClose
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed value. For more information about this member, see the following Comments section.
 
-
 ### -field FileObjectClass
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WDF_FILEOBJECT_CLASS</a>-typed value that identifies whether the driver requires a framework file object to represent each file that an application or another driver creates or opens. Additionally, this value specifies where the framework can store the object's handle. 
-
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WDF_FILEOBJECT_CLASS</a>-typed value that identifies whether the driver requires a framework file object to represent each file that an application or another driver creates or opens. Additionally, this value specifies where the framework can store the object's handle.
 
 ## -remarks
-
-
 
 The <b>WDF_FILEOBJECT_CONFIG</b> structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetfileobjectconfig">WdfDeviceInitSetFileObjectConfig</a> method.
 
@@ -129,5 +120,4 @@ If your driver sets <b>AutoForwardCleanupClose</b> to <b>WdfDefault</b>, the dri
 
 </li>
 </ul>
-
 

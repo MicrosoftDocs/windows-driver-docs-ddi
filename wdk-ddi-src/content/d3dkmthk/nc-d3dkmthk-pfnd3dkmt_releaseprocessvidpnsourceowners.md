@@ -5,46 +5,55 @@ description: The PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function rel
 ms.assetid: e4a406fc-dd63-4fb9-a783-96fa483c92af
 ms.date: 10/19/2018
 keywords: ["PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function"]
-f1_keywords:
- - "d3dkmthk/PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS"
- - "PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS"
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3dkmthk.h
-api_name: 
-- PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
+ - d3dkmthk/PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function
 
+
 ## -description
 
 The PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function releases the video present network source owners for a process.
+
+## -parameters
+
+### -param Arg1
+
+## -returns
+
+Returns NTSTATUS.
 
 ## -prototype
 
@@ -63,18 +72,7 @@ NTSTATUS Pfnd3dkmtReleaseprocessvidpnsourceowners
 
 ```
 
-## -parameters
-
-### -param Arg1
-
-## -returns
-
-Returns NTSTATUS.
-
-
 ## -remarks
 
-
-
-
 ## -see-also
+

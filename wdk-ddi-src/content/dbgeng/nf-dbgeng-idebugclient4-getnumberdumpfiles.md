@@ -8,9 +8,6 @@ ms.assetid: d3fa4314-2f11-4ac4-86bd-3eb3f3ea9029
 ms.date: 05/03/2018
 keywords: ["IDebugClient4::GetNumberDumpFiles"]
 ms.keywords: GetNumberDumpFiles, GetNumberDumpFiles method [Windows Debugging], GetNumberDumpFiles method [Windows Debugging],IDebugClient4 interface, GetNumberDumpFiles method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetNumberDumpFiles method, IDebugClient4.GetNumberDumpFiles, IDebugClient4::GetNumberDumpFiles, IDebugClient5 interface [Windows Debugging],GetNumberDumpFiles method, IDebugClient5::GetNumberDumpFiles, IDebugClient_db74cf2c-c7e7-46c2-be98-f4023b22c5c3.xml, dbgeng/IDebugClient4::GetNumberDumpFiles, dbgeng/IDebugClient5::GetNumberDumpFiles, debugger.getnumberdumpfiles
-f1_keywords:
- - "dbgeng/IDebugClient4.GetNumberDumpFiles"
- - "IDebugClient4.GetNumberDumpFiles"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient4.GetNumberDumpFiles
-- IDebugClient5.GetNumberDumpFiles
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient4::GetNumberDumpFiles
+ - dbgeng/IDebugClient4::GetNumberDumpFiles
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient4.GetNumberDumpFiles
+ - IDebugClient5.GetNumberDumpFiles
 ---
 
 # IDebugClient4::GetNumberDumpFiles
@@ -47,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetNumberDumpFiles</b> method returns the number of files containing supporting information that were used when opening the current dump target.
-
 
 ## -parameters
 
+### -param Number 
 
-
-
-### -param Number [out]
-
+[out]
 Receives the number of files.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -84,24 +77,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about crash dump files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dump-file-targets">Dump-File Targets</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-adddumpinformationfile">AddDumpInformationFile</a>
 
@@ -120,7 +101,4 @@ For more information about crash dump files, see <a href="https://docs.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
- 
-
- 
 

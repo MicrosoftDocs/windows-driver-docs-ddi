@@ -5,45 +5,48 @@ description: The core interface for the data model manager.  This is the interfa
 ms.assetid: e40a78ba-6352-4c50-bfdf-e52686ac507b
 ms.date: 07/20/2018
 keywords: ["IDataModelManager interface"]
-f1_keywords:
- - "dbgmodel/IDataModelManager"
- - "IDataModelManager"
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelManager
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelManager
+ - dbgmodel/IDataModelManager
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelManager
 ---
 
 # IDataModelManager interface
+
 
 ## -description
 
 The core interface for the data model manager.  This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types.
 
-This interface is never directly implemented by a client. 
+This interface is never directly implemented by a client.
 
 ## -inheritance
-IDataModelManager interits from IUnknown. 
+
+IDataModelManager interits from IUnknown.
+
 ## -remarks
 
 **Object Creation / Boxing Methods**
@@ -93,3 +96,4 @@ STDMETHOD(CreateTypedIntrinsicObjectEx)(_In_opt_ IDebugHostContext* context,
 ## -see-also
 
 [Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
+

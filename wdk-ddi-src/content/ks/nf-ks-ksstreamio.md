@@ -8,9 +8,6 @@ ms.assetid: 74c62a30-42b9-4ea7-b52a-014e263d886e
 ms.date: 04/23/2018
 keywords: ["KsStreamIo function"]
 ms.keywords: KsStreamIo, KsStreamIo function [Streaming Media Devices], ks/KsStreamIo, ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml, stream.ksstreamio
-f1_keywords:
- - "ks/KsStreamIo"
- - "KsStreamIo"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsStreamIo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsStreamIo
+ - ks/KsStreamIo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsStreamIo
 ---
 
 # KsStreamIo function
@@ -47,67 +47,60 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsStreamIo</b> function performs a stream read or write against the specified file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates a read or write request against the device object.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 Specifies the file object to perform the I/O against.
 
+### -param Event 
 
-### -param Event [in, optional]
-
+[in, optional]
 Optionally contains the event to use in the I/O. If none is passed, the call is assumed to be on a synchronous file object or the caller is waiting for the file object's event, or else it can be asynchronously completed. If used, and the KSSTREAM_SYNCHRONOUS flag is not set, this must be an event allocated by the object manager. If the caller is performing asynchronous I/O, it must either wait for the file object's event or pass an event in this parameter and wait for it. If this is not done, then there is no way for the caller to know when the IoStatusBlock has been updated by the call.
 
+### -param PortContext 
 
-### -param PortContext [in, optional]
-
+[in, optional]
 Optionally contains context information for a completion port.
 
+### -param CompletionRoutine 
 
-### -param CompletionRoutine [in, optional]
-
+[in, optional]
 Optionally points to a completion routine for this IRP.
 
+### -param CompletionContext 
 
-### -param CompletionContext [in, optional]
-
+[in, optional]
 If <i>CompletionRoutine</i> is specified, this provides a context pointer in the completion routine callback.
-
 
 ### -param OPTIONAL
 
+### -param IoStatusBlock 
 
-
-
-### -param IoStatusBlock [out]
-
+[out]
 Location to return the status information. This is always assumed to be a valid address, regardless of the requester mode. The value must remain valid until the call has updated the status. The caller must either perform synchronous I/O or must wait for the file object's event or an event passed in the Event parameter before allowing this address to become invalid.
 
+### -param StreamHeaders 
 
-### -param StreamHeaders [in, out]
-
+[in, out]
 Specifies the list of stream headers. This address, as well as the addresses of the data buffers, are assumed to have been probed for appropriate access. Kernel-mode clients submitting streaming headers must allocate the headers from NonPagedPool memory.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the size of the <i>StreamHeaders</i> passed.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies various flags for the I/O. See the following table for the values used.
 
+### -param RequestorMode 
 
-### -param RequestorMode [in]
-
+[in]
 Indicates the processor mode to place in the IRP if one is needs to be generated. This variable also determines if a fast I/O call can be performed. If the requester mode is not kernel mode, but the previous mode is, then fast I/O cannot be used.
 
 
@@ -115,19 +108,11 @@ Indicates the processor mode to place in the IRP if one is needs to be generated
 
 Specifies invocation flags specifying when the completion routine is invoked. See following table for the values used.
 
-
 ## -returns
-
-
 
 The <b>KsStreamIo</b> function returns STATUS_SUCCESS if successful, STATUS_PENDING if action is pending, or if unsuccessful it returns an I/O error.
 
-
-
-
 ## -remarks
-
-
 
 The following enumerated values are used for the <i>CompletionInvocationFlags</i> variable and are of type KSCOMPLETION_INVOCATION:
 
@@ -233,6 +218,4 @@ Specifies that the IRP is synchronous. This means that if the <i>Event</i> param
 KSSTREAM_READ is equivalent to KSPROBE_STREAMREAD.
 
 Similarly, KSSTREAM_WRITE is equivalent to KSPROBE_STREAMWRITE.
-
-
 

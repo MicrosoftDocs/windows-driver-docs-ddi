@@ -8,9 +8,6 @@ ms.assetid: fe0896ab-2d20-465f-a8bc-bfc0033701d6
 ms.date: 05/02/2018
 keywords: ["NdisFSendNetBufferLists function"]
 ms.keywords: NdisFSendNetBufferLists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, ndis/NdisFSendNetBufferLists, netvista.ndisfsendnetbufferlists
-f1_keywords:
- - "ndis/NdisFSendNetBufferLists"
- - "NdisFSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFSendNetBufferLists
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFSendNetBufferLists
+ - ndis/NdisFSendNetBufferLists
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFSendNetBufferLists
 ---
 
 # NdisFSendNetBufferLists function
@@ -47,22 +47,17 @@ req.typenames:
 
 ## -description
 
-
 Filter drivers call the 
   <b>NdisFSendNetBufferLists</b> function to send a list of network data buffers.
 
-
 ## -parameters
 
+### -param NdisFilterHandle 
 
-
-
-### -param NdisFilterHandle [in]
-
+[in]
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
-
 
 ### -param NetBufferList
 
@@ -71,16 +66,17 @@ A pointer to a linked list of
      <b>NET_BUFFER_LIST</b> structure describes a list of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
-### -param PortNumber [in]
+### -param PortNumber 
 
+[in]
 A port number that identifies a miniport adapter port. Miniport adapter port numbers are assigned
      by calling the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter.
 
+### -param SendFlags 
 
-### -param SendFlags [in]
-
+[in]
 Flags that define attributes for the send operation. The flags can be combined with an OR
      operation. To clear all the flags, set this member to zero. This function supports the following flags:
      
@@ -128,10 +124,7 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 <div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div>
 <div> </div>
 
-
 ## -remarks
-
-
 
 After a filter driver calls the 
     <b>NdisFSendNetBufferLists</b> function, NDIS submits the 
@@ -189,12 +182,7 @@ Until NDIS calls
       NdisFSendNetBufferListsComplete</a> function when such requests are complete.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
@@ -222,7 +210,4 @@ Until NDIS calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
- 
-
- 
 

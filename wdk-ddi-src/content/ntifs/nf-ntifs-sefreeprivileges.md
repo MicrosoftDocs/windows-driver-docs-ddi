@@ -8,9 +8,6 @@ ms.assetid: 5b8ba64e-3147-45b4-9861-da2186c2ba10
 ms.date: 04/30/2018
 keywords: ["SeFreePrivileges function"]
 ms.keywords: SeFreePrivileges, SeFreePrivileges routine [Kernel-Mode Driver Architecture], kernel.sefreeprivileges, ntifs/SeFreePrivileges, seref_e40724d7-f170-4dbd-89a6-2cdcdd13e87d.xml
-f1_keywords:
- - "ntifs/SeFreePrivileges"
- - "SeFreePrivileges"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeFreePrivileges
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeFreePrivileges
+ - ntifs/SeFreePrivileges
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeFreePrivileges
 ---
 
 # SeFreePrivileges function
@@ -46,33 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeFreePrivileges</b> routine frees a privilege set returned by <b>SeAccessCheck</b>.
-
 
 ## -parameters
 
+### -param Privileges 
 
-
-
-### -param Privileges [in]
-
+[in]
 Pointer to the privilege set to be freed.
-
 
 ## -remarks
 
-
-
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551860(v=vs.85)">PRIVILEGE_SET</a>
 
@@ -87,7 +74,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seprivilegecheck">SePrivilegeCheck</a>
- 
-
- 
 

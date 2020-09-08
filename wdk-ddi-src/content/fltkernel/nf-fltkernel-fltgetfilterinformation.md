@@ -8,9 +8,6 @@ ms.assetid: d3ffe93c-4fe8-4a2e-9448-8488d2ff909e
 ms.date: 04/16/2018
 keywords: ["FltGetFilterInformation function"]
 ms.keywords: FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml, FltGetFilterInformation, FltGetFilterInformation routine [Installable File System Drivers], fltkernel/FltGetFilterInformation, ifsk.fltgetfilterinformation
-f1_keywords:
- - "fltkernel/FltGetFilterInformation"
- - "FltGetFilterInformation"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetFilterInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetFilterInformation
+ - fltkernel/FltGetFilterInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetFilterInformation
 ---
 
 # FltGetFilterInformation function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltGetFilterInformation</b> routine provides information about a minifilter driver.
-
 
 ## -parameters
 
+### -param Filter 
 
+[in]
+Opaque filter pointer for the caller.
 
+### -param InformationClass 
 
-### -param Filter [in]
-
-Opaque filter pointer for the caller. 
-
-
-### -param InformationClass [in]
-
+[in]
 Type of information requested. This parameter can have one of the following values. 
 
 <table>
@@ -100,27 +96,23 @@ The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https:/
 </td>
 </tr>
 </table>
- 
 
+### -param Buffer 
 
-### -param Buffer [out]
+[out]
+Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter.
 
-Pointer to a caller-allocated buffer that receives the requested information. The type of the information returned in the buffer is defined by the <i>InformationClass</i> parameter. 
+### -param BufferSize 
 
+[in]
+Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value.
 
-### -param BufferSize [in]
+### -param BytesReturned 
 
-Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. The caller should set this parameter according to the given <i>InformationClass</i> value. 
-
-
-### -param BytesReturned [out]
-
-Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltGetFilterInformation</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>. 
-
+[out]
+Pointer to a caller-allocated variable that receives the number of bytes returned in the buffer that <i>Buffer </i>points to. If the input value of <i>BufferSize</i> is too small, <b>FltGetFilterInformation</b> returns STATUS_BUFFER_TOO_SMALL and sets this variable to the number of bytes required to store the requested information. This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltGetFilterInformation</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following: 
 
@@ -152,15 +144,8 @@ An invalid value was specified for the <i>InformationClass</i> parameter. For ex
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
@@ -187,7 +172,4 @@ An invalid value was specified for the <i>InformationClass</i> parameter. For ex
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstanceinformation">FltGetInstanceInformation</a>
- 
-
- 
 

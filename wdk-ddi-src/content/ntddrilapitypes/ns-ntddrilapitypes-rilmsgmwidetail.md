@@ -8,9 +8,6 @@ ms.assetid: 69371414-9f4a-46a6-8622-5750db7a0c5b
 ms.date: 05/02/2018
 keywords: ["RILMSGMWIDETAIL structure"]
 ms.keywords: "*LPRILMSGMWIDETAIL, RILMSGMWIDETAIL, RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetail, ntddrilapitypes/RILMSGMWIDETAIL"
-f1_keywords:
- - "ntddrilapitypes/RILMSGMWIDETAIL"
- - "RILMSGMWIDETAIL"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,50 +25,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILMSGMWIDETAIL
 targetos: Windows
 req.typenames: RILMSGMWIDETAIL, *LPRILMSGMWIDETAIL
+f1_keywords:
+ - RILMSGMWIDETAIL
+ - ntddrilapitypes/RILMSGMWIDETAIL
+ - LPRILMSGMWIDETAIL
+ - ntddrilapitypes/LPRILMSGMWIDETAIL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILMSGMWIDETAIL
 ---
 
-# RILMSGMWIDETAIL structure
+# RILMSGMWIDETAIL structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwMwiType
-
 
 ### -field dwMwiPriority
 
-
 ### -field raToAddress
-
 
 ### -field raFromAddress
 
-
 ### -field stDateSent
 
-
 ### -field wszSubject
-
 
 ### -field wszMessageId
 

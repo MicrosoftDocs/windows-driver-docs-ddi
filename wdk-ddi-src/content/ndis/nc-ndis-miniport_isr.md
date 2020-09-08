@@ -8,9 +8,6 @@ ms.assetid: 810503b9-75cd-4b38-ab1f-de240968ded6
 ms.date: 05/02/2018
 keywords: ["MINIPORT_ISR callback function"]
 ms.keywords: MINIPORT_ISR, MINIPORT_ISR callback, MiniportInterrupt, MiniportInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportInterrupt, ndis_interrupts_miniport_functions_ref_1de81c1c-10f4-4b41-81bf-495192b65f02.xml, netvista.miniportinterrupt
-f1_keywords:
- - "ndis/MiniportInterrupt"
- - "MiniportInterrupt"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportInterrupt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_ISR
+ - ndis/MINIPORT_ISR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportInterrupt
 ---
 
 # MINIPORT_ISR callback function
 
 
 ## -description
-
 
 NDIS calls the
    <i>MiniportInterrupt</i> function when a NIC, or another device that shares the
@@ -55,20 +54,18 @@ NDIS calls the
 
 ## -parameters
 
+### -param MiniportInterruptContext 
 
-
-
-### -param MiniportInterruptContext [in]
-
+[in]
 A handle to a block of interrupt context information. The miniport driver supplied this handle in
      the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
+### -param QueueDefaultInterruptDpc 
 
-### -param QueueDefaultInterruptDpc [out]
-
+[out]
 A pointer to a BOOLEAN variable that the miniport driver sets before it returns from this call. A
      miniport driver sets this value to <b>TRUE</b> to indicate that the driver requires a DPC on the default
      (current) CPU. If this value is set to <b>TRUE</b>, NDIS ignores the value of the 
@@ -78,9 +75,9 @@ A pointer to a BOOLEAN variable that the miniport driver sets before it returns 
      return value from 
      <i>MiniportInterrupt</i>.
 
+### -param TargetProcessors 
 
-### -param TargetProcessors [out]
-
+[out]
 A bitmask that indicates the target processors for which NDIS should schedule a DPC. This bitmask represents the first 32 processors in processor group 0. Each bit in 
      the bitmask identifies a CPU. If the caller sets bit 0, NDIS schedules a DPC for CPU 0. If the caller sets bit 1, NDIS
      schedules a DPC for CPU 1, and so on. If 
@@ -95,8 +92,6 @@ A bitmask that indicates the target processors for which NDIS should schedule a 
 <div> </div>
 
 ## -returns
-
-
 
 <i>MiniportInterrupt</i> returns one of the following values:
 
@@ -141,11 +136,7 @@ A bitmask that indicates the target processors for which NDIS should schedule a 
       <i>MiniportInterrupt</i> must still return the correct value.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Miniport drivers that register an interrupt with the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a> function
@@ -281,15 +272,9 @@ BOOLEAN
 </table></span></div>
 The <b>MINIPORT_ISR</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_ISR</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
@@ -341,7 +326,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
- 
-
- 
 

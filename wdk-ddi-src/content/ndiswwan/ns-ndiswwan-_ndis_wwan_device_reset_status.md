@@ -8,9 +8,6 @@ ms.assetid: D18E8633-BEAD-49A5-A730-10564AFF8A3E
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_DEVICE_RESET_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_RESET_STATUS, PNDIS_WWAN_DEVICE_RESET_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/PNDIS_WWAN_DEVICE_RESET_STATUS, netvista.ndis_wwan_device_reset_status"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS"
- - "NDIS_WWAN_DEVICE_RESET_STATUS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_DEVICE_RESET_STATUS
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_RESET_STATUS, *PNDIS_WWAN_DEVICE_RESET_STATUS
+f1_keywords:
+ - _NDIS_WWAN_DEVICE_RESET_STATUS
+ - ndiswwan/_NDIS_WWAN_DEVICE_RESET_STATUS
+ - PNDIS_WWAN_DEVICE_RESET_STATUS
+ - ndiswwan/PNDIS_WWAN_DEVICE_RESET_STATUS
+ - NDIS_WWAN_DEVICE_RESET_STATUS
+ - ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_DEVICE_RESET_STATUS
 ---
 
 # _NDIS_WWAN_DEVICE_RESET_STATUS structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_DEVICE_RESET_STATUS, *PNDIS_WWAN_DEVICE_RESET_STATUS
 
 ## -description
 
-
 The <b>NDIS_WWAN_DEVICE_RESET_STATUS</b>  structure represents a modem device's reset status. It is sent to the MB host in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-device-reset-status">NDIS_STATUS_WWAN_DEVICE_RESET_STATUS</a> notification in an asynchronous response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a> set request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -104,7 +103,6 @@ sizeof(NDIS_WWAN_DEVICE_RESET_STATUS)
 
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
-
 
 ### -field uStatus
 
@@ -158,13 +156,8 @@ The operation failed because the device does not support this OID.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-reset-operations">MB modem reset operations</a>
 
@@ -179,7 +172,4 @@ The operation failed because the device does not support this OID.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a>
- 
-
- 
 

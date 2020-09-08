@@ -8,9 +8,6 @@ ms.assetid: e1b31df0-d383-43a3-bf9f-8874689cbf58
 ms.date: 02/26/2018
 keywords: ["IWDFUsbTargetDevice::SetPowerPolicy"]
 ms.keywords: IWDFUsbTargetDevice interface,SetPowerPolicy method, IWDFUsbTargetDevice.SetPowerPolicy, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy, SetPowerPolicy method, SetPowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
-f1_keywords:
- - "wudfusb/IWDFUsbTargetDevice.SetPowerPolicy"
- - "IWDFUsbTargetDevice.SetPowerPolicy"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFUsbTargetDevice.SetPowerPolicy
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFUsbTargetDevice::SetPowerPolicy
+ - wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFUsbTargetDevice.SetPowerPolicy
 ---
 
 # IWDFUsbTargetDevice::SetPowerPolicy
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPowerPolicy</b> method sets the WinUsb power policy.
 
-
 ## -parameters
 
+### -param PolicyType 
 
-
-
-### -param PolicyType [in]
-
+[in]
 The type of WinUsb power policy that the UMDF driver sets.
 
+### -param ValueLength 
 
-### -param ValueLength [in]
-
+[in]
 The size, in bytes, of the buffer that <b>SetPowerPolicy</b> supplies in <i>Value</i>.
 
+### -param Value 
 
-### -param Value [in]
-
+[in]
 A pointer to the buffer that contains the WinUsb power policy.
 
-
 ## -returns
-
-
 
 <b>SetPowerPolicy</b> returns one of the following values: 
 
@@ -119,14 +112,8 @@ This value corresponds to the error code that the WinUsb API returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Power policy controls the power management that WinUsb for the device performs.
 
@@ -136,13 +123,7 @@ For more information about the power behavior of WinUSB, see <a href="https://do
 
 The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
 
@@ -153,7 +134,4 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_setpowerpolicy">WinUsb_SetPowerPolicy</a>
- 
-
- 
 

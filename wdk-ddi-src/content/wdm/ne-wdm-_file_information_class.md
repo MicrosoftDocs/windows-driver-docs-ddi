@@ -8,9 +8,6 @@ ms.assetid: aec0655b-7cc0-48b6-828c-b9d39c71e5b6
 ms.date: 06/04/2019
 keywords: ["FILE_INFORMATION_CLASS enumeration"]
 ms.keywords: "*PFILE_INFORMATION_CLASS, FILE_INFORMATION_CLASS, FILE_INFORMATION_CLASS enumeration [Installable File System Drivers], FileAccessInformation, FileAlignmentInformation, FileAllInformation, FileAllocationInformation, FileAlternateNameInformation, FileAttributeTagInformation, FileBasicInformation, FileBothDirectoryInformation, FileCompletionInformation, FileCompressionInformation, FileDirectoryInformation, FileDispositionInformation, FileDispositionInformationEx, FileEaInformation, FileEndOfFileInformation, FileFullDirectoryInformation, FileFullEaInformation, FileHardLinkFullIdInformation, FileHardLinkInformation, FileIdBothDirectoryInformation, FileIdExtdBothDirectoryInformation, FileIdExtdDirectoryInformation, FileIdFullDirectoryInformation, FileIdGlobalTxDirectoryInformation, FileIdInformation, FileInternalInformation, FileIoCompletionNotificationInformation, FileIoPriorityHintInformation, FileIoStatusBlockRangeInformation, FileIsRemoteDeviceInformation, FileLinkInformation, FileLinkInformationBypassAccessCheck, FileMailslotQueryInformation, FileMailslotSetInformation, FileMaximumInformation, FileModeInformation, FileMoveClusterInformation, FileNameInformation, FileNamesInformation, FileNetworkOpenInformation, FileNetworkPhysicalNameInformation, FileNormalizedNameInformation, FileNumaNodeInformation, FileObjectIdInformation, FilePipeInformation, FilePipeLocalInformation, FilePipeRemoteInformation, FilePositionInformation, FileProcessIdsUsingFileInformation, FileQuotaInformation, FileRemoteProtocolInformation, FileRenameInformation, FileRenameInformationBypassAccessCheck, FileRenameInformationEx, FileRenameInformationExBypassAccessCheck, FileReparsePointInformation, FileReplaceCompletionInformation, FileSfioReserveInformation, FileSfioVolumeInformation, FileShortNameInformation, FileStandardInformation, FileStandardLinkInformation, FileStreamInformation, FileTrackingInformation, FileUnusedInformation, FileValidDataLengthInformation, FileVolumeNameInformation, PFILE_INFORMATION_CLASS, PFILE_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], _FILE_INFORMATION_CLASS, ifsk.file_information_class, ntifs/ FileDispositionInformationEx, ntifs/ FileIdExtdBothDirectoryInformation, ntifs/FILE_INFORMATION_CLASS, ntifs/FileAccessInformation, ntifs/FileAlignmentInformation, ntifs/FileAllInformation, ntifs/FileAllocationInformation, ntifs/FileAlternateNameInformation, ntifs/FileAttributeTagInformation, ntifs/FileBasicInformation, ntifs/FileBothDirectoryInformation, ntifs/FileCompletionInformation, ntifs/FileCompressionInformation, ntifs/FileDirectoryInformation, ntifs/FileDispositionInformation, ntifs/FileEaInformation, ntifs/FileEndOfFileInformation, ntifs/FileFullDirectoryInformation, ntifs/FileFullEaInformation, ntifs/FileHardLinkFullIdInformation, ntifs/FileHardLinkInformation, ntifs/FileIdBothDirectoryInformation, ntifs/FileIdExtdDirectoryInformation, ntifs/FileIdFullDirectoryInformation, ntifs/FileIdGlobalTxDirectoryInformation, ntifs/FileIdInformation, ntifs/FileInternalInformation, ntifs/FileIoCompletionNotificationInformation, ntifs/FileIoPriorityHintInformation, ntifs/FileIoStatusBlockRangeInformation, ntifs/FileIsRemoteDeviceInformation, ntifs/FileLinkInformation, ntifs/FileLinkInformationBypassAccessCheck, ntifs/FileMailslotQueryInformation, ntifs/FileMailslotSetInformation, ntifs/FileMaximumInformation, ntifs/FileModeInformation, ntifs/FileMoveClusterInformation, ntifs/FileNameInformation, ntifs/FileNamesInformation, ntifs/FileNetworkOpenInformation, ntifs/FileNetworkPhysicalNameInformation, ntifs/FileNormalizedNameInformation, ntifs/FileNumaNodeInformation, ntifs/FileObjectIdInformation, ntifs/FilePipeInformation, ntifs/FilePipeLocalInformation, ntifs/FilePipeRemoteInformation, ntifs/FilePositionInformation, ntifs/FileProcessIdsUsingFileInformation, ntifs/FileQuotaInformation, ntifs/FileRemoteProtocolInformation, ntifs/FileRenameInformation, ntifs/FileRenameInformationBypassAccessCheck, ntifs/FileRenameInformationEx, ntifs/FileRenameInformationExBypassAccessCheck, ntifs/FileReparsePointInformation, ntifs/FileReplaceCompletionInformation, ntifs/FileSfioReserveInformation, ntifs/FileSfioVolumeInformation, ntifs/FileShortNameInformation, ntifs/FileStandardInformation, ntifs/FileStandardLinkInformation, ntifs/FileStreamInformation, ntifs/FileTrackingInformation, ntifs/FileUnusedInformation, ntifs/FileValidDataLengthInformation, ntifs/FileVolumeNameInformation, ntifs/PFILE_INFORMATION_CLASS, wdm/ FileDispositionInformationEx, wdm/ FileIdExtdBothDirectoryInformation, wdm/FILE_INFORMATION_CLASS, wdm/FileAccessInformation, wdm/FileAlignmentInformation, wdm/FileAllInformation, wdm/FileAllocationInformation, wdm/FileAlternateNameInformation, wdm/FileAttributeTagInformation, wdm/FileBasicInformation, wdm/FileBothDirectoryInformation, wdm/FileCompletionInformation, wdm/FileCompressionInformation, wdm/FileDirectoryInformation, wdm/FileDispositionInformation, wdm/FileEaInformation, wdm/FileEndOfFileInformation, wdm/FileFullDirectoryInformation, wdm/FileFullEaInformation, wdm/FileHardLinkFullIdInformation, wdm/FileHardLinkInformation, wdm/FileIdBothDirectoryInformation, wdm/FileIdExtdDirectoryInformation, wdm/FileIdFullDirectoryInformation, wdm/FileIdGlobalTxDirectoryInformation, wdm/FileIdInformation, wdm/FileInternalInformation, wdm/FileIoCompletionNotificationInformation, wdm/FileIoPriorityHintInformation, wdm/FileIoStatusBlockRangeInformation, wdm/FileIsRemoteDeviceInformation, wdm/FileLinkInformation, wdm/FileLinkInformationBypassAccessCheck, wdm/FileMailslotQueryInformation, wdm/FileMailslotSetInformation, wdm/FileMaximumInformation, wdm/FileModeInformation, wdm/FileMoveClusterInformation, wdm/FileNameInformation, wdm/FileNamesInformation, wdm/FileNetworkOpenInformation, wdm/FileNetworkPhysicalNameInformation, wdm/FileNormalizedNameInformation, wdm/FileNumaNodeInformation, wdm/FileObjectIdInformation, wdm/FilePipeInformation, wdm/FilePipeLocalInformation, wdm/FilePipeRemoteInformation, wdm/FilePositionInformation, wdm/FileProcessIdsUsingFileInformation, wdm/FileQuotaInformation, wdm/FileRemoteProtocolInformation, wdm/FileRenameInformation, wdm/FileRenameInformationBypassAccessCheck, wdm/FileRenameInformationEx, wdm/FileRenameInformationExBypassAccessCheck, wdm/FileReparsePointInformation, wdm/FileReplaceCompletionInformation, wdm/FileSfioReserveInformation, wdm/FileSfioVolumeInformation, wdm/FileShortNameInformation, wdm/FileStandardInformation, wdm/FileStandardLinkInformation, wdm/FileStreamInformation, wdm/FileTrackingInformation, wdm/FileUnusedInformation, wdm/FileValidDataLengthInformation, wdm/FileVolumeNameInformation, wdm/PFILE_INFORMATION_CLASS"
-f1_keywords:
- - "wdm/FILE_INFORMATION_CLASS"
- - "FILE_INFORMATION_CLASS"
 req.header: wdm.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Windows
@@ -28,129 +25,39 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-- wdm.h
-api_name:
-- FILE_INFORMATION_CLASS
 targetos: Windows
 req.typenames: FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS
+f1_keywords:
+ - _FILE_INFORMATION_CLASS
+ - wdm/_FILE_INFORMATION_CLASS
+ - PFILE_INFORMATION_CLASS
+ - wdm/PFILE_INFORMATION_CLASS
+ - FILE_INFORMATION_CLASS
+ - wdm/FILE_INFORMATION_CLASS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+ - wdm.h
+api_name:
+ - FILE_INFORMATION_CLASS
 ---
 
 # _FILE_INFORMATION_CLASS enumeration
+
 
 ## -description
 
 A value that specifies which structure to use to query or set information for a file object.
 
-## -syntax
-
-```cpp
-typedef enum _FILE_INFORMATION_CLASS {
-    FileDirectoryInformation                         = 1,
-    FileFullDirectoryInformation,                   // 2
-    FileBothDirectoryInformation,                   // 3
-    FileBasicInformation,                           // 4
-    FileStandardInformation,                        // 5
-    FileInternalInformation,                        // 6
-    FileEaInformation,                              // 7
-    FileAccessInformation,                          // 8
-    FileNameInformation,                            // 9
-    FileRenameInformation,                          // 10
-    FileLinkInformation,                            // 11
-    FileNamesInformation,                           // 12
-    FileDispositionInformation,                     // 13
-    FilePositionInformation,                        // 14
-    FileFullEaInformation,                          // 15
-    FileModeInformation,                            // 16
-    FileAlignmentInformation,                       // 17
-    FileAllInformation,                             // 18
-    FileAllocationInformation,                      // 19
-    FileEndOfFileInformation,                       // 20
-    FileAlternateNameInformation,                   // 21
-    FileStreamInformation,                          // 22
-    FilePipeInformation,                            // 23
-    FilePipeLocalInformation,                       // 24
-    FilePipeRemoteInformation,                      // 25
-    FileMailslotQueryInformation,                   // 26
-    FileMailslotSetInformation,                     // 27
-    FileCompressionInformation,                     // 28
-    FileObjectIdInformation,                        // 29
-    FileCompletionInformation,                      // 30
-    FileMoveClusterInformation,                     // 31
-    FileQuotaInformation,                           // 32
-    FileReparsePointInformation,                    // 33
-    FileNetworkOpenInformation,                     // 34
-    FileAttributeTagInformation,                    // 35
-    FileTrackingInformation,                        // 36
-    FileIdBothDirectoryInformation,                 // 37
-    FileIdFullDirectoryInformation,                 // 38
-    FileValidDataLengthInformation,                 // 39
-    FileShortNameInformation,                       // 40
-    FileIoCompletionNotificationInformation,        // 41
-    FileIoStatusBlockRangeInformation,              // 42
-    FileIoPriorityHintInformation,                  // 43
-    FileSfioReserveInformation,                     // 44
-    FileSfioVolumeInformation,                      // 45
-    FileHardLinkInformation,                        // 46
-    FileProcessIdsUsingFileInformation,             // 47
-    FileNormalizedNameInformation,                  // 48
-    FileNetworkPhysicalNameInformation,             // 49
-    FileIdGlobalTxDirectoryInformation,             // 50
-    FileIsRemoteDeviceInformation,                  // 51
-    FileUnusedInformation,                          // 52
-    FileNumaNodeInformation,                        // 53
-    FileStandardLinkInformation,                    // 54
-    FileRemoteProtocolInformation,                  // 55
-
-        //
-        //  These are special versions of these operations (defined earlier)
-        //  which can be used by kernel mode drivers only to bypass security
-        //  access checks for Rename and HardLink operations.  These operations
-        //  are only recognized by the IOManager, a file system should never
-        //  receive these.
-        //
-
-    FileRenameInformationBypassAccessCheck,         // 56
-    FileLinkInformationBypassAccessCheck,           // 57
-
-        //
-        // End of special information classes reserved for IOManager.
-        //
-
-    FileVolumeNameInformation,                      // 58
-    FileIdInformation,                              // 59
-    FileIdExtdDirectoryInformation,                 // 60
-    FileReplaceCompletionInformation,               // 61
-    FileHardLinkFullIdInformation,                  // 62
-    FileIdExtdBothDirectoryInformation,             // 63
-    FileDispositionInformationEx,                   // 64
-    FileRenameInformationEx,                        // 65
-    FileRenameInformationExBypassAccessCheck,       // 66
-    FileDesiredStorageClassInformation,             // 67
-    FileStatInformation,                            // 68
-    FileMemoryPartitionInformation,                 // 69
-    FileStatLxInformation,                          // 70
-    FileCaseSensitiveInformation,                   // 71
-    FileLinkInformationEx,                          // 72
-    FileLinkInformationExBypassAccessCheck,         // 73
-    FileStorageReserveIdInformation,                // 74
-    FileCaseSensitiveInformationForceAccessCheck,   // 75
-
-    FileMaximumInformation
-} FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS;
-```
-
 ## -enum-fields
 
 ### -field FileDirectoryInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information">FILE_DIRECTORY_INFORMATION</a> structure.  
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information">FILE_DIRECTORY_INFORMATION</a> structure.
 
 ### -field FileFullDirectoryInformation
 
@@ -274,7 +181,7 @@ This value is reserved for system use.
 
 ### -field FileQuotaInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a> structure.  
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a> structure.
 
 ### -field FileReparsePointInformation
 
@@ -451,3 +358,102 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntif
 ### -field FileMaximumInformation
 
 This value is reserved for system use. This value is available starting with Windows 7.
+
+## -syntax
+
+```cpp
+typedef enum _FILE_INFORMATION_CLASS {
+    FileDirectoryInformation                         = 1,
+    FileFullDirectoryInformation,                   // 2
+    FileBothDirectoryInformation,                   // 3
+    FileBasicInformation,                           // 4
+    FileStandardInformation,                        // 5
+    FileInternalInformation,                        // 6
+    FileEaInformation,                              // 7
+    FileAccessInformation,                          // 8
+    FileNameInformation,                            // 9
+    FileRenameInformation,                          // 10
+    FileLinkInformation,                            // 11
+    FileNamesInformation,                           // 12
+    FileDispositionInformation,                     // 13
+    FilePositionInformation,                        // 14
+    FileFullEaInformation,                          // 15
+    FileModeInformation,                            // 16
+    FileAlignmentInformation,                       // 17
+    FileAllInformation,                             // 18
+    FileAllocationInformation,                      // 19
+    FileEndOfFileInformation,                       // 20
+    FileAlternateNameInformation,                   // 21
+    FileStreamInformation,                          // 22
+    FilePipeInformation,                            // 23
+    FilePipeLocalInformation,                       // 24
+    FilePipeRemoteInformation,                      // 25
+    FileMailslotQueryInformation,                   // 26
+    FileMailslotSetInformation,                     // 27
+    FileCompressionInformation,                     // 28
+    FileObjectIdInformation,                        // 29
+    FileCompletionInformation,                      // 30
+    FileMoveClusterInformation,                     // 31
+    FileQuotaInformation,                           // 32
+    FileReparsePointInformation,                    // 33
+    FileNetworkOpenInformation,                     // 34
+    FileAttributeTagInformation,                    // 35
+    FileTrackingInformation,                        // 36
+    FileIdBothDirectoryInformation,                 // 37
+    FileIdFullDirectoryInformation,                 // 38
+    FileValidDataLengthInformation,                 // 39
+    FileShortNameInformation,                       // 40
+    FileIoCompletionNotificationInformation,        // 41
+    FileIoStatusBlockRangeInformation,              // 42
+    FileIoPriorityHintInformation,                  // 43
+    FileSfioReserveInformation,                     // 44
+    FileSfioVolumeInformation,                      // 45
+    FileHardLinkInformation,                        // 46
+    FileProcessIdsUsingFileInformation,             // 47
+    FileNormalizedNameInformation,                  // 48
+    FileNetworkPhysicalNameInformation,             // 49
+    FileIdGlobalTxDirectoryInformation,             // 50
+    FileIsRemoteDeviceInformation,                  // 51
+    FileUnusedInformation,                          // 52
+    FileNumaNodeInformation,                        // 53
+    FileStandardLinkInformation,                    // 54
+    FileRemoteProtocolInformation,                  // 55
+
+        //
+        //  These are special versions of these operations (defined earlier)
+        //  which can be used by kernel mode drivers only to bypass security
+        //  access checks for Rename and HardLink operations.  These operations
+        //  are only recognized by the IOManager, a file system should never
+        //  receive these.
+        //
+
+    FileRenameInformationBypassAccessCheck,         // 56
+    FileLinkInformationBypassAccessCheck,           // 57
+
+        //
+        // End of special information classes reserved for IOManager.
+        //
+
+    FileVolumeNameInformation,                      // 58
+    FileIdInformation,                              // 59
+    FileIdExtdDirectoryInformation,                 // 60
+    FileReplaceCompletionInformation,               // 61
+    FileHardLinkFullIdInformation,                  // 62
+    FileIdExtdBothDirectoryInformation,             // 63
+    FileDispositionInformationEx,                   // 64
+    FileRenameInformationEx,                        // 65
+    FileRenameInformationExBypassAccessCheck,       // 66
+    FileDesiredStorageClassInformation,             // 67
+    FileStatInformation,                            // 68
+    FileMemoryPartitionInformation,                 // 69
+    FileStatLxInformation,                          // 70
+    FileCaseSensitiveInformation,                   // 71
+    FileLinkInformationEx,                          // 72
+    FileLinkInformationExBypassAccessCheck,         // 73
+    FileStorageReserveIdInformation,                // 74
+    FileCaseSensitiveInformationForceAccessCheck,   // 75
+
+    FileMaximumInformation
+} FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS;
+```
+

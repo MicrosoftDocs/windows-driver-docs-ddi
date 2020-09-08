@@ -8,9 +8,6 @@ ms.assetid: CE611168-76B3-496F-91C7-932E1F259529
 ms.date: 02/15/2018
 keywords: ["GNSS_FIXSESSIONTYPE enumeration"]
 ms.keywords: GNSS_FIXSESSIONTYPE, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], GNSS_FixSession_ContinuousTracking, GNSS_FixSession_DistanceTracking, GNSS_FixSession_LKG, GNSS_FixSession_SingleShot, gnss.gnss_fixsessiontype, gnssdriver/GNSS_FIXSESSIONTYPE, gnssdriver/GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_SingleShot
-f1_keywords:
- - "gnssdriver/GNSS_FIXSESSIONTYPE"
- - "GNSS_FIXSESSIONTYPE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_FIXSESSIONTYPE
 targetos: Windows
 req.typenames: GNSS_FIXSESSIONTYPE
+f1_keywords:
+ - GNSS_FIXSESSIONTYPE
+ - gnssdriver/GNSS_FIXSESSIONTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_FIXSESSIONTYPE
 ---
 
 # GNSS_FIXSESSIONTYPE enumeration
@@ -46,29 +46,21 @@ req.typenames: GNSS_FIXSESSIONTYPE
 
 ## -description
 
-
 This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_start_fixsession">IOCTL_GNSS_START_FIXSESSION</a> control code. This enumeration is set within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_fixsession_param">GNSS_FIXSESSION_PARAM</a> structure.
 
-
 ## -enum-fields
-
-
-
 
 ### -field GNSS_FixSession_SingleShot
 
 The session request is a single-shot request. The GNSS driver will return intermediate fixes on request. Once a final fix is delivered, no further fix will be returned for this fix session and the GNSS adapter issues a stop fix.
 
-
 ### -field GNSS_FixSession_DistanceTracking
 
 The start-fix request is for starting a tracking session such that a new fix is recorded and made available on request as soon as the device has moved beyond a specified threshold. No intermediate fix is required for a tracking session. A distance tracking session can be started even when another fix session of a different type is active. Both the fix sessions will continue getting the fixes as appropriate.
 
-
 ### -field GNSS_FixSession_ContinuousTracking
 
 The start fix request is for starting a tracking session such that the device position is reported continuously.
-
 
 ### -field GNSS_FixSession_LKG
 

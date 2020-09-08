@@ -8,9 +8,6 @@ ms.assetid: 9ae20927-6ef4-4566-939c-967ce1d99874
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::EnumOptions"]
 ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumOptions method, IPrintCoreUI2.EnumOptions, IPrintCoreUI2::EnumOptions, prcomoem/IPrintCoreUI2::EnumOptions, print.iprintcoreui2_enumoptions, print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.EnumOptions"
- - "IPrintCoreUI2.EnumOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.EnumOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::EnumOptions
+ - prcomoem/IPrintCoreUI2::EnumOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.EnumOptions
 ---
 
 # IPrintCoreUI2::EnumOptions
@@ -46,50 +46,43 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::EnumOptions</code> method enumerates the available options of a specific feature.
-
 
 ## -parameters
 
+### -param poemuiobj 
 
-
-
-### -param poemuiobj [in]
-
+[in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 Is reserved and must be set to zero.
 
+### -param pszFeatureKeyword 
 
-### -param pszFeatureKeyword [in]
-
+[in]
 Pointer to a caller-supplied buffer containing an ASCII string specifying a feature keyword whose options are requested.
 
+### -param pmszOptionList 
 
-### -param pmszOptionList [out]
-
+[out]
 Pointer to a caller-supplied buffer that receives a NULL-delimited list, in MULTI_SZ format, containing the option keywords for the feature keyword pointed to by <i>pszFeatureKeyword</i>. This list is terminated with two null characters. 
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the option list without having the list filled in.
 
+### -param cbSize 
 
-### -param cbSize [in]
-
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszOptionList</i>.
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [out]
-
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the option list.
 
-
 ## -returns
-
-
 
 This method must return one of the following values.
 
@@ -162,14 +155,8 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins. 
 
@@ -177,13 +164,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-enumoptions">Using EnumOptions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
@@ -194,7 +175,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
 

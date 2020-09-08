@@ -8,9 +8,6 @@ ms.assetid: 0f595daa-9822-4ca6-8f25-e6f82030d4ea
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_NOTIFY_CLOSE_AF callback function"]
 ms.keywords: PROTOCOL_CL_NOTIFY_CLOSE_AF, PROTOCOL_CL_NOTIFY_CLOSE_AF callback, ProtocolClNotifyCloseAf, ProtocolClNotifyCloseAf callback function [Network Drivers Starting with Windows Vista], condis_client_ref_0b778346-7d48-4d72-807d-16d8be2da913.xml, ndis/ProtocolClNotifyCloseAf, netvista.protocolclnotifycloseaf
-f1_keywords:
- - "ndis/ProtocolClNotifyCloseAf"
- - "ProtocolClNotifyCloseAf"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolClNotifyCloseAf
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CL_NOTIFY_CLOSE_AF
+ - ndis/PROTOCOL_CL_NOTIFY_CLOSE_AF
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolClNotifyCloseAf
 ---
 
 # PROTOCOL_CL_NOTIFY_CLOSE_AF callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolClNotifyCloseAf</i> function
@@ -55,17 +54,7 @@ The
 
 ## -parameters
 
-
-
-
 ### -param ClientAfContext
-
-
-
-
-
-
-
 
 #### - ProtocolAfContext [in]
 
@@ -74,10 +63,7 @@ A client-supplied handle to its context area for the associated AF. The client a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
      NdisClOpenAddressFamilyEx</a> function.
 
-
 ## -returns
-
-
 
 <i>ProtocolClNotifyCloseAf</i> can
      return one of the following:
@@ -123,14 +109,8 @@ The client failed the request for some driver-determined reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <i>
@@ -223,15 +203,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CL_NOTIFY_CLOSE_AF</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_NOTIFY_CLOSE_AF</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclcloseaddressfamily">NdisClCloseAddressFamily</a>
 
@@ -255,7 +229,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
- 
-
- 
 

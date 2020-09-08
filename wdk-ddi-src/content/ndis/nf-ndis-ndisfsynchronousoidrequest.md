@@ -8,9 +8,6 @@ ms.assetid: 01B625EB-AB6D-496F-95F2-22845460324A
 ms.date: 05/02/2018
 keywords: ["NdisFSynchronousOidRequest function"]
 ms.keywords: NdisFSynchronousOidRequest, NdisFSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFSynchronousOidRequest, netvista.ndisfsynchronousoidrequest
-f1_keywords:
- - "ndis/NdisFSynchronousOidRequest"
- - "NdisFSynchronousOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFSynchronousOidRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFSynchronousOidRequest
+ - ndis/NdisFSynchronousOidRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFSynchronousOidRequest
 ---
 
 # NdisFSynchronousOidRequest function
@@ -53,13 +53,14 @@ This function is supported in NDIS 6.81 and later.
 
 ## -parameters
 
+### -param NdisFilterModuleHandle 
 
-### -param NdisFilterModuleHandle [in]
-
+[in]
 An NDIS handle that identifies a filter module. NDIS passed the handle to the filter driver in a call to the [*FilterAttach*](nc-ndis-filter_attach.md) function.
 
-### -param OidRequest [in]
+### -param OidRequest 
 
+[in]
 A pointer to an [**NDIS_OID_REQUEST**](ns-ndis-_ndis_oid_request.md) structure that specifies the operation that is requested with a given *OID_Xxx* code. The structure can specify an OID query, set, or method request.
 
 ## -returns
@@ -81,3 +82,4 @@ Filter drivers are not required to implement [*FilterOidRequestComplete*](nc-ndi
 [*FilterSynchronousOidRequestComplete*](nf-ndis-filter_synchronous_oid_request_complete.md)
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
+

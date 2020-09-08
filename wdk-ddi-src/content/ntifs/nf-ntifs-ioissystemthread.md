@@ -8,9 +8,6 @@ ms.assetid: 1f3dc15f-14b5-4797-83be-ba3a01a1551b
 ms.date: 04/16/2018
 keywords: ["IoIsSystemThread function"]
 ms.keywords: IoIsSystemThread, IoIsSystemThread routine [Installable File System Drivers], ifsk.ioissystemthread, ioref_3e14f3af-c985-43a4-bc57-927483597c79.xml, ntifs/IoIsSystemThread
-f1_keywords:
- - "ntifs/IoIsSystemThread"
- - "IoIsSystemThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoIsSystemThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoIsSystemThread
+ - ntifs/IoIsSystemThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoIsSystemThread
 ---
 
 # IoIsSystemThread function
@@ -46,49 +46,28 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoIsSystemThread</b> routine checks whether a given thread is a system thread. 
-
+The <b>IoIsSystemThread</b> routine checks whether a given thread is a system thread.
 
 ## -parameters
 
+### -param Thread 
 
-
-
-### -param Thread [in]
-
-Pointer to the thread to be checked. 
-
+[in]
+Pointer to the thread to be checked.
 
 ## -returns
 
-
-
-<b>IoIsSystemThread</b> returns <b>TRUE</b> if the specified thread is a system thread, otherwise <b>FALSE</b>. 
-
-
-
+<b>IoIsSystemThread</b> returns <b>TRUE</b> if the specified thread is a system thread, otherwise <b>FALSE</b>.
 
 ## -remarks
 
-
-
-For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Driver Threads, Dispatcher Objects, and Resources</a>. 
-
-
-
+For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Driver Threads, Dispatcher Objects, and Resources</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread">PsGetCurrentThread</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psissystemthread">PsIsSystemThread</a>
- 
-
- 
 

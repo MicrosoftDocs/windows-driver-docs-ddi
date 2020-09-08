@@ -8,9 +8,6 @@ ms.assetid: 31e88a5b-d97c-482a-aab0-dd987b15d657
 ms.date: 05/02/2018
 keywords: ["NdisCoDeleteVc function"]
 ms.keywords: NdisCoDeleteVc, NdisCoDeleteVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_19f96afa-aa63-44e4-817a-8b701c6d12c6.xml, ndis/NdisCoDeleteVc, netvista.ndiscodeletevc
-f1_keywords:
- - "ndis/NdisCoDeleteVc"
- - "NdisCoDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisCoDeleteVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisCoDeleteVc
+ - ndis/NdisCoDeleteVc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisCoDeleteVc
 ---
 
 # NdisCoDeleteVc function
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisCoDeleteVc</b> destroys a caller-created VC.
-
 
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle identifying the VC to be deleted. The caller originally obtained this handle
      from 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>.
 
-
 ## -returns
-
-
 
 <b>NdisCoDeleteVc</b> can return one of the following:
 
@@ -108,14 +101,8 @@ This call is redundant, but deactivation on the given VC is still pending.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a protocol calls 
     <b>NdisCoDeleteVc</b>, there must be no outstanding calls on the given VC and that VC already has been
@@ -152,13 +139,7 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
     support call 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeletevc">NdisMCmDeleteVc</a> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_delete_vc">MiniportCoDeleteVc</a>
 
@@ -193,7 +174,4 @@ Stand-alone call managers, which register themselves with NDIS as protocol drive
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

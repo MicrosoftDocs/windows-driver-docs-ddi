@@ -8,9 +8,6 @@ ms.assetid: 38396f75-6bcf-493e-9aab-661db59637ae
 ms.date: 03/29/2018
 keywords: ["GetPathConfiguration_IN structure"]
 ms.keywords: "*PGetPathConfiguration_IN, GetPathConfiguration_IN, GetPathConfiguration_IN structure [Storage Devices], PGetPathConfiguration_IN, PGetPathConfiguration_IN structure pointer [Storage Devices], _GetPathConfiguration_IN, mpiowmi/GetPathConfiguration_IN, mpiowmi/PGetPathConfiguration_IN, storage.getpathconfiguration_in, structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml"
-f1_keywords:
- - "mpiowmi/GetPathConfiguration_IN"
- - "GetPathConfiguration_IN"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiowmi.h
-api_name:
-- GetPathConfiguration_IN
 targetos: Windows
 req.typenames: GetPathConfiguration_IN, *PGetPathConfiguration_IN
+f1_keywords:
+ - _GetPathConfiguration_IN
+ - mpiowmi/_GetPathConfiguration_IN
+ - PGetPathConfiguration_IN
+ - mpiowmi/PGetPathConfiguration_IN
+ - GetPathConfiguration_IN
+ - mpiowmi/GetPathConfiguration_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiowmi.h
+api_name:
+ - GetPathConfiguration_IN
 ---
 
 # _GetPathConfiguration_IN structure
@@ -46,14 +50,9 @@ req.typenames: GetPathConfiguration_IN, *PGetPathConfiguration_IN
 
 ## -description
 
-
 The GetPathConfiguration_IN structure is used to retrieve the per path device information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PathID
 

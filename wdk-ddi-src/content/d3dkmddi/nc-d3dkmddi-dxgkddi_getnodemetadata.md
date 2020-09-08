@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiGetNodeMetadata"
- - "DxgkDdiGetNodeMetadata"
+ - DXGKDDI_GETNODEMETADATA
+ - d3dkmddi/DXGKDDI_GETNODEMETADATA
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_GETNODEMETADATA callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: ff4badb5-ab27-4deb-864a-51165290bca4
 ms.date: 05/03/2018
 keywords: ["wiasSetValidRangeLong function"]
 ms.keywords: image.wiassetvalidrangelong, wiamdef/wiasSetValidRangeLong, wiasFncs_3ee53b59-4ef4-4c35-8544-1ac7a8729212.xml, wiasSetValidRangeLong, wiasSetValidRangeLong function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasSetValidRangeLong"
- - "wiasSetValidRangeLong"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasSetValidRangeLong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasSetValidRangeLong
+ - wiamdef/wiasSetValidRangeLong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasSetValidRangeLong
 ---
 
 # wiasSetValidRangeLong function
@@ -46,58 +46,40 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiasSetValidRangeLong </b>function specifies the range of valid values for a WIA_PROP_RANGE property of type VT_I4.
-
 
 ## -parameters
 
+### -param pWiasContext 
 
-
-
-### -param pWiasContext [in]
-
+[in]
 Pointer to a WIA item context.
-
 
 ### -param propid
 
 Specifies the identifier of the property to be updated.
 
-
 ### -param lMin
 
 Specifies the minimum value of the valid range.
-
 
 ### -param lNom
 
 Specifies the property's nominal value.
 
-
 ### -param lMax
 
 Specifies the maximum value of the valid range.
-
 
 ### -param lStep
 
 Specifies the increment between each valid value in the range.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidflag">wiasSetValidFlag</a>
 
@@ -120,7 +102,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangefloat">wiasSetValidRangeFloat</a>
- 
-
- 
 

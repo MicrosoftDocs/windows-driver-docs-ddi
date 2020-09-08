@@ -8,9 +8,6 @@ ms.assetid: C04F29FF-972C-44CC-8557-28C23827ADF0
 ms.date: 04/30/2018
 keywords: ["PsRegisterSiloMonitor function"]
 ms.keywords: PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psregistersilomonitor, ntddk/PsRegisterSiloMonitor
-f1_keywords:
- - "ntddk/PsRegisterSiloMonitor"
- - "PsRegisterSiloMonitor"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsRegisterSiloMonitor
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsRegisterSiloMonitor
+ - ntddk/PsRegisterSiloMonitor
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsRegisterSiloMonitor
 ---
 
 # PsRegisterSiloMonitor function
@@ -46,33 +46,25 @@ req.typenames:
 
 ## -description
 
-
 This routine registers a server silo monitor that can receive notifications about server silo events.
 
 
 <div class="alert"><b>Note</b>  To start receiving notifications, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psstartsilomonitor">PsStartSiloMonitor</a> routine.</div>
 <div> </div>
 
-
-
 ## -parameters
 
+### -param Registration 
 
+[in]
+Specifies the server silo monitor to be registered, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_silo_monitor_registration">SILO_MONITOR_REGISTRATION</a>.
 
+### -param ReturnedMonitor 
 
-### -param Registration [in]
-
-Specifies the server silo monitor to be registered, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_silo_monitor_registration">SILO_MONITOR_REGISTRATION</a>. 
-
-
-### -param ReturnedMonitor [out]
-
+[out]
 Receives a pointer to the monitor. This pointer is used to make further monitor-related calls.
 
-
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -126,7 +118,4 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
 

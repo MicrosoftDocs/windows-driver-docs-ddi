@@ -8,9 +8,6 @@ ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
 ms.date: 05/07/2018
 keywords: ["UcxEndpointPurgeComplete function"]
 ms.keywords: UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, ucxendpoint/UcxEndpointPurgeComplete
-f1_keywords:
- - "ucxendpoint/UcxEndpointPurgeComplete"
- - "UcxEndpointPurgeComplete"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ucxendpoint.h
-api_name:
-- UcxEndpointPurgeComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcxEndpointPurgeComplete
+ - ucxendpoint/UcxEndpointPurgeComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ucxendpoint.h
+api_name:
+ - UcxEndpointPurgeComplete
 ---
 
 # UcxEndpointPurgeComplete function
@@ -46,27 +46,16 @@ req.typenames:
 
 ## -description
 
-
 Notifies UCX that a purge operation has been completed  on the specified endpoint object.
-
 
 ## -parameters
 
+### -param Endpoint 
 
-
-
-### -param Endpoint [in]
-
+[in]
 A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
- 
-
- 
 

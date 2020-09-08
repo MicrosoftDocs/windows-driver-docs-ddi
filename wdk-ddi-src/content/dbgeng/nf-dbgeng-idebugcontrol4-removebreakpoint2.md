@@ -8,9 +8,6 @@ ms.assetid: e1c77758-0249-4ec6-9244-329c0b823e44
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::RemoveBreakpoint2"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],RemoveBreakpoint2 method, IDebugControl4.RemoveBreakpoint2, IDebugControl4::RemoveBreakpoint2, RemoveBreakpoint2, RemoveBreakpoint2 method [Windows Debugging], RemoveBreakpoint2 method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::RemoveBreakpoint2, debugger.removebreakpoint2
-f1_keywords:
- - "dbgeng/IDebugControl4.RemoveBreakpoint2"
- - "IDebugControl4.RemoveBreakpoint2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.RemoveBreakpoint2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::RemoveBreakpoint2
+ - dbgeng/IDebugControl4::RemoveBreakpoint2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.RemoveBreakpoint2
 ---
 
 # IDebugControl4::RemoveBreakpoint2
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>RemoveBreakpoint2</b>  method removes a breakpoint.
-
 
 ## -parameters
 
+### -param Bp 
 
-
-
-### -param Bp [in]
-
+[in]
 Specifies an interface pointer to breakpoint to remove.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -85,12 +78,7 @@ The method was successful.
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
-
-
-
 ## -remarks
-
-
 
 After <b>RemoveBreakpoint</b> and <b>RemoveBreakpoint2</b> are called, the breakpoint object specified in the <i>Bp</i> parameter must not be used again.
 
@@ -98,13 +86,7 @@ After <b>RemoveBreakpoint</b> and <b>RemoveBreakpoint2</b> are called, the break
 <div> </div>
 For more details, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addbreakpoint">AddBreakpoint</a>
 
@@ -115,7 +97,4 @@ For more details, see <a href="https://docs.microsoft.com/windows-hardware/drive
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
- 
-
- 
 

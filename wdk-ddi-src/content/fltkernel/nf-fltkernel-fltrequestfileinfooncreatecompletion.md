@@ -4,46 +4,46 @@ title: FltRequestFileInfoOnCreateCompletion function
 author: windows-driver-content
 description: A minifilter calls FltRequestFileInfoOnCreateCompletion during file pre-create to request that the file manager stores the specified file information for retrieval upon create complete.
 tech.root: ifsk
-ms.assetid:  d33f4ab5-9f50-42d6-8944-0836e090a67a
+ms.assetid: d33f4ab5-9f50-42d6-8944-0836e090a67a
 ms.author: windowsdriverdev
 ms.date: 01/11/2019
 keywords: ["FltRequestFileInfoOnCreateCompletion function"]
-f1_keywords:
- - "fltkernel/FltRequestFileInfoOnCreateCompletion"
- - "FltRequestFileInfoOnCreateCompletion"
 ms.keywords: FltRequestFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletionEx
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
-- fltkernel.h
-api_name: 
- - FltRequestFileInfoOnCreateCompletion
-product: 
- - Windows
 targetos: Windows
-
+f1_keywords:
+ - FltRequestFileInfoOnCreateCompletion
+ - fltkernel/FltRequestFileInfoOnCreateCompletion
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - fltkernel.h
+api_name:
+ - FltRequestFileInfoOnCreateCompletion
+product:
+ - Windows
 ---
 
 # FltRequestFileInfoOnCreateCompletion function
+
 
 ## -description
 
@@ -90,3 +90,4 @@ The minifilter can retrieve the file information by calling [**FltRetrieveFileIn
 [**FltRetrieveFileInfoOnCreateCompletion**](nf-fltkernel-fltretrievefileinfooncreatecompletion.md)
 
 [**FltRetrieveFileInfoOnCreateCompletionEx**](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md)
+

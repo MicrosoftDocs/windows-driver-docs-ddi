@@ -7,9 +7,6 @@ ms.assetid: AFE6B92F-49DB-47F9-90BC-F75B5F37178D
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_UNMAPCPUHOSTAPERTURE callback function"]
 ms.keywords: DXGKDDI_UNMAPCPUHOSTAPERTURE, DXGKDDI_UNMAPCPUHOSTAPERTURE callback, DxgkDdiUnmapCpuHostAperture, DxgkDdiUnmapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiUnmapCpuHostAperture, display.dxgkddiunmapcpuhostaperture
-f1_keywords:
- - "d3dkmddi/DxgkDdiUnmapCpuHostAperture"
- - "DxgkDdiUnmapCpuHostAperture"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiUnmapCpuHostAperture
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_UNMAPCPUHOSTAPERTURE
+ - d3dkmddi/DXGKDDI_UNMAPCPUHOSTAPERTURE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiUnmapCpuHostAperture
 ---
 
 # DXGKDDI_UNMAPCPUHOSTAPERTURE callback function
@@ -46,42 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <b>DxgkDdiUnmapCpuHostAperture</b> is used to unmap a previously mapped range of the CPU host aperture.
 
-
 ## -parameters
-
-
-
 
 ### -param hAdapter
 
 A handle to the display adapter.
 
-
 ### -param pArgs
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture">DXGKARG_UNMAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
-
 ## -returns
-
-
-
 
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture">DXGKARG_UNMAPCPUHOSTAPERTURE</a>
- 
-
- 
 

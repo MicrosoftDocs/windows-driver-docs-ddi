@@ -8,9 +8,6 @@ ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
 ms.date: 04/23/2018
 keywords: ["SERCX_BUFFER_DESCRIPTOR_INIT function"]
 ms.keywords: 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
-f1_keywords:
- - "sercx/SERCX_BUFFER_DESCRIPTOR_INIT"
- - "SERCX_BUFFER_DESCRIPTOR_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any IRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1.0\Sercx.h
-api_name:
-- SERCX_BUFFER_DESCRIPTOR_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SERCX_BUFFER_DESCRIPTOR_INIT
+ - sercx/SERCX_BUFFER_DESCRIPTOR_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - SERCX_BUFFER_DESCRIPTOR_INIT
 ---
 
 # SERCX_BUFFER_DESCRIPTOR_INIT function
@@ -46,27 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-sercx_buffer_descriptor">SERCX_BUFFER_DESCRIPTOR</a> structure.
-
 
 ## -parameters
 
+### -param Descriptor 
 
-
-
-### -param Descriptor [out]
-
+[out]
 A pointer to the <b>SERCX_BUFFER_DESCRIPTOR</b> structure that is to be initialized.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-sercx_buffer_descriptor">SERCX_BUFFER_DESCRIPTOR</a>
- 
-
- 
 

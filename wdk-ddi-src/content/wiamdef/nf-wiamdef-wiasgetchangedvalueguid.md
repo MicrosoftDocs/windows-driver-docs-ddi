@@ -8,13 +8,10 @@ ms.assetid: 5a282acf-6084-4076-a69b-fe23c9eb4d6c
 ms.date: 05/03/2018
 keywords: ["wiasGetChangedValueGuid function"]
 ms.keywords: image.wiasgetchangedvalueguid, wiamdef/wiasGetChangedValueGuid, wiasFncs_b8b576d4-1470-4105-8725-928f70a1e3cc.xml, wiasGetChangedValueGuid, wiasGetChangedValueGuid function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasGetChangedValueGuid"
- - "wiasGetChangedValueGuid"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasGetChangedValueGuid
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasGetChangedValueGuid
+ - wiamdef/wiasGetChangedValueGuid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasGetChangedValueGuid
 ---
 
 # wiasGetChangedValueGuid function
+
 
 ## -description
 
@@ -49,12 +50,14 @@ The **wiasGetChangedValueGuid** function determines whether a property with a GU
 
 ## -parameters
 
-### -param pWiasContext [in]
+### -param pWiasContext 
 
+[in]
 Pointer to a WIA item context.
 
-### -param pContext [in]
+### -param pContext 
 
+[in]
 Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains the current property context.
 
 ### -param bNoValidation
@@ -90,3 +93,4 @@ The driver should validate the property only after the driver has updated the va
 [wiasGetChangedValueLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluelong)
 
 [wiasGetChangedValueStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluestr)
+

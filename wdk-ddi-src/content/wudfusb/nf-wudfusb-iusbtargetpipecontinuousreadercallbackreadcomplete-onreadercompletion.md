@@ -8,9 +8,6 @@ ms.assetid: 946e0206-7609-4dc7-91c2-a6aadad91751
 ms.date: 02/26/2018
 keywords: ["IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion"]
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadComplete interface,OnReaderCompletion method, IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion, IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion, OnReaderCompletion, OnReaderCompletion method, OnReaderCompletion method,IUsbTargetPipeContinuousReaderCallbackReadComplete interface, UMDFUSBref_a221433f-9a32-4205-8f12-a0c891dbe8bf.xml, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
-f1_keywords:
- - "wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion"
- - "IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wudfusb.h
-api_name:
-- IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
+ - wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wudfusb.h
+api_name:
+ - IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
 ---
 
 # IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
@@ -46,40 +46,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <b>OnReaderCompletion</b> event callback function informs the driver that a continuous reader has successfully completed a read request.
 
-
 ## -parameters
 
+### -param pPipe 
 
-
-
-### -param pPipe [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a> interface for the USB pipe on which the driver has enabled a continuous reader.
 
+### -param pMemory 
 
-### -param pMemory [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for a read buffer that contains data that was read from the USB pipe.
 
+### -param NumBytesTransferred 
 
-### -param NumBytesTransferred [in]
-
+[in]
 The number of bytes that the read buffer contains.
 
+### -param Context 
 
-### -param Context [in]
-
+[in]
 A pointer to driver-supplied context information that the driver provided when it previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe2-configurecontinuousreader">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>.
 
-
 ## -remarks
-
-
 
 To register an <b>IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</b> callback function, your driver must provide a pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete">IUsbTargetPipeContinuousReaderCallbackReadComplete</a> interface when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe2-configurecontinuousreader">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>.
 
@@ -113,20 +106,11 @@ When your driver calls <a href="https://docs.microsoft.com/windows-hardware/driv
 
 For more information about the <b>OnReaderCompletion</b> callback function and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/usb-i-o-targets-in-umdf">Handling a USB I/O Target</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete">IUsbTargetPipeContinuousReaderCallbackReadComplete</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed-onreaderfailure">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
- 
-
- 
 

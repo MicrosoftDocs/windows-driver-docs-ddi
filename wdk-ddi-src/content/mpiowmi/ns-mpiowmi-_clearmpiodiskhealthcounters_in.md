@@ -8,9 +8,6 @@ ms.assetid: 1af28545-f43f-47a2-b6a2-64fd7a408687
 ms.date: 03/29/2018
 keywords: ["ClearMpioDiskHealthCounters_IN structure"]
 ms.keywords: "*PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN structure [Storage Devices], PClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN structure pointer [Storage Devices], _ClearMpioDiskHealthCounters_IN, mpiowmi/ClearMpioDiskHealthCounters_IN, mpiowmi/PClearMpioDiskHealthCounters_IN, storage.clearmpiodiskhealthcounters_in, structs-scsibus_52663a43-dc66-4b77-b30d-d60ffbea7232.xml"
-f1_keywords:
- - "mpiowmi/ClearMpioDiskHealthCounters_IN"
- - "ClearMpioDiskHealthCounters_IN"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiowmi.h
-api_name:
-- ClearMpioDiskHealthCounters_IN
 targetos: Windows
 req.typenames: ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN
+f1_keywords:
+ - _ClearMpioDiskHealthCounters_IN
+ - mpiowmi/_ClearMpioDiskHealthCounters_IN
+ - PClearMpioDiskHealthCounters_IN
+ - mpiowmi/PClearMpioDiskHealthCounters_IN
+ - ClearMpioDiskHealthCounters_IN
+ - mpiowmi/ClearMpioDiskHealthCounters_IN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiowmi.h
+api_name:
+ - ClearMpioDiskHealthCounters_IN
 ---
 
 # _ClearMpioDiskHealthCounters_IN structure
@@ -46,14 +50,9 @@ req.typenames: ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN
 
 ## -description
 
-
 The ClearMpioDiskHealthCounters_IN structure is used to provide an input parameter to the ClearMpioDiskHealthCounters method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DiskOrdinal
 

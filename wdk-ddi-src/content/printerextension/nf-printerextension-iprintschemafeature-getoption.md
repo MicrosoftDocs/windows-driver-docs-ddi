@@ -8,9 +8,6 @@ ms.assetid: C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaFeature::GetOption"]
 ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintSchemaFeature interface, IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices],GetOption method, IPrintSchemaFeature.GetOption, IPrintSchemaFeature::GetOption, print.iprintschemafeature_getoption, printerextension/IPrintSchemaFeature::GetOption
-f1_keywords:
- - "printerextension/IPrintSchemaFeature.GetOption"
- - "IPrintSchemaFeature.GetOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaFeature.GetOption
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaFeature::GetOption
+ - printerextension/IPrintSchemaFeature::GetOption
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaFeature.GetOption
 ---
 
 # IPrintSchemaFeature::GetOption
@@ -46,54 +46,36 @@ req.typenames:
 
 ## -description
 
-
 Gets the option with the given name.
-
 
 ## -parameters
 
+### -param bstrName 
 
-
-
-### -param bstrName [in]
-
+[in]
 The name of the option.
 
+### -param bstrNamespaceUri 
 
-### -param bstrNamespaceUri [in]
-
+[in]
 The namespace URI of the option.
 
+### -param ppOption 
 
-### -param ppOption [out, retval]
-
+[out, retval]
 The returned option.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value, if the call was successful. Otherwise it returns the appropriate error code.
 
-
-
-
 ## -remarks
-
-
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
 
 So if the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a> object does not contain the specified feature, option or property, the app must obtain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a> object and query it via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeaturebykeyname">IPrintSchemaCapabilities::GetFeatureByKeyName</a> or via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getfeature">IPrintSchemaCapabilities::GetFeature</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
 
@@ -108,7 +90,4 @@ So if the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/print
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
- 
-
- 
 

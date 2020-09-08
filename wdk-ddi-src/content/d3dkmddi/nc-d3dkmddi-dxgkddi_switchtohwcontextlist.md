@@ -26,8 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dkmddi/DXGKDDI_SWITCHTOHWCONTEXTLIST"
- - "DXGKDDI_SWITCHTOHWCONTEXTLIST"
+ - DXGKDDI_SWITCHTOHWCONTEXTLIST
+ - d3dkmddi/DXGKDDI_SWITCHTOHWCONTEXTLIST
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # DXGKDDI_SWITCHTOHWCONTEXTLIST callback function
+
 
 ## -description
 

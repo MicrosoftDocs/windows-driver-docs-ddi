@@ -8,9 +8,6 @@ ms.assetid: 905f8566-ad98-454f-a5cd-8f4ff46c8118
 ms.date: 04/05/2019
 keywords: ["NDIS_WWAN_SIGNAL_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SIGNAL_STATE, PNDIS_WWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_92027d1b-0311-4d61-b8cf-04518ee2863b.xml, _NDIS_WWAN_SIGNAL_STATE, ndiswwan/NDIS_WWAN_SIGNAL_STATE, ndiswwan/PNDIS_WWAN_SIGNAL_STATE, netvista.ndis_wwan_signal_state"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SIGNAL_STATE"
- - "NDIS_WWAN_SIGNAL_STATE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SIGNAL_STATE
 targetos: Windows
 req.typenames: NDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE
+f1_keywords:
+ - _NDIS_WWAN_SIGNAL_STATE
+ - ndiswwan/_NDIS_WWAN_SIGNAL_STATE
+ - PNDIS_WWAN_SIGNAL_STATE
+ - ndiswwan/PNDIS_WWAN_SIGNAL_STATE
+ - NDIS_WWAN_SIGNAL_STATE
+ - ndiswwan/NDIS_WWAN_SIGNAL_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SIGNAL_STATE
 ---
 
 # _NDIS_WWAN_SIGNAL_STATE structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE
 
 ## -description
 
-
 The NDIS_WWAN_SIGNAL_STATE structure represents the signal state of the MB device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,11 +104,9 @@ sizeof(NDIS_WWAN_SIGNAL_STATE)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uStatus
 
 The status of the signal state operation.
-
 
 ### -field SignalState
 
@@ -117,18 +114,11 @@ A formatted
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a> object that represents
      the signal state of the MB device.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 9BE790DB-DB7A-44A3-8A89-673CBFCF4D65
 ms.date: 04/30/2018
 keywords: ["SpbControllerSetRequestAttributes function"]
 ms.keywords: SPB.spbcontrollersetrequestattributes, SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses], spbcx/SpbControllerSetRequestAttributes
-f1_keywords:
- - "spbcx/SpbControllerSetRequestAttributes"
- - "SpbControllerSetRequestAttributes"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- spbcxstubs.lib
-- spbcxstubs.dll
-api_name:
-- SpbControllerSetRequestAttributes
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpbControllerSetRequestAttributes
+ - spbcx/SpbControllerSetRequestAttributes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - spbcxstubs.lib
+ - spbcxstubs.dll
+api_name:
+ - SpbControllerSetRequestAttributes
 ---
 
 # SpbControllerSetRequestAttributes function
@@ -47,28 +47,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SpbControllerSetRequestAttributes</b> method  sets object attributes that will be used for all SPBREQUEST objects  that the SPB framework extension (SpbCx) delivers to the SPB controller driver.
-
 
 ## -parameters
 
+### -param FxDevice 
 
-
-
-### -param FxDevice [in]
-
+[in]
 A WDFDEVICE handle to the device object that represents the SPB controller.
 
+### -param RequestAttributes 
 
-### -param RequestAttributes [in]
-
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the SPB controller's SPBREQUEST objects.
 
-
 ## -remarks
-
-
 
 During device initialization, your SPB controller driver can call this method to set the default attributes for SPBREQUEST objects.  Thereafter, SpbCx assigns these attributes to any I/O requests that it delivers (or forwards) to target devices on the bus.
 
@@ -86,13 +79,7 @@ During device initialization, your SPB controller driver can call this method to
 
 The SPB controller driver must call <b>SpbControllerSetRequestAttributes</b> before it <i>commits</i> the device object—that is, before it returns from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback or adds the PDO to the controller's child list. The child list represents the devices that are attached to the bus. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -103,7 +90,4 @@ The SPB controller driver must call <b>SpbControllerSetRequestAttributes</b> bef
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a>
- 
-
- 
 

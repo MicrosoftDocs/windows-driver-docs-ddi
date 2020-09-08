@@ -8,9 +8,6 @@ ms.assetid: B842C707-C6E0-4C56-986E-35BFD32F265D
 ms.date: 05/03/2018
 keywords: ["SENSOR_COLLECTION_LIST structure"]
 ms.keywords: "*PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], SENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensors.sensor_collection_list, sensorsdef/PSENSOR_COLLECTION_LIST, sensorsdef/SENSOR_COLLECTION_LIST"
-f1_keywords:
- - "sensorsdef/SENSOR_COLLECTION_LIST"
- - "SENSOR_COLLECTION_LIST"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sensorsdef.h
-api_name:
-- SENSOR_COLLECTION_LIST
 targetos: Windows
 req.typenames: SENSOR_COLLECTION_LIST, *PSENSOR_COLLECTION_LIST
+f1_keywords:
+ - SENSOR_COLLECTION_LIST
+ - sensorsdef/SENSOR_COLLECTION_LIST
+ - PSENSOR_COLLECTION_LIST
+ - sensorsdef/PSENSOR_COLLECTION_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sensorsdef.h
+api_name:
+ - SENSOR_COLLECTION_LIST
 ---
 
 # SENSOR_COLLECTION_LIST structure
@@ -46,33 +48,23 @@ req.typenames: SENSOR_COLLECTION_LIST, *PSENSOR_COLLECTION_LIST
 
 ## -description
 
-
 This structure contains a list of all <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AllocatedSizeInBytes
 
 Represents the number of elements allocated in List.
 
-
 ### -field Count
 
 Represents the number of used entries in List.
-
 
 ### -field List
 
 A list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> structures.
 
-
 ## -remarks
-
-
 
 The SENSOR_COLLECTION_LIST structure works with the following helper functions:
 
@@ -87,5 +79,4 @@ The SENSOR_COLLECTION_LIST structure works with the following helper functions:
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/nf-sensorsdef-sensor_collection_list_calculate_max_count">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
 </li>
 </ul>
-
 

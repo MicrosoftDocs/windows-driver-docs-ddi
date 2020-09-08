@@ -8,9 +8,6 @@ ms.assetid: ac8cf336-c2b7-4949-8237-a2008b9d883f
 ms.date: 04/16/2018
 keywords: ["KeSetIdealProcessorThread function"]
 ms.keywords: KeSetIdealProcessorThread, KeSetIdealProcessorThread function [Installable File System Drivers], ifsk.kesetidealprocessorthread, keref_3a412d87-c325-4369-99f6-1b31225eb02e.xml, ntifs/KeSetIdealProcessorThread
-f1_keywords:
- - "ntifs/KeSetIdealProcessorThread"
- - "KeSetIdealProcessorThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- KeSetIdealProcessorThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeSetIdealProcessorThread
+ - ntifs/KeSetIdealProcessorThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - KeSetIdealProcessorThread
 ---
 
 # KeSetIdealProcessorThread function
@@ -46,25 +46,15 @@ req.typenames:
 
 ## -description
 
-
-The <b>KeSetIdealProcessorThread</b> routine is reserved for system use. 
-
+The <b>KeSetIdealProcessorThread</b> routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param Thread
 
 <p>Reserved.</p>
 
-
 ### -param Processor
 
 Reserved.
-
-
-
-
 

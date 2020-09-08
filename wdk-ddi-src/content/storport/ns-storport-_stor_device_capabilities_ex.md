@@ -8,9 +8,6 @@ ms.assetid: 6DCD1F8A-45E3-4084-9688-AE59597D65AF
 ms.date: 03/29/2018
 keywords: ["STOR_DEVICE_CAPABILITIES_EX structure"]
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], _STOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, storport/PSTOR_DEVICE_CAPABILITIES_EX, storport/STOR_DEVICE_CAPABILITIES_EX"
-f1_keywords:
- - "storport/STOR_DEVICE_CAPABILITIES_EX"
- - "STOR_DEVICE_CAPABILITIES_EX"
 req.header: storport.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- STOR_DEVICE_CAPABILITIES_EX
 targetos: Windows
 req.typenames: STOR_DEVICE_CAPABILITIES_EX, *PSTOR_DEVICE_CAPABILITIES_EX
+f1_keywords:
+ - _STOR_DEVICE_CAPABILITIES_EX
+ - storport/_STOR_DEVICE_CAPABILITIES_EX
+ - PSTOR_DEVICE_CAPABILITIES_EX
+ - storport/PSTOR_DEVICE_CAPABILITIES_EX
+ - STOR_DEVICE_CAPABILITIES_EX
+ - storport/STOR_DEVICE_CAPABILITIES_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - STOR_DEVICE_CAPABILITIES_EX
 ---
 
-# _STOR_DEVICE_CAPABILITIES_EX structure
+# _STOR_DEVICE_CAPABILITIES_EX structure (storport.h)
+
 
 ## -description
 
@@ -142,3 +147,4 @@ The eject, removal, and install characteristics for the device are set in the **
 [**SCSI_PNP_REQUEST_BLOCK**](ns-storport-_scsi_pnp_request_block.md)
 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
+

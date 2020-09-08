@@ -8,9 +8,6 @@ ms.assetid: 558F652C-6D1A-4BAF-9C2C-3F4FE24651D2
 ms.date: 03/29/2018
 keywords: ["StorPortAsyncNotificationDetected function"]
 ms.keywords: RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, StorPortAsyncNotificationDetected, StorPortAsyncNotificationDetected routine [Storage Devices], storage.storportasyncnotificationdetected, storport/StorPortAsyncNotificationDetected
-f1_keywords:
- - "storport/StorPortAsyncNotificationDetected"
- - "StorPortAsyncNotificationDetected"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortAsyncNotificationDetected
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortAsyncNotificationDetected
+ - storport/StorPortAsyncNotificationDetected
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortAsyncNotificationDetected
 ---
 
 # StorPortAsyncNotificationDetected function
@@ -46,26 +46,20 @@ req.typenames:
 
 ## -description
 
-
 A storage miniport driver calls <b>StorPortAsyncNotificationDetected</b> to  notify the Storport driver of a storage device status change event.
 
 The notification is queued as a work item for deferred processing at DISPATCH_LEVEL or lower IRQL.
 
-
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
-
 
 ### -param Address
 
 The address of the storage device with a status change event.
-
 
 ### -param Flags
 
@@ -112,12 +106,8 @@ Notify Storport that an operational role of the storage device has changed.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 A status value indicating the result of the notification. This can be one of these values:
 
@@ -183,20 +173,12 @@ A prior notification is in process and this one cannot be scheduled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A miniport can detect status events in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a> routine and call <b>StorPortAsyncNotificationDetected</b> to queue and process the status change notification later at a lower IRQL. 
 
 When processed by Storport, the status event notification is forwarded to the storage class driver to initiate any necessary system response actions.
 
 If the <i>Flags</i> parameter is 0, Storport will indicate all status values in its notification to the storage class driver.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.date: 04/30/2018
 keywords: ["ZwSetValueKey function"]
 ms.keywords: NtSetValueKey, ZwSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, kernel.zwsetvaluekey, wdm/NtSetValueKey, wdm/ZwSetValueKey
-f1_keywords:
- - "wdm/ZwSetValueKey"
- - "ZwSetValueKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwSetValueKey
-- NtSetValueKey
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwSetValueKey
+ - wdm/ZwSetValueKey
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwSetValueKey
+ - NtSetValueKey
 ---
 
 # ZwSetValueKey function
@@ -47,32 +47,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwSetValueKey</b> routine creates or replaces a registry key's value entry.
-
 
 ## -parameters
 
+### -param KeyHandle 
 
+[in]
+Handle to the registry key to write a value entry for. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>.
 
+### -param ValueName 
 
-### -param KeyHandle [in]
-
-Handle to the registry key to write a value entry for. This handle is created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>. 
-
-
-### -param ValueName [in]
-
+[in]
 Pointer to the name of the value entry for which the data is to be written. This parameter can be a <b>NULL</b> pointer if the value entry has no name. If a name string is specified and the given name is not unique relative to its containing key, the data for an existing value entry is replaced.
 
+### -param TitleIndex 
 
-### -param TitleIndex [in, optional]
-
+[in, optional]
 This parameter is reserved. Device and intermediate drivers should set this parameter to zero.
 
+### -param Type 
 
-### -param Type [in]
-
+[in]
 One of the following system-defined types of data to write.
 
 <table>
@@ -206,19 +202,17 @@ A list of hardware resources that a physical device is using, detected and writt
 <div class="alert"><b>Note</b>   Device drivers should not attempt to call <b>ZwSetValueKey</b> to explicitly write value entries in a subkey of the <b>\Registry...\ResourceMap</b> key. Only the system can write value entries to the <b>\Registry...\HardwareDescription</b> tree.</div>
 <div> </div>
 
-### -param Data [in, optional]
+### -param Data 
 
+[in, optional]
 Pointer to a caller-allocated buffer that contains the data for the value entry.
 
+### -param DataSize 
 
-### -param DataSize [in]
-
-Specifies the size, in bytes, of the <i>Data</i> buffer. If <i>Type</i> is REG_<i>XXX</i>_SZ, this value must include space for any terminating zeros. 
-
+[in]
+Specifies the size, in bytes, of the <i>Data</i> buffer. If <i>Type</i> is REG_<i>XXX</i>_SZ, this value must include space for any terminating zeros.
 
 ## -returns
-
-
 
 <b>ZwSetValueKey</b> returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this routine might return one of the following values:
 
@@ -227,10 +221,7 @@ Specifies the size, in bytes, of the <i>Data</i> buffer. If <i>Type</i> is REG_<
 |**STATUS_ACCESS_DENIED**|The caller does not have appropriate access to the registry value.|
 |**STATUS_INVALID_HANDLE**|The handle is invalid.|
 
-
 ## -remarks
-
-
 
 The<i> KeyHandle</i> passed to <b>ZwSetValueKey</b> must have been opened with the KEY_SET_VALUE <i>DesiredAccess</i> flag set for this call to succeed. For a description of possible values for <i>DesiredAccess</i>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
 
@@ -242,13 +233,7 @@ For more information about working with registry keys, see <a href="https://docs
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalAssignSlotResources</a>
 
@@ -283,7 +268,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
- 
-
- 
 

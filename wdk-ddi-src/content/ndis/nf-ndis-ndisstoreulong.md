@@ -8,9 +8,6 @@ ms.assetid: 4fb0b803-1fe2-409b-8543-dddc5df67fe4
 ms.date: 05/02/2018
 keywords: ["NdisStoreUlong macro"]
 ms.keywords: NdisStoreUlong, NdisStoreUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisStoreUlong, ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, netvista.ndisstoreulong
-f1_keywords:
- - "ndis/NdisStoreUlong"
- - "NdisStoreUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisStoreUlong
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisStoreUlong
+ - ndis/NdisStoreUlong
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisStoreUlong
 ---
 
 # NdisStoreUlong macro
@@ -46,45 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisStoreUlong</b> function stores a ULONG value at a particular address, avoiding alignment
   faults.
 
-
 ## -parameters
-
-
-
 
 ### -param Destination
 
 A pointer to a location in which to store a given ULONG value.
 
-### -param Value [in]
+### -param Value 
 
+[in]
 The value to be stored.
 
-
 ## -remarks
-
-
 
 Callers of 
     <b>NdisStoreUlong</b> can be running at any IRQL if 
     <i>DestinationAddress</i> points to nonpaged pool. Otherwise, the caller must be running at IRQL <
     DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretrieveulong">NdisRetrieveUlong</a>
- 
-
- 
 

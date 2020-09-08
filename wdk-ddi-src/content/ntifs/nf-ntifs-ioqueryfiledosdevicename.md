@@ -8,9 +8,6 @@ ms.assetid: 8574e5cf-5bbf-4606-931f-e27b2aa7b7fa
 ms.date: 04/16/2018
 keywords: ["IoQueryFileDosDeviceName function"]
 ms.keywords: IoQueryFileDosDeviceName, IoQueryFileDosDeviceName routine [Installable File System Drivers], ifsk.ioqueryfiledosdevicename, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ntifs/IoQueryFileDosDeviceName
-f1_keywords:
- - "ntifs/IoQueryFileDosDeviceName"
- - "IoQueryFileDosDeviceName"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoQueryFileDosDeviceName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoQueryFileDosDeviceName
+ - ntifs/IoQueryFileDosDeviceName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoQueryFileDosDeviceName
 ---
 
 # IoQueryFileDosDeviceName function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
-The <b>IoQueryFileDosDeviceName</b> routine retrieves an MS-DOS device name for a file. 
-
+The <b>IoQueryFileDosDeviceName</b> routine retrieves an MS-DOS device name for a file.
 
 ## -parameters
 
+### -param FileObject 
 
+[in]
+Pointer to a file object for the file.
 
+### -param ObjectNameInformation 
 
-### -param FileObject [in]
-
-Pointer to a file object for the file. 
-
-
-### -param ObjectNameInformation [out]
-
+[out]
 A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure. This structure is filled in on successful return with the MS-DOS device name information. The structure is defined as follows: 
 
 <div class="code"><span codelanguage=""><table>
@@ -81,29 +77,13 @@ A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure
 
 ## -returns
 
-
-
-<b>IoQueryFileDosDeviceName</b> returns STATUS_SUCCESS or an error NTSTATUS value, such as STATUS_INSUFFICIENT_RESOURCES. 
-
-
-
+<b>IoQueryFileDosDeviceName</b> returns STATUS_SUCCESS or an error NTSTATUS value, such as STATUS_INSUFFICIENT_RESOURCES.
 
 ## -remarks
 
-
-
-For more information about MS-DOS names, see the Files and I/O section of the Platform Software Development Kit (SDK) documentation. 
-
-
-
+For more information about MS-DOS names, see the Files and I/O section of the Platform Software Development Kit (SDK) documentation.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

@@ -8,9 +8,6 @@ ms.assetid: FF063DFE-FD80-4E30-8289-5B40642C867F
 ms.date: 04/20/2018
 keywords: ["IPrinterPropertyBag::SetString"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetString method, IPrinterPropertyBag.SetString, IPrinterPropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setstring, printerextension/IPrinterPropertyBag::SetString
-f1_keywords:
- - "printerextension/IPrinterPropertyBag.SetString"
- - "IPrinterPropertyBag.SetString"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterPropertyBag.SetString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterPropertyBag::SetString
+ - printerextension/IPrinterPropertyBag::SetString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterPropertyBag.SetString
 ---
 
 # IPrinterPropertyBag::SetString
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Writes a string property.
-
 
 ## -parameters
 
+### -param bstrName 
 
-
-
-### -param bstrName [in]
-
+[in]
 The property to set.
 
+### -param bstrValue 
 
-### -param bstrValue [in]
-
+[in]
 The property value to set.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 In Windows 8.1 a new flag, PRINTER_ACCESS_MANAGE_LIMITED, has been introduced to grant print queue permissions that are more limited than PRINTER_ACCESS_ADMINISTER, but more powerful than 
 PRINTER_ACCESS_USE.
@@ -86,16 +74,7 @@ PRINTER_ACCESS_MANAGE_LIMITED access to the queue.
 
 A call to set a property on a queue property bag will fail with ERROR_ACCESS_DENIED, if the user does not have the appropriate permission. This behavior was true before PRINTER_ACCESS_MANAGE_LIMITED was introduced, and it's still the current behavior.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
- 
-
- 
 

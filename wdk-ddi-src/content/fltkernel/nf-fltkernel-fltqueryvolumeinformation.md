@@ -8,9 +8,6 @@ ms.assetid: 57b65e87-7f2d-44fc-84b9-e029c8075be3
 ms.date: 04/16/2018
 keywords: ["FltQueryVolumeInformation function"]
 ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_1b2db9a1-36d0-4503-bd97-7f24b68ad513.xml, FltQueryVolumeInformation, FltQueryVolumeInformation routine [Installable File System Drivers], fltkernel/FltQueryVolumeInformation, ifsk.fltqueryvolumeinformation
-f1_keywords:
- - "fltkernel/FltQueryVolumeInformation"
- - "FltQueryVolumeInformation"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltQueryVolumeInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltQueryVolumeInformation
+ - fltkernel/FltQueryVolumeInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQueryVolumeInformation
 ---
 
 # FltQueryVolumeInformation function
@@ -46,37 +46,33 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltQueryVolumeInformation</b> routine retrieves information about the volume that the given instance is attached to. 
-
+The <b>FltQueryVolumeInformation</b> routine retrieves information about the volume that the given instance is attached to.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+An opaque instance pointer for a minifilter driver instance that is attached to the volume.
 
+### -param Iosb 
 
-### -param Instance [in]
+[out]
+A pointer to caller-allocated IO_STATUS_BLOCK structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the <i>FsInformation</i> buffer is returned in the structure's <b>Information</b> member.
 
-An opaque instance pointer for a minifilter driver instance that is attached to the volume. 
+### -param FsInformation 
 
+[out]
+A pointer to a caller-allocated buffer that receives the desired information about the volume. The structure of the information returned in the buffer is defined by the <i>FsInformationClass</i> parameter.
 
-### -param Iosb [out]
+### -param Length 
 
-A pointer to caller-allocated IO_STATUS_BLOCK structure that receives the final completion status and information about the query operation. For successful calls that return data, the number of bytes written to the <i>FsInformation</i> buffer is returned in the structure's <b>Information</b> member. 
+[in]
+The size in bytes of the buffer that <i>FsInformation</i> points to. The caller should set this parameter according to the given <i>FsInformationClass</i>. For example, if the value of <i>FsInformationClass</i> is FileFsControlInformation, <i>Length</i> must be at least <b>sizeof</b>(FILE_FS_CONTROL_INFORMATION).
 
+### -param FsInformationClass 
 
-### -param FsInformation [out]
-
-A pointer to a caller-allocated buffer that receives the desired information about the volume. The structure of the information returned in the buffer is defined by the <i>FsInformationClass</i> parameter. 
-
-
-### -param Length [in]
-
-The size in bytes of the buffer that <i>FsInformation</i> points to. The caller should set this parameter according to the given <i>FsInformationClass</i>. For example, if the value of <i>FsInformationClass</i> is FileFsControlInformation, <i>Length</i> must be at least <b>sizeof</b>(FILE_FS_CONTROL_INFORMATION). 
-
-
-### -param FsInformationClass [in]
-
+[in]
 The type of information requested. One of the following value. 
 
 <table>
@@ -177,12 +173,8 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>FltQueryVolumeInformation</b> routine returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value such as one of the following: 
 
@@ -226,14 +218,8 @@ The <i>Instance</i> is attached to a network volume. <a href="https://docs.micro
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Fields in the FILE_<i>XXX</i>_INFORMATION structure that are not supported by the underlying file system are set to zero. 
 
@@ -243,15 +229,9 @@ To get volume property information for the given volume, call <a href="https://d
 
 To get the volume name for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>. 
 
-To get the volume GUID name for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>. 
-
-
-
+To get the volume GUID name for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_attribute_information">FILE_FS_ATTRIBUTE_INFORMATION</a>
 
@@ -302,7 +282,4 @@ To get the volume GUID name for a given volume, call <a href="https://docs.micro
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumeinformation">FltSetVolumeInformation</a>
- 
-
- 
 

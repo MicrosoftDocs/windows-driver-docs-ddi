@@ -8,9 +8,6 @@ ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
 ms.date: 04/30/2018
 keywords: ["ExSetTimer function"]
 ms.keywords: ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture], kernel.exsettimer, wdm/ExSetTimer
-f1_keywords:
- - "wdm/ExSetTimer"
- - "ExSetTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- ExSetTimer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExSetTimer
+ - wdm/ExSetTimer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - ExSetTimer
 ---
 
 # ExSetTimer function
@@ -47,49 +47,37 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExSetTimer</b> routine starts a timer operation and sets the timer to expire at the specified due time.
-
 
 ## -parameters
 
+### -param Timer 
 
-
-
-### -param Timer [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
+### -param DueTime 
 
-### -param DueTime [in]
-
+[in]
 The absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. An absolute time is expressed as the amount of time passed, in system time units, since the start of the year 1601.
 
 The <i>DueTime</i> parameter for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/high-resolution-timers">high-resolution timer</a> must be a relative time (negative value), or the routine bug checks.
 
+### -param Period 
 
-### -param Period [in]
-
+[in]
 An optional period for the timer in system time units (100-nanosecond intervals). Must be less than or equal to MAXLONG. For a timer that is one-shot instead of periodic, set <i>Period</i> to zero.
 
+### -param Parameters 
 
-### -param Parameters [in, optional]
-
+[in, optional]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a> structure. The calling driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializesettimerparameters">ExInitializeSetTimerParameters</a> routine to initialize this structure.
-
 
 ## -returns
 
-
-
 This routine returns <b>TRUE</b> if it cancels a timer that was pending at the time that the routine was called. Otherwise, the routine returns <b>FALSE</b>. For more information, see Remarks.
 
-
-
-
 ## -remarks
-
-
 
 Your driver can call this routine to set a timer to expire at a future time. The driver can then wait for the timer to expire. Or, the driver can implement a callback routine that is called when the timer expires.
 
@@ -111,13 +99,7 @@ To avoid excessive power consumption, a driver should not set the period of a lo
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">ExXxxTimer Routines and EX_TIMER Objects</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a>
 
@@ -144,7 +126,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
- 
-
- 
 

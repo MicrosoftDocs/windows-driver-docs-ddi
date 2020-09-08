@@ -8,9 +8,6 @@ ms.assetid: 5a2bb69c-b10a-41bb-a92a-de7add3ca2c5
 ms.date: 05/10/2018
 keywords: ["VideoPortGetVgaStatus function"]
 ms.keywords: VideoPortGetVgaStatus, VideoPortGetVgaStatus function [Display Devices], VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, display.videoportgetvgastatus, video/VideoPortGetVgaStatus
-f1_keywords:
- - "video/VideoPortGetVgaStatus"
- - "VideoPortGetVgaStatus"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,25 +25,28 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortGetVgaStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortGetVgaStatus
+ - video/VideoPortGetVgaStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortGetVgaStatus
 ---
 
 # VideoPortGetVgaStatus function
 
+
 ## -description
 
 The <b>VideoPortGetVgaStatus</b> function detects whether the calling device is decoding a VGA I/O address.
-
 
 ## -parameters
 
@@ -54,8 +54,9 @@ The <b>VideoPortGetVgaStatus</b> function detects whether the calling device is 
 
 Pointer to the miniport driver's device extension.
 
-### -param VgaStatus [out]
+### -param VgaStatus 
 
+[out]
 Pointer to the resulting VGA status. A value of zero (0) indicates that VGA is not enabled; a value of one (1) indicates that VGA is enabled.
 
 ## -returns
@@ -69,7 +70,5 @@ Pointer to the resulting VGA status. A value of zero (0) indicates that VGA is n
 
 ## -remarks
 
-The <b>VideoPortGetVgaStatus</b> function is mainly used to determine whether a device is the sole VGA-enabled device in a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/multiple-monitor-support-in-the-display-driver">multiple monitor</a> system. 
-
-
+The <b>VideoPortGetVgaStatus</b> function is mainly used to determine whether a device is the sole VGA-enabled device in a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/multiple-monitor-support-in-the-display-driver">multiple monitor</a> system.
 

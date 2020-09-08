@@ -8,9 +8,6 @@ ms.assetid: AFC51731-2F30-4214-90EE-A05D48F68530
 ms.date: 04/20/2018
 keywords: ["IPrinterPropertyBag::GetString"]
 ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetString method, IPrinterPropertyBag.GetString, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
-f1_keywords:
- - "printerextension/IPrinterPropertyBag.GetString"
- - "IPrinterPropertyBag.GetString"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterPropertyBag.GetString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterPropertyBag::GetString
+ - printerextension/IPrinterPropertyBag::GetString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterPropertyBag.GetString
 ---
 
 # IPrinterPropertyBag::GetString
@@ -46,41 +46,25 @@ req.typenames:
 
 ## -description
 
-
 Reads a string property.
-
 
 ## -parameters
 
+### -param bstrName 
 
-
-
-### -param bstrName [in]
-
+[in]
 The property to read.
 
+### -param pbstrValue 
 
-### -param pbstrValue [out, retval]
-
+[out, retval]
 The value read.
-
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> value.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
- 
-
- 
 

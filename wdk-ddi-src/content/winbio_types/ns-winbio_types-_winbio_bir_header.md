@@ -8,9 +8,6 @@ ms.assetid: 5053b027-61a9-463a-967c-9e9ff1673b1c
 ms.date: 02/20/2018
 keywords: ["WINBIO_BIR_HEADER structure"]
 ms.keywords: "*PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER structure pointer [Biometric Devices], WINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], _WINBIO_BIR_HEADER, biometric.winbio_bir_header, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, winbio_types/PWINBIO_BIR_HEADER, winbio_types/WINBIO_BIR_HEADER"
-f1_keywords:
- - "winbio_types/WINBIO_BIR_HEADER"
- - "WINBIO_BIR_HEADER"
 req.header: winbio_types.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winbio_types.h
-api_name:
-- WINBIO_BIR_HEADER
 targetos: Windows
 req.typenames: WINBIO_BIR_HEADER
+f1_keywords:
+ - _WINBIO_BIR_HEADER
+ - winbio_types/_WINBIO_BIR_HEADER
+ - WINBIO_BIR_HEADER
+ - winbio_types/WINBIO_BIR_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winbio_types.h
+api_name:
+ - WINBIO_BIR_HEADER
 ---
 
 # _WINBIO_BIR_HEADER structure
@@ -46,15 +48,13 @@ req.typenames: WINBIO_BIR_HEADER
 
 ## -description
 
-
 The WINBIO_BIR_HEADER structure contains the Common Biometric Exchange File Format (CBEFF) Patron Format A information that describes the rest of the BIR.
-
 
 ## -struct-fields
 
 ### -field ValidFields
 
-A Patron Format A bitmask that indicates which CBEFF optional fields are present in the BIR. For more information about all members of WINBIO_BIR_HEADER, follow the link in the Remarks section to the <i>NISTIR 6529-A Specification</i>. 
+A Patron Format A bitmask that indicates which CBEFF optional fields are present in the BIR. For more information about all members of WINBIO_BIR_HEADER, follow the link in the Remarks section to the <i>NISTIR 6529-A Specification</i>.
 
 ### -field HeaderVersion
 
@@ -74,21 +74,17 @@ A structure of type WINBIO_BIR_VERSION that specifies PATRON_HEADER_VERSION.
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_parameters">WINBIO_BIR_DATA_FLAGS</a> that specifies the level of processing expected for a data capture.
 
-
 ### -field Type
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_TYPE</a> that specifies the biometric type.
-
 
 ### -field Subtype
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_SENSOR_SUBTYPE</a> that specifies the biometric subtype.
 
-
 ### -field Purpose
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_parameters">WINBIO_BIR_PURPOSE</a> that specifies the intended use of the data.
-
 
 ### -field DataQuality
 
@@ -105,7 +101,6 @@ typedef CHAR WINBIO_BIR_QUALITY, *PWINBIO_BIR_QUALITY;
 ### -field CreationDate
 
 Specifies the creation date and time of this BIR in UTC by using the format YYYYMMDDhhmmss.
-
 
 ### -field ValidityPeriod
 
@@ -132,3 +127,4 @@ You can find more information about the fields of the standard biometric header 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir_data">WINBIO_BIR_DATA</a>
+

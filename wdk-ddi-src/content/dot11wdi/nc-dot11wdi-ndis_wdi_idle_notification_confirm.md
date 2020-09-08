@@ -8,9 +8,6 @@ ms.assetid: 39D070BE-FF6F-4EC8-A4E4-DF45C5089AA7
 ms.date: 05/02/2018
 keywords: ["NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback function"]
 ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_CONFIRM, NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback, NdisWdiIdleNotificationConfirm, NdisWdiIdleNotificationConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationConfirm, netvista.ndiswdiidlenotificationconfirm
-f1_keywords:
- - "dot11wdi/NdisWdiIdleNotificationConfirm"
- - "NdisWdiIdleNotificationConfirm"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dot11wdi.h
-api_name:
-- NdisWdiIdleNotificationConfirm
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDIS_WDI_IDLE_NOTIFICATION_CONFIRM
+ - dot11wdi/NDIS_WDI_IDLE_NOTIFICATION_CONFIRM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dot11wdi.h
+api_name:
+ - NdisWdiIdleNotificationConfirm
 ---
 
 # NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback function
@@ -46,35 +46,28 @@ req.typenames:
 
 ## -description
 
-
 Miniport drivers call NdisWdiIdleNotificationConfirm callback function to notify NDIS that the idle network adapter can safely be suspended and transitioned to a low-power state. Miniport drivers call this function during an NDIS selective suspend operation. NDIS begins the operation when it calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_idle_notification">MiniportWdiIdleNotification</a> handler function.
 
 
 
 This is a control path callback inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_init_parameters">NDIS_WDI_INIT_PARAMETERS</a>.
 
-
 ## -parameters
 
+### -param MiniportAdapterHandle 
 
-
-
-### -param MiniportAdapterHandle [in]
-
+[in]
 The miniport handle.
 
+### -param DeviceIdlePowerState 
 
-### -param DeviceIdlePowerState [in]
-
+[in]
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_device_power_state">NDIS_DEVICE_POWER_STATE</a> enumeration value that specifies the lowest power state that the network adapter supports for a low-power state transition.
 
 <div class="alert"><b>Note</b>  For USB network adapters, this parameter must be <b>NdisDeviceStateD2</b>.</div>
 <div> </div>
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-the-ndis-selective-suspend-idle-notification">Handling the NDIS Selective Suspend Idle Notification</a>
 
@@ -85,7 +78,4 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_wdi_init_parameters">NDIS_WDI_INIT_PARAMETERS</a>
- 
-
- 
 

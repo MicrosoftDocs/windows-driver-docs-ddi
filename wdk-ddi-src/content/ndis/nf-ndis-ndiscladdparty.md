@@ -8,9 +8,6 @@ ms.assetid: e48357b2-52dc-48af-aeb1-8d84ea107579
 ms.date: 05/02/2018
 keywords: ["NdisClAddParty function"]
 ms.keywords: NdisClAddParty, NdisClAddParty function [Network Drivers Starting with Windows Vista], condis_client_ref_90d23e8e-f3a5-4a19-9eeb-b68a28f7f915.xml, ndis/NdisClAddParty, netvista.ndiscladdparty
-f1_keywords:
- - "ndis/NdisClAddParty"
- - "NdisClAddParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisClAddParty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisClAddParty
+ - ndis/NdisClAddParty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisClAddParty
 ---
 
 # NdisClAddParty function
@@ -47,42 +47,35 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisClAddParty</b> adds a party on the client's multipoint VC.
-
 
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Pointer to the VC handle returned by 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>.
 
+### -param ProtocolPartyContext 
 
-### -param ProtocolPartyContext [in]
-
+[in]
 Specifies the handle to a caller-allocated resident context area in which the client will maintain
      per-party state if its call succeeds.
 
+### -param CallParameters 
 
-### -param CallParameters [in, out]
-
+[in, out]
 Pointer to a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> in which the caller has
      specified the addressing information for the party to be added on its multipoint VC.
 
+### -param NdisPartyHandle 
 
-### -param NdisPartyHandle [out]
-
+[out]
 Pointer to a variable to be set by NDIS if the add-party operation succeeds.
 
-
 ## -returns
-
-
 
 When 
      <b>NdisClAddParty</b> returns anything other than NDIS_STATUS_PENDING, the client should make an internal
@@ -91,12 +84,7 @@ When
      ProtocolClAddPartyComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClAddPartyComplete</i> function when this operation is completed.
 
-
-
-
 ## -remarks
-
-
 
 Before it calls 
     <b>NdisClAddParty</b>, a client must set up a multipoint connection on its VC with 
@@ -167,13 +155,7 @@ Whether a multipoint call permits transfers in both directions and/or per-party 
     must use the 
     <i>NdisVcHandle</i> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -221,7 +203,4 @@ Whether a multipoint call permits transfers in both directions and/or per-party 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
- 
-
- 
 

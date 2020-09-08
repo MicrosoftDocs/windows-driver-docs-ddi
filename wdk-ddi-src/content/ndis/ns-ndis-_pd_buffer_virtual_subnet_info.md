@@ -8,9 +8,6 @@ ms.assetid: 569424A2-4279-4758-A6F1-402D25F9B04F
 ms.date: 05/02/2018
 keywords: ["PD_BUFFER_VIRTUAL_SUBNET_INFO structure"]
 ms.keywords: PD_BUFFER_VIRTUAL_SUBNET_INFO, PD_BUFFER_VIRTUAL_SUBNET_INFO structure [Network Drivers Starting with Windows Vista], PPD_BUFFER_VIRTUAL_SUBNET_INFO, PPD_BUFFER_VIRTUAL_SUBNET_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_VIRTUAL_SUBNET_INFO, ndis/PD_BUFFER_VIRTUAL_SUBNET_INFO, ndis/PPD_BUFFER_VIRTUAL_SUBNET_INFO, netvista.pd_buffer_virtual_subnet_info
-f1_keywords:
- - "ndis/PD_BUFFER_VIRTUAL_SUBNET_INFO"
- - "PD_BUFFER_VIRTUAL_SUBNET_INFO"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ndis.h
-api_name:
-- PD_BUFFER_VIRTUAL_SUBNET_INFO
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+f1_keywords:
+ - _PD_BUFFER_VIRTUAL_SUBNET_INFO
+ - ndis/_PD_BUFFER_VIRTUAL_SUBNET_INFO
+ - PD_BUFFER_VIRTUAL_SUBNET_INFO
+ - ndis/PD_BUFFER_VIRTUAL_SUBNET_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ndis.h
+api_name:
+ - PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
 
 # _PD_BUFFER_VIRTUAL_SUBNET_INFO structure
@@ -46,19 +48,13 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 
 ## -description
 
-
 This structure contains the virtual subnet information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VirtualSubnetId
 
 The virtual subnet ID.
-
 
 ### -field Reserved
 

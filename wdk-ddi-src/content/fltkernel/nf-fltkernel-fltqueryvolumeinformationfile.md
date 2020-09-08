@@ -8,9 +8,6 @@ ms.assetid: 3f93ce0a-f1f0-4b5b-aaf3-ce6698eb5055
 ms.date: 04/16/2018
 keywords: ["FltQueryVolumeInformationFile function"]
 ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FltQueryVolumeInformationFile, FltQueryVolumeInformationFile function [Installable File System Drivers], fltkernel/FltQueryVolumeInformationFile, ifsk.fltqueryvolumeinformationfile
-f1_keywords:
- - "fltkernel/FltQueryVolumeInformationFile"
- - "FltQueryVolumeInformationFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltQueryVolumeInformationFile
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltQueryVolumeInformationFile
+ - fltkernel/FltQueryVolumeInformationFile
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltQueryVolumeInformationFile
 ---
 
 # FltQueryVolumeInformationFile function
@@ -46,37 +46,33 @@ req.typenames:
 
 ## -description
 
-
-<b>FltQueryVolumeInformationFile</b> retrieves volume information for a given file, directory, storage device, or volume. 
-
+<b>FltQueryVolumeInformationFile</b> retrieves volume information for a given file, directory, storage device, or volume.
 
 ## -parameters
 
+### -param Instance 
 
+[in]
+Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param Instance [in]
+[in]
+File object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>.
 
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
+### -param FsInformation 
 
+[out]
+Pointer to a caller-allocated buffer that receives information about the file. The <i>FsInformationClass</i> parameter specifies the type of information. This parameter is required and cannot be <b>NULL</b>.
 
-### -param FileObject [in]
+### -param Length 
 
-File object pointer for an open file, directory, storage device, or volume. This parameter is required and cannot be <b>NULL</b>. 
+[in]
+Size, in bytes, of the <i>FsInformation</i> buffer.
 
+### -param FsInformationClass 
 
-### -param FsInformation [out]
-
-Pointer to a caller-allocated buffer that receives information about the file. The <i>FsInformationClass</i> parameter specifies the type of information. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param Length [in]
-
-Size, in bytes, of the <i>FsInformation</i> buffer. 
-
-
-### -param FsInformationClass [in]
-
+[in]
 Type of volume information to be returned. One of the following:
 
 <table>
@@ -175,17 +171,13 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/
 </td>
 </tr>
 </table>
- 
 
+### -param LengthReturned 
 
-### -param LengthReturned [out, optional]
-
-Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>FsInformation</i> buffer. This parameter is optional and can be <b>NULL</b>. 
-
+[out, optional]
+Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>FsInformation</i> buffer. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 <b>FltQueryVolumeInformationFile</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value such as the following: 
 
@@ -206,28 +198,16 @@ The volume is not currently mounted. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FltQueryVolumeInformationFile</b> retrieves volume information for a given file, directory, storage device, or volume. 
 
 If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceInformation</i> can be specified as the value of <i>FsInformationClass</i>. 
 
-<b>FltQueryVolumeInformationFile</b> returns zero in any member of a FILE_FS_<i>XXX</i>_INFORMATION structure that is not supported by a particular file system. 
-
-
-
+<b>FltQueryVolumeInformationFile</b> returns zero in any member of a FILE_FS_<i>XXX</i>_INFORMATION structure that is not supported by a particular file system.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_attribute_information">FILE_FS_ATTRIBUTE_INFORMATION</a>
 
@@ -266,7 +246,4 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>
- 
-
- 
 

@@ -8,37 +8,37 @@ ms.assetid: bc69e347-8ef7-4a80-9ef4-bbc03f5586c4
 ms.date: 02/15/2018
 keywords: ["PPARALLEL_TRY_ALLOCATE_ROUTINE callback"]
 ms.keywords: PPARALLEL_TRY_ALLOCATE_ROUTINE, ParallelTryAllocateRoutine, ParallelTryAllocateRoutine callback function [Parallel Ports], cisspd_737cb583-bcc9-46e9-915b-e073da2c11bf.xml, parallel/ParallelTryAllocateRoutine, parports.parallel_try_allocate_routine__isr_
-f1_keywords:
- - "parallel/ParallelTryAllocateRoutine"
- - "ParallelTryAllocateRoutine"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: DIRQL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- parallel.h
-api_name:
-- ParallelTryAllocateRoutine
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+f1_keywords:
+ - PPARALLEL_TRY_ALLOCATE_ROUTINE
+ - parallel/PPARALLEL_TRY_ALLOCATE_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - parallel.h
+api_name:
+ - ParallelTryAllocateRoutine
 ---
 
 # PPARALLEL_TRY_ALLOCATE_ROUTINE callback
@@ -46,33 +46,16 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 
 ## -description
 
-
 The <i>PPARALLEL_TRY_ALLOCATE_ROUTINE</i>-typed (ISR) callback routine attempts to allocate a parallel port at IRQL = DIRQL. The system-supplied function driver for parallel ports supplies this routine.
-
-
-## -prototype
-
-
-```cpp
-typedef BOOLEAN ParallelTryAllocateRoutine(
-  _In_ PVOID TryAllocateContext
-);
-```
-
 
 ## -parameters
 
+### -param TryAllocateContext 
 
-
-
-### -param TryAllocateContext [in]
-
+[in]
 Pointer to the device extension of a functional device object that represents a parallel port.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -102,14 +85,16 @@ The parallel port was not allocated.
 </td>
 </tr>
 </table>
- 
 
+## -prototype
 
-
+```cpp
+typedef BOOLEAN ParallelTryAllocateRoutine(
+  _In_ PVOID TryAllocateContext
+);
+```
 
 ## -remarks
-
-
 
 A kernel-mode driver connects an interrupt service routine by using an <a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>, which returns a <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a> structure. This structure includes the <b>TryAllocatePortAtInterruptLevel</b> member, which is a pointer to the system-supplied <i>PPARALLEL_TRY_ALLOCATE_ROUTINE</i> (ISR) callback.
 
@@ -121,8 +106,6 @@ For more information about allocating a parallel port in an ISR, see <a href="ht
 
 <div class="alert"><b>Note</b>    The <i>PPARALLEL_TRY_ALLOCATE_ROUTINE</i> (ISR) callback is untested. Microsoft does not recommend using a client-supplied interrupt routine. The use of interrupts might cause system instability. By default, the <a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a> request is disabled.</div>
 <div> </div>
-
-
 
 ## -see-also
 
@@ -151,11 +134,4 @@ For more information about allocating a parallel port in an ISR, see <a href="ht
 
 
 <a href="..\parallel\ns-parallel-_parallel_interrupt_information.md">PARALLEL_INTERRUPT_INFORMATION</a>
-
-
-
- 
-
- 
-
 

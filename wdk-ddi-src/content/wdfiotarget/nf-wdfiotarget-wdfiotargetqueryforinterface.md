@@ -8,9 +8,6 @@ ms.assetid: 213d0ee8-96f1-4927-be87-1b504b3f3478
 ms.date: 02/26/2018
 keywords: ["WdfIoTargetQueryForInterface function"]
 ms.keywords: DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface method, kmdf.wdfiotargetqueryforinterface, wdf.wdfiotargetqueryforinterface, wdfiotarget/WdfIoTargetQueryForInterface
-f1_keywords:
- - "wdfiotarget/WdfIoTargetQueryForInterface"
- - "WdfIoTargetQueryForInterface"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfIoTargetQueryForInterface
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoTargetQueryForInterface
+ - wdfiotarget/WdfIoTargetQueryForInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfIoTargetQueryForInterface
 ---
 
 # WdfIoTargetQueryForInterface function
@@ -47,50 +47,43 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoTargetQueryForInterface</b> method obtains access to the GUID-identified, driver-defined interface of a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets">remote I/O target</a>.
 
-
 ## -parameters
 
+### -param IoTarget 
 
-
-
-### -param IoTarget [in]
-
+[in]
 A handle to a remote I/O target object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>.
 
+### -param InterfaceType 
 
-### -param InterfaceType [in]
-
+[in]
 A pointer to a GUID that identifies the interface.
 
+### -param Interface 
 
-### -param Interface [out]
-
+[out]
 A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 The size, in bytes, of the driver-allocated structure that <i>Interface</i> points to.
 
+### -param Version 
 
-### -param Version [in]
-
+[in]
 The version number of the requested interface. The driver that exports the requested interface defines the format of this value.
 
+### -param InterfaceSpecificData 
 
-### -param InterfaceSpecificData [in, optional]
-
+[in, optional]
 Additional interface-specific information. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfIoTargetQueryForInterface</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -128,14 +121,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Your driver can call <b>WdfIoTargetQueryForInterface</b> to obtain access to a driver-defined interface that was created by a driver in a different driver stack. To access a driver-defined interface that was created by a driver that is in the same driver stack as your driver, your driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoqueryforinterface">WdfFdoQueryForInterface</a>.
 
@@ -163,12 +149,7 @@ if (!NT_SUCCESS (status)){
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
 
@@ -183,7 +164,4 @@ if (!NT_SUCCESS (status)){
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>
- 
-
- 
 

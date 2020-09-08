@@ -8,9 +8,6 @@ ms.assetid: af388fd1-c95b-42ae-9d18-5fb416c28bc1
 ms.date: 04/23/2018
 keywords: ["KsDeviceGetFirstChildFilterFactory function"]
 ms.keywords: KsDeviceGetFirstChildFilterFactory, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, ks/KsDeviceGetFirstChildFilterFactory, stream.ksdevicegetfirstchildfilterfactory
-f1_keywords:
- - "ks/KsDeviceGetFirstChildFilterFactory"
- - "KsDeviceGetFirstChildFilterFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KsDeviceGetFirstChildFilterFactory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsDeviceGetFirstChildFilterFactory
+ - ks/KsDeviceGetFirstChildFilterFactory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KsDeviceGetFirstChildFilterFactory
 ---
 
 # KsDeviceGetFirstChildFilterFactory function
@@ -46,44 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsDeviceGetFirstChildFilterFactory</b> function returns the first child filter factory belonging to a given AVStream device.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device for which to find the first child filter factory.
-
 
 ## -returns
 
-
-
 Returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure representing the first child filter factory of <i>Device</i>. If there are no filter factories registered on <i>Device</i>, <b>NULL</b> is returned.
 
-
-
-
 ## -remarks
-
-
 
 This call is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfirstchild">KsGetFirstChild</a>. Note that the object hierarchy is only guaranteed stable while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 For a graphical representation of AVStream parent/child relationships, see the diagram in <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-object-hierarchy">AVStream Object Hierarchy</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
@@ -98,7 +80,4 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfirstchild">KsGetFirstChild</a>
- 
-
- 
 

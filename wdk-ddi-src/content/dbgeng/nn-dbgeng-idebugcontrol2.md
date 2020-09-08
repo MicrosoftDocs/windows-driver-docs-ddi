@@ -8,9 +8,6 @@ ms.assetid: c8371bbc-cbd1-4ff4-a055-99cc6cd6f8c6
 ms.date: 05/03/2018
 keywords: ["IDebugControl2 interface"]
 ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], IDebugControl2 interface [Windows Debugging],described, dbgeng/IDebugControl2, debugger.idebugcontrol2
-f1_keywords:
- - "dbgeng/IDebugControl2"
- - "IDebugControl2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl2
+ - dbgeng/IDebugControl2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl2
 ---
 
 # IDebugControl2 interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -58,9 +55,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl2</b> interface 
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
@@ -70,7 +64,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl2</b> interface 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
- 
-
- 
 

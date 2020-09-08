@@ -8,9 +8,6 @@ ms.assetid: C3E9B4D6-A1BB-425E-A131-D93C3219D28B
 ms.date: 02/26/2018
 keywords: ["WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function"]
 ms.keywords: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function, kmdf.wdf_dma_system_profile_config_init, wdf.wdf_dma_system_profile_config_init, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
-f1_keywords:
- - "wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT"
- - "WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfdmaenabler.h
-api_name:
-- WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
+ - wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfdmaenabler.h
+api_name:
+ - WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
 ---
 
 # WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function
@@ -46,41 +46,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_system_profile_config">WDF_DMA_SYSTEM_PROFILE_CONFIG</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param DmaConfig
 
 <p>A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_system_profile_config"><b>WDF_DMA_SYSTEM_PROFILE_CONFIG</b></a> structure.</p>
 
+### -param Address 
 
-### -param Address [in]
-
+[in]
 The translated address of the register to target for DMA. For more information, see Remarks.
 
+### -param DmaWidth 
 
-### -param DmaWidth [in]
-
+[in]
 The width of the register specified by <b>Address</b>.
 
+### -param DmaDescriptor 
 
-### -param DmaDescriptor [in]
-
+[in]
 The translated resource descriptor for the DMA channel assigned 
       the device during <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>.
 
-
 ## -remarks
-
-
 
 Typically, a driver calls <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b> from within its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function. A driver must call the <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b> function before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile">WdfDmaEnablerConfigureSystemProfile</a>.
 
@@ -95,12 +87,7 @@ For a code example that uses <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b>, see <a h
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_system_profile_config">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>
 
@@ -111,7 +98,4 @@ For a code example that uses <b>WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</b>, see <a h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
- 
-
- 
 

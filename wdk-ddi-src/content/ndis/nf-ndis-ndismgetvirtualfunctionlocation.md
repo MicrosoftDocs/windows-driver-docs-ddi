@@ -8,9 +8,6 @@ ms.assetid: 772A7763-67C0-4218-8C5F-23972475D2C9
 ms.date: 05/02/2018
 keywords: ["NdisMGetVirtualFunctionLocation function"]
 ms.keywords: NdisMGetVirtualFunctionLocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation
-f1_keywords:
- - "ndis/NdisMGetVirtualFunctionLocation"
- - "NdisMGetVirtualFunctionLocation"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMGetVirtualFunctionLocation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMGetVirtualFunctionLocation
+ - ndis/NdisMGetVirtualFunctionLocation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMGetVirtualFunctionLocation
 ---
 
 # NdisMGetVirtualFunctionLocation function
@@ -47,45 +47,39 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver calls the <b>NdisMGetVirtualFunctionLocation</b> function to query the device location of a PCI Express (PCIe) Virtual Function (VF) on a  PCI bus. The driver uses the device location to construct the PCIe Requestor ID (RID) for the VF.
 <div class="alert"><b>Note</b>  <b>NdisMGetVirtualFunctionLocation</b> must only be called by the miniport driver for the network adapter's PCIe Physical Function (PF).</div><div> </div>
 
 ## -parameters
 
+### -param NdisMiniportHandle 
 
-
-
-### -param NdisMiniportHandle [in]
-
+[in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
+### -param VFId 
 
-### -param VFId [in]
-
+[in]
 The identifier of the VF for which the device location is returned.
 
+### -param SegmentNumber 
 
-### -param SegmentNumber [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns a USHORT value for the current PCI segment number. This value specifies the group of PCI buses on which the device is attached.
 
+### -param BusNumber 
 
-### -param BusNumber [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns a UCHAR value. This value specifies the current PCI bus number on which the device is attached.
 
+### -param FunctionNumber 
 
-### -param FunctionNumber [out]
-
+[out]
 A pointer to a caller-supplied variable in which this function returns a UCHAR value. This value specifies the function number of a logical device on the device.
 
-
 ## -remarks
-
-
 
  When  it handles a method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>, the PF miniport driver must return the RID for the VF that the driver has successfully allocated on the network adapter. The driver generates the RID in the following way:<ol>
 <li>
@@ -108,13 +102,7 @@ If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as p
 
 The VBD that runs in the Hyper-V parent partition's management operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface by issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the PCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_PCI_VIRTUALIZATION_INTERFACE.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -133,7 +121,4 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>
- 
-
- 
 

@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
+f1_keywords:
+ - ntddsfio
+ - ntddsfio/ntddsfio
 ---
 
 # Ntddsfio.h header
@@ -21,3 +24,4 @@ This is the include file that defines all common constants, ioctls and types for
 This header is used by kernel. For more information, see:
 
 - [Windows kernel](../_kernel/index.md)
+

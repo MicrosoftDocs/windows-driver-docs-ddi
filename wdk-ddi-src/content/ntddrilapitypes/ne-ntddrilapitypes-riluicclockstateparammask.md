@@ -8,50 +8,59 @@ ms.assetid: 19366fbe-8a04-4a9f-9acc-8de0211e6e0d
 ms.date: 02/16/2018
 keywords: ["RILUICCLOCKSTATEPARAMMASK enumeration"]
 ms.keywords: RILUICCLOCKSTATEPARAMMASK, RILUICCLOCKSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCLOCKSTATE_ALL, RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, RIL_PARAM_UICCLOCKSTATE_UICCLOCK, RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT, netvista.riluicclockstateparammask, rilapitypes/RILUICCLOCKSTATEPARAMMASK, rilapitypes/RIL_PARAM_UICCLOCKSTATE_ALL, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RIL_PARAM_UICCLOCKSTATE_UICCLOCK, rilapitypes/RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, rilapitypes/RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT
-f1_keywords:
- - "ntddrilapitypes/RILUICCLOCKSTATEPARAMMASK"
- - "RILUICCLOCKSTATEPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILUICCLOCKSTATEPARAMMASK
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILUICCLOCKSTATEPARAMMASK
+f1_keywords:
+ - RILUICCLOCKSTATEPARAMMASK
+ - ntddrilapitypes/RILUICCLOCKSTATEPARAMMASK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILUICCLOCKSTATEPARAMMASK
 ---
 
-# RILUICCLOCKSTATEPARAMMASK enumeration
+# RILUICCLOCKSTATEPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILUICCLOCKSTATEPARAMMASK.
 
+## -enum-fields
+
+### -field RIL_PARAM_UICCLOCKSTATE_UICCLOCK
+
+### -field RIL_PARAM_UICCLOCKSTATE_LOCKSTATE
+
+### -field RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT
+
+### -field RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT
+
+### -field RIL_PARAM_UICCLOCKSTATE_ALL
 
 ## -syntax
-
 
 ```cpp
 enum RILUICCLOCKSTATEPARAMMASK {
@@ -64,35 +73,7 @@ enum RILUICCLOCKSTATEPARAMMASK {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_PARAM_UICCLOCKSTATE_UICCLOCK
-
-
-### -field RIL_PARAM_UICCLOCKSTATE_LOCKSTATE
-
-
-### -field RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT
-
-
-### -field RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT
-
-
-### -field RIL_PARAM_UICCLOCKSTATE_ALL
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
 

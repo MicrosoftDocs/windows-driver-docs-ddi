@@ -7,38 +7,38 @@ ms.assetid: 4ca68dac-ead1-431e-a97e-af99ef966417
 ms.date: 04/16/2018
 keywords: ["D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032, display.d3d12ddi-video-process-input-stream-rate-info-0032
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032"
- - "D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032"
 req.header: d3d12umddi.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12umddi.h
-api_name:
-- D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
+f1_keywords:
+ - D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
+ - d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
 ---
 
 # D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 structure
@@ -46,14 +46,9 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
 
 ## -description
 
-
 The video process input stream rate info.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OutputIndex
 
@@ -73,5 +68,4 @@ The InputFrameOrField member is a zero-based number that indicates the frame or 
 * Progressive format and interlaced format at half rate: InputFrameOrField = 0, 2, 4, ...
 * Interlaced format at 4/5 custom rate (3:2 inverse telecine, OutputFrames=4 and InputFrameOrField=10):  InputFrameOrField = 0, 0, 0, 0, 10, 10, 10, 10, 20, 20, 20, 20, ...
 * Interlaced format at 4/15 custom rate (8:7 inverse telecine, OutputFrames=2 and InputFrameOrField=15): InputFrameOrField = 0, 0, 15, 15, 30, 30, ...
-
 

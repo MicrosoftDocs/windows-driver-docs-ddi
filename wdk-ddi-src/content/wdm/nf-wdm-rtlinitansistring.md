@@ -8,9 +8,6 @@ ms.assetid: 7b535ea0-091f-4a1b-bfb7-db3cfabbe846
 ms.date: 04/30/2018
 keywords: ["RtlInitAnsiString function"]
 ms.keywords: RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, kernel.rtlinitansistring, wdm/RtlInitAnsiString
-f1_keywords:
- - "wdm/RtlInitAnsiString"
- - "RtlInitAnsiString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlInitAnsiString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInitAnsiString
+ - wdm/RtlInitAnsiString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlInitAnsiString
 ---
 
 # RtlInitAnsiString function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlInitAnsiString</b> routine initializes a counted string of ANSI characters.
-
 
 ## -parameters
 
+### -param DestinationString 
 
-
-
-### -param DestinationString [out]
-
+[out]
 A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a> structure to be initialized.
 
+### -param SourceString 
 
-### -param SourceString [in, optional]
-
+[in, optional]
 A pointer to a null-terminated character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 This routine initializes a counted character string.
 
@@ -108,16 +96,7 @@ The <b>RTL_CONSTANT_STRING</b> macro replaces the <b>RtlInitAnsiString</b>, <a h
 
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">ANSI_STRING</a>
- 
-
- 
 

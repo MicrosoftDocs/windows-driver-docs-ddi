@@ -8,9 +8,6 @@ ms.assetid: 8924c46b-e2b5-473f-aa0c-e755cd9cbbc6
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects3 interface"]
 ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
-f1_keywords:
- - "dbgeng/IDebugSystemObjects3"
- - "IDebugSystemObjects3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,29 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSystemObjects3
-- IDebugSystemObjects3.GetCurrentSystemServer
-- IDebugSystemObjects3.GetSystemByServer
-- IDebugSystemObjects3.GetCurrentSystemServerName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects3
+ - dbgeng/IDebugSystemObjects3
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSystemObjects3
+ - IDebugSystemObjects3.GetCurrentSystemServer
+ - IDebugSystemObjects3.GetSystemByServer
+ - IDebugSystemObjects3.GetCurrentSystemServerName
 ---
 
 # IDebugSystemObjects3 interface
 
 
 ## -description
-
-
-
 
 ## -inheritance
 
@@ -61,9 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects3</b> inte
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects">IDebugSystemObjects</a>
 
 
@@ -73,7 +67,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects3</b> inte
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
- 
-
- 
 

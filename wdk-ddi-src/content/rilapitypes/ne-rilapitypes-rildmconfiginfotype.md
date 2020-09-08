@@ -8,9 +8,6 @@ ms.assetid: c6dc14a5-59de-42dd-9e45-99f632bf6a57
 ms.date: 05/02/2018
 keywords: ["RILDMCONFIGINFOTYPE enumeration"]
 ms.keywords: RILDMCONFIGINFOTYPE, RILDMCONFIGINFOTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_DMCV_TYPE_BOOLEAN, RIL_DMCV_TYPE_DWORD, RIL_DMCV_TYPE_MAX, RIL_DMCV_TYPE_STRING, netvista.rildmconfiginfotype, ntddrilapitypes/RILDMCONFIGINFOTYPE, ntddrilapitypes/RIL_DMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_DMCV_TYPE_DWORD, ntddrilapitypes/RIL_DMCV_TYPE_MAX, ntddrilapitypes/RIL_DMCV_TYPE_STRING
-f1_keywords:
- - "rilapitypes/RILDMCONFIGINFOTYPE"
- - "RILDMCONFIGINFOTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,44 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILDMCONFIGINFOTYPE
 targetos: Windows
 req.typenames: RILDMCONFIGINFOTYPE
+f1_keywords:
+ - RILDMCONFIGINFOTYPE
+ - rilapitypes/RILDMCONFIGINFOTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILDMCONFIGINFOTYPE
 ---
 
-# RILDMCONFIGINFOTYPE enumeration
+# RILDMCONFIGINFOTYPE enumeration (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 
-
-
-
 ### -field RIL_DMCV_TYPE_NONE
-
 
 ### -field RIL_DMCV_TYPE_BOOLEAN
 
-
 ### -field RIL_DMCV_TYPE_DWORD
 
-
 ### -field RIL_DMCV_TYPE_STRING
-
 
 ### -field RIL_DMCV_TYPE_MAX
 

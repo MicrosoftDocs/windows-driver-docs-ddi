@@ -8,9 +8,6 @@ ms.assetid: f40b9989-a911-4b89-a5a3-dda9a225b576
 ms.date: 05/02/2018
 keywords: ["RILCALLVIDEOMEDIASTATE structure"]
 ms.keywords: "*LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastate, ntddrilapitypes/RILCALLVIDEOMEDIASTATE"
-f1_keywords:
- - "rilapitypes/RILCALLVIDEOMEDIASTATE"
- - "RILCALLVIDEOMEDIASTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,41 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLVIDEOMEDIASTATE
 targetos: Windows
 req.typenames: RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE
+f1_keywords:
+ - RILCALLVIDEOMEDIASTATE
+ - rilapitypes/RILCALLVIDEOMEDIASTATE
+ - LPRILCALLVIDEOMEDIASTATE
+ - rilapitypes/LPRILCALLVIDEOMEDIASTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLVIDEOMEDIASTATE
 ---
 
-# RILCALLVIDEOMEDIASTATE structure
+# RILCALLVIDEOMEDIASTATE structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwParams
-
 
 ### -field dwPeerCapabilities
 
-
 ### -field dwFlags
-
 
 ### -field dwContextID
 

@@ -8,9 +8,6 @@ ms.assetid: be22fb7f-408a-44ee-ae83-0f1dadcec87f
 ms.date: 04/16/2018
 keywords: ["RtlNtStatusToDosErrorNoTeb function"]
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], RtlNtStatusToDosErrorNoTeb, ifsk.rtlntstatustodoserrornoteb, ntifs/RtlNtStatusToDosError, rtlref_161ea08b-d596-4a3c-ab9b-b66f757e4415.xml
-f1_keywords:
- - "ntifs/RtlNtStatusToDosError"
- - "RtlNtStatusToDosError"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlNtStatusToDosError
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlNtStatusToDosErrorNoTeb
+ - ntifs/RtlNtStatusToDosErrorNoTeb
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlNtStatusToDosError
 ---
 
 # RtlNtStatusToDosErrorNoTeb function
@@ -46,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The <b>RtlNtStatusToDosErrorNoTeb</b>  routine converts the specified NTSTATUS code to its equivalent system error code. Reserved for system use.
-
 
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 The NTSTATUS code to be converted.
-
 
 ## -returns
 
-
-
 <b>RtlNtStatusToDosErrorNoTeb</b> returns the corresponding system error code. Error codes are defined in <i>Winerror.h</i>.
-
-
-
 
 ## -remarks
 
-
-
-There is no function that provides the inverse functionality of <b>RtlNtStatusToDosErrorNoTeb</b>, converting a system error code to its corresponding NTSTATUS code. 
-
-
+There is no function that provides the inverse functionality of <b>RtlNtStatusToDosErrorNoTeb</b>, converting a system error code to its corresponding NTSTATUS code.
 

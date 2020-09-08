@@ -8,9 +8,6 @@ ms.assetid: f786fa36-1faa-4e12-aec1-872b44c01a85
 ms.date: 04/30/2018
 keywords: ["PoRegisterDeviceForIdleDetection function"]
 ms.keywords: PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture], kernel.poregisterdeviceforidledetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, wdm/PoRegisterDeviceForIdleDetection
-f1_keywords:
- - "ntifs/PoRegisterDeviceForIdleDetection"
- - "PoRegisterDeviceForIdleDetection"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,65 +25,56 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PoRegisterDeviceForIdleDetection
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoRegisterDeviceForIdleDetection
+ - ntifs/PoRegisterDeviceForIdleDetection
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PoRegisterDeviceForIdleDetection
 ---
 
-# PoRegisterDeviceForIdleDetection function
+# PoRegisterDeviceForIdleDetection function (ntifs.h)
 
 
 ## -description
 
-
 The <b>PoRegisterDeviceForIdleDetection</b> routine enables or cancels idle detection and sets idle time-out values for a device.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 A pointer to the driver-created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the device. On Windows 2000 and later systems, this parameter can point to a physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>) or a functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>). On Windows 98/Me, this parameter must point to the PDO of the underlying device.
 
+### -param ConservationIdleTime 
 
-### -param ConservationIdleTime [in]
-
+[in]
 Sets the time-out value (in seconds) to apply when the system power policy optimizes for energy conservation. Specify zero to disable idle detection when conservation policy is in effect.
 
+### -param PerformanceIdleTime 
 
-### -param PerformanceIdleTime [in]
-
+[in]
 Sets the time-out value (in seconds) to apply when the system power policy optimizes for performance. Specify zero to disable idle detection when performance policy is in effect.
 
+### -param State 
 
-### -param State [in]
-
+[in]
 Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power state</a> to be requested in an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request when either <i>ConservationIdleTime</i> or <i>PerformanceIdleTime</i> has been met. Possible values are the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> values.
-
 
 ## -returns
 
-
-
 <b>PoRegisterDeviceForIdleDetection</b> returns a pointer to the idle counter to indicate that idle detection has been enabled. It returns <b>NULL</b> to indicate that idle detection has been disabled, that an idle counter could not be allocated, or that one or both of the time-out values were invalid.
 
-
-
-
 ## -remarks
-
-
 
 <b>PoRegisterDeviceForIdleDetection</b> enables drivers to use the idle detection mechanism provided by the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a>. Drivers call <b>PoRegisterDeviceForIdleDetection</b> for any of the following reasons:
 
@@ -118,13 +106,7 @@ If both <i>ConservationIdleTime</i> and <i>PerformanceIdleTime</i> are zero, thi
 
 <b>PoRegisterDeviceForIdleDetection</b> can free a driver from the need to perform its own idle detection. However, drivers can also implement their own idle detection.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
 
@@ -135,7 +117,4 @@ If both <i>ConservationIdleTime</i> and <i>PerformanceIdleTime</i> are zero, thi
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">PoSetDeviceBusy</a>
- 
-
- 
 

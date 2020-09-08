@@ -5,32 +5,37 @@ description: Describes vertical position bits 70:71.
 ms.assetid: e1ab5bab-8e0f-43d9-86c8-29ea30474a0c
 ms.date: 10/02/2018
 keywords: ["ACPI_PLD_VERTICAL_POSITION enumeration"]
-f1_keywords:
- - "acpitabl/_ACPI_PLD_VERTICAL_POSITION"
- - "_ACPI_PLD_VERTICAL_POSITION"
 ms.keywords: _ACPI_PLD_VERTICAL_POSITION, ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION, AcpiPldVPos
 req.header: acpitabl.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- acpitabl.h
-api_name: 
-- _ACPI_PLD_VERTICAL_POSITION
 targetos: Windows
+f1_keywords:
+ - _ACPI_PLD_VERTICAL_POSITION
+ - acpitabl/_ACPI_PLD_VERTICAL_POSITION
+ - PACPI_PLD_VERTICAL_POSITION
+ - acpitabl/PACPI_PLD_VERTICAL_POSITION
+ - ACPI_PLD_VERTICAL_POSITION
+ - acpitabl/ACPI_PLD_VERTICAL_POSITION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _ACPI_PLD_VERTICAL_POSITION
 ---
 
 # _ACPI_PLD_VERTICAL_POSITION enumeration
+
 
 ## -description
 
@@ -53,3 +58,4 @@ Value is 2.
 ## -remarks
 
 ## -see-also
+

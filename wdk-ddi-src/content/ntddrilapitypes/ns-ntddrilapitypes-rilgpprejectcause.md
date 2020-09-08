@@ -8,9 +8,6 @@ ms.assetid: 3008a69e-25d8-4e54-afb3-317a8ca82d34
 ms.date: 05/02/2018
 keywords: ["RILGPPREJECTCAUSE structure"]
 ms.keywords: "*LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpprejectcause, ntddrilapitypes/RILGPPREJECTCAUSE"
-f1_keywords:
- - "ntddrilapitypes/RILGPPREJECTCAUSE"
- - "RILGPPREJECTCAUSE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,32 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILGPPREJECTCAUSE
 targetos: Windows
 req.typenames: RILGPPREJECTCAUSE, *LPRILGPPREJECTCAUSE
+f1_keywords:
+ - RILGPPREJECTCAUSE
+ - ntddrilapitypes/RILGPPREJECTCAUSE
+ - LPRILGPPREJECTCAUSE
+ - ntddrilapitypes/LPRILGPPREJECTCAUSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILGPPREJECTCAUSE
 ---
 
-# RILGPPREJECTCAUSE structure
+# RILGPPREJECTCAUSE structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwCauseValue
 

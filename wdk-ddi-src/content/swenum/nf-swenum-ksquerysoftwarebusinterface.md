@@ -8,9 +8,6 @@ ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.date: 04/23/2018
 keywords: ["KsQuerySoftwareBusInterface function"]
 ms.keywords: KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface
-f1_keywords:
- - "swenum/KsQuerySoftwareBusInterface"
- - "KsQuerySoftwareBusInterface"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- swenum.h
-api_name:
-- KsQuerySoftwareBusInterface
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsQuerySoftwareBusInterface
+ - swenum/KsQuerySoftwareBusInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - swenum.h
+api_name:
+ - KsQuerySoftwareBusInterface
 ---
 
 # KsQuerySoftwareBusInterface function
@@ -46,49 +46,31 @@ req.typenames:
 
 ## -description
 
-
 <i>This function is intended for internal use only.</i>
 
-The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>. 
-
+The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>.
 
 ## -parameters
 
+### -param PnpDeviceObject 
 
-
-
-### -param PnpDeviceObject [in]
-
+[in]
 Pointer to the demand-load bus enumerator's device object.
 
+### -param BusInterface 
 
-### -param BusInterface [out]
-
+[out]
 Pointer to the demand-load bus enumerator's interface.
-
 
 ## -returns
 
-
-
 Returns STATUS_SUCCESS if the request is handled. Otherwise, it returns an appropriate error code.
-
-
-
 
 ## -remarks
 
-
-
 A minidriver can access this function through the <b>QueryReferenceString</b> member of the BUS_INTERFACE_SWENUM structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/ns-swenum-_bus_interface_swenum">BUS_INTERFACE_SWENUM</a>
 
@@ -99,7 +81,4 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksreferencesoftwarebusobject">KsReferenceSoftwareBusObject</a>
- 
-
- 
 

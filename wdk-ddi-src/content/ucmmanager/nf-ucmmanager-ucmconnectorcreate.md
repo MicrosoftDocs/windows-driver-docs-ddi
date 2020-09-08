@@ -8,9 +8,6 @@ ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.date: 05/07/2018
 keywords: ["UcmConnectorCreate function"]
 ms.keywords: UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate
-f1_keywords:
- - "ucmmanager/UcmConnectorCreate"
- - "UcmConnectorCreate"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UcmCxstub.lib
-- UcmCxstub.dll
-api_name:
-- UcmConnectorCreate
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - UcmConnectorCreate
+ - ucmmanager/UcmConnectorCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UcmCxstub.lib
+ - UcmCxstub.dll
+api_name:
+ - UcmConnectorCreate
 ---
 
 # UcmConnectorCreate function
@@ -47,51 +47,35 @@ req.typenames:
 
 ## -description
 
-
 Creates a connector object.
-
 
 ## -parameters
 
+### -param WdfDevice 
 
-
-
-### -param WdfDevice [in]
-
+[in]
 A handle to a framework device object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
+### -param Config 
 
-### -param Config [in]
-
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_config">UCM_CONNECTOR_CONFIG</a> structure that is initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_connector_config_init">UCM_CONNECTOR_CONFIG_INIT</a>.
 
+### -param Attributes 
 
-### -param Attributes [in]
-
+[in]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new connector object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param Connector 
 
-
-
-### -param Connector [out]
-
+[out]
 A pointer to a location that receives a handle to the new connector object.
-
-
-
 
 ## -returns
 
-
-
-<b>UcmConnectorCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value. 
-
-
-
+<b>UcmConnectorCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value.
 
 ## -remarks
-
-
 
 If the client driver specifies a connector identifier that is already in use, the method fails with STATUS_INVALID_PARAMETER error code.
 
@@ -143,19 +127,11 @@ This example code shows how to create a Type-C connector that is PD-capable.
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/ns-ucmmanager-_ucm_connector_config">UCM_CONNECTOR_CONFIG</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/nf-ucmmanager-ucm_connector_config_init">UCM_CONNECTOR_CONFIG_INIT</a>
- 
-
- 
 

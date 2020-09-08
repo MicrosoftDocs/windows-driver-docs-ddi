@@ -8,9 +8,6 @@ ms.assetid: 0A09990B-DAB9-41D3-80BF-38CD6AF39625
 ms.date: 02/26/2018
 keywords: ["WdfDeviceQueryInterfaceProperty function"]
 ms.keywords: WdfDeviceQueryInterfaceProperty, WdfDeviceQueryInterfaceProperty method, wdf.wdfdevicequeryinterfaceproperty, wdfdevice/WdfDeviceQueryInterfaceProperty
-f1_keywords:
- - "wdfdevice/WdfDeviceQueryInterfaceProperty"
- - "WdfDeviceQueryInterfaceProperty"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WUDFx02000.dll
-api_name:
-- WdfDeviceQueryInterfaceProperty
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDeviceQueryInterfaceProperty
+ - wdfdevice/WdfDeviceQueryInterfaceProperty
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WUDFx02000.dll
+api_name:
+ - WdfDeviceQueryInterfaceProperty
 ---
 
 # WdfDeviceQueryInterfaceProperty function
@@ -46,50 +46,43 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WdfDeviceQueryInterfaceProperty</b> method retrieves a specified device interface property.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param PropertyData 
 
-### -param PropertyData [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure that identifies the device interface property to be retrieved.
 
+### -param BufferLength 
 
-### -param BufferLength [in]
-
+[in]
 The size, in bytes, of the buffer that is pointed to by <i>PropertyBuffer.</i>
 
+### -param PropertyBuffer 
 
-### -param PropertyBuffer [out]
-
+[out]
 A pointer to a caller-allocated buffer that receives the requested device interface property. The pointer can be NULL if the <i>BufferLength</i> parameter is zero.
 
+### -param ResultLength 
 
-### -param ResultLength [out]
-
+[out]
 A caller-supplied location that, on return, contains the size, in bytes, of the information that <b>WdfDeviceQueryInterfaceProperty</b> stored in <i>PropertyBuffer</i>. If the function's return value is <b>STATUS_BUFFER_TOO_SMALL</b>, this location receives the required buffer size.
 
+### -param Type 
 
-### -param Type [out]
-
+[out]
 A pointer to a <b>DEVPROPTYPE</b>-typed variable that identifies the type of property data that <b>WdfDeviceQueryInterfaceProperty</b> stored in the buffer that <i>PropertyBuffer</i> points to.
 
-
 ## -returns
-
-
 
 If the <b>WdfDeviceQueryInterfaceProperty</b> method encounters no errors, it returns STATUS_SUCCESS. Additional return values include:
 
@@ -125,12 +118,7 @@ The specified parameter value is invalid.
 
 The method might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 Before receiving device property data, drivers typically call the <b>WdfDeviceQueryInterfaceProperty</b> method just to obtain the required buffer size. For some properties, the data size can change between when the required size is returned and when the driver calls <b>WdfDeviceQueryInterfaceProperty</b> again. Therefore, drivers should call <b>WdfDeviceQueryInterfaceProperty</b> inside a loop that executes until the return status is not STATUS_BUFFER_TOO_SMALL. 
 
@@ -138,13 +126,7 @@ It is best to use <b>WdfDeviceQueryInterfaceProperty</b> only if the required bu
 
 For information about related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-the-unified-device-property-model">Accessing the Unified Device Property Model</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a>
 
@@ -159,7 +141,4 @@ For information about related methods, see <a href="https://docs.microsoft.com/w
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceassigninterfaceproperty">WdfDeviceAssignInterfaceProperty</a>
- 
-
- 
 

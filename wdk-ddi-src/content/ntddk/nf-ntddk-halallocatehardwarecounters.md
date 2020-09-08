@@ -8,38 +8,38 @@ ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.date: 04/30/2018
 keywords: ["HalAllocateHardwareCounters function"]
 ms.keywords: HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, kernel.halallocatehardwarecounters, ntddk/HalAllocateHardwareCounters
-f1_keywords:
- - "ntddk/HalAllocateHardwareCounters"
- - "HalAllocateHardwareCounters"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Hal.dll
-api_name:
-- HalAllocateHardwareCounters
 targetos: Windows
-req.typenames:
+req.typenames: 
 ms.custom: 19H1
+f1_keywords:
+ - HalAllocateHardwareCounters
+ - ntddk/HalAllocateHardwareCounters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Hal.dll
+api_name:
+ - HalAllocateHardwareCounters
 ---
 
 # HalAllocateHardwareCounters function
@@ -47,36 +47,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) routine allocates a set of hardware performance counter resources.
 
-
 ## -parameters
-
 
 ### -param GroupAffinty
 
 <p>A pointer to a set of <b>GROUP_AFFINITY</b> structures indicating which processors' counter resources the consumer requests. If this parameter is <b>NULL</b>, then the request indicates an allocation across all processors in the system.</p>
 
+### -param GroupCount 
 
-### -param GroupCount [in]
-
+[in]
 Supplies the number of <b>GROUP_AFFINITY</b> structures provided by the GroupAffinty parameter, or zero if GroupAffinity is <b>NULL</b>.
 
+### -param ResourceList 
 
-### -param ResourceList [in]
-
+[in]
 A pointer to a <b>PHYSICAL_COUNTER_RESOURCE_LIST</b> containing the resources required by the consumer. If this parameter is <b>NULL</b>, then the consumer is requesting exclusive ownership of the performance monitoring unit.
 
+### -param CounterSetHandle 
 
-### -param CounterSetHandle [out]
-
+[out]
 A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
 
-
 ## -returns
-
-
 
 [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) returns STATUS_SUCCESS if the call was successful. Possible error return values include the following status codes.
 
@@ -119,14 +113,8 @@ The caller supplied resources in the resource list that are currently not suppor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Most processors have performance monitor units (PMUs) that contain a number of hardware counters. Software tools use these counters to monitor various aspects of system performance. Typically, such a tool consists of a custom kernel-mode driver to program the counters and a user-mode application that communicates with the driver.
 
@@ -142,13 +130,7 @@ Starting in Windows 10 version 1903, counter resources can be allocated based on
 
 Virtualization software typically does not virtualize hardware performance counters. Thus, these counters might not be available in a virtual machine, regardless of whether [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) returns a status code of STATUS_SUCCESS. For example, hardware performance counters are not available in a Hyper-V virtual machine, but [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) might still return STATUS_SUCCESS.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a>
 
@@ -159,7 +141,4 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 [**PHYSICAL_COUNTER_RESOURCE_LIST**](ns-ntddk-_physical_counter_resource_list.md)
- 
-
- 
 

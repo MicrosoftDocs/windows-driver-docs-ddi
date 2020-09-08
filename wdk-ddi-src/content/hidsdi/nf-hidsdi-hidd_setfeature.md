@@ -8,9 +8,6 @@ ms.assetid: 69b7d775-e689-4010-8c83-f9e393d692be
 ms.date: 06/19/2019
 keywords: ["HidD_SetFeature function"]
 ms.keywords: HidD_SetFeature, HidD_SetFeature routine [Human Input Devices], hid.hidd_setfeature, hidfunc_f34ed05a-c8c1-44e3-ab94-a8df000aac7d.xml, hidsdi/HidD_SetFeature
-f1_keywords:
- - "hidsdi/HidD_SetFeature"
- - "HidD_SetFeature"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Hid.dll
-api_name:
-- HidD_SetFeature
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidD_SetFeature
+ - hidsdi/HidD_SetFeature
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Hid.dll
+api_name:
+ - HidD_SetFeature
 ---
 
 # HidD_SetFeature function
@@ -46,44 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidD_SetFeature</b> routine sends a feature report to a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
-
 
 ## -parameters
 
+### -param HidDeviceObject 
 
-
-
-### -param HidDeviceObject [in]
-
+[in]
 Specifies an open handle to a top-level collection.
 
+### -param ReportBuffer 
 
-### -param ReportBuffer [in]
-
+[in]
 Pointer to a caller-allocated feature report buffer that the caller uses to specify a HID report ID.
 
 For more information about this parameter, see the <b>Remarks</b> section.
 
+### -param ReportBufferLength 
 
-### -param ReportBufferLength [in]
-
+[in]
 Specifies the size, in bytes, of the report buffer. The report buffer must be large enough to hold the feature report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
-
 
 ## -returns
 
-
-
-If <b>HidD_SetFeature</b> succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
-
-
-
+If <b>HidD_SetFeature</b> succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 ## -remarks
-
-
 
 Before it calls the <b>HidD_SetFeature</b> routine, the caller must do the following:
 
@@ -133,14 +121,7 @@ For more information, see the following topics:
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getfeature">HidD_GetFeature</a>
 
@@ -167,7 +148,4 @@ For more information, see the following topics:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_output_report">IOCTL_HID_SET_OUTPUT_REPORT</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 627f43e7-1561-4822-b2b6-a49b54550bf5
 ms.date: 05/10/2018
 keywords: ["VideoPortReleaseBuffer function"]
 ms.keywords: VideoPortReleaseBuffer, VideoPortReleaseBuffer function [Display Devices], VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, display.videoportreleasebuffer, video/VideoPortReleaseBuffer
-f1_keywords:
- - "video/VideoPortReleaseBuffer"
- - "VideoPortReleaseBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortReleaseBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortReleaseBuffer
+ - video/VideoPortReleaseBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortReleaseBuffer
 ---
 
 # VideoPortReleaseBuffer function
@@ -46,52 +46,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortReleaseBuffer</b> function is <b>obsolete</b> in Windows 2000 and later. In its place, video miniport drivers should instead use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportfreepool">VideoPortFreePool</a>. 
 
 <b>VideoPortReleaseBuffer</b> deallocates a block of paged pool memory.
 
-
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 Specifies the address of the block of pool memory being deallocated.
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
-This function releases memory allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatebuffer">VideoPortAllocateBuffer</a>. A miniport driver must not access the memory block to which <i>Buffer</i> points after it has been freed. 
-
-
-
+This function releases memory allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatebuffer">VideoPortAllocateBuffer</a>. A miniport driver must not access the memory block to which <i>Buffer</i> points after it has been freed.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatebuffer">VideoPortAllocateBuffer</a>
- 
-
- 
 

@@ -33,8 +33,8 @@ api_location:
 api_name:
  - WheaAddErrorSourceDeviceDriverV1
 f1_keywords:
- - ntddk//WheaAddErrorSourceDeviceDriverV1
  - WheaAddErrorSourceDeviceDriverV1
+ - ntddk/WheaAddErrorSourceDeviceDriverV1
 dev_langs:
  - c++
 ---

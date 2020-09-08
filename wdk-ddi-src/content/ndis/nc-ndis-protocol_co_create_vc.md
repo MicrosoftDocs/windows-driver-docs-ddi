@@ -8,9 +8,6 @@ ms.assetid: b086dd24-74f5-474a-8684-09bf92ac731b
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CO_CREATE_VC callback function"]
 ms.keywords: PROTOCOL_CO_CREATE_VC, PROTOCOL_CO_CREATE_VC callback, ProtocolCoCreateVc, ProtocolCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_f0a7e657-70d5-4cd1-a42a-684cefe1dc60.xml, ndis/ProtocolCoCreateVc, netvista.protocolcocreatevc
-f1_keywords:
- - "ndis/ProtocolCoCreateVc"
- - "ProtocolCoCreateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolCoCreateVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CO_CREATE_VC
+ - ndis/PROTOCOL_CO_CREATE_VC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolCoCreateVc
 ---
 
 # PROTOCOL_CO_CREATE_VC callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolCoCreateVc</i> function is a required function that allocates resources necessary for a call
@@ -55,11 +54,9 @@ The
 
 ## -parameters
 
+### -param ProtocolAfContext 
 
-
-
-### -param ProtocolAfContext [in]
-
+[in]
 Specifies the handle to a protocol-allocated context area in which the call manager or client
      maintains its per-open state. The call manager supplied this handle from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function. The client
@@ -68,24 +65,21 @@ Specifies the handle to a protocol-allocated context area in which the call mana
      its 
      <i>ProtocolCoAfRegisterNotify</i> function.
 
+### -param NdisVcHandle 
 
-### -param NdisVcHandle [in]
-
+[in]
 Specifies a handle, supplied by NDIS, that uniquely identifies this virtual connection. This
      handle is opaque to the protocol driver and reserved for NDIS library use. However, the call manager and
      client must save this handle to pass in subsequent calls to 
      <b>NdisCo/Cl/Cm/MCm<i>Xxx</i></b> functions that concern this VC.
 
+### -param ProtocolVcContext 
 
-### -param ProtocolVcContext [out]
-
+[out]
 Specifies the handle to a protocol-supplied context area in which the call manager or client
      maintains state about this virtual connection.
 
-
 ## -returns
-
-
 
 <i>ProtocolCoCreateVc</i> returns the status of its operation(s) as one of the following values:
 
@@ -136,14 +130,8 @@ Indicates that the call manager or client could not set itself into a state wher
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
     <i>ProtocolCoCreateVc</i> function of a call manager or client is called whenever the corresponding client
@@ -251,15 +239,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CO_CREATE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_CREATE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
@@ -286,7 +268,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
- 
-
- 
 

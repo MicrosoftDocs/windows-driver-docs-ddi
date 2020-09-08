@@ -8,9 +8,6 @@ ms.assetid: e79ae2ac-6636-491d-8c98-70a5ff3a23ef
 ms.date: 04/23/2018
 keywords: ["IKsPin::KsIncrementPendingIoCount"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsIncrementPendingIoCount method, IKsPin.KsIncrementPendingIoCount, IKsPin::KsIncrementPendingIoCount, KsIncrementPendingIoCount, KsIncrementPendingIoCount method [Streaming Media Devices], KsIncrementPendingIoCount method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsIncrementPendingIoCount, ksproxy_c654f701-d58e-4953-ad55-76d98096b7f0.xml, stream.ikspin_ksincrementpendingiocount
-f1_keywords:
- - "ksproxy/IKsPin.KsIncrementPendingIoCount"
- - "IKsPin.KsIncrementPendingIoCount"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsPin.KsIncrementPendingIoCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsPin::KsIncrementPendingIoCount
+ - ksproxy/IKsPin::KsIncrementPendingIoCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsPin.KsIncrementPendingIoCount
 ---
 
 # IKsPin::KsIncrementPendingIoCount
@@ -46,22 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsIncrementPendingIoCount</b> method increments the number of input/output (I/O) operations that are in progress on a pin.
-
 
 ## -returns
 
-
-
 Returns an integer from 1 to <i>n</i>, the value that represents the new number of I/O operations that are in progress.
 
-
-
-
 ## -remarks
-
-
 
 The <b>KsIncrementPendingIoCount</b> method is typically called from within an interface handler as described in the following sequence:
 
@@ -84,12 +75,7 @@ The client calls the <a href="https://docs.microsoft.com/windows-hardware/driver
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>
 
@@ -108,7 +94,4 @@ The client calls the <a href="https://docs.microsoft.com/windows-hardware/driver
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspin-ksdecrementpendingiocount">IKsPin::KsDecrementPendingIoCount</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 3161620e-6155-4587-b978-599d526d792c
 ms.date: 04/20/2018
 keywords: ["IPrintCoreUI2::WhyConstrained"]
 ms.keywords: IPrintCoreUI2 interface [Print Devices],WhyConstrained method, IPrintCoreUI2.WhyConstrained, IPrintCoreUI2::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::WhyConstrained, print.iprintcoreui2_whyconstrained, print_unidrv-pscript_ui_4ab02889-5bb1-412e-8bc3-2b0f5bb63088.xml
-f1_keywords:
- - "prcomoem/IPrintCoreUI2.WhyConstrained"
- - "IPrintCoreUI2.WhyConstrained"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintCoreUI2.WhyConstrained
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintCoreUI2::WhyConstrained
+ - prcomoem/IPrintCoreUI2::WhyConstrained
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintCoreUI2.WhyConstrained
 ---
 
 # IPrintCoreUI2::WhyConstrained
@@ -46,55 +46,48 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintCoreUI2::WhyConstrained</code> method determines why the specified feature/option selection is constrained.
-
 
 ## -parameters
 
+### -param poemuiobj 
 
-
-
-### -param poemuiobj [in]
-
+[in]
 Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
+### -param dwFlags 
 
-### -param dwFlags [in]
-
+[in]
 Is reserved and must be set to zero.
 
+### -param pszFeatureKeyword 
 
-### -param pszFeatureKeyword [in]
-
+[in]
 Pointer to a caller-supplied buffer containing the single feature keyword of interest to the caller.
 
+### -param pszOptionKeyword 
 
-### -param pszOptionKeyword [in]
-
+[in]
 Pointer to a caller-supplied buffer containing the option keyword.
 
+### -param pmszReasonList 
 
-### -param pmszReasonList [out]
-
+[out]
 Pointer to a caller-supplied buffer that receives a list of the feature/option keyword pairs that place constraints on the specified feature/option. This list is in MULTI_SZ format with each item in the list separated from the next by a null character. The list is terminated with two null characters.
 
 Set this parameter to <b>NULL</b> to simply query for the size (*<i>pcbNeeded</i>) of the reason list without having the list filled in.
 
+### -param cbSize 
 
-### -param cbSize [in]
-
+[in]
 Specifies the size, in bytes, of the buffer pointed to by <i>pmszReasonList</i>.
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [out]
-
+[out]
 Pointer to a memory location that receives the actual size, in bytes, of the reason list.
 
-
 ## -returns
-
-
 
 The method must return one of the following values.
 
@@ -165,14 +158,8 @@ The method failed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is supported only for Windows XP Pscript5 UI plug-ins that fully replace the core driver's standard UI pages, and is supported only during the UI plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a> functions, and their property sheet callback routines. See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/replacing-driver-supplied-property-sheet-pages">Replacing Driver-Supplied Property Sheet Pages</a> for more information.
 
@@ -180,13 +167,7 @@ When a user of the OEM UI attempts to select an item that is constrained, the ca
 
 To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in *<i>pcbNeeded</i> is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
@@ -205,7 +186,4 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
- 
-
- 
 

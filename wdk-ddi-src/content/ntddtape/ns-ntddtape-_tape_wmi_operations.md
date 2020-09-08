@@ -8,9 +8,6 @@ ms.assetid: 430d982e-4740-46ad-8391-aba5813a833a
 ms.date: 03/29/2018
 keywords: ["TAPE_WMI_OPERATIONS structure"]
 ms.keywords: "*PTAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS structure pointer [Storage Devices], TAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS structure [Storage Devices], _TAPE_WMI_OPERATIONS, ntddtape/PTAPE_WMI_OPERATIONS, ntddtape/TAPE_WMI_OPERATIONS, storage.tape_wmi_operations, structs-tape_93f1d9af-45b2-4121-9b4c-70ed7eaf1782.xml"
-f1_keywords:
- - "ntddtape/TAPE_WMI_OPERATIONS"
- - "TAPE_WMI_OPERATIONS"
 req.header: ntddtape.h
 req.include-header: Ntddchgr.h, Minitape.h
 req.target-type: Windows
@@ -28,32 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddtape.h
-api_name:
-- TAPE_WMI_OPERATIONS
 targetos: Windows
 req.typenames: TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS
+f1_keywords:
+ - _TAPE_WMI_OPERATIONS
+ - ntddtape/_TAPE_WMI_OPERATIONS
+ - PTAPE_WMI_OPERATIONS
+ - ntddtape/PTAPE_WMI_OPERATIONS
+ - TAPE_WMI_OPERATIONS
+ - ntddtape/TAPE_WMI_OPERATIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddtape.h
+api_name:
+ - TAPE_WMI_OPERATIONS
 ---
 
-# _TAPE_WMI_OPERATIONS structure
+# _TAPE_WMI_OPERATIONS structure (ntddtape.h)
 
 
 ## -description
 
-
-The tape miniclass driver passes this structure to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWMIControl</a> routine to indicate which WMI operation must be performed by the device. 
-
+The tape miniclass driver passes this structure to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWMIControl</a> routine to indicate which WMI operation must be performed by the device.
 
 ## -struct-fields
-
-
-
 
 ### -field Method
 
@@ -83,11 +82,9 @@ Returns specific device errors, such as tape alerts. Not all tape drives support
 
 Returns general I/O error data, such as read/write errors, based on the I/O error count. All tape drives support this method.
 
-
 ### -field DataBufferSize
 
-Indicates the size in bytes of the buffer in which the tape minidriver returns the results of the operation. 
-
+Indicates the size in bytes of the buffer in which the tape minidriver returns the results of the operation.
 
 ### -field DataBuffer
 
@@ -108,18 +105,11 @@ Returns specific device errors, such as tape alerts. Not all tape drives support
 
 Returns general I/O error data, such as read/write errors, based on the I/O error count. All tape drives support this method.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ne-ntddtape-_tape_drive_problem_type">TAPE_DRIVE_PROBLEM_TYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWMIControl</a>
- 
-
- 
 

@@ -8,39 +8,41 @@ ms.assetid: a2c67eaf-d39e-43c9-8e06-18f668c0baa3
 ms.date: 02/16/2018
 keywords: ["DOT11_BYTE_ARRAY structure"]
 ms.keywords: "*PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, windot11/DOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY"
-f1_keywords:
- - "windot11/DOT11_BYTE_ARRAY"
- - "DOT11_BYTE_ARRAY"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- windot11.h
-api_name:
-- DOT11_BYTE_ARRAY
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: DOT11_BYTE_ARRAY, *PDOT11_BYTE_ARRAY
+f1_keywords:
+ - DOT11_BYTE_ARRAY
+ - windot11/DOT11_BYTE_ARRAY
+ - PDOT11_BYTE_ARRAY
+ - windot11/PDOT11_BYTE_ARRAY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - windot11.h
+api_name:
+ - DOT11_BYTE_ARRAY
 product:
-- Windows 10 or later.
+ - Windows 10 or later.
 ---
 
 # DOT11_BYTE_ARRAY structure
@@ -48,30 +50,12 @@ product:
 
 ## -description
 
-
 <div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BYTE_ARRAY structure precedes a list of variable-length structures in the
   <b>InformationBuffer</b> member of the
   <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function's
   <i>OidRequest</i> parameter.
 
-
-## -syntax
-
-
-```cpp
-typedef struct DOT11_BYTE_ARRAY {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              uNumOfBytes;
-  ULONG              uTotalNumOfBytes;
-  UCHAR              ucBuffer[1];
-} DOT11_BYTE_ARRAY, *PDOT11_BYTE_ARRAY;
-```
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -109,27 +93,32 @@ This member must be set to
 For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field uNumOfBytes
 
 The number of bytes in the
      <b>ucBuffer</b> array.
-
 
 ### -field uTotalNumOfBytes
 
 The maximum number of bytes that the
      <b>ucBuffer</b> array requires.
 
-
 ### -field ucBuffer
 
 The list of variable-length structures.
 
+## -syntax
+
+```cpp
+typedef struct DOT11_BYTE_ARRAY {
+  NDIS_OBJECT_HEADER Header;
+  ULONG              uNumOfBytes;
+  ULONG              uTotalNumOfBytes;
+  UCHAR              ucBuffer[1];
+} DOT11_BYTE_ARRAY, *PDOT11_BYTE_ARRAY;
+```
 
 ## -remarks
-
-
 
 The type of structures stored in the
     <b>ucBuffer</b> array depends on the OID set and query request. For example, when queried by
@@ -199,8 +188,6 @@ Return NDIS_STATUS_SUCCESS from its
 </li>
 </ul>
 
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
@@ -213,11 +200,4 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
- 
-
- 
-
 

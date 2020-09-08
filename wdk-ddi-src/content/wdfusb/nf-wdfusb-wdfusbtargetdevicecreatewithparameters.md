@@ -8,9 +8,6 @@ ms.assetid: E93A944E-81D5-4059-ADA6-2760A091C30B
 ms.date: 06/24/2019
 keywords: ["WdfUsbTargetDeviceCreateWithParameters function"]
 ms.keywords: WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters method, kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters
-f1_keywords:
- - "wdfusb/WdfUsbTargetDeviceCreateWithParameters"
- - "WdfUsbTargetDeviceCreateWithParameters"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal
@@ -28,27 +25,29 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfUsbTargetDeviceCreateWithParameters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfUsbTargetDeviceCreateWithParameters
+ - wdfusb/WdfUsbTargetDeviceCreateWithParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfUsbTargetDeviceCreateWithParameters
 ---
 
 # WdfUsbTargetDeviceCreateWithParameters function
 
 
 ## -description
-
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
@@ -57,35 +56,29 @@ req.typenames:
   The <b>WdfUsbTargetDeviceCreateWithParameters</b>  method creates a framework USB device object for a specified framework device object and opens the USB device for I/O operations.
 The method also specifies configuration information for the framework USB device object.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Config 
 
-### -param Config [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_create_config">WDF_USB_DEVICE_CREATE_CONFIG</a> structure that contains configuration information for the framework USB device object.
 
+### -param Attributes 
 
-### -param Attributes [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new framework USB device object. (The structure's <b>ParentObject</b> member must be NULL.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
+### -param UsbDevice 
 
-### -param UsbDevice [out]
-
+[out]
 A pointer to a location that receives a handle to the new framework USB device object.
 
-
 ## -returns
-
-
 
 <b>WdfUsbTargetDeviceCreateWithParameters</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return one of the following values:
 
@@ -147,14 +140,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 Windows 8 includes a new USB driver stack to support USB 3.0 devices.
 
@@ -213,12 +199,7 @@ MyEvtDevicePrepareHardware(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a>
 
@@ -233,7 +214,4 @@ MyEvtDevicePrepareHardware(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreate">WdfUsbTargetDeviceCreate</a>
- 
-
- 
 

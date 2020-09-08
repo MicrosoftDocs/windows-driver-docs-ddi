@@ -8,9 +8,6 @@ ms.assetid: d783feff-d187-4a2f-8d3d-b5221b03459a
 ms.date: 04/30/2018
 keywords: ["ExInitializeNPagedLookasideList function"]
 ms.keywords: ExInitializeNPagedLookasideList, ExInitializeNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_054ed856-4da7-42e9-a413-baefdd1064ed.xml, kernel.exinitializenpagedlookasidelist, wdm/ExInitializeNPagedLookasideList
-f1_keywords:
- - "wdm/ExInitializeNPagedLookasideList"
- - "ExInitializeNPagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExInitializeNPagedLookasideList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExInitializeNPagedLookasideList
+ - wdm/ExInitializeNPagedLookasideList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExInitializeNPagedLookasideList
 ---
 
 # ExInitializeNPagedLookasideList function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExInitializeNPagedLookasideList</b> routine initializes a lookaside list for nonpaged entries of the specified size.
-
 
 ## -parameters
 
+### -param Lookaside 
 
-
-
-### -param Lookaside [out]
-
+[out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> structure to initialize. The caller must use nonpaged system space for the structure. On 64-bit platforms, this structure must be 16-byte aligned.
 
+### -param Allocate 
 
-### -param Allocate [in, optional]
-
+[in, optional]
 A pointer to either a caller-supplied function for allocating an entry when the lookaside list is empty, or to <b>NULL</b>. If non-<b>NULL</b>, the pointer is to a function with the prototype:
 
 <div class="code"><span codelanguage=""><table>
@@ -80,9 +76,9 @@ A pointer to either a caller-supplied function for allocating an entry when the 
 </table></span></div>
 If the <i>Allocate</i> parameter is <b>NULL</b>, subsequent calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist">ExAllocateFromNPagedLookasideList</a> automatically allocate entries whenever the lookaside list is empty.
 
+### -param Free 
 
-### -param Free [in, optional]
-
+[in, optional]
 A pointer to either a caller-supplied function for freeing an entry whenever the lookaside list is full, or to <b>NULL</b>. If non-<b>NULL</b>, the pointer is to a function with the prototype:
 
 <div class="code"><span codelanguage=""><table>
@@ -99,9 +95,9 @@ A pointer to either a caller-supplied function for freeing an entry whenever the
 </table></span></div>
 If the <i>Free</i> parameter is <b>NULL</b>, subsequent calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetonpagedlookasidelist">ExFreeToNPagedLookasideList</a> automatically release the given entry back to nonpaged pool whenever the list is full, that is, currently holding the system-determined maximum number of entries.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Starting in Windows 8, this parameter specifies an optional flag value to modify the default behavior of the <b>ExInitializeNPagedLookasideList</b> routine. Compatible flag bits include the following.
 
 <table>
@@ -134,25 +130,22 @@ If the allocation fails, raise an exception.
 
 Before Windows 8, this parameter is not used and must be zero.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 Specifies the size, in bytes, for each nonpaged entry to be allocated subsequently. This parameter must not be less than the required minimum size, LOOKASIDE_MINIMUM_BLOCK_SIZE, which is defined in the Wdm.h header file.
 
+### -param Tag 
 
-### -param Tag [in]
-
+[in]
 Specifies the pool tag to use when allocating lookaside list entries. For more information about pool tags, see the <i>Tag</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
+### -param Depth 
 
-### -param Depth [in]
-
+[in]
 Reserved. Must be zero.
 
-
 ## -remarks
-
-
 
 After calling <b>ExInitializeNPagedLookasideList</b>, memory blocks of the caller-specified <i>Size</i> can be allocated from and freed to the lookaside list with calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist">ExAllocateFromNPagedLookasideList</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreetonpagedlookasidelist">ExFreeToNPagedLookasideList</a>, respectively. Such dynamically allocated and freed entries can be any data structure or fixed-size buffer that the caller uses while the system is running, particularly if the caller cannot predetermine how many such entries will be in use at any given moment. The layout and contents of each fixed-size entry are caller-determined. 
 
@@ -198,13 +191,7 @@ Starting with Windows Vista, a similar routine, <a href="https://docs.microsoft
 
 Callers of <b>ExInitializeNPagedLookasideList</b> can be running at IRQL <= DISPATCH_LEVEL, but are typically running at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatefromnpagedlookasidelist">ExAllocateFromNPagedLookasideList</a>
 
@@ -239,7 +226,4 @@ Callers of <b>ExInitializeNPagedLookasideList</b> can be running at IRQL <= DISP
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a>
- 
-
- 
 

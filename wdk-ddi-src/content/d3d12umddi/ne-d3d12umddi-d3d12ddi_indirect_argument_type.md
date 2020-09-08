@@ -24,8 +24,8 @@ req.typenames: D3D12DDI_INDIRECT_ARGUMENT_TYPE
 targetos: Windows
 ms.custom: 19H1
 f1_keywords:
- - "d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_TYPE"
- - "D3D12DDI_INDIRECT_ARGUMENT_TYPE"
+ - D3D12DDI_INDIRECT_ARGUMENT_TYPE
+ - d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_TYPE
 topic_type:
  - apiref
 api_type:
@@ -41,6 +41,7 @@ dev_langs:
 ---
 
 # D3D12DDI_INDIRECT_ARGUMENT_TYPE enumeration
+
 
 ## -description
 
@@ -105,3 +106,4 @@ See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3
 ## -see-also
 
 [**D3D12DDI_INDIRECT_ARGUMENT_DESC**](ns-d3d12umddi-d3d12ddi_indirect_argument_desc)
+

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCreateContext"
- - "DxgkDdiCreateContext"
+ - DXGKDDI_CREATECONTEXT
+ - d3dkmddi/DXGKDDI_CREATECONTEXT
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CREATECONTEXT callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 7a47acf7-93a9-4bb2-a120-17c32c852ea9
 ms.date: 05/10/2018
 keywords: ["MIRACAST_PROTOCOL_EVENT enumeration"]
 ms.keywords: MIRACAST_PROTOCOL_EVENT, MIRACAST_PROTOCOL_EVENT enumeration [Display Devices], MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE, display.miracast_protocol_event, netdispumdddi/MIRACAST_PROTOCOL_EVENT, netdispumdddi/MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, netdispumdddi/MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, netdispumdddi/MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE
-f1_keywords:
- - "netdispumdddi/MIRACAST_PROTOCOL_EVENT"
- - "MIRACAST_PROTOCOL_EVENT"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netdispumdddi.h
-api_name:
-- MIRACAST_PROTOCOL_EVENT
 targetos: Windows
 req.typenames: MIRACAST_PROTOCOL_EVENT
+f1_keywords:
+ - MIRACAST_PROTOCOL_EVENT
+ - netdispumdddi/MIRACAST_PROTOCOL_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netdispumdddi.h
+api_name:
+ - MIRACAST_PROTOCOL_EVENT
 ---
 
 # MIRACAST_PROTOCOL_EVENT enumeration
@@ -46,34 +46,25 @@ req.typenames: MIRACAST_PROTOCOL_EVENT
 
 ## -description
 
-
 Specifies the types of wireless display (Miracast) protocol event that the user-mode display driver should report.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MIRACAST_PROTOCOL_EVENT_IFRAME_RQ
 
 The driver received a request for a new IDR type of I-frame from the Miracast sink.
 
-
 ### -field MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE
 
 The driver received a monitor connection event from the Miracast sink.
-
 
 ### -field MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART
 
 The driver received a monitor disconnection event from the Miracast sink.
 
-
 ### -field MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE
 
 Reserved for system use. Do not use in your driver.
-
 
 ### -field MIRACAST_PROTOCOL_EVENT_FORCE_UINT32
 

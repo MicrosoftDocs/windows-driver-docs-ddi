@@ -8,9 +8,6 @@ ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.date: 04/30/2018
 keywords: ["PoFxRegisterCoreDevice function"]
 ms.keywords: PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice
-f1_keywords:
- - "pepfx/PoFxRegisterCoreDevice"
- - "PoFxRegisterCoreDevice"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,52 +25,48 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ntoskrnl.lib
-- ntoskrnl.dll
-api_name:
-- PoFxRegisterCoreDevice
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PoFxRegisterCoreDevice
+ - pepfx/PoFxRegisterCoreDevice
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ntoskrnl.lib
+ - ntoskrnl.dll
+api_name:
+ - PoFxRegisterCoreDevice
 ---
 
-# PoFxRegisterCoreDevice function
+# PoFxRegisterCoreDevice function (pepfx.h)
 
 
 ## -description
 
-
 The <b>PoFxRegisterCoreDevice</b> routine registers a new core system resource with the Windows power management framework (PoFx).
-
 
 ## -parameters
 
+### -param Id 
 
+[in]
+A string that uniquely identifies the core system resource. This member is a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
+### -param Device 
 
-### -param Id [in]
-
-A string that uniquely identifies the core system resource. This member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
-
-
-### -param Device [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a> structure that describes the power characteristics of the core system resource.
 
+### -param Handle 
 
-### -param Handle [out]
-
+[out]
 A pointer to a location to which the routine writes a POHANDLE value. This handle represents the registration of the core system resource with PoFx.
 
-
 ## -returns
-
-
 
 <b>PoFxRegisterCoreDevice</b> returns STATUS_SUCCESS if the call successfully registers the PEP. Possible error return values include the following status codes.
 
@@ -105,14 +98,8 @@ Unable to allocate the resources required to complete the requested registration
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This routine registers a core system resource so that this resource can be power-managed by PoFx.
 
@@ -120,20 +107,11 @@ Core system resources are hardware devices, such as timers and interrupt control
 
 The <b>PoFxRegisterCoreDevice</b> routine should be called at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

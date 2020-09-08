@@ -8,9 +8,6 @@ ms.assetid: 854c7770-2857-48ed-8ca6-ad0e26aa412d
 ms.date: 04/04/2018
 keywords: ["IWDTFActions2::EnableObjectLogging"]
 ms.keywords: EnableObjectLogging, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],EnableObjectLogging method, IWDTFActions2.EnableObjectLogging, IWDTFActions2::EnableObjectLogging, dtf.iwdtfactions2_enableobjectlogging, wdtf/IWDTFActions2::EnableObjectLogging
-f1_keywords:
- - "wdtf/IWDTFActions2.EnableObjectLogging"
- - "IWDTFActions2.EnableObjectLogging"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wdtf.h
-api_name:
-- IWDTFActions2.EnableObjectLogging
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFActions2::EnableObjectLogging
+ - wdtf/IWDTFActions2::EnableObjectLogging
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wdtf.h
+api_name:
+ - IWDTFActions2.EnableObjectLogging
 ---
 
 # IWDTFActions2::EnableObjectLogging
@@ -46,26 +46,13 @@ req.typenames:
 
 ## -description
 
-
 Enable object logging for all actions in the collection.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFActions2</a>
- 
-
- 
 

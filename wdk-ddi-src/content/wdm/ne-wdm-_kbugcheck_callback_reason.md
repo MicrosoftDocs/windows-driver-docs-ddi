@@ -8,9 +8,6 @@ ms.assetid: 08246843-9b6e-4694-8475-acb02fbdd82b
 ms.date: 05/06/2019
 keywords: ["KBUGCHECK_CALLBACK_REASON enumeration"]
 ms.keywords: KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], KbCallbackAddPages, KbCallbackDumpIo, KbCallbackInvalid, KbCallbackReserved1, KbCallbackSecondaryDumpData, _KBUGCHECK_CALLBACK_REASON, kernel.kbugcheck_callback_reason, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, wdm/KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackAddPages, wdm/KbCallbackDumpIo, wdm/KbCallbackInvalid, wdm/KbCallbackReserved1, wdm/KbCallbackSecondaryDumpData
-f1_keywords:
- - "wdm/KBUGCHECK_CALLBACK_REASON"
- - "KBUGCHECK_CALLBACK_REASON"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- KBUGCHECK_CALLBACK_REASON
 targetos: Windows
 req.typenames: KBUGCHECK_CALLBACK_REASON
+f1_keywords:
+ - _KBUGCHECK_CALLBACK_REASON
+ - wdm/_KBUGCHECK_CALLBACK_REASON
+ - KBUGCHECK_CALLBACK_REASON
+ - wdm/KBUGCHECK_CALLBACK_REASON
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - KBUGCHECK_CALLBACK_REASON
 ---
 
 # _KBUGCHECK_CALLBACK_REASON enumeration
+
 
 ## -description
 
@@ -50,6 +53,7 @@ The <b>KBUGCHECK_CALLBACK_REASON</b> enumeration type specifies the situations i
 ## -enum-fields
 
 ### -field KbCallbackInvalid
+
 Reserved for system use. Do not use.
 
 ### -field KbCallbackReserved1
@@ -93,3 +97,4 @@ For information about how this enumeration is used, see <a href="https://docs.mi
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a>
+

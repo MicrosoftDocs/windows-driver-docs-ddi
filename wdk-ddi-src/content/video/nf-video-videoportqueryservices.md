@@ -8,9 +8,6 @@ ms.assetid: 88d54fbc-e865-4a59-bb1c-75adfb49c355
 ms.date: 05/10/2018
 keywords: ["VideoPortQueryServices function"]
 ms.keywords: VideoPortQueryServices, VideoPortQueryServices function [Display Devices], VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, display.videoportqueryservices, video/VideoPortQueryServices
-f1_keywords:
- - "video/VideoPortQueryServices"
- - "VideoPortQueryServices"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortQueryServices
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortQueryServices
+ - video/VideoPortQueryServices
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortQueryServices
 ---
 
 # VideoPortQueryServices function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortQueryServices</b> function exposes a specified interface that is implemented by the video port driver.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param ServicesType 
 
-### -param ServicesType [in]
-
+[in]
 A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ne-video-video_port_services">VIDEO_PORT_SERVICES</a> enumerated type that specifies which interface is being requested.
 
+### -param Interface 
 
-### -param Interface [in, out]
-
+[in, out]
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure, which contains basic information about the requested interface. See the following <b>Remarks</b> section for more information.
-
 
 ## -returns
 
-
-
 If <b>VideoPortQueryServices</b> succeeds, it returns NO_ERROR; otherwise, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesI2C</b>, the <i>Interface</i> parameter must be a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_i2c_interface">VIDEO_PORT_I2C_INTERFACE</a> structure, cast as a pointer to an INTERFACE structure.
 
@@ -93,15 +81,9 @@ If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesInt10</b>, th
 
 If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesDebugReport</b>, the <i>Interface</i> parameter must be a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_debug_report_interface">VIDEO_PORT_DEBUG_REPORT_INTERFACE</a> structure, cast as a pointer to an INTERFACE structure.
 
-If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProtection</b>, the <i>Interface</i> parameter must be a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_wcmemoryprotection_interface">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a> structure, cast as a pointer to an INTERFACE structure. 
-
-
-
+If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProtection</b>, the <i>Interface</i> parameter must be a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_wcmemoryprotection_interface">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a> structure, cast as a pointer to an INTERFACE structure.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_set_rate">AgpSetRate</a>
 
@@ -132,7 +114,4 @@ If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProte
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_wcmemoryprotection_interface">VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE</a>
- 
-
- 
 

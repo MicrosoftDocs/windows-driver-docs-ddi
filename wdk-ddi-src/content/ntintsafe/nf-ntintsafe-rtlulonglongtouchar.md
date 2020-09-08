@@ -8,9 +8,6 @@ ms.assetid: 3A701A1B-257F-42C4-80A7-8CFF0DAD1A83
 ms.date: 04/30/2018
 keywords: ["RtlULongLongToUChar function"]
 ms.keywords: RtlULongLongToUChar, RtlULongLongToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouchar, ntintsafe/RtlULongLongToUChar
-f1_keywords:
- - "ntintsafe/RtlULongLongToUChar"
- - "RtlULongLongToUChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlULongLongToUChar
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlULongLongToUChar
+ - ntintsafe/RtlULongLongToUChar
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlULongLongToUChar
 ---
 
 # RtlULongLongToUChar function
@@ -46,30 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Converts a value of type <b>ULONGLONG</b> to a value of type <b>UCHAR</b>.
-
 
 ## -parameters
 
+### -param ullOperand 
 
-
-
-### -param ullOperand [in]
-
+[in]
 The value to be converted.
 
+### -param pch 
 
-### -param pch [out]
-
+[out]
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
-
-
 

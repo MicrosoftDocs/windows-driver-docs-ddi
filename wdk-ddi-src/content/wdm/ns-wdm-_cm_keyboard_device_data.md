@@ -8,9 +8,6 @@ ms.assetid: 928cc1b6-4569-4ca1-9410-d864b5556b86
 ms.date: 04/30/2018
 keywords: ["CM_KEYBOARD_DEVICE_DATA structure"]
 ms.keywords: "*PCM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_KEYBOARD_DEVICE_DATA, PCM_KEYBOARD_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_KEYBOARD_DEVICE_DATA, kernel.cm_keyboard_device_data, kstruct_a_db7af30d-3698-4c1a-b1ee-9b7e95e7b5fd.xml, wdm/CM_KEYBOARD_DEVICE_DATA, wdm/PCM_KEYBOARD_DEVICE_DATA"
-f1_keywords:
- - "wdm/CM_KEYBOARD_DEVICE_DATA"
- - "CM_KEYBOARD_DEVICE_DATA"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- CM_KEYBOARD_DEVICE_DATA
 targetos: Windows
 req.typenames: CM_KEYBOARD_DEVICE_DATA, *PCM_KEYBOARD_DEVICE_DATA
+f1_keywords:
+ - _CM_KEYBOARD_DEVICE_DATA
+ - wdm/_CM_KEYBOARD_DEVICE_DATA
+ - PCM_KEYBOARD_DEVICE_DATA
+ - wdm/PCM_KEYBOARD_DEVICE_DATA
+ - CM_KEYBOARD_DEVICE_DATA
+ - wdm/CM_KEYBOARD_DEVICE_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - CM_KEYBOARD_DEVICE_DATA
 ---
 
 # _CM_KEYBOARD_DEVICE_DATA structure
@@ -46,34 +50,25 @@ req.typenames: CM_KEYBOARD_DEVICE_DATA, *PCM_KEYBOARD_DEVICE_DATA
 
 ## -description
 
-
 The <b>CM_KEYBOARD_DEVICE_DATA</b> structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a keyboard peripheral if the system can collect this information during the boot process.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version number of this structure.
 
-
 ### -field Revision
 
 The revision of this structure.
-
 
 ### -field Type
 
 The type of the keyboard.
 
-
 ### -field Subtype
 
 The subtype of the keyboard.
-
 
 ### -field KeyboardFlags
 
@@ -165,13 +160,8 @@ Right shift key is down.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
@@ -182,7 +172,4 @@ Right shift key is down.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
- 
-
- 
 

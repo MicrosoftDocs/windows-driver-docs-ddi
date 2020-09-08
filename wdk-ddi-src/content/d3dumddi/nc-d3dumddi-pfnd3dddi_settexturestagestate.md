@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetTextureStageState"
- - "SetTextureStageState"
+ - PFND3DDDI_SETTEXTURESTAGESTATE
+ - d3dumddi/PFND3DDDI_SETTEXTURESTAGESTATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETTEXTURESTAGESTATE callback function
+
 
 ## -description
 

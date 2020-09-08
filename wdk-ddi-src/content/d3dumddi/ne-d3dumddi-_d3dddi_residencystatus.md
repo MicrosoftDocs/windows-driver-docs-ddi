@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDI_RESIDENCYSTATUS"
- - "_D3DDDI_RESIDENCYSTATUS"
+ - _D3DDDI_RESIDENCYSTATUS
+ - d3dumddi/_D3DDDI_RESIDENCYSTATUS
+ - D3DDDI_RESIDENCYSTATUS
+ - d3dumddi/D3DDDI_RESIDENCYSTATUS
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDI_RESIDENCYSTATUS enumeration
+
 
 ## -description
 

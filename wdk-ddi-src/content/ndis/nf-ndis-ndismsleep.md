@@ -8,9 +8,6 @@ ms.assetid: 5b6c3fc5-4220-4a4b-9412-8bfc8141ea90
 ms.date: 05/02/2018
 keywords: ["NdisMSleep function"]
 ms.keywords: NdisMSleep, NdisMSleep function [Network Drivers Starting with Windows Vista], ndis/NdisMSleep, ndis_delay_ref_81af917a-626a-493f-97ed-c4ce48999b12.xml, netvista.ndismsleep
-f1_keywords:
- - "ndis/NdisMSleep"
- - "NdisMSleep"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMSleep
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMSleep
+ - ndis/NdisMSleep
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMSleep
 ---
 
 # NdisMSleep function
@@ -47,24 +47,17 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMSleep</b> function delays execution of the caller for a given interval in microseconds.
 
-
 ## -parameters
 
+### -param MicrosecondsToSleep 
 
-
-
-### -param MicrosecondsToSleep [in]
-
+[in]
 The number of microseconds to delay.
 
-
 ## -remarks
-
-
 
 For the given time in the 
     <i>MicrosecondsToSleep</i> parameter, the caller's thread of execution is put into a wait state, thereby
@@ -98,13 +91,7 @@ Both
     <b>NdisMSleep</b> or 
     <b>NdisStallExecution</b> specified.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
@@ -127,7 +114,4 @@ Both
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
- 
-
- 
 

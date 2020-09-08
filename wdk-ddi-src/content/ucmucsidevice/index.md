@@ -10,6 +10,9 @@ ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 ms.custom: RS5
+f1_keywords:
+ - ucmucsidevice
+ - ucmucsidevice/ucmucsidevice
 ---
 
 # Ucmucsidevice.h header
@@ -24,3 +27,4 @@ This header provides declaration for functions, callback functions, and structur
 For more information, see:
 - [Write a UcmUcsi client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
 - [Universal Serial Bus (USB)](https://docs.microsoft.com/windows-hardware/drivers/usbcon)
+

@@ -8,9 +8,6 @@ ms.assetid: B0F003B4-D82D-4110-B53A-CDE45B75DC8C
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaParameterInitializer::put_Value"]
 ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,put_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.put_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::put_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, print.iprintschemaparameterinitializer_putvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::put_Value, put_Value
-f1_keywords:
- - "printerextension/IPrintSchemaParameterInitializer.Value"
- - "IPrintSchemaParameterInitializer.Value"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaParameterInitializer.Value
-- IPrintSchemaParameterInitializer.put_Value
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaParameterInitializer::put_Value
+ - printerextension/IPrintSchemaParameterInitializer::put_Value
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaParameterInitializer.Value
+ - IPrintSchemaParameterInitializer.put_Value
 ---
 
 # IPrintSchemaParameterInitializer::put_Value
@@ -47,20 +47,15 @@ req.typenames:
 
 ## -description
 
-
 The <b>Value</b> (put_Value) property modifies the value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a> object. 
 
 In PrintTicket XML, that’s the value of the <psf:Value> child element for the <psf:ParameterInit> element.
 
 This property is write-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The <b>Value</b> (put_Value) property passes the new value as a Variant. Here's what the receiving function expects in the Variant type, and where the function will look for the new value, depending on the different parameter data types:
 
@@ -92,16 +87,7 @@ If the input Variant type doesn’t match the parameter data type as shown in th
 
 In the case of the <b>PrintSchemaParameterDataType_NumericString</b>  parameter data type, the function will also validate that the V_BSTR(pVar) string only contains numeric characters. If the function finds any non-numeric characters, then the put_Value property call will return E_INVALIDARG.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a>
- 
-
- 
 

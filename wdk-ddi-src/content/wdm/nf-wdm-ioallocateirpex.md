@@ -3,7 +3,7 @@ UID: NF:wdm.IoAllocateIrpEx
 title: IoAllocateIrpEx function (wdm.h)
 author: windows-driver-content
 description: IoAllocateIrpEx allocates an I/O request packet (IRP) from
-tech.root:
+tech.root: 
 ms.assetid: 121309fe-e6f5-4d5d-8817-25ed7e9e2e5f
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
@@ -13,34 +13,37 @@ req.header: wdm.h
 req.include-header: wdm.h, ntddk.h, ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting Windows 10 (version 1507)
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: ntoskrnl.lib
 req.dll: ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- ntoskrnl.exe
-api_name: 
-- IoAllocateIrpEx
-product: 
-- Windows
 targetos: Windows
-
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - ntoskrnl.exe
+api_name:
+ - IoAllocateIrpEx
+product:
+ - Windows
+f1_keywords:
+ - IoAllocateIrpEx
+ - wdm/IoAllocateIrpEx
 ---
 
 # IoAllocateIrpEx function
+
 
 ## -description
 
@@ -95,3 +98,4 @@ An intermediate or highest-level driver also can call [**IoBuildDeviceIoControlR
 [**IoReuseIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreuseirp)
 
 [**IoSetCompletionRoutine**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+

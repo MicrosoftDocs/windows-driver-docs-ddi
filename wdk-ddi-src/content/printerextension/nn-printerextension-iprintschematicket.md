@@ -8,9 +8,6 @@ ms.assetid: 190B0B88-6018-4B43-8699-78427421D6FF
 ms.date: 10/19/2018
 keywords: ["IPrintSchemaTicket interface"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], IPrintSchemaTicket interface [Print Devices],described, print.iprintschematicket_interface, printerextension/IPrintSchemaTicket
-f1_keywords:
- - "printerextension/IPrintSchemaTicket"
- - "IPrintSchemaTicket"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaTicket
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaTicket
+ - printerextension/IPrintSchemaTicket
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaTicket
 ---
 
 # IPrintSchemaTicket interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Provides the primary method to access and validate a PrintTicket.
-
 
 ## -inheritance
 
@@ -73,4 +71,4 @@ For C# and JavaScript clients, use printerextension.h GetReadStream or GetWriteS
 [IPrintSchemaElement](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)
 
 [IPrintSchemaElement::XmlNode](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_xmlnode)
- 
+

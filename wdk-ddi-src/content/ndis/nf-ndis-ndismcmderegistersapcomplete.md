@@ -8,9 +8,6 @@ ms.assetid: 69524144-fc55-4721-a753-6452566a8b26
 ms.date: 05/02/2018
 keywords: ["NdisMCmDeregisterSapComplete macro"]
 ms.keywords: NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, ndis/NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete
-f1_keywords:
- - "ndis/NdisMCmDeregisterSapComplete"
- - "NdisMCmDeregisterSapComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmDeregisterSapComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDeregisterSapComplete
+ - ndis/NdisMCmDeregisterSapComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmDeregisterSapComplete
 ---
 
 # NdisMCmDeregisterSapComplete macro
@@ -46,28 +46,20 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDeregisterSapComplete</b> returns the final status of a client's request, for which the MCM driver
   previously returned NDIS_STATUS_PENDING, to deregister a SAP.
 
-
 ## -parameters
-
-
-
 
 ### -param _S_
 
 Specifies NDIS_STATUS_SUCCESS.
-
 
 ### -param _H_
 
 Specifies the handle identifying the SAP.
 
 ## -remarks
-
-
 
 <b>NdisMCmDeregisterSapComplete</b> notifies both NDIS and the client that the MCM driver has completed
     the SAP-deregistration request for which its 
@@ -88,13 +80,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCmDeregisterSapComplete</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>
 
@@ -110,7 +96,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">ProtocolCmDeregisterSap</a>
- 
-
- 
 

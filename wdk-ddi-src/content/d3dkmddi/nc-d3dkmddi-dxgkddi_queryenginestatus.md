@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiQueryEngineStatus"
- - "DxgkDdiQueryEngineStatus"
+ - DXGKDDI_QUERYENGINESTATUS
+ - d3dkmddi/DXGKDDI_QUERYENGINESTATUS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_QUERYENGINESTATUS callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 964B305F-5B9E-4705-89BA-DBAE43464FB1
 ms.date: 04/30/2018
 keywords: ["PCONFIGURE_ADAPTER_CHANNEL callback function"]
 ms.keywords: ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], PCONFIGURE_ADAPTER_CHANNEL, PCONFIGURE_ADAPTER_CHANNEL callback, kernel.configureadapterchannel, wdm/ConfigureAdapterChannel
-f1_keywords:
- - "wdm/ConfigureAdapterChannel"
- - "ConfigureAdapterChannel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- ConfigureAdapterChannel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PCONFIGURE_ADAPTER_CHANNEL
+ - wdm/PCONFIGURE_ADAPTER_CHANNEL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - ConfigureAdapterChannel
 ---
 
 # PCONFIGURE_ADAPTER_CHANNEL callback function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>ConfigureAdapterChannel</b> routine invokes a custom function that is implemented by the DMA controller represented by an adapter object.
-
 
 ## -parameters
 
+### -param DmaAdapter 
 
-
-
-### -param DmaAdapter [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
+### -param FunctionNumber 
 
-### -param FunctionNumber [in]
-
+[in]
 The number of the custom function to select. For more information, see the Remarks section.
 
+### -param Context 
 
-### -param Context [in]
-
+[in]
 A pointer to the configuration parameters for the custom function that is specified by <i>FunctionNumber</i>. The function is implemented by the DMA controller and can be accessed by a device driver through the adapter object. The DMA controller and the device driver must agree on the meaning of these configuration parameters. The data that <i>Context</i> points to is opaque to the operating system.
 
-
 ## -returns
-
-
 
 <b>ConfigureAdapterChannel</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status code.
 
@@ -93,14 +86,8 @@ The  DMA extension does not implement the function specified by <i>FunctionNumbe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>ConfigureAdapterChannel</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
@@ -110,13 +97,7 @@ A particular system DMA controller might have special hardware features that dev
 
 Typically, a custom function sets state information in the DMA controller to configure hardware features for use  in subsequent DMA transfers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a>
 
@@ -127,7 +108,4 @@ Typically, a custom function sets state information in the DMA controller to con
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 811df5ea-f5e6-4986-adc0-c5fa95e5f072
 ms.date: 05/02/2018
 keywords: ["NdisFreeNetBufferListPool function"]
 ms.keywords: NdisFreeNetBufferListPool, NdisFreeNetBufferListPool function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferListPool, ndis_netbuf_functions_ref_c2efb4b4-41de-4493-92a2-42e3fa78628b.xml, netvista.ndisfreenetbufferlistpool
-f1_keywords:
- - "ndis/NdisFreeNetBufferListPool"
- - "NdisFreeNetBufferListPool"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ndis.sys
-api_name:
-- NdisFreeNetBufferListPool
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFreeNetBufferListPool
+ - ndis/NdisFreeNetBufferListPool
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ndis.sys
+api_name:
+ - NdisFreeNetBufferListPool
 ---
 
 # NdisFreeNetBufferListPool function
@@ -46,40 +46,27 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisFreeNetBufferListPool</b> function to free a 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pool.
 
-
 ## -parameters
 
+### -param PoolHandle 
 
-
-
-### -param PoolHandle [in]
-
+[in]
 A handle that was obtained from a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function.
 
-
 ## -remarks
-
-
 
 Before freeing a 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pool, you must
     free all the NET_BUFFER_LIST structures in the pool. To free a NET_BUFFER_LIST structure, call the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlist">NdisFreeNetBufferList</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
@@ -91,7 +78,4 @@ Before freeing a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlist">NdisFreeNetBufferList</a>
- 
-
- 
 

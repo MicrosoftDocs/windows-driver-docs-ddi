@@ -8,9 +8,6 @@ ms.assetid: e0ccc6e8-9351-4440-808b-e0b8eef48bc2
 ms.date: 04/30/2018
 keywords: ["MmProtectMdlSystemAddress function"]
 ms.keywords: MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture], k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, kernel.mmprotectmdlsystemaddress, wdm/MmProtectMdlSystemAddress
-f1_keywords:
- - "wdm/MmProtectMdlSystemAddress"
- - "MmProtectMdlSystemAddress"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- MmProtectMdlSystemAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MmProtectMdlSystemAddress
+ - wdm/MmProtectMdlSystemAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - MmProtectMdlSystemAddress
 ---
 
 # MmProtectMdlSystemAddress function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>MmProtectMdlSystemAddress</b> routine sets the protection type for a memory address range.
-
 
 ## -parameters
 
+### -param MemoryDescriptorList 
 
+[in]
+Specifies the memory address range to set the protection type for.
 
+### -param NewProtect 
 
-### -param MemoryDescriptorList [in]
-
-Specifies the memory address range to set the protection type for. 
-
-
-### -param NewProtect [in]
-
+[in]
 Specifies the new protection setting for the memory pages. Drivers should specify one of the following values:
 
 
@@ -102,10 +98,7 @@ The underlying memory pages can be executed or read, but not written.
 
 The underlying memory pages can be executed, read, or written.
 
-
 ## -returns
-
-
 
 <b>MmProtectMdlSystemAddress</b> returns an NTSTATUS code. The possible return values include:
 
@@ -148,27 +141,12 @@ The MDL has not yet been mapped. <b>MmProtectMdlSystemAddress</b> can only be us
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>MmProtectMdlSystemAddress</b> routine can only be called on an MDL that has already been mapped. For example, the routine can be called on an MDL mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a>. 
-
-
-
+The <b>MmProtectMdlSystemAddress</b> routine can only be called on an MDL that has already been mapped. For example, the routine can be called on an MDL mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a>
- 
-
- 
 

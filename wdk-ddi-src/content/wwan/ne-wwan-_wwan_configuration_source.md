@@ -6,35 +6,40 @@ tech.root: netvista
 ms.assetid: 1bd34230-23ba-4874-9ec0-888b7500ebe7
 ms.date: 08/23/2018
 keywords: ["WWAN_CONFIGURATION_SOURCE enumeration"]
-f1_keywords:
- - "wwan/_WWAN_CONFIGURATION_SOURCE"
- - "_WWAN_CONFIGURATION_SOURCE"
-ms.keywords: _WWAN_CONFIGURATION_SOURCE, WWAN_CONFIGURATION_SOURCE, *PWWAN_CONFIGURATION_SOURCE, 
+ms.keywords: _WWAN_CONFIGURATION_SOURCE, WWAN_CONFIGURATION_SOURCE, *PWWAN_CONFIGURATION_SOURCE,
 req.header: wwan.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: WWAN_CONFIGURATION_SOURCE, *PWWAN_CONFIGURATION_SOURCE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- wwan.h
-api_name: 
-- _WWAN_CONFIGURATION_SOURCE
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - _WWAN_CONFIGURATION_SOURCE
+ - wwan/_WWAN_CONFIGURATION_SOURCE
+ - PWWAN_CONFIGURATION_SOURCE
+ - wwan/PWWAN_CONFIGURATION_SOURCE
+ - WWAN_CONFIGURATION_SOURCE
+ - wwan/WWAN_CONFIGURATION_SOURCE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - _WWAN_CONFIGURATION_SOURCE
+product:
+ - Windows
 ---
 
 # _WWAN_CONFIGURATION_SOURCE enumeration
+
 
 ## -description
 
@@ -75,3 +80,4 @@ This enum is used in the [**WWAN_CONTEXT_V2**](ns-wwan-_wwan_context_v2.md) and 
 [**WWAN_CONTEXT_V2**](ns-wwan-_wwan_context_v2.md)
 
 [**WWAN_SET_CONTEXT_V2**](ns-wwan-_wwan_set_context_v2.md)
+

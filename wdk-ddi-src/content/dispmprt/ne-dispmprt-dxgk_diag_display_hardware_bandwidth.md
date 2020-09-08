@@ -27,9 +27,10 @@ api_name:
  - _DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
  - DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
  - dispmprt/_DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
- - dispmprt//DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
  - DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
+ - dispmprt/DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH
 dev_langs:
  - c++
 ---
@@ -37,6 +38,7 @@ dev_langs:
 # DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH enumeration
 
 The **DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH** enum provides hardware bandwidth information during diagnostic data collection.
+
 
 ## -description
 
@@ -79,3 +81,4 @@ DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH tells the operating system whether the disp
 [**DXGKARG_GETDISPLAYSTATEINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystateintrusive.md)
 
 [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+

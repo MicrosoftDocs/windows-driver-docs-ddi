@@ -8,9 +8,6 @@ ms.assetid: a4d47312-87e2-4147-94f6-ff9c9d452211
 ms.date: 05/02/2018
 keywords: ["RILPHONEBOOKLOCATION structure"]
 ms.keywords: "*LPRILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION structure [Network Drivers Starting with Windows Vista], netvista.rilphonebooklocation, ntddrilapitypes/RILPHONEBOOKLOCATION"
-f1_keywords:
- - "ntddrilapitypes/RILPHONEBOOKLOCATION"
- - "RILPHONEBOOKLOCATION"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,41 +25,38 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILPHONEBOOKLOCATION
 targetos: Windows
 req.typenames: RILPHONEBOOKLOCATION, *LPRILPHONEBOOKLOCATION
+f1_keywords:
+ - RILPHONEBOOKLOCATION
+ - ntddrilapitypes/RILPHONEBOOKLOCATION
+ - LPRILPHONEBOOKLOCATION
+ - ntddrilapitypes/LPRILPHONEBOOKLOCATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILPHONEBOOKLOCATION
 ---
 
-# RILPHONEBOOKLOCATION structure
+# RILPHONEBOOKLOCATION structure (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field hUiccApp
 
-
 ### -field dwStoreLocation
-
 
 ### -field dwIndex
 

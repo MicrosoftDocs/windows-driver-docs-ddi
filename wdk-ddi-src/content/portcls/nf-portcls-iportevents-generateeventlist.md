@@ -8,9 +8,6 @@ ms.assetid: 99c9d60d-5f19-4b31-a8f3-aff69bc3a2a6
 ms.date: 05/08/2018
 keywords: ["IPortEvents::GenerateEventList"]
 ms.keywords: GenerateEventList, GenerateEventList method [Audio Devices], GenerateEventList method [Audio Devices],IPortEvents interface, IPortEvents interface [Audio Devices],GenerateEventList method, IPortEvents.GenerateEventList, IPortEvents::GenerateEventList, audio.iportevents_generateeventlist, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, portcls/IPortEvents::GenerateEventList
-f1_keywords:
- - "portcls/IPortEvents.GenerateEventList"
- - "IPortEvents.GenerateEventList"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level. (See Remarks section.)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portcls.h
-api_name:
-- IPortEvents.GenerateEventList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPortEvents::GenerateEventList
+ - portcls/IPortEvents::GenerateEventList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portcls.h
+api_name:
+ - IPortEvents.GenerateEventList
 ---
 
 # IPortEvents::GenerateEventList
@@ -46,60 +46,47 @@ req.typenames:
 
 ## -description
 
-
 The <code>GenerateEventList</code> method notifies clients through the port driver's list of event entries that a particular event has occurred.
-
 
 ## -parameters
 
+### -param Set 
 
-
-
-### -param Set [in, optional]
-
+[in, optional]
 Identifies the event set that the event belongs to. This parameter is a pointer to a GUID. <i>Set</i> is an optional parameter. A <i>Set</i> value of <b>NULL</b> is a wild card that matches all event-set GUIDs in the list. Otherwise, only event entries with matching event-set GUIDs are signaled.
 
+### -param EventId 
 
-### -param EventId [in]
-
+[in]
 Specifies an event ID. This parameter specifies the index of the event in the event set. If an event set contains <i>n</i> events, valid event IDs are in the range 0 to <i>n</i>-1. Only event entries with matching event IDs are signaled.
 
+### -param PinEvent 
 
-### -param PinEvent [in]
-
+[in]
 Specifies whether <i>PinId</i> should be used in qualifying which event entries to signal. If <i>PinEvent</i> is <b>FALSE</b>, <i>PinId</i> is treated as a wild card that matches all pin IDs in the list.
 
+### -param PinId 
 
-### -param PinId [in]
-
+[in]
 Specifies the pin ID of the event to be signaled. If <i>PinEvent</i> is <b>TRUE</b>, then only event entries with matching pin IDs are signaled.
 
+### -param NodeEvent 
 
-### -param NodeEvent [in]
-
+[in]
 Indicates whether <i>NodeId</i> should be used in qualifying which event entries to signal. If <i>NodeEvent</i> is <b>FALSE</b>, <i>NodeId</i> is treated as a wild card that matches all node IDs in the list.
 
+### -param NodeId 
 
-### -param NodeId [in]
-
+[in]
 Specifies the node ID of the event to be signaled. If <i>NodeEvent</i> is <b>TRUE</b>, then only event entries with matching node IDs are signaled.
 
-
 ## -remarks
-
-
 
 This method is used by miniport drivers to signal event entries in the port driver's event list. In response to the miniport driver calling this method, the port driver walks its list of event entries and signals all registered event entries that meet the criteria expressed by the call parameters.
 
 Although callers of <code>GenerateEventList</code> can be running at any IRQL, they are subject to some limitations when calling at IRQL > DISPATCH_LEVEL. Specifically, if the current implementation of <code>GenerateEventList</code> is called at IRQL > DISPATCH_LEVEL, the method queues a DPC to process the event list. That DPC contains the parameter context for a single call. As a result, signaling events might occasionally be missed if multiple calls are made at IRQL > DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nc-portcls-pcpfnevent_handler">EventHandler</a>
 
@@ -110,7 +97,4 @@ Although callers of <code>GenerateEventList</code> can be running at any IRQL, t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportevents-addeventtoeventlist">IPortEvents::AddEventToEventList</a>
- 
-
- 
 

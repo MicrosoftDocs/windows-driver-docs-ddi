@@ -8,9 +8,6 @@ ms.assetid: 0d79a25b-846d-490d-9e04-d319fa860761
 ms.date: 05/08/2018
 keywords: ["IOCTL_PMI_REGISTER_EVENT_NOTIFY IOCTL"]
 ms.keywords: IOCTL_PMI_REGISTER_EVENT_NOTIFY, IOCTL_PMI_REGISTER_EVENT_NOTIFY control, IOCTL_PMI_REGISTER_EVENT_NOTIFY control code [Power Metering and Budgeting Devices], PowerMeterRef_9132445e-2195-4f6a-933d-0dc858128c4d.xml, pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY, powermeter.ioctl_pmi_register_event_notify
-f1_keywords:
- - "pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY"
- - "IOCTL_PMI_REGISTER_EVENT_NOTIFY"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pmi.h
-api_name:
-- IOCTL_PMI_REGISTER_EVENT_NOTIFY
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_PMI_REGISTER_EVENT_NOTIFY
+ - pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pmi.h
+api_name:
+ - IOCTL_PMI_REGISTER_EVENT_NOTIFY
 ---
 
 # IOCTL_PMI_REGISTER_EVENT_NOTIFY IOCTL
@@ -46,52 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_PMI_REGISTER_EVENT_NOTIFY</b> request registers the IOCTL initiator to be notified about a power meter event. When the event occurs, the Power Meter Interface (PMI) completes the IOCTL request and returns information about the event.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member of the I/O request packet (IRP) points to an initiator-allocated input buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_event">PMI_EVENT</a> structure.
 
-
 ### -input-buffer-length
 
 The <b>Parameters.DeviceIoControl.InputBufferLength</b> member of the IRP's current I/O stack location (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>) is set to the size in bytes of the input buffer that is pointed to by the <b>AssociatedIrp.SystemBuffer</b> member. This size must be greater than or equal to <b>sizeof</b>(<b>PMI_EVENT</b>) or the request will fail with an error status of STATUS_BUFFER_TOO_SMALL.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -116,10 +93,7 @@ The WDM driver that supports the PMI interface has put the IOCTL request in a qu
 
 The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
 
-
 ## -remarks
-
-
 
 PMI creates an event notification queue for each initiator that opens the device instance for a power meter by using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. A separate queue is created for each caller's connection to a device instance. The following points apply to the event notification queue:
 
@@ -141,13 +115,7 @@ When PMI sends a power meter event to the caller, it completes the <b>IOCTL_PMI_
 
 For more information about the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and <b>CloseFile</b> functions, refer to the Windows SDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a>
 
@@ -162,7 +130,4 @@ For more information about the <a href="https://docs.microsoft.com/windows/deskt
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_event">PMI_EVENT</a>
- 
-
- 
 

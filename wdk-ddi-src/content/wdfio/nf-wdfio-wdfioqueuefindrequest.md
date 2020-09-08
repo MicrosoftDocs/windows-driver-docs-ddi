@@ -8,9 +8,6 @@ ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
 ms.date: 02/26/2018
 keywords: ["WdfIoQueueFindRequest function"]
 ms.keywords: DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, WdfIoQueueFindRequest, WdfIoQueueFindRequest method, kmdf.wdfioqueuefindrequest, wdf.wdfioqueuefindrequest, wdfio/WdfIoQueueFindRequest
-f1_keywords:
- - "wdfio/WdfIoQueueFindRequest"
- - "WdfIoQueueFindRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfIoQueueFindRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoQueueFindRequest
+ - wdfio/WdfIoQueueFindRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfIoQueueFindRequest
 ---
 
 # WdfIoQueueFindRequest function
@@ -49,45 +49,38 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfIoQueueFindRequest</b> method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">ownership</a> of the request to the driver.
 
-
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to a framework queue object.
 
+### -param FoundRequest 
 
-### -param FoundRequest [in, optional]
-
+[in, optional]
 A request object handle that the driver received from a previous call to <b>WdfIoQueueFindRequest</b>. This parameter is optional and can be <b>NULL</b>.
 
+### -param FileObject 
 
-### -param FileObject [in, optional]
-
+[in, optional]
 A handle to a framework file object. This parameter is optional and can be <b>NULL</b>.
 
+### -param Parameters 
 
-### -param Parameters [in, out]
-
+[in, out]
 A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure that receives parameters that are associated with the found request. This parameter is optional and can be <b>NULL</b>.
 
+### -param OutRequest 
 
-### -param OutRequest [out]
-
+[out]
 A pointer to a location that receives a handle to the found request. If no match is found, the location receives <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfIoQueueFindRequest</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -136,14 +129,7 @@ This method also might return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 The <b>WdfIoQueueFindRequest</b> method searches a specified I/O queue and attempts to find an I/O request. 
 
@@ -435,12 +421,7 @@ if (matchedRequest != NULL) {
 ... 
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a>
 
@@ -455,7 +436,4 @@ if (matchedRequest != NULL) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a>
- 
-
- 
 

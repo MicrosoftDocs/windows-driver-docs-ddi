@@ -5,40 +5,38 @@ description: This routine returns the larger of the two sizes to provide for suf
 ms.assetid: e5b38220-cc8d-425c-b1a8-d61983d36e2a
 ms.date: 08/08/2018
 keywords: ["CollectionsListGetSerializedSize function"]
-f1_keywords:
- - "sensorsutils/CollectionsListGetSerializedSize"
- - "CollectionsListGetSerializedSize"
 tech.root: sensors
 ms.keywords: CollectionsListGetSerializedSize
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- CollectionsListGetSerializedSize
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - CollectionsListGetSerializedSize
+ - sensorsutils/CollectionsListGetSerializedSize
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - CollectionsListGetSerializedSize
 ---
 
 # CollectionsListGetSerializedSize function
@@ -64,3 +62,4 @@ This function returns a ULONG that represents the serialized data size.
 ## -remarks
 
 ## -see-also
+

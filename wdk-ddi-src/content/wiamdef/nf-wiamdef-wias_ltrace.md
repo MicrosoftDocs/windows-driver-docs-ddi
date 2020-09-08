@@ -8,9 +8,6 @@ ms.assetid: 513fd718-3d35-4a7b-be28-b002a8108e86
 ms.date: 05/03/2018
 keywords: ["WIAS_LTRACE macro"]
 ms.keywords: IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace, wiamdef/WIAS_LTRACE
-f1_keywords:
- - "wiamdef/WIAS_LTRACE"
- - "WIAS_LTRACE"
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamdef.h
-api_name:
-- WIAS_LTRACE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WIAS_LTRACE
+ - wiamdef/WIAS_LTRACE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamdef.h
+api_name:
+ - WIAS_LTRACE
 ---
 
-# WIAS_LTRACE macro
+# WIAS_LTRACE macro (wiamdef.h)
+
 
 ## -description
 
@@ -95,3 +96,4 @@ The WIAS_LTRACE macro obsolete and is not recommended for use because it does no
 [WIAS_LWARNING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lwarning)
 
 [WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)
+

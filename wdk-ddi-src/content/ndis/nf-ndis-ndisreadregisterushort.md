@@ -8,9 +8,6 @@ ms.assetid: 0048fb18-8728-4b41-b4e2-5762966d5ed0
 ms.date: 05/02/2018
 keywords: ["NdisReadRegisterUshort macro"]
 ms.keywords: NdisReadRegisterUshort, NdisReadRegisterUshort macro [Network Drivers Starting with Windows Vista], miniport_register_ref_7eef891a-3f3e-4c42-8165-399555eb018f.xml, ndis/NdisReadRegisterUshort, netvista.ndisreadregisterushort
-f1_keywords:
- - "ndis/NdisReadRegisterUshort"
- - "NdisReadRegisterUshort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisReadRegisterUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisReadRegisterUshort
+ - ndis/NdisReadRegisterUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisReadRegisterUshort
 ---
 
 # NdisReadRegisterUshort macro
@@ -46,43 +46,30 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisReadRegisterUshort</b> is called by the miniport driver to read a USHORT from a memory-mapped device
   register.
 
-
 ## -parameters
 
+### -param Register 
 
-
-
-### -param Register [in]
-
+[in]
 Pointer to the memory-mapped register. This virtual address must fall within a range returned by
      an initialization-time call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismmapiospace">NdisMMapIoSpace</a>.
 
+### -param Data 
 
-### -param Data [out]
-
+[out]
 Pointer to the caller-supplied variable in which this function returns the USHORT read from 
      <i>Register</i> .
 
-
 ## -remarks
-
-
 
 If a driver calls this function, a NIC's device registers must be mapped to noncached memory during
     driver initialization.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -101,7 +88,4 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteregisterushort">NdisWriteRegisterUshort</a>
- 
-
- 
 

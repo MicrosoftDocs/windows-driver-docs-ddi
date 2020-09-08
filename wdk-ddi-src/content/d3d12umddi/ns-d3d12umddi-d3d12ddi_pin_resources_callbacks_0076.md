@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
 f1_keywords:
- - d3d12umddi//D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
  - D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
+ - d3d12umddi/D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
 dev_langs:
  - c++
 ---
@@ -64,3 +64,4 @@ Drivers that advertise the optional [D3D12DDI_FEATURE_0076_PIN_RESOURCES](ne-d3d
 [**PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021**](nc-d3d12umddi-pfnd3d12ddi_set_extended_feature_callbacks_0021.md)
 
 [**PFND3D12DDI_UNPINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_unpinresources_cb_0076.md)
+

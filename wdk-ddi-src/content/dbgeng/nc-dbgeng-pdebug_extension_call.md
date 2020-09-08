@@ -8,9 +8,6 @@ ms.assetid: 325af2f4-9fb7-4fb3-9294-cd6d20d803c6
 ms.date: 05/03/2018
 keywords: ["PDEBUG_EXTENSION_CALL callback function"]
 ms.keywords: DebugExtensionCall, DebugExtensionCall callback function [Windows Debugging], Extensions_Ref_fc621d91-0419-4ae3-8e53-71f4c522c318.xml, PDEBUG_EXTENSION_CALL, PDEBUG_EXTENSION_CALL callback, dbgeng/DebugExtensionCall, debugger.pdebug_extension_call
-f1_keywords:
- - "dbgeng/DebugExtensionCall"
- - "DebugExtensionCall"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dbgeng.h
-api_name:
-- DebugExtensionCall
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PDEBUG_EXTENSION_CALL
+ - dbgeng/PDEBUG_EXTENSION_CALL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dbgeng.h
+api_name:
+ - DebugExtensionCall
 ---
 
 # PDEBUG_EXTENSION_CALL callback function
@@ -46,26 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Callback functions of the type <b>PDEBUG_EXTENSION_CALL</b> are called by the engine to execute <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/anatomy-of-a-dbgeng-extension-dll">extension commands</a>. You can give these functions any name you want, as long as it contains no uppercase letters.
-
 
 ## -parameters
 
+### -param Client 
 
-
-### -param Client [in]
-
+[in]
 Specifies an interface pointer to the client.  This can be used to interact with the engine.  Typically, this is the client through which the extension command was issued.
 
+### -param Args 
 
-### -param Args [in, optional]
-
+[in, optional]
 Specifies the arguments passed to the extension command.  In particular, if the extension command was called from a command line, <i>Args</i> contains the rest of the command line.  It can be <b>NULL</b> or empty.
 
-
 ## -returns
-
 
 <table>
 <tr>
@@ -99,9 +94,6 @@ Indicates that the function cannot handle the command, or that other implementat
 
 All other return values are ignored by the engine.
 
-
-
-
 ## -remarks
 
 The name of the function becomes the name of the extension command.  When executing an extension command, the engine searches through each of the loaded extension DLLs in turn, looking for an exported function that has the same name as the command.  For example, when executing the command <b>!stack</b>, the engine will look for an exported function named <b>stack</b> in each loaded extension DLL. For information about the order in which extension DLLs are searched, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-debugger-extension-commands">Using Debugger Extension Commands</a>.
@@ -110,12 +102,7 @@ The extension function should use the client that was passed to it in <i>Client<
 
 DebugExtensionCall is called <b>PDEBUG_EXTENSION_CALL</b>   in the Dbgeng.h header file.
 
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
- 
-
- 
 

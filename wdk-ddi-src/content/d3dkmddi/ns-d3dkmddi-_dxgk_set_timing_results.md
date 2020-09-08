@@ -7,9 +7,6 @@ ms.assetid: EA5C845B-76FD-40AD-B4E8-78601CA847CE
 ms.date: 05/10/2018
 keywords: ["DXGK_SET_TIMING_RESULTS structure"]
 ms.keywords: "*PDXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS structure [Display Devices], PDXGK_SET_TIMING_RESULTS, PDXGK_SET_TIMING_RESULTS structure pointer [Display Devices], _DXGK_SET_TIMING_RESULTS, d3dkmddi/DXGK_SET_TIMING_RESULTS, d3dkmddi/PDXGK_SET_TIMING_RESULTS, display.dxgk_set_timing_results"
-f1_keywords:
- - "d3dkmddi/DXGK_SET_TIMING_RESULTS"
- - "DXGK_SET_TIMING_RESULTS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_SET_TIMING_RESULTS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS
+f1_keywords:
+ - _DXGK_SET_TIMING_RESULTS
+ - d3dkmddi/_DXGK_SET_TIMING_RESULTS
+ - PDXGK_SET_TIMING_RESULTS
+ - d3dkmddi/PDXGK_SET_TIMING_RESULTS
+ - DXGK_SET_TIMING_RESULTS
+ - d3dkmddi/DXGK_SET_TIMING_RESULTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_SET_TIMING_RESULTS
 ---
 
 # _DXGK_SET_TIMING_RESULTS structure
@@ -46,14 +50,9 @@ req.typenames: DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS
 
 ## -description
 
-
 Structure to report result flags from the SetTiming call which apply to the complete call rather than individual paths.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ConnectionStatusChanges
 
@@ -65,7 +64,6 @@ If set, indicates that one or more connector status changes were detected in the
 ### -field Reserved
 
 This value is reserved for system use.
-
 
 ### -field Value
 

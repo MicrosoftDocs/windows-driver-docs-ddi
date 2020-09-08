@@ -8,9 +8,6 @@ ms.assetid: 2CF2C69B-A5DF-4A78-BC15-EB80FAC51831
 ms.date: 05/02/2018
 keywords: ["WWAN_MODEM_CONFIG_REASON enumeration"]
 ms.keywords: "*PWWAN_MODEM_CONFIG_REASON, PWWAN_MODEM_CONFIG_REASON, PWWAN_MODEM_CONFIG_REASON enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_REASON, WWAN_MODEM_CONFIG_REASON enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigReasonActivationFailure, WwanModemConfigReasonConfigFileUpdate, WwanModemConfigReasonIMSIReset, WwanModemConfigReasonMax, WwanModemConfigReasonModemRecovery, WwanModemConfigReasonModemReset, WwanModemConfigReasonNOSIM, WwanModemConfigReasonNone, WwanModemConfigReasonSIMDetected, WwanModemConfigReasonSIMRemoved, _WWAN_MODEM_CONFIG_REASON, netvista.wwan_modem_config_reason, wwan/PWWAN_MODEM_CONFIG_REASON, wwan/WWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonActivationFailure, wwan/WwanModemConfigReasonConfigFileUpdate, wwan/WwanModemConfigReasonIMSIReset, wwan/WwanModemConfigReasonMax, wwan/WwanModemConfigReasonModemRecovery, wwan/WwanModemConfigReasonModemReset, wwan/WwanModemConfigReasonNOSIM, wwan/WwanModemConfigReasonNone, wwan/WwanModemConfigReasonSIMDetected, wwan/WwanModemConfigReasonSIMRemoved"
-f1_keywords:
- - "wwan/WWAN_MODEM_CONFIG_REASON"
- - "WWAN_MODEM_CONFIG_REASON"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_MODEM_CONFIG_REASON
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_REASON, *PWWAN_MODEM_CONFIG_REASON
+f1_keywords:
+ - _WWAN_MODEM_CONFIG_REASON
+ - wwan/_WWAN_MODEM_CONFIG_REASON
+ - PWWAN_MODEM_CONFIG_REASON
+ - wwan/PWWAN_MODEM_CONFIG_REASON
+ - WWAN_MODEM_CONFIG_REASON
+ - wwan/WWAN_MODEM_CONFIG_REASON
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_MODEM_CONFIG_REASON
 ---
 
 # _WWAN_MODEM_CONFIG_REASON enumeration
@@ -46,68 +50,48 @@ req.typenames: WWAN_MODEM_CONFIG_REASON, *PWWAN_MODEM_CONFIG_REASON
 
 ## -description
 
-
 The <b>WWAN_MODEM_CONFIG_REASON</b> enumeration lists definitions for reasons why a modem's configuration state change was triggered.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WwanModemConfigReasonNone
 
 Default value that can be used if other optional reasons are not supported.
 
-
 ### -field WwanModemConfigReasonSIMDetected
 
 Required. A SIM card was detected by a modem.
-
 
 ### -field WwanModemConfigReasonNOSIM
 
 Optional. There is no SIM card.
 
-
 ### -field WwanModemConfigReasonIMSIReset
 
 Optional. A SIM card was reset with new IMSI programmed into it.
-
 
 ### -field WwanModemConfigReasonActivationFailure
 
 Optional. Activation of a new configuration failed.
 
-
 ### -field WwanModemConfigReasonConfigFileUpdate
 
 Optional. A new configuration file was updated by the host.
-
 
 ### -field WwanModemConfigReasonModemReset
 
 Optional. The modem reset and configuration was not lost.
 
-
 ### -field WwanModemConfigReasonModemRecovery
 
 Required. The modem reset and configuration was restored to default.
-
 
 ### -field WwanModemConfigReasonMax
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
 
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA">WWAN_MODEM_CONFIG_STATUS</a>
- 
-
- 
 

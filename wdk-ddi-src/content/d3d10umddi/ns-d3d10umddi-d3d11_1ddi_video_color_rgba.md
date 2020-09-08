@@ -7,9 +7,6 @@ ms.assetid: 0d97d6ef-87e6-4ba3-ab4b-aa5b22cb126b
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_COLOR_RGBA structure"]
 ms.keywords: D3D11_1DDI_VIDEO_COLOR_RGBA, D3D11_1DDI_VIDEO_COLOR_RGBA structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA, display.d3d11_1ddi_video_color_rgba
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA"
- - "D3D11_1DDI_VIDEO_COLOR_RGBA"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_VIDEO_COLOR_RGBA
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_COLOR_RGBA
+f1_keywords:
+ - D3D11_1DDI_VIDEO_COLOR_RGBA
+ - d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_VIDEO_COLOR_RGBA
 ---
 
 # D3D11_1DDI_VIDEO_COLOR_RGBA structure
@@ -46,32 +46,23 @@ req.typenames: D3D11_1DDI_VIDEO_COLOR_RGBA
 
 ## -description
 
-
 Specifies an RGB color value.
 
-
 ## -struct-fields
-
-
-
 
 ### -field R
 
 The red value.
 
-
 ### -field G
 
 The green value.
-
 
 ### -field B
 
 The blue value.
 
-
 ### -field A
 
 The alpha value. Values range from 0 (transparent) to 1 (opaque).
-
 

@@ -5,39 +5,37 @@ description: Initializes a push lock variable.
 ms.assetid: fe5e8448-38e2-4317-99a7-1483649d5aeb
 ms.date: 09/30/2018
 keywords: ["ExInitializePushLock function"]
-f1_keywords:
- - "wdm/ExInitializePushLock"
- - "ExInitializePushLock"
 ms.keywords: ExInitializePushLock
 req.header: wdm.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name: 
-- ExInitializePushLock
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - ExInitializePushLock
+ - wdm/ExInitializePushLock
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExInitializePushLock
 ---
 
 # ExInitializePushLock function
@@ -79,3 +77,4 @@ To acquire or release a push lock for exclusive access, call [**ExAcquirePushLoc
 To acquire or release a push lock for shared access, call [**ExAcquirePushLockShared**](nf-wdm-exacquirepushlockshared.md) or [**ExReleasePushLockShared**](nf-wdm-exreleasepushlockshared.md), respectively.
 
 ## -see-also
+

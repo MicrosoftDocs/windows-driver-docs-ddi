@@ -8,9 +8,6 @@ ms.assetid: 5ac17c34-c71c-45a7-870f-7e135c8bd5ca
 ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, NDIS_SWITCH_PORT_PROPERTY_CUSTOM, NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_CUSTOM, PNDIS_SWITCH_PORT_PROPERTY_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_CUSTOM, netvista.ndis_switch_port_property_custom, ntddndis/NDIS_SWITCH_PORT_PROPERTY_CUSTOM, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_CUSTOM"
-f1_keywords:
- - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_CUSTOM"
- - "NDIS_SWITCH_PORT_PROPERTY_CUSTOM"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddndis.h
-api_name:
-- NDIS_SWITCH_PORT_PROPERTY_CUSTOM
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PROPERTY_CUSTOM, *PNDIS_SWITCH_PORT_PROPERTY_CUSTOM
+f1_keywords:
+ - _NDIS_SWITCH_PORT_PROPERTY_CUSTOM
+ - ntddndis/_NDIS_SWITCH_PORT_PROPERTY_CUSTOM
+ - PNDIS_SWITCH_PORT_PROPERTY_CUSTOM
+ - ntddndis/PNDIS_SWITCH_PORT_PROPERTY_CUSTOM
+ - NDIS_SWITCH_PORT_PROPERTY_CUSTOM
+ - ntddndis/NDIS_SWITCH_PORT_PROPERTY_CUSTOM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddndis.h
+api_name:
+ - NDIS_SWITCH_PORT_PROPERTY_CUSTOM
 ---
 
 # _NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure
@@ -46,19 +50,11 @@ req.typenames: NDIS_SWITCH_PORT_PROPERTY_CUSTOM, *PNDIS_SWITCH_PORT_PROPERTY_CUS
 
 ## -description
 
-
-
 The <b>NDIS_SWITCH_PORT_PROPERTY_CUSTOM</b> structure specifies a custom policy property for a Hyper-V extensible switch port. 
 
 Independent software vendors (ISVs) define the format for the custom properties. The format of the custom property is proprietary to the ISV.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -76,25 +72,19 @@ Original version for NDIS 6.30 and later.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_SWITCH_PORT_PROPERTY_CUSTOM_REVISION_1.
 
-
 ### -field Flags
 
 A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserved for NDIS.
-
 
 ### -field PropertyBufferLength
 
 A ULONG value that specifies the size, in bytes, of the buffer that contains the custom port property.
 
-
 ### -field PropertyBufferOffset
 
 A ULONG value that specifies the offset, in bytes, to the property buffer. The offset is measured from the start of the <b>NDIS_SWITCH_PORT_PROPERTY_CUSTOM</b> structure up to the beginning of the property buffer.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_SWITCH_PORT_PROPERTY_CUSTOM</b> structure is used in the following OID set requests: 
 
@@ -118,13 +108,7 @@ Extensible switch extensions can access the custom port property buffer inside a
 
 For more information about extensible switch policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
@@ -151,7 +135,4 @@ For more information about extensible switch policies, see <a href="https://docs
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-property-update">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
- 
-
- 
 

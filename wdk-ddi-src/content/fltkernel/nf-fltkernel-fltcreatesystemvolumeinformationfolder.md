@@ -8,9 +8,6 @@ ms.assetid: 1da9bd59-d45e-40e0-9947-c4f56309acc7
 ms.date: 04/16/2018
 keywords: ["FltCreateSystemVolumeInformationFolder function"]
 ms.keywords: FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, FltCreateSystemVolumeInformationFolder, FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], fltkernel/FltCreateSystemVolumeInformationFolder, ifsk.fltcreatesystemvolumeinformationfolder
-f1_keywords:
- - "fltkernel/FltCreateSystemVolumeInformationFolder"
- - "FltCreateSystemVolumeInformationFolder"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltCreateSystemVolumeInformationFolder
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltCreateSystemVolumeInformationFolder
+ - fltkernel/FltCreateSystemVolumeInformationFolder
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltCreateSystemVolumeInformationFolder
 ---
 
 # FltCreateSystemVolumeInformationFolder function
+
 
 ## -description
 
@@ -50,8 +51,9 @@ req.typenames:
 
 ## -parameters
 
-### -param Instance [in]
+### -param Instance 
 
+[in]
 Opaque instance pointer for an instance that is attached to the volume.
 
 ## -returns
@@ -79,3 +81,4 @@ For more information about security and access control, see the documentation on
 [ACL](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)
 
 [RtlCreateSystemVolumeInformationFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreatesystemvolumeinformationfolder)
+

@@ -8,9 +8,6 @@ ms.assetid: 7e9daf20-12d6-42dc-99fb-9e9efe5a9900
 ms.date: 05/02/2018
 keywords: ["FWPS_STREAM_DATA0_ structure"]
 ms.keywords: FWPS_STREAM_DATA0, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA0_, fwpsk/FWPS_STREAM_DATA0, netvista.fwps_stream_data0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml
-f1_keywords:
- - "fwpsk/FWPS_STREAM_DATA0"
- - "FWPS_STREAM_DATA0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fwpsk.h
-api_name:
-- FWPS_STREAM_DATA0
 targetos: Windows
 req.typenames: FWPS_STREAM_DATA0
+f1_keywords:
+ - FWPS_STREAM_DATA0_
+ - fwpsk/FWPS_STREAM_DATA0_
+ - FWPS_STREAM_DATA0
+ - fwpsk/FWPS_STREAM_DATA0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fwpsk.h
+api_name:
+ - FWPS_STREAM_DATA0
 ---
 
 # FWPS_STREAM_DATA0_ structure
@@ -46,14 +48,10 @@ req.typenames: FWPS_STREAM_DATA0
 
 ## -description
 
-
 The <b>FWPS_STREAM_DATA0</b> structure describes a portion of a data stream.
 <div class="alert"><b>Note</b>  <b>FWPS_STREAM_DATA0</b> is a specific version of <b>FWPS_STREAM_DATA</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field flags
 
@@ -121,11 +119,9 @@ An
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data_offset0_">FWPS_STREAM_DATA_OFFSET0</a> structure
      that specifies the offset into the data stream where the portion of the data stream begins.
 
-
 ### -field dataLength
 
 The number of bytes in the portion of the data stream.
-
 
 ### -field netBufferListChain
 
@@ -133,10 +129,7 @@ A pointer to a
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the portion of the data stream.
 
-
 ## -remarks
-
-
 
 The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion of a data stream that a
     callout's 
@@ -145,13 +138,7 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
     FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure points to an FWPS_STREAM_DATA0 structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
    FWPS_STREAM_CALLOUT_IO_PACKET0</a>
@@ -171,7 +158,4 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
- 
-
- 
 

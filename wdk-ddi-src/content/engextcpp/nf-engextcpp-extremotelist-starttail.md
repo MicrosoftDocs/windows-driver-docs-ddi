@@ -8,9 +8,6 @@ ms.assetid: fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e
 ms.date: 05/03/2018
 keywords: ["ExtRemoteList::StartTail"]
 ms.keywords: EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList class [Windows Debugging],StartTail method, ExtRemoteList.StartTail, ExtRemoteList::StartTail, StartTail, StartTail method [Windows Debugging], StartTail method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_starttail
-f1_keywords:
- - "engextcpp/ExtRemoteList.StartTail"
- - "ExtRemoteList.StartTail"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- engextcpp.hpp
-api_name:
-- ExtRemoteList.StartTail
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExtRemoteList::StartTail
+ - engextcpp/ExtRemoteList::StartTail
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - engextcpp.hpp
+api_name:
+ - ExtRemoteList.StartTail
 ---
 
 # ExtRemoteList::StartTail
@@ -46,7 +46,5 @@ req.typenames:
 
 ## -description
 
-
 The <b>StartTail</b> method initializes the list for iterating backward, starting at the head.
-
 

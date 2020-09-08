@@ -8,9 +8,6 @@ ms.assetid: B2E4D369-CCCF-4654-875F-69E90FEA1FF9
 ms.date: 05/02/2018
 keywords: ["NDK_CONNECTOR structure"]
 ms.keywords: NDK_CONNECTOR, NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR, PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR, ndkpi/NDK_CONNECTOR, ndkpi/PNDK_CONNECTOR, netvista.ndk_connector
-f1_keywords:
- - "ndkpi/NDK_CONNECTOR"
- - "NDK_CONNECTOR"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndkpi.h
-api_name:
-- NDK_CONNECTOR
 targetos: Windows
 req.typenames: NDK_CONNECTOR
+f1_keywords:
+ - _NDK_CONNECTOR
+ - ndkpi/_NDK_CONNECTOR
+ - NDK_CONNECTOR
+ - ndkpi/NDK_CONNECTOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndkpi.h
+api_name:
+ - NDK_CONNECTOR
 ---
 
 # _NDK_CONNECTOR structure
@@ -46,38 +48,23 @@ req.typenames: NDK_CONNECTOR
 
 ## -description
 
-
 The <b>NDK_CONNECTOR</b> structure specifies the attributes of an NDK connector object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a> structure for the <b>NDK_CONNECTOR</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeConnector</b>.
 
-
 ### -field Dispatch
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch">NDK_CONNECTOR_DISPATCH</a> structure that defines dispatch functions for the NDK connector object.
 
-
 ## -remarks
-
-
 
 An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector_dispatch">NDK_CONNECTOR_DISPATCH</a> table before returning the created connector object. The provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can set the <b>Dispatch</b> member to some other value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-listeners--connectors--and-endpoints">NDKPI Listeners, Connectors, and Endpoints</a>
 
@@ -104,7 +91,4 @@ An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="htt
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
- 
-
- 
 

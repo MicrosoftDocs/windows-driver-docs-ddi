@@ -8,9 +8,6 @@ ms.assetid: 2435ef20-c75c-4b28-9824-8428b2ac6326
 ms.date: 05/07/2018
 keywords: ["IOCTL_GET_HCD_DRIVERKEY_NAME IOCTL"]
 ms.keywords: IOCTL_GET_HCD_DRIVERKEY_NAME, IOCTL_GET_HCD_DRIVERKEY_NAME control, IOCTL_GET_HCD_DRIVERKEY_NAME control code [Buses], buses.ioctl_get_hcd_driverkey_name, usbioctl/IOCTL_GET_HCD_DRIVERKEY_NAME, usbirp_e5bfae17-3a5d-414d-a24d-6c09269618aa.xml
-f1_keywords:
- - "usbioctl/IOCTL_GET_HCD_DRIVERKEY_NAME"
- - "IOCTL_GET_HCD_DRIVERKEY_NAME"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbioctl.h
-api_name:
-- IOCTL_GET_HCD_DRIVERKEY_NAME
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_GET_HCD_DRIVERKEY_NAME
+ - usbioctl/IOCTL_GET_HCD_DRIVERKEY_NAME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbioctl.h
+api_name:
+ - IOCTL_GET_HCD_DRIVERKEY_NAME
 ---
 
 # IOCTL_GET_HCD_DRIVERKEY_NAME IOCTL
@@ -46,66 +46,39 @@ req.typenames:
 
 ## -description
 
-
-
 The <b>IOCTL_GET_HCD_DRIVERKEY_NAME</b> I/O control request retrieves the driver key name in the registry for a USB host controller driver.
 
 
 
 <b>IOCTL_GET_HCD_DRIVERKEY_NAME</b> is a user-mode I/O control request. This request targets the USB host controller (GUID_DEVINTERFACE_USB_HOST_CONTROLLER).
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member specifies the address of a caller-allocated buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hcd_driverkey_name">USB_HCD_DRIVERKEY_NAME</a> structure. On output, this structure holds the driver key name. For more information, see Remarks.
 
-
 ### -output-buffer-length
 
-The size of this buffer is specified in the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member. 
-
+The size of this buffer is specified in the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member.
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
 The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
-
 ## -remarks
-
-
 
 To get the driver key name in  the registry, you must perform the following tasks: 
 
@@ -223,15 +196,7 @@ GetHCDDriverKeyNameDone:
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hcd_driverkey_name">USB_HCD_DRIVERKEY_NAME</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/CalcPrivateRasterizerStateSize"
- - "CalcPrivateRasterizerStateSize"
+ - PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE
+ - d3d10umddi/PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE callback function
+
 
 ## -description
 

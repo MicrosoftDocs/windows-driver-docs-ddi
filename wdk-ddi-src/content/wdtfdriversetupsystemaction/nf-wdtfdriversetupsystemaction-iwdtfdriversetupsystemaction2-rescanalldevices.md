@@ -55,8 +55,8 @@ Re-enumerates all devices in the system.
 
 
 
-### -param bRet [out, retval]
-
+### -param bRet 
+[out, retval]
 True if all devices were re-enumerated; otherwise, false.
 
 
@@ -64,7 +64,7 @@ True if all devices were re-enumerated; otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

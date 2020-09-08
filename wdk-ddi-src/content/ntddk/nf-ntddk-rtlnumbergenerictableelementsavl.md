@@ -8,9 +8,6 @@ ms.assetid: CC67993A-99B1-41DC-9278-7A475EF87089
 ms.date: 04/16/2018
 keywords: ["RtlNumberGenericTableElementsAvl function"]
 ms.keywords: RtlNumberGenericTableElementsAvl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelementsavl, ntddk/RtlNumberGenericTableElementsAvl
-f1_keywords:
- - "ntddk/RtlNumberGenericTableElementsAvl"
- - "RtlNumberGenericTableElementsAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlNumberGenericTableElementsAvl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlNumberGenericTableElementsAvl
+ - ntddk/RtlNumberGenericTableElementsAvl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlNumberGenericTableElementsAvl
 ---
 
 # RtlNumberGenericTableElementsAvl function
@@ -46,32 +46,20 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlNumberGenericTableElementsAvl</b> routine returns the number of elements in a generic table. 
-
+The <b>RtlNumberGenericTableElementsAvl</b> routine returns the number of elements in a generic table.
 
 ## -parameters
 
+### -param Table 
 
-
-
-### -param Table [in]
-
+[in]
 Pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>). The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>.
-
 
 ## -returns
 
-
-
-<b>RtlNumberGenericTableElementsAvl</b> returns the number of elements that are currently stored in the table. 
-
-
-
+<b>RtlNumberGenericTableElementsAvl</b> returns the number of elements that are currently stored in the table.
 
 ## -remarks
-
-
 
 By default, the operating system uses splay trees to implement generic tables, but the <b>RtlNumberGenericTableElementsAvl</b> routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
 
@@ -83,20 +71,11 @@ Callers of the<i> Rtl..GenericTableAvl</i> routines are responsible for exclusiv
 
 Callers of <b>RtlNumberGenericTableElementsAvl</b> must be running at IRQL < DISPATCH_LEVEL if the caller-allocated memory for the generic table is pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictableavl">RtlInitializeGenericTableAvl</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlisgenerictableemptyavl">RtlIsGenericTableEmptyAvl</a>
- 
-
- 
 

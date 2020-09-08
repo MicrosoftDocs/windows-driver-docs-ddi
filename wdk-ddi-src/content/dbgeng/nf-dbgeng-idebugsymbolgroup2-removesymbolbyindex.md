@@ -8,9 +8,6 @@ ms.assetid: 1903d454-02d1-4528-9b8f-3c2eab8c6a6a
 ms.date: 05/03/2018
 keywords: ["IDebugSymbolGroup2::RemoveSymbolByIndex"]
 ms.keywords: ComOther_d532b37e-11c9-4cff-a619-0b9dffef0af1.xml, IDebugSymbolGroup interface [Windows Debugging],RemoveSymbolByIndex method, IDebugSymbolGroup2 interface [Windows Debugging],RemoveSymbolByIndex method, IDebugSymbolGroup2.RemoveSymbolByIndex, IDebugSymbolGroup2::RemoveSymbolByIndex, IDebugSymbolGroup::RemoveSymbolByIndex, RemoveSymbolByIndex, RemoveSymbolByIndex method [Windows Debugging], RemoveSymbolByIndex method [Windows Debugging],IDebugSymbolGroup interface, RemoveSymbolByIndex method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByIndex, dbgeng/IDebugSymbolGroup::RemoveSymbolByIndex, debugger.removesymbolbyindex
-f1_keywords:
- - "dbgeng/IDebugSymbolGroup.RemoveSymbolByIndex"
- - "IDebugSymbolGroup.RemoveSymbolByIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbolGroup.RemoveSymbolByIndex
-- IDebugSymbolGroup2.RemoveSymbolByIndex
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbolGroup2::RemoveSymbolByIndex
+ - dbgeng/IDebugSymbolGroup2::RemoveSymbolByIndex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbolGroup.RemoveSymbolByIndex
+ - IDebugSymbolGroup2.RemoveSymbolByIndex
 ---
 
 # IDebugSymbolGroup2::RemoveSymbolByIndex
@@ -47,23 +47,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>RemoveSymbolByIndex</b> method removes the specified symbol from a symbol group.
-
 
 ## -parameters
 
+### -param Index 
 
-
-
-### -param Index [in]
-
+[in]
 The index of the symbol to remove. The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
-
 ## -returns
-
-
 
 <b>RemoveSymbolByIndex</b> might return one of the following values:
 
@@ -88,24 +81,13 @@ The method was successful.
 
 This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 When a symbol is removed, the indexes of the symbols that remain in the symbol group might change.  
 
 For more information about symbol groups, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-addsymbol">AddSymbol</a>
 
@@ -124,7 +106,4 @@ For more information about symbol groups, see <a href="https://docs.microsoft.co
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-removesymbolbyname">RemoveSymbolByName</a>
- 
-
- 
 

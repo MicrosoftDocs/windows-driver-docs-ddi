@@ -8,9 +8,6 @@ ms.assetid: 3e26b6ae-15e1-41d5-b00d-3e09c1534413
 ms.date: 05/02/2018
 keywords: ["NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure"]
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1, NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, PNDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V1, netvista.ndis_tcp_large_send_offload_v1, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V1, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V1, tcpip_offload_ref_2a3bb0f8-f05b-462f-984d-774f607ee0da.xml"
-f1_keywords:
- - "ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V1"
- - "NDIS_TCP_LARGE_SEND_OFFLOAD_V1"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddndis.h
-api_name:
-- NDIS_TCP_LARGE_SEND_OFFLOAD_V1
 targetos: Windows
 req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_V1, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V1
+f1_keywords:
+ - _NDIS_TCP_LARGE_SEND_OFFLOAD_V1
+ - ntddndis/_NDIS_TCP_LARGE_SEND_OFFLOAD_V1
+ - PNDIS_TCP_LARGE_SEND_OFFLOAD_V1
+ - ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V1
+ - NDIS_TCP_LARGE_SEND_OFFLOAD_V1
+ - ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_TCP_LARGE_SEND_OFFLOAD_V1
 ---
 
 # _NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure
@@ -46,28 +50,20 @@ req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_V1, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V1
 
 ## -description
 
-
 The NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure provides large send offload version 1 (LSOV1)
   information in the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IPv4
 
 A structure within NDIS_TCP_LARGE_SEND_OFFLOAD_V1 that contains the following members:
-     
-
 
 ### -field IPv4.Encapsulation
 
 Encapsulation settings for IPv4. For more information about this member, see the following
        Remarks section.
-
 
 ### -field IPv4.MaxOffLoadSize
 
@@ -76,7 +72,6 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        than 
        <b>MaxOffLoadSize</b> specifies. If such a packet must be transmitted, the transport itself segments
        the packet into smaller packets.
-
 
 ### -field IPv4.MinSegmentCount
 
@@ -87,13 +82,11 @@ The minimum number of segments that a large TCP packet must be divisible by befo
        minimum-segment requirement, the TCP/IP transport itself segments the packet into smaller
        packets.
 
-
 ### -field IPv4.TcpOptions
 
 A ULONG value that a miniport driver sets to indicate that the miniport driver can segment a
        large TCP packet whose TCP header contains TCP options or to indicate that this capability is enabled
        or disabled. The TCP/IP transport sets this value to enable or disable this capability.
-
 
 ### -field IPv4.IpOptions
 
@@ -101,10 +94,7 @@ A ULONG value that a miniport driver sets to indicate that a miniport adapter ca
        large TCP packet whose IP header contains IP options or to indicate that this capability is enabled or
        disabled.
 
-
 ## -remarks
-
-
 
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V1</b> structure is used in the 
     <b>LsoV1</b> member of the 
@@ -187,11 +177,7 @@ The miniport adapter does not support the feature that the member specifies.
 NDIS_OFFLOAD_SUPPORTED  
 The miniport adapter supports the feature that the member specifies
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
@@ -229,7 +215,4 @@ The miniport adapter supports the feature that the member specifies
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
- 
-
- 
 

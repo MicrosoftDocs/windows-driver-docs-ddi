@@ -8,9 +8,6 @@ ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
 ms.date: 05/03/2018
 keywords: ["IDebugControl4::GetEventIndexDescriptionWide"]
 ms.keywords: GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], GetEventIndexDescriptionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventIndexDescriptionWide method, IDebugControl4.GetEventIndexDescriptionWide, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide
-f1_keywords:
- - "dbgeng/IDebugControl4.GetEventIndexDescriptionWide"
- - "IDebugControl4.GetEventIndexDescriptionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl4.GetEventIndexDescriptionWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl4::GetEventIndexDescriptionWide
+ - dbgeng/IDebugControl4::GetEventIndexDescriptionWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl4.GetEventIndexDescriptionWide
 ---
 
 # IDebugControl4::GetEventIndexDescriptionWide
@@ -46,43 +46,36 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetEventIndexDescriptionWide</b> method describes the specified event in a static list of events for the current target.
-
 
 ## -parameters
 
+### -param Index 
 
-
-
-### -param Index [in]
-
+[in]
 Specifies the index of the event whose description will be returned.
 
+### -param Which 
 
-### -param Which [in]
-
+[in]
 Specifies which piece of the event description to return.  Currently only DEBUG_EINDEX_NAME is supported; this returns the name of the event.
 
+### -param Buffer 
 
-### -param Buffer [in, optional]
-
+[in, optional]
 Receives the description of the event.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size, in characters, of the <i>Buffer </i>buffer.
 
+### -param DescSize 
 
-### -param DescSize [out, optional]
-
+[out, optional]
 Receives the size, in characters, of the description.  If <i>DescSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -103,24 +96,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The amount of descriptive information available for a particular target varies depending on the type of the target.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getcurrenteventindex">GetCurrentEventIndex</a>
 
@@ -131,7 +112,4 @@ The amount of descriptive information available for a particular target varies d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
- 
-
- 
 

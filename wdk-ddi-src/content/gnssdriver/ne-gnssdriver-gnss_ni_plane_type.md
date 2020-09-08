@@ -8,9 +8,6 @@ ms.assetid: F06FFABA-D7AB-4301-9F73-CE4BBB0B8AA6
 ms.date: 02/15/2018
 keywords: ["GNSS_NI_PLANE_TYPE enumeration"]
 ms.keywords: GNSS_NI_CP, GNSS_NI_PLANE_TYPE, GNSS_NI_PLANE_TYPE enumeration [Sensor Devices], GNSS_NI_SUPL, GNSS_NI_V2UPL, gnss.gnss_ni_plane_type, gnssdriver/GNSS_NI_CP, gnssdriver/GNSS_NI_PLANE_TYPE, gnssdriver/GNSS_NI_SUPL, gnssdriver/GNSS_NI_V2UPL
-f1_keywords:
- - "gnssdriver/GNSS_NI_PLANE_TYPE"
- - "GNSS_NI_PLANE_TYPE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_NI_PLANE_TYPE
 targetos: Windows
 req.typenames: GNSS_NI_PLANE_TYPE
+f1_keywords:
+ - GNSS_NI_PLANE_TYPE
+ - gnssdriver/GNSS_NI_PLANE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_NI_PLANE_TYPE
 ---
 
 # GNSS_NI_PLANE_TYPE enumeration
@@ -46,24 +46,17 @@ req.typenames: GNSS_NI_PLANE_TYPE
 
 ## -description
 
-
 This enumeration indicates the plane type of a network initiated (NI) request represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_ni_request_param">GNSS_NI_REQUEST_PARAM</a> structure.
 
-
 ## -enum-fields
-
-
-
 
 ### -field GNSS_NI_SUPL
 
 Indicates the plane type of the request is SUPL.
 
-
 ### -field GNSS_NI_CP
 
 Indicates the plane type of the request is CP.
-
 
 ### -field GNSS_NI_V2UPL
 

@@ -8,9 +8,6 @@ ms.assetid: D9C7BB96-1E26-4D89-9CBE-074232FD0752
 ms.date: 04/30/2018
 keywords: ["SYSENV_VARIABLE_INFO structure"]
 ms.keywords: "*PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO structure [Kernel-Mode Driver Architecture], _SYSENV_VARIABLE_INFO, kernel.sysenv_variable_info, ntddsysenv/PSYSENV_VARIABLE_INFO, ntddsysenv/SYSENV_VARIABLE_INFO"
-f1_keywords:
- - "ntddsysenv/SYSENV_VARIABLE_INFO"
- - "SYSENV_VARIABLE_INFO"
 req.header: ntddsysenv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddsysenv.h
-api_name:
-- SYSENV_VARIABLE_INFO
 targetos: Windows
 req.typenames: SYSENV_VARIABLE_INFO, *PSYSENV_VARIABLE_INFO
+f1_keywords:
+ - _SYSENV_VARIABLE_INFO
+ - ntddsysenv/_SYSENV_VARIABLE_INFO
+ - PSYSENV_VARIABLE_INFO
+ - ntddsysenv/PSYSENV_VARIABLE_INFO
+ - SYSENV_VARIABLE_INFO
+ - ntddsysenv/SYSENV_VARIABLE_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddsysenv.h
+api_name:
+ - SYSENV_VARIABLE_INFO
 ---
 
 # _SYSENV_VARIABLE_INFO structure
@@ -46,38 +50,24 @@ req.typenames: SYSENV_VARIABLE_INFO, *PSYSENV_VARIABLE_INFO
 
 ## -description
 
-
 Stores the information about a system environment variable using
     SysEnv device. This structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_query_variable_info">IOCTL_SYSENV_QUERY_VARIABLE_INFO</a> request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MaximumVariableStorageSize
 
 The size of the variable.
 
-
 ### -field RemainingVariableStorageSize
 
 The remaining size of the variable.
-
 
 ### -field MaximumVariableSize
 
 The maximum size of the variable.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_query_variable_info">IOCTL_SYSENV_QUERY_VARIABLE_INFO</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 7348d937-6541-47a7-ae70-7d851d41bc1a
 ms.date: 05/02/2018
 keywords: ["FwpsAcquireClassifyHandle0 function"]
 ms.keywords: FwpsAcquireClassifyHandle0, FwpsAcquireClassifyHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireClassifyHandle0, netvista.fwpsacquireclassifyhandle0, wfp_ref_2_funct_3_fwps_A-B_c0b568dd-f546-4bab-a012-14f4d2a8d846.xml
-f1_keywords:
- - "fwpsk/FwpsAcquireClassifyHandle0"
- - "FwpsAcquireClassifyHandle0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAcquireClassifyHandle0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAcquireClassifyHandle0
+ - fwpsk/FwpsAcquireClassifyHandle0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAcquireClassifyHandle0
 ---
 
 # FwpsAcquireClassifyHandle0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsAcquireClassifyHandle0</b> function generates a classification handle that is used to identify
@@ -55,32 +54,27 @@ The
 
 ## -parameters
 
+### -param classifyContext 
 
-
-
-### -param classifyContext [in]
-
+[in]
 The 
      <i>classifyContext</i> parameter from 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn1">classifyFn1</a>. The WFP engine passes this
      value to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 Reserved for future use. Set to 0.
 
+### -param classifyHandle 
 
-### -param classifyHandle [out]
-
+[out]
 A pointer to a variable that receives a classification handle. This handle is needed by subsequent
      function calls as noted in Remarks.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAcquireClassifyHandle0</b> function returns one of the following NTSTATUS codes.
@@ -114,14 +108,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FwpsAcquireClassifyHandle0</b> is a support function for asynchronous classification and data
     modification. The handle returned by this function is required as a parameter for the following
@@ -165,13 +153,7 @@ For each call to this function, the callout driver must call
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a> to
     free the system resources associated with the handle.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteclassify0">FwpsCompleteClassify0</a>
 
@@ -190,7 +172,4 @@ For each call to this function, the callout driver must call
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_classify_fn1">classifyFn1</a>
- 
-
- 
 

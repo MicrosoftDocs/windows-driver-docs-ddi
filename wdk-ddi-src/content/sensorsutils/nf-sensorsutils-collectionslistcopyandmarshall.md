@@ -5,40 +5,38 @@ description: This routine copies and marshalls a collection list from source to 
 ms.assetid: 63abf500-d6c8-428c-b359-2041ee49091c
 ms.date: 08/07/2018
 keywords: ["CollectionsListCopyAndMarshall function"]
-f1_keywords:
- - "sensorsutils/CollectionsListCopyAndMarshall"
- - "CollectionsListCopyAndMarshall"
 tech.root: sensors
 ms.keywords: CollectionsListCopyAndMarshall
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- CollectionsListCopyAndMarshall
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - CollectionsListCopyAndMarshall
+ - sensorsutils/CollectionsListCopyAndMarshall
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - CollectionsListCopyAndMarshall
 ---
 
 # CollectionsListCopyAndMarshall function
@@ -68,3 +66,4 @@ This function returns NTSTATUS.
 > This method assumes the structure sizes stay the same during marshalling. Avoid using this method if passing the data between processes that can have different bit-ness values (e.g. 32 bit <-> 64 bit). Use [CollectionsListSerializeToBuffer](nf-sensorsutils-collectionslistserializetobuffer.md) instead.
 
 ## -see-also
+

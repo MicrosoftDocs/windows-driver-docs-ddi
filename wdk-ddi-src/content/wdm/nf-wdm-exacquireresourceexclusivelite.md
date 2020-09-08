@@ -8,9 +8,6 @@ ms.assetid: c7f8a6c5-15d5-4a24-a351-4fa5d6c72fbd
 ms.date: 04/30/2018
 keywords: ["ExAcquireResourceExclusiveLite function"]
 ms.keywords: ExAcquireResourceExclusiveLite, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture], k102_894dbc3c-af92-4916-8205-539062946dbe.xml, kernel.exacquireresourceexclusivelite, wdm/ExAcquireResourceExclusiveLite
-f1_keywords:
- - "wdm/ExAcquireResourceExclusiveLite"
- - "ExAcquireResourceExclusiveLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExAcquireResourceExclusiveLite
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExAcquireResourceExclusiveLite
+ - wdm/ExAcquireResourceExclusiveLite
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExAcquireResourceExclusiveLite
 ---
 
 # ExAcquireResourceExclusiveLite function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExAcquireResourceExclusiveLite</b> routine acquires the given resource for exclusive access by the calling thread.
-
 
 ## -parameters
 
+### -param Resource 
 
-
-
-### -param Resource [in, out]
-
+[in, out]
 A pointer to the resource to acquire.
 
+### -param Wait 
 
-### -param Wait [in]
-
-Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired. 
-
+[in]
+Specifies the routine's behavior whenever the resource cannot be acquired immediately. If <b>TRUE</b>, the caller is put into a wait state until the resource can be acquired. If <b>FALSE</b>, the routine immediately returns, regardless of whether the resource can be acquired.
 
 ## -returns
 
-
-
 <b>ExAcquireResourceExclusiveLite</b> returns <b>TRUE</b> if the resource is acquired. This routine returns <b>FALSE</b> if the input <i>Wait</i> is <b>FALSE</b> and exclusive access cannot be granted immediately.
 
-
-
-
 ## -remarks
-
-
 
 The following list describes whether and when a caller is given exclusive access to a given resource:
 
@@ -104,13 +92,7 @@ The caller can release the resource by calling either <a href="https://docs.micr
 
 Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544363">ExAcquireResourceSharedLite</a>
 
@@ -141,7 +123,4 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
- 
-
- 
 

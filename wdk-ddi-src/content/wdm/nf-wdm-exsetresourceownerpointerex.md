@@ -8,9 +8,6 @@ ms.assetid: 96293fbc-0c3c-4685-8708-dd84fcc2223e
 ms.date: 04/30/2018
 keywords: ["ExSetResourceOwnerPointerEx function"]
 ms.keywords: ExSetResourceOwnerPointerEx, ExSetResourceOwnerPointerEx routine [Kernel-Mode Driver Architecture], k102_2bcc65e9-00e7-4fc5-a1d6-1f797b2c6038.xml, kernel.exsetresourceownerpointerex, wdm/ExSetResourceOwnerPointerEx
-f1_keywords:
- - "wdm/ExSetResourceOwnerPointerEx"
- - "ExSetResourceOwnerPointerEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExSetResourceOwnerPointerEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExSetResourceOwnerPointerEx
+ - wdm/ExSetResourceOwnerPointerEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExSetResourceOwnerPointerEx
 ---
 
 # ExSetResourceOwnerPointerEx function
@@ -46,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
-The <b>ExSetResourceOwnerPointerEx</b> routine transfers the ownership of an executive resource from the calling thread to an owner pointer, which is a system address that identifies the resource owner. 
-
+The <b>ExSetResourceOwnerPointerEx</b> routine transfers the ownership of an executive resource from the calling thread to an owner pointer, which is a system address that identifies the resource owner.
 
 ## -parameters
 
+### -param Resource 
 
+[in, out]
+A pointer to an executive resource (an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE</a> structure) that is owned by the calling thread. The caller previously allocated this structure and initialized it by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a> routine. For more information, see the following Remarks section.
 
+### -param OwnerPointer 
 
-### -param Resource [in, out]
-
-A pointer to an executive resource (an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE</a> structure) that is owned by the calling thread. The caller previously allocated this structure and initialized it by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a> routine. For more information, see the following Remarks section. 
-
-
-### -param OwnerPointer [in]
-
+[in]
 A pointer value that identifies the resource owner. This parameter value is nominally a pointer to a value of type ERESOURCE_THREAD but is cast to type PVOID. The caller must set the two least significant bits of this pointer value to ones. For more information, see the following Remarks section.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 A set of flags that can modify the operation of this routine. Set this parameter either to zero or to the following flag value:
 
 <ul>
@@ -77,10 +73,7 @@ FLAG_OWNER_POINTER_IS_THREAD
 </ul>
 If <i>Flags</i> = FLAG_OWNER_POINTER_IS_THREAD, <i>OwnerPointer</i> must point to a value of type ERESOURCE_THREAD, which is a pointer to an opaque thread object. If <i>Flags</i> = 0, <i>OwnerPointer</i> must point to a storage object in system memory that remains allocated until the resource is released. For more information, see the following Remarks section.
 
-
 ## -remarks
-
-
 
 This routine is available in Windows 7 and later versions of the Windows operating system.
 
@@ -102,13 +95,7 @@ If <i>Flags</i> is zero, the behavior of <b>ExSetResourceOwnerPointerEx</b> is t
 
 For more information about managing executive resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-eresource-routines">Introduction to ERESOURCE Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE</a>
 
@@ -139,7 +126,4 @@ For more information about managing executive resources, see <a href="https://do
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsetresourceownerpointer">ExSetResourceOwnerPointer</a>
- 
-
- 
 

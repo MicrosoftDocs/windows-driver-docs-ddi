@@ -8,9 +8,6 @@ ms.assetid: 1e407bcc-0a2b-42fa-982d-8ab0f12f082b
 ms.date: 04/30/2018
 keywords: ["IO_CSQ_INSERT_IRP_EX callback function"]
 ms.keywords: CsqInsertIrpEx, CsqInsertIrpEx routine [Kernel-Mode Driver Architecture], DrvrRtns_8914d2b4-6049-4d81-8f5f-4458b8bff2ed.xml, IO_CSQ_INSERT_IRP_EX, kernel.csqinsertirpex, wdm/CsqInsertIrpEx
-f1_keywords:
- - "wdm/CsqInsertIrpEx"
- - "CsqInsertIrpEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- CsqInsertIrpEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IO_CSQ_INSERT_IRP_EX
+ - wdm/IO_CSQ_INSERT_IRP_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - CsqInsertIrpEx
 ---
 
 # IO_CSQ_INSERT_IRP_EX callback function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <i>CsqInsertIrpEx</i> routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue.
-
 
 ## -parameters
 
+### -param Csq 
 
-
-
-### -param Csq [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ</a> structure for the cancel-safe IRP queue.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 Pointer to the IRP to insert into the IRP queue.
 
+### -param InsertContext 
 
-### -param InsertContext [in]
-
+[in]
 Pointer to driver-defined context for the insert operation.
-
 
 ## -returns
 
-
-
 <i>CsqInsertIrpEx</i> returns STATUS_SUCCESS if the IRP has been successfully inserted, or the appropriate error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 The driver specifies the <i>CsqInsertIrpEx</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqInsertIrp</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqinitializeex">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/cancel-safe-irp-queues">Cancel-Safe IRP Queues</a>.
 
@@ -129,12 +117,7 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a>
 
@@ -185,7 +168,4 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremovenextirp">IoCsqRemoveNextIrp</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: d29e7b39-5fcf-4543-9363-6f8ac6a9c7dc
 ms.date: 04/23/2018
 keywords: ["IKsDeviceFunctions interface"]
 ms.keywords: IKsDeviceFunctions, IKsDeviceFunctions interface [Streaming Media Devices], IKsDeviceFunctions interface [Streaming Media Devices],described, avintfc_68e124c6-7a91-4c68-8327-e2c83b982699.xml, ks/IKsDeviceFunctions, stream.iksdevicefunctions
-f1_keywords:
- - "ks/IKsDeviceFunctions"
- - "IKsDeviceFunctions"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ks.h
-api_name:
-- IKsDeviceFunctions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsDeviceFunctions
+ - ks/IKsDeviceFunctions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ks.h
+api_name:
+ - IKsDeviceFunctions
 ---
 
 # IKsDeviceFunctions interface
+
 
 ## -description
 
 The **IKsDeviceFunctions** interface is a COM-style interface implemented on AVStream devices.
 
 ## -inheritance
+

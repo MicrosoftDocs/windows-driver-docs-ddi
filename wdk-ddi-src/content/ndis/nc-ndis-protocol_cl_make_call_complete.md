@@ -8,9 +8,6 @@ ms.assetid: 6bb69f78-8dab-46a7-84fb-7bc17e894535
 ms.date: 05/02/2018
 keywords: ["PROTOCOL_CL_MAKE_CALL_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_MAKE_CALL_COMPLETE, PROTOCOL_CL_MAKE_CALL_COMPLETE callback, ProtocolClMakeCallComplete, ProtocolClMakeCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_1c839b17-947a-44cb-85d1-d6246b82a827.xml, ndis/ProtocolClMakeCallComplete, netvista.protocolclmakecallcomplete
-f1_keywords:
- - "ndis/ProtocolClMakeCallComplete"
- - "ProtocolClMakeCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- ProtocolClMakeCallComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PROTOCOL_CL_MAKE_CALL_COMPLETE
+ - ndis/PROTOCOL_CL_MAKE_CALL_COMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - ProtocolClMakeCallComplete
 ---
 
 # PROTOCOL_CL_MAKE_CALL_COMPLETE callback function
 
 
 ## -description
-
 
 The 
   <i>ProtocolClMakeCallComplete</i> function is used by connection-oriented NDIS clients that make outgoing
@@ -59,11 +58,9 @@ The
 
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 Specifies the final status of the client's original call to 
      <b>NdisClMakeCall</b>, which can be one of the following:
      
@@ -95,16 +92,16 @@ NDIS, the call manager, or an underlying driver could not allocate sufficient re
 The call manager or underlying miniport driver failed to establish an active connection and NDIS
        propagated this driver-determined failure status to the client.
 
+### -param ProtocolVcContext 
 
-### -param ProtocolVcContext [in]
-
+[in]
 Specifies the handle to the client's per-VC context area, which the client originally supplied to
      NDIS when it called 
      <b>NdisCoCreateVc</b> to set up the VC for its outgoing call.
 
+### -param NdisPartyHandle 
 
-### -param NdisPartyHandle [in, optional]
-
+[in, optional]
 If 
      <i>Status</i> is NDIS_STATUS_SUCCESS and the client created a multipoint VC by passing an explicit 
      <i>ProtocolPartyContext</i> handle to 
@@ -119,18 +116,15 @@ If
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a> that refers to this
      party.
 
+### -param CallParameters 
 
-### -param CallParameters [in]
-
+[in]
 Pointer to a buffered CO_CALL_PARAMETERS structure. The client allocated this buffer and
      initialized this structure with client-determined data before passing this pointer to 
      <b>NdisClMakeCall</b>. While processing the client's request, the call manager can modify this data to
      reflect the results of its negotiation with the network or with a signaling peer.
 
-
 ## -remarks
-
-
 
 A call to 
     <i>ProtocolClMakeCallComplete</i> indicates that the call manager has completed processing the client's
@@ -236,15 +230,9 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CL_MAKE_CALL_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_MAKE_CALL_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -292,7 +280,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_make_call">ProtocolCmMakeCall</a>
- 
-
- 
 

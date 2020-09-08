@@ -8,9 +8,6 @@ ms.assetid: 398f50ad-4c58-4585-8fb8-c523b74793e9
 ms.date: 05/07/2018
 keywords: ["URB_BULK_OR_INTERRUPT_TRANSFER structure"]
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_BULK_OR_INTERRUPT_TRANSFER, _URB_BULK_OR_INTERRUPT_TRANSFER structure [Buses], buses._urb_bulk_or_interrupt_transfer, usb/_URB_BULK_OR_INTERRUPT_TRANSFER, usbstrct_3d3da976-5136-4648-850e-c0e3fe0999d8.xml
-f1_keywords:
- - "usb/_URB_BULK_OR_INTERRUPT_TRANSFER"
- - "_URB_BULK_OR_INTERRUPT_TRANSFER"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usb.h
-api_name:
-- _URB_BULK_OR_INTERRUPT_TRANSFER
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - _URB_BULK_OR_INTERRUPT_TRANSFER
+ - usb/_URB_BULK_OR_INTERRUPT_TRANSFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usb.h
+api_name:
+ - _URB_BULK_OR_INTERRUPT_TRANSFER
 ---
 
 # _URB_BULK_OR_INTERRUPT_TRANSFER structure
@@ -46,27 +46,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>_URB_BULK_OR_INTERRUPT_TRANSFER</b> structure is used by USB client drivers to send or receive data on a bulk pipe or on an interrupt pipe.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Hdr
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_header">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, and <b>Hdr.Length</b> must be set to <code>sizeof(_URB_BULK_OR_INTERRUPT_TRANSFER)</code>.
 
-
 ### -field PipeHandle
 
-Specifies an opaque handle to the bulk or interrupt pipe. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.  
-
+Specifies an opaque handle to the bulk or interrupt pipe. The host controller driver returns this handle when the client driver selects the device configuration with a URB of type URB_FUNCTION_SELECT_CONFIGURATION or when the client driver changes the settings for an interface with a URB of type URB_FUNCTION_SELECT_INTERFACE.
 
 ### -field TransferFlags
-
 
 Specifies zero, one, or a combination of the following flags:
 
@@ -114,37 +106,28 @@ This flag should not be set unless USBD_TRANSFER_DIRECTION_IN is also set. <b>No
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TransferBufferLength
 
 Specifies the length, in bytes, of the buffer specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL</b>. The host controller driver returns the number of bytes sent to or read from the pipe in this member.
 
-
 ### -field TransferBuffer
 
 Pointer to a resident buffer for the transfer or is <b>NULL</b> if an MDL is supplied in <b>TransferBufferMDL</b>. The contents of this buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified this buffer will contain data read from the device on return from the host controller driver. Otherwise, this buffer contains driver-supplied data for transfer to the device.
-
 
 ### -field TransferBufferMDL
 
 Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer is supplied in <b>TransferBuffer</b>. The contents of the buffer depend on the value of <b>TransferFlags</b>. If USBD_TRANSFER_DIRECTION_IN is specified, the described buffer will contain data read from the device on return from the host controller driver. Otherwise, the buffer contains driver-supplied data for transfer to the device. This MDL must be allocated from nonpaged pool.
 
-
 ### -field UrbLink
 
 Reserved. Do not use.
-
 
 ### -field hca
 
 Reserved. Do not use.
 
-
 ## -remarks
-
-
 
 Drivers can use the <b>UsbBuildInterruptOrBulkTransferRequest</b> service routine to format this URB. Buffers specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL </b>must be nonpageable. 
 
@@ -154,13 +137,7 @@ The USB bus driver processes this URB at DISPATCH_LEVEL.
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>
 
@@ -171,7 +148,4 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_header">_URB_HEADER</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
 ms.date: 04/20/2018
 keywords: ["OEMGetInfo function"]
 ms.keywords: OEMGetInfo, OEMGetInfo function [Print Devices], print.oemgetinfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, printoem/OEMGetInfo
-f1_keywords:
- - "printoem/OEMGetInfo"
- - "OEMGetInfo"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- printoem.h
-api_name:
-- OEMGetInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMGetInfo
+ - printoem/OEMGetInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - printoem.h
+api_name:
+ - OEMGetInfo
 ---
 
 # OEMGetInfo function
@@ -46,22 +46,17 @@ req.typenames:
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwMode
 
+### -param pBuffer 
 
-### -param pBuffer [out]
-
+[out]
 
 ### -param cbSize
 
+### -param pcbNeeded 
 
-### -param pcbNeeded [out]
+[out]
 

@@ -55,8 +55,8 @@ Sets the pre-imported driver package path.
 
 
 
-### -param pDriverPackageInfFileName [in]
-
+### -param pDriverPackageInfFileName 
+[in]
 The driver package path.
 
 
@@ -64,7 +64,7 @@ The driver package path.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

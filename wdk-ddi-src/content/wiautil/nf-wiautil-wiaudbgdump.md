@@ -8,9 +8,6 @@ ms.assetid: 5df074ff-572d-47f7-9c5c-4423b200cddc
 ms.date: 05/03/2018
 keywords: ["wiauDbgDump function"]
 ms.keywords: image.wiaudbgdump, wiauDbgDump, wiauDbgDump function [Imaging Devices], wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiautil/wiauDbgDump
-f1_keywords:
- - "wiautil/wiauDbgDump"
- - "wiauDbgDump"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wiautil.h
-api_name:
-- wiauDbgDump
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauDbgDump
+ - wiautil/wiauDbgDump
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wiautil.h
+api_name:
+ - wiauDbgDump
 ---
 
 # wiauDbgDump function
+
 
 ## -description
 
@@ -80,3 +81,4 @@ This example, which would be placed in a function named *SetBuffer*, causes the 
 [wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace)
 
 [wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning)
+

@@ -8,9 +8,6 @@ ms.assetid: 71e4be0a-a5a6-469a-948b-bc5277bc8cbe
 ms.date: 04/23/2018
 keywords: ["IKsInterfaceHandler::KsSetPin"]
 ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsSetPin method, IKsInterfaceHandler.KsSetPin, IKsInterfaceHandler::KsSetPin, KsSetPin, KsSetPin method [Streaming Media Devices], KsSetPin method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsSetPin, ksproxy_3746aba4-11e3-45a5-8495-eda1cad5bf9b.xml, stream.iksinterfacehandler_kssetpin
-f1_keywords:
- - "ksproxy/IKsInterfaceHandler.KsSetPin"
- - "IKsInterfaceHandler.KsSetPin"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ksproxy.h
-api_name:
-- IKsInterfaceHandler.KsSetPin
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IKsInterfaceHandler::KsSetPin
+ - ksproxy/IKsInterfaceHandler::KsSetPin
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ksproxy.h
+api_name:
+ - IKsInterfaceHandler.KsSetPin
 ---
 
 # IKsInterfaceHandler::KsSetPin
@@ -46,49 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>KsSetPin</b> method informs the streaming interface handler about the pin with which to communicate when passing data.
-
 
 ## -parameters
 
+### -param KsPin 
 
-
-
-### -param KsPin [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a> interface for the pin to which this streaming interface handler is to be attached. This pin must support the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a> interface from which the underlying kernel handle can be obtained.
-
 
 ## -returns
 
-
-
 Returns NOERROR if successful; otherwise, returns an error code.
-
-
-
 
 ## -remarks
 
-
-
 The <b>KsSetPin</b> method is called after an instance of the interface handler is created but before any streaming is required of the instance.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
- 
-
- 
 

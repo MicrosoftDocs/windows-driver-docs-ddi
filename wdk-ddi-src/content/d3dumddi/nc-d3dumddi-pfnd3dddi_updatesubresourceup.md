@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnUpdateSubresourceUP"
- - "pfnUpdateSubresourceUP"
+ - PFND3DDDI_UPDATESUBRESOURCEUP
+ - d3dumddi/PFND3DDDI_UPDATESUBRESOURCEUP
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_UPDATESUBRESOURCEUP callback function
+
 
 ## -description
 

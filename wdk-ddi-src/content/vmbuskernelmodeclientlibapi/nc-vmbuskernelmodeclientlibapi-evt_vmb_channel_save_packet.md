@@ -8,9 +8,6 @@ ms.assetid: 92CC3C36-D10C-4C6B-8BB4-476E72AD684C
 ms.date: 05/02/2018
 keywords: ["EVT_VMB_CHANNEL_SAVE_PACKET callback function"]
 ms.keywords: EVT_VMB_CHANNEL_SAVE_PACKET, EVT_VMB_CHANNEL_SAVE_PACKET callback, EvtVmbChannelSavePacket, EvtVmbChannelSavePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_SAVE_PACKET, PFN_VMB_CHANNEL_SAVE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_save_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelSavePacket
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_SAVE_PACKET"
- - "PFN_VMB_CHANNEL_SAVE_PACKET"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- VmbusKernelModeClientLibApi.h
-api_name:
-- PFN_VMB_CHANNEL_SAVE_PACKET
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_VMB_CHANNEL_SAVE_PACKET
+ - vmbuskernelmodeclientlibapi/EVT_VMB_CHANNEL_SAVE_PACKET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - VmbusKernelModeClientLibApi.h
+api_name:
+ - PFN_VMB_CHANNEL_SAVE_PACKET
 ---
 
 # EVT_VMB_CHANNEL_SAVE_PACKET callback function
@@ -46,58 +46,42 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <i>EvtVmbChannelSavePacket</i> callback function is invoked when the virtualization service provider (VSP) endpoint must save the state associated with a packet.  
-
+The <i>EvtVmbChannelSavePacket</i> callback function is invoked when the virtualization service provider (VSP) endpoint must save the state associated with a packet.
 
 ## -parameters
 
+### -param Channel 
 
-
-
-### -param Channel [in]
-
+[in]
 The channel on which the packet arrives.
 
+### -param Packet 
 
-### -param Packet [in]
-
+[in]
 The packet for which VSP saves state.
 
+### -param SaveBuf 
 
-### -param SaveBuf [out]
-
+[out]
 The buffer into which to save the state.
 
+### -param SaveBufSize 
 
-
-### -param SaveBufSize [in]
-
+[in]
 Size of the <i>SaveBuf</i> parameter, in bytes.
 
+### -param BytesNeeded 
 
-
-
-### -param BytesNeeded [out]
-
+[out]
 Size necessary to save the state of the transaction, in bytes.
-
-
 
 ## -returns
 
-
-
 <i>EvtVmbChannelSavePacket</i> returns a status code.
 
-
-
-
 ## -remarks
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks">VmbServerChannelInitSetSaveRestorePacketCallbacks</a> function sets a callback function for saving packets for each channel.
 
@@ -108,16 +92,7 @@ This function is invoked for each packet object that is currently in use.  The f
 returns a failure code, the KMCL calls a second time with a buffer of at least
 the length stipulated in the first call.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
- 
-
- 
 

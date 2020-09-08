@@ -8,9 +8,6 @@ ms.assetid: fe135118-1992-43c7-8492-81f9febd79b9
 ms.date: 04/30/2018
 keywords: ["IoWMIRegistrationControl function"]
 ms.keywords: IoWMIRegistrationControl, IoWMIRegistrationControl routine [Kernel-Mode Driver Architecture], k104_69efd10b-fb1a-4d66-939d-6ade4185605d.xml, kernel.iowmiregistrationcontrol, wdm/IoWMIRegistrationControl
-f1_keywords:
- - "wdm/IoWMIRegistrationControl"
- - "IoWMIRegistrationControl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoWMIRegistrationControl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoWMIRegistrationControl
+ - wdm/IoWMIRegistrationControl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoWMIRegistrationControl
 ---
 
 # IoWMIRegistrationControl function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoWMIRegistrationControl</b> routine registers or unregisters the caller as a WMI data provider for a specified device object.
-
 
 ## -parameters
 
+### -param DeviceObject 
 
-
-
-### -param DeviceObject [in]
-
+[in]
 A pointer to a device object. This object is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> system structure.
 
+### -param Action 
 
-### -param Action [in]
-
+[in]
 The action that WMI should take. The requested action is indicated by one of the following values.
 
 <table>
@@ -110,12 +106,8 @@ Specifies that WMI should re-query the driver for a new list of GUID identifiers
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>IoWMIRegistrationControl</b> returns a status code from the following list:
 
@@ -158,14 +150,8 @@ Indicates that the request failed for the reason specified by the NTSTATUS value
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After a driver calls <b>IoWMIRegistrationControl</b>, WMI sends the driver an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-reginfo">IRP_MN_REGINFO</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-reginfo-ex">IRP_MN_REGINFO_EX</a> request so the driver can provide information to WMI. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/registering-as-a-wmi-data-provider">Registering as a WMI Data Provider</a>.
 
@@ -173,13 +159,7 @@ If the caller specifies WMIREG_ACTION_DEREGISTER for <i>Action</i>, <b>IoWMIRegi
 
 If a device is removed suddenly (for example, in a surprise removal), causing the PnP manager to send an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a> IRP, the driver must call <b>IoWMIRegistrationControl</b> and specify WMIREG_ACTION_DEREGISTER in <i>Action</i> in the call. Note that if the driver calls <b>IoWMIRegistrationControl</b> with <i>Action</i> set to WMIREG_ACTION_DEREGISTER in response to an <b>IRP_MN_SURPRISE_REMOVAL</b> IRP, the driver must not make the same call to <b>IoWMIRegistrationControl</b> in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> IRP.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-reginfo">IRP_MN_REGINFO</a>
 
@@ -194,7 +174,4 @@ If a device is removed suddenly (for example, in a surprise removal), causing th
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>
- 
-
- 
 

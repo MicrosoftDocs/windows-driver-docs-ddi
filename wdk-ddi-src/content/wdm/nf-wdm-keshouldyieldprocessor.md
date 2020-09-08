@@ -34,13 +34,14 @@ api_location:
 api_name:
  - KeShouldYieldProcessor
 f1_keywords:
- - wdm//KeShouldYieldProcessor
  - KeShouldYieldProcessor
+ - wdm/KeShouldYieldProcessor
 dev_langs:
  - c++
 ---
 
 # KeShouldYieldProcessor function
+
 
 ## -description
 

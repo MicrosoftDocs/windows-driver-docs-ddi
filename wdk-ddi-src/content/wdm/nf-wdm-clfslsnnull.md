@@ -8,9 +8,6 @@ ms.assetid: 858fb84a-8df8-4748-ab09-3f7c4aca905c
 ms.date: 04/30/2018
 keywords: ["ClfsLsnNull function"]
 ms.keywords: ClfsLsnNull, ClfsLsnNull routine [Kernel-Mode Driver Architecture], Clfs_26a9c0db-2336-4151-9de0-81a58ed9e2f0.xml, kernel.clfslsnnull, wdm/ClfsLsnNull
-f1_keywords:
- - "wdm/ClfsLsnNull"
- - "ClfsLsnNull"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsLsnNull
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsLsnNull
+ - wdm/ClfsLsnNull
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsLsnNull
 ---
 
 # ClfsLsnNull function
@@ -47,42 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsLsnNull</b> routine determines whether a specified LSN is equal to the smallest possible LSN, CLFS_LSN_NULL.
-
 
 ## -parameters
 
+### -param plsn 
 
-
-
-### -param plsn [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the LSN to be tested.
-
 
 ## -returns
 
-
-
 <b>ClfsLsnNull</b> returns <b>TRUE</b> if the LSN supplied by the caller is equal to CLFS_LSN_NULL; otherwise, it returns <b>FALSE</b>.
-
-
-
 
 ## -remarks
 
-
-
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>. 
-
-
-
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnequal">ClfsLsnEqual</a>
 
@@ -93,7 +75,4 @@ For an explanation of CLFS concepts and terminology, see <a href="https://docs.m
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnless">ClfsLsnLess</a>
- 
-
- 
 

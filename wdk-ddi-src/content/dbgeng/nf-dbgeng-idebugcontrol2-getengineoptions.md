@@ -8,9 +8,6 @@ ms.assetid: a64645da-e11a-4568-9865-64eb7463892c
 ms.date: 05/03/2018
 keywords: ["IDebugControl2::GetEngineOptions"]
 ms.keywords: GetEngineOptions, GetEngineOptions method [Windows Debugging], GetEngineOptions method [Windows Debugging],IDebugControl interface, GetEngineOptions method [Windows Debugging],IDebugControl2 interface, GetEngineOptions method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEngineOptions method, IDebugControl2 interface [Windows Debugging],GetEngineOptions method, IDebugControl2.GetEngineOptions, IDebugControl2::GetEngineOptions, IDebugControl3 interface [Windows Debugging],GetEngineOptions method, IDebugControl3::GetEngineOptions, IDebugControl::GetEngineOptions, IDebugControl_75edd4f2-c81d-408d-a61a-3c2fcf5932e6.xml, dbgeng/IDebugControl2::GetEngineOptions, dbgeng/IDebugControl3::GetEngineOptions, dbgeng/IDebugControl::GetEngineOptions, debugger.getengineoptions
-f1_keywords:
- - "dbgeng/IDebugControl.GetEngineOptions"
- - "IDebugControl.GetEngineOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl.GetEngineOptions
-- IDebugControl2.GetEngineOptions
-- IDebugControl3.GetEngineOptions
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl2::GetEngineOptions
+ - dbgeng/IDebugControl2::GetEngineOptions
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl.GetEngineOptions
+ - IDebugControl2.GetEngineOptions
+ - IDebugControl3.GetEngineOptions
 ---
 
 # IDebugControl2::GetEngineOptions
@@ -48,23 +48,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetEngineOptions</b> method returns the engine's options.
-
 
 ## -parameters
 
+### -param Options 
 
-
-
-### -param Options [out]
-
+[out]
 Receives a bit-set that contains the engine's options. For a description of the engine options, see <a href="https://docs.microsoft.com/previous-versions/ff541475(v=vs.85)">DEBUG_ENGOPT_XXX</a>.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -85,15 +78,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addengineoptions">AddEngineOptions</a>
 
@@ -116,7 +102,4 @@ The method was successful.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setengineoptions">SetEngineOptions</a>
- 
-
- 
 

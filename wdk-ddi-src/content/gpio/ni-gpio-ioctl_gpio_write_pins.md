@@ -8,9 +8,6 @@ ms.assetid: 579462C6-2C0B-41AC-836D-2D3448080AD8
 ms.date: 02/15/2018
 keywords: ["IOCTL_GPIO_WRITE_PINS IOCTL"]
 ms.keywords: GPIO.ioctl_gpio_write_pins, IOCTL_GPIO_WRITE_PINS, IOCTL_GPIO_WRITE_PINS control, IOCTL_GPIO_WRITE_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_WRITE_PINS
-f1_keywords:
- - "gpio/IOCTL_GPIO_WRITE_PINS"
- - "IOCTL_GPIO_WRITE_PINS"
 req.header: gpio.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gpio.h
-api_name:
-- IOCTL_GPIO_WRITE_PINS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_GPIO_WRITE_PINS
+ - gpio/IOCTL_GPIO_WRITE_PINS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gpio.h
+api_name:
+ - IOCTL_GPIO_WRITE_PINS
 ---
 
 # IOCTL_GPIO_WRITE_PINS IOCTL
@@ -46,52 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_GPIO_WRITE_PINS</b> I/O control code enables a client of the general-purpose I/O (GPIO) controller to write to a set of GPIO pins that are configured as outputs. Typically, the clients of a GPIO controller are drivers for peripheral devices that connect to GPIO pins.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The input buffer.
 
-
 ### -input-buffer-length
 
 The input buffer should be large enough to contain data for all of the GPIO pins that are part of the target connection to which the client sends the request. For example, if the GPIO controller hardware implements 64 GPIO pins, and the client opens a connection to three of these GPIO pins, a one-byte buffer is sufficiently large to contain the three 1-bit values to write to the three pins in the connection.
-
 
 ### -output-buffer
 
 The output buffer contains the same data as the input buffer (because the <i>TransferType</i> for this IOCTL is METHOD_BUFFERED).
 
-
 ### -output-buffer-length
 
 Same as the input buffer.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
@@ -101,10 +78,7 @@ If this request fails, the <b>Status</b> member is set to an error code and no d
 
 If the input buffer is not large enough to contain one bit of data for each GPIO pin in the target connection, the <b>Status</b> member is set to STATUS_BUFFER_TOO_SMALL. If the GPIO pins in the target connection are configured as inputs, the <b>Status</b> member is set to STATUS_GPIO_OPERATION_DENIED.
 
-
 ## -remarks
-
-
 
 This request writes to all of the GPIO pins that are part of the target connection to which the client sends the request. For example, if the connection has three pins, bits 0, 1, and 2 from the input buffer are written to these three pins. The three pins in this example connection might map to GPIO pins 7, 8, and 23 in the GPIO controller hardware. If so, bit 0 (the least significant bit) in the buffer is written to GPIO pin 7, bit 1 in the buffer is written to GPIO pin 8, and bit 2 in the buffer is written to GPIO pin 23.
 
@@ -116,13 +90,7 @@ For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/connecting-a-kmdf-driver-to-gpio-i-o-pins">Connecting a KMDF Driver to GPIO I/O Pins</a>
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
 
@@ -133,7 +101,4 @@ For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>
- 
-
- 
 

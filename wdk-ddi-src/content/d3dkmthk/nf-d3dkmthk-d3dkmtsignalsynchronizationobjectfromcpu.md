@@ -7,9 +7,6 @@ ms.assetid: 23DC5EB1-E606-499D-B78A-AFF95E6B00A3
 ms.date: 05/10/2018
 keywords: ["D3DKMTSignalSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu
-f1_keywords:
- - "d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu"
- - "D3DKMTSignalSynchronizationObjectFromCpu"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,20 +24,23 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- D3DKMTSignalSynchronizationObjectFromCpu
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTSignalSynchronizationObjectFromCpu
+ - d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - D3DKMTSignalSynchronizationObjectFromCpu
 ---
 
 # D3DKMTSignalSynchronizationObjectFromCpu function
@@ -76,3 +76,4 @@ However, the caller cannot assume that the signal operation will be completed up
 
 > ![NOTE] 
 > A signal from a graphics processing unit (GPU) call is not provided. Instead, a driver can signal a new fence value by inserting a GPU write command for <b>FenceValueGPUVirtualAddress</b> into a command buffer.
+

@@ -8,9 +8,6 @@ ms.assetid: 9CF6C8FC-869A-4667-9859-845BFF093549
 ms.date: 02/23/2018
 keywords: ["SeEtwWriteKMCveEvent function"]
 ms.keywords: SeEtwWriteKMCveEvent, SeEtwWriteKMCveEvent function [Display Devices], devtest.seetwwritekmcveevent, wdm/SeEtwWriteKMCveEvent
-f1_keywords:
- - "wdm/SeEtwWriteKMCveEvent"
- - "SeEtwWriteKMCveEvent"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntoskrnl.exe
-api_name:
-- SeEtwWriteKMCveEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeEtwWriteKMCveEvent
+ - wdm/SeEtwWriteKMCveEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntoskrnl.exe
+api_name:
+ - SeEtwWriteKMCveEvent
 ---
 
 # SeEtwWriteKMCveEvent function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
-The <b> 	SeEtwWriteKMCveEvent</b> function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.   
-
+The <b> 	SeEtwWriteKMCveEvent</b> function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.
 
 ## -parameters
 
+### -param CveId 
 
-
-
-### -param CveId [in]
-
+[in]
 A pointer to a string mentioning the CVE-ID associated with the vulnerability for which this event is being raised. Technical guidance for handling the CVE-ID is shared <a href="ttp://go.microsoft.com/fwlink/?LinkId=798519">here</a>
 
+### -param AdditionalDetails 
 
-### -param AdditionalDetails [in, optional]
-
+[in, optional]
 A pointer to a string giving additional details that the event producer may want to provide to the consumer of this event.
 
-
 ## -returns
-
-
 
 <b>SeEtwWriteKMCveEvent</b> returns one of the following values:
 
@@ -101,14 +94,8 @@ Invalid pointer to CVE-ID passed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b> 	SeEtwWriteKMCveEvent</b> function publishes a CVE-based event. This function should be called only in scenarios where an attempt to exploit a known, patched vulnerability is detected by the application. Ideally, this function call should be added as part of the fix (update) itself. 
  The default consumer for this event is EventLog-System. To enable another consumer, the provider can be added to the consumer session.
@@ -145,5 +132,4 @@ status = SeEtwWriteKMCveEvent( &CVEID, &EventDetails);
 </td>
 </tr>
 </table></span></div>
-
 

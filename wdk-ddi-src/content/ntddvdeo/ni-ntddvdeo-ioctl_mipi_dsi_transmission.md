@@ -7,30 +7,30 @@ tech.root: display
 ms.assetid: 7292a449-2c3c-4409-a031-ffe6316767f6
 ms.author: windowsdriverdev
 ms.date: 03/24/2020
-f1_keywords:
- - "ntddvdeo/IOCTL_MIPI_DSI_TRANSMISSION"
- - "IOCTL_MIPI_DSI_TRANSMISSION"
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - ntddvdeo.h
-api_name: 
- - IOCTL_MIPI_DSI_TRANSMISSION
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
+f1_keywords:
+ - IOCTL_MIPI_DSI_TRANSMISSION
+ - ntddvdeo/IOCTL_MIPI_DSI_TRANSMISSION
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - IOCTL_MIPI_DSI_TRANSMISSION
 dev_langs:
  - c++
 ---
@@ -38,6 +38,7 @@ dev_langs:
 # IOCTL_MIPI_DSI_TRANSMISSION IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -240,3 +241,4 @@ To ensure that output is returned to the caller to provide details of any errors
 [**IOCTL_MIPI_DSI_QUERY_CAPS**](ni-ntddvdeo-ioctl_mipi_dsi_query_caps.md)
 
 [**IOCTL_MIPI_DSI_RESET**](ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
+

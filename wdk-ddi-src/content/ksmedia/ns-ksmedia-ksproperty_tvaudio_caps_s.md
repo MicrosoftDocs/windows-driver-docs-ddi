@@ -8,9 +8,6 @@ ms.assetid: 991208ee-d245-41d1-a5e6-0e79368e37a8
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TVAUDIO_CAPS_S structure"]
 ms.keywords: "*PKSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_CAPS_S, PKSPROPERTY_TVAUDIO_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TVAUDIO_CAPS_S, ksmedia/PKSPROPERTY_TVAUDIO_CAPS_S, stream.ksproperty_tvaudio_caps_s, vidcapstruct_dd4243d2-9778-4dae-99e2-0d32a73ab0d4.xml"
-f1_keywords:
- - "ksmedia/KSPROPERTY_TVAUDIO_CAPS_S"
- - "KSPROPERTY_TVAUDIO_CAPS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_TVAUDIO_CAPS_S
 targetos: Windows
 req.typenames: KSPROPERTY_TVAUDIO_CAPS_S, *PKSPROPERTY_TVAUDIO_CAPS_S
+f1_keywords:
+ - PKSPROPERTY_TVAUDIO_CAPS_S
+ - ksmedia/PKSPROPERTY_TVAUDIO_CAPS_S
+ - KSPROPERTY_TVAUDIO_CAPS_S
+ - ksmedia/KSPROPERTY_TVAUDIO_CAPS_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_TVAUDIO_CAPS_S
 ---
 
 # KSPROPERTY_TVAUDIO_CAPS_S structure
@@ -46,19 +48,13 @@ req.typenames: KSPROPERTY_TVAUDIO_CAPS_S, *PKSPROPERTY_TVAUDIO_CAPS_S
 
 ## -description
 
-
 The KSPROPERTY_TVAUDIO_CAPS_S structure describes the capability of a TV audio device, such as stereo versus mono audio support and language capabilities.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Property
 
 Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
-
 
 ### -field Capabilities
 
@@ -120,23 +116,16 @@ Indicates the device supports a third language.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field InputMedium
 
 Reserved for system use.
 
-
 ### -field OutputMedium
 
 Reserved for system use.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
@@ -147,7 +136,4 @@ Reserved for system use.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-tvaudio">PROPSETID_VIDCAP_TVAUDIO</a>
- 
-
- 
 

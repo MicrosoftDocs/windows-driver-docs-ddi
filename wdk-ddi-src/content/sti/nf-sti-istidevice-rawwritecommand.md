@@ -8,9 +8,6 @@ ms.assetid: 6260fd33-96b3-43d7-a7eb-35322247076b
 ms.date: 05/03/2018
 keywords: ["IStiDevice::RawWriteCommand"]
 ms.keywords: IStiDevice interface [Imaging Devices],RawWriteCommand method, IStiDevice.RawWriteCommand, IStiDevice::RawWriteCommand, RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices],IStiDevice interface, image.istidevice_rawwritecommand, sti/IStiDevice::RawWriteCommand, stifnc_07c4667c-956f-4396-bc59-0bcbf21103a8.xml
-f1_keywords:
- - "sti/IStiDevice.RawWriteCommand"
- - "IStiDevice.RawWriteCommand"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sti.h
-api_name:
-- IStiDevice.RawWriteCommand
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IStiDevice::RawWriteCommand
+ - sti/IStiDevice::RawWriteCommand
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sti.h
+api_name:
+ - IStiDevice.RawWriteCommand
 ---
 
 # IStiDevice::RawWriteCommand
@@ -46,42 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>IStiDevice::RawWriteCommand</b> method sends command information to a still image device.
-
 
 ## -parameters
 
+### -param lpBuffer 
 
-
-
-### -param lpBuffer [in]
-
+[in]
 Caller-supplied pointer to a buffer containing data to be sent to the device.
-
 
 ### -param nNumberOfBytes
 
 Caller-supplied number of bytes to be written. This is the number of bytes in the buffer pointed to by <i>lpBuffer</i>.
 
+### -param lpOverlapped 
 
-### -param lpOverlapped [in, optional]
-
+[in, optional]
 Optional, caller-supplied pointer to an OVERLAPPED structure (described in the Microsoft Windows SDK documentation).
-
 
 ## -returns
 
-
-
 If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>IStiDevice::RawWriteCommand</b> method calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritecommand">IStiUSD::RawWriteCommand</a>, which is exported by vendor-supplied minidrivers. The meaning of buffer contents are vendor-defined.
 
@@ -90,6 +77,4 @@ It is only necessary to call <b>IStiDevice::RawWriteCommand</b> if commands and 
 Before calling <b>IStiDevice::RawWriteCommand</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 
 A call to <b>IStiDevice::RawWriteCommand</b> must be preceded by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-lockdevice">IStiDevice::LockDevice</a> and followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unlockdevice">IStiDevice::UnLockDevice</a>.
-
-
 

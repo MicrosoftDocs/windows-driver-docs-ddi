@@ -8,9 +8,6 @@ ms.assetid: c9150c02-a53e-4ffc-8cf1-ca668680cdd9
 ms.date: 04/23/2018
 keywords: ["PFNKSSETTIMER callback function"]
 ms.keywords: KStrSetTimer, KStrSetTimer routine [Streaming Media Devices], PFNKSSETTIMER, ks/KStrSetTimer, ksfunc_a1a590b8-ea16-45bd-8517-45e4bfc46ad3.xml, stream.kstrsettimer
-f1_keywords:
- - "ks/KStrSetTimer"
- - "KStrSetTimer"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- KStrSetTimer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSSETTIMER
+ - ks/PFNKSSETTIMER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - KStrSetTimer
 ---
 
 # PFNKSSETTIMER callback function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 A streaming minidriver's <i>KStrSetTimer</i> routine is called to generate DPC timer callbacks based on presentation time.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
+### -param Timer 
 
-### -param Timer [in]
-
+[in]
 Pointer to a timer object allocated by the minidriver.
 
+### -param DueTime 
 
-### -param DueTime [in]
-
+[in]
 Specifies the absolute or relative time at which the timer is to expire. If the value of the <i>DueTime</i> parameter is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
+### -param Dpc 
 
-### -param Dpc [in]
-
+[in]
 Pointer to a DPC object that the minidriver initialized using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. This parameter is optional.
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if the timer object was already in the system timer queue. Otherwise, returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Minidrivers can optionally supply a <i>KStrSetTimer</i> callback function as an argument to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>.
 
@@ -98,13 +86,7 @@ If a minidriver supplies a <i>KStrSetTimer</i> callback function, the minidriver
 
 The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a>
 
@@ -119,7 +101,4 @@ The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics a
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>
- 
-
- 
 

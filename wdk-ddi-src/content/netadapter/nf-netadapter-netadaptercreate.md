@@ -6,47 +6,45 @@ tech.root: netvista
 ms.assetid: cc03535e-1e57-483f-93af-950f5fc08d36
 ms.date: 01/18/2019
 keywords: ["NetAdapterCreate function"]
-f1_keywords:
- - "netadapter/NetAdapterCreate"
- - "NetAdapterCreate"
 ms.keywords: NetAdapterCreate
 req.header: netadapter.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.27
-req.umdf-ver:
+req.umdf-ver: 
 req.lib: NetAdapterCxStub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-req.alt-api:
-req.alt-loc:
+req.alt-api: 
+req.alt-loc: 
 req.typenames: NetAdapterCreate
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- netadapter.h
-api_name: 
-- NetAdapterCreate
 targetos: Windows
+f1_keywords:
+ - NetAdapterCreate
+ - netadapter/NetAdapterCreate
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - netadapter.h
+api_name:
+ - NetAdapterCreate
 ---
 
 # NetAdapterCreate function
 
 
 ## -description
-
-
 
 Creates a NETADAPTER object.
 
@@ -66,7 +64,7 @@ A pointer to a location that receives a handle to the new NETADAPTER object.
 
 ## -returns
 
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
+The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this function may return an appropriate NTSTATUS error code.
 
 ## -remarks
 

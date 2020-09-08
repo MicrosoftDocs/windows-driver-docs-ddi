@@ -8,9 +8,6 @@ ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
 ms.date: 02/23/2018
 keywords: ["PosCxClose function"]
 ms.keywords: PosCxClose, PosCxClose function, pos.poscxclose, poscx/PosCxClose
-f1_keywords:
- - "poscx/PosCxClose"
- - "PosCxClose"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- poscx.h
-api_name:
-- PosCxClose
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
+f1_keywords:
+ - PosCxClose
+ - poscx/PosCxClose
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - poscx.h
+api_name:
+ - PosCxClose
 ---
 
 # PosCxClose function
+
 
 ## -description
 
@@ -50,14 +51,17 @@ PosCxClose is called to delete an opened PosCx library instance. This function r
 
 ## -parameters
 
-### -param device [in]
+### -param device 
 
+[in]
 A handle to a framework device object that represents the device.
 
-### -param fileObject [in]
+### -param fileObject 
 
+[in]
 A handle to a framework file object that identifies the caller associated with the open instance.
 
 ## -returns
 
 An appropriate NTSTATUS error code that indicates the close instance completion status.
+

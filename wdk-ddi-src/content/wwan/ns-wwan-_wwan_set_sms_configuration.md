@@ -8,9 +8,6 @@ ms.assetid: c3739a08-f4ea-4cc5-8f62-7d4a5cd3ed43
 ms.date: 05/02/2018
 keywords: ["WWAN_SET_SMS_CONFIGURATION structure"]
 ms.keywords: "*PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SMS_CONFIGURATION, WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WwanRef_2a344216-b18f-41d6-8a11-dac6cb24de69.xml, _WWAN_SET_SMS_CONFIGURATION, netvista.wwan_set_sms_configuration, wwan/PWWAN_SET_SMS_CONFIGURATION, wwan/WWAN_SET_SMS_CONFIGURATION"
-f1_keywords:
- - "wwan/WWAN_SET_SMS_CONFIGURATION"
- - "WWAN_SET_SMS_CONFIGURATION"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SET_SMS_CONFIGURATION
 targetos: Windows
 req.typenames: WWAN_SET_SMS_CONFIGURATION, *PWWAN_SET_SMS_CONFIGURATION
+f1_keywords:
+ - _WWAN_SET_SMS_CONFIGURATION
+ - wwan/_WWAN_SET_SMS_CONFIGURATION
+ - PWWAN_SET_SMS_CONFIGURATION
+ - wwan/PWWAN_SET_SMS_CONFIGURATION
+ - WWAN_SET_SMS_CONFIGURATION
+ - wwan/WWAN_SET_SMS_CONFIGURATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SET_SMS_CONFIGURATION
 ---
 
 # _WWAN_SET_SMS_CONFIGURATION structure
@@ -46,14 +50,9 @@ req.typenames: WWAN_SET_SMS_CONFIGURATION, *PWWAN_SET_SMS_CONFIGURATION
 
 ## -description
 
-
 The WWAN_SET_SMS_CONFIGURATION structure represents how MB devices support SMS configuration.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ScAddress
 
@@ -79,7 +78,6 @@ For
      miniport driver does not need to update 
      <b>ScAddress</b> and should not update this member thereafter.
 
-
 ### -field SmsFormat
 
 The SMS message format that should be used for the unsolicited indication of new SMS message
@@ -87,11 +85,7 @@ The SMS message format that should be used for the unsolicited indication of new
      <b>WwanSmsFormatCdma</b> format. The 
      <b>WwanSmsFormatCdma</b> format is does not apply to GSM-based devices.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_sms_configuration">
    NDIS_WWAN_SET_SMS_CONFIGURATION</a>
@@ -99,7 +93,4 @@ The SMS message format that should be used for the unsolicited indication of new
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: ebfdae87-febc-4383-93f4-5d613df273a9
 ms.date: 04/23/2018
 keywords: ["KsCreateFilterFactory function"]
 ms.keywords: KsCreateFilterFactory, KsCreateFilterFactory function [Streaming Media Devices], avfunc_0867c824-52e2-475a-9f36-05e6fba4cdd9.xml, ks/KsCreateFilterFactory, stream.kscreatefilterfactory
-f1_keywords:
- - "ks/KsCreateFilterFactory"
- - "KsCreateFilterFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsCreateFilterFactory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsCreateFilterFactory
+ - ks/KsCreateFilterFactory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsCreateFilterFactory
 ---
 
 # KsCreateFilterFactory function
+
 
 ## -description
 
@@ -50,24 +51,29 @@ The** KsCreateFilterFactory** function adds a filter factory to a given device.
 
 ## -parameters
 
-### -param DeviceObject [in]
+### -param DeviceObject 
 
+[in]
 A pointer to a [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure for which to add a filter factory.
 
-### -param Descriptor [in]
+### -param Descriptor 
 
+[in]
 A pointer to a [KSFILTER_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor) that describes the characteristics of individual filters that this factory can create.
 
-### -param RefString [in, optional]
+### -param RefString 
 
+[in, optional]
 If this argument is provided, this string is used as the reference string for filters created by this factory. Otherwise, the reference GUID provided in the descriptor is used.
 
-### -param SecurityDescriptor [in, optional]
+### -param SecurityDescriptor 
 
+[in, optional]
 The security descriptor to use in creation of filters by this filter factory. If **NULL**, no descriptor is provided.
 
-### -param CreateItemFlags [in]
+### -param CreateItemFlags 
 
+[in]
 The following table lists the flags that the minidriver writer uses to specify the characteristics of filters that the new filter factory can create. Set this parameter to the bitwise OR of the flags below.
 
 | Flag | Meaning |
@@ -77,8 +83,9 @@ The following table lists the flags that the minidriver writer uses to specify t
 | KSCREATE_ITEM_NOPARAMETERS | Indicates that this create item does not allow any parameters to be passed, and fails if any are found. (Normally, create parameters are passed on to the create handler.) This flag cannot be used with a wildcard flag. |
 | KSCREATE_ITEM_FREEONSTOP | Indicates that the create item should be freed when the PnP manager sends [IRP_MN_STOP_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-stop-device). Note that AVStream automatically frees such create items when the device receives PnP stop (*after* the client has received the PnP stop notification). |
 
-### -param SleepCallback [in, optional]
+### -param SleepCallback 
 
+[in, optional]
 A pointer to a minidriver-provided routine that receives notifications that the device associated with this filter is going to sleep. Prototype the routine as follows:
 
 ```cpp
@@ -88,8 +95,9 @@ void SleepCallback (IN PKSFILTERFACTORY FilterFactory,
 
 If this parameter is **NULL**, this filter factory is not notified that the device is going to sleep. See [Device Power States](https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states).
 
-### -param WakeCallback [in, optional]
+### -param WakeCallback 
 
+[in, optional]
 A pointer to a minidriver-provided routine that receives notifications that the device associated with this filter is waking up. Prototype the routine as follows:
 
 ```cpp
@@ -99,8 +107,9 @@ void WakeCallback (IN PKSFILTERFACTORY FilterFactory,
 
 If this parameter is **NULL**, this filter factory is not notified that the device is waking up. See [Device Power States](https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states).
 
-### -param FilterFactory [out, optional]
+### -param FilterFactory 
 
+[out, optional]
 A pointer to a [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory) structure that AVStream sets to point to the newly created filter factory object. If this optional parameter is unspecified, the caller is not informed about the resulting filter factory object.
 
 ## -returns
@@ -126,3 +135,4 @@ This function should be used by minidrivers that either initialize themselves wi
 [KSPIN_DESCRIPTOR_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex)
 
 [KsDeleteFilterFactory](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeletefilterfactory)
+

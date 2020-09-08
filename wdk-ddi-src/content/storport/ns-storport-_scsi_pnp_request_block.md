@@ -8,9 +8,6 @@ ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.date: 03/29/2018
 keywords: ["SCSI_PNP_REQUEST_BLOCK structure"]
 ms.keywords: "*PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorFilterResourceRequirements, StorQueryCapabilities, StorQueryResourceRequirements, StorRemoveDevice, StorStartDevice, StorStopDevice, StorSupriseRemoval, _SCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block, storport/PSCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml"
-f1_keywords:
- - "storport/SCSI_PNP_REQUEST_BLOCK"
- - "SCSI_PNP_REQUEST_BLOCK"
 req.header: storport.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- SCSI_PNP_REQUEST_BLOCK
 targetos: Windows
 req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
+f1_keywords:
+ - _SCSI_PNP_REQUEST_BLOCK
+ - storport/_SCSI_PNP_REQUEST_BLOCK
+ - PSCSI_PNP_REQUEST_BLOCK
+ - storport/PSCSI_PNP_REQUEST_BLOCK
+ - SCSI_PNP_REQUEST_BLOCK
+ - storport/SCSI_PNP_REQUEST_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - SCSI_PNP_REQUEST_BLOCK
 ---
 
-# _SCSI_PNP_REQUEST_BLOCK structure
+# _SCSI_PNP_REQUEST_BLOCK structure (storport.h)
+
 
 ## -description
 
@@ -63,7 +68,7 @@ The operation to perform. For the **SCSI_PNP_REQUEST_BLOCK** structure, this mem
 
 ### -field SrbStatus
 
-The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the [**StorPortNotification**](..nf-storport-storportnotification.md) routine with a notification type of **RequestComplete**. For a list of possible status values, see [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md).  
+The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the [**StorPortNotification**](..nf-storport-storportnotification.md) routine with a notification type of **RequestComplete**. For a list of possible status values, see [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md).
 
 ### -field PnPSubFunction
 
@@ -152,3 +157,4 @@ The Storport driver calls [**HwStorBuildIo**](nc-storport-hw_buildio.md) to pass
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
 [**StorPortNotification**](nf-storport-storportnotification.md)
+

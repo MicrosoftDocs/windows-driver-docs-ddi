@@ -8,9 +8,6 @@ ms.assetid: 58170D54-869A-49CC-865A-AB64BFB41A4B
 ms.date: 05/08/2018
 keywords: ["IMiniportAudioEngineNode interface"]
 ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices],described, audio.iminiportaudioenginenode, portcls/IMiniportAudioEngineNode
-f1_keywords:
- - "portcls/IMiniportAudioEngineNode"
- - "IMiniportAudioEngineNode"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Portcls.h
-api_name:
-- IMiniportAudioEngineNode
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IMiniportAudioEngineNode
+ - portcls/IMiniportAudioEngineNode
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Portcls.h
+api_name:
+ - IMiniportAudioEngineNode
 ---
 
 # IMiniportAudioEngineNode interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 This interface allows a miniport driver to use KS properties that access the audio engine via a KS filter handle.
-
 
 ## -inheritance
 

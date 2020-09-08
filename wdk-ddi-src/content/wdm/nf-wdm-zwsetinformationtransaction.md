@@ -8,9 +8,6 @@ ms.assetid: 47e729d8-241e-47f0-a595-d95c5ac516a4
 ms.date: 04/30/2018
 keywords: ["ZwSetInformationTransaction function"]
 ms.keywords: NtSetInformationTransaction, ZwSetInformationTransaction, ZwSetInformationTransaction routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationtransaction, ktm_ref_575490bd-1003-43b3-8e41-676c4b0e4f25.xml, wdm/NtSetInformationTransaction, wdm/ZwSetInformationTransaction
-f1_keywords:
- - "wdm/ZwSetInformationTransaction"
- - "ZwSetInformationTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ZwSetInformationTransaction
-- NtSetInformationTransaction
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ZwSetInformationTransaction
+ - wdm/ZwSetInformationTransaction
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ZwSetInformationTransaction
+ - NtSetInformationTransaction
 ---
 
 # ZwSetInformationTransaction function
@@ -47,38 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>ZwSetInformationTransaction</b> routine sets information for a specified transaction.
-
 
 ## -parameters
 
+### -param TransactionHandle 
 
-
-
-### -param TransactionHandle [in]
-
+[in]
 A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-objects">transaction object</a> that was obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreatetransaction">ZwCreateTransaction</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntopentransaction">ZwOpenTransaction</a>. The handle must have TRANSACTION_SET_INFORMATION access to the object.
 
+### -param TransactionInformationClass 
 
-### -param TransactionInformationClass [in]
-
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_transaction_information_class">TRANSACTION_INFORMATION_CLASS</a>-typed value that specifies the type of information to set. The value must be <b>TransactionPropertiesInformation</b>.
 
+### -param TransactionInformation 
 
-### -param TransactionInformation [in]
-
+[in]
 A pointer to a caller-allocated buffer that contains the information to set. The buffer's structure type must be <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_properties_information">TRANSACTION_PROPERTIES_INFORMATION</a>.
 
+### -param TransactionInformationLength 
 
-### -param TransactionInformationLength [in]
-
+[in]
 The length, in bytes, of the buffer that the <i>TransactionInformation</i> parameter points to.
 
-
 ## -returns
-
-
 
 <b>ZwSetInformationTransaction</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this routine might return one of the following values: 
 
@@ -158,12 +151,7 @@ The contents of the buffer that the <i>TransactionInformation </i>buffer specifi
 
 The routine might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
-
-
-
 ## -remarks
-
-
 
 For more information about <b>ZwSetInformationTransaction</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-a-transactional-client">Creating a Transactional Client</a>.
 
@@ -171,13 +159,7 @@ For more information about <b>ZwSetInformationTransaction</b>, see <a href="http
 
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_transaction_information_class">TRANSACTION_INFORMATION_CLASS</a>
 
@@ -200,7 +182,4 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a>
- 
-
- 
 

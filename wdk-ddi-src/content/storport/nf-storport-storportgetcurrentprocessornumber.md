@@ -8,9 +8,6 @@ ms.assetid: 10d77823-fcaa-43c3-b55e-74f2da97ecf0
 ms.date: 03/29/2018
 keywords: ["StorPortGetCurrentProcessorNumber function"]
 ms.keywords: StorPortGetCurrentProcessorNumber, StorPortGetCurrentProcessorNumber routine [Storage Devices], storage.storportgetcurrentprocessornumber, storport/StorPortGetCurrentProcessorNumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml
-f1_keywords:
- - "storport/StorPortGetCurrentProcessorNumber"
- - "StorPortGetCurrentProcessorNumber"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetCurrentProcessorNumber
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetCurrentProcessorNumber
+ - storport/StorPortGetCurrentProcessorNumber
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetCurrentProcessorNumber
 ---
 
 # StorPortGetCurrentProcessorNumber function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetCurrentProcessorNumber</b> routine retrieves the current processor number from the kernel.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param ProcNumber 
 
-### -param ProcNumber [out]
-
+[out]
 A pointer to a processor number structure that holds the return data.
 
-
 ## -returns
-
-
 
 The <b>StorPortGetCurrentProcessorNumber</b> routine returns one of the following status codes:
 
@@ -110,7 +103,4 @@ The operation fails with this return value if one or more of the parameters are 
 </td>
 </tr>
 </table>
- 
-
-
 

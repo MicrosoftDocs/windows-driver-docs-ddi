@@ -8,13 +8,10 @@ ms.assetid: f0b7d982-735f-489c-b9f8-81a287f6722a
 ms.date: 05/03/2018
 keywords: ["IWiaMiniDrv::drvGetWiaFormatInfo"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetWiaFormatInfo method, IWiaMiniDrv.drvGetWiaFormatInfo, IWiaMiniDrv::drvGetWiaFormatInfo, MiniDrv_6c0cb527-6884-4b7d-a7cc-0e09c1774b7f.xml, drvGetWiaFormatInfo, drvGetWiaFormatInfo method [Imaging Devices], drvGetWiaFormatInfo method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetwiaformatinfo, wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo
-f1_keywords:
- - "wiamindr_lh/IWiaMiniDrv.drvGetWiaFormatInfo"
- - "IWiaMiniDrv.drvGetWiaFormatInfo"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wiamindr_lh.h
-api_name:
-- IWiaMiniDrv.drvGetWiaFormatInfo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWiaMiniDrv::drvGetWiaFormatInfo
+ - wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wiamindr_lh.h
+api_name:
+ - IWiaMiniDrv.drvGetWiaFormatInfo
 ---
 
 # IWiaMiniDrv::drvGetWiaFormatInfo
+
 
 ## -description
 
@@ -118,3 +119,4 @@ The minidriver can define a global array to hold the WIA_FORMAT_INFO structures,
 [IWiaMiniDrv::drvFreeDrvItemContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvfreedrvitemcontext)
 
 [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
+

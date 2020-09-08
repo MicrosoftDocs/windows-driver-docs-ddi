@@ -8,9 +8,6 @@ ms.assetid: 8143732e-cef6-49f1-9b20-db6b6ee073e6
 ms.date: 05/10/2018
 keywords: ["DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback function"]
 ms.keywords: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT, DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback, Dm_Opm_functions_207f1385-efcc-4c5c-8237-e07f594c9742.xml, DxgkDdiOPMCreateProtectedOutput, DxgkDdiOPMCreateProtectedOutput callback function [Display Devices], display.dxgkddiopmcreateprotectedoutput, dispmprt/DxgkDdiOPMCreateProtectedOutput
-f1_keywords:
- - "dispmprt/DxgkDdiOPMCreateProtectedOutput"
- - "DxgkDdiOPMCreateProtectedOutput"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-api_name:
-- DxgkDdiOPMCreateProtectedOutput
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT
+ - dispmprt/DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+api_name:
+ - DxgkDdiOPMCreateProtectedOutput
 ---
 
 # DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback function
+
 
 ## -description
 
@@ -49,20 +50,24 @@ The *DxgkDdiOPMCreateProtectedOutput* function creates a new protected output ob
 
 ## -parameters
 
-### -param MiniportDeviceContext [in]
+### -param MiniportDeviceContext 
 
+[in]
 A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
 
-### -param VidPnTargetId [in]
+### -param VidPnTargetId 
 
+[in]
 An integer that uniquely identifies the video present target that corresponds to the new protected output object. Each video present target must correspond to one physical monitor connector. If *VidPnTargetId* corresponds to multiple physical monitor connectors, *DxgkDdiOPMCreateProtectedOutput* should return the STATUS_GRAPHICS_OPM_SPANNING_MODE_ENABLED or STATUS_GRAPHICS_OPM_THEATER_MODE_ENABLED error code.
 
-### -param NewVideoOutputSemantics [in]
+### -param NewVideoOutputSemantics 
 
+[in]
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgkmdt_opm_video_output_semantics">DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS</a>-typed value that determines whether the new protected output has COPP or OPM semantics.
 
-### -param NewProtectedOutputHandle [out]
+### -param NewProtectedOutputHandle 
 
+[out]
 A pointer to a variable that receives the handle to the new protected output object if *DxgkDdiOPMCreateProtectedOutput* returns successfully. The DirectX graphics kernel subsystem passes this handle in calls to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_random_number">DxgkDdiOPMGetRandomNumber</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_information">DxgkDdiOPMGetInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_copp_compatible_information">DxgkDdiOPMGetCOPPCompatibleInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_configure_protected_output">DxgkDdiOPMConfigureProtectedOutput</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_destroy_protected_output">DxgkDdiOPMDestroyProtectedOutput</a>.
 
@@ -110,3 +115,4 @@ The following figure shows how the display miniport driver typically implements 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_random_number">DxgkDdiOPMGetRandomNumber</a>
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a>
+

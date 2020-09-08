@@ -8,9 +8,6 @@ ms.assetid: EDB4862E-FAD4-4AB2-BF0C-CF4C6342F0E4
 ms.date: 02/15/2018
 keywords: ["ACPI_EVAL_INPUT_BUFFER_V2 structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_V2, ACPI_EVAL_INPUT_BUFFER_V2, ACPI_EVAL_INPUT_BUFFER_V2 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_V2, PACPI_EVAL_INPUT_BUFFER_V2 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V2, acpi.acpi_eval_input_buffer_v2, acpiioct/ACPI_EVAL_INPUT_BUFFER_V2, acpiioct/PACPI_EVAL_INPUT_BUFFER_V2"
-f1_keywords:
- - "acpiioct/ACPI_EVAL_INPUT_BUFFER_V2"
- - "ACPI_EVAL_INPUT_BUFFER_V2"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Acpiioct.h
-api_name:
-- ACPI_EVAL_INPUT_BUFFER_V2
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_V2, *PACPI_EVAL_INPUT_BUFFER_V2
+f1_keywords:
+ - _ACPI_EVAL_INPUT_BUFFER_V2
+ - acpiioct/_ACPI_EVAL_INPUT_BUFFER_V2
+ - PACPI_EVAL_INPUT_BUFFER_V2
+ - acpiioct/PACPI_EVAL_INPUT_BUFFER_V2
+ - ACPI_EVAL_INPUT_BUFFER_V2
+ - acpiioct/ACPI_EVAL_INPUT_BUFFER_V2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Acpiioct.h
+api_name:
+ - ACPI_EVAL_INPUT_BUFFER_V2
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_V2 structure
@@ -46,33 +50,19 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_V2, *PACPI_EVAL_INPUT_BUFFER_V2
 
 ## -description
 
-
 This topic describes the  <b>ACPI_EVAL_INPUT_BUFFER_V2</b> structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Signature
 
 Defines the <b>ULONG</b> member <b>Signature</b>.
 
-
 ### -field DUMMYUNIONNAME
 
 Defines the method name member of <b>DUMMYUNIONNAME</b>.
 
-
 ### -field DUMMYUNIONNAME.MethodName
 
- 
-
-
 ### -field DUMMYUNIONNAME.MethodNameAsUlong
-
- 
-
-
 

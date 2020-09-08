@@ -31,8 +31,8 @@ api_location:
 api_name:
  - D3D12DDIARG_CREATE_VIDEO_DECODER_0072
 f1_keywords:
- - d3d12umddi//D3D12DDIARG_CREATE_VIDEO_DECODER_0072
  - D3D12DDIARG_CREATE_VIDEO_DECODER_0072
+ - d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0072
 dev_langs:
  - c++
 ---
@@ -66,3 +66,4 @@ See the [D3D Video Protected Resource Support Specification](https://microsoft.g
 [**PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0072**](nc-d3d12umddi-pfnd3d12ddi_calcprivatevideodecodersize_0072.md)
 
 [**PFND3D12DDI_CREATEVIDEODECODER_0072**](nc-d3d12umddi-pfnd3d12ddi_createvideodecoder_0072.md)
+

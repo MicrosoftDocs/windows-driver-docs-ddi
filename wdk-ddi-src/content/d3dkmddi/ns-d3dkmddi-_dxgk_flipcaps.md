@@ -7,9 +7,6 @@ ms.assetid: 33399b7c-ce67-4c49-be26-2b2d759ff5a0
 ms.date: 05/10/2018
 keywords: ["DXGK_FLIPCAPS structure"]
 ms.keywords: DXGK_FLIPCAPS, DXGK_FLIPCAPS structure [Display Devices], DmStructs_11bba63e-8001-41d2-9c60-978024921994.xml, _DXGK_FLIPCAPS, d3dkmddi/DXGK_FLIPCAPS, display.dxgk_flipcaps
-f1_keywords:
- - "d3dkmddi/DXGK_FLIPCAPS"
- - "DXGK_FLIPCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_FLIPCAPS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_FLIPCAPS
+f1_keywords:
+ - _DXGK_FLIPCAPS
+ - d3dkmddi/_DXGK_FLIPCAPS
+ - DXGK_FLIPCAPS
+ - d3dkmddi/DXGK_FLIPCAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_FLIPCAPS
 ---
 
 # _DXGK_FLIPCAPS structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_FLIPCAPS
 
 ## -description
 
-
 The <b>DXGK_FLIPCAPS</b> structure identifies flipping capabilities of the display miniport driver that the driver provides through a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field FlipOnVSyncWithNoWait
 
@@ -62,7 +59,6 @@ A <b>UINT</b> value that specifies whether the driver supports the scheduling of
 If <b>FlipOnVSyncWithNoWait</b> is set to 1 (<b>TRUE</b>), the driver supports this mechanism. If <b>FlipOnVSyncWithNoWait</b> is set to 0 (<b>FALSE</b>), the driver does not support this mechanism. That is, the graphics pipeline must wait until the next vertical sync occurs after the scheduling of a flip command to take effect on the next vertical sync.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
-
 
 ### -field FlipOnVSyncMmIo
 
@@ -85,7 +81,6 @@ A <b>UINT</b> value that specifies whether the driver supports the scheduling of
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
-
 ### -field FlipImmediateMmIo
 
 A <b>UINT</b> value that specifies whether the driver supports a memory mapped I/O (MMIO)-based immediate flip. This type of flip takes effect immediately following a call to the driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a> function without waiting for the next vertical sync to occur.
@@ -93,7 +88,6 @@ A <b>UINT</b> value that specifies whether the driver supports a memory mapped I
 Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Value</b> member (0x00000008).
 
 Supported starting with Windows 7.
-
 
 ### -field FlipIndependent
 
@@ -107,16 +101,9 @@ Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Valu
 
 Supported starting with Windows 8.1.
 
-
 ### -field DdiPresentForIFlip
 
- 
-
-
 ### -field FlipImmediateOnHSync
-
- 
-
 
 ### -field Reserved
 
@@ -124,16 +111,11 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
 
-
 ### -field Value
 
 A member in the union that DXGK_FLIPCAPS contains that can hold a 32-bit value that identifies flipping capabilities.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
 
@@ -172,7 +154,4 @@ A member in the union that DXGK_FLIPCAPS contains that can hold a 32-bit value t
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 0a339457-77df-480b-adb8-9406507ec8d8
 ms.date: 05/02/2018
 keywords: ["FwpsFlowAssociateContext0 function"]
 ms.keywords: FwpsFlowAssociateContext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowAssociateContext0, netvista.fwpsflowassociatecontext0, wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml
-f1_keywords:
- - "fwpsk/FwpsFlowAssociateContext0"
- - "FwpsFlowAssociateContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsFlowAssociateContext0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsFlowAssociateContext0
+ - fwpsk/FwpsFlowAssociateContext0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsFlowAssociateContext0
 ---
 
 # FwpsFlowAssociateContext0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsFlowAssociateContext0</b> function associates a callout driver-defined context with a data
@@ -55,43 +54,38 @@ The
 
 ## -parameters
 
+### -param flowId 
 
-
-
-### -param flowId [in]
-
+[in]
 A run-time identifier that specifies the data flow with which to associate the context. The
      run-time identifier for a data flow is provided to a callout driver through the
      FWPS_METADATA_FIELD_FLOW_HANDLE metadata value that was passed to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
+### -param layerId 
 
-### -param layerId [in]
-
+[in]
 The run-time identifier for the filtering layer with which the context is being associated. The context will be associated only with the specified filtering layer. For
      more information, see 
      <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Run-time Filtering Layer
      Identifiers</a>.
 
+### -param calloutId 
 
-### -param calloutId [in]
-
+[in]
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>, 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>, or  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a> function to
      register the callout with the filter engine.
 
+### -param flowContext 
 
-### -param flowContext [in]
-
+[in]
 The callout driver-defined context to be associated with the data flow. This parameter must not be
      zero. This context is opaque to the filter engine.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsFlowAssociateContext0</b> function returns one of the following NTSTATUS codes.
@@ -150,14 +144,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When filtering a data flow, a callout driver can call the 
     <b>FwpsFlowAssociateContext0</b> function to associate a context with the data flow. It can then use this
@@ -183,13 +171,7 @@ You can associate multiple contexts with a flow. However, each context must be a
 For more information and sample code, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/associating-context-with-a-data-flow">Associating Context with a Data Flow</a>
 and the <a href="https://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/associating-context-with-a-data-flow">Associating Context with a Data Flow</a>
 
@@ -220,7 +202,4 @@ and the <a href="https://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filte
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a>
- 
-
- 
 

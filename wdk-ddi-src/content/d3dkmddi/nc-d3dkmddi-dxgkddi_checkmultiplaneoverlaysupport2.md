@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport2"
- - "DxgkDdiCheckMultiPlaneOverlaySupport2"
+ - DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2
+ - d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2
 topic_type:
  - APIRef
  - kbSyntax
@@ -46,6 +46,7 @@ product:
 # DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2 callback function
 
 > [!NOTE] This function has been replaced with [DxgkDdiCheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md).
+
 
 ## -description
 
@@ -72,3 +73,4 @@ The kernel mode driver reports whether the specified configuration is supported.
 ## -see-also
 
 [DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2](ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2.md)
+

@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: print
+f1_keywords:
+ - prdrvcom
+ - prdrvcom/prdrvcom
 ---
 
 # Prdrvcom.h header
@@ -16,7 +19,7 @@ tech.root: print
 
 ## -description
 
-
 This header is used by print. For more information, see:
 
 - [Print devices](../_print/index.md)
+

@@ -8,9 +8,6 @@ ms.assetid: ac1a2fae-29f1-4143-9d43-b10db300de03
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_COLOR structure"]
 ms.keywords: DXVA2_Structs_21418f8b-824c-4505-b52a-92437c3ff508.xml, DXVAHDDDI_COLOR, DXVAHDDDI_COLOR union [Display Devices], _DXVAHDDDI_COLOR, d3dumddi/DXVAHDDDI_COLOR, display.dxvahdddi_color
-f1_keywords:
- - "d3dumddi/DXVAHDDDI_COLOR"
- - "DXVAHDDDI_COLOR"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVAHDDDI_COLOR
 targetos: Windows
 req.typenames: DXVAHDDDI_COLOR
+f1_keywords:
+ - _DXVAHDDDI_COLOR
+ - d3dumddi/_DXVAHDDDI_COLOR
+ - DXVAHDDDI_COLOR
+ - d3dumddi/DXVAHDDDI_COLOR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVAHDDDI_COLOR
 ---
 
 # _DXVAHDDDI_COLOR structure
@@ -46,36 +48,23 @@ req.typenames: DXVAHDDDI_COLOR
 
 ## -description
 
-
-The DXVAHDDDI_COLOR union contains information that specifies color with either a YCbCr or RGB color structure.  
-
+The DXVAHDDDI_COLOR union contains information that specifies color with either a YCbCr or RGB color structure.
 
 ## -struct-fields
 
-
-
-
 ### -field RGB
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_rgba">DXVAHDDDI_COLOR_RGBA</a> structure that describes color in RGB terms. 
-
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_rgba">DXVAHDDDI_COLOR_RGBA</a> structure that describes color in RGB terms.
 
 ### -field YCbCr
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_ycbcra">DXVAHDDDI_COLOR_YCbCrA</a> structure that describes color in a YCbCr terms. 
-
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_ycbcra">DXVAHDDDI_COLOR_YCbCrA</a> structure that describes color in a YCbCr terms.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_rgba">DXVAHDDDI_COLOR_RGBA</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_ycbcra">DXVAHDDDI_COLOR_YCbCrA</a>
- 
-
- 
 

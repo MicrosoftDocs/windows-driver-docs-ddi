@@ -8,9 +8,6 @@ ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833
 ms.date: 04/20/2018
 keywords: ["ReplyPrinterChangeNotificationEx function"]
 ms.keywords: ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], print.replyprinterchangenotificationex, winsplp/ReplyPrinterChangeNotificationEx
-f1_keywords:
- - "winsplp/ReplyPrinterChangeNotificationEx"
- - "ReplyPrinterChangeNotificationEx"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- ReplyPrinterChangeNotificationEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ReplyPrinterChangeNotificationEx
+ - winsplp/ReplyPrinterChangeNotificationEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - ReplyPrinterChangeNotificationEx
 ---
 
 # ReplyPrinterChangeNotificationEx function
@@ -46,26 +46,21 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hNotify 
 
-
-
-### -param hNotify [in]
-
+[in]
 
 ### -param dwColor
 
-
 ### -param fdwFlags
 
+### -param pdwResult 
 
-### -param pdwResult [out]
+[out]
 
+### -param pPrinterNotifyInfo 
 
-### -param pPrinterNotifyInfo [in]
+[in]
 

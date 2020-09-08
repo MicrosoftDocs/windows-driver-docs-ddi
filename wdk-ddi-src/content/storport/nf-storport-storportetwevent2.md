@@ -8,9 +8,6 @@ ms.assetid: A390D684-C675-4140-8E8E-8330FB3192E4
 ms.date: 03/29/2018
 keywords: ["StorPortEtwEvent2 function"]
 ms.keywords: STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_POWER, StorPortEtwEvent2, StorPortEtwEvent2 routine [Storage Devices], StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeExtension, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeStop, StorportEtwEventOpcodeSuspend, StorportEtwLevelCritical, StorportEtwLevelError, StorportEtwLevelInformational, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, StorportEtwLevelWarning, storage.storportetwevent2, storport/StorPortEtwEvent2
-f1_keywords:
- - "storport/StorPortEtwEvent2"
- - "StorPortEtwEvent2"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortEtwEvent2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortEtwEvent2
+ - storport/StorPortEtwEvent2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortEtwEvent2
 ---
 
 # StorPortEtwEvent2 function
@@ -46,37 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortEtwEvent2</b> publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log two general purpose ETW parameters. The ETW parameters are  expressed as two name-value pairs.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param Address 
 
-### -param Address [in, optional]
-
+[in, optional]
 The storage unit device address. This parameter is NULL for adapter devices.
 
+### -param EventId 
 
-### -param EventId [in]
-
+[in]
 A miniport defined identifier for the ETW event.
 
+### -param EventDescription 
 
-### -param EventDescription [in]
-
+[in]
 The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
 
+### -param EventKeywords 
 
-### -param EventKeywords [in]
-
+[in]
 Keyword flags for event categorization. Set to 0 if no keyword is desired. The keywords are a bitwise OR combination of the following.
 
 <table>
@@ -125,11 +121,10 @@ The event is related to device enumeration.
 </td>
 </tr>
 </table>
- 
 
+### -param EventLevel 
 
-### -param EventLevel [in]
-
+[in]
 The event level. This value can indicate the importance or severity of the event. This is one of the following values.
 
 <table>
@@ -198,11 +193,10 @@ Verbose event information provided.
 </td>
 </tr>
 </table>
- 
 
+### -param EventOpcode 
 
-### -param EventOpcode [in]
-
+[in]
 The operational nature of the event. This is one of the following values.
 
 <table>
@@ -311,37 +305,33 @@ Device or unit is  suspended pending completion of another operation.
 </td>
 </tr>
 </table>
- 
 
+### -param Srb 
 
-### -param Srb [in, optional]
-
+[in, optional]
 A pointer to the SRB associated with the logged event. If this parameter contains a valid SRB, this SRB pointer and the associated SRB pointer are logged.
 
+### -param Parameter1Name 
 
-### -param Parameter1Name [in, optional]
-
+[in, optional]
 A description of the of the meaning of <i>Parameter1Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
+### -param Parameter1Value 
 
-### -param Parameter1Value [in]
-
+[in]
 The value for parameter 1.
 
+### -param Parameter2Name 
 
-### -param Parameter2Name [in, optional]
-
+[in, optional]
 A description of the of the meaning of <i>Parameter2Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
+### -param Parameter2Value 
 
-### -param Parameter2Value [in]
-
+[in]
 The value for parameter 2.
 
-
 ## -returns
-
-
 
 <b>StorPortEtwEvent2</b> returns one of the following status codes:
 
@@ -396,33 +386,18 @@ An ETW parameter name is greater than the maximum name length.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If any parameter is not named, ParameterXName = NULL, the routine will set the corresponding parameter value to 0.
 
 Events generated from StorPort miniport drivers are published to the "Microsoft-Windows-Storage-Storport/Diagnose" ETW channel.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent4">StorPortEtwEvent4</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent8">StorPortEtwEvent8</a>
- 
-
- 
 

@@ -27,8 +27,8 @@ req.assembly:
 req.type-library: 
 targetos: Windows
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003"
- - "PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003"
+ - PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003
+ - d3d12umddi/PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003
 topic_type:
  - apiref
 api_type:
@@ -42,6 +42,7 @@ product:
 ---
 
 # PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003 callback function
+
 
 ## -description
 
@@ -59,8 +60,9 @@ Type: D3D12DDI_CPU_DESCRIPTOR_HANDLE
 
 Describes the CPU descriptor handle that represents the start of the heap for the render target to clear.
 
-### -param FLOAT[4]
+### -param FLOAT
 
+[4]
 A 4-component array that containing the values to fill the unordered-access-view resource with.
 
 ### -param NumRects

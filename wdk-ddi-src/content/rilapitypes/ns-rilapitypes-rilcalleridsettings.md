@@ -8,9 +8,6 @@ ms.assetid: 3ba2cd72-4678-4ada-9777-12cbb6032628
 ms.date: 05/02/2018
 keywords: ["RILCALLERIDSETTINGS structure"]
 ms.keywords: "*LPRILCALLERIDSETTINGS, RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcalleridsettings, ntddrilapitypes/RILCALLERIDSETTINGS"
-f1_keywords:
- - "rilapitypes/RILCALLERIDSETTINGS"
- - "RILCALLERIDSETTINGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,44 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILCALLERIDSETTINGS
 targetos: Windows
 req.typenames: RILCALLERIDSETTINGS, *LPRILCALLERIDSETTINGS
+f1_keywords:
+ - RILCALLERIDSETTINGS
+ - rilapitypes/RILCALLERIDSETTINGS
+ - LPRILCALLERIDSETTINGS
+ - rilapitypes/LPRILCALLERIDSETTINGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILCALLERIDSETTINGS
 ---
 
-# RILCALLERIDSETTINGS structure
+# RILCALLERIDSETTINGS structure (rilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
 
 ### -field dwParams
 
-
 ### -field dwExecutor
 
-
 ### -field dwStatus
-
 
 ### -field dwProvisioning
 

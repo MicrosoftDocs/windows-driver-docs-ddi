@@ -8,9 +8,6 @@ ms.assetid: 66f62a55-0bed-48ed-ae79-042bffe75b70
 ms.date: 04/23/2018
 keywords: ["KsFreeObjectCreateItem function"]
 ms.keywords: KsFreeObjectCreateItem, KsFreeObjectCreateItem function [Streaming Media Devices], ks/KsFreeObjectCreateItem, ksfunc_e91e49bc-521e-486e-a67b-33b16b7caa68.xml, stream.ksfreeobjectcreateitem
-f1_keywords:
- - "ks/KsFreeObjectCreateItem"
- - "KsFreeObjectCreateItem"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ks.lib
-- Ks.dll
-api_name:
-- KsFreeObjectCreateItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFreeObjectCreateItem
+ - ks/KsFreeObjectCreateItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ks.lib
+ - Ks.dll
+api_name:
+ - KsFreeObjectCreateItem
 ---
 
 # KsFreeObjectCreateItem function
@@ -47,50 +47,29 @@ req.typenames:
 
 ## -description
 
-
 Frees the slot for the specified create item.
-
 
 ## -parameters
 
+### -param Header 
 
-
-
-### -param Header [in]
-
+[in]
 Points to the device header on which the create item is attached.
 
+### -param CreateItem 
 
-### -param CreateItem [in]
-
+[in]
 Contains the name of the create item to free.
-
 
 ## -returns
 
-
-
 Returns STATUS_SUCCESS if the item was freed, else STATUS_OBJECT_NAME_NOT_FOUND.
-
-
-
 
 ## -remarks
 
-
-
 This function does not assume that the caller is serializing multiple changes to the create entry list.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectcreateitemsbycontext">KsFreeObjectCreateItemsByContext</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.date: 05/03/2018
 keywords: ["MagnetometerAccuracy enumeration"]
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], Unknown, Unreliable, sensors.magnetometeraccuracy, sensorsclassextension/Approximate, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unknown, sensorsclassextension/Unreliable
-f1_keywords:
- - "sensorsclassextension/MagnetometerAccuracy"
- - "MagnetometerAccuracy"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SensorsClassExtension.h
-api_name:
-- MagnetometerAccuracy
 targetos: Windows
 req.typenames: MagnetometerAccuracy
+f1_keywords:
+ - MagnetometerAccuracy
+ - sensorsclassextension/MagnetometerAccuracy
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SensorsClassExtension.h
+api_name:
+ - MagnetometerAccuracy
 ---
 
 # MagnetometerAccuracy enumeration
@@ -46,28 +46,17 @@ req.typenames: MagnetometerAccuracy
 
 ## -description
 
-
 Specifies the accuracy of the magnetometer.
-
 
 ## -enum-fields
 
-
-
-
 ### -field MAGNETOMETER_ACCURACY_UNKNOWN
-
 
 ### -field MAGNETOMETER_ACCURACY_UNRELIABLE
 
-
 ### -field MAGNETOMETER_ACCURACY_APPROXIMATE
 
-
 ### -field MAGNETOMETER_ACCURACY_HIGH
-
-
-
 
 #### - Approximate
 
@@ -88,25 +77,13 @@ The accuracy is currently not available, typically because the driver can't repo
 
 The reported values have a high degree of inaccuracy. Apps should always ask the user to calibrate the device whenever this value is returned.
 
-
 ## -remarks
-
-
 
 Device drivers that support magnetometer accuracy should only report the <b>Unreliable</b>, <b>Approximate</b>, and <b>High</b> values.
 
 Apps that need calibration may periodically ask the user to calibrate the device. We suggest doing this once every 10 minutes.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor Properties</a>
- 
-
- 
 

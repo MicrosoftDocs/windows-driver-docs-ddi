@@ -8,9 +8,6 @@ ms.assetid: 7A9AB25B-2B8B-4E8A-9E67-79C56181E5D9
 ms.date: 05/03/2018
 keywords: ["IDebugOutputStream interface"]
 ms.keywords: IDebugOutputStream, IDebugOutputStream interface [Windows Debugging], IDebugOutputStream interface [Windows Debugging],described, dbgeng/IDebugOutputStream, debugger.idebugoutputstream
-f1_keywords:
- - "dbgeng/IDebugOutputStream"
- - "IDebugOutputStream"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugOutputStream
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugOutputStream
+ - dbgeng/IDebugOutputStream
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugOutputStream
 ---
 
 # IDebugOutputStream interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
 Supports the debug output stream.
-
 
 ## -inheritance
 

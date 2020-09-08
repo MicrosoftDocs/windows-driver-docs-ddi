@@ -8,9 +8,6 @@ ms.assetid: d740bed2-ba3c-4834-8bda-3512ac8da1d5
 ms.date: 04/20/2018
 keywords: ["OEMCUIPCALLBACK callback function"]
 ms.keywords: OEMCUIPCALLBACK, OEMCUIPCALLBACK callback, OEMCUIPCALLBACK callback function [Print Devices], print.oemcuipcallback, print_unidrv-pscript_ui_e40ce896-2920-4839-99a8-ddc0a616dcad.xml, printoem/OEMCUIPCALLBACK
-f1_keywords:
- - "printoem/OEMCUIPCALLBACK"
- - "OEMCUIPCALLBACK"
 req.header: printoem.h
 req.include-header: Printoem.h, Compstui.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- printoem.h
-api_name:
-- OEMCUIPCALLBACK
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - OEMCUIPCALLBACK
+ - printoem/OEMCUIPCALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - printoem.h
+api_name:
+ - OEMCUIPCALLBACK
 ---
 
 # OEMCUIPCALLBACK callback function
@@ -46,26 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The OEMCUIPCALLBACK function type is used for defining callback functions that are specified by a user interface plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-commonuiprop">IPrintOemUI::CommonUIProp</a> method. The structure is defined in printoem.h.
-
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
 ### -param Arg2
-
-
-
-
-
-
-
 
 #### - pCPSUICBParam
 
@@ -76,19 +63,11 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/co
 
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemcuipparam">OEMCUIPPARAM</a> structure.
 
-
 ## -returns
-
-
 
 See the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 A callback function specified by an <b>IPrintOemUI::CommonUIProp</b> method is called when a user modifies a printer property sheet. The callback function's purpose is to process user modifications to customized option items.
 
@@ -119,5 +98,4 @@ These return values are listed in order of decreasing priority. If multiple user
 
 </li>
 </ul>
-
 

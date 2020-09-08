@@ -8,9 +8,6 @@ ms.assetid: e7b16853-7f1d-45e4-af5e-4ae9cbb9b191
 ms.date: 04/20/2018
 keywords: ["IBidiRequest interface"]
 ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices],described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
-f1_keywords:
- - "bidispl/IBidiRequest"
- - "IBidiRequest"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bidispl.h
-api_name:
-- IBidiRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiRequest
+ - bidispl/IBidiRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bidispl.h
+api_name:
+ - IBidiRequest
 ---
 
 # IBidiRequest interface
+
 
 ## -description
 
@@ -54,3 +55,4 @@ The **IBidiRequest** interface allows an application or other objects to compose
 [Bidirectional Communication Schema](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema)
 
 [Print Spooler Components](https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components)
+

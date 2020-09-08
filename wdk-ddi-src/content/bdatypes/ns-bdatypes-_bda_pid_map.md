@@ -8,9 +8,6 @@ ms.assetid: a5ad0f35-8413-4828-92f8-47544a6e802e
 ms.date: 04/23/2018
 keywords: ["BDA_PID_MAP structure"]
 ms.keywords: "*PBDA_PID_MAP, BDA_PID_MAP, BDA_PID_MAP structure [Streaming Media Devices], PBDA_PID_MAP, PBDA_PID_MAP structure pointer [Streaming Media Devices], _BDA_PID_MAP, bdaref_a0793356-2192-4a72-9605-3d0d6d981ad2.xml, bdatypes/BDA_PID_MAP, bdatypes/PBDA_PID_MAP, stream.bda_pid_map"
-f1_keywords:
- - "bdatypes/BDA_PID_MAP"
- - "BDA_PID_MAP"
 req.header: bdatypes.h
 req.include-header: Bdatypes.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bdatypes.h
-api_name:
-- BDA_PID_MAP
 targetos: Windows
 req.typenames: BDA_PID_MAP, *PBDA_PID_MAP
+f1_keywords:
+ - _BDA_PID_MAP
+ - bdatypes/_BDA_PID_MAP
+ - PBDA_PID_MAP
+ - bdatypes/PBDA_PID_MAP
+ - BDA_PID_MAP
+ - bdatypes/BDA_PID_MAP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bdatypes.h
+api_name:
+ - BDA_PID_MAP
 ---
 
 # _BDA_PID_MAP structure
+
 
 ## -description
 
@@ -67,4 +72,5 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 [KSPROPSETID_BdaPIDFilter](https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdapidfilter)
 
-[MEDIA_SAMPLE_CONTENT](https://docs.microsoft.com/windows/desktop/directshow/media-sample-content)
+[MEDIA_SAMPLE_CONTENT](https://docs.microsoft.com/windows/win32/directshow/media-sample-content)
+

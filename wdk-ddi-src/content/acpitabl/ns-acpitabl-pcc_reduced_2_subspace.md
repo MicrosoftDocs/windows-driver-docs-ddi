@@ -20,23 +20,27 @@ req.target-type: Windows
 req.typenames: PCC_REDUCED_2_SUBSPACE, *PPCC_REDUCED_2_SUBSPACE
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- acpitabl.h
-api_name:
-- _PCC_REDUCED_2_SUBSPACE
-- PCC_REDUCED_2_SUBSPACE
-f1_keywords:
-- acpitabl/_PCC_REDUCED_2_SUBSPACE
-- acpitabl/PCC_REDUCED_2_SUBSPACE
-- PCC_REDUCED_2_SUBSPACE
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - acpitabl.h
+api_name:
+ - _PCC_REDUCED_2_SUBSPACE
+ - PCC_REDUCED_2_SUBSPACE
+f1_keywords:
+ - _PCC_REDUCED_2_SUBSPACE
+ - acpitabl/_PCC_REDUCED_2_SUBSPACE
+ - PPCC_REDUCED_2_SUBSPACE
+ - acpitabl/PPCC_REDUCED_2_SUBSPACE
+ - PCC_REDUCED_2_SUBSPACE
+ - acpitabl/PCC_REDUCED_2_SUBSPACE
 ---
 
 # _PCC_REDUCED_2_SUBSPACE structure
+
 
 ## -description
 
@@ -119,3 +123,4 @@ The platform interrupt ack write mask.
 ## -remarks
 
 ## -see-also
+

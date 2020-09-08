@@ -7,9 +7,6 @@ ms.assetid: 73F8F146-A38B-4890-867D-862361455AD4
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure"]
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, display.d3d11_1ddiarg_createvideoprocessorinputview
-f1_keywords:
- - "d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW"
- - "D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d10umddi.h
-api_name:
-- D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
+f1_keywords:
+ - D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
+ - d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d10umddi.h
+api_name:
+ - D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 ---
 
 # D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure
@@ -46,24 +46,17 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 
 ## -description
 
-
 Describes the video processor's input view.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hDrvResource
 
 A handle to the video decoder input resource.
 
-
 ### -field hDrvVideoProcessorEnum
 
 A handle to the video processor enumeration.
-
 
 ### -field FourCC
 
@@ -73,29 +66,19 @@ For example, if a new video standard emerges that requires a new substream forma
 
 For more information about FOURCC codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=231686">Video FOURCCs</a>.
 
-
 ### -field MipSlice
 
 The identifier of the MIP-map slice.
-
 
 ### -field FirstArraySlice
 
 The identifier of the first array slice.
 
-
 ### -field ArraySize
 
 The number of array slices for the texture.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: a71f70f6-7731-457b-bd6d-b4a649f76f8b
 ms.date: 05/02/2018
 keywords: ["PATH_OFFLOAD_STATE_CONST structure"]
 ms.keywords: "*PPATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST, PATH_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_CONST, PPATH_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], _PATH_OFFLOAD_STATE_CONST, ndischimney/PATH_OFFLOAD_STATE_CONST, ndischimney/PPATH_OFFLOAD_STATE_CONST, netvista.path_offload_state_const, tcp_chim_struct_4412519c-3610-4f0a-a4c6-400ff661d205.xml"
-f1_keywords:
- - "ndischimney/PATH_OFFLOAD_STATE_CONST"
- - "PATH_OFFLOAD_STATE_CONST"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndischimney.h
-api_name:
-- PATH_OFFLOAD_STATE_CONST
 targetos: Windows
 req.typenames: PATH_OFFLOAD_STATE_CONST, *PPATH_OFFLOAD_STATE_CONST
+f1_keywords:
+ - _PATH_OFFLOAD_STATE_CONST
+ - ndischimney/_PATH_OFFLOAD_STATE_CONST
+ - PPATH_OFFLOAD_STATE_CONST
+ - ndischimney/PPATH_OFFLOAD_STATE_CONST
+ - PATH_OFFLOAD_STATE_CONST
+ - ndischimney/PATH_OFFLOAD_STATE_CONST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndischimney.h
+api_name:
+ - PATH_OFFLOAD_STATE_CONST
 ---
 
 # _PATH_OFFLOAD_STATE_CONST structure
@@ -46,16 +50,11 @@ req.typenames: PATH_OFFLOAD_STATE_CONST, *PPATH_OFFLOAD_STATE_CONST
 
 ## -description
 
-
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The PATH_OFFLOAD_STATE_CONST structure contains the constant variables of a path state object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -67,13 +66,11 @@ An
      <b>RecognizedOptions</b> member of 
      <b>Header</b> is reserved.
 
-
 ### -field SourceAddress
 
 A pointer to the source IP address of a TCP connection. If the TCP connection is over IPv4, the
      address is a 4-byte IPv4 address. If the TCP connection is over IPv6, the address is a 16-byte IPv6
      address. The source address bytes are always in network byte order.
-
 
 ### -field DestinationAddress
 
@@ -81,10 +78,7 @@ A pointer to the destination IP address of a TCP connection. If the TCP connecti
      the address is a 4-byte IPv4 address. If the TCP connection is over IPv6, the address is a 16-byte IPv6
      address. The destination address bytes are always in network byte order.
 
-
 ## -remarks
-
-
 
 The value of each path constant variable does not change during the life of a TCP connection. Neither
     the host stack nor the offload target changes the values of a path constant variable. When the host stack
@@ -100,13 +94,7 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CONST structure is associ
     <b>Revision</b> member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of
     the PATH_OFFLOAD_STATE_CONST structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
 
@@ -125,7 +113,4 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CONST structure is associ
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_delegated">PATH_OFFLOAD_STATE_DELEGATED</a>
- 
-
- 
 

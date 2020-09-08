@@ -20,8 +20,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/D3D12DDIARG_RENDER_PASS_FLAGS_0053"
- - "D3D12DDIARG_RENDER_PASS_FLAGS_0053"
+ - D3D12DDIARG_RENDER_PASS_FLAGS_0053
+ - d3d12umddi/D3D12DDIARG_RENDER_PASS_FLAGS_0053
 topic_type:
  - apiref
 api_type:
@@ -37,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDIARG_RENDER_PASS_FLAGS_0053 enumeration
+
 
 ## -description
 

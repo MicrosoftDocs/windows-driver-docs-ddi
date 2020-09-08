@@ -8,9 +8,6 @@ ms.assetid: 9D266AC2-4CA1-4E23-B058-F2841420D0AC
 ms.date: 04/20/2018
 keywords: ["IPrintSchemaPageImageableSize::get_OriginHeightInMicrons"]
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],OriginHeightInMicrons property, IPrintSchemaPageImageableSize.OriginHeightInMicrons, IPrintSchemaPageImageableSize.get_OriginHeightInMicrons, IPrintSchemaPageImageableSize::OriginHeightInMicrons, IPrintSchemaPageImageableSize::get_OriginHeightInMicrons, OriginHeightInMicrons property [Print Devices], OriginHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_OriginHeightInMicrons, print.iprintschemapageimageablesize_originheightinmicrons, printerextension/IPrintSchemaPageImageableSize::OriginHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
-f1_keywords:
- - "printerextension/IPrintSchemaPageImageableSize.OriginHeightInMicrons"
- - "IPrintSchemaPageImageableSize.OriginHeightInMicrons"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrintSchemaPageImageableSize.OriginHeightInMicrons
-- IPrintSchemaPageImageableSize.get_OriginHeightInMicrons
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
+ - printerextension/IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrintSchemaPageImageableSize.OriginHeightInMicrons
+ - IPrintSchemaPageImageableSize.get_OriginHeightInMicrons
 ---
 
 # IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
@@ -47,22 +47,13 @@ req.typenames:
 
 ## -description
 
-
 Gets the vertical origin of the imageable area relative to the application media size.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize">IPrintSchemaPageImageableSize</a>
- 
-
- 
 

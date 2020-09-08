@@ -8,9 +8,6 @@ ms.assetid: 373788d8-4963-4319-82ae-3a0675c9fff4
 ms.date: 06/06/2019
 keywords: ["FILE_FS_ATTRIBUTE_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], PFILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_ATTRIBUTE_INFORMATION, fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, ifsk.file_fs_attribute_information, ntifs/FILE_FS_ATTRIBUTE_INFORMATION, ntifs/PFILE_FS_ATTRIBUTE_INFORMATION"
-f1_keywords:
- - "ntifs/FILE_FS_ATTRIBUTE_INFORMATION"
- - "FILE_FS_ATTRIBUTE_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- FILE_FS_ATTRIBUTE_INFORMATION
 targetos: Windows
 req.typenames: FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION
+f1_keywords:
+ - _FILE_FS_ATTRIBUTE_INFORMATION
+ - ntifs/_FILE_FS_ATTRIBUTE_INFORMATION
+ - PFILE_FS_ATTRIBUTE_INFORMATION
+ - ntifs/PFILE_FS_ATTRIBUTE_INFORMATION
+ - FILE_FS_ATTRIBUTE_INFORMATION
+ - ntifs/FILE_FS_ATTRIBUTE_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - FILE_FS_ATTRIBUTE_INFORMATION
 ---
 
 # _FILE_FS_ATTRIBUTE_INFORMATION structure
+
 
 ## -description
 
@@ -72,13 +77,13 @@ Bitmask of flags specifying attributes of the specified file system, as a compat
 | **FILE_NAMED_STREAMS** (0x00040000) | The file system supports named [data streams](https://docs.microsoft.com/openspecs/windows_protocols/ms-smb/c7d64f17-1ab6-4151-b9e8-f15813235c83#gt_f3529cd8-50da-4f36-aa0b-66af455edbb6) for a file. |
 | **FILE_READ_ONLY_VOLUME** (0x00080000) | The specified volume is read-only. |
 | **FILE_SEQUENTIAL_WRITE_ONCE** (0x00100000) | The specified volume can be written to one time only. The write must be performed in sequential order. |
-| **FILE_SUPPORTS_TRANSACTIONS** (0x00200000) | The file system supports [transaction processing](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal). |
+| **FILE_SUPPORTS_TRANSACTIONS** (0x00200000) | The file system supports [transaction processing](https://docs.microsoft.com/windows/win32/fileio/transactional-ntfs-portal). |
 | **FILE_SUPPORTS_HARD_LINKS** (0x00400000) | The file system supports direct links to other devices and partitions. |
 | **FILE_SUPPORTS_EXTENDED_ATTRIBUTES** (0x00800000) | The file system supports extended attributes (EAs). |
 | **FILE_SUPPORTS_OPEN_BY_FILE_ID** (0x01000000) | The file system supports open by file ID. |
 | **FILE_SUPPORTS_USN_JOURNAL** (0x02000000) | The file system supports update sequence number (USN) journals. |
 | **FILE_SUPPORTS_INTEGRITY_STREAMS** (0x04000000) | The file system supports [integrity streams](https://docs.microsoft.com/windows-server/storage/refs/integrity-streams). |
-| **FILE_SUPPORTS_BLOCK_REFCOUNTING** (0x08000000) | The file system supports [block cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning), that is, sharing logical clusters between files on the same volume. The file system reallocates on writes to shared clusters. |
+| **FILE_SUPPORTS_BLOCK_REFCOUNTING** (0x08000000) | The file system supports [block cloning](https://docs.microsoft.com/windows/win32/fileio/block-cloning), that is, sharing logical clusters between files on the same volume. The file system reallocates on writes to shared clusters. |
 | **FILE_SUPPORTS_SPARSE_VDL** (0x10000000) | The file system tracks whether each cluster of a file contains valid data (either from explicit file writes or automatic zeros) or invalid data (has not yet been written to or zeroed). File systems that use sparse valid data length (VDL) do not store a valid data length and do not require that valid data be contiguous within a file. |
 | **FILE_DAX_VOLUME** (0x20000000)| The specified volume is a direct access (DAX) volume. |
 | **FILE_SUPPORTS_GHOSTING** (0x40000000) | The file system supports ghosting. |
@@ -101,7 +106,7 @@ This information can be queried in either of the following ways:
 
 * Call [FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation) or [ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwqueryvolumeinformationfile), passing **FileFsAttributeInformation** as the value of *FileInformationClass* and passing a caller-allocated, **FILE_FS_ATTRIBUTE_INFORMATION**-structured buffer as the value of *FileInformation*.
 
-  * Note: On CSVFS, **FileFsAttributeInformation** returns **FILE_FS_ATTRIBUTE_INFORMATION** for the CSVFS file system. If you want to query **FileFsAttributeInformation** for the file system CSVFS is layered on then you should use [FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_query_down_level_file_system_characteristics).
+  * Note: On CSVFS, **FileFsAttributeInformation** returns **FILE_FS_ATTRIBUTE_INFORMATION** for the CSVFS file system. If you want to query **FileFsAttributeInformation** for the file system CSVFS is layered on then you should use [FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS](https://docs.microsoft.com/windows/win32/api/winioctl/ni-winioctl-fsctl_csv_query_down_level_file_system_characteristics).
 
 * Create an IRP with major function code [IRP_MJ_QUERY_VOLUME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-volume-information).
 
@@ -120,3 +125,4 @@ This structure must be aligned on a **LONG** (4-byte) boundary.
 [IRP_MJ_QUERY_VOLUME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
 
 [ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwqueryvolumeinformationfile)
+

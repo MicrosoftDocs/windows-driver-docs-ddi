@@ -8,9 +8,6 @@ ms.assetid: 44EC5408-626A-4FDA-A777-C1A733D690F1
 ms.date: 04/30/2018
 keywords: ["PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_memory_resource, pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
-f1_keywords:
- - "pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE"
- - "PEP_ACPI_INITIALIZE_MEMORY_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows
@@ -28,70 +25,62 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pepfx.h
-api_name:
-- PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
+ - pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pepfx.h
+api_name:
+ - PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 ---
 
-# PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function
+# PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function (pepfx.h)
 
 
 ## -description
 
-
 The <b>PEP_ACPI_INITIALIZE_MEMORY_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_io_memory_resource">PEP_ACPI_IO_MEMORY_RESOURCE</a> structure.
-
 
 ## -parameters
 
+### -param ReadWrite 
 
-
-
-### -param ReadWrite [in]
-
+[in]
 If true, indicates that the resource is read/write. Otherwise, it's read-only.
 
+### -param MinimumAddress 
 
-### -param MinimumAddress [in]
-
+[in]
 Specifies the minimum acceptable starting address for the IO range.
 
+### -param MaximumAddress 
 
-### -param MaximumAddress [in]
-
+[in]
 Specifies the maximum acceptable starting address for the IO range.
 
+### -param Alignment 
 
-### -param Alignment [in]
-
+[in]
 Specifies the alignment granularity for the memory address assigned.
 
+### -param MemorySize 
 
-### -param MemorySize [in]
-
+[in]
 Specifies the number of bytes in the memory range.
 
+### -param Resource 
 
-### -param Resource [out]
-
+[out]
 A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_io_memory_resource">PEP_ACPI_IO_MEMORY_RESOURCE</a>.
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_io_memory_resource">PEP_ACPI_IO_MEMORY_RESOURCE</a>
- 
-
- 
 

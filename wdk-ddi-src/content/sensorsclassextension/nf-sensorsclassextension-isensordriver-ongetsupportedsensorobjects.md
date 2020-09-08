@@ -8,9 +8,6 @@ ms.assetid: a8ea63cf-24ba-467b-9c27-ab8e38be1c04
 ms.date: 05/03/2018
 keywords: ["ISensorDriver::OnGetSupportedSensorObjects"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedSensorObjects method, ISensorDriver.OnGetSupportedSensorObjects, ISensorDriver::OnGetSupportedSensorObjects, OnGetSupportedSensorObjects, OnGetSupportedSensorObjects method [Sensor Devices], OnGetSupportedSensorObjects method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedsensorobjects, sensorsclassextension/ISensorDriver::OnGetSupportedSensorObjects
-f1_keywords:
- - "sensorsclassextension/OnGetSupportedSensorObjects"
- - "OnGetSupportedSensorObjects"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SensorsClassExtension.lib
-- SensorsClassExtension.dll
-api_name:
-- OnGetSupportedSensorObjects
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ISensorDriver::OnGetSupportedSensorObjects
+ - sensorsclassextension/ISensorDriver::OnGetSupportedSensorObjects
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SensorsClassExtension.lib
+ - SensorsClassExtension.dll
+api_name:
+ - OnGetSupportedSensorObjects
 ---
 
 # ISensorDriver::OnGetSupportedSensorObjects
@@ -47,36 +47,19 @@ req.typenames:
 
 ## -description
 
-
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedsensorobjects">ISensorDriver::OnGetSupportedSensorObjects</a> method retrieves the list of sensors that the driver provides.
 
-
 ## -parameters
-
-
-
 
 ### -param ppSensorObjectCollection
 
 Address of an IPortableDeviceValuesCollection pointer that receives the list of sensors.
 
-
 ## -returns
-
-
 
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 56b9cdb5-2734-45b5-aeaf-ae6d606d1a5c
 ms.date: 05/08/2018
 keywords: ["HDAUDIO_CODEC_RESPONSE structure"]
 ms.keywords: "*PHDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE, HDAUDIO_CODEC_RESPONSE structure [Audio Devices], PHDAUDIO_CODEC_RESPONSE, PHDAUDIO_CODEC_RESPONSE structure pointer [Audio Devices], _HDAUDIO_CODEC_RESPONSE, aud-prop2_2cf51d01-4493-439c-9a5f-30b86d76502b.xml, audio.hdaudio_codec_response, hdaudio/HDAUDIO_CODEC_RESPONSE, hdaudio/PHDAUDIO_CODEC_RESPONSE"
-f1_keywords:
- - "hdaudio/HDAUDIO_CODEC_RESPONSE"
- - "HDAUDIO_CODEC_RESPONSE"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hdaudio.h
-api_name:
-- HDAUDIO_CODEC_RESPONSE
 targetos: Windows
 req.typenames: HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE
+f1_keywords:
+ - _HDAUDIO_CODEC_RESPONSE
+ - hdaudio/_HDAUDIO_CODEC_RESPONSE
+ - PHDAUDIO_CODEC_RESPONSE
+ - hdaudio/PHDAUDIO_CODEC_RESPONSE
+ - HDAUDIO_CODEC_RESPONSE
+ - hdaudio/HDAUDIO_CODEC_RESPONSE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hdaudio.h
+api_name:
+ - HDAUDIO_CODEC_RESPONSE
 ---
 
 # _HDAUDIO_CODEC_RESPONSE structure
@@ -46,59 +50,27 @@ req.typenames: HDAUDIO_CODEC_RESPONSE, *PHDAUDIO_CODEC_RESPONSE
 
 ## -description
 
-
 The HDAUDIO_CODEC_RESPONSE structure specifies either a response to a codec command or an unsolicited response from a codec.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Unsolicited
-
- 
-
 
 ### -field Unsolicited.Response
 
- 
-
-
 ### -field Unsolicited.SubTag
-
- 
-
 
 ### -field Unsolicited.Tag
 
- 
-
-
 ### -field Response
-
- 
-
 
 ### -field SDataIn
 
- 
-
-
 ### -field IsUnsolicitedResponse
-
- 
-
 
 ### -field HasFifoOverrun
 
- 
-
-
 ### -field IsValid
-
- 
-
 
 ### -field CompleteResponse
 
@@ -157,10 +129,7 @@ Specifies whether a FIFO overrun occurred in the response input ring buffer (RIR
 
 Specifies whether the response is valid. If 1, the response is valid. If 0, it is not valid.
 
-
 ## -remarks
-
-
 
 After calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">TransferCodecVerbs</a> routine, function drivers can use the HDAUDIO_CODEC_RESPONSE structure to decode the responses to their codec commands. The commands are contained in the HDAUDIO_CODEC_TRANSFER structures that clients pass to this routine as call parameters.
 
@@ -182,13 +151,7 @@ If <b>HasFifoOverrun</b>=0, the codec failed to respond.
 </ul>
 The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOverrun</b> members is reserved for future expansion. The HD Audio bus controller currently writes zeros to this field.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_transfer">HDAUDIO_CODEC_TRANSFER</a>
 
@@ -199,7 +162,4 @@ The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOve
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">TransferCodecVerbs</a>
- 
-
- 
 

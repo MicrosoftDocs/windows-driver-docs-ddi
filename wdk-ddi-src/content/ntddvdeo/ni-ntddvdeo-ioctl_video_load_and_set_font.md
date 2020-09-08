@@ -8,9 +8,6 @@ ms.assetid: 13771df5-f66c-4dd9-b2d3-4477fda82f8f
 ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_LOAD_AND_SET_FONT IOCTL"]
 ms.keywords: IOCTL_VIDEO_LOAD_AND_SET_FONT, IOCTL_VIDEO_LOAD_AND_SET_FONT control, IOCTL_VIDEO_LOAD_AND_SET_FONT control code [Display Devices], Video_IOCTLs_f68527dd-7070-4a47-91e2-9e64610508b7.xml, display.ioctl_video_load_and_set_font, ntddvdeo/IOCTL_VIDEO_LOAD_AND_SET_FONT
-f1_keywords:
- - "ntddvdeo/IOCTL_VIDEO_LOAD_AND_SET_FONT"
- - "IOCTL_VIDEO_LOAD_AND_SET_FONT"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddvdeo.h
-api_name:
-- IOCTL_VIDEO_LOAD_AND_SET_FONT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_VIDEO_LOAD_AND_SET_FONT
+ - ntddvdeo/IOCTL_VIDEO_LOAD_AND_SET_FONT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddvdeo.h
+api_name:
+ - IOCTL_VIDEO_LOAD_AND_SET_FONT
 ---
 
 # IOCTL_VIDEO_LOAD_AND_SET_FONT IOCTL
@@ -46,63 +46,25 @@ req.typenames:
 
 ## -description
 
-
-
 Loads a user-defined font on the adapter. Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains a VIDEO_LOAD_FONT_INFORMATION structure describing the font's width, height, and size, as well as a pointer to the font buffer.
 
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
 None
 
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

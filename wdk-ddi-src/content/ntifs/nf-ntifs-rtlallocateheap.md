@@ -8,9 +8,6 @@ ms.assetid: 38f4c2b7-f9cd-42f2-b75e-725976b6b9dd
 ms.date: 11/26/2019
 keywords: ["RtlAllocateHeap function"]
 ms.keywords: RtlAllocateHeap, RtlAllocateHeap routine [Installable File System Drivers], ifsk.rtlallocateheap, ntifs/RtlAllocateHeap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml
-f1_keywords:
- - "ntifs/RtlAllocateHeap"
- - "RtlAllocateHeap"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: < DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-- ntdll.dll
-api_name:
-- RtlAllocateHeap
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlAllocateHeap
+ - ntifs/RtlAllocateHeap
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+ - ntdll.dll
+api_name:
+ - RtlAllocateHeap
 ---
 
 # RtlAllocateHeap function
+
 
 ## -description
 
@@ -50,12 +51,14 @@ The **RtlAllocateHeap** routine allocates a block of memory from a heap.
 
 ## -parameters
 
-### -param HeapHandle [in]
+### -param HeapHandle 
 
+[in]
 Handle for a private heap from which the memory will be allocated. This parameter is a handle returned from a successful call to [**RtlCreateHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap)    .
 
-### -param Flags [in, optional]
+### -param Flags 
 
+[in, optional]
 Controllable aspects of heap allocation. Specifying any of these values will override the corresponding value specified when the heap was created with **RtlCreateHeap**. This parameter can be one or more of the following values.
 
 | Flag | Meaning |
@@ -64,8 +67,9 @@ Controllable aspects of heap allocation. Specifying any of these values will ove
 | HEAP_NO_SERIALIZE | Mutual exclusion will not be used while **RtlAllocateHeap** is accessing the heap. |
 | HEAP_ZERO_MEMORY | The allocated memory will be initialized to zero. Otherwise, the memory is not initialized to zero. |
 
-### -param Size [in]
+### -param Size 
 
+[in]
 Number of bytes to be allocated. If the heap, specified by the *HeapHandle* parameter, is a nongrowable heap, *Size* must be less than or equal to the heap's virtual memory threshold. (For more information, see the **VirtualMemoryThreshold** member of the *Parameters* parameter to [**RtlCreateHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap).)
 
 ## -returns
@@ -98,3 +102,4 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 [**RtlDestroyHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldestroyheap)
 
 [**RtlFreeHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfreeheap)
+

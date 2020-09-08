@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/pfnVideoDecoderEnableDownsampling"
- - "pfnVideoDecoderEnableDownsampling"
+ - PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING
+ - d3d10umddi/PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING callback function
+
 
 ## -description
 
@@ -82,7 +83,7 @@ Indicates the number of reference frame used.
 
 ## -returns
 
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 

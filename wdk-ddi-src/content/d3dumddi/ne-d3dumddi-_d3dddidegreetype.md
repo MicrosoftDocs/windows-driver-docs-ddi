@@ -20,8 +20,10 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3dumddi/_D3DDDIDEGREETYPE"
- - "_D3DDDIDEGREETYPE"
+ - _D3DDDIDEGREETYPE
+ - d3dumddi/_D3DDDIDEGREETYPE
+ - D3DDDIDEGREETYPE
+ - d3dumddi/D3DDDIDEGREETYPE
 topic_type:
  - apiref
 api_type:
@@ -37,6 +39,7 @@ dev_langs:
 ---
 
 # _D3DDDIDEGREETYPE enumeration
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: 7cbf015c-4756-4d5c-a5fb-9cd8a5e0e3fd
 ms.date: 04/30/2019
 keywords: ["KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_AUTO, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_HIGH, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_LOW, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_MEDIUM, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_OFF, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, ksmedia/PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, stream.ksproperty_cameracontrol_videostabilization_mode_s"
-f1_keywords:
- - "ksmedia/KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S"
- - "KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ksmedia.h
-api_name:
-- KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, *PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+f1_keywords:
+ - PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+ - ksmedia/PKSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+ - KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+ - ksmedia/KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ksmedia.h
+api_name:
+ - KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
 ---
 
 # KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S structure
@@ -46,14 +48,9 @@ req.typenames: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S, *PKSPROPERTY_
 
 ## -description
 
-
 Describes video stabilization control properties in the <b>PROPSETID_VIDCAP_CAMERACONTROL_VIDEO_STABILIZATION</b> camera control property set. This structure specifies property values that are used in requests to the camera driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field VideoStabilizationMode
 
@@ -89,7 +86,6 @@ Video stabilization is set at a medium level.
 
 Video stabilization is set at a high level.
 
-
 ### -field Capabilities
 
 Indicates whether the device and driver support setting video stabilization control automatically or manually. This member a bitwise <b>OR</b> of these possible values:
@@ -106,27 +102,15 @@ The device and driver can automatically control video stabilization.
 
 The user can manually set video stabilization modes.
 
-
 ## -remarks
-
-
 
 The video stabilization settings specified with this structure affect only the device and have no effect on applications' software video stabilization.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ksproperty_cameracontrol_video_stabilization_mode">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-video-stabilization-mode-property">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY</a>
- 
-
- 
 

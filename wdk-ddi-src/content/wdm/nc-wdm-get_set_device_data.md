@@ -8,9 +8,6 @@ ms.assetid: F5BDB3DF-6AC9-424E-BC69-27071F3D3820
 ms.date: 04/30/2018
 keywords: ["GET_SET_DEVICE_DATA callback function"]
 ms.keywords: GET_SET_DEVICE_DATA, GetBusData, GetBusData routine [Kernel-Mode Driver Architecture], drvr_interface_f4fd2eab-5924-4ffa-b39e-fd7e0f74e5df.xml, kernel.busgetdevicedata, kernel.getbusdata, wdm/GetBusData
-f1_keywords:
- - "wdm/GetBusData"
- - "GetBusData"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdm.h
-api_name:
-- GetBusData
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GET_SET_DEVICE_DATA
+ - wdm/GET_SET_DEVICE_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdm.h
+api_name:
+ - GetBusData
 ---
 
 # GET_SET_DEVICE_DATA callback function
@@ -46,52 +46,40 @@ req.typenames:
 
 ## -description
 
-
-The <i>GetBusData</i> routine reads data from the device's configuration space. 
-
+The <i>GetBusData</i> routine reads data from the device's configuration space.
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in]
-
+[in]
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_bus_interface_standard">BUS_INTERFACE_STANDARD</a> structure for the interface.
 
+### -param DataType 
 
-### -param DataType [in]
+[in]
+The type of bus data to read. For more information, see the discussion of the <i>WhichSpace</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>.
 
-The type of bus data to read. For more information, see the discussion of the <i>WhichSpace</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>. 
+### -param Buffer 
 
+[in]
+A pointer to the buffer that holds the configuration information to be read from the device's configuration space.
 
-### -param Buffer [in]
+### -param Offset 
 
-A pointer to the buffer that holds the configuration information to be read from the device's configuration space. 
+[in]
+The offset into the bus-specific device data where this read operation begins. For example, if the <i>DataType</i> parameter is <b>PCI_WHICHSPACE_CONFIG</b>, the <i>Offset</i> parameter value is the offset into PCI Configuration Space.
 
+### -param Length 
 
-### -param Offset [in]
-
-The offset into the bus-specific device data where this read operation begins. For example, if the <i>DataType</i> parameter is <b>PCI_WHICHSPACE_CONFIG</b>, the <i>Offset</i> parameter value is the offset into PCI Configuration Space. 
-
-
-### -param Length [in]
-
-The length, in bytes, of data to read. 
-
+[in]
+The length, in bytes, of data to read.
 
 ## -returns
 
-
-
-The <i>GetBusData</i> routine returns the length, in bytes, of the configuration data that is read after a successful read operation. If the read operation is unsuccessful, a value of zero is returned. 
-
-
-
+The <i>GetBusData</i> routine returns the length, in bytes, of the configuration data that is read after a successful read operation. If the read operation is unsuccessful, a value of zero is returned.
 
 ## -remarks
-
-
 
 Depending on the value of the <i>DataType</i> parameter, the <i>GetBusData</i> routine can be called only from the interrupt request levels (IRQLs) that are defined in the following table.
 
@@ -170,19 +158,11 @@ In order to read PCI Configuration data for the VF at IRQL = DISPATCH_LEVEL, the
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_bus_interface_standard">BUS_INTERFACE_STANDARD</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>
- 
-
- 
 

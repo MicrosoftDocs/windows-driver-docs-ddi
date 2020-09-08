@@ -8,9 +8,6 @@ ms.assetid: df68dda0-6128-46c9-bf2b-562c10f9a6f1
 ms.date: 04/23/2018
 keywords: ["PFNKSPINSETDEVICESTATE callback function"]
 ms.keywords: AVStrMiniPinSetDeviceState, AVStrMiniPinSetDeviceState routine [Streaming Media Devices], PFNKSPINSETDEVICESTATE, avstclbk_5a0f9097-33fb-4047-a361-bf14ac834cc3.xml, ks/AVStrMiniPinSetDeviceState, stream.avstrminipinsetdevicestate
-f1_keywords:
- - "ks/AVStrMiniPinSetDeviceState"
- - "AVStrMiniPinSetDeviceState"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniPinSetDeviceState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSPINSETDEVICESTATE
+ - ks/PFNKSPINSETDEVICESTATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniPinSetDeviceState
 ---
 
 # PFNKSPINSETDEVICESTATE callback function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 An AVStream minidriver's <i>AVStrMiniPinSetDeviceState</i> routine is called when the state of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure is changed due to the arrival of a connection state property 'set' IOCTL.  Typically, this will be provided by minidrivers that need to change the state of hardware.
-
 
 ## -parameters
 
+### -param Pin 
 
-
-
-### -param Pin [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which state is changing.
 
+### -param ToState 
 
-### -param ToState [in]
-
+[in]
 The target <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> after receipt of the IOCTL.
 
+### -param FromState 
 
-### -param FromState [in]
-
+[in]
 The previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>.
-
 
 ## -returns
 
-
-
 Return STATUS_SUCCESS or the error code that was returned from the attempt to set the state. Do not return STATUS_PENDING. The filter control mutex is held during this function. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-control-mutex-in-avstream">Filter Control Mutex in AVStream</a>.
 
-
-
-
 ## -remarks
-
-
 
 The minidriver specifies this routine's address in the <b>SetDeviceState</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a> structure.
 
@@ -93,16 +81,7 @@ Pins that do not use the standard transport mechanism (nonstandard interface, no
 
 This routine is optional.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
- 
-
- 
 

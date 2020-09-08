@@ -8,9 +8,6 @@ ms.assetid: b5aeb972-3e52-4cdc-842b-7848bb2f8dc7
 ms.date: 04/16/2018
 keywords: ["RxCancelTimerRequest function"]
 ms.keywords: RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], ifsk.rxcanceltimerrequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml, rxtimer/RxCancelTimerRequest
-f1_keywords:
- - "rxtimer/RxCancelTimerRequest"
- - "RxCancelTimerRequest"
 req.header: rxtimer.h
 req.include-header: Rxtimer.h, Rxworkq.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxtimer.h
-api_name:
-- RxCancelTimerRequest
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxCancelTimerRequest
+ - rxtimer/RxCancelTimerRequest
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxtimer.h
+api_name:
+ - RxCancelTimerRequest
 ---
 
 # RxCancelTimerRequest function
@@ -46,61 +46,40 @@ req.typenames:
 
 ## -description
 
-
-<b>RxCancelTimerRequest</b> cancels a recurrent timer request. The request to be canceled is identified by the worker thread routine and associated context. 
-
+<b>RxCancelTimerRequest</b> cancels a recurrent timer request. The request to be canceled is identified by the worker thread routine and associated context.
 
 ## -parameters
 
+### -param pDeviceObject 
 
-
-
-### -param pDeviceObject [in]
-
+[in]
 A pointer to the device object that initialized the timer. This parameter was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this recurrent timer was initialized.
 
+### -param Routine 
 
-### -param Routine [in]
-
+[in]
 A pointer to the worker thread routine to call when this timer expires. This parameter was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this recurrent timer was initialized.
 
+### -param pContext 
 
-### -param pContext [in]
-
+[in]
 A pointer to the context parameter that was passed to the <b>RxPostRecurrentTimerRequest</b> routine when this timer was initialized.
-
 
 ## -returns
 
-
-
-<b>RxCancelTimerRequest</b> returns STATUS_SUCCESS on success. 
-
-
-
+<b>RxCancelTimerRequest</b> returns STATUS_SUCCESS on success.
 
 ## -remarks
-
-
 
 A recurrent timer is initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxpostrecurrenttimerrequest">RxPostRecurrentTimerRequest</a>.
 
 If the recurrent timer is not found, this routine will return STATUS_NOT_FOUND.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxpostoneshottimerrequest">RxPostOneShotTimerRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxpostrecurrenttimerrequest">RxPostRecurrentTimerRequest</a>
- 
-
- 
 

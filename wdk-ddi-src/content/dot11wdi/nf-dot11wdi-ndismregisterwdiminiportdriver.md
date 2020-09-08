@@ -8,9 +8,6 @@ ms.assetid: 60FE4E6C-38D4-438F-983B-7336926F6FE2
 ms.date: 05/02/2018
 keywords: ["NdisMRegisterWdiMiniportDriver function"]
 ms.keywords: NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver
-f1_keywords:
- - "dot11wdi/NdisMRegisterWdiMiniportDriver"
- - "NdisMRegisterWdiMiniportDriver"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMRegisterWdiMiniportDriver
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMRegisterWdiMiniportDriver
+ - dot11wdi/NdisMRegisterWdiMiniportDriver
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMRegisterWdiMiniportDriver
 ---
 
 # NdisMRegisterWdiMiniportDriver function
@@ -47,60 +47,52 @@ req.typenames:
 
 ## -description
 
-
 A miniport driver calls the NdisMRegisterWdiMiniportDriver function to register MiniportWdiXxx entry points with NDIS as the first step in initialization.
-
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 A pointer to an opaque driver object that the miniport driver received in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-miniport-driver">DriverEntry of NDIS
      Miniport Drivers</a>).
 
+### -param RegistryPath 
 
-### -param RegistryPath [in]
-
+[in]
 A pointer to an opaque registry path that the miniport driver received in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
+### -param NdisDriverContext 
 
-### -param NdisDriverContext [in, optional]
-
+[in, optional]
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information.
 
+### -param MiniportDriverCharacteristics 
 
-### -param MiniportDriverCharacteristics [in]
-
+[in]
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_driver_characteristics">
      NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a> structure that the caller initialized.
 
+### -param MiniportWdiCharacteristics 
 
-### -param MiniportWdiCharacteristics [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a> structure that the caller initialized.
 
+### -param NdisMiniportDriverHandle 
 
-### -param NdisMiniportDriverHandle [out]
-
+[out]
 A pointer to a caller-supplied handle variable. NDIS writes a handle to this variable that
      uniquely identifies this driver. The driver must save this handle for use in subsequent 
      <b>Ndis<i>Xxx</i></b> function calls.
 
-
 ## -returns
-
-
-
 
             NdisMRegisterWdiMiniportDriver can return any of the following return values.
 
@@ -182,15 +174,8 @@ An appropriate NDIS_STATUS code in the case of a failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
@@ -201,7 +186,4 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
- 
-
- 
 

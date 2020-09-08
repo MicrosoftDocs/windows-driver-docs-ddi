@@ -8,9 +8,6 @@ ms.assetid: 5511f540-4448-4cbe-849a-b1712453fae1
 ms.date: 05/02/2018
 keywords: ["PFN_WSK_CLIENT_EVENT callback function"]
 ms.keywords: PFN_WSK_CLIENT_EVENT, PFN_WSK_CLIENT_EVENT callback, WskClientEvent, WskClientEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskclientevent, wsk/WskClientEvent, wskref_c9f563f1-19c1-4f8d-ab44-04eedd74763f.xml
-f1_keywords:
- - "wsk/WskClientEvent"
- - "WskClientEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wsk.h
-api_name:
-- WskClientEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFN_WSK_CLIENT_EVENT
+ - wsk/PFN_WSK_CLIENT_EVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wsk.h
+api_name:
+ - WskClientEvent
 ---
 
 # PFN_WSK_CLIENT_EVENT callback function
@@ -46,35 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>WskClientEvent</i> event callback function notifies a WSK application about events that are not specific
   to a particular socket.
 
-
 ## -parameters
 
+### -param ClientContext 
 
-
-
-### -param ClientContext [in, optional]
-
+[in, optional]
 A pointer to the context value that was specified by the 
      <i>WskClientNpi</i> parameter passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> function.
 
-
 ### -param EventType
 
+### -param Information 
 
-### -param Information [in, optional]
-
+[in, optional]
 A pointer to a buffer that contains additional information that is associated with the event. If
      there is no additional information associated with the event, this pointer will be <b>NULL</b>.
 
+### -param InformationLength 
 
-### -param InformationLength [in]
-
+[in]
 The length of the additional information that is contained in the buffer that is pointed to by the     
      <i>Information</i> parameter. If there is no additional information associated with the event, this value
      will be zero.
@@ -85,10 +80,7 @@ The length of the additional information that is contained in the buffer that is
 The specific event about which the WSK application is being notified. There are currently no
      events defined.
 
-
 ## -returns
-
-
 
 A WSK application's 
      <i>WskClientEvent</i> event callback function can return one of the following NTSTATUS codes:
@@ -122,14 +114,8 @@ Support for the event that is passed in the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Currently, no events are defined for the 
     <i>WskClientEvent</i> event callback function. Therefore, if a WSK application implements a 
@@ -151,20 +137,11 @@ The WSK subsystem calls a WSK application's
 
 A WSK application's <i>WskClientEvent</i> event callback function must not wait for completion of other WSK requests in the context of WSK completion or event callback functions. The callback can initiate other WSK requests (assuming that it doesn't spend too much time at DISPATCH_LEVEL), but it must not wait for their completion even when the callback is called at IRQL = PASSIVE_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
- 
-
- 
 

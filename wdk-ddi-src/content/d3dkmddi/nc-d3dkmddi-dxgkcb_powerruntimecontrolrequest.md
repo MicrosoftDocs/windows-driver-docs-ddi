@@ -7,9 +7,6 @@ ms.assetid: 28984c89-a1d9-4720-8c4c-2b2ce34e0899
 ms.date: 05/10/2018
 keywords: ["DXGKCB_POWERRUNTIMECONTROLREQUEST callback function"]
 ms.keywords: DXGKCB_POWERRUNTIMECONTROLREQUEST, DXGKCB_POWERRUNTIMECONTROLREQUEST callback, DxgkCbPowerRuntimeControlRequest, DxgkCbPowerRuntimeControlRequest callback function [Display Devices], PDXGKCB_POWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkCbPowerRuntimeControlRequest, display.dxgkcbpowerruntimecontrolrequest
-f1_keywords:
- - "d3dkmddi/DxgkCbPowerRuntimeControlRequest"
- - "DxgkCbPowerRuntimeControlRequest"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkCbPowerRuntimeControlRequest
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - DXGKCB_POWERRUNTIMECONTROLREQUEST
+ - d3dkmddi/DXGKCB_POWERRUNTIMECONTROLREQUEST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkCbPowerRuntimeControlRequest
 ---
 
 # DXGKCB_POWERRUNTIMECONTROLREQUEST callback function
@@ -46,19 +46,14 @@ req.typenames:
 
 ## -description
 
-
 Called by the display miniport driver to exchange information with the Power Engine Plug-in (PEP).
-
 
 ## -parameters
 
+### -param hAdapter 
 
-
-
-### -param hAdapter [in]
-
+[in]
 A handle to the display adapter. The display miniport driver receives the handle from the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure in a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
-
 
 ### -param LPCGUID
 
@@ -72,45 +67,17 @@ A pointer to a GUID that defines the meaning of the display miniport driver's co
 
 An optional pointer to an input buffer.
 
-
 ### -param SIZE_T
 
 *InBufferSize* [in]
 
 The size, in bytes, of the buffer that <i>InBuffer (OPTIONAL)</i> points to.
 
-### -param OPTIONAL
-
-*OutBuffer* [out, optional]
-
-An optional pointer to an output buffer.
-
-### -param SIZE_T
-
-*OutBufferSize* [in]
-
-The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
-
-### -param OPTIONAL
-
-*BytesReturned* [out, optional]
-
-An optional pointer to a buffer that contains the number of bytes that are written by the PEP to the output buffer.
-
-
-
 ## -returns
-
-
 
 Returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_setpowercomponentactive">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div>
 <div> </div>
@@ -167,13 +134,7 @@ Change the bandwidth, but the driver doesn't know if the change is an increase o
 
 These GUIDs do not imply that there is any communication protocol between the display miniport driver and the PEP, nor do they imply that there are any restrictions on the values that can be passed between the display miniport driver and the PEP.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a>
 
@@ -184,7 +145,4 @@ These GUIDs do not imply that there is any communication protocol between the di
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
- 
-
- 
 

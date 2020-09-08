@@ -8,9 +8,6 @@ ms.assetid: 71b595be-61ac-4a8f-af5e-d504e5091e0c
 ms.date: 04/16/2018
 keywords: ["RxInitializeContext function"]
 ms.keywords: RxInitializeContext, RxInitializeContext function [Installable File System Drivers], ifsk.rxinitializecontext, rxcontx/RxInitializeContext, rxref_4092dc37-eda5-4293-ab39-bec3ed2753f6.xml
-f1_keywords:
- - "rxcontx/RxInitializeContext"
- - "RxInitializeContext"
 req.header: rxcontx.h
 req.include-header: Rxprocs.h  rxcontx.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rxcontx.h
-api_name:
-- RxInitializeContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxInitializeContext
+ - rxcontx/RxInitializeContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rxcontx.h
+api_name:
+ - RxInitializeContext
 ---
 
 # RxInitializeContext function
@@ -46,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
-<b>RxInitializeContext</b> initializes an existing RX_CONTEXT data structure. 
-
+<b>RxInitializeContext</b> initializes an existing RX_CONTEXT data structure.
 
 ## -parameters
 
+### -param Irp 
 
-
-
-### -param Irp [in, optional]
-
+[in, optional]
 A pointer to the IRP to be encapsulated by this RX_CONTEXT structure.
 
+### -param RxDeviceObject 
 
-### -param RxDeviceObject [in]
-
+[in]
 A pointer to the device object to which this RX_CONTEXT and IRP apply.
 
+### -param InitialContextFlags 
 
-### -param InitialContextFlags [in]
-
+[in]
 The set of initial values for <i>Flags</i> member of the RX_CONTEXT data structure to be stored in the RX_CONTEXT structure. These initial values can be any combination of the following enumerations:
 
 
@@ -87,17 +83,14 @@ When this value is set, the operation must succeed. This value is not currently 
 
 #### RX_CONTEXT_FLAG_MUST_SUCCEED_NONBLOCKING
 
-When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers. 
+When this value is set, the operation must succeed for non-blocking operations. This value is not currently used by RDBSS, but it may be used by network mini-redirector drivers.
 
+### -param RxContext 
 
-### -param RxContext [in, out]
-
+[in, out]
 Pointer to the RX_CONTEXT to be initialized.
 
-
 ## -remarks
-
-
 
 <b>RxInitializeContext</b> is called internally by the <b>RxCreateRxContext</b> routine. So the <b>RxInitializeContext</b> routine would normally only be used by network min-redirector drivers that allocate RX_CONTEXT structures directly rather than calling the <b>RxCreateRxContext</b> routine to allocate and initialize an RX_CONTEXT structure. 
 
@@ -158,12 +151,7 @@ Sets the RX_CONTEXT members based on the <i>Irp</i>. These include <b>CurrentIrp
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
@@ -202,7 +190,4 @@ Sets the RX_CONTEXT members based on the <i>Irp</i>. These include <b>CurrentIrp
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/--rxsynchronizeblockingoperationsmaybedroppingfcblock">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
- 
-
- 
 

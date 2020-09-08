@@ -6,37 +6,42 @@ tech.root: display
 ms.assetid: fb6130d9-161a-4a9d-af61-9474e5583299
 ms.date: 10/19/2018
 keywords: ["BRIGHTNESS_NIT_RANGE structure"]
-f1_keywords:
- - "ntddvdeo/_BRIGHTNESS_NIT_RANGE"
- - "_BRIGHTNESS_NIT_RANGE"
 ms.keywords: _BRIGHTNESS_NIT_RANGE, BRIGHTNESS_NIT_RANGE, *PBRIGHTNESS_NIT_RANGE,
 req.header: ntddvdeo.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: BRIGHTNESS_NIT_RANGE, *PBRIGHTNESS_NIT_RANGE
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- ntddvdeo.h
-api_name:
-- _BRIGHTNESS_NIT_RANGE
-product: 
-- Windows
 targetos: Windows
+f1_keywords:
+ - _BRIGHTNESS_NIT_RANGE
+ - ntddvdeo/_BRIGHTNESS_NIT_RANGE
+ - PBRIGHTNESS_NIT_RANGE
+ - ntddvdeo/PBRIGHTNESS_NIT_RANGE
+ - BRIGHTNESS_NIT_RANGE
+ - ntddvdeo/BRIGHTNESS_NIT_RANGE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddvdeo.h
+api_name:
+ - _BRIGHTNESS_NIT_RANGE
+product:
+ - Windows
 ---
 
 # _BRIGHTNESS_NIT_RANGE structure
+
 
 ## -description
 

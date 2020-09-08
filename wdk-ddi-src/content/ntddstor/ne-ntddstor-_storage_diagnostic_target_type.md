@@ -8,9 +8,6 @@ ms.assetid: 8BC338FB-7C76-49D3-96E5-0F20C4A250CE
 ms.date: 03/29/2018
 keywords: ["STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_TARGET_TYPE, PSTORAGE_DIAGNOSTIC_TARGET_TYPE, PSTORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_TARGET_TYPE, STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], StorageDiagnosticTargetTypeHbaFirmware, StorageDiagnosticTargetTypeMax, StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypePort, StorageDiagnosticTargetTypeUndefined, _STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeHbaFirmware, ntddstor/StorageDiagnosticTargetTypeMax, ntddstor/StorageDiagnosticTargetTypeMiniport, ntddstor/StorageDiagnosticTargetTypePort, ntddstor/StorageDiagnosticTargetTypeUndefined, storage.storage_diagnostic_target_type"
-f1_keywords:
- - "ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE"
- - "STORAGE_DIAGNOSTIC_TARGET_TYPE"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddstor.h
-api_name:
-- STORAGE_DIAGNOSTIC_TARGET_TYPE
 targetos: Windows
 req.typenames: STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE
+f1_keywords:
+ - _STORAGE_DIAGNOSTIC_TARGET_TYPE
+ - ntddstor/_STORAGE_DIAGNOSTIC_TARGET_TYPE
+ - PSTORAGE_DIAGNOSTIC_TARGET_TYPE
+ - ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE
+ - STORAGE_DIAGNOSTIC_TARGET_TYPE
+ - ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddstor.h
+api_name:
+ - STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 
 # _STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration
@@ -46,34 +50,25 @@ req.typenames: STORAGE_DIAGNOSTIC_TARGET_TYPE, *PSTORAGE_DIAGNOSTIC_TARGET_TYPE
 
 ## -description
 
-
 The <b>STORAGE_DIAGNOSTIC_TARGET_TYPE</b> enumeration specifies the target type of a storage diagnostic.
 
-
 ## -enum-fields
-
-
-
 
 ### -field StorageDiagnosticTargetTypeUndefined
 
 Specifies the target type is undefined.
 
-
 ### -field StorageDiagnosticTargetTypePort
 
 Specifies the target type is a port driver.
-
 
 ### -field StorageDiagnosticTargetTypeMiniport
 
 Specifies the target type is a Miniport driver.
 
-
 ### -field StorageDiagnosticTargetTypeHbaFirmware
 
 Specifies the target type is a Hba Firmware driver.
-
 
 ### -field StorageDiagnosticTargetTypeMax
 

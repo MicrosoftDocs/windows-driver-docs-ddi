@@ -8,9 +8,6 @@ ms.assetid: 7c88ff02-e791-4642-ad40-78f2ef2cba7d
 ms.date: 05/02/2018
 keywords: ["MINIPORT_SHUTDOWN callback function"]
 ms.keywords: MINIPORT_SHUTDOWN, MINIPORT_SHUTDOWN callback, MiniportShutdownEx, MiniportShutdownEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_1ef84db9-b4af-4e59-9bb8-6f467a0866d5.xml, ndis/MiniportShutdownEx, netvista.miniportshutdownex
-f1_keywords:
- - "ndis/MiniportShutdownEx"
- - "MiniportShutdownEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportShutdownEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_SHUTDOWN
+ - ndis/MINIPORT_SHUTDOWN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportShutdownEx
 ---
 
 # MINIPORT_SHUTDOWN callback function
 
 
 ## -description
-
 
 NDIS calls a miniport driver's 
    <i>MiniportShutdownEx</i> function when the system is shutting down. This function puts the miniport into the Shutdown state, where no other callback can occur (including <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>). For more information about miniport driver states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-states-and-operations">Miniport Adapter States and Operations</a>.
@@ -54,18 +53,16 @@ NDIS calls a miniport driver's
 
 ## -parameters
 
+### -param MiniportAdapterContext 
 
-
-
-### -param MiniportAdapterContext [in]
-
+[in]
 A handle to a context area that the miniport driver allocated in its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The driver uses this context area to maintain state information for a miniport adapter.
 
+### -param ShutdownAction 
 
-### -param ShutdownAction [in]
-
+[in]
 The reason why NDIS called the shutdown function. The following values are valid:
      
 
@@ -85,10 +82,7 @@ Indicates that NDIS called
 Indicates that NDIS called 
        <i>MiniportShutdownEx</i> because of a system error.
 
-
 ## -remarks
-
-
 
 A driver specifies the 
     <i>MiniportShutdownEx</i> entry point when it calls the 
@@ -166,15 +160,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_SHUTDOWN</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_SHUTDOWN</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/adapter-states-of-a-miniport-driver">Adapter States of a Miniport Driver</a>
 
@@ -201,7 +189,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetbusdata">NdisMSetBusData</a>
- 
-
- 
 

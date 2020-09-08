@@ -30,14 +30,18 @@ api_name:
  - _DXGKARG_QUERYDPCAPS
  - DXGKARG_QUERYDPCAPS
 f1_keywords:
+ - _DXGKARG_QUERYDPCAPS
  - dispmprt/_DXGKARG_QUERYDPCAPS
- - dispmprt//DXGKARG_QUERYDPCAPS
+ - PDXGKARG_QUERYDPCAPS
+ - dispmprt/PDXGKARG_QUERYDPCAPS
  - DXGKARG_QUERYDPCAPS
+ - dispmprt/DXGKARG_QUERYDPCAPS
 dev_langs:
  - c++
 ---
 
 # DXGKARG_QUERYDPCAPS structure
+
 
 ## -description
 
@@ -72,3 +76,4 @@ Subsequent transmission calls will refer to the DP connectors with **RootPortInd
 [**DXGKDDI_DPSBMTRANSMISSION**](nc-dispmprt-dxgkddi_dpsbmtransmission.md)
 
 [**DXGKDDI_QUERYDPCAPS**](nc-dispmprt-dxgkddi_querydpcaps.md)
+

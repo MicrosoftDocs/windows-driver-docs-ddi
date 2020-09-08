@@ -8,9 +8,6 @@ ms.assetid: ed4e58cb-6b32-454b-9538-f9f8aa68df4c
 ms.date: 03/29/2018
 keywords: ["SM_AddTarget_OUT structure"]
 ms.keywords: "*PSM_AddTarget_OUT, PSM_AddTarget_OUT, PSM_AddTarget_OUT structure pointer [Storage Devices], SM_AddTarget_OUT, SM_AddTarget_OUT structure [Storage Devices], _SM_AddTarget_OUT, hbapiwmi/PSM_AddTarget_OUT, hbapiwmi/SM_AddTarget_OUT, storage.sm_addtarget_out, structs-Fibre_8a6bbd22-c27f-4b75-a11a-93fafd51d2a9.xml"
-f1_keywords:
- - "hbapiwmi/SM_AddTarget_OUT"
- - "SM_AddTarget_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- hbapiwmi.h
-api_name:
-- SM_AddTarget_OUT
 targetos: Windows
 req.typenames: SM_AddTarget_OUT, *PSM_AddTarget_OUT
+f1_keywords:
+ - _SM_AddTarget_OUT
+ - hbapiwmi/_SM_AddTarget_OUT
+ - PSM_AddTarget_OUT
+ - hbapiwmi/PSM_AddTarget_OUT
+ - SM_AddTarget_OUT
+ - hbapiwmi/SM_AddTarget_OUT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - hbapiwmi.h
+api_name:
+ - SM_AddTarget_OUT
 ---
 
 # _SM_AddTarget_OUT structure
@@ -46,14 +50,9 @@ req.typenames: SM_AddTarget_OUT, *PSM_AddTarget_OUT
 
 ## -description
 
-
 The SM_AddTarget_OUT structure is used to receive output parameters from the SM_AddTarget WMI method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field HBAStatus
 

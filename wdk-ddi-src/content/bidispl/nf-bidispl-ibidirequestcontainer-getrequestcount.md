@@ -8,9 +8,6 @@ ms.assetid: 4215ca86-9ceb-451d-8e67-992a8a3f9bab
 ms.date: 04/20/2018
 keywords: ["IBidiRequestContainer::GetRequestCount"]
 ms.keywords: GetRequestCount, GetRequestCount method [Print Devices], GetRequestCount method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetRequestCount method, IBidiRequestContainer.GetRequestCount, IBidiRequestContainer::GetRequestCount, _win32_IBidiRequestContainer_GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount
-f1_keywords:
- - "bidispl/IBidiRequestContainer.GetRequestCount"
- - "IBidiRequestContainer.GetRequestCount"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiRequestContainer.GetRequestCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiRequestContainer::GetRequestCount
+ - bidispl/IBidiRequestContainer::GetRequestCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiRequestContainer.GetRequestCount
 ---
 
 # IBidiRequestContainer::GetRequestCount
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetRequestCount</b> method gets the number of requests in the request list.
-
 
 ## -parameters
 
+### -param puCount 
 
-
-
-### -param puCount [out]
-
+[out]
 Pointer to a variable that receives the number of requests.
 
-
 ## -returns
-
-
 
 The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
@@ -105,15 +98,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -124,7 +110,4 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequestcontainer">IBidiRequestContainer</a>
- 
-
- 
 

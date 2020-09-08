@@ -8,9 +8,6 @@ ms.assetid: C8377EE4-A7A1-4063-A7DC-53D0D8C6E0C3
 ms.date: 02/26/2018
 keywords: ["WdfFdoInitQueryPropertyEx function"]
 ms.keywords: WdfFdoInitQueryPropertyEx, WdfFdoInitQueryPropertyEx method, wdf.wdffdoinitquerypropertyex, wdffdo/WdfFdoInitQueryPropertyEx
-f1_keywords:
- - "wdffdo/WdfFdoInitQueryPropertyEx"
- - "WdfFdoInitQueryPropertyEx"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfFdoInitQueryPropertyEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfFdoInitQueryPropertyEx
+ - wdffdo/WdfFdoInitQueryPropertyEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfFdoInitQueryPropertyEx
 ---
 
 # WdfFdoInitQueryPropertyEx function
@@ -49,56 +49,49 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfFdoInitQueryPropertyEx</b> method retrieves a specified device property.
 
-
 ## -parameters
 
+### -param DeviceInit 
 
-
-
-### -param DeviceInit [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
+### -param DeviceProperty 
 
-### -param DeviceProperty [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_property_data">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to be retrieved.
 
+### -param BufferLength 
 
-### -param BufferLength [in]
-
+[in]
 The size, in bytes, of the buffer that is pointed to by <i>PropertyBuffer</i>.
 
+### -param PropertyBuffer 
 
-### -param PropertyBuffer [out]
-
+[out]
 A caller-supplied pointer to a caller-allocated buffer that receives the requested information. The pointer can be <b>NULL</b> if the <i>BufferLength</i> parameter is zero.
 
+### -param ResultLength 
 
-### -param ResultLength [out]
-
+[out]
 A caller-supplied location that, on return, contains the 
                   size, in bytes, of the information that the method stored in 
                   <i>PropertyBuffer</i>. If the function's return value is 
                   <b>STATUS_BUFFER_TOO_SMALL</b>, this location receives the required 
                   buffer size.
 
+### -param Type 
 
-### -param Type [out]
-
+[out]
 A pointer to a <b>DEVPROPTYPE</b> variable that, on return, contains the property type value
                   of the property 
                   data stored in <i>PropertyBuffer</i>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, <b>WdfFdoInitQueryPropertyEx</b> returns STATUS_SUCCESS. Additional return values include:
 
@@ -136,12 +129,7 @@ The method might return other <a href="https://docs.microsoft.com/windows-hardwa
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 Before receiving device property data, drivers typically call the <b>WdfFdoInitQueryPropertyEx</b> method just to obtain the required buffer size. For some properties, the data size can change between when the required size is returned and when the driver calls <b>WdfFdoInitQueryPropertyEx</b> again. Therefore, drivers should call <b>WdfFdoInitQueryPropertyEx</b> inside a loop that executes until the return status is not STATUS_BUFFER_TOO_SMALL. 
 
@@ -153,16 +141,7 @@ After calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/w
 
 For information about related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-the-unified-device-property-model">Accessing the Unified Device Property Model</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitqueryproperty">WdfFdoInitQueryProperty</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: fc67afc9-7542-4fca-bfc7-4b03b9d39735
 ms.date: 02/26/2018
 keywords: ["WdfIoResourceListRemove function"]
 ms.keywords: DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, WdfIoResourceListRemove, WdfIoResourceListRemove method, kmdf.wdfioresourcelistremove, wdf.wdfioresourcelistremove, wdfresource/WdfIoResourceListRemove
-f1_keywords:
- - "wdfresource/WdfIoResourceListRemove"
- - "WdfIoResourceListRemove"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfIoResourceListRemove
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfIoResourceListRemove
+ - wdfresource/WdfIoResourceListRemove
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfIoResourceListRemove
 ---
 
 # WdfIoResourceListRemove function
@@ -47,26 +47,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfIoResourceListRemove</b> method removes a resource descriptor from a resource requirements list's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
 
-
 ## -parameters
 
+### -param ResourceList 
 
-
-
-### -param ResourceList [in]
-
+[in]
 A handle to a framework resource-range-list object that represents a logical configuration of hardware resources for a device.
 
+### -param Index 
 
-### -param Index [in]
-
+[in]
 A zero-based value that is used as an index into the logical configuration that <i>ResourceList</i> specifies.
-
 
 ## -remarks
 
@@ -93,15 +88,7 @@ WdfIoResourceListRemove(
                         );
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistremovebydescriptor">WdfIoResourceListRemoveByDescriptor</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 4e6403e7-7463-479a-8be9-4136287b375e
 ms.date: 08/05/2020
 keywords: ["DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback function"]
 ms.keywords: DXGKDDI_NOTIFY_SURPRISE_REMOVAL, DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback, DxgkDdiNotifySurpriseRemoval, DxgkDdiNotifySurpriseRemoval callback function [Display Devices], display.dxgkddinotifysurpriseremoval, dispmprt/DxgkDdiNotifySurpriseRemoval
-f1_keywords:
- - "dispmprt/DxgkDdiNotifySurpriseRemoval"
- - "DxgkDdiNotifySurpriseRemoval"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dispmprt.h
-api_name:
-- DxgkDdiNotifySurpriseRemoval
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKDDI_NOTIFY_SURPRISE_REMOVAL
+ - dispmprt/DXGKDDI_NOTIFY_SURPRISE_REMOVAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dispmprt.h
+api_name:
+ - DxgkDdiNotifySurpriseRemoval
 ---
 
 # DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback function
+
 
 ## -description
 
@@ -49,12 +50,14 @@ req.typenames:
 
 ## -parameters
 
-### -param MiniportDeviceContext [in]
+### -param MiniportDeviceContext 
 
+[in]
 A handle to a context block associated with a display adapter. The display miniport driver's [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md) function previously provided this handle to the DirectX graphics kernel subsystem.
 
-### -param RemovalType [in]
+### -param RemovalType 
 
+[in]
 A value of type [**DXGK_SURPRISE_REMOVAL_TYPE**](ne-dispmprt-_dxgk_surprise_removal_type.md) that identifies the type of surprise removal event.
 
 ## -returns
@@ -94,3 +97,4 @@ If the driver returns an error code, does not set [**DXGK_DRIVERCAPS**](../d3dkm
 [**DXGK_SURPRISE_REMOVAL_TYPE**](ne-dispmprt-_dxgk_surprise_removal_type.md)
 
 [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md)
+

@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: d40e45ee-b7f7-40b4-8152-af1b31c1e971
 ms.date: 04/17/2018
 keywords: ["NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT macro"]
-f1_keywords:
- - "ntddndis/NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT"
- - "NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT"
 ms.keywords: NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.40 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ntddndis.h
-api_name: 
-- NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
 targetos: Windows
-
+f1_keywords:
+ - NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
+ - ntddndis/NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ntddndis.h
+api_name:
+ - NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
 ---
 
 # NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT macro
@@ -65,3 +64,4 @@ The **NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT** macro returns a pointer to the next [
 [**NDIS_ISOLATION_PARAMETERS_GET_FIRST_ROUTING_DOMAIN_ENTRY**](nf-ntddndis-ndis_routing_domain_entry_get_first_isolation_entry.md)
 
 [**NDIS_ROUTING_DOMAIN_ENTRY**](ns-ntddndis-_ndis_routing_domain_entry.md)
+

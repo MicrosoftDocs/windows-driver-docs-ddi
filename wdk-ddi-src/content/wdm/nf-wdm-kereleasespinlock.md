@@ -8,9 +8,6 @@ ms.assetid: 300cdd3b-0c12-45e3-ae45-c26084f3ec12
 ms.date: 04/30/2018
 keywords: ["KeReleaseSpinLock macro"]
 ms.keywords: KeReleaseSpinLock, KeReleaseSpinLock routine [Kernel-Mode Driver Architecture], k105_68224d09-0ef9-4231-af5f-c6f8761889dd.xml, kernel.kereleasespinlock, wdm/KeReleaseSpinLock
-f1_keywords:
- - "wdm/KeReleaseSpinLock"
- - "KeReleaseSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Hal.lib
-- Hal.dll
-api_name:
-- KeReleaseSpinLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeReleaseSpinLock
+ - wdm/KeReleaseSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Hal.lib
+ - Hal.dll
+api_name:
+ - KeReleaseSpinLock
 ---
 
 # KeReleaseSpinLock macro
@@ -47,8 +47,19 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeReleaseSpinLock</b> routine releases a spin lock and restores the original IRQL at which the caller was running.
+
+## -parameters
+
+### -param SpinLock 
+
+[in]
+Pointer to a KSPIN_LOCK spin lock for which the caller provides the storage.
+
+### -param NewIrql 
+
+[in, out]
+Specifies the KIRQL value saved from the preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>.
 
 ## -syntax
 
@@ -60,27 +71,7 @@ KeReleaseSpinLock (
     );
 ```
 
-## -parameters
-
-
-
-
-### -param SpinLock [in]
-
-Pointer to a KSPIN_LOCK spin lock for which the caller provides the storage.
-
-
-### -param NewIrql [in, out]
-
-Specifies the KIRQL value saved from the preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>.
-
-
-
-
-
 ## -remarks
-
-
 
 This call is a reciprocal to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>. The input <i>NewIrql</i> value must be the <i>OldIrql</i> returned by <b>KeAcquireSpinLock</b>.
 
@@ -88,20 +79,11 @@ For more information about spin locks, see <a href="https://docs.microsoft.com/w
 
 Callers of this routine are running at IRQL = DISPATCH_LEVEL. On return from <b>KeReleaseSpinLock</b>, IRQL is restored to the <i>NewIrql</i> value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
- 
-
- 
 

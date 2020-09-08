@@ -8,9 +8,6 @@ ms.assetid: 20200222-8539-497e-891e-2d29c3207c56
 ms.date: 05/02/2018
 keywords: ["WWAN_SMS_PDU_RECORD structure"]
 ms.keywords: "*PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, _WWAN_SMS_PDU_RECORD, netvista.wwan_sms_pdu_record, wwan/PWWAN_SMS_PDU_RECORD, wwan/WWAN_SMS_PDU_RECORD"
-f1_keywords:
- - "wwan/WWAN_SMS_PDU_RECORD"
- - "WWAN_SMS_PDU_RECORD"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wwan.h
-api_name:
-- WWAN_SMS_PDU_RECORD
 targetos: Windows
 req.typenames: WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD
+f1_keywords:
+ - _WWAN_SMS_PDU_RECORD
+ - wwan/_WWAN_SMS_PDU_RECORD
+ - PWWAN_SMS_PDU_RECORD
+ - wwan/PWWAN_SMS_PDU_RECORD
+ - WWAN_SMS_PDU_RECORD
+ - wwan/WWAN_SMS_PDU_RECORD
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wwan.h
+api_name:
+ - WWAN_SMS_PDU_RECORD
 ---
 
 # _WWAN_SMS_PDU_RECORD structure
@@ -46,14 +50,9 @@ req.typenames: WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD
 
 ## -description
 
-
 The WWAN_SMS_PDU_RECORD structure represents a PDU-style SMS message record.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MessageIndex
 
@@ -63,12 +62,10 @@ An index into the virtual message store that is maintained by the miniport drive
      not differentiate between physically available data stores. If the message is a Class 0 (flash/alert)
      message, this must be set to WWAN_MESSAGE_INDEX_NONE.
 
-
 ### -field MsgStatus
 
 The status of the record that represents whether the SMS message is new (unread), old (read), a
      draft, or sent.
-
 
 ### -field Size
 
@@ -80,7 +77,6 @@ For GSM-based devices, this represents the size of the message before conversion
 
 For CDMA-based devices, this represents the number of bytes in the 
      <b>PduData</b> .
-
 
 ### -field PduData
 
@@ -96,14 +92,7 @@ For CDMA-based devices that support reading SMS messages in binary format (as re
      Teleservice (WMT) format. Miniport drivers should typecast this information to BYTE[] for CDMA-based
      devices. It is not coded in hexadecimal string format. The message is not NULL-terminated.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_msg_status">WWAN_MSG_STATUS</a>
- 
-
- 
 

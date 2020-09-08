@@ -6,39 +6,40 @@ tech.root: netvista
 ms.assetid: 0c201a5e-9e06-4cab-a062-b6c9aab7ec40
 ms.date: 05/22/2018
 keywords: ["FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP"
- - "FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP
+ - vmbuskernelmodeclientlibapi/FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP
 ---
 
 # FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP callback function
+
 
 ## -description
 
@@ -46,27 +47,7 @@ ms.custom: RS5
 
 The <b>VmbClientChannelInitSetTargetPnp</b> function sets a client channel's target by interface type and instance IDs. If this
 function is called, Kernel Mode Client Library (KMCL) uses PnP to find the VMBus Physical Device Object (PDO) that corresponds to the
-provided interface. 
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP FnVmbClientChannelInitSetTargetPnp; 
-
-// Definition
-
-NTSTATUS FnVmbClientChannelInitSetTargetPnp 
-(
-	VMBCHANNEL Channel
-	LPCGUID InterfaceType
-	LPCGUID InterfaceInstance
-	PFN_VMB_CHANNEL_PNP_FAILURE PnpFailureCallback
-)
-{...}
-
-```
+provided interface.
 
 ## -parameters
 
@@ -114,6 +95,26 @@ The <i>Channel</i> value was invalid or in an invalid state, such as Disabled.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP FnVmbClientChannelInitSetTargetPnp; 
+
+// Definition
+
+NTSTATUS FnVmbClientChannelInitSetTargetPnp 
+(
+	VMBCHANNEL Channel
+	LPCGUID InterfaceType
+	LPCGUID InterfaceInstance
+	PFN_VMB_CHANNEL_PNP_FAILURE PnpFailureCallback
+)
+{...}
+
+```
+
 ## -remarks
 
 If you 
@@ -126,3 +127,4 @@ same <i>InterfaceType</i> but different <i>InterfaceInstance</i> values.
 > For more information, see the Remarks section of the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md).
 
 ## -see-also
+

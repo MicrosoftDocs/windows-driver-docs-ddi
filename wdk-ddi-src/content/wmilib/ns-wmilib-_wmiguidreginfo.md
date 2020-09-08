@@ -8,9 +8,6 @@ ms.assetid: 8bf36e54-5caa-4dc6-b659-ea0c1ac450f0
 ms.date: 04/30/2018
 keywords: ["WMIGUIDREGINFO structure"]
 ms.keywords: "*PWMIGUIDREGINFO, PWMIGUIDREGINFO, PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], WMIGUIDREGINFO, WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture], _WMIGUIDREGINFO, kernel.wmiguidreginfo, kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, wmilib/PWMIGUIDREGINFO, wmilib/WMIGUIDREGINFO"
-f1_keywords:
- - "wmilib/WMIGUIDREGINFO"
- - "WMIGUIDREGINFO"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmilib.h
-api_name:
-- WMIGUIDREGINFO
 targetos: Windows
 req.typenames: WMIGUIDREGINFO, *PWMIGUIDREGINFO
+f1_keywords:
+ - _WMIGUIDREGINFO
+ - wmilib/_WMIGUIDREGINFO
+ - PWMIGUIDREGINFO
+ - wmilib/PWMIGUIDREGINFO
+ - WMIGUIDREGINFO
+ - wmilib/WMIGUIDREGINFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmilib.h
+api_name:
+ - WMIGUIDREGINFO
 ---
 
 # _WMIGUIDREGINFO structure
@@ -46,24 +50,17 @@ req.typenames: WMIGUIDREGINFO, *PWMIGUIDREGINFO
 
 ## -description
 
-
 The <b>WMIGUIDREGINFO</b> structure contains registration information for a given data block or event block exposed by a driver that uses the WMI library support routines.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Guid
 
 Pointer to the GUID that identifies the block. The memory that contains the GUID can be paged unless it is also used to call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>.
 
-
 ### -field InstanceCount
 
 Specifies the number of instances defined for the block.
-
 
 ### -field Flags
 
@@ -101,22 +98,13 @@ Requests WMI to send an <a href="https://docs.microsoft.com/windows-hardware/dri
 
 Requests WMI to remove support for this block. This flag is valid only in response to a request to update registration information (<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-reginfo">IRP_MN_REGINFO</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-reginfo-ex">IRP_MN_REGINFO_EX</a> with <b>Parameters.WMI.DataPath </b>set to WMIUPDATE).
 
-
 ## -remarks
-
-
 
 A driver that handles WMI IRPs by calling WMI library support routines builds an array of <b>WMIGUIDREGINFO</b> structures, one for each data block and event block to be registered. The driver sets the <b>GuidList</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure to point to the first <b>WMIGUIDREGINFO</b> in the series.
 
 Memory for this structure can be allocated from paged pool.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_query_reginfo_callback">DpWmiQueryReginfo</a>
 
@@ -143,7 +131,4 @@ Memory for this structure can be allocated from paged pool.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
- 
-
- 
 

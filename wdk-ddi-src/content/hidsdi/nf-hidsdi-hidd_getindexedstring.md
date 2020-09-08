@@ -8,9 +8,6 @@ ms.assetid: 4d500597-8ac7-41ea-aa2a-6e8d559e0282
 ms.date: 06/19/2019
 keywords: ["HidD_GetIndexedString function"]
 ms.keywords: HidD_GetIndexedString, HidD_GetIndexedString routine [Human Input Devices], hid.hidd_getindexedstring, hidfunc_49698b0b-18d1-41aa-b64c-185307fb2100.xml, hidsdi/HidD_GetIndexedString
-f1_keywords:
- - "hidsdi/HidD_GetIndexedString"
- - "HidD_GetIndexedString"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Hid.dll
-api_name:
-- HidD_GetIndexedString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HidD_GetIndexedString
+ - hidsdi/HidD_GetIndexedString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Hid.dll
+api_name:
+ - HidD_GetIndexedString
 ---
 
 # HidD_GetIndexedString function
@@ -46,47 +46,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>HidD_GetIndexedString</b> routine returns a specified embedded string from a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
-
 
 ## -parameters
 
+### -param HidDeviceObject 
 
-
-
-### -param HidDeviceObject [in]
-
+[in]
 Specifies an open handle to a top-level collection.
 
+### -param StringIndex 
 
-### -param StringIndex [in]
-
+[in]
 Specifies the device-specific index of an embedded string.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Pointer to a caller-allocated buffer that the routine uses to return the embedded string specified by <i>StringIndex</i>. The routine returns a NULL-terminated wide character string in a human-readable format.
 
+### -param BufferLength 
 
-### -param BufferLength [in]
-
+[in]
 Specifies the length, in bytes, of a caller-allocated buffer provided at <i>Buffer</i>. If the buffer is not large enough to return the entire NULL-terminated embedded string, the routine returns nothing in the buffer.
-
 
 ## -returns
 
-
-
-<b>HidD_GetIndexedString</b> returns <b>TRUE</b> if it successfully returns the entire NULL-terminated embedded string. Otherwise, the routine returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
-
-
-
+<b>HidD_GetIndexedString</b> returns <b>TRUE</b> if it successfully returns the entire NULL-terminated embedded string. Otherwise, the routine returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 ## -remarks
-
-
 
 Only user-mode applications can call <b>HidD_GetIndexedString</b>. Kernel-mode drivers can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_indexed_string">IOCTL_HID_GET_INDEXED_STRING</a> request.
 
@@ -106,13 +94,7 @@ If the interface is grouped by a <a href="https://docs.microsoft.com/windows-har
 </ul>
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getmanufacturerstring">HidD_GetManufacturerString</a>
 
@@ -143,7 +125,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_serialnumber_string">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
- 
-
- 
 

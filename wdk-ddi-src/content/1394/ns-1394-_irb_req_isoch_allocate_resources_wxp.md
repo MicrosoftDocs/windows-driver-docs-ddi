@@ -8,9 +8,6 @@ ms.assetid: 8DE03C05-48A4-4699-8513-F2B596EED37F
 ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, 1394/PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IEEE.irb_req_isoch_allocate_resources_wxp, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure [Buses], PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure pointer [Buses], _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
-f1_keywords:
- - "1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP"
- - "IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
+f1_keywords:
+ - _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
+ - 1394/_IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
+ - IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
+ - 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 ---
 
 # _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure
@@ -46,14 +48,9 @@ req.typenames: IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 
 ## -description
 
-
 This structure contains the fields necessary for the 1394 bus driver to carry out a IsochAllocateResources request.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fulSpeed
 
@@ -180,38 +177,30 @@ The driver owning this resource transfers frames of variable size.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field nChannel
 
 Specifies the isochronous channel for all transactions involving the resource handle allocated by this request.
 
-
 ### -field nMaxBytesPerFrame
 
 Specifies the expected maximum isochronous frame size while transmitting and receiving on the channel.
 
-
 ### -field nNumberOfBuffers
 
-Specifies one more than the maximum expected number of buffers that are attached to the resource handle at any given time. 
-
+Specifies one more than the maximum expected number of buffers that are attached to the resource handle at any given time.
 
 ### -field nMaxBufferSize
 
 Specifies the maximum size of the buffers that are attached to the resource handle.
 
-
 ### -field nQuadletsToStrip
 
 Specifies the number of quadlets to strip from the beginning of every packet in an incoming isochronous stream. This parameter is ignored unless the device driver sets the  RESOURCE_STRIP_ADDITIONAL_QUADLETS flag in <b>u.IsochAllocateResources.fulFlags</b>.
 
-
 ### -field hResource
 
 Specifies a handle to the resource.
-
 
 ### -field ChannelMask
 

@@ -8,9 +8,6 @@ ms.assetid: e5554790-a7a2-4c0d-a6ae-585ea909cd3d
 ms.date: 05/02/2018
 keywords: ["NdisFreeNetBufferListContext function"]
 ms.keywords: NdisFreeNetBufferListContext, NdisFreeNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferListContext, ndis_netbuf_functions_ref_ee330dac-2453-46e7-a298-7d4a59caf0ab.xml, netvista.ndisfreenetbufferlistcontext
-f1_keywords:
- - "ndis/NdisFreeNetBufferListContext"
- - "NdisFreeNetBufferListContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFreeNetBufferListContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFreeNetBufferListContext
+ - ndis/NdisFreeNetBufferListContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFreeNetBufferListContext
 ---
 
 # NdisFreeNetBufferListContext function
@@ -47,32 +47,25 @@ req.typenames:
 
 ## -description
 
-
 Call the 
   <b>NdisFreeNetBufferListContext</b> function to release context space in the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure of a
   
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -parameters
 
+### -param NetBufferList 
 
-
-
-### -param NetBufferList [in]
-
+[in]
 A pointer to a previously allocated NET_BUFFER_LIST structure.
 
+### -param ContextSize 
 
-### -param ContextSize [in]
-
+[in]
 The amount of context space to free.
 
-
 ## -remarks
-
-
 
 <b>NdisFreeNetBufferListContext</b> releases context space that was allocated in a previous call to 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
@@ -81,13 +74,7 @@ The amount of context space to free.
     <b>NdisAllocateNetBufferListContext</b>, 
     <b>NdisFreeNetBufferListContext</b> frees the allocated memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
@@ -99,7 +86,4 @@ The amount of context space to free.
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
    NdisAllocateNetBufferListContext</a>
- 
-
- 
 

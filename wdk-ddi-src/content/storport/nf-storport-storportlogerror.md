@@ -8,9 +8,6 @@ ms.assetid: f653e6bf-e99b-4aa2-aa54-d7482d326720
 ms.date: 03/29/2018
 keywords: ["StorPortLogError function"]
 ms.keywords: StorPortLogError, StorPortLogError routine [Storage Devices], storage.storportlogerror, storport/StorPortLogError, storprt_0eb9851c-bfce-49aa-a22b-3d16a72b3dde.xml
-f1_keywords:
- - "storport/StorPortLogError"
- - "StorPortLogError"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortLogError
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortLogError
+ - storport/StorPortLogError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortLogError
 ---
 
 # StorPortLogError function
@@ -47,42 +47,38 @@ req.typenames:
 
 ## -description
 
-
-The <b>StorPortLogError</b> routine notifies the port driver that an error occurred. 
-
+The <b>StorPortLogError</b> routine notifies the port driver that an error occurred.
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
+[in]
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
+### -param Srb 
 
-### -param HwDeviceExtension [in]
+[in, optional]
+Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>.
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+### -param PathId 
 
+[in]
+Identifies the SCSI bus.
 
-### -param Srb [in, optional]
+### -param TargetId 
 
-Pointer to a SCSI request block if one is associated with the error. Otherwise, this parameter is <b>NULL</b>. 
+[in]
+Identifies the target controller or device on the bus.
 
+### -param Lun 
 
-### -param PathId [in]
+[in]
+Identifies the logical unit number of the target device.
 
-Identifies the SCSI bus. 
+### -param ErrorCode 
 
-
-### -param TargetId [in]
-
-Identifies the target controller or device on the bus. 
-
-
-### -param Lun [in]
-
-Identifies the logical unit number of the target device. 
-
-
-### -param ErrorCode [in]
-
+[in]
 Specifies an error code indicating one of the following values as the type of error.
 
 <table>
@@ -191,38 +187,23 @@ Indicates that a target disconnected unexpectedly.
 </td>
 </tr>
 </table>
- 
 
+### -param UniqueId 
 
-### -param UniqueId [in]
-
-Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i> value. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA. 
-
+[in]
+Specifies a unique identifier for the error. This value differentiates the current error from other errors with the same <i>ErrorCode</i> value. For some miniport drivers, this identifies the line of code where the error was detected. For others, it is additional information returned by the HBA.
 
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
-
-
 
 The port driver will log an error to the system event log.
 
 Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
 
@@ -237,7 +218,4 @@ Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportlogsystemevent">StorPortLogSystemEvent</a>
- 
-
- 
 

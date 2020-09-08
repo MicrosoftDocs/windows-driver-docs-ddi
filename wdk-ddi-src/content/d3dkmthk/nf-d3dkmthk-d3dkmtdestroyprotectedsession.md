@@ -7,9 +7,6 @@ ms.assetid: e27ab1db-647d-447c-b79d-2553aa088398
 ms.date: 05/10/2018
 keywords: ["D3DKMTDestroyProtectedSession function"]
 ms.keywords: D3DKMTDestroyProtectedSession, D3DKMTDestroyProtectedSession method [Display Devices], d3dkmthk/D3DKMTDestroyProtectedSession, display.d3dkmtdestroyprotectedsession
-f1_keywords:
- - "d3dkmthk/D3DKMTDestroyProtectedSession"
- - "D3DKMTDestroyProtectedSession"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
@@ -24,21 +21,24 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Gdi32.lib 
-req.dll: Gdi32.dll 
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-api_name:
-- D3DKMTDestroyProtectedSession
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - D3DKMTDestroyProtectedSession
+ - d3dkmthk/D3DKMTDestroyProtectedSession
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+api_name:
+ - D3DKMTDestroyProtectedSession
 ---
 
 # D3DKMTDestroyProtectedSession function
@@ -46,16 +46,10 @@ req.typenames:
 
 ## -description
 
-
-
 			
             Used to destroy a protected session.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -63,13 +57,7 @@ req.typenames:
 
 Holds information to destroy a protected session.
 
-
 ## -returns
 
-
-
-
 Returns STATUS_SUCCESS if completed successfully.
-
-
 

@@ -8,9 +8,6 @@ ms.assetid: 64bcbc05-8dbd-4f97-afbb-dadd44b60078
 ms.date: 04/23/2018
 keywords: ["PFNKSPINVOID callback function"]
 ms.keywords: AVStrMiniPinDisconnect, AVStrMiniPinReset, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPINVOID, avstclbk_7d4db969-3c67-4f42-9b06-723964af1147.xml, ks/MyAVStrMiniPin, stream.avstrminipindisconnect
-f1_keywords:
- - "ks/MyAVStrMiniPin"
- - "MyAVStrMiniPin"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- MyAVStrMiniPin
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSPINVOID
+ - ks/PFNKSPINVOID
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - MyAVStrMiniPin
 ---
 
 # PFNKSPINVOID callback function
 
 
 ## -description
-
 
 An AVStream minidriver's callback routine is called when:
 <ul>
@@ -55,17 +54,12 @@ An AVStream minidriver's callback routine is called when:
 
 ## -parameters
 
+### -param Pin 
 
-
-
-### -param Pin [in]
-
+[in]
 Pointer to the relevant <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>, serving as a sink pin.
 
-
 ## -remarks
-
-
 
 <b>About AVStrMiniPinDisconnect</b>
 
@@ -85,16 +79,7 @@ Typically, this routine is provided by minidrivers that must flush hardware buff
 
 This routine is optional.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
- 
-
- 
 

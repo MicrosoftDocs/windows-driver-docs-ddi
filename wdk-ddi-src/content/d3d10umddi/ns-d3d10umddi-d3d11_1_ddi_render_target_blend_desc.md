@@ -7,9 +7,6 @@ ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
 ms.date: 05/10/2018
 keywords: ["D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure"]
 ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices], d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc
-f1_keywords:
- - "d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC"
- - "D3D11_1_DDI_RENDER_TARGET_BLEND_DESC"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
+f1_keywords:
+ - D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
+ - d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 ---
 
 # D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure
@@ -46,14 +46,9 @@ req.typenames: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 
 ## -description
 
-
 Describes a blend state for a render target. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BlendEnable
 
@@ -75,38 +70,31 @@ This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 
 ### -field SrcBlend
 
-[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a> that indicates the blend mode of the source for the enabled render target. 
-
+[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a> that indicates the blend mode of the source for the enabled render target.
 
 ### -field DestBlend
 
-[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a> that indicates the blend mode of the destination for the enabled render target. 
-
+[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a> that indicates the blend mode of the destination for the enabled render target.
 
 ### -field BlendOp
 
-[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a> that indicates the blending operation for the enabled render target. 
-
+[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a> that indicates the blending operation for the enabled render target.
 
 ### -field SrcBlendAlpha
 
-[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a> that indicates the transparency blend mode of the source for the enabled render target. 
-
+[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a> that indicates the transparency blend mode of the source for the enabled render target.
 
 ### -field DestBlendAlpha
 
-[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a> that indicates the transparency blend mode of the destination for the enabled render target. 
-
+[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a> that indicates the transparency blend mode of the destination for the enabled render target.
 
 ### -field BlendOpAlpha
 
-[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a> that indicates the transparency blending operation for the enabled render target. 
-
+[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a> that indicates the transparency blending operation for the enabled render target.
 
 ### -field LogicOp
 
 [in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1_ddi_logic_op">D3D11_1_DDI_LOGIC_OP</a> that specifies  shader logic operations that are available in the blend state.
-
 
 ### -field RenderTargetWriteMask
 
@@ -119,13 +107,8 @@ This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 |D3D10_DDI_COLOR_WRITE_ENABLE_BLUE (4)|Writes blue|
 |D3D10_DDI_COLOR_WRITE_ENABLE_ALPHA (8)|Writes a transparency level|
 |D3D10_DDI_COLOR_WRITE_ENABLE_ALL (1 | 2 | 4 | 8)|Writes red, green, blue, and a transparency level|
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_calcprivateblendstatesize">CalcPrivateBlendStateSize(D3D11_1)</a>
 
@@ -148,7 +131,4 @@ This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1_ddi_logic_op">D3D11_1_DDI_LOGIC_OP</a>
- 
-
- 
 

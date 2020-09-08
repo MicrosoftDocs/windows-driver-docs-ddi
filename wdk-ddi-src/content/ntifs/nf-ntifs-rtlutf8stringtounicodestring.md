@@ -2,15 +2,12 @@
 UID: NF:ntifs.RtlUTF8StringToUnicodeString
 title: RtlUTF8StringToUnicodeString function (ntifs.h)
 description: The RtlUTF8StringToUnicodeString routine converts the specified UTF-8 string to a Unicode string.
-old-location:
+old-location: 
 tech.root: ifsk
 ms.assetid: aa4d6f8b-ab1b-4b13-83c8-fcc55f667d14
 ms.date: 03/24/2020
 ms.keywords: RtlUTF8StringToUnicodeString, RtlUTF8StringToUnicodeString routine [Kernel-Mode Driver Architecture], kernel.RtlUTF8StringToUnicodeString
 ms.topic: function
-f1_keywords:
- - "ntifs/RtlUTF8StringToUnicodeString"
- - "RtlUTF8StringToUnicodeString"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h, Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlUTF8StringToUnicodeString
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUTF8StringToUnicodeString
+ - ntifs/RtlUTF8StringToUnicodeString
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlUTF8StringToUnicodeString
 ---
 
-# RtlUTF8StringToUnicodeString function
+# RtlUTF8StringToUnicodeString function (ntifs.h)
+
 
 ## -description
 
@@ -89,3 +90,4 @@ You can use the **RtlUTF8StringToUnicodeString** and [**RtlUnicodeStringToUTF8St
 [**RtlFreeUnicodeString**](nf-ntifs-rtlfreeunicodestring.md)
 
 [**RtlUnicodeStringToUTF8String**](nf-ntifs-rtlunicodestringtoutf8string.md)
+

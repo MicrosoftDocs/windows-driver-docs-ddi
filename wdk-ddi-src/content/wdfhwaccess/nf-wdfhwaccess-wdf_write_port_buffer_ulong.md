@@ -8,9 +8,6 @@ ms.assetid: 4FBBC349-B6D0-4F99-AF34-FA237199431E
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_PORT_BUFFER_ULONG function"]
 ms.keywords: WDF_WRITE_PORT_BUFFER_ULONG, WDF_WRITE_PORT_BUFFER_ULONG function, wdf.wdf_write_port_buffer_ulong, wdfhwaccess/WDF_WRITE_PORT_BUFFER_ULONG
-f1_keywords:
- - "wdfhwaccess/WDF_WRITE_PORT_BUFFER_ULONG"
- - "WDF_WRITE_PORT_BUFFER_ULONG"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfhwaccess.h
-api_name:
-- WDF_WRITE_PORT_BUFFER_ULONG
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_WRITE_PORT_BUFFER_ULONG
+ - wdfhwaccess/WDF_WRITE_PORT_BUFFER_ULONG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfhwaccess.h
+api_name:
+ - WDF_WRITE_PORT_BUFFER_ULONG
 ---
 
 # WDF_WRITE_PORT_BUFFER_ULONG function
@@ -46,36 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_PORT_BUFFER_ULONG</b> function writes a number of ULONG values from a buffer to the specified port address.
 
-
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Port 
 
-### -param Port [in]
-
+[in]
 A pointer to the port, which must be a mapped memory range in I/O space.
 
+### -param Buffer 
 
-### -param Buffer [in]
-
+[in]
 A pointer to a buffer from which an array of ULONG values is to be written.
 
+### -param Count 
 
-
-### -param Count [in]
-
+[in]
 Specifies the number of ULONG values to be written to the buffer.
-
 

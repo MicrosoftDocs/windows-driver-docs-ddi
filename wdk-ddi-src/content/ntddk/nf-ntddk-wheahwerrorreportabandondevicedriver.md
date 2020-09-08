@@ -35,8 +35,8 @@ api_location:
 api_name:
  - WheaHwErrorReportAbandonDeviceDriver
 f1_keywords:
- - ntddk//WheaHwErrorReportAbandonDeviceDriver
  - WheaHwErrorReportAbandonDeviceDriver
+ - ntddk/WheaHwErrorReportAbandonDeviceDriver
 dev_langs:
  - c++
 ---

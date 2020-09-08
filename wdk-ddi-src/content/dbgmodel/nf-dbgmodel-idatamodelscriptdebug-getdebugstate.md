@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.GetDebugState
 title: IDataModelScriptDebug::GetDebugState (dbgmodel.h)
-description: The GetDebugState method returns the current state of the script (whether it is executing or not). 
+description: The GetDebugState method returns the current state of the script (whether it is executing or not).
 ms.assetid: 718209b9-68ab-43eb-a944-6aad95db4e3d
 ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::GetDebugState"]
-f1_keywords:
- - "dbgmodel/IDataModelScriptDebug.GetDebugState"
- - "IDataModelScriptDebug.GetDebugState"
 ms.keywords: IDataModelScriptDebug::GetDebugState, GetDebugState, IDataModelScriptDebug.GetDebugState, IDataModelScriptDebug::GetDebugState, IDataModelScriptDebug.GetDebugState
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDataModelScriptDebug.GetDebugState
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDataModelScriptDebug::GetDebugState
+ - dbgmodel/IDataModelScriptDebug::GetDebugState
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDataModelScriptDebug.GetDebugState
 ---
 
 # IDataModelScriptDebug::GetDebugState
@@ -53,9 +53,8 @@ ScriptDebugNotExecuting |	Indicates that no code within the script is actively e
 ScriptDebugExecuting |	Indicates that the script is actively executing code and is not broken into the debugger.
 ScriptDebugBreak |	Indicates that the script is broken into the debugger during the execution of code within the script
 
-
-
 ## -returns
+
 The debug state of the script as indicated by a value in the ScriptDebugState enumeration.
 
 ## -remarks
@@ -63,3 +62,4 @@ The debug state of the script as indicated by a value in the ScriptDebugState en
 ## -see-also
 
 [IDataModelScriptDebug interface](nn-dbgmodel-idatamodelscriptdebug.md)
+

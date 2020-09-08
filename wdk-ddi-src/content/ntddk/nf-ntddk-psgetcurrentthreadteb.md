@@ -8,9 +8,6 @@ ms.assetid: 822B75D4-A825-4BB1-8265-A1389F4982C7
 ms.date: 04/30/2018
 keywords: ["PsGetCurrentThreadTeb function"]
 ms.keywords: PsGetCurrentThreadTeb, PsGetCurrentThreadTeb routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentthreadteb, ntddk/PsGetCurrentThreadTeb
-f1_keywords:
- - "ntddk/PsGetCurrentThreadTeb"
- - "PsGetCurrentThreadTeb"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- PsGetCurrentThreadTeb
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetCurrentThreadTeb
+ - ntddk/PsGetCurrentThreadTeb
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - PsGetCurrentThreadTeb
 ---
 
 # PsGetCurrentThreadTeb function
@@ -46,13 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>PsGetCurrentThreadTeb</b> routine returns the Thread Environment Block (TEB) of the current thread, or NULL. The call must be made in kernel-mode.
 
-
 ## -returns
-
-
 
 A pointer to the thread environment block of the current thread. The TEB should be accessed within a try/catch exception block. 
 
@@ -67,15 +63,7 @@ While <b>PsGetCurrentThreadTeb</b> can be called at any IRQL without causing a b
 Also, if you're calling at elevated IRQL from the context of an interrupt or DPC, the current thread is whatever happened to be running on the current processor when your interrupt was delivered there.
 As a result, it is recommended that you call <b>PsGetCurrentThreadTeb</b> from thread context below DISPATCH_LEVEL.
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Process and Thread Manager Routines</a>
- 
-
- 
 

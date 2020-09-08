@@ -8,9 +8,6 @@ ms.assetid: 2bbf85ee-8541-4d3d-87e5-0633bc35670b
 ms.date: 05/02/2018
 keywords: ["NdisFreeFragmentNetBufferList function"]
 ms.keywords: NdisFreeFragmentNetBufferList, NdisFreeFragmentNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeFragmentNetBufferList, ndis_netbuf_functions_ref_e88011a7-4c83-4736-8a3f-3a2d1c3b2e6f.xml, netvista.ndisfreefragmentnetbufferlist
-f1_keywords:
- - "ndis/NdisFreeFragmentNetBufferList"
- - "NdisFreeFragmentNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisFreeFragmentNetBufferList
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisFreeFragmentNetBufferList
+ - ndis/NdisFreeFragmentNetBufferList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisFreeFragmentNetBufferList
 ---
 
 # NdisFreeFragmentNetBufferList function
 
 
 ## -description
-
 
 Call the 
   <b>NdisFreeFragmentNetBufferList</b> function to free a 
@@ -56,36 +55,29 @@ Call the
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefragmentnetbufferlist">
   NdisAllocateFragmentNetBufferList</a> function.
 
-
 ## -parameters
 
+### -param FragmentNetBufferList 
 
-
-
-### -param FragmentNetBufferList [in]
-
+[in]
 A pointer to a NET_BUFFER_LIST structure that was allocated by calling 
      <b>NdisAllocateFragmentNetBufferList</b>.
 
+### -param DataOffsetDelta 
 
-### -param DataOffsetDelta [in]
-
+[in]
 The amount, in bytes, to advance (add to the data offset) the fragment NET_BUFFER structures
      before freeing them. This value should match the value of the 
      <i>DataOffsetDelta</i> parameter that was passed to 
      <b>NdisAllocateFragmentNetBufferList</b> when the NET_BUFFER_LIST structure was created.
 
+### -param FreeFragmentFlags 
 
-### -param FreeFragmentFlags [in]
-
+[in]
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
@@ -97,7 +89,4 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefragmentnetbufferlist">
    NdisAllocateFragmentNetBufferList</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: e1430ef2-fb94-4f0d-bdc8-59b423fe9c8c
 ms.date: 04/16/2018
 keywords: ["FsRtlCheckOplock function"]
 ms.keywords: FsRtlCheckOplock, FsRtlCheckOplock routine [Installable File System Drivers], fsrtlref_c11dbb80-c7a8-437d-bb6b-661edcf2f24a.xml, ifsk.fsrtlcheckoplock, rxprocs/FsRtlCheckOplock
-f1_keywords:
- - "ntifs/FsRtlCheckOplock"
- - "FsRtlCheckOplock"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlCheckOplock
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlCheckOplock
+ - ntifs/FsRtlCheckOplock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlCheckOplock
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlCheckOplock function
@@ -49,32 +49,28 @@ ms.custom: RS5
 
 ## -description
 
-
-The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state. 
-
+The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state.
 
 ## -parameters
 
+### -param Oplock 
 
+[in]
+An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
+### -param Irp 
 
-### -param Oplock [in]
+[in]
+A pointer to the IRP for the I/O operation.
 
-An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>. 
+### -param Context 
 
+[in, optional]
+A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to.
 
-### -param Irp [in]
+### -param CompletionRoutine 
 
-A pointer to the IRP for the I/O operation. 
-
-
-### -param Context [in, optional]
-
-A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. 
-
-
-### -param CompletionRoutine [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied callback routine. If an opportunistic lock break is in progress, this routine is called when the break is completed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the caller is put into a wait state until the opportunistic lock break is completed. 
 
 This routine is declared as follows: 
@@ -107,11 +103,11 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 
 #### Irp
 
-A pointer to the IRP for the I/O operation. 
+A pointer to the IRP for the I/O operation.
 
+### -param PostIrpRoutine 
 
-### -param PostIrpRoutine [in, optional]
-
+[in, optional]
 A pointer to a caller-supplied callback routine to be called if the I/O operation is posted to a work queue. This parameter is optional and can be <b>NULL</b>. 
 
 This routine is declared as follows: 
@@ -142,12 +138,9 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 
 #### Irp
 
-A pointer to the IRP for the I/O operation. 
-
+A pointer to the IRP for the I/O operation.
 
 ## -returns
-
-
 
 The <b>FsRtlCheckOplock</b> routine returns STATUS_SUCCESS or an appropriate NTSTATUS code such as one of the following: 
 
@@ -201,14 +194,8 @@ An opportunistic lock break has been initiated, and control of the IRP has been 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>FsRtlCheckOplock</b> synchronizes the IRP for an I/O operation with the current opportunistic lock state of a file according to the following conditions: 
 
@@ -242,15 +229,9 @@ IRP_MJ_WRITE
 
 For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcheckoplock">FltCheckOplock</a> instead of <b>FsRtlCheckOplock</b>. 
-
-
-
+Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcheckoplock">FltCheckOplock</a> instead of <b>FsRtlCheckOplock</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-opbatch-ack-close-pending">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
@@ -305,7 +286,4 @@ Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock">FsRtlUninitializeOplock</a>
- 
-
- 
 

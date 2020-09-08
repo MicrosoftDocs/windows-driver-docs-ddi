@@ -8,9 +8,6 @@ ms.assetid: 88035020-9585-41EC-9C63-29DDED779C39
 ms.date: 05/02/2018
 keywords: ["NDK_FN_CQ_NOTIFICATION_CALLBACK callback function"]
 ms.keywords: NDK_FN_CQ_NOTIFICATION_CALLBACK, NDK_FN_CQ_NOTIFICATION_CALLBACK callback, NdkCqNotificationCallback, NdkCqNotificationCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCqNotificationCallback, netvista.ndk_fn_cq_notification_callback
-f1_keywords:
- - "ndkpi/NdkCqNotificationCallback"
- - "NdkCqNotificationCallback"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkCqNotificationCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_CQ_NOTIFICATION_CALLBACK
+ - ndkpi/NDK_FN_CQ_NOTIFICATION_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkCqNotificationCallback
 ---
 
 # NDK_FN_CQ_NOTIFICATION_CALLBACK callback function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkCqNotificationCallback</i> (<i>NDK_FN_CQ_NOTIFICATION_CALLBACK</i>) function is called by the NDK provider to notify the consumer about  a completion queue (CQ) event.
-
 
 ## -parameters
 
+### -param CqNotificationContext 
 
-
-
-### -param CqNotificationContext [in, optional]
-
+[in, optional]
 A context area that was specified in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ)  object was created.
 
+### -param CqStatus 
 
-### -param CqStatus [in]
-
+[in]
 Indicates the CQ error status. The following status codes are defined:
 
 
@@ -102,31 +98,18 @@ Indicates a  fatal error occurred on the CQ and the CQ is  unusable. All of the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 An NDK provider calls <i>NdkCqNotificationCallback</i> to notify the consumer about  a completion queue (CQ) event.
 
 The NDK consumer specified the <i>NdkCqNotificationCallback</i> function  in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ) object was created.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-completion-handling-requirements">NDKPI Completion Handling Requirements</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>
- 
-
- 
 

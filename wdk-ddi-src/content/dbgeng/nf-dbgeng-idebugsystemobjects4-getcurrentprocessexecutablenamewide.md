@@ -8,9 +8,6 @@ ms.assetid: 4b87adca-e838-471b-a600-1327253ee45d
 ms.date: 05/03/2018
 keywords: ["IDebugSystemObjects4::GetCurrentProcessExecutableNameWide"]
 ms.keywords: GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], GetCurrentProcessExecutableNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessExecutableNameWide method, IDebugSystemObjects4.GetCurrentProcessExecutableNameWide, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide
-f1_keywords:
- - "dbgeng/IDebugSystemObjects4.GetCurrentProcessExecutableNameWide"
- - "IDebugSystemObjects4.GetCurrentProcessExecutableNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSystemObjects4.GetCurrentProcessExecutableNameWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSystemObjects4::GetCurrentProcessExecutableNameWide
+ - dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSystemObjects4.GetCurrentProcessExecutableNameWide
 ---
 
 # IDebugSystemObjects4::GetCurrentProcessExecutableNameWide
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetCurrentProcessExecutableNameWide</b>  method returns the name of executable file loaded in the current process.
-
 
 ## -parameters
 
+### -param Buffer 
 
-
-
-### -param Buffer [out, optional]
-
+[out, optional]
 Receives the name of the executable file.  If <i>Buffer</i> is <b>NULL</b>, this information is not returned.
 
+### -param BufferSize 
 
-### -param BufferSize [in]
-
+[in]
 Specifies the size in characters of the buffer <i>Buffer</i>.
 
+### -param ExeSize 
 
-### -param ExeSize [out, optional]
-
+[out, optional]
 Receives the size in characters of the name of the executable file.  If <i>ExeSize</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -104,20 +97,12 @@ The method was successful. However, the buffer was not large enough to hold the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 These methods are only available in user-mode debugging.
 
 If the engine cannot determine the name of the executable file, it writes the string "?NoImage?" to the buffer.
 
 For more information about processes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
-
-
 

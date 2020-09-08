@@ -8,9 +8,6 @@ ms.assetid: 14e9a28c-65cc-4e90-8220-85f1981c8cd7
 ms.date: 04/30/2018
 keywords: ["IoRaiseInformationalHardError function"]
 ms.keywords: IoRaiseInformationalHardError, IoRaiseInformationalHardError routine [Kernel-Mode Driver Architecture], k104_7af16dc2-0500-411e-962a-7d8c1fe40ba0.xml, kernel.ioraiseinformationalharderror, ntddk/IoRaiseInformationalHardError
-f1_keywords:
- - "ntddk/IoRaiseInformationalHardError"
- - "IoRaiseInformationalHardError"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <=APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoRaiseInformationalHardError
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoRaiseInformationalHardError
+ - ntddk/IoRaiseInformationalHardError
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoRaiseInformationalHardError
 ---
 
 # IoRaiseInformationalHardError function
@@ -46,42 +46,30 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoRaiseInformationalHardError</b> routine sends a dialog box to the user, warning about a device I/O error that indicates why a user I/O request failed.
-
 
 ## -parameters
 
+### -param ErrorStatus 
 
+[in]
+The error status code (IO_ERR_<i>XXX</i>).
 
+### -param String 
 
-### -param ErrorStatus [in]
-
-The error status code (IO_ERR_<i>XXX</i>). 
-
-
-### -param String [in, optional]
-
+[in, optional]
 A pointer to a Unicode string, which provides additional information about the error. Some NT status codes require a string parameter, such as a file or directory name. If the specified <i>ErrorStatus</i> value does not require a string parameter, set <i>String</i> to <b>NULL</b>.
 
+### -param Thread 
 
-### -param Thread [in, optional]
-
+[in, optional]
 A pointer to the thread whose IRP was failed due to the error specified by the <i>ErrorStatus</i> parameter.
-
 
 ## -returns
 
-
-
 <b>IoRaiseInformationalHardError</b> returns <b>TRUE</b> if the dialog box was successfully queued. This routine returns <b>FALSE</b> if dialog boxes are disabled for <i>Thread</i>, a pool allocation failed, too many dialog boxes are already queued, or an equivalent dialog box is already pending a user response (such as waiting for the user to press RETURN).
 
-
-
-
 ## -remarks
-
-
 
 <b>IoRaiseInformationalHardError</b> takes a system-defined NT error value as a parameter. Driver writers can use the event log APIs to communicate driver-defined event strings to the user.
 
@@ -97,13 +85,7 @@ If a previous call to the <a href="https://docs.microsoft.com/windows-hardware/d
 
 Starting with Windows Vista, if the routine is called from a thread in session 0 (that is, from any system thread), no dialog box appears when the routine succeeds and returns <b>TRUE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetharderrororverifydevice">IoSetHardErrorOrVerifyDevice</a>
 
@@ -114,7 +96,4 @@ Starting with Windows Vista, if the routine is called from a thread in session 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread">PsGetCurrentThread</a>
- 
-
- 
 

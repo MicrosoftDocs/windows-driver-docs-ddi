@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE"
- - "PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE"
+ - PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
+ - d3d12umddi/PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE callback function
+
 
 ## -description
 

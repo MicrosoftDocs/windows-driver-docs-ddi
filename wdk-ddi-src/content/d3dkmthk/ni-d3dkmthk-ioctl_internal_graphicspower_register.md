@@ -5,39 +5,40 @@ description: For internal use only. Do not use.
 ms.assetid: 4f49199d-f3ba-455e-bda4-17d816e929ff
 ms.date: 10/19/2018
 keywords: ["IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER IOCTL"]
-f1_keywords:
- - "d3dkmthk/IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER"
- - "IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER"
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.max-support:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3dkmthk.h
-api_name: 
-- IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
+req.ddi-compliance: 
+req.max-support: 
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
+ - d3dkmthk/IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmthk.h
+api_name:
+ - IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER IOCTL
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 
 ## -description
 
@@ -79,3 +80,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+

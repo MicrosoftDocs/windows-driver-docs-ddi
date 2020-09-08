@@ -7,9 +7,6 @@ ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
 ms.date: 05/10/2018
 keywords: ["DXGK_HISTORY_BUFFER_HEADER structure"]
 ms.keywords: DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], _DXGK_HISTORY_BUFFER_HEADER, d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, display.dxgk_history_buffer_header
-f1_keywords:
- - "d3dkmddi/DXGK_HISTORY_BUFFER_HEADER"
- - "DXGK_HISTORY_BUFFER_HEADER"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGK_HISTORY_BUFFER_HEADER
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_HISTORY_BUFFER_HEADER
+f1_keywords:
+ - _DXGK_HISTORY_BUFFER_HEADER
+ - d3dkmddi/_DXGK_HISTORY_BUFFER_HEADER
+ - DXGK_HISTORY_BUFFER_HEADER
+ - d3dkmddi/DXGK_HISTORY_BUFFER_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGK_HISTORY_BUFFER_HEADER
 ---
 
 # _DXGK_HISTORY_BUFFER_HEADER structure
@@ -46,14 +48,9 @@ req.typenames: DXGK_HISTORY_BUFFER_HEADER
 
 ## -description
 
-
 Specifies how data is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a> history buffer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field RenderCbSequence
 
@@ -61,13 +58,11 @@ The value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 The display miniport driver should compute this value and enter it into <b>DXGK_HISTORY_BUFFER_HEADER</b> before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>.
 
-
 ### -field NumTimestamps
 
 The number of time stamps that will be in the history buffer when the DMA buffer completes its execution.
 
 The driver should include all time stamps that are logged, even if the buffer must be formatted before being logged to the Event Tracing for Windows (ETW) facility.
-
 
 ### -field PrivateDataSize
 
@@ -79,25 +74,15 @@ If zero, the driver doesn't need to store private data in the history buffer.
 <div> </div>
 If the history buffer doesn't need to be formatted when the DMA buffer completes its execution, then when the DirectX graphics kernel subsystem writes logs to ETW, it uses <b>PrivateDataSize</b> as a direct offset from the header to reference the time stamps.
 
-
 ### -field Reserved
 
 Reserved for system use and must be set to zero.
 
-
 ## -remarks
-
-
 
 Only the time stamp portion of the history buffer, along with  the number of time stamps, will be logged to ETW. Header data and private driver data will not be logged to ETW as part of the time stamp buffer. However, parts of the header will be logged separately.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_renderflags">D3DDDICB_RENDERFLAGS</a>
 
@@ -108,7 +93,4 @@ Only the time stamp portion of the history buffer, along with  the number of tim
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 04b7ac32-8996-4648-8c88-aa9f630b1bc4
 ms.date: 05/02/2018
 keywords: ["FILTER_SET_MODULE_OPTIONS callback function"]
 ms.keywords: "(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER), (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_SET_MODULE_OPTIONS, FILTER_SET_MODULE_OPTIONS callback, FilterSetModuleOptions, FilterSetModuleOptions callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_165a2df8-6944-43cc-9e27-711a72e3b160.xml, ndis/FilterSetModuleOptions, netvista.filtersetmoduleoptions"
-f1_keywords:
- - "ndis/(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)"
- - "(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FILTER_SET_MODULE_OPTIONS
+ - ndis/FILTER_SET_MODULE_OPTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
 ---
 
 # FILTER_SET_MODULE_OPTIONS callback function
 
 
 ## -description
-
 
 The
   <i>FilterSetModuleOptions</i> function changes the set of optional services that are
@@ -55,19 +54,14 @@ The
 
 ## -parameters
 
+### -param FilterModuleContext 
 
-
-
-### -param FilterModuleContext [in]
-
+[in]
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
-
 ## -returns
-
-
 
 <i>FilterSetModuleOptions</i> returns one of the following status values:
 
@@ -116,14 +110,8 @@ The filter driver's attempt to register options failed. Usually, such an error s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If 
     <i>FilterSetModuleOptions</i> is defined, NDIS calls 
@@ -225,15 +213,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>FILTER_SET_MODULE_OPTIONS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_SET_MODULE_OPTIONS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a>
 
@@ -254,7 +236,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
- 
-
- 
 

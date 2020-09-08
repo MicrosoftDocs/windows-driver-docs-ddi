@@ -8,9 +8,6 @@ ms.assetid: 49a3defc-d86c-4d70-8c1c-a5abbadda013
 ms.date: 02/26/2018
 keywords: ["IWDFFile2 interface"]
 ms.keywords: IWDFFile2, IWDFFile2 interface, IWDFFile2 interface,described, UMDFFileObjectRef_991af5dd-c654-4afe-9072-0efeb7ab4d57.xml, umdf.iwdffile2, wdf.iwdffile2, wudfddi/IWDFFile2
-f1_keywords:
- - "wudfddi/IWDFFile2"
- - "IWDFFile2"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFFile2
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFFile2
+ - wudfddi/IWDFFile2
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFFile2
 ---
 
 # IWDFFile2 interface
@@ -46,11 +46,9 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 Drivers obtain the <b>IWDFFile2</b> interface by calling <b>IWDFFile::QueryInterface</b>.
-
 
 ## -inheritance
 

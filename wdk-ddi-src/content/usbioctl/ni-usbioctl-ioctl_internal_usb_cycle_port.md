@@ -8,9 +8,6 @@ ms.assetid: 81e62377-66af-4588-8be5-f6bb89a11fe0
 ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_CYCLE_PORT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_CYCLE_PORT, IOCTL_INTERNAL_USB_CYCLE_PORT control, IOCTL_INTERNAL_USB_CYCLE_PORT control code [Buses], buses.ioctl_internal_usb_cycle_port, usbioctl/IOCTL_INTERNAL_USB_CYCLE_PORT, usbirp_0f04d439-7813-4da8-9279-a4d113871687.xml
-f1_keywords:
- - "usbioctl/IOCTL_INTERNAL_USB_CYCLE_PORT"
- - "IOCTL_INTERNAL_USB_CYCLE_PORT"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows
@@ -28,25 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usbioctl.h
-api_name:
-- IOCTL_INTERNAL_USB_CYCLE_PORT
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_INTERNAL_USB_CYCLE_PORT
+ - usbioctl/IOCTL_INTERNAL_USB_CYCLE_PORT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usbioctl.h
+api_name:
+ - IOCTL_INTERNAL_USB_CYCLE_PORT
 ---
 
 # IOCTL_INTERNAL_USB_CYCLE_PORT IOCTL
 
 
 ## -description
-
-
 
 The <b>IOCTL_INTERNAL_USB_CYCLE_PORT</b> I/O request simulates a device unplug and replug on the port associated with the PDO. 
 
@@ -56,51 +54,27 @@ A driver that manages an individual interface on a composite device cannot cycle
 
 <b>IOCTL_INTERNAL_USB_CYCLE_PORT</b> is a kernel-mode I/O control request. This request targets the USB hub PDO. This request must be sent at an IRQL of PASSIVE_LEVEL.
 
-
-
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
-
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 

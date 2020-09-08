@@ -8,9 +8,6 @@ ms.assetid: c9fd9b21-4338-4633-903f-308763cbc301
 ms.date: 05/10/2018
 keywords: ["DXGI_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI_DDI_BASE_FUNCTIONS, DXGI_DDI_BASE_FUNCTIONS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_f33992c1-f203-4058-a6c4-844b2ff8ffa9.xml, display.dxgi_ddi_base_functions, dxgiddi/DXGI_DDI_BASE_FUNCTIONS
-f1_keywords:
- - "dxgiddi/DXGI_DDI_BASE_FUNCTIONS"
- - "DXGI_DDI_BASE_FUNCTIONS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxgiddi.h
-api_name:
-- DXGI_DDI_BASE_FUNCTIONS
 targetos: Windows
 req.typenames: DXGI_DDI_BASE_FUNCTIONS
+f1_keywords:
+ - DXGI_DDI_BASE_FUNCTIONS
+ - dxgiddi/DXGI_DDI_BASE_FUNCTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxgiddi.h
+api_name:
+ - DXGI_DDI_BASE_FUNCTIONS
 ---
 
 # DXGI_DDI_BASE_FUNCTIONS structure
@@ -46,14 +46,9 @@ req.typenames: DXGI_DDI_BASE_FUNCTIONS
 
 ## -description
 
-
 The DXGI_DDI_BASE_FUNCTIONS structure contains functions that the user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, and managing a full-screen transition.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pfnPresent
 
@@ -71,8 +66,7 @@ The driver must submit all partially built render data (command buffers) using t
 
 #### pPresentData
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_present">DXGI_DDI_ARG_PRESENT</a> structure that describes how to display to the destination surface. 
-
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_present">DXGI_DDI_ARG_PRESENT</a> structure that describes how to display to the destination surface.
 
 ### -field pfnGetGammaCaps
 
@@ -82,13 +76,11 @@ The <i>GetGammaCapsDXGI</i> function retrieves gamma capabilities.
 
 #### pGammaData
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_get_gamma_control_caps">DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS</a> structure that contains gamma capabilities. 
-
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_get_gamma_control_caps">DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS</a> structure that contains gamma capabilities.
 
 ### -field pfnSetDisplayMode
 
 A pointer to the driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi1_1_ddi_base_functions">SetDisplayModeDXGI</a> function.
-
 
 ### -field pfnSetResourcePriority
 
@@ -100,8 +92,7 @@ The Microsoft Direct3D runtime calls <i>SetResourcePriorityDXGI</i> to set the p
 
 #### pPriorityData
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_setresourcepriority">DXGI_DDI_ARG_SETRESOURCEPRIORITY</a> structure that describes the priority level to set a resource to. 
-
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_setresourcepriority">DXGI_DDI_ARG_SETRESOURCEPRIORITY</a> structure that describes the priority level to set a resource to.
 
 ### -field pfnQueryResourceResidency
 
@@ -121,7 +112,6 @@ For each resource that the runtime queries through a call to <i>QueryResourceRes
 
 [in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_queryresourceresidency">DXGI_DDI_ARG_QUERYRESOURCERESIDENCY</a> structure that describes a list of resources that residency is verified on.
 
-
 ### -field pfnRotateResourceIdentities
 
 Rotates a list of resources.
@@ -137,7 +127,6 @@ Beginning in Windows 8, the driver must support rotation of stereo back buffers
 #### pRotateData
 
 [in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_rotate_resource_identities">DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES</a> structure that describes a list of resources to rotate.
-
 
 ### -field pfnBlt
 
@@ -219,13 +208,9 @@ Additionally, to support stereo presentation, the <a href="https://docs.microsof
 
 #### pBltData
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_blt">DXGI_DDI_ARG_BLT</a> structure that describes the parameters of a bit-block transfer (bitblt). 
-
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_arg_blt">DXGI_DDI_ARG_BLT</a> structure that describes the parameters of a bit-block transfer (bitblt).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">BltDXGI</a>
 
@@ -264,7 +249,4 @@ Additionally, to support stereo presentation, the <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">SetResourcePriorityDXGI</a>
- 
-
- 
 

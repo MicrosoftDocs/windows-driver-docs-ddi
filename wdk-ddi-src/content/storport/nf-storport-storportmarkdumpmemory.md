@@ -8,9 +8,6 @@ ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.date: 03/29/2018
 keywords: ["StorPortMarkDumpMemory function"]
 ms.keywords: MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, StorPortMarkDumpMemory, StorPortMarkDumpMemory routine [Storage Devices], storage.storportmarkdumpmemory, storport/StorPortMarkDumpMemory
-f1_keywords:
- - "storport/StorPortMarkDumpMemory"
- - "StorPortMarkDumpMemory"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Storport.h
-api_name:
-- StorPortMarkDumpMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortMarkDumpMemory
+ - storport/StorPortMarkDumpMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Storport.h
+api_name:
+ - StorPortMarkDumpMemory
 ---
 
 # StorPortMarkDumpMemory function
+
 
 ## -description
 
@@ -49,20 +50,24 @@ A miniport should mark memory used for the dump file or the hibernation file. Ma
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param Address [in]
+### -param Address 
 
+[in]
 The starting address of the memory range to mark.
 
-### -param Length [in]
+### -param Length 
 
+[in]
 The length of the marked memory range.
 
-### -param Flags [in]
+### -param Flags 
 
+[in]
 Dump memory marking flags. The *Flags* parameter must be 0 or contain only the following value.
 
 | Value | Meaning |
@@ -93,3 +98,4 @@ Miniport drivers should call **StorPortMarkDumpMemory** to ensure that the memor
 [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md)
 
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 71974802-954d-4856-a32b-1dcc45c36ba5
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback function"]
 ms.keywords: DFQueueObjectRef_479581ba-4ffd-4aae-b4f0-c246daf38842.xml, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback, EvtIoWdmIrpForForwardProgress, EvtIoWdmIrpForForwardProgress callback function, kmdf.evtiowdmirpforforwardprogress, wdf.evtiowdmirpforforwardprogress, wdfio/EvtIoWdmIrpForForwardProgress
-f1_keywords:
- - "wdfio/EvtIoWdmIrpForForwardProgress"
- - "EvtIoWdmIrpForForwardProgress"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfio.h
-api_name:
-- EvtIoWdmIrpForForwardProgress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS
+ - wdfio/EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfio.h
+api_name:
+ - EvtIoWdmIrpForForwardProgress
 ---
 
 # EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback function
@@ -46,39 +46,27 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtIoWdmIrpForForwardProgress</i> callback function examines an I/O request packet (IRP) and determines whether to use a reserved request object to process the I/O request or to fail the I/O request.
 
-
 ## -parameters
 
+### -param Queue 
 
-
-
-### -param Queue [in]
-
+[in]
 A handle to an I/O queue object.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 A pointer to an IRP structure.
-
 
 ## -returns
 
-
-
 The <i>EvtIoWdmIrpForForwardProgress</i> callback function must return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_forward_progress_action">WDF_IO_FORWARD_PROGRESS_ACTION</a>-typed value.
 
-
-
-
 ## -remarks
-
-
 
 A driver can register an <i>EvtIoWdmIrpForForwardProgress</i> callback function when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueueassignforwardprogresspolicy">WdfIoQueueAssignForwardProgressPolicy</a>.
 
@@ -104,21 +92,11 @@ For more information about the <i>EvtIoWdmIrpForForwardProgress</i> callback fun
 
 This callback function can be called at IRQL <= DISPATCH_LEVEL. If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/critical-regions-and-guarded-regions">critical region</a>.
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_allocate_request_resources">EvtIoAllocateRequestResources</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request">EvtIoAllocateResourcesForReservedRequest</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 09d8096a-71f9-4e9d-a66b-282424394b76
 ms.date: 04/16/2018
 keywords: ["RtlDeleteNoSplay function"]
 ms.keywords: RtlDeleteNoSplay, RtlDeleteNoSplay routine [Installable File System Drivers], ifsk.rtldeletenosplay, ntddk/RtlDeleteNoSplay, rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml
-f1_keywords:
- - "ntddk/RtlDeleteNoSplay"
- - "RtlDeleteNoSplay"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- RtlDeleteNoSplay
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlDeleteNoSplay
+ - ntddk/RtlDeleteNoSplay
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlDeleteNoSplay
 ---
 
 # RtlDeleteNoSplay function
@@ -46,51 +46,33 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlDeleteNoSplay</b> routine deletes the specified node from the splay link tree. 
-
+The <b>RtlDeleteNoSplay</b> routine deletes the specified node from the splay link tree.
 
 ## -parameters
 
+### -param Links 
 
-
-
-### -param Links [in]
-
+[in]
 A pointer to the node to be deleted. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
+### -param Root 
 
-### -param Root [in, out]
-
+[in, out]
 A pointer to the caller's pointer to the root node of the splay link tree. The caller's pointer is updated after the node is deleted.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 Unlike <b>RtlDelete</b>, <b>RtlDeleteNoSplay</b> does not rebalance the splay link tree after the node is deleted. 
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL <= DISPATCH_LEVEL if the splay link tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
-
-
-
+Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL <= DISPATCH_LEVEL if the splay link tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldelete">RtlDelete</a>
 
@@ -109,7 +91,4 @@ Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL <= DISPATCH_LEVEL if 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
- 
-
- 
 

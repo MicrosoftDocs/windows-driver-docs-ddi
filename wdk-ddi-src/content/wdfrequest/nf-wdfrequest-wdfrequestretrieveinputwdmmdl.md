@@ -8,9 +8,6 @@ ms.assetid: 8046d9e4-d4a2-4aeb-92b2-a48277af8b41
 ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveInputWdmMdl function"]
 ms.keywords: DFRequestObjectRef_d65a1869-de52-4284-818f-a3f0837d0374.xml, WdfRequestRetrieveInputWdmMdl, WdfRequestRetrieveInputWdmMdl method, kmdf.wdfrequestretrieveinputwdmmdl, wdf.wdfrequestretrieveinputwdmmdl, wdfrequest/WdfRequestRetrieveInputWdmMdl
-f1_keywords:
- - "wdfrequest/WdfRequestRetrieveInputWdmMdl"
- - "WdfRequestRetrieveInputWdmMdl"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfRequestRetrieveInputWdmMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestRetrieveInputWdmMdl
+ - wdfrequest/WdfRequestRetrieveInputWdmMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfRequestRetrieveInputWdmMdl
 ---
 
 # WdfRequestRetrieveInputWdmMdl function
@@ -47,30 +47,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfRequestRetrieveInputWdmMdl</b> method retrieves a memory descriptor list (MDL) that represents an I/O request's input buffer.
 
-
 ## -parameters
 
+### -param Request 
 
+[in]
+A handle to a framework request object.
 
+### -param Mdl 
 
-### -param Request [in]
-
-A handle to a framework request object. 
-
-
-### -param Mdl [out]
-
+[out]
 A pointer to a location that receives a pointer to an MDL.
 
-
 ## -returns
-
-
 
 <b>WdfRequestRetrieveInputWdmMdl</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -144,12 +137,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 A request's input buffer contains information, such as data to be written to a disk, that was supplied by the originator of the request. Your driver can call <b>WdfRequestRetrieveInputWdmMdl</b> for a write request or a device I/O control request, but not for a read request (because read requests do not provide input data).
 
@@ -194,15 +182,7 @@ MyDrvEvtIoWrite(
 }
 ```
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveoutputwdmmdl">WdfRequestRetrieveOutputWdmMdl</a>
- 
-
- 
 

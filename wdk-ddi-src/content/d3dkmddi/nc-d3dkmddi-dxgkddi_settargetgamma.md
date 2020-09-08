@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DXGKDDI_SETTARGETGAMMA"
- - "DXGKDDI_SETTARGETGAMMA"
+ - DXGKDDI_SETTARGETGAMMA
+ - d3dkmddi/DXGKDDI_SETTARGETGAMMA
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SETTARGETGAMMA callback function
+
 
 ## -description
 

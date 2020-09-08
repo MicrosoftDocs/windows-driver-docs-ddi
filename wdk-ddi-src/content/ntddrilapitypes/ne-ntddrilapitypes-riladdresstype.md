@@ -8,52 +8,71 @@ ms.assetid: a9fe509e-ef15-49ac-beca-339e3582d16e
 ms.date: 02/16/2018
 keywords: ["RILADDRESSTYPE enumeration"]
 ms.keywords: RILADDRESSTYPE, RILADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ADDRTYPE_ABBREV, RIL_ADDRTYPE_ALPHANUM, RIL_ADDRTYPE_EMAIL, RIL_ADDRTYPE_INTERNATIONAL, RIL_ADDRTYPE_IP, RIL_ADDRTYPE_NATIONAL, RIL_ADDRTYPE_NETWKSPECIFIC, RIL_ADDRTYPE_SUBSCRIBER, RIL_ADDRTYPE_UNKNOWN, netvista.riladdresstype, rilapitypes/RILADDRESSTYPE, rilapitypes/RIL_ADDRTYPE_ABBREV, rilapitypes/RIL_ADDRTYPE_ALPHANUM, rilapitypes/RIL_ADDRTYPE_EMAIL, rilapitypes/RIL_ADDRTYPE_INTERNATIONAL, rilapitypes/RIL_ADDRTYPE_IP, rilapitypes/RIL_ADDRTYPE_NATIONAL, rilapitypes/RIL_ADDRTYPE_NETWKSPECIFIC, rilapitypes/RIL_ADDRTYPE_SUBSCRIBER, rilapitypes/RIL_ADDRTYPE_UNKNOWN
-f1_keywords:
- - "ntddrilapitypes/RILADDRESSTYPE"
- - "RILADDRESSTYPE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapitypes.h
-api_name:
-- RILADDRESSTYPE
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: RILADDRESSTYPE
+f1_keywords:
+ - RILADDRESSTYPE
+ - ntddrilapitypes/RILADDRESSTYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapitypes.h
+api_name:
+ - RILADDRESSTYPE
 ---
 
-# RILADDRESSTYPE enumeration
+# RILADDRESSTYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 <div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILADDRESSTYPE.
 
+## -enum-fields
 
+### -field RIL_ADDRTYPE_UNKNOWN
 
+### -field RIL_ADDRTYPE_INTERNATIONAL
+
+### -field RIL_ADDRTYPE_NATIONAL
+
+### -field RIL_ADDRTYPE_NETWKSPECIFIC
+
+### -field RIL_ADDRTYPE_SUBSCRIBER
+
+### -field RIL_ADDRTYPE_ALPHANUM
+
+### -field RIL_ADDRTYPE_ABBREV
+
+### -field RIL_ADDRTYPE_IP
+
+### -field RIL_ADDRTYPE_EMAIL
+
+### -field RIL_ADDRTYPE_URI
+
+### -field RIL_ADDRTYPE_MAX
 
 ## -syntax
-
 
 ```cpp
 enum RILADDRESSTYPE {
@@ -70,55 +89,7 @@ enum RILADDRESSTYPE {
 };
 ```
 
-
-## -enum-fields
-
-
-
-
-### -field RIL_ADDRTYPE_UNKNOWN
-
-
-### -field RIL_ADDRTYPE_INTERNATIONAL
-
-
-### -field RIL_ADDRTYPE_NATIONAL
-
-
-### -field RIL_ADDRTYPE_NETWKSPECIFIC
-
-
-### -field RIL_ADDRTYPE_SUBSCRIBER
-
-
-### -field RIL_ADDRTYPE_ALPHANUM
-
-
-### -field RIL_ADDRTYPE_ABBREV
-
-
-### -field RIL_ADDRTYPE_IP
-
-
-### -field RIL_ADDRTYPE_EMAIL
-
-
-### -field RIL_ADDRTYPE_URI
-
-
-### -field RIL_ADDRTYPE_MAX
-
-
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
 

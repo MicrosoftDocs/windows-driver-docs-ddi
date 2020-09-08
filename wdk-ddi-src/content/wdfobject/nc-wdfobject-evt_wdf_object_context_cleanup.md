@@ -8,9 +8,6 @@ ms.assetid: aba2efca-7d1f-4594-af65-13356f0e3f8b
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_OBJECT_CONTEXT_CLEANUP callback function"]
 ms.keywords: DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EVT_WDF_OBJECT_CONTEXT_CLEANUP callback, EvtCleanupCallback, EvtCleanupCallback callback function, kmdf.evtcleanupcallback, wdf.evtcleanupcallback, wdfobject/EvtCleanupCallback
-f1_keywords:
- - "wdfobject/EvtCleanupCallback"
- - "EvtCleanupCallback"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfobject.h
-api_name:
-- EvtCleanupCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_OBJECT_CONTEXT_CLEANUP
+ - wdfobject/EVT_WDF_OBJECT_CONTEXT_CLEANUP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfobject.h
+api_name:
+ - EvtCleanupCallback
 ---
 
 # EVT_WDF_OBJECT_CONTEXT_CLEANUP callback function
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 A driver's <i>EvtCleanupCallback</i> event callback function removes the driver's references on an object so that the object can be deleted.
 
-
 ## -parameters
 
+### -param Object 
 
-
-
-### -param Object [in]
-
+[in]
 A handle to a framework object.
 
-
 ## -remarks
-
-
 
 The driver can specify an <i>EvtCleanupCallback</i> callback function in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure is used as input to all of the framework methods that create framework objects, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>. 
 
@@ -158,16 +151,8 @@ EVT_WDF_OBJECT_CONTEXT_CLEANUP
 </td>
 </tr>
 </table>
- 
-
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_destroy">EvtDestroyCallback</a>
 
@@ -186,7 +171,4 @@ EVT_WDF_OBJECT_CONTEXT_CLEANUP
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemflush">WdfWorkItemFlush</a>
- 
-
- 
 

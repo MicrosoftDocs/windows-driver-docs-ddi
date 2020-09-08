@@ -8,9 +8,6 @@ ms.assetid: 69a3e9c2-8bd5-4f42-9de9-58f1eea8b9a2
 ms.date: 04/16/2018
 keywords: ["IoFastQueryNetworkAttributes function"]
 ms.keywords: IoFastQueryNetworkAttributes, IoFastQueryNetworkAttributes function [Installable File System Drivers], ifsk.iofastquerynetworkattributes, ioref_c2d35e20-00b0-48e3-9c0e-d13f5dd9b7f7.xml, ntifs/IoFastQueryNetworkAttributes
-f1_keywords:
- - "ntifs/IoFastQueryNetworkAttributes"
- - "IoFastQueryNetworkAttributes"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- IoFastQueryNetworkAttributes
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoFastQueryNetworkAttributes
+ - ntifs/IoFastQueryNetworkAttributes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - IoFastQueryNetworkAttributes
 ---
 
 # IoFastQueryNetworkAttributes function
@@ -46,40 +46,27 @@ req.typenames:
 
 ## -description
 
-
-This routine is reserved for system use. 
-
+This routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param ObjectAttributes
 
 <p>Reserved.</p>
 
-
 ### -param DesiredAccess
 
 Reserved.
-
 
 ### -param OpenOptions
 
 Reserved.
 
-
 ### -param IoStatus
 
 Reserved.
 
-
 ### -param Buffer
 
 Reserved.
-
-
-
-
 

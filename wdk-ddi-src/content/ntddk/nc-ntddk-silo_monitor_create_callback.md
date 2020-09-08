@@ -8,9 +8,6 @@ ms.assetid: C26C5162-4BB0-401E-9AF5-AF1D2D8715F9
 ms.date: 04/30/2018
 keywords: ["SILO_MONITOR_CREATE_CALLBACK callback function"]
 ms.keywords: CreateCallback, CreateCallback callback function [Kernel-Mode Driver Architecture], SILO_MONITOR_CREATE_CALLBACK, SILO_MONITOR_CREATE_CALLBACK callback, kernel.silo_monitor_create_callback, ntddk/CreateCallback
-f1_keywords:
- - "ntddk/CreateCallback"
- - "CreateCallback"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ntddk.h
-api_name:
-- CreateCallback
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SILO_MONITOR_CREATE_CALLBACK
+ - ntddk/SILO_MONITOR_CREATE_CALLBACK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ntddk.h
+api_name:
+ - CreateCallback
 ---
 
 # SILO_MONITOR_CREATE_CALLBACK callback function
@@ -46,25 +46,16 @@ req.typenames:
 
 ## -description
 
-
 This is callback is invoked when a new silo is created.
-
 
 ## -parameters
 
+### -param Silo 
 
-
-
-### -param Silo [in]
-
+[in]
 The silo that was created.
-
 
 ## -returns
 
-
-
 The NT code returned by the operation.
-
-
 

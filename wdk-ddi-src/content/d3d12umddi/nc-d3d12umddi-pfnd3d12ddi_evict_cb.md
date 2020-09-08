@@ -26,8 +26,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_EVICT_CB"
- - "PFND3D12DDI_EVICT_CB"
+ - PFND3D12DDI_EVICT_CB
+ - d3d12umddi/PFND3D12DDI_EVICT_CB
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # PFND3D12DDI_EVICT_CB callback function
+
 
 ## -description
 
@@ -60,7 +61,7 @@ A pointer to a [D3DDDICB_EVICT](../d3dumddi/ns-d3dumddi-d3dddicb_evict.md) struc
 
 ## -returns
 
-If this callback function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+If this callback function succeeds, it returns S_OK. Otherwise, it returns an **HRESULT** error code.
 
 ## -prototype
 

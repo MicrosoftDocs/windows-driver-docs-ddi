@@ -8,9 +8,6 @@ ms.assetid: 20677d16-136c-47d7-a19b-21731433298e
 ms.date: 03/29/2018
 keywords: ["StorPortQuerySystemTime function"]
 ms.keywords: StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], storage.storportquerysystemtime, storport/StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml
-f1_keywords:
- - "storport/StorPortQuerySystemTime"
- - "StorPortQuerySystemTime"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortQuerySystemTime
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortQuerySystemTime
+ - storport/StorPortQuerySystemTime
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortQuerySystemTime
 ---
 
 # StorPortQuerySystemTime function
@@ -47,45 +47,24 @@ req.typenames:
 
 ## -description
 
-
 The <b>StoriPortQuerySystemTime</b> routine obtains the current system time.
-
 
 ## -parameters
 
+### -param CurrentTime 
 
-
-
-### -param CurrentTime [out]
-
-Pointer to the current time, on return. 
-
+[out]
+Pointer to the current time, on return.
 
 ## -returns
 
-
-
-None 
-
-
-
+None
 
 ## -remarks
 
-
-
-The system time returned in <i>CurrentTime</i> is the number of 100-nanosecond intervals that have elapsed since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. 
-
-
-
+The system time returned in <i>CurrentTime</i> is the number of 100-nanosecond intervals that have elapsed since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportquerysystemtime">ScsiPortQuerySystemTime</a>
- 
-
- 
 

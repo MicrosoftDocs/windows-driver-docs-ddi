@@ -8,9 +8,6 @@ ms.assetid: f1a38276-4964-422d-9b3c-8450b1028f27
 ms.date: 02/26/2018
 keywords: ["WdfCmResourceListGetCount function"]
 ms.keywords: DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, WdfCmResourceListGetCount, WdfCmResourceListGetCount method, kmdf.wdfcmresourcelistgetcount, wdf.wdfcmresourcelistgetcount, wdfresource/WdfCmResourceListGetCount
-f1_keywords:
- - "wdfresource/WdfCmResourceListGetCount"
- - "WdfCmResourceListGetCount"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfCmResourceListGetCount
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCmResourceListGetCount
+ - wdfresource/WdfCmResourceListGetCount
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfCmResourceListGetCount
 ---
 
 # WdfCmResourceListGetCount function
@@ -49,38 +49,24 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfCmResourceListGetCount</b> method returns the number of resource descriptors that are contained in a specified resource list.
 
-
 ## -parameters
 
+### -param List 
 
-
-
-### -param List [in]
-
+[in]
 A handle to a framework resource-list object that represents a list of hardware resources for a device.
 
-
 ## -returns
-
-
 
 <b>WdfCmResourceListGetCount</b> returns the number of resource descriptors that are contained in the resource list that the <i>List</i> parameter specifies.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
 ## -remarks
-
-
 
 For more information about resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
@@ -135,5 +121,4 @@ MyEvtDevicePrepareHardware (
     }
 }
 ```
-
 

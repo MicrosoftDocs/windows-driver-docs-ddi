@@ -8,9 +8,6 @@ ms.assetid: 72a75d88-1694-4acf-8775-8586e37e412d
 ms.date: 05/02/2018
 keywords: ["RILUICCCHANNELGROUP enumeration"]
 ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, ntddrilapitypes/RILUICCCHANNELGROUP
-f1_keywords:
- - "ntddrilapitypes/RILUICCCHANNELGROUP"
- - "RILUICCCHANNELGROUP"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows
@@ -28,27 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddrilapitypes.h
-api_name:
-- RILUICCCHANNELGROUP
 targetos: Windows
 req.typenames: RILUICCCHANNELGROUP
+f1_keywords:
+ - RILUICCCHANNELGROUP
+ - ntddrilapitypes/RILUICCCHANNELGROUP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddrilapitypes.h
+api_name:
+ - RILUICCCHANNELGROUP
 ---
 
-# RILUICCCHANNELGROUP enumeration
+# RILUICCCHANNELGROUP enumeration (ntddrilapitypes.h)
 
 
 ## -description
 
-
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
 
 ## -enum-fields
 

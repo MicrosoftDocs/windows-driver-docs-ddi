@@ -8,9 +8,6 @@ ms.assetid: 249D8FCF-6B63-467B-AEAA-BCF4900CFA48
 ms.date: 02/26/2018
 keywords: ["WDF_READ_REGISTER_BUFFER_ULONG function"]
 ms.keywords: WDF_READ_REGISTER_BUFFER_ULONG, WDF_READ_REGISTER_BUFFER_ULONG function, wdf.wdf_read_register_buffer_ulong, wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG
-f1_keywords:
- - "wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG"
- - "WDF_READ_REGISTER_BUFFER_ULONG"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfhwaccess.h
-api_name:
-- WDF_READ_REGISTER_BUFFER_ULONG
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_READ_REGISTER_BUFFER_ULONG
+ - wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfhwaccess.h
+api_name:
+ - WDF_READ_REGISTER_BUFFER_ULONG
 ---
 
 # WDF_READ_REGISTER_BUFFER_ULONG function
@@ -46,34 +46,29 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_READ_REGISTER_BUFFER_ULONG</b> function reads a number of ULONG values  from the specified register address into a buffer.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Register 
 
-### -param Register [in]
-
+[in]
 A pointer to the register, which must be a mapped range in memory space.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 A pointer to a buffer into which an array of ULONG values is read.
 
+### -param Count 
 
-### -param Count [in]
-
+[in]
 Specifies the number of ULONG values to be read into the buffer.
-
 

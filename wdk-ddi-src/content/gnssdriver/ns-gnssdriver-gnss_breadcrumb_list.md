@@ -8,9 +8,6 @@ ms.assetid: 40C11C4B-2FFE-452F-AA08-2BCD4B6A4F7F
 ms.date: 02/15/2018
 keywords: ["GNSS_BREADCRUMB_LIST structure"]
 ms.keywords: "*PGNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST structure [Sensor Devices], PGNSS_BREADCRUMB_LIST, PGNSS_BREADCRUMB_LIST structure pointer [Sensor Devices], gnss.gnss_breadcrumb_list, gnssdriver/GNSS_BREADCRUMB_LIST, gnssdriver/PGNSS_BREADCRUMB_LIST"
-f1_keywords:
- - "gnssdriver/GNSS_BREADCRUMB_LIST"
- - "GNSS_BREADCRUMB_LIST"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gnssdriver.h
-api_name:
-- GNSS_BREADCRUMB_LIST
 targetos: Windows
 req.typenames: GNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST
+f1_keywords:
+ - PGNSS_BREADCRUMB_LIST
+ - gnssdriver/PGNSS_BREADCRUMB_LIST
+ - GNSS_BREADCRUMB_LIST
+ - gnssdriver/GNSS_BREADCRUMB_LIST
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gnssdriver.h
+api_name:
+ - GNSS_BREADCRUMB_LIST
 ---
 
 # GNSS_BREADCRUMB_LIST structure
@@ -46,29 +48,21 @@ req.typenames: GNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST
 
 ## -description
 
-
 This structure contains the response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_pop_breadcrumbs">IOCTL_GNSS_POP_BREADCRUMBS</a>.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Structure size.
 
-
 ### -field Version
 
 Version number.
 
-
 ### -field NumCrumbs
 
 The number of breadcrumbs in the <b>IOCTL_GNSS_POP_BREADCRUMBS</b> response.
-
 
 ### -field v1
 

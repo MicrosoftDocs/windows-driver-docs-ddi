@@ -8,9 +8,6 @@ ms.assetid: 39101009-ba03-472b-8664-d00c7a5cd335
 ms.date: 04/23/2018
 keywords: ["KSALLOCATOR_FRAMING_EX structure"]
 ms.keywords: "*PKSALLOCATOR_FRAMING_EX, KSALLOCATOR_FRAMING_EX, KSALLOCATOR_FRAMING_EX structure [Streaming Media Devices], PKSALLOCATOR_FRAMING_EX, PKSALLOCATOR_FRAMING_EX structure pointer [Streaming Media Devices], ks-struct_d2aa8aab-1778-4383-b524-d52e4dd6c4c2.xml, ks/KSALLOCATOR_FRAMING_EX, ks/PKSALLOCATOR_FRAMING_EX, stream.ksallocator_framing_ex"
-f1_keywords:
- - "ks/KSALLOCATOR_FRAMING_EX"
- - "KSALLOCATOR_FRAMING_EX"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSALLOCATOR_FRAMING_EX
 targetos: Windows
 req.typenames: KSALLOCATOR_FRAMING_EX, *PKSALLOCATOR_FRAMING_EX
+f1_keywords:
+ - PKSALLOCATOR_FRAMING_EX
+ - ks/PKSALLOCATOR_FRAMING_EX
+ - KSALLOCATOR_FRAMING_EX
+ - ks/KSALLOCATOR_FRAMING_EX
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSALLOCATOR_FRAMING_EX
 ---
 
 # KSALLOCATOR_FRAMING_EX structure
+
 
 ## -description
 
@@ -90,3 +93,4 @@ DECLARE_SIMPLE_FRAMING_EX declares a KSALLOCATOR_FRAMING_EX structure called **F
 [KS_FRAMING_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range)
 
 [KS_FRAMING_RANGE_WEIGHTED](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range_weighted)
+

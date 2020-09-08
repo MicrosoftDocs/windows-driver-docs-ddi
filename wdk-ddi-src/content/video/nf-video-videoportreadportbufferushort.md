@@ -8,9 +8,6 @@ ms.assetid: 3ad19dc0-f301-4367-b867-6bc714fd3d5e
 ms.date: 05/10/2018
 keywords: ["VideoPortReadPortBufferUshort function"]
 ms.keywords: VideoPortReadPortBufferUshort, VideoPortReadPortBufferUshort function [Display Devices], VideoPort_Functions_598e11ff-25be-4b55-a86f-130100ed0972.xml, display.videoportreadportbufferushort, video/VideoPortReadPortBufferUshort
-f1_keywords:
- - "video/VideoPortReadPortBufferUshort"
- - "VideoPortReadPortBufferUshort"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortReadPortBufferUshort
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortReadPortBufferUshort
+ - video/VideoPortReadPortBufferUshort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortReadPortBufferUshort
 ---
 
 # VideoPortReadPortBufferUshort function
@@ -46,42 +46,28 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortReadPortBufferUshort</b> function reads a number of USHORT values from a mapped I/O port and writes them into a buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param Port
 
 Pointer to the port. The given <i>Port</i> must be in a mapped I/O-space range returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>.
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 Pointer to a buffer into which an array of USHORT values is written.
-
 
 ### -param Count
 
 Specifies the number of USHORT values to be written to the buffer.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 The buffer must be large enough to contain at least the specified number of USHORT values.
 
@@ -89,13 +75,7 @@ A miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 Callers of <b>VideoPortReadPortBufferUshort</b> can be running at any IRQL, provided that the memory pointed to by the <i>Buffer</i> parameter is resident and that pointed to by the <i>Port</i> parameter is resident, mapped device memory.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>
 
@@ -106,7 +86,4 @@ Callers of <b>VideoPortReadPortBufferUshort</b> can be running at any IRQL, prov
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
- 
-
- 
 

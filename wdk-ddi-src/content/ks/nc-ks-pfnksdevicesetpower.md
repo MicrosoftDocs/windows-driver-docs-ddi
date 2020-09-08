@@ -8,9 +8,6 @@ ms.assetid: 40d5eb14-b7bd-42b6-a3f5-fe9e8c5c806e
 ms.date: 04/23/2018
 keywords: ["PFNKSDEVICESETPOWER callback function"]
 ms.keywords: AVStrMiniDeviceSetPower, AVStrMiniDeviceSetPower routine [Streaming Media Devices], PFNKSDEVICESETPOWER, avstclbk_8b833d83-a199-44a9-97b8-c4afc624d6d5.xml, ks/AVStrMiniDeviceSetPower, stream.avstrminidevicesetpower
-f1_keywords:
- - "ks/AVStrMiniDeviceSetPower"
- - "AVStrMiniDeviceSetPower"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniDeviceSetPower
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSDEVICESETPOWER
+ - ks/PFNKSDEVICESETPOWER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniDeviceSetPower
 ---
 
 # PFNKSDEVICESETPOWER callback function
@@ -46,38 +46,31 @@ req.typenames:
 
 ## -description
 
-
 AVStream calls a minidriver's <i>AVStrMiniDeviceSetPower</i> routine when it receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure that received the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> issued by <i>Device</i>.
 
+### -param To 
 
-### -param To [in]
-
+[in]
 The target device power state.
 
+### -param From 
 
-### -param From [in]
-
+[in]
 The current device power state.
 
-
 ## -remarks
-
-
 
 If a driver has registered its device for idle detection, the power manager sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> to change the power state of an idle device.
 
@@ -85,20 +78,11 @@ The minidriver specifies this routine's address in the <b>SetPower</b> member of
 
 This routine is optional.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
- 
-
- 
 

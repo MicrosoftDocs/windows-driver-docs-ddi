@@ -8,9 +8,6 @@ ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.date: 05/02/2018
 keywords: ["FwpsStreamInjectAsync0 function"]
 ms.keywords: FwpsStreamInjectAsync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsStreamInjectAsync0, netvista.fwpsstreaminjectasync0, wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml
-f1_keywords:
- - "fwpsk/FwpsStreamInjectAsync0"
- - "FwpsStreamInjectAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsStreamInjectAsync0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsStreamInjectAsync0
+ - fwpsk/FwpsStreamInjectAsync0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsStreamInjectAsync0
 ---
 
 # FwpsStreamInjectAsync0 function
@@ -47,52 +47,49 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>FwpsStreamInjectAsync0</b> function injects TCP data segments into a TCP data stream.
 <div class="alert"><b>Note</b>  <b>FwpsStreamInjectAsync0</b> is a specific version of <b>FwpsStreamInjectAsync</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
+### -param injectionHandle 
 
-
-
-### -param injectionHandle [in]
-
+[in]
 An injection handle that was previously created by a call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">
      FwpsInjectionHandleCreate0</a> function.
 
+### -param injectionContext 
 
-### -param injectionContext [in, optional]
-
+[in, optional]
 An optional handle to the injection context.
 
+### -param flags 
 
-### -param flags [in]
-
+[in]
 Reserved. Callout drivers should set this parameter to zero.
 
+### -param flowId 
 
-### -param flowId [in]
-
+[in]
 A run-time identifier that specifies the data flow into which to inject the data. The run-time
      identifier for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE
      metadata value that the filter engine provided to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
+### -param calloutId 
 
-### -param calloutId [in]
-
+[in]
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called either the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
+### -param layerId 
 
-### -param layerId [in]
-
+[in]
 The run-time identifier for the filtering layer at which the data stream is being processed. This
      value must be either FWPS_LAYER_STREAM_V4 or FWPS_LAYER_STREAM_V6. The run-time identifier for the layer
      at which the data stream is being processed is provided to a callout in the 
@@ -101,9 +98,9 @@ The run-time identifier for the filtering layer at which the data stream is bein
      the filter engine passed to the callout driver's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
 
+### -param streamFlags 
 
-### -param streamFlags [in]
-
+[in]
 Flags that specify characteristics of the data stream into which the data is to be injected.
      
 
@@ -180,8 +177,9 @@ Specifies that the stream is to be disconnected after the data being injected in
 <div class="alert"><b>Note</b>  If this flag is set, the <b>FWPS_STREAM_FLAG_SEND</b> flag must also be set, or else <b>STATUS_FWP_INVALID_PARAMETER</b> will be returned.</div>
 <div> </div>
 
-### -param netBufferList [in, out]
+### -param netBufferList 
 
+[in, out]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the data that is being injected into the data stream. A callout driver allocates a <b>NET_BUFFER_LIST</b>
@@ -194,14 +192,14 @@ A pointer to a
      <i>streamFlags</i> parameter is <b>FWPS_STREAM_FLAG_RECEIVE_DISCONNECT</b> or <b>FWPS_STREAM_FLAG_SEND_DISCONNECT</b>, 
      <i>netBufferList</i> can be <b>NULL</b>.
 
+### -param dataLength 
 
-### -param dataLength [in]
-
+[in]
 The number of bytes of data being injected into the data stream.
 
+### -param completionFn 
 
-### -param completionFn [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a> callout function provided by
      the callout driver. The filter engine calls this function after the packet data, described by the 
@@ -217,17 +215,14 @@ If the
 
 This parameter is required and cannot be <b>NULL</b>. If it is <b>NULL</b>, <b>STATUS_FWP_NULL_POINTER</b> will be returned.
 
+### -param completionContext 
 
-### -param completionContext [in, optional]
-
+[in, optional]
 A pointer to a callout driver–provided context that is passed to the callout function pointed to
      by the 
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsStreamInjectAsync0</b> function an NTSTATUS code such as one of the following.
@@ -285,14 +280,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsStreamInjectAsync0</b> function from within a callout's 
@@ -336,13 +325,7 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">FwpsFreeNetBufferList0</a> or 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a>
 
@@ -392,7 +375,4 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a>
- 
-
- 
 

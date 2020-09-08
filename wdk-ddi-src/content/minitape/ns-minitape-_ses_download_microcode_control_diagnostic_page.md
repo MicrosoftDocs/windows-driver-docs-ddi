@@ -8,9 +8,6 @@ ms.assetid: 09c2746f-cfe4-41dc-82ce-0b7e0c348897
 ms.date: 03/29/2018
 keywords: ["SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure"]
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Activate deferred microcode, Download microcode with offsets,save,and activate, Download microcode with offsets,save,and defer activate, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices], Reserved, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page"
-f1_keywords:
- - "minitape/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
- - "SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
 req.header: minitape.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
@@ -28,38 +25,39 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- scsi.h
-api_name:
-- SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 targetos: Windows
 req.typenames: SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, *PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+f1_keywords:
+ - _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+ - minitape/_SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+ - PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+ - minitape/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+ - SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+ - minitape/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - scsi.h
+api_name:
+ - SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 ---
 
-# _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure
+# _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure (minitape.h)
 
 
 ## -description
 
-
 The <b>SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</b> structure contains a vendor specific microcode (i.e., firmware) image
-for use by the enclosure services process. 
-
+for use by the enclosure services process.
 
 ## -struct-fields
-
-
-
 
 ### -field PageCode
 
 Specifies the diagnostic page being sent or requested based on the value. For a Microcode Control diagnostic page, the value should be 0x0E.
-
 
 ### -field SubEnclosureId
 
@@ -67,17 +65,14 @@ Specifies the sub enclosure to which the application client is
 sending the microcode image. If the value does not match a valid SUBENCLOSURE_IDENTIFIER field value found in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_configuration_diagnostic_page">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a>, then the enclosure services
 process shall abort the download microcode operation with a status of 0x80.
 
-
 ### -field PageLength
 
 Specifies the number of bytes that follow in the diagnostic page.
 
-
 ### -field ExpectedGenerationCode
 
 Specifies the expected value of the generation code. If this parameter is not set to the current generation code, then the enclosure services
-process shall abort the download microcode operation with a status of 0x80. 
-
+process shall abort the download microcode operation with a status of 0x80.
 
 ### -field Mode
 
@@ -178,13 +173,10 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved for future use.
-
 
 ### -field BufferID
 
@@ -196,22 +188,18 @@ the enclosure services process shall assign additional buffer ID codes contiguou
 enclosure services process receives an unsupported buffer ID code, then it shall abort the download
 microcode operation and set the <i>Status</i> field in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_status_descriptor">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a>  to 0x80 in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_status_diagnostic_page">SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE</a> structure.
 
-
 ### -field BufferOffset
 
-Specifies the offset in bytes within the buffer to which the microcode data is written in multiples of four. The enclosure services process may require that this  field be contiguously increasing in consecutive SEND DIAGNOSTIC commands. 
-
+Specifies the offset in bytes within the buffer to which the microcode data is written in multiples of four. The enclosure services process may require that this  field be contiguously increasing in consecutive SEND DIAGNOSTIC commands.
 
 ### -field ImageLength
 
 specifies the total number of bytes in the microcode image the application
 intends to send to the specified <i>BufferID</i>.
 
-
 ### -field DataLength
 
 Specifies the length of <i>Data</i>, in bytes.
-
 
 ### -field Data
 

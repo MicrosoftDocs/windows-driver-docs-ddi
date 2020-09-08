@@ -8,9 +8,6 @@ ms.assetid: 6A9BBBAD-F6D1-49A4-9FBA-7F263C1793F0
 ms.date: 04/16/2018
 keywords: ["FsRtlPrepareMdlWriteEx function"]
 ms.keywords: FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwriteex, ntifs/FsRtlPrepareMdlWriteEx
-f1_keywords:
- - "ntifs/FsRtlPrepareMdlWriteEx"
- - "FsRtlPrepareMdlWriteEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlPrepareMdlWriteEx
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlPrepareMdlWriteEx
+ - ntifs/FsRtlPrepareMdlWriteEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlPrepareMdlWriteEx
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlPrepareMdlWriteEx function
@@ -49,48 +49,41 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlPrepareMdlWriteEx</b> routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache. If the cache support for the write is not available, the routine reverts to an IRP based MDL write operation.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 A pointer to the file object.
 
+### -param FileOffset 
 
-### -param FileOffset [in]
-
+[in]
 A pointer to a value that specifies the starting byte offset within the cache that holds the data.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 The length in bytes of the data to write to the cache.
 
+### -param LockKey 
 
-### -param LockKey [in]
-
+[in]
 A value that is associated with the byte range to lock. If the range to lock overlaps another range that is already locked with a nonexclusive lock, or if the range to read is a subrange of another range that is already locked nonexclusively, the value in this parameter must be the key for that nonexclusive lock. The lock must be held by the parent process of the calling thread. Otherwise, this parameter has no effect.
 
+### -param MdlChain 
 
-### -param MdlChain [out]
-
+[out]
 On output, a pointer to a linked list of memory descriptor lists (MDLs) that point to the byte range within the cached data.
 
+### -param IoStatus 
 
-### -param IoStatus [out]
-
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
-
 ## -returns
-
-
 
 <b>FsRtlPrepareMdlWriteEx</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value, such as one of the following: 
 
@@ -111,14 +104,8 @@ An IRP for the IRP based write could not be allocated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If fast I/O is available for the file system, the <b>FsRtlPrepareMdlWriteEx</b> routine will bypass the usual IRP write mechanism and return a linked list of memory descriptor lists (MDL) that the caller can use to write data directly to the file cache. Instead of copying data buffered data into the cache, the physical pages that the caller will overwrite are locked in memory and can be written to directly. <b>FsRtlPrepareMdlWriteEx</b> returns one or more memory descriptor lists (MDLs) that point to the specified byte range.
 
@@ -128,13 +115,7 @@ The pages that the MDLs point to are locked in memory, but are not mapped in sys
 
 Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539172">CcMdlWriteComplete</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539172">CcMdlWriteComplete</a>
 
@@ -145,7 +126,4 @@ Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
- 
-
- 
 

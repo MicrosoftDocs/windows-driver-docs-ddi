@@ -8,9 +8,6 @@ ms.assetid: f1b3e432-6972-49ff-9fce-b642c1be17ea
 ms.date: 05/10/2018
 keywords: ["DD_GETDRIVERINFO2DATA structure"]
 ms.keywords: DD_GETDRIVERINFO2DATA, DD_GETDRIVERINFO2DATA structure [Display Devices], _DD_GETDRIVERINFO2DATA, d3dhal/DD_GETDRIVERINFO2DATA, d3dstrct_64ab01fc-414f-4367-8bb7-201c7e120275.xml, display.dd_getdriverinfo2data
-f1_keywords:
- - "d3dhal/DD_GETDRIVERINFO2DATA"
- - "DD_GETDRIVERINFO2DATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- DD_GETDRIVERINFO2DATA
 targetos: Windows
 req.typenames: DD_GETDRIVERINFO2DATA
+f1_keywords:
+ - _DD_GETDRIVERINFO2DATA
+ - d3dhal/_DD_GETDRIVERINFO2DATA
+ - DD_GETDRIVERINFO2DATA
+ - d3dhal/DD_GETDRIVERINFO2DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - DD_GETDRIVERINFO2DATA
 ---
 
 # _DD_GETDRIVERINFO2DATA structure
@@ -46,28 +48,20 @@ req.typenames: DD_GETDRIVERINFO2DATA
 
 ## -description
 
-
-
    DirectX 8.0 and later versions only.
    
 
 DD_GETDRIVERINFO2DATA is passed in the <b>lpvData</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure when GUID_GetDriverInfo2 is specified in the <b>guidInfo</b> member of DD_GETDRIVERINFODATA in a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> call.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwReserved
 
 Specifies a reserved field. Driver should not read or write.
 
-
 ### -field dwMagic
 
 Specifies the magic number. Has the value D3DGDI2_MAGIC if this is a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-getdriverinfo2">GetDriverInfo2</a> call. Otherwise this structure is, in fact, a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_stereomode">DD_STEREOMODE</a> call.
-
 
 ### -field dwType
 
@@ -92,17 +86,11 @@ Specifies the type of information requested, which can contain one of the follow
 | D3DGDI2_TYPE_GETFORMATCOUNT | Is used to request the number of DirectX 8.0 and later style surface formats supported by the driver. The data structure pointed to by thelpvData field of the DD_GETDRIVERINFODATA is [DD_GETFORMATCOUNTDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getformatcountdata). | 
 | D3DGDI2_TYPE_GETMULTISAMPLEQUALITYLEVELS | **DirectX 9.0 and later versions only.**<br/>Is used to query the driver for the number of multiple-sample quality levels for a given render-target format that it supports. Whether the display device supports maskable or submaskable multisampling, the driver for the device must provide the number of quality levels for the D3DMULTISAMPLE_NONMASKABLE multiple-sample type. The driver should set the data structure pointed to by the lpvData field of the DD_GETDRIVERINFODATA data structure to [DD_MULTISAMPLEQUALITYLEVELSDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_multisamplequalitylevelsdata). |
 
- 
-
-
 ### -field dwExpectedSize
 
 Specifies the expected size, in bytes, of the information requested. Driver should only read (not write) this member.
 
-
 ## -remarks
-
-
 
 The <b>dwExpectedSize</b> member of the DD_GETDRIVERINFODATA structure is not used when a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-getdriverinfo2">GetDriverInfo2</a> request is being made. Its value is undefined in this case and should be ignored. Instead, the actual expected size of the data is found in the <b>dwExpectedSize</b> member of DD_GETDRIVERINFO2DATA.
 
@@ -173,13 +161,7 @@ DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
 
 For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_deferred_agp_aware_data">DD_DEFERRED_AGP_AWARE_DATA</a>
 
@@ -238,7 +220,4 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
- 
-
- 
 

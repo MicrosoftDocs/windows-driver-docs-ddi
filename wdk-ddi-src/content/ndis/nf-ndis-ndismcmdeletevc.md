@@ -8,9 +8,6 @@ ms.assetid: b55d0995-efd8-4a61-85e9-970559e21a88
 ms.date: 05/02/2018
 keywords: ["NdisMCmDeleteVc function"]
 ms.keywords: NdisMCmDeleteVc, NdisMCmDeleteVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_a6a2bb4d-a82e-422f-b9f0-821519513cb4.xml, ndis/NdisMCmDeleteVc, netvista.ndismcmdeletevc
-f1_keywords:
- - "ndis/NdisMCmDeleteVc"
- - "NdisMCmDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCmDeleteVc
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmDeleteVc
+ - ndis/NdisMCmDeleteVc
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCmDeleteVc
 ---
 
 # NdisMCmDeleteVc function
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCmDeleteVc</b> destroys a caller-created VC.
-
 
 ## -parameters
 
+### -param NdisVcHandle 
 
-
-
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle identifying the VC to be deleted. The caller originally obtained this handle
      from 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>.
 
-
 ## -returns
-
-
 
 <b>NdisMCmDeleteVc</b> can return one of the following:
 
@@ -97,14 +90,8 @@ The VC is still active, so it could not be deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When an MCM driver calls 
     <b>NdisMCmDeleteVc</b>, there must be no outstanding calls on the given VC and that VC must have been
@@ -134,13 +121,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
     protocol drivers, call 
     <b>NdisCoDeleteVc</b> instead.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_delete_vc">MiniportCoDeleteVc</a>
 
@@ -163,7 +144,4 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
- 
-
- 
 

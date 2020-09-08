@@ -7,9 +7,6 @@ ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.date: 08/05/2020
 keywords: ["DXGK_ALLOCATIONINFOFLAGS structure"]
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, _DXGK_ALLOCATIONINFOFLAGS, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
-f1_keywords:
- - "d3dkmddi/DXGK_ALLOCATIONINFOFLAGS"
- - "DXGK_ALLOCATIONINFOFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,21 +24,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGK_ALLOCATIONINFOFLAGS
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_ALLOCATIONINFOFLAGS
+f1_keywords:
+ - _DXGK_ALLOCATIONINFOFLAGS
+ - d3dkmddi/_DXGK_ALLOCATIONINFOFLAGS
+ - DXGK_ALLOCATIONINFOFLAGS
+ - d3dkmddi/DXGK_ALLOCATIONINFOFLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGK_ALLOCATIONINFOFLAGS
 ---
 
 # _DXGK_ALLOCATIONINFOFLAGS structure
+
 
 ## -description
 
@@ -292,3 +295,4 @@ You can specify properties of an allocation by setting bits in the 32-bit **Valu
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)
 
 [**pfnUnlockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb.md)
+

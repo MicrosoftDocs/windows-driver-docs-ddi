@@ -8,9 +8,6 @@ ms.assetid: 90BD61C8-322B-48D5-83E0-7204E3DC4423
 ms.date: 03/29/2018
 keywords: ["StorPortFreeWorker function"]
 ms.keywords: StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices], storage.storportfreeworker, storport/StorPortFreeWorker
-f1_keywords:
- - "storport/StorPortFreeWorker"
- - "StorPortFreeWorker"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortFreeWorker
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortFreeWorker
+ - storport/StorPortFreeWorker
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortFreeWorker
 ---
 
 # StorPortFreeWorker function
@@ -46,30 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Frees a Storport work item previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a> routine.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
-
 
 ### -param Worker
 
 <p>A pointer to an opaque buffer for the work item context returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker"><b>StorPortInitializeWorker</b></a>.</p>
 
-
-
-
 ## -returns
-
-
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a> routine returns one of these status codes:
 
@@ -134,31 +124,16 @@ The work item is already free.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longer needed or when the miniport receives a PnP SRB notification  that the adapter is removed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>
- 
-
- 
 

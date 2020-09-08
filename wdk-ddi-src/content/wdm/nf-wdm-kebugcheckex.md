@@ -8,9 +8,6 @@ ms.assetid: 2330fda2-71f5-4a8b-8124-775a40926bc1
 ms.date: 04/30/2018
 keywords: ["KeBugCheckEx function"]
 ms.keywords: KeBugCheckEx, KeBugCheckEx routine [Kernel-Mode Driver Architecture], k105_17af10bb-b21d-408e-bf73-421ce705d117.xml, kernel.kebugcheckex, wdm/KeBugCheckEx
-f1_keywords:
- - "wdm/KeBugCheckEx"
- - "KeBugCheckEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeBugCheckEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeBugCheckEx
+ - wdm/KeBugCheckEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeBugCheckEx
 ---
 
 # KeBugCheckEx function
@@ -46,37 +46,33 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeBugCheckEx</b> routine brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that would corrupt the system if the caller continued to run.
-
 
 ## -parameters
 
+### -param BugCheckCode 
 
-
-
-### -param BugCheckCode [in]
-
+[in]
 Specifies a value that indicates the reason for the bug check.
 
+### -param BugCheckParameter1 
 
-### -param BugCheckParameter1 [in]
+[in]
 
+### -param BugCheckParameter2 
 
-### -param BugCheckParameter2 [in]
+[in]
 
+### -param BugCheckParameter3 
 
-### -param BugCheckParameter3 [in]
+[in]
 
+### -param BugCheckParameter4 
 
-### -param BugCheckParameter4 [in]
-
+[in]
 The four <i>BugCheckParameterX</i> values supply additional information, such as the address and data where a memory-corruption error occurred, depending on the value of <i>BugCheckCode</i>.
 
-
 ## -remarks
-
-
 
 A bug check is a system-detected error that causes an immediate, controlled shutdown of the system. Various kernel-mode components perform run-time consistency checking. When such a component discovers an unrecoverable inconsistency, it causes a bug check to be generated.
 
@@ -88,13 +84,7 @@ A driver or other kernel-mode component should call this routine only in cases o
 
 However, even during driver development, this routine is of only limited utility, since it results in a complete system shutdown. A more effective debugging method is to attach a kernel debugger to the system and then use routines that send messages to the debugger or break into the debugger. For further information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/using-debugging-code-in-a-driver">Using Debugging Code in a Driver</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateerrorlogentry">IoAllocateErrorLogEntry</a>
 
@@ -113,7 +103,4 @@ However, even during driver development, this routine is of only limited utility
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a>
- 
-
- 
 

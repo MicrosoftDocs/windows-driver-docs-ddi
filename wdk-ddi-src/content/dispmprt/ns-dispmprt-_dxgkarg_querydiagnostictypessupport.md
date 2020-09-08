@@ -5,38 +5,43 @@ description: Arguments for the DxgkddiQueryDiagnosticTypesSupport callback funct
 ms.assetid: 05382c90-2195-4352-b12a-b9fcaec51033
 ms.date: 10/19/2018
 keywords: ["DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT structure"]
-f1_keywords:
- - "dispmprt/_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT"
- - "_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT"
 ms.keywords: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT,
 req.header: dispmprt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- dispmprt.h
-api_name:
-- _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+ - dispmprt/_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+ - PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+ - dispmprt/PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+ - DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+ - dispmprt/DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - dispmprt.h
+api_name:
+ - _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+product:
+ - Windows
 ---
 
 # _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT structure
+
 
 ## -description
 

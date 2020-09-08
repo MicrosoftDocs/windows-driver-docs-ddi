@@ -8,9 +8,6 @@ ms.assetid: f916b414-9cd9-4745-a021-07c810d0d68b
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::Send"]
 ms.keywords: IWDFIoRequest interface,Send method, IWDFIoRequest.Send, IWDFIoRequest::Send, Send, Send method, Send method,IWDFIoRequest interface, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, umdf.iwdfiorequest_send, wdf.iwdfiorequest_send, wudfddi/IWDFIoRequest::Send
-f1_keywords:
- - "wudfddi/IWDFIoRequest.Send"
- - "IWDFIoRequest.Send"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest.Send
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest::Send
+ - wudfddi/IWDFIoRequest::Send
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest.Send
 ---
 
 # IWDFIoRequest::Send
@@ -46,29 +46,25 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Send</b> method sends a request to the specified I/O target.
 
-
 ## -parameters
 
+### -param pIoTarget 
 
+[in]
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface for the I/O target object, which typically represents a lower driver in the stack.
 
+### -param Flags 
 
-### -param pIoTarget [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface for the I/O target object, which typically represents a lower driver in the stack. 
-
-
-### -param Flags [in]
-
+[in]
 A valid bitwise OR of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags.
 
+### -param Timeout 
 
-### -param Timeout [in]
-
+[in]
 The amount of time, in system time units (100-nanosecond intervals), that can elapse before the framework automatically cancels the I/O request.
 
 <ul>
@@ -87,21 +83,13 @@ If the value is zero, the framework does not time out the request.
 </ul>
 Relative expiration times are not affected by any changes to the system time that might occur within the specified time-out period. Absolute expiration times reflect system time changes.
 
-
 ## -returns
-
-
 
 <b>Send</b> returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 Note that the return value represents the status of the <b>Send</b> method's attempt to send the I/O request to the I/O target. The return value does not represent the completion status of the I/O request. Your driver must use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a> interface to obtain the I/O request's completion status.
 
-
-
-
 ## -remarks
-
-
 
 If <b>Send</b> returns an error code, the driver should typically complete the request with the error code that <b>Send</b> returned, as the code in the following Example section shows.
 
@@ -166,12 +154,7 @@ The following code example forwards a request to a device's I/O target.
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">IRequestCallbackRequestCompletion::OnCompletion</a>
 
@@ -190,7 +173,4 @@ The following code example forwards a request to a device's I/O target.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>
- 
-
- 
 

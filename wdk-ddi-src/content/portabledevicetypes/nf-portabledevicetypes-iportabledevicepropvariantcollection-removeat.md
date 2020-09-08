@@ -8,9 +8,6 @@ ms.assetid: 655e263c-23c9-44f0-8d52-fa8dc0619fee
 ms.date: 02/15/2018
 keywords: ["IPortableDevicePropVariantCollection::RemoveAt"]
 ms.keywords: IPortableDevicePropVariantCollection interface,RemoveAt method, IPortableDevicePropVariantCollection.RemoveAt, IPortableDevicePropVariantCollection::RemoveAt, IPortableDevicePropVariantCollectionRemoveAt, RemoveAt, RemoveAt method, RemoveAt method,IPortableDevicePropVariantCollection interface, portabledevicetypes/IPortableDevicePropVariantCollection::RemoveAt, wpddk.iportabledevicepropvariantcollection_removeat
-f1_keywords:
- - "portabledevicetypes/IPortableDevicePropVariantCollection.RemoveAt"
- - "IPortableDevicePropVariantCollection.RemoveAt"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,22 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDevicePropVariantCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - IPortableDevicePropVariantCollection::RemoveAt
+ - portabledevicetypes/IPortableDevicePropVariantCollection::RemoveAt
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDevicePropVariantCollection.RemoveAt
 ---
 
 # IPortableDevicePropVariantCollection::RemoveAt
@@ -48,26 +48,16 @@ ms.custom: RS5
 
 ## -description
 
-
-
 Removes the element stored at the location specified by the given index.
-
-
-
 
 ## -parameters
 
+### -param dwIndex 
 
-
-
-### -param dwIndex [in]
-
+[in]
 Specifies the index of the element to be removed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,27 +89,12 @@ The specified index was out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You must specify a zero-based index.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
- 
-
- 
 

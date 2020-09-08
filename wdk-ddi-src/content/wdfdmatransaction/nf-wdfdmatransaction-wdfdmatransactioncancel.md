@@ -8,9 +8,6 @@ ms.assetid: A0EB188E-D5C7-4C7B-A462-2C3792825FD8
 ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionCancel function"]
 ms.keywords: WdfDmaTransactionCancel, WdfDmaTransactionCancel method, kmdf.wdfdmatransactioncancel, wdf.wdfdmatransactioncancel, wdfdmatransaction/WdfDmaTransactionCancel
-f1_keywords:
- - "wdfdmatransaction/WdfDmaTransactionCancel"
- - "WdfDmaTransactionCancel"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-api_name:
-- WdfDmaTransactionCancel
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfDmaTransactionCancel
+ - wdfdmatransaction/WdfDmaTransactionCancel
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+api_name:
+ - WdfDmaTransactionCancel
 ---
 
 # WdfDmaTransactionCancel function
@@ -47,25 +47,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 The <b>WdfDmaTransactionCancel</b> method attempts to cancel a DMA transaction that is waiting for the allocation of map registers.
 
-
 ## -parameters
 
+### -param DmaTransaction 
 
-
-
-### -param DmaTransaction [in]
-
-A handle to the DMA transaction object that represents the transaction that is being canceled. This transaction must have already been initialized by the driver. 
-
+[in]
+A handle to the DMA transaction object that represents the transaction that is being canceled. This transaction must have already been initialized by the driver.
 
 ## -returns
-
-
 
 <b>WdfDmaTransactionCancel</b> returns TRUE if the framework successfully cancels map register allocation.  In this case, no transfers are completed, and the framework makes no additional DMA callbacks on the transaction until it is reinitiated.
 
@@ -73,12 +66,7 @@ A handle to the DMA transaction object that represents the transaction that is b
 
 The method also returns FALSE if called with a transaction that was allocated from a DMA version 2 enabler.
 
-
-
-
 ## -remarks
-
-
 
 The driver might call <b>WdfDmaTransactionCancel</b> from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a> event callback function that it supplies in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a>. For a code example that shows how to do this, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionstopsystemtransfer">WdfDmaTransactionStopSystemTransfer</a>.
 
@@ -97,13 +85,7 @@ A driver must request use of DMA version 3 prior to calling  <b>WdfDmaTransactio
 
  If a driver calls <b>WdfDmaTransactionCancel</b> on a transaction that was allocated from a DMA version 2 enabler, the framework generates a verifier error and <b>WdfDmaTransactionCancel</b> returns FALSE. In this case, no attempt is made to cancel the transaction.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a>
 
@@ -114,7 +96,4 @@ A driver must request use of DMA version 3 prior to calling  <b>WdfDmaTransactio
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionstopsystemtransfer">WdfDmaTransactionStopSystemTransfer</a>
- 
-
- 
 

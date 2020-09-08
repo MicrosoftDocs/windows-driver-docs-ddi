@@ -8,9 +8,6 @@ ms.assetid: b0e1bbef-8116-4455-aa5c-7f47386a3700
 ms.date: 05/02/2018
 keywords: ["MINIPORT_ENABLE_MESSAGE_INTERRUPT callback function"]
 ms.keywords: MINIPORT_ENABLE_MESSAGE_INTERRUPT, MINIPORT_ENABLE_MESSAGE_INTERRUPT callback, MiniportEnableMessageInterrupt, MiniportEnableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportEnableMessageInterrupt, ndis_interrupts_miniport_functions_ref_cc88ce4b-e75b-4da8-89aa-3d449451a0d3.xml, netvista.miniportenablemessageinterrupt
-f1_keywords:
- - "ndis/MiniportEnableMessageInterrupt"
- - "MiniportEnableMessageInterrupt"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DIRQL (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- MiniportEnableMessageInterrupt
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_ENABLE_MESSAGE_INTERRUPT
+ - ndis/MINIPORT_ENABLE_MESSAGE_INTERRUPT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - MiniportEnableMessageInterrupt
 ---
 
 # MINIPORT_ENABLE_MESSAGE_INTERRUPT callback function
 
 
 ## -description
-
 
 NDIS can call a miniport driver's 
    <i>MiniportEnableMessageInterrupt</i> function to enable a message interrupt for diagnostic and
@@ -55,19 +54,17 @@ NDIS can call a miniport driver's
 
 ## -parameters
 
+### -param MiniportInterruptContext 
 
-
-
-### -param MiniportInterruptContext [in]
-
+[in]
 A handle to a block of context information. The miniport driver supplied this handle in the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
+### -param MessageId 
 
-### -param MessageId [in]
-
+[in]
 A message-signaled interrupt. 
      <i>MessageId</i> is an index to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info_entry">
@@ -78,10 +75,7 @@ A message-signaled interrupt.
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
      <b>NdisMRegisterInterruptEx</b> function.
 
-
 ## -remarks
-
-
 
 A miniport driver must provide a
     <i>MiniportEnableMessageInterrupt</i> function if the driver calls the 
@@ -138,15 +132,9 @@ VOID
 </table></span></div>
 The <b>MINIPORT_ENABLE_MESSAGE_INTERRUPT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_ENABLE_MESSAGE_INTERRUPT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a>
 
@@ -176,7 +164,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a>
- 
-
- 
 

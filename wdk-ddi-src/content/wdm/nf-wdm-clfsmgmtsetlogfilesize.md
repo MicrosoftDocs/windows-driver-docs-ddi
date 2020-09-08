@@ -8,9 +8,6 @@ ms.assetid: 76588bdd-ceb8-4c8b-bcd7-23184feacf86
 ms.date: 04/30/2018
 keywords: ["ClfsMgmtSetLogFileSize function"]
 ms.keywords: ClfsMgmtSetLogFileSize, ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml, kernel.clfsmgmtsetlogfilesize, wdm/ClfsMgmtSetLogFileSize
-f1_keywords:
- - "wdm/ClfsMgmtSetLogFileSize"
- - "ClfsMgmtSetLogFileSize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Clfs.sys
-- Ext-MS-Win-fs-clfs-l1-1-0.dll
-api_name:
-- ClfsMgmtSetLogFileSize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ClfsMgmtSetLogFileSize
+ - wdm/ClfsMgmtSetLogFileSize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Clfs.sys
+ - Ext-MS-Win-fs-clfs-l1-1-0.dll
+api_name:
+ - ClfsMgmtSetLogFileSize
 ---
 
 # ClfsMgmtSetLogFileSize function
@@ -47,22 +47,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>ClfsMgmtSetLogFileSize</b> routine adds containers to a log or deletes containers from a log.
-
 
 ## -parameters
 
+### -param LogFile 
 
-
-
-### -param LogFile [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log, or a stream within the log, to which containers are being added or deleted.
 
+### -param NewSizeInContainers 
 
-### -param NewSizeInContainers [in]
-
+[in]
 A pointer to the requested log size. The caller sets this parameter to one of the following values.
 
 <table>
@@ -118,25 +114,22 @@ If a maximum size policy is installed, the log expands to the maximum number of 
 
 To determine the actual log size, which might be different from the requested size, use the <i>ResultingSizeInContainers</i> parameter.
 
+### -param ResultingSizeInContainers 
 
-### -param ResultingSizeInContainers [out]
-
+[out]
 A pointer to the resulting log size. If successful, the routine writes the actual size of the log, expressed as the number of containers in the log, to the location pointed to by this parameter.
 
+### -param CompletionRoutine 
 
-### -param CompletionRoutine [in, optional]
-
+[in, optional]
  Not used.  Set to NULL.
 
+### -param CompletionRoutineData 
 
-### -param CompletionRoutineData [in, optional]
-
+[in, optional]
  Not used. Set to NULL.
 
-
 ## -returns
-
-
 
 The <b>ClfsMgmtSetLogFileSize</b> routine returns one of the following NTSTATUS values:
 
@@ -227,29 +220,15 @@ CLFS management could not add enough containers to the log to reach <i>NewSizeIn
 
 This routine might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ClfsMgmtSetLogFileSize</b> routine is typically used only when a client starts or stops. Do not call the <b>ClfsMgmtSetLogFileSize</b> routine from within your <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_advance_tail_callback">ClfsAdvanceTailCallback</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtinstallpolicy">ClfsMgmtInstallPolicy</a>
- 
-
- 
 

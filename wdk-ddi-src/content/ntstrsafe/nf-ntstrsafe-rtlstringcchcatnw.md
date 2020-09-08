@@ -8,9 +8,6 @@ ms.assetid: 2cd45c9e-b9dd-47fb-a480-63258b2fccd4
 ms.date: 04/30/2018
 keywords: ["RtlStringCchCatNW function"]
 ms.keywords: RtlStringCchCatN, RtlStringCchCatNA, RtlStringCchCatNW, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcatn, ntstrsafe/RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNW, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml
-f1_keywords:
- - "ntstrsafe/RtlStringCchCatNW"
- - "RtlStringCchCatNW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlStringCchCatNW
-- RtlStringCchCatNA
-- RtlStringCchCatNW
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlStringCchCatNW
+ - ntstrsafe/RtlStringCchCatNW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlStringCchCatNW
+ - RtlStringCchCatNA
+ - RtlStringCchCatNW
 ---
 
 # RtlStringCchCatNW function
@@ -49,40 +49,30 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlStringCchCatNW</b> and <b>RtlStringCchCatNA</b> functions concatenate two character-counted strings while limiting the size of the appended string. 
-
+The <b>RtlStringCchCatNW</b> and <b>RtlStringCchCatNA</b> functions concatenate two character-counted strings while limiting the size of the appended string.
 
 ## -parameters
 
+### -param pszDest 
 
-
-
-### -param pszDest [in, out]
-
+[in, out]
 A pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cchMaxAppend</i> characters, is added to the end of the string at <i>pszDest</i> and terminated with a null character.
 
+### -param cchDest 
 
-### -param cchDest [in]
+[in]
+The size of the destination buffer, in characters. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH.
 
-The size of the destination buffer, in characters. The maximum number of characters allowed is NTSTRSAFE_MAX_CCH. 
+### -param pszSrc 
 
-
-### -param pszSrc [in]
-
-A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>. 
-
+[in]
+A pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the buffer at <i>pszDest</i>.
 
 ### -param cchToAppend
 
 <p>The maximum number of characters to append to the string that is contained in the buffer at <i>pszDest</i>.</p>
 
-
-
-
 ## -returns
-
-
 
 The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
@@ -133,14 +123,8 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>RtlStringCchCatNW</b> and <b>RtlStringCchCatNA</b> should be used instead of the following functions: 
 
@@ -202,13 +186,7 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to hand
 
 For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatna">RtlStringCbCatN</a>
 
@@ -219,7 +197,4 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcatnexa">RtlStringCchCatNEx</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkCbQueryMonitorInterface"
- - "DxgkCbQueryMonitorInterface"
+ - DXGKCB_QUERYMONITORINTERFACE
+ - d3dkmddi/DXGKCB_QUERYMONITORINTERFACE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKCB_QUERYMONITORINTERFACE callback function
+
 
 ## -description
 

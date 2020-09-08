@@ -8,9 +8,6 @@ ms.assetid: fb36bc6f-ea9d-4433-a004-3d7db64fcb06
 ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCchCatStringN function"]
 ms.keywords: RtlUnicodeStringCchCatStringN, RtlUnicodeStringCchCatStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatstringn, ntstrsafe/RtlUnicodeStringCchCatStringN, safestrings_7873a766-38f3-4e51-bde0-81fbf1f2dda6.xml
-f1_keywords:
- - "ntstrsafe/RtlUnicodeStringCchCatStringN"
- - "RtlUnicodeStringCchCatStringN"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Ntstrsafe.lib
-- Ntstrsafe.dll
-api_name:
-- RtlUnicodeStringCchCatStringN
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlUnicodeStringCchCatStringN
+ - ntstrsafe/RtlUnicodeStringCchCatStringN
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Ntstrsafe.lib
+ - Ntstrsafe.dll
+api_name:
+ - RtlUnicodeStringCchCatStringN
 ---
 
 # RtlUnicodeStringCchCatStringN function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlUnicodeStringCchCatStringN </b>function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, while limiting the size of the appended string.
-
+The <b>RtlUnicodeStringCchCatStringN </b>function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, while limiting the size of the appended string.
 
 ## -parameters
 
+### -param DestinationString 
 
-
-
-### -param DestinationString [in, out]
-
+[in, out]
 A pointer to a <b>UNICODE_STRING</b> structure. This structure includes a buffer that, on input, contains a string to which the source string will be concatenated. On output, this buffer is the destination buffer that contains the entire resultant string. The source string (excluding the terminating <b>NULL</b>) is added to the end of the destination string. The maximum number of characters in the structure's string buffer is NTSTRSAFE_UNICODE_STRING_MAX_CCH.
 
+### -param pszSrc 
 
-### -param pszSrc [in]
-
+[in]
 A caller-supplied pointer to a null-terminated string. This string will be concatenated to the end of the string that is contained in the <i>DestinationString</i> parameter's <b>UNICODE_STRING</b> structure.
 
+### -param cchToAppend 
 
-### -param cchToAppend [in]
-
+[in]
 The maximum number of characters to append to the string that the <i>DestinationString</i> parameter describes.
 
-
 ## -returns
-
-
 
 <b>RtlUnicodeStringCchCatStringN</b> returns one of the following NTSTATUS values. 
 
@@ -129,12 +122,7 @@ This <i>error</i> status means that the function received an invalid input param
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlUnicodeStringCchCatStringN </b>function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. The function does <u>not</u> terminate the resultant string with a null character value (that is, with zero).
 
@@ -142,15 +130,9 @@ If the source and destination strings overlap, the behavior of the function is u
 
 The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcchcatstringnex">RtlUnicodeStringCchCatStringNEx</a> function.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
-
-
-
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcatstringn">RtlUnicodeStringCbCatStringN</a>
 
@@ -160,8 +142,5 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

@@ -8,9 +8,6 @@ ms.assetid: D923DA5C-0169-475D-8C0C-6A99EB06ECE0
 ms.date: 05/08/2018
 keywords: ["PcRemoveStreamResource function"]
 ms.keywords: PcRemoveStreamResource, PcRemoveStreamResource function [Audio Devices], audio.pcremovestreamresource, portcls/PcRemoveStreamResource
-f1_keywords:
- - "portcls/PcRemoveStreamResource"
- - "PcRemoveStreamResource"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: NA
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NA
-api_name:
-- PcRemoveStreamResource
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcRemoveStreamResource
+ - portcls/PcRemoveStreamResource
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NA
+api_name:
+ - PcRemoveStreamResource
 ---
 
 # PcRemoveStreamResource function
@@ -46,24 +46,17 @@ req.typenames:
 
 ## -description
 
-
-PcRemoveStreamResource removes an existing  stream resource. PcRemoveStreamResource can be called by any driver, including non-audio WaveRT miniport drivers, that has interrupts/threads associated with an audio stream. It can also be called by audio WaveRT miniport drivers. 
-
+PcRemoveStreamResource removes an existing  stream resource. PcRemoveStreamResource can be called by any driver, including non-audio WaveRT miniport drivers, that has interrupts/threads associated with an audio stream. It can also be called by audio WaveRT miniport drivers.
 
 ## -parameters
 
+### -param ResourceHandle 
 
-
-
-### -param ResourceHandle [in]
-
+[in]
 PCSTREAMRESOURCE– Resource handle returned by PcAddStreamResource.  
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>.  
-
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>.
 
 ## -returns
-
-
 
 STATUS_SUCCESS – The driver was able to register the resource of the specified PDO. 
 
@@ -75,12 +68,7 @@ STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other
 
 Additional standard status codes may be returned.
 
-
-
-
 ## -remarks
-
-
 
 To help ensure glitch-free operation, audio drivers must register their streaming resources with portcls. This allows the OS to manage resources to avoid interference between audio streaming and other subsystems. 
 
@@ -104,15 +92,9 @@ Audio drivers must remove a previously registered resource.  Drivers may unregis
 </ul>
 The audio driver must make sure the resource is valid when making this call.
 
-Audio drivers that only run in Windows 10 can use  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <b>PcRemoveStreamResource</b>. For Audio waveRT miniport drivers that need to also run under previous versions of Windows, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-addstreamresource">AddStreamResource</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>. 
-
-
-
+Audio drivers that only run in Windows 10 can use  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <b>PcRemoveStreamResource</b>. For Audio waveRT miniport drivers that need to also run under previous versions of Windows, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-addstreamresource">AddStreamResource</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
@@ -123,7 +105,4 @@ Audio drivers that only run in Windows 10 can use  <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-_pcstreamresourcetype">PcStreamResourceType</a>
- 
-
- 
 

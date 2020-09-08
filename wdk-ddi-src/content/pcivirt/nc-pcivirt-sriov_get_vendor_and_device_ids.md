@@ -8,37 +8,37 @@ ms.assetid: d08bbaea-6f2b-49ef-bb8b-c1fe357e1c90
 ms.date: 02/24/2018
 keywords: ["SRIOV_GET_VENDOR_AND_DEVICE_IDS callback"]
 ms.keywords: "*PSRIOV_GET_VENDOR_AND_DEVICE_IDS, *PSRIOV_GET_VENDOR_AND_DEVICE_IDS callback function pointer [Buses], PCI.sriov_get_vendor_and_device_ids, SRIOV_GET_VENDOR_AND_DEVICE_IDS, SriovGetVendorAndDeviceIds, SriovGetVendorAndDeviceIds callback function [Buses], pcivirt/SriovGetVendorAndDeviceIds"
-f1_keywords:
- - "pcivirt/*PSRIOV_GET_VENDOR_AND_DEVICE_IDS"
- - "*PSRIOV_GET_VENDOR_AND_DEVICE_IDS"
 req.header: pcivirt.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Pcivirt.h
-api_name:
-- PSRIOV_GET_VENDOR_AND_DEVICE_IDS
 targetos: Windows
 req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
+f1_keywords:
+ - SRIOV_GET_VENDOR_AND_DEVICE_IDS
+ - pcivirt/SRIOV_GET_VENDOR_AND_DEVICE_IDS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Pcivirt.h
+api_name:
+ - PSRIOV_GET_VENDOR_AND_DEVICE_IDS
 ---
 
 # SRIOV_GET_VENDOR_AND_DEVICE_IDS callback
@@ -46,12 +46,39 @@ req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 
 ## -description
 
-
 Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF) to be used for generating a more generic Plug and Play ID for the VF.  These IDs cannot be read directly from the VF’s configuration space.
 
+## -parameters
+
+### -param Context 
+
+[in]
+A pointer to a driver-defined context.
+
+### -param VfIndex 
+
+[in]
+A zero-based index of the VF to which this write operation applies.
+
+### -param VendorId 
+
+[out]
+
+
+                A pointer to a USHORT variable that is filled with the vendor ID of the VF.
+
+### -param DeviceId 
+
+[out]
+
+
+                A pointer to a USHORT variable that is filled with the device ID of the VF.
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -prototype
-
 
 ```cpp
 SRIOV_GET_VENDOR_AND_DEVICE_IDS SriovGetVendorAndDeviceIds;
@@ -67,51 +94,7 @@ NTSTATUS SriovGetVendorAndDeviceIds(
 typedef SRIOV_GET_VENDOR_AND_DEVICE_IDS *PSRIOV_GET_VENDOR_AND_DEVICE_IDS;
 ```
 
-
-## -parameters
-
-
-
-
-### -param Context [in]
-
-A pointer to a driver-defined context.
-
-
-
-
-### -param VfIndex [in]
-
-A zero-based index of the VF to which this write operation applies.
-
-
-### -param VendorId [out]
-
-
-
-                A pointer to a USHORT variable that is filled with the vendor ID of the VF.
-
-
-### -param DeviceId [out]
-
-
-
-                A pointer to a USHORT variable that is filled with the device ID of the VF.
-
-
-## -returns
-
-
-
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-
-
-
-
 ## -remarks
-
-
 
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to retrieve the vendor and device identifiers of the specified VF.
 
@@ -151,5 +134,4 @@ Virtualization_GetVendorAndDevice (
 </td>
 </tr>
 </table></span></div>
-
 

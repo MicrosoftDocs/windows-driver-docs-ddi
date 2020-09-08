@@ -8,9 +8,6 @@ ms.assetid: b7374625-6997-44db-b43b-748dab813fcd
 ms.date: 04/16/2018
 keywords: ["IoCreateFileSpecifyDeviceObjectHint function"]
 ms.keywords: IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers], ifsk.iocreatefilespecifydeviceobjecthint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, ntddk/IoCreateFileSpecifyDeviceObjectHint
-f1_keywords:
- - "ntddk/IoCreateFileSpecifyDeviceObjectHint"
- - "IoCreateFileSpecifyDeviceObjectHint"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoCreateFileSpecifyDeviceObjectHint
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoCreateFileSpecifyDeviceObjectHint
+ - ntddk/IoCreateFileSpecifyDeviceObjectHint
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoCreateFileSpecifyDeviceObjectHint
 ---
 
 # IoCreateFileSpecifyDeviceObjectHint function
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoCreateFileSpecifyDeviceObjectHint</b> routine is used by file system filter drivers to send a create request only to the filters below a specified device object and to the file system.
-
 
 ## -parameters
 
+### -param FileHandle 
 
+[out]
+A pointer to a variable that receives a handle for the file object if this call is successful.
 
+### -param DesiredAccess 
 
-### -param FileHandle [out]
-
-A pointer to a variable that receives a handle for the file object if this call is successful. 
-
-
-### -param DesiredAccess [in]
-
+[in]
 A bitmask of flags that specify the type of access that the caller requires to the file or directory. The set of system-defined <i>DesiredAccess</i> flags determines the following specific access rights for file objects.
 
 <table>
@@ -282,9 +278,9 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 
 The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA <i>DesiredAccess</i> flags are incompatible with creating or opening a directory file.
 
+### -param ObjectAttributes 
 
-### -param ObjectAttributes [in]
-
+[in]
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter (<i>ObjectAttributes</i>) can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to the <b>InitializeObjectAttributes</b> routine. Members of the OBJECT_ATTRIBUTES structure for a file object include the following.
 
 <table>
@@ -343,11 +339,10 @@ A set of flags that controls the file object attributes. If the caller is runnin
 </td>
 </tr>
 </table>
- 
 
+### -param IoStatusBlock 
 
-### -param IoStatusBlock [out]
-
+[out]
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileSpecifyDeviceObjectHint</b>, the <b>Information</b> member contains one of the following values:
 
 FILE_CREATED
@@ -362,14 +357,14 @@ FILE_EXISTS
 
 FILE_DOES_NOT_EXIST
 
+### -param AllocationSize 
 
-### -param AllocationSize [in, optional]
+[in, optional]
+Optionally specifies the initial allocation size, in bytes, for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded.
 
-Optionally specifies the initial allocation size, in bytes, for the file. A nonzero value has no effect unless the file is being created, overwritten, or superseded. 
+### -param FileAttributes 
 
-
-### -param FileAttributes [in]
-
+[in]
 Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by any other flag or by an ORed combination of compatible flags. Possible <i>FileAttributes</i> flags include the following. 
 
 <table>
@@ -438,11 +433,10 @@ A temporary file should be created.
 </td>
 </tr>
 </table>
- 
 
+### -param ShareAccess 
 
-### -param ShareAccess [in]
-
+[in]
 Specifies the type of share access to the file that the caller would like, as zero, or one, or a combination of the following flags. To request exclusive access, set this parameter to zero. If the IO_IGNORE_SHARE_ACCESS_CHECK flag is specified in the <i>Options</i> parameter, the I/O manager ignores this parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for this parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. For the greatest chance of avoiding sharing violation errors, specify all of the following share access flags. 
 
 <table>
@@ -481,11 +475,10 @@ The file can be opened for delete access by other threads.
 </td>
 </tr>
 </table>
- 
 
+### -param Disposition 
 
-### -param Disposition [in]
-
+[in]
 Specifies a value that determines the action to be taken, depending on whether the file already exists. The value can be any of those described following.
 
 <table>
@@ -554,11 +547,10 @@ If the file already exists, open it and overwrite it. If it does not, create the
 </td>
 </tr>
 </table>
- 
 
+### -param CreateOptions 
 
-### -param CreateOptions [in]
-
+[in]
 Specifies the options to be applied when creating or opening the file. These options are specified as a compatible combination of the following flags.
 
 <table>
@@ -739,31 +731,30 @@ This flag allows an application to request a filter opportunistic lock (oplock) 
 </td>
 </tr>
 </table>
- 
 
+### -param EaBuffer 
 
-### -param EaBuffer [in, optional]
+[in, optional]
+A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file.
 
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file. 
+### -param EaLength 
 
+[in]
+The length, in bytes, of <i>EaBuffer</i>.
 
-### -param EaLength [in]
+### -param CreateFileType 
 
-The length, in bytes, of <i>EaBuffer</i>. 
+[in]
+Drivers must set this parameter to CreateFileTypeNone.
 
+### -param InternalParameters 
 
-### -param CreateFileType [in]
+[in, optional]
+Drivers must set this parameter to <b>NULL</b>.
 
-Drivers must set this parameter to CreateFileTypeNone. 
+### -param Options 
 
-
-### -param InternalParameters [in, optional]
-
-Drivers must set this parameter to <b>NULL</b>. 
-
-
-### -param Options [in]
-
+[in]
 Specifies options to be used during the creation of the create request. The following table lists the available options.
 
 <table>
@@ -792,17 +783,13 @@ Indicates that the I/O manager should not perform share-access checks on the fil
 </td>
 </tr>
 </table>
- 
 
+### -param DeviceObject 
 
-### -param DeviceObject [in, optional]
-
-A pointer to the device object to which the create request is to be sent. The device object must be a filter or file system device object in the file system driver stack for the volume on which the file or directory resides. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request will be sent to the device object at the top of the driver stack. 
-
+[in, optional]
+A pointer to the device object to which the create request is to be sent. The device object must be a filter or file system device object in the file system driver stack for the volume on which the file or directory resides. This parameter is optional and can be <b>NULL</b>. If this parameter is <b>NULL</b>, the request will be sent to the device object at the top of the driver stack.
 
 ## -returns
-
-
 
 <b>IoCreateFileSpecifyDeviceObjectHint</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -849,11 +836,7 @@ The file or directory name contains a mount point that resolves to a volume othe
 </div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 This routine is used by file system filter drivers to send a create request only to the filters below a specified device object and to the file system. Filters that are attached above the specified device object in the driver stack do not receive the create request.  
 
@@ -985,13 +968,7 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</b> contains a reparse point, the reparse point must resolve to the same volume where the file or directory resides.  If it does not, either the error STATUS_INVALID_DEVICE_OBJECT_PARAMETER or STATUS_MOUNT_POINT_NOT_RESOLVED is returned.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
@@ -1025,7 +1002,7 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
@@ -1050,7 +1027,4 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 4266c775-a2e9-46f0-91ad-6f6cce06bea0
 ms.date: 05/08/2018
 keywords: ["PcUnregisterIoTimeout function"]
 ms.keywords: PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices], audio.pcunregisteriotimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, portcls/PcUnregisterIoTimeout
-f1_keywords:
- - "portcls/PcUnregisterIoTimeout"
- - "PcUnregisterIoTimeout"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Portcls.lib
-- Portcls.dll
-api_name:
-- PcUnregisterIoTimeout
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PcUnregisterIoTimeout
+ - portcls/PcUnregisterIoTimeout
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Portcls.lib
+ - Portcls.dll
+api_name:
+ - PcUnregisterIoTimeout
 ---
 
 # PcUnregisterIoTimeout function
@@ -47,35 +47,27 @@ req.typenames:
 
 ## -description
 
-
 The <b>PcUnregisterIoTimeout</b> function unregisters a driver-supplied I/O-timer callback routine for a specified device object.
 <div class="alert"><b>Note</b>  This function is deprecated for Windows 8 and later versions of Windows.  For Windows on Arm systems, this function is commented out in the PortCls class driver and is inaccessible.</div><div> </div>
 
 ## -parameters
 
+### -param pDeviceObject 
 
-
-
-### -param pDeviceObject [in]
-
+[in]
 Pointer to the same device object that the driver supplied when it previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteriotimeout">PcRegisterIoTimeout</a>. The device object is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
+### -param pTimerRoutine 
 
-### -param pTimerRoutine [in]
-
+[in]
 Pointer to the same I/O-timer callback routine that the driver supplied when it previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteriotimeout">PcRegisterIoTimeout</a>
 
+### -param pContext 
 
-
-### -param pContext [in]
-
+[in]
 Pointer to the same driver-determined context that the driver supplied when it previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteriotimeout">PcRegisterIoTimeout</a>
 
-
-
 ## -returns
-
-
 
 <b>PcUnregisterIoTimeout</b> returns STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code. The following table shows some of the possible error codes.
 
@@ -96,31 +88,16 @@ Indicates that no timer callback with the same device object, callback routine, 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This call succeeds only if a time-out callback with the same device object, timer routine, and context was previously registered with a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteriotimeout">PcRegisterIoTimeout</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteriotimeout">PcRegisterIoTimeout</a>
- 
-
- 
 

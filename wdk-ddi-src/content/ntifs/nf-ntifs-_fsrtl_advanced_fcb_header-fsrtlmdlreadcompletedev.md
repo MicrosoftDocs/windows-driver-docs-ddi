@@ -8,9 +8,6 @@ ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.date: 04/16/2018
 keywords: ["FsRtlMdlReadCompleteDev function"]
 ms.keywords: FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadCompleteDev, ifsk.fsrtlmdlreadcompletedev
-f1_keywords:
- - "ntifs/FsRtlMdlReadCompleteDev"
- - "FsRtlMdlReadCompleteDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlMdlReadCompleteDev
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
+f1_keywords:
+ - FsRtlMdlReadCompleteDev
+ - ntifs/FsRtlMdlReadCompleteDev
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlMdlReadCompleteDev
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # FsRtlMdlReadCompleteDev function
@@ -49,57 +49,34 @@ ms.custom: RS5
 
 ## -description
 
-
 The <b>FsRtlMdlReadCompleteDev</b> routine completes the read operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a> routine initiated.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 A pointer to the file object.
 
+### -param MdlChain 
 
-### -param MdlChain [in]
-
+[in]
 On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
 
+### -param DeviceObject 
 
-### -param DeviceObject [ in, optional ]
-
+[ in, optional ]
 A pointer to a device object on which the file is opened.
-
-
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
 The <b>FsRtlMdlReadCompleteDev</b> routine unlocks the pages in cache memory that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a> routine allocated.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a>
- 
-
- 
 

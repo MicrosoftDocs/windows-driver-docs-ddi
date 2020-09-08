@@ -8,9 +8,6 @@ ms.assetid: 75df65bc-2309-40d6-8e1d-154e72ad0f23
 ms.date: 04/16/2018
 keywords: ["RxNameCacheCheckEntry function"]
 ms.keywords: RxNameCacheCheckEntry, RxNameCacheCheckEntry function [Installable File System Drivers], ifsk.rxnamecachecheckentry, namcache/RxNameCacheCheckEntry, rxref_703b5e6a-4904-4402-8905-bc1dd2ed1c9e.xml
-f1_keywords:
- - "namcache/RxNameCacheCheckEntry"
- - "RxNameCacheCheckEntry"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- namcache.h
-api_name:
-- RxNameCacheCheckEntry
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RxNameCacheCheckEntry
+ - namcache/RxNameCacheCheckEntry
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - namcache.h
+api_name:
+ - RxNameCacheCheckEntry
 ---
 
 # RxNameCacheCheckEntry function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 <b>RxNameCacheCheckEntry</b> checks a name cache entry for validity. A valid entry means that the lifetime has not expired and the <i>MRxContext</i> parameter passes the equality check.
-
 
 ## -parameters
 
+### -param NameCache 
 
-
-
-### -param NameCache [in]
-
+[in]
 A pointer to the NAME_CACHE structure to check.
 
+### -param MRxContext 
 
-### -param MRxContext [in]
-
-A value of context supplied by the network mini-redirector for equality checking when making a valid entry check. 
-
+[in]
+A value of context supplied by the network mini-redirector for equality checking when making a valid entry check.
 
 ## -returns
-
-
 
 <b>RxNameCacheCheckEntry </b>returns one of the possible enumeration values defined for <b>RX_NC_CHECK_STATUS</b>:
 
@@ -110,15 +103,8 @@ The check failed because <i>MRxContext</i> failed equality checking.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/namcache/nf-namcache-rxnamecacheactivateentry">RxNameCacheActivateEntry</a>
 
@@ -149,7 +135,4 @@ The check failed because <i>MRxContext</i> failed equality checking.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/namcache/nf-namcache-rxnamecacheinitialize">RxNameCacheInitialize</a>
- 
-
- 
 

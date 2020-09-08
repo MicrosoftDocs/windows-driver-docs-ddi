@@ -2,45 +2,45 @@
 UID: NF:netadapter.NetAdapterPowerOffloadSetNSCapabilities
 title: NetAdapterPowerOffloadSetNSCapabilities function (netadapter.h)
 author: windows-driver-content
-description: The NetAdapterPowerOffloadSetNsCapabilities method sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
+description: The NetAdapterPowerOffloadSetNsCapabilities function sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
 tech.root: netvista
 ms.assetid: 7ee49626-79b4-46e3-a98f-0b9990cb4a2d
 ms.author: windowsdriverdev
 ms.date: 11/06/2019
 keywords: ["NetAdapterPowerOffloadSetNSCapabilities function"]
-f1_keywords:
- - "netadapter/NetAdapterPowerOffloadSetNSCapabilities"
- - "NetAdapterPowerOffloadSetNSCapabilities"
 ms.keywords: NetAdapterPowerOffloadSetNSCapabilities
 req.header: netadapter.h
-req.include-header:
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: netadaptercxstub.lib
-req.dll:
+req.dll: 
 req.irql: PASSIVE_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- netadaptercxstub.lib
-api_name: 
-- NetAdapterPowerOffloadSetNSCapabilities
-product: 
-- Windows
 targetos: Windows
 ms.custom: Vb
+f1_keywords:
+ - NetAdapterPowerOffloadSetNSCapabilities
+ - netadapter/NetAdapterPowerOffloadSetNSCapabilities
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - netadaptercxstub.lib
+api_name:
+ - NetAdapterPowerOffloadSetNSCapabilities
+product:
+ - Windows
 ---
 
 # NetAdapterPowerOffloadSetNSCapabilities function
@@ -48,7 +48,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetAdapterPowerOffloadSetNsCapabilities** method sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
+The **NetAdapterPowerOffloadSetNsCapabilities** function sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ A pointer to a client driver-allocated and initialized [**NET_ADAPTER_POWER_OFFL
 
 ## -returns
 
-This method does not return a value.
+This function does not return a value.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers typically call this function from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this function before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
 
@@ -81,3 +81,4 @@ Client drivers typically call this method from within their [*EvtDevicePrepareHa
 [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)
+

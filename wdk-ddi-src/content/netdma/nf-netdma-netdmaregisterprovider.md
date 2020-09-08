@@ -8,9 +8,6 @@ ms.assetid: 35d70d0b-c1b9-433f-941d-6cb61ddf0b62
 ms.date: 05/02/2018
 keywords: ["NetDmaRegisterProvider function"]
 ms.keywords: NetDmaRegisterProvider, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaRegisterProvider, netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, netvista.netdmaregisterprovider
-f1_keywords:
- - "netdma/NetDmaRegisterProvider"
- - "NetDmaRegisterProvider"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- netdma.h
-api_name:
-- NetDmaRegisterProvider
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NetDmaRegisterProvider
+ - netdma/NetDmaRegisterProvider
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - netdma.h
+api_name:
+ - NetDmaRegisterProvider
 ---
 
 # NetDmaRegisterProvider function
@@ -46,44 +46,37 @@ req.typenames:
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
 in Windows 8 and later.</div><div> </div>The 
   <b>NetDmaRegisterProvider</b> function registers a DMA provider.
 
-
 ## -parameters
 
+### -param ProviderContext 
 
-
-
-### -param ProviderContext [in]
-
+[in]
 A pointer to a block of driver-allocated context information that stores information about the DMA
      provider. NetDMA passes the context information in subsequent calls to 
      <i>Provider</i>Xxx functions that required a DMA provider context.
 
+### -param pNetDmaProviderHandle 
 
-### -param pNetDmaProviderHandle [in]
-
+[in]
 A pointer to a value that is a handle that 
      <b>NetDmaRegisterProvider</b> supplies to identify the DMA provider. The DMA provider driver passes this
      handle to 
      <b>NetDma<i>Xxx</i></b> functions that require a provider handle.
 
+### -param ProviderCharacteristics 
 
-### -param ProviderCharacteristics [in]
-
+[in]
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
      NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that defines the characteristics of the DMA
      provider.
 
-
 ## -returns
-
-
 
 <b>NetDmaRegisterProvider</b> can return one of the following values:
 
@@ -126,14 +119,8 @@ The operation failed for unspecified reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 DMA provider drivers call the 
     <b>NetDmaRegisterProvider</b> function to register a DMA provider. DMA provider drivers call 
@@ -186,13 +173,7 @@ To deregister a DMA provider, a DMA provider driver calls the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaderegisterprovider">
     NetDmaDeregisterProvider</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a>
 
@@ -218,7 +199,4 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
    ProviderSetDmaChannelCpuAffinity</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 1b8a3181-45eb-4c35-9ccc-d6fe1f7ca92c
 ms.date: 04/27/2018
 keywords: ["L2CAP_FLOWSPEC structure"]
 ms.keywords: "*PL2CAP_FLOWSPEC, L2CAP_FLOWSPEC, L2CAP_FLOWSPEC Structure, L2CAP_FLOWSPEC Structure structure [Bluetooth Devices], L2CAP_FLOWSPEC structure [Bluetooth Devices], PL2CAP_FLOWSPEC, PL2CAP_FLOWSPEC structure pointer [Bluetooth Devices], _L2CAP_FLOWSPEC, bltooth.l2cap_flowspec, bth_structs_2d7077bd-6328-4d54-9238-f463fad371d6.xml, bthddi/L2CAP_CONFIG_VALUE_RANGE, bthddi/PL2CAP_FLOWSPEC"
-f1_keywords:
- - "bthddi/L2CAP_FLOWSPEC"
- - "L2CAP_FLOWSPEC"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- L2CAP_FLOWSPEC
 targetos: Windows
 req.typenames: L2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC
+f1_keywords:
+ - _L2CAP_FLOWSPEC
+ - bthddi/_L2CAP_FLOWSPEC
+ - PL2CAP_FLOWSPEC
+ - bthddi/PL2CAP_FLOWSPEC
+ - L2CAP_FLOWSPEC
+ - bthddi/L2CAP_FLOWSPEC
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - L2CAP_FLOWSPEC
 ---
 
 # _L2CAP_FLOWSPEC structure
@@ -46,44 +50,33 @@ req.typenames: L2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC
 
 ## -description
 
-
 This structure reserved for future use.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 Reserved.
 
-
 ### -field ServiceType
 
 Reserved.
-
 
 ### -field TokenRate
 
 Reserved.
 
-
 ### -field TokenBucketSize
 
 Reserved.
-
 
 ### -field PeakBandwidth
 
 Reserved.
 
-
 ### -field Latency
 
 Reserved.
-
 
 ### -field DelayVariation
 

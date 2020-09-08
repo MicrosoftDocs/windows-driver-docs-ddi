@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: a5f335b5-06f9-4df5-b1c4-1f803e2167ca
 ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_RECEIVE_QUEUE_ID macro"]
-f1_keywords:
- - "ndis/NET_BUFFER_LIST_RECEIVE_QUEUE_ID"
- - "NET_BUFFER_LIST_RECEIVE_QUEUE_ID"
 ms.keywords: NET_BUFFER_LIST_RECEIVE_QUEUE_ID
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NET_BUFFER_LIST_RECEIVE_QUEUE_ID
 targetos: Windows
-
+f1_keywords:
+ - NET_BUFFER_LIST_RECEIVE_QUEUE_ID
+ - ndis/NET_BUFFER_LIST_RECEIVE_QUEUE_ID
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NET_BUFFER_LIST_RECEIVE_QUEUE_ID
 ---
 
 # NET_BUFFER_LIST_RECEIVE_QUEUE_ID macro
@@ -70,3 +69,4 @@ Any NDIS 6.20 or later driver can use **NET_BUFFER_LIST_RECEIVE_QUEUE_ID** to se
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
 
 [**NDIS_NET_BUFFER_LIST_FILTERING_INFO**](ns-ndis-_ndis_net_buffer_list_filtering_info.md)
+

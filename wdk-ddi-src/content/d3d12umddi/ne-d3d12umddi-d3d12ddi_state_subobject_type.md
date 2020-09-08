@@ -20,8 +20,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3d12umddi/D3D12DDI_STATE_SUBOBJECT_TYPE"
- - "D3D12DDI_STATE_SUBOBJECT_TYPE"
+ - D3D12DDI_STATE_SUBOBJECT_TYPE
+ - d3d12umddi/D3D12DDI_STATE_SUBOBJECT_TYPE
 topic_type:
  - apiref
 api_type:
@@ -37,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_STATE_SUBOBJECT_TYPE enumeration
+
 
 ## -description
 

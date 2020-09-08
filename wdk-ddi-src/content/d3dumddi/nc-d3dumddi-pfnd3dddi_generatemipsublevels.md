@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/GenerateMipSubLevels"
- - "GenerateMipSubLevels"
+ - PFND3DDDI_GENERATEMIPSUBLEVELS
+ - d3dumddi/PFND3DDDI_GENERATEMIPSUBLEVELS
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_GENERATEMIPSUBLEVELS callback function
+
 
 ## -description
 

@@ -5,42 +5,42 @@ description: Describes a resource to display.
 ms.assetid: 25bbfe02-c536-4b74-b9b1-ee7a585db027
 ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_PRESENT_0001 structure"]
-f1_keywords:
- - "d3d12umddi/D3D12DDIARG_PRESENT_0001"
- - "D3D12DDIARG_PRESENT_0001"
-ms.keywords: D3D12DDIARG_PRESENT_0001, D3D12DDIARG_PRESENT_0001, 
+ms.keywords: D3D12DDIARG_PRESENT_0001, D3D12DDIARG_PRESENT_0001,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12DDIARG_PRESENT_0001
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDIARG_PRESENT_0001
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - D3D12DDIARG_PRESENT_0001
+ - d3d12umddi/D3D12DDIARG_PRESENT_0001
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDIARG_PRESENT_0001
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # D3D12DDIARG_PRESENT_0001 structure
 
-## -description
 
+## -description
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ Identifies, in bit-field flags, how to display.
 Indicates the flip interval. That is, if the flip occurs after zero, one, two, three, or four vertical syncs.
 
 ### -field VidPnSourceID
- 
+
 ### -field pDirtyRects
 
 A pointer to an array of dirty rectangles, that indicate the portion of the overlay plane that has changed.
@@ -80,16 +80,18 @@ The number of dirty rectangles in the array pointed to by *pDirtyRects*.
 
 ### -field PrivateDriverDataSize
 
-Private driver data size in bytes. 
+Private driver data size in bytes.
 
 ### -field pPrivateDriverData
 
 Private driver data.
 
 ### -field OptimizeForComposition
+
  
 DWM is involved in composition.
 
 ## -remarks
 
 ## -see-also
+

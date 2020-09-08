@@ -8,9 +8,6 @@ ms.assetid: 81B3D4A3-7176-4656-B23D-04F0F84D9000
 ms.date: 04/20/2018
 keywords: ["IPrinterQueueView interface"]
 ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], IPrinterQueueView interface [Print Devices],described, print.iprinterqueueview, printerextension/IPrinterQueueView
-f1_keywords:
- - "printerextension/IPrinterQueueView"
- - "IPrinterQueueView"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterQueueView
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterQueueView
+ - printerextension/IPrinterQueueView
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterQueueView
 ---
 
 # IPrinterQueueView interface
+
 
 ## -description
 
@@ -62,3 +63,4 @@ Note that job enumeration starts when the first event handler is added and stops
 [IPrinterQueueViewEvent::OnChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged)
 
  [Job Management](https://docs.microsoft.com/windows-hardware/drivers/print/job-management)
+

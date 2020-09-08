@@ -8,9 +8,6 @@ ms.assetid: 924fadbe-2703-43f8-985c-db5a7bb960a6
 ms.date: 04/16/2018
 keywords: ["FltSetIoPriorityHintIntoThread function"]
 ms.keywords: FltApiRef_p_to_z_acdf2d2e-c98e-4e7d-8074-fb2b89594771.xml, FltSetIoPriorityHintIntoThread, FltSetIoPriorityHintIntoThread routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoThread, ifsk.fltsetiopriorityhintintothread
-f1_keywords:
- - "fltkernel/FltSetIoPriorityHintIntoThread"
- - "FltSetIoPriorityHintIntoThread"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSetIoPriorityHintIntoThread
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetIoPriorityHintIntoThread
+ - fltkernel/FltSetIoPriorityHintIntoThread
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSetIoPriorityHintIntoThread
 ---
 
 # FltSetIoPriorityHintIntoThread function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltSetIoPriorityHintIntoThread</b> routine is used by a minifilter driver to set the IO priority information in a thread.
-
 
 ## -parameters
 
+### -param Thread 
 
+[in]
+A pointer to the thread to modify. This parameter is required and cannot be <b>NULL</b>.
 
+### -param PriorityHint 
 
-### -param Thread [in]
-
-A pointer to the thread to modify. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param PriorityHint [in]
-
+[in]
 The  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a> enumeration value to set for the thread information pointed to by <i>Thread</i>.
 
-
 ## -returns
-
-
 
 If the IO Priority value passed to the <i>PriorityHint</i> parameter is successfully applied to the <i>Thread</i>, <b>FltSetIoPriorityHintIntoThread</b> returns STATUS_SUCCESS. Otherwise, it returns an appropriate NTSTATUS value, such as one of the following:
 
@@ -88,24 +81,12 @@ The value of the <i>PriorityHint</i> parameter is invalid. This is an error code
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This routine is NONPAGED and can be called from paging IO paths.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -144,7 +125,4 @@ This routine is NONPAGED and can be called from paging IO paths.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a>
- 
-
- 
 

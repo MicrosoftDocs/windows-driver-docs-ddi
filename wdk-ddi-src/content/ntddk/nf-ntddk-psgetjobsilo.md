@@ -8,9 +8,6 @@ ms.assetid: 1032282B-7CA3-4162-8FC2-1A4A683E9DEF
 ms.date: 04/30/2018
 keywords: ["PsGetJobSilo function"]
 ms.keywords: PsGetJobSilo, PsGetJobSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobsilo, ntddk/PsGetJobSilo
-f1_keywords:
- - "ntddk/PsGetJobSilo"
- - "PsGetJobSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PsGetJobSilo
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PsGetJobSilo
+ - ntddk/PsGetJobSilo
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PsGetJobSilo
 ---
 
 # PsGetJobSilo function
@@ -46,33 +46,25 @@ req.typenames:
 
 ## -description
 
-
 This routine returns the first job in the hierarchy that is a <i>Silo</i>.  The returned pointer is valid as long as the supplied <i>Job</i> object remains referenced.
 
 
 <div class="alert"><b>Note</b>  This returns both app silos and server silos, whichever is first.</div>
 <div> </div>
 
-
-
 ## -parameters
 
+### -param Job 
 
-
-
-### -param Job [in]
-
+[in]
 A job object.
 
+### -param Silo 
 
-### -param Silo [out]
-
+[out]
  A pointer that receives the silo for the job.
 
-
 ## -returns
-
-
 
 The following NT status codes are returned.
 
@@ -115,7 +107,4 @@ A PESILO is returned successfully.
 </td>
 </tr>
 </table>
- 
-
-
 

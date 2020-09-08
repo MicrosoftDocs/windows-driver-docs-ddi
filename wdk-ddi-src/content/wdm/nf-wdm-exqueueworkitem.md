@@ -8,9 +8,6 @@ ms.assetid: 287affe1-c5d4-4b36-8017-d1fef6088cf8
 ms.date: 04/16/2018
 keywords: ["ExQueueWorkItem function"]
 ms.keywords: ExQueueWorkItem, ExQueueWorkItem routine [Installable File System Drivers], exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ifsk.exqueueworkitem, wdm/ExQueueWorkItem
-f1_keywords:
- - "wdm/ExQueueWorkItem"
- - "ExQueueWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExQueueWorkItem
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExQueueWorkItem
+ - wdm/ExQueueWorkItem
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExQueueWorkItem
 ---
 
 # ExQueueWorkItem function
@@ -46,22 +46,19 @@ req.typenames:
 
 ## -description
 
-
 <b>ExQueueWorkItem</b> inserts a given work item into a queue from which a system worker thread removes the item and gives control to the routine that the caller supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>. 
 <div class="alert"><b>Note</b>  Use this routine with extreme caution. (See the following Remarks section.)</div><div> </div>
 
 ## -parameters
 
+### -param WorkItem 
 
+[in, out]
+Pointer to the work item. This work item must have been initialized by a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>.
 
+### -param QueueType 
 
-### -param WorkItem [in, out]
-
-Pointer to the work item. This work item must have been initialized by a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>. 
-
-
-### -param QueueType [in]
-
+[in]
 Specifies the queue into which the work item pointed to by <i>WorkItem</i> is to be inserted. <i>QueueType</i> can be either of the following: 
 
 <table>
@@ -92,12 +89,9 @@ Insert the <i>WorkItem</i> into the queue from which a system thread with a vari
 </table>
  
 
-The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system use. 
-
+The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system use.
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>   Device drivers must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> instead of <b>ExQueueWorkItem</b>. Drivers should use <b>ExQueueWorkItem</b>, and the associated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>, only in cases where the specified work item is not associated with a device object or device stack. In all other cases, drivers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreeworkitem">IoFreeWorkItem</a>, and <b>IoQueueWorkItem</b> because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed.</div>
 <div> </div>
@@ -119,15 +113,9 @@ If the callback runs in the system thread with a variable priority attribute, th
 
 </li>
 </ul>
-Threads at either priority remain interruptible. 
-
-
-
+Threads at either priority remain interruptible.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
@@ -154,7 +142,4 @@ Threads at either priority remain interruptible.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_work_queue_item">WORK_QUEUE_ITEM</a>
- 
-
- 
 

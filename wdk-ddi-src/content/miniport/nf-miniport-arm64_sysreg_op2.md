@@ -5,40 +5,39 @@ description: Returns the op2 field for a given ARM system register encoding valu
 ms.assetid: 8b4861fd-8c92-4284-934e-0a1e595a98a5
 ms.date: 09/20/2018
 keywords: ["ARM64_SYSREG_OP2 macro"]
-f1_keywords:
- - "miniport/ARM64_SYSREG_OP2"
- - "ARM64_SYSREG_OP2"
 ms.keywords: ARM64_SYSREG_OP2
 req.header: miniport.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- miniport.h
-api_name: 
-- ARM64_SYSREG_OP2
 targetos: Windows
-
+f1_keywords:
+ - ARM64_SYSREG_OP2
+ - miniport/ARM64_SYSREG_OP2
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - miniport.h
+api_name:
+ - ARM64_SYSREG_OP2
 ---
 
-# ARM64_SYSREG_OP2 macro
+# ARM64_SYSREG_OP2 macro (miniport.h)
 
 
 ## -description
@@ -54,3 +53,4 @@ ARM system register encoding value.
 ## -remarks
 
 ## -see-also
+

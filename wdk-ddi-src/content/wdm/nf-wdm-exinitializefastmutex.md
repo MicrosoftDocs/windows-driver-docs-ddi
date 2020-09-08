@@ -8,9 +8,6 @@ ms.assetid: edd189f9-1089-470f-95a9-670bdba9c210
 ms.date: 04/30/2018
 keywords: ["ExInitializeFastMutex function"]
 ms.keywords: ExInitializeFastMutex, ExInitializeFastMutex routine [Kernel-Mode Driver Architecture], k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml, kernel.exinitializefastmutex, wdm/ExInitializeFastMutex
-f1_keywords:
- - "wdm/ExInitializeFastMutex"
- - "ExInitializeFastMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ExInitializeFastMutex
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ExInitializeFastMutex
+ - wdm/ExInitializeFastMutex
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ExInitializeFastMutex
 ---
 
 # ExInitializeFastMutex function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>ExInitializeFastMutex</b> routine initializes a fast mutex variable, used to synchronize mutually exclusive access by a set of threads to a shared resource.
-
 
 ## -parameters
 
+### -param FastMutex 
 
-
-
-### -param FastMutex [out]
-
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">FAST_MUTEX</a> structure, which represents the fast mutex, in the nonpaged memory pool. The allocation must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
-
 ## -remarks
-
-
 
 <b>ExInitializeFastMutex</b> must be called before any calls to other <b>Ex<i>Xxx</i>FastMutex</b> routines occur. 
 
@@ -72,13 +65,7 @@ For better performance, use the <b>Ex<i>Xxx</i>FastMutex</b> routines instead of
 
 For more information about fast mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff544337(v=vs.85)">ExAcquireFastMutex</a>
 
@@ -105,7 +92,4 @@ For more information about fast mutexes, see <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>
- 
-
- 
 

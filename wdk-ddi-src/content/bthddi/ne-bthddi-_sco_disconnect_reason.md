@@ -8,9 +8,6 @@ ms.assetid: bca4bfc6-d44f-4b10-a30a-ba2acefad7a9
 ms.date: 04/27/2018
 keywords: ["SCO_DISCONNECT_REASON enumeration"]
 ms.keywords: "*PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], SCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoDisconnectRequest, ScoHardwareRemoval, ScoHciDisconnect, ScoRadioPoweredDown, _SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, bthddi/PSCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON, bthddi/ScoDisconnectRequest, bthddi/ScoHardwareRemoval, bthddi/ScoHciDisconnect, bthddi/ScoRadioPoweredDown"
-f1_keywords:
- - "bthddi/SCO_DISCONNECT_REASON"
- - "SCO_DISCONNECT_REASON"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- bthddi.h
-api_name:
-- SCO_DISCONNECT_REASON
 targetos: Windows
 req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
+f1_keywords:
+ - _SCO_DISCONNECT_REASON
+ - bthddi/_SCO_DISCONNECT_REASON
+ - PSCO_DISCONNECT_REASON
+ - bthddi/PSCO_DISCONNECT_REASON
+ - SCO_DISCONNECT_REASON
+ - bthddi/SCO_DISCONNECT_REASON
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - bthddi.h
+api_name:
+ - SCO_DISCONNECT_REASON
 ---
 
 # _SCO_DISCONNECT_REASON enumeration
@@ -46,42 +50,31 @@ req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
 
 ## -description
 
-
 The SCO_DISCONNECT_REASON enumeration type gives the reason an SCO channel has been
   disconnected.
 
-
 ## -enum-fields
-
-
-
 
 ### -field ScoHciDisconnect
 
 This value specifies to the profile driver that the Bluetooth driver stack has received a
      disconnect notification from the host controller interface (HCI) layer.
 
-
 ### -field ScoDisconnectRequest
 
 This value specifies to the profile driver that a disconnect request has been received from the
      remote device.
 
-
 ### -field ScoRadioPoweredDown
 
 This value specifies to the profile driver that the local radio has been turned off.
-
 
 ### -field ScoHardwareRemoval
 
 This value specifies to the profile driver that the local radio has been physically
      removed.
 
-
 ## -remarks
-
-
 
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
@@ -96,20 +89,11 @@ Currently,
     <i>ScoHciDisconnect</i> is the only value the Bluetooth driver stack passes to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a>
- 
-
- 
 

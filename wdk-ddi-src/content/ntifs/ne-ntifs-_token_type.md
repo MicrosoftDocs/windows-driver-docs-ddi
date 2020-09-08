@@ -8,9 +8,6 @@ ms.assetid: 2ad78d17-9baa-45cf-a620-01c2ccd14338
 ms.date: 04/16/2018
 keywords: ["TOKEN_TYPE enumeration"]
 ms.keywords: "*PTOKEN_TYPE, PTOKEN_TYPE, PTOKEN_TYPE enumeration pointer [Installable File System Drivers], TOKEN_TYPE, TOKEN_TYPE enumeration [Installable File System Drivers], TokenImpersonation, TokenPrimary, _TOKEN_TYPE, ifsk.token_type, ntifs/PTOKEN_TYPE, ntifs/TOKEN_TYPE, ntifs/TokenImpersonation, ntifs/TokenPrimary, securitystructures_b570f2e6-2426-4c9d-8552-81131cf4bd66.xml"
-f1_keywords:
- - "ntifs/TOKEN_TYPE"
- - "TOKEN_TYPE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- TOKEN_TYPE
 targetos: Windows
 req.typenames: TOKEN_TYPE
+f1_keywords:
+ - _TOKEN_TYPE
+ - ntifs/_TOKEN_TYPE
+ - TOKEN_TYPE
+ - ntifs/TOKEN_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - TOKEN_TYPE
 ---
 
 # _TOKEN_TYPE enumeration
@@ -46,29 +48,19 @@ req.typenames: TOKEN_TYPE
 
 ## -description
 
-
-The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token. 
-
+The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token.
 
 ## -enum-fields
 
-
-
-
 ### -field TokenPrimary
 
-Indicates a primary token. 
-
+Indicates a primary token.
 
 ### -field TokenImpersonation
 
-Indicates an impersonation token. 
-
+Indicates an impersonation token.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
 
@@ -87,7 +79,4 @@ Indicates an impersonation token.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 98113BC2-317C-4FBD-B3A6-A14B3783D225
 ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_UICC_RESET structure"]
 ms.keywords: "*PNDIS_WWAN_SET_UICC_RESET, NDIS_WWAN_SET_UICC_RESET, NDIS_WWAN_SET_UICC_RESET structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_UICC_RESET, PNDIS_WWAN_SET_UICC_RESET structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_UICC_RESET, ndiswwan/NDIS_WWAN_SET_UICC_RESET, ndiswwan/PNDIS_WWAN_SET_UICC_RESET, netvista.ndis_wwan_set_uicc_reset"
-f1_keywords:
- - "ndiswwan/NDIS_WWAN_SET_UICC_RESET"
- - "NDIS_WWAN_SET_UICC_RESET"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndiswwan.h
-api_name:
-- NDIS_WWAN_SET_UICC_RESET
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_UICC_RESET, *PNDIS_WWAN_SET_UICC_RESET
+f1_keywords:
+ - _NDIS_WWAN_SET_UICC_RESET
+ - ndiswwan/_NDIS_WWAN_SET_UICC_RESET
+ - PNDIS_WWAN_SET_UICC_RESET
+ - ndiswwan/PNDIS_WWAN_SET_UICC_RESET
+ - NDIS_WWAN_SET_UICC_RESET
+ - ndiswwan/NDIS_WWAN_SET_UICC_RESET
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndiswwan.h
+api_name:
+ - NDIS_WWAN_SET_UICC_RESET
 ---
 
 # _NDIS_WWAN_SET_UICC_RESET structure
@@ -46,14 +50,9 @@ req.typenames: NDIS_WWAN_SET_UICC_RESET, *PNDIS_WWAN_SET_UICC_RESET
 
 ## -description
 
-
 The <b>NDIS_WWAN_SET_UICC_RESET</b> structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a UICC card.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
@@ -105,16 +104,11 @@ sizeof(NDIS_WWAN_SET_UICC_RESET)
 For more information about these members, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
-
 ### -field SetUiccReset
 
 A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a> structure that represents the passthrough action the host specifies for the miniport adapter after it resets the UICC.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
@@ -129,7 +123,4 @@ A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwa
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a>
- 
-
- 
 

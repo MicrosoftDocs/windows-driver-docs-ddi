@@ -8,9 +8,6 @@ ms.assetid: 786d6813-a9f3-437e-9b41-d69e0fce9a4c
 ms.date: 03/29/2018
 keywords: ["SCSI_ADAPTER_BUS_INFO structure"]
 ms.keywords: "*PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], _SCSI_ADAPTER_BUS_INFO, ntddscsi/PSCSI_ADAPTER_BUS_INFO, ntddscsi/SCSI_ADAPTER_BUS_INFO, storage.scsi_adapter_bus_info, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml"
-f1_keywords:
- - "ntddscsi/SCSI_ADAPTER_BUS_INFO"
- - "SCSI_ADAPTER_BUS_INFO"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddscsi.h
-api_name:
-- SCSI_ADAPTER_BUS_INFO
 targetos: Windows
 req.typenames: SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO
+f1_keywords:
+ - _SCSI_ADAPTER_BUS_INFO
+ - ntddscsi/_SCSI_ADAPTER_BUS_INFO
+ - PSCSI_ADAPTER_BUS_INFO
+ - ntddscsi/PSCSI_ADAPTER_BUS_INFO
+ - SCSI_ADAPTER_BUS_INFO
+ - ntddscsi/SCSI_ADAPTER_BUS_INFO
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddscsi.h
+api_name:
+ - SCSI_ADAPTER_BUS_INFO
 ---
 
 # _SCSI_ADAPTER_BUS_INFO structure
@@ -46,28 +50,20 @@ req.typenames: SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO
 
 ## -description
 
-
 The SCSI_ADAPTER_BUS_INFO structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_get_inquiry_data">IOCTL_SCSI_GET_INQUIRY_DATA</a> request to retrieve the SCSI inquiry data for all devices on a given SCSI bus. 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field NumberOfBuses
 
-Contains the number of buses on the adapter for which inquiry data is being reported. 
-
+Contains the number of buses on the adapter for which inquiry data is being reported.
 
 ### -field BusData
 
-Contains a variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_bus_data">SCSI_BUS_DATA</a> structures that hold the inquiry data. 
-
+Contains a variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_bus_data">SCSI_BUS_DATA</a> structures that hold the inquiry data.
 
 ## -remarks
-
-
 
 SCSI_ADAPTER_BUS_INFO is a header structure that describes the layout of the output buffer of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_get_inquiry_data">IOCTL_SCSI_GET_INQUIRY_DATA</a> request. This request returns SCSI inquiry data for all of the logical units on all of the buses associated with a particular SCSI host bus adapter (HBA). The <b>BusData</b> member of SCSI_ADAPTER_BUS_INFO contains a variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_bus_data">SCSI_BUS_DATA</a> structures. This array has one element for each SCSI bus on the adapter, so its size is equal to the number of buses indicated in the <b>NumberOfBuses</b> member of SCSI_ADAPTER_BUS_INFO. 
 
@@ -121,13 +117,7 @@ PrintInquiryData(PCHAR  DataBuffer)
 </table></span></div>
 You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for next logical unit. Do not try to do this by pointer arithmetic. The positioning of each SCSI_INQUIRY_DATA structure is potentially different for each HBA miniport driver, because it depends on data alignment requirements.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_get_inquiry_data">IOCTL_SCSI_GET_INQUIRY_DATA</a>
 
@@ -138,7 +128,4 @@ You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_inquiry_data">SCSI_INQUIRY_DATA</a>
- 
-
- 
 

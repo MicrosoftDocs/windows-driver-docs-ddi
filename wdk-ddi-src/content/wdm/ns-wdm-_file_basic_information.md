@@ -8,9 +8,6 @@ ms.assetid: 8f79a3cf-9bc7-4135-a90e-d9dce86cf5f6
 ms.date: 01/22/2019
 keywords: ["FILE_BASIC_INFORMATION structure"]
 ms.keywords: "*PFILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_BASIC_INFORMATION, PFILE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_BASIC_INFORMATION, kernel.file_basic_information, kstruct_b_3de98e8c-d842-45e9-a9bd-948276ef1b87.xml, wdm/FILE_BASIC_INFORMATION, wdm/PFILE_BASIC_INFORMATION"
-f1_keywords:
- - "wdm/FILE_BASIC_INFORMATION"
- - "FILE_BASIC_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdm.h
-api_name:
-- FILE_BASIC_INFORMATION
 targetos: Windows
 req.typenames: FILE_BASIC_INFORMATION, *PFILE_BASIC_INFORMATION
+f1_keywords:
+ - _FILE_BASIC_INFORMATION
+ - wdm/_FILE_BASIC_INFORMATION
+ - PFILE_BASIC_INFORMATION
+ - wdm/PFILE_BASIC_INFORMATION
+ - FILE_BASIC_INFORMATION
+ - wdm/FILE_BASIC_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdm.h
+api_name:
+ - FILE_BASIC_INFORMATION
 ---
 
 # FILE_BASIC_INFORMATION structure
+
 
 ## -description
 
@@ -67,7 +72,7 @@ Specifies the last time the file was changed.
 
 ### -field FileAttributes
 
-Specifies one or more FILE_ATTRIBUTE_*XXX* flags. For descriptions of these flags, see [File Attribute Constants](https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants) in the Microsoft Windows SDK.
+Specifies one or more FILE_ATTRIBUTE_*XXX* flags. For descriptions of these flags, see [File Attribute Constants](https://docs.microsoft.com/windows/win32/fileio/file-attribute-constants) in the Microsoft Windows SDK.
 
 ## -remarks
 
@@ -90,3 +95,4 @@ To set the members of this structure, the caller must have FILE_WRITE_ATTRIBUTES
 [ZwQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
 
 [ZwSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+

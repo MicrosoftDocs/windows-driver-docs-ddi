@@ -8,9 +8,6 @@ ms.assetid: 2a3228a3-f2b4-45c8-9cb0-b3834308f5da
 ms.date: 04/04/2018
 keywords: ["IWDTFLongNumbers2::Add"]
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFLongNumbers2 interface, IWDTFLongNumbers2 interface [Windows Device Testing Framework],Add method, IWDTFLongNumbers2.Add, IWDTFLongNumbers2::Add, Microsoft.WDTF.IWDTFLongNumbers2.Add, Microsoft::WDTF::IWDTFLongNumbers2::Add, dtf.iwdtflongnumbers2_add, wdtf/IWDTFLongNumbers2::Add
-f1_keywords:
- - "wdtf/IWDTFLongNumbers2.Add"
- - "IWDTFLongNumbers2.Add"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTF.Interop.metadata_dll.dll
-api_name:
-- IWDTFLongNumbers2.Add
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFLongNumbers2::Add
+ - wdtf/IWDTFLongNumbers2::Add
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTF.Interop.metadata_dll.dll
+api_name:
+ - IWDTFLongNumbers2.Add
 ---
 
 # IWDTFLongNumbers2::Add
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Adds a single long number to the collection.
-
 
 ## -parameters
 
+### -param Number 
 
-
-
-### -param Number [in]
-
+[in]
 The long number to add to this collection.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflongnumbers2">IWDTFLongNumbers2</a>
- 
-
- 
 

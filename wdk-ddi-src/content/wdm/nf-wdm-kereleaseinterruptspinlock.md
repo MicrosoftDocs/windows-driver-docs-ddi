@@ -8,9 +8,6 @@ ms.assetid: 291442df-21e1-4acf-a107-0a18f28e30ad
 ms.date: 04/30/2018
 keywords: ["KeReleaseInterruptSpinLock function"]
 ms.keywords: KeReleaseInterruptSpinLock, KeReleaseInterruptSpinLock routine [Kernel-Mode Driver Architecture], k105_673f3ed1-bb95-413b-b56b-e9fdea636e8f.xml, kernel.kereleaseinterruptspinlock, wdm/KeReleaseInterruptSpinLock
-f1_keywords:
- - "wdm/KeReleaseInterruptSpinLock"
- - "KeReleaseInterruptSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeReleaseInterruptSpinLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeReleaseInterruptSpinLock
+ - wdm/KeReleaseInterruptSpinLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeReleaseInterruptSpinLock
 ---
 
 # KeReleaseInterruptSpinLock function
@@ -46,45 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeReleaseInterruptSpinLock</b> routine releases an interrupt spin lock acquired by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551914(v=vs.85)">KeAcquireInterruptSpinLock</a>.
-
 
 ## -parameters
 
+### -param Interrupt 
 
-
-
-### -param Interrupt [in, out]
-
+[in, out]
 Specifies the value of the <i>Interrupt</i> parameter passed to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551914(v=vs.85)">KeAcquireInterruptSpinLock</a>.
 
+### -param OldIrql 
 
-### -param OldIrql [in]
-
-Specifies the IRQL value returned by <b>KeAcquireInterruptSpinLock</b>. 
-
+[in]
+Specifies the IRQL value returned by <b>KeAcquireInterruptSpinLock</b>.
 
 ## -remarks
 
-
-
 The <b>KeReleaseInterruptSpinLock</b> releases the interrupt spin lock, and lowers the IRQL value back to the <i>OldIrql</i> value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551914(v=vs.85)">KeAcquireInterruptSpinLock</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>
- 
-
- 
 

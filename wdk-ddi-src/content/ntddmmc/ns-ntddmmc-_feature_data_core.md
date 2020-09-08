@@ -8,9 +8,6 @@ ms.assetid: cd8e989a-1030-4f37-bb39-38974764ccb2
 ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_CORE structure"]
 ms.keywords: "*PFEATURE_DATA_CORE, FEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], PFEATURE_DATA_CORE, PFEATURE_DATA_CORE structure pointer [Storage Devices], _FEATURE_DATA_CORE, ntddmmc/FEATURE_DATA_CORE, ntddmmc/PFEATURE_DATA_CORE, storage.feature_data_core, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml"
-f1_keywords:
- - "ntddmmc/FEATURE_DATA_CORE"
- - "FEATURE_DATA_CORE"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddmmc.h
-api_name:
-- FEATURE_DATA_CORE
 targetos: Windows
 req.typenames: FEATURE_DATA_CORE, *PFEATURE_DATA_CORE
+f1_keywords:
+ - _FEATURE_DATA_CORE
+ - ntddmmc/_FEATURE_DATA_CORE
+ - PFEATURE_DATA_CORE
+ - ntddmmc/PFEATURE_DATA_CORE
+ - FEATURE_DATA_CORE
+ - ntddmmc/FEATURE_DATA_CORE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddmmc.h
+api_name:
+ - FEATURE_DATA_CORE
 ---
 
 # _FEATURE_DATA_CORE structure
@@ -46,57 +50,35 @@ req.typenames: FEATURE_DATA_CORE, *PFEATURE_DATA_CORE
 
 ## -description
 
-
 The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
-
+Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor.
 
 ### -field PhysicalInterface
 
 Must be set to the current communication path between initiator and device, as defined in the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. The bytes of this array are arranged in big-endian order. <b>PhysicalInterface</b>[0] contains the most significant byte, and <b>PhysicalInterface</b>[3] contains the least significant byte.
 
-
 ### -field DeviceBusyEvent
-
 
 ### -field INQUIRY2
 
-
 ### -field Reserved1
-
 
 ### -field Reserved2
 
-
 ## -remarks
 
-
-
-Indicates the feature named "Core" by the <i>MMC-3 </i>specification. This feature encompasses the basic functionality which is mandatory for all devices that support the <i>MMC-3</i> standard. See the <i>MMC-3</i> specification for a description of the capabilities included in the Core feature. 
-
-
-
+Indicates the feature named "Core" by the <i>MMC-3 </i>specification. This feature encompasses the basic functionality which is mandatory for all devices that support the <i>MMC-3</i> standard. See the <i>MMC-3</i> specification for a description of the capabilities included in the Core feature.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
- 
-
- 
 

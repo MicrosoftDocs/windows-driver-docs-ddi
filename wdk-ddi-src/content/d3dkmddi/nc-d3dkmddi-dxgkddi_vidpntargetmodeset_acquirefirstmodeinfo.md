@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAcquireFirstModeInfo"
- - "pfnAcquireFirstModeInfo"
+ - DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO
+ - d3dkmddi/DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO callback function
+
 
 ## -description
 

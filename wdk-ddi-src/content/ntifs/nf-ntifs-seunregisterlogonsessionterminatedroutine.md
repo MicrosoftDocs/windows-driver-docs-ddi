@@ -8,9 +8,6 @@ ms.assetid: 74f24296-cd42-402b-a61f-0199c4a07fd0
 ms.date: 04/16/2018
 keywords: ["SeUnregisterLogonSessionTerminatedRoutine function"]
 ms.keywords: SeUnregisterLogonSessionTerminatedRoutine, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seunregisterlogonsessionterminatedroutine, ntifs/SeUnregisterLogonSessionTerminatedRoutine, seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml
-f1_keywords:
- - "ntifs/SeUnregisterLogonSessionTerminatedRoutine"
- - "SeUnregisterLogonSessionTerminatedRoutine"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeUnregisterLogonSessionTerminatedRoutine
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeUnregisterLogonSessionTerminatedRoutine
+ - ntifs/SeUnregisterLogonSessionTerminatedRoutine
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeUnregisterLogonSessionTerminatedRoutine
 ---
 
 # SeUnregisterLogonSessionTerminatedRoutine function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeUnregisterLogonSessionTerminatedRoutine</b> routine unregisters a callback routine that was registered by an earlier call to <b>SeRegisterLogonSessionTerminatedRoutine</b>.
-
 
 ## -parameters
 
+### -param CallbackRoutine 
 
-
-
-### -param CallbackRoutine [in]
-
+[in]
 Address of routine that was originally passed in to <b>SeRegisterLogonSessionTerminatedRoutine</b>.
 
-
 ## -returns
-
-
 
 <b>SeUnregisterLogonSessionTerminatedRoutine</b> can return one of the following:
 
@@ -105,33 +98,18 @@ A list entry could not be found for the callback routine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each call to <b>SeRegisterLogonSessionTerminatedRoutine</b> must be matched by a subsequent call to <b>SeUnregisterLogonSessionTerminatedRoutine</b>.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-semarklogonsessionforterminationnotification">SeMarkLogonSessionForTerminationNotification</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seregisterlogonsessionterminatedroutine">SeRegisterLogonSessionTerminatedRoutine</a>
- 
-
- 
 

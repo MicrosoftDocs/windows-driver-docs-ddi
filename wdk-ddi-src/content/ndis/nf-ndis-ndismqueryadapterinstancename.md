@@ -8,9 +8,6 @@ ms.assetid: 7af6ee73-814b-49f8-8641-d3e8dc672ee5
 ms.date: 05/02/2018
 keywords: ["NdisMQueryAdapterInstanceName function"]
 ms.keywords: NdisMQueryAdapterInstanceName, NdisMQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_5e04ebd4-3db8-4cb2-a75c-ce67d938804c.xml, ndis/NdisMQueryAdapterInstanceName, netvista.ndismqueryadapterinstancename
-f1_keywords:
- - "ndis/NdisMQueryAdapterInstanceName"
- - "NdisMQueryAdapterInstanceName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMQueryAdapterInstanceName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMQueryAdapterInstanceName
+ - ndis/NdisMQueryAdapterInstanceName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMQueryAdapterInstanceName
 ---
 
 # NdisMQueryAdapterInstanceName function
@@ -47,22 +47,17 @@ req.typenames:
 
 ## -description
 
-
 The
   <b>NdisMQueryAdapterInstanceName</b> function retrieves the friendly name of a miniport adapter.
 
-
 ## -parameters
-
-
-
 
 ### -param pAdapterInstanceName
 
 A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
      string specifies the friendly name of the interface for the given miniport adapter. For Windows Vista
      and later versions of the Windows operating system, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 ### -param MiniportHandle
 
@@ -72,18 +67,11 @@ The handle to the miniport adapter that was previously input to the
 
 ## -returns
 
-
-
 Returns NDIS_STATUS_SUCCESS if memory for the string at 
      <i>AdapterInstanceName</i> was successfully allocated; otherwise, it returns
      NDIS_STATUS_RESOURCES.
 
-
-
-
 ## -remarks
-
-
 
 A miniport driver uses 
     <b>NdisMQueryAdapterInstanceName</b> to retrieve the friendly name of an interface that the miniport
@@ -102,13 +90,7 @@ Friendly names are intended to help the user quickly and accurately identify a p
     adapter--for example, "PCI Ethernet Adapter" and "Virtual Private Networking Adapter" are considered
     friendly names.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
@@ -118,8 +100,5 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 

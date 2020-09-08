@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IDebugHostStatus.PollUserInterrupt
 title: IDebugHostStatus::PollUserInterrupt (dbgmodel.h)
-description: The PollUserInterrupt method is used to inquire whether the user of the debug host has requested an interruption of the current operation. 
+description: The PollUserInterrupt method is used to inquire whether the user of the debug host has requested an interruption of the current operation.
 ms.assetid: 47cffc73-e8d3-4aa4-b2d5-9c91db2eba80
 ms.date: 09/20/2018
 keywords: ["IDebugHostStatus::PollUserInterrupt"]
-f1_keywords:
- - "dbgmodel/IDebugHostStatus.PollUserInterrupt"
- - "IDebugHostStatus.PollUserInterrupt"
 ms.keywords: IDebugHostStatus::PollUserInterrupt, PollUserInterrupt, IDebugHostStatus.PollUserInterrupt, IDebugHostStatus::PollUserInterrupt, IDebugHostStatus.PollUserInterrupt
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IDebugHostStatus.PollUserInterrupt
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IDebugHostStatus::PollUserInterrupt
+ - dbgmodel/IDebugHostStatus::PollUserInterrupt
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostStatus.PollUserInterrupt
 ---
 
 # IDebugHostStatus::PollUserInterrupt
@@ -48,15 +48,16 @@ The PollUserInterrupt method is used to inquire whether the user of the debug ho
 
 It is important that any caller of data model APIs which receives an error of E_ABORT propagate that error outward and not swallow just it. 
 
-Certain hosts (in particular, Debugging Tools for Windows) may opt to fail inquiries which occur while an interrupt is pending. In such circumstances, many method calls to [IDebugHost](nn-dbgmodel-idebughost.md)* interfaces will return E_ABORT until control has returned to the debug host. 
-
+Certain hosts (in particular, Debugging Tools for Windows) may opt to fail inquiries which occur while an interrupt is pending. In such circumstances, many method calls to [IDebugHost](nn-dbgmodel-idebughost.md)* interfaces will return E_ABORT until control has returned to the debug host.
 
 ## -parameters
 
 ### -param interruptRequested
+
 An indication of whether or not a user interrupt is pending is returned. If the returned value is true, the caller should immediately stop what it is doing and propagate the E_ABORT error code outward.
 
 ## -returns
+
 This method returns HRESULT which indicates success or failure.
 
 ## -remarks
@@ -78,7 +79,7 @@ if (spStatus != nullptr && SUCCEEDED(spStatus->PollUserInterrupt(&isInterruptReq
 }
 ```
 
-
 ## -see-also
 
 [IDebugHostStatus interface](nn-dbgmodel-idebughoststatus.md)
+

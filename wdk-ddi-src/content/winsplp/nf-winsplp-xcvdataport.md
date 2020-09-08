@@ -8,38 +8,38 @@ ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
 ms.date: 02/02/2018
 keywords: ["XcvDataPort function"]
 ms.keywords: print.xcvdataport, winsplp/XcvDataPort, XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort function [Print Devices]
-f1_keywords:
- - "winsplp/XcvDataPort"
- - "XcvDataPort"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: NtosKrnl.exe
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsplp.h
-api_name:
-- XcvDataPort
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
+f1_keywords:
+ - XcvDataPort
+ - winsplp/XcvDataPort
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsplp.h
+api_name:
+ - XcvDataPort
 ---
 
 # XcvDataPort function
@@ -47,12 +47,48 @@ req.product: Windows 10 or later.
 
 ## -description
 
-
 A port monitor server DLL's <b>XcvDataPort</b> function receives information from, and returns information to, the port monitor's UI DLL.
 
+## -parameters
+
+### -param hXcv 
+
+[in]
+Caller-supplied printer handle, obtained by calling <b>OpenPrinter</b> (described in the Microsoft Windows SDK documentation). This handle is created and returned by the <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function.
+
+### -param pszDataName 
+
+[in]
+Caller-supplied pointer to a string representing the name of the data being requested. For more information, see the following Remarks section.
+
+### -param pInputData 
+
+[in]
+Caller-supplied pointer to a buffer containing input data.
+
+### -param cbInputData
+
+Caller-supplied size, in bytes, of the buffer pointed to by <i>pInputData</i>.
+
+### -param pOutputData 
+
+[out]
+Caller-supplied pointer to a buffer to receive output data.
+
+### -param cbOutputData
+
+Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutputData</i>.
+
+### -param pcbOutputNeeded 
+
+[out]
+Caller-supplied pointer to a location to receive the minimum size, in bytes, required for the buffer pointed to by <i>pOutputData</i>.
+
+## -returns
+
+If the operation succeeds, this function should return ERROR_SUCCESS. Otherwise, it should return an ERROR_-prefixed Win32 error code. The print monitor UI DLL receives this value in the <i>pdwStatus</i> location specified for <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>.
 
 ## -syntax
-
 
 ```cpp
 DWORD XcvDataPort(
@@ -66,59 +102,7 @@ DWORD XcvDataPort(
 );
 ```
 
-
-## -parameters
-
-
-
-
-### -param hXcv [in]
-
-Caller-supplied printer handle, obtained by calling <b>OpenPrinter</b> (described in the Microsoft Windows SDK documentation). This handle is created and returned by the <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function.
-
-
-### -param pszDataName [in]
-
-Caller-supplied pointer to a string representing the name of the data being requested. For more information, see the following Remarks section.
-
-
-### -param pInputData [in]
-
-Caller-supplied pointer to a buffer containing input data.
-
-
-### -param cbInputData
-
-Caller-supplied size, in bytes, of the buffer pointed to by <i>pInputData</i>.
-
-
-### -param pOutputData [out]
-
-Caller-supplied pointer to a buffer to receive output data.
-
-
-### -param cbOutputData
-
-Caller-supplied size, in bytes, of the buffer pointed to by <i>pOutputData</i>.
-
-
-### -param pcbOutputNeeded [out]
-
-Caller-supplied pointer to a location to receive the minimum size, in bytes, required for the buffer pointed to by <i>pOutputData</i>.
-
-
-## -returns
-
-
-
-If the operation succeeds, this function should return ERROR_SUCCESS. Otherwise, it should return an ERROR_-prefixed Win32 error code. The print monitor UI DLL receives this value in the <i>pdwStatus</i> location specified for <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>.
-
-
-
-
 ## -remarks
-
-
 
 Port monitor server DLLs are required to define an <b>XcvDataPort</b> function so they can receive information from, and return information to, a port monitor UI DLL. The function's address must be included in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
 
@@ -196,9 +180,6 @@ Validate the contents of the buffer pointed to by the <i>pInputData</i> paramete
 </ul>
 If you are writing a port monitor that will communicate with TCPMON, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tcpmon-xcv-interface">TCPMON Xcv Interface</a>.
 
-
-
-
 ## -see-also
 
 <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
@@ -218,11 +199,4 @@ If you are writing a port monitor that will communicate with TCPMON, see <a href
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>
-
-
-
- 
-
- 
-
 

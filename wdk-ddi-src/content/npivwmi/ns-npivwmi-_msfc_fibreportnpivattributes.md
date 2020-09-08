@@ -8,9 +8,6 @@ ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.date: 03/29/2018
 keywords: ["MSFC_FibrePortNPIVAttributes structure"]
 ms.keywords: "*PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], PMSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], _MSFC_FibrePortNPIVAttributes, npivwmi/MSFC_FibrePortNPIVAttributes, npivwmi/PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes"
-f1_keywords:
- - "npivwmi/MSFC_FibrePortNPIVAttributes"
- - "MSFC_FibrePortNPIVAttributes"
 req.header: npivwmi.h
 req.include-header: Npivwmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- npivwmi.h
-api_name:
-- MSFC_FibrePortNPIVAttributes
 targetos: Windows
 req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
+f1_keywords:
+ - _MSFC_FibrePortNPIVAttributes
+ - npivwmi/_MSFC_FibrePortNPIVAttributes
+ - PMSFC_FibrePortNPIVAttributes
+ - npivwmi/PMSFC_FibrePortNPIVAttributes
+ - MSFC_FibrePortNPIVAttributes
+ - npivwmi/MSFC_FibrePortNPIVAttributes
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - npivwmi.h
+api_name:
+ - MSFC_FibrePortNPIVAttributes
 ---
 
 # _MSFC_FibrePortNPIVAttributes structure
@@ -46,42 +50,27 @@ req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 
 ## -description
 
-
 The MSFC_FibrePortNPIVAttributes structure contains attribute information for the virtual ports on an adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field WWPN
 
 The world wide port name of the physical port.
 
-
 ### -field WWNN
 
 The world wide node name of the physical port.
-
 
 ### -field NumberVirtualPorts
 
 The number of virtual ports on the adapter.
 
-
 ### -field VirtualPorts
 
 An array of virtual ports. The array length is specified in the <b>NumberVirtualPorts</b> member.
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-fibreportnpivattributes-wmi-class">MSFC_FibrePortNPIVAttributes WMI Class</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: a2f6f184-1178-4578-aafa-0bd088d42634
 ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2TRIANGLEFAN_IMM structure"]
 ms.keywords: "*LPD3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], LPD3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], _D3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, display.d3dhal_dp2trianglefan_imm"
-f1_keywords:
- - "d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM"
- - "D3DHAL_DP2TRIANGLEFAN_IMM"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DHAL_DP2TRIANGLEFAN_IMM
 targetos: Windows
 req.typenames: D3DHAL_DP2TRIANGLEFAN_IMM
+f1_keywords:
+ - _D3DHAL_DP2TRIANGLEFAN_IMM
+ - d3dhal/_D3DHAL_DP2TRIANGLEFAN_IMM
+ - D3DHAL_DP2TRIANGLEFAN_IMM
+ - d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DHAL_DP2TRIANGLEFAN_IMM
 ---
 
 # _D3DHAL_DP2TRIANGLEFAN_IMM structure
@@ -46,23 +48,15 @@ req.typenames: D3DHAL_DP2TRIANGLEFAN_IMM
 
 ## -description
 
-
 One D3DHAL_DP2TRIANGLEFAN_IMM structure is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLEFAN_IMM, and is used to render a triangle fan.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwEdgeFlags
 
 Specifies a bitmask that identifies which of the fan's outside edges should be rendered when the fill mode is D3DFILL_WIREFRAME. A set bit indicates that its corresponding edge should be rendered. For more information about this bitmask, see the Remarks section.
 
-
 ## -remarks
-
-
 
 One D3DHAL_DP2TRIANGLEFAN_IMM structure immediately follows the D3DHAL_DP2COMMAND structure in the command buffer. The triangle fan's vertex data is DWORD-aligned immediately following the D3DHAL_DP2TRIANGLEFAN_IMM structure in the command buffer.
 
@@ -75,12 +69,7 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 <img alt="Figure showing a command buffer with a D3DDP2OP_TRIANGLEFAN_IMM command, a D3DHAL_DP2TRIANGLEFAN_IMM structure, and the vertex data " src="images/dp2tfimm.png"/>
 
-
-
 ## -see-also
-
-
-
 
 D3DDP2OP_TRIANGLEFAN_IMM
 
@@ -91,7 +80,4 @@ D3DDP2OP_TRIANGLEFAN_IMM
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
- 
-
- 
 

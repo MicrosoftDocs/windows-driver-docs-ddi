@@ -8,9 +8,6 @@ ms.assetid: 86690e6f-4b30-4de9-b380-8939ed983027
 ms.date: 05/03/2018
 keywords: ["wiasSetValidFlag function"]
 ms.keywords: image.wiassetvalidflag, wiamdef/wiasSetValidFlag, wiasFncs_4c84b6c9-20fe-4894-b3fc-f7d84742827a.xml, wiasSetValidFlag, wiasSetValidFlag function [Imaging Devices]
-f1_keywords:
- - "wiamdef/wiasSetValidFlag"
- - "wiasSetValidFlag"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wiaservc.dll
-api_name:
-- wiasSetValidFlag
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiasSetValidFlag
+ - wiamdef/wiasSetValidFlag
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wiaservc.dll
+api_name:
+ - wiasSetValidFlag
 ---
 
 # wiasSetValidFlag function
@@ -46,48 +46,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiasSetValidFlag </b>function sets the valid values for a WIA_PROP_FLAG property.
-
 
 ## -parameters
 
+### -param pWiasContext 
 
-
-
-### -param pWiasContext [in]
-
+[in]
 Pointer to a WIA item context.
-
 
 ### -param propid
 
 Specifies the identifier of the property to be updated.
 
-
 ### -param ulNom
 
 Specifies the property's nominal value.
-
 
 ### -param ulValidBits
 
 Specifies the valid bits that can be used for the WIA_PROP_FLAG property.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidlistfloat">wiasSetValidListFloat</a>
 
@@ -110,7 +94,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetvalidrangelong">wiasSetValidRangeLong</a>
- 
-
- 
 

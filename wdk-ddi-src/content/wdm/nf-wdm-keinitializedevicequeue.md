@@ -8,9 +8,6 @@ ms.assetid: 0df0fcba-9ae8-4c69-957a-5685ea40c378
 ms.date: 04/30/2018
 keywords: ["KeInitializeDeviceQueue function"]
 ms.keywords: KeInitializeDeviceQueue, KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture], k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, kernel.keinitializedevicequeue, wdm/KeInitializeDeviceQueue
-f1_keywords:
- - "wdm/KeInitializeDeviceQueue"
- - "KeInitializeDeviceQueue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- KeInitializeDeviceQueue
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KeInitializeDeviceQueue
+ - wdm/KeInitializeDeviceQueue
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - KeInitializeDeviceQueue
 ---
 
 # KeInitializeDeviceQueue function
@@ -46,35 +46,22 @@ req.typenames:
 
 ## -description
 
-
 The <b>KeInitializeDeviceQueue</b> routine initializes a device queue object to a not-busy state.
-
 
 ## -parameters
 
+### -param DeviceQueue 
 
-
-
-### -param DeviceQueue [out]
-
-Pointer to a device queue object for which the caller provides the storage. 
-
+[out]
+Pointer to a device queue object for which the caller provides the storage.
 
 ## -remarks
 
-
-
 <b>KeInitializeDeviceQueue</b> initializes the specified device queue and sets its state to not-busy.
 
-A driver should call <b>KeInitializeDeviceQueue</b> from its <i>AddDevice</i> routine after creating the device object for the associated device. Storage for the device queue object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller. 
-
-
-
+A driver should call <b>KeInitializeDeviceQueue</b> from its <i>AddDevice</i> routine after creating the device object for the associated device. Storage for the device queue object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertbykeydevicequeue">KeInsertByKeyDeviceQueue</a>
 
@@ -89,7 +76,4 @@ A driver should call <b>KeInitializeDeviceQueue</b> from its <i>AddDevice</i> ro
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keremoveentrydevicequeue">KeRemoveEntryDeviceQueue</a>
- 
-
- 
 

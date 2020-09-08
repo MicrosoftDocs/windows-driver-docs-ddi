@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/CaptureToSysMem"
- - "CaptureToSysMem"
+ - PFND3DDDI_CAPTURETOSYSMEM
+ - d3dumddi/PFND3DDDI_CAPTURETOSYSMEM
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_CAPTURETOSYSMEM callback function
+
 
 ## -description
 

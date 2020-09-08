@@ -8,9 +8,6 @@ ms.assetid: 4c45be9f-3d07-4150-830a-3aa6d74531ff
 ms.date: 05/02/2018
 keywords: ["NdisMCmOidRequestComplete macro"]
 ms.keywords: NdisMCmOidRequestComplete, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista], condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml, ndis/NdisMCmOidRequestComplete, netvista.ndismcmoidrequestcomplete
-f1_keywords:
- - "ndis/NdisMCmOidRequestComplete"
- - "NdisMCmOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ndis.h
-api_name:
-- NdisMCmOidRequestComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCmOidRequestComplete
+ - ndis/NdisMCmOidRequestComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NdisMCmOidRequestComplete
 ---
 
 # NdisMCmOidRequestComplete macro
@@ -46,18 +46,13 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisMCmOidRequestComplete</b> function returns the final status of a CoNDIS OID requestthat a miniport
   call manager (MCM) driver's 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request">ProtocolCoOidRequest</a> function
   previously returned NDIS_STATUS_PENDING for.
 
-
 ## -parameters
-
-
-
 
 ### -param _AH_
 
@@ -92,10 +87,8 @@ A pointer to an
 The final status of the request operation. This parameter can be NDIS_STATUS_SUCCESS,
      NDIS_STATUS_REQUEST_ABORTED, or any driver-determined NDIS_STATUS_<i>XXX</i> status value
      <u>except</u> NDIS_STATUS_PENDING.
-     
+
 ## -remarks
-
-
 
 A CoNDIS MCM that returns NDIS_STATUS_PENDING from its 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request">ProtocolCoOidRequest</a> function must
@@ -111,13 +104,7 @@ After the MCM calls
 For more information about the OIDs defined to use with CONDIS drivers, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
@@ -133,7 +120,4 @@ For more information about the OIDs defined to use with CONDIS drivers, see
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request_complete">
    ProtocolCoOidRequestComplete</a>
- 
-
- 
 

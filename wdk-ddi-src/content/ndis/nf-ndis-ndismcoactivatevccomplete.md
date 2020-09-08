@@ -8,9 +8,6 @@ ms.assetid: db5ff69f-dcae-4016-a078-c8edb2390c6c
 ms.date: 05/02/2018
 keywords: ["NdisMCoActivateVcComplete function"]
 ms.keywords: NdisMCoActivateVcComplete, NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml, ndis/NdisMCoActivateVcComplete, netvista.ndismcoactivatevccomplete
-f1_keywords:
- - "ndis/NdisMCoActivateVcComplete"
- - "NdisMCoActivateVcComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisMCoActivateVcComplete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisMCoActivateVcComplete
+ - ndis/NdisMCoActivateVcComplete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisMCoActivateVcComplete
 ---
 
 # NdisMCoActivateVcComplete function
@@ -47,43 +47,36 @@ req.typenames:
 
 ## -description
 
-
 <b>NdisMCoActivateVcComplete</b> notifies NDIS and the call manager that the miniport driver has finished
   processing a CM-initiated activate-VC request, for which the miniport driver previously returned
   NDIS_STATUS_PENDING.
 
-
 ## -parameters
 
+### -param Status 
 
-
-
-### -param Status [in]
-
+[in]
 Specifies the final status of the activate-VC operation, which can be NDIS_STATUS_SUCCESS or any
      NDIS_STATUS_
      <i>XXX except</i> NDIS_STATUS_PENDING.
 
+### -param NdisVcHandle 
 
-### -param NdisVcHandle [in]
-
+[in]
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_activate_vc">
      MiniportCoActivateVc</a> function.
 
+### -param CallParameters 
 
-### -param CallParameters [in]
-
+[in]
 Pointer to a structure of type 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, supplied by the call
      manager, specifying the call and media parameters for the VC activation.
 
-
 ## -remarks
-
-
 
 A connection-oriented miniport driver must call 
     <b>NdisMCoActivateVcComplete</b> if its 
@@ -110,13 +103,7 @@ A call to
     ProtocolCmActivateVcComplete</a> function of the call manager that originally requested the VC
     activation.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
@@ -136,7 +123,4 @@ A call to
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_activate_vc_complete">
    ProtocolCmActivateVcComplete</a>
- 
-
- 
 

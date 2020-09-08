@@ -8,9 +8,6 @@ ms.assetid: F363C538-A5D7-4A08-B7CD-CA7D7346AC10
 ms.date: 05/02/2018
 keywords: ["NDK_FN_BIND callback function"]
 ms.keywords: NDK_FN_BIND, NDK_FN_BIND callback, NDK_OP_FLAG_ALLOW_REMOTE_READ, NDK_OP_FLAG_ALLOW_REMOTE_WRITE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkBind, NdkBind callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBind, netvista.ndk_fn_bind
-f1_keywords:
- - "ndkpi/NdkBind"
- - "NdkBind"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ndkpi.h
-api_name:
-- NdkBind
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NDK_FN_BIND
+ - ndkpi/NDK_FN_BIND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ndkpi.h
+api_name:
+ - NdkBind
 ---
 
 # NDK_FN_BIND callback function
@@ -46,49 +46,45 @@ req.typenames:
 
 ## -description
 
-
 The <i>NdkBind</i> (<i>NDK_FN_BIND</i>) function binds a memory window to a specific sub-region of a memory region (MR).
-
 
 ## -parameters
 
+### -param pNdkQp 
 
-
-
-### -param pNdkQp [in]
-
+[in]
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
+### -param RequestContext 
 
-### -param RequestContext [in, optional]
-
+[in, optional]
 A context value to return in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
+### -param pMr 
 
-### -param pMr [in]
-
+[in]
 A pointer to an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
+### -param pMw 
 
-### -param pMw [in]
-
+[in]
 A pointer to an NDK memory window (MW) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>).
 
+### -param VirtualAddress 
 
-### -param VirtualAddress [in]
-
+[in]
 A virtual address that must be greater than or equal to the virtual address of the MDL for the MR and less than the virtual address of the MDL for the MR plus the value in the <i>Length</i> parameter.
 
 Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a> macro to obtain the virtual address of the MDL for the MR.
 
+### -param Length 
 
-### -param Length [in]
+[in]
+The length of the MR to bind to the MW.
 
-The length of the MR to bind to the MW. 
+### -param Flags 
 
-
-### -param Flags [in]
-
+[in]
 A bitwise OR of flags which specifies the operations that are allowed. The following flags are supported:
 
 <table>
@@ -154,12 +150,8 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
      <i>NdkBind</i> function returns one of the following NTSTATUS codes.
@@ -215,14 +207,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>NdkBind</i> binds a memory window (MW) to a specific sub-region of a memory region (MR).
 
@@ -232,13 +218,7 @@ After this call returns, the remote token will be available with the <i>NdkGetRe
 
 This function does not support a zero-based virtual address.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
 
@@ -269,7 +249,4 @@ This function does not support a zero-based virtual address.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
- 
-
- 
 

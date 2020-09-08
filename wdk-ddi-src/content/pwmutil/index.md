@@ -9,13 +9,15 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: spb
+f1_keywords:
+ - pwmutil
+ - pwmutil/pwmutil
 ---
 
 # Pwmutil.h header
 
 
 ## -description
-
 
 This header provides Pulse Width Modulator (PWM) helper routines for use by kernel-mode drivers. Drivers should use the function to parse and validate pin paths and extract the pin number.
 

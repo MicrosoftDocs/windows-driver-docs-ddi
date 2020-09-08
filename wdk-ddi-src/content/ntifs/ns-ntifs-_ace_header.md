@@ -8,9 +8,6 @@ ms.assetid: f5f39310-8b15-4d6b-a985-3f25522a16b1
 ms.date: 04/16/2018
 keywords: ["ACE_HEADER structure"]
 ms.keywords: "*PACE_HEADER, ACE_HEADER, ACE_HEADER structure [Installable File System Drivers], PACE_HEADER, PACE_HEADER structure pointer [Installable File System Drivers], _ACE_HEADER, ifsk.ace_header, ntifs/ACE_HEADER, ntifs/PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml"
-f1_keywords:
- - "ntifs/ACE_HEADER"
- - "ACE_HEADER"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- ACE_HEADER
 targetos: Windows
 req.typenames: ACE_HEADER
+f1_keywords:
+ - _ACE_HEADER
+ - ntifs/_ACE_HEADER
+ - ACE_HEADER
+ - ntifs/ACE_HEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - ACE_HEADER
 ---
 
 # _ACE_HEADER structure
@@ -46,14 +48,9 @@ req.typenames: ACE_HEADER
 
 ## -description
 
-
-The ACE_HEADER structure describes the type and size of an access-control entry (ACE). 
-
+The ACE_HEADER structure describes the type and size of an access-control entry (ACE).
 
 ## -struct-fields
-
-
-
 
 ### -field AceType
 
@@ -95,8 +92,6 @@ System-audit ACE that uses the SYSTEM_AUDIT_ACE structure.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AceFlags
 
@@ -182,29 +177,18 @@ Used with system-audit ACEs in a SACL to generate audit messages for successful 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AceSize
 
-Size, in bytes, of the ACE. 
-
+Size, in bytes, of the ACE.
 
 ## -remarks
 
-
-
 The ACE_HEADER structure is the first member of the various types of ACE structures, such as ACCESS_ALLOWED_ACE. 
 
-System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot specify the SYSTEM_ALARM_ACE_TYPE. Do not use the SYSTEM_ALARM_ACE structure. 
-
-
-
+System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot specify the SYSTEM_ALARM_ACE_TYPE. Do not use the SYSTEM_ALARM_ACE structure.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
@@ -227,7 +211,4 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
- 
-
- 
 

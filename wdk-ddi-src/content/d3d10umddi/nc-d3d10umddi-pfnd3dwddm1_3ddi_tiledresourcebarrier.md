@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d10umddi/TiledResourceBarrier"
- - "TiledResourceBarrier"
+ - PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER
+ - d3d10umddi/PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback function
+
 
 ## -description
 
@@ -72,7 +73,6 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/
 A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must begin after the access operations on the object that <i>hTiledResourceAccessBeforeBarrier</i> specifies.
 
 ## -remarks
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code.
 

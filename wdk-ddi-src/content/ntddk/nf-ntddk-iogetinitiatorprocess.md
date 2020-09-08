@@ -8,9 +8,6 @@ ms.assetid: 653B4FD5-4C07-420A-BE8A-CC8C46BC6F0F
 ms.date: 04/30/2018
 keywords: ["IoGetInitiatorProcess function"]
 ms.keywords: IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], kernel.iogetinitiatorprocess, ntddk/IoGetInitiatorProcess
-f1_keywords:
- - "ntddk/IoGetInitiatorProcess"
- - "IoGetInitiatorProcess"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetInitiatorProcess
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetInitiatorProcess
+ - ntddk/IoGetInitiatorProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetInitiatorProcess
 ---
 
 # IoGetInitiatorProcess function
@@ -46,34 +46,20 @@ req.typenames:
 
 ## -description
 
-
 The IoGetInitiatorProcess routine retrieves the process which initiated the creation of a file object if different than the process which is issuing the create.
-
 
 ## -parameters
 
+### -param FileObject 
 
-
-
-### -param FileObject [in]
-
+[in]
 The file object from which to retrieve the initiator process.
-
 
 ## -returns
 
-
-
 NULL if there is no initiator process. Otherwise, a pointer to which process initiated the creation of the file object.
-
-
-
 
 ## -remarks
 
-
-
-A driver normally uses IoGetInitiatorProcess to determine which process has issued a request.  However, there are situations where a system component may issue a create on behalf of another process (after a successful create the component will duplicate the handle to the process).  This routine can be used if the driver must know which process the create operation is ultimately intended for. 
-
-
+A driver normally uses IoGetInitiatorProcess to determine which process has issued a request.  However, there are situations where a system component may issue a create on behalf of another process (after a successful create the component will duplicate the handle to the process).  This routine can be used if the driver must know which process the create operation is ultimately intended for.
 

@@ -8,9 +8,6 @@ ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 ms.date: 04/20/2018
 keywords: ["IPrintUnidiAsyncNotifyRegistration interface"]
 ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
-f1_keywords:
- - "prnasntp/IPrintUnidiAsyncNotifyRegistration"
- - "IPrintUnidiAsyncNotifyRegistration"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Prnasntp.h
-api_name:
-- IPrintUnidiAsyncNotifyRegistration
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintUnidiAsyncNotifyRegistration
+ - prnasntp/IPrintUnidiAsyncNotifyRegistration
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Prnasntp.h
+api_name:
+ - IPrintUnidiAsyncNotifyRegistration
 ---
 
 # IPrintUnidiAsyncNotifyRegistration interface
@@ -46,9 +46,7 @@ req.typenames:
 
 ## -description
 
-
  Provides information on <b>IPrintUnidiAsyncNotifyRegistration</b> constructs.
-
 
 ## -inheritance
 

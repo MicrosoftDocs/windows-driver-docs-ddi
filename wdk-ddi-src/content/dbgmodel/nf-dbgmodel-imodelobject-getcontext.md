@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetContext
 title: IModelObject::GetContext (dbgmodel.h)
-description: The GetContext method returns the host context that is associated with the object. 
+description: The GetContext method returns the host context that is associated with the object.
 ms.assetid: 448a54c8-ab67-4bc1-aad4-362ea94f7830
 ms.date: 08/09/2018
 keywords: ["IModelObject::GetContext"]
-f1_keywords:
- - "dbgmodel/IModelObject.GetContext"
- - "IModelObject.GetContext"
 ms.keywords: IModelObject::GetContext, GetContext, IModelObject.GetContext, IModelObject::GetContext, IModelObject.GetContext
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelObject.GetContext
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelObject::GetContext
+ - dbgmodel/IModelObject::GetContext
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelObject.GetContext
 ---
 
 # IModelObject::GetContext
@@ -44,18 +44,19 @@ ms.custom: RS5
 
 ## -description
 
-The GetContext method returns the host context that is associated with the object. This represents which target, process, thread, etc... the object came from. 
+The GetContext method returns the host context that is associated with the object. This represents which target, process, thread, etc... the object came from.
 
 ## -parameters
 
 ### -param context
+
 The host context of the object will be returned in this argument.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
-
 
 **Code Sample**
 
@@ -80,3 +81,4 @@ if (SUCCEEDED(spObject->GetContext(&spContext)) &&
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

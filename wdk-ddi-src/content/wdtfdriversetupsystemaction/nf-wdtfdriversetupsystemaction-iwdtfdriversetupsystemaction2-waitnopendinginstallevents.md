@@ -60,8 +60,8 @@ Waits until all device installations have completed.
 
 
 
-### -param pNoMoreEvents [out, retval]
-
+### -param pNoMoreEvents 
+[out, retval]
 True if all device installations completed before the time-out expired; 
 otherwise, false.
 
@@ -70,7 +70,7 @@ otherwise, false.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 
 

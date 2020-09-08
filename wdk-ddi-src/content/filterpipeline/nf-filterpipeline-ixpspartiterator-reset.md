@@ -8,9 +8,6 @@ ms.assetid: afcdb59c-55aa-48e9-b920-1dee3d39a78f
 ms.date: 04/20/2018
 keywords: ["IXpsPartIterator::Reset"]
 ms.keywords: IXpsPartIterator interface [Print Devices],Reset method, IXpsPartIterator.Reset, IXpsPartIterator::Reset, Reset, Reset method [Print Devices], Reset method [Print Devices],IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Reset, filterpipeline_505e0d5f-ee7f-4630-a0ea-1f95061486a8.xml, print.ixpspartiterator_reset
-f1_keywords:
- - "filterpipeline/IXpsPartIterator.Reset"
- - "IXpsPartIterator.Reset"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Filterpipeline.h
-api_name:
-- IXpsPartIterator.Reset
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IXpsPartIterator::Reset
+ - filterpipeline/IXpsPartIterator::Reset
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Filterpipeline.h
+api_name:
+ - IXpsPartIterator.Reset
 ---
 
 # IXpsPartIterator::Reset
@@ -46,7 +46,5 @@ req.typenames:
 
 ## -description
 
-
 The <code>Reset</code> method sets the iterator to the first element.
-
 

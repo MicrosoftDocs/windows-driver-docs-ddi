@@ -8,9 +8,6 @@ ms.assetid: 42979da6-d044-4d52-858f-98871c3941bc
 ms.date: 05/03/2018
 keywords: ["IDebugClient5::ConnectProcessServerWide"]
 ms.keywords: ConnectProcessServerWide, ConnectProcessServerWide method [Windows Debugging], ConnectProcessServerWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],ConnectProcessServerWide method, IDebugClient5.ConnectProcessServerWide, IDebugClient5::ConnectProcessServerWide, dbgeng/IDebugClient5::ConnectProcessServerWide, debugger.connectprocessserverwide
-f1_keywords:
- - "dbgeng/IDebugClient5.ConnectProcessServerWide"
- - "IDebugClient5.ConnectProcessServerWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient5.ConnectProcessServerWide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient5::ConnectProcessServerWide
+ - dbgeng/IDebugClient5::ConnectProcessServerWide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient5.ConnectProcessServerWide
 ---
 
 # IDebugClient5::ConnectProcessServerWide
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>ConnectProcessServerWide</b> method connects to a <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/p">process server</a>.
-
 
 ## -parameters
 
+### -param RemoteOptions 
 
-
-
-### -param RemoteOptions [in]
-
+[in]
 Specifies how the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/d">debugger engine</a> will connect with the process server.  These are the same options passed to the <b>-premote</b> option on the WinDbg and CDB command lines.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-smart-client">Activating a Smart Client</a>.
 
+### -param Server 
 
-### -param Server [out]
-
+[out]
 Receives a handle for the process server.  This handle is used when creating or attaching to processes by using the process server.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -88,24 +81,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about process servers and remote debugging, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/remote-targets">Process Servers, Kernel Connection Servers, and Smart Clients</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a>
 
@@ -144,7 +125,4 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startprocessserver">StartProcessServer</a>
- 
-
- 
 

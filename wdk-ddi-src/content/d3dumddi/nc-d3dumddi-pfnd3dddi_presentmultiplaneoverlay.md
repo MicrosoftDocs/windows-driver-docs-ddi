@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnPresentMultiPlaneOverlay"
- - "pfnPresentMultiPlaneOverlay"
+ - PFND3DDDI_PRESENTMULTIPLANEOVERLAY
+ - d3dumddi/PFND3DDDI_PRESENTMULTIPLANEOVERLAY
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_PRESENTMULTIPLANEOVERLAY callback function
+
 
 ## -description
 

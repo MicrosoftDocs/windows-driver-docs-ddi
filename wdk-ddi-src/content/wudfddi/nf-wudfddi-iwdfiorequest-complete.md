@@ -8,9 +8,6 @@ ms.assetid: 2fa389f8-8277-4795-a89e-ac5d92004310
 ms.date: 02/26/2018
 keywords: ["IWDFIoRequest::Complete"]
 ms.keywords: Complete, Complete method, Complete method,IWDFIoRequest interface, IWDFIoRequest interface,Complete method, IWDFIoRequest.Complete, IWDFIoRequest::Complete, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, umdf.iwdfiorequest_complete, wdf.iwdfiorequest_complete, wudfddi/IWDFIoRequest::Complete
-f1_keywords:
- - "wudfddi/IWDFIoRequest.Complete"
- - "IWDFIoRequest.Complete"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoRequest.Complete
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoRequest::Complete
+ - wudfddi/IWDFIoRequest::Complete
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoRequest.Complete
 ---
 
 # IWDFIoRequest::Complete
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Complete</b> method completes an I/O request.
 
-
 ## -parameters
 
+### -param CompletionStatus 
 
-
-
-### -param CompletionStatus [in]
-
-A status value to complete the request with. 
-
+[in]
+A status value to complete the request with.
 
 ## -remarks
-
-
 
 Instead of calling <b>Complete</b>, the driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-completewithinformation">IWDFIoRequest::CompleteWithInformation</a> method.
 
@@ -93,19 +86,11 @@ The following code example completes a request with the failure that occurred wh
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-completewithinformation">IWDFIoRequest::CompleteWithInformation</a>
- 
-
- 
 

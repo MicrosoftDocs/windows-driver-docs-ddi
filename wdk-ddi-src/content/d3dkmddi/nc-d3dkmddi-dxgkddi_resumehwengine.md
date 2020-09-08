@@ -26,8 +26,8 @@ targetos: Windows
 tech.root: display
 ms.custom: RS5
 f1_keywords:
- - "d3dkmddi/DXGKDDI_RESUMEHWENGINE"
- - "DXGKDDI_RESUMEHWENGINE"
+ - DXGKDDI_RESUMEHWENGINE
+ - d3dkmddi/DXGKDDI_RESUMEHWENGINE
 topic_type:
  - apiref
 api_type:
@@ -43,6 +43,7 @@ dev_langs:
 ---
 
 # DXGKDDI_RESUMEHWENGINE callback function
+
 
 ## -description
 

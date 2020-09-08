@@ -8,9 +8,6 @@ ms.assetid: d4e0220b-2efb-4a24-b80a-23225b06dc66
 ms.date: 04/20/2018
 keywords: ["IOCTL_USBPRINT_VENDOR_GET_COMMAND IOCTL"]
 ms.keywords: IOCTL_USBPRINT_VENDOR_GET_COMMAND, IOCTL_USBPRINT_VENDOR_GET_COMMAND control, IOCTL_USBPRINT_VENDOR_GET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_get_command, usbioctl_edd39494-a6bb-4e28-a059-7c7884626105.xml, usbprint/IOCTL_USBPRINT_VENDOR_GET_COMMAND
-f1_keywords:
- - "usbprint/IOCTL_USBPRINT_VENDOR_GET_COMMAND"
- - "IOCTL_USBPRINT_VENDOR_GET_COMMAND"
 req.header: usbprint.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- usbprint.h
-api_name:
-- IOCTL_USBPRINT_VENDOR_GET_COMMAND
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_USBPRINT_VENDOR_GET_COMMAND
+ - usbprint/IOCTL_USBPRINT_VENDOR_GET_COMMAND
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - usbprint.h
+api_name:
+ - IOCTL_USBPRINT_VENDOR_GET_COMMAND
 ---
 
 # IOCTL_USBPRINT_VENDOR_GET_COMMAND IOCTL
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <b>IOCTL_USBPRINT_VENDOR_GET_COMMAND</b> request allows upper-layer software (such as a language monitor), to issue a vendor-specific GET command to the target device.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
@@ -95,51 +90,28 @@ Vendor request value (least significant byte)
 </td>
 </tr>
 </table>
- 
-
 
 ### -input-buffer-length
 
 The size of the input buffer, in bytes.
 
-
 ### -output-buffer
 
-The output buffer, which is interpreted as an array of bytes. 
-
+The output buffer, which is interpreted as an array of bytes.
 
 ### -output-buffer-length
 
 The size of the output buffer, in bytes.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+<b>Irp->IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
@@ -158,7 +130,4 @@ The size of the output buffer, in bytes.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
 

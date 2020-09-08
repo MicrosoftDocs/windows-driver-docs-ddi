@@ -8,9 +8,6 @@ ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.date: 04/20/2018
 keywords: ["IBidiRequest::GetResult"]
 ms.keywords: GetResult, GetResult method [Print Devices], GetResult method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetResult method, IBidiRequest.GetResult, IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, print.ibidirequest_ibidirequest__getresult
-f1_keywords:
- - "bidispl/IBidiRequest.GetResult"
- - "IBidiRequest.GetResult"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bidispl.dll
-api_name:
-- IBidiRequest.GetResult
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IBidiRequest::GetResult
+ - bidispl/IBidiRequest::GetResult
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bidispl.dll
+api_name:
+ - IBidiRequest.GetResult
 ---
 
 # IBidiRequest::GetResult
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetResult</b> method tells whether the bidi request was successful.
-
 
 ## -parameters
 
+### -param phr 
 
-
-
-### -param phr [out]
-
+[out]
 Pointer to a variable that specifies the status of the bidi request.
 
-
 ## -returns
-
-
 
 The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
@@ -120,13 +113,7 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 Note that the return value indicates whether the method was successful. It does not indicate what happened to the bidi request.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
@@ -137,7 +124,4 @@ Note that the return value indicates whether the method was successful. It does 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
- 
-
- 
 

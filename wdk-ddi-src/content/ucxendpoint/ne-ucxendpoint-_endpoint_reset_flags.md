@@ -8,9 +8,6 @@ ms.assetid: 3775836D-DC1E-47B4-8186-2AC329825FCE
 ms.date: 05/07/2018
 keywords: ["ENDPOINT_RESET_FLAGS enumeration"]
 ms.keywords: ENDPOINT_RESET_FLAGS, ENDPOINT_RESET_FLAGS enumeration [Buses], FlagEndpointResetPreserveTransferState, _ENDPOINT_RESET_FLAGS, buses.endpoint_reset_flags, ucxendpoint/ENDPOINT_RESET_FLAGS, ucxendpoint/FlagEndpointResetPreserveTransferState
-f1_keywords:
- - "ucxendpoint/ENDPOINT_RESET_FLAGS"
- - "ENDPOINT_RESET_FLAGS"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucxendpoint.h
-api_name:
-- ENDPOINT_RESET_FLAGS
 targetos: Windows
 req.typenames: ENDPOINT_RESET_FLAGS
+f1_keywords:
+ - _ENDPOINT_RESET_FLAGS
+ - ucxendpoint/_ENDPOINT_RESET_FLAGS
+ - ENDPOINT_RESET_FLAGS
+ - ucxendpoint/ENDPOINT_RESET_FLAGS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucxendpoint.h
+api_name:
+ - ENDPOINT_RESET_FLAGS
 ---
 
 # _ENDPOINT_RESET_FLAGS enumeration
@@ -46,31 +48,19 @@ req.typenames: ENDPOINT_RESET_FLAGS
 
 ## -description
 
-
 Defines parameters for a request to reset an endpoint.
 
-
 ## -enum-fields
-
-
-
 
 ### -field FlagEndpointResetPreserveTransferState
 
 The transfer state must be preserved after the endpoint reset operation is complete.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_endpoint_reset">ENDPOINT_RESET</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_reset">EVT_UCX_ENDPOINT_RESET</a>
- 
-
- 
 

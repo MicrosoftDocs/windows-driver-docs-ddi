@@ -20,8 +20,8 @@ targetos: Windows
 ms.custom: RS5
 tech.root: display
 f1_keywords:
- - "d3d12umddi/D3D12DDI_DESCRIPTOR_RANGE_FLAGS"
- - "D3D12DDI_DESCRIPTOR_RANGE_FLAGS"
+ - D3D12DDI_DESCRIPTOR_RANGE_FLAGS
+ - d3d12umddi/D3D12DDI_DESCRIPTOR_RANGE_FLAGS
 topic_type:
  - apiref
 api_type:
@@ -37,6 +37,7 @@ dev_langs:
 ---
 
 # D3D12DDI_DESCRIPTOR_RANGE_FLAGS enumeration
+
 
 ## -description
 

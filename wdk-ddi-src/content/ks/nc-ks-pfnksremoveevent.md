@@ -8,9 +8,6 @@ ms.assetid: dee4ce19-9dc8-4728-855b-eadb5bca0fc2
 ms.date: 04/23/2018
 keywords: ["PFNKSREMOVEEVENT callback function"]
 ms.keywords: AVStrMiniRemoveEvent, AVStrMiniRemoveEvent routine [Streaming Media Devices], PFNKSREMOVEEVENT, avstclbk_04bc810f-666a-4b24-9bc9-e203ebbbbf29.xml, ks/AVStrMiniRemoveEvent, stream.avstrminiremoveevent
-f1_keywords:
- - "ks/AVStrMiniRemoveEvent"
- - "AVStrMiniRemoveEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ks.h
-api_name:
-- AVStrMiniRemoveEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PFNKSREMOVEEVENT
+ - ks/PFNKSREMOVEEVENT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ks.h
+api_name:
+ - AVStrMiniRemoveEvent
 ---
 
 # PFNKSREMOVEEVENT callback function
+
 
 ## -description
 
@@ -49,12 +50,14 @@ An AVStream minidriver's *AVStrMiniRemoveEvent* routine is called when a client 
 
 ## -parameters
 
-### -param FileObject [in]
+### -param FileObject 
 
+[in]
 Pointer to the file object for which to remove the event.
 
-### -param EventEntry [in]
+### -param EventEntry 
 
+[in]
 Pointer to an AVStream-generated [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry) structure.
 
 ## -remarks
@@ -88,3 +91,4 @@ Otherwise, your *AVStrMiniRemoveEvent* should reverse the steps taken in the **A
 [KsPinAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinaddevent)
 
 [KsPinGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingenerateevents)
+

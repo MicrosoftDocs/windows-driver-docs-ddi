@@ -7,9 +7,6 @@ ms.assetid: 1b66f203-1c74-4b5e-82ae-7dfdc88da2b4
 ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, display.d3d11_1ddi_video_processor_rate_conversion_caps
-f1_keywords:
- - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS"
- - "D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d10umddi.h
-api_name:
-- D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 targetos: Windows
 tech.root: display
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
+f1_keywords:
+ - D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
+ - d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d10umddi.h
+api_name:
+ - D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 ---
 
 # D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure
@@ -46,44 +46,31 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 
 ## -description
 
-
 Defines a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PastFrames
 
 The number of past reference frames required to perform the optimal video processing.
 
-
 ### -field FutureFrames
 
 The number of future reference frames required to perform the optimal video processing.
-
 
 ### -field ConversionCaps
 
 A bitwise <b>OR</b> of zero or more member values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_conversion_caps">D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS</a> structure.
 
-
 ### -field ITelecineCaps
 
 A bitwise <b>OR</b> of zero or more constant values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_itelecine_caps">D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS</a> enumeration.
-
 
 ### -field CustomRateCount
 
 The number of custom frame rates that the driver supports. To get the list of custom frame rates, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a> function.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_conversion_caps">D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS</a>
 
@@ -98,7 +85,4 @@ The number of custom frame rates that the driver supports. To get the list of cu
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a>
- 
-
- 
 

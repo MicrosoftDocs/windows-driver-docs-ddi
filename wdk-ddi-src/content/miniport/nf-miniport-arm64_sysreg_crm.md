@@ -5,40 +5,39 @@ description: Returns the CRm field for a given ARM system register encoding valu
 ms.assetid: a40eba0a-d060-4813-8b15-80f2dd1cf418
 ms.date: 09/20/2018
 keywords: ["ARM64_SYSREG_CRM macro"]
-f1_keywords:
- - "miniport/ARM64_SYSREG_CRM"
- - "ARM64_SYSREG_CRM"
 ms.keywords: ARM64_SYSREG_CRM
 req.header: miniport.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- miniport.h
-api_name: 
-- ARM64_SYSREG_CRM
 targetos: Windows
-
+f1_keywords:
+ - ARM64_SYSREG_CRM
+ - miniport/ARM64_SYSREG_CRM
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - miniport.h
+api_name:
+ - ARM64_SYSREG_CRM
 ---
 
-# ARM64_SYSREG_CRM macro
+# ARM64_SYSREG_CRM macro (miniport.h)
 
 
 ## -description
@@ -48,9 +47,10 @@ Returns the CRm field for a given ARM system register encoding value. For more i
 ## -parameters
 
 ### -param _Reg_
-ARM system register encoding value. 
 
+ARM system register encoding value.
 
 ## -remarks
 
 ## -see-also
+

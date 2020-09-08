@@ -8,81 +8,53 @@ ms.assetid: 4755f4c3-305e-41a5-afdf-eda8e8e81b74
 ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_SLOT_CONTROL_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI.pci_express_slot_control_register, PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PPCI_EXPRESS_SLOT_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_SLOT_CONTROL_REGISTER, pci_struct_d554e74d-130d-4d6d-8801-c65ea66653cb.xml"
-f1_keywords:
- - "miniport/PCI_EXPRESS_SLOT_CONTROL_REGISTER"
- - "PCI_EXPRESS_SLOT_CONTROL_REGISTER"
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
 req.irql: Any level (see Remarks section)
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddk.h
-api_name:
-- PCI_EXPRESS_SLOT_CONTROL_REGISTER
 targetos: Windows
 req.typenames: PCI_EXPRESS_SLOT_CONTROL_REGISTER, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER
+f1_keywords:
+ - _PCI_EXPRESS_SLOT_CONTROL_REGISTER
+ - miniport/_PCI_EXPRESS_SLOT_CONTROL_REGISTER
+ - PPCI_EXPRESS_SLOT_CONTROL_REGISTER
+ - miniport/PPCI_EXPRESS_SLOT_CONTROL_REGISTER
+ - PCI_EXPRESS_SLOT_CONTROL_REGISTER
+ - miniport/PCI_EXPRESS_SLOT_CONTROL_REGISTER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddk.h
+api_name:
+ - PCI_EXPRESS_SLOT_CONTROL_REGISTER
 ---
 
-# _PCI_EXPRESS_SLOT_CONTROL_REGISTER structure
+# _PCI_EXPRESS_SLOT_CONTROL_REGISTER structure (miniport.h)
 
 
 ## -description
 
-
 The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) slot control register of a PCIe capability structure.
-
-
-## -syntax
-
-
-```cpp
-typedef union _PCI_EXPRESS_SLOT_CONTROL_REGISTER {
-  struct {
-    USHORT AttentionButtonEnable  :1;
-    USHORT PowerFaultDetectEnable  :1;
-    USHORT MRLSensorEnable;
-    USHORT PresenceDetectEnable  :1;
-    USHORT CommandCompletedEnable  :1;
-    USHORT HotPlugInterruptEnable  :1;
-    USHORT AttentionIndicatorControl  :2;
-    USHORT PowerIndicatorControl  :2;
-    USHORT PowerControllerControl  :1;
-    USHORT ElectromechanicalLockControl  :1;
-    USHORT DataLinkStateChangeEnable  :1;
-    USHORT Rsvd  :3;
-  };
-  USHORT AsUSHORT;
-} PCI_EXPRESS_SLOT_CONTROL_REGISTER, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER;
-```
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYSTRUCTNAME
-
-
-
 
 ### -field AsUSHORT
 
@@ -202,26 +174,35 @@ A single bit that indicates that card presence detection for the slot is enabled
 
 Reserved.
 
+## -syntax
+
+```cpp
+typedef union _PCI_EXPRESS_SLOT_CONTROL_REGISTER {
+  struct {
+    USHORT AttentionButtonEnable  :1;
+    USHORT PowerFaultDetectEnable  :1;
+    USHORT MRLSensorEnable;
+    USHORT PresenceDetectEnable  :1;
+    USHORT CommandCompletedEnable  :1;
+    USHORT HotPlugInterruptEnable  :1;
+    USHORT AttentionIndicatorControl  :2;
+    USHORT PowerIndicatorControl  :2;
+    USHORT PowerControllerControl  :1;
+    USHORT ElectromechanicalLockControl  :1;
+    USHORT DataLinkStateChangeEnable  :1;
+    USHORT Rsvd  :3;
+  };
+  USHORT AsUSHORT;
+} PCI_EXPRESS_SLOT_CONTROL_REGISTER, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER;
+```
 
 ## -remarks
-
-
 
 The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
 A PCI_EXPRESS_SLOT_CONTROL_REGISTER structure is contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
 
-
-
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
-
-
-
- 
-
- 
-
 

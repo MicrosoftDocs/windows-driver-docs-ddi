@@ -8,9 +8,6 @@ ms.assetid: b4cc03e9-225f-491f-97df-064fdedc8182
 ms.date: 04/16/2018
 keywords: ["FltInsertExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_70a06c18-83e1-45cc-be8c-87945a2a320e.xml, FltInsertExtraCreateParameter, FltInsertExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltInsertExtraCreateParameter, ifsk.fltinsertextracreateparameter
-f1_keywords:
- - "fltkernel/FltInsertExtraCreateParameter"
- - "FltInsertExtraCreateParameter"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltInsertExtraCreateParameter
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltInsertExtraCreateParameter
+ - fltkernel/FltInsertExtraCreateParameter
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltInsertExtraCreateParameter
 ---
 
 # FltInsertExtraCreateParameter function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltInsertExtraCreateParameter</b> routine inserts an extra create parameter (ECP) context structure into an ECP list.
-
 
 ## -parameters
 
+### -param Filter 
 
-
-
-### -param Filter [in]
-
+[in]
 Opaque filter pointer to the minifilter driver. This pointer uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded.
 
+### -param EcpList 
 
-### -param EcpList [in, out]
-
+[in, out]
 Pointer to the ECP list structure to which the ECP context structure, provided by the <i>EcpContext</i> parameter, should be added.
 
+### -param EcpContext 
 
-### -param EcpContext [in, out]
-
+[in, out]
 Pointer to the ECP context structure to be added to the ECP list, provided by the <i>EcpList</i> parameter.
 
-
 ## -returns
-
-
 
 <b>FltInsertExtraCreateParameter</b> returns one of the following NTSTATUS values:
 
@@ -104,26 +97,14 @@ The given ECP context structure already exists in the given ECP list.  In the co
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>FltInsertExtraCreateParameter</b> routine assumes that the given ECP context structure to be inserted into the given ECP list was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter">FltAllocateExtraCreateParameter</a> routine.
 
-Each ECP context structure inserted into the ECP list must have a unique GUID value. This unique value is set when the ECP context structure is allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter">FltAllocateExtraCreateParameter</a> routine. 
-
-
-
+Each ECP context structure inserted into the ECP list must have a unique GUID value. This unique value is set when the ECP context structure is allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter">FltAllocateExtraCreateParameter</a> routine.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
@@ -162,7 +143,4 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
- 
-
- 
 

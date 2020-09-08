@@ -8,9 +8,6 @@ ms.assetid: 0787da49-23e0-43e3-bb32-1221db32a449
 ms.date: 05/03/2018
 keywords: ["IDebugClient::AttachProcess"]
 ms.keywords: AttachProcess, AttachProcess method [Windows Debugging], AttachProcess method [Windows Debugging],IDebugClient interface, AttachProcess method [Windows Debugging],IDebugClient2 interface, AttachProcess method [Windows Debugging],IDebugClient3 interface, AttachProcess method [Windows Debugging],IDebugClient4 interface, AttachProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],AttachProcess method, IDebugClient.AttachProcess, IDebugClient2 interface [Windows Debugging],AttachProcess method, IDebugClient2::AttachProcess, IDebugClient3 interface [Windows Debugging],AttachProcess method, IDebugClient3::AttachProcess, IDebugClient4 interface [Windows Debugging],AttachProcess method, IDebugClient4::AttachProcess, IDebugClient5 interface [Windows Debugging],AttachProcess method, IDebugClient5::AttachProcess, IDebugClient::AttachProcess, IDebugClient_032236c1-3072-4226-919b-3f6f95635a20.xml, dbgeng/IDebugClient2::AttachProcess, dbgeng/IDebugClient3::AttachProcess, dbgeng/IDebugClient4::AttachProcess, dbgeng/IDebugClient5::AttachProcess, dbgeng/IDebugClient::AttachProcess, debugger.attachprocess
-f1_keywords:
- - "dbgeng/IDebugClient.AttachProcess"
- - "IDebugClient.AttachProcess"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,21 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugClient.AttachProcess
-- IDebugClient2.AttachProcess
-- IDebugClient3.AttachProcess
-- IDebugClient4.AttachProcess
-- IDebugClient5.AttachProcess
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugClient::AttachProcess
+ - dbgeng/IDebugClient::AttachProcess
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugClient.AttachProcess
+ - IDebugClient2.AttachProcess
+ - IDebugClient3.AttachProcess
+ - IDebugClient4.AttachProcess
+ - IDebugClient5.AttachProcess
 ---
 
 # IDebugClient::AttachProcess
@@ -50,33 +50,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>AttachProcess</b> method connects the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> to a user-modeprocess.
-
 
 ## -parameters
 
+### -param Server 
 
-
-
-### -param Server [in]
-
+[in]
 Specifies the process server to use to attach to the process.  If <i>Server</i> is zero, the engine will connect to a local process without using a process server.
 
+### -param ProcessId 
 
-### -param ProcessId [in]
-
+[in]
 Specifies the process ID of the target process the debugger will attach to.
 
+### -param AttachFlags 
 
-### -param AttachFlags [in]
-
+[in]
 Specifies the flags that control how the debugger attaches to the target process.  For details on these flags, see Remarks.
 
-
 ## -returns
-
-
 
 This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -97,14 +90,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is available only for live user-mode debugging.
 
@@ -182,15 +169,8 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-attach--attach-to-process-">.attach (Attach to Process)</a>
 
@@ -253,7 +233,4 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a>
- 
-
- 
 

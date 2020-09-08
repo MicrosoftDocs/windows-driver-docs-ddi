@@ -9,9 +9,13 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: debugger
+f1_keywords:
+ - engextcpp
+ - engextcpp/engextcpp
 ---
 
 # Engextcpp.hpp header
+
 
 ## -description
 
@@ -19,3 +23,4 @@ This header is used by debugger. For more information, see:
 
 - [EngExtCpp Extension Design Guide](engextcpp-extension-design-guide.md)
 - [Debugger](../_debugger/index.md)
+

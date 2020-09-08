@@ -8,9 +8,6 @@ ms.assetid: 39800C47-95EB-4867-8FEE-E94EA3F6F68C
 ms.date: 05/10/2018
 keywords: ["DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete
-f1_keywords:
- - "d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
- - "DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dukmdt.h
-api_name:
-- DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+f1_keywords:
+ - _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+ - d3dukmdt/_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+ - DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+ - d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dukmdt.h
+api_name:
+ - DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 ---
 
 # _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure
@@ -46,21 +48,15 @@ req.typenames: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Indicates that a power transition has completed.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
 The header that is being operated over.
-
 
 ### -field PowerState
 

@@ -8,9 +8,6 @@ ms.assetid: 804263ec-8b3b-4a7c-9db4-ad524b807313
 ms.date: 04/16/2018
 keywords: ["FltGetSwappedBufferMdlAddress function"]
 ms.keywords: FltApiRef_e_to_o_7ebd2be1-79a1-4a5a-a9ab-7ca5023eb8fc.xml, FltGetSwappedBufferMdlAddress, FltGetSwappedBufferMdlAddress routine [Installable File System Drivers], fltkernel/FltGetSwappedBufferMdlAddress, ifsk.fltgetswappedbuffermdladdress
-f1_keywords:
- - "fltkernel/FltGetSwappedBufferMdlAddress"
- - "FltGetSwappedBufferMdlAddress"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltGetSwappedBufferMdlAddress
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltGetSwappedBufferMdlAddress
+ - fltkernel/FltGetSwappedBufferMdlAddress
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltGetSwappedBufferMdlAddress
 ---
 
 # FltGetSwappedBufferMdlAddress function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
-The <b>FltGetSwappedBufferMdlAddress</b> routine returns the memory descriptor list (MDL) address for a buffer that was swapped in by a minifilter driver. 
-
+The <b>FltGetSwappedBufferMdlAddress</b> routine returns the memory descriptor list (MDL) address for a buffer that was swapped in by a minifilter driver.
 
 ## -parameters
 
+### -param CallbackData 
 
-
-
-### -param CallbackData [in]
-
-Pointer to the callback data structure for the operation. 
-
+[in]
+Pointer to the callback data structure for the operation.
 
 ## -returns
-
-
 
 <b>FltGetSwappedBufferMdlAddress</b> returns the MDL address for the buffer that was swapped in by the caller. <b>FltGetSwappedBufferMdlAddress</b> returns <b>NULL</b> in the following cases: 
 
@@ -72,11 +65,7 @@ Pointer to the callback data structure for the operation.
 <li>The minifilter driver did not swap buffers in the preoperation callback routine. </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 A minifilter driver that swaps in a new buffer in a preoperation callback routine can get the MDL address for the buffer by calling <b>FltGetSwappedBufferMdlAddress</b> from the corresponding postoperation callback routine. 
 
@@ -88,22 +77,13 @@ It is also possible for <b>FltGetSwappedBufferMdlAddress</b> to return a non-<b>
 
 The MDL for the buffer that was swapped in by the caller is automatically freed by the Filter Manager when the postoperation callback routine returns. To prevent this MDL from being freed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltretainswappedbuffermdladdress">FltRetainSwappedBufferMdlAddress</a>. 
 
-<b>FltGetSwappedBufferMdlAddress</b> can only be called from a postoperation callback routine. 
-
-
-
+<b>FltGetSwappedBufferMdlAddress</b> can only be called from a postoperation callback routine.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdecodeparameters">FltDecodeParameters</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltretainswappedbuffermdladdress">FltRetainSwappedBufferMdlAddress</a>
- 
-
- 
 

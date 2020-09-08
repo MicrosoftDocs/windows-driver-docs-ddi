@@ -8,9 +8,6 @@ ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
 ms.date: 04/20/2018
 keywords: ["IPrinterExtensionAsyncOperation interface"]
 ms.keywords: IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices],described, print.iprinterextensionasyncoperation, printerextension/IPrinterExtensionAsyncOperation
-f1_keywords:
- - "printerextension/IPrinterExtensionAsyncOperation"
- - "IPrinterExtensionAsyncOperation"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Printerextension.h
-api_name:
-- IPrinterExtensionAsyncOperation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrinterExtensionAsyncOperation
+ - printerextension/IPrinterExtensionAsyncOperation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Printerextension.h
+api_name:
+ - IPrinterExtensionAsyncOperation
 ---
 
 # IPrinterExtensionAsyncOperation interface
+
 
 ## -description
 
@@ -58,3 +59,4 @@ Provides the context associated with an asynchronous operation.
 [Device Maintenance](https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance)
 
 [SendBidiSetRequestAsync](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-sendbidisetrequestasync)
+

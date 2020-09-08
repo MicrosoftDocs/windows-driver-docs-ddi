@@ -5,38 +5,38 @@ description: The AddParentModel method adds a new parent model to the given obje
 ms.assetid: 9e84b804-6d72-41e1-a548-edf726c669fc
 ms.date: 08/08/2018
 keywords: ["IModelObject::AddParentModel"]
-f1_keywords:
- - "dbgmodel/IModelObject.AddParentModel"
- - "IModelObject.AddParentModel"
 ms.keywords: IModelObject::AddParentModel, AddParentModel, IModelObject.AddParentModel, IModelObject::AddParentModel, IModelObject.AddParentModel
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IModelObject.AddParentModel
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IModelObject::AddParentModel
+ - dbgmodel/IModelObject::AddParentModel
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IModelObject.AddParentModel
 ---
 
 # IModelObject::AddParentModel
@@ -54,21 +54,24 @@ instance->GetKeyValue("someKey", &pValue, nullptr);
 
 will end up changing the context/this pointer from instance to newContext before calling someKey's GetValue method since the access to someKey passed through the context adjustor. 
 
-Any [IModelObject](nn-dbgmodel-imodelobject.md) which is added as a parent model to another object must individually support the [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md) concept. Failure to implement this concept may result in the AddParentModel method call failing. 
+Any [IModelObject](nn-dbgmodel-imodelobject.md) which is added as a parent model to another object must individually support the [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md) concept. Failure to implement this concept may result in the AddParentModel method call failing.
 
 ## -parameters
 
 ### -param model
+
 An [IModelObject](nn-dbgmodel-imodelobject.md) which will be added to the parent model chain of the given object. This [IModelObject](nn-dbgmodel-imodelobject.md) must individually support the [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md) concept.
 
 ### -param contextObject
+
 If the data model has a context adjustment associated with it, the adjusted context (or a property accessor which returns the adjusted context) may be passed here.
 
 ### -param override
+
 An indication of whether the parent model specified by the model argument is placed at the front or the end of the linear chain of parent models. A value of false (normally supplied) indicates the end of the chain. A value of true indicates the front of the chain.
 
-
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -134,3 +137,4 @@ if (spDataModel != nullptr &&
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
+

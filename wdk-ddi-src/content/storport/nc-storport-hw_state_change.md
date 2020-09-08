@@ -8,9 +8,6 @@ ms.assetid: E7E5E26A-B477-453C-AAFC-9B3572F4FC72
 ms.date: 03/29/2018
 keywords: ["HW_STATE_CHANGE callback function"]
 ms.keywords: HW_STATE_CHANGE, HwStorStateChange, HwStorStateChange routine [Storage Devices], storage.hwstorstatechange, storport/HwStorStateChange
-f1_keywords:
- - "storport/HwStorStateChange"
- - "HwStorStateChange"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- storport.h
-api_name:
-- HwStorStateChange
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - HW_STATE_CHANGE
+ - storport/HW_STATE_CHANGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - storport.h
+api_name:
+ - HwStorStateChange
 ---
 
 # HW_STATE_CHANGE callback function
@@ -46,46 +46,38 @@ req.typenames:
 
 ## -description
 
-
 A miniport-provided callback that is called  after a notification from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a> is processed.
-
 
 ## -parameters
 
-
-
-
 ### -param HwDeviceExtension
 
+### -param Context 
 
-### -param Context [in, optional]
-
+[in, optional]
 The context supplied as <i>HwStateChangeContext</i> by the miniport in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>.
 
+### -param AddressType 
 
-### -param AddressType [in]
-
+[in]
 The type of the address in <i>Address</i>.
 
+### -param Address 
 
-### -param Address [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a> structure for the entity whose state change was processed.
 
+### -param Status 
 
-### -param Status [in]
-
+[in]
 The processing status for the state change notification.
 
 
 #### - DeviceExtension [in]
 
-A pointer to the miniport driver's per-HBA storage area. 
-
+A pointer to the miniport driver's per-HBA storage area.
 
 ## -remarks
-
-
 
 The <i>HwStorStateChange</i> is called with the StartIo lock acquired by Storport.
 
@@ -114,19 +106,11 @@ HW_STATE_CHANGE (
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>
- 
-
- 
 

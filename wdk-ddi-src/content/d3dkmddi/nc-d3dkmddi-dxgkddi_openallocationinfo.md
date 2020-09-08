@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiOpenAllocation"
- - "DxgkDdiOpenAllocation"
+ - DXGKDDI_OPENALLOCATIONINFO
+ - d3dkmddi/DXGKDDI_OPENALLOCATIONINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_OPENALLOCATIONINFO callback function
+
 
 ## -description
 

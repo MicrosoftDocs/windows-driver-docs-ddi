@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnCreateNewSourceModeSet"
- - "pfnCreateNewSourceModeSet"
+ - DXGKDDI_VIDPN_CREATENEWSOURCEMODESET
+ - d3dkmddi/DXGKDDI_VIDPN_CREATENEWSOURCEMODESET
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPN_CREATENEWSOURCEMODESET callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: a827df55-ff88-439a-8d56-fba8212105a6
 ms.date: 05/10/2018
 keywords: ["VideoPortDoDma function"]
 ms.keywords: VideoPortDoDma, VideoPortDoDma function [Display Devices], VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, display.videoportdodma, video/VideoPortDoDma
-f1_keywords:
- - "video/VideoPortDoDma"
- - "VideoPortDoDma"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortDoDma
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortDoDma
+ - video/VideoPortDoDma
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortDoDma
 ---
 
 # VideoPortDoDma function
@@ -46,25 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortDoDma</b> function is <b>obsolete</b> in Windows 2000 and later. 
 
 <b>VideoPortDoDma</b> causes the miniport driver's <i>HwVidStartDma</i> function to be called.
 
-
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 Pointer to the miniport driver's device extension.
 
-### -param pDma [in]
+### -param pDma 
 
+[in]
 Specifies a non-<b>NULL</b> DMA handle. This handle was obtained from a prior call to <b>VideoPortDoDma</b> or from the <b>OutputBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a>.
 
+### -param DmaFlags 
 
-### -param DmaFlags [in]
-
+[in]
 Specifies the action to be performed. This member can be one of the following values:
 
 |Value|Meaning|
@@ -87,7 +87,4 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-mas
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a>
- 
-
- 
 

@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiSetPointerPosition"
- - "DxgkDdiSetPointerPosition"
+ - DXGKDDI_SETPOINTERPOSITION
+ - d3dkmddi/DXGKDDI_SETPOINTERPOSITION
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_SETPOINTERPOSITION callback function
+
 
 ## -description
 

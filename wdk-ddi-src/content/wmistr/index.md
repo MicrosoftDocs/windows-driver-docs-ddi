@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
+f1_keywords:
+ - wmistr
+ - wmistr/wmistr
 ---
 
 # Wmistr.h header
@@ -21,3 +24,4 @@ This header declares a set of standard data structures called WNODE_XXX that WMI
 This header is used by kernel. For more information, see:
 
 - [WMI WNODE_XXX Structures](https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-wnode-xxx-structures)
+

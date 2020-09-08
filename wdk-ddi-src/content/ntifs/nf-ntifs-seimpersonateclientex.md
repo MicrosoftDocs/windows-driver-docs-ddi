@@ -8,9 +8,6 @@ ms.assetid: 7a5043b9-2517-454a-a8d3-1ea09143c81a
 ms.date: 04/16/2018
 keywords: ["SeImpersonateClientEx function"]
 ms.keywords: SeImpersonateClientEx, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, ntifs/SeImpersonateClientEx, seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml
-f1_keywords:
- - "ntifs/SeImpersonateClientEx"
- - "SeImpersonateClientEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- SeImpersonateClientEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SeImpersonateClientEx
+ - ntifs/SeImpersonateClientEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - SeImpersonateClientEx
 ---
 
 # SeImpersonateClientEx function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>SeImpersonateClientEx</b> routine causes a thread to impersonate a user.
-
 
 ## -parameters
 
+### -param ClientContext 
 
-
-
-### -param ClientContext [in]
-
+[in]
 Pointer to the user's security client context.
 
+### -param ServerThread 
 
-### -param ServerThread [in, optional]
-
+[in, optional]
 Pointer to the thread that is to impersonate the user. If not specified, the calling thread is used.
 
-
 ## -returns
-
-
 
 <b>SeImpersonateClientEx</b> returns an appropriate NTSTATUS value, such as the following: 
 
@@ -110,14 +103,8 @@ The thread specified in <i>ServerThread</i> parameter did not have sufficient ac
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SeImpersonateClientEx</b> is used to cause a thread to impersonate a user. The client security context in <i>ClientContext</i> is assumed to be up to date.
 
@@ -129,15 +116,9 @@ To end the impersonation of the user, call the <a href="https://docs.microsoft.c
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psimpersonateclient">PsImpersonateClient</a> routine can be used to cause a server thread to impersonate a client.
 
-For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
-
-
-
+For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psimpersonateclient">PsImpersonateClient</a>
 
@@ -152,7 +133,4 @@ For more information about security and access control, see the documentation on
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/sestopimpersonatingclient">SeStopImpersonatingClient</a>
- 
-
- 
 

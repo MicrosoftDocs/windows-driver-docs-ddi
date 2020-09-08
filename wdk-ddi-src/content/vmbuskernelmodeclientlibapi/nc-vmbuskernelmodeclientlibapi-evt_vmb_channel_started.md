@@ -8,9 +8,6 @@ ms.assetid: C4F35016-3F93-4258-A42F-D692AF690020
 ms.date: 05/02/2018
 keywords: ["EVT_VMB_CHANNEL_STARTED callback function"]
 ms.keywords: EVT_VMB_CHANNEL_STARTED, EVT_VMB_CHANNEL_STARTED callback, EvtVmbChannelStarted, EvtVmbChannelStarted callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_STARTED, PFN_VMB_CHANNEL_STARTED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_started, vmbuskernelmodeclientlibapi/EvtVmbChannelStarted
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_STARTED"
- - "PFN_VMB_CHANNEL_STARTED"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- VmbusKernelModeClientLibApi.h
-api_name:
-- PFN_VMB_CHANNEL_STARTED
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_VMB_CHANNEL_STARTED
+ - vmbuskernelmodeclientlibapi/EVT_VMB_CHANNEL_STARTED
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - VmbusKernelModeClientLibApi.h
+api_name:
+ - PFN_VMB_CHANNEL_STARTED
 ---
 
 # EVT_VMB_CHANNEL_STARTED callback function
@@ -46,26 +46,19 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <i>EvtVmbChannelStarted</i> callback function is invoked at either endpoint when a channel is
-fully configured but before any packets have been delivered.  This occurs when the opposite endpoint opened the channel or reopened it after closing it.  
-
+fully configured but before any packets have been delivered.  This occurs when the opposite endpoint opened the channel or reopened it after closing it.
 
 ## -parameters
 
+### -param Channel 
 
-
-
-### -param Channel [in]
-
+[in]
 The channel which is started.
 
-
 ## -remarks
-
-
 
 After a channel is created, a client driver can specify callback functions for state changes, including  <i>EvtVmbChannelStarted</i>, by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmb_channel_state_change_callbacks_init">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a> function.
 
@@ -78,13 +71,7 @@ this callback. An alternative is the <a href="https://docs.microsoft.com/windows
 
 Waiting for a sent packet to complete, such as by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsendsynchronousrequest">VmbChannelSendSynchronousRequest</a> function, never returns because packets are not flowing when this callback is invoked.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_opened">EvtVmbChannelOpened</a>
 
@@ -111,7 +98,4 @@ Waiting for a sent packet to complete, such as by the <a href="https://docs.micr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns">VmbPacketSendWithExternalPfns</a>
- 
-
- 
 

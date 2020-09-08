@@ -1,42 +1,42 @@
 ---
 UID: NF:dbgmodel.IKeyStore.ClearKeys
 title: IKeyStore::ClearKeys (dbgmodel.h)
-description: The ClearKeys method is analogous to the ClearKeys method on IModelObject. 
+description: The ClearKeys method is analogous to the ClearKeys method on IModelObject.
 ms.assetid: 7fb81fa1-c09a-4995-9a28-34a2d5716625
 ms.date: 08/13/2018
 keywords: ["IKeyStore::ClearKeys"]
-f1_keywords:
- - "dbgmodel/IKeyStore.ClearKeys"
- - "IKeyStore.ClearKeys"
 ms.keywords: IKeyStore::ClearKeys, ClearKeys, IKeyStore.ClearKeys, IKeyStore::ClearKeys, IKeyStore.ClearKeys
 req.header: dbgmodel.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- dbgmodel.h
-api_name: 
-- IKeyStore.ClearKeys
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
+f1_keywords:
+ - IKeyStore::ClearKeys
+ - dbgmodel/IKeyStore::ClearKeys
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IKeyStore.ClearKeys
 ---
 
 # IKeyStore::ClearKeys
@@ -44,9 +44,10 @@ ms.custom: RS5
 
 ## -description
 
-The ClearKeys method is analogous to the ClearKeys method on [IModelObject](nn-dbgmodel-imodelobject.md). It will remove every key from the given metadata store. This method has no effect on any parent store. 
+The ClearKeys method is analogous to the ClearKeys method on [IModelObject](nn-dbgmodel-imodelobject.md). It will remove every key from the given metadata store. This method has no effect on any parent store.
 
 ## -returns
+
 This method returns HRESULT that indicates success or failure.
 
 ## -remarks
@@ -66,3 +67,4 @@ if (SUCCEEDED(spMetadata->ClearKeys()))
 ## -see-also
 
 [IKeyStore interface](nn-dbgmodel-ikeystore.md)
+

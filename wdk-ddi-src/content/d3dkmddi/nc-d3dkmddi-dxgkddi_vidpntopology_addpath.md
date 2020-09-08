@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnAddPath"
- - "pfnAddPath"
+ - DXGKDDI_VIDPNTOPOLOGY_ADDPATH
+ - d3dkmddi/DXGKDDI_VIDPNTOPOLOGY_ADDPATH
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_ADDPATH callback function
+
 
 ## -description
 

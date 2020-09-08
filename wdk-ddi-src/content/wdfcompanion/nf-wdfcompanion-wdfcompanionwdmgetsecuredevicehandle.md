@@ -8,9 +8,6 @@ ms.assetid: 8fc3dc6f-8a21-490b-adbf-5f735cb953de
 ms.date: 02/26/2018
 keywords: ["WdfCompanionWdmGetSecureDeviceHandle function"]
 ms.keywords: WdfCompanionWdmGetSecureDeviceHandle, WdfCompanionWdmGetSecureDeviceHandle method, wdf.wdfcompanionwdmgetsecuredevicehandle, wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle
-f1_keywords:
- - "wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle"
- - "WdfCompanionWdmGetSecureDeviceHandle"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdfcompanion.h
-api_name:
-- WdfCompanionWdmGetSecureDeviceHandle
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfCompanionWdmGetSecureDeviceHandle
+ - wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdfcompanion.h
+api_name:
+ - WdfCompanionWdmGetSecureDeviceHandle
 ---
 
 # WdfCompanionWdmGetSecureDeviceHandle function
@@ -46,15 +46,11 @@ req.typenames:
 
 ## -description
 
-
-
 			For internal use only.
-
 
 ## -parameters
 
+### -param Companion 
 
-
-
-### -param Companion [in]
+[in]
 

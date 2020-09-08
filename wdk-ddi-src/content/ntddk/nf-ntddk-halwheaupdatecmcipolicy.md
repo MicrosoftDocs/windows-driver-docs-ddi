@@ -33,8 +33,8 @@ api_location:
 api_name:
  - HalWheaUpdateCmciPolicy
 f1_keywords:
- - ntddk//HalWheaUpdateCmciPolicy
  - HalWheaUpdateCmciPolicy
+ - ntddk/HalWheaUpdateCmciPolicy
 dev_langs:
  - c++
 ---

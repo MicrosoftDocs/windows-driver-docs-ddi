@@ -8,9 +8,6 @@ ms.assetid: B03477A0-B7ED-491F-9D6F-B32A0E719475
 ms.date: 04/23/2018
 keywords: ["KSEVENT_VOLUMELIMIT enumeration"]
 ms.keywords: KSEVENT_VOLUMELIMIT, KSEVENT_VOLUMELIMIT enumeration [Streaming Media Devices], KSEVENT_VOLUMELIMIT_CHANGED, ks/KSEVENT_VOLUMELIMIT, ks/KSEVENT_VOLUMELIMIT_CHANGED, stream.ksevent_volumelimit
-f1_keywords:
- - "ks/KSEVENT_VOLUMELIMIT"
- - "KSEVENT_VOLUMELIMIT"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSEVENT_VOLUMELIMIT
 targetos: Windows
 req.typenames: KSEVENT_VOLUMELIMIT
+f1_keywords:
+ - KSEVENT_VOLUMELIMIT
+ - ks/KSEVENT_VOLUMELIMIT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSEVENT_VOLUMELIMIT
 ---
 
 # KSEVENT_VOLUMELIMIT enumeration
@@ -46,14 +46,7 @@ req.typenames: KSEVENT_VOLUMELIMIT
 
 ## -description
 
-
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field KSEVENT_VOLUMELIMIT_CHANGED
 

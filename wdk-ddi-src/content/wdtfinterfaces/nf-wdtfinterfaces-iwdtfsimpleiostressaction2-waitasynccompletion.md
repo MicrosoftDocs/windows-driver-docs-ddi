@@ -8,9 +8,6 @@ ms.assetid: 7aaf56cf-ba31-495b-9f54-35e9238f188a
 ms.date: 04/04/2018
 keywords: ["IWDTFSimpleIOStressAction2::WaitAsyncCompletion"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],WaitAsyncCompletion method, IWDTFSimpleIOStressAction2.WaitAsyncCompletion, IWDTFSimpleIOStressAction2::WaitAsyncCompletion, Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], WaitAsyncCompletion method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_waitasynccompletion, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion
-f1_keywords:
- - "wdtfinterfaces/IWDTFSimpleIOStressAction2.WaitAsyncCompletion"
- - "IWDTFSimpleIOStressAction2.WaitAsyncCompletion"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFInterfaces.Interop.dll
-api_name:
-- IWDTFSimpleIOStressAction2.WaitAsyncCompletion
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFSimpleIOStressAction2::WaitAsyncCompletion
+ - wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFInterfaces.Interop.dll
+api_name:
+ - IWDTFSimpleIOStressAction2.WaitAsyncCompletion
 ---
 
 # IWDTFSimpleIOStressAction2::WaitAsyncCompletion
@@ -46,36 +46,20 @@ req.typenames:
 
 ## -description
 
-
 Waits for the completion of any of the asynchronous events.
-
 
 ## -parameters
 
+### -param pResult 
 
-
-
-### -param pResult [out, retval]
-
+[out, retval]
 True if the last asynchronous event succeeded; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>
- 
-
- 
 

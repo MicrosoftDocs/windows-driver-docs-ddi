@@ -8,9 +8,6 @@ ms.assetid: 0e9d13e8-c351-4730-8f00-6c149f824af0
 ms.date: 05/08/2018
 keywords: ["IDrmAudioStream::SetContentId"]
 ms.keywords: IDrmAudioStream interface [Audio Devices],SetContentId method, IDrmAudioStream.SetContentId, IDrmAudioStream::SetContentId, SetContentId, SetContentId method [Audio Devices], SetContentId method [Audio Devices],IDrmAudioStream interface, audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, drmk/IDrmAudioStream::SetContentId
-f1_keywords:
- - "drmk/IDrmAudioStream.SetContentId"
- - "IDrmAudioStream.SetContentId"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- drmk.h
-api_name:
-- IDrmAudioStream.SetContentId
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDrmAudioStream::SetContentId
+ - drmk/IDrmAudioStream::SetContentId
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - drmk.h
+api_name:
+ - IDrmAudioStream.SetContentId
 ---
 
 # IDrmAudioStream::SetContentId
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <code>SetContentId</code> method sets the DRM content ID and its assigned DRM content rights on a KS audio stream.
-
 
 ## -parameters
 
+### -param ContentId 
 
-
-
-### -param ContentId [in]
-
+[in]
 Specifies the DRM content ID. This parameter is an identifier that the DRM system generates at run time to identify DRM-protected content in this stream.
 
+### -param DrmRights 
 
-### -param DrmRights [in]
-
+[in]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a> structure specifying the rights granted by the content provider to the user for playing and copying DRM-protected content in this stream.
-
 
 ## -returns
 
-
-
 <code>SetContentId</code> returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code. If the filter cannot enforce the specified content rights, the method returns STATUS_NOT_IMPLEMENTED.
 
-
-
-
 ## -remarks
-
-
 
 The DRM system can call the <code>SetContentId</code> method at any time during the lifetime of a KS audio stream.
 
@@ -86,13 +74,7 @@ If the KS audio filter cannot enforce the specified DRM content rights, the <cod
 
 For more information about using this method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/digital-rights-management">Digital Rights Management</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a>
 
@@ -119,7 +101,4 @@ For more information about using this method, see <a href="https://docs.microsof
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nn-drmk-idrmaudiostream">IDrmAudioStream</a>
- 
-
- 
 

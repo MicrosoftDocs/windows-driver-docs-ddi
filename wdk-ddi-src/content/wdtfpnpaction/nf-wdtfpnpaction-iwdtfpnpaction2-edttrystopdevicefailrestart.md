@@ -8,9 +8,6 @@ ms.assetid: f451f97d-ff56-47ae-b9c6-4f5e3a1dd4bf
 ms.date: 04/04/2018
 keywords: ["IWDTFPNPAction2::EDTTryStopDeviceFailRestart"]
 ms.keywords: EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTTryStopDeviceFailRestart method, IWDTFPNPAction2.EDTTryStopDeviceFailRestart, IWDTFPNPAction2::EDTTryStopDeviceFailRestart, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceFailRestart, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpaction2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart
-f1_keywords:
- - "wdtfpnpaction/IWDTFPNPAction2.EDTTryStopDeviceFailRestart"
- - "IWDTFPNPAction2.EDTTryStopDeviceFailRestart"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WDTFDriverPNPAction.Interop.dll
-api_name:
-- IWDTFPNPAction2.EDTTryStopDeviceFailRestart
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDTFPNPAction2::EDTTryStopDeviceFailRestart
+ - wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WDTFDriverPNPAction.Interop.dll
+api_name:
+ - IWDTFPNPAction2.EDTTryStopDeviceFailRestart
 ---
 
 # IWDTFPNPAction2::EDTTryStopDeviceFailRestart
@@ -46,33 +46,21 @@ req.typenames:
 
 ## -description
 
-
 Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
 then fail the subsequent device restart.
 
-
 ## -parameters
 
+### -param pbSuccess 
 
-
-
-### -param pbSuccess [out, retval]
-
+[out, retval]
 True if the operation succeeds; otherwise, false.
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
 method must be called for the target device before calling this method.</div>
@@ -93,16 +81,7 @@ instead run the <b>EDTTryStopDeviceFailRestart</b> method on a parent
 device, grandparent, etc., which does consume hardware resources. For example, if your device 
 is a USB mouse, you can run this method on the parent USB controller instead.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a>
- 
-
- 
 

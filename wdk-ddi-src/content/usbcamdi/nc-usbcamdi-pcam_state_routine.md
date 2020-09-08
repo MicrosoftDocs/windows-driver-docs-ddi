@@ -8,9 +8,6 @@ ms.assetid: 9a69cace-11cc-4671-9e7c-df510cbdd16d
 ms.date: 04/23/2018
 keywords: ["PCAM_STATE_ROUTINE callback function"]
 ms.keywords: CamRestoreState, CamSaveState, MyCamState, MyCamState callback function [Streaming Media Devices], PCAM_STATE_ROUTINE, PCAM_STATE_ROUTINE callback, stream.camrestorestate, usbcamdi/MyCamState, usbcmdpr_74c8ba54-9be6-4512-a498-b49635db1760.xml
-f1_keywords:
- - "usbcamdi/MyCamState"
- - "MyCamState"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- usbcamdi.h
-api_name:
-- MyCamState
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PCAM_STATE_ROUTINE
+ - usbcamdi/PCAM_STATE_ROUTINE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - usbcamdi.h
+api_name:
+ - MyCamState
 ---
 
 # PCAM_STATE_ROUTINE callback function
@@ -46,16 +46,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[CamRestoreState is not supported and may be altered or unavailable in the future. ]
 
 A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state.
 
-
 ## -parameters
-
-
-
 
 ### -param BusDeviceObject
 
@@ -63,25 +58,15 @@ Pointer to the camera minidriver's device object created by the USB hub.
 
 For <b>CamSaveState</b>, this value can be NULL.
 
-
 ### -param DeviceContext
 
 Pointer to the camera minidriver's device context.
 
-
 ## -returns
-
-
-
 
             This callback routine must return STATUS_SUCCESS.
 
-
-
-
 ## -remarks
-
-
 
 <b>About CamRestoreState</b>
 
@@ -103,16 +88,7 @@ USBCAMD ignores the return value from the minidriver's <b>CamSaveState</b> callb
 
 This function is optional.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-change-power-state">SRB_CHANGE_POWER_STATE</a>
- 
-
- 
 

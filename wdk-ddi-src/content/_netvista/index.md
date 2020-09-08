@@ -54,7 +54,6 @@ To develop Networking drivers for Windows Vista and later, you need these header
 - [Netpnp.h](../netpnp/index.md)
 - [Netpoweroffload.h](../netpoweroffload/index.md)
 - [Netpoweroffloadlist.h](../netpoweroffload/index.md)
-- [Netpowersettings.h](../netpowersettings/index.md)
 - [Netreceivescaling.h](../netreceivescaling/index.md)
 - [Netrxqueue.h](../netrxqueue/index.md)
 - [Nettxqueue.h](../nettxqueue/index.md)
@@ -82,7 +81,6 @@ To develop Networking drivers for Windows Vista and later, you need these header
 - [Wlantypes.h](../wlantypes/index.md)
 - [Wlclient.h](../wlclient/index.md)
 - [Wsk.h](../wsk/index.md)
-- [Wskndk.h](../wskndk/index.md)
 - [Wwan.h](../wwan/index.md)
 
 The following sections contain information for each area of network driver technology:
@@ -113,7 +111,6 @@ Header files that support NetAdapterCx include the following:
 - [Netpacketqueue.h](../netpacketqueue/index.md)
 - [Netpoweroffload.h](../netpoweroffload/index.md)
 - [Netpoweroffloadlist.h](../netpoweroffload/index.md)
-- [Netpowersettings.h](../netpowersettings/index.md)
 - [Netreceivescaling.h](../netreceivescaling/index.md)
 - [Netrxqueue.h](../netrxqueue/index.md)
 - [Nettxqueue.h](../nettxqueue/index.md)

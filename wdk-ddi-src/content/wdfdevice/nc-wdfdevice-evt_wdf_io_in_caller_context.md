@@ -8,9 +8,6 @@ ms.assetid: b8bcea29-e404-490e-9d0c-02c96a5690ab
 ms.date: 02/26/2018
 keywords: ["EVT_WDF_IO_IN_CALLER_CONTEXT callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_027a6221-e735-4a5c-a378-d9d9236f21ae.xml, EVT_WDF_IO_IN_CALLER_CONTEXT, EVT_WDF_IO_IN_CALLER_CONTEXT callback, EvtIoInCallerContext, EvtIoInCallerContext callback function, kmdf.evtioincallercontext, wdf.evtioincallercontext, wdfdevice/EvtIoInCallerContext
-f1_keywords:
- - "wdfdevice/EvtIoInCallerContext"
- - "EvtIoInCallerContext"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: See Remarks section.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdfdevice.h
-api_name:
-- EvtIoInCallerContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - EVT_WDF_IO_IN_CALLER_CONTEXT
+ - wdfdevice/EVT_WDF_IO_IN_CALLER_CONTEXT
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdfdevice.h
+api_name:
+ - EvtIoInCallerContext
 ---
 
 # EVT_WDF_IO_IN_CALLER_CONTEXT callback function
@@ -46,30 +46,23 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 A driver's <i>EvtIoInCallerContext</i> event callback function preprocesses an I/O request before the framework places it into an I/O queue.
 
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Request 
 
-### -param Request [in]
-
+[in]
 A handle to a framework request object.
 
-
 ## -remarks
-
-
 
 The framework calls a driver's <i>EvtIoInCallerContext</i> callback function so that the driver can examine each I/O request, and possibly perform preliminary processing on the request, before the framework places it in an I/O queue. To register an <i>EvtIoInCallerContext</i> callback function for a device, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetioincallercontextcallback">WdfDeviceInitSetIoInCallerContextCallback</a>. 
 
@@ -89,17 +82,7 @@ If a driver has configured an I/O queue to support <a href="https://docs.microso
 
 The <i>EvtIoInCallerContext</i> callback function is called at the IRQL of the calling thread. If the calling thread is from a user-mode application, the callback function is called at IRQL = PASSIVE_LEVEL. If the calling thread is from a higher-level kernel-mode driver, your driver's <i>EvtIoInCallerContext</i> callback function can be called at IRQL <= DISPATCH_LEVEL if both the callback function and the higher-level driver are designed to pass the request at IRQL <= DISPATCH_LEVEL.
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_preprocess">EvtDeviceWdmIrpPreprocess</a>
- 
-
- 
 

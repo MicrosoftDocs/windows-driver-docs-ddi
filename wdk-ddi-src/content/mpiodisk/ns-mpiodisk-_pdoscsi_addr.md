@@ -8,9 +8,6 @@ ms.assetid: ad31cff9-06bd-4c3a-b1e1-5a82cc6b48a2
 ms.date: 03/29/2018
 keywords: ["PDOSCSI_ADDR structure"]
 ms.keywords: "*PPDOSCSI_ADDR, PDOSCSI_ADDR, PDOSCSI_ADDR structure [Storage Devices], PPDOSCSI_ADDR, PPDOSCSI_ADDR structure pointer [Storage Devices], _PDOSCSI_ADDR, mpiodisk/PDOSCSI_ADDR, mpiodisk/PPDOSCSI_ADDR, storage.pdoscsi_addr, structs-scsibus_4875cdbd-eeff-447f-b682-a2ab41196146.xml"
-f1_keywords:
- - "mpiodisk/PDOSCSI_ADDR"
- - "PDOSCSI_ADDR"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpiodisk.h
-api_name:
-- PDOSCSI_ADDR
 targetos: Windows
 req.typenames: PDOSCSI_ADDR, *PPDOSCSI_ADDR
+f1_keywords:
+ - _PDOSCSI_ADDR
+ - mpiodisk/_PDOSCSI_ADDR
+ - PPDOSCSI_ADDR
+ - mpiodisk/PPDOSCSI_ADDR
+ - PDOSCSI_ADDR
+ - mpiodisk/PDOSCSI_ADDR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpiodisk.h
+api_name:
+ - PDOSCSI_ADDR
 ---
 
 # _PDOSCSI_ADDR structure
@@ -46,29 +50,21 @@ req.typenames: PDOSCSI_ADDR, *PPDOSCSI_ADDR
 
 ## -description
 
-
 The PDOSCSI_ADDR structure is used to represent a SCSI address.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PortNumber
 
 An unsigned 8-bitfield that represents the PortNumber as defined by the SCSI_ADDRESS structure in <i>Ntddscsi.h</i>.
 
-
 ### -field ScsiPathId
 
 An unsigned 8-bitfield that represents the PathId as defined by the SCSI_ADDRESS structure in <i>Ntddscsi.h</i>.
 
-
 ### -field TargetId
 
 An unsigned 8-bitfield that represents the TargetId as defined by the SCSI_ADDRESS structure in <i>Ntddscsi.h</i>.
-
 
 ### -field Lun
 

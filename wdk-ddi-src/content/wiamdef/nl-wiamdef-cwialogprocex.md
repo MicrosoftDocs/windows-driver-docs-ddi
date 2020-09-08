@@ -5,43 +5,42 @@ description:
 ms.assetid: 40432fb3-ec6f-44ac-a757-0de2b99320fb
 ms.date: 10/19/2018
 keywords: ["CWiaLogProcEx class"]
-f1_keywords:
- - "wiamdef/CWiaLogProcEx"
- - "CWiaLogProcEx"
 req.header: wiamdef.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- COM
-api_location: 
-- wiamdef.h
-api_name: 
-- CWiaLogProcEx
-product: 
-- Windows
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - CWiaLogProcEx
+ - wiamdef/CWiaLogProcEx
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - wiamdef.h
+api_name:
+ - CWiaLogProcEx
+product:
+ - Windows
 ---
 
 # CWiaLogProcEx class
 
+
 ## -description
-
-
-
 
 ## -remarks
 
 ## -see-also
+

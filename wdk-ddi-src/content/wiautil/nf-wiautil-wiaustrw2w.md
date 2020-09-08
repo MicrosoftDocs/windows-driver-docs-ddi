@@ -8,9 +8,6 @@ ms.assetid: 84f6d47f-bd14-4df4-b4fa-e58412daba6f
 ms.date: 05/03/2018
 keywords: ["wiauStrW2W function"]
 ms.keywords: image.wiaustrw2w, wiauFncs_4778241e-19d0-40e1-ae24-e58e950ba540.xml, wiauStrW2W, wiauStrW2W function [Imaging Devices], wiautil/wiauStrW2W
-f1_keywords:
- - "wiautil/wiauStrW2W"
- - "wiauStrW2W"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiautil.h
-api_name:
-- wiauStrW2W
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - wiauStrW2W
+ - wiautil/wiauStrW2W
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiautil.h
+api_name:
+ - wiauStrW2W
 ---
 
 # wiauStrW2W function
@@ -46,43 +46,29 @@ req.typenames:
 
 ## -description
 
-
 The <b>wiauStrW2W</b> function copies a Unicode string to another Unicode string.
-
 
 ## -parameters
 
+### -param pwszSrc 
 
-
-
-### -param pwszSrc [in]
-
+[in]
 Points to the Unicode string to be copied.
 
+### -param pwszDst 
 
-### -param pwszDst [out]
-
+[out]
 Pointer to a memory location that receives the copied string.
-
 
 ### -param iSize
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pwszDst</i>.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaustrc2c">wiauStrC2C</a>
 
@@ -93,7 +79,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaustrw2c">wiauStrW2C</a>
- 
-
- 
 

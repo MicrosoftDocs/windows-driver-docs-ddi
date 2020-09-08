@@ -8,9 +8,6 @@ ms.assetid: C1CA7DE4-A54A-478F-9F83-585B528EF345
 ms.date: 05/03/2018
 keywords: ["SensorsCxDeviceGetSensorList function"]
 ms.keywords: SensorsCxDeviceGetSensorList, Syntax, Syntax function [Sensor Devices], sensors.sensorscxdevicegetsensorlist, sensorscx/Syntax
-f1_keywords:
- - "sensorscx/Syntax"
- - "Syntax"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SensorsCx.h
-api_name:
-- Syntax
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SensorsCxDeviceGetSensorList
+ - sensorscx/SensorsCxDeviceGetSensorList
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SensorsCx.h
+api_name:
+ - Syntax
 ---
 
 # SensorsCxDeviceGetSensorList function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 This function returns a list of sensor instances associated with a WDFDEVICE.
-
 
 ## -parameters
 
+### -param FxDevice 
 
-
-
-### -param FxDevice [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
+### -param pSensorList 
 
-### -param pSensorList [out]
-
+[out]
 A list of sensor instances.
 
+### -param pListCount 
 
-### -param pListCount [in, out]
-
+[in, out]
 The number of SENSOROBJECTS in pSensorInstanceList.
 
-
 ## -returns
-
-
 
 This function returns NTSTATUS with different values. Some values that may be returned are the following:
 
@@ -90,5 +83,4 @@ STATUS_NOT_FOUND is returned if the controller is not available from the <b>FxDe
 
 </li>
 </ul>
-
 

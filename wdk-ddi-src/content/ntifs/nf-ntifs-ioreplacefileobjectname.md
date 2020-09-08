@@ -8,9 +8,6 @@ ms.assetid: 1550a35f-2733-4ee8-9715-d82f96eb5da7
 ms.date: 04/16/2018
 keywords: ["IoReplaceFileObjectName function"]
 ms.keywords: IoReplaceFileObjectName, IoReplaceFileObjectName routine [Installable File System Drivers], ifsk.ioreplacefileobjectname, ioref_3e18058f-46a0-4345-9d67-2e211bbb84a8.xml, ntifs/IoReplaceFileObjectName
-f1_keywords:
- - "ntifs/IoReplaceFileObjectName"
- - "IoReplaceFileObjectName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoReplaceFileObjectName
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoReplaceFileObjectName
+ - ntifs/IoReplaceFileObjectName
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoReplaceFileObjectName
 ---
 
 # IoReplaceFileObjectName function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoReplaceFileObjectName</b> routine replaces the name of a file object.
-
 
 ## -parameters
 
+### -param FileObject 
 
+[in]
+Pointer to the file object whose file name is being replaced.
 
+### -param NewFileName 
 
-### -param FileObject [in]
-
-Pointer to the file object whose file name is being replaced. 
-
-
-### -param NewFileName [in]
-
+[in]
 Pointer to the string buffer for the new name for the file object.
 
+### -param FileNameLength 
 
-### -param FileNameLength [in]
-
-Length, in bytes, of the new name for the file object. 
-
+[in]
+Length, in bytes, of the new name for the file object.
 
 ## -returns
-
-
 
 Returns STATUS_SUCCESS or one of the following NTSTATUS values otherwise:
 
@@ -104,18 +97,10 @@ Indicates that inadequate memory is available to allocate a buffer to complete t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Drivers should use <b>IoReplaceFileObjectName</b> to safely replace the name in a file object. This allows the I/O manager to control the lifetime of the buffer associated with the file object. Replacing a file object name directly without using <b>IoReplaceFileObjectName</b> may conflict with other uses of the name and should be avoided when possible.
 
 This routine should be used to replace the file object name instead of doing so manually to allow the kernel to manage the lifetime of the name correctly.
-
-
 

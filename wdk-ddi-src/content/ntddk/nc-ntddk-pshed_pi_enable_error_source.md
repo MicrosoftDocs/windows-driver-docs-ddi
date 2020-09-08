@@ -8,9 +8,6 @@ ms.assetid: f2bc3b38-003e-4078-9bbd-d535e8971491
 ms.date: 02/20/2018
 keywords: ["PSHED_PI_ENABLE_ERROR_SOURCE callback function"]
 ms.keywords: EnableErrorSource, EnableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_ENABLE_ERROR_SOURCE, PSHED_PI_ENABLE_ERROR_SOURCE callback, ntddk/EnableErrorSource, whea.enableerrorsource, whearef_d2fcd602-03f5-466c-bd90-abd81f15ec38.xml
-f1_keywords:
- - "ntddk/EnableErrorSource"
- - "EnableErrorSource"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntddk.h
-api_name:
-- EnableErrorSource
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - PSHED_PI_ENABLE_ERROR_SOURCE
+ - ntddk/PSHED_PI_ENABLE_ERROR_SOURCE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntddk.h
+api_name:
+ - EnableErrorSource
 ---
 
 # PSHED_PI_ENABLE_ERROR_SOURCE callback function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 A PSHED plug-in's <i>EnableErrorSource</i> callback function enables an error source.
-
 
 ## -parameters
 
+### -param PluginContext 
 
-
-
-### -param PluginContext [in, out, optional]
-
+[in, out, optional]
 A pointer to the context area that was specified in the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
+### -param ErrorSource 
 
-### -param ErrorSource [in]
-
+[in]
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes the error source that is being enabled.
 
-
 ## -returns
-
-
 
 A PSHED plug-in's <i>EnableErrorSource</i> callback function returns one of the following NTSTATUS codes:
 
@@ -110,14 +103,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A PSHED plug-in that participates in error source control sets the <b>Callbacks.SetErrorSourceInfo</b>, <b>Callbacks.EnableErrorSource</b>, and <b>Callbacks.DisableErrorSource</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure to point to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_set_error_source_info">SetErrorSourceInfo</a>, <i>EnableErrorSource</i>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_disable_error_source">DisableErrorSource</a> callback functions when the plug-in calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedregisterplugin">PshedRegisterPlugin</a> function to register itself with the PSHED. The PSHED plug-in must also set the <b>PshedFAErrorSourceControl</b> flag in the <b>FunctionalAreaMask</b> member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
@@ -125,13 +112,7 @@ The Windows kernel calls into the PSHED to enable each of the error sources that
 
 If the PSHED plug-in successfully enables the error source, the PSHED will update the WHEA_ERROR_SOURCE_DESCRIPTOR structure on behalf of the PSHED plug-in after the call to the PSHED plug-in's <i>EnableErrorSource</i> callback function returns. A PSHED plug-in's <i>EnableErrorSource</i> callback function should not modify the error source descriptor.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_disable_error_source">DisableErrorSource</a>
 
@@ -150,7 +131,4 @@ If the PSHED plug-in successfully enables the error source, the PSHED will updat
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
- 
-
- 
 

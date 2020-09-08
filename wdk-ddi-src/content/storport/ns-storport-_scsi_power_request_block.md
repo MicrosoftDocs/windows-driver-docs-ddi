@@ -8,9 +8,6 @@ ms.assetid: 04981b68-db32-461b-b24b-8b2bf2e53f78
 ms.date: 03/29/2018
 keywords: ["SCSI_POWER_REQUEST_BLOCK structure"]
 ms.keywords: "*PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], _SCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, storport/PSCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml"
-f1_keywords:
- - "storport/SCSI_POWER_REQUEST_BLOCK"
- - "SCSI_POWER_REQUEST_BLOCK"
 req.header: storport.h
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
@@ -28,20 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- SCSI_POWER_REQUEST_BLOCK
 targetos: Windows
 req.typenames: SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK
+f1_keywords:
+ - _SCSI_POWER_REQUEST_BLOCK
+ - storport/_SCSI_POWER_REQUEST_BLOCK
+ - PSCSI_POWER_REQUEST_BLOCK
+ - storport/PSCSI_POWER_REQUEST_BLOCK
+ - SCSI_POWER_REQUEST_BLOCK
+ - storport/SCSI_POWER_REQUEST_BLOCK
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - SCSI_POWER_REQUEST_BLOCK
 ---
 
-# _SCSI_POWER_REQUEST_BLOCK structure
+# _SCSI_POWER_REQUEST_BLOCK structure (storport.h)
+
 
 ## -description
 
@@ -69,7 +74,7 @@ See [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md) in the WDK do
 
 ### -field SrbPowerFlags
 
-The power management flags. Currently, the only flag allowed is SRB_POWER_FLAGS_ADAPTER_REQUEST, which indicates that the power management request is for the adapter. If this flag is set, the miniport driver should ignore the values in the **PathId**, **TargetId**, and **Lun**.  
+The power management flags. Currently, the only flag allowed is SRB_POWER_FLAGS_ADAPTER_REQUEST, which indicates that the power management request is for the adapter. If this flag is set, the miniport driver should ignore the values in the **PathId**, **TargetId**, and **Lun**.
 
 ### -field PathId
 
@@ -153,3 +158,4 @@ The following conditions must exist before the Storport driver will send a **SCS
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
 [**StorPortNotification**](hnf-storport-storportnotification.md)
+

@@ -8,9 +8,6 @@ ms.assetid: 13466A7E-D39B-4E60-AD02-2E6EFE27495A
 ms.date: 04/23/2018
 keywords: ["SerCxDeviceInitConfig function"]
 ms.keywords: 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], serports.sercxdeviceinitconfig
-f1_keywords:
- - "sercx/SerCxDeviceInitConfig"
- - "SerCxDeviceInitConfig"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- 1.0\Sercx.h
-api_name:
-- SerCxDeviceInitConfig
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SerCxDeviceInitConfig
+ - sercx/SerCxDeviceInitConfig
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - 1.0\Sercx.h
+api_name:
+ - SerCxDeviceInitConfig
 ---
 
 # SerCxDeviceInitConfig function
@@ -46,23 +46,16 @@ req.typenames:
 
 ## -description
 
-
 The <b>SerCxDeviceInitConfig</b> method is called by the serial controller driver to attach the serial framework extension (SerCx) to the I/O pipeline for a framework device object (FDO or PDO) that it is creating.
-
 
 ## -parameters
 
+### -param DeviceInit 
 
-
-
-### -param DeviceInit [in, out]
-
+[in, out]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that is to be configured.
 
-
 ## -returns
-
-
 
 <b>SerCxDeviceInitConfig</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status code.
 
@@ -83,14 +76,8 @@ Could not allocate system resources (typically memory).
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method associates SerCx's configuration information with the <b>WDFDEVICE_INIT</b> structure for the framework device object (PDO or FDO) that is to be created. Call <b>SerCxDeviceInitConfig</b> before you call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> method to create the device object.
 
@@ -139,12 +126,7 @@ if (!NT_SUCCESS(status))
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
@@ -159,7 +141,4 @@ if (!NT_SUCCESS(status))
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitassignsddlstring">WdfDeviceInitAssignSDDLString</a>
- 
-
- 
 

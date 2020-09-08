@@ -6,38 +6,38 @@ tech.root: netvista
 ms.assetid: c17368bb-9abd-4d02-a94b-76dfdc344b54
 ms.date: 09/25/2019
 keywords: ["NetRingIncrementIndex function"]
-f1_keywords:
- - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
- - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingIncrementIndex
 req.header: ring.h
 req.include-header: netadaptercx.h
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 1.29
-req.umdf-ver:
-req.lib:
-req.dll:
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: Any level as long as target memory is resident
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-req.alt-api:
-req.alt-loc:
-topictype: 
-- apiref
-apitype: 
-- HeaderDef
-apilocation: 
-- ring.h
-apiname: 
-- NetRingIncrementIndex
+req.alt-api: 
+req.alt-loc: 
 targetos: Windows
+f1_keywords:
+ - NetRingIncrementIndex
+ - ring/NetRingIncrementIndex
+topictype:
+ - apiref
+apitype:
+ - HeaderDef
+apilocation:
+ - ring.h
+apiname:
+ - NetRingIncrementIndex
 ---
 
 # NetRingIncrementIndex function
@@ -70,3 +70,4 @@ This routine is a convenient equivalent to calling [**NetRingAdvanceIndex**](../
 [**NET_RING**](../ring/ns-netring-_net_ring.md)
 
 [**NetRingAdvanceIndex**](../ring/nf-ring-netringadvanceindex.md)
+

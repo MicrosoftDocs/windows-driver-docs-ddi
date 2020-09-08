@@ -8,9 +8,6 @@ ms.assetid: FE756171-327B-40E7-92A4-9159C509FD5E
 ms.date: 04/30/2018
 keywords: ["GET_D3COLD_CAPABILITY callback function"]
 ms.keywords: GET_D3COLD_CAPABILITY, GetBusDriverD3ColdSupport, GetBusDriverD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.getbusdriverd3coldsupport, wdm/GetBusDriverD3ColdSupport
-f1_keywords:
- - "wdm/GetBusDriverD3ColdSupport"
- - "GetBusDriverD3ColdSupport"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wdm.h
-api_name:
-- GetBusDriverD3ColdSupport
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - GET_D3COLD_CAPABILITY
+ - wdm/GET_D3COLD_CAPABILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wdm.h
+api_name:
+ - GetBusDriverD3ColdSupport
 ---
 
 # GET_D3COLD_CAPABILITY callback function
@@ -46,37 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <i>GetBusDriverD3ColdSupport</i> routine enables the driver for a device to query whether the enumerating bus driver supports the D3cold device power state.
-
 
 ## -parameters
 
+### -param Context 
 
-
-
-### -param Context [in, optional]
-
+[in, optional]
 A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
+### -param D3ColdSupported 
 
-### -param D3ColdSupported [out]
-
+[out]
 A pointer to a BOOLEAN variable to which the routine writes a value to indicate whether the bus driver supports the D3cold. If this value is <b>TRUE</b>, the bus driver supports D3cold. If <b>FALSE</b>, the bus driver does not support D3cold. If the call fails, the routine returns an error status code and does not write anything to this variable.
-
 
 ## -returns
 
-
-
 The <i>GetBusDriverD3ColdSupport</i> routine returns STATUS_SUCCESS if it is successful. Otherwise, it returns an appropriate error status code.
 
-
-
-
 ## -remarks
-
-
 
 The driver for the device calls the version of this routine that is implemented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/acpi-driver">Windows ACPI driver</a>, Acpi.sys. This routine checks the parent bus driver for the device to determine whether this bus driver supports the D3cold power state.
 
@@ -95,13 +83,7 @@ A device on a bus can make a transition to the D3cold substate only if the bus d
 
 For this reason, most device drivers never need to call the <i>GetBusDriverD3ColdSupport</i> routine.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_d3cold_support_interface">D3COLD_SUPPORT_INTERFACE</a>
 
@@ -116,7 +98,4 @@ For this reason, most device drivers never need to call the <i>GetBusDriverD3Col
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-set_d3cold_support">SetD3ColdSupport</a>
- 
-
- 
 

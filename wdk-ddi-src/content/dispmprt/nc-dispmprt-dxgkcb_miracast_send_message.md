@@ -8,9 +8,6 @@ ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
 ms.date: 05/10/2018
 keywords: ["DXGKCB_MIRACAST_SEND_MESSAGE callback function"]
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE callback, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
-f1_keywords:
- - "dispmprt/DxgkCbMiracastSendMessage"
- - "DxgkCbMiracastSendMessage"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dispmprt.h
-api_name:
-- DxgkCbMiracastSendMessage
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - DXGKCB_MIRACAST_SEND_MESSAGE
+ - dispmprt/DXGKCB_MIRACAST_SEND_MESSAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dispmprt.h
+api_name:
+ - DxgkCbMiracastSendMessage
 ---
 
 # DXGKCB_MIRACAST_SEND_MESSAGE callback function
@@ -46,74 +46,59 @@ req.typenames:
 
 ## -description
 
-
 Sends an asynchronous message to the user-mode display driver.
-
 
 ## -parameters
 
+### -param MiracastHandle 
 
-
-
-### -param MiracastHandle [in]
-
+[in]
 A driver-supplied handle to the Miracast display device. This handle was originally passed in the <b>MiracastHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_miracast_display_callbacks">DXGK_MIRACAST_DISPLAY_CALLBACKS</a> structure in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a> function.
 
+### -param InputBufferSize 
 
-### -param InputBufferSize [in]
-
+[in]
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
+### -param pInputBuffer 
 
-### -param pInputBuffer [in]
-
+[in]
 A pointer to the input buffer. <i>InputBufferSize</i> specifies the size of the buffer.
 
 See Remarks for more info about the input buffer.
-
 
 ### -param OutputBufferSize
 
 [in] The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
-### -param pOutputBuffer [out]
+### -param pOutputBuffer 
 
+[out]
 A pointer to the output buffer. <i>OutBufferSize</i> specifies the size of the buffer.
 
 See Remarks for more info about the output buffer.
 
+### -param pCallback 
 
-### -param pCallback [in, optional]
-
+[in, optional]
 An optional pointer, supplied by the display miniport driver, to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message_callback">DxgkCbMiracastSendMessageCallback</a> callback function.
 
 If the display miniport driver supplies the pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message_callback">DxgkCbMiracastSendMessageCallback</a>, then after the user-mode driver handles the message, the operating system sends a message to the user-mode driver asynchronously by calling <b>DxgkCbMiracastSendMessageCallback</b>.
 
 See Return value and Remarks sections for more about calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message_callback">DxgkCbMiracastSendMessageCallback</a>.
 
+### -param pCallbackContext 
 
-### -param pCallbackContext [in, optional]
-
+[in, optional]
 An optional driver-supplied pointer to the driver-supplied callback context. The operating system passes this context to the driver-supplied callback routine after the operation has completed.
 
-
-
-
-
 ## -returns
-
-
 
 Returns <b>STATUS_PENDING</b> if it successfully delivers the message. Otherwise, it returns one of the error codes that are defined in Ntstatus.h.
 
 If the display miniport driver needs to know the status of message handling in user mode, it should supply the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message_callback">DxgkCbMiracastSendMessageCallback</a> function in the <i>pCallback</i> parameter and check the return status in that function's <i>pIoStatusBlock</i> parameter.
 
-
-
-
 ## -remarks
-
-
 
 If the display miniport driver supplies the <i>pInputBuffer</i> and <i>pOutputBuffer</i> buffers, it is the driver’s responsibility to hold these two buffers until the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message_callback">DxgkCbMiracastSendMessageCallback</a> function is called. Otherwise, a random memory corruption issue can be created.
 
@@ -172,11 +157,7 @@ DriverCallbackFunction(
 
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_miracast_display_callbacks">DXGK_MIRACAST_DISPLAY_CALLBACKS</a>
 
@@ -187,7 +168,4 @@ DriverCallbackFunction(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: 4161418c-4f56-4daf-bf3d-e76899ccd1b2
 ms.date: 05/10/2018
 keywords: ["D3DDDICB_PRESENTMULTIPLANEOVERLAY structure"]
 ms.keywords: D3DDDICB_PRESENTMULTIPLANEOVERLAY, D3DDDICB_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY, display.d3dddicb_presentmultiplaneoverlay
-f1_keywords:
- - "d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY"
- - "D3DDDICB_PRESENTMULTIPLANEOVERLAY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dumddi.h
-api_name:
-- D3DDDICB_PRESENTMULTIPLANEOVERLAY
 targetos: Windows
 req.typenames: D3DDDICB_PRESENTMULTIPLANEOVERLAY
+f1_keywords:
+ - D3DDDICB_PRESENTMULTIPLANEOVERLAY
+ - d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dumddi.h
+api_name:
+ - D3DDDICB_PRESENTMULTIPLANEOVERLAY
 ---
 
 # D3DDDICB_PRESENTMULTIPLANEOVERLAY structure
@@ -46,24 +46,17 @@ req.typenames: D3DDDICB_PRESENTMULTIPLANEOVERLAY
 
 ## -description
 
-
 Describes multiplane overlay allocations that content is copied to and from.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hContext
 
 [in] A handle to the context that the driver submits the copy operation to. The user-mode display driver previously created this context by calling the <a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function.
 
-
 ### -field BroadcastContextCount
 
 [in] The number of additional contexts in the array that the <b>BroadcastContext</b> member specifies.
-
 
 ### -field BroadcastContext
 
@@ -71,23 +64,17 @@ Describes multiplane overlay allocations that content is copied to and from.
 
 Broadcasting is supported only for flip operations. To broadcast a flip operation, the display miniport driver must support memory mapped I/O (MMIO)-based flips. To indicate support of MMIO flips, the display miniport driver sets the <b>FlipOnVSyncMmIo</b> bit-field flag in the <b>FlipCaps</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a> structure when its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called.
 
-The original context that the <b>hContext</b> member specifies and that the user-mode display driver presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the user-mode display driver sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context. 
-
+The original context that the <b>hContext</b> member specifies and that the user-mode display driver presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the user-mode display driver sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context.
 
 ### -field AllocationInfoCount
 
 [in] The number of allocations in the array that the <b>AllocationInfo</b> member specifies. The maximum number is 16, the value of the <b>D3DDDI_MAX_MULTIPLANE_OVERLAY_ALLOCATIONS</b> constant.
 
-
 ### -field AllocationInfo
 
 An array of structures of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddi_multiplane_overlay_allocation_info">D3DDDI_MULTIPLANE_ALLOCATION_INFO</a> that specify info about the multiplane overlay allocations.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddi_multiplane_overlay_allocation_info">D3DDDI_MULTIPLANE_ALLOCATION_INFO</a>
 
@@ -102,7 +89,4 @@ An array of structures of type <a href="https://docs.microsoft.com/windows-hardw
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
- 
-
- 
 

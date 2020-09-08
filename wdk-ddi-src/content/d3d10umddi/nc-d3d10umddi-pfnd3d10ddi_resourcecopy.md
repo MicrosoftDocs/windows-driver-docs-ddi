@@ -7,9 +7,6 @@ ms.assetid: 9a837f42-0bea-4425-b693-dd7947ac24b1
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_RESOURCECOPY callback function"]
 ms.keywords: PFND3D10DDI_RESOURCECOPY, PFND3D10DDI_RESOURCECOPY callback, ResourceCopy, ResourceCopy callback function [Display Devices], UserModeDisplayDriverDx10_Functions_40047363-38d4-4271-8c24-f9a7ea565079.xml, d3d10umddi/ResourceCopy, display.resourcecopy
-f1_keywords:
- - "d3d10umddi/ResourceCopy"
- - "ResourceCopy"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- ResourceCopy
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3D10DDI_RESOURCECOPY
+ - d3d10umddi/PFND3D10DDI_RESOURCECOPY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - ResourceCopy
 ---
 
 # PFND3D10DDI_RESOURCECOPY callback function
@@ -46,14 +46,9 @@ req.typenames:
 
 ## -description
 
-
 The <i>ResourceCopy</i> function copies an entire source resource to a destination resource.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -73,11 +68,7 @@ A handle to the destination resource to copy to.
 
 A handle to the source resource to copy from.
 
-
 ## -remarks
-
-
-
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
@@ -157,15 +148,9 @@ The source and destination resources must have the same number of samples and qu
 
 </li>
 </ul>
-<i>ResourceCopy</i> does not ensure that no subresources are currently mapped. 
-
-
-
+<i>ResourceCopy</i> does not ensure that no subresources are currently mapped.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createresource">CreateResource(D3D10)</a>
 
@@ -184,7 +169,4 @@ The source and destination resources must have the same number of samples and qu
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

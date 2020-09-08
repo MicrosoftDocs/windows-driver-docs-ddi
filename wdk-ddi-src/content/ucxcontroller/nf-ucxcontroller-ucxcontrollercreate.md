@@ -8,9 +8,6 @@ ms.assetid: 29A1697E-CC42-468B-B97A-A8182DA13EE9
 ms.date: 05/07/2018
 keywords: ["UcxControllerCreate function"]
 ms.keywords: UcxControllerCreate, UcxControllerCreate method [Buses], buses._ucxcontrollercreate, ucxcontroller/UcxControllerCreate
-f1_keywords:
- - "ucxcontroller/UcxControllerCreate"
- - "UcxControllerCreate"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ucxcontroller.h
-api_name:
-- UcxControllerCreate
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
+f1_keywords:
+ - UcxControllerCreate
+ - ucxcontroller/UcxControllerCreate
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ucxcontroller.h
+api_name:
+ - UcxControllerCreate
 ---
 
 # UcxControllerCreate function
@@ -47,48 +47,36 @@ ms.custom: RS5
 
 ## -description
 
-
 Creates a host controller object.
-
 
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
+### -param Config 
 
-### -param Config [in]
-
+[in]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> structure that the client driver initialized by calling UCX_CONTROLLER_CONFIG_INIT. The structure contains configuration
         information required to create the object.
 
+### -param Attributes 
 
-### -param Attributes [in, optional]
+[in, optional]
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the controller object.
 
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the controller object. 
+### -param Controller 
 
-
-### -param Controller [out]
-
+[out]
 A pointer to a variable that receives a handle to the new controller object.
-
 
 ## -returns
 
-
-
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
-
-
-
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -remarks
-
-
 
 The client driver for the host controller must call this method after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. The parent of the new host controller object is the framework device object. 
 
@@ -144,15 +132,7 @@ The method registers a device interface GUID_DEVINTERFACE_USB_HOST_CONTROLLER an
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>
- 
-
- 
 

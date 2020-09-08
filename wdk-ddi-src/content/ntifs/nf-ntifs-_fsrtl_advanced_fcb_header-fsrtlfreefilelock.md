@@ -8,9 +8,6 @@ ms.assetid: 191a7964-4359-4b7f-8760-74f537b0737f
 ms.date: 04/16/2018
 keywords: ["FsRtlFreeFileLock function"]
 ms.keywords: FsRtlFreeFileLock, FsRtlFreeFileLock routine [Installable File System Drivers], fsrtlref_112afa00-3370-4671-ad22-0743f8dd1c52.xml, ifsk.fsrtlfreefilelock, ntifs/FsRtlFreeFileLock
-f1_keywords:
- - "ntifs/FsRtlFreeFileLock"
- - "FsRtlFreeFileLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- FsRtlFreeFileLock
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FsRtlFreeFileLock
+ - ntifs/FsRtlFreeFileLock
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - FsRtlFreeFileLock
 ---
 
 # FsRtlFreeFileLock function
@@ -46,37 +46,24 @@ req.typenames:
 
 ## -description
 
-
-The <b>FsRtlFreeFileLock</b> routine uninitializes and frees a file lock structure. 
-
+The <b>FsRtlFreeFileLock</b> routine uninitializes and frees a file lock structure.
 
 ## -parameters
 
+### -param FileLock 
 
-
-
-### -param FileLock [in]
-
+[in]
 Pointer to the FILE_LOCK structure. This structure must have been allocated by a previous call to <b>FsRtlAllocateFileLock</b>.
 
-
 ## -remarks
-
-
 
 <b>FsRtlFreeFileLock</b> should be used only for file locks that were allocated and initialized by <b>FsRtlAllocateFileLock</b>.
 
 It is a programming error to call <b>FsRtlFreeFileLock</b> for a FILE_LOCK structure that has already been uninitialized by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock">FsRtlUninitializeFileLock</a>.
 
-Minifilters must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a> instead of <b>FsRtlFreeFileLock</b>. 
-
-
-
+Minifilters must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a> instead of <b>FsRtlFreeFileLock</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreefilelock">FltFreeFileLock</a>
 
@@ -131,7 +118,4 @@ Minifilters must call <a href="https://docs.microsoft.com/windows-hardware/drive
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializefilelock">FsRtlUninitializeFileLock</a>
- 
-
- 
 

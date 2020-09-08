@@ -8,9 +8,6 @@ ms.assetid: e242b62a-7a4f-491b-b1a7-3388cf9c5a40
 ms.date: 02/26/2018
 keywords: ["IWDFIoTargetStateManagement::Start"]
 ms.keywords: IWDFIoTargetStateManagement interface,Start method, IWDFIoTargetStateManagement.Start, IWDFIoTargetStateManagement::Start, Start, Start method, Start method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, umdf.iwdfiotargetstatemanagement_start, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start
-f1_keywords:
- - "wudfddi/IWDFIoTargetStateManagement.Start"
- - "IWDFIoTargetStateManagement.Start"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFIoTargetStateManagement.Start
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFIoTargetStateManagement::Start
+ - wudfddi/IWDFIoTargetStateManagement::Start
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFIoTargetStateManagement.Start
 ---
 
 # IWDFIoTargetStateManagement::Start
@@ -46,15 +46,11 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Start</b> method starts sending queued requests to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
-
 ## -returns
-
-
 
 <b>Start</b> returns S_OK if the operation succeeds. Otherwise, this method might return one of the error codes:
 
@@ -79,12 +75,7 @@ The device has been removed.
 
 This method might return one of the other error codes that Winerror.h defines.
 
-
-
-
 ## -remarks
-
-
 
 If your driver can detect recoverable device errors, you might want your driver to call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiotargetstatemanagement-stop">IWDFIoTargetStateManagement::Stop</a> to temporarily stop sending requests to the local I/O target, then later call <b>Start</b> to resume sending requests.
 
@@ -160,19 +151,11 @@ CMyDevice::OnD0Entry(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotargetstatemanagement">IWDFIoTargetStateManagement</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-stop">IWDFRemoteTarget::Stop</a>
- 
-
- 
 

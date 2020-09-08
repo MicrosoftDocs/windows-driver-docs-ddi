@@ -8,9 +8,6 @@ ms.assetid: 429A5DF5-46A6-4A41-A77B-4D5743C841DC
 ms.date: 04/20/2018
 keywords: ["SpoolerFindFirstPrinterChangeNotification function"]
 ms.keywords: SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices], print.spoolerfindfirstprinterchangenotification, winsplp/SpoolerFindFirstPrinterChangeNotification
-f1_keywords:
- - "winsplp/SpoolerFindFirstPrinterChangeNotification"
- - "SpoolerFindFirstPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsplp.h
-api_name:
-- SpoolerFindFirstPrinterChangeNotification
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SpoolerFindFirstPrinterChangeNotification
+ - winsplp/SpoolerFindFirstPrinterChangeNotification
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsplp.h
+api_name:
+ - SpoolerFindFirstPrinterChangeNotification
 ---
 
 # SpoolerFindFirstPrinterChangeNotification function
@@ -46,35 +46,33 @@ req.typenames:
 
 ## -description
 
-
-
-
-
 ## -parameters
 
+### -param hPrinter 
 
-
-
-### -param hPrinter [in]
-
+[in]
 
 ### -param fdwFilterFlags
 
-
 ### -param fdwOptions
 
+### -param pPrinterNotifyOptions 
 
-### -param pPrinterNotifyOptions [in]
+[in]
 
+### -param pvReserved 
 
-### -param pvReserved [in, optional]
+[in, optional]
 
+### -param pNotificationConfig 
 
-### -param pNotificationConfig [in]
+[in]
 
+### -param phNotify 
 
-### -param phNotify [out, optional]
+[out, optional]
 
+### -param phEvent 
 
-### -param phEvent [out, optional]
+[out, optional]
 

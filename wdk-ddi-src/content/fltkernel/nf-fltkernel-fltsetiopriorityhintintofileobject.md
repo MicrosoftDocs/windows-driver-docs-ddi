@@ -8,9 +8,6 @@ ms.assetid: 95a56ca3-e223-49ec-9151-bedb3f3597c3
 ms.date: 04/16/2018
 keywords: ["FltSetIoPriorityHintIntoFileObject function"]
 ms.keywords: FltApiRef_p_to_z_981cae2b-b29c-4890-a462-163031a668d3.xml, FltSetIoPriorityHintIntoFileObject, FltSetIoPriorityHintIntoFileObject routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoFileObject, ifsk.fltsetiopriorityhintintofileobject
-f1_keywords:
- - "fltkernel/FltSetIoPriorityHintIntoFileObject"
- - "FltSetIoPriorityHintIntoFileObject"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- fltmgr.sys
-api_name:
-- FltSetIoPriorityHintIntoFileObject
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltSetIoPriorityHintIntoFileObject
+ - fltkernel/FltSetIoPriorityHintIntoFileObject
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - fltmgr.sys
+api_name:
+ - FltSetIoPriorityHintIntoFileObject
 ---
 
 # FltSetIoPriorityHintIntoFileObject function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>FltSetIoPriorityHintIntoFileObject</b> routine is used by a minifilter driver to set the I/O priority information in a file object.
-
 
 ## -parameters
 
+### -param FileObject 
 
+[in]
+A pointer to the file object to modify. This parameter is required and cannot be <b>NULL</b>.
 
+### -param PriorityHint 
 
-### -param FileObject [in]
-
-A pointer to the file object to modify. This parameter is required and cannot be <b>NULL</b>. 
-
-
-### -param PriorityHint [in]
-
+[in]
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a> enumeration value to set for the file object pointed to by <i>FileObject</i>.
 
-
 ## -returns
-
-
 
 If the I/O priority value passed in the <i>PriorityHint</i> parameter is successfully applied to the <i>FileObject</i> structure, <b>FltSetIoPriorityHintIntoFileObject</b> returns STATUS_SUCCESS. Otherwise, it returns an appropriate NTSTATUS value, such as one of the following:
 
@@ -88,24 +81,12 @@ The value of the <i>PriorityHint</i> parameter is invalid. This is an error code
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This routine is NONPAGED and can be called from paging I/O paths.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
@@ -144,7 +125,4 @@ This routine is NONPAGED and can be called from paging I/O paths.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a>
- 
-
- 
 

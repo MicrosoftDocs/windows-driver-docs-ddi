@@ -8,9 +8,6 @@ ms.assetid: 86b09f5c-6527-447e-b383-b97d45a57ce7
 ms.date: 04/30/2018
 keywords: ["ProbeForRead function"]
 ms.keywords: ProbeForRead, ProbeForRead routine [Kernel-Mode Driver Architecture], k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, kernel.probeforread, wdm/ProbeForRead
-f1_keywords:
- - "wdm/ProbeForRead"
- - "ProbeForRead"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ProbeForRead
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ProbeForRead
+ - wdm/ProbeForRead
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ProbeForRead
 ---
 
 # ProbeForRead function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
-The <b>ProbeForRead</b> routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned. 
-
+The <b>ProbeForRead</b> routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned.
 
 ## -parameters
 
+### -param Address 
 
-
-
-### -param Address [in]
-
+[in]
 Specifies the beginning of the user-mode buffer.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies the length, in bytes, of the user-mode buffer.
 
+### -param Alignment 
 
-### -param Alignment [in]
-
+[in]
 Specifies the required alignment, in bytes, of the beginning of the user-mode buffer.
 
-
 ## -remarks
-
-
 
 If the specified range of memory is not within the user-mode address range, <b>ProbeForRead</b> raises the STATUS_ACCESS_VIOLATION exception. If the beginning of the address range is not aligned on the byte boundary that is specified by <i>Alignment</i>, <b>ProbeForRead</b> raises the STATUS_DATATYPE_MISALIGNMENT exception.
 
@@ -86,16 +79,7 @@ If <b>Irp->RequestorMode</b> = <b>KernelMode</b>, the <b>Irp->AssociatedIrp.Syst
 
 If <i>Length</i> = 0, <b>ProbeForRead</b> does no checking of the address. In this case, the routine does not raise an exception for an address that is misaligned or is outside the range of valid user addresses.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforwrite">ProbeForWrite</a>
- 
-
- 
 

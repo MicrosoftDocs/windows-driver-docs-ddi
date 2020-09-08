@@ -8,9 +8,6 @@ ms.assetid: F6F758AC-5C8C-4226-B906-972C5BCD7A3E
 ms.date: 05/03/2018
 keywords: ["SensorsCxDeviceInitialize function"]
 ms.keywords: SensorsCxDeviceInitialize, SensorsCxDeviceInitialize function [Sensor Devices], sensors.sensorscxdeviceinitialize, sensorscx/SensorsCxDeviceInitialize
-f1_keywords:
- - "sensorscx/SensorsCxDeviceInitialize"
- - "SensorsCxDeviceInitialize"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SensorsCx.h
-api_name:
-- SensorsCxDeviceInitialize
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - SensorsCxDeviceInitialize
+ - sensorscx/SensorsCxDeviceInitialize
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SensorsCx.h
+api_name:
+ - SensorsCxDeviceInitialize
 ---
 
 # SensorsCxDeviceInitialize function
@@ -46,41 +46,25 @@ req.typenames:
 
 ## -description
 
-
 This function initializes the sensor in the class extension.
-
 
 ## -parameters
 
+### -param FxDevice 
 
-
-
-### -param FxDevice [in]
-
+[in]
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
+### -param pSensorConfig 
 
-### -param pSensorConfig [in]
-
+[in]
 A list of functions that the driver implements. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a>.
-
 
 ## -returns
 
-
-
 This function returns STATUS_SUCCESS when completed successfully. When an invalid parameter is supplied or this function fails, STATUS_INVALID_PARAMETER is returned. Other NTSTATUS values can also be returned.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a>
- 
-
- 
 

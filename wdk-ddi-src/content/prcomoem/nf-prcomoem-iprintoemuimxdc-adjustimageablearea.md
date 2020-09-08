@@ -8,9 +8,6 @@ ms.assetid: a698fcb9-1285-4201-9b49-e79dcda66043
 ms.date: 04/20/2018
 keywords: ["IPrintOemUIMXDC::AdjustImageableArea"]
 ms.keywords: AdjustImageableArea, AdjustImageableArea method [Print Devices], AdjustImageableArea method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustImageableArea method, IPrintOemUIMXDC.AdjustImageableArea, IPrintOemUIMXDC::AdjustImageableArea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
-f1_keywords:
- - "prcomoem/IPrintOemUIMXDC.AdjustImageableArea"
- - "IPrintOemUIMXDC.AdjustImageableArea"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prcomoem.h
-api_name:
-- IPrintOemUIMXDC.AdjustImageableArea
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IPrintOemUIMXDC::AdjustImageableArea
+ - prcomoem/IPrintOemUIMXDC::AdjustImageableArea
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prcomoem.h
+api_name:
+ - IPrintOemUIMXDC.AdjustImageableArea
 ---
 
 # IPrintOemUIMXDC::AdjustImageableArea
@@ -46,76 +46,49 @@ req.typenames:
 
 ## -description
 
-
 The <code>IPrintOemUIMXDC::AdjustImageableArea</code> method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of the printable area, including orientation and direction of rotation.
 
-
 ## -parameters
-
-
-
 
 ### -param hPrinter
 
 A handle to the printer that is currently being queried.
 
-
 ### -param cbDevMode
 
-The size of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODE</a> structure, in bytes, including appended data.
-
+The size of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure, in bytes, including appended data.
 
 ### -param pDevMode
 
 A pointer to the DEVMODE structure that contains the current device settings.
 
-
 ### -param cbOEMDM
 
 The number of bytes in the vendor-provided section of the DEVMODE structure.
-
 
 ### -param pOEMDM
 
 A pointer to the data that is contained in the vendor portion of the DEVMODE structure that <i>pDevMode</i> points to.
 
-
 ### -param prclImageableArea
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that contains the printable area. This parameter is populated by UnidrvUI.dll or PS5UI.dll with data from the corresponding GPD or PPD, before the parameter is passed to the plug-in. The plug-in can then update this data before returning. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that contains the printable area. This parameter is populated by UnidrvUI.dll or PS5UI.dll with data from the corresponding GPD or PPD, before the parameter is passed to the plug-in. The plug-in can then update this data before returning.
 
 ## -returns
 
-
-
 <code>AdjustImageableArea</code> returns S_OK if this method succeeds. Otherwise, this method should return E_NOTIMPL if the plug-in does not support the method, or any appropriate failure value if the plug-in cannot complete the operation. For more information, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 The <i>prclImageableArea</i> parameter is IN OUT. All other parameters for this method are input only.
 
 If the plug-in cannot complete the operation, it should return an appropriate failure HRESULT value, which willcause the current print job to fail.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuimxdc">IPrintOemUIMXDC</a>
 
 
 
 <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
- 
-
- 
 

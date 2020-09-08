@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/pfnFlush1"
- - "pfnFlush1"
+ - PFND3DDDI_FLUSH1
+ - d3dumddi/PFND3DDDI_FLUSH1
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_FLUSH1 callback function
+
 
 ## -description
 

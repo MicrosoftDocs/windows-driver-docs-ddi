@@ -6,37 +6,36 @@ tech.root: netvista
 ms.assetid: bde251f3-a9b1-4f9f-b7ff-4a7ac71be99d
 ms.date: 04/17/2018
 keywords: ["NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro"]
-f1_keywords:
- - "ndis/NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE"
- - "NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE"
 ms.keywords: NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
 req.header: ndis.h
-req.include-header:
+req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- ndis.h
-api_name: 
-- NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
 targetos: Windows
-
+f1_keywords:
+ - NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
+ - ndis/NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ndis.h
+api_name:
+ - NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
 ---
 
 # NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro
@@ -65,3 +64,4 @@ A GUID that matches the extension ID.
 [*GetNetBufferListSwitchContext*](nc-ndis-ndis_switch_get_net_buffer_list_switch_context.md)
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
+

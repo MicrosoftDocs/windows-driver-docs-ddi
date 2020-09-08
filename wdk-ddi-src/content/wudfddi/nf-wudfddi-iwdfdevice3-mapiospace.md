@@ -8,9 +8,6 @@ ms.assetid: 243C7299-7C74-408A-8FB9-32FB3315251F
 ms.date: 02/26/2018
 keywords: ["IWDFDevice3::MapIoSpace"]
 ms.keywords: IWDFDevice3 interface,MapIoSpace method, IWDFDevice3.MapIoSpace, IWDFDevice3::\_MapIoSpace, IWDFDevice3::MapIoSpace, MapIoSpace, MapIoSpace method, MapIoSpace method,IWDFDevice3 interface, umdf.iwdfdevice3_mapiospace, wdf.iwdfdevice3_mapiospace, wudfddi/IWDFDevice3::\_MapIoSpace
-f1_keywords:
- - "wudfddi/IWDFDevice3.MapIoSpace"
- - "IWDFDevice3.MapIoSpace"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WUDFx.dll
-api_name:
-- IWDFDevice3.MapIoSpace
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IWDFDevice3::MapIoSpace
+ - wudfddi/IWDFDevice3::MapIoSpace
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WUDFx.dll
+api_name:
+ - IWDFDevice3.MapIoSpace
 ---
 
 # IWDFDevice3::MapIoSpace
@@ -46,49 +46,37 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>MapIoSpace</b> method maps the given physical address range to system address space and returns a pseudo base address. 
-
+The <b>MapIoSpace</b> method maps the given physical address range to system address space and returns a pseudo base address.
 
 ## -parameters
 
+### -param PhysicalAddress 
 
-
-
-### -param PhysicalAddress [in]
-
+[in]
 Specifies the starting 64-bit physical address of the I/O range to be mapped.
 
+### -param NumberOfBytes 
 
-### -param NumberOfBytes [in]
-
+[in]
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
+### -param CacheType 
 
-### -param CacheType [in]
-
+[in]
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wudfwdm.h.
 
+### -param pPseudoBaseAddress 
 
-### -param pPseudoBaseAddress [out]
-
+[out]
 The address of a location that receives a pointer to the pseudo base address.
-
 
 ## -returns
 
-
-
 The method returns S_OK if the operation succeeds. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 A driver must call this method during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MapIoSpace</b> maps the physical address returned in the resource list to a framework-managed address referred to as the pseudo base address.
 
@@ -210,15 +198,7 @@ CMyDevice::OnReleaseHardware(
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
- 
-
- 
 

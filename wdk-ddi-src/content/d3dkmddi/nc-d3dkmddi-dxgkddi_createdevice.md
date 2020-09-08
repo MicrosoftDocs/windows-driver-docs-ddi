@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/DxgkDdiCreateDevice"
- - "DxgkDdiCreateDevice"
+ - DXGKDDI_CREATEDEVICE
+ - d3dkmddi/DXGKDDI_CREATEDEVICE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_CREATEDEVICE callback function
+
 
 ## -description
 

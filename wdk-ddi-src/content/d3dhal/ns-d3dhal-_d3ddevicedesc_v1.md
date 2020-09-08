@@ -8,9 +8,6 @@ ms.assetid: 363e4044-e835-43e6-96ce-0fdccdd7fb52
 ms.date: 05/10/2018
 keywords: ["D3DDeviceDesc_V1 structure"]
 ms.keywords: "*LPD3DDEVICEDESC_V1, D3DDEVICEDESC_V1, D3DDEVICEDESC_V1 structure [Display Devices], LPD3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1 structure pointer [Display Devices], _D3DDeviceDesc_V1, d3dhal/D3DDEVICEDESC_V1, d3dhal/LPD3DDEVICEDESC_V1, d3dstrct_111d5153-fb7f-4c2b-acc5-65818723e263.xml, display.d3ddevicedesc_v1"
-f1_keywords:
- - "d3dhal/D3DDEVICEDESC_V1"
- - "D3DDEVICEDESC_V1"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dhal.h
-api_name:
-- D3DDEVICEDESC_V1
 targetos: Windows
 req.typenames: D3DDEVICEDESC_V1, *LPD3DDEVICEDESC_V1
+f1_keywords:
+ - _D3DDeviceDesc_V1
+ - d3dhal/_D3DDeviceDesc_V1
+ - LPD3DDEVICEDESC_V1
+ - d3dhal/LPD3DDEVICEDESC_V1
+ - D3DDEVICEDESC_V1
+ - d3dhal/D3DDEVICEDESC_V1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dhal.h
+api_name:
+ - D3DDEVICEDESC_V1
 ---
 
 # _D3DDeviceDesc_V1 structure
@@ -46,23 +50,16 @@ req.typenames: D3DDEVICEDESC_V1, *LPD3DDEVICEDESC_V1
 
 ## -description
 
-
-
    Obsolete in DirectX 8.0 and later versions; see Remarks.
    
 
 The D3DDEVICEDESC_V1 structure describes the 3D capabilities of a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size in bytes of this D3DDEVICEDESC_V1 structure.
-
 
 ### -field dwFlags
 
@@ -80,15 +77,11 @@ Identifies the members of this structure that contain valid data. This member ca
 | D3DDD_MAXBUFFERSIZE | The dwMaxBufferSize member contains valid data. | 
 | D3DDD_MAXVERTEXCOUNT | The dwMaxVertexCount member contains valid data. | 
 | D3DDD_TRANSFORMCAPS | The dtcTransformCaps member contains valid data. | 
-| D3DDD_TRICAPS | The dpcTriCaps member contains valid data. | 
-
- 
-
+| D3DDD_TRICAPS | The dpcTriCaps member contains valid data. |
 
 ### -field dcmColorModel
 
-Specifies the device's color model. 
-
+Specifies the device's color model.
 
 ### -field dwDevCaps
 
@@ -114,65 +107,47 @@ Identifies the capabilities of the device. This member can be a bitwise OR of an
 | D3DDEVCAPS_TLVERTEXSYSTEMMEMORY | The device can use buffers from system memory for transformed and lit vertices. This flag is obsolete but must be set by the driver. | 
 | D3DDEVCAPS_TLVERTEXVIDEOMEMORY | The device can use buffers from display memory for transformed and lit vertices. This flag is obsolete and must not be set by the driver. | 
 | D3DDEVCAPS_TEXTURESYSTEMMEMORY | The device can retrieve textures from system memory. | 
-| D3DDEVCAPS_TEXTUREVIDEOMEMORY | The device can retrieve textures from device memory. | 
-
- 
-
+| D3DDEVCAPS_TEXTUREVIDEOMEMORY | The device can retrieve textures from device memory. |
 
 ### -field dtcTransformCaps
 
 Specifies a D3DTRANSFORMCAPS structure that specifies the transformation capabilities of the device. The driver must set the <b>dwCaps</b> member of that structure to zero.
 
-
 ### -field bClipping
 
-Set to <b>TRUE</b> by the driver if the device can perform 3D clipping. 
-
+Set to <b>TRUE</b> by the driver if the device can perform 3D clipping.
 
 ### -field dlcLightingCaps
 
 Specifies the lighting capabilities of the device. This is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dlightingcaps">D3DLIGHTINGCAPS</a> structure. The driver must set the <b>dwCaps</b>, <b>dwLightingModel</b>, and <b>dwNumLights</b> members of that structure to zero.
 
-
 ### -field dpcLineCaps
 
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for line primitives.
-
 
 ### -field dpcTriCaps
 
 Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for triangle primitives.
 
-
 ### -field dwDeviceRenderBitDepth
 
-Specifies the device's rendering bit-depth. This member can be a bitwise OR of the following DirectDraw bit-depth constants: DDBD_8, DDBD_16, DDBD_24, or DDBD_32. 
-
+Specifies the device's rendering bit-depth. This member can be a bitwise OR of the following DirectDraw bit-depth constants: DDBD_8, DDBD_16, DDBD_24, or DDBD_32.
 
 ### -field dwDeviceZBufferBitDepth
 
 Specifies the device's z-buffer bit-depth. This member can be a bitwise OR of the following DirectDraw bit-depth constants: DDBD_8, DDBD_16, DDBD_24, or DDBD_32.
 
-
 ### -field dwMaxBufferSize
 
 Must be set to zero.
 
-
 ### -field dwMaxVertexCount
-
-
 
 DirectX 7 and later versions
 
 DirectX 6
 
- 
-
-
 ## -remarks
-
-
 
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for legacy runtime (DirectX 7.0 and earlier) compatibility. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/reporting-directx-8-0-style-direct3d-capabilities">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
@@ -180,13 +155,7 @@ The driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-w
 
 The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (documented in the Microsoft Windows SDK documentation) from the information returned in the D3DDEVICEDESC_V1 structure and the extended capabilities queried through the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function. While some of the <b>dwDevCaps</b> flags are obsolete at the driver level, the driver must set them appropriately in order for applications to work correctly.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_globaldriverdata">D3DHAL_GLOBALDRIVERDATA</a>
 
@@ -213,7 +182,4 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
- 
-
- 
 

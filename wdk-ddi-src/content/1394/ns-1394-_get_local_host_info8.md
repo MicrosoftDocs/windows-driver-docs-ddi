@@ -8,9 +8,6 @@ ms.assetid: DA30F8BA-B920-458E-B7C7-8D7B7081507A
 ms.date: 02/15/2018
 keywords: ["GET_LOCAL_HOST_INFO8 structure"]
 ms.keywords: "*PGET_LOCAL_HOST_INFO8, 1394/GET_LOCAL_HOST_INFO8, 1394/PGET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8 structure [Buses], IEEE.get_local_host_info8, PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8 structure pointer [Buses], _GET_LOCAL_HOST_INFO8"
-f1_keywords:
- - "1394/GET_LOCAL_HOST_INFO8"
- - "GET_LOCAL_HOST_INFO8"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- 1394.h
-api_name:
-- GET_LOCAL_HOST_INFO8
 targetos: Windows
 req.typenames: GET_LOCAL_HOST_INFO8, *PGET_LOCAL_HOST_INFO8
+f1_keywords:
+ - _GET_LOCAL_HOST_INFO8
+ - 1394/_GET_LOCAL_HOST_INFO8
+ - PGET_LOCAL_HOST_INFO8
+ - 1394/PGET_LOCAL_HOST_INFO8
+ - GET_LOCAL_HOST_INFO8
+ - 1394/GET_LOCAL_HOST_INFO8
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - 1394.h
+api_name:
+ - GET_LOCAL_HOST_INFO8
 ---
 
 # _GET_LOCAL_HOST_INFO8 structure
@@ -46,28 +50,19 @@ req.typenames: GET_LOCAL_HOST_INFO8, *PGET_LOCAL_HOST_INFO8
 
 ## -description
 
-
 The <b>GET_LOCAL_HOST_INFO8</b> structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request with <b>u.GetLocalHostInformation.nLevel</b> set to GET_HOST_DDI_VERSION.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MajorVersion
 
 The major version of the 1394 bus driver interface.
 
-
 ### -field MinorVersion
 
 The minor version of the 1394 bus driver interface.
 
-
 ## -remarks
-
-
 
 A client driver can determine whether the 1394 bus driver
 loaded in the IEEE 1394 driver stack is the new 1394 bus driver or the legacy
@@ -99,5 +94,4 @@ successful completion, the new 1394 bus driver (1394ohci.sys bus driver)sets the
 </ul>
 </li>
 </ol>
-
 

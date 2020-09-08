@@ -8,9 +8,6 @@ ms.assetid: ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f
 ms.date: 05/02/2018
 keywords: ["MINIPORT_PNP_IRP callback function"]
 ms.keywords: "(*MINIPORT_PNP_IRP_HANDLER), (*MINIPORT_PNP_IRP_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_PNP_IRP, MINIPORT_PNP_IRP callback, MiniportPnpIrp, MiniportPnpIrp callback function [Network Drivers Starting with Windows Vista], ndis/MiniportPnpIrp, ndis_msix_ref_421866fc-9921-4101-87b5-3d48e064f855.xml, netvista.miniportstartdevice"
-f1_keywords:
- - "ndis/(*MINIPORT_PNP_IRP_HANDLER)"
- - "(*MINIPORT_PNP_IRP_HANDLER)"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,24 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- (*MINIPORT_PNP_IRP_HANDLER)
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - MINIPORT_PNP_IRP
+ - ndis/MINIPORT_PNP_IRP
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - (*MINIPORT_PNP_IRP_HANDLER)
 ---
 
 # MINIPORT_PNP_IRP callback function
 
 
 ## -description
-
 
 The <i>MiniportPnpIrp</i> function enables a miniport driver to optionally manage its Plug and Play (PnP) resources. <i>
    MiniportPnpIrp</i> itself is never defined by miniport drivers directly. Instead, it is defined either as <i>
@@ -61,17 +60,15 @@ The <i>MiniportPnpIrp</i> function enables a miniport driver to optionally manag
 
 ## -parameters
 
+### -param MiniportAddDeviceContext 
 
-
-
-### -param MiniportAddDeviceContext [in]
-
+[in]
 A handle for a driver-allocated context area that the miniport driver registered with NDIS in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
 
+### -param Irp 
 
-### -param Irp [in]
-
+[in]
 If this function is defined as <i>
    MiniportFilterResourceRequirements</i>, this parameter is a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
      IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> for the driver to handle.
@@ -79,10 +76,7 @@ If this function is defined as <i>
 If this function is defined as <i>MiniportStartDevice</i>, this parameter is a pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> IRP.
 
-
 ## -returns
-
-
 
 <i>MiniportPnpIrp</i> returns one of the following values:
 
@@ -126,14 +120,8 @@ The miniport driver could not handle the start device request because of low res
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="MiniportFilterResourceRequirements_Remarks"></a><a id="miniportfilterresourcerequirements_remarks"></a><a id="MINIPORTFILTERRESOURCEREQUIREMENTS_REMARKS"></a>MiniportFilterResourceRequirements Remarks</h3>
 The 
@@ -325,15 +313,9 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_START_DEVICE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_START_DEVICE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
-
-
-
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
 
@@ -388,7 +370,4 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismconfigmsixtableentry">NdisMConfigMSIXTableEntry</a>
- 
-
- 
 

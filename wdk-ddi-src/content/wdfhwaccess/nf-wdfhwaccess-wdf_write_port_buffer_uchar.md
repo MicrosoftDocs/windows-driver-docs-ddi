@@ -8,9 +8,6 @@ ms.assetid: 744189F3-07D1-42F2-986C-70BEBE760123
 ms.date: 02/26/2018
 keywords: ["WDF_WRITE_PORT_BUFFER_UCHAR function"]
 ms.keywords: WDF_WRITE_PORT_BUFFER_UCHAR, WDF_WRITE_PORT_BUFFER_UCHAR function, wdf.wdf_write_port_buffer_uchar, wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR
-f1_keywords:
- - "wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR"
- - "WDF_WRITE_PORT_BUFFER_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdfhwaccess.h
-api_name:
-- WDF_WRITE_PORT_BUFFER_UCHAR
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WDF_WRITE_PORT_BUFFER_UCHAR
+ - wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdfhwaccess.h
+api_name:
+ - WDF_WRITE_PORT_BUFFER_UCHAR
 ---
 
 # WDF_WRITE_PORT_BUFFER_UCHAR function
@@ -46,44 +46,33 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to UMDF only]</p>
 
 The <b>WDF_WRITE_PORT_BUFFER_UCHAR</b> function writes a number of bytes from a buffer to the specified port.
 
-
-
 ## -parameters
 
+### -param Device 
 
-
-
-### -param Device [in]
-
+[in]
 A handle to a framework device object.
 
+### -param Port 
 
-### -param Port [in]
-
+[in]
 A pointer to the port, which must be a mapped memory range in I/O space.
 
+### -param Buffer 
 
-
-### -param Buffer [in]
-
+[in]
 A pointer to a buffer from which an array of UCHAR values is to be written.
 
+### -param Count 
 
-### -param Count [in]
-
+[in]
 Specifies the number of bytes to be written to the buffer.
-
 
 ## -remarks
 
-
-
 The size of the buffer must be large enough to contain at least the specified number of bytes.
-
-
 

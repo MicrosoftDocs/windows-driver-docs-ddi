@@ -8,9 +8,6 @@ ms.assetid: d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19
 ms.date: 05/02/2018
 keywords: ["NdisIfRegisterInterface function"]
 ms.keywords: NdisIfRegisterInterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, netvista.ndisifregisterinterface
-f1_keywords:
- - "ndis/NdisIfRegisterInterface"
- - "NdisIfRegisterInterface"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ndis.lib
-- ndis.dll
-api_name:
-- NdisIfRegisterInterface
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NdisIfRegisterInterface
+ - ndis/NdisIfRegisterInterface
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ndis.lib
+ - ndis.dll
+api_name:
+ - NdisIfRegisterInterface
 ---
 
 # NdisIfRegisterInterface function
@@ -47,26 +47,22 @@ req.typenames:
 
 ## -description
 
-
 The 
   <b>NdisIfRegisterInterface</b> function registers an NDIS network interface.
 
-
 ## -parameters
 
+### -param NdisProviderHandle 
 
-
-
-### -param NdisProviderHandle [in]
-
+[in]
 A handle that identifies the network interface provider that is registering the interface. The
      caller obtained this handle from a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
      NdisIfRegisterProvider</a> function.
 
+### -param NetLuid 
 
-### -param NetLuid [in]
-
+[in]
 The caller-supplied 
      <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
      interface. The interface provider used the 
@@ -75,21 +71,20 @@ The caller-supplied
      the computer restarts and provide the same NET_LUID value each time it registers a particular
      interface.
 
+### -param ProviderIfContext 
 
-### -param ProviderIfContext [in]
-
+[in]
 A handle to a caller-allocated context area that is associated with the interface. NDIS passes
      this handle to the callback functions that the caller registered with 
      <b>NdisIfRegisterProvider</b>.
 
+### -param pIfInfo 
 
-### -param pIfInfo [in]
-
+[in]
 A pointer to a caller-allocated 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a> structure that
      provides information about the interface. This structure contains information that remains constant
      while the interface exists.
-
 
 ### -param pfIndex
 
@@ -100,10 +95,7 @@ A pointer to a caller-supplied interface index variable. If NDIS successfully re
      value . The interface index value zero is reserved, and NDIS does not assign it to any interface. Do not
      confuse the interface index with a NET_LUID index.
 
-
 ## -returns
-
-
 
 <b>NdisIfRegisterInterface</b> returns one of the following status values:
 
@@ -159,14 +151,8 @@ The operation failed because of insufficient resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 NDIS interface providers call the 
     <b>NdisIfRegisterInterface</b> function to register a network interface. A call to this function does not
@@ -206,13 +192,7 @@ To indicate that an interface should be removed from the list of known interface
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">
     NdisIfDeregisterInterface</a> function, for example, because the interface has been uninstalled. .
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-make-net-luid">NDIS_MAKE_NET_LUID</a>
 
@@ -235,7 +215,4 @@ To indicate that an interface should be removed from the list of known interface
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
- 
-
- 
 

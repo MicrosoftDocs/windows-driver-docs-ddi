@@ -8,9 +8,6 @@ ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
 ms.date: 03/29/2018
 keywords: ["AtaPortInitializeEx function"]
 ms.keywords: AtaPortInitializeEx, AtaPortInitializeEx routine [Storage Devices], atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, irb/AtaPortInitializeEx, storage.ataportinitializeex
-f1_keywords:
- - "irb/AtaPortInitializeEx"
- - "AtaPortInitializeEx"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Pciidex.lib
-- Pciidex.dll
-api_name:
-- AtaPortInitializeEx
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - AtaPortInitializeEx
+ - irb/AtaPortInitializeEx
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Pciidex.lib
+ - Pciidex.dll
+api_name:
+ - AtaPortInitializeEx
 ---
 
 # AtaPortInitializeEx function
@@ -47,42 +47,31 @@ req.typenames:
 
 ## -description
 
-
 The <b>AtaPortInitializeEx</b> ATA port driver library routine initializes the port and miniport drivers.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param DriverObject 
 
-
-
-### -param DriverObject [in]
-
+[in]
 A pointer to the miniport driver object.
 
+### -param RegistryPath 
 
-### -param RegistryPath [in]
-
+[in]
 Contains a Unicode string that indicates the location in the registry where the miniport driver configuration information is stored.
 
+### -param ControllerInterface 
 
-### -param ControllerInterface [in]
-
+[in]
 Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChannelInitRoutine</i></b>, <b><i>AtaControllerChannelEnabled</i></b>, and <b><i>AtaControllerTransferModeSelect</i></b> routines.
-
 
 ## -returns
 
-
-
-<b>AtaPortInitializeEx</b> returns STATUS_SUCCESS if the operation succeeds.  Otherwise, it returns an error code. 
-
-
-
+<b>AtaPortInitializeEx</b> returns STATUS_SUCCESS if the operation succeeds.  Otherwise, it returns an error code.
 
 ## -remarks
-
-
 
 The <b>AtaPortInitializeEx</b> routine initializes key data structures that are used by the port and miniport drivers. It also starts the initialization of the controller's channels. The following sequence describes the principal actions taken by this routine:
 
@@ -112,12 +101,7 @@ After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/n
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a>
 
@@ -132,7 +116,4 @@ After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/n
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a>
- 
-
- 
 

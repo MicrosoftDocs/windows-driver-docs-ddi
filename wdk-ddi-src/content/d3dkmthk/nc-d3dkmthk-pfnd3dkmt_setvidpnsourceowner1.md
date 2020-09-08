@@ -7,9 +7,6 @@ ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
 ms.date: 05/10/2018
 keywords: ["PFND3DKMT_SETVIDPNSOURCEOWNER1 callback function"]
 ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, PFND3DKMT_SETVIDPNSOURCEOWNER1 callback, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
-f1_keywords:
- - "d3dkmthk/D3DKMTSetVidPnSourceOwner1"
- - "D3DKMTSetVidPnSourceOwner1"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -27,21 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmthk.h
-api_name:
-- D3DKMTSetVidPnSourceOwner1
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - PFND3DKMT_SETVIDPNSOURCEOWNER1
+ - d3dkmthk/PFND3DKMT_SETVIDPNSOURCEOWNER1
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmthk.h
+api_name:
+ - D3DKMTSetVidPnSourceOwner1
 ---
 
 # PFND3DKMT_SETVIDPNSOURCEOWNER1 callback function
+
 
 ## -description
 
@@ -72,7 +73,4 @@ This function might also return other NTSTATUS values.
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner1">D3DKMT_SETVIDPNSOURCEOWNER1</a>
- 
-
- 
 

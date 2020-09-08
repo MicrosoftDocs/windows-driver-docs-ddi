@@ -5,38 +5,41 @@ description: Contains the display adapter performance data.
 ms.assetid: 2c419e37-47ba-4b85-9994-2b3a5769c903
 ms.date: 10/19/2018
 keywords: ["DXGK_ADAPTER_PERFDATA structure"]
-f1_keywords:
- - "d3dkmdt/_DXGK_ADAPTER_PERFDATA"
- - "_DXGK_ADAPTER_PERFDATA"
 ms.keywords: _DXGK_ADAPTER_PERFDATA, DXGK_ADAPTER_PERFDATA,
 req.header: d3dkmdt.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: DXGK_ADAPTER_PERFDATA
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmdt.h
-api_name:
-- _DXGK_ADAPTER_PERFDATA
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - _DXGK_ADAPTER_PERFDATA
+ - d3dkmdt/_DXGK_ADAPTER_PERFDATA
+ - DXGK_ADAPTER_PERFDATA
+ - d3dkmdt/DXGK_ADAPTER_PERFDATA
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmdt.h
+api_name:
+ - _DXGK_ADAPTER_PERFDATA
+product:
+ - Windows
 ---
 
 # _DXGK_ADAPTER_PERFDATA structure
+
 
 ## -description
 

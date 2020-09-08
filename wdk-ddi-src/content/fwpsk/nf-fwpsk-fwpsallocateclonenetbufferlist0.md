@@ -8,9 +8,6 @@ ms.assetid: 72759748-fac6-45b9-9a81-ab71e6e7c3ef
 ms.date: 05/02/2018
 keywords: ["FwpsAllocateCloneNetBufferList0 function"]
 ms.keywords: FwpsAllocateCloneNetBufferList0, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateCloneNetBufferList0, netvista.fwpsallocateclonenetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml
-f1_keywords:
- - "fwpsk/FwpsAllocateCloneNetBufferList0"
- - "FwpsAllocateCloneNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
@@ -28,25 +25,27 @@ req.type-library:
 req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- fwpkclnt.lib
-- fwpkclnt.dll
-api_name:
-- FwpsAllocateCloneNetBufferList0
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FwpsAllocateCloneNetBufferList0
+ - fwpsk/FwpsAllocateCloneNetBufferList0
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - fwpkclnt.lib
+ - fwpkclnt.dll
+api_name:
+ - FwpsAllocateCloneNetBufferList0
 ---
 
 # FwpsAllocateCloneNetBufferList0 function
 
 
 ## -description
-
 
 The 
   <b>FwpsAllocateCloneNetBufferList0</b> function allocates a 
@@ -56,48 +55,43 @@ The
 
 ## -parameters
 
+### -param originalNetBufferList 
 
-
-
-### -param originalNetBufferList [in, out]
-
+[in, out]
 A pointer to the original 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is being
      cloned.
 
+### -param netBufferListPoolHandle 
 
-### -param netBufferListPoolHandle [in, optional]
-
+[in, optional]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
+### -param netBufferPoolHandle 
 
-### -param netBufferPoolHandle [in, optional]
-
+[in, optional]
 A 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> pool handle that was obtained from a
      previous call to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferpool">NdisAllocateNetBufferPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
+### -param allocateCloneFlags 
 
-### -param allocateCloneFlags [in]
-
+[in]
 There are currently no flags defined for this function. Callout drivers should set this parameter
      to zero.
 
+### -param netBufferList 
 
-### -param netBufferList [out]
-
+[out]
 A pointer to a variable that receives a pointer to the clone 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
-
 ## -returns
-
-
 
 The 
      <b>FwpsAllocateCloneNetBufferList0</b> function returns one of the following NTSTATUS codes.
@@ -132,14 +126,8 @@ An error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A callout driver calls the 
     <b>FwpsAllocateCloneNetBufferList0</b> function to allocate a clone 
@@ -198,13 +186,7 @@ If the callout driver needs to wait for a potentially lengthy operation, it make
 
 Callout drivers should always return held packets as quickly as possible.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a>
 
@@ -232,7 +214,4 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
- 
-
- 
 

@@ -8,9 +8,6 @@ ms.assetid: AC316591-CCF9-4040-B1A3-29AB2033B673
 ms.date: 05/03/2018
 keywords: ["IDebugControl5::GetBreakpointByGuid"]
 ms.keywords: GetBreakpointByGuid, GetBreakpointByGuid method [Windows Debugging], GetBreakpointByGuid method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetBreakpointByGuid method, IDebugControl5.GetBreakpointByGuid, IDebugControl5::GetBreakpointByGuid, dbgeng/IDebugControl5::GetBreakpointByGuid, debugger.idebugcontrol5_getbreakpointbyguid
-f1_keywords:
- - "dbgeng/IDebugControl5.GetBreakpointByGuid"
- - "IDebugControl5.GetBreakpointByGuid"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugControl5.GetBreakpointByGuid
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugControl5::GetBreakpointByGuid
+ - dbgeng/IDebugControl5::GetBreakpointByGuid
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugControl5.GetBreakpointByGuid
 ---
 
 # IDebugControl5::GetBreakpointByGuid
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The GetBreakpointByGuid method returns the breakpoint with the specified breakpoint GUID.
-
 
 ## -parameters
 
+### -param Guid 
 
-
-
-### -param Guid [in]
-
+[in]
 Specifies the breakpoint GUID of the breakpoint to return.
 
+### -param Bp 
 
-### -param Bp [out]
-
+[out]
 Receives the breakpoint.
 
-
 ## -returns
-
-
 
 This method can also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -99,22 +92,12 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>
- 
-
- 
 

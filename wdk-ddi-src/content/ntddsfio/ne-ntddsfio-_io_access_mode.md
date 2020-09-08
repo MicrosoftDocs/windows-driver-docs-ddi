@@ -8,9 +8,6 @@ ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.date: 04/30/2018
 keywords: ["IO_ACCESS_MODE enumeration"]
 ms.keywords: IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], RandomAccess, SequentialAccess, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess
-f1_keywords:
- - "ntddsfio/IO_ACCESS_MODE"
- - "IO_ACCESS_MODE"
 req.header: ntddsfio.h
 req.include-header: Wdm.h, Ntddsfio.h
 req.target-type: Windows
@@ -28,37 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wdm.h
-api_name:
-- IO_ACCESS_MODE
 targetos: Windows
 req.typenames: IO_ACCESS_MODE
+f1_keywords:
+ - _IO_ACCESS_MODE
+ - ntddsfio/_IO_ACCESS_MODE
+ - IO_ACCESS_MODE
+ - ntddsfio/IO_ACCESS_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wdm.h
+api_name:
+ - IO_ACCESS_MODE
 ---
 
-# _IO_ACCESS_MODE enumeration
+# _IO_ACCESS_MODE enumeration (ntddsfio.h)
 
 
 ## -description
 
-
 Defines the types of access mode for Scheduled File I/O (SFIO).
 
-
 ## -enum-fields
-
-
-
 
 ### -field SequentialAccess
 
 Indicates that the input/output will be sent down in a sequential order.
-
 
 ### -field RandomAccess
 

@@ -8,9 +8,6 @@ ms.assetid: 247d2694-f43f-4c30-9831-7110a1f29935
 ms.date: 04/16/2018
 keywords: ["RtlInitCodePageTable function"]
 ms.keywords: RtlInitCodePageTable, RtlInitCodePageTable function [Installable File System Drivers], ifsk.rtlinitcodepagetable, ntifs/RtlInitCodePageTable, rtlref_e8e23ed7-9655-4aba-a5fa-3096995aafd9.xml
-f1_keywords:
- - "ntifs/RtlInitCodePageTable"
- - "RtlInitCodePageTable"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntifs.h
-api_name:
-- RtlInitCodePageTable
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInitCodePageTable
+ - ntifs/RtlInitCodePageTable
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntifs.h
+api_name:
+ - RtlInitCodePageTable
 ---
 
 # RtlInitCodePageTable function
@@ -46,25 +46,15 @@ req.typenames:
 
 ## -description
 
-
-The <b>RtlInitCodePageTable</b> routine is reserved for system use. 
-
+The <b>RtlInitCodePageTable</b> routine is reserved for system use.
 
 ## -parameters
-
-
-
 
 ### -param TableBase
 
 <p>Reserved.</p>
 
-
 ### -param CodePageTable
 
 Reserved.
-
-
-
-
 

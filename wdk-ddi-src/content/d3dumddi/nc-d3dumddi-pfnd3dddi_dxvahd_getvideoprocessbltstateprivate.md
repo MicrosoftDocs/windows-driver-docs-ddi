@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/GetVideoProcessBltStatePrivate"
- - "GetVideoProcessBltStatePrivate"
+ - PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
+ - d3dumddi/PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE callback function
+
 
 ## -description
 

@@ -8,9 +8,6 @@ ms.assetid: c4ed9551-3dc8-4f76-9bcb-26030f76c244
 ms.date: 03/29/2018
 keywords: ["ScsiPortMoveMemory function"]
 ms.keywords: ScsiPortMoveMemory, ScsiPortMoveMemory routine [Storage Devices], scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, srb/ScsiPortMoveMemory, storage.scsiportmovememory
-f1_keywords:
- - "srb/ScsiPortMoveMemory"
- - "ScsiPortMoveMemory"
 req.header: srb.h
 req.include-header: 
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- storport.lib
-- storport.dll
-api_name:
-- ScsiPortMoveMemory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ScsiPortMoveMemory
+ - srb/ScsiPortMoveMemory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - storport.lib
+ - storport.dll
+api_name:
+ - ScsiPortMoveMemory
 ---
 
 # ScsiPortMoveMemory function
@@ -47,48 +47,35 @@ req.typenames:
 
 ## -description
 
-
 The <b>ScsiPortMoveMemory</b> routine copies data from one location to another.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
+### -param WriteBuffer 
 
-
-
-### -param WriteBuffer [in]
-
+[in]
 Pointer to the destination buffer.
 
+### -param ReadBuffer 
 
-### -param ReadBuffer [in]
-
+[in]
 Pointer to the source buffer.
 
+### -param Length 
 
-### -param Length [in]
-
+[in]
 Specifies how many bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>.
-
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 <b>ScsiPortMoveMemory</b> can be called if a miniport driver needs to copy data from one system-allocated area to another. For example, a miniport driver might call <b>ScsiPortMoveMemory</b> to copy pertinent SRB values into the driver's SRB extension.
 
 The (<i>ReadBuffer</i> + <i>Length</i>) can overlap the area pointed to by <i>WriteBuffer</i>. 
 
 Each of the given buffer areas must be at least <b>sizeof</b>(<i>Length</i>).
-
-
 

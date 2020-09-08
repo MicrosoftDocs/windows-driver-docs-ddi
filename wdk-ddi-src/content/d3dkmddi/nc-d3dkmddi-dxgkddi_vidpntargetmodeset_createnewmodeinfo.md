@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3dkmddi/pfnCreateNewModeInfo"
- - "pfnCreateNewModeInfo"
+ - DXGKDDI_VIDPNTARGETMODESET_CREATENEWMODEINFO
+ - d3dkmddi/DXGKDDI_VIDPNTARGETMODESET_CREATENEWMODEINFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # DXGKDDI_VIDPNTARGETMODESET_CREATENEWMODEINFO callback function
+
 
 ## -description
 

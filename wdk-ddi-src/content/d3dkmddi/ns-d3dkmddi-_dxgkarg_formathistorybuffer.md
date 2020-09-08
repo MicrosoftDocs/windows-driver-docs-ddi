@@ -7,9 +7,6 @@ ms.assetid: 40E00234-C22B-4F86-AC5D-197223298FD7
 ms.date: 05/10/2018
 keywords: ["DXGKARG_FORMATHISTORYBUFFER structure"]
 ms.keywords: DXGKARG_FORMATHISTORYBUFFER, DXGKARG_FORMATHISTORYBUFFER structure [Display Devices], _DXGKARG_FORMATHISTORYBUFFER, d3dkmddi/DXGKARG_FORMATHISTORYBUFFER, display.dxgkarg_formathistorybuffer
-f1_keywords:
- - "d3dkmddi/DXGKARG_FORMATHISTORYBUFFER"
- - "DXGKARG_FORMATHISTORYBUFFER"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3dkmddi.h
-api_name:
-- DXGKARG_FORMATHISTORYBUFFER
 targetos: Windows
 tech.root: display
 req.typenames: DXGKARG_FORMATHISTORYBUFFER
+f1_keywords:
+ - _DXGKARG_FORMATHISTORYBUFFER
+ - d3dkmddi/_DXGKARG_FORMATHISTORYBUFFER
+ - DXGKARG_FORMATHISTORYBUFFER
+ - d3dkmddi/DXGKARG_FORMATHISTORYBUFFER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DXGKARG_FORMATHISTORYBUFFER
 ---
 
 # _DXGKARG_FORMATHISTORYBUFFER structure
@@ -46,24 +48,17 @@ req.typenames: DXGKARG_FORMATHISTORYBUFFER
 
 ## -description
 
-
 Contains info for the display miniport driver to format a history buffer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pHistoryBuffer
 
 A pointer to the unformatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a> history buffer that was populated by the GPU.
 
-
 ### -field HistoryBufferSize
 
 The size, in bytes, of the buffer pointed to by <b>pHistoryBuffer</b>.
-
 
 ### -field pFormattedBuffer
 
@@ -71,11 +66,9 @@ A pointer to a segment of non-paged system memory that the driver uses to store 
 
 The buffer pointed to by <b>pFormattedBuffer</b> should be managed as a large array of time stamps of precision specified by <b>Precision</b>. The buffer should not contain any header info that already exists in the original history buffer.
 
-
 ### -field FormattedBufferSize
 
 The size, in bytes, of the buffer pointed to by <b>pFormattedBuffer</b>. The driver should ensure that it doesn't write data beyond this buffer size.
-
 
 ### -field NumTimestamps
 
@@ -83,13 +76,11 @@ The number of time stamps. On completion of a call to the <a href="https://docs.
 
 Note that the number of time stamps that will be in the formatted output buffer won't be known until the driver completes the formatted buffer pointed to by <b>pFormattedBuffer</b>.
 
-
 ### -field Precision
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_historybufferprecision">DXGKARG_HISTORYBUFFERPRECISION</a> structure that the driver fills with info on the precision of the time stamps that will be logged to the Event Tracing for Windows (ETW) facility.
 
 The value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_historybufferprecision">DXGKARG_HISTORYBUFFERPRECISION</a>.<b>PrecisionBits</b> member cannot be zero.
-
 
 ### -field Offset
 
@@ -97,20 +88,11 @@ On input to a call to the <a href="https://docs.microsoft.com/windows-hardware/d
 
 If nonzero, the driver could not format all the time stamps in the history buffer without filling the formatted buffer. In this case, the value represents the offset that should be continued from in the next function call.
 
-
 ## -remarks
-
-
 
 The driver should obtain time stamp entries and the number of usable time stamps from the header of the provided history buffer. Any additional data that the driver needs for calculations should be stored in private data.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_historybufferprecision">DXGKARG_HISTORYBUFFERPRECISION</a>
 
@@ -121,7 +103,4 @@ The driver should obtain time stamp entries and the number of usable time stamps
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_formathistorybuffer">DxgkDdiFormatHistoryBuffer</a>
- 
-
- 
 

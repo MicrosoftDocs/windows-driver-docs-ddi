@@ -6,41 +6,39 @@ ms.assetid: 6d6c1849-555f-4c33-bc26-723006584ed5
 ms.date: 08/08/2018
 keywords: ["PropKeyFindKeyGetBool function"]
 tech.root: sensors
-f1_keywords:
- - "sensorsutils/PropKeyFindKeyGetBool"
- - "PropKeyFindKeyGetBool"
 ms.keywords: PropKeyFindKeyGetBool
 req.header: sensorsutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- LibDef
-api_location: 
-- sensorsutils.h
-api_name: 
-- PropKeyFindKeyGetBool
-product:
-  - Windows
 targetos: Windows
-
-
 ms.custom: RS5
+f1_keywords:
+ - PropKeyFindKeyGetBool
+ - sensorsutils/PropKeyFindKeyGetBool
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - sensorsutils.h
+api_name:
+ - PropKeyFindKeyGetBool
+product:
+ - Windows
 ---
 
 # PropKeyFindKeyGetBool function
@@ -49,8 +47,6 @@ ms.custom: RS5
 ## -description
 
 This routine gets a BOOL value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
-
-
 
 ## -parameters
 
@@ -77,3 +73,4 @@ This function returns:
 ## -remarks
 
 ## -see-also
+

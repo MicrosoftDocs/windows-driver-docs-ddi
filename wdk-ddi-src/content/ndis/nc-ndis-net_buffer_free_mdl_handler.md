@@ -8,9 +8,6 @@ ms.assetid: a92b2de9-231d-4dcc-8220-857063a35eb1
 ms.date: 05/02/2018
 keywords: ["NET_BUFFER_FREE_MDL_HANDLER callback function"]
 ms.keywords: NET_BUFFER_FREE_MDL_HANDLER, NET_BUFFER_FREE_MDL_HANDLER callback, NetFreeMdl, NetFreeMdl callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeMdl, ndis_netbuf_functions_ref_a005ffba-5557-4d9b-a647-63e9e06fa8ef.xml, netvista.netfreemdl
-f1_keywords:
- - "ndis/NetFreeMdl"
- - "NetFreeMdl"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ndis.h
-api_name:
-- NetFreeMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - NET_BUFFER_FREE_MDL_HANDLER
+ - ndis/NET_BUFFER_FREE_MDL_HANDLER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ndis.h
+api_name:
+ - NetFreeMdl
 ---
 
 # NET_BUFFER_FREE_MDL_HANDLER callback function
@@ -46,25 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The 
   <i>NetFreeMdl</i> function frees an MDL that was previously allocated by the 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function.
 
-
 ## -parameters
 
+### -param Mdl 
 
-
-
-### -param Mdl [in]
-
+[in]
 A pointer to the MDL that is to be freed.
 
-
 ## -remarks
-
-
 
 If the NDIS driver specifies an entry point for the 
     <i>NetFreeMdl</i> function at the 
@@ -83,13 +76,7 @@ When
 NDIS calls 
     <i>NetFreeMdl</i> at IRQL <= DISPATCH_LEVEL.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
    NdisAdvanceNetBufferDataStart</a>
@@ -97,7 +84,4 @@ NDIS calls
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a>
- 
-
- 
 

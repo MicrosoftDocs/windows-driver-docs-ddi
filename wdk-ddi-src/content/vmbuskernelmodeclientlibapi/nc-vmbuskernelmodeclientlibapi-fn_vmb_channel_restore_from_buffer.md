@@ -6,39 +6,40 @@ tech.root: netvista
 ms.assetid: f555fb01-73c9-449e-88f0-24480e44f86b
 ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_RESTORE_FROM_BUFFER callback function"]
-f1_keywords:
- - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_RESTORE_FROM_BUFFER"
- - "FN_VMB_CHANNEL_RESTORE_FROM_BUFFER"
 req.header: vmbuskernelmodeclientlibapi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- vmbuskernelmodeclientlibapi.h
-api_name: 
-- FN_VMB_CHANNEL_RESTORE_FROM_BUFFER
 targetos: Windows
 ms.custom: RS5
+f1_keywords:
+ - FN_VMB_CHANNEL_RESTORE_FROM_BUFFER
+ - vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_RESTORE_FROM_BUFFER
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - vmbuskernelmodeclientlibapi.h
+api_name:
+ - FN_VMB_CHANNEL_RESTORE_FROM_BUFFER
 ---
 
 # FN_VMB_CHANNEL_RESTORE_FROM_BUFFER callback function
+
 
 ## -description
 
@@ -46,25 +47,6 @@ ms.custom: RS5
 
 The <b>VmbChannelRestoreFromBuffer</b>  function restores the client state from previously saved state.
 The driver must check the return value of the function.
-
-## -prototype
-
-```cpp
-//Declaration
-
-FN_VMB_CHANNEL_RESTORE_FROM_BUFFER FnVmbChannelRestoreFromBuffer; 
-
-// Definition
-
-NTSTATUS FnVmbChannelRestoreFromBuffer 
-(
-	VMBCHANNEL Channel
-	PVOID Buffer
-	ULONG BufferSize
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -124,6 +106,25 @@ The function failed.
 </tr>
 </table>
 
+## -prototype
+
+```cpp
+//Declaration
+
+FN_VMB_CHANNEL_RESTORE_FROM_BUFFER FnVmbChannelRestoreFromBuffer; 
+
+// Definition
+
+NTSTATUS FnVmbChannelRestoreFromBuffer 
+(
+	VMBCHANNEL Channel
+	PVOID Buffer
+	ULONG BufferSize
+)
+{...}
+
+```
+
 ## -remarks
 
 The caller is expected to call this function with buffers that contain whole
@@ -135,3 +136,4 @@ The caller is expected to call this function with buffers that contain whole
 > For more information, see the Remarks section of [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md).
 
 ## -see-also
+

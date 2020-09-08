@@ -8,9 +8,6 @@ ms.assetid: b09787b3-aede-4e53-9e22-0e81cf2dadb1
 ms.date: 05/10/2018
 keywords: ["VideoPortReadStateEvent function"]
 ms.keywords: VideoPortReadStateEvent, VideoPortReadStateEvent function [Display Devices], VideoPort_Functions_8cd6da91-d349-4ef7-b61c-2e9a22c5f25e.xml, display.videoportreadstateevent, video/VideoPortReadStateEvent
-f1_keywords:
- - "video/VideoPortReadStateEvent"
- - "VideoPortReadStateEvent"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortReadStateEvent
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortReadStateEvent
+ - video/VideoPortReadStateEvent
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortReadStateEvent
 ---
 
 # VideoPortReadStateEvent function
@@ -46,39 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortReadStateEvent</b> function returns the current state of a given event object: signaled or nonsignaled.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param pEvent 
 
-### -param pEvent [in]
-
+[in]
 Pointer to the event object whose state is to be read.
-
 
 ## -returns
 
-
-
 <b>VideoPortReadStateEvent</b> returns a nonzero value if the event object is currently in the signaled state. If the event object is in the nonsignaled state, this function returns zero.
-
-
-
 
 ## -remarks
 
-
-
-This function is available in Windows XP and later. 
-
-
+This function is available in Windows XP and later.
 

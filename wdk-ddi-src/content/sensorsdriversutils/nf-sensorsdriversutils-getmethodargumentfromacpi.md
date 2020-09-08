@@ -5,39 +5,38 @@ description: The GetMethodArgumentFromAcpi function reads the requested ACPI ent
 ms.assetid: 62776cea-ef29-48be-ae0d-ad460c7f910c
 ms.date: 04/19/2018
 keywords: ["GetMethodArgumentFromAcpi function"]
-f1_keywords:
- - "sensorsdriversutils/GetMethodArgumentFromAcpi"
- - "GetMethodArgumentFromAcpi"
 ms.keywords: GetMethodArgumentFromAcpi
 req.header: sensorsdriversutils.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- GetMethodArgumentFromAcpi
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
-
+f1_keywords:
+ - GetMethodArgumentFromAcpi
+ - sensorsdriversutils/GetMethodArgumentFromAcpi
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - GetMethodArgumentFromAcpi
+product:
+ - Windows
 ---
 
 # GetMethodArgumentFromAcpi function
@@ -76,3 +75,4 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+

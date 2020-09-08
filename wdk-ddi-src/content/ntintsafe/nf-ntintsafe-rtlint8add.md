@@ -8,9 +8,6 @@ ms.assetid: E97C3EA9-2244-458E-BE5E-6312023118A3
 ms.date: 04/30/2018
 keywords: ["RtlInt8Add function"]
 ms.keywords: RtlInt8Add, RtlInt8Add function [Kernel-Mode Driver Architecture], kernel.rtlint8add, ntintsafe/RtlInt8Add
-f1_keywords:
- - "ntintsafe/RtlInt8Add"
- - "RtlInt8Add"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntintsafe.h
-api_name:
-- RtlInt8Add
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RtlInt8Add
+ - ntintsafe/RtlInt8Add
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntintsafe.h
+api_name:
+ - RtlInt8Add
 ---
 
 # RtlInt8Add function
@@ -46,35 +46,26 @@ req.typenames:
 
 ## -description
 
-
 Adds two values of type <b>INT8</b>.
-
 
 ## -parameters
 
+### -param i8Augend 
 
-
-
-### -param i8Augend [in]
-
+[in]
 The first value in the equation.
 
+### -param i8Addend 
 
-### -param i8Addend [in]
-
+[in]
 The value to add to <i>i8Augend</i>.
 
+### -param pi8Result 
 
-### -param pi8Result [out]
-
+[out]
 A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
-
 
 ## -remarks
 
-
-
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-
-
 

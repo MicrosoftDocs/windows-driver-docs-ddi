@@ -8,9 +8,6 @@ ms.assetid: fa02a787-502c-48a3-a5e1-710d7513c42e
 ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveInputBuffer function"]
 ms.keywords: DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, WdfRequestRetrieveInputBuffer, WdfRequestRetrieveInputBuffer method, kmdf.wdfrequestretrieveinputbuffer, wdf.wdfrequestretrieveinputbuffer, wdfrequest/WdfRequestRetrieveInputBuffer
-f1_keywords:
- - "wdfrequest/WdfRequestRetrieveInputBuffer"
- - "WdfRequestRetrieveInputBuffer"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestRetrieveInputBuffer
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestRetrieveInputBuffer
+ - wdfrequest/WdfRequestRetrieveInputBuffer
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestRetrieveInputBuffer
 ---
 
 # WdfRequestRetrieveInputBuffer function
@@ -49,40 +49,32 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestRetrieveInputBuffer</b> method retrieves an I/O request's input buffer.
 
-
 ## -parameters
 
+### -param Request 
 
-
-
-### -param Request [in]
-
-A handle to a framework request object. 
-
+[in]
+A handle to a framework request object.
 
 ### -param MinimumRequiredLength
 
 <p>The minimum buffer size, in bytes, that the driver needs to process the I/O request.</p>
 
+### -param Buffer 
 
-### -param Buffer [out]
-
+[out]
 A pointer to a location that receives the buffer's address.
 
+### -param Length 
 
-### -param Length [out, optional]
-
+[out, optional]
 A pointer to a location that receives the buffer's size, in bytes. This parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>WdfRequestRetrieveInputBuffer</b>  returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
@@ -156,12 +148,7 @@ This method might also return other <a href="https://docs.microsoft.com/windows-
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -remarks
-
-
 
 A request's input buffer contains information, such as data to be written to a disk, that was supplied by the originator of the request. Your driver can call <b>WdfRequestRetrieveInputBuffer</b> to obtain the input buffer for a write request or a device I/O control request, but not for a read request (because read requests do not provide input data).
 
@@ -216,12 +203,7 @@ SerialEvtIoDeviceControl(
 }
 ```
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a>
 
@@ -232,7 +214,4 @@ SerialEvtIoDeviceControl(
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceretrieveconfigdescriptor">WdfUsbTargetDeviceRetrieveConfigDescriptor</a>
- 
-
- 
 

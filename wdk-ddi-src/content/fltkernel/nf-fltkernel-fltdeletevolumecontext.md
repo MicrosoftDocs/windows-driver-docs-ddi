@@ -8,9 +8,6 @@ ms.assetid: dfb376af-9910-4708-9248-1104dfc4bdec
 ms.date: 04/16/2018
 keywords: ["FltDeleteVolumeContext function"]
 ms.keywords: FltApiRef_a_to_d_261f2efb-7c2e-4f85-a75c-b5cf55236271.xml, FltDeleteVolumeContext, FltDeleteVolumeContext function [Installable File System Drivers], fltkernel/FltDeleteVolumeContext, ifsk.fltdeletevolumecontext
-f1_keywords:
- - "fltkernel/FltDeleteVolumeContext"
- - "FltDeleteVolumeContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -28,18 +25,21 @@ req.type-library:
 req.lib: FltMgr.lib
 req.dll: 
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- FltMgr.lib
-- FltMgr.dll
-api_name:
-- FltDeleteVolumeContext
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - FltDeleteVolumeContext
+ - fltkernel/FltDeleteVolumeContext
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - FltMgr.lib
+ - FltMgr.dll
+api_name:
+ - FltDeleteVolumeContext
 ---
 
 # FltDeleteVolumeContext function
@@ -47,33 +47,26 @@ req.typenames:
 
 ## -description
 
-
-<b>FltDeleteVolumeContext</b> removes a context that a given minifilter driver has set for a given volume and marks the context for deletion. 
-
+<b>FltDeleteVolumeContext</b> removes a context that a given minifilter driver has set for a given volume and marks the context for deletion.
 
 ## -parameters
 
+### -param Filter 
 
+[in]
+Opaque filter pointer for the caller.
 
+### -param Volume 
 
-### -param Filter [in]
+[in]
+Opaque volume pointer for the volume.
 
-Opaque filter pointer for the caller. 
+### -param OldContext 
 
-
-### -param Volume [in]
-
-Opaque volume pointer for the volume. 
-
-
-### -param OldContext [out, optional]
-
-Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to release this context when it is no longer needed. 
-
+[out, optional]
+Pointer to a caller-allocated variable that receives the address of the deleted context. This parameter is optional and can be <b>NULL</b>. If <i>OldContext</i> is not <b>NULL</b> and does not point to NULL_CONTEXT, the caller is responsible for calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasecontext">FltReleaseContext</a> to release this context when it is no longer needed.
 
 ## -returns
-
-
 
 <b>FltDeleteVolumeContext</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
 
@@ -105,14 +98,8 @@ No matching context was found. This is an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Because contexts are reference-counted, it is not usually necessary for a minifilter driver to call a routine such as <b>FltDeleteVolumeContext</b> to explicitly delete a context. 
 
@@ -122,15 +109,9 @@ To allocate a new context, call <a href="https://docs.microsoft.com/windows-hard
 
 To get a volume context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumecontext">FltGetVolumeContext</a>. 
 
-To set a volume context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumecontext">FltSetVolumeContext</a>. 
-
-
-
+To set a volume context, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumecontext">FltSetVolumeContext</a>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a>
 
@@ -149,7 +130,4 @@ To set a volume context, call <a href="https://docs.microsoft.com/windows-hardwa
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetvolumecontext">FltSetVolumeContext</a>
- 
-
- 
 

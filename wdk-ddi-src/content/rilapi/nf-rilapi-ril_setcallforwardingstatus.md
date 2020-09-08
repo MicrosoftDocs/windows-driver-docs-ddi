@@ -8,9 +8,6 @@ ms.assetid: c73e3b75-e11d-44b8-9a4a-c98ccfe1c820
 ms.date: 05/02/2018
 keywords: ["RIL_SetCallForwardingStatus function"]
 ms.keywords: RIL_SetCallForwardingStatus, RIL_SetCallForwardingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallforwardingstatus, rilapi/RIL_SetCallForwardingStatus
-f1_keywords:
- - "rilapi/RIL_SetCallForwardingStatus"
- - "RIL_SetCallForwardingStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- rilapi.h
-api_name:
-- RIL_SetCallForwardingStatus
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - RIL_SetCallForwardingStatus
+ - rilapi/RIL_SetCallForwardingStatus
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - rilapi.h
+api_name:
+ - RIL_SetCallForwardingStatus
 ---
 
 # RIL_SetCallForwardingStatus function
@@ -46,43 +46,25 @@ req.typenames:
 
 ## -description
 
-
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-            
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 ## -parameters
 
-
-
-
 ### -param hRil
-
 
 ### -param lpContext
 
-
 ### -param dwExecutor
-
 
 ### -param dwReason
 
-
 ### -param fAllClasses
-
 
 ### -param dwInfoClasses
 
-
 ### -param dwStatus
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

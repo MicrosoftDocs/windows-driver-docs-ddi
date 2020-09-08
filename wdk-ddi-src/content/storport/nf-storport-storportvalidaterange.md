@@ -8,9 +8,6 @@ ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
 ms.date: 03/29/2018
 keywords: ["StorPortValidateRange function"]
 ms.keywords: StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml
-f1_keywords:
- - "storport/StorPortValidateRange"
- - "StorPortValidateRange"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Storport.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Storport.lib
-- Storport.dll
-api_name:
-- StorPortValidateRange
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortValidateRange
+ - storport/StorPortValidateRange
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Storport.lib
+ - Storport.dll
+api_name:
+ - StorPortValidateRange
 ---
 
 # StorPortValidateRange function
+
 
 ## -description
 
@@ -50,28 +51,33 @@ The **StorPortValidateRange** routine determines whether a specified range of I/
 
 ## -parameters
 
-### -param HwDeviceExtension [in]
+### -param HwDeviceExtension 
 
+[in]
 A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls [**StorPortInitialize**](nf-storport-storportinitialize.md). The port driver frees this memory when it removes the device.
 
-### -param BusType [in]
+### -param BusType 
 
+[in]
 Contains a value of type [**STORAGE_BUS_TYPE**](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)) that indicates the bus type.
 
 ### -param SystemIoBusNumber
 
 Contains an integer identifying a system bus.
 
-### -param IoAddress [in]
+### -param IoAddress 
 
+[in]
 Contains the beginning address of the range of addresses to be validated.
 
-### -param NumberOfBytes [in]
+### -param NumberOfBytes 
 
+[in]
 Contains the length in bytes of the range of addresses to be validated.
 
-### -param InIoSpace [in]
+### -param InIoSpace 
 
+[in]
 Indicates, when **TRUE**, that the address range is in I/O space. If **FALSE**, the address is in memory space.
 
 ## -returns
@@ -95,3 +101,4 @@ The **STOR_PHYSICAL_ADDRESS** type is an operating system-independent data type 
 ## -see-also
 
 [**ScsiPortValidateRange**](../srb/nf-srb-scsiportvalidaterange.md)
+

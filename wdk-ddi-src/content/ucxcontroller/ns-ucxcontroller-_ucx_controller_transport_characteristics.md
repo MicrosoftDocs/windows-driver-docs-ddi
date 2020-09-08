@@ -8,9 +8,6 @@ ms.assetid: 9F267427-8D70-45D5-A8E6-67A1C6B73CDB
 ms.date: 05/07/2018
 keywords: ["UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure"]
 ms.keywords: "*PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure pointer [Buses], UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure [Buses], _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, buses.ucx_controller_transport_characteristics, ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"
-f1_keywords:
- - "ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"
- - "UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UcxController.h
-api_name:
-- UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
 targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+f1_keywords:
+ - _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+ - ucxcontroller/_UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+ - PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+ - ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+ - UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+ - ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UcxController.h
+api_name:
+ - UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
 ---
 
 # _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure
@@ -46,14 +50,9 @@ req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, *PUCX_CONTROLLER_TRANSP
 
 ## -description
 
-
 Stores the transport characteristics at relevant points in time. This structure is used in the   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a> callback function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TransportCharacteristicsFlags
 
@@ -71,32 +70,21 @@ is set, <b>CurrentRoundtripLatencyInMilliSeconds</b> contains valid information.
 
 If USB_TRANSPORT_CHARACTERISTICS_BANDWIDTH_AVAILABLE 
 
-is set, <b>MaxPotentialBandwidth</b> contains valid information. Otherwise, it must not be used by the client driver.  
-
+is set, <b>MaxPotentialBandwidth</b> contains valid information. Otherwise, it must not be used by the client driver.
 
 ### -field CurrentRoundtripLatencyInMilliSeconds
 
 Contains the current round-trip delay in milliseconds from the time a non-isochronous transfer is received by the USB driver stack to the time that the transfer is completed.  
 
-For MA-USB, the underlying network could be WiFi, WiGig, Ethernet etc. The delay can vary depending on the underlying network conditions. A client driver should query the latency periodically or whenever it is notified of a change. 
-
-
+For MA-USB, the underlying network could be WiFi, WiGig, Ethernet etc. The delay can vary depending on the underlying network conditions. A client driver should query the latency periodically or whenever it is notified of a change.
 
 ### -field MaxPotentialBandwidth
 
 Contains the total bandwidth of the host controller’s shared transport. 
 
-For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc. The total available bandwidth can vary depending on several factors such as the negotiation WiFi channel. A client driver should query the total bandwidth periodically or whenever it is notified of a change. 
-
-
+For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc. The total available bandwidth can vary depending on several factors such as the negotiation WiFi channel. A client driver should query the total bandwidth periodically or whenever it is notified of a change.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
- 
-
- 
 

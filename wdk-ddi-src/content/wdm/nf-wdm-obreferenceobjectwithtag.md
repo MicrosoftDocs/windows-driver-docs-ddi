@@ -8,9 +8,6 @@ ms.assetid: d2b95301-c018-4a2f-801d-a78b00c8d9ca
 ms.date: 04/30/2018
 keywords: ["ObReferenceObjectWithTag macro"]
 ms.keywords: ObReferenceObjectWithTag, ObReferenceObjectWithTag routine [Kernel-Mode Driver Architecture], k107_a35c78fa-edf5-4a93-908b-baf16718b095.xml, kernel.obreferenceobjectwithtag, wdm/ObReferenceObjectWithTag
-f1_keywords:
- - "wdm/ObReferenceObjectWithTag"
- - "ObReferenceObjectWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- ObReferenceObjectWithTag
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - ObReferenceObjectWithTag
+ - wdm/ObReferenceObjectWithTag
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - ObReferenceObjectWithTag
 ---
 
 # ObReferenceObjectWithTag macro
@@ -46,22 +46,18 @@ req.typenames:
 
 ## -description
 
-
 The <b>ObReferenceObjectWithTag</b> routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support <a href="https://go.microsoft.com/fwlink/p/?linkid=153590">object reference tracing</a>.
-
 
 ## -parameters
 
+### -param Object 
 
-
-
-### -param Object [in]
-
+[in]
 A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandlewithtag">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
 
+### -param Tag 
 
-### -param Tag [in]
-
+[in]
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section.
 
 ## -remarks
@@ -84,13 +80,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-
 
 To view an object reference trace in the <a href="https://go.microsoft.com/fwlink/p/?linkid=153599">Windows debugging tools</a>, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-obtrace">!obtrace</a> kernel-mode debugger extension. In Windows 7, the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-obtrace">!obtrace</a> extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the <a href="https://go.microsoft.com/fwlink/p/?linkid=153601">Global Flags Editor</a> (Gflags) to enable object reference tracing. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-reference-tracing-with-tags">Object Reference Tracing with Tags</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobjectwithtag">ObDereferenceObjectWithTag</a>
 
@@ -105,7 +95,4 @@ To view an object reference trace in the <a href="https://go.microsoft.com/fwlin
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbypointerwithtag">ObReferenceObjectByPointerWithTag</a>
- 
-
- 
 

@@ -8,13 +8,10 @@ ms.assetid: e439f130-1b99-4f46-ace5-3456c09a5f67
 ms.date: 05/03/2018
 keywords: ["WIAS_ERROR macro"]
 ms.keywords: IWiaLog_5b3e0d61-e0e5-4385-8256-943e437cee9d.xml, WIAS_ERROR, WIAS_ERROR macro [Imaging Devices], image.wias_error, wiamdef/WIAS_ERROR
-f1_keywords:
- - "wiamdef/WIAS_ERROR"
- - "WIAS_ERROR"
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wiamdef.h
-api_name:
-- WIAS_ERROR
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WIAS_ERROR
+ - wiamdef/WIAS_ERROR
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wiamdef.h
+api_name:
+ - WIAS_ERROR
 ---
 
-# WIAS_ERROR macro
+# WIAS_ERROR macro (wiamdef.h)
+
 
 ## -description
 
@@ -76,3 +77,4 @@ This code snippet was taken from [Wiadriver.cpp](https://github.com/Microsoft/Wi
 [WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult)
 
 [WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)
+

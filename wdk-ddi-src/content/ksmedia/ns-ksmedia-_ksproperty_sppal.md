@@ -8,9 +8,6 @@ ms.assetid: b6c50f2f-efc7-415f-895b-fcffb2575fe8
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_SPPAL structure"]
 ms.keywords: "*PKSPROPERTY_SPPAL, KSPROPERTY_SPPAL, KSPROPERTY_SPPAL structure [Streaming Media Devices], PKSPROPERTY_SPPAL, PKSPROPERTY_SPPAL structure pointer [Streaming Media Devices], _KSPROPERTY_SPPAL, dvdref_002f96c4-a499-4f93-8c3a-b083ed7a3339.xml, ksmedia/KSPROPERTY_SPPAL, ksmedia/PKSPROPERTY_SPPAL, stream.ksproperty_sppal"
-f1_keywords:
- - "ksmedia/KSPROPERTY_SPPAL"
- - "KSPROPERTY_SPPAL"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksmedia.h
-api_name:
-- KSPROPERTY_SPPAL
 targetos: Windows
 req.typenames: KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL
+f1_keywords:
+ - _KSPROPERTY_SPPAL
+ - ksmedia/_KSPROPERTY_SPPAL
+ - PKSPROPERTY_SPPAL
+ - ksmedia/PKSPROPERTY_SPPAL
+ - KSPROPERTY_SPPAL
+ - ksmedia/KSPROPERTY_SPPAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksmedia.h
+api_name:
+ - KSPROPERTY_SPPAL
 ---
 
 # _KSPROPERTY_SPPAL structure
@@ -46,36 +50,19 @@ req.typenames: KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL
 
 ## -description
 
-
 The KSPROPERTY_SPPAL structure is used to describe the palette of a subpicture display.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sppal
 
 Specifies an array of 16 YUV color values.
 
-
 ## -remarks
-
-
 
 The KSPROPERTY_SPPAL structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdsubpic-palette">KSPROPERTY_DVDSUBPIC_PALETTE</a> property.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdsubpic-palette">KSPROPERTY_DVDSUBPIC_PALETTE</a>
- 
-
- 
 

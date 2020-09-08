@@ -28,8 +28,8 @@ req.irql:
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - "d3dumddi/SetClipPlane"
- - "SetClipPlane"
+ - PFND3DDDI_SETCLIPPLANE
+ - d3dumddi/PFND3DDDI_SETCLIPPLANE
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3DDDI_SETCLIPPLANE callback function
+
 
 ## -description
 

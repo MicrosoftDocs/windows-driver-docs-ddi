@@ -8,9 +8,6 @@ ms.assetid: 8a5d8f8c-4924-4ae0-a7b2-8d2b04a49a9e
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_MEMBERSHEADER structure"]
 ms.keywords: "*PKSPROPERTY_MEMBERSHEADER, KSPROPERTY_MEMBERSHEADER, KSPROPERTY_MEMBERSHEADER structure [Streaming Media Devices], PKSPROPERTY_MEMBERSHEADER, PKSPROPERTY_MEMBERSHEADER structure pointer [Streaming Media Devices], ks-struct_d43fb5ec-043b-4378-8bdb-aaf80a616150.xml, ks/KSPROPERTY_MEMBERSHEADER, ks/PKSPROPERTY_MEMBERSHEADER, stream.ksproperty_membersheader"
-f1_keywords:
- - "ks/KSPROPERTY_MEMBERSHEADER"
- - "KSPROPERTY_MEMBERSHEADER"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KSPROPERTY_MEMBERSHEADER
 targetos: Windows
 req.typenames: KSPROPERTY_MEMBERSHEADER, *PKSPROPERTY_MEMBERSHEADER
+f1_keywords:
+ - PKSPROPERTY_MEMBERSHEADER
+ - ks/PKSPROPERTY_MEMBERSHEADER
+ - KSPROPERTY_MEMBERSHEADER
+ - ks/KSPROPERTY_MEMBERSHEADER
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KSPROPERTY_MEMBERSHEADER
 ---
 
 # KSPROPERTY_MEMBERSHEADER structure
@@ -46,14 +48,9 @@ req.typenames: KSPROPERTY_MEMBERSHEADER, *PKSPROPERTY_MEMBERSHEADER
 
 ## -description
 
-
 A driver provides a structure of type KSPROPERTY_MEMBERSHEADER to describe the size and type of each element in an array containing property values or ranges.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MembersFlags
 
@@ -100,18 +97,14 @@ Each entry in the members array is a single value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MembersSize
 
 Specifies the size, in bytes, of an individual array element.
 
-
 ### -field MembersCount
 
 Specifies the number of entries in the members array.
-
 
 ### -field Flags
 
@@ -158,12 +151,8 @@ Each entry in the members array is a single value.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The size of the array can be determined by multiplying <b>MembersCount</b> by <b>MembersSize</b>.
 
@@ -171,15 +160,9 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspr
 
 In addition, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description">KSPROPERTY_DESCRIPTION</a> structure can be followed by a list of KSPROPERTY_MEMBERSHEADER structures.
 
-For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item">KSPROPERTY_ITEM</a>. For more information about KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_MULTICHANNEL and KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_UNIFORM, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/exposing-multichannel-nodes">Exposing Multichannel Nodes</a> in the Windows Driver Kit (WDK) Audio documentation. 
-
-
-
+For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item">KSPROPERTY_ITEM</a>. For more information about KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_MULTICHANNEL and KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_UNIFORM, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/exposing-multichannel-nodes">Exposing Multichannel Nodes</a> in the Windows Driver Kit (WDK) Audio documentation.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_bounds_long">KSPROPERTY_BOUNDS_LONG</a>
 
@@ -206,7 +189,4 @@ For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="https://
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn936841(v=vs.85)">KSPROPERTY_STEPPING_LONGLONG</a>
- 
-
- 
 

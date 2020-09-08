@@ -8,9 +8,6 @@ ms.assetid: 56e2a62c-ecf1-45c8-ba65-fb53b1897ddb
 ms.date: 11/07/2019
 keywords: ["IOCTL_SCSI_GET_ADDRESS IOCTL"]
 ms.keywords: IOCTL_SCSI_GET_ADDRESS, IOCTL_SCSI_GET_ADDRESS control, IOCTL_SCSI_GET_ADDRESS control code [Storage Devices], k307_0d205fdd-0951-42ef-bd5c-09727bee65f4.xml, ntddscsi/IOCTL_SCSI_GET_ADDRESS, storage.ioctl_scsi_get_address
-f1_keywords:
- - "ntddscsi/IOCTL_SCSI_GET_ADDRESS"
- - "IOCTL_SCSI_GET_ADDRESS"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -28,20 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddscsi.h
-api_name:
-- IOCTL_SCSI_GET_ADDRESS
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IOCTL_SCSI_GET_ADDRESS
+ - ntddscsi/IOCTL_SCSI_GET_ADDRESS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddscsi.h
+api_name:
+ - IOCTL_SCSI_GET_ADDRESS
 ---
 
 # IOCTL_SCSI_GET_ADDRESS IOCTL
+
 
 ## -description
 
@@ -83,3 +84,4 @@ The **Information** field contains the number of bytes returned in the output bu
 ## -see-also
 
 [SCSI_ADDRESS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address)
+

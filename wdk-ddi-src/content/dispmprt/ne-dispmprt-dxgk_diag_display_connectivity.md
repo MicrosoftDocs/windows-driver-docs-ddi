@@ -27,14 +27,16 @@ api_name:
  - _DXGK_DIAG_DISPLAY_CONNECTIVITY
  - DXGK_DIAG_DISPLAY_CONNECTIVITY
 f1_keywords:
+ - _DXGK_DIAG_DISPLAY_CONNECTIVITY
  - dispmprt/_DXGK_DIAG_DISPLAY_CONNECTIVITY
- - dispmprt//DXGK_DIAG_DISPLAY_CONNECTIVITY
  - DXGK_DIAG_DISPLAY_CONNECTIVITY
+ - dispmprt/DXGK_DIAG_DISPLAY_CONNECTIVITY
 dev_langs:
  - c++
 ---
 
 # DXGK_DIAG_DISPLAY_CONNECTIVITY enumeration
+
 
 ## -description
 
@@ -67,3 +69,4 @@ A driver should return the last status (preferably the hardware status of whethe
 [**DXGKARG_GETDISPLAYSTATENONINTRUSIVE**](ns-dispmprt-dxgkarg_getdisplaystatenonintrusive.md)
 
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
+

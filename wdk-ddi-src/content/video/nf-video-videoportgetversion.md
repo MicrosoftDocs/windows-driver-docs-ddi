@@ -8,9 +8,6 @@ ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
 ms.date: 05/10/2018
 keywords: ["VideoPortGetVersion function"]
 ms.keywords: VideoPortGetVersion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, video/VideoPortGetVersion
-f1_keywords:
- - "video/VideoPortGetVersion"
- - "VideoPortGetVersion"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Videoprt.sys
-api_name:
-- VideoPortGetVersion
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - VideoPortGetVersion
+ - video/VideoPortGetVersion
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Videoprt.sys
+api_name:
+ - VideoPortGetVersion
 ---
 
 # VideoPortGetVersion function
@@ -46,41 +46,25 @@ req.typenames:
 
 ## -description
 
-
 The <b>VideoPortGetVersion</b> function gets version information about the currently running operating system.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 Pointer to the miniport driver's device extension.
 
+### -param pVpOsVersionInfo 
 
-### -param pVpOsVersionInfo [in, out]
-
+[in, out]
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vposversioninfo">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
-
 
 ## -returns
 
-
-
-<b>VideoPortGetVersionInfo</b> returns NO_ERROR if it successfully obtained the operating system version information. If the <b>Size</b> member of the VPOSVERSIONINFO does not contains the correct size of this structure, the function returns ERROR_INVALID_PARAMETER 
-
-
-
+<b>VideoPortGetVersionInfo</b> returns NO_ERROR if it successfully obtained the operating system version information. If the <b>Size</b> member of the VPOSVERSIONINFO does not contains the correct size of this structure, the function returns ERROR_INVALID_PARAMETER
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vposversioninfo">VPOSVERSIONINFO</a>
- 
-
- 
 

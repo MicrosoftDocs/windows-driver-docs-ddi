@@ -8,9 +8,6 @@ ms.assetid: d6b76b6b-59d9-441f-846e-fe89d26f631d
 ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure"]
 ms.keywords: DXVA2_Structs_bb978cee-d80a-429b-ac2c-1704539c55f7.xml, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, display.dxvahdddi_blt_state_target_rect_data
-f1_keywords:
- - "d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA"
- - "DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3dumddi.h
-api_name:
-- DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
 targetos: Windows
 req.typenames: DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
+f1_keywords:
+ - _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
+ - d3dumddi/_DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
+ - DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
+ - d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3dumddi.h
+api_name:
+ - DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
 ---
 
 # _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure
@@ -46,41 +48,23 @@ req.typenames: DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
 
 ## -description
 
-
-The DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure describes data that specifies the target rectangle of the output. 
-
+The DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure describes data that specifies the target rectangle of the output.
 
 ## -struct-fields
 
-
-
-
 ### -field Enable
 
-[in] A Boolean value that specifies whether the driver should use the <b>TargetRect</b> member or the entire output surface as the target. The default value is <b>FALSE</b>, which indicates that the entire output surface is the target. 
-
+[in] A Boolean value that specifies whether the driver should use the <b>TargetRect</b> member or the entire output surface as the target. The default value is <b>FALSE</b>, which indicates that the entire output surface is the target.
 
 ### -field TargetRect
 
 [in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the target rectangle in the coordinates of the output surface. This member is relevant only when the <b>Enable</b> member is set to <b>TRUE</b>. The default value is (0,0,0,0).
 
-
 ## -remarks
 
-
-
-If the <b>Enable</b> member is set to <b>TRUE</b> and the target rectangle that the <b>TargetRect</b> member specifies is not within the output surface, the intersection of the target rectangle and the output surface is used as the target rectangle. 
-
-
-
+If the <b>Enable</b> member is set to <b>TRUE</b> and the target rectangle that the <b>TargetRect</b> member specifies is not within the output surface, the intersection of the target rectangle and the output surface is used as the target rectangle.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
- 
-
- 
 

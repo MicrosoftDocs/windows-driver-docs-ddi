@@ -8,9 +8,6 @@ ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.date: 04/30/2018
 keywords: ["IoGetBootDiskInformation function"]
 ms.keywords: IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation
-f1_keywords:
- - "wdm/IoGetBootDiskInformation"
- - "IoGetBootDiskInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name:
-- IoGetBootDiskInformation
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IoGetBootDiskInformation
+ - wdm/IoGetBootDiskInformation
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - IoGetBootDiskInformation
 ---
 
 # IoGetBootDiskInformation function
@@ -46,28 +46,21 @@ req.typenames:
 
 ## -description
 
-
 The <b>IoGetBootDiskInformation</b> routine returns information describing the boot and system disks.
-
 
 ## -parameters
 
+### -param BootDiskInformation 
 
-
-
-### -param BootDiskInformation [in, out]
-
+[in, out]
 Pointer to a caller-allocated buffer that the routine uses to return information about the boot and system disks. The routine fills this buffer in with either a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_bootdisk_information">BOOTDISK_INFORMATION</a> or a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_bootdisk_information_ex">BOOTDISK_INFORMATION_EX</a> structure.
 
+### -param Size 
 
-### -param Size [in]
-
+[in]
 Specifies the size, in bytes, of the buffer specified by <i>BootDiskInformation</i>. Should be either <b>sizeof</b>(<b>BOOTDISK_INFORMATION</b>) or <b>sizeof</b>(<b>BOOTDISK_INFORMATION_EX</b>).
 
-
 ## -returns
-
-
 
 <b>IoGetBootDiskInformation</b> returns one of the following status values:
 
@@ -110,14 +103,8 @@ The driver called the routine after the system has already booted. Only boot and
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IoGetBootDiskInformation</b> can be called only by a boot driver. This driver should call <b>IoGetBootDiskInformation</b> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize">Reinitialize</a> callback routine that the driver registers by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterbootdriverreinitialization">IoRegisterBootDriverReinitialization</a> routine.
 
@@ -125,13 +112,7 @@ On Windows XP and later versions of Windows, if the <i>Size</i> parameter is <b>
 
 On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> structure.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_bootdisk_information">BOOTDISK_INFORMATION</a>
 
@@ -146,7 +127,4 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize">Reinitialize</a>
- 
-
- 
 

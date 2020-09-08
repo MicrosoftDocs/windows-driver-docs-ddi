@@ -8,9 +8,6 @@ ms.assetid: e397d36c-3f28-4a70-9b4a-f13be094d47b
 ms.date: 04/23/2018
 keywords: ["KsFilterFactoryGetNextSiblingFilterFactory function"]
 ms.keywords: KsFilterFactoryGetNextSiblingFilterFactory, KsFilterFactoryGetNextSiblingFilterFactory function [Streaming Media Devices], avfunc_b1bdc37b-de4a-4cfb-b1e9-1201225c29ab.xml, ks/KsFilterFactoryGetNextSiblingFilterFactory, stream.ksfilterfactorygetnextsiblingfilterfactory
-f1_keywords:
- - "ks/KsFilterFactoryGetNextSiblingFilterFactory"
- - "KsFilterFactoryGetNextSiblingFilterFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ks.h
-api_name:
-- KsFilterFactoryGetNextSiblingFilterFactory
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsFilterFactoryGetNextSiblingFilterFactory
+ - ks/KsFilterFactoryGetNextSiblingFilterFactory
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ks.h
+api_name:
+ - KsFilterFactoryGetNextSiblingFilterFactory
 ---
 
 # KsFilterFactoryGetNextSiblingFilterFactory function
@@ -46,42 +46,24 @@ req.typenames:
 
 ## -description
 
-
 The<b> KsFilterFactoryGetNextSiblingFilterFactory</b> function returns the next filter factory belonging to the parent device of <i>FilterFactory</i>.
-
 
 ## -parameters
 
+### -param FilterFactory 
 
-
-
-### -param FilterFactory [in]
-
+[in]
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> for which to return the next filter factory of its parent device.
-
 
 ## -returns
 
-
-
 <b>KsFilterFactoryGetNextSiblingFilterFactory</b> returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure that represents the next sibling filter factory of <i>FilterFactory</i>. If no such filter factory exists, <b>NULL</b> is returned.
-
-
-
 
 ## -remarks
 
-
-
 This call is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetnextsibling">KsGetNextSibling</a>. Note that the object hierarchy is guaranteed to be stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>
 
@@ -92,7 +74,4 @@ This call is an inline function call to <a href="https://docs.microsoft.com/wind
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetnextsibling">KsGetNextSibling</a>
- 
-
- 
 

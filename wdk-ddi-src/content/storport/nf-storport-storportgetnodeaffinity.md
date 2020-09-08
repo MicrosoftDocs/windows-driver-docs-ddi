@@ -8,9 +8,6 @@ ms.assetid: 183940c9-f8d9-411f-a593-e283f72e05f8
 ms.date: 03/29/2018
 keywords: ["StorPortGetNodeAffinity function"]
 ms.keywords: StorPortGetNodeAffinity, StorPortGetNodeAffinity routine [Storage Devices], storage.storportgetnodeaffinity, storport/StorPortGetNodeAffinity, storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml
-f1_keywords:
- - "storport/StorPortGetNodeAffinity"
- - "StorPortGetNodeAffinity"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- storport.h
-api_name:
-- StorPortGetNodeAffinity
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - StorPortGetNodeAffinity
+ - storport/StorPortGetNodeAffinity
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - storport.h
+api_name:
+ - StorPortGetNodeAffinity
 ---
 
 # StorPortGetNodeAffinity function
@@ -46,33 +46,26 @@ req.typenames:
 
 ## -description
 
-
 The <b>StorPortGetNodeAffinity</b> routine constructs a mask of the active processors in a requested non-uniform memory access (NUMA) node.
-
 
 ## -parameters
 
+### -param HwDeviceExtension 
 
-
-
-### -param HwDeviceExtension [in]
-
+[in]
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
+### -param NodeNumber 
 
-### -param NodeNumber [in]
-
+[in]
 The NUMA node from which to return the processor mask.
 
+### -param NodeAffinityMask 
 
-### -param NodeAffinityMask [out]
-
+[out]
 A pointer to a variable that holds the affinity mask of the given node.
 
-
 ## -returns
-
-
 
 The <b>StorPortGetNodeAffinity</b>routine returns one of the following status codes:
 
@@ -115,7 +108,4 @@ The operation fails with this return value if one or more of the parameters are 
 </td>
 </tr>
 </table>
- 
-
-
 

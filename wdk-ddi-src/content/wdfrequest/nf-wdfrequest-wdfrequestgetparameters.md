@@ -8,9 +8,6 @@ ms.assetid: 7d9924a9-23b6-4bec-95f0-cebc3e99fda4
 ms.date: 02/26/2018
 keywords: ["WdfRequestGetParameters function"]
 ms.keywords: DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, WdfRequestGetParameters, WdfRequestGetParameters method, kmdf.wdfrequestgetparameters, wdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters
-f1_keywords:
- - "wdfrequest/WdfRequestGetParameters"
- - "WdfRequestGetParameters"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal
@@ -28,20 +25,23 @@ req.type-library:
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Wdf01000.sys
-- Wdf01000.sys.dll
-- WUDFx02000.dll
-- WUDFx02000.dll.dll
-api_name:
-- WdfRequestGetParameters
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - WdfRequestGetParameters
+ - wdfrequest/WdfRequestGetParameters
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Wdf01000.sys
+ - Wdf01000.sys.dll
+ - WUDFx02000.dll
+ - WUDFx02000.dll.dll
+api_name:
+ - WdfRequestGetParameters
 ---
 
 # WdfRequestGetParameters function
@@ -49,26 +49,21 @@ req.typenames:
 
 ## -description
 
-
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfRequestGetParameters</b> method retrieves the parameters that are associated with a specified framework request object.
 
-
 ## -parameters
 
+### -param Request 
 
+[in]
+A handle to a framework request object.
 
+### -param Parameters 
 
-### -param Request [in]
-
-A handle to a framework request object. 
-
-
-### -param Parameters [out]
-
+[out]
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_parameters_init">WDF_REQUEST_PARAMETERS_INIT</a> routine initialized and filled in.
-
 
 ## -remarks
 
@@ -87,12 +82,7 @@ For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="https:
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a>
 
@@ -103,7 +93,4 @@ For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="https:
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestwdmgetirp">WdfRequestWdmGetIrp</a>
- 
-
- 
 

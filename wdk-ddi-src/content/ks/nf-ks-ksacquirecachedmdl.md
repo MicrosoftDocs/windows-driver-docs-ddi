@@ -8,9 +8,6 @@ ms.assetid: C6C693CC-D9C0-4EE8-9F8C-07D8665C673D
 ms.date: 04/23/2018
 keywords: ["KsAcquireCachedMdl function"]
 ms.keywords: GUID, KsAcquireCachedMdl, KsAcquireCachedMdl function [Streaming Media Devices], PVOID, ks/KsAcquireCachedMdl, stream.ksacquirecachedmdl
-f1_keywords:
- - "ks/KsAcquireCachedMdl"
- - "KsAcquireCachedMdl"
 req.header: ks.h
 req.include-header: 
 req.target-type: Universal
@@ -28,21 +25,25 @@ req.type-library:
 req.lib: Ks.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- ks.lib
-- ks.dll
-api_name:
-- KsAcquireCachedMdl
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - KsAcquireCachedMdl
+ - ks/KsAcquireCachedMdl
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - ks.lib
+ - ks.dll
+api_name:
+ - KsAcquireCachedMdl
 ---
 
 # KsAcquireCachedMdl function
+
 
 ## -description
 
@@ -100,3 +101,4 @@ Return value: The resultant MDL if KS finds the MDL stored for the sample buffer
 ## -returns
 
  Returns STATUS_SUCCESS for success conditions.
+

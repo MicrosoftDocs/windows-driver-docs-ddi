@@ -28,8 +28,8 @@ targetos: Windows
 tech.root: display
 req.typenames: 
 f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033"
- - "PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033"
+ - PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
+ - d3d12umddi/PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
 topic_type:
  - APIRef
  - kbSyntax
@@ -44,6 +44,7 @@ product:
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 callback function
+
 
 ## -description
 

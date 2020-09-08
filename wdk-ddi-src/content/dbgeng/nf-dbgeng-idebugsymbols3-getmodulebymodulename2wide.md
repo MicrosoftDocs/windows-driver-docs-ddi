@@ -8,9 +8,6 @@ ms.assetid: 49e27e24-d38a-4a22-a92f-33a384437250
 ms.date: 05/03/2018
 keywords: ["IDebugSymbols3::GetModuleByModuleName2Wide"]
 ms.keywords: GetModuleByModuleName2Wide, GetModuleByModuleName2Wide method [Windows Debugging], GetModuleByModuleName2Wide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleByModuleName2Wide method, IDebugSymbols3.GetModuleByModuleName2Wide, IDebugSymbols3::GetModuleByModuleName2Wide, dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide, debugger.getmodulebymodulename2wide
-f1_keywords:
- - "dbgeng/IDebugSymbols3.GetModuleByModuleName2Wide"
- - "IDebugSymbols3.GetModuleByModuleName2Wide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dbgeng.h
-api_name:
-- IDebugSymbols3.GetModuleByModuleName2Wide
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - IDebugSymbols3::GetModuleByModuleName2Wide
+ - dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dbgeng.h
+api_name:
+ - IDebugSymbols3.GetModuleByModuleName2Wide
 ---
 
 # IDebugSymbols3::GetModuleByModuleName2Wide
@@ -46,27 +46,23 @@ req.typenames:
 
 ## -description
 
-
 The <b>GetModuleByModuleName2Wide</b>  method searches through the process's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">modules</a> for one with the specified name.
-
 
 ## -parameters
 
+### -param Name 
 
-
-
-### -param Name [in]
-
+[in]
 Specifies the name of the desired module.
 
+### -param StartIndex 
 
-### -param StartIndex [in]
-
+[in]
 Specifies the index to start searching from.
 
+### -param Flags 
 
-### -param Flags [in]
-
+[in]
 Specifies a bit-set containing options used when searching for the module with the specified name.  <i>Flags</i> may contain the following bit-flags:
 
 <table>
@@ -95,22 +91,18 @@ Do not search the unloaded modules.
 </td>
 </tr>
 </table>
- 
 
+### -param Index 
 
-### -param Index [out, optional]
-
+[out, optional]
 Receives the index of the first module with the name <i>Name</i>.  If <i>Index</i> is <b>NULL</b>, this information is not returned.
 
+### -param Base 
 
-### -param Base [out, optional]
-
+[out, optional]
 Receives the location in the target's memory address space of the base of the module.  If <i>Base</i> is <b>NULL</b>, this information is not returned.
 
-
 ## -returns
-
-
 
 This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
@@ -142,33 +134,18 @@ One of the arguments passed in was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Starting at the specified index, these methods return the first module they find with the specified name.  If the target has more than one module with this name, then subsequent modules can be found by repeated calls to these methods with higher values of <i>StartIndex</i>.  
 
 For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebymodulename">GetModuleByModuleName</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
- 
-
- 
 

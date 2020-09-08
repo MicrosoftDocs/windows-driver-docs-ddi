@@ -8,9 +8,6 @@ ms.assetid: 6350A740-BD69-40C3-804A-075F9889865B
 ms.date: 04/23/2018
 keywords: ["KSPROPERTY_QUALITY enumeration"]
 ms.keywords: KSPROPERTY_QUALITY, KSPROPERTY_QUALITY enumeration [Streaming Media Devices], KSPROPERTY_QUALITY_ERROR, KSPROPERTY_QUALITY_REPORT, ks/KSPROPERTY_QUALITY, ks/KSPROPERTY_QUALITY_ERROR, ks/KSPROPERTY_QUALITY_REPORT, stream.ksproperty_quality
-f1_keywords:
- - "ks/KSPROPERTY_QUALITY"
- - "KSPROPERTY_QUALITY"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows
@@ -28,17 +25,20 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ks.h
-api_name:
-- KSPROPERTY_QUALITY
 targetos: Windows
 req.typenames: KSPROPERTY_QUALITY
+f1_keywords:
+ - KSPROPERTY_QUALITY
+ - ks/KSPROPERTY_QUALITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ks.h
+api_name:
+ - KSPROPERTY_QUALITY
 ---
 
 # KSPROPERTY_QUALITY enumeration
@@ -46,19 +46,11 @@ req.typenames: KSPROPERTY_QUALITY
 
 ## -description
 
-
-
-
-
 ## -enum-fields
-
-
-
 
 ### -field KSPROPERTY_QUALITY_REPORT
 
 Specify if the pin supports quality management.
-
 
 ### -field KSPROPERTY_QUALITY_ERROR
 

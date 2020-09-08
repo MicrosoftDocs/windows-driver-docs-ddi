@@ -8,9 +8,6 @@ ms.assetid: 86b0845b-28fc-47d3-add8-dd3e8b8f631c
 ms.date: 02/23/2018
 keywords: ["MsrErrorReportingType enumeration"]
 ms.keywords: MsrErrorReportingType, MsrErrorReportingType enumeration, MsrErrorReportingType_CardLevel, MsrErrorReportingType_TrackLevel, _MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType_CardLevel, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, pos.msrerrorreportingtype
-f1_keywords:
- - "pointofservicedriverinterface/MsrErrorReportingType"
- - "MsrErrorReportingType"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
@@ -28,17 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- pointofservicedriverinterface.h
-api_name:
-- MsrErrorReportingType
 targetos: Windows
 req.typenames: MsrErrorReportingType
+f1_keywords:
+ - _MsrErrorReportingType
+ - pointofservicedriverinterface/_MsrErrorReportingType
+ - MsrErrorReportingType
+ - pointofservicedriverinterface/MsrErrorReportingType
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - pointofservicedriverinterface.h
+api_name:
+ - MsrErrorReportingType
 ---
 
 # _MsrErrorReportingType enumeration
@@ -46,19 +48,13 @@ req.typenames: MsrErrorReportingType
 
 ## -description
 
-
 This enumeration defines the constants that indicate the error reporting type for the magnetic stripe reader (MSR).
 
-
 ## -enum-fields
-
-
-
 
 ### -field MsrErrorReportingType_CardLevel
 
 Reports errors at the card level.
-
 
 ### -field MsrErrorReportingType_TrackLevel
 
