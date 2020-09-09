@@ -54,7 +54,7 @@ The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.
 
 ### -field Format
 
-Specifies the stream's wave-data format. This member is a structure of type [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex). The **wFormat** member of WAVEFORMATEX should be set to WAVE_FORMAT_EXTENSIBLE. The **wBitsPerSample** member of WAVEFORMATEX is defined unambiguously as the size of the container for each sample. Sample containers are always byte-aligned, and **wBitsPerSample** must be a multiple of eight.
+Specifies the stream's wave-data format. This member is a structure of type [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex). The **wFormat** member of WAVEFORMATEX should be set to WAVE_FORMAT_EXTENSIBLE. The **wBitsPerSample** member of WAVEFORMATEX is defined unambiguously as the size of the container for each sample. Sample containers are always byte-aligned, and **wBitsPerSample** must be a multiple of eight.
 
 ### -field Samples
 
@@ -80,7 +80,7 @@ Specifies the subformat. For more information, see the [Remarks](#remarks) secti
 
 ## -remarks
 
-WAVEFORMATEXTENSIBLE is an extended form of the [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex) structure. WAVEFORMATEX can unambiguously describe only a subset of the formats that can be described by WAVEFORMATEXTENSIBLE. WAVEFORMATEXTENSIBLE is not subject to the limitations of WAVEFORMATEX, which is unable to unambiguously specify formats with more than two channels or for which the number of valid bits per sample does not equal the sample container size. For more information, see [Audio Data Formats and Data Ranges](https://docs.microsoft.com/windows-hardware/drivers/audio/audio-data-formats-and-data-ranges).
+WAVEFORMATEXTENSIBLE is an extended form of the [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure. WAVEFORMATEX can unambiguously describe only a subset of the formats that can be described by WAVEFORMATEXTENSIBLE. WAVEFORMATEXTENSIBLE is not subject to the limitations of WAVEFORMATEX, which is unable to unambiguously specify formats with more than two channels or for which the number of valid bits per sample does not equal the sample container size. For more information, see [Audio Data Formats and Data Ranges](https://docs.microsoft.com/windows-hardware/drivers/audio/audio-data-formats-and-data-ranges).
 
 Frequently, the **wValidBitsPerSample** member, which specifies the sample precision, contains the same value as the **Format**.**wBitsPerSample** member, which specifies the sample container size. However, these values can be different. For example, if the wave data originated from a 20-bit A/D converter, then **wValidBitsPerSample** should be 20 but **Format**.**wBitsPerSample** might be 24 or 32. If **wValidBitsPerSample** is less than **Format**.**wBitsPerSample**, the valid bits (the actual PCM data) are left-aligned within the container. The unused bits in the least-significant portion of the container should be set to zero.
 
@@ -113,7 +113,7 @@ The channels that are specified in **dwChannelMask** should be present in the or
 
 For example, if only front-left and front-center are specified, then front-left and front-center should be in channels 0 and 1, respectively, of the interleaved stream.
 
-As a second example, if **nChannels** (in the **Format** member; see [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex)) is set to 4 and **dwChannelMask** is set to 0x00000033, the audio channels are intended for playback to the front-left, front-right, back-left, and back-right speakers. The channel data should be interleaved in that order within each block.
+As a second example, if **nChannels** (in the **Format** member; see [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex)) is set to 4 and **dwChannelMask** is set to 0x00000033, the audio channels are intended for playback to the front-left, front-right, back-left, and back-right speakers. The channel data should be interleaved in that order within each block.
 
 Channel locations beyond the predefined ones are considered reserved.
 
@@ -141,7 +141,7 @@ KSAUDIO_SPEAKER_DIRECTOUT represents a configuration with no speakers and is def
 
 For more information about multichannel configurations, see the white paper titled *Multiple Channel Audio Data and WAVE Files* at the [audio technology](https://go.microsoft.com/fwlink/p/?linkid=8751) website.
 
-The **SubFormat** member contains a GUID that specifies the general data format for a wave stream. For example, this GUID might specify that the stream contains integer PCM data. The other members provide additional information such as the sample size and the number of channels. The meaning of the **SubFormat** GUID is similar to that of the 16-bit format tag in the [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex) structure's **wFormatTag** member.
+The **SubFormat** member contains a GUID that specifies the general data format for a wave stream. For example, this GUID might specify that the stream contains integer PCM data. The other members provide additional information such as the sample size and the number of channels. The meaning of the **SubFormat** GUID is similar to that of the 16-bit format tag in the [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure's **wFormatTag** member.
 
 Before WAVEFORMATEXTENSIBLE was introduced in Windows 98 Second Edition, WAVEFORMATEX was the preferred structure for specifying wave formats. At that time, vendors needed to register each new wave format with Microsoft so that an official format tag could be assigned to the format. A list of registered format tags appears in public header file *Mmreg.h*.
 
@@ -166,5 +166,5 @@ Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can desc
 
 [KSAUDIO_CHANNEL_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_channel_config)
 
-[WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex)
+[WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex)
 
