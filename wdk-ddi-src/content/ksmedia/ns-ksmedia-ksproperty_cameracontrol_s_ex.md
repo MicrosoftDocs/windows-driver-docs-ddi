@@ -129,7 +129,7 @@ If set, indicates that when the application submits a query, the driver should r
 
 ### -field FocusRect
 
-A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows desktop applications.
+A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows desktop applications.
 
 ## -remarks
 
@@ -157,5 +157,5 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rect">RECT</a>
 

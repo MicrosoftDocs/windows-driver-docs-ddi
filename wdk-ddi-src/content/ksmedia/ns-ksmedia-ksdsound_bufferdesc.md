@@ -126,7 +126,7 @@ Indicates that the buffer has position-notification capability. If this bit is s
 
 ### -field WaveFormatEx
 
-Specifies the wave-data format of the buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>.
+Specifies the wave-data format of the buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>.
 
 ## -remarks
 
@@ -160,7 +160,7 @@ Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure ca
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
 
 
 
