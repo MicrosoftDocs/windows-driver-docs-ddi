@@ -60,7 +60,7 @@ Caller-supplied size, in bytes, of the structure pointed to by <i>pded</i>.
 
 ### -param pded
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure.
 
 ## -returns
 
@@ -114,7 +114,7 @@ Like the <b>DrvEnableDriver</b> function, the <code>IPrintOemPS::EnableDriver</c
 
 <div class="alert"><b>Note</b>     If you implement <code>IPrintOemPS::EnableDriver</code>, you must also implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disabledriver">IPrintOemPS::DisableDriver</a>. Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in <code>IPrintOemPS::EnableDriver</code>, but not deallocated in <b>IPrintOemPS::DisableDriver</b>, a memory leak can occur.</div>
 <div> </div>
-The method should fill the supplied <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure and allocate an array of <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_drvfn">DRVFN</a> structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
+The method should fill the supplied <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure and allocate an array of <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-drvfn">DRVFN</a> structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
 
 A rendering plug-in for Pscript5 can hook out a graphics DDI function only if the Pscript5 driver defines the function. The following graphics DDI functions are defined in Pscript5 and or Unidrv and can therefore be hooked out:
 
@@ -155,7 +155,7 @@ Customized hooking functions have the same input and output parameters as the eq
 
 <ol>
 <li>
-As the contents of the <b>dhpdev</b> member of a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure for the destination surface.
+As the contents of the <b>dhpdev</b> member of a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure for the destination surface.
 
 For the equivalent customized hooking function, the destination SURFOBJ structure's <b>dhpdev</b> member points to a DEVOBJ structure, and must be cast to type PDEVOBJ when referenced. An example graphics DDI function is <b>DrvBitBlt</b>.
 

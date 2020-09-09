@@ -96,13 +96,13 @@ In this example, widths for the first three glyphs of the font are contained in 
 
 If a device font is proportional and has variable pitch characters, the WIDTHTABLE structure's <b>WidthRun</b> array contains only one WIDTHRUN element, and WIDTHTABLE+<b>loCharWidthOffset</b> points to a character width array for all characters in the font.
 
-For Western device fonts, the <b>fwdAveCharWidth</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure is used for determining single-byte character widths, if the character widths are not specified using a WIDTHTABLE structure.
+For Western device fonts, the <b>fwdAveCharWidth</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure is used for determining single-byte character widths, if the character widths are not specified using a WIDTHTABLE structure.
 
 For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b> members of the IFIMETRICS structure are used for determining single-byte and double-byte character widths. If the font is proportional, the font's .ufm file should contain a WIDTHTABLE structure for the proportional glyphs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
 
 
 
