@@ -88,7 +88,7 @@ Pointer to the rendering plug-in's private DEVMODEW structure members. Supplied 
 
 ## -remarks
 
-The DEVOBJ structure is accessible to graphics DDI hooking functions through the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure's <b>dhpdev</b> member. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>.
+The DEVOBJ structure is accessible to graphics DDI hooking functions through the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure's <b>dhpdev</b> member. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>.
 
 ## -see-also
 
@@ -112,5 +112,5 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_surfobj">SURFOBJ</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
 

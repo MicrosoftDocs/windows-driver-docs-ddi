@@ -66,11 +66,11 @@ Specifies the number of glyphs represented by the glyph run.
 
 A .gtt (glyph translation table) file contains an array of GLYPHRUN structures. Each structure identifies a set of Unicode values for which the printer provides glyphs. The array is described by the <b>IoRunOffset</b> and <b>dwRunCount</b> members of a .gtt file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure.
 
-The GLYPHRUN structures must be defined in ascending order, based on the value of <b>wcLow</b>. Unidrv uses the GLYPHRUN array to generate glyph handles. Unidrv stores these glyph handles in a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_wcrun">WCRUN</a> array within an <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fd_glyphset">FD_GLYPHSET</a> structure.
+The GLYPHRUN structures must be defined in ascending order, based on the value of <b>wcLow</b>. Unidrv uses the GLYPHRUN array to generate glyph handles. Unidrv stores these glyph handles in a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-wcrun">WCRUN</a> array within an <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fd_glyphset">FD_GLYPHSET</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
 
 
 
@@ -78,5 +78,5 @@ The GLYPHRUN structures must be defined in ascending order, based on the value o
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_wcrun">WCRUN</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-wcrun">WCRUN</a>
 

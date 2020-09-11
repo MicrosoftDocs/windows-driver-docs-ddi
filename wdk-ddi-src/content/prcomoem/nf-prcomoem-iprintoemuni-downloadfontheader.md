@@ -119,7 +119,7 @@ Referencing the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 </li>
 <li>
-Calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function to get the font's <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure.
+Calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function to get the font's <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure.
 
 </li>
 </ul>
