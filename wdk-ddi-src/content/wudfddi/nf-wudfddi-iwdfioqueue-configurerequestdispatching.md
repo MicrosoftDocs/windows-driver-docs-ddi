@@ -75,23 +75,18 @@ The driver can call the <b>ConfigureRequestDispatching</b> method multiple times
 
 The following code example shows how to configure forwarding for IOCTL requests.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    //
+
+```
+    //
     // Configure forwarding for IOCTL requests
     //
     HRESULT hr = m_FxQueue->ConfigureRequestDispatching(
                                                         WdfRequestDeviceIoControl,
                                                         true
                                                         );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

@@ -103,25 +103,16 @@ To define a callback routine, you must first provide a function declaration that
 
 For example, to define an <i>AdapterControl</i> callback routine that is named <code>MyAdapterControl</code>, use the DRIVER_CONTROL type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DRIVER_CONTROL MyAdapterControl;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+DRIVER_CONTROL MyAdapterControl;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 IO_ALLOCATION_ACTION
  MyAdapterControl(
     struct _DEVICE_OBJECT  *DeviceObject,
@@ -131,10 +122,9 @@ IO_ALLOCATION_ACTION
     )
   {
       // Function body
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 
 ## -see-also
 

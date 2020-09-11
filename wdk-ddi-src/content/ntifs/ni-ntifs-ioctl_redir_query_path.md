@@ -49,16 +49,11 @@ api_name:
 The <b>IOCTL_REDIR_QUERY_PATH</b> control code is sent by the multiple UNC provider (MUP) to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request. This request is referred to as "prefix resolution."
 
 MUP is a kernel-mode component responsible for channeling all remote file system accesses that use a UNC name to a network redirector (the UNC provider) capable of handling the remote file system requests. MUP is involved when a UNC path is used as illustrated by the following example that could be executed from a command line:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>notepad \\server\public\readme.txt</pre>
-</td>
-</tr>
-</table></span></div>MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
+
+```
+notepad \\server\public\readme.txt
+```
+MUP is not involved during an operation that creates a mapped drive letter (the "NET USE" command, for example). This operation is handled by the multiple provider router (MPR) and a user-mode WNet provider DLL for the network redirector. However, a user-mode WNet provider DLL might communicate directly with a kernel-mode network redirector driver during this operation.
 
 On Windows Server 2003, Windows XP, and Windows 2000, remote file operations that are performed on a mapped drive that does not represent a Distributed File System (DFS) drive don't go through MUP. These operations go directly to the network provider that handled the drive letter mapping.
 
@@ -84,20 +79,15 @@ The provider and the prefix that it claimed are entered in a prefix cache that i
 
 <b>IrpSp->Parameters.DeviceIoControl.Type3InputBuffer</b> is set to a <b>QUERY_PATH_REQUEST</b> data structure that contains the request. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _QUERY_PATH_REQUEST {
+
+```
+typedef struct _QUERY_PATH_REQUEST {
   ULONG  PathNameLength;
   PIO_SECURITY_CONTEXT SecurityContext;
   WCHAR  FilePathName[1];
-} QUERY_PATH_REQUEST, *PQUERY_PATH_REQUEST;</pre>
-</td>
-</tr>
-</table></span></div>
+} QUERY_PATH_REQUEST, *PQUERY_PATH_REQUEST;
+```
+
 <table>
 <tr>
 <th>Structure member</th>
@@ -141,18 +131,13 @@ A non-NULL terminated Unicode string of the form \<server>\<share>\<path>. The l
 
 <b>IRP->UserBuffer</b> is set to a <b>QUERY_PATH_REQUEST</b> data structure that contains the response.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _QUERY_PATH_RESPONSE {
+
+```
+typedef struct _QUERY_PATH_RESPONSE {
   ULONG  LengthAccepted;
-} QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;</pre>
-</td>
-</tr>
-</table></span></div>
+} QUERY_PATH_RESPONSE, *PQUERY_PATH_RESPONSE;
+```
+
 <table>
 <tr>
 <th>Structure member</th>

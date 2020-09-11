@@ -60,18 +60,13 @@ A pointer to the object for which the name is requested. This parameter is requi
 [out, optional]
 A pointer to a caller-allocated buffer, of the following type, that receives the object name information: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _OBJECT_NAME_INFORMATION {
+
+```
+typedef struct _OBJECT_NAME_INFORMATION {
   UNICODE_STRING Name;
-} OBJECT_NAME_INFORMATION, *POBJECT_NAME_INFORMATION;</pre>
-</td>
-</tr>
-</table></span></div>
+} OBJECT_NAME_INFORMATION, *POBJECT_NAME_INFORMATION;
+```
+
 This parameter is optional and can be <b>NULL</b>. If <i>ObjectNameInfo</i> is <b>NULL</b>, <i>Length</i> must be zero.
 
 ### -param Length 

@@ -68,13 +68,9 @@ For more information about framework file objects, see <a href="https://docs.mic
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 STDMETHODCALLTYPE
 CMyQueue::OnCreateFile(
     __in IWDFIoQueue *pWdfQueue,
@@ -97,10 +93,9 @@ CMyQueue::OnCreateFile(
     pWdfFileObject3->GetInitiatorProcessId(&initiatorProcessId);
     ...
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

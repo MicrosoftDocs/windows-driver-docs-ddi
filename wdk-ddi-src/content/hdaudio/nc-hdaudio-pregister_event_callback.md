@@ -106,18 +106,13 @@ Currently, the bus driver can supply up to 64 unique tags per codec.
 
 The callback parameter is a function pointer to a callback routine in the function driver. The function pointer type for the callback routine is defined as:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```
+typedef VOID
   (*PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK)
-    (HDAUDIO_CODEC_RESPONSE, PVOID);</pre>
-</td>
-</tr>
-</table></span></div>
+    (HDAUDIO_CODEC_RESPONSE, PVOID);
+```
+
 The first call parameter is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_response">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value. The second call parameter is the <i>callbackContext</i> value that was passed previously to <i>RegisterEventCallback</i>. The HD Audio bus driver calls the callback routine at IRQL DISPATCH_LEVEL.
 
 ## -see-also

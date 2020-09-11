@@ -72,13 +72,9 @@ Review any code that currently references <b>KeNumberProcessors</b> to make sure
 
 You can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/pnpcpu">PNPCPU</a> tool to simulate hot adding a CPU for testing purposes.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if (NTDDI_VERSION >= NTDDI_VISTA)
+
+```cpp
+#if (NTDDI_VERSION >= NTDDI_VISTA)
 extern NTSYSAPI volatile CCHAR KeNumberProcessors;
 #else
 #if (NTDDI_VERSION >= NTDDI_WINXP)
@@ -86,10 +82,9 @@ extern NTSYSAPI CCHAR KeNumberProcessors;
 #else
 extern PCCHAR KeNumberProcessors;
 #endif
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
 Starting with Windows XP, <b>KeNumberProcessors</b> is an 8-bit integer value that indicates the number of processors in the platform. In earlier versions of Windows, <b>KeNumberProcessors</b> is a pointer to an 8-bit integer value that indicates the number of processors in the platform.
 
 ## -see-also

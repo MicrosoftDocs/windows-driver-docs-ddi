@@ -77,20 +77,15 @@ For more information about <b>IsCanceled</b>, see <a href="https://docs.microsof
 
 In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the driver completes the I/O request by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-complete">IWDFIoRequest::Complete</a> with a completion status of HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED).
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (fxRequest2->IsCanceled())
+
+```
+if (fxRequest2->IsCanceled())
 {
     fxRequest2->Complete(HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED));
 }
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
+
 
 ## -see-also
 

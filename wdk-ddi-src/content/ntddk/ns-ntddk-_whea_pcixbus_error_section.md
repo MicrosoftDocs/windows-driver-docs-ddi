@@ -124,22 +124,17 @@ This member contains valid data only if the <b>ValidBits.ErrorType</b> bit is se
 
 A WHEA_PCIXBUS_ID union that identifies the bus where the error occurred. The WHEA_PCIXBUS_ID union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_PCIXBUS_ID {
+
+```
+typedef union _WHEA_PCIXBUS_ID {
   struct {
     UCHAR  BusNumber;
     UCHAR  BusSegment;
   };
   USHORT  AsUSHORT;
-} WHEA_PCIXBUS_ID, *PWHEA_PCIXBUS_ID;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_PCIXBUS_ID, *PWHEA_PCIXBUS_ID;
+```
+
 
 
 
@@ -182,23 +177,18 @@ This member contains valid data only if the <b>ValidBits.BusData</b> bit is set.
 
 A WHEA_PCIXBUS_COMMAND union that contains the bus command when the error occurred. The WHEA_PCIXBUS_COMMAND union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_PCIXBUS_COMMAND {
+
+```
+typedef union _WHEA_PCIXBUS_COMMAND {
   struct {
     ULONGLONG  Command:56;
     ULONGLONG  PCIXCommand:1;
     ULONGLONG  Reserved:7;
   };
   ULONGLONG  AsULONGLONG;
-} WHEA_PCIXBUS_COMMAND, *PWHEA_PCIXBUS_COMMAND;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA_PCIXBUS_COMMAND, *PWHEA_PCIXBUS_COMMAND;
+```
+
 
 
 

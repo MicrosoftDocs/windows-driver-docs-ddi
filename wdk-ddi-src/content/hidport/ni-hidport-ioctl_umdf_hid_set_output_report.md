@@ -56,21 +56,16 @@ The <b>IOCTL_UMDF_HID_SET_OUTPUT_REPORT</b>
 A UMDF-based driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFRequest::GetInputMemory</a> to retrieve a  requester-allocated input buffer that contains an output report. 
 
 
-The driver retrieves the report ID associated with the top-level collection by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getdeviceiocontrolparameters">IWDFRequest::GetDeviceIoControlParameters</a> and providing the  <i>pOutBufferSize</i> parameter, as shown in the following example.<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UCHAR reportId;
+The driver retrieves the report ID associated with the top-level collection by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getdeviceiocontrolparameters">IWDFRequest::GetDeviceIoControlParameters</a> and providing the  <i>pOutBufferSize</i> parameter, as shown in the following example.
+```
+UCHAR reportId;
 SIZE_T outBufferSize;
 
 FxRequest->GetDeviceIoControlParameters(NULL, NULL, &outBufferSize);
 reportId = (UCHAR)outBufferSize;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ### -input-buffer-length
 

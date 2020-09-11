@@ -58,20 +58,15 @@ The GET_LOCAL_HOST_INFO4 structure contains the data returned by a <a href="http
 
 Pointer to the physical address mapping routine, which is of type: 
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
 PhysAddrMappingRoutine ( 
     IN PVOID Context,
     IN OUT PIRB Irb
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 The physical mapping routine is invoked on an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a> IRB. It fills in the <b>u.AllocateAddressRange.pAddressRange</b> member with the physical addresses that the <b>u.AllocateAddressRange.Mdl</b> member of the IRB are mapped to. The proper value for the <i>Context</i> parameter is the <b>Context</b> member below.
 
 ### -field Context

@@ -111,13 +111,9 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 The function type is declared in <i>Wudfinterrupt.h</i>, as follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 BOOLEAN
 WUDF_INTERRUPT_ISR(
     _In_
@@ -128,41 +124,30 @@ WUDF_INTERRUPT_ISR(
     ULONG Reserved
     );
 
-typedef WUDF_INTERRUPT_ISR *PFN_WUDF_INTERRUPT_ISR;</pre>
-</td>
-</tr>
-</table></span></div>
+typedef WUDF_INTERRUPT_ISR *PFN_WUDF_INTERRUPT_ISR;
+```
+
 To define an <i>OnInterruptIsr</i> callback function that is named <i>MyInterruptIsr</i>, you must first provide a function declaration that SDV and other verification tools require, as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WUDF_INTERRUPT_NOTIFY  MyInterruptIsr;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+WUDF_INTERRUPT_NOTIFY  MyInterruptIsr;
+```
+
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN
+
+```
+BOOLEAN
   MyInterruptIsr (
     IN IWDFInterrupt*  pInterrupt,
     IN ULONG  MessageID,
     IN ULONG Reserved
     )
   {…}
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

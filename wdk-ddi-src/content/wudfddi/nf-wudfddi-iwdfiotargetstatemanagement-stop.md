@@ -96,13 +96,9 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallback-ond0exit">IPnpCallback::OnD0Exit</a> callback function can call <b>Stop</b>, if the driver uses a continuous reader for a USB pipe. (To see how to obtain the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotargetstatemanagement">IWDFIoTargetStateManagement</a> interface, see the code example at <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiotargetstatemanagement-start">IWDFIoTargetStateManagement::Start</a>.)
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```
+HRESULT
 CMyDevice::OnD0Exit(
     __in IWDFDevice*  pWdfDevice,
     __in WDF_POWER_DEVICE_STATE  previousState
@@ -111,10 +107,9 @@ CMyDevice::OnD0Exit(
     HRESULT hr;
     hr = m_pIoTargetInterruptPipeStateMgmt->Stop(WdfIoTargetCancelSentIo);
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

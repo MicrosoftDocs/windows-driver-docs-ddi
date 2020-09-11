@@ -78,13 +78,9 @@ If the <i>Action</i> parameter is set to <b>UsbfnActionDetectProprietaryCharger<
 
 The following snippet shows how a client driver calls <b>UfxDevicePortDetectCompleteEx</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    switch (OnAttach.AttachAction) {
+
+```
+    switch (OnAttach.AttachAction) {
     case UsbfnPortDetected:
         TraceInformation("Port Detected");
         UfxDevicePortDetectComplete(
@@ -102,8 +98,7 @@ The following snippet shows how a client driver calls <b>UfxDevicePortDetectComp
 
         break;
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

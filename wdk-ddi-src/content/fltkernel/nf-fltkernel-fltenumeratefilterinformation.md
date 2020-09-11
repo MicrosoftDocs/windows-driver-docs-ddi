@@ -174,23 +174,18 @@ Starting with Microsoft Windows Server 2003 SP1 and Windows XP SP2 with filt
 
 The following pseudocode enumerates filter information for all registered filter drivers.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define InfoClass FilterAggregateStandardInformation   // Assumes Windows Vista or later operating system.
+
+```
+#define InfoClass FilterAggregateStandardInformation   // Assumes Windows Vista or later operating system.
 
 int i = 0;
 while ( FltEnumerateFilterInformation(i, InfoClass, ...) != STATUS_NO_MORE_ENTRIES )
 {
  Process acquired filter driver information returned by the Buffer parameter of FltEnumerateFilterInformation, if applicable.
  i++;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 <b>FltEnumerateFilterInformation</b> returns information about registered filter drivers, through the <i>Buffer</i> parameter, in order of decreasing distance from the underlying file system.  For example, assume that there are <i>n</i> filter drivers attached above an underlying file system.  Information about the filter driver attached farthest from the file system is returned first (with an <i>Index</i> parameter value of 0).  Information about the next-farthest attached filter driver is returned second (with an <i>Index</i> parameter value of 1), and so on.  Finally, information about the filter driver closest to the file system is returned last (with an <i>Index</i> parameter value of <i>n</i>-1).
 
 <div class="alert"><b>Note</b>    Because filter drivers can register at any time, it is possible that two calls to <b>FltEnumerateFilterInformation</b> with the same <i>Index</i> might not return the same result. </div>

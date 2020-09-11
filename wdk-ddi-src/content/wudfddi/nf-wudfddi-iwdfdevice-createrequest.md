@@ -104,13 +104,9 @@ If <b>NULL</b> is specified in the <i>pParentObject</i> parameter, the device ob
 
 The following code example shows how to create a request, format the request for reading, and send the request on.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```
+HRESULT
 CUmdfHidDevice::SendInterruptPipeRead(
     VOID
     )
@@ -148,10 +144,9 @@ CUmdfHidDevice::SendInterruptPipeRead(
     }
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

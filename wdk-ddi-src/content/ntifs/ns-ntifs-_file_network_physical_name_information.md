@@ -86,13 +86,9 @@ If the physical name is longer than the length set in <b>FileNameLength</b>, the
 <div> </div>
 The following is an example of querying the network physical name  information of a file target using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS GetPhysicalNetworkName(HANDLE Target, WCHAR *NetworkName, ULONG MaxNetworkNameLength)
+
+```cpp
+NTSTATUS GetPhysicalNetworkName(HANDLE Target, WCHAR *NetworkName, ULONG MaxNetworkNameLength)
 {
     NTSTATUS Status;
     IO_STATUS_BLOCK IoStatus;
@@ -161,10 +157,9 @@ The following is an example of querying the network physical name  information o
 
     return Status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

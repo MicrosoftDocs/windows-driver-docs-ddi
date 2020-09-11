@@ -195,25 +195,16 @@ To define a <i>ProtocolReceiveNetBufferLists</i> function, you must first provid
 
 For example, to define a <i>ProtocolReceiveNetBufferLists</i> function that is named "MyReceiveNetBufferLists", use the <b>PROTOCOL_RECEIVE_NET_BUFFER_LISTS</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_RECEIVE_NET_BUFFER_LISTS MyReceiveNetBufferLists;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+PROTOCOL_RECEIVE_NET_BUFFER_LISTS MyReceiveNetBufferLists;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 VOID
  MyReceiveNetBufferLists(
     NDIS_HANDLE  ProtocolBindingContext,
@@ -222,10 +213,9 @@ VOID
     ULONG  NumberOfNetBufferLists,
     ULONG ReceiveFlags
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>PROTOCOL_RECEIVE_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_RECEIVE_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

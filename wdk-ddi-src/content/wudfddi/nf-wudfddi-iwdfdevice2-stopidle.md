@@ -129,13 +129,9 @@ For more information about <b>StopIdle</b> and <a href="https://docs.microsoft.c
 
 The following code example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface and then calls <b>StopIdle</b>. <b>StopIdle</b> will return after the device enters the D0 device power state.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    IWDFDevice2 *pIWDFDevice2 = NULL;
+
+```
+    IWDFDevice2 *pIWDFDevice2 = NULL;
     HRESULT hr;
 
     //
@@ -148,10 +144,9 @@ The following code example obtains the <a href="https://docs.microsoft.com/windo
         hr = pIWDFDevice2->StopIdle(TRUE);
     }
 ...
-   SAFE_RELEASE(pIWDFDevice2);</pre>
-</td>
-</tr>
-</table></span></div>
+   SAFE_RELEASE(pIWDFDevice2);
+```
+
 
 ## -see-also
 

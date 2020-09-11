@@ -63,13 +63,9 @@ A pointer to a USB setup packet described in a <b>USB_DEFAULT_PIPE_SETUP_PACKET<
 
 The following example shows how to handle setup packet completion.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    if (ControlContext->SetupRequested) {
+
+```
+    if (ControlContext->SetupRequested) {
         TRACE_TRANSFER("COMPLETE (Setup)", Endpoint, NULL);
         
         ControlContext->SetupRequested = FALSE;
@@ -78,8 +74,7 @@ The following example shows how to handle setup packet completion.
         UfxEndpointNotifySetup(Endpoint, ControlContext->SetupPacket);
 
     } 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

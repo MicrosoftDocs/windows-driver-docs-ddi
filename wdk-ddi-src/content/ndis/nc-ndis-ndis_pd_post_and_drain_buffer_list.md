@@ -91,25 +91,16 @@ To define a <i>PDPostAndDrainBufferList</i> function, you must first provide a f
 
 For example, to define a <i>PDPostAndDrainBufferList</i> function that is named "MyPDPostAndDrainBufferList", use the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST MyPDPostAndDrainBufferList;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+NDIS_PD_POST_AND_DRAIN_BUFFER_LIST MyPDPostAndDrainBufferList;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 VOID
  MyPDPostAndDrainBufferList(
     NDIS_PD_QUEUE*  Queue,
@@ -117,23 +108,18 @@ VOID
     PD_BUFFER*** DrainBufferListTail,
     ULONG  MaxDrainCount
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> function type is defined in the Ntddndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 The following is an example code snippet that illustrates the pointer indirections for this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PD_BUFFER* PostHead = NULL;
+
+```cpp
+PD_BUFFER* PostHead = NULL;
 PD_BUFFER** PostTail = &PostHead;
 PD_BUFFER* DrainHead = NULL;
 PD_BUFFER** DrainTail = &DrainHead;
@@ -161,8 +147,7 @@ NDIS_PD_POST_AND_DRAIN_BUFFER_LIST(
 //PostTail == &bufZ->NextPDBuffer
 //DrainHead == buf1
 //DrainTail == &buf5->NextPDBuffer
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

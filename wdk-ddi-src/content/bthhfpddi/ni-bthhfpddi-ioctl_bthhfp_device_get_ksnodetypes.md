@@ -62,21 +62,16 @@ None.
 
 ### -output-buffer
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>struct
+
+```cpp
+struct
 {
     GUID OutputType;
     GUID InputType;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ### -output-buffer-length
 

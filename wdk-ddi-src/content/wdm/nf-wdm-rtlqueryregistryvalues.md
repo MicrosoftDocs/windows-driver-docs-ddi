@@ -158,13 +158,9 @@ Pointer to either an absolute registry path or a path relative to the known loca
 [in, out]
 Pointer to a table of one or more value names and subkey names in which the caller is interested. Each table entry contains the address of a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a> function that will be called for each value name that exists in the registry. The table must be terminated with a <b>NULL</b> table entry, which is a table entry with a <b>NULL</b> <b>QueryRoutine</b> member and a <b>NULL</b> <b>Name</b> member. The structure for query table entries is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _RTL_QUERY_REGISTRY_TABLE {
+
+```
+typedef struct _RTL_QUERY_REGISTRY_TABLE {
     PRTL_QUERY_REGISTRY_ROUTINE QueryRoutine;
     ULONG Flags;
     PWSTR Name;
@@ -172,10 +168,9 @@ Pointer to a table of one or more value names and subkey names in which the call
     ULONG DefaultType;
     PVOID DefaultData;
     ULONG DefaultLength;
-} RTL_QUERY_REGISTRY_TABLE, *PRTL_QUERY_REGISTRY_TABLE;</pre>
-</td>
-</tr>
-</table></span></div>
+} RTL_QUERY_REGISTRY_TABLE, *PRTL_QUERY_REGISTRY_TABLE;
+```
+
 If the caller allocates storage for the query table pointed to by the <i>QueryTable</i> parameter, the caller is responsible for releasing this storage after the <b>RtlQueryRegistryValues</b> call returns.
 
 
@@ -188,13 +183,9 @@ The address of a <i>QueryRoutine</i> function that is called with the name, type
 
 A <i>QueryRoutine</i> function is declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```
+NTSTATUS
 QueryRoutine (
     IN PWSTR ValueName,
     IN ULONG ValueType,
@@ -202,10 +193,9 @@ QueryRoutine (
     IN ULONG ValueLength,
     IN PVOID Context,
     IN PVOID EntryContext
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-rtl_query_registry_routine">QueryRoutine</a>.
 
 
@@ -423,21 +413,16 @@ The caller specifies an initial key path and a table. The table contains one or 
 <div> </div>
 If the RTL_QUERY_REGISTRY_TYPECHECK flag is set in a table entry, the caller must specify the expected REG_<i>XXX</i> type in the 8 most significant bits (MSBs) of the 32-bit <b>DefaultType</b> member of the table entry. As shown in the following code example, the RTL_QUERY_REGISTRY_TYPECHECK_SHIFT constant, which is defined to be 24, can be used as the shift count required to place the expected REG_<i>XXX</i> type in the 8 MSBs of the <b>DefaultType</b> member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RTL_QUERY_REGISTRY_TABLE QueryRegTable[2];    
+
+```cpp
+RTL_QUERY_REGISTRY_TABLE QueryRegTable[2];    
 ...
 QueryRegTable[0].DefaultType = (REG_SZ << RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
 ...
 QueryRegTable[1].DefaultType = (REG_DWORD << RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
+
 Starting with Windows 8, if an <b>RtlQueryRegistryValues</b> call accesses an untrusted hive, and the caller sets the RTL_QUERY_REGISTRY_DIRECT flag for this call, the caller must additionally set the RTL_QUERY_REGISTRY_TYPECHECK flag. A violation of this rule by a call from user mode causes an exception.  A violation of this rule by a call from kernel mode causes a 0x139 bug check (KERNEL_SECURITY_CHECK_FAILURE).
 
 Only system hives are trusted. An <b>RtlQueryRegistryValues</b> call that accesses a system hive does not cause an exception or a bug check if the RTL_QUERY_REGISTRY_DIRECT flag is set and the RTL_QUERY_REGISTRY_TYPECHECK flag is not set. However, as a best practice, the RTL_QUERY_REGISTRY_TYPECHECK flag should always be set if the RTL_QUERY_REGISTRY_DIRECT flag is set.
@@ -457,16 +442,11 @@ Support for the RTL_QUERY_REGISTRY_TYPECHECK flag is available through Windows U
 
 Starting with Windows Driver Kit (WDK) 8, the RTL_QUERY_REGISTRY_TYPECHECK flag is defined in the Wdm.h header file as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define RTL_QUERY_REGISTRY_TYPECHECK 0x00000100</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define RTL_QUERY_REGISTRY_TYPECHECK 0x00000100
+```
+
 If an entry does not specify the RTL_QUERY_REGISTRY_DIRECT flag, <b>RtlQueryRegistryValues</b> uses the specified <i>QueryRoutine</i> function to report the value name, type, data, and data length, in bytes, to the caller. If the <b>Name</b> member of the entry is <b>NULL</b>, <b>RtlQueryRegistryValues</b> reports every direct subkey of the key. If the key type is REG_MULTI_SZ and the RTL_QUERY_REGISTRY_NOEXPAND flag not is specified, the routine calls <i>QueryRoutine</i> separately for each individual string; otherwise the routine reports it as a single value. If an entry specifies the RTL_QUERY_REGISTRY_DIRECT flag, <b>RtlQueryRegistryValues</b> stores the value of the key in the buffer pointed to by the entry's <b>EntryContext</b> member. The format of the returned data is as follows.
 
 <table>

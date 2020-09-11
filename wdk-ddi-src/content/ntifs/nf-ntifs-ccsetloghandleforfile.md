@@ -65,20 +65,15 @@ Pointer to the log handle that is to be stored.
 [in]
 Pointer to a log file flush callback routine to call before flushing buffers for this file. This routine is called to ensure that a log file is flushed to the most recent logical sequence number (LSN) for any buffer control block (BCB) being flushed. This routine is declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID (*PFLUSH_TO_LSN) (
             IN PVOID LogHandle,
             IN LARGE_INTEGER Lsn
-            );</pre>
-</td>
-</tr>
-</table></span></div>
+            );
+```
+
 
 
 #### LogHandle

@@ -182,18 +182,13 @@ Following the call to <i>SetupDmaEngineWithBdl</i>, the DMA engine is in the Res
 
 Parameter <i>isr</i> specifies the ISR that the HD Audio bus driver is to call each time an IOC interrupt occurs on the stream. This parameter is a function pointer of type HDAUDIO_BDL_ISR, which is defined as:
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef void
+
+```cpp
+typedef void
   (*PHDAUDIO_BDL_ISR)
-    (IN VOID *Context, IN ULONG InterruptBitMask);</pre>
-</td>
-</tr>
-</table></span></div>
+    (IN VOID *Context, IN ULONG InterruptBitMask);
+```
+
 The HD Audio bus driver calls the ISR with the same context value that the client specified in the context parameter of the preceding <i>SetupDmaEngineWithBdl</i> call. The <i>interruptBitMask</i> parameter contains the bits from the HD Audio controller device's stream status register that indicate the reason for the interrupt. The following table shows the meaning of the individual bits in <i>interruptBitMask</i>.
 
 <table>

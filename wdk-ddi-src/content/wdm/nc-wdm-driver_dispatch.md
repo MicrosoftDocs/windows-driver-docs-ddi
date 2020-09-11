@@ -239,25 +239,16 @@ To define a callback routine, you must first provide a function declaration that
 
 For example, to define a <i>DispatchCleanup</i> callback routine that is named <code>MyDispatchCleanup</code>, use the DRIVER_DISPATCH type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DRIVER_DISPATCH MyDispatchCleanup;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+DRIVER_DISPATCH MyDispatchCleanup;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 _Use_decl_annotations_
 NTSTATUS
   MyDispatchCleanup(
@@ -266,10 +257,9 @@ NTSTATUS
     )
   {
       // Function body
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_DISPATCH function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>

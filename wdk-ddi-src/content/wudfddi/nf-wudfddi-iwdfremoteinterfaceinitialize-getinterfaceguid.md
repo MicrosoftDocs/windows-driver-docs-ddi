@@ -66,13 +66,9 @@ For more information about the <b>GetInterfaceGuid</b> method, see <a href="http
 
 The following code example shows how a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackremoteinterfacenotification-onremoteinterfacearrival">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function can obtain the GUID that identifies the device interface that has arrived.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void 
+
+```
+void 
 STDMETHODCALLTYPE
 CMyDevice::OnRemoteInterfaceArrival(
     __in IWDFRemoteInterfaceInitialize  *FxRemoteInterfaceInit
@@ -81,10 +77,9 @@ CMyDevice::OnRemoteInterfaceArrival(
     GUID DeviceInterfaceGUID;
     FxRemoteInterfaceInit->GetInterfaceGuid(&DeviceInterfaceGUID);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

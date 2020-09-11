@@ -76,21 +76,16 @@ Miniport drivers that operate in full-duplex mode, and that access information t
 
 The miniport driver passes a callback routine to <b>StorPortSynchronizeAccess</b>, and <b>StorPortSynchronizeAccess</b> calls it after guaranteeing exclusive access to sensitive data structures. The miniport driver's callback routine must conform to the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 BOOLEAN
 (* PSTOR_SYNCHRONIZED_ACCESS) (
   IN PVOID HwDeviceExtension,
  IN PVOID Context
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 where <i>HwDeviceExtension</i> is a pointer to the hardware device extension, and <i>Context</i> is just a pointer to the same context information that the caller supplied when calling <b>StorPortSynchronizeAccess</b>. 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/synchronized-access-within-unsynchronized-miniport-driver-routines">Synchronized Access within Unsynchronized Miniport Driver Routines</a>.

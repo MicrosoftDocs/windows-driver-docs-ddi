@@ -65,23 +65,18 @@ Pointer to a buffer where a DPC object of type <a href="https://docs.microsoft.c
 [in]
 Pointer to the DPC routine that corresponds to the DPC object pointed to by <i>Dpc</i>. The prototype for this deferred routine is defined in Storport.h as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 (*PHW_DPC_ROUTINE) 
   IN PSTOR_DPC  Dpc,
   IN PVOID  HwDeviceExtension,
   IN PVOID  SystemArgument1,
   IN PVOID  SystemArgument2
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 
 ## -remarks
 

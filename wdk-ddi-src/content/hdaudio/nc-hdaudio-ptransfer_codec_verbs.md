@@ -120,18 +120,13 @@ If the caller specifies a non-<b>NULL</b> value for the <i>callback</i> paramete
 </ul>
 The function pointer type for the callback parameter is defined as:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```
+typedef VOID
   (*PHDAUDIO_TRANSFER_COMPLETE_CALLBACK)
-    (HDAUDIO_CODEC_TRANSFER *, PVOID);</pre>
-</td>
-</tr>
-</table></span></div>
+    (HDAUDIO_CODEC_TRANSFER *, PVOID);
+```
+
 The first call parameter is a pointer to the <i>codecTransfer</i> array element that contains the codec command and the response that triggered the callback. The second call parameter is the same context value that was specified previously in the <i>TransferCodecVerbs</i> routine's <i>callbackContext</i> parameter.
 
 If successful, <i>TransferCodecVerbs</i> returns STATUS_SUCCESS. The meaning of this status code depends on whether the routine operates synchronously or asynchronously:
