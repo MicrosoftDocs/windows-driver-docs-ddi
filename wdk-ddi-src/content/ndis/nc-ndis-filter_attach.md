@@ -197,35 +197,25 @@ To define a <i>FilterAttach</i> function, you must first provide a function decl
 
 For example, to define a <i>FilterAttach</i> function that is named "MyAttach", use the <b>FILTER_ATTACH</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FILTER_ATTACH MyAttach;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+FILTER_ATTACH MyAttach;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NDIS_STATUS
  MyAttach(
     NDIS_HANDLE  NdisFilterHandle,
     NDIS_HANDLE  FilterDriverContext,
     PNDIS_FILTER_ATTACH_PARAMETERS  AttachParameters
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
+  {...}
+```
+
 The <b>FILTER_ATTACH</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_ATTACH</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.

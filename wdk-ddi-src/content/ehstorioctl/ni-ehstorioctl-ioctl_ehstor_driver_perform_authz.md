@@ -54,19 +54,14 @@ api_name:
 
 The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain an <b>AUTHZ_STATE</b> structure that indicates the type of authentication operation to perform. <b>AUTHZ_STATE</b> is declared in <i>ehstorioctl.h</i> as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _AUTHZ_STATE
+
+```
+typedef struct _AUTHZ_STATE
 {
     ULONG AuthzState;
-} AUTHZ_STATE;</pre>
-</td>
-</tr>
-</table></span></div>
+} AUTHZ_STATE;
+```
+
 The value of <b>AuthzState</b> specifies the authentication operation. This is one of the following.
 
 <table>

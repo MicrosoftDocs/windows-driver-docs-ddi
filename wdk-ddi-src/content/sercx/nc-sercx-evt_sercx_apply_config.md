@@ -81,59 +81,40 @@ To register an <i>EvtSerCxApplyConfig</i> callback function, the driver must cal
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
   EVT_SERCX_APPLY_CONFIG(
     __in WDFDEVICE Device
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 To define an <i>EvtSerCxApplyConfig</i> callback function that is named <code>MyEvtSerCxApplyConfig</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_APPLY_CONFIG MyEvtSerCxApplyConfig;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+EVT_SERCX_APPLY_CONFIG MyEvtSerCxApplyConfig;
+```
+
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
   MyEvtSerCxApplyConfig(
     __in WDFDEVICE Device
     )
-{ ... }</pre>
-</td>
-</tr>
-</table></span></div>
+{ ... }
+```
+
 For more information about SDV requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 <div class="code"></div>
 The following code example shows a partial implementation of an <i>EvtSerCxApplyConfig</i> function for a UART.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // Define the UART ACPI descriptor, plus any vendor-specific
 // data that is needed by the serial controller (UART) driver.
 //
@@ -215,10 +196,9 @@ NTSTATUS
     }
 
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR pointer types in the preceding code example are defined in the Reshub.h header file.
 
 ## -see-also

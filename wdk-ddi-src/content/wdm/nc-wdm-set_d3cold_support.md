@@ -92,18 +92,13 @@ The <i>SetD3ColdSupport</i> routine affects only D3hot-to-D3cold transitions tha
 
 By default, before the first call to the <i>SetD3ColdSupport</i> routine, D3hot-to-D3cold transitions are disabled. To change this default so that D3hot-to-D3cold transitions are enabled before the first <i>SetD3ColdSupport</i> call, the driver package for the device can include the following two lines in the <b>DDInstall.HW</b> section of the INF file that installs the driver:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Include = machine.inf
+
+```
+Include = machine.inf
 Needs = PciD3ColdSupported
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 Windows 8 is the first version of Windows to support devices that can enter and exit the D3cold substate while the computer remains in the S0 state. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-sleeping-states">Device Low-Power States</a>.
 
 ## -see-also

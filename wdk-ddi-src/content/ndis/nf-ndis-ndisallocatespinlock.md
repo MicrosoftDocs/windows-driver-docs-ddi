@@ -92,19 +92,14 @@ Each spin lock that a driver allocates protects a discrete set of shared resourc
     Releasing the spin lock sets the IRQL to the value stored in the spin lock. Because NDIS sometimes enters
     drivers at PASSIVE_LEVEL, problems can arise with the following code:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NdisAcquireSpinLock(A);
+
+```
+NdisAcquireSpinLock(A);
 NdisAcquireSpinLock(B);
 NdisReleaseSpinLock(A);
-NdisReleaseSpinLock(B);</pre>
-</td>
-</tr>
-</table></span></div>
+NdisReleaseSpinLock(B);
+```
+
 A driver should not access spin locks in this sequence for the following reasons:
 
 <ul>

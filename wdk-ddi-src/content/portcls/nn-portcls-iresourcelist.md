@@ -51,13 +51,9 @@ The <code>IResourceList</code> interface provides an abstraction of a configurat
 The PortCls system driver implements the <code>IResourceList</code> interface and exposes it to adapter drivers. When PortCls calls an adapter driver's device-startup routine (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/starting-a-device">Starting a Device</a>), it passes an <code>IResourceList</code> object as one of the call parameters. 
 
 The header file portcls.h defines set of macros to simplify the handling of resource list objects. For each type of resource, the following four macros are defined:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG
+
+```
+ULONG
   NumberOfpluralresourcename(
     void
  ); 
@@ -76,10 +72,9 @@ NTSTATUS
   AddsingularresourcenameFromParent(
     PRESOURCELIST  Parent,
     ULONG  Index
-    );</pre>
-</td>
-</tr>
-</table></span></div>The following table shows the resource types for which these macros are defined.
+    );
+```
+The following table shows the resource types for which these macros are defined.
 <table>
 <tr>
 <th>Resource Type Name</th>

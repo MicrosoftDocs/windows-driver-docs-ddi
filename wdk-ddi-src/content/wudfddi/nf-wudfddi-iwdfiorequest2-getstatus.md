@@ -79,13 +79,9 @@ For more information about request completion, see <a href="https://docs.microso
 
 The following code example sends an I/O request to an I/O target. If the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-send">Send</a> succeeds, the example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a> interface, calls <b>GetStatus</b> to obtain the request's status value, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-completewithinformation">IWDFIoRequest::CompleteWithInformation</a> to complete the I/O request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hrSend = S_OK;
+
+```
+HRESULT hrSend = S_OK;
 ...
 hrSend = fxRequest->Send(m_pIoTarget,
                          WDF_REQUEST_SEND_OPTION_SYNCHRONOUS,
@@ -100,10 +96,9 @@ if (SUCCEEDED(hrSend))
     hrSend = fxRequest2->GetStatus();
     fxRequest->CompleteWithInformation(hrSend, 0);
 }
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
+
 
 ## -see-also
 

@@ -97,13 +97,9 @@ When the framework memory object that <b>CreatePreallocatedWdfMemory</b> created
 
 The following code example shows how to create a memory object for a buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    //
+
+```
+    //
     // Allocate a request.
     hr = wdfDevice->CreateRequest(NULL, NULL, &request);
 
@@ -134,10 +130,9 @@ The following code example shows how to create a memory object for a buffer.
                        request,
                        &memory
                        );
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 
 ## -see-also
 

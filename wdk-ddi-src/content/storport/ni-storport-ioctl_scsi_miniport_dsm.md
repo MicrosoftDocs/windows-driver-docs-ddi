@@ -97,13 +97,9 @@ The resulting status of the function request is set in the <b>SrbStatus</b> memb
 
 A <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure immediately follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure in the data buffer of the SRB.  <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> is defined in ntddscsi.h as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _DSM_NOTIFICATION_REQUEST_BLOCK {
+
+```
+typedef struct _DSM_NOTIFICATION_REQUEST_BLOCK {
     ULONG   Version;
     ULONG   Size;
     ULONG   NotifyFLags;
@@ -111,29 +107,23 @@ A <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure immediately follows the <a hre
     ULONG   Reserved[3];
     ULONG   DataSetRangesCount;
     MP_DEVICE_DATA_SET_RANGE DataSetRanges[ANYSIZE_ARRAY];
-} DSM_NOTIFICATION_REQUEST_BLOCK, *PDSM_NOTIFICATION_REQUEST_BLOCK;</pre>
-</td>
-</tr>
-</table></span></div>
+} DSM_NOTIFICATION_REQUEST_BLOCK, *PDSM_NOTIFICATION_REQUEST_BLOCK;
+```
+
 
 
 <b>MP_DEVICE_DATA_SET_RANGE</b>
 
 The LBA ranges are included in the  in <b>DataSetRanges</b> member of <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> as an array of <b>MP_DEVICE_DATA_SET_RANGE</b> structures. <b>MP_DEVICE_DATA_SET_RANGE</b> is defined in ntddscsi.h as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>rypedef struct _MP_DEVICE_DATA_SET_RANGE {
+
+```
+rypedef struct _MP_DEVICE_DATA_SET_RANGE {
     LONGLONG    StartingOffset;
     ULONGLONG   LengthInBytes;
-} MP_DEVICE_DATA_SET_RANGE, *PMP_DEVICE_DATA_SET_RANGE;</pre>
-</td>
-</tr>
-</table></span></div>
+} MP_DEVICE_DATA_SET_RANGE, *PMP_DEVICE_DATA_SET_RANGE;
+```
+
 
 
 The <b>DSM_NOTIFICATION_REQUEST_BLOCK</b> structure is located after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure in the <b>DataBuffer</b> of the SRB.

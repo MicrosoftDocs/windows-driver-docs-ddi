@@ -88,19 +88,14 @@ If the client specifies this flag, the driver returns STATUS_SUCCESS if it suppo
 
 Pointer to the miniport driver's event-handler routine. This member is a function pointer of type PCPFNEVENT_HANDLER, which is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  typedef NTSTATUS (*PCPFNEVENT_HANDLER)
+
+```
+  typedef NTSTATUS (*PCPFNEVENT_HANDLER)
   (
       IN PPCEVENT_REQUEST  EventRequest
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a> structure.
 
 ## -remarks

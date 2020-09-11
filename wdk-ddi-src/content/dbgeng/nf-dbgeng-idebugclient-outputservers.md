@@ -64,16 +64,11 @@ Specifies the output control to use while outputting the servers. For possible v
 [in]
 Specifies the name of the computer whose servers will be listed.  <i>Machine</i> has the following form:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\\computername</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\\computername
+```
+
 
 ### -param Flags 
 

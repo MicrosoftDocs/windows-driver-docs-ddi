@@ -511,16 +511,11 @@ The Common Log File System (CLFS) uses the <b>LOG_FILE_OBJECT</b> structure to r
 
 CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef FILE_OBJECT LOG_FILE_OBJECT, *PLOG_FILE_OBJECT, **PPLOG_FILE_OBJECT;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+typedef FILE_OBJECT LOG_FILE_OBJECT, *PLOG_FILE_OBJECT, **PPLOG_FILE_OBJECT;
+```
+
 
 ## -see-also
 

@@ -65,21 +65,16 @@ A pointer to an opaque buffer for the timer context returned by <a href="https:/
 [in]
 A pointer to a timer callback routine supplied by the miniport. The following is the prototype defined for <b>PHW_TIMER_EX</b>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 (*PHW_TIMER_EX) (
   _In_ PVOID  DeviceExtension,
   _In_opt_ PVOID Context
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 
 ### -param CallbackContext 
 

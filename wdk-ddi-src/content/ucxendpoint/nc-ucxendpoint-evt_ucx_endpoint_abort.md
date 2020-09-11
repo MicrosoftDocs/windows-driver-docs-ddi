@@ -71,13 +71,9 @@ This function completes all requests associated with the endpoint, typically by 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 Endpoint_UcxEvtEndpointAbort(
     UCXCONTROLLER   UcxController,
 	   UCXENDPOINT     UcxEndpoint
@@ -87,8 +83,7 @@ Endpoint_UcxEvtEndpointAbort(
 	                                   Endpoint_WdfEvtAbortComplete,
 	                                   UcxEndpoint);
 	}
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

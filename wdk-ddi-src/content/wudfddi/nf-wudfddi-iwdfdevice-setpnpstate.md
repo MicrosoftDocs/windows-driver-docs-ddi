@@ -108,13 +108,9 @@ Before the state of the PnP property that <b>SetPnpState</b> set can take effect
 
 The following code example shows how to indicate that a device failed as the result of a request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 CUmdfHidDevice::OnCompletion(
     __in IWDFIoRequest* WdfRequest,
     __in IWDFIoTarget* /* WdfTarget */,
@@ -148,10 +144,9 @@ CUmdfHidDevice::OnCompletion(
 
     // Send a new request.
     SendInterruptPipeRead();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

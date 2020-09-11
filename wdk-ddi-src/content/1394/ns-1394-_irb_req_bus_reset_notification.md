@@ -67,17 +67,12 @@ Specifies whether a callback should be registered or deactivated. Use REGISTER_N
 
 Points to the notification routine for bus resets. The notification routine parameters follow this prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void BusResetNotificationRoutine(IN PVOID Context);
- </pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+void BusResetNotificationRoutine(IN PVOID Context);
+ 
+```
+
 
 ### -field ResetContext
 

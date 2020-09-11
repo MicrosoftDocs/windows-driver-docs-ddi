@@ -62,21 +62,16 @@ An address of the element returned by the previous call to <b>RtlEnumerateGeneri
 
 To enumerate all elements in the table, use <b>RtlEnumerateGenericTableWithoutSplaying</b> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>RestartKey = NULL;
+
+```
+RestartKey = NULL;
 for (ptr = RtlEnumerateGenericTableWithoutSplaying(Table, &RestartKey);
      ptr != NULL;
      ptr = RtlEnumerateGenericTableWithoutSplaying(Table, &RestartKey)) {
         // Process the element pointed to by ptr
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -returns
 

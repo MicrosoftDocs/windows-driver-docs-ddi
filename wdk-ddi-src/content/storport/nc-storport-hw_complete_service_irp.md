@@ -58,20 +58,15 @@ A pointer to the virtual miniport driver's per-adapter storage area.
 
 The name <b>HwStorCompleteServiceIrp</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in Storport.h as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 HW_COMPLETE_SERVICE_IRP (
   _In_ PVOID  DeviceExtension
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 The port driver calls the Storport virtual miniport driver's <b>HwStorCompleteServiceIrp</b>routine at PASSIVE_LEVEL without holding any spin locks. The virtual miniport driver completes the IRP by calling the <b>HwStorCompleteServiceIrp</b> routine.
 
 
@@ -81,35 +76,25 @@ To define an <b>HwStorCompleteServiceIrp</b> callback function, you must first p
 
  For example, to define a <b>HwStorCompleteServiceIrp</b> callback routine that is named <i>MyHwCompleteServiceIrp</i>, use the <b>HW_COMPLETE_SERVICE_IRP</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HW_COMPLETE_SERVICE_IRP MyHwCompleteServiceIrp;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+HW_COMPLETE_SERVICE_IRP MyHwCompleteServiceIrp;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 VOID
 MyHwCompleteServiceIrp (
   _In_ PVOID  DeviceExtension
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The <b>HW_COMPLETE_SERVICE_IRP</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_COMPLETE_SERVICE_IRP</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 <div class="code"></div>

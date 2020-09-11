@@ -51,13 +51,9 @@ User-mode applications use this IOCTL to send Secure Digital (SD) card commands 
 The caller must fill in an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538133(v=vs.85)">SFFDISK_DEVICE_COMMAND_DATA</a> structure and pass it as a parameter to the call. 
 
 To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function (described in the Microsoft Windows SDK documentation) with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>bRet = DeviceIoControl (
+
+```cpp
+bRet = DeviceIoControl (
     (HANDLE)  hDevice, 
     (DWORD)  dwIoControlCode, 
     (PUCHAR)  lpInBuffer,
@@ -66,10 +62,9 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
     (DWORD)  nOutBufferSize, 
     (LPDWORD)  lpBytesReturned,
     (LPOVERLAPPED)  lpOverlapped 
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 Parameters
 
 

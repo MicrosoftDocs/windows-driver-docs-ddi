@@ -69,51 +69,36 @@ You must declare the callback function by using the <i>DRIVER_FS_NOTIFICATION</i
 
 To define a <b>DriverFSNotificationRoutine</b> callback routine that is named <b>MyDriverNotification</b>, you must first provide a function declaration that the Static Driver Verify (SDV) and other verification tools require, as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DRIVER_FS_NOTIFICATION MyDriverFSNotification;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+DRIVER_FS_NOTIFICATION MyDriverFSNotification;
+```
+
 And then implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 MyDriverFSNotification (
     __in struct _DEVICE_OBJECT *DeviceObject,
     __in BOOLEAN FsActive
 )
-{ . . . }</pre>
-</td>
-</tr>
-</table></span></div>
+{ . . . }
+```
+
 Note that the callback type is declared in <i>Ntifs.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 DRIVER_FS_NOTIFICATION (
   __in struct _DEVICE_OBJECT *DeviceObject,
   __in BOOLEAN FsActive
   );
-typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;</pre>
-</td>
-</tr>
-</table></span></div>
+typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;
+```
+
 
 ## -see-also
 

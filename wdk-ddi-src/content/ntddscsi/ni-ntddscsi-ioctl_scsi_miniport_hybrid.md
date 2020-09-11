@@ -105,23 +105,18 @@ The resulting status of the function request is set in the <b>ReturnCode</b> mem
 
 A <b>HYBRID_REQUEST_BLOCK</b> structure immediately follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure in the data buffer.  <b>HYBRID_REQUEST_BLOCK</b> is defined in ntddscsi.h as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _HYBRID_REQUEST_BLOCK {
+
+```
+typedef struct _HYBRID_REQUEST_BLOCK {
     ULONG   Version;
     ULONG   Size;
     ULONG   Function;
     ULONG   Flags;
     ULONG   DataBufferOffset;
     ULONG   DataBufferLength;
-} HYBRID_REQUEST_BLOCK, *PHYBRID_REQUEST_BLOCK;</pre>
-</td>
-</tr>
-</table></span></div>
+} HYBRID_REQUEST_BLOCK, *PHYBRID_REQUEST_BLOCK;
+```
+
 
 
 The parameter requirements depend on the function code of the hybrid disk request. The following table lists the parameters required for each function.
@@ -229,13 +224,9 @@ The <b>HYBRID_REQUEST_BLOCK</b> structure is located after the <a href="https://
 
 The following example demonstrates retrieval of  the function data for a HYBRID_FUNCTION_SET_DIRTY_THRESHOLD request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    PSRB_IO_CONTROL srbIoCtl = (PSRB_IO_CONTROL)srb->DataBuffer;
+
+```
+    PSRB_IO_CONTROL srbIoCtl = (PSRB_IO_CONTROL)srb->DataBuffer;
     PHYBRID_REQUEST_BLOCK hybridRequest = (PHYBRID_REQUEST_BLOCK)(srbIoCtl + 1);
     PHYBRID_DIRTY_THRESHOLDS hybridDirtyThresholds = NULL;
 
@@ -249,27 +240,21 @@ The following example demonstrates retrieval of  the function data for a HYBRID_
         {
             srbIoCtl->ReturnCode = HYBRID_STATUS_INVALID_PARAMETER;
         }
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 <b>HYBRID_DIRTY_THRESHOLDS</b>
 
-The HYBRID_FUNCTION_SET_DIRTY_THRESHOLD function uses the <b>HYBRID_DIRTY_THRESHOLDS</b> structure for its input parameters. <b>HYBRID_DIRTY_THRESHOLDS</b> is defined in ntddscsi.h as the following.<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _HYBRID_DIRTY_THRESHOLDS {
+The HYBRID_FUNCTION_SET_DIRTY_THRESHOLD function uses the <b>HYBRID_DIRTY_THRESHOLDS</b> structure for its input parameters. <b>HYBRID_DIRTY_THRESHOLDS</b> is defined in ntddscsi.h as the following.
+```
+typedef struct _HYBRID_DIRTY_THRESHOLDS {
     ULONG   Version;
     ULONG   Size;
     ULONG   DirtyLowThreshold;
     ULONG   DirtyHighThreshold;
-} HYBRID_DIRTY_THRESHOLDS, *PHYBRID_DIRTY_THRESHOLDS;</pre>
-</td>
-</tr>
-</table></span></div>
+} HYBRID_DIRTY_THRESHOLDS, *PHYBRID_DIRTY_THRESHOLDS;
+```
+
 
 
 <dl>
@@ -300,13 +285,9 @@ The values of <b>DirtyLowThreshold</b> and <b>DirtyHighThreshold</b> are express
 
 <b>HYBRID_DEMOTE_BY_SIZE</b>
 
-The HYBRID_FUNCTION_DEMOTE_BY_SIZE function uses the <b>HYBRID_DEMOTE_BY_SIZE</b> structure for its input parameters. <b>HYBRID_DEMOTE_BY_SIZE</b> is defined in ntddscsi.h as the following.<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _HYBRID_DEMOTE_BY_SIZE {
+The HYBRID_FUNCTION_DEMOTE_BY_SIZE function uses the <b>HYBRID_DEMOTE_BY_SIZE</b> structure for its input parameters. <b>HYBRID_DEMOTE_BY_SIZE</b> is defined in ntddscsi.h as the following.
+```
+typedef struct _HYBRID_DEMOTE_BY_SIZE {
     ULONG       Version;
     ULONG       Size;
     UCHAR       SourcePriority;
@@ -314,10 +295,9 @@ The HYBRID_FUNCTION_DEMOTE_BY_SIZE function uses the <b>HYBRID_DEMOTE_BY_SIZE</b
     USHORT      Reserved0;
     ULONG       Reserved1;
     ULONGLONG   LbaCount;
-} HYBRID_DEMOTE_BY_SIZE, *PHYBRID_DEMOTE_BY_SIZE;</pre>
-</td>
-</tr>
-</table></span></div>
+} HYBRID_DEMOTE_BY_SIZE, *PHYBRID_DEMOTE_BY_SIZE;
+```
+
 
 
 <dl>

@@ -90,13 +90,9 @@ An appropriate place for a UCM client driver to call <b>UcmConnectorCreate</b> i
 
 This example code shows how to create a Type-C connector that is PD-capable.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    
+
+```
+    
     UCMCONNECTOR Connector;
   
     UCM_CONNECTOR_CONFIG_INIT(&connCfg, 0);
@@ -122,10 +118,9 @@ This example code shows how to create a Type-C connector that is PD-capable.
     }
 
     TRACE_INFO("UcmConnectorCreate() succeeded.");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

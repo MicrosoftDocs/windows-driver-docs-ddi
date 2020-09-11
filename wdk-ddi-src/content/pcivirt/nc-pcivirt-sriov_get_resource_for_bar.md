@@ -100,13 +100,9 @@ The PF driver registers its implementation by setting the <b>GetResourceForBar</
 
 Here is an example implementation of this callback function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 NTSTATUS
 Virtualization_GetResourceForBar(
     __inout     PVOID             Context,
@@ -153,8 +149,7 @@ Virtualization_GetResourceForBar(
     return STATUS_SUCCESS;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

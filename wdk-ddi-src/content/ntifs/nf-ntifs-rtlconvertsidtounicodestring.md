@@ -124,28 +124,18 @@ The specified <i>SID</i> structure is not structurally valid.
 
 The generated Unicode string will take one of two forms.  If the value of the IdentifierAuthority member of the <i>SID</i> is less than or equal to 2^32, the IdentifierAuthority member will be generated as decimal. For example, a <i>SID</i> with an IdentifierAuthority of 281,736 generates:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre> S-1-281736-12-72-9-110</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ S-1-281736-12-72-9-110
+```
+
 Otherwise the IdentifierAuthority will be generated as hexadecimal. For example, a <i>SID</i> with an IdentifierAuthority of 173,495,281,736 generates:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre> S-1-0x28651FE848-12-72-9-110</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ S-1-0x28651FE848-12-72-9-110
+```
+
 All other members in the <i>SID</i> will be generated as decimal.
 
 If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be deallocated by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>.

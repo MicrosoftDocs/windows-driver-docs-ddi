@@ -114,13 +114,9 @@ Before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/devt
 </ul>
 Before freeing the buffer for this IRP, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpages">MmUnlockPages</a> routine with <b>Irp->MdlAddress</b> as the parameter value. This call decrements the extra reference count that <b>IoBuildAsynchronousFsdRequest</b> added to the pool pages in the MDL. Otherwise, the subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl">IoFreeMdl</a> will bug check because the reference count for these pool pages will be 2, not 1. The following code example shows the <b>MmUnlockPages</b>, <b>IoFreeMdl</b>, and <b>IoFreeIrp</b> calls for this case:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (((DeviceObject->Flags & DO_DIRECT_IO) == DO_DIRECT_IO) &&
+
+```
+if (((DeviceObject->Flags & DO_DIRECT_IO) == DO_DIRECT_IO) &&
     (Irp->MdlAddress != NULL))
 {
     MmUnlockPages(Irp->MdlAddress);
@@ -128,10 +124,9 @@ Before freeing the buffer for this IRP, call the <a href="https://docs.microsoft
 
 IoFreeMdl(Irp->MdlAddress);
 IoFreeIrp(Irp);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

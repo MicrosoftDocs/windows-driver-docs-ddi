@@ -80,31 +80,21 @@ The major and minor version numbers that are contained within the
     <b>HighestVersion</b> and 
     <b>LowestVersion</b> members are encoded by using the MAKE_WSK_VERSION macro:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Version = MAKE_WSK_VERSION(Major,Minor);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Version = MAKE_WSK_VERSION(Major,Minor);
+```
+
 The major and minor version numbers can be extracted from the 
     <b>HighestVersion</b> and 
     <b>LowestVersion</b> members by using the WSK_MAJOR_VERSION and WSK_MINOR_VERSION macros:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Major = WSK_MAJOR_VERSION(Version);
-Minor = WSK_MINOR_VERSION(Version);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Major = WSK_MAJOR_VERSION(Version);
+Minor = WSK_MINOR_VERSION(Version);
+```
+
 If a WSK application determines that the WSK subsystem supports a version of the WSK NPI that is
     compatible with the application, the application should call 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> and, by means of the 

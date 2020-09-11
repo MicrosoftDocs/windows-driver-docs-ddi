@@ -76,16 +76,11 @@ A UMDF driver supplies a pointer to a <b>UMDF_VERSION_DATA</b> structure to the 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-umdf_version_data">Microsoft_WDF_UMDF_Version</a> is a global variable of type  <b>UMDF_VERSION_DATA</b> that specifies the major version, minor version, and service number for the current release of the framework.
       
 
-For example, in Windows 8, Wudfddi.h specifies: <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UMDF_VERSION_DATA Microsoft_WDF_UMDF_Version = {1, 11,  0}</pre>
-</td>
-</tr>
-</table></span></div>
+For example, in Windows 8, Wudfddi.h specifies: 
+```
+UMDF_VERSION_DATA Microsoft_WDF_UMDF_Version = {1, 11,  0}
+```
+
 
 
 When you compile a driver using Wudfddi.h, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ns-wudfddi_types-umdf_version_data">Microsoft_WDF_UMDF_Version</a> is included in the driver binary and exported using <a href="https://docs.microsoft.com/cpp/build/exporting-from-a-dll-using-declspec-dllexport">__declspec(dllexport)</a>.
