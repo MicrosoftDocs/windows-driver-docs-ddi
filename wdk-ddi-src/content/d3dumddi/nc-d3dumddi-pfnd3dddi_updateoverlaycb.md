@@ -72,7 +72,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |D3DDDIERR_NOTAVAILABLE|pfnUpdateOverlayCb failed because of a lack of overlay hardware or bandwidth.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 |E_OUTOFMEMORY|pfnUpdateOverlayCb could not allocate memory that was required for it to complete.|
- 
+
 
 This function might also return other HRESULT values.
 

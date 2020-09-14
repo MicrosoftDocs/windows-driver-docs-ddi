@@ -63,7 +63,7 @@ This precision value has three valid ranges:
 | 0 | No bits contain useful data, and the DirectX graphics kernel subsystem will call the [DxgkDdiFormatHistoryBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_formathistorybuffer) function to provide valid data to output to the Event Tracing for Windows (ETW) facility. When the driver processes this call, it sets a new precision value as the output parameter of the function. |
 | 32 | The driver should log 32-bit time stamps using the full 32 bits of precision. | 
 | 33–64 | The driver should log 64-bit time stamps. This value defines the number of bits used to store data per time stamp.<br/>To reduce the cost of formatting the data, the driver can include junk values in the 64-bit time stamps. For example, the driver could write 64-bit time stamps with 55 valid bits of precision. In this case the upper 9 bits are considered junk values and are stripped off by ETW. |
- 
+
 
 Values between 0 and 32 are unsupported and invalid.
 

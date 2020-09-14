@@ -67,7 +67,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |STATUS_SUCCESS|Connectivity status was successfully retrieved.|
 |STATUS_DEVICE_REMOVED|The graphics adapter was stopped.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks

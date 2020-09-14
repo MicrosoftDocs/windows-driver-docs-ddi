@@ -67,7 +67,7 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The operation was performed successfully.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also

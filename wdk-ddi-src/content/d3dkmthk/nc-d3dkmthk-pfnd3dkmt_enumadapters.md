@@ -64,7 +64,7 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The enumeration was successful.|
 |STATUS_INVALID_PARAMETER|The  pEnumAdapters parameter was validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks

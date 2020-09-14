@@ -69,7 +69,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 |STATUS_INTEGER_OVERFLOW|The size of all of the private driver data was too big to return to the OpenGL ICD.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks

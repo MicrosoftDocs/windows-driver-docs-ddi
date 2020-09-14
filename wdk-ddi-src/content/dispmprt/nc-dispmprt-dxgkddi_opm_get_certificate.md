@@ -81,7 +81,7 @@ A pointer to a buffer that receives the requested certificate if <i>DxgkDdiOPMGe
 |STATUS_GRAPHICS_COPP_NOT_SUPPORTED|The display miniport driver does not support COPP either because the hardware vender never signed the COPP license agreement or the miniport driver's graphics hardware does not comply with COPP rules. DxgkDdiOPMGetCertificate can also return this value if the display miniport driver detected tampering.|
 |STATUS_GRAPHICS_UAB_NOT_SUPPORTED|The display miniport driver does not support UAB either because the hardware vender never signed the UAB license agreement or the miniport driver's graphics hardware does not comply with UAB rules. DxgkDdiOPMGetCertificate can also return this value if the display miniport driver detected tampering.|
 |STATUS_GRAPHICS_PVP_HFS_FAILED|The display miniport driver's hardware functionality scan (HFS) failed or the display miniport driver detected tampering. A display miniport driver can optionally return this value. If DxgkDdiOPMGetCertificate does not return this value for tampering, it can return one of the previous error codes instead.|
- 
+
 
 This function might also return other error codes that are defined in Ntstatus.h.
 

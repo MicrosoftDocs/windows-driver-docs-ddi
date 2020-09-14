@@ -70,7 +70,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |S_OK|The memory was successfully released.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
- 
+
 
 This function might also return other HRESULT values.
 

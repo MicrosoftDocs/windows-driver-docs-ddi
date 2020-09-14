@@ -71,7 +71,7 @@ The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the schedu
 |--- |--- |
 |STATUS_SUCCESS|The scheduling priority was successfully retrieved.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also

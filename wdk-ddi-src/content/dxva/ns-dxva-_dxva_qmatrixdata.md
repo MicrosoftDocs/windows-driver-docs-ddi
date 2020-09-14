@@ -64,7 +64,7 @@ Indicates which new inverse-quantization matrices are present in an inverse-quan
 |1|Specifies inter-luminance quantization.|
 |2|Specifies intra-chrominance quantization.|
 |3|Specifies inter-chrominance quantization.|
- 
+
 The value in <b>bNewQmatrix</b>[0] and <b>bNewQmatrix</b>[1] must not both be zero.
 
 If the value for <b>bNewQmatrix</b>[2] or <b>bNewQmatrix</b>[3] is zero, then the following applies:

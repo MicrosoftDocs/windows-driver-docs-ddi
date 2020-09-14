@@ -64,7 +64,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |STATUS_SUCCESS|The shared resource can be accessed by the process.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also

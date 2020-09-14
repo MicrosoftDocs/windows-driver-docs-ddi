@@ -67,7 +67,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |STATUS_SUCCESS|Notification about unlocking a shared primary surface was successfully performed.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks

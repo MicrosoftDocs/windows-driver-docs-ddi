@@ -99,7 +99,7 @@ Specifies the location of data within a slice for a corresponding bitstream data
 |1|The bits for the start of the slice are within the corresponding bitstream data buffer, and the bits for the end of the slice are not (because the bitstream data buffer is full).|
 |2|The bits for the start of the slice are not within the corresponding bitstream data buffer (because the previous bitstream data buffer was full), but the bits for the end of the slice are within the corresponding bitstream data buffer.|
 |3|The bits for the start of the slice are not within the corresponding bitstream data buffer (because the previous bitstream data buffer was full), and the bits for the end of the slice are also not within the corresponding bitstream data buffer (because the corresponding bitstream data buffer is also full).|
- 
+
 > [!NOTES]
 > Nonzero values of <b>wBadSliceChopping</b> should generally be avoided by the host software decoder.
 

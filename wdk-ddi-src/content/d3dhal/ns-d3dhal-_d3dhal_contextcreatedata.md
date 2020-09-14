@@ -104,7 +104,7 @@ When the Direct3D runtime calls the driver's <a href="https://docs.microsoft.com
 |2|6.0|
 |1|5.0|
 |0|3.0|
- 
+
 
 If the driver successfully creates a context, the driver returns the context ID in <b>dwhContext</b> for the Direct3D runtime to use when communicating with the driver.
 
