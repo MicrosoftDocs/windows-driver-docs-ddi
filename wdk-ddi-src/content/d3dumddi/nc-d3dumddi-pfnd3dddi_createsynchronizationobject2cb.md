@@ -71,7 +71,7 @@ Returns one of the following values:
 |S_OK|The synchronization object was successfully created.|
 |E_OUTOFMEMORY|The function could not allocate memory that was required for it to complete.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
- 
+
 
 This function might also return other HRESULT values.
 

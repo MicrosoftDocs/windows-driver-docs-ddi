@@ -71,7 +71,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |S_OK|The display on the overlay object was successfully changed.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 |E_OUTOFMEMORY|pfnFlipOverlayCb could not allocate memory that was required for it to complete.|
- 
+
 
 This function might also return other HRESULT values.
 

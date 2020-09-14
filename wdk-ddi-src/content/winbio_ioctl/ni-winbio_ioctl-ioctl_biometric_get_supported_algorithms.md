@@ -96,7 +96,7 @@ Here are examples of OID strings for hash algorithms.
 |SHA-256|"2.16.840.1.101.3.4.2.1"|
 |SHA-384|"2.16.840.1.101.3.4.2.2"|
 |SHA-512|"2.16.840.1.101.3.4.2.3"|
- 
+
 
 IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS must be implemented if the device supports WINBIO_CAPABILITY_SECURE_STORAGE.  The device must support at least SHA-1 ("1.3.14.3.2.26") to be used for storing WinBio templates.
 

@@ -86,7 +86,7 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 |--- |--- |
 |TRUE|Specifies whether the synchronization object is signaled as soon as the contents of command buffer preceding it is entirely copied to the GPU pipeline, but not necessarily completed execution. This behavior allows reusing command buffers as soon as possible.|
 |FALSE|The synchronization object is signaled after the preceding command buffers completed execution.|
- 
+
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
 
@@ -98,7 +98,7 @@ Supported starting with Windows 10.
 |--- |--- |
 |TRUE|Specifies the device this sync object is created or opened on can only submit wait commands for it. An attempt to submit a signal operation when this flag is set will return STATUS_ACCESS_DENIED.|
 |FALSE|The synchronization object can be signaled.|
- 
+
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
 
@@ -110,7 +110,7 @@ Supported starting with Windows 10.
 |--- |--- |
 |TRUE|Specifies the device this sync object is created or opened on can only submit signal commands for it. An attempt to submit a wait operation when this flag is set will return STATUS_ACCESS_DENIED.|
 |FALSE|The synchronization object can be waited on.|
- 
+
 
 This value can only be set to 1 (<b>TRUE</b>) for monitored fence synchronization objects, and it should be set to zero (<b>FALSE</b>) for all other synchronization object types.
 
@@ -126,7 +126,7 @@ Supported starting with Windows 10.
 |--- |--- |
 |TRUE|Instructs the GPU scheduler to bypass the aforementioned signaling of the monitored fence to the maximum value in TDR cases.|
 |FALSE|The GPU scheduler will signal the monitored fence to the maximum value when a device that can potentially signal it is affected by the GPU reset (TDR).|
- 
+
 
 Supported starting with Windows 10.
 

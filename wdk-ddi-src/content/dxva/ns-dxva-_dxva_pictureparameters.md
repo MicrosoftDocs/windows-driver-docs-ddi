@@ -153,7 +153,7 @@ If the <b>bConfigHostInverseScan</b> member of DXVA_ConfigPictureDecode is zero,
 |0|Zigzag scan (MPEG-2)|
 |1|Alternate-vertical scan (MPEG-2)|
 |2|Alternate-horizontal scan (H.263)|
- 
+
 If the <b>bConfigHostInverseScan</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a> is 1, the scan method defined by <b>bPicScanMethod</b> must be set as follows.
 
 |bPicScanMethod|Scan Method|

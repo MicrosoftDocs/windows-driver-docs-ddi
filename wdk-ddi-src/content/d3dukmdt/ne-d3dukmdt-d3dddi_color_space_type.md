@@ -59,7 +59,7 @@ Defines stream color space information.
 |Gamma|2.2|
 |Costing|Image|
 |Primaries|BT.709|
- 
+
 
 This is the standard definition for <i>sRGB</i>.
 
@@ -79,7 +79,7 @@ This is usually used with 8 bit and 10 bit color channels.
 |Gamma|1.0|
 |Costing|Image|
 |Primaries|BT.709|
- 
+
 
 This is the standard definition for <i>scRGB</i>.
 
@@ -96,7 +96,7 @@ This is usually used with 16 bit integer, 16 bit floating point, and 32 bit floa
 |Gamma|2.2|
 |Costing|Image|
 |Primaries|BT.709|
- 
+
 
 This is the standard definition for <i>ITU-R Recommendation BT.709</i>.  Note that due to the inclusion of a linear segment, the transfer curve looks similar to a pure exponential gamma of 1.9.
 
@@ -130,7 +130,7 @@ Reserved for future use.
 |Costing|Image|
 |Primaries|BT.709|
 |Transfer Matrix|BT.601|
- 
+
 
 This definition is commonly used for <i>JPG</i>.
 
@@ -147,7 +147,7 @@ This is usually used with 8, 10, 12, or 16 bit color channels.
 |Gamma|2.2|
 |Costing|Video|
 |Primaries|BT.601|
- 
+
 
 This definition is commonly used for <i>MPEG2</i>.
 
@@ -164,7 +164,7 @@ This is usually used with 8, 10, 12, or 16 bit color channels.
 |Gamma|2.2|
 |Costing|Video|
 |Primaries|BT.601|
- 
+
 
 This is sometimes used for <i>H.264</i> camera capture.
 
@@ -181,7 +181,7 @@ This is usually used with 8, 10, 12, or 16 bit color channels.
 |Gamma|2.2|
 |Costing|Video|
 |Primaries|BT.709|
- 
+
 
 This definition is commonly used for <i>H.264</i> and <i>HEVC</i>.
 
@@ -214,7 +214,7 @@ This is usually used with 8, 10, 12, or 16 bit color channels.
 |Gamma|2.2|
 |Costing|Video|
 |Primaries|BT.2020|
- 
+
 
 This definition may be used by <i>HEVC</i>.
 
@@ -231,7 +231,7 @@ This is usually used with 10, 12, or 16 bit color channels.
 |Gamma|2.2|
 |Costing|Video|
 |Primaries|BT.2020|
- 
+
 
 This is usually used with 10, 12, or 16 bit color channels.
 
@@ -304,7 +304,7 @@ This is usually used with 10, 12, or 16 bit color channels.
 |Gamma|HLG|
 |Cositing|Top Left|
 |Primaries|BT.2020|
- 
+
 
 This color space can be used as an input to the video processor DDIs, but will never be used to scan out.
 
@@ -317,7 +317,7 @@ This color space can be used as an input to the video processor DDIs, but will n
 |Gamma|HLG|
 |Cositing|Top Left|
 |Primaries|BT.2020|
- 
+
 
 This color space can be used as an input to the video processor DDIs, but will never be used to scan out.
 

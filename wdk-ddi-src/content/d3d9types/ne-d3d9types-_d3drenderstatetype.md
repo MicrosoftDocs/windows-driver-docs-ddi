@@ -538,7 +538,7 @@ This maximum number depends on the version of the pixel shader that the display 
 |earlier than 2_0|0|
 |2_0|From 96 to D3DINFINITEINSTRUCTIONS|
 |3_0 and later|From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS|
- 
+
 
 D3DINFINITEINSTRUCTIONS represents a virtually unlimited amount.
 
@@ -560,7 +560,7 @@ This maximum number depends on the version of the vertex shader that the display
 |--- |--- |
 |earlier than 2_0|0|
 |2_0 and later|From 2¹⁶ (0x0000ffff) to D3DINFINITEINSTRUCTIONS|
- 
+
 
 D3DINFINITEINSTRUCTIONS represents a virtually unlimited amount.
 

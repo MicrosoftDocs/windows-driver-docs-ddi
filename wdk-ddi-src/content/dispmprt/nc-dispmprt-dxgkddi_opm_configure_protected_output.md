@@ -80,7 +80,7 @@ A pointer to a buffer that holds the additional parameters that are used to conf
 |--- |--- |
 |STATUS_SUCCESS|The function successfully configured the protected output object.|
 |STATUS_NO_MEMORY|DxgkDdiOPMConfigureProtectedOutput cannot allocate memory required for it to complete.|
- 
+
 
 This function might also return other error codes that are defined in Ntstatus.h.
 

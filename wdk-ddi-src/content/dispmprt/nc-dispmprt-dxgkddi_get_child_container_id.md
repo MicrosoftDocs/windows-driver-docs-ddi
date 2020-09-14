@@ -73,7 +73,7 @@ Returns one of the following error codes.
 |--- |--- |
 |STATUS_SUCCESS|The driver has updated the structure pointed to by the ContainerId parameter with  container ID information obtained from the display hardware.|
 |STATUS_MONITOR_NODESCRIPTOR|The driver has accepted the default container ID information provided in the structure pointed to by  ContainerId. **Note:** If the driver returns this status code, it should not modify the structure.|
- 
+
 
 Otherwise the function returns one of the status codes defined in Ntstatus.h.
 

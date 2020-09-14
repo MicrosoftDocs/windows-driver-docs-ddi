@@ -75,7 +75,7 @@ The <b>pfnAcquireNextFrequencyRangeInfo</b> function returns one of the followin
 |STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
 |STATUS_INVALID_FREQUENCYRANGE|The frequency range descriptor supplied in pMonitorFrequencyRangeInfo was invalid.|
 |STATUS_INVALID_MONITOR_FREQUENCYRANGESET|The handle supplied in hMonitorFrequencyRangeSet was invalid.|
- 
+
 
 This function might also return other error codes defined in <i>Ntstatus.h</i>.
 

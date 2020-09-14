@@ -71,7 +71,7 @@ The <b>D3DKMTSetProcessSchedulingPriorityClass</b> function sets the scheduling 
 |--- |--- |
 |STATUS_SUCCESS|The scheduling priority was successfully set.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -see-also

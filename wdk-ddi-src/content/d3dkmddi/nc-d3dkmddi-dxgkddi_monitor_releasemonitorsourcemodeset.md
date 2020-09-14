@@ -69,7 +69,7 @@ The <b>pfnReleaseMonitorSourceModeSet</b> function returns one of the following 
 |STATUS_SUCCESS|The function succeeded.|
 |STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER|The handle supplied in *hAdapter* was invalid.|
 |STATUS_INVALID_MONITOR_SOURCEMODESET|The handle supplied in *hMonitorSourceModeSet* was invalid.|
- 
+
 
 This function might also return other error codes that are defined in <i>Ntstatus.h</i>.
 

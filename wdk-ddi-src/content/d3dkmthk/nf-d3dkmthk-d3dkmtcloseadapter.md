@@ -64,7 +64,7 @@ Specifies the adapter to close.
 |--- |--- |
 |STATUS_SUCCESS|The adapter was closed successfully.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.|
- 
+
 
 This function might also return other NTSTATUS values.
 

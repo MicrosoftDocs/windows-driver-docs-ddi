@@ -119,7 +119,7 @@ Supported starting with Windows 8.
 |--- |--- |
 |TRUE|Indicates a GPU is capable of only updating 32 bit values atomically. In this case, the OS will handle the fence wraparound case automatically, however it will place a restriction that an outstanding wait and signal fence values cannot be more than UINT_MAX/2 apart from the last signaled fence value.|
 |FALSE|Indicates a GPU is capable of updating 64 bit values atomically as visible by the CPU.|
- 
+
 
 Supported starting with Windows 10.
 
