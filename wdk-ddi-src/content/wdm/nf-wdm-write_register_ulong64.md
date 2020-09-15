@@ -47,15 +47,6 @@ api_name:
 
 The <b>WRITE_REGISTER_ULONG64</b> macro writes a ULONG64 value to the specified address.
 
-## -syntax
-
-```cpp
-VOID WRITE_REGISTER_ULONG64(
-  [in] ULONG64 volatile *Register,
-  [in] ULONG64          Value
-);
-```
-
 ## -parameters
 
 ### -param Register 
