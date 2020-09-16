@@ -49,7 +49,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfDeviceInitSetDeviceClass</b> method specifies a GUID that identifies the device's <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>.
+The <b>WdfDeviceInitSetDeviceClass</b> method specifies a GUID that identifies the device's <a href="https://docs.microsoft.com/windows/win32/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
 
 ## -parameters
 

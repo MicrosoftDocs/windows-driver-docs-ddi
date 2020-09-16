@@ -76,15 +76,15 @@ A FILTER_VOLUME_BASIC_INFORMATION structure can be allocated from paged or nonpa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindclose">FilterVolumeFindClose</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumefindclose">FilterVolumeFindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindfirst">FilterVolumeFindFirst</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumefindfirst">FilterVolumeFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a>
 
 
 

@@ -111,7 +111,7 @@ The handles that are specified in the elements of the allocation list are the de
 
 ### -field MultipassOffset
 
-[in/out] A UINT value that specifies the progress of the copying operation if the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a> function must return STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER to obtain a new DMA buffer. When the driver's <i>DxgkDdiPresent</i>function is first called with a new <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> list, <b>MultipassOffset</b> is initialized to zero. Before the driver returns from the <i>DxgkDdiPresent </i>call, the driver sets <b>MultipassOffset</b> to show copy progress for subsequent <i>DxgkDdiPresent </i>calls with the same command buffer. The Microsoft DirectX graphics kernel subsystem does not change the value further.
+[in/out] A UINT value that specifies the progress of the copying operation if the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a> function must return STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER to obtain a new DMA buffer. When the driver's <i>DxgkDdiPresent</i>function is first called with a new <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> list, <b>MultipassOffset</b> is initialized to zero. Before the driver returns from the <i>DxgkDdiPresent </i>call, the driver sets <b>MultipassOffset</b> to show copy progress for subsequent <i>DxgkDdiPresent </i>calls with the same command buffer. The Microsoft DirectX graphics kernel subsystem does not change the value further.
 
 ### -field Color
 
@@ -121,7 +121,7 @@ If the primary format is palettized RGB, <b>Color</b> contains the palette index
 
 ### -field DstRect
 
-[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure for the destination rectangle that is used to calculate the stretch factor.
+[in] A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure for the destination rectangle that is used to calculate the stretch factor.
 
 ### -field SrcRect
 
@@ -207,5 +207,5 @@ The driver is not required to perform any clipping. The Microsoft DirectX graphi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

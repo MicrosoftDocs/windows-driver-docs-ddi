@@ -64,7 +64,7 @@ Pointer to the object's body.
 
 A driver can delete a temporary object it created by decreasing its reference count to zero. A driver must never attempt to delete an object it did not create.
 
-An object is permanent if it was created with the OBJ_PERMANENT object attribute flag specified. (For more information about object attributes, see <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>.) A permanent object is created with a reference count of one, so it is not deleted when the driver dereferences it. A driver can only delete a permanent object it created by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwmaketemporaryobject">ZwMakeTemporaryObject</a> routine to make it temporary. Use the following steps to delete a permanent object that you created:
+An object is permanent if it was created with the OBJ_PERMANENT object attribute flag specified. (For more information about object attributes, see <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>.) A permanent object is created with a reference count of one, so it is not deleted when the driver dereferences it. A driver can only delete a permanent object it created by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwmaketemporaryobject">ZwMakeTemporaryObject</a> routine to make it temporary. Use the following steps to delete a permanent object that you created:
 
 <ol>
 <li>
@@ -90,7 +90,7 @@ Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

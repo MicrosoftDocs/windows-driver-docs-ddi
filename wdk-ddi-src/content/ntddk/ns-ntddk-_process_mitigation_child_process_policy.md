@@ -70,7 +70,7 @@ If set, causes audit events to be generated when child processes are created by 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.AllowSecureProcessCreation
 
-Denies creation of child processes unless the child process is a secure process and if creation was previously blocked. It allows a process to spawn a child process on behalf of another process that cannot itself create child processes. See PROCESS_CREATION_CHILD_PROCESS_OVERRIDE in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a>.
+Denies creation of child processes unless the child process is a secure process and if creation was previously blocked. It allows a process to spawn a child process on behalf of another process that cannot itself create child processes. See PROCESS_CREATION_CHILD_PROCESS_OVERRIDE in <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a>.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 

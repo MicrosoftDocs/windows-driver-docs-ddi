@@ -112,7 +112,7 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

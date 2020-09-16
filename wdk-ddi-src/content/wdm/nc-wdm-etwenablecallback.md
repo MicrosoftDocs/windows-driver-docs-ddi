@@ -81,7 +81,7 @@ This value is passed in the <i>MatchAllKeywords</i> parameter of the <b>EnableTr
 ### -param FilterData 
 
 [in, optional]
-The provider-defined data. This parameter is optional. The provider determines the layout of the data and its purpose. For example, the provider can use this data to additionally filter the events that it writes or use it to perform some calculations before writing the events. For detailed information, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">Event Filter Descriptor</a>.
+The provider-defined data. This parameter is optional. The provider determines the layout of the data and its purpose. For example, the provider can use this data to additionally filter the events that it writes or use it to perform some calculations before writing the events. For detailed information, see <a href="https://docs.microsoft.com/windows/win32/api/evntprov/ns-evntprov-event_filter_descriptor">Event Filter Descriptor</a>.
 
 ### -param CallbackContext 
 
@@ -123,5 +123,5 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">Event Filter Descriptor</a>
+<a href="https://docs.microsoft.com/windows/win32/api/evntprov/ns-evntprov-event_filter_descriptor">Event Filter Descriptor</a>
 

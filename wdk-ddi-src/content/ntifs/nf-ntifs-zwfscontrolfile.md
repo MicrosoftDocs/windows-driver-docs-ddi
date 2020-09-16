@@ -81,7 +81,7 @@ Pointer to an IO_STATUS_BLOCK structure that receives the final completion statu
 ### -param FsControlCode 
 
 [in]
-FSCTL_<i>XXX</i> code that indicates which file system control operation is to be carried out. The value of this parameter determines the formats and required lengths of the <i>InputBuffer</i> and <i>OutputBuffer</i>, as well as which of the following parameter pairs are required. For detailed information about the system-defined FSCTL_<i>XXX</i> codes, see the "Remarks" section of the reference entry for <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> in the Microsoft Windows SDK documentation.
+FSCTL_<i>XXX</i> code that indicates which file system control operation is to be carried out. The value of this parameter determines the formats and required lengths of the <i>InputBuffer</i> and <i>OutputBuffer</i>, as well as which of the following parameter pairs are required. For detailed information about the system-defined FSCTL_<i>XXX</i> codes, see the "Remarks" section of the reference entry for <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> in the Microsoft Windows SDK documentation.
 
 ### -param InputBuffer 
 
@@ -159,7 +159,7 @@ The following FSCTL codes are currently documented for kernel-mode drivers:
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point">FSCTL_SET_REPARSE_POINT</a>
 
 
-For more information about system-defined FSCTL_<i>XXX</i> codes, see the "Remarks" section of the reference entry for <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> in the Microsoft Windows SDK documentation. 
+For more information about system-defined FSCTL_<i>XXX</i> codes, see the "Remarks" section of the reference entry for <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> in the Microsoft Windows SDK documentation. 
 
 For more information about system-defined IOCTL_<i>XXX</i> codes, and about defining driver-specific IOCTL_<i>XXX</i> or FSCTL_<i>XXX</i> values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-i-o-control-codes">Using I/O Control Codes</a> in the <i>Kernel Mode Architecture Guide</i> and <i>Device Input and Output Control Codes</i> in the Windows SDK documentation. 
 

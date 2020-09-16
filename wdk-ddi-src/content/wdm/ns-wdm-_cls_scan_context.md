@@ -56,7 +56,7 @@ The <b>CLFS_SCAN_CONTEXT</b> structure holds context information to support a sc
 
 ### -field cidNode
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_clfs_node_id">CLFS_NODE_ID</a> structure that contains the scan context's node identity and type.
+A <a href="https://docs.microsoft.com/windows/win32/api/clfs/ns-clfs-clfs_node_id">CLFS_NODE_ID</a> structure that contains the scan context's node identity and type.
 
 ### -field plfoLog
 

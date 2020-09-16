@@ -58,7 +58,7 @@ A pointer to the event provider registration handle, which is returned by the <a
 ### -param EventDescriptor 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure.
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
 ### -param Filter 
 
@@ -96,7 +96,7 @@ Returns ERROR_SUCCESS if successful or one of the following values on error.
 
 ## -remarks
 
-The <b>EtwWriteEx</b> function is the kernel-mode equivalent of the user-mode <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a> function. Event data written with this function requires a manifest. The manifest is embedded in the provider, so the provider must be available for a consumer to consume the data. To ensure that there is a consumer for the event you are publishing, you can precede the call to <b>EtwWrite</b> with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>. 
+The <b>EtwWriteEx</b> function is the kernel-mode equivalent of the user-mode <a href="https://docs.microsoft.com/windows/win32/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a> function. Event data written with this function requires a manifest. The manifest is embedded in the provider, so the provider must be available for a consumer to consume the data. To ensure that there is a consumer for the event you are publishing, you can precede the call to <b>EtwWrite</b> with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>. 
 
 Use the <i>ActivityId</i> and <i>RelatedActivityId</i> parameters when you want to relate events in different components in an end-to-end tracing scenario. For example, components A, B, and C perform work on a related activity and want to link their events so that a consumer can consume all the events related to that activity. 
 
@@ -108,9 +108,9 @@ You can call <b>EtwWriteEx</b> at any IRQL. However, when IRQL is greater than A
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
+<a href="https://docs.microsoft.com/windows/win32/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a>
+<a href="https://docs.microsoft.com/windows/win32/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a>
 

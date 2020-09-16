@@ -174,7 +174,7 @@ If the driver does not handle interrupts, <i>HwVidFindAdapter</i> should set bot
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
 
 
 

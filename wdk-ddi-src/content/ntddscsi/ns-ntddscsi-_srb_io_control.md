@@ -68,7 +68,7 @@ Indicates the interval in seconds that the request can execute before the OS-spe
 
 ### -field ControlCode
 
-Indicates the operation to be performed. There are no system-defined operations. Values must be defined by the driver as a set of private I/O control codes with which the application can make requests by calling the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function. For more information about defining private I/O control codes for device control requests, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-i-o-control-codes">Using I/O Control Codes</a>.
+Indicates the operation to be performed. There are no system-defined operations. Values must be defined by the driver as a set of private I/O control codes with which the application can make requests by calling the Win32 <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function. For more information about defining private I/O control codes for device control requests, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-i-o-control-codes">Using I/O Control Codes</a>.
 
 ### -field ReturnCode
 

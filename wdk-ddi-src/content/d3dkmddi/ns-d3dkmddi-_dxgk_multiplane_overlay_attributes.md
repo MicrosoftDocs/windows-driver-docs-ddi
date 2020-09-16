@@ -60,15 +60,15 @@ Specifies a flip operation as one of the applicable constant values in the <a hr
 
 ### -field SrcRect
 
-Specifies the source rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the source resource.
+Specifies the source rectangle, of type <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>, relative to the source resource.
 
 ### -field DstRect
 
-Specifies the destination rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the monitor resolution.
+Specifies the destination rectangle, of type <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>, relative to the monitor resolution.
 
 ### -field ClipRect
 
-Specifies any additional clipping, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the <b>DstRect</b> rectangle, after the data has been stretched according to the values of <b>SrcRect</b> and <b>DstRect</b>.
+Specifies any additional clipping, of type <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>, relative to the <b>DstRect</b> rectangle, after the data has been stretched according to the values of <b>SrcRect</b> and <b>DstRect</b>.
 
 The driver and hardware can use the <b>ClipRect</b> member to apply a common stretch factor as the clipping changes when an app occludes part of the <b>DstRect</b> destination rectangle.
 

@@ -102,7 +102,7 @@ The content of all character string buffers referenced by this structure are Uni
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>
 
 
 
@@ -118,7 +118,7 @@ The content of all character string buffers referenced by this structure are Uni
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindclose">FilterVolumeInstanceFindClose</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindclose">FilterVolumeInstanceFindClose</a>
 
 
 

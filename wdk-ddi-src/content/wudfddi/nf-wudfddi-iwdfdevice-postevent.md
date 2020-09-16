@@ -72,7 +72,7 @@ A pointer to a buffer that contains data that is associated with the event. <b>N
 [in]
 The size, in bytes, of data that <i>pbData</i> points to. Zero is a valid size value if <i>pbData</i> is set to <b>NULL</b>. 
 
-The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-field_offset">FIELD_OFFSET</a>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)).
+The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-field_offset">FIELD_OFFSET</a>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)).
 
 ## -returns
 
@@ -141,7 +141,7 @@ For information about creating device events, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-field_offset">FIELD_OFFSET</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-field_offset">FIELD_OFFSET</a>
 
 
 

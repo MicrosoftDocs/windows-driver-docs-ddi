@@ -82,7 +82,7 @@ If <b>FALSE</b>, no source rectangle is applied to the input stream.
 
 *pSourceRect* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the source rectangle.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the source rectangle.
 
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
 </div>
@@ -102,5 +102,5 @@ If the <b>VideoProcessorSetStreamSourceRect</b> function is never called, or if 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

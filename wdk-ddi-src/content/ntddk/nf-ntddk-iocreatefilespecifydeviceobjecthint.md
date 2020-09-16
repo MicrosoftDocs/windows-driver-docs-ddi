@@ -281,7 +281,7 @@ The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA <i>Desir
 ### -param ObjectAttributes 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter (<i>ObjectAttributes</i>) can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to the <b>InitializeObjectAttributes</b> routine. Members of the OBJECT_ATTRIBUTES structure for a file object include the following.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter (<i>ObjectAttributes</i>) can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to the <b>InitializeObjectAttributes</b> routine. Members of the OBJECT_ATTRIBUTES structure for a file object include the following.
 
 <table>
 <tr>
@@ -986,7 +986,7 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

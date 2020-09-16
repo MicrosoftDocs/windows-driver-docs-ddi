@@ -166,7 +166,7 @@ To complete a connection that was previously pended at the FWPS_LAYER_ALE_AUTH_R
 To be able to pend packet processing, the callout driver's 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function should set the 
     <b>actionType</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure to
+    <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure to
     FWP_ACTION_BLOCK and the 
     <b>Flags</b> member to FWPS_CLASSIFY_OUT_FLAG_ABSORB.
 
@@ -190,7 +190,7 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
 
 
 

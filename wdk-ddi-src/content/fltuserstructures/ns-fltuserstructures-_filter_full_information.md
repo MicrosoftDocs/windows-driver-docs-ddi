@@ -76,7 +76,7 @@ Specifies the first character of the filter name string. This character is follo
 
 ## -remarks
 
-The FILTER_FULL_INFORMATION structure is passed as a parameter to routines such as <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>. 
+The FILTER_FULL_INFORMATION structure is passed as a parameter to routines such as <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>, <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>, <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilterinformation">FltEnumerateFilterInformation</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>. 
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the <b>NextEntryOffset</b> value in each entry, except the last, falls on an 8-byte boundary.
 
@@ -90,19 +90,19 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>
 
 
 

@@ -114,5 +114,5 @@ Specifies the least-powered system state from which the device can wake the syst
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
+<a href="https://docs.microsoft.com/windows/win32/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
 

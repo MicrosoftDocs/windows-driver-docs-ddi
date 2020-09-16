@@ -70,7 +70,7 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
 
 
 

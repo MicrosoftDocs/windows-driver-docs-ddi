@@ -125,7 +125,7 @@ Reserved for system use.
 
 The buffer receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_origin">TOKEN_ORIGIN</a> value. 
 
-If the token resulted from a logon that used explicit credentials, such as passing a name, domain, and password to the user-mode <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function, then the <b>TOKEN_ORIGIN</b> structure will contain the ID of the logon session that created it.
+If the token resulted from a logon that used explicit credentials, such as passing a name, domain, and password to the user-mode <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-logonusera">LogonUser</a> function, then the <b>TOKEN_ORIGIN</b> structure will contain the ID of the logon session that created it.
 
 If the token resulted from network authentication, such as a call to user-mode <b>AcceptSecurityContext</b> function or a call to user-mode <b>LogonUser</b> function with dwLogonType set to LOGON32_LOGON_NETWORK or LOGON32_LOGON_NETWORK_CLEARTEXT, then this value will be zero.
 
@@ -135,11 +135,11 @@ If the token resulted from network authentication, such as a call to user-mode <
 
 ### -field TokenLinkedToken
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_linked_token">TOKEN_LINKED_TOKEN</a> structure that contains a handle to another token that is linked to this token. This value is valid starting with Windows Vista.
+The buffer receives a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-token_linked_token">TOKEN_LINKED_TOKEN</a> structure that contains a handle to another token that is linked to this token. This value is valid starting with Windows Vista.
 
 ### -field TokenElevation
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_elevation">TOKEN_ELEVATION</a> structure that specifies whether the token is elevated. This value is valid starting with Windows Vista.
+The buffer receives a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-token_elevation">TOKEN_ELEVATION</a> structure that specifies whether the token is elevated. This value is valid starting with Windows Vista.
 
 ### -field TokenHasRestrictions
 
@@ -147,7 +147,7 @@ The buffer receives a <b>DWORD</b> value that is nonzero if the token has ever b
 
 ### -field TokenAccessInformation
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_access_information">TOKEN_ACCESS_INFORMATION</a> structure that specifies  security information contained in the token. This value is valid starting with Windows Vista.
+The buffer receives a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-token_access_information">TOKEN_ACCESS_INFORMATION</a> structure that specifies  security information contained in the token. This value is valid starting with Windows Vista.
 
 ### -field TokenVirtualizationAllowed
 
@@ -159,7 +159,7 @@ The buffer receives a <b>DWORD</b> value that is nonzero if  <a href="https://do
 
 ### -field TokenIntegrityLevel
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_mandatory_label">TOKEN_MANDATORY_LABEL</a> structure that specifies the token's integrity level. This value is valid starting with Windows Vista. For <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a> the output is the actual integrity level  (<b>DWORD</b>).
+The buffer receives a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-token_mandatory_label">TOKEN_MANDATORY_LABEL</a> structure that specifies the token's integrity level. This value is valid starting with Windows Vista. For <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a> the output is the actual integrity level  (<b>DWORD</b>).
 
 ### -field TokenUIAccess
 
@@ -167,7 +167,7 @@ The buffer receives a <b>DWORD</b> value that is nonzero if  the token has the U
 
 ### -field TokenMandatoryPolicy
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_mandatory_policy">TOKEN_MANDATORY_POLICY</a> structure that specifies the token's mandatory integrity policy. This value is valid starting with Windows Vista.
+The buffer receives a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-token_mandatory_policy">TOKEN_MANDATORY_POLICY</a> structure that specifies the token's mandatory integrity policy. This value is valid starting with Windows Vista.
 
 ### -field TokenLogonSid
 
@@ -191,11 +191,11 @@ The buffer receives a <b>DWORD</b> value that is the application container numbe
 
 ### -field TokenUserClaimAttributes
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_mandatory_policy">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a> structure that specifies the user's claim attributes. This value is valid starting with Windows 8.
+The buffer receives a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-token_mandatory_policy">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a> structure that specifies the user's claim attributes. This value is valid starting with Windows 8.
 
 ### -field TokenDeviceClaimAttributes
 
-The buffer receives a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_mandatory_policy">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a> structure that specifies the device's claim attributes. This value is valid starting with Windows 8.
+The buffer receives a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-token_mandatory_policy">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a> structure that specifies the device's claim attributes. This value is valid starting with Windows 8.
 
 ### -field TokenRestrictedUserClaimAttributes
 

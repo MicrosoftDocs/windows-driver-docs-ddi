@@ -69,7 +69,7 @@ The local IP address.
 ### -field FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_PORT
 
@@ -86,7 +86,7 @@ The remote IP address.
 ### -field FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_DESTINATION_ADDRESS_TYPE
 
 The destination IP address type. The possible values are defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_REMOTE_PORT
 
@@ -158,5 +158,5 @@ The ICMP code field, as specified in RFC 792.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
 

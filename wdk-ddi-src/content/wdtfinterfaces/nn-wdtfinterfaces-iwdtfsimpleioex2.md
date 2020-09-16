@@ -92,7 +92,7 @@ Storage volumes (class = Volume)
 </li>
 </ul>
 For more information about device classes, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">Device Setup Classes</a>.
+<a href="https://docs.microsoft.com/windows/win32/api/setupapi/ns-setupapi-sp_devinfo_data">Device Setup Classes</a>.
 
 To learn more about the specifics of how the <b>IWDTFSimpleIOEx2</b> action 
 interface works, or to support additional device classes, try to implement a target-specific version 

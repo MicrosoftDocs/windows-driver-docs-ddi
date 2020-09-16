@@ -112,7 +112,7 @@ The Microsoft Direct3D runtime performs the following data validation before it 
 
 <ul>
 <li>
-The input and output <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structures may be adjusted if the rectangles are not aligned properly according to the requirements of the format.
+The input and output <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structures may be adjusted if the rectangles are not aligned properly according to the requirements of the format.
 
 
 </li>
@@ -161,7 +161,7 @@ If multiple input streams are enabled and the video processor is enabled to prod
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 
 
 

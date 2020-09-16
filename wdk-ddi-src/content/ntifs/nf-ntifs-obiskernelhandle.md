@@ -61,12 +61,12 @@ The handle to check.
 
 ## -remarks
 
-You can use kernel handles only in kernel mode.  A driver can mark a handle as a kernel handle by specifying the OBJ_KERNEL_HANDLE flag in <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> when it creates the handle.
+You can use kernel handles only in kernel mode.  A driver can mark a handle as a kernel handle by specifying the OBJ_KERNEL_HANDLE flag in <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a> when it creates the handle.
 
 <div class="alert"><b>Note</b>  <b>ObIsKernelHandle</b> does not verify that the parameter is a valid handle.  This routine only determines if a valid handle is a kernel handle.  If the parameter is not a valid handle, the result of the routine is undefined.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a>
 

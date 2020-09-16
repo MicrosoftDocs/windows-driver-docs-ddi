@@ -169,11 +169,11 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
+<a href="https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
+<a href="https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 

@@ -52,7 +52,7 @@ Gets the capabilities of the device's television connector and/or copy protectio
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/tvout/ns-tvout-_videoparameters">VIDEOPARAMETERS</a> structure that describes the action to be performed by the miniport driver.
+The VRP <b>InputBuffer</b> contains a <a href="https://docs.microsoft.com/windows/win32/api/tvout/ns-tvout-videoparameters">VIDEOPARAMETERS</a> structure that describes the action to be performed by the miniport driver.
 
 ### -input-buffer-length
 
@@ -76,5 +76,5 @@ If the miniport driver successfully gets or sets the requested information, it s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tvout/ns-tvout-_videoparameters">VIDEOPARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/tvout/ns-tvout-videoparameters">VIDEOPARAMETERS</a>
 

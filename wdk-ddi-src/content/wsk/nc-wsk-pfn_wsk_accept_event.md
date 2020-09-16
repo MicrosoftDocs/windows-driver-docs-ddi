@@ -206,11 +206,11 @@ When the WSK subsystem calls a WSK application's
     callback functions on a listening socket, those event callback functions will be enabled by default on
     all connection-oriented sockets that are accepted on that listening socket. For more information about
     enabling any of the accepted socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/windows/win32/api/evntprov/nc-evntprov-penablecallback">Enabling and
     Disabling Event Callback Functions</a>.
 
 The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structures that are pointed to by the 
+    <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structures that are pointed to by the 
     <i>LocalAddress</i> and 
     <i>RemoteAddress</i> parameters are valid only for the duration of the call to the 
     <i>WskAcceptEvent</i> event callback function. If a WSK application needs these transport addresses at a
@@ -232,7 +232,7 @@ A WSK application's <i>WskAcceptEvent</i> event callback function must not wait 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 

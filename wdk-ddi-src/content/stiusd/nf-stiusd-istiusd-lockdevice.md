@@ -54,7 +54,7 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 ## -remarks
 
-If you are writing a driver for a device connected to a serial port, you might want to call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> from within the driver's <b>IStiUSD::LockDevice</b> method if the device was opened in status mode. This will prohibit other applications from using the port (which might be supporting other devices) while status information is being obtained. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/transfer-modes">Transfer Modes</a>.
+If you are writing a driver for a device connected to a serial port, you might want to call <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> from within the driver's <b>IStiUSD::LockDevice</b> method if the device was opened in status mode. This will prohibit other applications from using the port (which might be supporting other devices) while status information is being obtained. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/transfer-modes">Transfer Modes</a>.
 
 ## -see-also
 

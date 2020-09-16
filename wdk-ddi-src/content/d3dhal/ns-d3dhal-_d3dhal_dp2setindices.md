@@ -57,7 +57,7 @@ The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for <
 
 ### -field dwVBHandle
 
-Specifies the surface handle associated with this surface through a call to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>.
+Specifies the surface handle associated with this surface through a call to <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>.
 
 ### -field dwStride
 
@@ -69,7 +69,7 @@ A handle value of zero is valid and indicates that the current index buffer is c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
 
 
 

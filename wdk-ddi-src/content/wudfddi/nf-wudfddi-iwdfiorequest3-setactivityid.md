@@ -63,7 +63,7 @@ A pointer to the activity identifier GUID to store in the I/O request.
 
 Calling <b>SetActivityId</b> does not set an association with any previously present activity identifier. When the driver calls <b>SetActivityId</b>, any existing activity identifier is overwritten.
 
-To set an association, retrieve the existing identifier by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest3-retrieveactivityid">RetrieveActivityId</a> and then associate the existing identifier with the new one by calling <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>.
+To set an association, retrieve the existing identifier by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest3-retrieveactivityid">RetrieveActivityId</a> and then associate the existing identifier with the new one by calling <a href="https://docs.microsoft.com/windows/win32/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>.
 
 The framework does not clear a request's activity identifier when the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-reuse">IWdfIoRequest2::Reuse</a>.
 

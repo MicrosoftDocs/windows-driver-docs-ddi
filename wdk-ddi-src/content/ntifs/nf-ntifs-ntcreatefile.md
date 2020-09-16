@@ -120,7 +120,7 @@ A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes
 ### -param FileAttributes 
 
 [in]
-Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
+Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
 
 ### -param ShareAccess 
 

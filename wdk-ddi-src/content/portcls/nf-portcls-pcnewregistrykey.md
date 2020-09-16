@@ -84,7 +84,7 @@ Specifies the aspect of the device that is to be offered to clients. Adapter dri
 ### -param ObjectAttributes 
 
 [in, optional]
-Pointer to the object attributes of the key being created or opened. If <i>RegistryKeyType</i> has the value <b>GeneralRegistryKey</b>, this parameter must point to a valid, initialized system structure of type <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> with a valid <i>ObjectName</i> string for the key; otherwise, the function does not use this parameter. For more information, see the following Remarks section.
+Pointer to the object attributes of the key being created or opened. If <i>RegistryKeyType</i> has the value <b>GeneralRegistryKey</b>, this parameter must point to a valid, initialized system structure of type <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a> with a valid <i>ObjectName</i> string for the key; otherwise, the function does not use this parameter. For more information, see the following Remarks section.
 
 ### -param CreateOptions 
 
@@ -168,7 +168,7 @@ Not used with <b>PcNewRegistryKey</b>. See <a href="https://docs.microsoft.com/w
 
 For a <i>RegistryKeyType</i> value of <b>GeneralRegistryKey</b>, the caller must provide a valid <i>ObjectAttributes</i> parameter value, and the <i>CreateOptions</i> and <i>Disposition</i> parameters are optional. For any other <i>RegistryKeyType</i> value, the caller must provide a valid <i>DeviceObject</i> parameter value, and the <i>CreateOptions</i> and <i>Disposition</i> parameters are not used.
 
-The <i>ObjectAttributes</i> parameter points to an opaque structure of type OBJECT_ATTRIBUTES that contains object attributes such as key name and security descriptor. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize the structure. In the <i>Attributes</i> parameter for this macro, set the OBJ_KERNEL_HANDLE flag unless you intend to allow non-secure, user-mode applications to have read/write access to the registry key.
+The <i>ObjectAttributes</i> parameter points to an opaque structure of type OBJECT_ATTRIBUTES that contains object attributes such as key name and security descriptor. Use the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize the structure. In the <i>Attributes</i> parameter for this macro, set the OBJ_KERNEL_HANDLE flag unless you intend to allow non-secure, user-mode applications to have read/write access to the registry key.
 
 The <i>DesiredAccess</i> parameter is an access-control mask. It specifies the type of access control that the caller needs to have to the new registry key when accessing it through the <i>OutRegistryKey</i> object. This mask should not be confused with the access control list (ACL) that controls access by users to the registry key. When calling <b>PcNewRegistryKey</b> to create a registry key of type <b>GeneralRegistryKey</b>, the <i>ObjectAttributes </i>parameter specifies the key's attributes, including a security descriptor that contains the ACL. However, if the new key is of type <b>GeneralRegistryKey</b> and either the security descriptor pointer in the <i>ObjectAttributes </i>structure is <b>NULL</b> or the ACL pointer in the security descriptor is <b>NULL</b>, then the new key will inherit the parent key's ACL by default.
 
@@ -196,11 +196,11 @@ The <i>OutRegistryKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a>
 
 
 

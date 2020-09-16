@@ -62,7 +62,7 @@ If called on interfaces with index greater than zero, <b>IWDFUsbInterface::GetWi
 
   A UMDF driver can use the WinUsb interface handle to bypass the UMDF interfaces and call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540046(v=vs.85)">WinUSB Routines</a> directly for interface-related operations.
 
-The UMDF driver should not call the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a> function to free the WinUsb interface handle because the USB interface object owns the handle.
+The UMDF driver should not call the <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a> function to free the WinUsb interface handle because the USB interface object owns the handle.
 
 ## -see-also
 
@@ -70,9 +70,9 @@ The UMDF driver should not call the <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
 

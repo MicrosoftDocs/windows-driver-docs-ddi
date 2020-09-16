@@ -115,7 +115,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 ## -remarks
 
-For information about valid information types that a UMDF driver can pass for the <i>InformationType</i> parameter, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querydeviceinformation">WinUsb_QueryDeviceInformation</a> function.
+For information about valid information types that a UMDF driver can pass for the <i>InformationType</i> parameter, see the <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_querydeviceinformation">WinUsb_QueryDeviceInformation</a> function.
 
 If <i>InformationType</i> is DEVICE_SPEED (0x01), on successful return, <i>Buffer</i> indicates the operating speed of the device.  0x03 indicates high-speed or higher; 0x01 indicates full-speed or lower.
 
@@ -134,5 +134,5 @@ For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querydeviceinformation">WinUsb_QueryDeviceInformation</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_querydeviceinformation">WinUsb_QueryDeviceInformation</a>
 

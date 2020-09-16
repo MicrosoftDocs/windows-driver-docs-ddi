@@ -46,19 +46,19 @@ api_name:
 
 ## -description
 
-The <b>ExInterlockedPushEntryList</b> routine atomically inserts an entry at the beginning of a singly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structures.
+The <b>ExInterlockedPushEntryList</b> routine atomically inserts an entry at the beginning of a singly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structures.
 
 ## -parameters
 
 ### -param ListHead 
 
 [in, out]
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
 
 ### -param ListEntry 
 
 [in, out]
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure that represents the entry to be inserted into the list.
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structure that represents the entry to be inserted into the list.
 
 ### -param Lock 
 

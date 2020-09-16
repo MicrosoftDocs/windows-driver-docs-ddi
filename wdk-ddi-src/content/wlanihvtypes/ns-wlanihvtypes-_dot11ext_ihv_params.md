@@ -80,7 +80,7 @@ The operating system passes the GUID and other data related to the WLAN adapter 
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">
      Dot11ExtIhvInitAdapter</a> function, which the operating system calls when it detects the arrival of
      the WLAN adapter. For more information about this operation, see
-     <a href="https://docs.microsoft.com/windows/desktop/api/l2cmn/ns-l2cmn-_l2_notification_data">802.11 WLAN Adapter
+     <a href="https://docs.microsoft.com/windows/win32/api/l2cmn/ns-l2cmn-_l2_notification_data">802.11 WLAN Adapter
      Arrival</a>.
 
 ## -syntax

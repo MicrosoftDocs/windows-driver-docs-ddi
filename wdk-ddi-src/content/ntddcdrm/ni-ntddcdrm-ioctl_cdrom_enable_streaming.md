@@ -49,7 +49,7 @@ api_name:
 Enables or disables CDROM streaming mode on a per-handle basis for raw read and write requests. 
 
 To perform this operation, call the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function and specify the <b>IOCTL_CDROM_ENABLE_STREAMING</b> I/O control request as the <i>dwIoControlCode</i> parameter.
 
 ## -ioctlparameters
@@ -117,5 +117,5 @@ By default, streaming is disabled for all newly opened raw CDROM handles. A play
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 

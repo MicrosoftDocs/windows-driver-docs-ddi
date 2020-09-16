@@ -64,7 +64,7 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-ma
 ### -param ObjectAttributes 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes to apply to the process object handle. In Windows Vista and later versions of Windows, the <b>ObjectName</b> field of this structure must be set to <b>NULL</b>. In Windows Server 2003, Windows XP, and Windows 2000, this field can, as an option, point to an object name. For more information, see the following Remarks section.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the attributes to apply to the process object handle. In Windows Vista and later versions of Windows, the <b>ObjectName</b> field of this structure must be set to <b>NULL</b>. In Windows Server 2003, Windows XP, and Windows 2000, this field can, as an option, point to an object name. For more information, see the following Remarks section.
 
 ### -param ClientId 
 
@@ -145,7 +145,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a>
 
 
 

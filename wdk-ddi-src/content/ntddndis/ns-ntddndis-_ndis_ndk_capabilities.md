@@ -85,12 +85,12 @@ The maximum number of protection domains (PDs) that can be supported by the adap
 ### -field MaxInboundReadLimit
 
 The maximum number of incoming outstanding read requests that can be supported by the adapter. 
-     If this member is zero, there is no adapter limit. In this case, there is still a limit for each queue pair. The limit for each queue pair is specified in the <b>MaxInboundReadLimit</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
+     If this member is zero, there is no adapter limit. In this case, there is still a limit for each queue pair. The limit for each queue pair is specified in the <b>MaxInboundReadLimit</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 
 ### -field MaxOutboundReadLimit
 
 The maximum number of outgoing outstanding read requests that can be supported by the adapter. 
-    If this member is zero, there is no adapter-wide limit.  In this case, there is still a limit for each queue pair. The limit for each queue pair is specified in the <b>MaxOutboundReadLimit</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
+    If this member is zero, there is no adapter-wide limit.  In this case, there is still a limit for each queue pair. The limit for each queue pair is specified in the <b>MaxOutboundReadLimit</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 
 ### -field MaxMwCount
 
@@ -110,7 +110,7 @@ A bitmask that identifies counters that an NDK provider does not support. NDK pr
 
 ### -field NdkInfo
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure that specifies NDK adapter capabilities and limits that are relevant for an specific NDK consumer. These capabilities can be different from system-wide limits.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure that specifies NDK adapter capabilities and limits that are relevant for an specific NDK consumer. These capabilities can be different from system-wide limits.
 
 ## -remarks
 
@@ -137,5 +137,5 @@ The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
 

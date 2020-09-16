@@ -118,7 +118,7 @@ The driver must release any spin lock it is holding before calling
     <b>NdisMWriteLogData</b>.
 
 <b>NdisMWriteLogData</b> does not recognize boundaries between log records, nor does the Win32 function, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, which applications can call with IOCTL_NDIS_GET_LOG_DATA to retrieve data written
+    <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, which applications can call with IOCTL_NDIS_GET_LOG_DATA to retrieve data written
     to an NDIS log file by an NDIS miniport driver. 
     <b>NdisMWriteLogData</b> writes all miniport driver-supplied data at 
     <i>LogBuffer</i> into the log file as a byte stream. 

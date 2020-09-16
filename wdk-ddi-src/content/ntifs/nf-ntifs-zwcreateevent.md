@@ -70,7 +70,7 @@ The [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel
 ### -param ObjectAttributes 
 
 [in, optional]
-A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the **ObjectName** and the [**SECURITY_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor), for example. This parameter is initialized by calling the [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) macro.
+A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the **ObjectName** and the [**SECURITY_DESCRIPTOR**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor), for example. This parameter is initialized by calling the [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) macro.
 
 ### -param EventType 
 
@@ -91,7 +91,7 @@ The initial state of the event object. Set to **TRUE** to initialize the event o
 | **STATUS_INSUFFICIENT_RESOURCES** | Resources required by this function could not be allocated. |
 | **STATUS_INVALID_PARAMETER**      | The supplied *ObjectAttributes* structure contained an invalid parameter value. |
 | **STATUS_INVALID_PARAMETER_4**    | The specified *EventType* parameter was invalid. |
-| **STATUS_OBJECT_NAME_INVALID**    | The *ObjectAttributes* parameter contained an **ObjectName** in the [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes) structure that was invalid. |
+| **STATUS_OBJECT_NAME_INVALID**    | The *ObjectAttributes* parameter contained an **ObjectName** in the [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes) structure that was invalid. |
 | **STATUS_OBJECT_PATH_SYNTAX_BAD** | The *ObjectAttributes* parameter did not contain a **RootDirectory** member, but the **ObjectName** member in the **OBJECT_ATTRIBUTES** structure was an empty string or did not contain an OBJECT_NAME_PATH_SEPARATOR character. This indicates incorrect syntax for the object path. |
 | **STATUS_PRIVILEGE_NOT_HELD**     | The caller did not have the required privilege to create a handle with the access specified in the *DesiredAccess* parameter. |
 
@@ -140,7 +140,7 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
 
-[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes)
+[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
 [**IoCreateNotificationEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatenotificationevent)
 

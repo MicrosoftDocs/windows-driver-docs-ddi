@@ -144,9 +144,9 @@ VOID MouseClassServiceCallback(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_input_data">KEYBOARD_INPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data">KEYBOARD_INPUT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_input_data">MOUSE_INPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntddmou/ns-ntddmou-mouse_input_data">MOUSE_INPUT_DATA</a>
 

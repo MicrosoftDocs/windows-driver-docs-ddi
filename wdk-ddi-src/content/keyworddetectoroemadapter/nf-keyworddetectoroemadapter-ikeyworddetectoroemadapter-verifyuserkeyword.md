@@ -73,7 +73,7 @@ Indicates the end of the keyword in the UserRecording.
 ### -param UserRecording 
 
 [in]
-A pointer to the buffer containing the raw data in the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> format.
+A pointer to the buffer containing the raw data in the appropriate <a href="https://docs.microsoft.com/windows/win32/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> format.
 
 The user recording must have the following attributes:
 
@@ -182,7 +182,7 @@ Note that audio is processed in a unique way for voice activation training. The 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
+<a href="https://docs.microsoft.com/windows/win32/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 

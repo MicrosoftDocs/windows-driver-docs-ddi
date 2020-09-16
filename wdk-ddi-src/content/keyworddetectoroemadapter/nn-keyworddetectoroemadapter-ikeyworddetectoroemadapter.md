@@ -55,7 +55,7 @@ in Windows 10 and later versions of Windows.
 
 
 The class identifier (CLSID) of the COM object is a detector pattern type GUID 
-returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-supportedpatterns">KSPROPERTY_SOUNDDETECTOR_SUPPORTEDPATTERNS</a>. The operating system calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> passing the pattern type GUID to instantiate the appropriate COM object that is compatible with keyword pattern type and calls methods on the object’s <b>IKeywordDetectorOemAdapter</b> interface.
+returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-supportedpatterns">KSPROPERTY_SOUNDDETECTOR_SUPPORTEDPATTERNS</a>. The operating system calls <a href="https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> passing the pattern type GUID to instantiate the appropriate COM object that is compatible with keyword pattern type and calls methods on the object’s <b>IKeywordDetectorOemAdapter</b> interface.
 The operating supplies a proxy-stub for <b>IKeywordDetectorOemAdapter</b>. The OEM’s implementation may choose any of the COM threading models. 
 
 The interface design attempts to keep the object implementation stateless. In other words, the implementation should require no state to be stored between method calls. 
