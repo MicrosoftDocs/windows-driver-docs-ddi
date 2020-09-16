@@ -70,7 +70,7 @@ For more information on using <i>hObjects</i>, see the Remarks section.
 ### -param pObjectAttributes 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the  resource objects.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the  resource objects.
 
 ### -param dwDesiredAccess 
 

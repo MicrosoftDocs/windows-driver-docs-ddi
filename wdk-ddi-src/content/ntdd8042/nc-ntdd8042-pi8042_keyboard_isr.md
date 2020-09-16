@@ -99,7 +99,7 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_input_data">KEYBOARD_INPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data">KEYBOARD_INPUT_DATA</a>
 
 
 

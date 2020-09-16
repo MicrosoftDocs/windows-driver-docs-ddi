@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>PushEntryList</b> routine inserts an entry at the beginning of a singly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structures.
+The <b>PushEntryList</b> routine inserts an entry at the beginning of a singly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structures.
 
 ## -parameters
 
 ### -param ListHead 
 
 [in, out]
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
 
 ### -param Entry 
 

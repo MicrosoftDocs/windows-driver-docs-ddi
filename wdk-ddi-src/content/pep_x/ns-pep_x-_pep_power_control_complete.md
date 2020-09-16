@@ -60,7 +60,7 @@ The <b>PEP_POWER_CONTROL_COMPLETE</b> structure contains status information for 
 
 ### -field PowerControlCode
 
-[in] A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> value that specifies the power control operation that was performed. This is the same value that the PEP supplied in response to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to initiate the power control operation.
+[in] A pointer to a GUID value that specifies the power control operation that was performed. This is the same value that the PEP supplied in response to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to initiate the power control operation.
 
 ### -field RequestContext
 
@@ -82,5 +82,5 @@ If the output buffer is too small to receive all of the result data from the ope
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+GUID
 
