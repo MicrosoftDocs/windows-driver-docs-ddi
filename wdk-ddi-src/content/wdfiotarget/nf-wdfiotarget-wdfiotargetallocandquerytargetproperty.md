@@ -61,7 +61,7 @@ A handle to a local or remote I/O target object that was obtained from a previou
 ### -param DeviceProperty 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ne-wudfwdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed value that identifies the device property to be retrieved.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed value that identifies the device property to be retrieved.
 
 ### -param PoolType 
 
@@ -144,7 +144,7 @@ status = WdfIoTargetAllocAndQueryTargetProperty(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ne-wudfwdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>
 
 
 

@@ -76,7 +76,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ne-wudfwdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>
 
 
 
