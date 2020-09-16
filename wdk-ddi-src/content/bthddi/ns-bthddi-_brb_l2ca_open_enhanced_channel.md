@@ -595,6 +595,6 @@ For the <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> BRB, this member contains the resp
 
 ## -remarks
 
-Profile drivers can use CM_BASIC | CM_RETRANSMISSION_AND_FLOW, or CM_BASIC | CM_STREAMING modes for the <b>Flags</b> member. This indicates to open an enhanced retransmission mode, or streaming mode channel if possible, and if not fall back to basic mode channel. 
-A value of CM_RETRANSMISSION_AND_FLOW | CM_STREAMING is not supported.
+Profile drivers can use `CM_BASIC | CM_RETRANSMISSION_AND_FLOW`, or `CM_BASIC | CM_STREAMING` modes for the <b>Flags</b> member. This indicates to open an enhanced retransmission mode, or streaming mode channel if possible, and if not fall back to basic mode channel. 
+A value of `CM_RETRANSMISSION_AND_FLOW | CM_STREAMING` is not supported.
 

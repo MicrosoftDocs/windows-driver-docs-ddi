@@ -67,7 +67,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
 | **STATUS_NO_MEMORY** | [D3DKMTCreateAllocation](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation)  could not complete because of insufficient memory. | 
 | **STATUS_NO_VIDEO_MEMORY** | [D3DKMTCreateAllocation](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation)  could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code. | 
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks

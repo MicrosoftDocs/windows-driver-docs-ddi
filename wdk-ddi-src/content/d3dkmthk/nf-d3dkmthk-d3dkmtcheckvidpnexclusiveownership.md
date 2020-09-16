@@ -67,7 +67,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE** | The video present source that is identified by the VidPnSourceId member of [D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership) is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source. | 
 | **STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE** | The video present source that is identified by the VidPnSourceId member of D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP is invalid. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
- 
+
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
