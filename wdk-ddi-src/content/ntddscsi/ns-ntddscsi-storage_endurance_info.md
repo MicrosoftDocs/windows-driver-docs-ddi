@@ -57,6 +57,7 @@ A miniport uses the **STORAGE_ENDURANCE_INFO** structure to report a device's en
 Bitmask that indicates which of the remaining members contain valid data. Can be any of the combination of the following bits:
 
 | Bit | Meaning |
+|-|-|
 | 0 | The *GroupId* member contains valid data. |
 | 1 | The *Flags* member contains valid data. |
 | 2 | The *LifePercentage* member contains valid data. |

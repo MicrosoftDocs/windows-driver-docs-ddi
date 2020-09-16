@@ -69,14 +69,15 @@ Returns TRUE if the string matches the pattern, FALSE otherwise.
 
 ## -remarks
 
-The following wildcard characters can be used in the pattern string.
+The following wildcard characters can be used in the pattern string:
+
 Wildcard character|Meaning
-------------- | -------------
-* (asterisk)|Matches zero or more characters.
-? (question mark)|Matches a single character.
-DOS_DOT|Matches either a period or zero characters beyond the name string.
-DOS_QM|Matches any single character or, upon encountering a period or end of name string, advances the expression to the end of the set of contiguous DOS_QMs.
-DOS_STAR|Matches zero or more characters until encountering and matching the final . in the name.
+|-|-|
+|* (asterisk)|Matches zero or more characters.|
+|? (question mark)|Matches a single character.|
+|DOS_DOT|Matches either a period or zero characters beyond the name string.|
+|DOS_QM|Matches any single character or, upon encountering a period or end of name string, advances the expression to the end of the set of contiguous DOS_QMs.|
+|DOS_STAR|Matches zero or more characters until encountering and matching the final period in the name.|
 
  
 **Note**  
