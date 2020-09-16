@@ -125,7 +125,7 @@ Reserved for system use.
 
 The buffer receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_origin">TOKEN_ORIGIN</a> value. 
 
-If the token resulted from a logon that used explicit credentials, such as passing a name, domain, and password to the user-mode <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function, then the <b>TOKEN_ORIGIN</b> structure will contain the ID of the logon session that created it.
+If the token resulted from a logon that used explicit credentials, such as passing a name, domain, and password to the user-mode <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-logonusera">LogonUser</a> function, then the <b>TOKEN_ORIGIN</b> structure will contain the ID of the logon session that created it.
 
 If the token resulted from network authentication, such as a call to user-mode <b>AcceptSecurityContext</b> function or a call to user-mode <b>LogonUser</b> function with dwLogonType set to LOGON32_LOGON_NETWORK or LOGON32_LOGON_NETWORK_CLEARTEXT, then this value will be zero.
 

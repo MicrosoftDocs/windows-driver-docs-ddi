@@ -82,7 +82,7 @@ The UDE client driver presents itself to user-mode software as a host controller
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_root_hub_name">IOCTL_USB_GET_ROOT_HUB_NAME</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
 </li>
 </ul>
 

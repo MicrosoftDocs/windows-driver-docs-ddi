@@ -498,7 +498,7 @@ The handle received as the function's hPort argument is the port handle that the
 
 A language monitor's **EndDocPort** function typically calls the associated port monitor's **EndDocPort** function. It should also notify the spooler when the printing device has finished the job by calling [**SetJob**](https://docs.microsoft.com/windows/win32/printdocs/setjob), specifying a command of JOB_CONTROL_LAST_PAGE_EJECTED. Language monitors for bidirectional printers should not call **SetJob** until the printer has sent notification that the job is really finished.
 
-A port monitor server DLL's **EndDocPort** function typically calls the [**CloseHandle**](https://docs.microsoft.com/windows/win32/api/handleapi/nf-handleapi-closehandle) function, to close the handle that was previously obtained by calling [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) from within [StartDocPort](https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)). It should also notify the spooler when the printing device has finished the job, by calling **SetJob**, specifying a command of JOB_CONTROL_SENT_TO_PRINTER. (If a spooler is communicating with the port through a language monitor, it doesn't consider the job complete until the language monitor sends JOB_CONTROL_LAST_PAGE_EJECTED.)
+A port monitor server DLL's **EndDocPort** function typically calls the [**CloseHandle**](https://docs.microsoft.com/windows/win32/api/handleapi/nf-handleapi-closehandle) function, to close the handle that was previously obtained by calling [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) from within [StartDocPort](https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)). It should also notify the spooler when the printing device has finished the job, by calling **SetJob**, specifying a command of JOB_CONTROL_SENT_TO_PRINTER. (If a spooler is communicating with the port through a language monitor, it doesn't consider the job complete until the language monitor sends JOB_CONTROL_LAST_PAGE_EJECTED.)
 
 The **EndDocPort** function should free all resources that were allocated by the **StartDocPort** function.
 
@@ -558,7 +558,7 @@ The handle received as the function's *hPort* argument is the port handle that t
 
 A language monitor's `StartDocPort` function typically calls the associated port monitor's `StartDocPort` function.
 
-A port monitor server DLL's `StartDocPort` function typically calls the [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) function, to create a connection to the kernel-mode port driver.
+A port monitor server DLL's `StartDocPort` function typically calls the [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) function, to create a connection to the kernel-mode port driver.
 
 If necessary, the port monitor should prevent other processes from using the specified port until [EndDocPort](https://docs.microsoft.com/previous-versions/ff548742(v=vs.85)) is called. For example, a port monitor for a COM port must ensure that, while a spooler is sending printer data to the port, another application does not assume the port is connected to a particular communications device and then attempt to communicate with that device. This cautionary note does not apply to the local print provider, which guarantees that it never calls `StartDocPort` twice in succession without an intervening call to **EndDocPort**, but it does apply to print providers that do not make this guarantee.
 

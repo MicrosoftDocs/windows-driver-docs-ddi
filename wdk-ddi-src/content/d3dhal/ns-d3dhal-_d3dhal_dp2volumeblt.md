@@ -85,7 +85,7 @@ Reserved for system use.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> callback creates the small integer handles to the volume textures that can be used as source and destination volume textures for volume texture blts.
+The <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> callback creates the small integer handles to the volume textures that can be used as source and destination volume textures for volume texture blts.
 
 See Remarks for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2texblt">D3DHAL_DP2TEXBLT</a>.
 
@@ -99,7 +99,7 @@ D3DDP2OP_VOLUMEBLT
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
 
 
 

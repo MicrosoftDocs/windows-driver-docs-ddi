@@ -93,7 +93,7 @@ A pointer to the management identifier for the filter, as specified by the appli
 
 [in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> structure. This structure
+     <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> structure. This structure
      describes the filter that is being added to or deleted from the filter engine.
      
 
@@ -192,7 +192,7 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
 
 
 

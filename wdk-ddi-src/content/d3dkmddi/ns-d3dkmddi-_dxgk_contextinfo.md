@@ -107,7 +107,7 @@ A display miniport driver specifies values for the <b>DmaBufferSize</b> and <b>A
 
 <ul>
 <li>
-The Microsoft DirectX graphics subsystem can use only one direct memory access (DMA) buffer to display (by using the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a> function) at least one <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure for all scenarios.
+The Microsoft DirectX graphics subsystem can use only one direct memory access (DMA) buffer to display (by using the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a> function) at least one <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure for all scenarios.
 
 </li>
 <li>
@@ -157,5 +157,5 @@ If the driver sets <b>DmaBufferSegmentSet</b> to 0, the video memory manager all
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

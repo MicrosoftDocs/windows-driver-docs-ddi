@@ -50,7 +50,7 @@ Retrieves the supported speeds from the device. The <b>IOCTL_CDROM_GET_PERFORMAN
    I/O control request   is a wrapper over the MMC command, GET PERFORMANCE.
 
 To perform this operation, call the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with   <b>IOCTL_CDROM_GET_PERFORMANCE</b> as the <i>dwIoControlCode</i> parameter.
 
 ## -ioctlparameters
@@ -125,5 +125,5 @@ The request completed successfully.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 

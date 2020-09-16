@@ -56,7 +56,7 @@ The co-installer's <b>WdfPreDeviceRemove</b> function performs any operations th
 ### -param InfPath 
 
 [in]
-A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>, which is described in the Microsoft Windows SDK.
+A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>, which is described in the Microsoft Windows SDK.
 
 ### -param InfSectionName 
 
@@ -69,11 +69,11 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 
 ## -remarks
 
-The installer for the framework-based drivers of a non-PnP device must call <b>WdfPreDeviceRemove</b> before the installer calls <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-deleteservice">DeleteService</a>.
+The installer for the framework-based drivers of a non-PnP device must call <b>WdfPreDeviceRemove</b> before the installer calls <a href="https://docs.microsoft.com/windows/win32/api/winsvc/nf-winsvc-deleteservice">DeleteService</a>.
 
-To obtain the address of the co-installer's <b>WdfPreDeviceRemove</b> function, the installer must call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> after the installer has called <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to load the co-installer.
+To obtain the address of the co-installer's <b>WdfPreDeviceRemove</b> function, the installer must call <a href="https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> after the installer has called <a href="https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to load the co-installer.
 
-For more information about the <b>WdfPreDeviceRemove</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-a-non-pnp-driver">Installing a Non-PnP Driver</a>. For more information about <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-deleteservice">DeleteService</a>, <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>, see the Microsoft Windows SDK documentation.
+For more information about the <b>WdfPreDeviceRemove</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-a-non-pnp-driver">Installing a Non-PnP Driver</a>. For more information about <a href="https://docs.microsoft.com/windows/win32/api/winsvc/nf-winsvc-deleteservice">DeleteService</a>, <a href="https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>, and <a href="https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>, see the Microsoft Windows SDK documentation.
 
 
 #### Examples

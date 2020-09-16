@@ -152,7 +152,7 @@ The driver does not require exclusive delete access to the device.
 
 
 
-<b>UMDF </b>For more information about this member, see the <i>dwShareMode</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function in the 
+<b>UMDF </b>For more information about this member, see the <i>dwShareMode</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function in the 
     Windows SDK.
 
 A value of zero in <b>ShareAccess</b> indicates that the driver requires exclusive access to the device.
@@ -162,7 +162,7 @@ A value of zero in <b>ShareAccess</b> indicates that the driver requires exclusi
 <b>KMDF </b>If the value of <b>Type</b> is <b>WdfIoTargetOpenByName</b>, this is a bitwise OR of the FILE_ATTRIBUTE_<i>Xxxx</i> flags that are defined in <i>Wdm.h</i>. Most drivers specify FILE_ATTRIBUTE_NORMAL. For more information about these flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
 
 <b>UMDF </b>For more information about 
-    this member, see the <i>dwFlagsAndAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function in the Windows SDK.
+    this member, see the <i>dwFlagsAndAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function in the Windows SDK.
 
 If the value of <b>Type</b> is not <b>WdfIoTargetOpenByName</b>, this member is ignored.
 
@@ -171,7 +171,7 @@ If the value of <b>Type</b> is not <b>WdfIoTargetOpenByName</b>, this member is 
 <b>KMDF </b>If the value of <b>Type</b> is <b>WdfIoTargetOpenByName</b>, this value indicates an action for the system to take when opening a file. For a list of possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
 
 <b>UMDF </b>For more information about 
-    this member, see the <i>dwCreationDisposition</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function in the Windows SDK.
+    this member, see the <i>dwCreationDisposition</i> parameter of the <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function in the Windows SDK.
 
 If the value of <b>Type</b> is not <b>WdfIoTargetOpenByName</b>, this member is ignored.
 

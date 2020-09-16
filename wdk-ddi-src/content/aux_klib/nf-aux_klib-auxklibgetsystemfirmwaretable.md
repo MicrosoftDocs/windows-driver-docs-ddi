@@ -175,7 +175,7 @@ The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI ta
 
 For ACPI, if the system firmware contains multiple tables with the same name, <b>AuxKlibEnumerateSystemFirmwareTables</b> enumerates them all. However, <b>AuxKlibGetSystemFirmwareTable</b> retrieves only the first table in the list that has this name.
 
-<b>AuxKlibGetSystemFirmwareTable</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> function.
+<b>AuxKlibGetSystemFirmwareTable</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> function.
 
 Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibGetSystemFirmwareTable</b>.
 
@@ -191,5 +191,5 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
+<a href="https://docs.microsoft.com/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
 

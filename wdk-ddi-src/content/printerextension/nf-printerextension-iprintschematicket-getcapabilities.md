@@ -82,5 +82,5 @@ Because this method retrieves a new PrintCapabilities document every time it is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">IPrintSchemaTicket::put_JobCopiesAllDocuments</a>
+<a href="https://docs.microsoft.com/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">IPrintSchemaTicket::put_JobCopiesAllDocuments</a>
 

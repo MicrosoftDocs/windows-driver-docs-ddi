@@ -60,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pRect* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the 2-D portion of the render target to confine rendering to.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the 2-D portion of the render target to confine rendering to.
 
 ## -returns
 
@@ -72,5 +72,5 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

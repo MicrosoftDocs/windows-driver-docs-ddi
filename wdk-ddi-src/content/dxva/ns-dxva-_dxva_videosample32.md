@@ -74,7 +74,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-d
 
 ### -field rcSrc
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that describes the upper-left and lower-right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer and its position on the source surface.
+Specifies a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the upper-left and lower-right points of a rectangle on the source surface. These points define the area of the source data for the bit-block transfer and its position on the source surface.
 
 ### -field rcDst
 
@@ -114,5 +114,5 @@ The compiler adds 4 bytes of padding to align the structure to 8 bytes.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

@@ -54,7 +54,7 @@ api_name:
 
 The D3DDEVICEDESC_V2 structure contains fields that are already reported in the 
 	 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_d3dextendedcaps">D3DHAL_D3DEXTENDEDCAPS</a> 
-	 structure when responding to the GUID_D3DExtendedCaps GUID in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>. 
+	 structure when responding to the GUID_D3DExtendedCaps GUID in <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>. 
 	 
 
 

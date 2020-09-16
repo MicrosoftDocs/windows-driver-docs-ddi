@@ -73,7 +73,7 @@ This routine closes handle for the minifilter driver's server port, which listen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
 
 
 

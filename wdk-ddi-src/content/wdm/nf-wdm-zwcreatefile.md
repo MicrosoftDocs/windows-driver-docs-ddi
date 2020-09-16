@@ -238,7 +238,7 @@ For more information about access rights, see <a href="https://docs.microsoft.co
 ### -param ObjectAttributes 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 ### -param IoStatusBlock 
 
@@ -280,7 +280,7 @@ A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes
 ### -param FileAttributes 
 
 [in]
-Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_<i>XXX</i> flags, see the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, <i>FileAttributes</i> is ignored.
+Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_<i>XXX</i> flags, see the <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, <i>FileAttributes</i> is ignored.
 
 ### -param ShareAccess 
 
@@ -807,7 +807,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

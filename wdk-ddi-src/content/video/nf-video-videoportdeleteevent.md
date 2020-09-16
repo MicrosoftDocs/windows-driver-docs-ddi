@@ -66,11 +66,11 @@ Pointer to the event object to be deleted.
 
 ## -remarks
 
-This function should not be used to delete a mapped user event. To delete a mapped user event, use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a>.
+This function should not be used to delete a mapped user event. To delete a mapped user event, use <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a>
 
 
 

@@ -74,7 +74,7 @@ Reserved for system use.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> callback creates the small integer handles to the textures that can be used as source and destination textures for texture blts.
+The <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> callback creates the small integer handles to the textures that can be used as source and destination textures for texture blts.
 
 The D3DHAL_DP2TEXBLT structure is used with a D3DDP2OP_TEXBLT command stream token to inform the drivers to perform a blt operation from a source texture to a destination texture. A texture can also be cubic environment map. The driver should copy a rectangle specified by <b>rSrc</b> in the source texture to the location specified by <b>pDest</b> in the destination texture. The destination and source textures are identified by handles that the driver was notified with during texture creation time. If the driver is capable of managing textures, then it is possible that the destination handle is 0. This indicates to the driver that it should preload the texture into video memory (or wherever the hardware efficiently textures from). In this case, the driver can ignore <b>rSrc</b> and <b>pDest</b>. 
 
@@ -111,7 +111,7 @@ D3DDP2OP_TEXBLT
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
 
 
 

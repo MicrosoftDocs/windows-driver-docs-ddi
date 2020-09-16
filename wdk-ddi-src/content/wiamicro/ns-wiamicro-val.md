@@ -86,5 +86,5 @@ Reserved. Do not use.
 
 ### -field szVal
 
-Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) in order to obtain a file handle to the device.
+Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) in order to obtain a file handle to the device.
 

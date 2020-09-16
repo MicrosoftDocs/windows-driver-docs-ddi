@@ -63,7 +63,7 @@ A pointer to the GUID that identifies the extension interface.
 ### -param ExtensionInterfaceVersion 
 
 [in]
-	The requested version (<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>) of the extension interface.
+	The requested version (<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>) of the extension interface.
 
 ### -param pExtensionInterface 
 
@@ -144,5 +144,5 @@ Each NDK object contains an <i>NdkQqueryExtensionInterface</i> (<i>NDK_FN_QUERY_
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
 

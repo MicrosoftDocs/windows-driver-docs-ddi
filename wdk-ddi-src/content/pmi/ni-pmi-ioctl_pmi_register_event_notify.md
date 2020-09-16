@@ -95,7 +95,7 @@ The WDM driver that supports the PMI interface has completed the IOCTL request s
 
 ## -remarks
 
-PMI creates an event notification queue for each initiator that opens the device instance for a power meter by using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. A separate queue is created for each caller's connection to a device instance. The following points apply to the event notification queue:
+PMI creates an event notification queue for each initiator that opens the device instance for a power meter by using the <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. A separate queue is created for each caller's connection to a device instance. The following points apply to the event notification queue:
 
 <ul>
 <li>
@@ -113,7 +113,7 @@ After the event notification queue is created, the queue will contain unsent eve
 </ul>
 When PMI sends a power meter event to the caller, it completes the <b>IOCTL_PMI_REGISTER_EVENT_NOTIFY</b> request. The data that describes the event is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_event">PMI_EVENT</a> structure in the output buffer that is referenced by the <b>MdlAddress</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>. The <b>EventType </b>member of this structure contains information about the power meter event's type. For example, if <b>EventType</b> is set to <b>PmiConfigurationChangedEvent</b>, the power meter's configuration has changed. In this case, the caller can query the power meter's new configuration by using an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a> request.
 
-For more information about the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and <b>CloseFile</b> functions, refer to the Windows SDK documentation.
+For more information about the <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and <b>CloseFile</b> functions, refer to the Windows SDK documentation.
 
 ## -see-also
 

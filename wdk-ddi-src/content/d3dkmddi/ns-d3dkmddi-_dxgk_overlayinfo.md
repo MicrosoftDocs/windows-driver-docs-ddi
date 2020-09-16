@@ -66,7 +66,7 @@ The DXGK_OVERLAYINFO structure describes parameters that are required to create 
 
 ### -field DstRect
 
-[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that contains the overlay destination rectangle, in device coordinates.
+[in] A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that contains the overlay destination rectangle, in device coordinates.
 
 ### -field SrcRect
 
@@ -98,5 +98,5 @@ The DXGK_OVERLAYINFO structure describes parameters that are required to create 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

@@ -66,7 +66,7 @@ The D3DDDIARG_LOCK structure describes a resource or a surface within the resour
 
 ### -field Area
 
-[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that describes the subrectangle of the surface to lock.
+[in] A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the subrectangle of the surface to lock.
 
 ### -field Box
 

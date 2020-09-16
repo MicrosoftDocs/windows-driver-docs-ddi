@@ -158,7 +158,7 @@ The equivalent customized hooking function must cast this input parameter to typ
 
 </li>
 </ul>
-Note that while a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> includes the addresses of its <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdisablepdev">DrvDisablePDEV</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvresetpdev">DrvResetPDEV</a> functions in the DRVENABLEDATA structure, a rendering plug-in explicitly exports <b>EnablePDEV</b>, <b>DisablePDEV</b>, and <b>ResetPDEV</b> as methods of the <b>IPrintOemUni</b> interface and does not place their addresses in the DRVENABLEDATA structure.
+Note that while a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> includes the addresses of its <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>, <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvdisablepdev">DrvDisablePDEV</a>, and <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvresetpdev">DrvResetPDEV</a> functions in the DRVENABLEDATA structure, a rendering plug-in explicitly exports <b>EnablePDEV</b>, <b>DisablePDEV</b>, and <b>ResetPDEV</b> as methods of the <b>IPrintOemUni</b> interface and does not place their addresses in the DRVENABLEDATA structure.
 
 If <code>IPrintOemUni::EnableDriver</code> methods are exported by multiple rendering plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 

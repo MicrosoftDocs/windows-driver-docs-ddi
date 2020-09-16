@@ -143,7 +143,7 @@ Typically, the driver calls <b>IoCreateSystemThread</b> either when it starts th
 
 If the <i>ProcessHandle</i> parameter is <b>NULL</b>, the created thread is associated with the system process. Such a thread continues running until either the system is shut down or the thread exits.
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>IoCreateSystemThread</b>. This attribute restricts the use of the handle returned by <b>IoCreateSystemThread</b> to processes running in kernel mode. Otherwise, the thread handle could be accessed by the process in whose context the driver is running. Drivers can call the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to set the OBJ_KERNEL_HANDLE attribute in the object attributes, as shown in the following code example.
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>IoCreateSystemThread</b>. This attribute restricts the use of the handle returned by <b>IoCreateSystemThread</b> to processes running in kernel mode. Otherwise, the thread handle could be accessed by the process in whose context the driver is running. Drivers can call the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to set the OBJ_KERNEL_HANDLE attribute in the object attributes, as shown in the following code example.
 
 
 ```
@@ -170,7 +170,7 @@ In contrast to a system thread that is created by the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

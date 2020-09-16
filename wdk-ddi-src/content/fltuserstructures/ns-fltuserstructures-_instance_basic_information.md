@@ -72,7 +72,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>
 
 
 
@@ -88,7 +88,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindclose">FilterVolumeInstanceFindClose</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindclose">FilterVolumeInstanceFindClose</a>
 
 
 

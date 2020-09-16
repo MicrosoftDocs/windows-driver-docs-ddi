@@ -102,7 +102,7 @@ The IPv6 address family.
 
 [in]
 The identifier of the routing compartment into which the packet data is injected, specified as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ne-ntdef-compartment_id">COMPARTMENT_ID</a> type. This identifier is provided
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ne-ntdef-compartment_id">COMPARTMENT_ID</a> type. This identifier is provided
      to a callout through the 
      <b>compartmentId</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
@@ -254,7 +254,7 @@ If the original inbound packet data had been subject to IPsec policy enforcement
 To allow IPsec to process inbound packets first, the callout that inspects the transport layer data
     must have a lower value of 
     <b>subLayerWeight</b> in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure than the universal
+    <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure than the universal
     sublayer. In addition, the callout driver must not intercept tunnel-mode packets for which the
     combination of 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_">
@@ -307,11 +307,11 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a>
 
 
 

@@ -65,7 +65,7 @@ Specifies the 2D texture that was marked as dirtied. This is a <a href="https://
 
 ## -remarks
 
-D3DHAL_DP2ADDDIRTYRECT, along with the DP2OP_ADDDIRTYRECT token, is used only for driver managed resources and surfaces. D3DHAL_DP2ADDDIRTYRECT is never sent unless the driver indicates that it manages resources. To indicate that it manages resources, the driver must set the DDCAPS2_CANMANAGERESOURCE bit, in addition to the DDCAPS2_CANMANAGETEXTURE bit, in the <b>dwCaps2</b> member of a DDCORECAPS structure. The driver specifies this <a href="https://docs.microsoft.com/windows/win32/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure in the <b>ddCaps</b> member of a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure when the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function is called to initialize the DirectDraw component of the driver.
+D3DHAL_DP2ADDDIRTYRECT, along with the DP2OP_ADDDIRTYRECT token, is used only for driver managed resources and surfaces. D3DHAL_DP2ADDDIRTYRECT is never sent unless the driver indicates that it manages resources. To indicate that it manages resources, the driver must set the DDCAPS2_CANMANAGERESOURCE bit, in addition to the DDCAPS2_CANMANAGETEXTURE bit, in the <b>dwCaps2</b> member of a DDCORECAPS structure. The driver specifies this <a href="https://docs.microsoft.com/windows/win32/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure in the <b>ddCaps</b> member of a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure when the driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function is called to initialize the DirectDraw component of the driver.
 
 ## -see-also
 
@@ -85,5 +85,5 @@ D3DHAL_DP2ADDDIRTYRECT, along with the DP2OP_ADDDIRTYRECT token, is used only fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
 

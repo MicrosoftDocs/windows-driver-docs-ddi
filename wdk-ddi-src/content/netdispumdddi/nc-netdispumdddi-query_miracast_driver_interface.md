@@ -73,14 +73,14 @@ On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function
 
 ## -remarks
 
-When the Miracast user-mode driver is loaded, the operating system calls the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function with "QueryMiracastDriverInterface" entered as the function name in the <i>lpProcName</i> parameter.
+When the Miracast user-mode driver is loaded, the operating system calls the <a href="https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function with "QueryMiracastDriverInterface" entered as the function name in the <i>lpProcName</i> parameter.
 
 <div class="alert"><b>Note</b>  If the Miracast user-mode driver doesn't supply a function with this name, the operating system fails the Miracast display device.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
+<a href="https://docs.microsoft.com/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 

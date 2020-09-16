@@ -60,7 +60,7 @@ The **IPrinterPropertyBag** interface is used by all the printer property bags, 
 
 ## -see-also
 
-[IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch)
+[IDispatch](https://docs.microsoft.com/previous-versions/windows/win32/api/oaidl/nn-oaidl-idispatch)
 
 [IPrinterExtensionContext::DriverProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioncontext-get_driverproperties)
 

@@ -340,7 +340,7 @@ A WSK application can obtain a list of available transport protocols by calling 
 When a WSK application successfully creates a new socket, all of the event callback functions on the
     new socket are disabled by default. For more information about enabling any of the new socket's event
     callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/windows/win32/api/evntprov/nc-evntprov-penablecallback">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application specifies a non-<b>NULL</b> pointer for the 

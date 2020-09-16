@@ -62,7 +62,7 @@ FORCEINLINE void UMDEtwUnregister()
 }
 ```
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventunregister">EventUnregister</a> function is  described in the <a href="https://docs.microsoft.com/windows/desktop/Events/windows-events">Windows Events</a> documentation.
+The <a href="https://docs.microsoft.com/windows/win32/api/evntprov/nf-evntprov-eventunregister">EventUnregister</a> function is  described in the <a href="https://docs.microsoft.com/windows/desktop/Events/windows-events">Windows Events</a> documentation.
 
 ## -see-also
 
