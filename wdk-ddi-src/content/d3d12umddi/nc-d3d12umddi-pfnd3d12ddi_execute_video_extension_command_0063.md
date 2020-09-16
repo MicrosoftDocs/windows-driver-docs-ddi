@@ -74,6 +74,7 @@ The size of the initialization parameters structure in bytes.
 The following error codes are allowed:
 
 |Return value|Description|
+|-|-|
 |S_OK|Initialization succeeded.|
 |D3DDDIERR_APPLICATIONERROR|The caller has attempted to initialize the command incorrectly. For example, provided an invalid argument. This error puts the command list in error and an error code is returned from the Close method on the API command list.|
 |D3DDDIERR_DEVICEREMOVED|Cannot initialize the command because the device is in a device removed state. If the runtime as not already realized device removed, this will set the device and command list in error.|

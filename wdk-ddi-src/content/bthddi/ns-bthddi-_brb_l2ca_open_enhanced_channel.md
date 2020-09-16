@@ -564,54 +564,13 @@ For the <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> BRB, this member contains the resp
        which the profile driver attempted to connect. Valid flag values are contained in the following
        table.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-CONNECT_RSP_RESULT_NO_RESOURCES
-
-</td>
-<td>
-The remote device refused the connection due to a lack of resources.
-
-</td>
-</tr>
-<tr>
-<td>
-CONNECT_RSP_RESULT_PSM_NEG
-
-</td>
-<td>
-The remote device refused the connection.
-
-</td>
-</tr>
-<tr>
-<td>
-CONNECT_RSP_RESULT_SECURITY_BLOCK
-
-</td>
-<td>
-The remote device refused the connection for security reasons.
-
-</td>
-</tr>
-<tr>
-<td>
-CONNECT_RSP_RESULT_SUCCESS
-
-</td>
-<td>
-The remote device accepted the connection.
-
-</td>
-</tr>
-</table>
  
-
+|Flag|Description|
+|--- |--- |
+|CONNECT_RSP_RESULT_NO_RESOURCES|The remote device refused the connection due to a lack of resources.|
+|CONNECT_RSP_RESULT_PSM_NEG|The remote device refused the connection.|
+|CONNECT_RSP_RESULT_SECURITY_BLOCK|The remote device refused the connection for security reasons.|
+|CONNECT_RSP_RESULT_SUCCESS|The remote device accepted the connection.|
 
 
 #### ResponseStatus
