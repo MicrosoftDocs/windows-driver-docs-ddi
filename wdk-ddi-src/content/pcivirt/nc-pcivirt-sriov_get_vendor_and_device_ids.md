@@ -65,14 +65,14 @@ A zero-based index of the VF to which this write operation applies.
 [out]
 
 
-                A pointer to a USHORT variable that is filled with the vendor ID of the VF.
+A pointer to a USHORT variable that is filled with the vendor ID of the VF.
 
 ### -param DeviceId 
 
 [out]
 
 
-                A pointer to a USHORT variable that is filled with the device ID of the VF.
+A pointer to a USHORT variable that is filled with the device ID of the VF.
 
 ## -returns
 

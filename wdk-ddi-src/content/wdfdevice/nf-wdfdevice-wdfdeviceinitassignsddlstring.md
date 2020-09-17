@@ -98,7 +98,7 @@ If the driver calls <b>WdfDeviceInitAssignSDDLString</b>, it must do so before i
 For more information about security issues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/security-issues-for-kmdf-drivers">Security Issues for Framework-Based Drivers</a>.
 
 
-      If you are writing a UMDF driver, you  must modify your driver's INF file to provide an appropriate security descriptor for the stack. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/securing-device-objects">Securing Device Objects</a>. For more information about using the registry, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/setting-device-object-registry-properties-during-installation">Setting Device Object Registry Properties During Installation</a>.
+If you are writing a UMDF driver, you  must modify your driver's INF file to provide an appropriate security descriptor for the stack. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/securing-device-objects">Securing Device Objects</a>. For more information about using the registry, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/setting-device-object-registry-properties-during-installation">Setting Device Object Registry Properties During Installation</a>.
 
 
 #### Examples
