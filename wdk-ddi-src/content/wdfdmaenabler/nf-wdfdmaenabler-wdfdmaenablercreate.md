@@ -101,7 +101,7 @@ An invalid parameter was detected.
 </td>
 <td width="60%">
 
-        There was insufficient memory to construct a new DMA enabler object.
+There was insufficient memory to construct a new DMA enabler object.
        
 
 </td>

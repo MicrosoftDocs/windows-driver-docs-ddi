@@ -100,7 +100,7 @@ The specified transaction object handle is invalid.
 </td>
 <td width="60%">
 
-        The caller does not have appropriate access to the transaction object.
+The caller does not have appropriate access to the transaction object.
        
 
 </td>
