@@ -185,7 +185,7 @@ The <b>RtlInitializeGenericTableAvl</b> routine explicitlly allocates a generic 
 
 
 ```
-#define RTL_USE_AVL_TABLES 0
+`#define RTL_USE_AVL_TABLES 0`
 ```
 
 Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL <= DISPATCH_LEVEL. Note that if <i>Rtl...GenericTableAvl</i> routines are to be used at IRQL DISPATCH_LEVEL, the <i>CompareRoutine</i>, <i>AllocateRoutine</i>, and <i>FreeRoutine</i> must all be nonpageable code, and the <i>AllocateRoutine</i> should allocate memory from nonpaged pool.

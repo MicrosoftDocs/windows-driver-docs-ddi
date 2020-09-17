@@ -71,7 +71,7 @@ Callers of the Rtl..GenericTable routines are responsible for exclusively synchr
 By default, the operating system uses splay trees to implement generic tables. Under some circumstances, operations on a splay tree will make the tree deep and narrow and might even turn it into a straight line. Very deep trees degrade the performance of searches. You can ensure a more balanced, shallower tree implementation of generic tables by using Adelson-Velsky/Landis (AVL) trees. If you want to configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including *ntddk.h*:
 
 ```
-#define RTL_USE_AVL_TABLES 0
+`#define RTL_USE_AVL_TABLES 0`
 ```
 
 If you do not define RTL_USE_AVL_TABLES as specified above, you must use the AVL form of the generic table routines. For example, use the [RtlLookupElementGenericTableAvl](nf-ntddk-rtllookupelementgenerictableavl.md) routine instead of **RtlLookupElementGenericTable**. In the call to **RtlLookupElementGenericTableAvl**, the caller must pass a [RTL_AVL_TABLE](ns-ntddk-_rtl_avl_table.md) table structure rather than [RTL_GENERIC_TABLE](ns-ntddk-_rtl_generic_table.md).
