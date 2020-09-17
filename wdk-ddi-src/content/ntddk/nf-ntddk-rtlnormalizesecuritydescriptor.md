@@ -30,9 +30,9 @@ targetos: Windows
 topic_type:
  - apiref
 api_type:
- - 
+ - HeaderDef
 api_location:
- - 
+ - NtosKrnl.exe
 api_name:
  - RtlNormalizeSecurityDescriptor
 product:
