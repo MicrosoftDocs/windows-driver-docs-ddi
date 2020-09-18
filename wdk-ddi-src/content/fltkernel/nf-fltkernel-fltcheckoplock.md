@@ -143,7 +143,7 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 </dl>
 </td>
 <td width="60%">
-<b>FltCheckOplock</b> encountered a pool allocation failure, or a call to the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">FsRtlCheckOplock</a> function returned an error. <b>FltCheckOplock</b> will set the error code in the <b>Status</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure of the <b>IoStatus</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> callback data structure. The <i>CallbackData</i> parameter points to this FLT_CALLBACK_DATA. 
+<b>FltCheckOplock</b> encountered a pool allocation failure, or a call to the <a href="https://docs.microsoft.com/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">FsRtlCheckOplock</a> function returned an error. <b>FltCheckOplock</b> will set the error code in the <b>Status</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure of the <b>IoStatus</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> callback data structure. The <i>CallbackData</i> parameter points to this FLT_CALLBACK_DATA. 
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">FsRtlCheckOplock</a>
+<a href="https://docs.microsoft.com/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">FsRtlCheckOplock</a>
 
 
 

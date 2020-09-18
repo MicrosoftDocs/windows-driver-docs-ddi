@@ -97,7 +97,7 @@ A pointer to a buffer that receives a pointer to the <a href="https://docs.micro
 </dl>
 </td>
 <td width="60%">
-This value corresponds to the error code that the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> function returned.
+This value corresponds to the error code that the <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> function returned.
 
 </td>
 </tr>
@@ -219,5 +219,5 @@ CUmdfHidDevice::OnPrepareHardware(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
 

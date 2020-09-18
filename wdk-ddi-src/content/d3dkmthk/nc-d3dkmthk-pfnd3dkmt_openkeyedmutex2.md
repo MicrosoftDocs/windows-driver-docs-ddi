@@ -66,7 +66,7 @@ Returns one of the following values:
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
 | **STATUS_NO_MEMORY** | [D3DKMTOpenKeyedMutex2](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopenkeyedmutex2)  could not complete because of insufficient memory. | 
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks

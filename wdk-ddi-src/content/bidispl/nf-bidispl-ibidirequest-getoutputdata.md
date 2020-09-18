@@ -58,7 +58,7 @@ A zero-based index of the output data that is requested. For more information, s
 ### -param ppszSchema 
 
 [out]
-A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free this pointer.
+A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free this pointer.
 
 ### -param pdwType 
 
@@ -155,7 +155,7 @@ Binary data.
 ### -param ppData 
 
 [out]
-A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the buffer.
+A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the buffer.
 
 ### -param uSize 
 

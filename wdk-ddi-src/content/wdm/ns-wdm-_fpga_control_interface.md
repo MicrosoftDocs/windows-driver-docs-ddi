@@ -60,11 +60,11 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an [InterfaceReference](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nc-wudfwdm-pinterface_reference) routine that increments the interface's reference count.
+A pointer to an [InterfaceReference](nc-wdm-pinterface_reference.md) routine that increments the interface's reference count.
 
 ### -field InterfaceDereference
 
-A pointer to an [InterfaceDereference](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nc-wudfwdm-pinterface_dereference) routine that decrements the interface's reference count.
+A pointer to an [InterfaceDereference](nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
 
 ### -field BusScan
 

@@ -70,7 +70,7 @@ Specifies the access desired to the pin. This is typically <b>GENERIC_READ</b> o
 ### -param ConnectionHandle 
 
 [out]
-Specifies the connection handle passed. The routine fills this in with a handle to the file object of the created connection. This value can then be used to disconnect with the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
+Specifies the connection handle passed. The routine fills this in with a handle to the file object of the created connection. This value can then be used to disconnect with the <a href="https://docs.microsoft.com/windows/win32/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 ## -returns
 

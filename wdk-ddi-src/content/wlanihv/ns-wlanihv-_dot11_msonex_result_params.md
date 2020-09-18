@@ -58,13 +58,13 @@ api_name:
 ### -field Dot11OnexAuthStatus
 
 A
-      <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a> type that specifies the
+      <a href="https://docs.microsoft.com/windows/win32/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a> type that specifies the
       authorization status of the 802.1X exchange.
 
 ### -field Dot11OneXReasonCode
 
 A
-      <a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a> type that specifies the
+      <a href="https://docs.microsoft.com/windows/win32/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a> type that specifies the
       reason code of the 802.1X exchange.
 
 ### -field pbMPPESendKey
@@ -109,7 +109,7 @@ typedef struct _DOT11_MSONEX_RESULT_PARAMS {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a>
 
 
 
@@ -117,5 +117,5 @@ typedef struct _DOT11_MSONEX_RESULT_PARAMS {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a>
 

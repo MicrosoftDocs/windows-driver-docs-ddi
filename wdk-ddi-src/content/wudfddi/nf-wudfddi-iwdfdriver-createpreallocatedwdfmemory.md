@@ -61,7 +61,7 @@ A pointer to a driver-supplied data buffer for the memory object.
 
 [in]
 
-      The size, in bytes, of data that <i>pBuff</i> points to.
+The size, in bytes, of data that <i>pBuff</i> points to.
 
 ### -param pCallbackInterface 
 

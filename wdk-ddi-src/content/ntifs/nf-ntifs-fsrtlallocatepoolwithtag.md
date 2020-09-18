@@ -85,6 +85,9 @@ The system associates the pool tag specified by the <i>Tag</i> parameter with th
 
 For more information about memory management, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-memory-for-drivers">Memory Management</a>. 
 
+> [!NOTE]
+> Memory that **FsRtlAllocatePoolWithTag** allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).
+
 Callers of <b>FsRtlAllocatePoolWithTag</b> must be running at IRQL <= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must specify a <b>NonPaged</b><i>XxxPoolType</i>. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
 ## -see-also

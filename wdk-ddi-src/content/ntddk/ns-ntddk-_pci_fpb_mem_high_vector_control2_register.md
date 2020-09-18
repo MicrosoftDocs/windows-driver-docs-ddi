@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The FPB MEM High Vector Control 2 Register. See section 7.y.7. in [Flattening Portal Bridge (FPB) specification](https://pcisig.com/sites/default/files/specification_documents/ECN_FPB_9_Feb_2017.pdf).
+The FPB MEM High Vector Control 2 Register. See section 7.y.7. in [Flattening Portal Bridge (FPB) specification](https://pcisig.com).
 
 ## -struct-fields
 

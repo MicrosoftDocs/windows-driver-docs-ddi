@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates the type of subsystem for a process or thread. This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a> calls.
+Indicates the type of subsystem for a process or thread. This enumeration is used in <a href="https://docs.microsoft.com/windows/win32/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>  and <a href="https://docs.microsoft.com/windows/win32/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a> calls.
 
 ## -enum-fields
 
@@ -75,9 +75,9 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a>
 

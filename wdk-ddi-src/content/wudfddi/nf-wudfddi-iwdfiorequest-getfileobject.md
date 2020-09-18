@@ -59,7 +59,7 @@ A pointer to a buffer that receives a pointer to the <a href="https://docs.micro
 
 ## -remarks
 
-When your driver calls <b>GetFileObject</b>, the framework increments the reference count on the interface.  Your driver is responsible for releasing the reference when finished with the interface pointer. To do so, either use a smart pointer that automatically decrements the reference count when the object goes out of context, or call  <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the interface when finished with it.
+When your driver calls <b>GetFileObject</b>, the framework increments the reference count on the interface.  Your driver is responsible for releasing the reference when finished with the interface pointer. To do so, either use a smart pointer that automatically decrements the reference count when the object goes out of context, or call  <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the interface when finished with it.
 
 
 #### Examples

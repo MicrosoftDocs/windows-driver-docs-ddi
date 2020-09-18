@@ -66,15 +66,15 @@ The
 ### -param AddrInfo 
 
 [in]
-[in] A pointer to a linked list of one or more <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that contain response
+[in] A pointer to a linked list of one or more <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that contain response
      information about the host. This pointer was returned through the 
      <i>Result</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a> function.
      
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structure is defined in the 
+The <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structure is defined in the 
      Ws2def.h header file. It is identical to the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure.
+     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure.
 
 <div class="alert"><b>Important</b>  The 
      Ws2def.h header file is automatically included in 

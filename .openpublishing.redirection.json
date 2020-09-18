@@ -979,6 +979,21 @@
       "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_updatetrackedworkload.md",
       "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_updatetrackedworkload",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet.md",
+      "redirect_URL": "https://docs.microsoft.com/windows/hardware/ntddk/ns-ntddk-whea_pshed_plugin_registration_packet_v2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet.md",
+      "redirect_URL": "https://docs.microsoft.com/windows/hardware/wdm/nf-wdm-kequerysystemtime-r1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdm/nf-wdm-kequerysystemtime~r1.md",
+      "redirect_URL": "https://docs.microsoft.com/windows/hardware/wdm/nf-wdm-kequerysystemtime-r1",
+      "redirect_document_id": false
     }
   ]
 }

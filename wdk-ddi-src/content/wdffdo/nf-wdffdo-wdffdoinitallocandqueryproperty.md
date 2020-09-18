@@ -63,7 +63,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/
 ### -param DeviceProperty 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ne-wudfwdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator value that identifies the device property to be retrieved.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator value that identifies the device property to be retrieved.
 
 ### -param PoolType 
 

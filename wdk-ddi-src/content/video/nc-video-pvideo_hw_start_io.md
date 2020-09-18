@@ -56,7 +56,7 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 ### -param RequestPacket
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> structure, which contains all the parameters originally passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeviceiocontrol">EngDeviceIoControl</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> structure, which contains all the parameters originally passed to <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-engdeviceiocontrol">EngDeviceIoControl</a>.
 
 ## -returns
 
@@ -66,7 +66,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vi
 
 Every video miniport driver must have a <i>HwVidStartIO</i> function.
 
-The video port driver calls <i>HwVidStartIO</i> in response to each GDI <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeviceiocontrol">EngDeviceIoControl</a> request, which originates in the corresponding display driver. When <i>HwVidStartIO</i> is called, the miniport driver owns the input video request packet until it completes the requested operation. <i>HwVidStartIO</i> must do the following:
+The video port driver calls <i>HwVidStartIO</i> in response to each GDI <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-engdeviceiocontrol">EngDeviceIoControl</a> request, which originates in the corresponding display driver. When <i>HwVidStartIO</i> is called, the miniport driver owns the input video request packet until it completes the requested operation. <i>HwVidStartIO</i> must do the following:
 
 <ol>
 <li>

@@ -57,7 +57,7 @@ Returns the major and minor version numbers of Direct Sound as 4 and 2 respectiv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddgetversionnumber">DDGETVERSIONNUMBER</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddkmapi/ns-ddkmapi-ddgetversionnumber">DDGETVERSIONNUMBER</a>
 
 
 

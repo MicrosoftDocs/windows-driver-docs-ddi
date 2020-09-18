@@ -114,7 +114,7 @@ If you do not need to add a reference string to your device's symbolic link name
 #### Examples
 
 
-          The following line defines a symbolic link name prefix in the global <b>DosDevices</b> namespace.
+The following line defines a symbolic link name prefix in the global <b>DosDevices</b> namespace.
         
 
 

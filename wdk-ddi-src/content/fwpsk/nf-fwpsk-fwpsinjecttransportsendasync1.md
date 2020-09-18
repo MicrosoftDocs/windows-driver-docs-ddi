@@ -121,7 +121,7 @@ The IPv6 address family.
 
 [in]
 The identifier of the routing compartment into which the packet data is injected, specified as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ne-ntdef-compartment_id">COMPARTMENT_ID</a> type. This identifier is provided
+     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ne-ntdef-compartment_id">COMPARTMENT_ID</a> type. This identifier is provided
      to a callout through the 
      <b>compartmentId</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">

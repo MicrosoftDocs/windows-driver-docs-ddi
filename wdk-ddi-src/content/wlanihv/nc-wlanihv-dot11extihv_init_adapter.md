@@ -110,7 +110,7 @@ The operating system calls the
     as when a PCMCIA adapter is inserted.
 
 For more information about WLAN adapter initialization, see
-    <a href="https://docs.microsoft.com/windows/desktop/api/l2cmn/ns-l2cmn-_l2_notification_data">802.11 WLAN Adapter Arrival</a>.
+    <a href="https://docs.microsoft.com/windows/win32/api/l2cmn/ns-l2cmn-_l2_notification_data">802.11 WLAN Adapter Arrival</a>.
 
 ## -see-also
 

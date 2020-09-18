@@ -164,5 +164,5 @@ Indicates an Intel Medfield host controller.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_controller_info_0">USB_CONTROLLER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/usbuser/ns-usbuser-usb_controller_info_0">USB_CONTROLLER_INFO_0</a>
 

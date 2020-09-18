@@ -50,5 +50,5 @@ Returns the system firmware type.
 
 ## -returns
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_firmware_type">FIRMWARE_TYPE</a>-type value that indicates the type of firmware.
+Returns a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ne-winnt-firmware_type">FIRMWARE_TYPE</a>-type value that indicates the type of firmware.
 

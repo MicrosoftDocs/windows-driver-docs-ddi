@@ -67,7 +67,7 @@ If the provider does not support the consumer-specified major version, the provi
 
 If the provider supports the consumer-specified major version and the specified minor version is less than or equal to the highest minor version that the provider supports, the provider must succeed the request and use the highest minor version that     the provider supports.
 
- For example, if the consumer requests version 1.0, and the provider supports 1.1, the provider must report version  1.1  in the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure and  NDK object headers. 
+ For example, if the consumer requests version 1.0, and the provider supports 1.1, the provider must report version  1.1  in the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure and  NDK object headers. 
 
 <div class="alert"><b>Note</b>  Higher minor versions at the provider are always fully backward-compatible with (that is, a superset of) lower minor versions. </div>
 <div> </div>
@@ -166,5 +166,5 @@ The miniport driver calls the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
 

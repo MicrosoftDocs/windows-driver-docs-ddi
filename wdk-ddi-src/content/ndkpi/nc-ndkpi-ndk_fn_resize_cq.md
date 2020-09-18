@@ -60,7 +60,7 @@ A pointer to an NDK completion queue (CQ) object (<a href="https://docs.microsof
 
 [in]
 
-The new number of completion entries that the CQ can hold. The CQ size must be less than or equal to the value that is specified in the <b>MaxCqDepth</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
+The new number of completion entries that the CQ can hold. The CQ size must be less than or equal to the value that is specified in the <b>MaxCqDepth</b> member in the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 
 ### -param RequestCompletion 
 
@@ -112,7 +112,7 @@ The CQ was resized successfully.
 </dl>
 </td>
 <td width="60%">
-The request failed because the CQ size that is specified in the <i>CqDepth</i> parameter is greater than the value in the  <b>MaxCqDepth</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
+The request failed because the CQ size that is specified in the <i>CqDepth</i> parameter is greater than the value in the  <b>MaxCqDepth</b> member in the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ An error occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
 
 
 

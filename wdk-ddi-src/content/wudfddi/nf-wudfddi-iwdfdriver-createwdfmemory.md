@@ -56,7 +56,7 @@ The <b>CreateWdfMemory</b> method creates a <a href="https://docs.microsoft.com/
 
 [in]
 
-            The nonzero specified size, in bytes, of data for the newly created WDF memory object's data buffer.
+The nonzero specified size, in bytes, of data for the newly created WDF memory object's data buffer.
 
 ### -param pCallbackInterface 
 

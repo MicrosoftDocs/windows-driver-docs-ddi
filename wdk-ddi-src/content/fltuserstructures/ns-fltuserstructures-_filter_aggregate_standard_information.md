@@ -156,19 +156,19 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure can be allocated from paged 
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>
 
 
 </li>
@@ -197,15 +197,15 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterfindnext">FilterFindNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetinformation">FilterGetInformation</a>
 
 
 

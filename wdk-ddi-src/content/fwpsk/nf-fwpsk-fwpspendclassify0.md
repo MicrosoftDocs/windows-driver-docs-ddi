@@ -72,7 +72,7 @@ The value of the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
      <i>filter</i> parameter. For more information about the 
      <b>FilterId</b> member, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
+     <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
 
 ### -param flags 
 
@@ -147,7 +147,7 @@ An error occurred.
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscompleteclassify0">FwpsCompleteClassify0</a> to remove
     the pended state. At the time of the call to FwpsCompleteClassify, the callout driver must return a
     filled-out 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure just as it
+    <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure just as it
     would in an inline classification.
 
 FwpsPendClassify0 increments the reference count for the classification handle passed in the 
@@ -158,11 +158,11 @@ FwpsPendClassify0 increments the reference count for the classification handle p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
 
 
 

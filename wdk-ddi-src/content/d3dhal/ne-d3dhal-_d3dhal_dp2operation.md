@@ -158,7 +158,7 @@ Sets up a transform. See <a href="https://docs.microsoft.com/windows-hardware/dr
 
 ### -field D3DDP2OP_TEXBLT
 
-Specifies a blt operation from a source texture to a destination texture. It is used as a more efficient alternative to the DirectDraw <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> DDI. It is specified by one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2texblt">D3DHAL_DP2TEXBLT</a> structures. Because Direct3D drivers maintain all the state necessary to do a blt (for example, texture handles and blending modes), a blt can be accomplished with just the information in the D3DDP2OP_TEXBLT opcode. This new token signals the driver that a texture has to be transferred from system memory into local or nonlocal video memory.
+Specifies a blt operation from a source texture to a destination texture. It is used as a more efficient alternative to the DirectDraw <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> DDI. It is specified by one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2texblt">D3DHAL_DP2TEXBLT</a> structures. Because Direct3D drivers maintain all the state necessary to do a blt (for example, texture handles and blending modes), a blt can be accomplished with just the information in the D3DDP2OP_TEXBLT opcode. This new token signals the driver that a texture has to be transferred from system memory into local or nonlocal video memory.
 
 ### -field D3DDP2OP_STATESET
 

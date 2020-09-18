@@ -56,7 +56,7 @@ The format of the data. For more information, see the [DXGI_FORMAT](https://docs
 
 ### -field ColorSpace
 
-The color space of the data. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> enumeration.
+The color space of the data. For more information, see the <a href="https://docs.microsoft.com/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> enumeration.
 
 ## -remarks
 
@@ -67,7 +67,7 @@ The one exception is that all drivers are required to support a conversion to re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a>
 
 
 

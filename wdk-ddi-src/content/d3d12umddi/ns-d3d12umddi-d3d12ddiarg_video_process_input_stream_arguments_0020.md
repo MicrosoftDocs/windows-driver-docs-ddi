@@ -92,7 +92,7 @@ Specifies whether the stream is stereo or not. If there is a value of <b>D3D12DD
 
 ### -field ColorSpace
 
-The color space for the video processor input and reference surfaces as a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> value.
+The color space for the video processor input and reference surfaces as a <a href="https://docs.microsoft.com/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> value.
 
 
 ### -field FilterFlags
@@ -158,7 +158,7 @@ Whether to enable automatic processing features on the video processor.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a>
  
 
  

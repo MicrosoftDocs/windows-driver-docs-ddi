@@ -83,7 +83,7 @@ The destination and source surfaces are part of the same resource (that is, the 
 
 </li>
 <li>
-The source and destination rectangles overlap (that is, the coordinates of the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structures in the <b>SrcRect</b> and <b>DstRect</b> members of D3DDDIARG_BLT overlap).
+The source and destination rectangles overlap (that is, the coordinates of the <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structures in the <b>SrcRect</b> and <b>DstRect</b> members of D3DDDIARG_BLT overlap).
 
 </li>
 </ul>

@@ -126,17 +126,17 @@ A read-interval time-out occurs when the interval between incoming bytes exceeds
 
 A possible way to more accurately measure smaller time-out intervals is to decrease the time between system clock ticks, but doing so is likely to increase power consumption. In addition, reducing the system clock period might not reliably achieve a finer system clock granularity unless interrupt-related processing by the various drivers in the platform can be guaranteed not to delay the processing of system clock interrupts.
 
-The <b>SERIAL_TIMEOUTS</b> structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> structure, which is used by the user-mode <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a> functions.
+The <b>SERIAL_TIMEOUTS</b> structure is similar to the <a href="https://docs.microsoft.com/windows/win32/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure, which is used by the user-mode <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a> and <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a> functions.
 
 For more information, see <a href="https://docs.microsoft.com/previous-versions/ff547486(v=vs.85)">Setting Read and Write Timeouts for a Serial Device</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a>
 
 
 
@@ -156,5 +156,5 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
 

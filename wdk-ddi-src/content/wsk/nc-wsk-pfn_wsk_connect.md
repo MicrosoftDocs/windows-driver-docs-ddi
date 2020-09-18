@@ -161,7 +161,7 @@ A WSK application can create, bind, and connect a connection-oriented socket in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 

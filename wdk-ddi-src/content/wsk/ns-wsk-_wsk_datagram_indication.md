@@ -70,7 +70,7 @@ A WSK_BUF structure that describes a datagram that has been received on the sock
 The control information that is associated with the received datagram. The control information
      data that is associated with a datagram is made up of one or more control data objects, each of which
      begins with a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
+     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
      information present for the received datagram, this member is <b>NULL</b>.
 
 ### -field ControlInfoLength
@@ -93,11 +93,11 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 

@@ -64,7 +64,7 @@ Handle to an object of any type.
 
 <b>ZwMakeTemporaryObject</b> is a generic routine that operates on any type of object.
 
-An object is permanent if it was created with the OBJ_PERMANENT object attribute specified. (For more information about object attributes, see <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>.) A permanent object is created with a reference count of 1, so it is not deleted when a driver dereferences it. 
+An object is permanent if it was created with the OBJ_PERMANENT object attribute specified. (For more information about object attributes, see <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>.) A permanent object is created with a reference count of 1, so it is not deleted when a driver dereferences it. 
 
 An object is temporary if it is not permanent. <b>ZwMakeTemporaryObject</b> turns the specified object into a temporary object. If the object is already temporary, this routine does nothing.
 
@@ -76,7 +76,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

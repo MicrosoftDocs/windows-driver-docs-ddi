@@ -117,7 +117,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>'s <i>lpOutBuffer</i> argument.
+<a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>'s <i>lpOutBuffer</i> argument.
 
 </td>
 </tr>

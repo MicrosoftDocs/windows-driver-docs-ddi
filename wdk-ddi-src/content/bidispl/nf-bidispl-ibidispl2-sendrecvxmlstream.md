@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>SendRecvXMLStream</b> method sends a bidirectional printer communication request and receives the response as <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> objects formatted in accordance with the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
+The <b>SendRecvXMLStream</b> method sends a bidirectional printer communication request and receives the response as <a href="https://docs.microsoft.com/windows/win32/api/objidl/nn-objidl-istream">IStream</a> objects formatted in accordance with the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
 ## -parameters
 

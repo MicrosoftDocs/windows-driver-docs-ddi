@@ -65,7 +65,7 @@ A zero-based index of the VF to which this read/write operation applies.
 [in]
 
 
-                A boolean that indicates whether to perform a read or a write operation. TRUE indicates read, FALSE otherwise.
+A boolean that indicates whether to perform a read or a write operation. TRUE indicates read, FALSE otherwise.
 
 ### -param BarIndex 
 
@@ -82,7 +82,7 @@ The offset in number of bytes into the BAR at which this access begins.
 [in]
 
 
-                The length in bytes of this read or write operation.
+The length in bytes of this read or write operation.
 
 ### -param Data 
 

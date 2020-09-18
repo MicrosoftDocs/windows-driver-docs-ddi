@@ -117,7 +117,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 Pipe policy controls the behavior of the USB pipe (for example, time-outs, handling short packets, and so on).
 
-For more information about valid policy types and values that a UMDF driver can pass for the <i>PolicyType</i> and <i>Value</i> parameters, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_setpipepolicy">WinUsb_SetPipePolicy</a> function.
+For more information about valid policy types and values that a UMDF driver can pass for the <i>PolicyType</i> and <i>Value</i> parameters, see the <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_setpipepolicy">WinUsb_SetPipePolicy</a> function.
 
 For information about the behavior of the pipe policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WinUSB Functions for Pipe Policy Modification</a>.
 
@@ -190,5 +190,5 @@ CMyDevice::ConfigureUsbIoTargets(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_setpipepolicy">WinUsb_SetPipePolicy</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_setpipepolicy">WinUsb_SetPipePolicy</a>
 

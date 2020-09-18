@@ -119,7 +119,7 @@ Indicates that all prior read requests must be complete before the hardware begi
 </dl>
 </td>
 <td width="60%">
-If this flag is set and the provider also reports <b>NDK_ADAPTER_FLAG_RDMA_READ_LOCAL_INVALIDATE_SUPPORTED</b> adapter capability in the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure, successful completion of the <i>NdkRead</i> function means that the first buffer specified in the <i>pSgl</i> parameter is invalidated. Unsuccessful completion leaves the buffer and token in an undefined state. This flag is ignored if the provider does not report <b>NDK_ADAPTER_FLAG_RDMA_READ_LOCAL_INVALIDATE_SUPPORTED</b> adapter capability in the <b>NDK_ADAPTER_INFO</b> structure.
+If this flag is set and the provider also reports <b>NDK_ADAPTER_FLAG_RDMA_READ_LOCAL_INVALIDATE_SUPPORTED</b> adapter capability in the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure, successful completion of the <i>NdkRead</i> function means that the first buffer specified in the <i>pSgl</i> parameter is invalidated. Unsuccessful completion leaves the buffer and token in an undefined state. This flag is ignored if the provider does not report <b>NDK_ADAPTER_FLAG_RDMA_READ_LOCAL_INVALIDATE_SUPPORTED</b> adapter capability in the <b>NDK_ADAPTER_INFO</b> structure.
 
 <b>Note</b>  This flag is supported only in NDKPI 1.2 (Windows Server 2012 R2) and later.
 
@@ -212,7 +212,7 @@ An error occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
 
 
 

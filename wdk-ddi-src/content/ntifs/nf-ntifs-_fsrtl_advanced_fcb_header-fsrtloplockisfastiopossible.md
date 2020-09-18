@@ -115,7 +115,7 @@ Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">FsRtlCheckOplock</a>
+<a href="https://docs.microsoft.com/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">FsRtlCheckOplock</a>
 
 
 

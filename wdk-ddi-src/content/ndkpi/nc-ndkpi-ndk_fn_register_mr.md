@@ -212,11 +212,11 @@ The NDK consumer must not use the MDL chain while the registration request is pe
 
 <i>NdkRegisterMr</i> does not support zero-based virtual addresses.
 
-An NDK consumer must pass the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag when it registers memory that might be used as the sink buffer for an RDMA read request. Certain NDK providers might require enabling special access rights on the sink buffer for an RDMA read request on adapters for which the <b>NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED</b> flag is not set in the <b>AdapterFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. The <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag allows such providers to support registration requests appropriately. 
+An NDK consumer must pass the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag when it registers memory that might be used as the sink buffer for an RDMA read request. Certain NDK providers might require enabling special access rights on the sink buffer for an RDMA read request on adapters for which the <b>NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED</b> flag is not set in the <b>AdapterFlags</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. The <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag allows such providers to support registration requests appropriately. 
 
 <div class="alert"><b>Note</b>  Buffers can be registered for multiple purposes.  Therefore, the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag might be accompanied by other flags. </div>
 <div> </div>
-If an NDK consumer passes the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag on an adapter for which the <b>NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED</b> flag is set in the <b>AdapterFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure, the provider is not required to handle the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag and must not fail the request  due to the presence of this flag.
+If an NDK consumer passes the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag on an adapter for which the <b>NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED</b> flag is set in the <b>AdapterFlags</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure, the provider is not required to handle the <b>NDK_MR_FLAG_RDMA_READ_SINK</b> flag and must not fail the request  due to the presence of this flag.
 
 To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_deregister_mr">NDK_FN_DEREGISTER_MR</a>) function.
 
@@ -230,7 +230,7 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="https:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
 
 
 

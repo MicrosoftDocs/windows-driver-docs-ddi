@@ -65,7 +65,7 @@ The local IP address.
 ### -field FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_REMOTE_ADDRESS
 
@@ -95,7 +95,7 @@ The index of the logical network interface, as enumerated by the network stack.
 ### -field FWPS_FIELD_OUTBOUND_TRANSPORT_V4_IP_DESTINATION_ADDRESS_TYPE
 
 The destination IP address type. The possible values are defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_OUTBOUND_TRANSPORT_V4_FLAGS
 
@@ -176,5 +176,5 @@ The ICMP code field, as specified in RFC 792.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
 

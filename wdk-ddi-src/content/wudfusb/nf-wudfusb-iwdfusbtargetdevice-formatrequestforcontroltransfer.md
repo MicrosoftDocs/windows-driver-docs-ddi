@@ -60,7 +60,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 ### -param SetupPacket 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winusb/ns-winusb-_winusb_setup_packet">WINUSB_SETUP_PACKET</a> for the control transfer.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winusb/ns-winusb-winusb_setup_packet">WINUSB_SETUP_PACKET</a> for the control transfer.
 
 ### -param pMemory 
 

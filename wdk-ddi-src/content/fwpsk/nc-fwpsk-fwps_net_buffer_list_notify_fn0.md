@@ -109,7 +109,7 @@ This function is associated with a callout driver by a call to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
 
 
 

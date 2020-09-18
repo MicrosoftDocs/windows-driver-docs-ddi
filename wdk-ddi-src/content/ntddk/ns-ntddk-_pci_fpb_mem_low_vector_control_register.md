@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-FPB MEM Low Vector Control Register. See section 7.y.5. in [Flattening Portal Bridge (FPB) specification](https://pcisig.com/sites/default/files/specification_documents/ECN_FPB_9_Feb_2017.pdf).
+FPB MEM Low Vector Control Register. See section 7.y.5. in [Flattening Portal Bridge (FPB) specification](https://pcisig.com).
 
 ## -struct-fields
 

@@ -63,7 +63,7 @@ A bitmask of flags specifying the type of access to the file or directory that t
 ### -param ObjectAttributes 
 
 [in]
-Pointer to an opaque [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#objectattributes) for more information and for a description of each structure member.
+Pointer to an opaque [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#objectattributes) for more information and for a description of each structure member.
 
 ### -param IoStatusBlock 
 
@@ -78,7 +78,7 @@ Optionally specifies the initial allocation size in bytes for the file. A nonzer
 ### -param FileAttributes 
 
 [in]
-Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_*XXX* flags, which are defined in Wdm.h. For a list of flags that can be used with **IoCreateFile**, see [**CreateFile**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) in the Microsoft Windows SDK documentation.
+Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_*XXX* flags, which are defined in Wdm.h. For a list of flags that can be used with **IoCreateFile**, see [**CreateFile**](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) in the Microsoft Windows SDK documentation.
 
 ### -param ShareAccess 
 
@@ -203,7 +203,7 @@ For create requests originating in user mode, if the driver sets both IO_NO_PARA
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFile**. This restricts the use of the handle returned by **IoCreateFile** to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) to set the OBJ_KERNEL_HANDLE attribute as follows.
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFile**. This restricts the use of the handle returned by **IoCreateFile** to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) to set the OBJ_KERNEL_HANDLE attribute as follows.
 
 ```cpp
 InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);
@@ -213,7 +213,7 @@ InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NUL
 
 [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
 
-[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes)
+[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
 [**IO_STATUS_BLOCK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
 

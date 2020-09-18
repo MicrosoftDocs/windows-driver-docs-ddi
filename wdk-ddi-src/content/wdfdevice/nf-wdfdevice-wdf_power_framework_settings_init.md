@@ -48,9 +48,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-
-    The 
-  <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_power_framework_settings">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
+The <b>WDF_POWER_FRAMEWORK_SETTINGS_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_power_framework_settings">WDF_POWER_FRAMEWORK_SETTINGS</a> structure.
 
 ## -parameters
 

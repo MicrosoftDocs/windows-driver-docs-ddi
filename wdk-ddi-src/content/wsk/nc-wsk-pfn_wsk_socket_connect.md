@@ -242,7 +242,7 @@ A WSK application can obtain a list of available transport protocols by calling 
 
 The WSK subsystem determines the address family for the new socket from the address family that is
     specified in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure that is pointed to by the 
+    <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure that is pointed to by the 
     <i>LocalAddress</i> parameter.
 
 If the WSK application needs to set a socket option or issue an I/O control operation on the socket
@@ -255,7 +255,7 @@ If the WSK application needs to set a socket option or issue an I/O control oper
 When a WSK application successfully creates a new socket, all of the event callback functions on the
     new socket are disabled by default. For more information about enabling any of the new socket's event
     callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/windows/win32/api/evntprov/nc-evntprov-penablecallback">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application specifies a non-<b>NULL</b> pointer for the 
@@ -268,7 +268,7 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 

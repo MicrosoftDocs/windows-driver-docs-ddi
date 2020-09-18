@@ -196,7 +196,7 @@ Must be zero.
 
 ## -remarks
 
-The driver allocates this structure and sets appropriate values in all members. The driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function returns a pointer to this structure in the <b>lpD3DHALCallbacks</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure.
+The driver allocates this structure and sets appropriate values in all members. The driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function returns a pointer to this structure in the <b>lpD3DHALCallbacks</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure.
 
 Texture management is now handled though opcodes that are managed in the driver's implementation of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
@@ -218,9 +218,9 @@ Texture management is now handled though opcodes that are managed in the driver'
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
 
