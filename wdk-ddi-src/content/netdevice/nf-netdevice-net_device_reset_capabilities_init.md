@@ -1,14 +1,14 @@
 ---
-UID: NF:netdevice.NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT
-title: NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT
+UID: NF:netdevice.NET_DEVICE_RESET_CAPABILITIES_INIT
+title: NET_DEVICE_RESET_CAPABILITIES_INIT
 author: windows-driver-content
 ms.date: 07/02/2020
 ms.topic: language-reference
 ms.author: windowsdriverdev
 ms.custom: Fe
-keywords: ["NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT function"]
+keywords: ["NET_DEVICE_RESET_CAPABILITIES_INIT function"]
 targetos: Windows
-description: The NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT function initializes a NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES structure.
+description: The NET_DEVICE_RESET_CAPABILITIES_INIT function initializes a NET_DEVICE_RESET_CAPABILITIES structure.
 req.assembly:
 req.construct-type: function
 req.ddi-compliance:
@@ -35,24 +35,24 @@ api_type:
 api_location:
  - netdevice.h
 api_name:
- - NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT
+ - NET_DEVICE_RESET_CAPABILITIES_INIT
 f1_keywords:
- - netdevice/NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT
+ - netdevice/NET_DEVICE_RESET_CAPABILITIES_INIT
 dev_langs:
  - c++
 ---
 
-# NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT function
+# NET_DEVICE_RESET_CAPABILITIES_INIT function
 
 ## -description
 
-The **NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT** function initializes a [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
+The **NET_DEVICE_RESET_CAPABILITIES_INIT** function initializes a [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure.
 
 ## -parameters
 
 ### -param ResetDiagnosticsCapabilities
 
-[out] A pointer to a driver-allocated [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure.
+[out] A pointer to a driver-allocated [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure.
 
 ### -param ResetDiagnosticsGuid
 
@@ -64,9 +64,9 @@ The **NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT** function initializes a [*
 
 ## -remarks
 
-A client driver typically calls **NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES_INIT** in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
+A client driver typically calls **NET_DEVICE_RESET_CAPABILITIES_INIT** in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
 
-This function zeros out the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md) structure and fills in its **Size** member. Then it sets the **ResetDiagnosticsGuid** member and ***EvtNetDeviceCollectResetDiagnostics*** member with the corresponding input parameters.
+This function zeros out the [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure and fills in its **Size** member. Then it sets the **ResetDiagnosticsGuid** member and ***EvtNetDeviceCollectResetDiagnostics*** member with the corresponding input parameters.
 
 ## -see-also
 
@@ -74,6 +74,6 @@ This function zeros out the [**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-n
 
 [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
-[**NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES**](ns-netdevice-net_device_reset_diagnostics_capabilities.md)
+[**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md)
 
 [*EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS*](nc-netdevice-evt_net_device_collect_reset_diagnostics.md)
