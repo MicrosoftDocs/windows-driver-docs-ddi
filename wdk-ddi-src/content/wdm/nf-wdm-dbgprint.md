@@ -75,18 +75,13 @@ Only kernel-mode drivers can call the <b>DbgPrint</b> routine.
 
 In Microsoft Windows Server 2003 and earlier versions of Windows, the <b>DbgPrint</b> routine sends a message to the kernel debugger. In Windows Vista and later versions of Windows, <b>DbgPrint</b> sends a message only if certain conditions apply. Specifically, it behaves like the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex">DbgPrintEx</a> routine with the DEFAULT component and a message importance level of DPFLTR_INFO_LEVEL. In other words, the following two function calls are identical:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DbgPrint ( Format, arguments )
 
-DbgPrintEx ( DPFLTR_DEFAULT_ID, DPFLTR_INFO_LEVEL, Format, arguments )</pre>
-</td>
-</tr>
-</table></span></div>
+```
+DbgPrint ( Format, arguments )
+
+DbgPrintEx ( DPFLTR_DEFAULT_ID, DPFLTR_INFO_LEVEL, Format, arguments )
+```
+
 For more information about message filtering, components, and message importance level, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages">Reading and Filtering Debugging Messages</a>.
 
 <div class="alert"><b>Note</b>    Regardless of which version of Windows you are using, it is recommended that you use <b>DbgPrintEx</b> instead of <b>DbgPrint</b>, since this allows you to control the conditions under which the message is sent.</div>

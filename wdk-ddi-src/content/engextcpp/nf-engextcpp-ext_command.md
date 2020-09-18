@@ -83,37 +83,27 @@ The <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT
 
 EXT_CLASS
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    #ifndef EXT_CLASS
+
+```cpp
+    #ifndef EXT_CLASS
     #define EXT_CLASS Extension
-    #endif</pre>
-</td>
-</tr>
-</table></span></div>
+    #endif
+```
+
 The default value of <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a> is <b>Extension</b>.  You can change this value  by defining EXT_CLASS before you include the header file Engextcpp.hpp.
 
 Each extension command in the library is declared as a member of the class EXT_CLASS using the macro <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a>.  For example, a library with two extension commands, <b>extcmd</b> and <b>anotherextcmd</b>, could define the class EXT_CLASS as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>class EXT_CLASS : public ExtExtension
+
+```
+class EXT_CLASS : public ExtExtension
 {
 public:
     EXT_COMMAND_METHOD(extcmd);
     EXT_COMMAND_METHOD(anotherextcmd);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 Extension commands that have been declared by using EXT_COMMAND_METHOD should be defined by using <b>EXT_COMMAND</b> and should be exported from the library.
 
 The <a href="https://docs.microsoft.com/previous-versions/ff544527(v=vs.85)">EXT_DECLARE_GLOBALS</a> macro creates a single instance of the EXT_CLASS class.
@@ -122,16 +112,11 @@ The <a href="https://docs.microsoft.com/previous-versions/ff544527(v=vs.85)">EXT
 
 One of the source files to be compiled into the EngExtCpp extension library should include the following command
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EXT_DECLARE_GLOBALS()</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+EXT_DECLARE_GLOBALS()
+```
+
 
 ## -see-also
 

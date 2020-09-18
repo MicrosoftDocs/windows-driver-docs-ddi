@@ -80,11 +80,11 @@ Caller-supplied value representing the size of the structure pointed to by <i>pD
 
 ### -param pDevInfo
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-devinfo">DEVINFO</a> structure.
 
 ### -param pded
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure containing the addresses of the printer driver's graphics DDI hooking functions. For more information, see the following Remarks section.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure containing the addresses of the printer driver's graphics DDI hooking functions. For more information, see the following Remarks section.
 
 ### -param pDevOem 
 
@@ -141,5 +141,5 @@ The <b>pdevOEM</b> member of the DEVOBJ structure is not used with the <code>IPr
 
 The structures pointed to by the <i>phsurfPatterns</i>, <i>pGdiInfo</i>, and <i>pDevInfo</i> parameter values are the same ones that Unidrv's <b>DrvEnablePDEV</b> function receives. The rendering plug-in can modify the structure contents as necessary. It can supply surface fill patterns by obtaining HSURF-typed surface handles and placing them in the buffer pointed to by <i>phsurfPatterns</i>. Fill pattern types and handle order are listed in the description of <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
-The <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure pointed to by <i>pded</i> contains the addresses of graphics DDI functions provided Unidrv's printer graphics DLL. You are allowed to provide customized hooking functions in your plug-in for these graphics DDI functions. The DRVENABLEDATA structure's contents enable your customized hooking functions to call back to the driver's graphics DDI functions. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-graphics-ddi-functions">Customized Graphics DDI Functions</a>.
+The <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure pointed to by <i>pded</i> contains the addresses of graphics DDI functions provided Unidrv's printer graphics DLL. You are allowed to provide customized hooking functions in your plug-in for these graphics DDI functions. The DRVENABLEDATA structure's contents enable your customized hooking functions to call back to the driver's graphics DDI functions. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-graphics-ddi-functions">Customized Graphics DDI Functions</a>.
 

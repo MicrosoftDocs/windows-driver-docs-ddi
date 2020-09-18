@@ -65,7 +65,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 |STATUS_NO_MEMORY|D3DKMTCreateContextVirtual could not complete because of insufficient memory.|
- 
+
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also

@@ -204,7 +204,7 @@ These attribute values are defined as flag bits. The value written to the ULONG 
 
 If you create a backup datastore, you can use this function to save all the boot settings for the platform so they can be restored by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsetfirmwareenvironmentvariable">ExSetFirmwareEnvironmentVariable</a> routine if needed.
 
-<b>ExGetFirmwareEnvironmentVariable</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfirmwareenvironmentvariablea">GetFirmwareEnvironmentVariable</a> function.
+<b>ExGetFirmwareEnvironmentVariable</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-getfirmwareenvironmentvariablea">GetFirmwareEnvironmentVariable</a> function.
 
 ## -see-also
 
@@ -212,7 +212,7 @@ If you create a backup datastore, you can use this function to save all the boot
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfirmwareenvironmentvariablea">GetFirmwareEnvironmentVariable</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winbase/nf-winbase-getfirmwareenvironmentvariablea">GetFirmwareEnvironmentVariable</a>
 
 
 

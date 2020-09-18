@@ -213,18 +213,13 @@ If the driver supports DRMRIGHTS and also implements a proprietary copy protecti
 
 The <b>DEFINE_DRMRIGHTS_DEFAULT</b> macro defines a constant <b>DRMRIGHTS</b> structure that specifies default DRM content rights.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID DEFINE_DRMRIGHTS_DEFAULT(
+
+```cpp
+VOID DEFINE_DRMRIGHTS_DEFAULT(
    DRMRIGHTS DrmRights
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 Parameters
 
 <i>DrmRights</i>

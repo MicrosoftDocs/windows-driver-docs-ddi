@@ -151,10 +151,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 Drivers can open remote I/O targets by supplying a Unicode string that represents an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-names">object name</a> or by supplying a pointer to a Windows Driver Model (WDM) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. (Framework-based drivers typically do not have pointers to other drivers' DEVICE_OBJECT structures.)
 
-To obtain a device interface name prior to calling <b>WdfIoTargetOpen</b>, a UMDF driver should call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> to register for interface arrival and removal notification. Then it can open the remote target using
+To obtain a device interface name prior to calling <b>WdfIoTargetOpen</b>, a UMDF driver should call <a href="https://docs.microsoft.com/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> to register for interface arrival and removal notification. Then it can open the remote target using
 the interface symbolic name that it receives in the interface notification callback routine.  The driver should continue to listen for the removal notification while the handle is open. If the target driver fails, the UMDF driver must close the handle.
 
- If the interface already exists, a UMDF driver should call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>, possibly calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_list_sizea">CM_Get_Device_Interface_List_Size</a> first to determine the required buffer size.
+ If the interface already exists, a UMDF driver should call <a href="https://docs.microsoft.com/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>, possibly calling <a href="https://docs.microsoft.com/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_list_sizea">CM_Get_Device_Interface_List_Size</a> first to determine the required buffer size.
 
 If you want your driver to use its local I/O target, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetiotarget">WdfDeviceGetIoTarget</a> instead of <b>WdfIoTargetOpen</b>.
 

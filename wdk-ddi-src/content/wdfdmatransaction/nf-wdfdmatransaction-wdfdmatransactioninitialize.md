@@ -139,9 +139,9 @@ This return value applies only to transactions that were set for <a href="https:
 
 The number of map registers needed to map the transaction is larger than the number the DMA adapter has reserved.
 
-To fix, 	the driver might reduce the number of required map registers by combining an MDL chain into a single MDL.
+To fix, the driver might reduce the number of required map registers by combining an MDL chain into a single MDL.
 
-	Drivers using packet and system DMA can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionallocateresources">WdfDmaTransactionAllocateResources</a> to reserve a number of map registers from the total allocated to the device. Suppose your driver reserved 4 out of 8 total map registers, but the DMA transfer requires 6. In this case, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitialize">WdfDmaTransactionInitialize</a> fails. To fix, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionfreeresources">WdfDmaTransactionFreeResources</a> and then call <b>WdfDmaTransactionInitialize</b> again.
+Drivers using packet and system DMA can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionallocateresources">WdfDmaTransactionAllocateResources</a> to reserve a number of map registers from the total allocated to the device. Suppose your driver reserved 4 out of 8 total map registers, but the DMA transfer requires 6. In this case, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitialize">WdfDmaTransactionInitialize</a> fails. To fix, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionfreeresources">WdfDmaTransactionFreeResources</a> and then call <b>WdfDmaTransactionInitialize</b> again.
 
 
  Drivers using scatter/gather DMA cannot reserve map registers.

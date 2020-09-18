@@ -60,7 +60,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 ### -param SetupPacket 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winusb/ns-winusb-_winusb_setup_packet">WINUSB_SETUP_PACKET</a> for the control transfer.
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winusb/ns-winusb-winusb_setup_packet">WINUSB_SETUP_PACKET</a> for the control transfer.
 
 ### -param pMemory 
 
@@ -127,13 +127,9 @@ After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/
 
 The following code example is taken from the <a href="https://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    WINUSB_CONTROL_SETUP_PACKET setupPacket;
+
+```
+    WINUSB_CONTROL_SETUP_PACKET setupPacket;
 
     ULONG bytesTransferred;
 
@@ -202,10 +198,9 @@ CMyDevice::SendControlTransferSynchronously(
                                                                    NULL); //TransferOffset
     }                                                          
       
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

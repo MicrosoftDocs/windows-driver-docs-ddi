@@ -58,7 +58,7 @@ Pointer to the filter device object of the driver that supplies this callback.
 ### -param CurrentInput 
 
 [in]
-Pointer to the input <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_input_data">MOUSE_INPUT_DATA</a> structure being constructed by the ISR.
+Pointer to the input <a href="https://docs.microsoft.com/windows/win32/api/ntddmou/ns-ntddmou-mouse_input_data">MOUSE_INPUT_DATA</a> structure being constructed by the ISR.
 
 ### -param CurrentOutput 
 
@@ -106,7 +106,7 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_input_data">MOUSE_INPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntddmou/ns-ntddmou-mouse_input_data">MOUSE_INPUT_DATA</a>
 
 
 

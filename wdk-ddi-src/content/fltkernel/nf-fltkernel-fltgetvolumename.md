@@ -116,31 +116,21 @@ The <b>Buffer</b> member of the UNICODE_STRING structure, pointed to by <i>Volum
 For this routine to succeed, the <b>Buffer</b> member of the UNICODE_STRING structure (pointed to by <i>VolumeName</i>) must be large enough, as indicated by its <b>MaximumLength</b> member, to contain the entire volume name string.  The following pseudocode shows one possible method to successfully acquire a volume name:
 
 <ol>
-<li>Call <b>FltGetVolumeName</b> to determine the required pool for <b>Buffer</b> and the required size for <b>MaximumLength</b>.  For example:<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FltGetVolumeName(VolumePtr, NULL, &VolumeNameSize);</pre>
-</td>
-</tr>
-</table></span></div>
+<li>Call <b>FltGetVolumeName</b> to determine the required pool for <b>Buffer</b> and the required size for <b>MaximumLength</b>.  For example:
+```
+FltGetVolumeName(VolumePtr, NULL, &VolumeNameSize);
+```
+
 </li>
 <li>
 Allocate <code>VolumeNameSize</code> bytes of pool for <b>Buffer</b> and set <b>MaximumLength</b> to <code>VolumeNameSize</code>.
 
 </li>
-<li>Call <b>FltGetVolumeName</b> again to acquire the volume name.  For example:<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FltGetVolumeName(VolumePtr, &VolumeNameStruct, NULL);</pre>
-</td>
-</tr>
-</table></span></div>
+<li>Call <b>FltGetVolumeName</b> again to acquire the volume name.  For example:
+```
+FltGetVolumeName(VolumePtr, &VolumeNameStruct, NULL);
+```
+
 <code>VolumeNameStruct.Buffer</code> contains the Unicode volume name string, which is <code>VolumeNameStruct.Length</code> bytes in length.
 
 </li>
@@ -153,7 +143,7 @@ For more information about how to name a volume, see <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetdosname">FilterGetDosName</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetdosname">FilterGetDosName</a>
 
 
 

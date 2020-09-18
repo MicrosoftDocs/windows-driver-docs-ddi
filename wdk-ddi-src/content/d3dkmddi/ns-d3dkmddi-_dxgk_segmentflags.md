@@ -217,7 +217,7 @@ The combination of values for the <b>PreservedDuringStandby</b>, <b>PreservedDur
 |0|1|0|invalid|invalid|
 |0|0|1|invalid|invalid|
 |0|0|0|purged|purged|
- 
+
 
 The operating system does not recognize combinations in this table that are marked "invalid."
 

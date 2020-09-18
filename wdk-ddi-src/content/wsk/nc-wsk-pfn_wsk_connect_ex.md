@@ -65,7 +65,7 @@ A pointer to a
 
 [in]
 A pointer to a structure that specifies the remote transport address to which to connect the
-     socket. This pointer must be a pointer to the specific <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure type that corresponds to the
+     socket. This pointer must be a pointer to the specific <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure type that corresponds to the
      address family that the WSK application specified when it created the socket.
 
 ### -param Buffer 
@@ -195,7 +195,7 @@ Before calling <b>WskConnectEx</b> with a provided send buffer, if the WSK appli
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 

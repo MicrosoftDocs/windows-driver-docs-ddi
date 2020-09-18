@@ -65,16 +65,11 @@ Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/f
 
 The following is an example of a normalized name for a remote file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\Device\LanManRedirector\MyServer\MyShare\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1
+```
+
 <b>FltParseFileNameInformation</b> parses this normalized name as follows: 
 
 <b>Volume</b>: "\Device\LanManRedirector" 
@@ -91,16 +86,11 @@ The following is an example of a normalized name for a remote file:
 
 The following is an example of an opened name for a local file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\Device\HarddiskVolume1\Docume~1\MyUser\My Documents\TestRe~1.txt:stream1:$DATA</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\Device\HarddiskVolume1\Docume~1\MyUser\My Documents\TestRe~1.txt:stream1:$DATA
+```
+
 <b>FltParseFileNameInformation</b> parses this opened name as follows: 
 
 <b>Volume</b>: "\Device\HarddiskVolume1" 
@@ -117,16 +107,11 @@ The following is an example of an opened name for a local file:
 
 The following is an example of a short name for a file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>TestRe~1.txt</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+TestRe~1.txt
+```
+
 <b>FltParseFileNameInformation</b> parses this short name as follows: 
 
 <b>Volume</b>: <b>NULL</b>

@@ -69,7 +69,7 @@ The local IP address.
 ### -field FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_PORT
 
@@ -86,7 +86,7 @@ The remote IP address.
 ### -field FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_DESTINATION_ADDRESS_TYPE
 
 The destination IP address type. The possible values are defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_REMOTE_PORT
 
@@ -137,22 +137,17 @@ The following macros in
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6 enumeration
     values:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 #define FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ICMP_TYPE \
         FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_LOCAL_PORT
 
 #define FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ICMP_CODE \
         FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_IP_REMOTE_PORT
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 These macros are used to access the following IPV6 data fields:
 
 FWPS_FIELD_ALE_CONNECT_REDIRECT_V6_ICMP_TYPE  
@@ -163,5 +158,5 @@ The ICMP code field, as specified in RFC 792.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
 

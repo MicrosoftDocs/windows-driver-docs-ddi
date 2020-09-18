@@ -156,13 +156,9 @@ The caller-allocated buffer is too small, but the required buffer size has been 
 
 The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS firmware table. The data written to the <i>FirmwareTableBuffer</i> buffer starts with the following structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct RawSMBIOSData
+
+```
+struct RawSMBIOSData
 {
   BYTE  Used20CallingMethod;
   BYTE  SMBIOSMajorVersion;
@@ -170,17 +166,16 @@ The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS 
   BYTE  DmiRevision;
   DWORD  Length;
   BYTE  SMBIOSTableData[];
-};</pre>
-</td>
-</tr>
-</table></span></div>
+};
+```
+
 The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The value written to *<i>ReturnLength</i> is the size of the address range.
 
 The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibenumeratesystemfirmwaretables">AuxKlibEnumerateSystemFirmwareTables</a> to enumerate all ACPI tables that are currently available from the system firmware.
 
 For ACPI, if the system firmware contains multiple tables with the same name, <b>AuxKlibEnumerateSystemFirmwareTables</b> enumerates them all. However, <b>AuxKlibGetSystemFirmwareTable</b> retrieves only the first table in the list that has this name.
 
-<b>AuxKlibGetSystemFirmwareTable</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> function.
+<b>AuxKlibGetSystemFirmwareTable</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> function.
 
 Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibGetSystemFirmwareTable</b>.
 
@@ -196,5 +191,5 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
+<a href="https://docs.microsoft.com/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
 

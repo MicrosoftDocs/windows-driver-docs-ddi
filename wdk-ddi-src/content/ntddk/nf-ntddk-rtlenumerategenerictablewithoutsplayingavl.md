@@ -62,21 +62,16 @@ An address of the element returned by the previous call to <b>RtlEnumerateGeneri
 
 To enumerate all elements in the table, use <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>RestartKey = NULL;
+
+```
+RestartKey = NULL;
 for (ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &RestartKey);
      ptr != NULL;
      ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &RestartKey)) {
         // Process the element pointed to by ptr
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -returns
 
@@ -90,7 +85,7 @@ The <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> routine does not actually 
 
 By default, the operating system uses splay trees to implement generic tables, but the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictablefullavl">RtlLookupElementGenericTableFullAvl</a> routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
 
-#define RTL_USE_AVL_TABLES 0
+`#define RTL_USE_AVL_TABLES 0`
 
 If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <b>RtlEnumerateGenericTableWithoutSplayingAvl</b> routine instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplaying">RtlEnumerateGenericTableWithoutSplaying</a>. In the call to <b>RtlEnumerateGenericTableWithoutSplayingAvl</b>, the caller must pass a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a> table structure rather than <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>.
 

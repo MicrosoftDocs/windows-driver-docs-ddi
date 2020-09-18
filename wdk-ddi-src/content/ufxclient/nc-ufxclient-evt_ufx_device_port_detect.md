@@ -65,13 +65,9 @@ The client driver must indicate completion of port detection by calling the <a h
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 EVT_UFX_DEVICE_PORT_DETECT UfxDevice_EvtDevicePortDetect;
 
 VOID
@@ -106,10 +102,9 @@ Arguments:
 
     UfxDevicePortDetectComplete(ControllerContext->UfxDevice, UsbfnUnknownPort);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

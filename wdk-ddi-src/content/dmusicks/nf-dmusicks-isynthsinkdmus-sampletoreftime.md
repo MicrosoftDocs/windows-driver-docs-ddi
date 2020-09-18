@@ -72,7 +72,7 @@ The calculation of reference time from sample time to reference time depends on 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-sampletoreftime">IDirectMusicSynthSink::SampleToRefTime</a>
+<a href="https://docs.microsoft.com/windows/win32/api/dmusics/nf-dmusics-idirectmusicsynthsink-sampletoreftime">IDirectMusicSynthSink::SampleToRefTime</a>
 
 
 

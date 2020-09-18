@@ -155,18 +155,13 @@ This routine can potentially support notifications of events in a variety of eve
 
 The function pointer type for the <i>CallbackFunction</i> parameter is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```
+typedef NTSTATUS
   (*PIO_CONTAINER_NOTIFICATION_FUNCTION)(
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 The caller should cast the callback function pointer to this type to match the <i>CallbackFunction</i> parameter type. <b>IoRegisterContainerNotification</b> determines the actual type of the callback function pointer from the <i>NotificationClass</i> parameter. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, <i>CallbackFunction</i> points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function.
 
 ## -see-also

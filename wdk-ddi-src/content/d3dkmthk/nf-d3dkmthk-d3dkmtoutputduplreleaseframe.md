@@ -65,7 +65,7 @@ Returns one of the following values:
 |STATUS_SUCCESS|The function performed successfully.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 |STATUS_NOT_FOUND|The context of the process could not be found.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -see-also

@@ -58,11 +58,11 @@ The driver-registered callback function is executed on the new non-system thread
 
 ### -field PsCreateThreadNotifySubsystems
 
-Indicates that the driver-registered callback function is invoked for threads of all subsystems.  Drivers can call <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a> to determine the underlying subsystem. The query retrieves a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_subsystem_information_type">SUBSYSTEM_INFORMATION_TYPE</a> value.
+Indicates that the driver-registered callback function is invoked for threads of all subsystems.  Drivers can call <a href="https://docs.microsoft.com/windows/win32/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a> to determine the underlying subsystem. The query retrieves a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_subsystem_information_type">SUBSYSTEM_INFORMATION_TYPE</a> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a>
 
 
 

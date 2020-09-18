@@ -87,7 +87,7 @@ Points to the driver-supplied <a href="https://docs.microsoft.com/windows-hardwa
 
 ## -remarks
 
-The driver allocates this structure and sets appropriate values in all members. The driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function returns a pointer to this structure when that function is called with the GUID_D3DCallbacks3 GUID.
+The driver allocates this structure and sets appropriate values in all members. The driver's <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function returns a pointer to this structure when that function is called with the GUID_D3DCallbacks3 GUID.
 
 ## -see-also
 
@@ -107,5 +107,5 @@ D3DDP2OP_CLEAR
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
 

@@ -64,7 +64,7 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The mapping was performed successfully.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 
 This function might also return other NTSTATUS values.
 

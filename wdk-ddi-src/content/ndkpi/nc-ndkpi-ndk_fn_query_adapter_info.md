@@ -57,7 +57,7 @@ A pointer to an NDK adapter (<a href="https://docs.microsoft.com/windows-hardwar
 
 ### -param pInfo
 
-A pointer to a buffer that contains an <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. If the request completes with STATUS_SUCCESS, the NDK provider  fills  the structure with adapter information.
+A pointer to a buffer that contains an <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. If the request completes with STATUS_SUCCESS, the NDK provider  fills  the structure with adapter information.
 
 ### -param pBufferSize
 
@@ -113,7 +113,7 @@ An error occurred.
 
 ## -remarks
 
-<i>NdkQueryAdapterInfo</i> retrieves the adapter information in an  <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. The structure  contains information on various limits and capabilities of the adapter.
+<i>NdkQueryAdapterInfo</i> retrieves the adapter information in an  <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure. The structure  contains information on various limits and capabilities of the adapter.
 
 <i>NdkQueryAdapterInfo</i>  requires an IRQL equal to PASSIVE_LEVEL and  it blocks until the request is completed.
 
@@ -127,5 +127,5 @@ An error occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
 

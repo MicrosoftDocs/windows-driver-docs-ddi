@@ -60,20 +60,15 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ke
 [in, optional]
 A pointer to either a caller-supplied function for allocating an entry when the lookaside list is empty, or to <b>NULL</b>. If non-<b>NULL</b>, the pointer is to a function with the prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PVOID XxxAllocate(
+
+```
+PVOID XxxAllocate(
   __in POOL_TYPE  PoolType,           // PagedPool 
   __in SIZE_T  NumberOfBytes,         // value of Size
   __in ULONG  Tag                     // value of Tag
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 If the <i>Allocate</i> parameter is <b>NULL</b>, subsequent calls to <b>ExAllocateFromPagedLookasideList</b> automatically allocate entries whenever the lookaside list is empty.
 
 ### -param Free 
@@ -81,18 +76,13 @@ If the <i>Allocate</i> parameter is <b>NULL</b>, subsequent calls to <b>ExAlloca
 [in, optional]
 A pointer to either a caller-supplied function for freeing an entry whenever the lookaside list is full, or to <b>NULL</b>. If non-<b>NULL</b>, the pointer is to a function with the prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID XxxFree(
+
+```
+VOID XxxFree(
   __in PVOID  Buffer
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 If the <i>Free</i> parameter is <b>NULL</b>, subsequent calls to <b>ExFreeToPagedLookasideList</b> automatically release the given entry back to paged pool whenever the list is full, that is, currently holding the system-determined maximum number of entries.
 
 ### -param Flags 

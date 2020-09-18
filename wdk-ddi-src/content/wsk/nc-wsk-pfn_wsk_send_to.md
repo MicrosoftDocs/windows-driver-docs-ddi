@@ -104,7 +104,7 @@ The number of bytes of data in the buffer that is pointed to by the
 A pointer to a buffer that contains control information that is associated with the datagram that
      is being sent. The control information data consists of one or more control data objects, each of which
      begins with a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
+     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
      information that is associated with the datagram, this parameter should be <b>NULL</b>.
 
 ### -param Irp 
@@ -200,11 +200,11 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 

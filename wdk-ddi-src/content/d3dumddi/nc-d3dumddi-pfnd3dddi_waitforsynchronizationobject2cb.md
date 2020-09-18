@@ -70,7 +70,7 @@ Returns one of the following values:
 |:--|:--|
 | **S_OK** | The wait was successfully set up. | 
 | **E_INVALIDARG** | Parameters were validated and determined to be incorrect. | 
- 
+
 
 This function might also return other HRESULT values.
 

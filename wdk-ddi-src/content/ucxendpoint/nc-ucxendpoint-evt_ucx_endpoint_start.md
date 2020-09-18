@@ -69,13 +69,9 @@ The UCX client driver registers this callback function with the USB host control
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 Endpoint_EvtUcxEndpointStart(
     UCXCONTROLLER   UcxController,
     UCXENDPOINT     UcxEndpoint
@@ -86,8 +82,7 @@ Endpoint_EvtUcxEndpointStart(
     UNREFERENCED_PARAMETER(UcxEndpoint);
 
     DbgTrace(TL_INFO, Endpoint, "Endpoint_EvtUcxEndpointStart");
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 

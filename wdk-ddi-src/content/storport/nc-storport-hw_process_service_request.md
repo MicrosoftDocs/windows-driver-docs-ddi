@@ -62,21 +62,16 @@ A pointer to the I/O request.
 
 The name <b>HwStorProcessServiceRequest</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 HW_PROCESS_SERVICE_REQUEST (
   _In_ PVOID  DeviceExtension,
   _In_ PVOID  Irp
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 The port driver calls the Storport virtual miniport driver's <b>HwStorProcessServiceRequest</b> routine at PASSIVE_LEVEL. The virtual miniport driver completes the IRP by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportcompleteserviceirp">StorPortCompleteServiceIrp</a> routine.
 
 
@@ -86,25 +81,16 @@ To define an <b>HwStorProcessServiceRequest</b> callback function, you must firs
 
  For example, to define a <b>HwStorProcessServiceRequest</b> callback routine that is named <i>MyHwProcessServiceRequest</i>, use the <b>HW_PROCESS_SERVICE_REQUEST</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HW_PROCESS_SERVICE_REQUEST MyHwProcessServiceRequest;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+HW_PROCESS_SERVICE_REQUEST MyHwProcessServiceRequest;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 VOID
 MyHwProcessServiceRequest (
   _In_ PVOID  DeviceExtension,
@@ -112,10 +98,9 @@ MyHwProcessServiceRequest (
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
+
 The <b>HW_PROCESS_SERVICE_REQUEST</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_PROCESS_SERVICE_REQUEST</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 ## -see-also

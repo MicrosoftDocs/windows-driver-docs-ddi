@@ -311,7 +311,7 @@ The value supplied by the request. Must be set to the number of bytes returned.
 
 </dd>
 </dl>
-As with all other IOCTLs, a user-mode application dispatches a vendor-defined IOCTL to a smart card reader device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function. When the IOCTL is vendor-defined, however, the application must first open the reader device for "overlapped" (that is, asynchronous) access. The application must also define an OVERLAPPED structure and pass it to the system in the last argument of <b>DeviceIoControl</b> (The OVERLAPPED structure is also described in the Windows SDK documentation.). When the operating system calls the driver's I/O control dispatch routine, it passes a DIOCPARAMETERS structure to the driver. The <b>lpoOverlapped</b> member of the DIOCPARAMETERS structure contains a pointer to the OVERLAPPED structure. 
+As with all other IOCTLs, a user-mode application dispatches a vendor-defined IOCTL to a smart card reader device by calling the <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function. When the IOCTL is vendor-defined, however, the application must first open the reader device for "overlapped" (that is, asynchronous) access. The application must also define an OVERLAPPED structure and pass it to the system in the last argument of <b>DeviceIoControl</b> (The OVERLAPPED structure is also described in the Windows SDK documentation.). When the operating system calls the driver's I/O control dispatch routine, it passes a DIOCPARAMETERS structure to the driver. The <b>lpoOverlapped</b> member of the DIOCPARAMETERS structure contains a pointer to the OVERLAPPED structure. 
 
 </td>
 </tr>
@@ -457,21 +457,16 @@ Receives the actual number of bytes returned by the smart card, plus the size of
 </dl>
 When this function is called, <b>SmartcardExtension->IoRequest.RequestBuffer</b> points to an SCARD_IO_REQUEST structure followed by the data to transmit.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _SCARD_IO_REQUEST{
+
+```cpp
+typedef struct _SCARD_IO_REQUEST{
   DWORD  dwProtocol;   // Protocol identifier
   DWORD  cbPciLength;  // Protocol Control Information Length
 } SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST;
     
-   </pre>
-</td>
-</tr>
-</table></span></div>
+   
+```
+
 The <b>dwProtocol</b> member must contain the protocol identifier that is returned by a call to IOCTL_SMARTCARD_SET_PROTOCOL. 
 
 The <b>cbPciLength</b> member contains the size, in bytes, of the SCARD_IO_REQUEST structure. The size of this structure is usually 8 bytes. 

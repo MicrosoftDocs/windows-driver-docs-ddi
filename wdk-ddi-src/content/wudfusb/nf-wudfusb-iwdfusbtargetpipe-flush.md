@@ -100,7 +100,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 The <b>Flush</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
-For more information about how <b>Flush</b> works, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_flushpipe">WinUsb_FlushPipe</a> function.
+For more information about how <b>Flush</b> works, see the <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_flushpipe">WinUsb_FlushPipe</a> function.
 
 ## -see-also
 
@@ -108,5 +108,5 @@ For more information about how <b>Flush</b> works, see the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_flushpipe">WinUsb_FlushPipe</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_flushpipe">WinUsb_FlushPipe</a>
 

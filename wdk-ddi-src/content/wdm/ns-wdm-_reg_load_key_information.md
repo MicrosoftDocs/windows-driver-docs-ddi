@@ -100,7 +100,7 @@ Reserved for system use.
 
 ## -remarks
 
-The operating system passes the <b>REG_LOAD_KEY_INFORMATION</b> structure to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine every time a user-mode thread calls <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadkeya">RegLoadKey</a> to load a registry hive.
+The operating system passes the <b>REG_LOAD_KEY_INFORMATION</b> structure to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine every time a user-mode thread calls <a href="https://docs.microsoft.com/windows/win32/api/winreg/nf-winreg-regloadkeya">RegLoadKey</a> to load a registry hive.
 
 For more information about registry filtering operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
@@ -110,7 +110,7 @@ For more information about registry filtering operations, see <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadkeya">RegLoadKey</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winreg/nf-winreg-regloadkeya">RegLoadKey</a>
 
 
 

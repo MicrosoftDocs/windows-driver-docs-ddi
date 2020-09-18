@@ -129,7 +129,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 ## -remarks
 
-For information about valid descriptor types that a UMDF driver can pass for the <i>DescriptorType</i> parameter, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getdescriptor">WinUsb_GetDescriptor</a> function.
+For information about valid descriptor types that a UMDF driver can pass for the <i>DescriptorType</i> parameter, see the <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_getdescriptor">WinUsb_GetDescriptor</a> function.
 
 The <b>RetrieveDescriptor</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
@@ -138,13 +138,9 @@ The <b>RetrieveDescriptor</b> method generates a UMDF request and synchronously 
 
 The following code example retrieves a USB configuration descriptor.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```
+HRESULT
 CUmdfHidDevice::RetrieveConfigDescriptor(
     __out_bcount(ConfigDescriptorCb) PUSB_CONFIGURATION_DESCRIPTOR *ConfigDescriptor,
     __out ULONG *ConfigDescriptorCb
@@ -177,10 +173,9 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
         delete[] descriptorHeader;
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 
@@ -188,5 +183,5 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getdescriptor">WinUsb_GetDescriptor</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_getdescriptor">WinUsb_GetDescriptor</a>
 

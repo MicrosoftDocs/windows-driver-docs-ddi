@@ -90,7 +90,7 @@ If the primary format is palettized RGB, <b>Color</b> contains the palette index
 
 ### -field DstRect
 
-[in] The optional destination <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> for the bitblt. The destination RECT is used only if the <b>DstRectValid</b> bit-field flag is set in the <b>Flags</b> member.
+[in] The optional destination <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> for the bitblt. The destination RECT is used only if the <b>DstRectValid</b> bit-field flag is set in the <b>Flags</b> member.
 
 ### -field SrcRect
 
@@ -205,5 +205,5 @@ Indicates whether the device is optimized for composition.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

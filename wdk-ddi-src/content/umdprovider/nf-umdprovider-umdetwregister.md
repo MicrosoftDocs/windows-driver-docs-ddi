@@ -130,7 +130,7 @@ FORCEINLINE void UMDEtwRegister(PFNUMDETW_RUNDOWN RundownCb)
 }
 ```
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> function and the <b>EVENT_CONTROL_CODE_XXX</b> values are  described in the <a href="https://docs.microsoft.com/windows/desktop/Events/windows-events">Windows Events</a> documentation.
+The <a href="https://docs.microsoft.com/windows/win32/api/evntprov/nf-evntprov-eventregister">EventRegister</a> function and the <b>EVENT_CONTROL_CODE_XXX</b> values are  described in the <a href="https://docs.microsoft.com/windows/desktop/Events/windows-events">Windows Events</a> documentation.
 
 ## -see-also
 

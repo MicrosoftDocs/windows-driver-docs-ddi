@@ -81,13 +81,9 @@ A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP
      structure is defined in 
      Ws2ipdef.h as follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct {
+
+```
+typedef struct {
   union {
     struct {
       ULONG  Zone : 28;
@@ -95,10 +91,9 @@ A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP
     };
     ULONG  Value;
   };
-} SCOPE_ID, *PSCOPE_ID;</pre>
-</td>
-</tr>
-</table></span></div>
+} SCOPE_ID, *PSCOPE_ID;
+```
+
 
 ### -field OPTIONAL
 
@@ -110,8 +105,8 @@ A <b>SCOPE_ID</b> structure that contains the scope identifier for the remote IP
 #### - controlData
 
 An optional pointer to a buffer that contains socket control data specified by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function. For information about the <b>WSACMSGHDR</b> type, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
+      <a href="https://docs.microsoft.com/windows/win32/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> function. For information about the <b>WSACMSGHDR</b> type, see 
+      <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
 
 If present, socket control data is provided to a callout with the 
       <b>controlData</b> member of the 
@@ -144,7 +139,7 @@ The length, in bytes, of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
 
 
 
@@ -158,7 +153,7 @@ The length, in bytes, of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>
 
 
 

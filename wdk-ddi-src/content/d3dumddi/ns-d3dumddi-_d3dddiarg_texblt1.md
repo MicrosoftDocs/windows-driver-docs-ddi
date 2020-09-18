@@ -66,11 +66,11 @@ The face of a cube map.
 
 ### -field DstPoint
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the destination point where the source texture is copied.
+A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the destination point where the source texture is copied.
 
 ### -field SrcRect
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that describes the source texture to copy to the destination point.
+A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the source texture to copy to the destination point.
 
 ### -field CopyFlags
 
@@ -82,9 +82,9 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagpoint">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

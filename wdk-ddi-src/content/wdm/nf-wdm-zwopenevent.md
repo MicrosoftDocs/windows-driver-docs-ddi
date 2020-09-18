@@ -83,7 +83,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-m
 ### -param ObjectAttributes 
 
 [in]
-A pointer to the object attributes structure that the caller supplied to be used for the specified object. These attributes would include the <b>ObjectName</b> and the handle attributes, for example. This parameter is initialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro.
+A pointer to the object attributes structure that the caller supplied to be used for the specified object. These attributes would include the <b>ObjectName</b> and the handle attributes, for example. This parameter is initialized by calling the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro.
 
 ## -returns
 
@@ -123,7 +123,7 @@ The <i>ObjectAttributes</i> structure was not supplied or contained an invalid p
 </dl>
 </td>
 <td width="60%">
-The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that was invalid. 
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that was invalid. 
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

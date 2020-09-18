@@ -70,7 +70,7 @@ The <b>pfnAcquireFirstFrequencyRangeInfo</b> function returns one of the followi
 |STATUS_GRAPHICS_DATASET_IS_EMPTY|The function succeeded, but there were no frequency range descriptors in the set.|
 |STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
 |STATUS_INVALID_MONITOR_FREQUENCYRANGESET|The handle supplied in hMonitorFrequencyRangeSet was invalid.|
- 
+
 
 This function might also return other error codes defined in <i>Ntstatus.h</i>.
 

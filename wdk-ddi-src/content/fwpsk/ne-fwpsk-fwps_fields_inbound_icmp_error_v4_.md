@@ -74,7 +74,7 @@ The remote IP address that is embedded in the ICMP packet.
 
 The local IP address type that is embedded in the ICMP packet. The possible condition values are
      defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_LOCAL_PORT
 
@@ -208,13 +208,9 @@ The following macros in
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_INBOUND_ICMP_ERROR_V4 enumeration
     values:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 #if (NTDDI_VERSION >= NTDDI_WIN6SP1)
 
 #define FWPS_FIELD_INBOUND_ICMP_ERROR_V4_LOCAL_INTERFACE_INDEX \
@@ -230,10 +226,9 @@ The following macros in
         FWPS_FIELD_INBOUND_ICMP_ERROR_V4_TUNNEL_TYPE
 
 #endif // (NTDDI_VERSION >= NTDDI_WIN6SP1)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 These macros are used to access the following IPV4 data fields:
 
 FWPS_FIELD_INBOUND_ICMP_ERROR_V4_LOCAL_INTERFACE_INDEX  
@@ -266,5 +261,5 @@ The encapsulation method used by a tunnel if the IfType member of the IP_ADAPTER
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
 

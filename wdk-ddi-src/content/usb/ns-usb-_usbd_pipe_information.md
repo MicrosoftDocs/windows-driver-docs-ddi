@@ -214,7 +214,7 @@ Specifies the maximum size, in bytes, for a transfer request on this pipe. In Wi
 
 For information about the maximum transfer sizes of each type of USB endpoint in different versions of Windows, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Transfer and Packet Sizes</a>.
 
-<div class="alert"><b>Note</b>  For WinUSB, do not use <b>MaximumTransferSize</b> to determine the maximum size of a USB transfer. Instead, use the MAXIMUM_TRANSFER_SIZE value retrieved by  <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>.</div>
+<div class="alert"><b>Note</b>  For WinUSB, do not use <b>MaximumTransferSize</b> to determine the maximum size of a USB transfer. Instead, use the MAXIMUM_TRANSFER_SIZE value retrieved by  <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>.</div>
 <div> </div>
 
 ### -field PipeFlags

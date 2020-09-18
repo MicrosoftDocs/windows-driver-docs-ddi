@@ -33,9 +33,9 @@ f1_keywords:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - 
+ - NtosKrnl.exe
 api_name:
  - RtlQueryPackageIdentity
 product:

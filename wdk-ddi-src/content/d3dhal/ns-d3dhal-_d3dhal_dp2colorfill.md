@@ -87,5 +87,5 @@ D3DDP2OP_COLORFILL
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
 

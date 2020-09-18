@@ -66,21 +66,16 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_p
 [in, optional]
 Either <b>NULL</b> or a pointer to a caller-supplied function that allocates a log I/O block for the marshalling area. The allocation function has the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PVOID
+
+```
+PVOID
 (*PALLOCATE_FUNCTION) (
     IN POOL_TYPE PoolType,
     IN SIZE_T NumberOfBytes,
     IN ULONG Tag
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 The return value of the allocation function is a pointer to the newly allocated log I/O block.
 
 ### -param pfnFreeBuffer 
@@ -88,19 +83,14 @@ The return value of the allocation function is a pointer to the newly allocated 
 [in, optional]
 Either <b>NULL</b> or a pointer to a caller-supplied function that frees a log I/O block that was previously allocated by <i>pfnAllocBuffer</i>. The function has the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 (*PFREE_FUNCTION) (
     IN PVOID Buffer
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 
 ### -param cbMarshallingBuffer 
 

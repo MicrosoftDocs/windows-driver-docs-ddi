@@ -63,13 +63,9 @@ For more information about accessing data buffers and when your driver should us
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iqueuecallbackwrite-onwrite">IQueueCallbackWrite::OnWrite</a> callback function can obtain the buffer access method of an I/O request. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 STDMETHODCALLTYPE
   CMyQueue::OnWrite(
     __in IWDFIoQueue *pWdfQueue,
@@ -87,10 +83,9 @@ STDMETHODCALLTYPE
 
     currentIoType = r2->GetEffectiveIoType();
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

@@ -175,7 +175,7 @@ If a WSK application returns
     complete.
 
 The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structures that are pointed to by the 
+    <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structures that are pointed to by the 
     <i>LocalAddress</i> and 
     <i>RemoteAddress</i> parameters are valid only for the duration of the call to the 
     <i>WskInspectEvent</i> event callback function. If a WSK application returns 
@@ -192,7 +192,7 @@ A WSK application's <i>WskInspectEvent</i> event callback function must not wait
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 

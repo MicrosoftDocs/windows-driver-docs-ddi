@@ -56,7 +56,7 @@ It is used in the <b>Header</b> member of every NDK object.
 
 ### -field Version
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a> structure that contains the revision number of the NDK object.
+An <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a> structure that contains the revision number of the NDK object.
 
 ### -field ObjectType
 
@@ -74,11 +74,11 @@ When an NDK provider creates an NDK object instance, the <b>Header</b> member mu
 
 <ul>
 <li>
-For Windows Server 2012, set the <b>Version</b> member to 1.1. To do this, set both the <b>Major</b> and <b>Minor</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a> structure to 1.
+For Windows Server 2012, set the <b>Version</b> member to 1.1. To do this, set both the <b>Major</b> and <b>Minor</b> members of the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a> structure to 1.
 
 </li>
 <li>
-For Windows Server 2012 R2, set the <b>Version</b> member to 1.2. To do this, set the <b>Major</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a> structure to 1 and the <b>Minor</b> member to 2.
+For Windows Server 2012 R2, set the <b>Version</b> member to 1.2. To do this, set the <b>Major</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a> structure to 1 and the <b>Minor</b> member to 2.
 
 </li>
 <li>
@@ -157,5 +157,5 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
 

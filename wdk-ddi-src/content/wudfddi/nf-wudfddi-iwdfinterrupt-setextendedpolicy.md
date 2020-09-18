@@ -72,13 +72,9 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 The following code example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdf_interrupt_extended_policy_init">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a> to initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_extended_policy">WDF_INTERRUPT_EXTENDED_POLICY</a> structure; sets values for the policy, priority, and target processor set; and calls <b>SetExtendedPolicy</b>. The example sets normal priority for the interrupt and assigns the interrupt to processor 0 in processor group 2. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IWDFInterrupt* pInterrupt;
 
 #define AFFINITY_MASK(n) ((ULONG_PTR)1 << (n))
@@ -93,10 +89,9 @@ myExtendedPolicy.TargetProcessorSetAndGroup.Group = 2;
 
 pInterrupt->SetExtendedPolicy(
                               &myExtendedPolicy
- );</pre>
-</td>
-</tr>
-</table></span></div>
+ );
+```
+
 
 ## -see-also
 

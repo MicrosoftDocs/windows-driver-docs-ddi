@@ -94,13 +94,9 @@ Your driver might call <b>RetrieveFileName</b> from its <a href="https://docs.mi
 
 The following code example shows how to retrieve the name of a file.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    ULONG fileNameCch = 0;
+
+```
+    ULONG fileNameCch = 0;
     PWSTR fileName = NULL;
     ULONG index;
 
@@ -128,10 +124,9 @@ The following code example shows how to retrieve the name of a file.
     if (SUCCEEDED(hr))
     {
         hr = WdfFile->RetrieveFileName(fileName, &fileNameCch);
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 
 ## -see-also
 

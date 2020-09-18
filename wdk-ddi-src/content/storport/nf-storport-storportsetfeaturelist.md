@@ -33,9 +33,10 @@ f1_keywords:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
- - 
+ - Storport.lib
+ - Storport.dll
 api_name:
  - StorPortSetFeatureList
 product:

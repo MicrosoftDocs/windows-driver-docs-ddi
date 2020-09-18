@@ -52,7 +52,7 @@ Exposes a collection of [IPrintSchemaOption](https://docs.microsoft.com/windows-
 
 ## -see-also
 
-[IDispatch](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch)
+[IDispatch](https://docs.microsoft.com/previous-versions/windows/win32/api/oaidl/nn-oaidl-idispatch)
 
 [IPrintSchemaOption](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption)
 

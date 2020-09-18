@@ -69,23 +69,18 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IWDFInterrupt* pInterrupt;
 WDF_INTERRUPT_INFO  Info;
 
 WDF_INTERRUPT_INFO_INIT(&Info);
 
 pInterrupt>GetInfo(&Info);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

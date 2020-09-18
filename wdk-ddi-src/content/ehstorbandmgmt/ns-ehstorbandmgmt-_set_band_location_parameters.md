@@ -70,20 +70,15 @@ The starting byte location on the storage device to begin a band search. An atte
 
 The offset, in bytes, of an  <b> AUTH_KEY</b> structure containing the authorization key for the band. The offset is from the beginning of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_location_parameters">SET_BAND_LOCATION_PARAMETERS</a>. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _AUTH_KEY
+
+```
+typedef struct _AUTH_KEY
 {
     ULONG   KeySize;
     UCHAR   Key[ANYSIZE_ARRAY];
-} AUTH_KEY;</pre>
-</td>
-</tr>
-</table></span></div>
+} AUTH_KEY;
+```
+
 
 
 

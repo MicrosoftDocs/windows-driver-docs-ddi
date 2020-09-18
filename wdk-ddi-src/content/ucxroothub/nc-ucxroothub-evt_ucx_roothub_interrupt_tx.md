@@ -76,20 +76,15 @@ The client driver returns completion status in <i>Request</i>.
 
 This snippet shows how the callback extracts the root hub interrupt transfer request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>        WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+
+```
+        WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
         WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
 
         urb = (PURB)wdfRequestParams.Parameters.Others.Arg1;
         transferBuffer = urb->UrbBulkOrInterruptTransfer.TransferBuffer;
         transferBufferLength = urb->UrbBulkOrInterruptTransfer.TransferBufferLength;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 

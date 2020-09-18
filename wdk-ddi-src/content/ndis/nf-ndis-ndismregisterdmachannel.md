@@ -85,13 +85,9 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
      as follows: 
      
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _NDIS_DMA_DESCRIPTION {
+
+```
+typedef struct _NDIS_DMA_DESCRIPTION {
     BOOLEAN DemandMode;
     BOOLEAN AutoInitialize;
     BOOLEAN DmaChannelSpecified;
@@ -99,10 +95,9 @@ A pointer to an NDIS_DMA_DESCRIPTION structure filled in by the caller. This str
     DMA_SPEED DmaSpeed;
     ULONG DmaPort;
     ULONG DmaChannel;
-} NDIS_DMA_DESCRIPTION, *PNDIS_DMA_DESCRIPTION;</pre>
-</td>
-</tr>
-</table></span></div>
+} NDIS_DMA_DESCRIPTION, *PNDIS_DMA_DESCRIPTION;
+```
+
 The driver should initialize this structure with zeros before filling in the following members:
 
 

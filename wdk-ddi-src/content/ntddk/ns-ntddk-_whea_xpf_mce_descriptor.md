@@ -70,23 +70,18 @@ The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/n
 
 An XPF_MCE_FLAGS union that indicates which of the members of the WHEA_XPF_MCE_DESCRIPTOR structure can be written to by the operating system. The XPF_MCE_FLAGS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _XPF_MCE_FLAGS {
+
+```
+typedef union _XPF_MCE_FLAGS {
   struct {
     UCHAR  MCG_CapabilityRW:1;
     UCHAR  MCG_GlobalControlRW:1;
     UCHAR  Reserved:30;
   };
   UCHAR  AsULONG;
-} XPF_MCE_FLAGS, *PXPF_MCE_FLAGS;</pre>
-</td>
-</tr>
-</table></span></div>
+} XPF_MCE_FLAGS, *PXPF_MCE_FLAGS;
+```
+
 
 
 

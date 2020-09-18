@@ -114,13 +114,9 @@ For more information about the <b>RetrieveSymbolicLink</b> method, see <a href="
 
 The following code example shows how a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackremoteinterfacenotification-onremoteinterfacearrival">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function can determine the length of device interface's symbolic link name, allocate a buffer for the name, and then retrieve the name.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void 
+
+```
+void 
 STDMETHODCALLTYPE
 CMyDevice::OnRemoteInterfaceArrival(
     __in IWDFRemoteInterfaceInitialize  *FxRemoteInterfaceInit
@@ -142,10 +138,9 @@ CMyDevice::OnRemoteInterfaceArrival(
 ...
 Error:
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

@@ -60,7 +60,7 @@ Caller-supplied size, in bytes, of the structure pointed to by <i>pded</i>.
 
 ### -param pded
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure.
 
 ## -returns
 
@@ -105,7 +105,7 @@ Like the <b>DrvEnableDriver</b> function, the <code>IPrintOemUni::EnableDriver</
 
 <div class="alert"><b>Note</b>     If you implement <code>IPrintOemUni::EnableDriver</code>, you must also implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disabledriver">IPrintOemUni::DisableDriver</a>. Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in <code>IPrintOemUni::EnableDriver</code>, but not deallocated in <b>IPrintOemUni::DisableDriver</b>, a memory leak can occur.</div>
 <div> </div>
-The method should fill the supplied <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure and allocate an array of <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_drvfn">DRVFN</a> structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
+The method should fill the supplied <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-drvenabledata">DRVENABLEDATA</a> structure and allocate an array of <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-drvfn">DRVFN</a> structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
 
 A rendering plug-in for Unidrv can hook out a graphics DDI function only if the Unidrv driver defines the function. The following graphics DDI functions are defined in Unidrv and/or Pscript5 and can therefore be hooked out:
 
@@ -146,7 +146,7 @@ Customized hooking functions have the same input and output parameters as the eq
 
 <ul>
 <li>
-As the contents of the <b>dhpdev</b> member of a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure for the destination surface.
+As the contents of the <b>dhpdev</b> member of a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure for the destination surface.
 
 For the equivalent customized hooking function, the destination SURFOBJ structure's <b>dhpdev</b> member points to a DEVOBJ structure, and must be cast to type PDEVOBJ when referenced. An example graphics DDI function is <b>DrvBitBlt</b>.
 
@@ -158,7 +158,7 @@ The equivalent customized hooking function must cast this input parameter to typ
 
 </li>
 </ul>
-Note that while a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> includes the addresses of its <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdisablepdev">DrvDisablePDEV</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvresetpdev">DrvResetPDEV</a> functions in the DRVENABLEDATA structure, a rendering plug-in explicitly exports <b>EnablePDEV</b>, <b>DisablePDEV</b>, and <b>ResetPDEV</b> as methods of the <b>IPrintOemUni</b> interface and does not place their addresses in the DRVENABLEDATA structure.
+Note that while a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> includes the addresses of its <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>, <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvdisablepdev">DrvDisablePDEV</a>, and <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvresetpdev">DrvResetPDEV</a> functions in the DRVENABLEDATA structure, a rendering plug-in explicitly exports <b>EnablePDEV</b>, <b>DisablePDEV</b>, and <b>ResetPDEV</b> as methods of the <b>IPrintOemUni</b> interface and does not place their addresses in the DRVENABLEDATA structure.
 
 If <code>IPrintOemUni::EnableDriver</code> methods are exported by multiple rendering plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 

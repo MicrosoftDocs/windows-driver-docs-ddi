@@ -72,7 +72,7 @@ Reserved for system use. Callout drivers should ignore this member.
 ### -field discardMetadata
 
 An 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a> structure
+     <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a> structure
      that describes the reason why the data was discarded. This member contains valid data only if the
      FWPS_METADATA_FIELD_DISCARD_REASON flag is set in the 
      <b>currentMetadataValues</b> member.
@@ -193,7 +193,7 @@ The identifier of the routing compartment in which the packet either was receive
 ### -field fragmentMetadata
 
 An 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
+     <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
      FWPS_INBOUND_FRAGMENT_METADATA0</a> structure that describes the fragment data for a received packet
      fragment. This member contains valid data only if the FWPS_METADATA_FIELD_FRAGMENT_DATA flag is set in
      the 
@@ -231,7 +231,7 @@ An optional socket control data object. This member contains valid data only if 
      FWPS_METADATA_FIELD_TRANSPORT_CONTROL_DATA flag is set in the 
      <b>currentMetadataValues</b> member. For information about the WSACMSGHDR type,
      see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
+     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
 
 ### -field controlDataLength
 
@@ -553,16 +553,11 @@ The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structur
 A callout driver can use the following macro to test if a specific metadata value is present in an
     FWPS_INCOMING_METADATA_VALUES0 structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FWPS_IS_METADATA_FIELD_PRESENT(metadataValues, metadataField)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+FWPS_IS_METADATA_FIELD_PRESENT(metadataValues, metadataField)
+```
+
 
 
 If the FWPS_METADATA_FIELD_PACKET_DIRECTION metadata value is present in an
@@ -586,15 +581,15 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
+<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
    FWPS_INBOUND_FRAGMENT_METADATA0</a>
 
 

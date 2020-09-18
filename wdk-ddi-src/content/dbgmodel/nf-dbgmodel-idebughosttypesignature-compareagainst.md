@@ -52,12 +52,15 @@ The CompareAgainst method compares the type signature to another type signature 
 
 Signature 1: 
 
-    std::pair<*, int> 
-
+```
+std::pair<*, int> 
+```
 
 Signature 2:   
 
-    std::pair<int, *>
+```
+std::pair<int, *>
+```
 
 Because the type instance std::pair<int, int> matches either one equally well (both have one concrete and one wildcard match).
 
@@ -65,11 +68,15 @@ Because the type instance std::pair<int, int> matches either one equally well (b
 
 Signature 1: 
 
-    std::pair<*, int> 
+```
+std::pair<*, int> 
+```
 
 Signature 2: 
 
-    std::pair<int, int> 
+```
+std::pair<int, int> 
+```
 
 Because it has a wildcard (the \*) where the second has a concrete type (int).
 
@@ -77,11 +84,15 @@ Because it has a wildcard (the \*) where the second has a concrete type (int).
 
 Signature 1:  
 
-    std::pair<int, int> 
+```
+std::pair<int, int> 
+```
 
 Signature 2:  
 
-    std::pair<*, int> 
+```
+std::pair<*, int> 
+```
 
 Because it has a concrete type (int) where the second has a wildcard (the \*). 
 

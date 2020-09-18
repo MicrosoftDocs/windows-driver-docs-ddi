@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The Flattening Portal Bridge (FPB) Capabilities register. See section 7.y.2. in [Flattening Portal Bridge (FPB) specification](https://pcisig.com/sites/default/files/specification_documents/ECN_FPB_9_Feb_2017.pdf).
+The Flattening Portal Bridge (FPB) Capabilities register. See section 7.y.2. in [Flattening Portal Bridge (FPB) specification](https://pcisig.com).
 
 ## -struct-fields
 

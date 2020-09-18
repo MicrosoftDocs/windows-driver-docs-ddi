@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The SCSISCAN_CMD structure is used as a parameter to [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_CMD](https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd).
+The SCSISCAN_CMD structure is used as a parameter to [DeviceIoControl](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_CMD](https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd).
 
 ## -struct-fields
 
@@ -84,7 +84,7 @@ Reserved. Do not use.
 
 ### -field TransferLength
 
-Length, in bytes, of the buffer to be transferred. This should match the value specified for the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function's *nOutBufferSize* parameter.
+Length, in bytes, of the buffer to be transferred. This should match the value specified for the [DeviceIoControl](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function's *nOutBufferSize* parameter.
 
 ### -field Cdb
 

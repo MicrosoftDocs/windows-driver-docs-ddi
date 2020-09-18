@@ -66,7 +66,7 @@ The
 
 [in]
 [in] A pointer to a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure that contains the IP address
+     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure that contains the IP address
      and port number of the socket.
 
 ### -param SockAddrLength 
@@ -261,7 +261,7 @@ The process to which the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 

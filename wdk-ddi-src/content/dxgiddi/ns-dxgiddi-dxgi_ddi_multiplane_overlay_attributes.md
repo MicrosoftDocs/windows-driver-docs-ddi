@@ -56,15 +56,15 @@ Specifies a flip operation as one of the applicable values in the <a href="https
 
 ### -field SrcRect
 
-Specifies the source rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the source resource.
+Specifies the source rectangle, of type <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>, relative to the source resource.
 
 ### -field DstRect
 
-Specifies the destination rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the monitor resolution.
+Specifies the destination rectangle, of type <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>, relative to the monitor resolution.
 
 ### -field ClipRect
 
-Specifies any additional clipping, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the <b>DstRect</b> rectangle, after the data has been stretched according to the values of <b>SrcRect</b> and <b>DstRect</b>.
+Specifies any additional clipping, of type <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>, relative to the <b>DstRect</b> rectangle, after the data has been stretched according to the values of <b>SrcRect</b> and <b>DstRect</b>.
 
 The driver and hardware can use the <b>ClipRect</b> member to apply a common stretch factor as the clipping changes when an app occludes part of the <b>DstRect</b> destination rectangle.
 
@@ -82,7 +82,7 @@ The number of dirty rectangles specified for the overlay plane. If zero, the ent
 
 ### -field pDirtyRects
 
-A pointer to an array of dirty rectangles (<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>s), relative to the source rectangle <b>SrcRect</b>, that indicate the portion of the overlay plane that has changed.
+A pointer to an array of dirty rectangles (<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>s), relative to the source rectangle <b>SrcRect</b>, that indicate the portion of the overlay plane that has changed.
 
 The driver can use this member to perform optimizations, though it's not required to use the dirty rectangle info. However, the driver should never fail a function call based on the provided dirty rectangles.
 
@@ -165,5 +165,5 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
 

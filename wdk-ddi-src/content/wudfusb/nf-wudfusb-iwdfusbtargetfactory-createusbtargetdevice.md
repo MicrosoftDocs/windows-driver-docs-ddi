@@ -97,7 +97,7 @@ A pointer to a buffer that receives a pointer to the <a href="https://docs.micro
 </dl>
 </td>
 <td width="60%">
-This value corresponds to the error code that the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> function returned.
+This value corresponds to the error code that the <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> function returned.
 
 </td>
 </tr>
@@ -118,13 +118,9 @@ To use the newly created USB I/O target object in a device stack, the INF file t
 
 The following code example shows how to create and use a USB device object in an implementation of the UMDF driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware-onpreparehardware">IPnpCallbackHardware::OnPrepareHardware</a> method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```
+HRESULT
 CUmdfHidDevice::OnPrepareHardware(
     __in IWDFDevice* WdfDevice
     )
@@ -201,10 +197,9 @@ CUmdfHidDevice::OnPrepareHardware(
         hr = SetupCollections();
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 
@@ -224,5 +219,5 @@ CUmdfHidDevice::OnPrepareHardware(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
 

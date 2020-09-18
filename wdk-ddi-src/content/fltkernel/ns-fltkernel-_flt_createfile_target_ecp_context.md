@@ -97,13 +97,9 @@ If the caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 The following example routine demonstrates how a minifilter can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a> with <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> to handle a reparse to a different volume when required to find a file target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```
+NTSTATUS
 CrossVolumeCreate(
     _In_ PUNICODE_STRING FileName,
     _In_ PFLT_FILTER Filter,
@@ -433,10 +429,9 @@ CrossVolumeCreateExit:
 
     return status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

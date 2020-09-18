@@ -72,16 +72,11 @@ For more information about <b>Stop</b>, and how to use remote I/O targets in UMD
 
 The following code example stops a remote I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>RemoteTarget->Stop();</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+RemoteTarget->Stop();
+```
+
 
 ## -see-also
 

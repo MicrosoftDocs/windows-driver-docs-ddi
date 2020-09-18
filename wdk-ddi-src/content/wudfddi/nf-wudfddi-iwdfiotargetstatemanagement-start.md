@@ -92,13 +92,9 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example first shows how a driver can obtain the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiotargetstatemanagement">IWDFIoTargetStateManagement</a> interface for a USB pipe object. The code example then  shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallback-ond0entry">IPnpCallback::OnD0Entry</a> callback function can call <b>Start</b>, if the driver uses a continuous reader for the USB pipe. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
     IWDFIoTargetStateManagement * m_pIoTargetInterruptPipeStateMgmt = NULL;
 
     IWDFUsbTargetFactory *  pIUsbTargetFactory = NULL;
@@ -146,10 +142,9 @@ CMyDevice::OnD0Entry(
     m_pIoTargetInterruptPipeStateMgmt->Start();
 ...
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 

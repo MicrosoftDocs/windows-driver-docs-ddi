@@ -101,13 +101,9 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 The following code example illustrates the steps that are listed in the preceding Remarks section.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+
+```
+NTSTATUS  status;
 ULONG  modulesSize;
 AUX_MODULE_EXTENDED_INFO*  modules;
 ULONG  numberOfModules;
@@ -158,10 +154,9 @@ status = AuxKlibQueryModuleInformation(
                                        );
 if (!NT_SUCCESS(status)) {
     break;
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 
 ## -see-also
 

@@ -160,13 +160,9 @@ A tape miniclass driver's <b>DriverEntry </b>routine calls <a href="https://docs
 
 The names of the tape miniclass driver routines indicated in the member descriptions of this structure are just placeholder names. The prototype for these routines is declared in <i>newtape.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 TAPE_STATUS
 (*TAPE_PROCESS_COMMAND_ROUTINE)(
   IN OUT PVOID  MinitapeExtension,
@@ -176,10 +172,9 @@ TAPE_STATUS
   IN ULONG  CallNumber,
   IN TAPE_STATUS  StatusOfLastCommand,
   IN OUT PULONG  RetryFlags
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 The meaning of this prototype's parameters are different for each miniclass driver routine. For detailed information about how these parameters are used see the descriptions for each individual miniclass driver routine.
 
 ## -see-also

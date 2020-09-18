@@ -79,7 +79,7 @@ The <b>pfnGetMonitorFrequencyRangeSet</b> function returns one of the following 
 |STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER|The handle supplied in hAdapter was invalid.|
 |STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET|The identifier supplied in VideoPresentTargetId was invalid.|
 |STATUS_GRAPHICS_MONITOR_NOT_CONNECTED|There is no monitor connected to the video present target identified by VideoPresentTargetId.|
- 
+
 
 This function might also return other error codes that are defined in <i>Ntstatus.h</i>.
 

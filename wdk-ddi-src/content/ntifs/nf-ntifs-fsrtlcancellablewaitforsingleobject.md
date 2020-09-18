@@ -160,13 +160,9 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 The following is an example of how to use <b>FsRtlCancellableWaitForSingleObject </b>in support of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/design/dn613954(v=vs.85)">I/O Completion/Cancellation Guidelines</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```
+//
 // sample calling routine
 //
 NTSTATUS ProcessIrpFromUserMode( PIRP pOriginalIrp, ... )
@@ -255,10 +251,9 @@ FunctionCompletionRoutine(
  // Dispatch routine will deal with IRP.
  //
  return STATUS_MORE_PROCESSING_REQUIRED;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 <b>FsRtlCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the optional <i>Irp</i> parameter points to a valid IRP. If the <i>Irp</i> parameter is not used, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsrtlenterfilesystem">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 <b>FsRtlCancellableWaitForSingleObject</b> will assert on debug builds if the IRQL is greater or equal to APC_LEVEL and the optional <i>Irp</i> parameter points to a valid IRP.

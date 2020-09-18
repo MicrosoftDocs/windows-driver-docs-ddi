@@ -73,13 +73,9 @@ After UCX calls this function, the client driver fails subsequent I/O requests u
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 Endpoint_UcxEvtEndpointPurge(
     UCXCONTROLLER   UcxController,
     UCXENDPOINT     UcxEndpoint
@@ -89,10 +85,9 @@ Endpoint_UcxEvtEndpointPurge(
                             Endpoint_WdfEvtPurgeComplete,
                             UcxEndpoint);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 

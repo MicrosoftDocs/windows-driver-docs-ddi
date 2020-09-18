@@ -78,7 +78,7 @@ The maximum number of endpoint property entries to return. The actual number of 
 
 [out]
 A pointer to an array of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0_">FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure pointers. Each structure contains the properties of a
+     <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_properties0_">FWPS_ALE_ENDPOINT_PROPERTIES0</a> structure pointers. Each structure contains the properties of a
      single endpoint. The array contains as many elements as the value returned in 
      <i>numEntriesReturned</i>.
 
