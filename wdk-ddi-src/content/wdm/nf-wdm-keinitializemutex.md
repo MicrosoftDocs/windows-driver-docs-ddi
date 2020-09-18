@@ -68,7 +68,7 @@ The mutex object is initialized with an initial state of signaled.
 
 Storage for a mutex object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller.
 
-For more information about mutex objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mutex-objects">Mutex Objects</a>.
+For more information about mutex objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-mutex-objects">Mutex Objects</a>.
 
 ## -see-also
 
