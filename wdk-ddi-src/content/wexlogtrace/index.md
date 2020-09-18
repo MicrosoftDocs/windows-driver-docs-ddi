@@ -19,7 +19,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by dtf. For more information, see:
+This header is used by TAEF. For more information, see:
 
-- [Windows Device Testing Framework (WDTF)](../_dtf/index.md)
+- [Test Authoring and Execution Framework (TAEF)](../_taef/index.md)
 
