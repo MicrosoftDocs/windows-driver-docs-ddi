@@ -2,7 +2,7 @@
 UID: TP:devtest
 title: Driver test tools
 ms.assetid: df82015f-ea9d-3150-8041-fb2c5ed17afc
-ms.date: 05/09/2018
+ms.date: 09/18/2020
 keywords: ["Driver test tools"]
 ms.keywords: 
 ms.prod: windows-hardware
@@ -18,7 +18,6 @@ Overview of the Driver test tools technology.
 
 To develop Driver test tools, you need these headers:
 
- * [lkmdtel.h](../lkmdtel/index.md)
  * [wpprecorder.h](../wpprecorder/index.md)
 
 For the programming guide, see [Driver test tools](https://docs.microsoft.com/windows-hardware/drivers/devtest).

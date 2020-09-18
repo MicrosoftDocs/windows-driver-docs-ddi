@@ -77,9 +77,7 @@ The method was successful.
 </tr>
 </table>
  
-
-    Managed debugging support relies on debugging
-    functionality provided by the CLR.
+Managed debugging support relies on debugging functionality provided by the CLR.
 
 ## -see-also
 
