@@ -54,7 +54,7 @@ The <b>IWDTFCONFIG2</b> interface inherits from the <a href="https://docs.micros
 
 <b>IWDTFCONFIG2</b> also has these types of members:
 <ul>
-<li><>Methods</a></li>
+<li>Methods</li>
 </ul>
 
 ## -remarks
