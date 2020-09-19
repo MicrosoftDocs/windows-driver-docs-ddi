@@ -10,9 +10,7 @@
     "wdtfinterfaces.h",
     "wdtfpnpaction.h",
     "wdtfsimulatedbatterysystemaction.h",
-    "wdtfsystemaction.h",
-    "wexlogtrace.h",
-    "wextestclass.h",
+    "wdtfsystemaction.h"
   ],
   "displayName": "Windows Device Testing Framework (WDTF)"
 }

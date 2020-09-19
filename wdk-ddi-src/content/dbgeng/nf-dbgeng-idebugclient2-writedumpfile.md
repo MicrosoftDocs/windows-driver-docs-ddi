@@ -110,26 +110,22 @@ Creates a Small Memory Dump (kernel-mode) or Minidump (user-mode).
 <tr>
 <td>
 <b>DEBUG_DUMP_DEFAULT</b>
-
 </td>
 <td>
 Creates a Full User-Mode Dump (user-mode) or Kernel Summary Dump (kernel-mode).
-
 </td>
 </tr>
 <tr>
 <td>
 <b>DEBUG_DUMP_FULL</b>
-
 </td>
 <td>
 
-         Creates a Complete Memory Dump (kernel-mode only).
+Creates a Complete Memory Dump (kernel-mode only).
 
 </td>
 </tr>
 </table>
- 
 
 To specify the formatting of the file and--for user-mode minidumps--the information to include in the file, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-writedumpfile2">WriteDumpFile2</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-writedumpfilewide">WriteDumpFileWide</a>.
 
@@ -146,7 +142,6 @@ Moreover, the following aliases are available for kernel-mode debugging.
 <td>DEBUG_KERNEL_SMALL_DUMP</td>
 <td>
 DEBUG_DUMP_SMALL
-
 </td>
 </tr>
 <tr>
@@ -160,11 +155,9 @@ DEBUG_DUMP_DEFAULT
 <td>DEBUG_KERNEL_FULL_DUMP</td>
 <td>
 DEBUG_DUMP_FULL
-
 </td>
 </tr>
 </table>
- 
 
 Additionally, the following aliases are available for user-mode debugging.
 
@@ -177,18 +170,15 @@ Additionally, the following aliases are available for user-mode debugging.
 <td>DEBUG_USER_WINDOWS_SMALL_DUMP</td>
 <td>
 DEBUG_DUMP_SMALL
-
 </td>
 </tr>
 <tr>
 <td>DEBUG_USER_WINDOWS_DUMP</td>
 <td>
 DEBUG_DUMP_DEFAULT
-
 </td>
 </tr>
 </table>
- 
 
 For a description of kernel-mode dump files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/varieties-of-kernel-mode-dump-files">Varieties of Kernel-Mode Dump Files</a>.  For a description of user-mode dump files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/user-mode-dump-files">Varieties of User-Mode Dump Files</a>.
 
@@ -196,31 +186,16 @@ For a description of kernel-mode dump files, see <a href="https://docs.microsoft
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-dump--create-dump-file-">.dump (Create Dump File)</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-writedumpfile2">WriteDumpFile2</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-writedumpfilewide">WriteDumpFileWide</a>
-
