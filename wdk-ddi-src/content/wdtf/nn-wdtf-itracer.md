@@ -50,9 +50,9 @@ The <b>ITracer</b> interface enables individual instances of every WDTF interfac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITracer</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITracer</b> also has these types of members:
+The <b>ITracer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITracer</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li>Methods</li>
 </ul>
 
 ## -remarks

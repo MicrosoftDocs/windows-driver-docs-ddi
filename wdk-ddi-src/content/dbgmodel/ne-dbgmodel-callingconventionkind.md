@@ -41,11 +41,11 @@ Defines the kind of calling convention of a function type.
 
 ## -enum-fields
 
-### -field CallingConventionUnknown 
+### -field CallingConventionUnknown
 
 The calling convention is not known
 
-### -field CallingConventionCDecl 
+### -field CallingConventionCDecl
 
 The calling convention is __cdecl
 

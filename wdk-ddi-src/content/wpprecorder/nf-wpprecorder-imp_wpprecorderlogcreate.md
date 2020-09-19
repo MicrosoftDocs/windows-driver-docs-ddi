@@ -43,7 +43,6 @@ api_name:
 
 # imp_WppRecorderLogCreate function
 
-
 ## -description
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a> method creates a buffer to contain the recorder log.
@@ -76,6 +75,4 @@ If a successful NTSTATUS is returned, the driver can use the <i>RecorderLog</i> 
 
 If a successful NTSTATUS is not returned, the driver must use a <b>RECORDER_LOG</b> handle to the default log. Also, the driver must not attempt to log to or delete the handle pointed to by <i>RecorderLog</i>.
 
-<div class="alert"><b>Note</b>  This method allocates memory for the log buffer from the non-paged pool.</div>
-<div> </div>
-
+<b>Note</b>  This method allocates memory for the log buffer from the non-paged pool.

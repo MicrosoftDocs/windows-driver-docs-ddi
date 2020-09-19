@@ -49,9 +49,11 @@ IComparableConcept interits from IUnknown.
 
 The return value passed in comparison result has the following meaning:
 
-     < 0 : contextObject < otherObject
-     0 : contextObject == otherObject
-     > 0 : contextObject > otherObject
+```text
+< 0 : contextObject < otherObject
+0 : contextObject == otherObject
+> 0 : contextObject > otherObject
+```
 
 ## -see-also
 
