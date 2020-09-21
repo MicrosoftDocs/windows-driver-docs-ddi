@@ -35,7 +35,6 @@ A Windows Driver Model (WDM)-based USB client driver can call functions to commu
 * [usbfnbase.h](../usbfnbase/index.md)
 * [usbfnioctl.h](../usbfnioctl/index.md)
 * [usbioctl.h](../usbioctl/index.md)
-* [usbiodef.h](../usbiodef/index.md)
 * [usbspec.h](../usbspec/index.md)
 
 ## Deprecated functions, IOCTL requests for all USB drivers
@@ -115,10 +114,7 @@ For information about enabling a Windows system for USB dual-role support, see [
 
 ### Dual-role controller driver headers
 
-* [urscx.h](../urscx/index.md)
 * [ursdevice.h](../ursdevice/index.md)
-* [ursfuncenum.h](../ursfuncenum/index.md)
-* [ursglobals.h](../ursglobals/index.md)
 * [urstypes.h](../urstypes/index.md)
 
 ## Emulated host controller driver reference
@@ -136,8 +132,6 @@ The driver pair loads as the FDO in the host controller device stack. The UDE cl
 
 ### Emulated host controller headers
 
-* [udecxfuncenum.h](../udecxfuncenum/index.md)
-* [udecxtypes.h](../udecxtypes/index.md)
 * [udecxurb.h](../udecxurb/index.md)
 * [udecxusbdevice.h](../udecxusbdevice/index.md)
 * [udecxusbendpoint.h](../udecxusbendpoint/index.md)
@@ -193,8 +187,6 @@ If you are developing an xHCI host controller that is not compliant with the spe
 * [ucxclass.h](../ucxclass/index.md)
 * [ucxcontroller.h](../ucxcontroller/index.md)
 * [ucxendpoint.h](../ucxendpoint/index.md)
-* [ucxfuncenum.h](../ucxfuncenum/index.md)
-* [ucxglobals.h](../ucxglobals/index.md)
 * [ucxroothub.h](../ucxroothub/index.md)
 * [ucxsstreams.h](../ucxsstreams/index.md)
 * [ucxusbdevice.h](../ucxusbdevice/index.md)
@@ -205,7 +197,7 @@ Windows 10 introduces support for the new USB connector: USB Type-C. You can wri
 
 |Scenario|Headers|Programming Guide|
 |---|---|---|
-|**If your USB Type-C hardware has the capability of handling the power delivery (PD) state machine.**|<p>[ucmcx.h](../ucmcx/index.md)</p><p>[ucmfuncenum.h](../ucmfuncenum/index.md)</p><p>[ucmglobals.h](../ucmglobals/index.md)</p><p>[ucmmanager.h](../ucmmanager/index.md)</p>|[Write a USB Type-C connector driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system)|
+|**If your USB Type-C hardware has the capability of handling the power delivery (PD) state machine.**|<p>[ucmmanager.h](../ucmmanager/index.md)</p>|[Write a USB Type-C connector driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system)|
 |**If your driver wants to participate in the policy decisions for USB Type-C connectors.**|[Usbpmapi.h](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbpmapi/)|[Write a USB Type-C Policy Manager client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/policy-manager-client)|
-|**If your hardware does not support PD.**| <p>[ucmtcpcicx.h](../ucmtcpcicx/index.md)</p> <p>[ucmtcpcidevice.h](../ucmtcpcidevice/index.md)</p> <p>[ucmtcpcifuncenum.h](../ucmtcpcifuncenum/index.md)</p> <p>[ucmtcpciglobals.h](../ucmtcpciglobals/index.md)</p> <p>[ucmtcpciportcontroller.h](../ucmtcpciportcontroller/index.md)</p> <p>[ucmtcpciportcontrollerrequests.h](../ucmtcpciportcontrollerrequests/index.md)</p> <p>[ucmtcpcispec.h](../ucmtcpcispec/index.md)</p> <p>[ucmtypes.h](../ucmtypes/index.md)</p>|[Write a USB Type-C port controller driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver).
+|**If your hardware does not support PD.**|  <p>[ucmtcpcidevice.h](../ucmtcpcidevice/index.md)</p>  <p>[ucmtcpciglobals.h](../ucmtcpciglobals/index.md)</p> <p>[ucmtcpciportcontroller.h](../ucmtcpciportcontroller/index.md)</p> <p>[ucmtcpciportcontrollerrequests.h](../ucmtcpciportcontrollerrequests/index.md)</p> <p>[ucmtypes.h](../ucmtypes/index.md)</p>|[Write a USB Type-C port controller driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver).
 **If your embedded controller is connected over non-ACPI transport**|</p>[Ucmucsicx.h](../ucmucsicx/index.md)</p></p>[Ucmucsidevice.h](../ucmucsidevice/index.md)</p></p>[Ucmucsifuncenum.h](../ucmucsifuncenum/index.md)</p></p>[Ucmucsiglobals.h](../ucmucsiglobals/index.md)</p></p>[Ucmucsippm.h](../ucmucsippm/index.md)</p></p>[Ucmucsippmrequests.h](../ucmucsippmrequests/index.md)</p></p>[Ucmucsispec.h](../ucmucsispec/index.md)</p>|[Write a UCSI client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-ucsi-driver)|

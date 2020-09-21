@@ -18,8 +18,6 @@ Overview of the Smartcard device drivers technology.
 
 To develop Smartcard device drivers, you need these headers:
 
- * [scutil.h](../scutil/index.md)
- * [smcdbg.h](../smcdbg/index.md)
  * [smclib.h](../smclib/index.md)
  * [smcnt.h](../smcnt/index.md)
 
