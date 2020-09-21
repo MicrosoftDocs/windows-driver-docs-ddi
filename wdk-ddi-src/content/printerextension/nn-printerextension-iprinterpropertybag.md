@@ -5,7 +5,7 @@ description: Provides strongly-typed get and set methods.
 old-location: print\iprinterpropertybag_interface.htm
 tech.root: print
 ms.assetid: 421397FF-4956-4052-B63D-32F8E79A22D0
-ms.date: 04/20/2018
+ms.date: 09/21/2020
 keywords: ["IPrinterPropertyBag interface"]
 ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], IPrinterPropertyBag interface [Print Devices],described, print.iprinterpropertybag_interface, printerextension/IPrinterPropertyBag
 req.header: printerextension.h
@@ -43,7 +43,6 @@ api_name:
 
 # IPrinterPropertyBag interface
 
-
 ## -description
 
 Provides strongly-typed **get** and **set** methods.
@@ -60,7 +59,7 @@ The **IPrinterPropertyBag** interface is used by all the printer property bags, 
 
 ## -see-also
 
-[IDispatch](https://docs.microsoft.com/previous-versions/windows/win32/api/oaidl/nn-oaidl-idispatch)
+[IDispatch](https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-idispatch)
 
 [IPrinterExtensionContext::DriverProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioncontext-get_driverproperties)
 
@@ -71,4 +70,3 @@ The **IPrinterPropertyBag** interface is used by all the printer property bags, 
 [IPrinterScriptablePropertyBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
 
 [V4 Printer Driver Property Bags](https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags)
-
