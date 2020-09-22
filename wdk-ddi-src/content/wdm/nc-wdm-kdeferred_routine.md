@@ -114,7 +114,7 @@ For more information about <i>CustomDpc</i> routines, see <a href="https://docs.
 
 <b>About implementing <i>CustomThreadedDpc</i>:  </b>A driver registers a <i>CustomThreadedDpc</i> for a DPC object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc">KeInitializeThreadedDpc</a>. To actually add the DPC to the DPC queue so that the <i>CustomThreadedDpc</i> routine will be executed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>.
 
-For more information about using <i>CustomThreadedDpc</i> routines, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs">Introduction to Threaded DPCs</a>.
+For more information about using <i>CustomThreadedDpc</i> routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs">Introduction to Threaded DPCs</a>.
 
 A <i>CustomThreadedDpc</i> routine can run at IRQL = DISPATCH_LEVEL, or it can run at IRQL = PASSIVE_LEVEL in a real-time thread.
 
