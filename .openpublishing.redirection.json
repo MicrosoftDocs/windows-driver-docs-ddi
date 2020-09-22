@@ -986,11 +986,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "wdk-ddi-src/content/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet.md",
-      "redirect_URL": "https://docs.microsoft.com/windows/hardware/wdm/nf-wdm-kequerysystemtime-r1",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "wdk-ddi-src/content/wdm/nf-wdm-kequerysystemtime~r1.md",
       "redirect_URL": "https://docs.microsoft.com/windows/hardware/wdm/nf-wdm-kequerysystemtime-r1",
       "redirect_document_id": false

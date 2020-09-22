@@ -1,11 +1,9 @@
 ---
 UID: NF:fltkernel.FltQueryDirectoryFileEx
 title: FltQueryDirectoryFileEx function
-author: windows-driver-content
 description: FltQueryDirectoryFileEx returns various kinds of information about files in the directory specified by a given file object.
 tech.root: ifsk
 ms.assetid: 5f07dff9-004f-415a-81fb-5d32e44fbc48
-ms.author: windowsdriverdev
 ms.date: 03/08/2019
 keywords: ["FltQueryDirectoryFileEx function"]
 ms.keywords: FltQueryDirectoryFileEx, FltQueryDirectoryFile
@@ -78,7 +76,7 @@ Type of information to be returned about files in the directory. One of the valu
 | **FileFullDirectoryInformation** | Return a [FILE_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information#requirements) structure for each file. |
 | **FileIdBothDirectoryInformation** | Return a [FILE_ID_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information#requirements) structure for each file. |
 | **FileIdExtdBothDirectoryInformation** | Return a [FILE_ID_EXTD_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information#requirements) structure for each file. |
-| **FileIdExtdDirectoryInformation** | Return a [FILE_ID_EXTD_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information#requirements) structure for each file. |
+| **FileIdExtdDirectoryInformation** | Return a [FILE_ID_EXTD_DIR_INFO](https://docs.microsoft.com/windows/win32/api/winbase/ns-winbase-file_id_extd_dir_info) structure for each file. |
 | **FileIdFullDirectoryInformation** | Return a [FILE_ID_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information#requirements) structure for each file. |
 | **FileIdGlobalTxDirectoryInformation** | Return a [FILE_ID_GLOBAL_TX_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information#requirements) structure for each file. |
 | **FileNamesInformation** | Return a [FILE_NAMES_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information#requirements) structure for each file. |
@@ -100,7 +98,7 @@ One or more of the flags contained in SL_QUERY_DIRECTORY_MASK. Possible values a
 
 ### -param FileName
 
-Pointer to a caller-allocated [UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string) structure with the Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**. If *fileName* is **NULL**, all files are included.
+Pointer to a caller-allocated [UNICODE_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure with the Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**. If *fileName* is **NULL**, all files are included.
 
 If *FileName* is not **NULL**, only files whose names match the *FileName* string are included in the directory scan. If the *QueryFlags* **ResetScan** flag is set, the value of *FileName* is ignored.
 
@@ -152,7 +150,7 @@ Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL a
 
 [FILE_ID_EXTD_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information)
 
-[FILE_ID_EXTD_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information)
+[FILE_ID_EXTD_DIR_INFO](https://docs.microsoft.com/windows/win32/api/winbase/ns-winbase-file_id_extd_dir_info)
 
 [FILE_ID_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information)
 
