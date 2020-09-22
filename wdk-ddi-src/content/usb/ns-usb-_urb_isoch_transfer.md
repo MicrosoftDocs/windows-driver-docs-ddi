@@ -244,7 +244,7 @@ Treat other members that are part of this structure but not described here as op
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">How to Transfer Data to USB Isochronous Endpoints</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/transfer-data-to-isochronous-endpoints">How to Transfer Data to USB Isochronous Endpoints</a>
 
 
 
@@ -252,7 +252,7 @@ Treat other members that are part of this structure but not described here as op
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/#structures">USB Structures</a>
 
 
 
