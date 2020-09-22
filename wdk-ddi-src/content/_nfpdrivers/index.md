@@ -19,8 +19,6 @@ Overview of the Near field communications (NFC) technology.
 To develop Near field communications (NFC), you need these headers:
 
  * [nfccx.h](../nfccx/index.md)
- * [nfccxbugcodes.h](../nfccxbugcodes/index.md)
- * [nfccxfuncenum.h](../nfccxfuncenum/index.md)
  * [nfcradiodev.h](../nfcradiodev/index.md)
  * [nfcsedev.h](../nfcsedev/index.md)
  * [nfpdev.h](../nfpdev/index.md)
