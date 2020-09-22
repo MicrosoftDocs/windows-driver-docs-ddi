@@ -5,7 +5,7 @@ description: The CWiauPropertyList::SetCurrentValue(INT,FLOAT) method sets the c
 old-location: image\cwiaupropertylist_setcurrentvalue_float_.htm
 tech.root: image
 ms.assetid: dfcbe65b-7da1-4427-a58f-cbec4ce355bf
-ms.date: 09/07/2018
+ms.date: 09/21/2020
 keywords: ["CWiauPropertyList::SetCurrentValue(INT,FLOAT)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,FLOAT), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,FLOAT), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_float_, wiauFncs_871f53bf-7ad7-459e-9760-04c67a55f800.xml, wiautil/CWiauPropertyList::SetCurrentValue
 req.header: wiautil.h
@@ -42,8 +42,7 @@ api_name:
  - CWiauPropertyList.SetCurrentValue
 ---
 
-# CWiauPropertyList::SetCurrentValue(INT,FLOAT)
-
+# CWiauPropertyList::SetCurrentValue(INT,FLOAT) (wiautil.h)
 
 ## -description
 
@@ -64,4 +63,3 @@ Specifies the value that is written to the device property in the property list.
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
-
