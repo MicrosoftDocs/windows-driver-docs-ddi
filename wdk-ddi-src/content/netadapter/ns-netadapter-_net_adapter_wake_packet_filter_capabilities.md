@@ -1,7 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
 title: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure describes a net adapter's wake on LAN (WoL) capabilities for waking from a packet filter match.
 tech.root: netvista
 ms.assetid: 4c04cbbb-a926-4371-a717-bfe6bf0742c4

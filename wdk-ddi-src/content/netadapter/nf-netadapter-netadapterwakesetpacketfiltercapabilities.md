@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterWakeSetPacketFilterCapabilities
 title: NetAdapterWakeSetPacketFilterCapabilities function (netadapter.h)
-author: windows-driver-content
 description: The NetAdapterWakeSetPacketFilterCapabilities function sets a net adapter's packet filter wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: dc2bb935-961f-4a34-a01f-a94cb43e9373
