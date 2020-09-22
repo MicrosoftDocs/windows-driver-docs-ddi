@@ -67,7 +67,7 @@ Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="
 
 ## -remarks
 
-For more information about threaded DPCs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/threaded-dpcs">Threaded DPCs</a>.
+For more information about threaded DPCs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs">Introduction to Threaded DPCs</a>.
 
 ## -see-also
 
