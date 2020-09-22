@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_EVENT
 title: STOR_EVENT
-author: windows-driver-content
 description: The STOR_EVENT structure describes an event object.
 tech.root: storage
 ms.assetid: e97bff93-6b37-4ecb-9b3a-9a0be475ae87

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeTriageDumpDataArray
 title: KeInitializeTriageDumpDataArray function
-author: windows-driver-content
 description: Initializes a triage dump data block array.
 tech.root: 
 ms.assetid: eb868410-a956-4de4-8efc-607c2892709f
@@ -68,7 +67,7 @@ This function returns NTSTATUS.
 
 ## -see-also
 
-[*KeAddTriageDumpDataArray***](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keaddtriagedumpdataarray)
+[**KeInitializeTriageDumpDataArray**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetriagedumpdataarray)
 
 [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine)
 
