@@ -50,8 +50,6 @@ product:
 
 Drivers should not call this wrapper function.
 
-After the driver's [*_WHEA_ERROR_SOURCE_READY_DEVICE_DRIVER*](nc-ntddk-_whea_error_source_ready_device_driver.md) callback function is called, the driver can report errors by calling [**WheaReportHwErrorDeviceDriver**](nf-ntddk-wheareporthwerrordevicedriver.md).
-
 ## -parameters
 
 ### -param ErrorPacket

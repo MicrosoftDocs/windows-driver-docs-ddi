@@ -1,11 +1,9 @@
----
+    ---
 UID: NS:wdm._PO_FX_DEVICE_V3
 title: PO_FX_DEVICE_V3
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: d3c6749b-2661-40a6-b4a7-937710bc36fe
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PO_FX_DEVICE_V3 structure"]
 ms.keywords: PO_FX_DEVICE_V3, PO_FX_DEVICE_V3, *PPO_FX_DEVICE_V3, *PPO_FX_DEVICE, PO_FX_DEVICE
@@ -118,7 +116,7 @@ This member is the first element in an array of one or more PO_FX_COMPONENT_V2 e
 
 ## -remarks
 
-To register a device with PoFx, a driver calls the [**PoFxRegisterDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice) routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.  To use PoFx but not DFx, register with PoFx using either [PO_FX_DEVICE_V2 structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-po_fx_device_v2) or [PO_FX_DEVICE_V3 structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-po_fx_device_v3).
+To register a device with PoFx, a driver calls the [**PoFxRegisterDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice) routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.  To use PoFx but not DFx, register with PoFx using either [PO_FX_DEVICE_V2 structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v2) or [PO_FX_DEVICE_V3 structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-po_fx_device_v3).
 
 Each element in the <b>Components</b> array describes the power state attributes of one component in the device. Each component in the device is identified by its <b>Components</b> array index. Routines such as  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxcompleteidlecondition">PoFxCompleteIdleCondition</a> use the array index of a component to identify the component.
 

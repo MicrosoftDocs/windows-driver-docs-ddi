@@ -152,8 +152,8 @@ The type of memory error that occurred. Possible values are:
 | WHEA_MEMERRTYPE_NOERROR           | No error occurred.                                                                                                                                                               |
 | WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](https://docs.microsoft.com/windows-hardware/drivers/) error.                                                                            |
 | WHEA_MEMERRTYPE_MULTIBITECC       | multibit ECC error.                                                                                                                                                              |
-| WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol <a href="https://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/">ECC</a> error.   |
-| WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol <a href="https://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/">ECC</a> error. |
+| WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol ChipKill ECC error.   |
+| WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol ChipKill ECC error. |
 | WHEA_MEMERRTYPE_MASTERABORT       | A master abort.                                                                                                                                                                  |
 | WHEA_MEMERRTYPE_TARGETABORT       | A target abort.                                                                                                                                                                  |
 | WHEA_MEMERRTYPE_PARITYERROR       | A parity error.                                                                                                                                                                  |
