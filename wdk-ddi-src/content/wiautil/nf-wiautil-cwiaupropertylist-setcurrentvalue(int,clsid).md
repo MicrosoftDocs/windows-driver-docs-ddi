@@ -5,7 +5,7 @@ description: The CWiauPropertyList::SetCurrentValue(INT,CLSID) method sets the c
 old-location: image\cwiaupropertylist_setcurrentvalue_clsid_.htm
 tech.root: image
 ms.assetid: c0283b46-c1a2-469b-8167-f5dc63719c16
-ms.date: 09/07/2018
+ms.date: 09/21/2020
 keywords: ["CWiauPropertyList::SetCurrentValue(INT,CLSID)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,CLSID), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT ,CLSID*), CWiauPropertyList::SetCurrentValue(INT,CLSID), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_clsid_, wiauFncs_3fb0d48f-8b37-4b0a-992f-97d5f5243aaa.xml, wiautil/CWiauPropertyList::SetCurrentValue
 req.header: wiautil.h
@@ -42,8 +42,7 @@ api_name:
  - CWiauPropertyList.SetCurrentValue
 ---
 
-# CWiauPropertyList::SetCurrentValue(INT,CLSID)
-
+# CWiauPropertyList::SetCurrentValue(INT,CLSID) (wiautil.h)
 
 ## -description
 
@@ -66,4 +65,3 @@ Pointer to a memory location containing the value that is written to the device 
 [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md)
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
-
