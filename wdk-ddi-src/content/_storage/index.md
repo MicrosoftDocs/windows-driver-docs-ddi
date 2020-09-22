@@ -20,7 +20,6 @@ To develop Storage, you need these headers:
 
  * [ata.h](../ata/index.md)
  * [classpnp.h](../classpnp/index.md)
- * [dsm.h](../dsm/index.md)
  * [ehstorbandmgmt.h](../ehstorbandmgmt/index.md)
  * [ehstorioctl.h](../ehstorioctl/index.md)
  * [hbapiwmi.h](../hbapiwmi/index.md)
@@ -54,8 +53,6 @@ To develop Storage, you need these headers:
  * [srb.h](../srb/index.md)
  * [storduid.h](../storduid/index.md)
  * [storport.h](../storport/index.md)
- * [storswtr.h](../storswtr/index.md)
- * [stortrce.h](../stortrce/index.md)
  * [ufs.h](../ufs/index.md)
 
 For the programming guide, see [Storage](https://docs.microsoft.com/windows-hardware/drivers/storage).
