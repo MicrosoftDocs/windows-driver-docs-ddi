@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt._Function_class_DXGK_
 title: _Function_class_DXGK_ macro
-author: windows-driver-content
 description: Allows drivers to use the updated annotations.
 tech.root: display
 ms.assetid: 11847fab-8295-47b6-b446-80a21fc743f2

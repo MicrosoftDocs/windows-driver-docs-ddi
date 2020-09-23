@@ -1,7 +1,6 @@
 ---
 UID: NE:storport._STOR_EVENT_TYPE
 title: STOR_EVENT_TYPE
-author: windows-driver-content
 description: The STOR_EVENT_TYPE enum identifies the type of event object initialized by a miniport.
 tech.root: storage
 ms.assetid: f9733b74-5773-4d29-b488-656064403e6a

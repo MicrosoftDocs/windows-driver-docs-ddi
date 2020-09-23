@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KMUTANT
 title: KMUTANT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 86af2b66-bf49-4ec4-8258-0093583b14f0

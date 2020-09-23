@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._DEBUG_DEVICE_DESCRIPTOR
 title: DEBUG_DEVICE_DESCRIPTOR
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: e2e442cb-2d4b-447f-9a83-1ae1a328a6c2

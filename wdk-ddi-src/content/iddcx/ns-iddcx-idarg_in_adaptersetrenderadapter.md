@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_ADAPTERSETRENDERADAPTER
 title: IDARG_IN_ADAPTERSETRENDERADAPTER
-author: windows-driver-content
 description: The LUID of the render adapter that the driver would like to be used to rendered the desktop image for the swapchains on this adapter.
 tech.root: display
 ms.assetid: 8d2d633e-ca83-4114-9a28-b194701bd9d9

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS
 title: DXGK_RESTOREMEMORYFORHOTUPDATEFLAGS
-author: windows-driver-content
 description: Flags used to restore memory for driver hot updates.
 tech.root: display
 ms.assetid: f4e845ef-276f-4c0c-862b-8571f1ed82d8

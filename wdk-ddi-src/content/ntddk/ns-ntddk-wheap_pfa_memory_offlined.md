@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_PFA_MEMORY_OFFLINED
 title: WHEAP_PFA_MEMORY_OFFLINED
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 930541d1-adbb-41d0-a0dd-c20a54165506

@@ -1,7 +1,6 @@
 ---
 UID: NC:netdevice.EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE
 title: EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE (netdevice.h)
-author: windows-driver-content
 description: Implement this optional callback to reject wake patterns that are not compatible with your hardware.
 tech.root: netvista
 ms.assetid: d227adc8-0a5f-4cc7-967f-555336f05ef2

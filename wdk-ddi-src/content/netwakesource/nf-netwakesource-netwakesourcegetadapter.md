@@ -1,7 +1,6 @@
 ---
 UID: NF:netwakesource.NetWakeSourceGetAdapter
 title: NetWakeSourceGetAdapter function (netwakesource.h)
-author: windows-driver-content
 description: The NetWakeSourceGetAdapter function gets the net adapter for a wake-on-LAN (WoL) source.
 tech.root: netvista
 ms.assetid: 75706f44-2e82-420d-a435-73ee32e5090a

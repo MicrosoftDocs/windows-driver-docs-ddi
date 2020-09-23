@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlStopTimer
 title: DlStopTimer function
-author: windows-driver-content
 description: Disables calls to a miniport driver's HwVidTimer function.
 tech.root: display
 ms.assetid: 0fa3e070-e269-4d2b-96f0-db30a4a6881b

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_KSR_MEMORY_RANGE
 title: DXGK_KSR_MEMORY_RANGE
-author: windows-driver-content
 description: The kernel soft reboot (KSR) memory range.
 tech.root: display
 ms.assetid: 6131bf6c-c18f-4ff6-ae89-b39528c77be2

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._MIPI_DSI2_TRANSMISSION
 title: MIPI_DSI2_TRANSMISSION
-author: windows-driver-content
 description: Mipi (mobile industry processor interface) DSI-2 (display serial interface) transmission.
 tech.root: display
 ms.assetid: b9d200d1-255d-40ef-b42b-33b374168ae0

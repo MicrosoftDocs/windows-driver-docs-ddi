@@ -1,7 +1,6 @@
 ---
 UID: NE:netadapter._NET_ADAPTER_PAUSE_FUNCTION_TYPE
 title: NET_ADAPTER_PAUSE_FUNCTION_TYPE (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_PAUSE_FUNCTION_TYPE enumeration specifies what IEEE 802.3 pause frames a net adapter supports.
 tech.root: netvista
 ms.assetid: a8049bd4-c346-4cf4-b1c3-d4e01a3b7862

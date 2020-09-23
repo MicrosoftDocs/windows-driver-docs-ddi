@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
 title: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
-author: windows-driver-content
 description: Describes the parameters that the display driver uses to create a command signature.
 tech.root: display
 ms.assetid: bde7837f-15fc-4345-af92-40443a315682

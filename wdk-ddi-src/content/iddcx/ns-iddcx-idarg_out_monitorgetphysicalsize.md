@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_MONITORGETPHYSICALSIZE
 title: IDARG_OUT_MONITORGETPHYSICALSIZE
-author: windows-driver-content
 description: Arguments used to get the monitor's physical size.
 tech.root: display
 ms.assetid: 2f76bdfa-1d47-4304-98ef-1323cdce51dd

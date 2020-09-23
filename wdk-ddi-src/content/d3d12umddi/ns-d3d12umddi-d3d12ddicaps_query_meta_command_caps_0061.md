@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061
 title: D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061
-author: windows-driver-content
 description: Queries for meta command capabilities.
 tech.root: display
 ms.assetid: 71d5c68e-abfa-40bf-92d1-774577f65818

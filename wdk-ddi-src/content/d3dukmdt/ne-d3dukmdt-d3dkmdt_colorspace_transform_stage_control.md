@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL
 title: D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL
-author: windows-driver-content
 description: Specifies the colorspace transform stage control.
 tech.root: display
 ms.assetid: d97c0abc-6fc4-43bd-89b0-edf70a43f8d7

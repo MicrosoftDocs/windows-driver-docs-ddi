@@ -1,7 +1,6 @@
 ---
 UID: NS:mbbcx._MBB_DEVICE_WAKE_CAPABILITIES
 title: MBB_DEVICE_WAKE_CAPABILITIES (mbbcx.h)
-author: windows-driver-content
 description: The MBB_DEVICE_WAKE_CAPABILITIES structure describes a MBBCx net adapter's wake-on-LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: a366fb3b-30b7-4abf-9619-5580707673ce

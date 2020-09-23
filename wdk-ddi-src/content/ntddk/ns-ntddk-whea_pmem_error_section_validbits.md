@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PMEM_ERROR_SECTION_VALIDBITS
 title: WHEA_PMEM_ERROR_SECTION_VALIDBITS
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 6f88c2b0-6127-4513-9c08-ea12fa71ec30

@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_VIRTUALGPUDRIVERESCAPE
 title: _DXGK_VIRTUALGPUDRIVERESCAPE
-author: windows-driver-content
 description: Information to be passed between a user mode emulation DLL and the kernel mode driver.
 tech.root: display
 ms.assetid: ef42bc4c-4ed2-40bf-9548-1de05ff6718f

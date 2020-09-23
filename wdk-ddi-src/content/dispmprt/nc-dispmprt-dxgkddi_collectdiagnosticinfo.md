@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_COLLECTDIAGNOSTICINFO
 title: DXGKDDI_COLLECTDIAGNOSTICINFO
-author: windows-driver-content
 description: The DxgkDdiCollectDiagnosticInfo callback routine collects the private driver information for reasons that are specified by DXGK_DIAGNOSTICINFO_TYPE.
 tech.root: display
 ms.assetid: df12fb24-823a-439e-936a-bbf7079cf437

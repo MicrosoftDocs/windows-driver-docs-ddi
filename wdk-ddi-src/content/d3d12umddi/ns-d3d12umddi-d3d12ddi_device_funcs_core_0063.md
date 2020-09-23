@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0063
 title: D3D12DDI_DEVICE_FUNCS_CORE_0063
-author: windows-driver-content
 description: Core device functions available in D3D12 Release 6, Build rev 3.
 tech.root: display
 ms.assetid: 591c4a5b-08b3-47c3-9c31-687481662ae0

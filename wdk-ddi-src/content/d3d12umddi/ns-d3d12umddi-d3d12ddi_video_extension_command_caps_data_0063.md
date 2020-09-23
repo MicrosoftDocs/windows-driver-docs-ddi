@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_CAPS_DATA_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_CAPS_DATA_0063
-author: windows-driver-content
 description: D3D12DDI_VIDEO_EXTENSION_COMMAND_CAPS_DATA is the data struct used in the query for video extension command capabilities.
 tech.root: display
 ms.assetid: 1959ae63-e4d7-4615-97c5-872b41e8839e

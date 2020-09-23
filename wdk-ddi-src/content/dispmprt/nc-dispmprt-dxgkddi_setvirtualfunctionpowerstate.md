@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SETVIRTUALFUNCTIONPOWERSTATE
 title: DXGKDDI_SETVIRTUALFUNCTIONPOWERSTATE
-author: windows-driver-content
 description: This routine allows a non-privileged virtual machine to change the power state of a PCI Express SR-IOV Virtual Function.
 tech.root: display
 ms.assetid: 6bba2af7-723d-4dfa-8efc-ec57e991a837

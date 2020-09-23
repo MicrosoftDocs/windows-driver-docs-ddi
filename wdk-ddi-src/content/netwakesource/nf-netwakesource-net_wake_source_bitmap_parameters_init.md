@@ -1,7 +1,6 @@
 ---
 UID: NF:netwakesource.NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
 title: NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT function (netwakesource.h)
-author: windows-driver-content
 description: The NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT function initializes a NET_WAKE_SOURCE_BITMAP_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 514ad478-31fd-455b-a793-cacec1c241cb

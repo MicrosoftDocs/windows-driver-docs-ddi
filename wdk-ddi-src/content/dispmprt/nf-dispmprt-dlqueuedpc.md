@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlQueueDpc
 title: DlQueueDpc function
-author: windows-driver-content
 description: Allows a miniport driver to queue a DPC (displayport type-C).
 tech.root: display
 ms.assetid: cae84d83-2c83-4b91-98f5-7daff6a14973

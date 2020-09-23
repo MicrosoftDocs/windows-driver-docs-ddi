@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
 title: PFND3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
-author: windows-driver-content
 description: Outputs duplicate of a handle to a hardware queue.
 tech.root: display
 ms.assetid: d894ddda-c549-4d4d-982f-c6636c635f1d

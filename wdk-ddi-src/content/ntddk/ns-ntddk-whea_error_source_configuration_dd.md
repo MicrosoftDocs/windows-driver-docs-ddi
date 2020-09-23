@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_SOURCE_CONFIGURATION_DD
 title: WHEA_ERROR_SOURCE_CONFIGURATION_DD
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 1511e26e-ac2d-45b0-9ac7-894cbbda1b81

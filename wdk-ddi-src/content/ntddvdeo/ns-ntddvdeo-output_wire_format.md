@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._OUTPUT_WIRE_FORMAT
 title: OUTPUT_WIRE_FORMAT
-author: windows-driver-content
 description: Output wire format.
 tech.root: display
 ms.assetid: 8ae6f264-f122-475d-81ea-032042c55337

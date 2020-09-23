@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.WheaInitializeRecordHeader
 title: WheaInitializeRecordHeader function
-author: windows-driver-content
 description: Reserved for system use.
 tech.root: 
 ms.assetid: 82722a7a-bd96-434c-bffe-c51ea3b013ae

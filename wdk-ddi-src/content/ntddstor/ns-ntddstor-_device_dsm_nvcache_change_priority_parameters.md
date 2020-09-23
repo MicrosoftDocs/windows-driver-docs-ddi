@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS
 title: DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS
-author: windows-driver-content
 description: The DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS structure contains caching priority information to apply to a range of logical blocks.
 tech.root: storage
 ms.assetid: 97a840df-0648-416e-a4b3-e3e4e57018ab

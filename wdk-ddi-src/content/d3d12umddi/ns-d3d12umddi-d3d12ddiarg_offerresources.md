@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_OFFERRESOURCES
 title: D3D12DDIARG_OFFERRESOURCES
-author: windows-driver-content
 description: Describes video memory resources that the user-mode display driver offers for reuse.
 tech.root: display
 ms.assetid: 4b7b2415-7ecb-4711-87cc-e309fac479c0

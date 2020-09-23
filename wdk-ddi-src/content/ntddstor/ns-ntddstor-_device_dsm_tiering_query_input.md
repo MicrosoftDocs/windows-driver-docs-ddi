@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_TIERING_QUERY_INPUT
 title: DEVICE_DSM_TIERING_QUERY_INPUT
-author: windows-driver-content
 description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 9d78696a-6b87-42e6-9587-59cf2124ee0f

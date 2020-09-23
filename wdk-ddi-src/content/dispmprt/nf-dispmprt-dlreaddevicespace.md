@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlReadDeviceSpace
 title: DlReadDeviceSpace function
-author: windows-driver-content
 description: Reads from a device configuration space or the expansion ROM of a display adapter.
 tech.root: display
 ms.assetid: 57b1447a-e923-47b8-a17d-c9668be70e26

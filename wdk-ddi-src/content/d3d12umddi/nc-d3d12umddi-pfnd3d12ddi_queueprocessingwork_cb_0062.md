@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_QUEUEPROCESSINGWORK_CB_0062
 title: PFND3D12DDI_QUEUEPROCESSINGWORK_CB_0062
-author: windows-driver-content
 description: PfnQueueProcessingWorkCb is provided by the runtime and called by user mode drivers to register and queue work items.
 tech.root: display
 ms.assetid: aa77a30e-13f8-457e-a04e-255b1c3b9398

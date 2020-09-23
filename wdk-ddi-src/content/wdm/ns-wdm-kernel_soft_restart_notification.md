@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KERNEL_SOFT_RESTART_NOTIFICATION
 title: KERNEL_SOFT_RESTART_NOTIFICATION
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: b0b42d74-38b7-4587-94c3-b98352e4210e

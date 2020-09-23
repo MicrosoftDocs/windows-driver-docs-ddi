@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function (netadapteroffload.h)
-author: windows-driver-content
 description: The NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function initializes a NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 1df09a2f-d816-407a-8759-142f569f0f57

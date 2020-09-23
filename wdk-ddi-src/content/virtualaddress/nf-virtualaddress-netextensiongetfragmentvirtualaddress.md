@@ -1,7 +1,6 @@
 ---
 UID: NF:virtualaddress.NetExtensionGetFragmentVirtualAddress
 title: NetExtensionGetFragmentVirtualAddress function (virtualaddress.h)
-author: windows-driver-content
 description: The NetExtensionGetFragmentVirtualAddress function retrieves the virtual address extension information for a net fragment.
 tech.root: netvista
 ms.assetid: 054DB38D-7496-424F-A521-A2368878F690

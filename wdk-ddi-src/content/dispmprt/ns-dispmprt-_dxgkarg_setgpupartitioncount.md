@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_SETGPUPARTITIONCOUNT
 title: _DXGKARG_SETGPUPARTITIONCOUNT
-author: windows-driver-content
 description: Arguments used to set GPU partition count.
 tech.root: display
 ms.assetid: 41645d4f-e0f3-4b01-bfa7-65b1c6bed62f

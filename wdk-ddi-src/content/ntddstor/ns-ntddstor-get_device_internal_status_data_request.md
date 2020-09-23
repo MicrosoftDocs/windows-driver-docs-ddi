@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST
 title: GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST
-author: windows-driver-content
 description: The GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST structure describes the internal status data being requested through IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG.
 tech.root: storage
 ms.assetid: 9370b50a-044b-49dd-9e1a-d946cb825f71

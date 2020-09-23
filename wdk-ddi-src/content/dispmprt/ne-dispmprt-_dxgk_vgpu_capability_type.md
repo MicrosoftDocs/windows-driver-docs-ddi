@@ -1,7 +1,6 @@
 ---
 UID: NE:dispmprt._DXGK_VGPU_CAPABILITY_TYPE
 title: _DXGK_VGPU_CAPABILITY_TYPE
-author: windows-driver-content
 description: Specifies the DirectX graphics kernel virtual GPU capability.
 tech.root: display
 ms.assetid: c0ef8f34-9276-4372-a99d-9541a943b6e2

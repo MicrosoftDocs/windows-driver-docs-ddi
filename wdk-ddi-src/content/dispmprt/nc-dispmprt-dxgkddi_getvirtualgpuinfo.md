@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETVIRTUALGPUINFO
 title: DXGKDDI_GETVIRTUALGPUINFO
-author: windows-driver-content
 description: Queries the current capability of a previously created vGPU.
 tech.root: display
 ms.assetid: d52799c8-a962-4b41-a03c-d1454efb7b88

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddk.IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
 title: IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 44246bf3-ec90-48b5-b444-7398b483b192

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054
 title: D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054
-author: windows-driver-content
 description: 
 tech.root: display
 ms.assetid: 434aefc5-b81e-418a-8f1e-e833fee7bbec

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RESTOREMEMORYFORHOTUPDATE
 title: DXGKDDI_RESTOREMEMORYFORHOTUPDATE
-author: windows-driver-content
 description: Restores memory for driver hot update.
 tech.root: display
 ms.assetid: de5d59c6-2ce9-442c-866d-a64b3fa58952

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_PFA_MEMORY_POLICY
 title: WHEAP_PFA_MEMORY_POLICY
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: fc556738-9097-4304-ab9d-7044e24abb65

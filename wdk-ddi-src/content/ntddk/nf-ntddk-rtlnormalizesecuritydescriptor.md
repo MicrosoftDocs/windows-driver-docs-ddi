@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlNormalizeSecurityDescriptor
 title: RtlNormalizeSecurityDescriptor function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 85a58c4d-1c92-481a-8f5f-655fc9cae3b8

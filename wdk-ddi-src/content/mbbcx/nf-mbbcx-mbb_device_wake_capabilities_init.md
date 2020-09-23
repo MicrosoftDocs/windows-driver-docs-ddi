@@ -1,7 +1,6 @@
 ---
 UID: NF:mbbcx.MBB_DEVICE_WAKE_CAPABILITIES_INIT
 title: MBB_DEVICE_WAKE_CAPABILITIES_INIT function (mbbcx.h)
-author: windows-driver-content
 description: The MBB_DEVICE_WAKE_CAPABILITIES_INIT method initializes a MBB_DEVICE_WAKE_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: ee266a4a-b7a2-4959-8bea-beb6309d9fed

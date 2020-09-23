@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY
 title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY
-author: windows-driver-content
 description: 
 tech.root: display
 ms.assetid: 8f6c8f1a-ad7f-4de8-a62c-a970df20eabd

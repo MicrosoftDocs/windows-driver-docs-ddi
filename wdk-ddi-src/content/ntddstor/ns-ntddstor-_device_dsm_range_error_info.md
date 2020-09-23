@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_RANGE_ERROR_INFO
 title: DEVICE_DSM_RANGE_ERROR_INFO
-author: windows-driver-content
 description: The DEVICE_DSM_RANGE_ERROR_OUTPUT (or DEVICE_DSM_RANGE_ERROR_INFO) structure stores information about whether one or more logical block ranges contain any media errors.
 tech.root: storage
 ms.assetid: 23b635e6-0e49-4207-a46f-5b632de643bf

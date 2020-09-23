@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryInformationByName
 title: NtQueryInformationByName function
-author: windows-driver-content
 description: NtQueryInformationByName returns the requested information about a file specified by file name.
 tech.root: ifsk
 ms.assetid: 6b55d547-df99-412a-ba4f-febadc9e4296

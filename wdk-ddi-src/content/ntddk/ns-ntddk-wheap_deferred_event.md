@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_DEFERRED_EVENT
 title: WHEAP_DEFERRED_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 2412af5a-0dd6-4fe6-86f4-dcd298fbfd63

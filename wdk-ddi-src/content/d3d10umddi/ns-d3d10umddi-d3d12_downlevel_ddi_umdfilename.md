@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D12_DOWNLEVEL_DDI_UMDFILENAME
 title: D3D12_DOWNLEVEL_DDI_UMDFILENAME
-author: windows-driver-content
 description: 
 tech.root: display
 ms.assetid: 127b2cb2-7877-4bb9-9aa3-6c9e7d5d4e4b

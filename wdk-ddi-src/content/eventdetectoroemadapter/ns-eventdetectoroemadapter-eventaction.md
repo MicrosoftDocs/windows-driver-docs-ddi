@@ -1,7 +1,6 @@
 ---
 UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0008
 title: EVENTACTION
-author: windows-driver-content
 description: Structure used to provide detail from ParseDetectionResults.
 tech.root: audio
 ms.assetid: 399761eb-8c8e-47a8-b150-de42cde0e0aa

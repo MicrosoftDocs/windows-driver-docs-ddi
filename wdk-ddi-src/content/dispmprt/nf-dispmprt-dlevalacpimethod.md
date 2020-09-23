@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlEvalAcpiMethod
 title: DlEvalAcpiMethod function
-author: windows-driver-content
 description: Evaluates a specified ACPI method on a display adapter or on a child device of a display adapter.
 tech.root: display
 ms.assetid: dc58e082-25c3-45c1-ad62-718ab21a156c

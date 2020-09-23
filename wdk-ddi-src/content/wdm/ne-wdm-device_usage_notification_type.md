@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_USAGE_NOTIFICATION_TYPE
 title: DEVICE_USAGE_NOTIFICATION_TYPE
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: ebe20129-2ac5-42f3-adac-3f8ea4092ce8

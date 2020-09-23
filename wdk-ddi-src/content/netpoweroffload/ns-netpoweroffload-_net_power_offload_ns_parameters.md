@@ -1,7 +1,6 @@
 ---
 UID: NS:netpoweroffload._NET_POWER_OFFLOAD_NS_PARAMETERS
 title: NET_POWER_OFFLOAD_NS_PARAMETERS (netpoweroffload.h)
-author: windows-driver-content
 description: The NET_POWER_OFFLOAD_NS_PARAMETERS structure contains IPv6 NS low-power protocol offload parameters for a net adapter.
 tech.root: netvista
 ms.assetid: 4ebf3a7f-90b5-43dd-8c28-33319fdf0d59

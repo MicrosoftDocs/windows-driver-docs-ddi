@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_WDDMDEVICECAPS
 title: _DXGK_WDDMDEVICECAPS
-author: windows-driver-content
 description: Contains the WDDM capabilities that was returned from the KMD in response to the DxgkDdiQueryAdapterInfo request for a DXGK_QUERYADAPTERINFOTYPE value of type DXGKQAITYPE_WDDMDEVICECAPS.
 tech.root: display
 ms.assetid: 416f3f32-7bca-4ffa-893b-5d7d5916a381

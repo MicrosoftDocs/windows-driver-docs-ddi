@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltRequestFileInfoOnCreateCompletion
 title: FltRequestFileInfoOnCreateCompletion function
-author: windows-driver-content
 description: A minifilter calls FltRequestFileInfoOnCreateCompletion during file pre-create to request that the file manager stores the specified file information for retrieval upon create complete.
 tech.root: ifsk
 ms.assetid: d33f4ab5-9f50-42d6-8944-0836e090a67a

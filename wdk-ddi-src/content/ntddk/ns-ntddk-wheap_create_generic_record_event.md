@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_CREATE_GENERIC_RECORD_EVENT
 title: WHEAP_CREATE_GENERIC_RECORD_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 3b14357e-7797-4dce-b579-eff9d9c3382a

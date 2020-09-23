@@ -1,7 +1,6 @@
 ---
 UID: NS:returncontexttypes._NET_FRAGMENT_RETURN_CONTEXT
 title: NET_FRAGMENT_RETURN_CONTEXT (returncontexttypes.h)
-author: windows-driver-content
 description: The NET_FRAGMENT_RETURN_CONTEXT structure contains return context information for a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md).
 tech.root: netvista
 ms.assetid: 5795F982-866D-4731-BE0E-A085B0254CDF

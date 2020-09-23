@@ -1,7 +1,6 @@
 ---
 UID: NE:checksumtypes._NET_PACKET_TX_CHECKSUM_ACTION
 title: NET_PACKET_TX_CHECKSUM_ACTION (checksumtypes.h)
-author: windows-driver-content
 description: The NET_PACKET_TX_CHECKSUM_ACTION enumeration specifies checksum action flags for a NET_PACKET_CHECKSUM structure during packet transmission.
 tech.root: netvista
 ms.assetid: 2d4005bc-13e3-462d-9e73-5f6cea707db3

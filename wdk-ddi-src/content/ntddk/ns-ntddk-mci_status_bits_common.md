@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._MCI_STATUS_BITS_COMMON
 title: MCI_STATUS_BITS_COMMON
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: b2161b51-5758-4d83-bd9b-0d80cedfa562

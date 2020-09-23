@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlSynchronizeExecution
 title: DlSynchronizeExecution function
-author: windows-driver-content
 description: Synchronizes the execution of a miniport driver-supplied DXGKCB_SYNCHRONIZE_EXECUTION function with the miniport driver's DxgkDdiInterruptRoutine function.
 tech.root: display
 ms.assetid: e7eb6f58-dbf7-47ab-85f1-72d6aba64a09

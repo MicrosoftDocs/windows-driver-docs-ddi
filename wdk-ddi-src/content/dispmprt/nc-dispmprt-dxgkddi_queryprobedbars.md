@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERYPROBEDBARS
 title: DXGKDDI_QUERYPROBEDBARS
-author: windows-driver-content
 description: 
 tech.root: display
 ms.assetid: 939bdb9f-a18f-4d49-8cbc-9b1c487e45c1

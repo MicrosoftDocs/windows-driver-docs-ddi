@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt._IRQL_requires_DXGK_
 title: _IRQL_requires_DXGK_ macro
-author: windows-driver-content
 description: Allows drivers to use the updated annotations.
 tech.root: display
 ms.assetid: bc96fece-1a62-486c-809f-d52d88f6af60

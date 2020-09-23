@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_INDIRECT_ARGUMENT_TYPE
 title: D3D12DDI_INDIRECT_ARGUMENT_TYPE
-author: windows-driver-content
 description: Specifies the type of the indirect parameter for indirect dispatch.
 tech.root: display
 ms.assetid: 6be46c04-3fc0-4761-9486-388c252d0684

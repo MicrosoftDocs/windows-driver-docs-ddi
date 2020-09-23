@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoAcquireKsrPersistentMemory
 title: IoAcquireKsrPersistentMemory function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 44f12973-4385-4a1e-ac93-68f51d4aacfc

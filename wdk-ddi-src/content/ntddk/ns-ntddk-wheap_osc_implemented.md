@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_OSC_IMPLEMENTED
 title: WHEAP_OSC_IMPLEMENTED
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: f94348ba-a1ab-43e6-8696-231eae36d141

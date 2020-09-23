@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER_FLAGS
 title: WHEA_ERROR_RECORD_HEADER_FLAGS
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 96520e0c-8a60-419a-97f2-f1fe71019570

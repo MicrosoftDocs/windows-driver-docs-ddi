@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFlushBuffers2
 title: FltFlushBuffers2 function
-author: windows-driver-content
 description: A minifilter driver calls FltFlushBuffers2 to send a flush request to the file system for a given file.
 tech.root: ifsk
 ms.assetid: 183306c4-79fc-4356-81b3-658b307c7200

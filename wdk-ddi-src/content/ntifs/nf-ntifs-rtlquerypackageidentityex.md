@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlQueryPackageIdentityEx
 title: RtlQueryPackageIdentityEx function
-author: windows-driver-content
 description: RtlQueryPackageIdentityEx returns the associated full package name. It can optionally also return the package relative application name, and whether an application is considered packaged.
 tech.root: ifsk
 ms.assetid: c4d1d0f4-1ca6-4f2b-91a0-8356a5d6cdde

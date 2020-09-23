@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt._Field_size_bytes_DXGK_
 title: _Field_size_bytes_DXGK_ macro
-author: windows-driver-content
 description: Allows drivers to use the updated annotations.
 tech.root: display
 ms.assetid: c77b775c-7027-44ea-a4d1-e48fc9faecb3

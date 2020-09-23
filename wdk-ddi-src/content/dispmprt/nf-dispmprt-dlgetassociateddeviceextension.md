@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlGetAssociatedDeviceExtension
 title: DlGetAssociatedDeviceExtension function
-author: windows-driver-content
 description: Returns the device extension for the parent of the specified device object.
 tech.root: display
 ms.assetid: 808fcdad-be79-4863-a1ca-a1d1dea3c5d0

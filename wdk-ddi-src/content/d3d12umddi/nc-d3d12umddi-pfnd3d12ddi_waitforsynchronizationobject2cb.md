@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_WAITFORSYNCHRONIZATIONOBJECT2CB
 title: PFND3D12DDI_WAITFORSYNCHRONIZATIONOBJECT2CB
-author: windows-driver-content
 description: Inserts a wait for the specified synchronization objects in the specified context stream.
 tech.root: display
 ms.assetid: 772903a7-9395-46d7-b6ca-6d6086e13672

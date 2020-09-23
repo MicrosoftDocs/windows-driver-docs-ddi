@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._COLORSPACE_TRANSFORM_1DLUT_CAP
 title: COLORSPACE_TRANSFORM_1DLUT_CAP
-author: windows-driver-content
 description: Colorspace transform lookup table 1D gamma cap.
 tech.root: display
 ms.assetid: ff7bad3f-45a5-44a1-bf76-1182c3163066

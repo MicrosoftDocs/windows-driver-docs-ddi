@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063
 title: PFND3D12DDI_INITIALIZE_VIDEO_EXTENSION_COMMAND_0063
-author: windows-driver-content
 description: Records a command to initialize or re-initialize a Video Extension Command into a command list.
 tech.root: display
 ms.assetid: 31b11f16-b9ae-44d0-a29c-696536cc66cb

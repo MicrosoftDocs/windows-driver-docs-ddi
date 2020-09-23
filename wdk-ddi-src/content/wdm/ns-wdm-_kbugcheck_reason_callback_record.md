@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_REASON_CALLBACK_RECORD
 title: KBUGCHECK_REASON_CALLBACK_RECORD
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 0c64f4d8-df1a-4d8f-a7af-d58bc48ef96e

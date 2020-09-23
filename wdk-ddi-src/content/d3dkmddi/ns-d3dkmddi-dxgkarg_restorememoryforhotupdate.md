@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RESTOREMEMORYFORHOTUPDATE
 title: DXGKARG_RESTOREMEMORYFORHOTUPDATE
-author: windows-driver-content
 description: Arguments used to restore memory for driver hot update.
 tech.root: display
 ms.assetid: 758482bb-b832-4749-9a3b-17670fc65156

@@ -1,7 +1,6 @@
 ---
 UID: NF:netdevice.NetDeviceInitSetPowerPolicyEventCallbacks
 title: NetDeviceInitSetPowerPolicyEventCallbacks function (netdevice.h)
-author: windows-driver-content
 description: The NetDeviceInitSetPowerPolicyEventCallbacks function sets optional power policy event callbacks during device initialization for a client driver.
 tech.root: netvista
 ms.assetid: 417d0da7-26f1-4a81-a9ea-0413facffa1d

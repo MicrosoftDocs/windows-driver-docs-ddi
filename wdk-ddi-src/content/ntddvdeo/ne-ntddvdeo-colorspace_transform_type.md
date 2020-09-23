@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddvdeo._COLORSPACE_TRANSFORM_TYPE
 title: COLORSPACE_TRANSFORM_TYPE
-author: windows-driver-content
 description: The colorspace transform type.
 tech.root: display
 ms.assetid: 987104a9-3e75-4418-b6b1-949bc62ac580

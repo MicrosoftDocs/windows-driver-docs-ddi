@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_CREATEVIRTUALGPU
 title: DXGKDDI_CREATEVIRTUALGPU
-author: windows-driver-content
 description: This function creates a virtual GPU with provided parameters and re-tunes information about physical GPU resources, which are needed for the virtual GPU.
 tech.root: display
 ms.assetid: fd92587b-1513-4e31-91d4-4f2a9f1eeb14

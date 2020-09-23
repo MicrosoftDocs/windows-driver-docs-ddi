@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKDDI_MITIGABLE_DEVICE_INTERFACE
 title: _DXGKDDI_MITIGABLE_DEVICE_INTERFACE
-author: windows-driver-content
 description: This device interface specifies the parts of the device base address registers that need to be intercepted and mitigated.
 tech.root: display
 ms.assetid: 77323c81-e0e9-47e0-9a99-b277fc678ee3

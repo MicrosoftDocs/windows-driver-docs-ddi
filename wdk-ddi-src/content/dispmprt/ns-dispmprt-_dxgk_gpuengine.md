@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_GPUENGINE
 title: _DXGK_GPUENGINE
-author: windows-driver-content
 description: Not used.
 tech.root: display
 ms.assetid: 82479dfa-1e27-49ec-bacb-82fa3223ee1d

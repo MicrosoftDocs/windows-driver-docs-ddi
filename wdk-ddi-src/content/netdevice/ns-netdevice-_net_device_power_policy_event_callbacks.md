@@ -1,7 +1,6 @@
 ---
 UID: NS:netdevice._NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS
 title: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS (netdevice.h)
-author: windows-driver-content
 description: The NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS structure contains function pointers for a client driver's power policy callback functions.
 tech.root: netvista
 ms.assetid: 883af9ab-2f90-4e0f-bb01-3358e568eb17

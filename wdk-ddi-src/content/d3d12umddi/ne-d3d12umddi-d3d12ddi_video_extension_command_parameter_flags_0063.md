@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063
-author: windows-driver-content
 description: Video Extensions must specify a command parameter flag.
 tech.root: display
 ms.assetid: abdbd8ba-f534-416e-90ca-b2876774ba16

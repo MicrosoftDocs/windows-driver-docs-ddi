@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_RESETVIRTUALFUNCTION
 title: _DXGKARG_RESETVIRTUALFUNCTION
-author: windows-driver-content
 description: Used to reset virtual function.
 tech.root: display
 ms.assetid: 56aad462-fc54-4a1d-9161-2f19f4370ed6

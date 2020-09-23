@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlGetVersion
 title: DlGetVersion function
-author: windows-driver-content
 description: Gets version information about the currently running operating system.
 tech.root: display
 ms.assetid: 3ddadf84-4802-48d6-a8ed-52e1fe903bb6

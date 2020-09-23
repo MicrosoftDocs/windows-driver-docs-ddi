@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlGetRegistryParameters
 title: DlGetRegistryParameters function
-author: windows-driver-content
 description: Retrieves device-specific configuration information under the adapter key in the registry at startup.
 tech.root: display
 ms.assetid: 33f7e458-2da9-43e4-a335-4e27e2ef1ac6

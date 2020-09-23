@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063
-author: windows-driver-content
 description: Contains info about a video extension command parameter info.
 tech.root: display
 ms.assetid: 74568b4c-5693-475b-9e72-69a499c1faf7

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddstor._DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
 title: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
-author: windows-driver-content
 description: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE identifies the data type to be queried.
 tech.root: storage
 ms.assetid: 9f0e23b4-015f-41f7-861f-b474c4e85444

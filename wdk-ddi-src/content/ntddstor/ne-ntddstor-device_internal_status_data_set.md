@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddstor._DEVICE_INTERNAL_STATUS_DATA_SET
 title: DEVICE_INTERNAL_STATUS_DATA_SET
-author: windows-driver-content
 description: DEVICE_INTERNAL_STATUS_DATA_SET identifies the device internal status data set to query.
 tech.root: storage
 ms.assetid: 1357eabc-2d9f-410a-b79c-775c7e0f5c19

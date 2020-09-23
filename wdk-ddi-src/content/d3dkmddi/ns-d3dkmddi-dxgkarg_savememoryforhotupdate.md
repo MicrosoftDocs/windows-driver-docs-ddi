@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SAVEMEMORYFORHOTUPDATE
 title: DXGKARG_SAVEMEMORYFORHOTUPDATE
-author: windows-driver-content
 description: Arguments used to save memory for driver hot update.
 tech.root: display
 ms.assetid: 0def8a9d-7c30-4023-af8a-46f5fd36aff1

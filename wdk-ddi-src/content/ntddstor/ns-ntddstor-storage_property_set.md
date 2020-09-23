@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PROPERTY_SET
 title: STORAGE_PROPERTY_SET
-author: windows-driver-content
 description: The STORAGE_PROPERTY_SET structure describes the details of the property set associated with IOCTL_STORAGE_SET_PROPERTY.
 tech.root: storage
 ms.assetid: c1b43348-1372-4dfd-9ee7-448c35e6a0b6

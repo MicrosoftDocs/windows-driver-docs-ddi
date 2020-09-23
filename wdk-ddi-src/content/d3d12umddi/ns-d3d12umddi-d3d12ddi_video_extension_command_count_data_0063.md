@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_COUNT_DATA_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_COUNT_DATA_0063
-author: windows-driver-content
 description: Retrieves the number of supported video extension commands.
 tech.root: display
 ms.assetid: 19013676-88c2-4603-bf40-2205f647ac0a

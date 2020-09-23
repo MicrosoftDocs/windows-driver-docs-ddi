@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_UNINITIALIZE
 title: _WHEA_ERROR_SOURCE_UNINITIALIZE
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 4139dad8-6a00-44b0-8b2f-1bcc354169f1

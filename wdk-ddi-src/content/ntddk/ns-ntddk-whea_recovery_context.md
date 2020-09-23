@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_RECOVERY_CONTEXT
 title: WHEA_RECOVERY_CONTEXT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 7ce30722-7df7-4eac-95eb-5e2117a8f263

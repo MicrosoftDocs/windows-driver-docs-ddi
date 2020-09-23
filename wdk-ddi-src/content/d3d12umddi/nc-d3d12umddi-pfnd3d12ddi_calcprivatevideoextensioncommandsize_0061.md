@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061
 title: PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061
-author: windows-driver-content
 description: Returns the driver for the video extension object size.
 tech.root: display
 ms.assetid: 0c6cdccd-9423-4640-bd8d-d7595589d598

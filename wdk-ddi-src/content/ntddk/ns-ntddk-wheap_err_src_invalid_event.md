@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_ERR_SRC_INVALID_EVENT
 title: WHEAP_ERR_SRC_INVALID_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: a3201666-9107-4939-90c8-954bd4f50533

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG
 title: IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG
-author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG to get the internal status data from the device.
 tech.root: storage
 ms.assetid: 927a77ea-3c95-4dd3-9ae2-7fa69f7de18d

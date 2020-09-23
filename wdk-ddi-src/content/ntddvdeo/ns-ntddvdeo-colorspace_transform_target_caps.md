@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._COLORSPACE_TRANSFORM_TARGET_CAPS
 title: COLORSPACE_TRANSFORM_TARGET_CAPS
-author: windows-driver-content
 description: Colorspace transform target caps.
 tech.root: display
 ms.assetid: 2d88fbf8-1dfc-4d27-91d2-64f5b06e1375

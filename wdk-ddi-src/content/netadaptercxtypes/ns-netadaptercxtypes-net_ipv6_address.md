@@ -1,7 +1,6 @@
 ---
 UID: NS:netadaptercxtypes._NET_IPV6_ADDRESS
 title: NET_IPV6_ADDRESS (netadaptercxtypes.h)
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 55ddbb93-e790-4e5b-b891-d0b563d62af3

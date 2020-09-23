@@ -1,7 +1,6 @@
 ---
 UID: NE:storport._STORPORT_FEATURE_TYPE
 title: STORPORT_FEATURE_TYPE
-author: windows-driver-content
 description: The STORPORT_FEATURE_TYPE enum identifies the Storport feature type.
 tech.root: storage
 ms.assetid: 2df639b5-27bc-430d-8208-d0613e46b6a5

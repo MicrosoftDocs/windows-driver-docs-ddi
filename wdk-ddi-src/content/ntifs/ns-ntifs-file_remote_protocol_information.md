@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_REMOTE_PROTOCOL_INFORMATION
 title: FILE_REMOTE_PROTOCOL_INFORMATION
-author: windows-driver-content
 description: The FILE_REMOTE_PROTOCOL_INFORMATION structure contains file remote protocol information.
 tech.root: 
 ms.assetid: b97cbf60-3772-4486-96fd-6dae607e830d

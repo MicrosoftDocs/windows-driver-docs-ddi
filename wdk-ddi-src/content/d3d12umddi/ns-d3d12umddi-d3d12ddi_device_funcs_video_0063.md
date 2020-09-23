@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_VIDEO_0063
 title: D3D12DDI_DEVICE_FUNCS_VIDEO_0063
-author: windows-driver-content
 description: The device functions of video, used in D3D12DDI_FEATURE_VERSION_VIDEO_0063.
 tech.root: display
 ms.assetid: c050acb7-8ad3-4749-b8e4-9168f3775bfc

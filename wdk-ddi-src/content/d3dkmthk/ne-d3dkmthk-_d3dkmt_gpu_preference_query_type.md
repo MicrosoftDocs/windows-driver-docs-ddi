@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_GPU_PREFERENCE_QUERY_TYPE
 title: _D3DKMT_GPU_PREFERENCE_QUERY_TYPE
-author: windows-driver-content
 description: GPU preference query type.
 tech.root: display
 ms.assetid: 93858a50-39ce-4ac2-9ff8-111b9f681ad3

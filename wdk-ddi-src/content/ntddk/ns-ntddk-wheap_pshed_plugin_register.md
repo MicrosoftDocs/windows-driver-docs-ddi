@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_PSHED_PLUGIN_REGISTER
 title: WHEAP_PSHED_PLUGIN_REGISTER
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 033e896d-6d4e-411e-98a4-5f94d37de0bd

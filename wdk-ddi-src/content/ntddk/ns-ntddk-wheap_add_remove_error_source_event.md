@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT
 title: WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 3b6c84dd-b8ff-4083-9e7f-f82e4f054c3d

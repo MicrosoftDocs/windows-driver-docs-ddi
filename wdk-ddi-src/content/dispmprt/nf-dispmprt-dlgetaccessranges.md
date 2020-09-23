@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlGetAccessRanges
 title: DlGetAccessRanges function
-author: windows-driver-content
 description: Retrieves bus-relative configuration information and, if possible, claims these hardware resources in the registry for the caller.
 tech.root: display
 ms.assetid: c430c0a1-e9a2-49f8-b578-7cdd1c30cec4

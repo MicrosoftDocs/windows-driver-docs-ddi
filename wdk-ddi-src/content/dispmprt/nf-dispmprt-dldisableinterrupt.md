@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlDisableInterrupt
 title: DlDisableInterrupt function
-author: windows-driver-content
 description: Disables interrupts from a video adapter.
 tech.root: display
 ms.assetid: 187aec67-9ebe-483e-8c51-f418903f118b

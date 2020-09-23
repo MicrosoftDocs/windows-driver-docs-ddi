@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_TRIAGE_DUMP_DATA
 title: _KBUGCHECK_TRIAGE_DUMP_DATA
-author: windows-driver-content
 description: 
 ms.assetid: 661d08be-f322-43ad-939c-8a4441d4d312
 ms.author: windowsdriverdev

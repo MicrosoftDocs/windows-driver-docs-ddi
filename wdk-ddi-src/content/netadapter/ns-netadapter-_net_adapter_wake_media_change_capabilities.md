@@ -1,7 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES
 title: NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES structure describes a net adapter's wake on LAN (WoL) capabilities for waking from a media change event.
 tech.root: netvista
 ms.assetid: 0f6ef6ae-6ba0-4ce1-a780-b18825fb5998

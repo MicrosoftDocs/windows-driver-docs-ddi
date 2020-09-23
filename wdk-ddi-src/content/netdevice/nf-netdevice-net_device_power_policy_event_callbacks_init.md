@@ -1,7 +1,6 @@
 ---
 UID: NF:netdevice.NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT
 title: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function (netdevice.h)
-author: windows-driver-content
 description: The NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function initializes a NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS structure.
 tech.root: netvista
 ms.assetid: adf5b2fc-1b9a-4dad-97ad-e23f382acb8c

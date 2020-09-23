@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_FTM_RESPONSE_STATUS
 title: WDI_FTM_RESPONSE_STATUS
-author: windows-driver-content
 description: The WDI_FTM_RESPONSE_STATUS defines the response status for a Fine Timing Measurement (FTM) request.
 tech.root: netvista
 ms.assetid: 47bf0b97-57e3-4f9d-8787-8ff6dfe6075f

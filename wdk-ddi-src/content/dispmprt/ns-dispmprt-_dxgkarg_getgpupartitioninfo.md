@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETGPUPARTITIONINFO
 title: _DXGKARG_GETGPUPARTITIONINFO
-author: windows-driver-content
 description: Arguments used to get physical GPU partition info.
 tech.root: display
 ms.assetid: 0ce6b0e0-5afe-4069-8839-dd1ea0611fe3

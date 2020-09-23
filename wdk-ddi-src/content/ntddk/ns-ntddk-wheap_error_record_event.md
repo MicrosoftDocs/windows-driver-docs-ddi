@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_ERROR_RECORD_EVENT
 title: WHEAP_ERROR_RECORD_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: d2786911-c3c1-4660-8876-ec68ecc94e4f

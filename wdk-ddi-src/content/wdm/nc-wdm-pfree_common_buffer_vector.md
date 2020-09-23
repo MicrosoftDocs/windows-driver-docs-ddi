@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PFREE_COMMON_BUFFER_VECTOR
 title: PFREE_COMMON_BUFFER_VECTOR
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 73dfdcdd-d131-44ec-b32e-8c0eaeac33d8

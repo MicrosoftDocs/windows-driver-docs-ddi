@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlDebugPrint
 title: DlDebugPrint function
-author: windows-driver-content
 description: Prints the specified debug message to the kernel debugger.
 tech.root: display
 ms.assetid: 9205fc5b-211f-4f1b-b482-df072d7e17c2

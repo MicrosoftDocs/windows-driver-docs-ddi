@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_CREATEVIRTUALGPU
 title: _DXGKARG_CREATEVIRTUALGPU
-author: windows-driver-content
 description: Arguments used to create a virtual GPU.
 tech.root: display
 ms.assetid: da667fb0-59b5-4240-bdf6-a170642f650d

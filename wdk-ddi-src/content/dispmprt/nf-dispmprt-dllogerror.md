@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlLogError
 title: DlLogError function
-author: windows-driver-content
 description: Logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
 tech.root: display
 ms.assetid: b440bac9-d91a-48d6-ac7a-695341fe589e

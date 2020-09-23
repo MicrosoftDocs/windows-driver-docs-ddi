@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_VIRTUALGPUENGINEINFO
 title: _DXGK_VIRTUALGPUENGINEINFO
-author: windows-driver-content
 description: The virtual GPU engine info.
 tech.root: display
 ms.assetid: aa646d1b-2a8c-4d5a-9cdd-2d7fc4ae68c8

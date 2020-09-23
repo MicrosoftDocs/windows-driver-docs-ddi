@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._GAMMA_RAMP_RGB
 title: GAMMA_RAMP_RGB
-author: windows-driver-content
 description: Gamma ramp for RGB.
 tech.root: display
 ms.assetid: fb12b170-f54b-4458-b7ac-1b58a6538ec8

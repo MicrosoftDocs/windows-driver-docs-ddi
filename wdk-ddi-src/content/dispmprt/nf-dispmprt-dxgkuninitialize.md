@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DxgkUnInitialize
 title: DxgkUnInitialize function
-author: windows-driver-content
 description: Unloads the DirectX graphics kernel subsystem (Dxgkrnl.sys).
 tech.root: display
 ms.assetid: 5cbff717-75d4-46bc-9b0b-b02a1da7a601

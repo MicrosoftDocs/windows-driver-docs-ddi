@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltRetrieveFileInfoOnCreateCompletion
 title: FltRetrieveFileInfoOnCreateCompletion function
-author: windows-driver-content
 description: FltRetrieveFileInfoOnCreateCompletion retrieves the requested file information during file post create.
 tech.root: ifsk
 ms.assetid: 8ec28ac7-c87c-4e18-bfd0-0266b805cd9d

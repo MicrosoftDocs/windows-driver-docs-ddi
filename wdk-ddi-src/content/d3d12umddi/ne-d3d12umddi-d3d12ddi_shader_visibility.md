@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_SHADER_VISIBILITY
 title: D3D12DDI_SHADER_VISIBILITY
-author: windows-driver-content
 description: Specifies the shaders that can access the contents of a given root signature slot.
 tech.root: display
 ms.assetid: 15fd8cc2-3072-4980-8964-9ed3f2f57046

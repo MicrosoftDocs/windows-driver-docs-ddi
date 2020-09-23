@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_CREATE_RECORD
 title: _WHEA_ERROR_SOURCE_CREATE_RECORD
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 161a7a07-a498-4e45-b356-4083179c71d6

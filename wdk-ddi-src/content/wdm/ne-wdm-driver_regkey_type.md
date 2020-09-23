@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._DRIVER_REGKEY_TYPE
 title: DRIVER_REGKEY_TYPE
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 147f40bd-4000-4fdd-b6ac-a305fc581d29

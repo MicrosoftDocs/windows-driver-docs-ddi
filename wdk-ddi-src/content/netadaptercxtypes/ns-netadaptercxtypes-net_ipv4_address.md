@@ -1,7 +1,6 @@
 ---
 UID: NS:netadaptercxtypes._NET_IPV4_ADDRESS
 title: NET_IPV4_ADDRESS (netadaptercxtypes.h)
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: f7ae0ac7-d99c-4ad4-8841-3d9a0690baa8

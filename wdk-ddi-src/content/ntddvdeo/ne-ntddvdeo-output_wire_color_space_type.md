@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddvdeo._OUTPUT_WIRE_COLOR_SPACE_TYPE
 title: OUTPUT_WIRE_COLOR_SPACE_TYPE
-author: windows-driver-content
 description: Output wire color space type.
 tech.root: display
 ms.assetid: 9dbddd1f-ca06-43f1-853b-43fc7a6290b1

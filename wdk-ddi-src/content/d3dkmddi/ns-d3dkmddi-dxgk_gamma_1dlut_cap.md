@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GAMMA_1DLUT_CAP
 title: DXGK_GAMMA_1DLUT_CAP
-author: windows-driver-content
 description: The gamma 1D lookup table stage caps.
 tech.root: display
 ms.assetid: 01cac6a8-aceb-4ac4-9e2e-fb528adc30c8

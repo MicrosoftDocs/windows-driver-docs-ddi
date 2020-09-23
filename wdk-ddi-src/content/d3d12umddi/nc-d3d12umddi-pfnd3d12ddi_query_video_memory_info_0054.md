@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054
 title: PFND3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054
-author: windows-driver-content
 description: Queries for video memory info.
 tech.root: display
 ms.assetid: 775ee197-fb24-4b5b-8be6-690759569538

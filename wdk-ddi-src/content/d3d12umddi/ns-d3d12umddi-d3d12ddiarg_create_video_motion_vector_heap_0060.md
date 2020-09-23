@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0060
 title: D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0060
-author: windows-driver-content
 description: Arguments used to create a video motion vector heap.
 tech.root: display
 ms.assetid: ec111d01-4b9b-4944-bf67-52c704007084

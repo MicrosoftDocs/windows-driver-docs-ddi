@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_PROCESS_HEST_EVENT
 title: WHEAP_PROCESS_HEST_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 35c15ccb-8d4d-4247-b7db-ec0bd0864605

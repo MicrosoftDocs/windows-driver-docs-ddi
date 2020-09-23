@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlSetEvent
 title: DlSetEvent function
-author: windows-driver-content
 description: Sets an event object to the signaled state if it was not already in that state, and returns the event object's previous state.
 tech.root: display
 ms.assetid: 7c8103ff-2ba6-43be-b9eb-595e510cad84

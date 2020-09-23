@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_DISPLAYCONFIGPATH
 title: IDDCX_DISPLAYCONFIGPATH
-author: windows-driver-content
 description: The display monitor configuration path.
 tech.root: display
 ms.assetid: 5dce6205-f03c-4ca5-8f40-09a24eacbd13

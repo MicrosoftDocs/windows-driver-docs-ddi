@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_VIRTUALGPUMEMORYRESOURCE
 title: _DXGK_VIRTUALGPUMEMORYRESOURCE
-author: windows-driver-content
 description: Virtual GPU memory resource.
 tech.root: display
 ms.assetid: c3a78863-0715-4051-9ae1-145bbc2746c6

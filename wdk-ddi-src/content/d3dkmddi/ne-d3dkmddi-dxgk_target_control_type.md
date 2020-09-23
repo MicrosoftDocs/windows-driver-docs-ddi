@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_TARGET_CONTROL_TYPE
 title: DXGK_TARGET_CONTROL_TYPE
-author: windows-driver-content
 description: The kernel mode display driver target control type.
 tech.root: display
 ms.assetid: f7d630aa-7a49-4a0d-9fe9-94a0659c287e

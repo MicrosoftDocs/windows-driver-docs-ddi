@@ -1,7 +1,6 @@
 ---
 UID: NS:rsctypes._NET_PACKET_RSC_TIMESTAMP
 title: NET_PACKET_RSC_TIMESTAMP (rsctypes.h)
-author: windows-driver-content
 description: The NET_PACKET_RSC_TIMESTAMP structure contains receive segment coalescence (RSC) timestamp information for a packet.
 tech.root: netvista
 ms.assetid: 9a3fb9c0-432c-4d3c-a132-37a48ffc8509

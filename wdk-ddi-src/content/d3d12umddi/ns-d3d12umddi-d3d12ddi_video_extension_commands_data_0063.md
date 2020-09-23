@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMANDS_DATA_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMANDS_DATA_0063
-author: windows-driver-content
 description: Retrieves the array of video extension command info for a parameter stage.
 tech.root: display
 ms.assetid: 47a5a544-0d0e-418b-9378-ffb4e9dac7f1

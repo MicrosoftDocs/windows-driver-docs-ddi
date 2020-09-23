@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_LCI_REPORT_STATUS
 title: WDI_LCI_REPORT_STATUS
-author: windows-driver-content
 description: The WDI_LCI_REPORT_STATUS enumeration defines the response status for an LCI report, if the report were requested in a Fine Timing Measurement (FTM) request.
 tech.root: netvista
 ms.assetid: 2e552374-3964-49e4-9fc1-3befeebaced1

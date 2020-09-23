@@ -1,7 +1,6 @@
 ---
 UID: NS:eventdetectoroemadapter.IEventDetectorOemAdapterVtbl
 title: IEventDetectorOemAdapterVtbl
-author: windows-driver-content
 description: IEventDetectorOemAdapterVtbl structure is an artifact created by the IDL. It is reserved for Microsoft use.
 tech.root: audio
 ms.assetid: 15246179-b019-440a-8984-efae4370e341

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddvdeo._COLORSPACE_TRANSFORM_STAGE_CONTROL
 title: COLORSPACE_TRANSFORM_STAGE_CONTROL
-author: windows-driver-content
 description: The colorspace transform control.
 tech.root: display
 ms.assetid: 5c8ce12f-aff7-4096-b51d-b05015bb78da

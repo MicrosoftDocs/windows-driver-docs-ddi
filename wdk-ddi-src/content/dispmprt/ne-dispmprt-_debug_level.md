@@ -1,7 +1,6 @@
 ---
 UID: NE:dispmprt._DEBUG_LEVEL
 title: _DEBUG_LEVEL
-author: windows-driver-content
 description: Specifies the debug level.
 tech.root: display
 ms.assetid: 87404085-816f-4ca3-abf7-ae5955b54a99

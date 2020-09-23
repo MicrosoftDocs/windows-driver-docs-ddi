@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddscsi._STORAGE_ENDURANCE_DATA_DESCRIPTOR
 title: STORAGE_ENDURANCE_DATA_DESCRIPTOR
-author: windows-driver-content
 description: A miniport uses STORAGE_ENDURANCE_DATA_DESCRIPTOR to report a device's endurance information to the storage port driver.
 tech.root: storage
 ms.assetid: b28ee9f0-f089-4b13-a9b7-5c2521dc8105

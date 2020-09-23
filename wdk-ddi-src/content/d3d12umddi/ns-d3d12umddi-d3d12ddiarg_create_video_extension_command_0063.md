@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
 title: D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
-author: windows-driver-content
 description: Used to create a video extension command.
 tech.root: display
 ms.assetid: 5b621cc0-5062-44ab-8d1e-ddd88e10b1eb

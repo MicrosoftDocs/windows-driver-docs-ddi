@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmSecureVirtualMemoryEx
 title: MmSecureVirtualMemoryEx function
-author: windows-driver-content
 description: This routine probes the requested address range and protects the specified address range from having its protection made more restrictive and being deleted.
 tech.root: 
 ms.assetid: b8dbb7ce-6bc8-4899-92b6-7499b26e8539

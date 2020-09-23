@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlFreeUTF8String
 title: RtlFreeUTF8String function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 982c52a4-2b20-49d8-8984-443aaea3f438

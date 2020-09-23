@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_SET_LED
 title: IOCTL_STORAGE_SET_LED
-author: windows-driver-content
 description: 
 tech.root: storage
 ms.assetid: 11d2bcf1-f7cc-4b15-be59-bb7e4cb51300

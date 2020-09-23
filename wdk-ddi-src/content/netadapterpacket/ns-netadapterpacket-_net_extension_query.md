@@ -1,7 +1,6 @@
 ---
 UID: NS:netadapterpacket._NET_EXTENSION_QUERY
 title: NET_EXTENSION_QUERY (netadapterpacket.h)
-author: windows-driver-content
 description: The NET_EXTENSION_QUERY structure represents a query for a packet or fragment extension.
 tech.root: netvista
 ms.assetid: c5f5ab4a-886a-4eee-bc5d-dc73bbfe5c72

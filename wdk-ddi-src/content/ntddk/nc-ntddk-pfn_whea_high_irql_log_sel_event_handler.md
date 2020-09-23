@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
 title: PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 32e3153b-8701-48ec-ae54-5f508593fd97

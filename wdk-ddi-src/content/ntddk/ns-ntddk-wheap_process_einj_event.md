@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_PROCESS_EINJ_EVENT
 title: WHEAP_PROCESS_EINJ_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 883e6d97-fa64-4550-a4e5-6e0114afab7f

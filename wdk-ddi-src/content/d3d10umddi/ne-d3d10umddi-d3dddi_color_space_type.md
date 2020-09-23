@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DDDI_COLOR_SPACE_TYPE
 title: D3DDDI_COLOR_SPACE_TYPE
-author: windows-driver-content
 description: 
 tech.root: display
 ms.assetid: 9d3b7a33-e1ac-4ade-a5d3-d22ea4739f65

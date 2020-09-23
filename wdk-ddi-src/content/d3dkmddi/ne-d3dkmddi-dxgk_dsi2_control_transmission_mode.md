@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_DSI2_CONTROL_TRANSMISSION_MODE
 title: DXGK_DSI2_CONTROL_TRANSMISSION_MODE
-author: windows-driver-content
 description: The DSI-2 (display serial interface) control transmission mode.
 tech.root: display
 ms.assetid: cd696285-110a-4101-be72-ad4591d0baf4

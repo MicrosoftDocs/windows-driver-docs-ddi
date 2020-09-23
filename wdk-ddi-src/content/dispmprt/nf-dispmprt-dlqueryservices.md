@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlQueryServices
 title: DlQueryServices function
-author: windows-driver-content
 description: Exposes a specified interface that is implemented by the display driver.
 tech.root: display
 ms.assetid: 95c6bbed-9ae6-44cf-93ae-492d939e7d54

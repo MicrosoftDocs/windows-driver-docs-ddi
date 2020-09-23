@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_GENERIC_ERR_MEM_MAP_EVENT
 title: WHEAP_GENERIC_ERR_MEM_MAP_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: c5309ddf-acfa-4b8b-bd93-3b90c4ec5e6f

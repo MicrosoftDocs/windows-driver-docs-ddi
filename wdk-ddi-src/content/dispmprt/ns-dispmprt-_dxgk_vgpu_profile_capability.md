@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_VGPU_PROFILE_CAPABILITY
 title: _DXGK_VGPU_PROFILE_CAPABILITY
-author: windows-driver-content
 description: Contains information about the virtual GPU profile capability.
 tech.root: display
 ms.assetid: d9c123d2-5f03-46dd-873c-bf3f6781bcc4

@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER
 title: _WHEA_ERROR_SOURCE_CORRECT_DEVICE_DRIVER
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: c1f0bed8-0dec-4034-a586-bb2a39a8b08f

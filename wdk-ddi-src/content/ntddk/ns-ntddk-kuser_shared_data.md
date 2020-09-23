@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._KUSER_SHARED_DATA
 title: KUSER_SHARED_DATA
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 91ffdc97-a46c-4f15-8823-f07d23e6a1d0

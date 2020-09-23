@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlUTF8StringToUnicodeString
 title: RtlUTF8StringToUnicodeString function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: ab311f45-8ab8-4360-b3ec-928633dfb020

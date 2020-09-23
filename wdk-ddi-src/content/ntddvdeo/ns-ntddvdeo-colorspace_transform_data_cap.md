@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._COLORSPACE_TRANSFORM_DATA_CAP
 title: COLORSPACE_TRANSFORM_DATA_CAP
-author: windows-driver-content
 description: The colorspace transform data cap.
 tech.root: display
 ms.assetid: d884b2ba-c7de-4165-82b6-bd0999d7ab8a

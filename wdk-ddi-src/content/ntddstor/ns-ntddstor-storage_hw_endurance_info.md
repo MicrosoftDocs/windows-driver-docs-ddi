@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_ENDURANCE_INFO
 title: STORAGE_HW_ENDURANCE_INFO
-author: windows-driver-content
 description: A storage port driver uses the **STORAGE_HW_ENDURANCE_INFO** structure to report a device's endurance information.
 tech.root: storage
 ms.assetid: a2572a43-05b5-45c1-9c4e-c40281affb63

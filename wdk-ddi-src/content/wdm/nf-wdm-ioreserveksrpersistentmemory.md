@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoReserveKsrPersistentMemory
 title: IoReserveKsrPersistentMemory function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 73e58128-05bd-43de-8345-ce16c6b36cbf

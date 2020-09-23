@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlEnumerateChildren
 title: DlEnumerateChildren function
-author: windows-driver-content
 description: Allows a miniport driver to force a re-enumeration of its child devices.
 tech.root: display
 ms.assetid: 3d97741f-870d-4018-870f-2c4aecf960de

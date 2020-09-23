@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_READY
 title: _WHEA_ERROR_SOURCE_READY
-author: windows-driver-content
 description: 
 tech.root:
 ms.assetid: 8d9b79fa-ab4c-4469-a4a5-9eca741ff804

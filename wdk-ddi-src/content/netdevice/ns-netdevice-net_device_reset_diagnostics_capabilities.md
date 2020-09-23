@@ -1,7 +1,6 @@
 ---
 UID: NS:netdevice._NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES
 title: NET_DEVICE_RESET_DIAGNOSTICS_CAPABILITIES
-author: windows-driver-content
 ms.topic: language-reference
 ms.author: windowsdriverdev
 ms.date: 07/02/2020

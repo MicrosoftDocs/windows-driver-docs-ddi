@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._MCI_STATUS_AMD_BITS
 title: MCI_STATUS_AMD_BITS
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: d4119011-157e-4f51-b95a-6ab20cf553c0

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_STUCK_ERROR_EVENT
 title: WHEAP_STUCK_ERROR_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 2242c293-a853-40d3-87bc-9e74dc36f6de

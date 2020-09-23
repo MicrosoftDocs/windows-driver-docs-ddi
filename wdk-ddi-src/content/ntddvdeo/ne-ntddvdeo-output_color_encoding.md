@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddvdeo._OUTPUT_COLOR_ENCODING
 title: OUTPUT_COLOR_ENCODING
-author: windows-driver-content
 description: Output color encoding.
 tech.root: display
 ms.assetid: ec0813b8-a2ac-4312-a748-410afe7d7725

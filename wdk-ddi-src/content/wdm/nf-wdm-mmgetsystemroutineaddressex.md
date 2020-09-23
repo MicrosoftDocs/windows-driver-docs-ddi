@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmGetSystemRoutineAddressEx
 title: MmGetSystemRoutineAddressEx function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: a02b0193-1f21-497b-9628-6ea6afb43d50

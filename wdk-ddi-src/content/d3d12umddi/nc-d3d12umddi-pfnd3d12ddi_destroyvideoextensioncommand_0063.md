@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYVIDEOEXTENSIONCOMMAND_0063
 title: PFND3D12DDI_DESTROYVIDEOEXTENSIONCOMMAND_0063
-author: windows-driver-content
 description: Destroys the video extension command.
 tech.root: display
 ms.assetid: 4312e775-cc75-477b-979b-09fd0604b55c

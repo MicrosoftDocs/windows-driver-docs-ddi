@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortHardwareReset
 title: StorPortHardwareReset function
-author: windows-driver-content
 description: A miniport can call StorPortHardwareReset to issue a hardware reset.
 tech.root: storage
 ms.assetid: 99e1fcdc-a727-4198-b02e-f4906f7b3d69

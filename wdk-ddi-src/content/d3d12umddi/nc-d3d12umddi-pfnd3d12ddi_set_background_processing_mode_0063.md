@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063
 title: PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063
-author: windows-driver-content
 description: When an application changes background processing mode, PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063 is called to inform the UMD of the new settings.
 tech.root: display
 ms.assetid: 2f87c644-756d-4fcf-b3a5-7b0a636e8203

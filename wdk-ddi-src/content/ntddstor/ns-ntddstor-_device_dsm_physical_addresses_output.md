@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT
 title: DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT
-author: windows-driver-content
 description: The DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT structure stores physical address ranges that correspond with one or more logical block ranges.
 tech.root: storage
 ms.assetid: 0eb514dd-588f-41ee-bd30-5dad00c19141

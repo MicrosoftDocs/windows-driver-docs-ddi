@@ -1,7 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES
 title: NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES structure describes a net adapter's wake on LAN (WoL) capabilities for waking from a magic packet.
 tech.root: netvista
 ms.assetid: 275f7fe2-1bfc-4a88-b3c7-b78840b34930

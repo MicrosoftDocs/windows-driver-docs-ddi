@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETDEVICELOCATION
 title: _DXGKARG_GETDEVICELOCATION
-author: windows-driver-content
 description: Arguments used to get the location of a Virtual Function on the PCI bus relative to the root partition.
 tech.root: display
 ms.assetid: dbc2163c-6465-4c4d-a597-c941168515be

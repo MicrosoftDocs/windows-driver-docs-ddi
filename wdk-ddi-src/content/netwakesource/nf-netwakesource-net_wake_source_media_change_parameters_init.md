@@ -1,7 +1,6 @@
 ---
 UID: NF:netwakesource.NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT
 title: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT function (netwakesource.h)
-author: windows-driver-content
 description: The NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT function initializes a NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 096314c3-db04-4d4d-bab4-697ce4edd6fe

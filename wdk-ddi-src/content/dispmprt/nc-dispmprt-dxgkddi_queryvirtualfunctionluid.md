@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERYVIRTUALFUNCTIONLUID
 title: DXGKDDI_QUERYVIRTUALFUNCTIONLUID
-author: windows-driver-content
 description: Queries for a virtual function's locally unique identifier.
 tech.root: display
 ms.assetid: 9d908fbf-4d2e-4099-b0d5-12cdb5014d61

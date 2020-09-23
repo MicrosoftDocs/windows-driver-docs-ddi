@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_SIZE_DATA_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_SIZE_DATA_0063
-author: windows-driver-content
 description: Queries the residency size information for a video extension command.
 tech.root: display
 ms.assetid: caf59d76-9a0e-4ac9-9b2a-f8ff32cab4da

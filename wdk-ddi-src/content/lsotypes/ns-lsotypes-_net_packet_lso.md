@@ -1,7 +1,6 @@
 ---
 UID: NS:lsotypes._NET_PACKET_LSO
 title: NET_PACKET_LSO (lsotypes.h)
-author: windows-driver-content
 description: The NET_PACKET_LSO structure contains large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: dbdc4d6d-06fb-45aa-8792-1bef0538b0d1

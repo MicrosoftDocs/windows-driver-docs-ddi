@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PPHYSICAL_COUNTER_OVERFLOW_HANDLER
 title: PPHYSICAL_COUNTER_OVERFLOW_HANDLER
-author: windows-driver-content
 description: The PPHYSICAL_COUNTER_OVERFLOW_HANDLER is implemented by the client driver to handle overflows from the counters resources acquired through the HalAllocateHardwareCounters routine.
 tech.root: 
 ms.assetid: 49f5213b-3b7e-4bdc-9f4d-16c06e602fba

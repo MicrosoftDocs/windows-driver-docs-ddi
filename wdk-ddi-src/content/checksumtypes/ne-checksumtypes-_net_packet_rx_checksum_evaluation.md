@@ -1,7 +1,6 @@
 ---
 UID: NE:checksumtypes._NET_PACKET_RX_CHECKSUM_EVALUATION
 title: NET_PACKET_RX_CHECKSUM_EVALUATION (checksumtypes.h)
-author: windows-driver-content
 description: The NET_PACKET_RX_CHECKSUM_EVALUATION enumeration specifies checksum evaluation flags for a NET_PACKET_CHECKSUM structure during packet reception.
 tech.root: netvista
 ms.assetid: 9a7e64b5-5d0b-4e7d-8a75-c047460cd65f

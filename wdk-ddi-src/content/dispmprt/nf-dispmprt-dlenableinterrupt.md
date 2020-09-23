@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlEnableInterrupt
 title: DlEnableInterrupt function
-author: windows-driver-content
 description: Reenables interrupts from a video adapter.
 tech.root: display
 ms.assetid: 3b5a4fc3-35bd-4a8b-aaa9-c414510144f4

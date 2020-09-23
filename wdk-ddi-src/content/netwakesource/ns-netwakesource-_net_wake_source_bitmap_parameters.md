@@ -1,7 +1,6 @@
 ---
 UID: NS:netwakesource._NET_WAKE_SOURCE_BITMAP_PARAMETERS
 title: NET_WAKE_SOURCE_BITMAP_PARAMETERS (netwakesource.h)
-author: windows-driver-content
 description: The NET_WAKE_SOURCE_BITMAP_PARAMETERS structure contains parameters for a wake-on-LAN (WoL) bitmap pattern wake source.
 tech.root: netvista
 ms.assetid: 2ebc685c-02ef-4640-955f-17b032f4b46a

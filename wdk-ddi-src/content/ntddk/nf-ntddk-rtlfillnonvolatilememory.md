@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlFillNonVolatileMemory
 title: RtlFillNonVolatileMemory function
-author: windows-driver-content
 description: Fills the non-volatile destination buffer with the given value.
 tech.root: 
 ms.assetid: 4126cd43-dfd3-4d78-ba6c-192ece10aa2d

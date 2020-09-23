@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_MEASUREMENTS_ACTION_0062
 title: D3D12DDI_MEASUREMENTS_ACTION_0062
-author: windows-driver-content
 description: Indicates what to do with the result of previous PGO (profile guided optimization) measurements.
 tech.root: display
 ms.assetid: 24a8c14d-4202-4804-a679-bb9674873dd5

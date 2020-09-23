@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlInitUTF8String
 title: RtlInitUTF8String function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: ec238356-9307-4888-8764-685a83d76eea

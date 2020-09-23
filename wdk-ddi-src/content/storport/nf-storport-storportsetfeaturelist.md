@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortSetFeatureList
 title: StorPortSetFeatureList function
-author: windows-driver-content
 description: A miniport can call StorPortSetFeatureList to set the Storport feature list that it supports.
 tech.root: storage
 ms.assetid: 1426766a-5575-42ba-8a64-53d2e6c23be7

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_CLEARED_POISON_EVENT
 title: WHEAP_CLEARED_POISON_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 77b44885-a7c4-4aca-ac5e-e4da87ecc90b

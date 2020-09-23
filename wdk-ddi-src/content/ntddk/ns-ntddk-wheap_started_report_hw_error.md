@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_STARTED_REPORT_HW_ERROR
 title: WHEAP_STARTED_REPORT_HW_ERROR
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 8c2d5cfe-6538-4588-9873-56f356d98511

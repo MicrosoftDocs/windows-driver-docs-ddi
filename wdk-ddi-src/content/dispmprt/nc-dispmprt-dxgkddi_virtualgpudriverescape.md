@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_VIRTUALGPUDRIVERESCAPE
 title: DXGKDDI_VIRTUALGPUDRIVERESCAPE
-author: windows-driver-content
 description: This function passes information between a user mode emulation DLL and the kernel mode driver.
 tech.root: display
 ms.assetid: ce03171f-a413-409d-8a8e-b80bd7592025

@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlUnmapMemory
 title: DlUnmapMemory function
-author: windows-driver-content
 description: Releases a mapping between a logical address range for the adapter and a virtual address range in the user-mode address space of a particular thread.
 tech.root: display
 ms.assetid: 44b55045-998e-4611-938f-d38692759e66

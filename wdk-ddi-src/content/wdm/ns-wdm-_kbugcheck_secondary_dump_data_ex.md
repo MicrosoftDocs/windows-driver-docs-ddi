@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_SECONDARY_DUMP_DATA_EX
 title: _KBUGCHECK_SECONDARY_DUMP_DATA_EX
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 85ff55ca-e626-4214-9844-2eac78b9dcc5

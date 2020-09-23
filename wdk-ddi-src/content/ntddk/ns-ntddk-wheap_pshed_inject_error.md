@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_PSHED_INJECT_ERROR
 title: WHEAP_PSHED_INJECT_ERROR
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: f180d9d6-ebfd-46de-8e39-5f6f45886169

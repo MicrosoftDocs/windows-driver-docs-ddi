@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._IO_NOTIFICATION_EVENT_CATEGORY
 title: IO_NOTIFICATION_EVENT_CATEGORY
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 9dbe9f82-a042-4d9e-b8e5-98725fb55e06

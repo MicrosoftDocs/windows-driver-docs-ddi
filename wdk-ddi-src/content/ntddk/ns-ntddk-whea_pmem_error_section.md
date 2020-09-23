@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PMEM_ERROR_SECTION
 title: WHEA_PMEM_ERROR_SECTION
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 3f846ba4-7f55-4825-8f2b-e80971c8f099

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_PFA_REMOVE_TRIGGER
 title: WHEA_PFA_REMOVE_TRIGGER
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 0f85285c-9db4-42ab-bb06-6c7f006864ee

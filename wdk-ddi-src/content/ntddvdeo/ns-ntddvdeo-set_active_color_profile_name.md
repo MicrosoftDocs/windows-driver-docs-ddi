@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._SET_ACTIVE_COLOR_PROFILE_NAME
 title: SET_ACTIVE_COLOR_PROFILE_NAME
-author: windows-driver-content
 description: Used to set the active color profile name.
 tech.root: display
 ms.assetid: b64d54be-f7de-4063-9a00-16fbe9fac85c

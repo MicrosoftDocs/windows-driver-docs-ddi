@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEAP_ERROR_CLEARED_EVENT
 title: WHEAP_ERROR_CLEARED_EVENT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 34e719a1-3e41-4a1a-949a-d35201b26252

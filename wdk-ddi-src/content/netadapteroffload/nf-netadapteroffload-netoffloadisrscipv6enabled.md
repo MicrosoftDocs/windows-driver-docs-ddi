@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsRscIPv6Enabled
 title: NetOffloadIsRscIPv6Enabled function (netadapteroffload.h)
-author: windows-driver-content
 description: The NetOffloadIsRscIPv6Enabled function determines whether a net adapter has RSC offload enabled for IPv6 packets.
 tech.root: netvista
 ms.assetid: b34b6dcd-588f-4cc7-8044-62fd58897f8b

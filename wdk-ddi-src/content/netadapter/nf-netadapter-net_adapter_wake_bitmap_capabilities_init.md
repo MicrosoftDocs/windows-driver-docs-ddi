@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT
 title: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function initializes a NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 8e7670bc-a6b2-4f1b-ad10-6f16cd0bd7f9

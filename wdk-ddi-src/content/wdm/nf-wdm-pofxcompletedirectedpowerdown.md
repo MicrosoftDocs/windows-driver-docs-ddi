@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxCompleteDirectedPowerDown
 title: PoFxCompleteDirectedPowerDown function
-author: windows-driver-content
 description: A Directed Power Framework (DFx) client driver calls this function to complete the Directed power down transition.
 tech.root: 
 ms.assetid: c4ce7279-b8d7-4215-a9d2-e09b73d3ecfd

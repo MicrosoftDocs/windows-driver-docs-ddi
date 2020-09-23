@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_DESTROYVIRTUALGPU
 title: _DXGKARG_DESTROYVIRTUALGPU
-author: windows-driver-content
 description: Arguments used to destroy a virtual GPU.
 tech.root: display
 ms.assetid: a188ce90-46eb-4098-8da2-bf890f720ce1

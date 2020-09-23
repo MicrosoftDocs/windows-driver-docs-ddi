@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_SEL_BUGCHECK_PROGRESS
 title: WHEA_SEL_BUGCHECK_PROGRESS
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 3a97010f-ec3e-498e-81a9-db51dd710841

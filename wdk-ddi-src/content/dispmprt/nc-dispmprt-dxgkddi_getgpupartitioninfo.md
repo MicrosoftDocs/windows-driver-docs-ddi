@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETGPUPARTITIONINFO
 title: DXGKDDI_GETGPUPARTITIONINFO
-author: windows-driver-content
 description: Returns physical GPU partition information.
 tech.root: display
 ms.assetid: 1355e857-f565-4705-8dde-077bb042bcb3

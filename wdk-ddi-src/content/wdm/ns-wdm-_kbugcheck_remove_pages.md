@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_REMOVE_PAGES
 title: _KBUGCHECK_REMOVE_PAGES
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 3b597044-e02a-48ed-9172-83644f0ef44e

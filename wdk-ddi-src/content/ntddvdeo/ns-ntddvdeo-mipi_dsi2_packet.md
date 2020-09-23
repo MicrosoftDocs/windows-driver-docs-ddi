@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._MIPI_DSI2_PACKET
 title: MIPI_DSI2_PACKET
-author: windows-driver-content
 description: Mipi (mobile industry processor interface) DSI-2 (display serial interface) packet.
 tech.root: display
 ms.assetid: bb5cc8cf-1a2e-482a-8f30-47a79e72f6b4

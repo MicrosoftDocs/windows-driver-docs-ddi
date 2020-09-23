@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsZeroMemory
 title: RtlIsZeroMemory function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 8816a51c-1c4e-400a-8861-21c967d79982

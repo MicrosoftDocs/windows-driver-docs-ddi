@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._COLORSPACE_TRANSFORM_MATRIX_CAP
 title: COLORSPACE_TRANSFORM_MATRIX_CAP
-author: windows-driver-content
 description: The colorspace transform matrix capabilities.
 tech.root: display
 ms.assetid: 3cdf3f26-c2ae-40b9-adba-a765300bfae8

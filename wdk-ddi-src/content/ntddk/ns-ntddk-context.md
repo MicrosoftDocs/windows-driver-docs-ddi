@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._CONTEXT
 title: CONTEXT
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 19fd27ee-f755-4dab-843e-1aa1beb9448d

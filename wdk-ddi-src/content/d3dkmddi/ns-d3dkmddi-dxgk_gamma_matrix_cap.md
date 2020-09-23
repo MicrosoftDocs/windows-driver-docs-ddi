@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GAMMA_MATRIX_CAP
 title: DXGK_GAMMA_MATRIX_CAP
-author: windows-driver-content
 description: The stage capability for a matrix lookup table.
 tech.root: display
 ms.assetid: ee798917-f982-4d26-ace7-bbc8a76cdaa1

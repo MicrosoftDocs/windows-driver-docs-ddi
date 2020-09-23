@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_INDICATOR_STATE
 title: STORAGE_INDICATOR_STATE
-author: windows-driver-content
 description: 
 tech.root: storage
 ms.assetid: 7bd765c6-36da-4bf9-bfb8-a2f2bc9b62fe

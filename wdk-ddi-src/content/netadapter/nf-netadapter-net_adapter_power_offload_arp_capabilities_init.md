@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT
 title: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT function initializes a NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: c7a01b5d-7ad6-498e-bd6a-0d66eb9bd220

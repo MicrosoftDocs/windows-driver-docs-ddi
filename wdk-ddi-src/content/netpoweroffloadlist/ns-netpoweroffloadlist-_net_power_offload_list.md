@@ -1,7 +1,6 @@
 ---
 UID: NS:netpoweroffloadlist._NET_POWER_OFFLOAD_LIST
 title: NET_POWER_OFFLOAD_LIST (netpoweroffloadlist.h)
-author: windows-driver-content
 description: The NET_POWER_OFFLOAD_LIST structure represents a list of low power protocol offloads to a net adapter.
 tech.root: netvista
 ms.assetid: a8cc5703-68a3-4adf-97b5-ec3271c1fdc3

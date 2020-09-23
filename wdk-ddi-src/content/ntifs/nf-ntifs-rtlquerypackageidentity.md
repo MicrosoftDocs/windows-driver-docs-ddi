@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlQueryPackageIdentity
 title: RtlQueryPackageIdentity function
-author: windows-driver-content
 description: RtlQueryPackageIdentity
 tech.root: ifsk
 ms.assetid: 2f07c9b4-a7c4-4aad-988c-280b6e575eb3

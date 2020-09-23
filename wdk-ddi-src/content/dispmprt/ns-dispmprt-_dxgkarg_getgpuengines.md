@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETGPUENGINES
 title: _DXGKARG_GETGPUENGINES
-author: windows-driver-content
 description: No longer used.
 tech.root: display
 ms.assetid: 538f2d95-adcc-4b3a-be4b-3a5fbc83f04d

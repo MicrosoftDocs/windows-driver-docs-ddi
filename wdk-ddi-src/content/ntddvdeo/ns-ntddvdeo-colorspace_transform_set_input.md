@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._COLORSPACE_TRANSFORM_SET_INPUT
 title: COLORSPACE_TRANSFORM_SET_INPUT
-author: windows-driver-content
 description: Used to set input for the colorspace transform.
 tech.root: display
 ms.assetid: 2b99d877-aeab-49aa-82ad-4808b8a00519

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SAVEMEMORYFORHOTUPDATEFLAGS
 title: DXGK_SAVEMEMORYFORHOTUPDATEFLAGS
-author: windows-driver-content
 description: Flags used when saving memory for driver hot updates.
 tech.root: display
 ms.assetid: 0862dcea-2d89-483d-a503-b1964dff971d

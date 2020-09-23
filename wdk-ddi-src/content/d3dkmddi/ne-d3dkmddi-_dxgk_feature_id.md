@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_FEATURE_ID
 title: _DXGK_FEATURE_ID
-author: windows-driver-content
 description: The feature ID of a driver feature.
 tech.root: display
 ms.assetid: ff693135-419c-4950-a780-f99313dd5ea5

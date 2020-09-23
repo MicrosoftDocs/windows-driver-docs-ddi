@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CONTROLMODEBEHAVIOR
 title: DXGKDDI_CONTROLMODEBEHAVIOR
-author: windows-driver-content
 description: The DxgkDdiControlModeBehavior function requests high-level mode enumeration and settings behaviors.
 tech.root: display
 ms.assetid: a98fa9dd-f514-4e30-8c77-71a424c1675c

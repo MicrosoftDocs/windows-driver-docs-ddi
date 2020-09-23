@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortMarkDeviceFailed
 title: StorPortMarkDeviceFailed function
-author: windows-driver-content
 description: The StorPortMarkDeviceFailed routine marks a device with failed status.
 tech.root: storage
 ms.assetid: 91951a88-18ba-4ddc-b8e0-d789f179fa1f

@@ -1,7 +1,6 @@
 ---
 UID: NF:netpoweroffload.NetPowerOffloadGetNSParameters
 title: NetPowerOffloadGetNSParameters function (netpoweroffload.h)
-author: windows-driver-content
 description: The NetPowerOffloadGetNSParameters function gets parameters for an IPv6 Neighbor Solicitation (NS) low power protocol offload to a net adapter.
 tech.root: netvista
 ms.assetid: 4434a42f-2f3a-4d19-979c-52de51133b44

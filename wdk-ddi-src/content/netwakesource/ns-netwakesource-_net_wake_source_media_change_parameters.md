@@ -1,7 +1,6 @@
 ---
 UID: NS:netwakesource._NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS
 title: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS (netwakesource.h)
-author: windows-driver-content
 description: The NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure contains parameters for a media change wake-on-LAN (WoL) wake source.
 tech.root: netvista
 ms.assetid: de7b5a2a-dc88-4b27-8896-7682e8dce72a

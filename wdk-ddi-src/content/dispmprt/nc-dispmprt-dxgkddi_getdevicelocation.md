@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETDEVICELOCATION
 title: DXGKDDI_GETDEVICELOCATION
-author: windows-driver-content
 description: Returns the location of a Virtual Function on the PCI bus relative to the root partition.
 tech.root: display
 ms.assetid: 9940a83c-dc9c-4ac0-94d3-52728a76f870

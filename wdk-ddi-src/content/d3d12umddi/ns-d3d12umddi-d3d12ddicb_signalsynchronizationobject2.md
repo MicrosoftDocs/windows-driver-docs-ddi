@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICB_SIGNALSYNCHRONIZATIONOBJECT2
 title: D3D12DDICB_SIGNALSYNCHRONIZATIONOBJECT2
-author: windows-driver-content
 description: Signals a synchronization object.
 tech.root: display
 ms.assetid: 45bbd40e-92a8-4ceb-a220-b196a383ba70

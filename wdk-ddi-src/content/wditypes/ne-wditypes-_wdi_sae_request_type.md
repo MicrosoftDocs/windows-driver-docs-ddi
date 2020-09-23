@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_SAE_REQUEST_TYPE
 title: WDI_SAE_REQUEST_TYPE
-author: windows-driver-content
 description: The WDI_SAE_REQUEST_TYPE enumeration defines the type of Simultaneous Authentication of Equals (SAE) request frame to send to the BSSID.
 tech.root: netvista
 ms.assetid: 62ece6f9-6cb7-47c6-8f52-68a6768a22c4

@@ -1,7 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_DEVICE_INFORMATION_V2
 title: "_HDAUDIO_DEVICE_INFORMATION_V2"
-author: windows-driver-content
 description: The HDAUDIO_DEVICE_INFORMATION_V2 structure specifies the hardware capabilities of the HD Audio bus controller.
 tech.root: audio
 ms.date: 02/01/2019

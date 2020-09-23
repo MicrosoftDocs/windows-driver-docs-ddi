@@ -1,7 +1,6 @@
 ---
 UID: NE:storport._STORPORT_QUERY_CONFIGURATION_TYPE
 title: STORPORT_QUERY_CONFIGURATION_TYPE
-author: windows-driver-content
 description: The STORPORT_QUERY_CONFIGURATION_TYPE enumerator identifies the configuration being queried in StorPortQueryConfiguration.
 tech.root: storage
 ms.assetid: c91774dc-a244-46e7-a5bb-ef7b8493184f

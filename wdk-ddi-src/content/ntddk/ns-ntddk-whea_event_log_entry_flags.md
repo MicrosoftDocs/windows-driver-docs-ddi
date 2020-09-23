@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_EVENT_LOG_ENTRY_FLAGS
 title: WHEA_EVENT_LOG_ENTRY_FLAGS
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 417a74d6-611c-4da9-be6c-42ed204dfe0f

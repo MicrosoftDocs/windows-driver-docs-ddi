@@ -1,7 +1,6 @@
 ---
 UID: NE:extension._NET_EXTENSION_TYPE
 title: NET_EXTENSION_TYPE (extension.h)
-author: windows-driver-content
 description: The NET_EXTENSION_TYPE enumeration specifies the type of extension that a client driver is querying.
 tech.root: netvista
 ms.assetid: 92541d1b-82e8-4717-9733-3e0e562a9d09

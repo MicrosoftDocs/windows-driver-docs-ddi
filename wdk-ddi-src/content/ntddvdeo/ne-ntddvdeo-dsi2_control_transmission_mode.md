@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddvdeo._DSI2_CONTROL_TRANSMISSION_MODE
 title: DSI2_CONTROL_TRANSMISSION_MODE
-author: windows-driver-content
 description: DSI-2 (display serial interface) control transmission mode.
 tech.root: display
 ms.assetid: cebd9ace-6678-4fdf-a12d-0685772aae3c

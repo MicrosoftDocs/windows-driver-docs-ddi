@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortCancelDpc
 title: StorPortCancelDpc function
-author: windows-driver-content
 description: StorPortCancelDpc attempts to cancel the execution of a StorPort deferred procedure call (DPC).
 tech.root: storage
 ms.assetid: e40dd10a-adae-480c-a820-6a9b0b3b776e

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_INTERNAL_STATUS_DATA
 title: DEVICE_INTERNAL_STATUS_DATA
-author: windows-driver-content
 description: 
 tech.root: storage
 ms.assetid: 910ff4a4-e0e3-4402-8231-c3d62afe2ea4

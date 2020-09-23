@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_GAMMA_DATA_TYPE
 title: DXGK_GAMMA_DATA_TYPE
-author: windows-driver-content
 description: Describes the gamma data type.
 tech.root: display
 ms.assetid: 51700e53-2819-4a18-ac88-fb14fa9335f9

@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_READVIRTUALFUNCTIONCONFIG
 title: DXGKDDI_READVIRTUALFUNCTIONCONFIG
-author: windows-driver-content
 description: This routine supplies the non-privileged virtual machine with the contents of a PCI Express SR-IOV Virtual Function’s configuration space values.
 tech.root: display
 ms.assetid: 5c812c6f-6adf-41f4-bb88-19375373e1f7

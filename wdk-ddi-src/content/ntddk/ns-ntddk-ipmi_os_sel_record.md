@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._IPMI_OS_SEL_RECORD
 title: IPMI_OS_SEL_RECORD
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 933266fe-8aa7-4315-b79c-eda96e2f4539

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SUBMITTARGETCONTROL
 title: DXGKARG_SUBMITTARGETCONTROL
-author: windows-driver-content
 description: Arguments used the by the DXGKDDI_SUBMITTARGETCONTROL callback function to request control operations to be performed on a target.
 tech.root: display
 ms.assetid: c5a946d3-1e58-4705-bde0-0d4e2ce9e7a6

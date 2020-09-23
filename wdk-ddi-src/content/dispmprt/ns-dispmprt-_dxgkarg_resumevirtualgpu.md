@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_RESUMEVIRTUALGPU
 title: _DXGKARG_RESUMEVIRTUALGPU
-author: windows-driver-content
 description: Resumes a virtual GPU.
 tech.root: display
 ms.assetid: 06e0c073-325b-4069-9202-836cfebf5f62

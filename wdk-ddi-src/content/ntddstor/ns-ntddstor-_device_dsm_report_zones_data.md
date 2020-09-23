@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_REPORT_ZONES_DATA
 title: DEVICE_DSM_REPORT_ZONES_DATA
-author: windows-driver-content
 description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 988906ae-fa8c-4370-aedb-c5073766282c

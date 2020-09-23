@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_SHADER_0026
 title: D3D12DDIARG_CREATE_SHADER_0026
-author: windows-driver-content
 description: Describes the parameters that the display driver uses to create a shader.
 tech.root: display
 ms.assetid: 0806447d-f18e-455b-b5d5-40bb21ff50f6

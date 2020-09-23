@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterPowerOffloadSetNSCapabilities
 title: NetAdapterPowerOffloadSetNSCapabilities function (netadapter.h)
-author: windows-driver-content
 description: The NetAdapterPowerOffloadSetNsCapabilities function sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
 tech.root: netvista
 ms.assetid: 7ee49626-79b4-46e3-a98f-0b9990cb4a2d

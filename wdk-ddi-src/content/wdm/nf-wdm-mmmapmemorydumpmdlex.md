@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmMapMemoryDumpMdlEx
 title: MmMapMemoryDumpMdlEx function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: c4a12185-4c6f-43e9-87ba-6dc1b24fa6cf

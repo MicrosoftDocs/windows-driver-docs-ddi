@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_TARGET_GAMMA_CAPS
 title: DXGK_TARGET_GAMMA_CAPS
-author: windows-driver-content
 description: Describes the gamma pipeline stage capabilities.
 tech.root: display
 ms.assetid: 74a20063-1c04-4db6-abb0-93d378690822

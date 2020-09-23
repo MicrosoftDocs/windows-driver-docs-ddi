@@ -1,7 +1,6 @@
 ---
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.GetCapabilities
 title: IEventDetectorOemAdapter::GetCapabilities
-author: windows-driver-content
 description: Returns langauges and detector features supported by the object.
 tech.root: audio
 ms.assetid: cd025bdc-7f10-4881-9620-b77570455c18

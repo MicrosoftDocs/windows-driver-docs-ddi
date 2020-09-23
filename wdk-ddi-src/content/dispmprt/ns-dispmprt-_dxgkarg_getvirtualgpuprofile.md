@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETVIRTUALGPUPROFILE
 title: _DXGKARG_GETVIRTUALGPUPROFILE
-author: windows-driver-content
 description: Arguments used to get virtual GPU profile.
 tech.root: display
 ms.assetid: 10392f1f-3112-4cbe-9e70-47ea6d37fbaf

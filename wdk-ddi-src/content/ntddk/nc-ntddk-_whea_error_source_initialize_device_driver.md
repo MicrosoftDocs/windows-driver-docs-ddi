@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
 title: _WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 67a4d3d0-c449-4878-b201-78b34a958fe8

@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlVerifyAccessRanges
 title: DlVerifyAccessRanges function
-author: windows-driver-content
 description: Checks the registry for whether another driver has already claimed ownership of the specified bus-relative access ranges and any other hardware resources.
 tech.root: display
 ms.assetid: 72310495-2f98-4661-98d1-d55292f4e3ed

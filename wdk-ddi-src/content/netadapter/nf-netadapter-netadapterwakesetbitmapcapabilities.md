@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterWakeSetBitmapCapabilities
 title: NetAdapterWakeSetBitmapCapabilities function (netadapter.h)
-author: windows-driver-content
 description: The NetAdapterWakeSetBitmapCapabilities function sets a net adapter's bitmap pattern wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: 1c6006b8-6241-418f-b81c-b32a318eeea6

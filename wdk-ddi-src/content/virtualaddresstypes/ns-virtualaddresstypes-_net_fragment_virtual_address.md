@@ -1,7 +1,6 @@
 ---
 UID: NS:virtualaddresstypes._NET_FRAGMENT_VIRTUAL_ADDRESS
 title: NET_FRAGMENT_VIRTUAL_ADDRESS (virtualaddresstypes.h)
-author: windows-driver-content
 description: The NET_FRAGMENT_VIRTUAL_ADDRESS structure contains data buffer information for a NET_FRAGMENT.
 tech.root: netvista
 ms.assetid: 6D9E0986-50FF-4CDC-B5F3-475047DD5699

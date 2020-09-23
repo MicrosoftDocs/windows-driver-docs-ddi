@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SUBMITTARGETCONTROL
 title: DXGKDDI_SUBMITTARGETCONTROL
-author: windows-driver-content
 description: Allows the OS to request control operations to be performed on a target using a control interface to the target owned by the graphics adapter.
 tech.root: display
 ms.assetid: 5a5bdf05-0a89-48d7-a659-ded08982861f

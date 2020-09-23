@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_WAKE_REASON_PACKET_INIT
 title: NET_ADAPTER_WAKE_REASON_PACKET_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_REASON_PACKET_INIT function initializes a NET_ADAPTER_WAKE_REASON_PACKET structure.
 tech.root: netvista
 ms.assetid: 3ef00ff3-cb05-4461-8656-d56aca530b9e

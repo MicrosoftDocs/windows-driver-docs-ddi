@@ -1,7 +1,6 @@
 ---
 UID: NF:dispmprt.DlAllocatePool
 title: DlAllocatePool function
-author: windows-driver-content
 description: Allocates pool memory of the specified type.
 tech.root: display
 ms.assetid: 89dbd943-dc4d-489b-96ed-0486536903cf
