@@ -50,15 +50,15 @@ The **NET_DEVICE_RESET_CAPABILITIES_INIT** function initializes a [**NET_DEVICE_
 
 ### -param ResetDiagnosticsCapabilities
 
-[out] A pointer to a driver-allocated [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure.
+[_Out_] A pointer to a driver-allocated [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure.
 
 ### -param ResetDiagnosticsGuid
 
-[in] A client driver specified global unique identifier (GUID). Developers can use this identifier to retrieve reset diagnostics. The client driver collects the reset diagnostics as secondary data in the full kernel dump captured in the process of device reset and recovery.
+[_In_] A client driver specified global unique identifier (GUID). Developers can use this identifier to retrieve reset diagnostics. The client driver collects the reset diagnostics as secondary data in the full kernel dump captured in the process of device reset and recovery.
 
 ### -param EvtNetDeviceCollectResetDiagnostics
 
-[in] A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
+[_In_] A pointer to the client driver's implementation of the [**EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS**](nc-netdevice-evt_net_device_collect_reset_diagnostics.md) callback that collects device-specific reset diagnostics from a hardware device.
 
 ## -remarks
 

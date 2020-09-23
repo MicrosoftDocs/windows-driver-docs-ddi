@@ -1,9 +1,7 @@
 ---
 UID: NF:netdevice.NetDeviceInitSetResetCapabilities
 title: NetDeviceInitSetResetCapabilities
-author: windows-driver-content
 ms.topic: language-reference
-ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows
@@ -50,11 +48,11 @@ The **NetDeviceInitSetResetCapabilities** function registers a client driver's [
 
 ### -param DeviceInit
 
-[in, out] A pointer to a **WDFDEVICE_INIT** object that the client driver received in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
+[_Inout_] A pointer to a **WDFDEVICE_INIT** object that the client driver received in its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback.
 
 ### -param ResetDiagnosticsCapabilities
 
-[in] A pointer to a client driver allocated and initialized [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure.
+[_In_] A pointer to a client driver allocated and initialized [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) structure.
 
 ## -remarks
 
