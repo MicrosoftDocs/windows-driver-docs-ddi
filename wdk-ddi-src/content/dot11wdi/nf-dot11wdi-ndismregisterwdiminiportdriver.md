@@ -55,16 +55,16 @@ A miniport driver calls the NdisMRegisterWdiMiniportDriver function to register 
 
 [in]
 A pointer to an opaque driver object that the miniport driver received in its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
+     <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-miniport-driver">DriverEntry of NDIS
+     <a href="/windows-hardware/drivers/network/initializing-a-miniport-driver">DriverEntry of NDIS
      Miniport Drivers</a>).
 
 ### -param RegistryPath 
 
 [in]
 A pointer to an opaque registry path that the miniport driver received in its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
+     <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
 ### -param NdisDriverContext 
@@ -77,13 +77,13 @@ A handle to a driver-allocated context area where the driver maintains state and
 
 [in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_driver_characteristics">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_driver_characteristics">
      NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a> structure that the caller initialized.
 
 ### -param MiniportWdiCharacteristics 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a> structure that the caller initialized.
+A pointer to an <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a> structure that the caller initialized.
 
 ### -param NdisMiniportDriverHandle 
 
@@ -177,13 +177,12 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_driver_characteristics">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_driver_characteristics">NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
+<a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>

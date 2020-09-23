@@ -47,7 +47,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlPrivateLock</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfastlock">FsRtlFastLock</a> instead.
+The <b>FsRtlPrivateLock</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfastlock">FsRtlFastLock</a> instead.
 
 
 ## -parameters
@@ -113,8 +113,3 @@ TBD
 ### -param AlreadySynchronized
 
 TBD
-
-
-
-
-

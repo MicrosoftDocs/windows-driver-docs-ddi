@@ -92,9 +92,8 @@ Specifies the number of contiguous pages to add to the crash dump file, starting
 
 In a call to the <i>KbCallbackAddPages</i> callback routine, the operating system sets the <i>Reason</i> parameter to <b>KbCallbackAddPages</b>, and sets the <i>ReasonSpecificData</i> parameter to point to a <b>KBUGCHECK_ADD_PAGES</b> structure.
 
-For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a> and [KBUGCHECK_REASON_CALLBACK_ROUTINE](nc-wdm-kbugcheck_reason_callback_routine.md) callback function.
+For more information about how this structure is used, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a> and [KBUGCHECK_REASON_CALLBACK_ROUTINE](nc-wdm-kbugcheck_reason_callback_routine.md) callback function.
 
 ## -see-also
 
- <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
-
+ <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.

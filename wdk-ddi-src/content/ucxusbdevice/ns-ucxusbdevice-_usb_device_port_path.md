@@ -72,5 +72,4 @@ The index of connected USB port on the hub.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_ucxusbdevice_info">UCXUSBDEVICE_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_ucxusbdevice_info">UCXUSBDEVICE_INFO</a>

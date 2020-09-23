@@ -137,7 +137,7 @@ UFOFLAG_TTSUBSTITUTED
 
 </td>
 <td>
-If set, the device font is a font substituted for the TrueType font. In the font substitution, GDI requests that Unidrv print using a TrueType font. For performance reasons, Unidrv substitutes a device font for the TrueType font. (The substitution is specified by a <a href="https://docs.microsoft.com/windows-hardware/drivers/">generic printer description (GPD)</a> file or in a table in the registry.) For this substitution, for some printers, it is necessary to adjust the baseline position of the device font, because the baseline position of the device font can be higher than that of the TrueType font. The adjustment causes the output of the substituted device font to be shifted down to correct this discrepancy. Depending on the flags set in the UNIFONTOBJ structure, the printer minidriver is able to adjust the baseline position of device fonts.
+If set, the device font is a font substituted for the TrueType font. In the font substitution, GDI requests that Unidrv print using a TrueType font. For performance reasons, Unidrv substitutes a device font for the TrueType font. (The substitution is specified by a <a href="/windows-hardware/drivers/">generic printer description (GPD)</a> file or in a table in the registry.) For this substitution, for some printers, it is necessary to adjust the baseline position of the device font, because the baseline position of the device font can be higher than that of the TrueType font. The adjustment causes the output of the substituted device font to be shifted down to correct this discrepancy. Depending on the flags set in the UNIFONTOBJ structure, the printer minidriver is able to adjust the baseline position of device fonts.
 
 </td>
 </tr>
@@ -145,17 +145,16 @@ If set, the device font is a font substituted for the TrueType font. In the font
 
 ### -field pIFIMetrics
 
-Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure. Supplied by Unidrv.
+Pointer to an <a href="/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure. Supplied by Unidrv.
 
 ### -field pfnGetInfo
 
-Pointer to Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. Supplied by Unidrv.
+Pointer to Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. Supplied by Unidrv.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
+<a href="/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
-
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>

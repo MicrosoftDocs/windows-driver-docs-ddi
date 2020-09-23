@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The D3D10_DDI_BLEND_OP enumeration type contains values that identify blending operations in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createblendstate">CreateBlendState</a> function.
+The D3D10_DDI_BLEND_OP enumeration type contains values that identify blending operations in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createblendstate">CreateBlendState</a> function.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ The result is the maximum of the source and destination (Result = MAX(Source, De
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createblendstate">CreateBlendState</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createblendstate">CreateBlendState</a>

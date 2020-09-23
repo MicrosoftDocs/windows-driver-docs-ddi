@@ -53,37 +53,37 @@ Creates an endpoint object.
 ### -param UfxDevice 
 
 [in]
-A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ### -param EndpointInit 
 
 [in, out]
-Opaque structure passed by UFX in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_endpoint_add">EVT_UFX_DEVICE_ENDPOINT_ADD</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_default_endpoint_add">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a>.
+Opaque structure passed by UFX in the call to <a href="/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_endpoint_add">EVT_UFX_DEVICE_ENDPOINT_ADD</a> or <a href="/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_default_endpoint_add">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a>.
 
 ### -param Attributes 
 
 [in, optional]
-A pointer to caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
+A pointer to caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
 ### -param TransferQueueConfig 
 
 [in]
-A pointer to a caller allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.  This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a>.
+A pointer to a caller allocated <a href="/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.  This structure must be initialized with <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a>.
 
 ### -param TransferQueueAttributes 
 
 [in, optional]
-A pointer to caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
+A pointer to caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
 ### -param CommandQueueConfig 
 
 [in]
-A pointer to a caller allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.  This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a>.
+A pointer to a caller allocated <a href="/windows-hardware/drivers/ddi/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure.  This structure must be initialized with <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a>.
 
 ### -param CommandQueueAttributes 
 
 [in, optional]
-A pointer to caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
+A pointer to caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure. This structure must be initialized with <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> or <a href="/windows-hardware/drivers/wdf/wdf-object-attributes-init-context-type">WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE</a>. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
 ### -param UfxEndpoint 
 
@@ -100,19 +100,19 @@ If the operation is successful, the method returns STATUS_SUCCESS, or another st
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_control_status_handshake_in">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN</a>
+<a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_control_status_handshake_in">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_control_status_handshake_out">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT</a>
+<a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_control_status_handshake_out">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_transfer_in">IOCTL_INTERNAL_USBFN_TRANSFER_IN</a>
+<a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_transfer_in">IOCTL_INTERNAL_USBFN_TRANSFER_IN</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_transfer_in_append_zero_pkt">IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT</a>
+<a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_transfer_in_append_zero_pkt">IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_transfer_out">IOCTL_INTERNAL_USBFN_TRANSFER_OUT</a>
+<a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_transfer_out">IOCTL_INTERNAL_USBFN_TRANSFER_OUT</a>
 </li>
 </ul>
 
@@ -120,13 +120,13 @@ The command queue will handle the following IOCTLs:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_get_pipe_state">IOCTL_INTERNAL_USBFN_GET_PIPE_STATE</a>
+<a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_get_pipe_state">IOCTL_INTERNAL_USBFN_GET_PIPE_STATE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_set_pipe_state">IOCTL_INTERNAL_USBFN_SET_PIPE_STATE</a>
+<a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_set_pipe_state">IOCTL_INTERNAL_USBFN_SET_PIPE_STATE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ni-ufxbase-ioctl_internal_usbfn_descriptor_update">IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE</a>
+<a href="/windows-hardware/drivers/ddi/ufxbase/ni-ufxbase-ioctl_internal_usbfn_descriptor_update">IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE</a>
 </li>
 </ul>
 The following example shows how to create a UFXENDPOINT object and initialize its context.
@@ -246,5 +246,3 @@ End:
 }
 
 ```
-
-

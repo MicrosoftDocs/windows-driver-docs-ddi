@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CLFS_IO_STATISTICS_HEADER</b> structure holds the header portion of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_io_statistics">CLFS_IO_STATISTICS</a> structure.
+The <b>CLFS_IO_STATISTICS_HEADER</b> structure holds the header portion of a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_io_statistics">CLFS_IO_STATISTICS</a> structure.
 
 ## -struct-fields
 
 ### -field ubMajorVersion
 
-The major version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_io_statistics">CLFS_IO_STATISTICS</a> structure.
+The major version of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_io_statistics">CLFS_IO_STATISTICS</a> structure.
 
 ### -field ubMinorVersion
 
@@ -76,9 +76,8 @@ The offset, in bytes, from the beginning of the <b>CLFS_IO_STATISTICS</b> struct
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_io_statistics">CLFS_IO_STATISTICS</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_io_statistics">CLFS_IO_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsgetiostatistics">ClfsGetIoStatistics</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsgetiostatistics">ClfsGetIoStatistics</a>

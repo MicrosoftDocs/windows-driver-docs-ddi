@@ -50,7 +50,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The DOT11_STATISTICS structure records statistical counters for the 802.11 interface.
 
@@ -134,7 +134,7 @@ The MAC layer counters based on multicast or broadcast packets sent or received 
 <div class="alert"><b>Note</b>  <p class="note"> Counters for received multicast or broadcast packets must only be incremented for those
      packets with a destination MAC address in the 802.11 MAC header that matches an entry in the multicast
      address list of the 802.11 station. For more information about the multicast address list, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-multicast-list">OID_DOT11_MULTICAST_LIST</a>.</div>
+     <a href="/windows-hardware/drivers/network/oid-dot11-multicast-list">OID_DOT11_MULTICAST_LIST</a>.</div>
 
 ### -field PhyCounters
 
@@ -150,7 +150,7 @@ The miniport driver must maintain an entry within the
 Entries within the
      <b>PhyCounters</b> array must be in the same order as the list of supported PHYs that the driver returns
      when queried by
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+     <a href="/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
      OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 ## -syntax
@@ -182,15 +182,14 @@ The driver's
 <li>
 The driver's
       <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function is
-      called with an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>,
+      called with an OID set request of <a href="/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>,
       regardless of the type of reset operation specified in the set request.
 
 </li>
 </ul>
 For more information about the statistics gathered by a Native 802.11 miniport driver, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>.
+    <a href="/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>
-
+<a href="/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>

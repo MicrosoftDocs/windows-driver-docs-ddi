@@ -58,7 +58,7 @@ The number of dirty rectangles.
 
 ### -field pDirtyRects
 
-A pointer to an array of dirty rectangles (<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>s).
+A pointer to an array of dirty rectangles (<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>s).
 
 ### -field MoveRectCount
 
@@ -66,9 +66,8 @@ The number of move rectangles.
 
 ### -field pMoveRects
 
-A pointer to an array of move rectangles (<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>s).
+A pointer to an array of move rectangles (<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>s).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>

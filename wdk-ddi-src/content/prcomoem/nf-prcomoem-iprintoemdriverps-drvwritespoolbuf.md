@@ -46,13 +46,13 @@ api_name:
 
 ## -description
 
-The <code>IPrintOemDriverPS::DrvWriteSpoolBuf</code> method is provided by the Pscript5 driver so that <a href="https://docs.microsoft.com/windows-hardware/drivers/print/rendering-plug-ins">rendering plug-ins</a> can send printer data to the spooler.
+The <code>IPrintOemDriverPS::DrvWriteSpoolBuf</code> method is provided by the Pscript5 driver so that <a href="/windows-hardware/drivers/print/rendering-plug-ins">rendering plug-ins</a> can send printer data to the spooler.
 
 ## -parameters
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param pBuffer
 
@@ -113,5 +113,4 @@ The method is not implemented.
 
 ## -remarks
 
-Rendering plug-ins are described in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
-
+Rendering plug-ins are described in <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.

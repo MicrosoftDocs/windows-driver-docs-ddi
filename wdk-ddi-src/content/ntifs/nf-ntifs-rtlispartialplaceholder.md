@@ -68,9 +68,8 @@ This function returns <b>TRUE</b> if the file or directory is a partial placehol
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlispartialplaceholderfilehandle">RtlIsPartialPlaceholderFileHandle</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlispartialplaceholderfilehandle">RtlIsPartialPlaceholderFileHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlispartialplaceholderfileinfo">RtlIsPartialPlaceholderFileInfo</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlispartialplaceholderfileinfo">RtlIsPartialPlaceholderFileInfo</a>

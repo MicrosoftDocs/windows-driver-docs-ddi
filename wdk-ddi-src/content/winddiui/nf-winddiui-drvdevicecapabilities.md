@@ -163,7 +163,7 @@ DC_DRIVER
 <td>
 The <i>pvOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmDriverVersion</b> member of the driver's internal <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+The function's return value should be the <b>dmDriverVersion</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ DC_EXTRA
 <td>
 The <i>pvOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmDriverExtra</b> member of the driver's internal <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+The function's return value should be the <b>dmDriverExtra</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ DC_FIELDS
 <td>
 The <i>pvOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmFields</b> member of the driver's internal <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. The <b>dmFields</b> member indicates which members in the device-independent portion of the DEVMODEW structure are supported by the printer driver.
+The function's return value should be the <b>dmFields</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. The <b>dmFields</b> member indicates which members in the device-independent portion of the DEVMODEW structure are supported by the printer driver.
 
 </td>
 </tr>
@@ -297,7 +297,7 @@ DC_MEDIATYPES
 
 </td>
 <td>
-The <i>pvOutput</i> parameter points to a buffer that the function should fill with a DWORD array. Each array element should contain a DMMEDIA-prefixed constant (see the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure) or customized value representing a supported media type. 
+The <i>pvOutput</i> parameter points to a buffer that the function should fill with a DWORD array. Each array element should contain a DMMEDIA-prefixed constant (see the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure) or customized value representing a supported media type. 
 
 The function's return value should be the number of elements in the returned array.
 
@@ -473,7 +473,7 @@ DC_SIZE
 <td>
 The <i>pvOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmSize</b> member of the driver's internal <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+The function's return value should be the <b>dmSize</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 </td>
 </tr>
@@ -517,7 +517,7 @@ DC_VERSION
 <td>
 The <i>pvOutput</i> parameter is not used.
 
-The function's return value should be the <b>dmSpecVersion</b> member of the driver's internal <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+The function's return value should be the <b>dmSpecVersion</b> member of the driver's internal <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 </td>
 </tr>
@@ -527,7 +527,7 @@ The function's return value should be the <b>dmSpecVersion</b> member of the dri
 
 #### - pDevMode [in]
 
-A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
+A caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that describes the current print job characteristics. If this parameter is <b>NULL</b>, <b>DrvDeviceCapabilities</b> retrieves the current default initialization values for the specified printer driver, such as the user default DEVMODEW structure of the print queue.
 
 
 #### - pDeviceName [in]
@@ -542,4 +542,3 @@ A caller-supplied pointer to a buffer to receive function-supplied information. 
 ## -returns
 
 The function's return value is dependent on the value received for the <i>iDevCap</i> parameter. If the received <i>iDevCap</i> value represents a capability that the driver does not support, or if an error is encountered, the function should return GDI_ERROR.
-

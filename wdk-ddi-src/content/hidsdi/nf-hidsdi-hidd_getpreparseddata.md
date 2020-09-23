@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **HidD_GetPreparsedData** routine returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+The **HidD_GetPreparsedData** routine returns a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
 ## -parameters
 
@@ -58,29 +58,28 @@ Specifies an open handle to a top-level collection.
 ### -param PreparsedData 
 
 [out]
-Pointer to the address of a routine-allocated buffer that contains a collection's preparsed data in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a> structure.
+Pointer to the address of a routine-allocated buffer that contains a collection's preparsed data in a <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a> structure.
 
 ## -returns
 
-**HidD_GetPreparsedData** returns **TRUE** if it succeeds; otherwise, it returns **FALSE**. Use [**GetLastError**](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
+**HidD_GetPreparsedData** returns **TRUE** if it succeeds; otherwise, it returns **FALSE**. Use [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 ## -remarks
 
-Only user-mode applications can call **HidD_GetPreparsedData**. Kernel-mode drivers can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a> request.
+Only user-mode applications can call **HidD_GetPreparsedData**. Kernel-mode drivers can use an <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a> request.
 
-When an application no longer requires the preparsed data, it should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_freepreparseddata">HidD_FreePreparsedData</a> to free the preparsed data buffer.
+When an application no longer requires the preparsed data, it should call <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_freepreparseddata">HidD_FreePreparsedData</a> to free the preparsed data buffer.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_freepreparseddata">HidD_FreePreparsedData</a>
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_freepreparseddata">HidD_FreePreparsedData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>

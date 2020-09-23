@@ -56,7 +56,7 @@ The ISCSI_IP_Address structure defines an IP address.
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsiipaddresstype">ISCSIIPADDRESSTYPE</a> value that indicates the type of IP address.
+A <a href="/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsiipaddresstype">ISCSIIPADDRESSTYPE</a> value that indicates the type of IP address.
 
 ### -field IpV4Address
 
@@ -80,9 +80,8 @@ If <b>Type</b> = <b>ISCSI_IP_ADDRESS_TEXT</b>, the DNS or dotted decimal text ad
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsiipaddresstype">ISCSIIPADDRESSTYPE</a>
+<a href="/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsiipaddresstype">ISCSIIPADDRESSTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>

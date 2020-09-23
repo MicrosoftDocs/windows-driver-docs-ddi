@@ -67,5 +67,4 @@ The maximum value for this enumeration.
 
 ## -see-also
 
-[MB LTE Attach Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-lte-attach-operations)
-
+[MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)

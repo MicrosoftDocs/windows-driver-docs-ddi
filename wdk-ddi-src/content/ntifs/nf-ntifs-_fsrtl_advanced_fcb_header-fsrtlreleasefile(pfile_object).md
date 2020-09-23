@@ -50,7 +50,7 @@ ms.custom: RS5
 ## -description
 
 
-The <b>FsRtlReleaseFile</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlregisterfilesystemfiltercallbacks">FsRtlRegisterFileSystemFilterCallbacks</a>.
+The <b>FsRtlReleaseFile</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlregisterfilesystemfiltercallbacks">FsRtlRegisterFileSystemFilterCallbacks</a>.
 
 
 ## -parameters
@@ -61,8 +61,3 @@ The <b>FsRtlReleaseFile</b> routine is reserved for system use. See <a href="htt
 ### -param FileObject
 
 <p>Reserved.</p>
-
-
-
-
-

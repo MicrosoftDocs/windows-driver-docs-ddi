@@ -49,9 +49,9 @@ api_name:
 
 The 
   <b>FwpsClassifyOptionSet0</b> function is called by a callout filter's 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function to specify additional
+  <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function to specify additional
   information that affects the characteristics of permitted filtering operations.
-<div class="alert"><b>Note</b>  <b>FwpsClassifyOptionSet0</b> is a specific version of <b>FwpsClassifyOptionSet</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsClassifyOptionSet0</b> is a specific version of <b>FwpsClassifyOptionSet</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -59,14 +59,14 @@ The
 
 [in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
+     <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields at the layer that is being filtered.
 
 ### -param option 
 
 [in]
 An 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">FWP_CLASSIFY_OPTION_TYPE</a> enumeration
+     <a href="/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">FWP_CLASSIFY_OPTION_TYPE</a> enumeration
      constant that indicates whether the 
      <i>newValue</i> parameter refers to unicast, multicast, or loose source mapping states, or to data
      time-out values. For more information, see Remarks.
@@ -75,7 +75,7 @@ An
 
 [in]
 A pointer to an array of 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structures. Each structure in the
+     <a href="/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structures. Each structure in the
      array contains particular values for a particular FWP_OPTION_VALUE_XXX constant. For more information, see
      Remarks.
 
@@ -109,7 +109,7 @@ The function completed successfully.
 <td width="60%">
 The 
        <i>option</i> parameter does not match any of the values in the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">
+       <a href="/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">
        FWP_CLASSIFY_OPTION_TYPE</a> enumeration.
 
 </td>
@@ -167,11 +167,11 @@ An error occurred.
 ## -remarks
 
 This function should be called only by a callout filter's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function.
+    <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function.
 
 The following are the allowed values of the 
     <i>option</i> parameter and members of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structure pointed to by the 
+    <a href="/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structure pointed to by the 
     <i>newValue</i> parameter.
 
 <table>
@@ -274,26 +274,25 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550078(v=vs.85)">FWPM_CLASSIFY_OPTION0</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550078(v=vs.85)">FWPM_CLASSIFY_OPTION0</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550079(v=vs.85)">FWPM_CLASSIFY_OPTIONS0</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550079(v=vs.85)">FWPM_CLASSIFY_OPTIONS0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
    FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">FWP_CLASSIFY_OPTION_TYPE</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552428(v=vs.85)">FWP_CLASSIFY_OPTION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
-
+<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>

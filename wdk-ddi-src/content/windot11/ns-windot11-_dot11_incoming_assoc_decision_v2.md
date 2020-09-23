@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>Information for an incoming association request is included in a <b>DOT11_INCOMING_ASSOC_DECISION_V2</b> structure. This structure is sent with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">OID_DOT11_INCOMING_ASSOCIATION_DECISION</a> request.
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>Information for an incoming association request is included in a <b>DOT11_INCOMING_ASSOC_DECISION_V2</b> structure. This structure is sent with an <a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">OID_DOT11_INCOMING_ASSOCIATION_DECISION</a> request.
 
 ## -struct-fields
 
@@ -119,5 +119,4 @@ typedef struct _DOT11_INCOMING_ASSOC_DECISION_V2 {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
-
+<a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>

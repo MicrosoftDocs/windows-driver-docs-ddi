@@ -62,15 +62,15 @@ Reserved for system use. Do not use.
 
 ### -field KbCallbackSecondaryDumpData
 
-The callback function provides data to append to the secondary data area of the crash dump file when the system issues a bug check. For more information about this type of callback, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbacksecondarydumpdata-callback-routine">Implementing a KbCallbackSecondaryDumpData Callback Routine</a>.
+The callback function provides data to append to the secondary data area of the crash dump file when the system issues a bug check. For more information about this type of callback, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbacksecondarydumpdata-callback-routine">Implementing a KbCallbackSecondaryDumpData Callback Routine</a>.
 
 ### -field KbCallbackDumpIo
 
-Specifies that the system should call the callback function each time it writes data to a crash dump file. Drivers for devices that monitor the system state can use this type of callback. For more information about this type of callback, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbackdumpio-callback-routine">Implementing a KbCallbackDumpIo Callback Routine</a>.
+Specifies that the system should call the callback function each time it writes data to a crash dump file. Drivers for devices that monitor the system state can use this type of callback. For more information about this type of callback, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbackdumpio-callback-routine">Implementing a KbCallbackDumpIo Callback Routine</a>.
 
 ### -field KbCallbackAddPages
 
-The callback function adds one or more pages of driver-specific data to the primary section of the crash dump file when the operating system issues a bug check. For more information about this type of callback, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbackaddpages-callback-routine">Implementing a KbCallbackAddPages Callback Routine</a>.
+The callback function adds one or more pages of driver-specific data to the primary section of the crash dump file when the operating system issues a bug check. For more information about this type of callback, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbackaddpages-callback-routine">Implementing a KbCallbackAddPages Callback Routine</a>.
 
 ### -field KbCallbackSecondaryMultiPartDumpData
 
@@ -78,11 +78,11 @@ Specifies that the callback is executed to get the amount of data the driver wan
 
 ### -field KbCallbackRemovePages
 
-The callback function removes one or more pages of driver-supplied data from the crash dump file. For more information, see <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_remove_pages">KBUGCHECK_REMOVE_PAGES</a></b>.
+The callback function removes one or more pages of driver-supplied data from the crash dump file. For more information, see <b><a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_kbugcheck_remove_pages">KBUGCHECK_REMOVE_PAGES</a></b>.
 
 ### -field KbCallbackTriageDumpData
 
-Specifies that the callback is executed to add virtual memory ranges the driver wants to preserve in the carved minidump file. This enumeration value is supported starting in Windows 10, version 1809 and Windows Server 2019. For more information about this type of callback, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbacktriagedumpdata-callback-routine">Implementing a KbCallbackTriageDumpData Callback Routine</a>.
+Specifies that the callback is executed to add virtual memory ranges the driver wants to preserve in the carved minidump file. This enumeration value is supported starting in Windows 10, version 1809 and Windows Server 2019. For more information about this type of callback, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbacktriagedumpdata-callback-routine">Implementing a KbCallbackTriageDumpData Callback Routine</a>.
 
 ### -field KbCallbackReserved2
 
@@ -90,15 +90,14 @@ Reserved for system use. Do not use.
 
 ## -remarks
 
-A driver uses this enumeration to specify the type of [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine to register when it calls the [**KeRegisterBugCheckReasonCallback**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback) function.
+A driver uses this enumeration to specify the type of [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine to register when it calls the [**KeRegisterBugCheckReasonCallback**](./nf-wdm-keregisterbugcheckreasoncallback.md) function.
 
-For information about how this enumeration is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For information about how this enumeration is used, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
+<a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a>
+<a href="/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a>

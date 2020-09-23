@@ -56,7 +56,7 @@ The <b>KBUGCHECK_DATA</b> structure contains bug check parameters.
 
 ### -field BugCheckDataSize
 
-The size, in bytes, of the <b>KBUGCHECK_DATA</b> structure. Callers of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a> must supply this value.
+The size, in bytes, of the <b>KBUGCHECK_DATA</b> structure. Callers of <a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a> must supply this value.
 
 ### -field BugCheckCode
 
@@ -64,25 +64,24 @@ The bug check code. This value identifies that type of bug check that has occurr
 
 ### -field Parameter1
 
-Bug check parameter 1. For more information about this parameter, see specific <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a>.
+Bug check parameter 1. For more information about this parameter, see specific <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a>.
 
 ### -field Parameter2
 
-Bug check parameter 2. For more information about this parameter, see specific <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a>.
+Bug check parameter 2. For more information about this parameter, see specific <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a>.
 
 ### -field Parameter3
 
-Bug check parameter 3. For more information about this parameter, see specific <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a>.
+Bug check parameter 3. For more information about this parameter, see specific <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a>.
 
 ### -field Parameter4
 
-Bug check parameter 4. For more information about this parameter, see specific <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a>.
+Bug check parameter 4. For more information about this parameter, see specific <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a>.
 
 ## -remarks
 
-The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>.
+The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>
-
+<a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>

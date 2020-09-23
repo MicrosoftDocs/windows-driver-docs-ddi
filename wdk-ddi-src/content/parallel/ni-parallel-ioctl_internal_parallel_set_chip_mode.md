@@ -47,14 +47,14 @@ api_name:
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
 
 The <b>IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</b> request sets the operating mode of a parallel port.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544801(v=vs.85)">Setting and Clearing the Communication Mode on a ParallelPort</a>.
+For more information, see <a href="/previous-versions/ff544801(v=vs.85)">Setting and Clearing the Communication Mode on a ParallelPort</a>.
 
 ## -ioctlparameters
 
@@ -108,4 +108,3 @@ The requested operating mode is not valid.
 
 
 <a href="..\parallel\ns-parallel-_parallel_chip_mode.md">PARALLEL_CHIP_MODE</a>
-

@@ -66,13 +66,12 @@ The initiator or target supports advanced encryption standard (AES) counter mode
 
 ## -remarks
 
-The ISCSI_ENCRYPTION_TYPES enumeration is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>.
+The ISCSI_ENCRYPTION_TYPES enumeration is used with the <a href="/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsicfg/ns-iscsicfg-_msiscsi_securitycapabilities">MSiSCSI_SecurityCapabilities</a>
+<a href="/windows-hardware/drivers/ddi/iscsicfg/ns-iscsicfg-_msiscsi_securitycapabilities">MSiSCSI_SecurityCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>

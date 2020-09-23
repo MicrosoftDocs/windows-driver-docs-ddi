@@ -86,5 +86,4 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 
 ## -remarks
 
-Access this callback by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.
-
+Access this callback by using the <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021">D3D12DDI_SHADERCACHE_CALLBACKS_0021</a> structure.

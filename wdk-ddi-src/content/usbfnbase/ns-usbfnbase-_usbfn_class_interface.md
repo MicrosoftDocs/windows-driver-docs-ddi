@@ -64,9 +64,8 @@ The number of endpoints contained in  the interface.
 
 ### -field PipeArr
 
-An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_pipe_information">USBFN_PIPE_INFORMATION</a> structures that describes the endpoints in the interface.
+An array of <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_pipe_information">USBFN_PIPE_INFORMATION</a> structures that describes the endpoints in the interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_pipe_information">USBFN_PIPE_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_pipe_information">USBFN_PIPE_INFORMATION</a>

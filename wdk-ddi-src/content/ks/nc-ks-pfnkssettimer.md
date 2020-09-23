@@ -53,7 +53,7 @@ A streaming minidriver's <i>KStrSetTimer</i> routine is called to generate DPC t
 ### -param Context 
 
 [in]
-Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
+Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
 ### -param Timer 
 
@@ -68,7 +68,7 @@ Specifies the absolute or relative time at which the timer is to expire. If the 
 ### -param Dpc 
 
 [in]
-Pointer to a DPC object that the minidriver initialized using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. This parameter is optional.
+Pointer to a DPC object that the minidriver initialized using <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. This parameter is optional.
 
 ## -returns
 
@@ -76,29 +76,28 @@ Returns <b>TRUE</b> if the timer object was already in the system timer queue. O
 
 ## -remarks
 
-Minidrivers can optionally supply a <i>KStrSetTimer</i> callback function as an argument to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>.
+Minidrivers can optionally supply a <i>KStrSetTimer</i> callback function as an argument to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>.
 
 Typically, if a minidriver supplies a <i>KStrCorrelatedTime</i> callback function, then the minidriver also supplies a <i>KStrSetTimer</i> callback function.
 
 If minidrivers supply a <i>KStrSetTimer</i> callback function, the function must set timers, based on deltas, to the current presentation time in order to generate event notifications.
 
-If a minidriver supplies a <i>KStrSetTimer</i> callback function, the minidriver must also supply a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a> callback function to cancel the timer.
+If a minidriver supplies a <i>KStrSetTimer</i> callback function, the minidriver must also supply a <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a> callback function to cancel the timer.
 
-The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>.
+The minidriver supplied <i>KStrSetTimer</i> must have the same characteristics as <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a>
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>

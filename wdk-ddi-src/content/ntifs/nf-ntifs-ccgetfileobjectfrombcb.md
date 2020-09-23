@@ -65,17 +65,16 @@ The file object pointer is guaranteed to remain valid as long as the BCB exists.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmapdata">CcMapData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinmappeddata">CcPinMappedData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinread">CcPinRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparepinwrite">CcPreparePinWrite</a>

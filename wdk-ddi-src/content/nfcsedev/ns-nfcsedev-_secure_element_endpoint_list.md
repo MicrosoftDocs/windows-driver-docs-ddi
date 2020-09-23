@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The output parameter for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_enum_endpoints">IOCTL_NFCSE_ENUM_ENDPOINTS</a>.
+The output parameter for <a href="/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_enum_endpoints">IOCTL_NFCSE_ENUM_ENDPOINTS</a>.
 
 ## -struct-fields
 
@@ -67,5 +67,4 @@ The number of enumerated endpoints on the NFC controller.
 
 #### - EndpointList[ANYSIZE_ARRAY]
 
-An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_info">SECURE_ELEMENT_ENDPOINT_INFO</a> structures.
-
+An array of <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_info">SECURE_ELEMENT_ENDPOINT_INFO</a> structures.

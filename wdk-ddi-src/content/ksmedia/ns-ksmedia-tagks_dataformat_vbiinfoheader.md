@@ -68,9 +68,8 @@ This structure is used when a connection to a VBI pin is being proposed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_vbiinfoheader">KS_VBIINFOHEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_vbiinfoheader">KS_VBIINFOHEADER</a>

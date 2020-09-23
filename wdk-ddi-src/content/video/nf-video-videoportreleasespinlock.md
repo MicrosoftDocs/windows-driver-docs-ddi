@@ -69,11 +69,10 @@ None
 
 ## -remarks
 
-This call is the inverse of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a>. The <i>NewIrql</i> value must be the same as the value pointed to by <i>OldIrql</i> when <b>VideoPortAcquireSpinLock </b>returned.
+This call is the inverse of <a href="/previous-versions/ff570175(v=vs.85)">VideoPortAcquireSpinLock</a>. The <i>NewIrql</i> value must be the same as the value pointed to by <i>OldIrql</i> when <b>VideoPortAcquireSpinLock </b>returned.
 
 Callers of <b>VideoPortReleaseSpinLock</b> must be running at IRQL = DISPATCH_LEVEL. On return from this routine, IRQL is restored to the <i>NewIrql</i> value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a>
-
+<a href="/previous-versions/ff570175(v=vs.85)">VideoPortAcquireSpinLock</a>

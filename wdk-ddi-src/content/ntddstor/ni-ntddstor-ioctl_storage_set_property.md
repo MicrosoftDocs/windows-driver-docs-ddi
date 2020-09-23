@@ -35,7 +35,7 @@ api_name:
 
 # IOCTL_STORAGE_SET_PROPERTY IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -64,7 +64,7 @@ Size, in bytes, of the output buffer.
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code.
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -75,4 +75,3 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 [STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_protocol_specific_data_ext.md)
 
 [STORAGE_SET_TYPE](ne-ntddstor-storage_set_type.md)
-

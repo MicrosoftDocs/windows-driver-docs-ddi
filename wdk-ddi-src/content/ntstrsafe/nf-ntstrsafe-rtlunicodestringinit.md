@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>RtlUnicodeStringInit</b> function initializes a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
+The <b>RtlUnicodeStringInit</b> function initializes a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
 ## -parameters
 
@@ -101,7 +101,7 @@ This <i>error</i> status means that the function received an invalid input param
 <li>The length of the string that the <i>pszSrc</i> parameter points to is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH characters.</li>
 <li>The <i>DestinationString</i> pointer is <b>NULL</b>, but the <i>pszSrc</i> pointer is not <b>NULL</b>.</li>
 </ul>
-For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 ## -remarks
 
@@ -109,7 +109,7 @@ The <b>RtlUnicodeStringInit</b> function does the following:
 
 <ul>
 <li>
-Sets the <b>Length</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that is pointed to by the <i>pszSrc</i> parameter to the length, in bytes, of the string that the <i>pszSrc</i> parameter points to.
+Sets the <b>Length</b> member of the <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that is pointed to by the <i>pszSrc</i> parameter to the length, in bytes, of the string that the <i>pszSrc</i> parameter points to.
 
 </li>
 <li>
@@ -121,15 +121,14 @@ Sets the <b>Buffer</b> member of the <b>UNICODE_STRING</b> structure to the addr
 
 </li>
 </ul>
-The <i>DestinationString</i> pointer should not be <b>NULL</b>. If you need to specify <b>NULL</b> <i>DestinationString</i> pointer values, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex">RtlUnicodeStringInitEx</a> function.
+The <i>DestinationString</i> pointer should not be <b>NULL</b>. If you need to specify <b>NULL</b> <i>DestinationString</i> pointer values, use the <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex">RtlUnicodeStringInitEx</a> function.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex">RtlUnicodeStringInitEx</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex">RtlUnicodeStringInitEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

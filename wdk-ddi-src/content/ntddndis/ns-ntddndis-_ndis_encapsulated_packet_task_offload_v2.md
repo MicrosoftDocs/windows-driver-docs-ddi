@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2** structure contains packet encapsulation information for Virtual Extensible LAN (VXLAN) task offload. VXLAN is similar to [NVGRE task offload](https://docs.microsoft.com/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload), but with a different protocol.
+The **NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2** structure contains packet encapsulation information for Virtual Extensible LAN (VXLAN) task offload. VXLAN is similar to [NVGRE task offload](/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload), but with a different protocol.
 
 This structure is used in the **EncapsulatedPacketTaskOffloadVxlan** member of the [**NDIS_OFFLOAD**](ns-ntddndis-_ndis_offload.md) structure in NDIS 6.70 and later.
 
@@ -114,7 +114,7 @@ Reserved for system use.
 
 ## -remarks
 
-In the initial capability advertisement and in [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config) and [NDIS_STATUS_TASK_OFFLOAD_HARDWARE_CAPABILITIES](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-hardware-capabilities) status indications, the **TransmitChecksumOffloadSupported**, **ReceiveChecksumOffloadSupported**, **LsoV2Supported**, **RssSupported**, and **VmqSupported** members can be set to a bitwise OR of the following flags:
+In the initial capability advertisement and in [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/ndis-status-task-offload-current-config) and [NDIS_STATUS_TASK_OFFLOAD_HARDWARE_CAPABILITIES](/windows-hardware/drivers/network/ndis-status-task-offload-hardware-capabilities) status indications, the **TransmitChecksumOffloadSupported**, **ReceiveChecksumOffloadSupported**, **LsoV2Supported**, **RssSupported**, and **VmqSupported** members can be set to a bitwise OR of the following flags:
 
 | Term | Description |
 | --- | --- |
@@ -137,4 +137,3 @@ For more information about VXLAN, see [RFC 7348](https://tools.ietf.org/html/rfc
 ## -see-also
 
 [**NDIS_OFFLOAD**](ns-ntddndis-_ndis_offload.md)
-

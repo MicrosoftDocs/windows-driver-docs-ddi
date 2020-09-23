@@ -62,21 +62,20 @@ Specifies the buffer size, in bytes. The driver sets this member to the actual s
 
 ### -field CallMemoryBarrier
 
-Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE </a>,
+Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE </a>,
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer">KSPROPERTY_RTAUDIO_BUFFER</a> request uses the KSRTAUDIO_BUFFER structure to describe the actual cyclic buffer that the driver allocates. This client fills in a <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksrtaudio-buffer-property">KSRTAUDIO_BUFFER_PROPERTY</a> structure to request the audio buffer, and the driver fills in a KSRTAUDIO_BUFFER structure with the results from the buffer allocation.
+The <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer">KSPROPERTY_RTAUDIO_BUFFER</a> request uses the KSRTAUDIO_BUFFER structure to describe the actual cyclic buffer that the driver allocates. This client fills in a <a href="/windows-hardware/drivers/audio/ksrtaudio-buffer-property">KSRTAUDIO_BUFFER_PROPERTY</a> structure to request the audio buffer, and the driver fills in a KSRTAUDIO_BUFFER structure with the results from the buffer allocation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer">KSPROPERTY_RTAUDIO_BUFFER</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer">KSPROPERTY_RTAUDIO_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksrtaudio-buffer-property">KSRTAUDIO_BUFFER_PROPERTY</a>
+<a href="/windows-hardware/drivers/audio/ksrtaudio-buffer-property">KSRTAUDIO_BUFFER_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>

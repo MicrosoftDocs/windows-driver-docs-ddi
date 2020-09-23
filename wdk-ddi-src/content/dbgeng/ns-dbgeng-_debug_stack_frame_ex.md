@@ -72,11 +72,11 @@ The location in the process's virtual address space of the processor stack.
 
 ### -field FuncTableEntry
 
-The location in the target's virtual address space of the function entry for this frame, if available. When set, this pointer is not guaranteed to remain valid indefinitely and should not be held for future use.  Instead, save the value of <b>InstructionOffset</b> and use it with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getfunctionentrybyoffset">IDebugSymbols3::GetFunctionEntryByOffset</a> to retrieve function entry information later.
+The location in the target's virtual address space of the function entry for this frame, if available. When set, this pointer is not guaranteed to remain valid indefinitely and should not be held for future use.  Instead, save the value of <b>InstructionOffset</b> and use it with <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getfunctionentrybyoffset">IDebugSymbols3::GetFunctionEntryByOffset</a> to retrieve function entry information later.
 
 ### -field Params
 
-The values of the first four stack slots that are passed to the function, if available.  If there are less than four arguments, the remaining entries are set to zero.  These stack slots are not guaranteed to contain parameter values.  Some calling conventions and compiler optimizations might interfere with identification of parameter information.  For more detailed argument information and proper location handling, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getscopesymbolgroup">IDebugSymbols::GetScopeSymbolGroup</a> to retrieve the actual parameter symbols.
+The values of the first four stack slots that are passed to the function, if available.  If there are less than four arguments, the remaining entries are set to zero.  These stack slots are not guaranteed to contain parameter values.  Some calling conventions and compiler optimizations might interfere with identification of parameter information.  For more detailed argument information and proper location handling, use <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getscopesymbolgroup">IDebugSymbols::GetScopeSymbolGroup</a> to retrieve the actual parameter symbols.
 
 ### -field Reserved
 
@@ -97,4 +97,3 @@ Inline frame context.
 ### -field Reserved1
 
 Used for alignment purposes. Set to 0.
-

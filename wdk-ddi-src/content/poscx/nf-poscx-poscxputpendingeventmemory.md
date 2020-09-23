@@ -103,5 +103,4 @@ Possible return values are:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_attributes">POS_CX_EVENT_ATTRIBUTES</a>
-
+<a href="/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_attributes">POS_CX_EVENT_ATTRIBUTES</a>

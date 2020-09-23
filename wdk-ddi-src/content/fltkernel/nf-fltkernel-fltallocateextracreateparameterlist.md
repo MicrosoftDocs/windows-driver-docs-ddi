@@ -81,7 +81,7 @@ Whether the operating system automatically frees memory that **FltAllocateExtraC
 
 - A caller can invoke **FltAllocateExtraCreateParameterList** to allocate the ECP_LIST and add one or more ECP context structures before the caller invokes the [FltCreateFileEx2](nf-fltkernel-fltcreatefileex2.md) routine. In this situation, the operating system does not free any of the ECP context structures. Therefore, the caller can make multiple calls to **FltCreateFileEx2** with the same ECP set. When the caller is done with the ECP_LIST, the caller must call the [FltFreeExtraCreateParameterList](nf-fltkernel-fltfreeextracreateparameterlist.md) routine to free the ECP_LIST.
 
-- While a file system filter driver processes an [IRP_MJ_CREATE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create) request, the file system filter driver can call [FltInsertExtraCreateParameter](nf-fltkernel-fltinsertextracreateparameter.md) to attach an ECP to an existing ECP_LIST. If the ECP_LIST does not exist, the caller must call **FltAllocateExtraCreateParameterList** to create the ECP_LIST. In this situation, the ECP_LIST and the ECP context structure are automatically cleaned up by the I/O manager when the create operation completes. This allows a filter driver's ECP to be properly propagated across the processing of reparse points. This process might require multiple IRP_MJ_CREATE requests to be generated.
+- While a file system filter driver processes an [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create) request, the file system filter driver can call [FltInsertExtraCreateParameter](nf-fltkernel-fltinsertextracreateparameter.md) to attach an ECP to an existing ECP_LIST. If the ECP_LIST does not exist, the caller must call **FltAllocateExtraCreateParameterList** to create the ECP_LIST. In this situation, the ECP_LIST and the ECP context structure are automatically cleaned up by the I/O manager when the create operation completes. This allows a filter driver's ECP to be properly propagated across the processing of reparse points. This process might require multiple IRP_MJ_CREATE requests to be generated.
 
 If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is used with the *Flags* parameter, as described above, a normal pageable pool is allocated. Otherwise, a pageable pool is allocated by using an internal lookaside list.
 
@@ -123,5 +123,4 @@ The ECP_LIST structure is declared in Ntifs.h (include Ntifs.h).
 
 [FltSetEcpListIntoCallbackData](nf-fltkernel-fltsetecplistintocallbackdata.md)
 
-[IoCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex)
-
+[IoCreateFileEx](../ntddk/nf-ntddk-iocreatefileex.md)

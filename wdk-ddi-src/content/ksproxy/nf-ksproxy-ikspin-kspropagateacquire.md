@@ -60,5 +60,4 @@ This method is for proxy use and is not recommended for application use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>

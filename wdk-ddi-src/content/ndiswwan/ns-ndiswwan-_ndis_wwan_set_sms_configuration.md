@@ -103,20 +103,19 @@ sizeof(NDIS_WWAN_SET_SMS_CONFIGURATION)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field SetSmsConfiguration
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_sms_configuration">
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_sms_configuration">
      WWAN_SET_SMS_CONFIGURATION</a> object that represents the SMS configuration to set on the
      device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_sms_configuration">WWAN_SET_SMS_CONFIGURATION</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_sms_configuration">WWAN_SET_SMS_CONFIGURATION</a>

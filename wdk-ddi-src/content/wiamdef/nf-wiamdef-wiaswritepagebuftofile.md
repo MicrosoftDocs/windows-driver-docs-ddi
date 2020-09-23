@@ -53,7 +53,7 @@ The **wiasWritePageBufToFile** function writes the contents of a temporary page 
 ### -param pmdtc 
 
 [in]
-Pointer to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure.
+Pointer to a [MINIDRV_TRANSFER_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context.md) structure.
 
 ## -returns
 
@@ -63,7 +63,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 The function writes data from a minidriver-allocated temporary page buffer to the image file opened by the WIA service. Minidrivers typically call this function after acquiring a page of data for which the minidriver allocated a temporary buffer.
 
-This function is similar to [wiasWriteBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritebuftofile), which can be used to write a buffer of image data to any type of image file. If a WIA minidriver intends to write a page of image data to a multipage TIFF file, including all appropriate tags, image file directory (IFD) entries, and other nonimage data, it should call this function, rather than **wiasWriteBufToFile**.
+This function is similar to [wiasWriteBufToFile](./nf-wiamdef-wiaswritebuftofile.md), which can be used to write a buffer of image data to any type of image file. If a WIA minidriver intends to write a page of image data to a multipage TIFF file, including all appropriate tags, image file directory (IFD) entries, and other nonimage data, it should call this function, rather than **wiasWriteBufToFile**.
 
 The expression *pmdtc*->*hFile* contains the handle to the file in TYMED_FILE (and TYMED_MULTIPAGE_FILE) transfers. This can be used to directly access the file that is being written to.
 
@@ -85,7 +85,7 @@ if (!WriteFile((HANDLE)(LONG_PTR)pmdtc->hFile,
     }
 ```
 
-However, if you are considering using just the file handle in your TYMED_FILE and TYMED_MULTIPAGE_FILE transfers (to write data directly to the file using the file handle, instead of calling **wiasWritePageBufToFile**), use [wiasWriteBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritebuftofile). This function performs the equivalent of:
+However, if you are considering using just the file handle in your TYMED_FILE and TYMED_MULTIPAGE_FILE transfers (to write data directly to the file using the file handle, instead of calling **wiasWritePageBufToFile**), use [wiasWriteBufToFile](./nf-wiamdef-wiaswritebuftofile.md). This function performs the equivalent of:
 
 ```cpp
 bRet = WriteFile((HANDLE)ULongToPtr(pmdtc->hFile),
@@ -99,9 +99,8 @@ This is essentially what you would do if you used the file handle directly. The 
 
 ## -see-also
 
-[MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context)
+[MINIDRV_TRANSFER_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context.md)
 
-[wiasWriteBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritebuftofile)
+[wiasWriteBufToFile](./nf-wiamdef-wiaswritebuftofile.md)
 
-[wiasWritePageBufToStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepagebuftostream)
-
+[wiasWritePageBufToStream](./nf-wiamdef-wiaswritepagebuftostream.md)

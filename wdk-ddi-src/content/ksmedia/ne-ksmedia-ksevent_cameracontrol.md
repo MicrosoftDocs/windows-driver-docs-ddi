@@ -52,25 +52,24 @@ Specifies camera control event notifications that the driver generates to indica
 
 ### -field KSEVENT_CAMERACONTROL_FOCUS
 
-A camera focus operation has completed or has been canceled. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-cameracontrol-focus">KSEVENT_CAMERACONTROL_FOCUS</a>.
+A camera focus operation has completed or has been canceled. See <a href="/windows-hardware/drivers/stream/ksevent-cameracontrol-focus">KSEVENT_CAMERACONTROL_FOCUS</a>.
 
 ### -field KSEVENT_CAMERACONTROL_ZOOM
 
-A camera zoom operation has completed or has been canceled. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-cameracontrol-zoom">KSEVENT_CAMERACONTROL_ZOOM</a>.
+A camera zoom operation has completed or has been canceled. See <a href="/windows-hardware/drivers/stream/ksevent-cameracontrol-zoom">KSEVENT_CAMERACONTROL_ZOOM</a>.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s_ex">KSPROPERTY_CAMERACONTROL_S_EX</a>.
+For more information, see <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s_ex">KSPROPERTY_CAMERACONTROL_S_EX</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-cameracontrol-focus">KSEVENT_CAMERACONTROL_FOCUS</a>
+<a href="/windows-hardware/drivers/stream/ksevent-cameracontrol-focus">KSEVENT_CAMERACONTROL_FOCUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-cameracontrol-zoom">KSEVENT_CAMERACONTROL_ZOOM</a>
+<a href="/windows-hardware/drivers/stream/ksevent-cameracontrol-zoom">KSEVENT_CAMERACONTROL_ZOOM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s_ex">KSPROPERTY_CAMERACONTROL_S_EX</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s_ex">KSPROPERTY_CAMERACONTROL_S_EX</a>

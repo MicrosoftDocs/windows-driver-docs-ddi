@@ -54,19 +54,19 @@ This enumeration defines the constants that indicate the magnetic stripe reader 
 
 ### -field MsrStatusUpdateType_Online
 
-The device is powered on. This is valid if <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedpospowerreportingtype">UnifiedPosPowerReportingType</a> is **Standard** or **Advanced**.
+The device is powered on. This is valid if <a href="/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedpospowerreportingtype">UnifiedPosPowerReportingType</a> is **Standard** or **Advanced**.
 
 ### -field MsrStatusUpdateType_Off
 
-The device is powered off or is detached from the terminal. This is valid if <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedpospowerreportingtype">UnifiedPosPowerReportingType</a> is **Advanced**.
+The device is powered off or is detached from the terminal. This is valid if <a href="/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedpospowerreportingtype">UnifiedPosPowerReportingType</a> is **Advanced**.
 
 ### -field MsrStatusUpdateType_Offline
 
-The device is powered on but is not ready, or is unable, to respond to requests. This is valid if <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedpospowerreportingtype">UnifiedPosPowerReportingType</a> is **Advanced**.
+The device is powered on but is not ready, or is unable, to respond to requests. This is valid if <a href="/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedpospowerreportingtype">UnifiedPosPowerReportingType</a> is **Advanced**.
 
 ### -field MsrStatusUpdateType_OffOrOffline
 
-The device is either off or offline. This is valid if <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedpospowerreportingtype">UnifiedPosPowerReportingType</a> is **Standard**.
+The device is either off or offline. This is valid if <a href="/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedpospowerreportingtype">UnifiedPosPowerReportingType</a> is **Standard**.
 
 ### -field MsrStatusUpdateType_Unauthenticated
 
@@ -79,4 +79,3 @@ The device is authenticated. This is valid if the device supports authentication
 ### -field MsrStatusUpdateType_Extended
 
 Vendor-specific status information. Reported in IMagneticStripeReaderStatusUpdatedEventArgs.ExtendedStatus.
-

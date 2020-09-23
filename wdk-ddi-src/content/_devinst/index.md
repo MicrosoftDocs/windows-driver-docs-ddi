@@ -21,4 +21,4 @@ To develop Driver installation, you need these headers:
 
  * [avc.h](../avc/index.md)
 
-For the programming guide, see [Driver installation](https://docs.microsoft.com/windows-hardware/drivers/install).
+For the programming guide, see [Driver installation](/windows-hardware/drivers/install).

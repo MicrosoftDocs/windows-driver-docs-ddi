@@ -52,14 +52,14 @@ api_name:
 
 The <b>NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</b> structure defines media-specific information that is
   associated with a 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      structure (NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX). The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -71,11 +71,11 @@ The
 A pointer to the next NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure in a linked list of
      NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures. If this is the last structure in the list, the
      pointer is <b>NULL</b>. Drivers must use the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
      NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX</a>, 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-nbl-get-media-specific-info-ex">
+     <a href="/windows-hardware/drivers/network/ndis-nbl-get-media-specific-info-ex">
      NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX</a>, and 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
      NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a> macros to manipulate this list.
 
 ### -field Tag
@@ -100,57 +100,56 @@ NDIS 6.20 and later drivers should use the NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_E
     driver-defined data.
 
 Structures in the list contain any media-specific out-of-band (OOB) data that accompanies the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with a 
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 If a protocol driver allocated the OOB data, it configured the data for a send operation. If a
     miniport driver allocated the data, it configured the data for a receive indication.
 
 To get the first element in the linked list, an NDIS driver calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro and specifies
+    <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro and specifies
     the 
     <b>MediaSpecificInformationEx</b> information type.
 
 To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the linked list, use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
     NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX</a>, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-nbl-get-media-specific-info-ex">
+    <a href="/windows-hardware/drivers/network/ndis-nbl-get-media-specific-info-ex">
     NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX</a>, and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
     NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a> macros.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
    NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-nbl-get-media-specific-info-ex">
+<a href="/windows-hardware/drivers/network/ndis-nbl-get-media-specific-info-ex">
    NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_media_specific_information">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_media_specific_information">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
    NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
-
+<a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>

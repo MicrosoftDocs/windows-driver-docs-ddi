@@ -53,7 +53,7 @@ The <b>AllocateCommonBufferEx</b> routine allocates memory for a common buffer a
 ### -param DmaAdapter 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device or system DMA channel. The caller obtained this pointer from a previous call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine.
 
 ### -param MaximumAddress 
 
@@ -68,7 +68,7 @@ The size, in bytes, of the common buffer that is to be allocated for the DMA ope
 ### -param LogicalAddress 
 
 [out]
-A pointer to a variable into which this routine writes the logical address that the device can use to access the common buffer. The DMA device should use this logical address instead of the physical address that is returned by a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmgetphysicaladdress">MmGetPhysicalAddress</a>.
+A pointer to a variable into which this routine writes the logical address that the device can use to access the common buffer. The DMA device should use this logical address instead of the physical address that is returned by a routine such as <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmgetphysicaladdress">MmGetPhysicalAddress</a>.
 
 ### -param CacheEnabled 
 
@@ -88,10 +88,10 @@ The preferred NUMA node from which the memory is to be allocated. If N is the nu
 
 <b>AllocateCommonBufferEx</b>
            is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a 
-          <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>
-           structure. Drivers obtain the address of this routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> with the Version member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
+          <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>
+           structure. Drivers obtain the address of this routine by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> with the Version member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
-<b>AllocateCommonBufferEx</b> is an extended version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a> routine. The following list summarizes the features that are available only in the extended version:
+<b>AllocateCommonBufferEx</b> is an extended version of the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a> routine. The following list summarizes the features that are available only in the extended version:
 
 <ul>
 <li>The caller can specify a maximum logical address for the common buffer that is to be allocated.</li>
@@ -101,31 +101,30 @@ On computers with ARM or ARM 64-based processors, cache settings in the system A
 
 On computers with ARM or ARM 64-based processors, the operating system allocates an uncached common buffer as Device Memory. For more information about the buffer, see sections A3.5.1, and A3.5.6 from the <a href="https://go.microsoft.com/fwlink/p/?linkid=853904">ARMv7 Architecture Reference Manual</a>.  
 
-The processor does not permit misaligned access to Device Memory. Your driver must always access data from the common buffer by using naturally-aligned operations. Most kernel routines do not accept Device Memory as input parameters. For example, a network driver cannot pass Device Memory into <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">NdisMIndicateReceiveNetBufferLists</a>. If your driver needs to pass data from a DMA common buffer to a kernel routine, either allocate the buffer with <i>CacheEnabled</i> set to TRUE or copy the data from the uncached common buffer into a temporary pool allocation.
+The processor does not permit misaligned access to Device Memory. Your driver must always access data from the common buffer by using naturally-aligned operations. Most kernel routines do not accept Device Memory as input parameters. For example, a network driver cannot pass Device Memory into <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">NdisMIndicateReceiveNetBufferLists</a>. If your driver needs to pass data from a DMA common buffer to a kernel routine, either allocate the buffer with <i>CacheEnabled</i> set to TRUE or copy the data from the uncached common buffer into a temporary pool allocation.
 
 For more information about DMA operations that use a common buffer, see the following topics:
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-common-buffers">Using Common Buffers</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-buffer-bus-master-dma">Using Common-Buffer Bus-Master DMA</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-buffer-system-dma">Using Common-Buffer System DMA</a>
+<a href="/windows-hardware/drivers/wdf/using-common-buffers">Using Common Buffers</a>
+<a href="/windows-hardware/drivers/kernel/using-common-buffer-bus-master-dma">Using Common-Buffer Bus-Master DMA</a>
+<a href="/windows-hardware/drivers/kernel/using-common-buffer-system-dma">Using Common-Buffer System DMA</a>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmgetphysicaladdress">MmGetPhysicalAddress</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmgetphysicaladdress">MmGetPhysicalAddress</a>

@@ -17,7 +17,7 @@ author: duncanmacmichael
 
 This section lists functions, event callbacks, macros, structures, and enumerations used in Windows networking device drivers starting with Windows Vista. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
 
-For the programming guide, see [Networking drivers for Windows Vista and later](https://docs.microsoft.com/windows-hardware/drivers/network).
+For the programming guide, see [Networking drivers for Windows Vista and later](/windows-hardware/drivers/network).
 
 ## Network driver headers
 
@@ -89,7 +89,7 @@ The following sections contain information for each area of network driver techn
 
 Starting in Windows 10, version 1703, the Windows Driver Kit (WDK) includes a class extension module (NetAdapterCx) that enables you to write a KMDF-based networking (NDIS) client driver for Network Interface Cards (NICs). The client driver interacts with NetAdapterCx, which acts as a bridge to traditional NDIS. 
 
-For more info about NetAdapterCx, see [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/).
+For more info about NetAdapterCx, see [Network Adapter WDF Class Extension (Cx)](/windows-hardware/drivers/netcx/).
 
 Header files that support NetAdapterCx include the following:
 
@@ -130,7 +130,7 @@ Header files that support NetAdapterCx include the following:
 
 The foundation for all kernel mode Windows network technologies is the Network Driver Interface Specification, or NDIS. NDIS forms the network driver platform that bridges the gap between the NIC and upper layers in the network stack.
 
-For more info about NDIS Core Functionality, see [NDIS Core Functionality](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-core-functionality2).
+For more info about NDIS Core Functionality, see [NDIS Core Functionality](/windows-hardware/drivers/network/ndis-core-functionality2).
 
 Header files that support NDIS core functionality include the following:
 
@@ -141,7 +141,7 @@ Header files that support NDIS core functionality include the following:
 
 Windows includes technologies for scalable networking such as Header-Data Split, NetDMA, PacketDirect Provider Interface, Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload, Receive Segment Coalescing (RSC), Receive Side Scaling (RSS), and TCP/IP offload.
 
-For more info about scalable networking, see [Scalable Networking](https://docs.microsoft.com/windows-hardware/drivers/network/scalable-networking2).
+For more info about scalable networking, see [Scalable Networking](/windows-hardware/drivers/network/scalable-networking2).
 
 Header files that support scalable networking include the following:
 
@@ -156,7 +156,7 @@ Header files that support scalable networking include the following:
 
 NDIS supports technologies for packet transfer and management within a Hyper-V virtual environment such as Single Root I/O Virtualization (SR-IOV), Virtual Machine Queue (VMQ), and Hyper-V Extensible Switch.
 
-For more info about virtualized networking, see [Virtualized Networking](https://docs.microsoft.com/windows-hardware/drivers/network/virtualized-networking).
+For more info about virtualized networking, see [Virtualized Networking](/windows-hardware/drivers/network/virtualized-networking).
 
 Header files that support virtualized networking include the following:
 
@@ -168,7 +168,7 @@ Header files that support virtualized networking include the following:
 
 Windows network drivers support both Wi-Fi and Mobile Broadband. For Windows Vista, Windows 7, Windows 8, and Windows 8.1, Wi-Fi drivers use the Native 802.11 Wireless LAN model. For Windows 10 and later, Wi-Fi drivers use the WLAN Universal Windows driver model, or WDI.
 
-For more info about wireless networking, see [Wireless Networking](https://docs.microsoft.com/windows-hardware/drivers/network/wireless-networking2).
+For more info about wireless networking, see [Wireless Networking](/windows-hardware/drivers/network/wireless-networking2).
 
 Header files that support wireless networking include the following:
 
@@ -187,7 +187,7 @@ Header files that support wireless networking include the following:
 
 Starting in Windows 10, version 1809, the Windows Driver Kit (WDK) includes a class extension module (MBBCx) that enables you to write a KMDF-based mobile broadband (MBB) client driver for MBB devices. The client driver interacts with MBBCx for mobile broadband media-specific functionality in addition to being based on [NetAdapterCx](#netadaptercx) and WDF.
 
-For more info about MBBCx, see [Mobile Broadband (MBB) WDF class extension](https://docs.microsoft.com/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx).
+For more info about MBBCx, see [Mobile Broadband (MBB) WDF class extension](/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx).
 
 Header files that support MBBCx include the following:
 
@@ -197,7 +197,7 @@ Header files that support MBBCx include the following:
 
 The Network Module Registrar (NMR) is an operating system module that facilitates the attachment of network modules to each other.
 
-For more info about the NMR, see [Network Module Registrar](https://docs.microsoft.com/windows-hardware/drivers/network/network-module-registrar2).
+For more info about the NMR, see [Network Module Registrar](/windows-hardware/drivers/network/network-module-registrar2).
 
 Header files that support the NMR include the following:
 
@@ -208,7 +208,7 @@ Header files that support the NMR include the following:
 
 Winsock Kernel (WSK) is the kernel mode component of Windows Sockets. 
 
-For more info about WSK, see [Winsock Kernel](https://docs.microsoft.com/windows-hardware/drivers/network/winsock-kernel4).
+For more info about WSK, see [Winsock Kernel](/windows-hardware/drivers/network/winsock-kernel4).
 
 Header files that support WSK include the following:
 
@@ -218,7 +218,7 @@ Header files that support WSK include the following:
 
 Windows Filtering Platform Callout Drivers are network drivers that implement one or more callouts, which enable them to process TCP/IP-based network data in ways that are beyond simple filtering.
 
-For more info about Windows Filtering Platform Callout Drivers, see [Windows Filtering Platform Callout Drivers](https://docs.microsoft.com/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2).
+For more info about Windows Filtering Platform Callout Drivers, see [Windows Filtering Platform Callout Drivers](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2).
 
 Header files that support Windows Filtering Platform Callout Drivers include the following:
 

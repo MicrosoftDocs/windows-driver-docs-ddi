@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtStartOneX</b> function to initiate an 802.1X authentication operation
   with the access point (AP). In this situation, the authentication is managed by the 802.1X module of the
   Native 802.11 framework instead of by the IHV Extensions DLL.
@@ -95,7 +95,7 @@ The IHV Extensions DLL initiates the 802.1X authentication operation by calling 
     <b>Dot11ExtStartOneX</b> function.
     <b>Dot11ExtStartOneX</b> can only be called either during a post-association
     operation or after the operation has completed. For more information about this operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
+    <a href="/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
 
 When the
     <b>Dot11ExtStartOneX</b> function is called, the operating system sends an EAP
@@ -137,7 +137,7 @@ The IHV Extensions DLL can cancel the 802.1X authentication operation by calling
 </li>
 </ul>
 For more information about using the 802.1X module for authentication, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
+    <a href="/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>.
 
 ## -see-also
@@ -170,4 +170,3 @@ For more information about using the 802.1X module for authentication, see
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
-

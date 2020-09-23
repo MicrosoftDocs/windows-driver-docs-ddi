@@ -25,7 +25,7 @@ To develop Bluetooth, you need these headers:
  * [sdplib.h](../sdplib/index.md)
  * [sdpnode.h](../sdpnode/index.md)
 
-For the programming guide, see [Bluetooth](https://docs.microsoft.com/windows-hardware/drivers/bluetooth).
+For the programming guide, see [Bluetooth](/windows-hardware/drivers/bluetooth).
 
 ## Functions
 

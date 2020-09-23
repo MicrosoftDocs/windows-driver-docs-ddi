@@ -60,7 +60,7 @@ The ready-state of the device.
 
 ### -field EmergencyMode
 
-The emergency mode of the device. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_emergency_mode">WWAN_EMERGENCY_MODE</a>.
+The emergency mode of the device. For more information, see <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_emergency_mode">WWAN_EMERGENCY_MODE</a>.
 
 ### -field SubscriberId
 
@@ -104,17 +104,16 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_ready_info">NDIS_WWAN_READY_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_ready_info">NDIS_WWAN_READY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_emergency_mode">WWAN_EMERGENCY_MODE</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_emergency_mode">WWAN_EMERGENCY_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_ready_state">WWAN_READY_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_ready_state">WWAN_READY_STATE</a>

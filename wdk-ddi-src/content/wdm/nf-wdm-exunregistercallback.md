@@ -57,13 +57,12 @@ Specifies the callback routine to unregister. This must be the value returned by
 
 ## -remarks
 
-For more information about callback objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/callback-objects">Callback Objects</a>.
+For more information about callback objects, see <a href="/windows-hardware/drivers/kernel/callback-objects">Callback Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exregistercallback">ExRegisterCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exregistercallback">ExRegisterCallback</a>

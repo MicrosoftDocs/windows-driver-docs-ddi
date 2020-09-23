@@ -132,5 +132,4 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-qmipsecstats-wmi-class">MSiSCSI_QMIPSECStats WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msiscsi-qmipsecstats-wmi-class">MSiSCSI_QMIPSECStats WMI Class</a>

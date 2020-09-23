@@ -72,15 +72,14 @@ When  failover to a secondary node in a server cluster occurs, a cluster client 
 
 For example, a file system filter driver will allocate a <b>NETWORK_APP_INSTANCE_ECP_CONTEXT</b> with the unique application instance GUID. The context structure is inserted into the ECP list of a file when it is created or opened. The cluster nodes cache the instance identifier from the ECP when processing the network file system create request. On failover, the resuming node can match the application to its set of opened files and grant access.
 
-The <b>NETWORK_APP_INSTANCE_ECP_CONTEXT</b> is identified in an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a> by <b>GUID_ECP_NETWORK_APP_INSTANCE</b>. This and other system-defined identifiers are described in <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/system-defined-ecps">System-Defined ECPs</a>.
+The <b>NETWORK_APP_INSTANCE_ECP_CONTEXT</b> is identified in an <a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a> by <b>GUID_ECP_NETWORK_APP_INSTANCE</b>. This and other system-defined identifiers are described in <a href="/windows-hardware/drivers/ifs/system-defined-ecps">System-Defined ECPs</a>.
 
-For information about how to use ECPs to associate extra information with a file when the file is created, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>.
+For information about how to use ECPs to associate extra information with a file when the file is created, see <a href="/windows-hardware/drivers/ifs/using-extra-create-parameters-with-an-irp-mj-create-operation">Using Extra Create Parameters with an IRP_MJ_CREATE Operation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
+<a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>

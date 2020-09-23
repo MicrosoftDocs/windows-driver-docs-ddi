@@ -48,13 +48,13 @@ api_name:
 
 The <b>IOCTL_SERIAL_SET_LINE_CONTROL</b> request sets the line control register (LCR). The line control register controls the data size, the number of stop bits, and the parity.
 
-To obtain the value of the line control register, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_line_control">IOCTL_SERIAL_GET_LINE_CONTROL</a> request.
+To obtain the value of the line control register, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_line_control">IOCTL_SERIAL_GET_LINE_CONTROL</a> request.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> points to a client-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a> structure that is used to input line control information.
+The <b>AssociatedIrp.SystemBuffer</b> points to a client-allocated <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a> structure that is used to input line control information.
 
 ### -input-buffer-length
 
@@ -76,13 +76,12 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the specified line control information is not valid.
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the specified line control information is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_line_control">IOCTL_SERIAL_GET_LINE_CONTROL</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_line_control">IOCTL_SERIAL_GET_LINE_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a>

@@ -62,7 +62,7 @@ Retrieves the current state of a connector. Unlike connector properties, state i
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 
@@ -71,4 +71,3 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropri
 [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md)
 
 [**EVT_USBPM_EVENT_CALLBACK**](nc-usbpmapi-evt_usbpm_event_callback.md)
-

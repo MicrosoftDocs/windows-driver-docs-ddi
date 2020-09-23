@@ -98,5 +98,4 @@ When <b>RxCeBuildVC</b> is successful, the data members in the RXCE_VC structure
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownvc">RxCeTearDownVC</a>
-
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownvc">RxCeTearDownVC</a>

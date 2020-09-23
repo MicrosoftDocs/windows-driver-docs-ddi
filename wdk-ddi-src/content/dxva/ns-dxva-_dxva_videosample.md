@@ -64,21 +64,20 @@ Specifies the end time of the sample.
 
 ### -field SampleFormat
 
-Specifies the format of the sample as defined by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a> structure.
+Specifies the format of the sample as defined by a <a href="/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a> structure.
 
 ### -field lpDDSSrcSurface
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure.
+Pointer to a <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlaceblt">DXVA_DeinterlaceBlt</a>
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlaceblt">DXVA_DeinterlaceBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a>

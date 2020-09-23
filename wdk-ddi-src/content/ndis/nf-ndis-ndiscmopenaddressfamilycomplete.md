@@ -64,7 +64,7 @@ Specifies the final status of the open-AF operation, either NDIS_STATUS_SUCCESS 
 
 [in]
 Specifies the NDIS-supplied handle that was input to the call manager's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function, which
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function, which
      returned NDIS_STATUS_PENDING.
 
 ### -param CallMgrAfContext 
@@ -79,13 +79,13 @@ Specifies the handle to a caller-allocated resident context area in which the ca
 
 A stand-alone call manager must call 
     <b>NdisCmOpenAddressFamilyComplete</b> if its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function previously
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function previously
     returned NDIS_STATUS_PENDING for the given 
     <i>NdisAfHandle</i> . The client, which initiated the pended open-AF operation with a call to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>,
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>,
     cannot carry out further connection-oriented operations on the same binding until 
     <b>NdisCmOpenAddressFamilyComplete</b> causes a call to that client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">
     ProtocolClOpenAfCompleteEx</a> function.
 
 If the caller of 
@@ -109,28 +109,27 @@ For a successful open, the NDIS-supplied
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCmOpenAddressFamilyComplete</b>. Connection-oriented miniport drivers that provide integrated
     call-management support must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmopenaddressfamilycomplete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmopenaddressfamilycomplete">
     NdisMCmOpenAddressFamilyComplete</a> instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmopenaddressfamilycomplete">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmopenaddressfamilycomplete">
    NdisMCmOpenAddressFamilyComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">ProtocolClOpenAfCompleteEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">ProtocolClOpenAfCompleteEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>

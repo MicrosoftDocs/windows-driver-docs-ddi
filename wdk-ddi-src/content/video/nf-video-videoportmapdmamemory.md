@@ -60,7 +60,7 @@ Pointer to the miniport driver's device extension.
 ### -param pVrp 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>.
+Pointer to a <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>.
 
 ### -param BoardAddress 
 
@@ -106,5 +106,4 @@ Is reserved for system use.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
-
+See <a href="/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.

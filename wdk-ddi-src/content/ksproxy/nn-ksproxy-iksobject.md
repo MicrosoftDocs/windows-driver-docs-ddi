@@ -51,7 +51,7 @@ The <b>IKsObject</b> interface provides a method to retrieve the file handle of 
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsObject</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -63,4 +63,3 @@ The IID for this interface is IID_IKsObject.
 <b>IKsObject</b> is defined in <i>Ksproxy.h</i> within the #ifdef __STREAMS__ section.
 
 __STREAMS__ is defined in <i>Stream.h</i>, a header from the DirectX SDK.
-

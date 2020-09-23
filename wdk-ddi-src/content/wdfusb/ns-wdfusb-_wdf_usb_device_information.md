@@ -62,7 +62,7 @@ The size, in bytes, of this structure.
 
 ### -field UsbdVersionInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_version_information">USBD_VERSION_INFORMATION</a> structure that provides version information for the host controller driver (HCD) and the USB specification version that the device supports.
+A <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_version_information">USBD_VERSION_INFORMATION</a> structure that provides version information for the host controller driver (HCD) and the USB specification version that the device supports.
 
 ### -field HcdPortCapabilities
 
@@ -70,25 +70,24 @@ This member is reserved for system use.
 
 ### -field Traits
 
-A set of bit flags that identify device traits. The flags are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_device_traits">WDF_USB_DEVICE_TRAITS</a> enumeration.
+A set of bit flags that identify device traits. The flags are defined by the <a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_device_traits">WDF_USB_DEVICE_TRAITS</a> enumeration.
 
 ## -remarks
 
-The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceretrieveinformation">WdfUsbTargetDeviceRetrieveInformation</a> method. Before calling <b>WdfUsbTargetDeviceRetrieveInformation</b>, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_device_information_init">WDF_USB_DEVICE_INFORMATION_INIT</a> to initialize the structure.
+The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceretrieveinformation">WdfUsbTargetDeviceRetrieveInformation</a> method. Before calling <b>WdfUsbTargetDeviceRetrieveInformation</b>, the driver must call <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_device_information_init">WDF_USB_DEVICE_INFORMATION_INIT</a> to initialize the structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_version_information">USBD_VERSION_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_version_information">USBD_VERSION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_device_information_init">WDF_USB_DEVICE_INFORMATION_INIT</a>
+<a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_device_information_init">WDF_USB_DEVICE_INFORMATION_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_device_traits">WDF_USB_DEVICE_TRAITS</a>
+<a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_device_traits">WDF_USB_DEVICE_TRAITS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceretrieveinformation">WdfUsbTargetDeviceRetrieveInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdeviceretrieveinformation">WdfUsbTargetDeviceRetrieveInformation</a>

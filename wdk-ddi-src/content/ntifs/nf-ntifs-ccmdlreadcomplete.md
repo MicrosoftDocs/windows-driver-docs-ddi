@@ -46,27 +46,26 @@ api_name:
 
 ## -description
 
-The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> for a cached file.
+The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> for a cached file.
 
 ## -parameters
 
 ### -param FileObject 
 
 [in]
-File object pointer that was passed to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
+File object pointer that was passed to <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 ### -param MdlChain 
 
 [in]
-Address of the MDL chain returned by <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
+Address of the MDL chain returned by <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 ## -remarks
 
-<b>CcMdlReadComplete</b> frees the memory descriptor lists (MDL) created by <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> for a cached file. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped.
+<b>CcMdlReadComplete</b> frees the memory descriptor lists (MDL) created by <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> for a cached file. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped.
 
-Each call to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> must be followed by a call to <b>CcMdlReadComplete</b>.
+Each call to <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> must be followed by a call to <b>CcMdlReadComplete</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>
-
+<a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>

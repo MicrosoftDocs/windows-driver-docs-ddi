@@ -81,23 +81,22 @@ Pointer to an IRP to be associated with the MDL. If the <i>Irp</i> pointer is no
 
 ## -remarks
 
-<b>IoAllocateMdl</b> can be used by a driver that needs to break a buffer into pieces, each mapped by a separate MDL, or to map a driver-allocated buffer. The driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> with the MDL allocated by this call to set up an MDL describing a driver-allocated buffer in nonpaged pool.
+<b>IoAllocateMdl</b> can be used by a driver that needs to break a buffer into pieces, each mapped by a separate MDL, or to map a driver-allocated buffer. The driver should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> with the MDL allocated by this call to set up an MDL describing a driver-allocated buffer in nonpaged pool.
 
 The <i>Length</i> parameter specifies the size of the buffer that is to be described by the MDL. In Windows Server 2003, Windows XP, and Windows 2000, the maximum buffer size, in bytes, that this routine can allocate is PAGE_SIZE * (65535 - <b>sizeof</b>(MDL)) / <b>sizeof</b>(ULONG_PTR). In Windows Vista and Windows Server 2008, the maximum buffer size is (2 gigabytes - PAGE_SIZE). In Windows 7 and Windows Server 2008 R2, the maximum buffer size is (4 gigabytes - PAGE_SIZE).
 
 If the <i>SecondaryBuffer</i> parameter is <b>FALSE</b>, the routine updates <i>Irp</i>-><b>MdlAddress</b> to point to the new MDL. If <i>SecondaryBuffer</i> is <b>TRUE</b>, the routine adds the MDL to the end of the MDL chain that <i>Irp</i>-><b>MdlAddress</b> points to.
 
-For more information about MDLs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
+For more information about MDLs, see <a href="/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl">IoFreeMdl</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iofreemdl">IoFreeMdl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a>

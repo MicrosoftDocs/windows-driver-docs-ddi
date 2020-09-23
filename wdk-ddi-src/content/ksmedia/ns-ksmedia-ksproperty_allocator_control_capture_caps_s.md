@@ -58,9 +58,8 @@ Indicates whether interleaved capture is supported. Any nonzero value indicates 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-allocator-control-capture-caps">KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-allocator-control-capture-caps">KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-allocator-control">PROPSETID_ALLOCATOR_CONTROL</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-allocator-control">PROPSETID_ALLOCATOR_CONTROL</a>

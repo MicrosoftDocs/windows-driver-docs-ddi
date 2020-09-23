@@ -65,5 +65,4 @@ Under the covers, this will call DIF_REMOVE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>
-
+<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>VPCI_WRITE_BLOCK_INPUT</b> structure is used in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_write_block">IOCTL_VPCI_WRITE_BLOCK</a> IOCTL request to write data to a specified configuration block for a PCI Express (PCIe) virtual function (VF).
+The <b>VPCI_WRITE_BLOCK_INPUT</b> structure is used in an <a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_write_block">IOCTL_VPCI_WRITE_BLOCK</a> IOCTL request to write data to a specified configuration block for a PCI Express (PCIe) virtual function (VF).
 
 This IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
@@ -95,5 +95,4 @@ This operating system runs within the Hyper-V parent partition.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_write_block">IOCTL_VPCI_WRITE_BLOCK</a>
-
+<a href="/windows-hardware/drivers/ddi/vpci/ni-vpci-ioctl_vpci_write_block">IOCTL_VPCI_WRITE_BLOCK</a>

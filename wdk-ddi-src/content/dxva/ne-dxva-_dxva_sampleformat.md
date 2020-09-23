@@ -92,13 +92,12 @@ Specifies that the sample contains a video substream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videosample">DXVA_VideoSample</a>
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videosample">DXVA_VideoSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videosample2">DXVA_VideoSample2</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videosample2">DXVA_VideoSample2</a>

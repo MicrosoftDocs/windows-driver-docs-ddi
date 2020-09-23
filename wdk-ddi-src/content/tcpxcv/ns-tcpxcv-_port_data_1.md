@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> function uses a PORT_DATA_1 structure when it adds a port or configures an existing port.
+The <a href="/previous-versions/ff564255(v=vs.85)">XcvData</a> function uses a PORT_DATA_1 structure when it adds a port or configures an existing port.
 
 ## -struct-fields
 
@@ -112,11 +112,10 @@ Specifies the SNMP device index.
 
 ## -remarks
 
-When the <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> function is called either to add a port or configure an existing port, its <i>pOutputData</i> parameter must be set with the address of a PORT_DATA_1 structure, which will be filled in when the function returns. To add a port, set this function's <i>pszDataName</i> parameter to the string L"AddPort". To configure a port, set this parameter to L"ConfigPort". 
+When the <a href="/previous-versions/ff564255(v=vs.85)">XcvData</a> function is called either to add a port or configure an existing port, its <i>pOutputData</i> parameter must be set with the address of a PORT_DATA_1 structure, which will be filled in when the function returns. To add a port, set this function's <i>pszDataName</i> parameter to the string L"AddPort". To configure a port, set this parameter to L"ConfigPort". 
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tcpmon-xcv-interface">TCPMON Xcv Interface</a> for more information.
+See <a href="/windows-hardware/drivers/print/tcpmon-xcv-interface">TCPMON Xcv Interface</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>
-
+<a href="/previous-versions/ff564255(v=vs.85)">XcvData</a>

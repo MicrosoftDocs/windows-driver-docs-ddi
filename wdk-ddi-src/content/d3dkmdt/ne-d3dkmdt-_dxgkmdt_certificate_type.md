@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The DXGKMDT_CERTIFICATE_TYPE enumeration identifies the type of certificate that callers of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate">DxgkDdiOPMGetCertificate</a> functions require.
+The DXGKMDT_CERTIFICATE_TYPE enumeration identifies the type of certificate that callers of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a> and <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate">DxgkDdiOPMGetCertificate</a> functions require.
 
 ## -enum-fields
 
@@ -76,9 +76,8 @@ For more information about certificates that are used with OPM, download the Out
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate">DxgkDdiOPMGetCertificate</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate">DxgkDdiOPMGetCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a>

@@ -80,7 +80,7 @@ The operating system failed to add the processor. If a device driver receives th
 
 ### -field NtNumber
 
-The processor index of the new processor. For information about the relationship between a processor index and a processor number, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>.
+The processor index of the new processor. For information about the relationship between a processor index and a processor number, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>.
 
 ### -field Status
 
@@ -88,13 +88,13 @@ If the <b>State</b> member contains <b>KeProcessorAddFailureNotify</b>, this mem
 
 ### -field ProcNumber
 
-The processor number of the new processor. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure that specifies a group number and a group-relative processor number.
+The processor number of the new processor. This member is a <a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure that specifies a group number and a group-relative processor number.
 
 ## -remarks
 
 The <b>KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</b> structure is available starting with Windows Server 2008.
 
-A device driver registers to receive notification when a new processor is dynamically added to the hardware partition by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a> function. For more information about registering for this notification, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/registering-for-synchronous-driver-notification">Registering for Synchronous Driver Notification</a>.
+A device driver registers to receive notification when a new processor is dynamically added to the hardware partition by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a> function. For more information about registering for this notification, see <a href="/windows-hardware/drivers/kernel/registering-for-synchronous-driver-notification">Registering for Synchronous Driver Notification</a>.
 
 When a new processor is dynamically added to the hardware partition, the operating system calls each registered callback function two times. The operating system calls each registered callback function the first time with the <b>KeProcessorAddStartNotify</b> state, and the second time with either the <b>KeProcessorAddCompleteNotify</b> state or the <b>KeProcessorAddFailureNotify</b> state.
 
@@ -102,13 +102,12 @@ A device driver's callback function that receives these notifications must not m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a>
-
+<a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a>

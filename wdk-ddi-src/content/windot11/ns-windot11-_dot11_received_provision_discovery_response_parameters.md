@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The response parameters for a provision discovery response are specified in a <b>DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS</b> structure. This structure is sent with an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-send-provision-discovery-response">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a> request to the miniport.
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The response parameters for a provision discovery response are specified in a <b>DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS</b> structure. This structure is sent with an <a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-provision-discovery-response">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a> request to the miniport.
 
 ## -struct-fields
 
@@ -114,5 +114,4 @@ typedef struct _DOT11_RECEIVED_PROVISION_DISCOVERY_RESPONSE_PARAMETERS {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-send-provision-discovery-response">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>
-
+<a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-provision-discovery-response">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a>

@@ -72,9 +72,8 @@ The calculation of the reference time from the sample time depends on the sampli
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a>
+<a href="/windows/win32/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-isynthsinkdmus">ISynthSinkDMus</a>
-
+<a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-isynthsinkdmus">ISynthSinkDMus</a>

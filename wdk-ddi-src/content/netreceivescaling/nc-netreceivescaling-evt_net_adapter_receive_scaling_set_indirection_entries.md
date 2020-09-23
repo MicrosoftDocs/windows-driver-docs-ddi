@@ -129,5 +129,4 @@ MyEvtNetAdapterReceiveScalingSetIndirectionEntries(
 
 [**NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY**](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entry.md)
 
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
-
+[NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)

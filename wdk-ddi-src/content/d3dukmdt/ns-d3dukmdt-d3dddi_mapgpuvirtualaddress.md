@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<b>D3DDDI_MAPGPUVIRTUALADDRESS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a> to map a graphics processing unit (GPU) virtual address ranges to a specific allocation range or to put it to the <i>Invalid</i> or <i>Zero</i> state.
+<b>D3DDDI_MAPGPUVIRTUALADDRESS</b> is used with <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a> to map a graphics processing unit (GPU) virtual address ranges to a specific allocation range or to put it to the <i>Invalid</i> or <i>Zero</i> state.
 
 ## -struct-fields
 
@@ -56,7 +56,7 @@ A handle for the device paging queue, used for the operation.
 
 ### -field BaseAddress
 
-(Optional) If non-<b>NULL</b>, the video memory manager will attempt to use this address as the base address for the mapping. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, it must belong to a range, previously obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a>. 
+(Optional) If non-<b>NULL</b>, the video memory manager will attempt to use this address as the base address for the mapping. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, it must belong to a range, previously obtained by calling <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a> or <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a>. 
 The <b>BaseAddress</b> value is in bytes and must be aligned to CPU page boundary.
 If <b>NULL</b> is specified, the video memory manager will pick the base address for the allocation within the specified <b>MinimumAddress</b> and <b>MaximumAddress</b>.
 
@@ -86,7 +86,7 @@ Specifies the size of the range to map in 4KB pages.
 
 ### -field Protection
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a> structure that specifies the protection on the GPU virtual address that is mapped.
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a> structure that specifies the protection on the GPU virtual address that is mapped.
 
 |Value|Meaning|
 |--- |--- |
@@ -97,7 +97,7 @@ Specifies the size of the range to map in 4KB pages.
 
 ### -field DriverProtection
 
-Specifies a driver specific 64bits protection value associated with the VA range being allocated. The specified driver protection will be used in call to <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxgkddiupdatepagetable">DxgkDdiUpdatePageTable</a> for page table entries corresponding to this virtual address range.
+Specifies a driver specific 64bits protection value associated with the VA range being allocated. The specified driver protection will be used in call to <a href="/windows-hardware/drivers/display/dxgkddiupdatepagetable">DxgkDdiUpdatePageTable</a> for page table entries corresponding to this virtual address range.
 
 ### -field Reserved0
 
@@ -119,17 +119,16 @@ A zero fence value might be returned, meaning that the operation is already comp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddigpuvirtualaddress_protection_type">D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxgkddiupdatepagetable">DxgkDdiUpdatePageTable</a>
+<a href="/windows-hardware/drivers/display/dxgkddiupdatepagetable">DxgkDdiUpdatePageTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb">pfnMapGpuVirtualAddressCb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>

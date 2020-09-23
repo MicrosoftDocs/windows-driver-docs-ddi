@@ -53,12 +53,12 @@ Called by the user-mode display driver to report the statistics of the Miracast 
 ### -param hMiracastDeviceHandle 
 
 [in]
-A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
+A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
 ### -param pStatistics 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_statistic_data">MIRACAST_STATISTIC_DATA</a> structure that contains the statistics data.
+A pointer to a <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_statistic_data">MIRACAST_STATISTIC_DATA</a> structure that contains the statistics data.
 
 ## -remarks
 
@@ -68,18 +68,17 @@ For more info on how to use this function, see these topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/miracast-user-mode-driver-tasks-to-support-miracast-wireless-displays">Miracast user-mode driver tasks to support Miracast wireless displays</a>
+<a href="/windows-hardware/drivers/display/miracast-user-mode-driver-tasks-to-support-miracast-wireless-displays">Miracast user-mode driver tasks to support Miracast wireless displays</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/reporting-miracast-encode-chunks-and-statistics">Reporting Miracast encode chunks and statistics</a>
+<a href="/windows-hardware/drivers/display/reporting-miracast-encode-chunks-and-statistics">Reporting Miracast encode chunks and statistics</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a>
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_statistic_data">MIRACAST_STATISTIC_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_statistic_data">MIRACAST_STATISTIC_DATA</a>

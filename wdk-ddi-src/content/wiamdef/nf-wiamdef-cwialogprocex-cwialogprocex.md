@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The [CWiaLogProcEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc--cwialogproc) constructor is called when the function or method being logged is entered.
+The [CWiaLogProcEx](./nf-wiamdef-cwialogproc--cwialogproc.md) constructor is called when the function or method being logged is entered.
 
 ## -parameters
 
@@ -78,5 +78,4 @@ Defines the **LONG** parameter *lMethodId*.
 
 ## -see-also
 
-[CWiaLogProcEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogprocex-cwialogprocex)
-
+[CWiaLogProcEx]()

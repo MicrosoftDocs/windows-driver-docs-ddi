@@ -68,7 +68,7 @@ The physical adapter of the device to which this operation applies.
 
 *pConfiguration*
 
-The decode configuration for the list of formats.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
+The decode configuration for the list of formats.  For more information, see the <a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
 
 
 
@@ -86,8 +86,7 @@ This function retrieves the number of formats supported for a decode configurati
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
  
 
  
-

@@ -46,14 +46,13 @@ api_name:
 
 ## -description
 
-This section describes the methods defined for the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/iprintcoreui2-com-interface">IPrintCoreUI2 COM Interface</a>.
+This section describes the methods defined for the <a href="/windows-hardware/drivers/print/iprintcoreui2-com-interface">IPrintCoreUI2 COM Interface</a>.
 
-This interface inherits from the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/iprintoemdriverui-com-interface">IPrintOemDriverUI COM Interface</a>. The methods in this interface are provided by the Windows XP Pscript5 driver, for the sole use of its user interface plug-ins. Method prototypes appear in prcomoem.h.
+This interface inherits from the <a href="/windows-hardware/drivers/print/iprintoemdriverui-com-interface">IPrintOemDriverUI COM Interface</a>. The methods in this interface are provided by the Windows XP Pscript5 driver, for the sole use of its user interface plug-ins. Method prototypes appear in prcomoem.h.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreUI2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreUI2</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreUI2</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreUI2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

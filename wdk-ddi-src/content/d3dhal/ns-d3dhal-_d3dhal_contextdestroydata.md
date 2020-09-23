@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The D3DHAL_CONTEXTDESTROYDATA structure contains the information that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_contextdestroycb">D3dContextDestroy</a> function requires to delete a context.
+The D3DHAL_CONTEXTDESTROYDATA structure contains the information that the <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_contextdestroycb">D3dContextDestroy</a> function requires to delete a context.
 
 ## -struct-fields
 
@@ -58,9 +58,8 @@ Specifies the handle to the context to be destroyed.
 
 ### -field ddrval
 
-Specifies the location where the driver writes the return code for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_contextdestroycb">D3dContextDestroy</a>. D3D_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-codes-for-direct3d-driver-callbacks">Return Codes for Direct3D Driver Callbacks</a>.
+Specifies the location where the driver writes the return code for <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_contextdestroycb">D3dContextDestroy</a>. D3D_OK indicates success. For more information, see <a href="/windows-hardware/drivers/display/return-codes-for-direct3d-driver-callbacks">Return Codes for Direct3D Driver Callbacks</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_contextdestroycb">D3dContextDestroy</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_contextdestroycb">D3dContextDestroy</a>

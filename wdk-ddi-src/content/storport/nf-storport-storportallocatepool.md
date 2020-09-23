@@ -84,9 +84,8 @@ StorPortAllocatePool returns one of the following status codes:
 
 ## -remarks
 
-A miniport driver calls the **StorPortAllocatePool** routine to allocate a block of non-contiguous memory from the non-paged pool. To free the block of memory, the miniport driver calls [**StorPortFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreepool). If the request fails, *BufferPointer* will be set to **NULL**.
+A miniport driver calls the **StorPortAllocatePool** routine to allocate a block of non-contiguous memory from the non-paged pool. To free the block of memory, the miniport driver calls [**StorPortFreePool**](./nf-storport-storportfreepool.md). If the request fails, *BufferPointer* will be set to **NULL**.
 
 ## -see-also
 
-[**StorPortFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreepool)
-
+[**StorPortFreePool**](./nf-storport-storportfreepool.md)

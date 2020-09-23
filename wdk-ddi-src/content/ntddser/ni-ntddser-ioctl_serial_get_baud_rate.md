@@ -48,7 +48,7 @@ api_name:
 
 The <b>IOCTL_SERIAL_GET_BAUD_RATE</b> request returns the baud rate at which the serial port is currently configured to transmit and receive data.
 
-To set the baud rate, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_baud_rate">IOCTL_SERIAL_SET_BAUD_RATE</a> request.
+To set the baud rate, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_baud_rate">IOCTL_SERIAL_SET_BAUD_RATE</a> request.
 
 ## -ioctlparameters
 
@@ -66,7 +66,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <b>SER
 
 ### -output-buffer-length
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size in bytes of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_baud_rate">SERIAL_BAUD_RATE</a> structure.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size in bytes of a <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_baud_rate">SERIAL_BAUD_RATE</a> structure.
 
 ### -in-out-buffer
 
@@ -74,15 +74,14 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 
 ### -status-block
 
-If the request is successful, the <b>Information</b> member is set to the size in bytes of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_baud_rate">SERIAL_BAUD_RATE</a> structure. Otherwise, the <b>Information</b> member is set to zero.
+If the request is successful, the <b>Information</b> member is set to the size in bytes of a <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_baud_rate">SERIAL_BAUD_RATE</a> structure. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_baud_rate">IOCTL_SERIAL_SET_BAUD_RATE</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_baud_rate">IOCTL_SERIAL_SET_BAUD_RATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_baud_rate">SERIAL_BAUD_RATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_baud_rate">SERIAL_BAUD_RATE</a>

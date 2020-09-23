@@ -63,12 +63,12 @@ Specifies the handle identifying the SAP.
 
 <b>NdisMCmDeregisterSapComplete</b> notifies both NDIS and the client that the MCM driver has completed
     the SAP-deregistration request for which its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">
     ProtocolCmDeregisterSap</a> function previously returned NDIS_STATUS_PENDING.
 
 A call to 
     <b>NdisMCmDeregisterSapComplete</b> causes NDIS to call the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
     ProtocolClDeregisterSapComplete</a> function.
 
 The MCM driver should consider the 
@@ -82,18 +82,17 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmderegistersapcomplete">NdisCmDeregisterSapComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmderegistersapcomplete">NdisCmDeregisterSapComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
    ProtocolClDeregisterSapComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">ProtocolCmDeregisterSap</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">ProtocolCmDeregisterSap</a>

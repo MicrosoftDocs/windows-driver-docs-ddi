@@ -80,15 +80,14 @@ The plug number (within the subunit) described by the AVCPRECONNECTINFO structur
 
 ## -remarks
 
-This structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-connectinfo">AVC_FUNCTION_GET_CONNECTINFO</a> function code.
+This structure is used with the <a href="/windows-hardware/drivers/stream/avc-function-get-connectinfo">AVC_FUNCTION_GET_CONNECTINFO</a> function code.
 
 This structure is used only as member of the AVC_PRECONNECT_INFO structure. It is not used by itself.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_preconnect_info">AVC_PRECONNECT_INFO</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_preconnect_info">AVC_PRECONNECT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ne-avc-_kspin_flag_avc">KSPIN_FLAG_AVC</a>
-
+<a href="/windows-hardware/drivers/ddi/avc/ne-avc-_kspin_flag_avc">KSPIN_FLAG_AVC</a>

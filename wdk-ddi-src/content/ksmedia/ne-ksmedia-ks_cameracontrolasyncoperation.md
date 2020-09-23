@@ -64,9 +64,8 @@ Stop the requested asynchronous camera control operation and reset the lens focu
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s_ex">KSPROPERTY_CAMERACONTROL_S_EX</a>.
+For more information, see <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s_ex">KSPROPERTY_CAMERACONTROL_S_EX</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s_ex">KSPROPERTY_CAMERACONTROL_S_EX</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s_ex">KSPROPERTY_CAMERACONTROL_S_EX</a>

@@ -61,12 +61,12 @@ None.
 
 ### -output-buffer
 
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a> 
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a> 
 			structure that UFX populates with the type of bus event and data associated with that event.
 
 ### -output-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a> 
+The size of a <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a> 
 			structure.
 
 ### -in-out-buffer
@@ -83,9 +83,8 @@ UFX completes this request in response to an event on the bus. It is recommended
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_event">USBFN_EVENT</a>
+<a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_event">USBFN_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a>
-
+<a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a>

@@ -49,7 +49,7 @@ dev_langs:
 
 ## -description
 
-The <b>FsRtlMdlReadCompleteDev</b> routine completes the read operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a> routine initiated.
+The <b>FsRtlMdlReadCompleteDev</b> routine completes the read operation that the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FsRtlMdlReadDev</a> routine initiated.
 
 ## -parameters
 
@@ -74,9 +74,8 @@ None
 
 ## -remarks
 
-The <b>FsRtlMdlReadCompleteDev</b> routine unlocks the pages in cache memory that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a> routine allocated.
+The <b>FsRtlMdlReadCompleteDev</b> routine unlocks the pages in cache memory that the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FsRtlMdlReadDev</a> routine allocated.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FsRtlMdlReadDev</a>

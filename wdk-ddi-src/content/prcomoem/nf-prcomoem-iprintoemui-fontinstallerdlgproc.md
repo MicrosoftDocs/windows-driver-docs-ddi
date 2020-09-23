@@ -112,17 +112,16 @@ The method is not implemented.
 
 ## -remarks
 
-A user interface plug-in can implement the <code>IPrintOemUI::FontInstallerDlgProc</code> method as a means of replacing Unidrv's font installer. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-installers-for-unidrv">Customized Font Installers for Unidrv</a>.
+A user interface plug-in can implement the <code>IPrintOemUI::FontInstallerDlgProc</code> method as a means of replacing Unidrv's font installer. For more information, see <a href="/windows-hardware/drivers/print/customized-font-installers-for-unidrv">Customized Font Installers for Unidrv</a>.
 
 The <code>IPrintOemUI::FontInstallerDlgProc</code> method is used by Unidrv as a dialog box procedure, and its address is passed to <b>DialogBoxParam</b> (described in the Microsoft Windows SDK documentation) when a user invokes the font installer from Unidrv's user interface.
 
-If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lParam</i> points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_oemfontinstparam">OEMFONTINSTPARAM</a> structure.
+If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lParam</i> points to an <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_oemfontinstparam">OEMFONTINSTPARAM</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui">IPrintOemUI</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemui">IPrintOemUI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-updateexternalfonts">IPrintOemUI::UpdateExternalFonts</a>
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-updateexternalfonts">IPrintOemUI::UpdateExternalFonts</a>

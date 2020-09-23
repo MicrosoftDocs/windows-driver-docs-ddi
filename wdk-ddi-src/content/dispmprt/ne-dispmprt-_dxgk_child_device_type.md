@@ -72,15 +72,14 @@ Type indicating that this target is permanently connected to an integrated displ
 
 ## -remarks
 
-The <b>ChildDeviceType</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a> structure is a DXGK_CHILD_DEVICE_TYPE value.
+The <b>ChildDeviceType</b> member of a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a> structure is a DXGK_CHILD_DEVICE_TYPE value.
 
-For more information about child devices of display adapters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/child-devices-of-the-display-adapter">Child Devices of the Display Adapter</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/display/enumerating-child-devices-of-a-display-adapter">Enumerating Child Devices of a Display Adapter</a>.
+For more information about child devices of display adapters, see <a href="/windows-hardware/drivers/display/child-devices-of-the-display-adapter">Child Devices of the Display Adapter</a> and <a href="/windows-hardware/drivers/display/enumerating-child-devices-of-a-display-adapter">Enumerating Child Devices of a Display Adapter</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_child_descriptor">DXGK_CHILD_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a>

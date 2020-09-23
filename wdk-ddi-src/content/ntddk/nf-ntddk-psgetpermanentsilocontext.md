@@ -58,7 +58,7 @@ The silo in which the object was inserted. This parameter is required and it can
 ### -param ContextSlot 
 
 [in]
-The read-only slot that was previously allocated by<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> and made read-only by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psmakesilocontextpermanent">PsMakeSiloContextPermanent</a>.
+The read-only slot that was previously allocated by<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> and made read-only by <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psmakesilocontextpermanent">PsMakeSiloContextPermanent</a>.
 
 ### -param ReturnedSiloContext
 
@@ -111,4 +111,3 @@ The operation completed successfully.
 ## -remarks
 
 A successful call to <b>PsGetPermanentSiloContext</b> does not increment the reference count on the object that the <i>ReturnedSiloContext</i> parameter points to. The returned object pointer is valid as long as there is a valid reference on the silo object.
-

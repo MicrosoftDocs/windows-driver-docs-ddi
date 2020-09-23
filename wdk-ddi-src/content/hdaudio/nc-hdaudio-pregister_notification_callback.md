@@ -75,7 +75,7 @@ Driver-specific context value for the callback routine.
 
 RegisterNotificationCallback returns STATUS_SUCCESS if the call successfully registers the event. Otherwise, the routine returns STATUS_INSUFFICIENT_RESOURCES to indicate that there are insufficient resources that are available to complete the operation. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -115,4 +115,3 @@ The HD Audio bus driver will maintain a reference on the FDO after registration 
 [PREGISTER_NOTIFICATION_CALLBACK callback function](nc-hdaudio-pregister_notification_callback.md)
 
 [hdaudio.h](../hdaudio/index.md)
-

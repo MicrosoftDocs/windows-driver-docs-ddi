@@ -53,7 +53,7 @@ The <b>RtlHashUnicodeString </b>routine creates a hash value from a given Unicod
 ### -param String 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the Unicode string to be converted to a hash value.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the Unicode string to be converted to a hash value.
 
 ### -param CaseInSensitive 
 
@@ -76,5 +76,4 @@ A pointer to a ULONG variable that receives the hash value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

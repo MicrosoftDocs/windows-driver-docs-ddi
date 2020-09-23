@@ -69,5 +69,4 @@ The total number of supported emergency modes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ready_info">WWAN_READY_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ready_info">WWAN_READY_INFO</a>

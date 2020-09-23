@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>PIPE_TYPE</b> data type is used as input to the <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function, if the I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_cancel_io">IOCTL_CANCEL_IO</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_reset_pipe">IOCTL_RESET_PIPE</a>. An interrupt pipe, a bulk IN pipe, and a bulk OUT pipe are associated with each device handle supplied to <b>DeviceIoControl</b>. The specified PIPE_TYPE value indicates on which of these pipes the operation should be performed, as indicated in the following table.
+The <b>PIPE_TYPE</b> data type is used as input to the <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function, if the I/O control code is <a href="/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_cancel_io">IOCTL_CANCEL_IO</a> or <a href="/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_reset_pipe">IOCTL_RESET_PIPE</a>. An interrupt pipe, a bulk IN pipe, and a bulk OUT pipe are associated with each device handle supplied to <b>DeviceIoControl</b>. The specified PIPE_TYPE value indicates on which of these pipes the operation should be performed, as indicated in the following table.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ The operation should be performed on the bulk OUT pipe.
 
 ### -field ALL_PIPE
 
-The operation should be performed on <i>all</i> transfer pipes (not just the pipes associated with the device handle supplied to <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>).
-
+The operation should be performed on <i>all</i> transfer pipes (not just the pipes associated with the device handle supplied to <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>).

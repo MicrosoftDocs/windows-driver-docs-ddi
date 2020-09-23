@@ -54,7 +54,7 @@ The <b>IoCheckShareAccessEx</b> routine is called by file system drivers (FSDs) 
 ### -param DesiredAccess 
 
 [in]
-Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
+Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
 
 ### -param DesiredShareAccess 
 
@@ -93,5 +93,4 @@ The <b>IoCheckShareAccessEx</b> routine returns STATUS_SUCCESS if the requester'
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">I/O Manager Routines</a>
-
+<a href="/windows-hardware/drivers/ddi/index">I/O Manager Routines</a>

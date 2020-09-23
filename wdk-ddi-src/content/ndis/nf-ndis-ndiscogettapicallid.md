@@ -57,7 +57,7 @@ api_name:
 [in]
 Specifies the NDIS handle to the VC. This handle was supplied by NDIS when the VC was originally
      created with the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> function.
 
 ### -param TapiCallId 
 
@@ -118,7 +118,7 @@ The handle to the VC specified by
 ## -remarks
 
 Suppose a call manager calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> to create a VC for a TAPI
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> to create a VC for a TAPI
     call. NDIS in turn supplies the handle to the VC to a client. The client passes this VC handle in a call
     to the 
     <b>NdisCoGetTapiCallId</b> function to retrieve a string that identifies the VC. The client can pass this
@@ -129,18 +129,17 @@ The client creates a context for each VC that it manages. The client uses
     identifier to a TAPI application to identify each VC. Later, if a TAPI application passes one of these
     string identifiers down to the client in a VC-related operation, the client must pass this string
     identifier as a Unicode string in a call to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclgetprotocolvccontextfromtapicallid">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclgetprotocolvccontextfromtapicallid">
     NdisClGetProtocolVcContextFromTapiCallId</a> to get back the correct context for the VC.
 
 For more information about the VAR_STRING structure, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff564235(v=vs.85)">TAPI Objects</a>.
+    <a href="/previous-versions/windows/hardware/network/ff564235(v=vs.85)">TAPI Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclgetprotocolvccontextfromtapicallid">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclgetprotocolvccontextfromtapicallid">
    NdisClGetProtocolVcContextFromTapiCallId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>

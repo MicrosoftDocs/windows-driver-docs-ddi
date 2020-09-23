@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The **NDIS_RECEIVE_SCALE_PARAMETERS** structure specifies the [Receive Side Scaling (RSS)](https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-) parameters for a miniport adapter.
+The **NDIS_RECEIVE_SCALE_PARAMETERS** structure specifies the [Receive Side Scaling (RSS)](/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-) parameters for a miniport adapter.
   
 ### Version Information
 
@@ -57,7 +57,7 @@ The **NDIS_RECEIVE_SCALE_PARAMETERS** structure specifies the [Receive Side Scal
 
 ### -field Header
 
-The [NDIS_OBJECT_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header) structure for the **NDIS_RECEIVE_SCALE_PARAMETERS** structure. Set the **Type** member of the structure that **Header** specifies to **NDIS_OBJECT_TYPE_RSS_PARAMETERS**.
+The [NDIS_OBJECT_HEADER](./ns-ntddndis-_ndis_object_header.md) structure for the **NDIS_RECEIVE_SCALE_PARAMETERS** structure. Set the **Type** member of the structure that **Header** specifies to **NDIS_OBJECT_TYPE_RSS_PARAMETERS**.
 
 * For NDIS  6.60 and later drivers, set the **Revision** member to **NDIS_RECEIVE_SCALE_PARAMETERS_REVISION_3** and the **Size** member to **NDIS_SIZEOF_RECEIVE_SCALE_PARAMETERS_REVISION_3**.
 
@@ -98,9 +98,9 @@ In a set request, this member is the hash type and hash function that the NIC sh
 
 In a query request, this member is the hash type and hash function that the NIC is using.
 
-Overlying drivers and NDIS can use the [NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func) macro to combine the hash type and hash function into hash information and set the **HashInformation** member.
+Overlying drivers and NDIS can use the [NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC](/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func) macro to combine the hash type and hash function into hash information and set the **HashInformation** member.
 
-Miniport drivers can use the [NDIS_RSS_HASH_TYPE_FROM_HASH_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func) macro to get the hash type from **HashInformation** and the [NDIS_RSS_HASH_FUNC_FROM_HASH_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func) macro to get the hash function.
+Miniport drivers can use the [NDIS_RSS_HASH_TYPE_FROM_HASH_INFO](/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func) macro to get the hash type from **HashInformation** and the [NDIS_RSS_HASH_FUNC_FROM_HASH_INFO](/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func) macro to get the hash function.
 
 ### -field IndirectionTableSize
 
@@ -129,7 +129,7 @@ The offset of an array of processor masks from the beginning of the **NDIS_RECEI
 
 ### -field NumberOfProcessorMasks
 
-The number of elements in an array of type [GROUP_AFFINITY](https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity) representing the processors used in the indirection table
+The number of elements in an array of type [GROUP_AFFINITY](../miniport/ns-miniport-_group_affinity.md) representing the processors used in the indirection table
 
 ### -field ProcessorMasksEntrySize
 
@@ -141,7 +141,7 @@ When RSS is enabled, specifies the processor that will receive packets where the
 
 ## -remarks
 
-The **NDIS_RECEIVE_SCALE_PARAMETERS** structure defines the [Receive Side Scaling (RSS)](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2) parameters for the [OID_GEN_RECEIVE_SCALE_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters) OID.
+The **NDIS_RECEIVE_SCALE_PARAMETERS** structure defines the [Receive Side Scaling (RSS)](/windows-hardware/drivers/network/ndis-receive-side-scaling2) parameters for the [OID_GEN_RECEIVE_SCALE_PARAMETERS](/windows-hardware/drivers/network/oid-gen-receive-scale-parameters) OID.
 
 > [!NOTE]
 > The indirection table and secret key are appended after the **NDIS_RECEIVE_SCALE_PARAMETERS**
@@ -158,7 +158,7 @@ NDIS automatically translates the indirection table if there are older and newer
 
 The miniport driver must examine the indirection table to determine the CPU numbers to associate with hardware queues. If the total number of different CPU numbers that appear in the indirection table is more than the number of hardware queues that the NIC supports, the miniport driver must pick a subset of the CPU numbers from the indirection table. The subset is equal in number to the number of hardware queues.
 
-The miniport driver specified the number of receive queues value in response to   [OID_GEN_RECEIVE_SCALE_CAPABILITIES](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities).
+The miniport driver specified the number of receive queues value in response to   [OID_GEN_RECEIVE_SCALE_CAPABILITIES](/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities).
 
 To clear the RSS parameters and disable RSS, NDIS sets the hash function that is specified within the **HashInformation** member is zero. NDIS can also disable RSS by setting the **NDIS_RSS_PARAM_FLAG_DISABLE_RSS** flag in the **NDIS_RECEIVE_SCALE_PARAMETERS** structure.
 
@@ -166,16 +166,16 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 ## -see-also
 
-[Receive Side Scaling (RSS)](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2)
+[Receive Side Scaling (RSS)](/windows-hardware/drivers/network/ndis-receive-side-scaling2)
 
-[NDIS_OBJECT_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header)
+[NDIS_OBJECT_HEADER](./ns-ntddndis-_ndis_object_header.md)
 
-[NDIS_RSS_HASH_FUNC_FROM_HASH_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func)
+[NDIS_RSS_HASH_FUNC_FROM_HASH_INFO](/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func)
 
-[NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func)
+[NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC](/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func)
 
-[NDIS_RSS_HASH_TYPE_FROM_HASH_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func)
+[NDIS_RSS_HASH_TYPE_FROM_HASH_INFO](/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func)
 
-[OID_GEN_RECEIVE_SCALE_CAPABILITIES](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities)
+[OID_GEN_RECEIVE_SCALE_CAPABILITIES](/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities)
 
-[OID_GEN_RECEIVE_SCALE_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters)
+[OID_GEN_RECEIVE_SCALE_PARAMETERS](/windows-hardware/drivers/network/oid-gen-receive-scale-parameters)

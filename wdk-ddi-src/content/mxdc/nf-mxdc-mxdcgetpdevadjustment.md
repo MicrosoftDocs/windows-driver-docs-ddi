@@ -58,7 +58,7 @@ The handle of the currently instantiated printer.
 ### -param cbDevMode 
 
 [in]
-The size of the [DEVMODE](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew) structure, in bytes, including the driver's private DEVMODE data.
+The size of the [DEVMODE](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure, in bytes, including the driver's private DEVMODE data.
 
 ### -param pDevMode 
 
@@ -78,7 +78,7 @@ A parameter that consists of data that is sent to the printer interface DLL from
 ### -param cbPrintPropertiesCollection 
 
 [in]
-The size of the [PrintPropertiesCollection](https://docs.microsoft.com/windows-hardware/drivers/print/xps-driver-document-events) data structure, in bytes.
+The size of the [PrintPropertiesCollection](/windows-hardware/drivers/print/xps-driver-document-events) data structure, in bytes.
 
 ### -param pPrintPropertiesCollection
 
@@ -92,9 +92,9 @@ The **PrintPropertiesCollection** data structure from which the printer interfac
 
 | Return code | Description |
 | --- | --- |
-| S_OK | The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the [GDIINFO](https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-gdiinfo) structure to the respective fields. |
+| S_OK | The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the [GDIINFO](/windows/win32/api/winddi/ns-winddi-gdiinfo) structure to the respective fields. |
 | E_NOTIMPL | The **MxdcGetPDEVAdjustment** function is not implemented by the printer interface. The printer interface must not modify the fields that it does not support. The MXDC defaults to its current defaults. For the imageable area case, MXDC defaults to using the physical page size. For the compression option, MXDC defaults to medium JPEG compression. |
-| E_FAIL | For this value or any other failure values, the MXDC returns -1 to the [DrvEnablePDEV](https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev) function, catches the internal exception, and sets a flag to fail and end the print job. |
+| E_FAIL | For this value or any other failure values, the MXDC returns -1 to the [DrvEnablePDEV](/windows/win32/api/winddi/nf-winddi-drvenablepdev) function, catches the internal exception, and sets a flag to fail and end the print job. |
 
 ## -remarks
 
@@ -281,9 +281,8 @@ Values:
 
 ## -see-also
 
-[DrvEnablePDEV](https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev)
+[DrvEnablePDEV](/windows/win32/api/winddi/nf-winddi-drvenablepdev)
 
-[GDIINFO](https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-gdiinfo)
+[GDIINFO](/windows/win32/api/winddi/ns-winddi-gdiinfo)
 
-[IPrintOemUIMXDC Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuimxdc)
-
+[IPrintOemUIMXDC Interface](../prcomoem/nn-prcomoem-iprintoemuimxdc.md)

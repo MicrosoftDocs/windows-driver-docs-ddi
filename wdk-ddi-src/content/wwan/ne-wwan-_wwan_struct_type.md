@@ -62,34 +62,34 @@ The elements are NULL-terminated strings of Telephone Number (TNs), with each st
      
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-ready-info">OID_WWAN_READY_INFO</a> uses this value to
+<a href="/windows-hardware/drivers/network/oid-wwan-ready-info">OID_WWAN_READY_INFO</a> uses this value to
      represent a list of TNs assigned to the device.
 
 ### -field WwanStructContext
 
 The elements are of type 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>.
      
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">
+<a href="/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">
      OID_WWAN_PROVISIONED_CONTEXTS</a> uses this value to represent a list of provisioned
      contexts.
 
 ### -field WwanStructProvider
 
 The elements are of type 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider">WWAN_PROVIDER</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider">WWAN_PROVIDER</a>.
      
 
-Both <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preferred-providers">OID_WWAN_PREFERRED_PROVIDERS</a> and 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-visible-providers">OID_WWAN_VISIBLE_PROVIDERS</a> use this
+Both <a href="/windows-hardware/drivers/network/oid-wwan-preferred-providers">OID_WWAN_PREFERRED_PROVIDERS</a> and 
+     <a href="/windows-hardware/drivers/network/oid-wwan-visible-providers">OID_WWAN_VISIBLE_PROVIDERS</a> use this
      value to represent a list of network providers for WWAN 1.0 miniport drivers.
 
 ### -field WwanStructSmsPdu
 
 The elements are of type 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_pdu_record">WWAN_SMS_PDU_RECORD</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_pdu_record">WWAN_SMS_PDU_RECORD</a>.
 
 ### -field WwanStructReserved0
 
@@ -106,7 +106,7 @@ The value is reserved for future use. Do not use.
 ### -field WwanStructSmsCdma
 
 The elements are of type 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a>.
 
 ### -field WwanStructReserved3
 
@@ -115,25 +115,25 @@ The value is reserved for future use. Do not use.
 ### -field WwanStructDeviceServiceEntry
 
 The elements are of type 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_entry">WWAN_DEVICE_SERVICE_ENTRY</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_entry">WWAN_DEVICE_SERVICE_ENTRY</a>.
 
 ### -field WwanStructProvider2
 
 The elements are of type 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a>.
 
 The following OIDs use this value to represent a list of network providers for WWAN 2.0 miniport drivers:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preferred-providers">OID_WWAN_PREFERRED_PROVIDERS</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-preferred-providers">OID_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-visible-providers">OID_WWAN_VISIBLE_PROVIDERS</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-visible-providers">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preferred-multicarrier-providers">OID_WWAN_PREFERRED_MULTICARRIER_PROVIDERS</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-preferred-multicarrier-providers">OID_WWAN_PREFERRED_MULTICARRIER_PROVIDERS</a>
 
 ### -field WwanStructDeviceServiceGuid
 
@@ -170,11 +170,11 @@ The elements are of type [WWAN_SIGNAL_STATE](ns-wwan-_wwan_signal_state.md).
 
 ### -field WwanStructUiccTerminalCapability
 
-The elements are of type **WWAN_UICC_TERMINAL_CAPABILITY_TLV**. For more info about low level UICC operations, see [MB low level UICC access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-low-level-uicc-access#mbimcidmsuiccterminalcapability).
+The elements are of type **WWAN_UICC_TERMINAL_CAPABILITY_TLV**. For more info about low level UICC operations, see [MB low level UICC access](/windows-hardware/drivers/network/mb-low-level-uicc-access#mbimcidmsuiccterminalcapability).
 
 ### -field WwanStructSarConfig
 
-The elements are of type [**WWAN_SAR_CONFIG_INDICES**](ns-wwan-_wwan_sar_config_indices.md). For more info about MB SAR operations, see [MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support#mbimcidmssarconfig).
+The elements are of type [**WWAN_SAR_CONFIG_INDICES**](ns-wwan-_wwan_sar_config_indices.md). For more info about MB SAR operations, see [MB SAR Platform Support](/windows-hardware/drivers/network/mb-sar-platform-support#mbimcidmssarconfig).
 
 ### -field WwanStructContextV2
 
@@ -182,7 +182,7 @@ The elements are of type [**WWAN_CONTEXT_V2**](ns-wwan-_wwan_context_v2.md).
 
 ### -field WwanStructNetworkBlacklistProvider
 
-The elements are of type [**WWAN_NETWORK_BLACKLIST_PROVIDER**](ns-wwan-_wwan_network_blacklist_provider.md). For more info about network blacklist providers, see [MB Network Blacklist Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-network-blacklist-operations).
+The elements are of type [**WWAN_NETWORK_BLACKLIST_PROVIDER**](ns-wwan-_wwan_network_blacklist_provider.md). For more info about network blacklist providers, see [MB Network Blacklist Operations](/windows-hardware/drivers/network/mb-network-blacklist-operations).
 
 ### -field WwanStructMax
 
@@ -191,44 +191,43 @@ The total number of supported types.
 
 #### - WwanStructDeviceCellularClass
 
-The elements are of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_cellular_class">WWAN_CELLULAR_CLASS</a>. 
+The elements are of type <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_cellular_class">WWAN_CELLULAR_CLASS</a>. 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-caps">OID_WWAN_DEVICE_CAPS</a> uses this value to represent multiple cellular classes supported by the miniport driver.
+<a href="/windows-hardware/drivers/network/oid-wwan-device-caps">OID_WWAN_DEVICE_CAPS</a> uses this value to represent multiple cellular classes supported by the miniport driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preferred-providers">OID_WWAN_PREFERRED_PROVIDERS</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-preferred-providers">OID_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-ready-info">OID_WWAN_READY_INFO</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-ready-info">OID_WWAN_READY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-visible-providers">OID_WWAN_VISIBLE_PROVIDERS</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-visible-providers">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider">WWAN_PROVIDER</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider">WWAN_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_pdu_record">WWAN_SMS_PDU_RECORD</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_pdu_record">WWAN_SMS_PDU_RECORD</a>

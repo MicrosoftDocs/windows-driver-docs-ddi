@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GET_LENGTH_INFORMATION structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a> to obtain the length, in bytes, of a disk, partition, or volume.
+The GET_LENGTH_INFORMATION structure is used with the <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a> to obtain the length, in bytes, of a disk, partition, or volume.
 
 ## -struct-fields
 
@@ -60,5 +60,4 @@ Contains the length, in bytes, of a disk, partition, or volume.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>

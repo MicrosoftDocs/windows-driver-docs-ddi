@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -129,4 +129,3 @@ Indicates support for unsynchronized I/O processing in the miniport driver. The 
 Indicates support for WMI. The miniport driver must set this member to <b>TRUE</b>.
 
 ### -field AdvancedChannelConfiguration
-

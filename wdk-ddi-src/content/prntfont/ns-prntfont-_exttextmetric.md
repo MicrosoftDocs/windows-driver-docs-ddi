@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The EXTTEXTMETRIC structure is used to specify font-specific information within [Unidrv font metrics files](https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management) (.ufm files).
+The EXTTEXTMETRIC structure is used to specify font-specific information within [Unidrv font metrics files](/windows-hardware/drivers/print/customized-font-management) (.ufm files).
 
 ## -struct-fields
 
@@ -175,4 +175,3 @@ Specifies the number of character kerning pairs defined for this font.
 ### -field emKernTracks
 
 Specifies the number of kerning tracks defined for this font.
-

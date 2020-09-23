@@ -61,9 +61,8 @@ A pointer to the resource to be queried.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544351">ExAcquireResourceExclusiveLite</a>
+<a href="/previous-versions/ff544351(v=vs.85)">ExAcquireResourceExclusiveLite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredsharedlite">ExIsResourceAcquiredSharedLite</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredsharedlite">ExIsResourceAcquiredSharedLite</a>

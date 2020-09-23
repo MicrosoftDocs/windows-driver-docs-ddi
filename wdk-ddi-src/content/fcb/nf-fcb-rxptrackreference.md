@@ -115,7 +115,7 @@ The line number in the source file where this routine was called.
 
 In checked builds, <b>RxpTrackReference</b> is used to track requests to reference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures. For retail builds, this function does nothing.
 
-If WMI is enabled, a log of these dereference operations is sent as a WMI event to user-mode WMI components that have requested notification. The deference request is also logged to the RDBSS logging system by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a> routine to record an I/O error log entry if logging is enabled. 
+If WMI is enabled, a log of these dereference operations is sent as a WMI event to user-mode WMI components that have requested notification. The deference request is also logged to the RDBSS logging system by calling the <a href="/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a> routine to record an I/O error log entry if logging is enabled. 
 
 Note that this routine does not actually reference the structure passed (increment the reference count on the structure).
 
@@ -125,25 +125,24 @@ For retail builds, this function does nothing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/rxassert">RxAssert</a>
+<a href="/windows-hardware/drivers/ifs/rxassert">RxAssert</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/rxdbgbreakpoint">RxDbgBreakPoint</a>
+<a href="/windows-hardware/drivers/ifs/rxdbgbreakpoint">RxDbgBreakPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxdereference">RxDereference</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxdereference">RxDereference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxreference">RxReference</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxreference">RxReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxptrackdereference">RxpTrackDereference</a>
+<a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxptrackdereference">RxpTrackDereference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a>
-
+<a href="/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a>

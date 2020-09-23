@@ -56,7 +56,7 @@ api_name:
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident">D3DDDI_MAKERESIDENT</a> structure that describes the operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident">D3DDDI_MAKERESIDENT</a> structure that describes the operation.
 
 ## -returns
 
@@ -71,5 +71,4 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident">D3DDDI_MAKERESIDENT</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident">D3DDDI_MAKERESIDENT</a>

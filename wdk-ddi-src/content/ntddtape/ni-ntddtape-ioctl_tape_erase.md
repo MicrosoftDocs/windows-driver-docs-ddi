@@ -52,7 +52,7 @@ Erases the current tape partition, either as a TAPE_ERASE_LONG (in other words, 
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_erase">TAPE_ERASE</a>. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_erase">TAPE_ERASE</a>. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous.
 
@@ -78,13 +78,12 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_erase">TAPE_ERASE</a>
+<a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_erase">TAPE_ERASE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
+<a href="/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniErase</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniErase</a>

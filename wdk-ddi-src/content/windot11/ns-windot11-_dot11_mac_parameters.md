@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_MAC_PARAMETERS</b> is the optional input for an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a> request. The device role is defined in an operation mode bitmask included in this structure.
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_MAC_PARAMETERS</b> is the optional input for an <a href="/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a> request. The device role is defined in an operation mode bitmask included in this structure.
 
 ## -struct-fields
 
@@ -113,9 +113,8 @@ typedef struct _DOT11_MAC_PARAMETERS {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-create-mac">OID_DOT11_CREATE_MAC</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-

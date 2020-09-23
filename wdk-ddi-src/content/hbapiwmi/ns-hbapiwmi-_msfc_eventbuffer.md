@@ -50,33 +50,32 @@ api_name:
 
 ## -description
 
-The MSFC_EventBuffer structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a> method to retrieve the next events in the HBA's event queue.
+The MSFC_EventBuffer structure is used in conjunction with the <a href="/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a> method to retrieve the next events in the HBA's event queue.
 
 ## -struct-fields
 
 ### -field EventType
 
-Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
+Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 ### -field EventInfo
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a> that holds information about the events that were retrieved.
+Contains a structure of type <a href="/previous-versions/ff556048(v=vs.85)">HBA_EventInfo</a> that holds information about the events that were retrieved.
 
 ## -remarks
 
-The WMI tool suite generates a declaration for this structure in <i>hbapiwm.h </i>after compiling the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-eventbuffer-wmi-class">MSFC_EventBuffer WMI Class</a>. 
+The WMI tool suite generates a declaration for this structure in <i>hbapiwm.h </i>after compiling the <a href="/windows-hardware/drivers/storage/msfc-eventbuffer-wmi-class">MSFC_EventBuffer WMI Class</a>. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a> structure is declared in <i>hbaapi.h</i>. You must include <i>hbaapi.h</i> to reference this structure.
+The <a href="/previous-versions/ff556048(v=vs.85)">HBA_EventInfo</a> structure is declared in <i>hbaapi.h</i>. You must include <i>hbaapi.h</i> to reference this structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
+<a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a>
+<a href="/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a>
-
+<a href="/previous-versions/ff556048(v=vs.85)">HBA_EventInfo</a>

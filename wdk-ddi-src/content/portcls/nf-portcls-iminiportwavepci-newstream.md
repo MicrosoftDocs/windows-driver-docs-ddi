@@ -53,7 +53,7 @@ The <code>NewStream</code> method creates a new instance of a logical stream ass
 ### -param Stream 
 
 [out]
-Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a> interface. The caller specifies a valid, non-<b>NULL</b> pointer for this parameter.
+Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a> interface. The caller specifies a valid, non-<b>NULL</b> pointer for this parameter.
 
 ### -param OuterUnknown 
 
@@ -63,12 +63,12 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 ### -param PoolType 
 
 [in]
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration.
 
 ### -param PortStream 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepcistream">IPortWavePciStream</a> interface of the port driver's stream object.
+Pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepcistream">IPortWavePciStream</a> interface of the port driver's stream object.
 
 ### -param Pin 
 
@@ -83,17 +83,17 @@ Specifies whether to create a capture stream or a render stream. This parameter 
 ### -param DataFormat 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure that specifies the stream's data format.
+Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure that specifies the stream's data format.
 
 ### -param DmaChannel 
 
 [out]
-Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a> object. The caller specifies a valid, non-<b>NULL</b> pointer for this parameter.
+Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream's <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a> object. The caller specifies a valid, non-<b>NULL</b> pointer for this parameter.
 
 ### -param ServiceGroup 
 
 [out]
-Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer for this parameter.
+Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer for this parameter.
 
 ## -returns
 
@@ -101,21 +101,21 @@ Output pointer for the service group. This parameter points to a caller-allocate
 
 ## -remarks
 
-The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP and its initial position to zero. (See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepcistream-setstate">IMiniportWavePciStream::SetState</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepcistream-getposition">IMiniportWavePciStream::GetPosition</a>.)
+The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP and its initial position to zero. (See <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepcistream-setstate">IMiniportWavePciStream::SetState</a> and <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepcistream-getposition">IMiniportWavePciStream::GetPosition</a>.)
 
-The <i>DataFormat</i> parameter, which specifies the data format of the stream, points to one of the following audio-specific, extended versions of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure:
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
+The <i>DataFormat</i> parameter, which specifies the data format of the stream, points to one of the following audio-specific, extended versions of the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure:
 
 
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
+
+
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
 
 
 If the miniport driver does not provide a service group pointer (that is, if the <code>NewStream</code> call outputs <b>NULL</b> through the <i>ServiceGroup</i> pointer), the port driver sets up its own periodic timer instead for processing stream position and clock events. The period for this timer is currently 20 milliseconds, but the period might change in future implementations.
 
-The <i>Stream</i>, <i>OuterUnknown</i>, <i>PortStream</i>, and <i>ServiceGroup</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
+The <i>Stream</i>, <i>OuterUnknown</i>, <i>PortStream</i>, and <i>ServiceGroup</i> parameters follow the <a href="/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 Note that <code>NewStream</code> does not follow the usual reference-counting conventions in its handling of the pointer that it outputs through the <i>DmaChannel</i> OUT parameter. When the port driver finishes using the references that it receives through the <code>NewStream</code> method's other OUT parameters, <i>Stream</i> and <i>ServiceGroup</i>, it releases them, as expected. In contrast, the port driver never uses the <i>DmaChannel</i> pointer that it receives from the <code>NewStream</code> call and it never calls <b>Release</b> on the <i>DmaChannel</i> object.
 
@@ -125,37 +125,36 @@ Note that the <code>NewStream</code> methods for the other port types (WaveCycli
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idmachannel">IDmaChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepci">IMiniportWavePci</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepci">IMiniportWavePci</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepcistream">IPortWavePciStream</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavepcistream">IPortWavePciStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>

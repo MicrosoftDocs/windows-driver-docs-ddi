@@ -66,41 +66,40 @@ This value is not used.
 
 ### -field WdfUsbRequestTypeDeviceString
 
-A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-devices">obtain a device's Unicode strings</a>.
+A request to <a href="/windows-hardware/drivers/wdf/working-with-usb-devices">obtain a device's Unicode strings</a>.
 
 ### -field WdfUsbRequestTypeDeviceControlTransfer
 
-A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-devices">send a control transfer</a>.
+A request to <a href="/windows-hardware/drivers/wdf/working-with-usb-devices">send a control transfer</a>.
 
 ### -field WdfUsbRequestTypeDeviceUrb
 
-A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-devices">send a URB to a device</a>.
+A request to <a href="/windows-hardware/drivers/wdf/working-with-usb-devices">send a URB to a device</a>.
 
 ### -field WdfUsbRequestTypePipeWrite
 
-A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">write to a pipe</a>.
+A request to <a href="/windows-hardware/drivers/wdf/working-with-usb-pipes">write to a pipe</a>.
 
 ### -field WdfUsbRequestTypePipeRead
 
-A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">read from a pipe</a>.
+A request to <a href="/windows-hardware/drivers/wdf/working-with-usb-pipes">read from a pipe</a>.
 
 ### -field WdfUsbRequestTypePipeAbort
 
-A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">stop a pipe</a>.
+A request to <a href="/windows-hardware/drivers/wdf/working-with-usb-pipes">stop a pipe</a>.
 
 ### -field WdfUsbRequestTypePipeReset
 
-A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">reset a pipe</a>.
+A request to <a href="/windows-hardware/drivers/wdf/working-with-usb-pipes">reset a pipe</a>.
 
 ### -field WdfUsbRequestTypePipeUrb
 
-A request to <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">send a URB to a pipe</a>.
+A request to <a href="/windows-hardware/drivers/wdf/working-with-usb-pipes">send a URB to a pipe</a>.
 
 ## -remarks
 
-The <b>WDF_USB_REQUEST_TYPE</b> enumeration is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_request_completion_params">WDF_USB_REQUEST_COMPLETION_PARAMS</a> structure.
+The <b>WDF_USB_REQUEST_TYPE</b> enumeration is used in the <a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_request_completion_params">WDF_USB_REQUEST_COMPLETION_PARAMS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_request_completion_params">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_request_completion_params">WDF_USB_REQUEST_COMPLETION_PARAMS</a>

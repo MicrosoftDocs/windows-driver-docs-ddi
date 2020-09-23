@@ -55,5 +55,4 @@ api_name:
 
 ### -field CycleTime
 
-On success, specifies the current isochronous cycle time. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_cycle_time">CYCLE_TIME</a> entry for details.
-
+On success, specifies the current isochronous cycle time. See the <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_cycle_time">CYCLE_TIME</a> entry for details.

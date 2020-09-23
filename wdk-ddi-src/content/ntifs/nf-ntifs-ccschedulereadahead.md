@@ -69,29 +69,28 @@ Length in bytes of the range that was last read.
 
 The <b>CcReadAhead</b> macro is a wrapper for <b>CcScheduleReadAhead</b>. It calls <b>CcScheduleReadAhead</b> only if <i>Length</i> >= 256. Measurements have shown that calling <b>CcScheduleReadAhead</b> for smaller reads actually decreases performance.
 
-<b>CcReadAhead</b> and <b>CcScheduleReadAhead</b> can only be called after a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539067">CcFastCopyRead</a>, or <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
+<b>CcReadAhead</b> and <b>CcScheduleReadAhead</b> can only be called after a successful call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopyread">CcCopyRead</a>, <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccfastcopyread">CcFastCopyRead</a>, or <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopyread">CcCopyRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539067">CcFastCopyRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccfastcopyread">CcFastCopyRead</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>
+<a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539200">CcScheduleReadAhead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccschedulereadahead">CcScheduleReadAhead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539203">CcSetAdditionalCacheAttributes</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetadditionalcacheattributes">CcSetAdditionalCacheAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetreadaheadgranularity">CcSetReadAheadGranularity</a>

@@ -72,5 +72,4 @@ Boolean representing mute state:
 
 [sidebandaudio.h](index.md)
 
-[IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_mute_status_update)
-
+[IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE](./ni-sidebandaudio-ioctl_sbaud_get_mute_status_update.md)

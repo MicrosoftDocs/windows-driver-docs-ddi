@@ -59,7 +59,7 @@ Callers of [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 
 ## -see-also
 
-[**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md)
 [STOR_EVENT](ns-storport-stor_event.md)
 
 [**STOR_DISPATCHER_HEADER**](ns-storport-stor_dispatcher_event.md)
@@ -67,4 +67,3 @@ Callers of [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 
 [**StorPortSetEvent**](nf-storport-storportsetevent.md)
-

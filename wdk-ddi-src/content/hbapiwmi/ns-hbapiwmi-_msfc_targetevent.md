@@ -56,7 +56,7 @@ A WMI provider uses the MSFC_TargetEvent structure to report port events for the
 
 ### -field EventType
 
-Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
+Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 ### -field PortWWN
 
@@ -68,5 +68,4 @@ Contains a worldwide name that indicates the remote port for which the event occ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
-
+<a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>

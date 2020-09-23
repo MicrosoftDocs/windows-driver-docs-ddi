@@ -52,7 +52,7 @@ The **NtFlushBuffersFile** routine is called by a file system legacy filter driv
 
 ### -param FileHandle 
 [in]
-Handle returned by [**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
+Handle returned by [**NtCreateFile**](./nf-ntifs-ntcreatefile.md) or [**NtOpenFile**](./nf-ntifs-ntopenfile.md) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
 
 ### -param IoStatusBlock 
 [out]
@@ -70,22 +70,22 @@ Address of the caller's I/O status block. This parameter is required and cannot 
 
 ## -remarks
 
-Minifilter drivers should call [**FltFlushBuffers**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers) instead of calling **NtFlushBuffersFile**.
+Minifilter drivers should call [**FltFlushBuffers**](../fltkernel/nf-fltkernel-fltflushbuffers.md) instead of calling **NtFlushBuffersFile**.
 
-A legacy file system filter driver can call **NtFlushBuffersFile** to issue an [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous.
+A legacy file system filter driver can call **NtFlushBuffersFile** to issue an [IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous.
 
-Callers of **NtFlushBuffersFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **NtFlushBuffersFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
-For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-[**FltFlushBuffers**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers)
+[**FltFlushBuffers**](../fltkernel/nf-fltkernel-fltflushbuffers.md)
 
-[IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
+[IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
 
-[Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[**NtCreateFile**](./nf-ntifs-ntcreatefile.md)
 
-[**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)
+[**NtOpenFile**](./nf-ntifs-ntopenfile.md)

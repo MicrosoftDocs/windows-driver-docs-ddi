@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure contains CD text descriptor data used in conjunction with the data in the [CDROM_TOC_CD_TEXT_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_cd_text_data) structure.
+This structure contains CD text descriptor data used in conjunction with the data in the [CDROM_TOC_CD_TEXT_DATA](./ns-ntddcdrm-_cdrom_toc_cd_text_data.md) structure.
 
 ## -struct-fields
 
@@ -111,9 +111,8 @@ Contains the cyclic redundancy check.
 
 ## -see-also
 
-[CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex)
+[CDROM_READ_TOC_EX](./ns-ntddcdrm-_cdrom_read_toc_ex.md)
 
-[CDROM_TOC_CD_TEXT_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_cd_text_data)
+[CDROM_TOC_CD_TEXT_DATA](./ns-ntddcdrm-_cdrom_toc_cd_text_data.md)
 
-[IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
-
+[IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md)

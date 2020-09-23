@@ -62,7 +62,7 @@ Specifies the number of properties.
 ### -param pPropSpec 
 
 [in]
-Pointer to a [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structure indicating the properties for which to get valid values and access flags.
+Pointer to a [PROPSPEC](/windows/win32/api/propidlbase/ns-propidlbase-propspec) structure indicating the properties for which to get valid values and access flags.
 
 ### -param pulAccessFlags
 
@@ -71,19 +71,19 @@ Pointer to an array that contains the access flags for the properties.
 ### -param pPropVar 
 
 [out]
-Pointer to an array of [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures that contains the valid values for the properties.
+Pointer to an array of [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures that contains the valid values for the properties.
 
 ## -returns
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
 This function fills each element of the *pPropVar* array with a PROPVARIANT structure that specifies the valid values for the corresponding property. Properties with the access rights flag WIA_PROP_NONE have no valid values for that property. The data type for the valid values of these properties is VT_EMPTY.
 
-One or more of the [WIA_PROP_Xxx property attributes](https://docs.microsoft.com/windows/win32/wia/-wia-property-attributes) and access flags can be returned in each element of the *pulAccessFlags* array.
+One or more of the [WIA_PROP_Xxx property attributes](/windows/win32/wia/-wia-property-attributes) and access flags can be returned in each element of the *pulAccessFlags* array.
 
 If the property has a range of valid values, the values can be determined through the *pPropVar* parameter upon completion of this function. The *pPropVar* parameter specifies an array of PROPVARIANT structures.
 
@@ -110,4 +110,3 @@ Valid bitwise flag values are accessed using the following index constants.
 | --- | --- |
 | WIA_FLAG_NOM | Nominal value |
 | WIA_FLAG_VALUES | All valid flags are joined together by an OR operator |
-

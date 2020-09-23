@@ -61,7 +61,7 @@ A pointer to a profile structure that specifies a  WCS color appearance model pr
 
 ### -param pGMMPProfile [in, optional]
 
-A pointer to a profile structure that specifies a WCS gamut map model profile (GMMP). The *pGMMPProfile* pointer can be freed as soon as the handle is created. If **NULL**, the default GMMP for the default rendering intent is used, and the current user setting, WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, is used while querying the default GMMP. For a description of rendering intents, see [Rendering Intents](https://docs.microsoft.com/previous-versions//ms536520(v=vs.85)).
+A pointer to a profile structure that specifies a WCS gamut map model profile (GMMP). The *pGMMPProfile* pointer can be freed as soon as the handle is created. If **NULL**, the default GMMP for the default rendering intent is used, and the current user setting, WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, is used while querying the default GMMP. For a description of rendering intents, see [Rendering Intents](/previous-versions//ms536520(v=vs.85)).
 
 ### -param dwDesireAccess [in]
 
@@ -118,9 +118,8 @@ The *dwCreationMode* flags CREATE_NEW, CREATE_ALWAYS, and TRUNCATE_EXISTING will
 
 Once the handle to the color profile is created, any information used to create that handle can be deleted.
 
-Use the [CloseColorProfile](https://docs.microsoft.com/previous-versions//ms536810(v=vs.85)) function to close an object handle returned by **WcsOpenColorProfile**.
+Use the [CloseColorProfile](/previous-versions//ms536810(v=vs.85)) function to close an object handle returned by **WcsOpenColorProfile**.
 
 ## -see-also
 
-[CloseColorProfile](https://docs.microsoft.com/previous-versions//ms536810(v=vs.85))
-
+[CloseColorProfile](/previous-versions//ms536810(v=vs.85))

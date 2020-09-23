@@ -53,7 +53,7 @@ The <b>IoWMIDeviceObjectToInstanceName</b> routine determines the instance name 
 ### -param DataBlockObject 
 
 [in]
-Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>.
+Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>.
 
 ### -param DeviceObject 
 
@@ -63,7 +63,7 @@ Specifies a device object. The routine returns the instance name for the driver 
 ### -param InstanceName 
 
 [out]
-Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that the routine uses to return the instance name. The caller frees the returned buffer within <b>UNICODE_STRING</b>.
+Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that the routine uses to return the instance name. The caller frees the returned buffer within <b>UNICODE_STRING</b>.
 
 ## -returns
 
@@ -100,13 +100,12 @@ The driver does not implement any instances of the WMI class specified by <i>Dat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmihandletoinstancename">IoWMIHandleToInstanceName</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmihandletoinstancename">IoWMIHandleToInstanceName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>

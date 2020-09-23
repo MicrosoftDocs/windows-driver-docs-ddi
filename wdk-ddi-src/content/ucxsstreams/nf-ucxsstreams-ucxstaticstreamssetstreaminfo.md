@@ -58,16 +58,15 @@ Sets stream information for each stream enabled by the client driver.
 ### -param StreamInfo 
 
 [in]
-                A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxsstreams/ns-ucxsstreams-_stream_info">STREAM_INFO</a> structure that contains static stream-related information.
+                A pointer to a <a href="/windows-hardware/drivers/ddi/ucxsstreams/ns-ucxsstreams-_stream_info">STREAM_INFO</a> structure that contains static stream-related information.
 
 ## -remarks
 
-The client driver must call this method from its implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_add">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> event callback . 
+The client driver must call this method from its implementation of the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_add">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> event callback . 
     This method must be called for the number of streams on the endpoint. 
 
-For a code example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_add">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a>.
+For a code example, see <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_add">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>

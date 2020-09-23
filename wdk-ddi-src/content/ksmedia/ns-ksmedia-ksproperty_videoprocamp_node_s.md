@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-The KSPROPERTY_VIDEOPROCAMP_NODE_S structure describes node-based property settings in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp">PROPSETID_VIDCAP_VIDEOPROCAMP</a> property set.
+The KSPROPERTY_VIDEOPROCAMP_NODE_S structure describes node-based property settings in the <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp">PROPSETID_VIDCAP_VIDEOPROCAMP</a> property set.
 
 ## -struct-fields
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
+Specifies an initialized <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
 ### -field Value
 
@@ -124,5 +124,4 @@ The device supports automatic setting of the specified property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videoprocamp_s">KSPROPERTY_VIDEOPROCAMP_S</a>

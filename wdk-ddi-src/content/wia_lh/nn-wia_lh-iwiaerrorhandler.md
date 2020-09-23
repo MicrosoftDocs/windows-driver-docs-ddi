@@ -46,7 +46,6 @@ api_name:
 
 ## -description
 
-The **IWiaErrorHandler** interface provides the [GetStatusDescription](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiaerrorhandler-getstatusdescription) and [ReportStatus](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiaerrorhandler-reportstatus) methods, which enable minidrivers to give users information about status or errors during a data transfer and possibly give an opportunity to recover from errors.
+The **IWiaErrorHandler** interface provides the [GetStatusDescription](./nf-wia_lh-iwiaerrorhandler-getstatusdescription.md) and [ReportStatus](./nf-wia_lh-iwiaerrorhandler-reportstatus.md) methods, which enable minidrivers to give users information about status or errors during a data transfer and possibly give an opportunity to recover from errors.
 
 ## -inheritance
-

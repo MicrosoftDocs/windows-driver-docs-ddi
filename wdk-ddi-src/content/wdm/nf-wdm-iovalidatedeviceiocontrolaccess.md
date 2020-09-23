@@ -46,25 +46,24 @@ api_name:
 
 ## -description
 
-For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
+For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 ## -parameters
 
 ### -param Irp 
 
 [in]
-For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
+For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 ### -param RequiredAccess 
 
 [in]
-For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
+For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 ## -returns
 
-For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
+For more information, see  the <a href="/windows-hardware/drivers/ddi/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>

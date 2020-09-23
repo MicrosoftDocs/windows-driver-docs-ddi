@@ -58,13 +58,12 @@ The D3DKMT_DEVICEPRESENT_STATE structure describes parameters for retrieving the
 
 ### -field PresentStats
 
-[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_stats">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
+[out] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_stats">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdevicestate">D3DKMT_GETDEVICESTATE</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdevicestate">D3DKMT_GETDEVICESTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_stats">D3DKMT_PRESENT_STATS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_stats">D3DKMT_PRESENT_STATS</a>

@@ -64,7 +64,7 @@ A pointer to the device object of the dump volume. This pointer points to the to
 
 ### -field Geometry
 
-The disk geometry of the dump device in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a> format.
+The disk geometry of the dump device in <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a> format.
 
 ### -field DiskSize
 
@@ -72,11 +72,11 @@ Size of the disk.
 
 ### -field PartitionInfo
 
-The partition information in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_partition_info">DISK_PARTITION_INFO</a> format.
+The partition information in <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_partition_info">DISK_PARTITION_INFO</a> format.
 
 ### -field DumpData
 
-A pointer to the context data that is provided by the filter driver in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_initialization_data">FILTER_INITIALIZATION_DATA</a>.
+A pointer to the context data that is provided by the filter driver in <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_initialization_data">FILTER_INITIALIZATION_DATA</a>.
 
 ### -field Size
 
@@ -84,13 +84,12 @@ A pointer to the context data that is provided by the filter driver in <a href="
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_partition_info">DISK_PARTITION_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_partition_info">DISK_PARTITION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_initialization_data">FILTER_INITIALIZATION_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_initialization_data">FILTER_INITIALIZATION_DATA</a>

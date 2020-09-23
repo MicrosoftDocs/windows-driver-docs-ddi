@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The operating system calls the
   <i>Dot11ExtIhvCreateDiscoveryProfiles</i> function to return temporary connectivity and security profile
@@ -87,7 +87,7 @@ A pointer to a
      or more 802.11 Beacon or Probe Response frames received from a BSS network. This list is derived from
      the results of the last scan operation performed by the WLAN adapter. For more information about the
      scan operation, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
+     <a href="/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan Operations</a>.
 
 
 <div class="alert"><b>Note</b>  For Windows Vista, the IHV Extensions DLL supports only infrastructure basic
@@ -174,7 +174,7 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 </li>
 </ul>
 For more information about creating discovery profiles, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/creating-network-profile-extensions">Creating Network Profile
+    <a href="/windows-hardware/drivers/network/creating-network-profile-extensions">Creating Network Profile
     Extensions</a>.
 
 ## -see-also
@@ -201,4 +201,3 @@ For more information about creating discovery profiles, see
 
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
-

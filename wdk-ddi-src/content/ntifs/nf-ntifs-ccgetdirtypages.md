@@ -136,13 +136,12 @@ Second context parameter to be passed to the <i>DirtyPageRoutine</i>.
 
 File systems call <b>CcGetDirtyPages</b> to return dirty pages in all files that match a given log handle. <b>CcGetDirtyPages</b> searches for dirty pages in all files that match the given <i>LogHandle</i> and calls the <i>DirtyPageRoutine</i> for each page. 
 
-To set a log handle for a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539217">CcSetLogHandleForFile</a>.
+To set a log handle for a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetloghandleforfile">CcSetLogHandleForFile</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetdirtypinneddata">CcSetDirtyPinnedData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539217">CcSetLogHandleForFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetloghandleforfile">CcSetLogHandleForFile</a>

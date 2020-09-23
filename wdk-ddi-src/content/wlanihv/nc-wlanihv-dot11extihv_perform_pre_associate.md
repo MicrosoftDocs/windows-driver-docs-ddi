@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvPerformPreAssociate</i> function to request that the IHV Extensions DLL initiate a
   pre-association operation with the basic service set (BSS) network.
 
@@ -140,7 +140,7 @@ The operating system calls the
     Extensions DLL. The operating system initiates this operation before it initiates a connection operation
     with a basic service set (BSS) network through the WLAN adapter. For more information about the
     connection operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/connection-operations">Connection Operations</a>.
+    <a href="/windows-hardware/drivers/network/connection-operations">Connection Operations</a>.
 
 The pre-association operation must be completed asynchronously from the call to
     <i>Dot11ExtIhvPerformPreAssociate</i>. After the pre-association operation completes, the IHV Extensions
@@ -185,7 +185,7 @@ An IHV-defined value in the range from L2_REASON_CODE_IHV_BASE to (L2_REASON_COD
 </li>
 </ul>
 For more information about the pre-association operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association Operation</a>.
+    <a href="/windows-hardware/drivers/network/pre-association-operation-overview">Pre-Association Operation</a>.
 
 ## -see-also
 
@@ -211,14 +211,13 @@ For more information about the pre-association operation, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-connect-request">OID_DOT11_CONNECT_REQUEST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-connect-request">OID_DOT11_CONNECT_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+<a href="/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
 
 
 <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
-

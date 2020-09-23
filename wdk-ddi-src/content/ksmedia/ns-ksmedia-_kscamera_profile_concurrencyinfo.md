@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-An array of <b>KSCAMERA_PROFILE_CONCURRENCYINFO</b> structures form the <b>Camera.Concurrency</b> parameter of   the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ksdevice_profile_info">KSDEVICE_PROFILE_INFO</a> structure (whose array size is specified by <b>Camera.CountOfConcurrency</b> parameter) indicating which profiles the profile identified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamera_profile_info">KSCAMERA_PROFILE_INFO</a> structure may run simultaneously on different cameras.
+An array of <b>KSCAMERA_PROFILE_CONCURRENCYINFO</b> structures form the <b>Camera.Concurrency</b> parameter of   the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ksdevice_profile_info">KSDEVICE_PROFILE_INFO</a> structure (whose array size is specified by <b>Camera.CountOfConcurrency</b> parameter) indicating which profiles the profile identified in the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamera_profile_info">KSCAMERA_PROFILE_INFO</a> structure may run simultaneously on different cameras.
 
 ## -struct-fields
 
@@ -77,4 +77,3 @@ Currently, an application has no knowledge as to whether it can attempt to strea
 For multiple applications, concurrency will not be sufficient to guarantee concurrent operation.  The concurrency information will not attempt to solve this scenario.  Instead, the existing camera yanking feature will be leveraged.
 
 If both <b>Camera.CountOfConcurrency</b> and the <b>Camera.Concurrency</b> fields are 0 and <b>NULL</b> respectively, it indicates to the OS that the profile defined by the KSCAMERA_PROFILE_INFO is not a concurrent profile.
-

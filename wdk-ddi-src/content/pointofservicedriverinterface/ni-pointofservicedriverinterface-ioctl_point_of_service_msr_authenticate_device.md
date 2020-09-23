@@ -52,7 +52,7 @@ This IO control function authenticates the magnetic stripe reader (MSR).
 
 ### -input-buffer
 
-Pointer to the input buffer, a [MSR_AUTHENTICATE_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_msr_authenticate_device) variable.
+Pointer to the input buffer, a [MSR_AUTHENTICATE_DEVICE](./ns-pointofservicedriverinterface-_msr_authenticate_device.md) variable.
 
 ### -input-buffer-length
 
@@ -76,9 +76,8 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
 ## -remarks
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following are common error values:
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following are common error values:
 
 - STATUS_ACCESS_DENIED: The device is currently claimed by another client.
 
 - STATUS_NOT_SUPPORTED: The device does not support authentication.
-

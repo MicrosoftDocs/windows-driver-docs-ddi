@@ -58,22 +58,22 @@ The <b>WdfDeviceInitSetIoTypeEx</b> method sets the method or preference for how
 ### -param DeviceInit 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
+A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 ### -param IoTypeConfig 
 
 [in]
-Pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a> structure initialized using WDF_IO_TYPE_CONFIG_INIT macro.
+Pointer to <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a> structure initialized using WDF_IO_TYPE_CONFIG_INIT macro.
 
 ## -remarks
 
-If you are writing a driver using KMDF version 1.11 or earlier, you must instead use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotype">WdfDeviceInitSetIoType</a>.
+If you are writing a driver using KMDF version 1.11 or earlier, you must instead use <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotype">WdfDeviceInitSetIoType</a>.
 
 <b>KMDF </b>A KMDF driver calls <b>WdfDeviceInitSetIoTypeEx</b> to set a buffer-access method for read and write requests. For device I/O control requests, the framework uses the buffer type that is encoded in the I/O control code (IOCTL).
 
-<b>UMDF </b>A UMDF driver calls <b>WdfDeviceInitSetIoTypeEx</b> to register preferences for read and write requests, as well as device I/O control requests.  The values that a UMDF driver provides to <b>WdfDeviceInitSetIoTypeEx</b> are only preferences, and are not guaranteed to be used by the framework.  Your driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicestackiotype">WdfDeviceGetDeviceStackIoType</a> to determine the buffer access methods that UMDF has assigned to a device's read/write requests and I/O control requests. For I/O control requests, the access method that the framework uses might differ from the access method specified in the IOCTL and the access method requested by the driver.
+<b>UMDF </b>A UMDF driver calls <b>WdfDeviceInitSetIoTypeEx</b> to register preferences for read and write requests, as well as device I/O control requests.  The values that a UMDF driver provides to <b>WdfDeviceInitSetIoTypeEx</b> are only preferences, and are not guaranteed to be used by the framework.  Your driver can call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicestackiotype">WdfDeviceGetDeviceStackIoType</a> to determine the buffer access methods that UMDF has assigned to a device's read/write requests and I/O control requests. For I/O control requests, the access method that the framework uses might differ from the access method specified in the IOCTL and the access method requested by the driver.
 
-If a driver calls <b>WdfDeviceInitSetIoTypeEx</b>, it must do so before it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
+If a driver calls <b>WdfDeviceInitSetIoTypeEx</b>, it must do so before it calls <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
 If the driver does not call <b>WdfDeviceInitSetIoTypeEx</b>, the framework sets the driver's buffer-access method to <b>WdfDeviceIoBuffered</b>, for the specified device.
 
@@ -83,14 +83,14 @@ A UMDF filter driver can, however, register preferences for buffer-access method
 
 All UMDF drivers in a driver stack must use the same method for accessing a device's buffers. If UMDF determines that some drivers prefer either buffered I/O or direct I/O for a device while other drivers prefer only buffered I/O for the device, UMDF uses buffered I/O for all drivers. If one or more of a stack's drivers prefer only buffered I/O while others prefer only direct I/O, UMDF logs an event to the system event log and does not start the driver stack.
 
-For more information about buffer-access methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers</a>.
+For more information about buffer-access methods, see <a href="/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers</a>.
 
-This method is the UMDF 2.0 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference"> IWDFDeviceInitialize2::SetIoTypePreference</a>.
+This method is the UMDF 2.0 equivalent of <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference"> IWDFDeviceInitialize2::SetIoTypePreference</a>.
 
 
 #### Examples
 
-The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a> structure, sets the driver's buffer-access preferences to direct I/O, specifies that transfers smaller than 32 KB should use buffered I/O, and calls <b>WdfDeviceInitSetIoTypeEx</b>.
+The following code example initializes a <a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a> structure, sets the driver's buffer-access preferences to direct I/O, specifies that transfers smaller than 32 KB should use buffered I/O, and calls <b>WdfDeviceInitSetIoTypeEx</b>.
 
 ```cpp
 WDF_IO_TYPE_CONFIG ioConfig;
@@ -106,21 +106,20 @@ WdfDeviceInitSetIoTypeEx(DeviceInit, &ioConfig);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference"> IWDFDeviceInitialize2::SetIoTypePreference</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdeviceinitialize2-setiotypepreference"> IWDFDeviceInitialize2::SetIoTypePreference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_io_type_config_init">WDF_IO_TYPE_CONFIG_INIT</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_io_type_config_init">WDF_IO_TYPE_CONFIG_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicestackiotype">WdfDeviceGetDeviceStackIoType</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdevicestackiotype">WdfDeviceGetDeviceStackIoType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotype">WdfDeviceInitSetIoType</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotype">WdfDeviceInitSetIoType</a>

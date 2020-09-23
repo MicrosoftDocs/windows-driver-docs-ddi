@@ -64,7 +64,7 @@ The D3D10DDIARG_CREATEDEVICE_0003 structure describes the display device to crea
 
 ### -field pKTCallbacks
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a> structure that contains a table of Direct3D runtime callback functions that the driver can use to access kernel services.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a> structure that contains a table of Direct3D runtime callback functions that the driver can use to access kernel services.
 
 ### -field hDrvDevice
 
@@ -85,4 +85,3 @@ A pointer to a [D3D12DDI_CORELAYER_DEVICECALLBACKS_0050](ns-d3d12umddi-d3d12ddi_
 ### -field Flags
 
 Flag values that identify how to create the display device.
-

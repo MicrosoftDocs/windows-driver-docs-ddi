@@ -121,7 +121,7 @@ The processor supports the denormals-are-zero (DAZ) mode for SSE instructions. T
 
 #### PF_NX_ENABLED
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=165498">Data execution prevention</a> is enabled. This parameter value is supported only in Windows Vista and later versions of Windows.
+<a href="/windows/win32/memory/data-execution-prevention">Data execution prevention</a> is enabled. This parameter value is supported only in Windows Vista and later versions of Windows.
 
 
 
@@ -150,4 +150,3 @@ The processor supports the XSAVE and XRSTOR instructions. This parameter value i
 ## -returns
 
 <b>ExIsProcessorFeaturePresent</b> returns <b>TRUE</b> if the specified processor feature is present; otherwise, it returns <b>FALSE</b>.
-

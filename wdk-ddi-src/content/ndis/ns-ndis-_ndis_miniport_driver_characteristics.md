@@ -59,7 +59,7 @@ An NDIS driver initializes an <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</b> struct
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_MINIPORT_DRIVER_CHARACTERISTICS.
@@ -280,63 +280,63 @@ Set if the caller is an NDIS-WDM miniport driver.
 ### -field SetOptionsHandler
 
 The entry point for the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a> function.
 
 Required for Co-NDIS. Suggested for Ethernet miniport drivers that support RSS using MSI-C over PCI.
 
 ### -field InitializeHandlerEx
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -field HaltHandlerEx
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function.
 
 ### -field UnloadHandler
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_unload">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_unload">
      MiniportDriverUnload</a> function.
 
 ### -field PauseHandler
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a> function.
 
 ### -field RestartHandler
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
 
 ### -field OidRequestHandler
 
 The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function. Required for all connection-less miniport drivers, including all Ethernet, WLAN, and IM drivers. Optional for some CoNDIS miniport drivers.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function. Required for all connection-less miniport drivers, including all Ethernet, WLAN, and IM drivers. Optional for some CoNDIS miniport drivers.
 
 ### -field SendNetBufferListsHandler
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">
      MiniportSendNetBufferLists</a> function.
 
 ### -field ReturnNetBufferListsHandler
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
      MiniportReturnNetBufferLists</a> function.
 
 ### -field CancelSendHandler
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a> function.
 
 ### -field CheckForHangHandlerEx
 
 Optional. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_check_for_hang">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_check_for_hang">
      MiniportCheckForHangEx</a> function. 
      
 
@@ -347,36 +347,36 @@ Optional. The entry point for the
 
 <i>MiniportCheckForHangEx</i> is discouraged for miniport drivers intended to be installed on non-AOAC, battery-powered devices due to the impact on battery life, so they should set this entry point to <b>NULL</b>.
 
-<i>MiniportCheckForHangEx</i> is permitted but not required for miniport drivers that are intended to be installed in line-powered (mains-powered) devices. For drivers targeting NDIS 6.30 and later, consider using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetminiport">NdisMResetMiniport</a> instead.
+<i>MiniportCheckForHangEx</i> is permitted but not required for miniport drivers that are intended to be installed in line-powered (mains-powered) devices. For drivers targeting NDIS 6.30 and later, consider using <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismresetminiport">NdisMResetMiniport</a> instead.
 
 ### -field ResetHandlerEx
 
 Optional (required if you provide <b>CheckForHangHandlerEx</b>). The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a> function. 
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a> function. 
      <i>MiniportResetEx</i> is not required for intermediate drivers, so they should set this entry point to
      <b>NULL</b>.
 
 ### -field DevicePnPEventNotifyHandler
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_device_pnp_event_notify">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_device_pnp_event_notify">
      MiniportDevicePnPEventNotify</a> function.
 
 ### -field ShutdownHandlerEx
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_shutdown">MiniportShutdownEx</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_shutdown">MiniportShutdownEx</a> function.
 
 ### -field CancelOidRequestHandler
 
 Required. The entry point for the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_oid_request">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_oid_request">
      MiniportCancelOidRequest</a> function.
 
 ### -field DirectOidRequestHandler
 
 The entry point for the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_direct_oid_request">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_direct_oid_request">
       MiniportDirectOidRequest</a> function. This is an optional entry point. Set this member to <b>NULL</b> if
       the miniport driver does not handle direct OID requests. 
 
@@ -387,7 +387,7 @@ Required for WLAN and Ethernet miniports that implement RDMA or IPSec offload.
 ### -field CancelDirectOidRequestHandler
 
 The entry point for the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_direct_oid_request">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_direct_oid_request">
       MiniportCancelDirectOidRequest</a> function. This is an optional entry point. Set this member to <b>NULL</b>
       if the miniport driver does not handle direct OID requests.
 
@@ -398,7 +398,7 @@ Required for WLAN and Ethernet miniports that implement RDMA or IPSec offload.
 ### -field SynchronousOidRequestHandler
 
 The entry point for the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-miniport_synchronous_oid_request">
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-miniport_synchronous_oid_request">
       MiniportSynchronousOidRequest</a> function. This is an optional entry point. Set this member to <b>NULL</b> if
       the miniport driver does not handle Synchronous OID requests. 
 
@@ -408,89 +408,88 @@ Required for WLAN and Ethernet miniports that implement RSSv2.
 
 An NDIS driver passes a pointer to its <b>NDIS_MINIPORT_DRIVER_CHARACTERISTICS</b> structure in the 
     <i>MiniportDriverCharacteristics</i> parameter of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">
     NdisMRegisterMiniportDriver</a> function. A miniport driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine (see also 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-miniport-driver">DriverEntry of NDIS
+    <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine (see also 
+    <a href="/windows-hardware/drivers/network/initializing-a-miniport-driver">DriverEntry of NDIS
     Miniport Drivers</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
+<a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_direct_oid_request">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_direct_oid_request">
    MiniportCancelDirectOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_oid_request">MiniportCancelOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_oid_request">MiniportCancelOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_check_for_hang">MiniportCheckForHangEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_check_for_hang">MiniportCheckForHangEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_device_pnp_event_notify">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_device_pnp_event_notify">
    MiniportDevicePnPEventNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_direct_oid_request">MiniportDirectOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_direct_oid_request">MiniportDirectOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_unload">MiniportDriverUnload</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_unload">MiniportDriverUnload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pause">MiniportPause</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
    MiniportReturnNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">MiniportSendNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists">MiniportSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_shutdown">MiniportShutdownEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_shutdown">MiniportShutdownEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>

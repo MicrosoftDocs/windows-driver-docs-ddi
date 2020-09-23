@@ -61,9 +61,9 @@ Specifies a caller-determined NDIS_STATUS_<i>XXX</i>, indicating the reason for 
 
 Specifies the handle to the VC of the call being disconnected. This handle was supplied by NDIS
      when the VC was originally created, whether by the MCM driver with 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a> or as an input parameter
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a> or as an input parameter
      to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 ### -param _B_
 
@@ -81,7 +81,7 @@ In the course of normal network operations, an MCM driver calls
     <b>NdisMCmDispatchIncomingCloseCall</b> with the 
     <i>CloseStatus</i> set to NDIS_STATUS_SUCCESS because the corresponding client on the remote node has
     called 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>.
 
 However, an MCM driver also can call 
     <b>NdisMCmDispatchIncomingCloseCall</b> if either of the following occur:
@@ -89,7 +89,7 @@ However, an MCM driver also can call
 <ul>
 <li>
 The MCM driver has notified a client of an incoming call offer. When the miniport driver's 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_incoming_call_complete">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_incoming_call_complete">
       ProtocolCmIncomingCallComplete</a> function is called with the client's acceptance, it validates the
       input call parameters, which that client has modified. 
       <i>ProtocolCmIncomingCallComplete</i> determines that the client is proposing unsupportable call
@@ -109,17 +109,17 @@ Abormal network conditions force the MCM driver to tear down active calls. For e
 After the client calls 
     <b>NdisClCloseCall</b> thereby causing the deactivation of the VC, the original creator of the VC is
     responsible for destroying the VC. Either the client calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>, which causes NDIS to call
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>, which causes NDIS to call
     the MCM driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function, or the
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function, or the
     MCM driver calls 
     <b>NdisMCmDeleteVc</b> after calling 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a> and releasing any
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a> and releasing any
     additional resources it had associated with the VC that it created.
 
 A call to 
     <b>NdisMCmDispatchIncomingCloseCall</b> causes NDIS to call the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">
     ProtocolClIncomingCloseCall</a> function.
 
 Only connection-oriented miniport drivers that provide call-management support can call 
@@ -129,34 +129,33 @@ Only connection-oriented miniport drivers that provide call-management support c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeletevc">NdisMCmDeleteVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeletevc">NdisMCmDeleteVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingcall">NdisMCmDispatchIncomingCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingcall">NdisMCmDispatchIncomingCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingdropparty">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingdropparty">
    NdisMCmDispatchIncomingDropParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">ProtocolClIncomingCloseCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">ProtocolClIncomingCloseCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>

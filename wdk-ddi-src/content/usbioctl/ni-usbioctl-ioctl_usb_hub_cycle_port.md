@@ -54,11 +54,11 @@ The <b>IOCTL_USB_HUB_CYCLE_PORT</b> I/O control request power-cycles the port th
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_cycle_port_params">USB_CYCLE_PORT_PARAMS</a> structure that specifies the port number.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated  <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_cycle_port_params">USB_CYCLE_PORT_PARAMS</a> structure that specifies the port number.
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_cycle_port_params">USB_CYCLE_PORT_PARAMS</a> structure.
+The size of a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_cycle_port_params">USB_CYCLE_PORT_PARAMS</a> structure.
 
 ### -output-buffer
 
@@ -81,4 +81,3 @@ The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request 
 You can also power cycle the port by using the <b>Device Manager</b>'s <b>Enable</b>/<b>Disable</b> feature. This feature causes the bus driver to reset the device. Alternatively, you can use DevCon to enable or disable the device. 
 
 The executable for DevCon can be found in the `<install_path>\WinDDK\build_number\tools\devcon\<arch>\devcon.exe` folder.
-

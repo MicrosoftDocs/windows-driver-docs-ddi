@@ -66,9 +66,8 @@ This structure is used in the [**NDIS_WWAN_PIN_APP**](../ndiswwan/ns-ndiswwan-_n
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_PIN_EX2](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pin-ex2)
+[OID_WWAN_PIN_EX2](/windows-hardware/drivers/network/oid-wwan-pin-ex2)
 
 [**NDIS_WWAN_PIN_APP**](../ndiswwan/ns-ndiswwan-_ndis_wwan_pin_app.md)
-

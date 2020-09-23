@@ -64,9 +64,8 @@ Specifies that single-radio voice call continuity (SRVCC) is being canceled, and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-telephony-providerchange">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-telephony-providerchange">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_callstate">TELEPHONY_CALLSTATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_callstate">TELEPHONY_CALLSTATE</a>

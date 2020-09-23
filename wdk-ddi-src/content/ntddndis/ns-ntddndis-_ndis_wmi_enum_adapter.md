@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The NDIS_WMI_ENUM_ADAPTER structure is returned when NDIS responds to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">
+  <a href="/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">
   GUID_NDIS_ENUMERATE_ADAPTERS_EX</a> GUID.
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The NDIS_WMI_ENUM_ADAPTER structure is returned when NDIS responds to the
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for this
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for this
      NDIS_WMI_ENUM_ADAPTER structure. Set the 
      <b>Type</b> member of NDIS_OBJECT_HEADER to NDIS_WMI_OBJECT_TYPE_ENUM_ADAPTER, the 
      <b>Revision</b> member to NDIS_WMI_ENUM_ADAPTER_REVISION_1, and the 
@@ -89,14 +89,13 @@ The device name of the NDIS miniport adapter interface that is associated with t
 
 NDIS returns the NDIS_WMI_ENUM_ADAPTER structure when it enumerates miniport adapters for WMI clients.
     For more information about enumerating miniport adapters for WMI clients, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">
+    <a href="/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">
     GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
+<a href="/windows-hardware/drivers/network/guid-ndis-enumerate-adapters-ex">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>

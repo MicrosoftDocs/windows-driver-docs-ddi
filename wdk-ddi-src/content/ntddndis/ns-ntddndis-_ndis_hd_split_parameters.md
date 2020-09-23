@@ -58,7 +58,7 @@ The NDIS_HD_SPLIT_PARAMETERS structure defines the current header-data split set
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      provider characteristics structure (NDIS_HD_SPLIT_PARAMETERS). The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -84,14 +84,13 @@ The miniport adapter should combine split frames. If header-data split is enable
 ## -remarks
 
 The NDIS_HD_SPLIT_PARAMETERS structure is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-hd-split-parameters">OID_GEN_HD_SPLIT_PARAMETERS</a> OID set
+    <a href="/windows-hardware/drivers/network/oid-gen-hd-split-parameters">OID_GEN_HD_SPLIT_PARAMETERS</a> OID set
     request to specify the current header-data split settings of a miniport adapter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-hd-split-parameters">OID_GEN_HD_SPLIT_PARAMETERS</a>
-
+<a href="/windows-hardware/drivers/network/oid-gen-hd-split-parameters">OID_GEN_HD_SPLIT_PARAMETERS</a>

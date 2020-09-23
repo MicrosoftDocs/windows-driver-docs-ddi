@@ -76,5 +76,4 @@ For more information about how this structure is defined, see the discussion of 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcpstatistics">GetFCPStatistics</a>
-
+<a href="/windows-hardware/drivers/storage/getfcpstatistics">GetFCPStatistics</a>

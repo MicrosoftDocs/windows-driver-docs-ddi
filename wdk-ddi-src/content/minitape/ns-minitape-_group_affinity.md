@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <a href="https://docs.microsoft.com/windows-hardware/drivers/">affinity</a> within that group.
+The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <a href="/windows-hardware/drivers/">affinity</a> within that group.
 
 ## -struct-fields
 
 ### -field Mask
 
-Specifies the affinity mask. This parameter is a [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value. The bits in the affinity mask identify a set of processors within the group identified by <b>Group</b>.
+Specifies the affinity mask. This parameter is a [**KAFFINITY**](/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity) value. The bits in the affinity mask identify a set of processors within the group identified by <b>Group</b>.
 
 ### -field Group
 
@@ -98,5 +98,4 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 
 
-[**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)
-
+[**KAFFINITY**](/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)

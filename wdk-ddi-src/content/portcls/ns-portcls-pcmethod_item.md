@@ -133,15 +133,14 @@ Pointer to the method-handler routine. This member is a function pointer of type
   );
 ```
 
-When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>.
+When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a structure of type <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>.
 
 ## -remarks
 
 The WDM audio subsystem does not currently support methods on either filter instances or pin instances. This restriction also precludes support for methods on nodes.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure contains a pointer to an array of PCMETHOD_ITEM structures.
+The <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure contains a pointer to an array of PCMETHOD_ITEM structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcmethod_request">PCMETHOD_REQUEST</a>

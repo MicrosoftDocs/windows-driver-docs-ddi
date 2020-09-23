@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>TTraceLevel</b> enumeration defines a set of levels for tracing in WDTF. The meaning on each level depends on registry settings for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a> interface.
+The <b>TTraceLevel</b> enumeration defines a set of levels for tracing in WDTF. The meaning on each level depends on registry settings for the <a href="/windows-hardware/drivers/ddi/index">ITracer</a> interface.
 
 ## -enum-fields
 
@@ -90,21 +90,20 @@ A custom trace level. Currently, this value is set to <b>Trace0_Off</b>.
 
 ### -field Trace_Default
 
-The default tracing level. This level tells the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a> interface to look for the actual level in the registry. <b>ITracer</b> will look in the TraceLevel path for the implementation that you called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing::SetTraceLevel</a> method on. For most implementations, this value is set to <b>Trace2_Medium</b> when you install WDTF.
+The default tracing level. This level tells the <a href="/windows-hardware/drivers/ddi/index">ITracer</a> interface to look for the actual level in the registry. <b>ITracer</b> will look in the TraceLevel path for the implementation that you called the <a href="/windows-hardware/drivers/ddi/index">ITracing::SetTraceLevel</a> method on. For most implementations, this value is set to <b>Trace2_Medium</b> when you install WDTF.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing::SetTraceLevel</a> method to change the trace level of an instance of a WDTF interface at runtime. For more information about how to change the registry default values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a>.
+Use the <a href="/windows-hardware/drivers/ddi/index">ITracing::SetTraceLevel</a> method to change the trace level of an instance of a WDTF interface at runtime. For more information about how to change the registry default values, see <a href="/windows-hardware/drivers/ddi/index">ITracer</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a>
+<a href="/windows-hardware/drivers/ddi/index">ITracer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>
+<a href="/windows-hardware/drivers/ddi/index">ITracing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing::SetTraceLevel</a>
-
+<a href="/windows-hardware/drivers/ddi/index">ITracing::SetTraceLevel</a>

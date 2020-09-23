@@ -72,5 +72,4 @@ Similar to <b>KS_MPEG2Profile_Main</b>, with spatial scalability, scalable signa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_mpegvideoinfo2">KS_MPEGVIDEOINFO2</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_mpegvideoinfo2">KS_MPEGVIDEOINFO2</a>

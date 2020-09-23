@@ -62,9 +62,8 @@ Specifies whether the current block contains an error. If <b>TRUE</b>, the curre
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-error-concealment">KSPROPERTY_AC3_ERROR_CONCEALMENT</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/audio/ksproperty-ac3-error-concealment">KSPROPERTY_AC3_ERROR_CONCEALMENT</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-error-concealment">KSPROPERTY_AC3_ERROR_CONCEALMENT</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-ac3-error-concealment">KSPROPERTY_AC3_ERROR_CONCEALMENT</a>

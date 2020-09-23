@@ -73,7 +73,7 @@ Specifies the total number of bytes to allocate for the MDL.
 ### -param CacheType 
 
 [in]
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
+Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
 ### -param Flags 
 
@@ -85,7 +85,7 @@ The last four items in the preceding list are supported only in Windows 7 and la
 | **Value** | **Meaning** | 
 |:--|:--|
 | **MM_DONT_ZERO_ALLOCATION** 0x00000001|Do not fill the allocated pages with zeros. By default, MmAllocatePagesForMdlEx zeros the pages that it allocates. By skipping this operation, you can potentially improve the performance of the MmAllocatePagesForMdlEx call. However, you must not use this flag unless either you never expose the allocated pages to user-mode programs, or you always overwrite the original contents of the pages before you expose the allocated pages to user-mode programs. |
-| **MM_ALLOCATE_FROM_LOCAL_NODE_ONLY** 0x00000002|Allocate pages only from the ideal node. This flag applies only to multiprocessor systems that have non-uniform memory access (NUMA) architectures. Starting with Windows Vista, this flag indicates that all pages must be allocated from the ideal node of the current thread. No pages are to be allocated from other nodes. In versions of Windows earlier than Windows Vista, this flag indicates that all pages must be allocated from the local node; that is, from the node that the current processor belongs to. For more information about NUMA multiprocessor systems, see [NUMA Support](https://go.microsoft.com/fwlink/p/?linkid=155041) . | 
+| **MM_ALLOCATE_FROM_LOCAL_NODE_ONLY** 0x00000002|Allocate pages only from the ideal node. This flag applies only to multiprocessor systems that have non-uniform memory access (NUMA) architectures. Starting with Windows Vista, this flag indicates that all pages must be allocated from the ideal node of the current thread. No pages are to be allocated from other nodes. In versions of Windows earlier than Windows Vista, this flag indicates that all pages must be allocated from the local node; that is, from the node that the current processor belongs to. For more information about NUMA multiprocessor systems, see [NUMA Support](/windows/win32/procthread/numa-support) . | 
 | **MM_ALLOCATE_FULLY_REQUIRED** 0x00000004 |A full allocation is required. Starting with Windows 7, this flag requires MmAllocatePagesForMdlEx to return NULL if it cannot allocate all the requested pages. The routine returns a non-NULL value only if it successfully obtains the entire requested allocation. This flag enables the memory manager to perform the allocation more efficiently in cases in which the caller requires a full allocation. | 
 | **MM_ALLOCATE_NO_WAIT** 0x00000008|Do not wait. Starting with Windows 7, this flag indicates that the MmAllocatePagesForMdlEx call must not block the calling thread. Typically, the caller is a kernel-mode driver that is running at IRQL < DISPATCH_LEVEL but cannot allow its execution to be blocked. For example, the driver might be assisting with paging or power-management operations. Regardless of whether this flag is set, MmAllocatePagesForMdlEx never blocks callers that are running at IRQL = DISPATCH_LEVEL. | 
 | **MM_ALLOCATE_PREFER_CONTIGUOUS** 0x00000010 |Allocation is performed in a way that minimizes system memory fragmentation. Starting with Windows 7, this flag indicates that the caller wants to avoid fragmenting physical memory to make more contiguous memory available to other callers. The allocated pages are not guaranteed to be (and usually are not) physically contiguous, even if plenty of contiguous memory is available. Callers that require contiguous memory should specify MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS instead of MM_ALLOCATE_PREFER_CONTIGUOUS. |
@@ -133,11 +133,11 @@ By default, the physical memory pages that <b>MmAllocatePagesForMdlEx</b> return
 
 Depending on how much physical memory is currently available in the requested ranges, <b>MmAllocatePagesForMdlEx</b> might return an MDL that describes less memory than was requested. The routine also might return <b>NULL</b> if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL.
 
-The caller must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a> to release the memory that is allocated for the MDL structure.
+The caller must use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a> to release the memory that is allocated for the MDL structure.
 
 By default, <b>MmAllocatePagesForMdlEx</b> fills the pages that it allocates with zeros. The caller can specify the MM_DONT_ZERO_ALLOCATION flag to override this default and to possibly improve performance.
 
-<div class="alert"><b>Note</b>    Memory that <b>MmAllocatePagesForMdlEx</b> allocates is uninitialized if you specify the MM_DONT_ZERO_ALLOCATION flag. A kernel-mode driver must first zero this memory if the driver is going to make the memory visible to user-mode software (to avoid leaking potentially privileged contents). For more information about this flag, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MM_ALLOCATE_XXX</a>.</div>
+<div class="alert"><b>Note</b>    Memory that <b>MmAllocatePagesForMdlEx</b> allocates is uninitialized if you specify the MM_DONT_ZERO_ALLOCATION flag. A kernel-mode driver must first zero this memory if the driver is going to make the memory visible to user-mode software (to avoid leaking potentially privileged contents). For more information about this flag, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MM_ALLOCATE_XXX</a>.</div>
 <div> </div>
 The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
@@ -145,21 +145,20 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl">MmAllocatePagesForMdl</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl">MmAllocatePagesForMdl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl">MmFreePagesFromMdl</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreepagesfrommdl">MmFreePagesFromMdl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpages">MmMapLockedPages</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpages">MmMapLockedPages</a>

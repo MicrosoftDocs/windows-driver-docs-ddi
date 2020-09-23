@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-The AddPort_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)">AddPort</a> WMI method to the WMI client.
+The AddPort_OUT structure is used by a WMI provider to report the output parameter data of the <a href="/previous-versions/ff545022(v=vs.85)">AddPort</a> WMI method to the WMI client.
 
 ## -struct-fields
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)">AddPort</a>
-
+<a href="/previous-versions/ff545022(v=vs.85)">AddPort</a>

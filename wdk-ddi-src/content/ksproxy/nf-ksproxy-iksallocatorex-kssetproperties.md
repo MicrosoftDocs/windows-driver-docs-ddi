@@ -53,5 +53,4 @@ Sets the properties for an allocator.
 
 ## -see-also
 
-[IKsAllocatorEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocatorex)
-
+[IKsAllocatorEx](./nn-ksproxy-iksallocatorex.md)

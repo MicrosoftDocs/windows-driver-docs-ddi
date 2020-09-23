@@ -61,5 +61,4 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>

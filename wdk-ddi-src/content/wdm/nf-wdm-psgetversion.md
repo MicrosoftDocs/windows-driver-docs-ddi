@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This function is <u>obsolete</u> in Windows XP and later versions of the Windows operating system. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a> instead.
+This function is <u>obsolete</u> in Windows XP and later versions of the Windows operating system. Use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a> instead.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ This function is <u>obsolete</u> in Windows XP and later versions of the Windows
 ## -returns
 
 ## -remarks
-

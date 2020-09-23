@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The IOCTL_HID_SET_POLL_FREQUENCY_MSEC request sets the polling frequency, in milliseconds, for a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. 
+The IOCTL_HID_SET_POLL_FREQUENCY_MSEC request sets the polling frequency, in milliseconds, for a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. 
 
 User-mode applications or kernel-mode drivers that perform irregular, opportunistic reads on a polled device must furnish a polling interval of zero. In such cases, IOCTL_HID_SET_POLL_FREQUENCY_MSEC does not actually change the polling frequency of the device; but if the report data is not stale when it is read, the read is completed immediately with the latest report data for the indicated collection. If the report data is stale, it is refreshed immediately, without waiting for the expiration of the polling interval, and the read is completed with the new data. 
 
@@ -54,7 +54,7 @@ If the value for the polling interval that is provided in the IRP is not zero, i
 
 Polling may be limited if there are multiple top-level collections.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
@@ -86,5 +86,4 @@ The HID class driver sets the <b>Status</b> member of <b>Irp->IoStatus</b> to ST
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_poll_frequency_msec">IOCTL_HID_GET_POLL_FREQUENCY_MSEC</a>
-
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_poll_frequency_msec">IOCTL_HID_GET_POLL_FREQUENCY_MSEC</a>

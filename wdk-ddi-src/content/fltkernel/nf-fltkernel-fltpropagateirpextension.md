@@ -79,5 +79,4 @@ Reserved; must be set to 0.
 
 ## -see-also
 
-[**FltFlushBuffers2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers2)
-
+[**FltFlushBuffers2**](./nf-fltkernel-fltflushbuffers2.md)

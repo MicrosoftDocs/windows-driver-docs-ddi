@@ -64,7 +64,7 @@ The driver returns an integer authentication grant ID of type DVD_SESSION_ID in 
 
 ### -output-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>.
+Length of a <a href="/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>.
 
 ### -in-out-buffer
 
@@ -73,4 +73,3 @@ Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardwa
 ### -status-block
 
 The <b>Information</b> field is set to <b>sizeof</b>(DVD_SESSION_ID). The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INSUFFICIENT_RESOURCES.
-

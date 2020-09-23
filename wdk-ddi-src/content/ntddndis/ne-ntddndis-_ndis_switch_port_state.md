@@ -70,10 +70,10 @@ This value specifies that the port has been deleted.
 
 ## -remarks
 
-The <b>PortState</b>  member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETER</a> structure is an <b>NDIS_SWITCH_PORT_STATE</b> enumeration data type. 
+The <b>PortState</b>  member of the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETER</a> structure is an <b>NDIS_SWITCH_PORT_STATE</b> enumeration data type. 
 
 
-For more information about extensible switch port states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-hyper-v-extensible-switch-ports">Overview of Hyper-V Extensible Switch Ports</a>.
+For more information about extensible switch port states, see <a href="/windows-hardware/drivers/network/overview-of-hyper-v-extensible-switch-ports">Overview of Hyper-V Extensible Switch Ports</a>.
 
 ## -see-also
 
@@ -81,5 +81,4 @@ For more information about extensible switch port states, see <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_parameters">NDIS_SWITCH_PORT_PARAMETER</a>

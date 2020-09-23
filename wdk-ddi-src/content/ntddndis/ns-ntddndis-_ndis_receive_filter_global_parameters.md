@@ -57,17 +57,17 @@ NDIS receive filters are used in the following NDIS interfaces:
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS Packet Coalescing</a>. For more information about how to use receive filters in this interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-packet-coalescing-receive-filters">Managing Packet Coalescing Receive Filters</a>.
+<a href="/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS Packet Coalescing</a>. For more information about how to use receive filters in this interface, see <a href="/windows-hardware/drivers/network/managing-packet-coalescing-receive-filters">Managing Packet Coalescing Receive Filters</a>.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>. For more information about how to use receive filters in this interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/setting-a-receive-filter-on-a-virtual-port">Setting a Receive Filter on a Virtual Port</a>.
+<a href="/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>. For more information about how to use receive filters in this interface, see <a href="/windows-hardware/drivers/network/setting-a-receive-filter-on-a-virtual-port">Setting a Receive Filter on a Virtual Port</a>.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>. For more information about how to use receive filters in this interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/setting-and-clearing-vmq-filters">Setting and Clearing VMQ Filters</a>.
+<a href="/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>. For more information about how to use receive filters in this interface, see <a href="/windows-hardware/drivers/network/setting-and-clearing-vmq-filters">Setting and Clearing VMQ Filters</a>.
 
 </li>
 </ul>
@@ -77,7 +77,7 @@ NDIS receive filters are used in the following NDIS interfaces:
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -114,7 +114,7 @@ A  bitwise OR of flags for types of enabled receive filters. The
 
 Specifies that VMQ filters are enabled.
 
-<div class="alert"><b>Note</b>  The miniport driver should set this flag if the miniport driver is enabled to use the SR-IOV interface. For more information on how these interfaces are enabled, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-sr-iov--vmq--and-rss-standardized-inf-keywords">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.</div>
+<div class="alert"><b>Note</b>  The miniport driver should set this flag if the miniport driver is enabled to use the SR-IOV interface. For more information on how these interfaces are enabled, see <a href="/windows-hardware/drivers/network/handling-sr-iov--vmq--and-rss-standardized-inf-keywords">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.</div>
 <div> </div>
 
 
@@ -139,19 +139,18 @@ Specifies that virtual machine (VM) queues are enabled.  VM queues are used in t
 ## -remarks
 
 The <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
+    <a href="/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
     OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</a> query OID to obtain the current global receive filter
     settings.
 
-<div class="alert"><b>Note</b>  Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure are valid if the miniport driver is enabled to use the VMQ or SR-IOV interface. The miniport driver is enabled to use these interfaces through standardized INF keywords. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-sr-iov--vmq--and-rss-standardized-inf-keywords">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.</div>
+<div class="alert"><b>Note</b>  Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure are valid if the miniport driver is enabled to use the VMQ or SR-IOV interface. The miniport driver is enabled to use these interfaces through standardized INF keywords. For more information, see <a href="/windows-hardware/drivers/network/handling-sr-iov--vmq--and-rss-standardized-inf-keywords">Handling SR-IOV, VMQ, and RSS Standardized INF Keywords</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
+<a href="/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
    OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</a>
-

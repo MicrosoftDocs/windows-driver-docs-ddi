@@ -56,18 +56,17 @@ The
 
 [in]
 A pointer to the head of the S-List to be queried, which the caller already initialized with 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedpopentryslist">NdisInterlockedPopEntrySList</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedpopentryslist">NdisInterlockedPopEntrySList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedpushentryslist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedpushentryslist">
    NdisInterlockedPushEntrySList</a>
-

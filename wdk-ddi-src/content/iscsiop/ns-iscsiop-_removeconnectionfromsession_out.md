@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The RemoveConnectionFromSession_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
+The RemoveConnectionFromSession_OUT structure holds the output data for the <a href="/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
 
 ## -struct-fields
 
 ### -field Status
 
-This specifies the status of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
+This specifies the status of the <a href="/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a> operation. For a list of status qualifiers, see <a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 ## -remarks
 
@@ -64,5 +64,4 @@ You must implement this class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a>
-
+<a href="/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a>

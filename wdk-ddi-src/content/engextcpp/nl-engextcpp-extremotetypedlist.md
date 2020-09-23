@@ -46,37 +46,37 @@ api_name:
 
 ## -description
 
-The <b>ExtRemoteTypedList</b> class extends the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a> class.  The <b>ExtRemoteTypedList</b> class adds type information allowing each item in the list to be represented by an instance of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> class.
+The <b>ExtRemoteTypedList</b> class extends the <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a> class.  The <b>ExtRemoteTypedList</b> class adds type information allowing each item in the list to be represented by an instance of the <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> class.
 
 The <b>ExtRemoteTypedList</b> class includes the following constructors and methods:
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
 
 
 </dd>
@@ -107,29 +107,28 @@ The type ID of the type relative to the module specified by <b>m_TypeModBase</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>
-
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>

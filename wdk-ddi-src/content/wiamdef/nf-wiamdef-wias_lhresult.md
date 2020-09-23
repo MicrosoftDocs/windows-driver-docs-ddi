@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult) macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
+The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT](./nf-wiamdef-wias_hresult.md) macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT](h
 
 Specifies the HRESULT value to be translated into a string.
 
-- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwialog).
+- **pIWiaLog** - Pointer to an [IWiaLog Interface](../wia_lh/nn-wia_lh-iwialog.md).
 
 ## -remarks
 
@@ -68,15 +68,14 @@ if (hr != S_OK)
    WIAS_LHRESULT(g_pIWiaLog, hr);
 ```
 
-The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult) macro be used instead.
+The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT](./nf-wiamdef-wias_hresult.md) macro be used instead.
 
 ## -see-also
 
-[WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult)
+[WIAS_HRESULT](./nf-wiamdef-wias_hresult.md)
 
-[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lerror)
+[WIAS_LERROR](./nf-wiamdef-wias_lerror.md)
 
-[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_ltrace)
+[WIAS_LTRACE](./nf-wiamdef-wias_ltrace.md)
 
-[WIAS_LWARNING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lwarning)
-
+[WIAS_LWARNING](./nf-wiamdef-wias_lwarning.md)

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IOCTL_VOLUME_ONLINE</b> IOCTL puts the volume in an ONLINE state, which is a state where read and write operations will be executed. The requests are passed down to the physical disk until a subsequent <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a> is received.
+The <b>IOCTL_VOLUME_ONLINE</b> IOCTL puts the volume in an ONLINE state, which is a state where read and write operations will be executed. The requests are passed down to the physical disk until a subsequent <a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a> is received.
 
 A common use for <b>IOCTL_VOLUME_ONLINE</b> is a case in which the mount manager automatically puts a new volume in the ONLINE state when the volume arrives, unless that volume is listed in a registry key that is populated by the cluster service. <b>IOCTL_VOLUME_ONLINE</b> is called for removable drives regardless of the NoAutoMount setting in the following registry key:
 
@@ -84,5 +84,4 @@ The <b>Status</b> member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_offline">IOCTL_VOLUME_OFFLINE</a>

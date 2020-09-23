@@ -53,19 +53,18 @@ The <b>KeInitializeGuardedMutex</b> routine initializes a guarded mutex.
 ### -param Mutex 
 
 [out]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure to initialize. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
+Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure to initialize. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 ## -remarks
 
 Guarded mutexes must be allocated from nonpaged pool.
 
-For more information about guarded mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
+For more information about guarded mutexes, see <a href="/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a>
+<a href="/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551892(v=vs.85)">KeAcquireGuardedMutex</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff551892(v=vs.85)">KeAcquireGuardedMutex</a>

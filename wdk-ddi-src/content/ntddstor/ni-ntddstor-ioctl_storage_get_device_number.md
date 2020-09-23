@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Returns a [STORAGE_DEVICE_NUMBER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number) structure that contains the FILE_DEVICE_*XXX* type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver.
+Returns a [STORAGE_DEVICE_NUMBER](./ns-ntddstor-_storage_device_number.md) structure that contains the FILE_DEVICE_*XXX* type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver.
 
 ## -ioctlparameters
 
@@ -60,7 +60,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the [STORAGE_DEVICE_NUMBER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number) data in the buffer at **Irp->AssociatedIrp.SystemBuffer**.
+The driver returns the [STORAGE_DEVICE_NUMBER](./ns-ntddstor-_storage_device_number.md) data in the buffer at **Irp->AssociatedIrp.SystemBuffer**.
 
 ### -output-buffer-length
 
@@ -72,7 +72,6 @@ The **Information** field is set to the number of bytes returned. The **Status**
 
 ## -see-also
 
-[IOCTL_STORAGE_GET_DEVICE_NUMBER_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_device_number_ex)
+[IOCTL_STORAGE_GET_DEVICE_NUMBER_EX](./ni-ntddstor-ioctl_storage_get_device_number_ex.md)
 
-[STORAGE_DEVICE_NUMBER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number)
-
+[STORAGE_DEVICE_NUMBER](./ns-ntddstor-_storage_device_number.md)

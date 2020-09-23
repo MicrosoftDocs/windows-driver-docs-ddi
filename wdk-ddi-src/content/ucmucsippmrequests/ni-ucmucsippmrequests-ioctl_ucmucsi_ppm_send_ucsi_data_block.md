@@ -35,7 +35,7 @@ api_name:
 
 # IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -64,7 +64,7 @@ Size of the **UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS** structure.
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, set to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -73,4 +73,3 @@ Whenever the UcmUcsiCx class extension asynchronously needs to send a UCSI block
 ## -see-also
 
 [**UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS**](ns-ucmucsippmrequests-_ucmucsi_ppm_send_ucsi_data_block_in_params.md)
-

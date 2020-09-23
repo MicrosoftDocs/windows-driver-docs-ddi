@@ -76,11 +76,10 @@ wiauDbgErrorHr(hr, "AllocateBuffer", "Buffer size is %d bytes", size);
 
 ## -see-also
 
-[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgdump)
+[wiauDbgDump](./nf-wiautil-wiaudbgdump.md)
 
-[wiauDbgError](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerror)
+[wiauDbgError](./nf-wiautil-wiaudbgerror.md)
 
-[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace)
+[wiauDbgTrace](./nf-wiautil-wiaudbgtrace.md)
 
-[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning)
-
+[wiauDbgWarning](./nf-wiautil-wiaudbgwarning.md)

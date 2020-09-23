@@ -200,9 +200,8 @@ Reserved. Should be set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppcommand">COPPCommand</a>
+<a href="/windows-hardware/drivers/display/coppcommand">COPPCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>

@@ -80,13 +80,12 @@ Specifies the specific function on the device that is located in the logical PCI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>
+<a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucx_controller_config_set_pci_info">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucx_controller_config_set_pci_info">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ne-ucxcontroller-_ucx_controller_parent_bus_type">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxcontroller/ne-ucxcontroller-_ucx_controller_parent_bus_type">UCX_CONTROLLER_PARENT_BUS_TYPE</a>

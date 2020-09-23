@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Support for this IOCTL by mount manager clients is mandatory. Upon receiving this IOCTL, the mount manager client must provide a counted byte string identifier that is unique to the client (that is, the device or the volume). The client cannot change this unique ID without alerting the mount manager (see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>).
+Support for this IOCTL by mount manager clients is mandatory. Upon receiving this IOCTL, the mount manager client must provide a counted byte string identifier that is unique to the client (that is, the device or the volume). The client cannot change this unique ID without alerting the mount manager (see <a href="/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>).
 
 ## -ioctlparameters
 
@@ -56,7 +56,7 @@ Support for this IOCTL by mount manager clients is mandatory. Upon receiving thi
 
 ### -output-buffer
 
-The device class or volume driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The device class or volume driver returns the <a href="/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
@@ -68,7 +68,7 @@ The device class or volume driver returns the <a href="https://docs.microsoft.co
 
 ### -status-block
 
-The <b>Information</b> field is set to FIELD_OFFSET(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a>, UniqueId) + output->UniqueIdLength; or alternatively to sizeof(USHORT) + output->UniqueIdLength, where output points to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The <b>Information</b> field is set to FIELD_OFFSET(<a href="/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a>, UniqueId) + output->UniqueIdLength; or alternatively to sizeof(USHORT) + output->UniqueIdLength, where output points to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ## -remarks
 
@@ -76,9 +76,8 @@ The implementer of this function must not thread synchronize and must not make b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
+<a href="/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a>
-
+<a href="/windows-hardware/drivers/ddi/mountdev/ns-mountdev-_mountdev_unique_id">MOUNTDEV_UNIQUE_ID</a>

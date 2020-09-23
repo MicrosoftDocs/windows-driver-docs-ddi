@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The KSPIN_DESCRIPTOR structure describes the basic <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a> properties of a pin type.
+The KSPIN_DESCRIPTOR structure describes the basic <a href="/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a> properties of a pin type.
 
 ## -struct-fields
 
@@ -58,7 +58,7 @@ Specifies the size of the array pointed to by <b>Interfaces</b>.
 
 ### -field Interfaces
 
-An array of <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structures specifying the interfaces supported by this pin type.
+An array of <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structures specifying the interfaces supported by this pin type.
 
 ### -field MediumsCount
 
@@ -66,7 +66,7 @@ Specifies the number of elements in the array pointed to by <b>Mediums</b>.
 
 ### -field Mediums
 
-An array of <a href="https://docs.microsoft.com/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures specifying the mediums supported by this pin type.
+An array of <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures specifying the mediums supported by this pin type.
 
 ### -field DataRangesCount
 
@@ -74,19 +74,19 @@ Specifies the size of the array pointed to by <b>DataRanges</b>.
 
 ### -field DataRanges
 
-An array of <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures specifying the data ranges supported by this pin type.
+An array of <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures specifying the data ranges supported by this pin type.
 
 ### -field DataFlow
 
-Specifies either <b>KSPIN_DATAFLOW_IN</b> or KSPIN_DATAFLOW_OUT. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataflow">KSPROPERTY_PIN_DATAFLOW</a>.
+Specifies either <b>KSPIN_DATAFLOW_IN</b> or KSPIN_DATAFLOW_OUT. See <a href="/windows-hardware/drivers/stream/ksproperty-pin-dataflow">KSPROPERTY_PIN_DATAFLOW</a>.
 
 ### -field Communication
 
-Specifies KSPIN_COMMUNICATION_NONE, KSPIN_COMMUNICATION_SINK, KSPIN_COMMUNICATION_SOURCE, KSPIN_COMMUNICATION_BOTH or KSPIN_COMMUNICATION_BRIDGE. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-communication">KSPROPERTY_PIN_COMMUNICATION</a> for the meaning of each value.
+Specifies KSPIN_COMMUNICATION_NONE, KSPIN_COMMUNICATION_SINK, KSPIN_COMMUNICATION_SOURCE, KSPIN_COMMUNICATION_BOTH or KSPIN_COMMUNICATION_BRIDGE. See <a href="/windows-hardware/drivers/stream/ksproperty-pin-communication">KSPROPERTY_PIN_COMMUNICATION</a> for the meaning of each value.
 
 ### -field Category
 
-Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifies the general category of functionality that the pin provides. Examples of KS pin category GUIDs are KSNODETYPE_SPEAKER, KSNODETYPE_HEADPHONES, and KSNODETYPE_MICROPHONE, which are all defined in <i>Ksmedia.h</i>. Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>.
+Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifies the general category of functionality that the pin provides. Examples of KS pin category GUIDs are KSNODETYPE_SPEAKER, KSNODETYPE_HEADPHONES, and KSNODETYPE_MICROPHONE, which are all defined in <i>Ksmedia.h</i>. Also see <a href="/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>.
 
 ### -field Name
 
@@ -102,7 +102,7 @@ Specifies the number of entries in the array pointed to by <b>ConstrainedDataRan
 
 ### -field ConstrainedDataRanges
 
-Points to an array of <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures. Indicates the set of data ranges the pin type currently supports, based on the driver's internal state.
+Points to an array of <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures. Indicates the set of data ranges the pin type currently supports, based on the driver's internal state.
 
 ## -remarks
 
@@ -110,21 +110,20 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
+<a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a>
+<a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-communication">KSPROPERTY_PIN_COMMUNICATION</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-communication">KSPROPERTY_PIN_COMMUNICATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataflow">KSPROPERTY_PIN_DATAFLOW</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-dataflow">KSPROPERTY_PIN_DATAFLOW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a>
-
+<a href="/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a>

@@ -52,7 +52,7 @@ Formats the specified set of contiguous tracks on the disk.
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_format_parameters">FORMAT_PARAMETERS</a> data. <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_format_parameters">FORMAT_PARAMETERS</a> data. <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer.
 
 ### -input-buffer-length
 
@@ -76,5 +76,4 @@ The <b>Information</b> field is set to the size of the returned bad-track array 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_format_parameters">FORMAT_PARAMETERS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_format_parameters">FORMAT_PARAMETERS</a>

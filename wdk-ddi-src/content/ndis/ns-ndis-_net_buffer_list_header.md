@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 The NET_BUFFER_LIST_HEADER defines header information for the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
 
 ### -field NetBufferListData
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_data">NET_BUFFER_LIST_DATA</a> structure.
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_data">NET_BUFFER_LIST_DATA</a> structure.
 
 ### -field Link
 
@@ -70,9 +70,8 @@ NDIS maintains the information in the NET_BUFFER_LIST_HEADER union.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_data">NET_BUFFER_LIST_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_data">NET_BUFFER_LIST_DATA</a>

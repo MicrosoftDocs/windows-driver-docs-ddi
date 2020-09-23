@@ -98,9 +98,8 @@ sizeof(NDIS_WWAN_SET_PRESHUTDOWN_STATE)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preshutdown">OID_WWAN_PRESHUTDOWN</a>
-
+<a href="/windows-hardware/drivers/network/oid-wwan-preshutdown">OID_WWAN_PRESHUTDOWN</a>

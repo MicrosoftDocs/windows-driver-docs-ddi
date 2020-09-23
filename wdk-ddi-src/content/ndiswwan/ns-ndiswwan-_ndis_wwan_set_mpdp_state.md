@@ -67,11 +67,10 @@ A formatted [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md) struc
 
 ## -remarks
 
-This structure is used in an [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
+This structure is used in an [OID_WWAN_MPDP](/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
 
 ## -see-also
 
 [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md)
 
-[OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)
-
+[OID_WWAN_MPDP](/windows-hardware/drivers/network/oid-wwan-mpdp)

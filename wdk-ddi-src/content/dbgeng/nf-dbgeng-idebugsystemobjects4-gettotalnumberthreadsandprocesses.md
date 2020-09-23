@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>GetTotalNumberThreadsAndProcesses</b> method returns the total number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
+The <b>GetTotalNumberThreadsAndProcesses</b> method returns the total number of <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a> and <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ Receives the largest number of processes in any target.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -104,13 +104,12 @@ If no target is found, all the values are set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects3">IDebugSystemObjects3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects3">IDebugSystemObjects3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>
-
+<a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>

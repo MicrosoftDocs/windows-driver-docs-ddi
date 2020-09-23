@@ -67,16 +67,15 @@ The network interface index for the interface that was lower in the stack table.
 
 NDIS drivers call 
     <b>NdisIfDeleteIfStackEntry</b> to delete a stack entry that was previously added by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifaddifstackentry">NdisIfAddIfStackEntry</a> function. NDIS
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifaddifstackentry">NdisIfAddIfStackEntry</a> function. NDIS
     deletes the stack entry from its interface stack table if it finds a matching entry.
 
 NDIS maintains an interface stack table (<i>ifStackTable</i> from 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
+    <a href="/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
     the 
     <b>NdisIfAddIfStackEntry</b> and 
     <b>NdisIfDeleteIfStackEntry</b> functions to add and delete entries in this table.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifaddifstackentry">NdisIfAddIfStackEntry</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifaddifstackentry">NdisIfAddIfStackEntry</a>

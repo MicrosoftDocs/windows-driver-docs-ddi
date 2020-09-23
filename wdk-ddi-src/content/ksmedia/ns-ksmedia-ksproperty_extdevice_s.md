@@ -54,7 +54,7 @@ The KSPROPERTY_EXTDEVICE_S structure describes an external device and its capabi
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field u
 
@@ -94,9 +94,8 @@ Any ED_Xxx or DEV_PORT_Xxx tokens are defined in <i>xprtdefs.h</i> in the Micros
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagdevcaps">DEVCAPS</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagdevcaps">DEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
-
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>

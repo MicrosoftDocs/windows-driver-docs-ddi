@@ -76,11 +76,10 @@ Array of [STORAGE_PHYSICAL_NODE_DATA](ns-ntddstor-_storage_physical_node_data.md
 
 ## -remarks
 
-The STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure is returned from an [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property) request that has a **PropertyId** of StorageAdapterPhysicalTopologyProperty or StorageDevicePhysicalTopologyProperty.
+The STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure is returned from an [IOCTL_STORAGE_QUERY_PROPERTY](./ni-ntddstor-ioctl_storage_query_property.md) request that has a **PropertyId** of StorageAdapterPhysicalTopologyProperty or StorageDevicePhysicalTopologyProperty.
 
 ## -see-also
 
-[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
+[IOCTL_STORAGE_QUERY_PROPERTY](./ni-ntddstor-ioctl_storage_query_property.md)
 
 [STORAGE_PHYSICAL_NODE_DATA](ns-ntddstor-_storage_physical_node_data.md)
-

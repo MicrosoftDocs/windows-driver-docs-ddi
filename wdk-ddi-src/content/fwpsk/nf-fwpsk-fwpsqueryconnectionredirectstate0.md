@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>FwpsQueryConnectionRedirectState0</b> function returns the connection redirect state.<div class="alert"><b>Note</b>  <b>FwpsQueryConnectionRedirectState0</b> is a specific version of <b>FwpsQueryConnectionRedirectState</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
+The <b>FwpsQueryConnectionRedirectState0</b> function returns the connection redirect state.<div class="alert"><b>Note</b>  <b>FwpsQueryConnectionRedirectState0</b> is a specific version of <b>FwpsQueryConnectionRedirectState</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
 ## -parameters
@@ -59,20 +59,20 @@ The redirect records handle  indicated to ALE_CONNECT_REDIRECT callout by the cl
 ### -param redirectHandle
 
 A redirect handle that was previously created by a call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsredirecthandlecreate0">FwpsRedirectHandleCreate0</a> function.
+     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsredirecthandlecreate0">FwpsRedirectHandleCreate0</a> function.
 
 ### -param redirectContext
 
 An optional handle to the redirect context. If the pointer is specified, and if the connection
      redirect state 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_connection_redirect_state_">FWPS_CONNECTION_REDIRECT_STATE</a> associated with the injection handle is FWPS_CONNECTION_REDIRECTED_BY_SELF
+     <a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_connection_redirect_state_">FWPS_CONNECTION_REDIRECT_STATE</a> associated with the injection handle is FWPS_CONNECTION_REDIRECTED_BY_SELF
      or FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF, the redirect context supplied when the connection was redirected
      will be returned.
 
 ## -returns
 
 The 
-     <b>FwpsQueryConnectionRedirectState0</b> function returns one of the states that are specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_connection_redirect_state_">FWPS_CONNECTION_REDIRECT_STATE</a> enumeration.
+     <b>FwpsQueryConnectionRedirectState0</b> function returns one of the states that are specified in the <a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_connection_redirect_state_">FWPS_CONNECTION_REDIRECT_STATE</a> enumeration.
 
 ## -remarks
 
@@ -94,9 +94,8 @@ If the redirect status is FWPS_CONNECTION_PREVIOUSLY_REDIRECTED_BY_SELF, the ALE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_connection_redirect_state_">FWPS_CONNECTION_REDIRECT_STATE</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_connection_redirect_state_">FWPS_CONNECTION_REDIRECT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsredirecthandlecreate0">FwpsRedirectHandleCreate0</a>
-
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsredirecthandlecreate0">FwpsRedirectHandleCreate0</a>

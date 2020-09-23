@@ -62,7 +62,7 @@ Specifies the time from which to measure the interval. Typically, this function 
 
 ## -remarks
 
-The value that is specified in parameter <i>Since</i> is measured in 100-nanosecond units. If <i>Since</i> is zero, the time returned is the number of 100-nanosecond ticks since January 1, 1601. The time units are the same as those used to specify the system time in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1">KeQuerySystemTime</a> function.
+The value that is specified in parameter <i>Since</i> is measured in 100-nanosecond units. If <i>Since</i> is zero, the time returned is the number of 100-nanosecond ticks since January 1, 1601. The time units are the same as those used to specify the system time in the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1">KeQuerySystemTime</a> function.
 
 The following macros from portcls.h are useful for converting seconds, milliseconds, and microseconds to 100-millisecond units:
 
@@ -89,5 +89,4 @@ and then checking to see whether the required interval has passed
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1">KeQuerySystemTime</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1">KeQuerySystemTime</a>

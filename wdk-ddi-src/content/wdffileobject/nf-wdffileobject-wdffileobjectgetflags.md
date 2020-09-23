@@ -66,7 +66,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-For more information about framework file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
+For more information about framework file objects, see <a href="/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
 
 
 #### Examples
@@ -78,4 +78,3 @@ ULONG flags;
 
 flags = WdfFileObjectGetFlags(fileObject);
 ```
-

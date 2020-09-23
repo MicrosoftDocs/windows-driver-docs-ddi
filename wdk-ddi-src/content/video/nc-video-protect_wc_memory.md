@@ -53,7 +53,7 @@ The <i>VideoPortProtectWCMemory</i> callback routine protects Write Combined (WC
 ### -param Context 
 
 [in]
-Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>. It typically points to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> buffer.
+Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>. It typically points to the <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> buffer.
 
 ### -param HwDeviceExtension 
 
@@ -66,15 +66,14 @@ Pointer to the miniport driver's hardware device extension.
 
 ## -remarks
 
-After <i>VideoPortProtectWCMemory</i> is called, the CPU cannot write to Write Combined (WC) memory until the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a> callback routine is called.
+After <i>VideoPortProtectWCMemory</i> is called, the CPU cannot write to Write Combined (WC) memory until the <a href="/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a> callback routine is called.
 
-When WC memory protection is no longer required, the display miniport driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a> to restore CPU access to WC memory.
+When WC memory protection is no longer required, the display miniport driver should call <a href="/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a> to restore CPU access to WC memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a>

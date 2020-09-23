@@ -64,7 +64,7 @@ Points to the head of the list of KSEVENT_ENTRY items to be freed. If any events
 ### -param EventsFlags 
 
 [in]
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flag specifying the type of exclusion lock to be used in accessing the event list. If no flag is set, then no lock is taken.
+Specifies a <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flag specifying the type of exclusion lock to be used in accessing the event list. If no flag is set, then no lock is taken.
 
 ### -param EventsLock 
 
@@ -81,5 +81,4 @@ The <b>KsFreeEventList</b> function calls the remove handler, and then it calls 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdiscardevent">KsDiscardEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdiscardevent">KsDiscardEvent</a>

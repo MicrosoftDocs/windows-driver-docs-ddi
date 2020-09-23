@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The AddRADIUSServer_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addradiusserver">AddRADIUSServer</a> method.
+The AddRADIUSServer_OUT structure holds the output data for the <a href="/windows-hardware/drivers/storage/addradiusserver">AddRADIUSServer</a> method.
 
 ## -struct-fields
 
 ### -field Status
 
-On output from <b>AddRADIUSServer</b>, the status of the <b>AddRADIUSServer</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
+On output from <b>AddRADIUSServer</b>, the status of the <b>AddRADIUSServer</b> operation. For a list of status qualifiers, see <a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 ## -remarks
 
@@ -64,17 +64,16 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addradiusserver">AddRADIUSServer</a>
+<a href="/windows-hardware/drivers/storage/addradiusserver">AddRADIUSServer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_addradiusserver_in">AddRADIUSServer_IN</a>
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_addradiusserver_in">AddRADIUSServer_IN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
+<a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>

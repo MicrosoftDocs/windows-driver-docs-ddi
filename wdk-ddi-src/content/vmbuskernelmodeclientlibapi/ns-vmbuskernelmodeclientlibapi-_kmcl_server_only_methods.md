@@ -129,15 +129,14 @@ If the interface query function succeeds, the **KMCL_SERVER_INTERFACE_V1** struc
 
 For KMCL client methods, see the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md) structure.
 
-For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
 
 ## -see-also
 
-[Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces)
+[Using Driver-Defined Interfaces](/windows-hardware/drivers/wdf/using-driver-defined-interfaces)
 
 [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md)
 
 [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md)
 
 [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md)
-

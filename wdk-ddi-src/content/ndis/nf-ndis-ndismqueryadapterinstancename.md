@@ -57,12 +57,12 @@ The
 A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
      string specifies the friendly name of the interface for the given miniport adapter. For Windows Vista
      and later versions of the Windows operating system, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 ### -param MiniportHandle
 
 The handle to the miniport adapter that was previously input to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ## -returns
@@ -78,12 +78,12 @@ A miniport driver uses
     driver controls. This interface is either a physical NIC or a virtual adapter and is called a 
     <i>miniport adapter</i>. The miniport driver specifies the handle to a miniport adapter in 
     <i>MiniportAdapterHandle</i> . This handle to the miniport adapter is passed to the miniport driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function to
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function to
     set up the miniport adapter for network I/O operations.
 
 <b>NdisMQueryAdapterInstanceName</b> allocates memory for the string that specifies the friendly name.
     After the caller finishes using this memory, the caller must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a> function to release the
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a> function to release the
     memory.
 
 Friendly names are intended to help the user quickly and accurately identify a physical NIC or virtual
@@ -92,13 +92,12 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

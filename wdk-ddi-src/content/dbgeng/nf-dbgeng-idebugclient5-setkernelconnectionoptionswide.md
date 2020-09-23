@@ -66,7 +66,7 @@ Specifies the connection options to update.  The possible values are:
 
 </td>
 <td>
-Re-synchronize the connection between the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> and the kernel.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/synchronizing-with-the-target-computer">Synchronizing with the Target Computer</a>.
+Re-synchronize the connection between the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> and the kernel.  For more information, see <a href="/windows-hardware/drivers/debugger/synchronizing-with-the-target-computer">Synchronizing with the Target Computer</a>.
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Re-synchronize the connection between the <a href="https://docs.microsoft.com/wi
 
 </td>
 <td>
-For kernel connections through a COM port, cycle through the supported baud rates;  for other connections, do nothing.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/ctrl-a--toggle-baud-rate-">CTRL+A (Toggle Baud Rate)</a>.
+For kernel connections through a COM port, cycle through the supported baud rates;  for other connections, do nothing.  For more information, see <a href="/windows-hardware/drivers/debugger/ctrl-a--toggle-baud-rate-">CTRL+A (Toggle Baud Rate)</a>.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ For kernel connections through a COM port, cycle through the supported baud rate
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -119,13 +119,12 @@ The current target is not a live (non-local) kernel target.
 
 This method is available only for live kernel targets that are not local and not connected through eXDI.  This method is reentrant.
 
-For more information about connecting to live kernel-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-kernel-mode-targets">Live Kernel-Mode Targets</a>.
+For more information about connecting to live kernel-mode targets, see <a href="/windows-hardware/drivers/debugger/live-kernel-mode-targets">Live Kernel-Mode Targets</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachkernel">AttachKernel</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-attachkernel">AttachKernel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>

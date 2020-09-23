@@ -64,11 +64,11 @@ A kernel-mode component that needs to use the display diagnostics interface call
 
 ### -field InterfaceReference
 
-[out] Pointer to the display miniport driver's [interface reference function](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference).
+[out] Pointer to the display miniport driver's [interface reference function](../wdm/nc-wdm-pinterface_reference.md).
 
 ### -field InterfaceDereference
 
-[out] Pointer the display miniport driver's [interface dereference function](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference).
+[out] Pointer the display miniport driver's [interface dereference function](../wdm/nc-wdm-pinterface_dereference.md).
 
 ### -field DxgkDdiGetDisplayStateNonIntrusive
 
@@ -88,7 +88,6 @@ The operating system will query the display diagnostics interface for each graph
 
 [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
 
-[**PINTERFACE_DEREFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
+[**PINTERFACE_DEREFERENCE**](../wdm/nc-wdm-pinterface_dereference.md)
 
-[**PINTERFACE_REFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference)
-
+[**PINTERFACE_REFERENCE**](../wdm/nc-wdm-pinterface_reference.md)

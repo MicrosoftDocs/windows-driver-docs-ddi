@@ -49,8 +49,7 @@ api_name:
 <code>IAdapterPnpManagement</code>  is an interface that adapters should implement and
  register if they want to receive PnP management messages.
  Register this interface with PortCls using
- <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteradapterpnpmanagement">PcRegisterAdapterPnpManagement</a>. Unregister this interface with PortCls using
- <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcunregisteradapterpnpmanagement">PcUnregisterAdapterPnpManagement</a>.
+ <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregisteradapterpnpmanagement">PcRegisterAdapterPnpManagement</a>. Unregister this interface with PortCls using
+ <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcunregisteradapterpnpmanagement">PcUnregisterAdapterPnpManagement</a>.
 
 IAdapterPnpManagement is available in Windows 10, version 1511 and later versions of Windows.
-

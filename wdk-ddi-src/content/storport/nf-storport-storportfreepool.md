@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>StorPortFreePool</b> routine frees a block of memory that was previously allocated by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
+The <b>StorPortFreePool</b> routine frees a block of memory that was previously allocated by a call to the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 ### -param BufferPointer 
 
 [in]
-A pointer to the block of memory to free. This must be a pointer that was returned by a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
+A pointer to the block of memory to free. This must be a pointer that was returned by a previous call to the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
 
 ## -returns
 
@@ -117,5 +117,4 @@ The call was made at an invalid IRQL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a>

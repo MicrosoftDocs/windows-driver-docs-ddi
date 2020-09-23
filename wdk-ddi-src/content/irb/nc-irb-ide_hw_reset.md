@@ -47,7 +47,7 @@ api_name:
 ## -description
 
 The <b><i>IdeHwReset</i></b> miniport driver routine resets the channel.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -65,4 +65,3 @@ A pointer to the channel extension.
 The <b><i>IdeHwReset</i></b> routine should complete all pending requests and reset the indicated channel.
 
 <b><i>IdeHwReset</i></b> can be called even if the miniport driver is not ready for another request.
-

@@ -64,9 +64,8 @@ A 92-byte certificate.
 
 ## -remarks
 
-Clients retrieve an Advanced Access Content System (AACS) certificate with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a> request. Clients send certificates in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_send_certificate">AACS_SEND_CERTIFICATE</a> structure with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_certificate">IOCTL_AACS_SEND_CERTIFICATE</a> request.
+Clients retrieve an Advanced Access Content System (AACS) certificate with an <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a> request. Clients send certificates in a <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_send_certificate">AACS_SEND_CERTIFICATE</a> structure with an <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_certificate">IOCTL_AACS_SEND_CERTIFICATE</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a>

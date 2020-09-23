@@ -63,7 +63,7 @@ Specifies the number of elements in the *AccessRange* array.
 
 ### -param AccessRange
 
-Pointer to an array of [VIDEO_ACCESS_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range) elements.
+Pointer to an array of [VIDEO_ACCESS_RANGE](../video/ns-video-_video_access_range.md) elements.
 
 ## -returns
 
@@ -72,4 +72,3 @@ This function returns VP_STATUS.
 ## -remarks
 
 ## -see-also
-

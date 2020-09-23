@@ -120,17 +120,16 @@ When allocated by the caller,  the <b>STOR_SLIST_ENTRY</b> structure pointed to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeslisthead">StorPortInitializeSListHead</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeslisthead">StorPortInitializeSListHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedflushslist">StorPortInterlockedFlushSList</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedflushslist">StorPortInterlockedFlushSList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpopentryslist">StorPortInterlockedPopEntrySList</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpopentryslist">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportquerydepthslist">StorPortQueryDepthSList</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportquerydepthslist">StorPortQueryDepthSList</a>

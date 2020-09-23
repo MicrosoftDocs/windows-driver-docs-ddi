@@ -52,7 +52,7 @@ Notifies UFX when the client driver receives a setup packet from the host.
 
 ### -param UfxEndpoint
 
-<p>A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate"><b>UfxDeviceCreate</b></a>.</p>
+<p>A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate"><b>UfxDeviceCreate</b></a>.</p>
 
 ### -param SetupInfo 
 
@@ -76,5 +76,3 @@ The following example shows how to handle setup packet completion.
     } 
 
 ```
-
-

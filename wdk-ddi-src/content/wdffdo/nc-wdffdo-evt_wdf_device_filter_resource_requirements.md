@@ -50,7 +50,7 @@ api_name:
 
 A driver's <i>EvtDeviceFilterAddResourceRequirements</i> event callback function can add resources to a set of hardware resource requirements before the system assigns resources to a device.
 
-A driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a> event callback function can remove resources from a set of hardware resource requirements before the system assigns resources to a device.
+A driver's <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a> event callback function can remove resources from a set of hardware resource requirements before the system assigns resources to a device.
 
 ## -parameters
 
@@ -62,29 +62,28 @@ A handle to the framework device object to which resources will be assigned.
 ### -param IoResourceRequirementsList 
 
 [in]
-A handle to a resource-requirements-list object, which represents the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">resource requirements list</a>.
+A handle to a resource-requirements-list object, which represents the device's <a href="/windows-hardware/drivers/kernel/hardware-resources">resource requirements list</a>.
 
 ## -returns
 
-If the driver encountered no errors it must return STATUS_SUCCESS. Otherwise it must return an NTSTATUS value that <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a> evaluates as <b>FALSE</b>.
+If the driver encountered no errors it must return STATUS_SUCCESS. Otherwise it must return an NTSTATUS value that <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a> evaluates as <b>FALSE</b>.
 
-For more information about return values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/reporting-device-failures">Reporting Device Failures</a>.
+For more information about return values, see <a href="/windows-hardware/drivers/wdf/reporting-device-failures">Reporting Device Failures</a>.
 
 ## -remarks
 
-Framework-based function drivers can provide an <i>EvtDeviceFilterAddResourceRequirements</i> and an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a>callback function. To register these callback functions, drivers call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitseteventcallbacks">WdfFdoInitSetEventCallbacks</a>.
+Framework-based function drivers can provide an <i>EvtDeviceFilterAddResourceRequirements</i> and an <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a>callback function. To register these callback functions, drivers call <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitseteventcallbacks">WdfFdoInitSetEventCallbacks</a>.
 
 When the framework calls a driver's <i>EvtDeviceFilterAddResourceRequirements</i> callback function, the driver can add resource descriptors to a logical configuration, and it can provide additional logical configurations. These added items represent resources that the function driver requires to make the device operational.
 
-If a driver's <i>EvtDeviceFilterAddResourceRequirements</i> callback function adds items to a device's resource requirements list, and if the PnP manager assigns the resources to the device's requirements list, the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a> callback function must remove the added resources from the device's resource list.
+If a driver's <i>EvtDeviceFilterAddResourceRequirements</i> callback function adds items to a device's resource requirements list, and if the PnP manager assigns the resources to the device's requirements list, the driver's <a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a> callback function must remove the added resources from the device's resource list.
 
-To add items to or remove items from a resource requirements list, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/">framework resource-requirements-list object methods</a> and framework resource-range-list object methods, which manipulates the resource-requirements-list object that is represented by the <i>IoResourceRequirementsList</i> parameter. 
+To add items to or remove items from a resource requirements list, the driver calls <a href="/windows-hardware/drivers/ddi/wdfresource/">framework resource-requirements-list object methods</a> and framework resource-range-list object methods, which manipulates the resource-requirements-list object that is represented by the <i>IoResourceRequirementsList</i> parameter. 
 
-For more information about these callback functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/modifying-a-resource-requirements-list">Modifying a Resource Requirements List</a>.
+For more information about these callback functions, see <a href="/windows-hardware/drivers/wdf/modifying-a-resource-requirements-list">Modifying a Resource Requirements List</a>.
 
-For more information about hardware resources and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about hardware resources and resource requirements lists, see <a href="/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a>
-
+<a href="/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a>

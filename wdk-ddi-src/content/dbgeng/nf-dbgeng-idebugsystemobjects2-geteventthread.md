@@ -60,7 +60,7 @@ Receives the engine thread ID.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -84,5 +84,4 @@ The method was successful.
 
 In kernel-mode debugging, the engine thread ID for the virtual thread representing the processor on which the event occurred is returned.
 
-For more information about threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details about debugger engine events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
-
+For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details about debugger engine events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.

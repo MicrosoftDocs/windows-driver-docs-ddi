@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_IPSEC_KM_DEMUX_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IPSEC_KM_DEMUX_V6 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 ## -enum-fields
 
@@ -98,4 +98,3 @@ The IPsec security realm identifier.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
-

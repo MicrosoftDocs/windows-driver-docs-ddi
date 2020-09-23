@@ -52,9 +52,8 @@ Used to identify whether the camera's image pin and record pin are mutually excl
 
 ### -field KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-image-pin-capability-property">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY</a> property is used to identify whether the camera's image pin and the record pin are mutually exclusive.
+The <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-image-pin-capability-property">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY</a> property is used to identify whether the camera's image pin and the record pin are mutually exclusive.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-image-pin-capability-property">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-image-pin-capability-property">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY</a>

@@ -57,7 +57,7 @@ The <b>D3DKMTSetGammaRamp</b> function sets the gamma ramp.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setgammaramp">D3DKMT_SETGAMMARAMP</a> structure that describes parameters for setting the gamma ramp.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setgammaramp">D3DKMT_SETGAMMARAMP</a> structure that describes parameters for setting the gamma ramp.
 
 ## -returns
 
@@ -73,5 +73,4 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setgammaramp">D3DKMT_SETGAMMARAMP</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_setgammaramp">D3DKMT_SETGAMMARAMP</a>

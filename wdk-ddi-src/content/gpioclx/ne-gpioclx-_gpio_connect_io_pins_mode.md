@@ -72,19 +72,18 @@ The maximum value in the enumeration.
 
 ## -remarks
 
-The <b>ConnectMode</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_connect_io_pins_parameters">GPIO_CONNECT_IO_PINS_PARAMETERS</a> structure contains a <b>GPIO_CONNECT_IO_PINS_MODE</b> enumeration constant.
+The <b>ConnectMode</b> member of the <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_connect_io_pins_parameters">GPIO_CONNECT_IO_PINS_PARAMETERS</a> structure contains a <b>GPIO_CONNECT_IO_PINS_MODE</b> enumeration constant.
 
-The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that can be read by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_read_pins">IOCTL_GPIO_READ_PINS</a> request. <b>ConnectModeOutput</b> labels a set of GPIO pins that can be written to by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_write_pins">IOCTL_GPIO_WRITE_PINS</a> request.
+The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that can be read by an <a href="/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_read_pins">IOCTL_GPIO_READ_PINS</a> request. <b>ConnectModeOutput</b> labels a set of GPIO pins that can be written to by an <a href="/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_write_pins">IOCTL_GPIO_WRITE_PINS</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_connect_io_pins_parameters">GPIO_CONNECT_IO_PINS_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_connect_io_pins_parameters">GPIO_CONNECT_IO_PINS_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_read_pins">IOCTL_GPIO_READ_PINS</a>
+<a href="/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_read_pins">IOCTL_GPIO_READ_PINS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_write_pins">IOCTL_GPIO_WRITE_PINS</a>
-
+<a href="/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_write_pins">IOCTL_GPIO_WRITE_PINS</a>

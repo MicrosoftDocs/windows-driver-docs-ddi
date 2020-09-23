@@ -53,7 +53,7 @@ api_name:
 ### -param MonitorObject 
 
 [in]
-This is the OS context handle for this monitor returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxmonitorarrival">IddCxMonitorArrival</a> call
+This is the OS context handle for this monitor returned by the <a href="/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxmonitorarrival">IddCxMonitorArrival</a> call
 
 ### -param pInArgs 
 
@@ -67,5 +67,4 @@ Output arguments of the function
 
 ## -returns
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
-
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.

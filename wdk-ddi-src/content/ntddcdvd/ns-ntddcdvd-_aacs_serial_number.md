@@ -64,9 +64,8 @@ The message authentication code (MAC) that the client uses to verify that the se
 
 ## -remarks
 
-Clients retrieve the AACS serial number with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_serial_number">IOCTL_AACS_READ_SERIAL_NUMBER</a> request.
+Clients retrieve the AACS serial number with an <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_serial_number">IOCTL_AACS_READ_SERIAL_NUMBER</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_serial_number">IOCTL_AACS_READ_SERIAL_NUMBER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_serial_number">IOCTL_AACS_READ_SERIAL_NUMBER</a>

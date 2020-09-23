@@ -56,7 +56,7 @@ The ISCSI_Path structure contains information about a connection of the iSCSI po
 
 ### -field UniqueConnectionId
 
-This is a unique connection identifier that the initiator uses to identify a connection. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in the UniqueConnectionId parameter.  This value is not to be confused with the connection ID (CID).
+This is a unique connection identifier that the initiator uses to identify a connection. The <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in the UniqueConnectionId parameter.  This value is not to be confused with the connection ID (CID).
 
 ### -field EstimatedLinkSpeed
 
@@ -121,9 +121,8 @@ The iSCSI headers and MOF are included in the platform SDK and WDK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
+<a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
-
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>

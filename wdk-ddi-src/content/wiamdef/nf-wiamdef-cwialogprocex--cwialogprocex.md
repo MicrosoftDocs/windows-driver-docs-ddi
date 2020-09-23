@@ -50,5 +50,4 @@ The **~CWiaLogProcEx** destructor is called when the function or method being lo
 
 ## -see-also
 
-[CWiaLogProcEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogprocex-cwialogprocex)
-
+[CWiaLogProcEx](./nf-wiamdef-cwialogprocex-cwialogprocex.md)

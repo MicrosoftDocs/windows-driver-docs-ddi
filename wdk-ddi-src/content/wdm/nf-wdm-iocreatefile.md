@@ -53,22 +53,22 @@ The **IoCreateFile** routine either causes a new file or directory to be created
 ### -param FileHandle 
 
 [out]
-Pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) once the handle is no longer in use.
+Pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with [**ZwClose**](../ntifs/nf-ntifs-ntclose.md) once the handle is no longer in use.
 
 ### -param DesiredAccess 
 
 [in]
-A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#desiredaccess) for more information about this parameter and for the list of flag values.
+A bitmask of flags specifying the type of access to the file or directory that the caller requires. See the *DesiredAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#desiredaccess) for more information about this parameter and for the list of flag values.
 
 ### -param ObjectAttributes 
 
 [in]
-Pointer to an opaque [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#objectattributes) for more information and for a description of each structure member.
+Pointer to an opaque [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure that is already initialized with [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes). See the *ObjectAttributes* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#objectattributes) for more information and for a description of each structure member.
 
 ### -param IoStatusBlock 
 
 [out]
-Pointer to an [**IO_STATUS_BLOCK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#iostatusblock).
+Pointer to an [**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md) structure that receives the final completion status and information about the requested operation. See the **IoStatusBlock** parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#iostatusblock).
 
 ### -param AllocationSize 
 
@@ -78,22 +78,22 @@ Optionally specifies the initial allocation size in bytes for the file. A nonzer
 ### -param FileAttributes 
 
 [in]
-Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_*XXX* flags, which are defined in Wdm.h. For a list of flags that can be used with **IoCreateFile**, see [**CreateFile**](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) in the Microsoft Windows SDK documentation.
+Explicitly specified attributes are applied only when the file is created, superseded, or, in some cases, overwritten. By default, this value is FILE_ATTRIBUTE_NORMAL, which can be overridden by an ORed combination of one or more FILE_ATTRIBUTE_*XXX* flags, which are defined in Wdm.h. For a list of flags that can be used with **IoCreateFile**, see [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) in the Microsoft Windows SDK documentation.
 
 ### -param ShareAccess 
 
 [in]
-Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#shareaccess) for more details and for the list of flags.
+Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the flags. See the *ShareAccess* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#shareaccess) for more details and for the list of flags.
 
 ### -param Disposition 
 
 [in]
-Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#disposition) for the list of possible values.
+Specifies a value that determines the action to be taken, depending on whether the file already exists. See the *Disposition* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#disposition) for the list of possible values.
 
 ### -param CreateOptions 
 
 [in]
-Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#createoptions).
+Specifies the options to be applied when creating or opening the file. This parameter is a compatible combination of the flags listed and described in the *CreateOptions* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#createoptions).
 
 ### -param EaBuffer 
 
@@ -118,16 +118,16 @@ Drivers must set this parameter to **NULL**.
 ### -param Options 
 
 [in]
-Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#options) for the list of possible options.
+Specifies options to be used during the creation of the create request. See the *Options* parameter of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#options) for the list of possible options.
 
 ## -returns
 
-**IoCreateFile** either returns STATUS_SUCCESS or an appropriate error status. NTSTATUS value. See the **Return Value** section of [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#returns) for a list of possible return codes.
+**IoCreateFile** either returns STATUS_SUCCESS or an appropriate error status. NTSTATUS value. See the **Return Value** section of [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#returns) for a list of possible return codes.
 
 ## -remarks
 
 > [!NOTE]
-> The [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex) routine is similar to the **IoCreateFile** routine but provides greater functionality than the **IoCreateFile** routine, including access to extra create parameters (ECPs), device objects, and transaction information.
+> The [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) routine is similar to the **IoCreateFile** routine but provides greater functionality than the **IoCreateFile** routine, including access to extra create parameters (ECPs), device objects, and transaction information.
 
 The handle obtained by **IoCreateFile** can be used by subsequent calls to manipulate data within the file or the file object's state or attributes.
 
@@ -164,13 +164,13 @@ The *CreateOptions* FILE_DIRECTORY_FILE value specifies that the file to be crea
 
 The *CreateOptions* FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this value places certain restrictions on the caller's parameters to the **Zw*Xxx*File** routines, including the following:
 
-* Any optional *ByteOffset* passed to [**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) or [**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile) must be an integral of the sector size.
+* Any optional *ByteOffset* passed to [**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md) or [**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md) must be an integral of the sector size.
 
 * The *Length* passed to **ZwReadFile** or **ZwWriteFile**, must be an integral of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
 
-* Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling **IoCreateFile** to get a handle for the file object that represents the physical device, and, then, calling [**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile) with that handle. For a list of the system FILE_*XXX*_ALIGNMENT values, see [**DEVICE_OBJECT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object).
+* Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling **IoCreateFile** to get a handle for the file object that represents the physical device, and, then, calling [**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md) with that handle. For a list of the system FILE_*XXX*_ALIGNMENT values, see [**DEVICE_OBJECT**](./ns-wdm-_device_object.md).
 
-* Calls to [**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is an integral of the sector size.
+* Calls to [**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is an integral of the sector size.
 
 The *CreateOptions* FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, which are mutually exclusive as their names suggest, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned *FileHandle*. All I/O on such a file is serialized across all threads using the returned handle. With either of these *CreateOptions*, the *DesiredAccess* SYNCHRONIZE flag must be set so that the I/O manager will use the file object as a synchronization object. With either of these *CreateOptions* set, the I/O manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to **ZwReadFile** and **ZwWriteFile**. Its position also can be queried or set with **ZwQueryInformationFile** and **ZwSetInformationFile**.
 
@@ -203,7 +203,7 @@ For create requests originating in user mode, if the driver sets both IO_NO_PARA
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFile**. This restricts the use of the handle returned by **IoCreateFile** to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) to set the OBJ_KERNEL_HANDLE attribute as follows.
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFile**. This restricts the use of the handle returned by **IoCreateFile** to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) to set the OBJ_KERNEL_HANDLE attribute as follows.
 
 ```cpp
 InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);
@@ -211,25 +211,24 @@ InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NUL
 
 ## -see-also
 
-[**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)
 
-[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
+[**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
-[**IO_STATUS_BLOCK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
+[**IO_STATUS_BLOCK**](./ns-wdm-_io_status_block.md)
 
-[**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex#desiredaccess)
+[**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md#desiredaccess)
 
 [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_object_attributes)
 
-[**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[**ZwClose**](../ntifs/nf-ntifs-ntclose.md)
 
-[**ZwCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md)
 
-[**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
-[**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile)
+[**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md)
 
-[**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+[**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md)
 
-[**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
-
+[**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md)

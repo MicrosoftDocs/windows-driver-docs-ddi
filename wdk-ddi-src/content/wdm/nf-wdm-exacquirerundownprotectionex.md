@@ -53,7 +53,7 @@ The <b>ExAcquireRundownProtectionEx</b> routine tries to acquire run-down protec
 ### -param RunRef 
 
 [in, out]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure that was initialized by a previous call to the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializerundownprotection">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
+A pointer to an <a href="/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure that was initialized by a previous call to the  <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializerundownprotection">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
 
 ### -param Count 
 
@@ -68,29 +68,28 @@ The amount by which to increment to the run-down instance count of the object. T
 
 To safely access a shared object, a driver calls <b>ExAcquireRundownProtectionEx</b> to acquire run-down protection on the object.
 
-The <i>RunRef</i> parameter points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure that tracks the run-down status of the associated object. This status information includes a count of instances of run-down protection that are currently in effect on the object. The <b>ExAcquireRundownProtectionEx</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotectionex">ExReleaseRundownProtectionEx</a> routines increment and decrement this count by arbitrary amounts. Two related routines,  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exacquirerundownprotection">ExAcquireRundownProtection</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotection">ExReleaseRundownProtection</a>, increment and decrement this count by one.
+The <i>RunRef</i> parameter points to an <a href="/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure that tracks the run-down status of the associated object. This status information includes a count of instances of run-down protection that are currently in effect on the object. The <b>ExAcquireRundownProtectionEx</b> and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotectionex">ExReleaseRundownProtectionEx</a> routines increment and decrement this count by arbitrary amounts. Two related routines,  <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exacquirerundownprotection">ExAcquireRundownProtection</a> and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotection">ExReleaseRundownProtection</a>, increment and decrement this count by one.
 
 As long as the run-down block itself is nonpaged, this function can be called at DISPATCH_LEVEL.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/run-down-protection">Run-Down Protection</a>.
+For more information, see <a href="/windows-hardware/drivers/kernel/run-down-protection">Run-Down Protection</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a>
+<a href="/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exacquirerundownprotection">ExAcquireRundownProtection</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exacquirerundownprotection">ExAcquireRundownProtection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializerundownprotection">ExInitializeRundownProtection</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializerundownprotection">ExInitializeRundownProtection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotection">ExReleaseRundownProtection</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotection">ExReleaseRundownProtection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotectionex">ExReleaseRundownProtectionEx</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreleaserundownprotectionex">ExReleaseRundownProtectionEx</a>

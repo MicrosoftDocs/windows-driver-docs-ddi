@@ -64,5 +64,4 @@ The tuning operation should perform a fast search and attempt only to determine 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_tuner_frequency_s">KSPROPERTY_TUNER_FREQUENCY_S</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_tuner_frequency_s">KSPROPERTY_TUNER_FREQUENCY_S</a>

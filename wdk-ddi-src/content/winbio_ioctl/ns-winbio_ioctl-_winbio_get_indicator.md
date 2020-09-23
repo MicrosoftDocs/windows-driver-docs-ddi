@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The WINBIO_GET_INDICATOR structure is the OUT payload for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_indicator">IOCTL_BIOMETRIC_GET_INDICATOR</a>.
+The WINBIO_GET_INDICATOR structure is the OUT payload for <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_indicator">IOCTL_BIOMETRIC_GET_INDICATOR</a>.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Specifies the total size of the payload, which includes the fixed length structu
 
 ### -field WinBioHresult
 
-Specifies an HRESULT that contains the status of the I/O operation. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_indicator">IOCTL_BIOMETRIC_GET_INDICATOR</a> for possible values.
+Specifies an HRESULT that contains the status of the I/O operation. See <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_indicator">IOCTL_BIOMETRIC_GET_INDICATOR</a> for possible values.
 
 ### -field IndicatorStatus
 
@@ -75,7 +75,6 @@ Possible values are shown in the following table.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_indicator">IOCTL_BIOMETRIC_GET_INDICATOR</a>
+<a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_indicator">IOCTL_BIOMETRIC_GET_INDICATOR</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a>
-
+<a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a>

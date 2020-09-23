@@ -169,13 +169,12 @@ The encoded content of the record that represents the SMS text message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_msg_status">WWAN_MSG_STATUS</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_msg_status">WWAN_MSG_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_encoding">WWAN_SMS_CDMA_ENCODING</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_encoding">WWAN_SMS_CDMA_ENCODING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_lang">WWAN_SMS_CDMA_LANG</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_sms_cdma_lang">WWAN_SMS_CDMA_LANG</a>

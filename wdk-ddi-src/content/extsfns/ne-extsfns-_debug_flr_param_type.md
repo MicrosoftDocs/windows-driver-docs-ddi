@@ -48,9 +48,9 @@ api_name:
 
 ## -description
 
-The values of <b>DEBUG_FLR_PARAM_TYPE</b> enumeration are tags that indicate the kind of information that is stored in <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">failure analysis entry</a>.
+The values of <b>DEBUG_FLR_PARAM_TYPE</b> enumeration are tags that indicate the kind of information that is stored in <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">failure analysis entry</a>.
 
-The <b>DEBUG_FLR_PARAM_TYPE</b> enumeration is also called the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
+The <b>DEBUG_FLR_PARAM_TYPE</b> enumeration is also called the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
 ## -enum-fields
 
@@ -1522,21 +1522,20 @@ There are several hundred tags in the <b>DEBUG_FLR_PARAM_TYPE</b> enumeration. Y
 
 The tags are grouped by categories, with the first entry of a new category being assigned an explicit value.  For example, the tags that are used for structured data begin with DEBUG_FLR_STACK = 0x200000.
 
-For more information about tags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Failure Analysis Entries, Tags, and Data Types</a>
+For more information about tags, see <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Failure Analysis Entries, Tags, and Data Types</a>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG enumeration</a>
+<a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">Failure Analysis Entries</a>
+<a href="/windows-hardware/drivers/debugger/failure-analysis-entries">Failure Analysis Entries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>
+<a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
+<a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Writing an Analysis Extension Plug-in to Extend !analyze</a>

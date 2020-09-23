@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-Used to hold the arguments for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_settimingsfromvidpn">DXGKDDI_SETTIMINGSFROMVIDPN</a>.
+Used to hold the arguments for <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_settimingsfromvidpn">DXGKDDI_SETTIMINGSFROMVIDPN</a>.
 
 ## -struct-fields
 
@@ -73,4 +73,3 @@ Number of pointers in the array pointed to by **pSetTimingPathInfo**.
 ### -field pSetTimingPathInfo
 
 An array of pointers to [DXGK_SET_TIMING_PATH_INFO](ns-d3dkmddi-_dxgk_set_timing_path_info.md) structures that specify per path details of the timings to be set. It also allows feedback from the driver on additional work the OS needs to do either before the timings changes can be made, or after changes are complete.
-

@@ -68,21 +68,20 @@ Specifies that the object is a pin.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfilterfromfileobject">KsGetFilterFromFileObject</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetfilterfromfileobject">KsGetFilterFromFileObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetobjectfromfileobject">KsGetObjectFromFileObject</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetobjectfromfileobject">KsGetObjectFromFileObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetobjecttypefromfileobject">KsGetObjectTypeFromFileObject</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetobjecttypefromfileobject">KsGetObjectTypeFromFileObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetpinfromfileobject">KsGetPinFromFileObject</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetpinfromfileobject">KsGetPinFromFileObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpinfileobject">KsPinGetConnectedPinFileObject</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpinfileobject">KsPinGetConnectedPinFileObject</a>

@@ -60,9 +60,8 @@ Contains the value of a counter used by the mount manager to determine if a clie
 
 ## -remarks
 
-For a general discussion of the mount manager and how it communicates with its clients, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+For a general discussion of the mount manager and how it communicates with its clients, see <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_change_notify">IOCTL_MOUNTMGR_CHANGE_NOTIFY</a>
-
+<a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_change_notify">IOCTL_MOUNTMGR_CHANGE_NOTIFY</a>

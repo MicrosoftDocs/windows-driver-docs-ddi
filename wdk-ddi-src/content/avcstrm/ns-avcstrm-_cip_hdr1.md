@@ -88,13 +88,12 @@ Must be set to 0:0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_fdf">CIP_HDR2_FDF</a>
+<a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_fdf">CIP_HDR2_FDF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_mpegts">CIP_HDR2_MPEGTS</a>
+<a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_mpegts">CIP_HDR2_MPEGTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_syt">CIP_HDR2_SYT</a>
-
+<a href="/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr2_syt">CIP_HDR2_SYT</a>

@@ -23,4 +23,4 @@ To develop Secure Digital (SD) card, you need these headers:
  * [sddef.h](../sddef/index.md)
  * [sffdisk.h](../sffdisk/index.md)
 
-For the programming guide, see [Secure Digital (SD) card](https://docs.microsoft.com/windows-hardware/drivers/sd).
+For the programming guide, see [Secure Digital (SD) card](/windows-hardware/drivers/sd).

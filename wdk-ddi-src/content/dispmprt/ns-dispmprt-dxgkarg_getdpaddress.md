@@ -51,7 +51,7 @@ The **DXGKARG_GETDPADDRESS** structure is a parameter for the [**DXGKDDI_GETDPAD
 
 ### -field TargetId
 
-[**D3DDDI_VIDEO_PRESENT_TARGET_ID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target) structure that contains information about video present target.
+[**D3DDDI_VIDEO_PRESENT_TARGET_ID**](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target.md) structure that contains information about video present target.
 
 ### -field DPNativeError
 
@@ -73,7 +73,6 @@ DP Relative Address. The format is described in the DP specification.
 
 ## -see-also
 
-[**D3DDDI_VIDEO_PRESENT_TARGET_ID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target)
+[**D3DDDI_VIDEO_PRESENT_TARGET_ID**](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target.md)
 
 [**DXGKDDI_GETDPADDRESS**](nc-dispmprt-dxgkddi_getdpaddress.md)
-

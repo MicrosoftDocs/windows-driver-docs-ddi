@@ -93,9 +93,8 @@ Specifies the starting address of the buffer.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-buffer">KSPROPERTY_WAVE_BUFFER</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-wave-buffer">KSPROPERTY_WAVE_BUFFER</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-buffer">KSPROPERTY_WAVE_BUFFER</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-wave-buffer">KSPROPERTY_WAVE_BUFFER</a>

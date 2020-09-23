@@ -50,7 +50,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_KEY_ALGO_TKIP_MIC structure defines a cipher key that is used by the TKIP algorithm for
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_KEY_ALGO_TKIP_MIC structure defines a cipher key that is used by the TKIP algorithm for
   data encryption and decryption. The structure also defines a message integrity code (MIC) used by the
   Michael algorithm for verifying data integrity.
 
@@ -60,7 +60,7 @@ product:
 
 The initial 48-bit value of the TKIP Sequence Counter (TSC), which is used for replay protection.
      For more information about the TSC, see
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565613(v=vs.85)">TKIP</a>.
+     <a href="/previous-versions/windows/hardware/network/ff565613(v=vs.85)">TKIP</a>.
 
 ### -field ulTKIPKeyLength
 
@@ -114,15 +114,14 @@ Initialize the TSC counter used for the send path to any value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565613(v=vs.85)">TKIP</a>
+<a href="/previous-versions/windows/hardware/network/ff565613(v=vs.85)">TKIP</a>
 
 
 
 <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
    DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
-

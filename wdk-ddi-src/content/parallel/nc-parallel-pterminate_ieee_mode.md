@@ -53,7 +53,7 @@ The PTERMINATE_IEEE_MODE-typed callback routine terminates the current IEEE oper
 ### -param Context 
 
 [in]
-Pointer to the device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
+Pointer to the device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
 ## -returns
 
@@ -89,7 +89,7 @@ To obtain a pointer to the system-supplied PTERMINATE_IEEE_MODE callback, a kern
 
 The PTERMINATE_IEEE_MODE callback runs in the caller's thread at the IRQL of the caller.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
+For more information, see <a href="/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 
 ## -see-also
 
@@ -118,4 +118,3 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-

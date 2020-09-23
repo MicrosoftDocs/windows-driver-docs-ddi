@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Reset</b> method resets the data toggle and clears the stall condition on a USB pipe.
 
@@ -67,7 +67,7 @@ The <b>Reset</b> method resets the data toggle and clears the stall condition on
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/test/wpt/reset">Reset</a> successfully reset the data toggle and cleared the stall condition. 
+<a href="/windows-hardware/test/wpt/reset">Reset</a> successfully reset the data toggle and cleared the stall condition. 
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ The <b>Reset</b> method resets the data toggle and clears the stall condition on
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/test/wpt/reset">Reset</a> encountered an allocation failure.
+<a href="/windows-hardware/test/wpt/reset">Reset</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -100,13 +100,12 @@ This value corresponds to the error code that the WinUsb API returned.
 
 The <b>Reset</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
-For more information about how <b>Reset</b> works, see the <a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_resetpipe">WinUsb_ResetPipe</a> function.
+For more information about how <b>Reset</b> works, see the <a href="/windows/win32/api/winusb/nf-winusb-winusb_resetpipe">WinUsb_ResetPipe</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
+<a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winusb/nf-winusb-winusb_resetpipe">WinUsb_ResetPipe</a>
-
+<a href="/windows/win32/api/winusb/nf-winusb-winusb_resetpipe">WinUsb_ResetPipe</a>

@@ -47,14 +47,14 @@ api_name:
 
 ## -description
 
-The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a href="https://go.microsoft.com/fwlink/p/?linkid=121237">session</a>.
+The <b>GetSecurityUserInfo</b> function retrieves information about a logon <a href="/windows/win32/secgloss/s-gly">session</a>.
 
 ## -parameters
 
 ### -param LogonId 
 
 [in, optional]
-An optional pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=121236">LUID</a> containing the logon session for which information is to be retrieved. If <i>LogonId</i> is <b>NULL</b>, information for the logon session of the calling thread is returned.
+An optional pointer to an <a href="/windows/win32/secgloss/l-gly">LUID</a> containing the logon session for which information is to be retrieved. If <i>LogonId</i> is <b>NULL</b>, information for the logon session of the calling thread is returned.
 
 ### -param Flags 
 
@@ -64,7 +64,7 @@ This parameter is currently not used.
 ### -param UserInformation 
 
 [out]
-A pointer to a location which contains a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The caller is responsible for freeing this buffer by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a> function.
+A pointer to a location which contains a pointer to a <a href="/windows/win32/api/ntsecpkg/ns-ntsecpkg-security_user_data">SecurityUserData</a> structure. If the function call succeeds, the user information is returned in this structure. The caller is responsible for freeing this buffer by calling the <a href="/windows/win32/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a> function.
 
 ## -returns
 
@@ -101,13 +101,12 @@ Indicates that the specified logon session does not exist.
 
 ## -remarks
 
-This function obtains information about a logon <a href="https://go.microsoft.com/fwlink/p/?linkid=121237">session</a> via  the <a href="https://go.microsoft.com/fwlink/p/?linkid=121238">SecurityUserData</a>  structure.
+This function obtains information about a logon <a href="/windows/win32/secgloss/s-gly">session</a> via  the <a href="/windows/win32/api/ntsecpkg/ns-ntsecpkg-security_user_data">SecurityUserData</a>  structure.
 
 ## -see-also
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=121239">LsaFreeReturnBuffer</a>
+<a href="/windows/win32/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549736">MapSecurityError</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mapsecurityerror">MapSecurityError</a>

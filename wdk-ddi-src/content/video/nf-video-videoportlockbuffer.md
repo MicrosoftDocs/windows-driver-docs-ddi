@@ -72,13 +72,12 @@ Specifies the type of operation for which the caller wants the access rights pro
 
 ## -returns
 
-Returns a pointer to a memory descriptor list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>), or a <b>NULL</b> pointer if the MDL for the memory to be locked cannot be allocated.
+Returns a pointer to a memory descriptor list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>), or a <b>NULL</b> pointer if the MDL for the memory to be locked cannot be allocated.
 
 ## -remarks
 
-To unlock the buffer, the video miniport driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a>.
+To unlock the buffer, the video miniport driver should call <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a>

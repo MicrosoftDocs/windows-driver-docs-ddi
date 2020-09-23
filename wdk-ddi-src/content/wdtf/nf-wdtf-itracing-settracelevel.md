@@ -53,7 +53,7 @@ The <b>SetTraceLevel</b> method sets the tracing level for an object. Every obje
 ### -param Level 
 
 [in]
-The new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> value for this object.
+The new <a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a> value for this object.
 
 ## -returns
 
@@ -61,11 +61,11 @@ The new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">
 
 ## -remarks
 
-For more information about tracing levels, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a>.
+For more information about tracing levels, see <a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a> and <a href="/windows-hardware/drivers/ddi/index">ITracer</a>.
 
-Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Trace_Default</a> level to set the object back to the settings that are defined in the registry for the object's co-class.
+Use the <a href="/windows-hardware/drivers/ddi/index">Trace_Default</a> level to set the object back to the settings that are defined in the registry for the object's co-class.
 
-Because the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction</a> interface inherits from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a> interface, all WDTF Actions will support <b>SetTraceLevel</b>. All of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WDTF core interfaces</a> should also support this method.
+Because the <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction</a> interface inherits from the <a href="/windows-hardware/drivers/ddi/index">ITracing</a> interface, all WDTF Actions will support <b>SetTraceLevel</b>. All of the <a href="/windows-hardware/drivers/ddi/index">WDTF core interfaces</a> should also support this method.
 
 The following code example demonstrates how to use the <b>SetTraceLevel</b> method.
 
@@ -151,13 +151,12 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a>
+<a href="/windows-hardware/drivers/ddi/index">ITracer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>
+<a href="/windows-hardware/drivers/ddi/index">ITracing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a>
-
+<a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a>

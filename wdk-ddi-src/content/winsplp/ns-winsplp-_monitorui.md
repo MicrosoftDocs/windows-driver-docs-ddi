@@ -66,9 +66,8 @@ Size, in bytes, of the MONITORUI structure.
 
 ## -remarks
 
-All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui">InitializePrintMonitorUI</a> function.
+All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui">InitializePrintMonitorUI</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui">InitializePrintMonitorUI</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitorui">InitializePrintMonitorUI</a>

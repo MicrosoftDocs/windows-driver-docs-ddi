@@ -84,5 +84,4 @@ If a PIN disable operation for a given PIN type is tried when that PIN type is l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>

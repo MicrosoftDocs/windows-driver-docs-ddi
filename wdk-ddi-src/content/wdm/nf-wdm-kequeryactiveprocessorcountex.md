@@ -63,15 +63,14 @@ The group number. If a multiprocessor system contains <i>n</i> groups, valid gro
 
 An active logical processor is a logical processor that Windows has started up and added to a multiprocessor system. The term active processor applies to a processor that is available to perform processing work, regardless of whether the processor is currently performing processing work or is idle. In some systems, the number of active processors might remain unchanged from system startup to shutdown. In other systems, Windows might dynamically add active processors while the system is running. Windows never removes active processors from a system. Thus, the number of active processors in a multiprocessor system can increase between system startup and shutdown, but this number never decreases.
 
-A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>, returns an active processor count, but this routine, unlike <b>KeQueryActiveProcessorCountEx</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryActiveProcessorCount</b> returns the active processor count in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryActiveProcessorCount</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryActiveProcessorCountEx</b> instead of <b>KeQueryActiveProcessorCount</b>.
+A related routine, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>, returns an active processor count, but this routine, unlike <b>KeQueryActiveProcessorCountEx</b>, does not accept a group number as an input parameter. In Windows 7 and later versions of the Windows operating system, <b>KeQueryActiveProcessorCount</b> returns the active processor count in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. This behavior ensures that existing drivers that call <b>KeQueryActiveProcessorCount</b> and that use no group-oriented features will run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeQueryActiveProcessorCountEx</b> instead of <b>KeQueryActiveProcessorCount</b>.
 
-For a code example that uses <b>KeQueryActiveProcessorCountEx</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>.
+For a code example that uses <b>KeQueryActiveProcessorCountEx</b>, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>

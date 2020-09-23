@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>KSCAMERA_EXTENDEDPROP_PHOTOMODE</b> structure contains the property data for the history  frame counts in photo mode. This structure is used when setting or retrieving the data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photomode2">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a> extended control property.
+The <b>KSCAMERA_EXTENDEDPROP_PHOTOMODE</b> structure contains the property data for the history  frame counts in photo mode. This structure is used when setting or retrieving the data for the <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photomode2">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a> extended control property.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ Reserved. Set to 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photomode2">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photomode2">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a>

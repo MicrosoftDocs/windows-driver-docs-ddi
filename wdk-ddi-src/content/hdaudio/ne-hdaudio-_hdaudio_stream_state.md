@@ -72,5 +72,4 @@ The run state.
 
 ## -remarks
 
-This enumeration is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pset_dma_engine_state">PSET_DMA_ENGINE_STATE</a>.
-
+This enumeration is used by the <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pset_dma_engine_state">PSET_DMA_ENGINE_STATE</a>.

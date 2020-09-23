@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the port numbers to which a virtual USB device is connected. Initialize this structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecx_usb_device_plug_in_options_init">UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT</a> method.
+Contains the port numbers to which a virtual USB device is connected. Initialize this structure by calling the <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecx_usb_device_plug_in_options_init">UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT</a> method.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ The USB 2.0 port number.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceplugin">UdecxUsbDevicePlugIn</a>
-
+<a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceplugin">UdecxUsbDevicePlugIn</a>

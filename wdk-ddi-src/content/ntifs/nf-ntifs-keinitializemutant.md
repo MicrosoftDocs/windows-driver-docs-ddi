@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>KeInitializeMutant</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>.
+The <b>KeInitializeMutant</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>.
 
 ## -parameters
 
@@ -57,4 +57,3 @@ The <b>KeInitializeMutant</b> routine is reserved for system use. See <a href="h
 ### -param InitialOwner
 
 Reserved.
-

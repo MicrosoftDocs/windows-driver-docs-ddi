@@ -52,7 +52,7 @@ Moves a piece of media from a source element to a destination.
 
 ### -input-buffer
 
-       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_move_medium">CHANGER_MOVE_MEDIUM</a> data, which indicates the transport to use for the operation, the source, the destination, and whether the medium should be flipped, assuming the device supports two-sided media.
+       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_move_medium">CHANGER_MOVE_MEDIUM</a> data, which indicates the transport to use for the operation, the source, the destination, and whether the medium should be flipped, assuming the device supports two-sided media.
 
 ### -input-buffer-length
 
@@ -76,9 +76,8 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_MOVE_MEDIUM). The <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_move_medium">CHANGER_MOVE_MEDIUM</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_move_medium">CHANGER_MOVE_MEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changermovemedium">ChangerMoveMedium</a>
-
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changermovemedium">ChangerMoveMedium</a>

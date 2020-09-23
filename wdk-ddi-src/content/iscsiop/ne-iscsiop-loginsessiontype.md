@@ -68,5 +68,4 @@ The logon session is full-featured. It reports the target LUNs to the PnP manage
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
-
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>

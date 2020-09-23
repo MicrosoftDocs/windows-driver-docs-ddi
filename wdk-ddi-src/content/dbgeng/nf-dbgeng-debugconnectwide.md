@@ -46,19 +46,19 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugconnect">DebugConnect</a> and <b>DebugConnectWide</b> functions create a new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">client object</a> and return an interface pointer to it.  The client object will be connected to a remote host.
+The <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugconnect">DebugConnect</a> and <b>DebugConnectWide</b> functions create a new <a href="/windows-hardware/drivers/debugger/client-objects">client object</a> and return an interface pointer to it.  The client object will be connected to a remote host.
 
 ## -parameters
 
 ### -param RemoteOptions 
 
 [in]
-Specifies how the debugger engine will connect to the remote host.  These are the same options that get passed to the <b>-remote</b> option on the command line.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-debugging-client">Activating a Debugging Client</a>.
+Specifies how the debugger engine will connect to the remote host.  These are the same options that get passed to the <b>-remote</b> option on the command line.  For details on the syntax of this string, see <a href="/windows-hardware/drivers/debugger/activating-a-debugging-client">Activating a Debugging Client</a>.
 
 ### -param InterfaceId 
 
 [in]
-Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
+Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
 
 ### -param Interface 
 
@@ -67,7 +67,7 @@ Receives an interface pointer for the new client.  The type of this interface is
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -93,9 +93,8 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-com-interfaces">Client Functions</a>
+<a href="/windows-hardware/drivers/debugger/client-com-interfaces">Client Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">Client Objects</a>
-
+<a href="/windows-hardware/drivers/debugger/client-objects">Client Objects</a>

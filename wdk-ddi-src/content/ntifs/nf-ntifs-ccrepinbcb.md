@@ -46,34 +46,33 @@ api_name:
 
 ## -description
 
-The <b>CcRepinBcb</b> routine pins a buffer control block (BCB) an additional time to prevent it from being freed by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>.
+The <b>CcRepinBcb</b> routine pins a buffer control block (BCB) an additional time to prevent it from being freed by a subsequent call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a>.
 
 ## -parameters
 
 ### -param Bcb 
 
 [in]
-Buffer control block (BCB) pointer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>.
+Buffer control block (BCB) pointer returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinread">CcPinRead</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparepinwrite">CcPreparePinWrite</a>.
 
 ## -remarks
 
 File systems call <b>CcRepinBcb</b> to preserve a BCB for write-through or error recovery. Typically a file system would do this the first time it marks a BCB as dirty while processing a write-through request, or any time that it determines that a buffer will be required for write-through.
 
-Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539235">CcUnpinRepinnedBcb</a>.
+Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpinrepinnedbcb">CcUnpinRepinnedBcb</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinread">CcPinRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparepinwrite">CcPreparePinWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539235">CcUnpinRepinnedBcb</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpinrepinnedbcb">CcUnpinRepinnedBcb</a>

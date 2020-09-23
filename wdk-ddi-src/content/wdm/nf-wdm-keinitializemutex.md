@@ -62,29 +62,29 @@ Reserved. Drivers set this to zero.
 
 ## -remarks
 
-For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/alternatives-to-mutex-objects">Alternatives to Mutex Objects</a>. 
+For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="/windows-hardware/drivers/kernel/alternatives-to-mutex-objects">Alternatives to Mutex Objects</a>. 
 
 The mutex object is initialized with an initial state of signaled. 
 
 Storage for a mutex object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller.
 
-For more information about mutex objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-mutex-objects">Mutex Objects</a>.
+For more information about mutex objects, see <a href="/windows-hardware/drivers/kernel/introduction-to-mutex-objects">Mutex Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatemutex">KeReadStateMutex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatemutex">KeReadStateMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasemutex">KeReleaseMutex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasemutex">KeReleaseMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
@@ -92,5 +92,4 @@ For more information about mutex objects, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>

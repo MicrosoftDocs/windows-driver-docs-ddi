@@ -91,8 +91,8 @@ Identifies the capabilities of the device. This member can be a bitwise OR of an
 |:--|:--|
 | D3DDEVCAPS_CANBLTSYSTONONLOCAL | The device supports a TexBlt from system memory to sublocal video memory. | 
 | D3DDEVCAPS_CANRENDERAFTERFLIP | The device can queue rendering commands after a page flip. Devices must support this capability on Windows 2000 and later, meaning that the driver would always set this flag. | 
-| D3DDEVCAPS_DRAWPRIMITIVES2 | The device can support [D3dDrawPrimitives2](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb) . | 
-| D3DDEVCAPS_DRAWPRIMITIVES2EX | The device can support Extended [D3dDrawPrimitives2](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb) ; i.e. a DX7-compliant driver. | 
+| D3DDEVCAPS_DRAWPRIMITIVES2 | The device can support [D3dDrawPrimitives2](./nc-d3dhal-lpd3dhal_drawprimitives2cb.md) . | 
+| D3DDEVCAPS_DRAWPRIMITIVES2EX | The device can support Extended [D3dDrawPrimitives2](./nc-d3dhal-lpd3dhal_drawprimitives2cb.md) ; i.e. a DX7-compliant driver. | 
 | D3DDEVCAPS_DRAWPRIMTLVERTEX | The device can draw TLVERTEX primitives. This flag is obsolete but must be set by the driver. | 
 | D3DDEVCAPS_EXECUTESYSTEMMEMORY | The device can use execute buffers from system memory. The driver must always set this bit. | 
 | D3DDEVCAPS_EXECUTEVIDEOMEMORY | The device can use execute buffers from display memory. The driver must never set this bit. | 
@@ -119,15 +119,15 @@ Set to <b>TRUE</b> by the driver if the device can perform 3D clipping.
 
 ### -field dlcLightingCaps
 
-Specifies the lighting capabilities of the device. This is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dlightingcaps">D3DLIGHTINGCAPS</a> structure. The driver must set the <b>dwCaps</b>, <b>dwLightingModel</b>, and <b>dwNumLights</b> members of that structure to zero.
+Specifies the lighting capabilities of the device. This is a <a href="/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dlightingcaps">D3DLIGHTINGCAPS</a> structure. The driver must set the <b>dwCaps</b>, <b>dwLightingModel</b>, and <b>dwNumLights</b> members of that structure to zero.
 
 ### -field dpcLineCaps
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for line primitives.
+Specifies a <a href="/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for line primitives.
 
 ### -field dpcTriCaps
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for triangle primitives.
+Specifies a <a href="/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for triangle primitives.
 
 ### -field dwDeviceRenderBitDepth
 
@@ -149,37 +149,36 @@ DirectX 6
 
 ## -remarks
 
-This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for legacy runtime (DirectX 7.0 and earlier) compatibility. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/reporting-directx-8-0-style-direct3d-capabilities">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
+This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for legacy runtime (DirectX 7.0 and earlier) compatibility. See <a href="/windows-hardware/drivers/display/reporting-directx-8-0-style-direct3d-capabilities">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
-The driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function returns this information in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_globaldriverdata">D3DHAL_GLOBALDRIVERDATA</a> structure that the <b>lpD3DGlobalDriverData</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure points to.
+The driver's <a href="/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function returns this information in the <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_globaldriverdata">D3DHAL_GLOBALDRIVERDATA</a> structure that the <b>lpD3DGlobalDriverData</b> member of the <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure points to.
 
-The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (documented in the Microsoft Windows SDK documentation) from the information returned in the D3DDEVICEDESC_V1 structure and the extended capabilities queried through the driver's <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function. While some of the <b>dwDevCaps</b> flags are obsolete at the driver level, the driver must set them appropriately in order for applications to work correctly.
+The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (documented in the Microsoft Windows SDK documentation) from the information returned in the D3DDEVICEDESC_V1 structure and the extended capabilities queried through the driver's <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function. While some of the <b>dwDevCaps</b> flags are obsolete at the driver level, the driver must set them appropriately in order for applications to work correctly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_globaldriverdata">D3DHAL_GLOBALDRIVERDATA</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_globaldriverdata">D3DHAL_GLOBALDRIVERDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dlightingcaps">D3DLIGHTINGCAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dlightingcaps">D3DLIGHTINGCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3dcaps/ns-d3dcaps-_d3dprimcaps">D3DPRIMCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
+<a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+<a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
-
+<a href="/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>

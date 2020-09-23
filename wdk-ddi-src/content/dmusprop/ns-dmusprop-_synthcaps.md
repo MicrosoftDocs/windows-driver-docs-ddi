@@ -166,7 +166,7 @@ Contains a text description of the device. This member is a WCHAR array containi
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/previous-versions/ff537389(v=vs.85)">KSPROPERTY_SYNTH_CAPS</a> get-property request uses the SYNTHCAPS structure to retrieve the capabilities of a synthesizer device from a DMus miniport driver.
+The <a href="/previous-versions/ff537389(v=vs.85)">KSPROPERTY_SYNTH_CAPS</a> get-property request uses the SYNTHCAPS structure to retrieve the capabilities of a synthesizer device from a DMus miniport driver.
 
 SYNTH_CAPS is similar to the DMUS_PORTCAPS structure, which is described in the Microsoft Windows SDK documentation.
 
@@ -184,13 +184,12 @@ In the DMusUART sample driver in the Windows Driver Kit (WDK), the KSPROPERTY_SY
   caps->EffectFlags        = 0;
 ```
 
-In this example, the 0xFFFFFFFF values indicate that the handler has no way of knowing the actual <b>MaxVoices</b> and <b>MaxAudioChannels</b> limits because they are completely dependent on whatever external synthesizer happens to be connected to the UART. Elsewhere in the code, but not shown in the preceding example, the DMusUART property handler sets the <b>Guid</b> member of the SYNTHCAPS structure to either <b>CLSID_MiniportDriverDMusUART</b> or <b>CLSID_MiniportDriverDMusUARTCapture</b>. The one the <b>Guid</b> member is it is set to depends on whether the target node (of type <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-synthesizer">KSNODETYPE_SYNTHESIZER</a>) for the property request lies on a data path that handles rendering data or capture data. Both class IDs are defined in header file Dmusicks.h.
+In this example, the 0xFFFFFFFF values indicate that the handler has no way of knowing the actual <b>MaxVoices</b> and <b>MaxAudioChannels</b> limits because they are completely dependent on whatever external synthesizer happens to be connected to the UART. Elsewhere in the code, but not shown in the preceding example, the DMusUART property handler sets the <b>Guid</b> member of the SYNTHCAPS structure to either <b>CLSID_MiniportDriverDMusUART</b> or <b>CLSID_MiniportDriverDMusUARTCapture</b>. The one the <b>Guid</b> member is it is set to depends on whether the target node (of type <a href="/windows-hardware/drivers/audio/ksnodetype-synthesizer">KSNODETYPE_SYNTHESIZER</a>) for the property request lies on a data path that handles rendering data or capture data. Both class IDs are defined in header file Dmusicks.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-synthesizer">KSNODETYPE_SYNTHESIZER</a>
+<a href="/windows-hardware/drivers/audio/ksnodetype-synthesizer">KSNODETYPE_SYNTHESIZER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff537389(v=vs.85)">KSPROPERTY_SYNTH_CAPS</a>
-
+<a href="/previous-versions/ff537389(v=vs.85)">KSPROPERTY_SYNTH_CAPS</a>

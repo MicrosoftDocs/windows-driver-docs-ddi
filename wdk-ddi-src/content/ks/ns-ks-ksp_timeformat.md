@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-The KSP_TIMEFORMAT structure corresponds to <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-mediaseeking-converttimeformat">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>.
+The KSP_TIMEFORMAT structure corresponds to <a href="/windows-hardware/drivers/stream/ksproperty-mediaseeking-converttimeformat">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>.
 
 ## -struct-fields
 
 ### -field Property
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure.
+Specifies a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure.
 
 ### -field SourceFormat
 
@@ -74,5 +74,4 @@ The fields of the structure correspond one to one with DirectShow's IMediaSeekin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-mediaseeking-converttimeformat">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-mediaseeking-converttimeformat">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>

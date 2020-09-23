@@ -67,7 +67,7 @@ Receives the size in characters of the name of the executable file.  If <i>ExeSi
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -104,5 +104,4 @@ These methods are only available in user-mode debugging.
 
 If the engine cannot determine the name of the executable file, it writes the string "?NoImage?" to the buffer.
 
-For more information about processes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
-
+For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.

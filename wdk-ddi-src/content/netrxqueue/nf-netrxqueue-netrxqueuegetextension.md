@@ -65,5 +65,4 @@ Client drivers typically call this function from their *[EvtNetAdapterCreateRxQu
 
 ## -see-also
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
-
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure specifies a list of transmit and receive data rates
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure specifies a list of transmit and receive data rates
   for a PHY on the 802.11 station.
 
 ## -struct-fields
@@ -84,7 +84,7 @@ Each entry in the
     <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
     DOT11_DATA_RATE_MAPPING_ENTRY</a> structure. Each entry in these arrays must match a
     <b>ucDataRateIndex</b> member from the table of data rates returned through a query of
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+    <a href="/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
     OID_DOT11_DATA_RATE_MAPPING_TABLE</a>. The index value must be between 2 and 127.
 
 If the number of supported rates in either array is less than 255, the miniport driver must add an
@@ -104,11 +104,10 @@ If the number of supported rates in either array is less than 255, the miniport 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
+<a href="/windows-hardware/drivers/network/oid-dot11-data-rate-mapping-table">
    OID_DOT11_DATA_RATE_MAPPING_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-data-rates-value">
+<a href="/windows-hardware/drivers/network/oid-dot11-supported-data-rates-value">
    OID_DOT11_SUPPORTED_DATA_RATES_VALUE</a>
-

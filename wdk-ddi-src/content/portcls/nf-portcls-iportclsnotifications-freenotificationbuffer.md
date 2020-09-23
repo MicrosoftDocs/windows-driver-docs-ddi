@@ -49,16 +49,15 @@ api_name:
 
 Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps. 
 
-For more information about audio modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>.
+For more information about audio modules, see <a href="/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>.
 
 ## -parameters
 
 ### -param NotificationBuffer 
 
 [in]
-The address of the notification buffer returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a> call.
+The address of the notification buffer returned in the <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a> call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>

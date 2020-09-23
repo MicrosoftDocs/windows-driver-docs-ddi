@@ -51,7 +51,7 @@ f1_keywords:
 
 ### -param DestinationString
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">UTF8_STRING</a> structure to hold the converted UTF8 string.  If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string.  The maximum length field is only set if *AllocateDestinationString* is TRUE.
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-string">UTF8_STRING</a> structure to hold the converted UTF8 string.  If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string.  The maximum length field is only set if *AllocateDestinationString* is TRUE.
 
 ### -param SourceString
 
@@ -59,7 +59,7 @@ Pointer to the Unicode source string to be converted to UTF8.
 
 ### -param AllocateDestinationString
 
-<b>TRUE</b> if this routine is to allocate the buffer space for the <i>DestinationString</i>. If it does, the buffer must be deallocated by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeutf8string">RtlFreeUTF8String</a>.
+<b>TRUE</b> if this routine is to allocate the buffer space for the <i>DestinationString</i>. If it does, the buffer must be deallocated by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeutf8string">RtlFreeUTF8String</a>.
 
 ## -returns
 
@@ -67,5 +67,4 @@ If the conversion succeeds, <b>RtlUnicodeStringToUTF8String</b> returns STATUS_S
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeutf8string">RtlFreeUTF8String</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeutf8string">RtlFreeUTF8String</a>

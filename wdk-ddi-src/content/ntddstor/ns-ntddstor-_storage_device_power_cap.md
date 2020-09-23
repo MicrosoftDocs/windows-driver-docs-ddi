@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure is used as an input and output buffer for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_device_power_cap">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
+This structure is used as an input and output buffer for the <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_device_power_cap">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ The units of the MaxPower value.
 ### -field MaxPower
 
 Contains the value of the actual maximum power consumption level of the device. This may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
-

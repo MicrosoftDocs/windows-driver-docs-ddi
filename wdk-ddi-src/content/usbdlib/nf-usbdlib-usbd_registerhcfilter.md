@@ -56,7 +56,7 @@ On  Windows XP and later operating systems, a filter driver that is installed be
 ### -param DeviceObject 
 
 [in]
-Pointer to the device object that is the current top of the stack as reported by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
+Pointer to the device object that is the current top of the stack as reported by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
 
 ### -param FilterDeviceObject 
 
@@ -69,9 +69,8 @@ USB bus filter drivers must call this routine after attaching their device objec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
-
+<a href="/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>

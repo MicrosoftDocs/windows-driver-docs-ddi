@@ -58,7 +58,7 @@ Specifies the ID of the property being described.
 
 ### -field GetPropertyHandler
 
-Pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>. If <b>NULL</b>, the property cannot be read. This member is used only by drivers that use the AVStream or Stream class interfaces.
+Pointer to a minidriver-supplied <a href="/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>. If <b>NULL</b>, the property cannot be read. This member is used only by drivers that use the AVStream or Stream class interfaces.
 
 ### -field GetSupported
 
@@ -66,7 +66,7 @@ Set to <b>TRUE</b> if this property supports get requests, <b>FALSE</b> if it do
 
 ### -field MinProperty
 
-Specifies the minimum buffer length to hold the property identifier. This must be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>).
+Specifies the minimum buffer length to hold the property identifier. This must be at least <b>sizeof</b>(<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>).
 
 ### -field MinData
 
@@ -74,7 +74,7 @@ Specifies the minimum buffer length to hold the data read from or written to thi
 
 ### -field SetPropertyHandler
 
-Pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff567200(v=vs.85)">KStrSetPropertyHandler</a>. If <b>NULL</b>, the property cannot be set. This member is used only by drivers that use the AVStream or Stream class interfaces.
+Pointer to a minidriver-supplied <a href="/previous-versions/ff567200(v=vs.85)">KStrSetPropertyHandler</a>. If <b>NULL</b>, the property cannot be set. This member is used only by drivers that use the AVStream or Stream class interfaces.
 
 ### -field SetSupported
 
@@ -82,7 +82,7 @@ Set to <b>TRUE</b> if this property supports set requests, <b>FALSE</b> if it do
 
 ### -field Values
 
-Pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>. Specifies the acceptable and/or default values for the property. These are the same as the values reported by a driver in response to an IOCTL_KS_PROPERTY request with the KSPROPERTY_TYPE_BASICSUPPORT and KSPROPERTY_TYPE_DEFAULTVALUES flags set.
+Pointer to a structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>. Specifies the acceptable and/or default values for the property. These are the same as the values reported by a driver in response to an IOCTL_KS_PROPERTY request with the KSPROPERTY_TYPE_BASICSUPPORT and KSPROPERTY_TYPE_DEFAULTVALUES flags set.
 
 ### -field RelationsCount
 
@@ -90,7 +90,7 @@ Specifies the number of entries in the array pointed to by the <b>Relations</b> 
 
 ### -field Relations
 
-Points to an array of <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structures representing properties related to this one. Two properties are considered related if changing one property may affect the value of the other property. The <b>Flags</b> member of each entry is unused.
+Points to an array of <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structures representing properties related to this one. Two properties are considered related if changing one property may affect the value of the other property. The <b>Flags</b> member of each entry is unused.
 
 ### -field SupportHandler
 
@@ -98,11 +98,11 @@ Provide this member only if implementing your own format for raw serialization o
 
 ### -field SerializedSize
 
-Specifies the size of the property when serialized in a KSPROPERTY_TYPE_SERIALIZESET request. This should be zero if the property cannot be serialized. See <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> for more information.
+Specifies the size of the property when serialized in a KSPROPERTY_TYPE_SERIALIZESET request. This should be zero if the property cannot be serialized. See <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> for more information.
 
 ## -remarks
 
-Stream class minidrivers use KSPROPERTY_ITEM to describe to the client how to fulfill property requests on each property within a set. Handling for the property set as a whole is specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a> structure, which contains pointers to arrays of KSPROPERTY_ITEM structures.
+Stream class minidrivers use KSPROPERTY_ITEM to describe to the client how to fulfill property requests on each property within a set. Handling for the property set as a whole is specified in the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a> structure, which contains pointers to arrays of KSPROPERTY_ITEM structures.
 
 The stream class driver handles property requests on behalf of the minidriver. When the stream class driver requires more information from the minidriver, it passes an SRB_XXX request to one of the minidriver's <b>StrMiniReceiveXXXRequest</b> routines. The stream class driver handles the different request types as listed in the following table.
 
@@ -117,7 +117,7 @@ KSPROPERTY_TYPE_GET
 
 </td>
 <td>
-If <b>GetSupported</b> is <b>TRUE</b>, the stream class driver submits an <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-device-property">SRB_GET_DEVICE_PROPERTY</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-stream-property">SRB_GET_STREAM_PROPERTY</a> request to the appropriate minidriver <b>StrMiniReceiveXXXRequest</b> routine.
+If <b>GetSupported</b> is <b>TRUE</b>, the stream class driver submits an <a href="/windows-hardware/drivers/stream/srb-get-device-property">SRB_GET_DEVICE_PROPERTY</a> or <a href="/windows-hardware/drivers/stream/srb-get-stream-property">SRB_GET_STREAM_PROPERTY</a> request to the appropriate minidriver <b>StrMiniReceiveXXXRequest</b> routine.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ KSPROPERTY_TYPE_SET
 
 </td>
 <td>
-If <b>SetSupported</b> is <b>TRUE</b>, the stream class driver submits an <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-set-device-property">SRB_SET_DEVICE_PROPERTY</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-set-stream-property">SRB_SET_STREAM_PROPERTY</a> request to the appropriate minidriver <b>StrMiniReceiveXXXRequest</b> routine.
+If <b>SetSupported</b> is <b>TRUE</b>, the stream class driver submits an <a href="/windows-hardware/drivers/stream/srb-set-device-property">SRB_SET_DEVICE_PROPERTY</a> or <a href="/windows-hardware/drivers/stream/srb-set-stream-property">SRB_SET_STREAM_PROPERTY</a> request to the appropriate minidriver <b>StrMiniReceiveXXXRequest</b> routine.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ KSPROPERTY_TYPE_SETSUPPORT
 
 </td>
 <td>
-The stream class driver completes the property request IRP as STATUS_SUCCESS only if the driver supplies an entry for the property set within its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a> structure.
+The stream class driver completes the property request IRP as STATUS_SUCCESS only if the driver supplies an entry for the property set within its <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a> structure.
 
 </td>
 </tr>
@@ -174,35 +174,34 @@ The stream class driver uses the <b>Relations</b> member to determine what prope
 </table>
  
 
-If the client specifies KSPROPERTY_TYPE_DEFAULTVALUES, the driver uses the data buffer to return a description of its value type, including possibly its allowed range and default value. This flag is similar in result to KSPROPERTY_TYPE_BASICSUPPORT, except that any values returned are those that have been marked with KSPROPERTY_MEMBER_FLAG_DEFAULT in the <b>Flags</b> member of the structure <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader">KSPROPERTY_MEMBERSHEADER</a>.
+If the client specifies KSPROPERTY_TYPE_DEFAULTVALUES, the driver uses the data buffer to return a description of its value type, including possibly its allowed range and default value. This flag is similar in result to KSPROPERTY_TYPE_BASICSUPPORT, except that any values returned are those that have been marked with KSPROPERTY_MEMBER_FLAG_DEFAULT in the <b>Flags</b> member of the structure <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader">KSPROPERTY_MEMBERSHEADER</a>.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set">KSPROPERTY_SET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-device-property">SRB_GET_DEVICE_PROPERTY</a>
+<a href="/windows-hardware/drivers/stream/srb-get-device-property">SRB_GET_DEVICE_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-stream-property">SRB_GET_STREAM_PROPERTY</a>
+<a href="/windows-hardware/drivers/stream/srb-get-stream-property">SRB_GET_STREAM_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-set-device-property">SRB_SET_DEVICE_PROPERTY</a>
+<a href="/windows-hardware/drivers/stream/srb-set-device-property">SRB_SET_DEVICE_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-set-stream-property">SRB_SET_STREAM_PROPERTY</a>
-
+<a href="/windows-hardware/drivers/stream/srb-set-stream-property">SRB_SET_STREAM_PROPERTY</a>

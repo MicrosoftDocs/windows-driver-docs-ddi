@@ -52,7 +52,7 @@ The <b>QueryControllerType</b> routine gets information about the USB host contr
 
 #### - BusContext [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request.
+Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request.
 
 
 #### - HcdiOptionFlags [out]
@@ -131,5 +131,4 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a>
-
+<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v3">USB_BUS_INTERFACE_USBDI_V3</a>

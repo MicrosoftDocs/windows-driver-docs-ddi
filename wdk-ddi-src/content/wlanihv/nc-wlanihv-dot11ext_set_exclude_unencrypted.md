@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtSetExcludeUnencrypted</b> function to enable or disable the wireless
   LAN (WLAN) adapter from excluding unencrypted packets it receives while enabled for cipher
   operations.
@@ -93,13 +93,13 @@ If the WLAN adapter is enabled to exclude unencrypted packets, the station must 
 
 A call to the
     <b>Dot11ExtSetExcludeUnencrypted</b> function results in a set request of the
-    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg159162(v=winembedded.80)">
+    <a href="/previous-versions/windows/embedded/gg159162(v=winembedded.80)">
     OID_DOT11_EXCLUDE_UNENCRYPTED</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg159162(v=winembedded.80)">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
+<a href="/previous-versions/windows/embedded/gg159162(v=winembedded.80)">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
 
 
 
@@ -108,4 +108,3 @@ A call to the
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-

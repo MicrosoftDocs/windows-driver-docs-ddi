@@ -53,7 +53,7 @@ The <i>EvtSerCx2ApplyConfig</i> event callback function is called by version 2 o
 ### -param Device 
 
 [in]
-A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>.
+A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>.
 
 ### -param ConnectionParameters 
 
@@ -66,9 +66,9 @@ The <i>EvtSerCx2ApplyConfig</i> function returns STATUS_SUCCESS if the call is s
 
 ## -remarks
 
-Your serial controller driver must implement this function. The driver registers the function in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a> method that finishes the initialization of the framework device object for the serial controller.
+Your serial controller driver must implement this function. The driver registers the function in the call to the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a> method that finishes the initialization of the framework device object for the serial controller.
 
-SerCx2 calls the <i>EvtSerCx2ApplyConfig</i> function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_apply_default_configuration">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> request to the serial controller.
+SerCx2 calls the <i>EvtSerCx2ApplyConfig</i> function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_apply_default_configuration">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> request to the serial controller.
 
 SerCx2 obtains the configuration parameters from the vendor-defined data field in the ACPI resource descriptor for the serial controller device. The data format that the ACPI firmware uses to store these configuration settings should be the same data format that is expected by the serial controller driver. For more information, see the description of the <i>UART serial bus connection descriptor</i> in the [ACPI 5.0 specification](https://uefi.org/specifications).
 
@@ -77,7 +77,7 @@ When a client sends an <b>IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</b> request t
 
 #### Examples
 
-To define an <i>EvtSerCx2ApplyConfig</i> callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define an <i>EvtSerCx2ApplyConfig</i> callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define an <i>EvtSerCx2ApplyConfig</i> callback function that is named <code>MyApplyConfig</code>, use the <b>EVT_SERCX2_APPLY_CONFIG</b> function type, as shown in this code example:
 
@@ -99,7 +99,7 @@ NTSTATUS
   {...}
 ```
 
-The <b>EVT_SERCX2_APPLY_CONFIG</b> function type is defined in the Sercx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_SERCX2_APPLY_CONFIG</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
+The <b>EVT_SERCX2_APPLY_CONFIG</b> function type is defined in the Sercx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_SERCX2_APPLY_CONFIG</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 The following code example shows a partial implementation of an <i>EvtSerCx2ApplyConfig</i> function for a UART:
 
@@ -193,21 +193,20 @@ VOID
 }
 ```
 
-The pshpack1.h and poppack.h header files in the preceding code example control the structure alignment mode used by the compiler. The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR pointer types are pointers to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/reshub/ns-reshub-_rh_query_connection_properties_output_buffer">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/reshub/ns-reshub-_pnp_serial_bus_descriptor">PNP_SERIAL_BUS_DESCRIPTOR</a> structures. For more information about the members of the <b>PNP_UART_SERIAL_BUS_DESCRIPTOR</b> structure, see Table 6-193 in the [ACPI 5.0 specification](https://uefi.org/specifications).
+The pshpack1.h and poppack.h header files in the preceding code example control the structure alignment mode used by the compiler. The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR pointer types are pointers to <a href="/windows-hardware/drivers/ddi/reshub/ns-reshub-_rh_query_connection_properties_output_buffer">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a> and <a href="/windows-hardware/drivers/ddi/reshub/ns-reshub-_pnp_serial_bus_descriptor">PNP_SERIAL_BUS_DESCRIPTOR</a> structures. For more information about the members of the <b>PNP_UART_SERIAL_BUS_DESCRIPTOR</b> structure, see Table 6-193 in the [ACPI 5.0 specification](https://uefi.org/specifications).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_apply_default_configuration">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_apply_default_configuration">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/reshub/ns-reshub-_pnp_serial_bus_descriptor">PNP_SERIAL_BUS_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/reshub/ns-reshub-_pnp_serial_bus_descriptor">PNP_SERIAL_BUS_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/reshub/ns-reshub-_rh_query_connection_properties_output_buffer">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/reshub/ns-reshub-_rh_query_connection_properties_output_buffer">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2initializedevice">SerCx2InitializeDevice</a>

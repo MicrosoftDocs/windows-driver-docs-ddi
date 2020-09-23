@@ -48,7 +48,7 @@ api_name:
 
 This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins.
 
-Use [IPrintOemUni::SendFontCmd](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd) instead.
+Use [IPrintOemUni::SendFontCmd](../prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd.md) instead.
 
 ## -parameters
 
@@ -57,4 +57,3 @@ Use [IPrintOemUni::SendFontCmd](https://docs.microsoft.com/windows-hardware/driv
 ### -param pUFObj
 
 ### -param pFInv
-

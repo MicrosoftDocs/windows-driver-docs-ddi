@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_rf_discovery_config">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
+The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the <a href="/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_rf_discovery_config">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
 
 ## -parameters
 
@@ -58,9 +58,8 @@ A pointer to the NFC_CX_RF_DISCOVERY_CONFIG structure that the function initiali
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

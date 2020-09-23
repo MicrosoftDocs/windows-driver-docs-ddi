@@ -53,12 +53,12 @@ The <b>PsCreateSystemThread</b> routine creates a system thread that executes in
 ### -param ThreadHandle 
 
 [out]
-Points to a variable that will receive the handle. The driver must close the handle with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> once the handle is no longer in use. This handle is a kernel handle for Windows Vista and later versions of Windows. In earlier versions of Windows, the handle might not be a kernel handle.
+Points to a variable that will receive the handle. The driver must close the handle with <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> once the handle is no longer in use. This handle is a kernel handle for Windows Vista and later versions of Windows. In earlier versions of Windows, the handle might not be a kernel handle.
 
 ### -param DesiredAccess 
 
 [in]
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the requested types of access to the created thread.
+Specifies the <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the requested types of access to the created thread.
 
 ### -param ObjectAttributes 
 
@@ -78,7 +78,7 @@ Points to a structure that receives the client identifier of the new thread. Thi
 ### -param StartRoutine 
 
 [in]
-The entry point for the newly created system thread. This parameter is a function pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a> routine that receives a single argument, which is the <i>StartContext</i> parameter value supplied by the caller.
+The entry point for the newly created system thread. This parameter is a function pointer to a <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a> routine that receives a single argument, which is the <i>StartContext</i> parameter value supplied by the caller.
 
 ### -param StartContext 
 
@@ -106,31 +106,30 @@ InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NUL
 
 Drivers for Windows 2000 and Windows 98/Me must call <b>PsCreateSystemThread</b> only from the system process context.
 
-For more information about the <i>StartContext</i> parameter, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a>.
+For more information about the <i>StartContext</i> parameter, see <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a>.
 
- The newly created system thread runs at PASSIVE_LEVEL inside a critical region with <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> disabled.
+ The newly created system thread runs at PASSIVE_LEVEL inside a critical region with <a href="/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetbaseprioritythread">KeSetBasePriorityThread</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesetbaseprioritythread">KeSetBasePriorityThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetprioritythread">KeSetPriorityThread</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetprioritythread">KeSetPriorityThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread">PsTerminateSystemThread</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread">PsTerminateSystemThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kstart_routine">ThreadStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetinformationthread">ZwSetInformationThread</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwsetinformationthread">ZwSetInformationThread</a>

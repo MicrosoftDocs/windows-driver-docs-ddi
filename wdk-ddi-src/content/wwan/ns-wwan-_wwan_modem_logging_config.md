@@ -58,11 +58,11 @@ The segment size, in kilobytes (KB), for each fragment sent by the modem. If the
 
 ### -field MaxFlushTime
 
-The time, in milliseconds, indicating the maximum time the modem waits before sending a log fragment. If the logs collected don't reach **MaxSegmentSize** within the **MaxFlushTime** duration since the last log fragment was sent, then a log fragment is sent regardless of its size. If there is no logging data, then no notification is sent. If the device cannot handle smaller flush times, then the device returns the time that it can handle in the response. The response to an [OID_WWAN_MODEM_LOGGING_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-logging-config) Query or Set request contains the currently configured **MaxFlushTime**.
+The time, in milliseconds, indicating the maximum time the modem waits before sending a log fragment. If the logs collected don't reach **MaxSegmentSize** within the **MaxFlushTime** duration since the last log fragment was sent, then a log fragment is sent regardless of its size. If there is no logging data, then no notification is sent. If the device cannot handle smaller flush times, then the device returns the time that it can handle in the response. The response to an [OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config) Query or Set request contains the currently configured **MaxFlushTime**.
 
 ### -field LevelConfig
 
-A [**WWAN_MODEM_LOGGING_LEVEL_CONFIG**](../wwan/ne-wwan-_wwan_modem_logging_level_config.md) value that configures the level for which logs are collected. The response to an [OID_WWAN_MODEM_LOGGING_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-logging-config) Query or Set request contains the currently configured **LevelConfig**.
+A [**WWAN_MODEM_LOGGING_LEVEL_CONFIG**](../wwan/ne-wwan-_wwan_modem_logging_level_config.md) value that configures the level for which logs are collected. The response to an [OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config) Query or Set request contains the currently configured **LevelConfig**.
 
 ## -remarks
 
@@ -70,9 +70,8 @@ This structure is used in the [**NDIS_WWAN_MODEM_LOGGING_CONFIG**](../ndiswwan/n
 
 ## -see-also
 
-[MB modem logging with DSS](https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-logging-with-dss)
+[MB modem logging with DSS](/windows-hardware/drivers/network/mb-modem-logging-with-dss)
 
-[OID_WWAN_MODEM_LOGGING_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-logging-config)
+[OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config)
 
 [**NDIS_WWAN_MODEM_LOGGING_CONFIG**](../ndiswwan/ns-ndiswwan-_ndis_wwan_modem_logging_config.md)
-

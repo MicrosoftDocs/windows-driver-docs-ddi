@@ -53,7 +53,7 @@ NDIS calls the  <i>MiniportIdleNotification</i> handler function to start the ND
 ### -param MiniportAdapterContext 
 
 [in]
-A handle to a context area that the miniport driver allocated in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for a network adapter.
+A handle to a context area that the miniport driver allocated in its <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for a network adapter.
 
 ### -param ForceIdle 
 
@@ -78,9 +78,9 @@ For more information about the <i>ForceIdle</i> parameter, see the Remarks secti
 </dl>
 </td>
 <td width="60%">
-The miniport driver successfully handled the idle notification. The notification is left in a pending state until the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a>.
+The miniport driver successfully handled the idle notification. The notification is left in a pending state until the miniport driver calls <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a>.
 
-<div class="alert"><b>Note</b>  The miniport driver must not return NDIS_STATUS_SUCCESS from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_idle_notification">MiniportIdleNotification</a>.
+<div class="alert"><b>Note</b>  The miniport driver must not return NDIS_STATUS_SUCCESS from <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_idle_notification">MiniportIdleNotification</a>.
 </div>
 <div> </div>
 </td>
@@ -95,7 +95,7 @@ The miniport driver successfully handled the idle notification. The notification
 
        The miniport driver vetoed the idle notification because the network adapter is still being used.
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_idle_notification">MiniportIdleNotification</a> must not return this status code if the <i>ForceIdle</i> parameter is set to <b>TRUE</b>.</div>
+<div class="alert"><b>Note</b>  <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_idle_notification">MiniportIdleNotification</a> must not return this status code if the <i>ForceIdle</i> parameter is set to <b>TRUE</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -114,13 +114,13 @@ The miniport driver could not issue a bus-specific IRP successfully.
 
 ## -remarks
 
-The <i>MiniportIdleNotification</i> handler function is required for miniport drivers that support the NDIS selective suspend interface. For more information about how the driver registers its selective suspend handler functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-ndis-selective-suspend-handler-functions">Registering NDIS Selective Suspend Handler Functions</a>.
+The <i>MiniportIdleNotification</i> handler function is required for miniport drivers that support the NDIS selective suspend interface. For more information about how the driver registers its selective suspend handler functions, see <a href="/windows-hardware/drivers/network/registering-ndis-selective-suspend-handler-functions">Registering NDIS Selective Suspend Handler Functions</a>.
 
 NDIS sets the <i>ForceIdle</i> parameter to <b>FALSE</b> when the network adapter has been inactive for longer than the idle time-out period. Therefore, NDIS <i>selectively suspends</i> only the network adapter.
 
 
 
-The duration of the idle time-out period is specified by the value of the <b>*SSIdleTimeout</b> INF keyword. For more information about this keyword, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/standardized-inf-keywords-for-ndis-selective-suspend">Standardized INF Keywords for NDIS Selective Suspend</a>. 
+The duration of the idle time-out period is specified by the value of the <b>*SSIdleTimeout</b> INF keyword. For more information about this keyword, see <a href="/windows-hardware/drivers/network/standardized-inf-keywords-for-ndis-selective-suspend">Standardized INF Keywords for NDIS Selective Suspend</a>. 
 
 
 
@@ -150,20 +150,20 @@ The underlying adapter signals a wake-up event, such as receiving a packet that 
 
 </li>
 </ul>
-NDIS cancels the idle notification by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_idle_notification">MiniportCancelIdleNotification</a>. When this handler function is called, the miniport driver cancels any bus-specific IRPs that it may have previously issued for the idle notification. 
-Finally, the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a> to complete the idle notification.
+NDIS cancels the idle notification by calling <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_idle_notification">MiniportCancelIdleNotification</a>. When this handler function is called, the miniport driver cancels any bus-specific IRPs that it may have previously issued for the idle notification. 
+Finally, the miniport driver calls <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a> to complete the idle notification.
 
 </li>
 <li>
  After the network adapter is in a low-power state, the miniport driver can complete the idle notification itself in order to resume the adapter to a full-power state. The reasons for doing this are specific to the design and requirements of the driver and adapter. 
 
-The miniport driver completes the idle notification  by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a>. For more information about how the miniport driver completes the idle notification, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/completing-the-ndis-selective-suspend-idle-notification">Completing the NDIS Selective Suspend Idle Notification</a>.
+The miniport driver completes the idle notification  by calling <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a>. For more information about how the miniport driver completes the idle notification, see <a href="/windows-hardware/drivers/network/completing-the-ndis-selective-suspend-idle-notification">Completing the NDIS Selective Suspend Idle Notification</a>.
 
 </li>
 </ul>
-For more information on how to handle idle notifications for NDIS selective suspend, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-the-ndis-selective-suspend-idle-notification">Handling the NDIS Selective Suspend Idle Notification</a>.
+For more information on how to handle idle notifications for NDIS selective suspend, see <a href="/windows-hardware/drivers/network/handling-the-ndis-selective-suspend-idle-notification">Handling the NDIS Selective Suspend Idle Notification</a>.
 
-For guidelines on how to implement the <i>MiniportIdleNotification</i> handler function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/implementing-a-miniportidlenotification-handler-function">Implementing a MiniportIdleNotification Handler Function</a>.
+For guidelines on how to implement the <i>MiniportIdleNotification</i> handler function, see <a href="/windows-hardware/drivers/network/implementing-a-miniportidlenotification-handler-function">Implementing a MiniportIdleNotification Handler Function</a>.
 
 ## -see-also
 
@@ -171,9 +171,8 @@ For guidelines on how to implement the <i>MiniportIdleNotification</i> handler f
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_idle_notification">MiniportCancelIdleNotification</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_idle_notification">MiniportCancelIdleNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismidlenotificationcomplete">NdisMIdleNotificationComplete</a>

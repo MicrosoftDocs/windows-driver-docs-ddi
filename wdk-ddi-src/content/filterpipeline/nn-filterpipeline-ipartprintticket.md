@@ -50,5 +50,4 @@ The <b>IPartPrintTicket</b> interface is the abstraction for a print ticket in a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>
-
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>

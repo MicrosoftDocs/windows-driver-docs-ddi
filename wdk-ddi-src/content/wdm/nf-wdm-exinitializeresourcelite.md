@@ -69,41 +69,40 @@ Call <b>ExDeleteResourceLite</b> before freeing the memory for the resource.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544351">ExAcquireResourceExclusiveLite</a>
+<a href="/previous-versions/ff544351(v=vs.85)">ExAcquireResourceExclusiveLite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544363">ExAcquireResourceSharedLite</a>
+<a href="/previous-versions/ff544363(v=vs.85)">ExAcquireResourceSharedLite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544367">ExAcquireSharedStarveExclusive</a>
+<a href="/previous-versions/ff544367(v=vs.85)">ExAcquireSharedStarveExclusive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544370">ExAcquireSharedWaitForExclusive</a>
+<a href="/previous-versions/ff544370(v=vs.85)">ExAcquireSharedWaitForExclusive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544558">ExConvertExclusiveToSharedLite</a>
+<a href="/previous-versions/ff544558(v=vs.85)">ExConvertExclusiveToSharedLite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeleteresourcelite">ExDeleteResourceLite</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeleteresourcelite">ExDeleteResourceLite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredsharedlite">ExIsResourceAcquiredSharedLite</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredsharedlite">ExIsResourceAcquiredSharedLite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreinitializeresourcelite">ExReinitializeResourceLite</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exreinitializeresourcelite">ExReinitializeResourceLite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545585">ExReleaseResourceForThreadLite</a>
-
+<a href="/previous-versions/ff545585(v=vs.85)">ExReleaseResourceForThreadLite</a>

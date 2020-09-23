@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-hardware-priorities).
+The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information about IRQLs, see [Managing Hardware Priorities](/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
 ## -returns
 
@@ -54,17 +54,16 @@ The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information ab
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlockatdpclevel">KeAcquireSpinLockAtDpcLevel</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlockatdpclevel">KeAcquireSpinLockAtDpcLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql">KeLowerIrql</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql">KeLowerIrql</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keraiseirql">KeRaiseIrql</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keraiseirql">KeRaiseIrql</a>
 
 
  
-[Managing Hardware Priorities](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-hardware-priorities)
-
+[Managing Hardware Priorities](/windows-hardware/drivers/kernel/managing-hardware-priorities)

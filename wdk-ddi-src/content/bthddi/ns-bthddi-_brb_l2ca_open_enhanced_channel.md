@@ -53,7 +53,7 @@ The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an enhanced L2CAP 
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field ChannelHandle
@@ -449,7 +449,7 @@ If set, the callback routine will be called when the profile driver receives an 
 ### -field Callback
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback_enhanced">Enhanced L2CAP Callback
+     <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback_enhanced">Enhanced L2CAP Callback
      Function</a> implemented by the profile driver, that the Bluetooth driver stack should call to notify
      the profile driver about any changes to the enhanced L2CAP connection.
 
@@ -461,14 +461,14 @@ The context to pass to the callback function specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a> and 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> for which to
+     <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a> and 
+     <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
 ### -field OutResults
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results_enhanced">CHANNEL_CONFIG_RESULTS_ENHANCED</a> structure that
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results_enhanced">CHANNEL_CONFIG_RESULTS_ENHANCED</a> structure that
      contains configuration parameters negotiated for the outbound request.
 
 ### -field InResults
@@ -488,7 +488,7 @@ Reserved member. Do not use.
 #### - ( unnamed struct )
 
 A 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+      <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
       about the current BRB.
 
 
@@ -597,4 +597,3 @@ For the <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> BRB, this member contains the resp
 
 Profile drivers can use `CM_BASIC | CM_RETRANSMISSION_AND_FLOW`, or `CM_BASIC | CM_STREAMING` modes for the <b>Flags</b> member. This indicates to open an enhanced retransmission mode, or streaming mode channel if possible, and if not fall back to basic mode channel. 
 A value of `CM_RETRANSMISSION_AND_FLOW | CM_STREAMING` is not supported.
-

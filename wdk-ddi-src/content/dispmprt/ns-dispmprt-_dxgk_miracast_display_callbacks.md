@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Wireless display (Miracast) display callback interface</a> that the display miniport driver can call to send messages and report encode chunk info.
+Contains pointers to functions in the <a href="/windows-hardware/drivers/ddi/index">Wireless display (Miracast) display callback interface</a> that the display miniport driver can call to send messages and report encode chunk info.
 
 ## -struct-fields
 
@@ -60,17 +60,16 @@ A driver-supplied handle to the Miracast display device.
 
 ### -field DxgkCbMiracastSendMessage
 
-A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message">DxgkCbMiracastSendMessage</a> function.
+A pointer to the display port driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message">DxgkCbMiracastSendMessage</a> function.
 
 ### -field DxgkCbReportChunkInfo
 
-A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_report_chunk_info">DxgkCbReportChunkInfo</a> function.
+A pointer to the display port driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_report_chunk_info">DxgkCbReportChunkInfo</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message">DxgkCbMiracastSendMessage</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_send_message">DxgkCbMiracastSendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_report_chunk_info">DxgkCbReportChunkInfo</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_miracast_report_chunk_info">DxgkCbReportChunkInfo</a>

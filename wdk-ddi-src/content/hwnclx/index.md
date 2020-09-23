@@ -23,5 +23,4 @@ This header defines programming interfaces required to provide  hardware-agnosti
 
 For more information, see:
 
-- [Hardware notifications design guide](https://docs.microsoft.com/windows-hardware/drivers/gpiobtn)
-
+- [Hardware notifications design guide](/windows-hardware/drivers/gpiobtn)

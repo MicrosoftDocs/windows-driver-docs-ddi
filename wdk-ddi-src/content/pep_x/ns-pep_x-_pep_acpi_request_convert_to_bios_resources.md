@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</b> structure is used in the process of converting ACPI resources to BIOS resources by one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP initialization functions</a>.
+The <b>PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</b> structure is used in the process of converting ACPI resources to BIOS resources by one of the <a href="/windows-hardware/drivers/ddi/index">PEP initialization functions</a>.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ The result code from the resource translation call.
 
 ### -field InputBuffer
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a> containing the input buffer.
+A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a> containing the input buffer.
 
 ### -field InputBufferSize
 
@@ -76,17 +76,16 @@ The size of the output buffer.
 
 ### -field Flags
 
-The value contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a> structure.
+The value contained in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP initialization functions</a>
+<a href="/windows-hardware/drivers/ddi/index">PEP initialization functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a>

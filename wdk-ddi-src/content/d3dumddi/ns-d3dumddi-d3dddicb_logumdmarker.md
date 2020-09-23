@@ -52,7 +52,7 @@ Specifies info about the location of an Event Tracing for Windows (ETW) marker e
 
 ### -field hContext
 
-[in] A handle to a Direct3D context that signals ETW marker events. This is also the context that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a> function will be called on.
+[in] A handle to a Direct3D context that signals ETW marker events. This is also the context that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a> function will be called on.
 
 ### -field APISequenceNumber
 
@@ -60,7 +60,7 @@ The API sequence number that the marker event is associated with.
 
 ### -field Index
 
-Indicates which API sequence call caused this marker event. If zero, the marker event corresponds to the latest API sequence number after a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setmarker">pfnSetMarker</a> function. If 1, the marker event is located at the following API sequence number. And so on.
+Indicates which API sequence call caused this marker event. If zero, the marker event corresponds to the latest API sequence number after a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setmarker">pfnSetMarker</a> function. If 1, the marker event is located at the following API sequence number. And so on.
 
 Should be -1 if no time stamps are associated with this marker event.
 
@@ -74,9 +74,8 @@ A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setmarker">pfnSetMarker</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setmarker">pfnSetMarker</a>

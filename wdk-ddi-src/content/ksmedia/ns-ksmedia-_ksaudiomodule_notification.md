@@ -60,7 +60,7 @@ A structure that specifies the ProviderId of the audio module notification.
 
 ### -field ProviderId.DeviceId
 
-Specifies the DeviceId of the audio module notification. The DeviceId matches the value returned in [KSPROPERTY_AUDIOMODULE_NOTIFICATION_DEVICE_ID](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audiomodule-notification-device-id).
+Specifies the DeviceId of the audio module notification. The DeviceId matches the value returned in [KSPROPERTY_AUDIOMODULE_NOTIFICATION_DEVICE_ID](/windows-hardware/drivers/audio/ksproperty-audiomodule-notification-device-id).
 
 ### -field ProviderId.ClassId
 
@@ -95,5 +95,4 @@ DEFINE_GUIDSTRUCT("9C2220F0-D9A6-4D5C-A036-573857FD50D2", KSNOTIFICATIONID_Audio
 #define KSNOTIFICATIONID_AudioModule DEFINE_GUIDNAMED(KSNOTIFICATIONID_AudioModule)
 ```
 
-For more information about audio modules, see [Implementing Audio Module Discovery](https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication).
-
+For more information about audio modules, see [Implementing Audio Module Discovery](/windows-hardware/drivers/audio/implementing-audio-module-communication).

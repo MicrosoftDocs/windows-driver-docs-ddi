@@ -58,24 +58,24 @@ Profile drivers implement a SCO callback function to provide the Bluetooth drive
 For incoming remote connection request indications, this is the context specified by the profile
      driver in the 
      <b>IndicationCallbackContext</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_register_server">_BRB_SCO_REGISTER_SERVER</a> structure
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_register_server">_BRB_SCO_REGISTER_SERVER</a> structure
      when the profile driver registered the callback function. For changes to existing SCO connections, this
      is the 
      <b>CallbackContext</b> member specified by the profile driver when it built and sent a 
-     <a href="https://docs.microsoft.com/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a> BRB.
+     <a href="/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a> BRB.
 
 ### -param Indication 
 
 [in]
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_indication_code">SCO_INDICATION_CODE</a> value that indicates
+     <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_indication_code">SCO_INDICATION_CODE</a> value that indicates
      the type of SCO event.
 
 ### -param Parameters 
 
 [in]
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">
      SCO_INDICATION_PARAMETERS</a> structure that contains parameter information based on the value passed
      to the 
      <i>Indication</i> parameter.
@@ -92,7 +92,7 @@ The
 In the first case, the profile driver acts as a server and must register this callback function
     through the 
     <b>IndicationCallback</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_register_server">_BRB_SCO_REGISTER_SERVER</a> structure.
+    <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_register_server">_BRB_SCO_REGISTER_SERVER</a> structure.
     The Bluetooth driver stack can then call this function to notify the profile driver when a remote device
     attempts to contact it.
 
@@ -100,9 +100,9 @@ In the second case, the profile driver acts as a client and attempts to connect 
     using the <b>BRB_SCO_OPEN_CHANNEL</b> BRB. The 
     <i>PFNSCO_INDICATION_CALLBACK</i> callback function is registered through the 
     <b>Callback</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_open_channel">_BRB_SCO_OPEN_CHANNEL</a> structure passed
+    <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_open_channel">_BRB_SCO_OPEN_CHANNEL</a> structure passed
     with the specified BRB when one of them is submitted through 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">
     IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>.
 
 After it is registered, the callback function is only associated with the channel that the BRB opened,
@@ -118,21 +118,20 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a>
+<a href="/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_indication_code">SCO_INDICATION_CODE</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_indication_code">SCO_INDICATION_CODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_register_server">_BRB_SCO_REGISTER_SERVER</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_register_server">_BRB_SCO_REGISTER_SERVER</a>

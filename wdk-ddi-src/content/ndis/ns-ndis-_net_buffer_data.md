@@ -52,7 +52,7 @@ api_name:
 
 The NET_BUFFER_DATA structure contains information for managing the data buffers that are attached to
   a NET_BUFFER structure, and it identifies the next 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure in a list of NET_BUFFER
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure in a list of NET_BUFFER
   structures.
 
 ## -struct-fields
@@ -92,37 +92,37 @@ The offset, in bytes, from the beginning of the MDL chain to the beginning of th
 ## -remarks
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a> structure contains a
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a> structure contains a
     NET_BUFFER_DATA structure that defines data for the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. To access the members of
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. To access the members of
     NET_BUFFER_DATA, use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
     NdisRetreatNetBufferDataStart</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
     NdisAdvanceNetBufferDataStart</a> functions, and the following macros:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-next-nb">NET_BUFFER_NEXT_NB</a>
+<a href="/windows-hardware/drivers/network/net-buffer-next-nb">NET_BUFFER_NEXT_NB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-first-mdl">NET_BUFFER_FIRST_MDL</a>
+<a href="/windows-hardware/drivers/network/net-buffer-first-mdl">NET_BUFFER_FIRST_MDL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-data-offset">NET_BUFFER_DATA_OFFSET</a>
+<a href="/windows-hardware/drivers/network/net-buffer-data-offset">NET_BUFFER_DATA_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-data-length">NET_BUFFER_DATA_LENGTH</a>
+<a href="/windows-hardware/drivers/network/net-buffer-data-length">NET_BUFFER_DATA_LENGTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-current-mdl">NET_BUFFER_CURRENT_MDL</a>
+<a href="/windows-hardware/drivers/network/net-buffer-current-mdl">NET_BUFFER_CURRENT_MDL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-current-mdl-offset">
+<a href="/windows-hardware/drivers/network/net-buffer-current-mdl-offset">
        NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
@@ -132,43 +132,42 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-current-mdl">NET_BUFFER_CURRENT_MDL</a>
+<a href="/windows-hardware/drivers/network/net-buffer-current-mdl">NET_BUFFER_CURRENT_MDL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-current-mdl-offset">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+<a href="/windows-hardware/drivers/network/net-buffer-current-mdl-offset">NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-data-length">NET_BUFFER_DATA_LENGTH</a>
+<a href="/windows-hardware/drivers/network/net-buffer-data-length">NET_BUFFER_DATA_LENGTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-data-offset">NET_BUFFER_DATA_OFFSET</a>
+<a href="/windows-hardware/drivers/network/net-buffer-data-offset">NET_BUFFER_DATA_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-first-mdl">NET_BUFFER_FIRST_MDL</a>
+<a href="/windows-hardware/drivers/network/net-buffer-first-mdl">NET_BUFFER_FIRST_MDL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-next-nb">NET_BUFFER_NEXT_NB</a>
+<a href="/windows-hardware/drivers/network/net-buffer-next-nb">NET_BUFFER_NEXT_NB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
    NdisAdvanceNetBufferDataStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
    NdisRetreatNetBufferDataStart</a>
-

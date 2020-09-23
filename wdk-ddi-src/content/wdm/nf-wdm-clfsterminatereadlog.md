@@ -54,7 +54,7 @@ The <b>ClfsTerminateReadLog</b> routine invalidates a specified read context aft
 ### -param pvCursorContext 
 
 [in]
-A pointer to the read context to be invalidated. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord">ClfsReadLogRecord</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>.
+A pointer to the read context to be invalidated. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord">ClfsReadLogRecord</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>.
 
 ## -returns
 
@@ -66,13 +66,12 @@ A pointer to the read context to be invalidated. The caller previously obtained 
 
 </div>
 <div> </div>
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord">ClfsReadLogRecord</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadlogrecord">ClfsReadLogRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>

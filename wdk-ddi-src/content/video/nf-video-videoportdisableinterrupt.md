@@ -64,7 +64,7 @@ If <b>VideoPortDisableInterrupt</b> succeeds, it returns NO_ERROR. Otherwise, it
 
 If you need to disable interrupts for the display adapter, write hardware-specific code to prevent the display adapter from generating interrupts. To subsequently enable interrupts, write hardware-specific code to allow the display adapter to resume generating interrupts.
 
-You should not call <b>VideoPortDisableInterrupt</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportenableinterrupt">VideoPortEnableInterrupt</a> for the following reasons:
+You should not call <b>VideoPortDisableInterrupt</b> or <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportenableinterrupt">VideoPortEnableInterrupt</a> for the following reasons:
 
 <ul>
 <li>
@@ -80,21 +80,20 @@ On a multiprocessor computer, a call to <b>VideoPortEnableInterrupt</b> might ru
 
 </li>
 </ul>
-If the video miniport driver has not registered an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortDisableInterrupt</b> returns ERROR_INVALID_FUNCTION.
+If the video miniport driver has not registered an <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortDisableInterrupt</b> returns ERROR_INVALID_FUNCTION.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportenableinterrupt">VideoPortEnableInterrupt</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportenableinterrupt">VideoPortEnableInterrupt</a>

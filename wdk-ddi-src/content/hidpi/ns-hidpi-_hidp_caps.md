@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The HIDP_CAPS structure contains information about a top-level <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/collection-capability">collection's capability</a>.
+The HIDP_CAPS structure contains information about a top-level <a href="/windows-hardware/drivers/hid/collection-capability">collection's capability</a>.
 
 ## -struct-fields
 
 ### -field Usage
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage ID</a>.
+Specifies a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="/windows-hardware/drivers/hid/hid-usages">usage ID</a>.
 
 ### -field UsagePage
 
-Specifies the top-level collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a>.
+Specifies the top-level collection's <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a>.
 
 ### -field InputReportByteLength
 
@@ -80,19 +80,19 @@ Reserved for internal system use.
 
 ### -field NumberLinkCollectionNodes
 
-Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_link_collection_node">HIDP_LINK_COLLECTION_NODE</a> structures that are returned for this top-level collection by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a>.
+Specifies the number of <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_link_collection_node">HIDP_LINK_COLLECTION_NODE</a> structures that are returned for this top-level collection by <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a>.
 
 ### -field NumberInputButtonCaps
 
-Specifies the number of input <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps">HIDP_BUTTON_CAPS</a> structures that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a> returns.
+Specifies the number of input <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps">HIDP_BUTTON_CAPS</a> structures that <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a> returns.
 
 ### -field NumberInputValueCaps
 
-Specifies the number of input <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a> structures that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a> returns.
+Specifies the number of input <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a> structures that <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a> returns.
 
 ### -field NumberInputDataIndices
 
-Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/data-indices">data indices</a> assigned to buttons and values in all input reports.
+Specifies the number of <a href="/windows-hardware/drivers/hid/data-indices">data indices</a> assigned to buttons and values in all input reports.
 
 ### -field NumberOutputButtonCaps
 
@@ -120,41 +120,40 @@ Specifies the number of data indices assigned to buttons and values in all featu
 
 ## -remarks
 
-Callers of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">HIDClass support routines</a> use the information provided in this structure when a called routine requires, as input, the size of a report type, the number of link collection nodes, the number of control capabilities, or the number of data indices.
+Callers of the <a href="/windows-hardware/drivers/ddi/index">HIDClass support routines</a> use the information provided in this structure when a called routine requires, as input, the size of a report type, the number of link collection nodes, the number of control capabilities, or the number of data indices.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps">HIDP_BUTTON_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_link_collection_node">HIDP_LINK_COLLECTION_NODE</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_link_collection_node">HIDP_LINK_COLLECTION_NODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps">HidP_GetSpecificButtonCaps</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps">HidP_GetSpecificButtonCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps">HidP_GetSpecificValueCaps</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps">HidP_GetSpecificValueCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a>
-
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a>

@@ -62,5 +62,4 @@ If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l1
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag2">IPrinterScriptablePropertyBag2</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag2">IPrinterScriptablePropertyBag2</a>

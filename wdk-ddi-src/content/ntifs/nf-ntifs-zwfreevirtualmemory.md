@@ -61,7 +61,7 @@ A handle for the process in whose context the pages to be freed reside. Use the 
 [in, out]
 A pointer to a variable that will receive the virtual address of the freed region of pages. 
 
-If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>BaseAddress</i> must be the base address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> when the region was reserved.
+If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>BaseAddress</i> must be the base address returned by <a href="/previous-versions/ff566416(v=vs.85)">ZwAllocateVirtualMemory</a> when the region was reserved.
 
 ### -param RegionSize 
 
@@ -120,7 +120,7 @@ MEM_RELEASE
 <td>
 <b>ZwFreeVirtualMemory</b> will release the specified region of pages. The pages enter the free state.
 
-If you specify this flag, *<i>RegionSize</i> must be zero, and <i>BaseAddress </i>must point to the base address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> when the region was reserved. <b>ZwFreeVirtualMemory</b> fails if either of these conditions is not met.
+If you specify this flag, *<i>RegionSize</i> must be zero, and <i>BaseAddress </i>must point to the base address returned by <a href="/previous-versions/ff566416(v=vs.85)">ZwAllocateVirtualMemory</a> when the region was reserved. <b>ZwFreeVirtualMemory</b> fails if either of these conditions is not met.
 
 If any pages in the region are currently committed, <b>ZwFreeVirtualMemory</b> first decommits and then releases them.
 
@@ -219,7 +219,7 @@ The system initializes and loads each committed page into physical memory only a
 
 When a process terminates, the system releases all storage for committed pages.
 
-You can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> to put committed memory pages into either the reserved or free state.
+You can use <a href="/previous-versions/ff566416(v=vs.85)">ZwAllocateVirtualMemory</a> to put committed memory pages into either the reserved or free state.
 
 </td>
 </tr>
@@ -246,21 +246,20 @@ Decommit and release a region of committed or uncommitted pages. After this oper
 
 If a page is decommitted but not released, its state changes to reserved. You can subsequently call <b>ZwAllocateVirtualMemory</b> to commit it, or <b>ZwFreeVirtualMemory</b> to release it. Attempting to read from or write to a reserved page results in an access violation exception.
 
-<b>ZwFreeVirtualMemory</b> can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> must be released at the same time.
+<b>ZwFreeVirtualMemory</b> can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by <a href="/previous-versions/ff566416(v=vs.85)">ZwAllocateVirtualMemory</a> must be released at the same time.
 
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory has been released or decommitted, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempting to read from or write to a free page results in an access violation exception. If you require information, do not decommit or free memory that contains that information.
 
-For more information about memory management support for kernel-mode drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-memory-for-drivers">Memory Management for Windows Drivers</a>.
+For more information about memory management support for kernel-mode drivers, see <a href="/windows-hardware/drivers/kernel/managing-memory-for-drivers">Memory Management for Windows Drivers</a>.
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwFreeVirtualMemory</b> function occurs in user mode, you should use the name "<b>NtFreeVirtualMemory</b>" instead of "<b>ZwFreeVirtualMemory</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a>
-
+<a href="/previous-versions/ff566416(v=vs.85)">ZwAllocateVirtualMemory</a>

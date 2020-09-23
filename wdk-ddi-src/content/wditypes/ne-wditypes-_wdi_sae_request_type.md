@@ -60,11 +60,10 @@ Request SAE authentication parameters succeeded.
 
 ## -remarks
 
-This enumeration is a value in the [OID_WDI_SET_SAE_AUTH_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params) command.
+This enumeration is a value in the [OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params) command.
 
 ## -see-also
 
-[WPA3-SAE Authentication](https://docs.microsoft.com/windows-hardware/drivers/network/wpa3-sae-authentication)
+[WPA3-SAE Authentication](/windows-hardware/drivers/network/wpa3-sae-authentication)
 
-[OID_WDI_SET_SAE_AUTH_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params)
-
+[OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params)

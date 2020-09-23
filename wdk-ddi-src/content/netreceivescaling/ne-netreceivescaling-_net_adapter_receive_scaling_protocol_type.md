@@ -76,5 +76,4 @@ The **ReceiveScalingProtocolTypes** member of the [NET_ADAPTER_RECEIVE_SCALING_C
 
 ## -see-also
 
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
-
+[NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)

@@ -53,7 +53,7 @@ api_name:
 ### -param HwDeviceExtension 
 
 [in]
-Pointer to the miniport driver's hardware device extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
+Pointer to the miniport driver's hardware device extension. For more information, see <a href="/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
 ### -param Context 
 
@@ -62,11 +62,10 @@ Contains any miniport driver-supplied data this function may need. <i>Context</i
 
 ## -remarks
 
-The miniport driver queues this DPC by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>.
+The miniport driver queues this DPC by calling <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>.
 
 Because <i>HwVidDpcRoutine </i>is called at DISPATCH_LEVEL, it must not manipulate any pageable code or data. Further, this function must be in nonpaged memory and should complete its operations as quickly as possible.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>

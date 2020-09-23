@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Callback functions of the type <b>PDEBUG_EXTENSION_CALL</b> are called by the engine to execute <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/anatomy-of-a-dbgeng-extension-dll">extension commands</a>. You can give these functions any name you want, as long as it contains no uppercase letters.
+Callback functions of the type <b>PDEBUG_EXTENSION_CALL</b> are called by the engine to execute <a href="/windows-hardware/drivers/debugger/anatomy-of-a-dbgeng-extension-dll">extension commands</a>. You can give these functions any name you want, as long as it contains no uppercase letters.
 
 ## -parameters
 
@@ -96,7 +96,7 @@ All other return values are ignored by the engine.
 
 ## -remarks
 
-The name of the function becomes the name of the extension command.  When executing an extension command, the engine searches through each of the loaded extension DLLs in turn, looking for an exported function that has the same name as the command.  For example, when executing the command <b>!stack</b>, the engine will look for an exported function named <b>stack</b> in each loaded extension DLL. For information about the order in which extension DLLs are searched, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-debugger-extension-commands">Using Debugger Extension Commands</a>.
+The name of the function becomes the name of the extension command.  When executing an extension command, the engine searches through each of the loaded extension DLLs in turn, looking for an exported function that has the same name as the command.  For example, when executing the command <b>!stack</b>, the engine will look for an exported function named <b>stack</b> in each loaded extension DLL. For information about the order in which extension DLLs are searched, see <a href="/windows-hardware/drivers/debugger/using-debugger-extension-commands">Using Debugger Extension Commands</a>.
 
 The extension function should use the client that was passed to it in <i>Client</i> for all interaction with the engine, unless it has a specific reason to use another client.  The extension function should not maintain the pointer to the client object after it has finished.
 
@@ -104,5 +104,4 @@ DebugExtensionCall is called <b>PDEBUG_EXTENSION_CALL</b>   in the Dbgeng.h head
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>

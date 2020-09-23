@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The IDEREGISTERS structure is used to report the contents of the IDE controller registers.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -89,9 +89,8 @@ Reserved for future use. The miniport driver shall not use this field.
 
 ## -remarks
 
-The information reported in the IDEREGISTERS structure is intended to be a superset of the information contained in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>. Microsoft might expand the contents of the IDEREGISTERS structure in the future. If you need a structure whose size is stable across different versions of the operating system, you should use <b>IDEREGS</b>.
+The information reported in the IDEREGISTERS structure is intended to be a superset of the information contained in <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>. Microsoft might expand the contents of the IDEREGISTERS structure in the future. If you need a structure whose size is stable across different versions of the operating system, you should use <b>IDEREGS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>

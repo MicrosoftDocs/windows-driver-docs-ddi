@@ -52,10 +52,9 @@ IMiniportPnpNotify is an optional interface to allow miniport objects (audio sub
 IMiniportPnpNotify interface available is on both WaveRT and Topology.
 
 Miniports have an opportunity to receive a PnP Stop notification for each audio subdevice they have registered. To receive this notification, the subdevice must support IMiniportPnpNotify.
- Only the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportpnpnotify-pnpstop">IMiniportPnpNotify::PnpStop</a> notification is defined on this interface.
+ Only the <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportpnpnotify-pnpstop">IMiniportPnpNotify::PnpStop</a> notification is defined on this interface.
 
 IAdapterPnpManagement is available in Windows 10, version 1511 and later versions of Windows.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers">
+For more information, see <a href="/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers">
 Implement PnP Rebalance for PortCls Audio Drivers</a>.
-

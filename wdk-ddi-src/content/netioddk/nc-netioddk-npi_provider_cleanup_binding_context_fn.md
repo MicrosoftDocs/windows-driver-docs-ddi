@@ -58,7 +58,7 @@ A provider module's
 [in]
 A pointer to the provider module's context for the binding between the provider module and the
      client module from which it has detached. The provider module's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a> callback
+     <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a> callback
      function returns this pointer to the NMR when it attaches to the client module.
 
 ## -remarks
@@ -77,9 +77,9 @@ If the provider module does not dynamically allocate the memory for its binding 
     <i>ProviderCleanupBindingContext</i> callback function. If the provider module does not implement a 
     <i>ProviderCleanupBindingContext</i> callback function, then it must set the 
     <i>ProviderCleanupBindingContext</i> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">
+    <a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">
     NPI_PROVIDER_CHARACTERISTICS</a> structure to <b>NULL</b> when it calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function to
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function to
     register itself with the NMR.
 
 The NMR calls a provider module's 
@@ -87,17 +87,16 @@ The NMR calls a provider module's
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">NPI_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>
-
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>

@@ -59,7 +59,7 @@ A pointer to a HANDLE variable that receives a handle to the file.
 ### -param DesiredAccess 
 
 [in]
-Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
+Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
 
 <table>
 <tr>
@@ -233,17 +233,17 @@ Traverse the directory, in other words, include the directory in the path of a f
 </table>
  
 
-For more information about access rights, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.
+For more information about access rights, see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.
 
 ### -param ObjectAttributes 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+A pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 ### -param IoStatusBlock 
 
 [out]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation. In particular, the <b>Information</b> member receives one of the following values:
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and other information about the requested operation. In particular, the <b>Information</b> member receives one of the following values:
 
 <ul>
 <li>
@@ -280,7 +280,7 @@ A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes
 ### -param FileAttributes 
 
 [in]
-Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_<i>XXX</i> flags, see the <a href="https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, <i>FileAttributes</i> is ignored.
+Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_<i>XXX</i> flags, see the <a href="/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a> routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, <i>FileAttributes</i> is ignored.
 
 ### -param ShareAccess 
 
@@ -530,7 +530,7 @@ FILE_COMPLETE_IF_OPLOCKED
 
 </td>
 <td>
-Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks).
+Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks).
 
 </td>
 </tr>
@@ -550,7 +550,7 @@ FILE_OPEN_REPARSE_POINT
 
 </td>
 <td>
-Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](https://docs.microsoft.com/windows/win32/fileio/reparse-points).
+Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](/windows/win32/fileio/reparse-points).
 
 </td>
 </tr>
@@ -560,7 +560,7 @@ FILE_DELETE_ON_CLOSE
 
 </td>
 <td>
-The system deletes the file when the last handle to the file is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>. If this flag is set, the DELETE flag must be set in the <i>DesiredAccess</i> parameter.
+The system deletes the file when the last handle to the file is passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>. If this flag is set, the DELETE flag must be set in the <i>DesiredAccess</i> parameter.
 
 </td>
 </tr>
@@ -614,7 +614,7 @@ FILE_RESERVE_OPFILTER
 
 </td>
 <td>
-This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks).
+This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks).
 
 </td>
 </tr>
@@ -663,11 +663,11 @@ For device and intermediate drivers, this parameter must be zero.
 
 ## -remarks
 
-<b>ZwCreateFile</b> supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-files-in-a-driver">Using Files in a Driver</a>.
+<b>ZwCreateFile</b> supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see <a href="/windows-hardware/drivers/kernel/using-files-in-a-driver">Using Files in a Driver</a>.
 
-Once the handle pointed to by <i>FileHandle</i> is no longer in use, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> to close it.
+Once the handle pointed to by <i>FileHandle</i> is no longer in use, the driver must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> to close it.
 
-If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-handles">Object Handles</a>.
+If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="/windows-hardware/drivers/kernel/object-handles">Object Handles</a>.
 
 There are two alternate ways to specify the name of the file to be created or opened with <b>ZwCreateFile</b>:
 
@@ -727,7 +727,7 @@ The FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag prevents the file s
 
 <ul>
 <li>
-Any optional <i>ByteOffset</i> passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a> must be a multiple of the sector size.
+Any optional <i>ByteOffset</i> passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a> must be a multiple of the sector size.
 
 </li>
 <li>
@@ -735,11 +735,11 @@ The <i>Length</i> passed to <b>ZwReadFile</b> or <b>ZwWriteFile</b> must be an i
 
 </li>
 <li>
-Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call <b>ZwCreateFile</b> to get a handle for the file object that represents the physical device, and pass that handle to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>. For a list of the system's FILE_<i>XXX</i>_ALIGNMENT values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
+Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call <b>ZwCreateFile</b> to get a handle for the file object that represents the physical device, and pass that handle to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>. For a list of the system's FILE_<i>XXX</i>_ALIGNMENT values, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 </li>
 <li>
-Calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size.
+Calls to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size.
 
 </li>
 </ul>
@@ -787,58 +787,57 @@ Step three makes this practical only for Filter oplocks. The handle opened in st
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-Callers of <b>ZwCreateFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
+Callers of <b>ZwCreateFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
 
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateFile</b>" instead of "<b>ZwCreateFile</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
+<a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">ZwOpenFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
  
 
- [Opportunistic Locks](https://docs.microsoft.com/windows/win32/fileio/opportunistic-locks)
+ [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks)
 
-[Reparse Points](https://docs.microsoft.com/windows/win32/fileio/reparse-points)
-
+[Reparse Points](/windows/win32/fileio/reparse-points)

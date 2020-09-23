@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attributes of the miniport
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attributes of the miniport
   driver and 802.11 station when it operates in Extensible Access Point (ExtAP) mode.
 
 ## -struct-fields
@@ -98,7 +98,7 @@ The maximum number of service set identifiers (SSIDs) supported by the 802.11 st
 
 
 The SSID list that the 802.11 station uses for scanning is specified when
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is
+     <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is
      set.
 
 ### -field uDesiredSSIDListSize
@@ -108,7 +108,7 @@ The maximum number of entries in the desired list of basic service set identifie
 
 
 For more information about the desired BSSID list, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
+     <a href="/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">
      OID_DOT11_DESIRED_BSSID_LIST</a>.
 
 ### -field uPrivacyExemptionListSize
@@ -118,7 +118,7 @@ The maximum number of entries in the privacy exemption list supported by the 802
 
 
 For more information about the privacy exemption list, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+     <a href="/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
      OID_DOT11_PRIVACY_EXEMPTION_LIST</a>.
 
 ### -field uAssociationTableSize
@@ -129,7 +129,7 @@ The maximum number of associations that the 802.11 station can support simultane
 
 
 If the NIC supports any authentication and cipher algorithms that require
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/key-mapping-keys">key-Mapping keys</a>, it must support at least
+     <a href="/windows-hardware/drivers/network/key-mapping-keys">key-Mapping keys</a>, it must support at least
      the number of entries in its key-mapping key table.
 
 ### -field uDefaultKeyTableSize
@@ -233,7 +233,7 @@ If the 802.11 station does not support the IEEE 802.11d-2001 standard, the minip
 
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11
      station. Each entry in the array is formatted as a
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+     <a href="/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
      DOT11_COUNTRY_OR_REGION_STRING</a> structure.
 
 ### -field uInfraNumSupportedUcastAlgoPairs
@@ -295,7 +295,7 @@ typedef struct _DOT11_EXTAP_ATTRIBUTES {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 
@@ -303,7 +303,7 @@ typedef struct _DOT11_EXTAP_ATTRIBUTES {
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+<a href="/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
    DOT11_COUNTRY_OR_REGION_STRING</a>
 
 
@@ -316,14 +316,13 @@ typedef struct _DOT11_EXTAP_ATTRIBUTES {
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+<a href="/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
    OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-

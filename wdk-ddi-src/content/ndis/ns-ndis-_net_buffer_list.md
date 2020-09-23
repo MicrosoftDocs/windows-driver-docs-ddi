@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The NET_BUFFER_LIST structure specifies a linked list of 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
 ## -struct-fields
 
@@ -73,12 +73,12 @@ Reserved for NDIS.
 
 ### -field NetBufferListHeader
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_header">NET_BUFFER_LIST_HEADER</a> structure.
+A <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_header">NET_BUFFER_LIST_HEADER</a> structure.
 
 ### -field Context
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure.
+      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a> structure.
       Protocol and miniport drivers use this structure to store information about the NET_BUFFER_LIST
       structure. Information stored in the NET_BUFFER_LIST_CONTEXT structure is opaque to NDIS and other
       drivers in the stack.
@@ -86,22 +86,22 @@ A pointer to a
 Use the following functions and macros to access data in the NET_BUFFER_LIST_CONTEXT structure:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
          NdisAllocateNetBufferListContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">
          NdisFreeNetBufferListContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
          NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
          NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 ### -field ParentNetBufferList
@@ -109,7 +109,7 @@ Use the following functions and macros to access data in the NET_BUFFER_LIST_CON
 If this NET_BUFFER_LIST structure is a clone of another NET_BUFFER_LIST structure, this member
      specifies a pointer to the parent NET_BUFFER_LIST structure. Otherwise, this parameter is <b>NULL</b>. A driver
      uses the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateclonenetbufferlist">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateclonenetbufferlist">
      NdisAllocateCloneNetBufferList</a> function to create a clone.
 
 ### -field NdisPoolHandle
@@ -144,7 +144,7 @@ A handle that NDIS provided to the driver in a binding or attaching operation by
 #### Miniport Driver
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
@@ -152,7 +152,7 @@ A handle that NDIS provided to the driver in a binding or attaching operation by
 #### Protocol Driver
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
 
 
 
@@ -160,7 +160,7 @@ A handle that NDIS provided to the driver in a binding or attaching operation by
 #### Filter Driver
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 NDIS uses 
@@ -173,10 +173,10 @@ This member contains flags that can be combined with a bitwise OR operation.
      
 
 Use the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndistestnblflag">NdisTestNblFlag</a>, 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndistestnblflags">NdisTestNblFlags</a>, 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndissetnblflag">NdisSetNblFlag</a>, and 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndisclearnblflag">NdisClearNblFlag</a> macros to access the
+     <a href="/windows-hardware/drivers/network/ndistestnblflag">NdisTestNblFlag</a>, 
+     <a href="/windows-hardware/drivers/network/ndistestnblflags">NdisTestNblFlags</a>, 
+     <a href="/windows-hardware/drivers/network/ndissetnblflag">NdisSetNblFlag</a>, and 
+     <a href="/windows-hardware/drivers/network/ndisclearnblflag">NdisClearNblFlag</a> macros to access the
      flags.
 
 Intermediate drivers and filter drivers can set the following flags if they do not modify data that
@@ -272,7 +272,7 @@ Attributes of the NET_BUFFER_LIST structure. The following definitions specify a
 
 This set is reserved for protocol drivers.
 
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, two additional bits are available for protocol use: 0x00000003.  A NDIS 6.30 protocol may use these bits if and only if <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetversion">NdisGetVersion</a> returns a value greater than or equal to <b>NDIS_RUNTIME_VERSION_630</b>.  Protocols must not use these bits on earlier versions of NDIS, because prior to 6.30, NDIS uses them internally.</div>
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, two additional bits are available for protocol use: 0x00000003.  A NDIS 6.30 protocol may use these bits if and only if <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetversion">NdisGetVersion</a> returns a value greater than or equal to <b>NDIS_RUNTIME_VERSION_630</b>.  Protocols must not use these bits on earlier versions of NDIS, because prior to 6.30, NDIS uses them internally.</div>
 <div> </div>
 
 
@@ -298,7 +298,7 @@ This set is reserved for NDIS.
 
 The final completion status of a network data operation on this NET_BUFFER_LIST structure.
      Miniport drivers write this value before calling the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsendnetbufferlistscomplete">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsendnetbufferlistscomplete">
      NdisMSendNetBufferListsComplete</a> function. Miniport drivers specify one of the following values:
 
 #### NDIS_STATUS_SUCCESS
@@ -331,7 +331,7 @@ This send request for this NET_BUFFER_LIST structure failed due to some reason o
 #### NDIS_STATUS_SEND_ABORTED
 
 NDIS called the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a> function to
+       <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a> function to
        cancel the send operation for this NET_BUFFER_LIST structure.
 
 
@@ -357,9 +357,9 @@ An array of values containing information that is common to all NET_BUFFER struc
      This information is often referred to as "out-of-band (OOB) data."
 
 Use the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">
+     <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">
      NDIS_NET_BUFFER_LIST_INFO</a> enumeration values with the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro to set and
+     <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro to set and
      get values in the 
      <b>NetBufferListInfo</b> array.
 
@@ -369,26 +369,26 @@ NDIS drivers can call any of the following functions to allocate and initialize 
     structure:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlist">NdisAllocateNetBufferList</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlist">NdisAllocateNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
        NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateclonenetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateclonenetbufferlist">
        NdisAllocateCloneNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefragmentnetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefragmentnetbufferlist">
        NdisAllocateFragmentNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatereassemblednetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatereassemblednetbufferlist">
        NdisAllocateReassembledNetBufferList</a>
 
 
@@ -398,8 +398,8 @@ All NET_BUFFER structures associated with a NET_BUFFER_LIST structure have the a
     <b>Context</b> members.
 
 When a driver calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsendnetbufferlists">NdisFSendNetBufferLists</a> function,
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a> or 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsendnetbufferlists">NdisFSendNetBufferLists</a> function,
     it loses ownership of:
 
 <ul>
@@ -409,7 +409,7 @@ The specified NET_BUFFER_LIST structure.
 </li>
 <li>
 The attached 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures and MDLs.
+      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures and MDLs.
 
 </li>
 <li>
@@ -435,171 +435,170 @@ A list of NET_BUFFER_LIST structures is a simple singly linked and NULL-terminat
 To access members of the NET_BUFFER_LIST structure, use the following macros and functions:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-next-nbl">NET_BUFFER_LIST_NEXT_NBL</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-next-nbl">NET_BUFFER_LIST_NEXT_NBL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-first-nb">NET_BUFFER_LIST_FIRST_NB</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-first-nb">NET_BUFFER_LIST_FIRST_NB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-flags">NET_BUFFER_LIST_FLAGS</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-flags">NET_BUFFER_LIST_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
        NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
        NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
        NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-status">NET_BUFFER_LIST_STATUS</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-status">NET_BUFFER_LIST_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
        NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetpoolfromnetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetpoolfromnetbufferlist">
        NdisGetPoolFromNetBufferList</a>
 
 
 For more information on how to use net buffers, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-architecture">NET_BUFFER Architecture</a>.
+    <a href="/windows-hardware/drivers/network/net-buffer-architecture">NET_BUFFER Architecture</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
    NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-first-nb">NET_BUFFER_LIST_FIRST_NB</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-first-nb">NET_BUFFER_LIST_FIRST_NB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-flags">NET_BUFFER_LIST_FLAGS</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-flags">NET_BUFFER_LIST_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_header">NET_BUFFER_LIST_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list_header">NET_BUFFER_LIST_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
    NET_BUFFER_LIST_MINIPORT_RESERVED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-next-nbl">NET_BUFFER_LIST_NEXT_NBL</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-next-nbl">NET_BUFFER_LIST_NEXT_NBL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">
    NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-status">NET_BUFFER_LIST_STATUS</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-status">NET_BUFFER_LIST_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateclonenetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateclonenetbufferlist">
    NdisAllocateCloneNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefragmentnetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefragmentnetbufferlist">
    NdisAllocateFragmentNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
    NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlist">NdisAllocateNetBufferList</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlist">NdisAllocateNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
    NdisAllocateNetBufferListContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatereassemblednetbufferlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatereassemblednetbufferlist">
    NdisAllocateReassembledNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndisclearnblflag">NdisClearNblFlag</a>
+<a href="/windows-hardware/drivers/network/ndisclearnblflag">NdisClearNblFlag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">NdisFreeNetBufferListContext</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">NdisFreeNetBufferListContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgeneratepartialcancelid">NdisGeneratePartialCancelId</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgeneratepartialcancelid">NdisGeneratePartialCancelId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetpoolfromnetbufferlist">NdisGetPoolFromNetBufferList</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetpoolfromnetbufferlist">NdisGetPoolFromNetBufferList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndissetnblflag">NdisSetNblFlag</a>
+<a href="/windows-hardware/drivers/network/ndissetnblflag">NdisSetNblFlag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndistestnblflag">NdisTestNblFlag</a>
+<a href="/windows-hardware/drivers/network/ndistestnblflag">NdisTestNblFlag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndistestnblflags">NdisTestNblFlags</a>
-
+<a href="/windows-hardware/drivers/network/ndistestnblflags">NdisTestNblFlags</a>

@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 Stores the name and value of a system environment variable using
-    SysEnv device. This structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_enum_variables">IOCTL_SYSENV_ENUM_VARIABLES</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_set_variable">IOCTL_SYSENV_SET_VARIABLE</a> requests.
+    SysEnv device. This structure is used in the <a href="/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_enum_variables">IOCTL_SYSENV_ENUM_VARIABLES</a> and <a href="/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_set_variable">IOCTL_SYSENV_SET_VARIABLE</a> requests.
 
 ## -struct-fields
 
 ### -field NextEntryOffset
 
-The location of the next entry in the array of XVARIABLE_NAME structures reprieved by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_enum_variables">IOCTL_SYSENV_ENUM_VARIABLES</a> request.
+The location of the next entry in the array of XVARIABLE_NAME structures reprieved by the  <a href="/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_enum_variables">IOCTL_SYSENV_ENUM_VARIABLES</a> request.
 
 ### -field ValueOffset
 
@@ -81,9 +81,8 @@ Name of the system environment variable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_enum_variables">IOCTL_SYSENV_ENUM_VARIABLES</a>
+<a href="/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_enum_variables">IOCTL_SYSENV_ENUM_VARIABLES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_set_variable">IOCTL_SYSENV_SET_VARIABLE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_set_variable">IOCTL_SYSENV_SET_VARIABLE</a>

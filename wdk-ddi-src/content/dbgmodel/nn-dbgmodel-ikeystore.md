@@ -57,9 +57,8 @@ In some senses, a metadata store is not all that different from the key/value/me
 - A key store has no concepts. It can only have the dictionary of key/value/metadata tuples. This means that the keys present in a key store are static. They can not be created on demand by a dynamic language system.
 - By convention only, the values in a metadata defined key store are restricted to basic values (intrinsics and property accessors)
 
-While a key store can have an arbitrary number (and arbitrary naming) of keys, there are certain names that have defined semantic values. For a list of those values, see [Debugger Data Model Metadata Interfaces](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-additional-interfaces#-debugger-data-model-metadata-interfaces).
+While a key store can have an arbitrary number (and arbitrary naming) of keys, there are certain names that have defined semantic values. For a list of those values, see [Debugger Data Model Metadata Interfaces](/windows-hardware/drivers/debugger/data-model-cpp-additional-interfaces#-debugger-data-model-metadata-interfaces).
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
-
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

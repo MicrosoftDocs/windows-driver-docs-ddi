@@ -47,7 +47,7 @@ api_name:
 ## -description
 
 Defines operations and properties that can control an instance of the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface.
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface.
 
 ## -inheritance
 
@@ -56,4 +56,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFAction2</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
-

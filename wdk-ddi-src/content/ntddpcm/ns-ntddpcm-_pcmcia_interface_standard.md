@@ -64,11 +64,11 @@ Indicates the version of the returned interface.
 
 ### -field InterfaceReference
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a> implementation.
+Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference">InterfaceReference</a> implementation.
 
 ### -field InterfaceDereference
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a> implementation.
+Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a> implementation.
 
 ### -field Context
 
@@ -76,25 +76,24 @@ Pointer to an opaque handle that contains interface context information. Drivers
 
 ### -field ModifyMemoryWindow
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_modify_memory_window">PCMCIA_MODIFY_MEMORY_WINDOW</a> interface routine.
+Pointer to the <a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_modify_memory_window">PCMCIA_MODIFY_MEMORY_WINDOW</a> interface routine.
 
 ### -field SetVpp
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_set_vpp">PCMCIA_SET_VPP</a> interface routine.
+Pointer to the <a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_set_vpp">PCMCIA_SET_VPP</a> interface routine.
 
 ### -field IsWriteProtected
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_is_write_protected">PCMCIA_IS_WRITE_PROTECTED</a> interface routine.
+Pointer to the <a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_is_write_protected">PCMCIA_IS_WRITE_PROTECTED</a> interface routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_is_write_protected">PCMCIA_IS_WRITE_PROTECTED</a>
+<a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_is_write_protected">PCMCIA_IS_WRITE_PROTECTED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_modify_memory_window">PCMCIA_MODIFY_MEMORY_WINDOW</a>
+<a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_modify_memory_window">PCMCIA_MODIFY_MEMORY_WINDOW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_set_vpp">PCMCIA_SET_VPP</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddpcm/nc-ntddpcm-pcmcia_set_vpp">PCMCIA_SET_VPP</a>

@@ -78,7 +78,7 @@ Points to the notification routine for received PHY packets. The following proto
 
 </td>
 <td width="60%">
-The argument that is specified in the <b>u.ReceivePhyPackets.PhyPacketContext</b> parameter when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">REQUEST_RECEIVE_PHY_PACKET</a> request is sent.
+The argument that is specified in the <b>u.ReceivePhyPackets.PhyPacketContext</b> parameter when the <a href="/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">REQUEST_RECEIVE_PHY_PACKET</a> request is sent.
 
 </td>
 </tr>
@@ -107,4 +107,3 @@ The 64-bit PHY packet that is received from the 1394 bus.
 ### -field PhyPacketContext
 
 Specifies the Context argument to be passed to the PhyPacketRoutine.
-

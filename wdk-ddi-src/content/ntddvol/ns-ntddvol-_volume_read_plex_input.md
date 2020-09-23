@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_read_plex">IOCTL_VOLUME_READ_PLEX</a> to read data from a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">plex</a> in a volume.
+This structure is used in conjunction with <a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_read_plex">IOCTL_VOLUME_READ_PLEX</a> to read data from a specific <a href="/windows-hardware/drivers/">plex</a> in a volume.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ Supplies the zero-based plex number.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_read_plex">IOCTL_VOLUME_READ_PLEX</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_read_plex">IOCTL_VOLUME_READ_PLEX</a>

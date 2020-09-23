@@ -63,17 +63,16 @@ The number of components in this device, which is also the number of elements in
 
 ### -field Components
 
-The first element in an array of pointers to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_component_v2">PEP_COMPONENT_V2</a> structures. Each element in the array points to a structure that describes a component in the device. If this array contains more than one element, the additional elements immediately follow the end of the <b>PEP_DEVICE_REGISTER</b> structure.
+The first element in an array of pointers to <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_component_v2">PEP_COMPONENT_V2</a> structures. Each element in the array points to a structure that describes a component in the device. If this array contains more than one element, the additional elements immediately follow the end of the <b>PEP_DEVICE_REGISTER</b> structure.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE</a> structure contains a <b>Register</b> member that points to a <b>PEP_DEVICE_REGISTER</b> structure.
+The <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE</a> structure contains a <b>Register</b> member that points to a <b>PEP_DEVICE_REGISTER</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_component_v2">PEP_COMPONENT_V2</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_component_v2">PEP_COMPONENT_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE</a>

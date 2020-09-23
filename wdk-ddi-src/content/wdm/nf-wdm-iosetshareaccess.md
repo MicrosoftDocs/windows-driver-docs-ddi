@@ -53,7 +53,7 @@ The <b>IoSetShareAccess</b> routine sets the access rights for sharing the given
 ### -param DesiredAccess 
 
 [in]
-Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the type of access requested for the <i>FileObject</i>. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a> for a complete list of system-defined <i>DesiredAccess </i>flags.
+Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that represents the type of access requested for the <i>FileObject</i>. See <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a> for a complete list of system-defined <i>DesiredAccess </i>flags.
 
 ### -param DesiredShareAccess 
 
@@ -88,33 +88,32 @@ Generally, file system drivers (FSDs) are most likely to call this routine. Howe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocheckshareaccess">IoCheckShareAccess</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocheckshareaccess">IoCheckShareAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetfileobjectgenericmapping">IoGetFileObjectGenericMapping</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetfileobjectgenericmapping">IoGetFileObjectGenericMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetrelateddeviceobject">IoGetRelatedDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetrelateddeviceobject">IoGetRelatedDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioremoveshareaccess">IoRemoveShareAccess</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioremoveshareaccess">IoRemoveShareAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioupdateshareaccess">IoUpdateShareAccess</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioupdateshareaccess">IoUpdateShareAccess</a>

@@ -45,27 +45,27 @@ The _SENSORSCXFUNCENUM enumeration contains a list of all WDF API functions.
 
 ### -field SensorsCxDeviceInitConfigTableIndex
 
-See [SensorsCxDeviceInitConfig](https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxdeviceinitconfig).
+See [SensorsCxDeviceInitConfig](../sensorscx/nf-sensorscx-sensorscxdeviceinitconfig.md).
 
 ### -field SensorsCxDeviceInitializeTableIndex
 
-See [SensorsCxDeviceInitialize](https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxdeviceinitialize).
+See [SensorsCxDeviceInitialize](../sensorscx/nf-sensorscx-sensorscxdeviceinitialize.md).
 
 ### -field SensorsCxSensorCreateTableIndex
 
-See [SensorsCxSensorCreate](https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxsensorcreate).
+See [SensorsCxSensorCreate](../sensorscx/nf-sensorscx-sensorscxsensorcreate.md).
 
 ### -field SensorsCxSensorInitializeTableIndex
 
-See [SensorsCxSensorInitialize](https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxsensorinitialize).
+See [SensorsCxSensorInitialize](../sensorscx/nf-sensorscx-sensorscxsensorinitialize.md).
 
 ### -field SensorsCxSensorDataReadyTableIndex
 
-See [SensorsCxSensorDataReady](https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxsensordataready).
+See [SensorsCxSensorDataReady](../sensorscx/nf-sensorscx-sensorscxsensordataready.md).
 
 ### -field SensorsCxDeviceGetSensorListTableIndex
 
-See [SensorsCxDeviceGetSensorList](https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxdevicegetsensorlist).
+See [SensorsCxDeviceGetSensorList](../sensorscx/nf-sensorscx-sensorscxdevicegetsensorlist.md).
 
 ### -field SensorsCxSensorHistoryRetrievalCompletedTableIndex
 
@@ -73,7 +73,7 @@ See [SensorsCxSensorHistoryRetrievalCompleted](../sensorscx/nf-sensorscx-sensors
 
 ### -field SensorsCxStateChangeTableIndex
 
-See [SensorsCxStateChange](https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxstatechange).
+See [SensorsCxStateChange](../sensorscx/nf-sensorscx-sensorscxstatechange.md).
 
 ### -field SensorscxFunctionTableNumEntries
 
@@ -82,4 +82,3 @@ The number of entries in the table.
 ## -remarks
 
 ## -see-also
-

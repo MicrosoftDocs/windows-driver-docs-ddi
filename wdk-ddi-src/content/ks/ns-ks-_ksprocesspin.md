@@ -56,15 +56,15 @@ The KSPROCESSPIN structure describes the process state of a specific pin.
 
 ### -field Pin
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that the KSPROCESSPIN structure is describing. Everything in the structure refers to this KSPIN.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that the KSPROCESSPIN structure is describing. Everything in the structure refers to this KSPIN.
 
 ### -field StreamPointer
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure that points into the input stream at the current input location or into the output stream at the current output location. This can be used, for example, by output pins to stamp information onto the associated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> (ProcessPin->StreamPointer->StreamHeader->Flags=...).
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure that points into the input stream at the current input location or into the output stream at the current output location. This can be used, for example, by output pins to stamp information onto the associated <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> (ProcessPin->StreamPointer->StreamHeader->Flags=...).
 
 ### -field InPlaceCounterpart
 
-A pointer to a KSPROCESSPIN structure. If this KSPROCESSPIN is not part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/">inplace</a> transform, AVStream sets <b>InPlaceCounterpart</b> to <b>NULL</b>. If this KSPROCESSPIN is the input to an inplace transform, <b>InPlaceCounterpart</b> points to the output process pin for the transform. If this KSPROCESSPIN is the output of an inplace transform, <b>InPlaceCounterpart</b> points to the input process pin for the transform.
+A pointer to a KSPROCESSPIN structure. If this KSPROCESSPIN is not part of an <a href="/windows-hardware/drivers/">inplace</a> transform, AVStream sets <b>InPlaceCounterpart</b> to <b>NULL</b>. If this KSPROCESSPIN is the input to an inplace transform, <b>InPlaceCounterpart</b> points to the output process pin for the transform. If this KSPROCESSPIN is the output of an inplace transform, <b>InPlaceCounterpart</b> points to the input process pin for the transform.
 
 ### -field DelegateBranch
 
@@ -88,7 +88,7 @@ This member specifies how many bytes of this data frame have been used by the pr
 
 ### -field Flags
 
-This member contains a copy of the flags from the relevant <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> structure, if this KSPROCESSPIN is an input pin.
+This member contains a copy of the flags from the relevant <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> structure, if this KSPROCESSPIN is an input pin.
 
 ### -field Terminate
 
@@ -96,7 +96,7 @@ This member indicates whether the current data frame should be sent downstream a
 
 ## -remarks
 
-The KSPROCESSPIN structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">filter-centric processing</a> model. You can use this structure to access data on a specific input pin or to write out processed data to an output pin.
+The KSPROCESSPIN structure is used in the <a href="/windows-hardware/drivers/stream/filter-centric-processing">filter-centric processing</a> model. You can use this structure to access data on a specific input pin or to write out processed data to an output pin.
 
 Only filter-centric clients use process pins. Further, process pins that have a non-<b>NULL</b><b>DelegateBranch</b> or a non-<b>NULL</b><b>CopySource</b> typically are not of concern to the client. The splitter automatically handles process pins with these pointers.
 
@@ -104,17 +104,16 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>

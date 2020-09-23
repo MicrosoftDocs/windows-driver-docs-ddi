@@ -86,7 +86,7 @@ DEBUG_CES_BREAKPOINTS
 
 </td>
 <td>
-One or more <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/breakpoints3">breakpoints</a> have changed.
+One or more <a href="/windows-hardware/drivers/debugger/breakpoints3">breakpoints</a> have changed.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ DEBUG_CES_EXTENSIONS
 
 </td>
 <td>
-Extension DLLs have been loaded or unloaded. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/loading-debugger-extension-dlls">Loading Debugger Extension DLLs</a>.)
+Extension DLLs have been loaded or unloaded. (For more information, see <a href="/windows-hardware/drivers/debugger/loading-debugger-extension-dlls">Loading Debugger Extension DLLs</a>.)
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ Provides additional information about the change to the engine's state.  If more
 
 #### DEBUG_CES_CURRENT_THREAD
 
-The value of <i>Argument</i> is the current engine thread ID or--if there is no current thread--DEBUG_ANY_ID.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
+The value of <i>Argument</i> is the current engine thread ID or--if there is no current thread--DEBUG_ANY_ID.  For more information, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
 
 
 
@@ -235,7 +235,7 @@ The value of <i>Argument</i> is the type of the effective processor.
 
 #### DEBUG_CES_BREAKPOINTS
 
-The value of <i>Argument</i> is the breakpoint ID of the breakpoint that was changed or--if more than one breakpoint was changed--DEBUG_ANY_ID.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>.
+The value of <i>Argument</i> is the breakpoint ID of the breakpoint that was changed or--if more than one breakpoint was changed--DEBUG_ANY_ID.  For more information, see <a href="/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>.
 
 
 
@@ -247,7 +247,7 @@ The value of <i>Argument</i> is the code interpretation level.
 
 #### DEBUG_CES_EXECUTION_STATUS
 
-The value of <i>Argument</i> is the execution status (as described in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-status-xxx">DEBUG_STATUS_XXX</a> topic) possibly combined with the bit flag DEBUG_STATUS_INSIDE_WAIT. DEBUG_STATUS_INSIDE_WAIT is set when a <b>WaitForEvent</b> call is pending. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>.
+The value of <i>Argument</i> is the execution status (as described in the <a href="/windows-hardware/drivers/debugger/debug-status-xxx">DEBUG_STATUS_XXX</a> topic) possibly combined with the bit flag DEBUG_STATUS_INSIDE_WAIT. DEBUG_STATUS_INSIDE_WAIT is set when a <b>WaitForEvent</b> call is pending. For more information, see <a href="/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>.
 
 
 
@@ -315,7 +315,6 @@ The return value is ignored by the engine unless it indicates a remote procedure
 
 ## -remarks
 
-This method is only called by the engine if the DEBUG_EVENT_CHANGE_ENGINE_STATE flag is set in the mask returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">IDebugEventCallbacks::GetInterestMask</a>.
+This method is only called by the engine if the DEBUG_EVENT_CHANGE_ENGINE_STATE flag is set in the mask returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">IDebugEventCallbacks::GetInterestMask</a>.
 
-For more information about handling events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
-
+For more information about handling events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.

@@ -64,13 +64,12 @@ Specifies a packet-switched wireless LAN (WLAN) phone call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_callcontrol">KSTELEPHONY_CALLCONTROL</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_callcontrol">KSTELEPHONY_CALLCONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_callinfo">KSTELEPHONY_CALLINFO</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_callinfo">KSTELEPHONY_CALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_providerchange">KSTELEPHONY_PROVIDERCHANGE</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_providerchange">KSTELEPHONY_PROVIDERCHANGE</a>

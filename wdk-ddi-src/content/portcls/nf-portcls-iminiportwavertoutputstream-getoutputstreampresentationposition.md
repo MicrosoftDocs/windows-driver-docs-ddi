@@ -53,7 +53,7 @@ Returns stream presentation information.
 ### -param pPresentationPosition 
 
 [out]
- pPresentationPosition returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a> structure that represents a recent presentation position in the audio data stream. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreampresentationposition">IMiniportStreamAudioEngineNode::GetStreamPresentationPosition</a>.
+ pPresentationPosition returns a <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_presentation_position">KSAUDIO_PRESENTATION_POSITION</a> structure that represents a recent presentation position in the audio data stream. For more information, see <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreampresentationposition">IMiniportStreamAudioEngineNode::GetStreamPresentationPosition</a>.
 
 ## -returns
 
@@ -71,5 +71,4 @@ This does not mean that GetPacketCount and GetOutputStreamPresentationPosition, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertoutputstream">IMiniportWaveRTOutputStream</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertoutputstream">IMiniportWaveRTOutputStream</a>

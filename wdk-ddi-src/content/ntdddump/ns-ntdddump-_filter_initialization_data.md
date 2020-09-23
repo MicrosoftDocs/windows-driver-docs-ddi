@@ -88,7 +88,7 @@ A pointer to the dump unload routine. This routine is called before the driver i
 
 ### -field DumpData
 
-The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure during each callback.
+The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure during each callback.
 
 ### -field MaxPagesPerWrite
 
@@ -142,25 +142,24 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_finish">Dump_Finish</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_finish">Dump_Finish</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_read">Dump_Read</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_read">Dump_Read</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_start">Dump_Start</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_start">Dump_Start</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_unload">Dump_Unload</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_unload">Dump_Unload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_write">Dump_Write</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_write">Dump_Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>

@@ -72,7 +72,7 @@ A boolean value that indicates whether to arm the device for a wake signal (PME 
 
 ## -returns
 
-Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code to indicate the error condition.
+Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code to indicate the error condition.
 
 ## -prototype
 
@@ -155,5 +155,3 @@ Virtualization_SetPowerState (
 }
 
 ```
-
-

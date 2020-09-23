@@ -52,7 +52,7 @@ The **WcsAssociateColorProfileWithDevice** function associates a specified WCS c
 
 ### -param scope [in]
 
-A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/previous-versions/windows/desktop/wcs/wcs-profile-management-scope) value that specifies the scope of this profile management operation.
+A [WCS_PROFILE_MANAGEMENT_SCOPE](/previous-versions/windows/desktop/wcs/wcs-profile-management-scope) value that specifies the scope of this profile management operation.
 
 ### -param pProfileName
 
@@ -62,7 +62,7 @@ A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/previous-versions/wi
 
 A pointer to the name of the device with which the profile is to be associated.
 
-The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-display_devicea).
+The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](/windows/win32/api/wingdi/ns-wingdi-display_devicea).
 
 ## -remarks
 
@@ -74,5 +74,4 @@ This function is executable in Least-Privileged User Account (LUA) context if *p
 
 ## -see-also
 
-[WcsDisassociateColorProfileFromDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/nf-icm-wcsdisassociatecolorprofilefromdevice)
-
+[WcsDisassociateColorProfileFromDevice](/windows-hardware/drivers/ddi/content/icm/nf-icm-wcsdisassociatecolorprofilefromdevice)

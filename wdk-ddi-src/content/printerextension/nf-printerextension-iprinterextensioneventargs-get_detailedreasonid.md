@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Gets a more detailed activation reason than what can be retrieved from  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_reasonid">ReasonId</a>.
+Gets a more detailed activation reason than what can be retrieved from  <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_reasonid">ReasonId</a>.
 
 This property is read-only.
 
@@ -59,9 +59,8 @@ The value of <b>DetailedReasonId</b> is always {5D5A1704-DFD1-4181-8EEE-815C86ED
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_reasonid">ReasonId</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_reasonid">ReasonId</a>

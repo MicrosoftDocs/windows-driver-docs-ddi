@@ -78,7 +78,7 @@ The worst-case latency, in 100-nanosecond units,  that the processor requires to
 
 ### -field BreakEvenDuration
 
-The minimum amount of time, specified in 100-nanosecond units, that the processor must spend in this idle state to make a transition to this state worthwhile. The Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) uses this member value as a hint to avoid switching a processor to an idle state unless the processor is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
+The minimum amount of time, specified in 100-nanosecond units, that the processor must spend in this idle state to make a transition to this state worthwhile. The Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) uses this member value as a hint to avoid switching a processor to an idle state unless the processor is likely to remain in this state for at least the amount of time specified by <b>BreakEvenDuration</b>.
 
 
 #### - ( unnamed union )
@@ -137,7 +137,7 @@ Whether the transition to this processor idle state can be performed only as par
 
 ##### Autonomous
 
-Whether a coordinated transition to this processor idle state is performed autonomously by the processor hardware. Set this flag bit to 1 if these transitions are autonomous, and to 0 if they are not. A flag value of 1 indicates that the idle state can be entered without sending a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_test_idle_state">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_idle_state_v2">PEP_NOTIFY_PPM_IDLE_PRE_EXECUTE</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_complete">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. This flag can be set to 1 only if <b>CStateType</b> is nonzero.
+Whether a coordinated transition to this processor idle state is performed autonomously by the processor hardware. Set this flag bit to 1 if these transitions are autonomous, and to 0 if they are not. A flag value of 1 indicates that the idle state can be entered without sending a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_test_idle_state">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>, <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_idle_state_v2">PEP_NOTIFY_PPM_IDLE_PRE_EXECUTE</a>, or <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_idle_complete">PEP_NOTIFY_PPM_IDLE_COMPLETE</a> notification. This flag can be set to 1 only if <b>CStateType</b> is nonzero.
 
 
 
@@ -147,13 +147,12 @@ Reserved for future use. Set to zero.
 
 ## -remarks
 
-This structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification. The <b>IdleStates</b>  member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_PPM_QUERY_IDLE_STATES_V2</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE_V2</b> structures.
+This structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a> notification. The <b>IdleStates</b>  member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_PPM_QUERY_IDLE_STATES_V2</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE_V2</b> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_PPM_QUERY_IDLE_STATES_V2</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_idle_states_v2">PEP_PPM_QUERY_IDLE_STATES_V2</a>

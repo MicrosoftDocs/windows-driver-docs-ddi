@@ -52,7 +52,7 @@ Configures NFC controller listen mode routing table. Note that caller has to sen
 
 ### -input-buffer
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
+<a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
 
 ### -input-buffer-length
 
@@ -110,4 +110,3 @@ The following are requirements that the driver must adhere to.
 </li>
 <li>If this IOCTL is issued when the NFCC is in RF discovery state, the driver needs to put the NFCC into RF idle state, configure the routing table, and restart RF discovery.</li>
 </ul>
-

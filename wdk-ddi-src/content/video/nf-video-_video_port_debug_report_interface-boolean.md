@@ -59,7 +59,7 @@ Miniport drivers call the
 
 [in] An interrupt handle that the miniport driver obtained in a previous call to the <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a> function.
 
-<p>An interrupt handle that the miniport driver obtained in a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex"><b>NdisMRegisterInterruptEx</b></a> function.</p>
+<p>An interrupt handle that the miniport driver obtained in a previous call to the <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterinterruptex"><b>NdisMRegisterInterruptEx</b></a> function.</p>
 
 ### -param MessageId 
 
@@ -121,7 +121,7 @@ Any miniport driver function that shares resources with any other driver functio
     caller before it returns control.
 
 For more information about acquiring and releasing NDIS spin locks, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
+    <a href="/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
     and Notification in Network Drivers</a>.
 
 ## -see-also
@@ -145,4 +145,3 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-

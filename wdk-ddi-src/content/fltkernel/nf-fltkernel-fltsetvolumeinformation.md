@@ -86,7 +86,7 @@ Type of information to be set for the volume. One of the following.
 
 </td>
 <td>
-Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_control_information">FILE_FS_CONTROL_INFORMATION</a> for the volume. 
+Set <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_control_information">FILE_FS_CONTROL_INFORMATION</a> for the volume. 
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-nt
 
 </td>
 <td>
-Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_label_information">FILE_FS_LABEL_INFORMATION</a> for the volume. 
+Set <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_label_information">FILE_FS_LABEL_INFORMATION</a> for the volume. 
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-nt
 
 </td>
 <td>
-Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_objectid_information">FILE_FS_OBJECTID_INFORMATION</a> for the volume. 
+Set <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_objectid_information">FILE_FS_OBJECTID_INFORMATION</a> for the volume. 
 
 </td>
 </tr>
@@ -169,21 +169,20 @@ The <i>Instance</i> is attached to a network volume. <b>FltSetVolumeInformation<
 
 ## -remarks
 
-To query information about a volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>.
+To query information about a volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_control_information">FILE_FS_CONTROL_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_control_information">FILE_FS_CONTROL_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_label_information">FILE_FS_LABEL_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_label_information">FILE_FS_LABEL_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_objectid_information">FILE_FS_OBJECTID_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_fs_objectid_information">FILE_FS_OBJECTID_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>

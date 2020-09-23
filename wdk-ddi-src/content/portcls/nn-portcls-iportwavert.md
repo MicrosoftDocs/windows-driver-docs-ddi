@@ -48,11 +48,10 @@ api_name:
 
 The <code>IPortWaveRT</code> interface is supported in Windows Vista and later operating systems and it is the main interface that the WaveRT port driver exposes to the adapter driver that implements the WaveRT miniport driver object.
 
- To create an <code>IPortWaveRT</code> object, the adapter driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewport">PcNewPort</a> and specifies <b>IID_IPortWaveRT</b> as the REFIID. The GUID constant <b>IID_IPortWaveRT</b> is defined in header file Portcls.h.
+ To create an <code>IPortWaveRT</code> object, the adapter driver calls <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewport">PcNewPort</a> and specifies <b>IID_IPortWaveRT</b> as the REFIID. The GUID constant <b>IID_IPortWaveRT</b> is defined in header file Portcls.h.
 
-An adapter driver forms a port-miniport driver pair by binding an <code>IPortWaveRT</code> object to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavert">IMiniportWaveRT</a> object. The PortCls system driver registers the pair with the system as a wave filter.
+An adapter driver forms a port-miniport driver pair by binding an <code>IPortWaveRT</code> object to an <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavert">IMiniportWaveRT</a> object. The PortCls system driver registers the pair with the system as a wave filter.
 
-<code>IPortWaveRT</code> inherits the methods in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iport">IPort</a> interface; it provides no additional methods.
+<code>IPortWaveRT</code> inherits the methods in the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iport">IPort</a> interface; it provides no additional methods.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a> interface is supported in Windows Vista and later operating systems, and it is a stream-specific interface that provides helper methods for use by the WaveRT miniport driver.
-
+The <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a> interface is supported in Windows Vista and later operating systems, and it is a stream-specific interface that provides helper methods for use by the WaveRT miniport driver.

@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>GetNumberRegisters</b> method returns the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">registers</a> on the target computer.
+The <b>GetNumberRegisters</b> method returns the number of <a href="/windows-hardware/drivers/debugger/registers">registers</a> on the target computer.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Receives the number of registers on the target's computer.
 
 ## -returns
 
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -80,5 +80,4 @@ The method was successful.
 
 ## -remarks
 
-For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
-
+For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.

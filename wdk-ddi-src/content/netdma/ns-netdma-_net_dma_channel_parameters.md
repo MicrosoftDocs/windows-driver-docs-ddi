@@ -86,7 +86,7 @@ The virtual address of the memory location where the DMA engine can write the DM
 The physical address of the memory location where the DMA engine can write the DMA transfer
      completion status. If the <b>NET_DMA_STATUS_UPDATE_ON_COMPLETION</b> flag is not set in the 
      <b>ControlFlags</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure, 
+     <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure, 
      <b>CompletionPhysicalAddress</b> is not used. Otherwise, the completion status value at the specified
      address is a 64-bit wide combination of the physical address of the most recent DMA descriptor that the
      DMA engine processed and additional status information. 
@@ -131,9 +131,9 @@ The DMA transfer for the last DMA descriptor in the linked list of descriptors c
 <td width="60%">
 The DMA transfer for the most recent DMA descriptor completed without errors, and DMA transfers
        are suspended because the NetDMA interface called the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a> function. The DMA
+       <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a> function. The DMA
        engine will restart the transfer after the NetDMA interface calls the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_resume_handler">ProviderResumeDma</a> function.
+       <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_resume_handler">ProviderResumeDma</a> function.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ The DMA transfer for the most recent DMA descriptor completed without errors, an
 <td width="60%">
 The DMA transfer for the most recent DMA transfer was aborted because of errors or because the
        NetDMA interface called the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler">ProviderAbortDma</a> function.
+       <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler">ProviderAbortDma</a> function.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ A DMA channel priority value that represents the priority for the DMA channel re
 
 The CPU number that is associated with the DMA channel. The DMA provider driver sets the value
      before it returns from the      
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a> function. The DMA engine uses this CPU for interrupt DPCs that are
+     <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a> function. The DMA engine uses this CPU for interrupt DPCs that are
      associated with the DMA channel. If the DMA engine and computer configuration support MSI-X, the
      interrupt should also be associated with the indicated CPU number, unless there was no MSI-X interrupt
      available for the indicated CPU.
@@ -191,30 +191,29 @@ The group number and a bitmap of the CPUs that this DMA channel could be associa
 ## -remarks
 
 Before using a DMA channel, the NetDMA interface calls the     
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a> function of the DMA provider driver to allocate and initialize the DMA
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a> function of the DMA provider driver to allocate and initialize the DMA
     channel.
 
 The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at the 
     <i>ChannelParameters</i> parameter of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>.
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler">ProviderAbortDma</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_abort_handler">ProviderAbortDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_resume_handler">ProviderResumeDma</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_resume_handler">ProviderResumeDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>
-
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>

@@ -78,7 +78,7 @@ VOID FnVmbChannelSetPointer
 
 ## -remarks
 
-  This is intended to be a more efficient way for a client driver to retrieve client driver's context.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer">VmbChannelGetPointer</a> function.
+  This is intended to be a more efficient way for a client driver to retrieve client driver's context.  For more information, see the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer">VmbChannelGetPointer</a> function.
 
 > [!IMPORTANT]
 > This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a client function accessed from the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md) structure. 
@@ -87,5 +87,4 @@ VOID FnVmbChannelSetPointer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer">VmbChannelGetPointer</a>
-
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer">VmbChannelGetPointer</a>

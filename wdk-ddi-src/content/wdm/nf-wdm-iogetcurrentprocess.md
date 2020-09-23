@@ -61,5 +61,4 @@ This routine is identical to **PsGetCurrentProcess**.
 
 ## -see-also
 
-[PsGetCurrentThread](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetcurrentthread)
-
+[PsGetCurrentThread](../ntddk/nf-ntddk-psgetcurrentthread.md)

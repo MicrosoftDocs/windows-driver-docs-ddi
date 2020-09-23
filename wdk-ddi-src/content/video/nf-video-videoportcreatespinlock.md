@@ -66,13 +66,12 @@ On success the function returns NO_ERROR. If an error occurs, the function retur
 
 ## -remarks
 
-This routine must be called before an initial call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a> or to any other support routine that requires a spin lock as an argument.
+This routine must be called before an initial call to <a href="/previous-versions/ff570175(v=vs.85)">VideoPortAcquireSpinLock</a> or to any other support routine that requires a spin lock as an argument.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a>
+<a href="/previous-versions/ff570175(v=vs.85)">VideoPortAcquireSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportdeletespinlock">VideoPortDeleteSpinLock</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportdeletespinlock">VideoPortDeleteSpinLock</a>

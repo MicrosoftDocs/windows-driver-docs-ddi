@@ -95,5 +95,4 @@ The call to **KsEdit** guarantees that *Pin->Descriptor* is dynamic memory that 
 
 **KsEditSized** calls **_KsEdit** with the same parameters it receives, except that *Object* is replaced by *Object->Bag* and the pointer is typecast to PVOID.
 
-Note that when calling **_KsEdit**, a caller must hold the mutex associated with the bag. For more information, see [Object Bags](https://docs.microsoft.com/windows-hardware/drivers/stream/object-bags) and [Mutexes in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream).
-
+Note that when calling **_KsEdit**, a caller must hold the mutex associated with the bag. For more information, see [Object Bags](/windows-hardware/drivers/stream/object-bags) and [Mutexes in AVStream](/windows-hardware/drivers/stream/mutexes-in-avstream).

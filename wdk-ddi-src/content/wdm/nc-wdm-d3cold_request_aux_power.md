@@ -59,7 +59,7 @@ Enables the function device object (FDO) to convey its auxiliary power requireme
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). Possible errors are as follows:
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values). Possible errors are as follows:
 
 | Error code                    | Description                                                                                                                                                                       |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -104,4 +104,3 @@ A device driver that successfully queries for the GUID_D3COLD_AUX_POWER_AND_TIMI
     success of this request.
 
 ## -see-also
-

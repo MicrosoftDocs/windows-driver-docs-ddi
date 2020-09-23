@@ -82,7 +82,7 @@ A zero-based GPU memory segment identifier where the corresponding memory page i
 
 ### -field LargePage
 
-The bit can be set only when the kernel mode driver sets the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxgk-virtualaddresscaps">DXGK_VIRTUALADDRESSCAPS</a>::<b>GpuMmu</b>.<b>LargePageSupported</b> cap. When set the page table address (<b>PageTableAddress</b> + <b>SegmentId</b>) is the memory address of an allocation. The allocation size is equal to the virtual address range, covered by the lower page table level. This flag cannot be set for the leaf page tables.
+The bit can be set only when the kernel mode driver sets the <a href="/windows-hardware/drivers/display/dxgk-virtualaddresscaps">DXGK_VIRTUALADDRESSCAPS</a>::<b>GpuMmu</b>.<b>LargePageSupported</b> cap. When set the page table address (<b>PageTableAddress</b> + <b>SegmentId</b>) is the memory address of an allocation. The allocation size is equal to the virtual address range, covered by the lower page table level. This flag cannot be set for the leaf page tables.
 
 Supported starting with Windows 10.
 
@@ -94,7 +94,7 @@ Supported starting with Windows 10.
 
 ### -field PageTablePageSize
 
-For the level 1 page table entry defines the pages size of the leaf page table PTEs. The value is provided by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_pte_page_size">DXGK_PTE_PAGE_SIZE</a> enumerator. This value should be ignored  when dual-PTE is supported.
+For the level 1 page table entry defines the pages size of the leaf page table PTEs. The value is provided by the  <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_pte_page_size">DXGK_PTE_PAGE_SIZE</a> enumerator. This value should be ignored  when dual-PTE is supported.
 
 Supported starting with Windows 10.
 
@@ -117,4 +117,3 @@ The high 52 bits of the 64 bit physical address of a memory page. The low 12 bit
 The high 52 bits of the 64 bit physical address of a lower level page table. The low 12 bits are zero. The address is an offset from the start of the segment, defined by <b>Segment</b>, or a system memory address.
 
 Supported starting with Windows 10.
-

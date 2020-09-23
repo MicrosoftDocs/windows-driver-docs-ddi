@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <code>AddContentHandlers</code> method provides the system with a list of functions that handle protected content. Note that this method is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a> function, and its parameter definitions and return value are also identical.
+The <code>AddContentHandlers</code> method provides the system with a list of functions that handle protected content. Note that this method is identical in operation to the <a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a> function, and its parameter definitions and return value are also identical.
 
 ## -parameters
 
@@ -58,17 +58,16 @@ The <code>AddContentHandlers</code> method provides the system with a list of fu
 
 ## -returns
 
-See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
+See return value definition in <a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
 
 ## -remarks
 
-See comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
+See comments in <a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>
+<a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-idrmport2">IDrmPort2</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-idrmport2">IDrmPort2</a>

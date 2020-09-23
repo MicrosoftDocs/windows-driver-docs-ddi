@@ -52,11 +52,11 @@ The <code>IPrintOemUni::DownloadCharGlyph</code> method enables a rendering plug
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param pUFObj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure.
 
 ### -param hGlyph
 
@@ -117,21 +117,21 @@ The method is not implemented.
 
 ## -remarks
 
-The <code>IPrintOemUni::DownloadCharGlyph</code> method is used for supporting soft fonts on printers that do not accept <a href="https://docs.microsoft.com/windows-hardware/drivers/">PCL</a> commands. Its purpose is to enable a rendering plug-in to send a character glyph to the printer.
+The <code>IPrintOemUni::DownloadCharGlyph</code> method is used for supporting soft fonts on printers that do not accept <a href="/windows-hardware/drivers/">PCL</a> commands. Its purpose is to enable a rendering plug-in to send a character glyph to the printer.
 
-If a rendering plug-in implements the  <code>IPrintOemUni::DownloadCharGlyph</code> method, Unidrv calls the method immediately after sending the command string specified by the CmdSetCharCode command entry, which is contained in the printer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">GPD</a> file. (GPD files are described in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/microsoft-universal-printer-driver">Microsoft Universal Printer Driver</a>.) The method should do the following:
+If a rendering plug-in implements the  <code>IPrintOemUni::DownloadCharGlyph</code> method, Unidrv calls the method immediately after sending the command string specified by the CmdSetCharCode command entry, which is contained in the printer's <a href="/windows-hardware/drivers/">GPD</a> file. (GPD files are described in <a href="/windows-hardware/drivers/print/microsoft-universal-printer-driver">Microsoft Universal Printer Driver</a>.) The method should do the following:
 
 <ul>
 <li>
-Call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> function to obtain the glyph image specified by <i>hGlyph</i>.
+Call the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> function to obtain the glyph image specified by <i>hGlyph</i>.
 
 </li>
 <li>
-Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a> to send the glyph to the printer.
+Call <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a> to send the glyph to the printer.
 
 </li>
 <li>
-Call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> function again to obtain the glyph's width, then store the width in the address pointed to by <i>pdwWidth</i>. 
+Call the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> function again to obtain the glyph's width, then store the width in the address pointed to by <i>pdwWidth</i>. 
 
 </li>
 <li>
@@ -139,9 +139,8 @@ Return the amount of printer memory required to store the glyph by placing it in
 
 </li>
 </ul>
-The <code>IPrintOemUni::DownloadCharGlyph</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "DownloadCharGlyph" as input.
+The <code>IPrintOemUni::DownloadCharGlyph</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "DownloadCharGlyph" as input.
 
-If you implement the <code>IPrintOemUni::DownloadCharGlyph</code> method, you must also implement the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-downloadfontheader">IPrintOemUni::DownloadFontHeader</a> method.
+If you implement the <code>IPrintOemUni::DownloadCharGlyph</code> method, you must also implement the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-downloadfontheader">IPrintOemUni::DownloadFontHeader</a> method.
 
-For additional information see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Customized Font Management</a>.
-
+For additional information see <a href="/windows-hardware/drivers/print/customized-font-management">Customized Font Management</a>.

@@ -65,15 +65,14 @@ The length, in bytes, of a parameter block.
 
 ## -remarks
 
-See [Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
+See [Data Set Management](/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
 
 ## -see-also
 
-[Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+[Data Set Management](/windows-hardware/drivers/storage/data-set-management-overview)
 
 [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
 
 [DEVICE_DSM_RANGE](ns-ntddstor-_device_data_set_range.md)
 
-[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
-
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)

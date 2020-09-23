@@ -54,10 +54,9 @@ The reset operation request is for a platform-level device reset. In this case, 
 
 ## -remarks
 
-See [Resetting and recovering a device](https://docs.microsoft.com/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
+See [Resetting and recovering a device](/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
 ) for more details.
 
 ## -see-also
 
 [**StorPortHardwareReset**](nf-storport-storporthardwarereset.md)
-

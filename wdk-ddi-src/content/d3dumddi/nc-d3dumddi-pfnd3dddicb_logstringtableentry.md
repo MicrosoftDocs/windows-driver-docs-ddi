@@ -46,13 +46,13 @@ api_name:
 
 ## -description
 
-Locates a string table entry that is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_logstringtable">LogMarkerStringTable</a> function to log an Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
+Locates a string table entry that is used by the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_logstringtable">LogMarkerStringTable</a> function to log an Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
 
 ## -parameters
 
 ### -param hLog
 
-A handle to the ETW log that is to be written to. Must be the same <i>hLog</i> handle passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_logstringtable">LogMarkerStringTable</a> function.
+A handle to the ETW log that is to be written to. Must be the same <i>hLog</i> handle passed to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_logstringtable">LogMarkerStringTable</a> function.
 
 ### -param StringIndex
 
@@ -68,5 +68,4 @@ A custom text string embedded in the ETW packet. Can be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_logstringtable">LogMarkerStringTable</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_logstringtable">LogMarkerStringTable</a>

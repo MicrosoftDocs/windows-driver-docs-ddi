@@ -80,7 +80,6 @@ The ECP_OPEN_PARAMETERS_FLAG_OPEN_FOR_READ and ECP_OPEN_PARAMETERS_FLAG_OPEN_FOR
 
 ## -see-also
 
-[**FltAllocateExtraCreateParameterList**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist)
+[**FltAllocateExtraCreateParameterList**](../fltkernel/nf-fltkernel-fltallocateextracreateparameterlist.md)
 
-[**FltCreateFileEx2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2)
-
+[**FltCreateFileEx2**](../fltkernel/nf-fltkernel-fltcreatefileex2.md)

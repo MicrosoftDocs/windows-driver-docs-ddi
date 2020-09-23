@@ -163,13 +163,12 @@ Right shift key is down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
-
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>

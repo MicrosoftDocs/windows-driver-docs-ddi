@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results of the association operation that is performed by the 802.11 station after it receives an association request from a peer station on an infrastructure BSS.
 
@@ -150,7 +150,7 @@ The multicast cipher algorithm that the 802.11 station resolved with the AP or p
 
 The offset of the list of PHY identifiers (IDs) that the 802.11 station uses to send or receive packets on the BSS network connection. Each entry is a ULONG value.
 
-The Extensible Station (ExtSTA) <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB objec also references the active PHY list.
+The Extensible Station (ExtSTA) <a href="/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB objec also references the active PHY list.
 
 Entries in the active PHY list can be one of the following values:
 
@@ -159,14 +159,14 @@ Entries in the active PHY list can be one of the following values:
 A PHY ID that is specified by the Extensible Station (ExtSTA)
         <b>msDot11DesiredPhyList</b> management information base (MIB) object. For more information about this
         MIB object, see
-        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-phy-list">OID_DOT11_DESIRED_PHY_LIST</a>.
+        <a href="/windows-hardware/drivers/network/oid-dot11-desired-phy-list">OID_DOT11_DESIRED_PHY_LIST</a>.
 
 </li>
 <li>
 A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value if the ExtSTA
         <b>msDot11ActivePhyList</b> MIB object specifies all of the PHY IDs that are specified by the
         <b>msDot11DesiredPhyList</b> MIB object. For more information about this MIB object, see
-        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
+        <a href="/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
 
 <div class="alert"><b>Note</b>  An entry with the value of DOT11_PHY_ID_ANY must be the only entry in the
         active PHY list.</div>
@@ -246,7 +246,7 @@ typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure when
     the driver makes an
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
+    <a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a> status indication.
 
 The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end of an
@@ -263,7 +263,7 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
+<a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a>
 
 
@@ -273,4 +273,3 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-

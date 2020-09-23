@@ -83,17 +83,16 @@ The function returns STATUS_SUCCESS if the event is published successfully.
 
 Because the string produced by <b>EventWriteString</b> function is not localizable, this function is not recommended for use in production code. This function should not be used to log highly visible events.
 
-You can call <b>EtwWriteString</b> at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the <b>EtwWrite</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>, <b>EtwWriteString</b>,  and <b>EtwWriteTransfer</b> functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory. Data passed to the <b>EtwWrite</b>, <b>EtwWriteEx</b>, <b>EtwWriteString</b>, and <b>EtwWriteTransfer</b> functions must reside in system-space memory, regardless of what the IRQL is.
+You can call <b>EtwWriteString</b> at any IRQL. However, when IRQL is greater than APC_LEVEL, any data passed to the <b>EtwWrite</b>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>, <b>EtwWriteString</b>,  and <b>EtwWriteTransfer</b> functions must not be pageable. That is, any kernel-mode routine that is running at IRQL greater than APC_LEVEL cannot access pageable memory. Data passed to the <b>EtwWrite</b>, <b>EtwWriteEx</b>, <b>EtwWriteString</b>, and <b>EtwWriteTransfer</b> functions must reside in system-space memory, regardless of what the IRQL is.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwrite">EtwWrite</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwrite">EtwWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwriteex">EtwWriteEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritetransfer">EtwWriteTransfer</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritetransfer">EtwWriteTransfer</a>

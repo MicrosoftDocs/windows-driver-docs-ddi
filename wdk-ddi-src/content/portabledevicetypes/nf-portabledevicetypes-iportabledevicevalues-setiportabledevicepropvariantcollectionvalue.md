@@ -89,9 +89,8 @@ If an existing value has the same key that is specified by the <i>key</i> parame
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getiportabledevicepropvariantcollectionvalue">IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue</a>
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getiportabledevicepropvariantcollectionvalue">IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue</a>

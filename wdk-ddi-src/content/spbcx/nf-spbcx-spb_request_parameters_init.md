@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>SPB_REQUEST_PARAMETERS_INIT</b> function initializes an <a href="https://docs.microsoft.com/previous-versions/hh406209(v=vs.85)">SPB_REQUEST_PARAMETERS</a> structure.
+The <b>SPB_REQUEST_PARAMETERS_INIT</b> function initializes an <a href="/previous-versions/hh406209(v=vs.85)">SPB_REQUEST_PARAMETERS</a> structure.
 
 ## -parameters
 
@@ -57,13 +57,12 @@ A pointer to the <b>SPB_REQUEST_PARAMETERS</b> structure that is to be initializ
 
 ## -remarks
 
-Your SPB controller driver must use this function to initialize an <b>SPB_REQUEST_PARAMETERS</b> structure before passing this structure as an output parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a> method. This method writes the SPB-specific parameters from an I/O request to this structure.
+Your SPB controller driver must use this function to initialize an <b>SPB_REQUEST_PARAMETERS</b> structure before passing this structure as an output parameter to the <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a> method. This method writes the SPB-specific parameters from an I/O request to this structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/hh406209(v=vs.85)">SPB_REQUEST_PARAMETERS</a>
+<a href="/previous-versions/hh406209(v=vs.85)">SPB_REQUEST_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
-
+<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>

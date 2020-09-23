@@ -63,12 +63,12 @@ The base virtual address to free.
 ### -param NumberOfBytes 
 
 [in]
-The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine was previously called.
+The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine was previously called.
 
 ### -param CacheType 
 
 [in]
-The cache type that is used in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine.
+The cache type that is used in the call to the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a> routine.
 
 ## -returns
 
@@ -105,5 +105,4 @@ The operation was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a>

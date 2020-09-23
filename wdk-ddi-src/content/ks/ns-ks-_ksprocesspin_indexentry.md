@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The KSPROCESSPIN_INDEXENTRY structure is used in <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a> to bring together all of the input and output pins in one context.
+The KSPROCESSPIN_INDEXENTRY structure is used in <a href="/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a> to bring together all of the input and output pins in one context.
 
 ## -struct-fields
 
 ### -field Pins
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a> structures. The array contains a listing of the instances of the given pin.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a> structures. The array contains a listing of the instances of the given pin.
 
 ### -field Count
 
@@ -64,11 +64,10 @@ This member specifies the number of process pins in <i>Pins</i> that are current
 
 ## -remarks
 
-This pointer table is indexed in order of the pins described in the pin descriptor table for the corresponding filter. The first pin described in the descriptor table has the first entry in the index table passed to the processing dispatch. See the processing dispatch in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>.
+This pointer table is indexed in order of the pins described in the pin descriptor table for the corresponding filter. The first pin described in the descriptor table has the first entry in the index table passed to the processing dispatch. See the processing dispatch in <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>

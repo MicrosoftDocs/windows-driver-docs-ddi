@@ -58,16 +58,16 @@ api_name:
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param OffloadBlockList 
 
 [in, out]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures.
 
@@ -77,7 +77,7 @@ The
     <i>MiniportInitiateOffload</i> function stores the 
     <i>OffloadBlockList</i> pointer and then returns. The offload target always completes the offload
     operation asynchronously by calling 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">
     NdisMInitiateOffloadComplete</a>. The state tree pointed to by the 
     <i>OffloadBlockList</i> pointer is valid until the miniport driver calls 
     <b>NdisMInitiateOffloadComplete</b>.
@@ -87,32 +87,32 @@ After returning from its
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure whose 
     <b>MiniportOffloadContext</b> member points to a memory location that contains a <b>NULL</b> value is followed by
     state to be offloaded. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>. The 
     <b>Header</b> member of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure contains a 
     <b>Type</b> member that specifies the type of offload state, and by implication, the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">offload state structure</a> or structures,
+    <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">offload state structure</a> or structures,
     that immediately follow the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure in memory.
 
 The offload target offloads the offload state associated with an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
     structure into an offload context area. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>.
 
 When offloading state, the offload target must traverse the state tree in 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/traversing-a-state-tree">depth-first/breadth-next fashion</a>. It
+    <a href="/windows-hardware/drivers/network/traversing-a-state-tree">depth-first/breadth-next fashion</a>. It
     is critical that an offload target offloads state in this way.
 
 Some of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures in the state tree that are passed to the 
     <i>MiniportInitiateOffload</i> function can be placeholders or linking nodes that do not have accompanying
     state to be offloaded. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
+    <a href="/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
     New Offloads</a>.
 
 The offload target can receive buffered data from the host stack for a connection that is being
     offloaded. The offload target must copy this data into its own buffer before completing the offload
     operation. For more information about processing buffered receive data, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">
+    <a href="/windows-hardware/drivers/network/handling-buffered-receive-data-during-and-after-an-offload-operation">
     Handling Buffered Receive Data During and After an Offload Operation</a>.
 
 For each state object that it offloads, the offload target must also supply a PVOID value that
@@ -123,23 +123,22 @@ For each state object that it offloads, the offload target must also supply a PV
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure, it should not write a value to the memory location pointed to
     by the 
     <b>*MiniportOffloadContext</b> member. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">NdisMInitiateOffloadComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">NdisMInitiateOffloadComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>

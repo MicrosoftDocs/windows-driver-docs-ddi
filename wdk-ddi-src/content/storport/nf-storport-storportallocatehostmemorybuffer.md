@@ -168,10 +168,9 @@ The host memory buffer could not be allocated.
 ## -remarks
 
         
-      The caller should subsequently call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreehostmemorybuffer">StorPortFreeHostMemoryBuffer</a> when it is
+      The caller should subsequently call <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreehostmemorybuffer">StorPortFreeHostMemoryBuffer</a> when it is
     done with the host memory buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreehostmemorybuffer">StorPortFreeHostMemoryBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreehostmemorybuffer">StorPortFreeHostMemoryBuffer</a>

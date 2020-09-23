@@ -118,7 +118,7 @@ Specifies if the logical unit is sensitive to soldering. Contains one of the fol
 
 ### -field bMemoryType
 
-Specifies the desired memory type. The <b>wSupportedMemoryTypes</b> parameter in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a> indicates which memory types are supported by the device
+Specifies the desired memory type. The <b>wSupportedMemoryTypes</b> parameter in the <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a> indicates which memory types are supported by the device
 
 ### -field bDataReliability
 
@@ -126,7 +126,7 @@ Specifies if the device is protected against a power failure during a write oper
 
 ### -field bLogicalBlockSize
 
-Specifies the logical block size of the descriptor. Set the value of this equal to the corresponding value in <b>dOptimalLogicalBlockSize</b> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a> for the specific logical unit memory type.
+Specifies the logical block size of the descriptor. Set the value of this equal to the corresponding value in <b>dOptimalLogicalBlockSize</b> of <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a> for the specific logical unit memory type.
 
 ### -field qLogicalBlockCount
 
@@ -163,9 +163,8 @@ Specifies the boot LUN id.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_rpmb_unit_descriptor">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_rpmb_unit_descriptor">UFS_RPMB_UNIT_DESCRIPTOR</a>

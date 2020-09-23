@@ -92,13 +92,13 @@ Specifies the capabilities of the buffer. The capabilities of a buffer are repre
 
 #### KSDSOUND_BUFFER_CTRL_3D
 
-Indicates that the buffer is either a primary buffer or a secondary buffer with 3D-control capability. If this bit is set, the KS pin representing the buffer implements a 3D node (<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-3d-effects">KSNODETYPE_3D_EFFECTS</a>). If the KSDSOUND_BUFFER_CTRL_HRTF_3D bit is set, the 3D node supports the optional <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a> property set.
+Indicates that the buffer is either a primary buffer or a secondary buffer with 3D-control capability. If this bit is set, the KS pin representing the buffer implements a 3D node (<a href="/windows-hardware/drivers/audio/ksnodetype-3d-effects">KSNODETYPE_3D_EFFECTS</a>). If the KSDSOUND_BUFFER_CTRL_HRTF_3D bit is set, the 3D node supports the optional <a href="/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a> property set.
 
 
 
 #### KSDSOUND_BUFFER_CTRL_FREQUENCY
 
-Indicates that the buffer has frequency-control capability. If this bit is set, the pin representing the buffer implements a sample-rate conversion (<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-src">KSNODETYPE_SRC</a>) node.
+Indicates that the buffer has frequency-control capability. If this bit is set, the pin representing the buffer implements a sample-rate conversion (<a href="/windows-hardware/drivers/audio/ksnodetype-src">KSNODETYPE_SRC</a>) node.
 
 
 
@@ -110,59 +110,58 @@ Indicates that the buffer uses a head-related transfer function (HRTF) for 3D co
 
 #### KSDSOUND_BUFFER_CTRL_PAN
 
-Indicates that the buffer has pan-control capability. If this bit is set, the pin representing the buffer implements a volume node (<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-volume">KSNODETYPE_VOLUME</a>) to control panning. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/directsound-node-ordering-requirements">DirectSound Node-Ordering Requirements</a>.
+Indicates that the buffer has pan-control capability. If this bit is set, the pin representing the buffer implements a volume node (<a href="/windows-hardware/drivers/audio/ksnodetype-volume">KSNODETYPE_VOLUME</a>) to control panning. For more information, see <a href="/windows-hardware/drivers/audio/directsound-node-ordering-requirements">DirectSound Node-Ordering Requirements</a>.
 
 
 
 #### KSDSOUND_BUFFER_CTRL_VOLUME
 
-Indicates that the buffer has volume-control capability. If this bit is set, the pin representing the buffer implements a volume node (<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-volume">KSNODETYPE_VOLUME</a>) to control the stream's volume level.
+Indicates that the buffer has volume-control capability. If this bit is set, the pin representing the buffer implements a volume node (<a href="/windows-hardware/drivers/audio/ksnodetype-volume">KSNODETYPE_VOLUME</a>) to control the stream's volume level.
 
 
 
 #### KSDSOUND_BUFFER_CTRL_POSITIONNOTIFY
 
-Indicates that the buffer has position-notification capability. If this bit is set, the pin representing the buffer supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a> property.
+Indicates that the buffer has position-notification capability. If this bit is set, the pin representing the buffer supports the <a href="/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a> property.
 
 ### -field WaveFormatEx
 
-Specifies the wave-data format of the buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>.
+Specifies the wave-data format of the buffer. This member is a structure of type <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a> structure contains a <b>BufferDesc</b> member that is a KSDSOUND_BUFFERDESC structure.
+The <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a> structure contains a <b>BufferDesc</b> member that is a KSDSOUND_BUFFERDESC structure.
 
-Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure can be extended to include additional format information (for example, a channel configuration mask). For details, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>.
+Note that the <b>WaveFormatEx</b> member of the KSDSOUND_BUFFERDESC structure can be extended to include additional format information (for example, a channel configuration mask). For details, see <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-3d-effects">KSNODETYPE_3D_EFFECTS</a>
+<a href="/windows-hardware/drivers/audio/ksnodetype-3d-effects">KSNODETYPE_3D_EFFECTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-src">KSNODETYPE_SRC</a>
+<a href="/windows-hardware/drivers/audio/ksnodetype-src">KSNODETYPE_SRC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-volume">KSNODETYPE_VOLUME</a>
+<a href="/windows-hardware/drivers/audio/ksnodetype-volume">KSNODETYPE_VOLUME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>
+<a href="/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
+<a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>

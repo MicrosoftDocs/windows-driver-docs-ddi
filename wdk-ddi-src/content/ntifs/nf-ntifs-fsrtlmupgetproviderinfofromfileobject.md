@@ -165,9 +165,8 @@ A file system filter driver can quickly compare the value of the provider identi
 
 The value of the UNC provider identifier for a particular network redirector remains the same if the network redirector is unloaded from the system and then reloaded back into the system.
 
-To get the UNC provider identifier of a network redirector from the device name of the network redirector, a file system filter driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546971">FsRtlMupGetProviderIdFromName</a> routine.
+To get the UNC provider identifier of a network redirector from the device name of the network redirector, a file system filter driver can call the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlmupgetprovideridfromname">FsRtlMupGetProviderIdFromName</a> routine.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546971">FsRtlMupGetProviderIdFromName</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlmupgetprovideridfromname">FsRtlMupGetProviderIdFromName</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure contains information that a filter driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can use when a registry key is being created.
+The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure contains information that a filter driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can use when a registry key is being created.
 
 ## -struct-fields
 
 ### -field CompleteName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path of the new registry key. The path can be absolute or relative. If the path is absolute, this structure contains a fully qualified path that starts with the "\\" character. For an absolute path, the <b>RootObject</b> member specifies the <b>\REGISTRY</b> key, which is the root directory of the registry tree. If the path is relative, the path starts with a character other than "\\", and is relative to the key that is specified by the <b>RootObject</b> member.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path of the new registry key. The path can be absolute or relative. If the path is absolute, this structure contains a fully qualified path that starts with the "\\" character. For an absolute path, the <b>RootObject</b> member specifies the <b>\REGISTRY</b> key, which is the root directory of the registry tree. If the path is relative, the path starts with a character other than "\\", and is relative to the key that is specified by the <b>RootObject</b> member.
 
 ### -field RootObject
 
@@ -68,7 +68,7 @@ This member is reserved for use by the operating system. Drivers must not access
 
 ### -field Options
 
-Specifies the options for the key-create routine to use to create or open the new key. For more information, see the description of the <i>CreateOptions</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine and the description of the <i>OpenOptions</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkeyex">ZwOpenKeyEx</a> routine.
+Specifies the options for the key-create routine to use to create or open the new key. For more information, see the description of the <i>CreateOptions</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine and the description of the <i>OpenOptions</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkeyex">ZwOpenKeyEx</a> routine.
 
 ### -field Class
 
@@ -76,11 +76,11 @@ A pointer to a <b>UNICODE_STRING</b> structure that identifies the object class 
 
 ### -field SecurityDescriptor
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains security information for the key object. This pointer was obtained from the <b>SecurityDescriptor</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that was passed as an input parameter in the call to create the new registry key.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains security information for the key object. This pointer was obtained from the <b>SecurityDescriptor</b> member of the <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that was passed as an input parameter in the call to create the new registry key.
 
 ### -field SecurityQualityOfService
 
-A pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a> structure. This structure indicates whether a server can impersonate the client that is trying to create the registry key, and, if impersonation is permitted, the extent to which it is permitted.
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a> structure. This structure indicates whether a server can impersonate the client that is trying to create the registry key, and, if impersonation is permitted, the extent to which it is permitted.
 
 ### -field DesiredAccess
 
@@ -104,15 +104,15 @@ Optional driver-defined context information that the driver's <i>RegistryCallbac
 
 ### -field RootObjectContext
 
-A pointer to driver-defined context information that the driver has associated with the root of the path of the registry object by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a> routine.
+A pointer to driver-defined context information that the driver has associated with the root of the path of the registry object by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a> routine.
 
 ### -field Transaction
 
-A pointer to a transaction object for the registry operation. You can supply this pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-obopenobjectbypointer">ObOpenObjectByPointer</a> routine to obtain the corresponding transaction handle. If this member is <b>NULL</b>, the operation is being performed in non-transactional context.
+A pointer to a transaction object for the registry operation. You can supply this pointer to the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-obopenobjectbypointer">ObOpenObjectByPointer</a> routine to obtain the corresponding transaction handle. If this member is <b>NULL</b>, the operation is being performed in non-transactional context.
 
 ### -field Version
 
-The structure version number. This member distinguishes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a> structure in Windows Vista from the <b>REG_CREATE_KEY_INFORMATION_V1</b> structure in Windows 7 and later versions of Windows. The following version numbers are currently defined.
+The structure version number. This member distinguishes the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a> structure in Windows Vista from the <b>REG_CREATE_KEY_INFORMATION_V1</b> structure in Windows 7 and later versions of Windows. The following version numbers are currently defined.
 
 <table>
 <tr>
@@ -162,7 +162,7 @@ KEY_WOW64_64KEY
 
 </li>
 </ul>
-These flag bits are defined in the Wdm.h and Winnt.h header files. For more information about these flags, see <a href="https://go.microsoft.com/fwlink/p/?linkid=155080">Registry Key Security and Access Rights</a>.
+These flag bits are defined in the Wdm.h and Winnt.h header files. For more information about these flags, see <a href="/windows/win32/sysinfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 ### -field Attributes
 
@@ -182,7 +182,7 @@ OBJ_OPENLINK
 
 </li>
 </ul>
-For more information about these flags, see <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>.
+For more information about these flags, see <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>.
 
 ### -field CheckAccessMode
 
@@ -198,59 +198,58 @@ Indicates how the configuration manager performs the security access check for t
 
 </li>
 </ul>
-This security check is similar to that performed by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a> routine, which has an <i>AccessMode</i> parameter that can be set to either <b>UserMode</b> or <b>KernelMode</b>. If <b>CheckAccessMode</b> is set to <b>UserMode</b>, the configuration manager performs a full security access check regardless of whether the call originated in user mode or kernel mode. For more information about how to force user-mode security access checks on a call that originates in kernel mode, see the description of the OBJ_FORCE_ACCESS_CHECK flag in the <b>Attributes</b> member of the <b>OBJECT_ATTRIBUTES</b> structure.
+This security check is similar to that performed by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck">SeAccessCheck</a> routine, which has an <i>AccessMode</i> parameter that can be set to either <b>UserMode</b> or <b>KernelMode</b>. If <b>CheckAccessMode</b> is set to <b>UserMode</b>, the configuration manager performs a full security access check regardless of whether the call originated in user mode or kernel mode. For more information about how to force user-mode security access checks on a call that originates in kernel mode, see the description of the OBJ_FORCE_ACCESS_CHECK flag in the <b>Attributes</b> member of the <b>OBJECT_ATTRIBUTES</b> structure.
 
 ## -remarks
 
-The configuration manager passes this structure to the <i>RegistryCallback</i> routine every time that a thread tries to create a key—for example, when a user-mode thread calls <a href="https://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a> or <a href="https://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>, or when a kernel-mode driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
+The configuration manager passes this structure to the <i>RegistryCallback</i> routine every time that a thread tries to create a key—for example, when a user-mode thread calls <a href="/windows/win32/api/winreg/nf-winreg-regcreatekeya">RegCreateKey</a> or <a href="/windows/win32/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, or when a kernel-mode driver calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
 
-This structure is an extended version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a> structure that Windows Vista supports. The first 14 members, <b>CompleteName</b> through <b>Transaction</b>, are identical in the two structures. The last five members of the <b>REG_CREATE_KEY_INFORMATION_V1</b> structure, <b>Version</b> through <b>CheckAccessMode</b>, are not part of the <b>REG_CREATE_KEY_INFORMATION</b> structure.
+This structure is an extended version of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a> structure that Windows Vista supports. The first 14 members, <b>CompleteName</b> through <b>Transaction</b>, are identical in the two structures. The last five members of the <b>REG_CREATE_KEY_INFORMATION_V1</b> structure, <b>Version</b> through <b>CheckAccessMode</b>, are not part of the <b>REG_CREATE_KEY_INFORMATION</b> structure.
 
 If the driver's <i>RegistryCallback</i> routine returns STATUS_CALLBACK_BYPASS for a <b>RegNtPreCreateKeyEx</b> notification, the driver must supply the values for the <b>GrantedAccess</b>, <b>Disposition</b>, and <b>ResultObject</b> members. 
 
-The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structures that a filter driver can receive through its <i>RegistryCallback</i> routine. For more information about registry filtering operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
+The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structures that a filter driver can receive through its <i>RegistryCallback</i> routine. For more information about registry filtering operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-obopenobjectbypointer">ObOpenObjectByPointer</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-obopenobjectbypointer">ObOpenObjectByPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=155070">RegCreateKey</a>
+<a href="/windows/win32/api/winreg/nf-winreg-regcreatekeya">RegCreateKey</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>
+<a href="/windows/win32/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a>
+<a href="/windows/win32/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>

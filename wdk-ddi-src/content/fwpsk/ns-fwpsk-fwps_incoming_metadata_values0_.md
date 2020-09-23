@@ -50,15 +50,15 @@ api_name:
 
 The <b>FWPS_INCOMING_METADATA_VALUES0</b> structure defines metadata values that the filter engine passes to
   a callout's 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
-<div class="alert"><b>Note</b>  <b>FWPS_INCOMING_METADATA_VALUES0</b> is a specific version of <b>FWPS_INCOMING_METADATA_VALUES</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+  <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function.
+<div class="alert"><b>Note</b>  <b>FWPS_INCOMING_METADATA_VALUES0</b> is a specific version of <b>FWPS_INCOMING_METADATA_VALUES</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
 ### -field currentMetadataValues
 
 A UINT32 value that contains a bitwise OR of a combination of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/metadata-field-identifiers">Metadata Field Identifiers</a> that
+     <a href="/windows-hardware/drivers/network/metadata-field-identifiers">Metadata Field Identifiers</a> that
      specify which metadata values are set in the structure.
 
 ### -field flags
@@ -72,7 +72,7 @@ Reserved for system use. Callout drivers should ignore this member.
 ### -field discardMetadata
 
 An 
-     <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a> structure
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a> structure
      that describes the reason why the data was discarded. This member contains valid data only if the
      FWPS_METADATA_FIELD_DISCARD_REASON flag is set in the 
      <b>currentMetadataValues</b> member.
@@ -153,7 +153,7 @@ This member contains valid data only if the FWPS_METADATA_FIELD_TRANSPORT_HEADER
 ### -field processPath
 
 A pointer to an 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552427(v=vs.85)">FWP_BYTE_BLOB</a> structure that contains the
+     <a href="/previous-versions/windows/hardware/drivers/ff552427(v=vs.85)">FWP_BYTE_BLOB</a> structure that contains the
      full path to the process that owns the endpoint. This member contains valid data only if the
      FWPS_METADATA_FIELD_PROCESS_PATH flag is set in the 
      <b>currentMetadataValues</b> member.
@@ -193,7 +193,7 @@ The identifier of the routing compartment in which the packet either was receive
 ### -field fragmentMetadata
 
 An 
-     <a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
      FWPS_INBOUND_FRAGMENT_METADATA0</a> structure that describes the fragment data for a received packet
      fragment. This member contains valid data only if the FWPS_METADATA_FIELD_FRAGMENT_DATA flag is set in
      the 
@@ -231,7 +231,7 @@ An optional socket control data object. This member contains valid data only if 
      FWPS_METADATA_FIELD_TRANSPORT_CONTROL_DATA flag is set in the 
      <b>currentMetadataValues</b> member. For information about the WSACMSGHDR type,
      see 
-     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
+     <a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>.
 
 ### -field controlDataLength
 
@@ -241,7 +241,7 @@ The length, in bytes, of the
 ### -field packetDirection
 
 The direction of network traffic (inbound or outbound) as specified by one of the constant values of      
-      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552433(v=vs.85)">FWP_DIRECTION</a>. This member is set at the
+      <a href="/previous-versions/windows/hardware/drivers/ff552433(v=vs.85)">FWP_DIRECTION</a>. This member is set at the
       application layer enforcement (ALE) connect or receive/accept layers during a reauthorization classify
       operation. For more information, see the Remarks section.
 
@@ -319,7 +319,7 @@ The original destination of a redirected connection.
 
 ### -field redirectRecords
 
-A redirect records handle that can be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
+A redirect records handle that can be passed to the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>
@@ -459,7 +459,7 @@ The size, in bytes,  of the MAC header if the FWPS_L2_METADATA_FIELD_802_3_MAC_H
 
 ### -field wiFiOperationMode
 
-The  current Native 802.11  operation mode  if the FWPS_L2_METADATA_FIELD_802_11_OPERATION_MODE flag is set. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_current_operation_mode">DOT11_CURRENT_OPERATION_MODE</a>.
+The  current Native 802.11  operation mode  if the FWPS_L2_METADATA_FIELD_802_11_OPERATION_MODE flag is set. For more information, see <a href="/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_current_operation_mode">DOT11_CURRENT_OPERATION_MODE</a>.
      
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
@@ -545,7 +545,7 @@ A the layer 2 connection profile index.
 ## -remarks
 
 The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structure to a callout's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function. The metadata
+    <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function. The metadata
     values contained in the structure are not processed by the filter engine but are supplied to a callout's 
     <i>classifyFn</i> callout function to provide
     additional information.
@@ -581,34 +581,33 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_inbound_fragment_metadata0_">
    FWPS_INBOUND_FRAGMENT_METADATA0</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552427(v=vs.85)">FWP_BYTE_BLOB</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552427(v=vs.85)">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552433(v=vs.85)">FWP_DIRECTION</a>
+<a href="/previous-versions/windows/hardware/drivers/ff552433(v=vs.85)">FWP_DIRECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
-
+<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>

@@ -54,7 +54,7 @@ The KSPROPERTY_VIDEOCOMPRESSION_S structure describes a single KSPROPERTY_VIDEOC
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field StreamIndex
 
@@ -70,33 +70,32 @@ All KSPROPERTY_VIDEOCOMPRESSION properties that use this structure are read/writ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videocompression-keyframe-rate">KSPROPERTY_VIDEOCOMPRESSION_KEYFRAME_RATE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videocompression-keyframe-rate">KSPROPERTY_VIDEOCOMPRESSION_KEYFRAME_RATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videocompression-override-frame-size">KSPROPERTY_VIDEOCOMPRESSION_OVERRIDE_FRAME_SIZE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videocompression-override-frame-size">KSPROPERTY_VIDEOCOMPRESSION_OVERRIDE_FRAME_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videocompression-override-keyframe">KSPROPERTY_VIDEOCOMPRESSION_OVERRIDE_KEYFRAME</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videocompression-override-keyframe">KSPROPERTY_VIDEOCOMPRESSION_OVERRIDE_KEYFRAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videocompression-pframes-per-keyframe">KSPROPERTY_VIDEOCOMPRESSION_PFRAMES_PER_KEYFRAME</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videocompression-pframes-per-keyframe">KSPROPERTY_VIDEOCOMPRESSION_PFRAMES_PER_KEYFRAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videocompression-quality">KSPROPERTY_VIDEOCOMPRESSION_QUALITY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videocompression-quality">KSPROPERTY_VIDEOCOMPRESSION_QUALITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videocompression-windowsize">KSPROPERTY_VIDEOCOMPRESSION_WINDOWSIZE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videocompression-windowsize">KSPROPERTY_VIDEOCOMPRESSION_WINDOWSIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-videocompression">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocompression">PROPSETID_VIDCAP_VIDEOCOMPRESSION</a>

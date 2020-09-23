@@ -90,7 +90,7 @@ NTSTATUS DxgkddiCollectdiagnosticinfo
 
 ## -remarks
 
-This function is called at PASSIVE level, at any time in between the calls to [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) and [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md), and should support [synchronization zero level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level). The collected data shouldn't contain any private user information.
+This function is called at PASSIVE level, at any time in between the calls to [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) and [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md), and should support [synchronization zero level](/windows-hardware/drivers/display/threading-and-synchronization-zero-level). The collected data shouldn't contain any private user information.
 
 WDDM 2.7 and later drivers are required to support the **DXGK_DI_BLACKSCREEN** [**DXGK_DIAGNOSTICINFO_TYPE**](ne-dispmprt-dxgk_diagnosticinfo_type.md) enum type for black screen black box data collection.
 
@@ -105,4 +105,3 @@ It is recommended to use **pCollectDiagnosticInfo->BucketingString** to bucketiz
 [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md)
 
 [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md)
-

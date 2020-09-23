@@ -64,9 +64,8 @@ Maximum number of possible instances of the joint in the template topology.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdatypes/ns-bdatypes-_bda_template_connection">BDA_TEMPLATE_CONNECTION</a>
+<a href="/windows-hardware/drivers/ddi/bdatypes/ns-bdatypes-_bda_template_connection">BDA_TEMPLATE_CONNECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>

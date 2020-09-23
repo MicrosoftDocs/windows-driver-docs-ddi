@@ -55,7 +55,7 @@ api_name:
 ### -param hDeviceObject 
 
 [in]
-The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>.
+The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>.
 
 ## -returns
 
@@ -69,5 +69,4 @@ Call <b>RemovePrintDeviceObject</b> to remove the device object for a printer th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>

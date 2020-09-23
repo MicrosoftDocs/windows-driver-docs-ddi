@@ -60,7 +60,7 @@ A handle to the display device.
 
 *pData* [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_createpagingqueue">D3DDDICB_CREATEPAGINGQUEUE</a> structure that provides the details of the requested operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_createpagingqueue">D3DDDICB_CREATEPAGINGQUEUE</a> structure that provides the details of the requested operation.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 
 ## -remarks
 
-A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroypagingqueuecb">pfnDestroyPagingQueueCb</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
-
+A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroypagingqueuecb">pfnDestroyPagingQueueCb</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.

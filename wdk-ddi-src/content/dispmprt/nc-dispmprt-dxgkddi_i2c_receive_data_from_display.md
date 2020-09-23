@@ -53,7 +53,7 @@ The <i>DxgkDdiI2CReceiveDataFromDisplay</i> returns data received from an I2C de
 ### -param MiniportDeviceContext 
 
 [in]
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 ### -param VidPnTargetId 
 
@@ -117,5 +117,4 @@ If the display adapter supports HDCP, <i>DxgkDdiI2CReceiveDataFromDisplay</i> mu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_i2c_transmit_data_to_display">DxgkDdiI2CTransmitDataToDisplay</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_i2c_transmit_data_to_display">DxgkDdiI2CTransmitDataToDisplay</a>

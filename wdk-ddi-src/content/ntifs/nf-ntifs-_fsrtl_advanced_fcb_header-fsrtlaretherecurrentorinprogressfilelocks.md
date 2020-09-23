@@ -53,7 +53,7 @@ The<b>FsRtlAreThereCurrentOrInProgressFileLocks </b>routine determines if there 
 ### -param FileLock 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure for the file to be checked.
+A pointer to the <a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a> structure for the file to be checked.
 
 ## -returns
 
@@ -61,25 +61,24 @@ The routine returns <b>TRUE</b> when there are any byte range locks assigned to 
 
 ## -remarks
 
-File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routine in <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a> to determine whether to grant a shared oplock.
+File systems can use the <b>FsRtlAreThereCurrentOrInProgressFileLocks</b> routine in <a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a> to determine whether to grant a shared oplock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a>
+<a href="/windows-hardware/drivers/ifs/file-lock">FILE_LOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextfilelock">FsRtlGetNextFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextfilelock">FsRtlGetNextFileLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
-
+<a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>

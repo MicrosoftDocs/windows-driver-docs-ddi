@@ -55,7 +55,7 @@ Handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
 
-A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a name for string value.
+A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a name for string value.
 
 ### -param StringAttributes
 
@@ -76,4 +76,3 @@ The client driver obtains a handle to a NETCONFIGURATION object by calling [NetA
 By default, the framework string object is parented to the collection object. The client driver can change this by setting the **ParentObject** member of the [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure.
 
 ## -see-also
-

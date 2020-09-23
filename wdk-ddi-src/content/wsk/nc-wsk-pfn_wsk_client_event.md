@@ -57,7 +57,7 @@ The
 [in, optional]
 A pointer to the context value that was specified by the 
      <i>WskClientNpi</i> parameter passed to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> function.
+     <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> function.
 
 ### -param EventType
 
@@ -128,9 +128,9 @@ The additional information that is contained in the buffer that is pointed to by
 If a WSK application does not implement a 
     <i>WskClientEvent</i> event callback function, it should set the 
     <i>WskClientEvent</i> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a> structure to <b>NULL</b>
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a> structure to <b>NULL</b>
     before it calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>.
+    <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>.
 
 The WSK subsystem calls a WSK application's 
     <i>WskClientEvent</i> event callback function at IRQL <= DISPATCH_LEVEL.
@@ -139,9 +139,8 @@ A WSK application's <i>WskClientEvent</i> event callback function must not wait 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>

@@ -70,5 +70,4 @@ If no oplock key was provided when the file objects were created, the file objec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockkeysequal">FsRtlOplockKeysEqual</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockkeysequal">FsRtlOplockKeysEqual</a>

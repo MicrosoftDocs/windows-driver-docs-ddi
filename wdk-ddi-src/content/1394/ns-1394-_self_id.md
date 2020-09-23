@@ -191,5 +191,4 @@ This structure corresponds to self ID packet 0, as described in the <i>P1394a</i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_topology_map">TOPOLOGY_MAP</a>
-
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_topology_map">TOPOLOGY_MAP</a>

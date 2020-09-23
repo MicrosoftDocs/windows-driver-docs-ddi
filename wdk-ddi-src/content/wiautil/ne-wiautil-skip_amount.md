@@ -64,5 +64,4 @@ Skip over both the file and info headers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-converttobmp">CWiauFormatConverter::ConvertToBmp</a>
-
+<a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-converttobmp">CWiauFormatConverter::ConvertToBmp</a>

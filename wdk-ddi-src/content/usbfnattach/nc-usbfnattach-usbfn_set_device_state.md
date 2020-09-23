@@ -58,12 +58,12 @@ The filter driver's implementation to set the device state and operating bus spe
 ### -param DeviceState 
 
 [in]
-    A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_device_state">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
+    A <a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_device_state">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
 
 ### -param BusSpeed 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
+A <a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
 
 ## -returns
 
@@ -71,7 +71,7 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 ## -remarks
 
-To support attach and detatch detection, the USB lower filter driver must publish its support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>.
+To support attach and detatch detection, the USB lower filter driver must publish its support. During the publishing process, the driver also registers its implementation of this  callback function. For more information, see <a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>.
 
 The lower filter driver might implement  a <i>USBFN_SET_DEVICE_STATE</i> even callback function if it requires notification of device state changes to properly configure charging when attached to a host, or in lab scenarios where charging via USB must be disabled.
 
@@ -105,5 +105,4 @@ UsbLowerFilter_SetDeviceState(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
-
+<a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>

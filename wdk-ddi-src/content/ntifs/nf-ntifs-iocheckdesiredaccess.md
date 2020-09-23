@@ -64,5 +64,4 @@ Mask value that specifies the access currently granted to the file.
 
 ## -see-also
 
-[SeAccessCheck](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck)
-
+[SeAccessCheck](../wdm/nf-wdm-seaccesscheck.md)

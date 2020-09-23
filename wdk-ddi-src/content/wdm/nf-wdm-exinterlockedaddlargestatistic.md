@@ -70,9 +70,8 @@ Support routines that do interlocked operations must not cause a page fault. Nei
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545335">ExInterlockedAddLargeInteger</a>
+<a href="/previous-versions/ff545335(v=vs.85)">ExInterlockedAddLargeInteger</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545343">ExInterlockedAddUlong</a>
-
+<a href="/previous-versions/ff545343(v=vs.85)">ExInterlockedAddUlong</a>

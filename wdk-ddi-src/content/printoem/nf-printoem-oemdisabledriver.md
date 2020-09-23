@@ -48,5 +48,4 @@ api_name:
 
 This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins.
 
-Use [IPrintOemPS::DisableDriver (Pscript)](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disabledriver) or [IPrintOemUni::DisableDriver (Unidrv)](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disabledriver) instead.
-
+Use [IPrintOemPS::DisableDriver (Pscript)](../prcomoem/nf-prcomoem-iprintoemps-disabledriver.md) or [IPrintOemUni::DisableDriver (Unidrv)](../prcomoem/nf-prcomoem-iprintoemuni-disabledriver.md) instead.

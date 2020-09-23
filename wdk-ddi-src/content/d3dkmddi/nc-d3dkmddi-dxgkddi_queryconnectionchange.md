@@ -58,7 +58,7 @@ A handle that identifies the adapter.
 
 ### -param pQueryConnectionChange
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryconnectionchange">DXGKARG_QUERYCONNECTIONCHANGE</a> structure that provides the OS allocated buffer into which the oldest change should be copied by the driver. The oldest change is judged by lowest ConnectionChangeId.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryconnectionchange">DXGKARG_QUERYCONNECTIONCHANGE</a> structure that provides the OS allocated buffer into which the oldest change should be copied by the driver. The oldest change is judged by lowest ConnectionChangeId.
 
 ## -returns
 
@@ -70,4 +70,3 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 ## -remarks
 
 This function is always called at PASSIVE level so the supporting code should be made pageable.
-

@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure specifies the results of the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure specifies the results of the
   acceptance procedure of the 802.11 station after it receives an incoming association request, or
   re-association request, from a peer station on an infrastructure BSS.
 
@@ -133,15 +133,14 @@ typedef struct _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS {
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS
     structure when the driver makes an
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
+    <a href="/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED</a> status indication.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-

@@ -71,21 +71,20 @@ The semaphore object is initialized with the specified initial count and limit.
 
 Storage for a semaphore object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller.
 
-For more information about semaphore objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/semaphore-objects">Semaphore Objects</a>.
+For more information about semaphore objects, see <a href="/windows-hardware/drivers/kernel/semaphore-objects">Semaphore Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatesemaphore">KeReadStateSemaphore</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereadstatesemaphore">KeReadStateSemaphore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasesemaphore">KeReleaseSemaphore</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasesemaphore">KeReleaseSemaphore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>

@@ -48,7 +48,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-A driver's <i>EvtDeviceSurpriseRemoval</i> event callback function performs any operations that are needed after a device has been unexpectedly removed from the system or after a driver reports that <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/reporting-device-failures">the device has failed</a>.
+A driver's <i>EvtDeviceSurpriseRemoval</i> event callback function performs any operations that are needed after a device has been unexpectedly removed from the system or after a driver reports that <a href="/windows-hardware/drivers/wdf/reporting-device-failures">the device has failed</a>.
 
 ## -parameters
 
@@ -59,9 +59,8 @@ A handle to a framework device object.
 
 ## -remarks
 
-To register an <i>EvtDeviceSurpriseRemoval</i> callback function, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
+To register an <i>EvtDeviceSurpriseRemoval</i> callback function, a driver must call <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
 
-The framework does not synchronize the <i>EvtDeviceSurpriseRemoval</i> callback function with other PnP and power management callback functions. For information about how the framework synchronizes the execution of a driver's event callback functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-automatic-synchronization">Using Automatic Synchronization</a>. 
+The framework does not synchronize the <i>EvtDeviceSurpriseRemoval</i> callback function with other PnP and power management callback functions. For information about how the framework synchronizes the execution of a driver's event callback functions, see <a href="/windows-hardware/drivers/wdf/using-automatic-synchronization">Using Automatic Synchronization</a>. 
 
-For more information about when the framework calls this callback function, and for more information about synchronization issues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/a-user-unplugs-a-device">A User Unplugs a Device</a>.
-
+For more information about when the framework calls this callback function, and for more information about synchronization issues, see <a href="/windows-hardware/drivers/wdf/a-user-unplugs-a-device">A User Unplugs a Device</a>.

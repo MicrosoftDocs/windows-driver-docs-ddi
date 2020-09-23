@@ -63,7 +63,7 @@ Specifies the final status of the client's original request to register the SAP,
 [in]
 Specifies the NDIS-supplied handle to the SAP if the registration is successful. The call manager
      obtained this handle as an input parameter to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">
      ProtocolCmRegisterSap</a> function.
 
 ### -param CallMgrSapContext 
@@ -78,11 +78,11 @@ Specifies the handle to a caller-supplied resident context area in which the CM 
 
 A stand-alone call manager must call 
     <b>NdisCmRegisterSapComplete</b> if its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a> function
     returned NDIS_STATUS_PENDING when it was called with the given 
     <i>NdisSapHandle</i> . The call to 
     <b>NdisCmRegisterSapComplete</b> causes NDIS to call the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_register_sap_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_register_sap_complete">
     ProtocolClRegisterSapComplete</a> function.
 
 If the call manager sets 
@@ -100,23 +100,22 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregistersapcomplete">NdisMCmRegisterSapComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregistersapcomplete">NdisMCmRegisterSapComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_register_sap_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_register_sap_complete">
    ProtocolClRegisterSapComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a>

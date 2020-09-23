@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE.
+The **FsRtlIsNameInUnUpcasedExpression** routine determines whether a Unicode string matches the specified pattern. Unlike the [FsRtlIsNameInExpression routine](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression.md), *FsRtlIsNameInUnUpcasedExpression* does not expect the Expression to be in upper case if *IgnoreCase* is TRUE.
 
 ## -parameters
 
@@ -87,5 +87,4 @@ If both parameters are null strings, FsRtlIsNameInUnUpcasedExpression returns TR
 
 ## -see-also
 
-- [FsRtlIsNameInExpression](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression)
-
+- [FsRtlIsNameInExpression](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression.md)

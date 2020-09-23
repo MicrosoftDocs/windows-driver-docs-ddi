@@ -102,7 +102,7 @@ Specifies whether the driver for the underlying bus can drive the device if ther
 
 ### -field SurpriseRemovalOK
 
-Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with **StorRemoveDevice** as the **PnPAction** in the [**SCSI_PNP_REQUEST_BLOCK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_pnp_request_block) structure. If **SurpriseRemovalOK** is set to **TRUE**, the device can be safely removed from its immediate parent regardless of the state that its driver is in.
+Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with **StorRemoveDevice** as the **PnPAction** in the [**SCSI_PNP_REQUEST_BLOCK**](./ns-storport-_scsi_pnp_request_block.md) structure. If **SurpriseRemovalOK** is set to **TRUE**, the device can be safely removed from its immediate parent regardless of the state that its driver is in.
 
 ### -field NoDisplayInUI
 
@@ -132,7 +132,7 @@ Reserved bits.
 
 ## -remarks
 
-**STOR_DEVICE_CAPABILITIES_EX** is a subset of the [**DEVICE_CAPABILITIES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_capabilities) structure containing the members relevant to storage devices.
+**STOR_DEVICE_CAPABILITIES_EX** is a subset of the [**DEVICE_CAPABILITIES**](../wdm/ns-wdm-_device_capabilities.md) structure containing the members relevant to storage devices.
 
 When a miniport driver receives an SRB in its [**HwStorStartIo**](nc-storport-hw_startio.md) routine where the SRB function is SRB_FUNCTION_PNP, the SRB is formatted as a [**SCSI_PNP_REQUEST_BLOCK**](ns-storport-_scsi_pnp_request_block.md) structure. If the **PnPAction** member of the SRB is **StorQueryCapabilities**, the miniport can return a **STOR_DEVICE_CAPABILITIES_EX** structure in the **DataBuffer** member of the SRB.
 
@@ -147,4 +147,3 @@ The eject, removal, and install characteristics for the device are set in the **
 [**SCSI_PNP_REQUEST_BLOCK**](ns-storport-_scsi_pnp_request_block.md)
 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
-

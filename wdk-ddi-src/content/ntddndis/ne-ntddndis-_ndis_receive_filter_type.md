@@ -75,17 +75,16 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 The NDIS_RECEIVE_FILTER_TYPE enumeration is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_parameters">
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_parameters">
     NDIS_RECEIVE_FILTER_PARAMETERS</a> structure.
 
-For more information about VMQ, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>.
+For more information about VMQ, see <a href="/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>.
 
-For more information about SR-IOV, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>.
+For more information about SR-IOV, see <a href="/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>.
 
-For more information about packet coalescing, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS Packet Coalescing</a>.
+For more information about packet coalescing, see <a href="/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS Packet Coalescing</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_parameters">
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_parameters">
    NDIS_RECEIVE_FILTER_PARAMETERS</a>
-

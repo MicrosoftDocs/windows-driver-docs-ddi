@@ -77,21 +77,20 @@ Minidrivers do not need to be running in a C++ environment to use this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteraggregatedclientunknown">KsDeviceRegisterAggregatedClientUnknown</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteraggregatedclientunknown">KsDeviceRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryregisteraggregatedclientunknown">KsFilterFactoryRegisterAggregatedClientUnknown</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryregisteraggregatedclientunknown">KsFilterFactoryRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisteraggregatedclientunknown">KsFilterRegisterAggregatedClientUnknown</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisteraggregatedclientunknown">KsFilterRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetouterunknown">KsGetOuterUnknown</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetouterunknown">KsGetOuterUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisteraggregatedclientunknown">KsPinRegisterAggregatedClientUnknown</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisteraggregatedclientunknown">KsPinRegisterAggregatedClientUnknown</a>

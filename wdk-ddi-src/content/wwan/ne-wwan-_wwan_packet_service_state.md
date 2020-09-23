@@ -82,5 +82,4 @@ The packet service attach or detach state is typically reflected in the device's
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_packet_service">WWAN_PACKET_SERVICE</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_packet_service">WWAN_PACKET_SERVICE</a>

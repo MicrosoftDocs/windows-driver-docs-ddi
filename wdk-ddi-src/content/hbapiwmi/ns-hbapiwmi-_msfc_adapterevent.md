@@ -56,7 +56,7 @@ The MSFC_AdapterEvent structure is used by HBA miniport drivers that support the
 
 ### -field EventType
 
-Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
+Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 ### -field PortWWN
 
@@ -64,15 +64,14 @@ Contains the worldwide name of the port that generated the event.
 
 ## -remarks
 
-The WMI tool suite generates a declaration for this structure in <i>Hbapiwm.h </i>after compiling the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-adapterevent-wmi-class">MSFC_AdapterEvent WMI Class</a>.
+The WMI tool suite generates a declaration for this structure in <i>Hbapiwm.h </i>after compiling the <a href="/windows-hardware/drivers/storage/msfc-adapterevent-wmi-class">MSFC_AdapterEvent WMI Class</a>.
 
 For more information about event types and worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
+<a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-adapterevent-wmi-class">MSFC_AdapterEvent WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msfc-adapterevent-wmi-class">MSFC_AdapterEvent WMI Class</a>

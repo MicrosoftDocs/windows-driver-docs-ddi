@@ -52,7 +52,7 @@ The _URB_CONTROL_GET_CONFIGURATION_REQUEST structure is used by USB client drive
 
 ### -field Hdr
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_header">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be set to URB_FUNCTION_GET_CONFIGURATION.
+Pointer to a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_header">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be set to URB_FUNCTION_GET_CONFIGURATION.
 
 <b>Hdr.Length</b> must equal <code>sizeof(_URB_CONTROL_GET_CONFIGURATION_REQUEST)</code>.
 
@@ -94,13 +94,12 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>
+<a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_header">_URB_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_header">_URB_HEADER</a>

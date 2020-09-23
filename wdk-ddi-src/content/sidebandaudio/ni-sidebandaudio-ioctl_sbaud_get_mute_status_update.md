@@ -35,7 +35,7 @@ api_name:
 
 # IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -46,19 +46,19 @@ The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL Gets the mute level setting of the 
 
 ### -input-buffer
 
-[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params) with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
+[SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md) with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
 
 ### -input-buffer-length 
 
-Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params).
+Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md).
 
 ### -output-buffer
 
-[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params)
+[SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md)
 
 ### -output-buffer-length 
 
-Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params).
+Size of [SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md).
 
 ### -in-out-buffer
 
@@ -72,7 +72,7 @@ Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -80,5 +80,4 @@ The mute update IOCTL can be used in two modes - update and immediate. If SIDEBA
 
 ## -see-also
 
-[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params)
-
+[SIDEBANDAUDIO_MUTE_PARAMS](./ns-sidebandaudio-_sidebandaudio_mute_params.md)

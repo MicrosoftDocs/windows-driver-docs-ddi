@@ -75,15 +75,15 @@ VOID WdfInterruptReleaseLock(
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-The <b>WdfInterruptReleaseLock</b> method releases the specified interrupt object's spin lock or wait lock and returns the processor's IRQL to the level that it was set to before the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>.
+The <b>WdfInterruptReleaseLock</b> method releases the specified interrupt object's spin lock or wait lock and returns the processor's IRQL to the level that it was set to before the driver called <a href="/previous-versions/ff547340(v=vs.85)">WdfInterruptAcquireLock</a>.
 
 Your driver cannot call <b>WdfInterruptReleaseLock</b> before the framework has called the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a> callback function or after the framework has called the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a> callback function.
 
-For more information about the <b>WdfInterruptReleaseLock</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
+For more information about the <b>WdfInterruptReleaseLock</b> method, see <a href="/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
 
-For more information about handling interrupts in framework-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
+For more information about handling interrupts in framework-based drivers, see <a href="/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
 
-This method must be called at the DIRQL that was set by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>.
+This method must be called at the DIRQL that was set by <a href="/previous-versions/ff547340(v=vs.85)">WdfInterruptAcquireLock</a>.
 
 For passive level interrupts, the driver must call <b>WdfInterruptReleaseLock</b> at IRQL = PASSIVE_LEVEL.
 
@@ -91,9 +91,8 @@ For passive level interrupts, the driver must call <b>WdfInterruptReleaseLock</b
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsynchronize.md">WdfInterruptSynchronize</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
+<a href="/previous-versions/ff547340(v=vs.85)">WdfInterruptAcquireLock</a>
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a>
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a>
-

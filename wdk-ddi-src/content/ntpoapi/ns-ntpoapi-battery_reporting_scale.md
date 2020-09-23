@@ -47,7 +47,7 @@ req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
 ## -description
 
 
-Battery miniclass drivers fill in this structure in response to certain <a href="https://docs.microsoft.com/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> requests. 
+Battery miniclass drivers fill in this structure in response to certain <a href="/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> requests. 
 
 
 ## -struct-fields
@@ -70,8 +70,7 @@ Specify the battery capacity described by the corresponding granularity, in mill
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
+<a href="/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
  
 
  
-

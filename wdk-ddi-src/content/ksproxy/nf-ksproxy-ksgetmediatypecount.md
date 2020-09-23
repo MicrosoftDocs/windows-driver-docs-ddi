@@ -76,9 +76,8 @@ The number of available media types that <b>KsGetMediaTypeCount</b> returns is e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>
+<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
-
+<a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>

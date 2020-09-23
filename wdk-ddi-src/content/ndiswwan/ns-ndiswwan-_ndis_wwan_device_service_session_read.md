@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SESSION_READ)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field ReadData
 
@@ -110,5 +110,4 @@ The data that has been read from a device service session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session_read">WWAN_DEVICE_SERVICE_SESSION_READ</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session_read">WWAN_DEVICE_SERVICE_SESSION_READ</a>

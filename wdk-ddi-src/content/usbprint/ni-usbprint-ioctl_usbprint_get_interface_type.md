@@ -37,7 +37,7 @@ product:
 
 # IOCTL_USBPRINT_GET_INTERFACE_TYPE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -67,7 +67,7 @@ sizeof(DWORD)
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -remarks
 
@@ -84,4 +84,3 @@ IOCTL_USBPRINT_GET_INTERFACE_TYPE returns one of the following values:
 7-1-4 refers to USB class printer(7), subclass(1), protocol(4==IPP over USB).
 
 ## -see-also
-

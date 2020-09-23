@@ -56,7 +56,7 @@ The <b>NDIS_OPEN_NDK_ADAPTER_PARAMETERS</b> structure specifies parameters to op
 
 ### -field Version
 
-The version of the NDK provider interface (<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>) that is to be used. 
+The version of the NDK provider interface (<a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>) that is to be used. 
 
 For NDIS 6.30 (Windows Server 2012), the major version number is 1. The  minor version number is 1.
 
@@ -68,13 +68,12 @@ For NDIS 6.40 (Windows Server 2012 R2), the major version number is 1. The  mi
 
 ## -remarks
 
-To open an NDK adapter, NDIS calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a> function and passes it a  pointer to an <b>NDIS_OPEN_NDK_ADAPTER_PARAMETERS</b> structure that defines the NDK adapter open parameters.
+To open an NDK adapter, NDIS calls the <a href="/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a> function and passes it a  pointer to an <b>NDIS_OPEN_NDK_ADAPTER_PARAMETERS</b> structure that defines the NDK adapter open parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
+<a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>
-
+<a href="/windows-hardware/drivers/ddi/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>

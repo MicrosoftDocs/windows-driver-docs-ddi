@@ -54,7 +54,7 @@ The SYSAUDIO_INSTANCE_INFO structure specifies which virtual audio device to ope
 
 ### -field Property
 
-Specifies the property. This parameter is a structure of type <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
+Specifies the property. This parameter is a structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
 ### -field Flags
 
@@ -62,31 +62,30 @@ Flags specifying how to configure the virtual audio device. Currently, the only 
 
 ### -field DeviceNumber
 
-Specifies the device ID. This member identifies the virtual audio device that is to be opened by the property request. If SysAudio enumerates <i>N</i> virtual audio devices (see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-device-count">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>), the valid device IDs range from 0 to <i>N</i>-1.
+Specifies the device ID. This member identifies the virtual audio device that is to be opened by the property request. If SysAudio enumerates <i>N</i> virtual audio devices (see <a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-device-count">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>), the valid device IDs range from 0 to <i>N</i>-1.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-instance-info">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-instance-info">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a> property.
 
 By default, a virtual audio device combines its wave-rendering pins. The SYSAUDIO_FLAGS_DONT_COMBINE_PINS flag overrides this default.
 
-When pins are combined, the virtual audio device exposes a single pin factory that combines hardware-accelerated rendering pins on the audio device with software-emulated mixer pins on the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">KMixer system driver</a>. If the pins are not combined, then hardware-accelerated pins and software-emulated pins are exposed through separate pin factories. In order to correctly report the number of hardware-accelerated pins to application programs, DirectSound requires that the pins not be combined.
+When pins are combined, the virtual audio device exposes a single pin factory that combines hardware-accelerated rendering pins on the audio device with software-emulated mixer pins on the <a href="/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">KMixer system driver</a>. If the pins are not combined, then hardware-accelerated pins and software-emulated pins are exposed through separate pin factories. In order to correctly report the number of hardware-accelerated pins to application programs, DirectSound requires that the pins not be combined.
 
-This property is similar to <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-device-instance">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>, with the exception that it includes flags specifying how to configure the virtual audio device.
+This property is similar to <a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-device-instance">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>, with the exception that it includes flags specifying how to configure the virtual audio device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-device-count">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-device-count">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-device-instance">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-device-instance">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-instance-info">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-instance-info">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>

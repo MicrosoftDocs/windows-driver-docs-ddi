@@ -75,5 +75,4 @@ The **MmPrefetchPages** routine reads groups of pages from secondary storage in 
 
 > [!NOTE]
 >
-> The [section object](https://docs.microsoft.com/windows-hardware/drivers/kernel/section-objects-and-views) must already exist for the file to be prefetched. A section handle can be obtained by calling [**ZwCreateSection**](../wdm/nf-wdm-zwcreatefile.md).
-
+> The [section object](/windows-hardware/drivers/kernel/section-objects-and-views) must already exist for the file to be prefetched. A section handle can be obtained by calling [**ZwCreateSection**](../wdm/nf-wdm-zwcreatefile.md).

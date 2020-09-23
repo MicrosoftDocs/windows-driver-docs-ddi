@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The VOLUME_CONTROL structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_volume">IOCTL_CDROM_GET_VOLUME</a> request to retrieve volume values for up to four audio ports.
+The VOLUME_CONTROL structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_volume">IOCTL_CDROM_GET_VOLUME</a> request to retrieve volume values for up to four audio ports.
 
 ## -struct-fields
 
@@ -60,5 +60,4 @@ Pointer to an array of volume values, one for each of the ports, with a maximum 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_volume">IOCTL_CDROM_GET_VOLUME</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_volume">IOCTL_CDROM_GET_VOLUME</a>

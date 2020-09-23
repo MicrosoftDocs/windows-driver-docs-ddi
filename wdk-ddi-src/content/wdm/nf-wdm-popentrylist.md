@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>PopEntryList</b> routine removes the first entry from a singly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structures.
+The <b>PopEntryList</b> routine removes the first entry from a singly linked list of <a href="/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structures.
 
 ## -parameters
 
 ### -param ListHead 
 
 [in, out]
-Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structure that represents the head of the list. On return, <i>ListHead</i>-><b>Next</b> points to the beginning of the list with the first entry removed.
+Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-single_list_entry">SINGLE_LIST_ENTRY</a> structure that represents the head of the list. On return, <i>ListHead</i>-><b>Next</b> points to the beginning of the list with the first entry removed.
 
 ## -returns
 
@@ -63,15 +63,14 @@ Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-nt
 
 <b>PopEntryList</b> removes the first entry from the list by setting <i>ListHead</i>-><b>Next</b> to point to the second entry in the list.
 
-For information about using this routine when implementing a singly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
+For information about using this routine when implementing a singly linked list, see <a href="/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 Callers of <b>PopEntryList</b> can be running at any IRQL. If <b>PopEntryList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for <i>ListHead</i> and the list entries must be resident.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545408">ExInterlockedPopEntryList</a>
+<a href="/previous-versions/ff545408(v=vs.85)">ExInterlockedPopEntryList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pushentrylist">PushEntryList</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pushentrylist">PushEntryList</a>

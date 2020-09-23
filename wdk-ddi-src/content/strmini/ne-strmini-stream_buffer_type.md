@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This enumeration defines the buffer types for <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">StreamClassGetPhysicalAddress</a>.
+This enumeration defines the buffer types for <a href="/dotnet/core/rid-catalog">StreamClassGetPhysicalAddress</a>.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Indicates the physical address of the DMA buffer.
 ### -field SRBDataBuffer
 
 Indicates the physical address of a data buffer.
-

@@ -60,7 +60,7 @@ On input, a handle to the plug.
 
 ### -field Pcr
 
-On input, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_pcr">AV_PCR</a> structure that contains settings for the plug.
+On input, an <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_pcr">AV_PCR</a> structure that contains settings for the plug.
 
 ## -remarks
 
@@ -72,5 +72,4 @@ If a driver attempts to set the contents of a plug register it did not create, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
-
+<a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>

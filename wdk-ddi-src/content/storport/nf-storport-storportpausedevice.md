@@ -54,7 +54,7 @@ The <b>StorPortPauseDevice</b> routine pauses a specific logical unit device for
 ### -param HwDeviceExtension 
 
 [in]
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 ### -param PathId 
 
@@ -85,5 +85,4 @@ When the time-out expires, I/O requests to the device will be resumed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportresumedevice">StorPortResumeDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportresumedevice">StorPortResumeDevice</a>

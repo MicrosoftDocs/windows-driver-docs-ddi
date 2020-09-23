@@ -58,7 +58,7 @@ The <b>NDIS_FILTER_ATTACH_PARAMETERS</b> structure defines the initialization pa
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_FILTER_ATTACH_PARAMETERS</b> structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_FILTER_ATTACH_PARAMETERS.
@@ -116,7 +116,7 @@ The NDIS interface index of the filter module that NDIS is attaching to the driv
 ### -field NetLuid
 
 The NDIS network interface 
-     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value for the filter module that NDIS is
+     <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value for the filter module that NDIS is
      attaching to the driver stack. The NET_LUID is equivalent to the interface name (<i>ifName</i> in RFC 2863
      <i>)</i>.
 
@@ -135,7 +135,7 @@ The NDIS network interface index of the base miniport adapter. That is, if there
 A pointer to an NDIS_STRING type value that contains a counted Unicode string. This string
      specifies the friendly name of the interface for the base miniport adapter. For Windows 2000 and later
      versions, NDIS defines the NDIS_STRING type as a 
-     <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+     <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 ### -field BaseMiniportName
 
@@ -144,42 +144,42 @@ The name of the base miniport adapter.
 ### -field MediaConnectState
 
 The 
-     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state">
+     <a href="/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state">
      NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
 
 ### -field MediaDuplexState
 
 The media duplex state for the underlying miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>.
+     <a href="/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>.
 
 ### -field XmitLinkSpeed
 
 The current transmit link speed of the underlying miniport adapter in bits per second. For more
      information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>.
+     <a href="/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>.
 
 ### -field RcvLinkSpeed
 
 The current receive link speed of the underlying miniport adapter in bits per second. For more
      information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>.
+     <a href="/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>.
 
 ### -field MiniportMediaType
 
 The 
      <b>NdisMedium</b><i>Xxx</i> type that the base underlying miniport adapter supports. For more
      information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a>.
 
 ### -field MiniportPhysicalMediaType
 
 The physical medium type for the base underlying miniport adapter. For more information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-physical-medium">OID_GEN_PHYSICAL_MEDIUM</a>.
+     <a href="/windows-hardware/drivers/network/oid-gen-physical-medium">OID_GEN_PHYSICAL_MEDIUM</a>.
 
 ### -field MiniportMediaSpecificAttributes
 
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that
      identifies a structure that contains miniport media-specific attributes, or <b>NULL</b> if there are no such
      attributes. The 
      <b>Type</b> member of the NDIS_OBJECT_HEADER structure identifies the type of the
@@ -188,13 +188,13 @@ A pointer to an
      <b>Type</b> member should be
      NDIS_OBJECT_TYPE_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES, and the 
      <b>MiniportMediaSpecificAttributes</b> member points to an 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">
+     <a href="/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">
      NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a> structure.
 
 ### -field DefaultOffloadConfiguration
 
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure which defines task
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure which defines task
      offload attributes. The filter driver should review these attributes to obtain the task offload
      capabilities of the underlying drivers. The filter driver should modify these attributes, if necessary,
      to reflect any changes in the task offload support that it requires.
@@ -206,13 +206,13 @@ The MAC address length, in bytes. The MAC address length is specific to the type
 ### -field CurrentMacAddress
 
 The current MAC address. For example, the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-current-address">OID_802_3_CURRENT_ADDRESS</a> OID
+     <a href="/windows-hardware/drivers/network/oid-802-3-current-address">OID_802_3_CURRENT_ADDRESS</a> OID
      specifies the current MAC address for IEEE 802.3 drivers.
 
 ### -field BaseMiniportNetLuid
 
 The NDIS network interface 
-     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> of the base miniport adapter. That is, if
+     <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> of the base miniport adapter. That is, if
      there are virtual miniports or filter modules that are installed over a physical miniport adapter, the
      value of this member is the NET_LUID of the physical miniport adapter or a virtual miniport of the
      highest-level MUX intermediate driver.
@@ -248,7 +248,7 @@ Reserved for future use.
 ### -field HDSplitCurrentConfig
 
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hd_split_current_config">
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hd_split_current_config">
      NDIS_HD_SPLIT_CURRENT_CONFIG</a> structure. This structure specifies the current header-data split
      configuration of the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does
      not support header-data split.
@@ -256,7 +256,7 @@ A pointer to an
 ### -field ReceiveFilterCapabilities
 
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_capabilities">
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_capabilities">
      NDIS_RECEIVE_FILTER_CAPABILITIES</a> structure. This structure specifies the generic filtering
      capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not
      support receive filtering.
@@ -264,13 +264,13 @@ A pointer to an
 ### -field MiniportPhysicalDeviceObject
 
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This structure
      represents the physical device for the underlying miniport adapter.
 
 ### -field NicSwitchCapabilities
 
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_capabilities">
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_capabilities">
      NDIS_NIC_SWITCH_CAPABILITIES</a> structure. This structure specifies the NIC switch capabilities of
      the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support NIC
      switch features.
@@ -281,13 +281,13 @@ A Boolean value that, if set to TRUE, indicates whether a network interface (if)
 
 ### -field SriovCapabilities
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_sriov_capabilities">NDIS_SRIOV_CAPABILITIES</a> structure. This structure specifies the single root I/O virtualization (SR-IOV) capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support SR-IOV features.
+A pointer to an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_sriov_capabilities">NDIS_SRIOV_CAPABILITIES</a> structure. This structure specifies the single root I/O virtualization (SR-IOV) capabilities that are currently enabled on the underlying miniport adapter. This value can be <b>NULL</b> if the miniport adapter does not support SR-IOV features.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>.
+For more information, see <a href="/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>.
 
 ### -field NicSwitchArray
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_info_array">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.  This array enumerates the NIC switches that have been created on the miniport adapter. NIC switches can be created only if SR-IOV is supported and enabled on the adapter. 
+A pointer to an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_info_array">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.  This array enumerates the NIC switches that have been created on the miniport adapter. NIC switches can be created only if SR-IOV is supported and enabled on the adapter. 
 
 <div class="alert"><b>Note</b>  Starting with Windows Server 2012, Windows supports only the default NIC switch that is created on the physical function (PF) miniport adapter. Therefore, this array can contain only one element. </div>
 <div> </div>
@@ -296,86 +296,85 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 To define filter module attach parameters, NDIS passes a pointer to an NDIS_FILTER_ATTACH_PARAMETERS
     structure to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 Filter drivers should avoid issuing unnecessary OID queries. Instead, use the information in
     NDIS_FILTER_ATTACH_PARAMETERS, when available, to obtain information about underlying drivers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hd_split_current_config">NDIS_HD_SPLIT_CURRENT_CONFIG</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hd_split_current_config">NDIS_HD_SPLIT_CURRENT_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">
+<a href="/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">
    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_capabilities">NDIS_NIC_SWITCH_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_capabilities">NDIS_NIC_SWITCH_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_info_array">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_nic_switch_info_array">NDIS_NIC_SWITCH_INFO_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_capabilities">
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_capabilities">
    NDIS_RECEIVE_FILTER_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_sriov_capabilities">NDIS_SRIOV_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_sriov_capabilities">NDIS_SRIOV_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a>
+<a href="/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-current-address">OID_802_3_CURRENT_ADDRESS</a>
+<a href="/windows-hardware/drivers/network/oid-802-3-current-address">OID_802_3_CURRENT_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>
+<a href="/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
+<a href="/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
+<a href="/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-physical-medium">OID_GEN_PHYSICAL_MEDIUM</a>
+<a href="/windows-hardware/drivers/network/oid-gen-physical-medium">OID_GEN_PHYSICAL_MEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

@@ -58,7 +58,7 @@ Pointer to the physical device object (PDO) for the device being queried.
 ### -param DeviceProperty 
 
 [in]
-Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property) enumeration values:
+Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](./ne-wdm-device_registry_property.md) enumeration values:
 
 #### DevicePropertyAddress
 
@@ -68,7 +68,7 @@ The interpretation of this address is bus-specific. The caller of this routine s
 
 #### DevicePropertyBootConfiguration
 
-Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list) structure.
+Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](./ns-wdm-_cm_resource_list.md) structure.
 
 #### DevicePropertyBootConfigurationTranslated
 
@@ -92,7 +92,7 @@ Requests the name of the device's setup class, in text format. *PropertyBuffer* 
 
 #### DevicePropertyCompatibleIDs
 
-Requests the [compatible IDs](https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids) reported by the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
+Requests the [compatible IDs](/windows-hardware/drivers/install/compatible-ids) reported by the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
 
 #### DevicePropertyDeviceDescription
 
@@ -112,7 +112,7 @@ Requests a string that can be used to distinguish between two similar devices, t
 
 #### DevicePropertyHardwareID
 
-Requests the [hardware](https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids) IDs provided by the device that identify the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
+Requests the [hardware](/windows-hardware/drivers/install/hardware-ids) IDs provided by the device that identify the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
 
 #### DevicePropertyInstallState
 
@@ -185,9 +185,8 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 [ExAllocatePoolWithTag](nf-wdm-exallocatepoolwithtag.md)
 
-[GUID](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-notificationarea-promotedicon2-guid)
+[GUID](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-notificationarea-promotedicon2-guid)
 
 [INTERFACE_TYPE](ne-wdm-_interface_type.md)
 
 [IO_RESOURCE_REQUIREMENTS_LIST](ns-wdm-_io_resource_requirements_list.md)
-

@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_EGRESS_VSWITCH_TRANSPORT_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_EGRESS_VSWITCH_TRANSPORT_V4 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 ## -enum-fields
 
@@ -116,7 +116,7 @@ The virtual switch egress destination virtual machine (VM) identifier field.
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_TRANSPORT_V4_L2_FLAGS
 
-A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/win32/fwp/filtering-condition-flags-).
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](/windows/win32/fwp/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_EGRESS_VSWITCH_TRANSPORT_V4_COMPARTMENT_ID
 
@@ -133,4 +133,3 @@ The maximum value for this enumeration. This value might change in future versio
 #### - FWPS_FIELD_EGRESS_VSWITCH_TRANSPORT_V4_FLAGS
 
 The virtual switch egress flags field.
-

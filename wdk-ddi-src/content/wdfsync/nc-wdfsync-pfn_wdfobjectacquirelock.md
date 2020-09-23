@@ -75,13 +75,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 A driver can call the <b>WdfObjectAcquireLock</b> method to acquire the synchronization lock that is associated with a specified framework device object or framework queue object. The method does not return until the lock has been acquired.
 
-When the driver no longer needs the object's synchronization lock, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548765">WdfObjectReleaseLock</a>.
+When the driver no longer needs the object's synchronization lock, it must call <a href="/previous-versions/ff548765(v=vs.85)">WdfObjectReleaseLock</a>.
 
-If the driver specified <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLevel</b> member of the specified object's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure, the driver must call <b>WdfObjectAcquireLock</b> at IRQL <= APC_LEVEL. <b>WdfObjectAcquireLock</b> acquires a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">fast mutex</a> and returns at the caller's IRQL. (In this case, <b>WdfObjectAcquireLock</b> also calls <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> before returning so that <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> are disabled.)
+If the driver specified <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLevel</b> member of the specified object's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure, the driver must call <b>WdfObjectAcquireLock</b> at IRQL <= APC_LEVEL. <b>WdfObjectAcquireLock</b> acquires a <a href="/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">fast mutex</a> and returns at the caller's IRQL. (In this case, <b>WdfObjectAcquireLock</b> also calls <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> before returning so that <a href="/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> are disabled.)
 
-If the driver did <i>not</i> specify <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLevel</b> member of the specified object's WDF_OBJECT_ATTRIBUTES structure, the driver must call <b>WdfObjectAcquireLock</b> at IRQL <= DISPATCH_LEVEL. <b>WdfObjectAcquireLock</b> acquires a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/spin-locks">spin lock</a> and returns at IRQL = DISPATCH_LEVEL.
+If the driver did <i>not</i> specify <b>WdfExecutionLevelPassive</b> for the <b>ExecutionLevel</b> member of the specified object's WDF_OBJECT_ATTRIBUTES structure, the driver must call <b>WdfObjectAcquireLock</b> at IRQL <= DISPATCH_LEVEL. <b>WdfObjectAcquireLock</b> acquires a <a href="/windows-hardware/drivers/kernel/spin-locks">spin lock</a> and returns at IRQL = DISPATCH_LEVEL.
 
-For more information about synchronization locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about synchronization locks, see <a href="/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 ## -see-also
 
@@ -89,5 +89,4 @@ For more information about synchronization locks, see <a href="https://docs.micr
 
 <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548765">WdfObjectReleaseLock</a>
-
+<a href="/previous-versions/ff548765(v=vs.85)">WdfObjectReleaseLock</a>

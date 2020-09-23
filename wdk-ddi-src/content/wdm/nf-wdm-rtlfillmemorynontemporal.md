@@ -68,9 +68,8 @@ This function returns NTSYSAPI VOID.
 
 ## -remarks
 
-**RtlFillMemoryNonTemporal** only performs a non-temporal fill for x64-based systems, and only when the *Length* parameter is 8 bytes or greater. Otherwise, this function is equivalent to [**RtlFillMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory).
+**RtlFillMemoryNonTemporal** only performs a non-temporal fill for x64-based systems, and only when the *Length* parameter is 8 bytes or greater. Otherwise, this function is equivalent to [**RtlFillMemory**](./nf-wdm-rtlfillmemory.md).
 
 ## -see-also
 
-[**RtlFillMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory)
-
+[**RtlFillMemory**](./nf-wdm-rtlfillmemory.md)

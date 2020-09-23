@@ -66,15 +66,14 @@ A formatted [**WWAN_SET_SAR_TRANSMISSION_STATUS**](../wwan/ns-wwan-_wwan_set_sar
 
 ## -remarks
 
-This structure is used in an [OID_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-transmission-status) Set request.
+This structure is used in an [OID_WWAN_SAR_TRANSMISSION_STATUS](/windows-hardware/drivers/network/oid-wwan-sar-transmission-status) Set request.
 
 ## -see-also
 
-[MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support)
+[MB SAR Platform Support](/windows-hardware/drivers/network/mb-sar-platform-support)
 
-[OID_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-transmission-status)
+[OID_WWAN_SAR_TRANSMISSION_STATUS](/windows-hardware/drivers/network/oid-wwan-sar-transmission-status)
 
-[NDIS_STATUS_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-sar-transmission-status)
+[NDIS_STATUS_WWAN_SAR_TRANSMISSION_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-sar-transmission-status)
 
 [**WWAN_SET_SAR_TRANSMISSION_STATUS**](../wwan/ns-wwan-_wwan_set_sar_transmission_status.md)
-

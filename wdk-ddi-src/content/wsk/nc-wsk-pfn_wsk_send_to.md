@@ -55,14 +55,14 @@ The
 
 [in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the datagram socket over which to send the datagram.
 
 ### -param Buffer 
 
 [in]
 A pointer to an initialized 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that describes the data buffer
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that describes the data buffer
      that contains the datagram that is being sent over the socket.
 
 ### -param Flags
@@ -84,11 +84,11 @@ If the WSK application has set either a fixed remote transport address or a fixe
      non-<b>NULL</b>, the datagram is sent to the specified remote transport address.
 
 For more information about setting a fixed remote transport address for a datagram socket, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-set-remote-address">
+     <a href="/windows-hardware/drivers/network/sio-wsk-set-remote-address">
      SIO_WSK_SET_REMOTE_ADDRESS</a>.
 
 For more information about setting a fixed destination transport address for a datagram socket, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-set-sendto-address">
+     <a href="/windows-hardware/drivers/network/sio-wsk-set-sendto-address">
      SIO_WSK_SET_SENDTO_ADDRESS</a>.
 
 ### -param ControlInfoLength 
@@ -104,7 +104,7 @@ The number of bytes of data in the buffer that is pointed to by the
 A pointer to a buffer that contains control information that is associated with the datagram that
      is being sent. The control information data consists of one or more control data objects, each of which
      begins with a 
-     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
+     <a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a> structure. If there is no control
      information that is associated with the datagram, this parameter should be <b>NULL</b>.
 
 ### -param Irp 
@@ -112,7 +112,7 @@ A pointer to a buffer that contains control information that is associated with 
 [in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the send operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 ## -returns
@@ -161,7 +161,7 @@ The WSK subsystem could not send the datagram over the socket immediately. The W
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -183,7 +183,7 @@ An error occurred. The IRP will be completed with failure status.
 
 If the 
     <b>WskSendTo</b> function returns STATUS_PENDING, the MDL chain that is described in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that is pointed to by the 
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure that is pointed to by the 
     <i>Buffer</i> parameter must remain locked in memory until the IRP is completed. In addition, the buffer
     that is pointed to by the 
     <i>ControlInfo</i> parameter must also remain valid until the IRP is completed. If the WSK application
@@ -200,38 +200,37 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-_wsacmsghdr">CMSGHDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_buf">WSK_BUF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from">WskReceiveFrom</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from">WskReceiveFrom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a>

@@ -57,7 +57,6 @@ Pointer to a device extension of the device's PDO.
 
 ## -remarks
 
-The driver can access this method through the <b>ReferenceDeviceObject</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-bus_interface_reference">BUS_INTERFACE_REFERENCE</a> structure.
+The driver can access this method through the <b>ReferenceDeviceObject</b> member of the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-bus_interface_reference">BUS_INTERFACE_REFERENCE</a> structure.
 
 The device object remains active and enumerated until the reference count returns to 0.
-

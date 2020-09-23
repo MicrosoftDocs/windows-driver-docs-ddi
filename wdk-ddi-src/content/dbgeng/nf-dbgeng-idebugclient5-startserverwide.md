@@ -53,11 +53,11 @@ The <b>StartServerWide</b> method starts a debugging server.
 ### -param Options 
 
 [in]
-Specifies the connections options for this server.  These are the same options given to the <b>.server</b> debugger command or the WinDbg and CDB <b>-server</b> command-line option.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-debugging-server">Activating a Debugging Server</a>.
+Specifies the connections options for this server.  These are the same options given to the <b>.server</b> debugger command or the WinDbg and CDB <b>-server</b> command-line option.  For details on the syntax of this string, see <a href="/windows-hardware/drivers/debugger/activating-a-debugging-server">Activating a Debugging Server</a>.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -79,23 +79,22 @@ The method was successful.
 
 ## -remarks
 
-The server that is started will be accessible by other <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debuggers-in-the-debugging-tools-for-windows-package">debuggers</a> through the transport specified in the <i>Options</i> parameter.
+The server that is started will be accessible by other <a href="/windows-hardware/drivers/debugger/debuggers-in-the-debugging-tools-for-windows-package">debuggers</a> through the transport specified in the <i>Options</i> parameter.
 
 For more information about debugging servers, see Debugging Server and Debugging Client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugconnect">DebugConnect</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugconnect">DebugConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-outputservers">OutputServers</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-outputservers">OutputServers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startprocessserver">StartProcessServer</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-startprocessserver">StartProcessServer</a>

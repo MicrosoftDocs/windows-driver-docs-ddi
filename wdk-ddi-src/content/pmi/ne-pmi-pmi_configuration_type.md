@@ -46,21 +46,21 @@ api_name:
 
 ## -description
 
-The PMI_CONFIGURATION_TYPE enumeration defines the type of PMI configuration data that is referenced by the <b>Configuration</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_configuration">PMI_CONFIGURATION</a> structure. This enumeration is also used to specify the type of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a> structure to return through an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a> I/O control (IOCTL) request.
+The PMI_CONFIGURATION_TYPE enumeration defines the type of PMI configuration data that is referenced by the <b>Configuration</b> member of the <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_configuration">PMI_CONFIGURATION</a> structure. This enumeration is also used to specify the type of <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a> structure to return through an <a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a> I/O control (IOCTL) request.
 
 ## -enum-fields
 
 ### -field PmiMeasurementConfiguration
 
-The PMI configuration data, formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_measurement_configuration">PMI_MEASUREMENT_CONFIGURATION</a> structure, contains information about the measurement configuration of the power meter.
+The PMI configuration data, formatted as a <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_measurement_configuration">PMI_MEASUREMENT_CONFIGURATION</a> structure, contains information about the measurement configuration of the power meter.
 
 ### -field PmiBudgetingConfiguration
 
-The PMI configuration data, formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_budgeting_configuration">PMI_BUDGETING_CONFIGURATION</a> structure, contains information about the budgeting configuration of the power meter.
+The PMI configuration data, formatted as a <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_budgeting_configuration">PMI_BUDGETING_CONFIGURATION</a> structure, contains information about the budgeting configuration of the power meter.
 
 ### -field PmiThresholdConfiguration
 
-The PMI configuration data, formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_threshold_configuration">PMI_THRESHOLD_CONFIGURATION</a> structure, contains information about the budgeting configuration of the power meter.
+The PMI configuration data, formatted as a <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_threshold_configuration">PMI_THRESHOLD_CONFIGURATION</a> structure, contains information about the budgeting configuration of the power meter.
 
 ### -field PmiConfigurationMax
 
@@ -68,29 +68,28 @@ The maximum number of PMI configuration structures.
 
 ## -remarks
 
-The <b>ConfigurationType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_configuration">PMI_CONFIGURATION</a> structure contains information about the type of PMI configuration data that is referenced by the <b>Configuration</b> member of that structure. This structure is returned through a successful completion of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a> IOCTL request and is passed in the input buffer for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_set_configuration">IOCTL_PMI_SET_CONFIGURATION</a> IOCTL request.
+The <b>ConfigurationType</b> member of the <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_configuration">PMI_CONFIGURATION</a> structure contains information about the type of PMI configuration data that is referenced by the <b>Configuration</b> member of that structure. This structure is returned through a successful completion of an <a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a> IOCTL request and is passed in the input buffer for an <a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_set_configuration">IOCTL_PMI_SET_CONFIGURATION</a> IOCTL request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_set_configuration">IOCTL_PMI_SET_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_set_configuration">IOCTL_PMI_SET_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_budgeting_configuration">PMI_BUDGETING_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_budgeting_configuration">PMI_BUDGETING_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_configuration">PMI_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_configuration">PMI_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_measurement_configuration">PMI_MEASUREMENT_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_measurement_configuration">PMI_MEASUREMENT_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_threshold_configuration">PMI_THRESHOLD_CONFIGURATION</a>
-
+<a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_threshold_configuration">PMI_THRESHOLD_CONFIGURATION</a>

@@ -71,7 +71,7 @@ Driver-specific context value for the callback routine.
 
 PUNREGISTER_NOTIFICATION_CALLBACK returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified callback routine and context are not valid.
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -107,4 +107,3 @@ The HD Audio bus driver will release the reference it took on the driver FDO whe
 [HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md)
 
 [hdaudio.h](../hdaudio/index.md)
-

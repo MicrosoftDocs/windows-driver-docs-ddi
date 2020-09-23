@@ -56,7 +56,7 @@ The <b>HARDWARE_COUNTER</b> structure contains information about a hardware coun
 
 ### -field Type
 
-Specifies the type of the hardware counter. Set this member to the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_hardware_counter_type">HARDWARE_COUNTER_TYPE</a> enumeration value:
+Specifies the type of the hardware counter. Set this member to the following <a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_hardware_counter_type">HARDWARE_COUNTER_TYPE</a> enumeration value:
 
 <ul>
 <li>
@@ -75,19 +75,18 @@ Specifies the hardware counter index. Each hardware counter in a performance mon
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhardwarecounterconfiguration">KeQueryHardwareCounterConfiguration</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a> routines. 
+This structure is used by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhardwarecounterconfiguration">KeQueryHardwareCounterConfiguration</a> and <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a> routines. 
 
 The <b>Type</b> member specifies the type of hardware counter that is described by the structure. In Windows 7, the only defined hardware counter type is <b>PMCCounter</b>, which is a performance monitor counter. This type of counter is used by thread-profiling applications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_hardware_counter_type">HARDWARE_COUNTER_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_hardware_counter_type">HARDWARE_COUNTER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhardwarecounterconfiguration">KeQueryHardwareCounterConfiguration</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryhardwarecounterconfiguration">KeQueryHardwareCounterConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a>

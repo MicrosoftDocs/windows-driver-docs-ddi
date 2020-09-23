@@ -61,9 +61,8 @@ The <b>PsIsThreadTerminating</b> routine returns <b>TRUE</b> if the thread is te
 
 ## -remarks
 
-For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Driver Threads, Dispatcher Objects, and Resources</a>.
+For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="/windows-hardware/drivers/ddi/index">Driver Threads, Dispatcher Objects, and Resources</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psgetprocessexittime">PsGetProcessExitTime</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psgetprocessexittime">PsGetProcessExitTime</a>

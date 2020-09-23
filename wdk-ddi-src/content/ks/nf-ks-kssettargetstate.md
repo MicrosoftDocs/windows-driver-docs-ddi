@@ -54,7 +54,7 @@ Sets the enabled state of a target device associated with the specified object h
 ### -param Header 
 
 [in]
-Points to a header previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>.
+Points to a header previously allocated by <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>.
 
 ### -param TargetState 
 
@@ -67,5 +67,4 @@ None.
 
 ## -remarks
 
-Assumes that such a target has been set with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kssettargetdeviceobject">KsSetTargetDeviceObject</a>. The target is initially disabled, and is ignored when recalculating stack depth. For WDM Streaming devices, this is called on a transition back to a Stop state, after having enabled the target and used <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksrecalculatestackdepth">KsRecalculateStackDepth</a> on a transition to Acquire state. This allows the stack depth to be minimized.
-
+Assumes that such a target has been set with <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kssettargetdeviceobject">KsSetTargetDeviceObject</a>. The target is initially disabled, and is ignored when recalculating stack depth. For WDM Streaming devices, this is called on a transition back to a Stop state, after having enabled the target and used <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksrecalculatestackdepth">KsRecalculateStackDepth</a> on a transition to Acquire state. This allows the stack depth to be minimized.

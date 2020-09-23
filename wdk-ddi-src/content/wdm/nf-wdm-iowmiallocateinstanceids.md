@@ -115,5 +115,4 @@ If greater than one instance was requested in <i>InstanceCount</i> and the routi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisuggestinstancename">IoWmiSuggestInstanceName</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisuggestinstancename">IoWmiSuggestInstanceName</a>

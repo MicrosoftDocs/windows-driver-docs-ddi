@@ -62,7 +62,7 @@ The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 
 - **lResId** - Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
-- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwialog).
+- **pIWiaLog** - Pointer to an [IWiaLog Interface](../wia_lh/nn-wia_lh-iwialog.md).
 
 ## -remarks
 
@@ -75,9 +75,8 @@ Please note that it does not write to the new log file used in modern Windows op
 
 ## -see-also
 
-[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lerror)
+[WIAS_LERROR](./nf-wiamdef-wias_lerror.md)
 
-[WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult)
+[WIAS_LHRESULT](./nf-wiamdef-wias_lhresult.md)
 
-[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_ltrace)
-
+[WIAS_LTRACE](./nf-wiamdef-wias_ltrace.md)

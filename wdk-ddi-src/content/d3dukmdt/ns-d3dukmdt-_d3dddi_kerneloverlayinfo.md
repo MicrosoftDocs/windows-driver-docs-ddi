@@ -58,11 +58,11 @@ The D3DDDI_KERNELOVERLAYINFO structure describes information for a kernel-mode o
 
 ### -field DstRect
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a> structure that contains the overlay destination rectangle in device coordinates.
+[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a> structure that contains the overlay destination rectangle in device coordinates.
 
 ### -field SrcRect
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a> structure that contains the overlay source rectangle in device coordinates.
+[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a> structure that contains the overlay source rectangle in device coordinates.
 
 ### -field pPrivateDriverData
 
@@ -74,13 +74,12 @@ The D3DDDI_KERNELOVERLAYINFO structure describes information for a kernel-mode o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a>
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddirect">D3DDDIRECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updateoverlaycb">pfnUpdateOverlayCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updateoverlaycb">pfnUpdateOverlayCb</a>

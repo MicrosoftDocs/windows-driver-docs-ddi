@@ -50,29 +50,29 @@ api_name:
 
 ## -description
 
-The <b>REGISTER_COMPOSITE_DEVICE</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_register_composite_device">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a> I/O control request to register a  parent driver of a Universal Serial Bus (USB) multi-function device (composite driver)  with the USB driver stack. 
+The <b>REGISTER_COMPOSITE_DEVICE</b> structure is used with the <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_register_composite_device">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a> I/O control request to register a  parent driver of a Universal Serial Bus (USB) multi-function device (composite driver)  with the USB driver stack. 
 
-To initialize the <b>REGISTER_COMPOSITE_DEVICE</b> structure, the composite driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> routine.
+To initialize the <b>REGISTER_COMPOSITE_DEVICE</b> structure, the composite driver must call the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> routine.
 
 ## -struct-fields
 
 ### -field Version
 
-The version of this structure. <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> sets this  member.
+The version of this structure. <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> sets this  member.
 
 ### -field Size
 
-The size of this structure. <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> sets this  member.
+The size of this structure. <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> sets this  member.
 
 ### -field Reserved
 
-Reserved. <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> sets this  member.
+Reserved. <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> sets this  member.
 
 ### -field CapabilityFlags
 
 The capabilities that are supported by the composite driver.
-To specify that function suspend is supported by the composite driver, first initialize the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_composite_device_capabilities">COMPOSITE_DEVICE_CAPABILITIES</a> structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-composite_device_capabilities_init">COMPOSITE_DEVICE_CAPABILITIES_INIT</a> macro. Then, set the <b>CompositeDeviceCapabilityFunctionSuspend</b>
-member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 1. Finally, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> and pass the initialized structure in the  <i>CapabilityFlags</i> parameter.
+To specify that function suspend is supported by the composite driver, first initialize the <a href="/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_composite_device_capabilities">COMPOSITE_DEVICE_CAPABILITIES</a> structure by calling the <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-composite_device_capabilities_init">COMPOSITE_DEVICE_CAPABILITIES_INIT</a> macro. Then, set the <b>CompositeDeviceCapabilityFunctionSuspend</b>
+member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 1. Finally, call <a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> and pass the initialized structure in the  <i>CapabilityFlags</i> parameter.
 
 ### -field FunctionCount
 
@@ -80,17 +80,16 @@ The number of functions supported by the composite device. The <b>FunctionCount<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_composite_device_capabilities">COMPOSITE_DEVICE_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_composite_device_capabilities">COMPOSITE_DEVICE_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-composite_device_capabilities_init">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
+<a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-composite_device_capabilities_init">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_register_composite_device">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+<a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_register_composite_device">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a>

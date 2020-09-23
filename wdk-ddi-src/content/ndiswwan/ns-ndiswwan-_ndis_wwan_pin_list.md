@@ -103,7 +103,7 @@ sizeof(NDIS_WWAN_PIN_LIST)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
@@ -182,14 +182,13 @@ The operation failed because a bad SIM card was detected.
 ### -field PinList
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_list">WWAN_PIN_LIST</a> object that represents a list
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_list">WWAN_PIN_LIST</a> object that represents a list
      of descriptions of Personal Identification Numbers (PINs).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_list">WWAN_PIN_LIST</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_list">WWAN_PIN_LIST</a>

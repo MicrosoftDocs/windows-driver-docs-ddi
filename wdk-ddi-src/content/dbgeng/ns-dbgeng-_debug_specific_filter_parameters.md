@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">specific event filter</a>.
+The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a <a href="/windows-hardware/drivers/debugger/debug-filter-xxx">specific event filter</a>.
 
 ## -struct-fields
 
 ### -field ExecutionOption
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">break status</a> of the specific event filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
+The <a href="/windows-hardware/drivers/debugger/debug-filter-xxx">break status</a> of the specific event filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
 
 ### -field ContinueOption
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">handling status</a> of the specific event filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
+The <a href="/windows-hardware/drivers/debugger/debug-filter-xxx">handling status</a> of the specific event filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
 
 ### -field TextSize
 
@@ -79,9 +79,8 @@ Specifies the size, in characters, of the specific event filter argument.  This 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getspecificfilterparameters">GetSpecificFilterParameters</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getspecificfilterparameters">GetSpecificFilterParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setspecificfilterparameters">SetSpecificFilterParameters</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setspecificfilterparameters">SetSpecificFilterParameters</a>

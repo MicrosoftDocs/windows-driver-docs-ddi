@@ -72,21 +72,20 @@ Returns STATUS_SUCCESS or an appropriate error code. Returns <b>NULL</b> if no v
 
 ## -remarks
 
-A BDA minidriver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdamethodcreatetopology">BdaMethodCreateTopology</a> function when the network provider dynamically creates a topology between filter pins using the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethod-bda-create-topology">KSMETHOD_BDA_CREATE_TOPOLOGY</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must create a topology between filter pins without relying on the network provider, the BDA minidriver should call the <b>BdaCreateTopology</b> function directly.
+A BDA minidriver calls the <a href="/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdamethodcreatetopology">BdaMethodCreateTopology</a> function when the network provider dynamically creates a topology between filter pins using the <a href="/windows-hardware/drivers/stream/ksmethod-bda-create-topology">KSMETHOD_BDA_CREATE_TOPOLOGY</a> request of the <a href="/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must create a topology between filter pins without relying on the network provider, the BDA minidriver should call the <b>BdaCreateTopology</b> function directly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdamethodcreatetopology">BdaMethodCreateTopology</a>
+<a href="/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdamethodcreatetopology">BdaMethodCreateTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a>
+<a href="/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethod-bda-create-topology">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
-
+<a href="/windows-hardware/drivers/stream/ksmethod-bda-create-topology">KSMETHOD_BDA_CREATE_TOPOLOGY</a>

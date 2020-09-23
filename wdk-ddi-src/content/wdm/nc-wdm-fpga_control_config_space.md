@@ -56,7 +56,7 @@ Enables or disables the access to the configuration space of the FPGA device.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -92,4 +92,3 @@ A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFAC
 - If there exists any active bus scan, it is not safe to lock down configuration space as it might confuse the scan bus.
 
 ## -see-also
-

@@ -51,9 +51,8 @@ The RequestService method is called to forward a service request to an IServiceS
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a>

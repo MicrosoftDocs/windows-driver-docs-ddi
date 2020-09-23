@@ -56,13 +56,13 @@ Miniport drivers call the
 
 [in]
 The miniport handle that NDIS passed to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param NetBufferList
 
 A linked list of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
      miniport driver allocated.
 
 ### -param PortNumber 
@@ -70,14 +70,14 @@ A linked list of
 [in]
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter. Use the default port if the miniport driver has
      not allocated ports for the specified adapter.
 
 ### -param NumberOfNetBufferLists 
 
 [in]
-The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures at 
+The number of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are in the linked list of structures at 
      <i>NetBufferLists</i> .
 
 ### -param ReceiveFlags 
@@ -94,19 +94,19 @@ Flags that define attributes for the send operation. The flags can be combined w
 #### NDIS_RECEIVE_FLAGS_DISPATCH_LEVEL
 
 Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
+       <a href="/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
 #### NDIS_RECEIVE_FLAGS_RESOURCES
 
-Specifies that the miniport driver reclaims ownership of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures and any
-       attached <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures immediately after the call to 
+Specifies that the miniport driver reclaims ownership of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures and any
+       attached <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures immediately after the call to 
        <b>NdisMIndicateReceiveNetBufferLists</b> returns.
 
 
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_ETHER_TYPE
 
-Specifies that all of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at <i>NetBufferLists</i> have the same protocol type (EtherType).
+Specifies that all of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at <i>NetBufferLists</i> have the same protocol type (EtherType).
 
 **Miniport drivers**
 
@@ -130,14 +130,14 @@ When consuming receives from the lower layer, if NDIS_RECEIVE_FLAGS_SINGLE_ETHER
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_VLAN
 
-Specifies that all of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> belong to the same VLAN.
 
 
 
 #### NDIS_RECEIVE_FLAGS_PERFECT_FILTERED
 
-Specifies that all of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> include only data that matches the packet filter and multicast address list that are
        assigned to the miniport adapter.
 
@@ -145,19 +145,19 @@ Specifies that all of the <a href="https://docs.microsoft.com/windows-hardware/d
 
 #### NDIS_RECEIVE_FLAGS_SINGLE_QUEUE
 
-Specifies that all the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> belong to the same VM queue. A miniport driver must set this flag for all receive
        indications on a queue if the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_PER_QUEUE_RECEIVE_INDICATION</b> flag was set
        in the 
        <b>Flags</b> member of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_parameters">
+       <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_parameters">
        NDIS_RECEIVE_QUEUE_PARAMETERS</a> structure when that queue was allocated.
 
 
 
 #### NDIS_RECEIVE_FLAGS_SHARED_MEMORY_INFO_VALID
 
-Specifies that all the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
+Specifies that all the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the list at 
        <i>NetBufferLists</i> contain shared memory information that is valid. When this flag is set on a
        received <b>NET_BUFFER_LIST</b>, NDIS treats the shared memory information as valid. When this flag is not
        set, NDIS and drivers ignore the shared memory information. For example, intermediate drivers that
@@ -175,23 +175,23 @@ Reserved.
 
 A miniport driver typically calls the 
     <b>NdisMIndicateReceiveNetBufferLists</b> function from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> function.
     When a miniport driver calls 
     <b>NdisMIndicateReceiveNetBufferLists</b>, it specifies a list of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the 
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures in the 
     <i>NetBufferLists</i> parameter. NDIS passes the <b>NET_BUFFER_LIST</b> structures to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
     ProtocolReceiveNetBufferLists</a> function of bound protocol drivers.
 
 Miniport drivers must set the 
-    <b>SourceHandle</b> member of each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure to the same value as the 
+    <b>SourceHandle</b> member of each <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure to the same value as the 
     <i>MiniportAdapterHandle</i> parameter.
 
 If a miniport driver calls 
     <b>NdisMIndicateReceiveNetBufferLists</b> and clears the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the 
-    <i>ReceiveFlags</i> parameter, NDIS returns the indicated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures to the miniport
+    <i>ReceiveFlags</i> parameter, NDIS returns the indicated <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures to the miniport
     driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
     MiniportReturnNetBufferLists</a> function. In this case, the miniport driver must not reclaim the
     <b>NET_BUFFER_LIST</b> structures until NDIS returns the <b>NET_BUFFER_LIST</b> structures to the miniport driver's 
     <i>MiniportReturnNetBufferLists</i> function.
@@ -199,57 +199,56 @@ If a miniport driver calls
 If a miniport driver calls 
     <b>NdisMIndicateReceiveNetBufferLists</b> and sets the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the 
     <i>ReceiveFlags</i> parameter, this indicates that the miniport driver must regain ownership of the
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures immediately. In this case, NDIS does not call the miniport driver's 
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures immediately. In this case, NDIS does not call the miniport driver's 
     <i>MiniportReturnNetBufferLists</i> function to return the <b>NET_BUFFER_LIST</b> structures. Instead, NDIS
     returns the <b>NET_BUFFER_LIST</b> structures to the miniport driver upon return from 
     <b>NdisMIndicateReceiveNetBufferLists</b>. The miniport driver should reclaim the <b>NET_BUFFER_LIST</b>
     structures immediately after 
     <b>NdisMIndicateReceiveNetBufferLists</b> returns. To reclaim the <b>NET_BUFFER_LIST</b> structures, a miniport
     driver can call its own 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
     MiniportReturnNetBufferLists</a> function.
 
 Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the 
     <i>ReceiveFlags</i> parameter forces the protocol drivers to copy the network data and release the
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures to the miniport driver. Driver writers should design their miniport drivers
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures to the miniport driver. Driver writers should design their miniport drivers
     with enough preallocated <b>NET_BUFFER_LIST</b> structures to avoid unnecessary copying.
 
 The caller of 
-    <b>NdisMIndicateReceiveNetBufferLists</b> must properly initialize the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures,
+    <b>NdisMIndicateReceiveNetBufferLists</b> must properly initialize the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures,
     attached 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures, and any attached MDLs.
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures, and any attached MDLs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_return_net_buffer_lists">
    MiniportReturnNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_parameters">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_parameters">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_receive_net_buffer_lists">
    ProtocolReceiveNetBufferLists</a>
-

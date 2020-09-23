@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The minidriver-provided  routine is called when Kernel Streaming receives an IOCTL_KS_METHOD, get/set property request. Provide a pointer to this handler in the relevant [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item), [KSPROPERTY_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item) structure.
+The minidriver-provided  routine is called when Kernel Streaming receives an IOCTL_KS_METHOD, get/set property request. Provide a pointer to this handler in the relevant [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md), [KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md) structure.
 
 ## -parameters
 
@@ -58,12 +58,12 @@ Specifies the IRP that contains the method or property request.
 ### -param Request 
 
 [in]
-Specifies an aligned copy of the method parameter. This is typically a pointer to a [KSMETHOD](https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)) or [KSPROPERTY](https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)) structure.
+Specifies an aligned copy of the method parameter. This is typically a pointer to a [KSMETHOD](/previous-versions/ff563398(v=vs.85)) or [KSPROPERTY](/previous-versions/ff564262(v=vs.85)) structure.
 
 ### -param Data 
 
 [in, out]
-Specifies an aligned copy of the method data parameter or the system address of the original data parameter, depending on the flag that was specified in the [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item) structure for the method.
+Specifies an aligned copy of the method data parameter or the system address of the original data parameter, depending on the flag that was specified in the [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md) structure for the method.
 
 ## -returns
 
@@ -73,11 +73,11 @@ Alternatively, return STATUS_SOME_NOT_MAPPED if the method has been handled but 
 
 ## -remarks
 
-The minidriver specifies this routine's address in the **MethodHandler** member of the [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item) structure.
+The minidriver specifies this routine's address in the **MethodHandler** member of the [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md) structure.
 
 The handler declaration used for *KStrMethodHandler* and *KStrSupportHandler* is also used for handlers of property and event sets, with the same parameters and return values.
 
-When a helper function such as [KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler) calls a method handler whose data buffer is defined as a write or modify buffer, the method handler must set the **Information** member of the IO_STATUS_BLOCK structure for the **IoStatus** member within the IRP (*Irp* parameter) to the size of that data buffer. The minidriver sets the **Flags** member of the KSMETHOD_ITEM structure for the method to KSMETHOD_TYPE_WRITE or KSMETHOD_TYPE_MODIFY to define the method handler's data buffer as write or modify respectively.
+When a helper function such as [KsMethodHandler](./nf-ks-ksmethodhandler.md) calls a method handler whose data buffer is defined as a write or modify buffer, the method handler must set the **Information** member of the IO_STATUS_BLOCK structure for the **IoStatus** member within the IRP (*Irp* parameter) to the size of that data buffer. The minidriver sets the **Flags** member of the KSMETHOD_ITEM structure for the method to KSMETHOD_TYPE_WRITE or KSMETHOD_TYPE_MODIFY to define the method handler's data buffer as write or modify respectively.
 
 The following code snippet shows an example of an implementation of a method handler that sets the size of the returning data buffer in the IRP:
 
@@ -103,21 +103,20 @@ NTSTATUS
 }
 ```
 
-The minidriver specifies this routine's address in the **GetPropertyHandler** member of the [KSPROPERTY_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item) structure.
+The minidriver specifies this routine's address in the **GetPropertyHandler** member of the [KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md) structure.
 
-The minidriver specifies this routine's address in the **SetPropertyHandler** member of the [KSPROPERTY_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item) structure.
+The minidriver specifies this routine's address in the **SetPropertyHandler** member of the [KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md) structure.
 
-The minidriver specifies this routine's address in the **SupportHandler** member of the [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item) structure.
+The minidriver specifies this routine's address in the **SupportHandler** member of the [KSMETHOD_ITEM](./ns-ks-ksmethod_item.md) structure.
 
 The handler declaration used for *KStrMethodHandler* and *KStrSupportHandler* is also used for handlers of property and event sets, with the same parameters and return values.
 
 ## -see-also
 
-[KSMETHOD](https://docs.microsoft.com/previous-versions/ff563398(v=vs.85))
+[KSMETHOD](/previous-versions/ff563398(v=vs.85))
 
-[KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item)
+[KSMETHOD_ITEM](./ns-ks-ksmethod_item.md)
 
-[KSMETHOD_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_set)
+[KSMETHOD_SET](./ns-ks-ksmethod_set.md)
 
-[KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler)
-
+[KsMethodHandler](./nf-ks-ksmethodhandler.md)

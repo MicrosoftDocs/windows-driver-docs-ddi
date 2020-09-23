@@ -41,5 +41,4 @@ To develop Display, you need these headers:
  * [video.h](../video/index.md)
  * [videoagp.h](../videoagp/index.md)
 
-For the programming guide, see [Display](https://docs.microsoft.com/windows-hardware/drivers/display).
-
+For the programming guide, see [Display](/windows-hardware/drivers/display).

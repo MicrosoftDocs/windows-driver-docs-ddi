@@ -61,11 +61,11 @@ Input buffer.
 
 ### -output-buffer
 
-The driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc">CDROM_TOC</a> data in the buffer at <i>Irp->AssociatedIrp.SystemBuffer</i>.
+The driver returns the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc">CDROM_TOC</a> data in the buffer at <i>Irp->AssociatedIrp.SystemBuffer</i>.
 
 ### -output-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc">CDROM_TOC</a>.
+Length of a <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc">CDROM_TOC</a>.
 
 ### -in-out-buffer
 
@@ -83,5 +83,4 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc">CDROM_TOC</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc">CDROM_TOC</a>

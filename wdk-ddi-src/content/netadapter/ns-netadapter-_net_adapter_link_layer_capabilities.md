@@ -53,11 +53,11 @@ The size of this structure, in bytes.
 
 ### -field MaxTxLinkSpeed
 
-The maximum transmit link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed).
+The maximum transmit link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](/windows-hardware/drivers/network/oid-gen-max-link-speed).
 
 ### -field MaxRxLinkSpeed
 
- The maximum receive link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed).
+ The maximum receive link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](/windows-hardware/drivers/network/oid-gen-max-link-speed).
 
 ## -remarks
 
@@ -66,4 +66,3 @@ The client driver passes an initialized **NET_ADAPTER_LINK_LAYER_CAPABILITIES** 
 Call [NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT](nf-netadapter-net_adapter_link_layer_capabilities_init.md) to initialize this structure.
 
 ## -see-also
-

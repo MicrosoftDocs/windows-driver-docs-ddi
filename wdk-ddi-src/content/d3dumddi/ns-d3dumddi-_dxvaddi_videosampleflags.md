@@ -92,5 +92,4 @@ A member in the union that is contained in DXVADDI_VIDEOSAMPLEFLAGS that can hol
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videosample">DXVADDI_VIDEOSAMPLE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videosample">DXVADDI_VIDEOSAMPLE</a>

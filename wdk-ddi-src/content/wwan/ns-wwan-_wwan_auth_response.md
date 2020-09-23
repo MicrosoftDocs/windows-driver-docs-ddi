@@ -76,25 +76,24 @@ The response from the AKA' authentication method.  If <b>AuthMethod</b> is set t
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_auth_response">NDIS_WWAN_AUTH_RESPONSE</a> structure uses this structure.
+The <a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_auth_response">NDIS_WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_auth_response">NDIS_WWAN_AUTH_RESPONSE</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_auth_response">NDIS_WWAN_AUTH_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_akap_response">WWAN_AUTH_AKAP_RESPONSE</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_akap_response">WWAN_AUTH_AKAP_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_aka_response">WWAN_AUTH_AKA_RESPONSE</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_aka_response">WWAN_AUTH_AKA_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_auth_method">WWAN_AUTH_METHOD</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_auth_method">WWAN_AUTH_METHOD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_sim_response">WWAN_AUTH_SIM_RESPONSE</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_sim_response">WWAN_AUTH_SIM_RESPONSE</a>

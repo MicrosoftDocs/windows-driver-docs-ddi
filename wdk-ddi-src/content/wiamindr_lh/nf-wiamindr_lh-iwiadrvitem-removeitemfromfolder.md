@@ -80,7 +80,6 @@ After the item has been removed from the folder, it can no longer be used for de
 
 ## -see-also
 
-[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
+[IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
-[IWiaDrvItem::AddItemToFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-additemtofolder)
-
+[IWiaDrvItem::AddItemToFolder](./nf-wiamindr_lh-iwiadrvitem-additemtofolder.md)

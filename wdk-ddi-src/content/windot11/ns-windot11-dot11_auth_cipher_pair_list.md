@@ -50,7 +50,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AUTH_CIPHER_PAIR_LIST structure defines a list of DOT11_AUTH_CIPHER_PAIR structures.
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AUTH_CIPHER_PAIR_LIST structure defines a list of DOT11_AUTH_CIPHER_PAIR structures.
 
 ## -struct-fields
 
@@ -118,9 +118,9 @@ typedef struct DOT11_AUTH_CIPHER_PAIR_LIST {
 ## -remarks
 
 A miniport driver returns the DOT11_AUTH_CIPHER_PAIR_LIST structure when queried by either
-    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
+    <a href="/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
     OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+    <a href="/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
     OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.
 
 When these OIDs are queried, the miniport driver must verify that the
@@ -171,19 +171,19 @@ Starting with Windows 7, an 802.11 miniport driver can report any combination of
 
 If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport driver must allow
     peer stations to associate with the Extensible AP by using
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/open-system-authentication">Open System Authentication</a> or
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565846(v=vs.85)">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
+    <a href="/windows-hardware/drivers/network/open-system-authentication">Open System Authentication</a> or
+    <a href="/previous-versions/windows/hardware/network/ff565846(v=vs.85)">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
     the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wps-enabled">OID_DOT11_WPS_ENABLED</a>.
+    <a href="/windows-hardware/drivers/network/oid-dot11-wps-enabled">OID_DOT11_WPS_ENABLED</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
+<a href="/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
+<a href="/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
 
@@ -193,4 +193,3 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-

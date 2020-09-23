@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>KeReleaseSpinLockForDpc</b> routine releases a spin lock that was acquired by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551923(v=vs.85)">KeAcquireSpinLockForDpc</a>.
+The <b>KeReleaseSpinLockForDpc</b> routine releases a spin lock that was acquired by calling <a href="/previous-versions/windows/hardware/drivers/ff551923(v=vs.85)">KeAcquireSpinLockForDpc</a>.
 
 ## -parameters
 
@@ -62,11 +62,10 @@ Specifies the IRQL that was current when the spin lock was acquired. Specify the
 
 ## -remarks
 
-For more information about spin locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
+For more information about spin locks, see <a href="/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
 
 If <i>OldIrql</i> = PASSIVE_LEVEL, <b>KeReleaseSpinLockForDpc</b> lowers the current IRQL to PASSIVE_LEVEL. If <i>OldIrql</i> = DISPATCH_LEVEL, <b>KeReleaseSpinLockForDpc</b> does not change the current IRQL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551923(v=vs.85)">KeAcquireSpinLockForDpc</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff551923(v=vs.85)">KeAcquireSpinLockForDpc</a>

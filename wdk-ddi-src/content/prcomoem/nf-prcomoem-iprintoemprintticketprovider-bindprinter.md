@@ -71,7 +71,7 @@ A pointer to a variable that receives one of the following enumerated values:
 
 #### OEMPT_DEFAULT
 
-The system places a binary encoding (a binary large object [BLOB]) of the private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket. 
+The system places a binary encoding (a binary large object [BLOB]) of the private <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure into the print ticket in a conversion of a DEVMODEW to a print ticket. 
 
 
 
@@ -134,17 +134,16 @@ An <b>IPrintTicketProvider</b> object does not have to be able to bind more than
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemprintticketprovider">IPrintOemPrintTicketProvider</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemprintticketprovider">IPrintOemPrintTicketProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553161(v=vs.85)">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
+<a href="/previous-versions/windows/hardware/drivers/ff553161(v=vs.85)">IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-convertprinttickettodevmode">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-convertprinttickettodevmode">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-getsupportedversions">IPrintOemPrintTicketProvider::GetSupportedVersions</a>
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-getsupportedversions">IPrintOemPrintTicketProvider::GetSupportedVersions</a>

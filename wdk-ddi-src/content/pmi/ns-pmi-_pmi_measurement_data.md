@@ -64,9 +64,8 @@ A value, in units of milliwatts (mW), that specifies the current power meter mea
 
 ## -remarks
 
-The PMI_MEASUREMENT_DATA structure is returned through an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_measurement">IOCTL_PMI_GET_MEASUREMENT</a> I/O control (IOCTL) query request. If the query request completes successfully, the request returns a PMI_MEASUREMENT_DATA structure.
+The PMI_MEASUREMENT_DATA structure is returned through an <a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_measurement">IOCTL_PMI_GET_MEASUREMENT</a> I/O control (IOCTL) query request. If the query request completes successfully, the request returns a PMI_MEASUREMENT_DATA structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_measurement">IOCTL_PMI_GET_MEASUREMENT</a>
-
+<a href="/windows-hardware/drivers/ddi/pmi/ni-pmi-ioctl_pmi_get_measurement">IOCTL_PMI_GET_MEASUREMENT</a>

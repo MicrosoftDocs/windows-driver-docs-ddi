@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-<b>D3DDDICB_RECLAIMALLOCATIONS2</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocations2cb">pfnReclaimAllocations2Cb</a> to describe video memory resources, previously offered for reuse by the driver,  that are to be reclaimed.
+<b>D3DDDICB_RECLAIMALLOCATIONS2</b> is used with <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocations2cb">pfnReclaimAllocations2Cb</a> to describe video memory resources, previously offered for reuse by the driver,  that are to be reclaimed.
 
 ## -struct-fields
 
@@ -76,4 +76,3 @@ api_name:
 
 [out] The paging fence to synchronize against before submitting work to the GPU which
                                                                            references any of the resources or allocations in the provided arrays
-

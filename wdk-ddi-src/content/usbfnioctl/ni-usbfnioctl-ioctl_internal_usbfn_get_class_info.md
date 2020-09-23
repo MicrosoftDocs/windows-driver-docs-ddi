@@ -60,11 +60,11 @@ None.
 
 ### -output-buffer
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_information_packet">USBFN_CLASS_INFORMATION_PACKET</a> structure. Upon completion, UFX populates the structure with the name, the device interface GUID, and details of the interface when operating at a particular bus speed.
+A pointer to a buffer that contains a <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_information_packet">USBFN_CLASS_INFORMATION_PACKET</a> structure. Upon completion, UFX populates the structure with the name, the device interface GUID, and details of the interface when operating at a particular bus speed.
 
 ### -output-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_information_packet">USBFN_CLASS_INFORMATION_PACKET</a> structure.
+The size of a <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_usbfn_class_information_packet">USBFN_CLASS_INFORMATION_PACKET</a> structure.
 
 ### -in-out-buffer
 
@@ -77,4 +77,3 @@ If the request is successful, the USB function class extension (UFX) returns STA
 ## -remarks
 
 The class driver should send this IOCTL request during initialization so that it can enumerate the endpoints and attributes.
-

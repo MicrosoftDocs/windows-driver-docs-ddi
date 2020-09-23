@@ -123,25 +123,24 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/rxassert">RxAssert</a>
+<a href="/windows-hardware/drivers/ifs/rxassert">RxAssert</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/rxdbgbreakpoint">RxDbgBreakPoint</a>
+<a href="/windows-hardware/drivers/ifs/rxdbgbreakpoint">RxDbgBreakPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxdereference">RxDereference</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxdereference">RxDereference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxreference">RxReference</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxreference">RxReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fcb/nf-fcb-rxptrackreference">RxpTrackReference</a>
+<a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxptrackreference">RxpTrackReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a>
-
+<a href="/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a>

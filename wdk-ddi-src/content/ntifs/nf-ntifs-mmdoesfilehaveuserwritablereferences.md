@@ -53,7 +53,7 @@ The <b>MmDoesFileHaveUserWritableReferences </b>function returns the number of w
 ### -param SectionPointer 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
+Pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -77,21 +77,20 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wd
 
 </li>
 <li>
- The number of outstanding <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>s, which are mapping regions for the associated file object.
+ The number of outstanding <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>s, which are mapping regions for the associated file object.
 
 </li>
 </ul>
-For transactional file systems, you can use this function to determine if a given transaction is referencing a file object that can change.  If so, the transaction must be rolled back because <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-kernel-transaction-manager">atomicity</a> cannot be guaranteed.
+For transactional file systems, you can use this function to determine if a given transaction is referencing a file object that can change.  If so, the transaction must be rolled back because <a href="/windows-hardware/drivers/kernel/using-kernel-transaction-manager">atomicity</a> cannot be guaranteed.
 
 Prior to calling <b>MmDoesFileHaveUserWritableReferences</b>, transactional file systems must check and intercept the creation of file objects that specify write access.  Specifically, prior to starting a transaction, transactional file systems must ensure that there are no writable file objects that currently exist for the given file in the transaction.  While the transaction is ongoing, transactional file systems must fail the requests to create file objects with write access for the transacted files.
 
 <div class="alert"><b>Note</b>   This function can be used to detect if there are writable views for a file object even when all file handles and section handles for the file object have been closed.</div>
 <div> </div>
-For more information about transactions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-kernel-transaction-manager">Kernel Transaction Manager Design Guide</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Kernel Transaction Manager Routines</a>.
+For more information about transactions, see <a href="/windows-hardware/drivers/kernel/using-kernel-transaction-manager">Kernel Transaction Manager Design Guide</a> and <a href="/windows-hardware/drivers/ddi/index">Kernel Transaction Manager Routines</a>.
 
-For more information about file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>.
+For more information about file objects, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>

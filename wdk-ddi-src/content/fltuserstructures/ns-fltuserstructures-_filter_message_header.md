@@ -56,11 +56,11 @@ The FILTER_MESSAGE_HEADER structure contains message header information.
 
 ### -field ReplyLength
 
-On output from <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, this field receives the length, in bytes, of the expected reply, including the FILTER_REPLY_HEADER header. Set to zero if no reply is expected.
+On output from <a href="/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, this field receives the length, in bytes, of the expected reply, including the FILTER_REPLY_HEADER header. Set to zero if no reply is expected.
 
 ### -field MessageId
 
-On output from <a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, this field receives the unique identifier (ID) for the message sent by the kernel-mode driver. If the application replies to the message, it must set this ID in the <b>MessageId</b> field of the FILTER_REPLY_HEADER header in the reply.
+On output from <a href="/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>, this field receives the unique identifier (ID) for the message sent by the kernel-mode driver. If the application replies to the message, it must set this ID in the <b>MessageId</b> field of the FILTER_REPLY_HEADER header in the reply.
 
 ## -remarks
 
@@ -68,9 +68,8 @@ To receive messages from a kernel-mode minifilter, a user-mode application typic
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_reply_header">FILTER_REPLY_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_reply_header">FILTER_REPLY_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
-
+<a href="/windows/win32/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>

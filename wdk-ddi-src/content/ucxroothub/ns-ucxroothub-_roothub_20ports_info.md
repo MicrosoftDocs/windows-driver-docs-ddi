@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure that has an array of 2.0 ports supported by the  root hub. This structure is provided by  UCX in a framework request in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_20port_info">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a> callback function.
+This structure that has an array of 2.0 ports supported by the  root hub. This structure is provided by  UCX in a framework request in the  <a href="/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_20port_info">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a> callback function.
 
 ## -struct-fields
 
@@ -68,9 +68,8 @@ The size of the <b>ROOTHUB_20PORTS_INFO</b> structure.
 
 ### -field PortInfoArray
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_20port_info">PROOTHUB_20PORT_INFO</a> structures.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_20port_info">PROOTHUB_20PORT_INFO</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_20port_info">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_20port_info">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a>

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IOCTL_USB_GET_NODE_INFORMATION</b> I/O control request is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure to retrieve information about a parent device.
+The <b>IOCTL_USB_GET_NODE_INFORMATION</b> I/O control request is used with the <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure to retrieve information about a parent device.
 
 <b>IOCTL_USB_GET_NODE_INFORMATION</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
 
@@ -54,19 +54,19 @@ The <b>IOCTL_USB_GET_NODE_INFORMATION</b> I/O control request is used with the <
 
 ### -input-buffer
 
-On input, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure. On input, the <b>NodeType</b> member of this structure must indicate whether the parent device is a hub or a non-hub composite device.
+On input, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure. On input, the <b>NodeType</b> member of this structure must indicate whether the parent device is a hub or a non-hub composite device.
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure.
+The size of a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure.
 
 ### -output-buffer
 
-On output, <b>AssociatedIrp.SystemBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure that holds information about the parent device.
+On output, <b>AssociatedIrp.SystemBuffer</b> points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure that holds information about the parent device.
 
 ### -output-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure.
+The size of a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a> structure.
 
 ### -in-out-buffer
 
@@ -78,5 +78,4 @@ The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a>

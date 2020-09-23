@@ -65,13 +65,12 @@ Use this method to determine the difference between stream time and system time.
 
 For the most accurate results, call this method only when the stream is in a running state (KSSTATE_RUN) and not during a state transition.
 
-You should use this method when obtaining a time stamp to put in the <b>PresentationTime</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>.
+You should use this method when obtaining a time stamp to put in the <b>PresentationTime</b> member of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
 
-AVStream uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-correlatedtime">KSPROPERTY_CLOCK_CORRELATEDTIME</a> property to retrieve the correlated time.
+AVStream uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-correlatedtime">KSPROPERTY_CLOCK_CORRELATEDTIME</a> property to retrieve the correlated time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>

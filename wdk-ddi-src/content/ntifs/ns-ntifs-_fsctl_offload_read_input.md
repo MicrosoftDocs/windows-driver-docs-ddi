@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FSCTL_OFFLOAD_READ_INPUT</b> structure contains the input for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a> control code request.
+The <b>FSCTL_OFFLOAD_READ_INPUT</b> structure contains the input for the <a href="/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a> control code request.
 
 ## -struct-fields
 
@@ -91,9 +91,8 @@ The  storage device's copy provider retains the data read for the duration in <b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a>
+<a href="/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_read_output">FSCTL_OFFLOAD_READ_OUTPUT</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_read_output">FSCTL_OFFLOAD_READ_OUTPUT</a>

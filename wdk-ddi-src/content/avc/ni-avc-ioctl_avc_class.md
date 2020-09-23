@@ -66,7 +66,7 @@ The GUID_AVC_CLASS interface supports all IOCTL_AVC_CLASS function codes, althou
 
 The IOCTL_AVC_CLASS function codes (and any restrictions) are described in each function code.
 
-For more information about IRPs and IOCTLs, see [Handling IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-irps).
+For more information about IRPs and IOCTLs, see [Handling IRPs](/windows-hardware/drivers/kernel/handling-irps).
 
 ## -ioctlparameters
 
@@ -118,17 +118,16 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 ## -see-also
 
-[AVC_COMMAND_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_command_irb)
+[AVC_COMMAND_IRB](./ns-avc-_avc_command_irb.md)
 
-[AVC_FUNCTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ne-avc-_tagavc_function)
+[AVC_FUNCTION](./ne-avc-_tagavc_function.md)
 
-[AVC_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_irb)
+[AVC_IRB](./ns-avc-_avc_irb.md)
 
-[AVC_MULTIFUNC_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_multifunc_irb)
+[AVC_MULTIFUNC_IRB](./ns-avc-_avc_multifunc_irb.md)
 
-[IOCTL_AVC_BUS_RESET](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_bus_reset)
+[IOCTL_AVC_BUS_RESET](./ni-avc-ioctl_avc_bus_reset.md)
 
-[IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_remove_virtual_subunit_info)
+[IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO](./ni-avc-ioctl_avc_remove_virtual_subunit_info.md)
 
-[IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_update_virtual_subunit_info)
-
+[IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO](./ni-avc-ioctl_avc_update_virtual_subunit_info.md)

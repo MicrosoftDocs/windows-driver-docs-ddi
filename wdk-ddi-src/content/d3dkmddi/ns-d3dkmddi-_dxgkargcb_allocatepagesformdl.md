@@ -69,7 +69,7 @@ Indicates the type of caching that is allowed for the requested memory.
 
 ### -field Flags
 
-Specifies flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex).
+Specifies flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](../wdm/nf-wdm-mmallocatepagesformdlex.md).
 
 ### -field hMemoryHandle
 
@@ -82,4 +82,3 @@ An MDL of non-paged memory guaranteed to be mapped to the IoMmu for its lifetime
 ## -remarks
 
 ## -see-also
-

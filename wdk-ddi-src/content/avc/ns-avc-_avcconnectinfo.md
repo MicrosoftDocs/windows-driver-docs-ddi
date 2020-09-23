@@ -80,9 +80,8 @@ The plug number (within the subunit) described by the AVCPRECONNECTINFO structur
 
 ## -remarks
 
-This structure is used only as member inside the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_setconnect_info">AVC_SETCONNECT_INFO</a> structure. It is not used by itself.
+This structure is used only as member inside the <a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_setconnect_info">AVC_SETCONNECT_INFO</a> structure. It is not used by itself.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-set-connectinfo">AVC_FUNCTION_SET_CONNECTINFO</a>
-
+<a href="/windows-hardware/drivers/stream/avc-function-set-connectinfo">AVC_FUNCTION_SET_CONNECTINFO</a>
