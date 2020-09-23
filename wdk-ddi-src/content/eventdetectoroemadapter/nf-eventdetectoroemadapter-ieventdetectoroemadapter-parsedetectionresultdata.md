@@ -4,7 +4,6 @@ title: IEventDetectorOemAdapter::ParseDetectionResultData
 description: Uses the input model data and SOUNDDETECTOR_PATTERNHEADER to determine the DETECTIONEVENTID,LANGID and USER detected.
 tech.root: audio
 ms.assetid: 862be70a-9d24-442f-a4fa-deb3fbefd4c6
-ms.author: windowsdriverdev
 ms.date: 02/26/2019
 keywords: ["IEventDetectorOemAdapter::ParseDetectionResultData"]
 ms.keywords: IEventDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData, IEventDetectorOemAdapter::ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData

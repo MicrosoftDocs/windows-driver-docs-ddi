@@ -4,7 +4,6 @@ title: _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
 description: Used by the D3DKMTOutputDuplPresentToHwQueue function to output the duplicate handle of a hardware queue.
 tech.root: display
 ms.assetid: f970fcdd-e98a-4ad5-9536-7b08bbd19645
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure"]
 ms.prod: windows-hardware

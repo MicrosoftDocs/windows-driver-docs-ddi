@@ -4,7 +4,6 @@ title: _DEBUG_LEVEL
 description: Specifies the debug level.
 tech.root: display
 ms.assetid: 87404085-816f-4ca3-abf7-ae5955b54a99
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DEBUG_LEVEL enumeration"]
 ms.keywords: _DEBUG_LEVEL, DEBUG_LEVEL,

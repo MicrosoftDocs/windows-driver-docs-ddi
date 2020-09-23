@@ -4,7 +4,6 @@ title: DlGetVersion function
 description: Gets version information about the currently running operating system.
 tech.root: display
 ms.assetid: 3ddadf84-4802-48d6-a8ed-52e1fe903bb6
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlGetVersion function"]
 ms.keywords: DlGetVersion

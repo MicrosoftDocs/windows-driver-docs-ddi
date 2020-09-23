@@ -4,7 +4,6 @@ title: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS (netwakesource.h)
 description: The NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure contains parameters for a media change wake-on-LAN (WoL) wake source.
 tech.root: netvista
 ms.assetid: de7b5a2a-dc88-4b27-8896-7682e8dce72a
-ms.author: windowsdriverdev
 ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure"]
 ms.keywords: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS, NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS,

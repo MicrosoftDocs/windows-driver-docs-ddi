@@ -4,7 +4,6 @@ title: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function initializes a NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: a9f9665f-e74c-409e-ad33-968fb40c629b
-ms.author: windowsdriverdev
 ms.date: 10/22/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT

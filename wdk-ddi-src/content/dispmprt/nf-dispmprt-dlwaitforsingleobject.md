@@ -4,7 +4,6 @@ title: DlWaitForSingleObject function
 description: Puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.
 tech.root: display
 ms.assetid: 658613b3-9f6f-40a4-86e1-27b61a5aadef
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlWaitForSingleObject function"]
 ms.keywords: DlWaitForSingleObject

@@ -4,7 +4,6 @@ title: _DXGKARG_DESTROYVIRTUALGPU
 description: Arguments used to destroy a virtual GPU.
 tech.root: display
 ms.assetid: a188ce90-46eb-4098-8da2-bf890f720ce1
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_DESTROYVIRTUALGPU structure"]
 ms.prod: windows-hardware

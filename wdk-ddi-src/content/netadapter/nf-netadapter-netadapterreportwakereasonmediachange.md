@@ -4,7 +4,6 @@ title: NetAdapterReportWakeReasonMediaChange function (netadapter.h)
 description: The NetAdapterReportWakeReasonMediaChange function reports to the framework that a net adapter generated a wake-up event because of a media change.
 tech.root: netvista
 ms.assetid: 877cde13-87d8-42e6-bf83-7ff81743bacc
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetAdapterReportWakeReasonMediaChange function"]
 ms.keywords: NetAdapterReportWakeReasonMediaChange

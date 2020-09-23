@@ -4,7 +4,6 @@ title: DlIndicateChildStatus function
 description: Indicates the child status of the display adapter.
 tech.root: display
 ms.assetid: 2e3bef22-76f6-40e1-9df2-550a68f9a61d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlIndicateChildStatus function"]
 ms.keywords: DlIndicateChildStatus

@@ -4,7 +4,6 @@ title: NetAdapterWakeSetMediaChangeCapabilities function (netadapter.h)
 description: The NetAdapterWakeSetMediaChangeCapabilities function sets a net adapter's media change wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: 1814a1fc-1e1e-4b73-8104-3e7991ffa64f
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetMediaChangeCapabilities function"]
 ms.keywords: NetAdapterWakeSetMediaChangeCapabilities

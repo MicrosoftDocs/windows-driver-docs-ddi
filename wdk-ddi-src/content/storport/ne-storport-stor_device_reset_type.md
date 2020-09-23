@@ -4,7 +4,6 @@ title: STOR_DEVICE_RESET_TYPE
 description: The STOR_DEVICE_RESET_TYPE enum specifies the type of device reset being requested in a call to StorPortHardwareReset.
 tech.root: storage
 ms.assetid: b0c412bb-9354-4599-9078-8b8656185d15
-ms.author: windowsdriverdev
 ms.date: 03/20/2020
 ms.topic: enum
 ms.keywords: STOR_DEVICE_RESET_TYPE, STOR_DEVICE_RESET_TYPE,

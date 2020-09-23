@@ -4,7 +4,6 @@ title: D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061
 description: Queries for meta command capabilities.
 tech.root: display
 ms.assetid: 71d5c68e-abfa-40bf-92d1-774577f65818
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061 structure"]
 ms.keywords: D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061, D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061,

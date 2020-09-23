@@ -4,7 +4,6 @@ title: NET_PACKET_RSC_TIMESTAMP (rsctypes.h)
 description: The NET_PACKET_RSC_TIMESTAMP structure contains receive segment coalescence (RSC) timestamp information for a packet.
 tech.root: netvista
 ms.assetid: 9a3fb9c0-432c-4d3c-a132-37a48ffc8509
-ms.author: windowsdriverdev
 ms.date: 09/24/2019
 keywords: ["NET_PACKET_RSC_TIMESTAMP structure"]
 ms.keywords: NET_PACKET_RSC_TIMESTAMP, NET_PACKET_RSC_TIMESTAMP,

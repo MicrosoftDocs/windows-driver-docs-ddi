@@ -4,7 +4,6 @@ title: RtlIsZeroMemory function
 description: TBD
 tech.root: kernel
 ms.assetid: 8816a51c-1c4e-400a-8861-21c967d79982
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlIsZeroMemory

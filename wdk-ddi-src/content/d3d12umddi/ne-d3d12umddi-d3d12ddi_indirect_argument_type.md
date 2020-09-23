@@ -4,7 +4,6 @@ title: D3D12DDI_INDIRECT_ARGUMENT_TYPE
 description: Specifies the type of the indirect parameter for indirect dispatch.
 tech.root: display
 ms.assetid: 6be46c04-3fc0-4761-9486-388c252d0684
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 keywords: ["D3D12DDI_INDIRECT_ARGUMENT_TYPE enumeration"]
 ms.keywords: D3D12DDI_INDIRECT_ARGUMENT_TYPE, D3D12DDI_INDIRECT_ARGUMENT_TYPE,

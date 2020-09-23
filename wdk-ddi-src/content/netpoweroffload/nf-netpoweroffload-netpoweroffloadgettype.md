@@ -4,7 +4,6 @@ title: NetPowerOffloadGetType function (netpoweroffload.h)
 description: The NetPowerOffloadGetType function gets the power offload type for a low power protocol offload to a net adapter.
 tech.root: netvista
 ms.assetid: 04e24520-1ccd-4c27-8bad-ff4cac890e2e
-ms.author: windowsdriverdev
 ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetType function"]
 ms.keywords: NetPowerOffloadGetType

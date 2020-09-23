@@ -4,7 +4,6 @@ title: NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT function initializes a NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: cc59e8b5-f620-48fa-90cc-b3d389862bec
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT

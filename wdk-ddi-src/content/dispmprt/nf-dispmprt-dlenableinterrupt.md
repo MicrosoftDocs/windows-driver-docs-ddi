@@ -4,7 +4,6 @@ title: DlEnableInterrupt function
 description: Reenables interrupts from a video adapter.
 tech.root: display
 ms.assetid: 3b5a4fc3-35bd-4a8b-aaa9-c414510144f4
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlEnableInterrupt function"]
 ms.keywords: DlEnableInterrupt

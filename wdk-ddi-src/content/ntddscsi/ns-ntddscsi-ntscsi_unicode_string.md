@@ -4,7 +4,6 @@ title: NTSCSI_UNICODE_STRING
 description: Storage port drivers can use the NTSCSI_UNICODE_STRING structure to define Unicode strings.
 tech.root: storage
 ms.assetid: 8579b364-2a1f-4e71-b128-879e63a5c4d6
-ms.author: windowsdriverdev
 ms.date: 03/18/2019
 keywords: ["NTSCSI_UNICODE_STRING structure"]
 ms.keywords: NTSCSI_UNICODE_STRING, NTSCSI_UNICODE_STRING, *PNTSCSI_UNICODE_STRING

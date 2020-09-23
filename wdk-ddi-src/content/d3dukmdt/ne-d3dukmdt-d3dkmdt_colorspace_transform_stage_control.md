@@ -4,7 +4,6 @@ title: D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL
 description: Specifies the colorspace transform stage control.
 tech.root: display
 ms.assetid: d97c0abc-6fc4-43bd-89b0-edf70a43f8d7
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration"]
 ms.keywords: D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, *PD3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL,

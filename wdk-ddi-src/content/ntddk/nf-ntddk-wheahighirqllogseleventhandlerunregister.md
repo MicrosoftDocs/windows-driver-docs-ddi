@@ -4,7 +4,6 @@ title: WheaHighIrqlLogSelEventHandlerUnregister function
 description: Reserved for system use.
 tech.root: 
 ms.assetid: d017ad63-f9d5-413f-9dc6-aba5fb873c93
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WheaHighIrqlLogSelEventHandlerUnregister function"]
 ms.keywords: WheaHighIrqlLogSelEventHandlerUnregister

@@ -4,7 +4,6 @@ title: DlGetRomImage function
 description: Reads the device's read-only memory (ROM).
 tech.root: display
 ms.assetid: b3f252bc-a6b2-406f-b80b-cf0615d5f421
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlGetRomImage function"]
 ms.keywords: DlGetRomImage

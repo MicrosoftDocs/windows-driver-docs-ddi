@@ -4,7 +4,6 @@ title: IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
 description: 
 tech.root: 
 ms.assetid: 44246bf3-ec90-48b5-b444-7398b483b192
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL"]
 req.header: ntddk.h

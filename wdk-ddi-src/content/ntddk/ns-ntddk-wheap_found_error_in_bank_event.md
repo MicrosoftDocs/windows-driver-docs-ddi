@@ -4,7 +4,6 @@ title: WHEAP_FOUND_ERROR_IN_BANK_EVENT
 description: 
 tech.root: 
 ms.assetid: 06ec284c-a570-4690-837d-baf7eca613d7
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEAP_FOUND_ERROR_IN_BANK_EVENT structure"]
 ms.keywords: WHEAP_FOUND_ERROR_IN_BANK_EVENT, WHEAP_FOUND_ERROR_IN_BANK_EVENT, *PWHEAP_FOUND_ERROR_IN_BANK_EVENT,

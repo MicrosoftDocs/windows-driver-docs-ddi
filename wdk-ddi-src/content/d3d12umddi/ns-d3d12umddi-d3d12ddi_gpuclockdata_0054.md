@@ -4,7 +4,6 @@ title: D3D12DDI_GPUCLOCKDATA_0054
 description: GPU clock data.
 tech.root: display
 ms.assetid: d1fa5f7e-0cd4-4b83-ab2c-42b6174c6e6a
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_GPUCLOCKDATA_0054 structure"]
 ms.prod: windows-hardware

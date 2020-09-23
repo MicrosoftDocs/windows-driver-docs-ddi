@@ -4,7 +4,6 @@ title: D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054
 description: 
 tech.root: display
 ms.assetid: 434aefc5-b81e-418a-8f1e-e833fee7bbec
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054 structure"]
 ms.prod: windows-hardware

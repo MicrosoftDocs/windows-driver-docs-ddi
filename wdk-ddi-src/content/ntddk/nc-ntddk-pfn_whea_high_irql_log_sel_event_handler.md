@@ -4,7 +4,6 @@ title: PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
 description: 
 tech.root: 
 ms.assetid: 32e3153b-8701-48ec-ae54-5f508593fd97
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER callback function"]
 req.header: ntddk.h

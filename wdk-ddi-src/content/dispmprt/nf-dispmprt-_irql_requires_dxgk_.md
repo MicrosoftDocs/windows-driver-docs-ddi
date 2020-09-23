@@ -4,7 +4,6 @@ title: _IRQL_requires_DXGK_ macro
 description: Allows drivers to use the updated annotations.
 tech.root: display
 ms.assetid: bc96fece-1a62-486c-809f-d52d88f6af60
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["IRQL_requires_DXGK_ macro"]
 ms.keywords: _IRQL_requires_DXGK_

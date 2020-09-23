@@ -4,7 +4,6 @@ title: DlFreeDeviceBase function
 description: Frees a range of bus-relative device I/O ports or memory addresses previously mapped into the system address space.
 tech.root: display
 ms.assetid: b5c33cfe-bdc7-49a5-a090-ae3472a681a7
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlFreeDeviceBase function"]
 ms.keywords: DlFreeDeviceBase

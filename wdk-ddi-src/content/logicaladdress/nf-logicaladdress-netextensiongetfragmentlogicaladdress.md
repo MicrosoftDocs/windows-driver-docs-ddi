@@ -4,7 +4,6 @@ title: NetExtensionGetFragmentLogicalAddress function (logicaladdress.h)
 description: The NetExtensionGetFragmentLogicalAddress function retrieves the DMA logical address extension information for a net fragment.
 tech.root: netvista
 ms.assetid: 8ED86035-A4B3-47C5-A138-1164B5A58291
-ms.author: windowsdriverdev
 ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentLogicalAddress function"]
 ms.keywords: NetExtensionGetFragmentLogicalAddress

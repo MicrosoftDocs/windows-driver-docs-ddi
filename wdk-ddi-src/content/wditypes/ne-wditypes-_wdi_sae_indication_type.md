@@ -4,7 +4,6 @@ title: WDI_SAE_INDICATION_TYPE
 description: The WDI_SAE_INDICATION_TYPE enumeration defines the type of information needed to continue SAE authentication with the BSSID, or notification that authentication cannot continue.
 tech.root: netvista
 ms.assetid: 685c8f66-5b3a-4bb5-8579-18197e661e73
-ms.author: windowsdriverdev
 ms.date: 02/14/2019
 keywords: ["WDI_SAE_INDICATION_TYPE enumeration"]
 ms.keywords: WDI_SAE_INDICATION_TYPE, WDI_SAE_INDICATION_TYPE,

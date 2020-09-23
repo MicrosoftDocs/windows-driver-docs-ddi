@@ -4,7 +4,6 @@ title: STOR_EVENT
 description: The STOR_EVENT structure describes an event object.
 tech.root: storage
 ms.assetid: e97bff93-6b37-4ecb-9b3a-9a0be475ae87
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: struct
 ms.keywords: STOR_EVENT, STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT,

@@ -4,7 +4,6 @@ title: MmGetSystemRoutineAddressEx function
 description: TBD
 tech.root: kernel
 ms.assetid: a02b0193-1f21-497b-9628-6ea6afb43d50
-ms.author: windowsdriverdev
 ms.date: 03/01/2020
 ms.topic: function
 ms.keywords: MmGetSystemRoutineAddressEx

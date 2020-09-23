@@ -4,7 +4,6 @@ title: PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
 description: Pointer to the indirect display function IddCxAdapterDisplayConfigUpdate.
 tech.root: display
 ms.assetid: 8c2076ea-c798-4d19-8e1f-ffc8fea44237
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE callback function"]
 ms.prod: windows-hardware

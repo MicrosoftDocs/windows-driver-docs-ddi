@@ -4,7 +4,6 @@ title: DEBUG_DEVICE_DESCRIPTOR
 description: 
 tech.root: 
 ms.assetid: e2e442cb-2d4b-447f-9a83-1ae1a328a6c2
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["DEBUG_DEVICE_DESCRIPTOR structure"]
 ms.keywords: DEBUG_DEVICE_DESCRIPTOR, DEBUG_DEVICE_DESCRIPTOR, *PDEBUG_DEVICE_DESCRIPTOR,

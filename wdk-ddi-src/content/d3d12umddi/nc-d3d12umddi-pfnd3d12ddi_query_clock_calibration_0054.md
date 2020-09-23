@@ -4,7 +4,6 @@ title: PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054
 description: Queries for clock calibration information.
 tech.root: display
 ms.assetid: c9ce34e2-6d10-4746-aa81-7a49f65a364f
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_QUERY_CLOCK_CALIBRATION_0054 callback function"]
 ms.prod: windows-hardware

@@ -4,7 +4,6 @@ title: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT function initializes a NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: c7a01b5d-7ad6-498e-bd6a-0d66eb9bd220
-ms.author: windowsdriverdev
 ms.date: 10/22/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT

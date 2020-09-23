@@ -4,7 +4,6 @@ title: WheaRemoveErrorSource function
 description: Reserved for system use.
 tech.root: 
 ms.assetid: 6efc418b-cb45-409d-9ad7-9dbdfeba59bb
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WheaRemoveErrorSource function"]
 ms.keywords: WheaRemoveErrorSource

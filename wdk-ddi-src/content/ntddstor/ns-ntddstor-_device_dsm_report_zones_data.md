@@ -4,7 +4,6 @@ title: DEVICE_DSM_REPORT_ZONES_DATA
 description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 988906ae-fa8c-4370-aedb-c5073766282c
-ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_REPORT_ZONES_DATA structure"]
 ms.keywords: DEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_DATA, *PDEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_OUTPUT, *PDEVICE_DSM_REPORT_ZONES_OUTPUT,

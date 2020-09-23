@@ -4,7 +4,6 @@ title: NET_POWER_OFFLOAD_TYPE (netpoweroffload.h)
 description: The NET_POWER_OFFLOAD_TYPE enumeration specifies the type for a low power offload protocol offload to a net adapter.
 tech.root: netvista
 ms.assetid: d321223f-7e48-43c6-bb35-85f0c646651e
-ms.author: windowsdriverdev
 ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_TYPE enumeration"]
 ms.keywords: NET_POWER_OFFLOAD_TYPE, NET_POWER_OFFLOAD_TYPE,

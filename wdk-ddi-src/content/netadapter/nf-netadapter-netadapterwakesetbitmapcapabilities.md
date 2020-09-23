@@ -4,7 +4,6 @@ title: NetAdapterWakeSetBitmapCapabilities function (netadapter.h)
 description: The NetAdapterWakeSetBitmapCapabilities function sets a net adapter's bitmap pattern wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: 1c6006b8-6241-418f-b81c-b32a318eeea6
-ms.author: windowsdriverdev
 ms.date: 10/24/2019
 keywords: ["NetAdapterWakeSetBitmapCapabilities function"]
 ms.keywords: NetAdapterWakeSetBitmapCapabilities

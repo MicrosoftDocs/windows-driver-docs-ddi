@@ -4,7 +4,6 @@ title: D3D12DDI_SHADING_RATE_0062
 description: The shading rate at which the variable rate shading occurs.
 tech.root: display
 ms.assetid: 65780036-2a4b-4fa4-bafb-b6966689120c
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_SHADING_RATE_0062 enumeration"]
 ms.keywords: D3D12DDI_SHADING_RATE_0062, D3D12DDI_SHADING_RATE_0062,

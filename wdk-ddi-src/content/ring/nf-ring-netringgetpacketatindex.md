@@ -4,7 +4,6 @@ title: NetRingGetPacketAtIndex function (ring.h)
 description: The NetRingGetPacketAtIndex function retrieves a packet from a net ring.
 tech.root: netvista
 ms.assetid: ed780394-3234-4900-a008-b856e188ce2b
-ms.author: windowsdriverdev
 ms.date: 09/25/2019
 keywords: ["NetRingGetPacketAtIndex function"]
 ms.keywords: NetRingGetPacketAtIndex

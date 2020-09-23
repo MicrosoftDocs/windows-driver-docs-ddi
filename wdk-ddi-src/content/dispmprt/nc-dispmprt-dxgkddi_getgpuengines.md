@@ -4,7 +4,6 @@ title: DXGKDDI_GETGPUENGINES
 description: This function is no longer used and maybe be deleted in the near future.  It is currently required, but will never be called.
 tech.root: display
 ms.assetid: 2516376d-9fb4-47a5-8178-304f2b549f48
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_GETGPUENGINES callback function"]
 req.header: dispmprt.h

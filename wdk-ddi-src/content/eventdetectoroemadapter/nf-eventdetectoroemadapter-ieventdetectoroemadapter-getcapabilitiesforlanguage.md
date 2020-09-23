@@ -4,7 +4,6 @@ title: IEventDetectorOemAdapter::GetCapabilitiesForLanguage
 description: Returns the events supported by the specific language.
 tech.root: audio
 ms.assetid: 3aad0fe6-6c9c-48f8-8d05-4a46373cf842
-ms.author: windowsdriverdev
 ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::GetCapabilitiesForLanguage"]
 ms.keywords: IEventDetectorOemAdapter::GetCapabilitiesForLanguage, GetCapabilitiesForLanguage, IEventDetectorOemAdapter.GetCapabilitiesForLanguage, IEventDetectorOemAdapter::GetCapabilitiesForLanguage, IEventDetectorOemAdapter.GetCapabilitiesForLanguage

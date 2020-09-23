@@ -4,7 +4,6 @@ title: DlUnlockBuffer function
 description: Unlocks physical pages described by the specified memory descriptor list.
 tech.root: display
 ms.assetid: 7292373a-8c56-438a-a0e1-4b217a359d2b
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlUnlockBuffer function"]
 ms.keywords: DlUnlockBuffer

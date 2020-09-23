@@ -4,7 +4,6 @@ title: StorPortWaitForSingleObject function
 description: A miniport can call StorPortWaitForSingleObject function to put the current thread into a wait state until the given dispatcher object is set to signaled state or optionally times out.
 tech.root: storage
 ms.assetid: 36dba4d1-de52-4522-ba07-f8b57357b48e
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortWaitForSingleObject

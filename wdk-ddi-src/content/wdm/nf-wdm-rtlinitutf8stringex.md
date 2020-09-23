@@ -4,7 +4,6 @@ title: RtlInitUTF8StringEx function
 description: TBD
 tech.root: kernel
 ms.assetid: 5d8f81aa-6ba6-4181-973f-a5e6dc868f74
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlInitUTF8StringEx

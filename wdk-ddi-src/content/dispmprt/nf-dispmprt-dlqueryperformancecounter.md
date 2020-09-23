@@ -4,7 +4,6 @@ title: DlQueryPerformanceCounter function
 description: Provides the finest-grained running count available in the system.
 tech.root: display
 ms.assetid: 8abdfee5-0772-4a2a-b6e5-d5055a4f86f8
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlQueryPerformanceCounter function"]
 ms.keywords: DlQueryPerformanceCounter

@@ -4,7 +4,6 @@ title: IoFreeKsrPersistentMemory function
 description: TBD
 tech.root: kernel
 ms.assetid: 0edd4154-d867-46d8-880a-e95aa9e016c2
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: IoFreeKsrPersistentMemory

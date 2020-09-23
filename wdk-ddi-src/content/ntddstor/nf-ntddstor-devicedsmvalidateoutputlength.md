@@ -4,7 +4,6 @@ title: DeviceDsmValidateOutputLength function
 description: The DeviceDsmValidateOutputLength function validates the length of an output buffer.
 tech.root: storage
 ms.assetid: 953960c8-dfe1-48d9-9265-08e37a18d0d4
-ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DeviceDsmValidateOutputLength function"]
 ms.keywords: DeviceDsmValidateOutputLength

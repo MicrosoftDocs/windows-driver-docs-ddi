@@ -4,7 +4,6 @@ title: PFND3D12DDI_RS_SET_SHADING_RATE_IMAGE_0062
 description: Sets the screen space image.
 tech.root: display
 ms.assetid: b2cb2d40-f60a-4896-b590-af1faac305b4
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_RS_SET_SHADING_RATE_IMAGE_0062 callback function"]
 req.header: d3d12umddi.h

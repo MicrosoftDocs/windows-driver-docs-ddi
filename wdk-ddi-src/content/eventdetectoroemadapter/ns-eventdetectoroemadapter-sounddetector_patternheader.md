@@ -4,7 +4,6 @@ title: SOUNDDETECTOR_PATTERNHEADER
 description: The SOUNDDETECTOR_PATTERNHEADER structure specifies the size and the format of the pattern data for the sound detector.
 tech.root: audio
 ms.assetid: 1aa2d821-a1f6-46ca-be4c-9c8f280f9fa0
-ms.author: windowsdriverdev
 ms.date: 03/22/2019
 keywords: ["SOUNDDETECTOR_PATTERNHEADER structure"]
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER,

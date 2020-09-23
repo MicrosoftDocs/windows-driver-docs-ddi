@@ -4,7 +4,6 @@ title: DlMapMemory function
 description: Maps a range of bus-relative physical addresses of display memory into system space or into the virtual address space of a user-mode process.
 tech.root: display
 ms.assetid: c78ed9a8-9e8d-4863-bccd-0bdbf0dac9a2
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlMapMemory function"]
 ms.keywords: DlMapMemory

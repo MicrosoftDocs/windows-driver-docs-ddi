@@ -4,7 +4,6 @@ title: NetDeviceInitConfig function (netdevice.h)
 description: The NetDeviceInitConfig function initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 tech.root: netvista
 ms.assetid: 578116d2-0dcf-4ebb-a42f-db9f456a0f38
-ms.author: windowsdriverdev
 ms.date: 10/11/2019
 keywords: ["NetDeviceInitConfig function"]
 ms.keywords: NetDeviceInitConfig

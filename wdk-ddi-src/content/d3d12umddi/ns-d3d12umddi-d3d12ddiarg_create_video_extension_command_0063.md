@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063
 description: Used to create a video extension command.
 tech.root: display
 ms.assetid: 5b621cc0-5062-44ab-8d1e-ddd88e10b1eb
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063, D3D12DDIARG_CREATE_VIDEO_EXTENSION_COMMAND_0063,

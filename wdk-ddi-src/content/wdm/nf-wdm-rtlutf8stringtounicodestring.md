@@ -4,7 +4,6 @@ title: RtlUTF8StringToUnicodeString function
 description: TBD
 tech.root: kernel
 ms.assetid: ab311f45-8ab8-4360-b3ec-928633dfb020
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlUTF8StringToUnicodeString

@@ -4,7 +4,6 @@ title: DlGetAccessRanges function
 description: Retrieves bus-relative configuration information and, if possible, claims these hardware resources in the registry for the caller.
 tech.root: display
 ms.assetid: c430c0a1-e9a2-49f8-b578-7cdd1c30cec4
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlGetAccessRanges function"]
 ms.keywords: DlGetAccessRanges

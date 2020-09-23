@@ -4,7 +4,6 @@ title: DEVICE_INTERNAL_STATUS_DATA
 description: 
 tech.root: storage
 ms.assetid: 910ff4a4-e0e3-4402-8231-c3d62afe2ea4
-ms.author: windowsdriverdev
 ms.date: 11/30/2019
 ms.topic: struct
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA, DEVICE_INTERNAL_STATUS_DATA, *PDEVICE_INTERNAL_STATUS_DATA,

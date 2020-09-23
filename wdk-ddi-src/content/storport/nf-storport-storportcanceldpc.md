@@ -4,7 +4,6 @@ title: StorPortCancelDpc function
 description: StorPortCancelDpc attempts to cancel the execution of a StorPort deferred procedure call (DPC).
 tech.root: storage
 ms.assetid: e40dd10a-adae-480c-a820-6a9b0b3b776e
-ms.author: windowsdriverdev
 ms.date: 03/19/2019
 keywords: ["StorPortCancelDpc function"]
 ms.keywords: StorPortCancelDpc

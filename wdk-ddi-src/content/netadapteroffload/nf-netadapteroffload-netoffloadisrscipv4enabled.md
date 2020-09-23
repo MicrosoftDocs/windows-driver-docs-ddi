@@ -4,7 +4,6 @@ title: NetOffloadIsRscIPv4Enabled function (netadapteroffload.h)
 description: The NetOffloadIsRscIPv4Enabled function determines whether a net adapter has RSC offload enabled for IPv4 packets.
 tech.root: netvista
 ms.assetid: 431cdc87-473f-40f1-9ade-14e3e7459cbd
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetOffloadIsRscIPv4Enabled function"]
 ms.keywords: NetOffloadIsRscIPv4Enabled

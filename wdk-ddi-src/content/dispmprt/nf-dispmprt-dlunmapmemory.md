@@ -4,7 +4,6 @@ title: DlUnmapMemory function
 description: Releases a mapping between a logical address range for the adapter and a virtual address range in the user-mode address space of a particular thread.
 tech.root: display
 ms.assetid: 44b55045-998e-4611-938f-d38692759e66
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlUnmapMemory function"]
 ms.keywords: DlUnmapMemory

@@ -4,7 +4,6 @@ title: WheaConfigureErrorSource function
 description: Reserved for system use.
 tech.root: 
 ms.assetid: a63ba4cc-1b27-4a93-a776-3743ba27cb95
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WheaConfigureErrorSource function"]
 ms.keywords: WheaConfigureErrorSource

@@ -4,7 +4,6 @@ title: DlGetDeviceBase function
 description: Maps a range of bus-relative device memory or I/O addresses into system space.
 tech.root: display
 ms.assetid: 5d64fca7-23ed-4bf0-9a81-fdbced013728
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlGetDeviceBase function"]
 ms.keywords: DlGetDeviceBase

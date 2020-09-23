@@ -4,7 +4,6 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0062
 description: Core device functions available in D3D12 Release 6, Build rev 2.
 tech.root: display
 ms.assetid: 24e62aa5-3d52-46ee-b77a-4597000ba1e1
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_0062 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0062, D3D12DDI_DEVICE_FUNCS_CORE_0062,

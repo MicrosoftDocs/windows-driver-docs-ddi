@@ -4,7 +4,6 @@ title: DXGKDDI_CONTROLMODEBEHAVIOR
 description: The DxgkDdiControlModeBehavior function requests high-level mode enumeration and settings behaviors.
 tech.root: display
 ms.assetid: a98fa9dd-f514-4e30-8c77-71a424c1675c
-ms.author: windowsdriverdev
 ms.date: 10/14/2019
 keywords: ["DXGKDDI_CONTROLMODEBEHAVIOR callback function"]
 req.header: d3dkmddi.h

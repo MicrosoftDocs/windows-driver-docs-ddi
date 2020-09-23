@@ -4,7 +4,6 @@ title: D3D12DDICB_CREATESYNCHRONIZATIONOBJECT2
 description: Used to create a synchronized object.
 tech.root: display
 ms.assetid: 0c3c3192-2267-4c10-aa3e-ef6f8911832a
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDICB_CREATESYNCHRONIZATIONOBJECT2 structure"]
 ms.prod: windows-hardware

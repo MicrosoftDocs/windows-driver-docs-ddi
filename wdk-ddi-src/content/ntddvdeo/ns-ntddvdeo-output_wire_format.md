@@ -4,7 +4,6 @@ title: OUTPUT_WIRE_FORMAT
 description: Output wire format.
 tech.root: display
 ms.assetid: 8ae6f264-f122-475d-81ea-032042c55337
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["OUTPUT_WIRE_FORMAT structure"]
 ms.keywords: OUTPUT_WIRE_FORMAT, OUTPUT_WIRE_FORMAT,

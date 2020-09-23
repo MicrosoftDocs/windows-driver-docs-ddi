@@ -4,7 +4,6 @@ title: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
 description: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE identifies the data type to be queried.
 tech.root: storage
 ms.assetid: 9f0e23b4-015f-41f7-861f-b474c4e85444
-ms.author: windowsdriverdev
 ms.date: 11/30/2019
 ms.topic: enum
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, *PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE,

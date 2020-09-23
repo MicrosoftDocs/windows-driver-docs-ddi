@@ -4,7 +4,6 @@ title: WHEAP_ATTEMPT_RECOVERY_EVENT
 description: 
 tech.root: 
 ms.assetid: 14d2f01f-9df8-4545-bbdb-075c1f5e2259
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEAP_ATTEMPT_RECOVERY_EVENT structure"]
 ms.keywords: WHEAP_ATTEMPT_RECOVERY_EVENT, WHEAP_ATTEMPT_RECOVERY_EVENT, *PWHEAP_ATTEMPT_RECOVERY_EVENT,

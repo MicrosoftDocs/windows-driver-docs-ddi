@@ -4,7 +4,6 @@ title: DXGK_TARGET_CONTROL_TYPE
 description: The kernel mode display driver target control type.
 tech.root: display
 ms.assetid: f7d630aa-7a49-4a0d-9fe9-94a0659c287e
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_TARGET_CONTROL_TYPE enumeration"]
 ms.keywords: DXGK_TARGET_CONTROL_TYPE, DXGK_TARGET_CONTROL_TYPE,

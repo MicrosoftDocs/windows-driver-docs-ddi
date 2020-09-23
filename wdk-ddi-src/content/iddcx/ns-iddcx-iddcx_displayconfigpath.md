@@ -4,7 +4,6 @@ title: IDDCX_DISPLAYCONFIGPATH
 description: The display monitor configuration path.
 tech.root: display
 ms.assetid: 5dce6205-f03c-4ca5-8f40-09a24eacbd13
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["IDDCX_DISPLAYCONFIGPATH structure"]
 ms.prod: windows-hardware

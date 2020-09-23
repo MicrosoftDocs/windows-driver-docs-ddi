@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETERS_DATA_0063
 description: Retrieves the array of parameter info for a parameter stage.
 tech.root: display
 ms.assetid: fab08542-51ea-4d17-90eb-69965f4f7023
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETERS_DATA_0063 structure"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETERS_DATA_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETERS_DATA_0063,

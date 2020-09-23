@@ -4,7 +4,6 @@ title: D3D12DDI_MEASUREMENTS_ACTION_0062
 description: Indicates what to do with the result of previous PGO (profile guided optimization) measurements.
 tech.root: display
 ms.assetid: 24a8c14d-4202-4804-a679-bb9674873dd5
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_MEASUREMENTS_ACTION_0062 enumeration"]
 ms.keywords: D3D12DDI_MEASUREMENTS_ACTION_0062, D3D12DDI_MEASUREMENTS_ACTION_0062,

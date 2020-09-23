@@ -4,7 +4,6 @@ title: WheaInitializeRecordHeader function
 description: Reserved for system use.
 tech.root: 
 ms.assetid: 82722a7a-bd96-434c-bffe-c51ea3b013ae
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WheaInitializeRecordHeader function"]
 ms.keywords: WheaInitializeRecordHeader

@@ -4,7 +4,6 @@ title: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
 description: Describes the parameters that the display driver uses to create a command signature.
 tech.root: display
 ms.assetid: bde7837f-15fc-4345-af92-40443a315682
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: struct
 ms.keywords: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001, D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001,

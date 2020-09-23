@@ -4,7 +4,6 @@ title: PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION
 description: Invokes the driver to schedule work to perform the necessary transformations from the input resource, to the "shadow" allocation which will actually be scanned out.
 tech.root: display
 ms.assetid: 84b01acb-e1cb-4ed4-b82c-5dfc427ac05d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION callback function"]
 ms.prod: windows-hardware

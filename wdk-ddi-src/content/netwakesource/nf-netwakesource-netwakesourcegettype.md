@@ -4,7 +4,6 @@ title: NetWakeSourceGetType function (netwakesource.h)
 description: The NetWakeSourceGetType function gets the type for wake-on-LAN (WoL) source.
 tech.root: netvista
 ms.assetid: 05e0ca0e-5cf2-43b6-b5e1-325a11fde2da
-ms.author: windowsdriverdev
 ms.date: 10/10/2019
 keywords: ["NetWakeSourceGetType function"]
 ms.keywords: NetWakeSourceGetType

@@ -4,7 +4,6 @@ title: DXGKDDI_SETVIRTUALGPUVMBUS
 description: This function passes a kernel mode virtual machine bus handle to the kernel mode driver.
 tech.root: display
 ms.assetid: ae281f37-bb05-4efe-a8d3-d59e76fe83d6
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_SETVIRTUALGPUVMBUS callback function"]
 req.header: dispmprt.h

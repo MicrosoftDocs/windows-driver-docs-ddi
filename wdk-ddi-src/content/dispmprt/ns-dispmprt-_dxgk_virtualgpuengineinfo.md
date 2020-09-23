@@ -4,7 +4,6 @@ title: _DXGK_VIRTUALGPUENGINEINFO
 description: The virtual GPU engine info.
 tech.root: display
 ms.assetid: aa646d1b-2a8c-4d5a-9cdd-2d7fc4ae68c8
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUENGINEINFO structure"]
 ms.prod: windows-hardware

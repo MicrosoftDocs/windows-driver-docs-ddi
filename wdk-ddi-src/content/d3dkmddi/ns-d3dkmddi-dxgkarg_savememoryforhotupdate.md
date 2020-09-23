@@ -4,7 +4,6 @@ title: DXGKARG_SAVEMEMORYFORHOTUPDATE
 description: Arguments used to save memory for driver hot update.
 tech.root: display
 ms.assetid: 0def8a9d-7c30-4023-af8a-46f5fd36aff1
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SAVEMEMORYFORHOTUPDATE structure"]
 ms.keywords: DXGKARG_SAVEMEMORYFORHOTUPDATE, DXGKARG_SAVEMEMORYFORHOTUPDATE,

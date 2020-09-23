@@ -4,7 +4,6 @@ title: _DXGK_VGPU_CAPABILITY
 description: Contains info about a virtual GPU capability.
 tech.root: display
 ms.assetid: 36f71088-758a-4bd5-adaa-20b3feeb9d03
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_VGPU_CAPABILITY structure"]
 ms.prod: windows-hardware

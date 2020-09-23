@@ -4,7 +4,6 @@ title: _DXGKARG_READVIRTUALFUNCTIONCONFIG
 description: Arguments used to read virtual function config.
 tech.root: display
 ms.assetid: 428800d4-49b5-4b33-a6d0-2167ff511fbb
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_READVIRTUALFUNCTIONCONFIG structure"]
 ms.prod: windows-hardware

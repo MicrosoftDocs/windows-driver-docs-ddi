@@ -4,7 +4,6 @@ title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY
 description: 
 tech.root: display
 ms.assetid: 8f6c8f1a-ad7f-4de8-a62c-a970df20eabd
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY callback function"]
 req.header: dispmprt.h

@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063
 description: Video Extensions must specify a command parameter flag.
 tech.root: display
 ms.assetid: abdbd8ba-f534-416e-90ca-b2876774ba16
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063,

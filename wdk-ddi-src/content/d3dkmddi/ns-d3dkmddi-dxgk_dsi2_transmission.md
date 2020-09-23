@@ -4,7 +4,6 @@ title: DXGK_DSI2_TRANSMISSION
 description: DSI-2 (display serial interface) transmission structure.
 tech.root: display
 ms.assetid: c33c3edb-7c5b-4419-86f5-22a3a3defa24
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_DSI2_TRANSMISSION structure"]
 f1_keywords:

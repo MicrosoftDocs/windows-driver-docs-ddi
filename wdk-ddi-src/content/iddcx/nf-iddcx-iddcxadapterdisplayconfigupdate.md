@@ -4,7 +4,6 @@ title: IddCxAdapterDisplayConfigUpdate function
 description: Called when a new display configuration is received by the driver.
 tech.root: display
 ms.assetid: 38d12545-6ee4-49d2-93ba-c9c1fa89c968
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["IddCxAdapterDisplayConfigUpdate function"]
 ms.keywords: IddCxAdapterDisplayConfigUpdate

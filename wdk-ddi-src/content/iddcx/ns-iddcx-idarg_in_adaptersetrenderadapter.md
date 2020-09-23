@@ -4,7 +4,6 @@ title: IDARG_IN_ADAPTERSETRENDERADAPTER
 description: The LUID of the render adapter that the driver would like to be used to rendered the desktop image for the swapchains on this adapter.
 tech.root: display
 ms.assetid: 8d2d633e-ca83-4114-9a28-b194701bd9d9
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["IDARG_IN_ADAPTERSETRENDERADAPTER structure"]
 ms.prod: windows-hardware

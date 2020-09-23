@@ -4,7 +4,6 @@ title: COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION
 description: The colorspace transform caps version.
 tech.root: display
 ms.assetid: 2b727ef3-a020-421f-8669-7faf9222accd
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION enumeration"]
 ms.keywords: COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION, COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION,

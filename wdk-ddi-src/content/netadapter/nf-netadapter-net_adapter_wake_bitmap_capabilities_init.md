@@ -4,7 +4,6 @@ title: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function initializes a NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 8e7670bc-a6b2-4f1b-ad10-6f16cd0bd7f9
-ms.author: windowsdriverdev
 ms.date: 10/24/2019
 keywords: ["NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT

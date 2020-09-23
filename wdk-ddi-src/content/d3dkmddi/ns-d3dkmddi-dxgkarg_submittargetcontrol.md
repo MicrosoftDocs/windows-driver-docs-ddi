@@ -4,7 +4,6 @@ title: DXGKARG_SUBMITTARGETCONTROL
 description: Arguments used the by the DXGKDDI_SUBMITTARGETCONTROL callback function to request control operations to be performed on a target.
 tech.root: display
 ms.assetid: c5a946d3-1e58-4705-bde0-0d4e2ce9e7a6
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["DXGKARG_SUBMITTARGETCONTROL structure"]
 f1_keywords:

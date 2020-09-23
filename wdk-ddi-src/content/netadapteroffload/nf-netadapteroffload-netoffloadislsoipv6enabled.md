@@ -4,7 +4,6 @@ title: NetOffloadIsLsoIPv6Enabled function (netadapteroffload.h)
 description: The NetOffloadIsLsoIPv6Enabled function determines whether a net adapter has LSO offload enabled for IPv6 packets.
 tech.root: netvista
 ms.assetid: 74d6ba64-7825-488f-818d-e54994d56930
-ms.author: windowsdriverdev
 ms.date: 01/17/2019
 keywords: ["NetOffloadIsLsoIPv6Enabled function"]
 ms.keywords: NetOffloadIsLsoIPv6Enabled

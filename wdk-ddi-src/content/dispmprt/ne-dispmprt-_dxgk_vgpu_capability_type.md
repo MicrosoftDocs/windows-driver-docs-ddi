@@ -4,7 +4,6 @@ title: _DXGK_VGPU_CAPABILITY_TYPE
 description: Specifies the DirectX graphics kernel virtual GPU capability.
 tech.root: display
 ms.assetid: c0ef8f34-9276-4372-a99d-9541a943b6e2
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_VGPU_CAPABILITY_TYPE enumeration"]
 ms.keywords: _DXGK_VGPU_CAPABILITY_TYPE, DXGK_VGPU_CAPABILITY_TYPE,

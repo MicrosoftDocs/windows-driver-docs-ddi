@@ -4,7 +4,6 @@ title: PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX
 description: 
 tech.root: 
 ms.assetid: 7dcb7dd4-8d35-4715-806a-3886fe484366
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function"]
 req.header: wdm.h

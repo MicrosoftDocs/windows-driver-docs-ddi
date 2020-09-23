@@ -4,7 +4,6 @@ title: DlDebugPrintEx macro
 description: Macro used to print the specified debug message to the kernel debugger.
 tech.root: display
 ms.assetid: 52fdbd2b-4fa5-4caf-8ab9-0f4df184cb86
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlDebugPrintEx macro"]
 ms.keywords: DlDebugPrintEx

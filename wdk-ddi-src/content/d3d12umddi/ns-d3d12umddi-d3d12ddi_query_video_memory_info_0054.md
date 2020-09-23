@@ -4,7 +4,6 @@ title: D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054
 description: Describes the current video memory budgeting parameters.
 tech.root: display
 ms.assetid: bea3c570-a64f-46b7-b4f8-346e8e9b0875
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054 structure"]
 ms.prod: windows-hardware

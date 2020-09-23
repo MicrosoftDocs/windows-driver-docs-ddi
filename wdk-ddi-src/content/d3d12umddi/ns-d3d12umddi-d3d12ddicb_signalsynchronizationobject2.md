@@ -4,7 +4,6 @@ title: D3D12DDICB_SIGNALSYNCHRONIZATIONOBJECT2
 description: Signals a synchronization object.
 tech.root: display
 ms.assetid: 45bbd40e-92a8-4ceb-a220-b196a383ba70
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure"]
 ms.prod: windows-hardware

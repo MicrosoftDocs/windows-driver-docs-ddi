@@ -4,7 +4,6 @@ title: D3D12DDI_CORELAYER_DEVICECALLBACKS_0003
 description: Contains Microsoft Direct3D 12 runtime callback functions that the user-mode display driver can use.
 tech.root: display
 ms.assetid: a8959163-9639-4c75-aeb1-5aabad140a42
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_CORELAYER_DEVICECALLBACKS_0003 structure"]
 ms.prod: windows-hardware

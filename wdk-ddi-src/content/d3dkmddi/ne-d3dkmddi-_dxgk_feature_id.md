@@ -4,7 +4,6 @@ title: _DXGK_FEATURE_ID
 description: The feature ID of a driver feature.
 tech.root: display
 ms.assetid: ff693135-419c-4950-a780-f99313dd5ea5
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_FEATURE_ID enumeration"]
 ms.keywords: _DXGK_FEATURE_ID, DXGK_FEATURE_ID,

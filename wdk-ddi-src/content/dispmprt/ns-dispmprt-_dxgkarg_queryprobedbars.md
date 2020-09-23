@@ -4,7 +4,6 @@ title: _DXGKARG_QUERYPROBEDBARS
 description: Query probed base address registers (BARS).
 tech.root: display
 ms.assetid: 5f7eb745-1ff6-4c6c-9935-7d85e754459c
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYPROBEDBARS structure"]
 ms.prod: windows-hardware

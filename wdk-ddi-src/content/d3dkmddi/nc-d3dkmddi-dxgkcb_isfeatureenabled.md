@@ -4,7 +4,6 @@ title: DXGKCB_ISFEATUREENABLED
 description: Queries for the enabled state of the feature.
 tech.root: display
 ms.assetid: c16b0f26-67e7-4048-8f47-2815d87a823e
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKCB_ISFEATUREENABLED callback function"]
 ms.prod: windows-hardware

@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALCPRIVATEVIDEOMOTIONESTIMATORSIZE_0060
 description: Calculates the driver object size.
 tech.root: display
 ms.assetid: fe4fc398-acc2-45ea-923e-81f0b8749744
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_CALCPRIVATEVIDEOMOTIONESTIMATORSIZE_0060 callback function"]
 ms.prod: windows-hardware

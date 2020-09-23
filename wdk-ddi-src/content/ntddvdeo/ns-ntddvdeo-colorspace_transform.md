@@ -4,7 +4,6 @@ title: COLORSPACE_TRANSFORM
 description: Information about a colorspace transform.
 tech.root: display
 ms.assetid: bb120e4c-0c2e-4211-be2c-0d8767e01676
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM structure"]
 ms.keywords: COLORSPACE_TRANSFORM, COLORSPACE_TRANSFORM, *PCOLORSPACE_TRANSFORM,

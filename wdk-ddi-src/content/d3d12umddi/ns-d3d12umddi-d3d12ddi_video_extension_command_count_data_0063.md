@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_EXTENSION_COMMAND_COUNT_DATA_0063
 description: Retrieves the number of supported video extension commands.
 tech.root: display
 ms.assetid: 19013676-88c2-4603-bf40-2205f647ac0a
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_COUNT_DATA_0063 structure"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_COUNT_DATA_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_COUNT_DATA_0063,

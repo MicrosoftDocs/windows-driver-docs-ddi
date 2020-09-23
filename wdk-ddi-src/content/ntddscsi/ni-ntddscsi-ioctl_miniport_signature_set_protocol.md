@@ -4,7 +4,6 @@ title: IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL
 description: IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL is the signature used in conjunction with the IOCTL_SCSI_MINIPORT control code to send protocol-specific data to a miniport.
 tech.root: storage
 ms.assetid: 271794f2-20f8-410d-b6fb-b624f3cb38b2
-ms.author: windowsdriverdev
 ms.date: 03/07/2019
 keywords: ["IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL SIGNATURE"]
 req.header: ntddscsi.h

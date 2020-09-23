@@ -4,7 +4,6 @@ title: STOR_UNIT_CONTROL_QUERY_BUS_TYPE
 description: The STOR_UNIT_CONTROL_QUERY_BUS_TYPE structure is a parameter to a miniport driver for ScsiUnitQueryBusType, which the miniport can use to specify the device bus type.
 tech.root: storage
 ms.assetid: a4118e48-cf4c-456d-b191-032eafbcab0c
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: struct
 ms.keywords: STOR_UNIT_CONTROL_QUERY_BUS_TYPE, STOR_UNIT_CONTROL_QUERY_BUS_TYPE, *PSTOR_UNIT_CONTROL_QUERY_BUS_TYPE,

@@ -4,7 +4,6 @@ title: STORPORT_QUERY_CONFIGURATION_TYPE
 description: The STORPORT_QUERY_CONFIGURATION_TYPE enumerator identifies the configuration being queried in StorPortQueryConfiguration.
 tech.root: storage
 ms.assetid: c91774dc-a244-46e7-a5bb-ef7b8493184f
-ms.author: windowsdriverdev
 ms.date: 03/20/2019
 keywords: ["STORPORT_QUERY_CONFIGURATION_TYPE enumeration"]
 ms.keywords: STORPORT_QUERY_CONFIGURATION_TYPE, STORPORT_QUERY_CONFIGURATION_TYPE, *PSTORPORT_QUERY_CONFIGURATION_TYPE,

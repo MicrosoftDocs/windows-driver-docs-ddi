@@ -4,7 +4,6 @@ title: NetAdapterWakeSetMagicPacketCapabilities function (netadapter.h)
 description: The NetAdapterWakeSetMagicPacketCapabilities function sets a net adapter's magic packet wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: 43c226cd-11a2-4250-95d3-be9e2986acc2
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetMagicPacketCapabilities function"]
 ms.keywords: NetAdapterWakeSetMagicPacketCapabilities

@@ -4,7 +4,6 @@ title: EVENTFEATURES
 description: Event features.
 tech.root: audio
 ms.assetid: 706fbd00-b95e-4b4d-9059-215a3f01648a
-ms.author: windowsdriverdev
 ms.date: 04/10/2019
 keywords: ["EVENTFEATURES enumeration"]
 ms.keywords: EVENTFEATURES, EVENTFEATURES,

@@ -4,7 +4,6 @@ title: DlGetDeviceInformation function
 description: Retrieves system-detected configuration information.
 tech.root: display
 ms.assetid: 1ececf4f-0aa3-4f99-a021-d74c9727e9ca
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlGetDeviceInformation function"]
 ms.keywords: DlGetDeviceInformation

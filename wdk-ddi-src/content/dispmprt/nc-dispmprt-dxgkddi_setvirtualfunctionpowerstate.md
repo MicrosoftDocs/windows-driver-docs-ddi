@@ -4,7 +4,6 @@ title: DXGKDDI_SETVIRTUALFUNCTIONPOWERSTATE
 description: This routine allows a non-privileged virtual machine to change the power state of a PCI Express SR-IOV Virtual Function.
 tech.root: display
 ms.assetid: 6bba2af7-723d-4dfa-8efc-ec57e991a837
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_SETVIRTUALFUNCTIONPOWERSTATE callback function"]
 req.header: dispmprt.h

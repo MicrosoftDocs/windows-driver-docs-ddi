@@ -4,7 +4,6 @@ title: WHEA_ERROR_SOURCE_CONFIGURATION_DD
 description: 
 tech.root: 
 ms.assetid: 1511e26e-ac2d-45b0-9ac7-894cbbda1b81
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CONFIGURATION_DD structure"]
 ms.keywords: WHEA_ERROR_SOURCE_CONFIGURATION_DD, WHEA_ERROR_SOURCE_CONFIGURATION_DD, *PWHEA_ERROR_SOURCE_CONFIGURATION_DD,

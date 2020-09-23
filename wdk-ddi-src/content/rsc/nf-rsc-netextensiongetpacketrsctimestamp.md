@@ -4,7 +4,6 @@ title: NetExtensionGetPacketRscTimestamp function (rsc.h)
 description: The NetExtensionGetPacketRscTimestamp function retrieves receive segment coalescence (RSC) timestamp information for a packet.
 tech.root: netvista
 ms.assetid: 7562250c-17c0-4d59-9b0f-74f856752469
-ms.author: windowsdriverdev
 ms.date: 09/24/2019
 keywords: ["NetExtensionGetPacketRscTimestamp function"]
 ms.keywords: NetExtensionGetPacketRscTimestamp

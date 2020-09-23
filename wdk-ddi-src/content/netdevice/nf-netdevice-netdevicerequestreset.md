@@ -2,7 +2,6 @@
 UID: NF:netdevice.NetDeviceRequestReset
 title: NetDeviceRequestReset
 ms.topic: language-reference
-ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows

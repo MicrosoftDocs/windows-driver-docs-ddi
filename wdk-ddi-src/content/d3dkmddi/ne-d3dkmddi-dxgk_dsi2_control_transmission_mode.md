@@ -4,7 +4,6 @@ title: DXGK_DSI2_CONTROL_TRANSMISSION_MODE
 description: The DSI-2 (display serial interface) control transmission mode.
 tech.root: display
 ms.assetid: cd696285-110a-4101-be72-ad4591d0baf4
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_DSI2_CONTROL_TRANSMISSION_MODE enumeration"]
 f1_keywords:

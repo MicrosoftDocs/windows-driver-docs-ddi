@@ -4,7 +4,6 @@ title: NetAdapterPowerOffloadSetNSCapabilities function (netadapter.h)
 description: The NetAdapterPowerOffloadSetNsCapabilities function sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
 tech.root: netvista
 ms.assetid: 7ee49626-79b4-46e3-a98f-0b9990cb4a2d
-ms.author: windowsdriverdev
 ms.date: 11/06/2019
 keywords: ["NetAdapterPowerOffloadSetNSCapabilities function"]
 ms.keywords: NetAdapterPowerOffloadSetNSCapabilities

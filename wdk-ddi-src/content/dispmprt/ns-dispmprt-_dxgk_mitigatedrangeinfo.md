@@ -4,7 +4,6 @@ title: _DXGK_MITIGATEDRANGEINFO
 description: The list of pages in the virtual function’s BARs that need to be mitigated.
 tech.root: display
 ms.assetid: 291b4503-2e32-4128-980a-c556632a8e81
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_MITIGATEDRANGEINFO structure"]
 ms.prod: windows-hardware

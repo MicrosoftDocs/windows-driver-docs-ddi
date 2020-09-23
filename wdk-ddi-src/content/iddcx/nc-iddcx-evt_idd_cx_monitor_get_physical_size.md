@@ -4,7 +4,6 @@ title: EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE
 description: The OS calls EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE to query the physical size of a remote EDID-less monitor.
 tech.root: display
 ms.assetid: 7dbf3d45-c850-4949-b13b-6548869070f3
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function"]
 ms.prod: windows-hardware

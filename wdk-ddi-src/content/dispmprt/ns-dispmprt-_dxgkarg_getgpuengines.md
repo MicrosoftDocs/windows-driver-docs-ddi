@@ -4,7 +4,6 @@ title: _DXGKARG_GETGPUENGINES
 description: No longer used.
 tech.root: display
 ms.assetid: 538f2d95-adcc-4b3a-be4b-3a5fbc83f04d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_GETGPUENGINES structure"]
 ms.prod: windows-hardware

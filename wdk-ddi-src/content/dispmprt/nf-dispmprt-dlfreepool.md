@@ -4,7 +4,6 @@ title: DlFreePool function
 description: Deallocates a block of pool memory previously allocated by the DlAllocatePool function.
 tech.root: display
 ms.assetid: d925a8ec-9878-4089-985d-cc58863dbd96
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlFreePool function"]
 ms.keywords: DlFreePool

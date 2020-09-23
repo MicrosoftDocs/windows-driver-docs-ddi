@@ -4,7 +4,6 @@ title: DXGK_GAMMA_1DLUT_CAP
 description: The gamma 1D lookup table stage caps.
 tech.root: display
 ms.assetid: 01cac6a8-aceb-4ac4-9e2e-fb528adc30c8
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_GAMMA_1DLUT_CAP structure"]
 ms.keywords: DXGK_GAMMA_1DLUT_CAP, DXGK_GAMMA_1DLUT_CAP, *PDXGK_GAMMA_1DLUT_CAP,

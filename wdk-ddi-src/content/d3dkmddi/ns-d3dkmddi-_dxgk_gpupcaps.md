@@ -4,7 +4,6 @@ title: _DXGK_GPUPCAPS
 description: The GPU capabilities for a kernel mode display driver.
 tech.root: display
 ms.assetid: 21bf5426-6444-4f1d-bf36-edcd37175fc5
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_GPUPCAPS structure"]
 ms.prod: windows-hardware

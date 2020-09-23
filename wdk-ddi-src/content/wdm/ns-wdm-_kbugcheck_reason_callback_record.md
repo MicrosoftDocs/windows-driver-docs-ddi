@@ -4,7 +4,6 @@ title: KBUGCHECK_REASON_CALLBACK_RECORD
 description: 
 tech.root: 
 ms.assetid: 0c64f4d8-df1a-4d8f-a7af-d58bc48ef96e
-ms.author: windowsdriverdev
 ms.date: 05/08/2019
 keywords: ["KBUGCHECK_REASON_CALLBACK_RECORD structure"]
 ms.keywords: KBUGCHECK_REASON_CALLBACK_RECORD, KBUGCHECK_REASON_CALLBACK_RECORD, *PKBUGCHECK_REASON_CALLBACK_RECORD,

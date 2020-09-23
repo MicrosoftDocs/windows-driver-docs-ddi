@@ -4,7 +4,6 @@ title: DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS
 description: The DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS structure contains caching priority information to apply to a range of logical blocks.
 tech.root: storage
 ms.assetid: 97a840df-0648-416e-a4b3-e3e4e57018ab
-ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS structure"]
 ms.keywords: DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS, DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS, *PDEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS,

@@ -4,7 +4,6 @@ title: EVENTACTION
 description: Structure used to provide detail from ParseDetectionResults.
 tech.root: audio
 ms.assetid: 399761eb-8c8e-47a8-b150-de42cde0e0aa
-ms.author: windowsdriverdev
 ms.date: 04/10/2019
 keywords: ["EVENTACTION structure"]
 ms.keywords: EVENTACTION, EVENTACTION,

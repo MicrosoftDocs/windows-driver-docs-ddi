@@ -4,7 +4,6 @@ title: WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT
 description: 
 tech.root: 
 ms.assetid: 3b6c84dd-b8ff-4083-9e7f-f82e4f054c3d
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT structure"]
 ms.keywords: WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT, WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT, *PWHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT,

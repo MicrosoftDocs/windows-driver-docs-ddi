@@ -4,7 +4,6 @@ title: DXGKDDI_QUERYVIRTUALFUNCTIONLUID
 description: Queries for a virtual function's locally unique identifier.
 tech.root: display
 ms.assetid: 9d908fbf-4d2e-4099-b0d5-12cdb5014d61
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_QUERYVIRTUALFUNCTIONLUID callback function"]
 req.header: dispmprt.h

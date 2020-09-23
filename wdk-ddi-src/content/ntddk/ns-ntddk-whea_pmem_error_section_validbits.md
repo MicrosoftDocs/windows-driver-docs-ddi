@@ -4,7 +4,6 @@ title: WHEA_PMEM_ERROR_SECTION_VALIDBITS
 description: 
 tech.root: 
 ms.assetid: 6f88c2b0-6127-4513-9c08-ea12fa71ec30
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_ERROR_SECTION_VALIDBITS structure"]
 ms.keywords: WHEA_PMEM_ERROR_SECTION_VALIDBITS, WHEA_PMEM_ERROR_SECTION_VALIDBITS, *PWHEA_PMEM_ERROR_SECTION_VALIDBITS,

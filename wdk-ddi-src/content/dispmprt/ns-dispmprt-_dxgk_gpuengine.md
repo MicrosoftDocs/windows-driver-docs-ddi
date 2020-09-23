@@ -4,7 +4,6 @@ title: _DXGK_GPUENGINE
 description: Not used.
 tech.root: display
 ms.assetid: 82479dfa-1e27-49ec-bacb-82fa3223ee1d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_GPUENGINE structure"]
 ms.prod: windows-hardware

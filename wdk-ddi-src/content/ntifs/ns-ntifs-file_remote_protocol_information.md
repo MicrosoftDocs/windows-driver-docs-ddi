@@ -4,7 +4,6 @@ title: FILE_REMOTE_PROTOCOL_INFORMATION
 description: The FILE_REMOTE_PROTOCOL_INFORMATION structure contains file remote protocol information.
 tech.root: 
 ms.assetid: b97cbf60-3772-4486-96fd-6dae607e830d
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["FILE_REMOTE_PROTOCOL_INFORMATION structure"]
 ms.keywords: FILE_REMOTE_PROTOCOL_INFORMATION, FILE_REMOTE_PROTOCOL_INFORMATION, *PFILE_REMOTE_PROTOCOL_INFORMATION,

@@ -4,7 +4,6 @@ title: _WHEA_ERROR_SOURCE_CORRECT
 description: 
 tech.root: 
 ms.assetid: a195c09c-3bcb-4db2-9ce1-fdca2730ee09
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CORRECT callback function"]
 req.header: ntddk.h
