@@ -48,15 +48,15 @@ The **NetDeviceStoreResetDiagnostics** function stores client driver collected r
 
 ### -param Device
 
-[in] The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+[_In_] The WDFDEVICE object the client driver previously created with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ### -param ResetDiagnosticsSize
 
-[in] The size in bytes of the **ResetDiagnosticsBuffer**. The maximum size of reset diagnostics the framework accepts is 1 MB.
+[_In_] The size in bytes of the **ResetDiagnosticsBuffer**. The maximum size of reset diagnostics the framework accepts is 1 MB.
 
 ### -param ResetDiagnosticsBuffer
 
-[in] A pointer to the data buffer that holds the reset diagnostics data. The data buffer can come from either paged or non-paged pool.
+[_In_reads_bytes_(ResetDiagnosticsSize)] A pointer to the data buffer that holds the reset diagnostics data. The data buffer can come from either paged or non-paged pool.
 
 ## -remarks
 
