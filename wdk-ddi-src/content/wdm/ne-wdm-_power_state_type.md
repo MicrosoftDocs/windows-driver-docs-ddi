@@ -56,29 +56,28 @@ The <b>POWER_STATE_TYPE</b> enumeration type indicates that a power state value 
 
 ### -field SystemPowerState
 
-Indicates a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a> value.
+Indicates a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a> value.
 
 ### -field DevicePowerState
 
-Indicates a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> value.
+Indicates a <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> value.
 
 ## -remarks
 
-The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_state">POWER_STATE</a> to indicate that the power state value is a system power state value or a device power state value. For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerstate">PoSetPowerState</a>.
+The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_state">POWER_STATE</a> to indicate that the power state value is a system power state value or a device power state value. For an example, see <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerstate">PoSetPowerState</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_state">POWER_STATE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_state">POWER_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerstate">PoSetPowerState</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-posetpowerstate">PoSetPowerState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>

@@ -65,9 +65,9 @@ This structure is used in the [**NDIS_WWAN_SET_NETWORK_BLACKLIST**](../ndiswwan/
 
 ## -see-also
 
-[MB Network Blacklist Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-network-blacklist-operations)
+[MB Network Blacklist Operations](/windows-hardware/drivers/network/mb-network-blacklist-operations)
 
-[OID_WWAN_NETWORK_BLACKLIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-network-blacklist)
+[OID_WWAN_NETWORK_BLACKLIST](/windows-hardware/drivers/network/oid-wwan-network-blacklist)
 
 [**NDIS_WWAN_SET_NETWORK_BLACKLIST**](../ndiswwan/ns-ndiswwan-_ndis_wwan_set_network_blacklist.md)
 
@@ -78,4 +78,3 @@ This structure is used in the [**NDIS_WWAN_SET_NETWORK_BLACKLIST**](../ndiswwan/
 [**WWAN_NETWORK_BLACKLIST_PROVIDER**](ns-wwan-_wwan_network_blacklist_provider.md)
 
 [**WWAN_LIST_HEADER**](ns-wwan-_wwan_list_header.md)
-

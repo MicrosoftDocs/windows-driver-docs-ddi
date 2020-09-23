@@ -78,9 +78,8 @@ Specifies the revision number for the component or product.
 
 ## -remarks
 
-Supply this structure in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-general-componentid">KSPROPERTY_GENERAL_COMPONENTID</a> request.
+Supply this structure in a <a href="/windows-hardware/drivers/stream/ksproperty-general-componentid">KSPROPERTY_GENERAL_COMPONENTID</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-general-componentid">KSPROPERTY_GENERAL_COMPONENTID</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-general-componentid">KSPROPERTY_GENERAL_COMPONENTID</a>

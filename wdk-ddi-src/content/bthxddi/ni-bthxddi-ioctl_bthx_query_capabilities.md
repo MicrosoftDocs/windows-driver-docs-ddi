@@ -60,7 +60,7 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ns-bthxddi-_bthx_capabilities">BTHX_CAPABILITIES</a> structure.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a <a href="/windows-hardware/drivers/ddi/bthxddi/ns-bthxddi-_bthx_capabilities">BTHX_CAPABILITIES</a> structure.
 
 ### -output-buffer-length
 
@@ -104,4 +104,3 @@ This is a synchrononous call and failure of this IOCTL prevents Windows from loa
 The output buffer of this IOCTL is defined by the BTHX_CAPABILITIES structure.
 
 The <b>MaxScoChannels</b> member must be set to 1. The <b>ScoSupport</b> member must be set to <b>ScoSupportHCIBypass</b>. Failure to do so prevents the stack from being loaded.
-

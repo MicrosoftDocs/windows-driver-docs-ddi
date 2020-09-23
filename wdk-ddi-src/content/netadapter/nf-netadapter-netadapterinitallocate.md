@@ -65,13 +65,12 @@ A client driver calls **NetAdapterInitAllocate** to obtain a NETADAPTER_INIT str
 
 After **NetAdapterInitAllocate** succeeds, client drivers can optionally call **NetAdapterInitSetXxx** functions to set further initialization attributes for the NETADAPTER. 
 
-For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization).
+For a code example of creating a NETADAPTER, see [Device initialization](/windows-hardware/drivers/netcx/device-initialization).
 
 ## -see-also
 
-[Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)
+[Device initialization](/windows-hardware/drivers/netcx/device-initialization)
 
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 
 [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md)
-

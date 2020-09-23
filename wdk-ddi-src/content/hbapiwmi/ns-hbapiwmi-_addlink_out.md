@@ -50,27 +50,26 @@ api_name:
 
 ## -description
 
-The AddLink_OUT structure is used by an HBA miniport driver to report the status of a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addlink">AddLink</a> WMI method.
+The AddLink_OUT structure is used by an HBA miniport driver to report the status of a call to the <a href="/windows-hardware/drivers/storage/addlink">AddLink</a> WMI method.
 
 ## -struct-fields
 
 ### -field HBAStatus
 
-Contains a value associated with the WMI class qualifier <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a> that indicates the result of an HBA query operation.
+Contains a value associated with the WMI class qualifier <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a> that indicates the result of an HBA query operation.
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>.
+The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addlink">AddLink</a>
+<a href="/windows-hardware/drivers/storage/addlink">AddLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
+<a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a> structure.
+The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a> structure.
 
 ## -parameters
 
@@ -57,5 +57,4 @@ A pointer to the <b>SERCX_CONFIG</b> structure that is to be initialized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a>

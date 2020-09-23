@@ -60,7 +60,7 @@ The version of the <b>CLFS_MGMT_CLIENT_REGISTRATION</b> structure. Set this to <
 
 ### -field AdvanceTailCallback
 
-A pointer to the log's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_advance_tail_callback">ClfsAdvanceTailCallback</a> function.
+A pointer to the log's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_advance_tail_callback">ClfsAdvanceTailCallback</a> function.
 
 ### -field AdvanceTailCallbackData
 
@@ -68,7 +68,7 @@ A pointer to user-defined data that will be supplied to the <i>ClfsAdvanceTailCa
 
 ### -field LogGrowthCompleteCallback
 
-A pointer to the log's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_lff_handler_complete_callback">ClfsLogGrowthCompleteCallback</a> function.
+A pointer to the log's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_lff_handler_complete_callback">ClfsLogGrowthCompleteCallback</a> function.
 
 ### -field LogGrowthCompleteCallbackData
 
@@ -76,7 +76,7 @@ A pointer to user-defined data that will be supplied to the <i>ClfsLogGrowthComp
 
 ### -field LogUnpinnedCallback
 
-A pointer to the log's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_log_unpinned_callback">ClfsLogUnpinnedCallback</a> function.
+A pointer to the log's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_log_unpinned_callback">ClfsLogUnpinnedCallback</a> function.
 
 ### -field LogUnpinnedCallbackData
 
@@ -84,13 +84,12 @@ A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_advance_tail_callback">ClfsAdvanceTailCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_advance_tail_callback">ClfsAdvanceTailCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_lff_handler_complete_callback">ClfsLogGrowthCompleteCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_lff_handler_complete_callback">ClfsLogGrowthCompleteCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_log_unpinned_callback">ClfsLogUnpinnedCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pclfs_client_log_unpinned_callback">ClfsLogUnpinnedCallback</a>

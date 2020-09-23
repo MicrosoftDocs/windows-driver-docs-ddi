@@ -84,9 +84,8 @@ Network-initiated USSD events use <i>WwanUssdEventActionRequired</i> to indicate
 
 <i>WwanUssdEventNoActionRequired</i> and <i>WwanUssdEventActionRequired</i> are the only events that require a non-empty USSD string to accompany them with a string length from 1 to 160 bytes. All other events must set the USSD string length to 0 to indicate that the string is empty.
 
-The value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a><b>SessionState</b> member is ignored if no string is present.
+The value of the <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a><b>SessionState</b> member is ignored if no string is present.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>

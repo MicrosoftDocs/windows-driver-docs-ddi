@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The AddConnectionToSession_OUT structure holds output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> method.
+The AddConnectionToSession_OUT structure holds output data for the <a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> method.
 
 ## -struct-fields
 
 ### -field Status
 
-The status of the <b>AddConnectionToSession </b>operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
+The status of the <b>AddConnectionToSession </b>operation. For a list of status qualifiers, see <a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 ### -field UniqueConnectionId
 
@@ -68,17 +68,16 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
+<a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_addconnectiontosession_in">AddConnectionToSession_IN</a>
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_addconnectiontosession_in">AddConnectionToSession_IN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
+<a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>

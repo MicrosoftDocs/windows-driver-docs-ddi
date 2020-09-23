@@ -60,7 +60,7 @@ None.
 
 ### -output-buffer
 
-The driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_media_info">DEVICE_MEDIA_INFO</a> structures, one for each media type supported by the device, embedded in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_get_media_types">GET_MEDIA_TYPES</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The driver returns an array of <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_media_info">DEVICE_MEDIA_INFO</a> structures, one for each media type supported by the device, embedded in a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_get_media_types">GET_MEDIA_TYPES</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
@@ -76,9 +76,8 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_media_info">DEVICE_MEDIA_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_media_info">DEVICE_MEDIA_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_get_media_types">GET_MEDIA_TYPES</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_get_media_types">GET_MEDIA_TYPES</a>

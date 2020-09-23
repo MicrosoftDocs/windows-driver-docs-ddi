@@ -46,9 +46,8 @@ api_name:
 
 ## -description
 
-The **IXpsRasterizationFactory** interface represents an object factory for creating XPS rasterizer objects. Rasterizer objects created by the factory implement [IXpsRasterizer](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer) interfaces. An XPSDrv filter uses a rasterizer object to convert an XPS fixed page to one or more bitmap images.
+The **IXpsRasterizationFactory** interface represents an object factory for creating XPS rasterizer objects. Rasterizer objects created by the factory implement [IXpsRasterizer](./nn-xpsrassvc-ixpsrasterizer.md) interfaces. An XPSDrv filter uses a rasterizer object to convert an XPS fixed page to one or more bitmap images.
 
-An XPSDrv filter obtains a reference to an **IXpsRasterizationFactory** interface instance from the property bag received from the print filter pipeline manager. The pipeline manager calls the filter's [IPrintPipelineFilter::InitializeFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter) method and passes in an [IPrintPipelinePropertyBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag) pointer. The interface reference is a VT_UNKNOWN property value that is identified by the property name **MS_IXpsRasterizationFactory**.
+An XPSDrv filter obtains a reference to an **IXpsRasterizationFactory** interface instance from the property bag received from the print filter pipeline manager. The pipeline manager calls the filter's [IPrintPipelineFilter::InitializeFilter](../filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter.md) method and passes in an [IPrintPipelinePropertyBag](../filterpipeline/nn-filterpipeline-iprintpipelinepropertybag.md) pointer. The interface reference is a VT_UNKNOWN property value that is identified by the property name **MS_IXpsRasterizationFactory**.
 
 ## -inheritance
-

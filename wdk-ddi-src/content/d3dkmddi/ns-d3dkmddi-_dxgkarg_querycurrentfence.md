@@ -66,5 +66,4 @@ The DXGKARG_QUERYCURRENTFENCE structure describes the latest completed submissio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querycurrentfence">DxgkDdiQueryCurrentFence</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querycurrentfence">DxgkDdiQueryCurrentFence</a>

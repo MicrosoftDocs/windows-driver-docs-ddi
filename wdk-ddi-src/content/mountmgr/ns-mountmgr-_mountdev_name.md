@@ -68,9 +68,8 @@ As a best practice, the implementer must not thread-synchronize and must not mak
 
 ## -see-also
 
-[IOCTL_MOUNTDEV_LINK_CREATED](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ni-mountdev-ioctl_mountdev_link_created)
+[IOCTL_MOUNTDEV_LINK_CREATED](../mountdev/ni-mountdev-ioctl_mountdev_link_created.md)
 
-[IOCTL_MOUNTDEV_LINK_DELETED](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountdev/ni-mountdev-ioctl_mountdev_link_deleted)
+[IOCTL_MOUNTDEV_LINK_DELETED](../mountdev/ni-mountdev-ioctl_mountdev_link_deleted.md)
 
-[IOCTL_MOUNTDEV_QUERY_DEVICE_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountdev_query_device_name)
-
+[IOCTL_MOUNTDEV_QUERY_DEVICE_NAME](./ni-mountmgr-ioctl_mountdev_query_device_name.md)

@@ -68,5 +68,4 @@ This is the weight of the region (0-100).
 
 ### -field RegionOfInterestType
 
-If the region is a face, this value is KSCAMERA_EXTENDEDPROP_ROITYPE_FACE. If the region is anything other than face, this value is KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-kscamera_extendedprop_roitype">KSCAMERA_EXTENDEDPROP_ROITYPE</a> enumeration.
-
+If the region is a face, this value is KSCAMERA_EXTENDEDPROP_ROITYPE_FACE. If the region is anything other than face, this value is KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN. For more information, see the <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-kscamera_extendedprop_roitype">KSCAMERA_EXTENDEDPROP_ROITYPE</a> enumeration.

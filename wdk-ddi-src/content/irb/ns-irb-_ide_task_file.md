@@ -51,19 +51,18 @@ api_name:
 ## -description
 
 The IDE_TASK_FILE structure contains the current and previous IDE task file.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
 ### -field Current
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the current contents of the ATA task file registers.
+Contains a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the current contents of the ATA task file registers.
 
 ### -field Previous
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the previous contents of the ATA task file registers in the case of a 48-bit LBA command.
+Contains a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the previous contents of the ATA task file registers in the case of a 48-bit LBA command.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a>
-
+<a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a>

@@ -65,14 +65,13 @@ NDIS_MAKE_RID returns an NDIS_VF_RID value that is constructed from the paramete
 
 ## -remarks
 
-When it handles an OID request of [OID_NIC_SWITCH_ALLOCATE_VF](https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf), the miniport driver for the PCIe Physical Function (PF) uses the **NDIS_MAKE_RID** macro to create a PCIe Requestor ID (RID) value for the VF. The driver retrieves the PCIe segment, bus, device, and function numbers for the VF by calling [**NdisMGetVirtualFunctionLocation**](nf-ndis-ndismgetvirtualfunctionlocation.md).
+When it handles an OID request of [OID_NIC_SWITCH_ALLOCATE_VF](/windows-hardware/drivers/network/oid-nic-switch-allocate-vf), the miniport driver for the PCIe Physical Function (PF) uses the **NDIS_MAKE_RID** macro to create a PCIe Requestor ID (RID) value for the VF. The driver retrieves the PCIe segment, bus, device, and function numbers for the VF by calling [**NdisMGetVirtualFunctionLocation**](nf-ndis-ndismgetvirtualfunctionlocation.md).
 
 > [!NOTE]
-> If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV [driver package](https://docs.microsoft.com/windows-hardware/drivers/install/driver-packages), its PF miniport driver must not call [**NdisMGetVirtualFunctionLocation**](nf-ndis-ndismgetvirtualfunctionlocation.md). Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call [*GetLocation*](../wdm/nc-wdm-get_virtual_device_location.md). This function is exposed from the [GUID_PCI_VIRTUALIZATION_INTERFACE](https://docs.microsoft.com/windows-hardware/drivers/pci/) interface supported by the underlying PCI bus driver.
+> If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV [driver package](/windows-hardware/drivers/install/driver-packages), its PF miniport driver must not call [**NdisMGetVirtualFunctionLocation**](nf-ndis-ndismgetvirtualfunctionlocation.md). Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call [*GetLocation*](../wdm/nc-wdm-get_virtual_device_location.md). This function is exposed from the [GUID_PCI_VIRTUALIZATION_INTERFACE](/windows-hardware/drivers/pci/) interface supported by the underlying PCI bus driver.
 
 ## -see-also
 
 [**NdisMGetVirtualFunctionLocation**](nf-ndis-ndismgetvirtualfunctionlocation.md)
 
-[OID_NIC_SWITCH_ALLOCATE_VF](https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf)
-
+[OID_NIC_SWITCH_ALLOCATE_VF](/windows-hardware/drivers/network/oid-nic-switch-allocate-vf)

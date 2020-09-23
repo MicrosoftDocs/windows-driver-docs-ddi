@@ -66,11 +66,10 @@ This function zeroes out the **NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS** structu
 
 ## -see-also
 
-[Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring Power Management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md)
 
 [**NetDeviceInitSetPowerPolicyEventCallbacks**](../netdevice/nf-netdevice-netdeviceinitsetpowerpolicyeventcallbacks.md)
 
 [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
-

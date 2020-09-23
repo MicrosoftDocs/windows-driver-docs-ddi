@@ -60,7 +60,7 @@ A pointer to the file name of the profile to disassociate.
 
 A pointer to the name of the device from which the profile is to be disassociated.
 
-The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-display_devicea).
+The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](/windows/win32/api/wingdi/ns-wingdi-display_devicea).
 
 #### - profileManagementScope [in]
 
@@ -80,5 +80,4 @@ This function is executable in Least-Privileged User Account (LUA) context if *p
 
 ## -see-also
 
-[WcsAssociateColorProfileWithDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/nf-icm-wcsassociatecolorprofilewithdevice)
-
+[WcsAssociateColorProfileWithDevice](/windows-hardware/drivers/ddi/content/icm/nf-icm-wcsassociatecolorprofilewithdevice)

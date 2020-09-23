@@ -48,7 +48,7 @@ api_name:
 
 The <b>IOCTL_SERIAL_GET_MODEM_CONTROL</b> request returns the value of the modem control register in the serial controller.
 
-To set the modem control register, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_modem_control">IOCTL_SERIAL_SET_MODEM_CONTROL</a> request.
+To set the modem control register, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_modem_control">IOCTL_SERIAL_SET_MODEM_CONTROL</a> request.
 
 ## -ioctlparameters
 
@@ -76,7 +76,7 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a ULONG. Otherwise, the <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 ## -remarks
 
@@ -86,5 +86,4 @@ For an example layout of a modem control register, see the definition of the MCR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_modem_control">IOCTL_SERIAL_SET_MODEM_CONTROL</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_modem_control">IOCTL_SERIAL_SET_MODEM_CONTROL</a>

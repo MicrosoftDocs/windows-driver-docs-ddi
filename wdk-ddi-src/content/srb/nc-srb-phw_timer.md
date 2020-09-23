@@ -58,11 +58,10 @@ Pointer to the miniport driver's per-HBA storage area.
 
 ## -remarks
 
-The SCSI miniport driver's timer routine, <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557327(v=vs.85)">HwScsiTimer</a>, is called after the interval specified when the miniport driver called <b>ScsiPortNotification</b> with the <b>RequestTimerCall</b><i>NotificationType</i> value.
+The SCSI miniport driver's timer routine, <a href="/previous-versions/windows/hardware/drivers/ff557327(v=vs.85)">HwScsiTimer</a>, is called after the interval specified when the miniport driver called <b>ScsiPortNotification</b> with the <b>RequestTimerCall</b><i>NotificationType</i> value.
 
 Miniport drivers that work with the StorPort driver do not use this timer routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557327(v=vs.85)">HwScsiTimer</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff557327(v=vs.85)">HwScsiTimer</a>

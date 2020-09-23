@@ -72,13 +72,12 @@ Used to force the PEDOMETER_STEP_TYPE enum to a 32-bit data type (a DWORD).
 
 ## -remarks
 
-For more information about the sensor data fields that use this enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/pedometer-data-fields">Pedometer data fields</a>.
+For more information about the sensor data fields that use this enumeration, see <a href="/windows-hardware/drivers/sensors/pedometer-data-fields">Pedometer data fields</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ne-sensorsdef-pedometer_step_type_count">PEDOMETER_STEP_TYPE_COUNT</a>
+<a href="/windows-hardware/drivers/ddi/sensorsdef/ne-sensorsdef-pedometer_step_type_count">PEDOMETER_STEP_TYPE_COUNT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/pedometer-data-fields">Pedometer data fields</a>
-
+<a href="/windows-hardware/drivers/sensors/pedometer-data-fields">Pedometer data fields</a>

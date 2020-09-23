@@ -237,7 +237,7 @@ Specifies whether data alignment is needed for the scanner. The value can be:
 
 ### -field DelayBetweenRead
 
-Specifies the time delay in milliseconds between [Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) function calls that the scanner can support.
+Specifies the time delay in milliseconds between [Scan](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) function calls that the scanner can support.
 
 ### -field MaxBufferSize
 
@@ -253,15 +253,14 @@ Specifies an array of reserved bits.
 
 ### -field pMicroDriverContext
 
-Points to the microdriver's context. The microdriver allocates the buffer pointed to by this member. The buffer should be allocated in CMD_INITIALIZE, and freed in CMD_UNINITIALIZE. (See [Required Commands](https://docs.microsoft.com/windows-hardware/drivers/image/required-commands).) The WIA Flatbed driver knows nothing of this pointer, and hence will not alter the memory pointed to by this member.
+Points to the microdriver's context. The microdriver allocates the buffer pointed to by this member. The buffer should be allocated in CMD_INITIALIZE, and freed in CMD_UNINITIALIZE. (See [Required Commands](/windows-hardware/drivers/image/required-commands).) The WIA Flatbed driver knows nothing of this pointer, and hence will not alter the memory pointed to by this member.
 
 ## -remarks
 
-This structure is used as a parameter in the microdriver's [SetPixelWindow](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/nf-wiamicro-setpixelwindow), and [Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) functions.
+This structure is used as a parameter in the microdriver's [SetPixelWindow](./nf-wiamicro-setpixelwindow.md), and [Scan](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) functions.
 
 ## -see-also
 
-[Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan)
+[Scan](/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan)
 
-[SetPixelWindow](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/nf-wiamicro-setpixelwindow)
-
+[SetPixelWindow](./nf-wiamicro-setpixelwindow.md)

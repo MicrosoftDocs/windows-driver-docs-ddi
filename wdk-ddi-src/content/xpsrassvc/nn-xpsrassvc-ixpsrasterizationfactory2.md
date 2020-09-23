@@ -46,7 +46,6 @@ api_name:
 
 ## -description
 
-In Windows 10, the **IXpsRasterizationFactory2** interface represents an object factory for creating components that can  convert content from XPS to PWG Raster using the [XPS Rasterization Service](https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index). PWG Raster supports non-square DPIs.
+In Windows 10, the **IXpsRasterizationFactory2** interface represents an object factory for creating components that can  convert content from XPS to PWG Raster using the [XPS Rasterization Service](../_print/index.md). PWG Raster supports non-square DPIs.
 
 ## -inheritance
-

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>KsRemoveAggregate</b> method removes a previously added COM server aggregate provider from the list of interface providers for the KS object that exposes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksaggregatecontrol">IKsAggregateControl</a> interface.
+The <b>KsRemoveAggregate</b> method removes a previously added COM server aggregate provider from the list of interface providers for the KS object that exposes the <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksaggregatecontrol">IKsAggregateControl</a> interface.
 
 ## -parameters
 
@@ -61,9 +61,8 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksaggregatecontrol">IKsAggregateControl</a>
+<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksaggregatecontrol">IKsAggregateControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate">IKsAggregateControl::KsAddAggregate</a>
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate">IKsAggregateControl::KsAddAggregate</a>

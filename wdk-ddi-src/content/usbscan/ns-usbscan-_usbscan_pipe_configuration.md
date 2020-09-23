@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The USBSCAN_PIPE_CONFIGURATION structure is used as a parameter to <a href="https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_pipe_configuration">IOCTL_GET_PIPE_CONFIGURATION</a>.
+The USBSCAN_PIPE_CONFIGURATION structure is used as a parameter to <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_pipe_configuration">IOCTL_GET_PIPE_CONFIGURATION</a>.
 
 ## -struct-fields
 
@@ -60,5 +60,4 @@ The number of transfer pipes supported for the device.
 
 ### -field PipeInfo
 
-Pointer to a <b>NumberOfPipes</b>-sized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_pipe_information">USBSCAN_PIPE_INFORMATION</a> structures.
-
+Pointer to a <b>NumberOfPipes</b>-sized array of <a href="/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_pipe_information">USBSCAN_PIPE_INFORMATION</a> structures.

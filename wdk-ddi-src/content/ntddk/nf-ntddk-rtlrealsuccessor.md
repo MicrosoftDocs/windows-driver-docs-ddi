@@ -79,13 +79,12 @@ Callers of <b>RtlRealSuccessor</b> must be running at IRQL <= DISPATCH_LEVEL if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrealpredecessor">RtlRealPredecessor</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrealpredecessor">RtlRealPredecessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsubtreesuccessor">RtlSubtreeSuccessor</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsubtreesuccessor">RtlSubtreeSuccessor</a>

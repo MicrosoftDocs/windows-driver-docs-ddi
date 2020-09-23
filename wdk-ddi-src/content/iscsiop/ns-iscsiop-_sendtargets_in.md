@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The SendTargets_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendtargets">SendTargets</a> method.
+The SendTargets_IN structure holds the input data for the <a href="/windows-hardware/drivers/storage/sendtargets">SendTargets</a> method.
 
 ## -struct-fields
 
@@ -68,17 +68,16 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
+<a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendtargets">SendTargets</a>
+<a href="/windows-hardware/drivers/storage/sendtargets">SendTargets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_sendtargets_out">SendTargets_OUT</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_sendtargets_out">SendTargets_OUT</a>

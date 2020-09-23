@@ -56,7 +56,7 @@ The DEBUG_CREATE_PROCESS_OPTIONS structure specifies the process creation option
 
 ### -field CreateFlags
 
-The flags to use when creating the process.   In addition to the flags described in the "Process Creation Flags" topic in the Platform SDK documentation, the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> uses the following flags when creating a process.
+The flags to use when creating the process.   In addition to the flags described in the "Process Creation Flags" topic in the Platform SDK documentation, the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> uses the following flags when creating a process.
 
 <table>
 <tr>
@@ -131,9 +131,8 @@ Use the debugger's or process server's implicit command line to start the proces
 
 ### -field VerifierFlags
 
-The Application Verifier flags.  Only used if DEBUG_ECREATE_PROCESS_USE_VERIFIER_FLAGS is set in the <b>EngCreateFlags</b> field.  For possible values, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/application-verifier">Application Verifier</a> documentation.
+The Application Verifier flags.  Only used if DEBUG_ECREATE_PROCESS_USE_VERIFIER_FLAGS is set in the <b>EngCreateFlags</b> field.  For possible values, see the <a href="/windows-hardware/drivers/debugger/application-verifier">Application Verifier</a> documentation.
 
 ### -field Reserved
 
 Set to zero.
-

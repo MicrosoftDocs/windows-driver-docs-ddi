@@ -73,7 +73,7 @@ A pointer to a variable that will receive the actual size, in bytes, of the allo
 ### -param AllocationType 
 
 [in]
-A bitmask containing flags that specify the type of allocation to be performed for the specified region of pages. The following table describes the most common flags. See [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) for a full list of possible flags and descriptions.
+A bitmask containing flags that specify the type of allocation to be performed for the specified region of pages. The following table describes the most common flags. See [**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) for a full list of possible flags and descriptions.
 
 > [!NOTE]
 >
@@ -84,7 +84,7 @@ A bitmask containing flags that specify the type of allocation to be performed f
 | MEM_COMMIT | The specified region of pages is to be committed. |
 | MEM_RESERVE | The specified region of pages is to be reserved. |
 | MEM_RESET | Reset the state of the specified region so that if the pages are in paging file, they are discarded and pages of zeros are brought in. If the pages are in memory and modified, they are marked as not modified so that they will not be written out to the paging file. The contents are *not* zeroed. The **Protect** parameter is not used, but it must be set to a valid value. If MEM_RESET is set, no other flag may be set. |
-| Other MEM_*XXX* flags | See [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc). |
+| Other MEM_*XXX* flags | See [**VirtualAlloc**](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc). |
 
 ### -param Protect 
 
@@ -137,13 +137,12 @@ Each page in the process's virtual address space is in one of the three states d
 
 Memory allocated by calling **NtAllocateVirtualMemory** must be freed by calling **NtFreeVirtualMemory**.
 
-For more information about memory management, see [Memory Management for Windows Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-memory-for-drivers).
+For more information about memory management, see [Memory Management for Windows Drivers](/windows-hardware/drivers/kernel/managing-memory-for-drivers).
 
 > **Note**  If the call to the **NtAllocateVirtualMemory** function occurs in user mode, you should use the name "**NtAllocateVirtualMemory**" instead of "**ZwAllocateVirtualMemory**".
 
-For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-[**NtFreeVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntfreevirtualmemory)
-
+[**NtFreeVirtualMemory**](./nf-ntifs-ntfreevirtualmemory.md)

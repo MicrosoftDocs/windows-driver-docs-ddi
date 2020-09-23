@@ -56,11 +56,11 @@ The DXVA_ConfigAlphaCombine structure is sent by the host decoder to the acceler
 
 ### -field dwFunction
 
-Indicates the type of query or response when using probing and locking commands. The most significant 24 bits of <b>dwFunction</b> is the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxva-configqueryorreplyflag-and-dxva-configqueryorreplyfunc-variables">DXVA_ConfigQueryOrReplyFlag</a> variable.
+Indicates the type of query or response when using probing and locking commands. The most significant 24 bits of <b>dwFunction</b> is the <a href="/windows-hardware/drivers/display/dxva-configqueryorreplyflag-and-dxva-configqueryorreplyfunc-variables">DXVA_ConfigQueryOrReplyFlag</a> variable.
 
 The least significant 4 bits of the <i>DXVA_ConfigQueryOrReplyFlag</i> variable contain status indicators for the query or response being performed.
 
-The least significant 8 bits of <b>dwFunction</b> is the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> that, in this case, is equal to 3.
+The least significant 8 bits of <b>dwFunction</b> is the <a href="/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> that, in this case, is equal to 3.
 
 ### -field dwReservedBits
 
@@ -74,7 +74,7 @@ The preferred value for an accelerator to support is zero.
 
 ### -field bConfigPictureResizing
 
-Specifies whether the <b>PictureSourceRect16thPel</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a> for graphic blending may differ in width and height from the <b>PictureDestinationRect</b> member of DXVA_BlendCombination (adjusted for the one-sixteenth sample scaling of <b>PictureSourceRect16thPel</b>). This member also specifies whether the values in <b>PictureSourceRect16thPel</b> are multiples of 16, thus requiring the source picture to be resampled by the accelerator. A value of 1 indicates that resampling (whether for resizing or for subpixel accuracy) is supported; a value of zero indicates that it is not.
+Specifies whether the <b>PictureSourceRect16thPel</b> member of <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a> for graphic blending may differ in width and height from the <b>PictureDestinationRect</b> member of DXVA_BlendCombination (adjusted for the one-sixteenth sample scaling of <b>PictureSourceRect16thPel</b>). This member also specifies whether the values in <b>PictureSourceRect16thPel</b> are multiples of 16, thus requiring the source picture to be resampled by the accelerator. A value of 1 indicates that resampling (whether for resizing or for subpixel accuracy) is supported; a value of zero indicates that it is not.
 
 ### -field bConfigOnlyUsePicDestRectArea
 
@@ -82,7 +82,7 @@ Specifies whether the decoder can perform operations that use values for areas o
 
 ### -field bConfigGraphicResizing
 
-Indicates whether alpha blending is supported in graphic image resizing. A value of 1 indicates that it is; a value of zero indicates that it is not. <b>bConfigGraphicResizing</b> specifies whether the <b>GraphicSourceRect</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a> (for subpicture blending) may differ in size from the <b>GraphicDestinationRect</b> member of DXVA_BlendCombination. If these values are different, the alpha-blending graphic must be resampled by the accelerator.
+Indicates whether alpha blending is supported in graphic image resizing. A value of 1 indicates that it is; a value of zero indicates that it is not. <b>bConfigGraphicResizing</b> specifies whether the <b>GraphicSourceRect</b> member of <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a> (for subpicture blending) may differ in size from the <b>GraphicDestinationRect</b> member of DXVA_BlendCombination. If these values are different, the alpha-blending graphic must be resampled by the accelerator.
 
 ### -field bConfigWholePlaneAlpha
 
@@ -90,5 +90,4 @@ Specifies whether a whole-plane alpha opacity value can be applied to the graphi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a>

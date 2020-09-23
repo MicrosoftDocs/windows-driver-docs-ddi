@@ -60,7 +60,7 @@ A handle to the display device (graphics context).
 
 *hDecoder* [in]
 
-A handle to the video decoder object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a> function.
+A handle to the video decoder object that was created through a call to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a> function.
 
 ### -param Arg3
 
@@ -72,7 +72,7 @@ The number of buffers in the array that is referenced by the <i>pBufferDesc</i> 
 
 *pBufferDesc* [in]
 
-A pointer to an array of one or more  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. For more information, see the Remarks section.
+A pointer to an array of one or more  <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. For more information, see the Remarks section.
 
 ## -returns
 
@@ -85,16 +85,16 @@ A pointer to an array of one or more  <a href="https://docs.microsoft.com/window
 
 ## -remarks
 
-The <i>pBufferDesc</i> parameter points to an array of one or more  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding.
+The <i>pBufferDesc</i> parameter points to an array of one or more  <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding.
 
 
-Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structure includes the following data:
+Each <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structure includes the following data:
 
 * The resource that will receive the decrypted and decode frame buffers.
 
-* A [D3D11_1DDI_ENCRYPTED_BLOCK_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_encrypted_block_info)  structure that specifies which bytes of the frame buffer are encrypted.
+* A [D3D11_1DDI_ENCRYPTED_BLOCK_INFO](./ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md)  structure that specifies which bytes of the frame buffer are encrypted.
 
-* A pointer to a [D3D11_1DDI_AES_CTR_IV](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv)  structure that contains an initialization vector (IV) for the frame buffer data that was encrypted by using the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption algorithm.
+* A pointer to a [D3D11_1DDI_AES_CTR_IV](./ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md)  structure that contains an initialization vector (IV) for the frame buffer data that was encrypted by using the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption algorithm.
 
 > [!NOTE]
 > If the decode buffer does not contain any encrypted data, this pointer is set to NULL.
@@ -104,17 +104,16 @@ Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_encrypted_block_info">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_encrypted_block_info">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_desc">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>

@@ -60,7 +60,6 @@ Returns the data session's ID to the network interface represented by the NETADA
 
 The client driver must call [**MbbAdapterInitialize**](nf-mbbcx-mbbadapterinitialize.md) first before calling this method. 
 
-For more information, see [Creating the NetAdapter interface for the PDP context/EPS bearer](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#creating-the-netadapter-interface-for-the-pdp-contexteps-bearer).
+For more information, see [Creating the NetAdapter interface for the PDP context/EPS bearer](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#creating-the-netadapter-interface-for-the-pdp-contexteps-bearer).
 
 ## -see-also
-

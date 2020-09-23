@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
+The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
 ## -remarks
 
@@ -56,5 +56,4 @@ Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
-
+<a href="/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>

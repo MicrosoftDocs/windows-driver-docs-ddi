@@ -51,7 +51,7 @@ api_name:
    DirectX 9.0 and later versions only.
    
 
-The D3DHAL_DP2SETSTREAMSOURCEFREQ structure is used to set the frequency divisor of a stream source that is bound to a vertex buffer for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
+The D3DHAL_DP2SETSTREAMSOURCEFREQ structure is used to set the frequency divisor of a stream source that is bound to a vertex buffer for <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ Specifies the frequency divisor, which is the number of vertices after which dat
 
 A driver is requested to set a stream's frequency divisor through the D3DDP2OP_SETSTREAMSOURCEFREQ operation code. 
 
-A driver for a device that supports vertex shader version 3.0 and later can implement stream frequency division. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/modifying-vertex-stream-frequency">Modifying Vertex Stream Frequency</a>.
+A driver for a device that supports vertex shader version 3.0 and later can implement stream frequency division. For more information, see <a href="/windows-hardware/drivers/display/modifying-vertex-stream-frequency">Modifying Vertex Stream Frequency</a>.
 
 ## -see-also
 
@@ -75,5 +75,4 @@ D3DDP2OP_SETSTREAMSOURCEFREQ
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

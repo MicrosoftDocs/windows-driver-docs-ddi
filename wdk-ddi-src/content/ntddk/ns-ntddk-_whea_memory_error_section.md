@@ -56,11 +56,11 @@ The WHEA_MEMORY_ERROR_SECTION structure describes platform memory error data.
 
 ### -field ValidBits
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section_validbits">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section_validbits">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
 
 ### -field ErrorStatus
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status">WHEA_ERROR_STATUS</a> structure that contains memory error status data.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status">WHEA_ERROR_STATUS</a> structure that contains memory error status data.
 
 This member contains valid data only if the <b>Validbits.ErrorStatus</b> bit is set.
 
@@ -150,7 +150,7 @@ The type of memory error that occurred. Possible values are:
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | WHEA_MEMERRTYPE_UNKNOWN           | An unknown error.                                                                                                                                                                |
 | WHEA_MEMERRTYPE_NOERROR           | No error occurred.                                                                                                                                                               |
-| WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](https://docs.microsoft.com/windows-hardware/drivers/) error.                                                                            |
+| WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](/windows-hardware/drivers/) error.                                                                            |
 | WHEA_MEMERRTYPE_MULTIBITECC       | multibit ECC error.                                                                                                                                                              |
 | WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol ChipKill ECC error.   |
 | WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol ChipKill ECC error. |
@@ -186,21 +186,20 @@ Contains the SMBIOS handle for the Memory Device Structure that represents the M
 
 ## -remarks
 
-The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contained in a platform memory error section of an <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-records">error record</a>. An error record contains a platform memory error section only if the <b>SectionType </b>member of one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains MEMORY_ERROR_SECTION_GUID.
+The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contained in a platform memory error section of an <a href="/windows-hardware/drivers/whea/error-records">error record</a>. An error record contains a platform memory error section only if the <b>SectionType </b>member of one of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains MEMORY_ERROR_SECTION_GUID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
+<a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status">WHEA_ERROR_STATUS</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_status">WHEA_ERROR_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section_validbits">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_memory_error_section_validbits">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>

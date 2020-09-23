@@ -49,7 +49,7 @@ api_name:
 
 The 
   <b>NdisIfQueryBindingIfIndex</b> function retrieves the network interface indexes and 
-  <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values for the highest and lowest layered
+  <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values for the highest and lowest layered
   network interfaces that are associated with a specified protocol binding.
 
 ## -parameters
@@ -58,10 +58,10 @@ The
 
 [in]
 A handle that identifies the binding for which NDIS should obtain the 
-     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values and network interface indexes.
+     <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values and network interface indexes.
      NDIS provided this handle at the 
      <i>NdisBindingHandle</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
 ### -param pBoundIfIndex 
 
@@ -131,7 +131,7 @@ The operation completed successfully.
 
 NDIS protocol drivers can call the 
     <b>NdisIfQueryBindingIfIndex</b> function to retrieve the network interface indexes and 
-    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values that are associated with a
+    <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values that are associated with a
     binding.
 
 <b>NdisIfQueryBindingIfIndex</b> provides the NET_LUID value and the interface index for the highest
@@ -142,17 +142,16 @@ NDIS protocol drivers can call the
 
 Protocol drivers can also obtain the interface index and NET_LUID of the highest and the lowest
     interfaces in a driver stack in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure.
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>

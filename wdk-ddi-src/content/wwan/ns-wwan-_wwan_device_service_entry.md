@@ -72,5 +72,4 @@ Device service OIDs and NDIS Status Notifications use the device service's GUID 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_device_service_session_capability">WWAN_DEVICE_SERVICE_SESSION_CAPABILITY</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_device_service_session_capability">WWAN_DEVICE_SERVICE_SESSION_CAPABILITY</a>

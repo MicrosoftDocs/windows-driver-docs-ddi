@@ -58,9 +58,8 @@ When <b>RxDriverEntry</b> is called to initialize RDBSS, a pointer to the kernel
 
 ## -see-also
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
+[PsGetCurrentProcess](/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxdriverentry">RxDriverEntry</a>
-
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxdriverentry">RxDriverEntry</a>

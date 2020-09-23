@@ -104,5 +104,4 @@ The freeze state of the IO request queue for a storage device. If set to TRUE, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_set_queue_state">IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_set_queue_state">IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</a>

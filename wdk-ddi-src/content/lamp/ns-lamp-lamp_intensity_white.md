@@ -46,11 +46,10 @@ api_name:
 
 ## -description
 
-This structure is the I/O parameter type of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_get_intensity_white">IOCTL_LAMP_GET_INTENSITY_WHITE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_set_intensity_white">IOCTL_LAMP_SET_INTENSITY_WHITE</a>.
+This structure is the I/O parameter type of <a href="/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_get_intensity_white">IOCTL_LAMP_GET_INTENSITY_WHITE</a> and <a href="/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_set_intensity_white">IOCTL_LAMP_SET_INTENSITY_WHITE</a>.
 
 ## -struct-fields
 
 ### -field Value
 
 White light intensity in percentage (0-100).
-

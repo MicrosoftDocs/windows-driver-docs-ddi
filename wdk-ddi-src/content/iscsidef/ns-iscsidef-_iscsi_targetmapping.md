@@ -64,7 +64,7 @@ The SCSI target number (which is valid in the local operating system) that the r
 
 ### -field UniqueSessionId
 
-A 64-bit integer that uniquely identifies the session. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in their UniqueSessionId parameter. Do not confuse this value with the values in the ISID and TSID members.
+A 64-bit integer that uniquely identifies the session. The <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in their UniqueSessionId parameter. Do not confuse this value with the values in the ISID and TSID members.
 
 ### -field LUNCount
 
@@ -84,7 +84,7 @@ Reserved for Microsoft use only.
 
 ### -field LUNList
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_lunlist">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
+A <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_lunlist">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
 
 ## -remarks
 
@@ -94,17 +94,16 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
+<a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_lunlist">ISCSI_LUNList</a>
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_lunlist">ISCSI_LUNList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-targetmapping-wmi-class">ISCSI_TargetMapping WMI Class</a>
+<a href="/windows-hardware/drivers/storage/iscsi-targetmapping-wmi-class">ISCSI_TargetMapping WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
-
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>

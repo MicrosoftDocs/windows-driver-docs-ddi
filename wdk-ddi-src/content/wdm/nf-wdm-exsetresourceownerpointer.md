@@ -72,5 +72,4 @@ When the user thread is done with the resource, the resource manager thread rele
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545585">ExReleaseResourceForThreadLite</a>
-
+<a href="/previous-versions/ff545585(v=vs.85)">ExReleaseResourceForThreadLite</a>

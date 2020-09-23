@@ -70,7 +70,7 @@ A buffer that contains pattern data.
 ## -remarks
 
 The BTH_VENDOR_PATTERN structure specifies vendor patterns for the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">
     BTH_VENDOR_SPECIFIC_COMMAND</a> structure.
 
 A list of patterns can immediately follow the vendor-specific command data that is specified in the 
@@ -81,5 +81,4 @@ Patterns are required if a vendor-specific command does not follow the standard 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a>
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a>

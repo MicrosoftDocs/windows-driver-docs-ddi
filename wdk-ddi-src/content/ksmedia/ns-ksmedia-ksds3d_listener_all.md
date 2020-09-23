@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-The KSDS3D_LISTENER_ALL structure specifies all the properties of the DirectSound 3D listener. This structure is used to get or set the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-directsound3dlistener-all">KSPROPERTY_DIRECTSOUND3DLISTENER_ALL</a> property.
+The KSDS3D_LISTENER_ALL structure specifies all the properties of the DirectSound 3D listener. This structure is used to get or set the data value for the <a href="/windows-hardware/drivers/audio/ksproperty-directsound3dlistener-all">KSPROPERTY_DIRECTSOUND3DLISTENER_ALL</a> property.
 
 ## -struct-fields
 
 ### -field Position
 
-Specifies the position vector of the 3D listener. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>.
+Specifies the position vector of the 3D listener. This member is a structure of type <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>.
 
 ### -field Velocity
 
@@ -88,9 +88,8 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetAl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-directsound3dlistener-all">KSPROPERTY_DIRECTSOUND3DLISTENER_ALL</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-directsound3dlistener-all">KSPROPERTY_DIRECTSOUND3DLISTENER_ALL</a>

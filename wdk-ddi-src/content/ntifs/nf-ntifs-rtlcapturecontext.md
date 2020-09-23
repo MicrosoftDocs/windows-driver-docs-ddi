@@ -56,7 +56,7 @@ The <b>RtlCaptureContext </b>function retrieves a context record in the context 
 ### -param ContextRecord 
 
 [out]
-A pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> structure.
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
 
 ## -returns
 
@@ -66,9 +66,8 @@ This function does not return a value.
 
 The <i>ContextRecord</i> that is captured contains processor-specific register data.  
 
-For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a> Structure topic in the SDK documentation.
+For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For more information, see the <a href="/windows/win32/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> Structure topic in the SDK documentation.
 
 ## -see-also
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a>
-
+<a href="/windows/win32/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>

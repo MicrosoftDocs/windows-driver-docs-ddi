@@ -54,11 +54,11 @@ The <b>SpbRequestGetTarget</b> method retrieves the SPBTARGET handle from the sp
 ### -param SpbRequest 
 
 [in]
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request. The SPB controller driver previously received this handle through one of its registered <a href="https://docs.microsoft.com/previous-versions/hh450911(v=vs.85)">event callback functions</a>.
+An <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to the I/O request. The SPB controller driver previously received this handle through one of its registered <a href="/previous-versions/hh450911(v=vs.85)">event callback functions</a>.
 
 ## -returns
 
-<b>SpbRequestGetTarget</b> returns an <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target device on the bus for the specified I/O request.
+<b>SpbRequestGetTarget</b> returns an <a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target device on the bus for the specified I/O request.
 
 ## -remarks
 
@@ -66,9 +66,8 @@ The returned SPBTARGET handle is guaranteed to remain valid until the correspond
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+<a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
-
+<a href="/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>

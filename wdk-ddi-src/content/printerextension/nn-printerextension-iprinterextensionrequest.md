@@ -52,7 +52,6 @@ Completes the given extension event with either a cancellation  or success.
 
 ## -see-also
 
-[IPrinterExtensionEventArgs](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs)
+[IPrinterExtensionEventArgs](./nn-printerextension-iprinterextensioneventargs.md)
 
-[IPrinterExtensionEventArgs::Request](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_request)
-
+[IPrinterExtensionEventArgs::Request](./nf-printerextension-iprinterextensioneventargs-get_request.md)

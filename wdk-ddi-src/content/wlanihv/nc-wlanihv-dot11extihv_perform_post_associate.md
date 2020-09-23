@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvPerformPostAssociate</i> function to request that the IHV Extensions DLL initiate a
   post-association operation with the basic service set (BSS) network.
 
@@ -90,12 +90,12 @@ A pointer to a
      DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a> structure, which specifies the result of the association
      operation completed by the WLAN adapter. The Native 802.11 miniport driver, which manages the WLAN
      adapter, includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when it makes a media-specific
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+     <a href="/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
      NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a> indication.
 
 
 For more information about the association operation, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/association-operations">Association Operations</a>.
+     <a href="/windows-hardware/drivers/network/association-operations">Association Operations</a>.
 
 ## -returns
 
@@ -132,7 +132,7 @@ The operating system calls the
     service set (BSS) networks.</div>
 <div> </div>
 For more information about the association operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/association-operations">Association Operations</a>.
+    <a href="/windows-hardware/drivers/network/association-operations">Association Operations</a>.
 
 The post-association operation must be completed asynchronously from the call to
     <i>Dot11ExtIhvPerformPostAssociate</i>. After the post-association operation completes, the DLL must call
@@ -144,7 +144,7 @@ If the IHV Extensions DLL can initiate the post-association operation, the
     asynchronously.
 
 For more information about the post-association operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
+    <a href="/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
 
 ## -see-also
 
@@ -165,6 +165,5 @@ For more information about the post-association operation, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
    NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
-

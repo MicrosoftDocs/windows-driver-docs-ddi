@@ -141,5 +141,4 @@ A few IRPs are treated as special and handled internally by RDBSS. For example, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxdriverentry">RxDriverEntry</a>
-
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxdriverentry">RxDriverEntry</a>

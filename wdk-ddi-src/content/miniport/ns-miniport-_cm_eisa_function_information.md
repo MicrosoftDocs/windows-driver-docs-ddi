@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CM_EISA_FUNCTION_INFORMATION</b> structure defines detailed EISA configuration information returned by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a> for the input <i>BusDataType </i><b>EisaConfiguration</b>, or by <b>HalGetBusDataByOffset</b> for the input <i>BusDataType </i><b>EisaConfiguration</b> and the <i>Offset</i> zero, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
+The <b>CM_EISA_FUNCTION_INFORMATION</b> structure defines detailed EISA configuration information returned by <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a> for the input <i>BusDataType </i><b>EisaConfiguration</b>, or by <b>HalGetBusDataByOffset</b> for the input <i>BusDataType </i><b>EisaConfiguration</b> and the <i>Offset</i> zero, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
 
 ## -struct-fields
 
 ### -field CompressedId
 
-The EISA compressed identification of the device at this slot. The value is identical to the <b>CompressedId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> structure.
+The EISA compressed identification of the device at this slot. The value is identical to the <b>CompressedId</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> structure.
 
 ### -field IdSlotFlags1
 
@@ -80,7 +80,7 @@ The EISA selections for the device.
 
 ### -field FunctionFlags
 
-Indicates which of the members has available information. Callers can use the following system-defined masks to determine whether a particular type of configuration information can be or has been returned by <b>HalGetBusData</b> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>:
+Indicates which of the members has available information. Callers can use the following system-defined masks to determine whether a particular type of configuration information can be or has been returned by <b>HalGetBusData</b> or <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>:
 
 EISA_FUNCTION_ENABLED
 
@@ -177,17 +177,16 @@ Vendor-supplied, device-specific initialization data, if any.
 
 ## -remarks
 
-The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b> in <b>CM_EISA_FUNCTION_INFORMATION</b> and/or in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> header immediately preceding it is read-only.
+The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b> in <b>CM_EISA_FUNCTION_INFORMATION</b> and/or in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> header immediately preceding it is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>

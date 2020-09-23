@@ -64,9 +64,8 @@ A NULL-terminated Unicode string that contains the hub's symbolic device name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_get_controller_name">IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME</a>
+<a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_get_controller_name">IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
-
+<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>

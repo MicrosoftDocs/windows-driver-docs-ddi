@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>KsMoveIrpsOnCancelableQueue</b> function moves the specified IRPs from the <i>SourceList</i> parameter to the <i>DestinationList </i>parameter depending on the value returned from the minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a> function.
+The <b>KsMoveIrpsOnCancelableQueue</b> function moves the specified IRPs from the <i>SourceList</i> parameter to the <i>DestinationList </i>parameter depending on the value returned from the minidriver-defined <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a> function.
 
 ## -parameters
 
@@ -79,7 +79,7 @@ Indicates whether the IRPs should be enumerated from the head or the tail of the
 ### -param ListCallback 
 
 [in]
-Specifies the minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a> function to call to indicate whether a specific IRP should be moved from <i>SourceList</i> to <i>DestinationList</i>, or if enumeration should be terminated.
+Specifies the minidriver-defined <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a> function to call to indicate whether a specific IRP should be moved from <i>SourceList</i> to <i>DestinationList</i>, or if enumeration should be terminated.
 
 ### -param Context 
 
@@ -92,7 +92,7 @@ Returns STATUS_SUCCESS if the list was completely enumerated; otherwise, returns
 
 ## -remarks
 
-An IRP is moved if the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a> function indicates that it should be moved, whether it is currently acquired. If <i>KStrIrpListCallback </i>returns STATUS_SUCCESS, the IRP is moved. If it returns STATUS_NO_MATCH, the IRP is not moved. Any other return warning or error value will terminate enumeration and be returned by the function. The STATUS_NO_MATCH value should not be returned as an error by <i>KStrIrpListCallback</i>. <i>KStrIrpListCallback</i> is called at DISPATCH_LEVEL. <i>KStrIrpListCallback</i> is always called at least once at the end with a <b>NULL</b> IRP value to complete list enumeration.
+An IRP is moved if the <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a> function indicates that it should be moved, whether it is currently acquired. If <i>KStrIrpListCallback </i>returns STATUS_SUCCESS, the IRP is moved. If it returns STATUS_NO_MATCH, the IRP is not moved. Any other return warning or error value will terminate enumeration and be returned by the function. The STATUS_NO_MATCH value should not be returned as an error by <i>KStrIrpListCallback</i>. <i>KStrIrpListCallback</i> is called at DISPATCH_LEVEL. <i>KStrIrpListCallback</i> is always called at least once at the end with a <b>NULL</b> IRP value to complete list enumeration.
 
 <b>KsMoveIrpsOnCancelableQueue</b> continues through the list until the callback function indicates that the search should be terminated, or the end of the list is reached. <b>KsMoveIrpsOnCancelableQueue</b> minimizes the use of the system-wide Cancel Spin Lock by using the provided spin locks to synchronize access when possible. <b>KsMoveIrpsOnCancelableQueue</b> does not allow the cancel routine to be modified while moving IRPs.
 
@@ -100,5 +100,4 @@ The function can be called at DISPATCH_LEVEL or lower.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksirplistcallback">KStrIrpListCallback</a>

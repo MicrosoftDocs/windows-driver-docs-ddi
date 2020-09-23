@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>Value</b> (get_Value) property gets the current value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a> object.
+The <b>Value</b> (get_Value) property gets the current value of the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a> object.
 
  In PrintTicket XML, that’s the value of the <psf:Value> child element for the <psf:ParameterInit> element.
 
@@ -84,5 +84,4 @@ The <b>Value</b> (get_Value) property returns the current value of the <b>IPrint
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a>

@@ -57,9 +57,8 @@ The hash value, which is formatted as a ULONG.
 
 ## -remarks
 
-For more information about the hash value, see [RSS Hashing Functions](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-functions)
+For more information about the hash value, see [RSS Hashing Functions](/windows-hardware/drivers/network/rss-hashing-functions)
 
 ## -see-also
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
-

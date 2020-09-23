@@ -73,5 +73,4 @@ The clock can be created after using **KsAllocateDefaultClock** to create and in
 
 ## -see-also
 
-[KsAllocateDefaultClock](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock)
-
+[KsAllocateDefaultClock](./nf-ks-ksallocatedefaultclock.md)

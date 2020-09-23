@@ -67,9 +67,8 @@ If the buffer is only partially filled, then the audio driver needs to notify th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode2">IMiniportStreamAudioEngineNode2</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode2">IMiniportStreamAudioEngineNode2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-wavert-current-write-lastbuffer-position">KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_LASTBUFFER_POSITION</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-audio-wavert-current-write-lastbuffer-position">KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_LASTBUFFER_POSITION</a>

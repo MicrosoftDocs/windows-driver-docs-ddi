@@ -52,7 +52,7 @@ api_name:
 
 The NDIS_CONFIGURATION_OBJECT structure defines the attributes of a configuration object that an NDIS
   driver can pass to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationex">
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationex">
   NdisOpenConfigurationEx</a> function.
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The NDIS_CONFIGURATION_OBJECT structure defines the attributes of a configuratio
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_CONFIGURATION_OBJECT structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_CONFIGURATION_OBJECT, the 
@@ -90,14 +90,13 @@ Set this flag if a monitoring filter driver must access the filter module config
 
 To configuration parameters in the registry, an NDIS driver can use the NDIS_CONFIGURATION_OBJECT
     structure to define a configuration object and then call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a> function
+    <a href="/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a> function
     to get a configuration handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>
-
+<a href="/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>

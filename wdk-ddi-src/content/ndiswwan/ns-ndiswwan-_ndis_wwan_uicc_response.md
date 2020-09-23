@@ -77,19 +77,18 @@ A formatted [**WWAN_UICC_RESPONSE**](../wwan/ns-wwan-_wwan_uicc_response.md) str
 
 ## -remarks
 
-This structure is used in either the [NDIS_STATUS_WWAN_UICC_BINARY_RESPONSE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-binary-response) status notification in response to a previous [OID_WWAN_UICC_ACCESS_BINARY](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-binary) Query or Set request, or in an [NDIS_STATUS_WWAN_UICC_RECORD_RESPONSE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-record-response) status notification in response to a previous [OID_WWAN_UICC_ACCESS_RECORD](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-record) Query or Set request.
+This structure is used in either the [NDIS_STATUS_WWAN_UICC_BINARY_RESPONSE](/windows-hardware/drivers/network/ndis-status-wwan-uicc-binary-response) status notification in response to a previous [OID_WWAN_UICC_ACCESS_BINARY](/windows-hardware/drivers/network/oid-wwan-uicc-access-binary) Query or Set request, or in an [NDIS_STATUS_WWAN_UICC_RECORD_RESPONSE](/windows-hardware/drivers/network/ndis-status-wwan-uicc-record-response) status notification in response to a previous [OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record) Query or Set request.
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_UICC_ACCESS_BINARY](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-binary)
+[OID_WWAN_UICC_ACCESS_BINARY](/windows-hardware/drivers/network/oid-wwan-uicc-access-binary)
 
-[NDIS_STATUS_WWAN_UICC_BINARY_RESPONSE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-app-list)
+[NDIS_STATUS_WWAN_UICC_BINARY_RESPONSE](/windows-hardware/drivers/network/ndis-status-wwan-uicc-app-list)
 
-[OID_WWAN_UICC_ACCESS_RECORD](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-record)
+[OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record)
 
-[NDIS_STATUS_WWAN_UICC_RECORD_RESPONSE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-record-response)
+[NDIS_STATUS_WWAN_UICC_RECORD_RESPONSE](/windows-hardware/drivers/network/ndis-status-wwan-uicc-record-response)
 
 [**WWAN_UICC_RESPONSE**](../wwan/ns-wwan-_wwan_uicc_response.md)
-

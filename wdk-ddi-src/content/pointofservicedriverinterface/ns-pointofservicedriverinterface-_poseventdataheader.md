@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-This structure describes the scanned image data that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event.
+This structure describes the scanned image data that is passed to the <a href="/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event.
 
 ## -struct-fields
 
 ### -field EventType
 
-The type of event. For the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event the value of this field is **BarcodeScannerImagePreviewReceived**.
+The type of event. For the <a href="/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event the value of this field is **BarcodeScannerImagePreviewReceived**.
 
 ### -field DataLength
 
@@ -63,4 +63,3 @@ The length, in bytes, of the image preview data.
 ## -remarks
 
 The image preview bitmap data immediately follows after this structure in memory for *DataLength* bytes.
-

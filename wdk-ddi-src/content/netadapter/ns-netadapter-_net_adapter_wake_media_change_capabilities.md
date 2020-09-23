@@ -68,11 +68,10 @@ Call [**NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT**](../netadapter/nf-neta
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_media_change_capabilities_init.md)
 
 [**NetAdapterWakeSetMediaChangeCapabilities**](../netadapter/nf-netadapter-netadapterwakesetmediachangecapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

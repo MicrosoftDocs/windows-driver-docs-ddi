@@ -75,9 +75,8 @@ A pointer to the connection information that specifies the remote address. on wh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownconnection">RxCeTearDownConnection</a>
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownconnection">RxCeTearDownConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565085(v=vs.85)">TDI_CONNECTION_INFORMATION</a>
-
+<a href="/previous-versions/windows/hardware/network/ff565085(v=vs.85)">TDI_CONNECTION_INFORMATION</a>

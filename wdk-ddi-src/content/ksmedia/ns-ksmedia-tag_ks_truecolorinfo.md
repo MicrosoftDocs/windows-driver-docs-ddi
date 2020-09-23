@@ -64,5 +64,4 @@ Array of palette colors.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_rgbquad">KS_RGBQUAD</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_rgbquad">KS_RGBQUAD</a>

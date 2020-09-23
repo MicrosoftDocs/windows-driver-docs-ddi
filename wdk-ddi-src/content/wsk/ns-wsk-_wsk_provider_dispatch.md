@@ -58,7 +58,7 @@ The WSK_PROVIDER_DISPATCH structure specifies the WSK subsystem's dispatch table
 ### -field Version
 
 The version of the WSK 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> that the WSK subsystem will use for its attachment to the WSK application.
 
 ### -field Reserved
@@ -68,22 +68,22 @@ Reserved for system use.
 ### -field WskSocket
 
 A pointer to the WSK subsystem's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function.
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function.
 
 ### -field WskSocketConnect
 
 A pointer to the WSK subsystem's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function.
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function.
 
 ### -field WskControlClient
 
 A pointer to the WSK subsystem's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function.
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function.
 
 ### -field WskGetAddressInfo
 
 A pointer to the WSK subsystem's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a> function.
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a> function.
      
 
 This member is available beginning with Windows 7.
@@ -91,7 +91,7 @@ This member is available beginning with Windows 7.
 ### -field WskFreeAddressInfo
 
 A pointer to the WSK subsystem's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_free_address_info">WskFreeAddressInfo</a> function.
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_free_address_info">WskFreeAddressInfo</a> function.
      
 
 This member is available beginning with Windows 7.
@@ -99,7 +99,7 @@ This member is available beginning with Windows 7.
 ### -field WskGetNameInfo
 
 A pointer to the WSK subsystem's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_name_info">WskGetNameInfo</a> function.
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_name_info">WskGetNameInfo</a> function.
      
 
 This member is available beginning with Windows 7.
@@ -107,10 +107,10 @@ This member is available beginning with Windows 7.
 ## -remarks
 
 When a WSK application calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a> function, the
+    <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a> function, the
     WSK subsystem returns a pointer to a WSK_PROVIDER_DISPATCH structure by means of the 
     <b>Dispatch</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a> structure pointed to by the 
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a> structure pointed to by the 
     <i>WskProviderNpi</i> parameter.
 
 The major and minor version numbers that are contained within the 
@@ -134,7 +134,7 @@ The minor version number that is contained within the
     <b>Version</b> member of this structure might be a higher minor version number than what was requested by
     the WSK application in the 
     <b>Version</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a> structure. This
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a> structure. This
     situation should not cause a problem for the WSK application because higher minor versions of the WSK NPI
     are a strict superset of lower minor versions of the WSK NPI if they have the same major version number.
     The WSK subsystem will specify the remaining members of the WSK_PROVIDER_DISPATCH structure to conform to
@@ -142,30 +142,29 @@ The minor version number that is contained within the
     <b>Version</b> member of the structure.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>

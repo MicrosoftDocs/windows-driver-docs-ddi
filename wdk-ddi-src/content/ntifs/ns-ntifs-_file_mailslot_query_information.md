@@ -77,5 +77,4 @@ The time, in milliseconds, that a read operation can wait for a message to be wr
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/ipc/mailslots">Mailslots</a>.
-
+For more information, see <a href="/windows/desktop/ipc/mailslots">Mailslots</a>.

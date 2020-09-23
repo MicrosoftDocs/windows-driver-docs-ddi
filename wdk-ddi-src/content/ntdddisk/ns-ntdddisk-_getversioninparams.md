@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GETVERSIONINPARAMS structure is used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a> request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
+The GETVERSIONINPARAMS structure is used in conjunction with the <a href="/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a> request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
 
 ## -struct-fields
 
@@ -204,5 +204,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff566202(v=vs.85)">SMART_GET_VERSION</a>

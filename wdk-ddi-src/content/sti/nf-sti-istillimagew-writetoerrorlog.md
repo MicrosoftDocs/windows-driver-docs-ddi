@@ -71,9 +71,8 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -remarks
 
-The still image error log file is named <i>sti_trace.log</i> and is located in the Windows directory. Registry values determine which still image error types (informational, warning, or error) are written to the error log (see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/registry-entries-for-still-image-devices">Nonmodifiable Registry Entries</a>).
+The still image error log file is named <i>sti_trace.log</i> and is located in the Windows directory. Registry values determine which still image error types (informational, warning, or error) are written to the error log (see <a href="/windows-hardware/drivers/image/registry-entries-for-still-image-devices">Nonmodifiable Registry Entries</a>).
 
 Error messages should be reserved for critical error conditions, such as device hardware failures. Informational messages can be used for your own debugging purposes. Logged messages aren't visible to users, but they might be used by a support engineer to help debug a user's problems.
 
-Before calling <b>IStillImage::WriteToErrorLog</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
-
+Before calling <b>IStillImage::WriteToErrorLog</b>, clients of the <b>IStillImage</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.

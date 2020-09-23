@@ -14,9 +14,9 @@ ms.topic: portal
 
 ## -description
 
-This reference section describes the driver programming interfaces that are included in the [Windows Driver Kit (WDK)](https://docs.microsoft.com/windows-hardware/drivers/download-the-wdk). The programming interfaces are used for developing drivers that interact with USB devices, host controllers, connectors. These include export functions that the drivers can call, callback routines that the driver can implement, I/O requests that the driver can send to the Microsoft-provided USB driver stack, and various data structures that are used in those requests.
+This reference section describes the driver programming interfaces that are included in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk). The programming interfaces are used for developing drivers that interact with USB devices, host controllers, connectors. These include export functions that the drivers can call, callback routines that the driver can implement, I/O requests that the driver can send to the Microsoft-provided USB driver stack, and various data structures that are used in those requests.
 
-For the programming guide, see [Universal Serial Bus (USB)](https://docs.microsoft.com/windows-hardware/drivers/usbcon).
+For the programming guide, see [Universal Serial Bus (USB)](/windows-hardware/drivers/usbcon).
 
 ## Common USB client driver reference
 
@@ -24,7 +24,7 @@ A Windows Driver Model (WDM)-based USB client driver can call functions to commu
 
 ### Programming Guide
 
-[Developing Windows client drivers for USB devices](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-driver-development-guide).
+[Developing Windows client drivers for USB devices](/windows-hardware/drivers/usbcon/usb-driver-development-guide).
 
 ### Headers
 
@@ -110,7 +110,7 @@ One of the main responsibilities of a driver for a dual-role controller is to sw
 
 ### Dual-role controller driver programming guide
 
-For information about enabling a Windows system for USB dual-role support, see [USB Dual Role Driver Stack Architecture](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-dual-role-driver-stack-architecture).
+For information about enabling a Windows system for USB dual-role support, see [USB Dual Role Driver Stack Architecture](/windows-hardware/drivers/usbcon/usb-dual-role-driver-stack-architecture).
 
 ### Dual-role controller driver headers
 
@@ -128,7 +128,7 @@ The driver pair loads as the FDO in the host controller device stack. The UDE cl
 
 ### Emulated host controller programming guide
 
-[Developing Windows drivers for emulated USB devices (UDE)](https://docs.microsoft.com/windows-hardware/drivers/usbcon/developing-windows-drivers-for-emulated-usb-host-controllers-and-devices).
+[Developing Windows drivers for emulated USB devices (UDE)](/windows-hardware/drivers/usbcon/developing-windows-drivers-for-emulated-usb-host-controllers-and-devices).
 
 ### Emulated host controller headers
 
@@ -152,7 +152,7 @@ The USB function client driver is responsible for implementing a function contro
 
 ### USB function controller client driver programming guide
 
-[Write a USB function controller client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/function-client-driver)
+[Write a USB function controller client driver](/windows-hardware/drivers/usbcon/function-client-driver)
 
 ### USB function controller client driver headers
 
@@ -164,7 +164,7 @@ Write a filter driver that supports detection of chargers, if the function contr
 
 ### Filter driver for supporting USB chargers programming guide
 
-[USB filter driver for supporting USB chargers](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-filter-driver-for-supporting-chargers)
+[USB filter driver for supporting USB chargers](/windows-hardware/drivers/usbcon/usb-filter-driver-for-supporting-chargers)
 
 ### Filter driver for supporting USB chargers headers
 
@@ -180,7 +180,7 @@ If you are developing an xHCI host controller that is not compliant with the spe
 
 ### Host controller driver programming guide
 
-[Developing Windows drivers for USB host controllers](https://docs.microsoft.com/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-host-controllers)
+[Developing Windows drivers for USB host controllers](/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-host-controllers)
 
 ### Host controller driver headers
 
@@ -197,7 +197,7 @@ Windows 10 introduces support for the new USB connector: USB Type-C. You can wri
 
 |Scenario|Headers|Programming Guide|
 |---|---|---|
-|**If your USB Type-C hardware has the capability of handling the power delivery (PD) state machine.**|<p>[ucmmanager.h](../ucmmanager/index.md)</p>|[Write a USB Type-C connector driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system)|
-|**If your driver wants to participate in the policy decisions for USB Type-C connectors.**|[Usbpmapi.h](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbpmapi/)|[Write a USB Type-C Policy Manager client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/policy-manager-client)|
-|**If your hardware does not support PD.**|  <p>[ucmtcpcidevice.h](../ucmtcpcidevice/index.md)</p>  <p>[ucmtcpciglobals.h](../ucmtcpciglobals/index.md)</p> <p>[ucmtcpciportcontroller.h](../ucmtcpciportcontroller/index.md)</p> <p>[ucmtcpciportcontrollerrequests.h](../ucmtcpciportcontrollerrequests/index.md)</p> <p>[ucmtypes.h](../ucmtypes/index.md)</p>|[Write a USB Type-C port controller driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver).
-**If your embedded controller is connected over non-ACPI transport**|</p>[Ucmucsicx.h](../ucmucsicx/index.md)</p></p>[Ucmucsidevice.h](../ucmucsidevice/index.md)</p></p>[Ucmucsifuncenum.h](../ucmucsifuncenum/index.md)</p></p>[Ucmucsiglobals.h](../ucmucsiglobals/index.md)</p></p>[Ucmucsippm.h](../ucmucsippm/index.md)</p></p>[Ucmucsippmrequests.h](../ucmucsippmrequests/index.md)</p></p>[Ucmucsispec.h](../ucmucsispec/index.md)</p>|[Write a UCSI client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-ucsi-driver)|
+|**If your USB Type-C hardware has the capability of handling the power delivery (PD) state machine.**|<p>[ucmmanager.h](../ucmmanager/index.md)</p>|[Write a USB Type-C connector driver](/windows-hardware/drivers/usbcon/bring-up-a-usb-type-c-connector-on-a-windows-system)|
+|**If your driver wants to participate in the policy decisions for USB Type-C connectors.**|[Usbpmapi.h](../usbpmapi/index.md)|[Write a USB Type-C Policy Manager client driver](/windows-hardware/drivers/usbcon/policy-manager-client)|
+|**If your hardware does not support PD.**|  <p>[ucmtcpcidevice.h](../ucmtcpcidevice/index.md)</p>  <p>[ucmtcpciglobals.h](../ucmtcpciglobals/index.md)</p> <p>[ucmtcpciportcontroller.h](../ucmtcpciportcontroller/index.md)</p> <p>[ucmtcpciportcontrollerrequests.h](../ucmtcpciportcontrollerrequests/index.md)</p> <p>[ucmtypes.h](../ucmtypes/index.md)</p>|[Write a USB Type-C port controller driver](/windows-hardware/drivers/usbcon/write-a-usb-type-c-port-controller-driver).
+**If your embedded controller is connected over non-ACPI transport**|</p>[Ucmucsicx.h](../ucmucsicx/index.md)</p></p>[Ucmucsidevice.h](../ucmucsidevice/index.md)</p></p>[Ucmucsifuncenum.h](../ucmucsifuncenum/index.md)</p></p>[Ucmucsiglobals.h](../ucmucsiglobals/index.md)</p></p>[Ucmucsippm.h](../ucmucsippm/index.md)</p></p>[Ucmucsippmrequests.h](../ucmucsippmrequests/index.md)</p></p>[Ucmucsispec.h](../ucmucsispec/index.md)</p>|[Write a UCSI client driver](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)|

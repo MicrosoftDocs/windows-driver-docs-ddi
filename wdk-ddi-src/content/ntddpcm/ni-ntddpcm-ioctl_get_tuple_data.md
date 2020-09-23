@@ -52,7 +52,7 @@ This request retrieves tuple data that is stored in a PC Card's or CardBus card'
 
 ### -input-buffer
 
-The caller initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/ns-ntddpcm-_tuple_request">TUPLE_REQUEST</a> structure, which is defined in <i>ntddpcm.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The caller initializes the <a href="/windows-hardware/drivers/ddi/ntddpcm/ns-ntddpcm-_tuple_request">TUPLE_REQUEST</a> structure, which is defined in <i>ntddpcm.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -input-buffer-length
 
@@ -84,13 +84,12 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>
+<a href="/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-write-config">IRP_MN_WRITE_CONFIG</a>
+<a href="/windows-hardware/drivers/kernel/irp-mn-write-config">IRP_MN_WRITE_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/ns-ntddpcm-_tuple_request">TUPLE_REQUEST</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddpcm/ns-ntddpcm-_tuple_request">TUPLE_REQUEST</a>

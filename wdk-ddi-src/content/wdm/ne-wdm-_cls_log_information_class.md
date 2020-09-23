@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CLFS_LOG_INFORMATION_CLASS</b> enumeration indicates the type of information that is requested by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>.
+The <b>CLFS_LOG_INFORMATION_CLASS</b> enumeration indicates the type of information that is requested by a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>.
 
 ## -enum-fields
 
 ### -field ClfsLogBasicInformation
 
-Indicates that the request is for basic information about a CLFS stream and its underlying physical log. The information is returned in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_information">CLFS_INFORMATION</a> structure. Most of the structure members contain information about the underlying physical log, but some members contain information that is specific to the stream.
+Indicates that the request is for basic information about a CLFS stream and its underlying physical log. The information is returned in a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_information">CLFS_INFORMATION</a> structure. Most of the structure members contain information about the underlying physical log, but some members contain information that is specific to the stream.
 
 ### -field ClfsLogBasicInformationPhysical
 
@@ -68,7 +68,7 @@ Indicates that the request is for information about the name of a physical CLFS 
 
 ### -field ClfsLogStreamIdentifierInformation
 
-Indicates that the request is for a CLFS stream identifier. The information is returned in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_stream_id_information">CLFS_STREAM_ID_INFORMATION</a> structure.
+Indicates that the request is for a CLFS stream identifier. The information is returned in a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_clfs_stream_id_information">CLFS_STREAM_ID_INFORMATION</a> structure.
 
 ### -field ClfsLogSystemMarkingInformation
 
@@ -80,9 +80,8 @@ Maps virtual LSNs to physical LSNs; only valid for physical logs. This enumerati
 
 ## -remarks
 
-The <i>eInformationClass</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a> function is a value from the <b>CLFS_LOG_INFORMATION_CLASS</b> enumeration.
+The <i>eInformationClass</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a> function is a value from the <b>CLFS_LOG_INFORMATION_CLASS</b> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>

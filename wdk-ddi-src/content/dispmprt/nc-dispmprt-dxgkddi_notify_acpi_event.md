@@ -53,12 +53,12 @@ Notifies the display miniport driver about certain ACPI events.
 ### -param MiniportDeviceContext 
 
 [in]
-A handle to a context block that represents a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block that represents a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 ### -param EventType 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ne-dispmprt-_dxgk_event_type">DXGK_EVENT_TYPE</a> enumerator that supplies the event type (<b>DpAcpiEvent</b>, <b>DpPowerStateEvent</b>, <b>DpDockingEvent</b>).
+A <a href="/windows-hardware/drivers/ddi/dispmprt/ne-dispmprt-_dxgk_event_type">DXGK_EVENT_TYPE</a> enumerator that supplies the event type (<b>DpAcpiEvent</b>, <b>DpPowerStateEvent</b>, <b>DpDockingEvent</b>).
 
 ### -param Event 
 
@@ -88,7 +88,7 @@ A pointer to a value that indicates the type of request that the display minipor
 
 | **Value** | **Request type** | 
 |:--|:--|
-| DXGK_ACPI_CHANGE_DISPLAY_MODE | The display miniport driver makes a request to the operating system to call the [DxgkDdiRecommendFunctionalVidPn](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn)  function and then to initiate a mode change to the new recommended active video present network (VidPN). For example, the display miniport driver might make this request if the user has specified a mode change. | 
+| DXGK_ACPI_CHANGE_DISPLAY_MODE | The display miniport driver makes a request to the operating system to call the [DxgkDdiRecommendFunctionalVidPn](../d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md)  function and then to initiate a mode change to the new recommended active video present network (VidPN). For example, the display miniport driver might make this request if the user has specified a mode change. | 
 | DXGK_ACPI_CHANGE_DISPLAY_TOPOLOGY |  | 
 | DXGK_ACPI_POLL_DISPLAY_CHILDREN | The display miniport driver makes a request to the operating system to poll the connectivity of the children of the display adapter represented by MiniportDeviceContext. | 
 | DXGK_ACPI_CHAIN_NOT_HANDLED | Indicates that an event with type DxgkChainedAcpiEvent was not handled by the hybrid discrete driver and should therefore be sent to the hybrid integrated driver. | 
@@ -108,5 +108,4 @@ This parameter is ignored if this function returns an error or if the display ad
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_eval_acpi_method">DxgkCbEvalAcpiMethod</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_eval_acpi_method">DxgkCbEvalAcpiMethod</a>

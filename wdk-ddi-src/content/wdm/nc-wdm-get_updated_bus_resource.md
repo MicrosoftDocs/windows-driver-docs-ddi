@@ -60,7 +60,7 @@ Reports the latest resource lists.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -88,4 +88,3 @@ The Pnp Manager invokes this callback function to query the bus driver for the l
 Register the bus driver's implementation of this callback function by setting the **PGET_UPDATED_BUS_RESOURCE** member of [**BUS_RESOURCE_UPDATE_INTERFACE**](ns-wdm-_bus_resource_update_interface.md).
 
 ## -see-also
-

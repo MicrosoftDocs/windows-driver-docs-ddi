@@ -64,9 +64,8 @@ Specifies the protocol control information length.
 
 ## -see-also
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
-
+<a href="/windows-hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>

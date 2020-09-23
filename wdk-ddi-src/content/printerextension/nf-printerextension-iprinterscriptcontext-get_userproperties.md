@@ -62,9 +62,8 @@ The user property bag is not available in (constraint) JavaScript functions when
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptcontext">IPrinterScriptContext</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptcontext">IPrinterScriptContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>

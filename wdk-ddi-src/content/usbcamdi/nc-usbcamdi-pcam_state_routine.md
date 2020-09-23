@@ -90,5 +90,4 @@ This function is optional.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-change-power-state">SRB_CHANGE_POWER_STATE</a>
-
+<a href="/windows-hardware/drivers/stream/srb-change-power-state">SRB_CHANGE_POWER_STATE</a>

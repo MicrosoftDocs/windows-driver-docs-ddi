@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_GET_SLOT_INFO)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field GetSlotInfo
 
@@ -113,13 +113,12 @@ For more information about these members, see
 
 #### - SlotInfoStatus
 
-A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_get_slot_info">WWAN_GET_SLOT_INFO</a> structure which contains the slot index to specify which slot's status the query request is for.
+A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_get_slot_info">WWAN_GET_SLOT_INFO</a> structure which contains the slot index to specify which slot's status the query request is for.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_get_slot_info">WWAN_GET_SLOT_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_get_slot_info">WWAN_GET_SLOT_INFO</a>

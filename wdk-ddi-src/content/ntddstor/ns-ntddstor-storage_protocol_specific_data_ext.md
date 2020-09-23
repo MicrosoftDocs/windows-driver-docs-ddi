@@ -48,17 +48,17 @@ product:
 
 ## -description
 
-The STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure describes the protocol-specific device data for [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property) and [IOCTL_STORAGE_SET_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_set_property) requests.
+The STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure describes the protocol-specific device data for [IOCTL_STORAGE_QUERY_PROPERTY](./ni-ntddstor-ioctl_storage_query_property.md) and [IOCTL_STORAGE_SET_PROPERTY](./ni-ntddstor-ioctl_storage_set_property.md) requests.
 
 ## -struct-fields
 
 ### -field ProtocolType
 
-The protocol type. Values for this member are defined in the [STORAGE_PROTOCOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_protocol_type) enumeration.
+The protocol type. Values for this member are defined in the [STORAGE_PROTOCOL_TYPE](./ne-ntddstor-_storage_protocol_type.md) enumeration.
 
 ### -field DataType
 
-The protocol data type. Data types are defined in the [STORAGE_PROTOCOL_NVME_DATA_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_protocol_nvme_data_type) and [STORAGE_PROTOCOL_ATA_DATA_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_protocol_ata_data_type) enumerations.
+The protocol data type. Data types are defined in the [STORAGE_PROTOCOL_NVME_DATA_TYPE](./ne-ntddstor-_storage_protocol_nvme_data_type.md) and [STORAGE_PROTOCOL_ATA_DATA_TYPE](./ne-ntddstor-_storage_protocol_ata_data_type.md) enumerations.
 
 ### -field ProtocolDataValue
 
@@ -104,9 +104,8 @@ Reserved for future use; do not use.
 
 ## -see-also
 
-[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
+[IOCTL_STORAGE_QUERY_PROPERTY](./ni-ntddstor-ioctl_storage_query_property.md)
 
-[IOCTL_STORAGE_SET_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_set_property)
+[IOCTL_STORAGE_SET_PROPERTY](./ni-ntddstor-ioctl_storage_set_property.md)
 
 [STORAGE_PROTOCOL_SPECIFIC_DATA](ns-ntddstor-_storage_protocol_specific_data.md)
-

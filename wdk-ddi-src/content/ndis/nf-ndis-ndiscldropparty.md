@@ -56,8 +56,8 @@ api_name:
 [in]
 Specifies the handle identifying the party to be dropped on the multipoint connection. The client
      obtained this handle from a preceding call to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> or 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> or 
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>.
 
 ### -param Buffer 
 
@@ -78,7 +78,7 @@ Specifies the size in bytes at
 When 
      <b>NdisClDropParty</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
      internal call to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_drop_party_complete">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_drop_party_complete">
      ProtocolClDropPartyComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClDropPartyComplete</i> function when this operation is completed.
 
@@ -90,11 +90,11 @@ Clients usually call
 <ul>
 <li>
 From the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">
       ProtocolClIncomingDropParty</a> function to remove the given party from a multipoint connection.
 
 This occurs when a party on a remote node closes its connection with 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>. When NDIS calls the
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>. When NDIS calls the
       local client's 
       <i>ProtocolClDropPartyComplete</i> function, it can release or reuse the context area at 
       <i>ProtocolPartyContext</i> in which the client was maintaining state about this party.
@@ -104,7 +104,7 @@ This occurs when a party on a remote node closes its connection with
 Before the client calls 
       <b>NdisClCloseCall</b> with the last party on a multipoint connection that the client originally set up
       with 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>.
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>.
 
 For such a client-initiated close of its own multipoint call, the client must call 
       <b>NdisClDropParty</b> one or more times to drop every other remaining party on the multipoint VC.
@@ -113,7 +113,7 @@ For such a client-initiated close of its own multipoint call, the client must ca
 </ul>
 A client's call to 
     <b>NdisClDropParty</b> causes NDIS to call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_drop_party">ProtocolCmDropParty</a> function of the
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_drop_party">ProtocolCmDropParty</a> function of the
     call manager that shares the same 
     <i>NdisVcHandle</i> to the multipoint VC. The call manager is responsible for notifying its remote-node
     peer that the party connection has been or should be closed, depending on which client initiated the
@@ -121,13 +121,13 @@ A client's call to
 
 As a general guideline, a client must call 
     <b>NdisClDropParty</b> as many times as it called 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> with a particular 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> with a particular 
     <i>NdisVcHandle</i> obtained from 
     <b>NdisClMakeCall</b> 
     before it closes its multipoint connection with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>. Since remote parties can
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>. Since remote parties can
     initiate closes of their connections, thereby causing calls to the local client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">
     ProtocolClIncomingDropParty</a> function, the local client must keep track of the number of active
     parties on its multipoint VCs in order to know how many calls it must make to 
     <b>NdisClDropParty</b> before it can call 
@@ -144,41 +144,40 @@ However, the client is not required to pass
     <b>NdisClDropParty</b>, followed by a final call with the last party handle to 
     <b>NdisClCloseCall</b> for the same multipoint VC. After the client has closed its multipoint call, it can
     release the VC that it originally created with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>.
 
 The caller of 
     <b>NdisClDropParty</b> should consider the input 
     <i>NdisPartyHandle</i> invalid as soon as it makes this call. If it stored this handle in the party
     context area it allocated, the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_drop_party_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_drop_party_complete">
     ProtocolClDropPartyComplete</a> function should reset the handle variable to <b>NULL</b> if it reinitializes
     its per-party context area for reuse when the party has been dropped.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_drop_party_complete">ProtocolClDropPartyComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_drop_party_complete">ProtocolClDropPartyComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_drop_party">ProtocolCmDropParty</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_drop_party">ProtocolCmDropParty</a>

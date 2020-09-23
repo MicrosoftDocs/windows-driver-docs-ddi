@@ -64,9 +64,8 @@ The number of bytes in the range. This member must be nonzero and an integer mul
 
 ## -remarks
 
-The first parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemdlforiospace">MmAllocateMdlForIoSpace</a> routine is a pointer to an array of <b>MM_PHYSICAL_ADDRESS_LIST</b> structures.
+The first parameter to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemdlforiospace">MmAllocateMdlForIoSpace</a> routine is a pointer to an array of <b>MM_PHYSICAL_ADDRESS_LIST</b> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemdlforiospace">MmAllocateMdlForIoSpace</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatemdlforiospace">MmAllocateMdlForIoSpace</a>

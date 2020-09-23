@@ -73,7 +73,7 @@ Pointer to a memory location that receives the address of the WIA item context.
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
@@ -83,5 +83,4 @@ This function should be used by minidrivers when they need to move from one appl
 
 ## -see-also
 
-[wiasGetRootItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetrootitem)
-
+[wiasGetRootItem](./nf-wiamdef-wiasgetrootitem.md)

@@ -68,5 +68,4 @@ The shared cache map of the cache manager.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545749">FsRtlChangeBackingFileObject</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlchangebackingfileobject">FsRtlChangeBackingFileObject</a>

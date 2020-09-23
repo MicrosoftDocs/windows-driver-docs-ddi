@@ -76,7 +76,6 @@ As a result, WDF automatically deletes the configuration object when the adapter
 
 ## -see-also
 
-[Accessing configuration information](https://docs.microsoft.com/windows-hardware/drivers/netcx/accessing-configuration-information)
+[Accessing configuration information](/windows-hardware/drivers/netcx/accessing-configuration-information)
 
 [NetConfigurationClose](../netconfiguration/nf-netconfiguration-netconfigurationclose.md)
-

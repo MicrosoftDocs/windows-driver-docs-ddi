@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FSCTL_OFFLOAD_WRITE_INPUT</b> structure contains the input for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a> control code request.
+The <b>FSCTL_OFFLOAD_WRITE_INPUT</b> structure contains the input for the <a href="/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a> control code request.
 
 ## -struct-fields
 
@@ -76,25 +76,24 @@ The size of this structure. Set this member to <b>sizeof</b>(FSCTL_OFFLOAD_WRITE
 
 ### -field Token
 
-A byte array that contains a token structure, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>, representing a file data range to be logically written. The contents of <b>Token</b>  must remain unmodified between offload operations.
+A byte array that contains a token structure, <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>, representing a file data range to be logically written. The contents of <b>Token</b>  must remain unmodified between offload operations.
 
 ## -remarks
 
-<b>CopyLength</b> can be zero. The value of <b>FileOffset</b> + <b>CopyLength</b> is bounded by both <b>MAXULONGLONG</b> and <b>MAXFILESIZE</b>. <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a> will return with <b>STATUS_INVALID_PARAMETER</b> if these conditions are not met.
+<b>CopyLength</b> can be zero. The value of <b>FileOffset</b> + <b>CopyLength</b> is bounded by both <b>MAXULONGLONG</b> and <b>MAXFILESIZE</b>. <a href="/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a> will return with <b>STATUS_INVALID_PARAMETER</b> if these conditions are not met.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a>
+<a href="/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a>
+<a href="/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_write_output">FSCTL_OFFLOAD_WRITE_OUTPUT</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_write_output">FSCTL_OFFLOAD_WRITE_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>

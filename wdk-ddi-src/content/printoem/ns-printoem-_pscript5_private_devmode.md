@@ -60,11 +60,11 @@ Reserved for system use.
 
 ### -field wSize
 
-The size, in bytes, of the private portion of Pscript5's [DEVMODEW](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
+The size, in bytes, of the private portion of Pscript5's [DEVMODEW](/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
 
 ## -remarks
 
-For information about the public and private sections of the DEVMODEW structure, see [The DEVMODEW Structure](https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure).
+For information about the public and private sections of the DEVMODEW structure, see [The DEVMODEW Structure](/windows-hardware/drivers/display/the-devmodew-structure).
 
 Printoem.h defines a macro that you can use to determine the size of the private portion of Pscript5's DEVMODEW structure.
 
@@ -90,9 +90,8 @@ To safely determine the address of the private portion of your plug-in's DEVMODE
 
     The preceding example starts with the address of the public DEVMODEW structure (*pdm*), adds the number of bytes of this structure (*pdm-*>**dmSize**), and then adds the size in bytes of the Pscript5 private DEVMODEW structure (**wSize**). A plug-in's private DEVMODEW data begins at this memory address. If there are multiple plug-ins chained together, the address returned by this example is that of the first plug-in's private DEVMODEW data. The second plug-in's private DEVMODEW data follows the first plug-in's private DEVMODEW data, the third plug-in's private DEVMODEW data follows that of the second plug-in's private DEVMODEW data, and so on. A plug-in developer who needs to determine the address of the *n*-th plug-in's private DEVMODEW data must know the sizes of the private DEVMODEW data for the first *n* - 1 plug-ins.
 
-1. Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid [OEM_DMEXTRAHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oem_dmextraheader) structure.
+1. Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid [OEM_DMEXTRAHEADER](./ns-printoem-_oem_dmextraheader.md) structure.
 
 ## -see-also
 
-[UNIDRV_PRIVATE_DEVMODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_unidrv_private_devmode)
-
+[UNIDRV_PRIVATE_DEVMODE](./ns-printoem-_unidrv_private_devmode.md)

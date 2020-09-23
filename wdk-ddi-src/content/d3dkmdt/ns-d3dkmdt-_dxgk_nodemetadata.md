@@ -84,7 +84,7 @@ Indicates whether the graphics engines of the node support the IoMmu model.
 
 This structure is also used to define the structure DXGKARG_GETNODEMETADATA, in the call to [DXGKDDI_GETNODEMETADATA](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md).
 
-For more information on how to use this structure, see [Enumerating GPU engine capabilities](https://docs.microsoft.com/windows-hardware/drivers/display/enumerating-gpu-nodes).
+For more information on how to use this structure, see [Enumerating GPU engine capabilities](/windows-hardware/drivers/display/enumerating-gpu-nodes).
 
 ## -see-also
 
@@ -93,4 +93,3 @@ For more information on how to use this structure, see [Enumerating GPU engine c
 [DXGK_NODEMETADATA_FLAGS](ns-d3dkmdt-_dxgk_nodemetadata_flags.md) 
 
 [DXGKDDI_GETNODEMETADATA](../d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata.md)
-

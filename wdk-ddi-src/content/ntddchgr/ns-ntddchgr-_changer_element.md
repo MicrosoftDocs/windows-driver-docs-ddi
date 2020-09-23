@@ -56,7 +56,7 @@ The CHANGER_ELEMENT structure contains a description of a changer element.
 
 ### -field ElementType
 
-Indicates the type of element. Can be one of the following values taken from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ne-ntddchgr-_element_type">ELEMENT_TYPE</a> enumeration.
+Indicates the type of element. Can be one of the following values taken from the <a href="/windows-hardware/drivers/ddi/ntddchgr/ne-ntddchgr-_element_type">ELEMENT_TYPE</a> enumeration.
 
 
 
@@ -126,13 +126,12 @@ On input, a changer miniclass driver must translate the zero-based address in <b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_list">CHANGER_ELEMENT_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_list">CHANGER_ELEMENT_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ne-ntddchgr-_element_type">ELEMENT_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ne-ntddchgr-_element_type">ELEMENT_TYPE</a>

@@ -24,30 +24,30 @@ landingContent:
       - linkListType: reference
         links:
           - text: KMDF and UMDF
-            url: /windows-hardware/drivers/ddi/_wdf/
+            url: ./_wdf/index.md
           - text: Core kernel
-            url: /windows-hardware/drivers/ddi/_kernel/
+            url: ./_kernel/index.md
   
   - title: System
     linkLists:
       - linkListType: reference
         links:
           - text: Display
-            url: /windows-hardware/drivers/ddi/_display/
+            url: ./_display/index.md
           - text: Battery
-            url: /windows-hardware/drivers/ddi/_battery/
+            url: ./_battery/index.md
           - text: ACPI
-            url: /windows-hardware/drivers/ddi/_acpi/
+            url: ./_acpi/index.md
           - text: Storage
-            url: /windows-hardware/drivers/ddi/_storage/
+            url: ./_storage/index.md
           - text: File system
-            url: /windows-hardware/drivers/ddi/_ifsk/
+            url: ./_ifsk/index.md
           - text: Hardware notifications
-            url: /windows-hardware/drivers/ddi/_gpiobtn/
+            url: ./_gpiobtn/index.md
           - text: Power metering
-            url: /windows-hardware/drivers/ddi/_powermeter/
+            url: ./_powermeter/index.md
           - text: Biometric
-            url: /windows-hardware/drivers/ddi/_biometric/
+            url: ./_biometric/index.md
 
 
   - title:  Devices
@@ -55,15 +55,15 @@ landingContent:
       - linkListType: reference
         links:
           - text: Print
-            url: /windows-hardware/drivers/ddi/_print/
+            url: ./_print/index.md
           - text: HID
-            url: /windows-hardware/drivers/ddi/_hid/
+            url: ./_hid/index.md
           - text: Sensors
-            url: /windows-hardware/drivers/ddi/_sensors/
+            url: ./_sensors/index.md
           - text: Point of service
-            url: /windows-hardware/drivers/ddi/_pos/
+            url: ./_pos/index.md
           - text: Image and Scan
-            url: /windows-hardware/drivers/ddi/_image/
+            url: ./_image/index.md
 
 
   - title: Connectivity
@@ -71,30 +71,30 @@ landingContent:
       - linkListType: reference
         links:
           - text: Network
-            url: /windows-hardware/drivers/ddi/_netvista/
+            url: ./_netvista/index.md
           - text: Bluetooth
-            url: /windows-hardware/drivers/ddi/_bltooth/
+            url: ./_bltooth/index.md
           - text: Smart Card Readers
-            url: /windows-hardware/drivers/ddi/_nfpdrivers/
+            url: ./_nfpdrivers/index.md
 
   - title: Streaming
     linkLists:
       - linkListType: reference
         links:
           - text: Audio
-            url: /windows-hardware/drivers/ddi/_audio/
+            url: ./_audio/index.md
           - text: Camera
-            url: /windows-hardware/drivers/ddi/_stream/
+            url: ./_stream/index.md
 
   - title: Buses and ports
     linkLists:
       - linkListType: reference
         links:
           - text: USB
-            url: /windows-hardware/drivers/ddi/_usbref/
+            url: ./_usbref/index.md
           - text: I2C, SPI
-            url: /windows-hardware/drivers/ddi/_spb/
+            url: ./_spb/index.md
           - text: PCI
-            url: /windows-hardware/drivers/ddi/_pci/
+            url: ./_pci/index.md
           - text: GPIO
-            url: /windows-hardware/drivers/ddi/_gpio/
+            url: ./_gpio/index.md

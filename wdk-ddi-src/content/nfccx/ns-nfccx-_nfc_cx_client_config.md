@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The NFC_CX_CLIENT_CONFIG structure is an input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxdeviceinitconfig">NfcCxDeviceInitConfig</a>.
+The NFC_CX_CLIENT_CONFIG structure is an input parameter to <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxdeviceinitconfig">NfcCxDeviceInitConfig</a>.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Size of this structure in bytes.
 
 ### -field IsPowerPolicyOwner
 
- A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed enumerator.
+ A <a href="/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed enumerator.
 
 ### -field PowerIdleTimeout
 
@@ -68,15 +68,15 @@ IdleTimeout value, in milliseconds. Default is 1 second.
 
 ### -field PowerIdleType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_idle_timeout_type">WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</a>-typed enumerator.
+A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_idle_timeout_type">WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</a>-typed enumerator.
 
 ### -field BusType
 
- An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_transport_type">NFC_CX_TRANSPORT_TYPE</a>-typed enumerator.
+ An <a href="/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_transport_type">NFC_CX_TRANSPORT_TYPE</a>-typed enumerator.
 
 ### -field DriverFlags
 
- Combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_driver_flags">NFC_CX_DRIVER_FLAGS</a> values.
+ Combination of <a href="/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_driver_flags">NFC_CX_DRIVER_FLAGS</a> values.
 
 ### -field DeviceMode
 
@@ -84,17 +84,16 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-
 
 ### -field EvtNfcCxWriteNciPacket
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_write_nci_packet">EvtNfcCxWriteNciPacket</a> callback.
+Pointer to an <a href="/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_write_nci_packet">EvtNfcCxWriteNciPacket</a> callback.
 
 ### -field EvtNfcCxDeviceIoControl
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_device_io_control">EvtNfcCxDeviceIoControl</a> callback.
+Pointer to an <a href="/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_device_io_control">EvtNfcCxDeviceIoControl</a> callback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

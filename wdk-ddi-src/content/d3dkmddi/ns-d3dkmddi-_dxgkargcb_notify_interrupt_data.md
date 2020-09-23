@@ -62,7 +62,7 @@ Structure used when **InterruptType** is **DXGK_INTERRUPT_DMA_COMPLETED**.
 
 ### -field DmaCompleted.SubmissionFenceId
 
-[in] The DMA buffer fence identifier of the completed command. This identifier was assigned during a call to the driver's [**DXGKDDI_SUBMITCOMMAND**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand) function for the latest completed DMA buffer.
+[in] The DMA buffer fence identifier of the completed command. This identifier was assigned during a call to the driver's [**DXGKDDI_SUBMITCOMMAND**](./nc-d3dkmddi-dxgkddi_submitcommand.md) function for the latest completed DMA buffer.
 
 ### -field DmaCompleted.NodeOrdinal
 
@@ -158,7 +158,7 @@ The number of overlay planes that are available to display. Supported starting w
 
 ### -field DisplayOnlyPresentProgress
 
-[in] A [**DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_present_displayonly_progress) structure that provides the progress of a kernel mode display-only driver's (KMDOD) present operation. Used when **InterruptType** is **DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS**. Supported starting with Windows 8.
+[in] A [**DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS**](./ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md) structure that provides the progress of a kernel mode display-only driver's (KMDOD) present operation. Used when **InterruptType** is **DXGK_INTERRUPT_DISPLAYONLY_PRESENT_PROGRESS**. Supported starting with Windows 8.
 
 ### -field MiracastEncodeChunkCompleted
 
@@ -560,7 +560,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 ## -remarks
 
-A miniport driver fills in **DXGKARGCB_NOTIFY_INTERRUPT_DATA**, and then uses the [**DXGKCB_SYNCHRONIZE_EXECUTION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_synchronize_execution) callback to sync with the interrupt. The **SynchronizeRoutine** parameter of the **DXGKCB_SYNCHRONIZE_EXECUTION** callback points to a miniport-implemented function that gets called by the OS when appropriate, and then the driver fills out the parameter info before calling back into the OS with the [**DXGKCB_NOTIFY_INTERRUPT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt) callback. The OS then handles the interrupt, with the scheduler using information in the DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 struct.
+A miniport driver fills in **DXGKARGCB_NOTIFY_INTERRUPT_DATA**, and then uses the [**DXGKCB_SYNCHRONIZE_EXECUTION**](../dispmprt/nc-dispmprt-dxgkcb_synchronize_execution.md) callback to sync with the interrupt. The **SynchronizeRoutine** parameter of the **DXGKCB_SYNCHRONIZE_EXECUTION** callback points to a miniport-implemented function that gets called by the OS when appropriate, and then the driver fills out the parameter info before calling back into the OS with the [**DXGKCB_NOTIFY_INTERRUPT**](./nc-d3dkmddi-dxgkcb_notify_interrupt.md) callback. The OS then handles the interrupt, with the scheduler using information in the DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 struct.
 
 Depending on the value in the **InterruptType** member, the display miniport driver should set the appropriate union member in this structure. For example, for the end of a direct memory access (DMA) buffer fence, which corresponds to a value of DXGK_INTERRUPT_DMA_COMPLETED in **InterruptType**, the driver must set a value in the **SubmissionFenceId** member of the **DmaCompleted** member. This value should be the DMA buffer fence identifier, which the driver's [**DxgkDdiSubmitCommand**](..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md) function assigned to the just completed DMA buffer.
 
@@ -583,4 +583,3 @@ Depending on the value in the **InterruptType** member, the display miniport dri
 [**DXGK_PAGE_FAULT_FLAGS**](..\d3dkmdt\ne-d3dkmdt-_dxgk_page_fault_flags.md)
 
 [**DXGK_MIRACAST_CHUNK_INFO**](..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_info.md)
-

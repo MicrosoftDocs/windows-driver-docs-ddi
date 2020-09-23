@@ -48,10 +48,10 @@ api_name:
 
 ## -description
 
-Provides additional information for [*DxgkDdi_ControlInterrupt2*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2) or [**DxgkDdi_ControlInterrupt3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt3) when VSYNC is not being utilized.
+Provides additional information for [*DxgkDdi_ControlInterrupt2*](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md) or [**DxgkDdi_ControlInterrupt3**](./nc-d3dkmddi-dxgkddi_controlinterrupt3.md) when VSYNC is not being utilized.
 
 > [!NOTE]
-> This enumeration uses Enable as 0 and Disable as 1 in the bivalent state, which is the opposite of the Boolean value previously used in [*DxgkDdi_ControlInterrupt*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt).
+> This enumeration uses Enable as 0 and Disable as 1 in the bivalent state, which is the opposite of the Boolean value previously used in [*DxgkDdi_ControlInterrupt*](./nc-d3dkmddi-dxgkddi_controlinterrupt.md).
 
 ## -enum-fields
 
@@ -62,4 +62,3 @@ The interrupt is enabled.
 ### -field DXGK_INTERRUPT_DISABLE
 
 The interrupt is disabled.
-

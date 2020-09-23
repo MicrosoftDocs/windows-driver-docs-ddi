@@ -68,13 +68,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-A KMDF driver can pass the returned WDM handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ZwXxx routines</a> that accept a WDM handle as input.
+A KMDF driver can pass the returned WDM handle to the <a href="/windows-hardware/drivers/ddi/index">ZwXxx routines</a> that accept a WDM handle as input.
 
-A UMDF driver can pass the returned handle to APIs that require an HKEY, such as <a href="https://docs.microsoft.com/windows/win32/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>.
+A UMDF driver can pass the returned handle to APIs that require an HKEY, such as <a href="/windows/win32/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>.
 
-The handle that the <b>WdfRegistryWdmGetHandle</b> method returns is valid until the registry-key object is deleted. If the driver provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> function for the registry-key object, the pointer is valid until the callback function returns.
+The handle that the <b>WdfRegistryWdmGetHandle</b> method returns is valid until the registry-key object is deleted. If the driver provides an <a href="/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> function for the registry-key object, the pointer is valid until the callback function returns.
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples
@@ -86,4 +86,3 @@ HANDLE hKey;
 
 hKey = WdfRegistryWdmGetHandle(Key);
 ```
-

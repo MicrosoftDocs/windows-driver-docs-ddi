@@ -74,9 +74,8 @@ Contains the number of hidden sectors in the partition.
 
 ## -see-also
 
-[IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable)
+[IoReadPartitionTable](../ntddk/nf-ntddk-ioreadpartitiontable.md)
 
 [PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md)
 
 [PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_gpt.md)
-

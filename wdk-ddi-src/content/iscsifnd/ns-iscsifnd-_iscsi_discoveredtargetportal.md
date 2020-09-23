@@ -68,17 +68,16 @@ A wide character string that indicates the portal's symbolic name.
 
 ## -remarks
 
-The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTargetPortal structure when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a> in <i>Discover.mof</i>.
+The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTargetPortal structure when it compiles the <a href="/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a> in <i>Discover.mof</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a>
+<a href="/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportal2">ISCSI_DiscoveredTargetPortal2</a>
+<a href="/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportal2">ISCSI_DiscoveredTargetPortal2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>

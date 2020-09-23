@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The Remove_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeport">RemovePort</a> WMI method.
+The Remove_IN structure is used by a WMI client to deliver input parameter data to the <a href="/windows-hardware/drivers/storage/removeport">RemovePort</a> WMI method.
 
 ## -struct-fields
 
@@ -60,9 +60,8 @@ Contains a worldwide name that indicates the port that should be removed from th
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the RemovePort_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>.
+The WMI tool suite generates a declaration of the RemovePort_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeport">RemovePort</a>
-
+<a href="/windows-hardware/drivers/storage/removeport">RemovePort</a>

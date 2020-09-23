@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-Determines whether the media has changed on a removable-media device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_check_verify2">IOCTL_STORAGE_CHECK_VERIFY2</a> request instead. 
+Determines whether the media has changed on a removable-media device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_check_verify2">IOCTL_STORAGE_CHECK_VERIFY2</a> request instead. 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/supporting-removable-media">Supporting Removable Media</a>.
+For more information, see <a href="/windows-hardware/drivers/kernel/supporting-removable-media">Supporting Removable Media</a>.
 
 ## -ioctlparameters
 
@@ -122,5 +122,4 @@ For a tape driver, the <b>Information</b> field is set to zero and the <b>Status
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_check_verify2">IOCTL_STORAGE_CHECK_VERIFY2</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_check_verify2">IOCTL_STORAGE_CHECK_VERIFY2</a>

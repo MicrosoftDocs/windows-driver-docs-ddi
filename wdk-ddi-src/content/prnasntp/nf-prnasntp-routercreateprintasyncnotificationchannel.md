@@ -89,5 +89,4 @@ A pointer to a variable that receives the address of the interface object that r
 
 ## -remarks
 
-In some cases, you must release the channel that you created with the <code>RouterCreatePrintAsyncNotificationChannel</code> function by calling <b>Release</b> on IPrintAsyncNotifyChannel. For information about when to release a channel, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/notification-channel">Notification Channel</a>.
-
+In some cases, you must release the channel that you created with the <code>RouterCreatePrintAsyncNotificationChannel</code> function by calling <b>Release</b> on IPrintAsyncNotifyChannel. For information about when to release a channel, see <a href="/windows-hardware/drivers/print/notification-channel">Notification Channel</a>.

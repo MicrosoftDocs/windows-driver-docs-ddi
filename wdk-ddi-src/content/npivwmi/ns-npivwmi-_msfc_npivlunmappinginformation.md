@@ -76,5 +76,4 @@ The LUN mapped to the virtual port.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-npivlunmappinginformation-wmi-class">MSFC_NPIVLUNMappingInformation WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msfc-npivlunmappinginformation-wmi-class">MSFC_NPIVLUNMappingInformation WMI Class</a>

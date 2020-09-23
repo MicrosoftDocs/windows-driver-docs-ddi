@@ -94,9 +94,8 @@ The <i>pVc</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcebuildvc">RxCeBuildVC</a>
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcebuildvc">RxCeBuildVC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownvc">RxCeTearDownVC</a>
-
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownvc">RxCeTearDownVC</a>

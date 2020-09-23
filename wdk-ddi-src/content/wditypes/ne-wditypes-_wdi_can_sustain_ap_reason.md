@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the port is ready to receive a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-task-start-ap">OID_WDI_TASK_START_AP</a> request.
+The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the port is ready to receive a <a href="/windows-hardware/drivers/network/oid-wdi-task-start-ap">OID_WDI_TASK_START_AP</a> request.
 
 ## -enum-fields
 
@@ -59,4 +59,3 @@ The start value of possible IHV-specified reasons.
 ### -field WDI_CAN_SUSTAIN_AP_REASON_IHV_END
 
 The end value of possible IHV-specified reasons.
-

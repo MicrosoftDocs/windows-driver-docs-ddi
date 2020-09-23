@@ -55,5 +55,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflongnumbers2">IWDTFLongNumbers2</a>
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtflongnumbers2">IWDTFLongNumbers2</a>

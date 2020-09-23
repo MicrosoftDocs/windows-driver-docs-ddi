@@ -53,7 +53,7 @@ The <b>IoReportResourceForDetection</b> routine claims hardware resources in the
 ### -param DriverObject 
 
 [in]
-Pointer to the driver object that was input to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine.
+Pointer to the driver object that was input to the driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine.
 
 ### -param DriverList 
 
@@ -122,15 +122,15 @@ The <i>DeviceList</i> or <i>DriverList</i> is invalid.
 
 This routine is for drivers that detect earlier hardware which cannot be enumerated by Plug and Play (PnP).
 
-If a driver supports only PnP hardware, it does no detection and therefore does not call <b>IoReportResourceForDetection</b>. The PnP system enumerates each PnP device, assigns resources to the device, and passes those resources to the device's drivers in an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request.
+If a driver supports only PnP hardware, it does no detection and therefore does not call <b>IoReportResourceForDetection</b>. The PnP system enumerates each PnP device, assigns resources to the device, and passes those resources to the device's drivers in an <a href="/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request.
 
 If a PnP driver supports legacy hardware, however, it must call <b>IoReportResourceForDetection</b> to claim hardware resources before it attempts to detect the device.
 
-Callers of this routine specify a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a> in either a <i>DeviceList</i> or a <i>DriverList</i> that is allocated from paged memory and that consists of raw, untranslated resources. The caller is responsible for freeing the memory. 
+Callers of this routine specify a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a> in either a <i>DeviceList</i> or a <i>DriverList</i> that is allocated from paged memory and that consists of raw, untranslated resources. The caller is responsible for freeing the memory. 
 
 A driver that can control more than one legacy card at the same time should claim the resources for each device against the device object for the respective device (using the <i>DeviceObject</i>, <i>DeviceList</i>, and <i>DeviceListSize</i> parameters). Such a driver must not claim these resources against their driver object.
 
-A <b>CM_RESOURCE_LIST</b> contains two variable-sized arrays. Each array has a default size of one. If either array has more than one element, the caller must allocate memory dynamically to contain the additional elements. Only one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> can be part of each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a> in the list, except for the last full resource descriptor in the <b>CM_RESOURCE_LIST</b>, which can have additional partial resource descriptors in its array.
+A <b>CM_RESOURCE_LIST</b> contains two variable-sized arrays. Each array has a default size of one. If either array has more than one element, the caller must allocate memory dynamically to contain the additional elements. Only one <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> can be part of each <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a> in the list, except for the last full resource descriptor in the <b>CM_RESOURCE_LIST</b>, which can have additional partial resource descriptors in its array.
 
 <b>IoReportResourceForDetection</b>, with the help of the PnP manager, determines whether the resources being requested conflict with resources that have already been claimed.
 
@@ -138,7 +138,7 @@ If a conflict is detected, this routine sets the BOOLEAN at <i>ConflictDetected<
 
 If no conflict is detected, this routine claims the resources, sets the BOOLEAN at <i>ConflictDetected</i> to <b>FALSE</b>, and returns STATUS_SUCCESS.
 
-If this routine succeeds and the driver detects a legacy device, the driver reports the device to the PnP manager by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportdetecteddevice">IoReportDetectedDevice</a>. In that call, the driver sets <i>ResourceAssigned</i> to <b>TRUE</b> so the PnP manager does not attempt to claim the resources again.
+If this routine succeeds and the driver detects a legacy device, the driver reports the device to the PnP manager by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportdetecteddevice">IoReportDetectedDevice</a>. In that call, the driver sets <i>ResourceAssigned</i> to <b>TRUE</b> so the PnP manager does not attempt to claim the resources again.
 
 When a driver no longer requires the resources claimed by a call to this routine, the driver calls this routine again with a <i>DriverList</i> or <i>DeviceList</i> with a <b>Count</b> of zero.
 
@@ -150,9 +150,8 @@ Callers of <b>IoReportResourceForDetection</b> must be running at IRQL = PASSIVE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list">CM_RESOURCE_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportdetecteddevice">IoReportDetectedDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreportdetecteddevice">IoReportDetectedDevice</a>

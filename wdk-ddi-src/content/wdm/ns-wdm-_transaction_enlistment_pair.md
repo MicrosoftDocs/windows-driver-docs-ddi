@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure contains information about an enlistment that is associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-objects">transaction object</a>.
+The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure contains information about an enlistment that is associated with a <a href="/windows-hardware/drivers/kernel/transaction-objects">transaction object</a>.
 
 ## -struct-fields
 
@@ -64,13 +64,12 @@ A GUID that KTM has assigned to the resource manager that created the enlistment
 
 ## -remarks
 
-The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure is used as a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_enlistments_information">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
+The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure is used as a member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_enlistments_information">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_enlistments_information">TRANSACTION_ENLISTMENTS_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_enlistments_information">TRANSACTION_ENLISTMENTS_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a>

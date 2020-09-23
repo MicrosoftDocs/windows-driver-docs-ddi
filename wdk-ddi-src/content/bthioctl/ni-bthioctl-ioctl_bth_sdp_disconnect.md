@@ -54,13 +54,13 @@ The IOCTL_BTH_SDP_DISCONNECT request closes a connection to a remote SDP server.
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains an 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a> structure that
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a> structure that
       specifies the connection handle to the remote SDP connection to terminate.
 
 ### -input-buffer-length
 
 Length of an 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a> structure.
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a> structure.
 
 ### -output-buffer
 
@@ -122,15 +122,14 @@ The connection handle passed in the input buffer is invalid.
 ## -remarks
 
 Callers of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a> must issue an
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a> must issue an
     IOCTL_BTH_SDP_DISCONNECT IOCTL when the SDP connection is no longer needed. After
     IOCTL_BTH_SDP_DISCONNECT is called, the specified SDP handle is no longer valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_disconnect">BTH_SDP_DISCONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>

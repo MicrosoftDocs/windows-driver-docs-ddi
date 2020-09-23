@@ -56,7 +56,7 @@ STREAM_DATA_INTERSECT_INFO describes the parameters of a data intersection opera
 
 ### -field StreamNumber
 
-Specifies the stream number. This corresponds to the offset of the stream within the minidriver's array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a> structures. The possible data formats depend on the stream type.
+Specifies the stream number. This corresponds to the offset of the stream within the minidriver's array of <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a> structures. The possible data formats depend on the stream type.
 
 ### -field DataRange
 
@@ -72,5 +72,4 @@ Specifies the size in bytes of the <b>DataFormatBuffer</b>.
 
 ## -remarks
 
-The class driver passes this data structure when it submits a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-data-intersection">SRB_GET_DATA_INTERSECTION</a> request to the minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a>.
-
+The class driver passes this data structure when it submits a <a href="/windows-hardware/drivers/stream/srb-get-data-intersection">SRB_GET_DATA_INTERSECTION</a> request to the minidriver's <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a>.

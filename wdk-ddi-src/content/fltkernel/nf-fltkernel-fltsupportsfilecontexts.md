@@ -65,7 +65,7 @@ Minifilter drivers call **FltSupportsFileContexts** to determine whether the und
 
 Note that a file system might support file contexts for some types of files but not for others. For example, NTFS and FAT do not support file contexts for paging files.
 
-For more information about contexts, see [Managing Contexts in a Minifilter Driver](https://docs.microsoft.com/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
+For more information about contexts, see [Managing Contexts in a Minifilter Driver](/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
 ## -see-also
 
@@ -82,4 +82,3 @@ For more information about contexts, see [Managing Contexts in a Minifilter Driv
 [FltSetFileContext](nf-fltkernel-fltsetfilecontext.md)
 
 [FltSupportsFileContextsEx](nf-fltkernel-fltsupportsfilecontextsex.md)
-

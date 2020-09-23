@@ -52,7 +52,7 @@ Moves the heads to the specified MSF on the media.  Obsolete, beginning with Win
 
 ### -input-buffer
 
-The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_seek_audio_msf">CDROM_SEEK_AUDIO_MSF</a> specification.
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_seek_audio_msf">CDROM_SEEK_AUDIO_MSF</a> specification.
 
 ### -input-buffer-length
 
@@ -82,5 +82,4 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_seek_audio_msf">CDROM_SEEK_AUDIO_MSF</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_seek_audio_msf">CDROM_SEEK_AUDIO_MSF</a>

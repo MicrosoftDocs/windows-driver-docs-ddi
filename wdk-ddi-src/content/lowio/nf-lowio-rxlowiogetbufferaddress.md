@@ -67,13 +67,12 @@ A pointer to the RX_CONTEXT structure for this request.
 
 ## -see-also
 
-[MmGetSystemAddressForMdlSafe](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[MmGetSystemAddressForMdlSafe](/windows-hardware/drivers/kernel/mm-bad-pointer)
 
-[RX_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context)
+[RX_CONTEXT](../rxcontx/ns-rxcontx-_rx_context.md)
 
-[RxLowIoCompletion](https://docs.microsoft.com/windows-hardware/drivers/ddi/lowio/nf-lowio-rxlowiocompletion)
+[RxLowIoCompletion](./nf-lowio-rxlowiocompletion.md)
 
-[RxMapSystemBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxmapsystembuffer)
+[RxMapSystemBuffer](../rxprocs/nf-rxprocs-rxmapsystembuffer.md)
 
-[RxNewMapUserBuffer](https://docs.microsoft.com/windows-hardware/drivers/ifs/rxnewmapuserbuffer)
-
+[RxNewMapUserBuffer](/windows-hardware/drivers/ifs/rxnewmapuserbuffer)

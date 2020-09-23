@@ -53,7 +53,7 @@ The <b>IOCTL_NFCSE_SET_CARD_EMULATION_MODE</b>
 
 ### -input-buffer
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_set_card_emulation_mode_info"> SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO</a> structure.
+<a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_set_card_emulation_mode_info"> SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO</a> structure.
 
 ### -input-buffer-length
 
@@ -95,4 +95,3 @@ The following are requirements that the driver must adhere to. <ul>
 <li>When the SEManage opened file handle is closed, the driver must set the card emulation mode settings of all secure elements to be EmulationOff except when the last set card emulation mode state is EmulationOnPowerIndependent. If the last set card emulation mode state is EmulationOnPowerIndependent, the driver must remain with the card emulation mode setting to On with the PbF option for the specific secure elements.</li>
 <li>The driver must grant exclusive access to the client to manage card emulation mode. Subsequent calls to open a file handle using relative filename SEManage would fail with STATUS_ACCESS_DENIED until the client with exclusive access closes its file handle.</li>
 </ul>
-

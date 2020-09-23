@@ -69,7 +69,7 @@ The number of mip levels the resource has.
 
 ### -field Format
 
-Specifies how the resource's data is to be interpreted, using a [**DXGI_FORMAT**](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration value.
+Specifies how the resource's data is to be interpreted, using a [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration value.
 
 ### -field SampleDesc
 
@@ -98,4 +98,3 @@ A [**D3D12DDI_MIP_REGION_0075**](ns-d3d12umddi-d3d12ddi_mip_region_0075.md) stru
 ## -remarks
 
 ## -see-also
-

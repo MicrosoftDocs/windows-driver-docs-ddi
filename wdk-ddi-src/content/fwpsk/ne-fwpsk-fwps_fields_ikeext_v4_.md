@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_IKEEXT_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IKEEXT_V4 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 ## -enum-fields
 
@@ -64,7 +64,7 @@ The remote IP address.
 
 ### -field FWPS_FIELD_IKEEXT_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the local IP address.
+The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the local IP address.
 
 ### -field FWPS_FIELD_IKEEXT_V4_PROFILE_ID
 
@@ -89,5 +89,4 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
-
+<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>

@@ -57,5 +57,4 @@ The file in question.
 
 ## -returns
 
-If <b>null</b>, the file is not in a container context. Otherwise, a non-null value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_foext_silo_parameters">IO_FOEXT_SILO_PARAMETERS</a> indicates that the file is within a Container context.
-
+If <b>null</b>, the file is not in a container context. Otherwise, a non-null value of type <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_foext_silo_parameters">IO_FOEXT_SILO_PARAMETERS</a> indicates that the file is within a Container context.

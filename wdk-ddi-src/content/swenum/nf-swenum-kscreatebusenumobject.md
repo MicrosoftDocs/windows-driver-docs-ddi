@@ -98,5 +98,4 @@ The demand-load bus enumerator object extends a Plug and Play device by servicin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksservicebusenumpnprequest">KsServiceBusEnumPnpRequest</a>
-
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksservicebusenumpnprequest">KsServiceBusEnumPnpRequest</a>

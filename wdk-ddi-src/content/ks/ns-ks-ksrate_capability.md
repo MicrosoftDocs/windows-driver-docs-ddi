@@ -48,15 +48,14 @@ api_name:
 
 ## -description
 
-The client uses the KSRATE_CAPABILITY structure in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-stream-ratecapability">KSPROPERTY_STREAM_RATECAPABILITY</a> property request.
+The client uses the KSRATE_CAPABILITY structure in a <a href="/windows-hardware/drivers/stream/ksproperty-stream-ratecapability">KSPROPERTY_STREAM_RATECAPABILITY</a> property request.
 
 ## -struct-fields
 
 ### -field Property
 
-A structure of type <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> that specifies the property identifier.
+A structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> that specifies the property identifier.
 
 ### -field Rate
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksrate">KSRATE</a> that specifies the requested rate.
-
+A structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksrate">KSRATE</a> that specifies the requested rate.

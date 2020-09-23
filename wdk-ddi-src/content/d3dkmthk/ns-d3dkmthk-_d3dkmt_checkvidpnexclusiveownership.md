@@ -62,5 +62,4 @@ The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the parameters to de
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcheckvidpnexclusiveownership">D3DKMTCheckVidPnExclusiveOwnership</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcheckvidpnexclusiveownership">D3DKMTCheckVidPnExclusiveOwnership</a>

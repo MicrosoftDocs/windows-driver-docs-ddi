@@ -70,7 +70,7 @@ Client drivers must call [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT**](../neta
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_bitmap_capabilities.md)
 
@@ -81,4 +81,3 @@ Client drivers must call [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT**](../neta
 [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)
-

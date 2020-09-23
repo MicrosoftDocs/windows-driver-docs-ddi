@@ -56,7 +56,7 @@ The WDF_DEVICE_POWER_NOTIFICATION_DATA structure describes a state change within
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
+A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
 
 ### -field Data
 
@@ -64,33 +64,32 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-
 
 ### -field Data.EnterState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
 
 ### -field Data.EnterState.NewState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's next state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's next state.
 
 ### -field Data.PostProcessState
 
 ### -field Data.PostProcessState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
 
 ### -field Data.LeaveState
 
 ### -field Data.LeaveState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's current state.
 
 ### -field Data.LeaveState.NewState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's next state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_state">WDF_DEVICE_POWER_STATE</a>-typed enumerator identifies the state machine's next state.
 
 ## -remarks
 
-The <b>WDF_DEVICE_POWER_NOTIFICATION_DATA</b> structure is an input argument to a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_power_state_change_notification">EvtDevicePowerStateChange</a> callback function.
+The <b>WDF_DEVICE_POWER_NOTIFICATION_DATA</b> structure is an input argument to a driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_power_state_change_notification">EvtDevicePowerStateChange</a> callback function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitregisterpowerstatechangecallback">WdfDeviceInitRegisterPowerStateChangeCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitregisterpowerstatechangecallback">WdfDeviceInitRegisterPowerStateChangeCallback</a>

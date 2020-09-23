@@ -54,11 +54,11 @@ Clients can request the function table of a given allocator by sending a KSSTREA
 
 ### -field AllocateFrame
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_allocateframe">KStrAllocateFrame</a> routine.
+Points to a <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_allocateframe">KStrAllocateFrame</a> routine.
 
 ### -field FreeFrame
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_freeframe">KStrFreeFrame</a> routine.
+Points to a <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_freeframe">KStrFreeFrame</a> routine.
 
 ## -remarks
 
@@ -70,13 +70,12 @@ This property is only accessible from kernel-mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-streamallocator-functiontable">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-streamallocator-functiontable">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_allocateframe">KStrAllocateFrame</a>
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_allocateframe">KStrAllocateFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_freeframe">KStrFreeFrame</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnallocator_freeframe">KStrFreeFrame</a>

@@ -50,7 +50,7 @@ dev_langs:
 
 ## -description
 
-The **StorPortMarkDeviceFailed** routine marks a device with failed status. See also [**StorPortMarkDeviceFailedEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportmarkdevicefailedex).
+The **StorPortMarkDeviceFailed** routine marks a device with failed status. See also [**StorPortMarkDeviceFailedEx**](./nf-storport-storportmarkdevicefailedex.md).
 
 ## -parameters
 
@@ -78,7 +78,6 @@ The PnP manager will send an IRP to query the failed device's PnP state. If *Fla
 
 ## -see-also
 
-[**IoInvalidateDeviceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinvalidatedevicestate)
+[**IoInvalidateDeviceState**](../wdm/nf-wdm-ioinvalidatedevicestate.md)
 
-[**StorPortMarkDeviceFailedEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportmarkdevicefailedex)
-
+[**StorPortMarkDeviceFailedEx**](./nf-storport-storportmarkdevicefailedex.md)

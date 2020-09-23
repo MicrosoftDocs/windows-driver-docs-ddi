@@ -73,16 +73,15 @@ The major version number for the LMP that is used by the local radio.
 ## -remarks
 
 The BTH_RADIO_INFO structure is returned as part of the output buffer of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a>. The local
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a>. The local
     radio information is returned in the 
     <b>radioInfo</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure.
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a>

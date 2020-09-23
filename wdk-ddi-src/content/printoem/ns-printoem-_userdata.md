@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The USERDATA structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/">Unidrv</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/">Pscript</a> to specify additional information about printer features. A USERDATA structure pointer is supplied as the <b>UserData</b> member for each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure.
+The USERDATA structure is used by <a href="/windows-hardware/drivers/">Unidrv</a> and <a href="/windows-hardware/drivers/">Pscript</a> to specify additional information about printer features. A USERDATA structure pointer is supplied as the <b>UserData</b> member for each <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ Pointer to a nonlocalized text string identifying a printer feature.
 ### -field dwReserved
 
 Reserved.
-

@@ -58,7 +58,7 @@ Pointer to the miniport driver's device extension.
 ### -param CallbackRoutine 
 
 [in]
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_dpc_routine">HwVidDpcRoutine</a> to be called when the DPC is scheduled. The callback routine must be nonpaged.
+Pointer to the miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_dpc_routine">HwVidDpcRoutine</a> to be called when the DPC is scheduled. The callback routine must be nonpaged.
 
 ### -param Context 
 
@@ -75,5 +75,4 @@ The deferred procedure is run when the IRQL on the current processor drops below
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_dpc_routine">HwVidDpcRoutine</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_dpc_routine">HwVidDpcRoutine</a>

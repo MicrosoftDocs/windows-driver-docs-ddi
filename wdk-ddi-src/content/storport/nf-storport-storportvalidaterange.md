@@ -59,7 +59,7 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 ### -param BusType 
 
 [in]
-Contains a value of type [**STORAGE_BUS_TYPE**](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)) that indicates the bus type.
+Contains a value of type [**STORAGE_BUS_TYPE**](/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)) that indicates the bus type.
 
 ### -param SystemIoBusNumber
 
@@ -101,4 +101,3 @@ The **STOR_PHYSICAL_ADDRESS** type is an operating system-independent data type 
 ## -see-also
 
 [**ScsiPortValidateRange**](../srb/nf-srb-scsiportvalidaterange.md)
-

@@ -48,7 +48,7 @@ product:
 
 ## -description
 
-Called by the  Microsoft DirectX graphics kernel subsystem to calibrate the GPU time stamps in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a> history buffer with the CPU clock time.
+Called by the  Microsoft DirectX graphics kernel subsystem to calibrate the GPU time stamps in the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a> history buffer with the CPU clock time.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ Called by the  Microsoft DirectX graphics kernel subsystem to calibrate the GPU 
 
 A handle to the adapter object for the GPU for which timing calibration info is to be obtained. 
 
-The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
+The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 ### -param NodeOrdinal
 
@@ -68,7 +68,7 @@ The zero-based index of the engine, within the node that <i>NodeOrdinal</i> spec
 
 ### -param pClockCalibration
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/">DXGKARG_CALIBRATEGPUCLOCK</a> structure that provides clock counter info from the GPU and CPU.
+A pointer to a <a href="/windows-hardware/drivers/display/">DXGKARG_CALIBRATEGPUCLOCK</a> structure that provides clock counter info from the GPU and CPU.
 
 ## -returns
 
@@ -79,19 +79,18 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the e
 The DirectX graphics kernel subsystem uses the returned info in the <i>pClockCalibration</i> parameter to estimate the drift between the GPU and CPU clocks.
 
 To minimize calibration inaccuracies, the driver should compute the values for the <b>GpuClockCounter</b>
-  and <b>CpuClockCounter</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/">DXGKARG_CALIBRATEGPUCLOCK</a> structure as nearly simultaneously as possible.
+  and <b>CpuClockCounter</b> members of the <a href="/windows-hardware/drivers/display/">DXGKARG_CALIBRATEGPUCLOCK</a> structure as nearly simultaneously as possible.
 
 The DirectX graphics kernel subsystem calls this function often enough, typically at least once every 30ms, to minimize the accumulated drift between the GPU and CPU clocks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/">DXGKARG_CALIBRATEGPUCLOCK</a>
+<a href="/windows-hardware/drivers/display/">DXGKARG_CALIBRATEGPUCLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>

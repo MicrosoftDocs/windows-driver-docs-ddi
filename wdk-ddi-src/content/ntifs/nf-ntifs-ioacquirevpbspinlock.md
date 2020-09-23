@@ -53,7 +53,7 @@ The <b>IoAcquireVpbSpinLock</b> routine acquires the Volume Parameter Block (VPB
 ### -param Irql 
 
 [out]
-Pointer to a caller-allocated variable in which to save the current IRQL for a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a>. Usually the <i>Irql</i> is saved on the stack as a local variable.
+Pointer to a caller-allocated variable in which to save the current IRQL for a subsequent call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a>. Usually the <i>Irql</i> is saved on the stack as a local variable.
 
 ## -remarks
 
@@ -77,13 +77,12 @@ ReferenceCount
 
 </li>
 </ul>
-Every successful call to <b>IoAcquireVpbSpinLock</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a>. To prevent deadlock, the holder of the VPB spin lock must release it immediately when it is no longer needed. 
+Every successful call to <b>IoAcquireVpbSpinLock</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a>. To prevent deadlock, the holder of the VPB spin lock must release it immediately when it is no longer needed. 
 
-Before using <b>IoAcquireVpbSpinLock</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample. 
+Before using <b>IoAcquireVpbSpinLock</b> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample. 
 
-After calling <b>IoAcquireVpbSpinLock</b>, the caller executes at IRQL DISPATCH_LEVEL. Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a> restores the caller's original IRQL.
+After calling <b>IoAcquireVpbSpinLock</b>, the caller executes at IRQL DISPATCH_LEVEL. Calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinLock</a> restores the caller's original IRQL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinlock</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioreleasevpbspinlock">IoReleaseVpbSpinlock</a>

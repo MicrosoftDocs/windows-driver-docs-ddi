@@ -120,5 +120,4 @@ Indicates a NEC cardbus controller.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/ns-ntddpcm-_pcmcia_socket_information">PCMCIA_SOCKET_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddpcm/ns-ntddpcm-_pcmcia_socket_information">PCMCIA_SOCKET_INFORMATION</a>

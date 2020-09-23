@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The filter engine calls the <i>vSwitchRuntimeStateRestoreNotifyFn</i>  (<i>FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</i>) callout function to notify a callout driver about virtual switch run-time state restore events.<div class="alert"><b>Note</b>  <i>FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</i> is a specific version of <i>FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK</i>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
+The filter engine calls the <i>vSwitchRuntimeStateRestoreNotifyFn</i>  (<i>FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</i>) callout function to notify a callout driver about virtual switch run-time state restore events.<div class="alert"><b>Note</b>  <i>FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</i> is a specific version of <i>FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK</i>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
 ## -parameters
@@ -54,7 +54,7 @@ The filter engine calls the <i>vSwitchRuntimeStateRestoreNotifyFn</i>  (<i>FWPS_
 ### -param notifyContext 
 
 [in, optional]
-A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
+A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
 ### -param completionContext 
@@ -65,15 +65,15 @@ A pointer to a completion context provided by the callout driver. This parameter
 ### -param eventType 
 
 [in]
-The type of virtual switch event  specified as one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_vswitch_event_type_">FWPS_VSWITCH_EVENT_TYPE</a> enumeration values. For more information, see Remarks.
+The type of virtual switch event  specified as one of the <a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_vswitch_event_type_">FWPS_VSWITCH_EVENT_TYPE</a> enumeration values. For more information, see Remarks.
 
 ### -param vSwitch 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a> structure that contains information about a virtual switch.
+A pointer to an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a> structure that contains information about a virtual switch.
 
 
-<div class="alert"><b>Note</b>  The information in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a> structure reflects the initial state of the virtual switch, not necessarily its current state. In particular, the <b>NumSwitchPorts</b> and <b>IsActive</b> members might still have their initial value of zero, unless a virtual switch PnP event has been triggered. Current state information can be found in the other parameters to this callback function.</div>
+<div class="alert"><b>Note</b>  The information in the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a> structure reflects the initial state of the virtual switch, not necessarily its current state. In particular, the <b>NumSwitchPorts</b> and <b>IsActive</b> members might still have their initial value of zero, unless a virtual switch PnP event has been triggered. Current state information can be found in the other parameters to this callback function.</div>
 <div> </div>
 
 ### -param portId 
@@ -119,7 +119,7 @@ The callout driver accepts the notification from the filter engine.
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later.  The callout  driver will  call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitchnotifycomplete0">FwpsvSwitchNotifyComplete0</a> function to complete the pending operation.
+ The operation is pending and will be completed later.  The callout  driver will  call the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitchnotifycomplete0">FwpsvSwitchNotifyComplete0</a> function to complete the pending operation.
 
 </td>
 </tr>
@@ -138,44 +138,43 @@ An error occurred.
 
 ## -remarks
 
-A callout driver registers a <i>vSwitchRuntimeStateRestoreNotifyFn</i> function  by calling  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
+A callout driver registers a <i>vSwitchRuntimeStateRestoreNotifyFn</i> function  by calling  the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function.
 
-See the <i>vSwitchRuntimeStateSaveNotifyFn</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_save_callback0">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>) function for information about saving the run-time state.
+See the <i>vSwitchRuntimeStateSaveNotifyFn</i> (<a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_save_callback0">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>) function for information about saving the run-time state.
 
-Each saved data segment will be restored with an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a> OID sent through the virtual switch extension stacks on the target system or on the local system during a restore operation. WFP will dispatch the data to the correct callout through <i>vSwitchRuntimeStateRestoreNotifyFn</i> after matching with a registered provider GUID. In this case, the <i>eventType</i> parameter of <i>vSwitchRuntimeStateRestoreNotifyFn</i> is set to    FWPS_VSWITCH_EVENT_RUNTIME_STATE_RESTORE.
+Each saved data segment will be restored with an <a href="/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a> OID sent through the virtual switch extension stacks on the target system or on the local system during a restore operation. WFP will dispatch the data to the correct callout through <i>vSwitchRuntimeStateRestoreNotifyFn</i> after matching with a registered provider GUID. In this case, the <i>eventType</i> parameter of <i>vSwitchRuntimeStateRestoreNotifyFn</i> is set to    FWPS_VSWITCH_EVENT_RUNTIME_STATE_RESTORE.
 
-A callout can return STATUS_PENDING from <i>vSwitchRuntimeStateRestoreNotifyFn</i>. In this case, WFP will return STATUS_PENDING in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a> handler and will complete it at a later time. The callout  driver will  call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitchnotifycomplete0">FwpsvSwitchNotifyComplete0</a> function to complete the pending operation.
+A callout can return STATUS_PENDING from <i>vSwitchRuntimeStateRestoreNotifyFn</i>. In this case, WFP will return STATUS_PENDING in the <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a> handler and will complete it at a later time. The callout  driver will  call the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitchnotifycomplete0">FwpsvSwitchNotifyComplete0</a> function to complete the pending operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
+<a href="/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_vswitch_event_type_">FWPS_VSWITCH_EVENT_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_vswitch_event_type_">FWPS_VSWITCH_EVENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_save_callback0">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_save_callback0">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitchnotifycomplete0">FwpsvSwitchNotifyComplete0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitchnotifycomplete0">FwpsvSwitchNotifyComplete0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a>
-
+<a href="/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a>

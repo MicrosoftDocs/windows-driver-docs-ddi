@@ -78,7 +78,7 @@ pIUnknownOuter [in, optional]
 
 pStiDevice [in, optional]
 
-- Points to an [IStiDevice COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istidevice-com-interface).
+- Points to an [IStiDevice COM Interface](/windows-hardware/drivers/image/istidevice-com-interface).
 
 ### -param __MIDL__IWiaMiniDrv0005
 
@@ -96,7 +96,7 @@ plDevErrVal [out]
 
 ppIDrvItemRoot [out, optional]
 
-- Points to a memory location that will receive the address of a [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem), the interface of the root item.
+- Points to a memory location that will receive the address of a [IWiaDrvItem Interface](./nn-wiamindr_lh-iwiadrvitem.md), the interface of the root item.
 
 ### -param __MIDL__IWiaMiniDrv0008
 
@@ -122,7 +122,7 @@ Is reserved. Set to zero.
 
 #### - pStiDevice [in, optional]
 
-Points to an [IStiDevice COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istidevice-com-interface).
+Points to an [IStiDevice COM Interface](/windows-hardware/drivers/image/istidevice-com-interface).
 
 #### - pWiasContext [in]
 
@@ -134,7 +134,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 #### - ppIDrvItemRoot [out, optional]
 
-Points to a memory location that will receive the address of a [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem), the interface of the root item.
+Points to a memory location that will receive the address of a [IWiaDrvItem Interface](./nn-wiamindr_lh-iwiadrvitem.md), the interface of the root item.
 
 #### - ppIUnknownInner [out, optional]
 
@@ -144,25 +144,24 @@ Points to a memory location that will receive the address of a [IWiaDrvItem Inte
 
 On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
 
-The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr).
+The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
 ## -remarks
 
-This method should initialize any private structures and create the driver item tree. For detailed information about the steps that minidrivers typically perform in this method, see [Initializing the WIA Minidriver](https://docs.microsoft.com/windows-hardware/drivers/image/initializing-the-wia-minidriver) and [Creating the WIA Driver Item Tree](https://docs.microsoft.com/windows-hardware/drivers/image/creating-the-wia-driver-item-tree).
+This method should initialize any private structures and create the driver item tree. For detailed information about the steps that minidrivers typically perform in this method, see [Initializing the WIA Minidriver](/windows-hardware/drivers/image/initializing-the-wia-minidriver) and [Creating the WIA Driver Item Tree](/windows-hardware/drivers/image/creating-the-wia-driver-item-tree).
 
-The WIA service calls the **IWiaMiniDrv::drvInitializeWia** method in response to a client's call to the [**CreateDevice**](https://docs.microsoft.com/windows/win32/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice) function, which means that this method is called once for each new client connection.
+The WIA service calls the **IWiaMiniDrv::drvInitializeWia** method in response to a client's call to the [**CreateDevice**](/windows/win32/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice) function, which means that this method is called once for each new client connection.
 
 For example, if the user right-clicks a WIA scanner icon in **My Computer**, the shell calls **CreateDevice**, which generates a call to the minidriver's **IWiaMiniDrv::drvInitializeWia** method. If the user then runs the WIA **Acquisition Wizard**, it also calls **CreateDevice**. Each time that **CreateDevice** is called, there is a corresponding call to the **IWiaMiniDrv::drvInitializeWia** method on the minidriver.
 
 ## -see-also
 
-[IWiaDrvItem::AddItemToFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-additemtofolder)
+[IWiaDrvItem::AddItemToFolder](./nf-wiamindr_lh-iwiadrvitem-additemtofolder.md)
 
-[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+[IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
-[IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
+[IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
-[IWiaMiniDrv::drvUnInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvuninitializewia)
+[IWiaMiniDrv::drvUnInitializeWia](./nf-wiamindr_lh-iwiaminidrv-drvuninitializewia.md)
 
-[wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatedrvitem)
-
+[wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)

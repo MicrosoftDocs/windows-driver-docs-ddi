@@ -56,11 +56,11 @@ The DEBUG_EXCEPTION_FILTER_PARAMETERS structure contains the parameters for an e
 
 ### -field ExecutionOption
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">break status</a> of the exception filter, including the terminator.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
+The <a href="/windows-hardware/drivers/debugger/debug-filter-xxx">break status</a> of the exception filter, including the terminator.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
 
 ### -field ContinueOption
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">handling status</a> of the exception filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
+The <a href="/windows-hardware/drivers/debugger/debug-filter-xxx">handling status</a> of the exception filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
 
 ### -field TextSize
 
@@ -80,9 +80,8 @@ The exception code for the exception filter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getexceptionfilterparameters">GetExceptionFilterParameters</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getexceptionfilterparameters">GetExceptionFilterParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexceptionfilterparameters">SetExceptionFilterParameters</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexceptionfilterparameters">SetExceptionFilterParameters</a>

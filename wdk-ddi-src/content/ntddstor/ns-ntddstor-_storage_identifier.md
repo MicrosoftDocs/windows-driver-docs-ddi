@@ -60,7 +60,7 @@ Specifies the code set used by a SCSI identification descriptor to identify a lo
 
 ### -field Type
 
-Contains an enumerator value of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566990(v=vs.85)">STORAGE_IDENTIFIER_TYPE</a> that indicates the identifier type.
+Contains an enumerator value of type <a href="/previous-versions/windows/hardware/drivers/ff566990(v=vs.85)">STORAGE_IDENTIFIER_TYPE</a> that indicates the identifier type.
 
 ### -field IdentifierSize
 
@@ -72,7 +72,7 @@ Specifies the offset in bytes from the current descriptor to the next descriptor
 
 ### -field Association
 
-Contains an enumerator value of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566349(v=vs.85)">STORAGE_ASSOCIATION_TYPE</a> that indicates whether the descriptor identifies a device or a port.
+Contains an enumerator value of type <a href="/previous-versions/windows/hardware/drivers/ff566349(v=vs.85)">STORAGE_ASSOCIATION_TYPE</a> that indicates whether the descriptor identifies a device or a port.
 
 ### -field Identifier
 
@@ -84,9 +84,8 @@ Every device identification page (page code 0x83) of SCSI vital product data con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566349(v=vs.85)">STORAGE_ASSOCIATION_TYPE</a>
+<a href="/previous-versions/windows/hardware/drivers/ff566349(v=vs.85)">STORAGE_ASSOCIATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566990(v=vs.85)">STORAGE_IDENTIFIER_TYPE</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff566990(v=vs.85)">STORAGE_IDENTIFIER_TYPE</a>

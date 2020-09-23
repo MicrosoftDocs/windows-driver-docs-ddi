@@ -69,7 +69,7 @@ The number of mip levels the resource has.
 
 ### -field Format
 
-Specifies how the resource's data is to be interpreted, using a [**DXGI_FORMAT**](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration value.
+Specifies how the resource's data is to be interpreted, using a [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration value.
 
 ### -field SampleDesc
 
@@ -100,4 +100,3 @@ Deprecated. Use [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_
 ## -see-also
 
 [**D3D12DDIARG_CREATERESOURCE_0075**](ns-d3d12umddi-d3d12ddiarg_createresource_0075.md)
-

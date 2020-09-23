@@ -69,7 +69,6 @@ Call [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourceg
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourcegettype.md)
-

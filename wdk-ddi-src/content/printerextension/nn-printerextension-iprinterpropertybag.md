@@ -59,14 +59,14 @@ The **IPrinterPropertyBag** interface is used by all the printer property bags, 
 
 ## -see-also
 
-[IDispatch](https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-idispatch)
+[IDispatch](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 
-[IPrinterExtensionContext::DriverProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioncontext-get_driverproperties)
+[IPrinterExtensionContext::DriverProperties](./nf-printerextension-iprinterextensioncontext-get_driverproperties.md)
 
-[IPrinterExtensionContext::UserProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioncontext-get_userproperties)
+[IPrinterExtensionContext::UserProperties](./nf-printerextension-iprinterextensioncontext-get_userproperties.md)
 
-[IPrinterQueue::GetProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue-getproperties)
+[IPrinterQueue::GetProperties](./nf-printerextension-iprinterqueue-getproperties.md)
 
-[IPrinterScriptablePropertyBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag)
+[IPrinterScriptablePropertyBag](./nn-printerextension-iprinterscriptablepropertybag.md)
 
-[V4 Printer Driver Property Bags](https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags)
+[V4 Printer Driver Property Bags](/windows-hardware/drivers/print/v4-driver-property-bags)

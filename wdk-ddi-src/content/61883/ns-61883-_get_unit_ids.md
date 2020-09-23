@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GET_UNIT_CAPABILITIES structure is used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a> request to retrieve device identifiers.
+The GET_UNIT_CAPABILITIES structure is used in conjunction with the <a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a> request to retrieve device identifiers.
 
 ## -struct-fields
 
@@ -96,5 +96,4 @@ Points to a buffer that receives the "friendly name" for the model represented a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
-
+<a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>

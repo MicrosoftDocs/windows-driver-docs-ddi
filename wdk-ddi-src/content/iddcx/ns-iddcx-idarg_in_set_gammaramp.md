@@ -56,9 +56,8 @@ Gives information about the gamma ramp being set.
 
 ### -field GammaRampSizeInBytes
 
-                     [in] Size in bytes of the provided gamma ramp data.  Set to zero for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ne-iddcx-iddcx_gammaramp_type">IDDCX_GAMMARAMP_TYPE</a>.
+                     [in] Size in bytes of the provided gamma ramp data.  Set to zero for <a href="/windows-hardware/drivers/ddi/iddcx/ne-iddcx-iddcx_gammaramp_type">IDDCX_GAMMARAMP_TYPE</a>.
 
 ### -field pGammaRampData
 
-                     [in] Pointer to gamma ramp data to set.  Set to NULL for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ne-iddcx-iddcx_gammaramp_type">IDDCX_GAMMARAMP_TYPE</a>.
-
+                     [in] Pointer to gamma ramp data to set.  Set to NULL for <a href="/windows-hardware/drivers/ddi/iddcx/ne-iddcx-iddcx_gammaramp_type">IDDCX_GAMMARAMP_TYPE</a>.

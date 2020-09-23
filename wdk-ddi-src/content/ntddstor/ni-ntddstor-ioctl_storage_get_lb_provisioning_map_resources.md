@@ -60,7 +60,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_lb_provisioning_map_resources">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a> structure.
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_lb_provisioning_map_resources">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a> structure.
 
 ### -output-buffer-length
 
@@ -80,5 +80,4 @@ If logical block provisioning is enabled on a LUN, resource mapping counts  may 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_lb_provisioning_map_resources">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_lb_provisioning_map_resources">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a>

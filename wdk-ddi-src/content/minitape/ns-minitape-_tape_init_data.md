@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_tape_init_data_ex">TAPE_INIT_DATA_EX</a> instead.
+TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-_tape_init_data_ex">TAPE_INIT_DATA_EX</a> instead.
 
 ## -struct-fields
 
@@ -82,5 +82,3 @@ typedef struct _TAPE_INIT_DATA {
   TAPE_PROCESS_COMMAND_ROUTINE    PreProcessReadWrite; 
 } TAPE_INIT_DATA, *PTAPE_INIT_DATA;
 ```
-
-

@@ -72,15 +72,14 @@ Reserved bits. Must be set to 0.
 
 ## -remarks
 
-The unit attributes are registered with Storport  using this structure as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a> routine.
+The unit attributes are registered with Storport  using this structure as a parameter to the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a> routine.
 
-If the miniport driver supports asynchronous notifications, the <b>AsyncNotificationSupported</b> field set to 1, it will send notifications to the Storport driver using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportasyncnotificationdetected">StorPortAsyncNotificationDetected</a> routine.
+If the miniport driver supports asynchronous notifications, the <b>AsyncNotificationSupported</b> field set to 1, it will send notifications to the Storport driver using the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportasyncnotificationdetected">StorPortAsyncNotificationDetected</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportasyncnotificationdetected">StorPortAsyncNotificationDetected</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportasyncnotificationdetected">StorPortAsyncNotificationDetected</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a>

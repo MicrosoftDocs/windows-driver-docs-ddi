@@ -53,12 +53,12 @@ api_name:
 ### -param HwDeviceExtension 
 
 [in]
-Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
+Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
 ### -param ChildEnumInfo 
 
 [in]
-Is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_child_enum_info">VIDEO_CHILD_ENUM_INFO</a> structure that describes the device being enumerated.
+Is a <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_child_enum_info">VIDEO_CHILD_ENUM_INFO</a> structure that describes the device being enumerated.
 
 ### -param VideoChildType 
 
@@ -67,20 +67,20 @@ Pointer to a location in which the miniport driver returns the type of child bei
 
 | **Value** | **Meaning** |
 |:--|:--|
-| **Monitor** | The child device is a monitor. If the miniport driver detects that the monitor has a DDC2-compliant [EDID](https://docs.microsoft.com/windows-hardware/drivers/)  structure associated with it, the miniport driver should extract the EDID information from the monitor and return it in the buffer to which pChildDescriptor points. The miniport driver can more easily obtain the EDID from the monitor by calling [VideoPortDDCMonitorHelper](https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportddcmonitorhelper). <br/>If the detected monitor is not DDC2-compliant, the miniport driver should not return anything in pChildDescriptor. |
+| **Monitor** | The child device is a monitor. If the miniport driver detects that the monitor has a DDC2-compliant [EDID](/windows-hardware/drivers/)  structure associated with it, the miniport driver should extract the EDID information from the monitor and return it in the buffer to which pChildDescriptor points. The miniport driver can more easily obtain the EDID from the monitor by calling [VideoPortDDCMonitorHelper](./nf-video-videoportddcmonitorhelper.md). <br/>If the detected monitor is not DDC2-compliant, the miniport driver should not return anything in pChildDescriptor. |
 | **NonPrimaryChip** | Is reserved for system use. |
 | **VideoChip** | The child device is the graphics chip.<br/>The miniport driver should return this type when ChildEnumInfo.ChildIndex is DISPLAY_ADAPTER_HW_ID. The miniport driver should not return anything in pChildDescriptor. | 
-| **Other** | The child device has a separate device driver associated with it.<br/>The miniport driver should return the device's PnP hardware identifier as a Unicode string in the buffer to which pChildDescriptor points. This string must match the [device ID](https://docs.microsoft.com/windows-hardware/drivers/)  specified in the driver's INF file. It will be used by the operating system as the hardware ID for this device. |
+| **Other** | The child device has a separate device driver associated with it.<br/>The miniport driver should return the device's PnP hardware identifier as a Unicode string in the buffer to which pChildDescriptor points. This string must match the [device ID](/windows-hardware/drivers/)  specified in the driver's INF file. It will be used by the operating system as the hardware ID for this device. |
 
 ### -param pChildDescriptor 
 
 [out]
-Pointer to a buffer in which the miniport driver can return data that identifies the device. The information returned depends on the child type specified in <i>VideoChildType</i>. The size of this buffer is specified by the video port driver in the <b>ChildDescriptorSize</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_child_enum_info">VIDEO_CHILD_ENUM_INFO</a>.
+Pointer to a buffer in which the miniport driver can return data that identifies the device. The information returned depends on the child type specified in <i>VideoChildType</i>. The size of this buffer is specified by the video port driver in the <b>ChildDescriptorSize</b> member of <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_child_enum_info">VIDEO_CHILD_ENUM_INFO</a>.
 
 ### -param UId 
 
 [out]
-Pointer to the location in which the miniport driver returns a unique 32-bit <a href="https://docs.microsoft.com/windows-hardware/drivers/">device ID</a> for this device. The miniport driver should set <i>UId</i> to be DISPLAY_ADAPTER_HW_ID when the device is the actual display adapter.
+Pointer to the location in which the miniport driver returns a unique 32-bit <a href="/windows-hardware/drivers/">device ID</a> for this device. The miniport driver should set <i>UId</i> to be DISPLAY_ADAPTER_HW_ID when the device is the actual display adapter.
 
 ### -param pUnused 
 
@@ -99,7 +99,7 @@ Is unused and must be set to zero.
 
 ## -remarks
 
-By default, <i>HwVidGetVideoChildDescriptor</i> is not called until after the device is started by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>. To allow the enumeration of a device's children before the device is started, set the <b>AllowEarlyEnumeration</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>. When <b>AllowEarlyEnumeration</b> is set, <i>HwVidGetVideoChildDescriptor</i> can be called at any time.
+By default, <i>HwVidGetVideoChildDescriptor</i> is not called until after the device is started by <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>. To allow the enumeration of a device's children before the device is started, set the <b>AllowEarlyEnumeration</b> member of <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>. When <b>AllowEarlyEnumeration</b> is set, <i>HwVidGetVideoChildDescriptor</i> can be called at any time.
 
 <i>HwVidGetVideoChildDescriptor</i> should do the following:
 
@@ -121,21 +121,20 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_power_get">HwVidGetPowerState</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_power_get">HwVidGetPowerState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_power_set">HwVidSetPowerState</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_power_set">HwVidSetPowerState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_child_enum_info">VIDEO_CHILD_ENUM_INFO</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_child_enum_info">VIDEO_CHILD_ENUM_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportddcmonitorhelper">VideoPortDDCMonitorHelper</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportddcmonitorhelper">VideoPortDDCMonitorHelper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportenumeratechildren">VideoPortEnumerateChildren</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportenumeratechildren">VideoPortEnumerateChildren</a>

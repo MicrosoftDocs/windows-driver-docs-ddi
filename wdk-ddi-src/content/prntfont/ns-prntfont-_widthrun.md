@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The WIDTHRUN structure is used to define the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
+The WIDTHRUN structure is used to define the contents of <a href="/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
 
 ## -struct-fields
 
@@ -64,11 +64,11 @@ Specifies the number of glyphs represented by the width run.
 
 ### -field loCharWidthOffset
 
-Specifies the offset from the beginning of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a> structure to the location containing the width of the set of glyphs contained in the width run.
+Specifies the offset from the beginning of a <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a> structure to the location containing the width of the set of glyphs contained in the width run.
 
 ## -remarks
 
-A width run describes the widths of a set of adjacent glyphs. Sets of width runs are described by an array of WIDTHRUN elements. The array is contained in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a> structure.
+A width run describes the widths of a set of adjacent glyphs. Sets of width runs are described by an array of WIDTHRUN elements. The array is contained in a <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a> structure.
 
 Index values contained in <b>dwStartGlyph</b> are integers, starting with 1, with each glyph in the font having an index. That is, the first glyph in the font is assigned an index value of 1, the next glyph's index is 2, and so on.
 
@@ -96,15 +96,14 @@ In this example, widths for the first three glyphs of the font are contained in 
 
 If a device font is proportional and has variable pitch characters, the WIDTHTABLE structure's <b>WidthRun</b> array contains only one WIDTHRUN element, and WIDTHTABLE+<b>loCharWidthOffset</b> points to a character width array for all characters in the font.
 
-For Western device fonts, the <b>fwdAveCharWidth</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure is used for determining single-byte character widths, if the character widths are not specified using a WIDTHTABLE structure.
+For Western device fonts, the <b>fwdAveCharWidth</b> member of the <a href="/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure is used for determining single-byte character widths, if the character widths are not specified using a WIDTHTABLE structure.
 
 For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b> members of the IFIMETRICS structure are used for determining single-byte and double-byte character widths. If the font is proportional, the font's .ufm file should contain a WIDTHTABLE structure for the proportional glyphs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
+<a href="/windows/win32/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a>
-
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a>

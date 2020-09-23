@@ -62,14 +62,14 @@ A handle used by the NMR to represent the binding between the client module and 
 [in]
 A pointer to the client module's registration context. The client module passes this pointer to
      the NMR when it calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a> function to register
+     <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a> function to register
      itself with the NMR.
 
 ### -param ProviderRegistrationInstance 
 
 [in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">
+     <a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">
      NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the provider module's registration
      data.
 
@@ -124,13 +124,13 @@ An error occurred.
 After a client module has registered with the NMR, the NMR calls the client module's 
     <i>ClientAttachProvider</i> callback function, once for each provider module that is registered as a
     provider of the same 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
+    <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
 The NMR also calls a client module's 
     <i>ClientAttachProvider</i> callback function whenever a new network module registers as a provider of the
     same 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
+    <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which the client module
     has registered as a client.
 
 A client module can examine the provider module's registration data. This data is in the structure
@@ -142,7 +142,7 @@ A client module can examine the provider module's registration data. This data i
 <li>
 If the client module determines that it will attach to the provider module, then the 
       <i>ClientAttachProvider</i> callback function calls the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a> function
+      <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a> function
       to continue the attachment process. In this situation the 
       <i>ClientAttachProvider</i> callback function must return the status code that is returned by the call
       to the 
@@ -159,7 +159,7 @@ If the client module determines that it will not attach to the provider module, 
 If the client module successfully attaches to the provider module, it must save the handle provided in
     the 
     <i>NmrBindingHandle</i> parameter. The client module passes this handle as a parameter to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientdetachprovidercomplete">
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientdetachprovidercomplete">
     NmrClientDetachProviderComplete</a> function when it detaches from the provider module.
 
 The NMR calls a client module's 
@@ -167,26 +167,25 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_client_characteristics">NPI_CLIENT_CHARACTERISTICS</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_client_characteristics">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">NPI_REGISTRATION_INSTANCE</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">NPI_REGISTRATION_INSTANCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientdetachprovidercomplete">
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientdetachprovidercomplete">
    NmrClientDetachProviderComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a>
-
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a>

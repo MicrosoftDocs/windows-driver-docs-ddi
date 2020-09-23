@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>HidD_FlushQueue</b> routine deletes all pending input reports in a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> input queue.
+The <b>HidD_FlushQueue</b> routine deletes all pending input reports in a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> input queue.
 
 ## -parameters
 
@@ -57,15 +57,14 @@ Specifies an open handle to the top-level collection whose input queue is flushe
 
 ## -returns
 
-<b>HidD_FlushQueue</b> returns <b>TRUE</b> if it successfully flushes the queue. Otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
+<b>HidD_FlushQueue</b> returns <b>TRUE</b> if it successfully flushes the queue. Otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 ## -remarks
 
-Only user-mode applications can call <b>HidD_FlushQueue</b>. Kernel-mode drivers can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_flush_queue">IOCTL_HID_FLUSH_QUEUE</a> request.
+Only user-mode applications can call <b>HidD_FlushQueue</b>. Kernel-mode drivers can use an <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_flush_queue">IOCTL_HID_FLUSH_QUEUE</a> request.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_flush_queue">IOCTL_HID_FLUSH_QUEUE</a>
-
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_flush_queue">IOCTL_HID_FLUSH_QUEUE</a>

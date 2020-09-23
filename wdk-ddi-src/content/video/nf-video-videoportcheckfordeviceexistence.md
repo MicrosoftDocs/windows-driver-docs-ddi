@@ -96,5 +96,4 @@ Is a set of flags that determine whether the <i>RevisionID</i> and <i>SubSystemI
 
 ## -remarks
 
-For more information about PCI identifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.
-
+For more information about PCI identifiers, see <a href="/windows-hardware/drivers/install/identifiers-for-pci-devices">Identifiers for PCI Devices</a>.

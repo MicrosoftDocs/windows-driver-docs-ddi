@@ -74,9 +74,8 @@ Specifies that the ProcAmp saturation property is used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a>
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolqueryrange">DXVA_ProcAmpControlQueryRange</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolqueryrange">DXVA_ProcAmpControlQueryRange</a>

@@ -60,7 +60,7 @@ Not used with this operation; set to **0** (zero).
 
 ### -output-buffer
 
-Pointer to the [PosStatisticsHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstatisticsheader) structure that contains the statistics.
+Pointer to the [PosStatisticsHeader](./ns-pointofservicedriverinterface-_posstatisticsheader.md) structure that contains the statistics.
 
 ### -output-buffer-length
 
@@ -76,9 +76,8 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
 ## -remarks
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following list shows common error values:
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following list shows common error values:
 
 - STATUS_BUFFER_OVERFLOW: The output buffer is not large enough to hold the statistics.
 
 - STATUS_NOT_SUPPORTED: Statistic reporting is not supported.
-

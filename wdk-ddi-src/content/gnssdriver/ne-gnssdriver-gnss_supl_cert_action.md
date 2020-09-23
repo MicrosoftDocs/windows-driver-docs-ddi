@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This enumeration indicates the action to take upon receipt of the SUPL certificate, which is defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_cert_config">GNSS_SUPL_CERT_CONFIG</a> structure.
+This enumeration indicates the action to take upon receipt of the SUPL certificate, which is defined by the <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_cert_config">GNSS_SUPL_CERT_CONFIG</a> structure.
 
 ## -enum-fields
 
@@ -56,9 +56,8 @@ Indicates that the certificate should be injected.
 
 ### -field GNSS_Supl_Cert_Delete
 
-Indicates that the certificate specified by the <b>SuplCertName</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_cert_config">GNSS_SUPL_CERT_CONFIG</a> structure should be deleted.
+Indicates that the certificate specified by the <b>SuplCertName</b> member of the <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_cert_config">GNSS_SUPL_CERT_CONFIG</a> structure should be deleted.
 
 ### -field GNSS_Supl_Cert_Purge
 
 Indicates that all certificates previously injected into the GNSS driver should be deleted.
-

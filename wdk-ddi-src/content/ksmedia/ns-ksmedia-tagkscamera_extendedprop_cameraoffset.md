@@ -72,9 +72,8 @@ Reserved. Set to 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_header">KSCAMERA_EXTENDEDPROP_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_header">KSCAMERA_EXTENDEDPROP_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-cameraangleoffset">KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-cameraangleoffset">KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET</a>

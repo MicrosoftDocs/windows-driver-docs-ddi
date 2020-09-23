@@ -97,17 +97,16 @@ For drivers targeting Windows 8.1 or later versions of Windows, use of only <b>
  A work queue priority < 17 is advised since queuing  
     at a higher priority may interfere with work item processing by critical system components.
 
-For more information about system worker threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
+For more information about system worker threads, see <a href="/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex">IoQueueWorkItemEx</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitemex">IoQueueWorkItemEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a>
-
+<a href="/previous-versions/windows/hardware/drivers/dn683917(v=vs.85)">IoTryQueueWorkItem</a>

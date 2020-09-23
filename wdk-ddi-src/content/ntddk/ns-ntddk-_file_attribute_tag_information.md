@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FILE_ATTRIBUTE_TAG_INFORMATION</b> structure is used as an argument to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>.
+The <b>FILE_ATTRIBUTE_TAG_INFORMATION</b> structure is used as an argument to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>

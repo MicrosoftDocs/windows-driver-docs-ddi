@@ -87,7 +87,6 @@ Returns STATUS_SUCCESS, else an error on default allocator creation failure. Doe
 
 ## -remarks
 
-Before calling this routine, the **KSCREATE_ITEM_IRP_STORAGE(Irp)** macro should return a pointer to the [KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item) structure that is the create item for this allocator. **KsCreateDefaultAllocatorEx** sets **FsContext** to point to the return value of this macro. As such, **FsContext** can later be used for security descriptor queries or changes.
+Before calling this routine, the **KSCREATE_ITEM_IRP_STORAGE(Irp)** macro should return a pointer to the [KSOBJECT_CREATE_ITEM](./ns-ks-ksobject_create_item.md) structure that is the create item for this allocator. **KsCreateDefaultAllocatorEx** sets **FsContext** to point to the return value of this macro. As such, **FsContext** can later be used for security descriptor queries or changes.
 
 You can find **KSCREATE_ITEM_IRP_STORAGE(Irp)** and related macros in *ks.h*.
-

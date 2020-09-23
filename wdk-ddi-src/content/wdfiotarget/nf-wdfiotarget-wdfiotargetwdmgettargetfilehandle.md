@@ -56,30 +56,30 @@ The <b>WdfIoTargetWdmGetTargetFileHandle</b> method returns a handle to the file
 ### -param IoTarget 
 
 [in]
-A handle to a remote I/O target object. This handle was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>.
+A handle to a remote I/O target object. This handle was obtained from a previous call to <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>.
 
 ## -returns
 
-If the driver specified an object name when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen">WdfIoTargetOpen</a>, <b>WdfIoTargetWdmGetTargetFileHandle</b> returns the file handle that is associated with the specified I/O target. Otherwise <b>WdfIoTargetWdmGetTargetFileHandle</b> returns <b>NULL</b>.
+If the driver specified an object name when it called <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetopen">WdfIoTargetOpen</a>, <b>WdfIoTargetWdmGetTargetFileHandle</b> returns the file handle that is associated with the specified I/O target. Otherwise <b>WdfIoTargetWdmGetTargetFileHandle</b> returns <b>NULL</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-For KMDF, the returned file handle is a kernel-mode handle that is valid in an arbitrary thread context. For information about how a driver can use this file handle, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-a-file-handle">Using a File Handle</a>. 
+For KMDF, the returned file handle is a kernel-mode handle that is valid in an arbitrary thread context. For information about how a driver can use this file handle, see <a href="/windows-hardware/drivers/kernel/using-a-file-handle">Using a File Handle</a>. 
 
-The file handle that the <b>WdfIoTargetWdmGetTargetFileHandle</b> method returns is valid until the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetclose">WdfIoTargetClose</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcloseforqueryremove">WdfIoTargetCloseForQueryRemove</a>, or until the remote I/O target object is deleted. If the driver provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> function for the remote I/O target object, and if the object is deleted before the remote I/O target is closed, the pointer is valid until the <i>EvtCleanupCallback</i> function returns.
+The file handle that the <b>WdfIoTargetWdmGetTargetFileHandle</b> method returns is valid until the driver calls <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetclose">WdfIoTargetClose</a> or <a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcloseforqueryremove">WdfIoTargetCloseForQueryRemove</a>, or until the remote I/O target object is deleted. If the driver provides an <a href="/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> function for the remote I/O target object, and if the object is deleted before the remote I/O target is closed, the pointer is valid until the <i>EvtCleanupCallback</i> function returns.
 
-If the driver attempts to access the WDM device object after it has been removed, the driver can cause the system to crash.  The <a href="https://go.microsoft.com/fwlink/p/?linkid=251907">toastmon</a> sample demonstrates how the driver can provide an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nc-wdfiotarget-evt_wdf_io_target_query_remove">EvtIoTargetQueryRemove</a> callback function so that it is notified if the I/O target is removed.
+If the driver attempts to access the WDM device object after it has been removed, the driver can cause the system to crash.  The <a href="/samples/browse/?redirectedfrom=MSDN-samples">toastmon</a> sample demonstrates how the driver can provide an <a href="/windows-hardware/drivers/ddi/wdfiotarget/nc-wdfiotarget-evt_wdf_io_target_query_remove">EvtIoTargetQueryRemove</a> callback function so that it is notified if the I/O target is removed.
 
-For UMDF, <b>WdfIoTargetWdmGetTargetFileHandle</b> returns a Win32 HANDLE valid only in the current process. A legacy UMDF driver (version 1.<i>x</i>)  calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicename">IWDFDevice::RetrieveDeviceName</a> to get the name of the underlying kernel-mode device and then opens a handle to it with <b>CreateFile</b>. The driver can then send I/O directly to the lower device(s) using <b>DeviceIoControl</b>. Starting in UMDF 2.15, UMDF v2 drivers can open the local I/O target by file (WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE) and retrieve the file handle using [**WdfIoTargetWdmGetTargetFileHandle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle). The framework opens and closes the file handle when the remote target is closed or deleted. The file handle remains valid within the contract of <b>WdfIoTargetWdmGetTargetFileHandle</b> described above.
+For UMDF, <b>WdfIoTargetWdmGetTargetFileHandle</b> returns a Win32 HANDLE valid only in the current process. A legacy UMDF driver (version 1.<i>x</i>)  calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicename">IWDFDevice::RetrieveDeviceName</a> to get the name of the underlying kernel-mode device and then opens a handle to it with <b>CreateFile</b>. The driver can then send I/O directly to the lower device(s) using <b>DeviceIoControl</b>. Starting in UMDF 2.15, UMDF v2 drivers can open the local I/O target by file (WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE) and retrieve the file handle using [**WdfIoTargetWdmGetTargetFileHandle**](). The framework opens and closes the file handle when the remote target is closed or deleted. The file handle remains valid within the contract of <b>WdfIoTargetWdmGetTargetFileHandle</b> described above.
 
 > [!WARNING]
-> If a UMDF v2 driver calls [**WdfIoTargetWdmGetTargetFileHandle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle) to obtain the Win32 handle from a remote target opened using WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, do not submit overlapped/asynchronous I/O with APIs like **DeviceIoControl**. Doing so can crash the process hosting the driver. If the driver must submit overlapped I/O, it must also set the low-order bit of the **hEvent** member of the **OVERLAPPED** structure. This is because the framework internally binds the handle to an I/O completion port. A valid event handle whose low-order bit is set keeps I/O completion from being queued to the completion port.
+> If a UMDF v2 driver calls [**WdfIoTargetWdmGetTargetFileHandle**]() to obtain the Win32 handle from a remote target opened using WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, do not submit overlapped/asynchronous I/O with APIs like **DeviceIoControl**. Doing so can crash the process hosting the driver. If the driver must submit overlapped I/O, it must also set the low-order bit of the **hEvent** member of the **OVERLAPPED** structure. This is because the framework internally binds the handle to an I/O completion port. A valid event handle whose low-order bit is set keeps I/O completion from being queued to the completion port.
 
-For more information about <b>WdfIoTargetWdmGetTargetFileHandle</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/obtaining-information-about-a-general-i-o-target">Obtaining Information About a General I/O Target</a>. 
+For more information about <b>WdfIoTargetWdmGetTargetFileHandle</b>, see <a href="/windows-hardware/drivers/wdf/obtaining-information-about-a-general-i-o-target">Obtaining Information About a General I/O Target</a>. 
 
-For more information about I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-i-o-targets">Using I/O Targets</a>.
+For more information about I/O targets, see <a href="/windows-hardware/drivers/wdf/using-i-o-targets">Using I/O Targets</a>.
 
 
 #### Examples
@@ -91,7 +91,7 @@ HANDLE h;
 
 h = WdfIoTargetWdmGetTargetFileHandle(IoTarget);
 ```
-A legacy UMDF driver (version 1.<i>x</i>)  calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicename">IWDFDevice::RetrieveDeviceName</a> to get the name of the underlying kernel-mode device and then open a handle to it with <b>CreateFile</b>. The driver then sends I/O directly to the device using <b>DeviceIoControl</b>.
+A legacy UMDF driver (version 1.<i>x</i>)  calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicename">IWDFDevice::RetrieveDeviceName</a> to get the name of the underlying kernel-mode device and then open a handle to it with <b>CreateFile</b>. The driver then sends I/O directly to the device using <b>DeviceIoControl</b>.
 
 Starting in UMDF 2.15, the driver opens the local I/O target by file and retrieves its handle. The framework opens and closes the file handle. The file handle remains valid within the contract of <b>WdfIoTargetWdmGetTargetFileHandle</b>.
 
@@ -140,9 +140,8 @@ if (ioTarget != NULL) {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetcreate">WdfIoTargetCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfileobject">WdfIoTargetWdmGetTargetFileObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfileobject">WdfIoTargetWdmGetTargetFileObject</a>

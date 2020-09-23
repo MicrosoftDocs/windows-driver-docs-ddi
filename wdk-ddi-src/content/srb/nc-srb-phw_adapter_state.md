@@ -64,7 +64,7 @@ Reserved for system use.
 ### -param SaveState 
 
 [in]
-Indicates, when <b>TRUE</b>, that the miniport driver should save the current state of the HBA until the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557278(v=vs.85)">HwScsiAdapterState</a> routine is called again with <i>SaveState</i> set to <b>FALSE</b> to restore the saved state.
+Indicates, when <b>TRUE</b>, that the miniport driver should save the current state of the HBA until the <a href="/previous-versions/windows/hardware/drivers/ff557278(v=vs.85)">HwScsiAdapterState</a> routine is called again with <i>SaveState</i> set to <b>FALSE</b> to restore the saved state.
 
 ## -returns
 
@@ -74,9 +74,8 @@ The routine declared by this prototype returns <b>TRUE</b> if it successfully sa
 
 Only SCSI miniport drivers use this prototype. Miniport drivers that work with the StorPort driver do not use the routine that is declared by this prototype.
 
-For more information about the routine declared by this prototype, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557278(v=vs.85)">HwScsiAdapterState</a>.
+For more information about the routine declared by this prototype, see <a href="/previous-versions/windows/hardware/drivers/ff557278(v=vs.85)">HwScsiAdapterState</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557278(v=vs.85)">HwScsiAdapterState</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff557278(v=vs.85)">HwScsiAdapterState</a>

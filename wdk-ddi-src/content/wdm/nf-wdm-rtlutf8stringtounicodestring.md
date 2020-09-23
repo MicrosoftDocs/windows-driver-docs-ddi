@@ -53,7 +53,7 @@ f1_keywords:
 
 ### -param DestinationString
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string.
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string.
 
 If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer, and set the maximum length field. Otherwise, the routine uses the currently-specified buffer to hold the string.
 
@@ -63,7 +63,7 @@ Pointer to the UTF8 string to be converted to Unicode.
 
 ### -param AllocateDestinationString
 
-Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
+Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
 
 ## -returns
 
@@ -71,5 +71,4 @@ If the conversion succeeds, <b>RtlUTF8StringToUnicodeString</b> returns STATUS_S
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>

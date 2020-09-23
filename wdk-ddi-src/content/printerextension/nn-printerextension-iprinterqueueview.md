@@ -52,15 +52,14 @@ Provides a way to change the range of print jobs being monitored.
 
 ## -remarks
 
-An event is raised whenever the status of the print queue changes. So when a client uses [SetViewRange](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueview-setviewrange) to specify the range of print jobs (the view) to be monitored, the [IPrinterQueueViewEvent::OnChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged) event method fires, and the live queue is returned in response.
+An event is raised whenever the status of the print queue changes. So when a client uses [SetViewRange](./nf-printerextension-iprinterqueueview-setviewrange.md) to specify the range of print jobs (the view) to be monitored, the [IPrinterQueueViewEvent::OnChanged](./nf-printerextension-iprinterqueueviewevent-onchanged.md) event method fires, and the live queue is returned in response.
 
 Note that job enumeration starts when the first event handler is added and stops when the last event handler is removed.
 
-**IPrinterQueueView** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://docs.microsoft.com/windows-hardware/drivers/print/job-management).
+**IPrinterQueueView** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](/windows-hardware/drivers/print/job-management).
 
 ## -see-also
 
-[IPrinterQueueViewEvent::OnChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged)
+[IPrinterQueueViewEvent::OnChanged](./nf-printerextension-iprinterqueueviewevent-onchanged.md)
 
- [Job Management](https://docs.microsoft.com/windows-hardware/drivers/print/job-management)
-
+ [Job Management](/windows-hardware/drivers/print/job-management)

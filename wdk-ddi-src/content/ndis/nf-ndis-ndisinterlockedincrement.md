@@ -67,5 +67,4 @@ A pointer to a variable of type LONG.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockeddecrement">NdisInterlockedDecrement</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockeddecrement">NdisInterlockedDecrement</a>

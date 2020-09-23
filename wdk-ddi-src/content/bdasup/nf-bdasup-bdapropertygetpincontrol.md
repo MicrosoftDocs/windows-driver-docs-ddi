@@ -54,7 +54,7 @@ The <b>BdaPropertyGetPinControl</b> function retrieves either the identifier or 
 ### -param Irp 
 
 [in]
-Points to the IRP for the request to retrieve pin information. The BDA minidriver receives this IRP with either the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a> request.
+Points to the IRP for the request to retrieve pin information. The BDA minidriver receives this IRP with either the <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a> or <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a> request.
 
 ### -param Property
 
@@ -66,7 +66,7 @@ Points to a variable that receives either the identifier or type of a pin.
 
 #### - pKSProperty [in]
 
-Points to a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 ## -returns
 
@@ -74,21 +74,20 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the <b>BdaPropertyGetPinControl</b> function to retrieve either the identifier or type of a pin after the minidriver receives either a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdapincontrol">KSPROPSETID_BdaPinControl</a> property set. Most BDA minidrivers can define pin-automation tables so that those minidrivers dispatch the <b>BdaPropertyGetPinControl</b> function directly, without intercepting this request using an internal get-handler (<a href="https://docs.microsoft.com/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>).
+A BDA minidriver calls the <b>BdaPropertyGetPinControl</b> function to retrieve either the identifier or type of a pin after the minidriver receives either a <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a> or <a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a> request of the <a href="/windows-hardware/drivers/stream/kspropsetid-bdapincontrol">KSPROPSETID_BdaPinControl</a> property set. Most BDA minidrivers can define pin-automation tables so that those minidrivers dispatch the <b>BdaPropertyGetPinControl</b> function directly, without intercepting this request using an internal get-handler (<a href="/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-id">KSPROPERTY_BDA_PIN_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-bda-pin-type">KSPROPERTY_BDA_PIN_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdapincontrol">KSPROPSETID_BdaPinControl</a>
-
+<a href="/windows-hardware/drivers/stream/kspropsetid-bdapincontrol">KSPROPSETID_BdaPinControl</a>

@@ -103,5 +103,4 @@ The operation completed successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeopenreparselist">FltFreeOpenReparseList</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeopenreparselist">FltFreeOpenReparseList</a>

@@ -54,11 +54,10 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -remarks
 
-The lifetime of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> interface 
+The lifetime of <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> interface 
 instances are tied to their creator. If you clear all items from a collection, the items are
 not destroyed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFActions2</a>
-
+<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>

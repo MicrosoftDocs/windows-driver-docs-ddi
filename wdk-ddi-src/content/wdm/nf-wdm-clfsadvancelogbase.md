@@ -54,12 +54,12 @@ The <b>ClfsAdvanceLogBase</b> routine sets the base LSN of a CLFS stream.
 ### -param pvMarshalContext 
 
 [in, out]
-A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
 ### -param plsnBase 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that contains the new base LSN. This parameter must be the LSN of one of the records in the stream. Also, this parameter must be greater than or equal to the stream's current base LSN and less than or equal to the stream's current last LSN.
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that contains the new base LSN. This parameter must be the LSN of one of the records in the stream. Also, this parameter must be greater than or equal to the stream's current base LSN and less than or equal to the stream's current last LSN.
 
 ### -param fFlags 
 
@@ -72,15 +72,14 @@ This parameter is reserved for system use. Callers must set this parameter to ze
 
 ## -remarks
 
-<b>ClfsAdvanceLogBase</b> does not write any records to the CLFS log; the only updates to the log are in the metadata. If you want to update the base LSN and write a restart record to a stream at the same time, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>.
+<b>ClfsAdvanceLogBase</b> does not write any records to the CLFS log; the only updates to the log are in the metadata. If you want to update the base LSN and write a restart record to a stream at the same time, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>.
 
 Whenever possible, CLFS avoids writing queued log records that have LSNs less than the new base LSN to stable storage.
 
 <b>ClfsAdvanceLogBase</b> does not check to see whether the LSN supplied in <i>plsnBase</i> is actually the LSN of one of the records in the stream. If the caller sets <i>plsnBase</i> to an LSN that is not the LSN of one of the records in the stream, the stream's base LSN will be set to a meaningless value.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>

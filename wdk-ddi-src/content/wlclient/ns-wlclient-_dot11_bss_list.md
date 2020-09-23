@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BSS_LIST structure identifies a list of one or more IEEE 802.11 Beacon and Probe Response
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BSS_LIST structure identifies a list of one or more IEEE 802.11 Beacon and Probe Response
   frames.
 
 ## -struct-fields
@@ -86,7 +86,7 @@ typedef struct _DOT11_BSS_LIST {
 The 802.11 Beacon and Probe Response frames within the
     <b>pucBuffer</b> member were received from the underlying 802.11 station during its previous scan
     operation. For more information about this operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
+    <a href="/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
 ## -see-also
@@ -100,7 +100,7 @@ The 802.11 Beacon and Probe Response frames within the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
@@ -112,4 +112,3 @@ The 802.11 Beacon and Probe Response frames within the
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
    Dot11ExtIhvCreateDiscoveryProfiles</a>
-

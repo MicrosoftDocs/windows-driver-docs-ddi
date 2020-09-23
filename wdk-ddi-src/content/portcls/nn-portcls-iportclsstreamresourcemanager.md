@@ -57,9 +57,8 @@ The IPortClsStreamResourceManager interface is supported in Windows 10 and late
 
 These methods can only be used by audio waveRT miniport drivers.
 
-A WaveRT miniport driver optionally can use this interface instead of hard-linking with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a>
-and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcremovestreamresource">PcRemoveStreamResource</a>.
+A WaveRT miniport driver optionally can use this interface instead of hard-linking with the <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a>
+and <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcremovestreamresource">PcRemoveStreamResource</a>.
 This option is very useful when the same audio miniport driver must run on previous versions of Windows.
 The audio miniport driver can query for the IID_IPortClsStreamResourceManager interface and register its resources
 only when PortCls supports the interface.
-

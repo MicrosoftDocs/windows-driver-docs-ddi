@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_current_mode">IOCTL_VIDEO_SET_CURRENT_MODE</a>.
+The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_current_mode">IOCTL_VIDEO_SET_CURRENT_MODE</a>.
 
 ## -struct-fields
 
@@ -71,4 +71,3 @@ Indicates that the miniport driver should zero the video memory in conjunction w
 #### VIDEO_MODE_MAP_MEM_LINEAR
 
 Indicates that the miniport driver should map the video memory in a linear fashion if the adapter supports such an operation.
-

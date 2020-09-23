@@ -93,7 +93,7 @@ A pointer to a caller-supplied variable in which this function returns the numbe
 
 [in]
 The configuration handle returned by the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationex">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenconfigurationex">
      NdisOpenConfigurationEx</a> function.
 
 ## -remarks
@@ -104,7 +104,7 @@ The configuration handle returned by the
     <b>NetworkAddress</b>, converts the value of this string-type entry into a sequence of byte integers, and
     stores the requested information internally. The storage that NDIS allocates for such an address remains
     valid until the miniport driver calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseconfiguration">NdisCloseConfiguration</a> function,
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseconfiguration">NdisCloseConfiguration</a> function,
     which frees the memory.
 
 The caller cannot use the variable at 
@@ -139,9 +139,8 @@ Note that NDIS does not validate the value at
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseconfiguration">NdisCloseConfiguration</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseconfiguration">NdisCloseConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>
-
+<a href="/windows-hardware/drivers/devtest/ndis-ndisopenconfigurationex">NdisOpenConfigurationEx</a>

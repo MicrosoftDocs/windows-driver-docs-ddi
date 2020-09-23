@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">pseudo-register</a> values.
+The <b>DebugExtensionQueryValueNames</b> callback function recovers <a href="/windows-hardware/drivers/debugger/registers">pseudo-register</a> values.
 
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;
@@ -114,7 +114,7 @@ The function completed without error, but it obtained only partial results.
 </table>
  
 
-This function might also return error values.  For more information about possible return values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
+This function might also return error values.  For more information about possible return values, see <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 ## -remarks
 
@@ -124,7 +124,7 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
 
 
 
@@ -141,4 +141,3 @@ Value names must start with <b>$$</b> and have a terminating NULL character. The
 
 
 <i>KnownStructOutput</i>
-

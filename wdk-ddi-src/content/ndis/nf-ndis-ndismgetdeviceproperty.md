@@ -57,21 +57,21 @@ The
 
 [in]
 The NDIS handle that identifies the miniport adapter. This handle was originally passed to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param PhysicalDeviceObject 
 
 [out, optional]
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the
+     <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the
      physical device for the miniport adapter. This pointer is optional.
 
 ### -param FunctionalDeviceObject 
 
 [out, optional]
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. 
+     <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. 
      <b>DEVICE_OBJECT</b> represents the functional device object that NDIS creates for the physical device.
      This pointer is optional.
 
@@ -79,7 +79,7 @@ A pointer to a caller-allocated buffer. The buffer receives a pointer to a
 
 [out, optional]
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the next device object. This next device object is
+     <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the next device object. This next device object is
      preceded in the chain by the functional device object that belongs to the miniport driver. NDIS creates
      this functional device object for the physical device. For example, the next device object could be the
      object that is associated with a bus driver or HAL This pointer is optional.
@@ -113,23 +113,22 @@ Miniport drivers must retrieve specific information to set up their communicatio
     Request Packets (IRPs). The miniport driver uses the physical and next-device objects that 
     <b>NdisMGetDeviceProperty</b> retrieves to submit IRPs to the class interface for a particular bus. To
     locate more information about creating and submitting IRPs to bus drivers, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-irps">Handling IRPs</a>.
+    <a href="/windows-hardware/drivers/kernel/handling-irps">Handling IRPs</a>.
 
 Pointers to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the physical, functional, and next device objects that 
+    <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the physical, functional, and next device objects that 
     <b>NdisMGetDeviceProperty</b> retrieves are simply handles that are opaque to the miniport driver.
 
 Miniport drivers can call 
     <b>NdisMGetDeviceProperty</b> to retrieve pointers to "raw" or "translated" resources. Raw resources have
     not been translated by HAL; translated resources have been. To locate more information about raw and
     translated resources, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff562374(v=vs.85)">Plug and Play</a>.
+    <a href="/previous-versions/windows/hardware/network/ff562374(v=vs.85)">Plug and Play</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>

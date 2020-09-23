@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>KeDeregisterBugCheckCallback</b> routine removes a callback routine that was registered by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a>.
+The <b>KeDeregisterBugCheckCallback</b> routine removes a callback routine that was registered by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a>.
 
 ## -parameters
 
 ### -param CallbackRecord 
 
 [in, out]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_CALLBACK_RECORD</a> structure. <i>CallbackRecord</i> must be the same value that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a> when the callback was registered.
+Pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_CALLBACK_RECORD</a> structure. <i>CallbackRecord</i> must be the same value that was passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a> when the callback was registered.
 
 ## -returns
 
@@ -61,5 +61,4 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a>

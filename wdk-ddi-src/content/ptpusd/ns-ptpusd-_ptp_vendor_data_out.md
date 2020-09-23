@@ -76,11 +76,10 @@ Is an array containing an (optional) first byte to read from the device.
 
 ## -remarks
 
-See [Vendor-Extended Commands](https://docs.microsoft.com/windows-hardware/drivers/image/vendor-extended-commands) for more information and example code that uses this structure.
+See [Vendor-Extended Commands](/windows-hardware/drivers/image/vendor-extended-commands) for more information and example code that uses this structure.
 
 For more information about the opcodes used in the **OpCode** member, see [ISO 15740:2013 *Photography − Electronic still picture imaging − Picture Transfer Protocol (PTP) for Digital Still Photography Devices*](https://www.imaging.org/site/IST/IST/Standards/PTP_Standards.aspx).
 
 ## -see-also
 
-[PTP_VENDOR_DATA_IN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ptpusd/ns-ptpusd-_ptp_vendor_data_in)
-
+[PTP_VENDOR_DATA_IN](./ns-ptpusd-_ptp_vendor_data_in.md)

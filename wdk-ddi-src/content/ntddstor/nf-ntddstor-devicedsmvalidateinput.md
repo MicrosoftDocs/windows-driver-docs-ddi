@@ -65,17 +65,16 @@ Returns **TRUE** if the input is valid, or **FALSE** otherwise.
 
 ## -remarks
 
-The input is passed in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request. Before processing the request, the handler should first call **DeviceDsmValidateInput** to ensure that the input is valid based on the operation's *Definition* and *Input* (whose **Action** members must match), including the DEVICE_DSM_INPUT structure that *Input* points to, and the parameter block and data set ranges, if any, that follow the DEVICE_DSM_INPUT structure.
+The input is passed in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md) request. Before processing the request, the handler should first call **DeviceDsmValidateInput** to ensure that the input is valid based on the operation's *Definition* and *Input* (whose **Action** members must match), including the DEVICE_DSM_INPUT structure that *Input* points to, and the parameter block and data set ranges, if any, that follow the DEVICE_DSM_INPUT structure.
 
-See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for more details on handling a DSM.
+See [Data Set Management Overview](/windows-hardware/drivers/storage/data-set-management-overview) for more details on handling a DSM.
 
 ## -see-also
 
-[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+[Data Set Management Overview](/windows-hardware/drivers/storage/data-set-management-overview)
 
 [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
 
 [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
 
-[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
-
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)

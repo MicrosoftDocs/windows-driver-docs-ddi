@@ -54,12 +54,12 @@ The** KsCreateFilterFactory** function adds a filter factory to a given device.
 ### -param DeviceObject 
 
 [in]
-A pointer to a [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure for which to add a filter factory.
+A pointer to a [DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md) structure for which to add a filter factory.
 
 ### -param Descriptor 
 
 [in]
-A pointer to a [KSFILTER_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor) that describes the characteristics of individual filters that this factory can create.
+A pointer to a [KSFILTER_DESCRIPTOR](./ns-ks-_ksfilter_descriptor.md) that describes the characteristics of individual filters that this factory can create.
 
 ### -param RefString 
 
@@ -81,7 +81,7 @@ The following table lists the flags that the minidriver writer uses to specify t
 | KSCREATE_ITEM_SECURITY_CHANGED | Indicates that the security descriptor on this object type has been changed and should be persisted. |
 | KSCREATE_ITEM_WILDCARD | Indicates that this create item represents a wildcard that is used for any create requests that do not match any other create items. The ordering of the wildcard entry in the list of create items is irrelevant. Only a single wildcard entry is valid on any list of create items. |
 | KSCREATE_ITEM_NOPARAMETERS | Indicates that this create item does not allow any parameters to be passed, and fails if any are found. (Normally, create parameters are passed on to the create handler.) This flag cannot be used with a wildcard flag. |
-| KSCREATE_ITEM_FREEONSTOP | Indicates that the create item should be freed when the PnP manager sends [IRP_MN_STOP_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-stop-device). Note that AVStream automatically frees such create items when the device receives PnP stop (*after* the client has received the PnP stop notification). |
+| KSCREATE_ITEM_FREEONSTOP | Indicates that the create item should be freed when the PnP manager sends [IRP_MN_STOP_DEVICE](/windows-hardware/drivers/kernel/irp-mn-stop-device). Note that AVStream automatically frees such create items when the device receives PnP stop (*after* the client has received the PnP stop notification). |
 
 ### -param SleepCallback 
 
@@ -93,7 +93,7 @@ void SleepCallback (IN PKSFILTERFACTORY FilterFactory,
     IN DEVICE_POWER_STATE State);
 ```
 
-If this parameter is **NULL**, this filter factory is not notified that the device is going to sleep. See [Device Power States](https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states).
+If this parameter is **NULL**, this filter factory is not notified that the device is going to sleep. See [Device Power States](/windows-hardware/drivers/kernel/device-power-states).
 
 ### -param WakeCallback 
 
@@ -105,12 +105,12 @@ void WakeCallback (IN PKSFILTERFACTORY FilterFactory,
     IN DEVICE_POWER_STATE State);
 ```
 
-If this parameter is **NULL**, this filter factory is not notified that the device is waking up. See [Device Power States](https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states).
+If this parameter is **NULL**, this filter factory is not notified that the device is waking up. See [Device Power States](/windows-hardware/drivers/kernel/device-power-states).
 
 ### -param FilterFactory 
 
 [out, optional]
-A pointer to a [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory) structure that AVStream sets to point to the newly created filter factory object. If this optional parameter is unspecified, the caller is not informed about the resulting filter factory object.
+A pointer to a [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md) structure that AVStream sets to point to the newly created filter factory object. If this optional parameter is unspecified, the caller is not informed about the resulting filter factory object.
 
 ## -returns
 
@@ -118,21 +118,20 @@ Returns STATUS_SUCCESS if the filter factory can be created. Otherwise, it retur
 
 ## -remarks
 
-If you call **KsCreateFilterFactory** after [AVStrMiniDevicePostStart](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksdevice)), you must then call [KsFilterFactorySetDeviceClassesState](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorysetdeviceclassesstate) to enable the device class. (Also call **KsFilterFactorySetDeviceClassesState** to disable a filter factory.)
+If you call **KsCreateFilterFactory** after [AVStrMiniDevicePostStart](./nc-ks-pfnksdevice.md)), you must then call [KsFilterFactorySetDeviceClassesState](./nf-ks-ksfilterfactorysetdeviceclassesstate.md) to enable the device class. (Also call **KsFilterFactorySetDeviceClassesState** to disable a filter factory.)
 
 If you call **KsCreateFilterFactory** in the context of *AVStrMiniDevicePostStart* or before, you do not need to do this.
 
-Before calling this function, the minidriver must obtain the device mutex. For information about how to do this, see [Device Mutex in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/device-mutex-in-avstream).
+Before calling this function, the minidriver must obtain the device mutex. For information about how to do this, see [Device Mutex in AVStream](/windows-hardware/drivers/stream/device-mutex-in-avstream).
 
-This function should be used by minidrivers that either initialize themselves without a call to [KsInitializeDriver](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver) or that must dynamically add and remove new filter types.
+This function should be used by minidrivers that either initialize themselves without a call to [KsInitializeDriver](./nf-ks-ksinitializedriver.md) or that must dynamically add and remove new filter types.
 
 ## -see-also
 
-[KSFILTER_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_descriptor)
+[KSFILTER_DESCRIPTOR](./ns-ks-_ksfilter_descriptor.md)
 
-[KSNODE_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksnode_descriptor)
+[KSNODE_DESCRIPTOR](./ns-ks-_ksnode_descriptor.md)
 
-[KSPIN_DESCRIPTOR_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex)
+[KSPIN_DESCRIPTOR_EX](./ns-ks-_kspin_descriptor_ex.md)
 
-[KsDeleteFilterFactory](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeletefilterfactory)
-
+[KsDeleteFilterFactory](./nf-ks-ksdeletefilterfactory.md)

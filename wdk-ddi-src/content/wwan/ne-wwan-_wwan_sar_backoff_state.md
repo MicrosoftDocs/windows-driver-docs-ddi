@@ -59,11 +59,10 @@ This enumeration is used in the [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_con
 
 ## -see-also
 
-[MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support)
+[MB SAR Platform Support](/windows-hardware/drivers/network/mb-sar-platform-support)
 
-[OID_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-config)
+[OID_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/oid-wwan-sar-config)
 
 [**WWAN_SAR_CONFIG_INFO**](ns-wwan-_wwan_sar_config_info.md)
 
 [**WWAN_SET_SAR_CONFIG**](ns-wwan-_wwan_set_sar_config.md)
-

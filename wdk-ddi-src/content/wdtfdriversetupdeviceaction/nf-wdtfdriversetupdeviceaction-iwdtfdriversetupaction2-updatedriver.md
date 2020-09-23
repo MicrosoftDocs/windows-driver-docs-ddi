@@ -86,8 +86,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2">IWDTFDriverSetupAction2</a>
+<a href="/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2">IWDTFDriverSetupAction2</a>
  
 
  
-

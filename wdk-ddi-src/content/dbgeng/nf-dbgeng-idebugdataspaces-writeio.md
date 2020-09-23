@@ -90,7 +90,7 @@ Receives the number of bytes written to I/O bus.  If <i>BytesWritten</i> is <b>N
 
 ## -returns
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -113,4 +113,3 @@ The method was successful.
 ## -remarks
 
 This method is only available in kernel-mode debugging.
-

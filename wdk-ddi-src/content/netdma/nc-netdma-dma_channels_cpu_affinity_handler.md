@@ -59,14 +59,14 @@ in Windows 8 and later.</div><div> </div>The
 [in]
 A pointer that identifies a DMA provider's context area. The DMA provider driver passed this
      pointer to NetDMA in a call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
+     <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
 ### -param CpuAffinityArray 
 
 [in]
 A pointer to an array of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_cpu_affinity">
+     <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_cpu_affinity">
      NET_DMA_CHANNEL_CPU_AFFINITY</a> structures that specify the CPU affinities for the DMA channels that
      are associated with the DMA provider.
 
@@ -126,14 +126,14 @@ The NetDMA interface calls a DMA provider driver's
     <i>ProviderSetDmaChannelCpuAffinity</i> function to specify the CPU affinities of a DMA provider's DMA
     channels. NetDMA calls 
     <i>ProviderSetDmaChannelCpuAffinity</i> while in the context of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
+    <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
     NetDmaRegisterProvider</a> function.
 
 Because the actual number of DMA channels is not known before a DMA provider is started, the NetDMA
     interface specifies the CPU affinities for the maximum number of channels. The DMA provider supplies the
     maximum number of channels in the 
     <b>MaxDmaChannelCount</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
+    <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
     NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that it passes to the 
     <b>NetDmaRegisterProvider</b> function.
 
@@ -141,12 +141,12 @@ On computers that do not support MSI-X platforms, CPU affinities can be specifie
     DPCs but not for the interrupts. In this case, the NetDMA interface specifies a list of possible CPUs for
     the interrupt DPC in the 
     <b>ProcessorAffinityMask</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
+    <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
     NET_DMA_CHANNEL_PARAMETERS</a> structure.
 
 On computers that do support MSI-X, the DMA provider driver can specify interrupt affinities while
     handling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
+    <a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
     IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> IRP.
 
 NetDMA calls 
@@ -154,23 +154,22 @@ NetDMA calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
+<a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_cpu_affinity">NET_DMA_CHANNEL_CPU_AFFINITY</a>
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_cpu_affinity">NET_DMA_CHANNEL_CPU_AFFINITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
-
+<a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>

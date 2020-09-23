@@ -58,7 +58,7 @@ The DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure describes stream-state dat
 
 ### -field SourceRect
 
-[in] A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the source rectangle in the coordinates of the input surface. This member is relevant only when the <b>Enable</b> member is set to <b>TRUE</b>. The default value is (0,0,0,0).
+[in] A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the source rectangle in the coordinates of the input surface. This member is relevant only when the <b>Enable</b> member is set to <b>TRUE</b>. The default value is (0,0,0,0).
 
 ## -remarks
 
@@ -68,5 +68,4 @@ The application can use the source rectangle to specify the active rectangle (di
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>

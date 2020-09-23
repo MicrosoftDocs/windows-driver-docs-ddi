@@ -56,4 +56,4 @@ This function is a constructor and does not return value.
 
 ## -see-also
 
-[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/)
+[dbgmodel.h header](./index.md)

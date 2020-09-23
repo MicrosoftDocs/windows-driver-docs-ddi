@@ -77,15 +77,14 @@ A formatted [**WWAN_NITZ_INFO**](../wwan/ns-wwan-_wwan_nitz_info.md) structure t
 
 ## -remarks
 
-This structure is used in the [NDIS_STATUS_WWAN_NITZ_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-nitz-info) status notification either in response to a previous [OID_WWAN_NITZ](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-nitz) Query request, or as an unsolicited notification.
+This structure is used in the [NDIS_STATUS_WWAN_NITZ_INFO](/windows-hardware/drivers/network/ndis-status-wwan-nitz-info) status notification either in response to a previous [OID_WWAN_NITZ](/windows-hardware/drivers/network/oid-wwan-nitz) Query request, or as an unsolicited notification.
 
 ## -see-also
 
-[MB NITZ support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-nitz-support)
+[MB NITZ support](/windows-hardware/drivers/network/mb-nitz-support)
 
-[OID_WWAN_NITZ](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-nitz)
+[OID_WWAN_NITZ](/windows-hardware/drivers/network/oid-wwan-nitz)
 
-[NDIS_STATUS_WWAN_NITZ_INFO](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-nitz-info)
+[NDIS_STATUS_WWAN_NITZ_INFO](/windows-hardware/drivers/network/ndis-status-wwan-nitz-info)
 
 [**WWAN_NITZ_INFO**](../wwan/ns-wwan-_wwan_nitz_info.md)
-

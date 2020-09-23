@@ -48,19 +48,19 @@ The COLORPROFILETYPE enumeration is used to specify the type of color profile.
 
 ### -field CPT_ICC
 
-Specifies an ICC profile. If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of [COLORPROFILESUBTYPE](https://docs.microsoft.com/previous-versions/ff546012(v=vs.85)) are valid.
+Specifies an ICC profile. If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of [COLORPROFILESUBTYPE](/previous-versions/ff546012(v=vs.85)) are valid.
 
 ### -field CPT_DMP
 
-Specifies a WCS device model profile (DMP). If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of [COLORPROFILESUBTYPE](https://docs.microsoft.com/previous-versions/ff546012(v=vs.85)) are valid.
+Specifies a WCS device model profile (DMP). If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of [COLORPROFILESUBTYPE](/previous-versions/ff546012(v=vs.85)) are valid.
 
 ### -field CPT_CAMP
 
-Specifies a WCS color appearance model profile (CAMP). If this value is specified, only the CPST_NONE value of [COLORPROFILESUBTYPE](https://docs.microsoft.com/previous-versions/ff546012(v=vs.85)) is valid.
+Specifies a WCS color appearance model profile (CAMP). If this value is specified, only the CPST_NONE value of [COLORPROFILESUBTYPE](/previous-versions/ff546012(v=vs.85)) is valid.
 
 ### -field CPT_GMMP
 
-Specifies a WCS gamut map model profile (GMMP). If this value is specified, only the CPST_PERCEPTUAL, CPST_SATURATION, CPST_RELATIVE_COLORIMETRIC, and CPST_ABSOLUTE_COLORIMETRIC values of [COLORPROFILESUBTYPE](https://docs.microsoft.com/previous-versions/ff546012(v=vs.85)) are valid. Any one of these values may optionally be combined (in a bitwise OR operation) with CPST_DEFAULT.
+Specifies a WCS gamut map model profile (GMMP). If this value is specified, only the CPST_PERCEPTUAL, CPST_SATURATION, CPST_RELATIVE_COLORIMETRIC, and CPST_ABSOLUTE_COLORIMETRIC values of [COLORPROFILESUBTYPE](/previous-versions/ff546012(v=vs.85)) are valid. Any one of these values may optionally be combined (in a bitwise OR operation) with CPST_DEFAULT.
 
 ## -remarks
 
@@ -72,4 +72,4 @@ typedef COLORPROFILETYPE *PCOLORPROFILETYPE, *LPCOLORPROFILETYPE;
 
 ## -see-also
 
-[COLORPROFILESUBTYPE](https://docs.microsoft.com/previous-versions/ff546012(v=vs.85))
+[COLORPROFILESUBTYPE](/previous-versions/ff546012(v=vs.85))

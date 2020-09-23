@@ -61,5 +61,4 @@ The zero-based bit position of the least significant nonzero bit, or -1 if every
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindmostsignificantbit">RtlFindMostSignificantBit</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfindmostsignificantbit">RtlFindMostSignificantBit</a>

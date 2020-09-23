@@ -110,9 +110,8 @@ A file system filter driver can call the <b>FsRtlMupGetProviderIdFromName</b> ro
 
 The value of the provider identifier for a particular network redirector remains the same if the network redirector is unloaded from the system and then reloaded back into the system.
 
-To get the provider identifier of a network redirector from a file object, a file system filter driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546981">FsRtlMupGetProviderInfoFromFileObject</a> routine.
+To get the provider identifier of a network redirector from a file object, a file system filter driver can call the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlmupgetproviderinfofromfileobject">FsRtlMupGetProviderInfoFromFileObject</a> routine.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546981">FsRtlMupGetProviderInfoFromFileObject</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlmupgetproviderinfofromfileobject">FsRtlMupGetProviderInfoFromFileObject</a>

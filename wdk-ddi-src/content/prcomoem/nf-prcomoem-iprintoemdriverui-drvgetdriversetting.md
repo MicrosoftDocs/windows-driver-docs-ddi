@@ -52,7 +52,7 @@ The <code>IPrintOemDriverUI::DrvGetDriverSetting</code> method is provided by th
 
 ### -param pci
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
+Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
 ### -param Feature
 
@@ -125,7 +125,7 @@ When calling the <code>IPrintOemDriverUI::DrvGetDriverSetting</code> method, a u
 <ul>
 <li>
 If <i>pFeatureKeyword</i> is a string, it must represent one of the following:<ul>
-<li>A feature name specified in a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/unidrv-minidrivers">Unidrv minidriver</a> GPD file, or,</li>
+<li>A feature name specified in a <a href="/windows-hardware/drivers/print/unidrv-minidrivers">Unidrv minidriver</a> GPD file, or,</li>
 <li>A keyword argument to an *<b>OpenUI</b> entry in a Pscript5 minidriver's PPD file.</li>
 </ul>
 
@@ -138,4 +138,3 @@ If <i>pFeatureKeyword</i> is a constant, it must be one of the <b>OEMGDS_</b>-pr
 
 </li>
 </ul>
-

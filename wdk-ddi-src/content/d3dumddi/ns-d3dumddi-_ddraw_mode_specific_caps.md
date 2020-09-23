@@ -68,7 +68,7 @@ The DDRAW_MODE_SPECIFIC_CAPS structure describes Microsoft DirectDraw capabiliti
 | MODE_CAPS_CANBOBNONINTERLEAVED (0x00000008) | The overlay hardware can display each field of an interlaced video stream individually while it is not interleaved in memory without causing any artifacts that might typically occur without special hardware support. This option is valid only when the surface is receiving data from a VPE object and is valid only when the video is zoomed at least 200 percent in the vertical direction. | 
 | MODE_CAPS_CANFLIPODDEVEN (0x00000010) | The driver supports bob-style deinterlacing that uses software without using a VPE object. | 
 | MODE_CAPS_READSCANLINE (0x00000020) | The current scan line can be read and returned. | 
-| MODE_CAPS_COLORCONTROLOVERLAY (0x00000040) | The driver supports color-control settings for an overlay. For information about setting and retrieving color-control settings, see the [GetOverlayColorControls](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols) and [SetOverlayColorControls](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols) functions. |
+| MODE_CAPS_COLORCONTROLOVERLAY (0x00000040) | The driver supports color-control settings for an overlay. For information about setting and retrieving color-control settings, see the [GetOverlayColorControls](./nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols.md) and [SetOverlayColorControls](./nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols.md) functions. |
 
 ### -field CKeyCaps
 
@@ -115,13 +115,12 @@ Capabilities can change between heads of a multiple-headed graphics card and can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>

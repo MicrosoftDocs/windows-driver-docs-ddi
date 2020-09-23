@@ -87,9 +87,9 @@ BOOL WritePort(
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors">Language monitors</a> and port monitor server DLLs are required to define a <code>WritePort</code> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
+<a href="/windows-hardware/drivers/print/language-monitors">Language monitors</a> and port monitor server DLLs are required to define a <code>WritePort</code> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
 
-The handle received as the function's <i>hPort</i> argument is the port handle that the monitor's <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a> or <a href="https://docs.microsoft.com/previous-versions/ff559596(v=vs.85)">OpenPortEx</a> function supplied.
+The handle received as the function's <i>hPort</i> argument is the port handle that the monitor's <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a> or <a href="/previous-versions/ff559596(v=vs.85)">OpenPortEx</a> function supplied.
 
 Typically, a language monitor's <code>WritePort</code> function adds language-specific commands to the data stream contained in the buffer pointed to by <i>pBuffer</i>, and then passes the modified data stream to the port monitor's <code>WritePort</code> function.
 
@@ -103,15 +103,15 @@ The spooler determines the success or failure of the write operation by checking
 
 Some sort of system-implemented or monitor-implemented time-out mechanism must ensure that the <code>WritePort</code> function will return within a reasonable amount of time, to avoid stalling the spooler.
 
-It is acceptable for a language monitor to call a port monitor's <code>WritePort</code> routine outside of a <a href="https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)">StartDocPort</a>/<a href="https://docs.microsoft.com/previous-versions/ff548742(v=vs.85)">EndDocPort</a> pair. However, some port monitors might fail such a call, so the language monitor must be written to handle this failure.
+It is acceptable for a language monitor to call a port monitor's <code>WritePort</code> routine outside of a <a href="/previous-versions/ff562710(v=vs.85)">StartDocPort</a>/<a href="/previous-versions/ff548742(v=vs.85)">EndDocPort</a> pair. However, some port monitors might fail such a call, so the language monitor must be written to handle this failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)">StartDocPort</a>
+<a href="/previous-versions/ff562710(v=vs.85)">StartDocPort</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff559596(v=vs.85)">OpenPortEx</a>
+<a href="/previous-versions/ff559596(v=vs.85)">OpenPortEx</a>
 
 
 
@@ -123,5 +123,4 @@ It is acceptable for a language monitor to call a port monitor's <code>WritePort
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff548742(v=vs.85)">EndDocPort</a>
-
+<a href="/previous-versions/ff548742(v=vs.85)">EndDocPort</a>

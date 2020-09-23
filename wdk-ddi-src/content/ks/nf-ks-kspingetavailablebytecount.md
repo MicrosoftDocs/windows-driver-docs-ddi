@@ -54,7 +54,7 @@ The<b> KsPinGetAvailableByteCount</b> routine outputs the number of bytes of inp
 ### -param Pin 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to calculate these queue parameters.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for which to calculate these queue parameters.
 
 ### -param InputDataBytes 
 
@@ -74,51 +74,50 @@ Returns STATUS_SUCCESS if the requested count(s) have been retrieved. A nonsucce
 
 Noninplace pins should use <i>InputDataBytes</i> for input pins and <i>OutputBufferBytes</i> for output pins.
 
-The results of this call are not guaranteed to be safe unless either the processing mutex is held at call-time, or the caller has privately synchronized before calling the routine. To private synchronize, ensure that the pin does not transition from Acquire to Stop while the routine is executing. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/processing-mutex-in-avstream">Processing Mutex in AVStream</a>.
+The results of this call are not guaranteed to be safe unless either the processing mutex is held at call-time, or the caller has privately synchronized before calling the routine. To private synchronize, ensure that the pin does not transition from Acquire to Stop while the routine is executing. See <a href="/windows-hardware/drivers/stream/processing-mutex-in-avstream">Processing Mutex in AVStream</a>.
 
 Also note that in-place transform can supply input and output counts.
 
 In Windows XP and DirectX 8.0, the <i>InputDataBytes</i> count is not valid unless frames that the filter receives are full.
 
-For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/leading-and-trailing-edge-stream-pointers">Leading and Trailing Edge Stream Pointers</a>.
+For additional information, see <a href="/windows-hardware/drivers/stream/leading-and-trailing-edge-stream-pointers">Leading and Trailing Edge Stream Pointers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a>
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilteracquireprocessingmutex">KsFilterAcquireProcessingMutex</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilteracquireprocessingmutex">KsFilterAcquireProcessingMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterreleaseprocessingmutex">KsFilterReleaseProcessingMutex</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterreleaseprocessingmutex">KsFilterReleaseProcessingMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinacquireprocessingmutex">KsPinAcquireProcessingMutex</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinacquireprocessingmutex">KsPinAcquireProcessingMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetleadingedgestreampointer">KsPinGetLeadingEdgeStreamPointer</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetleadingedgestreampointer">KsPinGetLeadingEdgeStreamPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingettrailingedgestreampointer">KsPinGetTrailingEdgeStreamPointer</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingettrailingedgestreampointer">KsPinGetTrailingEdgeStreamPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinreleaseprocessingmutex">KsPinReleaseProcessingMutex</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinreleaseprocessingmutex">KsPinReleaseProcessingMutex</a>

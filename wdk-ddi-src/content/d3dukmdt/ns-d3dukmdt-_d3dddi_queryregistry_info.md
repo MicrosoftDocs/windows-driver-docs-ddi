@@ -85,7 +85,7 @@ When retrieving file path information, **ValueName** is ignored.
 
 When retrieving registry information, **ValueType** must specify the expected registry value type that corresponds to the registry value name.
 When retrieving file path information, **ValueType** must be 0 to succeed. 
-See [Registry Value Types](https://docs.microsoft.com/windows/win32/sysinfo/registry-value-types) for more detail.
+See [Registry Value Types](/windows/win32/sysinfo/registry-value-types) for more detail.
 
 ### -field PhysicalAdapterIndex
 
@@ -141,4 +141,3 @@ It is most useful when a registry binary blob is being read.
 - [D3DDDI_QUERYREGISTRY_STATUS](ne-d3dukmdt-_d3dddi_queryregistry_status.md)
 - [KMTQUERYADAPTERINFOTYPE](../d3dkmthk/ne-d3dkmthk-_kmtqueryadapterinfotype.md)
 - [D3DKMT_QUERYADAPTERINFO](../d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
-

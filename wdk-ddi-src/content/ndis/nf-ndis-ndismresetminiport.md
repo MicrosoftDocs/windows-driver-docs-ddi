@@ -54,13 +54,12 @@ A miniport driver calls the <b>NdisMResetMiniport</b> function to trigger a late
 ### -param MiniportAdapterHandle 
 
 [in]
-The miniport adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+The miniport adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 ## -remarks
 
 A miniport driver calls <b>NdisMResetMiniport</b> when it determines that the device requires a hardware reset.
 
-As a result, NDIS schedules a work item for calling the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a> function asynchronously.
+As a result, NDIS schedules a work item for calling the miniport driver's <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a> function asynchronously.
 
 <b>NdisMResetMiniport</b> must be called at IRQL <= DISPATCH_LEVEL.
-

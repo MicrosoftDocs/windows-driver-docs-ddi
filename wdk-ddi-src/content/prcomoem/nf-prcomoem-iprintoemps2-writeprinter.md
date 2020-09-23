@@ -52,7 +52,7 @@ The <code>IPrintOemPS2::WritePrinter</code> method, if supported, enables a rend
 
 ### -param pdevobj
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param pBuf
 
@@ -72,7 +72,6 @@ If successful, this method returns S_OK. Otherwise, this method should return an
 
 ## -remarks
 
-At <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> time, the PostScript driver calls this method with <i>pBuf</i> and <i>pdevobj</i> set to <b>NULL</b>, and <i>cbBuf</i> set to 0, to detect whether the plug-in implements this function. The plug-in should return S_OK to indicate it implements this method, and should return E_NOTIMPL otherwise.
+At <a href="/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> time, the PostScript driver calls this method with <i>pBuf</i> and <i>pdevobj</i> set to <b>NULL</b>, and <i>cbBuf</i> set to 0, to detect whether the plug-in implements this function. The plug-in should return S_OK to indicate it implements this method, and should return E_NOTIMPL otherwise.
 
 This method should report the number of bytes written to the spooler's <b>WritePrinter</b> function in <i>pcbWritten</i>. A value of zero carries no special meaning; errors must be reported through the returned HRESULT.
-

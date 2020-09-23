@@ -121,10 +121,10 @@ NDIS drivers can call the
     drivers.
 
 NDIS maintains an interface stack table (<i>ifStackTable</i> from 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
+    <a href="/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>). NDIS provides
     the 
     <b>NdisIfAddIfStackEntry</b> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifdeleteifstackentry">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifdeleteifstackentry">
     NdisIfDeleteIfStackEntry</a> functions to add and delete entries in this table.
 
 Any driver that can provide the information about the stack order relationship between two interfaces
@@ -134,5 +134,4 @@ Any driver that can provide the information about the stack order relationship b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifdeleteifstackentry">NdisIfDeleteIfStackEntry</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifdeleteifstackentry">NdisIfDeleteIfStackEntry</a>

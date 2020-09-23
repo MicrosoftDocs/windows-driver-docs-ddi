@@ -54,15 +54,14 @@ This method does not return a value.
 
 ## -remarks
 
-The <b>OutFullValue</b> method prints more detail than the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outsimplevalue">ExtRemoteTyped::OutSimpleValue</a> method. For example, <b>OutFullValue</b> prints dereferenced pointers and the values that they point to.
+The <b>OutFullValue</b> method prints more detail than the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outsimplevalue">ExtRemoteTyped::OutSimpleValue</a> method. For example, <b>OutFullValue</b> prints dereferenced pointers and the values that they point to.
 
 The type and value information is sent to the debugger engine's output callbacks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outsimplevalue">ExtRemoteTyped::OutSimpleValue</a>
-
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-outsimplevalue">ExtRemoteTyped::OutSimpleValue</a>

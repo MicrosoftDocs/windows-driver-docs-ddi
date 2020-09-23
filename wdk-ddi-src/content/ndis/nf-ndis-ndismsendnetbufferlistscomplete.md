@@ -48,34 +48,34 @@ api_name:
 ## -description
 
 Miniport drivers call the
-**NdisMSendNetBufferListsComplete** function to return a linked list of [NET_BUFFER_LIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list) structures to an overlying driver and to return the final status of a send request.
+**NdisMSendNetBufferListsComplete** function to return a linked list of [NET_BUFFER_LIST](./ns-ndis-_net_buffer_list.md) structures to an overlying driver and to return the final status of a send request.
 
 ## -parameters
 
 ### -param MiniportAdapterHandle 
 
 [in]
-The miniport handle that NDIS passed to the [MiniportInitializeEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize) function.
+The miniport handle that NDIS passed to the [MiniportInitializeEx](./nc-ndis-miniport_initialize.md) function.
 
 ### -param NetBufferList
 
-A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver received the NET_BUFFER_LIST structures in previous calls to its [MiniportSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists) function.
+A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver received the NET_BUFFER_LIST structures in previous calls to its [MiniportSendNetBufferLists](./nc-ndis-miniport_send_net_buffer_lists.md) function.
 
 ### -param SendCompleteFlags 
 
 [in]
-NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see [Dispatch IRQL Tracking](https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking).
+NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see [Dispatch IRQL Tracking](/windows-hardware/drivers/network/dispatch-irql-tracking).
 
 ## -remarks
 
 A miniport driver calls **NdisMSendNetBufferListsComplete** to complete send requests that NDIS made to the driver's
-[MiniportSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists) function. The miniport driver specifies a linked list of [NET_BUFFER_LIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list) structures that are
+[MiniportSendNetBufferLists](./nc-ndis-miniport_send_net_buffer_lists.md) function. The miniport driver specifies a linked list of [NET_BUFFER_LIST](./ns-ndis-_net_buffer_list.md) structures that are
 associated with the completed send requests. While the status of the send requests is pending, the miniport driver retains ownership of the NET_BUFFER_LIST structures and all the protocol-allocated resources that are associated with the NET_BUFFER_LIST structures.
 
 After a miniport driver calls **NdisMSendNetBufferListsComplete**, NDIS calls the
-[ProtocolSendNetBufferListsComplete](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete) function of the driver that called the [NdisSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists) function to     initiate the send request.
+[ProtocolSendNetBufferListsComplete](./nc-ndis-protocol_send_net_buffer_lists_complete.md) function of the driver that called the [NdisSendNetBufferLists](./nf-ndis-ndissendnetbufferlists.md) function to     initiate the send request.
 
-The miniport driver can complete send requests in any order. For example, the miniport driver could concatenate the NET_BUFFER_LIST structure lists from multiple *MiniportSendNetBufferLists* calls or split up a list from a *MiniportSendNetBufferLists* call. However, the miniport driver must not modify the list of [NET_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer) structures that are associated with a
+The miniport driver can complete send requests in any order. For example, the miniport driver could concatenate the NET_BUFFER_LIST structure lists from multiple *MiniportSendNetBufferLists* calls or split up a list from a *MiniportSendNetBufferLists* call. However, the miniport driver must not modify the list of [NET_BUFFER](./ns-ndis-_net_buffer.md) structures that are associated with a
     NET_BUFFER_LIST structure.
 
 The miniport driver must set one of the following status codes in the **Status** member of each NET_BUFFER_LIST structure that the *NetBufferLists* parameter specifies:
@@ -95,15 +95,14 @@ A miniport driver's call to
 
 ## -see-also
 
-[MiniportCancelSend](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send)</a>
+[MiniportCancelSend](./nc-ndis-miniport_cancel_send.md)</a>
 
-[MiniportInitializeEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize)
+[MiniportInitializeEx](./nc-ndis-miniport_initialize.md)
 
-[MiniportSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_send_net_buffer_lists)
+[MiniportSendNetBufferLists](./nc-ndis-miniport_send_net_buffer_lists.md)
 
-[NET_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer)
+[NET_BUFFER](./ns-ndis-_net_buffer.md)
 
-[NET_BUFFER_LIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list)
+[NET_BUFFER_LIST](./ns-ndis-_net_buffer_list.md)
 
-[NdisSendNetBufferLists](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list)
-
+[NdisSendNetBufferLists](./ns-ndis-_net_buffer_list.md)

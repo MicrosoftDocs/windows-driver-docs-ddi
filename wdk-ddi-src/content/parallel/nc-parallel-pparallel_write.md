@@ -53,7 +53,7 @@ The PPARALLEL_WRITE-typed callback routine writes data to a parallel device. The
 ### -param Context 
 
 [in]
-Pointer to the device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
+Pointer to the device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
 ### -param Buffer 
 
@@ -133,4 +133,3 @@ The PPARALLEL_WRITE callback runs in the caller's thread at the IRQL of the call
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-

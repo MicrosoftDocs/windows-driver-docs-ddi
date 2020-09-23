@@ -84,15 +84,14 @@ If *Timeout* = 0, the routine returns without waiting. If the miniport supplies 
 
 ## -remarks
 
-See [**KeWaitForSingleObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject) for more details.
+See [**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md) for more details.
 
 Callers of **StorportWaitForSingleObject** must be running at IRQL <= DISPATCH_LEVEL. However, if *Timeout* = NULL or *Timeout* != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. (If *Timeout* != NULL and *Timeout* = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.)
 
 ## -see-also
 
-[**KeWaitForSingleObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject)
+[**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)
 
 [**StorportInitializeEvent**](nf-storport-storportinitializeevent.md)
 
 [**StorportSetEvent**](nf-storport-storportsetevent.md)
-

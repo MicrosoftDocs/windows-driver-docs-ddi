@@ -68,29 +68,29 @@ A pointer to a GUID that identifies the device interface class.
 ### -param ReferenceString 
 
 [in, optional]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. The string must not contain any path separator characters ("/" or "\\").  This parameter is optional and can be <b>NULL</b>.   For more information, see the following Remarks section.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. The string must not contain any path separator characters ("/" or "\\").  This parameter is optional and can be <b>NULL</b>.   For more information, see the following Remarks section.
 
 ## -returns
 
 <b>WdfDeviceCreateDeviceInterface</b> returns STATUS_SUCCESS if the operation succeeds.
 
-For a list of other return values that <b>WdfDeviceCreateDeviceInterface</b> can return, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-creation-errors">Framework Object Creation Errors</a>.
+For a list of other return values that <b>WdfDeviceCreateDeviceInterface</b> can return, see <a href="/windows-hardware/drivers/wdf/framework-object-creation-errors">Framework Object Creation Errors</a>.
 
-The method might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+The method might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-The driver can call **WdfDeviceCreateDeviceInterface** from [*EVT_WDF_DRIVER_DEVICE_ADD*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add), or after the device has started. 
+The driver can call **WdfDeviceCreateDeviceInterface** from [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md), or after the device has started. 
  
-If the driver calls this function from its *EVT_WDF_DRIVER_DEVICE_ADD* callback function, the interface is automatically enabled when the device starts and disabled when the device stops. To prevent auto enable, the driver can call [**WdfDeviceSetDeviceInterfaceStateEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestateex) with the **IsInterfaceEnabled** parameter set to **FALSE**. 
+If the driver calls this function from its *EVT_WDF_DRIVER_DEVICE_ADD* callback function, the interface is automatically enabled when the device starts and disabled when the device stops. To prevent auto enable, the driver can call [**WdfDeviceSetDeviceInterfaceStateEx**](./nf-wdfdevice-wdfdevicesetdeviceinterfacestateex.md) with the **IsInterfaceEnabled** parameter set to **FALSE**. 
  
-If the driver calls this function after the device has already started, the interface remains disabled. The driver can call [**WdfDeviceSetDeviceInterfaceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate) as appropriate. 
+If the driver calls this function after the device has already started, the interface remains disabled. The driver can call [**WdfDeviceSetDeviceInterfaceState**](./nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md) as appropriate. 
 
 Drivers can use the <i>ReferenceString</i> parameter to differentiate different instances of a single interface. In other words, if a driver calls <b>WdfDeviceCreateDeviceInterface</b> twice for the same device interface class, the driver can specify a different <i>ReferenceString</i> parameter each time. When an instance of an interface is opened, the I/O manager passes the instance's reference string to the driver. The reference string is appended to the path component of the interface instance's name. The driver can then use the reference string to determine which instance of the device interface class is being opened.
 
-For more information about device interfaces and the <b>WdfDeviceCreateDeviceInterface</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>.
+For more information about device interfaces and the <b>WdfDeviceCreateDeviceInterface</b> method, see <a href="/windows-hardware/drivers/wdf/using-device-interfaces">Using Device Interfaces</a>.
 
 
 #### Examples
@@ -109,9 +109,8 @@ status = WdfDeviceCreateDeviceInterface(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate">WdfDeviceSetDeviceInterfaceState</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate">WdfDeviceSetDeviceInterfaceState</a>

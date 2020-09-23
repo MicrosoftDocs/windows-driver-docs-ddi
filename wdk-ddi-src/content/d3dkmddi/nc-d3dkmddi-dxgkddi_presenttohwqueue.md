@@ -92,7 +92,6 @@ NTSTATUS DxgkddiPresenttohwqueue
 
 ## -remarks
 
-WDDM synchronization class: [Zero level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level)
+WDDM synchronization class: [Zero level](/windows-hardware/drivers/display/threading-and-synchronization-zero-level)
 
 ## -see-also
-

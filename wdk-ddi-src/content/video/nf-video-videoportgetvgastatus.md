@@ -70,5 +70,4 @@ Pointer to the resulting VGA status. A value of zero (0) indicates that VGA is n
 
 ## -remarks
 
-The <b>VideoPortGetVgaStatus</b> function is mainly used to determine whether a device is the sole VGA-enabled device in a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/multiple-monitor-support-in-the-display-driver">multiple monitor</a> system.
-
+The <b>VideoPortGetVgaStatus</b> function is mainly used to determine whether a device is the sole VGA-enabled device in a <a href="/windows-hardware/drivers/display/multiple-monitor-support-in-the-display-driver">multiple monitor</a> system.

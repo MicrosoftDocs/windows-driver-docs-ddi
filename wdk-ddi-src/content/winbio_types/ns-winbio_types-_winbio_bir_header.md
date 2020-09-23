@@ -72,19 +72,19 @@ A structure of type WINBIO_BIR_VERSION that specifies PATRON_HEADER_VERSION.
 
 ### -field DataFlags
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_parameters">WINBIO_BIR_DATA_FLAGS</a> that specifies the level of processing expected for a data capture.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_parameters">WINBIO_BIR_DATA_FLAGS</a> that specifies the level of processing expected for a data capture.
 
 ### -field Type
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_TYPE</a> that specifies the biometric type.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_TYPE</a> that specifies the biometric type.
 
 ### -field Subtype
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_SENSOR_SUBTYPE</a> that specifies the biometric subtype.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_SENSOR_SUBTYPE</a> that specifies the biometric subtype.
 
 ### -field Purpose
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_parameters">WINBIO_BIR_PURPOSE</a> that specifies the intended use of the data.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_parameters">WINBIO_BIR_PURPOSE</a> that specifies the intended use of the data.
 
 ### -field DataQuality
 
@@ -112,11 +112,11 @@ Specifies the validity period of this BIR by using the format described in <i>Cr
 
 ### -field BiometricDataFormat
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_registered_format">WINBIO_REGISTERED_FORMAT</a> that specifies the data format of the <b>StandardDataBlock</b> for this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_registered_format">WINBIO_REGISTERED_FORMAT</a> that specifies the data format of the <b>StandardDataBlock</b> for this <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>.
 
 ### -field ProductId
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_registered_format">WINBIO_REGISTERED_FORMAT</a> that specifies the product identifier for the component that generated the <b>StandardDataBlock</b> for this WINBIO_BIR.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_registered_format">WINBIO_REGISTERED_FORMAT</a> that specifies the product identifier for the component that generated the <b>StandardDataBlock</b> for this WINBIO_BIR.
 
 ## -remarks
 
@@ -124,7 +124,6 @@ You can find more information about the fields of the standard biometric header 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>
+<a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir_data">WINBIO_BIR_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir_data">WINBIO_BIR_DATA</a>

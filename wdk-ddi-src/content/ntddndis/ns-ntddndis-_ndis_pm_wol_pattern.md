@@ -56,7 +56,7 @@ The <b>NDIS_PM_WOL_PATTERN</b> structure defines a wake-on-LAN (WOL) pattern.
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_PM_WOL_PATTERN</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_PM_WOL_PATTERN</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_PM_WOL_PATTERN</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -66,7 +66,7 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 
 #### NDIS_PM_WOL_PATTERN_REVISION_2
 
-Revisions made to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_pm_wol_packet">NDIS_PM_WOL_PACKET</a> enumeration for NDIS 6.30.
+Revisions made to  the <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_pm_wol_packet">NDIS_PM_WOL_PACKET</a> enumeration for NDIS 6.30.
 
 Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_WOL_PATTERN_REVISION_2.
 
@@ -114,20 +114,20 @@ Specifies the highest priority WOL pattern.
 ### -field WoLPacketType
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_pm_wol_packet">NDIS_PM_WOL_PACKET</a> enumeration value that
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_pm_wol_packet">NDIS_PM_WOL_PACKET</a> enumeration value that
      specifies the type of the WOL packet.
 
 ### -field FriendlyName
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_counted_string">NDIS_PM_COUNTED_STRING</a> structure
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_counted_string">NDIS_PM_COUNTED_STRING</a> structure
      that contains the user-readable description of the WOL packet.
 
 ### -field PatternId
 
 A ULONG value that contains an NDIS-provided value that identifies the WOL pattern. Before NDIS
      sends the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a> OID request down
+     <a href="/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a> OID request down
      to the underlying NDIS drivers or completes the request to the overlying driver, NDIS sets 
      <b>PatternId</b> to a value that is unique among the WOL patterns on a network adapter.
 
@@ -239,8 +239,8 @@ The size, in bytes, of the pattern.
 ## -remarks
 
 The NDIS_PM_WOL_PATTERN structure is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-wol-pattern-list">OID_PM_WOL_PATTERN_LIST</a> OID
+    <a href="/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a> and 
+    <a href="/windows-hardware/drivers/network/oid-pm-wol-pattern-list">OID_PM_WOL_PATTERN_LIST</a> OID
     requests.
 
 An upper-layer driver can specify a generic WOL pattern with the 
@@ -268,25 +268,24 @@ Similarly, an upper layer driver can specify an unspecified
 
 The upper layer driver sets the NDIS_PM_WOL_IPV4_DEST_ADDR_WILDCARD_ENABLED and
     NDIS_PM_WOL_IPV6_DEST_ADDR_WILDCARD_ENABLED flags by issuing a set request of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-parameters">OID_PM_PARAMETERS</a> OID.
+    <a href="/windows-hardware/drivers/network/oid-pm-parameters">OID_PM_PARAMETERS</a> OID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_counted_string">NDIS_PM_COUNTED_STRING</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_counted_string">NDIS_PM_COUNTED_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_pm_wol_packet">NDIS_PM_WOL_PACKET</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_pm_wol_packet">NDIS_PM_WOL_PACKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a>
+<a href="/windows-hardware/drivers/network/oid-pm-add-wol-pattern">OID_PM_ADD_WOL_PATTERN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-wol-pattern-list">OID_PM_WOL_PATTERN_LIST</a>
-
+<a href="/windows-hardware/drivers/network/oid-pm-wol-pattern-list">OID_PM_WOL_PATTERN_LIST</a>

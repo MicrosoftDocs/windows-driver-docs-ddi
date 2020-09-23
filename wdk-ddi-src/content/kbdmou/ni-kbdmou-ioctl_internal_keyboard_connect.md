@@ -52,7 +52,7 @@ After Kbfiltr received the keyboard connect request, Kbfiltr filters the connect
 
 <ul>
 <li>
-Saves a copy of Kbdclass's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a> structure that is passed to the filter driver by Kbdclass
+Saves a copy of Kbdclass's <a href="/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a> structure that is passed to the filter driver by Kbdclass
 
 </li>
 <li>
@@ -66,20 +66,20 @@ Sends the IOCTL_INTERNAL_KEYBOARD_CONNECT request down the device stack
 </ul>
 If the request is not successful, Kbfiltr completes the request with an appropriate error status.
 
-Kbfiltr provides a template for a filter service callback routine that can supplement the operation of <a href="https://docs.microsoft.com/previous-versions/ff542324(v=vs.85)">KeyboardClassServiceCallback</a>, the Kbdclass class service callback routine. The filter service callback can filter the input data that is transferred from the device input buffer to the class data queue. 
+Kbfiltr provides a template for a filter service callback routine that can supplement the operation of <a href="/previous-versions/ff542324(v=vs.85)">KeyboardClassServiceCallback</a>, the Kbdclass class service callback routine. The filter service callback can filter the input data that is transferred from the device input buffer to the class data queue. 
 
 For more information about the connection of the Kbdclass service, see the following topics:
 
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/nc-kbdmou-pservice_callback_routine">Kbdclass Class Service Callback Routine</a>
+<a href="/windows-hardware/drivers/ddi/kbdmou/nc-kbdmou-pservice_callback_routine">Kbdclass Class Service Callback Routine</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/previous-versions/ff542302(v=vs.85)">Kbfiltr Callback Routines</a>
+<a href="/previous-versions/ff542302(v=vs.85)">Kbfiltr Callback Routines</a>
 
 
 </dd>
@@ -137,13 +137,12 @@ The request completed successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a>
+<a href="/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_keyboard">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
+<a href="/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_keyboard">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff542324(v=vs.85)">KeyboardClassServiceCallback</a>
-
+<a href="/previous-versions/ff542324(v=vs.85)">KeyboardClassServiceCallback</a>

@@ -82,11 +82,10 @@ Specifies near darkness for viewing video (for example, movie-theatre lighting).
 
 ## -remarks
 
-One of the enumerators of DXVA_VideoLighting can be specified in the <b>VideoLighting</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a> structure.
+One of the enumerators of DXVA_VideoLighting can be specified in the <b>VideoLighting</b> member of the <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a> structure.
 
 The video lighting enumerators can be used to alter the gamma to generate a comparable experience in a different lighting condition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>

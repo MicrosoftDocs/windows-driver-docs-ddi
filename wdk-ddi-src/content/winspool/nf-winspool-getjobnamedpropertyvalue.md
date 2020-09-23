@@ -54,12 +54,12 @@ Retrieves the value of the named property for the specified print job on the spe
 ### -param hPrinter 
 
 [in]
-A handle to the printer object of interest. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>, <a href="https://docs.microsoft.com/windows/win32/printdocs/openprinter2">OpenPrinter2</a>, or the <a href="https://docs.microsoft.com/windows/win32/printdocs/addprinter">AddPrinter</a> function to retrieve a printer handle.
+A handle to the printer object of interest. Use the <a href="/windows-hardware/drivers/print/openprinter">OpenPrinter</a>, <a href="/windows/win32/printdocs/openprinter2">OpenPrinter2</a>, or the <a href="/windows/win32/printdocs/addprinter">AddPrinter</a> function to retrieve a printer handle.
 
 ### -param JobId 
 
 [in]
-Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://docs.microsoft.com/windows/win32/printdocs/addjob">AddJob</a> function or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nf-printoem-oemstartdoc">StartDoc</a> function.
+Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="/windows/win32/printdocs/addjob">AddJob</a> function or the <a href="/windows-hardware/drivers/ddi/printoem/nf-printoem-oemstartdoc">StartDoc</a> function.
 
 ### -param pszName 
 
@@ -69,9 +69,8 @@ Name of the property whose value will be retrieved.
 ### -param pValue 
 
 [out]
-Value of the named property. The caller needs to free this using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-freeprintpropertyvalue">FreePrintPropertyValue</a> function.
+Value of the named property. The caller needs to free this using the <a href="/windows-hardware/drivers/ddi/winspool/nf-winspool-freeprintpropertyvalue">FreePrintPropertyValue</a> function.
 
 ## -returns
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
-

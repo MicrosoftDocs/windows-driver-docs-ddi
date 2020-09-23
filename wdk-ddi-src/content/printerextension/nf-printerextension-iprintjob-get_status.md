@@ -56,9 +56,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintjobstatus">PrintJobStatus</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintjobstatus">PrintJobStatus</a>

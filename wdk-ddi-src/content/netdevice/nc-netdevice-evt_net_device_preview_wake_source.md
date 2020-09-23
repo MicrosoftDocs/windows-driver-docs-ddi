@@ -93,7 +93,6 @@ Client drivers typically call **NetDeviceInitSetPowerPolicyEventCallbacks** when
 
 In this callback, client drivers get the chance to reject the wake source. For example, if the number of power filters in the current wake source list for **Device** have already reached or exceeded the number of power filters that the hardware supports, the driver can reject this wake source.
 
-For more info, see [Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
+For more info, see [Configuring Power Management](/windows-hardware/drivers/netcx/configuring-power-management).
 
 ## -see-also
-

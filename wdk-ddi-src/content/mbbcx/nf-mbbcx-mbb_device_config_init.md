@@ -74,5 +74,4 @@ The client driver calls this method from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wd
 
 ## -see-also
 
-[Mobile Broadband (MBB) WDF class extension (MBBCx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx)
-
+[Mobile Broadband (MBB) WDF class extension (MBBCx)](/windows-hardware/drivers/netcx/mobile-broadband-mbb-wdf-class-extension-mbbcx)

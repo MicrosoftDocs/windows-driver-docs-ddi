@@ -62,14 +62,14 @@ A handle used by the NMR to represent the binding between the client module and 
 [in]
 A pointer to the provider module's registration context. The provider module passes this pointer
      to the NMR when it calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function to
+     <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function to
      register itself with the NMR.
 
 ### -param ClientRegistrationInstance 
 
 [in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">
+     <a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">
      NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the client module's registration
      data.
 
@@ -80,14 +80,14 @@ A pointer to the client module's context for the binding between the client modu
      provider module. The client module uses this context to keep track of the state of the binding. The
      contents of the client module's binding context are opaque to the provider module. The provider module
      passes this pointer to the client module whenever it calls any of the client module's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions that
+     <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions that
      require the client module's binding context.
 
 ### -param ClientDispatch 
 
 [in]
 A pointer to a constant structure that contains the dispatch table of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
+     <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
      client module. The contents of the structure are 
      NPI-specific. If the 
      NPI does not define a client
@@ -101,7 +101,7 @@ A pointer to a variable into which the provider module will store a pointer to i
      track of the state of the binding. The contents of the provider module's binding context are opaque to
      the client module. The client module passes this pointer to the provider module whenever it calls one of
      the provider module's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
+     <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions that require the
      provider module's binding context. The provider module must make sure that this context remains valid
      and resident in memory as long as the client module is attached to the provider module.
 
@@ -110,7 +110,7 @@ A pointer to a variable into which the provider module will store a pointer to i
 
 A pointer to a variable into which the provider module will store a pointer to a constant
      structure that contains the dispatch table of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
+     <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
      module. The provider module must make sure that this structure remains valid and resident in memory as
      long as the client module is attached to the provider module. The contents of the structure are 
      NPI-specific.
@@ -120,7 +120,7 @@ A pointer to a variable into which the provider module will store a pointer to a
 
 A pointer to a variable into which the provider module will store a pointer to a constant
      structure that contains the dispatch table of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
+     <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
      module. The provider module must make sure that this structure remains valid and resident in memory as
      long as the client module is attached to the provider module. The contents of the structure are 
      NPI-specific.
@@ -174,7 +174,7 @@ An error occurred.
 
 The NMR calls a provider module's 
     <i>ProviderAttachClient</i> callback function whenever a client module calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a> function
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a> function
     with a handle that represents a binding between the client module and the provider module.
 
 A provider module can examine the client module's registration data. This data is in the structure
@@ -189,10 +189,10 @@ A provider module can examine the client module's registration data. This data i
 <li>Save the pointers passed in the 
       <i>ClientBindingContext</i> and 
       <i>ClientDispatch</i> parameters so that the provider module can make calls to the client module's 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.</li>
+      <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.</li>
 <li>Save the handle passed in the 
       <i>NmrBindingHandle</i> parameter. The provider module passes this handle as a parameter to the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrproviderdetachclientcomplete">
+      <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrproviderdetachclientcomplete">
       NmrProviderDetachClientComplete</a> function when it detaches from the client module.</li>
 <li>Set the 
       <i>ProviderBindingContext</i> parameter to point to the provider module's binding context structure for
@@ -200,7 +200,7 @@ A provider module can examine the client module's registration data. This data i
 <li>Set the 
       <i>ProviderDispatch</i> parameter to point to a structure that contains the provider module's dispatch
       table of 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.</li>
+      <a href="/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions.</li>
 <li>Return STATUS_SUCCESS.</li>
 </ol>
 </li>
@@ -212,7 +212,7 @@ If the provider module determines that it will not attach to the client module, 
 </ul>
 If the provider module attaches to the client module and it dynamically allocated memory for its
     binding context, it should free that allocated memory when the NMR calls the provider module's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
+    <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
     ProviderCleanupBindingContext</a> callback function after the client module and provider module are
     detached from each other.
 
@@ -221,31 +221,30 @@ The NMR calls a provider module's
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_provider_characteristics">NPI_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">NPI_REGISTRATION_INSTANCE</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/ns-netioddk-_npi_registration_instance">NPI_REGISTRATION_INSTANCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrclientattachprovider">NmrClientAttachProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrproviderdetachclientcomplete">
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrproviderdetachclientcomplete">
    NmrProviderDetachClientComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
    ProviderCleanupBindingContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>
-
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>

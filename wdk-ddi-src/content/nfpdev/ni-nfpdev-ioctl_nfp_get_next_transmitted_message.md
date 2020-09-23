@@ -72,7 +72,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -88,7 +88,7 @@ The client should send another IOCTL each time the pended one is completed.  The
 <li>
 The following actions are required when using this IOCTL:<ul>
 <li>
-If this IOCTL is received on a handle that hasn’t previously succeeded an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfpdev/ni-nfpdev-ioctl_nfp_set_payload">IOCTL_NFP_SET_PAYLOAD</a>, the driver MUST complete it with STATUS_INVALID_DEVICE_STATE.
+If this IOCTL is received on a handle that hasn’t previously succeeded an <a href="/windows-hardware/drivers/ddi/nfpdev/ni-nfpdev-ioctl_nfp_set_payload">IOCTL_NFP_SET_PAYLOAD</a>, the driver MUST complete it with STATUS_INVALID_DEVICE_STATE.
 
 </li>
 <li>
@@ -137,9 +137,8 @@ The driver MUST support CancelIo of the pended IOCTL.
 
 ## -see-also
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) overall design guide</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
-
+<a href="/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>

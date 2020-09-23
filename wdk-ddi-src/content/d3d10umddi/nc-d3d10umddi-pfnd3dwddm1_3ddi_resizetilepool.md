@@ -64,7 +64,7 @@ The new size, in bytes, of the tile pool. The size must be a multiple of 64 KB o
 
 ## -returns
 
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
+The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
 
 |Return code|Description|
 |--- |--- |
@@ -73,4 +73,3 @@ The driver can use the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 
 The Direct3D runtime performs minimal validation of parameters, but it will fail the call if the new tile pool size isn't a multiple of the tile size, or zero.
-

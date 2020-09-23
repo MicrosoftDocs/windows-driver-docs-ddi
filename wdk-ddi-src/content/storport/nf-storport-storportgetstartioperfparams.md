@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>StorPortGetStartIoPerfParams</b> routine places the performance parameters for a given I/O request in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_startio_performance_parameters">STARTIO_PERFORMANCE_PARAMETERS</a> structure.
+The <b>StorPortGetStartIoPerfParams</b> routine places the performance parameters for a given I/O request in a <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_startio_performance_parameters">STARTIO_PERFORMANCE_PARAMETERS</a> structure.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 ### -param Srb 
 
 [in]
-The SRB pointer that was passed in to the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine that was supplied by the miniport driver. This parameter must not be <b>NULL</b>.
+The SRB pointer that was passed in to the  <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine that was supplied by the miniport driver. This parameter must not be <b>NULL</b>.
 
 ### -param StartIoPerfParams 
 
@@ -123,17 +123,16 @@ The structure pointed to by <i>StartIoPerfParams</i> is not valid because the va
 
 ## -remarks
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> or <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_startio_performance_parameters">STARTIO_PERFORMANCE_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_startio_performance_parameters">STARTIO_PERFORMANCE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
-
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>

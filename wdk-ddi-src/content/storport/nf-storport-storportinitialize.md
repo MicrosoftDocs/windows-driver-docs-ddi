@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **StorPortInitialize** routine initializes the port driver parameters and extension data. **StorPortInitialize** also saves the adapter information provided from the [miniport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storage-miniport-drivers) **DriverEntry** routine.
+The **StorPortInitialize** routine initializes the port driver parameters and extension data. **StorPortInitialize** also saves the adapter information provided from the [miniport driver](/windows-hardware/drivers/storage/storage-miniport-drivers) **DriverEntry** routine.
 
 ## -parameters
 
@@ -98,4 +98,3 @@ Every miniport driver's DriverEntry routine must call **StorPortInitialize** aft
 [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
 
 [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md)
-

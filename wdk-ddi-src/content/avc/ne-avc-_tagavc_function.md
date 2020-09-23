@@ -142,49 +142,48 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_command_irb">AVC_COMMAND_IRB</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_command_irb">AVC_COMMAND_IRB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_ext_plug_counts">AVC_EXT_PLUG_COUNTS</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_ext_plug_counts">AVC_EXT_PLUG_COUNTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_irb">AVC_IRB</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_irb">AVC_IRB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_peer_do_list">AVC_PEER_DO_LIST</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_peer_do_list">AVC_PEER_DO_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_peer_do_locator">AVC_PEER_DO_LOCATOR</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_peer_do_locator">AVC_PEER_DO_LOCATOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_pin_count">AVC_PIN_COUNT</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_pin_count">AVC_PIN_COUNT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_pin_descriptor">AVC_PIN_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_pin_descriptor">AVC_PIN_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_pin_id">AVC_PIN_ID</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_pin_id">AVC_PIN_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_preconnect_info">AVC_PRECONNECT_INFO</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_preconnect_info">AVC_PRECONNECT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_setconnect_info">AVC_SETCONNECT_INFO</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_setconnect_info">AVC_SETCONNECT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_subunit_info_block">AVC_SUBUNIT_INFO_BLOCK</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_subunit_info_block">AVC_SUBUNIT_INFO_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_unique_id">AVC_UNIQUE_ID</a>
-
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_unique_id">AVC_UNIQUE_ID</a>

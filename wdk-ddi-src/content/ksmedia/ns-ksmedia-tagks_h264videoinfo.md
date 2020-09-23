@@ -612,7 +612,6 @@ The KS_H264VIDEOINFO structure contains the frame and the format descriptor info
 
 ## -see-also
 
-[KS_DATAFORMAT_H264VIDEOINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_dataformat_h264videoinfo)
+[KS_DATAFORMAT_H264VIDEOINFO](./ns-ksmedia-tagks_dataformat_h264videoinfo.md)
 
-[KS_DATARANGE_H264_VIDEO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_datarange_h264_video)
-
+[KS_DATARANGE_H264_VIDEO](./ns-ksmedia-tagks_datarange_h264_video.md)

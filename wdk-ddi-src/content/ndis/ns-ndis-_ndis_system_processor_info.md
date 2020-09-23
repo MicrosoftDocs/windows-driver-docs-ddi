@@ -58,7 +58,7 @@ The <b>NDIS_SYSTEM_PROCESSOR_INFO</b> structure specifies information about the 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_SYSTEM_PROCESSOR_INFO structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -72,7 +72,7 @@ Reserved. Set this member to zero.
 ### -field ProcessorVendor
 
 The processor vendor specified as one of the values from the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_processor_vendor">
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_processor_vendor">
      NDIS_PROCESSOR_VENDOR</a> enumeration.
 
 ### -field NumPhysicalPackages
@@ -110,51 +110,50 @@ A pointer to an optional caller-provided buffer that will contain the CPU number
      obtain CPU numbers, this member must contain a valid pointer and the size of this buffer must be at
      least 
      <b>MAXIMUM_PROCESSORS * sizeof (UCHAR)</b>. After the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetprocessorinformation">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetprocessorinformation">
      NdisGetProcessorInformation</a> function returns successfully, the buffer contains CPU numbers
      followed by undefined data.
 
 ### -field CpuInfo
 
 An array of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_processor_info">NDIS_PROCESSOR_INFO</a> structures. After
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_processor_info">NDIS_PROCESSOR_INFO</a> structures. After
      the 
      <b>NdisGetProcessorInformation</b> function returns successfully, this array provides information for
      each processor in the local computer. The number of values in the array is equal to the number of
      processors in the local computer, as the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
      NdisSystemActiveProcessorCount</a> function reports.
 
 ## -remarks
 
 NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO structure in calls to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetprocessorinformation">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetprocessorinformation">
     NdisGetProcessorInformation</a> function. After 
     <b>NdisGetProcessorInformation</b> returns, this structure contains information about the CPU topology of
     the system and the set of processors that will be used for receive side scaling (RSS).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_processor_info">NDIS_PROCESSOR_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_processor_info">NDIS_PROCESSOR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_processor_vendor">NDIS_PROCESSOR_VENDOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_processor_vendor">NDIS_PROCESSOR_VENDOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_system_processor_info_ex">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_system_processor_info_ex">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetprocessorinformation">NdisGetProcessorInformation</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetprocessorinformation">NdisGetProcessorInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
    NdisSystemActiveProcessorCount</a>
-

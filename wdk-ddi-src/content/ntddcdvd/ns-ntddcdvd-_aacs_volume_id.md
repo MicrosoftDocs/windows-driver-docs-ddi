@@ -64,9 +64,8 @@ The message authentication code (MAC) that the client uses to verify that the vo
 
 ## -remarks
 
-Clients retrieve an AACS volume ID with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_volume_id">IOCTL_AACS_READ_VOLUME_ID</a> request.
+Clients retrieve an AACS volume ID with an <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_volume_id">IOCTL_AACS_READ_VOLUME_ID</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_volume_id">IOCTL_AACS_READ_VOLUME_ID</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_volume_id">IOCTL_AACS_READ_VOLUME_ID</a>

@@ -134,9 +134,8 @@ The <i>Allocate</i> parameter was set to <b>TRUE</b>, but the memory allocation 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556584">SecMakeSPN</a>
+<a href="/previous-versions/ff556584(v=vs.85)">SecMakeSPN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556585">SecMakeSPNEx</a>
-
+<a href="/previous-versions/ff556585(v=vs.85)">SecMakeSPNEx</a>

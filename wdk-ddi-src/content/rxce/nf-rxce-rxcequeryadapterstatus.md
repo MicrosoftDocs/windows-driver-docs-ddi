@@ -110,13 +110,12 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 ## -see-also
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=138885">ADAPTER_STATUS</a>
+<a href="/windows/win32/api/nb30/ns-nb30-adapter_status">ADAPTER_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequeryinformation">RxCeQueryInformation</a>
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequeryinformation">RxCeQueryInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequerytransportinformation">RxCeQueryTransportInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequerytransportinformation">RxCeQueryTransportInformation</a>

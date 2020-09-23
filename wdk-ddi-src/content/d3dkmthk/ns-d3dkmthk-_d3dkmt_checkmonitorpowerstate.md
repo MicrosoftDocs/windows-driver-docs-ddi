@@ -62,5 +62,4 @@ The D3DKMT_CHECKMONITORPOWERSTATE structure describes the connection to the moni
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcheckmonitorpowerstate">D3DKMTCheckMonitorPowerState</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcheckmonitorpowerstate">D3DKMTCheckMonitorPowerState</a>

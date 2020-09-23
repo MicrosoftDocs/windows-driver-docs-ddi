@@ -39,7 +39,7 @@ dev_langs:
 
 ## -description
 
-The resource binding tiers. See [Hardware Tiers](https://docs.microsoft.com/windows/win32/direct3d12/hardware-support) for the Tier descriptions.
+The resource binding tiers. See [Hardware Tiers](/windows/win32/direct3d12/hardware-support) for the Tier descriptions.
 
 ## -enum-fields
 
@@ -58,4 +58,3 @@ Tier 3.
 ## -remarks
 
 ## -see-also
-

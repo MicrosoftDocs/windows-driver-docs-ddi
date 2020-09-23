@@ -90,9 +90,8 @@ This structure is used in the [**NDIS_WWAN_NITZ_INFO**](../ndiswwan/ns-ndiswwan-
 
 ## -see-also
 
-[MB NITZ support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-nitz-support)
+[MB NITZ support](/windows-hardware/drivers/network/mb-nitz-support)
 
-[OID_WWAN_NITZ](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-nitz)
+[OID_WWAN_NITZ](/windows-hardware/drivers/network/oid-wwan-nitz)
 
 [**NDIS_WWAN_NITZ_INFO**](../ndiswwan/ns-ndiswwan-_ndis_wwan_nitz_info.md)
-

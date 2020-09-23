@@ -54,7 +54,7 @@ The **IWiaDrvItem::UnlinkItemTree** method unlinks the driver item tree and rele
 
 lFlags [in]
 
-- Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](https://docs.microsoft.com/windows/win32/wia/-wia-wia-item-type-flags).
+- Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](/windows/win32/wia/-wia-wia-item-type-flags).
 
   | Value | Meaning |
   | --- | --- |
@@ -63,7 +63,7 @@ lFlags [in]
 
 #### - lFlags [in]
 
-Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](https://docs.microsoft.com/windows/win32/wia/-wia-wia-item-type-flags).
+Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](/windows/win32/wia/-wia-wia-item-type-flags).
 
 | Value | Meaning |
 | --- | --- |
@@ -77,4 +77,3 @@ If the method succeeds, it returns S_OK. If the method is called on a nonroot it
 ## -remarks
 
 Minidrivers must call this method on the root item in the driver item tree when they want to invalidate the tree. This is typically done when the driver is being unloaded or when the minidriver needs to rebuild the driver item tree.
-

@@ -86,7 +86,7 @@ The <b>CheckInfo.MsCheck</b> member contains microarchitecture-specific error in
 
 ### -field ValidBits
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo_validbits">WHEA_XPF_PROCINFO_VALIDBITS</a> union that specifies which members of this structure contain valid data.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo_validbits">WHEA_XPF_PROCINFO_VALIDBITS</a> union that specifies which members of this structure contain valid data.
 
 ### -field CheckInfo
 
@@ -96,19 +96,19 @@ This member contains valid data only if the <b>ValidBits.CheckInfo</b> bit is se
 
 ### -field CheckInfo.CacheCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cache_check">WHEA_XPF_CACHE_CHECK</a> union that describes cache error information.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cache_check">WHEA_XPF_CACHE_CHECK</a> union that describes cache error information.
 
 ### -field CheckInfo.TlbCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_tlb_check">WHEA_XPF_TLB_CHECK</a> union that describes translation lookaside buffer error information.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_tlb_check">WHEA_XPF_TLB_CHECK</a> union that describes translation lookaside buffer error information.
 
 ### -field CheckInfo.BusCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_bus_check">WHEA_XPF_BUS_CHECK</a> union that describes bus error information.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_bus_check">WHEA_XPF_BUS_CHECK</a> union that describes bus error information.
 
 ### -field CheckInfo.MsCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_ms_check">WHEA_XPF_MS_CHECK</a> union that describes microarchitecture-specific error information.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_ms_check">WHEA_XPF_MS_CHECK</a> union that describes microarchitecture-specific error information.
 
 ### -field CheckInfo.AsULONGLONG
 
@@ -140,29 +140,28 @@ This member contains valid data only if the <b>ValidBits.InstructionPointer</b> 
 
 ## -remarks
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contains an array of WHEA_XPF_PROCINFO structures, each of which describes specific error information associated with the processor error that occurred.
+The <a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contains an array of WHEA_XPF_PROCINFO structures, each of which describes specific error information associated with the processor error that occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_bus_check">WHEA_XPF_BUS_CHECK</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_bus_check">WHEA_XPF_BUS_CHECK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cache_check">WHEA_XPF_CACHE_CHECK</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cache_check">WHEA_XPF_CACHE_CHECK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_ms_check">WHEA_XPF_MS_CHECK</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_ms_check">WHEA_XPF_MS_CHECK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+<a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo_validbits">WHEA_XPF_PROCINFO_VALIDBITS</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo_validbits">WHEA_XPF_PROCINFO_VALIDBITS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_tlb_check">WHEA_XPF_TLB_CHECK</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_tlb_check">WHEA_XPF_TLB_CHECK</a>

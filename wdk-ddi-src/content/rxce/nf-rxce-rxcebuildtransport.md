@@ -105,5 +105,4 @@ The connection engine routines in RDBSS do not participate in the computation of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardowntransport">RxCeTearDownTransport</a>
-
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardowntransport">RxCeTearDownTransport</a>

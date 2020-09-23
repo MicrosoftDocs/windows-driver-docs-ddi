@@ -52,7 +52,7 @@ The <code>IPrintOemUni::TTYGetInfo</code> method enables a rendering plug-in to 
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param dwInfoIndex
 
@@ -80,7 +80,7 @@ The <i>pOutputBuf</i> parameter points to a RECT structure in which the method s
 
 #### OEMTTY_INFO_NUM_UFMS
 
-The <i>pOutputBuf</i> parameter points to a DWORD in which the method should return the number of resource IDs of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">UFMs</a> for 10, 12, and 17 CPI fonts. To actually obtain these resource IDs, perform a query using OEMTTY_INFO_UFM_IDS.
+The <i>pOutputBuf</i> parameter points to a DWORD in which the method should return the number of resource IDs of the <a href="/windows-hardware/drivers/">UFMs</a> for 10, 12, and 17 CPI fonts. To actually obtain these resource IDs, perform a query using OEMTTY_INFO_UFM_IDS.
 
 
 
@@ -88,7 +88,7 @@ The <i>pOutputBuf</i> parameter points to a DWORD in which the method should ret
 
 #### OEMTTY_INFO_UFM_IDS
 
-The <i>pOutputBuf</i> parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY_INFO_NUM_UFMS in a query.) The method should return the resource IDs of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">UFMs</a> for 10,12, and 17 CPI fonts.
+The <i>pOutputBuf</i> parameter points to an array of DWORDs of sufficient size to hold the number of resource IDs of the UFMs for 10, 12, and 17 CPI fonts. (This number is obtained by using OEMTTY_INFO_NUM_UFMS in a query.) The method should return the resource IDs of the <a href="/windows-hardware/drivers/">UFMs</a> for 10,12, and 17 CPI fonts.
 
 ### -param pOutputBuf
 
@@ -148,5 +148,4 @@ The method is not implemented.
 
 ## -remarks
 
-The <code>IPrintOemUni::TTYGetInfo</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "TTYGetInfo" as input.
-
+The <code>IPrintOemUni::TTYGetInfo</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "TTYGetInfo" as input.

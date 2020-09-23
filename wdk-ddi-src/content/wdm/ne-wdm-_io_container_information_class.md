@@ -62,9 +62,8 @@ Specifies the maximum value in this enumeration type.
 
 ## -remarks
 
-To request system information, a driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a> routine and sets this routine's <i>InformationClass</i> parameter to an <b>IO_CONTAINER_NOTIFICATION_CLASS</b> constant (other than <b>IoMaxContainerInformationClass</b>). Currently, <b>IoGetContainerInformation</b> supports only <i>InformationClass</i> = <b>IoSessionStateInformation</b>.
+To request system information, a driver calls the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a> routine and sets this routine's <i>InformationClass</i> parameter to an <b>IO_CONTAINER_NOTIFICATION_CLASS</b> constant (other than <b>IoMaxContainerInformationClass</b>). Currently, <b>IoGetContainerInformation</b> supports only <i>InformationClass</i> = <b>IoSessionStateInformation</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>

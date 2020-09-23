@@ -54,12 +54,12 @@ The<b> KsDefaultAddEventHandler </b>function is a default routine to handle even
 ### -param Irp 
 
 [in]
-The event <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>. This contains the object into which the event is inserted.
+The event <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>. This contains the object into which the event is inserted.
 
 ### -param EventData 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that describes an event notification method.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that describes an event notification method.
 
 ### -param EventEntry 
 
@@ -74,25 +74,24 @@ Returns the success or failure of adding the event into the object's event list.
 
 <b>KsDefaultAddEventHandler</b> determines the relevant object from <i>Irp</i> and adds the specified event to the object's event list.
 
-This is functionally equivalent to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent">KsAddEvent</a> (or <b>Ks</b><i>Xxx</i><b>AddEvent</b>, see below) for the object that is associated with <i>Irp</i>. Use <b>KsDefaultAddEventHandler</b> from a minidriver-specified <i>AddEvent</i> handler to insert the event into the object's event list.
+This is functionally equivalent to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent">KsAddEvent</a> (or <b>Ks</b><i>Xxx</i><b>AddEvent</b>, see below) for the object that is associated with <i>Irp</i>. Use <b>KsDefaultAddEventHandler</b> from a minidriver-specified <i>AddEvent</i> handler to insert the event into the object's event list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent">KsAddEvent</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent">KsAddEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilteraddevent">KsFilterAddEvent</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilteraddevent">KsFilterAddEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgenerateevents">KsGenerateEvents</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgenerateevents">KsGenerateEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinaddevent">KsPinAddEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinaddevent">KsPinAddEvent</a>

@@ -59,11 +59,10 @@ A handle to a framework device object that represents the device.
 ### -param fileObject 
 
 [in]
-      A handle to a framework file object that identifies the caller, usually acquired with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>. If this parameter is NULL, <b>PosCxIsDeviceOwner</b> returns TRUE if the device is not currently owned.
+      A handle to a framework file object that identifies the caller, usually acquired with <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>. If this parameter is NULL, <b>PosCxIsDeviceOwner</b> returns TRUE if the device is not currently owned.
 
 ## -returns
 
 Returns TRUE if the caller is the device owner, or if <i>fileObject</i> is NULL and the device is not currently owned.
 
 Otherwise, returns FALSE.
-

@@ -58,5 +58,4 @@ dev_langs:
 
 ## -see-also
 
-[**DxgkddiSystemDisplayEnable**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_enable)
-
+[**DxgkddiSystemDisplayEnable**](./nc-dispmprt-dxgkddi_system_display_enable.md)

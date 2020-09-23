@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains pointers to functions in the [Wireless display (Miracast) interface](https://docs.microsoft.com/windows-hardware/drivers/display/wireless-displays--miracast-#miracast-reference) that the display miniport driver implements to create, destroy, query, and control Miracast device resources.
+Contains pointers to functions in the [Wireless display (Miracast) interface](/windows-hardware/drivers/display/wireless-displays--miracast-#miracast-reference) that the display miniport driver implements to create, destroy, query, and control Miracast device resources.
 
 ## -struct-fields
 
@@ -98,7 +98,7 @@ If the driver does not support Miracast displays, it should fail the query for t
 
 If the driver supports Miracast displays, then it must also support High-bandwidth Digital Content Protection (HDCP).
 
-For more info on how to use the Miracast interface, see [WDDM display miniport driver tasks to support Miracast wireless displays](https://docs.microsoft.com/windows-hardware/drivers/display/wddm-display-miniport-driver-tasks-to-support-miracast-wireless-displays).
+For more info on how to use the Miracast interface, see [WDDM display miniport driver tasks to support Miracast wireless displays](/windows-hardware/drivers/display/wddm-display-miniport-driver-tasks-to-support-miracast-wireless-displays).
 
 ## -see-also
 
@@ -120,4 +120,3 @@ For more info on how to use the Miracast interface, see [WDDM display miniport d
 
 
 [DxgkDdiQueryInterface](nc-dispmprt-dxgkddi_query_interface.md)
-

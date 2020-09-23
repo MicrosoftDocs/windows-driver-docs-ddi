@@ -71,7 +71,7 @@ Specifies the size, in bytes, required for the minidriver's device-specific cont
 ### -param ReceivePacket 
 
 [in]
-Pointer to the minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
+Pointer to the minidriver-defined <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
 
 
 #### - FrameContextSize [in]
@@ -84,20 +84,19 @@ Specifies the size, in bytes, required for the minidriver's frame-specific conte
 
 ## -remarks
 
-A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <b>DriverEntry</b> routine. For more information, see <a href="https://docs.microsoft.com/previous-versions/ff558717(v=vs.85)">DriverEntry for Stream Class Minidrivers</a>
+A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <b>DriverEntry</b> routine. For more information, see <a href="/previous-versions/ff558717(v=vs.85)">DriverEntry for Stream Class Minidrivers</a>
 
 
-<i>FrameContextSize</i> is optional. A non-<b>NULL</b> value should be provided only with calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine">CamNewVideoFrame</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine">CamProcessRawVideoFrame</a>.
+<i>FrameContextSize</i> is optional. A non-<b>NULL</b> value should be provided only with calls to <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine">CamNewVideoFrame</a> or <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine">CamProcessRawVideoFrame</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a>
+<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine">CamNewVideoFrame</a>
+<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_new_frame_routine">CamNewVideoFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine">CamProcessRawVideoFrame</a>
-
+<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-pcam_process_raw_frame_routine">CamProcessRawVideoFrame</a>

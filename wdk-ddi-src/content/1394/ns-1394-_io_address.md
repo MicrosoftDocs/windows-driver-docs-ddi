@@ -56,19 +56,19 @@ The IO_ADDRESS structure specifies the 1394 64-bit destination address for read,
 
 ### -field IA_Destination_ID
 
-Holds a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_node_address">NODE_ADDRESS</a> containing the destination node address.
+Holds a structure of type <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_node_address">NODE_ADDRESS</a> containing the destination node address.
 
 ### -field IA_Destination_Offset
 
-Holds a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_address_offset">ADDRESS_OFFSET</a> that specifies the index of the 1394 address within the address array.
+Holds a structure of type <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_address_offset">ADDRESS_OFFSET</a> that specifies the index of the 1394 address within the address array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_address_offset">ADDRESS_OFFSET</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_address_offset">ADDRESS_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_node_address">NODE_ADDRESS</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_node_address">NODE_ADDRESS</a>
 
 
 
@@ -85,4 +85,3 @@ Holds a structure of type <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
-

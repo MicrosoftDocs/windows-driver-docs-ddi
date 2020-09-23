@@ -67,7 +67,7 @@ The size of the memory block, in bytes. When calling
 If the NDIS driver specifies an entry point for the 
     <i>NetAllocateMdl</i> function at the 
     <i>AllocateMdl</i> parameter of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
     NdisRetreatNetBufferDataStart</a> function, NDIS calls 
     <i>NetAllocateMdl</i> to allocate an MDL and memory.
 
@@ -76,7 +76,7 @@ NDIS specifies the size of the associated memory block at
 
 <i>NetAllocateMdl</i> can use any allocation method that meets the driver's design requirements. When NDIS
     calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a> function to free the memory, the
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a> function to free the memory, the
     NDIS driver should free the memory by using the same memory management mechanism that it used to allocate
     the memory.
 
@@ -85,10 +85,9 @@ NDIS calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisretreatnetbufferdatastart">
    NdisRetreatNetBufferDataStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_free_mdl_handler">NetFreeMdl</a>

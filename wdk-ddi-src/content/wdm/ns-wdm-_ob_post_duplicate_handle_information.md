@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-The <b>OB_POST_DUPLICATE_HANDLE_INFORMATION</b> structure provides information to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine about a thread or process handle that has been duplicated.
+The <b>OB_POST_DUPLICATE_HANDLE_INFORMATION</b> structure provides information to an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine about a thread or process handle that has been duplicated.
 
 ## -struct-fields
 
 ### -field GrantedAccess
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the access that is granted for the handle.
+An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the access that is granted for the handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>

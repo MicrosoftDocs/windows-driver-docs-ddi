@@ -70,5 +70,4 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-[IMediaEvent](https://docs.microsoft.com/windows/win32/api/control/nn-control-imediaevent)
-
+[IMediaEvent](/windows/win32/api/control/nn-control-imediaevent)

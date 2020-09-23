@@ -54,9 +54,8 @@ The <b>GetRawArgStr</b> method returns a string that represents the arguments pa
 
 ## -remarks
 
-For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/parsing-extension-arguments">Parsing Extension Arguments</a>.
+For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="/windows-hardware/drivers/debugger/parsing-extension-arguments">Parsing Extension Arguments</a>.
 
 The string returned by this method is only meaningful during the execution of the current extension command.
 
 This method should only be called during the execution of an extension command provided by this class.
-

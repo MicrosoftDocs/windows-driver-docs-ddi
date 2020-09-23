@@ -68,13 +68,12 @@ Indicates that the current byte is an E1 extended scan code.
 
 ## -remarks
 
-This enumeration type is used as input to an optional <a href="https://docs.microsoft.com/previous-versions/ff542294(v=vs.85)">KbFilter_IsrHook</a> routine, which can be supplied by a vendor-supplied keyboard filter driver.
+This enumeration type is used as input to an optional <a href="/previous-versions/ff542294(v=vs.85)">KbFilter_IsrHook</a> routine, which can be supplied by a vendor-supplied keyboard filter driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff542294(v=vs.85)">KbFilter_IsrHook</a>
+<a href="/previous-versions/ff542294(v=vs.85)">KbFilter_IsrHook</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a>

@@ -54,7 +54,7 @@ The KSPROPERTY_VIDEODECODER_STATUS_S structure describes the present status of a
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field NumberOfLines
 
@@ -70,9 +70,8 @@ The KSPROPERTY_VIDEODECODER_STATUS_S structure retrieves information about the v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videodecoder-status">KSPROPERTY_VIDEODECODER_STATUS</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-videodecoder-status">KSPROPERTY_VIDEODECODER_STATUS</a>

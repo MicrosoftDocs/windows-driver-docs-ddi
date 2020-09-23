@@ -53,7 +53,7 @@ The <b>RtlInitUTF8StringEx</b> routine initializes a counted string of UTF-8 cha
 
 ### -param DestinationString
 
-A pointer to the <b>UTF8_STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string">STRING</a> structure.
+A pointer to the <b>UTF8_STRING</b> structure to be initialized. The Ntdef.h header file defines this structure to be identical to the <a href="/windows/win32/api/ntdef/ns-ntdef-string">STRING</a> structure.
 
 ### -param SourceString
 
@@ -73,5 +73,4 @@ Callers of <b>RtlInitUTF8StringEx</b> can be running at IRQL <= DISPATCH_LEVEL i
 
 ## -see-also
 
-[**RtlInitAnsiString**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitansistring)
-
+[**RtlInitAnsiString**](./nf-wdm-rtlinitansistring.md)

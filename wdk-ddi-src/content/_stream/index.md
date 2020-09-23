@@ -36,4 +36,4 @@ To develop streaming media device drivers, you need these headers:
 - [swenum.h](../swenum/index.md)
 - [usbcamdi.h](../usbcamdi/index.md)
 
-For the programming guide, see [Streaming media devices](https://docs.microsoft.com/windows-hardware/drivers/stream).
+For the programming guide, see [Streaming media devices](/windows-hardware/drivers/stream).

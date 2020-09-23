@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The `PcwCreateInstance` function creates a new counterset instance. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated CreateXxx function instead of calling this function directly.
+The `PcwCreateInstance` function creates a new counterset instance. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated CreateXxx function instead of calling this function directly.
 
 ## -parameters
 
@@ -134,4 +134,3 @@ The CTRPP-generated Create function will be named *Prefix*Create*Counterset*. *P
 [PcwCloseInstance function](nf-wdm-pcwcloseinstance.md)
 
 [PcwRegister function](nf-wdm-pcwregister.md)
-

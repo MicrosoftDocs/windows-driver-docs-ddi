@@ -112,7 +112,7 @@ The queue's dispatching method is not manual.
 </table>
  
 
-This method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+This method might also return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 
 
@@ -123,10 +123,10 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 A driver can call <b>WdfRequestRequeue</b> only if it using the manual dispatching method for the I/O queue.
 
-If the driver calls <b>WdfRequestRequeue</b> after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuepurge">WdfIoQueuePurge</a>, the requeue attempt may succeed before the purge is complete. In versions 1.9 and earlier of KMDF, this 
+If the driver calls <b>WdfRequestRequeue</b> after calling <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuepurge">WdfIoQueuePurge</a>, the requeue attempt may succeed before the purge is complete. In versions 1.9 and earlier of KMDF, this 
 sequence causes the operating system to crash.  This problem is fixed in KMDF version 1.11 and later.
 
-For more information about <b>WdfRequestRequeue</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/requeuing-i-o-requests">Requeuing I/O Requests</a>.
+For more information about <b>WdfRequestRequeue</b>, see <a href="/windows-hardware/drivers/wdf/requeuing-i-o-requests">Requeuing I/O Requests</a>.
 
 
 #### Examples
@@ -138,4 +138,3 @@ NTSTATUS status;
 
 status = WdfRequestRequeue(request);
 ```
-

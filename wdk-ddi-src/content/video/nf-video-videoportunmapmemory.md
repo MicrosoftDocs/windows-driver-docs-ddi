@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>VideoPortUnmapMemory</b> function releases a mapping between a logical address range for the adapter and a virtual address range in the user-mode address space of a particular thread. This function is the complement of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportmapmemory">VideoPortMapMemory</a>.
+The <b>VideoPortUnmapMemory</b> function releases a mapping between a logical address range for the adapter and a virtual address range in the user-mode address space of a particular thread. This function is the complement of <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportmapmemory">VideoPortMapMemory</a>.
 
 ## -parameters
 
@@ -72,5 +72,4 @@ A miniport driver cannot release a subrange of the mapping between a logical dev
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportmapmemory">VideoPortMapMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportmapmemory">VideoPortMapMemory</a>

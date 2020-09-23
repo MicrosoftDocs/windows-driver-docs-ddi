@@ -56,7 +56,6 @@ A handle to a framework device object the client driver obtained from a previous
 
 ## -remarks
 
-For more information, see [Handling MBIM control messages](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
+For more information, see [Handling MBIM control messages](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
 
 ## -see-also
-

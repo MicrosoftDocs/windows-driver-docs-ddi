@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>AuxKlibInitialize</b> routine initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/">Auxiliary Kernel-Mode Library</a>.
+The <b>AuxKlibInitialize</b> routine initializes the <a href="/windows-hardware/drivers/ddi/aux_klib/">Auxiliary Kernel-Mode Library</a>.
 
 ## -returns
 
@@ -56,4 +56,3 @@ The <b>AuxKlibInitialize</b> routine initializes the <a href="https://docs.micro
 ## -remarks
 
 Drivers that use the Auxiliary Kernel-Mode Library must call <b>AuxKlibInitialize</b> before calling any of the library's other routines.
-

@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-This function is the extended version of the [StorPortAllocateContiguousMemorySpecifyCacheNode function](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode). It allocates a range of physically contiguous noncached, nonpaged memory, and returns the physical address of the allocated buffer.
+This function is the extended version of the [StorPortAllocateContiguousMemorySpecifyCacheNode function](./nf-storport-storportallocatecontiguousmemoryspecifycachenode.md). It allocates a range of physically contiguous noncached, nonpaged memory, and returns the physical address of the allocated buffer.
 
 ## -parameters
 
@@ -133,4 +133,3 @@ The operation failed to allocate the requested memory because of insufficient re
 If the request fails, BufferPointer will be set to NULL.
 
 ## -see-also
-

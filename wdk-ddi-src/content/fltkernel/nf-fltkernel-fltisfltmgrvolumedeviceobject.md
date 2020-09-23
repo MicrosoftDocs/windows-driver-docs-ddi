@@ -53,7 +53,7 @@ The <b>FltIsFltMgrVolumeDeviceObject</b> routine determines whether the given de
 ### -param DeviceObject 
 
 [in]
-A pointer to the device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>) to test.
+A pointer to the device object (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>) to test.
 
 ## -returns
 
@@ -65,5 +65,4 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>

@@ -67,45 +67,44 @@ Returns STATUS_SUCCESS if the copy is successful. Otherwise, it returns an error
 
 ## -remarks
 
-Note that mutexes for both bags should be held. If the object bag in question is associated with a filter or a pin, acquire the filter control mutex. If the object bag belongs to a filter factory or the device, acquire the device mutex. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/object-bags">Object Bags</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
+Note that mutexes for both bags should be held. If the object bag in question is associated with a filter or a pin, acquire the filter control mutex. If the object bag belongs to a filter factory or the device, acquire the device mutex. For more information, see <a href="/windows-hardware/drivers/stream/object-bags">Object Bags</a> and <a href="/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksadditemtoobjectbag">KsAddItemToObjectBag</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksadditemtoobjectbag">KsAddItemToObjectBag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectbag">KsAllocateObjectBag</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectbag">KsAllocateObjectBag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdiscard">KsDiscard</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdiscard">KsDiscard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectbag">KsFreeObjectBag</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectbag">KsFreeObjectBag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedfilterinterface">KsPinGetConnectedFilterInterface</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedfilterinterface">KsPinGetConnectedFilterInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface">KsPinGetConnectedPinInterface</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface">KsPinGetConnectedPinInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsetpinclocktime">KsPinSetPinClockTime</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinsetpinclocktime">KsPinSetPinClockTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksremoveitemfromobjectbag">KsRemoveItemFromObjectBag</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksremoveitemfromobjectbag">KsRemoveItemFromObjectBag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-_ksedit">_KsEdit</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-_ksedit">_KsEdit</a>

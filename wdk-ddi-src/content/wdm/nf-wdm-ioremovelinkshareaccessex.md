@@ -65,7 +65,7 @@ A pointer to the common share-access data structure that is associated with <i>F
 ### -param LinkShareAccess 
 
 [in, out, optional]
-A pointer to the common link share-access data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
+A pointer to the common link share-access data structure (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 ### -param IoShareAccessFlags
 
@@ -76,4 +76,3 @@ IO_SHARE_ACCESS_NON_PRIMARY_STREAM         (0x00000080) specifies that the strea
 ## -remarks
 
 ## -see-also
-

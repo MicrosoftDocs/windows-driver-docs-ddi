@@ -70,7 +70,7 @@ The packet service state of the device.
 A bitmap that represents which data-classes are available to the device in the current network.
      For a detailed list of values, see the 
      <b>WwanDataClass</b> member of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
      
 
 Miniport drivers must set this member to WWAN_DATA_CLASS_NONE when the device is not registered to a
@@ -81,7 +81,7 @@ Miniport drivers must set this member to WWAN_DATA_CLASS_NONE when the device is
 
 A single value from the 
      <b>WwanDataClass</b> member in 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a> that represents which
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a> that represents which
      data-class is currently being used by the device.
      
 
@@ -95,7 +95,7 @@ Miniport drivers must set this member with a valid value and send the appropriat
 Miniport drivers should set this member to WWAN_DATA_CLASS_CUSTOM if the data-class is not one of the
      predefined values in the 
      <b>WwanDataClass</b> member of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
 
 ### -field FrequencyRange
 
@@ -111,7 +111,7 @@ The MB Service combines the data-classes that are represented in
 
 If a device also supports a data-class that is anything other than the predefined values in the 
     <b>WwanDataClass</b> member of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>, the miniport driver
+    <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>, the miniport driver
     should set the WWAN_DATA_CLASS_CUSTOM flag along with the appropriate bitmask defined for the data-class
     in this member.
 
@@ -120,7 +120,7 @@ If a device also supports a data-class that is anything other than the predefine
     <b>uNwError</b> member. If there is no network specific error or the network specific error is not known,
     miniport drivers should set this member to zero. The 
     "Status Indication Structure" section in 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-operational-semantics">MB Operational Semantics</a> shows the
+    <a href="/windows-hardware/drivers/network/mb-operational-semantics">MB Operational Semantics</a> shows the
     packet-attach or packet-detach cause code failure values that are defined in the 
     <i>3GPP TS 24.008 Specification</i>.
 
@@ -165,10 +165,9 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_packet_service_state">
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_packet_service_state">
    NDIS_WWAN_PACKET_SERVICE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_packet_service_state">WWAN_PACKET_SERVICE_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_packet_service_state">WWAN_PACKET_SERVICE_STATE</a>

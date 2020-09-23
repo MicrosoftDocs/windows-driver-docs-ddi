@@ -47,20 +47,19 @@ api_name:
 
 ## -description
 
-The <b>KeReleaseGuardedMutexUnsafe</b> routine releases a guarded mutex acquired by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551894(v=vs.85)">KeAcquireGuardedMutexUnsafe</a>.
+The <b>KeReleaseGuardedMutexUnsafe</b> routine releases a guarded mutex acquired by <a href="/previous-versions/windows/hardware/drivers/ff551894(v=vs.85)">KeAcquireGuardedMutexUnsafe</a>.
 
 ## -parameters
 
 ### -param FastMutex 
 
 [in, out]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
+Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
 
 ## -remarks
 
-For more information about guarded mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
+For more information about guarded mutexes, see <a href="/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551894(v=vs.85)">KeAcquireGuardedMutexUnsafe</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff551894(v=vs.85)">KeAcquireGuardedMutexUnsafe</a>

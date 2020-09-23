@@ -56,5 +56,4 @@ The WDI_TXRX_PEER_CFG structure defines peer configuration.
 
 ### -field PeerQoSConfig
 
-The peer's QoS capability as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_txrx_peer_qos_caps">WDI_TXRX_PEER_QOS_CAPS</a>.
-
+The peer's QoS capability as defined in <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_txrx_peer_qos_caps">WDI_TXRX_PEER_QOS_CAPS</a>.

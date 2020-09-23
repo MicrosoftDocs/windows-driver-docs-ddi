@@ -62,9 +62,8 @@ If the operating system was booted with no debug controls, <b>KdDisableDebugger<
 
 If the kernel debugger is blocked (that is, the <b>KdBlockEnable</b> system variable is set to a value other than <b>FALSE</b>), <b>KdDisableDebugger</b> returns STATUS_ACCESS_DENIED. 
 
-After a caller calls <b>KdDisableDebugger</b> to disable the kernel debugger, the caller can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kdenabledebugger">KdEnableDebugger</a> routine to re-enable the kernel debugger.
+After a caller calls <b>KdDisableDebugger</b> to disable the kernel debugger, the caller can call the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kdenabledebugger">KdEnableDebugger</a> routine to re-enable the kernel debugger.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kdenabledebugger">KdEnableDebugger</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kdenabledebugger">KdEnableDebugger</a>

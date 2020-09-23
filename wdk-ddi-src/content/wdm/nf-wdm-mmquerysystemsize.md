@@ -58,5 +58,4 @@ This routine can be called during driver initialization to determine how much me
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmisthisanntassystem">MmIsThisAnNtAsSystem</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmisthisanntassystem">MmIsThisAnNtAsSystem</a>

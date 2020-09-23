@@ -53,7 +53,7 @@ The <b>StorPortRegistryRead</b> routine reads the registry data for the indicate
 
 ### -param HwDeviceExtension
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 ### -param ValueName
 
@@ -232,13 +232,12 @@ Pointer to a ULONG that contains the size, in bytes, of the registry data return
 
 If <b>StorPortRegistryRead</b> returns <b>FALSE</b> with a nonzero value in the <i>BufferLength</i> parameter, the buffer that was passed was too small and the <i>BufferLength</i> parameter reflects the correct buffer size that should be used. If the routine returns <b>FALSE</b> with the <i>BufferLength</i> parameter set to zero, another error has occurred.
 
-The buffer used in this routine is allocated by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a> and freed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeregistrybuffer">StorPortFreeRegistryBuffer</a>.
+The buffer used in this routine is allocated by calling <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a> and freed by calling <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeregistrybuffer">StorPortFreeRegistryBuffer</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeregistrybuffer">StorPortFreeRegistryBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeregistrybuffer">StorPortFreeRegistryBuffer</a>

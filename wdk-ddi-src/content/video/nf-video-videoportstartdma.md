@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>VideoPortStartDma</b> function prepares the system for a DMA operation. As soon as the appropriate resource is available, <b>VideoPortStartDma</b> creates a scatter/gather list, initializes the system resources, and calls the video miniport driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> routine to carry out the DMA operation.
+The <b>VideoPortStartDma</b> function prepares the system for a DMA operation. As soon as the appropriate resource is available, <b>VideoPortStartDma</b> creates a scatter/gather list, initializes the system resources, and calls the video miniport driver-supplied <a href="/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> routine to carry out the DMA operation.
 
 ## -parameters
 
@@ -58,12 +58,12 @@ Pointer to the miniport driver's device extension.
 ### -param VpDmaAdapter 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure is returned from a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
+Pointer to the <a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure is returned from a call to <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
 
 ### -param Mdl 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> that describes the buffer. This pointer is returned from a call to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a> function.
+Pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> that describes the buffer. This pointer is returned from a call to the video port driver's <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a> function.
 
 ### -param Offset 
 
@@ -73,12 +73,12 @@ Specifies the byte offset in the buffer at which the DMA operation begins. The <
 ### -param pLength 
 
 [in, out]
-Pointer to a variable that specifies the requested transfer size, in bytes, and that will receive the actual size to be transferred. The variable will be updated when either of the following events occurs: <b>VideoPortStartDma</b> returns or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> is called. It is therefore safe to read this variable from within <i>HwVidExecuteDma</i> even before <b>VideoPortStartDma</b> returns.
+Pointer to a variable that specifies the requested transfer size, in bytes, and that will receive the actual size to be transferred. The variable will be updated when either of the following events occurs: <b>VideoPortStartDma</b> returns or <a href="/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> is called. It is therefore safe to read this variable from within <i>HwVidExecuteDma</i> even before <b>VideoPortStartDma</b> returns.
 
 ### -param ExecuteDmaRoutine 
 
 [in]
-Pointer to a miniport driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> callback routine. <b>VideoPortStartDma</b> calls this routine to program the hardware registers and start the actual DMA operation.
+Pointer to a miniport driver-supplied <a href="/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> callback routine. <b>VideoPortStartDma</b> calls this routine to program the hardware registers and start the actual DMA operation.
 
 ### -param Context 
 
@@ -113,25 +113,24 @@ Builds a scatter/gather list.
 
 </li>
 <li>
-Calls the video miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> callback.
+Calls the video miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> callback.
 
 </li>
 </ul>
-It is possible that not all of the requested data has been transferred, since the actual amount of memory transferred is limited by the number of map registers available to the driver. Callers of this function should inspect the actual transfer size returned at <i>pLength</i> to determine whether additional data remains to be transferred. If so, the miniport driver should call <b>VideoPortStartDma</b> (and subsequently, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>) as many times as necessary to fulfill the entire transfer request.
+It is possible that not all of the requested data has been transferred, since the actual amount of memory transferred is limited by the number of map registers available to the driver. Callers of this function should inspect the actual transfer size returned at <i>pLength</i> to determine whether additional data remains to be transferred. If so, the miniport driver should call <b>VideoPortStartDma</b> (and subsequently, <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>) as many times as necessary to fulfill the entire transfer request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a>
+<a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>

@@ -46,26 +46,25 @@ api_name:
 
 ## -description
 
-The <b>KeReleaseInStackQueuedSpinLockForDpc</b> routine releases a queued spin lock that was acquired by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551912(v=vs.85)">KeAcquireInStackQueuedSpinLockForDpc</a>.
+The <b>KeReleaseInStackQueuedSpinLockForDpc</b> routine releases a queued spin lock that was acquired by calling <a href="/previous-versions/windows/hardware/drivers/ff551912(v=vs.85)">KeAcquireInStackQueuedSpinLockForDpc</a>.
 
 ## -parameters
 
 ### -param LockHandle 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KLOCK_QUEUE_HANDLE</a> structure that <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551912(v=vs.85)">KeAcquireInStackQueuedSpinLockForDpc</a> initialized when the queued spin lock was acquired.
+Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KLOCK_QUEUE_HANDLE</a> structure that <a href="/previous-versions/windows/hardware/drivers/ff551912(v=vs.85)">KeAcquireInStackQueuedSpinLockForDpc</a> initialized when the queued spin lock was acquired.
 
 ## -remarks
 
-For more information about queued spin locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/queued-spin-locks">Queued Spin Locks</a>.
+For more information about queued spin locks, see <a href="/windows-hardware/drivers/kernel/queued-spin-locks">Queued Spin Locks</a>.
 
 If the current IRQL was PASSIVE_LEVEL when the queued spin lock was acquired, <b>KeReleaseSpinLockForDpc</b> lowers the current IRQL to PASSIVE_LEVEL. If the current IRQL was DISPATCH_LEVEL when the queued spin lock was acquired, <b>KeReleaseSpinLockForDpc</b> does not change the current IRQL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KLOCK_QUEUE_HANDLE</a>
+<a href="/windows-hardware/drivers/kernel/eprocess">KLOCK_QUEUE_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551912(v=vs.85)">KeAcquireInStackQueuedSpinLockForDpc</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff551912(v=vs.85)">KeAcquireInStackQueuedSpinLockForDpc</a>

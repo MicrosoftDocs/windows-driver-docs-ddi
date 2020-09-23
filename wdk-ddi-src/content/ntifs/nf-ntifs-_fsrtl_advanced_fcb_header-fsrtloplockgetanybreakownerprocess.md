@@ -53,7 +53,7 @@ targetos: Windows
 
 ### -param Oplock
 
-Pointer to the opaque oplock structure for the file. This pointer must have been initialized by a previous call to [**FsRtlInitializeOplock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock).
+Pointer to the opaque oplock structure for the file. This pointer must have been initialized by a previous call to [**FsRtlInitializeOplock**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md).
 
 ## -returns
 
@@ -69,12 +69,12 @@ This method returns **NULL** if no owner can be found; otherwise it returns a po
 
 - Otherwise, **FsRtlOplockGetAnyBreakOwnerProcess** returns NULL.
 
-If **FsRtlOplockGetAnyBreakOwnerProcess** returns non-NULL, the caller is responsible for calling [**ObDeferenceObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject) to release the reference acquired on its behalf.
+If **FsRtlOplockGetAnyBreakOwnerProcess** returns non-NULL, the caller is responsible for calling [**ObDeferenceObject**](../wdm/nf-wdm-obdereferenceobject.md) to release the reference acquired on its behalf.
 
 **FsRtlOplockGetAnyBreakOwnerProcess** does not attempt to verify that a break is actually pending, or that the process it returns is indeed the owner.
 
 ## -see-also
 
-[**FsRtlInitializeOplock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock)
+[**FsRtlInitializeOplock**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md)
 
-[**ObDeferenceObject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject)
+[**ObDeferenceObject**](../wdm/nf-wdm-obdereferenceobject.md)

@@ -58,7 +58,7 @@ Pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Dpc
 
-Pointer to the [STOR_DPC](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_dpc) DPC object to be cancelled.
+Pointer to the [STOR_DPC](./ns-storport-_stor_dpc.md) DPC object to be cancelled.
 
 ### -param ReturnValue
 
@@ -115,9 +115,8 @@ This routine is implemented using inline function definitions, so that miniport 
 
 ## -see-also
 
-[STOR_DPC](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_dpc)
+[STOR_DPC](./ns-storport-_stor_dpc.md)
 
-[StorPortInitializeDpc](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializedpc)
+[StorPortInitializeDpc](./nf-storport-storportinitializedpc.md)
 
-[StorPortIssueDpc](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportissuedpc)
-
+[StorPortIssueDpc](./nf-storport-storportissuedpc.md)

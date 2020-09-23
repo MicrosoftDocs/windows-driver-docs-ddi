@@ -68,13 +68,13 @@ The following is a description of each access right bit and the operations it al
 
 #### WMIGUID_EXECUTE
 
-The data block object can be used to run WMI class methods. This flag must be set to use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiexecutemethod">IoWMIExecuteMethod</a> on the data block object. 
+The data block object can be used to run WMI class methods. This flag must be set to use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiexecutemethod">IoWMIExecuteMethod</a> on the data block object. 
 
 
 
 #### WMIGUID_NOTIFICATION
 
-The data block object can be used to register event notification callbacks. This flag must be set to use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetnotificationcallback">IoWMISetNotificationCallback</a>, and can only be used for WMI event blocks. Callers that specify this flag must also specify the SYNCHRONIZE flag.
+The data block object can be used to register event notification callbacks. This flag must be set to use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetnotificationcallback">IoWMISetNotificationCallback</a>, and can only be used for WMI event blocks. Callers that specify this flag must also specify the SYNCHRONIZE flag.
 
 
 
@@ -101,43 +101,42 @@ Returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on fai
 
 The caller uses <b>IoWMIOpenBlock</b> to create a data block object for the specified WMI class GUID. Subsequently, the caller can use the data block object to read or write WMI class properties, run WMI class methods, and register callbacks for WMI events.
 
-Use the <b>IoWMIQuery<i>Xxx</i></b> and <b>IoWMISet<i>Xxx</i></b> routines to read and write WMI class properties. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiexecutemethod">IoWMIExecuteMethod</a> to run WMI class methods, and use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetnotificationcallback">IoWMISetNotificationCallback</a> to register a WMI event notification callback.
+Use the <b>IoWMIQuery<i>Xxx</i></b> and <b>IoWMISet<i>Xxx</i></b> routines to read and write WMI class properties. Use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiexecutemethod">IoWMIExecuteMethod</a> to run WMI class methods, and use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetnotificationcallback">IoWMISetNotificationCallback</a> to register a WMI event notification callback.
 
-Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> to close the data block object once it is no longer needed.
+Use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> to close the data block object once it is no longer needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiexecutemethod">IoWMIExecuteMethod</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiexecutemethod">IoWMIExecuteMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiqueryalldata">IoWMIQueryAllData</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiqueryalldata">IoWMIQueryAllData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiqueryalldatamultiple">IoWMIQueryAllDataMultiple</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiqueryalldatamultiple">IoWMIQueryAllDataMultiple</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiquerysingleinstance">IoWMIQuerySingleInstance</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiquerysingleinstance">IoWMIQuerySingleInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiquerysingleinstancemultiple">IoWMIQuerySingleInstanceMultiple</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiquerysingleinstancemultiple">IoWMIQuerySingleInstanceMultiple</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetnotificationcallback">IoWMISetNotificationCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetnotificationcallback">IoWMISetNotificationCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetsingleinstance">IoWMISetSingleInstance</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetsingleinstance">IoWMISetSingleInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetsingleitem">IoWMISetSingleItem</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetsingleitem">IoWMISetSingleItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>

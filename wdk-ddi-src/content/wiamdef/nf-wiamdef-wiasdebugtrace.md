@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **wiasDebugTrace** function is obsolete. Use the [WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace) macro instead.
+The **wiasDebugTrace** function is obsolete. Use the [WIAS_TRACE](./nf-wiamdef-wias_trace.md) macro instead.
 
 This function prints a debug trace string in the Device Manager debug console.
 
@@ -70,7 +70,6 @@ To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Trac
 
 ## -see-also
 
-[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_ltrace)
+[WIAS_LTRACE](./nf-wiamdef-wias_ltrace.md)
 
-[WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)
-
+[WIAS_TRACE](./nf-wiamdef-wias_trace.md)

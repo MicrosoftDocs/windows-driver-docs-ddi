@@ -66,11 +66,10 @@ If the method succeeds, it places the item flag values in the location pointed t
 
 ## -remarks
 
-The method places the current **IWiaDrvItem** item's flag values in the location pointed to by *pIFlags*. The item's flag values were set when the item was created by the driver services library function [wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatedrvitem).
+The method places the current **IWiaDrvItem** item's flag values in the location pointed to by *pIFlags*. The item's flag values were set when the item was created by the driver services library function [wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md).
 
 ## -see-also
 
-[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
+[IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
-[wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatedrvitem)
-
+[wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)

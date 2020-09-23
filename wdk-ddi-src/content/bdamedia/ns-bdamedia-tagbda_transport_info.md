@@ -78,13 +78,12 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
+<a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-tagks_datarange_bda_transport">KS_DATARANGE_BDA_TRANSPORT</a>
-
+<a href="/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-tagks_datarange_bda_transport">KS_DATARANGE_BDA_TRANSPORT</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The RemoveConnectionFromSession_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
+The RemoveConnectionFromSession_IN structure holds the input data for the <a href="/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
 
 ## -struct-fields
 
 ### -field UniqueSessionId
 
-A 64-bit integer that uniquely identifies the session. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in their <i>UniqueSessionId</i> parameter. Do not confuse this value with the values in the ISID and TSID members.
+A 64-bit integer that uniquely identifies the session. The <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in their <i>UniqueSessionId</i> parameter. Do not confuse this value with the values in the ISID and TSID members.
 
 ### -field UniqueConnectionId
 
@@ -68,13 +68,12 @@ You must implement this class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
+<a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a>
-
+<a href="/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a>

@@ -70,5 +70,4 @@ The <b>WdfObjectQuery</b> method is not implemented.
 
 ## -remarks
 
-For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).
-
+For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](/windows-hardware/drivers/wdf/framework-object-life-cycle).

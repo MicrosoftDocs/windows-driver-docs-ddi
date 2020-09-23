@@ -42,13 +42,12 @@ The **KSPROPERTY_INTERLEAVEDAUDIO** enumeration defines a constant which can be 
 
 ### -field KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION
 
-Specifies the ID of the [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation) property.
+Specifies the ID of the [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation) property.
 
 ## -remarks
 
 ## -see-also
 
-[KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
+[KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
 
-[INTERLEAVED_AUDIO_FORMAT_INFORMATION structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_interleaved_audio_format_information)
-
+[INTERLEAVED_AUDIO_FORMAT_INFORMATION structure](./ns-ksmedia-_interleaved_audio_format_information.md)

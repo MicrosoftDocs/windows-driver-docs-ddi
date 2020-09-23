@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>WIA_BARCODES</b> structure stores header information for the barcode metadata report of one scan job (one call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata">IWiaMiniDrv::drvAcquireItemData</a>).
+The <b>WIA_BARCODES</b> structure stores header information for the barcode metadata report of one scan job (one call to <a href="/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata">IWiaMiniDrv::drvAcquireItemData</a>).
 
 ## -struct-fields
 
@@ -62,17 +62,16 @@ Must be the value 0x00010000 (Version 1.0).
 
 ### -field Size
 
-The complete size of this <b>WIA_BARCODES</b> header structure, in bytes, including the complete size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiadef/ns-wiadef-_wia_barcode_info">WIA_BARCODE_INFO</a> list.
+The complete size of this <b>WIA_BARCODES</b> header structure, in bytes, including the complete size of the <a href="/windows-hardware/drivers/ddi/wiadef/ns-wiadef-_wia_barcode_info">WIA_BARCODE_INFO</a> list.
 
 ### -field Count
 
-Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiadef/ns-wiadef-_wia_barcode_info">WIA_BARCODE_INFO</a> elements in the Barcodes sequence.
+Specifies the number of <a href="/windows-hardware/drivers/ddi/wiadef/ns-wiadef-_wia_barcode_info">WIA_BARCODE_INFO</a> elements in the Barcodes sequence.
 
 ### -field Barcodes
 
-Placeholder for  a sequence of <b>Count</b> contiguous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiadef/ns-wiadef-_wia_barcode_info">WIA_BARCODE_INFO</a> structures.
+Placeholder for  a sequence of <b>Count</b> contiguous <a href="/windows-hardware/drivers/ddi/wiadef/ns-wiadef-_wia_barcode_info">WIA_BARCODE_INFO</a> structures.
 
 ## -remarks
 
 The header must be followed by a sequence of barcode information structures, one for each decoded barcode, in the order the barcodes were found and decoded.
-

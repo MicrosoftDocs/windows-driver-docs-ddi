@@ -60,7 +60,6 @@ A pointer to a client driver-allocated and initialized [**MBB_DEVICE_MBIM_PARAME
 
 The client driver typically calls this method from within [*EVT_DEVICE_PREPARE_HARDWARE*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md). 
 
-For more information, see [Initialize the device](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#initialize-the-device).
+For more information, see [Initialize the device](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#initialize-the-device).
 
 ## -see-also
-

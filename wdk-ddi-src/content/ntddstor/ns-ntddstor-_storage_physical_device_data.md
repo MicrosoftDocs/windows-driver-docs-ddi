@@ -64,19 +64,19 @@ The role of the storage device. A bitmask can be use to specify multiple roles, 
 
 ### -field HealthStatus
 
-Indicates the health status of a storage device, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>.
+Indicates the health status of a storage device, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>.
 
 ### -field CommandProtocol
 
-Specifies the storage command protocols that are used between software and hardware, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
+Specifies the storage command protocols that are used between software and hardware, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
 
 ### -field SpecVersion
 
-Indicates the specification of the storage device, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_spec_version">STORAGE_SPEC_VERSION</a>.
+Indicates the specification of the storage device, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_spec_version">STORAGE_SPEC_VERSION</a>.
 
 ### -field FormFactor
 
-Indicates the form factor of a storage device, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_device_form_factor">STORAGE_DEVICE_FORM_FACTOR</a>.
+Indicates the form factor of a storage device, of type <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_device_form_factor">STORAGE_DEVICE_FORM_FACTOR</a>.
 
 ### -field Vendor
 
@@ -120,4 +120,3 @@ Specifies if the storage device is reserved.
 #### - Vendor[8]
 
 The vendor name of the storage device.
-

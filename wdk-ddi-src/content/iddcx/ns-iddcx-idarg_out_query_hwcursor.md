@@ -70,9 +70,8 @@ api_name:
 
 ### -field IsCursorShapeUpdated
 
-                     [out] Indicates if the cursor shape has been updated since the last time the driver was called. If it has been updated, the OS updates the <b>CursorShapeInfo</b> structure and copies the new cursor image data into the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_in_query_hwcursor">IDARG_IN_QUERY_HWCURSOR</a> buffer <b>pShapeBuffer</b>.
+                     [out] Indicates if the cursor shape has been updated since the last time the driver was called. If it has been updated, the OS updates the <b>CursorShapeInfo</b> structure and copies the new cursor image data into the <a href="/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_in_query_hwcursor">IDARG_IN_QUERY_HWCURSOR</a> buffer <b>pShapeBuffer</b>.
 
 ### -field CursorShapeInfo
 
                      [out] If the cursor is visible, then the OS copies the current cursor info into this buffer. If the cursor is not visible, the OS zeros this structure.
-

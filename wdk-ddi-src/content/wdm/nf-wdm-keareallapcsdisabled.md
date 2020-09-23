@@ -58,5 +58,4 @@ A thread inside a guarded region or running at IRQL >= APC_LEVEL has all APCs di
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keareapcsdisabled">KeAreApcsDisabled</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keareapcsdisabled">KeAreApcsDisabled</a>

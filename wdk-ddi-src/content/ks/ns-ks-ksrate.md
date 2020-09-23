@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The query is passed a KSRATE structure appended to the property containing the rate request (known as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksrate_capability">KSRATE_CAPABILITY</a> structure), and is returned a KSRATE structure filled in with the capability given the rate request.
+The query is passed a KSRATE structure appended to the property containing the rate request (known as a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksrate_capability">KSRATE_CAPABILITY</a> structure), and is returned a KSRATE structure filled in with the capability given the rate request.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Specifies the duration of the rate in presentation time units.
 
 ### -field Interface
 
-A structure of type <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> that specifies either the interface used in the connection this rate request is being sent to, or the interface of a related connection. This allows the time units to be interpreted by the pin.
+A structure of type <a href="/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> that specifies either the interface used in the connection this rate request is being sent to, or the interface of a related connection. This allows the time units to be interpreted by the pin.
 
 ### -field Rate
 
@@ -101,5 +101,4 @@ Specifies that there is no valid duration in this rate change request or query.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksrate_capability">KSRATE_CAPABILITY</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksrate_capability">KSRATE_CAPABILITY</a>

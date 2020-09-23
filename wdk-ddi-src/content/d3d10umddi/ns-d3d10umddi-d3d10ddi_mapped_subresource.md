@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the driver maps to through a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcemap">ResourceMap</a> function.
+The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the driver maps to through a call to the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcemap">ResourceMap</a> function.
 
 ## -struct-fields
 
@@ -75,11 +75,10 @@ It is not advisable to assign a value of zero to the <b>RowPitch</b> and <b>Dept
 To avoid zero values for these members, it helps to think of all  resources as being three-dimensional, as in these two examples:
 
 <ul>
-<li>If the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/details-of-the-extended-format">resource attribute</a> is Buffer or Texture1D and contains  8 bytes, then appropriate values  for <b>RowPitch</b> and <b>DepthPitch</b> would be 8 or more.</li>
-<li>If the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/details-of-the-extended-format">resource attribute</a> is Texture2d, even if <b>DepthPitch</b> is not used, <b>DepthPitch</b> must not be assigned a value of zero.</li>
+<li>If the <a href="/windows-hardware/drivers/display/details-of-the-extended-format">resource attribute</a> is Buffer or Texture1D and contains  8 bytes, then appropriate values  for <b>RowPitch</b> and <b>DepthPitch</b> would be 8 or more.</li>
+<li>If the <a href="/windows-hardware/drivers/display/details-of-the-extended-format">resource attribute</a> is Texture2d, even if <b>DepthPitch</b> is not used, <b>DepthPitch</b> must not be assigned a value of zero.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcemap">ResourceMap</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcemap">ResourceMap</a>

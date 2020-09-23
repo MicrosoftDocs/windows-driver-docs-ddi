@@ -54,7 +54,7 @@ PcRemoveStreamResource removes an existing  stream resource. PcRemoveStreamResou
 
 [in]
 PCSTREAMRESOURCE– Resource handle returned by PcAddStreamResource.  
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>.
+For more information, see <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>.
 
 ## -returns
 
@@ -92,17 +92,16 @@ Audio drivers must remove a previously registered resource.  Drivers may unregis
 </ul>
 The audio driver must make sure the resource is valid when making this call.
 
-Audio drivers that only run in Windows 10 can use  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <b>PcRemoveStreamResource</b>. For Audio waveRT miniport drivers that need to also run under previous versions of Windows, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-addstreamresource">AddStreamResource</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>.
+Audio drivers that only run in Windows 10 can use  <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a> and <b>PcRemoveStreamResource</b>. For Audio waveRT miniport drivers that need to also run under previous versions of Windows, use <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-addstreamresource">AddStreamResource</a> and <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pcaddstreamresource">PcAddStreamResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-_pcstreamresourcetype">PcStreamResourceType</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-_pcstreamresourcetype">PcStreamResourceType</a>

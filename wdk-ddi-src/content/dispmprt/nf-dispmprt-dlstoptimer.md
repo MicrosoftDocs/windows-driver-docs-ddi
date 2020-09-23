@@ -51,7 +51,7 @@ dev_langs:
 
 ## -description
 
-Disables calls to a miniport driver's [HwVidTimer](https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_timer) function.
+Disables calls to a miniport driver's [HwVidTimer](../video/nc-video-pvideo_hw_timer.md) function.
 
 ## -parameters
 
@@ -62,4 +62,3 @@ A handle that represents a display adapter.
 ## -remarks
 
 ## -see-also
-

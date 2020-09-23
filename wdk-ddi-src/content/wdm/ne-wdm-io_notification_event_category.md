@@ -43,7 +43,7 @@ product:
 
 ## -description
 
-Specifies the category of PnP event for which the callback routine is being registered.  Used in [**IoRegisterPlugPlayNotification**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification).
+Specifies the category of PnP event for which the callback routine is being registered.  Used in [**IoRegisterPlugPlayNotification**](./nf-wdm-ioregisterplugplaynotification.md).
 
 ## -enum-fields
 
@@ -57,7 +57,7 @@ PnP events in this category include query-change (GUID_HWPROFILE_QUERY_CHANGE), 
 
 ### -field EventCategoryDeviceInterfaceChange
 
-PnP events in this category include the arrival (enabling) of a new instance of a [device interface class](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-interface-classes) (GUID_DEVICE_INTERFACE_ARRIVAL), or the removal (disabling) of an existing device interface instance (GUID_DEVICE_INTERFACE_REMOVAL).
+PnP events in this category include the arrival (enabling) of a new instance of a [device interface class](/windows-hardware/drivers/install/overview-of-device-interface-classes) (GUID_DEVICE_INTERFACE_ARRIVAL), or the removal (disabling) of an existing device interface instance (GUID_DEVICE_INTERFACE_REMOVAL).
 
 ### -field EventCategoryTargetDeviceChange
 
@@ -71,5 +71,4 @@ Reserved for system use.
 
 ## -see-also
 
-[**IoRegisterPlugPlayNotification**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification)
-
+[**IoRegisterPlugPlayNotification**](./nf-wdm-ioregisterplugplaynotification.md)

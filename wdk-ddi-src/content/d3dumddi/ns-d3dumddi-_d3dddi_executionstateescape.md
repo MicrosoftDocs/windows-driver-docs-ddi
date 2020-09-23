@@ -54,9 +54,8 @@ Specifies the state of the device.
 
 ### -field State
 
-[Out] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_deviceexecution_state">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
+[Out] A value of type <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_deviceexecution_state">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_deviceexecution_state">D3DDDI_DEVICEEXECUTION_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_deviceexecution_state">D3DDDI_DEVICEEXECUTION_STATE</a>

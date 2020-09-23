@@ -138,7 +138,7 @@ Pointer to the system-supplied <a href="..\parallel\nc-parallel-pparallel_desele
 
 ### -field Context
 
-Pointer to the device extension of a parallel port's functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>).
+Pointer to the device extension of a parallel port's functional device object (<a href="/windows-hardware/drivers/">FDO</a>).
 
 ### -field CurrentMode
 
@@ -174,7 +174,7 @@ typedef struct _PARALLEL_PNP_INFORMATION {
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544223(v=vs.85)">Obtaining Information About a ParallelPort</a>.
+For more information, see <a href="/previous-versions/ff544223(v=vs.85)">Obtaining Information About a ParallelPort</a>.
 
 ## -see-also
 
@@ -211,4 +211,3 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
-

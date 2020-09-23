@@ -64,15 +64,14 @@ Reserved. Do not use.
 
 ## -remarks
 
-The KS_DVDCOPY_BUSKEY structure is used by both the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-dvd-key1">KSPROPERTY_DVDCOPY_DVD_KEY1</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-dec-key2">KSPROPERTY_DVDCOPY_DEC_KEY2</a> properties.
+The KS_DVDCOPY_BUSKEY structure is used by both the <a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-dvd-key1">KSPROPERTY_DVDCOPY_DVD_KEY1</a> and <a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-dec-key2">KSPROPERTY_DVDCOPY_DEC_KEY2</a> properties.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-dec-key2">KSPROPERTY_DVDCOPY_DEC_KEY2</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-dec-key2">KSPROPERTY_DVDCOPY_DEC_KEY2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-dvd-key1">KSPROPERTY_DVDCOPY_DVD_KEY1</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-dvd-key1">KSPROPERTY_DVDCOPY_DVD_KEY1</a>

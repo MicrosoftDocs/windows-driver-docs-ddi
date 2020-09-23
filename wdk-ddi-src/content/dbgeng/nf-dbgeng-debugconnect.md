@@ -53,12 +53,12 @@ The <b>DebugConnect</b> and <b>DebugConnectWide</b> functions create a new clien
 ### -param RemoteOptions 
 
 [in]
-Specifies how the debugger engine will connect to the remote host.  These are the same options that get passed to the <b>-remote</b> option on the command line.  For details on the syntax of this string, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/activating-a-debugging-client">Activating a Debugging Client</a>.
+Specifies how the debugger engine will connect to the remote host.  These are the same options that get passed to the <b>-remote</b> option on the command line.  For details on the syntax of this string, see <a href="/windows-hardware/drivers/debugger/activating-a-debugging-client">Activating a Debugging Client</a>.
 
 ### -param InterfaceId 
 
 [in]
-Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
+Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
 
 ### -param Interface 
 
@@ -67,7 +67,7 @@ Receives an interface pointer for the new client.  The type of this interface is
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -93,9 +93,8 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">Client Objects</a>
+<a href="/windows-hardware/drivers/debugger/client-objects">Client Objects</a>
 
 
 
 Process Server and Smart Client
-

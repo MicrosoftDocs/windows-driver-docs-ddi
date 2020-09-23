@@ -62,19 +62,19 @@ The length, in bytes, of this structure.
 
 ### -field DispatchType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type">WDF_IO_QUEUE_DISPATCH_TYPE</a> enumerator that identifies the request dispatching type for the queue.
+A <a href="/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type">WDF_IO_QUEUE_DISPATCH_TYPE</a> enumerator that identifies the request dispatching type for the queue.
 
 ### -field PowerManaged
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed value that, if set to <b>WdfTrue</b>, indicates that the framework handles power management of the queue. 
+A <a href="/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed value that, if set to <b>WdfTrue</b>, indicates that the framework handles power management of the queue. 
 
 If set to <b>WdfFalse</b>, the driver must handle power management of the queue. 
 
-If set to <b>WdfUseDefault</b>, the framework handles power management for the queue unless the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetfilter">WdfFdoInitSetFilter</a>. 
+If set to <b>WdfUseDefault</b>, the framework handles power management for the queue unless the driver calls <a href="/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitsetfilter">WdfFdoInitSetFilter</a>. 
 
-Drivers above the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/power-policy-ownership">power policy owner</a> in the driver stack must not set the <b>PowerManaged</b> member to <b>WdfTrue</b>. 
+Drivers above the <a href="/windows-hardware/drivers/wdf/power-policy-ownership">power policy owner</a> in the driver stack must not set the <b>PowerManaged</b> member to <b>WdfTrue</b>. 
 
-For more information about power-managed I/O queues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/power-management-for-i-o-queues">Power Management for I/O Queues</a>.
+For more information about power-managed I/O queues, see <a href="/windows-hardware/drivers/wdf/power-management-for-i-o-queues">Power Management for I/O Queues</a>.
 
 ### -field AllowZeroLengthRequests
 
@@ -82,39 +82,39 @@ A Boolean value that, if <b>TRUE</b>, indicates that the driver expects to recei
 
 ### -field DefaultQueue
 
-A Boolean value that, if <b>TRUE</b>, indicates that the queue will be the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a>. If <b>FALSE</b>, the queue will not be the device's default queue.
+A Boolean value that, if <b>TRUE</b>, indicates that the queue will be the device's <a href="/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a>. If <b>FALSE</b>, the queue will not be the device's default queue.
 
 ### -field EvtIoDefault
 
-A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a> callback function, or <b>NULL</b>.
+A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a> callback function, or <b>NULL</b>.
 
 ### -field EvtIoRead
 
-A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_read">EvtIoRead</a> callback function, or <b>NULL</b>.
+A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_read">EvtIoRead</a> callback function, or <b>NULL</b>.
 
 ### -field EvtIoWrite
 
-A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function, or <b>NULL</b>.
+A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function, or <b>NULL</b>.
 
 ### -field EvtIoDeviceControl
 
-A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function, or <b>NULL</b>.
+A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function, or <b>NULL</b>.
 
 ### -field EvtIoInternalDeviceControl
 
-A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a> callback function, or <b>NULL</b>.
+A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a> callback function, or <b>NULL</b>.
 
 ### -field EvtIoStop
 
-A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_stop">EvtIoStop</a> callback function, or <b>NULL</b>.
+A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_stop">EvtIoStop</a> callback function, or <b>NULL</b>.
 
 ### -field EvtIoResume
 
-A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_resume">EvtIoResume</a> callback function, or <b>NULL</b>.
+A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_resume">EvtIoResume</a> callback function, or <b>NULL</b>.
 
 ### -field EvtIoCanceledOnQueue
 
-A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue">EvtIoCanceledOnQueue</a> callback function, or <b>NULL</b>.
+A pointer to the driver's queue-specific <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue">EvtIoCanceledOnQueue</a> callback function, or <b>NULL</b>.
 
 ### -field Settings
 
@@ -122,7 +122,7 @@ A pointer to the driver's queue-specific <a href="https://docs.microsoft.com/win
 
 ### -field Settings.Parallel.NumberOfPresentedRequests
 
-For the parallel <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a>, the maximum number of I/O requests that the framework asynchronously delivers to the I/O queue's request handlers. For more information, see the following Remarks section. For the sequential and manual dispatching methods, this member must be zero. This member is available in version 1.9 and later versions of KMDF.
+For the parallel <a href="/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">dispatching method</a>, the maximum number of I/O requests that the framework asynchronously delivers to the I/O queue's request handlers. For more information, see the following Remarks section. For the sequential and manual dispatching methods, this member must be zero. This member is available in version 1.9 and later versions of KMDF.
 
 ### -field Driver
 
@@ -130,25 +130,24 @@ For internal use only.  Set to NULL. This member is available in version 1.11 an
 
 ## -remarks
 
-The driver must initialize the <b>WDF_IO_QUEUE_CONFIG</b> structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init_default_queue">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>.
+The driver must initialize the <b>WDF_IO_QUEUE_CONFIG</b> structure by calling <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a> or <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init_default_queue">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>.
 
-The WDF_IO_QUEUE_CONFIG structure is used as an input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>.
+The WDF_IO_QUEUE_CONFIG structure is used as an input parameter to <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>.
 
-Beginning with version 1.9 of KMDF, drivers can use the <b>NumberOfPresentedRequests</b> member to specify the maximum number of I/O requests that the framework asynchronously delivers to a parallel I/O queue's request handlers. After the framework has delivered the specified number of I/O requests to the driver, it does not deliver more requests from the queue until the driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">completes</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">cancels</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/requeuing-i-o-requests">requeues</a> at least one of the requests. 
+Beginning with version 1.9 of KMDF, drivers can use the <b>NumberOfPresentedRequests</b> member to specify the maximum number of I/O requests that the framework asynchronously delivers to a parallel I/O queue's request handlers. After the framework has delivered the specified number of I/O requests to the driver, it does not deliver more requests from the queue until the driver <a href="/windows-hardware/drivers/wdf/completing-i-o-requests">completes</a>, <a href="/windows-hardware/drivers/wdf/canceling-i-o-requests">cancels</a>, or <a href="/windows-hardware/drivers/wdf/requeuing-i-o-requests">requeues</a> at least one of the requests. 
 
 For parallel queues, 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init_default_queue">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a> set the <b>NumberOfPresentedRequests</b> member to its default value (-1), which indicates that the framework can deliver an unlimited number of I/O requests to the driver.
+     <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init">WDF_IO_QUEUE_CONFIG_INIT</a> and <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init_default_queue">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a> set the <b>NumberOfPresentedRequests</b> member to its default value (-1), which indicates that the framework can deliver an unlimited number of I/O requests to the driver.
 
 ## -see-also
 
-[WDF_IO_QUEUE_CONFIG_INIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init)
+[WDF_IO_QUEUE_CONFIG_INIT](./nf-wdfio-wdf_io_queue_config_init.md)
 
-[WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdf_io_queue_config_init_default_queue)
+[WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE](./nf-wdfio-wdf_io_queue_config_init_default_queue.md)
 
-[WDF_IO_QUEUE_DISPATCH_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_queue_dispatch_type)
+[WDF_IO_QUEUE_DISPATCH_TYPE](./ne-wdfio-_wdf_io_queue_dispatch_type.md)
 
-[WdfIoQueueCreate](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuecreate)
+[WdfIoQueueCreate](./nf-wdfio-wdfioqueuecreate.md)
 
 
-[WdfIoQueueReadyNotify](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuereadynotify)
-
+[WdfIoQueueReadyNotify](./nf-wdfio-wdfioqueuereadynotify.md)

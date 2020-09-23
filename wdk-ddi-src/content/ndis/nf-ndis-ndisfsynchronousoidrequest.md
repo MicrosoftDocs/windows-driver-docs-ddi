@@ -81,5 +81,4 @@ Filter drivers are not required to implement [*FilterOidRequestComplete*](nc-ndi
 
 [*FilterSynchronousOidRequestComplete*](nf-ndis-filter_synchronous_oid_request_complete.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
-
+<a href="/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>

@@ -108,23 +108,22 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 ## -remarks
 
-This routine must be called before an initial call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>, to any other support routine that requires a spin lock as an argument.
+This routine must be called before an initial call to <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>, to any other support routine that requires a spin lock as an argument.
 
-For more information about spin locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
+For more information about spin locks, see <a href="/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasemsispinlock">StorPortReleaseMSISpinLock</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasemsispinlock">StorPortReleaseMSISpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasespinlock">StorPortReleaseSpinLock</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasespinlock">StorPortReleaseSpinLock</a>

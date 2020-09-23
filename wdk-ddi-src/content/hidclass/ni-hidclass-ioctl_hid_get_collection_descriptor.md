@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-The IOCTL_HID_GET_COLLECTION_DESCRIPTOR request obtains a top-level collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>, which the HID class driver extracted from the physical device's report descriptor during device initialization.
+The IOCTL_HID_GET_COLLECTION_DESCRIPTOR request obtains a top-level collection's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>, which the HID class driver extracted from the physical device's report descriptor during device initialization.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
@@ -64,7 +64,7 @@ For general information about HIDClass devices, see <a href="https://docs.micros
 
 ### -output-buffer-length
 
-The size, in bytes, of the preparsed data structure is obtained using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a>.
+The size, in bytes, of the preparsed data structure is obtained using <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a>.
 
 ### -in-out-buffer
 
@@ -87,7 +87,7 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 ## -remarks
 
-The <b>_HIDP_PREPARSED_DATA</b> structure contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+The <b>_HIDP_PREPARSED_DATA</b> structure contains a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
 
 ```
@@ -95,7 +95,7 @@ typedef struct _HIDP_PREPARSED_DATA * PHIDP_PREPARSED_DATA;
 
 ```
 
-A user-mode application calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HidD_GetPreparsedData</a> to obtain a top-level collection's preparsed data in a variable length _HIDP_PREPARSED_DATA structure.
+A user-mode application calls <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HidD_GetPreparsedData</a> to obtain a top-level collection's preparsed data in a variable length _HIDP_PREPARSED_DATA structure.
 
 A kernel-mode driver uses an <b>IOCTL_HID_GET_COLLECTION_DESCRIPTOR</b> request to obtain a pointer to a top-level collection's preparsed data.
 
@@ -103,9 +103,8 @@ The internal structure of a _HIDP_PREPARSED_DATA structure is reserved for inter
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_freepreparseddata">HidD_FreePreparsedData</a>
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_freepreparseddata">HidD_FreePreparsedData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HidD_GetPreparsedData</a>
-
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">HidD_GetPreparsedData</a>

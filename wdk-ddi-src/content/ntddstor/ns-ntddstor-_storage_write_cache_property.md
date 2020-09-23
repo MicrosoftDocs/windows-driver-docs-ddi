@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The STORAGE_WRITE_CACHE_PROPERTY structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to retrieve information about a device's write cache property.
+The STORAGE_WRITE_CACHE_PROPERTY structure is used with the <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to retrieve information about a device's write cache property.
 
 ## -struct-fields
 
@@ -64,19 +64,19 @@ The size, in bytes, of the STORAGE_WRITE_CACHE_PROPERTY structure.
 
 ### -field WriteCacheType
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568044(v=vs.85)">WRITE_CACHE_TYPE</a>-typed value that indicates the current write cache type
+A <a href="/previous-versions/windows/hardware/drivers/ff568044(v=vs.85)">WRITE_CACHE_TYPE</a>-typed value that indicates the current write cache type
 
 ### -field WriteCacheEnabled
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568042(v=vs.85)">WRITE_CACHE_ENABLE</a>-typed value that indicates whether the write cache is enabled.
+A <a href="/previous-versions/windows/hardware/drivers/ff568042(v=vs.85)">WRITE_CACHE_ENABLE</a>-typed value that indicates whether the write cache is enabled.
 
 ### -field WriteCacheChangeable
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568039(v=vs.85)">WRITE_CACHE_CHANGE</a>-typed value that indicates whether if the host can change the write cache characteristics.
+A <a href="/previous-versions/windows/hardware/drivers/ff568039(v=vs.85)">WRITE_CACHE_CHANGE</a>-typed value that indicates whether if the host can change the write cache characteristics.
 
 ### -field WriteThroughSupported
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568047(v=vs.85)">WRITE_THROUGH</a>-typed value that indicates whether the device supports write-through caching.
+A <a href="/previous-versions/windows/hardware/drivers/ff568047(v=vs.85)">WRITE_THROUGH</a>-typed value that indicates whether the device supports write-through caching.
 
 ### -field FlushCacheSupported
 
@@ -92,9 +92,8 @@ A Boolean value that indicates whether the device has a battery backup for the w
 
 ## -remarks
 
-All of the parameter values that are described in this topic refer to the output of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request.
+All of the parameter values that are described in this topic refer to the output of the <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>

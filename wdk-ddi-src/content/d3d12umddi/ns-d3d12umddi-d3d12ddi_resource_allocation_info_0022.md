@@ -76,7 +76,7 @@ The additional data alignment.
 
 ### -field Layout
 
-The texture layout as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_texture_layout">D3D12DDI_TEXTURE_LAYOUT</a> value.
+The texture layout as a <a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_texture_layout">D3D12DDI_TEXTURE_LAYOUT</a> value.
 
 ### -field MipLevelSwizzleTransition
 
@@ -88,5 +88,4 @@ The plane slice for a swizzle transition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_texture_layout">D3D12DDI_TEXTURE_LAYOUT</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_texture_layout">D3D12DDI_TEXTURE_LAYOUT</a>

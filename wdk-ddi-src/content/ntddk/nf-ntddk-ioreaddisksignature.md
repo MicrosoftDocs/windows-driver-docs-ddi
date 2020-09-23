@@ -63,7 +63,7 @@ Specifies the number of bytes per sector of the disk.
 ### -param Signature 
 
 [out]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_disk_signature">DISK_SIGNATURE</a> structure the routine uses to return the disk signature information.
+Pointer to a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_disk_signature">DISK_SIGNATURE</a> structure the routine uses to return the disk signature information.
 
 ## -returns
 
@@ -71,13 +71,12 @@ The routine returns STATUS_SUCCESS on success, or the appropriate error code on 
 
 ## -remarks
 
-<b>IoReadDiskSignature</b> must only be used by disk drivers. Other drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_drive_geometry_ex">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a> I/O request instead.
+<b>IoReadDiskSignature</b> must only be used by disk drivers. Other drivers should use the <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_drive_geometry_ex">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a> I/O request instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_disk_signature">DISK_SIGNATURE</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_disk_signature">DISK_SIGNATURE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_drive_geometry_ex">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_drive_geometry_ex">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>

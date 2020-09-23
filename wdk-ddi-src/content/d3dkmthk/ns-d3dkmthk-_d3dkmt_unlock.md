@@ -66,5 +66,4 @@ The D3DKMT_UNLOCK structure describes allocations to unlock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunlock">D3DKMTUnlock</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtunlock">D3DKMTUnlock</a>

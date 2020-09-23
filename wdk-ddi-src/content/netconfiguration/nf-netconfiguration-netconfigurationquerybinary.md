@@ -55,7 +55,7 @@ A handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
 
-A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name.
+A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name.
 
 ### -param PoolType
 
@@ -80,4 +80,3 @@ The client driver obtains a handle to a NETCONFIGURATION object by calling [NetA
 The memory allocated by this function is automatically freed by the framework when the NETCONFIGURATION object is closed.
 
 ## -see-also
-

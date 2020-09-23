@@ -58,11 +58,11 @@ Pointer to the miniport driver's device extension.
 ### -param VpDeviceDescription 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device.
+Pointer to a <a href="/windows-hardware/drivers/ddi/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device.
 
 ## -returns
 
-<b>VideoPortGetDmaAdapter</b> returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure on success; if it is unsuccessful in obtaining information about the DMA adapter, it returns <b>NULL</b>.
+<b>VideoPortGetDmaAdapter</b> returns a pointer to a <a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure on success; if it is unsuccessful in obtaining information about the DMA adapter, it returns <b>NULL</b>.
 
 ## -remarks
 
@@ -80,17 +80,16 @@ This structure is available in Windows XP and later.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportputdmaadapter">VideoPortPutDmaAdapter</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportputdmaadapter">VideoPortPutDmaAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportstartdma">VideoPortStartDma</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportstartdma">VideoPortStartDma</a>

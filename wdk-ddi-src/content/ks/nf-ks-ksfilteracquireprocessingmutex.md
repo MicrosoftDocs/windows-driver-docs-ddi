@@ -54,17 +54,17 @@ The<b> KsFilterAcquireProcessingMutex </b>function acquires the processing mutex
 ### -param Filter 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the AVStream filter for which to acquire the processing mutex.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the AVStream filter for which to acquire the processing mutex.
 
 ## -remarks
 
-AVStream holds the processing control mutex upon return from this routine. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
+AVStream holds the processing control mutex upon return from this routine. For more information, see <a href="/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 A minidriver that must suspend processing for a long period of time should not use this mechanism. Instead, it should manipulate the processing control gate directly by using the <b>KSGATE</b><i>Xxx</i> functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterattemptprocessing">KsFilterAttemptProcessing</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterattemptprocessing">KsFilterAttemptProcessing</a>
 
 
 
@@ -72,13 +72,12 @@ A minidriver that must suspend processing for a long period of time should not u
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinacquireprocessingmutex">KsPinAcquireProcessingMutex</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinacquireprocessingmutex">KsPinAcquireProcessingMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetandgate">KsPinGetAndGate</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetandgate">KsPinGetAndGate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinreleaseprocessingmutex">KsPinReleaseProcessingMutex</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinreleaseprocessingmutex">KsPinReleaseProcessingMutex</a>

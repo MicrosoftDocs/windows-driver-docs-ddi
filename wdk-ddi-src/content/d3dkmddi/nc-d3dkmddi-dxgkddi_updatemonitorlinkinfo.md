@@ -61,7 +61,7 @@ A pointer to a [DXGKARG_UPDATEMONITORLINKINFO](ns-d3dkmddi-_dxgkarg_updatemonito
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). The driver should always return a success code unless there is an error in the parameters or a failure to process the request.
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values). The driver should always return a success code unless there is an error in the parameters or a failure to process the request.
 
 ## -prototype
 
@@ -90,4 +90,3 @@ The DXGKARG_UPDATEMONITORLINKINFO structure also passes usage hints to the drive
 This function is always called at PASSIVE level.
 
 ## -see-also
-

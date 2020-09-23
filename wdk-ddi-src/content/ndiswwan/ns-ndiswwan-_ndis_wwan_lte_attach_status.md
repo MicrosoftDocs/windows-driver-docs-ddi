@@ -80,17 +80,16 @@ A formatted [**WWAN_LTE_ATTACH_STATUS**](../wwan/ns-wwan-_wwan_lte_attach_status
 
 ## -remarks
 
-This structure is used in the [NDIS_STATUS_WWAN_LTE_ATTACH_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-lte-attach-status) status notification.
+This structure is used in the [NDIS_STATUS_WWAN_LTE_ATTACH_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-lte-attach-status) status notification.
 
 ## -see-also
 
-[MB LTE Attach Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-lte-attach-operations)
+[MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)
 
-[OID_WWAN_LTE_ATTACH_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-lte-attach-status)
+[OID_WWAN_LTE_ATTACH_STATUS](/windows-hardware/drivers/network/oid-wwan-lte-attach-status)
 
-[NDIS_STATUS_WWAN_LTE_ATTACH_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-lte-attach-status)
+[NDIS_STATUS_WWAN_LTE_ATTACH_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-lte-attach-status)
 
 [**WWAN_LTE_ATTACH_STATUS**](../wwan/ns-wwan-_wwan_lte_attach_status.md)
 
 [**NDIS_OBJECT_HEADER**](../ntddndis/ns-ntddndis-_ndis_object_header.md)
-

@@ -52,15 +52,15 @@ The `IPrintOemUni::SendFontCmd` method enables a rendering plug-in to modify a p
 
 ### -param pdevobj
 
-Caller-supplied pointer to a [DEVOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj) structure.
+Caller-supplied pointer to a [DEVOBJ](../printoem/ns-printoem-_devobj.md) structure.
 
 ### -param pUFObj
 
-Caller-supplied pointer to a [UNIFONTOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj) structure.
+Caller-supplied pointer to a [UNIFONTOBJ](../printoem/ns-printoem-_unifontobj.md) structure.
 
 ### -param pFInv
 
-Caller-supplied pointer to an [FINVOCATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_finvocation) structure.
+Caller-supplied pointer to an [FINVOCATION](../printoem/ns-printoem-_finvocation.md) structure.
 
 ## -returns
 
@@ -74,35 +74,34 @@ The method must return one of the following values.
 
 ## -remarks
 
-The `IPrintOemUni::SendFontCmd` method is used for selecting device fonts on printers that do not recognize the PCL, CAPSL, or PPDS-formatted font commands supported by Unidrv. Its purpose is to allow a rendering plug-in to modify the font selection command that is specified in the font's .ufm (Unidrv Font Metrics) file. (To see how the command is stored, refer to the description of .ufm file's [UNIDRVINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo) structure.) If the command needs to be modified before being sent to the printer, you should implement the `IPrintOemUni::SendFontCmd` method.
+The `IPrintOemUni::SendFontCmd` method is used for selecting device fonts on printers that do not recognize the PCL, CAPSL, or PPDS-formatted font commands supported by Unidrv. Its purpose is to allow a rendering plug-in to modify the font selection command that is specified in the font's .ufm (Unidrv Font Metrics) file. (To see how the command is stored, refer to the description of .ufm file's [UNIDRVINFO](../prntfont/ns-prntfont-_unidrvinfo.md) structure.) If the command needs to be modified before being sent to the printer, you should implement the `IPrintOemUni::SendFontCmd` method.
 
-The method receives the command string in the [FINVOCATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_finvocation) structure pointed to by *pFInv*. Typically, the string contains variables for which values must be supplied. For example, the following font selection command requires that *#FontHeight* and *#FontWidth* be replaced with numeric values:
+The method receives the command string in the [FINVOCATION](../printoem/ns-printoem-_finvocation.md) structure pointed to by *pFInv*. Typically, the string contains variables for which values must be supplied. For example, the following font selection command requires that *#FontHeight* and *#FontWidth* be replaced with numeric values:
 
 ```cpp
 \x1B(9U\x1B(s4148t0b0s#FontHeight1P\x1B)6J\x1B)s4148t0b0s#FontWidth1P
 ```
 
-Current values for the font height and width can be obtained by calling [UNIFONTOBJ_GetInfo](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo) to read Unidrv's standard variables.
+Current values for the font height and width can be obtained by calling [UNIFONTOBJ_GetInfo](../printoem/nc-printoem-pfngetinfo.md) to read Unidrv's standard variables.
 
-Whenever the `IPrintOemUni::SendFontCmd` method called, it must send the command string to the printer by calling [IPrintOemDriverUni::DrvWriteSpoolBuf](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf).
+Whenever the `IPrintOemUni::SendFontCmd` method called, it must send the command string to the printer by calling [IPrintOemDriverUni::DrvWriteSpoolBuf](./nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf.md).
 
-The `IPrintOemUni::SendFontCmd` method is optional. If a rendering plug-in implements this method, the plug-in's [IPrintOemUni::GetImplementedMethod](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod) method must return S_OK when it receives "SendFontCmd" as input.
+The `IPrintOemUni::SendFontCmd` method is optional. If a rendering plug-in implements this method, the plug-in's [IPrintOemUni::GetImplementedMethod](./nf-prcomoem-iprintoemuni-getimplementedmethod.md) method must return S_OK when it receives "SendFontCmd" as input.
 
-For additional information see [Customized Font Management](https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management).
+For additional information see [Customized Font Management](/windows-hardware/drivers/print/customized-font-management).
 
 ## -see-also
 
-[DEVOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj)
+[DEVOBJ](../printoem/ns-printoem-_devobj.md)
 
-[FINVOCATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_finvocation)
+[FINVOCATION](../printoem/ns-printoem-_finvocation.md)
 
-[IPrintOemDriverUni::DrvWriteSpoolBuf](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf)
+[IPrintOemDriverUni::DrvWriteSpoolBuf](./nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf.md)
 
-[IPrintOemUni](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni)
+[IPrintOemUni](./nn-prcomoem-iprintoemuni.md)
 
-[IPrintOemUni::GetImplementedMethod](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod)
+[IPrintOemUni::GetImplementedMethod](./nf-prcomoem-iprintoemuni-getimplementedmethod.md)
 
-[UNIFONTOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj)
+[UNIFONTOBJ](../printoem/ns-printoem-_unifontobj.md)
 
-[UNIFONTOBJ_GetInfo](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo)
-
+[UNIFONTOBJ_GetInfo](../printoem/nc-printoem-pfngetinfo.md)

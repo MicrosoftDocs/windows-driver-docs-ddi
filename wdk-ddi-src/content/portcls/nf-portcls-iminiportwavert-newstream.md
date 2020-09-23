@@ -58,12 +58,12 @@ Output pointer for the new stream. This parameter points to a caller-allocated p
 ### -param PortStream 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a>.
+Pointer to the <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a>.
 
 ### -param Pin 
 
 [in]
-Specifies a pin ID that identifies the pin to be opened. If the filter descriptor of the WaveRT miniport driver specifies a total of <i>n</i> pin factories on the filter, valid values for the <i>Pin</i> parameter are in the range 0 to <i>n</i>-1. For more information about filter descriptors, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/filter-factories">Filter Factories</a> topic.
+Specifies a pin ID that identifies the pin to be opened. If the filter descriptor of the WaveRT miniport driver specifies a total of <i>n</i> pin factories on the filter, valid values for the <i>Pin</i> parameter are in the range 0 to <i>n</i>-1. For more information about filter descriptors, see the <a href="/windows-hardware/drivers/audio/filter-factories">Filter Factories</a> topic.
 
 ### -param Capture 
 
@@ -73,7 +73,7 @@ Specifies a Boolean value that indicates whether to create a capture stream or a
 ### -param DataFormat 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure that specifies the data format of the new stream. For more information, see the following Remarks section.
+Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure that specifies the data format of the new stream. For more information, see the following Remarks section.
 
 ## -returns
 
@@ -81,20 +81,20 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks
 
 ## -remarks
 
-The <code>NewStream</code> method sets the initial state of the stream to <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/state-transitions">KSSTATE_STOP</a> and its initial position to 0. For more information, see related methods <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536756(v=vs.85)">IMiniportWaveRTStream::SetState</a> and <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536749(v=vs.85)">IMiniportWaveRTStream::GetPosition</a>.
+The <code>NewStream</code> method sets the initial state of the stream to <a href="/windows-hardware/drivers/stream/state-transitions">KSSTATE_STOP</a> and its initial position to 0. For more information, see related methods <a href="/previous-versions/windows/hardware/drivers/ff536756(v=vs.85)">IMiniportWaveRTStream::SetState</a> and <a href="/previous-versions/windows/hardware/drivers/ff536749(v=vs.85)">IMiniportWaveRTStream::GetPosition</a>.
 
 The <i>DataFormat</i> parameter, which specifies the data format of the stream, points to one of the following audio-specific, extended versions of the KSDATAFORMAT structure:
 
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_dsound">KSDATAFORMAT_DSOUND</a>
 
 
 </li>
@@ -103,7 +103,7 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavert">IMiniportWaveRT</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavert">IMiniportWaveRT</a>
 
 
 
@@ -111,13 +111,12 @@ IMiniportWaveRTStream
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536749(v=vs.85)">IMiniportWaveRTStream::GetPosition</a>
+<a href="/previous-versions/windows/hardware/drivers/ff536749(v=vs.85)">IMiniportWaveRTStream::GetPosition</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536756(v=vs.85)">IMiniportWaveRTStream::SetState</a>
+<a href="/previous-versions/windows/hardware/drivers/ff536756(v=vs.85)">IMiniportWaveRTStream::SetState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavertstream">IPortWaveRTStream</a>

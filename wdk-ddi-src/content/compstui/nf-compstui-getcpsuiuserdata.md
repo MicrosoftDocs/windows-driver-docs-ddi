@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-CPSUI's <b>GetCPSUIUserData</b> function retrieves data that was previously stored using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a> function.
+CPSUI's <b>GetCPSUIUserData</b> function retrieves data that was previously stored using the <a href="/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a> function.
 
 ## -parameters
 
@@ -56,11 +56,10 @@ Caller-supplied handle to a property sheet dialog box. For more information, see
 
 ## -returns
 
-If the operation succeeds, the function returns the value that was previously supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a>; otherwise the function returns zero.
+If the operation succeeds, the function returns the value that was previously supplied to <a href="/windows-hardware/drivers/ddi/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a>; otherwise the function returns zero.
 
 ## -remarks
 
-The <b>GetCPSUIUserData</b> function should only be called from within a dialog box procedure that has been associated with a dialog box by using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> or an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush">EXTPUSH</a> structure.
+The <b>GetCPSUIUserData</b> function should only be called from within a dialog box procedure that has been associated with a dialog box by using a <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> or an <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush">EXTPUSH</a> structure.
 
 The handle specified for <i>hDlg</i> must be the handle received as input to the dialog box procedure. (Dialog box procedures are described in the Microsoft Windows SDK documentation.)
-

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a> routine.
+This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the  <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a> routine.
 
 
 
@@ -62,5 +62,4 @@ The value returned from the silo attach call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psattachsilotocurrentthread">PsAttachSiloToCurrentThread</a>

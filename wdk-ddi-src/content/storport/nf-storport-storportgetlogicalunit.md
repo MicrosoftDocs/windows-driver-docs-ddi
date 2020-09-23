@@ -77,7 +77,7 @@ Identifies the logical unit (LU) number of the target device.
 
 ## -remarks
 
-**StorPortGetLogicalUnit** is irrelevant if the miniport driver's [**DriverEntry**](https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver") routine specified zero for the **LuExtensionSize** in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
+**StorPortGetLogicalUnit** is irrelevant if the miniport driver's [**DriverEntry**](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver") routine specified zero for the **LuExtensionSize** in the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
  when it called [**StorPortInitialize**](nf-storport-storportinitialize.md). Otherwise, the operating system-specific port driver allocates and initializes with zeros a set of LU extensions of the specified size for the miniport driver to use.
 
 Per-LU storage can be used to store data relevant to a particular peripheral, such as saved data pointers. To access this area, the miniport driver calls **StorPortGetLogicalUnit** when the driver is maintaining information about the state of or current operation for any particular peripheral.
@@ -93,4 +93,3 @@ The operating system-specific port driver can consider a logical unit to be none
 [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md)
 
 [**StorPortInitialize**](nf-storport-storportinitialize.md)
-

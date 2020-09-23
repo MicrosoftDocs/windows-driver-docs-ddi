@@ -53,7 +53,7 @@ When passed a pointer to a SECTION_OBJECT_POINTERS structure for a cached file, 
 ### -param SectionObjectPointer 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
+A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
 
 ## -returns
 
@@ -61,17 +61,16 @@ A pointer to the file object for the cached file, or <b>NULL</b> if the file is 
 
 ## -remarks
 
-The file object is returned with a reference.  The caller is responsible for calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> on the file object when it has finished using the file object.
+The file object is returned with a reference.  The caller is responsible for calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> on the file object when it has finished using the file object.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539104">CcGetFileObjectFromSectionPtrs</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccgetfileobjectfromsectionptrs">CcGetFileObjectFromSectionPtrs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a>

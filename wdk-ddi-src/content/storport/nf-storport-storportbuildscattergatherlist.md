@@ -106,7 +106,7 @@ Miniport drivers should ignore this parameter.
 
 #### ScatterGather
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_scatter_gather_list">STOR_SCATTER_GATHER_LIST</a> structure that contains the scatter/gather list for the specified data buffer.
+A pointer to a <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_scatter_gather_list">STOR_SCATTER_GATHER_LIST</a> structure that contains the scatter/gather list for the specified data buffer.
 
 
 
@@ -129,7 +129,7 @@ A value that indicates the direction of the DMA transfer. A value of <b>TRUE</b>
 ### -param ScatterGatherBuffer 
 
 [in, out]
-A pointer to a miniport-supplied buffer that receives the scatter/gather list. A miniport driver can allocate memory for this buffer by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
+A pointer to a miniport-supplied buffer that receives the scatter/gather list. A miniport driver can allocate memory for this buffer by calling the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a> routine.
 
 ### -param ScatterGatherBufferLength 
 
@@ -217,22 +217,21 @@ The Length parameter is too big to fit within the buffer.
 
 ## -remarks
 
-The miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportputscattergatherlist">StorPortPutScatterGatherList</a> to release the resources that <b>StorPortBuildScatterGatherList</b> allocated while constructing the scatter/gather list. 
+The miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportputscattergatherlist">StorPortPutScatterGatherList</a> to release the resources that <b>StorPortBuildScatterGatherList</b> allocated while constructing the scatter/gather list. 
 
-The miniport driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportputscattergatherlist">StorPortPutScatterGatherList</a> before freeing or reusing the memory it allocated for the scatter/gather list.
+The miniport driver must call <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportputscattergatherlist">StorPortPutScatterGatherList</a> before freeing or reusing the memory it allocated for the scatter/gather list.
 
 <div class="alert"><b>Note</b>  If <b>StorPortBuildScatterGatherList</b> returns STOR_STATUS_SUCCESS, then the callback in <i>ExecutionRoutine</i> was successfully queued to execute after the scatter/gather list is created. The miniport must not assume that <i>ExecutionRoutine</i> was called or that the scatter/gather list is ready when <b>StorPortBuildScatterGatherList</b> returns.   If necessary, the miniport can synchronize the execution of code following <b>StorPortBuildScatterGatherList</b> with the callback in <i>ExecutionRoutine</i> to ensure that the scatter/gather list is available.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_scatter_gather_list">STOR_SCATTER_GATHER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_scatter_gather_list">STOR_SCATTER_GATHER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatepool">StorPortAllocatePool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportputscattergatherlist">StorPortPutScatterGatherList</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportputscattergatherlist">StorPortPutScatterGatherList</a>

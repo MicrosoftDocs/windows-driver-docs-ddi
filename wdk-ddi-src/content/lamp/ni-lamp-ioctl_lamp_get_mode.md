@@ -57,11 +57,11 @@ The **IOCTL_LAMP_GET_MODE** control code queries the mode with which the lamp is
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ne-lamp-lamp_mode).
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](./ne-lamp-lamp_mode.md).
 
 ### -input-buffer-length
 
-Length of [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ne-lamp-lamp_mode).
+Length of [LAMP_MODE](./ne-lamp-lamp_mode.md).
 
 ### -output-buffer
 
@@ -80,4 +80,3 @@ Length of [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/la
 The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status. It will set `Irp->IoStatus.Information` to the number of bytes required to hold a **DWORD** value.
 
 If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
-

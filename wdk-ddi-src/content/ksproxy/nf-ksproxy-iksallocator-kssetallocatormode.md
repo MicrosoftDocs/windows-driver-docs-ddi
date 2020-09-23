@@ -59,5 +59,4 @@ The mode in which an allocator allocates memory.
 
 ## -see-also
 
-[IKsAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator)
-
+[IKsAllocator](./nn-ksproxy-iksallocator.md)

@@ -53,7 +53,7 @@ Informs USB Host Controller Extension (UCX) that the controller has encountered 
 ### -param Controller 
 
 [in]
-A handle to the controller object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>.
+A handle to the controller object. The client driver retrieved the handle in a previous call to <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>.
 
 ## -remarks
 
@@ -61,5 +61,4 @@ A handle to the controller object. The client driver retrieved the handle in a p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
-
+<a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>

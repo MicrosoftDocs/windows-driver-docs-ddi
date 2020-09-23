@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>RtlVolumeDeviceToDosName</b> routine is <u>obsolete</u> for Windows XP and later versions of Windows. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iovolumedevicetodosname">IoVolumeDeviceToDosName</a> instead.
+The <b>RtlVolumeDeviceToDosName</b> routine is <u>obsolete</u> for Windows XP and later versions of Windows. Use <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iovolumedevicetodosname">IoVolumeDeviceToDosName</a> instead.
 
 <b>RtlVolumeDeviceToDosName</b> returns the MS-DOS path for a specified device object that represents a file system volume.
 
@@ -68,7 +68,6 @@ Pointer to a Unicode string containing the MS-DOS path of the volume device obje
 
 ## -remarks
 
-The behavior of this routine is identical to that of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iovolumedevicetodosname">IoVolumeDeviceToDosName</a>. For more information about how to use this routine, see <b>IoVolumeDeviceToDosName</b>.
+The behavior of this routine is identical to that of <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iovolumedevicetodosname">IoVolumeDeviceToDosName</a>. For more information about how to use this routine, see <b>IoVolumeDeviceToDosName</b>.
 
 Drivers that must work on older NT-based operating systems may use this routine. Drivers written for Windows XP and later must use <b>IoVolumeDeviceToDosName</b> instead.
-

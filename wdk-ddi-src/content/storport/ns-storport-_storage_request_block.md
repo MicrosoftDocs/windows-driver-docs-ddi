@@ -54,7 +54,7 @@ The **STORAGE_REQUEST_BLOCK** is the extended format SCSI Request Block (SRB) st
 
 > [!NOTE]
 >
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport driver](/windows-hardware/drivers/storage/storport-miniport-drivers) models.
 
 ## -struct-fields
 
@@ -267,4 +267,3 @@ The target device address for the SRB is in a [**STOR_ADDRESS**](../scsi/ns-scsi
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
 [**STOR_ADDRESS**](../scsi/ns-scsi-_stor_address.md)
-

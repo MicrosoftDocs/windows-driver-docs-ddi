@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The DRIVER_INITIALIZATION_DATA structure contains pointers to functions implemented by the display miniport driver. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
+The DRIVER_INITIALIZATION_DATA structure contains pointers to functions implemented by the display miniport driver. The display miniport driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
 
 ## -struct-fields
 
@@ -216,7 +216,7 @@ A pointer to the display miniport driver's <a href="../d3dkmddi/nc-d3dkmddi-dxgk
 
 ### -field DxgkDdiSetVidPnSourceAddress
 
-A pointer to the display miniport driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a> function.
+A pointer to the display miniport driver's <a href="/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)">DxgkDdiSetVidPnSourceAddress</a> function.
 
 ### -field DxgkDdiSetVidPnSourceVisibility
 
@@ -312,7 +312,7 @@ A pointer to the display miniport driver's <a href="nc-dispmprt-dxgkddi_link_dev
 A pointer to the display miniport driver's <a href="../d3dkmddi/nc-d3dkmddi-dxgkddi_setdisplayprivatedriverformat.md">DxgkDdiSetDisplayPrivateDriverFormat</a> function.
 
 > [!NOTE]
-> The following [reserved functions](https://docs.microsoft.com/windows-hardware/drivers/display/dispmprt-h---reserved) declared in *dispmrt.h* are available beginning with Windows 7:
+> The following [reserved functions](/windows-hardware/drivers/display/dispmprt-h---reserved) declared in *dispmrt.h* are available beginning with Windows 7:
 
 ### -field DxgkDdiDescribePageTable
 
@@ -430,7 +430,7 @@ Supported starting with Windows 8.
 
 ### -field DxgkDdiPowerRuntimeControlRequest
 
-A pointer to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest">DxgkDdiPowerRuntimeControlRequest</a> function.
+A pointer to the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest">DxgkDdiPowerRuntimeControlRequest</a> function.
 
 Supported starting with Windows 8.
 
@@ -821,5 +821,4 @@ typedef DXGKDDI_CALIBRATEGPUCLOCK  *PDXGKDDI_CALIBRATEGPUCLOCK;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
-
+<a href="/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>

@@ -56,7 +56,7 @@ Protocol drivers call the
 
 [in]
 The handle returned by the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function that
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function that
      identifies the miniport driver or virtual miniport to which the cancellation applies.
 
 ### -param CancelId 
@@ -69,14 +69,14 @@ The cancellation identifier. This identifier specifies the network data for whic
 
 A protocol driver maps IRPs that it receives from higher-level software to NDIS network data. A list
     of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures describes the
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures describes the
     network data that the protocol driver sends to lower-level drivers for transmission. If an IRP is
     canceled, a protocol driver can call the 
     <b>NdisCancelSendNetBufferLists</b> function to cancel the pending transmission of the corresponding NDIS
     network data.
 
 Call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
+    <a href="/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
     NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro for each NET_BUFFER_LIST structure that is passed to
     lower-level drivers for transmission. The NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro marks the specified
     packet with a cancellation identifier.
@@ -94,7 +94,7 @@ The
 The protocol driver must ensure that the handle that the 
     <i>NdisBindingHandle</i> parameter specifies remains valid for the duration of the call to 
     <b>NdisCancelSendNetBufferLists</b>. That is, the protocol driver must not call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a> function to close
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a> function to close
     the binding before 
     <b>NdisCancelSendNetBufferLists</b> returns.
 
@@ -102,13 +102,13 @@ There is no guarantee that calling
     <b>NdisCancelSendNetBufferLists</b> will cancel the pending transmission of all network data with the
     specified cancellation identifier. For example, if the next-lower driver to which the protocol driver is
     bound does not provide a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a> function, a call
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a> function, a call
     to 
     <b>NdisCancelSendNetBufferLists</b> does nothing.
 
 In all cases, NDIS returns network data that was submitted for transmission to the originating
     protocol driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
     ProtocolSendNetBufferListsComplete</a> function. NDIS returns canceled send data with a completion
     status of NDIS_STATUS_SEND_ABORTED. The delay between calling 
     <b>NdisCancelSendNetBufferLists</b> and the return of the canceled NET_BUFFER_LIST structures can vary and
@@ -116,27 +116,26 @@ In all cases, NDIS returns network data that was submitted for transmission to t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
+<a href="/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_send_net_buffer_lists_complete">
    ProtocolSendNetBufferListsComplete</a>
-

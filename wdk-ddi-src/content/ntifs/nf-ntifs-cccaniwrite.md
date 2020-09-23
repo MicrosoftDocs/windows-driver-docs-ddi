@@ -76,11 +76,11 @@ Set to <b>FALSE</b> if this is the first time <b>CcCanIWrite</b> is being called
 
 ## -remarks
 
-<b>CcCanIWrite</b> should be called before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539075">CcFastCopyWrite</a>.
+<b>CcCanIWrite</b> should be called before calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccfastcopywrite">CcFastCopyWrite</a>.
 
-If <b>CcCanIWrite</b> returns <b>TRUE</b>, the caller can immediately call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539075">CcFastCopyWrite</a>.
+If <b>CcCanIWrite</b> returns <b>TRUE</b>, the caller can immediately call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccfastcopywrite">CcFastCopyWrite</a>.
 
-If <b>CcCanIWrite</b> returns <b>FALSE</b>, the caller must instead call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539060">CcDeferWrite</a> to defer the write request.
+If <b>CcCanIWrite</b> returns <b>FALSE</b>, the caller must instead call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccdeferwrite">CcDeferWrite</a> to defer the write request.
 
 Generally speaking, the cache manager can accept a write request if the following conditions are true:
 
@@ -102,25 +102,24 @@ If a per-file dirty page threshold exists for this file, it is not exceeded by t
 
 </li>
 </ul>
-To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
+To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539060">CcDeferWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccdeferwrite">CcDeferWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539075">CcFastCopyWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccfastcopywrite">CcFastCopyWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539209">CcSetDirtyPageThreshold</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetdirtypagethreshold">CcSetDirtyPageThreshold</a>

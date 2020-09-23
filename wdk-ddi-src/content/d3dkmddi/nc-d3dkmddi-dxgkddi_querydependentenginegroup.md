@@ -66,7 +66,7 @@ Returns **STATUS_SUCCESS** if it succeeds. Otherwise, it returns one of the erro
 
 ## -remarks
 
-This function is used to describe all physical adapters (engines) that are affected by an engine reset request. It helps improve user experience on hardware architectures that have dependencies among multiple engines that can affect the reset process. Note that all affected nodes must have the same engine affinity value. (See the engine affinity discussion in [TDR changes in Windows 8](https://docs.microsoft.com/windows-hardware/drivers/display/tdr-changes-in-windows-8).)
+This function is used to describe all physical adapters (engines) that are affected by an engine reset request. It helps improve user experience on hardware architectures that have dependencies among multiple engines that can affect the reset process. Note that all affected nodes must have the same engine affinity value. (See the engine affinity discussion in [TDR changes in Windows 8](/windows-hardware/drivers/display/tdr-changes-in-windows-8).)
 
 The display port driver's GPU scheduler calls **DxgkDdiQueryDependentEngineGroup** every time it calls the [**DxgkDdiResetEngine**](nc-d3dkmddi-dxgkddi_resetengine.md) function. The GPU scheduler waits 500 milliseconds for the display miniport driver to complete preemption of all dependent engines. For any engines for which the driver cannot complete a preemption, the GPU scheduler calls the **DxgkDdiResetEngine** function sequentially based upon the engine ordinal value.
 
@@ -74,9 +74,9 @@ Here is an example of how to compute the bitmask in the [**DXGKARG_QUERYDEPENDEN
 
 This function should be made pageable, and it should always succeed.
 
-The operating system guarantees that this function follows the first level synchronization mode as defined in [Threading and Synchronization First Level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-first-level).
+The operating system guarantees that this function follows the first level synchronization mode as defined in [Threading and Synchronization First Level](/windows-hardware/drivers/display/threading-and-synchronization-first-level).
 
-For more information, see [TDR changes in Windows 8](https://docs.microsoft.com/windows-hardware/drivers/display/tdr-changes-in-windows-8).
+For more information, see [TDR changes in Windows 8](/windows-hardware/drivers/display/tdr-changes-in-windows-8).
 
 ## -see-also
 
@@ -89,4 +89,3 @@ For more information, see [TDR changes in Windows 8](https://docs.microsoft.com/
 [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md)
 
 [**DxgkDdiResetEngine**](nc-d3dkmddi-dxgkddi_resetengine.md)
-

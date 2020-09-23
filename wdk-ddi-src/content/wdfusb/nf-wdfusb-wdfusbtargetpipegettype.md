@@ -58,17 +58,17 @@ The <b>WdfUsbTargetPipeGetType</b> method returns the type of a specified USB pi
 ### -param Pipe 
 
 [in]
-A handle to a framework pipe object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
+A handle to a framework pipe object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>.
 
 ## -returns
 
-<b>WdfUsbTargetPipeGetType</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_pipe_type">WDF_USB_PIPE_TYPE</a>-typed value that identifies the specified pipe's type. 
+<b>WdfUsbTargetPipeGetType</b> returns a <a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_pipe_type">WDF_USB_PIPE_TYPE</a>-typed value that identifies the specified pipe's type. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-For more information about the <b>WdfUsbTargetPipeGetType</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/usb-i-o-targets">USB I/O Targets</a>.
+For more information about the <b>WdfUsbTargetPipeGetType</b> method and USB I/O targets, see <a href="/windows-hardware/drivers/wdf/usb-i-o-targets">USB I/O Targets</a>.
 
 
 #### Examples
@@ -84,9 +84,8 @@ usbPipeType = WdfUsbTargetPipeGetType(usbPipe);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_pipe_type">WDF_USB_PIPE_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_pipe_type">WDF_USB_PIPE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>

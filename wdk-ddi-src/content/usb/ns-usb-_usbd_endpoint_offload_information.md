@@ -68,7 +68,7 @@ The resource identifier.
 
 ### -field Mode
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_endpoint_offload_mode">USBD_ENDPOINT_OFFLOAD_MODE</a>-type value that indicates whether endpoint offloading is handled in software or the USB device or host controller.
+A <a href="/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_endpoint_offload_mode">USBD_ENDPOINT_OFFLOAD_MODE</a>-type value that indicates whether endpoint offloading is handled in software or the USB device or host controller.
 
 ### -field RootHubPortNumber
 
@@ -150,4 +150,3 @@ The cycle state of the transfer.
 The size of the requested data.
 
 The size of the requested data.
-

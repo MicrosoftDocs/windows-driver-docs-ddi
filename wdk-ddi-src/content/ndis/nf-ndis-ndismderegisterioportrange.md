@@ -48,7 +48,7 @@ api_name:
 ## -description
 
 <b>NdisMDeregisterIoPortRange</b> releases a mapping that was set up with 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> during
+  <a href="/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> during
   driver initialization.
 
 ## -parameters
@@ -57,7 +57,7 @@ api_name:
 
 [in]
 Specifies the handle input to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 ### -param InitialPort 
 
@@ -81,15 +81,15 @@ The miniport driver must pass the same
     <i>InitialPort</i> and 
     <i>NumberOfPorts</i> to 
     <b>NdisMDeregisterIoPortRange</b> that were passed when 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> called 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> to get
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> called 
+    <a href="/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> to get
     the mapped 
     <i>PortOffset</i> value. That is, a miniport driver cannot call 
     <b>NdisMDeregisterIoPortRange</b> to release a subrange of a mapped port range.
 
 <b>NdisMDeregisterIoPortRange</b> can be called from the 
     <i>MiniportInitializeEx</i> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> functions only if 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> functions only if 
     <i>MiniportInitializeEx</i> previously made a successful call to 
     <b>NdisMRegisterIoPortRange</b>.
 
@@ -103,13 +103,12 @@ After it calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a>
-
+<a href="/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a>

@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_KM_AUTHORIZATION enumeration type specifies the data field identifiers for the
   FWPS_LAYER_KM_AUTHORIZATION 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 ## -enum-fields
 
@@ -89,4 +89,3 @@ The Network Access Protection (NAP) certificate context.
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
-

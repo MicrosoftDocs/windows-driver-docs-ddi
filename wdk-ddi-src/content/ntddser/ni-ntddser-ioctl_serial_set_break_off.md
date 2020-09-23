@@ -48,7 +48,7 @@ api_name:
 
 The <b>IOCTL_SERIAL_SET_BREAK_OFF</b> request sets the line control break signal inactive.
 
-To set the line control break signal active, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_break_on">IOCTL_SERIAL_SET_BREAK_ON</a> request.
+To set the line control break signal active, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_break_on">IOCTL_SERIAL_SET_BREAK_ON</a> request.
 
 ## -ioctlparameters
 
@@ -76,9 +76,8 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_break_on">IOCTL_SERIAL_SET_BREAK_ON</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_break_on">IOCTL_SERIAL_SET_BREAK_ON</a>

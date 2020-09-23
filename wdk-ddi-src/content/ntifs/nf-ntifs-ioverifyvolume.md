@@ -109,15 +109,14 @@ Set to <b>TRUE</b> if this verify request is being issued on behalf of a DASD op
 
 If the verify operation fails, the I/O Manager sends a volume mount request to the device. 
 
-Before using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosetdevicetoverify">IoSetDeviceToVerify</a> and <b>IoVerifyVolume</b>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample. 
+Before using <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosetdevicetoverify">IoSetDeviceToVerify</a> and <b>IoVerifyVolume</b>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample. 
 
-For more information about removable-media devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/supporting-removable-media">Supporting Removable Media</a>.
+For more information about removable-media devices, see <a href="/windows-hardware/drivers/kernel/supporting-removable-media">Supporting Removable Media</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetdevicetoverify">IoGetDeviceToVerify</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetdevicetoverify">IoGetDeviceToVerify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosetdevicetoverify">IoSetDeviceToVerify</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosetdevicetoverify">IoSetDeviceToVerify</a>

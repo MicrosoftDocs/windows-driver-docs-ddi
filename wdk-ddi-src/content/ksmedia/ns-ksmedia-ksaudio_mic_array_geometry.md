@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The KSAUDIO_MIC_ARRAY_GEOMETRY structure specifies the type and the geometry of the microphone array. The **usNumberOfMicrophones** member indicates the number of microphones in the physical array. The KsMicCoord member is a variable of type [KSAUDIO_MICROPHONE_COORDINATES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_microphone_coordinates) and is an array of structures. The number of entries in this array is given by the value of the **usNumberOfMicrophones** member.
+The KSAUDIO_MIC_ARRAY_GEOMETRY structure specifies the type and the geometry of the microphone array. The **usNumberOfMicrophones** member indicates the number of microphones in the physical array. The KsMicCoord member is a variable of type [KSAUDIO_MICROPHONE_COORDINATES](./ns-ksmedia-ksaudio_microphone_coordinates.md) and is an array of structures. The number of entries in this array is given by the value of the **usNumberOfMicrophones** member.
 
 ## -struct-fields
 
@@ -106,9 +106,8 @@ All coordinate values are expressed in millimeters. Acceptable values range from
 
 Frequency values are expressed in Hertz (Hz).
 
-For more information about how to process a microphone array in Windows, see the [Microphone array support in Windows](https://docs.microsoft.com/previous-versions/windows/hardware/design/dn613960(v=vs.85)) white paper.
+For more information about how to process a microphone array in Windows, see the [Microphone array support in Windows](/previous-versions/windows/hardware/design/dn613960(v=vs.85)) white paper.
 
 ## -see-also
 
-[KSAUDIO_MICROPHONE_COORDINATES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_microphone_coordinates)
-
+[KSAUDIO_MICROPHONE_COORDINATES](./ns-ksmedia-ksaudio_microphone_coordinates.md)

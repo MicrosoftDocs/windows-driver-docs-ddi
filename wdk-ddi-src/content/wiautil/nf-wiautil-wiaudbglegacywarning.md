@@ -60,9 +60,8 @@ Pointer to a format string that specifies a variable argument list, which starts
 
 ## -remarks
 
-The <b>wiauDbgLegacyWarning</b> function is identical to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a> function except that the latter has a parameter used to identify the function or method that is active when the function is called.
+The <b>wiauDbgLegacyWarning</b> function is identical to the <a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a> function except that the latter has a parameter used to identify the function or method that is active when the function is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a>
-
+<a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a>

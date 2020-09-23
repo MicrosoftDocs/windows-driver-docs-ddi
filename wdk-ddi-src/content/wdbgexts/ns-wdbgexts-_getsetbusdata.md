@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The IG_GET_BUS_DATA <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation reads data from a system bus and the IG_SET_BUS_DATA <b>Ioctl</b> operation writes data to a system bus.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_BUS_DATA or IG_SET_BUS_DATA, <i>IpvData</i> should contain an instance of the BUSDATA structure.
+The IG_GET_BUS_DATA <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation reads data from a system bus and the IG_SET_BUS_DATA <b>Ioctl</b> operation writes data to a system bus.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_BUS_DATA or IG_SET_BUS_DATA, <i>IpvData</i> should contain an instance of the BUSDATA structure.
 
 ## -struct-fields
 
@@ -82,7 +82,7 @@ Specifies the number of bytes to read from or write to the bus when the <b>Ioctl
 
 ## -remarks
 
-The parameters for the IG_GET_BUS_DATA and IG_SET_BUS_DATA <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operations are the members of the BUSDATA structure.
+The parameters for the IG_GET_BUS_DATA and IG_SET_BUS_DATA <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operations are the members of the BUSDATA structure.
 
 This operation is only available in kernel-mode debugging.
 
@@ -90,5 +90,4 @@ The properties of the data in the bus depends on the system, bus, and slot.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
-
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>

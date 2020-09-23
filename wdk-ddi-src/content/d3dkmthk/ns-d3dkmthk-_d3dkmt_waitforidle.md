@@ -58,5 +58,4 @@ The D3DKMT_WAITFORIDLE structure specifies a display device to wait for an idle 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforidle">D3DKMTWaitForIdle</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforidle">D3DKMTWaitForIdle</a>

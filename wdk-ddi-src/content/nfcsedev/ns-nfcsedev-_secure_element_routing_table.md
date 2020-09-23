@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-SECURE_ELEMENT_ROUTING_TABLE is an input parameter for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_set_routing_table">IOCTL_NFCSE_SET_ROUTING_TABLE</a>.
+SECURE_ELEMENT_ROUTING_TABLE is an input parameter for <a href="/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_set_routing_table">IOCTL_NFCSE_SET_ROUTING_TABLE</a>.
 
 ## -struct-fields
 
@@ -68,4 +68,3 @@ Number of routing table entries.
 #### - TableEntries[ANYSIZE_ARRAY]
 
 Listen mode routing table.
-

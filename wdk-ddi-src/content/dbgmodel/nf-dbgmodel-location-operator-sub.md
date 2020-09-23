@@ -59,5 +59,4 @@ This function returns a new Location which is ‘offset’ bytes prior to this l
 
 ## -see-also
 
-[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/)
-
+[dbgmodel.h header](./index.md)

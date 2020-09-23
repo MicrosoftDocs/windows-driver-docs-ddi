@@ -56,11 +56,11 @@ The FEATURE_DATA_PROFILE_LIST structure contains the data for a profile list des
 
 ### -field Header
 
-Contains a header that indicates how many profiles are reported in the profile list descriptor. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure is used to describe both feature and profile list descriptors. When FEATURE_HEADER is used with a profile list descriptor the <b>FeatureCode</b> member of FEATURE_HEADER must be set to zero, the <b>Current</b> member must be set to 1, the <b>Version</b> member must be set to zero, and the <b>Persistent</b> member must be set to 1. The <b>Persistent</b> member is set to 1, because all devices that are compliant with the <i>SCSI Multimedia - 4 (MMC-4)</i> standard must support reporting of the profile list. The <b>AdditionalLength</b> member must be set to ((number of profile descriptors) * 4). See the <i>MMC-3 </i>specification For more information about the values assigned to these members.
+Contains a header that indicates how many profiles are reported in the profile list descriptor. The <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure is used to describe both feature and profile list descriptors. When FEATURE_HEADER is used with a profile list descriptor the <b>FeatureCode</b> member of FEATURE_HEADER must be set to zero, the <b>Current</b> member must be set to 1, the <b>Version</b> member must be set to zero, and the <b>Persistent</b> member must be set to 1. The <b>Persistent</b> member is set to 1, because all devices that are compliant with the <i>SCSI Multimedia - 4 (MMC-4)</i> standard must support reporting of the profile list. The <b>AdditionalLength</b> member must be set to ((number of profile descriptors) * 4). See the <i>MMC-3 </i>specification For more information about the values assigned to these members.
 
 ### -field Profiles
 
-Contains a variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_profile_list_ex">FEATURE_DATA_PROFILE_LIST_EX</a> structures that describe all the profiles supported by the device.
+Contains a variable length array of <a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_profile_list_ex">FEATURE_DATA_PROFILE_LIST_EX</a> structures that describe all the profiles supported by the device.
 
 ## -remarks
 
@@ -68,13 +68,12 @@ This structure holds data for the feature named "Profile List" by the <i>MMC-3 <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_profile_list_ex">FEATURE_DATA_PROFILE_LIST_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_profile_list_ex">FEATURE_DATA_PROFILE_LIST_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_profile_type">FEATURE_PROFILE_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddmmc/ne-ntddmmc-_feature_profile_type">FEATURE_PROFILE_TYPE</a>

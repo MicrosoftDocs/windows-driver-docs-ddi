@@ -49,7 +49,7 @@ api_name:
 
 The 
   <b>WskCaptureProviderNPI</b> function captures a provider 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+  <a href="/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a> when it becomes available from the WSK subsystem.
 
 ## -parameters
@@ -58,9 +58,9 @@ The
 
 [in]
 A pointer to the memory location initialized by 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
+     <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance. For more information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>.
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>.
 
 ### -param WaitTimeout 
 
@@ -85,14 +85,14 @@ Return from this function immediately if the provider NPI is not available.
 Wait until the provider NPI is available from the WSK subsystem.
 
 For more information about how this parameter is used, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
+     <a href="/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock
      Kernel Application</a>.
 
 ### -param WskProviderNpi 
 
 [out]
 A pointer to the NPI returned by the WSK provider. This 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a> structure contains a
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a> structure contains a
      pointer to the WSK provider dispatch table of WSK functions that the WSK application can call.
 
 ## -returns
@@ -154,13 +154,13 @@ The provider NPI capture failed.
 
 For each call to 
     <b>WskCaptureProviderNPI</b> that returns a success code, there must be exactly one corresponding 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a> call that uses
+    <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a> call that uses
     the same 
     <i>WskRegistration</i> parameter that was passed to 
     <b>WskCaptureProviderNPI</b>.
 
 <b>WskCaptureProviderNPI</b> can be called after a call is made to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskderegister">WskDeregister</a> only if the 
+    <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskderegister">WskDeregister</a> only if the 
     <i>WskRegistration</i> block is not freed or overwritten. After 
     <b>WskDeregister</b> is called, any further calls to 
     <b>WskCaptureProviderNPI</b> will fail with status code STATUS_DEVICE_NOT_READY, and, unless the provider
@@ -169,7 +169,7 @@ For each call to
     become available will also return immediately with status code STATUS_DEVICE_NOT_READY.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 Callers of the 
@@ -179,13 +179,12 @@ Callers of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskderegister">WskDeregister</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskderegister">WskDeregister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a>
