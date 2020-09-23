@@ -43,7 +43,6 @@ api_name:
 
 # _BRB_SCO_FLUSH_CHANNEL structure
 
-
 ## -description
 
 The _BRB_SCO_FLUSH_CHANNEL structure describes a flush operation for a SCO channel.
@@ -52,8 +51,7 @@ The _BRB_SCO_FLUSH_CHANNEL structure describes a flush operation for a SCO chann
 
 ### -field Hdr
 
-A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+A [BRB_HEADER](ns-bthddi-_brb_header.md) structure that contains information
      about the current BRB.
 
 ### -field BtAddress
@@ -66,36 +64,20 @@ The handle to the SCO channel to flush.
 
 ### -field FlushFlags
 
-#####  Valid flags may be combined using a logical OR
-     operation:
-
-
+Valid flags may be combined using a logical OR operation
 
 #### SCO_FLUSH_DIRECTION_OUT
 
-
-
 #### SCO_FLUSH_DIRECTION_IN
-
-
-
-####
 
 ## -remarks
 
-To flush a SCO channel, profile drivers should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/previous-versions/ff536623(v=vs.85)">BRB_SCO_FLUSH_CHANNEL</a> request.
+To flush a SCO channel, profile drivers should [build and send](https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)) a [BRB_SCO_FLUSH_CHANNEL](https://docs.microsoft.com/previous-versions/ff536623(v=vs.85)) request.
 
-All pending data transfer IRPs will be completed with STATUS_REQUEST_ABORTED. In-progress IRPs will be
-    completed normally, with success or failure, depending on whether the Bluetooth driver stack was able to
-    transfer data to or from the remote device.
+All pending data transfer IRPs will be completed with STATUS_REQUEST_ABORTED. In-progress IRPs will be completed normally, with success or failure,depending on whether the Bluetooth driver stack was able to transfer data to or from the remote device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
+[BRB_HEADER](ns-bthddi-_brb_header.md)
 
-
-
-<a href="https://docs.microsoft.com/previous-versions/ff536623(v=vs.85)">BRB_SCO_FLUSH_CHANNEL</a>
-
+[BRB_SCO_FLUSH_CHANNEL](https://docs.microsoft.com/previous-versions/ff536623(v=vs.85))
