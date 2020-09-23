@@ -46,10 +46,10 @@ api_name:
 
 ## -description
 
-This routine removes an <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a> structure (added by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltaddopenreparseentry">FltAddOpenReparseEntry</a>) from a create operation.
+This routine removes an <a href="/previous-versions/mt734265(v=vs.85)">OPEN_REPARSE_LIST_ENTRY</a> structure (added by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltaddopenreparseentry">FltAddOpenReparseEntry</a>) from a create operation.
 
 
-<div class="alert"><b>Important</b>  <i>OpenReparseEntry</i> must be an entry added by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltaddopenreparseentry">FltAddOpenReparseEntry</a>. All other entries are not valid.</div>
+<div class="alert"><b>Important</b>  <i>OpenReparseEntry</i> must be an entry added by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltaddopenreparseentry">FltAddOpenReparseEntry</a>. All other entries are not valid.</div>
 <div> </div>
 
 ## -parameters
@@ -68,9 +68,8 @@ The create operation to remove open reparse information
 ### -param OpenReparseEntry 
 
 [in]
-The open reparse information to remove, of type <a href="https://msdn.microsoft.com/A6D28F60-FA38-45EA-9E3C-D2E6F899333E">OPEN_REPARSE_LIST_ENTRY</a>.
+The open reparse information to remove, of type <a href="/previous-versions/mt734265(v=vs.85)">OPEN_REPARSE_LIST_ENTRY</a>.
 
 ## -returns
 
 This routine does not return a value.
-

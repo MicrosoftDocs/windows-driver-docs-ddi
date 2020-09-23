@@ -56,7 +56,7 @@ api_name:
 [in]
 Handle to the VC of the call being closed or disconnected. This handle was supplied by NDIS when
      the VC was originally created with 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, whether by the client in
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, whether by the client in
      preparation for making an outgoing call or by the call manager in preparation for dispatching an
      incoming call to the client.
 
@@ -65,8 +65,8 @@ Handle to the VC of the call being closed or disconnected. This handle was suppl
 [in, optional]
 Handle to the last party to be dropped on a multipoint VC or <b>NULL</b>. If this is a multipoint VC, the
      client obtained this handle either from a preceding call to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> or 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> or 
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>.
 
 ### -param Buffer 
 
@@ -87,7 +87,7 @@ Specifies the size, in bytes, at
 When 
      <b>NdisClCloseCall</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
      internal call to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_close_call_complete">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_close_call_complete">
      ProtocolClCloseCallComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClCloseCallComplete</i> function when this operation is completed.
 
@@ -99,15 +99,15 @@ Clients usually call
 <ul>
 <li>
 To close an established call, whether the call was initiated by the client with 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> or was offered by a remote
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> or was offered by a remote
       peer and accepted by the client's 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_call">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_call">
       ProtocolClIncomingCall</a> function.
 
 </li>
 <li>
 From the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">
       ProtocolClIncomingCloseCall</a> function to tear down an established call.
 
 This occurs when the remote party closes an incoming call that the remote party originally initiated
@@ -118,12 +118,12 @@ This occurs when the remote party closes an incoming call that the remote party 
 </li>
 <li>
 From the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_make_call_complete">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_make_call_complete">
       ProtocolClMakeCallComplete</a> function to tear down a client-initiated attempt to make an outgoing
       call.
 
 This occurs if the call manager has modified the client-specified call parameters passed to 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> and the client finds these
+      <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> and the client finds these
       modifications unacceptable.
 
 </li>
@@ -136,7 +136,7 @@ This occurs if a QoS change proposed by the other party on the VC is unacceptabl
 </li>
 <li>
 From the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
       ProtocolClModifyCallQoSComplete</a> function to tear down an established call.
 
 This occurs if a client-proposed QoS change on the VC is not accepted and the CM-modified QoS
@@ -148,9 +148,9 @@ This occurs if a client-proposed QoS change on the VC is not accepted and the CM
 Before calling 
     <b>NdisClCloseCall</b>, a protocol must ensure that all its outstanding send packets have been returned
     to its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_send_net_buffer_lists_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_send_net_buffer_lists_complete">
     ProtocolCoSendNetBufferListsComplete</a> function. (Packets sent via 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a> are
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a> are
     always returned asynchronously to 
     <i>ProtocolCoSendNetBufferListsComplete</i>.) After calling 
     <b>NdisClCloseCall</b>, a protocol must not call 
@@ -161,18 +161,18 @@ Before calling
 A client's call to 
     <b>NdisClCloseCall</b> causes NDIS to mark the 
     <i>NdisVcHandle</i> as closing and to call the CM's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_close_call">ProtocolCmCloseCall</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_close_call">ProtocolCmCloseCall</a> function.
 
 To tear down an established call on a client-created multipoint VC, the client must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a> one or more times to
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a> one or more times to
     release all but the last party on the VC 
     before it calls 
     <b>NdisClCloseCall</b>. The call manager will fail any client's request to close a multipoint call if the
     given VC still has more than one party connected. The 
     <i>NdisPartyHandle</i> passed to 
     <b>NdisClCloseCall</b> can be any valid handle that the client obtained from its preceding calls to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> with the given 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a> or 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a> with the given 
     <i>NdisVcHandle</i> .
 
 As remote parties to a client-initiated multipoint call request that their connections be closed, NDIS
@@ -180,7 +180,7 @@ As remote parties to a client-initiated multipoint call request that their conne
     <i>ProtocolClDropParty</i> function as long as more than one outstanding party exists on the
     client-created multipoint VC. When the last remaining remote party closes its connection, NDIS calls the
     client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">
     ProtocolClIncomingCloseCall</a> function instead. Consequently, the 
     <i>ProtocolClIncomingCloseCall</i> function of any client that sets up multipoint connections must
     identify the last remaining party on its multipoint VCs and pass the appropriate 
@@ -195,64 +195,63 @@ After the client releases an
     <b>NdisClCloseCall</b> because the 
     <i>NdisVcHandle</i>, which cannot be reused to make another call because it is marked as closing, is
     still valid until the VC is destroyed. Either the client must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a> if it created the VC for an
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a> if it created the VC for an
     outgoing call before it releases or reinitializes its per-VC resources, or the client must defer the
     release or reinitialization of these resources until its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function is
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function is
     called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_close_call_complete">ProtocolClCloseCallComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_close_call_complete">ProtocolClCloseCallComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_call_qos_change">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_call_qos_change">
    ProtocolClIncomingCallQoSChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">ProtocolClIncomingCloseCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_close_call">ProtocolClIncomingCloseCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_make_call_complete">ProtocolClMakeCallComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_make_call_complete">ProtocolClMakeCallComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
    ProtocolClModifyCallQoSComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_close_call">ProtocolCmCloseCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_close_call">ProtocolCmCloseCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_send_net_buffer_lists_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_send_net_buffer_lists_complete">
    ProtocolCoSendNetBufferListsComplete</a>
-

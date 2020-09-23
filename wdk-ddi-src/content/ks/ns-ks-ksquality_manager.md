@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-The KSQUALITY_MANAGER structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-stream-quality">KSPROPERTY_STREAM_QUALITY</a> property and contains the handle of the quality manager sink and a context to pass in the quality complaints.
+The KSQUALITY_MANAGER structure is used with the <a href="/windows-hardware/drivers/stream/ksproperty-stream-quality">KSPROPERTY_STREAM_QUALITY</a> property and contains the handle of the quality manager sink and a context to pass in the quality complaints.
 
 ## -struct-fields
 
 ### -field QualityManager
 
-Specifies a handle to the quality manager sink receiving the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksquality">KSQUALITY</a> complaint structures.
+Specifies a handle to the quality manager sink receiving the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksquality">KSQUALITY</a> complaint structures.
 
 ### -field Context
 
@@ -62,9 +62,8 @@ Specifies the context parameter to use when reporting quality problems. The cont
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-stream-quality">KSPROPERTY_STREAM_QUALITY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-stream-quality">KSPROPERTY_STREAM_QUALITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksquality">KSQUALITY</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksquality">KSQUALITY</a>

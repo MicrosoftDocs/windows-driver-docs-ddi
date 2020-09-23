@@ -49,7 +49,7 @@ api_name:
 
 Call the 
   <b>NdisGetDataBuffer</b> function to gain access to a contiguous block of data from a 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 ## -parameters
 
@@ -89,8 +89,8 @@ The offset, in bytes, from the alignment multiple.
 
 If the 
       <b>DataLength</b> member of the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure in the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure that the <i>NetBuffer</i>
+      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure in the 
+      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure that the <i>NetBuffer</i>
       parameter points to is less than the value in the 
       <i>BytesNeeded</i> parameter, the return value is <b>NULL</b>.
 
@@ -111,7 +111,7 @@ The return value can also be <b>NULL</b> due to a low resource condition where a
 ## -remarks
 
 Call this function to get a pointer to a network data header contained in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. You can easily parse the
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. You can easily parse the
     header stored in the contiguous data block that this function returns.
 
 The requested alignment requirement is expressed as a power-of-two multiple plus an offset. For
@@ -122,9 +122,8 @@ The requested alignment requirement is expressed as a power-of-two multiple plus
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>

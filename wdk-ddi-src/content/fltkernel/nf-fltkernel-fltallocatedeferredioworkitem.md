@@ -57,15 +57,14 @@ api_name:
 
 <b>FltAllocateDeferredIoWorkItem</b> allocates a deferred I/O work item from nonpaged pool. 
 
-To insert this work item into a deferred I/O work queue, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>. 
+To insert this work item into a deferred I/O work queue, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>. 
 
-To free the work item, a minifilter driver typically calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a> from the worker routine that was specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>.
+To free the work item, a minifilter driver typically calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a> from the worker routine that was specified in <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreedeferredioworkitem">FltFreeDeferredIoWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>

@@ -54,21 +54,20 @@ The OBJECT_INFORMATION_CLASS enumeration type represents the type of information
 
 ### -field ObjectBasicInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_public_object_basic_information">PUBLIC_OBJECT_BASIC_INFORMATION</a> structure is supplied.
+A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_public_object_basic_information">PUBLIC_OBJECT_BASIC_INFORMATION</a> structure is supplied.
 
 ### -field ObjectTypeInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-__public_object_type_information">PUBLIC_OBJECT_TYPE_INFORMATION</a> structure is supplied.
+A <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-__public_object_type_information">PUBLIC_OBJECT_TYPE_INFORMATION</a> structure is supplied.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_public_object_basic_information">PUBLIC_OBJECT_BASIC_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_public_object_basic_information">PUBLIC_OBJECT_BASIC_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-__public_object_type_information">PUBLIC_OBJECT_TYPE_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-__public_object_type_information">PUBLIC_OBJECT_TYPE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567062">ZwQueryObject</a>
-
+<a href="/previous-versions/ff567062(v=vs.85)">ZwQueryObject</a>

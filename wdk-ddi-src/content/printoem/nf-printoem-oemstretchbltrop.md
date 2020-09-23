@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <code>OEMStretchBltROP</code> function performs a stretching bit-block transfer using a <a href="https://docs.microsoft.com/windows-hardware/drivers/">raster operation (ROP)</a>.
+The <code>OEMStretchBltROP</code> function performs a stretching bit-block transfer using a <a href="/windows-hardware/drivers/">raster operation (ROP)</a>.
 
 ## -parameters
 
@@ -75,4 +75,3 @@ The <code>OEMStretchBltROP</code> function performs a stretching bit-block trans
 ### -param pbo
 
 ### -param rop4
-

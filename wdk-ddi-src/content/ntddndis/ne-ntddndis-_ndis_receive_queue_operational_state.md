@@ -66,14 +66,14 @@ The receive queue is in the
 The receive queue is in the 
      Running state. The queue was allocated successfully, there is at least one filter set on the
      queue, and the miniport driver has completed, or will complete, the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+     <a href="/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
      OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a> OID request with a success status.
 
 ### -field NdisReceiveQueueOperationalStatePaused
 
 The receive queue is in the 
      Paused state. The queue was allocated successfully with the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+     <a href="/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
      OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a> OID. There are no filters set on the queue.
 
 ### -field NdisReceiveQueueOperationalStateDmaStopped
@@ -82,9 +82,9 @@ The DMA operations on the queue are stopped because the queue is being freed, an
      the 
      DMA Stopped state. The queue enters the 
      DMA Stopped state when the miniport driver receives an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">
+     <a href="/windows-hardware/drivers/network/oid-receive-filter-free-queue">
      OID_RECEIVE_FILTER_FREE_QUEUE</a> OID request, stops the DMA operations for the queue, and issues an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
      NDIS_STATUS_RECEIVE_QUEUE_STATE</a> status indication.
 
 ### -field NdisReceiveQueueOperationalStateMaximum
@@ -96,34 +96,33 @@ The maximum value for this enumeration. This value might change in future versio
 
 The <b>
        NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</b> enumeration is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">NDIS_RECEIVE_QUEUE_STATE</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_info">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">NDIS_RECEIVE_QUEUE_STATE</a> and 
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_info">
     NDIS_RECEIVE_QUEUE_INFO</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_info">NDIS_RECEIVE_QUEUE_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_queue_info">NDIS_RECEIVE_QUEUE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">NDIS_RECEIVE_QUEUE_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">NDIS_RECEIVE_QUEUE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
    NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
+<a href="/windows-hardware/drivers/network/oid-receive-filter-allocate-queue">
    OID_RECEIVE_FILTER_ALLOCATE_QUEUE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
+<a href="/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+<a href="/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
    OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
-

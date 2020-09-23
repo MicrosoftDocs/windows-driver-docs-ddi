@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The **DXGK_OPM_INTERFACE_3** structure contains pointers to functions in the [Output Protection Manager (OPM) Interface](https://docs.microsoft.com/windows-hardware/drivers/display/supporting-output-protection-manager), which is implemented by the display miniport driver.
+The **DXGK_OPM_INTERFACE_3** structure contains pointers to functions in the [Output Protection Manager (OPM) Interface](/windows-hardware/drivers/display/supporting-output-protection-manager), which is implemented by the display miniport driver.
 
 ## -struct-fields
 
@@ -121,4 +121,3 @@ A pointer to the display miniport driver's [**DxgkDdiOPMSetSrmList**](nc-dispmpr
 ### -field DxgkDdiOPMGetSrmListVersion
 
 A pointer to the display miniport driver's [**DxgkDdiOPMGetSrmListVersion**](nc-dispmprt-dxgkddi_opm_get_srm_list_version.md) function.
-

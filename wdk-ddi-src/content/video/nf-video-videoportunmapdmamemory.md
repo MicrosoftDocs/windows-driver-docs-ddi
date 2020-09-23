@@ -48,7 +48,7 @@ api_name:
 
 The <b>VideoPortUnmapDmaMemory</b> function is <b>obsolete</b> in Windows 2000 and later.
 
-<b>VideoPortUnmapDmaMemory</b> unmaps a range of memory previously mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportmapdmamemory">VideoPortMapDmaMemory</a>.
+<b>VideoPortUnmapDmaMemory</b> unmaps a range of memory previously mapped by <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportmapdmamemory">VideoPortMapDmaMemory</a>.
 
 ## -parameters
 
@@ -74,5 +74,4 @@ Is the handle to adapter's memory.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
-
+See <a href="/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.

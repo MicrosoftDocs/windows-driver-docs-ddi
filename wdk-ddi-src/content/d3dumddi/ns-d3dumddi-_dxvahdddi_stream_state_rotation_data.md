@@ -58,9 +58,8 @@ A Boolean value that specifies whether the driver should rotate the output surfa
 
 ### -field Rotation
 
-The clockwise degrees of rotation as specified by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_rotation">DXVAHDDDI_ROTATION</a> enumeration value.
+The clockwise degrees of rotation as specified by a <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_rotation">DXVAHDDDI_ROTATION</a> enumeration value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_rotation">DXVAHDDDI_ROTATION</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_rotation">DXVAHDDDI_ROTATION</a>

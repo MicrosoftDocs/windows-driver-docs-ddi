@@ -54,7 +54,7 @@ The KSPROPERTY_CROSSBAR_ROUTE_S structure describes whether a particular routing
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field IndexInputPin
 
@@ -74,13 +74,12 @@ If the value of <b>IndexInputPin</b> is (-1) on an audio output pin, then the au
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-crossbar-route">KSPROPERTY_CROSSBAR_ROUTE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-crossbar-route">KSPROPERTY_CROSSBAR_ROUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-crossbar">PROPSETID_VIDCAP_CROSSBAR</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-vidcap-crossbar">PROPSETID_VIDCAP_CROSSBAR</a>

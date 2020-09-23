@@ -61,23 +61,22 @@ A handle to a framework work-item object.
 
 Typically, a driver's <i>EvtWorkItem</i> callback function performs tasks that are specified by information that the driver stored in the context memory of a work-item object. 
 
-To register an <i>EvtWorkItem</i> callback function, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
+To register an <i>EvtWorkItem</i> callback function, the driver calls <a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
 
-After the <i>EvtWorkItem</i> callback function has performed the specified tasks, it must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>, unless the driver reuses work items. 
+After the <i>EvtWorkItem</i> callback function has performed the specified tasks, it must call <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>, unless the driver reuses work items. 
 
-For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
+For more information about work items, see <a href="/windows-hardware/drivers/wdf/using-framework-work-items">Using Framework Work Items</a>.
 
 The <i>EvtWorkItem</i> callback function runs at IRQL = PASSIVE_LEVEL in the context of a system worker thread.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>
+<a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>
+<a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemenqueue">WdfWorkItemEnqueue</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemenqueue">WdfWorkItemEnqueue</a>

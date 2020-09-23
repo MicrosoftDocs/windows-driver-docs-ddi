@@ -52,9 +52,9 @@ The security properties of bands in a band-managed storage device are modified w
 
 ### -input-buffer
 
-The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters"> SET_BAND_SECURITY_PARAMETERS</a> structure followed by the <b>AUTH_KEY</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> structures. 
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters"> SET_BAND_SECURITY_PARAMETERS</a> structure followed by the <b>AUTH_KEY</b> and <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> structures. 
 
-If the <b>AuthKeyOffset</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure. Also, if a new authentication key is not given, no updated key structure is included.
+If the <b>AuthKeyOffset</b> member of <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure. Also, if a new authentication key is not given, no updated key structure is included.
 
 ### -input-buffer-length
 
@@ -113,25 +113,24 @@ One of the following values can be returned in the <b>Status</b> field.
 
 ## -remarks
 
-Read and write locking and unlocking for bands are set with this IOCTL in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> structure included as input in the system buffer. 
+Read and write locking and unlocking for bands are set with this IOCTL in the  <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> structure included as input in the system buffer. 
 
 Authentication key changes will not affect the lock state of the band. It is not necessary to unmount a volume to change an authentication key with this request.
 
-When a band is unlocked, meaning either the  <b>Readlock</b> or <b>WriteLock</b> members of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> are FALSE, the silo driver will cache the provided authentication key if <b>SETBANDSEC_AUTHKEY_CACHING_ENABLED</b> is set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a>.
+When a band is unlocked, meaning either the  <b>Readlock</b> or <b>WriteLock</b> members of  <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> are FALSE, the silo driver will cache the provided authentication key if <b>SETBANDSEC_AUTHKEY_CACHING_ENABLED</b> is set in the <b>Flags</b> member of <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a>.
 
-As a special case, this IOCTL can be used to notify the silo driver that a band was unlocked without the use of the locking members in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>. To do this, the <b>NewAuthKeyOffset</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a> is set to <b>CurrentAuthKeyOffset</b> with  <b>BandSecurityInfoOffset</b> set to 0. In this case, no security changes occur, but the key provided at <b>CurrentAuthKeyOffset</b> is cached in memory, provided that <b>SETBANDSEC_AUTHKEY_CACHING_ENABLED</b> is set in <b>Flags</b>.
+As a special case, this IOCTL can be used to notify the silo driver that a band was unlocked without the use of the locking members in <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>. To do this, the <b>NewAuthKeyOffset</b> member of <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a> is set to <b>CurrentAuthKeyOffset</b> with  <b>BandSecurityInfoOffset</b> set to 0. In this case, no security changes occur, but the key provided at <b>CurrentAuthKeyOffset</b> is cached in memory, provided that <b>SETBANDSEC_AUTHKEY_CACHING_ENABLED</b> is set in <b>Flags</b>.
 
 The changes made to the band table by this request are committed to the device atomically before the IOCTL request completes. Therefore, it is guaranteed that the band is modified with all of its properties set or no properties set at all should a system or power failure occur.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+<a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a>
-
+<a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters">SET_BAND_SECURITY_PARAMETERS</a>

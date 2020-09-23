@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The HW_STREAM_INFORMATION structure describes the kernel streaming semantics supported by individual streams, as part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_descriptor">HW_STREAM_DESCRIPTOR</a> structure.
+The HW_STREAM_INFORMATION structure describes the kernel streaming semantics supported by individual streams, as part of an <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_descriptor">HW_STREAM_DESCRIPTOR</a> structure.
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ The number of entries in the array that begins at the address in the <b>StreamFo
 
 ### -field StreamFormatsArray
 
-Pointer to the beginning of the array of data ranges that this stream supports. (The name of this member is deceptive. This member points to an array of <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures, not KSDATAFORMAT structures.)
+Pointer to the beginning of the array of data ranges that this stream supports. (The name of this member is deceptive. This member points to an array of <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures, not KSDATAFORMAT structures.)
 
 ### -field ClassReserved
 
@@ -108,7 +108,7 @@ The number of entries in the array that begins at the address in the <b>Mediums<
 
 ### -field Mediums
 
-Pointer to the beginning of the array of <a href="https://docs.microsoft.com/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures supported by this stream. If the minidriver does not specify a medium, the class driver uses the KSMEDIUMSETID_STANDARD, KSMEDIUM_TYPE_ANYINSTANCE medium as the default.
+Pointer to the beginning of the array of <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures supported by this stream. If the minidriver does not specify a medium, the class driver uses the KSMEDIUMSETID_STANDARD, KSMEDIUM_TYPE_ANYINSTANCE medium as the default.
 
 ### -field BridgeStream
 
@@ -122,15 +122,14 @@ Reserved for use by the class driver. Do not use.
 
 ## -remarks
 
-The class driver uses the elements of HW_STREAM_INFORMATION to handle the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a> property requests. The index within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_descriptor">HW_STREAM_DESCRIPTOR</a> structure serves as the pin type ID number.
+The class driver uses the elements of HW_STREAM_INFORMATION to handle the <a href="/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a> property requests. The index within the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_descriptor">HW_STREAM_DESCRIPTOR</a> structure serves as the pin type ID number.
 
-Note that the class driver does not use this data to handle the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataintersection">KSPROPERTY_PIN_DATAINTERSECTION</a> property. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_stream_data_intersect_info">STREAM_DATA_INTERSECT_INFO</a> for a description of how the class driver handles this property.
+Note that the class driver does not use this data to handle the <a href="/windows-hardware/drivers/stream/ksproperty-pin-dataintersection">KSPROPERTY_PIN_DATAINTERSECTION</a> property. See <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_stream_data_intersect_info">STREAM_DATA_INTERSECT_INFO</a> for a description of how the class driver handles this property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_descriptor">HW_STREAM_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_descriptor">HW_STREAM_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_header">HW_STREAM_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_header">HW_STREAM_HEADER</a>

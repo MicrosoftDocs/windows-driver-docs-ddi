@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-One D3DHAL_DP2LINELIST structure is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_LINELIST, and is used to render unconnected line segments.
+One D3DHAL_DP2LINELIST structure is parsed from the command buffer by the <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_LINELIST, and is used to render unconnected line segments.
 
 ## -struct-fields
 
@@ -63,7 +63,7 @@ Specifies the index into the vertex buffer containing coordinate data for the in
 One D3DHAL_DP2LINELIST structure follows the D3DHAL_DP2COMMAND structure in the command buffer.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should sequentially process a total of <b>wPrimitiveCount</b> * 2 vertices from the vertex buffer, two vertices per line, rendering a total of <b>wPrimitiveCount</b> lines. Starting from the vertex buffer offset, the sequence of lines rendered is (<b>wVStart</b>, <b>wVStart</b> + 1), (<b>wVStart</b> + 2, <b>wVStart</b> + 3),..., (<b>wVStart</b> + (<b>wPrimitiveCount</b> -1 ) * 2, <b>wVStart</b> + (<b>wPrimitiveCount</b> * 2 - 1)). The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should sequentially process a total of <b>wPrimitiveCount</b> * 2 vertices from the vertex buffer, two vertices per line, rendering a total of <b>wPrimitiveCount</b> lines. Starting from the vertex buffer offset, the sequence of lines rendered is (<b>wVStart</b>, <b>wVStart</b> + 1), (<b>wVStart</b> + 2, <b>wVStart</b> + 3),..., (<b>wVStart</b> + (<b>wPrimitiveCount</b> -1 ) * 2, <b>wVStart</b> + (<b>wPrimitiveCount</b> * 2 - 1)). The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
 The following figure shows a portion of a sample command buffer containing a D3DDP2OP_LINELIST command and one D3DHAL_DP2LINELIST structure. The driver should draw three lines using the following six vertices from the vertex buffer: (v[0], v[1]), (v[2], v[3]), (v[4], v[5]).
 
@@ -75,9 +75,8 @@ D3DDP2OP_LINELIST
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The NET_BUFFER_LIST_CONTEXT structure stores context information for a 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ The context data buffer. The context data can include any information that a dri
 ## -remarks
 
 Every 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure can include a
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure can include a
     preallocated NET_BUFFER_LIST_CONTEXT structure. As a NET_BUFFER_LIST structure travels through the driver
     stack, the linked list of NET_BUFFER_LIST_CONTEXT structures can expand to accommodate additional data
     space for each driver.
@@ -91,28 +91,28 @@ Drivers should use the following NDIS macros and functions to access and manipul
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
        NdisAllocateNetBufferListContext</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">
        NdisFreeNetBufferListContext</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
        NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
        NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
@@ -123,7 +123,7 @@ The
     NET_BUFFER_LIST_CONTEXT structure. To improve system performance, a driver should preallocate any
     required context data space when the driver allocates a NET_BUFFER_LIST structure pool. To preallocate
     this data space, a driver calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
     NdisAllocateNetBufferListPool</a> function and then specifies the amount of data space required in the 
     <i>ContextSize</i> parameter. Preallocation of this data space saves NDIS from allocating memory in the
     receive and send paths.
@@ -138,51 +138,50 @@ The
     <b>ContextData</b> member to the start of the used context data space.
 
 NDIS drivers call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
     NdisAllocateNetBufferListContext</a> function to allocate contiguous buffer space in the
     NET_BUFFER_LIST_CONTEXT structure. If necessary, NDIS allocates a new NET_BUFFER_LIST_CONTEXT structure
     with additional space to honor the request. NDIS drivers call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">
     NdisFreeNetBufferListContext</a> function to free the buffer space.
 
 Use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+    <a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
     NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a> macro to obtain the size of the used context space. Use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+    <a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
     NET_BUFFER_LIST_CONTEXT_DATA_START</a> macro to get the starting address of the used context space.
 
 For more information on how to use net buffers, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-architecture">NET_BUFFER Architecture</a>.
+    <a href="/windows-hardware/drivers/network/net-buffer-architecture">NET_BUFFER Architecture</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-size">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-size">
    NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-context-data-start">
+<a href="/windows-hardware/drivers/network/net-buffer-list-context-data-start">
    NET_BUFFER_LIST_CONTEXT_DATA_START</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistcontext">
    NdisAllocateNetBufferListContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">NdisFreeNetBufferListContext</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">NdisFreeNetBufferListContext</a>

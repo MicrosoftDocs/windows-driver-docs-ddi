@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The ScsiReadCapacity_OUT structure is used to report the output data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a> WMI method to the WMI client.
+The ScsiReadCapacity_OUT structure is used to report the output data of the <a href="/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a> WMI method to the WMI client.
 
 ## -struct-fields
 
 ### -field HBAStatus
 
-Contains a value associated with the WMI class qualifier <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a> that indicates the result of an HBA query operation.
+Contains a value associated with the WMI class qualifier <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a> that indicates the result of an HBA query operation.
 
 ### -field ResponseBufferSize
 
@@ -81,13 +81,12 @@ Contains the SCSI sense data that results from the SCSI read capacity command.
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the ScsiReadCapacity_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the ScsiReadCapacity_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
+<a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a>
-
+<a href="/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a>

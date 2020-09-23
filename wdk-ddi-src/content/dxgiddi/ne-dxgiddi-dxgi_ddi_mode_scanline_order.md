@@ -72,5 +72,4 @@ The values of the DXGI_DDI_MODE_SCANLINE_ORDER enumeration type indicate whether
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_mode_desc">DXGI_DDI_MODE_DESC</a>
-
+<a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_mode_desc">DXGI_DDI_MODE_DESC</a>

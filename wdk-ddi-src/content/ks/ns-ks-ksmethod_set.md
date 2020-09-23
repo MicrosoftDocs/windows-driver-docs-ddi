@@ -62,7 +62,7 @@ Specifies the number of methods in this method set.
 
 ### -field MethodItem
 
-Points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a> structures. Each structure describes one method of the method set.
+Points to an array of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a> structures. Each structure describes one method of the method set.
 
 ### -field FastIoCount
 
@@ -78,5 +78,4 @@ Microsoft provides several system-defined kernel streaming method set GUIDs. Min
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a>

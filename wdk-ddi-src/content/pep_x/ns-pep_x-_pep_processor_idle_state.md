@@ -119,9 +119,8 @@ Reserved for future use.
 
 ## -remarks
 
-The <b>IdleStates</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE</b> structures.
+The <b>IdleStates</b> member of the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE</b> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a>
-
+<a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a>

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IoReleaseRemoveLock</b> routine releases a remove lock acquired with a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>.
+The <b>IoReleaseRemoveLock</b> routine releases a remove lock acquired with a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>.
 
 ## -parameters
 
@@ -66,11 +66,11 @@ If the call to <b>IoAcquireRemoveLock</b> did not specify a <i>Tag</i>, then thi
 
 ## -remarks
 
-A driver calls <b>IoReleaseRemoveLock</b> when it has completed the I/O operation for which it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>.
+A driver calls <b>IoReleaseRemoveLock</b> when it has completed the I/O operation for which it called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>.
 
 <ul>
 <li>
-For I/O operations (including power and PnP IRPs) that set an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine, a driver should call <b>IoReleaseRemoveLock</b> in the <i>IoCompletion</i> routine, after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>.
+For I/O operations (including power and PnP IRPs) that set an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine, a driver should call <b>IoReleaseRemoveLock</b> in the <i>IoCompletion</i> routine, after calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>.
 
 </li>
 <li>
@@ -78,21 +78,20 @@ For I/O operations that do not set an <i>IoCompletion</i> routine, a driver shou
 
 </li>
 </ul>
-Each call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a> must have a corresponding call to <b>IoReleaseRemoveLock</b>. 
+Each call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a> must have a corresponding call to <b>IoReleaseRemoveLock</b>. 
 
-<b>IoReleaseRemoveLock</b> decrements the count of outstanding acquisitions of the remove lock. If the count goes to zero and the driver has received an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request, <b>IoReleaseRemoveLock</b> sets an internal event. When a driver is ready to delete a device object, it calls a similar routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>. The driver makes this call only in its dispatch code for an <b>IRP_MN_REMOVE_DEVICE</b> request. The <b>IoReleaseRemoveLockAndWait</b> routine does not return until <b>IoReleaseRemoveLock</b> sets the event that indicates the acquisition count is zero. After <b>IoReleaseRemoveLockAndWait</b> returns, the driver can safely detach and delete the device object.
+<b>IoReleaseRemoveLock</b> decrements the count of outstanding acquisitions of the remove lock. If the count goes to zero and the driver has received an <a href="/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request, <b>IoReleaseRemoveLock</b> sets an internal event. When a driver is ready to delete a device object, it calls a similar routine, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>. The driver makes this call only in its dispatch code for an <b>IRP_MN_REMOVE_DEVICE</b> request. The <b>IoReleaseRemoveLockAndWait</b> routine does not return until <b>IoReleaseRemoveLock</b> sets the event that indicates the acquisition count is zero. After <b>IoReleaseRemoveLockAndWait</b> returns, the driver can safely detach and delete the device object.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-remove-locks">Using Remove Locks</a>.
+For more information, see <a href="/windows-hardware/drivers/kernel/using-remove-locks">Using Remove Locks</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>

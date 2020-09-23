@@ -78,9 +78,8 @@ These bit flags are used by the intersect handler to determine plug compatibilit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/nc-avc-pfnavcintersecthandler">AV/C Intersect Handler</a>
+<a href="/windows-hardware/drivers/ddi/avc/nc-avc-pfnavcintersecthandler">AV/C Intersect Handler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-connectinfo">AVC_FUNCTION_GET_CONNECTINFO</a>
-
+<a href="/windows-hardware/drivers/stream/avc-function-get-connectinfo">AVC_FUNCTION_GET_CONNECTINFO</a>

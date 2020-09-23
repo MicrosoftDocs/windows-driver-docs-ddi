@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>RtlAllocateAndInitializeSid</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcopysid">RtlCopySid</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializesid">RtlInitializeSid</a>.
+The <b>RtlAllocateAndInitializeSid</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcopysid">RtlCopySid</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializesid">RtlInitializeSid</a>.
 
 ## -parameters
 
@@ -93,4 +93,3 @@ Reserved.
 ### -param Sid
 
 Reserved.
-

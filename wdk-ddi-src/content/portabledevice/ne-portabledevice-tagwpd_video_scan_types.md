@@ -87,7 +87,7 @@ A video file with a mix of interlaced and progressive modes.
 
 ## -remarks
 
-This enumeration is used by the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597900(v=vs.85)">WPD_VIDEO_SCAN_TYPE</a> property.
+This enumeration is used by the <a href="/previous-versions/windows/hardware/drivers/ff597900(v=vs.85)">WPD_VIDEO_SCAN_TYPE</a> property.
 
 There are two types of interleaved file formats that are specified by this enumeration. WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED refers to a file format where frames are delivered as they were scanned—fields alternate and data goes line by line, as shown here:
 
@@ -131,5 +131,4 @@ Field 2: Line 3
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>

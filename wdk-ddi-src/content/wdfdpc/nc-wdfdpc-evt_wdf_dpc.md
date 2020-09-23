@@ -59,51 +59,50 @@ A handle to a framework DPC object.
 
 ## -remarks
 
-To register an <i>EvtDpcFunc</i> callback function, your driver must place the function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/ns-wdfdpc-_wdf_dpc_config">WDF_DPC_CONFIG</a> structure and call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a>.
+To register an <i>EvtDpcFunc</i> callback function, your driver must place the function's address in a <a href="/windows-hardware/drivers/ddi/wdfdpc/ns-wdfdpc-_wdf_dpc_config">WDF_DPC_CONFIG</a> structure and call <a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a>.
 
-Drivers typically <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">complete I/O requests</a> in their <i>EvtDpcFunc</i> callback functions.
+Drivers typically <a href="/windows-hardware/drivers/wdf/completing-i-o-requests">complete I/O requests</a> in their <i>EvtDpcFunc</i> callback functions.
 
-The <i>EvtDpcFunc</i> callback function executes at DISPATCH_LEVEL and must not access <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-drivers-pageable">pageable</a> code. If an <i>EvtDpcFunc</i> callback function must perform operations at IRQL = PASSIVE_LEVEL, it can <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-framework-work-items">use framework work items</a>.
+The <i>EvtDpcFunc</i> callback function executes at DISPATCH_LEVEL and must not access <a href="/windows-hardware/drivers/kernel/making-drivers-pageable">pageable</a> code. If an <i>EvtDpcFunc</i> callback function must perform operations at IRQL = PASSIVE_LEVEL, it can <a href="/windows-hardware/drivers/wdf/using-framework-work-items">use framework work items</a>.
 
-Instead of providing <i>EvtDpcFunc</i> callback functions, many drivers provide a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function for each type of interrupt that its devices support. If your driver creates multiple <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-queue-objects">framework queue objects</a> for each device, you might consider using a separate DPC object and <i>EvtDpcFunc</i> callback function for each queue.
+Instead of providing <i>EvtDpcFunc</i> callback functions, many drivers provide a single <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function for each type of interrupt that its devices support. If your driver creates multiple <a href="/windows-hardware/drivers/wdf/framework-queue-objects">framework queue objects</a> for each device, you might consider using a separate DPC object and <i>EvtDpcFunc</i> callback function for each queue.
 
-To schedule execution of an <i>EvtDpcFunc</i> callback function, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>. Drivers typically call <b>WdfDpcEnqueue</b> from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function.
+To schedule execution of an <i>EvtDpcFunc</i> callback function, the driver must call <a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>. Drivers typically call <b>WdfDpcEnqueue</b> from an <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function.
 
-When a driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>, the system adds the DPC object to the system's DPC queue. If the system is not executing higher-priority tasks, it removes the object from the queue and calls the object's <i>EvtDpcFunc</i> callback function. 
+When a driver calls <a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>, the system adds the DPC object to the system's DPC queue. If the system is not executing higher-priority tasks, it removes the object from the queue and calls the object's <i>EvtDpcFunc</i> callback function. 
 
-The system does not add the DPC object to the DPC queue if the object is already queued. An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function might be called several times before the system calls the <i>EvtDpcFunc</i> callback function. Therefore, the <i>EvtDpcFunc</i> callback function must be able to process information from several interrupts, and it must process all of the interrupts that have occurred since the last time it was called.
+The system does not add the DPC object to the DPC queue if the object is already queued. An <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function might be called several times before the system calls the <i>EvtDpcFunc</i> callback function. Therefore, the <i>EvtDpcFunc</i> callback function must be able to process information from several interrupts, and it must process all of the interrupts that have occurred since the last time it was called.
 
-Typically, it is necessary to synchronize the execution of a driver's <i>EvtDpcFunc</i> callback function with the execution of other callback functions. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
+Typically, it is necessary to synchronize the execution of a driver's <i>EvtDpcFunc</i> callback function with the execution of other callback functions. For more information, see <a href="/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
 
-To obtain a handle to a DPC object's parent object, the <i>EvtDpcFunc</i> callback function can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcgetparentobject">WdfDpcGetParentObject</a>. To obtain a pointer to a DPC object's underlying <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure, the <i>EvtDpcFunc</i> callback function can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcwdmgetdpc">WdfDpcWdmGetDpc</a>.
+To obtain a handle to a DPC object's parent object, the <i>EvtDpcFunc</i> callback function can call <a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcgetparentobject">WdfDpcGetParentObject</a>. To obtain a pointer to a DPC object's underlying <a href="/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure, the <i>EvtDpcFunc</i> callback function can call <a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcwdmgetdpc">WdfDpcWdmGetDpc</a>.
 
-For more information about using <i>EvtDpcFunc</i> callback functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/servicing-an-interrupt">Servicing an Interrupt</a>.
+For more information about using <i>EvtDpcFunc</i> callback functions, see <a href="/windows-hardware/drivers/wdf/servicing-an-interrupt">Servicing an Interrupt</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a>
+<a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a>
+<a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/ns-wdfdpc-_wdf_dpc_config">WDF_DPC_CONFIG</a>
+<a href="/windows-hardware/drivers/ddi/wdfdpc/ns-wdfdpc-_wdf_dpc_config">WDF_DPC_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a>
+<a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>
+<a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcenqueue">WdfDpcEnqueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcgetparentobject">WdfDpcGetParentObject</a>
+<a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcgetparentobject">WdfDpcGetParentObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcwdmgetdpc">WdfDpcWdmGetDpc</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdpc/nf-wdfdpc-wdfdpcwdmgetdpc">WdfDpcWdmGetDpc</a>

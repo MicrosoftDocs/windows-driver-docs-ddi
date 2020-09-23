@@ -72,11 +72,10 @@ wiauDbgError("Read", "Attempting to read past end of buffer");
 
 ## -see-also
 
-[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgdump)
+[wiauDbgDump](./nf-wiautil-wiaudbgdump.md)
 
-[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr)
+[wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md)
 
-[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace)
+[wiauDbgTrace](./nf-wiautil-wiaudbgtrace.md)
 
-[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning)
-
+[wiauDbgWarning](./nf-wiautil-wiaudbgwarning.md)

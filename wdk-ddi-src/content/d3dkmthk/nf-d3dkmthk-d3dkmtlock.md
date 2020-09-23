@@ -57,7 +57,7 @@ The <b>D3DKMTLock</b> function locks an entire allocation or specific pages with
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_lock">D3DKMT_LOCK</a> structure that describes parameters for locking an allocation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_lock">D3DKMT_LOCK</a> structure that describes parameters for locking an allocation.
 
 ## -returns
 
@@ -103,5 +103,4 @@ VOID* LockEntireAllocation(D3DKMT_HANDLE hDevice, D3DKMT_HANDLE hAllocation, UIN
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_lock">D3DKMT_LOCK</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_lock">D3DKMT_LOCK</a>

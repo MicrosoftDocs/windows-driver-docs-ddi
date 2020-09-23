@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The WHEA_ERROR_RECORD_HEADER_VALIDBITS union describes which members of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a> structure contain valid data.
+The WHEA_ERROR_RECORD_HEADER_VALIDBITS union describes which members of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a> structure contain valid data.
 
 ## -struct-fields
 
@@ -78,9 +78,9 @@ A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_VALIDBITS
 
 ## -remarks
 
-A WHEA_ERROR_RECORD_HEADER_VALIDBITS union is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a> structure.
+A WHEA_ERROR_RECORD_HEADER_VALIDBITS union is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a> structure.
 
-<div class="alert"><b>Important</b>  After the release of Windows Server 2008, it was discovered that the <b>Timestamp</b> and <b>PlatformId</b> members of the WHEA_ERROR_RECORD_HEADER_VALIDBITS union are defined in the incorrect order. This topic now defines the correct order for these members.<p class="note">If you build your <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/windows-hardware-error-architecture-aware-user-mode-applications">Windows hardware error architecture (WHEA) user-mode application</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/platform-specific-hardware-error-driver-plug-ins2">platform-specific hardware error driver (PSHED) plug-in</a> with the header files from the Windows Server 2008 version of the WDK or Windows SDK, you will have trouble only if your application or PSHED plug-in accesses the <b>Timestamp</b> and <b>PlatformId</b> members directly when it processes the contents of a WHEA_ERROR_RECORD_HEADER structure. When you test these bits in the <b>AsULONG </b>member through the bitfield constants that are described in the following list, you will always produce the correct results.
+<div class="alert"><b>Important</b>  After the release of Windows Server 2008, it was discovered that the <b>Timestamp</b> and <b>PlatformId</b> members of the WHEA_ERROR_RECORD_HEADER_VALIDBITS union are defined in the incorrect order. This topic now defines the correct order for these members.<p class="note">If you build your <a href="/windows-hardware/drivers/whea/windows-hardware-error-architecture-aware-user-mode-applications">Windows hardware error architecture (WHEA) user-mode application</a> or <a href="/windows-hardware/drivers/whea/platform-specific-hardware-error-driver-plug-ins2">platform-specific hardware error driver (PSHED) plug-in</a> with the header files from the Windows Server 2008 version of the WDK or Windows SDK, you will have trouble only if your application or PSHED plug-in accesses the <b>Timestamp</b> and <b>PlatformId</b> members directly when it processes the contents of a WHEA_ERROR_RECORD_HEADER structure. When you test these bits in the <b>AsULONG </b>member through the bitfield constants that are described in the following list, you will always produce the correct results.
 
 <p class="note">This problem has been fixed in the Windows 7 version of the WDK and SDK.
 
@@ -90,5 +90,4 @@ The following bitfield constants can be used to test the bits in the <b>AsULONG 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>

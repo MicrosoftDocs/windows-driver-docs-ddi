@@ -58,7 +58,7 @@ The <b>WDF_MEMORY_DESCRIPTOR</b> structure describes a memory buffer.
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ne-wdfmemory-_wdf_memory_descriptor_type">WDF_MEMORY_DESCRIPTOR_TYPE</a>-typed value that identifies the type of buffer description that this <b>WDF_MEMORY_DESCRIPTOR</b> structure contains.
+A <a href="/windows-hardware/drivers/ddi/wdfmemory/ne-wdfmemory-_wdf_memory_descriptor_type">WDF_MEMORY_DESCRIPTOR_TYPE</a>-typed value that identifies the type of buffer description that this <b>WDF_MEMORY_DESCRIPTOR</b> structure contains.
 
 ### -field u
 
@@ -98,19 +98,18 @@ A handle to a framework memory object.
 
 ### -field u.HandleType.Offsets
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object.
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object.
 
 ## -remarks
 
-The <b>WDF_MEMORY_DESCRIPTOR</b> structure is used as input to several of the framework's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/">I/O target object methods</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/">USB device object methods</a>.
+The <b>WDF_MEMORY_DESCRIPTOR</b> structure is used as input to several of the framework's <a href="/windows-hardware/drivers/ddi/wdfiotarget/">I/O target object methods</a> and <a href="/windows-hardware/drivers/ddi/wdfusb/">USB device object methods</a>.
 
-To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdf_memory_descriptor_init_buffer">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdf_memory_descriptor_init_mdl">WDF_MEMORY_DESCRIPTOR_INIT_MDL</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdf_memory_descriptor_init_handle">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>.
+To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call <a href="/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdf_memory_descriptor_init_buffer">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>, or <a href="/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdf_memory_descriptor_init_mdl">WDF_MEMORY_DESCRIPTOR_INIT_MDL</a>, or <a href="/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdf_memory_descriptor_init_handle">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
+<a href="/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ne-wdfmemory-_wdf_memory_descriptor_type">WDF_MEMORY_DESCRIPTOR_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfmemory/ne-wdfmemory-_wdf_memory_descriptor_type">WDF_MEMORY_DESCRIPTOR_TYPE</a>

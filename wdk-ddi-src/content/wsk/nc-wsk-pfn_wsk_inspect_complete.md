@@ -56,7 +56,7 @@ The
 
 [in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure. This pointer specifies the
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure. This pointer specifies the
      listening socket on which the WSK application received the incoming connection request that it is
      inspecting.
 
@@ -64,7 +64,7 @@ A pointer to a
 
 [in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a> structure. The contents of
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a> structure. The contents of
      the structure identify the specific connection request that the WSK application is inspecting.
 
 ### -param Action 
@@ -80,7 +80,7 @@ A value that specifies whether the WSK application accepts or rejects the incomi
 [in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the resume operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
 
 ## -returns
@@ -127,7 +127,7 @@ The WSK subsystem could not resume the inspect operation immediately. The WSK su
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -150,20 +150,20 @@ An error occurred. The IRP will be completed with failure status.
 A WSK application calls the 
     <b>WskInspectComplete</b> function to complete the inspection of an incoming connection request for which
     the application's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a> event callback function
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a> event callback function
     previously returned 
     <b>WskInspectPend</b>.
 
 A WSK application can call the 
     <b>WskInspectComplete</b> function only on a listening socket that has conditional accept mode enabled. A
     WSK application can enable conditional accept mode on a listening socket by enabling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-conditional-accept">SO_CONDITIONAL_ACCEPT</a> socket option.
+    <a href="/windows-hardware/drivers/network/so-conditional-accept">SO_CONDITIONAL_ACCEPT</a> socket option.
     For more information about conditionally accepting incoming connections, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
+    <a href="/windows-hardware/drivers/network/listening-for-and-accepting-incoming-connections">Listening for and
     Accepting Incoming Connections</a>.
 
 The WSK subsystem passed a pointer to a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a> structure to the WSK
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a> structure to the WSK
     application when it called the application's 
     <i>WskInspectEvent</i> event callback function. The WSK application copied the contents of that structure
     to its own WSK_INSPECT_ID structure before returning 
@@ -178,12 +178,12 @@ If a WSK application specifies
     <i>Action</i> parameter, the WSK subsystem will continue to establish the socket connection. The WSK
     subsystem will return the socket to the WSK application by either completing a call by the WSK
     application to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a> function or calling the WSK
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a> function or calling the WSK
     application's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a> event callback function if
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a> event callback function if
     it is enabled. If the incoming connection request is dropped before the socket connection is fully
     established, the WSK subsystem will call the WSK application's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a> event callback function.
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a> event callback function.
 
 If a WSK application specifies 
     <b>WskInspectReject</b> in the 
@@ -203,33 +203,32 @@ If the WSK application calls the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-conditional-accept">SO_CONDITIONAL_ACCEPT</a>
+<a href="/windows-hardware/drivers/network/so-conditional-accept">SO_CONDITIONAL_ACCEPT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_inspect_id">WSK_INSPECT_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_listen_dispatch">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_listen_dispatch">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>

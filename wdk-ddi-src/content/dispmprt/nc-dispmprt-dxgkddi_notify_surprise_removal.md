@@ -72,7 +72,7 @@ This callback can be optionally be implemented by Windows Display Driver Model (
 >
 > The operating system calls **DxgkDdiNotifySurpriseRemoval** only if the display miniport driver indicates support by setting the **SupportSurpriseRemovalInHibernation** member of the [**DXGK_DRIVERCAPS**](../d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps.md) structure to 1.
 
-When the OS detects a surprise removal, it notifies the driver as quickly as possible. **DxgkDdiNotifySurpriseRemoval** is a [level zero](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level) DDI function, which means that it can be called when a driver has pending GPU workload and/or is running inside other DDI functions. Since a call to this function indicates the graphics hardware has been physically removed or has disappeared from system, any further attempt to access hardware might cause problems such as a hard hang.
+When the OS detects a surprise removal, it notifies the driver as quickly as possible. **DxgkDdiNotifySurpriseRemoval** is a [level zero](/windows-hardware/drivers/display/threading-and-synchronization-zero-level) DDI function, which means that it can be called when a driver has pending GPU workload and/or is running inside other DDI functions. Since a call to this function indicates the graphics hardware has been physically removed or has disappeared from system, any further attempt to access hardware might cause problems such as a hard hang.
 
 The OS categorizes surprise removal as follows:
 
@@ -90,11 +90,10 @@ If the driver returns an error code, does not set [**DXGK_DRIVERCAPS**](../d3dkm
 
 ## -see-also
 
-[**D3DKMT_WDDM_1_2_CAPS**](https://docs.microsoft.com/windows-hardware/drivers/display/d3dkmt-wddm-1-2-caps)
+[**D3DKMT_WDDM_1_2_CAPS**](/windows-hardware/drivers/display/d3dkmt-wddm-1-2-caps)
 
 [**DXGK_DRIVERCAPS**](../d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps.md)
 
 [**DXGK_SURPRISE_REMOVAL_TYPE**](ne-dispmprt-_dxgk_surprise_removal_type.md)
 
 [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md)
-

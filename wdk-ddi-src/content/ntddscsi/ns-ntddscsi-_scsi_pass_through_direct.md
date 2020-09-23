@@ -53,7 +53,7 @@ api_name:
 The **SCSI_PASS_THROUGH_DIRECT** structure is used in conjunction with an [IOCTL_SCSI_PASS_THROUGH_DIRECT](ni-ntddscsi-ioctl_scsi_pass_through_direct.md) request to instruct the port driver to send an embedded SCSI command to the target device.
 
 > [!NOTE]
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storage-miniport-drivers) driver models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](/windows-hardware/drivers/storage/storage-miniport-drivers) driver models.
 
 ## -struct-fields
 
@@ -117,17 +117,16 @@ Specifies the SCSI command descriptor block to be sent to the target device.
 
 ## -remarks
 
-The SCSI_PASS_THROUGH_DIRECT structure is used with [IOCTL_SCSI_PASS_THROUGH_DIRECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct). With this request, the system locks down the buffer in user memory and the device accesses this memory directly. For a double-buffered equivalent of this device control request see [IOCTL_SCSI_PASS_THROUGH](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through) and [SCSI_PASS_THROUGH](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through).
+The SCSI_PASS_THROUGH_DIRECT structure is used with [IOCTL_SCSI_PASS_THROUGH_DIRECT](./ni-ntddscsi-ioctl_scsi_pass_through_direct.md). With this request, the system locks down the buffer in user memory and the device accesses this memory directly. For a double-buffered equivalent of this device control request see [IOCTL_SCSI_PASS_THROUGH](./ni-ntddscsi-ioctl_scsi_pass_through.md) and [SCSI_PASS_THROUGH](./ns-ntddscsi-_scsi_pass_through.md).
 
-The members of SCSI_PASS_THROUGH_DIRECT correspond roughly to the members of a [SCSI_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block) structure. The values of the **DataIn** member correspond to the SCSI_IOCTL_DATA_IN, SCSI_IOCTL_DATA_OUT, and SCSI_IOCTL_DATA_UNSPECIFIED flags assigned to **SrbFlags** member of SCSI_REQUEST_BLOCK.
+The members of SCSI_PASS_THROUGH_DIRECT correspond roughly to the members of a [SCSI_REQUEST_BLOCK](../srb/ns-srb-_scsi_request_block.md) structure. The values of the **DataIn** member correspond to the SCSI_IOCTL_DATA_IN, SCSI_IOCTL_DATA_OUT, and SCSI_IOCTL_DATA_UNSPECIFIED flags assigned to **SrbFlags** member of SCSI_REQUEST_BLOCK.
 
 ## -see-also
 
-[IOCTL_SCSI_PASS_THROUGH](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through)
+[IOCTL_SCSI_PASS_THROUGH](./ni-ntddscsi-ioctl_scsi_pass_through.md)
 
-[IOCTL_SCSI_PASS_THROUGH_DIRECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct)
+[IOCTL_SCSI_PASS_THROUGH_DIRECT](./ni-ntddscsi-ioctl_scsi_pass_through_direct.md)
 
-[SCSI_PASS_THROUGH](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through)
+[SCSI_PASS_THROUGH](./ns-ntddscsi-_scsi_pass_through.md)
 
-[SCSI_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block)
-
+[SCSI_REQUEST_BLOCK](../srb/ns-srb-_scsi_request_block.md)

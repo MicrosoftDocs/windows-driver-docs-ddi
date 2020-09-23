@@ -62,9 +62,8 @@ Specifies info on a VidPN input and an overlay plane to display.
 
 ### -field pPlaneList
 
-[in] A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a> that describes the overlay plane to display.
+[in] A pointer to a structure of type <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a> that describes the overlay plane to display.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_presentmultiplaneoverlaylist">DXGK_PRESENTMULTIPLANEOVERLAYLIST</a>

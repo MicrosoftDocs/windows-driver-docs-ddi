@@ -137,9 +137,8 @@ Reserved. Do not use.
 
 The KS_DVDCOPY_REGION structure is used by the KSPROPERTY_DVDCOPY_REGION property.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-regionalization">DVD Regionalization</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a> and <a href="/windows-hardware/drivers/stream/dvd-regionalization">DVD Regionalization</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-region">KSPROPERTY_DVDCOPY_REGION</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-region">KSPROPERTY_DVDCOPY_REGION</a>

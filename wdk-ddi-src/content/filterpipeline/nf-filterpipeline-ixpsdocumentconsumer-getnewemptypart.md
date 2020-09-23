@@ -63,43 +63,43 @@ A reference identifier (REFIID) for one of the following interfaces:
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixeddocument">IFixedDocument</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixeddocument">IFixedDocument</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixedpage">IFixedPage</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixedpage">IFixedPage</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartimage">IPartImage</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartimage">IPartImage</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartthumbnail">IPartThumbnail</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartthumbnail">IPartThumbnail</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartfont">IPartFont</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartfont">IPartFont</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartprintticket">IPartPrintTicket</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartprintticket">IPartPrintTicket</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartcolorprofile">IPartColorProfile</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartcolorprofile">IPartColorProfile</a>
 
 
 </li>
@@ -125,33 +125,32 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixeddocument">IFixedDocument</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixeddocument">IFixedDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixedpage">IFixedPage</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixedpage">IFixedPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartcolorprofile">IPartColorProfile</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartcolorprofile">IPartColorProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartfont">IPartFont</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartfont">IPartFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartimage">IPartImage</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartimage">IPartImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartprintticket">IPartPrintTicket</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartprintticket">IPartPrintTicket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartthumbnail">IPartThumbnail</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartthumbnail">IPartThumbnail</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ixpsdocumentconsumer">IXpsDocumentConsumer</a>
-
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ixpsdocumentconsumer">IXpsDocumentConsumer</a>

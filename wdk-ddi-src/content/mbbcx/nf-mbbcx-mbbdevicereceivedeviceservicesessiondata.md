@@ -62,7 +62,7 @@ A driver-allocated WDFMEMORY object containing the data to pass to the applicati
 
 ## -remarks
 
-For more information, see [Handling device service sessions](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-device-service-sessions).
+For more information, see [Handling device service sessions](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-device-service-sessions).
 
 ### Example
 
@@ -100,4 +100,3 @@ MyReceiveDssData(
 ```
 
 ## -see-also
-

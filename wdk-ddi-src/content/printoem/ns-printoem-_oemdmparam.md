@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The OEMDMPARAM structure is used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-devmode">IPrintOemUni::DevMode</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode">IPrintOemPS::DevMode</a> methods.
+The OEMDMPARAM structure is used as an input parameter to the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a>, <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-devmode">IPrintOemUni::DevMode</a>, and <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-devmode">IPrintOemPS::DevMode</a> methods.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Not used.
 
 #### For IPrintOemUni::DevMode and IPrintOemPS::DevMode:
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -field hPrinter
 
@@ -102,5 +102,4 @@ On output, contains the method-supplied size of the current version of the priva
 
 ## -remarks
 
-For more information about the use of OEMDMPARAM structure members, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a> method.
-
+For more information about the use of OEMDMPARAM structure members, see the description of the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a> method.

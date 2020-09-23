@@ -54,7 +54,7 @@ The D3DKMT_PRESENT_STATS structure describes present status for a rendering devi
 
 ### -field PresentCount
 
-[out] A UINT value that indicates the number of times that the OpenGL installable client driver (ICD) called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function on a rendering device or swap chain. After the maximum value is reached, <b>PresentCount</b> starts over at zero. When a new rendering device is created, <b>PresentCount</b> is initialized to zero. The operating system maintains a present counter for each swap chain that is created.
+[out] A UINT value that indicates the number of times that the OpenGL installable client driver (ICD) called the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function on a rendering device or swap chain. After the maximum value is reached, <b>PresentCount</b> starts over at zero. When a new rendering device is created, <b>PresentCount</b> is initialized to zero. The operating system maintains a present counter for each swap chain that is created.
 
 ### -field PresentRefreshCount
 
@@ -85,9 +85,8 @@ Present statistics cannot work for windowed-mode devices. For windowed mode, eac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_devicepresent_state">D3DKMT_DEVICEPRESENT_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_devicepresent_state">D3DKMT_DEVICEPRESENT_STATE</a>

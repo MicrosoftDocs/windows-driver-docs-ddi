@@ -69,17 +69,16 @@ ULONG value with which to fill the memory block.
 
 If the block of memory at <i>Destination</i> is nonpaged, the caller can be running at any IRQL. Otherwise, callers of <b>RtlFillMemoryUlong</b> must be running at IRQL < DISPATCH_LEVEL. 
 
-For more information about managing buffered data and initializing driver-allocated buffers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Buffered Data and Buffer Initialization</a>.
+For more information about managing buffered data and initializing driver-allocated buffers, see <a href="/windows-hardware/drivers/ddi/index">Buffered Data and Buffer Initialization</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfillmemoryulonglong">RtlFillMemoryUlonglong</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfillmemoryulonglong">RtlFillMemoryUlonglong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>

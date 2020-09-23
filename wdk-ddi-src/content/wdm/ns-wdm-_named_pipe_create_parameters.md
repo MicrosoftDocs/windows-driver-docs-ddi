@@ -87,9 +87,8 @@ Boolean value that specifies whether a pointer to a timeout period was provided 
 
 ## - remarks
 
-For an [IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-named-pipe) operation, [FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters) is a *CreatePipe* structure, and *CreatePipe.Parameters* points to a NAMED_PIPE_CREATE_PARAMETERS structure that describes the named pipe to create or open.
+For an [IRP_MJ_CREATE_NAMED_PIPE](/windows-hardware/drivers/ifs/irp-mj-create-named-pipe) operation, [FLT_PARAMETERS](../fltkernel/ns-fltkernel-_flt_parameters.md) is a *CreatePipe* structure, and *CreatePipe.Parameters* points to a NAMED_PIPE_CREATE_PARAMETERS structure that describes the named pipe to create or open.
 
 ## -see-also
 
-[FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters)
-
+[FLT_PARAMETERS](../fltkernel/ns-fltkernel-_flt_parameters.md)

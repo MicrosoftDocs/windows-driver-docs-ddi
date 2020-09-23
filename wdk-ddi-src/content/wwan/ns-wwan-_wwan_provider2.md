@@ -64,21 +64,20 @@ The cellular class that the provider uses.
 
 ### -field Rssi
 
-A value that represents the strength of the wireless signal. Please refer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a> on the format of this member.
+A value that represents the strength of the wireless signal. Please refer to <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a> on the format of this member.
 
 ### -field ErrorRate
 
-	A coded value that represents a percentage range of error rates. Please refer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a> on the format of this member.
+	A coded value that represents a percentage range of error rates. Please refer to <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a> on the format of this member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_cellular_class">WWAN_CELLULAR_CLASS</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_cellular_class">WWAN_CELLULAR_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider">WWAN_PROVIDER</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider">WWAN_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_signal_state">WWAN_SIGNAL_STATE</a>

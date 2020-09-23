@@ -59,11 +59,10 @@ Client drivers pass this enumeration as a value to [**NET_EXTENSION_QUERY_INIT**
 
 ## -see-also
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [**NET_PACKET**](../packet/ns-packet-_net_packet.md)
 
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NET_EXTENSION_QUERY_INIT**](../netadapterpacket/nf-netadapterpacket-net_extension_query_init.md)
-

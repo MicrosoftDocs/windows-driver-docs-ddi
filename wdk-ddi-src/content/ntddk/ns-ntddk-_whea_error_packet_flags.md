@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure.
+The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure.
 
 ## -struct-fields
 
@@ -78,9 +78,9 @@ A single bit that indicates that the error condition was simulated.
 
 ### -field DUMMYSTRUCTNAME.PlatformPfaControl
 
-A single bit that indicates whether WHEA or a PSHED plug-in is in control of predictive failure analysis (PFA). If this bit is set, the PSHED plug-in is in control of PFA and must set the <b>PlatformDirectedOffline </b>to bring an <a href="https://docs.microsoft.com/windows-hardware/drivers/">ECC</a> memory page into an offline state.
+A single bit that indicates whether WHEA or a PSHED plug-in is in control of predictive failure analysis (PFA). If this bit is set, the PSHED plug-in is in control of PFA and must set the <b>PlatformDirectedOffline </b>to bring an <a href="/windows-hardware/drivers/">ECC</a> memory page into an offline state.
 
-For more information about PFA support for WHEA, see <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/predictive-failure-analysis--pfa-">Predictive Failure Analysis (PFA)</a>.
+For more information about PFA support for WHEA, see <a href="/windows-hardware/drivers/whea/predictive-failure-analysis--pfa-">Predictive Failure Analysis (PFA)</a>.
 
 
 <div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
@@ -104,13 +104,12 @@ A ULONG representation of the contents of the WHEA_ERROR_PACKET_FLAGS union.
 
 ## -remarks
 
-The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by using a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure.
+The WHEA_ERROR_PACKET_FLAGS union describes the error condition reported by using a <a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/whea/predictive-failure-analysis--pfa-">Predictive Failure Analysis (PFA)</a>
+<a href="/windows-hardware/drivers/whea/predictive-failure-analysis--pfa-">Predictive Failure Analysis (PFA)</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a>

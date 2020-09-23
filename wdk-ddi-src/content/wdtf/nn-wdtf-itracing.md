@@ -47,11 +47,11 @@ api_name:
 
 ## -description
 
-The <b>ITracing</b>interface sets an object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> value. This interface is a base interface for most of the WDTF interfaces.
+The <b>ITracing</b>interface sets an object's <a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a> value. This interface is a base interface for most of the WDTF interfaces.
 
 ## -inheritance
 
-The <b>ITracing</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
+The <b>ITracing</b> interface inherits from the <a href="/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 <b>ITracing</b> also has these types of members:
 <ul>
@@ -60,17 +60,16 @@ The <b>ITracing</b> interface inherits from the <a href="https://docs.microsoft.
 
 ## -remarks
 
-Because the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction</a> interface inherits from the <b>ITracing</b> interface, all WDTF plug-ins will support <b>ITracing</b>. All of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WDTF core interfaces</a> should also support <b>ITracing</b>.
+Because the <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction</a> interface inherits from the <b>ITracing</b> interface, all WDTF plug-ins will support <b>ITracing</b>. All of the <a href="/windows-hardware/drivers/ddi/index">WDTF core interfaces</a> should also support <b>ITracing</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction</a>
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>
+<a href="/windows-hardware/drivers/ddi/index">ITracing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a>
-
+<a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a>

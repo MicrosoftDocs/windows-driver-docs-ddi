@@ -70,7 +70,6 @@ The WIA service calls the **IWiaMiniDrv::drvUnInitializeWia** method when the re
 
 ## -see-also
 
-[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+[IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
-[IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia)
-
+[IWiaMiniDrv::drvInitializeWia](./nf-wiamindr_lh-iwiaminidrv-drvinitializewia.md)

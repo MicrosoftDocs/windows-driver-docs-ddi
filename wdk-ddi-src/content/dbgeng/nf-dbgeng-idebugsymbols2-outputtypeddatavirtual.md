@@ -48,14 +48,14 @@ api_name:
 
 ## -description
 
-The <b>OutputTypedDataVirtual</b> method formats the contents of a variable in the target's virtual memory, and then sends this to the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a>.
+The <b>OutputTypedDataVirtual</b> method formats the contents of a variable in the target's virtual memory, and then sends this to the <a href="/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a>.
 
 ## -parameters
 
 ### -param OutputControl 
 
 [in]
-Specifies the output control used to determine which output callbacks can receive the output.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
+Specifies the output control used to determine which output callbacks can receive the output.  See <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
 
 ### -param Offset 
 
@@ -75,11 +75,11 @@ Specifies the type ID of the type.
 ### -param Flags 
 
 [in]
-Specifies the formatting flags.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a> for possible values.
+Specifies the formatting flags.  See <a href="/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a> for possible values.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -101,7 +101,6 @@ The method was successful.
 
 ## -remarks
 
-The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dt--display-type-">dt (Display Type)</a>.
+The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="/windows-hardware/drivers/debugger/dt--display-type-">dt (Display Type)</a>.
 
-For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.  For more information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
+For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.  For more information about output, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.

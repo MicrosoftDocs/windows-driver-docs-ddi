@@ -64,11 +64,10 @@ This function zeroes out the memory for the **NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPA
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_media_change_capabilities.md)
 
 [**NetAdapterWakeSetMediaChangeCapabilities**](../netadapter/nf-netadapter-netadapterwakesetmediachangecapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

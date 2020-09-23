@@ -94,5 +94,4 @@ The <b>GetNamedCommand</b> method will not return commands containing references
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni2">IPrintCoreHelperUni2</a>
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelperuni2">IPrintCoreHelperUni2</a>

@@ -50,7 +50,7 @@ api_name:
 The 
   <b>NdisIfDeregisterInterface</b> function deregisters an NDIS network interface that was previously
   registered by a call to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
   NdisIfRegisterInterface</a> function.
 
 ## -parameters
@@ -59,7 +59,7 @@ The
 
 An index that identifies the network interface to deregister. The interface provider obtained this
      index from a previous call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
      NdisIfRegisterInterface</a> function.
 
 ## -remarks
@@ -75,14 +75,13 @@ An interface provider calls the
 
 <b>NdisIfDeregisterInterface</b> releases the interface index, so NDIS can reassign the index to another
     interface that is registered later. Do not confuse the interface index with the 
-    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index, which persists after a computer
+    <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index, which persists after a computer
     restarts.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>

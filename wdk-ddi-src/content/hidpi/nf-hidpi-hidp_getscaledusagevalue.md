@@ -54,7 +54,7 @@ The <b>HidP_GetScaledUsageValue</b> routine returns the signed and scaled result
 ### -param ReportType 
 
 [in]
-Specifies a <b>HIDP_REPORT_TYPE</b> enumerator value that identifies the type of HID report that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usage</a> value.
+Specifies a <b>HIDP_REPORT_TYPE</b> enumerator value that identifies the type of HID report that contains the <a href="/windows-hardware/drivers/hid/hid-usages">HID usage</a> value.
 
 ### -param UsagePage 
 
@@ -79,7 +79,7 @@ Pointer to the buffer in which the routine returns the signed and scaled value.
 ### -param PreparsedData 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> of the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> that generated the report located at <i>Report</i>.
+Pointer to the <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> of the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> that generated the report located at <i>Report</i>.
 
 ### -param Report 
 
@@ -140,7 +140,7 @@ The specified report length is not valid
 </dl>
 </td>
 <td width="60%">
-The collection returned an illegal logical or physical value. To extract the value returned by the collection, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a>.
+The collection returned an illegal logical or physical value. To extract the value returned by the collection, call <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a>.
 
 </td>
 </tr>
@@ -194,21 +194,20 @@ The specified value is not contained in the specified report, but is contained i
 
 The caller-allocated buffers supplied at <i>PreparsedData</i>, <i>UsageValue</i>, and<i> Report </i>must be allocated from nonpaged pool.
 
-User-mode applications and kernel-mode drivers must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray">HidP_GetUsageValueArray</a> to extract data for a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/value-capability-arrays">usage value array</a>.
+User-mode applications and kernel-mode drivers must use <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray">HidP_GetUsageValueArray</a> to extract data for a <a href="/windows-hardware/drivers/hid/value-capability-arrays">usage value array</a>.
 
-If the routine returns status HIDP_STATUS_BAD_LOG_PHY_VALUES, an application or driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a> to extract the raw usage data.
+If the routine returns status HIDP_STATUS_BAD_LOG_PHY_VALUES, an application or driver can call <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a> to extract the raw usage data.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray">HidP_GetUsageValueArray</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray">HidP_GetUsageValueArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>

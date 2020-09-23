@@ -63,5 +63,4 @@ A handle to a framework request object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffileobject/nf-wdffileobject-wdffileobjectgetinitiatorprocessid">WdfFileObjectGetInitiatorProcessId</a>
-
+<a href="/windows-hardware/drivers/ddi/wdffileobject/nf-wdffileobject-wdffileobjectgetinitiatorprocessid">WdfFileObjectGetInitiatorProcessId</a>

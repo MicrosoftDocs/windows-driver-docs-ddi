@@ -53,19 +53,19 @@ The **DXGK_INTERRUPT_TYPE** enumeration indicates the type of interrupt that the
 
 ### -field DXGK_INTERRUPT_DMA_COMPLETED
 
-A direct memory access (DMA) buffer is completed by using a fence identifier. The driver must supply the DMA buffer fence identifier in the **SubmissionFenceId** member of the **DmaCompleted** structure in the union that is contained in the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data) structure in a call to the [**DxgkCbNotifyInterrupt**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt) function. This DMA buffer fence identifier was assigned during a call to the driver's [**DxgkDdiSubmitCommand**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand) function for the latest completed DMA buffer.
+A direct memory access (DMA) buffer is completed by using a fence identifier. The driver must supply the DMA buffer fence identifier in the **SubmissionFenceId** member of the **DmaCompleted** structure in the union that is contained in the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md) structure in a call to the [**DxgkCbNotifyInterrupt**](./nc-d3dkmddi-dxgkcb_notify_interrupt.md) function. This DMA buffer fence identifier was assigned during a call to the driver's [**DxgkDdiSubmitCommand**](./nc-d3dkmddi-dxgkddi_submitcommand.md) function for the latest completed DMA buffer.
 
 ### -field DXGK_INTERRUPT_DMA_PREEMPTED
 
-A preemption request is completed. The driver must supply the preemption fence identifier in the **PreemptionFenceId** member and the latest fence identifier that hardware completed (not preempted) in the **LastCompletedFenceId** member of the **DmaPreempted** structure in the union that is contained in the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure in a call to the [**DxgkCbNotifyInterrupt**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt) function.
+A preemption request is completed. The driver must supply the preemption fence identifier in the **PreemptionFenceId** member and the latest fence identifier that hardware completed (not preempted) in the **LastCompletedFenceId** member of the **DmaPreempted** structure in the union that is contained in the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure in a call to the [**DxgkCbNotifyInterrupt**](./nc-d3dkmddi-dxgkcb_notify_interrupt.md) function.
 
 The GPU scheduler determines that the graphics hardware preempted all of the commands between the preemption request and the submission with the latest fence identifier.
 
 ### -field DXGK_INTERRUPT_CRTC_VSYNC
 
-A scan out is completed. The driver must supply information in the **CrtcVsync** structure in the union that is contained in the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data) structure in a call to the [**DxgkCbNotifyInterrupt**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt) function.
+A scan out is completed. The driver must supply information in the **CrtcVsync** structure in the union that is contained in the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md) structure in a call to the [**DxgkCbNotifyInterrupt**](./nc-d3dkmddi-dxgkcb_notify_interrupt.md) function.
 
-The display miniport driver notifies with this interrupt type after video hardware entered into the vertical retrace period, and the pending flip address was latched into the DAC and scanned out. The display miniport driver is not required to report this interrupt after the operating system calls the driver's [**DxgkDdiControlInterrupt**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt) function to disable the interrupt type; however, the driver must resume reporting after the operating system calls the driver's *DxgkDdiControlInterrupt* function again to enable the interrupt type.
+The display miniport driver notifies with this interrupt type after video hardware entered into the vertical retrace period, and the pending flip address was latched into the DAC and scanned out. The display miniport driver is not required to report this interrupt after the operating system calls the driver's [**DxgkDdiControlInterrupt**](./nc-d3dkmddi-dxgkddi_controlinterrupt.md) function to disable the interrupt type; however, the driver must resume reporting after the operating system calls the driver's *DxgkDdiControlInterrupt* function again to enable the interrupt type.
 
 ### -field DXGK_INTERRUPT_DMA_FAULTED
 
@@ -93,7 +93,7 @@ Supported starting with Windows 8.1.
 
 The GPU has completed encoding a Miracast encode chunk.
 
-The display miniport driver can optionally provide private data that the user-mode driver can obtain using the [**GetNextChunkData**](https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data)  function.
+The display miniport driver can optionally provide private data that the user-mode driver can obtain using the [**GetNextChunkData**](../netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data.md)  function.
 
 Supported starting with Windows 8.1.
 
@@ -101,7 +101,7 @@ Supported starting with Windows 8.1.
 
 This interrupt type should be raised when a GPU encounters an error condition that requires OS to perform a recovery action, such as putting the running packet device in error or resetting the GPU.
 
-When this interrupt type is set, interrupt data should be provided in the **DmaPageFaulted** member of [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data) structure.
+When this interrupt type is set, interrupt data should be provided in the **DmaPageFaulted** member of [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md) structure.
 
 Supported starting with Windows 10.
 
@@ -141,23 +141,22 @@ Raised when the suspend context has completed. Supported starting with Windows 
 
 ## -see-also
 
-[**DXGK_INTERRUPT_STATE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_state)
+[**DXGK_INTERRUPT_STATE**](./ne-d3dkmddi-_dxgk_interrupt_state.md)
 
-[**DXGKARG_CONTROLINTERRUPT2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt2)
+[**DXGKARG_CONTROLINTERRUPT2**](./ns-d3dkmddi-_dxgkarg_controlinterrupt2.md)
 
 [**DXGKARG_CONTROLINTERRUPT3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt3)
 
-[**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data)
+[**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md)
 
-[**DxgkCbNotifyInterrupt**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt)
+[**DxgkCbNotifyInterrupt**](./nc-d3dkmddi-dxgkcb_notify_interrupt.md)
 
-[**DxgkDdiControlInterrupt**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt)
+[**DxgkDdiControlInterrupt**](./nc-d3dkmddi-dxgkddi_controlinterrupt.md)
 
-[**DxgkDdi_ControlInterrupt2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2)
+[**DxgkDdi_ControlInterrupt2**](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md)
 
-[**DxgkDdi_ControlInterrupt3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt3)
+[**DxgkDdi_ControlInterrupt3**](./nc-d3dkmddi-dxgkddi_controlinterrupt3.md)
 
-[**DxgkDdiSubmitCommand**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand)
+[**DxgkDdiSubmitCommand**](./nc-d3dkmddi-dxgkddi_submitcommand.md)
 
-[**GetNextChunkData**](https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data)
-
+[**GetNextChunkData**](../netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data.md)

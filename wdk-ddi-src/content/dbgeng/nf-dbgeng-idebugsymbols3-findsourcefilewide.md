@@ -65,7 +65,7 @@ Specifies the path and file name of the file to search for.
 ### -param Flags 
 
 [in]
-Specifies the search flags. For a description of these flags, see <a href="https://docs.microsoft.com/previous-versions/ff541495(v=vs.85)">DEBUG_FIND_SOURCE_XXX</a>.
+Specifies the search flags. For a description of these flags, see <a href="/previous-versions/ff541495(v=vs.85)">DEBUG_FIND_SOURCE_XXX</a>.
 
 The flag DEBUG_FIND_SOURCE_TOKEN_LOOKUP should not be set.  The flag DEBUG_FIND_SOURCE_NO_SRCSRV is ignored because this method does not include source servers in the search.
 
@@ -91,7 +91,7 @@ Specifies the size, in characters, of the name of the file.  If <i>FoundSize</i>
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -144,27 +144,26 @@ The first match found is returned.
 
 </li>
 </ol>
-<div class="alert"><b>Note</b>    Any source servers in the source path are ignored.  To include the source servers in the search, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtoken">FindSourceFileAndToken</a> with a module address specified in <i>ModAddr</i>.</div>
+<div class="alert"><b>Note</b>    Any source servers in the source path are ignored.  To include the source servers in the search, use <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtoken">FindSourceFileAndToken</a> with a module address specified in <i>ModAddr</i>.</div>
 <div> </div>
-For more information about using the source path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/source-path">Source Path</a>.
+For more information about using the source path, see <a href="/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.  For an overview of the source path and its syntax, see <a href="/windows-hardware/drivers/debugger/source-path">Source Path</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff541495(v=vs.85)">DEBUG_FIND_SOURCE_XXX</a>
+<a href="/previous-versions/ff541495(v=vs.85)">DEBUG_FIND_SOURCE_XXX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtoken">FindSourceFileAndToken</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtoken">FindSourceFileAndToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourcefilelineoffsets">GetSourceFileLineOffsets</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourcefilelineoffsets">GetSourceFileLineOffsets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourcepathelement">GetSourcePathElement</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getsourcepathelement">GetSourcePathElement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>

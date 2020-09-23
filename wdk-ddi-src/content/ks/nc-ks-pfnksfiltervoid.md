@@ -53,7 +53,7 @@ An AVStream minidriver's <i>AVStrMiniFilterReset</i> routine is called when AVSt
 ### -param Filter 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> to return to its previous state.
+Pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> to return to its previous state.
 
 ## -returns
 
@@ -61,17 +61,16 @@ AVStream does not currently use the return value.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
 
 Note that it is not the filter in question, but rather a pin on this filter that actually receives the reset IOCTL.
 
-The minidriver specifies this routine's address in the <b>Reset</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch">KSFILTER_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>Reset</b> member of its <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch">KSFILTER_DISPATCH</a> structure.
 
-The filter control mutex may be held during this function. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-control-mutex-in-avstream">Filter Control Mutex in AVStream</a>.
+The filter control mutex may be held during this function. See <a href="/windows-hardware/drivers/stream/filter-control-mutex-in-avstream">Filter Control Mutex in AVStream</a>.
 
 This routine is optional.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch">KSFILTER_DISPATCH</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter_dispatch">KSFILTER_DISPATCH</a>

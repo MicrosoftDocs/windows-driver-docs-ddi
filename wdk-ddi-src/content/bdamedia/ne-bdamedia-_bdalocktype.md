@@ -70,9 +70,8 @@ To be supplied.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-signal-lock-caps">KSPROPERTY_BDA_SIGNAL_LOCK_CAPS</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-bda-signal-lock-caps">KSPROPERTY_BDA_SIGNAL_LOCK_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-signal-lock-type">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-bda-signal-lock-type">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>

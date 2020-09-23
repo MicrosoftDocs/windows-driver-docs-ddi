@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>KTMOBJECT_CURSOR</b> structure receives enumeration information about KTM objects when a component calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>.
+The <b>KTMOBJECT_CURSOR</b> structure receives enumeration information about KTM objects when a component calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ The <b>KTMOBJECT_CURSOR</b> structure is used at the beginning of buffers that c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>

@@ -50,7 +50,7 @@ The IMiniportAudioSignalProcessing interface is implemented by the WaveRT minipo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportAudioSignalProcessing</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportAudioSignalProcessing</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportAudioSignalProcessing</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportAudioSignalProcessing</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -58,4 +58,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportAudioSignalProcessin
 ## -remarks
 
 Any of the Portcls miniport drivers can also implement the <b>GetModes</b> method.
-

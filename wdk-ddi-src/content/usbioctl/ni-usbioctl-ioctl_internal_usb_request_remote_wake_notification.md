@@ -55,11 +55,11 @@ The <b>IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</b>
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> points to a caller-allocated and initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_request_remote_wake_notification">REQUEST_REMOTE_WAKE_NOTIFICATION</a> structure that contains information about the function whose resume signal the driver is interested in. That information includes  the function handle and the interface with which the function is associated.
+<b>Parameters.Others.Argument1</b> points to a caller-allocated and initialized <a href="/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_request_remote_wake_notification">REQUEST_REMOTE_WAKE_NOTIFICATION</a> structure that contains information about the function whose resume signal the driver is interested in. That information includes  the function handle and the interface with which the function is associated.
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_request_remote_wake_notification">REQUEST_REMOTE_WAKE_NOTIFICATION</a> structure.
+The size of a <a href="/windows-hardware/drivers/ddi/usbdlib/ns-usbdlib-_request_remote_wake_notification">REQUEST_REMOTE_WAKE_NOTIFICATION</a> structure.
 
 ### -output-buffer
 
@@ -79,5 +79,4 @@ The hub or port driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS or the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">How to Implement Function Suspend in a Composite Driver</a>
-
+<a href="/windows-hardware/drivers/ddi/index">How to Implement Function Suspend in a Composite Driver</a>

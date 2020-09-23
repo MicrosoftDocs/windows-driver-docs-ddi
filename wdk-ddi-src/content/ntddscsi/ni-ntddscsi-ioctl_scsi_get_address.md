@@ -53,7 +53,7 @@ This request is not relevant to storage class drivers that support Plug and Play
 This request must be directed to a class driver or to a PDO created by the port driver.
 
 > [!NOTE]
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -ioctlparameters
 
@@ -67,11 +67,11 @@ None.
 
 ### -output-buffer
 
-Updated [SCSI_ADDRESS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address) information is returned to the buffer at **Irp->AssociatedIrp.SystemBuffer**.
+Updated [SCSI_ADDRESS](./ns-ntddscsi-_scsi_address.md) information is returned to the buffer at **Irp->AssociatedIrp.SystemBuffer**.
 
 ### -output-buffer-length
 
-**Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= **sizeof**([SCSI_ADDRESS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address)).
+**Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= **sizeof**([SCSI_ADDRESS](./ns-ntddscsi-_scsi_address.md)).
 
 ### -in-out-buffer
 
@@ -83,5 +83,4 @@ The **Information** field contains the number of bytes returned in the output bu
 
 ## -see-also
 
-[SCSI_ADDRESS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address)
-
+[SCSI_ADDRESS](./ns-ntddscsi-_scsi_address.md)

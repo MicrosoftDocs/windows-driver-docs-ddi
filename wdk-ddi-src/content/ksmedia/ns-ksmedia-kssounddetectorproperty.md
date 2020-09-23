@@ -54,7 +54,7 @@ The KSSOUNDDETECTORPROPERTY structure specifies a node and an Event ID. All soun
 
 ### -field Property
 
-Specifies the property to get or set. This member is a structure of type <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
+Specifies the property to get or set. This member is a structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
 ### -field EventId
 
@@ -66,7 +66,6 @@ The EventId is used to identify the different voice assistant/agents such as Cor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation-mva">Mulitple Voice Assistant</a>
-
+<a href="/windows-hardware/drivers/audio/voice-activation-mva">Mulitple Voice Assistant</a>

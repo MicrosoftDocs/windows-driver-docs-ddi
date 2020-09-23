@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Contains info used in the wireless display (Miracast) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_datarate_notification">pfnDataRateNotify</a> function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
+Contains info used in the wireless display (Miracast) <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_datarate_notification">pfnDataRateNotify</a> function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 
 ## -struct-fields
 
@@ -73,4 +73,3 @@ The total number of Wi-Fi frames that succeeded after a single retry since the p
 ### -field MultipleRetryFrameCount
 
 The total number of Wi-Fi frames that succeeded after more than one retry since the previous time step.
-

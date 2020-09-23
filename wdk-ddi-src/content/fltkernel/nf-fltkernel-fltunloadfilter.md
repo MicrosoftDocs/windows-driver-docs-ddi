@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-A minifilter driver that has loaded a supporting minifilter driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a> can unload the minifilter driver by calling <b>FltUnloadFilter</b>.
+A minifilter driver that has loaded a supporting minifilter driver by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a> can unload the minifilter driver by calling <b>FltUnloadFilter</b>.
 
 ## -parameters
 
 ### -param FilterName 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the minifilter driver service name that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a>.
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the minifilter driver service name that was passed to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a>.
 
 ## -returns
 
@@ -90,7 +90,7 @@ No matching minifilter driver was found. This is an error code.
 
 ## -remarks
 
-A minifilter driver that has a dependency on another minifilter driver can unload that minifilter driver by calling <b>FltUnloadFilter</b>. This routine searches for a registered minifilter driver whose service name matches the given <i>FilterName</i> and calls that minifilter driver's <i>FilterUnloadCallback</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>) routine. 
+A minifilter driver that has a dependency on another minifilter driver can unload that minifilter driver by calling <b>FltUnloadFilter</b>. This routine searches for a registered minifilter driver whose service name matches the given <i>FilterName</i> and calls that minifilter driver's <i>FilterUnloadCallback</i> (<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>) routine. 
 
 If the supporting minifilter driver did not register a <i>FilterUnloadCallback</i> routine, the call to <b>FltUnloadFilter</b> fails. 
 
@@ -98,13 +98,12 @@ A minifilter driver cannot call <b>FltUnloadFilter</b> to unload itself.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

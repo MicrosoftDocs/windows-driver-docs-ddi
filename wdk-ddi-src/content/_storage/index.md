@@ -55,4 +55,4 @@ To develop Storage, you need these headers:
  * [storport.h](../storport/index.md)
  * [ufs.h](../ufs/index.md)
 
-For the programming guide, see [Storage](https://docs.microsoft.com/windows-hardware/drivers/storage).
+For the programming guide, see [Storage](/windows-hardware/drivers/storage).

@@ -48,21 +48,21 @@ api_name:
 
 ## -description
 
-This structure contains the error data that is passed to the [BarcodeScannerErrorOccurred](https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757464(v=vs.85)) event.
+This structure contains the error data that is passed to the [BarcodeScannerErrorOccurred](/previous-versions/windows/hardware/previsioning-framework/dn757464(v=vs.85)) event.
 
 ## -struct-fields
 
 ### -field Header
 
-The [PosEventDataHeader](https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)) structure that describes the amount of memory, in bytes, of the **PosBarcodeScannerErrorOccurredEventData** structure and trailing error message and scan data.
+The [PosEventDataHeader](/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)) structure that describes the amount of memory, in bytes, of the **PosBarcodeScannerErrorOccurredEventData** structure and trailing error message and scan data.
 
 ### -field IsRetriable
 
-Indicates whether [ReadFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-readfile) can be called again to read this event
+Indicates whether [ReadFile](/windows/win32/api/fileapi/nf-fileapi-readfile) can be called again to read this event
 
 ### -field Severity
 
-Contains a value in the [UnifiedPosErrorSeverity](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorseverity) enumeration indicating the severity of the error.
+Contains a value in the [UnifiedPosErrorSeverity](../pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorseverity.md) enumeration indicating the severity of the error.
 
 ### -field VendorErrorCode
 
@@ -70,7 +70,7 @@ Contains a vendor-specific error code.
 
 ### -field Reason
 
-Contains a value in the [UnifiedPosErrorReason](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorreason) enumeration indicating the reason for the error.
+Contains a value in the [UnifiedPosErrorReason](../pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorreason.md) enumeration indicating the reason for the error.
 
 ### -field ExtendedReason
 
@@ -94,4 +94,3 @@ The error data should fill the buffer as shown in the following table (in order)
 | Error message text | **MessageLength** |
 | Partial scan data | **PartialData.ScanDataLength** |
 | Label data | **PartialData.ScanDataLabelLength** |
-

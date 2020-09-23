@@ -56,7 +56,7 @@ This ISCSI_RedirectPortalInfo structure contains information about a collection 
 
 ### -field UniqueConnectionId
 
-The connection identifier (ID) that the operating system and application software use to uniquely identify the connection. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in the UniqueConnectionId parameter. This value is not to be confused with the connection ID (CID).
+The connection identifier (ID) that the operating system and application software use to uniquely identify the connection. The <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in the UniqueConnectionId parameter. This value is not to be confused with the connection ID (CID).
 
 ### -field OriginalIPAddr
 
@@ -84,9 +84,8 @@ This value is <b>true</b> if redirection is temporary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
+<a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
-
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>

@@ -78,7 +78,7 @@ VMBPACKET FnVmbPacketAllocate
 
 The default completion routine of a packet automatically releases the packet.
 If the packet is not sent or if the completion routine is changed, the
-client should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketfree">VmbPacketFree</a> function to release the packet.
+client should call the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketfree">VmbPacketFree</a> function to release the packet.
 
 > [!IMPORTANT]
 > This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a client function accessed from the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md) structure. 
@@ -87,5 +87,4 @@ client should call the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketfree">VmbPacketFree</a>
-
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketfree">VmbPacketFree</a>

@@ -63,7 +63,7 @@ The identifier of the message for which the information is retrieved.
 ### -param InterruptInfo 
 
 [out]
-A pointer to a miniport driver-provided <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_message_interrupt_information">MESSAGE_INTERRUPT_INFORMATION</a> structure that receives the information for the message specified by the <i>MessageId</i> parameter.
+A pointer to a miniport driver-provided <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_message_interrupt_information">MESSAGE_INTERRUPT_INFORMATION</a> structure that receives the information for the message specified by the <i>MessageId</i> parameter.
 
 ## -returns
 
@@ -130,5 +130,4 @@ The HBA does not support MSI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_message_interrupt_information">MESSAGE_INTERRUPT_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_message_interrupt_information">MESSAGE_INTERRUPT_INFORMATION</a>

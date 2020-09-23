@@ -59,7 +59,7 @@ in Windows 8 and later.</div><div> </div>The
 [in]
 A handle that identifies the DMA channel. The DMA provider driver received this handle from NetDMA
      in a call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
+     <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
 ### -param DmaDescriptor 
@@ -78,5 +78,4 @@ DMA providers call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
-
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>

@@ -68,7 +68,7 @@ The type of pool to allocate from. This parameter is required and must be one of
 ### -param ContextCleanupCallback 
 
 [in, optional]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-silo_context_cleanup_callback">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-silo_context_cleanup_callback">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>.
 
 ### -param ReturnedSiloContext
 
@@ -117,4 +117,3 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
-

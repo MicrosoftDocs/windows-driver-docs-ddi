@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-INTERNAL_I8042_START_INFORMATION specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">interrupt object</a> that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR.
+INTERNAL_I8042_START_INFORMATION specifies the <a href="/windows-hardware/drivers/">interrupt object</a> that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR.
 
 ## -struct-fields
 
@@ -68,13 +68,12 @@ Reserved for future use.
 
 ## -remarks
 
-This structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
+This structure is used with <a href="/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>

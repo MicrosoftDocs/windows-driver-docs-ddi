@@ -91,10 +91,9 @@ This value indicates the ACL is disconnected.
 ## -remarks
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_get_mode">_BRB_ACL_GET_MODE</a> structure uses this
+    <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_get_mode">_BRB_ACL_GET_MODE</a> structure uses this
     enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_get_mode">_BRB_ACL_GET_MODE</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_get_mode">_BRB_ACL_GET_MODE</a>

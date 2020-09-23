@@ -60,9 +60,8 @@ IAdapterPnpManagement::Pnpstop is called after:
 - All the Pnp interfaces have been turned off. 
 - All pending I/O has been cancelled. 
 
-For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers).
+For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers).
 
 ## -see-also
 
 [IAdapterPnpManagement](nn-portcls-iadapterpnpmanagement.md)
-

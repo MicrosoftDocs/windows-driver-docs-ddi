@@ -71,13 +71,12 @@ Pointer to a [**STOR_EVENT**](ns-storport-stor_event.md) structure containing th
 
 ## -remarks
 
-See [**KeSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent) for more details.
+See [**KeSetEvent**](../wdm/nf-wdm-kesetevent.md) for more details.
 
 ## -see-also
 
-[**KeSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent) for more details.
+[**KeSetEvent**](../wdm/nf-wdm-kesetevent.md) for more details.
 
 [**STOR_EVENT**](ns-storport-stor_event.md)
 
 [**StorPortInitializeEvent**](ns-storport-storport_initialize_event.md)
-

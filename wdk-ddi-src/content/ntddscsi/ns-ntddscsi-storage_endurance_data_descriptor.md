@@ -64,7 +64,7 @@ A [STORAGE_ENDURANCE_INFO](ns-ntddscsi-storage_endurance_info.md) structure in w
 
 ## -remarks
 
-The miniport returns this structure when handling an [IOCTL_SCSI_MINIPORT](ni-ntddscsi-ioctl_scsi_miniport.md) request that has an [SRB_IO_CONTROL](ns-ntddscsi-_srb_io_control.md) structure with a **Signature** of [IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO](ni-ntddscsi-ioctl_miniport_signature_endurance_info.md), and a **ControlCode** of [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property) with a **PropertyId** of StorageDeviceEnduranceProperty and a **QueryType** of PropertyStandardQuery.
+The miniport returns this structure when handling an [IOCTL_SCSI_MINIPORT](ni-ntddscsi-ioctl_scsi_miniport.md) request that has an [SRB_IO_CONTROL](ns-ntddscsi-_srb_io_control.md) structure with a **Signature** of [IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO](ni-ntddscsi-ioctl_miniport_signature_endurance_info.md), and a **ControlCode** of [IOCTL_STORAGE_QUERY_PROPERTY](../ntddstor/ni-ntddstor-ioctl_storage_query_property.md) with a **PropertyId** of StorageDeviceEnduranceProperty and a **QueryType** of PropertyStandardQuery.
 
 The storage port driver uses [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](../ntddstor/ns-ntddstor-storage_hw_endurance_data_descriptor.md), which is defined in *ntddstor.h*. **STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR** and **STORAGE_ENDURANCE_DATA_DESCRIPTOR** are identical in size, so the storage port driver and miniport should cast the structure they receive accordingly when communicating with each other.
 
@@ -74,11 +74,10 @@ The storage port driver uses [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](../ntddstor/
 
 [IOCTL_SCSI_MINIPORT](ni-ntddscsi-ioctl_scsi_miniport.md)
 
-[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
+[IOCTL_STORAGE_QUERY_PROPERTY](../ntddstor/ni-ntddstor-ioctl_storage_query_property.md)
 
 [SRB_IO_CONTROL](ns-ntddscsi-_srb_io_control.md)
 
 [STORAGE_ENDURANCE_INFO](ns-ntddscsi-storage_endurance_info.md)
 
 [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](../ntddstor/ns-ntddstor-storage_hw_endurance_data_descriptor.md)
-

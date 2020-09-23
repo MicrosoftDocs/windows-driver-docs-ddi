@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information required by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> function to render primitives.
+The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information required by the <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> function to render primitives.
 
 ## -struct-fields
 
@@ -73,7 +73,7 @@ Specifies flags that provide additional instructions to the driver or provide in
 
 ### -field dwVertexType
 
-Identifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/fvf--flexible-vertex-format-">FVF</a> of the data in the vertex buffer; that is, <b>dwVertexType</b> specifies which per-vertex data fields are present in the vertex buffer that <b>lpDDVertex</b> or <b>lpVertices</b> points to. This member can be a bitwise OR of the values in the following table. Only one of the <i>D3DFVF_TEXx</i> flags is set.
+Identifies the <a href="/windows-hardware/drivers/display/fvf--flexible-vertex-format-">FVF</a> of the data in the vertex buffer; that is, <b>dwVertexType</b> specifies which per-vertex data fields are present in the vertex buffer that <b>lpDDVertex</b> or <b>lpVertices</b> points to. This member can be a bitwise OR of the values in the following table. Only one of the <i>D3DFVF_TEXx</i> flags is set.
 
 |Value|Meaning|
 |--- |--- |
@@ -100,7 +100,7 @@ Specifies the number of bytes of valid command data in the surface that <b>lpDDC
 
 ### -field lpDDVertex
 
-Points to the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that identifies the DirectDraw surface containing the vertex data when the D3DHALDP2_USERMEMVERTICES flag is not set in <b>dwFlags</b>. Forms a union with <b>lpVertices</b>.
+Points to the <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that identifies the DirectDraw surface containing the vertex data when the D3DHALDP2_USERMEMVERTICES flag is not set in <b>dwFlags</b>. Forms a union with <b>lpVertices</b>.
 
 ### -field lpVertices
 
@@ -124,7 +124,7 @@ Specifies the minimum number of bytes that the driver must increase the swap com
 
 ### -field lpdwRStates
 
-Points to a render state array that the driver should update when it parses render state commands from the command buffer. The driver should update this array only when the D3DHALDP2_EXECUTEBUFFER flag is set in <b>dwFlags</b>. The driver should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a> enumerated types to update the appropriate element of the render state array.
+Points to a render state array that the driver should update when it parses render state commands from the command buffer. The driver should update this array only when the D3DHALDP2_EXECUTEBUFFER flag is set in <b>dwFlags</b>. The driver should use the <a href="/windows-hardware/drivers/ddi/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a> enumerated types to update the appropriate element of the render state array.
 
 ### -field dwVertexSize
 
@@ -132,7 +132,7 @@ Specifies the size of each vertex, in bytes. This member forms a union with <b>d
 
 ### -field ddrval
 
-Specifies the location where the driver writes the return value of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>. D3D_OK indicates success. Otherwise, the driver should return the appropriate D3DERR_<i>Xxx</i> error code. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-codes-for-direct3d-driver-callbacks">Return Codes for Direct3D Driver Callbacks</a>.
+Specifies the location where the driver writes the return value of <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>. D3D_OK indicates success. Otherwise, the driver should return the appropriate D3DERR_<i>Xxx</i> error code. For more information, see <a href="/windows-hardware/drivers/display/return-codes-for-direct3d-driver-callbacks">Return Codes for Direct3D Driver Callbacks</a>.
 
 |Value|Meaning|
 |--- |--- |
@@ -155,21 +155,20 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a>
+<a href="/windows-hardware/drivers/ddi/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a>
+<a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
-
+<a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>

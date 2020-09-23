@@ -74,5 +74,4 @@ Indicates Best Effort Service latency (BESL) latency support.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_20port_info">ROOTHUB_20PORT_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_20port_info">ROOTHUB_20PORT_INFO</a>

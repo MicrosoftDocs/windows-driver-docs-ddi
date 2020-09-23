@@ -75,9 +75,8 @@ Indicates if this state is a valid state for a dependent processor to be in.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
+<a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_coordinated_dependency">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_coordinated_dependency">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index) instead.The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*.
+The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagnostic Log Macros](../_image/index.md) instead.The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*.
 
 ## -parameters
 
@@ -82,4 +82,3 @@ Specifies the resource id. This parameter should be set to WIALOG_NO_RESOURCE_ID
 ## -returns
 
 If the method succeeds, it returns S_OK.  If the method fails, it returns a standard COM error code.
-

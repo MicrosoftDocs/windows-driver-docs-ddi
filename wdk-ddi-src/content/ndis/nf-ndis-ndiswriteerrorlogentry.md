@@ -56,7 +56,7 @@ api_name:
 [in]
 Specifies the handle representing the NIC that is the cause of the I/O error to be logged. This
      handle is an input parameter to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 ### -param ErrorCode 
 
@@ -193,7 +193,7 @@ In practice, few callers of
 
 In general, a miniport driver calls 
     <b>NdisWriteErrorLogEntry</b> during initialization from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function if
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function if
     it cannot initialize a NIC that it controls or cannot allocate the hardware resources it needs to carry
     out I/O operations on a NIC. A miniport driver also can call 
     <b>NdisWriteErrorLogEntry</b> when a device-reset operation fails due to unrecoverable hardware error(s).
@@ -202,13 +202,12 @@ In general, a miniport driver calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>

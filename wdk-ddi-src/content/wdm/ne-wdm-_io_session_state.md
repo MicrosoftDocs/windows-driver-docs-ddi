@@ -92,7 +92,7 @@ Specifies the maximum value in this enumeration type.
 
 ## -remarks
 
-When a driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a> routine to obtain information about a user session (<i>InformationClass</i> = <b>IoSessionStateInformation</b>), the I/O manager writes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a> structure to the buffer pointed to by the routine's <i>Buffer</i> parameter. The I/O manager sets the <b>SessionState</b> member of this structure to an <b>IO_SESSION_STATE</b> enumeration constant (other than <b>IoSessionStateMax</b>).
+When a driver calls the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a> routine to obtain information about a user session (<i>InformationClass</i> = <b>IoSessionStateInformation</b>), the I/O manager writes an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a> structure to the buffer pointed to by the routine's <i>Buffer</i> parameter. The I/O manager sets the <b>SessionState</b> member of this structure to an <b>IO_SESSION_STATE</b> enumeration constant (other than <b>IoSessionStateMax</b>).
 
 The following table shows the session state transitions. For each state transition, the table shows the following:
 
@@ -113,17 +113,16 @@ The event that causes the transition (a table entry in a white box)
 A blank white box indicates that no transition can occur directly from the associated <i>from</i> state to the corresponding <i>to</i> state.
 
 <img alt="Table listing session state transitions " src="images/sessionstate.png"/>
-In the preceding table, the <i>from</i> and <i>to</i> states are represented by <b>IO_SESSION_STATE</b> enumeration constants, and the events are represented by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a> enumeration constants. For example, if the session state is <b>IoSessionStateConnected</b> (abbreviated as "Connected" in the table), an <b>IoSessionEventLogon</b> event (abbreviated as "Logon") causes a transition to the <b>IoSessionStateLoggedOn</b> state (abbreviated as "LoggedOn"). The starting state for a new session is <b>IoSessionStateInitialized</b> (abbreviated as "Initialized").
+In the preceding table, the <i>from</i> and <i>to</i> states are represented by <b>IO_SESSION_STATE</b> enumeration constants, and the events are represented by <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a> enumeration constants. For example, if the session state is <b>IoSessionStateConnected</b> (abbreviated as "Connected" in the table), an <b>IoSessionEventLogon</b> event (abbreviated as "Logon") causes a transition to the <b>IoSessionStateLoggedOn</b> state (abbreviated as "LoggedOn"). The starting state for a new session is <b>IoSessionStateInitialized</b> (abbreviated as "Initialized").
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>

@@ -148,39 +148,38 @@ The reparse GUID specified by the caller did not match the GUID of the reparse p
 
 ## -remarks
 
-Minifilter drivers should use <b>FltTagFile</b> instead of [FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point) to set a reparse point. 
+Minifilter drivers should use <b>FltTagFile</b> instead of [FSCTL_SET_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-set-reparse-point) to set a reparse point. 
 
-Not all file systems support reparse points. The NTFS file system supports them; the FAT file system does not. Minifilter drivers can determine whether a file system supports reparse points by calling [FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation), specifying FileFsAttributeInformation for the *FsInformation* parameter, and examining the FILE_SUPPORTS_REPARSE_POINTS bit flag in the returned [FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_attribute_information) structure. 
+Not all file systems support reparse points. The NTFS file system supports them; the FAT file system does not. Minifilter drivers can determine whether a file system supports reparse points by calling [FltQueryVolumeInformation](./nf-fltkernel-fltqueryvolumeinformation.md), specifying FileFsAttributeInformation for the *FsInformation* parameter, and examining the FILE_SUPPORTS_REPARSE_POINTS bit flag in the returned [FILE_FS_ATTRIBUTE_INFORMATION](../ntifs/ns-ntifs-_file_fs_attribute_information.md) structure. 
 
-To remove an existing reparse point, call [FltUntagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuntagfile). 
+To remove an existing reparse point, call [FltUntagFile](./nf-fltkernel-fltuntagfile.md). 
 
 For more information about reparse points, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-[FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_fs_attribute_information)
+[FILE_FS_ATTRIBUTE_INFORMATION](../ntifs/ns-ntifs-_file_fs_attribute_information.md)
 
-[FLT_TAG_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_tag_data_buffer)
+[FLT_TAG_DATA_BUFFER](./ns-fltkernel-_flt_tag_data_buffer.md)
 
-[FSCTL_DELETE_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
+[FSCTL_DELETE_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
 
-[FSCTL_GET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
+[FSCTL_GET_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
 
-[FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
+[FSCTL_SET_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
 
-[FltFsControlFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile)
+[FltFsControlFile](./nf-fltkernel-fltfscontrolfile.md)
 
-[FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation)
+[FltQueryVolumeInformation](./nf-fltkernel-fltqueryvolumeinformation.md)
 
-[FltTagFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfileex)
+[FltTagFileEx](./nf-fltkernel-flttagfileex.md)
 
-[FltUntagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuntagfile)
+[FltUntagFile](./nf-fltkernel-fltuntagfile.md)
 
-[IsReparseTagMicrosoft](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagmicrosoft)
+[IsReparseTagMicrosoft](../ntifs/nf-ntifs-isreparsetagmicrosoft.md)
 
-[IsReparseTagNameSurrogate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagnamesurrogate)
+[IsReparseTagNameSurrogate](../ntifs/nf-ntifs-isreparsetagnamesurrogate.md)
 
-[REPARSE_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer)
+[REPARSE_DATA_BUFFER](../ntifs/ns-ntifs-_reparse_data_buffer.md)
 
-[REPARSE_GUID_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_guid_data_buffer)
-
+[REPARSE_GUID_DATA_BUFFER](../ntifs/ns-ntifs-_reparse_guid_data_buffer.md)

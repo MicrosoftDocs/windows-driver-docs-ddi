@@ -60,9 +60,8 @@ Specifies the size, in bytes, of the payload.
 
 ### -field Data
 
-Specifies an array that contains the payload. Frequently this member contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>.
+Specifies an array that contains the payload. Frequently this member contains a structure of type <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>.
 
 ## -remarks
 
 The WINBIO_DATA structure associates a length, in bytes, with an arbitrary block of contiguous memory.
-

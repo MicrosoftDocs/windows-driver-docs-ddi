@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The <b>DsmSetLoadBalancePolicy_OUT</b> structure reports the output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/dsmsetloadbalancepolicy">DsmSetLoadBalancePolicy</a> method.
+The <b>DsmSetLoadBalancePolicy_OUT</b> structure reports the output parameter of the <a href="/windows-hardware/drivers/storage/dsmsetloadbalancepolicy">DsmSetLoadBalancePolicy</a> method.
 
 ## -struct-fields
 
 ### -field Status
 
-The status of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/dsmsetloadbalancepolicy">DsmSetLoadBalancePolicy</a> operation.
-
+The status of the <a href="/windows-hardware/drivers/storage/dsmsetloadbalancepolicy">DsmSetLoadBalancePolicy</a> operation.

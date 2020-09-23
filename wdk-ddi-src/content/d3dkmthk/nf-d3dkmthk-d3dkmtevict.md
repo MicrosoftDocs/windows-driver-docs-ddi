@@ -56,7 +56,7 @@ api_name:
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_evict">D3DKMT_EVICT</a> structure that describes the operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_evict">D3DKMT_EVICT</a> structure that describes the operation.
 
 ## -returns
 
@@ -75,5 +75,4 @@ Once the eviction request is queued, it is illegal to access the underlying allo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_evict">D3DKMT_EVICT</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_evict">D3DKMT_EVICT</a>

@@ -64,11 +64,10 @@ Resending the Confirm request to the AP.
 
 ## -remarks
 
-This enumeration is a value in the [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed) indication.
+This enumeration is a value in the [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed) indication.
 
 ## -see-also
 
-[WPA3-SAE Authentication](https://docs.microsoft.com/windows-hardware/drivers/network/wpa3-sae-authentication)
+[WPA3-SAE Authentication](/windows-hardware/drivers/network/wpa3-sae-authentication)
 
-[NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed)
-
+[NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed)

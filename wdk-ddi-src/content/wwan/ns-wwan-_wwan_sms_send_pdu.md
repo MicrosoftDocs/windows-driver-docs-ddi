@@ -66,7 +66,7 @@ For CDMA-based devices that support sending SMS messages in binary format, the s
 
 The following table lists the different values for the 
      <b>SmsFormat</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a> structure and their
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a> structure and their
      corresponding range that is allowed in this member.
 
 <table>
@@ -131,7 +131,7 @@ For GSM-based devices, the contents are coded in a hexadecimal string format (ac
 For CDMA-based devices that support sending SMS messages in binary format (that is, miniport drivers
      that return WWAN_SMS_CAPS_PDU_SEND in the 
      <b>WwanSmsCaps</b> member of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>), 
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>), 
      <b>PduData</b> contains the SMS message as a byte array, as defined in section 3.4.2.1 SMS Point-to-Point
      Message in the 3GPP2 specification C.S0015-A "Short Message Service (SMS) for Wideband Spread Spectrum
      Systems". SMS will only support Wireless Messaging Teleservice (WMT) format. Miniport drivers should
@@ -140,5 +140,4 @@ For CDMA-based devices that support sending SMS messages in binary format (that 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>

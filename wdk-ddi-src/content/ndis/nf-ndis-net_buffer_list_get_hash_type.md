@@ -64,15 +64,14 @@ The hash type is an OR value of valid combinations of the following flags:
 - NDIS_HASH_IPV6_EX
 - NDIS_HASH_TCP_IPV6_EX
 
-For more information about hash types and the valid combinations of these flags, see [RSS Hashing Types](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-types)).
+For more information about hash types and the valid combinations of these flags, see [RSS Hashing Types](/windows-hardware/drivers/network/rss-hashing-types)).
 
 ## -remarks
 
 A NIC (or its miniport driver) uses the receive side scaling (RSS) hash type to identify the portion of received network data that is used to calculate an RSS hash value.
 
-For more information about the hash type, see [RSS Hashing Types](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-types).
+For more information about the hash type, see [RSS Hashing Types](/windows-hardware/drivers/network/rss-hashing-types).
 
 ## -see-also
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
-

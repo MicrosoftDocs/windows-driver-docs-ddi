@@ -82,6 +82,5 @@ The miniport driver can always switch to its device-specific default reporting i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_signal_indication">
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_signal_indication">
    NDIS_WWAN_SET_SIGNAL_INDICATION</a>
-

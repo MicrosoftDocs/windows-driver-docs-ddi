@@ -60,7 +60,7 @@ None
 
 ### -output-buffer
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_list"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
+An <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_list"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
 
 ### -output-buffer-length
 
@@ -99,4 +99,3 @@ The following are requirements that the driver must adhere to.
 <li>For device host secure element, the driver shall enumerate it as a SE end point only if it supports Host Card Emulation. The GUID used for DH maybe a fixed constant defined by the driver.</li>
 <li>The caller is required to allocate an output buffer large enough to hold the information about all the secure elements that were enumerated by the driver. The buffer must be equal to the total number of SEs enumerated by the driver multiplied by the size of the SE endpoint information. If the appropriate buffer isn’t allocated, the driver returns a STATUS_BUFFER_OVERFLOW error code to the client with the NumberOfEndpoints field that contains the number of secure elements enumerated.</li>
 </ul>
-

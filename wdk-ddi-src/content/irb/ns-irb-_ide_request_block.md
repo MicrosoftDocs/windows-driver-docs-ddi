@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The IDE_REQUEST_BLOCK structure defines an IDE request block.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -442,7 +442,7 @@ Reserved for future use.
 
 ### -field IdeTaskFile
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_task_file">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
+Contains a structure of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_task_file">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
 
 ### -field Cdb
 
@@ -450,7 +450,7 @@ Contains a command descriptor block (CDB). This member is defined whenever the r
 
 ### -field PowerChange
 
-Indicates an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_power_info">POWER_CHANGE_INFO</a> that defines a power state transition. This member is defined whenever <b>Function</b> is equal to IRB_FUNCTION_POWER_CHANGE.
+Indicates an enumeration value of type <a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_power_info">POWER_CHANGE_INFO</a> that defines a power state transition. This member is defined whenever <b>Function</b> is equal to IRB_FUNCTION_POWER_CHANGE.
 
 ### -field AsUChar
 
@@ -458,21 +458,20 @@ Provides a means of accessing members <b>IdeTaskFile</b>, <b>PowerChange</b>, an
 
 ## -remarks
 
-The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> but with characteristics more suitable for managing devices on an IDE bus.
+The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> but with characteristics more suitable for managing devices on an IDE bus.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportdevicebusy">AtaportDeviceBusy</a>
+<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportdevicebusy">AtaportDeviceBusy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_task_file">IDE_TASK_FILE</a>
+<a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_task_file">IDE_TASK_FILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_power_info">POWER_CHANGE_INFO</a>
+<a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_power_info">POWER_CHANGE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
-
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>

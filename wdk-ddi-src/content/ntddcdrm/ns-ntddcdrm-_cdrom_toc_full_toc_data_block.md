@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The CDROM_TOC_FULL_TOC_DATA_BLOCK structure contains track descriptor data used in conjunction with the data from the [CDROM_TOC_FULL_TOC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_full_toc_data) structure.
+The CDROM_TOC_FULL_TOC_DATA_BLOCK structure contains track descriptor data used in conjunction with the data from the [CDROM_TOC_FULL_TOC_DATA](./ns-ntddcdrm-_cdrom_toc_full_toc_data.md) structure.
 
 ## -struct-fields
 
@@ -102,9 +102,8 @@ Contains the minute, second, and frame. Msf[0] contains the minutes field. Msf[1
 
 ## -see-also
 
-[CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex)
+[CDROM_READ_TOC_EX](./ns-ntddcdrm-_cdrom_read_toc_ex.md)
 
-[CDROM_TOC_FULL_TOC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_full_toc_data)
+[CDROM_TOC_FULL_TOC_DATA](./ns-ntddcdrm-_cdrom_toc_full_toc_data.md)
 
-[IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
-
+[IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md)

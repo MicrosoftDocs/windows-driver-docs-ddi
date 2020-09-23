@@ -58,7 +58,7 @@ The **IoOpenDriverRegistryKey** routine returns a handle to a driver-specific re
 
 ### -param DesiredAccess 
 
-[in]Specifies the [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that represents the access rights needed for the key. See [**ZwCreateKey**](nf-wdm-zwcreatekey.md) for a description of each KEY_XXX access right.
+[in]Specifies the [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that represents the access rights needed for the key. See [**ZwCreateKey**](nf-wdm-zwcreatekey.md) for a description of each KEY_XXX access right.
 
 ### -param Flags 
 
@@ -78,7 +78,7 @@ The driver must call [**ZwClose**](nf-wdm-zwclose.md) to close the handle return
 
 The registry keys opened by this routine are nonvolatile.
 
-To provision keys and values under the immutable **DriverRegKeyParameters** registry key, use an [AddReg directive](https://docs.microsoft.com/windows-hardware/drivers/install/inf-addreg-directive) from a *service-install-section* to reference an *add-registry-section* section that contains entries with a reg-root of `HKR` and a subkey of `Parameters`.
+To provision keys and values under the immutable **DriverRegKeyParameters** registry key, use an [AddReg directive](/windows-hardware/drivers/install/inf-addreg-directive) from a *service-install-section* to reference an *add-registry-section* section that contains entries with a reg-root of `HKR` and a subkey of `Parameters`.
 
 Callers of **IoOpenDriverRegistryKey** must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
@@ -86,7 +86,6 @@ Callers of **IoOpenDriverRegistryKey** must be running at IRQL = PASSIVE_LEVEL i
 
 [**ZwClose**](nf-wdm-zwclose.md)	
 
-[ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
 [**DRIVER_REGKEY_TYPE**](ne-wdm-driver_regkey_type.md)
-

@@ -66,7 +66,7 @@ DEBUG_BREAKPOINT_CODE
 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/s">software breakpoint</a>
+<a href="/windows-hardware/drivers/debugger/s">software breakpoint</a>
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ DEBUG_BREAKPOINT_DATA
 
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/p">processor breakpoint</a>
+<a href="/windows-hardware/drivers/debugger/p">processor breakpoint</a>
 
 </td>
 </tr>
@@ -124,36 +124,35 @@ The breakpoint couldn't be created with the desired ID or the value of <i>Type</
 </table>
  
 
-This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return other error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
 
 If <i>DesiredId</i> is not DEBUG_ANY_ID and another breakpoint already uses the ID <i>DesiredId</i>, these methods will fail.
 
-Breakpoints are created empty and disabled.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a> for details on configuring and enabling the breakpoint.
+Breakpoints are created empty and disabled.  See <a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a> for details on configuring and enabling the breakpoint.
 
-The client is saved as the adder of the new breakpoint. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getadder">GetAdder</a>. 
+The client is saved as the adder of the new breakpoint. See <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getadder">GetAdder</a>. 
 
-<div class="alert"><b>Note</b>    Even though <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> extends the COM interface <b>IUnknown</b>, the lifetime of the breakpoint is not controlled using the <b>IUnknown</b> interface.  Instead, the breakpoint is deleted after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a> is called.</div>
+<div class="alert"><b>Note</b>    Even though <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> extends the COM interface <b>IUnknown</b>, the lifetime of the breakpoint is not controlled using the <b>IUnknown</b> interface.  Instead, the breakpoint is deleted after <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a> is called.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>
+<a href="/windows-hardware/drivers/debugger/breakpoints3">Breakpoints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>
-
+<a href="/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>

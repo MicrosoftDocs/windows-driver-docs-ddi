@@ -20,7 +20,7 @@ To develop Driver test tools, you need these headers:
 
  * [wpprecorder.h](../wpprecorder/index.md)
 
-For the programming guide, see [Driver test tools](https://docs.microsoft.com/windows-hardware/drivers/devtest).
+For the programming guide, see [Driver test tools](/windows-hardware/drivers/devtest).
 
 ## Macros
 

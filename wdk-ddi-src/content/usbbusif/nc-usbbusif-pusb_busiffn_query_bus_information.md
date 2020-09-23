@@ -52,7 +52,7 @@ The <b>QueryBusInformation</b> routine gets information about the bus.
 
 #### - BusContext [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <b>BusContext</b> member of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - BusInformationActualLength [out, optional]
@@ -103,9 +103,9 @@ The call completed successfully.
 <td width="60%">
 The buffer was too small. This error code is returned in two cases:
 
-Whenever <i>Level</i> = 0, this error code is returned if the size of the buffer pointed to by <i>BusInformationBuffer</i> is less than the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_0">USB_BUS_INFORMATION_LEVEL_0</a> structure.
+Whenever <i>Level</i> = 0, this error code is returned if the size of the buffer pointed to by <i>BusInformationBuffer</i> is less than the size of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_0">USB_BUS_INFORMATION_LEVEL_0</a> structure.
 
-Whenever Level = 1, this error code is returned if the size of the buffer pointed to by <i>BusInformationBuffer</i> less than the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_1">USB_BUS_INFORMATION_LEVEL_1</a> structure. 
+Whenever Level = 1, this error code is returned if the size of the buffer pointed to by <i>BusInformationBuffer</i> less than the size of the <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_1">USB_BUS_INFORMATION_LEVEL_1</a> structure. 
 
 </td>
 </tr>
@@ -128,13 +128,12 @@ The function definition that is provided on this reference page is an example ro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_0">USB_BUS_INFORMATION_LEVEL_0</a>
+<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_0">USB_BUS_INFORMATION_LEVEL_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_1">USB_BUS_INFORMATION_LEVEL_1</a>
+<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_information_level_1">USB_BUS_INFORMATION_LEVEL_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a>
-
+<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a>

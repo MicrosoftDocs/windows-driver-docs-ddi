@@ -50,7 +50,7 @@ api_name:
 Call the 
   <b>NdisRetreatNetBufferDataStart</b> function to access more 
   <i>used data space</i> in the MDL chain of a 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ If NDIS must allocate memory, this parameter specifies the amount of data space,
 
 [in, optional]
 An optional entry point for an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function. If the caller
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetAllocateMdl</i> function, NDIS calls 
      <i>NetAllocateMdl</i> to allocate an MDL and memory.
@@ -133,32 +133,31 @@ An optional entry point for an
 
 <b>NdisRetreatNetBufferDataStart</b> attempts to satisfy the request by reducing the value of the 
     <b>DataOffset</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 If there isn't enough 
     <i>unused data space</i>, this function allocates a new buffer and an MDL to describe the new buffer and
     chains the new MDL to the beginning of the MDL chain. NDIS calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function specified at 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a> function specified at 
     <i>AllocateMdl</i> to allocate the MDL and memory. The 
     <i>NetAllocateMdl</i> function can use any allocation method that meets the
     driver's design requirements.
 
 Call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
     NdisAdvanceNetBufferDataStart</a> function to release the 
     <i>used data space</i> that was added with 
     <b>NdisRetreatNetBufferDataStart</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisadvancenetbufferdatastart">
    NdisAdvanceNetBufferDataStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-net_buffer_allocate_mdl_handler">NetAllocateMdl</a>

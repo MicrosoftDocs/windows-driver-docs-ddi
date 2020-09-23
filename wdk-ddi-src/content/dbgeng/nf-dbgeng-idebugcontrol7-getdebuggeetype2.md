@@ -190,7 +190,7 @@ DEBUG_USER_WINDOWS_PROCESS
 
 </td>
 <td>
-The current target is a user-mode process on the same computer as the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
+The current target is a user-mode process on the same computer as the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
 
 </td>
 </tr>
@@ -232,5 +232,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol7">IDebugControl7</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol7">IDebugControl7</a>

@@ -67,11 +67,10 @@ When <b>NULL</b>, the miniport does not have to delete a parser entry in additio
 ## -remarks
 
 The OFFLOAD_IPSEC_DELETE_UDPESP_SA structure is used with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+    <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
     OID_TCP_TASK_IPSEC_DELETE_UDPESP_SA</a> OID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+<a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
    OID_TCP_TASK_IPSEC_DELETE_UDPESP_SA</a>
-

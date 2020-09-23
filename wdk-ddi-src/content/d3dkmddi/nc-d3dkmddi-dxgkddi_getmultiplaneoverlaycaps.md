@@ -58,7 +58,7 @@ Called to retrieve multiplane overlay capabilities. Support for this DDI is requ
 
 ### -param pGetMultiPlaneOverlayCaps
 
-[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getmultiplaneoverlaycaps">DXGKARG_GETMULTIPLANEOVERLAYCAPS</a> structure that receives the driver capabilities.
+[in/out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getmultiplaneoverlaycaps">DXGKARG_GETMULTIPLANEOVERLAYCAPS</a> structure that receives the driver capabilities.
 
 ## -returns
 
@@ -75,4 +75,3 @@ This function is called at PASSIVE_LEVEL.
 The multiplane overlay capabilities are allowed to change due to display configuration changes.
 
 For WDDM 2.2 drivers, this DDI is used to retrieve the multiplane overlay capabilities rather than the user mode DDIs.
-

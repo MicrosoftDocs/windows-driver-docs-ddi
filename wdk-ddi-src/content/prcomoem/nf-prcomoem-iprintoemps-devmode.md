@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <code>IPrintOemPS::DevMode</code> method, provided by rendering plug-ins for Pscript5, performs operations on private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> members.
+The <code>IPrintOemPS::DevMode</code> method, provided by rendering plug-ins for Pscript5, performs operations on private <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> members.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ Caller-supplied constant. See the following Remarks section.
 
 ### -param pOemDMParam
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemdmparam">OEMDMPARAM</a> structure.
+Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemdmparam">OEMDMPARAM</a> structure.
 
 ## -returns
 
@@ -106,5 +106,4 @@ The method is not implemented.
 
 If you are providing a user interface plug-in for Pscript5, and if you are adding private members to the driver's DEVMODEW structure, you must implement both the <code>IPrintOemUI::DevMode</code> and the <code>IPrintOemPS::DevMode</code> methods. The code implementing these methods must be identical and can be placed in a library that is statically linked to both the UI plug-in and the rendering plug-in.
 
-For a description of the <code>IPrintOemPS::DevMode</code> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a>.
-
+For a description of the <code>IPrintOemPS::DevMode</code> method, see <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a>.

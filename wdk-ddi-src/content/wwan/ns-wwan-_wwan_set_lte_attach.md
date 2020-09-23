@@ -57,13 +57,12 @@ An array of [**WWAN_SET_CONTEXT_V2**](ns-wwan-_wwan_set_context_v2.md) structure
 
 ## -remarks
 
-This structure is used in the [**NDIS_WWAN_SET_LTE_ATTACH_CONTEXT**](../ndiswwan/ns-ndiswwan-_ndis_wwan_set_lte_attach_context.md) structure, which is used in the payload of an [OID_WWAN_LTE_ATTACH_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-lte-attach-config) Set request. If this structure does not contain exactly three contexts, one each for home, partner, and non-partner roaming conditions, the miniport driver should reject the request.
+This structure is used in the [**NDIS_WWAN_SET_LTE_ATTACH_CONTEXT**](../ndiswwan/ns-ndiswwan-_ndis_wwan_set_lte_attach_context.md) structure, which is used in the payload of an [OID_WWAN_LTE_ATTACH_CONFIG](/windows-hardware/drivers/network/oid-wwan-lte-attach-config) Set request. If this structure does not contain exactly three contexts, one each for home, partner, and non-partner roaming conditions, the miniport driver should reject the request.
 
 ## -see-also
 
-[MB LTE Attach Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-lte-attach-operations)
+[MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)
 
 [**NDIS_WWAN_SET_LTE_ATTACH_CONTEXT**](../ndiswwan/ns-ndiswwan-_ndis_wwan_set_lte_attach_context.md)
 
 [**WWAN_SET_CONTEXT_V2**](ns-wwan-_wwan_set_context_v2.md)
-

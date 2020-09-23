@@ -108,7 +108,7 @@ Pointer to a caller-allocated variable that receives the address of the newly al
 <b>FltAllocateContext</b> returns this status if either of the following conditions occur:
 <ul>
 <li>The allocation information for the context of the specified type was not provided at the time of filter registration.
-<li>For fixed-size contexts, the requested <i>ContextSize</i> is greater than the <i>Size</i> specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a> structure for the specified <i>ContextType</i>.
+<li>For fixed-size contexts, the requested <i>ContextSize</i> is greater than the <i>Size</i> specified in the <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_context_registration">FLT_CONTEXT_REGISTRATION</a> structure for the specified <i>ContextType</i>.
 </ul>
 This is an error code.
 </td>
@@ -273,4 +273,3 @@ Because contexts are reference-counted, it is not usually necessary to delete th
 [FltSetTransactionContext](nf-fltkernel-fltsettransactioncontext.md)
 
 [FltSetVolumeContext](nf-fltkernel-fltsetvolumecontext.md)
-

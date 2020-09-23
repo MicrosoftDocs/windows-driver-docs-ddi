@@ -53,7 +53,7 @@ The <b>KsGetState</b> method retrieves the streaming state of a pin from the und
 ### -param State 
 
 [out]
-Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumerated type:
+Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumerated type:
 
 <table>
 <tr>
@@ -113,4 +113,3 @@ The state of the pin gives gross motor control for pins. Fine motor control is d
 A filter itself can support this state property so that applications can set the entire filter's state. Otherwise, each pin must have its state set. When the state of a pin transitions from KSSTATE_STOP, each connection that forwards IRPs must recalculate stack depth.
 
 The proxy uses the KSPROPERTY_CLOCK_STATE property to retrieve the streaming state of a pin.
-

@@ -66,13 +66,12 @@ If the method succeeds, it stores a pointer to the next sibling item in *ppISibl
 
 ## -remarks
 
-Minidrivers obtain a pointer to the first child item in a folder by calling [IWiaDrvItem::GetFirstChildItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfirstchilditem). Minidrivers can then obtain the sibling items of this child item in the folder by making successive calls to **IWiaDrvItem::GetNextSiblingItem**.
+Minidrivers obtain a pointer to the first child item in a folder by calling [IWiaDrvItem::GetFirstChildItem](./nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md). Minidrivers can then obtain the sibling items of this child item in the folder by making successive calls to **IWiaDrvItem::GetNextSiblingItem**.
 
 ## -see-also
 
-[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
+[IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
-[IWiaDrvItem::GetFirstChildItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfirstchilditem)
+[IWiaDrvItem::GetFirstChildItem](./nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md)
 
-[IWiaDrvItem::GetParentItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getparentitem)
-
+[IWiaDrvItem::GetParentItem](./nf-wiamindr_lh-iwiadrvitem-getparentitem.md)

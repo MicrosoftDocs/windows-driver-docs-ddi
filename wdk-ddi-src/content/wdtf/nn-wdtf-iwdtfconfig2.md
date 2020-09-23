@@ -50,7 +50,7 @@ Defines operations that control <b>WDTF</b> objects within a test script.
 
 ## -inheritance
 
-The <b>IWDTFCONFIG2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
+The <b>IWDTFCONFIG2</b> interface inherits from the <a href="/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 <b>IWDTFCONFIG2</b> also has these types of members:
 <ul>
@@ -80,5 +80,3 @@ WDTF_TARGETS    : INFO  :          Target: Generic volume
 WDTF_TARGETS    : INFO  :          Target: Generic volume
 
 ```
-
-

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>CcCopyWriteWontFlush</b> macro determines whether the amount of data to be copied in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a> is small enough not to require immediate flushing to disk if <b>CcCopyWrite</b> is called with <i>Wait</i> set to <b>FALSE</b>.
+The <b>CcCopyWriteWontFlush</b> macro determines whether the amount of data to be copied in a call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a> is small enough not to require immediate flushing to disk if <b>CcCopyWrite</b> is called with <i>Wait</i> set to <b>FALSE</b>.
 
 ## -parameters
 
@@ -67,17 +67,16 @@ Length in bytes of the data to be copied.
 
 ## -returns
 
-<b>CcCopyWriteWontFlush</b> returns <b>TRUE</b> if the amount of data to be copied in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a> is small enough not to require immediate flushing to disk, <b>FALSE</b> otherwise.
+<b>CcCopyWriteWontFlush</b> returns <b>TRUE</b> if the amount of data to be copied in a call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a> is small enough not to require immediate flushing to disk, <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccaniwrite">CcCanIWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539060">CcDeferWrite</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccdeferwrite">CcDeferWrite</a>

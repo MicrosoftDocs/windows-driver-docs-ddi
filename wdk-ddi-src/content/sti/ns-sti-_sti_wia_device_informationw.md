@@ -60,7 +60,7 @@ Caller-supplied size, in bytes, of the STI_WIA_DEVICE_INFORMATION structure.
 
 ### -field DeviceType
 
-A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ne-sti-_sti_device_mj_type">STI_DEVICE_TYPE</a> that identifies the type of the hardware imaging device.
+A value of type <a href="/windows-hardware/drivers/ddi/sti/ne-sti-_sti_device_mj_type">STI_DEVICE_TYPE</a> that identifies the type of the hardware imaging device.
 
 ### -field szDeviceInternalName
 
@@ -68,7 +68,7 @@ Character array containing the device's internal name string, used for reference
 
 ### -field DeviceCapabilities
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a>.
+A structure of type <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a>.
 
 ### -field dwHardwareConfiguration
 
@@ -86,11 +86,11 @@ STI_HW_CONFIG_UNKNOWN
 
 ### -field pszVendorDescription
 
-Pointer to a vendor identification string, obtained from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-manufacturer-section">INF Manufacturer Section</a> of the device's INF file.
+Pointer to a vendor identification string, obtained from the <a href="/windows-hardware/drivers/install/inf-manufacturer-section">INF Manufacturer Section</a> of the device's INF file.
 
 ### -field pszDeviceDescription
 
-Pointer to a vendor-provided device description string, obtained from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models Section</a> of the device's INF file.
+Pointer to a vendor-provided device description string, obtained from the <a href="/windows-hardware/drivers/install/inf-models-section">INF Models Section</a> of the device's INF file.
 
 ### -field pszPortName
 
@@ -111,4 +111,3 @@ Pointer to the WIA user interface DLL.
 ### -field pszServer
 
 Pointer to the WIA server.
-

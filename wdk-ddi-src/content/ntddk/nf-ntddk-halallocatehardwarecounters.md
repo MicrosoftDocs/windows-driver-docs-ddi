@@ -68,7 +68,7 @@ A pointer to a <b>PHYSICAL_COUNTER_RESOURCE_LIST</b> containing the resources re
 ### -param CounterSetHandle 
 
 [out]
-A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
+A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns
 
@@ -132,13 +132,12 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a>
+<a href="/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halfreehardwarecounters">HalFreeHardwareCounters</a>
 
 
 
 [**PHYSICAL_COUNTER_RESOURCE_LIST**](ns-ntddk-_physical_counter_resource_list.md)
-

@@ -56,33 +56,32 @@ The I2C_CALLBACKS structure contains pointers to functions, implemented by the v
 
 ### -field WriteClockLine
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_clock_line">WriteClockLine</a> function implemented by the video miniport driver.
+A pointer to the <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_clock_line">WriteClockLine</a> function implemented by the video miniport driver.
 
 ### -field WriteDataLine
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a> function implemented by the video miniport driver.
+A pointer to the <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_write_data_line">WriteDataLine</a> function implemented by the video miniport driver.
 
 ### -field ReadClockLine
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_clock_line">ReadClockLine</a> function implemented by the video miniport driver.
+A pointer to the <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_clock_line">ReadClockLine</a> function implemented by the video miniport driver.
 
 ### -field ReadDataLine
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_data_line">ReadDataLine</a> function implemented by the video miniport driver.
+A pointer to the <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_read_data_line">ReadDataLine</a> function implemented by the video miniport driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_ddc_control">DDC_CONTROL</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_ddc_control">DDC_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">I2C Functions</a>
+<a href="/windows-hardware/drivers/ddi/index">I2C Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportddcmonitorhelper">VideoPortDDCMonitorHelper</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportddcmonitorhelper">VideoPortDDCMonitorHelper</a>

@@ -97,7 +97,7 @@ if (oldSwapEnable)
 }
 ```
 
-An event object must be memory-resident while it can be set to a signaled or nonsignaled state, or while a thread waits on the event. For more information, see [Defining and Using an Event Object](https://docs.microsoft.com/windows-hardware/drivers/kernel/defining-and-using-an-event-object).
+An event object must be memory-resident while it can be set to a signaled or nonsignaled state, or while a thread waits on the event. For more information, see [Defining and Using an Event Object](/windows-hardware/drivers/kernel/defining-and-using-an-event-object).
 
 Frequently, the use of the **KeSetKernelStackSwap** routine is unnecessary and can be avoided by allocating only pageable data items on the stack. In the previous example, the driver thread must lock the stack because the event object is allocated on the stack. A better alternative might be to simply allocate the event from nonpaged pool.
 
@@ -106,4 +106,3 @@ Frequently, the use of the **KeSetKernelStackSwap** routine is unnecessary and c
 [**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md)
 
 [**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)
-

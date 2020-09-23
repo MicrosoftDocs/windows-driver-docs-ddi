@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-A printer interface DLL's <b>DrvConvertDevMode</b> function converts a printer's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure from one version to another.
+A printer interface DLL's <b>DrvConvertDevMode</b> function converts a printer's <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure from one version to another.
 
 ## -parameters
 
@@ -118,4 +118,3 @@ The function should verify that both <i>pdmIn</i> and <i>pdmOut</i> (if applicab
 The <b>DrvConvertDevMode</b> function runs in the spooler's context and must therefore not display a user interface.
 
 When <b>DrvConvertDevMode</b> is called with a <b>NULL</b> DEVMODEW structure pointer in the <i>pdmOut </i>parameter to get the buffer size, the driver is expected to set the last error to ERROR_INSUFFICIENT_BUFFER. If the last error is not set to this value, the spooler assumes a general error.
-

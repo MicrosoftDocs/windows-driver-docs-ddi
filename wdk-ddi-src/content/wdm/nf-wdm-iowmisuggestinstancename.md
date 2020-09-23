@@ -58,7 +58,7 @@ If supplied, points to the driver's physical device object.
 ### -param SymbolicLinkName 
 
 [in, optional]
-If supplied, points to the symbolic link name returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>.
+If supplied, points to the symbolic link name returned from <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>.
 
 ### -param CombineNames 
 
@@ -68,7 +68,7 @@ If <b>TRUE</b> then the suggested names returned will combine the <i>PhysicalDev
 ### -param SuggestedInstanceName 
 
 [out]
-A pointer to a buffer which upon successful completion will contain a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
+A pointer to a buffer which upon successful completion will contain a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
 
 ## -returns
 
@@ -131,5 +131,4 @@ If the <i>CombineNames</i> parameter is <b>TRUE</b> then both <i>PhysicalDeviceO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiallocateinstanceids">IoWMIAllocateInstanceIds</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiallocateinstanceids">IoWMIAllocateInstanceIds</a>

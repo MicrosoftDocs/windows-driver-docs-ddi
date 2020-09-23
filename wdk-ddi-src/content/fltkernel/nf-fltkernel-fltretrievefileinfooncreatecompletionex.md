@@ -93,9 +93,8 @@ A minifilter must call **FltRequestFileInfoOnCreateCompletionEx** during file pr
 
 ## -see-also
 
-[ECP_LIST](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
+[ECP_LIST](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 
 [**FltRequestFileInfoOnCreateCompletion**](nf-fltkernel-fltrequestfileinfooncreatecompletion.md)
-

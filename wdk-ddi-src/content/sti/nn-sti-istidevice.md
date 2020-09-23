@@ -46,7 +46,6 @@ api_name:
 
 ## -description
 
-This section describes the methods defined for the [IStiDevice COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istidevice-com-interface). Method prototypes are contained in *Sti.h*.
+This section describes the methods defined for the [IStiDevice COM Interface](/windows-hardware/drivers/image/istidevice-com-interface). Method prototypes are contained in *Sti.h*.
 
 ## -inheritance
-

@@ -58,23 +58,23 @@ The D3DDDIARG_SETVERTEXSHADERCONST structure describes how to set vertex shader 
 
 ### -field Count
 
-[in] The number of constant registers to set and, therefore, the number of values in the array that is passed in the <i>pRegisters</i> parameter in the call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconst">SetVertexShaderConst</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconstb">SetVertexShaderConstB</a> function.
+[in] The number of constant registers to set and, therefore, the number of values in the array that is passed in the <i>pRegisters</i> parameter in the call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconst">SetVertexShaderConst</a>, <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a>, or <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconstb">SetVertexShaderConstB</a> function.
 
 ## -remarks
 
-The <b>Count</b> member specifies the following values, depending on the structure type that is used in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconst">SetVertexShaderConst</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconstb">SetVertexShaderConstB</a> function: 
+The <b>Count</b> member specifies the following values, depending on the structure type that is used in the call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconst">SetVertexShaderConst</a>, <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a>, or <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconstb">SetVertexShaderConstB</a> function: 
 
 <ul>
 <li>
-Four-element, single-precision float vectors for the D3DDDIARG_SETVERTEXSHADERCONST structure in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconst">SetVertexShaderConst</a> call.
+Four-element, single-precision float vectors for the D3DDDIARG_SETVERTEXSHADERCONST structure in the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconst">SetVertexShaderConst</a> call.
 
 </li>
 <li>
-Four-integer vectors for the D3DDDIARG_SETVERTEXSHADERCONSTI structure in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a> call.
+Four-integer vectors for the D3DDDIARG_SETVERTEXSHADERCONSTI structure in the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a> call.
 
 </li>
 <li>
-Boolean values for the D3DDDIARG_SETVERTEXSHADERCONSTB structure in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconstb">SetVertexShaderConstB</a> call.
+Boolean values for the D3DDDIARG_SETVERTEXSHADERCONSTB structure in the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconstb">SetVertexShaderConstB</a> call.
 
 </li>
 </ul>
@@ -87,13 +87,12 @@ typedef D3DDDIARG_SETVERTEXSHADERCONST D3DDDIARG_SETVERTEXSHADERCONSTB;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconst">SetVertexShaderConst</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconst">SetVertexShaderConst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconstb">SetVertexShaderConstB</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconstb">SetVertexShaderConstB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setvertexshaderconsti">SetVertexShaderConstI</a>

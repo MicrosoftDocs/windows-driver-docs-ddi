@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-This structure pairs the property keys listed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a> section with the data that each key represents.
+This structure pairs the property keys listed in the <a href="/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a> section with the data that each key represents.
 
 ## -struct-fields
 
 ### -field Key
 
-A property key that is associated with a sensor. For a list of the valid property keys, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>.
+A property key that is associated with a sensor. For a list of the valid property keys, see <a href="/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>.
 
 ### -field Value
 
@@ -80,4 +80,3 @@ The Value is one of the VT types (VARTYPE) that are supported by the sensor clas
 <li>VT_CLSID</li>
 <li>VT_LPWSTR</li>
 </ul>
-

@@ -60,7 +60,7 @@ None
 
 ### -output-buffer
 
-                A <b>DWORD</b> indicating the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_data_packet">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_HCE_DATA_PACKET</b> structure itself.
+                A <b>DWORD</b> indicating the size of the <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_data_packet">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_HCE_DATA_PACKET</b> structure itself.
 
 ### -output-buffer-length
 
@@ -109,4 +109,3 @@ The following are requirements that the driver must adhere to.
 <li>If the driver completes this IOCTL with STATUS_SUCCESS, the first DWORD [4 bytes] of the output buffer MUST contain the size of the SECURE_ELEMENT_HCE_DATA_PACKET structure plus its payload.</li>
 <li>If a received APDU data is too large to be copied into this IOCTL's output buffer, the driver MUST copy the required buffer size into the first 4 bytes of the output buffer, set the IOCTL's information field to sizeof(DWORD), and complete the IOCTL with STATUS_BUFFER_OVERFLOW. The APDU data must be left in the "Received" queue.</li>
 </ul>
-

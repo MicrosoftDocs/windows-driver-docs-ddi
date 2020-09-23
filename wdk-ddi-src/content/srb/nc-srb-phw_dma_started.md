@@ -58,11 +58,10 @@ Pointer to the miniport driver's per-HBA storage area.
 
 ## -remarks
 
-If the HBA is a subordinate DMA device, the SCSI miniport driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557291(v=vs.85)">HwScsiDmaStarted</a> routine is called after the OS-specific port driver has set up the system DMA controller for a DMA transfer.
+If the HBA is a subordinate DMA device, the SCSI miniport driver's <a href="/previous-versions/windows/hardware/drivers/ff557291(v=vs.85)">HwScsiDmaStarted</a> routine is called after the OS-specific port driver has set up the system DMA controller for a DMA transfer.
 
 Miniport drivers that work with the StorPort driver do not support adapters that require subordinate DMA.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557291(v=vs.85)">HwScsiDmaStarted</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff557291(v=vs.85)">HwScsiDmaStarted</a>

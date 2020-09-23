@@ -53,17 +53,16 @@ A streaming minidriver's *KStrItemFreeCallback* routine is called to free a prev
 ### -param CreateItem 
 
 [in]
-Specifies a create item that was previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectcreateitem">KsAllocateObjectCreateItem</a>.
+Specifies a create item that was previously allocated by <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectcreateitem">KsAllocateObjectCreateItem</a>.
 
 ## -remarks
 
-The *Context* parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a> structure must contain sufficient information to perform cleanup for the create item.
+The *Context* parameter of the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a> structure must contain sufficient information to perform cleanup for the create item.
 
 The *Flags* member of the KSOBJECT_CREATE_ITEM structure indicates if it is necessary to flush security descriptor changes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectcreateitem">KsAllocateObjectCreateItem</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectcreateitem">KsAllocateObjectCreateItem</a>

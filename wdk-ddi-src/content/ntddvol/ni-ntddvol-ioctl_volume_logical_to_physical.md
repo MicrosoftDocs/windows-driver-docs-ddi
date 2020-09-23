@@ -48,7 +48,7 @@ api_name:
 
 Returns physical offsets and physical disk numbers for a given volume logical offset. 
 
-For example, a logical volume offset inside a mirrored volume with two <a href="https://docs.microsoft.com/windows-hardware/drivers/">plex</a> corresponds to two physical offsets, one in each of the two disks participating in the mirror. In response to this IOCTL, the volume manager returns two physical offsets and two physical disk numbers for the logical volume offset. 
+For example, a logical volume offset inside a mirrored volume with two <a href="/windows-hardware/drivers/">plex</a> corresponds to two physical offsets, one in each of the two disks participating in the mirror. In response to this IOCTL, the volume manager returns two physical offsets and two physical disk numbers for the logical volume offset. 
 
 The volume manager supports this IOCTL for all types of basic and dynamic volumes.
 
@@ -56,7 +56,7 @@ The volume manager supports this IOCTL for all types of basic and dynamic volume
 
 ### -input-buffer
 
-Caller inserts the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a> structure containing the logical offset at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+Caller inserts the <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a> structure containing the logical offset at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -input-buffer-length
 
@@ -65,7 +65,7 @@ Caller inserts the <a href="https://docs.microsoft.com/windows-hardware/drivers/
 
 ### -output-buffer
 
-The output buffer size must be large enough to hold the structure <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offsets">VOLUME_PHYSICAL_OFFSETS</a>, which contains a variable-length array of structures of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a>. 
+The output buffer size must be large enough to hold the structure <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offsets">VOLUME_PHYSICAL_OFFSETS</a>, which contains a variable-length array of structures of type <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a>. 
 
 The volume manager returns one or more physical offsets and disk numbers in the VOLUME_PHYSICAL_OFFSETS structure at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
@@ -97,17 +97,16 @@ The input buffer is too small.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_physical_to_logical">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
+<a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_physical_to_logical">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a>
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a>
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offsets">VOLUME_PHYSICAL_OFFSETS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offsets">VOLUME_PHYSICAL_OFFSETS</a>

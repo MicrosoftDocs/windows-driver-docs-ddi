@@ -50,10 +50,10 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_DISASSOCIATION_PARAMETERS structure specifies the results of the disassociation operation
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_DISASSOCIATION_PARAMETERS structure specifies the results of the disassociation operation
   performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11
   miniport driver includes a DOT11_ASSOCIATION_DISASSOCIATION_PARAMETERS structure when the driver makes an
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+  <a href="/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
   NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication.
 
 ## -struct-fields
@@ -105,13 +105,13 @@ If the miniport driver sets
 ### -field uReason
 
 The reason for the disassociation formatted as a
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a> value.
+     <a href="/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a> value.
 
 ### -field uIHVDataOffset
 
 The offset of a block of data in a proprietary format that is defined by the IHV. The IHV can use
       this data block for any purposes that are related to the
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+      <a href="/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
       NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication.
 
 This offset is relative to the start of the buffer, which contains the
@@ -124,7 +124,7 @@ If the miniport driver is not returning IHV data in the
 ### -field uIHVDataSize
 
 The length of the block of data that is used by the IHV for the
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+     <a href="/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
      NDIS_STATUS_DOT11_DISASSOCIATION</a> status indication. If the miniport driver is not returning IHV
      data in this indication, it must set
      <b>uIHVDataSize</b> to zero.
@@ -144,18 +144,17 @@ typedef struct DOT11_DISASSOCIATION_PARAMETERS {
 ## -remarks
 
 For more information about the disassociation operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/disassociation-operations">Disassociation Operations</a>.
+    <a href="/windows-hardware/drivers/network/disassociation-operations">Disassociation Operations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a>
+<a href="/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-

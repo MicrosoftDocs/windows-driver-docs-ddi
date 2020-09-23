@@ -98,12 +98,11 @@ To write a WDTF scenario, you must understand both the syntax and the semantics 
 requested action interface. 
 
 For more information about the <b>GetInterface</b> method, 
-see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/controlling-targets">Controlling Targets</a>.
+see <a href="/windows-hardware/drivers/wdtf/controlling-targets">Controlling Targets</a>.
 
 For detailed descriptions of the interfaces that WDTF includes, 
-see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Action Interfaces</a>.
+see <a href="/windows-hardware/drivers/ddi/index">Action Interfaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>

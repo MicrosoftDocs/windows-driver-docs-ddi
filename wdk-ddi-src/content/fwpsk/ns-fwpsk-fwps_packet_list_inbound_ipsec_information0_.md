@@ -50,7 +50,7 @@ api_name:
 
 The <b>FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</b> structure defines IPsec information associated with
   inbound packet data.
-<div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -86,11 +86,10 @@ A value that indicates whether the packet list has been detunneled by IPsec.
 ## -remarks
 
 An FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure is included as a member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
+    <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
     FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
-

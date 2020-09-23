@@ -68,5 +68,4 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivergetregistrypath">WdfDriverGetRegistryPath</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivergetregistrypath">WdfDriverGetRegistryPath</a>

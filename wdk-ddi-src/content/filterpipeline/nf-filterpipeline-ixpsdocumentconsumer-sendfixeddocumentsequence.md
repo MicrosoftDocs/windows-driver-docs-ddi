@@ -61,5 +61,4 @@ A pointer to an XPS fixed document sequence object.
 
 ## -remarks
 
-Only one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixeddocumentsequence">IFixedDocumentSequence</a> interface can be sent. The <code>SendFixedDocumentSequence</code> method will fail if a filter submits more than one such interface for the same print job.
-
+Only one <a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ifixeddocumentsequence">IFixedDocumentSequence</a> interface can be sent. The <code>SendFixedDocumentSequence</code> method will fail if a filter submits more than one such interface for the same print job.

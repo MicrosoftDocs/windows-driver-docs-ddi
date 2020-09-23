@@ -67,7 +67,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfChildListUpdateAllChildDescriptionsAsPresent</b> method is available in version 1.0 and later versions of KMDF.
 
-For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child lists, see <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples
@@ -77,4 +77,3 @@ The following code example informs the framework that all of the devices that a 
 ```cpp
 WdfChildListUpdateAllChildDescriptionsAsPresent(DeviceList);
 ```
-

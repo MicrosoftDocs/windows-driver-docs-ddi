@@ -105,9 +105,8 @@ The first element of the buffer pointed to by <b>Mdl</b> must be a unit director
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff537204(v=vs.85)">IEEE1394_API_REQUEST</a>
+<a href="/previous-versions/ff537204(v=vs.85)">IEEE1394_API_REQUEST</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
-

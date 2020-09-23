@@ -60,5 +60,4 @@ Pointer to a file object for the file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetfileobjectignoresharing">IoSetFileObjectIgnoreSharing</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetfileobjectignoresharing">IoSetFileObjectIgnoreSharing</a>

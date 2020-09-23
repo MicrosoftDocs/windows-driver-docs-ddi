@@ -180,5 +180,4 @@ Indicates that the device does not conform to any profile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_profile_list">FEATURE_DATA_PROFILE_LIST</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_profile_list">FEATURE_DATA_PROFILE_LIST</a>

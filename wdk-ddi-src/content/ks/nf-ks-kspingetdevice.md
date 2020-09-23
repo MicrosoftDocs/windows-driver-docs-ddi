@@ -53,29 +53,28 @@ The<b> KsPinGetDevice </b>function returns the AVStream device to which <i>Pin</
 ### -param Pin 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin for which to return the owning AVStream device.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin for which to return the owning AVStream device.
 
 ## -returns
 
-<b>KsPinGetDevice </b>returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device to which <i>Pin</i> belongs.
+<b>KsPinGetDevice </b>returns a pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device to which <i>Pin</i> belongs.
 
 ## -remarks
 
-This call is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetdevice">KsGetDevice</a>.
+This call is an inline function call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetdevice">KsGetDevice</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetdevice">KsGetDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetdevice">KsGetDevice</a>

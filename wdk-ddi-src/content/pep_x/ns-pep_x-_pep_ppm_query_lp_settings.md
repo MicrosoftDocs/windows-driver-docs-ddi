@@ -60,11 +60,10 @@ The <b>PEP_PPM_QUERY_LP_SETTINGS</b> structure contains a kernel handle to the r
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_lp_settings">PEP_NOTIFY_PPM_QUERY_LP_SETTINGS</a> notification. The <b>RegistryRoot</b> member contains an output value that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_lp_settings">PEP_NOTIFY_PPM_QUERY_LP_SETTINGS</a> notification. The <b>RegistryRoot</b> member contains an output value that the PEP writes to the structure in response to this notification.
 
 The PEP can provide settings for certain key power scenarios such as full-screen video playback and connected standby that have unique characteristics that can benefit from specially tuned power policies that are different from the default settings used by Windows. The PEP loads the settings for such a power scenario into the registry and passes the registry key for these settings to the operating system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_lp_settings">PEP_NOTIFY_PPM_QUERY_LP_SETTINGS</a>
-
+<a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_ppm_query_lp_settings">PEP_NOTIFY_PPM_QUERY_LP_SETTINGS</a>

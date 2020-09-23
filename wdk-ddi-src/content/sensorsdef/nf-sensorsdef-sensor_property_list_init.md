@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a> structure.
+This function initializes a <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a> structure.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ The size of pPropertyList.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>
-
+<a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>

@@ -56,7 +56,7 @@ The **KSJACK_SINK_INFORMATION** structure specifies information about a display-
 
 ### -field ConnType
 
-Specifies the connection type of the sink. This parameter is an enumeration of type [KSJACK_SINK_CONNECTIONTYPE](https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-ksjack_sink_connectiontype).
+Specifies the connection type of the sink. This parameter is an enumeration of type [KSJACK_SINK_CONNECTIONTYPE](/windows/win32/api/devicetopology/ne-devicetopology-ksjack_sink_connectiontype).
 
 ### -field ManufacturerId
 
@@ -92,5 +92,4 @@ Reserved.
 
 ## -see-also
 
-[LUID](https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid)
-
+[LUID](../igpupvdev/ns-igpupvdev-_luid.md)

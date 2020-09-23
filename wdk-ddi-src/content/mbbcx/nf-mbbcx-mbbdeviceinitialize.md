@@ -66,7 +66,6 @@ This method might return failure in low resource situations.
 
 The client driver must call this method after it calls [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md) from within [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md). 
 
-For more information, see [Initialize the device](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#initialize-the-device).
+For more information, see [Initialize the device](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#initialize-the-device).
 
 ## -see-also
-

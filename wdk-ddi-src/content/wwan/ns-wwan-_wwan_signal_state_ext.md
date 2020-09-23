@@ -51,7 +51,7 @@ api_name:
 
 The **WWAN_SIGNAL_STATE_EXT** structure represents an extension to the signal state of the MB device. In Windows 10, version 1903 and later, [**WWAN_SIGNAL_STATE_EX**](../wwan/ns-wwan-_wwan_signal_state.md) contains primary information about the signal state of the device, including an array of **WWAN_SIGNAL_STATE_EXT** structures that contain signal state information specific to 5G.
 
-For more info about 5G data class support, see [MB 5G data class support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-5g-data-class-support).
+For more info about 5G data class support, see [MB 5G data class support](/windows-hardware/drivers/network/mb-5g-data-class-support).
 
 ## -struct-fields
 
@@ -132,4 +132,3 @@ Indicates the data class for which the parameters are valid. Only if either **WW
 
  
 [**WWAN_SIGNAL_STATE**](../wwan/ns-wwan-_wwan_signal_state.md)
-

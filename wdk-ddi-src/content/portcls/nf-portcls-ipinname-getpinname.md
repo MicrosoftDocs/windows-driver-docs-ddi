@@ -71,7 +71,7 @@ The <code>GetPinName</code> method returns STATUS_SUCCESS if the call was succes
 
 ## -remarks
 
-If a client needs the current pin name of an endpoint, but has determined that the miniport driver does not support the <code>GetPinName</code> method, the client uses the friendly name of the topology bridge pin. For more information about pin categories and friendly names, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/friendly-names-for-audio-endpoint-devices">Friendly Names for Audio Endpoint Devices</a>. 
+If a client needs the current pin name of an endpoint, but has determined that the miniport driver does not support the <code>GetPinName</code> method, the client uses the friendly name of the topology bridge pin. For more information about pin categories and friendly names, see <a href="/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a> and <a href="/windows-hardware/drivers/audio/friendly-names-for-audio-endpoint-devices">Friendly Names for Audio Endpoint Devices</a>. 
 
 <div class="alert"><b>Note</b>   In Windows 7, the user-mode audio stack does not support customization of the Speakers endpoint name. So in Windows 7, the <code>GetPinName</code> method only works with endpoints that do not have the Speakers friendly name. The following list shows the KS node type categories that are assigned the Speakers friendly name:<dl>
 <dd>
@@ -96,13 +96,12 @@ KSNODETYPE_LOW_FREQUENCY_EFFECTS_SPEAKER
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/friendly-names-for-audio-endpoint-devices">Friendly Names for Audio Endpoint Devices</a>
+<a href="/windows-hardware/drivers/audio/friendly-names-for-audio-endpoint-devices">Friendly Names for Audio Endpoint Devices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-ipinname">IPinName</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-ipinname">IPinName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>
-
+<a href="/windows-hardware/drivers/audio/pin-category-property">Pin Category Property</a>

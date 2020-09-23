@@ -87,21 +87,20 @@ RX metadata.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-frame-id">WDI_FRAME_ID</a>
+<a href="/windows-hardware/drivers/network/wdi-frame-id">WDI_FRAME_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_rx_metadata">WDI_RX_METADATA</a>
+<a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_rx_metadata">WDI_RX_METADATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_tx_metadata">WDI_TX_METADATA</a>
-
+<a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_tx_metadata">WDI_TX_METADATA</a>

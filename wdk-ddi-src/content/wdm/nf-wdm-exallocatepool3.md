@@ -80,9 +80,8 @@ The following conditions cause the function to return NULL by default. If **POOL
 
 If you are building a driver that targets versions of Windows prior to Windows 10, version 2004, use [**ExAllocatePoolPriorityZero**](nf-wdm-exallocatepoolpriorityzero.md) or [**ExAllocatePoolPriorityUninitialized**](nf-wdm-exallocatepoolpriorityuninitialized.md).
 
-See the remarks of [**ExAllocatePool2**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepool2) for additional information.
+See the remarks of [**ExAllocatePool2**](./nf-wdm-exallocatepool2.md) for additional information.
 
 ## -see-also
 
 [**ExAllocatePool2**](nf-wdm-exallocatepool2.md)
-

@@ -53,7 +53,7 @@ The _BRB_ACL_GET_MODE structure describes the ACL mode for the specified remote 
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field BtAddress
@@ -63,24 +63,23 @@ The address of the remote device.
 ### -field AclMode
 
 A value from the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_acl_mode">ACL_MODE</a> enumeration that specifies the ACL mode of
+     <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_acl_mode">ACL_MODE</a> enumeration that specifies the ACL mode of
      the remote device.
 
 ## -remarks
 
 To get the current ACL connection state for a remote device, profile drivers should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/previous-versions/ff536609(v=vs.85)">BRB_ACL_GET_MODE</a> request.
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/previous-versions/ff536609(v=vs.85)">BRB_ACL_GET_MODE</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_acl_mode">ACL_MODE</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_acl_mode">ACL_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536609(v=vs.85)">BRB_ACL_GET_MODE</a>
+<a href="/previous-versions/ff536609(v=vs.85)">BRB_ACL_GET_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>

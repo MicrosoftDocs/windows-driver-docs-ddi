@@ -59,7 +59,7 @@ Specifies the stream that sets the timer, or **NULL** if the timer is set for th
 ### -param HwDeviceExtension 
 
 [in]
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block), [HW_STREAM_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object), [HW_TIME_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context), and [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the [HW_INITIALIZATION_DATA](./ns-strmini-_hw_initialization_data.md) structure it passes when it registers itself via [StreamClassRegisterMinidriver](./nf-strmini-streamclassregisteradapter.md). The class driver then passes pointers to the buffer in the **HwDeviceExtension** member of the [HW_STREAM_REQUEST_BLOCK](./ns-strmini-_hw_stream_request_block.md), [HW_STREAM_OBJECT](./ns-strmini-_hw_stream_object.md), [HW_TIME_CONTEXT](./ns-strmini-_hw_time_context.md), and [PORT_CONFIGURATION_INFORMATION](./ns-strmini-_port_configuration_information.md) structures it passes to the minidriver.
 
 ### -param NumberOfMicroseconds 
 
@@ -83,4 +83,3 @@ Pointer to a context that the class driver passes to the callback routine once t
 ## -returns
 
 None
-

@@ -60,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information.
 
 ## -returns
 
@@ -69,7 +69,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The authenticated channel is successfully configured. | 
-| **E_OUTOFMEMORY** | [ConfigureAuthenticatedChannel](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel)  could not allocate the required memory for it to complete. |
+| **E_OUTOFMEMORY** | [ConfigureAuthenticatedChannel]()  could not allocate the required memory for it to complete. |
 
 ## -remarks
 
@@ -77,7 +77,7 @@ The input buffer contains a One-key Cipher Block Chaining (CBC)-mode message aut
 
 The driver should fail <b>ConfigureAuthenticatedChannel</b> if the input OMAC does not match, if the sequence number is not greater than a sequence number that was specified in a previous call, or if the sequence number has not yet been initialized (the exception to this last rule is for the initialization call itself). 
 
-The driver should duplicate the input data in the structure of the output buffer and should sign the output structure identically to how it currently handles <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-output-protection-manager">Output Protection Manager</a> (OPM) queries.
+The driver should duplicate the input data in the structure of the output buffer and should sign the output structure identically to how it currently handles <a href="/windows-hardware/drivers/display/supporting-output-protection-manager">Output Protection Manager</a> (OPM) queries.
 
 Except for those situations in which the application incorrectly specifies an output buffer that is too small, the driver should always place the return code in the output structure. Therefore, the application has a secure mechanism to determine the return code. 
 
@@ -85,5 +85,4 @@ Except for those situations in which the application incorrectly specifies an ou
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a>

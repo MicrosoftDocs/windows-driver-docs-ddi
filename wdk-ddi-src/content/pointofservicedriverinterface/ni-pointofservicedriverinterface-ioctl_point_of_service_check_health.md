@@ -52,7 +52,7 @@ This I/O control function checks the device health.
 
 ### -input-buffer
 
-Pointer to the input buffer, a [UnifiedPosHealthCheckLevel](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposhealthchecklevel) variable.
+Pointer to the input buffer, a [UnifiedPosHealthCheckLevel](../pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposhealthchecklevel.md) variable.
 
 ### -input-buffer-length
 
@@ -60,7 +60,7 @@ Size of the input buffer, in bytes. Set to sizeof(*UnifiedPosHealthCheckLevel*).
 
 ### -output-buffer
 
-Pointer to a buffer that receives a [PosStringType](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstringtype) followed by the contents of the health string.
+Pointer to a buffer that receives a [PosStringType](./ns-pointofservicedriverinterface-_posstringtype.md) followed by the contents of the health string.
 
 ### -output-buffer-length
 
@@ -76,7 +76,6 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
 ## -remarks
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
 
 - STATUS_NOT_SUPPORTED: The driver does not provide health strings.
-

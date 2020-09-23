@@ -59,14 +59,13 @@ A handle to a UCXENDPOINT object that represents the endpoint.
 
 ## -remarks
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
  method.
 
-Before completing the URB associated with the transfer, the client driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointneedtocanceltransfers">UcxEndpointNeedToCancelTransfers</a>
+Before completing the URB associated with the transfer, the client driver calls <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointneedtocanceltransfers">UcxEndpointNeedToCancelTransfers</a>
 and then waits for UCX to call this function. Then the client driver can complete the URB with <b>STATUS_CANCELLED</b>.
 
 <div class="alert"><b>Note</b>  If GUID_USB_CAPABILITY_CLEAR_TT_BUFFER_ON_ASYNC_TRANSFER_CANCEL capability
     is supported, the hub driver may send a control transfer to
     clear the TT (Transaction Translator) buffer before UCX calls this function.</div>
 <div> </div>
-

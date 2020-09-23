@@ -54,11 +54,11 @@ The <b>EndEnumTagged</b> method releases the resources used by the specified enu
 ### -param Handle 
 
 [in]
-Specifies the handle identifying the enumeration.  This is the handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-startenumtagged">StartEnumTagged</a>.
+Specifies the handle identifying the enumeration.  This is the handle returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-startenumtagged">StartEnumTagged</a>.
 
 ## -returns
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -81,4 +81,3 @@ The method was successful.
 ## -remarks
 
 After a handle has been passed to this method it is no longer valid and must not be used again.
-

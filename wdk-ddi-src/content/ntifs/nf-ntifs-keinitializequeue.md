@@ -134,33 +134,32 @@ Usually the caller of <b>KeInitializeQueue</b> also creates a set of dedicated t
 
 <b>KeInitializeQueue</b> sets the queue object's initial signal state to Not Signaled.
 
-For more information about using driver-managed internal queues, see [Driver-Managed IRP Queues](https://docs.microsoft.com/windows-hardware/drivers/kernel/driver-managed-irp-queues).
+For more information about using driver-managed internal queues, see [Driver-Managed IRP Queues](/windows-hardware/drivers/kernel/driver-managed-irp-queues).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keinsertqueue">KeInsertQueue</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keinsertqueue">KeInsertQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keremovequeue">KeRemoveQueue</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keremovequeue">KeRemoveQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kerundownqueue">KeRundownQueue</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kerundownqueue">KeRundownQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>

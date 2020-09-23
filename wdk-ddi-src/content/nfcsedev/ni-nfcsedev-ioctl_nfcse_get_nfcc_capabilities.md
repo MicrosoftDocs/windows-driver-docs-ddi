@@ -61,7 +61,7 @@ None
 
 ### -output-buffer
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_nfcc_capabilities"> SECURE_ELEMENT_NFCC_CAPABILITIES</a> containing NFC controller capabilities.
+<a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_nfcc_capabilities"> SECURE_ELEMENT_NFCC_CAPABILITIES</a> containing NFC controller capabilities.
 
 ### -output-buffer-length
 
@@ -93,4 +93,3 @@ sizeof(SECURE_ELEMENT_NFCC_CAPABILITIES)
 <td>If the IOCTL is sent on a handle other than with the relative name 'SEManage'.</td>
 </tr>
 </table>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The MONITORINIT structure is used as an input parameter to a print monitor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor2">InitializePrintMonitor2</a> function.
+The MONITORINIT structure is used as an input parameter to a print monitor's <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor2">InitializePrintMonitor2</a> function.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Registry handle, for use as input to functions identified by the MONITORREG stru
 
 ### -field pMonitorReg
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorreg">MONITORREG</a> structure.
+Pointer to a <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorreg">MONITORREG</a> structure.
 
 ### -field bLocal
 
@@ -80,9 +80,8 @@ Caller-supplied pointer to a string representing a server name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor2">InitializePrintMonitor2</a>
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor2">InitializePrintMonitor2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorreg">MONITORREG</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorreg">MONITORREG</a>

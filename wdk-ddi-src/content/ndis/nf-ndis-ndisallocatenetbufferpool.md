@@ -49,7 +49,7 @@ api_name:
 
 Call the
   <b>NdisAllocateNetBufferPool</b> function to allocate a pool of 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
+  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures.
 
 ## -parameters
 
@@ -83,7 +83,7 @@ This structure includes the following members:
 #### Header
 
 The 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+       <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
        NET_BUFFER_POOL_PARAMETERS structure. Set the 
        <b>Type</b> member of the structure that 
        <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -95,7 +95,7 @@ The
 #### PoolTag
 
 A kernel pool tag that the caller uses when it allocates 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures from this pool. The tag
+       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures from this pool. The tag
        is a string, delimited by single quotation marks, with up to four characters, usually specified in
        reverse order. The kernel pool tag helps NDIS to identify the owner of the NET_BUFFER structures that
        are allocated from this pool.
@@ -106,7 +106,7 @@ A kernel pool tag that the caller uses when it allocates
 
 The default data size for data buffers associated with this pool. The caller must set this value
        if it calls the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffermdlanddata">
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffermdlanddata">
        NdisAllocateNetBufferMdlAndData</a> function. NDIS uses this value to set the size of the data
        buffer that it allocates for the NET_BUFFER structure. If the caller does not use this feature, this
        value should be set to zero.
@@ -120,20 +120,20 @@ The default data size for data buffers associated with this pool. The caller mus
 ## -remarks
 
 Call the following functions to allocate 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures from the NET_BUFFER
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures from the NET_BUFFER
     structure pool.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffer">NdisAllocateNetBuffer</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffer">NdisAllocateNetBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffermdlanddata">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffermdlanddata">
        NdisAllocateNetBufferMdlAndData</a>
 
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures must be allocated
+<div class="alert"><b>Note</b>  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> and 
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures must be allocated
     from an NDIS buffer pool. A driver must not allocate and initialize a NET_BUFFER or NET_BUFFER_LIST
     structure from its private memory pool or the stack.</div>
 <div> </div>
@@ -146,35 +146,34 @@ You can call
 MDL and data buffers that are allocated with 
     <b>NdisAllocateNetBufferMdlAndData</b> should not be freed separate from the NET_BUFFER structure. Such
     structures are freed with the NET_BUFFER structure when you call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a> function.
 
 Call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferpool">NdisFreeNetBufferPool</a> function to
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferpool">NdisFreeNetBufferPool</a> function to
     free NET_BUFFER structure pools that are created with 
     <b>NdisAllocateNetBufferPool</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffer">NdisAllocateNetBuffer</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffer">NdisAllocateNetBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffermdlanddata">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatenetbuffermdlanddata">
    NdisAllocateNetBufferMdlAndData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbuffer">NdisFreeNetBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferpool">NdisFreeNetBufferPool</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferpool">NdisFreeNetBufferPool</a>

@@ -80,9 +80,8 @@ An upper-layer driver can specify a generic WOL pattern with the **Pattern** mem
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT**](../netwakesource/nf-netwakesource-net_wake_source_bitmap_parameters_init.md)
 
 [**NetWakeSourceGetBitmapParameters**](../netwakesource/nf-netwakesource-netwakesourcegetbitmapparameters.md)
-

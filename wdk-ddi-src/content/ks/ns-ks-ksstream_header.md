@@ -63,7 +63,7 @@ Specifies flags that are specific to a data format. The only flag currently supp
 
 ### -field PresentationTime
 
-A [KSTIME](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstime) structure that specifies the presentation time for the related stream buffer in 100-nanosecond units. For more information, see the **Remarks** section.
+A [KSTIME](./ns-ks-kstime.md) structure that specifies the presentation time for the related stream buffer in 100-nanosecond units. For more information, see the **Remarks** section.
 
 ### -field Duration
 
@@ -75,7 +75,7 @@ Specifies the size of the entire frame. The region within the frame extent is av
 
 ### -field DataUsed
 
-For a write operation, this member specifies the number of bytes within the frame that are valid when submitting a frame to a lower-level driver. The headers are not modified on a write operation; however, the **Information** member of the IO_STATUS_BLOCK structure contains the total number of bytes actually written. For a read operation, this member is not used when submitting a frame to a lower-level driver and must be set to zero. On return, this member contains the number of bytes actually filled in this frame and the **Information** member of the IO_STATUS_BLOCK structure contains the size of the list of headers actually used. Note that if the minidriver specifies KSPIN_FLAG_GENERATE_MAPPINGS in [KSPIN_DESCRIPTOR_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex), when a stream pointer is advanced past a frame, **DataUsed** is set to **Count** minus **Remaining** (members of [KSSTREAM_POINTER_OFFSET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer_offset)). If the driver does not specify this flag, the minidriver is responsible for setting **DataUsed**.
+For a write operation, this member specifies the number of bytes within the frame that are valid when submitting a frame to a lower-level driver. The headers are not modified on a write operation; however, the **Information** member of the IO_STATUS_BLOCK structure contains the total number of bytes actually written. For a read operation, this member is not used when submitting a frame to a lower-level driver and must be set to zero. On return, this member contains the number of bytes actually filled in this frame and the **Information** member of the IO_STATUS_BLOCK structure contains the size of the list of headers actually used. Note that if the minidriver specifies KSPIN_FLAG_GENERATE_MAPPINGS in [KSPIN_DESCRIPTOR_EX](./ns-ks-_kspin_descriptor_ex.md), when a stream pointer is advanced past a frame, **DataUsed** is set to **Count** minus **Remaining** (members of [KSSTREAM_POINTER_OFFSET](./ns-ks-_ksstream_pointer_offset.md)). If the driver does not specify this flag, the minidriver is responsible for setting **DataUsed**.
 
 ### -field Data
 
@@ -99,8 +99,8 @@ Specifies a variety of attributes of the data stream. The **OptionsFlags** membe
 | KSSTREAM_HEADER_OPTIONSF_SPLICEPOINT | The data stream is at a natural point for splicing. A client uses this, for example, when sending data that uses inter-frame compression, such as MPEG video, to indicate that it is safe to splice at this point. |
 | KSSTREAM_HEADER_OPTIONSF_TIMEDISCONTINUITY | There is a discontinuity in the data stream after this packet. This flag can be used for positional oriented interfaces to indicate an end of stream data. No actual data buffer need be attached. |
 | KSSTREAM_HEADER_OPTIONSF_TIMEVALID | Specifies that the **PresentationTime** member of this structure is valid. Indicates that this buffer has a valid timestamp associated with it. |
-| KSSTREAM_HEADER_OPTIONSF_TYPECHANGED | Signifies that the data format for this stream has changed. If this flag is set, the **Data** member contains a [KSDATAFORMAT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat) structure that contains the new format. This flag is valid only for streams that have previously negotiated dynamic type changing. For a write operation, include the new data format in place of a media sample. If the media-specific extension size is modified, this header must be the last header in a list of headers for the given stream request. During a read request, any further I/O remains pending until the new format is retrieved through KSPROPERTY_CONNECTION_DATAFORMAT. For a write operation, the header must not be extended, and must be the only header in the write operation. |
-| KSSTREAM_HEADER_OPTIONSF_VRAM_DATA_TRANSFER | Specifies that the stream header's *Data* member points to a structure of type [VRAM_SURFACE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-vram_surface_info). The system-supplied KS proxy module sets this flag to indicate that it is [capturing directly to VRAM](https://docs.microsoft.com/windows-hardware/drivers/stream/vram-capture-properties). |
+| KSSTREAM_HEADER_OPTIONSF_TYPECHANGED | Signifies that the data format for this stream has changed. If this flag is set, the **Data** member contains a [KSDATAFORMAT](./ns-ks-ksdataformat.md) structure that contains the new format. This flag is valid only for streams that have previously negotiated dynamic type changing. For a write operation, include the new data format in place of a media sample. If the media-specific extension size is modified, this header must be the last header in a list of headers for the given stream request. During a read request, any further I/O remains pending until the new format is retrieved through KSPROPERTY_CONNECTION_DATAFORMAT. For a write operation, the header must not be extended, and must be the only header in the write operation. |
+| KSSTREAM_HEADER_OPTIONSF_VRAM_DATA_TRANSFER | Specifies that the stream header's *Data* member points to a structure of type [VRAM_SURFACE_INFO](../ksmedia/ns-ksmedia-vram_surface_info.md). The system-supplied KS proxy module sets this flag to indicate that it is [capturing directly to VRAM](/windows-hardware/drivers/stream/vram-capture-properties). |
 | KSSTREAM_HEADER_OPTIONSF_BUFFEREDTRANSFER | Specifies that the *Data* member of KSSTREAM_HEADER contains a kernel-mode copy of the original buffer. Ksproxy sets this flag for small data transfers during WVDDM (Windows Vista Display Driver Model) capture. If this flag is not set, KS uses direct I/O into the *Data* buffer. |
 
 ### -field Reserved
@@ -129,9 +129,8 @@ On an IOCTL_KS_READ_STREAM, portions of the stream header are filled in by the c
 
 On an IOCTL_KS_WRITE_STREAM, the member elements must be initialized, and each KSSTREAM_HEADER.DataUsed element contains the number of bytes to write. The actual number of total bytes written is returned in pIrp->IoStatus.Information. This is less than or equal to the total of all KSSTREAM_HEADER.DataUsed elements in the headers.
 
-If you are using the [IKsReferenceClock](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nn-ks-iksreferenceclock) interface to obtain timestamps to place in the **PresentationTime** member of KSSTREAM_HEADER, see [AVStream Clocks](https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-clocks) for more information.
+If you are using the [IKsReferenceClock](./nn-ks-iksreferenceclock.md) interface to obtain timestamps to place in the **PresentationTime** member of KSSTREAM_HEADER, see [AVStream Clocks](/windows-hardware/drivers/stream/avstream-clocks) for more information.
 
 ## -see-also
 
-[KSDATAFORMAT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat)
-
+[KSDATAFORMAT](./ns-ks-ksdataformat.md)

@@ -68,9 +68,8 @@ The operation executes a device command.
 
 ## -remarks
 
-Applications that submit IOCTL_SFFDISK_DEVICE_COMMAND requests to the SD stack use this enumeration to specify the type of operation. The application must assign one of the values of this enumeration to the <b>Command</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538133(v=vs.85)">SFFDISK_DEVICE_COMMAND_DATA</a> structure.
+Applications that submit IOCTL_SFFDISK_DEVICE_COMMAND requests to the SD stack use this enumeration to specify the type of operation. The application must assign one of the values of this enumeration to the <b>Command</b> member of the <a href="/previous-versions/windows/hardware/drivers/ff538133(v=vs.85)">SFFDISK_DEVICE_COMMAND_DATA</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538133(v=vs.85)">SFFDISK_DEVICE_COMMAND_DATA</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff538133(v=vs.85)">SFFDISK_DEVICE_COMMAND_DATA</a>

@@ -54,13 +54,13 @@ api_name:
 An ACCESS_RANGE describes a memory or I/O port range used by an HBA.
 
 > [!NOTE]
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -struct-fields
 
 ### -field RangeStart
 
-Contains an address of type [SCSI_PHYSICAL_ADDRESS](https://docs.microsoft.com/previous-versions/ff565350(v=vs.85)) that specifies the bus-relative base address of the range. This is an address that can be passed into [ScsiPortGetDeviceBase](https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase).
+Contains an address of type [SCSI_PHYSICAL_ADDRESS](/previous-versions/ff565350(v=vs.85)) that specifies the bus-relative base address of the range. This is an address that can be passed into [ScsiPortGetDeviceBase](../srb/nf-srb-scsiportgetdevicebase.md).
 
 ### -field RangeLength
 
@@ -98,15 +98,14 @@ The corresponding base logical address returned by **ScsiPortGetDeviceBase** sho
 
 ## -see-also
 
-[PORT_CONFIGURATION_INFORMATION (SCSI)](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information)
+[PORT_CONFIGURATION_INFORMATION (SCSI)](./ns-strmini-_port_configuration_information.md)
 
-[ScsiPortGetBusData](https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetbusdata)
+[ScsiPortGetBusData](../srb/nf-srb-scsiportgetbusdata.md)
 
-[ScsiPortGetDeviceBase](https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase)
+[ScsiPortGetDeviceBase](../srb/nf-srb-scsiportgetdevicebase.md)
 
-[ScsiPortValidateRange](https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportvalidaterange)
+[ScsiPortValidateRange](../srb/nf-srb-scsiportvalidaterange.md)
 
-[ScsiPortConvertUlongToPhysicalAddress](https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportconvertulongtophysicaladdress)
+[ScsiPortConvertUlongToPhysicalAddress](../srb/nf-srb-scsiportconvertulongtophysicaladdress.md)
 
-[HwScsiFindAdapter](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300(v=vs.85))
-
+[HwScsiFindAdapter](/previous-versions/windows/hardware/drivers/ff557300(v=vs.85))

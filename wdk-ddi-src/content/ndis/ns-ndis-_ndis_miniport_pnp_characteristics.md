@@ -58,7 +58,7 @@ The NDIS_MINIPORT_PNP_CHARACTERISTICS structure specifies entry points for funct
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_MINIPORT_PNP_CHARACTERISTICS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_MINIPORT_PNP_CHARACTERISTICS, the 
@@ -68,24 +68,24 @@ The
 ### -field MiniportAddDeviceHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
 
 ### -field MiniportRemoveDeviceHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_remove_device">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_remove_device">
      MiniportRemoveDevice</a> function.
 
 ### -field MiniportFilterResourceRequirementsHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
      MiniportFilterResourceRequirements</a> function.
 
 ### -field MiniportStartDeviceHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">MiniportStartDevice</a> function, if
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">MiniportStartDevice</a> function, if
      any. If this function is not required, set this member to <b>NULL</b>.
 
 ### -field Flags
@@ -97,39 +97,38 @@ Reserved.
 Miniport drivers that support MSI-X and will change the interrupt affinity for each MSI-X message
     register functions that are defined in the NDIS_MINIPORT_PNP_CHARACTERISTICS structure. To register these
     functions, call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function
     from the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a> function and
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a> function and
     specify an NDIS_MINIPORT_PNP_CHARACTERISTICS structure at the 
     <i>OptionalHandlers</i> parameter of 
     <b>NdisSetOptionalHandlers</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">
    MiniportFilterResourceRequirements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_remove_device">MiniportRemoveDevice</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_remove_device">MiniportRemoveDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">MiniportSetOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">MiniportStartDevice</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_pnp_irp">MiniportStartDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>

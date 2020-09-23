@@ -52,11 +52,11 @@ IOCTL_BTHX_SET_VERSION is used to inform the transport driver of the version of 
 
 ### -input-buffer
 
-Profile drivers should use KMDF and its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the input buffer:
+Profile drivers should use KMDF and its <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the input buffer:
 
 <code>Status = WdfRequestRetrieveInputMemory(_Request, &ReqInMemory);</code>
 
-The buffer describes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ns-bthxddi-_bthx_version">BTHX_VERSION</a> structure. 
+The buffer describes a <a href="/windows-hardware/drivers/ddi/bthxddi/ns-bthxddi-_bthx_version">BTHX_VERSION</a> structure. 
 
 Refer to the WDK Bluetooth samples for more information.
 
@@ -110,4 +110,3 @@ Any unsuccessful NT status code prevents the driver from loading.
 IOCTL_BTHX_SET_VERSION is a synchronous operation.
 
 Only one version will be selected and set.
-

@@ -53,9 +53,8 @@ PnpCancelStop is invoked by portcls while processing the CancelStop IRP. This is
 
 Note: Portcls acquires the device global lock before making this call, thus the miniport must execute this call as fast as possible. Portcls restarts any pended create requests.
  
-For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers).
+For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers).
 
 ## -see-also
 
 [IAdapterPnpManagement](nn-portcls-iadapterpnpmanagement.md)
-

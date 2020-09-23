@@ -60,7 +60,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>-type information in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>-type information in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
@@ -72,13 +72,12 @@ The driver returns the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_drive_geometry_ex">IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_drive_geometry_ex">IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX</a>

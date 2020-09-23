@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters for the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-interrupt-moderation">OID_GEN_INTERRUPT_MODERATION</a> OID.
+  <a href="/windows-hardware/drivers/network/oid-gen-interrupt-moderation">OID_GEN_INTERRUPT_MODERATION</a> OID.
 
 ## -struct-fields
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_INTERRUPT_MODERATION_PARAMETERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -131,7 +131,7 @@ In an OID query, this value indicates that interrupt moderation is disabled on t
 ## -remarks
 
 The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters for the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-interrupt-moderation">OID_GEN_INTERRUPT_MODERATION</a> OID
+    <a href="/windows-hardware/drivers/network/oid-gen-interrupt-moderation">OID_GEN_INTERRUPT_MODERATION</a> OID
     query and set operations. Only the 
     <b>NdisInterruptModerationEnabled</b> and 
     <b>NdisInterruptModerationDisabled</b> values for the 
@@ -139,9 +139,8 @@ The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-interrupt-moderation">OID_GEN_INTERRUPT_MODERATION</a>
-
+<a href="/windows-hardware/drivers/network/oid-gen-interrupt-moderation">OID_GEN_INTERRUPT_MODERATION</a>

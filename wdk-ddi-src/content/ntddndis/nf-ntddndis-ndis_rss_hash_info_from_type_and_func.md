@@ -60,7 +60,7 @@ The hash type is an OR value of valid combinations of the following flags:
 - NDIS_HASH_IPV6_EX
 - NDIS_HASH_TCP_IPV6_EX
 
-For more information about hash types and the valid combinations of these flags, see [RSS Hashing Types](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-types).
+For more information about hash types and the valid combinations of these flags, see [RSS Hashing Types](/windows-hardware/drivers/network/rss-hashing-types).
 
 ### -param _HashFunction
 
@@ -73,7 +73,7 @@ The hash function can be one of the following values:
 - **NdisHashFunctionReserved2**
 - **NdisHashFunctionReserved3**
 
-For more information about the hashing functions, see [RSS Hashing Functions](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-functions).
+For more information about the hashing functions, see [RSS Hashing Functions](/windows-hardware/drivers/network/rss-hashing-functions).
 
 ## -returns
 
@@ -85,11 +85,11 @@ Use the [**NDIS_RSS_HASH_TYPE_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_type_f
 
 A NIC (or its miniport driver) uses the receive side scaling (RSS) hash type to identify the portion of received network data that is used to calculate an RSS hash value.
 
-For more information about the hash type, see [RSS Hashing Types](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-types).
+For more information about the hash type, see [RSS Hashing Types](/windows-hardware/drivers/network/rss-hashing-types).
 
 A NIC (or its miniport driver) uses the RSS hashing function to calculate an RSS hash value.
 
-For more information about the hashing functions, see [RSS Hashing Functions](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-functions).
+For more information about the hashing functions, see [RSS Hashing Functions](/windows-hardware/drivers/network/rss-hashing-functions).
 
 ## -see-also
 
@@ -98,4 +98,3 @@ For more information about the hashing functions, see [RSS Hashing Functions](ht
 [**NDIS_RSS_HASH_FUNC_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_func_from_hash_info.md)
 
 [**NDIS_RSS_HASH_TYPE_FROM_HASH_INFO**](nf-ntddndis-ndis_rss_hash_type_from_hash_info.md)
-

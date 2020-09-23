@@ -103,25 +103,24 @@ One of the parameters passed to this function was invalid.
 
 File system filter drivers typically call <b>IoGetDiskDeviceObject</b> for a file system volume device object to determine whether the volume is mounted. 
 
-<b>IoGetDiskDeviceObject</b> increments the reference count on the disk device object pointed to by <i>DeviceObject</i>. Thus every successful call to <b>IoGetDiskDeviceObject</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>.
+<b>IoGetDiskDeviceObject</b> increments the reference count on the disk device object pointed to by <i>DeviceObject</i>. Thus every successful call to <b>IoGetDiskDeviceObject</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioenumeratedeviceobjectlist">IoEnumerateDeviceObjectList</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioenumeratedeviceobjectlist">IoEnumerateDeviceObjectList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevice">IoGetAttachedDevice</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevice">IoGetAttachedDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetlowerdeviceobject">IoGetLowerDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetlowerdeviceobject">IoGetLowerDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>

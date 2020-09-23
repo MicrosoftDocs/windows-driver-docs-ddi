@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-The IOCTL_HID_GET_POLL_FREQUENCY_MSEC request obtains the current polling frequency, in milliseconds, of a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
+The IOCTL_HID_GET_POLL_FREQUENCY_MSEC request obtains the current polling frequency, in milliseconds, of a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
@@ -87,5 +87,4 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_poll_frequency_msec">IOCTL_HID_SET_POLL_FREQUENCY_MSEC</a>
-
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_poll_frequency_msec">IOCTL_HID_SET_POLL_FREQUENCY_MSEC</a>

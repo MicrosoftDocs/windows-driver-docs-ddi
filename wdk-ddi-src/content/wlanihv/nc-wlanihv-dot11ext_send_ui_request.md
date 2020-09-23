@@ -47,10 +47,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtSendUIRequest</b> function to request user notification or input
   through the
-  <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560635(v=vs.85)">Native 802.11 IHV UI Extensions
+  <a href="/previous-versions/windows/hardware/wireless/ff560635(v=vs.85)">Native 802.11 IHV UI Extensions
   DLL</a>.
 
 ## -parameters
@@ -93,7 +93,7 @@ The IHV Extensions DLL must follow these guidelines when calling the
 <ul>
 <li>
 Requests for event notification by the
-      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560635(v=vs.85)">Native 802.11 IHV UI Extensions
+      <a href="/previous-versions/windows/hardware/wireless/ff560635(v=vs.85)">Native 802.11 IHV UI Extensions
       DLL</a> are completed through a call to the
       <a href="..\wlanihv\nc-wlanihv-dot11extihv_process_ui_response.md">
       Dot11ExtIhvProcessUIResponse</a> IHV Handler function. The IHV Extensions DLL must not free the
@@ -139,4 +139,3 @@ The operating system can query the completion status of the request through a ca
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
    Dot11ExtIhvIsUIRequestPending</a>
-

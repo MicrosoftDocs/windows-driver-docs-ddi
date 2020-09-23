@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>TmRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream contained in the log file name.
+The <b>TmRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream contained in the log file name.
 <div class="alert"><b>Warning</b>  Changing the identity of the transaction manger object might break any cross-log transactional links that may exist.</div><div> </div>
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>TmRenameTransactionManager</b> routine changes the identity of the transa
 ### -param LogFileName 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path and file name of a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream to be associated with the transaction manager object.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path and file name of a <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream to be associated with the transaction manager object.
 
 ### -param ExistingTransactionManagerGuid 
 
@@ -66,4 +66,3 @@ A pointer to a GUID structure that represents the current name of the transactio
 ## -returns
 
 The <b>TmRenameTransactionManager</b> routine returns an NTSTATUS value. If the routine fails, it returns one of the following error codes:
-

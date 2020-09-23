@@ -67,17 +67,16 @@ A formatted [**WWAN_SET_SAR_CONFIG**](../wwan/ns-wwan-_wwan_set_sar_config.md) s
 
 ## -remarks
 
-This structure is used in an [OID_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-config) Set request.
+This structure is used in an [OID_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/oid-wwan-sar-config) Set request.
 
-After completing the Set request, the modem should return an [NDIS_STATUS_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-sar-config) status notification as a response to inform the OS of the SAR configuration.
+After completing the Set request, the modem should return an [NDIS_STATUS_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/ndis-status-wwan-sar-config) status notification as a response to inform the OS of the SAR configuration.
 
 ## -see-also
 
-[MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support)
+[MB SAR Platform Support](/windows-hardware/drivers/network/mb-sar-platform-support)
 
-[OID_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-config)
+[OID_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/oid-wwan-sar-config)
 
-[NDIS_STATUS_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-sar-config)
+[NDIS_STATUS_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/ndis-status-wwan-sar-config)
 
 [**WWAN_SET_SAR_CONFIG**](../wwan/ns-wwan-_wwan_set_sar_config.md)
-

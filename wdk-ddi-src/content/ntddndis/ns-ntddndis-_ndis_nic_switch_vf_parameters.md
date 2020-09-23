@@ -56,7 +56,7 @@ The <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> specifies the resource parameters of a 
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -106,7 +106,7 @@ An NDIS_SWITCH_NIC_NAME value that specifies the name of the virtual machine (VM
 
 The VM network adapter is a virtual device that is exposed in the guest operating system that runs in a Hyper-V child partition. The VM network adapter teams with the VF network adapter to provide the hardware-based VF data path over the SR-IOV interface. 
 
-For more information about the VF data path, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sr-iov-vf-data-path">SR-IOV VF Data Path</a>.
+For more information about the VF data path, see <a href="/windows-hardware/drivers/network/sr-iov-vf-data-path">SR-IOV VF Data Path</a>.
 
 ### -field MacAddressLength
 
@@ -130,9 +130,9 @@ An NDIS_VF_RID that specifies the PCI Express (PCIe) Requestor ID (RID) of the V
 
 ## -remarks
 
-The  <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structure is used in OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vf-parameters">OID_NIC_SWITCH_VF_PARAMETERS</a>.
+The  <b>NDIS_NIC_SWITCH_VF_PARAMETERS</b> structure is used in OID method requests of <a href="/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a> and <a href="/windows-hardware/drivers/network/oid-nic-switch-vf-parameters">OID_NIC_SWITCH_VF_PARAMETERS</a>.
 
-For more information about the SR-IOV interface, see 	<a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
+For more information about the SR-IOV interface, see 	<a href="/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
 ## -see-also
 
@@ -140,13 +140,12 @@ For more information about the SR-IOV interface, see 	<a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>
+<a href="/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vf-parameters">OID_NIC_SWITCH_VF_PARAMETERS</a>
-
+<a href="/windows-hardware/drivers/network/oid-nic-switch-vf-parameters">OID_NIC_SWITCH_VF_PARAMETERS</a>

@@ -76,5 +76,4 @@ The KS_DVD_YUV structure is used
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_dvd_ycrcb">KS_DVD_YCrCb</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_dvd_ycrcb">KS_DVD_YCrCb</a>

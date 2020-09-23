@@ -60,7 +60,7 @@ A wide character string that indicates the name of the target with which the iSC
 
 ### -field SecurityFlags
 
-A bitwise OR of security flags that indicate the security requirements of the target that is specified in the persistent logon. For a list of possible values for this member, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>.
+A bitwise OR of security flags that indicate the security requirements of the target that is specified in the persistent logon. For a list of possible values for this member, see <a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>.
 
 ### -field InitiatorPortNumber
 
@@ -80,15 +80,15 @@ Portal to use for initial connection
 
 ### -field TargetPortal
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a> structure that specifies which target portal to use for the initial logon connection.
+An <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a> structure that specifies which target portal to use for the initial logon connection.
 
 ### -field LoginOptions
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_loginoptions">ISCSI_LoginOptions</a> structure that specifies the characteristics of the persistent logon session.
+An <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_loginoptions">ISCSI_LoginOptions</a> structure that specifies the characteristics of the persistent logon session.
 
 ### -field TargetMapping
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetmapping">ISCSI_TargetMapping</a> structure that defines the target mappings.
+An <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetmapping">ISCSI_TargetMapping</a> structure that defines the target mappings.
 
 ### -field Username
 
@@ -96,21 +96,20 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_loginoptions">ISCSI_LoginOptions</a>
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_loginoptions">ISCSI_LoginOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-persistent-login-wmi-class">ISCSI_Persistent_Login WMI Class</a>
+<a href="/windows-hardware/drivers/storage/iscsi-persistent-login-wmi-class">ISCSI_Persistent_Login WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetmapping">ISCSI_TargetMapping</a>
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetmapping">ISCSI_TargetMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
-
+<a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>

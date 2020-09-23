@@ -80,5 +80,4 @@ The miniport driver has no special capabilities.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_driver_caps">NDIS_WWAN_DRIVER_CAPS</a>
-
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_driver_caps">NDIS_WWAN_DRIVER_CAPS</a>

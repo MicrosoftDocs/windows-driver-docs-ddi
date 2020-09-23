@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Causes media to be loaded in a device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_load_media2">IOCTL_STORAGE_LOAD_MEDIA2</a> request instead.
+Causes media to be loaded in a device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_load_media2">IOCTL_STORAGE_LOAD_MEDIA2</a> request instead.
 
 ## -ioctlparameters
 
@@ -76,5 +76,4 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_load_media2">IOCTL_STORAGE_LOAD_MEDIA2</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_load_media2">IOCTL_STORAGE_LOAD_MEDIA2</a>

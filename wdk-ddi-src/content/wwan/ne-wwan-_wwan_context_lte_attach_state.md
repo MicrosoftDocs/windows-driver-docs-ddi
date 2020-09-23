@@ -65,7 +65,6 @@ This enumeration is used in the [**WWAN_LTE_ATTACH_STATUS**](ns-wwan-_wwan_lte_a
 
 ## -see-also
 
-[MB LTE Attach Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-lte-attach-operations)
+[MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)
 
 [**WWAN_LTE_ATTACH_STATUS**](ns-wwan-_wwan_lte_attach_status.md)
-

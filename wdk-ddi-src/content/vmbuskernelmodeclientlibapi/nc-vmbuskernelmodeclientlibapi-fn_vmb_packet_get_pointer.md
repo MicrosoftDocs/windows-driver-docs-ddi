@@ -46,7 +46,7 @@ api_name:
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbPacketGetPointer</b> function retrieves a pointer that was previously
-saved by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer">VmbPacketSetPointer</a> function.
+saved by using the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer">VmbPacketSetPointer</a> function.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The handle of a packet object.
 
 ## -returns
 
-<b>VmbPacketGetPointer</b> returns the value previously saved by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer">VmbPacketSetPointer</a>.
+<b>VmbPacketGetPointer</b> returns the value previously saved by using <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer">VmbPacketSetPointer</a>.
 
 ## -prototype
 
@@ -84,5 +84,4 @@ PVOID FnVmbPacketGetPointer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer">VmbPacketSetPointer</a>
-
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer">VmbPacketSetPointer</a>

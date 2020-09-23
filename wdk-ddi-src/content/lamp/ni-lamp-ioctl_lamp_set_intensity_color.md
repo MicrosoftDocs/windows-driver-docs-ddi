@@ -57,11 +57,11 @@ The **IOCTL_LAMP_SET_INTENSITY_COLOR** control code sets the lamp to the specifi
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_color) structure.
+`Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_COLOR](./ns-lamp-lamp_intensity_color.md) structure.
 
 ### -input-buffer-length
 
-Length of a [LAMP_INTENSITY_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_color) structure.
+Length of a [LAMP_INTENSITY_COLOR](./ns-lamp-lamp_intensity_color.md) structure.
 
 ### -output-buffer
 
@@ -80,4 +80,3 @@ None.
 The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status.
 
 If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
-

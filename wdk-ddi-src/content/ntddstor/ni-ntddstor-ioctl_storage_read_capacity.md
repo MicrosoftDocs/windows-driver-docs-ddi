@@ -60,7 +60,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_read_capacity">STORAGE_READ_CAPACITY</a> structure.
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_read_capacity">STORAGE_READ_CAPACITY</a> structure.
 
 ### -output-buffer-length
 
@@ -80,5 +80,4 @@ A <b>IOCTL_STORAGE_READ_CAPACITY</b> request returns the disk capacity informati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_read_capacity">STORAGE_READ_CAPACITY</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_read_capacity">STORAGE_READ_CAPACITY</a>

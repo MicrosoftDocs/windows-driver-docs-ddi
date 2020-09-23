@@ -55,7 +55,7 @@ Enables the function device object (FDO) to convey its requirement for a fixed d
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -88,4 +88,3 @@ A device driver that successfully queries for the GUID_D3COLD_AUX_POWER_AND_TIMI
   - Function 0 must be in D0 when calling this routine.
 
 ## -see-also
-

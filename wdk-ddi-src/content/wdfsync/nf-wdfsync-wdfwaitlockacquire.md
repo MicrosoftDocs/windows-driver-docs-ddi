@@ -58,7 +58,7 @@ The <b>WdfWaitLockAcquire</b> method acquires a specified wait lock.
 ### -param Lock 
 
 [in]
-A handle to a framework wait-lock object, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
+A handle to a framework wait-lock object, obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
 
 ### -param Timeout 
 
@@ -83,13 +83,13 @@ If the time-out value is zero, <b>WdfWaitLockAcquire</b> attempts to acquire the
 </ul>
 Relative expiration times are not affected by any changes to the system time that might occur within the specified time-out period. Absolute expiration times do reflect system time changes.
 
-The framework provides <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/">time conversion functions</a> that convert time values into system time units.
+The framework provides <a href="/windows-hardware/drivers/ddi/wdftimer/">time conversion functions</a> that convert time values into system time units.
 
 If the caller supplies a <b>NULL</b> pointer, the method waits indefinitely until it has acquired the lock.
 
 ## -returns
 
-<b>WdfWaitLockAcquire</b> can return the following <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>:
+<b>WdfWaitLockAcquire</b> can return the following <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>:
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ The specified <i>Timeout</i> interval expired before the lock was acquired.
 </table>
  
 
-Note that <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>TRUE</b> for all of these status values.
+Note that <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>TRUE</b> for all of these status values.
 
 
 
@@ -135,13 +135,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfWaitLockAcquire</b> method does not return until it acquires the wait lock or until the time-out period expires. 
 
-<b>WdfWaitLockAcquire</b> calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
+<b>WdfWaitLockAcquire</b> calls <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
 
 If the <i>Timeout</i> pointer is <b>NULL</b>, or if the time-out value is not zero, <b>WdfWaitLockAcquire</b> must be called at IRQL = PASSIVE_LEVEL.
 
 If the time-out value is zero, <b>WdfWaitLockAcquire</b> must be called at IRQL < DISPATCH_LEVEL. Note that this is in disagreement with the header file (wdfsync.h), which indicates that this method can be called at DISPATCH_LEVEL.
 
-For more information about wait locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about wait locks, see <a href="/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
 #### Examples
@@ -165,13 +165,12 @@ WdfWaitLockRelease(FilterDeviceCollectionLock);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>
+<a href="/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfwaitlockrelease">WdfWaitLockRelease</a>
-
+<a href="/windows-hardware/drivers/devtest/kmdf-wdfwaitlockrelease">WdfWaitLockRelease</a>

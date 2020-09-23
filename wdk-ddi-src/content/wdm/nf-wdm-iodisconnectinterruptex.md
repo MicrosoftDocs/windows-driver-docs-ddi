@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
+For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
 
 <code>#define IoDisconnectInterruptEx WdmlibIoDisconnectInterruptEx</code>
 
@@ -56,13 +56,12 @@ For more information, see the <a href="https://docs.microsoft.com/windows-hardwa
 ### -param Parameters 
 
 [in, out]
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
+For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
 
 ## -remarks
 
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
+For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a>
-
+<a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a>

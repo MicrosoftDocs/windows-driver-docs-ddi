@@ -129,5 +129,4 @@ If a filter driver raises the IRQL in its *FilterSynchronousOidRequest* handler,
 
 [**NdisFSynchronousOidRequest**](nf-ndis-ndisfsynchronousoidrequest.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
-
+<a href="/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>

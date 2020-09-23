@@ -48,7 +48,7 @@ api_name:
 
 This function sets the enumeration properties of a sensor.
 
- For more information about sensor properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/enumeration-properties">Enumeration properties</a>.
+ For more information about sensor properties, see <a href="/windows-hardware/drivers/sensors/enumeration-properties">Enumeration properties</a>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A reference to a sensor object.
 ### -param pSensorConfig 
 
 [in]
-A list of enumeration properties. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a>.
+A list of enumeration properties. For more information, see <a href="/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a>.
 
 ## -returns
 
@@ -76,7 +76,7 @@ STATUS_INVALID_PARAMETER is returned if any of the _In_ parameters are NULL or t
 
 </li>
 <li>
-STATUS_BUFFER_TOO_SMALL is returned if the <b>pSensorConfig</b> buffer is smaller than the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a> structure.
+STATUS_BUFFER_TOO_SMALL is returned if the <b>pSensorConfig</b> buffer is smaller than the size of the <a href="/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a> structure.
 
 </li>
 <li>
@@ -84,4 +84,3 @@ STATUS_NOT_FOUND is returned if there was an error constructing the controller o
 
 </li>
 </ul>
-

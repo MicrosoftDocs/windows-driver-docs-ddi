@@ -104,9 +104,8 @@ An <i>IoStatus</i>-><i>Status </i>value of STATUS_CACHE_PAGE_LOCKED indicates th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccflushcache">CcFlushCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpurgecachesection">CcPurgeCacheSection</a>

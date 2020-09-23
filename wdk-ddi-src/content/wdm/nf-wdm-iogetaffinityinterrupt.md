@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
+For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 <code>#define IoGetAffinityInterrupt WdmlibIoGetAffinityInterrupt</code>
 
@@ -56,18 +56,17 @@ For more information, see the <a href="https://docs.microsoft.com/windows-hardwa
 ### -param InterruptObject 
 
 [in]
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
+For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 ### -param GroupAffinity 
 
 [out]
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
+For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 ## -returns
 
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
+For more information, see the <a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a>
-
+<a href="/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a>

@@ -45,14 +45,14 @@ api_name:
 
 ## -description
 
-Exposes a collection of [IPrinterExtensionContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext) objects.
+Exposes a collection of [IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md) objects.
 
 ## -inheritance
 
 ## -see-also
 
-[IDispatch](https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-idispatch)
+[IDispatch](/windows/win32/api/oaidl/nn-oaidl-idispatch)
 
-[IPrinterExtensionContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext)
+[IPrinterExtensionContext](./nn-printerextension-iprinterextensioncontext.md)
 
-[IPrinterExtensionEvent::OnPrinterQueuesEnumerated](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated)
+[IPrinterExtensionEvent::OnPrinterQueuesEnumerated](./nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated.md)

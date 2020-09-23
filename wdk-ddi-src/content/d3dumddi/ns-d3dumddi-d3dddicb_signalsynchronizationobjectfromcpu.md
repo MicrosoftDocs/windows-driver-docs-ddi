@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb">pfnSignalSynchronizationObjectFromCpuCb</a> to enable a driver to signal a monitored fence.
+<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb">pfnSignalSynchronizationObjectFromCpuCb</a> to enable a driver to signal a monitored fence.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ api_name:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb">pfnSignalSynchronizationObjectFromCpuCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromcpucb">pfnSignalSynchronizationObjectFromCpuCb</a>

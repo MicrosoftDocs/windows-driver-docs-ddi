@@ -52,7 +52,7 @@ Performs verification for a specified extent on a disk.
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_verify_information">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_verify_information">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified.
 
 ### -input-buffer-length
 
@@ -78,5 +78,4 @@ If the request is successful, then the <b>Status</b> field is set to STATUS_SUCC
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_verify_information">VERIFY_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_verify_information">VERIFY_INFORMATION</a>

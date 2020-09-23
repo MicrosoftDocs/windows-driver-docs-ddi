@@ -73,5 +73,4 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA">WWAN_MODEM_CONFIG_STATUS</a>
-
+<a href="/previous-versions/mt813894(v=vs.85)">WWAN_MODEM_CONFIG_STATUS</a>

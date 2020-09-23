@@ -52,39 +52,38 @@ Contains Miracast statistics data that the user-mode display driver reports to t
 
 ### -field StatisticType
 
-The type of statistics data from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_statistic_type">MIRACAST_STATISTIC_TYPE</a> enumeration.
+The type of statistics data from the <a href="/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_statistic_type">MIRACAST_STATISTIC_TYPE</a> enumeration.
 
 ### -field EncodeComplete
 
 ### -field EncodeComplete.ChunkInfo
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a> structure that provides info about an encode chunk that is identified by the <b>ChunkId</b> member.
+A <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a> structure that provides info about an encode chunk that is identified by the <b>ChunkId</b> member.
 
 ### -field ChunkSent
 
 ### -field ChunkSent.ChunkId
 
-The identifier for this chunk, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_id">MIRACAST_CHUNK_ID</a>.
+The identifier for this chunk, of type <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_id">MIRACAST_CHUNK_ID</a>.
 
 ### -field ProtocolEvent
 
 ### -field ProtocolEvent.Event
 
-The type of protocol event, given as a value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_protocol_event">MIRACAST_PROTOCOL_EVENT</a> enumeration.
+The type of protocol event, given as a value of the <a href="/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_protocol_event">MIRACAST_PROTOCOL_EVENT</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_id">MIRACAST_CHUNK_ID</a>
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_id">MIRACAST_CHUNK_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a>
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_info">MIRACAST_CHUNK_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_protocol_event">MIRACAST_PROTOCOL_EVENT</a>
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_protocol_event">MIRACAST_PROTOCOL_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_statistic_type">MIRACAST_STATISTIC_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/ne-netdispumdddi-miracast_statistic_type">MIRACAST_STATISTIC_TYPE</a>

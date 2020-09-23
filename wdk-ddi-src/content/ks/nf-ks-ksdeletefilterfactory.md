@@ -53,19 +53,18 @@ api_name:
 ### -param FilterFactory 
 
 [in]
-A pointer to a [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory) structure that represents the filter factory to be deleted.
+A pointer to a [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md) structure that represents the filter factory to be deleted.
 
 ## -returns
 
-This macro wraps and assumes the return value of [KsFreeObjectCreateItemsByContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectcreateitemsbycontext), which is NTSTATUS.
+This macro wraps and assumes the return value of [KsFreeObjectCreateItemsByContext](./nf-ks-ksfreeobjectcreateitemsbycontext.md), which is NTSTATUS.
 
 ## -see-also
 
-[KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory)
+[KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md)
 
-[KsCreateFilterFactory](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatefilterfactory)
+[KsCreateFilterFactory](./nf-ks-kscreatefilterfactory.md)
 
-[KsFilterFactoryAddCreateItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryaddcreateitem)
+[KsFilterFactoryAddCreateItem](./nf-ks-ksfilterfactoryaddcreateitem.md)
 
-[KsFilterFactorySetDeviceClassesState](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorysetdeviceclassesstate)
-
+[KsFilterFactorySetDeviceClassesState](./nf-ks-ksfilterfactorysetdeviceclassesstate.md)

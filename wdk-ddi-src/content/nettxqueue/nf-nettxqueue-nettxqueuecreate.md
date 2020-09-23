@@ -71,9 +71,8 @@ The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this f
 
 ## -remarks
 
-The client calls **NetTxQueueCreate** from within its *[EVT_NET_ADAPTER_CREATE_TXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* event callback function. For info on assigning context space to the new object, see [Framework Object Context Space](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space).
+The client calls **NetTxQueueCreate** from within its *[EVT_NET_ADAPTER_CREATE_TXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* event callback function. For info on assigning context space to the new object, see [Framework Object Context Space](/windows-hardware/drivers/wdf/framework-object-context-space).
 
 The NETPACKETQUEUE object is a standard WDF object. The framework manages its deletion, which occurs when the parent NETADAPTER object is deleted.
 
 ## -see-also
-

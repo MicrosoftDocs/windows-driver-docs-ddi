@@ -57,7 +57,7 @@ A pointer to a NetAdapterCx-allocated **NETTXQUEUE_INIT** structure. For more in
 
 ## -returns
 
-If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) error code.
+If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -prototype
 
@@ -82,13 +82,12 @@ typedef EVT_NET_ADAPTER_CREATE_TXQUEUE *PFN_NET_ADAPTER_CREATE_TXQUEUE;
 
 To register an *EVT_NET_ADAPTER_CREATE_TXQUEUE* callback function, the client driver must call [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-The **NETTXQUEUE_INIT** structure is an opaque structure that is defined and allocated by NetAdapterCx, similar to [WDFDEVICE_INIT](https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init).
+The **NETTXQUEUE_INIT** structure is an opaque structure that is defined and allocated by NetAdapterCx, similar to [WDFDEVICE_INIT](/windows-hardware/drivers/wdf/wdfdevice_init).
 
 In this callback, the client driver might call [NetTxQueueInitGetQueueId](../nettxqueue/nf-nettxqueue-nettxqueueinitgetqueueid.md) to retrieve the identifier of the transmit queue to set up. Next, the client calls [**NetTxQueueCreate**](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) to allocate a queue. If [**NetTxQueueCreate**](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) fails, the *EvtNetAdapterCreateTxQueue* callback function should return an error code.
 
-NetAdapterCx calls *EvtNetAdapterCreateTxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). 
+NetAdapterCx calls *EvtNetAdapterCreateTxQueue* at the very end of the [power-up sequence](/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). 
 
-For a code example of implementing this callback function, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
+For a code example of implementing this callback function, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 
 ## -see-also
-

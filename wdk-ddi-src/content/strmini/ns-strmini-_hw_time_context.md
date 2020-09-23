@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-The class driver passes an HW_TIME_CONTEXT structure as a parameter to be filled in by a stream's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a> routine, or returns a completed HW_TIME_CONTEXT structure when it responds to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclock">StreamClassQueryMasterClock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclocksync">StreamClassQueryMasterClockSync</a> request.
+The class driver passes an HW_TIME_CONTEXT structure as a parameter to be filled in by a stream's <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a> routine, or returns a completed HW_TIME_CONTEXT structure when it responds to a <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclock">StreamClassQueryMasterClock</a> or <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclocksync">StreamClassQueryMasterClockSync</a> request.
 
 ## -struct-fields
 
 ### -field HwDeviceExtension
 
-Points to the minidriver's device extension buffer. The class driver fills in this member when it passes the structure to a stream's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a>, or to the callback passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclock">StreamClassQueryMasterClock</a>. When passed as a parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclocksync">StreamClassQueryMasterClockSync</a>, the caller must fill in this member itself.
+Points to the minidriver's device extension buffer. The class driver fills in this member when it passes the structure to a stream's <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a>, or to the callback passed to <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclock">StreamClassQueryMasterClock</a>. When passed as a parameter to <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclocksync">StreamClassQueryMasterClockSync</a>, the caller must fill in this member itself.
 
-The minidriver may use its device extension to record private information global to the minidriver. The minidriver sets the size of this buffer in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+The minidriver may use its device extension to record private information global to the minidriver. The minidriver sets the size of this buffer in the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter">StreamClassRegisterMinidriver</a>. The class driver also passes pointers to this buffer in the <b>HwDeviceExtension</b> member of the <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a>, <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a>, and <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 ### -field HwStreamObject
 
-When the class driver passes HW_TIME_CONTEXT to a stream's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a> routine, this member points to the stream's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a> structure.
+When the class driver passes HW_TIME_CONTEXT to a stream's <a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a> routine, this member points to the stream's <a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object">HW_STREAM_OBJECT</a> structure.
 
-When the class driver passes a completed HW_TIME_CONTEXT structure to the callback provided by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclock">StreamClassQueryMasterClock</a>, it fills in this member with a pointer to the stream object of the stream that makes the query request.
+When the class driver passes a completed HW_TIME_CONTEXT structure to the callback provided by <a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclock">StreamClassQueryMasterClock</a>, it fills in this member with a pointer to the stream object of the stream that makes the query request.
 
 ### -field Function
 
@@ -94,17 +94,16 @@ The current system time, in 100-nanosecond units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_clock_object">HW_CLOCK_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_clock_object">HW_CLOCK_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a>
+<a href="/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_query_clock_routine">StrMiniClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclock">StreamClassQueryMasterClock</a>
+<a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclock">StreamClassQueryMasterClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclocksync">StreamClassQueryMasterClockSync</a>
-
+<a href="/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassquerymasterclocksync">StreamClassQueryMasterClockSync</a>

@@ -60,11 +60,11 @@ The index of the destination subresource to which data is to be copied.
 
 ### -field DstBox
 
-A destination region, of type  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a>, of the subresource to which data is to be copied. If <b>Flags</b>-><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_copyflags">BoxValid</a> is not set, the entire subresource must be updated.
+A destination region, of type  <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a>, of the subresource to which data is to be copied. If <b>Flags</b>-><a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_copyflags">BoxValid</a> is not set, the entire subresource must be updated.
 
 ### -field pSysMemUP
 
-A pointer to the beginning address of the source data that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatesubresourceup">pfnUpdateSubresourceUP</a> function copies to update the destination subresouce.
+A pointer to the beginning address of the source data that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatesubresourceup">pfnUpdateSubresourceUP</a> function copies to update the destination subresouce.
 
 ### -field RowPitch
 
@@ -76,17 +76,16 @@ The offset, in bytes, to move to the next depth slice of source data.
 
 ### -field Flags
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_copyflags">D3DDDIARG_COPYFLAGS</a> structure that specifies additional characteristics of the subresource update operation.
+A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_copyflags">D3DDDIARG_COPYFLAGS</a> structure that specifies additional characteristics of the subresource update operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_copyflags">D3DDDIARG_COPYFLAGS</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_copyflags">D3DDDIARG_COPYFLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatesubresourceup">pfnUpdateSubresourceUP</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatesubresourceup">pfnUpdateSubresourceUP</a>

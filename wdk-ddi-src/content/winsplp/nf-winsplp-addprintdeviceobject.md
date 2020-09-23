@@ -87,7 +87,7 @@ The function must be called by impersonating the user who is installing the prin
 
 <ul>
 <li>
-The print provider should call this function for each previously-installed Printer owned by the provider. During this time, <b>AddPrintDeviceObject</b> doesn't have to impersonate the user context when it is called.<div class="alert"><b>Note</b>  Any device object that is added using  <b>AddPrintDeviceObject</b> will persist until you remove it using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-removeprintdeviceobject">RemovePrintDeviceObject</a>, or 
+The print provider should call this function for each previously-installed Printer owned by the provider. During this time, <b>AddPrintDeviceObject</b> doesn't have to impersonate the user context when it is called.<div class="alert"><b>Note</b>  Any device object that is added using  <b>AddPrintDeviceObject</b> will persist until you remove it using <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-removeprintdeviceobject">RemovePrintDeviceObject</a>, or 
     until the spooler service restarts. And when the spooler services stops, all the device objects are automatically deleted.</div>
 <div> </div>
 
@@ -97,5 +97,4 @@ The print provider should call this function for each previously-installed Print
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-removeprintdeviceobject">RemovePrintDeviceObject</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-removeprintdeviceobject">RemovePrintDeviceObject</a>

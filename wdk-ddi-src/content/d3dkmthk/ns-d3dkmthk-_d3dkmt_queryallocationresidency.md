@@ -88,5 +88,4 @@ If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NUL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryallocationresidency">D3DKMTQueryAllocationResidency</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryallocationresidency">D3DKMTQueryAllocationResidency</a>

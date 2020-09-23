@@ -57,7 +57,7 @@ The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure identifies a receive que
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>, the 
@@ -79,14 +79,13 @@ An <b>NDIS_RECEIVE_QUEUE_ID</b> type value that contains a receive queue identif
 ## -remarks
 
 The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">
+    <a href="/windows-hardware/drivers/network/oid-receive-filter-free-queue">
     OID_RECEIVE_FILTER_FREE_QUEUE</a> OID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
-
+<a href="/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>

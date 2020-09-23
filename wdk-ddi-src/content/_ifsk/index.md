@@ -36,4 +36,4 @@ The following headers are related to file system or file system minifilter drive
 * [rxworkq.h](../rxworkq/index.md)
 * [scavengr.h](../scavengr/index.md)
 
-For the programming guide, see [Installable file system](https://docs.microsoft.com/windows-hardware/drivers/ifs).
+For the programming guide, see [Installable file system](/windows-hardware/drivers/ifs).

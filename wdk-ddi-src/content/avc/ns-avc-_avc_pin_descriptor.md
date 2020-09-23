@@ -68,15 +68,15 @@ An optional output parameter specifying a data range intersect handler associate
 
 ### -field Context
 
-An optional output parameter specifying a value to be passed to the **IntersectHandler** when it is called during format negotiation. For more information about what an intersect handler is, see [DataRange Intersections in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/data-range-intersections-in-avstream).
+An optional output parameter specifying a value to be passed to the **IntersectHandler** when it is called during format negotiation. For more information about what an intersect handler is, see [DataRange Intersections in AVStream](/windows-hardware/drivers/stream/data-range-intersections-in-avstream).
 
 ## -remarks
 
-This structure is used with the [AVC_FUNCTION_GET_PIN_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-pin-descriptor) function code.
+This structure is used with the [AVC_FUNCTION_GET_PIN_DESCRIPTOR](/windows-hardware/drivers/stream/avc-function-get-pin-descriptor) function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
 
-For information about building and sending an AV/C command, see [How to Use Avc.sys](https://docs.microsoft.com/windows-hardware/drivers/stream/using-avc-sys).
+For information about building and sending an AV/C command, see [How to Use Avc.sys](/windows-hardware/drivers/stream/using-avc-sys).
 
 A description of the members of the **KSPIN_DESCRIPTOR** structure used in AVC_PIN_DESCRIPTOR follows:
 
@@ -104,9 +104,8 @@ typedef struct {
 
 ## -see-also
 
-[AV/C Intersect Handler](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/nc-avc-pfnavcintersecthandler)
+[AV/C Intersect Handler](./nc-avc-pfnavcintersecthandler.md)
 
-[AVC_MULTIFUNC_IRB](https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_multifunc_irb)
+[AVC_MULTIFUNC_IRB](./ns-avc-_avc_multifunc_irb.md)
 
-[KSPIN_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor)
-
+[KSPIN_DESCRIPTOR](../ks/ns-ks-kspin_descriptor.md)

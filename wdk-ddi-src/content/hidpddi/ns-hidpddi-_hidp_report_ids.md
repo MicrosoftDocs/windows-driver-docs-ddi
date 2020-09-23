@@ -60,7 +60,7 @@ The report ID of the top-level collection.
 
 ### -field CollectionNumber
 
-The index of the collection in the array of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> structure.
+The index of the collection in the array of  <a href="/windows-hardware/drivers/ddi/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> structure.
 
 ### -field InputLength
 
@@ -76,5 +76,4 @@ The length of a feature report of this report ID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
-
+<a href="/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>

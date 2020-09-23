@@ -70,7 +70,7 @@ Specifies whether the driver supports section-backed primary allocations. Suppor
 
 ### -field CrossAdapterResource
 
-Specifies whether the driver supports cross-adapter resources in a [hybrid system<](https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system). Supported starting with Windows 8.1.
+Specifies whether the driver supports cross-adapter resources in a [hybrid system<](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system). Supported starting with Windows 8.1.
 
 Starting in WDDM 2.4, DXGI will be enabling the current hybrid presentation optimizations for the broader scenario wherever rendering is on one GPU and presenting on another GPU’s monitor. This is only possible if both GPUs support cross adapter resources.
 
@@ -103,11 +103,11 @@ Specifies whether the driver supports virtual memory addressing. To express supp
 
 ### -field GpuMmuSupported
 
-Specifies whether the adapter supports the *GpuMmu* model. An adapter cannot support the *GpuMmu* and the *IoMmu* models on different engines at the same time. See [GpuMmu model](https://docs.microsoft.com/windows-hardware/drivers/display/gpummu-model) for more information. Supported starting with Windows 10.
+Specifies whether the adapter supports the *GpuMmu* model. An adapter cannot support the *GpuMmu* and the *IoMmu* models on different engines at the same time. See [GpuMmu model](/windows-hardware/drivers/display/gpummu-model) for more information. Supported starting with Windows 10.
 
 ### -field IoMmuSupported
 
-Specifies whether the adapter supports the *IoMmu* model. An adapter cannot support the *GpuMmu* and the *IoMmu* models on different engines at the same time. See [IoMmu model](https://docs.microsoft.com/windows-hardware/drivers/display/iommu-model) for more information. Supported starting with Windows 10.
+Specifies whether the adapter supports the *IoMmu* model. An adapter cannot support the *GpuMmu* and the *IoMmu* models on different engines at the same time. See [IoMmu model](/windows-hardware/drivers/display/iommu-model) for more information. Supported starting with Windows 10.
 
 ### -field ReplicateGdiContent
 
@@ -135,7 +135,7 @@ This value is used to operate over the members collectively.
 
 ### -field PagingNode
 
-The zero-based index of the node to use for paging operations. If the driver does not set the **MultiEngineAware** bit-field member of the **SchedulingCaps** member of the [**DXGK_DRIVERCAPS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps) structure, the DirectX graphics kernel subsystem ignores the setting of **PagingNode**. This member applies to WDDM 1.x only. In WDDM 2.x, **PagingNode** was moved to [**DXGK_PHYSICALADAPTERCAPS**](ns-d3dkmddi-_dxgk_physicaladaptercaps.md).
+The zero-based index of the node to use for paging operations. If the driver does not set the **MultiEngineAware** bit-field member of the **SchedulingCaps** member of the [**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md) structure, the DirectX graphics kernel subsystem ignores the setting of **PagingNode**. This member applies to WDDM 1.x only. In WDDM 2.x, **PagingNode** was moved to [**DXGK_PHYSICALADAPTERCAPS**](ns-d3dkmddi-_dxgk_physicaladaptercaps.md).
 
 ## -syntax
 
@@ -194,7 +194,6 @@ typedef struct _DXGK_VIDMMCAPS
 
 ## -see-also
 
-[**DXGK_DRIVERCAPS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps)
+[**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md)
 
 [**DXGK_PHYSICALADAPTERCAPS**](ns-d3dkmddi-_dxgk_physicaladaptercaps.md)
-

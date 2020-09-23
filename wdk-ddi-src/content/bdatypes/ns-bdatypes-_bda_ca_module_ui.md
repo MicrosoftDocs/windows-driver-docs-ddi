@@ -68,9 +68,8 @@ Array of descriptors for the UI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-ca-module-ui">KSPROPERTY_BDA_CA_MODULE_UI</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-bda-ca-module-ui">KSPROPERTY_BDA_CA_MODULE_UI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdaca">KSPROPSETID_BdaCA</a>
-
+<a href="/windows-hardware/drivers/stream/kspropsetid-bdaca">KSPROPSETID_BdaCA</a>

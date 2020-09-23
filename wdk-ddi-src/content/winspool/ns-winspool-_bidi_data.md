@@ -56,7 +56,7 @@ The BIDI_DATA structure is used to store the values of a bidi schema.
 
 ### -field dwBidiType
 
-Specifies the type of data in a bidi request as one of the values listed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ne-winspool-bidi_type">BIDI_TYPE</a> enumeration. The value of this member determines which one of the following five union members is valid.
+Specifies the type of data in a bidi request as one of the values listed in the <a href="/windows-hardware/drivers/ddi/winspool/ne-winspool-bidi_type">BIDI_TYPE</a> enumeration. The value of this member determines which one of the following five union members is valid.
 
 ### -field u
 
@@ -78,25 +78,24 @@ Specifies the floating-point value. This member is valid only if the value of <b
 
 ### -field u.biData
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_binary_container">BINARY_CONTAINER</a> structure that holds the binary data. This member is valid only if the value of <b>dwBidiType</b> is BIDI_BLOB, one of the BIDI_TYPE enumerators.
+Specifies a <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_binary_container">BINARY_CONTAINER</a> structure that holds the binary data. This member is valid only if the value of <b>dwBidiType</b> is BIDI_BLOB, one of the BIDI_TYPE enumerators.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_request_data">BIDI_REQUEST_DATA</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a> structures each have a member of this type, which holds the bidi data for the request or response.
+The <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_request_data">BIDI_REQUEST_DATA</a> and <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a> structures each have a member of this type, which holds the bidi data for the request or response.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_request_data">BIDI_REQUEST_DATA</a>
+<a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_request_data">BIDI_REQUEST_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a>
+<a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ne-winspool-bidi_type">BIDI_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/winspool/ne-winspool-bidi_type">BIDI_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_binary_container">BINARY_CONTAINER</a>
-
+<a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_binary_container">BINARY_CONTAINER</a>

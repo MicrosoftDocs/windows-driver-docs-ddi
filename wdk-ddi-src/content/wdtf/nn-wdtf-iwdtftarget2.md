@@ -62,11 +62,11 @@ The <b>IWDTFTarget2</b> interface abstracts the notion of a testable item,
 which is the central focus of the WDTF object model.
 You can retrieve instances of the <b>IWDTFTarget2</b> interface only 
 through other interfaces (such as the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a> interface or
-the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a> interface). 
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a> interface or
+the <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a> interface). 
 
 The lifetime of a target is tied to its creator; that is, if you retrieve a target 
-from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtf2-get_devicedepot">DeviceDepot</a> property, 
+from the <a href="/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtf2-get_devicedepot">DeviceDepot</a> property, 
 the target will exist as long as the <b>DeviceDepot</b> 
 property exists.
 
@@ -75,11 +75,10 @@ Even if you add a target to a collection, you really just add a reference to the
 
 <b>Implementation Details</b>
 
-ProgID: (Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTF</a> 
+ProgID: (Use the <a href="/windows-hardware/drivers/ddi/index">IWDTF</a> 
 aggregation interface to instantiate)
 
 TraceLevel Path: HKCR\WDTF.Target.1\
 
 <div class="alert"><b>Note</b>  The implementation of this interface is not thread-safe.</div>
 <div> </div>
-

@@ -54,12 +54,12 @@ The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 
 ### -field Reason
 
-[in] The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2">bug-check code</a> for which to return debug information in the buffer that <b>pBuffer</b> points to. These are possible values:
+[in] The <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug-check code</a> for which to return debug information in the buffer that <b>pBuffer</b> points to. These are possible values:
 
 | **Value** | **Meaning** | 
 |:--|:--|
-| **VIDEO_TDR_TIMEOUT_DETECTED** 0x117|A [DxgkDdiResetEngine](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine)  operation has reset a logical adapter. |
-| **VIDEO_ENGINE_TIMEOUT_DETECTED** 0x141|A [DxgkDdiResetEngine](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine)  operation has reset one or more nodes within a physical adapter.
+| **VIDEO_TDR_TIMEOUT_DETECTED** 0x117|A [DxgkDdiResetEngine](./nc-d3dkmddi-dxgkddi_resetengine.md)  operation has reset a logical adapter. |
+| **VIDEO_ENGINE_TIMEOUT_DETECTED** 0x141|A [DxgkDdiResetEngine](./nc-d3dkmddi-dxgkddi_resetengine.md)  operation has reset one or more nodes within a physical adapter.
 Available starting in Windows 8. |
 
 ### -field pBuffer
@@ -72,17 +72,16 @@ Available starting in Windows 8. |
 
 ### -field pExtension
 
-[out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_collectdbginfo_ext">DXGKARG_COLLECTDBGINFO_EXT</a> structure that is allocated by the operating system and that the driver optionally populates with debug extension information.
+[out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_collectdbginfo_ext">DXGKARG_COLLECTDBGINFO_EXT</a> structure that is allocated by the operating system and that the driver optionally populates with debug extension information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_collectdbginfo_ext">DXGKARG_COLLECTDBGINFO_EXT</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_collectdbginfo_ext">DXGKARG_COLLECTDBGINFO_EXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_collectdbginfo">DxgkDdiCollectDbgInfo</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_collectdbginfo">DxgkDdiCollectDbgInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>

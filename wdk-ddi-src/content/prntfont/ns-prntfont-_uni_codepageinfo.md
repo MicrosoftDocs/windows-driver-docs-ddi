@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">glyph translation table files</a> (.gtt files).
+The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of <a href="/windows-hardware/drivers/print/customized-font-management">glyph translation table files</a> (.gtt files).
 
 ## -struct-fields
 
@@ -60,13 +60,12 @@ Identifies a Windows code page.
 
 ### -field SelectSymbolSet
 
-Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to select the code page's symbol set.
+Is an <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to select the code page's symbol set.
 
 ### -field UnSelectSymbolSet
 
-Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
+Is an <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>
-
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>

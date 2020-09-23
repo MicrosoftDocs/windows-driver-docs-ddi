@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The DXGK_AGP_INTERFACE structure contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">AGP interface</a>, which is implemented by the display port driver.
+The DXGK_AGP_INTERFACE structure contains pointers to functions in the <a href="/windows-hardware/drivers/ddi/index">AGP interface</a>, which is implemented by the display port driver.
 
 ## -struct-fields
 
@@ -76,17 +76,16 @@ A pointer to an interface dereference function that is implemented by the displa
 
 ### -field AgpAllocatePool
 
-A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a> function.
+A pointer to the display port driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a> function.
 
 ### -field AgpFreePool
 
-A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_free_pool">AgpFreePool</a> function.
+A pointer to the display port driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_free_pool">AgpFreePool</a> function.
 
 ### -field AgpSetCommand
 
-A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_set_command">AgpSetCommand</a> function.
+A pointer to the display port driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_agp_set_command">AgpSetCommand</a> function.
 
 ## -remarks
 
-The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
-
+The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.

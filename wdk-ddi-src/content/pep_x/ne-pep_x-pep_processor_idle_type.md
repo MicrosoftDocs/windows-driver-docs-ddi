@@ -66,9 +66,8 @@ Reserved for use by operating system.
 
 ## -remarks
 
-The <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_processor_idle_constraints">PEP_PROCESSOR_IDLE_CONSTRAINTS</a> structure is a <b>PEP_PROCESSOR_IDLE_TYPE</b> enumeration value.
+The <b>Type</b> member of the <a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_processor_idle_constraints">PEP_PROCESSOR_IDLE_CONSTRAINTS</a> structure is a <b>PEP_PROCESSOR_IDLE_TYPE</b> enumeration value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_processor_idle_constraints">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
-
+<a href="/windows-hardware/drivers/ddi/pep_x/ns-pep_x-_pep_processor_idle_constraints">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>

@@ -56,83 +56,82 @@ The <b>FILE_ALL_INFORMATION</b> structure is a container for several <b>FILE_<i>
 
 ### -field BasicInformation
 
-Contains basic information about the file, which includes the file attributes and the file creation time. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_basic_information">FILE_BASIC_INFORMATION</a> structure.
+Contains basic information about the file, which includes the file attributes and the file creation time. This member is a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_basic_information">FILE_BASIC_INFORMATION</a> structure.
 
 ### -field StandardInformation
 
-Contains standard information about a file, which includes the file allocation size, the end-of-file offset, and whether the file is a directory. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_standard_information">FILE_STANDARD_INFORMATION</a> structure.
+Contains standard information about a file, which includes the file allocation size, the end-of-file offset, and whether the file is a directory. This member is a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_standard_information">FILE_STANDARD_INFORMATION</a> structure.
 
 ### -field InternalInformation
 
-Contains the 8-byte file reference number for the file. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_internal_information">FILE_INTERNAL_INFORMATION</a> structure.
+Contains the 8-byte file reference number for the file. This member is a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_internal_information">FILE_INTERNAL_INFORMATION</a> structure.
 
 ### -field EaInformation
 
-Specifies the size of the extended attributes of the file. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_ea_information">FILE_EA_INFORMATION</a> structure.
+Specifies the size of the extended attributes of the file. This member is a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_ea_information">FILE_EA_INFORMATION</a> structure.
 
 ### -field AccessInformation
 
-Specifies the client's access rights to the file. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_access_information">FILE_ACCESS_INFORMATION</a> structure.
+Specifies the client's access rights to the file. This member is a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_access_information">FILE_ACCESS_INFORMATION</a> structure.
 
 ### -field PositionInformation
 
-Specifies the current file position. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_position_information">FILE_POSITION_INFORMATION</a> structure.
+Specifies the current file position. This member is a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_position_information">FILE_POSITION_INFORMATION</a> structure.
 
 ### -field ModeInformation
 
-Specifies the access mode in which the file was created or opened. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_mode_information">FILE_MODE_INFORMATION</a> structure.
+Specifies the access mode in which the file was created or opened. This member is a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_mode_information">FILE_MODE_INFORMATION</a> structure.
 
 ### -field AlignmentInformation
 
-Specifies the device's memory address alignment requirement for data transfers. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_alignment_information">FILE_ALIGNMENT_INFORMATION</a> structure.
+Specifies the device's memory address alignment requirement for data transfers. This member is a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_alignment_information">FILE_ALIGNMENT_INFORMATION</a> structure.
 
 ### -field NameInformation
 
-Contains the file name. This member is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a> structure. This structure contains the first character in the file name string. The additional characters in the file name string immediately follow the structure. To accommodate the full file name, the buffer that is allocated to contain a <b>FILE_ALL_INFORMATION</b> structure must be large enough to contain both the structure and the part of the file name string that follows the structure.
+Contains the file name. This member is a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a> structure. This structure contains the first character in the file name string. The additional characters in the file name string immediately follow the structure. To accommodate the full file name, the buffer that is allocated to contain a <b>FILE_ALL_INFORMATION</b> structure must be large enough to contain both the structure and the part of the file name string that follows the structure.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> routine.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> routine.
 
 <b>FILE_ALL_INFORMATION</b> combines several file-information structures into a single structure to reduce the number of queries that are required to obtain information about a file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_access_information">FILE_ACCESS_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_access_information">FILE_ACCESS_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_alignment_information">FILE_ALIGNMENT_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_alignment_information">FILE_ALIGNMENT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_basic_information">FILE_BASIC_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_basic_information">FILE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_ea_information">FILE_EA_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_ea_information">FILE_EA_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_internal_information">FILE_INTERNAL_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_internal_information">FILE_INTERNAL_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_mode_information">FILE_MODE_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_mode_information">FILE_MODE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_position_information">FILE_POSITION_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_position_information">FILE_POSITION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_standard_information">FILE_STANDARD_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_standard_information">FILE_STANDARD_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>

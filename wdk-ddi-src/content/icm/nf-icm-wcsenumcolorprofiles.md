@@ -70,13 +70,13 @@ An optional pointer to a variable that receives the number of profile names actu
 
 #### - profileManagementScope [in]
 
-A [WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/previous-versions/ff563752(v=vs.85)) value that specifies the scope of this profile management operation.
+A [WCS_PROFILE_MANAGEMENT_SCOPE](/previous-versions/ff563752(v=vs.85)) value that specifies the scope of this profile management operation.
 
 ## -remarks
 
-Use the [WcsEnumColorProfilesSize](https://docs.microsoft.com/previous-versions/ff563722(v=vs.85)) function to obtain the value for the *dwSize* parameter, which is the size, in bytes, of the buffer pointed to by the *pBuffer* parameter.
+Use the [WcsEnumColorProfilesSize](/previous-versions/ff563722(v=vs.85)) function to obtain the value for the *dwSize* parameter, which is the size, in bytes, of the buffer pointed to by the *pBuffer* parameter.
 
-If the *profileManagementScope* parameter is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, only system-wide associations of profiles to the device are considered. If *profileManagementScope* is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, only per-user associations for the current user are considered. If either [WcsSetUsePerUserProfiles](https://docs.microsoft.com/previous-versions/ff563741(v=vs.85)) has never been called for this user, or **WcsSetUsePerUserProfiles** was most recently called for this user with its *usePerUserProfiles* parameter set to **FALSE**, then **WCSEnumColorProfiles** returns an empty list.
+If the *profileManagementScope* parameter is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, only system-wide associations of profiles to the device are considered. If *profileManagementScope* is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, only per-user associations for the current user are considered. If either [WcsSetUsePerUserProfiles](/previous-versions/ff563741(v=vs.85)) has never been called for this user, or **WcsSetUsePerUserProfiles** was most recently called for this user with its *usePerUserProfiles* parameter set to **FALSE**, then **WCSEnumColorProfiles** returns an empty list.
 
 If WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, the current user setting, is present, it overrides the system-wide default for the *profileManagementScope* parameter.
 
@@ -84,7 +84,6 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-[WCS_PROFILE_MANAGEMENT_SCOPE](https://docs.microsoft.com/previous-versions/ff563752(v=vs.85))
+[WCS_PROFILE_MANAGEMENT_SCOPE](/previous-versions/ff563752(v=vs.85))
 
-[WcsEnumColorProfilesSize](https://docs.microsoft.com/previous-versions/ff563722(v=vs.85))
-
+[WcsEnumColorProfilesSize](/previous-versions/ff563722(v=vs.85))

@@ -86,15 +86,14 @@ Specifies the maximum value in this enumeration type.
 
 ## -remarks
 
-When the I/O manager calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function, it sets the <i>Event</i> parameter of this function to an <b>IO_SESSION_EVENT</b> enumeration constant (other than <b>IoSessionEventMax</b>).
+When the I/O manager calls the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function, it sets the <i>Event</i> parameter of this function to an <b>IO_SESSION_EVENT</b> enumeration constant (other than <b>IoSessionEventMax</b>).
 
-A session event causes a transition from one session state to another. For more information about session state transitions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a>.
+A session event causes a transition from one session state to another. For more information about session state transitions, see <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_state">IO_SESSION_STATE</a>

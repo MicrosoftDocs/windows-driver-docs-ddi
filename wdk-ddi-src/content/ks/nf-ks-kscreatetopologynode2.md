@@ -60,12 +60,12 @@ Specifies the handle to the parent on which the node is created.
 ### -param NodeCreate 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a> structure that describes the set of information that is used to create the topology node handle.
+A <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a> structure that describes the set of information that is used to create the topology node handle.
 
 ### -param DesiredAccess 
 
 [in]
-Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> indicating the desired access to the object. This is typically <b>GENERIC_READ</b> and/or <b>GENERIC_WRITE</b>.
+Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> indicating the desired access to the object. This is typically <b>GENERIC_READ</b> and/or <b>GENERIC_WRITE</b>.
 
 ### -param NodeHandle 
 
@@ -78,21 +78,20 @@ Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
 
 ## -remarks
 
-This is a new version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://docs.microsoft.com/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function must be called before this function is called.
+This is a new version of the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function must be called before this function is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
+<a href="/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a>

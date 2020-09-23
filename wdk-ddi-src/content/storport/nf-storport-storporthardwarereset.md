@@ -71,10 +71,9 @@ A [**STOR_DEVICE_RESET_TYPE**](ne-storport-stor_device_reset_type.md) enum that 
 
 ## -remarks
 
-See [Resetting and recovering a device](https://docs.microsoft.com/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
+See [Resetting and recovering a device](/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
 ) for more details.
 
 ## -see-also
 
 [**STOR_DEVICE_RESET_TYPE**](ne-storport-stor_device_reset_type.md)
-

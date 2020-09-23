@@ -54,7 +54,7 @@ The **KsFilterRegisterPowerCallbacks** function registers power management callb
 ### -param Filter 
 
 [in]
-A pointer to the [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter) structure for which to register power callbacks. In order to receive power notification messages, *Filter* must be filter-centric.
+A pointer to the [KSFILTER](./ns-ks-_ksfilter.md) structure for which to register power callbacks. In order to receive power notification messages, *Filter* must be filter-centric.
 
 ### -param Sleep 
 
@@ -69,7 +69,7 @@ A pointer to a function that handles wake requests for the device. If **NULL**, 
 ## -remarks
 
 > [!WARNING]
-> Do not attempt to obtain the filter control mutex* from within either the Sleep or Wake callback, or deadlock may occur. For more information about mutexes, read [Mutexes in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream).
+> Do not attempt to obtain the filter control mutex* from within either the Sleep or Wake callback, or deadlock may occur. For more information about mutexes, read [Mutexes in AVStream](/windows-hardware/drivers/stream/mutexes-in-avstream).
 
 The two callbacks should be prototyped as follows:
 
@@ -79,11 +79,10 @@ void Sleep/Wake (IN PKSFILTER Filter, IN DEVICE_POWER_STATE State);
 
 The *Sleep* callback is made if *Filter* is a filter-centric filter and the device is going to sleep. The *Wake* callback is made if *Filter* is a filter-centric filter and the device is waking.
 
-For information about device power states, see [Device Power States](https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states).
+For information about device power states, see [Device Power States](/windows-hardware/drivers/kernel/device-power-states).
 
-Also see [Initializing an AVStream Minidriver](https://docs.microsoft.com/windows-hardware/drivers/stream/initializing-an-avstream-minidriver) and [Filter-Centric Processing](https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing).
+Also see [Initializing an AVStream Minidriver](/windows-hardware/drivers/stream/initializing-an-avstream-minidriver) and [Filter-Centric Processing](/windows-hardware/drivers/stream/filter-centric-processing).
 
 ## -see-also
 
-[KsPinRegisterPowerCallbacks](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterpowercallbacks)
-
+[KsPinRegisterPowerCallbacks](./nf-ks-kspinregisterpowercallbacks.md)

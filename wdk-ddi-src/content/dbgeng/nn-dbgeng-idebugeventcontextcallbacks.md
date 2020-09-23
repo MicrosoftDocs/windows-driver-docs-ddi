@@ -46,15 +46,14 @@ api_name:
 
 ## -description
 
-This interface supports event context callbacks and replaces the use of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a> method.
+This interface supports event context callbacks and replaces the use of the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a> method.
 
-Set this interface on a debugger client by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient6-seteventcontextcallbacks">IDebugClient6::SetEventContextCallbacks</a> method.
+Set this interface on a debugger client by using the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient6-seteventcontextcallbacks">IDebugClient6::SetEventContextCallbacks</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient6-seteventcontextcallbacks">IDebugClient6::SetEventContextCallbacks</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient6-seteventcontextcallbacks">IDebugClient6::SetEventContextCallbacks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a>

@@ -52,7 +52,7 @@ The interface identifier (IID) for this interface is IID_IKsAggregateControl.
 
 ## -inheritance
 
-The **IKsAggregateControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IKsAggregateControl** also has these types of members:
+The **IKsAggregateControl** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IKsAggregateControl** also has these types of members:
 
 - **Methods**
 
@@ -88,11 +88,10 @@ For more information about **IDistributorNotify**, **IUnknown**, and **CoCreateI
 
 ## -see-also
 
-[IKsControl](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
+[IKsControl](./nn-ksproxy-ikscontrol.md)
 
-[IKsObject::KsGetObjectHandle](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle)
+[IKsObject::KsGetObjectHandle](./nf-ksproxy-iksobject-ksgetobjecthandle.md)
 
-[KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate)
+[KsAddAggregate](./nf-ksproxy-iksaggregatecontrol-ksaddaggregate.md)
 
-[KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate)
-
+[KsRemoveAggregate](./nf-ksproxy-iksaggregatecontrol-ksremoveaggregate.md)

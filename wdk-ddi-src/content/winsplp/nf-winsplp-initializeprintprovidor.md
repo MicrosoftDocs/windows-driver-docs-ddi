@@ -55,7 +55,7 @@ api_name:
 ### -param pPrintProvidor 
 
 [out]
-Caller-supplied address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a> structure, to be filled in by the print provider.
+Caller-supplied address of a <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a> structure, to be filled in by the print provider.
 
 ### -param cbPrintProvidor 
 
@@ -73,9 +73,8 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise the
 
 ## -remarks
 
-Print providers are required to define an <b>InitializePrintProvidor</b> function, which is the first function called by the spooler after the provider has been loaded. The function must fill the supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a> structure with pointers to the provider's defined functions (see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/functions-defined-by-print-providers">Functions Defined by Print Providers</a>). The function can also perform other provider-specific initialization operations.
+Print providers are required to define an <b>InitializePrintProvidor</b> function, which is the first function called by the spooler after the provider has been loaded. The function must fill the supplied <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a> structure with pointers to the provider's defined functions (see <a href="/windows-hardware/drivers/print/functions-defined-by-print-providers">Functions Defined by Print Providers</a>). The function can also perform other provider-specific initialization operations.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a>

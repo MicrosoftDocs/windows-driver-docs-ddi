@@ -66,5 +66,4 @@ NDIS_WWAN_VENDOR_SPECIFIC should have the data following the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_vendor_specific">NDIS_WWAN_VENDOR_SPECIFIC</a>
-
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_vendor_specific">NDIS_WWAN_VENDOR_SPECIFIC</a>

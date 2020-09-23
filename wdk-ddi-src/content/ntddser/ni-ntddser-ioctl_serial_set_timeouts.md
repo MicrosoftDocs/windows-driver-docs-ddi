@@ -48,15 +48,15 @@ api_name:
 
 The <b>IOCTL_SERIAL_SET_TIMEOUTS</b> request sets the time-out values that the serial controller driver uses for read and write requests.
 
-To get the time-out values, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_timeouts">IOCTL_SERIAL_GET_TIMEOUTS</a> request.
+To get the time-out values, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_timeouts">IOCTL_SERIAL_GET_TIMEOUTS</a> request.
 
-For more information about time-outs, see <a href="https://docs.microsoft.com/previous-versions/ff547486(v=vs.85)">Setting Read and Write Time-Outs for a Serial Device</a>.
+For more information about time-outs, see <a href="/previous-versions/ff547486(v=vs.85)">Setting Read and Write Time-Outs for a Serial Device</a>.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a> structure that is used to input read and write time-out values.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a> structure that is used to input read and write time-out values.
 
 ### -input-buffer-length
 
@@ -78,13 +78,12 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the read time-out values exceed the maximum permitted values.
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the read time-out values exceed the maximum permitted values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_timeouts">IOCTL_SERIAL_GET_TIMEOUTS</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_timeouts">IOCTL_SERIAL_GET_TIMEOUTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>

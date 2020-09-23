@@ -53,7 +53,7 @@ The <code>SetIdlePowerManagement</code> method provides a way for the adapter dr
 ### -param _DeviceObject 
 
 [in]
-Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 ### -param _bEnabled 
 
@@ -70,13 +70,12 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclspower">IPortClsPower</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclspower">IPortClsPower</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/immediate-idle-timeout-opt-in">Immediate Idle Timeout Opt-in</a>
-
+<a href="/windows-hardware/drivers/audio/immediate-idle-timeout-opt-in">Immediate Idle Timeout Opt-in</a>

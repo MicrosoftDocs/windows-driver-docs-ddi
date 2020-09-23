@@ -64,7 +64,7 @@ The size, in bytes, of shared secret for use with RADIUS servers.
 
 ### -field RADIUSServer
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies a fixed address for the RADIUS server. The ISCSI_IP_Address structure defines the IP address in a way that is independent of the version of the IP protocol in use.
+A <a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies a fixed address for the RADIUS server. The ISCSI_IP_Address structure defines the IP address in a way that is independent of the version of the IP protocol in use.
 
 ### -field BackupRADIUSServer
 
@@ -82,7 +82,7 @@ A variable-length array that contains a shared secret. The initiator uses this s
 
 Initiators use RADIUS servers to perform authentication during the challenge handshake of CHAP.
 
-The WMI tool suite automatically generates a declaration of the MSiSCSI_RADIUSConfig structure when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-radiusconfig-wmi-class">MSiSCSI_RADIUSConfig WMI Class</a> in <i>Config.mof</i>. 
+The WMI tool suite automatically generates a declaration of the MSiSCSI_RADIUSConfig structure when it compiles the <a href="/windows-hardware/drivers/storage/msiscsi-radiusconfig-wmi-class">MSiSCSI_RADIUSConfig WMI Class</a> in <i>Config.mof</i>. 
 
 Initiators that support using RADIUS for CHAP authentication must implement the MSiSCSI_RADIUSConfig class.
 
@@ -92,9 +92,8 @@ Initiators should register each instance of the MSiSCSI_RADIUSConfig class using
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-radiusconfig-wmi-class">MSiSCSI_RADIUSConfig WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msiscsi-radiusconfig-wmi-class">MSiSCSI_RADIUSConfig WMI Class</a>

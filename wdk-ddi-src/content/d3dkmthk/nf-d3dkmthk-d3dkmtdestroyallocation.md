@@ -57,7 +57,7 @@ The <b>D3DKMTDestroyAllocation</b> function releases a resource, a list of alloc
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation">D3DKMT_DESTROYALLOCATION</a> structure that contains information for releasing allocations.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation">D3DKMT_DESTROYALLOCATION</a> structure that contains information for releasing allocations.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation">D3DKMT_DESTROYALLOCATION</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation">D3DKMT_DESTROYALLOCATION</a>

@@ -57,7 +57,7 @@ Pointer to the device object that represents the changer.
 
 ### -param changerDeviceError
 
-<p>Pointer to the buffer of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmidata/ns-wmidata-_wmi_changer_problem_device_error"><b>WMI_CHANGER_PROBLEM_DEVICE_ERROR</b></a> in which the minidriver returns the diagnostic information.</p>
+<p>Pointer to the buffer of type <a href="/windows-hardware/drivers/ddi/wmidata/ns-wmidata-_wmi_changer_problem_device_error"><b>WMI_CHANGER_PROBLEM_DEVICE_ERROR</b></a> in which the minidriver returns the diagnostic information.</p>
 
 ## -returns
 
@@ -76,9 +76,8 @@ STATUS_BUFFER_TOO_SMALL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddchgr/ne-ntddchgr-_changer_device_problem_type">CHANGER_DEVICE_PROBLEM_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ne-ntddchgr-_changer_device_problem_type">CHANGER_DEVICE_PROBLEM_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmidata/ns-wmidata-_wmi_changer_problem_device_error">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
-
+<a href="/windows-hardware/drivers/ddi/wmidata/ns-wmidata-_wmi_changer_problem_device_error">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>

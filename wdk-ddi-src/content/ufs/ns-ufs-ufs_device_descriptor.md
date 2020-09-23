@@ -339,7 +339,7 @@ Specifies the Manufacturer ID of the device.
 
 Specifies the Offset of Unit Descriptor 0's configurable
 parameters within the Configuration
-Descriptor, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor">UFS_CONFIG_DESCRIPTOR</a>.
+Descriptor, <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor">UFS_CONFIG_DESCRIPTOR</a>.
 
 ### -field bUDConfigPLength
 
@@ -437,41 +437,40 @@ maximum timeout for a change in <b>bPSAState</b>. The timeout value is calculate
 
 If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if the Boot well known logical unit is not mapped to an enabled logical unit, then the Boot well known logical unit shall terminate.
 
-<b>UFS_DEVICE_DESCRIPTOR</b> is read only, some of its parameters may be changed by changing the corresponding parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor">UFS_UNIT_CONFIG_DESCRIPTOR</a>.
+<b>UFS_DEVICE_DESCRIPTOR</b> is read only, some of its parameters may be changed by changing the corresponding parameter in <a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor">UFS_UNIT_CONFIG_DESCRIPTOR</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor">UFS_CONFIG_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor">UFS_CONFIG_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_device_health_descriptor">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_device_health_descriptor">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor">UFS_GEOMETRY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_interconnect_descriptor">UFS_INTERCONNECT_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_interconnect_descriptor">UFS_INTERCONNECT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_power_descriptor">UFS_POWER_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_power_descriptor">UFS_POWER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_rpmb_unit_descriptor">UFS_RPMB_UNIT_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_rpmb_unit_descriptor">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-_ufs_string_descriptor">UFS_STRING_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-_ufs_string_descriptor">UFS_STRING_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor">UFS_UNIT_CONFIG_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_descriptor">UFS_UNIT_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_descriptor">UFS_UNIT_DESCRIPTOR</a>

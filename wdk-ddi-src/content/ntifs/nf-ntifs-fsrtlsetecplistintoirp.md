@@ -108,13 +108,12 @@ An ECP list has already been attached to the given IRP.
 
 The <b>FsRtlSetEcpListIntoIrp</b> routine provides a mechanism for passing extra create parameters down the file system filter stack to underlying filter drivers.
 
-To retrieve an ECP list that is associated with a given IRP_MJ_CREATE operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546015">FsRtlGetEcpListFromIrp</a> routine.
+To retrieve an ECP list that is associated with a given IRP_MJ_CREATE operation, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlgetecplistfromirp">FsRtlGetEcpListFromIrp</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
+<a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546015">FsRtlGetEcpListFromIrp</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlgetecplistfromirp">FsRtlGetEcpListFromIrp</a>

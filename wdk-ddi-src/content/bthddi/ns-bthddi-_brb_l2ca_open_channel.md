@@ -55,7 +55,7 @@ The _BRB_L2CA_OPEN_CHANNEL structure describes a L2CAP channel to open to a remo
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field ChannelHandle
@@ -362,7 +362,7 @@ If set, the callback routine will be called when the profile driver receives an 
 ### -field Callback
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback
+     <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback
      Function</a> implemented by the profile driver, that the Bluetooth driver stack should call to notify
      the profile driver about any changes to the L2CAP connection.
 
@@ -374,14 +374,14 @@ The context to pass to the callback function specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a> and 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> for which to
+     <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a> and 
+     <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
 ### -field OutResults
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results">CHANNEL_CONFIG_RESULTS</a> structure that
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results">CHANNEL_CONFIG_RESULTS</a> structure that
      contains configuration parameters for the outbound request.
 
 ### -field InResults
@@ -397,7 +397,7 @@ Specifies the incoming queue length in message transfer units (MTUs).
 #### - ( unnamed struct )
 
 A 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+      <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
       about the current BRB.
 
 
@@ -546,8 +546,8 @@ The remote device accepted the connection.
 ## -remarks
 
 To open a L2CAP channel, profile drivers should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a> request.
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a> request.
 
 Profile drivers that act as clients specify a destination address, a PSM, and a variety of
     configuration parameters.
@@ -569,7 +569,7 @@ Profile drivers must allocate the memory to store the array that is stored in th
     <b>ExtraOptions</b> member and should not free this memory until the callback function defined in the 
     <b>Callback</b> member returns with an 
     <b>IndicationFreeExtraOptions</b> notification 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a> value passed in its 
+    <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a> value passed in its 
     <i>Indication</i> parameter.
 
 The 
@@ -580,13 +580,13 @@ The
 
 To accept or reject an incoming L2CAP connection request initiated by a remote device, profile drivers
     should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/previous-versions/ff536616(v=vs.85)">
     BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 A profile driver should build and send a <b>BRB_L2CA_OPEN_CHANNEL_RESPONSE</b> request when the Bluetooth
     driver stack calls the profile driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a> and passes 
+    <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a> and passes 
     <b>IndicationRemoteConnect</b> in the callback function's 
     <i>Indication</i> parameter.
 
@@ -616,46 +616,45 @@ Profile drivers must allocate the memory to store the array that is stored in th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a>
+<a href="/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
+<a href="/previous-versions/ff536616(v=vs.85)">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536618(v=vs.85)">BRB_L2CA_REGISTER_SERVER</a>
+<a href="/previous-versions/ff536618(v=vs.85)">BRB_L2CA_REGISTER_SERVER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results">CHANNEL_CONFIG_RESULTS</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_results">CHANNEL_CONFIG_RESULTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_option">L2CAP_CONFIG_OPTION</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_option">L2CAP_CONFIG_OPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a>

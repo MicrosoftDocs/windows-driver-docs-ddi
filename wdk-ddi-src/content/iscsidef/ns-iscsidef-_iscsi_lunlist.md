@@ -68,5 +68,4 @@ Reserved for Microsoft use only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-lunlist-wmi-class">ISCSI_LUNList WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/iscsi-lunlist-wmi-class">ISCSI_LUNList WMI Class</a>

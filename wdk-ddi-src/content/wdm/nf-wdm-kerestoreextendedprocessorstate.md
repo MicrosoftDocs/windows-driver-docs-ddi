@@ -53,7 +53,7 @@ The <b>KeRestoreExtendedProcessorState</b> routine restores extended processor s
 ### -param XStateSave 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">XSTATE_SAVE</a> structure that contains the extended processor state information to restore. The contents of this structure must have been previously saved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesaveextendedprocessorstate">KeSaveExtendedProcessorState</a> routine.
+A pointer to an <a href="/windows-hardware/drivers/kernel/eprocess">XSTATE_SAVE</a> structure that contains the extended processor state information to restore. The contents of this structure must have been previously saved by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesaveextendedprocessorstate">KeSaveExtendedProcessorState</a> routine.
 
 ## -remarks
 
@@ -77,21 +77,20 @@ The <b>KeRestoreExtendedProcessorState</b> call that restores a saved state must
 
 </li>
 </ul>
-A similar set of rules apply to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a> routines.
+A similar set of rules apply to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a> and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a> routines.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesaveextendedprocessorstate">KeSaveExtendedProcessorState</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesaveextendedprocessorstate">KeSaveExtendedProcessorState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">XSTATE_SAVE</a>
-
+<a href="/windows-hardware/drivers/kernel/eprocess">XSTATE_SAVE</a>

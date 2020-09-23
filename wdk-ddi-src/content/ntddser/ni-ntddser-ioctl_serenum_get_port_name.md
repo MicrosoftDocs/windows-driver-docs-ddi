@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The IOCTL_SERENUM_GET_PORT_NAME request returns the value of the <b>PortName</b> (or <b>Identifier</b>) entry value for the RS-232 port -- see <a href="https://docs.microsoft.com/previous-versions/ff546972(v=vs.85)">Registry Settings for a Plug and Play Serial Device</a>.
+The IOCTL_SERENUM_GET_PORT_NAME request returns the value of the <b>PortName</b> (or <b>Identifier</b>) entry value for the RS-232 port -- see <a href="/previous-versions/ff546972(v=vs.85)">Registry Settings for a Plug and Play Serial Device</a>.
 
 ## -ioctlparameters
 
@@ -92,4 +92,3 @@ The request completed successfully.
 **STATUS_UNSUCCESSFUL**
 
 An error occurred when opening the registry key for the device or reading the <b>PortName</b> (or <b>Identifier)</b> entry value.
-

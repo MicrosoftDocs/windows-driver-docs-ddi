@@ -53,7 +53,7 @@ PortCls calls the D3ExitLatencyChanged method while the device is in sleep (D3) 
 ### -param NewD3ExitLatency 
 
 [in]
-The  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-_pc_exit_latency">PC_EXIT_LATENCY</a> enumerated value that Portcls has determined for the device.
+The  <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-_pc_exit_latency">PC_EXIT_LATENCY</a> enumerated value that Portcls has determined for the device.
 
 ## -returns
 
@@ -61,7 +61,7 @@ This method returns an NTSTATUS value.
 
 ## -remarks
 
- The D3ExitLatencyChanged method is only called when the device is the D3 power state. When Portcls wakes the device into D0, it does so via <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/jj200332(v=vs.85)">PowerChangeState3</a>, and the device must be able to exit its sleep state within the latency period indicated by <i>NewD3ExitLatency</i>. Waking the audio adapter in this manner allows the driver to use the most appropriate method to adjust the power state of the audio adapter within the time-frame indicated  by the <i>NewD3ExitLatency</i> value.
+ The D3ExitLatencyChanged method is only called when the device is the D3 power state. When Portcls wakes the device into D0, it does so via <a href="/previous-versions/windows/hardware/drivers/jj200332(v=vs.85)">PowerChangeState3</a>, and the device must be able to exit its sleep state within the latency period indicated by <i>NewD3ExitLatency</i>. Waking the audio adapter in this manner allows the driver to use the most appropriate method to adjust the power state of the audio adapter within the time-frame indicated  by the <i>NewD3ExitLatency</i> value.
 
 The following table shows the possible values for <i>NewD3ExitLatency</i>.
   <table>
@@ -85,13 +85,12 @@ The following table shows the possible values for <i>NewD3ExitLatency</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement3">IAdapterPowerManagement3</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement3">IAdapterPowerManagement3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-_pc_exit_latency">PC_EXIT_LATENCY</a>
+<a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-_pc_exit_latency">PC_EXIT_LATENCY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/jj200332(v=vs.85)">PowerChangeState3</a>
-
+<a href="/previous-versions/windows/hardware/drivers/jj200332(v=vs.85)">PowerChangeState3</a>

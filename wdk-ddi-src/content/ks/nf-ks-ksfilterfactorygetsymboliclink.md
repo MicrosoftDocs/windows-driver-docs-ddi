@@ -54,13 +54,12 @@ The<b> KsFilterFactoryGetSymbolicLink</b> function returns the symbolic link ass
 ### -param FilterFactory 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to acquire the symbolic link.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to acquire the symbolic link.
 
 ## -returns
 
-<b>KsFilterFactoryGetSymbolicLink</b> returns a pointer to a Unicode string containing the <a href="https://docs.microsoft.com/windows-hardware/drivers/">symbolic link</a> for the filter factory if the call is successful, and <b>NULL</b> if unsuccessful. <b>NULL</b> indicates that no device interfaces have been registered for <i>FilterFactory</i>.
+<b>KsFilterFactoryGetSymbolicLink</b> returns a pointer to a Unicode string containing the <a href="/windows-hardware/drivers/">symbolic link</a> for the filter factory if the call is successful, and <b>NULL</b> if unsuccessful. <b>NULL</b> indicates that no device interfaces have been registered for <i>FilterFactory</i>.
 
 ## -remarks
 
 If <i>FilterFactory</i> has no registered device interfaces, <b>KsFilterFactoryGetSymbolicLink</b> returns <b>NULL</b>.
-

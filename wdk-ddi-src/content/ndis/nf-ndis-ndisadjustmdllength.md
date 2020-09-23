@@ -66,7 +66,7 @@ The number of bytes of data that the MDL describes.
 The 
     <b>NdisAdjustMdlLength</b> function modifies the 
     <b>ByteCount</b> member of an MDL that was allocated by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a> function.
 
 The caller of 
     <b>NdisAdjustMdlLength</b> can pass only an MDL descriptor that the caller allocated. It cannot pass an
@@ -80,22 +80,21 @@ For example, the driver of a bus-master DMA NIC calls
 
 The length that is passed to 
     <b>NdisAdjustMdlLength</b> cannot be larger than the length that was passed to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a> when the MDL descriptor
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a> when the MDL descriptor
     was allocated.
 
 The caller of 
     <b>NdisAdjustMdlLength</b> must restore the length to its original value before it frees the MDL
     descriptor with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreemdl">NdisFreeMdl</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreemdl">NdisFreeMdl</a>.
 
 Callers of 
     <b>NdisAdjustMdlLength</b> can run at any IRQL, but typically run at IRQL <= DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreemdl">NdisFreeMdl</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreemdl">NdisFreeMdl</a>

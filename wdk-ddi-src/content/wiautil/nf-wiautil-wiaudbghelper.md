@@ -72,13 +72,12 @@ The **wiauDbgHelper** function is a general-purpose function that is used intern
 
 ## -see-also
 
-[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgdump)
+[wiauDbgDump](./nf-wiautil-wiaudbgdump.md)
 
-[wiauDbgError](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerror)
+[wiauDbgError](./nf-wiautil-wiaudbgerror.md)
 
-[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr)
+[wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md)
 
-[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgtrace)
+[wiauDbgTrace](./nf-wiautil-wiaudbgtrace.md)
 
-[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgwarning)
-
+[wiauDbgWarning](./nf-wiautil-wiaudbgwarning.md)

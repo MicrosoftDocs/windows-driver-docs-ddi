@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-Describes a keyed mutex object that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex2">D3DKMTReleaseKeyedMutex2</a> function releases that includes private data.
+Describes a keyed mutex object that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex2">D3DKMTReleaseKeyedMutex2</a> function releases that includes private data.
 
 ## -struct-fields
 
@@ -74,5 +74,4 @@ Describes a keyed mutex object that the <a href="https://docs.microsoft.com/wind
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex2">D3DKMTReleaseKeyedMutex2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex2">D3DKMTReleaseKeyedMutex2</a>

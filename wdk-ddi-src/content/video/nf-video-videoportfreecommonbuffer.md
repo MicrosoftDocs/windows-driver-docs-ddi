@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-The <b>VideoPortFreeCommonBuffer</b> function is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>.
+The <b>VideoPortFreeCommonBuffer</b> function is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>.
 
-<b>VideoPortFreeCommonBuffer</b> deallocates system memory that was allocated by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>.
+<b>VideoPortFreeCommonBuffer</b> deallocates system memory that was allocated by a call to <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>.
 
 ## -parameters
 
@@ -83,13 +83,12 @@ None
 
 ## -remarks
 
-Except for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer's </a><i>Alignment</i> parameter, all of the parameters used in a call to <b>VideoPortFreeCommonBuffer</b> must have the same values as those used in the previous call to <b>VideoPortGetCommonBuffer</b>.
+Except for <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer's </a><i>Alignment</i> parameter, all of the parameters used in a call to <b>VideoPortFreeCommonBuffer</b> must have the same values as those used in the previous call to <b>VideoPortGetCommonBuffer</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>

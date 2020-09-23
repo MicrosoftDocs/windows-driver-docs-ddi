@@ -74,11 +74,11 @@ Boolean value that specifies the initial state of the event.
 
 A miniport can call **StorPortInitializeEvent** to initialize an event object as a synchronization or notification-type event, and set the event object to a signaled or not-signaled state.
 
-See [**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent) for more details.
+See [**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md) for more details.
 
 ## -see-also
 
-[**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md)
 
 [**STOR_EVENT**](ns-storport-stor_event.md)
 
@@ -87,4 +87,3 @@ See [**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/
 [**StorPortSetEvent**](nf-storport-storportsetevent.md)
 
 [**StoPortWaitForSingleObject**](nf-storport-storportwaitforsingleobject.md)
-

@@ -58,7 +58,7 @@ A pointer to the <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPre
 
 ### -field pfnPresentMultiplaneOverlayCb
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a> function. Supported starting with Windows 8.1.
+A pointer to the <a href="/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a> function. Supported starting with Windows 8.1.
 
 ### -field pfnPresentMultiplaneOverlay1Cb
 
@@ -78,7 +78,7 @@ A pointer to the [PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB](../dxgiddi/nc-dxgiddi-pf
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
+<a href="/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
 
 
 
@@ -91,4 +91,3 @@ A pointer to the [PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB](../dxgiddi/nc-dxgiddi-pf
 
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-

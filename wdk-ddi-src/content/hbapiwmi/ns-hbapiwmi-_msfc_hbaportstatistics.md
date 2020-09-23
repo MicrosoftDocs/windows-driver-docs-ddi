@@ -116,5 +116,4 @@ Contains a count of the number frames with invalid cyclic redundancy checksums.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaportstatistics-wmi-class">MSFC_HBAPortStatistics WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msfc-hbaportstatistics-wmi-class">MSFC_HBAPortStatistics WMI Class</a>

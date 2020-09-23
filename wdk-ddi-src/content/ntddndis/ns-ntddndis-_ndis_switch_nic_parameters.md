@@ -56,7 +56,7 @@ The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure specifies the configuration para
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
@@ -87,7 +87,7 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. The following f
 </dl>
 </td>
 <td width="60%">
-This flag is set when the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-create">OID_SWITCH_NIC_CREATE</a> OID is issued for the first time in the lifetime of a VM NIC object. If this flag is set:
+This flag is set when the <a href="/windows-hardware/drivers/network/oid-switch-nic-create">OID_SWITCH_NIC_CREATE</a> OID is issued for the first time in the lifetime of a VM NIC object. If this flag is set:
 
 <ul>
 <li>A Hyper-V Extensible Switch extension can optionally reduce the value of the <b>MTU</b> member in the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure if it needs to reserve headroom for encapsulation before it passes the OID down the stack. The extension will not be able to reserve encapsulation headroom for any other type of NIC.</li>
@@ -117,15 +117,15 @@ An NDIS_SWITCH_PORT_ID value that contains the unique identifier of the extensib
 
 An NDIS_SWITCH_NIC_INDEX value that specifies the index of the network adapter that is connected to the  extensible switch port specified by the <b>PortId</b> member.
 
-For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-adapter-index-values">Network Adapter Index Values</a>.
+For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="/windows-hardware/drivers/network/network-adapter-index-values">Network Adapter Index Values</a>.
 
 ### -field NicType
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_type">NDIS_SWITCH_NIC_TYPE</a> value that specifies the type of the network adapter that is connected to an extensible switch port.
+An <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_type">NDIS_SWITCH_NIC_TYPE</a> value that specifies the type of the network adapter that is connected to an extensible switch port.
 
 ### -field NicState
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_state">NDIS_SWITCH_NIC_STATE</a> value that specifies the current state of the network adapter.
+An <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_state">NDIS_SWITCH_NIC_STATE</a> value that specifies the current state of the network adapter.
 
 ### -field VmName
 
@@ -154,10 +154,10 @@ A <b>ULONG</b> value that specifies the maximum transmission unit (MTU) size, in
 
 <div class="alert"><b>Note</b>  The value of this member can change during the lifetime of a VM NIC. Therefore, extensions should read this member of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure that is passed down with the following OIDs:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-connect">OID_SWITCH_NIC_CONNECT</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-connect">OID_SWITCH_NIC_CONNECT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
 </li>
 </ul>
 </div>
@@ -178,7 +178,7 @@ A <b>UCHAR</b> array that specifies the media access control (MAC) address as co
 
 ### -field VMMacAddress
 
-A <b>UCHAR</b> array that specifies the MAC address that is configured on the network adapter inside the VM itself. The field is all zeros for non VM NICs. If <i>AllowMacSpoofing</i> (from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_property_security">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a>) is TRUE, this address will also be applied to the <i>CurrentMacAddress.</i>
+A <b>UCHAR</b> array that specifies the MAC address that is configured on the network adapter inside the VM itself. The field is all zeros for non VM NICs. If <i>AllowMacSpoofing</i> (from <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_port_property_security">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a>) is TRUE, this address will also be applied to the <i>CurrentMacAddress.</i>
 
 ### -field CurrentMacAddress
 
@@ -206,43 +206,43 @@ An NDIS_VM_FRIENDLYNAME value that specifies the external name of the Hyper-V ch
 
 ## -remarks
 
-OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-array">OID_SWITCH_NIC_ARRAY</a> return an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_array">NDIS_SWITCH_NIC_ARRAY</a> structure that contains zero or more elements. Each element is formatted as an <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure.
+OID query requests of <a href="/windows-hardware/drivers/network/oid-switch-nic-array">OID_SWITCH_NIC_ARRAY</a> return an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_array">NDIS_SWITCH_NIC_ARRAY</a> structure that contains zero or more elements. Each element is formatted as an <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure.
 
 The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure is also used in the following OID requests: 
 
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-create">OID_SWITCH_NIC_CREATE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-create">OID_SWITCH_NIC_CREATE</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-connect">OID_SWITCH_NIC_CONNECT</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-connect">OID_SWITCH_NIC_CONNECT</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-delete">OID_SWITCH_NIC_DELETE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-delete">OID_SWITCH_NIC_DELETE</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-disconnect">OID_SWITCH_NIC_DISCONNECT</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-disconnect">OID_SWITCH_NIC_DISCONNECT</a>
 
 
 </li>
 </ul>
-<div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_NIC_NAME</b>,  <b>NDIS_SWITCH_NIC_FRIENDLYNAME</b>, <b>NDIS_VM_NAME</b>, and  <b>NDIS_VM_FRIENDLYNAME</b> data types are type-defined by the <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
+<div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_NIC_NAME</b>,  <b>NDIS_SWITCH_NIC_FRIENDLYNAME</b>, <b>NDIS_VM_NAME</b>, and  <b>NDIS_VM_FRIENDLYNAME</b> data types are type-defined by the <a href="/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
 
 </div>
 <div> </div>
@@ -256,7 +256,7 @@ If the <b>NicType</b> member is set to <b>NdisSwitchNicTypeExternal</b>, the val
 
 The external network adapter provides a connection to the  physical network interface that is available on the host. The external network adapter can be accessed by the Hyper-V parent partition and all child partitions.
 
-<div class="alert"><b>Note</b>  The <b>InstanceId</b> value is generated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/pnp-manager">Plug and Play manager</a> that runs in the management operating system.</div>
+<div class="alert"><b>Note</b>  The <b>InstanceId</b> value is generated by the <a href="/windows-hardware/drivers/install/pnp-manager">Plug and Play manager</a> that runs in the management operating system.</div>
 <div> </div>
 </li>
 <li>
@@ -279,9 +279,9 @@ A PCIe VF is created and allocated by an underlying physical adapter that suppor
 
 If the <b>VFAssigned</b> member is set to <b>TRUE</b>, packets are routed directly between the underlying SR-IOV physical network adapter and the virtual adapter. However, because the extensible switch is not involved in packet delivery, extensible switch port policies, such as access control lists (ACLs), are not applied to these packets.
 
-The extension can remove a VF assignment by issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-switch-port-remove-vf">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a> status indication. This indication causes the packets to be delivered through an extensible switch port instead of directly between the VM network adapter and the SR-IOV physical adapter. This allows the extensible switch port policies to be applied to packets that are received or sent over the extensible switch port. When the extension makes the <b>NDIS_STATUS_SWITCH_PORT_REMOVE_VF</b> status indication, it specifies which extensible switch port the virtual network adapter is connected to.
+The extension can remove a VF assignment by issuing an <a href="/windows-hardware/drivers/network/ndis-status-switch-port-remove-vf">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a> status indication. This indication causes the packets to be delivered through an extensible switch port instead of directly between the VM network adapter and the SR-IOV physical adapter. This allows the extensible switch port policies to be applied to packets that are received or sent over the extensible switch port. When the extension makes the <b>NDIS_STATUS_SWITCH_PORT_REMOVE_VF</b> status indication, it specifies which extensible switch port the virtual network adapter is connected to.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-switch-port-remove-vf">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>.
+For more information, see <a href="/windows-hardware/drivers/network/ndis-status-switch-port-remove-vf">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>.
 
 ## -see-also
 
@@ -289,57 +289,56 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-switch-port-remove-vf">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>
+<a href="/windows-hardware/drivers/network/ndis-status-switch-port-remove-vf">NDIS_STATUS_SWITCH_PORT_REMOVE_VF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_array">NDIS_SWITCH_NIC_ARRAY</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_array">NDIS_SWITCH_NIC_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_state">NDIS_SWITCH_NIC_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_state">NDIS_SWITCH_NIC_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_type">NDIS_SWITCH_NIC_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_nic_type">NDIS_SWITCH_NIC_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-array">OID_SWITCH_NIC_ARRAY</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-array">OID_SWITCH_NIC_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-connect">OID_SWITCH_NIC_CONNECT</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-connect">OID_SWITCH_NIC_CONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-create">OID_SWITCH_NIC_CREATE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-create">OID_SWITCH_NIC_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-delete">OID_SWITCH_NIC_DELETE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-delete">OID_SWITCH_NIC_DELETE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-disconnect">OID_SWITCH_NIC_DISCONNECT</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-disconnect">OID_SWITCH_NIC_DISCONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-save">OID_SWITCH_NIC_SAVE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-save">OID_SWITCH_NIC_SAVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-save-complete">OID_SWITCH_NIC_SAVE_COMPLETE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-save-complete">OID_SWITCH_NIC_SAVE_COMPLETE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
-
+<a href="/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>

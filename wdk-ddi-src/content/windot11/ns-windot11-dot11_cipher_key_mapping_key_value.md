@@ -50,10 +50,10 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure defines a key-mapping cipher key that will be added
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure defines a key-mapping cipher key that will be added
   to or deleted from the key tables on the 802.11 station. For more information about this cipher key type,
   see
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>.
+  <a href="/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>.
 
 ## -struct-fields
 
@@ -120,13 +120,13 @@ If set to <b>TRUE</b>, the default key referenced by
 <ul>
 <li>
 Explicitly deleted through a set request of
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+       <a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
        OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>.
 
 </li>
 <li>
 Implicitly deleted through a method request of
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>.
+       <a href="/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>.
 
 </li>
 </ul>
@@ -174,7 +174,7 @@ typedef struct DOT11_CIPHER_KEY_MAPPING_KEY_VALUE {
 The Native 802.11 miniport driver uniquely identifies key-mapping keys through the
     <b>PeerMacAddr</b> and
     <b>Direction</b> members. When the
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+    <a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
     OID_DOT11_CIPHER_KEY_MAPPING_KEY</a> is set, the miniport driver can modify or delete an existing key
     only if the values of the
     <b>PeerMacAddr</b> and
@@ -200,7 +200,7 @@ If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
@@ -209,7 +209,7 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>
 
 
 
@@ -217,7 +217,7 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 
@@ -226,4 +226,3 @@ If the
 
 
 <a href="..\windot11\ne-windot11-dot11_direction.md">DOT11_DIRECTION</a>
-

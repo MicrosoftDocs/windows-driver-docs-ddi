@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The NDIS_WWAN_MAC_PARAMETERS structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-create-mac">OID_WWAN_CREATE_MAC</a> when processing a request to create an NDIS port for a new PDP context.
+The NDIS_WWAN_MAC_PARAMETERS structure is used by <a href="/windows-hardware/drivers/network/oid-wwan-create-mac">OID_WWAN_CREATE_MAC</a> when processing a request to create an NDIS port for a new PDP context.
 
 ## -struct-fields
 
@@ -97,9 +97,8 @@ sizeof(NDIS_WWAN_MAC_PARAMETERS)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-create-mac">OID_WWAN_CREATE_MAC</a>
-
+<a href="/windows-hardware/drivers/network/oid-wwan-create-mac">OID_WWAN_CREATE_MAC</a>

@@ -40,7 +40,7 @@ api_name:
 
 ## -description
 
-Represents the different process mitigation policies. For more information, see [**_PROCESS_MITIGATION_POLICY**](https://docs.microsoft.com/windows/win32/api/winnt/ne-winnt-process_mitigation_policy) enumeration.
+Represents the different process mitigation policies. For more information, see [**_PROCESS_MITIGATION_POLICY**](/windows/win32/api/winnt/ne-winnt-process_mitigation_policy) enumeration.
 
 ## -enum-fields
 
@@ -79,4 +79,3 @@ Represents the different process mitigation policies. For more information, see 
 ## -remarks
 
 ## -see-also
-

@@ -58,7 +58,7 @@ A pointer to the file object for which to associate context information (given b
 ### -param Ptr 
 
 [in]
-A pointer to a caller-allocated and initialized FSRTL_PER_FILEOBJECT_CONTEXT structure to be associated with <i>FileObject</i>. The structure can be used as-is or embedded in a driver-defined, per-file-object context information structure. To initialize the structure, use the <a href="https://docs.microsoft.com/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a> macro.
+A pointer to a caller-allocated and initialized FSRTL_PER_FILEOBJECT_CONTEXT structure to be associated with <i>FileObject</i>. The structure can be used as-is or embedded in a driver-defined, per-file-object context information structure. To initialize the structure, use the <a href="/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a> macro.
 
 ## -returns
 
@@ -108,26 +108,25 @@ The system lacks sufficient resources to complete the operation. For example, a 
 
 A file system filter driver calls <b>FsRtlInsertPerFileObjectContext </b>to associate its own per-file-object context structure with a file object. The context structure contains context information that the filter driver maintains for the file object. The <b>FsRtlInsertPerStreamContext</b> function inserts the <i>Ptr</i> context structure into the context list for <i>FileObject</i>.
 
-All per-file-object context information structures must be or contain an initialized FSRTL_PER_FILEOBJECT_CONTEXT structure. Use the <a href="https://docs.microsoft.com/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a> macro to initialize a FSRTL_PER_FILEOBJECT_CONTEXT structure.
+All per-file-object context information structures must be or contain an initialized FSRTL_PER_FILEOBJECT_CONTEXT structure. Use the <a href="/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a> macro to initialize a FSRTL_PER_FILEOBJECT_CONTEXT structure.
 
-After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object context structure (containing an initialized FSRTL_PER_FILEOBJECT_CONTEXT structure) has been associated with a file object, it can be retrieved by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546936">FsRtlLookupPerFileObjectContext</a> or removed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547232">FsRtlRemovePerFileObjectContext</a>.
+After a FSRTL_PER_FILEOBJECT_CONTEXT structure or filter-defined per-file-object context structure (containing an initialized FSRTL_PER_FILEOBJECT_CONTEXT structure) has been associated with a file object, it can be retrieved by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtllookupperfileobjectcontext">FsRtlLookupPerFileObjectContext</a> or removed by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlremoveperfileobjectcontext">FsRtlRemovePerFileObjectContext</a>.
 
-<div class="alert"><b>Note</b>    File system minifilter drivers must not use the <b>FsRtl</b><i>Xxx</i><b>PerFileObjectContext</b> functions. Instead, minifilters can use the <b>Flt</b><i>Xxx</i><b>Context</b> functions to associate context information with a file object. For a complete list, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547346">FSRTL_PER_FILEOBJECT_CONTEXT</a> topic.</div>
+<div class="alert"><b>Note</b>    File system minifilter drivers must not use the <b>FsRtl</b><i>Xxx</i><b>PerFileObjectContext</b> functions. Instead, minifilters can use the <b>Flt</b><i>Xxx</i><b>Context</b> functions to associate context information with a file object. For a complete list, see the <a href="/previous-versions/ff547346(v=vs.85)">FSRTL_PER_FILEOBJECT_CONTEXT</a> topic.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547346">FSRTL_PER_FILEOBJECT_CONTEXT</a>
+<a href="/previous-versions/ff547346(v=vs.85)">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a>
+<a href="/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546936">FsRtlLookupPerFileObjectContext</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtllookupperfileobjectcontext">FsRtlLookupPerFileObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547232">FsRtlRemovePerFileObjectContext</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlremoveperfileobjectcontext">FsRtlRemovePerFileObjectContext</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_ALGORITHM enumeration defines a cipher algorithm for data encryption and
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_ALGORITHM enumeration defines a cipher algorithm for data encryption and
   decryption.
 
 ## -enum-fields
@@ -109,7 +109,7 @@ Specifies a WEP cipher algorithm with a cipher key of any length.
 
 A miniport driver that operates in Extensible Station (ExtSTA) mode specifies the maximum WEP cipher
      key length through a query of
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-extsta-capability">OID_DOT11_EXTSTA_CAPABILITY</a>.
+     <a href="/windows-hardware/drivers/network/oid-dot11-extsta-capability">OID_DOT11_EXTSTA_CAPABILITY</a>.
 
 <div class="alert"><b>Note</b>  The operating system will only enable this cipher algorithm if authentication
      algorithms of
@@ -201,14 +201,14 @@ Starting with Windows 7, an 802.11 miniport driver can report any combination of
 
 If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport driver must allow
     peer stations to associate with the Extensible AP by using
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/open-system-authentication">Open System Authentication</a> or
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565846(v=vs.85)">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
+    <a href="/windows-hardware/drivers/network/open-system-authentication">Open System Authentication</a> or
+    <a href="/previous-versions/windows/hardware/network/ff565846(v=vs.85)">Wired Equivalent Privacy (WEP)</a> algorithms, regardless of
     the enabled authorization and cipher algorithms. For more information about WPS and Extensible AP, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wps-enabled">OID_DOT11_WPS_ENABLED</a>.
+    <a href="/windows-hardware/drivers/network/oid-dot11-wps-enabled">OID_DOT11_WPS_ENABLED</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
@@ -226,9 +226,8 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-current-phy-id">OID_DOT11_CURRENT_PHY_ID</a>
-
+<a href="/windows-hardware/drivers/network/oid-dot11-current-phy-id">OID_DOT11_CURRENT_PHY_ID</a>

@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>IO_PRIORITY_HINT</b> enumeration type specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-irp-priority-hints">priority hint</a> for an IRP.
+The <b>IO_PRIORITY_HINT</b> enumeration type specifies the <a href="/windows-hardware/drivers/kernel/using-irp-priority-hints">priority hint</a> for an IRP.
 
 ## -enum-fields
 
@@ -78,13 +78,12 @@ Marks the limit for priority hints. Any priority hint value must be less than <b
 
 ## -remarks
 
-For more information about priority hints, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-irp-priority-hints">Using IRP Priority Hints</a>.
+For more information about priority hints, see <a href="/windows-hardware/drivers/kernel/using-irp-priority-hints">Using IRP Priority Hints</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetiopriorityhint">IoGetIoPriorityHint</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetiopriorityhint">IoGetIoPriorityHint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetiopriorityhint">IoSetIoPriorityHint</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetiopriorityhint">IoSetIoPriorityHint</a>

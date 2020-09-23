@@ -72,7 +72,7 @@ A structure that contains the following members:
 ### -field Receive.SaDeleteReq
 
 A USHORT value that, when set, indicates that the TCP/IP transport should issue the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg155485(v=winembedded.80)">
+       <a href="/previous-versions/windows/embedded/gg155485(v=winembedded.80)">
        OID_TCP_TASK_IPSEC_DELETE_SA</a> OID once to delete the inbound SA that the packet was received over
        and once again to delete the outbound SA that corresponds to the deleted inbound SA. The network
        interface card (NIC) must not remove either of these SAs before it receives the corresponding
@@ -206,7 +206,7 @@ The IPsec protocols that were specified in the SA that the packet was received o
 Before the TCP/IP transport passes a send packet that a NIC will perform IPsec tasks on to the
     miniport driver of the NIC, the transport updates the IPsec information in the
     <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure that is associated with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 Specifically, the TCP/IP transport supplies a value for the 
     <b>OffloadHandle</b> member in the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure. The 
@@ -216,12 +216,12 @@ Specifically, the TCP/IP transport supplies a value for the
     <b>OffloadHandle</b> value that is supplied in the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure
     has the same value as the 
     <b>OffloadHandle</b> value that the TCP/IP transport supplied when it set 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a> to request
+    <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a> to request
     the miniport driver to add the outbound SA to the NIC.
 
 Before a miniport driver indicates up a receive packet that has one or more IPsec payloads, the driver
     updates the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure that is associated with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure as follows:
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure as follows:
 
 <ul>
 <li>
@@ -251,7 +251,7 @@ If the NIC did not perform IPsec checks on the packet, the miniport driver does 
 To create space for another SA on the NIC, the miniport driver of the NIC can set 
     <b>SaDeleteReq</b> in the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure for a receive packet. The
     TCP/IP transport subsequently issues 
-    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a> once
+    <a href="/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a> once
     to delete the inbound SA that the packet was received over and once again to delete the outbound SA that
     corresponds to the deleted inbound SA. The NIC must not remove either of these SAs before receiving the
     corresponding OID_TCP_TASK_IPSEC_DELETE_SA request. The miniport driver of the NIC can set 
@@ -260,26 +260,25 @@ To create space for another SA on the NIC, the miniport driver of the NIC can se
 
 To set and get the IPsec information, use the 
     <b>IPsecOffloadV1NetBufferListInfo</b> index with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro.
+    <a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro.
     <b>NET_BUFFER_LIST_INFO</b> returns the <b>NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
+<a href="/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a>
+<a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a>
-
+<a href="/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a>

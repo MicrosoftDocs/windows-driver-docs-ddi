@@ -64,9 +64,8 @@ Specifies the channel that the voice is on. This member contains a channel numbe
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/previous-versions/ff537407(v=vs.85)">KSPROPERTY_SYNTH_VOICEPRIORITY</a> property request uses the SYNTHVOICEPRIORITY_INSTANCE structure for its property descriptor. The structure specifies which voice gets priority when the miniport driver needs to bump voices from the cache.
+The <a href="/previous-versions/ff537407(v=vs.85)">KSPROPERTY_SYNTH_VOICEPRIORITY</a> property request uses the SYNTHVOICEPRIORITY_INSTANCE structure for its property descriptor. The structure specifies which voice gets priority when the miniport driver needs to bump voices from the cache.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff537407(v=vs.85)">KSPROPERTY_SYNTH_VOICEPRIORITY</a>
-
+<a href="/previous-versions/ff537407(v=vs.85)">KSPROPERTY_SYNTH_VOICEPRIORITY</a>

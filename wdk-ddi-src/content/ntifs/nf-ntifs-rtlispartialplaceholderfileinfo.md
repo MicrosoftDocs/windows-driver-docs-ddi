@@ -81,5 +81,4 @@ Returns<b> STATUS_SUCCESS</b> if IsPartialPlaceholder is valid and not undefined
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlispartialplaceholder">RtlIsPartialPlaceholder</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlispartialplaceholder">RtlIsPartialPlaceholder</a>

@@ -61,13 +61,12 @@ A variable that receives the writer interface object that <b>RequestWriter</b> r
 
 ## -remarks
 
-The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter">IPrintPipelineFilter::InitializeFilter</a> method. The filter uses the <b>RequestWriter</b> method to get the writer interface for the object. The universally unique identifier (UUID) for the object is declared in the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/filter-pipeline-configuration-file">filter pipeline configuration file</a>.
+The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a href="/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter">IPrintPipelineFilter::InitializeFilter</a> method. The filter uses the <b>RequestWriter</b> method to get the writer interface for the object. The universally unique identifier (UUID) for the object is declared in the <a href="/windows-hardware/drivers/print/filter-pipeline-configuration-file">filter pipeline configuration file</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter">IPrintPipelineFilter::InitializeFilter</a>
-
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter">IPrintPipelineFilter::InitializeFilter</a>

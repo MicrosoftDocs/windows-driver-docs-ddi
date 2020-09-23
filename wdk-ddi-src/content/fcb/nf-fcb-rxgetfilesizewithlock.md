@@ -70,13 +70,12 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
-
+<a href="/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>

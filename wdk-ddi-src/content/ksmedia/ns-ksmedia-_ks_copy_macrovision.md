@@ -109,9 +109,8 @@ Indicates that Macrovision level 3 copyright protection must be in effect.
 
 The KS_COPY_MACROVISION structure is used by the KSPROPERTY_COPY_MACROVISION property.
 
-For additional uses of this structure see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/macrovision">Macrovision</a>.
+For additional uses of this structure see <a href="/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a> and <a href="/windows-hardware/drivers/stream/macrovision">Macrovision</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-copy-macrovision">KSPROPERTY_COPY_MACROVISION</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-copy-macrovision">KSPROPERTY_COPY_MACROVISION</a>

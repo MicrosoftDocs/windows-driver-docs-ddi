@@ -64,7 +64,7 @@ The kernel memory tag that NDIS should use to allocate memory for the generic ob
 ### -param Size
 
 The amount of memory, in bytes, to reserve for the caller. This does not include the size of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure. Use the
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure. Use the
      additional memory space for your own purposes. To access the additional memory, use 
      sizeof(NDIS_GENERIC_OBJECT) to skip over the generic object structure.
 
@@ -80,15 +80,14 @@ NDIS uses a generic object to manage resources that are allocated by a component
     handle in some NDIS resource allocation APIs that require an NDIS handle.
 
 NDIS drivers must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreegenericobject">NdisFreeGenericObject</a> function to
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreegenericobject">NdisFreeGenericObject</a> function to
     free a generic object that was created with 
     <b>NdisAllocateGenericObject</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreegenericobject">NdisFreeGenericObject</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreegenericobject">NdisFreeGenericObject</a>

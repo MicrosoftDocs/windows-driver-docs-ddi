@@ -108,9 +108,8 @@ Reserved for future use. Do not use.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a>

@@ -120,13 +120,12 @@ If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivate
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/d3dddi-openallocationinfo2">D3DDDI_OPENALLOCATIONINFO2</a>
+<a href="/windows-hardware/drivers/display/d3dddi-openallocationinfo2">D3DDDI_OPENALLOCATIONINFO2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopennthandlefromname">D3DKMTOpenNtHandleFromName</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopennthandlefromname">D3DKMTOpenNtHandleFromName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>

@@ -60,7 +60,7 @@ Receives the current thread's system handle.
 
 ## -returns
 
-This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return other error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -84,5 +84,4 @@ The method was successful.
 
 In kernel-mode debugging, an artificial handle is created because the threads are virtual threads.
 
-For more information about threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on system handles, see <a href="https://docs.microsoft.com/windows-hardware/drivers/">Handles</a>.
-
+For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on system handles, see <a href="/windows-hardware/drivers/">Handles</a>.

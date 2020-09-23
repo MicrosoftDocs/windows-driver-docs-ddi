@@ -60,5 +60,4 @@ The device-specific information stored by a changer miniclass driver is determin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerinitialize">ChangerInitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerinitialize">ChangerInitialize</a>

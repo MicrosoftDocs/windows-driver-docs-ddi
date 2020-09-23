@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GetPortAttributesByWWN_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getportattributesbywwn">GetPortAttributesByWWN</a> WMI method.
+The GetPortAttributesByWWN_IN structure is used by a WMI client to deliver input parameter data to the <a href="/windows-hardware/drivers/storage/getportattributesbywwn">GetPortAttributesByWWN</a> WMI method.
 
 ## -struct-fields
 
@@ -60,11 +60,10 @@ Contains a worldwide name that identifies a port of type FC_Port.
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the GetPortAttributesByWWN_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the GetPortAttributesByWWN_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 For a definition of FC_Port and a discussion of worldwide names, see the T11 committee's specification for <i>Fibre Channel HBA API</i> (FC-HBA).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getportattributesbywwn">GetPortAttributesByWWN</a>
-
+<a href="/windows-hardware/drivers/storage/getportattributesbywwn">GetPortAttributesByWWN</a>

@@ -62,7 +62,7 @@ The monitor connector type of the monitor
 
                      This is a zero-based unique identifier for this connector. It should be unique for this adapter and the value should not change for this connector across system reboot or driver upgrade. 
 
-<div class="alert"><b>Note</b>  The value has to be between 0 and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-iddcx_adapter_caps">IDDCX_ADAPTER_CAPS</a> value MaxMonitorsSupported minus 1.
+<div class="alert"><b>Note</b>  The value has to be between 0 and the <a href="/windows-hardware/drivers/ddi/iddcx/ns-iddcx-iddcx_adapter_caps">IDDCX_ADAPTER_CAPS</a> value MaxMonitorsSupported minus 1.
                  </div>
 <div> </div>
 
@@ -73,4 +73,3 @@ The monitor connector type of the monitor
 ### -field MonitorContainerId
 
                      Container Id of the monitor being connected. If any device is also inside the monitor (eg audio, touch etc), then those devices should all have the same container id.
-

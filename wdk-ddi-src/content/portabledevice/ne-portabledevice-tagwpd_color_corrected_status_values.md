@@ -67,9 +67,8 @@ The image has not been, and should not be, color corrected.
 
 ## -remarks
 
-Indicates the color corrected status of an image. This enumeration is used by the [**WPD_IMAGE_COLOR_CORRECTED_STATUS**](https://docs.microsoft.com/windows/win32/wpd_sdk/image-properties) property.
+Indicates the color corrected status of an image. This enumeration is used by the [**WPD_IMAGE_COLOR_CORRECTED_STATUS**](/windows/win32/wpd_sdk/image-properties) property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>

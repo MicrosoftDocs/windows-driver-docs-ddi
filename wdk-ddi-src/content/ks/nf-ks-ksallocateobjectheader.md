@@ -64,12 +64,12 @@ Specifies the number of object create items in the *ItemsList* to be added to th
 ### -param ItemsList 
 
 [in, optional]
-Optionally specifies a pointer to a caller-allocated buffer containing a series of [KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item) structures to be added to the object header. Must be set to **NULL** if there are no object create items.
+Optionally specifies a pointer to a caller-allocated buffer containing a series of [KSOBJECT_CREATE_ITEM](./ns-ks-ksobject_create_item.md) structures to be added to the object header. Must be set to **NULL** if there are no object create items.
 
 ### -param Irp 
 
 [in]
-Points to the IRP, of major function [IRP_MJ_CREATE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create), that contains the necessary information to complete the creation of the object header.
+Points to the IRP, of major function [IRP_MJ_CREATE](/windows-hardware/drivers/ifs/irp-mj-create), that contains the necessary information to complete the creation of the object header.
 
 ### -param Table 
 
@@ -82,11 +82,11 @@ The **KsAllocateObjectHeader** function returns **STATUS_SUCCESS** if successful
 
 ## -remarks
 
-Before calling this routine the driver must allocate system-resident storage for a [KSDISPATCH_TABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdispatch_table) and initialize the dispatch table. The memory for this dispatch table cannot be released until **KsFreeObjectHeader** is called.
+Before calling this routine the driver must allocate system-resident storage for a [KSDISPATCH_TABLE](./ns-ks-ksdispatch_table.md) and initialize the dispatch table. The memory for this dispatch table cannot be released until **KsFreeObjectHeader** is called.
 
 **KsAllocateObjectHeader** allocates the memory for the **KSOBJECT_HEADER** structure and returns a pointer to the header at *Header*. Drivers must not attempt to free the memory themselves, but rather call **KsFreeObjectHeader** when all operations requiring this object header have been completed.
 
-If subobjects exist for a given device, the driver must, before calling **KsAllocateObjectHeader**, allocate a buffer of either paged or nonpaged memory of sufficient size to hold a [KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item) structure for each subobject. For example:
+If subobjects exist for a given device, the driver must, before calling **KsAllocateObjectHeader**, allocate a buffer of either paged or nonpaged memory of sufficient size to hold a [KSOBJECT_CREATE_ITEM](./ns-ks-ksobject_create_item.md) structure for each subobject. For example:
 
 ```cpp
 /* Allocate a buffer for 4 subobjects for a given streaming device */
@@ -97,13 +97,12 @@ createBuffer = (PKSOBJECT_CREATE_ITEM)
                ExAllocatePoolWithTag (PagedPool, bufferSize) ;
 ```
 
-Drivers must not free the memory allocated for the subobject [KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item) list until after calling **KsFreeDeviceHeader**. Failure to do so can result in a bug check condition.
+Drivers must not free the memory allocated for the subobject [KSOBJECT_CREATE_ITEM](./ns-ks-ksobject_create_item.md) list until after calling **KsFreeDeviceHeader**. Failure to do so can result in a bug check condition.
 
 ## -see-also
 
-[KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item)
+[KSOBJECT_CREATE_ITEM](./ns-ks-ksobject_create_item.md)
 
-[KsFreeDeviceHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreedeviceheader)
+[KsFreeDeviceHeader](./nf-ks-ksfreedeviceheader.md)
 
-[KsFreeObjectHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectheader)
-
+[KsFreeObjectHeader](./nf-ks-ksfreeobjectheader.md)

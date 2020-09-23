@@ -52,7 +52,7 @@ api_name:
 
 ### -param HwDeviceExtension
 
-Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
+Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
 ## -returns
 
@@ -84,30 +84,30 @@ If a miniport driver has an <i>HwVidInterrupt</i> function, no register or memor
 
 If any other miniport driver function shares memory, such as part of the <i>HwDeviceExtension</i>, with <i>HwVidInterrupt</i>, it must call <b>VideoPortSynchronizeExecution</b> to synchronize its access to the shared area.
 
-<i>HwVidInterrupt</i> can call only the following system-supplied <b>VideoPort</b><i>Xxx</i> routines (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Functions Exported by the Video Port Driver</a>):
+<i>HwVidInterrupt</i> can call only the following system-supplied <b>VideoPort</b><i>Xxx</i> routines (see <a href="/windows-hardware/drivers/ddi/index">Functions Exported by the Video Port Driver</a>):
 
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportzerodevicememory">VideoPortZeroDeviceMemory</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportzerodevicememory">VideoPortZeroDeviceMemory</a> and <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlogerror">VideoPortLogError</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportlogerror">VideoPortLogError</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportstallexecution">VideoPortStallExecution</a> for no more than a very few microseconds. If possible, <i>HwVidInterrupt</i> should avoid calling this function.
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportstallexecution">VideoPortStallExecution</a> for no more than a very few microseconds. If possible, <i>HwVidInterrupt</i> should avoid calling this function.
 
 </li>
 <li>
@@ -116,12 +116,12 @@ All <b>VideoPortRead</b><i>Xxx</i> and <b>VideoPortWrite</b><i>Xxx</i> routines.
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportdisableinterrupt">VideoPortDisableInterrupt</a> (obsolete)
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportdisableinterrupt">VideoPortDisableInterrupt</a> (obsolete)
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportenableinterrupt">VideoPortEnableInterrupt</a> (obsolete)
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportenableinterrupt">VideoPortEnableInterrupt</a> (obsolete)
 
 </li>
 </ul>
@@ -131,37 +131,36 @@ A <i>HwVidInterrupt</i> function cannot be pageable, nor can any function that i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Functions Exported by the Video Port Driver</a>
+<a href="/windows-hardware/drivers/ddi/index">Functions Exported by the Video Port Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportdisableinterrupt">VideoPortDisableInterrupt</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportdisableinterrupt">VideoPortDisableInterrupt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportenableinterrupt">VideoPortEnableInterrupt</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportenableinterrupt">VideoPortEnableInterrupt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlogerror">VideoPortLogError</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportlogerror">VideoPortLogError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportstallexecution">VideoPortStallExecution</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportstallexecution">VideoPortStallExecution</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportzerodevicememory">VideoPortZeroDeviceMemory</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportzerodevicememory">VideoPortZeroDeviceMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>

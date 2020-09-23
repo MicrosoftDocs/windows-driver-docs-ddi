@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IoPageRead</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a> and <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
+The <b>IoPageRead</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopyread">CcCopyRead</a> and <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ Reserved.
 ### -param IoStatusBlock
 
 Reserved.
-

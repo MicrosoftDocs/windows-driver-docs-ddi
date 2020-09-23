@@ -58,5 +58,4 @@ If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l1
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyserverreferral">IPrintAsyncNotifyServerReferral</a>
-
+<a href="/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyserverreferral">IPrintAsyncNotifyServerReferral</a>

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>RtlUpcaseUnicodeToCustomCPN</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetomultibyten">RtlUpcaseUnicodeToMultiByteN</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetooemn">RtlUpcaseUnicodeToOemN</a>.
+The <b>RtlUpcaseUnicodeToCustomCPN</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetomultibyten">RtlUpcaseUnicodeToMultiByteN</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetooemn">RtlUpcaseUnicodeToOemN</a>.
 
 ## -parameters
 
@@ -73,4 +73,3 @@ Reserved.
 ### -param BytesInUnicodeString
 
 Reserved.
-

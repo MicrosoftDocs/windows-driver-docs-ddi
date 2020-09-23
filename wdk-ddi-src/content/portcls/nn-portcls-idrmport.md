@@ -46,9 +46,8 @@ api_name:
 
 ## -description
 
-The <code>IDrmPort</code> interface is used by a WaveCyclic or WavePci miniport driver to manage DRM-protected content (see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/digital-rights-management">Digital Rights Management</a>). The port driver implements this interface and exposes it to the miniport driver. In Windows XP and later, the WaveCyclic and WavePci port drivers support this interface. To determine whether a port driver supports the <code>IDrmPort</code> interface, a miniport driver calls the port (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>) object's <b>QueryInterface</b> method with REFIID <b>IID_IDrmPort</b>.
+The <code>IDrmPort</code> interface is used by a WaveCyclic or WavePci miniport driver to manage DRM-protected content (see <a href="/windows-hardware/drivers/audio/digital-rights-management">Digital Rights Management</a>). The port driver implements this interface and exposes it to the miniport driver. In Windows XP and later, the WaveCyclic and WavePci port drivers support this interface. To determine whether a port driver supports the <code>IDrmPort</code> interface, a miniport driver calls the port (<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a> or <a href="/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>) object's <b>QueryInterface</b> method with REFIID <b>IID_IDrmPort</b>.
 
-The methods in this interface serve as alternate entry points to the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/drm-functions">DRM Functions</a> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">DRMK system driver</a>, drmk.sys.
+The methods in this interface serve as alternate entry points to the <a href="/windows-hardware/drivers/audio/drm-functions">DRM Functions</a> in the <a href="/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">DRMK system driver</a>, drmk.sys.
 
-For more information about <code>IDrmPort</code>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/content-ids-and-content-rights">Content IDs and Content Rights</a>.
-
+For more information about <code>IDrmPort</code>, see <a href="/windows-hardware/drivers/audio/content-ids-and-content-rights">Content IDs and Content Rights</a>.

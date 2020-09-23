@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GetPersistentBinding2_IN structure is used to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a> WMI method.
+The GetPersistentBinding2_IN structure is used to deliver input parameter data to the <a href="/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a> WMI method.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ Indicates the number of binding entries that the WMI provider can report.
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the GetPersistentBinding2_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetPersistentBinding2_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a>
-
+<a href="/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a>

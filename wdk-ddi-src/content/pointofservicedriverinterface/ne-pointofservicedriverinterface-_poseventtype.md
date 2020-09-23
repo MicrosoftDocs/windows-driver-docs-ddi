@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-This enumeration defines values used in the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> structure to indicate the type of event that was raised.
+This enumeration defines values used in the <a href="/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> structure to indicate the type of event that was raised.
 
 ## -enum-fields
 
@@ -60,39 +60,39 @@ The event code is not valid.
 
 ### -field ReleaseDeviceRequested
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn790033(v=vs.85)">ReleaseDeviceRequested</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn790033(v=vs.85)">ReleaseDeviceRequested</a> event.
 
 ### -field StatusUpdated
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn790040(v=vs.85)">StatusUpdated</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn790040(v=vs.85)">StatusUpdated</a> event.
 
 ### -field BarcodeScannerTriggerPressed
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757468(v=vs.85)">BarcodeScannerTriggerPressed</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn757468(v=vs.85)">BarcodeScannerTriggerPressed</a> event.
 
 ### -field BarcodeScannerTriggerReleased
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757469(v=vs.85)">BarcodeScannerTriggerReleased</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn757469(v=vs.85)">BarcodeScannerTriggerReleased</a> event.
 
 ### -field BarcodeScannerDataReceived
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757463(v=vs.85)">BarcodeScannerDataReceived</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn757463(v=vs.85)">BarcodeScannerDataReceived</a> event.
 
 ### -field BarcodeScannerErrorOccurred
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757464(v=vs.85)">BarcodeScannerErrorOccurred</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn757464(v=vs.85)">BarcodeScannerErrorOccurred</a> event.
 
 ### -field BarcodeScannerImagePreviewReceived
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event.
 
 ### -field MagneticStripeReaderDataReceived
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772149(v=vs.85)">MagneticStripeReaderDataReceived</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn772149(v=vs.85)">MagneticStripeReaderDataReceived</a> event.
 
 ### -field MagneticStripeReaderErrorOccurred
 
-Represents the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772151(v=vs.85)">MagneticStripeReaderErrorOccured</a> event.
+Represents the <a href="/previous-versions/windows/hardware/previsioning-framework/dn772151(v=vs.85)">MagneticStripeReaderErrorOccured</a> event.
 
 ### -field PointOfServicePrinterErrorOccurred
 
@@ -113,4 +113,3 @@ Represents the DrawerOpened event.
 ### -field _Max
 
 Represents the _Max event.
-

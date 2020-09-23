@@ -64,9 +64,8 @@ The message authentication code (MAC) that the client uses to verify that the Me
 
 ## -remarks
 
-Clients retrieve the AACS certificate with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_media_id">IOCTL_AACS_READ_MEDIA_ID</a> request.
+Clients retrieve the AACS certificate with an <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_media_id">IOCTL_AACS_READ_MEDIA_ID</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_media_id">IOCTL_AACS_READ_MEDIA_ID</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_media_id">IOCTL_AACS_READ_MEDIA_ID</a>

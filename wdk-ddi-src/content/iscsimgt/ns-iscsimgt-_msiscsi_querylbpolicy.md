@@ -56,7 +56,7 @@ This MSiSCSI_QueryLBPolicy method returns the MCS load balancing policy for each
 
 ### -field UniqueAdapterId
 
-This is a unique connection identifier that the initiator uses to identify a connection. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in the UniqueConnectionId parameter.
+This is a unique connection identifier that the initiator uses to identify a connection. The <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in the UniqueConnectionId parameter.
 
 ### -field Reserved
 
@@ -68,7 +68,7 @@ This specifies the number of active sessions for this adapater ID.
 
 ### -field LoadBalancePolicies
 
-This is an enumeration that contains information required to set the load balance policy. For more information about how to set the load balance policy, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_supported_lb_policies">ISCSI_Supported_LB_Policies</a>. There will be as many of these structures as the number of sessions available for this adapter.
+This is an enumeration that contains information required to set the load balance policy. For more information about how to set the load balance policy, see <a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_supported_lb_policies">ISCSI_Supported_LB_Policies</a>. There will be as many of these structures as the number of sessions available for this adapter.
 
 ## -remarks
 
@@ -76,13 +76,12 @@ You must implement this class only if the adapter supports MCS. Otherwise, it is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
+<a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_supported_lb_policies">ISCSI_Supported_LB_Policies</a>
+<a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_supported_lb_policies">ISCSI_Supported_LB_Policies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
-
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>

@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-This structure contains the configuration passed into the start of breadcrumbing via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_start_breadcrumbing">IOCTL_GNSS_START_BREADCRUMBING</a>.
+This structure contains the configuration passed into the start of breadcrumbing via <a href="/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_start_breadcrumbing">IOCTL_GNSS_START_BREADCRUMBING</a>.
 
 ## -struct-fields
 
@@ -82,4 +82,3 @@ Contains the maximum error timeout in milliseconds. If the location of the devic
 #### - Unused[512]
 
 Padding buffer.
-

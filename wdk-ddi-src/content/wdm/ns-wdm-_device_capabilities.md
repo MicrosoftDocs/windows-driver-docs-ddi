@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-A <b>DEVICE_CAPABILITIES</b> structure describes PnP and power capabilities of a device. This structure is returned in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a> IRP.
+A <b>DEVICE_CAPABILITIES</b> structure describes PnP and power capabilities of a device. This structure is returned in response to an <a href="/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a> IRP.
 
 ## -struct-fields
 
@@ -94,7 +94,7 @@ Specifies whether the device is a docking peripheral.
 
 ### -field UniqueID
 
-Specifies whether the device's instance ID is unique system-wide. This bit is clear if the instance ID is unique only within the scope of the bus. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+Specifies whether the device's instance ID is unique system-wide. This bit is clear if the instance ID is unique only within the scope of the bus. For more information, see <a href="/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
 ### -field SilentInstall
 
@@ -102,7 +102,7 @@ Specifies whether Device Manager should suppress all installation dialog boxes; 
 
 ### -field RawDeviceOK
 
-Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called <a href="https://docs.microsoft.com/windows-hardware/drivers/">raw mode</a>.
+Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called <a href="/windows-hardware/drivers/">raw mode</a>.
 
 ### -field SurpriseRemovalOK
 
@@ -147,7 +147,7 @@ Reserved for future use.
 
 ### -field NoDisplayInUI
 
-Do not display the device in the user interface. If this bit is set, the device is <u>never</u> displayed in the user interface, even if the device is present but fails to start. Only bus drivers and associated bus filter drivers should set this bit. (Also see the <b>PNP_DEVICE_DONT_DISPLAY_IN_UI</b> flag in the [PNP_DEVICE_STATE](https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state) structure.)
+Do not display the device in the user interface. If this bit is set, the device is <u>never</u> displayed in the user interface, even if the device is present but fails to start. Only bus drivers and associated bus filter drivers should set this bit. (Also see the <b>PNP_DEVICE_DONT_DISPLAY_IN_UI</b> flag in the [PNP_DEVICE_STATE](/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state) structure.)
 
 ### -field Reserved1
 
@@ -275,13 +275,12 @@ Bus drivers set the appropriate values in this structure in response to an <b>IR
 
 Drivers that send an <b>IRP_MN_QUERY_CAPABILITIES</b> request must initialize the <b>Size</b>, <b>Version</b>, <b>Address</b>, and <b>UINumber</b> members of this structure before sending the IRP. 
 
-For more information about using the <b>DEVICE_CAPABILITIES</b> structure to describe a device's power capabilities, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/reporting-device-power-capabilities">Reporting Device Power Capabilities</a>.
+For more information about using the <b>DEVICE_CAPABILITIES</b> structure to describe a device's power capabilities, see <a href="/windows-hardware/drivers/kernel/reporting-device-power-capabilities">Reporting Device Power Capabilities</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a>
 
 
 
-[PNP_DEVICE_STATE](https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)
-
+[PNP_DEVICE_STATE](/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)

@@ -54,7 +54,7 @@ The KSPROPERTY_TUNER_CAPS_S structure describes the hardware capabilities of TV 
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field ModesSupported
 
@@ -131,17 +131,16 @@ Specifies a unique GUID representing the hardware connection of the analog radio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-caps">KSPROPERTY_TUNER_CAPS</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-tuner-caps">KSPROPERTY_TUNER_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>

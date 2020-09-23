@@ -65,5 +65,4 @@ For examples of using this function, see the [Realtek sample driver](https://git
 
 ## -see-also
 
-[Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings)
-
+[Introduction to net rings](/windows-hardware/drivers/netcx/introduction-to-net-rings)

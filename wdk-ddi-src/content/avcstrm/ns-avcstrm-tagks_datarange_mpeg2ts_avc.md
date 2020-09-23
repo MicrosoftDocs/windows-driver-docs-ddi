@@ -64,9 +64,8 @@ Specifies the AV/C preconnection info.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avcpreconnectinfo">AVCPRECONNECTINFO</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avcpreconnectinfo">AVCPRECONNECTINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
-
+<a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>

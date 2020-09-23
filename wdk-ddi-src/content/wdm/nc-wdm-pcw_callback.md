@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Providers can optionally implement a `PCW_CALLBACK` function to receive notifications when consumers make requests such as enumerating instances or collecting counterset data. The [Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623) calls the `PCW_CALLBACK` function before completing the consumer's request.
+Providers can optionally implement a `PCW_CALLBACK` function to receive notifications when consumers make requests such as enumerating instances or collecting counterset data. The [Performance Counter Library (PERFLIB version 2.0)](/previous-versions/bb756968(v=msdn.10)) calls the `PCW_CALLBACK` function before completing the consumer's request.
 
 ## -parameters
 
@@ -155,7 +155,7 @@ MyProviderCallback(
 
 ### - example
 
-Most counterset providers use the [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp) tool to process their counterset manifest and generate helper functions, including functions wrapping `PcwRegister` (CTRPP generates the counter descriptors) and `PcwAddInstance` (CTRPP generates code for wrapping the provider's data structures into the format required by `PcwAddInstance`).
+Most counterset providers use the [CTRPP](/windows/win32/perfctrs/ctrpp) tool to process their counterset manifest and generate helper functions, including functions wrapping `PcwRegister` (CTRPP generates the counter descriptors) and `PcwAddInstance` (CTRPP generates code for wrapping the provider's data structures into the format required by `PcwAddInstance`).
 
 For reference in this example, the following is the CTRPP-generated Register function for the `KCS.man` manifest from the KCS sample.
 
@@ -334,7 +334,6 @@ In the `DriverEntry` routine of the KCS sample, the `KcsGeometricWaveCallback` f
 
 [PCW_CALLBACK_INFORMATION structure](ns-wdm-_pcw_callback_information.md)
 
-[CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
+[CTRPP](/windows/win32/perfctrs/ctrpp)
 
-[Performance Counter Library (PERFLIB version 2.0)](https://go.microsoft.com/fwlink/p/?linkid=144623)
-
+[Performance Counter Library (PERFLIB version 2.0)](/previous-versions/bb756968(v=msdn.10))

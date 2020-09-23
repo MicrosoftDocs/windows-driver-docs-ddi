@@ -56,7 +56,7 @@ The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the acce
 
 ### -field dwFunction
 
-Indicates whether encryption is being used and the operation to which encryption applies. The 24 most significant bits of <b>dwFunction</b> indicate that an encryption protocol is being used. These bits must be 0xFFFF00 when sent by the host software decoder, and 0xFFFF08 when sent by the accelerator. The 8 least significant bits of <b>dwFunction</b> contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func</a> variable that indicates the operation to which the encryption protocol applies. Currently, the only relevant defined value of <i>bDXVA_Func</i> for use in these bits is 1, which indicates that the encryption protocol applies to compressed picture decoding.
+Indicates whether encryption is being used and the operation to which encryption applies. The 24 most significant bits of <b>dwFunction</b> indicate that an encryption protocol is being used. These bits must be 0xFFFF00 when sent by the host software decoder, and 0xFFFF08 when sent by the accelerator. The 8 least significant bits of <b>dwFunction</b> contain a <a href="/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func</a> variable that indicates the operation to which the encryption protocol applies. Currently, the only relevant defined value of <i>bDXVA_Func</i> for use in these bits is 1, which indicates that the encryption protocol applies to compressed picture decoding.
 
 There are only two possible values for <b>dwFunction</b> in this structure: 0xFFFF0001 when sent by a host software decoder, and 0xFFFF0801 when sent by the hardware accelerator.
 
@@ -70,5 +70,4 @@ Contains the GUID associated with the encryption protocol.
 
 ## -remarks
 
-The encryption protocol in use is externally defined and operates as described in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/encryption-support">Encryption Support</a>.
-
+The encryption protocol in use is externally defined and operates as described in <a href="/windows-hardware/drivers/display/encryption-support">Encryption Support</a>.

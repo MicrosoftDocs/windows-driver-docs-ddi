@@ -47,7 +47,7 @@ api_name:
 ##  Major Code:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
+<a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
 
 
 ## -description
@@ -70,14 +70,14 @@ The  request indicates that the virtualization stack wants to register for Plug 
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
 
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
 This request is unsafe if the PF device is currently stopped or stopping for resource re-balance. A device is
-considered to be stopped after it received  <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a> and restarted when it receives  <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-cancel-stop-device">IRP_MN_CANCEL_STOP_DEVICE</a> or when  <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>
+considered to be stopped after it received  <a href="/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a> and restarted when it receives  <a href="/windows-hardware/drivers/kernel/irp-mn-cancel-stop-device">IRP_MN_CANCEL_STOP_DEVICE</a> or when  <a href="/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>
 is completed by the lower devices in the stack. In this case, the driver must delay the completion of this request until the device is restarted.
 
 It is not necessary to keep  this IRP pending because the request always a sent as
@@ -85,25 +85,25 @@ It is not necessary to keep  this IRP pending because the request always a sent 
 
 
 Upon the completion of this request, the VSP can subsequently  send
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a> requests.
+<a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> and <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a> requests.
 
-To unregister for Plug and Play events, the VSP sends the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_detach">IOCTL_SRIOV_DETACH</a> request.
+To unregister for Plug and Play events, the VSP sends the <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_detach">IOCTL_SRIOV_DETACH</a> request.
 
-These events (defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ne-pcivirt-_sriov_pf_event">SRIOV_PF_EVENT</a>) cause the completion of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> and a wait for  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a>:
+These events (defined in <a href="/windows-hardware/drivers/ddi/pcivirt/ne-pcivirt-_sriov_pf_event">SRIOV_PF_EVENT</a>) cause the completion of  <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> and a wait for  <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a>:
 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a> generates  <b>SriovEventPfQueryStopDevice</b>.</li>
+<a href="/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a> generates  <b>SriovEventPfQueryStopDevice</b>.</li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> generates  <b>SriovEventPfRestart</b><i> if and only if</i> the device was stopped for rebalancing (see above).
+<a href="/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> generates  <b>SriovEventPfRestart</b><i> if and only if</i> the device was stopped for rebalancing (see above).
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-cancel-stop-device">IRP_MN_CANCEL_STOP_DEVICE</a> generates  <b>SriovEventPfRestart</b><i> if and only if</i> the device was stopped for rebalancing.</li>
+<a href="/windows-hardware/drivers/kernel/irp-mn-cancel-stop-device">IRP_MN_CANCEL_STOP_DEVICE</a> generates  <b>SriovEventPfRestart</b><i> if and only if</i> the device was stopped for rebalancing.</li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-remove-device">IRP_MN_QUERY_REMOVE_DEVICE</a> generates  <b>SriovEventPfQueryRemoveDevice</b>.</li>
+<a href="/windows-hardware/drivers/kernel/irp-mn-query-remove-device">IRP_MN_QUERY_REMOVE_DEVICE</a> generates  <b>SriovEventPfQueryRemoveDevice</b>.</li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a> generates <b>SriovEventPfSurpriseRemoveDevice</b>.
+<a href="/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a> generates <b>SriovEventPfSurpriseRemoveDevice</b>.
 </li>
 </ul>
 In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver maintains PnP states in its device context. The deviceContext->PnpRebalancing is set to TRUE, when the driver receives IRP_MN_QUERY_STOP_DEVICE and set to FALSE when it receives IRP_MN_START_DEVICE.
@@ -165,13 +165,12 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_detach">IOCTL_SRIOV_DETACH</a>
+<a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_detach">IOCTL_SRIOV_DETACH</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-

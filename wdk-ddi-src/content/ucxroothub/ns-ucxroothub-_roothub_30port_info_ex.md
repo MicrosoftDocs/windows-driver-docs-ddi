@@ -56,7 +56,7 @@ Provides extended USB 3.0 port information about  speed.
 
 ### -field Info
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_30port_info">ROOTHUB_30PORT_INFO</a> structure.
+A <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_30port_info">ROOTHUB_30PORT_INFO</a> structure.
 
 ### -field MaxSpeedsCount
 
@@ -69,4 +69,3 @@ The count of bus speeds supported.
 ### -field Speeds
 
 A pointer to a <b>USB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED</b> structure that describes the USB 3.1capability's sublink speed attributes. For structure declaration, see Usbspec.h
-

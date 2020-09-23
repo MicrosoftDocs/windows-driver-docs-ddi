@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The IHV Extensions DLL calls the
   <b>Dot11ExtSendNotification</b> function to send notifications to any service or
@@ -67,7 +67,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 
 [in]
 A pointer to an
-     <a href="https://docs.microsoft.com/windows/win32/api/l2cmn/ns-l2cmn-_l2_notification_data">L2_NOTIFICATION_DATA</a> structure.
+     <a href="/windows/win32/api/l2cmn/ns-l2cmn-_l2_notification_data">L2_NOTIFICATION_DATA</a> structure.
 
 
 
@@ -100,9 +100,8 @@ If the IHV Extensions DLL allocated memory for the notification data referenced 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/l2cmn/ns-l2cmn-_l2_notification_data">L2_NOTIFICATION_DATA</a>
+<a href="/windows/win32/api/l2cmn/ns-l2cmn-_l2_notification_data">L2_NOTIFICATION_DATA</a>
 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-

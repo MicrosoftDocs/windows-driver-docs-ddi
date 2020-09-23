@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>GetModuleByModuleNameWide</b>  method searches through the target's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">modules</a> for one with the specified name.
+The <b>GetModuleByModuleNameWide</b>  method searches through the target's <a href="/windows-hardware/drivers/debugger/modules">modules</a> for one with the specified name.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ Receives the location in the target's memory address space of the base of the mo
 
 ## -returns
 
-This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return other error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -107,13 +107,12 @@ One of the arguments passed in was invalid.
 
 Starting at the specified index, these methods return the first module they find with the specified name.  If the target has more than one module with this name, then subsequent modules can be found by repeated calls to these methods with higher values of <i>StartIndex</i>.  
 
-For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
+For more information about modules, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebymodulename2">GetModuleByModuleName2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebymodulename2">GetModuleByModuleName2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>

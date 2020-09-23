@@ -54,7 +54,7 @@ The <b>PsQueryTotalCycleTimeProcess</b> routine returns the accumulated cycle ti
 ### -param Process 
 
 [in, out]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EPROCESS</a> structure that serves as the kernel object for the process.
+A pointer to an <a href="/windows-hardware/drivers/kernel/eprocess">EPROCESS</a> structure that serves as the kernel object for the process.
 
 ### -param CycleTimeStamp 
 
@@ -71,5 +71,4 @@ This routine uses the time stamp counter to get the number of processor clock cy
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EPROCESS</a>
-
+<a href="/windows-hardware/drivers/kernel/eprocess">EPROCESS</a>

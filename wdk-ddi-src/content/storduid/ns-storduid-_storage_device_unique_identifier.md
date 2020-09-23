@@ -64,21 +64,20 @@ The size, in bytes, of the identifier header and the identifiers (IDs) that foll
 
 ### -field StorageDeviceIdOffset
 
-The offset, in bytes, from the beginning of the header to the device ID descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>). The device ID descriptor contains the IDs that are extracted from page 0x83 of the device's vital product data (VPD).
+The offset, in bytes, from the beginning of the header to the device ID descriptor (<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>). The device ID descriptor contains the IDs that are extracted from page 0x83 of the device's vital product data (VPD).
 
 ### -field StorageDeviceOffset
 
-The offset, in bytes, from the beginning of the header to the device descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>). The device descriptor contains IDs that are extracted from non-VPD inquiry data.
+The offset, in bytes, from the beginning of the header to the device descriptor (<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>). The device descriptor contains IDs that are extracted from non-VPD inquiry data.
 
 ### -field DriveLayoutSignatureOffset
 
-The offset, in bytes, to the drive layout signature (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storduid/ns-storduid-_storage_device_layout_signature">STORAGE_DEVICE_LAYOUT_SIGNATURE</a>).
+The offset, in bytes, to the drive layout signature (<a href="/windows-hardware/drivers/ddi/storduid/ns-storduid-_storage_device_layout_signature">STORAGE_DEVICE_LAYOUT_SIGNATURE</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>

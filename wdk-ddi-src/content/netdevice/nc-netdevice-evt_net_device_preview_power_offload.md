@@ -91,7 +91,6 @@ Client drivers typically call **NetDeviceInitSetPowerPolicyEventCallbacks** when
 
 In this callback, client drivers get the chance to reject the protocol offload. For example, if the number of protocol offloads in the current protocol offload list for **Device** have already reached or exceeded the number of protocol offloads that the hardware supports, the driver can reject this protocol offload.
 
-For more info, see [Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
+For more info, see [Configuring Power Management](/windows-hardware/drivers/netcx/configuring-power-management).
 
 ## -see-also
-

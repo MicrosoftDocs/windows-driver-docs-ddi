@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-Reports the colorimetry values selected by the OS for a target. The OS will call this routine whenever any of the values in the [DXGK_COLORIMETRY](../d3dkmddi/ns-d3dkmddi-_dxgk_colorimetry.md) changes or the **SdrWhiteLevel** in [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3) changes for a target.
+Reports the colorimetry values selected by the OS for a target. The OS will call this routine whenever any of the values in the [DXGK_COLORIMETRY](../d3dkmddi/ns-d3dkmddi-_dxgk_colorimetry.md) changes or the **SdrWhiteLevel** in [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure](../d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3.md) changes for a target.
 
 ## -parameters
 
@@ -86,4 +86,3 @@ NTSTATUS DxgkddiSettargetadjustedcolorimetry2
 This callback function replaces [DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY](nc-dispmprt-dxgkddi_settargetadjustedcolorimetry.md) and is more extensible in the future, as it contains a pointer to the DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 that can change over new releases.
 
 ## -see-also
-

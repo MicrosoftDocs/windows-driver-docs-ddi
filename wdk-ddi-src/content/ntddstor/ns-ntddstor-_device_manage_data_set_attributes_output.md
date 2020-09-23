@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The **DEVICE_DSM_OUTPUT** (or DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT) structure describes output for [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) requests for some data set management actions.
+The **DEVICE_DSM_OUTPUT** (or DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT) structure describes output for [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md) requests for some data set management actions.
 
 ## -struct-fields
 
@@ -60,11 +60,11 @@ Size of this structure, in bytes. Set this member to **sizeof**(DEVICE_DSM_OUTPU
 
 ### -field Action
 
-DEVICE_DSM_ACTION value that specifies the action related to the instance of this structure. See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions) for a list of values and action descriptions.
+DEVICE_DSM_ACTION value that specifies the action related to the instance of this structure. See [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-dsm-action-descriptions) for a list of values and action descriptions.
 
 ### -field Flags
 
-Flags for the data set management action. See the **Flags** member of [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes).
+Flags for the data set management action. See the **Flags** member of [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md).
 
 ### -field OperationStatus
 
@@ -96,9 +96,8 @@ Depending on the value of **Action**, an output block is written at an offset of
 
 ## -see-also
 
-[DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions)
+[DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 
-[DEVICE_DATA_SET_LB_PROVISIONING_STATE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_data_set_lb_provisioning_state)
+[DEVICE_DATA_SET_LB_PROVISIONING_STATE](./ns-ntddstor-_device_data_set_lb_provisioning_state.md)
 
-[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
-
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>FsRtlLookupPerStreamContextInternal</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtllookupperstreamcontext">FsRtlLookupPerStreamContext</a>.
+The <b>FsRtlLookupPerStreamContextInternal</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtllookupperstreamcontext">FsRtlLookupPerStreamContext</a>.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Reserved.
 ### -param InstanceId
 
 Reserved.
-

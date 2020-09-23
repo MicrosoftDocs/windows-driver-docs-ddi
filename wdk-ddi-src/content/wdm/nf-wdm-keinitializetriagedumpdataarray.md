@@ -66,7 +66,6 @@ This function returns NTSTATUS.
 
 ## -see-also
 
-[**KeInitializeTriageDumpDataArray**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetriagedumpdataarray)
+[**KeInitializeTriageDumpDataArray**]()
 
-[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine)
-
+[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)

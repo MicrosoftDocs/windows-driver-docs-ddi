@@ -54,7 +54,6 @@ This method's return value is ignored by the engine.
 
 ## -remarks
 
-Even if the engine has not called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebuginputcallbacks-startinput">IDebugInputCallbacks::StartInput</a> for this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebuginputcallbacks">IDebugInputCallbacks</a> object, the engine will call <b>EndInput</b> if another IDebugInputCallbacks object returned an error from the <b>IDebugInputCallbacks::StartInput</b> method.
+Even if the engine has not called <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebuginputcallbacks-startinput">IDebugInputCallbacks::StartInput</a> for this <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebuginputcallbacks">IDebugInputCallbacks</a> object, the engine will call <b>EndInput</b> if another IDebugInputCallbacks object returned an error from the <b>IDebugInputCallbacks::StartInput</b> method.
 
-For more information about debugger engine input, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
+For more information about debugger engine input, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.

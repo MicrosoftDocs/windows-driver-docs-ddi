@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BSS_TYPE enumeration defines a basic service set (BSS) network type.
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BSS_TYPE enumeration defines a basic service set (BSS) network type.
 
 ## -enum-fields
 
@@ -81,7 +81,7 @@ typedef enum _DOT11_BSS_TYPE {
 
 The
     <b>dot11_BSS_type_any</b> enumerator is valid only if it is specified when
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is set.
+    <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is set.
     <b>dot11_BSS_type_any</b> is used to request a scan for all types of BSSs that are visible to the 802.11
     station.
 
@@ -91,12 +91,12 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-wlantimedconnectrequest">
+<a href="/windows-hardware/drivers/devtest/ndis-wlantimedconnectrequest">
    NDIS_STATUS_DOT11_CONNECTION_START</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
 
 
 
@@ -104,9 +104,8 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-enum-bss-list">OID_DOT11_ENUM_BSS_LIST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-enum-bss-list">OID_DOT11_ENUM_BSS_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
-
+<a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>

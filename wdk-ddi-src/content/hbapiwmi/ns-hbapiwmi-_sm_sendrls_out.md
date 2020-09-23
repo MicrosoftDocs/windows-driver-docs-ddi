@@ -56,7 +56,7 @@ The SM_SendRLS_OUT structure is used to receive output parameters from the SM_Se
 
 ### -field HBAStatus
 
-The status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
+The status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ### -field TotalRespBufferSize
 
@@ -73,4 +73,3 @@ The results of the common transport command.
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_SendRNID_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_FabricAndDomainManagementMethod WMI class.
-

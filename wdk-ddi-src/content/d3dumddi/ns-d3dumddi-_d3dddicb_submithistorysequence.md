@@ -62,7 +62,7 @@ Specifies the length, in bytes, of the commands being submitted to the GPU. This
 
 ### -field Flags
 
-An instance of the [**D3DDDICB_SUBMITCOMMANDFLAGS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_submitcommandflags) structure.
+An instance of the [**D3DDDICB_SUBMITCOMMANDFLAGS**](./ns-d3dumddi-_d3dddicb_submitcommandflags.md) structure.
 
 ### -field BroadcastContextCount
 
@@ -90,11 +90,11 @@ Arrays of handle to the primaries and swapchain back buffers being written to by
 
 ### -field MarkerLogType
 
-A [**D3DDDI_MARKERLOGTYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_markerlogtype) enumeration that indicates the type of marker in the Event Tracing for Windows (ETW) log that the user-mode display driver supports.
+A [**D3DDDI_MARKERLOGTYPE**](./ne-d3dumddi-d3dddi_markerlogtype.md) enumeration that indicates the type of marker in the Event Tracing for Windows (ETW) log that the user-mode display driver supports.
 
 ### -field RenderCBSequence
 
-A unique identifier for each [*pfnRenderCb*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb) function call. Starts at a value of 1 for contexts associated with single-threaded user-mode DDIs and ranges to a value of 0x80000001 for contexts associated with free-threaded user mode DDIs. The user-mode display driver must increment the value for each *pfnRenderCb* call it makes on any engine.
+A unique identifier for each [*pfnRenderCb*](./nc-d3dumddi-pfnd3dddi_rendercb.md) function call. Starts at a value of 1 for contexts associated with single-threaded user-mode DDIs and ranges to a value of 0x80000001 for contexts associated with free-threaded user mode DDIs. The user-mode display driver must increment the value for each *pfnRenderCb* call it makes on any engine.
 
 ### -field FirstAPISequenceNumberHigh
 
@@ -154,17 +154,16 @@ Set to null.
 
 ## -remarks
 
-The [*pfnSubmitCommandCb*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_submitcommandcb) code path no longer provides an allocation list for the user mode driver to provide a list of allocations that will be read and written to during this command. However, it is necessary to synchronize some writes that would not normally be known without the allocation list. For this, a new small allocation list specifically for surfaces which will be written to and used for displaying content. The **WrittenPrimaries** array should be used to provide such allocations.
+The [*pfnSubmitCommandCb*](./nc-d3dumddi-pfnd3dddi_submitcommandcb.md) code path no longer provides an allocation list for the user mode driver to provide a list of allocations that will be read and written to during this command. However, it is necessary to synchronize some writes that would not normally be known without the allocation list. For this, a new small allocation list specifically for surfaces which will be written to and used for displaying content. The **WrittenPrimaries** array should be used to provide such allocations.
 
-Despite the name, **WrittenPrimaries** must contain allocations that are considered *SwapChainBackBuffer* allocations according to the runtime in addition to the primaries. This is exposed to the user mode driver by a new flag in [**D3D10_DDI_RESOURCE_MISC_FLAG**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_misc_flag). The runtime will provide the **D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE** flag to the user mode driver during calls to create a resource or heap that is created as a *FlipEx swapchain* or *primary*. The driver may use this flag to determine all allocations that should be put in the **WrittenPrimaries** list for Microsoft Direct3D 11. Other runtimes have not changed.
+Despite the name, **WrittenPrimaries** must contain allocations that are considered *SwapChainBackBuffer* allocations according to the runtime in addition to the primaries. This is exposed to the user mode driver by a new flag in [**D3D10_DDI_RESOURCE_MISC_FLAG**](../d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md). The runtime will provide the **D3DWDDM2_0DDI_RESOURCE_MISC_DISPLAYABLE_SURFACE** flag to the user mode driver during calls to create a resource or heap that is created as a *FlipEx swapchain* or *primary*. The driver may use this flag to determine all allocations that should be put in the **WrittenPrimaries** list for Microsoft Direct3D 11. Other runtimes have not changed.
 
-If the driver receives a call to [**CreateResource**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource) that has this flag, the allocation should be added to this list on every [*pfnSubmitCommandCb*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_submitcommandcb) call that writes to the surface.
+If the driver receives a call to [**CreateResource**](./nc-d3dumddi-pfnd3dddi_createresource.md) that has this flag, the allocation should be added to this list on every [*pfnSubmitCommandCb*](./nc-d3dumddi-pfnd3dddi_submitcommandcb.md) call that writes to the surface.
 
 ## -see-also
 
-[**D3D10_DDI_RESOURCE_MISC_FLAG**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_misc_flag)
+[**D3D10_DDI_RESOURCE_MISC_FLAG**](../d3d10umddi/ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md)
 
-[*pfnRenderCb*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb)
+[*pfnRenderCb*](./nc-d3dumddi-pfnd3dddi_rendercb.md)
 
-[*pfnSubmitCommandCb*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_submitcommandcb)
-
+[*pfnSubmitCommandCb*](./nc-d3dumddi-pfnd3dddi_submitcommandcb.md)

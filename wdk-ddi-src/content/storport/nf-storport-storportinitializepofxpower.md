@@ -63,7 +63,7 @@ The address of a storage device unit. This parameter is <b>NULL</b> when registe
 ### -param Device 
 
 [in]
-A pointer to a <b>STOR_POFX_DEVICE_V2</b> structure cast to a pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>. This structure contains a component list with F-states for a storage device.
+A pointer to a <b>STOR_POFX_DEVICE_V2</b> structure cast to a pointer to <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>. This structure contains a component list with F-states for a storage device.
 
 ### -param D3ColdEnabled 
 
@@ -98,7 +98,7 @@ The storage device specified by <i>Address</i> is not found.
 
 -or-
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a> structure pointed to by  <i>Device</i> is formatted incorrectly or contains invalid data.
+The <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a> structure pointed to by  <i>Device</i> is formatted incorrectly or contains invalid data.
 
 </td>
 </tr>
@@ -149,5 +149,4 @@ If the <b>STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD</b> flag is set in the <b>Flags</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>

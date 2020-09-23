@@ -58,7 +58,7 @@ The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrievi
 
 ### -field Type
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_queuedlimit_type">D3DKMT_QUEUEDLIMIT_TYPE</a>-typed value that indicates the type of operations to set or retrieve the queued limit for.
+[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_queuedlimit_type">D3DKMT_QUEUEDLIMIT_TYPE</a>-typed value that indicates the type of operations to set or retrieve the queued limit for.
 
 ### -field QueuedPresentLimit
 
@@ -74,9 +74,8 @@ The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrievi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetqueuedlimit">D3DKMTSetQueuedLimit</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetqueuedlimit">D3DKMTSetQueuedLimit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_queuedlimit_type">D3DKMT_QUEUEDLIMIT_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_queuedlimit_type">D3DKMT_QUEUEDLIMIT_TYPE</a>

@@ -52,14 +52,14 @@ api_name:
 
 The <b>NDIS_OFFLOAD_PARAMETERS</b> structure specifies the current task offload configuration settings in
   response to an 
-  OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a>.
+  OID set request of <a href="/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a>.
 
 ## -struct-fields
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_OFFLOAD_PARAMETERS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -690,7 +690,7 @@ A structure that contains the **VxlanUDPPortNumber**.
 
 ### -field EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber
 
-The VXLAN destination port value. This value is set to the IANA-assigned value of 4789 by default. If the miniport driver supports a configurable port number as advertised in the [**NDIS_OFFLOAD**](../ntddndis/ns-ntddndis-_ndis_offload.md) structure, a protocol driver can issue an [OID_TCP_OFFLOAD_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-parameters) OID to enable NDIS_ENCAPSULATION_TYPE_VXLAN with a different value in **VxlanUDPPortNumber**. The miniport driver must use **VxlanUDPPortNumber** to determine VXLAN encapsulated packets for performing receive offloads.
+The VXLAN destination port value. This value is set to the IANA-assigned value of 4789 by default. If the miniport driver supports a configurable port number as advertised in the [**NDIS_OFFLOAD**](../ntddndis/ns-ntddndis-_ndis_offload.md) structure, a protocol driver can issue an [OID_TCP_OFFLOAD_PARAMETERS](/windows-hardware/drivers/network/oid-tcp-offload-parameters) OID to enable NDIS_ENCAPSULATION_TYPE_VXLAN with a different value in **VxlanUDPPortNumber**. The miniport driver must use **VxlanUDPPortNumber** to determine VXLAN encapsulated packets for performing receive offloads.
 
 ### -field EncapsulationProtocolParameters.Value
 
@@ -789,7 +789,7 @@ USO is enabled.
 ## -remarks
 
 In response to an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a> OID set
+    <a href="/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a> OID set
     request, a miniport driver uses the settings in the <b>NDIS_OFFLOAD_PARAMETERS</b> structure to set the current
     configuration of the miniport adapter.
 
@@ -829,14 +829,13 @@ The feature that the member specifies is enabled for transmit and receive.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+<a href="/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a>
-
+<a href="/windows-hardware/drivers/network/oid-tcp-offload-parameters">OID_TCP_OFFLOAD_PARAMETERS</a>

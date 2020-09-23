@@ -52,9 +52,8 @@ api_name:
 
 ### -field MonitorModeBufferOutputCount
 
-                     [out] If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_in_parsemonitordescription">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description. f the <b>IDARG_IN_PARSEMONITORDESCRIPTION</b> value <b>pMonitorModes</b> was non-NULL then this is the count of the monitor modes that the driver copied to that buffer.
+                     [out] If the <a href="/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idarg_in_parsemonitordescription">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description. f the <b>IDARG_IN_PARSEMONITORDESCRIPTION</b> value <b>pMonitorModes</b> was non-NULL then this is the count of the monitor modes that the driver copied to that buffer.
 
 ### -field PreferredMonitorModeIdx
 
                      [out] Index into the <b>pMonitorModes</b> array of the preferred mode monitor mode, a value of <b>NO_PREFERRED_MODE</b>indicates that there is no preferred monitor mode.
-

@@ -59,16 +59,16 @@ The
 The handle to an offload target-allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param OffloadBlockList 
 
 [in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which can be the root of a linked list of such
      structures. These structures identify the offloaded state objects that are being updated. Only cached
      variables are updated.
@@ -82,13 +82,13 @@ The
     <i>MiniportAdapterContext</i> handle and the 
     <i>OffloadBlockList</i> pointer and then returns. The offload target always completes the update operation
     asynchronously by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">
     NdisMUpdateOffloadComplete</a> function. The 
     <i>OffloadBlockList</i> pointer points to an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that can either be
     a stand-alone structure or the root block list in an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/offload-state-tree">offload state tree</a> that contains multiple
+    <a href="/windows-hardware/drivers/network/offload-state-tree">offload state tree</a> that contains multiple
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures. Such block lists, as well as any 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">offload state structures</a> that are
+    <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">offload state structures</a> that are
     associated with them, are valid until the miniport driver calls the 
     <b>
     NdisMUpdateOffloadComplete</b> function.
@@ -102,13 +102,13 @@ Before the
 <li>
 The offload target copies the variable values from any state structures in the tree to the
       corresponding 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/offload-state-objects">offloaded state objects</a>. Only CACHED
+      <a href="/windows-hardware/drivers/network/offload-state-objects">offloaded state objects</a>. Only CACHED
       variables are updated.
 
 </li>
 <li>
 The tree might indicate that path-to-neighbor links must be updated. For more information, see 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">Linking
+      <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">Linking
       Path State Objects to a New Neighbor State Object</a>. In this case, the offload target must update
       its internal representation of offloaded state to reflect the updated links.
 
@@ -117,18 +117,17 @@ The tree might indicate that path-to-neighbor links must be updated. For more in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">NdisMUpdateOffloadComplete</a>
-
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">NdisMUpdateOffloadComplete</a>

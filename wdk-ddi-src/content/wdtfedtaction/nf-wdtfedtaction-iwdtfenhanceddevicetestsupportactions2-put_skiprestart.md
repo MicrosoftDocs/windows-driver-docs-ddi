@@ -64,11 +64,10 @@ HRESULT put_SkipRestart(
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Enable</a> and
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-disable">Disable</a> methods
+The <a href="/windows-hardware/drivers/ddi/index">Enable</a> and
+<a href="/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-disable">Disable</a> methods
 attempt to restart the target device by default. Use this method to skip that step.
 
 ## -see-also
 
 <a href="..\wdtfedtaction\nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2.md">IWDTFEnhancedDeviceTestSupportAction2</a>
-

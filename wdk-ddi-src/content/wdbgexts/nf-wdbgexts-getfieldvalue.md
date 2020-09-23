@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>GetFieldValue</b> macro is a thin wrapper around the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getfielddata">GetFieldData</a> function.  It is provided as a convenience for reading the value of a member in a structure.
+The <b>GetFieldValue</b> macro is a thin wrapper around the <a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getfielddata">GetFieldData</a> function.  It is provided as a convenience for reading the value of a member in a structure.
 
 ## -parameters
 
@@ -76,5 +76,4 @@ The parameters provided to this macro are the same as those provided to the <b>G
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getfielddata">GetFieldData</a>
-
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getfielddata">GetFieldData</a>

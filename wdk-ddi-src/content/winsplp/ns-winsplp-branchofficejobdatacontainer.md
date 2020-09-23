@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-This structure defines a container for one or more <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">BranchOfficeJobData</a> structures to sent to a server.
+This structure defines a container for one or more <a href="/dotnet/core/rid-catalog">BranchOfficeJobData</a> structures to sent to a server.
 
 ## -struct-fields
 
@@ -59,4 +59,3 @@ Describes the <b>DWORD</b> type member <b>cJobDataEntries</b>.
 ### -field JobData
 
 Describes the <b>BranchOfficeJobData</b> type member <b>JobData</b>.
-

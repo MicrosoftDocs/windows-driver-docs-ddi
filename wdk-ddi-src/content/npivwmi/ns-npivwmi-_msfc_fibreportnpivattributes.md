@@ -72,5 +72,4 @@ An array of virtual ports. The array length is specified in the <b>NumberVirtual
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-fibreportnpivattributes-wmi-class">MSFC_FibrePortNPIVAttributes WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msfc-fibreportnpivattributes-wmi-class">MSFC_FibrePortNPIVAttributes WMI Class</a>

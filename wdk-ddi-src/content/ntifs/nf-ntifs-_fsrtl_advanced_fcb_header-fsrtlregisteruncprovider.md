@@ -159,7 +159,7 @@ On Windows Server 2003, Windows XP, and Windows 2000, remote file operations per
 
 For network redirectors that conform to the Windows Vistaredirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case that MUP simply passes the operation to the network redirector that is involved.
 
-Network redirectors that conform to the Windows Vista redirector model should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>, not <b>FsRtlRegisterUncProvider</b>.
+Network redirectors that conform to the Windows Vista redirector model should use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>, not <b>FsRtlRegisterUncProvider</b>.
 
 <b>FsRtlRegisterUncProvider</b> sends a private file system control (FSCTL) to MUP to perform the registration. 
 
@@ -174,34 +174,33 @@ Changes to the ProviderOrder registry value require a reboot to take effect in M
 
 Only one network provider on a system can support mailslots. So the <i>MailslotsSupported</i> parameter is normally only set to <b>TRUE</b> for the Microsoft SMB redirector.
 
-A driver calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> to create a device object for a network redirector that registers as a UNC provider (a driver that calls <b>FsRtlRegisterUncProvider</b>) must pass FILE_REMOTE_DEVICE as one of the options in the <i>DeviceCharacteristics</i> parameter that is passed to <b>IoCreateDevice</b>.
+A driver calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> to create a device object for a network redirector that registers as a UNC provider (a driver that calls <b>FsRtlRegisterUncProvider</b>) must pass FILE_REMOTE_DEVICE as one of the options in the <i>DeviceCharacteristics</i> parameter that is passed to <b>IoCreateDevice</b>.
 
-To deregister a UNC provider, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a> and pass the <i>MupHandle</i> parameter.
+To deregister a UNC provider, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlderegisteruncprovider">FsRtlDeregisterUncProvider</a> and pass the <i>MupHandle</i> parameter.
 
-If a driver registers as a local disk file system (calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> with the <i>DeviceType</i> parameter set to FILE_DEVICE_DISK_FILE_SYSTEM rather than FILE_NETWORK_FILE_SYSTEM, for example), the driver must not call <b>FsRtlRegisterUncProvider</b> to register as a UNC provider with MUP.
+If a driver registers as a local disk file system (calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> with the <i>DeviceType</i> parameter set to FILE_DEVICE_DISK_FILE_SYSTEM rather than FILE_NETWORK_FILE_SYSTEM, for example), the driver must not call <b>FsRtlRegisterUncProvider</b> to register as a UNC provider with MUP.
 
 For more information, see the following sections in the Design Guide:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/support-for-unc-naming-and-mup">Support for UNC Naming and MUP</a>
+<a href="/windows-hardware/drivers/ifs/support-for-unc-naming-and-mup">Support for UNC Naming and MUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
+<a href="/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlderegisteruncprovider">FsRtlDeregisterUncProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ni-ntifs-ioctl_redir_query_path_ex">IOCTL_REDIR_QUERY_PATH_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ni-ntifs-ioctl_redir_query_path_ex">IOCTL_REDIR_QUERY_PATH_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>

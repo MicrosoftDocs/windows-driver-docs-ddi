@@ -80,7 +80,7 @@ The structure that contains the parameters for the SCO connection request.
 ### -field Parameters.Connect.Request.LinkType
 
 A value from the 
-        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_link_type">SCO_LINK_TYPE</a> enumeration that indicates the
+        <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_link_type">SCO_LINK_TYPE</a> enumeration that indicates the
         type of incoming connection.
 
 ### -field Parameters.Disconnect
@@ -91,7 +91,7 @@ The structure that contains parameters for the
 ### -field Parameters.Disconnect.Reason
 
 A 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_disconnect_reason">SCO_DISCONNECT_REASON</a> value that
+       <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_disconnect_reason">SCO_DISCONNECT_REASON</a> value that
        indicates why the SCO connection was terminated.
 
 ### -field Parameters.Disconnect.CloseNow
@@ -103,7 +103,7 @@ A Boolean value that a profile driver can set to indicate whether the SCO connec
 ## -remarks
 
 A profile driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a> should process
+    <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a> should process
     a notification differently depending upon the value that the Bluetooth driver stack passes in the 
     <i>Indication</i> parameter of the callback function.
 
@@ -119,9 +119,8 @@ When the Bluetooth driver stack passes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_disconnect_reason">SCO_DISCONNECT_REASON</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_disconnect_reason">SCO_DISCONNECT_REASON</a>

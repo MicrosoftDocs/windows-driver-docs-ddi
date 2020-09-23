@@ -93,7 +93,7 @@ Pointer to the callback data structure to be inserted into the queue.
 
 #### InsertContext
 
-Context information pointer that was passed as the <i>InsertContext</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>.
+Context information pointer that was passed as the <i>InsertContext</i> parameter to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>.
 
 ### -param CbdqRemoveIo 
 
@@ -156,7 +156,7 @@ Pointer to the callback data structure marking the position in the queue to begi
 
 #### PeekContext
 
-Context information pointer that was passed as the <i>PeekContext</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a>.
+Context information pointer that was passed as the <i>PeekContext</i> parameter to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a>.
 
 ### -param CbdqAcquire 
 
@@ -248,19 +248,19 @@ Pointer to the callback data structure for the canceled I/O operation.
 
 ## -remarks
 
-The newly initialized callback data queue is in the enabled state, which  means that callback data structure items can be inserted into the queue. The queue can be disabled by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqdisable">FltCbdqDisable</a> and reenabled by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqenable">FltCbdqEnable</a>. 
+The newly initialized callback data queue is in the enabled state, which  means that callback data structure items can be inserted into the queue. The queue can be disabled by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqdisable">FltCbdqDisable</a> and reenabled by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqenable">FltCbdqEnable</a>. 
 
 Minifilter drivers can use the <b>FltCbdq</b><i>Xxx</i> routines to implement a callback data queue for IRP-based I/O operations. By using these routines, minifilter drivers can make their queues cancel-safe; the system transparently handles I/O cancellation for the minifilter drivers. 
 
-The <b>FltCbdq</b><i>Xxx</i> routines can only be used for IRP-based I/O operations. To determine whether a given callback data structure represents an IRP-based I/O operation, use the <a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro. 
+The <b>FltCbdq</b><i>Xxx</i> routines can only be used for IRP-based I/O operations. To determine whether a given callback data structure represents an IRP-based I/O operation, use the <a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro. 
 
 Minifilter drivers can use any internal implementation for the queue. The Filter Manager interacts with the minifilter driver's queue implementation solely through the set of dispatch routines provided by <i>FltCbdqInitialize</i>. 
 
 The system automatically locks and unlocks the queue as necessary. Minifilter drivers do not implement any locking inside their <i>CbdqInsertIo</i>, <i>CbdqRemoveIo</i>, and <i>CbdqPeekNextIo</i> routines. 
 
-Minifilter drivers can use any of the operating system's synchronization primitives as the locking mechanism in their <i>CbdqAcquire</i> and <i>CbdqRelease</i> routines, such as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/spin-locks">spin lock</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mutex-objects">mutex object</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">resource variable</a>. Note that if a minifilter driver uses a spin lock  rather than a mutex or resource to protect the queue, it can call the <b>FltCbdq</b><i>Xxx</i> routines at IRQL <= DISPATCH_LEVEL. If a mutex or resource is used, the minifilter driver must be running at IRQL <= APC_LEVEL when it calls  any of these routines except <i>FltCbdqInitialize</i>. 
+Minifilter drivers can use any of the operating system's synchronization primitives as the locking mechanism in their <i>CbdqAcquire</i> and <i>CbdqRelease</i> routines, such as a <a href="/windows-hardware/drivers/kernel/spin-locks">spin lock</a>, <a href="/windows-hardware/drivers/kernel/mutex-objects">mutex object</a>, or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializeresourcelite">resource variable</a>. Note that if a minifilter driver uses a spin lock  rather than a mutex or resource to protect the queue, it can call the <b>FltCbdq</b><i>Xxx</i> routines at IRQL <= DISPATCH_LEVEL. If a mutex or resource is used, the minifilter driver must be running at IRQL <= APC_LEVEL when it calls  any of these routines except <i>FltCbdqInitialize</i>. 
 
-The minifilter driver does not manipulate the queue directly. Instead, it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremoveio">FltCbdqRemoveIo</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a> to add or remove a callback data structure. These routines in turn call the callback functions that the minifilter driver provided to <i>FltCbdqInitialize</i>. 
+The minifilter driver does not manipulate the queue directly. Instead, it calls <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>, <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremoveio">FltCbdqRemoveIo</a>, and <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a> to add or remove a callback data structure. These routines in turn call the callback functions that the minifilter driver provided to <i>FltCbdqInitialize</i>. 
 
 Minifilter drivers should implement the queue routines as follows. 
 
@@ -305,7 +305,7 @@ This routine should allow the system to loop through the callback data structure
 
 </td>
 <td>
-This routine should lock the queue so that no other thread can access it. Minifilter drivers can use any locking mechanism to lock the queue. If the minifilter driver uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a> routine, the minifilter driver can use the memory location pointed to by the routine's <i>Irql</i> parameter to store the IRQL. Otherwise, minifilter drivers can ignore that parameter.
+This routine should lock the queue so that no other thread can access it. Minifilter drivers can use any locking mechanism to lock the queue. If the minifilter driver uses the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a> routine, the minifilter driver can use the memory location pointed to by the routine's <i>Irql</i> parameter to store the IRQL. Otherwise, minifilter drivers can ignore that parameter.
 
 </td>
 </tr>
@@ -315,7 +315,7 @@ This routine should lock the queue so that no other thread can access it. Minifi
 
 </td>
 <td>
-This routine should unlock the queue created by <i>CbdqAcquire</i>. If the minifilter driver used a spin lock and returned the IRQL value in the <i>Irql</i> parameter of <i>CbdqAcquire</i>, the system passes that value in the <i>Irql</i> parameter of <i>CbdqRelease</i>. The minifilter driver can use the IRQL to unlock the spin lock by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>. Otherwise, minifilter drivers can ignore the <i>Irql</i> parameter.
+This routine should unlock the queue created by <i>CbdqAcquire</i>. If the minifilter driver used a spin lock and returned the IRQL value in the <i>Irql</i> parameter of <i>CbdqAcquire</i>, the system passes that value in the <i>Irql</i> parameter of <i>CbdqRelease</i>. The minifilter driver can use the IRQL to unlock the spin lock by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>. Otherwise, minifilter drivers can ignore the <i>Irql</i> parameter.
 
 </td>
 </tr>
@@ -325,7 +325,7 @@ This routine should unlock the queue created by <i>CbdqAcquire</i>. If the minif
 
 </td>
 <td>
-This routine should complete a canceled I/O operation. Normally, minifilter drivers can just call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpreoperation">FltCompletePendedPreOperation</a>(Data, FLT_PREOP_COMPLETE, <b>NULL</b>). Minifilter drivers do not need to dequeue the callback data structure -- the Filter Manager automatically calls the queue's <i>CbdqRemoveIo</i> before calling <i>CbdqCompleteCanceledIo</i>.
+This routine should complete a canceled I/O operation. Normally, minifilter drivers can just call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpreoperation">FltCompletePendedPreOperation</a>(Data, FLT_PREOP_COMPLETE, <b>NULL</b>). Minifilter drivers do not need to dequeue the callback data structure -- the Filter Manager automatically calls the queue's <i>CbdqRemoveIo</i> before calling <i>CbdqCompleteCanceledIo</i>.
 
 </td>
 </tr>
@@ -333,45 +333,44 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data_queue">FLT_CALLBACK_DATA_QUEUE</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data_queue">FLT_CALLBACK_DATA_QUEUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
+<a href="/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqdisable">FltCbdqDisable</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqdisable">FltCbdqDisable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqenable">FltCbdqEnable</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqenable">FltCbdqEnable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremoveio">FltCbdqRemoveIo</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremoveio">FltCbdqRemoveIo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpreoperation">FltCompletePendedPreOperation</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcompletependedpreoperation">FltCompletePendedPreOperation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>

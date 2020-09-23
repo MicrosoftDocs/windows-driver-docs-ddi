@@ -54,7 +54,7 @@ The **NtQueryVirtualMemory** routine determines the state, protection, and type 
 ### -param ProcessHandle 
 
 [in]
-Handle for the process in whose context the pages to be queried reside. Use the [NtCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
+Handle for the process in whose context the pages to be queried reside. Use the [NtCurrentProcess](/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
 
 ### -param BaseAddress 
 
@@ -64,12 +64,12 @@ The base address of the region of pages to be queried. This value is rounded dow
 ### -param MemoryInformationClass 
 
 [in]
-The memory information class about which to retrieve information. Currently, the only supported [MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class) value is **MemoryBasicInformation**.
+The memory information class about which to retrieve information. Currently, the only supported [MEMORY_INFORMATION_CLASS](./ne-ntifs-_memory_information_class.md) value is **MemoryBasicInformation**.
 
 ### -param MemoryInformation 
 
 [out]
-Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information) structure.
+Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](./ns-ntifs-_memory_basic_information.md) structure.
 
 ### -param MemoryInformationLength 
 
@@ -101,15 +101,14 @@ If the entire region of pages does not have a matching set of attributes, then t
 
 **NtQueryVirtualMemory** and [ZwQueryVirtualMemory](https://msdn.microsoft.com/library/windows/hardware/dn957455(v=vs.85).aspx(d=robot)) are two versions of the same Windows Native System Services routine.
 
-For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-[MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information)
+[MEMORY_BASIC_INFORMATION](./ns-ntifs-_memory_basic_information.md)
 
-[MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class)
+[MEMORY_INFORMATION_CLASS](./ne-ntifs-_memory_information_class.md)
 
-[POWER_PLATFORM_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information)
+[POWER_PLATFORM_INFORMATION](../wdm/ns-wdm-_power_platform_information.md)
 
 [ZwQueryVirtualMemory](https://msdn.microsoft.com/library/windows/hardware/dn957455(v=vs.85).aspx(d=robot))
-

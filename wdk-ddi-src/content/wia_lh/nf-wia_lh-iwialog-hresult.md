@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Note that the **IWiaLog** interface is obsolete and is no longer supported. Instead, use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index).
+Note that the **IWiaLog** interface is obsolete and is no longer supported. Instead, use the [Diagnostic Log Macros](../_image/index.md).
 
 The **IWiaLog::hResult** method translates an HRESULT value into a string and writes the string to *Wiaservc.log*.
 
@@ -60,4 +60,3 @@ Specifies the HRESULT value to translate into a string.
 ## -returns
 
 If the method succeeds, it returns S_OK. If the method fails, it returns a standard COM error code.
-

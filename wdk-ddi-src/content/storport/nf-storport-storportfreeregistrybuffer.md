@@ -54,7 +54,7 @@ The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocate
 ### -param HwDeviceExtension 
 
 [in]
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device. The miniport driver must be running at IRQL PASSIVE_LEVEL when it calls this routine.
 
 ### -param Buffer 
 
@@ -67,9 +67,8 @@ None
 
 ## -remarks
 
-The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a>. Miniport drivers can only have one registry buffer open at a time. After the miniport driver calls the <b>StorPortFreeRegistryBuffer</b> routine, subsequent calls by the miniport driver to <b>StorPortAllocateRegistryBuffer</b> will succeed.
+The <b>StorPortFreeRegistryBuffer</b> routine frees the buffer that was allocated by <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a>. Miniport drivers can only have one registry buffer open at a time. After the miniport driver calls the <b>StorPortFreeRegistryBuffer</b> routine, subsequent calls by the miniport driver to <b>StorPortAllocateRegistryBuffer</b> will succeed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocateregistrybuffer">StorPortAllocateRegistryBuffer</a>

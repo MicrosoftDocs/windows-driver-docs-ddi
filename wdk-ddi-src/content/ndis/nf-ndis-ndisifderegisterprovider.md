@@ -50,7 +50,7 @@ api_name:
 The 
   <b>NdisIfDeregisterProvider</b> function deregisters an interface provider that was previously registered by
   a call to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
   NdisIfRegisterProvider</a> function.
 
 ## -parameters
@@ -60,7 +60,7 @@ The
 [in]
 A handle that identifies the network interface provider. The caller obtained this handle from a
      previous call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
      NdisIfRegisterProvider</a> function.
 
 ## -remarks
@@ -71,7 +71,7 @@ NDIS drivers call the
 
 The interface provider must ensure that it does not have any interfaces registered when it calls 
     <b>NdisIfDeregisterProvider</b>. To deregister interfaces, the provider must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">
     NdisIfDeregisterInterface</a> function once for each registered interface.
 
 The provider must not use the provider handle that it passed at the 
@@ -80,9 +80,8 @@ The provider must not use the provider handle that it passed at the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">NdisIfDeregisterInterface</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">NdisIfDeregisterInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">NdisIfRegisterProvider</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">NdisIfRegisterProvider</a>

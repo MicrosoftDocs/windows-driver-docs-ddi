@@ -46,26 +46,25 @@ api_name:
 
 ## -description
 
-The <b>SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_config">SERCX2_CUSTOM_TRANSMIT_CONFIG</a> structure.
+The <b>SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</b> function initializes a <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_config">SERCX2_CUSTOM_TRANSMIT_CONFIG</a> structure.
 
 ## -parameters
 
 ### -param Config 
 
 [out]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_config">SERCX2_CUSTOM_TRANSMIT_CONFIG</a> structure that is to be initialized.
+A pointer to the <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_config">SERCX2_CUSTOM_TRANSMIT_CONFIG</a> structure that is to be initialized.
 
 ## -remarks
 
-Your serial controller driver must use this function to initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_config">SERCX2_CUSTOM_TRANSMIT_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a> method.
+Your serial controller driver must use this function to initialize a <a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_config">SERCX2_CUSTOM_TRANSMIT_CONFIG</a> structure before passing a pointer to this structure as an input parameter to the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a> method.
 
 <b>SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</b> sets the <b>Size</b> member of the structure to <b>sizeof</b>(<b>SERCX2_CUSTOM_TRANSMIT_CONFIG</b>), and sets the other members of the structure to zero. The driver can, if necessary, explicitly set these other members to nonzero values after the <b>SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</b> call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_config">SERCX2_CUSTOM_TRANSMIT_CONFIG</a>
+<a href="/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_config">SERCX2_CUSTOM_TRANSMIT_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a>

@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-Describes options for a <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Duplication API</a> swapchain present operation.
+Describes options for a <a href="/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Duplication API</a> swapchain present operation.
 
 ## -struct-fields
 
@@ -83,4 +83,3 @@ This member is reserved and should be set to zero. Setting this member to zero i
 ### -field Value
 
 A 32-bit value that identifies the DDA present options.
-

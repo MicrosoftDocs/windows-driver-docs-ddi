@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>MmFreeNonCachedMemory</b> routine releases a range of noncached memory that was allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatenoncachedmemory">MmAllocateNonCachedMemory</a> routine.
+The <b>MmFreeNonCachedMemory</b> routine releases a range of noncached memory that was allocated by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatenoncachedmemory">MmAllocateNonCachedMemory</a> routine.
 
 ## -parameters
 
@@ -62,9 +62,8 @@ Specifies the size of the range to be freed. This value must match the size pass
 
 ## -remarks
 
-The <b>MmFreeNonCachedMemory</b> routine performs the opposite action of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatenoncachedmemory">MmAllocateNonCachedMemory</a>.
+The <b>MmFreeNonCachedMemory</b> routine performs the opposite action of <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatenoncachedmemory">MmAllocateNonCachedMemory</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatenoncachedmemory">MmAllocateNonCachedMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmallocatenoncachedmemory">MmAllocateNonCachedMemory</a>

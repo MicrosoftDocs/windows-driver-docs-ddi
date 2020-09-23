@@ -63,7 +63,7 @@ A handle to a driver-allocated context area where the driver maintains state and
 
 [in]
 A pointer to an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_protocol_driver_characteristics">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_protocol_driver_characteristics">
      NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure that the protocol driver created and initialized
      with its 
      <i>ProtocolXxx</i> function entry points.
@@ -93,7 +93,7 @@ A pointer to a caller-supplied handle variable. NDIS writes a handle to this var
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a> returns NDIS_STATUS_SUCCESS if it registered the protocol
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a> returns NDIS_STATUS_SUCCESS if it registered the protocol
        driver.
 
 </td>
@@ -131,7 +131,7 @@ Some members of the structure at the
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a> failed due to insufficient resources.
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a> failed due to insufficient resources.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ Some members of the structure at the
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a> returns NDIS_STATUS_FAILURE if none of the preceding values
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a> returns NDIS_STATUS_FAILURE if none of the preceding values
        applies.
 
 </td>
@@ -154,9 +154,9 @@ Some members of the structure at the
 
 A protocol driver calls the 
     <b>NdisRegisterProtocolDriver</b> function from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. For more information about 
+    <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS
+    <a href="/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS
     Protocol Drivers</a>.
 
 Drivers that call <b>
@@ -164,35 +164,34 @@ Drivers that call <b>
 
 Every protocol driver exports a set of 
     <i>ProtocolXxx</i> functions by setting up the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_protocol_driver_characteristics">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_protocol_driver_characteristics">
     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure and calling 
     <b>NdisRegisterProtocolDriver</b>. NDIS copies this structure to the NDIS library's internal storage.
 
 To allow protocol drivers to register optional services, NDIS calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a> function within
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">ProtocolSetOptions</a> function within
     the context of 
     <b>NdisRegisterProtocolDriver</b>.
 
 Protocol drivers call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisderegisterprotocoldriver">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisderegisterprotocoldriver">
     NdisDeregisterProtocolDriver</a> function to release resources that were previously allocated with 
     <b>NdisRegisterProtocolDriver</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
+<a href="/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
    Drivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_protocol_driver_characteristics">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_protocol_driver_characteristics">
    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisderegisterprotocoldriver">NdisDeregisterProtocolDriver</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisderegisterprotocoldriver">NdisDeregisterProtocolDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>

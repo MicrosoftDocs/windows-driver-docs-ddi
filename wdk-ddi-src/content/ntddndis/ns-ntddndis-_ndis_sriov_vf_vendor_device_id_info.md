@@ -58,7 +58,7 @@ The <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure contains information th
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -76,7 +76,7 @@ Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_VF_VENDOR_DEVICE_ID_INFO_REVISIO
 
 An NDIS_SRIOV_FUNCTION_ID value that specifies the unique identifier of the VF network adapter.
 
-<div class="alert"><b>Note</b>  The VF with the specified NDIS_SRIOV_FUNCTION_ID value must have resources that were previously allocated through an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>.
+<div class="alert"><b>Note</b>  The VF with the specified NDIS_SRIOV_FUNCTION_ID value must have resources that were previously allocated through an OID set request of <a href="/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>.
 
 </div>
 <div> </div>
@@ -91,7 +91,7 @@ A USHORT value that uniquely identifies the device type of the VF network adapte
 
 ## -remarks
 
- The <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure is used in the OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-vendor-device-id">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>.
+ The <b>NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO</b> structure is used in the OID method requests of <a href="/windows-hardware/drivers/network/oid-sriov-vf-vendor-device-id">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>.
 
 ## -see-also
 
@@ -99,13 +99,12 @@ A USHORT value that uniquely identifies the device type of the VF network adapte
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>
+<a href="/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-vendor-device-id">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>
-
+<a href="/windows-hardware/drivers/network/oid-sriov-vf-vendor-device-id">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>

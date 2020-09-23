@@ -49,7 +49,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfIoResourceListRemove</b> method removes a resource descriptor from a resource requirements list's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
+The <b>WdfIoResourceListRemove</b> method removes a resource descriptor from a resource requirements list's <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ The <b>WdfIoResourceListRemove</b> method removes the resource descriptor that i
 
 When <b>WdfIoResourceListRemove</b> removes the resource descriptor that has the index value <i>n</i>, the index value of the next resource descriptor changes from <i>n</i>+1 to <i>n</i>.
 
-For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists and logical configurations, see <a href="/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples
@@ -90,5 +90,4 @@ WdfIoResourceListRemove(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistremovebydescriptor">WdfIoResourceListRemoveByDescriptor</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistremovebydescriptor">WdfIoResourceListRemoveByDescriptor</a>

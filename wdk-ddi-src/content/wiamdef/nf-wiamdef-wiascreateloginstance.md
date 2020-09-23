@@ -62,5 +62,4 @@ Pointer to a memory location that receives the address of the logging interface.
 
 ## -returns
 
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
-
+On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).

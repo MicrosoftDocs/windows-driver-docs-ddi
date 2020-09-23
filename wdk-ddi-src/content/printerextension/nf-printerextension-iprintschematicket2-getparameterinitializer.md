@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **GetParameterInitializer** method retrieves the [IPrintSchemaParameterInitializer](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer) object, and it  represents the \<psf:ParameterInit\> element in the PrintTicket XML.
+The **GetParameterInitializer** method retrieves the [IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md) object, and it  represents the \<psf:ParameterInit\> element in the PrintTicket XML.
 
 The keyword name and keyword namespace URI specify the **IPrintSchemaParameterInitializer** object to be retrieved.
 
@@ -65,7 +65,7 @@ The keyword namespace URI.
 ### -param ppParameterInitializer 
 
 [out, retval]
-The [IPrintSchemaParameterInitializer](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer) object.
+The [IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md) object.
 
 ## -returns
 
@@ -73,7 +73,6 @@ The **GetParameterInitializer** method returns an **HRESULT** value. If the prop
 
 ## -see-also
 
-[IPrintSchemaParameterInitializer](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer)
+[IPrintSchemaParameterInitializer](./nn-printerextension-iprintschemaparameterinitializer.md)
 
-[IPrintSchematicket2](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket2)
-
+[IPrintSchematicket2](./nn-printerextension-iprintschematicket2.md)

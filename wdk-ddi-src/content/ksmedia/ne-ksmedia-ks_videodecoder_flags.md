@@ -64,5 +64,4 @@ The video decoder can distinguish whether it has locked to an incoming analog vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videodecoder_caps_s">KSPROPERTY_VIDEODECODER_CAPS_S</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videodecoder_caps_s">KSPROPERTY_VIDEODECODER_CAPS_S</a>

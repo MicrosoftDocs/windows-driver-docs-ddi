@@ -48,7 +48,7 @@ api_name:
 
 This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins.
 
-Use [IPrintOemUni::MemoryUsage](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-memoryusage) instead.
+Use [IPrintOemUni::MemoryUsage](../prcomoem/nf-prcomoem-iprintoemuni-memoryusage.md) instead.
 
 ## -parameters
 
@@ -60,4 +60,3 @@ Pointer to device object.
 
 [in, out]
 Pointer to OEMMEMORYUSAGE structure.
-

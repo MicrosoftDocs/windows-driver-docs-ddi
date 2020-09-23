@@ -94,7 +94,6 @@ The TxEngine might check the status of an NBL in the *SuspectFrameList* array by
 
 If the TxEngine or firmware has no knowledge or state for the suspect frame it should not issue completions for that suspect frame, as this might cause system corruption and/or double completions.
 
-If a firmware stall or corruption is detected, an [NDIS_STATUS_WDI_INDICATION_FIRMWARE_STALLED](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-firmware-stalled) notification should be made to attempt recovery.
+If a firmware stall or corruption is detected, an [NDIS_STATUS_WDI_INDICATION_FIRMWARE_STALLED](/windows-hardware/drivers/network/ndis-status-wdi-indication-firmware-stalled) notification should be made to attempt recovery.
 
 ## -see-also
-

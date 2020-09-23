@@ -83,5 +83,4 @@ If a tape miniclass driver calls this routine with an unsupported tape density c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nf-minitape-tapeclasslogicalblocktophysicalblock">TapeClassLogicalBlockToPhysicalBlock</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/nf-minitape-tapeclasslogicalblocktophysicalblock">TapeClassLogicalBlockToPhysicalBlock</a>

@@ -74,5 +74,4 @@ As a result, WDF automatically deletes the configuration object when the device 
 
 ## -see-also
 
-[Accessing configuration information](https://docs.microsoft.com/windows-hardware/drivers/netcx/accessing-configuration-information)
-
+[Accessing configuration information](/windows-hardware/drivers/netcx/accessing-configuration-information)

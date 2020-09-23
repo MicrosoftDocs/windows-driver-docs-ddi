@@ -51,7 +51,7 @@ api_name:
    DirectX 8.0 and later versions only.
    
 
-The D3DHAL_DP2SETSTREAMSOURCE structure is used to bind a vertex stream source to a vertex buffer for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
+The D3DHAL_DP2SETSTREAMSOURCE structure is used to bind a vertex stream source to a vertex buffer for <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
 ## -struct-fields
 
@@ -75,7 +75,7 @@ The debug runtime validates that <b>dwStream</b> is within the legal range but t
 
 The runtime does not validate that the streams accessed by the current vertex shader are non-NULL. It is the responsibility of the driver writer to ensure the driver/hardware does not crash when this error case arises. Debug versions of your display driver should display messages in the debug output stream to indicate when this problem has been detected.
 
-Only a single stream source is set by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure. That is, the <b>wStateCount</b> field of the D3DHAL_DP2COMMAND is always one when <b>bCommand</b> is D3DDP2OP_SETSTREAMSOURCE.
+Only a single stream source is set by a <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure. That is, the <b>wStateCount</b> field of the D3DHAL_DP2COMMAND is always one when <b>bCommand</b> is D3DDP2OP_SETSTREAMSOURCE.
 
 ## -see-also
 
@@ -83,13 +83,12 @@ D3DDP2OP_SETSTREAMSOURCE
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2setstreamsourceum">D3DHAL_DP2SETSTREAMSOURCEUM</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2setstreamsourceum">D3DHAL_DP2SETSTREAMSOURCEUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

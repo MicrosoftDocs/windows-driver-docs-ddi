@@ -54,7 +54,7 @@ This structure is used to hold parameters for a transmit or receive queue when c
 
 ### -field Header
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_config">NDIS_PD_CONFIG</a> structure. Set the members of this structure as follows:
+The <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_config">NDIS_PD_CONFIG</a> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -68,36 +68,36 @@ This member is reserved and must be set to 0 by the provider.
 
 ### -field QueueType
 
-The type of the queue. For more information see, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_queue_type">NDIS_PD_QUEUE_TYPE</a>.
+The type of the queue. For more information see, <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_queue_type">NDIS_PD_QUEUE_TYPE</a>.
 
 ### -field QueueSize
 
-The maximum amount of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures this queue can hold and is always equal to a number of the form (2^k)-1 (63, 127, 255, 511, 1023, etc.). This lends itself to efficient circular index arithmetic.
+The maximum amount of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures this queue can hold and is always equal to a number of the form (2^k)-1 (63, 127, 255, 511, 1023, etc.). This lends itself to efficient circular index arithmetic.
 
 ### -field ReceiveDataLength
 
-The minimum <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> data length.
+The minimum <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> data length.
 
 ### -field Affinity
 
-The processor affinity is a hint to the provider for performance optimization. The platform will primarily be processing the queue on processors indicated by this mask. The provider must set this value to the processor core derived from the indirection table configured from <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+The processor affinity is a hint to the provider for performance optimization. The platform will primarily be processing the queue on processors indicated by this mask. The provider must set this value to the processor core derived from the indirection table configured from <a href="/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
 
 ### -field TrafficClassId
 
 ### -field MaximumPartialBufferCount
 
-For transmit queues, this is the maximum number of partial <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures that the client is allowed to chain together to form a single L2 packet. This value must be equal to the MaximumTxPartialBufferCount value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_capabilities">NDIS_PD_CAPABILITIES</a> structure.
+For transmit queues, this is the maximum number of partial <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures that the client is allowed to chain together to form a single L2 packet. This value must be equal to the MaximumTxPartialBufferCount value in the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_capabilities">NDIS_PD_CAPABILITIES</a> structure.
 
-For receive queues, this is the maximum number of partial <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures that the provider is allowed to chain together to form a single large L2 packet with RSC. This must be less than or equal to the MaximumRxPartialBufferCount value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_capabilities">NDIS_PD_CAPABILITIES</a> structure.
+For receive queues, this is the maximum number of partial <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures that the provider is allowed to chain together to form a single large L2 packet with RSC. This must be less than or equal to the MaximumRxPartialBufferCount value in the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_capabilities">NDIS_PD_CAPABILITIES</a> structure.
 
-<div class="alert"><b>Note</b>  The client never posts <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures with the partial flag to the receive queue. The client is always required to post <b>PD_BUFFER</b> structures with at least MTU-size space, starting from the data start position. The provider performs chaining only in the case of RSC. Some providers may not be able to support RSC chaining, these providers set a value of 1 to the MaximumRxPartialBufferCount member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_capabilities">NDIS_PD_CAPABILITIES</a> structure.</div>
+<div class="alert"><b>Note</b>  The client never posts <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures with the partial flag to the receive queue. The client is always required to post <b>PD_BUFFER</b> structures with at least MTU-size space, starting from the data start position. The provider performs chaining only in the case of RSC. Some providers may not be able to support RSC chaining, these providers set a value of 1 to the MaximumRxPartialBufferCount member in the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pd_capabilities">NDIS_PD_CAPABILITIES</a> structure.</div>
 <div> </div>
 
 ### -field CounterHandle
 
 This is a handle to the transmit queue counter for transmit queues and a receive queue counter for receive queues.During queue creation, a client can optionally provide a counter handle. In this case and depending on the queue type, the provider must update the counter values as activity occurs on the queue. The client is responsible for closing the counter handle only after the queue is closed.
 
-For queues that are not directly created by the client, such as RSS receive queues obtained using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/index">NdisPDOnRssReceiveQueues</a>routine, the provider must always have an associated counter handle with the queue. That is, for a given set of RSS receive queues, the provider must have one dedicated receive queue counter for each receive queue.
+For queues that are not directly created by the client, such as RSS receive queues obtained using the <a href="/windows-hardware/drivers/ddi/ntddndis/index">NdisPDOnRssReceiveQueues</a>routine, the provider must always have an associated counter handle with the queue. That is, for a given set of RSS receive queues, the provider must have one dedicated receive queue counter for each receive queue.
 
 
 #### - UserPriority
@@ -110,9 +110,8 @@ This structure must be aligned on an 8-byte boundary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_queue_type">NDIS_PD_QUEUE_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_queue_type">NDIS_PD_QUEUE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a>

@@ -58,7 +58,7 @@ To specify its driver characteristics, a filter driver initializes an
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      filter driver characteristics structure (NDIS_FILTER_DRIVER_CHARACTERISTICS). Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_FILTER_DRIVER_CHARACTERISTICS.
@@ -272,127 +272,127 @@ A Unicode string that represents the user-readable description of the filter dri
 
 ### -field UniqueName
 
-A Unicode string that represents the unique name for the filter driver. This string must be a GUID, enclosed in curly braces, for example "{5cbf81bd-5055-47cd-9055-a76b2b4e3697}". This GUID must match the one in the <b>NetCfgInstanceId</b> INF file entry in the filter driver's INF file. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/inf-file-settings-for-filter-drivers">INF File Settings for Filter Drivers</a>.
+A Unicode string that represents the unique name for the filter driver. This string must be a GUID, enclosed in curly braces, for example "{5cbf81bd-5055-47cd-9055-a76b2b4e3697}". This GUID must match the one in the <b>NetCfgInstanceId</b> INF file entry in the filter driver's INF file. For more information, see <a href="/windows-hardware/drivers/network/inf-file-settings-for-filter-drivers">INF File Settings for Filter Drivers</a>.
 
 ### -field ServiceName
 
 A Unicode string that represents the service name of the filter driver. This string must be the service name
-     from the AddService directive in the filter driver's INF file. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/inf-file-settings-for-filter-drivers">INF File Settings for Filter Drivers</a>.
+     from the AddService directive in the filter driver's INF file. For more information, see <a href="/windows-hardware/drivers/network/inf-file-settings-for-filter-drivers">INF File Settings for Filter Drivers</a>.
 
 ### -field SetOptionsHandler
 
 Specifies the entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">FilterSetOptions</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">FilterSetOptions</a> function.
 
 ### -field SetFilterModuleOptionsHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_set_module_options">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_set_module_options">
      FilterSetModuleOptions</a> function.
 
 ### -field AttachHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 ### -field DetachHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_detach">FilterDetach</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_detach">FilterDetach</a> function.
 
 ### -field RestartHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a> function.
 
 ### -field PauseHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_pause">FilterPause</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_pause">FilterPause</a> function.
 
 ### -field SendNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists">
      FilterSendNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field SendNetBufferListsCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists_complete">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists_complete">
      FilterSendNetBufferListsComplete</a> function. To bypass this function, set this member to
      <b>NULL</b>.
 
 ### -field CancelSendNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_send_net_buffer_lists">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_send_net_buffer_lists">
      FilterCancelSendNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field ReceiveNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_receive_net_buffer_lists">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_receive_net_buffer_lists">
      FilterReceiveNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field ReturnNetBufferListsHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">
      FilterReturnNetBufferLists</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field OidRequestHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a> function. To bypass
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a> function. To bypass
      this function, set this member to <b>NULL</b>.
 
 ### -field OidRequestCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request_complete">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request_complete">
      FilterOidRequestComplete</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field CancelOidRequestHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_oid_request">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_oid_request">
      FilterCancelOidRequest</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field DevicePnPEventNotifyHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_device_pnp_event_notify">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_device_pnp_event_notify">
      FilterDevicePnPEventNotify</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field NetPnPEventHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a> function. To
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a> function. To
      bypass this function, set this member to <b>NULL</b>.
 
 ### -field StatusHandler
 
 The entry point of the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_status">FilterStatus</a> function. To bypass this
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_status">FilterStatus</a> function. To bypass this
      function, set this member to <b>NULL</b>.
 
 ### -field DirectOidRequestHandler
 
 The entry point of the caller's 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request">
       FilterDirectOidRequest</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field DirectOidRequestCompleteHandler
 
 The entry point of the caller's 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request_complete">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request_complete">
       FilterDirectOidRequestComplete</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field CancelDirectOidRequestHandler
 
 The entry point of the caller's 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_direct_oid_request">
+      <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_direct_oid_request">
       FilterCancelDirectOidRequest</a> function. To bypass this function, set this member to <b>NULL</b>.
 
 ### -field SynchronousOidRequestHandler
@@ -406,7 +406,7 @@ The entry point of the caller's [*FilterSynchronousOidRequestComplete*](nf-ndis-
 ## -remarks
 
 A filter driver calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
     NdisFRegisterFilterDriver</a> function to register its characteristics, including the default entry
     points for its filter driver functions (<i>FilterXxx</i>). The filter driver initializes an NDIS_FILTER_DRIVER_CHARACTERISTICS structure and
     passes a pointer to this structure in the 
@@ -415,106 +415,105 @@ A filter driver calls the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_direct_oid_request">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_direct_oid_request">
    FilterCancelDirectOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_oid_request">FilterCancelOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_oid_request">FilterCancelOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_send_net_buffer_lists">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_cancel_send_net_buffer_lists">
    FilterCancelSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_detach">FilterDetach</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_detach">FilterDetach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_device_pnp_event_notify">FilterDevicePnPEventNotify</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_device_pnp_event_notify">FilterDevicePnPEventNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request">FilterDirectOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request">FilterDirectOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_direct_oid_request_complete">
    FilterDirectOidRequestComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request">FilterOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request_complete">FilterOidRequestComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_oid_request_complete">FilterOidRequestComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_pause">FilterPause</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_pause">FilterPause</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_receive_net_buffer_lists">FilterReceiveNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_receive_net_buffer_lists">FilterReceiveNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_restart">FilterRestart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">FilterReturnNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">FilterReturnNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists">FilterSendNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists">FilterSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_send_net_buffer_lists_complete">
    FilterSendNetBufferListsComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_set_module_options">FilterSetModuleOptions</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_set_module_options">FilterSetModuleOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">FilterSetOptions</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-set_options">FilterSetOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_status">FilterStatus</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_status">FilterStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/inf-file-settings-for-filter-drivers">INF File Settings for Filter Drivers</a>
+<a href="/windows-hardware/drivers/network/inf-file-settings-for-filter-drivers">INF File Settings for Filter Drivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-filter-driver">Initializing a Filter Driver</a>
+<a href="/windows-hardware/drivers/network/initializing-a-filter-driver">Initializing a Filter Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_partial_characteristics">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_partial_characteristics">
    NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>

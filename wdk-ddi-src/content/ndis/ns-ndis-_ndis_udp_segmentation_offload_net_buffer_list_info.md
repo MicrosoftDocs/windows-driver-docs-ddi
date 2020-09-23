@@ -88,7 +88,6 @@ The TCP/IP transport updates the **MSS** and **UdpHeaderOffset** members of the 
 
 ## -see-also
 
-[UDP Segmentation Offload (USO)](https://docs.microsoft.com/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
+[UDP Segmentation Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
 
 [**NET_BUFFER_LIST**](../ndis/ns-ndis-_net_buffer_list.md)
-

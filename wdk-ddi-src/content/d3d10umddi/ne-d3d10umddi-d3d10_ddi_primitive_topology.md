@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The D3D10_DDI_PRIMITIVE_TOPOLOGY enumeration type contains values that identify primitive topologies in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_ia_settopology">IaSetTopology</a> function.
+The D3D10_DDI_PRIMITIVE_TOPOLOGY enumeration type contains values that identify primitive topologies in a call to the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_ia_settopology">IaSetTopology</a> function.
 
 ## -enum-fields
 
@@ -220,5 +220,4 @@ Supported in Windows 7 and later versions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_ia_settopology">IaSetTopology</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_ia_settopology">IaSetTopology</a>

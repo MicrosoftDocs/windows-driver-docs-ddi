@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The engine calls the <b>DebugExtensionNotify</b> callback function to inform the extension <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> when a session changes its active or accessible status.
+The engine calls the <b>DebugExtensionNotify</b> callback function to inform the extension <a href="/windows-hardware/drivers/">DLL</a> when a session changes its active or accessible status.
 
 ```cpp
  CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;
@@ -122,5 +122,4 @@ After the extension DLL is initialized, the engine will use this function to not
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>

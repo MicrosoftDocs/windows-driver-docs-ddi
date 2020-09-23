@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>StorPortInitializePerfOpts</b> function initializes the performance optimizations that both the miniport driver and the Storport driver support using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_perf_configuration_data">PERF_CONFIGURATION_DATA</a> structure.
+The <b>StorPortInitializePerfOpts</b> function initializes the performance optimizations that both the miniport driver and the Storport driver support using a <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_perf_configuration_data">PERF_CONFIGURATION_DATA</a> structure.
 
 ## -parameters
 
@@ -105,7 +105,7 @@ Or if <i>Query</i> is set to <b>TRUE</b>,  the <b>Flags</b> member of the struct
 </dl>
 </td>
 <td width="60%">
-The miniport driver set a flag in <i>PerfConfigData</i> that Storport did not recognize, or the miniport driver has called this routine from outside the miniport-driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine.
+The miniport driver set a flag in <i>PerfConfigData</i> that Storport did not recognize, or the miniport driver has called this routine from outside the miniport-driver-supplied <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine.
 
 </td>
 </tr>
@@ -135,12 +135,11 @@ Either the <i>HwDeviceExtension</i> parameter or the <i>PerfConfigData</i> param
 
 ## -remarks
 
-    The miniport driver can call <b>StorPortInitializePerfOpts</b> only during the miniport-supplied   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a> routine.
+    The miniport driver can call <b>StorPortInitializePerfOpts</b> only during the miniport-supplied   <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine or <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a> routine.
    
 
-Available performance optimizations depend on the version of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_perf_configuration_data">PERF_CONFIGURATION_DATA</a>. Setting the <b>Version</b> member to <b>STOR_PERF_VERSION</b> will allow all supported optimizations to be selected.
+Available performance optimizations depend on the version of <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_perf_configuration_data">PERF_CONFIGURATION_DATA</a>. Setting the <b>Version</b> member to <b>STOR_PERF_VERSION</b> will allow all supported optimizations to be selected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_perf_configuration_data">PERF_CONFIGURATION_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_perf_configuration_data">PERF_CONFIGURATION_DATA</a>

@@ -50,7 +50,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_FRAME_STATISTICS structure records statistical counters for the IEEE physical (PHY)
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_FRAME_STATISTICS structure records statistical counters for the IEEE physical (PHY)
   layer of the 802.11 station.
 
 ## -struct-fields
@@ -71,8 +71,8 @@ The number of MSDU packets and MMPDU frames that the 802.11 station failed to tr
      exceeding the retry limits defined by the 802.11 IEEE
      <b>dot11ShortRetryLimit</b> or
      <b>dot11LongRetryLimit</b> MIB counters. For more information about these MIB counters, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-short-retry-limit">OID_DOT11_SHORT_RETRY_LIMIT</a> or
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-long-retry-limit">OID_DOT11_LONG_RETRY_LIMIT</a>.
+     <a href="/windows-hardware/drivers/network/oid-dot11-short-retry-limit">OID_DOT11_SHORT_RETRY_LIMIT</a> or
+     <a href="/windows-hardware/drivers/network/oid-dot11-long-retry-limit">OID_DOT11_LONG_RETRY_LIMIT</a>.
 
 ### -field ullRetryCount
 
@@ -93,7 +93,7 @@ For MSDU packets, the miniport driver must increment this counter for each packe
 The number of MSDU packets and MMPDU frames that the 802.11 station failed to transmit because of
      a timeout as defined by the IEEE 802.11
      <b>dot11MaxTransmitMSDULifetime</b> MIB object. For more information about this MIB object, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-max-transmit-msdu-lifetime">
+     <a href="/windows-hardware/drivers/network/oid-dot11-max-transmit-msdu-lifetime">
      OID_DOT11_MAX_TRANSMIT_MSDU_LIFETIME</a>.
 
 ### -field ullTransmittedFragmentCount
@@ -148,7 +148,7 @@ This counter is optional. If the NIC does not support this counter, the miniport
 
 The number of MSDU packets or MMPDU frames received by the 802.11 station when a promiscuous
      packet filter is enabled. For more information about packet filters, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
+     <a href="/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 
 If a promiscuous packet filter is enabled, the miniport driver must only increment this counter for
@@ -165,7 +165,7 @@ Unicast MSDU packets or MMPDU frames with a destination MAC address that matches
 Multicast or broadcast MSDU packets or MMPDU frames with a destination MAC address that matches an
        entry in the multicast address list of the 802.11 station. For more information about the multicast
        address list, see
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-multicast-list">OID_DOT11_MULTICAST_LIST</a>.
+       <a href="/windows-hardware/drivers/network/oid-dot11-multicast-list">OID_DOT11_MULTICAST_LIST</a>.
 
 </li>
 </ul>
@@ -175,7 +175,7 @@ Multicast or broadcast MSDU packets or MMPDU frames with a destination MAC addre
 The number if MSDU packets and MMPDU frames that the 802.11 station discarded because of a timeout
      as defined by the IEEE 802.11
      <b>dot11MaxReceiveLifetime</b> MIB object. For more information about this MIB object, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-max-receive-lifetime">
+     <a href="/windows-hardware/drivers/network/oid-dot11-max-receive-lifetime">
      OID_DOT11_MAX_RECEIVE_LIFETIME</a>.
 
 ### -field ullFrameDuplicateCount
@@ -191,7 +191,7 @@ The number of MPDU frames received by the 802.11 station for MSDU packets or MMP
 
 The number of MPDU frames received by the 802.11 station for MSDU packets or MMPDU frames when a
      promiscuous packet filter was enabled. For more information about packet filters, see
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
+     <a href="/windows-hardware/drivers/network/oid-gen-current-packet-filter">OID_GEN_CURRENT_PACKET_FILTER</a>.
 
 
 If a promiscuous packet filter is enabled, the miniport driver must only increment this counter for
@@ -208,7 +208,7 @@ Unicast MPDU frames with a destination MAC address that matches the 802.11 stati
 Multicast or broadcast MPDU frames with a destination MAC address that matches an entry in the
        multicast address list of the 802.11 station. For more information about the multicast address list,
        see
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-multicast-list">OID_DOT11_MULTICAST_LIST</a>.
+       <a href="/windows-hardware/drivers/network/oid-dot11-multicast-list">OID_DOT11_MULTICAST_LIST</a>.
 
 </li>
 </ul>
@@ -264,12 +264,12 @@ The members of this structure are used to record PHY-level statistics for:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
+<a href="/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
    Statistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>
 
 
 
@@ -277,5 +277,4 @@ The members of this structure are used to record PHY-level statistics for:
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>
-
+<a href="/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>

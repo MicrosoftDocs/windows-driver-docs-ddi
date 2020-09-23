@@ -57,16 +57,16 @@ The
 [in]
 A handle that identifies the network interface provider that is registering the interface. The
      caller obtained this handle from a previous call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
      NdisIfRegisterProvider</a> function.
 
 ### -param NetLuid 
 
 [in]
 The caller-supplied 
-     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
+     <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
      interface. The interface provider used the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-make-net-luid">NDIS_MAKE_NET_LUID</a> macro to create this
+     <a href="/windows-hardware/drivers/network/ndis-make-net-luid">NDIS_MAKE_NET_LUID</a> macro to create this
      NET_LUID value. The interface provider should recover the NET_LUID value from persistent storage after
      the computer restarts and provide the same NET_LUID value each time it registers a particular
      interface.
@@ -82,7 +82,7 @@ A handle to a caller-allocated context area that is associated with the interfac
 
 [in]
 A pointer to a caller-allocated 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a> structure that
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a> structure that
      provides information about the interface. This structure contains information that remains constant
      while the interface exists.
 
@@ -161,18 +161,18 @@ NDIS interface providers call the
 Whenever a computer restarts, NDIS starts with an empty list of registered network interfaces. An
     interface provider calls the 
     <b>NdisIfRegisterInterface</b> function whenever an interface is started (or detected) and the interface's    
-    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> is known.
+    <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> is known.
 
 The method for detecting or starting an interface is application dependent. For example, if an LBFO
     MUX intermediate driver is an interface provider, that driver might register an internal interface when
     NDIS calls the driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
     for the first underlying miniport adapter.
 
 An interface provider can put information about an interface in persistent storage and restore the
     interface as required for the particular application. For example, the provider can store additional
     information about the interface with the 
-    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> and it can reregister the interface after
+    <a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> and it can reregister the interface after
     the computer restarts.
 
 If 
@@ -189,30 +189,29 @@ NDIS might not return the same interface index every time a provider registers a
 
 To indicate that an interface should be removed from the list of known interfaces on the computer, an
     interface provider calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">
     NdisIfDeregisterInterface</a> function, for example, because the interface has been uninstalled. .
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-make-net-luid">NDIS_MAKE_NET_LUID</a>
+<a href="/windows-hardware/drivers/network/ndis-make-net-luid">NDIS_MAKE_NET_LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">NdisIfDeregisterInterface</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">NdisIfDeregisterInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">NdisIfRegisterProvider</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">NdisIfRegisterProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>

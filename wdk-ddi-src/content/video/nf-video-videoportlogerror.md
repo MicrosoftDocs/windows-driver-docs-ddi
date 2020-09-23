@@ -78,9 +78,8 @@ Miniport drivers should call <b>VideoPortLogError</b> to notify the user if the 
 
 However, miniport drivers should <i>not</i> log errors, such as "failed to detect hardware," that occur frequently during normal operation.
 
-<b>VideoPortLogError</b> can be called from a miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function.
+<b>VideoPortLogError</b> can be called from a miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff570170(v=vs.85)">VideoDebugPrint</a>
-
+<a href="/previous-versions/ff570170(v=vs.85)">VideoDebugPrint</a>

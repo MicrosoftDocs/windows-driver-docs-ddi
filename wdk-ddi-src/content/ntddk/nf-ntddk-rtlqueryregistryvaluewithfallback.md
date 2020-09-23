@@ -84,5 +84,4 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 ## -see-also
 
-[Using the Registry in a Driver](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-the-registry-in-a-driver)
-
+[Using the Registry in a Driver](/windows-hardware/drivers/kernel/using-the-registry-in-a-driver)

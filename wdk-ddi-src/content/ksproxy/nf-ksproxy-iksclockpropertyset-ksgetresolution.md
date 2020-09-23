@@ -53,7 +53,7 @@ The <b>KsGetResolution</b> method retrieves the clock resolution from the underl
 ### -param Resolution 
 
 [out]
-Pointer to a variable that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution">KSRESOLUTION</a> structure that contains the granularity and error of the underlying clock.
+Pointer to a variable that receives a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution">KSRESOLUTION</a> structure that contains the granularity and error of the underlying clock.
 
 ## -returns
 
@@ -63,13 +63,12 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 The <b>KsGetResolution</b> method retrieves the underlying clock's resolution property, which specifies the underlying clock's increment granularity and notification error in terms of 100-nanosecond units. The best granularity would be one 100-nanosecond unit; less granular increments would contain larger numbers. The least amount of notification error above and beyond the clock granularity would be reported as zero 100-nanosecond units, and less accurate clocks would use larger numbers to indicate +/− error. The proxy can use this resolution property to determine maximum error and resolution in event notification and synchronization.
 
-The proxy uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a> property to retrieve the clock resolution.
+The proxy uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a> property to retrieve the clock resolution.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution">KSRESOLUTION</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution">KSRESOLUTION</a>

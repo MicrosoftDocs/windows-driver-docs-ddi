@@ -57,7 +57,7 @@ A miniport driver calls the <b>NdisMQueryProbedBars</b> function to obtain the v
 [in]
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 ### -param BaseRegisterValues 
 
@@ -120,19 +120,19 @@ address space is required for the BAR.
 </ul>
 The virtual PCI (VPCI) bus driver runs in the guest operating system of a Hyper-V child partition. When a PCI Express (PCIe) Virtual Function (VF) is attached to the child partition, the VPCI bus driver will expose a virtual network adapter for the VF (<i>VF network adapter</i>). Before it does this, the VPCI bus driver must perform a PCI BAR query to determine the required memory or address space that is required by the VF network adapter.
 
-Because access to the PCI configuration space is a privileged operation, it can only be performed by components that run in the management operating system of a Hyper-V parent partition. When the VPCI bus driver queries the PCI BARs, NDIS issues an object identifier (OID) query request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-probed-bars">OID_SRIOV_PROBED_BARS</a> to the PF miniport driver. The results returned by this OID query request are forwarded to the VPCI bus driver so that it can determine how much memory address space would be needed by the VF network adapter. 
+Because access to the PCI configuration space is a privileged operation, it can only be performed by components that run in the management operating system of a Hyper-V parent partition. When the VPCI bus driver queries the PCI BARs, NDIS issues an object identifier (OID) query request of <a href="/windows-hardware/drivers/network/oid-sriov-probed-bars">OID_SRIOV_PROBED_BARS</a> to the PF miniport driver. The results returned by this OID query request are forwarded to the VPCI bus driver so that it can determine how much memory address space would be needed by the VF network adapter. 
 
 During the handling of this OID request, the driver can call <b>NdisMQueryProbedBars</b> to obtain the values returned from the BAR query performed by the PCI driver.
 
 
-For more information on how to query PCI BAR registers for a VF, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/querying-the-pci-base-address-registers-of-a-virtual-function">Querying the PCI Base Address Registers of a Virtual Function</a>.
+For more information on how to query PCI BAR registers for a VF, see <a href="/windows-hardware/drivers/network/querying-the-pci-base-address-registers-of-a-virtual-function">Querying the PCI Base Address Registers of a Virtual Function</a>.
 
-For more information about the SR-IOV interface, see 	<a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
+For more information about the SR-IOV interface, see 	<a href="/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
 <h3><a id="Interfacing_to_a_Virtual_Bus_Driver"></a><a id="interfacing_to_a_virtual_bus_driver"></a><a id="INTERFACING_TO_A_VIRTUAL_BUS_DRIVER"></a>Interfacing to a Virtual Bus Driver</h3>
-If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMQueryProbedBars</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a>. This function is exposed from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface that is supported by the underlying PCI bus driver.
+If an independent hardware vendor (IHV) provides a virtual bus driver (VBD) as part of its SR-IOV <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>, its miniport driver must not call <b>NdisMQueryProbedBars</b>. Instead, the driver must interface with the VBD through a private communication channel, and request that the VBD call <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a>. This function is exposed from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface that is supported by the underlying PCI bus driver.
 
-The VBD that runs in the Hyper-V parent partition's management operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface by issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the PCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_PCI_VIRTUALIZATION_INTERFACE.
+The VBD that runs in the Hyper-V parent partition's management operating system can query the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface by issuing an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> request to its physical device object (PDO) on the PCI bus. This request must be made from IRQL = PASSIVE_LEVEL. In this request, the driver must  set the <i>InterfaceType</i> parameter to GUID_PCI_VIRTUALIZATION_INTERFACE.
 
 ## -see-also
 
@@ -144,9 +144,8 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-probed-bars">OID_SRIOV_PROBED_BARS</a>
-
+<a href="/windows-hardware/drivers/network/oid-sriov-probed-bars">OID_SRIOV_PROBED_BARS</a>

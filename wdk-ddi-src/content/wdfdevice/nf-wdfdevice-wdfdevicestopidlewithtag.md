@@ -114,7 +114,7 @@ Additional return values include:
 
  
 
-The method might return other [NTSTATUS values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+The method might return other [NTSTATUS values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -122,13 +122,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-If your driver calls **WdfDeviceStopIdleWithTag** to increment a reference count, the driver must call [**WdfDeviceResumeIdleWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceresumeidlewithtag) to decrement the count.
+If your driver calls **WdfDeviceStopIdleWithTag** to increment a reference count, the driver must call [**WdfDeviceResumeIdleWithTag**](./nf-wdfdevice-wdfdeviceresumeidlewithtag.md) to decrement the count.
 
-Calling **WdfDeviceStopIdleWithTag** instead of [**WdfDeviceStopIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicestopidle) provides additional information (tag value, line number, and file name) that you can view in Microsoft debuggers. **WdfDeviceStopIdleWithTag** uses the driver's current line number and file name.
+Calling **WdfDeviceStopIdleWithTag** instead of [**WdfDeviceStopIdle**](./nf-wdfdevice-wdfdevicestopidle.md) provides additional information (tag value, line number, and file name) that you can view in Microsoft debuggers. **WdfDeviceStopIdleWithTag** uses the driver's current line number and file name.
 
-You can view the tag, line number, and file name values by using the [**!wdftagtracker**](https://docs.microsoft.com/windows-hardware/drivers/debugger/-wdfkd-wdftagtracker) debugger extension. The debugger extension displays the tag value as both a pointer and a series of characters.
+You can view the tag, line number, and file name values by using the [**!wdftagtracker**](/windows-hardware/drivers/debugger/-wdfkd-wdftagtracker) debugger extension. The debugger extension displays the tag value as both a pointer and a series of characters.
 
-Use [**!wdfkd.wdfdevice**](https://docs.microsoft.com/windows-hardware/drivers/debugger/-wdfkd-wdfdevice) with verbose flags on and locate the link to [**!wdftagtracker**](https://docs.microsoft.com/windows-hardware/drivers/debugger/-wdfkd-wdftagtracker) in the output:
+Use [**!wdfkd.wdfdevice**](/windows-hardware/drivers/debugger/-wdfkd-wdfdevice) with verbose flags on and locate the link to [**!wdftagtracker**](/windows-hardware/drivers/debugger/-wdfkd-wdftagtracker) in the output:
 
 ```cpp
 kd> !wdfdevice <handle> f 
@@ -136,11 +136,10 @@ kd> !wdfdevice <handle> f
 
 ## -see-also
 
-[Debugging Power Reference Leaks in WDF](https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-power-reference-leaks-in-wdf)
+[Debugging Power Reference Leaks in WDF](/windows-hardware/drivers/wdf/debugging-power-reference-leaks-in-wdf)
 
-[**WdfDeviceResumeIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceresumeidle)
+[**WdfDeviceResumeIdle**](./nf-wdfdevice-wdfdeviceresumeidle.md)
 
-[**WdfDeviceResumeIdleWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceresumeidlewithtag)
+[**WdfDeviceResumeIdleWithTag**](./nf-wdfdevice-wdfdeviceresumeidlewithtag.md)
 
-[**WdfDeviceStopIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicestopidle)
-
+[**WdfDeviceStopIdle**](./nf-wdfdevice-wdfdevicestopidle.md)

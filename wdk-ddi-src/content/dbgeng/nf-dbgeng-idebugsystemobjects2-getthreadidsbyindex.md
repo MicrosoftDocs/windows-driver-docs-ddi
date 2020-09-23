@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The <b>GetThreadIdsByIndex</b> method returns the engine and system thread IDs for the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a> in the current process.
+The <b>GetThreadIdsByIndex</b> method returns the engine and system thread IDs for the specified <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a> in the current process.
 
 ## -parameters
 
@@ -75,7 +75,7 @@ Receives the system thread IDs.  If <i>SysIds</i> is <b>NULL</b>, this informati
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -97,7 +97,6 @@ The method was successful.
 
 ## -remarks
 
-The index of the first thread is zero.  The index of the last thread is the number of threads returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumberthreads">GetNumberThreads</a> minus one.
+The index of the first thread is zero.  The index of the last thread is the number of threads returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumberthreads">GetNumberThreads</a> minus one.
 
-For more information about threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
-
+For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.

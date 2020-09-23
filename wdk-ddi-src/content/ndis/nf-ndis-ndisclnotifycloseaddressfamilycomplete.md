@@ -50,7 +50,7 @@ api_name:
 The 
   <b>NdisClNotifyCloseAddressFamilyComplete</b> function returns the final status of an address family (AF)
   close operation for which the caller's 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">ProtocolClNotifyCloseAf</a> function
+  <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">ProtocolClNotifyCloseAf</a> function
   returned NDIS_STATUS_PENDING.
 
 ## -parameters
@@ -59,7 +59,7 @@ The
 
 [in]
 An AF handle that NDIS supplied to the caller's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">
      NdisClOpenAddressFamilyEx</a> function.
 
 ### -param Status 
@@ -90,24 +90,23 @@ CoNDIS clients call the
     <b>NdisClNotifyCloseAddressFamilyComplete</b> function to complete a close AF notification. A client must
     call 
     <b>NdisClNotifyCloseAddressFamilyComplete</b> after its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">
     ProtocolClNotifyCloseAf</a> function returns NDIS_STATUS_PENDING.
 
 After the client calls 
     <b>NdisClNotifyCloseAddressFamilyComplete</b>, NDIS calls the call manager's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
     ProtocolCmNotifyCloseAfComplete</a> function to complete operation for the call manager.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">ProtocolClNotifyCloseAf</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">ProtocolClNotifyCloseAf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
    ProtocolCmNotifyCloseAfComplete</a>
-

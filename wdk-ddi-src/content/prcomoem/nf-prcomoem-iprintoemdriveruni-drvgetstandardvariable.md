@@ -46,13 +46,13 @@ api_name:
 
 ## -description
 
-The <code>IPrintOemDriverUni::DrvGetStandardVariable</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain the current value of Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/print/standard-variables">standard variables</a>.
+The <code>IPrintOemDriverUni::DrvGetStandardVariable</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain the current value of Unidrv's <a href="/windows-hardware/drivers/print/standard-variables">standard variables</a>.
 
 ## -parameters
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param dwIndex
 
@@ -113,4 +113,3 @@ The method is not implemented.
 </td>
 </tr>
 </table>
-

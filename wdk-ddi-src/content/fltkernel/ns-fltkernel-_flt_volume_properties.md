@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The FLT_VOLUME_PROPERTIES structure is passed as a parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>.
+The FLT_VOLUME_PROPERTIES structure is passed as a parameter to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>.
 
 ## -struct-fields
 
@@ -70,19 +70,19 @@ FILE_DEVICE_NETWORK
 
 FILE_DEVICE_VIRTUAL_DISK
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
+For more information, see <a href="/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
 
 ### -field DeviceCharacteristics
 
-Receives the device characteristics of the volume. For more information, see the reference entry for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>.
+Receives the device characteristics of the volume. For more information, see the reference entry for <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>.
 
 ### -field DeviceObjectFlags
 
-Receives the device object flags for the volume. For more information about these flags, see the reference entries for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
+Receives the device object flags for the volume. For more information about these flags, see the reference entries for <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a> and <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 ### -field AlignmentRequirement
 
-Receives the buffer alignment required by the underlying device. The value must be one of the FILE_<i>xxxx</i>_ALIGNMENT values defined in ntifs.h. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/initializing-a-device-object">Initializing a Device Object</a>.
+Receives the buffer alignment required by the underlying device. The value must be one of the FILE_<i>xxxx</i>_ALIGNMENT values defined in ntifs.h. For more information, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> and <a href="/windows-hardware/drivers/kernel/initializing-a-device-object">Initializing a Device Object</a>.
 
 ### -field SectorSize
 
@@ -111,27 +111,27 @@ This flag indicates that the volume is a direct access (DAX) volume.
 
 ### -field FileSystemDriverName
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the service name of the file system that is mounted on this volume. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>.
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the service name of the file system that is mounted on this volume. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>.
 
 ### -field FileSystemDeviceName
 
-UNICODE_STRING structure that receives the name of the file system device object associated with this volume. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>.
+UNICODE_STRING structure that receives the name of the file system device object associated with this volume. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>.
 
 ### -field RealDeviceName
 
-UNICODE_STRING structure that receives the name of the storage device object associated with this volume. This structure is empty for network file systems. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>.
+UNICODE_STRING structure that receives the name of the storage device object associated with this volume. This structure is empty for network file systems. The buffer for this Unicode string is contiguous with this structure and does not need to be initialized before calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>.
 
 ## -remarks
 
 Storage for the FLT_VOLUME_PROPERTIES structure is typically allocated from paged pool. 
 
-To get the volume name for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>. 
+To get the volume name for a given volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>. 
 
-To get the volume globally unique identifier (GUID) name for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>.
+To get the volume globally unique identifier (GUID) name for a given volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
@@ -139,17 +139,16 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

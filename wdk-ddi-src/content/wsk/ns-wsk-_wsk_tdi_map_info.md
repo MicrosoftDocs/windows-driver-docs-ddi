@@ -52,7 +52,7 @@ api_name:
 
 The WSK_TDI_MAP_INFO structure specifies a list that contains mappings of a combination of an address
   family, a socket type, and a protocol to the device name of a 
-  <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
+  <a href="/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
 
 ## -struct-fields
 
@@ -64,37 +64,36 @@ The number of structures contained in the array pointed to by the
 ### -field Map
 
 A pointer to an array of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_tdi_map">WSK_TDI_MAP</a> structures. Each WSK_TDI_MAP
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_tdi_map">WSK_TDI_MAP</a> structures. Each WSK_TDI_MAP
      structure in the array contains a mapping of a particular address family, socket type, and protocol to
      the device name of a 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
+     <a href="/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
 
 ## -remarks
 
 A WSK application passes a pointer to a WSK_TDI_MAP_INFO structure to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function when specifying    
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-tdi-devicename-mapping">WSK_TDI_DEVICENAME_MAPPING</a> for
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function when specifying    
+    <a href="/windows-hardware/drivers/network/wsk-tdi-devicename-mapping">WSK_TDI_DEVICENAME_MAPPING</a> for
     the control code.
 
 If a WSK application uses the WSK_TDI_DEVICENAME_MAPPING client control operation to map combinations
     of address family, socket type, and protocol to device names of 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transports, it must do so before it creates any
+    <a href="/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transports, it must do so before it creates any
     sockets.
 
 For more information about using TDI transports, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-tdi-transports">Using TDI Transports</a>.
+    <a href="/windows-hardware/drivers/network/using-tdi-transports">Using TDI Transports</a>.
 
 <div class="alert"><b>Note</b>  TDI will not be supported in Microsoft Windows versions after Windows Vista. Use 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Windows Filtering
+    <a href="/windows-hardware/drivers/ddi/_netvista/">Windows Filtering
     Platform</a> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Winsock Kernel</a> instead.</div>
+    <a href="/windows-hardware/drivers/ddi/_netvista/">Winsock Kernel</a> instead.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_tdi_map">WSK_TDI_MAP</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_tdi_map">WSK_TDI_MAP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>

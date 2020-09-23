@@ -135,11 +135,11 @@ Pointer to a buffer containing the pinned data.
 
 If the PIN_WAIT flag is set, <b>CcPinRead</b> is guaranteed to complete the pinning request and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data is pinned immediately and no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be pinned. If the PIN_WAIT flag is not set, but the data cannot be pinned immediately, <b>CcPinRead</b> returns <b>FALSE</b>, and its output parameter values are meaningless.
 
-If the caller subsequently modifies the data read by <b>CcPinRead</b>, it must also call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a> so that the modified data will eventually be written to disk.
+If the caller subsequently modifies the data read by <b>CcPinRead</b>, it must also call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetdirtypinneddata">CcSetDirtyPinnedData</a> so that the modified data will eventually be written to disk.
 
-Every successful call to <b>CcPinRead</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>.
+Every successful call to <b>CcPinRead</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a>.
 
-The pointer returned in <i>Buffer</i> is valid until <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a> is called. If <a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a> is called while this pointer is still valid, the pointer remains valid after the call to <b>CcPinMappedData</b> (but only until <b>CcUnpinData</b> is called).
+The pointer returned in <i>Buffer</i> is valid until <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a> is called. If <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinmappeddata">CcPinMappedData</a> is called while this pointer is still valid, the pointer remains valid after the call to <b>CcPinMappedData</b> (but only until <b>CcUnpinData</b> is called).
 
 <b>CcPinRead</b> cannot pin data across view boundaries in the cache manager. The cache manager manages files in the system in 256 KB-aligned views. (The cache manager's view size is specified by the system-defined constant VACB_MAPPING_GRANULARITY, which is set to 256 KB in ntifs.h.) Pinned regions cannot span more than one 256 KB view. Therefore, the largest region that can be pinned is 256 KB, beginning at a 256 KB-aligned offset in the file. 
 
@@ -147,29 +147,28 @@ Pinning a byte range in a cached file does not ensure that the pages remain resi
 
 If any failure occurs, <b>CcPinRead</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcPinRead</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcPinRead</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcPinRead</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-To map data for a cached file, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a> routine. To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
+To map data for a cached file, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmapdata">CcMapData</a> routine. To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmapdata">CcMapData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinmappeddata">CcPinMappedData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparepinwrite">CcPreparePinWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetdirtypinneddata">CcSetDirtyPinnedData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a>

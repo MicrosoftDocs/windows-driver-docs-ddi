@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<b>D3DDDIARG_TRIMRESIDENCYSET</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a> by a user mode driver to trim the residency list for a given device.
+<b>D3DDDIARG_TRIMRESIDENCYSET</b> is used with <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a> by a user mode driver to trim the residency list for a given device.
 
 ## -struct-fields
 
@@ -60,5 +60,4 @@ When <b>TrimToBudget</b> is set, this value specifies how much the application s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a>

@@ -63,9 +63,8 @@ Delete the object and all its children.
 
 ## -remarks
 
-An application can retrieve the deletion options that the device supports by calling the <b>IPortableDeviceCapabilities::GetCommandOptions</b> method for the <b>WPD_COMMAND_OBJECT_MANAGEMENT_DELETE_OBJECTS</b> command. It should examine the <b>WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED</b> option value that this method returns in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection</a> object.
+An application can retrieve the deletion options that the device supports by calling the <b>IPortableDeviceCapabilities::GetCommandOptions</b> method for the <b>WPD_COMMAND_OBJECT_MANAGEMENT_DELETE_OBJECTS</b> command. It should examine the <b>WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED</b> option value that this method returns in an <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>

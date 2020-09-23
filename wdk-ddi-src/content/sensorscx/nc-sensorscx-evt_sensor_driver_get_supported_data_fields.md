@@ -48,7 +48,7 @@ api_name:
 
 This callback function returns a list of data fields supported by the specified sensor.
 
-For more information about data fields, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>.
+For more information about data fields, see <a href="/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ For more information about data fields, see <a href="https://docs.microsoft.com/
 
 ### -param pDataFields
 
-[in, out, optional] A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>.
+[in, out, optional] A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>.
 
 ### -param pSize 
 
@@ -76,9 +76,8 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>
+<a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>
-
+<a href="/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>

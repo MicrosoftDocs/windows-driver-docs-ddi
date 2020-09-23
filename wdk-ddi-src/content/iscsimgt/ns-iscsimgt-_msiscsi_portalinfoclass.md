@@ -60,7 +60,7 @@ The number of portals that the initiator discovered and for which portal informa
 
 ### -field PortalInformation
 
-A variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_portalinfo">ISCSI_PortalInfo</a> structures. The number of elements in the array is specified by the <b>PortalInfoCount</b> field.
+A variable length array of <a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_portalinfo">ISCSI_PortalInfo</a> structures. The number of elements in the array is specified by the <b>PortalInfoCount</b> field.
 
 ## -remarks
 
@@ -68,9 +68,8 @@ We recommend that you implement this class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_portalinfo">ISCSI_PortalInfo</a>
+<a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_portalinfo">ISCSI_PortalInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-portalinfoclass-wmi-class">MSiSCSI_PortalInfoClass WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msiscsi-portalinfoclass-wmi-class">MSiSCSI_PortalInfoClass WMI Class</a>

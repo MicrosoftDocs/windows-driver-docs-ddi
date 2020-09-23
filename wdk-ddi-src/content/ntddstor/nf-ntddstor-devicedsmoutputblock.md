@@ -57,9 +57,8 @@ Returns a pointer to the output block that immediately follows the DEVICE_DSM_OU
 
 ## -remarks
 
-See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for information on how to set up and process a DSM action.
+See [Data Set Management Overview](/windows-hardware/drivers/storage/data-set-management-overview) for information on how to set up and process a DSM action.
 
 ## -see-also
 
 [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md)
-

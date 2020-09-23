@@ -55,7 +55,7 @@ The <b>IoUnregisterPlugPlayNotification</b> routine removes the registration of 
 ### -param NotificationEntry 
 
 [in]
-Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>.
+Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>.
 
 ## -returns
 
@@ -63,7 +63,7 @@ Pointer to an opaque value representing the registration to be removed. The valu
 
 ## -remarks
 
-In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex">IoUnregisterPlugPlayNotificationEx</a> routine instead.
+In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex">IoUnregisterPlugPlayNotificationEx</a> routine instead.
 
 <div class="alert"><b>Note</b>    The system does not synchronize between the execution of the notification routine and <b>IoUnregisterPlugPlayNotification</b>. Therefore, the routine can be called after the <b>IoUnregisterPlugPlayNotification</b> method has returned. If necessary, a driver should implement its own mechanism to ignore any notifications after <b>IoUnregisterPlugPlayNotification</b> has been called.</div>
 <div> </div>
@@ -75,9 +75,8 @@ A driver cannot be unloaded until it removes all of its PnP notification registr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex">IoUnregisterPlugPlayNotificationEx</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotificationex">IoUnregisterPlugPlayNotificationEx</a>

@@ -54,7 +54,7 @@ The <b>BdaPropertyGetControllingPinId</b> function retrieves the identifier of a
 ### -param Irp 
 
 [in]
-Points to the IRP for the request to retrieve the controlling pin for a node. The BDA minidriver receives this IRP with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-controlling-pin-id">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a> request.
+Points to the IRP for the request to retrieve the controlling pin for a node. The BDA minidriver receives this IRP with the <a href="/windows-hardware/drivers/stream/ksproperty-bda-controlling-pin-id">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a> request.
 
 ### -param Property
 
@@ -66,7 +66,7 @@ Points to a variable that receives the identifier of the controlling pin for a n
 
 #### - pProperty [in]
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node.
+Points to a <a href="/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node.
 
 ## -returns
 
@@ -74,17 +74,16 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 ## -remarks
 
-A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to retrieve the identifier of the controlling pin for a node after the minidriver receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-controlling-pin-id">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyGetControllingPinId</b> function directly, without intercepting this request using an internal get-handler (<a href="https://docs.microsoft.com/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>). See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/determining-bda-device-topology">Determining BDA Device Topology</a> for more information.
+A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to retrieve the identifier of the controlling pin for a node after the minidriver receives a <a href="/windows-hardware/drivers/stream/ksproperty-bda-controlling-pin-id">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a> request of the <a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyGetControllingPinId</b> function directly, without intercepting this request using an internal get-handler (<a href="/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>). See <a href="/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="/windows-hardware/drivers/stream/determining-bda-device-topology">Determining BDA Device Topology</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-controlling-pin-id">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-bda-controlling-pin-id">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
+<a href="/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a>
-
+<a href="/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a>

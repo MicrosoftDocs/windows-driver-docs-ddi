@@ -62,7 +62,7 @@ Input arguments used by <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b>.
 
 ## -returns
 
-(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -remarks
 
@@ -85,4 +85,3 @@ If the display adapter supports HDCP, <b>EVT_IDD_CX_MONITOR_I2C_RECEIVE</b> must
  device has an I2C address that is used by HDCP.
  This function  can receive data from an I2C device in a monitor that is connected to the display adapter, but must never receive data from an I2C
  device that is on the display adapter itself.
-

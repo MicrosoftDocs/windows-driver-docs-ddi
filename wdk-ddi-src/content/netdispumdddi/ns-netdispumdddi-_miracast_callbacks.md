@@ -56,21 +56,20 @@ Contains pointers to wireless display (Miracast) runtime callback functions that
 
 ### -field ReportSessionStatus
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_session_status">ReportSessionStatus</a>   function.
+A pointer to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_session_status">ReportSessionStatus</a>   function.
 
 ### -field MiracastIoControl
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a>   function.
+A pointer to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a>   function.
 
 ### -field ReportStatistic
 
-A pointer to the    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_statistic">ReportStatistic</a> function.
+A pointer to the    <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_statistic">ReportStatistic</a> function.
 
 ### -field GetNextChunkData
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a>    function.
+A pointer to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_get_next_chunk_data">GetNextChunkData</a>    function.
 
 ### -field RegisterForDataRateNotifications
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_register_datarate_notifications">RegisterForDataRateNotifications</a>    function.
-
+A pointer to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_register_datarate_notifications">RegisterForDataRateNotifications</a>    function.

@@ -60,35 +60,35 @@ Specifies the size in bytes of this MINIDRV_TRANSFER_CONTEXT structure.
 
 ### -field lWidthInPixels
 
-Specifies the width in pixels of the current image. The value of this member is derived from the [WIA_IPA_PIXELS_PER_LINE](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-pixels-per-line) common item property.
+Specifies the width in pixels of the current image. The value of this member is derived from the [WIA_IPA_PIXELS_PER_LINE](/windows-hardware/drivers/image/wia-ipa-pixels-per-line) common item property.
 
 ### -field lLines
 
-Specifies the total number of lines (the number of horizontal rows of pixels) in the current image. The value of this member is derived from the [WIA_IPA_NUMBER_OF_LINES](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-number-of-lines) common item property.
+Specifies the total number of lines (the number of horizontal rows of pixels) in the current image. The value of this member is derived from the [WIA_IPA_NUMBER_OF_LINES](/windows-hardware/drivers/image/wia-ipa-number-of-lines) common item property.
 
 ### -field lDepth
 
-Specifies the color depth value of the current image in bits per pixel. The value of this member is derived from the [WIA_IPA_DEPTH](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-depth) common item property.
+Specifies the color depth value of the current image in bits per pixel. The value of this member is derived from the [WIA_IPA_DEPTH](/windows-hardware/drivers/image/wia-ipa-depth) common item property.
 
 ### -field lXRes
 
-Specifies the current horizontal resolution of the image in pixels per inch. The value of this member is derived from the [WIA_IPS_XRES](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-xres) scanner item property.
+Specifies the current horizontal resolution of the image in pixels per inch. The value of this member is derived from the [WIA_IPS_XRES](/windows-hardware/drivers/image/wia-ips-xres) scanner item property.
 
 ### -field lYRes
 
-Specifies the current vertical resolution of the image in pixels per inch. The value of this member is derived from the [WIA_IPS_YRES](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-yres) scanner item property.
+Specifies the current vertical resolution of the image in pixels per inch. The value of this member is derived from the [WIA_IPS_YRES](/windows-hardware/drivers/image/wia-ips-yres) scanner item property.
 
 ### -field lCompression
 
-Specifies the type of compression used by the device. The value of this member is derived from the [WIA_IPA_COMPRESSION](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-compression) common item property.
+Specifies the type of compression used by the device. The value of this member is derived from the [WIA_IPA_COMPRESSION](/windows-hardware/drivers/image/wia-ipa-compression) common item property.
 
 ### -field guidFormatID
 
-Specifies a GUID that indicates the data format for the device. The value of this member is derived from the [WIA_IPA_FORMAT](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-format) common item property.
+Specifies a GUID that indicates the data format for the device. The value of this member is derived from the [WIA_IPA_FORMAT](/windows-hardware/drivers/image/wia-ipa-format) common item property.
 
 ### -field tymed
 
-Specifies the type of data transfer. The data transfer specified can be either a memory-callback transfer (TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK) or file transfer (TYMED_FILE or TYMED_MULTIPAGE_FILE). The value of this member is derived from the [WIA_IPA_TYMED](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-tymed) common item property.
+Specifies the type of data transfer. The data transfer specified can be either a memory-callback transfer (TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK) or file transfer (TYMED_FILE or TYMED_MULTIPAGE_FILE). The value of this member is derived from the [WIA_IPA_TYMED](/windows-hardware/drivers/image/wia-ipa-tymed) common item property.
 
 This member conveys information related to that in the **bTransferDataCB** member. See **Remarks** for more information.
 
@@ -122,7 +122,7 @@ Points to the start of the current transfer buffer. For a callback transfer in w
 
 ### -field bTransferDataCB
 
-Specifies whether a data transfer is a memory-callback transfer or a file transfer. This member is set to **TRUE** if the transfer is a memory-callback transfer, and **FALSE** if the transfer is a file transfer. For file transfers, the WIA service usually provides a callback routine, which enables the application to receive updates from the minidriver about the status of the file transfer. (The WIA service provides a callback routine if the application provides its own callback routine. See [IWiaMiniDrvCallback COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/iwiaminidrvcallback-com-interface) for details.) For file transfers, a minidriver should check the value stored in the **pIWiaMiniDrvCallBack** member. If that member is **NULL**, the WIA service does not provide a callback routine, so the driver must not attempt to call it. For memory-callback transfers, the WIA service always provides a callback.
+Specifies whether a data transfer is a memory-callback transfer or a file transfer. This member is set to **TRUE** if the transfer is a memory-callback transfer, and **FALSE** if the transfer is a file transfer. For file transfers, the WIA service usually provides a callback routine, which enables the application to receive updates from the minidriver about the status of the file transfer. (The WIA service provides a callback routine if the application provides its own callback routine. See [IWiaMiniDrvCallback COM Interface](/windows-hardware/drivers/image/iwiaminidrvcallback-com-interface) for details.) For file transfers, a minidriver should check the value stored in the **pIWiaMiniDrvCallBack** member. If that member is **NULL**, the WIA service does not provide a callback routine, so the driver must not attempt to call it. For memory-callback transfers, the WIA service always provides a callback.
 
 This member conveys information related to that in the **tymed** member. See **Remarks** for more information.
 
@@ -136,7 +136,7 @@ Specifies the address, in the client's address space, of the transfer. The minid
 
 ### -field pIWiaMiniDrvCallBack
 
-Points to an [IWiaMiniDrvCallBack Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvcallback) used for data or status callback transfer.
+Points to an [IWiaMiniDrvCallBack Interface](./nn-wiamindr_lh-iwiaminidrvcallback.md) used for data or status callback transfer.
 
 ### -field lImageSize
 
@@ -168,24 +168,24 @@ Specifies the image file directory (IFD) offset in the previous page of a multip
 
 ## -remarks
 
-The WIA service sets most of the members of this structure before it calls the minidriver's [IWiaMiniDrv::drvAcquireItemData](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata) method. If the minidriver calls [wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetimageinformation), then that function fills in the remaining members of the MINIDRV_TRANSFER_CONTEXT passed to it.
+The WIA service sets most of the members of this structure before it calls the minidriver's [IWiaMiniDrv::drvAcquireItemData](./nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata.md) method. If the minidriver calls [wiasGetImageInformation](../wiamdef/nf-wiamdef-wiasgetimageinformation.md), then that function fills in the remaining members of the MINIDRV_TRANSFER_CONTEXT passed to it.
 
 Because the WIA service currently uses only the TYMED_FILE and TYMED_CALLBACK constants, the **tymed** and **bTransferDataCB** members store essentially the same information. For file transfers, when **bTransferDataCB** is set to **FALSE**, **tymed** is set to either TYMED_FILE or TYMED_MULTIPAGE_FILE. For memory-callback transfers, when **bTransferDataCB** is set to **TRUE**, **tymed** is set to either TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK.
 
-The **hFile** member is reserved for use solely by the WIA service. Rather than using this member for file transfers, the minidriver should instead write the data to a buffer, and then call [wiasWritePageBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepagebuftofile) to complete the file transfer.
+The **hFile** member is reserved for use solely by the WIA service. Rather than using this member for file transfers, the minidriver should instead write the data to a buffer, and then call [wiasWritePageBufToFile](../wiamdef/nf-wiamdef-wiaswritepagebuftofile.md) to complete the file transfer.
 
 The minidriver obtains values from specific common or scanner item properties to set the members shown in the following table:
 
 | Member | Set by |
 | --- | --- |
-| **lWidthInPixels** | [WIA_IPA_PIXELS_PER_LINE](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-pixels-per-line) |
-| **lLines** | [WIA_IPA_NUMBER_OF_LINES](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-number-of-lines) |
-| **lDepth** | [WIA_IPA_DEPTH](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-depth) |
-| **lXRes** | [WIA_IPS_XRES](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-xres) |
-| **lYRes** | [WIA_IPS_YRES](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-yres) |
-| **lCompression** | [WIA_IPA_COMPRESSION](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-compression) |
-| **guidFormatID** | [WIA_IPA_FORMAT](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-format) |
-| **tymed** | [WIA_IPA_TYMED](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-tymed) |
+| **lWidthInPixels** | [WIA_IPA_PIXELS_PER_LINE](/windows-hardware/drivers/image/wia-ipa-pixels-per-line) |
+| **lLines** | [WIA_IPA_NUMBER_OF_LINES](/windows-hardware/drivers/image/wia-ipa-number-of-lines) |
+| **lDepth** | [WIA_IPA_DEPTH](/windows-hardware/drivers/image/wia-ipa-depth) |
+| **lXRes** | [WIA_IPS_XRES](/windows-hardware/drivers/image/wia-ips-xres) |
+| **lYRes** | [WIA_IPS_YRES](/windows-hardware/drivers/image/wia-ips-yres) |
+| **lCompression** | [WIA_IPA_COMPRESSION](/windows-hardware/drivers/image/wia-ipa-compression) |
+| **guidFormatID** | [WIA_IPA_FORMAT](/windows-hardware/drivers/image/wia-ipa-format) |
+| **tymed** | [WIA_IPA_TYMED](/windows-hardware/drivers/image/wia-ipa-tymed) |
 
 Usually, the minidriver sets the preceding structure members directly from the values of the item properties. An application or the minidriver will have set the item properties earlier. The WIA service fills in its service context, using the property values. The driver can use the values stored in this context for quick reference.
 
@@ -197,7 +197,7 @@ The WIA service sets the following structure members:
 
 - **bClassDrvAllocBuf**
 
-Either the minidriver or the [wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetimageinformation) service library function sets the following structure members:
+Either the minidriver or the [wiasGetImageInformation](../wiamdef/nf-wiamdef-wiasgetimageinformation.md) service library function sets the following structure members:
 
 - **lImageSize**
 
@@ -222,11 +222,10 @@ The following members of this structure are used in data transfer callbacks. The
 
 ## -see-also
 
-[IWiaMiniDrv::drvAcquireItemData](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata)
+[IWiaMiniDrv::drvAcquireItemData](./nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata.md)
 
-[IWiaMiniDrvCallBack::MiniDrvCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback)
+[IWiaMiniDrvCallBack::MiniDrvCallback](./nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback.md)
 
-[wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetimageinformation)
+[wiasGetImageInformation](../wiamdef/nf-wiamdef-wiasgetimageinformation.md)
 
-[wiasWritePageBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepagebuftofile)
-
+[wiasWritePageBufToFile](../wiamdef/nf-wiamdef-wiaswritepagebuftofile.md)

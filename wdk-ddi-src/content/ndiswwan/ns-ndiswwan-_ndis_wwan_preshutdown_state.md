@@ -98,7 +98,7 @@ sizeof(NDIS_WWAN_PRESHUTDOWN_STATE)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field uStatus
 
@@ -133,9 +133,8 @@ The modem does not support pre-shutdown notifications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-preshutdown-state">NDIS_STATUS_WWAN_PRESHUTDOWN_STATE</a>
+<a href="/windows-hardware/drivers/network/ndis-status-wwan-preshutdown-state">NDIS_STATUS_WWAN_PRESHUTDOWN_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preshutdown">OID_WWAN_PRESHUTDOWN</a>
-
+<a href="/windows-hardware/drivers/network/oid-wwan-preshutdown">OID_WWAN_PRESHUTDOWN</a>

@@ -57,14 +57,14 @@ The
 
 [in]
 An NDIS miniport adapter handle that NDIS supplied to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param MSIXConfigParameters 
 
 [in]
 A pointer to a caller-allocated 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_msix_config_parameters">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_msix_config_parameters">
      NDIS_MSIX_CONFIG_PARAMETERS</a> structure that defines the requested configuration operation and
      specifies the parameters that are required for that particular operation.
 
@@ -97,7 +97,7 @@ The MSI-X table entry was reconfigured successfully.
 </td>
 <td width="60%">
 <b>NdisMConfigMSIXTableEntry</b> failed because one or more members in the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_msix_config_parameters">
+       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_msix_config_parameters">
        NDIS_MSIX_CONFIG_PARAMETERS</a> structure were invalid.
 
 </td>
@@ -112,12 +112,12 @@ NDIS miniport drivers that support MSI-X call the
     <b>NdisMConfigMSIXTableEntry</b> to change the CPU affinity of MSI-X table entries at run time.
 
 <b>NdisMConfigMSIXTableEntry</b> is a wrapper around the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_msix_table_config_interface">
+    <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_msix_table_config_interface">
     GUID_MSIX_TABLE_CONFIG_INTERFACE</a> query. Miniport drivers can call 
     <b>NdisMConfigMSIXTableEntry</b> after NDIS calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function and
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function and
     before the driver returns from the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function.
 
 The miniport driver can set the CPU affinity of MSI-X interrupt resources so that the device has at
     least one MSI-X message for each RSS processor. Note that the PCI bus driver initially maps the 
@@ -140,13 +140,12 @@ For the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_msix_config_parameters">NDIS_MSIX_CONFIG_PARAMETERS</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_msix_config_parameters">NDIS_MSIX_CONFIG_PARAMETERS</a>

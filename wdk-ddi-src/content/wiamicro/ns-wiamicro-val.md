@@ -54,11 +54,11 @@ The VAL structure is used by the microdriver and WIA Flatbed driver to pass info
 
 ### -field lVal
 
-Specifies a command value to return to the WIA Flatbed driver. See [WIA Microdriver Commands](https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands) for a list of available commands for this parameter.
+Specifies a command value to return to the WIA Flatbed driver. See [WIA Microdriver Commands](/windows-hardware/drivers/image/wia-microdriver-commands) for a list of available commands for this parameter.
 
 ### -field dblVal
 
-Specifies a command value to return to the WIA Flatbed driver. See [WIA Microdriver Commands](https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands) for a list of available commands for this parameter.
+Specifies a command value to return to the WIA Flatbed driver. See [WIA Microdriver Commands](/windows-hardware/drivers/image/wia-microdriver-commands) for a list of available commands for this parameter.
 
 ### -field pGuid
 
@@ -66,7 +66,7 @@ Points to the GUID of the pressed button. If no button was pressed, this member 
 
 ### -field pScanInfo
 
-Points to a [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/ns-wiamicro-_scaninfo) structure.
+Points to a [SCANINFO](./ns-wiamicro-_scaninfo.md) structure.
 
 ### -field handle
 
@@ -86,5 +86,4 @@ Reserved. Do not use.
 
 ### -field szVal
 
-Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) in order to obtain a file handle to the device.
-
+Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) in order to obtain a file handle to the device.

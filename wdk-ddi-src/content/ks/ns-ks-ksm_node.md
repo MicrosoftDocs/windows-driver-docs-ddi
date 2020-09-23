@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-Just as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> is used for properties on a node, the KSM_NODE structure is used for methods on a node.
+Just as <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> is used for properties on a node, the KSM_NODE structure is used for methods on a node.
 
 ## -struct-fields
 
 ### -field Method
 
-A structure of type <a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> that specifies the requested method.
+A structure of type <a href="/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> that specifies the requested method.
 
 ### -field NodeId
 
@@ -66,5 +66,4 @@ Reserved for system use. Should be set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a>

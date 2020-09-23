@@ -53,7 +53,7 @@ api_name:
 The L2CAP_CONFIG_VALUE_RANGE structure is used to specify values for the 
   <b>Mtu</b> and 
   <b>FlushTO</b> members of the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a> structure.
+  <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a> structure.
 
 ## -struct-fields
 
@@ -101,7 +101,7 @@ If the remote device rejects the profile driver's
 The profile driver negotiates these values separately from the flush timeout settings that it sends to
     the Bluetooth driver stack when a remote device attempts to create an inbound L2CAP channel to the
     profile driver. For more information about L2CAP configuration ranges, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_range">L2CAP_CONFIG_RANGE</a>.
+    <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_l2cap_config_range">L2CAP_CONFIG_RANGE</a>.
 
 For 
     <b>Mtu</b> members settings, this structure provides 
@@ -111,5 +111,4 @@ For
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>

@@ -52,11 +52,11 @@ Describes the content-protection capabilities of the user-mode display driver.
 
 ### -field Caps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_content_protection_caps">D3D11_1DDI_CONTENT_PROTECTION_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_content_protection_caps">D3D11_1DDI_CONTENT_PROTECTION_CAPS</a> enumeration.
 
 ### -field KeyExchangeTypeCount
 
-The number of cryptographic key-exchange types that are supported by the driver. To get the list of key-exchange types, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcryptokeyexchangetype">GetCryptoKeyExchangeType</a> function.
+The number of cryptographic key-exchange types that are supported by the driver. To get the list of key-exchange types, call the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcryptokeyexchangetype">GetCryptoKeyExchangeType</a> function.
 
 ### -field BlockAlignmentSize
 
@@ -68,9 +68,8 @@ The total amount of memory, in bytes, that can be used to hold protected surface
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_content_protection_caps">D3D11_1DDI_CONTENT_PROTECTION_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_content_protection_caps">D3D11_1DDI_CONTENT_PROTECTION_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcryptokeyexchangetype">GetCryptoKeyExchangeType</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcryptokeyexchangetype">GetCryptoKeyExchangeType</a>

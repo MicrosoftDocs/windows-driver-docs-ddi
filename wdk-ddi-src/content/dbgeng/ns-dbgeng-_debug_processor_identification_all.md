@@ -56,49 +56,48 @@ This union contains relevant information for a processor the supported processor
 
 ### -field Alpha
 
-An Alpha processor as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_alpha">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a> struct.
+An Alpha processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_alpha">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a> struct.
 
 ### -field Amd64
 
-An AMD64 processor as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_amd64">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a> stuct.
+An AMD64 processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_amd64">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a> stuct.
 
 ### -field Ia64
 
-An Italium architecture processor as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_ia64">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a> stuct.
+An Italium architecture processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_ia64">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a> stuct.
 
 ### -field X86
 
-An x86 processor as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_x86">DEBUG_PROCESSOR_IDENTIFICATION_X86</a> struct.
+An x86 processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_x86">DEBUG_PROCESSOR_IDENTIFICATION_X86</a> struct.
 
 ### -field Arm
 
-An ARM processor as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_arm">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a> struct.
+An ARM processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_arm">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a> struct.
 
 ### -field Arm64
 
-An ARM64 processor as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_arm64">DEBUG_PROCESSOR_IDENTIFICATION_ARM64</a> struct.
+An ARM64 processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_arm64">DEBUG_PROCESSOR_IDENTIFICATION_ARM64</a> struct.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_alpha">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_alpha">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_amd64">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_amd64">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_arm">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_arm">DEBUG_PROCESSOR_IDENTIFICATION_ARM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_arm64">DEBUG_PROCESSOR_IDENTIFICATION_ARM64</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_arm64">DEBUG_PROCESSOR_IDENTIFICATION_ARM64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_ia64">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_ia64">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_x86">DEBUG_PROCESSOR_IDENTIFICATION_X86</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_x86">DEBUG_PROCESSOR_IDENTIFICATION_X86</a>

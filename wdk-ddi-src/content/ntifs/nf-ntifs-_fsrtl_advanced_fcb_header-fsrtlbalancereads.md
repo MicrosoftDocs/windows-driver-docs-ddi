@@ -65,5 +65,4 @@ A pointer to the device object from which the device starts the balanced read.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539145">CcIsThereDirtyData</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccistheredirtydata">CcIsThereDirtyData</a>

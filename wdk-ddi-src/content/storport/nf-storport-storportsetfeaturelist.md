@@ -74,11 +74,10 @@ List of *StorPort* features supported by the miniport. This value is based on [*
 
 ## -remarks
 
-A miniport should call **StorPortSetFeatureList** for each adapter in the beginning of its [*HwFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize) routine.
+A miniport should call **StorPortSetFeatureList** for each adapter in the beginning of its [*HwFindAdapter*](./nc-storport-hw_initialize.md) routine.
 
 ## -see-also
 
-[*HwFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize)
+[*HwFindAdapter*](./nc-storport-hw_initialize.md)
 
 [**STORPORT_FEATURE_TYPE**](ne-storport-storport_feature_type.md)
-

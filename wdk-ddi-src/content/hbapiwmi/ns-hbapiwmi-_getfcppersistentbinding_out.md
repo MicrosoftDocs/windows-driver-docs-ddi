@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GetFcpPersistentBinding_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a> WMI method to the WMI client.
+The GetFcpPersistentBinding_OUT structure is used to report the output parameter data of the <a href="/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a> WMI method to the WMI client.
 
 ## -struct-fields
 
@@ -60,11 +60,11 @@ Contains the status of the operation. For a list of allowed values and their des
 
 ### -field TotalEntryCount
 
-Indicates the total number of persistent bindings retrieved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a> WMI method.
+Indicates the total number of persistent bindings retrieved by the <a href="/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a> WMI method.
 
 ### -field OutEntryCount
 
-Indicates the total number of mappings retrieved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a> WMI method. This value will be less than or equal to <b>TotalEntryCount</b>.
+Indicates the total number of mappings retrieved by the <a href="/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a> WMI method. This value will be less than or equal to <b>TotalEntryCount</b>.
 
 ### -field Entry
 
@@ -72,11 +72,10 @@ Contains an array of structures of type HBAFCPBindingEntry that describe an HBA'
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a> WMI method retrieves the bindings between SCSI and fibre channel protocol (FCP) identifiers for the logical units.
+The <a href="/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a> WMI method retrieves the bindings between SCSI and fibre channel protocol (FCP) identifiers for the logical units.
 
-The WMI tool suite generates a declaration of the GetFcpPersistentBinding_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetFcpPersistentBinding_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a>
-
+<a href="/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a>

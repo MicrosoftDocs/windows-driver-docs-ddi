@@ -72,13 +72,12 @@ Specifies the number of codecs that the HD Audio controller detects on the HD Au
 
 ### -field IsStripingSupported
 
-Specifies whether the HD Audio controller supports <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/striping">striping</a>. If <b>TRUE</b>, it supports striping (with at least two SDO lines). If <b>FALSE</b>, it does not support striping.
+Specifies whether the HD Audio controller supports <a href="/windows-hardware/drivers/audio/striping">striping</a>. If <b>TRUE</b>, it supports striping (with at least two SDO lines). If <b>FALSE</b>, it does not support striping.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a> routine uses this structure to provide information about the HD Audio controller's device-specific capabilities to clients.
+The <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a> routine uses this structure to provide information about the HD Audio controller's device-specific capabilities to clients.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a>

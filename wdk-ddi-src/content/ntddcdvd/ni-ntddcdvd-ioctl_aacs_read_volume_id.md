@@ -52,19 +52,19 @@ Reads the Advanced Access Content System (AACS)-specific volume identifier.
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a value of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a> that specifies an Authentication Grant Identifier (AGID). The AGID identifies the secure session that is associated with the volume.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a value of type <a href="/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a> that specifies an Authentication Grant Identifier (AGID). The AGID identifies the secure session that is associated with the volume.
 
 ### -input-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>.
+Length of a <a href="/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>.
 
 ### -output-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a> that specifies the volume ID.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the value of type <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a> that specifies the volume ID.
 
 ### -output-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a>.
+Length of a <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a>.
 
 ### -in-out-buffer
 
@@ -79,4 +79,3 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 The IOCTL_AACS_READ_VOLUME_ID request corresponds to the part of the AACS authentication protocol that is responsible for transfering the volume identifier. For a complete description of this protocol, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA). 
 
 The AGID is automatically released after the IOCTL_AACS_READ_VOLUME_ID request completes.
-

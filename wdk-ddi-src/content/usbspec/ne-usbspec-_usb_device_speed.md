@@ -70,5 +70,4 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/#enumerations">USB Constants and Enumerations</a>
-
+<a href="/windows-hardware/drivers/ddi/_usbref/#enumerations">USB Constants and Enumerations</a>
