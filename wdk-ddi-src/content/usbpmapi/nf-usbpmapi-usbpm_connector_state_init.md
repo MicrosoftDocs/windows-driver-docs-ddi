@@ -41,7 +41,6 @@ api_name:
 
 # USBPM_CONNECTOR_STATE_INIT function
 
-
 ## -description
 
 Initializes a [**USBPM_CONNECTOR_STATE_INIT**](ns-usbpmapi-_usbpm_connector_state.md) structure. The client driver must call this function before calling  [**UsbPm_RetrieveConnectorState**](nf-usbpmapi-usbpm_retrieveconnectorstate.md).
@@ -50,9 +49,8 @@ Initializes a [**USBPM_CONNECTOR_STATE_INIT**](ns-usbpmapi-_usbpm_connector_stat
 
 ### -param ConnectorState
 
-[Out] A pointer a [**USBPM_CONNECTOR_STATE_INIT**](ns-usbpmapi-_usbpm_connector_state.md) structure to initialize.
+A pointer a [**USBPM_CONNECTOR_STATE_INIT**](ns-usbpmapi-_usbpm_connector_state.md) structure to initialize.
 
 ## -remarks
 
 ## -see-also
-
