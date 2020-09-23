@@ -1,11 +1,9 @@
 ---
 UID: NC:wdm.PO_FX_DIRECTED_POWER_DOWN_CALLBACK
 title: PO_FX_DIRECTED_POWER_DOWN_CALLBACK
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: d4d5aca2-8de7-4cb5-8626-77b0dda843bd
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PO_FX_DIRECTED_POWER_DOWN_CALLBACK callback function"]
 req.header: wdm.h

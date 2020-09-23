@@ -1,11 +1,9 @@
 ---
 UID: NE:wdm._DRIVER_REGKEY_TYPE
 title: DRIVER_REGKEY_TYPE
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 147f40bd-4000-4fdd-b6ac-a305fc581d29
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["DRIVER_REGKEY_TYPE enumeration"]
 ms.keywords: DRIVER_REGKEY_TYPE, DRIVER_REGKEY_TYPE, *PDRIVER_REGKEY_TYPE,

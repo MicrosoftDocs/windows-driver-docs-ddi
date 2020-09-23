@@ -1,11 +1,9 @@
 ---
 UID: NF:netwakesourcelist.NetWakeSourceListGetElement
 title: NetWakeSourceListGetElement function (netwakesourcelist.h)
-author: windows-driver-content
 description: The NetWakeSourceListGetElement function gets a wake source from the list of wake sources for a net adapter.
 tech.root: netvista
 ms.assetid: 6505fee3-68c7-4b65-a725-1d9072eeaa98
-ms.author: windowsdriverdev
 ms.date: 10/10/2019
 keywords: ["NetWakeSourceListGetElement function"]
 ms.keywords: NetWakeSourceListGetElement

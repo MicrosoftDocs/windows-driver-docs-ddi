@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGK_VIRTUALGPUCAPABILITY
 title: _DXGK_VIRTUALGPUCAPABILITY
-author: windows-driver-content
 description: Contains information about the virtual GPU capability.
 tech.root: display
 ms.assetid: 660eb862-90b5-4b23-abc5-b520202f3a71
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUCAPABILITY structure"]
 ms.prod: windows-hardware

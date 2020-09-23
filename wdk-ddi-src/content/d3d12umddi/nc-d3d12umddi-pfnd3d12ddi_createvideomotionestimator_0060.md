@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0060
 title: PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0060
-author: windows-driver-content
 description: Creates the video motion estimator.
 tech.root: display
 ms.assetid: e1606f4a-88ed-48e0-8562-9cd27f2498ff
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0060 callback function"]
 ms.prod: windows-hardware

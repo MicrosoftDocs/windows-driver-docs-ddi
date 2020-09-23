@@ -1,11 +1,9 @@
 ---
 UID: NF:rsc.NetExtensionGetPacketRsc
 title: NetExtensionGetPacketRsc function (rsc.h)
-author: windows-driver-content
 description: The NetExtensionGetPacketRsc function retrieves receive segment coalescence (RSC) information for a packet.
 tech.root: netvista
 ms.assetid: 1798e870-cfaf-44fc-920f-4167de3842ef
-ms.author: windowsdriverdev
 ms.date: 09/24/2019
 keywords: ["NetExtensionGetPacketRsc function"]
 ms.keywords: NetExtensionGetPacketRsc

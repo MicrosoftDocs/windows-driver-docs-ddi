@@ -4,7 +4,6 @@ title: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES (netadapter.h)
 description: The NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure describes a net adapter's wake on LAN (WoL) capabilities for waking from a packet filter match.
 tech.root: netvista
 ms.assetid: 4c04cbbb-a926-4371-a717-bfe6bf0742c4
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES,

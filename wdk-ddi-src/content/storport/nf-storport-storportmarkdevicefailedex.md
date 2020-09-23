@@ -1,11 +1,9 @@
 ---
 UID: NF:storport.StorPortMarkDeviceFailedEx
 title: StorPortMarkDeviceFailedEx function
-author: windows-driver-content
 description: The StorPortMarkDeviceFailedEx routine marks a device with failed status and provides data that might be needed for diagnosis.
 tech.root: storage
 ms.assetid: b3a300c1-7c14-4c6c-90c6-2fd8b89a1de8
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortMarkDeviceFailedEx

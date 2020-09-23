@@ -1,11 +1,9 @@
 ---
 UID: NF:netwakesourcelist.NetWakeSourceListGetCount
 title: NetWakeSourceListGetCount function (netwakesourcelist.h)
-author: windows-driver-content
 description: The NetWakeSourceListGetCount function gets the number of wake sources for a net adapter.
 tech.root: netvista
 ms.assetid: 2380726e-eef7-43fb-aa6a-9109232eff1f
-ms.author: windowsdriverdev
 ms.date: 10/08/2019
 keywords: ["NetWakeSourceListGetCount function"]
 ms.keywords: NetWakeSourceListGetCount

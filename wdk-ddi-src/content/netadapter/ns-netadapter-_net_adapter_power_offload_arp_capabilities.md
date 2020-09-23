@@ -1,11 +1,9 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES
 title: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES structure describes a net adapter's capabilities for IPv4 ARP low power protocol offload.
 tech.root: netvista
 ms.assetid: ec844b92-7cff-4b99-82cc-afa5ff022b7b
-ms.author: windowsdriverdev
 ms.date: 10/21/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES, NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES,

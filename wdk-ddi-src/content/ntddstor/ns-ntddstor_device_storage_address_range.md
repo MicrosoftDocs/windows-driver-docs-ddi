@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddstor._DEVICE_STORAGE_ADDRESS_RANGE
 title: DEVICE_STORAGE_ADDRESS_RANGE
-author: windows-driver-content
 description: The DEVICE_STORAGE_ADDRESS_RANGE structure contains a physical address range.
 tech.root: storage
 ms.assetid: 99d86070-e24f-4e3f-8e62-be93fc9cfd21
-ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DEVICE_STORAGE_ADDRESS_RANGE structure"]
 ms.keywords: DEVICE_STORAGE_ADDRESS_RANGE, DEVICE_STORAGE_ADDRESS_RANGE, *PDEVICE_STORAGE_ADDRESS_RANGE,

@@ -1,11 +1,9 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETVIRTUALGPUPROFILE
 title: DXGKDDI_GETVIRTUALGPUPROFILE
-author: windows-driver-content
 description: Returns information about the vGPU profile, which is supported by the physical GPU when it is divided into given number of partitions.
 tech.root: display
 ms.assetid: b1540828-63bb-491d-b0e0-c54089ffd85f
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_GETVIRTUALGPUPROFILE callback function"]
 req.header: dispmprt.h

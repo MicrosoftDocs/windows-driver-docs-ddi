@@ -1,11 +1,9 @@
 ---
 UID: NE:dispmprt._DXGK_DIAGNOSTICINFO_TYPE
 title: DXGK_DIAGNOSTICINFO_TYPE
-author: windows-driver-content
 description: Indicates the type of information the driver needs to collect.
 tech.root: display
 ms.assetid: 5f03ca69-7923-4245-89b4-7300d3ba50ab
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 keywords: ["DXGK_DIAGNOSTICINFO_TYPE enumeration"]
 ms.keywords: DXGK_DIAGNOSTICINFO_TYPE, DXGK_DIAGNOSTICINFO_TYPE,

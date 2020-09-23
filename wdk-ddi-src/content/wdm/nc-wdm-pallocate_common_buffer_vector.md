@@ -1,11 +1,9 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_VECTOR
 title: PALLOCATE_COMMON_BUFFER_VECTOR
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: be2dd87e-6c09-4493-82ef-152dfce0917e
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PALLOCATE_COMMON_BUFFER_VECTOR callback function"]
 req.header: wdm.h

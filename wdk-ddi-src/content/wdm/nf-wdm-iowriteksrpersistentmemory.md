@@ -1,11 +1,9 @@
 ---
 UID: NF:wdm.IoWriteKsrPersistentMemory
 title: IoWriteKsrPersistentMemory function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 4bfa6552-f606-47c7-8d53-0e1136244b04
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: IoWriteKsrPersistentMemory

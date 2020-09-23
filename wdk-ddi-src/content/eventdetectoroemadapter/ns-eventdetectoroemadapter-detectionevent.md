@@ -1,11 +1,9 @@
 ---
 UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0003
 title: DETECTIONEVENT
-author: windows-driver-content
 description: Structure to specify uniquely supported detection events available.
 tech.root: audio
 ms.assetid: 6c9e3e30-1598-4537-bc76-da5ffc552de3
-ms.author: windowsdriverdev
 ms.date: 04/11/2019
 keywords: ["DETECTIONEVENT structure"]
 ms.keywords: DETECTIONEVENT, DETECTIONEVENT,

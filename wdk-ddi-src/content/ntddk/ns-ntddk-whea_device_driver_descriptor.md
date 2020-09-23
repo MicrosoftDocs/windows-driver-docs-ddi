@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddk._WHEA_DEVICE_DRIVER_DESCRIPTOR
 title: WHEA_DEVICE_DRIVER_DESCRIPTOR
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 491e4279-f7d5-4461-bbd6-96ad62476c24
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEA_DEVICE_DRIVER_DESCRIPTOR structure"]
 ms.keywords: WHEA_DEVICE_DRIVER_DESCRIPTOR, WHEA_DEVICE_DRIVER_DESCRIPTOR, *PWHEA_DEVICE_DRIVER_DESCRIPTOR,

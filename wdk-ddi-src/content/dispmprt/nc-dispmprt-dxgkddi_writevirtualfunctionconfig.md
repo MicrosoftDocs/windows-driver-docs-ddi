@@ -1,11 +1,9 @@
 ---
 UID: NC:dispmprt.DXGKDDI_WRITEVIRTUALFUNCTIONCONFIG
 title: DXGKDDI_WRITEVIRTUALFUNCTIONCONFIG
-author: windows-driver-content
 description: This callback function allows the non-privileged virtual machine to set the contents of a PCI Express SR-IOV Virtual Function’s configuration space values.
 tech.root: display
 ms.assetid: 5731d68a-c733-4af6-9fe3-35ab0aec25b7
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_WRITEVIRTUALFUNCTIONCONFIG callback function"]
 req.header: dispmprt.h

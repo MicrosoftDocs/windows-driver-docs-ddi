@@ -1,11 +1,9 @@
 ---
 UID: NF:dispmprt.DlCreateEvent
 title: DlCreateEvent function
-author: windows-driver-content
 description: Creates an event object.
 tech.root: display
 ms.assetid: 680892be-b48b-4a2a-90bd-29468ae432d6
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlCreateEvent function"]
 ms.keywords: DlCreateEvent

@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKDDI_SRIOV_INTERFACE
 title: _DXGKDDI_SRIOV_INTERFACE
-author: windows-driver-content
 description: The SRIOV device interface exposes the PCIe virtual devices.
 tech.root: display
 ms.assetid: 2b5a7fed-5c3d-4831-8274-14f9f70e3fe3
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_SRIOV_INTERFACE structure"]
 ms.prod: windows-hardware

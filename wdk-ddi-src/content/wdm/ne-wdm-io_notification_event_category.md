@@ -1,11 +1,9 @@
 ---
 UID: NE:wdm._IO_NOTIFICATION_EVENT_CATEGORY
 title: IO_NOTIFICATION_EVENT_CATEGORY
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 9dbe9f82-a042-4d9e-b8e5-98725fb55e06
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["IO_NOTIFICATION_EVENT_CATEGORY enumeration"]
 ms.keywords: IO_NOTIFICATION_EVENT_CATEGORY, IO_NOTIFICATION_EVENT_CATEGORY,

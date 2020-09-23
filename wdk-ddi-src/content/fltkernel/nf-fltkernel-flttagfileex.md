@@ -1,11 +1,9 @@
 ---
 UID: NF:fltkernel.FltTagFileEx
 title: FltTagFileEx function
-author: windows-driver-content
 description: FltTagFileEx sets a reparse flag on a file or directory.
 tech.root: ifsk
 ms.assetid: ca975b09-cf73-4768-a314-3ff0e5ba211c
-ms.author: windowsdriverdev
 ms.date: 03/12/2019
 keywords: ["FltTagFileEx function"]
 ms.keywords: FltTagFileEx, FltTagFile

@@ -1,11 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063
-author: windows-driver-content
 description: Video Extensions support different parameterization at creation, initialization, and execution.
 tech.root: display
 ms.assetid: 756a01f0-7acb-4ffc-88f1-a2546b194c50
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063,

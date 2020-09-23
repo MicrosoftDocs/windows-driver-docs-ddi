@@ -319,7 +319,7 @@ If this create operation would break an oplock that already exists on the file, 
  An application that uses this flag must request an oplock after this call succeeds, or all later attempts to open the file will be blocked without the benefit of typical oplock processing. Similarly, if this call succeeds but the later oplock request fails, an application that uses this flag must close its handle after it detects that the oplock request has failed.
 
 >[!NOTE]
->The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2and later Windows operating systems. The Microsoft file systems that implement this flag are NTFS, FAT, and exFAT.</div>
+>The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2and later Windows operating systems. The Microsoft file systems that implement this flag are NTFS, FAT, and exFAT.
 
 The *CreateOptions* flag, FILE_RESERVE_OPFILTER, allows an application to request a level 1, batch, or filter oplock to prevent other applications from getting share violations. However, FILE_RESERVE_OPFILTER is only practically useful for filter oplocks. To use it, you must follow these steps:
 

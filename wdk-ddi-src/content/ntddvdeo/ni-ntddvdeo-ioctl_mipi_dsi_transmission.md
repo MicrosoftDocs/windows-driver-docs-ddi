@@ -4,7 +4,6 @@ title: IOCTL_MIPI_DSI_TRANSMISSION
 description: Mipi (mobile industry processor interface) DCS IOCLTs must be handled by the monitor, oem-panel, or port/miniport driver.
 tech.root: display
 ms.assetid: 7292a449-2c3c-4409-a031-ffe6316767f6
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 req.header: ntddvdeo.h
 req.include-header: 

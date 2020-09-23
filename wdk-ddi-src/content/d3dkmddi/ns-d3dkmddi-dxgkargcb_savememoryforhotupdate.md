@@ -1,11 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_SAVEMEMORYFORHOTUPDATE
 title: DXGKARGCB_SAVEMEMORYFORHOTUPDATE
-author: windows-driver-content
 description: Arguments used in the DXGKCB_SAVEMEMORYFORHOTUPDATE callback function, to save memory for driver hot update.
 tech.root: display
 ms.assetid: 9def351b-6e64-4499-96ce-421b9be67c00
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARGCB_SAVEMEMORYFORHOTUPDATE structure"]
 ms.keywords: DXGKARGCB_SAVEMEMORYFORHOTUPDATE, DXGKARGCB_SAVEMEMORYFORHOTUPDATE,

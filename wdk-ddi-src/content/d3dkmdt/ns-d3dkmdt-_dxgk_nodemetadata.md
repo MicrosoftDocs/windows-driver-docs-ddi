@@ -1,11 +1,9 @@
 ---
 UID: NS:d3dkmdt._DXGK_NODEMETADATA
 title: _DXGK_NODEMETADATA
-author: windows-driver-content
 description: Contains the engine type and friendly name of an engine on a GPU node.
 tech.root: display
 ms.assetid: eddf63a3-ba27-4a75-b093-cc0de866eb3c
-ms.author: windowsdriverdev
 ms.date: 02/01/2019
 keywords: ["DXGK_NODEMETADATA structure"]
 ms.prod: windows-hardware

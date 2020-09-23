@@ -1,11 +1,9 @@
 ---
 UID: NF:dispmprt.DlSetRegistryParameters
 title: DlSetRegistryParameters function
-author: windows-driver-content
 description: Writes information under the adapter key in the registry.
 tech.root: display
 ms.assetid: ab2d727f-c057-4a8d-9ff6-572a9f81f50e
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlSetRegistryParameters function"]
 ms.keywords: DlSetRegistryParameters

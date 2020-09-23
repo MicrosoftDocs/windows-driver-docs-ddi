@@ -1,11 +1,9 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT
 title: NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT function initializes a NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 7dd61329-6314-4404-bff9-5aabe5bf4718
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT

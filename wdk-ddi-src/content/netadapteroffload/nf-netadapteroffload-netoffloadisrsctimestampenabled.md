@@ -1,11 +1,9 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsRscTimestampEnabled
 title: NetOffloadIsRscTimestampEnabled function (netadapteroffload.h)
-author: windows-driver-content
 description: The NetOffloadIsRscTimestampEnabled function determines whether a net adapter has RSC offload enabled for timestamp packets.
 tech.root: netvista
 ms.assetid: d602c7b6-eab2-4929-a124-c2f46a98947a
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetOffloadIsRscTimestampEnabled function"]
 ms.keywords: NetOffloadIsRscTimestampEnabled

@@ -1,11 +1,9 @@
 ---
 UID: NC:iddcx.PFN_IDDCXADAPTERSETRENDERADAPTER
 title: PFN_IDDCXADAPTERSETRENDERADAPTER
-author: windows-driver-content
 description: 
 tech.root: display
 ms.assetid: 0a4cd4b6-a6a2-4f23-9775-bddab232fded
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback function"]
 ms.prod: windows-hardware

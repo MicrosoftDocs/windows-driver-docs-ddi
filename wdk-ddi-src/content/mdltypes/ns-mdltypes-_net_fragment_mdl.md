@@ -1,11 +1,9 @@
 ---
 UID: NS:mdltypes._NET_FRAGMENT_MDL
 title: NET_FRAGMENT_MDL (mdltypes.h)
-author: windows-driver-content
 description: The NET_FRAGMENT_MDL structure contains DMA MDL information for a NET_FRAGMENT.
 tech.root: netvista
 ms.assetid: DA25E9D1-BCAC-4B48-9F13-A5C673CF40D3
-ms.author: windowsdriverdev
 ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_MDL structure"]
 ms.keywords: NET_FRAGMENT_MDL, NET_FRAGMENT_MDL,

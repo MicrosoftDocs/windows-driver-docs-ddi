@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETVENDORANDDEVICE
 title: _DXGKARG_GETVENDORANDDEVICE
-author: windows-driver-content
 description: Arguments used to supply the Vendor and Device IDs for a PCI Express SR-IOV Virtual Function (VF) to be used as the basis for the more generic Plug and Play IDs for the VF.
 tech.root: display
 ms.assetid: bbe8ab64-b48d-44f6-b79b-6b90d3b33c1f
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_GETVENDORANDDEVICE structure"]
 ms.prod: windows-hardware

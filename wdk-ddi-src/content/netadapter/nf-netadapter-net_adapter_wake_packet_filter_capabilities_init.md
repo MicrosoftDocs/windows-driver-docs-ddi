@@ -1,11 +1,9 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT
 title: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT function initializes a NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 73db1824-1b27-4cf6-a613-10fe0109f7ea
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT

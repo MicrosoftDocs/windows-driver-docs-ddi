@@ -1,11 +1,9 @@
 ---
 UID: NF:netpoweroffloadlist.NET_POWER_OFFLOAD_LIST_INIT
 title: NET_POWER_OFFLOAD_LIST_INIT function (netpoweroffloadlist.h)
-author: windows-driver-content
 description: The NET_POWER_OFFLOAD_LIST_INIT function initializes a NET_POWER_OFFLOAD_LIST structure.
 tech.root: netvista
 ms.assetid: 69577bdf-fff6-498f-ba80-fb1678e8145f
-ms.author: windowsdriverdev
 ms.date: 11/06/2019
 keywords: ["NET_POWER_OFFLOAD_LIST_INIT function"]
 ms.keywords: NET_POWER_OFFLOAD_LIST_INIT

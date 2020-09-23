@@ -1,11 +1,9 @@
 ---
 UID: NF:netwakesource.NetWakeSourceGetBitmapParameters
 title: NetWakeSourceGetBitmapParameters function (netwakesource.h)
-author: windows-driver-content
 description: The NetWakeSourceGetBitmapParameters function gets parameters for a bitmap pattern wake-on-LAN (WoL) source.
 tech.root: netvista
 ms.assetid: 766add6b-02a7-40b2-abfa-d30d3a24b067
-ms.author: windowsdriverdev
 ms.date: 10/07/2019
 keywords: ["NetWakeSourceGetBitmapParameters function"]
 ms.keywords: NetWakeSourceGetBitmapParameters

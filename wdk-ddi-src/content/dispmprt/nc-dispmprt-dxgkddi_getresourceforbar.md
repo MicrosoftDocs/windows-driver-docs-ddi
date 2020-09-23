@@ -1,11 +1,9 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETRESOURCEFORBAR
 title: DXGKDDI_GETRESOURCEFORBAR
-author: windows-driver-content
 description: If the driver does not support the GUID_DXGKDDI_FLEXIOV_DEVICE_INTERFACE interface, this routine returns the host partition base address of a single Virtual Function base address register.
 tech.root: display
 ms.assetid: ebbcca1e-fa42-4441-b5a0-7450937391af
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_GETRESOURCEFORBAR callback function"]
 req.header: dispmprt.h

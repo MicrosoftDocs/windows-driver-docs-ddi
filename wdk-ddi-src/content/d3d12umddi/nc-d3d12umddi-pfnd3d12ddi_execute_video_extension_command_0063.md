@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_EXECUTE_VIDEO_EXTENSION_COMMAND_0063
 title: PFND3D12DDI_EXECUTE_VIDEO_EXTENSION_COMMAND_0063
-author: windows-driver-content
 description: Records a command to execute a video extension command into a command list.
 tech.root: display
 ms.assetid: 5dbedff3-049b-459b-8096-5a1d7db05c81
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_EXECUTE_VIDEO_EXTENSION_COMMAND_0063 callback function"]
 req.header: d3d12umddi.h

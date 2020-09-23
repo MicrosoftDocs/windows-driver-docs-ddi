@@ -1,11 +1,9 @@
 ---
 UID: NC:hdaudio.PREGISTER_NOTIFICATION_CALLBACK
 title: PREGISTER_NOTIFICATION_CALLBACK
-author: windows-driver-content
 description: The RegisterNotificationCallback routine registers a callback routine so that it can receive DMA progress notifications with more accurate timing information.
 tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
-ms.author: windowsdriverdev
 ms.date: 04/29/2019
 keywords: ["PREGISTER_NOTIFICATION_CALLBACK callback function"]
 ms.prod: windows-hardware

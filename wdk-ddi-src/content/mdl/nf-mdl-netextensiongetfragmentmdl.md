@@ -1,11 +1,9 @@
 ---
 UID: NF:mdl.NetExtensionGetFragmentMdl
 title: NetExtensionGetFragmentMdl function (mdl.h)
-author: windows-driver-content
 description: The NetExtensionGetFragmentMdl function retrieves the DMA MDL extension information for a net fragment.
 tech.root: netvista
 ms.assetid: 0DF0EEFB-B427-4F3E-83AE-85DF5B7A7277
-ms.author: windowsdriverdev
 ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentMdl function"]
 ms.keywords: NetExtensionGetFragmentMdl

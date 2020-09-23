@@ -1,11 +1,9 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES
 title: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure describes a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
 tech.root: netvista
 ms.assetid: f740c2ac-25b0-4d04-a524-e5670b53e903
-ms.author: windowsdriverdev
 ms.date: 10/22/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES, NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES,

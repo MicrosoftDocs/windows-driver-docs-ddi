@@ -1,11 +1,9 @@
 ---
 UID: NF:netpoweroffloadlist.NetPowerOffloadListGetElement
 title: NetPowerOffloadListGetElement function (netpoweroffloadlist.h)
-author: windows-driver-content
 description: The NetPowerOffloadListGetElement function gets a low power protocol offload from a list of offloads to a net adapter.
 tech.root: netvista
 ms.assetid: a93ff9b6-6415-4d3f-8443-9a2479d88453
-ms.author: windowsdriverdev
 ms.date: 10/03/2019
 keywords: ["NetPowerOffloadListGetElement function"]
 ms.keywords: NetPowerOffloadListGetElement

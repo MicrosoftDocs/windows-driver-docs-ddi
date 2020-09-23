@@ -1,11 +1,9 @@
 ---
 UID: NC:dispmprt.DXGKDDI_RESETVIRTUALFUNCTION
 title: DXGKDDI_RESETVIRTUALFUNCTION
-author: windows-driver-content
 description: This routine allows the virtualized I/O management software running in the privileged virtual machine to reset a specific virtual function.
 tech.root: display
 ms.assetid: bb0b629c-fa1a-444e-8f28-80df998668b2
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_RESETVIRTUALFUNCTION callback function"]
 req.header: dispmprt.h

@@ -1,11 +1,9 @@
 ---
 UID: NS:iddcx.IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 title: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
-author: windows-driver-content
 description: Arguments used in the IddCxAdapterDisplayConfigUpdate function.
 tech.root: display
 ms.assetid: 67a33cad-55df-4e65-9f8a-5e684fad8d6e
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE structure"]
 ms.prod: windows-hardware

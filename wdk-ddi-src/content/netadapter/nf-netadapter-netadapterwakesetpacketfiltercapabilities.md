@@ -4,7 +4,6 @@ title: NetAdapterWakeSetPacketFilterCapabilities function (netadapter.h)
 description: The NetAdapterWakeSetPacketFilterCapabilities function sets a net adapter's packet filter wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: dc2bb935-961f-4a34-a01f-a94cb43e9373
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetPacketFilterCapabilities function"]
 ms.keywords: NetAdapterWakeSetPacketFilterCapabilities

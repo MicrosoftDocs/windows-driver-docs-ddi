@@ -1,11 +1,9 @@
 ---
 UID: NF:ntddk.PshedUnregisterPlugin
 title: PshedUnregisterPlugin function
-author: windows-driver-content
 description: Reserved for system use.
 tech.root: 
 ms.assetid: e54fa0d5-8279-4aac-b44c-a5e627b8ce40
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PshedUnregisterPlugin function"]
 ms.keywords: PshedUnregisterPlugin

@@ -1,11 +1,9 @@
 ---
 UID: NF:wdm.RtlUnicodeStringToUTF8String
 title: RtlUnicodeStringToUTF8String function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 1a433bcd-c772-414c-9614-397e3da52cef
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
