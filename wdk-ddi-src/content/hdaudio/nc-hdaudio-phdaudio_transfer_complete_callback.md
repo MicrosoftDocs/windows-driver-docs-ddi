@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-HDAudio codec transfer complete callback function. <b>PHDAUDIO_TRANSFER_COMPLETE_CALLBACK</b> is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a> callback function.
+HDAudio codec transfer complete callback function. <b>PHDAUDIO_TRANSFER_COMPLETE_CALLBACK</b> is used by the <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a> callback function.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ HDAudio codec transfer complete callback function. <b>PHDAUDIO_TRANSFER_COMPLETE
 
 #### - Context
 
- This is the same  context value that was specified previously in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a> routine's callbackContext parameter.
+ This is the same  context value that was specified previously in the <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a> routine's callbackContext parameter.
 
 
 #### - pHDAudioCodecTransfer
@@ -65,9 +65,8 @@ A pointer to the codecTransfer array element that contains the codec command and
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a>.
+For more information, see <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-ptransfer_codec_verbs">PTRANSFER_CODEC_VERBS</a>.
 
 ## -see-also
 
 [hdaudio.h](../hdaudio/index.md)
-

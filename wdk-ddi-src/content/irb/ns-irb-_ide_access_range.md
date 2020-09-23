@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The IDE_ACCESS_RANGE structure contains the address ranges allocated for an IDE controller.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -74,4 +74,3 @@ Flag that indicates if this is a memory mapped resource. If cleared, this is an 
 ### -field Bar
 
 The number of the PCI Base Address Range that this resource was found in.
-

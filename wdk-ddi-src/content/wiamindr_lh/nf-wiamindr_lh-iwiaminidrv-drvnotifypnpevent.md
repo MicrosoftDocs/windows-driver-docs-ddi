@@ -74,11 +74,10 @@ On success, the method should return S_OK. If the method fails, it should return
 
 The WIA service notifies a WIA minidriver of a supported device event by calling the **IWiaMiniDrv::drvNotifyPnpEvent** method. In this method the minidriver implements the device-specific functionality needed to respond to the event.
 
-If this method is called with **pEventGuid* set to [WIA_EVENT_CANCEL_IO](https://docs.microsoft.com/windows/win32/wia/-wia-wia-event-identifiers) device event, it should cancel all current I/O operations as soon as possible.
+If this method is called with **pEventGuid* set to [WIA_EVENT_CANCEL_IO](/windows/win32/wia/-wia-wia-event-identifiers) device event, it should cancel all current I/O operations as soon as possible.
 
 ## -see-also
 
-[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+[IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
-[IWiaMiniDrv::drvGetCapabilities](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities)
-
+[IWiaMiniDrv::drvGetCapabilities](./nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities.md)

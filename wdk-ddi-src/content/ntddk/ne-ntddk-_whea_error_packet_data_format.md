@@ -60,7 +60,7 @@ The raw data in the hardware error packet contains an Itanium processor family s
 
 ### -field WheaDataFormatXPFMCA
 
-The raw data in the hardware error packet is formatted as an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
+The raw data in the hardware error packet is formatted as an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
 
 ### -field WheaDataFormatMemory
 
@@ -68,7 +68,7 @@ The raw data in the hardware error packet contains memory error data. The format
 
 ### -field WheaDataFormatPCIExpress
 
-The raw data in the hardware error packet is formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a> structure.
+The raw data in the hardware error packet is formatted as a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a> structure.
 
 ### -field WheaDataFormatNMIPort
 
@@ -84,7 +84,7 @@ The raw data in the hardware error packet contains a PCI/PCI-X device error data
 
 ### -field WheaDataFormatGeneric
 
-The raw data in the hardware error packet is formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
+The raw data in the hardware error packet is formatted as a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
 
 ### -field WheaDataFormatMax
 
@@ -92,17 +92,16 @@ The maximum number of formats of raw hardware error data.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2">WHEA_ERROR_PACKET_V2</a> structure contains a member of type WHEA_ERROR_PACKET_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
+The <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2">WHEA_ERROR_PACKET_V2</a> structure contains a member of type WHEA_ERROR_PACKET_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2">WHEA_ERROR_PACKET_V2</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_packet_v2">WHEA_ERROR_PACKET_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>

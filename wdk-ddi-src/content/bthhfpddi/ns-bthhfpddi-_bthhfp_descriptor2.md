@@ -52,7 +52,7 @@ api_name:
 
 The BTHHFP_DESCRIPTOR2  data structure stores information describing a paired Handsfree profile (HFP) device.
 
-The HFP driver returns this data structure in the output buffer for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor2">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</a> request.
+The HFP driver returns this data structure in the output buffer for the <a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor2">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</a> request.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ Indicates whether the paired HFP device supports remote volume control.
 
 ### -field VolumePropertyValuesSize
 
-If remote volume control is supported, this member contains the size of the data returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a> request.
+If remote volume control is supported, this member contains the size of the data returned by the <a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a> request.
 
 ### -field FriendlyName
 
@@ -93,17 +93,16 @@ When <i>SupportsNREC</i> is set to FALSE, the audio driver should support RAW mo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
+<a href="/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-structures">Bluetooth HFP DDI Structures</a>
+<a href="/windows-hardware/drivers/audio/bluetooth-hfp-ddi-structures">Bluetooth HFP DDI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor2">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</a>
+<a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor2">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>
-
+<a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_volumepropertyvalues">IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES</a>

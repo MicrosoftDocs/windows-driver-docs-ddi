@@ -52,7 +52,7 @@ The **CreateRasterize** method creates an XPS rasterizer object.
 
 ### -param xpsPage
 
-[in, optional] Pointer to an **IXpsOMPage** object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information, see [IXpsOMPage](https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage).
+[in, optional] Pointer to an **IXpsOMPage** object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information, see [IXpsOMPage](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage).
 
 ### -param DPI
 
@@ -60,7 +60,7 @@ The **CreateRasterize** method creates an XPS rasterizer object.
 
 ### -param nonTextRenderingMode
 
-[in] Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following [XPSRAS_RENDERING_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001) enumeration values:
+[in] Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following [XPSRAS_RENDERING_MODE](./ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md) enumeration values:
 
 - XPSRAS_RENDERING_MODE_ANTIALIASED
 
@@ -76,7 +76,7 @@ The **CreateRasterize** method creates an XPS rasterizer object.
 
 ### -param ppIXPSRasterizer
 
-[out, optional] This parameter points to a location into which the method writes a pointer to the [IXpsRasterizer](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer) interface of the newly created XPS rasterizer object. If the method fails, it writes **NULL** to this location and returns an error code.
+[out, optional] This parameter points to a location into which the method writes a pointer to the [IXpsRasterizer](./nn-xpsrassvc-ixpsrasterizer.md) interface of the newly created XPS rasterizer object. If the method fails, it writes **NULL** to this location and returns an error code.
 
 ## -returns
 
@@ -96,9 +96,9 @@ This method is supported in Windows 7 and later.
 
 Typically, an XPSDrv filter in an XPS pipeline calls this method to obtain an XPS rasterizer. It then uses the rasterizer to rasterize the XPS fixed page encapsulated by the object to which the parameter *xpsPage* points.
 
-The parameter *DPI* specifies the printer resolution, which is assumed to be the same in both the horizontal and vertical dimensions. The width and height of the XPS fixed page, which can be obtained from the **IXpsOMPage::GetPageDimensions** method, are expressed in 1/96-inch units. Multiply these width and height values by *DPI*/96 to determine the width and height, in pixels, of the rasterized page. For more information about **IXpsOMPage::GetPageDimensions**, see [IXpsOMPage](https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-getpagedimensions). For more information about how the XPS rasterizer object uses the DPI value, see [IXpsRasterizer::RasterizeRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect).
+The parameter *DPI* specifies the printer resolution, which is assumed to be the same in both the horizontal and vertical dimensions. The width and height of the XPS fixed page, which can be obtained from the **IXpsOMPage::GetPageDimensions** method, are expressed in 1/96-inch units. Multiply these width and height values by *DPI*/96 to determine the width and height, in pixels, of the rasterized page. For more information about **IXpsOMPage::GetPageDimensions**, see [IXpsOMPage](/windows/win32/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompage-getpagedimensions). For more information about how the XPS rasterizer object uses the DPI value, see [IXpsRasterizer::RasterizeRect](./nf-xpsrassvc-ixpsrasterizer-rasterizerect.md).
 
-If successful, the method creates an XPS rasterizer object and passes to the caller a counted reference to the object's **IXpsRasterizer** interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the [Release](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the object's **IXpsRasterizer** interface.
+If successful, the method creates an XPS rasterizer object and passes to the caller a counted reference to the object's **IXpsRasterizer** interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the [Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) method on the object's **IXpsRasterizer** interface.
 
 If the method fails and *ppIXPSRasterizer* is non-**NULL**, the method sets **ppIXPSRasterizer* = **NULL**.
 
@@ -106,11 +106,10 @@ For a code example that calls the **CreateRasterizer** method, see the XPSRasFil
 
 ## -see-also
 
-[IXpsRasterizationFactory](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizationfactory)
+[IXpsRasterizationFactory](./nn-xpsrassvc-ixpsrasterizationfactory.md)
 
-[IXpsRasterizer](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer)
+[IXpsRasterizer](./nn-xpsrassvc-ixpsrasterizer.md)
 
-[IXpsRasterizer::RasterizeRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect)
+[IXpsRasterizer::RasterizeRect](./nf-xpsrassvc-ixpsrasterizer-rasterizerect.md)
 
-[XPSRAS_RENDERING_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001)
-
+[XPSRAS_RENDERING_MODE](./ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md)

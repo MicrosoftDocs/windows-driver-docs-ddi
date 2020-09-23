@@ -45,13 +45,13 @@ product:
 
 ## -description
 
-Implemented by the client driver to handle driver-specific power up activities on behalf of DFx (Directed [PoFx](https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework)).
+Implemented by the client driver to handle driver-specific power up activities on behalf of DFx (Directed [PoFx](/windows-hardware/drivers/kernel/overview-of-the-power-management-framework)).
 
 ## -parameters
 
 ### -param Context: 
 
-Supplies a pointer to the context passed in to [**PoFxRegisterDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice).
+Supplies a pointer to the context passed in to [**PoFxRegisterDevice**](./nf-wdm-pofxregisterdevice.md).
 
 ### -param Flags: 
 
@@ -79,22 +79,21 @@ VOID PoFxDirectedPowerUpCallback
 
 WDM drivers that register with PoFx for runtime idle power management support need to implement this callback to add DFx support.
 
-Register your implementation of this callback function by setting the appropriate member of the [**PO_FX_DEVICE_V3**](ns-wdm-po_fx_device_v3.md) structure and then calling [**PoFxRegisterDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice).
+Register your implementation of this callback function by setting the appropriate member of the [**PO_FX_DEVICE_V3**](ns-wdm-po_fx_device_v3.md) structure and then calling [**PoFxRegisterDevice**](./nf-wdm-pofxregisterdevice.md).
 
 When this callback is invoked, the driver typically performs the following high-level tasks:
 
 - Request a D0 IRP to power up the device.
-- After the D0 IRP completes, call [**PoFxReportDevicePoweredOn**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxreportdevicepoweredon).
+- After the D0 IRP completes, call [**PoFxReportDevicePoweredOn**](./nf-wdm-pofxreportdevicepoweredon.md).
 - Unblock I/O queues and start processing requests normally.
 
 Once the driver completes the Directed power up call, it can resume runtime-idle (RTD3) behavior.
 
 The contract is very similar to S0, although no S-IRPs are involved.
 
-Note that if a device hierarchy is involved, the directed power framework asks the child devices to power down before the parent device.  For a given parent device, direct children (ones enumerated by the parent) and indirect children due to [power relations](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations) are considered.
+Note that if a device hierarchy is involved, the directed power framework asks the child devices to power down before the parent device.  For a given parent device, direct children (ones enumerated by the parent) and indirect children due to [power relations](/windows-hardware/drivers/kernel/irp-mn-query-device-relations) are considered.
 
 ## -see-also
 
-- [Introduction to the Directed Power Management Framework](https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework)
+- [Introduction to the Directed Power Management Framework](/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework)
 - [PO_FX_DIRECTED_POWER_DOWN_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_directed_power_down_callback_
-

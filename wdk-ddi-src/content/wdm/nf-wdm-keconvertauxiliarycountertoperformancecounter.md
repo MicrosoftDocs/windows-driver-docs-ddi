@@ -126,5 +126,4 @@ Make sure that the specified auxiliary counter value is within +/- 10s compared 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keconvertperformancecountertoauxiliarycounter">KeConvertPerformanceCounterToAuxiliaryCounter</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keconvertperformancecountertoauxiliarycounter">KeConvertPerformanceCounterToAuxiliaryCounter</a>

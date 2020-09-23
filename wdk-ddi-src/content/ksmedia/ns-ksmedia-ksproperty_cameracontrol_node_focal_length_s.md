@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-The KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure returns node-specific data requested using the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-focal-length">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a> property.
+The KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure returns node-specific data requested using the <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-focal-length">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a> property.
 
 ## -struct-fields
 
 ### -field NodeProperty
 
-Specifies both the target node and the property to <i>get</i>. This member is an initialized structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty">KSNODEPROPERTY</a>.
+Specifies both the target node and the property to <i>get</i>. This member is an initialized structure of type <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty">KSNODEPROPERTY</a>.
 
 ### -field lOcularFocalLength
 
@@ -70,21 +70,20 @@ Specifies a value of type LONG containing the maximum focal length of the lens c
 
 ## -remarks
 
-If the camera has only one lens, these values can be used to represent zoom ratios. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-focal-length">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a>.
+If the camera has only one lens, these values can be used to represent zoom ratios. See <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-focal-length">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-focal-length">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-focal-length">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_focal_length_s">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_focal_length_s">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a>

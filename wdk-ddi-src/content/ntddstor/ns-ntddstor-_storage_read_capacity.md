@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITY</a> request.
+The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITY</a> request.
 
 ## -struct-fields
 
@@ -76,5 +76,4 @@ The total disk size in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITY</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITY</a>

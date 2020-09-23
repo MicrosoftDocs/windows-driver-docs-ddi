@@ -54,17 +54,17 @@ The <b>HidP_GetExtendedAttributes</b> routine returns the extended attributes of
 ### -param ReportType 
 
 [in]
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report associated with the HID control specified by <i>DataIndex</i>.
+Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report associated with the HID control specified by <i>DataIndex</i>.
 
 ### -param DataIndex 
 
 [in]
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/data-indices">data index</a> of the HID control.
+Specifies the <a href="/windows-hardware/drivers/hid/data-indices">data index</a> of the HID control.
 
 ### -param PreparsedData 
 
 [in]
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> for the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> that contains the specified control.
+Specifies the <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> for the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> that contains the specified control.
 
 ### -param Attributes 
 
@@ -122,21 +122,20 @@ The specified data index is not valid.
 
 ## -remarks
 
-<b>HidP_GetExtendedAttributes </b>returns a variable length <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_extended_attributes">HIDP_EXTENDED_ATTRIBUTES</a> structure in the <i>Attribute</i> buffer. The extended attributes structure contains, in consecutive order, the fixed length members (<b>NumGlobalUnknowns</b>, <b>Reserved</b>, and <b>GlobalUnknowns</b>) followed by a variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a> structures. The first member of the unknown token array is located at (PHIDP_UNKNOWN_TOKEN*)&(<i>Attributes</i>-><b>Data</b>).
+<b>HidP_GetExtendedAttributes </b>returns a variable length <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_extended_attributes">HIDP_EXTENDED_ATTRIBUTES</a> structure in the <i>Attribute</i> buffer. The extended attributes structure contains, in consecutive order, the fixed length members (<b>NumGlobalUnknowns</b>, <b>Reserved</b>, and <b>GlobalUnknowns</b>) followed by a variable length array of <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a> structures. The first member of the unknown token array is located at (PHIDP_UNKNOWN_TOKEN*)&(<i>Attributes</i>-><b>Data</b>).
 
 The routine returns as many bytes of the extended attribute information as the <i>Attribute</i> buffer can hold. If the buffer is too small, the routine truncates the information it returns. To determine the number of unknown tokens in the variable length array, a caller can first use the <i>Attributes</i> buffer to return the value of the <b>NumGlobalUnknowns</b> member of the extended attributes information.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_extended_attributes">HIDP_EXTENDED_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_extended_attributes">HIDP_EXTENDED_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>

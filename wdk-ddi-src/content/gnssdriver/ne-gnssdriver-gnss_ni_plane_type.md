@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This enumeration indicates the plane type of a network initiated (NI) request represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_ni_request_param">GNSS_NI_REQUEST_PARAM</a> structure.
+This enumeration indicates the plane type of a network initiated (NI) request represented by the <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_ni_request_param">GNSS_NI_REQUEST_PARAM</a> structure.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Indicates the plane type of the request is CP.
 ### -field GNSS_NI_V2UPL
 
 Indicates plane type of the request is V2UPL.
-

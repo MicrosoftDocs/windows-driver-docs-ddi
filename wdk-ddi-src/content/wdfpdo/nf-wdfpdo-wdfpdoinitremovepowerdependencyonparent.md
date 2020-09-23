@@ -47,7 +47,7 @@ The **WdfPdoInitRemovePowerDependencyOnParent** method removes the power depende
 
 ### -param DeviceInit
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
+A pointer to a <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 ## -remarks
 
@@ -67,4 +67,3 @@ To remove the power dependency, the bus driver can call **WdfPdoInitRemovePowerD
 This function takes no action if the parent bus driver is not the power policy owner of the parent device stack.
 
 ## -see-also
-

@@ -56,17 +56,16 @@ Defines stack source information for an extended stack frame.
 
 ### -field StackFrameEx
 
-A stack frame as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a> structure.
+A stack frame as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a> structure.
 
 ### -field SrcInfo
 
-Stack source information as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_stack_src_info">STACK_SRC_INFO</a> structure.
+Stack source information as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_stack_src_info">STACK_SRC_INFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_stack_frame_ex">DEBUG_STACK_FRAME_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_stack_src_info">STACK_SRC_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_stack_src_info">STACK_SRC_INFO</a>

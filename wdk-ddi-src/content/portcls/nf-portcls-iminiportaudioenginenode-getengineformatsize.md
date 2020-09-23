@@ -58,7 +58,7 @@ The ID of the audio engine node.
 ### -param formatType 
 
 [in]
-An enum of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-eengineformattype">eEngineFormatType</a> that represents the audio data format type.
+An enum of type <a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-eengineformattype">eEngineFormatType</a> that represents the audio data format type.
 
 ### -param pulFormatSize 
 
@@ -71,9 +71,8 @@ The data buffer size for the format type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-eengineformattype">eEngineFormatType</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/ne-portcls-eengineformattype">eEngineFormatType</a>

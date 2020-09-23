@@ -80,7 +80,7 @@ An index value that identifies the alternate setting, within an interface, that 
 
 ### -field PipeType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_pipe_type">WDF_USB_PIPE_TYPE</a>-typed value that specifies the type of pipe.
+A <a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_pipe_type">WDF_USB_PIPE_TYPE</a>-typed value that specifies the type of pipe.
 
 ### -field MaximumTransferSize
 
@@ -88,35 +88,34 @@ This member is not used.
 
 ## -remarks
 
-The <b>WDF_USB_PIPE_INFORMATION</b> structure is filled in by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipegetinformation">WdfUsbTargetPipeGetInformation</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetendpointinformation">WdfUsbInterfaceGetEndpointInformation</a> methods.
+The <b>WDF_USB_PIPE_INFORMATION</b> structure is filled in by the <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipegetinformation">WdfUsbTargetPipeGetInformation</a>, <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>, and <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetendpointinformation">WdfUsbInterfaceGetEndpointInformation</a> methods.
 
-To initialize a <b>WDF_USB_PIPE_INFORMATION</b> structure, your driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_pipe_information_init">WDF_USB_PIPE_INFORMATION_INIT</a>.
+To initialize a <b>WDF_USB_PIPE_INFORMATION</b> structure, your driver should call <a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_pipe_information_init">WDF_USB_PIPE_INFORMATION_INIT</a>.
 
-For more information about the <b>MaximumPacketSize</b> member of this structure, see  the Remarks section of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_pipe_information">USBD_PIPE_INFORMATION</a>.
+For more information about the <b>MaximumPacketSize</b> member of this structure, see  the Remarks section of <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_pipe_information">USBD_PIPE_INFORMATION</a>.
 
-For information on how to transfer data to and from supported isochronous endpoints in a USB device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">How to Transfer Data to USB Isochronous Endpoints</a>.
+For information on how to transfer data to and from supported isochronous endpoints in a USB device, see <a href="/windows-hardware/drivers/ddi/index">How to Transfer Data to USB Isochronous Endpoints</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_pipe_information">USBD_PIPE_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_pipe_information">USBD_PIPE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_pipe_information_init">WDF_USB_PIPE_INFORMATION_INIT</a>
+<a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_pipe_information_init">WDF_USB_PIPE_INFORMATION_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_pipe_type">WDF_USB_PIPE_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_pipe_type">WDF_USB_PIPE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>
+<a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetconfiguredpipe">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetendpointinformation">WdfUsbInterfaceGetEndpointInformation</a>
+<a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfacegetendpointinformation">WdfUsbInterfaceGetEndpointInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipegetinformation">WdfUsbTargetPipeGetInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipegetinformation">WdfUsbTargetPipeGetInformation</a>

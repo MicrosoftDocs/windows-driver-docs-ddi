@@ -54,7 +54,7 @@ The _BRB_SCO_GET_CHANNEL_INFO structure describes the settings and statistics of
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field BtAddress
@@ -217,7 +217,7 @@ Reserved for future use. Do not use.
 ### -field RetransmissionEffort
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_retransmission_effort">SCO_RETRANSMISSION_EFFORT</a> value that
+     <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_retransmission_effort">SCO_RETRANSMISSION_EFFORT</a> value that
      determines the channel's retransmission policies.
 
 ### -field ChannelFlags
@@ -270,40 +270,39 @@ The host controller interface's connection handle for the SCO connection.
 ### -field LinkType
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_link_type">SCO_LINK_TYPE</a> that is associated with the host
+     <a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_link_type">SCO_LINK_TYPE</a> that is associated with the host
      controller interface.
 
 ### -field BasebandInfo
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_baseband_channel_info">BASEBAND_CHANNEL_INFO</a> structure that
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_baseband_channel_info">BASEBAND_CHANNEL_INFO</a> structure that
      contains information for the SCO connection. This information is only available for links established
      using the 1.2 Bluetooth Synchronous Commands.
 
 ## -remarks
 
 To get the settings and statistics of a SCO channel, profile drivers should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_get_channel_info">
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_get_channel_info">
     BRB_SCO_GET_CHANNEL_INFO</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_baseband_channel_info">BASEBAND_CHANNEL_INFO</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_baseband_channel_info">BASEBAND_CHANNEL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_get_channel_info">BRB_SCO_GET_CHANNEL_INFO</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_get_channel_info">BRB_SCO_GET_CHANNEL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_link_type">SCO_LINK_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_link_type">SCO_LINK_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_retransmission_effort">SCO_RETRANSMISSION_EFFORT</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_sco_retransmission_effort">SCO_RETRANSMISSION_EFFORT</a>

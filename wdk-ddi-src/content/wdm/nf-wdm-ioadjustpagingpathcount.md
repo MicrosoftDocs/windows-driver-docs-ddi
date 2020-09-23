@@ -63,15 +63,14 @@ Specifies whether the counter is to be incremented or decremented. A value of <b
 
 ## -remarks
 
-This routine is useful for maintaining a count of paging files on a device. The operating system notifies a driver that a paging file has been created on, or removed from, one of the driver's devices by sending an IRP. The IRP has the major code <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a> and the minor code <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-device-usage-notification">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>.
+This routine is useful for maintaining a count of paging files on a device. The operating system notifies a driver that a paging file has been created on, or removed from, one of the driver's devices by sending an IRP. The IRP has the major code <a href="/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a> and the minor code <a href="/windows-hardware/drivers/kernel/irp-mn-device-usage-notification">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>.
 
 This routine can be used for other counters, such as counters for hibernation files or crash-dump files.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>
+<a href="/windows-hardware/drivers/ifs/irp-mj-pnp">IRP_MJ_PNP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-device-usage-notification">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>
-
+<a href="/windows-hardware/drivers/kernel/irp-mn-device-usage-notification">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>

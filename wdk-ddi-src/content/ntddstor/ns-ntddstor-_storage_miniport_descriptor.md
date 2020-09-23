@@ -67,7 +67,7 @@ Specifies the total size of the data returned, in bytes. This may include data t
 ### -field Portdriver
 
 Type of port driver as enumerated by the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt668773(v=vs.85)">STORAGE_PORT_CODE_SET</a> enumeration.
+     <a href="/previous-versions/windows/hardware/drivers/mt668773(v=vs.85)">STORAGE_PORT_CODE_SET</a> enumeration.
 
 ### -field LUNResetSupported
 
@@ -92,4 +92,3 @@ Indicates whether a target reset is supported.
 ### -field Reserved1
 
 <b>Introduced in Windows 8.1:  </b>Reserved for future use.
-

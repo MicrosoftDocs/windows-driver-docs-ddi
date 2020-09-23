@@ -184,17 +184,16 @@ The buffer contains an array of 64-bit memory mapped registers. The number of re
 
 ## -remarks
 
-The <b>VariableInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contains zero or more WHEA_XPF_CONTEXT_INFO structures, each of which describes specific context information associated with the processor error that occurred. If the size of a particular WHEA_XPF_CONTEXT_INFO structure is not an even multiple of 16 bytes, the space that is allocated for the structure in the buffer will be padded with additional bytes that are set to zero to round the allocated space up to an even multiple of 16 bytes.
+The <b>VariableInfo</b> member of the <a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contains zero or more WHEA_XPF_CONTEXT_INFO structures, each of which describes specific context information associated with the processor error that occurred. If the size of a particular WHEA_XPF_CONTEXT_INFO structure is not an even multiple of 16 bytes, the space that is allocated for the structure in the buffer will be padded with additional bytes that are set to zero to round the allocated space up to an even multiple of 16 bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_x64_register_state">WHEA_X64_REGISTER_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_x64_register_state">WHEA_X64_REGISTER_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_x86_register_state">WHEA_X86_REGISTER_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_x86_register_state">WHEA_X86_REGISTER_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
-
+<a href="/previous-versions/ff560655(v=vs.85)">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>

@@ -66,23 +66,23 @@ The ID that uniquely identifies the NI request. It is used later by the NI respo
 
 ### -field RequestType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_ni_request_type">GNSS_NI_REQUEST_TYPE</a> enumeration value that specifies the request type.
+A <a href="/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_ni_request_type">GNSS_NI_REQUEST_TYPE</a> enumeration value that specifies the request type.
 
 ### -field NotificationType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_ni_notification_type">GNSS_NI_NOTIFICATION_TYPE</a> enumeration value that specifies the notification type.
+A <a href="/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_ni_notification_type">GNSS_NI_NOTIFICATION_TYPE</a> enumeration value that specifies the notification type.
 
 ### -field RequestPlaneType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_ni_plane_type">GNSS_NI_PLANE_TYPE</a> enumeration value that specifies the plane type.
+A <a href="/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_ni_plane_type">GNSS_NI_PLANE_TYPE</a> enumeration value that specifies the plane type.
 
 ### -field SuplNiInfo
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_ni_info">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
+The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_ni_info">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
 
 ### -field CpNiInfo
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_cp_ni_info">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
+The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_cp_ni_info">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
 
 ### -field V2UplNiInfo
 
@@ -95,4 +95,3 @@ The required response time, in seconds.
 ### -field EmergencyLocation
 
 Indicates an emergency request, so an existing NI dialog will be dismissed and the new request will be processed immediately.
-

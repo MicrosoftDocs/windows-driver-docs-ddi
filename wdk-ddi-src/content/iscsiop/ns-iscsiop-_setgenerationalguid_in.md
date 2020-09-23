@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The SetGenerationalGuid_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a> method.
+The SetGenerationalGuid_IN structure holds the input data for the <a href="/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a> method.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a>
+<a href="/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setgenerationalguid_out">SetGenerationalGuid_OUT</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setgenerationalguid_out">SetGenerationalGuid_OUT</a>

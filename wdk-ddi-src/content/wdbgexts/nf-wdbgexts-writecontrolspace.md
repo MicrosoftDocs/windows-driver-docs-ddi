@@ -72,9 +72,8 @@ This function can only be called in kernel-mode debugging.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readcontrolspace">ReadControlSpace</a>
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readcontrolspace">ReadControlSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readcontrolspace64">ReadControlSpace64</a>
-
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-readcontrolspace64">ReadControlSpace64</a>

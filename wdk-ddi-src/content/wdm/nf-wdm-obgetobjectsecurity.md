@@ -58,7 +58,7 @@ Pointer to the object.
 ### -param SecurityDescriptor 
 
 [out]
-Pointer to a caller-supplied variable that this routine sets to the address of a buffer containing the [SECURITY_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor) for the given object. If the given object has no security descriptor, this variable is set to **NULL** on return from **ObGetObjectSecurity**.
+Pointer to a caller-supplied variable that this routine sets to the address of a buffer containing the [SECURITY_DESCRIPTOR](../ntifs/ns-ntifs-_security_descriptor.md) for the given object. If the given object has no security descriptor, this variable is set to **NULL** on return from **ObGetObjectSecurity**.
 
 ### -param MemoryAllocated 
 
@@ -83,5 +83,4 @@ If **ObGetObjectSecurity** returns STATUS_SUCCESS, the caller must save the valu
 
 [ObReleaseObjectSecurity](nf-wdm-obreleaseobjectsecurity.md)
 
-[SECURITY_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor)
-
+[SECURITY_DESCRIPTOR](../ntifs/ns-ntifs-_security_descriptor.md)

@@ -62,10 +62,10 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
+<div class="alert"><b>Note</b>  The <a href="/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-enable">IWDTFEnhancedDeviceTestSupportAction2::Enable</a>  
 method must be called for the target device before calling this method.</div>
 <div> </div>
-Similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edttrystopdevice">EDTTryStopDevice</a> method, 
+Similar to the <a href="/windows-hardware/drivers/ddi/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edttrystopdevice">EDTTryStopDevice</a> method, 
 <b>EDTTryStopDeviceRequestNewResources</b> attempts to trigger a PnP resource 
 rebalance (e.g. IRP_MN_STOP_DEVICE) on the target device stack, with the addition that the method 
 attempts to force the device onto a new set of hardware resources.
@@ -83,5 +83,4 @@ run this method on the parent USB controller instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>
-
+<a href="/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>

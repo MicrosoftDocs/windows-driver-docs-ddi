@@ -84,5 +84,4 @@ Describes information that is required to map a global NT handle to resource inf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfofromnthandle">D3DKMTQueryResourceInfoFromNtHandle</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfofromnthandle">D3DKMTQueryResourceInfoFromNtHandle</a>

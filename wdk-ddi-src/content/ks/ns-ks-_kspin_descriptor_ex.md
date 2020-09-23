@@ -56,15 +56,15 @@ The KSPIN_DESCRIPTOR_EX structure describes the characteristics of a pin type on
 
 ### -field Dispatch
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a> structure for this pin. This pointer is optional and should only be provided by clients that wish to receive notifications. Clients that need to perform pin-centric processing (filters concerned with the routing of data, in other words hardware drivers) must provide this dispatch table and a process dispatch. See <b>KSPIN_DISPATCH</b> for more information.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a> structure for this pin. This pointer is optional and should only be provided by clients that wish to receive notifications. Clients that need to perform pin-centric processing (filters concerned with the routing of data, in other words hardware drivers) must provide this dispatch table and a process dispatch. See <b>KSPIN_DISPATCH</b> for more information.
 
 ### -field AutomationTable
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_">KSAUTOMATION_TABLE</a> structure for this pin. The automation table contains the properties, methods, and events supported by the pin. This automation table is merged with the automation table provided by AVStream for all pins. If the client supplies any property, event, or method handlers that are already provided by AVStream, the client's implementation supersedes that of AVStream.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_">KSAUTOMATION_TABLE</a> structure for this pin. The automation table contains the properties, methods, and events supported by the pin. This automation table is merged with the automation table provided by AVStream for all pins. If the client supplies any property, event, or method handlers that are already provided by AVStream, the client's implementation supersedes that of AVStream.
 
 ### -field PinDescriptor
 
-This member specifies a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>.
+This member specifies a structure of type <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>.
 
 ### -field Flags
 
@@ -122,13 +122,13 @@ Specifying this flag causes the queue to force IRPs to be handled in a first-in-
 
 #### KSPIN_FLAG_GENERATE_MAPPINGS
 
-Specifying this flag causes AVStream to automatically generate scatter/gather mappings for a queued frame when the minidriver locks a stream pointer referencing that frame. Clients that intend to use this feature need to register their DMA adapter object with AVStream via the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a> function. See the <b>DataUsed</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> for the effect of this flag on the KSSTREAM_HEADER structure. Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer_offset">KSSTREAM_POINTER_OFFSET</a>.
+Specifying this flag causes AVStream to automatically generate scatter/gather mappings for a queued frame when the minidriver locks a stream pointer referencing that frame. Clients that intend to use this feature need to register their DMA adapter object with AVStream via the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a> function. See the <b>DataUsed</b> member of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> for the effect of this flag on the KSSTREAM_HEADER structure. Also see <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer_offset">KSSTREAM_POINTER_OFFSET</a>.
 
 
 
 #### KSPIN_FLAG_DISTINCT_TRAILING_EDGE
 
-Indicates that the queue associated with the pin should have a trailing edge stream pointer. The trailing edge pointer is a special stream pointer that points to the oldest data in the queue unless clone pointers exist on older data. Any data frames in the window between the leading and trailing edge stream pointers are considered to have at least one reference count on them and are not completed until they move out of the window by advancing the trailing edge with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingettrailingedgestreampointer">KsPinGetTrailingEdgeStreamPointer</a> and one of the <b>KsStreamPointerAdvance</b><i>Xxx</i> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a> functions. Pins that do not specify this flag do not have a trailing edge stream pointer.
+Indicates that the queue associated with the pin should have a trailing edge stream pointer. The trailing edge pointer is a special stream pointer that points to the oldest data in the queue unless clone pointers exist on older data. Any data frames in the window between the leading and trailing edge stream pointers are considered to have at least one reference count on them and are not completed until they move out of the window by advancing the trailing edge with <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingettrailingedgestreampointer">KsPinGetTrailingEdgeStreamPointer</a> and one of the <b>KsStreamPointerAdvance</b><i>Xxx</i> or <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a> functions. Pins that do not specify this flag do not have a trailing edge stream pointer.
 
 
 
@@ -178,15 +178,15 @@ Specifies that this pin is capable of rendering frames.
 
 When specified on a filter-centric filter pin, indicates that one or more instances of the pin type in question must have frames available in order to process data. Mutually exclusive with KSPIN_FLAG_FRAMES_NOT_REQUIRED_FOR_PROCESSING.
 
-Note that this behavior can be obtained through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachorgate">KsPinAttachOrGate</a> by manually setting up an OR gate as the frame gate for every instance of the pin and attaching this OR gate to the filter's AND gate.
+Note that this behavior can be obtained through <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachorgate">KsPinAttachOrGate</a> by manually setting up an OR gate as the frame gate for every instance of the pin and attaching this OR gate to the filter's AND gate.
 
-When using this flag, minidrivers cannot call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachandgate">KsPinAttachAndGate</a> or <b>KsPinAttachOrGate</b> on the associated pin instances. (The flag effectively does this for you for the simple OR case.) Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
+When using this flag, minidrivers cannot call <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinattachandgate">KsPinAttachAndGate</a> or <b>KsPinAttachOrGate</b> on the associated pin instances. (The flag effectively does this for you for the simple OR case.) Also see <a href="/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
 
 
 
 #### KSPIN_FLAG_PROCESS_IF_ANY_IN_RUN_STATE
 
-When specified on a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">filter-centric</a> pin, indicates that processing may occur when one or more of the pin instances so flagged are in the run state. All nonstopped pins still must be in at least pause to process data. Do not use this flag if the corresponding pin is an output pin and this pin is involved in an in-place transform.
+When specified on a <a href="/windows-hardware/drivers/stream/filter-centric-processing">filter-centric</a> pin, indicates that processing may occur when one or more of the pin instances so flagged are in the run state. All nonstopped pins still must be in at least pause to process data. Do not use this flag if the corresponding pin is an output pin and this pin is involved in an in-place transform.
 
 
 
@@ -198,7 +198,7 @@ This flag prevents user-mode access to this specific pin.
 
 #### KSPIN_FLAG_IMPLEMENT_CLOCK
 
-Indicates that this pin exposes a clock that can be selected by the graph manager as a master clock. Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
+Indicates that this pin exposes a clock that can be selected by the graph manager as a master clock. Also see <a href="/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
 
 ### -field InstancesPossible
 
@@ -210,11 +210,11 @@ Specifies a value of type ULONG that contains the minimum number of pins of a gi
 
 ### -field AllocatorFraming
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a> structure containing the allocator framing requirements for this pin type. Allocator framing specifies items such as memory alignment requirements, maximum frame size, and minimum frame size. This member can be <b>NULL</b>, which indicates that this pin does not support the allocator framing property.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a> structure containing the allocator framing requirements for this pin type. Allocator framing specifies items such as memory alignment requirements, maximum frame size, and minimum frame size. This member can be <b>NULL</b>, which indicates that this pin does not support the allocator framing property.
 
 ### -field IntersectHandler
 
-A pointer to a driver-defined <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a> function to handle data-intersection. If this member is <b>NULL</b>, the pin handles data intersection queries for data ranges with the specifier KSDATAFORMAT_SPECIFIER_NONE. The intersection handler function receives a single data range from the query and a single data range from the pins list of data ranges. The type, subtype, and specifier GUIDs of these ranges are guaranteed to match, though some may be wildcards. The function either indicates the data ranges do not match, or it produces the best data format in the intersection of the two data ranges. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/data-range-intersections-in-avstream">Data Range Intersections in AVStream</a> for more information.
+A pointer to a driver-defined <a href="/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a> function to handle data-intersection. If this member is <b>NULL</b>, the pin handles data intersection queries for data ranges with the specifier KSDATAFORMAT_SPECIFIER_NONE. The intersection handler function receives a single data range from the query and a single data range from the pins list of data ranges. The type, subtype, and specifier GUIDs of these ranges are guaranteed to match, though some may be wildcards. The function either indicates the data ranges do not match, or it produces the best data format in the intersection of the two data ranges. See <a href="/windows-hardware/drivers/stream/data-range-intersections-in-avstream">Data Range Intersections in AVStream</a> for more information.
 
 ## -remarks
 
@@ -225,21 +225,20 @@ Note that the allocator framing requirements of your pin may be ignored despite 
 Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin uses the standard transport mechanism, you must have a processing object. This means there must be some process dispatch provided (either at the filter level or at the pin level); even if this function is never called, it must be provided in this circumstance.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/data-range-intersections-in-avstream">Data Range Intersections in AVStream</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-splitters">AVStream Splitters</a>.
+<a href="/windows-hardware/drivers/stream/data-range-intersections-in-avstream">Data Range Intersections in AVStream</a> and <a href="/windows-hardware/drivers/stream/avstream-splitters">AVStream Splitters</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>

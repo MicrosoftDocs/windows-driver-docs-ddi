@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <code>IPrintPipelineManagerControl</code> interface is passed to each filter in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter">IPrintPipelineFilter::InitializeFilter</a> method. Filters use this interface to:
+The <code>IPrintPipelineManagerControl</code> interface is passed to each filter in the <a href="/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter">IPrintPipelineFilter::InitializeFilter</a> method. Filters use this interface to:
 <ul>
 <li>
 Request shutdown in low-memory situations.
@@ -60,8 +60,7 @@ Report when the filters are finished processing.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintPipelineManagerControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelineManagerControl</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintPipelineManagerControl</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelineManagerControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

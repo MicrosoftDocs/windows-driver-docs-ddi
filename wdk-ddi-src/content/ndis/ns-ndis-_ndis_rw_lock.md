@@ -57,5 +57,4 @@ The <b>NDIS_RW_LOCK</b> structure defines the attributes of a read/write lock. T
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a>

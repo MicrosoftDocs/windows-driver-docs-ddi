@@ -50,11 +50,11 @@ Creates a connector collection object with UcmUcsiCx.
 
 ### -param WdfDevice 
 
-[in]A handle to a framework device object that the client driver received in the previous call to [**WdfDeviceCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate).
+[in]A handle to a framework device object that the client driver received in the previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ### -param Attributes  
 
-[in]A pointer to a caller-supplied [WDF_OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that contains attributes for the new connector collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+[in]A pointer to a caller-supplied [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains attributes for the new connector collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param ConnectorCollection 
 
@@ -62,7 +62,7 @@ Creates a connector collection object with UcmUcsiCx.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 
@@ -72,11 +72,10 @@ The connector collection object is parented to the WDFOBJECT even when UcmUcsiCo
 
 ## -see-also
 
-[**WdfDeviceCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate)
+[**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
 
-[WDF_OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes)
+[WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 
 [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md)
 
 [**UcmUcsiConnectorCollectionAddConnector**](nf-ucmucsippm-ucmucsiconnectorcollectionaddconnector.md)
-

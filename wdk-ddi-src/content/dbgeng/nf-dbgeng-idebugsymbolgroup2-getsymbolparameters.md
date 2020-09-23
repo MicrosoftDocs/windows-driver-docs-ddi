@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>GetSymbolParameters</b> method returns the symbol parameters that describe the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/symbols4">symbols</a> in a symbol group.
+The <b>GetSymbolParameters</b> method returns the symbol parameters that describe the specified <a href="/windows-hardware/drivers/debugger/symbols4">symbols</a> in a symbol group.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The number of symbol parameters that you want.
 ### -param Params 
 
 [out]
-The symbol parameters.  This array must hold at least <i>Count</i> elements.  For a description of these parameters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_parameters">DEBUG_SYMBOL_PARAMETERS</a>.
+The symbol parameters.  This array must hold at least <i>Count</i> elements.  For a description of these parameters, see <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_parameters">DEBUG_SYMBOL_PARAMETERS</a>.
 
 ## -returns
 
@@ -87,25 +87,24 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
+This method can also return error values.  For more information, see <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 ## -remarks
 
-For more information about symbol groups, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
+For more information about symbol groups, see <a href="/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_parameters">DEBUG_SYMBOL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_parameters">DEBUG_SYMBOL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getnumbersymbols">GetNumberSymbols</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getnumbersymbols">GetNumberSymbols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup">IDebugSymbolGroup</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup">IDebugSymbolGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>

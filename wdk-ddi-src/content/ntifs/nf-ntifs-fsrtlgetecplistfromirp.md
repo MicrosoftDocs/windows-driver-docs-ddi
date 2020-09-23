@@ -84,9 +84,8 @@ The given IRP was not an IRP-based IRP_MJ_CREATE operation. In this case, <i>Ecp
 
 ## -remarks
 
-To attach an ECP context structure list to an IRP, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547250">FsRtlSetEcpListIntoIrp</a> routine.
+To attach an ECP context structure list to an IRP, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlsetecplistintoirp">FsRtlSetEcpListIntoIrp</a> routine.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547250">FsRtlSetEcpListIntoIrp</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlsetecplistintoirp">FsRtlSetEcpListIntoIrp</a>

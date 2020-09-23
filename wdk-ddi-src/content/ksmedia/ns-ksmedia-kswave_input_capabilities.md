@@ -82,9 +82,8 @@ Indicates the number of active connections.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-input-capabilities">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-wave-input-capabilities">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-input-capabilities">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-wave-input-capabilities">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>

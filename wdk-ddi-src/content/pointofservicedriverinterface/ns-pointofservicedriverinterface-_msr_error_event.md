@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure contains the error data that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772151(v=vs.85)">MagneticStripeReaderErrorOccured</a> event.
+This structure contains the error data that is passed to the <a href="/previous-versions/windows/hardware/previsioning-framework/dn772151(v=vs.85)">MagneticStripeReaderErrorOccured</a> event.
 
 ## -struct-fields
 
@@ -93,4 +93,3 @@ Data read from a swiped magnetic stripe card.
 ### -field Message
 
 NULL terminated error message.
-

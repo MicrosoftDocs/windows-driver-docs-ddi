@@ -58,11 +58,10 @@ Specifies how far the average dialog level is below digital 100 percent. Valid v
 
 ## -remarks
 
-This structure is used by the [KSPROPERTY_AC3_BIT_STREAM_MODE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-bit-stream-mode) property.
+This structure is used by the [KSPROPERTY_AC3_BIT_STREAM_MODE](/windows-hardware/drivers/audio/ksproperty-ac3-bit-stream-mode) property.
 
 For more information about bit stream modes, see the AC-3 specification at the [Dolby Laboratories](https://www.dolby.com) website. The specification is titled Digital Audio Compression Standard (AC-3).
 
 ## -see-also
 
-[KSPROPERTY_AC3_BIT_STREAM_MODE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-bit-stream-mode)
-
+[KSPROPERTY_AC3_BIT_STREAM_MODE](/windows-hardware/drivers/audio/ksproperty-ac3-bit-stream-mode)

@@ -189,7 +189,7 @@ Supported starting with Windows 8.
 
 ### -field DxgkCbAcquirePostDisplayOwnership
 
-A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_acquire_post_display_ownership">DxgkCbAcquirePostDisplayOwnership</a> function.
+A pointer to the display port driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_acquire_post_display_ownership">DxgkCbAcquirePostDisplayOwnership</a> function.
 
 Supported starting with Windows 8.
 
@@ -424,7 +424,7 @@ typedef struct _DXGKRNL_INTERFACE {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Dxgkrnl Interface</a>
+<a href="/windows-hardware/drivers/ddi/index">Dxgkrnl Interface</a>
 
 
 
@@ -432,5 +432,4 @@ typedef struct _DXGKRNL_INTERFACE {
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
-
+<a href="/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>

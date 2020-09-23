@@ -54,12 +54,12 @@ Used to adjust the BusType of the adapter depending on its current configuration
 ### -param HwDeviceExtension 
 
 [in]
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 ### -param BusType 
 
 [in]
-Contains a value of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)">STORAGE_BUS_TYPE</a> that specifies the type of bus-specific configuration data to be set.
+Contains a value of type <a href="/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)">STORAGE_BUS_TYPE</a> that specifies the type of bus-specific configuration data to be set.
 
 ## -returns
 
@@ -77,7 +77,7 @@ The <b>StorPortSetAdapterBusType</b> routine returns one of the following status
 </dl>
 </td>
 <td width="60%">
-This routine will return this value if it was called outside the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function.
+This routine will return this value if it was called outside the <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function.
 
 </td>
 </tr>
@@ -104,4 +104,3 @@ This routine fails with this return value if the BusType is an invalid value.
 </td>
 </tr>
 </table>
-

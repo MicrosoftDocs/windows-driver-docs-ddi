@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>KSTELEPHONY_CALLINFO</b> structure specifies the type and state of a phone call for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-telephony-callinfo">KSPROPERTY_TELEPHONY_CALLINFO</a> property.
+The <b>KSTELEPHONY_CALLINFO</b> structure specifies the type and state of a phone call for the <a href="/windows-hardware/drivers/audio/ksproperty-telephony-callinfo">KSPROPERTY_TELEPHONY_CALLINFO</a> property.
 
 ## -struct-fields
 
@@ -61,4 +61,3 @@ Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN
 ### -field CallState
 
 Specifies the state of the phone call.
-

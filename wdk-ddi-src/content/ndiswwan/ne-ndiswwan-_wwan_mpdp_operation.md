@@ -69,5 +69,4 @@ This enumeration is a member of the [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_
 
 [**NDIS_WWAN_MPDP_STATE**](ns-ndiswwan-_ndis_wwan_mpdp_state.md)
 
-[OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)
-
+[OID_WWAN_MPDP](/windows-hardware/drivers/network/oid-wwan-mpdp)

@@ -59,7 +59,7 @@ Receives the number of seconds the current process has been running.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -78,4 +78,3 @@ The method was successful.
 </td>
 </tr>
 </table>
-

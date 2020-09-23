@@ -46,26 +46,26 @@ api_name:
 
 ## -description
 
-The <b>InitializeListHead</b> routine initializes a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of a doubly linked list.
+The <b>InitializeListHead</b> routine initializes a <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of a doubly linked list.
 
 ## -parameters
 
 ### -param ListHead 
 
 [out]
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that serves as the list header.
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that serves as the list header.
 
 ## -remarks
 
 The <b>InitializeListHead</b> routine sets the <b>Flink</b> and <b>Blink</b> members of <i>ListHead</i> to point to <i>ListHead</i>.
 
-For information about using this routine when implementing a doubly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
+For information about using this routine when implementing a doubly linked list, see <a href="/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>InitializeListHead</b> is called at IRQL >= DISPATCH_LEVEL the storage for <i>ListHead</i> must be resident.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545397">ExInterlockedInsertHeadList</a>
+<a href="/previous-versions/ff545397(v=vs.85)">ExInterlockedInsertHeadList</a>
 
 
 
@@ -73,49 +73,48 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545408">ExInterlockedPopEntryList</a>
+<a href="/previous-versions/ff545408(v=vs.85)">ExInterlockedPopEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545418">ExInterlockedPushEntryList</a>
+<a href="/previous-versions/ff545418(v=vs.85)">ExInterlockedPushEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545427">ExInterlockedRemoveHeadList</a>
+<a href="/previous-versions/ff545427(v=vs.85)">ExInterlockedRemoveHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-inserttaillist">InsertTailList</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-inserttaillist">InsertTailList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty">IsListEmpty</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty">IsListEmpty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-popentrylist">PopEntryList</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-popentrylist">PopEntryList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pushentrylist">PushEntryList</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pushentrylist">PushEntryList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist">RemoveTailList</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist">RemoveTailList</a>

@@ -66,5 +66,4 @@ Indicates the PD data object type is a non-battery variable supply.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/nf-ucmtypes-ucm_pd_power_data_object_get_type">UCM_PD_POWER_DATA_OBJECT_GET_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/ucmtypes/nf-ucmtypes-ucm_pd_power_data_object_get_type">UCM_PD_POWER_DATA_OBJECT_GET_TYPE</a>

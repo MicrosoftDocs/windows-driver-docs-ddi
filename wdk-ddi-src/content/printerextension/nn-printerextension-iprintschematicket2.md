@@ -46,11 +46,10 @@ api_name:
 
 ## -description
 
-The **IPrintSchemaTicket2** interface is an extension to the [IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) interface, which provides wrapper methods over a print ticket document.
+The **IPrintSchemaTicket2** interface is an extension to the [IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md) interface, which provides wrapper methods over a print ticket document.
 
 ## -inheritance
 
 ## -see-also
 
-[IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
-
+[IPrintSchemaTicket](./nn-printerextension-iprintschematicket.md)

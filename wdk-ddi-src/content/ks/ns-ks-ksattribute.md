@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> and <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures or the extended information based on the format and range specifiers.
+The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> and <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures or the extended information based on the format and range specifiers.
 
 ## -struct-fields
 
@@ -70,9 +70,8 @@ Note that KSATTRIBUTE is used in conjunction with data formats and data ranges; 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
-
+<a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>

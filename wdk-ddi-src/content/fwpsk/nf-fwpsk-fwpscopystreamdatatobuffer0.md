@@ -49,7 +49,7 @@ api_name:
 
 The 
   <b>FwpsCopyStreamDataToBuffer0</b> function copies stream data to a buffer.
-<div class="alert"><b>Note</b>  <b>FwpsCopyStreamDataToBuffer0</b> is a specific version of <b>FwpsCopyStreamDataToBuffer</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsCopyStreamDataToBuffer0</b> is a specific version of <b>FwpsCopyStreamDataToBuffer</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -57,7 +57,7 @@ The
 
 [in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a> structure that contains
+     <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a> structure that contains
      the stream data to be copied.
 
 ### -param buffer 
@@ -87,5 +87,4 @@ To copy all indicated data to the receiving buffer, ensure that the buffer is at
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a>
-
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a>

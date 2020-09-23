@@ -60,9 +60,8 @@ A handle to a connection.
 
 ### -field Frame
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_cip_frame">CIP_FRAME</a> structure that contains information about the frame to cancel.
+Pointer to a <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_cip_frame">CIP_FRAME</a> structure that contains information about the frame to cancel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
-
+<a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>

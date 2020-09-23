@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>OutputRegisters2</b> method formats and outputs the target's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">registers</a>.
+The <b>OutputRegisters2</b> method formats and outputs the target's <a href="/windows-hardware/drivers/debugger/registers">registers</a>.
 
 ## -parameters
 
 ### -param OutputControl 
 
 [in]
-Specifies which clients should be sent the output of the formatted registers.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
+Specifies which clients should be sent the output of the formatted registers.  See <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
 
 ### -param Source 
 
@@ -83,7 +83,7 @@ DEBUG_REGSRC_EXPLICIT
 
 </td>
 <td>
-Fetch register information from the current explicit <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/changing-contexts">register context</a>.
+Fetch register information from the current explicit <a href="/windows-hardware/drivers/debugger/changing-contexts">register context</a>.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Print the floating-point register set.
 
 ## -returns
 
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -169,15 +169,14 @@ The method was successful.
 
 The registers are formatted in a way that is specific to the target architecture's register set.
 
-The method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters">OutputRegisters</a> performs the same task as this method but always uses the target as the register source.
+The method <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters">OutputRegisters</a> performs the same task as this method but always uses the target as the register source.
 
-For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
+For an overview of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters">OutputRegisters</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters">OutputRegisters</a>

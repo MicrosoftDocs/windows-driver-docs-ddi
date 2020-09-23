@@ -53,7 +53,7 @@ The <code>PowerChangeNotify</code> method notifies the miniport driver of change
 ### -param PowerState 
 
 [in]
-Specifies the current power state. This parameter is a union of type POWER_STATE. The new power state (<i>PowerState</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values listed in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>.
+Specifies the current power state. This parameter is a union of type POWER_STATE. The new power state (<i>PowerState</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values listed in <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>.
 
 ## -remarks
 
@@ -65,9 +65,8 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-ipowernotify">IPowerNotify</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-ipowernotify">IPowerNotify</a>

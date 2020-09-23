@@ -61,13 +61,12 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -remarks
 
-If <b>KsQueryExtendedSize</b> returns zero at <i>ExtendedSize</i>, clients should not call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksprepareiooperation">KsPrepareIoOperation</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kscompleteiooperation">KsCompleteIoOperation</a> methods of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a> interface because I/O preparation and completion operations are not required. For all other values that <b>KsQueryExtendedSize</b> returns at <i>ExtendedSize</i>, clients should allocate memory space for the extended stream header per the returned value and call <b>KsPrepareIoOperation</b> and <b>KsCompleteIoOperation</b> to prepare and complete the I/O operation associated with the header.
+If <b>KsQueryExtendedSize</b> returns zero at <i>ExtendedSize</i>, clients should not call the <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksprepareiooperation">KsPrepareIoOperation</a> and <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kscompleteiooperation">KsCompleteIoOperation</a> methods of the <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypehandler">IKsDataTypeHandler</a> interface because I/O preparation and completion operations are not required. For all other values that <b>KsQueryExtendedSize</b> returns at <i>ExtendedSize</i>, clients should allocate memory space for the extended stream header per the returned value and call <b>KsPrepareIoOperation</b> and <b>KsCompleteIoOperation</b> to prepare and complete the I/O operation associated with the header.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kscompleteiooperation">IKsDataTypeHandler::KsCompleteIoOperation</a>
+<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kscompleteiooperation">IKsDataTypeHandler::KsCompleteIoOperation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksprepareiooperation">IKsDataTypeHandler::KsPrepareIoOperation</a>
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksprepareiooperation">IKsDataTypeHandler::KsPrepareIoOperation</a>

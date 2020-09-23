@@ -54,7 +54,7 @@ Hyper-V extensible switch extensions call the <b>NdisFGetOptionalSwitchHandlers<
 ### -param NdisFilterHandle 
 
 [in]
-The NDIS handle that identifies this filter module. When NDIS called the extension's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function, it passed this handle in the <i>NdisFilterHandle</i> parameter.
+The NDIS handle that identifies this filter module. When NDIS called the extension's  <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function, it passed this handle in the <i>NdisFilterHandle</i> parameter.
 
 ### -param NdisSwitchContext 
 
@@ -64,11 +64,11 @@ A pointer to the NDIS_SWITCH_CONTEXT value that identifies the extensible switch
 ### -param NdisSwitchHandlers 
 
 [in, out]
-A pointer to a caller-allocated  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_optional_handlers">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure. If the call succeeds, this structure will contain a list of pointers to the extensible switch handler functions.
+A pointer to a caller-allocated  <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_optional_handlers">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure. If the call succeeds, this structure will contain a list of pointers to the extensible switch handler functions.
 
-For more information about these handler functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Hyper-V Extensible Switch Handler Functions</a>.
+For more information about these handler functions, see <a href="/windows-hardware/drivers/ddi/_netvista/">Hyper-V Extensible Switch Handler Functions</a>.
 
-<div class="alert"><b>Note</b>  Before the extension calls <b>NdisFGetOptionalSwitchHandlers</b>, it must initialize the <b>Header</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_optional_handlers">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure.</div>
+<div class="alert"><b>Note</b>  Before the extension calls <b>NdisFGetOptionalSwitchHandlers</b>, it must initialize the <b>Header</b> member of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_optional_handlers">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure.</div>
 <div> </div>
 
 ## -returns
@@ -77,11 +77,11 @@ If the call succeeds, <b>NdisFGetOptionalSwitchHandlers</b> returns NDIS_STATUS_
 
 ## -remarks
 
-The  extension calls the <b>NdisFGetOptionalSwitchHandlers</b> function from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function. 
+The  extension calls the <b>NdisFGetOptionalSwitchHandlers</b> function from its <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function. 
 
 If the extension is installed with multiple <b>FilterMediaTypes</b> INF entries, the call to <b>NdisFGetOptionalSwitchHandlers</b> lets the extension  determine whether it is bound and attached to the driver stack for either the extensible switch or a physical network adapter. If the call returns NDIS_STATUS_SUCCESS, the extension is attached within the extensible switch driver stack. If the call returns NDIS_STATUS_NOT_SUPPORTED, the extension is attached within the driver stack for a physical network adapter.
 
-For more information about <b>FilterMediaTypes</b> INF entries for extensible switch extensions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/inf-requirements-for-hyper-v-extensions">INF Requirements for Hyper-V Extensible Switch Extensions</a>.
+For more information about <b>FilterMediaTypes</b> INF entries for extensible switch extensions, see <a href="/windows-hardware/drivers/network/inf-requirements-for-hyper-v-extensions">INF Requirements for Hyper-V Extensible Switch Extensions</a>.
 
 ## -see-also
 
@@ -89,9 +89,8 @@ For more information about <b>FilterMediaTypes</b> INF entries for extensible sw
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_optional_handlers">NDIS_SWITCH_OPTIONAL_HANDLERS</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_switch_optional_handlers">NDIS_SWITCH_OPTIONAL_HANDLERS</a>

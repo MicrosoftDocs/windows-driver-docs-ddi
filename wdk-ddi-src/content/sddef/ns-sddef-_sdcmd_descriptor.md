@@ -69,22 +69,22 @@ Contains a value of type SD_COMMAND_CODE that specifies the SD command.
 
 ### -field CmdClass
 
-Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_command_class">SD_COMMAND_CLASS</a>
+Contains an enumeration value of type <a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_command_class">SD_COMMAND_CLASS</a>
 
 
 that specifies the class of the SD command.
 
 ### -field TransferDirection
 
-Contains an enumeration value of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538037(v=vs.85)">SD_TRANSFER_DIRECTION</a> that indicates the direction of the data transfer.
+Contains an enumeration value of type <a href="/previous-versions/windows/hardware/drivers/ff538037(v=vs.85)">SD_TRANSFER_DIRECTION</a> that indicates the direction of the data transfer.
 
 ### -field TransferType
 
-Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_transfer_type">SD_TRANSFER_TYPE</a> that indicates the type of the data transfer.
+Contains an enumeration value of type <a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_transfer_type">SD_TRANSFER_TYPE</a> that indicates the type of the data transfer.
 
 ### -field ResponseType
 
-Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_response_type">SD_RESPONSE_TYPE</a> that indicates the type of response that the card sends in response to the command indicated in the <b>Cmd</b> member.
+Contains an enumeration value of type <a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_response_type">SD_RESPONSE_TYPE</a> that indicates the type of response that the card sends in response to the command indicated in the <b>Cmd</b> member.
 
 ## -remarks
 
@@ -92,7 +92,7 @@ To send a command to an SD device, a device driver must complete the following s
 
 <ol>
 <li>
-Set the <b>RequestFunction</b> member of SDBUS_REQUEST_PACKET to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a> enumeration value of SDRF_DEVICE_COMMAND.
+Set the <b>RequestFunction</b> member of SDBUS_REQUEST_PACKET to an <a href="/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a> enumeration value of SDRF_DEVICE_COMMAND.
 
 </li>
 <li>
@@ -100,7 +100,7 @@ Initialize the <b>CmdDesc</b> member of SDBUS_REQUEST_PACKET to define the comma
 
 </li>
 <li>
-Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACKET structure to either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>.
+Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACKET structure to either <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a> or <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>.
 
 </li>
 </ol>
@@ -108,7 +108,7 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_command_class">SD_COMMAND_CLASS</a>
+<a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_command_class">SD_COMMAND_CLASS</a>
 
 
 
@@ -116,25 +116,24 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a>
+<a href="/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_response_type">SD_RESPONSE_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_response_type">SD_RESPONSE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538037(v=vs.85)">SD_TRANSFER_DIRECTION</a>
+<a href="/previous-versions/windows/hardware/drivers/ff538037(v=vs.85)">SD_TRANSFER_DIRECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_transfer_type">SD_TRANSFER_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/sddef/ne-sddef-sd_transfer_type">SD_TRANSFER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a>
+<a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>

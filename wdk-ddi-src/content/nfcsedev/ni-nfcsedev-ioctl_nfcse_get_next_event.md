@@ -61,7 +61,7 @@ None
 
 ### -output-buffer
 
-                A <b>DWORD</b> indicating the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_event_info">SECURE_ELEMENT_EVENT_INFO</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_EVENT_INFO</b> structure itself.
+                A <b>DWORD</b> indicating the size of the <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_event_info">SECURE_ELEMENT_EVENT_INFO</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_EVENT_INFO</b> structure itself.
 
 ### -output-buffer-length
 
@@ -126,4 +126,3 @@ If a received secure element event info is too large to be copied into this IOCT
 
 </li>
 </ul>
-

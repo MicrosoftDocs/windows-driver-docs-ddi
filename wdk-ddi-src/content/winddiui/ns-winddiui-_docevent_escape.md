@@ -70,15 +70,14 @@ Specifies the value of the <b>ExtEscape</b> function's <i>lpszInData</i> paramet
 
 The DOCEVENT_ESCAPE structure is defined for Windows XP and later.
 
-This structure is used in conjunction with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui2-documentevent">IPrintOemUI2::DocumentEvent</a>, in which the <i>iEsc</i> parameter is set to DOCUMENTEVENT_ESCAPE. Before calling either of these functions, the caller must fill in the members of this structure.
+This structure is used in conjunction with a call to <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> or <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui2-documentevent">IPrintOemUI2::DocumentEvent</a>, in which the <i>iEsc</i> parameter is set to DOCUMENTEVENT_ESCAPE. Before calling either of these functions, the caller must fill in the members of this structure.
 
 Refer to the Microsoft Windows SDK documentation for a description of the <b>ExtEscape</b> function and the three parameters that correspond to the members of this structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a>
+<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui2-documentevent">IPrintOemUI2::DocumentEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui2-documentevent">IPrintOemUI2::DocumentEvent</a>

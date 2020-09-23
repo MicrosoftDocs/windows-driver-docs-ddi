@@ -77,13 +77,12 @@ A formatted [**WWAN_SET_LTE_ATTACH**](../wwan/ns-wwan-_wwan_set_lte_attach.md) s
 
 ## -remarks
 
-This structure is used in an [OID_WWAN_LTE_ATTACH_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-lte-attach-config) Set request.
+This structure is used in an [OID_WWAN_LTE_ATTACH_CONFIG](/windows-hardware/drivers/network/oid-wwan-lte-attach-config) Set request.
 
 ## -see-also
 
-[MB LTE Attach Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-lte-attach-operations)
+[MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)
 
-[OID_WWAN_LTE_ATTACH_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-lte-attach-config)
+[OID_WWAN_LTE_ATTACH_CONFIG](/windows-hardware/drivers/network/oid-wwan-lte-attach-config)
 
 [**WWAN_SET_LTE_ATTACH**](../wwan/ns-wwan-_wwan_set_lte_attach.md)
-

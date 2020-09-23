@@ -54,7 +54,7 @@ The <b>NtQueryDirectoryFile</b> routine returns various kinds of information abo
 ### -param FileHandle 
 
 [in]
-A handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a> for the file object that represents the directory for which information is being requested. The file object must have been opened for asynchronous I/O if the caller specifies a non-<b>NULL</b> value for <i>Event</i> or <i>ApcRoutine</i>.
+A handle returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a> for the file object that represents the directory for which information is being requested. The file object must have been opened for asynchronous I/O if the caller specifies a non-<b>NULL</b> value for <i>Event</i> or <i>ApcRoutine</i>.
 
 ### -param Event 
 
@@ -76,7 +76,7 @@ This parameter is optional and can be <b>NULL</b>. It must be <b>NULL</b> if <i>
 ### -param IoStatusBlock 
 
 [out]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. For successful calls that return data, the number of bytes written to the <i>FileInformation</i> buffer is returned in the structure's <b>Information</b> member.
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. For successful calls that return data, the number of bytes written to the <i>FileInformation</i> buffer is returned in the structure's <b>Information</b> member.
 
 ### -param FileInformation 
 
@@ -104,7 +104,7 @@ The type of information to be returned about files in the directory. One of the 
 
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information">FILE_BOTH_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information">FILE_BOTH_DIR_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information">FILE_DIRECTORY_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information">FILE_DIRECTORY_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information">FILE_FULL_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information">FILE_FULL_DIR_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information">FILE_ID_BOTH_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information">FILE_ID_BOTH_DIR_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information">FILE_ID_FULL_DIR_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information">FILE_ID_FULL_DIR_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information">FILE_NAMES_INFORMATION</a> structure for each file.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information">FILE_NAMES_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 
 </td>
 <td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information">FILE_OBJECTID_INFORMATION</a> structure for each file. This information class is valid only for NTFS volumes on Windows 2000 and later versions of Windows.
+Return a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information">FILE_OBJECTID_INFORMATION</a> structure for each file. This information class is valid only for NTFS volumes on Windows 2000 and later versions of Windows.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/
 
 </td>
 <td>
-Return a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information">FILE_REPARSE_POINT_INFORMATION</a> structure for the directory.
+Return a single <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information">FILE_REPARSE_POINT_INFORMATION</a> structure for the directory.
 
 </td>
 </tr>
@@ -245,59 +245,58 @@ If <b>NtQueryDirectoryFile</b> is called multiple times on the same directory an
 
 <b>NtQueryDirectoryFile</b>returns zero in any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by the file system.
 
-Callers of <b>NtQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
+Callers of <b>NtQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
 
-For information about other file information query routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">File Objects</a>.
+For information about other file information query routines, see <a href="/windows-hardware/drivers/ddi/index">File Objects</a>.
 
 <div class="alert"><b>Note</b>  If the call to the <b>NtQueryDirectoryFile</b> function occurs in user mode, you should use the name "<b>NtQueryDirectoryFile</b>" instead of "<b>ZwQueryDirectoryFile</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information">FILE_BOTH_DIR_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information">FILE_BOTH_DIR_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information">FILE_DIRECTORY_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information">FILE_DIRECTORY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information">FILE_FULL_DIR_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information">FILE_FULL_DIR_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information">FILE_ID_BOTH_DIR_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information">FILE_ID_BOTH_DIR_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information">FILE_ID_FULL_DIR_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information">FILE_ID_FULL_DIR_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information">FILE_NAMES_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information">FILE_NAMES_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information">FILE_OBJECTID_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information">FILE_OBJECTID_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information">FILE_REPARSE_POINT_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information">FILE_REPARSE_POINT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a>

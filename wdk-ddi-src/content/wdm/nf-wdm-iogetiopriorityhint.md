@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IoGetIoPriorityHint</b> routine gets the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-irp-priority-hints">priority hint value</a> from an IRP.
+The <b>IoGetIoPriorityHint</b> routine gets the <a href="/windows-hardware/drivers/kernel/using-irp-priority-hints">priority hint value</a> from an IRP.
 
 ## -parameters
 
@@ -57,17 +57,16 @@ Specifies the IRP to obtain the priority hint from.
 
 ## -returns
 
-<b>IoGetIoPriorityHint</b> returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a> value that indicates the current priority hint.
+<b>IoGetIoPriorityHint</b> returns the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a> value that indicates the current priority hint.
 
 ## -remarks
 
-For more information about priority hints, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-irp-priority-hints">Using IRP Priority Hints</a>.
+For more information about priority hints, see <a href="/windows-hardware/drivers/kernel/using-irp-priority-hints">Using IRP Priority Hints</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetiopriorityhint">IoSetIoPriorityHint</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetiopriorityhint">IoSetIoPriorityHint</a>

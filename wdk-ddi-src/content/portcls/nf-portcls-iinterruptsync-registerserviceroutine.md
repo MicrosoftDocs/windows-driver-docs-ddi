@@ -53,7 +53,7 @@ The <code>RegisterServiceRoutine</code> method registers an interrupt service ro
 ### -param Routine 
 
 [in]
-Pointer to the routine that is to be called. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>).
+Pointer to the routine that is to be called. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>).
 
 ### -param DynamicContext 
 
@@ -72,4 +72,3 @@ Specifies whether the routine is added at the head or tail of the list of ISRs. 
 ## -remarks
 
 This method adds the specified routine to the synchronization object's list of ISRs. When an interrupt occurs, the routine at the head of the list is called first, and the routine at the tail is called last.
-

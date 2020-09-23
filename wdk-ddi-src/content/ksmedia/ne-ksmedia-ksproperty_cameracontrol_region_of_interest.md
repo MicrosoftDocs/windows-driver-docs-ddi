@@ -52,9 +52,8 @@ Used to specify a camera region of interest.
 
 ### -field KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-region-of-interest-property">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY</a> property is used to specify a region of interest.
+The <a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-region-of-interest-property">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY</a> property is used to specify a region of interest.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-region-of-interest-property">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-region-of-interest-property">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY</a>

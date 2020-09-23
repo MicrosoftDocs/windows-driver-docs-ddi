@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The INVOC structure is used for describing printer command strings in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files) and <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">glyph translation table files</a> (.gtt files).
+The INVOC structure is used for describing printer command strings in <a href="/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files) and <a href="/windows-hardware/drivers/print/customized-font-management">glyph translation table files</a> (.gtt files).
 
 ## -struct-fields
 
@@ -68,19 +68,18 @@ Indicates one of the following:
 
 ##### ufm files:
 
-Specifies the byte offset from the beginning of the .ufm file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a> structure to beginning of the command string.
+Specifies the byte offset from the beginning of the .ufm file's <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a> structure to beginning of the command string.
 
 
 
 ##### gtt files:
 
-Specifies the byte offset from the beginning of the .gtt file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a> structure to beginning of the command string.
+Specifies the byte offset from the beginning of the .gtt file's <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a> structure to beginning of the command string.
 
 ## -remarks
 
-INVOC structures are used within <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a> structures.
+INVOC structures are used within <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a>
-
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a>

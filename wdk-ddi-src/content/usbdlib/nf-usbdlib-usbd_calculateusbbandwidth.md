@@ -59,7 +59,7 @@ Specifies the maximum packet size.
 ### -param EndpointType 
 
 [in]
-Contains a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a> that specifies the pipe type.
+Contains a value of type <a href="/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a> that specifies the pipe type.
 
 ### -param LowSpeed 
 
@@ -76,9 +76,8 @@ The <b>USBD_CalculateUsbBandwidth</b> routine approximates the bandwidth using t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
+<a href="/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a>

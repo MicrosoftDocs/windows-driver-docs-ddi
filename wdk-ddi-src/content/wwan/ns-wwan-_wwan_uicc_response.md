@@ -74,11 +74,10 @@ This structure is used in the [**NDIS_WWAN_UICC_RESPONSE**](../ndiswwan/ns-ndisw
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_UICC_ACCESS_BINARY](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-binary)
+[OID_WWAN_UICC_ACCESS_BINARY](/windows-hardware/drivers/network/oid-wwan-uicc-access-binary)
 
-[OID_WWAN_UICC_ACCESS_RECORD](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-record)
+[OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record)
 
 [**NDIS_WWAN_UICC_RESPONSE**](../ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_response.md)
-

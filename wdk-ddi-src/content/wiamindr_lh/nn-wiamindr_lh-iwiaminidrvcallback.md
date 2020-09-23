@@ -46,9 +46,8 @@ api_name:
 
 ## -description
 
-The **IWiaMiniDrvCallBack** interface provides the [MiniDrvCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback) method, which enables minidrivers to transfer image header data and image data from the imaging device to the WIA service.
+The **IWiaMiniDrvCallBack** interface provides the [MiniDrvCallback](./nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback.md) method, which enables minidrivers to transfer image header data and image data from the imaging device to the WIA service.
 
 This method can also convey status information, such as the percentage of data transferred.
 
 ## -inheritance
-

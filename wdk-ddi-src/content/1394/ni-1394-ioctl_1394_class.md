@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-An IEEE 1394 driver uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a> IRP, with IoControlCode <b>IOCTL_1394_CLASS</b>, to communicate with the bus driver. The driver has access to all operations provided by the IEEE 1394 bus and its host controller through this request.
+An IEEE 1394 driver uses the <a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a> IRP, with IoControlCode <b>IOCTL_1394_CLASS</b>, to communicate with the bus driver. The driver has access to all operations provided by the IEEE 1394 bus and its host controller through this request.
 
 ## -ioctlparameters
 
@@ -202,4 +202,3 @@ The information the bus driver returns in the I/O Status Block is documented bel
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537241">IOCTL_IEEE1394_API_REQUEST</a>
-

@@ -54,7 +54,7 @@ If a class driver for the target type of device exists, the application must sen
 
 </li>
 <li>
-The application <i>must</i> use this request rather than <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through">IOCTL_ATA_PASS_THROUGH</a> if the embedded ATA command might require the underlying miniport driver to access memory directly. 
+The application <i>must</i> use this request rather than <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through">IOCTL_ATA_PASS_THROUGH</a> if the embedded ATA command might require the underlying miniport driver to access memory directly. 
 
 </li>
 </ul>
@@ -67,7 +67,7 @@ If the ATA command requests a data transfer operation, the caller must set up a 
 <b>
        Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The value of <b>InputBufferLength</b> is fixed and does not depend on the amount of data transferred. It is equal to <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT). If the size of the buffer is less than <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT), the port driver fails the I/O request and returns an error. 
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> structure that includes a set of task file input registers that indicate the sort of command to be performed. The caller must initialize all the members of this structure except for <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b>, which the port driver fills in. For a data-out command, the <b>DataBuffer</b> member of <b>ATA_PASS_THROUGH_DIRECT</b> must point to a cache-aligned buffer containing the data to be written.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> structure that includes a set of task file input registers that indicate the sort of command to be performed. The caller must initialize all the members of this structure except for <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b>, which the port driver fills in. For a data-out command, the <b>DataBuffer</b> member of <b>ATA_PASS_THROUGH_DIRECT</b> must point to a cache-aligned buffer containing the data to be written.
 
 ### -input-buffer-length
 
@@ -76,15 +76,15 @@ The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <a href="https:
 
 ### -output-buffer
 
-The port driver formats the return data using an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> structure that it stores in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+The port driver formats the return data using an <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> structure that it stores in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
-The port driver stores the transferred data in the cache-aligned buffer pointed to by the <b>DataBuffer</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a>.
+The port driver stores the transferred data in the cache-aligned buffer pointed to by the <b>DataBuffer</b> member of <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a>.
 
-The port driver fills the <b>CurrentTaskFile</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> with the values present in the device's output registers at the completion of the ATA command. The application is responsible for interpreting the contents of the output registers to determine what errors, if any, were returned by the device.
+The port driver fills the <b>CurrentTaskFile</b> member of <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> with the values present in the device's output registers at the completion of the ATA command. The application is responsible for interpreting the contents of the output registers to determine what errors, if any, were returned by the device.
 
 ### -output-buffer-length
 
-The port driver updates the <b>DataTransferLength</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> structure to indicate the amount of data that was transferred from the device.
+The port driver updates the <b>DataTransferLength</b> member of the <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> structure to indicate the amount of data that was transferred from the device.
 
 ### -in-out-buffer
 
@@ -92,13 +92,12 @@ The port driver updates the <b>DataTransferLength</b> member of the <a href="htt
 
 ### -status-block
 
-The <b>Information</b> member is set to the number of bytes returned in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>Status</b> member is set to STATUS_SUCCESS or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> is improperly set.
+The <b>Information</b> member is set to the number of bytes returned in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>Status</b> member is set to STATUS_SUCCESS or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a> is improperly set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a>
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through">IOCTL_ATA_PASS_THROUGH</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through">IOCTL_ATA_PASS_THROUGH</a>

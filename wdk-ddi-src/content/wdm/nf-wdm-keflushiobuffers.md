@@ -79,10 +79,9 @@ As a general rule, drivers should call <b>KeFlushIoBuffers</b> just before begin
 
 For more information, see the following topics:
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations">Flushing Cached Data during DMA Operations</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/flushing-cached-data-during-pio-operations">Flushing Cached Data during PIO Operations</a>
+<a href="/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations">Flushing Cached Data during DMA Operations</a>
+<a href="/windows-hardware/drivers/kernel/flushing-cached-data-during-pio-operations">Flushing Cached Data during PIO Operations</a>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pflush_adapter_buffers">FlushAdapterBuffers</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pflush_adapter_buffers">FlushAdapterBuffers</a>

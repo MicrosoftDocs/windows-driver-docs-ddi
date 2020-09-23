@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11EXT_IHV_UI_REQUEST structure specifies a request made by the IHV Extensions DLL to the IHV
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11EXT_IHV_UI_REQUEST structure specifies a request made by the IHV Extensions DLL to the IHV
   UI extensions DLL.
 
 ## -struct-fields
@@ -70,7 +70,7 @@ The
      <b>IWizardExtension</b> COM class ID (CLSID) of the target UI page that will handle this request. For
      more information about the
      <b>IWizardExtension</b> COM interface, see
-     <a href="https://go.microsoft.com/fwlink/p/?linkid=56607">IWizardExtension COM Interface</a>.
+     <a href="/windows/win32/api/shobjidl/nn-shobjidl-iwizardextension">IWizardExtension COM Interface</a>.
 
 ### -field dwByteCount
 
@@ -119,4 +119,3 @@ For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to 
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
-

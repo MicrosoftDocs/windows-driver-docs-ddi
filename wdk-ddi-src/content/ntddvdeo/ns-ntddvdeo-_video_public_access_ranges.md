@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The VIDEO_PUBLIC_ACCESS_RANGES structure contains information about video resources other than <a href="https://docs.microsoft.com/windows-hardware/drivers/">frame buffers</a> and video RAM, such as memory-mapped I/O registers or ports.
+The VIDEO_PUBLIC_ACCESS_RANGES structure contains information about video resources other than <a href="/windows-hardware/drivers/">frame buffers</a> and video RAM, such as memory-mapped I/O registers or ports.
 
 ## -struct-fields
 
@@ -76,15 +76,14 @@ Pointer to the location of the registers or I/O ports as mapped under the curren
 
 ## -remarks
 
-VIDEO_PUBLIC_ACCESS_RANGES is similar to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a> in that both are used by miniport drivers to obtain information about display resources. The principal difference is that VIDEO_PUBLIC_ACCESS_RANGES contains information about control and accelerator registers for an adapter, while VIDEO_ACCESS_RANGE is used to hold frame buffer and video RAM addresses.
+VIDEO_PUBLIC_ACCESS_RANGES is similar to <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a> in that both are used by miniport drivers to obtain information about display resources. The principal difference is that VIDEO_PUBLIC_ACCESS_RANGES contains information about control and accelerator registers for an adapter, while VIDEO_ACCESS_RANGE is used to hold frame buffer and video RAM addresses.
 
-VIDEO_PUBLIC_ACCESS_RANGES is used as an input buffer with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_query_public_access_ranges">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a> request.
+VIDEO_PUBLIC_ACCESS_RANGES is used as an input buffer with the <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_query_public_access_ranges">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_query_public_access_ranges">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_query_public_access_ranges">IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a>
-
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a>

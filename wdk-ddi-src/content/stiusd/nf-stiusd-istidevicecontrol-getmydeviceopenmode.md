@@ -52,7 +52,7 @@ The <b>IStiDeviceControl::GetMyDeviceOpenMode</b> method allows a still image mi
 
 ### -param pdwOpenMode
 
-Receives the mode flag that an application previously specified as the <i>dwMode</i> argument to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a>.
+Receives the mode flag that an application previously specified as the <i>dwMode</i> argument to <a href="/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a>.
 
 ## -returns
 
@@ -60,5 +60,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -remarks
 
-A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as an input argument to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
-
+A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as an input argument to its <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.

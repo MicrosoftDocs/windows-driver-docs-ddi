@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Contains a range of a file to set to zeros. This structure is used by the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-zero-data">FSCTL_SET_ZERO_DATA</a> control code. It's similar to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>, but contains an additional <b>Flags</b> member.
+<a href="/windows-hardware/drivers/ifs/fsctl-set-zero-data">FSCTL_SET_ZERO_DATA</a> control code. It's similar to <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>, but contains an additional <b>Flags</b> member.
 
 ## -struct-fields
 
@@ -80,13 +80,12 @@ The following flags are supported:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-zero-data">FSCTL_SET_ZERO_DATA</a>
+<a href="/windows-hardware/drivers/ifs/fsctl-set-zero-data">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>

@@ -64,7 +64,7 @@ Specifies how many milliseconds to wait before this method will return.  If <i>T
 
 ## -returns
 
-This method may return other error values and the above error values may have additional meanings.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may return other error values and the above error values may have additional meanings.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -132,7 +132,7 @@ The engine is already waiting for an event.
 
 The method can be called only from the thread that started the debugger session.
 
-When an event occurs, the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> will process the event and call the event callbacks. If one of these callbacks indicates that the event should break into the debugger engine application (by returning DEBUG_STATUS_BREAK), this method will return; otherwise, it will continue waiting for an event.  The event filters can also specify that an event should break into the debugger engine application.  For more information about event filters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-exceptions-and-events">Controlling Exceptions and Events</a>.
+When an event occurs, the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> will process the event and call the event callbacks. If one of these callbacks indicates that the event should break into the debugger engine application (by returning DEBUG_STATUS_BREAK), this method will return; otherwise, it will continue waiting for an event.  The event filters can also specify that an event should break into the debugger engine application.  For more information about event filters, see <a href="/windows-hardware/drivers/debugger/controlling-exceptions-and-events">Controlling Exceptions and Events</a>.
 
 This method is not re-entrant.  Once it has been called, it cannot be called again on any client until it has returned.  In particular, it cannot be called from the event callbacks, including extensions and commands executed by the callbacks.
 
@@ -140,17 +140,16 @@ If none of the targets are capable of generating events -- for example, all the 
 
 The constant INFINITE is defined in Winbase.h.
 
-For more information about using <b>WaitForEvent</b> to control the execution flow of the debugger application and targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>. For details on the event callbacks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
+For more information about using <b>WaitForEvent</b> to control the execution flow of the debugger application and targets, see <a href="/windows-hardware/drivers/debugger/debugging-session-and-execution-model">Debugging Session and Execution Model</a>. For details on the event callbacks, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>

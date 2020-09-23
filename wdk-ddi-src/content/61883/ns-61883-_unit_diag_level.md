@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The UNIT_DDI_VERSION structure is used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a> request to retrieve the current diag level
+The UNIT_DDI_VERSION structure is used in conjunction with the <a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a> request to retrieve the current diag level
 
 ## -struct-fields
 
@@ -92,5 +92,4 @@ Do not free isochronous resources when disconnecting from the device iPCR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
-
+<a href="/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>

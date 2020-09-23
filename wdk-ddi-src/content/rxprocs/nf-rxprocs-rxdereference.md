@@ -102,25 +102,24 @@ If the <b>NodeReferenceCount</b> member decrements to 1 and the <i>LockHoldingSt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxreference">RxReference</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxreference">RxReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
+<a href="/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-net-root-structure">The NET_ROOT Structure</a>
+<a href="/windows-hardware/drivers/ifs/the-net-root-structure">The NET_ROOT Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-srv-call-structure">The SRV_CALL Structure</a>
+<a href="/windows-hardware/drivers/ifs/the-srv-call-structure">The SRV_CALL Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>
+<a href="/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-v-net-root-structure">The V_NET_ROOT Structure</a>
-
+<a href="/windows-hardware/drivers/ifs/the-v-net-root-structure">The V_NET_ROOT Structure</a>

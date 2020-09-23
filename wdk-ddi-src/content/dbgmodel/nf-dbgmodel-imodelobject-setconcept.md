@@ -46,7 +46,7 @@ api_name:
 
 The SetConcept method will place a specified concept on the object instance specified by the this pointer. If a parent model attached to the object instance specified by this also supports the concept, the implementation in the instance will override that in the parent model.
 
-For the set of concepts (interfaces) that are supported by the data model, see [Debugger Data Model C++ Concepts](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-concepts).
+For the set of concepts (interfaces) that are supported by the data model, see [Debugger Data Model C++ Concepts](/windows-hardware/drivers/debugger/data-model-cpp-concepts).
 
 For information on the [IKeyStore](nn-dbgmodel-ikeystore.md) interface, see [IKeyStore interface](nn-dbgmodel-ikeystore.md).
 
@@ -108,9 +108,8 @@ if (spStringConverter != nullptr)
 
 ## -see-also
 
-[Debugger Data Model C++ Concepts](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-concepts)
+[Debugger Data Model C++ Concepts](/windows-hardware/drivers/debugger/data-model-cpp-concepts)
 
 [IKeyStore interface](nn-dbgmodel-ikeystore.md)
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
-

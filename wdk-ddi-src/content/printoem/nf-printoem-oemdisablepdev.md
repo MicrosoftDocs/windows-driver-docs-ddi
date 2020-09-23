@@ -48,11 +48,10 @@ api_name:
 
 This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins.
 
-Use [IPrintOemPS::DisablePDEV (Pscript)](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disablepdev) or [IPrintOemUni::DisablePDEV (Unidrv)](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disablepdev) instead.
+Use [IPrintOemPS::DisablePDEV (Pscript)](../prcomoem/nf-prcomoem-iprintoemps-disablepdev.md) or [IPrintOemUni::DisablePDEV (Unidrv)](../prcomoem/nf-prcomoem-iprintoemuni-disablepdev.md) instead.
 
 ## -parameters
 
 ### -param pdevobj
 
 Pointer to the device object.
-

@@ -149,7 +149,7 @@ If the function encounters errors, the function should return <b>FALSE</b>. Othe
 
 ## -remarks
 
-All <a href="https://docs.microsoft.com/windows-hardware/drivers/print/point-and-print-dlls">Point and Print DLLs</a> must export a <code>SpoolerCopyFileEvent</code> function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to be notified of events related to the downloading of print queue-associated files, from a print server to a client system, when an application on the client connects to the server. For a complete description of the steps involved in creating a Point and Print connection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-point-and-print">Supporting Point and Print</a>.
+All <a href="/windows-hardware/drivers/print/point-and-print-dlls">Point and Print DLLs</a> must export a <code>SpoolerCopyFileEvent</code> function, which is called by the print spooler. Its purpose is to allow a Point and Print DLL to be notified of events related to the downloading of print queue-associated files, from a print server to a client system, when an application on the client connects to the server. For a complete description of the steps involved in creating a Point and Print connection, see <a href="/windows-hardware/drivers/print/supporting-point-and-print">Supporting Point and Print</a>.
 
 A Point and Print DLL executes on both the server and the client. The <code>SpoolerCopyFileEvent</code> function can determine where it is executing by reading the contents of <i>dwCopyFileEvent</i>, which supplies a flag indicating the event. The function should process the event and return. If no processing is necessary, the function should just return <b>TRUE</b>.
 
@@ -157,5 +157,4 @@ If <i>dwCopyFileEvent</i> is COPYFILE_EVENT_ADD_PRINTER_CONNECTION or COPYFILE_E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a>

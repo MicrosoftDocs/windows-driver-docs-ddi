@@ -60,5 +60,4 @@ In user-mode debugging, the TEB for the current thread is returned.  In kernel-m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getpebaddress">GetPebAddress</a>
-
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getpebaddress">GetPebAddress</a>

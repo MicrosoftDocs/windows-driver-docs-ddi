@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>GetInitiatorProcessId</b> method retrieves the initiator process ID associated with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface.
+The <b>GetInitiatorProcessId</b> method retrieves the initiator process ID associated with an <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Starting in Windows 8, a system component may issue a create on behalf of an ap
 
 <b>GetInitiatorProcessId</b> returns zero if no initiator process is associated with the create operation.
 
-For more information about framework file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/driver-created-versus-application-created-file-objects">Driver-Created Versus Application-Created File Objects</a>.
+For more information about framework file objects, see <a href="/windows-hardware/drivers/wdf/driver-created-versus-application-created-file-objects">Driver-Created Versus Application-Created File Objects</a>.
 
 
 #### Examples
@@ -99,5 +99,4 @@ CMyQueue::OnCreateFile(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile3">IWDFFile3</a>
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile3">IWDFFile3</a>

@@ -24,5 +24,4 @@ To develop Battery, you need these headers:
  * [hpmi.h](../hpmi/index.md)
  * [upssvc.h](../upssvc/index.md)
 
-For the programming guide, see [Battery Devices Design Guide](https://docs.microsoft.com/windows-hardware/drivers/battery).
-
+For the programming guide, see [Battery Devices Design Guide](/windows-hardware/drivers/battery).

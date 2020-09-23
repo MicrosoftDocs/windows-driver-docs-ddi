@@ -94,7 +94,7 @@ Pointer to the <a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WR
 
 ### -field ParclassContext
 
-Pointer to the device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
+Pointer to the device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
 ### -field HardwareCapabilities
 
@@ -170,7 +170,7 @@ A kernel-mode driver can obtain this information from the system-supplied bus dr
 
 A client uses this information to operate a parallel port and to read and write a parallel device. The callback routines can only be used by a driver that holds a lock on the parent parallel port. A driver obtains a lock by using an <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a> request.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff543942(v=vs.85)">Connecting to a Parallel Device</a>.
+For more information, see <a href="/previous-versions/ff543942(v=vs.85)">Connecting to a Parallel Device</a>.
 
 ## -see-also
 
@@ -207,4 +207,3 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-

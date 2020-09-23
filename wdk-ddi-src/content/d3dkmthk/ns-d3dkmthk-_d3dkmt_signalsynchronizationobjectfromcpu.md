@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu">D3DKMTSignalSynchronizationObjectFromCpu</a> to enable a driver to signal a monitored fence.
+<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu">D3DKMTSignalSynchronizationObjectFromCpu</a> to enable a driver to signal a monitored fence.
 
 ## -struct-fields
 
@@ -76,5 +76,4 @@ Flag options.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu">D3DKMTSignalSynchronizationObjectFromCpu</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu">D3DKMTSignalSynchronizationObjectFromCpu</a>

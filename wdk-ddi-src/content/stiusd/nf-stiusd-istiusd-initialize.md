@@ -62,7 +62,7 @@ Caller-supplied handle to the registry key under which device-specific informati
 
 #### - pDcb
 
-Caller-supplied pointer to the [IStiDeviceControl COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istidevicecontrol-com-interface).
+Caller-supplied pointer to the [IStiDeviceControl COM Interface](/windows-hardware/drivers/image/istidevicecontrol-com-interface).
 
 ## -returns
 
@@ -72,17 +72,17 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 The **IStiUSD::Initialize** method, which is exported by still image minidrivers, is the first **IStiUSD** method called after a minidriver has been loaded. The method must initialize the driver and device.
 
-The method should store the received [IStiDeviceControl COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istidevicecontrol-com-interface) pointer, and it should call that interface's [IStiDeviceControl::AddRef](https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istidevicecontrol-addref) method.
+The method should store the received [IStiDeviceControl COM Interface](/windows-hardware/drivers/image/istidevicecontrol-com-interface) pointer, and it should call that interface's [IStiDeviceControl::AddRef](./nf-stiusd-istidevicecontrol-addref.md) method.
 
-For devices connected to dedicated ports (such as SCSI devices), the method typically creates a read/write path to the device by calling [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) (described in the Microsoft Windows SDK documentation), using a device port name obtained by calling [IStiDeviceControl::GetMyDevicePortName](https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istidevicecontrol-getmydeviceportname).
+For devices connected to dedicated ports (such as SCSI devices), the method typically creates a read/write path to the device by calling [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) (described in the Microsoft Windows SDK documentation), using a device port name obtained by calling [IStiDeviceControl::GetMyDevicePortName](./nf-stiusd-istidevicecontrol-getmydeviceportname.md).
 
-For devices on shared ports (such as serial port devices), opening the port in the **IStiUSD::Initialize** method is not recommended, because access to other devices on the port will be locked out. For such devices, it is better to call [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) from within the [IStiUSD::LockDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice) method.
+For devices on shared ports (such as serial port devices), opening the port in the **IStiUSD::Initialize** method is not recommended, because access to other devices on the port will be locked out. For such devices, it is better to call [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) from within the [IStiUSD::LockDevice](./nf-stiusd-istiusd-lockdevice.md) method.
 
- If the device being opened is one for which multiple calls to [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) are not allowed (such as devices connected to a serial port), the driver typically does not call **CreateFile** unless the caller has opened the device for data transfers, as illustrated in the following **CodeExample**.
+ If the device being opened is one for which multiple calls to [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) are not allowed (such as devices connected to a serial port), the driver typically does not call **CreateFile** unless the caller has opened the device for data transfers, as illustrated in the following **CodeExample**.
 
 The **IStiUSD::Initialize** method should validate the received STI version number and return an error if the received version does not match the driver's version.
 
-The following example opens a device port only if a call to [IStiDeviceControl::GetMyDeviceOpenMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istidevicecontrol-getmydeviceopenmode) indicates an application has opened the device for data transfers. Such code might be used for a device that cannot support multiple [CreateFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-createfilea) calls, such as a serial port device.
+The following example opens a device port only if a call to [IStiDeviceControl::GetMyDeviceOpenMode](./nf-stiusd-istidevicecontrol-getmydeviceopenmode.md) indicates an application has opened the device for data transfers. Such code might be used for a device that cannot support multiple [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) calls, such as a serial port device.
 
 ### Examples
 
@@ -112,4 +112,3 @@ STDMETHODIMP MyUSDDevice::Initialize(
     return hres;
 }
 ```
-

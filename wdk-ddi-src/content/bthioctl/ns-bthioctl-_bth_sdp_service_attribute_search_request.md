@@ -52,7 +52,7 @@ api_name:
 
 The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to a combined
   SDP service and attribute search. This structure is passed as the input buffer to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
+  <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTL.
 
 ## -struct-fields
@@ -72,14 +72,14 @@ An array of UUIDs that represent the services for which to query. Each entry can
 ### -field range
 
 A variable-length array of 
-     <a href="https://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a> structures that
+     <a href="/windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange">SdpAttributeRange</a> structures that
      contains the range of SDP attributes for which to search.
 
 
 #### - hConnection
 
 A handle to the remote SDP server that is returned by the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
+     <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
 
 ## -remarks
 
@@ -91,14 +91,13 @@ The Bluetooth driver stack determines the number of array items in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
-
+<a href="/windows/win32/api/bthsdpdef/ns-bthsdpdef-sdpattributerange">SdpAttributeRange</a>

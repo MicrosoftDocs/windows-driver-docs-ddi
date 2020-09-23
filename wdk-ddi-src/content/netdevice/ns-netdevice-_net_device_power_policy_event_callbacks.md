@@ -71,11 +71,10 @@ Call [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT**](../netdevice/nf-netdevic
 
 ## -see-also
 
-[Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring Power Management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [*EvtNetDevicePreviewWakeSource*](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)
 
 [*EvtNetDevicePreviewPowerOffload*](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)
 
 [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT**](../netdevice/nf-netdevice-net_device_power_policy_event_callbacks_init.md)
-

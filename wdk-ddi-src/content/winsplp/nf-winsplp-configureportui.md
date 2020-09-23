@@ -84,7 +84,7 @@ BOOL WINAPI pfnConfigurePortUI(
 
 Port monitor UI DLLs are required to define a <b>ConfigurePortUI</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a> structure.
 
-The client's spooler calls <b>ConfigurePortUI</b> from within its <a href="https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)">ConfigurePort</a> function (described in the Microsoft Windows SDK documentation). The arguments received by <b>ConfigurePortUI</b> are the arguments received by <b>ConfigurePort</b>.
+The client's spooler calls <b>ConfigurePortUI</b> from within its <a href="/previous-versions/ff546286(v=vs.85)">ConfigurePort</a> function (described in the Microsoft Windows SDK documentation). The arguments received by <b>ConfigurePortUI</b> are the arguments received by <b>ConfigurePort</b>.
 
 The function should perform the following operations:
 
@@ -107,7 +107,7 @@ Obtain port configuration parameters from the user by displaying a dialog box.
 
 </li>
 <li>
-Call <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> one or more times, specifying customized data name strings, to send each configuration parameter to the server DLL. Each <b>XcvData</b> call causes the server's <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a> function to be called.
+Call <a href="/previous-versions/ff564255(v=vs.85)">XcvData</a> one or more times, specifying customized data name strings, to send each configuration parameter to the server DLL. Each <b>XcvData</b> call causes the server's <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a> function to be called.
 
 </li>
 <li>
@@ -130,5 +130,4 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>
-
+<a href="/previous-versions/ff564255(v=vs.85)">XcvData</a>

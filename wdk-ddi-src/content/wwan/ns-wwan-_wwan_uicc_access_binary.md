@@ -90,9 +90,8 @@ This structure is used in the [**NDIS_WWAN_UICC_ACCESS_BINARY**](../ndiswwan/ns-
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_UICC_ACCESS_BINARY](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-binary)
+[OID_WWAN_UICC_ACCESS_BINARY](/windows-hardware/drivers/network/oid-wwan-uicc-access-binary)
 
 [**NDIS_WWAN_UICC_ACCESS_BINARY**](../ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_access_binary.md)
-

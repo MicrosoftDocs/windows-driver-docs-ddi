@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a> request and the structure <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_cache_information">DISK_CACHE_INFORMATION</a> to indicate which kinds data are to be held in the cache on a preferential basis.
+The DISK_CACHE_RETENTION_PRIORITY enumeration is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a> request and the structure <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_cache_information">DISK_CACHE_INFORMATION</a> to indicate which kinds data are to be held in the cache on a preferential basis.
 
 ## -enum-fields
 
@@ -64,9 +64,8 @@ Indicates that a preference is to be given to data cached from a READ operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_cache_information">DISK_CACHE_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_cache_information">DISK_CACHE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a>

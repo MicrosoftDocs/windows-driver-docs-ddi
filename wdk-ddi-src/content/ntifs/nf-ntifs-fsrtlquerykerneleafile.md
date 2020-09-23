@@ -60,7 +60,7 @@ A pointer to a <b>FileObject</b> to send the QueryEA request to.
 ### -param ReturnedEaData 
 
 [out]
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured output buffer, where the extended attribute values are to be returned.
+A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured output buffer, where the extended attribute values are to be returned.
 
 ### -param Length 
 
@@ -76,7 +76,7 @@ Specifies whether only a single entry should be returned
 ### -param EaList 
 
 [in]
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input buffer, which specifies the extended attributes to be queried. This parameter is optional and can be<b> NULL</b>.
+A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information">FILE_GET_EA_INFORMATION</a>-structured input buffer, which specifies the extended attributes to be queried. This parameter is optional and can be<b> NULL</b>.
 
 ### -param EaListLength 
 
@@ -163,13 +163,12 @@ This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are fro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD">FsRtlSetKernelEaFile</a>
+<a href="/previous-versions/mt807493(v=vs.85)">FsRtlSetKernelEaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryeafile">ZwQueryEaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwseteafile">ZwSetEaFile</a>

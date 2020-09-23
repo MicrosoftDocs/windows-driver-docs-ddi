@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The STISUBSCRIBE structure is used as a parameter for the [IStiDevice::Subscribe](https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-subscribe) method.
+The STISUBSCRIBE structure is used as a parameter for the [IStiDevice::Subscribe](./nf-sti-istidevice-subscribe.md) method.
 
 ## -struct-fields
 
@@ -89,4 +89,3 @@ Handle to a Win32 event created with **CreateEvent**, which the event monitor wi
 ### -field uiNotificationMessage
 
 Window message that should be passed to the **dwWndNotify** window when an event occurs.
-

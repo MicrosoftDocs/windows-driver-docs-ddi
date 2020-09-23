@@ -62,7 +62,7 @@ Write data to a stream.
 
 ### -field AVCSTRM_ABORT_STREAMING
 
-Abort streaming. This cancels <i>all</i> streaming IRPs. To cancel an individual IRP, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp">IoCancelIrp</a>.
+Abort streaming. This cancels <i>all</i> streaming IRPs. To cancel an individual IRP, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp">IoCancelIrp</a>.
 
 ### -field AVCSTRM_OPEN
 
@@ -90,37 +90,36 @@ Set stream property. This function is not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-abort-streaming">AVCSTRM_ABORT_STREAMING</a>
+<a href="/windows-hardware/drivers/stream/avcstrm-abort-streaming">AVCSTRM_ABORT_STREAMING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-close">AVCSTRM_CLOSE</a>
+<a href="/windows-hardware/drivers/stream/avcstrm-close">AVCSTRM_CLOSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-get-property">AVCSTRM_GET_PROPERTY</a>
+<a href="/windows-hardware/drivers/stream/avcstrm-get-property">AVCSTRM_GET_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-get-state">AVCSTRM_GET_STATE</a>
+<a href="/windows-hardware/drivers/stream/avcstrm-get-state">AVCSTRM_GET_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-open">AVCSTRM_OPEN</a>
+<a href="/windows-hardware/drivers/stream/avcstrm-open">AVCSTRM_OPEN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-read">AVCSTRM_READ</a>
+<a href="/windows-hardware/drivers/stream/avcstrm-read">AVCSTRM_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-set-property">AVCSTRM_SET_PROPERTY</a>
+<a href="/windows-hardware/drivers/stream/avcstrm-set-property">AVCSTRM_SET_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-set-state">AVCSTRM_SET_STATE</a>
+<a href="/windows-hardware/drivers/stream/avcstrm-set-state">AVCSTRM_SET_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-write">AVCSTRM_WRITE</a>
-
+<a href="/windows-hardware/drivers/stream/avcstrm-write">AVCSTRM_WRITE</a>

@@ -53,7 +53,7 @@ The <b>KeTryToAcquireGuardedMutex</b> routine acquires a guarded mutex, if avail
 ### -param Mutex 
 
 [in, out]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
+Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
 
 ## -returns
 
@@ -67,9 +67,8 @@ Use <b>KeReleaseGuardedMutex</b> to release the mutex.
 
 A thread that calls <b>KeTryToAcquireGuardedMutex</b> implicitly enters a guarded region, where all APCs are disabled. They remain disabled until the thread releases the mutex with <b>KeReleaseGuardedMutex</b>.
 
-For more information about guarded mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
+For more information about guarded mutexes, see <a href="/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleaseguardedmutex">KeReleaseGuardedMutex</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleaseguardedmutex">KeReleaseGuardedMutex</a>

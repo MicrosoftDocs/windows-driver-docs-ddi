@@ -61,7 +61,7 @@ A handle to a framework resource-requirements-list object that represents a devi
 ### -param InterfaceType 
 
 [in]
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>-typed value that identifies the type of bus that the device is connected to.
+An <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>-typed value that identifies the type of bus that the device is connected to.
 
 ## -remarks
 
@@ -72,12 +72,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 Your driver must provide a bus type if your device does not support Plug and Play (PnP). 
 
-For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists, see <a href="/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query">EvtDeviceResourceRequirementsQuery</a> callback function for a nonPnP device calls <b>WdfIoResourceRequirementsListSetInterfaceType</b> to assign a bus type to a device.
+The following code example shows how an <a href="/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query">EvtDeviceResourceRequirementsQuery</a> callback function for a nonPnP device calls <b>WdfIoResourceRequirementsListSetInterfaceType</b> to assign a bus type to a device.
 
 ```cpp
 NTSTATUS
@@ -97,5 +97,4 @@ Example_EvtDeviceResourceRequirementsQuery(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>

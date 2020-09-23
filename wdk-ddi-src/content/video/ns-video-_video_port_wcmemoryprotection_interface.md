@@ -76,25 +76,24 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field VideoPortProtectWCMemory
 
-Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a> callback routine.
+Pointer to the video port driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a> callback routine.
 
 ### -field VideoPortRestoreWCMemory
 
-Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a> callback routine.
+Pointer to the video port driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a> callback routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a>

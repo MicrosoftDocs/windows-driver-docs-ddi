@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IoRegisterDeviceInterface</b> routine registers a [device interface class](https://docs.microsoft.com/windows-hardware/drivers/install/device-interface-classes), if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
+The <b>IoRegisterDeviceInterface</b> routine registers a [device interface class](/windows-hardware/drivers/install/device-interface-classes), if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A pointer to the class GUID that identifies the functionality (the device interf
 ### -param ReferenceString 
 
 [in, optional]
-Optionally points to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>. The string must not contain any path separator characters ("/" or "\\"). Function drivers typically specify <b>NULL</b> for this parameter. Filter drivers must specify <b>NULL</b>.
+Optionally points to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>. The string must not contain any path separator characters ("/" or "\\"). Function drivers typically specify <b>NULL</b> for this parameter. Filter drivers must specify <b>NULL</b>.
 
 Reference strings are only used by a few bus drivers, such as <i>swenum</i>, which is a bus driver that uses device interface instances as placeholders for software devices created on demand. When an instance of an interface is opened, the I/O manager passes the instance's reference string to the driver. The string becomes part of the interface instance's name (as an appended path component). The driver can then use the reference string to differentiate between two interface instances of the same class for a single device.
 
@@ -76,7 +76,7 @@ A pointer to a Unicode string structure allocated by the caller. If this routine
 
 The caller must treat <i>SymbolicLinkName</i> as opaque and must not disassemble it.
 
-The caller is responsible for freeing <i>SymbolicLinkName</i> with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a> when it is no longer needed.
+The caller is responsible for freeing <i>SymbolicLinkName</i> with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a> when it is no longer needed.
 
 ## -returns
 
@@ -102,11 +102,11 @@ The parameters are invalid. Possibilities include that <i>PhysicalDeviceObject</
 
 ## -remarks
 
-<b>IoRegisterDeviceInterface</b> registers a device interface class, if it has not been previously registered, and creates a new instance of the interface class. A driver can call this routine several times for a given device to register several interface classes and create instances of the classes. A function or filter driver typically registers device interfaces in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine. For example, a fault-tolerant volume driver might register an instance of a fault-tolerant-volume interface and an instance of a volume interface for a particular volume.
+<b>IoRegisterDeviceInterface</b> registers a device interface class, if it has not been previously registered, and creates a new instance of the interface class. A driver can call this routine several times for a given device to register several interface classes and create instances of the classes. A function or filter driver typically registers device interfaces in its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine. For example, a fault-tolerant volume driver might register an instance of a fault-tolerant-volume interface and an instance of a volume interface for a particular volume.
 
-If the device interface class has not been registered previously, the I/O manager creates a registry key for it, along with instance-specific persistent storage under the key. Drivers can access this persistent storage using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioopendeviceinterfaceregistrykey">IoOpenDeviceInterfaceRegistryKey</a>.
+If the device interface class has not been registered previously, the I/O manager creates a registry key for it, along with instance-specific persistent storage under the key. Drivers can access this persistent storage using <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioopendeviceinterfaceregistrykey">IoOpenDeviceInterfaceRegistryKey</a>.
 
-A driver registers an interface instance once and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacestate">IoSetDeviceInterfaceState</a> to enable and disable the interface.
+A driver registers an interface instance once and then calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacestate">IoSetDeviceInterfaceState</a> to enable and disable the interface.
 
 Registered interfaces persist across operating system reboots. If the specified interface is already registered, the I/O manager passes its name in <i>SymbolicLinkName </i>and returns the informational success status STATUS_OBJECT_NAME_EXISTS.
 
@@ -118,17 +118,16 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioopendeviceinterfaceregistrykey">IoOpenDeviceInterfaceRegistryKey</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioopendeviceinterfaceregistrykey">IoOpenDeviceInterfaceRegistryKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacestate">IoSetDeviceInterfaceState</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacestate">IoSetDeviceInterfaceState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>

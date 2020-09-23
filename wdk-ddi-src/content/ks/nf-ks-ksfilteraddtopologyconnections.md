@@ -54,7 +54,7 @@ The<b> KsFilterAddTopologyConnections</b> function adds new topology connections
 ### -param Filter 
 
 [in]
-<i>A pointer</i> to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> to which to add the new connections.
+<i>A pointer</i> to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> to which to add the new connections.
 
 ### -param NewConnectionsCount 
 
@@ -64,7 +64,7 @@ The number of connections in <i>NewTopologyConnections</i>.
 ### -param NewTopologyConnections 
 
 [in]
-A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a> structures containing the new topology connections.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a> structures containing the new topology connections.
 
 ## -returns
 
@@ -74,13 +74,12 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/dr
 
 Note that the filter control mutex must be held before calling this function.
 
-For more information about mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
+For more information about mutexes, see <a href="/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>

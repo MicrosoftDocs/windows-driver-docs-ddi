@@ -68,5 +68,4 @@ The WWAN_DEVICE_SERVICE_SESSION structure uses the WWAN_DEVICE_SERVICE_SESSION_S
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session">WWAN_DEVICE_SERVICE_SESSION</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session">WWAN_DEVICE_SERVICE_SESSION</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The SendRPS_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrps">SendRPS</a> WMI method to the WMI client.
+The SendRPS_OUT structure is used to report the output parameter data of the <a href="/windows-hardware/drivers/storage/sendrps">SendRPS</a> WMI method to the WMI client.
 
 ## -struct-fields
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ### -field TotalRspBufferSize
 
@@ -72,9 +72,8 @@ Contains the results of the RPS command.
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the SendRPS_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the SendRPS_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrps">SendRPS</a>
-
+<a href="/windows-hardware/drivers/storage/sendrps">SendRPS</a>

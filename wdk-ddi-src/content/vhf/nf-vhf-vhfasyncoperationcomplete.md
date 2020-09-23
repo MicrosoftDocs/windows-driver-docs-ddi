@@ -54,22 +54,21 @@ The HID source driver calls this method to set the results of an asynchronous op
 ### -param VhfOperationHandle 
 
 [in]
-The operation handle set by Virtual HID Framework (VHF). This handle is passed to the HID source driver  in the <i>VhfOperationHandle</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_vhf_async_operation">EvtVhfAsyncOperation</a>.
+The operation handle set by Virtual HID Framework (VHF). This handle is passed to the HID source driver  in the <i>VhfOperationHandle</i> parameter of <a href="/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_vhf_async_operation">EvtVhfAsyncOperation</a>.
 
 ### -param CompletionStatus 
 
 [in]
-If the operation succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS </a> value.
+If the operation succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS </a> value.
 
 ## -returns
 
-If the <b>VhfAsyncOperationComplete</b> call succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS </a> value.
+If the <b>VhfAsyncOperationComplete</b> call succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS </a> value.
 
 ## -remarks
 
-The HID source driver can call  from the event callback or at a later time after returning from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_vhf_async_operation">EvtVhfAsyncOperation</a> callback.
+The HID source driver can call  from the event callback or at a later time after returning from the <a href="/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_vhf_async_operation">EvtVhfAsyncOperation</a> callback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/virtual-hid-framework--vhf-">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-
+<a href="/windows-hardware/drivers/hid/virtual-hid-framework--vhf-">Write a HID source driver by using Virtual HID Framework (VHF)</a>

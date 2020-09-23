@@ -53,7 +53,7 @@ A print monitor's **InitializePrintMonitor2** function initializes a print monit
 ### -param pMonitorInit 
 
 [in]
-Caller-supplied pointer to a [MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorinit) structure.
+Caller-supplied pointer to a [MONITORINIT](./ns-winsplp-_monitorinit.md) structure.
 
 ### -param phMonitor 
 
@@ -62,13 +62,13 @@ Caller-supplied location in which the function returns a monitor handle.
 
 ## -returns
 
-If the operation succeeds, the function should return a pointer to a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return **NULL**.
+If the operation succeeds, the function should return a pointer to a [MONITOR2](./ns-winsplp-_monitor2.md) structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return **NULL**.
 
 ## -remarks
 
-The **InitializePrintMonitor2** function must be exported by [language monitors](https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors) and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure.
+The **InitializePrintMonitor2** function must be exported by [language monitors](/windows-hardware/drivers/print/language-monitors) and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a [MONITOR2](./ns-winsplp-_monitor2.md) structure.
 
-The [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure is larger in Windows XP than it was in Windows 2000. In order to ensure that a monitor developed with the Windows XP Driver Development Kit (DDK) will install on Windows XP and Windows 2000, the monitor must do the following:
+The [MONITOR2](./ns-winsplp-_monitor2.md) structure is larger in Windows XP than it was in Windows 2000. In order to ensure that a monitor developed with the Windows XP Driver Development Kit (DDK) will install on Windows XP and Windows 2000, the monitor must do the following:
 
 - Perform a run-time check to determine which operating system version the monitor is running on.
 - If the monitor is running on Windows 2000, it must set the **cbSize** member of the MONITOR2 structure to MONITOR2_SIZE_WIN2K (defined in Winsplp.h), the size appropriate for Windows 2000 version of this structure.
@@ -109,5 +109,4 @@ if ( Is_Win2000( ) )
 
 ## -see-also
 
-[MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorinit)
-
+[MONITORINIT](./ns-winsplp-_monitorinit.md)

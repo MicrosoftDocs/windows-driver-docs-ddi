@@ -63,7 +63,7 @@ A handle to a framework object.
 ### -param Tag 
 
 [in, optional]
-A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectreferenceactual">WdfObjectReferenceActual</a>.
+A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectreferenceactual">WdfObjectReferenceActual</a>.
 
 ### -param Line 
 
@@ -84,11 +84,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 If the object's reference count becomes zero, the object might be deleted before <b>WdfObjectDereferenceActual</b> returns. 
 
-Calling <b>WdfObjectDereferenceActual</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectdereferencewithtag">WdfObjectDereferenceWithTag</a> instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a> provides additional information (tag string, line number, and file name) to Microsoft debuggers. <b>WdfObjectDereferenceActual</b> allows your driver to specify the line number and file name, while <b>WdfObjectDereferenceWithTag</b> uses the driver's current line number and file name.
+Calling <b>WdfObjectDereferenceActual</b> or <a href="/windows-hardware/drivers/wdf/wdfobjectdereferencewithtag">WdfObjectDereferenceWithTag</a> instead of <a href="/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a> provides additional information (tag string, line number, and file name) to Microsoft debuggers. <b>WdfObjectDereferenceActual</b> allows your driver to specify the line number and file name, while <b>WdfObjectDereferenceWithTag</b> uses the driver's current line number and file name.
 
-You can view the tag, line number, and file name values by using the <b>!wdftagtracker</b> debugger extension. The debugger extension displays the tag value as both a pointer and a series of characters. For more information about debugger extensions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
+You can view the tag, line number, and file name values by using the <b>!wdftagtracker</b> debugger extension. The debugger extension displays the tag value as both a pointer and a series of characters. For more information about debugger extensions, see <a href="/windows-hardware/drivers/wdf/debugging-driver-installation">Debugging a KMDF Driver</a>.
 
-For more information about object reference counts and the cleanup rules for a framework object hierarchy, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle">Framework Object Life Cycle</a>.
+For more information about object reference counts and the cleanup rules for a framework object hierarchy, see <a href="/windows-hardware/drivers/wdf/framework-object-life-cycle">Framework Object Life Cycle</a>.
 
 #### Examples
 
@@ -105,9 +105,8 @@ WdfObjectDereferenceActual(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a>
+<a href="/windows-hardware/drivers/wdf/wdfobjectdereference">WdfObjectDereference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectreferenceactual">WdfObjectReferenceActual</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectreferenceactual">WdfObjectReferenceActual</a>

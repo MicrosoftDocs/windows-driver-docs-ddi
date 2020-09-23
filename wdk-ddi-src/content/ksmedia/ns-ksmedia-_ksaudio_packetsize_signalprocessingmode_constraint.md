@@ -66,5 +66,4 @@ The processing frame size for the processing mode, expressed in hundred-nanoseco
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ksaudio_packetsize_constraints">KSAUDIO_PACKETSIZE_CONSTRAINTS</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ksaudio_packetsize_constraints">KSAUDIO_PACKETSIZE_CONSTRAINTS</a>

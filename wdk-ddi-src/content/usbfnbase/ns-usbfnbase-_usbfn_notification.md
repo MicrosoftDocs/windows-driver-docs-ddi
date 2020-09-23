@@ -51,19 +51,19 @@ api_name:
 ## -description
 
 Describes information about a Universal Serial Bus (USB)  event notification that was 
-		received by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_bus_event_notification">IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION</a>.
+		received by using <a href="/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_bus_event_notification">IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION</a>.
 
 ## -struct-fields
 
 ### -field Event
 
-Bus notification indicated by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_event">USBFN_EVENT</a>-typed flag.
+Bus notification indicated by a <a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_event">USBFN_EVENT</a>-typed flag.
 
 ### -field u
 
 ### -field u.BusSpeed
 
-The operating bus speed indicated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flags.
+The operating bus speed indicated by <a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flags.
 
 ### -field u.SetupPacket
 
@@ -75,9 +75,8 @@ The <b>bConfigurationValue</b> field of a USB configuration descriptor.
 
 ### -field u.PortType
 
-Possible port types supported by a function controller indicated by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_port_type">USBFN_PORT_TYPE</a>-typed flag.
+Possible port types supported by a function controller indicated by a <a href="/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_port_type">USBFN_PORT_TYPE</a>-typed flag.
 
 ### -field u.AlternateInterface
 
-Alternate setting of the interface indicated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_alternate_interface">ALTERNATE_INTERFACE</a>.
-
+Alternate setting of the interface indicated by <a href="/windows-hardware/drivers/ddi/usbfnbase/ns-usbfnbase-_alternate_interface">ALTERNATE_INTERFACE</a>.

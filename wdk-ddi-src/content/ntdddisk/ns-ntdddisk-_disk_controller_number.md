@@ -68,5 +68,4 @@ After DISK_CONTROLLER_NUMBER receives the controller number and the disk number,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_controller_number">IOCTL_DISK_CONTROLLER_NUMBER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_controller_number">IOCTL_DISK_CONTROLLER_NUMBER</a>

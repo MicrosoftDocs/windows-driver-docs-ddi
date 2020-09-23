@@ -60,7 +60,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_lock2">D3DDDICB_LOCK2</a> structure that describes the allocation to lock.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_lock2">D3DDDICB_LOCK2</a> structure that describes the allocation to lock.
 
 ## -returns
 
@@ -84,5 +84,4 @@ Synchronization of other lock types (not no-overwrite or discard)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_lock2">D3DDDICB_LOCK2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_lock2">D3DDDICB_LOCK2</a>

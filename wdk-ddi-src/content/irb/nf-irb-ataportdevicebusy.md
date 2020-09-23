@@ -47,7 +47,7 @@ api_name:
 ## -description
 
 The <b>AtaPortDeviceBusy</b> routine informs the port driver that the indicated device is busy. 
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -77,13 +77,12 @@ When the port driver receives this call, it pauses the request queue for the ind
 
 The port driver automatically resumes paused queues after the time-out interval expires.
 
-The miniport driver must not call <b>AtaPortDeviceBusy</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_interrupt">IdeHwInterrupt</a> routine.
+The miniport driver must not call <b>AtaPortDeviceBusy</b> from its <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_interrupt">IdeHwInterrupt</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportdeviceready">AtaPortDeviceReady</a>
+<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportdeviceready">AtaPortDeviceReady</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_interrupt">IdeHwInterrupt</a>
-
+<a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_interrupt">IdeHwInterrupt</a>

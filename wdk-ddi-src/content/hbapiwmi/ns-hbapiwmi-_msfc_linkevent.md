@@ -56,7 +56,7 @@ A WMI provider uses the MSFC_LinkEvent structure to report link events for the i
 
 ### -field EventType
 
-Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
+Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 ### -field AdapterWWN
 
@@ -72,5 +72,4 @@ Contains the data associated with a register link incident request (RLIR).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
-
+<a href="/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>

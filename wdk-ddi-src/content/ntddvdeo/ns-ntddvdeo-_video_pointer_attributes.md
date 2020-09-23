@@ -95,9 +95,8 @@ The pointer data, in device-compatible DIB format. Mask data is always in 1-bpp 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_query_pointer_attr">IOCTL_VIDEO_QUERY_POINTER_ATTR</a>
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_query_pointer_attr">IOCTL_VIDEO_QUERY_POINTER_ATTR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a>

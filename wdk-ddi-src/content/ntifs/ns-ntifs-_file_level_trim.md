@@ -68,9 +68,8 @@ Array of trim ranges for a file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_level_trim_range">FILE_LEVEL_TRIM_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-file-level-trim">FSCTL_FILE_LEVEL_TRIM</a>
-
+<a href="/windows-hardware/drivers/ifs/fsctl-file-level-trim">FSCTL_FILE_LEVEL_TRIM</a>

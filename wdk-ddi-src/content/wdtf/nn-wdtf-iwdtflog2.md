@@ -50,7 +50,7 @@ Defines operations that enable the test case author to add to the WDTF test log.
 
 ## -inheritance
 
-The <b>IWDTFLOG2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
+The <b>IWDTFLOG2</b> interface inherits from the <a href="/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 <b>IWDTFLOG2</b> also has these types of members:
 <ul>
@@ -59,5 +59,4 @@ The <b>IWDTFLOG2</b> interface inherits from the <a href="https://docs.microsoft
 
 ## -remarks
 
-You access the logging interface from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtf2-get_log">IWDTF2::Log</a> property.
-
+You access the logging interface from the <a href="/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtf2-get_log">IWDTF2::Log</a> property.

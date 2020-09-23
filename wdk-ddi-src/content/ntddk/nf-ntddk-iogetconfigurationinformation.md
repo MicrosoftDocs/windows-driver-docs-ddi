@@ -110,25 +110,24 @@ The configuration information structure also contains a value indicating whether
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalAssignSlotResources</a>
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalAssignSlotResources</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoAssignResources</a>
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoAssignResources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
-
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>

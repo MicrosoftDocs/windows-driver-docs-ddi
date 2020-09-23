@@ -48,7 +48,7 @@ api_name:
 
 The <b>IOCTL_BTHHFP_DEVICE_GET_CONTAINERID</b> 
    IOCTL Gets the PnP Container ID of the Bluetooth device.
-<div class="alert"><b>Note</b>  This IOCTL has been deprecated for Windows 8.1, so you should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This IOCTL has been deprecated for Windows 8.1, so you should use <a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a> instead.</div><div> </div>
 
 ## -ioctlparameters
 
@@ -80,17 +80,16 @@ N/A
 
 This request completes immediately.
 
-The audio driver stores this container ID in appropriate context data and returns it in the driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-jack-containerid">KSPROPERTY_JACK_CONTAINERID</a> KS property.
+The audio driver stores this container ID in appropriate context data and returns it in the driver's implementation of the <a href="/windows-hardware/drivers/audio/ksproperty-jack-containerid">KSPROPERTY_JACK_CONTAINERID</a> KS property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
+<a href="/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-jack-containerid">KSPROPERTY_JACK_CONTAINERID</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-jack-containerid">KSPROPERTY_JACK_CONTAINERID</a>

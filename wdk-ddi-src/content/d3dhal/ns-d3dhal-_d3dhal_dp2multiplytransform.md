@@ -51,7 +51,7 @@ api_name:
    DirectX 8.0 and later versions only.
    
 
-The D3DHAL_DP2MULTIPLYTRANSFORM structure is used to modify the transform matrix for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
+The D3DHAL_DP2MULTIPLYTRANSFORM structure is used to modify the transform matrix for <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
 ## -struct-fields
 
@@ -75,9 +75,8 @@ This structure is used with hardware transform and lighting and is used by the D
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2settransform">D3DHAL_DP2SETTRANSFORM</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2settransform">D3DHAL_DP2SETTRANSFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

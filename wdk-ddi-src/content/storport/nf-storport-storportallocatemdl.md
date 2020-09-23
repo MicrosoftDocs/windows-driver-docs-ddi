@@ -140,5 +140,4 @@ Unable to allocate MDL to describe the given buffer.
 
 ## -remarks
 
-A miniport driver calls the <b>StorPortAllocateMdl</b> routine to allocate an MDL to describe a block of memory from the non-paged pool. To free the MDL, the miniport driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreemdl">StorPortFreeMdl</a> routine.
-
+A miniport driver calls the <b>StorPortAllocateMdl</b> routine to allocate an MDL to describe a block of memory from the non-paged pool. To free the MDL, the miniport driver calls the <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreemdl">StorPortFreeMdl</a> routine.

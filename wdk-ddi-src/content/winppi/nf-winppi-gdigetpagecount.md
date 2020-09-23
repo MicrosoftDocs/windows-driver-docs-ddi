@@ -54,7 +54,7 @@ The <b>GdiGetPageCount</b> function returns the number of pages in a print job.
 
 ### -param SpoolFileHandle
 
-Caller-supplied spool file handle, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetspoolfilehandle">GdiGetSpoolFileHandle</a>.
+Caller-supplied spool file handle, obtained by a previous call to <a href="/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetspoolfilehandle">GdiGetSpoolFileHandle</a>.
 
 ## -returns
 
@@ -62,11 +62,10 @@ If the operation succeeds, the function returns the number of pages in the curre
 
 ## -remarks
 
-The <b>GdiGetPageCount</b> function is exported by gdi32.dll for use within a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function.
+The <b>GdiGetPageCount</b> function is exported by gdi32.dll for use within a print processor's <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function.
 
-<div class="alert"><b>Note</b>  The <b>GdiGetPageCount</b> function does not return until all pages have been spooled, even if the print server administrator has specified that print jobs should be printed during spooling. Therefore, this function should not be used unless it is necessary to obtain the total page count before document processing can begin, such as for printing pages in reverse order.<p class="note">Usually, a better method for determining the page count is to count the number of calls made to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetpagehandle">GdiGetPageHandle</a>.
+<div class="alert"><b>Note</b>  The <b>GdiGetPageCount</b> function does not return until all pages have been spooled, even if the print server administrator has specified that print jobs should be printed during spooling. Therefore, this function should not be used unless it is necessary to obtain the total page count before document processing can begin, such as for printing pages in reverse order.<p class="note">Usually, a better method for determining the page count is to count the number of calls made to <a href="/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetpagehandle">GdiGetPageHandle</a>.
 
 </div>
 <div> </div>
-For additional information about this set of functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-gdi-functions-in-print-processors">Using GDI Functions in Print Processors</a>.
-
+For additional information about this set of functions, see <a href="/windows-hardware/drivers/print/using-gdi-functions-in-print-processors">Using GDI Functions in Print Processors</a>.

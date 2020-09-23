@@ -46,51 +46,51 @@ This field enumerates the <b>KSPROPERTY_RTAUDIO_GETPOSITIONFUNCTION</b> property
 
 ### -field KSPROPERTY_RTAUDIO_BUFFER
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer">KSPROPERTY_RTAUDIO_BUFFER</a> specifies a driver-allocated cyclic buffer for audio data.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer">KSPROPERTY_RTAUDIO_BUFFER</a> specifies a driver-allocated cyclic buffer for audio data.
 
 ### -field KSPROPERTY_RTAUDIO_HWLATENCY 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-hwlatency">KSPROPERTY_RTAUDIO_HWLATENCY</a> retrieves a description of the stream latency of the audio hardware and its associated data path.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-hwlatency">KSPROPERTY_RTAUDIO_HWLATENCY</a> retrieves a description of the stream latency of the audio hardware and its associated data path.
 
 ### -field KSPROPERTY_RTAUDIO_POSITIONREGISTER 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a> maps the position register of an audio device for a particular stream into a virtual memory location that the client can access.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a> maps the position register of an audio device for a particular stream into a virtual memory location that the client can access.
 
 ### -field KSPROPERTY_RTAUDIO_CLOCKREGISTER 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a> maps the wall clock register of the audio device into a virtual memory location that the client can access.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a> maps the wall clock register of the audio device into a virtual memory location that the client can access.
 
 ### -field KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer-with-notification">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a> specifies a driver-allocated cyclic buffer for audio data and identifies event notification requirements.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-buffer-with-notification">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a> specifies a driver-allocated cyclic buffer for audio data and identifies event notification requirements.
 
 ### -field KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-register-notification-event">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a> registers a user-mode event for DMA-driven event notification.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-register-notification-event">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a> registers a user-mode event for DMA-driven event notification.
 
 ### -field KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-unregister-notification-event">KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</a> unregisters a user-mode event from DMA-driven event notification.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-unregister-notification-event">KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</a> unregisters a user-mode event from DMA-driven event notification.
 
 ### -field KSPROPERTY_RTAUDIO_QUERY_NOTIFICATION_SUPPORT
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-query-notification-support">KSPROPERTY_RTAUDIO_QUERY_NOTIFICATION_SUPPORT</a> determines whether the audio driver can notify the client application when a process that is performed on the submitted buffer is completed.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-query-notification-support">KSPROPERTY_RTAUDIO_QUERY_NOTIFICATION_SUPPORT</a> determines whether the audio driver can notify the client application when a process that is performed on the submitted buffer is completed.
 
 ### -field KSPROPERTY_RTAUDIO_PACKETCOUNT
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-packetcount">KSPROPERTY_RTAUDIO_PACKETCOUNT</a> returns the (1-based) count of packets completely transferred from the WaveRT buffer into hardware.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-packetcount">KSPROPERTY_RTAUDIO_PACKETCOUNT</a> returns the (1-based) count of packets completely transferred from the WaveRT buffer into hardware.
 
 ### -field KSPROPERTY_RTAUDIO_PRESENTATION_POSITION
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-presentation-position">KSPROPERTY_RTAUDIO_PRESENTATION_POSITION</a> returns stream presentation information.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-presentation-position">KSPROPERTY_RTAUDIO_PRESENTATION_POSITION</a> returns stream presentation information.
 
 ### -field KSPROPERTY_RTAUDIO_GETREADPACKET
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-getreadpacket">KSPROPERTY_RTAUDIO_GETREADPACKET</a> returns information about captured audio packets.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-getreadpacket">KSPROPERTY_RTAUDIO_GETREADPACKET</a> returns information about captured audio packets.
 
 ### -field KSPROPERTY_RTAUDIO_SETWRITEPACKET
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-setwritepacket">KSPROPERTY_RTAUDIO_SETWRITEPACKET</a> informs the driver that the OS has written valid data to the WaveRT buffer.
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-setwritepacket">KSPROPERTY_RTAUDIO_SETWRITEPACKET</a> informs the driver that the OS has written valid data to the WaveRT buffer.
 
 ### -field KSPROPERTY_RTAUDIO_PACKETVREGISTER
 
@@ -100,5 +100,4 @@ The <b>KSPROPERTY_RTAUDIO_PACKETVREGISTER</b> returns information about the pack
 
 ## -see-also
 
-[KSPROPSETID_RTAudio](https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-rtaudio)
-
+[KSPROPSETID_RTAudio](/windows-hardware/drivers/audio/kspropsetid-rtaudio)

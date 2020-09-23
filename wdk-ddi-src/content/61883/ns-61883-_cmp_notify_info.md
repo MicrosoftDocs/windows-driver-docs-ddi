@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/nc-61883-pcmp_notify_routine">PCMP_NOTIFY_ROUTINE</a> callback.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/61883/nc-61883-pcmp_notify_routine">PCMP_NOTIFY_ROUTINE</a> callback.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ A context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
-
+<a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>

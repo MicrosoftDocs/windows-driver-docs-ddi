@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains function pointers to endpoint callback functions implemented by the UDE client driver. Initialize this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecx_usb_endpoint_callbacks_init">UDECX_USB_ENDPOINT_CALLBACKS_INIT</a>.
+Contains function pointers to endpoint callback functions implemented by the UDE client driver. Initialize this structure by calling <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecx_usb_endpoint_callbacks_init">UDECX_USB_ENDPOINT_CALLBACKS_INIT</a>.
 
 ## -struct-fields
 
@@ -60,21 +60,20 @@ The size of this structure.
 
 ### -field EvtUsbEndpointReset
 
-Required. A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nc-udecxusbendpoint-evt_udecx_usb_endpoint_reset">EVT_UDECX_USB_ENDPOINT_RESET</a> callback function implemented by a UDE client driver.
+Required. A pointer to an <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nc-udecxusbendpoint-evt_udecx_usb_endpoint_reset">EVT_UDECX_USB_ENDPOINT_RESET</a> callback function implemented by a UDE client driver.
 
 ### -field EvtUsbEndpointStart
 
-Optional. A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nc-udecxusbendpoint-evt_udecx_usb_endpoint_start">EVT_UDECX_USB_ENDPOINT_START</a> callback function implemented by a UDE client driver.
+Optional. A pointer to an <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nc-udecxusbendpoint-evt_udecx_usb_endpoint_start">EVT_UDECX_USB_ENDPOINT_START</a> callback function implemented by a UDE client driver.
 
 ### -field EvtUsbEndpointPurge
 
-Optional. A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nc-udecxusbendpoint-evt_udecx_usb_endpoint_purge">EVT_UDECX_USB_ENDPOINT_PURGE</a> callback function implemented by a UDE client driver.
+Optional. A pointer to an <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nc-udecxusbendpoint-evt_udecx_usb_endpoint_purge">EVT_UDECX_USB_ENDPOINT_PURGE</a> callback function implemented by a UDE client driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>
+<a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks">UdecxUsbEndpointInitSetCallbacks</a>
-
+<a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks">UdecxUsbEndpointInitSetCallbacks</a>

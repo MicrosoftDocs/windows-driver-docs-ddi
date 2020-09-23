@@ -58,5 +58,4 @@ A PVOID pointer to the property's base address.
 
 ## -see-also
 
-[KSPROPSETID_RTAudio](https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-rtaudio)
-
+[KSPROPSETID_RTAudio](/windows-hardware/drivers/audio/kspropsetid-rtaudio)

@@ -76,5 +76,4 @@ The <b>Status</b> field is set to STATUS_SUCCESS. If the mode of the requester i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_internal_set_verify">IOCTL_DISK_INTERNAL_SET_VERIFY</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_internal_set_verify">IOCTL_DISK_INTERNAL_SET_VERIFY</a>

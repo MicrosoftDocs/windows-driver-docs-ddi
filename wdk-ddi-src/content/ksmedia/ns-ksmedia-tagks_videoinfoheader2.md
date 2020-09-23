@@ -121,7 +121,7 @@ The AMCONTROL_USED flag provides backward compatibility with older filters. If t
 
 The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle.
 
-If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of the dwControlFlags field are treated as a [DXVA_ExtendedFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) structure.
+If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of the dwControlFlags field are treated as a [DXVA_ExtendedFormat](../dxva/ns-dxva-_dxva_extendedformat.md) structure.
 
 See the Remarks section later in this topic for more information about **dwControlFlags**.
 
@@ -135,15 +135,15 @@ Reserved for system use. Must be set to zero or the connection will be rejected.
 
 ### -field bmiHeader
 
-Indicates a [KS_BITMAPINFOHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader) structure that contains color and dimension information for the video image bitmap.
+Indicates a [KS_BITMAPINFOHEADER](./ns-ksmedia-tagks_bitmapinfoheader.md) structure that contains color and dimension information for the video image bitmap.
 
 ## -remarks
 
-To describe a video stream without bob or weave settings, use [KS_VIDEOINFOHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader).
+To describe a video stream without bob or weave settings, use [KS_VIDEOINFOHEADER](./ns-ksmedia-tagks_videoinfoheader.md).
 
-The KS_VIDEOINFOHEADER2 structure is identical to the DirectShow [VIDEOINFOHEADER2](https://docs.microsoft.com/previous-versions//ms787914(v=vs.85)) structure.
+The KS_VIDEOINFOHEADER2 structure is identical to the DirectShow [VIDEOINFOHEADER2](/previous-versions//ms787914(v=vs.85)) structure.
 
-Capture minidrivers that produce video fields (instead of frames) must use the [KS_DATARANGE_VIDEO2](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_datarange_video2) structure, which contains the KS_VIDEOINFOHEADER2 structure.
+Capture minidrivers that produce video fields (instead of frames) must use the [KS_DATARANGE_VIDEO2](./ns-ksmedia-tagks_datarange_video2.md) structure, which contains the KS_VIDEOINFOHEADER2 structure.
 
 A source filter can request that the sink filter take only a section of the video by providing values that effectively define a clipping rectangle in the **rcSource** member. However, if the sink filter does not check for the clipping rectangle on connection, the sink filter simply renders all of the video, effectively ignoring any clipping information passed from the source filter to the sink filter.
 
@@ -151,13 +151,12 @@ Ideally, a sink filter checks **rcSource** and if the sink filter does not suppo
 
 The **rcTarget** member specifies the destination rectangle for the video. Most source filters set this member to all zeros. A downstream filter can request that the video be placed in a particular area of the buffers that it supplies. In this case, it calls the Win32 function **QueryAccept** with a nonempty target.
 
-If the AMCONTROL_COLORINFO_PRESENT flag is set in the **dwControlFlags** member, you can cast the **dwControlFlags** value to a [DXVA_ExtendedFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_extendedformat) structure to access the extended color information. For more information, see [VIDEOINFOHEADER2](https://docs.microsoft.com/previous-versions//ms787914(v=vs.85)).
+If the AMCONTROL_COLORINFO_PRESENT flag is set in the **dwControlFlags** member, you can cast the **dwControlFlags** value to a [DXVA_ExtendedFormat](../dxva/ns-dxva-_dxva_extendedformat.md) structure to access the extended color information. For more information, see [VIDEOINFOHEADER2](/previous-versions//ms787914(v=vs.85)).
 
 ## -see-also
 
-[KS_BITMAPINFOHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader)
+[KS_BITMAPINFOHEADER](./ns-ksmedia-tagks_bitmapinfoheader.md)
 
-[KS_DATARANGE_VIDEO2](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_datarange_video2)
+[KS_DATARANGE_VIDEO2](./ns-ksmedia-tagks_datarange_video2.md)
 
-[KS_VIDEOINFOHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader)
-
+[KS_VIDEOINFOHEADER](./ns-ksmedia-tagks_videoinfoheader.md)

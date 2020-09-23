@@ -146,7 +146,7 @@ QueryTickCount
 
 </td>
 <td>
-This notification type returns a LARGE_INTEGER that holds the value from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerytickcount">KeQueryTickCount</a>. The value returned in TickCount is the count of the interval timer interrupts that have occurred since the system was booted
+This notification type returns a LARGE_INTEGER that holds the value from <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerytickcount">KeQueryTickCount</a>. The value returned in TickCount is the count of the interval timer interrupts that have occurred since the system was booted
 
 
 ```cpp
@@ -184,7 +184,7 @@ RequestTimerCall
 
 </td>
 <td>
-Indicates that the miniport driver requires the port driver to call the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_timer">HwStorTimer</a> routine in the requested number of microseconds.
+Indicates that the miniport driver requires the port driver to call the miniport driver's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_timer">HwStorTimer</a> routine in the requested number of microseconds.
 
 
 ```cpp
@@ -265,7 +265,7 @@ WMIReregister
 
 </td>
 <td>
-Indicates that the miniport driver has changed the data items or the number of instances of a given data block that was previously registered by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiregistrationcontrol">IoWMIRegistrationControl</a>.
+Indicates that the miniport driver has changed the data items or the number of instances of a given data block that was previously registered by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiregistrationcontrol">IoWMIRegistrationControl</a>.
 
 
 ```cpp
@@ -311,4 +311,3 @@ Because **StorPortNotification** returns VOID, the scanning engine should assume
 ## -see-also
 
 [StorPortInitialize](nf-storport-storportinitialize.md)
-

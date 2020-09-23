@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>CcUnpinData</b> routine releases cached file data that was mapped or pinned by an earlier call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>.
+The <b>CcUnpinData</b> routine releases cached file data that was mapped or pinned by an earlier call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmapdata">CcMapData</a>, <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinread">CcPinRead</a>, or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparepinwrite">CcPreparePinWrite</a>.
 
 ## -parameters
 
@@ -59,27 +59,26 @@ Pointer to a buffer control block (BCB) for the data to be released.
 
 <b>CcUnpinData</b> frees the BCB and performs any other necessary cleanup.
 
-Every successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a> must be matched by a subsequent call to <b>CcUnpinData</b>. 
+Every successful call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmapdata">CcMapData</a>, <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinread">CcPinRead</a>, or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparepinwrite">CcPreparePinWrite</a> must be matched by a subsequent call to <b>CcUnpinData</b>. 
 
-BCBs that have been modified by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a> cannot be unpinned by calling <b>CcUnpinData</b>. <a href="https://msdn.microsoft.com/library/windows/hardware/ff539231">CcUnpinDataForThread</a> must be called instead.
+BCBs that have been modified by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetbcbownerpointer">CcSetBcbOwnerPointer</a> cannot be unpinned by calling <b>CcUnpinData</b>. <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindataforthread">CcUnpinDataForThread</a> must be called instead.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmapdata">CcMapData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpinread">CcPinRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparepinwrite">CcPreparePinWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetbcbownerpointer">CcSetBcbOwnerPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539231">CcUnpinDataForThread</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindataforthread">CcUnpinDataForThread</a>

@@ -88,13 +88,12 @@ This is the LSN that must be on the disk on return from this callback routine.
 
 ## -remarks
 
-<b>CcSetLogHandleForFile</b> sets a log handle for a file, for use in subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539088">CcGetDirtyPages</a>.
+<b>CcSetLogHandleForFile</b> sets a log handle for a file, for use in subsequent calls to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccgetdirtypages">CcGetDirtyPages</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539088">CcGetDirtyPages</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccgetdirtypages">CcGetDirtyPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetdirtypinneddata">CcSetDirtyPinnedData</a>

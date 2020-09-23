@@ -51,20 +51,20 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_MSONEX_RESULT_PARAMS structure is used to exchange result parameters with an IHV module.
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_MSONEX_RESULT_PARAMS structure is used to exchange result parameters with an IHV module.
 
 ## -struct-fields
 
 ### -field Dot11OnexAuthStatus
 
 A
-      <a href="https://docs.microsoft.com/windows/win32/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a> type that specifies the
+      <a href="/windows/win32/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a> type that specifies the
       authorization status of the 802.1X exchange.
 
 ### -field Dot11OneXReasonCode
 
 A
-      <a href="https://docs.microsoft.com/windows/win32/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a> type that specifies the
+      <a href="/windows/win32/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a> type that specifies the
       reason code of the 802.1X exchange.
 
 ### -field pbMPPESendKey
@@ -109,7 +109,7 @@ typedef struct _DOT11_MSONEX_RESULT_PARAMS {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a>
+<a href="/windows/win32/api/dot1x/ne-dot1x-onex_reason_code">ONEX_REASON_CODE</a>
 
 
 
@@ -117,5 +117,4 @@ typedef struct _DOT11_MSONEX_RESULT_PARAMS {
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a>
-
+<a href="/windows/win32/api/dot1x/ne-dot1x-onex_auth_status">ONEX_AUTH_STATUS</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IO_SECURITY_CONTEXT</b> structure represents the security context of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request.
+The <b>IO_SECURITY_CONTEXT</b> structure represents the security context of an <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request.
 
 ## -struct-fields
 
@@ -60,11 +60,11 @@ Reserved for system use.
 
 ### -field AccessState
 
-Reserved for use by file systems and file system filter drivers. This member is a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a> structure that contains the object's subject context, granted access types, and remaining desired access types.
+Reserved for use by file systems and file system filter drivers. This member is a pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a> structure that contains the object's subject context, granted access types, and remaining desired access types.
 
 ### -field DesiredAccess
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that expresses the access rights that are requested in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request.
+An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that expresses the access rights that are requested in the <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request.
 
 ### -field FullCreateOptions
 
@@ -72,13 +72,12 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>
-
+<a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>

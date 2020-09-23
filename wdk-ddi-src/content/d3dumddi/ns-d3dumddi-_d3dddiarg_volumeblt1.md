@@ -74,17 +74,16 @@ Describes parameters for a volume bit-block transfer (bitblt) operation.
 
 ### -field SrcBox
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a> structure that describes the source volume texture to copy to the destination.
+[in] A <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a> structure that describes the source volume texture to copy to the destination.
 
 ### -field CopyFlags
 
-A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a> enumeration type.
+A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddibox">D3DDDIBOX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a>

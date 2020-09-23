@@ -455,9 +455,8 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent2">StorPortEtwEvent2</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent2">StorPortEtwEvent2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent4">StorPortEtwEvent4</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent4">StorPortEtwEvent4</a>

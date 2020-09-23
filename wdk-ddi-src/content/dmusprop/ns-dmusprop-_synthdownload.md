@@ -64,15 +64,14 @@ Specifies whether the client can free the data buffer as soon as the DLS downloa
 
 ## -remarks
 
-When processing a <a href="https://docs.microsoft.com/previous-versions/ff537396(v=vs.85)">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a> get-property request, the synthesizer miniport driver uses the SYNTHDOWNLOAD structure to pass a handle back to the client. This handle uniquely identifies the downloaded DLS data. The client later specifies this same handle in <a href="https://docs.microsoft.com/previous-versions/ff537398(v=vs.85)">KSPROPERTY_SYNTH_DLS_UNLOAD</a> set-property request that unloads the DLS data.
+When processing a <a href="/previous-versions/ff537396(v=vs.85)">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a> get-property request, the synthesizer miniport driver uses the SYNTHDOWNLOAD structure to pass a handle back to the client. This handle uniquely identifies the downloaded DLS data. The client later specifies this same handle in <a href="/previous-versions/ff537398(v=vs.85)">KSPROPERTY_SYNTH_DLS_UNLOAD</a> set-property request that unloads the DLS data.
 
 If the miniport driver makes its own copy of the DLS data, it sets the <i>Free</i> parameter to <b>TRUE</b> to indicate that the client can free the buffer containing the DLS data as soon as the KSPROPERTY_SYNTH_DLS_DOWNLOAD property request completes. If the miniport driver continues to use the client's copy of the DLS data, however, it sets <i>Free</i> to <b>FALSE</b> to indicate that the client should maintain its allocation of the original DLS data buffer until it unloads the data by sending a KSPROPERTY_SYNTH_DLS_UNLOAD property request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff537396(v=vs.85)">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
+<a href="/previous-versions/ff537396(v=vs.85)">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff537398(v=vs.85)">KSPROPERTY_SYNTH_DLS_UNLOAD</a>
-
+<a href="/previous-versions/ff537398(v=vs.85)">KSPROPERTY_SYNTH_DLS_UNLOAD</a>

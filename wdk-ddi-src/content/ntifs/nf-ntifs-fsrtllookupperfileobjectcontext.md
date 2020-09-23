@@ -75,28 +75,27 @@ A "legacy" file system filter driver calls <b>FsRtlLookupPerFileObjectContext</b
 
 If the FSRTL_PER_FILEOBJECT_CONTEXT structure is embedded in a filter defined per-file-object context structure, the <b>CONTAINING_RECORD</b> macro can be used to obtain a pointer to the head of the filter-defined structure.
 
-To initialize a per-file-object context structure, use the <a href="https://docs.microsoft.com/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext </a>macro.
+To initialize a per-file-object context structure, use the <a href="/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext </a>macro.
 
 To associate an initialized per-file-object context structure with a file object, use the <b>FsRtlInsertPerFileObjectContext</b> function.
 
-To remove a per-file-object context structure that is associated with a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547232">FsRtlRemovePerFileObjectContext</a> function.
+To remove a per-file-object context structure that is associated with a file object, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlremoveperfileobjectcontext">FsRtlRemovePerFileObjectContext</a> function.
 
-<div class="alert"><b>Note</b>  File system minifilter drivers must not use the <b>FsRtl</b><i>Xxx</i><b>PerFileObjectContext</b> functions. Instead, minifilters can use the <b>Flt</b><i>Xxx</i><b>Context</b> functions to associate context information with a file object. For a complete list, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547346">FSRTL_PER_FILEOBJECT_CONTEXT</a> topic.</div>
+<div class="alert"><b>Note</b>  File system minifilter drivers must not use the <b>FsRtl</b><i>Xxx</i><b>PerFileObjectContext</b> functions. Instead, minifilters can use the <b>Flt</b><i>Xxx</i><b>Context</b> functions to associate context information with a file object. For a complete list, see the <a href="/previous-versions/ff547346(v=vs.85)">FSRTL_PER_FILEOBJECT_CONTEXT</a> topic.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547346">FSRTL_PER_FILEOBJECT_CONTEXT</a>
+<a href="/previous-versions/ff547346(v=vs.85)">FSRTL_PER_FILEOBJECT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a>
+<a href="/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546936">FsRtlLookupPerFileObjectContext</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtllookupperfileobjectcontext">FsRtlLookupPerFileObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547232">FsRtlRemovePerFileObjectContext</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlremoveperfileobjectcontext">FsRtlRemovePerFileObjectContext</a>

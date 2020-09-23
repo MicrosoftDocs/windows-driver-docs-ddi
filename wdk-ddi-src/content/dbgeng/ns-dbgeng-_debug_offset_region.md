@@ -64,5 +64,4 @@ The size of the region.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced">IDebugAdvanced</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced">IDebugAdvanced</a>

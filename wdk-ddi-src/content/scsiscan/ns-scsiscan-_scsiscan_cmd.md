@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The SCSISCAN_CMD structure is used as a parameter to [DeviceIoControl](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_CMD](https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd).
+The SCSISCAN_CMD structure is used as a parameter to [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_CMD](./ni-scsiscan-ioctl_scsiscan_cmd.md).
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Caller-supplied SRB_FLAGS-prefixed bit flag specifying the requested operation. 
 
 ### -field CdbLength
 
-Length, in bytes, of the [CDB](https://docs.microsoft.com/windows-hardware/drivers/) contained in the **Cdb** member.
+Length, in bytes, of the [CDB](/windows-hardware/drivers/) contained in the **Cdb** member.
 
 ### -field SenseLength
 
@@ -84,11 +84,11 @@ Reserved. Do not use.
 
 ### -field TransferLength
 
-Length, in bytes, of the buffer to be transferred. This should match the value specified for the [DeviceIoControl](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function's *nOutBufferSize* parameter.
+Length, in bytes, of the buffer to be transferred. This should match the value specified for the [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function's *nOutBufferSize* parameter.
 
 ### -field Cdb
 
-Caller-supplied [CDB](https://docs.microsoft.com/windows-hardware/drivers/) data. (The CDB structure is declared in *scsi.h*.)
+Caller-supplied [CDB](/windows-hardware/drivers/) data. (The CDB structure is declared in *scsi.h*.)
 
 ### -field pSrbStatus
 
@@ -97,4 +97,3 @@ Caller-supplied pointer that will receive one of the SRB_STATUS-prefixed status 
 ### -field pSenseBuffer
 
 Caller-supplied pointer to a request-sense buffer, to be filled in by the kernel-mode driver.
-

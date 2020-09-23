@@ -54,7 +54,7 @@ This structure represents a provider's receive or transmit queue
 
 ### -field Header
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_QUEUE</b> structure. Set the members of this structure as follows:
+The <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_QUEUE</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_PD_TRANSMIT_QUEUE</b> or <b>NDIS_OBJECT_TYPE_PD_RECEIVE_QUEUE</b></li>
@@ -68,7 +68,7 @@ This member is reserved and must be set to 0.
 
 ### -field Dispatch
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_queue_dispatch">NDIS_PD_QUEUE_DISPATCH</a>.
+See <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_queue_dispatch">NDIS_PD_QUEUE_DISPATCH</a>.
 
 ### -field PDPlatformReserved
 
@@ -80,5 +80,4 @@ Reserved for the client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>

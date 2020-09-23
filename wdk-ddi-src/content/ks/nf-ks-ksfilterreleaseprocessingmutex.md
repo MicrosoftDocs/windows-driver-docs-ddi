@@ -54,13 +54,12 @@ The<b> KsFilterReleaseProcessingMutex </b>function releases the processing mutex
 ### -param Filter 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the AVStream filter for which to release the processing mutex.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the AVStream filter for which to release the processing mutex.
 
 ## -remarks
 
-For more AVStream-specific information about mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/processing-mutex-in-avstream">Processing Mutex in AVStream</a>.
+For more AVStream-specific information about mutexes, see <a href="/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a> and <a href="/windows-hardware/drivers/stream/processing-mutex-in-avstream">Processing Mutex in AVStream</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilteracquireprocessingmutex">KsFilterAcquireProcessingMutex</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilteracquireprocessingmutex">KsFilterAcquireProcessingMutex</a>

@@ -66,17 +66,16 @@ None
 
 ## -remarks
 
-Miniport drivers call <b>VideoPortAcquireSpinLockAtDpcLevel</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a> for better driver performance if and only if they are already running at IRQL = DISPATCH_LEVEL.
+Miniport drivers call <b>VideoPortAcquireSpinLockAtDpcLevel</b> instead of <a href="/previous-versions/ff570175(v=vs.85)">VideoPortAcquireSpinLock</a> for better driver performance if and only if they are already running at IRQL = DISPATCH_LEVEL.
 
 If a miniport driver is running at IRQL < DISPATCH_LEVEL, it should call <b>VideoPortAcquireSpinLock</b> to have IRQL raised by that routine. <b>VideoPortAcquireSpinLockAtDpcLevel</b> requires the caller to be running already at IRQL = DISPATCH_LEVEL, so no raise is necessary.
 
-The caller should release the spin lock with <a href="https://msdn.microsoft.com/library/windows/hardware/ff570358">VideoPortReleaseSpinLockFromDpcLevel</a> as quickly as possible.
+The caller should release the spin lock with <a href="/previous-versions/ff570358(v=vs.85)">VideoPortReleaseSpinLockFromDpcLevel</a> as quickly as possible.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570175">VideoPortAcquireSpinLock</a>
+<a href="/previous-versions/ff570175(v=vs.85)">VideoPortAcquireSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570358">VideoPortReleaseSpinLockFromDpcLevel</a>
-
+<a href="/previous-versions/ff570358(v=vs.85)">VideoPortReleaseSpinLockFromDpcLevel</a>

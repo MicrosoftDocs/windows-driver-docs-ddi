@@ -56,11 +56,11 @@ The <b>DXGK_FAULT_ERROR_CODE</b> structure provides a status code for the graphi
 
 When set, this indicates that the GPU error code is specific to the particular vendor. In this case, <b>DeviceSpecificCode</b> should be set to a vendor specific error code.
 
-When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
+When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
 
 ### -field GeneralErrorCode
 
-General error code defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a>.
+General error code defined by <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a>.
 
 ### -field IsDeviceSpecificCodeReservedBit
 
@@ -68,7 +68,7 @@ Same as <b>IsDeviceSpecificCode</b> member above:
 
 When set, this indicates that the GPU error code is specific to the particular vendor. In this case, <b>DeviceSpecificCode</b> should be set to a vendor specific error code.
 
-When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
+When not set, this indicates that the GPU error can be described via a set of predefined values in <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a> enumeration. <b>GeneralErrorCode</b> value should be set to the corresponding error code.
 
 ### -field DeviceSpecificCode
 
@@ -76,5 +76,4 @@ A device specific error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgk_general_error_code">DXGK_GENERAL_ERROR_CODE</a>

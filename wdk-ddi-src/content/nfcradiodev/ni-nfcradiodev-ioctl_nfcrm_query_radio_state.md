@@ -60,7 +60,7 @@ None
 
 ### -output-buffer
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcradiodev/ns-nfcradiodev-_nfcrm_radio_state"> NFCRM_RADIO_STATE structure</a>
+<a href="/windows-hardware/drivers/ddi/nfcradiodev/ns-nfcradiodev-_nfcrm_radio_state"> NFCRM_RADIO_STATE structure</a>
 
 ### -output-buffer-length
 
@@ -77,4 +77,3 @@ sizeof(NFCRM_RADIO_STATE)
 ## -remarks
 
 The <b>STATUS_INVALID_PARAMETER</b> return code is no longer required. A bug was discovered in Windows 10 build 10240, that Windows would send a non-null input parameter with this IOCTL. This bug was fixed in later versions of Windows. To simplify code, drivers can ignore the input parameters in all versions of Windows 10.
-

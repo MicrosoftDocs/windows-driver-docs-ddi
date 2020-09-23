@@ -56,18 +56,18 @@ Specifies a set of flags that determine the behavior of this function. Currently
 
 | Flag | Meaning |
 | --- | --- |
-| **WIAS_GET_DOWNSAMPLED_SIZE_ONLY** | Do not copy the downsampled data to the destination buffer. Instead, set the following members of the [WIAS_DOWN_SAMPLE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info) structure: **ulDownSampledHeight**, **ulDownSampleWidth**, **ulAlignedHeight**, **ulAlignedWidth**. |
+| **WIAS_GET_DOWNSAMPLED_SIZE_ONLY** | Do not copy the downsampled data to the destination buffer. Instead, set the following members of the [WIAS_DOWN_SAMPLE_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info.md) structure: **ulDownSampledHeight**, **ulDownSampleWidth**, **ulAlignedHeight**, **ulAlignedWidth**. |
 
 ### -param pInfo 
 
 [in, out]
-Pointer to the [WIAS_DOWN_SAMPLE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info) structure that contains all of the information needed for the downsampling operation.
+Pointer to the [WIAS_DOWN_SAMPLE_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info.md) structure that contains all of the information needed for the downsampling operation.
 
 ## -returns
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
@@ -97,7 +97,7 @@ If the buffer that receives the downsampled data has already been allocated, the
 - **ulSrcBufSize**
 - **pDestBuffer**
 
-If the caller sets **pDestBuffer** to **NULL**, the destination buffer is allocated by the WIA service. On return from this function, **pDestBuffer** points to the destination buffer. The caller is responsible for freeing this memory when the operation is finished, and does this by calling [**CoTaskMemFree**](https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) on the buffer.
+If the caller sets **pDestBuffer** to **NULL**, the destination buffer is allocated by the WIA service. On return from this function, **pDestBuffer** points to the destination buffer. The caller is responsible for freeing this memory when the operation is finished, and does this by calling [**CoTaskMemFree**](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) on the buffer.
 
 Because this function is not able to produce partial output lines, the number of scan lines in the input buffer must be an integer multiple of the scaling factor. For example, suppose the input buffer contains an image sampled at 600 dpi, which you intend to downsample to an equivalent 50 dpi image. In this case, you are scaling down the original image by a factor of 12 (because 600 / 50 = 12). This means that the function must receive 12 input lines for each output line that it produces.
 
@@ -105,5 +105,4 @@ If the original image has a resolution of R*in* dpi, and is to be scaled down to
 
 ## -see-also
 
-[WIAS_DOWN_SAMPLE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info)
-
+[WIAS_DOWN_SAMPLE_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info.md)

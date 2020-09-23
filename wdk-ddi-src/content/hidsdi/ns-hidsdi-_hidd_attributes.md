@@ -72,11 +72,10 @@ Specifies the manufacturer's revision number for a HIDClass device.
 
 ## -remarks
 
-A caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>, uses this structure to obtain a device's vendor information.
+A caller of <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>, uses this structure to obtain a device's vendor information.
 
-Before using a HIDD_ATTRIBUTES structure with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">HIDClass support routines</a>, the caller must set the <b>Size</b> member.
+Before using a HIDD_ATTRIBUTES structure with <a href="/windows-hardware/drivers/ddi/index">HIDClass support routines</a>, the caller must set the <b>Size</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>
-
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>

@@ -58,11 +58,11 @@ Indicates the type of power reporting that is supported by the device.
 
 ### -field IsStatisticsReportingSupported
 
-Indicates whether the device supports <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a>.
+Indicates whether the device supports <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a>.
 
 ### -field IsStatisticsUpdatingSupported
 
-Indicates whether the device supports <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a>.
+Indicates whether the device supports <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a>.
 
 ### -field CardAuthenticationLength
 
@@ -70,7 +70,7 @@ The length, in bytes, of the name of the type of authentication that the device 
 
 ### -field SupportedEncryptionAlgorithms
 
-The supported encryption algorithm. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrdataencryption">MsrDataEncryption</a>.
+The supported encryption algorithm. See <a href="/windows-hardware/drivers/ddi/pointofservicedriverinterface/ne-pointofservicedriverinterface-_msrdataencryption">MsrDataEncryption</a>.
 
 ### -field AuthenticationLevel
 
@@ -95,4 +95,3 @@ Indicates whether the device is capable of masking track data.
 ### -field IsTransmitSentinelsSupported
 
 Indicates whether the devices is able to transmit start and end sentinels.
-

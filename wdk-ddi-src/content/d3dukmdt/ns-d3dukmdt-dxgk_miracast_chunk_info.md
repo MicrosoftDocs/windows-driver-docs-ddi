@@ -52,11 +52,11 @@ Contains info about a specified wireless display (Miracast) encode chunk.
 
 ### -field ChunkType
 
-The type of chunk that is to be processed, specified as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_miracast_chunk_type">DXGK_MIRACAST_CHUNK_TYPE</a> enumeration value.
+The type of chunk that is to be processed, specified as a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_miracast_chunk_type">DXGK_MIRACAST_CHUNK_TYPE</a> enumeration value.
 
 ### -field ChunkId
 
-The identifier for this chunk, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-dxgk_miracast_chunk_id">DXGK_MIRACAST_CHUNK_ID</a>.
+The identifier for this chunk, of type <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-dxgk_miracast_chunk_id">DXGK_MIRACAST_CHUNK_ID</a>.
 
 ### -field ProcessingTime
 
@@ -68,9 +68,8 @@ The encode bit rate, in kilobits per second, that the display miniport driver re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-dxgk_miracast_chunk_id">DXGK_MIRACAST_CHUNK_ID</a>
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-dxgk_miracast_chunk_id">DXGK_MIRACAST_CHUNK_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_miracast_chunk_type">DXGK_MIRACAST_CHUNK_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_miracast_chunk_type">DXGK_MIRACAST_CHUNK_TYPE</a>

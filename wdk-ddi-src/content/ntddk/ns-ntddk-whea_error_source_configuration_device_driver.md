@@ -57,7 +57,7 @@ A GUID corresponding to the driver generating the errors.
 
 ### -field LogTag
 
-Used by device drivers that also create [SEL (System Event Log)](https://docs.microsoft.com/windows-hardware/drivers/whea/querying-the-system-event-log-for-hardware-error-events) data to help identify the source of the SEL log.
+Used by device drivers that also create [SEL (System Event Log)](/windows-hardware/drivers/whea/querying-the-system-event-log-for-hardware-error-events) data to help identify the source of the SEL log.
 
 ### -field Reserved
 
@@ -85,7 +85,7 @@ A GUID identifying the creator, i.e. the organization, that is generating the er
 
 ### -field PartitionId
 
-A GUID that is used in the [Common Platform Error Record (CPER)](https://docs.microsoft.com/windows-hardware/drivers/whea/error-records). Can be zero.
+A GUID that is used in the [Common Platform Error Record (CPER)](/windows-hardware/drivers/whea/error-records). Can be zero.
 
 ## -remarks
 
@@ -94,4 +94,3 @@ The WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure is used as input to 
 For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
 
 ## -see-also
-

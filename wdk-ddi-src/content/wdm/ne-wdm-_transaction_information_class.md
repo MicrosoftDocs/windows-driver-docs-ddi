@@ -48,21 +48,21 @@ api_name:
 
 ## -description
 
-The <b>TRANSACTION_INFORMATION_CLASS</b> enumeration specifies the type of information that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a> can set and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a> can retrieve for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
+The <b>TRANSACTION_INFORMATION_CLASS</b> enumeration specifies the type of information that <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a> can set and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a> can retrieve for a <a href="/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
 
 ## -enum-fields
 
 ### -field TransactionBasicInformation
 
-Information about a transaction manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_basic_information">TRANSACTION_BASIC_INFORMATION</a> structure.
+Information about a transaction manager object is stored in a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_basic_information">TRANSACTION_BASIC_INFORMATION</a> structure.
 
 ### -field TransactionPropertiesInformation
 
-Information about a transaction manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_properties_information">TRANSACTION_PROPERTIES_INFORMATION</a> structure.
+Information about a transaction manager object is stored in a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_properties_information">TRANSACTION_PROPERTIES_INFORMATION</a> structure.
 
 ### -field TransactionEnlistmentInformation
 
-Information about a transaction manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_enlistments_information">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
+Information about a transaction manager object is stored in a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_transaction_enlistments_information">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
 
 ### -field TransactionSuperiorEnlistmentInformation
 
@@ -70,9 +70,8 @@ Information about a transaction manager object is stored in a <b>TRANSACTION_SUP
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntsetinformationtransaction">ZwSetInformationTransaction</a>

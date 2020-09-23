@@ -81,5 +81,4 @@ Receives the value of the member.  Or, the value of the type, if <i>Field</i> is
 
 ## -returns
 
-If the function succeeds, the return value is zero. Otherwise, the return value is an <a href="https://docs.microsoft.com/previous-versions/ff550910(v=vs.85)">IG_DUMP_SYMBOL_INFO error code</a>.
-
+If the function succeeds, the return value is zero. Otherwise, the return value is an <a href="/previous-versions/ff550910(v=vs.85)">IG_DUMP_SYMBOL_INFO error code</a>.

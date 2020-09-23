@@ -65,13 +65,12 @@ Length, in bytes, of the output buffer.
 
 The output buffer includes the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure plus the output block that immediately follows it, if any.
 
-See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for more details on handling a DSM.
+See [Data Set Management Overview](/windows-hardware/drivers/storage/data-set-management-overview) for more details on handling a DSM.
 
 ## -see-also
 
-[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+[Data Set Management Overview](/windows-hardware/drivers/storage/data-set-management-overview)
 
 [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
 
 [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md)
-

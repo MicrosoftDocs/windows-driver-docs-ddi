@@ -61,9 +61,8 @@ Output pointer for the reference time. This parameter points to a caller-allocat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-imasterclock">IMasterClock</a>
+<a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-imasterclock">IMasterClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iminiportdmus-newstream">IMiniportDMus::NewStream</a>
-
+<a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iminiportdmus-newstream">IMiniportDMus::NewStream</a>

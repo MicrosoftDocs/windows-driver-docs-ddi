@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>USB_BUS_INFORMATION_LEVEL_1</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a> interface routine to report information about the bus.
+The <b>USB_BUS_INFORMATION_LEVEL_1</b> structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a> interface routine to report information about the bus.
 
 ## -struct-fields
 
@@ -72,15 +72,14 @@ Specifies the symbolic name for the host controller, in Unicode.
 
 ## -remarks
 
-Caller must set the <i>Level</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a> routine to 1. 
+Caller must set the <i>Level</i> parameter of the <a href="/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a> routine to 1. 
 
-For more information about how to obtain the proper level of USB interface, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540046(v=vs.85)">USB Routines</a>.
+For more information about how to obtain the proper level of USB interface, see <a href="/previous-versions/windows/hardware/drivers/ff540046(v=vs.85)">USB Routines</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a>
+<a href="/windows-hardware/drivers/ddi/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
-
+<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>

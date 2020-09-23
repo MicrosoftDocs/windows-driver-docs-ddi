@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The DXVA_PicResample structure is sent by the host decoder to the accelerator to control the resampling process. This process is invoked when the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> is equal to 4.
+The DXVA_PicResample structure is sent by the host decoder to the accelerator to control the resampling process. This process is invoked when the <a href="/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> is equal to 4.
 
 ## -struct-fields
 
@@ -103,4 +103,3 @@ Specifies the full height of the area of the destination picture in units of lum
 The clipping performed by <b>dwPicResampleFullDestHeight</b> is used to generate any samples outside the source resampling area. (This value is necessary for H.263 Annex P support of custom source formats in which the luminance width or height is not divisible by 16.)
 
 In the case of H.263 Annex O Spatial Scalability, the value of <b>wPicResampleRcontrol </b>is 1. This value corresponds to the value of <i>RCRPR</i> in H.263 Annex P that is equivalent to the upsampling needed for H.263 Annex O spatial scalability. In the case of H.263 Annex P Reference Picture Resampling, <b>wPicResampleRcontrol</b> is equal to the H.263 variable <i>RCRPR</i>.
-

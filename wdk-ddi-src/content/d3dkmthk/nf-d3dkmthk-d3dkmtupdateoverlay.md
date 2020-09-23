@@ -57,7 +57,7 @@ The <b>D3DKMTUpdateOverlay</b> function modifies a kernel-mode overlay object.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_updateoverlay">D3DKMT_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_updateoverlay">D3DKMT_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
 
 ## -returns
 
@@ -68,11 +68,10 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_SUCCESS** | The kernel-mode overlay object was successfully modified. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTUpdateOverlay](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtupdateoverlay)  could not complete because of insufficient memory. | 
+| **STATUS_NO_MEMORY** | [D3DKMTUpdateOverlay]()  could not complete because of insufficient memory. | 
 
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_updateoverlay">D3DKMT_UPDATEOVERLAY</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_updateoverlay">D3DKMT_UPDATEOVERLAY</a>

@@ -84,7 +84,7 @@ DXGK_MIPI_DSI_INTERFACE allows the OS to request Display Serial Interface (DSI) 
 
 ## -remarks
 
-A kernel-mode component that needs to use the MIPI DSI Display Control interface calls the display miniport driver's [DxgkDdiQueryInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_interface) function to get its DSI-related functional interface.
+A kernel-mode component that needs to use the MIPI DSI Display Control interface calls the display miniport driver's [DxgkDdiQueryInterface](./nc-dispmprt-dxgkddi_query_interface.md) function to get its DSI-related functional interface.
 
 ## -see-also
 
@@ -96,9 +96,8 @@ A kernel-mode component that needs to use the MIPI DSI Display Control interface
 
 [DsiCaps](nc-dispmprt-dxgkddi_dsicaps.md)
 
-[DxgkDdiQueryInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_interface)
+[DxgkDdiQueryInterface](./nc-dispmprt-dxgkddi_query_interface.md)
 
 [DsiReset](nc-dispmprt-dxgkddi_dsireset.md)
 
 [DsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md)
-

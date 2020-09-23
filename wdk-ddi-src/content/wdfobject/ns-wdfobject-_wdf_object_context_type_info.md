@@ -66,7 +66,7 @@ A quoted string that represents the name of a driver-defined structure that cont
 
 ### -field ContextSize
 
-The size, in bytes, of the structure that the <b>ContextName</b> member specifies. The framework allocates space for this structure when it creates an object. If the <b>ContextSizeOverride</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure is nonzero, its value overrides the value in the <b>ContextSize</b> member.
+The size, in bytes, of the structure that the <b>ContextName</b> member specifies. The framework allocates space for this structure when it creates an object. If the <b>ContextSizeOverride</b> member of the <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure is nonzero, its value overrides the value in the <b>ContextSize</b> member.
 
 ### -field UniqueType
 
@@ -78,27 +78,26 @@ For internal use.
 
 ## -remarks
 
-For each object instance, the framework allocates context memory with a size that is based on the value of the <b>ContextSize</b> member or the value of the <b>ContextSizeOverride</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure.
+For each object instance, the framework allocates context memory with a size that is based on the value of the <b>ContextSize</b> member or the value of the <b>ContextSizeOverride</b> member of the <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure.
 
-To create and initialize a WDF_OBJECT_CONTEXT_TYPE_INFO structure, drivers should use either the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-declare-context-type">WDF_DECLARE_CONTEXT_TYPE</a> macro or the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-declare-context-type-with-name">WDF_DECLARE_CONTEXT_TYPE_WITH_NAME</a> macro.
+To create and initialize a WDF_OBJECT_CONTEXT_TYPE_INFO structure, drivers should use either the <a href="/windows-hardware/drivers/wdf/wdf-declare-context-type">WDF_DECLARE_CONTEXT_TYPE</a> macro or the <a href="/windows-hardware/drivers/wdf/wdf-declare-context-type-with-name">WDF_DECLARE_CONTEXT_TYPE_WITH_NAME</a> macro.
 
-To insert a pointer to this structure into a WDF_OBJECT_ATTRIBUTES structure, drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-object-attributes-set-context-type">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a> macro.
+To insert a pointer to this structure into a WDF_OBJECT_ATTRIBUTES structure, drivers should use the <a href="/windows-hardware/drivers/wdf/wdf-object-attributes-set-context-type">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a> macro.
 
-For more information about using these macros, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
+For more information about using these macros, see <a href="/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-declare-context-type">WDF_DECLARE_CONTEXT_TYPE</a>
+<a href="/windows-hardware/drivers/wdf/wdf-declare-context-type">WDF_DECLARE_CONTEXT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-declare-context-type-with-name">WDF_DECLARE_CONTEXT_TYPE_WITH_NAME</a>
+<a href="/windows-hardware/drivers/wdf/wdf-declare-context-type-with-name">WDF_DECLARE_CONTEXT_TYPE_WITH_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdf-object-attributes-set-context-type">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>
-
+<a href="/windows-hardware/drivers/wdf/wdf-object-attributes-set-context-type">WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE</a>

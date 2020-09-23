@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counterset. Most developers will use the [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated RegisterXxx or InitRegistrationInformationXxx functions instead of using this structure directly.
+The `PCW_REGISTRATION_INFORMATION` structure supplies details about the provider and the counterset. Most developers will use the [CTRPP](/windows/win32/perfctrs/ctrpp)-generated RegisterXxx or InitRegistrationInformationXxx functions instead of using this structure directly.
 
 ## -struct-fields
 
@@ -161,5 +161,4 @@ The CTRPP-generated InitRegistrationInformation function can optionally verify t
 
 [PcwRegister function](nf-wdm-pcwregister.md)
 
-[CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)
-
+[CTRPP](/windows/win32/perfctrs/ctrpp)

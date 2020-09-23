@@ -105,37 +105,36 @@ The reparse GUID specified by the caller did not match the GUID of the reparse p
 
 ## -remarks
 
-Minifilter drivers should use <b>FltUntagFile</b> instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-delete-reparse-point">FSCTL_DELETE_REPARSE_POINT</a> to delete a reparse point. 
+Minifilter drivers should use <b>FltUntagFile</b> instead of <a href="/windows-hardware/drivers/ifs/fsctl-delete-reparse-point">FSCTL_DELETE_REPARSE_POINT</a> to delete a reparse point. 
 
-A minifilter driver can set a reparse tag on a file or directory by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfile">FltTagFile</a>. 
+A minifilter driver can set a reparse tag on a file or directory by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfile">FltTagFile</a>. 
 
 For more information about reparse points, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_tag_data_buffer">FLT_TAG_DATA_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_tag_data_buffer">FLT_TAG_DATA_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-delete-reparse-point">FSCTL_DELETE_REPARSE_POINT</a>
+<a href="/windows-hardware/drivers/ifs/fsctl-delete-reparse-point">FSCTL_DELETE_REPARSE_POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-reparse-point">FSCTL_GET_REPARSE_POINT</a>
+<a href="/windows-hardware/drivers/ifs/fsctl-get-reparse-point">FSCTL_GET_REPARSE_POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point">FSCTL_SET_REPARSE_POINT</a>
+<a href="/windows-hardware/drivers/ifs/fsctl-set-reparse-point">FSCTL_SET_REPARSE_POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfile">FltTagFile</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfile">FltTagFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagmicrosoft">IsReparseTagMicrosoft</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagmicrosoft">IsReparseTagMicrosoft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagnamesurrogate">IsReparseTagNameSurrogate</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-isreparsetagnamesurrogate">IsReparseTagNameSurrogate</a>

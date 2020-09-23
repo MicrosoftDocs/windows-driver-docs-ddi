@@ -50,7 +50,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_MAC_FRAME_STATISTICS structure records statistical counters for the IEEE media access
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_MAC_FRAME_STATISTICS structure records statistical counters for the IEEE media access
   control (MAC) sublayer of the 802.11 station.
 
 ## -struct-fields
@@ -82,7 +82,7 @@ The number of unencrypted received MAC protocol data unit (MPDU) frames that the
      discarded when the IEEE 802.11
      <b>dot11ExcludeUnencrypted</b> management information base (MIB) object is enabled. For more information
      about this MIB object, see
-     <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg159162(v=winembedded.80)">OID_DOT11_EXCLUDE_UNENCRYPTED</a>.
+     <a href="/previous-versions/windows/embedded/gg159162(v=winembedded.80)">OID_DOT11_EXCLUDE_UNENCRYPTED</a>.
 
 
 MPDU frames are considered unencrypted when the Protected Frame subfield of the Frame Control field
@@ -190,11 +190,11 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
+<a href="/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
    Statistics</a>
 
 
@@ -203,5 +203,4 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>
-
+<a href="/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The DEVQUERYPRINT_INFO structure is used as an input parameter to a printer interface DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-devqueryprintex">DevQueryPrintEx</a> function.
+The DEVQUERYPRINT_INFO structure is used as an input parameter to a printer interface DLL's <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-devqueryprintex">DevQueryPrintEx</a> function.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Spooler-supplied printer handle.
 
 ### -field pDevMode
 
-Spooler-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure describing printer characteristics required by the print job.
+Spooler-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure describing printer characteristics required by the print job.
 
 ### -field pszErrorStr
 
@@ -84,5 +84,4 @@ Driver-supplied length, in bytes, of the error string supplied in the buffer poi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-devqueryprintex">DevQueryPrintEx</a>
-
+<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-devqueryprintex">DevQueryPrintEx</a>

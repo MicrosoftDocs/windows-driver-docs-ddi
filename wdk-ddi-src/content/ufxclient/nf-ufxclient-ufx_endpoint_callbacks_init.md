@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure.<div class="alert"><b>Note</b>  <p class="note">Note that there are currently no endpoint callback functions defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure. 
+The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro initializes the <a href="/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure.<div class="alert"><b>Note</b>  <p class="note">Note that there are currently no endpoint callback functions defined in the <a href="/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure. 
 
 </div>
 <div> </div>
@@ -56,12 +56,11 @@ The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro initializes the <a href="https://do
 ### -param Callbacks 
 
 [out]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure.
 
 ## -remarks
 
-The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro will set all fields of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure to zero and set the size field appropriately.
+The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro will set all fields of the <a href="/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure to zero and set the size field appropriately.
 
-<div class="alert"><b>Note</b>  Note that there are currently no endpoint callback functions defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure. </div>
+<div class="alert"><b>Note</b>  Note that there are currently no endpoint callback functions defined in the <a href="/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure. </div>
 <div> </div>
-

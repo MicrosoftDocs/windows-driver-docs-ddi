@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>DebugCreateEx</b> function creates a new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">client object</a> and returns an interface pointer to it.
+The <b>DebugCreateEx</b> function creates a new <a href="/windows-hardware/drivers/debugger/client-objects">client object</a> and returns an interface pointer to it.
 
 ## -parameters
 
 ### -param InterfaceId 
 
 [in]
-Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
+Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
 
 ### -param DbgEngOptions 
 
@@ -67,7 +67,7 @@ Receives an interface pointer for the new client.  The type of this interface is
 
 ## -returns
 
-This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return other error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -106,9 +106,8 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-com-interfaces">Client Functions</a>
+<a href="/windows-hardware/drivers/debugger/client-com-interfaces">Client Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">Client Objects</a>
-
+<a href="/windows-hardware/drivers/debugger/client-objects">Client Objects</a>

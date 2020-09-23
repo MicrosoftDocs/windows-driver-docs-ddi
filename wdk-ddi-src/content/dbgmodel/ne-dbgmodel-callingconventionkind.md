@@ -69,5 +69,4 @@ The calling convention is thiscall
 
 ## -see-also
 
-[Debugger Data Model C++ Interfaces Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
-
+[Debugger Data Model C++ Interfaces Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

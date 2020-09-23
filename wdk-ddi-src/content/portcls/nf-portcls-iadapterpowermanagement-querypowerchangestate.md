@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <code>QueryPowerChangeState</code> method is called by PortCls in response to the receipt of an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a> power IRP.
+The <code>QueryPowerChangeState</code> method is called by PortCls in response to the receipt of an <a href="/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a> power IRP.
 
 ## -parameters
 
 ### -param NewStateQuery 
 
 [in]
-Specifies the new power state that is being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewStateQuery</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values listed in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>.
+Specifies the new power state that is being requested for the device. This parameter is a union of type POWER_STATE. The new power state (<i>NewStateQuery</i>.<b>DeviceState</b>) can be one of the DEVICE_POWER_STATE enumeration values listed in <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>.
 
 ## -returns
 
@@ -67,13 +67,12 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement-powerchangestate">IAdapterPowerManagement::PowerChangeState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>
-
+<a href="/windows-hardware/drivers/kernel/irp-mn-query-power">IRP_MN_QUERY_POWER</a>

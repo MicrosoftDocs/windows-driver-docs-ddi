@@ -73,13 +73,12 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback">IPrinterBidiSetRequestCallback</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback">IPrinterBidiSetRequestCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation">IPrinterExtensionAsyncOperation</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation">IPrinterExtensionAsyncOperation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2">IPrinterQueue2</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2">IPrinterQueue2</a>

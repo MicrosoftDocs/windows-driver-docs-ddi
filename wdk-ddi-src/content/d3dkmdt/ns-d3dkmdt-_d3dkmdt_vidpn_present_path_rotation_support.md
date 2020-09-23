@@ -70,32 +70,31 @@ The path is capable of displaying content that is rotated 270 degrees.
 
 ### -field Offset0
 
-The path adds no rotational offset. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-rotation-in-a-display-miniport-driver">Clone-mode requirements starting with Windows 8.1 Update</a>.
+The path adds no rotational offset. For more info, see <a href="/windows-hardware/drivers/display/supporting-rotation-in-a-display-miniport-driver">Clone-mode requirements starting with Windows 8.1 Update</a>.
 
 Supported starting with Windows 8.1 Update.
 
 ### -field Offset90
 
-The path adds a rotational offset of 90 degrees. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-rotation-in-a-display-miniport-driver">Clone-mode requirements starting with Windows 8.1 Update</a>.
+The path adds a rotational offset of 90 degrees. For more info, see <a href="/windows-hardware/drivers/display/supporting-rotation-in-a-display-miniport-driver">Clone-mode requirements starting with Windows 8.1 Update</a>.
 
 Supported starting with Windows 8.1 Update.
 
 ### -field Offset180
 
-The path adds a rotational offset of 180 degrees. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-rotation-in-a-display-miniport-driver">Clone-mode requirements starting with Windows 8.1 Update</a>.
+The path adds a rotational offset of 180 degrees. For more info, see <a href="/windows-hardware/drivers/display/supporting-rotation-in-a-display-miniport-driver">Clone-mode requirements starting with Windows 8.1 Update</a>.
 
 Supported starting with Windows 8.1 Update.
 
 ### -field Offset270
 
-The path adds a rotational offset of 270 degrees. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-rotation-in-a-display-miniport-driver">Clone-mode requirements starting with Windows 8.1 Update</a>.
+The path adds a rotational offset of 270 degrees. For more info, see <a href="/windows-hardware/drivers/display/supporting-rotation-in-a-display-miniport-driver">Clone-mode requirements starting with Windows 8.1 Update</a>.
 
 Supported starting with Windows 8.1 Update.
 
 ## -remarks
 
-The <b>RotationSupport</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</b> structure.
+The <b>RotationSupport</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT</b> structure.
 
 <div class="alert"><b>Note</b>  The operating system  does not update the value of the interface version value <b>DXGKDDI_INTERFACE_VERSION</b> to <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b>. If you want to use the path-independent members in this structure, you should be sure that the interface version in your driver is >= <b>DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION</b> (0x4003).</div>
 <div> </div>
-

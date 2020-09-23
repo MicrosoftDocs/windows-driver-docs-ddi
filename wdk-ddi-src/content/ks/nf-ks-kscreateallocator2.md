@@ -60,7 +60,7 @@ Specifies the handle to the sink connection on which to create the allocator.
 ### -param AllocatorFraming 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure that specifies framing for the allocator.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure that specifies framing for the allocator.
 
 ### -param AllocatorHandle 
 
@@ -73,17 +73,16 @@ Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
 
 ## -remarks
 
-This is a new version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://docs.microsoft.com/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function must be called before this function is called.
+This is a new version of the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function must be called before this function is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
+<a href="/windows/win32/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>

@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-Provides additional information for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2">DxgkDdi_ControlInterrupt2 </a>when VSYNC is being utilized.
+Provides additional information for <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2">DxgkDdi_ControlInterrupt2 </a>when VSYNC is being utilized.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ Indicates that the VSYNC interrupt is disabled and the display driver will ensur
 ### -field DXGK_VSYNC_DISABLE_NO_PHASE
 
 Indicates that the VSYNC interrupt is disabled, but that the display driver will not require re-entering the VSYNC enabled state in phase of prior interrupts.
-

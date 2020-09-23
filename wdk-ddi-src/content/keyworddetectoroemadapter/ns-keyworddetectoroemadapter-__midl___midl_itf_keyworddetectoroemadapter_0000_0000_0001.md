@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>SOUNDDETECTOR_PATTERNHEADER</b> structure specifies the pattern header for the sound detector in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-patterns">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a> property.
+The <b>SOUNDDETECTOR_PATTERNHEADER</b> structure specifies the pattern header for the sound detector in the  <a href="/windows-hardware/drivers/audio/ksproperty-sounddetector-patterns">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a> property.
 
 ## -struct-fields
 
@@ -62,5 +62,4 @@ The keyword pattern format, expressed as a GUID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-patterns">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-sounddetector-patterns">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a>

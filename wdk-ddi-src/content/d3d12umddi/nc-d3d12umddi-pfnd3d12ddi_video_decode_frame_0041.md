@@ -54,7 +54,7 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 ### -param hDrvDecoder
 
-The video decoder that contains internal state for this decode session.  Examples include motion vectors, internal temporary allocations, etc.  See [Creating a Video Decoder](https://docs.microsoft.com/windows-hardware/drivers/display/creating-a-video-decode-device).
+The video decoder that contains internal state for this decode session.  Examples include motion vectors, internal temporary allocations, etc.  See [Creating a Video Decoder](/windows-hardware/drivers/display/creating-a-video-decode-device).
 
 ### -param pOutputStreamParameters
 
@@ -88,4 +88,3 @@ PFND3D12DDI_VIDEO_DECODE_FRAME_0041
 ```
 
 ## -see-also
-

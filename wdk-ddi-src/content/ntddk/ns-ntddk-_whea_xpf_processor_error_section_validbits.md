@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of a [WHEA_XPF_PROCESSOR_ERROR_SECTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_processor_error_section) structure contain valid data and the number of structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
+The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of a [WHEA_XPF_PROCESSOR_ERROR_SECTION](./ns-ntddk-_whea_xpf_processor_error_section.md) structure contain valid data and the number of structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 ## -struct-fields
 
@@ -67,11 +67,11 @@ A single bit that indicates that the <b>CpuId</b> member of the WHEA_XPF_PROCESS
 
 ### -field DUMMYSTRUCTNAME.ProcInfoCount
 
-The number of [WHEA_XPF_PROCINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo) structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
+The number of [WHEA_XPF_PROCINFO](./ns-ntddk-_whea_xpf_procinfo.md) structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 ### -field DUMMYSTRUCTNAME.ContextInfoCount
 
-The number of [WHEA_XPF_CONTEXT_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info) structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
+The number of [WHEA_XPF_CONTEXT_INFO](./ns-ntddk-_whea_xpf_context_info.md) structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 ### -field DUMMYSTRUCTNAME.Reserved
 
@@ -83,11 +83,10 @@ A ULONGLONG representation of the contents of the WHEA_XPF_PROCESSOR_ERROR_SECTI
 
 ## -remarks
 
-A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the [WHEA_XPF_PROCESSOR_ERROR_SECTION]([WHEA_XPF_PROCESSOR_ERROR_SECTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_processor_error_section) structure.
+A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the [WHEA_XPF_PROCESSOR_ERROR_SECTION]([WHEA_XPF_PROCESSOR_ERROR_SECTION](./ns-ntddk-_whea_xpf_processor_error_section.md) structure.
 
 ## -see-also
 
-- [WHEA_XPF_CONTEXT_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info)
-- [WHEA_XPF_PROCESSOR_ERROR_SECTION]([WHEA_XPF_PROCESSOR_ERROR_SECTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_processor_error_section)
-- [WHEA_XPF_PROCINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_procinfo)
-
+- [WHEA_XPF_CONTEXT_INFO](./ns-ntddk-_whea_xpf_context_info.md)
+- [WHEA_XPF_PROCESSOR_ERROR_SECTION]([WHEA_XPF_PROCESSOR_ERROR_SECTION](./ns-ntddk-_whea_xpf_processor_error_section.md)
+- [WHEA_XPF_PROCINFO](./ns-ntddk-_whea_xpf_procinfo.md)

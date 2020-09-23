@@ -72,13 +72,12 @@ If the system disk is formatted with an MBR partition table, this specifies the 
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a> returns this structure to describe the boot and system disks.
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a> returns this structure to describe the boot and system disks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_bootdisk_information_ex">BOOTDISK_INFORMATION_EX</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_bootdisk_information_ex">BOOTDISK_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a>

@@ -103,7 +103,7 @@ If set, the print provider supplies print change notifications, by either the po
 
 If set, the print application must poll to detect printer changes.
 
-If clear, the print provider notifies the spooler of changes by calling <a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>.
+If clear, the print provider notifies the spooler of changes by calling <a href="/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>.
 
 (See the following Remarks section.)
 
@@ -143,9 +143,9 @@ If the print provider does not request polling (that is, it does not set PRINTER
 
 If the provider does request polling (that is, it sets PRINTER_NOTIFY_STATUS_POLL), it should not call <b>ReplyPrinterChangeNotification</b>. Instead, the spooler signals the application at regular intervals.
 
-Both polled and nonpolled print provider must return the current state of all requested information types whenever its <a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a> function is called.
+Both polled and nonpolled print provider must return the current state of all requested information types whenever its <a href="/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a> function is called.
 
-For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
+For additional information, see <a href="/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
 
 ## -see-also
 
@@ -157,5 +157,4 @@ For additional information, see <a href="https://docs.microsoft.com/windows-hard
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>
-
+<a href="/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>

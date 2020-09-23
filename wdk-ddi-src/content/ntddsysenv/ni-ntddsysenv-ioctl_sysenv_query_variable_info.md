@@ -61,11 +61,11 @@ Size of ULONG.
 
 ### -output-buffer
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_sysenv_variable_info">SYSENV_VARIABLE_INFO</a> structure that contains variable information.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_sysenv_variable_info">SYSENV_VARIABLE_INFO</a> structure that contains variable information.
 
 ### -output-buffer-length
 
-The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_sysenv_variable_info">SYSENV_VARIABLE_INFO</a> structure.
+The size of the <a href="/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_sysenv_variable_info">SYSENV_VARIABLE_INFO</a> structure.
 
 ### -in-out-buffer
 
@@ -73,21 +73,20 @@ The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>

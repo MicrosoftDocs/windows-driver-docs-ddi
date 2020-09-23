@@ -230,9 +230,8 @@ The following table shows the members of the  EPcMiniportEngineEvent enum that w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/glitch-reporting-for-offloaded-audio">Glitch Reporting for Offloaded Audio</a>
+<a href="/windows-hardware/drivers/audio/glitch-reporting-for-offloaded-audio">Glitch Reporting for Offloaded Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsetwhelper-miniportwriteetwevent">MiniportWriteEtwEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsetwhelper-miniportwriteetwevent">MiniportWriteEtwEvent</a>

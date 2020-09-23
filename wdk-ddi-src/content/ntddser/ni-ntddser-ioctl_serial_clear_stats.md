@@ -48,7 +48,7 @@ api_name:
 
 The <b>IOCTL_SERIAL_CLEAR_STATS</b> request clears the performance statistics for a serial device.
 
-To obtain the performance statistics, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a> request.
+To obtain the performance statistics, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a> request.
 
 ## -ioctlparameters
 
@@ -76,9 +76,8 @@ None.
 
 The <b>Information</b> field is set to zero.
 
-The <b>Status</b> field is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> field is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a>

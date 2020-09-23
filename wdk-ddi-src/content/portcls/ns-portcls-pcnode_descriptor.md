@@ -58,35 +58,34 @@ Set to zero. No flag bits are currently defined.
 
 ### -field AutomationTable
 
-Pointer to the automation table, which is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>. This member can be set to <b>NULL</b> to indicate no automation support. The automation table specifies the handlers for the properties and events belonging to the node instance.
+Pointer to the automation table, which is a structure of type <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>. This member can be set to <b>NULL</b> to indicate no automation support. The automation table specifies the handlers for the properties and events belonging to the node instance.
 
 ### -field Type
 
-Specifies the node type. This member is a pointer to a GUID that uniquely identifies the node type. See the list of node-type GUIDs in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-topology-nodes">Audio Topology Nodes</a>.
+Specifies the node type. This member is a pointer to a GUID that uniquely identifies the node type. See the list of node-type GUIDs in <a href="/windows-hardware/drivers/audio/audio-topology-nodes">Audio Topology Nodes</a>.
 
 ### -field Name
 
-Pointer to a GUID that represents the name of this topology node. This GUID is specified in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a>get-property request to obtain the corresponding name string for the node. This pointer can be set to <b>NULL</b> to indicate that the GUID in the <b>Type</b> member should be used to determine the node name.
+Pointer to a GUID that represents the name of this topology node. This GUID is specified in a <a href="/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a>get-property request to obtain the corresponding name string for the node. This pointer can be set to <b>NULL</b> to indicate that the GUID in the <b>Type</b> member should be used to determine the node name.
 
 ## -remarks
 
 If a filter contains only a single node of the type specified by the <b>Type</b> member, then the <b>Name</b> member can be specified as <b>NULL</b> because the <b>Type</b> value is sufficient to uniquely identify the node within the filter. If the filter contains two or more nodes of the same type, the <b>Name</b> members for those nodes must be non-<b>NULL</b>.
 
-For example, if a filter contains a single SUM node, the <b>Type</b> member for that node points to GUID value <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-sum">KSNODETYPE_SUM</a>, and the <b>Name</b> member is set to <b>NULL</b>. When queried for the name of that node, the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a> property, after determining that the node's <b>Name</b> value is <b>NULL</b>, retrieves the name string from the registry entry for the KSNODETYPE_SUM GUID. However, the same filter might contain several volume nodes, in which case the <b>Type</b> values for these nodes all point to the same GUID value, <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-volume">KSNODETYPE_VOLUME</a>, and the <b>Name</b> value must uniquely identify each of the volume nodes. The <b>Name</b> value for the wave-input volume control node, for example, should point to GUID value KSAUDFNAME_WAVE_IN_VOLUME (defined in ksmedia.h). The registry entry for this GUID contains the name string that the KSPROPERTY_TOPOLOGY_NAME property retrieves for the node.
+For example, if a filter contains a single SUM node, the <b>Type</b> member for that node points to GUID value <a href="/windows-hardware/drivers/audio/ksnodetype-sum">KSNODETYPE_SUM</a>, and the <b>Name</b> member is set to <b>NULL</b>. When queried for the name of that node, the <a href="/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a> property, after determining that the node's <b>Name</b> value is <b>NULL</b>, retrieves the name string from the registry entry for the KSNODETYPE_SUM GUID. However, the same filter might contain several volume nodes, in which case the <b>Type</b> values for these nodes all point to the same GUID value, <a href="/windows-hardware/drivers/audio/ksnodetype-volume">KSNODETYPE_VOLUME</a>, and the <b>Name</b> value must uniquely identify each of the volume nodes. The <b>Name</b> value for the wave-input volume control node, for example, should point to GUID value KSAUDFNAME_WAVE_IN_VOLUME (defined in ksmedia.h). The registry entry for this GUID contains the name string that the KSPROPERTY_TOPOLOGY_NAME property retrieves for the node.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a> structure contains a pointer to an array of <b>PCNODE_DESCRIPTOR</b> structures.
+The <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a> structure contains a pointer to an array of <b>PCNODE_DESCRIPTOR</b> structures.
 
-For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/exposing-filter-topology">Exposing Filter Topology</a>.
+For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure is used, see <a href="/windows-hardware/drivers/audio/exposing-filter-topology">Exposing Filter Topology</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a>

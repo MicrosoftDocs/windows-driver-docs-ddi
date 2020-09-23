@@ -50,7 +50,7 @@ api_name:
 ## -description
 
 The <b>AtaPortInitializeQueueTag</b> routine initializes the queue tag list for the specified device.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -79,15 +79,14 @@ Specifies the maximum allowed value for the queue tag.
 
 ## -remarks
 
-The miniport driver should call <b>AtaPortInitializeQueueTag</b> before it uses <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportallocatequeuetag">AtaPortAllocateQueueTag</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportreleasequeuetag">AtaPortReleaseQueueTag</a> to allocate and release queue tags respectively. 
+The miniport driver should call <b>AtaPortInitializeQueueTag</b> before it uses <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportallocatequeuetag">AtaPortAllocateQueueTag</a> and <a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportreleasequeuetag">AtaPortReleaseQueueTag</a> to allocate and release queue tags respectively. 
 
 The values in the <i>TargetId</i> and <i>Lun</i> parameters specify the device to which the queue tag belongs. To generate channel specific queue tags, the miniport driver should set the <i>TargetId</i> and <i>Lun</i> parameters to IDE_UNTAGGED.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportallocatequeuetag">AtaPortAllocateQueueTag</a>
+<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportallocatequeuetag">AtaPortAllocateQueueTag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportreleasequeuetag">AtaPortReleaseQueueTag</a>
-
+<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportreleasequeuetag">AtaPortReleaseQueueTag</a>

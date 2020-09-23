@@ -54,7 +54,7 @@ The <b>ChangerClassAllocatePool</b> function allocates pool memory.
 ### -param PoolType 
 
 [in]
-Indicates the type of pool memory to allocate. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> for a list of types.
+Indicates the type of pool memory to allocate. See <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> for a list of types.
 
 ### -param NumberOfBytes 
 
@@ -67,5 +67,4 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a>

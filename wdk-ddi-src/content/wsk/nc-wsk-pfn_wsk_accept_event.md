@@ -57,7 +57,7 @@ The
 [in, optional]
 A pointer to the socket context for the listening socket on which the incoming connection was
      accepted. The WSK application provided this pointer to the WSK subsystem when it called the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create the listening
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create the listening
      socket.
 
 ### -param Flags 
@@ -95,10 +95,10 @@ A pointer to a buffer that contains the remote transport address from which the 
 
 [in, optional]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that is the socket object
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that is the socket object
      for the accepted socket. If this pointer is <b>NULL</b>, the listening socket is no longer functional and the
      WSK application must call the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
      listening socket as soon as possible.
 
 ### -param AcceptSocketContext 
@@ -115,7 +115,7 @@ A pointer to a variable that receives a pointer to a WSK application-supplied co
 #### - **AcceptSocketDispatch [out]
 
 A pointer to a variable that receives a pointer to a constant 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
      WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
      pointers to the event callback functions for the accepted socket. If the WSK application will not be
      enabling all of the event callback functions for the accepted socket, the application should set the
@@ -128,7 +128,7 @@ A pointer to a variable that receives a pointer to a constant
 #### - AcceptSocketDispatch [out]
 
 A pointer to a variable that receives a pointer to a constant 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
      WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
      pointers to the event callback functions for the accepted socket. If the WSK application will not be
      enabling all of the event callback functions for the accepted socket, the application should set the
@@ -177,15 +177,15 @@ The WSK application rejected the incoming connection. If this value is returned,
 The WSK subsystem calls a WSK application's 
     <i>WskAcceptEvent</i> event callback function when an incoming connection is accepted on the listening
     socket only if the event callback function was previously enabled with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a> socket option.
+    <a href="/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
+    <a href="/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application's 
     <i>WskAcceptEvent</i> event callback function is enabled on a listening socket and the application has a
     pending call to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a> function on the same listening socket,
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a> function on the same listening socket,
     then, when an incoming connection arrives, the pending call to 
     <b>WskAccept</b> takes precedence over the 
     <i>WskAcceptEvent</i> event callback function. The WSK subsystem calls the application's 
@@ -206,23 +206,23 @@ When the WSK subsystem calls a WSK application's
     callback functions on a listening socket, those event callback functions will be enabled by default on
     all connection-oriented sockets that are accepted on that listening socket. For more information about
     enabling any of the accepted socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/win32/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="/windows/win32/api/evntprov/nc-evntprov-penablecallback">Enabling and
     Disabling Event Callback Functions</a>.
 
 The 
-    <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structures that are pointed to by the 
+    <a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structures that are pointed to by the 
     <i>LocalAddress</i> and 
     <i>RemoteAddress</i> parameters are valid only for the duration of the call to the 
     <i>WskAcceptEvent</i> event callback function. If a WSK application needs these transport addresses at a
     later time, it can copy the contents of these structures to its own SOCKADDR structures before returning
     from the 
     <i>WskAcceptEvent</i> event callback function, or it can later call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_local_address">WskGetLocalAddress</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_remote_address">WskGetRemoteAddress</a> functions on the
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_local_address">WskGetLocalAddress</a> and 
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_remote_address">WskGetRemoteAddress</a> functions on the
     accepted socket.
 
 The WSK subsystem allocates the memory for the socket object structure (
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>) for the accepted connection on
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>) for the accepted connection on
     behalf of the WSK application. The WSK subsystem deallocates this memory when the socket is closed.
 
 The WSK subsystem calls a WSK application's 
@@ -232,42 +232,41 @@ A WSK application's <i>WskAcceptEvent</i> event callback function must not wait 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_listen_dispatch">WSK_CLIENT_LISTEN_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_listen_dispatch">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_local_address">WskGetLocalAddress</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_local_address">WskGetLocalAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_remote_address">WskGetRemoteAddress</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_remote_address">WskGetRemoteAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>

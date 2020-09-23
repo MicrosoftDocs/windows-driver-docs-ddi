@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The <b>DOT11_MAC_ADDRESS</b> array defines an IEEE media access control (MAC) address.
 
@@ -114,16 +114,16 @@ typedef DOT11_MAC_ADDRESS  *PDOT11_MAC_ADDRESS;
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
+<a href="/windows-hardware/drivers/network/oid-dot11-excluded-mac-address-list">
    OID_DOT11_EXCLUDED_MAC_ADDRESS_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-pmkid-list">OID_DOT11_PMKID_LIST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-pmkid-list">OID_DOT11_PMKID_LIST</a>
 
 
 
@@ -132,20 +132,20 @@ typedef DOT11_MAC_ADDRESS  *PDOT11_MAC_ADDRESS;
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-station-id">OID_DOT11_STATION_ID</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-station-id">OID_DOT11_STATION_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-current-address">OID_DOT11_CURRENT_ADDRESS</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-current-address">OID_DOT11_CURRENT_ADDRESS</a>
 
 
 
@@ -154,29 +154,29 @@ typedef DOT11_MAC_ADDRESS  *PDOT11_MAC_ADDRESS;
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-link-quality">NDIS_STATUS_DOT11_LINK_QUALITY</a>
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-link-quality">NDIS_STATUS_DOT11_LINK_QUALITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-start">
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-association-start">
    NDIS_STATUS_DOT11_ASSOCIATION_START</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-enum-bss-list">OID_DOT11_ENUM_BSS_LIST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-enum-bss-list">OID_DOT11_ENUM_BSS_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
+<a href="/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-enum-association-info">OID_DOT11_ENUM_ASSOCIATION_INFO</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-enum-association-info">OID_DOT11_ENUM_ASSOCIATION_INFO</a>
 
 
 
@@ -194,20 +194,19 @@ typedef DOT11_MAC_ADDRESS  *PDOT11_MAC_ADDRESS;
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-wlantimedconnectrequest">
+<a href="/windows-hardware/drivers/devtest/ndis-wlantimedconnectrequest">
    NDIS_STATUS_DOT11_CONNECTION_START</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg157151(v=winembedded.80)">
+<a href="/previous-versions/windows/embedded/gg157151(v=winembedded.80)">
    NDIS_STATUS_DOT11_TKIPMIC_FAILURE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
 
 
 
 <a href="..\windot11\ns-windot11-dot11_roaming_completion_parameters.md">
    DOT11_ROAMING_COMPLETION_PARAMETERS</a>
-

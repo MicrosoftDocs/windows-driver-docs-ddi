@@ -86,7 +86,7 @@ The [**D3COLD_AUX_POWER_AND_TIMING_INTERFACE**] structure is an extended version
 
 Windows now has added support for the newly introduced [PCI Device Specific Method (_DSM) functions for Runtime Device Power Management](https://members.pcisig.com/wg/PCI-SIG/document/11119). The new interfaces listed below allow device drivers to negotiate a higher auxiliary power for their PCI devices (higher than the standard 375mA @ 3.3V), if their devices require additional power while in D3Cold state. All device drivers must be able to handle the cases where additional power cannot be provided by the system, or if the interfaces are not supported.
 
-All PCIe ports that support the [_DSM functions for Runtime Device Power Management](https://members.pcisig.com/wg/PCI-SIG/document/11119), must implement the Device Specific Data (_DSD) for [Identifying PCIe ports supporting D3_COLD_AUX_POWER ECN Interface](https://docs.microsoft.com/windows-hardware/drivers/pci/dsd-for-pcie-root-ports#identifying-pcie-ports-supporting-d3_cold_aux_power-ecn-interface) under the ACPI scope of the PCIe port.
+All PCIe ports that support the [_DSM functions for Runtime Device Power Management](https://members.pcisig.com/wg/PCI-SIG/document/11119), must implement the Device Specific Data (_DSD) for [Identifying PCIe ports supporting D3_COLD_AUX_POWER ECN Interface](/windows-hardware/drivers/pci/dsd-for-pcie-root-ports#identifying-pcie-ports-supporting-d3_cold_aux_power-ecn-interface) under the ACPI scope of the PCIe port.
 
 ## -see-also
 
@@ -96,5 +96,4 @@ All PCIe ports that support the [_DSM functions for Runtime Device Power Managem
 
 [_D3COLD_REQUEST_PERST_DELAY](nc-wdm-d3cold_request_perst_delay.md)
 
-[Identifying PCIe ports supporting D3_COLD_AUX_POWER ECN Interface](https://docs.microsoft.com/windows-hardware/drivers/pci/dsd-for-pcie-root-ports#identifying-pcie-ports-supporting-d3_cold_aux_power-ecn-interface)
-
+[Identifying PCIe ports supporting D3_COLD_AUX_POWER ECN Interface](/windows-hardware/drivers/pci/dsd-for-pcie-root-ports#identifying-pcie-ports-supporting-d3_cold_aux_power-ecn-interface)

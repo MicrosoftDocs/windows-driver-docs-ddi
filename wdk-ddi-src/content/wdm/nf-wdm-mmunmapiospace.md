@@ -66,5 +66,4 @@ If a driver calls <b>MmMapIoSpace</b> during device start-up, it must call <b>Mm
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>

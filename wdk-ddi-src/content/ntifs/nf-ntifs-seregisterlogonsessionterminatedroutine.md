@@ -107,5 +107,4 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunregisterlogonsessionterminatedroutine">SeUnregisterLogonSessionTerminatedRoutine</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunregisterlogonsessionterminatedroutine">SeUnregisterLogonSessionTerminatedRoutine</a>

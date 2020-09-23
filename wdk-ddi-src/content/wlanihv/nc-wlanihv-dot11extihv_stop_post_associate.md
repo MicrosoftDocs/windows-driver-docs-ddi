@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The operating system calls the
   <i>Dot11ExtIhvStopPostAssociate</i> function to cancel the post-association operation initiated through a
@@ -81,7 +81,7 @@ A pointer to a
 
 [in]
 A
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a> type that specifies the
+     <a href="/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a> type that specifies the
      association status of the 802.11 station to the network.
 
 ## -returns
@@ -113,10 +113,10 @@ The operating system calls the
 <li>
 The WLAN adapter completes a disassociation operation with the AP. In this situation, the Native
       802.11 miniport driver, which manages the adapter, makes a media-specific
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+      <a href="/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
       NDIS_STATUS_DOT11_DISASSOCIATION</a> indication. For more information about the disassociation
       operation, see
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/disassociation-operations">Disassociation Operations</a>.
+      <a href="/windows-hardware/drivers/network/disassociation-operations">Disassociation Operations</a>.
 
 </li>
 <li>
@@ -135,11 +135,11 @@ The operating system calls the
     Dot11ExtPostAssociateCompletion</a>.
 
 For more information about the post-association operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
+    <a href="/windows-hardware/drivers/network/post-association-operations">Post-Association Operations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a>
+<a href="/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a>
 
 
 
@@ -151,7 +151,7 @@ For more information about the post-association operation, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-disassociation">
    NDIS_STATUS_DOT11_DISASSOCIATION</a>
 
 
@@ -162,4 +162,3 @@ For more information about the post-association operation, see
 
 
 <a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
-

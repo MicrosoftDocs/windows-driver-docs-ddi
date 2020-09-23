@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The GetPresharedKeyForId_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getpresharedkeyforid">GetPresharedKeyForId</a> method.
+The GetPresharedKeyForId_OUT structure holds the output data for the <a href="/windows-hardware/drivers/storage/getpresharedkeyforid">GetPresharedKeyForId</a> method.
 
 ## -struct-fields
 
 ### -field Status
 
-On output from <b>GetPresharedKeyForId</b>, the status of the <b>GetPresharedKeyForId</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
+On output from <b>GetPresharedKeyForId</b>, the status of the <b>GetPresharedKeyForId</b> operation. For a list of status qualifiers, see <a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 ### -field SecurityFlags
 
-A bitwise OR of flags that indicate the security requirements of a target.  For a list of possible values for this member, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>.
+A bitwise OR of flags that indicate the security requirements of a target.  For a list of possible values for this member, see <a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>.
 
 ## -remarks
 
@@ -68,21 +68,20 @@ You must initiate this method if the initiator supports IKE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getpresharedkeyforid">GetPresharedKeyForId</a>
+<a href="/windows-hardware/drivers/storage/getpresharedkeyforid">GetPresharedKeyForId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_getpresharedkeyforid_in">GetPresharedKeyForId_IN</a>
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_getpresharedkeyforid_in">GetPresharedKeyForId_IN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
+<a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securityconfigoperations-wmi-class">MSiSCSI_SecurityConfigOperations WMI Class</a>
+<a href="/windows-hardware/drivers/storage/msiscsi-securityconfigoperations-wmi-class">MSiSCSI_SecurityConfigOperations WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
-
+<a href="/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>

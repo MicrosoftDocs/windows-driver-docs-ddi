@@ -67,10 +67,10 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -remarks
 
 The <b>Query</b> method provides the <i>SDEL</i> 
-parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-eval">IWDTFTarget2::Eval</a> 
-method for every instance of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface 
-in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a> collection. 
-Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">Simple Data 
+parameter in a call to the <a href="/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtftarget2-eval">IWDTFTarget2::Eval</a> 
+method for every instance of the <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface 
+in the <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a> collection. 
+Use the <a href="/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">Simple Data 
 Evaluation Language</a> to specify this parameter. 
 Every target that returns <b>VARIANT_TRUE</b> is added to a new 
 instance of the <b>IWDTFTargets2</b> collection 
@@ -78,5 +78,4 @@ interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>

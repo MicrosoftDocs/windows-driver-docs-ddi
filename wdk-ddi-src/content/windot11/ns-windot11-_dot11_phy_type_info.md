@@ -52,9 +52,9 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
-The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station uses to configure a PHY when performing an explicit scan operation. The station performs the explicit scan operation following a set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>.
+The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station uses to configure a PHY when performing an explicit scan operation. The station performs the explicit scan operation following a set request of <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>.
 
 ## -struct-fields
 
@@ -137,7 +137,7 @@ An array containing channel descriptions for the PHY type specified in the
 
 The identifier (ID) of the PHY that the 802.11 station will use for the scan. The PHY ID is the
        index within the list of supported PHYs returned by the driver through a query of
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
+       <a href="/windows-hardware/drivers/network/oid-dot11-supported-phy-types">
        OID_DOT11_SUPPORTED_PHY_TYPES</a>.
 
 <div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in ExtSTA
@@ -166,15 +166,15 @@ typedef struct _DOT11_PHY_TYPE_INFO {
 The
     <a href="..\windot11\ns-windot11-_dot11_scan_request_v2.md">DOT11_SCAN_REQUEST_V2</a> structure, which
     accompanies a set request of
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>, contains an
+    <a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>, contains an
     array of zero or more DOT11_PHY_TYPE_INFO entries.
 
 For more information about the scan operations performed by a Native 802.11 miniport driver, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
+    <a href="/windows-hardware/drivers/network/native-802-11-scan-operations">Native 802.11 Scan
     Operations</a>.
 
 For more information about the ExtSTA operation mode, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+    <a href="/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
     Mode</a>.
 
 ## -see-also
@@ -183,5 +183,4 @@ For more information about the ExtSTA operation mode, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
-
+<a href="/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>

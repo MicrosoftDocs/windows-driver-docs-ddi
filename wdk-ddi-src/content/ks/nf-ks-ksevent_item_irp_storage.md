@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This macro retrieves a pointer to the [KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_item) structure stored in *Irp*.
+This macro retrieves a pointer to the [KSEVENT_ITEM](./ns-ks-ksevent_item.md) structure stored in *Irp*.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ The macro is defined as follows:
 ```cpp
 #define KSMETHOD_ITEM_IRP_STORAGE(Irp)  (*(const KSMETHOD_ITEM**)&(Irp)->Tail.Overlay.DriverContext[3])
 ```
-

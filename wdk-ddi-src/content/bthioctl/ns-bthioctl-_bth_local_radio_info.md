@@ -58,7 +58,7 @@ The BTH_LOCAL_RADIO_INFO structure contains information about the local Bluetoot
 ### -field localInfo
 
 A 
-     <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure that contains
+     <a href="/windows/win32/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structure that contains
      information about the local radio.
 
 ### -field flags
@@ -86,24 +86,23 @@ The major version of the HCI.
 ### -field radioInfo
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure that contains
+     <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure that contains
      information about the local radio device.
 
 ## -remarks
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a> call's
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a> call's
     output buffer contains the information about the local Bluetooth system and radio.
 
 ## -see-also
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_local_info">IOCTL_BTH_GET_LOCAL_INFO</a>

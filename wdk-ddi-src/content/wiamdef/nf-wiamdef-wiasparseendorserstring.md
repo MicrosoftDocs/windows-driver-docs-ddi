@@ -62,7 +62,7 @@ Reserved for system use and should be set to 0.
 ### -param pInfo 
 
 [out, optional]
-Pointer to a [WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info) structure containing the page count and a list of custom token/value pairs. Can be **NULL**.
+Pointer to a [WIAS_ENDORSER_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info.md) structure containing the page count and a list of custom token/value pairs. Can be **NULL**.
 
 ### -param pOutputString 
 
@@ -73,7 +73,7 @@ Pointer to a memory location that receives the address of the parsed endorser st
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
@@ -81,7 +81,7 @@ An application sets the WIA_DPS_ENDORSER_STRING property to a string that can co
 
 The list of standard WIA endorser tokens can be found in *wiadef.h*.
 
-Drivers can request that **wiasParseEndorserString** substitute values for vendor-defined tokens by filling out a [WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value) structure for each token/value pair, and packaging all of these structures in a [WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info) structure. The following example shows how this function can be used.
+Drivers can request that **wiasParseEndorserString** substitute values for vendor-defined tokens by filling out a [WIAS_ENDORSER_VALUE](../wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value.md) structure for each token/value pair, and packaging all of these structures in a [WIAS_ENDORSER_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info.md) structure. The following example shows how this function can be used.
 
 ```cpp
 HRESULT hr  = S_OK;
@@ -96,7 +96,6 @@ Assuming that the WIA_DPS_ENDORSER_STRING property contains "This is $MY_TOKEN$"
 
 ## -see-also
 
-[WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info)
+[WIAS_ENDORSER_INFO](../wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info.md)
 
-[WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value)
-
+[WIAS_ENDORSER_VALUE](../wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value.md)

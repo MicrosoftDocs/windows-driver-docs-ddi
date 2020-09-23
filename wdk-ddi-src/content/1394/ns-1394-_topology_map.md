@@ -76,7 +76,7 @@ Specifies the number of entries in <b>TOP_Self_ID_Array</b>.
 
 ### -field TOP_Self_ID_Array
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_self_id">SELF_ID</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_self_id_more">SELF_ID_MORE</a> structures (the two structures are the same size).
+Pointer to an array of <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_self_id">SELF_ID</a> and <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_self_id_more">SELF_ID_MORE</a> structures (the two structures are the same size).
 
 ## -remarks
 
@@ -85,4 +85,3 @@ All data will be in big-endian format.
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537646">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
-

@@ -122,5 +122,4 @@ If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_status">NDIS_WWAN_SMS_STATUS</a>
-
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_status">NDIS_WWAN_SMS_STATUS</a>

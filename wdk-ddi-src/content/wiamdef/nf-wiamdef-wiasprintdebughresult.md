@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **wiasPrintDebugHResult** function is obsolete for Windows XP and later, and is no longer supported. Use the [WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult) macro instead.
+The **wiasPrintDebugHResult** function is obsolete for Windows XP and later, and is no longer supported. Use the [WIAS_LHRESULT](./nf-wiamdef-wias_lhresult.md) macro instead.
 
 This function prints an HRESULT string on the Device Manager debug console.
 
@@ -62,5 +62,4 @@ Specifies the HRESULT to be printed.
 
 ## -see-also
 
-[WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult)
-
+[WIAS_LHRESULT](./nf-wiamdef-wias_lhresult.md)

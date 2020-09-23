@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a> WMI method to the WMI client.
+The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the <a href="/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a> WMI method to the WMI client.
 
 ## -struct-fields
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ### -field BindType
 
@@ -64,9 +64,8 @@ Indicates the ability of an HBA and its miniport driver to provide a specific se
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the GetBindingCapability_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetBindingCapability_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a>
-
+<a href="/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a>

@@ -53,17 +53,16 @@ Pointer to the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes
 
 ## -returns
 
-**DeviceDsmDataSetRanges** returns a pointer to the first [DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_data_set_range) structure in the data set range.
+**DeviceDsmDataSetRanges** returns a pointer to the first [DEVICE_DSM_RANGE](./ns-ntddstor-_device_data_set_range.md) structure in the data set range.
 
 ## -remarks
 
-The DSM handler calls this function only if the members of *Input* indicate that the operation has range data. See [Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
+The DSM handler calls this function only if the members of *Input* indicate that the operation has range data. See [Data Set Management](/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
 
 ## -see-also
 
-[Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+[Data Set Management](/windows-hardware/drivers/storage/data-set-management-overview)
 
 [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
 
-[DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_device_data_set_range)
-
+[DEVICE_DSM_RANGE](./ns-ntddstor-_device_data_set_range.md)

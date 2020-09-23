@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The `PcwCloseInstance` function closes a counterset instance that was created using [PcwCreateInstance](nf-wdm-pcwcreateinstance.md). Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated CloseXxx function instead of calling this function directly.
+The `PcwCloseInstance` function closes a counterset instance that was created using [PcwCreateInstance](nf-wdm-pcwcreateinstance.md). Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated CloseXxx function instead of calling this function directly.
 
 ## -parameters
 
@@ -81,4 +81,3 @@ The CTRPP-generated Close function will be named *Prefix*Close*CounterSet*. *Pre
 ## -see-also
 
 [PcwCreateInstance function](nf-wdm-pcwcreateinstance.md)
-

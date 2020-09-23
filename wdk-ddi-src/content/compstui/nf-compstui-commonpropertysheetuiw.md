@@ -56,7 +56,7 @@ Caller-supplied window handle identifying the window into which new property she
 
 ### -param pfnPropSheetUI
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed callback function.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed callback function.
 
 ### -param lParam
 
@@ -138,13 +138,13 @@ The <b>CommonPropertySheetUI</b> function is CPSUI's entry point for application
 
 The NT-based operating system print spooler calls the <b>CommonPropertySheetUI</b> function when a Win32 application calls the spooler's DocumentProperties or PrinterProperties functions, which are described in the Windows SDK documentation.
 
-The callback function specified by the <i>pfnPropSheetUI</i> parameter is responsible for describing the property sheet pages to be added. For more information, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a> function type.
+The callback function specified by the <i>pfnPropSheetUI</i> parameter is responsible for describing the property sheet pages to be added. For more information, see the description of the <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a> function type.
 
 The sequence of operation is as follows:
 
 <ol>
 <li>
-The <b>CommonPropertySheetUI</b> function calls the <i>pfnPropSheetUI</i> callback so the callback can describe the pages to be added by calling CPSUI's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function.
+The <b>CommonPropertySheetUI</b> function calls the <i>pfnPropSheetUI</i> callback so the callback can describe the pages to be added by calling CPSUI's <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function.
 
 </li>
 <li>
@@ -152,7 +152,7 @@ If the <i>pfnPropSheetUI</i> callback succeeds, the <b>CommonPropertySheetUI</b>
 
 </li>
 <li>
-If the user modifies page values, a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/page-event-callbacks">page event callback</a> notifies the application of the changes.
+If the user modifies page values, a <a href="/windows-hardware/drivers/print/page-event-callbacks">page event callback</a> notifies the application of the changes.
 
 </li>
 <li>
@@ -160,7 +160,6 @@ When the user chooses the <b>OK</b> or <b>Cancel</b> button, the <b>CommonProper
 
 </li>
 </ol>
-For more information about the sequence of operation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-cpsui-with-printer-drivers">Using CPSUI with Printer Drivers</a>, in the section entitled <a href="https://docs.microsoft.com/windows-hardware/drivers/print/common-property-sheet-user-interface">CPSUI</a>.
+For more information about the sequence of operation, see <a href="/windows-hardware/drivers/print/using-cpsui-with-printer-drivers">Using CPSUI with Printer Drivers</a>, in the section entitled <a href="/windows-hardware/drivers/print/common-property-sheet-user-interface">CPSUI</a>.
 
-The <b>CommonPropertySheetUI</b> function actually calls the <i>pfnPropSheetUI</i> callback several times, specifying different <b>Reason</b> member values in the callback's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. Each time the callback returns, it places a result status in the PROPSHEETUI_INFO structure's <b>Result</b> member. When the <b>CommonPropertySheetUI</b> function returns, it copies the final contents of <b>Result</b> into the location pointed to by <i>pResult</i>.
-
+The <b>CommonPropertySheetUI</b> function actually calls the <i>pfnPropSheetUI</i> callback several times, specifying different <b>Reason</b> member values in the callback's <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. Each time the callback returns, it places a result status in the PROPSHEETUI_INFO structure's <b>Result</b> member. When the <b>CommonPropertySheetUI</b> function returns, it copies the final contents of <b>Result</b> into the location pointed to by <i>pResult</i>.

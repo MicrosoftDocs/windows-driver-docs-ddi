@@ -72,7 +72,7 @@ A zero-based ID of the video present source in a path of a video present network
 
 ### -field Flags
 
-Flags that identify the type of the allocation information as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_allocation_info_flags_0022">D3D12DDI_ALLOCATION_INFO_FLAGS_0022</a> value.
+Flags that identify the type of the allocation information as a <a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_allocation_info_flags_0022">D3D12DDI_ALLOCATION_INFO_FLAGS_0022</a> value.
 
 ### -field GpuVirtualAddress
 
@@ -88,5 +88,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_allocation_info_flags_0022">D3D12DDI_ALLOCATION_INFO_FLAGS_0022</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_allocation_info_flags_0022">D3D12DDI_ALLOCATION_INFO_FLAGS_0022</a>

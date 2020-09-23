@@ -25,5 +25,4 @@ To develop Biometric, you need these headers:
  * [winbio_ioctl.h](../winbio_ioctl/index.md)
  * [winbio_types.h](../winbio_types/index.md)
 
-For the programming guide, see [Biometric](https://docs.microsoft.com/windows-hardware/drivers/biometric).
-
+For the programming guide, see [Biometric](/windows-hardware/drivers/biometric).

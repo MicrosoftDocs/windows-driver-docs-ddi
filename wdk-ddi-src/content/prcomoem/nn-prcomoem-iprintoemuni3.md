@@ -48,14 +48,13 @@ api_name:
 
 This section describes the methods defined for the <b>IPrintOemUni3</b> COM interface.
 
-The <b>IPrintOemUni3</b> COM interface includes its own methods as well as those that belong to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a> COM interface and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni2">IPrintOemUni2</a> COM interface.
+The <b>IPrintOemUni3</b> COM interface includes its own methods as well as those that belong to <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a> COM interface and the <a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni2">IPrintOemUni2</a> COM interface.
 
 The <b>IPrintOemUni3</b> COM interface is available in Windows Vista and later.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemUni3</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemUni3</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemUni3</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemUni3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-HDAudio codec unsolicited response callback function. <b>PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK</b> is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pregister_event_callback">PREGISTER_EVENT_CALLBACK</a> callback function.
+HDAudio codec unsolicited response callback function. <b>PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK</b> is used by the <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pregister_event_callback">PREGISTER_EVENT_CALLBACK</a> callback function.
 
 ## -parameters
 
@@ -56,12 +56,12 @@ HDAudio codec unsolicited response callback function. <b>PHDAUDIO_UNSOLICITED_RE
 
 #### - Context
 
-This is the callbackContext value that was passed previously to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pregister_event_callback">PREGISTER_EVENT_CALLBACK</a>.
+This is the callbackContext value that was passed previously to <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pregister_event_callback">PREGISTER_EVENT_CALLBACK</a>.
 
 
 #### - HDAudioCodecResponse
 
-This is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_response">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.
+This is a structure of type <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_response">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.
 
 ## -remarks
 
@@ -70,4 +70,3 @@ The HD Audio bus driver calls the callback routine at PASSIVE_LEVEL.
 ## -see-also
 
 [hdaudio.h](../hdaudio/index.md)
-

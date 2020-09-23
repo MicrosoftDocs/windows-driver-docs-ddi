@@ -73,18 +73,17 @@ A pointer to a structure that contains the WSK subsystem's dispatch table of fun
 The WSK subsystem fills in the contents of the WSK_EXTENSION_CONTROL_OUT structure when a WSK
     application registers an extension interface. For more information about registering an extension
     interface, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-an-extension-interface">Registering an Extension
+    <a href="/windows-hardware/drivers/network/registering-an-extension-interface">Registering an Extension
     Interface</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-register-extension">SIO_WSK_REGISTER_EXTENSION</a>
+<a href="/windows-hardware/drivers/network/sio-wsk-register-extension">SIO_WSK_REGISTER_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_extension_control_in">WSK_EXTENSION_CONTROL_IN</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_extension_control_in">WSK_EXTENSION_CONTROL_IN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>

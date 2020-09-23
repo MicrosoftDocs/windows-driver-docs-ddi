@@ -109,7 +109,7 @@ The byte offset that the <i>SourceOffset</i> parameter specified was too large, 
 </table>
  
 
-This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+This method also might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -117,7 +117,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The framework does not allow the driver to copy more bytes than the source buffer that the <i>SourceMemory</i> parameter specifies can contain. 
 
-For more information about framework memory objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
+For more information about framework memory objects, see <a href="/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
 If the source or destination buffer was allocated from the pageable memory pool, the <b>WdfMemoryCopyToBuffer</b> method must be called at IRQL <= APC_LEVEL. Otherwise, the method can be called at any IRQL.
 
@@ -150,5 +150,4 @@ else{
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorycopyfrombuffer">WdfMemoryCopyFromBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfmemory/nf-wdfmemory-wdfmemorycopyfrombuffer">WdfMemoryCopyFromBuffer</a>

@@ -68,9 +68,8 @@ Specifies that the phone call is disabled. This constant is set by the audio dri
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_callinfo">KSTELEPHONY_CALLINFO</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstelephony_callinfo">KSTELEPHONY_CALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_providerchangeop">TELEPHONY_PROVIDERCHANGEOP</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_providerchangeop">TELEPHONY_PROVIDERCHANGEOP</a>

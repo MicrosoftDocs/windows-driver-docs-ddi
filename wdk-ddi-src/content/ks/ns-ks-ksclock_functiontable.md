@@ -54,27 +54,26 @@ The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master cl
 
 ### -field GetTime
 
-Pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksclock_gettime">KStrClockGetTime</a> routine.
+Pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksclock_gettime">KStrClockGetTime</a> routine.
 
 ### -field GetPhysicalTime
 
-Pointer to a driver-allocated <a href="https://docs.microsoft.com/previous-versions/ff567160(v=vs.85)">KStrClockGetPhysicalTime</a> routine.
+Pointer to a driver-allocated <a href="/previous-versions/ff567160(v=vs.85)">KStrClockGetPhysicalTime</a> routine.
 
 ### -field GetCorrelatedTime
 
-Pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksclock_correlatedtime">KStrClockGetCorrelatedTime</a> routine.
+Pointer to a driver-allocated <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksclock_correlatedtime">KStrClockGetCorrelatedTime</a> routine.
 
 ### -field GetCorrelatedPhysicalTime
 
-Pointer to a driver-allocated <a href="https://docs.microsoft.com/previous-versions/ff567157(v=vs.85)">KStrClockGetCorrelatedPhysicalTime</a> routine.
+Pointer to a driver-allocated <a href="/previous-versions/ff567157(v=vs.85)">KStrClockGetCorrelatedPhysicalTime</a> routine.
 
 ## -remarks
 
-Supply this structure in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-functiontable">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request. The property request then returns pointers to the requested routines.
+Supply this structure in a <a href="/windows-hardware/drivers/stream/ksproperty-clock-functiontable">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request. The property request then returns pointers to the requested routines.
 
 The function pointers returned in this structure are valid until the clock's file object is released.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-functiontable">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-clock-functiontable">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>

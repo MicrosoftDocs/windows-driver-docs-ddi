@@ -64,13 +64,12 @@ The endpoint is defined in the first (and only) interface setting of the interfa
 
 ### -field UdecxEndpointTypeDynamic
 
-The endpoint is dynamically created in the client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback.
+The endpoint is dynamically created in the client driver's implementation of the <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">USB endpoints</a>
+<a href="/windows-hardware/drivers/usbcon/">USB endpoints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetendpointstype">UdecxUsbDeviceInitSetEndpointsType</a>
-
+<a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetendpointstype">UdecxUsbDeviceInitSetEndpointsType</a>

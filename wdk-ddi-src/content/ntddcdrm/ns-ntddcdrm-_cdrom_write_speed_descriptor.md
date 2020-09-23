@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>CDROM_WRITE_SPEED_DESCRIPTOR</b> structure is returned for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL when the request type is <b>CdromWriteSpeedRequest</b>. The IOCTL returns the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_performance_header">CDROM_PERFORMANCE_HEADER</a> followed by one or more descriptors of type <b>CDROM_WRITE_SPEED_DESCRIPTOR</b>.
+The <b>CDROM_WRITE_SPEED_DESCRIPTOR</b> structure is returned for the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL when the request type is <b>CdromWriteSpeedRequest</b>. The IOCTL returns the  <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_performance_header">CDROM_PERFORMANCE_HEADER</a> followed by one or more descriptors of type <b>CDROM_WRITE_SPEED_DESCRIPTOR</b>.
 
 ## -struct-fields
 
 ### -field MixedReadWrite
 
 The MixedReadWrite (MRW) field corresponds to the MRW bit of the Write Speed Descriptor in the MultiMedia Command Set - 6 (MMC-6)
-specification. This field indicates that it is suitable for a mixture of streaming read and write requests (overwrite mode). The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_streaming_control_request_type">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
+specification. This field indicates that it is suitable for a mixture of streaming read and write requests (overwrite mode). The <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_streaming_control_request_type">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
 
 ### -field Exact
 
@@ -99,9 +99,8 @@ specification for the Write Speed Descriptor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_streaming_control_request_type">STREAMING_CONTROL_REQUEST_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_streaming_control_request_type">STREAMING_CONTROL_REQUEST_TYPE</a>

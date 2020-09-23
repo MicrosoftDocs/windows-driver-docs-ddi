@@ -56,7 +56,7 @@ The <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure specifies the p
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value:  
 
@@ -80,7 +80,7 @@ A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserve
 
 ### -field PropertyType
 
- An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_property_type">NDIS_SWITCH_PORT_PROPERTY_TYPE</a> enumeration value that specifies the type of port property that will be deleted.
+ An <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_property_type">NDIS_SWITCH_PORT_PROPERTY_TYPE</a> enumeration value that specifies the type of port property that will be deleted.
 
 ### -field PropertyId
 
@@ -92,9 +92,9 @@ An NDIS_SWITCH_OBJECT_INSTANCE_ID value that specifies the instance identifier f
 
 ## -remarks
 
-The <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-property-delete">OID_SWITCH_PORT_PROPERTY_DELETE</a>.
+The <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure is used in OID set requests of <a href="/windows-hardware/drivers/network/oid-switch-port-property-delete">OID_SWITCH_PORT_PROPERTY_DELETE</a>.
 
-For more information about extensible switch policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
+For more information about extensible switch policies, see <a href="/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
 
 ## -see-also
 
@@ -102,13 +102,12 @@ For more information about extensible switch policies, see <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_property_type">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_port_property_type">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-property-delete">OID_SWITCH_PORT_PROPERTY_DELETE</a>
-
+<a href="/windows-hardware/drivers/network/oid-switch-port-property-delete">OID_SWITCH_PORT_PROPERTY_DELETE</a>

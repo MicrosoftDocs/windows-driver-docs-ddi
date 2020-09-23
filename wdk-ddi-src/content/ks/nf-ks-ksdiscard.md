@@ -54,7 +54,7 @@ The **KsDiscard**macro removes a given item from an object bag.
 ### -param Object 
 
 [in]
-The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice), [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory), [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter), or [KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin).
+The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [KSDEVICE](./ns-ks-_ksdevice.md), [KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md), [KSFILTER](./ns-ks-_ksfilter.md), or [KSPIN](./ns-ks-_kspin.md).
 
 ### -param Pointer 
 
@@ -63,7 +63,7 @@ A pointer to the item to be removed from the requested object's bag.
 
 ## -remarks
 
-This macro wraps and assumes the return value of [KsRemoveItemFromObjectBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksremoveitemfromobjectbag), which is **ULONG**.
+This macro wraps and assumes the return value of [KsRemoveItemFromObjectBag](./nf-ks-ksremoveitemfromobjectbag.md), which is **ULONG**.
 
 This function is implemented as a C-style preprocessing macro in the *Ks.h* header.
 
@@ -71,13 +71,12 @@ This function is implemented as a C-style preprocessing macro in the *Ks.h* head
 
 ## -see-also
 
-[KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice)
+[KSDEVICE](./ns-ks-_ksdevice.md)
 
-[KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter)
+[KSFILTER](./ns-ks-_ksfilter.md)
 
-[KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory)
+[KSFILTERFACTORY](./ns-ks-_ksfilterfactory.md)
 
-[KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin)
+[KSPIN](./ns-ks-_kspin.md)
 
-[KsRemoveItemFromObjectBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksremoveitemfromobjectbag)
-
+[KsRemoveItemFromObjectBag](./nf-ks-ksremoveitemfromobjectbag.md)

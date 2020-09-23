@@ -63,7 +63,7 @@ Creates a new DMA remapping device domain (a container for a set of page tables)
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -89,4 +89,3 @@ IOMMU_DOMAIN_CREATE *PIOMMU_DOMAIN_CREATE
 ## -remarks
 
 ## -see-also
-

@@ -54,7 +54,7 @@ The KSPROPERTY_TUNER_IF_MEDIUM_S structure returns the Medium GUID for the pin t
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field IFMedium
 
@@ -62,17 +62,16 @@ Specifies the GUID for the pin that is capable of supporting an intermediate fre
 
 ## -remarks
 
-Support for the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a> property causes <i>Kstvtune.ax</i> to create an additional pin representing an MPEG-2 transport stream. A data packet sent on this pin in user mode consists only of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_tvtuner_change_info">KS_TVTUNER_CHANGE_INFO</a> structure.
+Support for the <a href="/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a> property causes <i>Kstvtune.ax</i> to create an additional pin representing an MPEG-2 transport stream. A data packet sent on this pin in user mode consists only of a <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_tvtuner_change_info">KS_TVTUNER_CHANGE_INFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>

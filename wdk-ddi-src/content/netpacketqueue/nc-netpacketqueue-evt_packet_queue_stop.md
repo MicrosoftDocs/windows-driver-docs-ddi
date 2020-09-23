@@ -76,7 +76,7 @@ This callback does not return a value and therefore should not fail, so this cal
 
 Client drivers will not receive calls to [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md), [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md), or [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) after *EvtPacketQueueStop* returns. In addition, *EvtPacketQueueStop* is called in the same execution context, or thread, as *EvtPacketQueueAdvance*, *EvtPacketQueueCancel*, and *EvtPacketQueueSetNotificationEnabled*, so client drivers do not need to synchronize between these callback functions for an individual queue instance.
 
-For more info and a diagram showing the NetAdapterCx data path polling model, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
+For more info and a diagram showing the NetAdapterCx data path polling model, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 
 ## -see-also
 
@@ -95,4 +95,3 @@ For more info and a diagram showing the NetAdapterCx data path polling model, se
 [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md)
 
 [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md)
-

@@ -60,7 +60,7 @@ None
 
 ### -output-buffer
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcradiodev/ns-nfcradiodev-_nfcrm_set_radio_state"> NFCRM_RADIO_STATE structure</a>
+<a href="/windows-hardware/drivers/ddi/nfcradiodev/ns-nfcradiodev-_nfcrm_set_radio_state"> NFCRM_RADIO_STATE structure</a>
 
 ### -output-buffer-length
 
@@ -84,4 +84,3 @@ sizeof(NFCRM_RADIO_STATE)
 <td> This code is returned when the input buffer is non-zero.</td>
 </tr>
 </table>
-

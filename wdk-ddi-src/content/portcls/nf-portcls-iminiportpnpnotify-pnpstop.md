@@ -57,9 +57,8 @@ IMiniportPnpNotify interface available is on both WaveRT and Topology.
 
 Note:  Because Portcls acquires the device global lock before making this call, thus the miniport must execute this call as fast as possible. The miniport must not wait on other activity while processing this call to prevent deadlock when other threads/work-items are waiting for the device global lock. If needed, miniport can wait in the IAdapterPnpManagement::PnpStop call.
  
-For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers).
+For more information, see [Implement PnP Rebalance for PortCls Audio Drivers](/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers).
 
 ## -see-also
 
 [IMiniPortPnpNotify](nn-portcls-iminiportpnpnotify.md)
-

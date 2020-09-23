@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This structure is the I/O parameter type of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_get_intensity_color">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_set_intensity_color">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
+This structure is the I/O parameter type of <a href="/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_get_intensity_color">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_set_intensity_color">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
 
 ## -struct-fields
 
@@ -61,4 +61,3 @@ Green light intensity in percentage (0-100).
 ### -field Blue
 
 Blue light intensity in percentage (0-100).
-

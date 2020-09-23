@@ -91,10 +91,9 @@ Reserved for system use.
 
 ## -see-also
 
-[**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md)
 [STOR_EVENT](ns-storport-stor_event.md)
 
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 
 [**StorPortSetEvent**](nf-storport-storportsetevent.md)
-

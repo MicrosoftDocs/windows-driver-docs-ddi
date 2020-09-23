@@ -66,15 +66,14 @@ A formatted [**WWAN_UICC_ACCESS_RECORD**](../wwan/ns-wwan-_wwan_uicc_access_reco
 
 ## -remarks
 
-This structure is used in the payload of an [OID_WWAN_UICC_ACCESS_RECORD](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-record) Query or Set request.
+This structure is used in the payload of an [OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record) Query or Set request.
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_UICC_ACCESS_RECORD](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-access-record)
+[OID_WWAN_UICC_ACCESS_RECORD](/windows-hardware/drivers/network/oid-wwan-uicc-access-record)
 
-[NDIS_STATUS_WWAN_UICC_RECORD_RESPONSE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-record-response)
+[NDIS_STATUS_WWAN_UICC_RECORD_RESPONSE](/windows-hardware/drivers/network/ndis-status-wwan-uicc-record-response)
 
 [**WWAN_UICC_ACCESS_RECORD**](../wwan/ns-wwan-_wwan_uicc_access_record.md)
-

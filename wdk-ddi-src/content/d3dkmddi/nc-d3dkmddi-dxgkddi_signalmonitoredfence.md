@@ -83,8 +83,7 @@ NTSTATUS DxgkddiSignalmonitoredfence
 
 WDDM synchronization class:
 
-* [Zero Level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level) for RenderGdi and PresentBlt submission types.
-* [First Level GPU Scheduler Class](https://docs.microsoft.com/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
+* [Zero Level](/windows-hardware/drivers/display/threading-and-synchronization-zero-level) for RenderGdi and PresentBlt submission types.
+* [First Level GPU Scheduler Class](/windows-hardware/drivers/display/gpu-scheduler-class) for [BuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) submission type.
 
 ## -see-also
-

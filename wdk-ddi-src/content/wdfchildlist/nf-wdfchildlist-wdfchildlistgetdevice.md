@@ -66,7 +66,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-For more information about child lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
+For more information about child lists, see <a href="/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples
@@ -78,4 +78,3 @@ WDFDEVICE parentDevice;
 
 parentDevice = WdfChildListGetDevice(ChildList);
 ```
-

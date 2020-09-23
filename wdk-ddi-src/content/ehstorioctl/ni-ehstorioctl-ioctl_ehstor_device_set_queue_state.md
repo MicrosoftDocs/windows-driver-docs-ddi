@@ -114,5 +114,4 @@ To prevent abuse of  the <b>IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</b> request by a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_get_queue_state">IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_get_queue_state">IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE</a>

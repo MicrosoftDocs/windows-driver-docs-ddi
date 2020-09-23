@@ -63,7 +63,7 @@ A handle to a framework device object.
 ### -param SymbolicLinkName 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a user-visible name for the device.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a user-visible name for the device.
 
 ## -returns
 
@@ -88,20 +88,20 @@ The system cannot allocate space to store the device name.
 </table>
  
 
-The method might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+The method might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-If a driver creates a symbolic link for a device, applications can use the symbolic link name to access the device. Typically, instead of providing symbolic links, framework-based drivers provide <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-device-interfaces">device interfaces</a> that applications can use to access their devices.
+If a driver creates a symbolic link for a device, applications can use the symbolic link name to access the device. Typically, instead of providing symbolic links, framework-based drivers provide <a href="/windows-hardware/drivers/wdf/using-device-interfaces">device interfaces</a> that applications can use to access their devices.
 
 If the device is removed unexpectedly (surprise-removed), the framework removes the symbolic link to the device. The driver can then use the symbolic link name for a new instance of the device.
 
 
 #### Examples
 
-The following code example from a KMDF driver creates an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ms-dos-device-names">MS-DOS device name</a> that an application can use to access a device.
+The following code example from a KMDF driver creates an <a href="/windows-hardware/drivers/kernel/ms-dos-device-names">MS-DOS device name</a> that an application can use to access a device.
 
 ```cpp
 #define DOS_DEVICE_NAME  L"\\DosDevices\\MyDevice"
@@ -131,9 +131,8 @@ if (!NT_SUCCESS(status)) {
     goto Error;
 }
 ```
-For information about global and local <b>\DosDevices</b> namespaces, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/local-and-global-ms-dos-device-names">Local and Global MS-DOS Device Names</a>.
+For information about global and local <b>\DosDevices</b> namespaces, see <a href="/windows-hardware/drivers/kernel/local-and-global-ms-dos-device-names">Local and Global MS-DOS Device Names</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

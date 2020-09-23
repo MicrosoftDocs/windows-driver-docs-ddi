@@ -46,11 +46,10 @@ api_name:
 
 ## -description
 
-The <b>FsRtlNumberOfRunsInMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb">FsRtlNumberOfRunsInLargeMcb</a> instead.
+The <b>FsRtlNumberOfRunsInMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb">FsRtlNumberOfRunsInLargeMcb</a> instead.
 
 ## -parameters
 
 ### -param Mcb
 
 <p>Reserved.</p>
-

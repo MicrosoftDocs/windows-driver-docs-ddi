@@ -112,7 +112,7 @@ Caller-supplied size (in characters) of the buffer pointed to by the <i>pvOutput
 
 #### - pDM [in, optional]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
+Caller-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that describes the current print job characteristics. If <b>NULL</b>, the function should use the driver's internal default DEVMODEW structure. 
 
 
 #### - pvOutput [out, optional]
@@ -132,11 +132,10 @@ The return value depends on the <i>DeviceCap</i> parameter. If <i>DeviceCap</i> 
 
 The <b>DrvSplDeviceCaps</b> function is available in Microsoft Windows Server 2003 and later.
 
-For descriptions of the DC_<i>XXX</i> flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>.
+For descriptions of the DC_<i>XXX</i> flags, see <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>.
 
 This function must be defined in the .def file as DrvSplDeviceCaps @ 254, because the spooler uses the ordinal number 254 to obtain the driver function pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
-
+<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>

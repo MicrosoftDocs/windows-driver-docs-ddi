@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The STORAGE_PREDICT_FAILURE structure is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_predict_failure">IOCTL_STORAGE_PREDICT_FAILURE</a> to report whether a device is currently predicting a failure.
+The STORAGE_PREDICT_FAILURE structure is used in conjunction with <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_predict_failure">IOCTL_STORAGE_PREDICT_FAILURE</a> to report whether a device is currently predicting a failure.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Contains an array that holds 512 bytes of vendor-specific information if the dev
 
 ## -remarks
 
-Upon receiving an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_predict_failure">IOCTL_STORAGE_PREDICT_FAILURE</a> device control request, the disk class driver attempts to verify if an IDE drive supports SMART. If the drive is a SCSI drive, the class driver attempts to verify if the SCSI disk supports the equivalent IDE SMART technology: Information Exception Control Page, X3T10/94-190 Rev 4. 
+Upon receiving an <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_predict_failure">IOCTL_STORAGE_PREDICT_FAILURE</a> device control request, the disk class driver attempts to verify if an IDE drive supports SMART. If the drive is a SCSI drive, the class driver attempts to verify if the SCSI disk supports the equivalent IDE SMART technology: Information Exception Control Page, X3T10/94-190 Rev 4. 
 
 If the device does not support failure prediction, the disk class driver fails the IRP with a status of STATUS_INVALID_DEVICE_REQUEST.
 
@@ -72,5 +72,4 @@ If the device supports failure prediction, the disk class driver queries the dev
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_predict_failure">IOCTL_STORAGE_PREDICT_FAILURE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_predict_failure">IOCTL_STORAGE_PREDICT_FAILURE</a>

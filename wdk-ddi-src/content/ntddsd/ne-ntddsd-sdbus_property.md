@@ -56,7 +56,7 @@ Indicates that the operation applies to the media change count property. This pr
 
 ### -field SDP_MEDIA_STATE
 
-Indicates that the operation applies to the media state property. Provided for compatibility with SD storage-only host controllers. Valid only for SD storage functions. For a list of valid media states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sdprop_media_state">SDPROP_MEDIA_STATE</a><u>.</u> This property is read-only.
+Indicates that the operation applies to the media state property. Provided for compatibility with SD storage-only host controllers. Valid only for SD storage functions. For a list of valid media states, see <a href="/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sdprop_media_state">SDPROP_MEDIA_STATE</a><u>.</u> This property is read-only.
 
 ### -field SDP_WRITE_PROTECTED
 
@@ -118,7 +118,7 @@ To read or set a property on an SD device, a device driver must do the following
 
 <ol>
 <li>
-Set the <b>RequestFunction</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a> to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a> enumeration value of either SDRF_GET_PROPERTY or SDRF_SET_PROPERTY.
+Set the <b>RequestFunction</b> member of <a href="/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a> to an <a href="/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a> enumeration value of either SDRF_GET_PROPERTY or SDRF_SET_PROPERTY.
 
 </li>
 <li>
@@ -126,24 +126,23 @@ Set the <b>Property</b> member of SDBUS_REQUEST_PACKET to the SDBUS_PROPERTY enu
 
 </li>
 <li>
-Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACKET structure to either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>.
+Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACKET structure to either <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a> or <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>.
 
 </li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a>
+<a href="/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a>
+<a href="/windows-hardware/drivers/ddi/ntddsd/ne-ntddsd-sd_request_function">SD_REQUEST_FUNCTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a>
+<a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>

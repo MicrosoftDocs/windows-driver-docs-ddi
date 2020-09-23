@@ -68,9 +68,8 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -remarks
 
-For more info on how the driver uses these enumeration values with reporting calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_statistic">ReportStatistic</a> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/reporting-miracast-encode-chunks-and-statistics">Reporting Miracast encode chunks and statistics</a>.
+For more info on how the driver uses these enumeration values with reporting calls to the <a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_statistic">ReportStatistic</a> callback function, see <a href="/windows-hardware/drivers/display/reporting-miracast-encode-chunks-and-statistics">Reporting Miracast encode chunks and statistics</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_statistic">ReportStatistic</a>
-
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_report_statistic">ReportStatistic</a>

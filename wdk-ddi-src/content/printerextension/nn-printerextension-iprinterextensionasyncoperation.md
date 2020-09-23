@@ -52,11 +52,10 @@ Provides the context associated with an asynchronous operation.
 
 ## -remarks
 
-**IPrinterExtensionAsyncOperation** also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance).
+**IPrinterExtensionAsyncOperation** also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see [Device Maintenance](/windows-hardware/drivers/print/device-maintenance).
 
 ## -see-also
 
-[Device Maintenance](https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance)
+[Device Maintenance](/windows-hardware/drivers/print/device-maintenance)
 
-[SendBidiSetRequestAsync](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-sendbidisetrequestasync)
-
+[SendBidiSetRequestAsync](./nf-printerextension-iprinterqueue2-sendbidisetrequestasync.md)

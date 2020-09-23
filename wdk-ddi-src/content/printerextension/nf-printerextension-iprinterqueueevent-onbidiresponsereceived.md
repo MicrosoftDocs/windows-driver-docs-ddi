@@ -66,21 +66,20 @@ This method returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-The <i>bstrResponse</i> parameter is formatted according to the schema that is described in <a href="https://docs.microsoft.com/previous-versions/dd183368(v=vs.85)">Bidi Request and Response Schemas</a>.
+The <i>bstrResponse</i> parameter is formatted according to the schema that is described in <a href="/previous-versions/dd183368(v=vs.85)">Bidi Request and Response Schemas</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd183368(v=vs.85)">Bidi Request and Response Schemas</a>
+<a href="/previous-versions/dd183368(v=vs.85)">Bidi Request and Response Schemas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue-sendbidiquery">IPrinterQueue::SendBidiQuery</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue-sendbidiquery">IPrinterQueue::SendBidiQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueevent">IPrinterQueueEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueevent">IPrinterQueueEvent</a>

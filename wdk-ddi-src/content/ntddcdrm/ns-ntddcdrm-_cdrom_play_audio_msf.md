@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Device control IRPs with a control code of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_play_audio_msf">IOCTL_CDROM_PLAY_AUDIO_MSF</a> use this structure to play an audio CD.
+Device control IRPs with a control code of <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_play_audio_msf">IOCTL_CDROM_PLAY_AUDIO_MSF</a> use this structure to play an audio CD.
 
 ## -struct-fields
 
@@ -84,5 +84,4 @@ Device control IRPs with a control code of IOCTL_CDROM_PLAY_AUDIO_MSF use this s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_play_audio_msf">IOCTL_CDROM_PLAY_AUDIO_MSF</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_play_audio_msf">IOCTL_CDROM_PLAY_AUDIO_MSF</a>

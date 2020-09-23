@@ -53,7 +53,7 @@ The *KStrFreeFrame* routine describes a vendor-supplied frame deallocation funct
 ### -param FileObject 
 
 [in]
-Pointer to a [FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object) structure for which this frame has been allocated.
+Pointer to a [FILE_OBJECT](../wdm/ns-wdm-_file_object.md) structure for which this frame has been allocated.
 
 ### -param Frame 
 
@@ -62,13 +62,12 @@ A pointer to a buffer containing the frame to release.
 
 ## -remarks
 
-This type is used in the **FreeFrame** member of the [KSSTREAMALLOCATOR_FUNCTIONTABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstreamallocator_functiontable) structure.
+This type is used in the **FreeFrame** member of the [KSSTREAMALLOCATOR_FUNCTIONTABLE](./ns-ks-ksstreamallocator_functiontable.md) structure.
 
-You can pass an instance of this structure as part of a [KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-streamallocator-functiontable) property request.
+You can pass an instance of this structure as part of a [KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE](/windows-hardware/drivers/stream/ksproperty-streamallocator-functiontable) property request.
 
 ## -see-also
 
-[KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-streamallocator-functiontable)
+[KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE](/windows-hardware/drivers/stream/ksproperty-streamallocator-functiontable)
 
-[KSSTREAMALLOCATOR_FUNCTIONTABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstreamallocator_functiontable)
-
+[KSSTREAMALLOCATOR_FUNCTIONTABLE](./ns-ks-ksstreamallocator_functiontable.md)

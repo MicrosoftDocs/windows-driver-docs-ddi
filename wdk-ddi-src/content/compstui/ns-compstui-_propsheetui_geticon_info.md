@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The PROPSHEETUI_GETICON_INFO structure is used as an input parameter to an application's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_ICON.
+The PROPSHEETUI_GETICON_INFO structure is used as an input parameter to an application's <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_ICON.
 
 ## -struct-fields
 
@@ -73,4 +73,3 @@ CPSUI-supplied icon height, in pixels.
 ### -field hIcon
 
 Receives an application-supplied icon handle. If the icon is not loaded, the member must be set to zero.
-

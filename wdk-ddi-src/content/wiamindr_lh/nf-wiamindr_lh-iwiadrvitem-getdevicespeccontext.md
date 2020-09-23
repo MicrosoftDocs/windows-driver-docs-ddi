@@ -66,11 +66,10 @@ If the method succeeds, it stores a pointer to the device-specific context in *p
 
 ## -remarks
 
-Minidrivers typically use this method to obtain a pointer to a device-specific context associated with an **IWiaDrvItem** item. The device-specific context is associated with the item when the item is created using the driver services library function [wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatedrvitem).
+Minidrivers typically use this method to obtain a pointer to a device-specific context associated with an **IWiaDrvItem** item. The device-specific context is associated with the item when the item is created using the driver services library function [wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md).
 
 ## -see-also
 
-[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
+[IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
-[wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatedrvitem)
-
+[wiasCreateDrvItem](../wiamdef/nf-wiamdef-wiascreatedrvitem.md)

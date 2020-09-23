@@ -54,21 +54,20 @@ The<b> KsPinGetAndGate</b> function returns the processing control gate for <i>P
 ### -param Pin 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> for which to return the processing control gate.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> for which to return the processing control gate.
 
 ## -returns
 
-Returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> representing the processing control gate for <i>Pin</i>.
+Returns a pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> representing the processing control gate for <i>Pin</i>.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/flow-control-gates-in-avstream">Flow Control Gates in AVStream</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/flow-control-gates-in-avstream">Flow Control Gates in AVStream</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetandgate">KsFilterGetAndGate</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetandgate">KsFilterGetAndGate</a>

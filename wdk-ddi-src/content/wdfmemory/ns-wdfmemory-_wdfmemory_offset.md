@@ -66,9 +66,8 @@ The length, in bytes, of the buffer's subsection. A value of zero represents the
 
 ## -remarks
 
-The <b>WDFMEMORY_OFFSET</b> structure is used as a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure and as an input parameter to various I/O target object methods.
+The <b>WDFMEMORY_OFFSET</b> structure is used as a member of the <a href="/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure and as an input parameter to various I/O target object methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a>

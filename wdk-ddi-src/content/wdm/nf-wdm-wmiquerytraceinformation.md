@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>WmiQueryTraceInformation</b> routine returns information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-event-tracing">WMI event trace</a>.
+The <b>WmiQueryTraceInformation</b> routine returns information about a <a href="/windows-hardware/drivers/kernel/wmi-event-tracing">WMI event trace</a>.
 
 ## -parameters
 
 ### -param TraceInformationClass 
 
 [in]
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_trace_information_class">TRACE_INFORMATION_CLASS</a> enumerator that indicates the type of information to return about an event trace.
+Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_trace_information_class">TRACE_INFORMATION_CLASS</a> enumerator that indicates the type of information to return about an event trace.
 
 ### -param TraceInformation 
 
@@ -337,21 +337,20 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent">IoWmiWriteEvent</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent">IoWmiWriteEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_trace_information_class">TRACE_INFORMATION_CLASS</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_trace_information_class">TRACE_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
+<a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessage">WmiTraceMessage</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessage">WmiTraceMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>

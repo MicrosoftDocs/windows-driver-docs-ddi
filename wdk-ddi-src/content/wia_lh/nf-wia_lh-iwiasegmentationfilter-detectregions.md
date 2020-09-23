@@ -74,22 +74,22 @@ Returns S_OK if successful, or a standard COM error value otherwise.
 This method determines the subregions of the image represented by <i>pInputStream</i>. For each subregion that it detects, it creates a child item for the <b>IWiaItem2</b> item pointed to by the <i>pWiaItem2</i> parameter. For each child item, the segmentation filter must set values for the bounding rectangle of the area to scan, using the following WIA scanner item properties: 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-xpos">WIA_IPS_XPOS</a>
+<a href="/windows-hardware/drivers/image/wia-ips-xpos">WIA_IPS_XPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-ypos">WIA_IPS_YPOS</a>
+<a href="/windows-hardware/drivers/image/wia-ips-ypos">WIA_IPS_YPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-xextent">WIA_IPS_XEXTENT</a>
+<a href="/windows-hardware/drivers/image/wia-ips-xextent">WIA_IPS_XEXTENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-yextent">WIA_IPS_YEXTENT</a>
+<a href="/windows-hardware/drivers/image/wia-ips-yextent">WIA_IPS_YEXTENT</a>
 
 
-A more advanced filter might also require other scanner item properties, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-deskew-x">WIA_IPS_DESKEW_X</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-deskew-y">WIA_IPS_DESKEW_Y</a>, if the driver supports deskewing. 
+A more advanced filter might also require other scanner item properties, such as <a href="/windows-hardware/drivers/image/wia-ips-deskew-x">WIA_IPS_DESKEW_X</a> and <a href="/windows-hardware/drivers/image/wia-ips-deskew-y">WIA_IPS_DESKEW_Y</a>, if the driver supports deskewing. 
 
 If an application calls <b>IWiaSegmentationFilter::DetectRegions</b> more than once, the application must first delete the child items created by the last call to the <b>IWiaSegmentationFilter::DetectRegions </b>method. 
 
@@ -98,4 +98,3 @@ If an application changes any properties into <i>pWiaItem2</i>, between acquirin
 The application must reset the <b>IStream </b>preview if its call passes the same stream into the segmentation filter more than once. The application must also reset the stream after the initial download and before calling <b>IWiaSegmentationFilter::DetectRegions</b>.
 
 The <b>IStream,IWiaItem2</b> and <b>IWiaPropertyStorage </b>interfaces are described in the Microsoft Windows SDK documentation.
-

@@ -46,19 +46,19 @@ api_name:
 
 ## -description
 
-The <b>SendRecvXMLString</b> method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
+The <b>SendRecvXMLString</b> method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the <a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
 ## -parameters
 
 ### -param bstrRequest 
 
 [in]
-The bidi communication request as a Unicode string that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
+The bidi communication request as a Unicode string that complies with one of the <a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
 ### -param pbstrResponse 
 
 [out]
-A pointer to the printer's response as a Unicode string that complies with one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
+A pointer to the printer's response as a Unicode string that complies with one of the <a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schemas</a>.
 
 ## -returns
 
@@ -105,17 +105,16 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 </table>
  
 
-Note that the <b>HRESULT</b> may contain a system error code that is defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidi-error-codes">Bidi Error Codes</a>.
+Note that the <b>HRESULT</b> may contain a system error code that is defined in <a href="/windows-hardware/drivers/print/bidi-error-codes">Bidi Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2">IBidiSpl2</a>
+<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2">IBidiSpl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
-
+<a href="/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>

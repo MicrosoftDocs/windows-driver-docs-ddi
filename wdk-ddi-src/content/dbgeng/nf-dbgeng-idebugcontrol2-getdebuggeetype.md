@@ -180,7 +180,7 @@ DEBUG_USER_WINDOWS_PROCESS
 
 </td>
 <td>
-The current target is a user-mode process on the same computer as the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
+The current target is a user-mode process on the same computer as the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ The current target is a Full User-Mode Dump file.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -237,4 +237,3 @@ The method was successful.
 </td>
 </tr>
 </table>
-

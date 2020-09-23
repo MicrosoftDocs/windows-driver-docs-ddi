@@ -66,8 +66,7 @@ If the function succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>F
 
 For more information about the LIST_ENTRY structures, see the Windows Driver Kit (WDK) documentation.
 
-If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details).
+If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details).
 
 
 LIST_ENTRY64 and LIST_ENTRY32 are defined in <b>winnt.h</b>.
-

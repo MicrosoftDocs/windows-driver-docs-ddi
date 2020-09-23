@@ -54,7 +54,7 @@ The KSDATARANGE_AUDIO structure specifies a range of audio formats.
 
 ### -field DataRange
 
-Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the audio data. This member is an initialized <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structure.
+Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the audio data. This member is an initialized <a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structure.
 
 ### -field MaximumChannels
 
@@ -78,11 +78,10 @@ Specifies the maximum frequency allowed.
 
 ## -remarks
 
-For examples of data ranges that use the KSDATARANGE_AUDIO structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/pcm-stream-data-range">PCM Stream Data Range</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/directsound-stream-data-range">DirectSound Stream Data Range</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/specifying-ac-3-data-ranges">Specifying AC-3 Data Ranges</a>.
+For examples of data ranges that use the KSDATARANGE_AUDIO structure, see <a href="/windows-hardware/drivers/audio/pcm-stream-data-range">PCM Stream Data Range</a>, <a href="/windows-hardware/drivers/audio/directsound-stream-data-range">DirectSound Stream Data Range</a>, and <a href="/windows-hardware/drivers/audio/specifying-ac-3-data-ranges">Specifying AC-3 Data Ranges</a>.
 
-For information about data ranges and intersection handling, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/data-intersection-handlers">Data-Intersection Handlers</a>.
+For information about data ranges and intersection handling, see <a href="/windows-hardware/drivers/audio/data-intersection-handlers">Data-Intersection Handlers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
-
+<a href="/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>

@@ -54,7 +54,7 @@ From a provided adapter handle, returns the engine type and friendly name of an 
 
 ### -param hAdapter
 
-[in] A handle that identifies a display adapter. The DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+[in] A handle that identifies a display adapter. The DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 ### -param NodeOrdinalAndAdapterIndex
 
@@ -72,7 +72,7 @@ Returns one of the following values:
 
 | **Return code** | **Description** | 
 |:--|:--|
-| **STATUS_SUCCESS** | [DxgkDdiGetNodeMetadata](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_getnodemetadata)  successfully retrieved the engine information. | 
+| **STATUS_SUCCESS** | [DxgkDdiGetNodeMetadata]()  successfully retrieved the engine information. | 
 | **STATUS_INVALID_PARAMETER** | The caller-provided hAdapter or pGetNodeMetadata parameters are invalid, or the caller-provided value of NodeOrdinal is greater than or equal to the number of nodes on the adapter. |
 
  
@@ -81,11 +81,10 @@ If the <i>hAdapter</i> and <i>pGetNodeMetadata</i> parameters are valid, and <i>
 
 ## -remarks
 
-For more information on how to implement this function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/enumerating-gpu-nodes">Enumerating GPU engine capabilities</a>.
+For more information on how to implement this function, see <a href="/windows-hardware/drivers/display/enumerating-gpu-nodes">Enumerating GPU engine capabilities</a>.
 
 ## -see-also
 
 [DXGK_NODEMETADATA](../d3dkmdt/ns-d3dkmdt-_dxgk_nodemetadata.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>

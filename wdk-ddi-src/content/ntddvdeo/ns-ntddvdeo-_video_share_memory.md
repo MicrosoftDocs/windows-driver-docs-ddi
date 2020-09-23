@@ -60,7 +60,7 @@ Is a handle to the current process. This member is usually set to <b>NtCurrentPr
 
 ### -field ViewOffset
 
-Indicates the byte offset from the beginning of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">frame buffer</a>. This member is usually set to 0.
+Indicates the byte offset from the beginning of the <a href="/windows-hardware/drivers/">frame buffer</a>. This member is usually set to 0.
 
 ### -field ViewSize
 
@@ -72,19 +72,18 @@ Indicates the location of the requested frame buffer in the process's memory. Th
 
 ## -remarks
 
-VIDEO_SHARE_MEMORY is provided so that applications such as Direct Draw can have a view of video memory. Although the display driver is unable to directly provide such access to video memory, it can call into the video miniport driver for this purpose. The display driver does this by sending an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_share_video_memory">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a> request to the miniport driver. When the miniport driver fulfills this request, it uses the information in the VIDEO_SHARE_MEMORY structure, and fills in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory_information">VIDEO_SHARE_MEMORY_INFORMATION</a> structure with the actual location of the requested memory, if no location was specified. When the application no longer needs the shared memory, the display driver can release this memory by making an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_unshare_video_memory">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a> request, which also uses a VIDEO_SHARE_MEMORY structure as an input buffer.
+VIDEO_SHARE_MEMORY is provided so that applications such as Direct Draw can have a view of video memory. Although the display driver is unable to directly provide such access to video memory, it can call into the video miniport driver for this purpose. The display driver does this by sending an <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_share_video_memory">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a> request to the miniport driver. When the miniport driver fulfills this request, it uses the information in the VIDEO_SHARE_MEMORY structure, and fills in a <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory_information">VIDEO_SHARE_MEMORY_INFORMATION</a> structure with the actual location of the requested memory, if no location was specified. When the application no longer needs the shared memory, the display driver can release this memory by making an <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_unshare_video_memory">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a> request, which also uses a VIDEO_SHARE_MEMORY structure as an input buffer.
 
-For structures used in mapping into kernel-mode video memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory_information">VIDEO_MEMORY_INFORMATION</a>.
+For structures used in mapping into kernel-mode video memory, see <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a> and <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory_information">VIDEO_MEMORY_INFORMATION</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_share_video_memory">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_share_video_memory">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_unshare_video_memory">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_unshare_video_memory">IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory_information">VIDEO_SHARE_MEMORY_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory_information">VIDEO_SHARE_MEMORY_INFORMATION</a>

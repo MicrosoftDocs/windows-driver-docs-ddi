@@ -58,7 +58,7 @@ The NDIS_RECEIVE_HASH_PARAMETERS structure specifies the receive hash parameters
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_RECEIVE_HASH_PARAMETERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -123,16 +123,16 @@ In a set request, the hash type and hash function that the NIC should use to com
 In a query request, the hash type and hash function that the NIC is using.
 
 Overlying drivers and NDIS can use the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
+     <a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
      NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a> macro to combine the hash type and hash function into hash
      information and set the 
      <b>HashInformation</b> member.
 
 Miniport drivers can use the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
+     <a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
      NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a> macro to get the hash type from 
      <b>HashInformation</b> and the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
+     <a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
      NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a> macro to get the hash function.
 
 ### -field HashSecretKeySize
@@ -152,7 +152,7 @@ In a query request, the secret key contains the data that the NIC is using.
 ## -remarks
 
 The NDIS_RECEIVE_HASH_PARAMETERS structure defines the hash parameters for the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-hash">OID_GEN_RECEIVE_HASH</a> OID.
+    <a href="/windows-hardware/drivers/network/oid-gen-receive-hash">OID_GEN_RECEIVE_HASH</a> OID.
 
 <div class="alert"><b>Note</b>  Protocol drivers must disable receive hash calculations before they enable RSS. If
     RSS is enabled, a protocol driver disables RSS before it enables receive hash calculations. A miniport
@@ -165,28 +165,27 @@ The NDIS_RECEIVE_HASH_PARAMETERS structure defines the hash parameters for the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
+<a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
+<a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
    NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
+<a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
    NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-hash">OID_GEN_RECEIVE_HASH</a>
-
+<a href="/windows-hardware/drivers/network/oid-gen-receive-hash">OID_GEN_RECEIVE_HASH</a>

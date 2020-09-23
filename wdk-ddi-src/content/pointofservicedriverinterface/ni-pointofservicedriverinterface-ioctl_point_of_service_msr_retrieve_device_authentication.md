@@ -60,7 +60,7 @@ Not used with this operation; set to **0** (zero).
 
 ### -output-buffer
 
-Pointer to a buffer that receives a [MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_msr_retrieve_device_authentication_data).
+Pointer to a buffer that receives a [MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA](./ns-pointofservicedriverinterface-_msr_retrieve_device_authentication_data.md).
 
 ### -output-buffer-length
 
@@ -74,7 +74,6 @@ Size of the output buffer, in bytes. Set to sizeof(**MSR_RETRIEVE_DEVICE_AUTHENT
 
 Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
-

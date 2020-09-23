@@ -83,13 +83,12 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 ## -remarks
 
-A still image minidriver only needs to implement <b>IStiUSD::Escape</b> if I/O operations are required that cannot be implemented within <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreaddata">IStiUSD::RawReadData</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritedata">IStiUSD::RawWriteData</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreadcommand">IStiUSD::RawReadCommand</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritecommand">IStiUSD::RawWriteCommand</a> methods. The minidriver defines parameter usage for <b>IStiUSD::Escape</b>.
+A still image minidriver only needs to implement <b>IStiUSD::Escape</b> if I/O operations are required that cannot be implemented within <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreaddata">IStiUSD::RawReadData</a>, <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritedata">IStiUSD::RawWriteData</a>, <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreadcommand">IStiUSD::RawReadCommand</a>, or <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritecommand">IStiUSD::RawWriteCommand</a> methods. The minidriver defines parameter usage for <b>IStiUSD::Escape</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-escape">IStiDevice::Escape</a>
+<a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-escape">IStiDevice::Escape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
-
+<a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>

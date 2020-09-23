@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-Specifies the number of current <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
+Specifies the number of current <a href="/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
 
 ## -struct-fields
 
@@ -59,4 +59,3 @@ The ID of the video present network (VidPN).
 ### -field OutputDuplicationCount
 
 The number of current DDA clients that are attached to the VidPN specified by the <b>VidPnSourceId</b> member.
-

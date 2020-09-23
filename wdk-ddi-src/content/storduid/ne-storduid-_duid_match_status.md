@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The DUID_MATCH_STATUS enumeration lists the status values that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storduid/nf-storduid-comparestorageduids">CompareStorageDuids</a> routine returns.
+The DUID_MATCH_STATUS enumeration lists the status values that the <a href="/windows-hardware/drivers/ddi/storduid/nf-storduid-comparestorageduids">CompareStorageDuids</a> routine returns.
 
 ## -enum-fields
 
@@ -82,11 +82,11 @@ At least one of the two DUIDs to compare is invalid.
 
 ### -field DuidErrorInvalidDeviceIdDescSize
 
-At least one of the two DUIDs to compare contains an invalid device ID descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>). This descriptor reports VPD data.
+At least one of the two DUIDs to compare contains an invalid device ID descriptor (<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>). This descriptor reports VPD data.
 
 ### -field DuidErrorInvalidDeviceDescSize
 
-At least one of the two DUIDs to compare contains an invalid device descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>). This descriptor reports non-VPD inquiry data..
+At least one of the two DUIDs to compare contains an invalid device descriptor (<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>). This descriptor reports non-VPD inquiry data..
 
 ### -field DuidErrorInvalidLayoutSigSize
 
@@ -98,17 +98,16 @@ At least one of the two DUIDs to compare contains an invalid drive layout signat
 
 ### -field DuidErrorMaximum
 
-This value delimits the upper limit of the enumeration values in this enumeration. This value allows a DUID consumer to create a loop that tests for all valid error values that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storduid/nf-storduid-comparestorageduids">CompareStorageDuids</a> routine returns. As new identifier data is added to future versions of the DUID, new error values will specify which parts of the DUID are not well-formed.
+This value delimits the upper limit of the enumeration values in this enumeration. This value allows a DUID consumer to create a loop that tests for all valid error values that the <a href="/windows-hardware/drivers/ddi/storduid/nf-storduid-comparestorageduids">CompareStorageDuids</a> routine returns. As new identifier data is added to future versions of the DUID, new error values will specify which parts of the DUID are not well-formed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storduid/nf-storduid-comparestorageduids">CompareStorageDuids</a>
+<a href="/windows-hardware/drivers/ddi/storduid/nf-storduid-comparestorageduids">CompareStorageDuids</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>

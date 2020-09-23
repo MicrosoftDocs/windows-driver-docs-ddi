@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The<i>MRxIsValidDirectory</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector check for the existence of a remote directory.
+The<i>MRxIsValidDirectory</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector check for the existence of a remote directory.
 
 ## -parameters
 
@@ -88,49 +88,48 @@ This remote directory does not exist.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxquerydirectory">MRxQueryDirectory</a>
+<a href="/windows-hardware/drivers/ifs/mrxquerydirectory">MRxQueryDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxqueryeainfo">MRxQueryEaInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxqueryeainfo">MRxQueryEaInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxqueryquotainfo">MRxQueryQuotaInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxqueryquotainfo">MRxQueryQuotaInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxseteainfo">MRxSetEaInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxseteainfo">MRxSetEaInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxsetfileinfo">MRxSetFileInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxsetfileinfo">MRxSetFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup">MRxSetFileInfoAtCleanup</a>
+<a href="/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup">MRxSetFileInfoAtCleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxsetquotainfo">MRxSetQuotaInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxsetquotainfo">MRxSetQuotaInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxsetsdinfo">MRxSetSdInfo</a>
+<a href="/windows-hardware/drivers/ifs/mrxsetsdinfo">MRxSetSdInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxsetvolumeinfo">MRxSetVolumeInfo</a>
-
+<a href="/windows-hardware/drivers/ifs/mrxsetvolumeinfo">MRxSetVolumeInfo</a>

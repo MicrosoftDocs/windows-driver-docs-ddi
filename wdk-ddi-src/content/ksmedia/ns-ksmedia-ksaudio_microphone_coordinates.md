@@ -100,5 +100,4 @@ Now assume that there are three microphones in the array, as shown in the preced
 
 If one of the microphones, for example **Mic 1**, happens to be dipped downward, or raised up, then this microphone would also have a vertical angle between its center line and the projection of its center line onto the x-y plane. This angle is represented by *wVerticalAngle*.
 
-For more information about how to process a microphone array in Windows, see the [Microphone array support in Windows](https://docs.microsoft.com/previous-versions/windows/hardware/design/dn613960(v=vs.85)) white paper.
-
+For more information about how to process a microphone array in Windows, see the [Microphone array support in Windows](/previous-versions/windows/hardware/design/dn613960(v=vs.85)) white paper.

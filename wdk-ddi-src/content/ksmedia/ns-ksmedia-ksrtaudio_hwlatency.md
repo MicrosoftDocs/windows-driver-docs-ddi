@@ -66,7 +66,7 @@ Specifies the delay through the codec in 100-nanosecond units.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-hwlatency">KSPROPERTY_RTAUDIO_HWLATENCY</a> property request uses the KSRTAUDIO_HWLATENCY structure to pass hardware-latency information from the driver to the client.
+The <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-hwlatency">KSPROPERTY_RTAUDIO_HWLATENCY</a> property request uses the KSRTAUDIO_HWLATENCY structure to pass hardware-latency information from the driver to the client.
 
 The <b>FifoSize</b> member specifies the size of the hardware FIFO that the audio device uses to buffer the wave data that is in transit between memory and the digital-to-analog or analog-to-digital converter (DAC or ADC). During playback, the audio device reads data from memory and holds the data in the FIFO until the time arrives to feed the data to the DAC. During recording, the FIFO accumulates data from the ADC before writing it to main memory. The size of the FIFO can vary with the sample rate and transfer mode.
 
@@ -76,5 +76,4 @@ The <b>CodecDelay</b> member is the delay that the codec adds to an audio stream
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-hwlatency">KSPROPERTY_RTAUDIO_HWLATENCY</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-hwlatency">KSPROPERTY_RTAUDIO_HWLATENCY</a>

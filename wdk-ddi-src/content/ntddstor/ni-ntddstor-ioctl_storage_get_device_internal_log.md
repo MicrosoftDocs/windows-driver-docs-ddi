@@ -38,7 +38,7 @@ product:
 
 ### Major Code
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -66,7 +66,7 @@ The driver returns output to the buffer at **Irp->AssociatedIrp.SystemBuffer**. 
 ### -status-block
 
 **Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status is set to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Otherwise, Status is set to the appropriate error condition as a NTSTATUS code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -102,4 +102,3 @@ result = DeviceIoControl(deviceHandle,
 [DEVICE_INTERNAL_STATUS_DATA](ns-ntddstor-device_internal_status_data.md)
 
 [GET_DEVICE_INTERNAL_STATUS_DATA_REQUEST](ns-ntddstor-get_device_internal_status_data_request.md)
-

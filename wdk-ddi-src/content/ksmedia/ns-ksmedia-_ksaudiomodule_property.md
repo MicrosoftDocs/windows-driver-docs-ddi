@@ -68,9 +68,8 @@ The InstanceId of the audio module.  The InstanceId is a unique identifier that 
 
 ## -remarks
 
-For more information about audio modules, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>.
+For more information about audio modules, see  <a href="/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audiomodule-descriptors">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-audiomodule-descriptors">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>

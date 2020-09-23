@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the [GNSS_DRIVERCOMMAND_PARAM](https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_drivercommand_param) structure.
+This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the [GNSS_DRIVERCOMMAND_PARAM](./ns-gnssdriver-gnss_drivercommand_param.md) structure.
 
 ## -enum-fields
 
@@ -146,7 +146,7 @@ This command should only be called when there is no active fix session. This com
 
 ### -field GNSS_ClearAgnssData
 
-This command clears the AGNSS assistance data from the GNSS engine. This is used mainly for testing purpose to ensure that the driver requests for assistance data when a fix is requested. The associated command data contains the specific [GNSS_AGNSS_REQUEST_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_agnss_request_type) enumeration to indicate the specific data element to be cleared:
+This command clears the AGNSS assistance data from the GNSS engine. This is used mainly for testing purpose to ensure that the driver requests for assistance data when a fix is requested. The associated command data contains the specific [GNSS_AGNSS_REQUEST_TYPE](./ne-gnssdriver-gnss_agnss_request_type.md) enumeration to indicate the specific data element to be cleared:
 
 - If **GNSS_AGNSS_TimeInjection** is specified, the time reference will be deleted in the GNSS engine. This may cause the GNSS engine to request again time injection.
 
@@ -158,7 +158,7 @@ It is highly recommended that this command is supported for test purposes even i
 
 ### -field GNSS_SetSuplVersion
 
-This command sets the SUPL version that the mobile operator wants supported. The command data contains a value of [GNSS_SUPL_VERSION](https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_supl_version) structure which includes both the major and the minor SUPL versions indicated by the mobile operator. 
+This command sets the SUPL version that the mobile operator wants supported. The command data contains a value of [GNSS_SUPL_VERSION](./ns-gnssdriver-gnss_supl_version.md) structure which includes both the major and the minor SUPL versions indicated by the mobile operator. 
 
 The SUPL client should use the SUPL version as specifies in the OMA SUPL standards, summarizing as follows:
 
@@ -170,7 +170,7 @@ The SUPL client should use the SUPL version as specifies in the OMA SUPL standar
 
 This command sets the status for NMEA logging.
 
-This command causes the GNSS driver to start/stop providing the data fix information via NMEA strings. The GNSS driver must continue providing fixes in the [GNSS_FIXDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_fixdata) structure.
+This command causes the GNSS driver to start/stop providing the data fix information via NMEA strings. The GNSS driver must continue providing fixes in the [GNSS_FIXDATA](./ns-gnssdriver-gnss_fixdata.md) structure.
 
 The parameter is a **DWORD** with the following values:
 
@@ -208,4 +208,3 @@ This command sets the SUPL 2 version for the GNSS driver.
 ### -field GNSS_CustomCommand
 
 Range for custom IHV-specific GNSS commands:  0x0100 – 0x01FF.
-

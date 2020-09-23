@@ -54,13 +54,12 @@ The <b>IKsReferenceClock::GetTime</b> method returns the current stream time for
 
 ## -remarks
 
-Do not call this method when obtaining a time stamp for the <b>PresentationTime</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>. Instead, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getcorrelatedtime">IKsReferenceClock::GetCorrelatedTime</a> in this situation.
+Do not call this method when obtaining a time stamp for the <b>PresentationTime</b> member of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>. Instead, call <a href="/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getcorrelatedtime">IKsReferenceClock::GetCorrelatedTime</a> in this situation.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
 
-AVStream uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-time">KSPROPERTY_CLOCK_TIME</a> property to retrieve the current clock time.
+AVStream uses the <a href="/windows-hardware/drivers/stream/ksproperty-clock-time">KSPROPERTY_CLOCK_TIME</a> property to retrieve the current clock time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>

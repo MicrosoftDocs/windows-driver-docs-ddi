@@ -73,7 +73,7 @@ void
 
 #### KsDevice
 
-[in] A [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice) object representing the device managed by KS.
+[in] A [KSDEVICE](./ns-ks-_ksdevice.md) object representing the device managed by KS.
 
 #### Engaged
 
@@ -102,7 +102,7 @@ void
 
 #### KsDevice
 
-[in] A [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice) object representing the device managed by KS.
+[in] A [KSDEVICE](./ns-ks-_ksdevice.md) object representing the device managed by KS.
 
 #### Percentage
 
@@ -111,4 +111,3 @@ void
 #### DeviceThermalState
 
 [out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications.
-

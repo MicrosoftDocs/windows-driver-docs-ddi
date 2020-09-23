@@ -67,13 +67,12 @@ Processes can call <b>RtlDestroyHeap</b> without first calling <b>RtlFreeHeap</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlallocateheap">RtlAllocateHeap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlallocateheap">RtlAllocateHeap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfreeheap">RtlFreeHeap</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfreeheap">RtlFreeHeap</a>

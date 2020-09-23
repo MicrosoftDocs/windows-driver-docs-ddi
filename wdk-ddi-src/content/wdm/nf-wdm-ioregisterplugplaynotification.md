@@ -106,7 +106,7 @@ The callback routine's *NotificationStructure* is specific to the *EventCategory
 
 The callback routine's *Context* parameter contains the context data the driver supplied during registration.
 
-For information about including a function declaration for the callback routine  that meets the requirements of [Static Driver Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), see Examples.
+For information about including a function declaration for the callback routine  that meets the requirements of [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), see Examples.
 
 The PnP manager calls driver callback routines at IRQL = PASSIVE_LEVEL.
 
@@ -137,13 +137,13 @@ PnP notification callback routines should complete their tasks as quickly as pos
 
 The PnP manager does not take out a reference on the file object when a driver registers for notification of an **EventCategoryTargetDeviceChange** event. If the driver's PnP notification callback routine requires access to the file object, the driver should take out an extra reference on the file object before calling **IoRegisterPlugPlayNotification**.
 
-Typically, Kernel-Mode Driver Framework (KMDF) drivers should call **IoRegisterPlugPlayNotification** from their [EvtDeviceSelfManagedIoInit](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init) callback function, and should call **IoUnregisterPlugPlayNotification** from their [EvtDeviceSelfManagedIoCleanup](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup) callback function. These drivers should **not** call **IoRegisterPlugPlayNotification** from their [EvtDriverDeviceAdd](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) callback function; otherwise, the PnP notification callback routine might be called before the driver stack is started by PnP, in which case the driver will not be prepared to handle the notification.
+Typically, Kernel-Mode Driver Framework (KMDF) drivers should call **IoRegisterPlugPlayNotification** from their [EvtDeviceSelfManagedIoInit](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md) callback function, and should call **IoUnregisterPlugPlayNotification** from their [EvtDeviceSelfManagedIoCleanup](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md) callback function. These drivers should **not** call **IoRegisterPlugPlayNotification** from their [EvtDriverDeviceAdd](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback function; otherwise, the PnP notification callback routine might be called before the driver stack is started by PnP, in which case the driver will not be prepared to handle the notification.
 
-For more information, see [Using PnP Notification](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add).
+For more information, see [Using PnP Notification](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md).
 
 ### Examples
 
-To define a PnP notification callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a PnP notification callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a PnP notification callback routine that is named `MyCallbackRoutine`, use the DRIVER_NOTIFICATION_CALLBACK_ROUTINE type as shown in this code example:
 
@@ -165,17 +165,17 @@ NTSTATUS
   }
 ```
 
-The **DRIVER_NOTIFICATION_CALLBACK_ROUTINE** function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_NOTIFICATION_CALLBACK_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior).
+The **DRIVER_NOTIFICATION_CALLBACK_ROUTINE** function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_NOTIFICATION_CALLBACK_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
 [DEVICE_INTERFACE_CHANGE_NOTIFICATION](ns-wdm-_device_interface_change_notification.md)
 
-[EvtDeviceSelfManagedIoCleanup](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup)
+[EvtDeviceSelfManagedIoCleanup](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md)
 
-[EvtDeviceSelfManagedIoInit](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init)
+[EvtDeviceSelfManagedIoInit](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md)
 
-[EvtDriverDeviceAdd](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add)
+[EvtDriverDeviceAdd](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)
 
 [HWPROFILE_CHANGE_NOTIFICATION](ns-wdm-_hwprofile_change_notification.md)
 
@@ -188,4 +188,3 @@ The **DRIVER_NOTIFICATION_CALLBACK_ROUTINE** function type is defined in the Wdm
 [TARGET_DEVICE_CUSTOM_NOTIFICATION](ns-wdm-_target_device_custom_notification.md)
 
 [TARGET_DEVICE_REMOVAL_NOTIFICATION](ns-wdm-_target_device_removal_notification.md)
-

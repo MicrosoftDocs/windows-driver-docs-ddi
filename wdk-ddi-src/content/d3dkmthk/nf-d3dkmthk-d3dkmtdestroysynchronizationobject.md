@@ -57,7 +57,7 @@ The <b>D3DKMTDestroySynchronizationObject</b> function destroys a kernel-mode sy
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroysynchronizationobject">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroysynchronizationobject">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroysynchronizationobject">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroysynchronizationobject">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a>

@@ -76,9 +76,8 @@ The number of drives.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoQueryDeviceDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>
-
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">IoReportResourceUsage</a>

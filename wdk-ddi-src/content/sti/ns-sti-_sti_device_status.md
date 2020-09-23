@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The STI_DEVICE_STATUS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getstatus">IStiUSD::GetStatus</a> methods.
+The STI_DEVICE_STATUS structure is used as a parameter to the <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a> and <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getstatus">IStiUSD::GetStatus</a> methods.
 
 ## -struct-fields
 
@@ -242,4 +242,3 @@ A device event has occurred.
 ### -field dwPollingInterval
 
 Time value, in milliseconds, indicating how often the device should be polled, if polling is required.
-

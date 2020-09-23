@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The GetKind method returns what kind of object is boxed inside the [IModelObject](nn-dbgmodel-imodelobject.md). Such kind is defined by the [ModelObjectKind enumeration](https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/ne-dbgmodel-modelobjectkind).
+The GetKind method returns what kind of object is boxed inside the [IModelObject](nn-dbgmodel-imodelobject.md). Such kind is defined by the [ModelObjectKind enumeration](./ne-dbgmodel-modelobjectkind.md).
 
 ## -parameters
 
@@ -72,4 +72,3 @@ HRESULT hr = spObject->GetKind(&kind);
 ## -see-also
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)
-

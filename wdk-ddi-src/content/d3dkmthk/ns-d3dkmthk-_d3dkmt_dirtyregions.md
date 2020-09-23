@@ -58,9 +58,8 @@ The D3DKMT_DIRTYREGIONS structure describes active rectangles (dirty regions) of
 
 ### -field Rects
 
-[in] An array of <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structures that specifies the dirty regions of a surface.
+[in] An array of <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structures that specifies the dirty regions of a surface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>

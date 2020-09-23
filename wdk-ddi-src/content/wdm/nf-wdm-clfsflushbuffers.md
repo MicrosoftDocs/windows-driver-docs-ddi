@@ -54,7 +54,7 @@ The <b>ClfsFlushBuffers</b> routine forces all log I/O blocks in a specified mar
 ### -param pvMarshalContext 
 
 [in]
-A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
 ## -returns
 
@@ -62,11 +62,10 @@ A pointer to an opaque context that represents a marshalling area. The caller pr
 
 ## -remarks
 
-Calling <b>ClfsFlushBuffers</b> is equivalent to calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsflushtolsn">ClfsFlushToLsn</a> with the <i>plsnFlush</i> parameter set to CLFS_LSN_NULL.
+Calling <b>ClfsFlushBuffers</b> is equivalent to calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsflushtolsn">ClfsFlushToLsn</a> with the <i>plsnFlush</i> parameter set to CLFS_LSN_NULL.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsflushtolsn">ClfsFlushToLsn</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsflushtolsn">ClfsFlushToLsn</a>

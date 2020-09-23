@@ -54,7 +54,7 @@ The <b>ExAllocateTimer</b> routine allocates and initializes a timer object.
 ### -param Callback 
 
 [in, optional]
-A pointer to a driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine. The operating system calls this routine when the timer expires. This parameter is optional and can be <b>NULL</b> if no callback routine is needed.
+A pointer to a driver-implemented <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine. The operating system calls this routine when the timer expires. This parameter is optional and can be <b>NULL</b> if no callback routine is needed.
 
 ### -param CallbackContext 
 
@@ -94,41 +94,40 @@ For more information about timer attributes, see Remarks.
 
 ## -returns
 
-This routine returns a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure, if the call is successful. This structure is the timer object that the routine has allocated and initialized. If the call fails, the routine returns <b>NULL</b>.
+This routine returns a pointer to an <a href="/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure, if the call is successful. This structure is the timer object that the routine has allocated and initialized. If the call fails, the routine returns <b>NULL</b>.
 
 ## -remarks
 
-This routine returns a pointer to the new timer object. To use the timer, the calling driver supplies this pointer in subsequent calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer">ExSetTimer</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excanceltimer">ExCancelTimer</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routines. If the driver supplies a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine as an input parameter to the <b>ExAllocateTimer</b> routine, the operating system passes this timer object as an input parameter to the <i>ExTimerCallback</i> routine.
+This routine returns a pointer to the new timer object. To use the timer, the calling driver supplies this pointer in subsequent calls to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer">ExSetTimer</a>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-excanceltimer">ExCancelTimer</a>, and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routines. If the driver supplies a pointer to an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine as an input parameter to the <b>ExAllocateTimer</b> routine, the operating system passes this timer object as an input parameter to the <i>ExTimerCallback</i> routine.
 
 A timer can be a notification timer or a synchronization timer. When a notification timer is signaled, all waiting threads have their wait satisfied. The state of this timer remains signaled until it is explicitly reset. When a synchronization timer expires, its state is set to signaled until a single waiting thread is released. Then, the timer is reset to the not-signaled state.
 
-If the EX_TIMER_HIGH_RESOLUTION flag bit is set in <i>Attributes</i>, the operating system increases the resolution of the system clock, as necessary, so that the times at which the timer expires more precisely corresponds to the nominal expiration times specified in the <i>DueTime</i> and <i>Period</i> parameters to the <b>ExSetTimer</b> routine. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/high-resolution-timers">High-Resolution Timers</a>.
+If the EX_TIMER_HIGH_RESOLUTION flag bit is set in <i>Attributes</i>, the operating system increases the resolution of the system clock, as necessary, so that the times at which the timer expires more precisely corresponds to the nominal expiration times specified in the <i>DueTime</i> and <i>Period</i> parameters to the <b>ExSetTimer</b> routine. For more information, see <a href="/windows-hardware/drivers/kernel/high-resolution-timers">High-Resolution Timers</a>.
 
-If the EX_TIMER_NO_WAKE flag bit is set in <i>Attributes</i>, the timer avoids unnecessarily waking the processor from a low-power state. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/no-wake-timers">No-Wake Timers</a>.
+If the EX_TIMER_NO_WAKE flag bit is set in <i>Attributes</i>, the timer avoids unnecessarily waking the processor from a low-power state. For more information, see <a href="/windows-hardware/drivers/kernel/no-wake-timers">No-Wake Timers</a>.
 
 <b>ExAllocateTimer</b> allocates the storage for the timer object. When this object is no longer needed, the caller is responsible for freeing this object by calling the <b>ExDeleteTimer</b> routine.
 
-The <i>Callback</i> parameter is optional. A driver that does not supply an <i>ExTimerCallback</i> routine can instead initiate a wait operation on the timer object. A driver thread can call a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a> to wait for the timer to expire. When the timer expires, the timer object is signaled.
+The <i>Callback</i> parameter is optional. A driver that does not supply an <i>ExTimerCallback</i> routine can instead initiate a wait operation on the timer object. A driver thread can call a routine such as <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a> to wait for the timer to expire. When the timer expires, the timer object is signaled.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">ExXxxTimer Routines and EX_TIMER Objects</a>.
+For more information, see <a href="/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">ExXxxTimer Routines and EX_TIMER Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+<a href="/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excanceltimer">ExCancelTimer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-excanceltimer">ExCancelTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer">ExSetTimer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exsettimer">ExSetTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a>

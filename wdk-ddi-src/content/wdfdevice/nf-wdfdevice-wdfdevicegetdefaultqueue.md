@@ -68,7 +68,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-For more information about default I/O queues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
+For more information about default I/O queues, see <a href="/windows-hardware/drivers/wdf/creating-i-o-queues">Creating I/O Queues</a>.
 
 
 #### Examples
@@ -80,4 +80,3 @@ WDFQUEUE DefaultQueue;
 
 DefaultQueue = WdfDeviceGetDefaultQueue(Device);
 ```
-

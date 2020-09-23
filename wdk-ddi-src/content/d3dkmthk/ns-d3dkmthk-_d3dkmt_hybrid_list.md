@@ -56,7 +56,7 @@ The GPU preference query state.
 
 [in,opt] Adapter LUID to per-adapter DList state. Optional, if *bUserPreferenceQuery* is true. 
 
-For more info about DList, see *Setting up the dList DLL* in [Hybrid system DDI](https://docs.microsoft.com/windows-hardware/drivers/display/hybrid-system-ddi).
+For more info about DList, see *Setting up the dList DLL* in [Hybrid system DDI](/windows-hardware/drivers/display/hybrid-system-ddi).
 
 ### -field bUserPreferenceQuery
 
@@ -68,4 +68,3 @@ Indicates whether the structure is referring to user GPU preference, or per-adap
 ## -remarks
 
 ## -see-also
-

@@ -52,11 +52,11 @@ The IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION request passes a pointer to 
 
 ### -input-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a buffer allocated by I8042prt to input an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_start_information">INTERNAL_I8042_START_INFORMATION</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a buffer allocated by I8042prt to input an <a href="/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_start_information">INTERNAL_I8042_START_INFORMATION</a> structure.
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> specifies the size, in bytes, of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_start_information">INTERNAL_I8042_START_INFORMATION</a> structure.
+<b>Parameters.DeviceIoControl.InputBufferLength</b> specifies the size, in bytes, of an <a href="/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_start_information">INTERNAL_I8042_START_INFORMATION</a> structure.
 
 ### -output-buffer
 
@@ -78,5 +78,4 @@ The <b>Status</b> member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_start_information">INTERNAL_I8042_START_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_start_information">INTERNAL_I8042_START_INFORMATION</a>

@@ -60,7 +60,7 @@ The HANDLE to an open printer. This should be a handle that was returned by the 
 ### -param hDeviceObject 
 
 [in]
-The HANDLE to the device object to be updated. This should be a device object that was created with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>.
+The HANDLE to the device object to be updated. This should be a device object that was created with <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>.
 
 ## -returns
 
@@ -70,13 +70,12 @@ For example, this function can return HRESULT_FROM_WIN32(ERROR_INVALID_HANDLE), 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/win32/printdocs/printer-info-2">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
+The <a href="/windows/win32/printdocs/printer-info-2">PRINTER_INFO_2</a>  structure is a good example of the kind of properties that <b>UpdatePrintDeviceObject</b> can update.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/printdocs/printer-info-2">PRINTER_INFO_2</a>
-
+<a href="/windows/win32/printdocs/printer-info-2">PRINTER_INFO_2</a>

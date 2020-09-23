@@ -54,7 +54,7 @@ The KSPROPERTY_VIDEODECODER_S structure describes property settings in the PROPS
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field Value
 
@@ -66,17 +66,16 @@ The KSPROPERTY_VIDEODECODER_S structure is shared among the KSPROPERTY_VIDEODECO
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videodecoder-output-enable">KSPROPERTY_VIDEODECODER_OUTPUT_ENABLE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videodecoder-output-enable">KSPROPERTY_VIDEODECODER_OUTPUT_ENABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videodecoder-standard">KSPROPERTY_VIDEODECODER_STANDARD</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videodecoder-standard">KSPROPERTY_VIDEODECODER_STANDARD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videodecoder-vcr-timing">KSPROPERTY_VIDEODECODER_VCR_TIMING</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-videodecoder-vcr-timing">KSPROPERTY_VIDEODECODER_VCR_TIMING</a>

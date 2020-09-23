@@ -146,5 +146,4 @@ A string of **InstanceIDLength** in length which contains a number that uniquely
 
 ## -see-also
 
-[IOCTL_ACPI_GET_DEVICE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_get_device_information)
-
+[IOCTL_ACPI_GET_DEVICE_INFORMATION](./ni-acpiioct-ioctl_acpi_get_device_information.md)

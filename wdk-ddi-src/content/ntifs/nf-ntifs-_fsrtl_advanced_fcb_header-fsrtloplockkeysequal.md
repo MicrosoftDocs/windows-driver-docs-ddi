@@ -71,9 +71,8 @@ The <b>FsRtlOplockKeysEqual</b> routine returns <b>TRUE</b> if the keys match or
 
 If no oplock keys were provided when the file objects were created, they are considered to match if the file object pointers are the same (that is, they are the same file object). If the file object pointers are different and either or both of them do not have an associated oplock key, they are considered to not match.
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockkeysequal">FltOplockKeysEqual</a> instead of <b>FsRtlOplockKeysEqual</b>.
+Minifilters should call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockkeysequal">FltOplockKeysEqual</a> instead of <b>FsRtlOplockKeysEqual</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockkeysequal">FltOplockKeysEqual</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltoplockkeysequal">FltOplockKeysEqual</a>

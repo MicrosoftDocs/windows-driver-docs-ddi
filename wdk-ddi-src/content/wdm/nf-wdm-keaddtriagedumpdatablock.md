@@ -61,13 +61,12 @@ Adds a triage dump data block to a triage dump data block array.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the data block was successfully added. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Returns STATUS_SUCCESS if the data block was successfully added. Otherwise returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 ## -see-also
 
-[*KeInitializeTriageDumpDataArray***](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetriagedumpdataarray)
+[*KeInitializeTriageDumpDataArray***](./nf-wdm-keinitializetriagedumpdataarray.md)
 
-[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine)
-
+[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)

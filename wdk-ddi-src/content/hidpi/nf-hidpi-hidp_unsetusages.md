@@ -47,14 +47,14 @@ api_name:
 
 ## -description
 
-The <b>HidP_UnsetUsages</b> routine sets specified HID control button <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usages</a> OFF (zero) in a HID report.
+The <b>HidP_UnsetUsages</b> routine sets specified HID control button <a href="/windows-hardware/drivers/hid/hid-usages">usages</a> OFF (zero) in a HID report.
 
 ## -parameters
 
 ### -param ReportType 
 
 [in]
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of report located at <i>Report</i>.
+Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of report located at <i>Report</i>.
 
 ### -param UsagePage 
 
@@ -64,7 +64,7 @@ Specifies the usage page of the usages specified by <i>UsageList</i>.
 ### -param LinkCollection 
 
 [in, optional]
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection</a> that contains the usages. If <i>LinkCollection</i> is nonzero, the routine only sets the usages, if they exist, in this link collection. If <i>LinkCollection</i> is zero, the routine sets the first usage for each usage it finds in the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
+Specifies the <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> that contains the usages. If <i>LinkCollection</i> is nonzero, the routine only sets the usages, if they exist, in this link collection. If <i>LinkCollection</i> is zero, the routine sets the first usage for each usage it finds in the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
 
 ### -param UsageList 
 
@@ -79,7 +79,7 @@ Specifies, on input, the number of usages in <i>UsageList</i>. See the Remarks s
 ### -param PreparsedData 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> of the top-level collection associated with the report located at <i>Report</i>.
+Pointer to the <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a> of the top-level collection associated with the report located at <i>Report</i>.
 
 ### -param Report 
 
@@ -89,7 +89,7 @@ Pointer to a report.
 ### -param ReportLength 
 
 [in]
-Specifies the size, in bytes, of the report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a> returns in a collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a> returns in a collection's <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
 
 ## -returns
 
@@ -202,25 +202,24 @@ The routine did not find a usage in any report of the specified type.
 
 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hdpi-h-macros">HidP_SetButtons</a>
+<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_SetButtons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setdata">HidP_SetData</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setdata">HidP_SetData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages">HidP_SetUsages</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages">HidP_SetUsages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hdpi-h-macros">HidP_UnsetButtons</a>
+<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_UnsetButtons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>

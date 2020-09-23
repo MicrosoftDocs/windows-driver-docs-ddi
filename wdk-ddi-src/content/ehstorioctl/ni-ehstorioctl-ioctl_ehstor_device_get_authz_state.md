@@ -52,11 +52,11 @@ This IOCTL is used to inform the owning driver for the IEEE 1667 device PDOs tha
 
 ### -input-buffer
 
-The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">ACT_AUTHZ_STATE</a>.
+The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a structure of type <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">ACT_AUTHZ_STATE</a>.
 
 ### -input-buffer-length
 
-The length of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">ACT_AUTHZ_STATE</a> structure.
+The length of an <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">ACT_AUTHZ_STATE</a> structure.
 
 ### -output-buffer
 
@@ -90,4 +90,3 @@ STATUS_INVALID_BUFFER_SIZE - The input buffer length supplied is of incorrect si
 
 </dd>
 </dl>
-

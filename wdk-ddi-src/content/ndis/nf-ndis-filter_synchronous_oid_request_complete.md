@@ -114,5 +114,4 @@ Filter drivers must not call [**NdisAllocateCloneOidRequest**](nf-ndis-ndisalloc
 
 [**NdisFSynchronousOidRequest**](nf-ndis-ndisfsynchronousoidrequest.md)
 
-[Synchronous OID Request Interface in NDIS 6.80](https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80)
-
+[Synchronous OID Request Interface in NDIS 6.80](/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80)

@@ -57,22 +57,21 @@ A pointer to the body of the object.
 
 ## -remarks
 
-<b>ObDereferenceObjectDeferDelete</b> is similar to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> except that, when the reference count of the object reaches zero, the object manager passes the object deletion request to a worker thread. Therefore, the deletion later occurs at IRQL = PASSIVE_LEVEL.
+<b>ObDereferenceObjectDeferDelete</b> is similar to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> except that, when the reference count of the object reaches zero, the object manager passes the object deletion request to a worker thread. Therefore, the deletion later occurs at IRQL = PASSIVE_LEVEL.
 
 Use <b>ObDereferenceObjectDeferDelete</b> for any object when the immediate deletion by the current thread of the object (by using <b>ObDereferenceObject</b>) might result in a deadlock.
 
-For example, such a deadlock can occur if <b>ObDereferenceObject</b> is used to dereference a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-kernel-transaction-manager">Kernel Transaction Manager</a> (KTM) object when a higher level driver on the driver stack is holding a lock.
+For example, such a deadlock can occur if <b>ObDereferenceObject</b> is used to dereference a <a href="/windows-hardware/drivers/kernel/using-kernel-transaction-manager">Kernel Transaction Manager</a> (KTM) object when a higher level driver on the driver stack is holding a lock.
 
 To avoid such deadlocks, use <b>ObDereferenceObjectDeferDelete</b> instead of <b>ObDereferenceObject</b> to dereference KTM objects.
 
-<div class="alert"><b>Note</b>  For information about object permanence and attributes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>.</div>
+<div class="alert"><b>Note</b>  For information about object permanence and attributes, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a>

@@ -71,11 +71,10 @@ Boolean value that specifies whether a timeout period was provided in the *ReadT
 
 ## -remarks
 
-For an [IRP_MJ_CREATE_MAILSLOT](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-mailslot) operation, [FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters) is a *CreateMailslot* structure, and *CreateMailslot.Parameters* points to a MAILSLOT_CREATE_PARAMETERS structure that describes the mailslot to create or open.
+For an [IRP_MJ_CREATE_MAILSLOT](/windows-hardware/drivers/ifs/irp-mj-create-mailslot) operation, [FLT_PARAMETERS](../fltkernel/ns-fltkernel-_flt_parameters.md) is a *CreateMailslot* structure, and *CreateMailslot.Parameters* points to a MAILSLOT_CREATE_PARAMETERS structure that describes the mailslot to create or open.
 
 ## -see-also
 
-[FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters)
+[FLT_PARAMETERS](../fltkernel/ns-fltkernel-_flt_parameters.md)
 
-[IRP_MJ_CREATE_MAILSLOT](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-mailslot)
-
+[IRP_MJ_CREATE_MAILSLOT](/windows-hardware/drivers/ifs/irp-mj-create-mailslot)

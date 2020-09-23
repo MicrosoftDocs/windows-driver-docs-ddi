@@ -73,10 +73,10 @@ A pointer to a caller-supplied spin lock, used to synchronize access to the list
 Before calling 
     <b>NdisInterlockedInsertTailList</b>, a driver must initialize the variable at 
     <i>ListHead</i> with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializelisthead">NdisInitializeListHead</a> function and
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializelisthead">NdisInitializeListHead</a> function and
     the variable at 
     <i>SpinLock</i> with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> function. The
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> function. The
     driver also must provide resident storage for these variables and for its internal queue.
 
 The caller-supplied spin lock prevents any other function from accessing the driver's internal queue
@@ -90,7 +90,7 @@ The caller-supplied spin lock prevents any other function from accessing the dri
     <b>NdisInterlockedInsertTailList</b> cannot be pageable code.
 
 To convert a returned value back to the address of the inserted entry, a driver can use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> macro.
+    <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> macro.
 
 If 
     <b>NdisInterlockedInsertTailList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
@@ -98,23 +98,22 @@ If
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializelisthead">NdisInitializeListHead</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializelisthead">NdisInitializeListHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedinsertheadlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedinsertheadlist">
    NdisInterlockedInsertHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedremoveheadlist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedremoveheadlist">
    NdisInterlockedRemoveHeadList</a>
-

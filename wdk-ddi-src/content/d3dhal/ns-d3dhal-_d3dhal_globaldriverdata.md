@@ -58,7 +58,7 @@ Specifies the size in bytes of this D3DHAL_GLOBALDRIVERDATA structure.
 
 ### -field hwCaps
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a> structure where the driver should return its hardware capabilities.
+Specifies a <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a> structure where the driver should return its hardware capabilities.
 
 ### -field dwNumVertices
 
@@ -70,7 +70,7 @@ Reserved for system use and should be set to zero by the driver.
 
 ### -field dwNumTextureFormats
 
-Specifies the number of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structures that <b>lpTextureFormats</b> points to.
+Specifies the number of <a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structures that <b>lpTextureFormats</b> points to.
 
 ### -field lpTextureFormats
 
@@ -78,21 +78,20 @@ Points to an array of DDSURFACEDESC structures where the driver should return th
 
 ## -remarks
 
-The driver is responsible for allocating space for and setting all members of this structure. The driver returns a pointer to this structure in the <b>lpD3DGlobalDriverData</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure, which is passed to the driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function during driver initialization.
+The driver is responsible for allocating space for and setting all members of this structure. The driver returns a pointer to this structure in the <b>lpD3DGlobalDriverData</b> member of the <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure, which is passed to the driver's <a href="/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function during driver initialization.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
+<a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
-
+<a href="/windows/win32/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>

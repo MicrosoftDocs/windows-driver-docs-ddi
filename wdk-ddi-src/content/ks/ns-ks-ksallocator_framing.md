@@ -146,7 +146,7 @@ Indicates that the Requirements flags are preferences only and the connection po
 
 ### -field PoolType
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
+A structure of type <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
 
 ### -field Frames
 
@@ -231,5 +231,4 @@ When you specify a value for the <b>FileAlignment</b> member, the smallest alloc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreateallocator">KsCreateAllocator</a>

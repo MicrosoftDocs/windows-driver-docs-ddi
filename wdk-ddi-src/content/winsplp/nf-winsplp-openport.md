@@ -82,7 +82,7 @@ BOOL WINAPI pfnOpenPort(
 
 Port monitor server DLLs are required to define an <code>OpenPort</code> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
 
-The <code>OpenPort</code> function is called, either by a language monitor or by the print spooler, when a print queue is being connected to a port. The <code>OpenPort</code> function's primary purpose is to return a port handle that the caller can use as an input argument for subsequent calls to the port monitor's <a href="https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)">StartDocPort</a>, <a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>, <a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>, <a href="https://docs.microsoft.com/previous-versions/ff548742(v=vs.85)">EndDocPort</a>, and <a href="https://docs.microsoft.com/previous-versions/ff550506(v=vs.85)">GetPrinterDataFromPort</a> functions.
+The <code>OpenPort</code> function is called, either by a language monitor or by the print spooler, when a print queue is being connected to a port. The <code>OpenPort</code> function's primary purpose is to return a port handle that the caller can use as an input argument for subsequent calls to the port monitor's <a href="/previous-versions/ff562710(v=vs.85)">StartDocPort</a>, <a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a>, <a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>, <a href="/previous-versions/ff548742(v=vs.85)">EndDocPort</a>, and <a href="/previous-versions/ff550506(v=vs.85)">GetPrinterDataFromPort</a> functions.
 
 Besides returning a port handle, the <code>OpenPort</code> function can perform initialization operations that need to be taken care of before read or write operations are performed. For example, if the port supports modifiable time-out values, the <code>OpenPort</code> function should set these values.
 
@@ -94,11 +94,11 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff550506(v=vs.85)">GetPrinterDataFromPort</a>
+<a href="/previous-versions/ff550506(v=vs.85)">GetPrinterDataFromPort</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff562630(v=vs.85)">SetPortTimeOuts</a>
+<a href="/previous-versions/ff562630(v=vs.85)">SetPortTimeOuts</a>
 
 
 
@@ -106,11 +106,11 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)">StartDocPort</a>
+<a href="/previous-versions/ff562710(v=vs.85)">StartDocPort</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff559596(v=vs.85)">OpenPortEx</a>
+<a href="/previous-versions/ff559596(v=vs.85)">OpenPortEx</a>
 
 
 
@@ -122,9 +122,8 @@ Print monitor functions that accept a port handle as input do not also accept a 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff548742(v=vs.85)">EndDocPort</a>
+<a href="/previous-versions/ff548742(v=vs.85)">EndDocPort</a>
 
 
 
 <a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a>
-

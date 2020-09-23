@@ -51,7 +51,7 @@ If the section object pointer is not NULL, the section reference count and the m
 
 ### -param SectionObjectPointer
 
-Specifies a pointer to the [SECTION_OBJECT_POINTERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers) object.
+Specifies a pointer to the [SECTION_OBJECT_POINTERS](../wdm/ns-wdm-_section_object_pointers.md) object.
 
 ### -param ForceCloseFlags
 
@@ -74,4 +74,3 @@ This function returns FALSE if the segment was not deleted.
 ## -remarks
 
 ## -see-also
-

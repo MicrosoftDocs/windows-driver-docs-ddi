@@ -64,11 +64,10 @@ Reserved. Do not use.
 
 ## -remarks
 
-The KS_DVDCOPY_CHLGKEY structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-chlg-key">KSPROPERTY_DVDCOPY_CHLG_KEY</a> property.
+The KS_DVDCOPY_CHLGKEY structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-chlg-key">KSPROPERTY_DVDCOPY_CHLG_KEY</a> property.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-chlg-key">KSPROPERTY_DVDCOPY_CHLG_KEY</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-dvdcopy-chlg-key">KSPROPERTY_DVDCOPY_CHLG_KEY</a>

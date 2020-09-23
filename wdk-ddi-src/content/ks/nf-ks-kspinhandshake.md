@@ -53,17 +53,17 @@ The<b> KsPinHandshake </b>function attempts a protocol handshake with a connecte
 ### -param Pin 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that is initiating the handshake. The handshake request is passed on to the pin connected to this object.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure that is initiating the handshake. The handshake request is passed on to the pin connected to this object.
 
 ### -param In 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a> structure containing the handshake information to be passed to the connected pin.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a> structure containing the handshake information to be passed to the connected pin.
 
 ### -param Out 
 
 [out]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a> structure that is filled in with handshake information by the connected pin.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a> structure that is filled in with handshake information by the connected pin.
 
 ## -returns
 
@@ -77,13 +77,12 @@ Connections between AVStream pins are performed using this type of handshake.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ni-ks-ioctl_ks_handshake">IOCTL_KS_HANDSHAKE</a>
+<a href="/windows-hardware/drivers/ddi/ks/ni-ks-ioctl_ks_handshake">IOCTL_KS_HANDSHAKE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-kshandshake">KSHANDSHAKE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface">KsPinGetConnectedPinInterface</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface">KsPinGetConnectedPinInterface</a>

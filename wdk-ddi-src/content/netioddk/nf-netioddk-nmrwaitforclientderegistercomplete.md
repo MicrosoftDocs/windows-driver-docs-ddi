@@ -58,7 +58,7 @@ The
 [in]
 A handle used by the NMR to represent the registration of the client module. The NMR returns this
      handle to the client module when the client module calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a> function.
+     <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterclient">NmrRegisterClient</a> function.
 
 ## -returns
 
@@ -90,7 +90,7 @@ The NMR completed deregistering the client module.
 <td width="60%">
 The client module called the 
        <b>NmrWaitForClientDeregisterComplete</b> function before calling the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function, or
+       <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function, or
        the handle specified in the NmrClientHandle parameter is not a valid client handle.
 
 </td>
@@ -114,11 +114,11 @@ A client module calls the
     <b>NmrWaitForClientDeregisterComplete</b> function to wait for the deregistration of the client module to
     complete. A client module calls the 
     <b>NmrWaitForClientDeregisterComplete</b> function only after calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function.
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function.
 
 A client module typically calls the 
     <b>NmrWaitForClientDeregisterComplete</b> function from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> function to wait until it is completely
+    <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> function to wait until it is completely
     deregistered from the NMR before the client module is unloaded from the system. A client module must not
     return from a call to its 
     <b>Unload</b> function until after deregistration is
@@ -127,7 +127,7 @@ A client module typically calls the
 
 <div class="alert"><b>Note</b>  If a client module uses the Windows Driver Framework, it will typically call the 
      <b>NmrWaitForClientDeregisterComplete</b> function from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_unload">EvtDriverUnload</a> event callback function. In
+     <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_unload">EvtDriverUnload</a> event callback function. In
      this situation, the client module must not return from a call to its 
      <i>EvtDriverUnload</i> function until after
      deregistration is complete.</div>
@@ -135,5 +135,4 @@ A client module typically calls the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a>
-
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a>

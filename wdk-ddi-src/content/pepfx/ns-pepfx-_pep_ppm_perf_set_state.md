@@ -75,5 +75,4 @@ On input, the new requested desired performance state. This state is defined as 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
-
+<a href="/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>

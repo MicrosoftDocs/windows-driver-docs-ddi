@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The <b>ReadDebuggerData</b> method returns information about the target that the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> has queried or determined during the current session.  The available information includes the locations of certain key target kernel locations, specific status values, and a number of other things.
+The <b>ReadDebuggerData</b> method returns information about the target that the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a> has queried or determined during the current session.  The available information includes the locations of certain key target kernel locations, specific status values, and a number of other things.
 
 ## -parameters
 
@@ -1635,11 +1635,10 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
 
 Some or all of the values may be unavailable in certain debugging sessions.  For example, some of the values are only available for particular versions of the operating system.
 
 For details on the different values returned by <b>ReadDebuggerData</b>, see <i>Microsoft Windows Internals</i> by David Solomon and Mark Russinovich, the Microsoft Windows SDK, and the Windows Driver Kit (WDK).
-

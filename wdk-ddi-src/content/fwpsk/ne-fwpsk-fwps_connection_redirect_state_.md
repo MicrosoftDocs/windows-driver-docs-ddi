@@ -74,9 +74,8 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -remarks
 
-The FWPS_CONNECTION_REDIRECT_STATE enumeration is the return type for a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>  function.
+The FWPS_CONNECTION_REDIRECT_STATE enumeration is the return type for a call to the <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>  function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>
-
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsqueryconnectionredirectstate0">FwpsQueryConnectionRedirectState0</a>

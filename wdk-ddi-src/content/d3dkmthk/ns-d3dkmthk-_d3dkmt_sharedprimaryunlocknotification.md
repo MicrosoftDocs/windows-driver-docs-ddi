@@ -54,7 +54,7 @@ The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primar
 
 ### -field AdapterLuid
 
-[in] The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
+[in] The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
 
 ### -field VidPnSourceId
 
@@ -62,5 +62,4 @@ The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsharedprimaryunlocknotification">D3DKMTSharedPrimaryUnLockNotification</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsharedprimaryunlocknotification">D3DKMTSharedPrimaryUnLockNotification</a>

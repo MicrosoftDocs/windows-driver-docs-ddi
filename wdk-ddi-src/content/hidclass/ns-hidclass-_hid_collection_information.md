@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The HID_COLLECTION_INFORMATION structure contains general information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
+The HID_COLLECTION_INFORMATION structure contains general information about a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
 
 ## -struct-fields
 
 ### -field DescriptorSize
 
-Specifies the size, in bytes, of a collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+Specifies the size, in bytes, of a collection's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
 ### -field Polled
 
@@ -80,17 +80,16 @@ Specifies the manufacturer's revision number for a HID device.
 
 ## -remarks
 
-Kernel-mode drivers can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a> to obtain a collection's <b>HID_COLLECTION_INFORMATION</b> structure.
+Kernel-mode drivers can use an <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a> to obtain a collection's <b>HID_COLLECTION_INFORMATION</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_collection_information">HID_COLLECTION_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_collection_information">HID_COLLECTION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a>

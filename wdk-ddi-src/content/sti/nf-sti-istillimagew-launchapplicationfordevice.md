@@ -53,17 +53,17 @@ The **IStillImage::LaunchApplicationForDevice** method starts a specified applic
 ### -param pwszDeviceName 
 
 [in]
-Caller-supplied pointer to a string representing an internal device name, obtained by calling [IStillImage::GetSTILaunchInformation](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)) or [IStillImage::GetDeviceList](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)).
+Caller-supplied pointer to a string representing an internal device name, obtained by calling [IStillImage::GetSTILaunchInformation](/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)) or [IStillImage::GetDeviceList](/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)).
 
 ### -param pwszAppName 
 
 [in]
-Caller-supplied pointer to a string representing the short name of an application that was registered by calling [IStillImage::RegisterLaunchApplication](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)).
+Caller-supplied pointer to a string representing the short name of an application that was registered by calling [IStillImage::RegisterLaunchApplication](/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)).
 
 ### -param pStiNotify 
 
 [in]
-Caller-supplied pointer to an [STINOTIFY](https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_stinotify) structure describing a device event. Typically,  the event's GUID is obtained by calling [IStiDevice::GetLastNotificationData](https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata).
+Caller-supplied pointer to an [STINOTIFY](./ns-sti-_stinotify.md) structure describing a device event. Typically,  the event's GUID is obtained by calling [IStiDevice::GetLastNotificationData](./nf-sti-istidevice-getlastnotificationdata.md).
 
 ## -returns
 
@@ -71,9 +71,9 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -remarks
 
-The **IStillImage::LaunchApplicationForDevice** method can only start applications that have registered themselves by calling [IStillImage::RegisterLaunchApplication](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)). The specified event must be one that the specified device supports. The method mimics the occurrence of a device event, and is useful for applications that intercept events from devices and reroute them. When a user starts the scanner, such an application might, for example, ask the user whether they want to store the scanned image, make a copy, or send a fax.
+The **IStillImage::LaunchApplicationForDevice** method can only start applications that have registered themselves by calling [IStillImage::RegisterLaunchApplication](/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)). The specified event must be one that the specified device supports. The method mimics the occurrence of a device event, and is useful for applications that intercept events from devices and reroute them. When a user starts the scanner, such an application might, for example, ask the user whether they want to store the scanned image, make a copy, or send a fax.
 
-Before calling **IStillImage::LaunchApplicationForDevice**, clients of the **IStillImage** COM interface must call [IStillImage::StiCreateInstance](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)) to obtain an **IStillImage** interface pointer.
+Before calling **IStillImage::LaunchApplicationForDevice**, clients of the **IStillImage** COM interface must call [IStillImage::StiCreateInstance](/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)) to obtain an **IStillImage** interface pointer.
 
 ### Examples
 
@@ -98,4 +98,3 @@ if (!SUCCEEDED(hRes))
         pStiInfoPtr->szDeviceInternalName,hReturn,hReturn);
 }
 ```
-

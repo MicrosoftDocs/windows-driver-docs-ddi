@@ -52,11 +52,11 @@ Toggles the error reporting for the FPGA device and its parent bridge.
 
 ### -param UncorrectableMask
 
-[_In_] A bitwise mask of flags defined in [**PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_mask) that indicates the uncorrectable masks to be toggled.
+[_In_] A bitwise mask of flags defined in [**PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK**](./ns-wdm-_pci_express_uncorrectable_error_mask.md) that indicates the uncorrectable masks to be toggled.
 
 ### -param CorrectableMask
 
-[_In_]  A bitwise mask of flags defined in [**PCI_EXPRESS_CORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_correctable_error_mask) that indicates the correctable masks to be toggled.
+[_In_]  A bitwise mask of flags defined in [**PCI_EXPRESS_CORRECTABLE_ERROR_MASK**](./ns-wdm-_pci_express_correctable_error_mask.md) that indicates the correctable masks to be toggled.
 
 ### -param DisableErrorReporting
 
@@ -64,7 +64,7 @@ Toggles the error reporting for the FPGA device and its parent bridge.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -98,4 +98,3 @@ A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFAC
 - When _DisableErrorReporting_ is set to TRUE, each set bit in the given masks is set in the AER capability of the FPGA device. When _DisableErrorReporting_ is set to FALSE, the original AER masks will be restored.
 
 ## -see-also
-

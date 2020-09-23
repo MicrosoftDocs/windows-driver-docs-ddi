@@ -73,7 +73,7 @@ None
 
 The current IRQL is saved in <i>OldIrql</i>. Then, the current IRQL is reset to DISPATCH_LEVEL, and the specified spin lock is acquired.
 
-The <i>OldIrql</i> value must be specified when the spin lock is released with <a href="https://msdn.microsoft.com/library/windows/hardware/ff570357">VideoPortReleaseSpinLock</a>.
+The <i>OldIrql</i> value must be specified when the spin lock is released with <a href="/previous-versions/ff570357(v=vs.85)">VideoPortReleaseSpinLock</a>.
 
 Spin locks can cause serious problems if not used judiciously. In particular, no deadlock protection is performed and dispatching is disabled while the spin lock is held. Therefore: 
 
@@ -94,9 +94,8 @@ The caller should release the spin lock with <b>VideoPortReleaseSpinLock</b> as 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570176">VideoPortAcquireSpinLockAtDpcLevel</a>
+<a href="/previous-versions/ff570176(v=vs.85)">VideoPortAcquireSpinLockAtDpcLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570357">VideoPortReleaseSpinLock</a>
-
+<a href="/previous-versions/ff570357(v=vs.85)">VideoPortReleaseSpinLock</a>

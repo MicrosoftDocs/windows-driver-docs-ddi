@@ -76,13 +76,12 @@ The FTM procedure failed with any other failure besides the preceding failure re
 
 ## -remarks
 
-This enumeration is a value in the [WDI_TLV_FTM_RESPONSE](https://docs.microsoft.com/windows-hardware/drivers/network/wdi-tlv-ftm-response) TLV.
+This enumeration is a value in the [WDI_TLV_FTM_RESPONSE](/windows-hardware/drivers/network/wdi-tlv-ftm-response) TLV.
 
 ## -see-also
 
-[WDI_TLV_FTM_RESPONSE](https://docs.microsoft.com/windows-hardware/drivers/network/wdi-tlv-ftm-response)
+[WDI_TLV_FTM_RESPONSE](/windows-hardware/drivers/network/wdi-tlv-ftm-response)
 
-[NDIS_STATUS_WDI_INDICATION_REQUEST_FTM_COMPLETE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-request-ftm-complete)
+[NDIS_STATUS_WDI_INDICATION_REQUEST_FTM_COMPLETE](/windows-hardware/drivers/network/ndis-status-wdi-indication-request-ftm-complete)
 
-[OID_WDI_TASK_REQUEST_FTM](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-task-request-ftm)
-
+[OID_WDI_TASK_REQUEST_FTM](/windows-hardware/drivers/network/oid-wdi-task-request-ftm)

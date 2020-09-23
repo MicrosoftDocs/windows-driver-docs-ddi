@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Registers the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is loaded and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_initialize">DriverEntry</a> routine is called for initialization.
+Registers the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is loaded and the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_initialize">DriverEntry</a> routine is called for initialization.
 
 ## -parameters
 
@@ -59,12 +59,12 @@ Handle to the client drivers framework driver object.
 ### -param RegistrationPacket 
 
 [in, out]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> structure that contains function pointers to the callback functions defined in the client driver implementation and required by the class extension.
+Pointer to the <a href="/windows-hardware/drivers/gpiobtn/create-a-hardware-notification-client-driver">HWN_CLIENT_REGISTRATION_PACKET</a> structure that contains function pointers to the callback functions defined in the client driver implementation and required by the class extension.
 
 ### -param RegistryPath 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key.
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key.
 
 ## -returns
 
@@ -82,9 +82,8 @@ FORCEINLINE NTSTATUS  HwNRegisterClient(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/hardware-notifications-support">Hardware notifications support</a>
+<a href="/windows-hardware/drivers/gpiobtn/hardware-notifications-support">Hardware notifications support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
-
+<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>

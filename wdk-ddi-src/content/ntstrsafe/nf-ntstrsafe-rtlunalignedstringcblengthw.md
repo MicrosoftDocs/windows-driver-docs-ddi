@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>RtlUnalignedStringCbLengthW</b> function is a version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcblengtha">RtlStringCbLength</a> function that accepts an unaligned pointer to a string of Unicode characters.
+The <b>RtlUnalignedStringCbLengthW</b> function is a version of the <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcblengtha">RtlStringCbLength</a> function that accepts an unaligned pointer to a string of Unicode characters.
 
 ## -parameters
 
@@ -100,15 +100,14 @@ This <i>error</i> status means the value in <i>psz</i> is <b>NULL</b>, <i>cbMax<
 </table>
  
 
-For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 ## -remarks
 
-The <b>RtlUnalignedStringCbLengthW</b> function is available for processor architectures, such as Itanium-based and x64-based, that cause alignment exceptions when software attempts to access unaligned data. On those processors, you can use <b>RtlUnalignedStringCbLengthW</b> instead of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcblengtha">RtlStringCbLength</a> function to avoid alignment exceptions. (For processors that do not cause alignment exceptions, <b>RtlUnalignedStringCbLengthW</b> is equivalent to <b>RtlStringCbLength</b>.)
+The <b>RtlUnalignedStringCbLengthW</b> function is available for processor architectures, such as Itanium-based and x64-based, that cause alignment exceptions when software attempts to access unaligned data. On those processors, you can use <b>RtlUnalignedStringCbLengthW</b> instead of the <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcblengtha">RtlStringCbLength</a> function to avoid alignment exceptions. (For processors that do not cause alignment exceptions, <b>RtlUnalignedStringCbLengthW</b> is equivalent to <b>RtlStringCbLength</b>.)
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcblengtha">RtlStringCbLength</a>
-
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcblengtha">RtlStringCbLength</a>

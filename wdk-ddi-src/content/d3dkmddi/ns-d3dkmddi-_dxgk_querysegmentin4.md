@@ -58,5 +58,4 @@ A zero-based physical adapter index in a linked display adapter  (LDA) link. Zer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout4">DXGK_QUERYSEGMENTOUT4</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout4">DXGK_QUERYSEGMENTOUT4</a>

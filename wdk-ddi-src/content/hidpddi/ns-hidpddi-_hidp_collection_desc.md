@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the information of a top-level-collection. This structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a> call.
+Contains the information of a top-level-collection. This structure is used in the <a href="/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a> call.
 
 ## -struct-fields
 
@@ -88,9 +88,8 @@ The length of the preparsed data pointed to by <i>PreparsedData</i>.
 
 ### -field PreparsedData
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
+A pointer to a <a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
-
+<a href="/windows-hardware/drivers/ddi/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>

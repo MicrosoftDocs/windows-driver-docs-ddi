@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The SFFDISK_DPCMD enumeration lists the operations performed by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sffdisk/ni-sffdisk-ioctl_sffdisk_device_password">IOCTL_SFFDISK_DEVICE_PASSWORD</a> request.
+The SFFDISK_DPCMD enumeration lists the operations performed by an <a href="/windows-hardware/drivers/ddi/sffdisk/ni-sffdisk-ioctl_sffdisk_device_password">IOCTL_SFFDISK_DEVICE_PASSWORD</a> request.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ The operation resets the device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538136(v=vs.85)">SFFDISK_DEVICE_PASSWORD_DATA</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff538136(v=vs.85)">SFFDISK_DEVICE_PASSWORD_DATA</a>

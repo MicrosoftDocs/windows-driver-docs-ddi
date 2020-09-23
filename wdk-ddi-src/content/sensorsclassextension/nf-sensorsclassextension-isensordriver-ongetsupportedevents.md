@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedevents">ISensorDriver::OnGetSupportedEvents</a> method retrieves the list of events that the specified sensor can raise.
+The <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedevents">ISensorDriver::OnGetSupportedEvents</a> method retrieves the list of events that the specified sensor can raise.
 
 ## -parameters
 
@@ -75,5 +75,4 @@ You must use CoTaskMemAlloc to create the event ID buffer. The sensor class exte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
-
+<a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>

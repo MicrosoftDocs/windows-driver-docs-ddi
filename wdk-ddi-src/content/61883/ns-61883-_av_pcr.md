@@ -56,11 +56,11 @@ The AV_PCR structure specifies settings for an input or output plug.
 
 ### -field oPCR
 
-Contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_opcr">OPCR</a> structure that contains initialization values for an output plug.
+Contains an <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_opcr">OPCR</a> structure that contains initialization values for an output plug.
 
 ### -field iPCR
 
-Contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_ipcr">IPCR</a> structure that contains initialization values for an input plug.
+Contains an <a href="/windows-hardware/drivers/ddi/61883/ns-61883-_ipcr">IPCR</a> structure that contains initialization values for an input plug.
 
 ### -field ulongData
 
@@ -73,4 +73,3 @@ Reserved for internal use.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536995">Av61883_SetPlug</a>
-

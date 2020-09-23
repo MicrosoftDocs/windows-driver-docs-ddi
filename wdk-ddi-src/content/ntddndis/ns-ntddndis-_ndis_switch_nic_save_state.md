@@ -56,7 +56,7 @@ The <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure specifies the run-time state inf
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
@@ -80,7 +80,7 @@ An NDIS_SWITCH_PORT_ID value that contains the unique identifier of the extensib
 
 ### -field NicIndex
 
-An NDIS_SWITCH_NIC_INDEX  value that contains the Nic Index for the network adapter. This value will always be 0. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-adapter-index-values">Network Adapter Index Values</a>.
+An NDIS_SWITCH_NIC_INDEX  value that contains the Nic Index for the network adapter. This value will always be 0. For more information, see <a href="/windows-hardware/drivers/network/network-adapter-index-values">Network Adapter Index Values</a>.
 
 ### -field ExtensionId
 
@@ -117,34 +117,34 @@ The <b>NDIS_SWITCH_NIC_SAVE_STATE</b> structure is used in the following OID req
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-save">OID_SWITCH_NIC_SAVE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-save">OID_SWITCH_NIC_SAVE</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-save-complete">OID_SWITCH_NIC_SAVE_COMPLETE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-save-complete">OID_SWITCH_NIC_SAVE_COMPLETE</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-restore-complete">OID_SWITCH_NIC_RESTORE_COMPLETE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-restore-complete">OID_SWITCH_NIC_RESTORE_COMPLETE</a>
 
 
 </li>
 </ul>
-<div class="alert"><b>Note</b>  The NDIS_SWITCH_EXTENSION_FRIENDLYNAME data type is type-defined by the <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character. 
+<div class="alert"><b>Note</b>  The NDIS_SWITCH_EXTENSION_FRIENDLYNAME data type is type-defined by the <a href="/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character. 
 
 </div>
 <div> </div>
-For more information on how to save or restore run-time port information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-hyper-v-extensible-switch-run-time-data">Managing Hyper-V Extensible Switch Run-Time Data</a>.
+For more information on how to save or restore run-time port information, see <a href="/windows-hardware/drivers/network/managing-hyper-v-extensible-switch-run-time-data">Managing Hyper-V Extensible Switch Run-Time Data</a>.
 
 ## -see-also
 
@@ -152,21 +152,20 @@ For more information on how to save or restore run-time port information, see <a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a>
+<a href="/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-restore">OID_SWITCH_NIC_RESTORE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-save">OID_SWITCH_NIC_SAVE</a>
+<a href="/windows-hardware/drivers/network/oid-switch-nic-save">OID_SWITCH_NIC_SAVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-nic-save-complete">OID_SWITCH_NIC_SAVE_COMPLETE</a>
-
+<a href="/windows-hardware/drivers/network/oid-switch-nic-save-complete">OID_SWITCH_NIC_SAVE_COMPLETE</a>

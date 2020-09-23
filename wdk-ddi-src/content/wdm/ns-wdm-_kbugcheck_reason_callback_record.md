@@ -45,7 +45,7 @@ product:
 
 ## -description
 
-For more info, see [Windows kernel opaque structures](https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess).
+For more info, see [Windows kernel opaque structures](/windows-hardware/drivers/kernel/eprocess).
 
 ## -struct-fields
 
@@ -61,9 +61,8 @@ For more info, see [Windows kernel opaque structures](https://docs.microsoft.com
 
 ### -field State
 
-For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For more information about how this structure is used, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
-
+<a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.

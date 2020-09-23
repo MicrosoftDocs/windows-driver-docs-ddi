@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE enumeration type specifies the data field identifiers for the
   FWPS_LAYER_OUTBOUND_MAC_FRAME_NATIVE 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 ## -enum-fields
 
@@ -80,7 +80,7 @@ The outbound MAC frame native NDIS port field.
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_L2_FLAGS
 
-A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/win32/fwp/filtering-condition-flags-).
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](/windows/win32/fwp/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_COMPARTMENT_ID
 
@@ -98,4 +98,3 @@ The maximum value for this enumeration. This value might change in future versio
 #### - FWPS_FIELD_OUTBOUND_MAC_FRAME_NATIVE_FLAGS
 
 The outbound MAC frame native flags field.
-

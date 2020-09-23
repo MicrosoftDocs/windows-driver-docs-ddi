@@ -52,7 +52,7 @@ api_name:
 
 > [!NOTE]
 >
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport driver](/windows-hardware/drivers/storage/storport-miniport-drivers) models.
 
 ## -struct-fields
 
@@ -251,4 +251,3 @@ The preceding SRB_FUNCTION_*XXX*  are never set in SRBs sent to SCSI miniport dr
 [**ScsiPortIoMapTransfer**](../srb/nf-srb-scsiportiomaptransfer.md)
 
 [**ScsiPortNotification**](../srb/nf-srb-scsiportnotification.md)
-

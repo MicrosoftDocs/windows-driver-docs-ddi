@@ -58,9 +58,8 @@ The size of this header and the item payload that follows.
 
 ### -field Type
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-kscamera_perframesetting_item_type">KSCAMERA_PERFRAMESETTING_ITEM_TYPE</a>.
+The <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-kscamera_perframesetting_item_type">KSCAMERA_PERFRAMESETTING_ITEM_TYPE</a>.
 
 ### -field Flags
 
 This contains the supported capability flags.
-

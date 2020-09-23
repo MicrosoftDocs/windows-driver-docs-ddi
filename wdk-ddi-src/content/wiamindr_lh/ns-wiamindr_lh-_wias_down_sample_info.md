@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The WIAS_DOWN_SAMPLE_INFO structure stores information used by the downsampling helper function, [wiasDownSampleBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasdownsamplebuffer).
+The WIAS_DOWN_SAMPLE_INFO structure stores information used by the downsampling helper function, [wiasDownSampleBuffer](../wiamdef/nf-wiamdef-wiasdownsamplebuffer.md).
 
 ## -struct-fields
 
@@ -104,5 +104,4 @@ Points to the destination buffer.
 
 ## -see-also
 
-[wiasDownSampleBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasdownsamplebuffer)
-
+[wiasDownSampleBuffer](../wiamdef/nf-wiamdef-wiasdownsamplebuffer.md)

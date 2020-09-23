@@ -83,9 +83,8 @@ This enumeration is used in the [**WWAN_UICC_APP_INFO**](../wwan/ns-wwan-_wwan_u
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_UICC_APP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-app-list)
+[OID_WWAN_UICC_APP_LIST](/windows-hardware/drivers/network/oid-wwan-uicc-app-list)
 
 [**WWAN_UICC_APP_INFO**](../wwan/ns-wwan-_wwan_uicc_app_info.md)
-

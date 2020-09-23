@@ -67,9 +67,8 @@ The <b>RxIsThisACscAgentOpen</b> routine is called internally by RDBSS when init
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-v-net-root-structure">The V_NET_ROOT Structure</a>
-
+<a href="/windows-hardware/drivers/ifs/the-v-net-root-structure">The V_NET_ROOT Structure</a>

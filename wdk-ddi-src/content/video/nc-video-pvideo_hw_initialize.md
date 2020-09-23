@@ -52,7 +52,7 @@ api_name:
 
 ### -param HwDeviceExtension
 
-Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
+Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
 ## -returns
 
@@ -62,7 +62,7 @@ If the initialization succeeds, <i>HwVidInitialize</i> returns <b>TRUE</b>.
 
 Every video miniport driver must have a <i>HwVidInitialize</i> function.
 
-The video port driver calls <i>HwVidInitialize</i> in response to an open request by the corresponding display driver. As soon as <i>HwVidInitialize</i> is called, the miniport driver can change the state of the adapter, unlike the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a> function, which must leave the adapter in VGA mode. On return from <i>HwVidInitialize</i>, the adapter must be initialized to a state equivalent to that set up by the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_reset_hw">HwVidResetHw</a> function. This feature is used by autodetection to get mode information from the miniport driver.
+The video port driver calls <i>HwVidInitialize</i> in response to an open request by the corresponding display driver. As soon as <i>HwVidInitialize</i> is called, the miniport driver can change the state of the adapter, unlike the miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a> function, which must leave the adapter in VGA mode. On return from <i>HwVidInitialize</i>, the adapter must be initialized to a state equivalent to that set up by the miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_reset_hw">HwVidResetHw</a> function. This feature is used by autodetection to get mode information from the miniport driver.
 
 If at all possible, <i>HwVidInitialize</i> should avoid programming the device hardware. The miniport driver will initialize the device later, when it is instructed to switch display modes.
 
@@ -70,13 +70,12 @@ If at all possible, <i>HwVidInitialize</i> should avoid programming the device h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
+<a href="/windows/win32/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_reset_hw">HwVidResetHw</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_reset_hw">HwVidResetHw</a>

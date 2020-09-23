@@ -58,17 +58,16 @@ The DXVAHDDDI_STREAM_STATE_FILTER_DATA structure describes stream-state data tha
 
 ### -field Level
 
-[in] An INT value that specifies the filter level. The default value is the value from the <b>Default</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_filter_range_data">DXVAHDDDI_FILTER_RANGE_DATA</a> structure.
+[in] An INT value that specifies the filter level. The default value is the value from the <b>Default</b> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_filter_range_data">DXVAHDDDI_FILTER_RANGE_DATA</a> structure.
 
 ## -remarks
 
-The level that is specified in the <b>Level</b> member must be within the range that the driver supplies in the members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_filter_range_data">DXVAHDDDI_FILTER_RANGE_DATA</a> structure when the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPFILTERRANGE value set.
+The level that is specified in the <b>Level</b> member must be within the range that the driver supplies in the members of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_filter_range_data">DXVAHDDDI_FILTER_RANGE_DATA</a> structure when the driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPFILTERRANGE value set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_filter_range_data">DXVAHDDDI_FILTER_RANGE_DATA</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_filter_range_data">DXVAHDDDI_FILTER_RANGE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>

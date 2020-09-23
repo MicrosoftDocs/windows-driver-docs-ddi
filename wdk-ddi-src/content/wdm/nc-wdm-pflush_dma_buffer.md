@@ -60,7 +60,7 @@ The callback routine flushes any data remaining in the memory region described b
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -85,5 +85,4 @@ NTSTATUS PflushDmaBuffer
 
 ## -see-also
 
-[Flushing Cached Data during DMA Operations](https://docs.microsoft.com/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations)
-
+[Flushing Cached Data during DMA Operations](/windows-hardware/drivers/kernel/flushing-cached-data-during-dma-operations)

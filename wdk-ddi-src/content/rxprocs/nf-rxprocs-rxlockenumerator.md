@@ -87,9 +87,8 @@ The <b>RxLockEnumerator</b> routine needs to allocate non-paged pool memory in o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
+<a href="/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>
-
+<a href="/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>

@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-**XPSRAS_PIXEL_FORMAT** allows a caller to select the pixel format used by the [IWICBitmap](https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) interface that is returned by the [IXpsRasterizer::RasterizeRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect) method. **XPSRAS_PIXEL_FORMAT** is provided with  Windows 8 and later versions of Windows.
+**XPSRAS_PIXEL_FORMAT** allows a caller to select the pixel format used by the [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) interface that is returned by the [IXpsRasterizer::RasterizeRect](./nf-xpsrassvc-ixpsrasterizer-rasterizerect.md) method. **XPSRAS_PIXEL_FORMAT** is provided with  Windows 8 and later versions of Windows.
 
 ## -enum-fields
 
@@ -66,13 +66,12 @@ api_name:
 
 ## -remarks
 
-For more information about rasterizing XPS documents, see [Using the XPS Rasterization Service](https://docs.microsoft.com/windows-hardware/drivers/print/using-the-xps-rasterization-service).
+For more information about rasterizing XPS documents, see [Using the XPS Rasterization Service](/windows-hardware/drivers/print/using-the-xps-rasterization-service).
 
 ## -see-also
 
-[IWICBitmap](https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap)
+[IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap)
 
-[IXpsRasterizationFactory1::CreateRasterizer1](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh802468(v=vs.85))
+[IXpsRasterizationFactory1::CreateRasterizer1](/previous-versions/windows/hardware/drivers/hh802468(v=vs.85))
 
-[Using the XPS Rasterization Service](https://docs.microsoft.com/windows-hardware/drivers/print/using-the-xps-rasterization-service)
-
+[Using the XPS Rasterization Service](/windows-hardware/drivers/print/using-the-xps-rasterization-service)

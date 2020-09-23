@@ -63,9 +63,8 @@ A pointer to a caller-supplied LARGE_INTEGER variable in which this function ret
 
 NDIS drivers should call the 
     <b>NdisGetSystemUpTimeEx</b> function instead of the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff552110(v=vs.85)">NdisGetSystemUpTime</a> function.
+    <a href="/previous-versions/windows/hardware/network/ff552110(v=vs.85)">NdisGetSystemUpTime</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff552110(v=vs.85)">NdisGetSystemUpTime</a>
-
+<a href="/previous-versions/windows/hardware/network/ff552110(v=vs.85)">NdisGetSystemUpTime</a>

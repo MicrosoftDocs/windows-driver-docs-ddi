@@ -58,7 +58,7 @@ Specifies the number of bytes to reserve.
 ### -param PoolTag 
 
 [in]
-Specifies a four-character tag used to identify the buffer. Use a distinct <i>PoolTag</i> tag for each allocation code path. For a description of pool tags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
+Specifies a four-character tag used to identify the buffer. Use a distinct <i>PoolTag</i> tag for each allocation code path. For a description of pool tags, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 ## -returns
 
@@ -66,17 +66,16 @@ Specifies a four-character tag used to identify the buffer. Use a distinct <i>Po
 
 ## -remarks
 
-<b>MmAllocateMappingAddress</b> reserves a system virtual address range for the caller to use. No physical memory is allocated for the virtual address range and the virtual memory cannot be accessed until it is mapped by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a> routine. The caller unmaps the reserved memory range by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a> routine. Finally, the caller can free the reserved range by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreemappingaddress">MmFreeMappingAddress</a>.
+<b>MmAllocateMappingAddress</b> reserves a system virtual address range for the caller to use. No physical memory is allocated for the virtual address range and the virtual memory cannot be accessed until it is mapped by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a> routine. The caller unmaps the reserved memory range by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a> routine. Finally, the caller can free the reserved range by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreemappingaddress">MmFreeMappingAddress</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreemappingaddress">MmFreeMappingAddress</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreemappingaddress">MmFreeMappingAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a>

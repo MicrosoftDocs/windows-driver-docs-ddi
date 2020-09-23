@@ -53,7 +53,7 @@ The <code>SetState</code> method changes the state of the stream transport.
 ### -param State 
 
 [in]
-Specifies the new state of the stream. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
+Specifies the new state of the stream. This parameter is a <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
 ## -returns
 
@@ -61,7 +61,7 @@ Specifies the new state of the stream. This parameter is a <a href="https://docs
 
 ## -remarks
 
-For an audio filter graph, the four <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration values are interpreted as follows:
+For an audio filter graph, the four <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration values are interpreted as follows:
 
 <ul>
 <li>
@@ -103,21 +103,20 @@ RUN -> PAUSE -> ACQUIRE -> STOP
 
 </li>
 </ul>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a> method sets the initial state of the stream to KSSTATE_STOP.
+The <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a> method sets the initial state of the stream to KSSTATE_STOP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-connection-state">KSPROPERTY_CONNECTION_STATE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-connection-state">KSPROPERTY_CONNECTION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>

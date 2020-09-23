@@ -52,11 +52,11 @@ Indicates the type of engine on a GPU node. Note the selection rules discussed i
 
 ### -field DXGK_ENGINE_TYPE_OTHER
 
-The engine does not match any of the other <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-dxgk_engine_type">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
+The engine does not match any of the other <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-dxgk_engine_type">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
 
 ### -field DXGK_ENGINE_TYPE_3D
 
-The adapter's 3-D processing engine. All adapters that are not a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">display-only device</a> have one 3-D engine.
+The adapter's 3-D processing engine. All adapters that are not a <a href="/windows-hardware/drivers/ddi/index">display-only device</a> have one 3-D engine.
 
 ### -field DXGK_ENGINE_TYPE_VIDEO_DECODE
 
@@ -104,5 +104,4 @@ The display miniport driver should follow these rules to determine the engine ty
 <li>If more than one <b>DXGK_ENGINE_TYPE</b> enumeration value describes the engine type, the driver should select the one that reflects the dominant capability of that engine. If two capabilities are roughly equal, such as when an engine is used equally for video decode and encode, than the driver can choose either value.</li>
 <li>If none of the conditions in steps 1-3 are met, only then should the driver select a value of <b>DXGK_ENGINE_TYPE_OTHER</b>.</li>
 </ol>
-For more information on how to use this enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/enumerating-gpu-nodes">Enumerating GPU engine capabilities</a>.
-
+For more information on how to use this enumeration, see <a href="/windows-hardware/drivers/display/enumerating-gpu-nodes">Enumerating GPU engine capabilities</a>.

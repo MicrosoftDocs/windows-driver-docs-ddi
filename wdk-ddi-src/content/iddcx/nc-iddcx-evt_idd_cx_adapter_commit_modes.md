@@ -62,7 +62,7 @@ Input arguments used by <b>EVT_IDD_CX_ADAPTER_COMMIT_MODES</b>.
 
 ## -returns
 
-(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+(NTSTATUS) If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -remarks
 
@@ -72,4 +72,3 @@ The OS always provides the IDDCX_PATH for every connected monitor even if it is 
 
 </div>
 <div> </div>
-

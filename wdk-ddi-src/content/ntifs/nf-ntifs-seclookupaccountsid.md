@@ -177,17 +177,16 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_sid_name_use">SID_NAME_USE</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_sid_name_use">SID_NAME_USE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554795">SecLookupAccountName</a>
+<a href="/previous-versions/ff554795(v=vs.85)">SecLookupAccountName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556582">SecLookupWellKnownSid</a>
-
+<a href="/previous-versions/ff556582(v=vs.85)">SecLookupWellKnownSid</a>

@@ -35,7 +35,7 @@ api_name:
 
 # IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -54,7 +54,7 @@ Size of ULONG.
 
 ### -output-buffer
 
-KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Volume stepped data ranges as documented in <a href='https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description'>KSPROPERTY_DESCRIPTION</a> and <a href='https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader'>KSPROPERTY_MEMBERSHEADER</a>.
+KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Volume stepped data ranges as documented in <a href='/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_description'>KSPROPERTY_DESCRIPTION</a> and <a href='/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_membersheader'>KSPROPERTY_MEMBERSHEADER</a>.
 
 ### -output-buffer-length 
 
@@ -72,13 +72,12 @@ Allocated buffer should be of length SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::VolumePr
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-volumelevel">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-audio-volumelevel">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel">KSNODEPROPERTY_AUDIO_CHANNEL</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel">KSNODEPROPERTY_AUDIO_CHANNEL</a>

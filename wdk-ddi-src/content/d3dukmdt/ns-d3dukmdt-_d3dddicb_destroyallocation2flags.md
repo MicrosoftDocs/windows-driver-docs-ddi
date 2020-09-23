@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>D3DDDICB_DESTROYALLOCATION2FLAGS</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation2">D3DKMT_DESTROYALLOCATION2</a> structure to describe parameters for releasing allocations with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroyallocation2">D3DKMTDestroyAllocation2</a>.
+The <b>D3DDDICB_DESTROYALLOCATION2FLAGS</b> structure is used with the <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation2">D3DKMT_DESTROYALLOCATION2</a> structure to describe parameters for releasing allocations with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroyallocation2">D3DKMTDestroyAllocation2</a>.
 
 ## -struct-fields
 
@@ -80,9 +80,8 @@ The consolidated value of the fields in the structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroyallocation2">D3DKMTDestroyAllocation2</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroyallocation2">D3DKMTDestroyAllocation2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation2">D3DKMT_DESTROYALLOCATION2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyallocation2">D3DKMT_DESTROYALLOCATION2</a>

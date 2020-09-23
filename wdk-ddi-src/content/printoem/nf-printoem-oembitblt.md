@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="https://docs.microsoft.com/windows-hardware/drivers/">device-managed surfaces</a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
+The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="/windows-hardware/drivers/">device-managed surfaces</a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 
 ## -parameters
 
@@ -71,4 +71,3 @@ The <code>OEMBitBlt</code> function provides general bit-block transfer capabili
 ### -param pptlBrush
 
 ### -param rop4
-

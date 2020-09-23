@@ -52,7 +52,7 @@ api_name:
 
 <div class="alert"><b>Important</b>  <p class="note">Starting with Windows 10 Version 1703, NDIS_HYPERVISOR_INFO is deprecated and should not be used.  Drivers are encouraged to move away from it, as it may not be available in future versions of the operating system. 
 
-<p class="note">Drivers should instead follow a hypervisor's instructions to query hypervisor presence and capabilities. For example, Hyper-V's instructions are documented in the <a href="https://docs.microsoft.com/virtualization/hyper-v-on-windows/reference/tlfs">Top-Level Functional Specification</a>.
+<p class="note">Drivers should instead follow a hypervisor's instructions to query hypervisor presence and capabilities. For example, Hyper-V's instructions are documented in the <a href="/virtualization/hyper-v-on-windows/reference/tlfs">Top-Level Functional Specification</a>.
 
 </div><div> </div>The <b>NDIS_HYPERVISOR_INFO</b> structure contains information about the hypervisor that is present on the
   system.
@@ -61,7 +61,7 @@ api_name:
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_HYPERVISOR_INFO</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_HYPERVISOR_INFO</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_HYPERVISOR_INFO</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -91,27 +91,26 @@ Specifies that a hypervisor is present on the system.
 ### -field PartitionType
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_hypervisor_partition_type">
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_hypervisor_partition_type">
      NDIS_HYPERVISOR_PARTITION_TYPE</a> enumeration value that specifies the partition type that is running
      on the hypervisor.
 
 ## -remarks
 
 The <b>NDIS_HYPERVISOR_INFO</b> structure specifies the hypervisor information that is returned by the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgethypervisorinfo">NdisGetHypervisorInfo</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgethypervisorinfo">NdisGetHypervisorInfo</a> function.
 
 NDIS drivers pass this structure to the 
     <b>NdisGetHypervisorInfo</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_hypervisor_partition_type">NDIS_HYPERVISOR_PARTITION_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_hypervisor_partition_type">NDIS_HYPERVISOR_PARTITION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgethypervisorinfo">NdisGetHypervisorInfo Function</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgethypervisorinfo">NdisGetHypervisorInfo Function</a>

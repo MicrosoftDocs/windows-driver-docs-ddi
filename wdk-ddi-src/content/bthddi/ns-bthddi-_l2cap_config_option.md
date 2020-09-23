@@ -52,16 +52,16 @@ api_name:
 
 An array of L2CAP_CONFIG_OPTION structures is used to specify values for the 
   <b>ExtraOptions</b> member of the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters">CHANNEL_CONFIG_PARAMETERS</a>, 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>, and 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a> structures.
+  <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters">CHANNEL_CONFIG_PARAMETERS</a>, 
+  <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>, and 
+  <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a> structures.
 
 ## -struct-fields
 
 ### -field Header
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_co_header">CO_HEADER</a> structure that specifies information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_co_header">CO_HEADER</a> structure that specifies information
      about vendor-specific configuration options.
 
 ### -field DynamicBuffer
@@ -114,13 +114,12 @@ If set, the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters">CHANNEL_CONFIG_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters">CHANNEL_CONFIG_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>

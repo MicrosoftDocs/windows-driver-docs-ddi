@@ -80,7 +80,7 @@ Specifies a custom color working space.
 
 ## -remarks
 
-For a description of rendering intents, see [Rendering Intents](https://docs.microsoft.com/previous-versions//ms536520(v=vs.85))
+For a description of rendering intents, see [Rendering Intents](/previous-versions//ms536520(v=vs.85))
 
 The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as pointers to this enumeration:
 
@@ -90,6 +90,6 @@ typedef COLORPROFILESUBTYPE *PCOLORPROFILESUBTYPE, *LPCOLORPROFILESUBTYPE;
 
 ## -see-also
 
-[COLORPROFILETYPE](https://docs.microsoft.com/previous-versions/ff546018(v=vs.85))
+[COLORPROFILETYPE](/previous-versions/ff546018(v=vs.85))
 
-[WcsSetDefaultColorProfile](https://docs.microsoft.com/previous-versions/ff563739(v=vs.85))
+[WcsSetDefaultColorProfile](/previous-versions/ff563739(v=vs.85))

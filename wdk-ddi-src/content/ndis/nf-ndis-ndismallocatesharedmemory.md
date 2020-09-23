@@ -50,9 +50,9 @@ api_name:
 > [!CAUTION]
 > For ARM and ARM64 processors, we strongly recommend that NDIS driver writers use WDF DMA or WDM DMA instead of NDIS Scatter/Gather DMA. 
 >
-> For more information about WDF DMA, see [Handling DMA Operations in KMDF Drivers](https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-dma-operations-in-kmdf-drivers).
+> For more information about WDF DMA, see [Handling DMA Operations in KMDF Drivers](/windows-hardware/drivers/wdf/handling-dma-operations-in-kmdf-drivers).
 >
-> For more information about WDM DMA, see the DMA-related child topics of [Managing Input/Output for Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-input-output-for-drivers).
+> For more information about WDM DMA, see the DMA-related child topics of [Managing Input/Output for Drivers](/windows-hardware/drivers/kernel/managing-input-output-for-drivers).
 
 <b>NdisMAllocateSharedMemory</b> allocates and maps a host memory range so that the memory range is
   simultaneously accessible from both the host system and a DMA NIC.
@@ -63,7 +63,7 @@ api_name:
 
 [in]
 Specifies the handle input to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 ### -param Length 
 
@@ -92,20 +92,20 @@ Pointer to a caller-supplied variable in which this function returns a physical 
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  A miniport driver must have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">NdisMRegisterScatterGatherDma</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> to initialize a
+<div class="alert"><b>Note</b>  A miniport driver must have already called <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">NdisMRegisterScatterGatherDma</a> or <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> to initialize a
   scatter/gather DMA channel before calling <b>NdisMAllocateSharedMemory</b>.</div>
 <div> </div>
 Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of Windows allow both
     bus-master DMA NICs and subordinate DMA NICs to call 
     <b>NdisMAllocateSharedMemory</b>. Prior releases allow only bus-master DMA NICs to call 
     <b>NdisMAllocateSharedMemory</b>. In these prior releases, if 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> did not specify that the NIC is a bus master when it called 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>, 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> did not specify that the NIC is a bus master when it called 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>, 
     <b>NdisMAllocateSharedMemory</b> simply returns control without attempting to make an allocation.
 
 <b>NdisMAllocateSharedMemory</b> provides both the mapped virtual address range that the driver uses to
     access the shared memory block and the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff557129(v=vs.85)">NDIS_PHYSICAL_ADDRESS</a>-type range that the
+    <a href="/previous-versions/windows/hardware/network/ff557129(v=vs.85)">NDIS_PHYSICAL_ADDRESS</a>-type range that the
     NIC uses. A value returned at 
     <i>PhysicalAddress</i> can be doubly mapped by the system. That is, a "physical" address range described
     by the value at 
@@ -114,7 +114,7 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
     the allocation in every possible platform.
 
 <b>NdisMAllocateSharedMemory</b> can be called only from 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>. How large
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>. How large
     an allocation to request depends on how the driver writer, knowing the capabilities and features of the
     NIC, decides to make the tradeoff between the following performance versus size dilemma:
 
@@ -141,24 +141,24 @@ On the other hand, calling
 </li>
 </ul>
 A miniport driver that supplies a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_allocate_shared_mem_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_allocate_shared_mem_complete">
     MiniportSharedMemoryAllocateComplete</a> function has considerably more flexibility in resolving the
     preceding performance versus size dilemma. 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> should allocate only enough shared memory with 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> should allocate only enough shared memory with 
     <b>NdisMAllocateSharedMemory</b> for a moderate demand for network transfer operations through the NIC if
     the driver has a 
     <i>MiniportSharedMemoryAllocateComplete</i> function. Such a miniport driver can call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
     NdisMAllocateSharedMemoryAsyncEx</a> dynamically to allocate more shared memory in periods of heavier
     transfer demand on a NIC. When the high demand for transfers subsides, such a driver calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismfreesharedmemory">NdisMFreeSharedMemory</a> to release the
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismfreesharedmemory">NdisMFreeSharedMemory</a> to release the
     additional memory it allocated. Note that only bus-master DMA NICs can call 
     <b>NdisMAllocateSharedMemoryAsyncEx</b> and export 
     <i>MiniportSharedMemoryAllocateComplete</i>. This functionality is not supported for subordinate DMA
     NICs.
 
 <b>NdisMAllocateSharedMemory</b> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">NdisMAllocateSharedMemoryAsyncEx</a> are the only 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">NdisMAllocateSharedMemoryAsyncEx</a> are the only 
     <b>Ndis<i>Xxx</i></b> functions that can be called to allocate host memory that is shared between the driver, which
     uses virtual addresses, and a NIC, which uses the corresponding logical addresses.
 
@@ -166,8 +166,8 @@ A miniport driver should align the buffers it allocates from shared cached memor
     the host data-cache-line boundary to prevent cache-line tearing during DMA. Cache-line tearing can cause
     data-integrity problems in the driver or degrade the driver's (and the system's) I/O performance by
     requiring excessive data-cache flushing to maintain data integrity. 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> can call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismgetdmaalignment">NdisMGetDmaAlignment</a> to determine the
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> can call 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismgetdmaalignment">NdisMGetDmaAlignment</a> to determine the
     alignment boundary in the current platform for device-accessible buffers that the driver will set up
     within an allocated range of shared memory.
 
@@ -177,8 +177,8 @@ A miniport driver should set a limit on how much shared memory it can allocate. 
     could reduce system performance.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> also might call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a> before
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> also might call 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a> before
     it calls 
     <b>NdisMAllocateSharedMemory</b> if the driver writer decides to allocate a larger shared memory block in
     multiprocessor machines on the assumption that any SMP machine is likely to be a network server with
@@ -186,78 +186,77 @@ A miniport driver should set a limit on how much shared memory it can allocate. 
 
 If its call to 
     <b>NdisMAllocateSharedMemory</b> fails, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> can call again requesting a smaller allocation. However, if 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> can call again requesting a smaller allocation. However, if 
     <i>MiniportInitializeEx</i> cannot allocate sufficient shared memory for the NIC, it must release all
     resources it has already allocated and fail initialization.
 
 If the miniport driver subsequently indicates receives with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
     NdisMIndicateReceiveNetBufferLists</a>, it must allocate some number of buffer descriptors from buffer
     pool that map the NIC's receive buffers in the shared memory block.
 
 If the allocated memory is cached and, therefore, needs to be flushed on transfers, the miniport
     driver must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a> to allocate an
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a> to allocate an
     NDIS_BUFFER-type descriptor for the shared memory range. The miniport driver must call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushiobuffers">KeFlushIoBuffers</a> with this buffer descriptor
+    <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushiobuffers">KeFlushIoBuffers</a> with this buffer descriptor
     to perform such a flush.
 
 If a miniport driver calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
     NdisMAllocateSharedMemoryAsyncEx</a> or 
     <b>NdisMAllocateSharedMemory</b>, it must release all outstanding allocations with one or more calls to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismfreesharedmemory">NdisMFreeSharedMemory</a> when a NIC is
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismfreesharedmemory">NdisMFreeSharedMemory</a> when a NIC is
     removed, that is, when its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function is called.
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushiobuffers">KeFlushIoBuffers</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keflushiobuffers">KeFlushIoBuffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_allocate_shared_mem_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_allocate_shared_mem_complete">
    MiniportSharedMemoryAllocateComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatenetbuffersglist">NdisMAllocateNetBufferSGList</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatenetbuffersglist">NdisMAllocateNetBufferSGList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
    NdisMAllocateSharedMemoryAsyncEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismfreesharedmemory">NdisMFreeSharedMemory</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismfreesharedmemory">NdisMFreeSharedMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismgetdmaalignment">NdisMGetDmaAlignment</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismgetdmaalignment">NdisMGetDmaAlignment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
    NdisMIndicateReceiveNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>

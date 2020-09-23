@@ -59,7 +59,7 @@ The <b>WdfWaitLockRelease</b> method releases a specified wait lock.
 ### -param Lock 
 
 [in]
-A handle to a framework wait-lock object, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
+A handle to a framework wait-lock object, obtained by a previous call to <a href="/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
 
 ## -remarks
 
@@ -67,22 +67,21 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The <b>WdfWaitLockRelease</b> method releases a wait lock that the driver acquired by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551168">WdfWaitLockAcquire</a>.
+The <b>WdfWaitLockRelease</b> method releases a wait lock that the driver acquired by a previous call to <a href="/previous-versions/ff551168(v=vs.85)">WdfWaitLockAcquire</a>.
 
-For more information about wait locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about wait locks, see <a href="/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfWaitLockRelease</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551168">WdfWaitLockAcquire</a>.
+For a code example that uses <b>WdfWaitLockRelease</b>, see <a href="/previous-versions/ff551168(v=vs.85)">WdfWaitLockAcquire</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551168">WdfWaitLockAcquire</a>
+<a href="/previous-versions/ff551168(v=vs.85)">WdfWaitLockAcquire</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>

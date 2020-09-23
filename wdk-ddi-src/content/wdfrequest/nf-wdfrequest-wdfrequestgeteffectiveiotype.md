@@ -59,16 +59,16 @@ A handle to a framework request object.
 
 ## -returns
 
-<b>WdfRequestGetEffectiveIoType</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value that identifies the buffer access method that UMDF is using for the I/O request's data buffers.
+<b>WdfRequestGetEffectiveIoType</b> returns a <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>-typed value that identifies the buffer access method that UMDF is using for the I/O request's data buffers.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-buffer-access-methods-in-umdf-drivers">Managing Buffer Access Methods in UMDF Drivers</a>.
+For more information, see <a href="/windows-hardware/drivers/wdf/managing-buffer-access-methods-in-umdf-drivers">Managing Buffer Access Methods in UMDF Drivers</a>.
 
 
 #### Examples
 
-The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function can determine the buffer access method for the specified write request.
+The following code example shows how an <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function can determine the buffer access method for the specified write request.
 
 ```cpp
 VOID
@@ -93,5 +93,4 @@ MyDrvEvtIoWrite(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_io_type">WDF_DEVICE_IO_TYPE</a>

@@ -53,7 +53,7 @@ The PPARALLEL_IEEE_FWD_TO_REV-typed callback routine changes the transfer mode f
 ### -param Context 
 
 [in]
-Pointer to a device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
+Pointer to a device extension of a parallel device's physical device object (<a href="/windows-hardware/drivers/">PDO</a>).
 
 ## -returns
 
@@ -129,4 +129,3 @@ The PPARALLEL_IEEE_FWD_TO_REV callback runs in the caller's thread at the caller
 
 
 <a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
-

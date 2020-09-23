@@ -62,9 +62,8 @@ Specifies the +/- notification error of the clock in 100-nanosecond units, where
 
 ## -remarks
 
-Vendors can supply a structure of type KSRESOLUTION in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a> property request.
+Vendors can supply a structure of type KSRESOLUTION in a <a href="/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a> property request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a>

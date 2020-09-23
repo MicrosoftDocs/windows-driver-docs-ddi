@@ -52,9 +52,8 @@ Provides the signature of the event handler.
 
 ## -remarks
 
-**IPrinterQueueViewEvent** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://docs.microsoft.com/windows-hardware/drivers/print/job-management).
+**IPrinterQueueViewEvent** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](/windows-hardware/drivers/print/job-management).
 
 ## -see-also
 
-[Job Management](https://docs.microsoft.com/windows-hardware/drivers/print/job-management)
-
+[Job Management](/windows-hardware/drivers/print/job-management)

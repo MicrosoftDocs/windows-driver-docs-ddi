@@ -77,15 +77,14 @@ A formatted [**WWAN_UICC_APP_LIST**](../wwan/ns-wwan-_wwan_uicc_app_list.md) str
 
 ## -remarks
 
-This structure is used in the [NDIS_STATUS_WWAN_UICC_APP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-app-list) status notification in response to a previous [OID_WWAN_UICC_APP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-app-list) Query request.
+This structure is used in the [NDIS_STATUS_WWAN_UICC_APP_LIST](/windows-hardware/drivers/network/ndis-status-wwan-uicc-app-list) status notification in response to a previous [OID_WWAN_UICC_APP_LIST](/windows-hardware/drivers/network/oid-wwan-uicc-app-list) Query request.
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_UICC_APP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-app-list)
+[OID_WWAN_UICC_APP_LIST](/windows-hardware/drivers/network/oid-wwan-uicc-app-list)
 
-[NDIS_STATUS_WWAN_UICC_APP_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-app-list)
+[NDIS_STATUS_WWAN_UICC_APP_LIST](/windows-hardware/drivers/network/ndis-status-wwan-uicc-app-list)
 
 [**WWAN_UICC_APP_LIST**](../wwan/ns-wwan-_wwan_uicc_app_list.md)
-

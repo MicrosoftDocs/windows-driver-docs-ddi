@@ -54,7 +54,7 @@ The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field BtAddress
@@ -64,7 +64,7 @@ The Bluetooth address of the remote device.
 ### -field ChannelHandle
 
 The SCO channel handle that was returned by Bluetooth driver stack in response to an earlier 
-     <a href="https://docs.microsoft.com/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a> or 
+     <a href="/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a> or 
      <a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/home?forum=windows-bluetooth-sco-brbscoopenchannelresponse">
      BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
 
@@ -128,8 +128,8 @@ A pointer to the MDL input buffer. This value should be <b>NULL</b> when the
 ## -remarks
 
 To read isochronous data from or write isochronous data to a SCO connection, profile drivers should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/previous-versions/ff536629(v=vs.85)">BRB_SCO_TRANSFER</a> request.
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/previous-versions/ff536629(v=vs.85)">BRB_SCO_TRANSFER</a> request.
 
 Each SCO connection is bidirectional, and can be read from and written to simultaneously.
 
@@ -147,11 +147,11 @@ If both
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a>
+<a href="/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a>
 
 
 
@@ -159,5 +159,4 @@ If both
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536629(v=vs.85)">BRB_SCO_TRANSFER</a>
-
+<a href="/previous-versions/ff536629(v=vs.85)">BRB_SCO_TRANSFER</a>

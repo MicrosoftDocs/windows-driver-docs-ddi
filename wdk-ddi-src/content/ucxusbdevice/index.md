@@ -25,6 +25,5 @@ This header is used to write a USB host controller driver. The USB host controll
 
 For more information, see:
 
-- [Developing Windows drivers for USB host controllers](https://docs.microsoft.com/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-host-controllers)
+- [Developing Windows drivers for USB host controllers](/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-host-controllers)
 - [Universal Serial Bus (USB)](../_usbref/index.md)
-

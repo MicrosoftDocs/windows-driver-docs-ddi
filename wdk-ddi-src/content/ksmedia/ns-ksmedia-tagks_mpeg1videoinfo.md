@@ -56,7 +56,7 @@ The KS_MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 
 ### -field hdr
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a> structure that describes the details of the video stream.
+Specifies a <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a> structure that describes the details of the video stream.
 
 ### -field dwStartTimeCode
 
@@ -72,5 +72,4 @@ The length of the <b>bSequenceHeader</b> member, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>

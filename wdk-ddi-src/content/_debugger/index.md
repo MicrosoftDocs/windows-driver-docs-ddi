@@ -23,7 +23,7 @@ To develop Debugger apps, you can work with these headers:
  * [extsfns.h](../extsfns/index.md)
  * [wdbgexts.h](../wdbgexts/index.md)
 
-For the programming guide information, see [Debugging Resources](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-resources).
+For the programming guide information, see [Debugging Resources](/windows-hardware/drivers/debugger/debugging-resources).
 
 ## Callback functions
 

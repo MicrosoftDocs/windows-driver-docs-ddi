@@ -98,5 +98,4 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get">IKsPropertySet::Get</a>
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get">IKsPropertySet::Get</a>

@@ -98,9 +98,8 @@ Most Windows applications see exposed placeholders by default.  For compatibilit
 
 ## -see-also
 
-[RtlQueryProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode)
+[RtlQueryProcessPlaceholderCompatibilityMode](./nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode.md)
 
-[RtlQueryThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlquerythreadplaceholdercompatibilitymode)
+[RtlQueryThreadPlaceholderCompatibilityMode](./nf-ntifs-rtlquerythreadplaceholdercompatibilitymode.md)
 
-[RtlSetProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetprocessplaceholdercompatibilitymode)
-
+[RtlSetProcessPlaceholderCompatibilityMode](./nf-ntifs-rtlsetprocessplaceholdercompatibilitymode.md)

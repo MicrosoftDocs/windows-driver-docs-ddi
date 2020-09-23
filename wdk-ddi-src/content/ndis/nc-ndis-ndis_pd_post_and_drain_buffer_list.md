@@ -48,7 +48,7 @@ product:
 ## -description
 
 The PacketDirect (PD) platform calls a PD-capable miniport driver's 
-   <i>PDPostAndDrainBufferList</i> function to post <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to PD transmit/receive queues and draining any previously posted <b>PD_BUFFER</b> structures that have been completed.<div class="alert"><b>Note</b>  You must declare the function by using the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> type. For more
+   <i>PDPostAndDrainBufferList</i> function to post <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to PD transmit/receive queues and draining any previously posted <b>PD_BUFFER</b> structures that have been completed.<div class="alert"><b>Note</b>  You must declare the function by using the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> type. For more
    information, see the following Examples section.</div>
 <div> </div>
 
@@ -72,7 +72,7 @@ The tail of the drain list. The provider removes any completed buffers from the 
 ### -param MaxDrainCount 
 
 [in]
-The maximum amount of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to drain. The provider must ensure not exceed this amount. A set of partial <b>PD_BUFFER</b> structures that make up a single L2 packet count is 1.
+The maximum amount of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to drain. The provider must ensure not exceed this amount. A set of partial <b>PD_BUFFER</b> structures that make up a single L2 packet count is 1.
 
 ## -returns
 
@@ -87,7 +87,7 @@ The provider removes buffers from the PostBufferList and places them into the qu
 The client can also pass an empty post buffer list to just drain completed buffers without posting any new buffers. The client can also set the MaxDrainCount to 0 to just post new buffers without draining any completed buffers. In rare cases, the client may invoke the call with both an empty post buffer list and the MaxDrainCount to 0. The provider must not assume otherwise and handle such a call properly such as a no-operation.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>PDPostAndDrainBufferList</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>PDPostAndDrainBufferList</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>PDPostAndDrainBufferList</i> function that is named "MyPDPostAndDrainBufferList", use the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> type as shown in this code example:
 
@@ -111,9 +111,9 @@ VOID
   {...}
 ```
 
-The <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> function type is defined in the Ntddndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> function type is defined in the Ntddndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>. 
 
 The following is an example code snippet that illustrates the pointer indirections for this function.
 
@@ -149,5 +149,3 @@ NDIS_PD_POST_AND_DRAIN_BUFFER_LIST(
 //DrainTail == &buf5->NextPDBuffer
 
 ```
-
-

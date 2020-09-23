@@ -47,7 +47,7 @@ api_name:
 ##  Major Code:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
+<a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
 
 
 ## -description
@@ -58,11 +58,11 @@ The  <b>IOCTL_SRIOV_INVALIDATE_BLOCK</b> request indicates that the virtualizati
 
 ### -input-buffer
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure  that contains the configuration block to invalidate.
+A pointer to a <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure  that contains the configuration block to invalidate.
 
 ### -input-buffer-length
 
-The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure.
+The size of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure.
 
 ### -output-buffer
 
@@ -74,7 +74,7 @@ The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
 
@@ -83,4 +83,3 @@ This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IO
 The   request  is sent to the physical function (PF) driver by VSP.
 The PF driver completes the request when the driver wants to indicate to the virtual function (VF) driver that
 one or more of the configuration blocks need  to be read again.
-
