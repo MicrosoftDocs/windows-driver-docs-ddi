@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FILE_VALID_DATA_LENGTH_INFORMATION</b> structure is used as an argument to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>.
+The <b>FILE_VALID_DATA_LENGTH_INFORMATION</b> structure is used as an argument to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>.
 
 ## -struct-fields
 
@@ -86,5 +86,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>

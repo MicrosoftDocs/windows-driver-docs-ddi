@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The HIDP_LINK_COLLECTION_NODE structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection</a> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection array</a>.
+The HIDP_LINK_COLLECTION_NODE structure contains information about a <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> in a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="/windows-hardware/drivers/hid/link-collections">link collection array</a>.
 
 ## -struct-fields
 
 ### -field LinkUsage
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage ID</a> of a top-level collection.
+Specifies the <a href="/windows-hardware/drivers/hid/hid-usages">usage ID</a> of a top-level collection.
 
 ### -field LinkUsagePage
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a> of the collection.
+Specifies the <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> of the collection.
 
 ### -field Parent
 
@@ -84,7 +84,7 @@ Specifies the type of collection item.
 
 ### -field IsAlias
 
-Specifies, if <b>TRUE</b>, that this collection is an <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">aliased collection</a>. Otherwise, if <b>FALSE</b>, the collection is not aliased.
+Specifies, if <b>TRUE</b>, that this collection is an <a href="/windows-hardware/drivers/hid/link-collections">aliased collection</a>. Otherwise, if <b>FALSE</b>, the collection is not aliased.
 
 ### -field Reserved
 
@@ -96,17 +96,16 @@ Pointer to application-specific information.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a> routine returns a top-level collection's link collection array. The indices specified in a link collection node are indices in the collection's link collection array.
+The <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a> routine returns a top-level collection's link collection array. The indices specified in a link collection node are indices in the collection's link collection array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps">HIDP_BUTTON_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_button_caps">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a>
-
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a>

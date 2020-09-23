@@ -49,7 +49,7 @@ api_name:
 
 The 
   <b>NdisFreeTimerObject</b> function frees a timer object that was allocated with the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">
   NdisAllocateTimerObject</a> function.
 
 ## -parameters
@@ -58,30 +58,29 @@ The
 
 [in]
 A handle to a timer object that NDIS provides when a driver calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">
      NdisAllocateTimerObject</a> function.
 
 ## -remarks
 
 To use timer services, an NDIS driver first calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">NdisAllocateTimerObject</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">NdisAllocateTimerObject</a> function
     to initialize a timer object. Typically, 
     <b>NdisAllocateTimerObject</b> is called when a driver initializes. The driver must call 
     <b>NdisFreeTimerObject</b> to free the timer object when the timer is no longer required.
 
 To cancel a timer, call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscanceltimerobject">NdisCancelTimerObject</a> function. 
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscanceltimerobject">NdisCancelTimerObject</a> function. 
     <b>NdisCancelTimerObject</b> dequeues the timer object if it is currently queued.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_timer_characteristics">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_timer_characteristics">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">NdisAllocateTimerObject</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatetimerobject">NdisAllocateTimerObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscanceltimerobject">NdisCancelTimerObject</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscanceltimerobject">NdisCancelTimerObject</a>

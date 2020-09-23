@@ -41,7 +41,7 @@ api_name:
  - RILCALLMEDIAAUDIOFLAGS
 ---
 
-# RILCALLMEDIAAUDIOFLAGS enumeration
+# RILCALLMEDIAAUDIOFLAGS enumeration (ntddrilapitypes.h)
 
 
 ## -description

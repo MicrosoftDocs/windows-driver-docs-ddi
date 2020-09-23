@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The TRANSDATA structure is one of the structures used to define the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">glyph translation table files</a> (.gtt files).
+The TRANSDATA structure is one of the structures used to define the contents of <a href="/windows-hardware/drivers/print/customized-font-management">glyph translation table files</a> (.gtt files).
 
 ## -struct-fields
 
 ### -field ubCodePageID
 
-Specifies the zero-based index of a particular structure in the array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a> structures. The first structure in this array has an index of 0, the second structure has an index of 1, and so on.
+Specifies the zero-based index of a particular structure in the array of <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a> structures. The first structure in this array has an index of 0, the second structure has an index of 1, and so on.
 
-The <b>loCodePageOffset</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure contains the offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of the array of UNI_CODEPAGEINFO structures.
+The <b>loCodePageOffset</b> member of the <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure contains the offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of the array of UNI_CODEPAGEINFO structures.
 
 ### -field ubType
 
@@ -118,7 +118,7 @@ The <b>ubPairs</b> member of the <b>uCode</b> union contains a two-byte characte
 
 </td>
 <td>
-One of the following flags can be set. All are optional. Not valid if the <b>lPredefinedID</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure is set to CC_NOPRECNV.
+One of the following flags can be set. All are optional. Not valid if the <b>lPredefinedID</b> member of the <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure is set to CC_NOPRECNV.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ MTYPE_DISABLE
 
 </td>
 <td>
-The specified mapping, contained in the .gtt file specified by the <b>lPredefinedID</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure, is disabled.
+The specified mapping, contained in the .gtt file specified by the <b>lPredefinedID</b> member of the <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure, is disabled.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ Character data is double-byte.
 
 ### -field uCode.sCode
 
-Specifies the offset to a command string. The offset is relative to the beginning of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a> structure containing the TRANSDATA array. The first word of the command string must be the command size. Valid if the MTYPE_COMPOSE flag is set in <b>uType</b>.
+Specifies the offset to a command string. The offset is relative to the beginning of the <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a> structure containing the TRANSDATA array. The first word of the command string must be the command size. Valid if the MTYPE_COMPOSE flag is set in <b>uType</b>.
 
 ### -field uCode.ubCode
 
@@ -205,17 +205,16 @@ Specifies a two-byte character code. Valid if the MTYPE_PAIRED flag is set in <b
 
 ## -remarks
 
-A .gtt file's TRANSDATA structure array, which contains glyph mapping information, is contained in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a> structure.
+A .gtt file's TRANSDATA structure array, which contains glyph mapping information, is contained in the file's <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a>
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a>
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a>
-
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a>

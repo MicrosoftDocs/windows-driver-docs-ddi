@@ -54,11 +54,11 @@ This structure contains the fields necessary for the 1394 stack to carry out a f
 
 ### -field nAddressesToFree
 
-Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_address_range">ADDRESS_RANGE</a> structures pointed to by <b>IRB.u.FreeAddressRange.p1394AddressRange</b>
+Specifies the number of <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_address_range">ADDRESS_RANGE</a> structures pointed to by <b>IRB.u.FreeAddressRange.p1394AddressRange</b>
 
 ### -field p1394AddressRange
 
-Specifies a pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_address_range">ADDRESS_RANGE</a> data structures to be released. These address ranges were returned in a prior successful call to <b>AllocateAddressRange</b>.
+Specifies a pointer to an array of <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_address_range">ADDRESS_RANGE</a> data structures to be released. These address ranges were returned in a prior successful call to <b>AllocateAddressRange</b>.
 
 ### -field pAddressRange
 
@@ -67,4 +67,3 @@ Points to the handle that was previously received in <b>IRB.u.AllocateAddressRan
 ### -field DeviceExtension
 
 Points to the device extension associated with the device object. Not setting this member can lead to unexpected behavior when the driver tries to access the allocated address space.
-

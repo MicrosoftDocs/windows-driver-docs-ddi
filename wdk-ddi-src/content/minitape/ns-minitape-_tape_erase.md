@@ -45,12 +45,12 @@ api_name:
  - TAPE_ERASE
 ---
 
-# _TAPE_ERASE structure
+# _TAPE_ERASE structure (minitape.h)
 
 
 ## -description
 
-The TAPE_ERASE structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a> request to erase the current tape partition.
+The TAPE_ERASE structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a> request to erase the current tape partition.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ Indicates that the target device should return status immediately, when set to <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a>

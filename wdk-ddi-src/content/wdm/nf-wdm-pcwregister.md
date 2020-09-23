@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated RegisterXxx function instead of calling this function directly.
+The `PcwRegister` function creates a new counterset registration. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated RegisterXxx function instead of calling this function directly.
 
 ## -parameters
 
@@ -133,4 +133,3 @@ If using your own handle variables instead of *Counterset* to store the handle, 
 [PcwUnregister function](nf-wdm-pcwunregister.md)
 
 [_PCW_REGISTRATION_INFORMATION structure](ns-wdm-_pcw_registration_information.md)
-

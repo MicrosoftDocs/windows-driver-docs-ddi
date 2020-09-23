@@ -42,7 +42,7 @@ api_name:
  - RtlZeroMemory
 ---
 
-# RtlZeroMemory macro
+# RtlZeroMemory macro (scsi.h)
 
 
 ## -description

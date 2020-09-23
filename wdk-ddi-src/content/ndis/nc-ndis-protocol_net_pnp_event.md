@@ -59,7 +59,7 @@ NDIS calls the
 [in]
 The handle to a protocol-driver-allocated context area in which this driver maintains per-binding
      run-time state information. The protocol driver supplied this handle when it called the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. A 
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function. A 
      <b>NetEvent</b><i>Xxx</i> event that is indicated with a <b>NULL</b><i>ProtocolBindingContext</i> applies to all bindings. 
      <b>NetEventBindList</b> and 
      <b>NetEventBindsComplete</b> are always indicated with a <b>NULL</b><i>ProtocolBindingContext</i>. 
@@ -71,7 +71,7 @@ The handle to a protocol-driver-allocated context area in which this driver main
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
      NET_PNP_EVENT_NOTIFICATION</a> structure which describes the Plug and Play event or Power Management
      event that NDIS is indicating to the protocol driver.
 
@@ -94,7 +94,7 @@ A pointer to a
 The protocol driver successfully handled the indicated network Plug and Play event, NDIS PnP
        event, or power management event. The meaning of this status code depends on the 
        <b>NetEvent</b> code in the buffered 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+       <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
        NET_PNP_EVENT_NOTIFICATION</a> structure at 
        <i>NetPnPEvent</i>:
        
@@ -152,7 +152,7 @@ The specified protocol binding has entered the
          <i>Pausing</i> state. The binding will enter the 
          <i>Paused</i> state after NDIS has completed all of the outstanding send requests
          for the binding. For more information about pause operations, see 
-         <a href="https://docs.microsoft.com/windows-hardware/drivers/network/pausing-a-binding">Pausing a Binding</a>.
+         <a href="/windows-hardware/drivers/network/pausing-a-binding">Pausing a Binding</a>.
 
 </dd>
 <dt><a id="NetEventRestart"></a><a id="neteventrestart"></a><a id="NETEVENTRESTART"></a><b>NetEventRestart</b></dt>
@@ -167,7 +167,7 @@ The specified protocol binding has entered the
 <dd>
 The protocol driver has acknowledged the activation of a port that is associated with the
          specified binding. For more information about port activation, see 
-         <a href="https://docs.microsoft.com/windows-hardware/drivers/network/activating-an-ndis-port">Activating an NDIS Port</a>.
+         <a href="/windows-hardware/drivers/network/activating-an-ndis-port">Activating an NDIS Port</a>.
 
 </dd>
 <dt><a id="NetEventPortDeactivation"></a><a id="neteventportdeactivation"></a><a id="NETEVENTPORTDEACTIVATION"></a><b>NetEventPortDeactivation</b></dt>
@@ -188,7 +188,7 @@ The protocol driver has acknowledged the activation of a port that is associated
 <td width="60%">
 The protocol driver will return its response to the indicated event asynchronously with a call
        to the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompletenetpnpevent">
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompletenetpnpevent">
        NdisCompleteNetPnPEvent</a> function.
 
 </td>
@@ -261,7 +261,7 @@ The
     event, an NDIS PnP event, or Power Management event has occurred.
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">
     NET_PNP_EVENT_NOTIFICATION</a> structure that is passed to 
     <i>ProtocolNetPnPEvent</i> describes the event. 
     <i>ProtocolNetPnPEvent</i> interprets two basic pieces of information in the
@@ -284,18 +284,18 @@ Event-specific information. For example, with a
 </ul>
 The protocol driver should save the 
     <i>NetPnPEvent</i> pointer. This pointer is a required input parameter to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompletenetpnpevent">NdisCompleteNetPnPEvent</a> function,
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompletenetpnpevent">NdisCompleteNetPnPEvent</a> function,
     which the protocol driver must subsequently call if 
     <i>ProtocolNetPnPEvent</i> returns NDIS_STATUS_PENDING.
 
 A protocol driver should always succeed a 
     <b>NetEventQueryPower</b> event. After establishing an active connection, a
     protocol driver can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a> function to
+    <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a> function to
     register a continuously busy state. As long as the state registration is in effect, the power manager
     does not attempt to put the system to sleep. After the connection becomes inactive, the protocol driver
     cancels the state registration by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a> function. A
+    <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a> function. A
     protocol driver should never try to prevent the system from transitioning to the sleeping state by
     failing a 
     <b>NetEventQueryPower</b> event. Note that a 
@@ -321,65 +321,54 @@ When handling a
     <b>NetEventReconfigure</b> or a 
     <b>NetEventBindList</b>, a protocol driver should validate the data associated
     with the event. For more information about such data, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>.
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>.
 
 NDIS calls 
     <i>ProtocolNetPnPEvent</i> at IRQL = PASSIVE_LEVEL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolNetPnPEvent</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolNetPnPEvent</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolNetPnPEvent</i> function that is named "MyNetPnPEvent", use the <b>PROTOCOL_NET_PNP_EVENT</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_NET_PNP_EVENT MyNetPnPEvent;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+PROTOCOL_NET_PNP_EVENT MyNetPnPEvent;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NDIS_STATUS
  MyNetPnPEvent(
     NDIS_HANDLE  ProtocolBindingContext,
     PNET_PNP_EVENT_NOTIFICATION  NetPnPEvent
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>PROTOCOL_NET_PNP_EVENT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_NET_PNP_EVENT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The <b>PROTOCOL_NET_PNP_EVENT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_NET_PNP_EVENT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_pnp_event_notification">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompletenetpnpevent">NdisCompleteNetPnPEvent</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompletenetpnpevent">NdisCompleteNetPnPEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>

@@ -154,13 +154,12 @@ On exit from <b>RxChangeBufferingState</b>, there is no change in resource owner
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxindicatechangeofbufferingstate">RxIndicateChangeOfBufferingState</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxindicatechangeofbufferingstate">RxIndicateChangeOfBufferingState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen">RxIndicateChangeOfBufferingStateForSrvOpen</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen">RxIndicateChangeOfBufferingStateForSrvOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>
-
+<a href="/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>

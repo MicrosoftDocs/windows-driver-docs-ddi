@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The MOUNTMGR_DRIVE_LETTER_INFORMATION structure is used by the mount manager to furnish a drive letter to a client that has requested a driver letter by means of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_next_drive_letter">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a> request.
+The MOUNTMGR_DRIVE_LETTER_INFORMATION structure is used by the mount manager to furnish a drive letter to a client that has requested a driver letter by means of an <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_next_drive_letter">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a> request.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ Contains either an existing or a newly assigned drive letter in the form of a si
 
 ## -remarks
 
-For a general discussion of the mount manager and how it communicates with its clients, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+For a general discussion of the mount manager and how it communicates with its clients, see <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_next_drive_letter">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
-
+<a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_next_drive_letter">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>

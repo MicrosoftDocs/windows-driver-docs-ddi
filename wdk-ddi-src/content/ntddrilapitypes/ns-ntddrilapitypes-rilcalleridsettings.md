@@ -43,7 +43,7 @@ api_name:
  - RILCALLERIDSETTINGS
 ---
 
-# RILCALLERIDSETTINGS structure
+# RILCALLERIDSETTINGS structure (ntddrilapitypes.h)
 
 
 ## -description

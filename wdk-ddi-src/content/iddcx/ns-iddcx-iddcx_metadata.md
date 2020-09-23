@@ -56,11 +56,11 @@ api_name:
 
 ### -field PresentationFrameNumber
 
-                     Presentation frame number of this surface. If the frame number is the same as the previous frame, then it indicates that there has not been any image updates from the previous frame. This is an opportunity for the driver to re-encode the desktop image again to increase the visual quality. Once there are no more updates, the OS presents the same frame as many times indicated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/ns-iddcx-iddcx_adapter_caps">IDDCX_ADAPTER_CAPS</a> value <b>StaticDesktopReencodeFrameCount</b> , then stops presenting until the next update
+                     Presentation frame number of this surface. If the frame number is the same as the previous frame, then it indicates that there has not been any image updates from the previous frame. This is an opportunity for the driver to re-encode the desktop image again to increase the visual quality. Once there are no more updates, the OS presents the same frame as many times indicated by the <a href="/windows-hardware/drivers/ddi/iddcx/ns-iddcx-iddcx_adapter_caps">IDDCX_ADAPTER_CAPS</a> value <b>StaticDesktopReencodeFrameCount</b> , then stops presenting until the next update
 
 ### -field DirtyRectCount
 
-                      Number of dirty rects for this frame. Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchaingetdirtyrects">IddCxSwapChainGetDirtyRects</a> to get the dirty rects
+                      Number of dirty rects for this frame. Call <a href="/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchaingetdirtyrects">IddCxSwapChainGetDirtyRects</a> to get the dirty rects
                  
 
 <div class="alert"><b>Note</b>   A zero <b>DirtyRectCount</b> and <b>MoveRegionCount</b> value indicates there were no desktop updates and the
@@ -69,7 +69,7 @@ api_name:
 
 ### -field MoveRegionCount
 
-                     Number of move regions in this frame, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchaingetmoveregions">IddCxSwapChainGetMoveRegions</a> to get the move regions
+                     Number of move regions in this frame, call <a href="/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchaingetmoveregions">IddCxSwapChainGetMoveRegions</a> to get the move regions
                  
 
 <div class="alert"><b>Note</b>   A zero <b>DirtyRectCount</b> and <b>MoveRegionCount</b> value indicates there were no desktop updates and the
@@ -86,8 +86,7 @@ api_name:
 
 ### -field pSurface
 
-                     DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchainreleaseandacquirebuffer">IddCxSwapChainReleaseAndAcquire</a> is called again
+                     DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until <a href="/windows-hardware/drivers/ddi/iddcx/nf-iddcx-iddcxswapchainreleaseandacquirebuffer">IddCxSwapChainReleaseAndAcquire</a> is called again
 
 <div class="alert"><b>Note</b>  This surface is always a A8R8G8B8 formated surface</div>
 <div> </div>
-

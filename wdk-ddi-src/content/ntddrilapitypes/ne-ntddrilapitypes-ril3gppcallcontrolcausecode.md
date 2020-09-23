@@ -41,7 +41,7 @@ api_name:
  - RIL3GPPCALLCONTROLCAUSECODE
 ---
 
-# RIL3GPPCALLCONTROLCAUSECODE enumeration
+# RIL3GPPCALLCONTROLCAUSECODE enumeration (ntddrilapitypes.h)
 
 
 ## -description

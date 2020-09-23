@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-The <b>FIELD_INFO</b> structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation to provide information about a member in a structure.
+The <b>FIELD_INFO</b> structure is used by the <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation to provide information about a member in a structure.
 
 ## -struct-fields
 
@@ -71,15 +71,15 @@ If the member is an array, <b>size</b> specifies the number of elements in the a
 
 ### -field fOptions
 
-Specifies the flags that determine the behavior of the IG_DUMP_SYMBOL_INFO <b>Ioctl</b> operation.  For a description of these flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dbg-dump-field-xxx">DBG_DUMP_FIELD_XXX</a>.
+Specifies the flags that determine the behavior of the IG_DUMP_SYMBOL_INFO <b>Ioctl</b> operation.  For a description of these flags, see <a href="/windows-hardware/drivers/debugger/dbg-dump-field-xxx">DBG_DUMP_FIELD_XXX</a>.
 
 ### -field address
 
-Receives the address in the target's memory of the member that is specified by <b>fName</b>.  If no address is supplied for the symbol type in SYM_DUMP_PARAM.<b>addr</b>, <b>address</b> receives the offset of the member relative to the beginning of an instance of the type.  For more information about SYM_DUMP_PARAM, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>.
+Receives the address in the target's memory of the member that is specified by <b>fName</b>.  If no address is supplied for the symbol type in SYM_DUMP_PARAM.<b>addr</b>, <b>address</b> receives the offset of the member relative to the beginning of an instance of the type.  For more information about SYM_DUMP_PARAM, see <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>.
 
 ### -field fieldCallBack
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-psym_dump_field_callback">PSYM_DUMP_FIELD_CALLBACK</a> callback function to be called with the information about the member that is specified by <b>fName</b>.  The callback function is passed a structure with the field information and the value of SYM_DUMP_PARAM.<b>context</b>.
+Specifies a <a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-psym_dump_field_callback">PSYM_DUMP_FIELD_CALLBACK</a> callback function to be called with the information about the member that is specified by <b>fName</b>.  The callback function is passed a structure with the field information and the value of SYM_DUMP_PARAM.<b>context</b>.
 
 No callback function is called if DBG_DUMP_FIELD_NO_CALLBACK_REQ is set in <b>fOptions</b>, <b>fieldCallBack</b> is <b>NULL</b>, or the <b>Options</b> member of the SYM_DUMP_PARAM structure passed to <b>Ioctl</b> does not have DBG_DUMP_CALL_FOR_EACH set.  If DBG_DUMP_FIELD_COPY_FIELD_DATA is set in <b>fOptions</b>, <b>fieldCallBack</b> is not used.
 
@@ -137,22 +137,21 @@ Receives a Boolean value that indicates whether the member is a constant.  <b>fC
 
 ## -remarks
 
-When calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation, the <b>fName</b> member of this structure should be set to the name of the symbol's member to which this structure applies and the <b>fOptions</b> member should reflect the desired functionality of the operation.  The other members are either optional, or are filled in by <b>Ioctl</b>.
+When calling the <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation, the <b>fName</b> member of this structure should be set to the name of the symbol's member to which this structure applies and the <b>fOptions</b> member should reflect the desired functionality of the operation.  The other members are either optional, or are filled in by <b>Ioctl</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dbg-dump-field-xxx">DBG_DUMP_FIELD_XXX</a>
+<a href="/windows-hardware/drivers/debugger/dbg-dump-field-xxx">DBG_DUMP_FIELD_XXX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
+<a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-psym_dump_field_callback">PSYM_DUMP_FIELD_CALLBACK</a>
-
+<a href="/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-psym_dump_field_callback">PSYM_DUMP_FIELD_CALLBACK</a>

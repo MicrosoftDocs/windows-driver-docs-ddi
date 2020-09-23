@@ -41,7 +41,7 @@ api_name:
  - RILCALLSUPPORTCAPS
 ---
 
-# RILCALLSUPPORTCAPS enumeration
+# RILCALLSUPPORTCAPS enumeration (ntddrilapitypes.h)
 
 
 ## -description

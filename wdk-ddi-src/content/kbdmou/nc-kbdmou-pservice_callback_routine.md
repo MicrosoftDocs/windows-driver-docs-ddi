@@ -76,7 +76,7 @@ Pointer to the number of keyboard input data packets that are transferred by the
 
 Here is the definition of the  keyboard class service callback routine.
 
-Kbdclass uses an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request to connect its class service callback to a keyboard device. In this call, the driver sets  its implementation in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a> structure.
+Kbdclass uses an <a href="/windows-hardware/drivers/ddi/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request to connect its class service callback to a keyboard device. In this call, the driver sets  its implementation in a <a href="/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a> structure.
 
 <pre class="syntax" xml:space="preserve"><code>
 /*
@@ -102,11 +102,11 @@ VOID KeyboardClassServiceCallback(
 </code></pre>
 <b>KeyboardClassServiceCallback</b> transfers input data from the input buffer of the device to the class data queue. This routine is called by the ISR dispatch completion routine of the function driver.
 
-<b>KeyboardClassServiceCallback</b> can be supplemented by a filter service callback that is provided by an upper-level keyboard filter driver. A filter service callback filters the keyboard data that is transferred to the class data queue. For example, the filter service callback can delete, transform, or insert data. <a href="https://go.microsoft.com/fwlink/p/?linkid=256125">Kbfiltr</a>, the sample filter driver in code gallery, includes <b>KbFilter_ServiceCallback</b>, which is a template for a keyboard filter service callback.
+<b>KeyboardClassServiceCallback</b> can be supplemented by a filter service callback that is provided by an upper-level keyboard filter driver. A filter service callback filters the keyboard data that is transferred to the class data queue. For example, the filter service callback can delete, transform, or insert data. <a href="/samples/browse/?redirectedfrom=MSDN-samples">Kbfiltr</a>, the sample filter driver in code gallery, includes <b>KbFilter_ServiceCallback</b>, which is a template for a keyboard filter service callback.
 
 <b>Mouse Class Service Callback</b>
 
-Here is the <b>MouseClassServiceCallback</b> routine is the class service callback routine that is provided by Mouclass. The driver uses an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ni-kbdmou-ioctl_internal_mouse_connect">IOCTL_INTERNAL_MOUSE_CONNECT</a> request to connect its class service callback to a mouse device. In this call, the driver sets  its implementation in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a> structure.
+Here is the <b>MouseClassServiceCallback</b> routine is the class service callback routine that is provided by Mouclass. The driver uses an <a href="/windows-hardware/drivers/ddi/kbdmou/ni-kbdmou-ioctl_internal_mouse_connect">IOCTL_INTERNAL_MOUSE_CONNECT</a> request to connect its class service callback to a mouse device. In this call, the driver sets  its implementation in a <a href="/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a> structure.
 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -136,17 +136,16 @@ VOID MouseClassServiceCallback(
 
 <b>MouseClassServiceCallback</b> transfers input data from the input buffer of the device to the class data queue. This routine is called by the ISR dispatch completion routine of the function driver.
 
-<b>MouseClassServiceCallback</b> can be supplemented by a filter service callback that is provided by an upper-level mouse filter driver. A filter service callback can filter the mouse data that is transferred to the class data queue. For example, the filter service callback can delete, transform, or insert data. <a href="https://go.microsoft.com/fwlink/p/?linkid=256135">Moufiltr</a>, the sample filter driver in the WDK, includes <b>MouFilter_ServiceCallback</b>, which is a template for a filter service callback.
+<b>MouseClassServiceCallback</b> can be supplemented by a filter service callback that is provided by an upper-level mouse filter driver. A filter service callback can filter the mouse data that is transferred to the class data queue. For example, the filter service callback can delete, transform, or insert data. <a href="/samples/browse/?redirectedfrom=MSDN-samples">Moufiltr</a>, the sample filter driver in the WDK, includes <b>MouFilter_ServiceCallback</b>, which is a template for a filter service callback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a>
+<a href="/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_input_data">KEYBOARD_INPUT_DATA</a>
+<a href="/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data">KEYBOARD_INPUT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_input_data">MOUSE_INPUT_DATA</a>
-
+<a href="/windows/win32/api/ntddmou/ns-ntddmou-mouse_input_data">MOUSE_INPUT_DATA</a>

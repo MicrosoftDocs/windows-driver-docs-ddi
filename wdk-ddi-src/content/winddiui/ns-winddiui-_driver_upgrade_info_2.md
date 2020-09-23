@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a> function.
+The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a> function.
 
 ## -struct-fields
 
@@ -161,9 +161,8 @@ To see how this can occur, suppose that a computer is connected to two printers,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_1">DRIVER_UPGRADE_INFO_1</a>
+<a href="/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_1">DRIVER_UPGRADE_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a>
-
+<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a>

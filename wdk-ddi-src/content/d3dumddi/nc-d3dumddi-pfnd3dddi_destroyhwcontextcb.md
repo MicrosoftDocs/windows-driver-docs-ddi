@@ -67,7 +67,7 @@ A pointer to the structure holding information to destroy the hardware context.
 |Return code|Description|
 |--- |--- |
 |S_OK|The call was successfully completed.|
- 
+
 
 This function might also return other HRESULT values.
 

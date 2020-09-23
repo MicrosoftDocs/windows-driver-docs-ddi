@@ -43,7 +43,7 @@ api_name:
  - RILSIGNALQUALITY
 ---
 
-# RILSIGNALQUALITY structure
+# RILSIGNALQUALITY structure (rilapitypes.h)
 
 
 ## -description

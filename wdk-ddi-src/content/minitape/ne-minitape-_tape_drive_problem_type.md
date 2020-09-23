@@ -43,7 +43,7 @@ api_name:
  - TAPE_DRIVE_PROBLEM_TYPE
 ---
 
-# _TAPE_DRIVE_PROBLEM_TYPE enumeration
+# _TAPE_DRIVE_PROBLEM_TYPE enumeration (minitape.h)
 
 
 ## -description
@@ -110,9 +110,8 @@ Indicates that the tape has snapped.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_wmi_operations">TAPE_WMI_OPERATIONS</a>
+<a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_wmi_operations">TAPE_WMI_OPERATIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWMIControl</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWMIControl</a>

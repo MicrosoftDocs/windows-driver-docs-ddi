@@ -42,7 +42,7 @@ api_name:
  - NtPowerInformation
 ---
 
-# NtPowerInformation function
+# NtPowerInformation function (wdm.h)
 
 
 ## -description
@@ -86,12 +86,12 @@ Size, in bytes, of the buffer at <i>InputBuffer</i>. The parameter must be set t
 ### -param OutputBuffer 
 
 [out, optional]
-A pointer to an output buffer. The data type of this buffer depends on the information level requested in the <i>InformationLevel</i> parameter. For the <b>PlatformInformation</b> level, the only currently supported value, the <i>OutputBuffer </i> parameter is required and should be of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a> type.
+A pointer to an output buffer. The data type of this buffer depends on the information level requested in the <i>InformationLevel</i> parameter. For the <b>PlatformInformation</b> level, the only currently supported value, the <i>OutputBuffer </i> parameter is required and should be of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a> type.
 
 ### -param OutputBufferLength 
 
 [in]
-Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. <i>PlatformInformation</i>, the only currently supported value, requires a buffer that is the size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a> structure.
+Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. <i>PlatformInformation</i>, the only currently supported value, requires a buffer that is the size of a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a> structure.
 
 ## -returns
 
@@ -139,33 +139,27 @@ The caller had insufficient access rights to perform the requested action.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntpowerinformation">NtPowerInformation</a> and <b>ZwPowerInformation</b> are two versions of the same Windows Native System Services routine.
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntpowerinformation">NtPowerInformation</a> and <b>ZwPowerInformation</b> are two versions of the same Windows Native System Services routine.
 
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 #### Examples
 
 This example illustrates a valid function call.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>POWER_PLATFORM_INFORMATION PlatformInfo = {0};
+
+```cpp
+POWER_PLATFORM_INFORMATION PlatformInfo = {0};
 NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &PlatformInfo, sizeof(PlatformInfo));
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
+<a href="/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>

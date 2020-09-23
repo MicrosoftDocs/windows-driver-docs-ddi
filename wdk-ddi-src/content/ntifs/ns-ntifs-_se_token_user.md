@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that can be returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>, <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a> with the TokenUser information class. This structure is suitable for stack allocation.
+The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that can be returned by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>, <a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>, or <a href="/previous-versions/ff567055(v=vs.85)">ZwQueryInformationToken</a> with the TokenUser information class. This structure is suitable for stack allocation.
 
 ## -struct-fields
 
@@ -74,13 +74,12 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_token_user">TOKEN_USER</a>

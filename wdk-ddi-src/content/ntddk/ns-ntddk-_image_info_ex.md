@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-IMAGE_INFO_EX is the larger, extended version of the [IMAGE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info) load image information structure.
+IMAGE_INFO_EX is the larger, extended version of the [IMAGE_INFO](./ns-ntddk-_image_info.md) load image information structure.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Specifies the size, in bytes, of the IMAGE_INFO_EX structure.
 
 ### -field ImageInfo
 
-An [IMAGE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info) structure that specifies load image information.
+An [IMAGE_INFO](./ns-ntddk-_image_info.md) structure that specifies load image information.
 
 ### -field FileObject
 
@@ -72,9 +72,8 @@ If the **ExtendedInfoPresent** flag is set in the IMAGE_INFO structure, the load
 
 ## -see-also
 
-[IMAGE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info)
+[IMAGE_INFO](./ns-ntddk-_image_info.md)
 
-[PLOAD_IMAGE_NOTIFY_ROUTINE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pload_image_notify_routine)
+[PLOAD_IMAGE_NOTIFY_ROUTINE](./nc-ntddk-pload_image_notify_routine.md)
 
-[PsSetLoadImageNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine)
-
+[PsSetLoadImageNotifyRoutine](./nf-ntddk-pssetloadimagenotifyroutine.md)

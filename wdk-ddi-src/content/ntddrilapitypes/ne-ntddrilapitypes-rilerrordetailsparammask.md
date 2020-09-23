@@ -41,7 +41,7 @@ api_name:
  - RILERRORDETAILSPARAMMASK
 ---
 
-# RILERRORDETAILSPARAMMASK enumeration
+# RILERRORDETAILSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

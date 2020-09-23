@@ -41,7 +41,7 @@ api_name:
  - RILCALLINFODISCONNECTINITIATOR
 ---
 
-# RILCALLINFODISCONNECTINITIATOR enumeration
+# RILCALLINFODISCONNECTINITIATOR enumeration (rilapitypes.h)
 
 
 ## -description

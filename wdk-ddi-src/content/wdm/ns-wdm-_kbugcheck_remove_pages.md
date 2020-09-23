@@ -1,11 +1,9 @@
 ---
 UID: NS:wdm._KBUGCHECK_REMOVE_PAGES
 title: _KBUGCHECK_REMOVE_PAGES
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 3b597044-e02a-48ed-9172-83644f0ef44e
-ms.author: windowsdriverdev
 ms.date: 05/08/2019
 keywords: ["KBUGCHECK_REMOVE_PAGES structure"]
 ms.keywords: KBUGCHECK_REMOVE_PAGES, KBUGCHECK_REMOVE_PAGES, *PKBUGCHECK_REMOVE_PAGES,
@@ -47,7 +45,7 @@ product:
 
 ## -description
 
-The <b>KBUGCHECK_REMOVE_PAGES</b> structure describes one or more pages of driver-supplied data to be removed by a [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine from the crash dump file.
+The <b>KBUGCHECK_REMOVE_PAGES</b> structure describes one or more pages of driver-supplied data to be removed by a [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine from the crash dump file.
 
 ## -struct-fields
 
@@ -83,9 +81,8 @@ Specifies the number of contiguous pages to remove from the crash dump file, sta
 
 ## -remarks
 
-In a call to the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine, the operating system sets the <i>Reason</i> parameter to <b>KbCallbackRemovePages</b>, and sets the <i>ReasonSpecificData</i> parameter to point to a <b>KBUGCHECK_REMOVE_PAGES</b> structure.
+In a call to the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine, the operating system sets the <i>Reason</i> parameter to <b>KbCallbackRemovePages</b>, and sets the <i>ReasonSpecificData</i> parameter to point to a <b>KBUGCHECK_REMOVE_PAGES</b> structure.
 
-For more information about bug check callback routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For more information about bug check callback routines, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
-

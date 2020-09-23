@@ -61,7 +61,7 @@ The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the schedu
 
 *pPriority* 
 
-[out] A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_schedulingpriorityclass">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
+[out] A pointer to a variable that receives a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_schedulingpriorityclass">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
 
 ## -returns
 
@@ -71,12 +71,11 @@ The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the schedu
 |--- |--- |
 |STATUS_SUCCESS|The scheduling priority was successfully retrieved.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass">D3DKMTSetProcessSchedulingPriorityClass</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass">D3DKMTSetProcessSchedulingPriorityClass</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_schedulingpriorityclass">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_schedulingpriorityclass">D3DKMT_SCHEDULINGPRIORITYCLASS</a>

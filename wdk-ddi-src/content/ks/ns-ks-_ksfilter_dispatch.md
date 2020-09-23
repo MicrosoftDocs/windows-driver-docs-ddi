@@ -56,38 +56,37 @@ The KSFILTER_DISPATCH structure describes the client callbacks that are made to 
 
 ### -field Create
 
-Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfilterirp">AVStrMiniFilterCreate</a> callback routine.
+Optional. A pointer to a minidriver-supplied <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfilterirp">AVStrMiniFilterCreate</a> callback routine.
 
 ### -field Close
 
-Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff556307(v=vs.85)">AVStrMiniFilterClose</a> callback routine.
+Optional. A pointer to a minidriver-supplied <a href="/previous-versions/ff556307(v=vs.85)">AVStrMiniFilterClose</a> callback routine.
 
 ### -field Process
 
-Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfilterprocess">AVStrMiniFilterProcess</a> callback routine.
+Optional. A pointer to a minidriver-supplied <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfilterprocess">AVStrMiniFilterProcess</a> callback routine.
 
 ### -field Reset
 
-Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfiltervoid">AVStrMiniFilterReset</a> callback routine.
+Optional. A pointer to a minidriver-supplied <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfiltervoid">AVStrMiniFilterReset</a> callback routine.
 
 ## -remarks
 
 Any of the callback pointers may be <b>NULL</b>, indicating that the driver does not wish to receive notification of a given event.
 
-Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/restarting-processing-in-avstream">Restarting Processing in AVStream</a> and 
+Also see <a href="/windows-hardware/drivers/stream/restarting-processing-in-avstream">Restarting Processing in AVStream</a> and 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
+<a href="/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>

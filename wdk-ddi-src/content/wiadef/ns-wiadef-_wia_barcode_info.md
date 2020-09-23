@@ -58,7 +58,7 @@ The total size of this structure, in bytes.
 
 ### -field Type
 
-The barcode type. One of the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-supported-barcode-types">WIA_IPS_SUPPORTED_BARCODE_TYPES</a> values.
+The barcode type. One of the <a href="/windows-hardware/drivers/image/wia-ips-supported-barcode-types">WIA_IPS_SUPPORTED_BARCODE_TYPES</a> values.
 
 ### -field Page
 
@@ -93,4 +93,3 @@ The horizontal coordinate, in pixels (relative to the scanned image), where the 
 #### - Yoffset
 
 The vertical coordinate, in pixels (relative to the scanned image), where the top-left origin of the barcode was detected. This value can be 0 if it is unknown.
-

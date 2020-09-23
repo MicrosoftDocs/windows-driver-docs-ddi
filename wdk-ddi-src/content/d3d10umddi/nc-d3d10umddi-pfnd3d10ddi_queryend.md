@@ -64,19 +64,18 @@ A handle to the query object to end.
 
 ## -remarks
 
-The driver can use the [pfnSetErrorCb](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb) callback function to set an error code.
+The driver can use the [pfnSetErrorCb](./nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md) callback function to set an error code.
 
-If the driver supports the [QueryBegin](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_querybegin) function for a query operation, and if the Microsoft Direct3D runtime calls *QueryEnd* without call *QueryBegin*, the call is equivalent to first calling *QueryBegin* and then calling *QueryEnd* immediately afterward. In addition, the runtime cannot call *QueryEnd* on a predicate that is currently bound to the pipeline through a call to the [SetPredication](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setpredication) function.
+If the driver supports the [QueryBegin](./nc-d3d10umddi-pfnd3d10ddi_querybegin.md) function for a query operation, and if the Microsoft Direct3D runtime calls *QueryEnd* without call *QueryBegin*, the call is equivalent to first calling *QueryBegin* and then calling *QueryEnd* immediately afterward. In addition, the runtime cannot call *QueryEnd* on a predicate that is currently bound to the pipeline through a call to the [SetPredication](./nc-d3d10umddi-pfnd3d10ddi_setpredication.md) function.
 
-The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the [pfnSetErrorCb](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb) function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of *QueryEnd* (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
+The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the [pfnSetErrorCb](./nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md) function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of *QueryEnd* (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 ## -see-also
 
-[D3D10DDI_DEVICEFUNCS](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs)
+[D3D10DDI_DEVICEFUNCS](./ns-d3d10umddi-d3d10ddi_devicefuncs.md)
 
-[QueryBegin](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_querybegin)
+[QueryBegin](./nc-d3d10umddi-pfnd3d10ddi_querybegin.md)
 
-[SetPredication](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setpredication)
+[SetPredication](./nc-d3d10umddi-pfnd3d10ddi_setpredication.md)
 
-[pfnSetErrorCb](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb)
-
+[pfnSetErrorCb](./nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md)

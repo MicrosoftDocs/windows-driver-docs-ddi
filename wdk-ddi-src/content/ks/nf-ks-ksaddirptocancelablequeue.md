@@ -74,7 +74,7 @@ Indicates whether this IRP should be placed at the beginning or end of the queue
 ### -param DriverCancel 
 
 [in, optional]
-Optional parameter that specifies a driver-supplied cancel routine to use. If this is <b>NULL</b>, the standard <a href="https://docs.microsoft.com/previous-versions/ff561011(v=vs.85)">KsCancelRoutine</a> is used.
+Optional parameter that specifies a driver-supplied cancel routine to use. If this is <b>NULL</b>, the standard <a href="/previous-versions/ff561011(v=vs.85)">KsCancelRoutine</a> is used.
 
 ## -returns
 
@@ -87,4 +87,3 @@ If the IRP has been put into a cancel state when this routine is called, <b>KsAd
 The <b>KsAddIrpToCancelableQueue</b> function allows IRPs to be canceled even before being placed on a cancel list, or when being moved from one list to another. This function can be called at IRQ level DISPATCH_LEVEL or lower unless the driver-allocated queue and all entries in the queue are system-resident or allocated from resident storage.
 
 The function does not use the cancel spin lock to add items to the list. Access to the list is synchronized using the provided spin lock and relies on atomic operations on Irp->CancelRoutine.
-

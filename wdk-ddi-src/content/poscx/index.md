@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: pos
+f1_keywords:
+ - poscx
+ - poscx/poscx
 ---
 
 # Poscx.h header
@@ -16,7 +19,7 @@ tech.root: pos
 
 ## -description
 
-
 This header is used by pos. For more information, see:
 
 - [Point of Service (POS)](../_pos/index.md)
+

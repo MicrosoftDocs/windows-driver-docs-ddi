@@ -59,7 +59,7 @@ Handle to the client drivers framework driver object.
 ### -param DeviceInit 
 
 [in]
-A pointer to a framework-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
+A pointer to a framework-allocated <a href="/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 ### -param FdoAttributes 
 
@@ -82,9 +82,8 @@ FORCEINLINE NTSTATUS  HwNProcessAddDevicePreDeviceCreate(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/hardware-notifications-support">Hardware notifications support</a>
+<a href="/windows-hardware/drivers/gpiobtn/hardware-notifications-support">Hardware notifications support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
-
+<a href="/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>

@@ -41,7 +41,7 @@ api_name:
  - RILSMSFORMAT
 ---
 
-# RILSMSFORMAT enumeration
+# RILSMSFORMAT enumeration (ntddrilapitypes.h)
 
 
 ## -description
@@ -72,5 +72,4 @@ enum RILSMSFORMAT  {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
-
+<a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>

@@ -56,7 +56,7 @@ A handle to the printer that is currently being queried.
 
 ### -param cbDevMode
 
-The size of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure, including appended data.
+The size of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure, including appended data.
 
 ### -param pDevMode
 
@@ -83,4 +83,3 @@ A pointer to the current resolution, in dots per inch (DPI), assuming square pix
 The <i>pDPI</i> parameter is IN OUT. All other parameters for this function are input only.
 
 If the plug-in cannot complete the operation, it should return an appropriate failure HRESULT, which causes the current print job to fail.
-

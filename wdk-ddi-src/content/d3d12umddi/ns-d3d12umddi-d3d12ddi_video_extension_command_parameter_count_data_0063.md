@@ -1,11 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT_DATA_0063
 title: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT_DATA_0063
-author: windows-driver-content
 description: Retrieves the number of parameters for a parameter stage.
 tech.root: display
 ms.assetid: 004ea36c-7ed0-48ca-8479-7ba113b267ba
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT_DATA_0063 structure"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT_DATA_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT_DATA_0063,

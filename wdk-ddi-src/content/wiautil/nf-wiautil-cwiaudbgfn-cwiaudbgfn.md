@@ -56,5 +56,4 @@ Specifies the name of the function or method being entered.
 
 ## -see-also
 
-[CWiauDbgFn::~CWiauDbgFn](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaudbgfn--cwiaudbgfn)
-
+[CWiauDbgFn::~CWiauDbgFn](./nf-wiautil-cwiaudbgfn--cwiaudbgfn.md)

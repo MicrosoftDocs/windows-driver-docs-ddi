@@ -42,7 +42,7 @@ api_name:
  - RILNOTIFICATIONS
 ---
 
-# RILNOTIFICATIONS enumeration
+# RILNOTIFICATIONS enumeration (rilapitypes.h)
 
 
 ## -description

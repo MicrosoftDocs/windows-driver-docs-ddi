@@ -45,12 +45,12 @@ api_name:
  - PEP_LOW_POWER_EPOCH
 ---
 
-# _PEP_LOW_POWER_EPOCH structure
+# _PEP_LOW_POWER_EPOCH structure (pep_x.h)
 
 
 ## -description
 
-The <b>PEP_LOW_POWER_EPOCH</b> structure is used to provide data for a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_low_power_epoch">PEP_DPM_LOW_POWER_EPOCH</a> notification (deprecated).
+The <b>PEP_LOW_POWER_EPOCH</b> structure is used to provide data for a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_low_power_epoch">PEP_DPM_LOW_POWER_EPOCH</a> notification (deprecated).
 
 ## -struct-fields
 
@@ -60,5 +60,4 @@ When <b>TRUE</b>, indicates that the low power epoch is on.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_low_power_epoch">PEP_DPM_LOW_POWER_EPOCH notification</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_low_power_epoch">PEP_DPM_LOW_POWER_EPOCH notification</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>KSTOPOLOGY_ENDPOINTIDPAIR</b> structure specifies the render and capture endpoint IDs to use for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-telephony-endpointidpair">KSPROPERTY_TELEPHONY_ENDPOINTIDPAIR</a> property.
+The <b>KSTOPOLOGY_ENDPOINTIDPAIR</b> structure specifies the render and capture endpoint IDs to use for the <a href="/windows-hardware/drivers/audio/ksproperty-telephony-endpointidpair">KSPROPERTY_TELEPHONY_ENDPOINTIDPAIR</a> property.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ Specifies the capture endpoint ID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstopology_endpointid">KSTOPOLOGY_ENDPOINTID</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstopology_endpointid">KSTOPOLOGY_ENDPOINTID</a>

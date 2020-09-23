@@ -43,7 +43,7 @@ api_name:
  - RILGETPHONEBOOKOPTIONSPARAMS
 ---
 
-# RILGETPHONEBOOKOPTIONSPARAMS structure
+# RILGETPHONEBOOKOPTIONSPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_DEVICE_CONTROL_REGISTER
 ---
 
-# _PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure
+# _PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure (miniport.h)
 
 
 ## -description
@@ -226,9 +226,8 @@ typedef union _PCI_EXPRESS_DEVICE_CONTROL_REGISTER {
 
 The PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure is available in Windows Server 2008 and later versions of Windows.
 
-A PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure is contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
+A PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capability">PCI_EXPRESS_CAPABILITY</a>

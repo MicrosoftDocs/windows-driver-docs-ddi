@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>HDAUDIO_CODEC_POWER_STATE</b> enumeration defines constants that specify the different power states that HD Audio codecs can support.  All states
-are from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> except PowerCodecD3Cold.
+are from <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> except PowerCodecD3Cold.
 
 ## -enum-fields
 
@@ -85,5 +85,4 @@ Power state Maximum
 
 ## -remarks
 
-For more information about power states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>.
-
+For more information about power states, see <a href="/windows-hardware/drivers/ddi/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>.

@@ -9,36 +9,40 @@ ms.date: 08/13/2020
 keywords: ["WcsDisassociateColorProfileFromDevice function"]
 ms.keywords: WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices], colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, icm/WcsDisassociateColorProfileFromDevice, print.wcsdisassociatecolorprofilefromdevice
 req.header: icm.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Mscms.lib
 req.dll: Mscms.dll
-req.irql:
-topic_type:
--   APIRef
--   kbSyntax
-api_type:
--   DllExport
-api_location:
--   Mscms.dll
-api_name:
--   WcsDisassociateColorProfileFromDevice
+req.irql: 
 targetos: Windows
 req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mscms.dll
+api_name:
+ - WcsDisassociateColorProfileFromDevice
+f1_keywords:
+ - WcsDisassociateColorProfileFromDevice
+ - icm/WcsDisassociateColorProfileFromDevice
 ---
 
 # WcsDisassociateColorProfileFromDevice function
+
 
 ## -description
 
@@ -56,7 +60,7 @@ A pointer to the file name of the profile to disassociate.
 
 A pointer to the name of the device from which the profile is to be disassociated.
 
-The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-display_devicea).
+The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](/windows/win32/api/wingdi/ns-wingdi-display_devicea).
 
 #### - profileManagementScope [in]
 
@@ -76,4 +80,4 @@ This function is executable in Least-Privileged User Account (LUA) context if *p
 
 ## -see-also
 
-[WcsAssociateColorProfileWithDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/icm/nf-icm-wcsassociatecolorprofilewithdevice)
+[WcsAssociateColorProfileWithDevice](/windows-hardware/drivers/ddi/content/icm/nf-icm-wcsassociatecolorprofilewithdevice)

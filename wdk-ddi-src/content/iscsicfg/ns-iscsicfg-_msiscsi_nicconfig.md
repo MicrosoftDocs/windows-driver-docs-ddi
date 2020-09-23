@@ -64,7 +64,7 @@ The maximum speed of the network link, in megabits per second (Mbps).
 
 ### -field LinkState
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_nic_linkstate">ISCSI_NIC_LINKSTATE</a> enumeration value that indicates whether the port is connected to the network or not.
+A <a href="/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_nic_linkstate">ISCSI_NIC_LINKSTATE</a> enumeration value that indicates whether the port is connected to the network or not.
 
 ### -field MaxFrameSize
 
@@ -76,7 +76,7 @@ The Ethernet MAC address of the port.
 
 ## -remarks
 
-The WMI tool suite automatically generates a declaration of the MSiSCSI_NICConfig structure when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-nicconfig-wmi-class">MSiSCSI_NICConfig WMI Class</a> in <i>Config.mof</i>.
+The WMI tool suite automatically generates a declaration of the MSiSCSI_NICConfig structure when it compiles the <a href="/windows-hardware/drivers/storage/msiscsi-nicconfig-wmi-class">MSiSCSI_NICConfig WMI Class</a> in <i>Config.mof</i>.
 
 Initiators are <i>not </i>required to implement the MSiSCSI_NICConfig class. 
 
@@ -86,9 +86,8 @@ Initiators should register each instance of the MSiSCSI_NICConfig class by using
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_nic_linkstate">ISCSI_NIC_LINKSTATE</a>
+<a href="/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_nic_linkstate">ISCSI_NIC_LINKSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-nicconfig-wmi-class">MSiSCSI_NICConfig WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msiscsi-nicconfig-wmi-class">MSiSCSI_NICConfig WMI Class</a>

@@ -1,11 +1,9 @@
 ---
 UID: NC:hdaudio.PUNREGISTER_NOTIFICATION_CALLBACK
 title: PUNREGISTER_NOTIFICATION_CALLBACK
-author: windows-driver-content
 description: The PUNREGISTER_NOTIFICATION_CALLBACK callback function deletes the registration of a notification callback routine that was previously registered by a call to RegisterNotificationCallback.
 tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
-ms.author: windowsdriverdev
 ms.date: 04/08/2019
 keywords: ["PUNREGISTER_NOTIFICATION_CALLBACK callback function"]
 ms.prod: windows-hardware
@@ -73,7 +71,7 @@ Driver-specific context value for the callback routine.
 
 PUNREGISTER_NOTIFICATION_CALLBACK returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified callback routine and context are not valid.
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -109,4 +107,3 @@ The HD Audio bus driver will release the reference it took on the driver FDO whe
 [HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md)
 
 [hdaudio.h](../hdaudio/index.md)
-

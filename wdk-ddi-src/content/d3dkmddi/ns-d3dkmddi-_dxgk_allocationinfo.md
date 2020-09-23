@@ -74,11 +74,11 @@ The DXGK_ALLOCATIONINFO structure describes parameters for creating an allocatio
 
 ### -field HintedBank
 
-[out] A [**DXGK_SEGMENTBANKPREFERENCE**](ns-d3dkmddi-_dxgk_segmentbankpreference.md) structure that indicates the bank ordering preferences that the display miniport driver requests that the video memory manager use to page-in the allocation. If this member is specified, the video memory manager uses banking information about the most preferred segment, which is specified by the **SegmentId0** member of the [**DXGK_SEGMENTPREFERENCE**](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that the **PreferredSegment** member specifies.
+[out] A [**DXGK_SEGMENTBANKPREFERENCE**](ns-d3dkmddi-_dxgk_segmentbankpreference.md) structure that indicates the bank ordering preferences that the display miniport driver requests that the video memory manager use to page-in the allocation. If this member is specified, the video memory manager uses banking information about the most preferred segment, which is specified by the **SegmentId0** member of the [**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that the **PreferredSegment** member specifies.
 
 ### -field PreferredSegment
 
-[out] A [**DXGK_SEGMENTPREFERENCE**](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that indicates preferred segments identifiers that the display miniport driver requests that the video memory manager use to page-in the allocation.
+[out] A [**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85)) structure that indicates preferred segments identifiers that the display miniport driver requests that the video memory manager use to page-in the allocation.
 
 ### -field SupportedReadSegmentSet
 
@@ -100,7 +100,7 @@ Only aperture segments can be specified by this member. If the driver specifies 
 
 ### -field MaximumRenamingListLength
 
-[out] The maximum length of the renaming list for the allocation. For more information about the renaming list, see [Requesting to Rename an Allocation](https://docs.microsoft.com/windows-hardware/drivers/display/requesting-to-rename-an-allocation).
+[out] The maximum length of the renaming list for the allocation. For more information about the renaming list, see [Requesting to Rename an Allocation](/windows-hardware/drivers/display/requesting-to-rename-an-allocation).
 
 Support for this member started with Windows 10 and the WDDM v2.
 
@@ -154,11 +154,10 @@ Ignoring the supported read segment set does not mean that it is no longer suppo
 
 [**DXGK_SEGMENTDESCRIPTOR**](ns-d3dkmddi-_dxgk_segmentdescriptor.md)
 
-[**DXGK_SEGMENTPREFERENCE**](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff562047(v=vs.85))
+[**DXGK_SEGMENTPREFERENCE**](/previous-versions/windows/hardware/drivers/ff562047(v=vs.85))
 
 [**DxgkDdiCreateAllocation**](nc-d3dkmddi-dxgkddi_createallocation.md)
 
 [**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md)
 
 [**pfnAllocateCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb.md)
-

@@ -41,7 +41,7 @@ api_name:
  - RILSMSREADYSTATE
 ---
 
-# RILSMSREADYSTATE enumeration
+# RILSMSREADYSTATE enumeration (rilapitypes.h)
 
 
 ## -description

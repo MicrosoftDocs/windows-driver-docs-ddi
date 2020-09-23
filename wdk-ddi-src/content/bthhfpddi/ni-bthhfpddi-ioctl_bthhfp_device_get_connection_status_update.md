@@ -81,23 +81,22 @@ This request will complete immediately if the input parameter is TRUE or if the 
 
 The audio driver sends this request to get the initial connection status, and sends subsequent requests to be updated when the status changes. The driver stores the connection status in appropriate context data.
 
-When the request completes and indicates a change in the connection status, the audio driver generates the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksevent-pincaps-jackinfochange">KSEVENT_PINCAPS_JACKINFOCHANGE</a> KS event.
+When the request completes and indicates a change in the connection status, the audio driver generates the <a href="/windows-hardware/drivers/audio/ksevent-pincaps-jackinfochange">KSEVENT_PINCAPS_JACKINFOCHANGE</a> KS event.
 
-When handling the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-jack-description">KSPROPERTY_JACK_DESCRIPTION</a> KS property, the audio driver sets the <i>IsConnected</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksjack-description">KSJACK_DESCRIPTION</a> structure based on the connection status.
+When handling the <a href="/windows-hardware/drivers/audio/ksproperty-jack-description">KSPROPERTY_JACK_DESCRIPTION</a> KS property, the audio driver sets the <i>IsConnected</i> member of the <a href="/windows-hardware/drivers/audio/ksjack-description">KSJACK_DESCRIPTION</a> structure based on the connection status.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
+<a href="/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksevent-pincaps-jackinfochange">KSEVENT_PINCAPS_JACKINFOCHANGE</a>
+<a href="/windows-hardware/drivers/audio/ksevent-pincaps-jackinfochange">KSEVENT_PINCAPS_JACKINFOCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksjack-description">KSJACK_DESCRIPTION</a>
+<a href="/windows-hardware/drivers/audio/ksjack-description">KSJACK_DESCRIPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-jack-description">KSPROPERTY_JACK_DESCRIPTION</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-jack-description">KSPROPERTY_JACK_DESCRIPTION</a>

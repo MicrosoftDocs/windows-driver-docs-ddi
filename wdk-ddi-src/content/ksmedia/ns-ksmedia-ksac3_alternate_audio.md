@@ -68,11 +68,10 @@ When two independent channels of audio are encoded in the stream, this member sp
 
 ## -remarks
 
-This structure is used by the [KSPROPERTY_AC3_ALTERNATE_AUDIO](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-alternate-audio) property.
+This structure is used by the [KSPROPERTY_AC3_ALTERNATE_AUDIO](/windows-hardware/drivers/audio/ksproperty-ac3-alternate-audio) property.
 
 For more information about the encoding of AC-3 program channels, see the AC-3 specification at the [Dolby Laboratories](https://www.dolby.com) website. The specification is titled Digital Audio Compression Standard (AC-3).
 
 ## -see-also
 
-[KSPROPERTY_AC3_ALTERNATE_AUDIO](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-alternate-audio)
-
+[KSPROPERTY_AC3_ALTERNATE_AUDIO](/windows-hardware/drivers/audio/ksproperty-ac3-alternate-audio)

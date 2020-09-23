@@ -59,9 +59,8 @@ The hash information.
 
 A NIC (or its miniport driver) uses the receive side scaling (RSS) hashing function to calculate an RSS hash value.
 
-For more information about the hashing functions, see [RSS Hashing Functions](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-functions).
+For more information about the hashing functions, see [RSS Hashing Functions](/windows-hardware/drivers/network/rss-hashing-functions).
 
 ## -see-also
 
 [**NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC**](nf-ntddndis-ndis_rss_hash_info_from_type_and_func.md)
-

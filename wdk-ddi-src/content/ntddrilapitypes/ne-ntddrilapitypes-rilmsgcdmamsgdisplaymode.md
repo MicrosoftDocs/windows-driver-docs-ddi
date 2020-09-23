@@ -41,7 +41,7 @@ api_name:
  - RILMSGCDMAMSGDISPLAYMODE
 ---
 
-# RILMSGCDMAMSGDISPLAYMODE enumeration
+# RILMSGCDMAMSGDISPLAYMODE enumeration (ntddrilapitypes.h)
 
 
 ## -description

@@ -45,18 +45,18 @@ api_name:
  - INQUIRYDATA
 ---
 
-# _INQUIRYDATA structure
+# _INQUIRYDATA structure (storport.h)
 
 
 ## -description
 
-The INQUIRYDATA structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_extension_init_routine">TapeMiniExtensionInit</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a> routines to report SCSI inquiry data associated with a tape device.
+The INQUIRYDATA structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_extension_init_routine">TapeMiniExtensionInit</a> and <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a> routines to report SCSI inquiry data associated with a tape device.
 
 ## -struct-fields
 
 ### -field DeviceType
 
-Specifies the type of device. For a complete list of symbolic constants that indicate the various device types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
+Specifies the type of device. For a complete list of symbolic constants that indicate the various device types, see <a href="/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
 
 ### -field DeviceTypeQualifier
 
@@ -262,9 +262,8 @@ Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_extension_init_routine">TapeMiniExtensionInit</a>
+<a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_extension_init_routine">TapeMiniExtensionInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a>

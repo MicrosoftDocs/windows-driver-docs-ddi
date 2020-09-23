@@ -58,11 +58,11 @@ The NDIS_CONFIGURATION_PARAMETER structure contains the data and type of a named
 ### -field ParameterType
 
 The type of the parameter specified as one of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a> enumeration values. 
+     <a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a> enumeration values. 
      
 
 For successful calls to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function, the    
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function, the    
      <b>ParameterType</b> value matches the value at the 
      <i>ParameterType</i> parameter. However, when the 
      <i>ParameterType</i> parameter is 
@@ -76,7 +76,7 @@ A union that contains the value of the given named entry. If ParameterType is a 
       member is an NDIS_STRING type describing a counted string in the system-default character set. For
       Microsoft Windows 2000 and later drivers, such a string contains Unicode characters. That is, for
       Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
-      <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
+      <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 This union contains the following members:
 
@@ -97,41 +97,40 @@ An NDIS_STRING value that is used when the
 ### -field ParameterData.BinaryData
 
 A 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-binary_data">BINARY_DATA</a> structure that is used when the 
+      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-binary_data">BINARY_DATA</a> structure that is used when the 
       <b>ParameterType</b> member is set to 
       <b>NdisParameterBinary</b>.
 
 ## -remarks
 
 To read parameters in the registry, an NDIS driver can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function. If
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function. If
     the call is successful, NDIS returns a pointer to an NDIS_CONFIGURATION_PARAMETER structure at the 
     <i>ParameterValue</i> parameter of 
     <b>NdisReadConfiguration</b>.
 
 To write parameters to the registry, an NDIS driver can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a> function. In
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a> function. In
     this case, the driver initializes an NDIS_CONFIGURATION_PARAMETER structure and passes it at the 
     <i>ParameterValue</i> parameter of 
     <b>NdisWriteConfiguration</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-binary_data">BINARY_DATA</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-binary_data">BINARY_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

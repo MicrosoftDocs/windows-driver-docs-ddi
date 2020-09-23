@@ -74,21 +74,20 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxassociatecontextwithmid">RxAssociateContextWithMid</a>
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxassociatecontextwithmid">RxAssociateContextWithMid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxdestroymidatlas">RxDestroyMidAtlas</a>
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxdestroymidatlas">RxDestroyMidAtlas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxmapanddissociatemidfromcontext">RxMapAndDissociateMidFromContext</a>
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxmapanddissociatemidfromcontext">RxMapAndDissociateMidFromContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxmapmidtocontext">RxMapMidToContext</a>
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxmapmidtocontext">RxMapMidToContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxreassociatemid">RxReassociateMid</a>
-
+<a href="/windows-hardware/drivers/ddi/midatlax/nf-midatlax-rxreassociatemid">RxReassociateMid</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets">DrvDevicePropertySheets</a> function.
+The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets">DrvDevicePropertySheets</a> function.
 
 ## -struct-fields
 
@@ -86,4 +86,3 @@ Printer handle.
 ### -field pszPrinterName
 
 Pointer to a NULL-terminated string representing a printer name.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The MOUNTMGR_VOLUME_MOUNT_POINT structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_volume_mount_point_created">IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED</a> request to inform the mount manager that a volume mount point has been created.
+The MOUNTMGR_VOLUME_MOUNT_POINT structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_volume_mount_point_created">IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED</a> request to inform the mount manager that a volume mount point has been created.
 
 ## -struct-fields
 
@@ -72,9 +72,8 @@ Contains the length, in bytes, of the target name.
 
 ## -remarks
 
-Mount point names must contain the full path of a mount point object name in the system object tree. For example: "\DosDevices\E:\FilesysD\mnt". For an explanation of unique volume names and how the mount manager uses them, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+Mount point names must contain the full path of a mount point object name in the system object tree. For example: "\DosDevices\E:\FilesysD\mnt". For an explanation of unique volume names and how the mount manager uses them, see <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_volume_mount_point_created">IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED</a>
-
+<a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_volume_mount_point_created">IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED</a>

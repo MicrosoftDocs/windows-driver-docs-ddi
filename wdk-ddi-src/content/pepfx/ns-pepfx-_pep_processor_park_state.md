@@ -45,7 +45,7 @@ api_name:
  - PEP_PROCESSOR_PARK_STATE
 ---
 
-# _PEP_PROCESSOR_PARK_STATE structure
+# _PEP_PROCESSOR_PARK_STATE structure (pepfx.h)
 
 
 ## -description
@@ -68,9 +68,8 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_MASK notification</a>
+<a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_MASK notification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_mask">PEP_PPM_PARK_MASK</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_mask">PEP_PPM_PARK_MASK</a>

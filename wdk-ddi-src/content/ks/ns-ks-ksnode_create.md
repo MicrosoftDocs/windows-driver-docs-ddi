@@ -62,5 +62,4 @@ Indicates what node a handle should be created for. This refers to the node iden
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a>

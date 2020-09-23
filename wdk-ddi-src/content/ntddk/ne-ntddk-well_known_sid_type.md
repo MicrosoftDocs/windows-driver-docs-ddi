@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddk.__unnamed_enum_0
 title: WELL_KNOWN_SID_TYPE (ntddk.h)
-description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the **CreateWellKnownSid** function to create a SID from this list. For information about these values, see [WELL_KNOWN_SID_TYPE](https://docs.microsoft.com/windows/win32/api/securitybaseapi/nf-securitybaseapi-createwellknownsid).
+description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the **CreateWellKnownSid** function to create a SID from this list. For information about these values, see [WELL_KNOWN_SID_TYPE](/windows/win32/api/securitybaseapi/nf-securitybaseapi-createwellknownsid).
 ms.assetid: 31995895-7bae-4cb6-9ea9-139a99d06215
 ms.date: 10/19/2018
 keywords: ["WELL_KNOWN_SID_TYPE enumeration"]
@@ -35,7 +35,7 @@ api_name:
 
 ## -description
 
-A list of commonly used security identifiers (SIDs). Programs can pass these values to the **CreateWellKnownSid** function to create a SID from this list. For information about these values, see [WELL_KNOWN_SID_TYPE](https://docs.microsoft.com/windows/win32/api/securitybaseapi/nf-securitybaseapi-createwellknownsid).
+A list of commonly used security identifiers (SIDs). Programs can pass these values to the **CreateWellKnownSid** function to create a SID from this list. For information about these values, see [WELL_KNOWN_SID_TYPE](/windows/win32/api/securitybaseapi/nf-securitybaseapi-createwellknownsid).
 
 ## -enum-fields
 
@@ -282,4 +282,3 @@ A list of commonly used security identifiers (SIDs). Programs can pass these val
 ## -remarks
 
 ## -see-also
-

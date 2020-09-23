@@ -53,28 +53,23 @@ The <b>RtlInitializeGenericTableAvl</b> routine initializes a generic table usin
 ### -param Table 
 
 [out]
-A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure.
+A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure.
 
 ### -param CompareRoutine 
 
 [in]
 An entry point of a comparison callback routine, declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>RTL_GENERIC_COMPARE_RESULTS
+
+```
+RTL_GENERIC_COMPARE_RESULTS
 (*PRTL_AVL_COMPARE_ROUTINE) (
     __in struct _RTL_AVL_TABLE  *Table,
     __in PVOID  FirstStruct,
     __in PVOID  SecondStruct
-    ); </pre>
-</td>
-</tr>
-</table></span></div>
+    ); 
+```
+
 The <i>CompareRoutine</i> parameters are as follows:
 
 
@@ -106,20 +101,15 @@ Given two such key values, the <i>CompareRoutine</i> returns <b>GenericLessThan<
 [in]
 An entry point of an allocation callback routine, declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PVOID
+
+```
+PVOID
 (*PRTL_AVL_ALLOCATE_ROUTINE) (
     __in struct _RTL_AVL_TABLE  *Table,
     __in CLONG  ByteSize
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 The <i>AllocateRoutine</i> parameters are as follows:
 
 
@@ -143,20 +133,15 @@ For each new element, the <i>AllocateRoutine</i> is called to allocate memory fo
 [in]
 An entry point of a deallocation callback routine, declared as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 (*PRTL_AVL_FREE_ROUTINE) (
     __in struct _RTL_AVL_TABLE  *Table,
     __in PVOID  Buffer
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 The <i>FreeRoutine</i> parameters are as follows:
 
 
@@ -198,47 +183,41 @@ The <b>RtlInitializeGenericTableAvl</b> routine explicitlly allocates a generic 
 
  If you want to configure the generic table routines, <i>Rtl...GenericTable</i>, to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define RTL_USE_AVL_TABLES 0</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+`#define RTL_USE_AVL_TABLES 0`
+```
+
 Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL <= DISPATCH_LEVEL. Note that if <i>Rtl...GenericTableAvl</i> routines are to be used at IRQL DISPATCH_LEVEL, the <i>CompareRoutine</i>, <i>AllocateRoutine</i>, and <i>FreeRoutine</i> must all be nonpageable code, and the <i>AllocateRoutine</i> should allocate memory from nonpaged pool.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldeleteelementgenerictableavl">RtlDeleteElementGenericTableAvl</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldeleteelementgenerictableavl">RtlDeleteElementGenericTableAvl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictableavl">RtlEnumerateGenericTableAvl</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictableavl">RtlEnumerateGenericTableAvl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetelementgenerictableavl">RtlGetElementGenericTableAvl</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetelementgenerictableavl">RtlGetElementGenericTableAvl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictableavl">RtlInsertElementGenericTableAvl</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictableavl">RtlInsertElementGenericTableAvl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictableavl">RtlLookupElementGenericTableAvl</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictableavl">RtlLookupElementGenericTableAvl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl">RtlNumberGenericTableElementsAvl</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl">RtlNumberGenericTableElementsAvl</a>

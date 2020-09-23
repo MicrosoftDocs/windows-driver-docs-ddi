@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKARG_QUERYVIRTUALFUNCTIONLUID
 title: _DXGKARG_QUERYVIRTUALFUNCTIONLUID
-author: windows-driver-content
 description: Arguments used to query virtual function LUID.
 tech.root: display
 ms.assetid: 0eeb7491-5e3c-47fa-9e81-8a02111672ca
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYVIRTUALFUNCTIONLUID structure"]
 ms.prod: windows-hardware

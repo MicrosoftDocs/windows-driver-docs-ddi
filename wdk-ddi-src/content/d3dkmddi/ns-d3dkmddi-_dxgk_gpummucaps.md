@@ -85,7 +85,7 @@ This flag indicates that the GPU doesn’t support updating page table entries o
 
 ### -field LargePageSupported
 
-When set to 1, all levels of page tables, except the leaf one, support large pages (<b>LargePage</b> bit in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_dxgk_pte">DXGK_PTE</a>).
+When set to 1, all levels of page tables, except the leaf one, support large pages (<b>LargePage</b> bit in <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_dxgk_pte">DXGK_PTE</a>).
 
 ### -field DualPteSupported
 
@@ -113,7 +113,7 @@ The value of the structure expressed as an integer.
 
 ### -field PageTableUpdateMode
 
-Defines the type of addresses which are used in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxgkddiupdatepagetable">DxgkDdiUpdatePageTable</a> operations. When <b>DXGK_PAGETABLEUPDATE_GPU_VIRTUAL</b> is set, all paging operation will occur in the virtual address space of the system context. When page directories are located in a local GPU memory segment, the update mode cannot be set to <b>DXGK_PAGETABLEUPDATE_CPU_VIRTUAL</b>.
+Defines the type of addresses which are used in <a href="/windows-hardware/drivers/display/dxgkddiupdatepagetable">DxgkDdiUpdatePageTable</a> operations. When <b>DXGK_PAGETABLEUPDATE_GPU_VIRTUAL</b> is set, all paging operation will occur in the virtual address space of the system context. When page directories are located in a local GPU memory segment, the update mode cannot be set to <b>DXGK_PAGETABLEUPDATE_CPU_VIRTUAL</b>.
 
 ### -field VirtualAddressBitCount
 
@@ -127,7 +127,7 @@ The size of a leaf page table when 64KB pages are used. The size must be a multi
 
 The number of page table levels supported. The minimum value is 2 (defined as <b>DXGK_MIN_PAGE_TABLE_LEVEL_COUNT</b>). The maximum value is <b>DXGK_MAX_PAGE_TABLE_LEVEL_COUNT</b>. 
 
-When <b>PageTableLevelCount</b> is 2, the root page table is dynamically resizable and the size of the page table is determined through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_getrootpagetablesize">DxgkDdiGetRootPageTableSize</a>. When <b>PageTableLevelCount</b> is greater than 2, all page table levels have a fixed size, which is described through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_page_table_level_desc">DXGK_PAGE_TABLE_LEVEL_DESC</a><b>::PageTableSizeInBytes</b>.
+When <b>PageTableLevelCount</b> is 2, the root page table is dynamically resizable and the size of the page table is determined through <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_getrootpagetablesize">DxgkDdiGetRootPageTableSize</a>. When <b>PageTableLevelCount</b> is greater than 2, all page table levels have a fixed size, which is described through <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_page_table_level_desc">DXGK_PAGE_TABLE_LEVEL_DESC</a><b>::PageTableSizeInBytes</b>.
 
 ### -field LegacyBehaviors
 
@@ -136,4 +136,3 @@ When <b>PageTableLevelCount</b> is 2, the root page table is dynamically resizab
 When set to 1, video memory manager sets <b>SourcePageTable</b> address in <b>TransferVirtual</b> during allocation eviction.
 
 ### -field LegacyBehaviors.Reserved
-

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>KsPinDataIntersectionEx</b> function handles the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataintersection">KSPROPERTY_PIN_DATAINTERSECTION</a> through a callback function.
+The <b>KsPinDataIntersectionEx</b> function handles the <a href="/windows-hardware/drivers/stream/ksproperty-pin-dataintersection">KSPROPERTY_PIN_DATAINTERSECTION</a> through a callback function.
 
 ## -parameters
 
@@ -83,7 +83,7 @@ Size of the descriptor structures, in bytes.
 ### -param IntersectHandler 
 
 [in, optional]
-Contains the optional minidriver-defined <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a> callback function to compare data ranges.
+Contains the optional minidriver-defined <a href="/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a> callback function to compare data ranges.
 
 ### -param HandlerContext 
 
@@ -124,5 +124,4 @@ These differences excepted, <b>KsPinDataIntersection</b> and <b>KsPinDataInterse
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff567185(v=vs.85)">KStrIntersectHandlerEx</a>

@@ -52,7 +52,7 @@ Writes one of setmarks, filemarks, short filemarks, or long filemarks to tape.
 
 ### -input-buffer
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_write_marks">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 
+The <a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_write_marks">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous.
 
@@ -78,13 +78,12 @@ The <b>Information</b> field is set to the number of bytes written. The <b>Statu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
+<a href="/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_write_marks">TAPE_WRITE_MARKS</a>
+<a href="/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_write_marks">TAPE_WRITE_MARKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWriteMarks</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniWriteMarks</a>

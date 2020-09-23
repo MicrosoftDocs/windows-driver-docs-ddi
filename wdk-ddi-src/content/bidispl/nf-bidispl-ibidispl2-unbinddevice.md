@@ -94,17 +94,16 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
+<a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2">IBidiSpl2</a>
+<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2">IBidiSpl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
-
+<a href="/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>

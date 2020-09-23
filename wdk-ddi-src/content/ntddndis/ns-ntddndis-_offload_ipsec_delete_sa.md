@@ -62,10 +62,9 @@ The handle for the SA to be deleted.
 ## -remarks
 
 The OFFLOAD_IPSEC_DELETE_SA structure is used with the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg155485(v=winembedded.80)">
+    <a href="/previous-versions/windows/embedded/gg155485(v=winembedded.80)">
     OID_TCP_TASK_IPSEC_DELETE_SA</a> OID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a>
-
+<a href="/previous-versions/windows/embedded/gg155485(v=winembedded.80)">OID_TCP_TASK_IPSEC_DELETE_SA</a>

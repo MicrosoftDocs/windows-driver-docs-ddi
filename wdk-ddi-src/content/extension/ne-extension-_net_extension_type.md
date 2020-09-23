@@ -1,11 +1,9 @@
 ---
 UID: NE:extension._NET_EXTENSION_TYPE
 title: NET_EXTENSION_TYPE (extension.h)
-author: windows-driver-content
 description: The NET_EXTENSION_TYPE enumeration specifies the type of extension that a client driver is querying.
 tech.root: netvista
 ms.assetid: 92541d1b-82e8-4717-9733-3e0e562a9d09
-ms.author: windowsdriverdev
 ms.date: 09/23/2019
 keywords: ["NET_EXTENSION_TYPE enumeration"]
 ms.keywords: NET_EXTENSION_TYPE, NET_EXTENSION_TYPE,
@@ -61,11 +59,10 @@ Client drivers pass this enumeration as a value to [**NET_EXTENSION_QUERY_INIT**
 
 ## -see-also
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [**NET_PACKET**](../packet/ns-packet-_net_packet.md)
 
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NET_EXTENSION_QUERY_INIT**](../netadapterpacket/nf-netadapterpacket-net_extension_query_init.md)
-

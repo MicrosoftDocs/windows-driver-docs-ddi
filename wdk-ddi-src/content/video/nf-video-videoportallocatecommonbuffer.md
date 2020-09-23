@@ -58,7 +58,7 @@ Pointer to the miniport driver's device extension.
 ### -param VpDmaAdapter 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
+Pointer to the <a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a previous call to <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
 
 ### -param DesiredLength 
 
@@ -73,7 +73,7 @@ Pointer to a memory location that receives the logical address to be used by the
 ### -param CacheEnabled 
 
 [in]
-Specifies whether the allocated memory can be cached.  For more information, see the description of the <i>CacheEnabled</i> parameter for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>.
+Specifies whether the allocated memory can be cached.  For more information, see the description of the <i>CacheEnabled</i> parameter for <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>.
 
 ### -param Reserved 
 
@@ -86,21 +86,20 @@ Is currently ignored by the video port driver; should be set to <b>NULL</b>.
 
 ## -remarks
 
-When the buffer is no longer needed, the video miniport driver should release it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>.
+When the buffer is no longer needed, the video miniport driver should release it by calling <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a>
+<a href="/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportreleasecommonbuffer">VideoPortReleaseCommonBuffer</a>

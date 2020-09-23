@@ -41,7 +41,7 @@ api_name:
  - RILCDMAAVOIDANCEREQUESTYPE
 ---
 
-# RILCDMAAVOIDANCEREQUESTYPE enumeration
+# RILCDMAAVOIDANCEREQUESTYPE enumeration (rilapitypes.h)
 
 
 ## -description

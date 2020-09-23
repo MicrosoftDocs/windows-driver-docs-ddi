@@ -109,11 +109,10 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
 
 This method is only available in kernel-mode debugging.
 
 The nature of the data read from the bus is system, bus, and slot dependent.
-

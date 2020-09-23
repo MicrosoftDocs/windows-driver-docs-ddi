@@ -1,11 +1,9 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_UNINITIALIZE
 title: _WHEA_ERROR_SOURCE_UNINITIALIZE
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 4139dad8-6a00-44b0-8b2f-1bcc354169f1
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_UNINITIALIZE callback function"]
 req.header: ntddk.h

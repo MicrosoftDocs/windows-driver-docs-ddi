@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a>.
+The output buffer for the StorageDeviceIoCapabilityProperty as defined in <a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a>.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ The logical unit number (LUN) max outstanding I/O count.
 ### -field AdapterMaxIoCount
 
 The adapter max outstanding I/O count.
-

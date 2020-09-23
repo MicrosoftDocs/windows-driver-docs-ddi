@@ -43,7 +43,7 @@ api_name:
  - RILIMSHANDOVERATTEMPT
 ---
 
-# RILIMSHANDOVERATTEMPT structure
+# RILIMSHANDOVERATTEMPT structure (rilapitypes.h)
 
 
 ## -description

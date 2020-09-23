@@ -60,7 +60,7 @@ The node type as the BDA template topology identifies it. The BDA node-type iden
 
 ### -field guidFunction
 
-GUID that describes the node's function. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/bda-node-category-guids">BDA Node Category GUIDs</a> for a list of these GUIDs.
+GUID that describes the node's function. See <a href="/windows-hardware/drivers/stream/bda-node-category-guids">BDA Node Category GUIDs</a> for a list of these GUIDs.
 
 ### -field guidName
 
@@ -68,9 +68,8 @@ GUID that can be used to store a string containing the name of the node. Applica
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/bda-node-category-guids">BDA Node Category GUIDs</a>
+<a href="/windows-hardware/drivers/stream/bda-node-category-guids">BDA Node Category GUIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksnode_descriptor">KSNODE_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksnode_descriptor">KSNODE_DESCRIPTOR</a>

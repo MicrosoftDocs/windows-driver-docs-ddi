@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The GetBindingSupport_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a> WMI method to the WMI client.
+The GetBindingSupport_OUT structure is used to report the output parameter data of the <a href="/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a> WMI method to the WMI client.
 
 ## -struct-fields
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ### -field TotalEntryCount
 
@@ -68,13 +68,12 @@ Indicates the total number of persistent bindings retrieved by the GetPersistent
 
 ### -field Bindings
 
-Contains an array of structures of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry2">HBAFCPBindingEntry2</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers.
+Contains an array of structures of type <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry2">HBAFCPBindingEntry2</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers.
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the GetPersistentBinding2_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetPersistentBinding2_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a>
-
+<a href="/windows-hardware/drivers/storage/getpersistentbinding2">GetPersistentBinding2</a>

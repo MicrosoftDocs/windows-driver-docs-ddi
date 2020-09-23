@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>VideoPortAllocateBuffer</b> function is <b>obsolete</b> in Windows 2000 and later. In its place, video miniport drivers should instead use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatepool">VideoPortAllocatePool</a>. 
+The <b>VideoPortAllocateBuffer</b> function is <b>obsolete</b> in Windows 2000 and later. In its place, video miniport drivers should instead use <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportallocatepool">VideoPortAllocatePool</a>. 
 
 <b>VideoPortAllocateBuffer</b> allocates a buffer of paged pool memory.
 
@@ -77,5 +77,4 @@ A miniport driver can use the return value of this function to determine whether
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportreleasebuffer">VideoPortReleaseBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportreleasebuffer">VideoPortReleaseBuffer</a>

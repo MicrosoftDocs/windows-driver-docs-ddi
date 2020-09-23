@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>REG_CREATE_KEY_INFORMATION</b> structure contains information that a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can use when a registry key that is being created.
-<div class="alert"><b>Note</b>  Starting with Windows 7, the V1 version of this structure, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>, is used instead.</div><div> </div>
+The <b>REG_CREATE_KEY_INFORMATION</b> structure contains information that a driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can use when a registry key that is being created.
+<div class="alert"><b>Note</b>  Starting with Windows 7, the V1 version of this structure, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>, is used instead.</div><div> </div>
 
 ## -struct-fields
 
 ### -field CompleteName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path of the new registry key. The path can be absolute or relative. If the path is absolute, this structure contains a fully qualified path that starts with the "\\" character. For an absolute path, the <b>RootObject</b> member specifies the <b>\REGISTRY</b> key, which is the root directory of the registry tree. If the path is relative, the path starts with a character other than "\\", and is relative to the key that is specified by the <i>RootObject</i> member.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path of the new registry key. The path can be absolute or relative. If the path is absolute, this structure contains a fully qualified path that starts with the "\\" character. For an absolute path, the <b>RootObject</b> member specifies the <b>\REGISTRY</b> key, which is the root directory of the registry tree. If the path is relative, the path starts with a character other than "\\", and is relative to the key that is specified by the <i>RootObject</i> member.
 
 ### -field RootObject
 
@@ -69,15 +69,15 @@ The <b>ObjectType</b> member is reserved for internal use. Drivers must not acce
 
 ### -field CreateOptions
 
-A bitwise OR of flags. For more information about these flags, see the <i>CreateOptions</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine. This member is defined starting with Windows Vista.
+A bitwise OR of flags. For more information about these flags, see the <i>CreateOptions</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine. This member is defined starting with Windows Vista.
 
 ### -field Class
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the key's object class. For more information about this member, see the <i>Class</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine. This member is defined starting with Windows Vista.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the key's object class. For more information about this member, see the <i>Class</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine. This member is defined starting with Windows Vista.
 
 ### -field SecurityDescriptor
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains security information for the key object. This member is defined starting with Windows Vista.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains security information for the key object. This member is defined starting with Windows Vista.
 
 ### -field SecurityQualityOfService
 
@@ -93,7 +93,7 @@ An access mask that indicates the access rights that have been granted to the th
 
 ### -field Disposition
 
-A value that indicates whether the registry key was created. For more information about this member, see the <i>Disposition</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine and the following Remarks section. This member is defined starting with Windows Vista.
+A value that indicates whether the registry key was created. For more information about this member, see the <i>Disposition</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> routine and the following Remarks section. This member is defined starting with Windows Vista.
 
 ### -field ResultObject
 
@@ -101,11 +101,11 @@ A pointer to a location that receives the address of the key object that represe
 
 ### -field CallContext
 
-Optional driver-defined context information that the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can supply. This member is defined starting with Windows Vista.
+Optional driver-defined context information that the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can supply. This member is defined starting with Windows Vista.
 
 ### -field RootObjectContext
 
-A pointer to a driver-defined context information that the driver has associated with the root of the path for the registry object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
+A pointer to a driver-defined context information that the driver has associated with the root of the path for the registry object by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-cmsetcallbackobjectcontext">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
 
 ### -field Transaction
 
@@ -113,39 +113,38 @@ A pointer to a transaction object that the operation is attempted on. If this me
 
 ### -field Reserved
 
-Starting with Windows Vista, if this member is 1, then it is safe to cast this structure to type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>, which contains additional parameters.
+Starting with Windows Vista, if this member is 1, then it is safe to cast this structure to type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>, which contains additional parameters.
 
 In versions of Windows before Windows Vista, this member is always 0.
 
 ## -remarks
 
-The configuration manager passes this structure to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine every time a thread attempts to create a key—for example, when a user-mode thread calls <b>RegCreateKey</b> or <b>RegCreateKeyEx</b> or when a driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
+The configuration manager passes this structure to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine every time a thread attempts to create a key—for example, when a user-mode thread calls <b>RegCreateKey</b> or <b>RegCreateKeyEx</b> or when a driver calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>.
 
 If the driver's <i>RegistryCallback</i> routine returns STATUS_CALLBACK_BYPASS for a <b>RegNtPreCreateKeyEx</b> notification, the driver must supply the <b>GrantedAccess</b>, <b>Disposition</b>, and <b>ResultObject</b> values.
 
-For more information about registry filtering operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
+For more information about registry filtering operations, see <a href="/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information">REG_POST_OPERATION_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information">REG_POST_OPERATION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>

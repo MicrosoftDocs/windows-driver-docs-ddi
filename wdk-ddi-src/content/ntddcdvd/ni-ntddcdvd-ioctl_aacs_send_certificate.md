@@ -52,7 +52,7 @@ Sends the host certificate to the logical unit.
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains host certificate of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_send_certificate">AACS_SEND_CERTIFICATE</a>.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains host certificate of type <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_send_certificate">AACS_SEND_CERTIFICATE</a>.
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(AACS_SEND_CERTIFICATE).
 
@@ -79,4 +79,3 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 ## -remarks
 
 The IOCTL_AACS_SEND_CERTIFICATE request corresponds to the step in the Advanced Access Content System (AACS) authentication algorithm (AACS-Auth) in which the host sends its certificate and nonce to the drive. For a complete description of AACS-Auth, see the <i>Advanced Access Content System, Introduction and Common Cryptographic Elements</i> specification that is published by Advanced Access Content System Licensing Administrator (AACS LA).
-

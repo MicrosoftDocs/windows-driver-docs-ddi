@@ -297,12 +297,11 @@ To register for volume event notification, applications must call the Microsoft 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotification">IoUnregisterPlugPlayNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iounregisterplugplaynotification">IoUnregisterPlugPlayNotification</a>
  
 
  
-

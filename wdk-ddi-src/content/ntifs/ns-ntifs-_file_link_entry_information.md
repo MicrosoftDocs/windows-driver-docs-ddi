@@ -72,5 +72,4 @@ The name of the link.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_links_information">FILE_LINKS_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_links_information">FILE_LINKS_INFORMATION</a>

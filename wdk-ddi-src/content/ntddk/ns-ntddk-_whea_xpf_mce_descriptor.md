@@ -64,29 +64,24 @@ A Boolean value that indicates if the error source is enabled.
 
 ### -field NumberOfBanks
 
-The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures contained in the <b>Banks</b> member.
+The number of <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures contained in the <b>Banks</b> member.
 
 ### -field Flags
 
 An XPF_MCE_FLAGS union that indicates which of the members of the WHEA_XPF_MCE_DESCRIPTOR structure can be written to by the operating system. The XPF_MCE_FLAGS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _XPF_MCE_FLAGS {
+
+```
+typedef union _XPF_MCE_FLAGS {
   struct {
     UCHAR  MCG_CapabilityRW:1;
     UCHAR  MCG_GlobalControlRW:1;
     UCHAR  Reserved:30;
   };
   UCHAR  AsULONG;
-} XPF_MCE_FLAGS, *PXPF_MCE_FLAGS;</pre>
-</td>
-</tr>
-</table></span></div>
+} XPF_MCE_FLAGS, *PXPF_MCE_FLAGS;
+```
+
 
 
 
@@ -123,17 +118,16 @@ The contents of the processor's IA32_MCG_CTL model-specific register. This regis
 
 ### -field Banks
 
-An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
+An array of <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a> structures that describe the banks of machine check registers.
 
 ## -remarks
 
-A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A WHEA_XPF_MCE_DESCRIPTOR structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor">WHEA_XPF_MC_BANK_DESCRIPTOR</a>

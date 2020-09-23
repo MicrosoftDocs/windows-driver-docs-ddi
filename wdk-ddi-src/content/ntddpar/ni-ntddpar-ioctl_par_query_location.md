@@ -47,7 +47,7 @@ api_name:
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -57,7 +57,7 @@ The IOCTL_PAR_QUERY_LOCATION request returns the "LPT<i>n</i>" or "LPT<i>n.m</i>
 
 
 <dl>
-<dt><a id="For_more_information__see_Device_Stacks_for_ParallelPorts_and_Devices_and_Parallel_Device_Interfaces__Internal_Names__and_Symbolic_Links."></a><a id="for_more_information__see_device_stacks_for_parallelports_and_devices_and_parallel_device_interfaces__internal_names__and_symbolic_links."></a><a id="FOR_MORE_INFORMATION__SEE_DEVICE_STACKS_FOR_PARALLELPORTS_AND_DEVICES_AND_PARALLEL_DEVICE_INTERFACES__INTERNAL_NAMES__AND_SYMBOLIC_LINKS."></a>For more information, see <a href="https://docs.microsoft.com/previous-versions/ff543949(v=vs.85)">Device Stacks for ParallelPorts and Devices</a> and <a href="https://docs.microsoft.com/previous-versions/ff544284(v=vs.85)">Parallel Device Interfaces, Internal Names, and Symbolic Links</a>.</dt>
+<dt><a id="For_more_information__see_Device_Stacks_for_ParallelPorts_and_Devices_and_Parallel_Device_Interfaces__Internal_Names__and_Symbolic_Links."></a><a id="for_more_information__see_device_stacks_for_parallelports_and_devices_and_parallel_device_interfaces__internal_names__and_symbolic_links."></a><a id="FOR_MORE_INFORMATION__SEE_DEVICE_STACKS_FOR_PARALLELPORTS_AND_DEVICES_AND_PARALLEL_DEVICE_INTERFACES__INTERNAL_NAMES__AND_SYMBOLIC_LINKS."></a>For more information, see <a href="/previous-versions/ff543949(v=vs.85)">Device Stacks for ParallelPorts and Devices</a> and <a href="/previous-versions/ff544284(v=vs.85)">Parallel Device Interfaces, Internal Names, and Symbolic Links</a>.</dt>
 <dd></dd>
 </dl>
 
@@ -99,4 +99,3 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than siz
 ## -see-also
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
-

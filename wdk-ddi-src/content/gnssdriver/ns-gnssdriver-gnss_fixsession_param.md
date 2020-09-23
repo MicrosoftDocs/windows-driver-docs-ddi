@@ -96,19 +96,19 @@ This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 ### -field SingleShotParam
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_singleshot_param">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
+The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_singleshot_param">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
 
 ### -field DistanceParam
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_distancetracking_param">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_distancetracking_param">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
 
 ### -field ContinuousParam
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_continuoustracking_param">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
+The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_continuoustracking_param">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
 
 ### -field LkgFixParam
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_lkgfix_param">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
+The <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_lkgfix_param">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
 
 ### -field UnusedParam
 
@@ -131,4 +131,3 @@ Padding buffer.
 ## -remarks
 
 The fix session parameters are different for different types of sessions. This structure contains a common set of parameters applicable for all fix sessions, followed by an overloaded structure (union) for each fix session type. The GNSS driver must use the appropriate structure from the union depending on the session type.
-

@@ -52,7 +52,6 @@ The **IBidiSpl** interface allows an application or other objects to send a sing
 
 ## -see-also
 
-[Bidirectional Communication Schema](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema)
+[Bidirectional Communication Schema](/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-[Print Spooler Components](https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components)
-
+[Print Spooler Components](/windows-hardware/drivers/print/print-spooler-components)

@@ -43,7 +43,7 @@ api_name:
  - PRI_RESERVATION_LIST
 ---
 
-# PRI_RESERVATION_LIST structure
+# PRI_RESERVATION_LIST structure (storport.h)
 
 
 ## -description
@@ -68,9 +68,8 @@ An array of reservation descriptors.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
+The <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>

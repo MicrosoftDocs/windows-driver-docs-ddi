@@ -58,7 +58,7 @@ A WDFDEVICE handle to the framework device object that represents the sensor.
 ### -param pSensorAttributes 
 
 [in]
-A reference to <a href="https://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>.
+A reference to <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>.
 
 ### -param pSensor 
 
@@ -98,9 +98,8 @@ The sensors class extension writes a set of properties for each sensor when Sens
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/enumeration-properties">Enumeration properties</a>
+<a href="/windows-hardware/drivers/sensors/enumeration-properties">Enumeration properties</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>

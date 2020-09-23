@@ -54,7 +54,7 @@ The <b>HidRegisterMinidriver</b> routine is called by HID minidrivers, during th
 ### -param MinidriverRegistration 
 
 [in]
-Pointer to a caller-allocated buffer that contains an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a> structure for the minidriver.
+Pointer to a caller-allocated buffer that contains an initialized <a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a> structure for the minidriver.
 
 ## -returns
 
@@ -102,11 +102,10 @@ Indicates that the HID revision number provided in <i>MinidriverRegistration-></
 
 ## -remarks
 
-Before calling this routine, HID minidrivers must initialize all members of the HID_MINIDRIVER_REGISTRATION structure that is provided at <i>MinidriverRegistration</i>. For information about these members, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a>.
+Before calling this routine, HID minidrivers must initialize all members of the HID_MINIDRIVER_REGISTRATION structure that is provided at <i>MinidriverRegistration</i>. For information about these members, see <a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a>.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a>
-
+<a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_minidriver_registration">HID_MINIDRIVER_REGISTRATION</a>

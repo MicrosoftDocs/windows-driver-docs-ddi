@@ -49,8 +49,8 @@ req.typenames: MARK_HANDLE_INFO32, *PMARK_HANDLE_INFO32
 
 Contains information that is used to mark a specified file or directory, and its update sequence 
     number (USN) change journal record with data about changes. This is only defined for 64-bit code and is used to 
-    interpret input data formatted as a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure sent from 32-bit 
-    code. It is used with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> 
+    interpret input data formatted as a <a href="/windows/win32/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure sent from 32-bit 
+    code. It is used with the <a href="/windows/win32/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> 
     control code.
 
 
@@ -96,7 +96,7 @@ A typical use is when Remote Storage moves data from external to local storage. 
          <b>USN_REASON_DATA_OVERWRITE</b> flag to a USN record. However, the data has not changed 
          from the user point of view. By noting <b>USN_SOURCE_DATA_MANAGEMENT</b> in the 
          <b>SourceInfo</b> member of the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
          determine that although a write operation is performed on the item, data has not changed.
 
 </td>
@@ -163,7 +163,7 @@ A typical use is when Remote Storage moves data from external to local storage. 
          <b>USN_REASON_DATA_OVERWRITE</b> flag to a USN record. However, the data has not changed 
          from the user point of view. By noting <b>USN_SOURCE_DATA_MANAGEMENT</b> in the 
          <b>SourceInfo</b> member of the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
          determine that although a write operation is performed on the item, data has not changed.
 
 </td>
@@ -241,7 +241,7 @@ A typical use is when Remote Storage moves data from external to local storage. 
          <b>USN_REASON_DATA_OVERWRITE</b> flag to a USN record. However, the data has not changed 
          from the user point of view. By noting <b>USN_SOURCE_DATA_MANAGEMENT</b> in the 
          <b>SourceInfo</b> member of the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
          determine that although a write operation is performed on the item, data has not changed.
 
 </td>
@@ -308,7 +308,7 @@ A typical use is when Remote Storage moves data from external to local storage. 
          <b>USN_REASON_DATA_OVERWRITE</b> flag to a USN record. However, the data has not changed 
          from the user point of view. By noting <b>USN_SOURCE_DATA_MANAGEMENT</b> in the 
          <b>SourceInfo</b> member of the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a> structure that holds the record, you can 
          determine that although a write operation is performed on the item, data has not changed.
 
 </td>
@@ -354,7 +354,7 @@ The volume handle to the volume where the file or directory resides. For more in
 This handle is required to check the privileges for this operation.
 
 The caller must have the <b>SE_MANAGE_VOLUME_NAME</b> privilege. For more information, 
-        see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/privileges">Privileges</a>.
+        see <a href="/windows-hardware/drivers/kernel/privileges">Privileges</a>.
 
 
 ### -field HandleInfo
@@ -408,7 +408,7 @@ The file is marked as unable to be defragmented until the handle is closed.
 </td>
 <td width="60%">
 The file is marked for real-time read behavior regardless of the actual file type. Files marked with 
-         this flag must be opened for <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">unbuffered I/O</a>.
+         this flag must be opened for <a href="/windows/desktop/FileIO/file-buffering">unbuffered I/O</a>.
 
 </td>
 </tr>
@@ -422,7 +422,7 @@ The file is marked for real-time read behavior regardless of the actual file typ
 The file previously marked for real-time read behavior using the 
          <b>MARK_HANDLE_REALTIME</b> flag can be unmarked using this flag, removing the real-time 
          behavior. Files marked with this flag must be opened for 
-         <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">unbuffered I/O</a>.
+         <a href="/windows/desktop/FileIO/file-buffering">unbuffered I/O</a>.
 
 </td>
 </tr>
@@ -434,7 +434,7 @@ The file previously marked for real-time read behavior using the
 
 
 
-When running on a 64-bit system, file system minifilters must interpret the input data sent by a 32-bit process in the system buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> control code as a <b>MARK_HANDLE_INFO32</b> structure. A minifilter may check the process word length by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltis32bitprocess">FltIs32bitProcess</a>.
+When running on a 64-bit system, file system minifilters must interpret the input data sent by a 32-bit process in the system buffer for the <a href="/windows/win32/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a> control code as a <b>MARK_HANDLE_INFO32</b> structure. A minifilter may check the process word length by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltis32bitprocess">FltIs32bitProcess</a>.
 
 
 
@@ -444,16 +444,15 @@ When running on a 64-bit system, file system minifilters must interpret the inpu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a>
+<a href="/windows/win32/api/winioctl/ni-winioctl-fsctl_mark_handle">FSCTL_MARK_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltis32bitprocess">FltIs32bitProcess</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltis32bitprocess">FltIs32bitProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a>
  
 
  
-

@@ -53,12 +53,12 @@ The <b>SdBusSubmitRequestAsync</b> routine sends an asynchronous Secure Digital 
 ### -param InterfaceContext 
 
 [in]
-Contains the context information returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine in the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a> structure.
+Contains the context information returned by the <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine in the <b>Context</b> member of the <a href="/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a> structure.
 
 ### -param Packet 
 
 [in]
-Pointer to a caller-supplied structure of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a> that describes the request.
+Pointer to a caller-supplied structure of type <a href="/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a> that describes the request.
 
 ### -param Irp 
 
@@ -68,7 +68,7 @@ Points to a caller-supplied IRP that the SD library uses to transmit the request
 ### -param CompletionRoutine 
 
 [in]
-Pointer to a completion routine of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> that <b>SdBusSubmitRequestAsync</b> registers for the IRP specified in the <i>Irp </i>parameter.
+Pointer to a completion routine of type <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine">IoCompletion</a> that <b>SdBusSubmitRequestAsync</b> registers for the IRP specified in the <i>Irp </i>parameter.
 
 ### -param UserContext 
 
@@ -83,19 +83,18 @@ Returns STATUS_SUCCESS or STATUS_PENDING if the operation succeeds, or the appro
 
 Callers of <b>SdBusSubmitRequestAsync</b> must be running at IRQL <= DISPATCH_LEVEL.
 
-Callers of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a> must be running at IRQL < DISPATCH_LEVEL.
+Callers of <a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a> must be running at IRQL < DISPATCH_LEVEL.
 
 This request is handled asynchronously and might return STATUS_PENDING.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a>
+<a href="/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a>
+<a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbussubmitrequest">SdBusSubmitRequest</a>

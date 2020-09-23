@@ -62,11 +62,11 @@ Specifies the stop position as a 64-bit value.
 
 ### -field CurrentFlags
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ks_seeking_flags">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Current</b> parameter.
+A structure of type <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ks_seeking_flags">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Current</b> parameter.
 
 ### -field StopFlags
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ks_seeking_flags">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Stop</b> parameter.
+A structure of type <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ks_seeking_flags">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Stop</b> parameter.
 
 ## -remarks
 
@@ -74,5 +74,4 @@ The KSPROPERTY_POSITIONS structure is used with positioning properties in the KS
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-mediaseeking-positions">KSPROPERTY_MEDIASEEKING_POSITIONS</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-mediaseeking-positions">KSPROPERTY_MEDIASEEKING_POSITIONS</a>

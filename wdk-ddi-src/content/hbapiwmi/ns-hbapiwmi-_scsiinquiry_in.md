@@ -45,12 +45,12 @@ api_name:
  - ScsiInquiry_IN
 ---
 
-# _ScsiInquiry_IN structure
+# _ScsiInquiry_IN structure (hbapiwmi.h)
 
 
 ## -description
 
-The ScsiInquiry_IN structure is used by a miniport driver to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/scsiinquiry">ScsiInquiry</a> WMI method.
+The ScsiInquiry_IN structure is used by a miniport driver to deliver input parameter data to the <a href="/windows-hardware/drivers/storage/scsiinquiry">ScsiInquiry</a> WMI method.
 
 ## -struct-fields
 
@@ -72,9 +72,8 @@ Indicates the logical unit number of the logical unit that will receive the SCSI
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the ScsiInquiry_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the ScsiInquiry_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/scsiinquiry">ScsiInquiry</a>
-
+<a href="/windows-hardware/drivers/storage/scsiinquiry">ScsiInquiry</a>

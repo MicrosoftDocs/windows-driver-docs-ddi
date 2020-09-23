@@ -46,18 +46,14 @@ api_name:
 
 ## -description
 
-The <code>IResourceList</code> interface provides an abstraction of a configuration resource list, which is a list of the system hardware resources that the Plug and Play manager assigns to a device at startup time. The resources in the list can include interrupt vectors, DMA channels, I/O port addresses, and blocks of bus-relative memory addresses. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/starting-a-device-in-a-function-driver">Starting a Device in a Function Driver</a>.
+The <code>IResourceList</code> interface provides an abstraction of a configuration resource list, which is a list of the system hardware resources that the Plug and Play manager assigns to a device at startup time. The resources in the list can include interrupt vectors, DMA channels, I/O port addresses, and blocks of bus-relative memory addresses. For more information, see <a href="/windows-hardware/drivers/kernel/starting-a-device-in-a-function-driver">Starting a Device in a Function Driver</a>.
 
-The PortCls system driver implements the <code>IResourceList</code> interface and exposes it to adapter drivers. When PortCls calls an adapter driver's device-startup routine (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/starting-a-device">Starting a Device</a>), it passes an <code>IResourceList</code> object as one of the call parameters. 
+The PortCls system driver implements the <code>IResourceList</code> interface and exposes it to adapter drivers. When PortCls calls an adapter driver's device-startup routine (see <a href="/windows-hardware/drivers/kernel/starting-a-device">Starting a Device</a>), it passes an <code>IResourceList</code> object as one of the call parameters. 
 
 The header file portcls.h defines set of macros to simplify the handling of resource list objects. For each type of resource, the following four macros are defined:
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG
+
+```
+ULONG
   NumberOfpluralresourcename(
     void
  ); 
@@ -76,10 +72,9 @@ NTSTATUS
   AddsingularresourcenameFromParent(
     PRESOURCELIST  Parent,
     ULONG  Index
-    );</pre>
-</td>
-</tr>
-</table></span></div>The following table shows the resource types for which these macros are defined.
+    );
+```
+The following table shows the resource types for which these macros are defined.
 <table>
 <tr>
 <th>Resource Type Name</th>
@@ -214,7 +209,7 @@ SubAllocateFroms
 </tr>
 </table> 
 
-For the meanings of the resource type names in the left column above, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For the meanings of the resource type names in the left column above, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 The following table explicitly lists the four macros that portcls.h defines for each of the nine resource types. To the right of each macro is the equivalent call to an <code>IResourceList</code> method.
 <table>
@@ -583,4 +578,3 @@ AddEntryFromParent((p),CmResourceTypeSubAllocateFrom,(n))
 </td>
 </tr>
 </table>
-

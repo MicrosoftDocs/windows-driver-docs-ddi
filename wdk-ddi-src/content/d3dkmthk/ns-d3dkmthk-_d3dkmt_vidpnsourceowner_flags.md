@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-Specifies output duplication options for use with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner1">D3DKMTSetVidPnSourceOwner1</a> function.
+Specifies output duplication options for use with the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner1">D3DKMTSetVidPnSourceOwner1</a> function.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ Specifies the number of output duplication paths on the VidPN.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner1">D3DKMTSetVidPnSourceOwner1</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner1">D3DKMTSetVidPnSourceOwner1</a>

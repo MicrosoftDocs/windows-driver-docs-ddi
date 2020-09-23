@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: gpiobtn
+f1_keywords:
+ - hwnclx
+ - hwnclx/hwnclx
 ---
 
 # Hwnclx.h header
@@ -20,4 +23,4 @@ This header defines programming interfaces required to provide  hardware-agnosti
 
 For more information, see:
 
-- [Hardware notifications design guide](https://docs.microsoft.com/windows-hardware/drivers/gpiobtn)
+- [Hardware notifications design guide](/windows-hardware/drivers/gpiobtn)

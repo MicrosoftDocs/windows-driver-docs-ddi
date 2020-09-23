@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddk._MCG_CAP
 title: MCG_CAP
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: ce0130b9-d5aa-4f43-96c6-f639eed5805e
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["MCG_CAP structure"]
 ms.keywords: MCG_CAP, MCG_CAP, *PMCG_CAP,

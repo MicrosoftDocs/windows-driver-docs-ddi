@@ -116,5 +116,4 @@ If there is no intersection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspindataintersection">KsPinDataIntersection</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspindataintersection">KsPinDataIntersection</a>

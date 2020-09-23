@@ -1,11 +1,9 @@
 ---
 UID: NE:wditypes._WDI_SAE_STATUS
 title: WDI_SAE_STATUS
-author: windows-driver-content
 description: The WDI_SAE_STATUS enumeration defines SAE authentication failure error status codes.
 tech.root: netvista
 ms.assetid: 1c481f30-0f92-423c-9d72-730e24c880a4
-ms.author: windowsdriverdev
 ms.date: 02/14/2019
 keywords: ["WDI_SAE_STATUS enumeration"]
 ms.keywords: WDI_SAE_STATUS, WDI_SAE_STATUS,
@@ -134,13 +132,12 @@ The driver requests a new set of Confirm frame parameters to resend the Confirm 
 
 ## -remarks
 
-This enumeration is a value in both the [OID_WDI_SET_SAE_AUTH_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params) command and the [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed) indication.
+This enumeration is a value in both the [OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params) command and the [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed) indication.
 
 ## -see-also
 
-[WPA3-SAE Authentication](https://docs.microsoft.com/windows-hardware/drivers/network/wpa3-sae-authentication)
+[WPA3-SAE Authentication](/windows-hardware/drivers/network/wpa3-sae-authentication)
 
-[OID_WDI_SET_SAE_AUTH_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params)
+[OID_WDI_SET_SAE_AUTH_PARAMS](/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params)
 
-[NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed)
-
+[NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed)

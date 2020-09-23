@@ -8,7 +8,7 @@ ms.date: 07/19/2018
 keywords: ["NetDeviceOpenConfiguration function"]
 ms.keywords: NetDeviceOpenConfiguration
 req.header: netdevice.h
-req.include-header: netadaptercxstub.lib
+req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -74,5 +74,4 @@ As a result, WDF automatically deletes the configuration object when the device 
 
 ## -see-also
 
-[Accessing configuration information](https://docs.microsoft.com/windows-hardware/drivers/netcx/accessing-configuration-information)
-
+[Accessing configuration information](/windows-hardware/drivers/netcx/accessing-configuration-information)

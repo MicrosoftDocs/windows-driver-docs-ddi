@@ -41,7 +41,7 @@ api_name:
  - KStrDereferenceDeviceObject
 ---
 
-# PFNDEREFERENCEDEVICEOBJECT callback function
+# PFNDEREFERENCEDEVICEOBJECT callback function (ks.h)
 
 
 ## -description
@@ -57,7 +57,6 @@ Pointer to a device extension of the device's PDO.
 
 ## -remarks
 
-Minidrivers access this method through the **DereferenceDeviceObject** member of the [BUS_INTERFACE_REFERENCE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-bus_interface_reference) structure.
+Minidrivers access this method through the **DereferenceDeviceObject** member of the [BUS_INTERFACE_REFERENCE](./ns-ks-bus_interface_reference.md) structure.
 
 When the PDO's reference count is 0, it becomes eligible for removal. Note that this condition does not guarantee removal.
-

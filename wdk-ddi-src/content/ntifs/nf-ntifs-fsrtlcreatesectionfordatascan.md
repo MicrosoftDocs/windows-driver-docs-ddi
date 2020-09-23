@@ -73,7 +73,7 @@ File object for an open file.  The section object will be backed by the specifie
 ### -param DesiredAccess 
 
 [in]
-Specifies the desired access for the section object as one or more of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags. 
+Specifies the desired access for the section object as one or more of the following <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> flags. 
 
 <table>
 <tr>
@@ -116,7 +116,7 @@ SECTION_ALL_ACCESS
 
 </td>
 <td>
-All actions defined by the previous flags as well as that defined by STANDARD_RIGHTS_REQUIRED. (For more information about STANDARD_RIGHTS_REQUIRED, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.) 
+All actions defined by the previous flags as well as that defined by STANDARD_RIGHTS_REQUIRED. (For more information about STANDARD_RIGHTS_REQUIRED, see <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.) 
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
 ### -param ObjectAttributes 
 
 [in, optional]
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FsRtlCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+Pointer to an <a href="/windows/win32/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FsRtlCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 ### -param MaximumSize 
 
@@ -300,29 +300,28 @@ The caller did not have the required privilege to create a section object with t
 
 ## -remarks
 
-<div class="alert"><b>Important</b>  The <b>FsRtlCreateSectionForDataScan</b> routine should only be used in cases where a handle to the file object specified in the <i>FileObject</i> parameter has not yet been created (typically while processing a post-create operation). If the driver has a handle to the file object or can obtain a handle to the file object, the driver should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection">ZwCreateSection</a> routine instead.</div>
+<div class="alert"><b>Important</b>  The <b>FsRtlCreateSectionForDataScan</b> routine should only be used in cases where a handle to the file object specified in the <i>FileObject</i> parameter has not yet been created (typically while processing a post-create operation). If the driver has a handle to the file object or can obtain a handle to the file object, the driver should use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection">ZwCreateSection</a> routine instead.</div>
 <div> </div>
-Once the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> routine.
+Once the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> routine.
 
-For more information on creating mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/section-objects-and-views">Section Objects and Views</a>. Also see the documentation for the <b>CreateFileMapping</b> routine in the Microsoft Windows SDK.
+For more information on creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/kernel/section-objects-and-views">Section Objects and Views</a>. Also see the documentation for the <b>CreateFileMapping</b> routine in the Microsoft Windows SDK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpurgecachesection">CcPurgeCacheSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmforcesectionclosed">MmForceSectionClosed</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmforcesectionclosed">MmForceSectionClosed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection">ZwCreateSection</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatesection">ZwCreateSection</a>

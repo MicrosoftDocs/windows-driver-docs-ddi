@@ -43,7 +43,7 @@ api_name:
  - RILCALLMEDIAOFFERANSWER
 ---
 
-# RILCALLMEDIAOFFERANSWER structure
+# RILCALLMEDIAOFFERANSWER structure (rilapitypes.h)
 
 
 ## -description

@@ -53,7 +53,7 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 ## -returns
 
-**NET_BUFFER_LIST_GET_HASH_FUNCTION** returns the hash function used. For more information, see [RSS Hashing Functions](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-functions).
+**NET_BUFFER_LIST_GET_HASH_FUNCTION** returns the hash function used. For more information, see [RSS Hashing Functions](/windows-hardware/drivers/network/rss-hashing-functions).
 
 The hash function can be one of the following values:
 
@@ -66,9 +66,8 @@ The hash function can be one of the following values:
 
 A NIC (or its miniport driver) uses the receive side scaling (RSS) hashing function to calculate an RSS hash value.
 
-For more information about the hashing functions, see [RSS Hashing Functions](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-functions).
+For more information about the hashing functions, see [RSS Hashing Functions](/windows-hardware/drivers/network/rss-hashing-functions).
 
 ## -see-also
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
-

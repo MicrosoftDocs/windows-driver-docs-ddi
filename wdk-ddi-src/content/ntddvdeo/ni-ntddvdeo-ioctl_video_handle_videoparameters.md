@@ -46,13 +46,13 @@ api_name:
 
 ## -description
 
-Gets the capabilities of the device's television connector and/or copy protection hardware, or sets the desired functionality on the copy protection hardware. Adapters that support TV connectors should provide support for this modal IOCTL. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/tv-connector-and-copy-protection-support-in-video-miniport-drivers">TV Connector and Copy Protection Support in Video Miniport Drivers</a> for details.
+Gets the capabilities of the device's television connector and/or copy protection hardware, or sets the desired functionality on the copy protection hardware. Adapters that support TV connectors should provide support for this modal IOCTL. See <a href="/windows-hardware/drivers/display/tv-connector-and-copy-protection-support-in-video-miniport-drivers">TV Connector and Copy Protection Support in Video Miniport Drivers</a> for details.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a <a href="https://docs.microsoft.com/windows/desktop/api/tvout/ns-tvout-_videoparameters">VIDEOPARAMETERS</a> structure that describes the action to be performed by the miniport driver.
+The VRP <b>InputBuffer</b> contains a <a href="/windows/win32/api/tvout/ns-tvout-videoparameters">VIDEOPARAMETERS</a> structure that describes the action to be performed by the miniport driver.
 
 ### -input-buffer-length
 
@@ -68,13 +68,12 @@ The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBu
 
 ### -status-block
 
-If the miniport driver successfully gets or sets the requested information, it sets the <b>Information</b> member of the VRP's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> to <b>sizeof</b>(VIDEOPARAMETERS); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully gets or sets the requested information, it sets the <b>Information</b> member of the VRP's <a href="/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> to <b>sizeof</b>(VIDEOPARAMETERS); otherwise, the miniport driver sets this member to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tvout/ns-tvout-_videoparameters">VIDEOPARAMETERS</a>
-
+<a href="/windows/win32/api/tvout/ns-tvout-videoparameters">VIDEOPARAMETERS</a>

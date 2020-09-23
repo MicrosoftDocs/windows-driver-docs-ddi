@@ -43,7 +43,7 @@ api_name:
  - RILSENDDTMFPARAMS
 ---
 
-# RILSENDDTMFPARAMS structure
+# RILSENDDTMFPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

@@ -60,7 +60,7 @@ Specifies the engine process ID for the process that is to become the current pr
 
 ## -returns
 
-This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return other error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -106,9 +106,8 @@ No suitable candidate for the current thread could be found in the process.
 
 This method also changes the current thread, and may change the current target and current computer.
 
-If the process is changed, the callback <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-changeenginestate">IDebugEventCallbacks::ChangeEngineState</a> will be called with the DEBUG_CES_CURRENT_THREAD bit set.
+If the process is changed, the callback <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-changeenginestate">IDebugEventCallbacks::ChangeEngineState</a> will be called with the DEBUG_CES_CURRENT_THREAD bit set.
 
-<div class="alert"><b>Note</b>    In kernel-mode debugging, the current process is a virtual process, it is not a system process.  This method cannot be used to change between system processes in kernel-mode debugging.  However, the implicit process may be changed by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-setimplicitprocessdataoffset">SetImplicitProcessDataOffset</a>.</div>
+<div class="alert"><b>Note</b>    In kernel-mode debugging, the current process is a virtual process, it is not a system process.  This method cannot be used to change between system processes in kernel-mode debugging.  However, the implicit process may be changed by using <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-setimplicitprocessdataoffset">SetImplicitProcessDataOffset</a>.</div>
 <div> </div>
-For more information about processes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on monitoring events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.
-
+For more information about processes, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.  For details on monitoring events, see <a href="/windows-hardware/drivers/debugger/monitoring-events">Monitoring Events</a>.

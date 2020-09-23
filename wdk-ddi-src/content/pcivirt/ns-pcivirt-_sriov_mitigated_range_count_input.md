@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure is used as an input buffer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_query_mitigated_range_count">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a> request to determine the ranges of memory-mapped I/O space that must be mitigated.
+This structure is used as an input buffer to the <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_query_mitigated_range_count">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a> request to determine the ranges of memory-mapped I/O space that must be mitigated.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ typedef struct _SRIOV_MITIGATED_RANGE_COUNT_INPUT {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_query_mitigated_range_count">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a>
-
+<a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_query_mitigated_range_count">IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT</a>

@@ -11,7 +11,7 @@ ms.keywords: WcsSetUsePerUserProfiles, WcsSetUsePerUserProfiles function [Print 
 req.header: icm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -25,20 +25,24 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mscms.dll
-api_name:
-- WcsSetUsePerUserProfiles
 targetos: Windows
 req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mscms.dll
+api_name:
+ - WcsSetUsePerUserProfiles
+f1_keywords:
+ - WcsSetUsePerUserProfiles
+ - icm/WcsSetUsePerUserProfiles
 ---
 
 # WcsSetUsePerUserProfiles function
+
 
 ## -description
 
@@ -72,4 +76,4 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-[WcsGetUsePerUserProfiles](https://docs.microsoft.com/previous-versions/ff563734(v=vs.85))
+[WcsGetUsePerUserProfiles](/previous-versions/ff563734(v=vs.85))

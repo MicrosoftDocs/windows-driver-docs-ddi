@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <i>DxgkDdiStopDevice</i> function resets a display adapter and frees resources allocated during <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
+The <i>DxgkDdiStopDevice</i> function resets a display adapter and frees resources allocated during <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 ## -parameters
 
 ### -param MiniportDeviceContext 
 
 [in]
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 ## -returns
 
@@ -61,11 +61,10 @@ A handle to a context block associated with a display adapter. The display minip
 
 ## -remarks
 
-For more information on how this function is used in Plug and Play (PnP) scenarios starting in Windows 8, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/plug-and-play--pnp--start-and-stop-cases">Plug and Play (PnP) in WDDM 1.2 and later</a>.
+For more information on how this function is used in Plug and Play (PnP) scenarios starting in Windows 8, see <a href="/windows-hardware/drivers/display/plug-and-play--pnp--start-and-stop-cases">Plug and Play (PnP) in WDDM 1.2 and later</a>.
 
 The <i>DxgkDdiStopDevice</i> function should be made pageable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>

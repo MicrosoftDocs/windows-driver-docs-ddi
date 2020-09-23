@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPnpState</b> method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device.
 
@@ -55,7 +55,7 @@ The <b>SetPnpState</b> method turns on or off (or sets to the default state) the
 ### -param State 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
+A <a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
 
 ### -param Value 
 
@@ -101,20 +101,16 @@ Turn on the PnP property.
 
 ## -remarks
 
-Before the state of the PnP property that <b>SetPnpState</b> set can take effect, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-commitpnpstate">IWDFDevice::CommitPnpState</a> method.
+Before the state of the PnP property that <b>SetPnpState</b> set can take effect, the driver must call the <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-commitpnpstate">IWDFDevice::CommitPnpState</a> method.
 
 
 #### Examples
 
 The following code example shows how to indicate that a device failed as the result of a request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 CUmdfHidDevice::OnCompletion(
     __in IWDFIoRequest* WdfRequest,
     __in IWDFIoTarget* /* WdfTarget */,
@@ -148,24 +144,22 @@ CUmdfHidDevice::OnCompletion(
 
     // Send a new request.
     SendInterruptPipeRead();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-commitpnpstate">IWDFDevice::CommitPnpState</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-commitpnpstate">IWDFDevice::CommitPnpState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-getpnpstate">IWDFDevice::GetPnpState</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-getpnpstate">IWDFDevice::GetPnpState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wudfddi_types/ne-wudfddi_types-_wdf_pnp_state">WDF_PNP_STATE</a>

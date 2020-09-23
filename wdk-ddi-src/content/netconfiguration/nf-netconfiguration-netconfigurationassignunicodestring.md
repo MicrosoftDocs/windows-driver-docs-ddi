@@ -55,11 +55,11 @@ A handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
 
-A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name.
+A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name.
 
 ### -param Value
 
-A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the string to be assigned to the value name that *ValueName* specifies.
+A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains the string to be assigned to the value name that *ValueName* specifies.
 
 ## -returns
 
@@ -72,4 +72,3 @@ The client driver obtains a handle to a NETCONFIGURATION object by calling [NetA
 If an entry of the same name as *ValueName* already exists under the opened registry key, **NetConfigurationAssignUnicodeString** replaces its current value with the caller-supplied value. Otherwise, **NetConfigurationAssignUnicodeString** adds a new value entry with the given name and supplied value to the registry.
 
 ## -see-also
-

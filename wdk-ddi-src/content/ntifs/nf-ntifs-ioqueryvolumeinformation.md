@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IoQueryVolumeInformation</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>.
+The <b>IoQueryVolumeInformation</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryvolumeinformationfile">ZwQueryVolumeInformationFile</a>.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ Reserved.
 ### -param ReturnedLength
 
 Reserved.
-

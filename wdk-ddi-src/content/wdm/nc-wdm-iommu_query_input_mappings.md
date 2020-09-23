@@ -63,7 +63,7 @@ Attempts to find input mapping IDs which are valid for the given device and popu
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
 
 | Error code              | Description                                  |
 | ----------------------- | -------------------------------------------- |
@@ -101,4 +101,3 @@ If the buffer is of insufficient length, no IDs will be written and ReturnLength
 This routine is currently only supported on ARM64 systems.
 
 ## -see-also
-

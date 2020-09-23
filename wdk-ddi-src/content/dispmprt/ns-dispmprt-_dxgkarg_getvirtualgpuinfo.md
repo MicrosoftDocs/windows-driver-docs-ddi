@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETVIRTUALGPUINFO
 title: _DXGKARG_GETVIRTUALGPUINFO
-author: windows-driver-content
 description: Arguments used to get virtual GPU info.
 tech.root: display
 ms.assetid: e6b55c00-3abf-42fa-8dfc-8bd5e5731362
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_GETVIRTUALGPUINFO structure"]
 ms.prod: windows-hardware

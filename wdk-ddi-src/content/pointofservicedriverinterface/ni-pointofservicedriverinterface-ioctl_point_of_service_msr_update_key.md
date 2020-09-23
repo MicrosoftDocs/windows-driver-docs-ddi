@@ -52,7 +52,7 @@ This I/O control function sets a new encryption key.
 
 ### -input-buffer
 
-Pointer to the input buffer, a [MSR_UPDATE_KEY](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_msr_update_key) variable.
+Pointer to the input buffer, a [MSR_UPDATE_KEY](./ns-pointofservicedriverinterface-_msr_update_key.md) variable.
 
 ### -input-buffer-length
 
@@ -74,7 +74,6 @@ Not used with this operation; set to **0** (zero).
 
 Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
 
 ## -remarks
-

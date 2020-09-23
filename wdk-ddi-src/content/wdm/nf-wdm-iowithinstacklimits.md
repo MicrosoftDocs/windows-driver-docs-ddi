@@ -68,18 +68,17 @@ The size of the region.
 
 The <b>IoWithinStackLimits</b> routine considers all possible stack segments and the DPC stack, if necessary.
 
-<div class="alert"><b>Note</b>    For drivers that use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout">KeExpandKernelStackAndCallout</a>, <b>IoWithinStackLimits</b> considers only the current thread.</div>
+<div class="alert"><b>Note</b>    For drivers that use <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout">KeExpandKernelStackAndCallout</a>, <b>IoWithinStackLimits</b> considers only the current thread.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetinitialstack">IoGetInitialStack</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetinitialstack">IoGetInitialStack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetremainingstacksize">IoGetRemainingStackSize</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetremainingstacksize">IoGetRemainingStackSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetstacklimits">IoGetStackLimits</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetstacklimits">IoGetStackLimits</a>

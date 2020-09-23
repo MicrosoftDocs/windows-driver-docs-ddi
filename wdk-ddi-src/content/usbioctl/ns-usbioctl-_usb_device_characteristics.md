@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains information about the USB device’s characteristics, such as the maximum send and receive delays for any request.  This structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_device_characteristics">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a> request.
+Contains information about the USB device’s characteristics, such as the maximum send and receive delays for any request.  This structure is used in the <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_device_characteristics">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a> request.
 
 ## -struct-fields
 
@@ -81,5 +81,4 @@ Contains the maximum delay in milliseconds the host controller completes any req
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_device_characteristics">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a>
-
+<a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_device_characteristics">IOCTL_USB_GET_DEVICE_CHARACTERISTICS</a>

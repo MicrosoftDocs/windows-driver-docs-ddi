@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-This function is the extended version of the [StorPortFreeContiguousMemorySpecifyCache function](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreecontiguousmemoryspecifycache). It deallocates a range of noncached memory in the nonpaged portion of the system address space.
+This function is the extended version of the [StorPortFreeContiguousMemorySpecifyCache function](./nf-storport-storportfreecontiguousmemoryspecifycache.md). It deallocates a range of noncached memory in the nonpaged portion of the system address space.
 
 ## -parameters
 
@@ -60,12 +60,12 @@ The base virtual address to free.
 ### -param NumberOfBytes 
 
 [in]
-The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the [StorPortAllocateContiguousMemorySpecifyCacheNode](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode) routine was previously called.
+The number of bytes that are allocated to the request. This must be the same number that was supplied as a parameter when the [StorPortAllocateContiguousMemorySpecifyCacheNode](./nf-storport-storportallocatecontiguousmemoryspecifycachenode.md) routine was previously called.
 
 ### -param CacheType 
 
 [in]
-The cache type that is used in the call to the [StorPortAllocateContiguousMemorySpecifyCacheNode](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode) routine.
+The cache type that is used in the call to the [StorPortAllocateContiguousMemorySpecifyCacheNode](./nf-storport-storportallocatecontiguousmemoryspecifycachenode.md) routine.
 
 ## -returns
 
@@ -102,5 +102,4 @@ The operation was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatecontiguousmemoryspecifycachenode">StorPortAllocateContiguousMemorySpecifyCacheNode</a>

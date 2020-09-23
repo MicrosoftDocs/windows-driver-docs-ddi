@@ -45,7 +45,7 @@ api_name:
  - SYSTEM_POWER_STATE_CONTEXT
 ---
 
-# _SYSTEM_POWER_STATE_CONTEXT structure
+# _SYSTEM_POWER_STATE_CONTEXT structure (wdm.h)
 
 
 ## -description
@@ -68,7 +68,7 @@ Opaque member. Reserved for system use.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.TargetSystemState
 
-The target system power state of the previous <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-irps-for-the-system">system power IRP</a> that the driver received. This member is set to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a> enumeration value. Drivers should treat this member as read-only.
+The target system power state of the previous <a href="/windows-hardware/drivers/kernel/power-irps-for-the-system">system power IRP</a> that the driver received. This member is set to a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a> enumeration value. Drivers should treat this member as read-only.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EffectiveSystemState
 
@@ -104,15 +104,14 @@ Opaque member. Reserved for system use.
 
 ## -remarks
 
-Starting with Windows Vista, the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/i-o-stack-locations">I/O stack location</a> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-irps-for-the-system">system power IRP</a> contains a <b>SYSTEM_POWER_STATE_CONTEXT</b> structure. The <b>Power</b> member of the <b>IO_STACK_LOCATION</b> structure contains a <b>SystemPowerStateContext</b> member, which is a <b>SYSTEM_POWER_STATE_CONTEXT</b> structure. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>.
+Starting with Windows Vista, the <a href="/windows-hardware/drivers/kernel/i-o-stack-locations">I/O stack location</a> in a <a href="/windows-hardware/drivers/kernel/power-irps-for-the-system">system power IRP</a> contains a <b>SYSTEM_POWER_STATE_CONTEXT</b> structure. The <b>Power</b> member of the <b>IO_STACK_LOCATION</b> structure contains a <b>SystemPowerStateContext</b> member, which is a <b>SYSTEM_POWER_STATE_CONTEXT</b> structure. For more information, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>.
 
-The size of the <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is four bytes. This structure is divided into bit fields, most of which are opaque to drivers and reserved exclusively for use by the operating system. However, two of these bit fields, <b>TargetSystemState</b> and <b>EffectiveSystemState</b>, can be read by kernel-mode drivers to distinguish a fast startup from a wake-from-hibernation startup. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/distinguishing-fast-startup-from-wake-from-hibernation">Distinguishing Fast Startup from Wake-from-Hibernation</a>.
+The size of the <b>SYSTEM_POWER_STATE_CONTEXT</b> structure is four bytes. This structure is divided into bit fields, most of which are opaque to drivers and reserved exclusively for use by the operating system. However, two of these bit fields, <b>TargetSystemState</b> and <b>EffectiveSystemState</b>, can be read by kernel-mode drivers to distinguish a fast startup from a wake-from-hibernation startup. For more information, see <a href="/windows-hardware/drivers/kernel/distinguishing-fast-startup-from-wake-from-hibernation">Distinguishing Fast Startup from Wake-from-Hibernation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>

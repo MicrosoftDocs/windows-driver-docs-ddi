@@ -56,7 +56,7 @@ Indicates the importance of video memory resources  that the user-mode display d
 
 The allocation should not be offered.
 
-<div class="alert"><b>Note</b>  Do not use this value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_offerallocations">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div>
+<div class="alert"><b>Note</b>  Do not use this value in the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_offerallocations">D3DDDICB_OFFERALLOCATIONS</a>.<b>Priority</b> member.</div>
 <div> </div>
 
 ### -field D3DDDI_OFFER_PRIORITY_LOW
@@ -77,9 +77,8 @@ The video memory manager should make a policy decision on the allocation's value
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_offerallocations">D3DDDICB_OFFERALLOCATIONS</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_offerallocations">D3DDDICB_OFFERALLOCATIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a>

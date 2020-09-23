@@ -43,7 +43,7 @@ api_name:
  - RILWRITEPHONEBOOKENTRYPARAMS
 ---
 
-# RILWRITEPHONEBOOKENTRYPARAMS structure
+# RILWRITEPHONEBOOKENTRYPARAMS structure (rilapitypes.h)
 
 
 ## -description

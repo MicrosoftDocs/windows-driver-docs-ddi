@@ -115,17 +115,16 @@ The <b>StorPortInterlockedFlushSList</b> will also return <b>STATUS_SUCCESS</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeslisthead">StorPortInitializeSListHead</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeslisthead">StorPortInitializeSListHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpopentryslist">StorPortInterlockedPopEntrySList</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpopentryslist">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpushentryslist">StorPortInterlockedPushEntrySList</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpushentryslist">StorPortInterlockedPushEntrySList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportquerydepthslist">StorPortQueryDepthSList</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportquerydepthslist">StorPortQueryDepthSList</a>

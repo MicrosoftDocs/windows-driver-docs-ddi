@@ -1,16 +1,14 @@
 ---
 UID: NF:netdevice.NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT
 title: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function (netdevice.h)
-author: windows-driver-content
 description: The NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function initializes a NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS structure.
 tech.root: netvista
 ms.assetid: adf5b2fc-1b9a-4dad-97ad-e23f382acb8c
-ms.author: windowsdriverdev
 ms.date: 10/11/2019
 keywords: ["NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function"]
 ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT
 req.header: netdevice.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -66,11 +64,10 @@ This function zeroes out the **NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS** structu
 
 ## -see-also
 
-[Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring Power Management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md)
 
 [**NetDeviceInitSetPowerPolicyEventCallbacks**](../netdevice/nf-netdevice-netdeviceinitsetpowerpolicyeventcallbacks.md)
 
 [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md)
-

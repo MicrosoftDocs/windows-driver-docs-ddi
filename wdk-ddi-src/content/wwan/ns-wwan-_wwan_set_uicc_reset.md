@@ -56,17 +56,16 @@ The <b>WWAN_SET_UICC_RESET</b> structure represents the passthrough action the M
 
 ### -field PassThroughAction
 
-The passthrough action specified by the host. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_action">WWAN_UICC_PASSTHROUGH_ACTION</a>.
+The passthrough action specified by the host. For more info, see <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_action">WWAN_UICC_PASSTHROUGH_ACTION</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+<a href="/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_uicc_reset">NDIS_WWAN_SET_UICC_RESET</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_uicc_reset">NDIS_WWAN_SET_UICC_RESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_action">WWAN_UICC_PASSTHROUGH_ACTION</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_action">WWAN_UICC_PASSTHROUGH_ACTION</a>

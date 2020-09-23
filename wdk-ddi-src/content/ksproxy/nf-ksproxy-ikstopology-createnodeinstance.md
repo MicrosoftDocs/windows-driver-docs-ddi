@@ -63,7 +63,7 @@ A bitmask enumerating the type of topology node object. No flags are currently d
 ### -param DesiredAccess 
 
 [in]
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> bitmask specifying the type of access that the caller requires to the topology node object. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> for a description of each access-right value.
+An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> bitmask specifying the type of access that the caller requires to the topology node object. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> for a description of each access-right value.
 
 ### -param UnkOuter 
 
@@ -86,13 +86,12 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikstopology">IKsTopology</a>
+<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikstopology">IKsTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>

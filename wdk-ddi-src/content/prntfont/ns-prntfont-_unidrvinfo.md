@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The UNIDRVINFO structure is used to specify printer-specific information within <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
+The UNIDRVINFO structure is used to specify printer-specific information within <a href="/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
 
 ## -struct-fields
 
@@ -187,7 +187,7 @@ DF_BKSP_OK
 <td>
 If set, a single backspace character can move the cursor to the beginning of the overstrike region. If not set, an x-movement cursor command must be sent.
 
-(Used only if MTYPE_PAIRED is specified for the character's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_transdata">TRANSDATA</a> structure in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a>. Otherwise ignored.)
+(Used only if MTYPE_PAIRED is specified for the character's <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_transdata">TRANSDATA</a> structure in <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_maptable">MAPTABLE</a>. Otherwise ignored.)
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ Specifies the number of pixels by which each character must be shifted. Used for
 
 ### -field SelectFont
 
-Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer's font selection command.
+Is an <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer's font selection command.
 
 ### -field UnSelectFont
 
@@ -291,9 +291,8 @@ Not used.
 
 ## -remarks
 
-A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure.
+A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>
-
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>

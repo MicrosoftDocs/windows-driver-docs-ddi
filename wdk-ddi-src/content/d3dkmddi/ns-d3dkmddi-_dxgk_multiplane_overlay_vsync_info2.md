@@ -58,23 +58,22 @@ The zero-based index of the overlay plane to display. The top plane (in the z-di
 
 ### -field PresentId
 
-The video present source ID provided during a [**DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3) call.
+The video present source ID provided during a [**DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3**](./nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md) call.
 
 ### -field Flags
 
-A [**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_flags) structure containing driver-set flags. These flags are used to determine whether the scheduler should call [**DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT**](nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md) for this plane.
+A [**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](./ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_flags.md) structure containing driver-set flags. These flags are used to determine whether the scheduler should call [**DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT**](nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md) for this plane.
 
 ## -remarks
 
-**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2** is a member of the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data) structure. It is filled out by the driver to report each plane’s flip completion after a VSYNC occurs. It should be filled out when the display adapter generates an interrupt after a VSYNC.
+**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2** is a member of the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md) structure. It is filled out by the driver to report each plane’s flip completion after a VSYNC occurs. It should be filled out when the display adapter generates an interrupt after a VSYNC.
 
 ## -see-also
 
-[**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data)
+[**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](./ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md)
 
-[**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_flags)
+[**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](./ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_flags.md)
 
 [**DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT**](nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md)
 
-[**DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3)
-
+[**DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3**](./nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md)

@@ -57,25 +57,24 @@ The file object to query for an oplock key context.
 
 ## -returns
 
-An pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_oplock_key_context">OPLOCK_KEY_CONTEXT</a> structure containing the parent and target oplock keys for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i> has no oplock keys.
+An pointer to an <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_oplock_key_context">OPLOCK_KEY_CONTEXT</a> structure containing the parent and target oplock keys for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i> has no oplock keys.
 
 ## -remarks
 
-On Windows 8 and later versions of Windows, use <b>IoGetOplockKeyContextEx</b> instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontext">IoGetOplockKeyContext</a>, as the latter only returns a target oplock key context.
+On Windows 8 and later versions of Windows, use <b>IoGetOplockKeyContextEx</b> instead of <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontext">IoGetOplockKeyContext</a>, as the latter only returns a target oplock key context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/dual-oplock-key-ecp-context">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
+<a href="/windows-hardware/drivers/ifs/dual-oplock-key-ecp-context">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontextex">IoGetOplockKeyContextEx</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetoplockkeycontextex">IoGetOplockKeyContextEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_oplock_key_context">OPLOCK_KEY_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_oplock_key_context">OPLOCK_KEY_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-key-ecp-context">OPLOCK_KEY_ECP_CONTEXT</a>
-
+<a href="/windows-hardware/drivers/ifs/oplock-key-ecp-context">OPLOCK_KEY_ECP_CONTEXT</a>

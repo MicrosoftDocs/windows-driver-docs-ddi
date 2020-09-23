@@ -41,7 +41,7 @@ api_name:
  - KeLeaveCriticalRegion
 ---
 
-# KeLeaveCriticalRegion function
+# KeLeaveCriticalRegion function (wdm.h)
 
 
 ## -description
@@ -54,9 +54,8 @@ Highest-level drivers can call this routine while running in the context of the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keareapcsdisabled">KeAreApcsDisabled</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keareapcsdisabled">KeAreApcsDisabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>

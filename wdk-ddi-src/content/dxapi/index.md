@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: display
+f1_keywords:
+ - dxapi
+ - dxapi/dxapi
 ---
 
 # Dxapi.h header
@@ -16,7 +19,7 @@ tech.root: display
 
 ## -description
 
-
 This header is used by display. For more information, see:
 
 - [Display](../_display/index.md)
+

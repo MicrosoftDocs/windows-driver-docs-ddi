@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-The <b>DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</b> enumeration indicates the reason for calling the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendvidpntopology">DxgkDdiRecommendVidPnTopology</a> function.
+The <b>DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</b> enumeration indicates the reason for calling the display miniport driver's <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendvidpntopology">DxgkDdiRecommendVidPnTopology</a> function.
 
 ## -enum-fields
 
 ### -field DXGK_RVT_UNINITIALIZED
 
-Indicates that a variable of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_recommendvidpntopology_reason">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a> has not yet been assigned a meaningful value.
+Indicates that a variable of type <a href="/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_recommendvidpntopology_reason">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a> has not yet been assigned a meaningful value.
 
 ### -field DXGK_RVT_INITIALIZATION_NOLKG
 
@@ -71,4 +71,3 @@ Indicates that the call is being made during the VidPN topology augmentation by 
 ### -field DXGK_RVT_INITIALIZATION_LKGOVERRIDE
 
 Indicates that the call is being made during the initialization of the display adapter, giving the display miniport driver a chance to override the last known good VidPN topology.
-

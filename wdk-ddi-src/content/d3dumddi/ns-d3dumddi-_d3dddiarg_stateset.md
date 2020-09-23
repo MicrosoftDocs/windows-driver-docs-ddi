@@ -80,7 +80,7 @@ The D3DDDIARG_STATESET structure describes how to set a state block.
 
 [in/out] A handle to the state block that is manipulated by the operation that is specified in the <b>Operation</b> member.
 
-A state-block handle is passed in a call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_stateset">StateSet</a> function when <b>Operation</b> is set to D3DHAL_STATESETEXECUTE.
+A state-block handle is passed in a call to the user-mode display driver's <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_stateset">StateSet</a> function when <b>Operation</b> is set to D3DHAL_STATESETEXECUTE.
 
 The <i>StateSet</i> function returns the state-block handle when <b>Operation</b> is set to D3DHAL_STATESETBEGIN and D3DHAL_STATESETCREATE.
 
@@ -92,5 +92,4 @@ The <b>StateBlockType</b> member is valid only for D3DHAL_STATESETBEGIN, D3DHAL_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_stateset">StateSet</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_stateset">StateSet</a>

@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: serports
+f1_keywords:
+ - uart
+ - uart/uart
 ---
 
 # Uart.h header
@@ -16,7 +19,7 @@ tech.root: serports
 
 ## -description
 
-
 This header is used by serports. For more information, see:
 
 - [Serial port](../_serports/index.md)
+

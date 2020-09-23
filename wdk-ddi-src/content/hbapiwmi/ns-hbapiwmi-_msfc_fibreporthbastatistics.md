@@ -60,13 +60,12 @@ Contains a unique identifier for the port.
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ### -field Statistics
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_msfc_hbaportstatistics">MSFC_HBAPortStatistics</a> with statistical information about the port.
+Contains a structure of type <a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_msfc_hbaportstatistics">MSFC_HBAPortStatistics</a> with statistical information about the port.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-fibreporthbastatistics-wmi-class">MSFC_FibrePortHBAStatistics WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msfc-fibreporthbastatistics-wmi-class">MSFC_FibrePortHBAStatistics WMI Class</a>

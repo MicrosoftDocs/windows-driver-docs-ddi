@@ -41,7 +41,7 @@ api_name:
  - RILSUBSCRIBERINFOPARAMMASK
 ---
 
-# RILSUBSCRIBERINFOPARAMMASK enumeration
+# RILSUBSCRIBERINFOPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
@@ -72,5 +72,4 @@ enum RILSUBSCRIBERINFOPARAMMASK {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
+<a href="/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>

@@ -41,7 +41,7 @@ api_name:
  - RILCARDAPPADDEDPARAMMASK
 ---
 
-# RILCARDAPPADDEDPARAMMASK enumeration
+# RILCARDAPPADDEDPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

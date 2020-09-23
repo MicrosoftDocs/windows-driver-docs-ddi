@@ -54,9 +54,9 @@ Describes region of interest (ROI) control properties in the <b>PROPSETID_VIDCAP
 
 ### -field FocusRect
 
-A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows apps.
+A <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows apps.
 
-If <b>FocusRect</b> is not a valid value, or if all members of the <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure are zero, the device should focus the center of the image and the remaining members of this structure can be ignored.
+If <b>FocusRect</b> is not a valid value, or if all members of the <a href="/windows/win32/api/windef/ns-windef-rect">RECT</a> structure are zero, the device should focus the center of the image and the remaining members of this structure can be ignored.
 
 The rectangle's coordinates are with respect to the preview video resolution.
 
@@ -176,9 +176,8 @@ Enable convergence of objects in the region
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-flash-property">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-flash-property">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-rect">RECT</a>

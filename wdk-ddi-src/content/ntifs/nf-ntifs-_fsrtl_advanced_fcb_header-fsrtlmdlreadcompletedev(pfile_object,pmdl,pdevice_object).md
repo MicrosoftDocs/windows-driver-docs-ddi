@@ -50,7 +50,7 @@ ms.custom: RS5
 ## -description
 
 
-The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine initiated.
+The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FltFastIoMdlRead</a> routine initiated.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ None
 
 
 
-The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine allocated.
+The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FltFastIoMdlRead</a> routine allocated.
 
 
 
@@ -98,8 +98,7 @@ The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FltFastIoMdlRead</a>
  
 
  
-

@@ -70,9 +70,8 @@ The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this f
 
 After it has called [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md), the client typically calls **NetAdapterCreate** from within its [*EvtDriverDeviceAdd*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) routine.
 
-For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization).
+For a code example of creating a NETADAPTER, see [Device initialization](/windows-hardware/drivers/netcx/device-initialization).
 
 The NETADAPTER object is a standard WDF object. The framework manages its deletion, which occurs when the parent WDFDEVICE is deleted.
 
 ## -see-also
-

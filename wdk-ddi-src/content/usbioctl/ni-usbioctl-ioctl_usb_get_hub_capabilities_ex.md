@@ -62,7 +62,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated buffer.
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a user-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_capabilities_ex">USB_HUB_CAPABILITIES_EX</a> structure. On output, this structure describes the hub capabilities.
+<b>AssociatedIrp.SystemBuffer</b> points to a user-allocated <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_capabilities_ex">USB_HUB_CAPABILITIES_EX</a> structure. On output, this structure describes the hub capabilities.
 
 ### -output-buffer-length
 
@@ -78,5 +78,4 @@ The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_capabilities_ex">USB_HUB_CAPABILITIES_EX</a>
-
+<a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_capabilities_ex">USB_HUB_CAPABILITIES_EX</a>

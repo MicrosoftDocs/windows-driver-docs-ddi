@@ -58,7 +58,7 @@ A filter driver calls the
 [in]
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 ## -returns
 
@@ -77,7 +77,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartfilter">NdisFRestartFilter</a> returns NDIS_STATUS_SUCCESS if it started the restart operation.
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartfilter">NdisFRestartFilter</a> returns NDIS_STATUS_SUCCESS if it started the restart operation.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartfilter">NdisFRestartFilter</a> failed because of insufficient resources.
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartfilter">NdisFRestartFilter</a> failed because of insufficient resources.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartfilter">NdisFRestartFilter</a> returns NDIS_STATUS_FAILURE if none of the preceding values applies.
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfrestartfilter">NdisFRestartFilter</a> returns NDIS_STATUS_FAILURE if none of the preceding values applies.
 
 </td>
 </tr>
@@ -115,21 +115,20 @@ The filter driver can change the filter module attributes at run time by calling
     module.
 
 Before NDIS restarts the filter module, it calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_set_module_options">FilterSetModuleOptions</a> function for the filter module. From 
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_set_module_options">FilterSetModuleOptions</a> function for the filter module. From 
     its <i>FilterSetModuleOptions</i> function, the filter driver can change the data handlers for that filter module by
     calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function
     and specifying a new set of handlers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_set_module_options">FilterSetModuleOptions</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_set_module_options">FilterSetModuleOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>

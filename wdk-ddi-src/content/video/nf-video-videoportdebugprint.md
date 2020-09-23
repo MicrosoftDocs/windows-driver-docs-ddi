@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. Instead, they should call the <a href="https://docs.microsoft.com/previous-versions/ff570170(v=vs.85)">VideoDebugPrint</a> macro.
+Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. Instead, they should call the <a href="/previous-versions/ff570170(v=vs.85)">VideoDebugPrint</a> macro.
 
 ## -parameters
 
@@ -60,4 +60,3 @@ Pointer to a string that contains the debug message.
 ## -returns
 
 None
-

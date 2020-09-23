@@ -52,9 +52,9 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AVAILABLE_CHANNEL_LIST structure specifies the available operating frequency channel list
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_AVAILABLE_CHANNEL_LIST structure specifies the available operating frequency channel list
   of the
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
+  <a href="/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
   configurations</a> that the NIC can operate with.
 
 ## -struct-fields
@@ -106,7 +106,7 @@ The maximum number of entries that the
 ### -field uChannelNumber
 
 An array that specifies the list of available operating frequency channels of the
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
+     <a href="/windows-hardware/drivers/network/dsss--hrdsss--and-erp-phy-configuration">DSSS, HRDSSS, and ERP PHY
      configurations</a> that the NIC can operate with.
 
 ## -syntax
@@ -123,15 +123,14 @@ typedef struct _DOT11_AVAILABLE_CHANNEL_LIST {
 ## -remarks
 
 This structure is used with
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-available-channel-list">
+    <a href="/windows-hardware/drivers/network/oid-dot11-available-channel-list">
     OID_DOT11_AVAILABLE_CHANNEL_LIST</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-available-channel-list">
+<a href="/windows-hardware/drivers/network/oid-dot11-available-channel-list">
    OID_DOT11_AVAILABLE_CHANNEL_LIST</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-

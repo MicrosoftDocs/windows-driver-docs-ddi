@@ -9,37 +9,41 @@ ms.date: 08/14/2020
 keywords: ["WcsOpenColorProfileA function"]
 ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 req.header: icm.h
-req.include-header:
+req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 req.lib: Mscms.lib
-req.dll:
-req.irql:
-topic_type:
--   APIRef
--   kbSyntax
-api_type:
--   LibDef
-api_location:
--   Mscms.lib
--   Mscms.dll
-api_name:
--   WcsOpenColorProfile
+req.dll: 
+req.irql: 
 targetos: Windows
 req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Mscms.lib
+ - Mscms.dll
+api_name:
+ - WcsOpenColorProfile
+f1_keywords:
+ - WcsOpenColorProfileA
+ - icm/WcsOpenColorProfileA
 ---
 
 # WcsOpenColorProfileA function
+
 
 ## -description
 
@@ -55,7 +59,7 @@ A pointer to a profile structure that specifies a  WCS color appearance model pr
 
 ### -param pGMMPProfile [in, optional]
 
-A pointer to a profile structure that specifies a WCS gamut map model profile (GMMP). The *pGMMPProfile* pointer can be freed as soon as the handle is created. If **NULL**, the default GMMP for the default rendering intent is used, and the current user setting, WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, is used while querying the default GMMP. For a description of rendering intents, see [Rendering Intents](https://docs.microsoft.com/previous-versions//ms536520(v=vs.85)).
+A pointer to a profile structure that specifies a WCS gamut map model profile (GMMP). The *pGMMPProfile* pointer can be freed as soon as the handle is created. If **NULL**, the default GMMP for the default rendering intent is used, and the current user setting, WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, is used while querying the default GMMP. For a description of rendering intents, see [Rendering Intents](/previous-versions//ms536520(v=vs.85)).
 
 ### -param dwDesireAccess
 
@@ -134,8 +138,8 @@ The *dwCreationMode* flags CREATE_NEW, CREATE_ALWAYS, and TRUNCATE_EXISTING will
 
 Once the handle to the color profile is created, any information used to create that handle can be deleted.
 
-Use the [CloseColorProfile](https://docs.microsoft.com/previous-versions//ms536810(v=vs.85)) function to close an object handle returned by **WcsOpenColorProfile**.
+Use the [CloseColorProfile](/previous-versions//ms536810(v=vs.85)) function to close an object handle returned by **WcsOpenColorProfile**.
 
 ## -see-also
 
-[CloseColorProfile](https://docs.microsoft.com/previous-versions//ms536810(v=vs.85))
+[CloseColorProfile](/previous-versions//ms536810(v=vs.85))

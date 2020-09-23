@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WWAN_DEVICE_CAPS_EX</b> structure represents the capabilities of the mobile broadband device. <b>WWAN_DEVICE_CAPS_EX</b> extends the existing <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a> structure by adding an <b>Executor Index</b> member, for tracking specific executors, and a <b>WwanOptionalServiceCaps</b> member, for Microsoft service extensions.
+The <b>WWAN_DEVICE_CAPS_EX</b> structure represents the capabilities of the mobile broadband device. <b>WWAN_DEVICE_CAPS_EX</b> extends the existing <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a> structure by adding an <b>Executor Index</b> member, for tracking specific executors, and a <b>WwanOptionalServiceCaps</b> member, for Microsoft service extensions.
 
 ## -struct-fields
 
@@ -174,7 +174,7 @@ WWAN_DATA_CLASS_5G_NSA
 
 </td>
 <td>
-Non-standalone 5G data service is supported. For more info about 5G data class support, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-5g-data-class-support">MB 5G data class support</a>.
+Non-standalone 5G data service is supported. For more info about 5G data class support, see <a href="/windows-hardware/drivers/network/mb-5g-data-class-support">MB 5G data class support</a>.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ WWAN_DATA_CLASS_SA
 
 </td>
 <td>
-Standalone 5G data service is supported. For more info about 5G data class support, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-5g-data-class-support">MB 5G data class support</a>.
+Standalone 5G data service is supported. For more info about 5G data class support, see <a href="/windows-hardware/drivers/network/mb-5g-data-class-support">MB 5G data class support</a>.
 
 </td>
 </tr>
@@ -416,7 +416,7 @@ If the miniport driver specifies WWAN_BAND_CLASS_CUSTOM, it should also provide 
      <b>CustomBandClass</b> .
 
 For more information about these values, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-caps">OID_WWAN_DEVICE_CAPS</a>.
+     <a href="/windows-hardware/drivers/network/oid-wwan-device-caps">OID_WWAN_DEVICE_CAPS</a>.
 
 ### -field WwanCdmaBandClass
 
@@ -637,7 +637,7 @@ If the miniport driver specifies WWAN_BAND_CLASS_CUSTOM, it should also provide 
      <b>CustomBandClass</b> .
 
 For more information about these values, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-caps">OID_WWAN_DEVICE_CAPS</a>.
+     <a href="/windows-hardware/drivers/network/oid-wwan-device-caps">OID_WWAN_DEVICE_CAPS</a>.
 
 ### -field CustomBandClass
 
@@ -1009,13 +1009,13 @@ The device and driver support multi-SIM/multi-executors and the following OIDs:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sys-caps">OID_WWAN_SYS_CAPS_INFO</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-sys-caps">OID_WWAN_SYS_CAPS_INFO</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-slot-mappings">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-device-slot-mappings">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-slot-info-status">OID_WWAN_SLOT_INFO</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-slot-info-status">OID_WWAN_SLOT_INFO</a>
 </li>
 </ul>
 </td>
@@ -1114,13 +1114,12 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_device_caps_ex">NDIS_WWAN_DEVICE_CAPS_EX</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_device_caps_ex">NDIS_WWAN_DEVICE_CAPS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-caps-ex">OID_WWAN_DEVICE_CAPS_EX</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-device-caps-ex">OID_WWAN_DEVICE_CAPS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>

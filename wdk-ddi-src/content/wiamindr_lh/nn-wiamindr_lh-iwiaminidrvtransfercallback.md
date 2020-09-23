@@ -52,11 +52,10 @@ This is a Callback interface that is called by the WIA mini-driver for stream-ba
 
 ## -see-also
 
-[Cancellation of Data Transfers](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
+[Cancellation of Data Transfers](/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
 
-[Data Transfer Between Legacy Application and Windows Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
+[Data Transfer Between Legacy Application and Windows Driver](/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
 
-[IStream Transfer Driver Example](https://docs.microsoft.com/windows-hardware/drivers/image/istream-transfer-driver-example)
+[IStream Transfer Driver Example](/windows-hardware/drivers/image/istream-transfer-driver-example)
 
-[Introduction to WIA](https://docs.microsoft.com/windows-hardware/drivers/image/introduction-to-wia)
-
+[Introduction to WIA](/windows-hardware/drivers/image/introduction-to-wia)

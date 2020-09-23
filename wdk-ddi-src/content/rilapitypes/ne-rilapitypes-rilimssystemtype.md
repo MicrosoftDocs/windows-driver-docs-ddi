@@ -42,7 +42,7 @@ api_name:
  - RILIMSSYSTEMTYPE
 ---
 
-# RILIMSSYSTEMTYPE enumeration
+# RILIMSSYSTEMTYPE enumeration (rilapitypes.h)
 
 
 ## -description

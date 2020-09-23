@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with [SUB_Q_CHANNEL_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data).
+The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with [SUB_Q_CHANNEL_DATA](./ns-ntddcdrm-_sub_q_channel_data.md).
 
 ## -struct-fields
 
 ### -field Header
 
-Indicates, among other things, the length of the Q subchannel data that was retrieved. See [SUB_Q_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header) for more details.
+Indicates, among other things, the length of the Q subchannel data that was retrieved. See [SUB_Q_HEADER](./ns-ntddcdrm-_sub_q_header.md) for more details.
 
 ### -field FormatCode
 
@@ -88,11 +88,10 @@ Gives the current location relative to the logical beginning of the current trac
 
 ## -see-also
 
-[CDROM_SUB_Q_DATA_FORMAT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_sub_q_data_format)
+[CDROM_SUB_Q_DATA_FORMAT](./ns-ntddcdrm-_cdrom_sub_q_data_format.md)
 
-[IOCTL_CDROM_READ_Q_CHANNEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_q_channel)
+[IOCTL_CDROM_READ_Q_CHANNEL](./ni-ntddcdrm-ioctl_cdrom_read_q_channel.md)
 
-[SUB_Q_CHANNEL_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data)
+[SUB_Q_CHANNEL_DATA](./ns-ntddcdrm-_sub_q_channel_data.md)
 
-[SUB_Q_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header)
-
+[SUB_Q_HEADER](./ns-ntddcdrm-_sub_q_header.md)

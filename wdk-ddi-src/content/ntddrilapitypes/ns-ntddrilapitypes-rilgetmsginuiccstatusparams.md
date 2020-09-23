@@ -43,7 +43,7 @@ api_name:
  - RILGETMSGINUICCSTATUSPARAMS
 ---
 
-# RILGETMSGINUICCSTATUSPARAMS structure
+# RILGETMSGINUICCSTATUSPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

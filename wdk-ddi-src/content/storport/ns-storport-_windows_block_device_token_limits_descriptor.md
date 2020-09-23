@@ -45,7 +45,7 @@ api_name:
  - WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
 ---
 
-# _WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure
+# _WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure (storport.h)
 
 
 ## -description
@@ -68,23 +68,23 @@ Vendor specific bytes included in the descriptor. Windows applications must trea
 
 ### -field MaximumRangeDescriptors
 
-The maximum number of range descriptors that may be included along with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a> structures.
+The maximum number of range descriptors that may be included along with the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> or the <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a> structures.
 
 ### -field MaximumInactivityTimer
 
-The maximum available to specify as the timeout value in the <b>InactivityTimeout</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> structure.
+The maximum available to specify as the timeout value in the <b>InactivityTimeout</b> member of the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> structure.
 
 ### -field DefaultInactivityTimer
 
-The default value that is used by the copy provider when the <b>InactivityTimeout</b> of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> structure is set to 0.
+The default value that is used by the copy provider when the <b>InactivityTimeout</b> of the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> structure is set to 0.
 
 ### -field MaximumTokenTransferSize
 
-The maximum number of logical blocks that can be specified as a total of the block range descriptors in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a> structures.
+The maximum number of logical blocks that can be specified as a total of the block range descriptors in the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> or the <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a> structures.
 
 ### -field OptimalTransferCount
 
-The optimal number of logical blocks, as a maximum, to specify as a total of the block range descriptors in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a> structures. Offload data transfer performance may degrade if the transfer count is larger than this value.
+The optimal number of logical blocks, as a maximum, to specify as a total of the block range descriptors in the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a> or the <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a> structures. Offload data transfer performance may degrade if the transfer count is larger than this value.
 
 ## -remarks
 
@@ -92,13 +92,12 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_vpd_third_party_copy_page">VPD_THIRD_PARTY_COPY_PAGE</a>
+<a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_vpd_third_party_copy_page">VPD_THIRD_PARTY_COPY_PAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a>

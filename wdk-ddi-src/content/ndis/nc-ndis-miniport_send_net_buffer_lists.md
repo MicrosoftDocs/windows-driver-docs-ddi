@@ -48,7 +48,7 @@ api_name:
 
 NDIS calls the 
    <i>MiniportSendNetBufferLists</i> function to transmit network data that is contained in a linked list of 
-   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
+   <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> type. For
    more information, see the following Examples section.</div><div> </div>
 
@@ -58,16 +58,16 @@ NDIS calls the
 
 [in]
 A handle to a context area that the miniport driver allocated in its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information about an adapter.
 
 ### -param NetBufferList 
 
 [in]
 A pointer to the first 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in a linked list
      of NET_BUFFER_LIST structures. Each NET_BUFFER_LIST structure in the list describes a list of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each NET_BUFFER structure
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each NET_BUFFER structure
      in the list maps to a chain of MDLs. The MDLs contain the network data.
 
 ### -param PortNumber 
@@ -75,7 +75,7 @@ A pointer to the first
 [in]
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter.
 
 ### -param SendFlags 
@@ -92,7 +92,7 @@ Flags that define attributes for the send operation. The flags can be combined w
 #### NDIS_SEND_FLAGS_DISPATCH_LEVEL
 
 Specifies that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
+       <a href="/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
 
 
@@ -109,29 +109,29 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
 
 <i>MiniportSendNetBufferLists</i> is a required function for miniport drivers. When an overlying driver
     calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a> function,
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a> function,
     NDIS calls the 
     <i>MiniportSendNetBufferLists</i> function of the bound miniport driver.
 
 When transmitting the network data that NDIS passes in the <i>NetBufferLists</i> parameter, the miniport driver must use the following guidelines:<ol>
 <li>
-The order of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure must be preserved.
+The order of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in each <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure must be preserved.
 
 </li>
 <li>
-The order of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures should be preserved if they are to be transmitted on the same connection.
+The order of the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures should be preserved if they are to be transmitted on the same connection.
 
 </li>
 <li>
-If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures are to be transmitted on different connections, they can be split into multiple transmit queues if  the following features are in use. In this case, the order of the <b>NET_BUFFER_LIST</b> structures for each connection should be preserved.
+If the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures are to be transmitted on different connections, they can be split into multiple transmit queues if  the following features are in use. In this case, the order of the <b>NET_BUFFER_LIST</b> structures for each connection should be preserved.
 
 <ul>
 <li>
-Receive side scaling (RSS) (The RSS hash value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure can be used as an index into the RSS indirection table.)
+Receive side scaling (RSS) (The RSS hash value in the <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure can be used as an index into the RSS indirection table.)
 
 </li>
 <li>
-Virtual Machine Queue (VMQ) (The queue identifier of the outgoing queue is set in the <b>NetBufferListFilteringInfo</b> OOB information. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/vmq-transmit-path">VMQ Transmit Path</a>.)
+Virtual Machine Queue (VMQ) (The queue identifier of the outgoing queue is set in the <b>NetBufferListFilteringInfo</b> OOB information. For more information, see <a href="/windows-hardware/drivers/network/vmq-transmit-path">VMQ Transmit Path</a>.)
 
 </li>
 <li>
@@ -154,7 +154,7 @@ Miniport drivers accept all send requests that NDIS makes by calling the
     protocol-allocated resources associated with the NET_BUFFER_LIST structures.
 
 The miniport driver must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsendnetbufferlistscomplete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsendnetbufferlistscomplete">
     NdisMSendNetBufferListsComplete</a> function to complete the send requests for all NET_BUFFER_LIST
     structures. To improve system performance, the driver can create a linked list that contains the
     NET_BUFFER_LIST structures from multiple send requests. The driver can then pass such a linked list in a
@@ -176,7 +176,7 @@ Protocol drivers are responsible for determining what network data is required, 
     minimum-length requirement on the transmit packet size.
 
 If the miniport driver set the NDIS_MAC_OPTION_NO_LOOPBACK flag when NDIS queried the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-mac-options">OID_GEN_MAC_OPTIONS</a> OID, the miniport
+    <a href="/windows-hardware/drivers/network/oid-gen-mac-options">OID_GEN_MAC_OPTIONS</a> OID, the miniport
     driver must not attempt to loop back any network data. NDIS provides software loopback support for such a
     driver.
 
@@ -184,29 +184,20 @@ NDIS calls
     <i>MiniportSendNetBufferLists</i> at IRQL<= DISPATCH_LEVEL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>MiniportSendNetBufferLists</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>MiniportSendNetBufferLists</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportSendNetBufferLists</i> function that is named "MySendNetBufferLists", use the <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MINIPORT_SEND_NET_BUFFER_LISTS MySendNetBufferLists;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+MINIPORT_SEND_NET_BUFFER_LISTS MySendNetBufferLists;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 VOID
  MySendNetBufferLists(
     NDIS_HANDLE  MiniportAdapterContext,
@@ -214,40 +205,38 @@ VOID
     NDIS_PORT_NUMBER  PortNumber,
     ULONG  SendFlags
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_SEND_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsendnetbufferlistscomplete">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsendnetbufferlistscomplete">
    NdisMSendNetBufferListsComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-mac-options">OID_GEN_MAC_OPTIONS</a>
-
+<a href="/windows-hardware/drivers/network/oid-gen-mac-options">OID_GEN_MAC_OPTIONS</a>

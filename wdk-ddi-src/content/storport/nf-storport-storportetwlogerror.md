@@ -1,11 +1,9 @@
 ---
 UID: NF:storport.StorPortEtwLogError
 title: StorPortEtwLogError function
-author: windows-driver-content
 description: A miniport can call StorPortEtwLogError to log an Event Tracing for Windows (ETW) event for a device hardware error.
 tech.root: storage
 ms.assetid: 02e3820a-c2f3-45bf-87a9-09d00ab8193e
-ms.author: windowsdriverdev
 ms.date: 03/05/2019
 keywords: ["StorPortEtwLogError function"]
 ms.keywords: StorPortEtwLogError
@@ -105,9 +103,8 @@ Events generated from this function are published to the "Microsoft-Windows-Stor
 
 ## -see-also
 
-[StorPortEtwEvent2](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent2)
+[StorPortEtwEvent2](./nf-storport-storportetwevent2.md)
 
-[StorPortEtwEvent4](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent4)
+[StorPortEtwEvent4](./nf-storport-storportetwevent4.md)
 
-[StorPortEtwEvent8](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent8)
-
+[StorPortEtwEvent8](./nf-storport-storportetwevent8.md)

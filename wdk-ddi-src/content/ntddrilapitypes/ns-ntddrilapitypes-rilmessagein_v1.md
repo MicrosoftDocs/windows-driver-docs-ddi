@@ -41,7 +41,7 @@ api_name:
  - RILMESSAGEIN_V1
 ---
 
-# RILMESSAGEIN_V1 structure
+# RILMESSAGEIN_V1 structure (ntddrilapitypes.h)
 
 
 ## -description

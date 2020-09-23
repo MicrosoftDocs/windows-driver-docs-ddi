@@ -72,17 +72,16 @@ There is no event-specific data for a hardware-profile-change event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_interface_change_notification">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_interface_change_notification">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_plugplay_notification_header">PLUGPLAY_NOTIFICATION_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_plugplay_notification_header">PLUGPLAY_NOTIFICATION_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_removal_notification">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_target_device_removal_notification">TARGET_DEVICE_REMOVAL_NOTIFICATION</a>

@@ -56,7 +56,7 @@ This callback function joins the specified DMA domain.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Returns STATUS_SUCCESS if the call is successful. Otherwise, returns an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -79,4 +79,3 @@ NTSTATUS PjoinDmaDomain
 ## -remarks
 
 ## -see-also
-

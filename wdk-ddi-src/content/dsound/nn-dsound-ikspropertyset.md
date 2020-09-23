@@ -41,7 +41,7 @@ api_name:
  - IKsPropertySet
 ---
 
-# IKsPropertySet interface
+# IKsPropertySet interface (dsound.h)
 
 
 ## -description
@@ -55,7 +55,7 @@ The IID for this interface is IID_IKsPropertySet.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPropertySet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPropertySet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPropertySet</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPropertySet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -65,4 +65,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPropertySet</b> interface 
 The <b>IKsPropertySet</b> interface methods translate user-mode property requests into kernel-mode property sets that are used by KS minidrivers. 
 
 KS objects include, for example, KS filters, KS pins, and KS clocks.
-

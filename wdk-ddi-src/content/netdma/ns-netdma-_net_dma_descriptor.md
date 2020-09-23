@@ -65,7 +65,7 @@ NetDMA 2.0 and later provider drivers use the
       <b>DCAContext16</b>, and 
       <b>DCAContext8</b> members of the union with 
       <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      <a href="/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
       (DCA)</a>.
 
 ### -field DCAContext32
@@ -236,7 +236,7 @@ When this bit is cleared, the destination address is in coherent memory space, a
 The 
        <b>CompletionVirtualAddress</b> and 
        <b>CompletionPhysicalAddress</b> members in the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
+       <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
        NET_DMA_CHANNEL_PARAMETERS</a> structure reference a completion status value. The DMA engine updates
        the completion status value when it completes the processing of this descriptor. 
        
@@ -343,7 +343,7 @@ A ULONG64 value that is reserved for the DMA engine or the DMA provider driver t
       and later provider drivers use the 
       <b>NextSourceAddress</b> member of the union with 
       <b>Reserved1</b> to support 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      <a href="/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
       Break</a>.
 
 ### -field NextSourceAddress
@@ -357,7 +357,7 @@ A ULONG64 value that is reserved for use the DMA engine or the DMA provider driv
       2.0 and later provider drivers use the 
       <b>NextDestinationAddress</b> member of the union with 
       <b>Reserved2</b> to support 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
+      <a href="/windows-hardware/drivers/network/source-and-destination-page-break">Source and Destination Page
       Break</a>.
 
 ### -field NextDestinationAddress
@@ -381,7 +381,7 @@ The NET_DMA_DESCRIPTOR structure specifies the source, destination, and control 
 To start a DMA transfer, the NetDMA interface supplies the physical address of a NET_DMA_DESCRIPTOR
     structure at the 
     <i>DescriptorPhysicalAddress</i> parameter of the DMA provider driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a> function. The 
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a> function. The 
     <i>DescriptorVirtualAddress</i> parameter contains the virtual address of the descriptor.
 
 The 
@@ -389,18 +389,17 @@ The
     NET_DMA_DESCRIPTOR structure in the linked list of descriptors.
 
 The NetDMA interface calls a DMA provider driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function to append a
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a> function to append a
     linked list of DMA descriptors after the last descriptor on a DMA channel.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_append_handler">ProviderAppendDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>
-
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>

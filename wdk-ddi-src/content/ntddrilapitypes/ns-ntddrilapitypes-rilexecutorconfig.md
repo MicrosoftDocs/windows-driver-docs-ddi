@@ -43,7 +43,7 @@ api_name:
  - RILEXECUTORCONFIG
 ---
 
-# RILEXECUTORCONFIG structure
+# RILEXECUTORCONFIG structure (ntddrilapitypes.h)
 
 
 ## -description

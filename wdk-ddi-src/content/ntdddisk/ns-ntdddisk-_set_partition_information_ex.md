@@ -50,23 +50,23 @@ api_name:
 
 ## -description
 
-<b>SET_PARTITION_INFORMATION_EX</b> is used with the IOCTL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a> to set information for a specific partition.
+<b>SET_PARTITION_INFORMATION_EX</b> is used with the IOCTL <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a> to set information for a specific partition.
 
 ## -struct-fields
 
 ### -field PartitionStyle
 
-Takes a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)">PARTITION_STYLE</a> enumerated value that specifies the type of partition table that contains the partition.
+Takes a <a href="/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)">PARTITION_STYLE</a> enumerated value that specifies the type of partition table that contains the partition.
 
 ### -field DUMMYUNIONNAME
 
 ### -field DUMMYUNIONNAME.Mbr
 
-Contains the information for a Master Boot Record partition that is not held in common with a GUID Partition Table partition. This member is valid when <b>PartitionStyle</b> member is set to PARTITION_STYLE_MBR. For a definition of this structure, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566198(v=vs.85)">SET_PARTITION_INFORMATION_MBR</a>.
+Contains the information for a Master Boot Record partition that is not held in common with a GUID Partition Table partition. This member is valid when <b>PartitionStyle</b> member is set to PARTITION_STYLE_MBR. For a definition of this structure, see <a href="/previous-versions/windows/hardware/drivers/ff566198(v=vs.85)">SET_PARTITION_INFORMATION_MBR</a>.
 
 ### -field DUMMYUNIONNAME.Gpt
 
-Contains the information for a GUID Partition Table partition that is not held in common with a Master Boot Record partition. This member is valid when <b>PartitionStyle</b> member is set to PARTITION_STYLE_GPT. For a definition of this structure, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566196(v=vs.85)">SET_PARTITION_INFORMATION_GPT</a>.
+Contains the information for a GUID Partition Table partition that is not held in common with a Master Boot Record partition. This member is valid when <b>PartitionStyle</b> member is set to PARTITION_STYLE_GPT. For a definition of this structure, see <a href="/previous-versions/windows/hardware/drivers/ff566196(v=vs.85)">SET_PARTITION_INFORMATION_GPT</a>.
 
 ## -remarks
 
@@ -74,13 +74,12 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566196(v=vs.85)">SET_PARTITION_INFORMATION_GPT</a>
+<a href="/previous-versions/windows/hardware/drivers/ff566196(v=vs.85)">SET_PARTITION_INFORMATION_GPT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566198(v=vs.85)">SET_PARTITION_INFORMATION_MBR</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff566198(v=vs.85)">SET_PARTITION_INFORMATION_MBR</a>

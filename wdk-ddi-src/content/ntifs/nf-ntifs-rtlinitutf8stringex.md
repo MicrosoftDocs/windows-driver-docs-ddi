@@ -1,11 +1,9 @@
 ---
 UID: NF:ntifs.RtlInitUTF8StringEx
 title: RtlInitUTF8StringEx function
-author: windows-driver-content
 description: RtlInitUTF8StringEx initializes a counted string of UTF-8 characters.
 tech.root: ifsk
 ms.assetid: e9cd4b3c-2955-4bbc-b90f-340201024313
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlInitUTF8StringEx
@@ -33,16 +31,16 @@ f1_keywords:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - 
+ - NtosKrnl.exe
 api_name:
  - RtlInitUTF8StringEx
 product:
  - Windows
 ---
 
-# RtlInitUTF8StringEx function
+# RtlInitUTF8StringEx function (ntifs.h)
 
 
 ## -description
@@ -53,7 +51,7 @@ product:
 
 ### -param DestinationString
 
-Pointer to the UTF8_STRING structure to be initialized. The *ntdef.h* header file defines this structure to be identical to the [ANSI_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string) structure.
+Pointer to the UTF8_STRING structure to be initialized. The *ntdef.h* header file defines this structure to be identical to the [ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string) structure.
 
 ### -param SourceString
 
@@ -81,5 +79,4 @@ Callers of **RtlInitStringEx** can be running at IRQL <= DISPATCH_LEVEL if the *
 
 ## -see-also
 
-[ANSI_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string)
-
+[ANSI_STRING](/windows/win32/api/ntdef/ns-ntdef-string)

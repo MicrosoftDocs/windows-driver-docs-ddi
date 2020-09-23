@@ -43,7 +43,7 @@ api_name:
  - RILSENDMSGRESPONSE
 ---
 
-# RILSENDMSGRESPONSE structure
+# RILSENDMSGRESPONSE structure (ntddrilapitypes.h)
 
 
 ## -description

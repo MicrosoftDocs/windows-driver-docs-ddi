@@ -58,7 +58,7 @@ Specifies the description of the original event, with the KSEVENT_TYPE_QUERYBUFF
 
 ### -field EventData
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksaddevent">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksaddevent">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
 
 ### -field Reserved
 
@@ -131,9 +131,8 @@ life is good.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksbuffer_item">KSBUFFER_ITEM</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksbuffer_item">KSBUFFER_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
-
+<a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a>

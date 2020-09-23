@@ -66,7 +66,7 @@ nPropSpec [in]
 
 pPropSpec [in]
 
-- Points to the first element of an array of [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
+- Points to the first element of an array of [PROPSPEC](/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
 
 ### -param __MIDL__IWiaMiniDrv0028
 
@@ -90,7 +90,7 @@ Indicates the number of items in the *pPropSpec* array.
 
 #### - pPropSpec [in]
 
-Points to the first element of an array of [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
+Points to the first element of an array of [PROPSPEC](/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
 
 #### - pWiasContext [in]
 
@@ -104,7 +104,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
 
-The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr).
+The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md).
 
 ## -remarks
 
@@ -112,21 +112,20 @@ In this method, the minidriver should read the requested properties from the dev
 
 ## -see-also
 
-[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+[IWiaMiniDrv](./nn-wiamindr_lh-iwiaminidrv.md)
 
-[IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
+[IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)
 
-[IWiaMiniDrv::drvWriteItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvwriteitemproperties)
+[IWiaMiniDrv::drvWriteItemProperties](./nf-wiamindr_lh-iwiaminidrv-drvwriteitemproperties.md)
 
-[wiasWriteMultiple](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritemultiple)
+[wiasWriteMultiple](../wiamdef/nf-wiamdef-wiaswritemultiple.md)
 
-[wiasWritePropBin](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropbin)
+[wiasWritePropBin](../wiamdef/nf-wiamdef-wiaswritepropbin.md)
 
-[wiasWritePropFloat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropfloat)
+[wiasWritePropFloat](../wiamdef/nf-wiamdef-wiaswritepropfloat.md)
 
-[wiasWritePropGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropguid)
+[wiasWritePropGuid](../wiamdef/nf-wiamdef-wiaswritepropguid.md)
 
-[wiasWritePropLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswriteproplong)
+[wiasWritePropLong](../wiamdef/nf-wiamdef-wiaswriteproplong.md)
 
-[wiasWritePropStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepropstr)
-
+[wiasWritePropStr](../wiamdef/nf-wiamdef-wiaswritepropstr.md)

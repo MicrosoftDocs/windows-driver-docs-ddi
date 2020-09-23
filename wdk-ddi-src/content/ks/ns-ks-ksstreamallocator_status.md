@@ -54,7 +54,7 @@ The KSSTREAMALLOCATOR_STATUS structure describes framing requirements and curren
 
 ### -field Framing
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure that contains the framing specified when the allocator was created.
+A <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure that contains the framing specified when the allocator was created.
 
 ### -field AllocatedFrames
 
@@ -66,13 +66,12 @@ Reserved and set to zero.
 
 ## -remarks
 
-Clients can query allocator status by providing a KSSTREAMALLOCATOR_STATUS structure in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-streamallocator-status">KSPROPERTY_STREAMALLOCATOR_STATUS</a> property request.
+Clients can query allocator status by providing a KSSTREAMALLOCATOR_STATUS structure in a <a href="/windows-hardware/drivers/stream/ksproperty-streamallocator-status">KSPROPERTY_STREAMALLOCATOR_STATUS</a> property request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-streamallocator-status">KSPROPERTY_STREAMALLOCATOR_STATUS</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-streamallocator-status">KSPROPERTY_STREAMALLOCATOR_STATUS</a>

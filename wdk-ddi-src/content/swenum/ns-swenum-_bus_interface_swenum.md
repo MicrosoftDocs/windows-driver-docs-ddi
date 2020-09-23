@@ -56,23 +56,23 @@ The BUS_INTERFACE_SWENUM structure describes the demand-load bus enumerator obje
 
 ### -field Interface
 
-Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>.
+Specifies the exported <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>.
 
 ### -field ReferenceDeviceObject
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksreferencesoftwarebusobject">KsReferenceSoftwareBusObject</a> routine.
+Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksreferencesoftwarebusobject">KsReferenceSoftwareBusObject</a> routine.
 
 ### -field DereferenceDeviceObject
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksdereferencesoftwarebusobject">KsDereferenceSoftwareBusObject</a> routine.
+Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksdereferencesoftwarebusobject">KsDereferenceSoftwareBusObject</a> routine.
 
 ### -field QueryReferenceString
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksquerysoftwarebusinterface">KsQuerySoftwareBusInterface</a> routine.
+Pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksquerysoftwarebusinterface">KsQuerySoftwareBusInterface</a> routine.
 
 ## -remarks
 
-A driver obtains a BUS_INTERFACE_SWENUM interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
+A driver obtains a BUS_INTERFACE_SWENUM interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
 
 <ul>
 <li>
@@ -96,4 +96,3 @@ If your request is successful, the system fills in the BUS_INTERFACE_SWENUM stru
 
 </li>
 </ul>
-

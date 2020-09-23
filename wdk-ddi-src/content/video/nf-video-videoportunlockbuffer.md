@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>VideoPortUnLockBuffer</b> function unlocks physical pages described by the specified memory descriptor list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>).
+The <b>VideoPortUnLockBuffer</b> function unlocks physical pages described by the specified memory descriptor list (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>).
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Pointer to the miniport driver's device extension.
 ### -param Mdl 
 
 [in]
-Pointer to the MDL of the buffer to be released. This parameter should be the same pointer that was returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a>.
+Pointer to the MDL of the buffer to be released. This parameter should be the same pointer that was returned by <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a>.
 
 ## -returns
 
@@ -66,5 +66,4 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a>

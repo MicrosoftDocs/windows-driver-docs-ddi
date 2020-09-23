@@ -58,7 +58,7 @@ The WSK_EXTENSION_CONTROL_IN structure specifies a WSK application's implementat
 ### -field NpiId
 
 A pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> identifier that identifies the extension interface.
 
 ### -field ClientContext
@@ -80,18 +80,17 @@ A pointer to a structure that contains the WSK application's dispatch table of e
 
 A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to the WSK subsystem when
     registering an extension interface. For more information about registering an extension interface, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-an-extension-interface">Registering an Extension
+    <a href="/windows-hardware/drivers/network/registering-an-extension-interface">Registering an Extension
     Interface</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-register-extension">SIO_WSK_REGISTER_EXTENSION</a>
+<a href="/windows-hardware/drivers/network/sio-wsk-register-extension">SIO_WSK_REGISTER_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_extension_control_out">WSK_EXTENSION_CONTROL_OUT</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_extension_control_out">WSK_EXTENSION_CONTROL_OUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>

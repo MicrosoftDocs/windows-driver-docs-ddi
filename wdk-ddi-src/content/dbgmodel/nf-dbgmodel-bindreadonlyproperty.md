@@ -39,7 +39,7 @@ api_name:
  - BindReadOnlyProperty
 ---
 
-# BindReadOnlyProperty function
+# BindReadOnlyProperty function (dbgmodel.h)
 
 
 ## -description

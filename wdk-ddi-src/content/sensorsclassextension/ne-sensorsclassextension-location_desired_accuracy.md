@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>LOCATION_DESIRED_ACCURACY </b>enumeration type defines values for the <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY</a> property.
+The <b>LOCATION_DESIRED_ACCURACY </b>enumeration type defines values for the <a href="/windows-hardware/drivers/sensors/sensor-properties2">SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY</a> property.
 
 ## -enum-fields
 
@@ -60,5 +60,4 @@ Indicates that the sensor should deliver the highest-accuracy report possible. T
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>
-
+<a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>

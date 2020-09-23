@@ -52,7 +52,7 @@ The **IoCheckQuerySetVolumeInformation** routine checks the validity of the para
 
 ### -param FsInformationClass
 
-A [FS_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_fsinfoclass) enum value that specifies the information class to be checked.
+A [FS_INFORMATION_CLASS](../wdm/ne-wdm-_fsinfoclass.md) enum value that specifies the information class to be checked.
 
 ### -param Length
 
@@ -77,9 +77,8 @@ Boolean value that specifies the operation type. If *SetOperation* is **TRUE**, 
 
 ## -see-also
 
-[FS_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_fsinfoclass)
+[FS_INFORMATION_CLASS](../wdm/ne-wdm-_fsinfoclass.md)
 
-[ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwqueryvolumeinformationfile)
+[ZwQueryVolumeInformationFile](../ntddk/nf-ntddk-zwqueryvolumeinformationfile.md)
 
-[ZwSetVolumeInformationFile](https://msdn.microsoft.com/library/windows/hardware/ff567112(d=robot))
-
+[ZwSetVolumeInformationFile](./nf-ntifs-zwsetvolumeinformationfile.md)

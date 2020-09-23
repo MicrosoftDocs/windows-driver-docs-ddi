@@ -42,7 +42,7 @@ api_name:
  - RILC2KMRLPARAMMASK
 ---
 
-# RILC2KMRLPARAMMASK enumeration
+# RILC2KMRLPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

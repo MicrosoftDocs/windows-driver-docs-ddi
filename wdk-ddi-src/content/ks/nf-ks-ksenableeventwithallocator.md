@@ -93,7 +93,7 @@ Optionally contains the size of each KSEVENT_ITEM structure in each list of even
 
 #### - EventsFlags [in, optional]
 
-Specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
+Specifies <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
 
 ## -returns
 
@@ -102,4 +102,3 @@ Same as <b>KsEnableEvent</b>, which returns STATUS_SUCCESS if successful, or an 
 ## -remarks
 
 If the optional allocator callback is used, the filter may need to free the buffer in some nonconventional manner. Note that the IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
-

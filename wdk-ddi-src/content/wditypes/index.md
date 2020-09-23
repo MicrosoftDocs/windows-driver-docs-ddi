@@ -8,6 +8,9 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+f1_keywords:
+ - wditypes
+ - wditypes/wditypes
 ---
 
 # Wditypes.h header
@@ -15,7 +18,7 @@ ms.topic: portal
 
 ## -description
 
-
 This header is used by netvista. For more information, see:
 
 - [Networking drivers for Windows Vista and later](../_netvista/index.md)
+

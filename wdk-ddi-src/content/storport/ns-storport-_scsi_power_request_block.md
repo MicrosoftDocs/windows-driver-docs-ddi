@@ -45,7 +45,7 @@ api_name:
  - SCSI_POWER_REQUEST_BLOCK
 ---
 
-# _SCSI_POWER_REQUEST_BLOCK structure
+# _SCSI_POWER_REQUEST_BLOCK structure (storport.h)
 
 
 ## -description
@@ -54,7 +54,7 @@ The **SCSI_POWER_REQUEST_BLOCK** structure is a special version of a [**SCSI_REQ
 
 > [!NOTE]
 >
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -struct-fields
 
@@ -140,7 +140,7 @@ Reserved for system use.
 
 The Storport driver calls [**HwStorBuildIo**](nc-storport-hw_buildio.md) to pass SRBs to the miniport driver. **HwStorBuildIo** should check the **Function** member of the SRB to determine the type of the SRB. If the **Function** member is set to SRB_FUNCTION_POWER, the SRB is a structure of type **SCSI_POWER_REQUEST_BLOCK**.
 
-The Storport driver sends **SCSI_POWER_REQUEST_BLOCK** requests to a miniport driver to notify the miniport driver of Windows power events that affect storage devices that are connected to the adapter. In the case of a power up event, this request gives the miniport driver an opportunity to initialize itself. In the case of a hibernation or shutdown event, this request gives the miniport driver an opportunity to complete I/O requests and prepare for a power down. The miniport driver can use the value in the **PowerAction** member of the **SCSI_POWER_REQUEST_BLOCK** to determine what actions are required. After the miniport driver completes the **SCSI_POWER_REQUEST_BLOCK** request, the Storport driver calls [**HwScsiAdapterControl**](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557274(v=vs.85)) with a control request of **ScsiStopAdapter** to power down the adapter. The miniport driver reinitialize while processing the SRB_FUNCTION_POWER request, or it can wait and reinitialize when the Storport driver calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) to perform a an **ScsiRestartAdapter** control request.
+The Storport driver sends **SCSI_POWER_REQUEST_BLOCK** requests to a miniport driver to notify the miniport driver of Windows power events that affect storage devices that are connected to the adapter. In the case of a power up event, this request gives the miniport driver an opportunity to initialize itself. In the case of a hibernation or shutdown event, this request gives the miniport driver an opportunity to complete I/O requests and prepare for a power down. The miniport driver can use the value in the **PowerAction** member of the **SCSI_POWER_REQUEST_BLOCK** to determine what actions are required. After the miniport driver completes the **SCSI_POWER_REQUEST_BLOCK** request, the Storport driver calls [**HwScsiAdapterControl**](/previous-versions/windows/hardware/drivers/ff557274(v=vs.85)) with a control request of **ScsiStopAdapter** to power down the adapter. The miniport driver reinitialize while processing the SRB_FUNCTION_POWER request, or it can wait and reinitialize when the Storport driver calls [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) to perform a an **ScsiRestartAdapter** control request.
 
  When transitioning from the D0 power state to a lower-powered state (D1, D2, or D3) the Storport driver sends a **SCSI_POWER_REQUEST_BLOCK** request to the miniport driver before the underlying bus driver powers down the adapter.
 
@@ -158,4 +158,3 @@ The following conditions must exist before the Storport driver will send a **SCS
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
 [**StorPortNotification**](hnf-storport-storportnotification.md)
-

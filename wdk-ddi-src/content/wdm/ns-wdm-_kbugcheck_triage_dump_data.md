@@ -1,10 +1,8 @@
 ---
 UID: NS:wdm._KBUGCHECK_TRIAGE_DUMP_DATA
 title: _KBUGCHECK_TRIAGE_DUMP_DATA
-author: windows-driver-content
 description: 
 ms.assetid: 661d08be-f322-43ad-939c-8a4441d4d312
-ms.author: windowsdriverdev
 ms.date: 06/03/2019
 keywords: ["KBUGCHECK_TRIAGE_DUMP_DATA structure"]
 ms.prod: windows-hardware
@@ -48,7 +46,7 @@ product:
 
 ## -description
 
-The <b>_KBUGCHECK_TRIAGE_DUMP_DATA</b> structure describes dump data used in conjunction with the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine.
+The <b>_KBUGCHECK_TRIAGE_DUMP_DATA</b> structure describes dump data used in conjunction with the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine.
 
 ## -struct-fields
 
@@ -92,11 +90,10 @@ Bug Check Parameter 4. The bug check parameters inform the callback the bugcheck
 
 ## -remarks
 
-The driver receives a structure of this type as a parameter to its [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine.
+The driver receives a structure of this type as a parameter to its [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine.
 
-From the callback routine, the driver calls the [**KeAddTriageDumpDataBlock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keaddtriagedumpdatablock) function to modify a dump data array.
+From the callback routine, the driver calls the [**KeAddTriageDumpDataBlock**](./nf-wdm-keaddtriagedumpdatablock.md) function to modify a dump data array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
-
+<a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.

@@ -39,7 +39,7 @@ api_name:
  - BindProperty
 ---
 
-# BindProperty function
+# BindProperty function (dbgmodel.h)
 
 
 ## -description
@@ -72,7 +72,7 @@ This function returns Microsoft::WRL::ComPtr<[IModelPropertyAccessor](nn-dbgmode
 This sample code shows usage of the BindProperty function.
 
 > [!NOTE]
->The code sample uses the recommended DbgModelClientEx.h library header available from GitHub. For more information, see [Using the DbgModelClientEx Library](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview#-using-the-dbgmodelclientex-library).
+>The code sample uses the recommended DbgModelClientEx.h library header available from GitHub. For more information, see [Using the DbgModelClientEx Library](/windows-hardware/drivers/debugger/data-model-cpp-overview#-using-the-dbgmodelclientex-library).
 >
 > To see how the DbgModelClientEx library are used, for example, specifying the Debugger::DataModel namespaces, review the Data Model HelloWorld C++ sample:
 > https://github.com/microsoft/WinDbg-Samples/tree/master/DataModelHelloWorld/Cpp
@@ -108,5 +108,4 @@ Object instance = factory.CreateInstance(MyNativeType { L"Foo", 42, 37 });
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
-
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

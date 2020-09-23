@@ -57,7 +57,7 @@ The <b>D3DKMTOpenResource</b> function opens a shared resource.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openresource">D3DKMT_OPENRESOURCE</a> structure that contains parameters for opening a shared resource.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openresource">D3DKMT_OPENRESOURCE</a> structure that contains parameters for opening a shared resource.
 
 ## -returns
 
@@ -68,12 +68,11 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |STATUS_SUCCESS|The resource was successfully opened.|
 |STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
-This function might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a> values.
+
+This function might also return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryresourceinfo">D3DKMTQueryResourceInfo</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openresource">D3DKMT_OPENRESOURCE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openresource">D3DKMT_OPENRESOURCE</a>

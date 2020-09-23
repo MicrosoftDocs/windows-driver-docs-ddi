@@ -42,7 +42,7 @@ api_name:
  - RILTDSCDMAMRLPARAMMASK
 ---
 
-# RILTDSCDMAMRLPARAMMASK enumeration
+# RILTDSCDMAMRLPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

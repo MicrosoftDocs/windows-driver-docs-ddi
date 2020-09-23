@@ -41,7 +41,7 @@ api_name:
  - KeEnterGuardedRegion
 ---
 
-# KeEnterGuardedRegion function
+# KeEnterGuardedRegion function (ntddk.h)
 
 
 ## -description
@@ -52,9 +52,8 @@ The <b>KeEnterGuardedRegion</b> routine enters a guarded region, which disables 
 
 To exit a guarded region entered with <b>KeEnterGuardedRegion</b>, call the <b>KeLeaveGuardedRegion</b> routine. Guarded regions can be nested. APCs are not reenabled until the thread exits the outermost guarded region.
 
-For more information about guarded regions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/critical-regions-and-guarded-regions">Critical Regions and Guarded Regions</a>.
+For more information about guarded regions, see <a href="/windows-hardware/drivers/kernel/critical-regions-and-guarded-regions">Critical Regions and Guarded Regions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleaveguardedregion">KeLeaveGuardedRegion</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleaveguardedregion">KeLeaveGuardedRegion</a>

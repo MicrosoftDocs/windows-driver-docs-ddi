@@ -41,7 +41,7 @@ api_name:
  - InterlockedAnd
 ---
 
-# InterlockedAnd function
+# InterlockedAnd function (wdm.h)
 
 
 ## -description
@@ -72,9 +72,8 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedor">InterlockedOr</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedor">InterlockedOr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedxor">InterlockedXor</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedxor">InterlockedXor</a>

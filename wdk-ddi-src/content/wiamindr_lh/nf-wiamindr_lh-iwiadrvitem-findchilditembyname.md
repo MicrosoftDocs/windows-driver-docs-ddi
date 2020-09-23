@@ -76,13 +76,12 @@ If the method succeeds, it stores a pointer to the found child item in *ppIChild
 
 ## -remarks
 
-Minidrivers typically use this method to search a driver item tree for a specific child item when the child item's name is known. The child item's full name is obtained in the  method [IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname).
+Minidrivers typically use this method to search a driver item tree for a specific child item when the child item's name is known. The child item's full name is obtained in the  method [IWiaDrvItem::GetFullItemName](./nf-wiamindr_lh-iwiadrvitem-getfullitemname.md).
 
 ## -see-also
 
-[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
+[IWiaDrvItem](./nn-wiamindr_lh-iwiadrvitem.md)
 
-[IWiaDrvItem::FindItemByName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-finditembyname)
+[IWiaDrvItem::FindItemByName](./nf-wiamindr_lh-iwiadrvitem-finditembyname.md)
 
-[IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname)
-
+[IWiaDrvItem::GetFullItemName](./nf-wiamindr_lh-iwiadrvitem-getfullitemname.md)

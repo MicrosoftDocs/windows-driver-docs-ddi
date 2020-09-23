@@ -53,26 +53,25 @@ The<b> KsFilterAddEvent</b> function adds an event to <i>Filter</i>'s event list
 ### -param Filter 
 
 [in]
-<i>A pointer</i> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the filter to which to add a specified event.
+<i>A pointer</i> to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the filter to which to add a specified event.
 
 ### -param EventEntry 
 
 [in]
-<i>A pointer</i> to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing the event to add to <i>Filter</i>.
+<i>A pointer</i> to an <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing the event to add to <i>Filter</i>.
 
 ## -remarks
 
-This function is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent">KsAddEvent</a>.
+This function is an inline function call to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent">KsAddEvent</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent">KsAddEvent</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent">KsAddEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgenerateevents">KsGenerateEvents</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgenerateevents">KsGenerateEvents</a>

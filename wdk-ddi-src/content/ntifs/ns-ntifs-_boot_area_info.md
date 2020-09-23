@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>BOOT_AREA_INFO</b> structure contains the output for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-boot-area-info">FSCTL_GET_BOOT_AREA_INFO</a> control code.
+The <b>BOOT_AREA_INFO</b> structure contains the output for the <a href="/windows-hardware/drivers/ifs/fsctl-get-boot-area-info">FSCTL_GET_BOOT_AREA_INFO</a> control code.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ The location of a boot sector or a copy of a boot sector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-boot-area-info">FSCTL_GET_BOOT_AREA_INFO</a>
-
+<a href="/windows-hardware/drivers/ifs/fsctl-get-boot-area-info">FSCTL_GET_BOOT_AREA_INFO</a>

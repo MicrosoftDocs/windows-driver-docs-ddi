@@ -53,12 +53,12 @@ The <i>CLIENT_ControllerSpecificFunction</i> event callback function performs an
 ### -param Context 
 
 [in]
-A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
+A pointer to the GPIO controller driver's <a href="/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>.
 
 ### -param Parameters 
 
 [in, out]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a> structure that contains the input and output buffers for the controller-specific operation.
+A pointer to a <a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a> structure that contains the input and output buffers for the controller-specific operation.
 
 ## -returns
 
@@ -95,7 +95,7 @@ The size of the input buffer or output buffer is too small.
 
 ## -remarks
 
-As an option, a GPIO controller driver can support <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a> requests. This type of I/O control request (IOCTL) performs controller-specific operations for the benefit of peripheral device drivers that require these operations. To support this IOCTL, a GPIO controller driver implements a <i>CLIENT_ControllerSpecificFunction</i> function.
+As an option, a GPIO controller driver can support <a href="/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a> requests. This type of I/O control request (IOCTL) performs controller-specific operations for the benefit of peripheral device drivers that require these operations. To support this IOCTL, a GPIO controller driver implements a <i>CLIENT_ControllerSpecificFunction</i> function.
 
 The GPIO framework extension (GpioClx) supports the <i>CLIENT_ControllerSpecificFunction</i> function to address the specific needs of certain hardware platforms. Typical GPIO controller drivers do not implement this function. A peripheral device driver that uses <b>IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</b> requests to perform a hardware-specific operation on one platform risks the loss of compatibility with other platforms that do not support this operation.
 
@@ -108,47 +108,36 @@ If GpioClx receives an <b>IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</b> request, a
 
 #### Examples
 
-To define a <i>CLIENT_ControllerSpecificFunction</i> callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>CLIENT_ControllerSpecificFunction</i> callback function, you must first provide a function declaration that identifies the type of callback function you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>CLIENT_ControllerSpecificFunction</i> callback function that is named <code>MyEvtGpioControllerSpecificFunction</code>, use the GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION MyEvtGpioControllerSpecificFunction;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION MyEvtGpioControllerSpecificFunction;
+```
+
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 NTSTATUS
   MyEvtGpioControllerSpecificFunction(
     PVOID Context,
     PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS Parameters
     )
-{ ... }</pre>
-</td>
-</tr>
-</table></span></div>
-The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
+{ ... }
+```
+
+The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
-
+<a href="/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>

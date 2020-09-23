@@ -91,5 +91,4 @@ Callers of <b>VideoPortAllocatePool</b> can be running at IRQL = DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportfreepool">VideoPortFreePool</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportfreepool">VideoPortFreePool</a>

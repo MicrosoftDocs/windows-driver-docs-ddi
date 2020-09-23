@@ -63,15 +63,14 @@ If the queue is empty, <b>KeRundownQueue</b> returns <b>NULL</b>; otherwise, it 
 
 File systems call <b>KeRundownQueue</b> to discard all entries from a queue before freeing or reusing the queue object.
 
-If the queue object is to be reused, the caller must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keinitializequeue">KeInitializeQueue</a> after calling <b>KeRundownQueue</b>, in order to reinitialize the queue object before reusing it. 
+If the queue object is to be reused, the caller must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keinitializequeue">KeInitializeQueue</a> after calling <b>KeRundownQueue</b>, in order to reinitialize the queue object before reusing it. 
 
 <b>KeRundownQueue</b> returns no information about how many queued entries are discarded. 
 
 <b>KeRundownQueue</b> should never be called for a queue if any threads are waiting on the queue object.
 
-For more information about using driver-managed internal queues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Driver-Managed Queues</a>.
+For more information about using driver-managed internal queues, see <a href="/windows-hardware/drivers/ddi/index">Driver-Managed Queues</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keinitializequeue">KeInitializeQueue</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keinitializequeue">KeInitializeQueue</a>

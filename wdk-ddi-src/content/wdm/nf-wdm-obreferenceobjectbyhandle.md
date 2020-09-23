@@ -58,7 +58,7 @@ Specifies an open handle for an object.
 ### -param DesiredAccess 
 
 [in]
-Specifies the requested types of access to the object. The interpretation of this field is dependent on the object type. Do not use any generic access rights. For more information, see [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask).
+Specifies the requested types of access to the object. The interpretation of this field is dependent on the object type. Do not use any generic access rights. For more information, see [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask).
 
 ### -param ObjectType 
 
@@ -113,17 +113,16 @@ A pointer to the object body is retrieved from the object table entry and return
 
 If *AccessMode* is **UserMode**, the requested access is compared to the granted access for the object. If *AccessMode* is **KernelMode**, the handle should originate in the kernel address space.
 
-Starting with Windows 7, if *AccessMode* is **KernelMode** and handle is received from user address space, [Driver Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/driver-verifier) issues bugcheck C4, subcode F6.
+Starting with Windows 7, if *AccessMode* is **KernelMode** and handle is received from user address space, [Driver Verifier](/windows-hardware/drivers/devtest/driver-verifier) issues bugcheck C4, subcode F6.
 
 If the call succeeds, a pointer to the object body is returned to the caller and the pointer reference count is incremented. Incrementing this count prevents the object from being deleted while the pointer is being referenced. The caller must decrement the reference count with [ObDereferenceObject](nf-wdm-obdereferenceobject.md) as soon as it is done with the object.
 
 ## -see-also
 
-[ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
 [ObDereferenceObject](nf-wdm-obdereferenceobject.md)
 
 [ObReferenceObject](nf-wdm-obfreferenceobject.md)
 
 [ObReferenceObjectByPointer](nf-wdm-obreferenceobjectbypointer.md)
-

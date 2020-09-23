@@ -1,11 +1,9 @@
 ---
 UID: NE:dispmprt._EMULATOR_PORT_ACCESS_TYPE
 title: _EMULATOR_PORT_ACCESS_TYPE
-author: windows-driver-content
 description: Specifies the port access type.
 tech.root: display
 ms.assetid: f1ed6d8e-9584-46d4-b4e8-edfbe7c6b5a7
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["EMULATOR_PORT_ACCESS_TYPE enumeration"]
 ms.keywords: _EMULATOR_PORT_ACCESS_TYPE, EMULATOR_PORT_ACCESS_TYPE, *PEMULATOR_PORT_ACCESS_TYPE,

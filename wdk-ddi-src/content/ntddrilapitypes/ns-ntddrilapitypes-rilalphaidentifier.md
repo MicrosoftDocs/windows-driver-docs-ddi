@@ -43,7 +43,7 @@ api_name:
  - RILALPHAIDENTIFIER
 ---
 
-# RILALPHAIDENTIFIER structure
+# RILALPHAIDENTIFIER structure (ntddrilapitypes.h)
 
 
 ## -description

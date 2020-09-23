@@ -7,7 +7,7 @@ ms.assetid: a37af139-8c98-4733-b2d2-cb0c9d67de35
 ms.date: 07/13/2018
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE callback function"]
 req.header: netreceivescaling.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -139,5 +139,4 @@ MyEvtNetAdapterReceiveScalingEnable(
 
 *[EvtNetAdapterReceiveScalingDisable](nc-netreceivescaling-evt_net_adapter_receive_scaling_disable.md)*
 
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
-
+[NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)

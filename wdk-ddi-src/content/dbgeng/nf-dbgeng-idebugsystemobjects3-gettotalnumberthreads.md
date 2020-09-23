@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The <b>GetTotalNumberThreads</b> method returns the total number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a> for all the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in the current target, in addition to the largest number of threads in any process for the current target.
+The <b>GetTotalNumberThreads</b> method returns the total number of <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a> for all the <a href="/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in the current target, in addition to the largest number of threads in any process for the current target.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Receives the largest number of threads in any process for the current target.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -87,5 +87,4 @@ The method was successful.
 
 ## -remarks
 
-For more information about threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
-
+For more information about threads, see <a href="/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.

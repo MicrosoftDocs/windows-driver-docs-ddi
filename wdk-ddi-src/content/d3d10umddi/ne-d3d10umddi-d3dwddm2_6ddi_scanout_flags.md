@@ -1,11 +1,9 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_6DDI_SCANOUT_FLAGS
 title: D3DWDDM2_6DDI_SCANOUT_FLAGS
-author: windows-driver-content
 description: Indicates the transformation requirement in preparation for a flip operation.
 tech.root: display
 ms.assetid: 540df0eb-85df-4793-b70a-4035a32cf716
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration"]
 ms.keywords: D3DWDDM2_6DDI_SCANOUT_FLAGS, D3DWDDM2_6DDI_SCANOUT_FLAGS,

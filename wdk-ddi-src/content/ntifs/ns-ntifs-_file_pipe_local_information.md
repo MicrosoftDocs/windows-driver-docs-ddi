@@ -183,5 +183,4 @@ The type of the named pipe end, which specifies whether this is the client or th
 
 ## -remarks
 
-For information about pipes, see <a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes</a>.
-
+For information about pipes, see <a href="/windows/desktop/ipc/pipes">Pipes</a>.

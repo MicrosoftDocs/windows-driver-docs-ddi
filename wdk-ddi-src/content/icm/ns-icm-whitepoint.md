@@ -5,32 +5,36 @@ description: The Whitepoint structure encapsulates a display whitepoint.
 ms.assetid: 15925576-f238-430f-885b-879de5716710
 ms.date: 08/14/2020
 keywords: ["WhitePoint structure"]
-ms.keywords: WhitePoint, WhitePoint, 
+ms.keywords: WhitePoint, WhitePoint,
 req.header: icm.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: WhitePoint
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- icm.h
-api_name: 
-- WhitePoint
 targetos: Windows
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - icm.h
+api_name:
+ - WhitePoint
+f1_keywords:
+ - WhitePoint
+ - icm/WhitePoint
 ---
 
 # WhitePoint structure
+
 
 ## -description
 
@@ -52,3 +56,4 @@ The Whitepoint structure encapsulates a display whitepoint in various ways:
 Set the type enum to the preferred expression type and populate the corresponding data entry in the union.
 
 ## -see-also
+

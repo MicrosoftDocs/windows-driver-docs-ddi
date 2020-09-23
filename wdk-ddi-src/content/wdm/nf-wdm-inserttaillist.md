@@ -46,49 +46,48 @@ api_name:
 
 ## -description
 
-The <b>InsertTailList</b> routine inserts an entry at the tail of a doubly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structures.
+The <b>InsertTailList</b> routine inserts an entry at the tail of a doubly linked list of <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structures.
 
 ## -parameters
 
 ### -param ListHead 
 
 [in, out]
-Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of the list.
+Pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of the list.
 
 ### -param Entry 
 
 [in, out]
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be inserted in the list.
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be inserted in the list.
 
 ## -remarks
 
 <b>InsertTailList</b> updates <i>ListHead</i>-><b>Blink</b> to point to <i>Entry</i>. It updates <i>Entry</i>-><b>Blink</b> to point to the old last entry in the list, and sets <i>Entry</i>-><b>Flink</b> to <i>ListHead</i>. The <b>Flink</b> of the previous last entry is updated to point to <i>Entry</i> as well.
 
-For information about using this routine when implementing a doubly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
+For information about using this routine when implementing a doubly linked list, see <a href="/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 Callers of <b>InsertTailList</b> can be running at any IRQL. If <b>InsertTailList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for <i>ListHead</i> and the list entries must be resident.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545402">ExInterlockedInsertTailList</a>
+<a href="/previous-versions/ff545402(v=vs.85)">ExInterlockedInsertTailList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty">IsListEmpty</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-islistempty">IsListEmpty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist">RemoveTailList</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-removetaillist">RemoveTailList</a>

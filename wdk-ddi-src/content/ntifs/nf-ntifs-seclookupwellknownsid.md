@@ -523,13 +523,12 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554795">SecLookupAccountName</a>
+<a href="/previous-versions/ff554795(v=vs.85)">SecLookupAccountName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556579">SecLookupAccountSid</a>
-
+<a href="/previous-versions/ff556579(v=vs.85)">SecLookupAccountSid</a>

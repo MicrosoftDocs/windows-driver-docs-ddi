@@ -68,23 +68,22 @@ An integer in the range 0 - 511 that supplies the record sequence number.
 
 ## -returns
 
-<b>ClfsLsnCreate</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that represents the container identifier, block offset, and record sequence number supplied by the caller.
+<b>ClfsLsnCreate</b> returns a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that represents the container identifier, block offset, and record sequence number supplied by the caller.
 
 ## -remarks
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 systems.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnblockoffset">ClfsLsnBlockOffset</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnblockoffset">ClfsLsnBlockOffset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsncontainer">ClfsLsnContainer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsncontainer">ClfsLsnContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnrecordsequence">ClfsLsnRecordSequence</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfslsnrecordsequence">ClfsLsnRecordSequence</a>

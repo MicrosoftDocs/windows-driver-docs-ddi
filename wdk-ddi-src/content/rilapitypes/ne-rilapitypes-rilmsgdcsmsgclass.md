@@ -41,7 +41,7 @@ api_name:
  - RILMSGDCSMSGCLASS
 ---
 
-# RILMSGDCSMSGCLASS enumeration
+# RILMSGDCSMSGCLASS enumeration (rilapitypes.h)
 
 
 ## -description

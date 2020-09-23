@@ -1,16 +1,14 @@
 ---
 UID: NF:netadapter.NetAdapterWakeSetPacketFilterCapabilities
 title: NetAdapterWakeSetPacketFilterCapabilities function (netadapter.h)
-author: windows-driver-content
 description: The NetAdapterWakeSetPacketFilterCapabilities function sets a net adapter's packet filter wake on LAN (WoL) capabilities.
 tech.root: netvista
 ms.assetid: dc2bb935-961f-4a34-a01f-a94cb43e9373
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetPacketFilterCapabilities function"]
 ms.keywords: NetAdapterWakeSetPacketFilterCapabilities
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -70,7 +68,7 @@ Client drivers must call [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_packet_filter_capabilities.md)
 
@@ -81,4 +79,3 @@ Client drivers must call [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](
 [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)
-

@@ -41,7 +41,7 @@ api_name:
  - IoSizeOfIrp
 ---
 
-# IoSizeOfIrp macro
+# IoSizeOfIrp macro (wdm.h)
 
 
 ## -description
@@ -64,9 +64,8 @@ The input <i>StackSize</i> value is either that of the next-lower driver's devic
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp">IoMakeAssociatedIrp</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp">IoMakeAssociatedIrp</a>

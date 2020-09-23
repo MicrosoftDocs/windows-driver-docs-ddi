@@ -47,7 +47,7 @@ api_name:
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -58,7 +58,7 @@ This request is processed immediately after the I/O manager calls the parallel p
 
 Kernel-mode clients can directly determine if a parallel port is free by calling the system-supplied <a href="..\parallel\nc-parallel-pparallel_try_allocate_routine.md">PPARALLEL_TRY_ALLOCATE_ROUTINE</a> callback.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544195(v=vs.85)">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
+For more information, see <a href="/previous-versions/ff544195(v=vs.85)">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
 
 ## -ioctlparameters
 
@@ -106,4 +106,3 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than the
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
-

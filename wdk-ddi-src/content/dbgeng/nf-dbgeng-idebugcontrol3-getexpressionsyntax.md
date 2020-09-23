@@ -61,17 +61,17 @@ Receives the expression syntax.  It is set to one of the following values:
 
 #### DEBUG_EXPR_MASM
 
-Expressions will be evaluated according to MASM syntax. For details of this syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/masm-numbers-and-operators">MASM Numbers and Operators</a>.
+Expressions will be evaluated according to MASM syntax. For details of this syntax, see <a href="/windows-hardware/drivers/debugger/masm-numbers-and-operators">MASM Numbers and Operators</a>.
 
 
 
 #### DEBUG_EXPR_CPLUSPLUS
 
-Expressions will be evaluated according to C++ syntax. For details of this syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/c---numbers-and-operators">C++ Numbers and Operators</a>.
+Expressions will be evaluated according to C++ syntax. For details of this syntax, see <a href="/windows-hardware/drivers/debugger/c---numbers-and-operators">C++ Numbers and Operators</a>.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -93,17 +93,16 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-evaluate">Evaluate</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-evaluate">Evaluate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntax">SetExpressionSyntax</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntax">SetExpressionSyntax</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setexpressionsyntaxbyname">SetExpressionSyntaxByName</a>

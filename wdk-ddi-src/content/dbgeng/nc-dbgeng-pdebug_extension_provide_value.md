@@ -46,17 +46,12 @@ api_name:
 
 ## -description
 
-The <b>DebugExtensionProvideValue</b> callback function sets <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">pseudo-register</a> values.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;</pre>
-</td>
-</tr>
-</table></span></div>
+The <b>DebugExtensionProvideValue</b> callback function sets <a href="/windows-hardware/drivers/debugger/registers">pseudo-register</a> values.
+
+```cpp
+ CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
+```
+
 
 ## -parameters
 
@@ -73,7 +68,7 @@ Provides behavioral flags. This parameter is currently reserved.
 ### -param Name 
 
 [in]
-The name of the value to return. This name might be one of the names that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_query_value_names">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
+The name of the value to return. This name might be one of the names that the <a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_query_value_names">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
 
 ### -param Value 
 
@@ -145,7 +140,7 @@ The function was successfully completed.
 </table>
  
 
-This function might also return error values. For more information about possible return values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
+This function might also return error values. For more information about possible return values, see <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 ## -remarks
 
@@ -155,7 +150,7 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
 
 
 
@@ -172,4 +167,3 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 <i>KnownStructOutput</i>
-

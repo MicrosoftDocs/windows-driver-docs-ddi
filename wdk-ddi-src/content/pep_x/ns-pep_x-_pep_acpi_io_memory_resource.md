@@ -45,7 +45,7 @@ api_name:
  - PEP_ACPI_IO_MEMORY_RESOURCE
 ---
 
-# _PEP_ACPI_IO_MEMORY_RESOURCE structure
+# _PEP_ACPI_IO_MEMORY_RESOURCE structure (pep_x.h)
 
 
 ## -description
@@ -56,7 +56,7 @@ The <b>PEP_ACPI_IO_MEMORY_RESOURCE</b> structure describes an ACPI IO port descr
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a> enumeration value that identifies the resource type for this ACPI resource.
+A <a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a> enumeration value that identifies the resource type for this ACPI resource.
 
 ### -field Information
 
@@ -82,5 +82,4 @@ Specifies the number of bytes in the IO range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a>

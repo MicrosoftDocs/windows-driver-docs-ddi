@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>DEBUG_REGISTER_DESCRIPTION</b> structure is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getdescription">GetDescription</a> to describe a processor's register.
+The <b>DEBUG_REGISTER_DESCRIPTION</b> structure is returned by <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getdescription">GetDescription</a> to describe a processor's register.
 
 ## -struct-fields
 
 ### -field Type
 
-The type of value that this register holds.  The possible values are the same as for the <b>Type</b> field in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> structure.
+The type of value that this register holds.  The possible values are the same as for the <b>Type</b> field in the <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> structure.
 
 ### -field Flags
 
@@ -86,5 +86,4 @@ Reserved for system use.
 
 If this register is a subregister, the value of the full register can be turned into the value of the sub-register by first shifting <b>SubregShift</b> bits to the right and then combining the result with <b>SubregMask</b> using the bitwise-AND operator.  The size of the sub-register (<b>SubregLength</b>) is the number of bits set in <b>SubregMask</b>.
 
-For general information about registers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
-
+For general information about registers, see <a href="/windows-hardware/drivers/debugger/registers">Registers</a>.

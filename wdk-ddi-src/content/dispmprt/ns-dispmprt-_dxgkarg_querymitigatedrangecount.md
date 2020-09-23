@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKARG_QUERYMITIGATEDRANGECOUNT
 title: _DXGKARG_QUERYMITIGATEDRANGECOUNT
-author: windows-driver-content
 description: Arguments used to query mitigated range count.
 tech.root: display
 ms.assetid: f9cf3b82-a035-4089-9737-eeb1075a1ff7
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYMITIGATEDRANGECOUNT structure"]
 ms.prod: windows-hardware

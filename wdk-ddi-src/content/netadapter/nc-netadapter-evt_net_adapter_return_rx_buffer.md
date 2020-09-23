@@ -7,7 +7,7 @@ ms.assetid: E999C47A-CAE1-42AB-9900-4118EFFAEE0D
 ms.date: 09/27/2019
 keywords: ["EVT_NET_ADAPTER_RETURN_RX_BUFFER callback function"]
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

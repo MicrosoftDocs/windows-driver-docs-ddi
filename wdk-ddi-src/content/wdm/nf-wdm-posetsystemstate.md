@@ -77,17 +77,16 @@ A user is present.
 
 ## -remarks
 
-A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
+A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
 
 The <i>Flags</i> parameter specifies the type of activity occurring. Drivers can specify any combination of the flags.
 
-Drivers can set the system busy state to request that the system avoid leaving of the working state while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a> may override this request and put the system to sleep anyway.
+Drivers can set the system busy state to request that the system avoid leaving of the working state while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the <a href="/windows-hardware/drivers/kernel/power-manager">power manager</a> may override this request and put the system to sleep anyway.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>

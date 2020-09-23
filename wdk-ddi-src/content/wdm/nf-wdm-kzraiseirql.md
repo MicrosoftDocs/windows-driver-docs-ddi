@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-Raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-hardware-priorities).
+Raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor. For information about IRQLs, see [Managing Hardware Priorities](/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
 ## -parameters
 
@@ -60,4 +60,3 @@ The original (unraised) IRQL value to be used in a subsequent call to [**KzLower
 This function is same as the [**KeRaiseIrql**](nf-wdm-keraiseirql.md) function.
 
 ## -see-also
-

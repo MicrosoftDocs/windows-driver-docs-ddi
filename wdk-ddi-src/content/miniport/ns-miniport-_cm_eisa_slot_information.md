@@ -45,12 +45,12 @@ api_name:
  - CM_EISA_SLOT_INFORMATION
 ---
 
-# _CM_EISA_SLOT_INFORMATION structure
+# _CM_EISA_SLOT_INFORMATION structure (miniport.h)
 
 
 ## -description
 
-The <b>CM_EISA_SLOT_INFORMATION</b> structure defines EISA configuration header information returned by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a> for the input <i>BusDataType</i> =  <b>EisaConfiguration</b>, or by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a> for the inputs <i>BusDataType</i> =  <b>EisaConfiguration</b> and <i>Offset</i> = 0, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
+The <b>CM_EISA_SLOT_INFORMATION</b> structure defines EISA configuration header information returned by <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a> for the input <i>BusDataType</i> =  <b>EisaConfiguration</b>, or by <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a> for the inputs <i>BusDataType</i> =  <b>EisaConfiguration</b> and <i>Offset</i> = 0, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
 
 ## -struct-fields
 
@@ -88,7 +88,7 @@ The number at this slot.
 
 ### -field FunctionInformation
 
-Whether there is available <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_function_information">CM_EISA_FUNCTION_INFORMATION</a> for this slot.
+Whether there is available <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_function_information">CM_EISA_FUNCTION_INFORMATION</a> for this slot.
 
 ### -field CompressedId
 
@@ -102,13 +102,12 @@ The driver of an EISA device might call <b>HalGetBusData</b> or <b>HalGetBusData
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_function_information">CM_EISA_FUNCTION_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_function_information">CM_EISA_FUNCTION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>

@@ -50,9 +50,11 @@ Defines operations that control <b>WDTF</b> objects within a test script.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFCONFIG2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWDTFCONFIG2</b> also has these types of members:
+The <b>IWDTFCONFIG2</b> interface inherits from the <a href="/windows/win32/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
+
+<b>IWDTFCONFIG2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li>Methods</li>
 </ul>
 
 ## -remarks
@@ -64,13 +66,9 @@ object error logging is enabled by default.
 The following example shows the logging output for a call to 
 <b>DeviceDepot.Query("Volume::")</b> when logging is enabled for an example system.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 [ Ouput ]
 
 WDTF_TARGETS    : INFO  :  - Query("Volume::")
@@ -80,8 +78,5 @@ WDTF_TARGETS    : INFO  :          Target: HL-DT-ST RW/DVD MU10N ATA Device
 WDTF_TARGETS    : INFO  :          Target: Generic volume
 WDTF_TARGETS    : INFO  :          Target: Generic volume
 WDTF_TARGETS    : INFO  :          Target: Generic volume
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

@@ -100,5 +100,4 @@ None.
 
 If the request is successful, the <b>Information</b> member is set to the size, in bytes, of a UCHAR. Otherwise, <b>Information</b> is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the specified escape character is the same as the XON (transmit on) or the XOFF (transmit off) character, or that error replacement is enabled with handshake flow control.
-
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the specified escape character is the same as the XON (transmit on) or the XOFF (transmit off) character, or that error replacement is enabled with handshake flow control.

@@ -11,7 +11,7 @@ ms.keywords: WcsTranslateColors, WcsTranslateColors function [Print Devices], co
 req.header: icm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -25,20 +25,24 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mscms.dll
-api_name:
-- WcsTranslateColors
 targetos: Windows
 req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mscms.dll
+api_name:
+ - WcsTranslateColors
+f1_keywords:
+ - WcsTranslateColors
+ - icm/WcsTranslateColors
 ---
 
 # WcsTranslateColors function
+
 
 ## -description
 
@@ -60,13 +64,14 @@ The number of channels per element in the array pointed to by *pInputData*.
 
 ### -param cdtInput [in]
 
-The input [COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85)) color data type.
+The input [COLORDATATYPE](/previous-versions/ff546006(v=vs.85)) color data type.
 
 ### -param cbInput [in]
 
 The buffer size, in bytes, of *pInputData*.
 
 ### -param pInputData 
+
 [in]
 A pointer to an array of input colors.
 
@@ -76,13 +81,14 @@ The number of channels per element in the array pointed to by *pOutputData*.
 
 ### -param cdtOutput [in]
 
-The output [COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85)) color data type.
+The output [COLORDATATYPE](/previous-versions/ff546006(v=vs.85)) color data type.
 
 ### -param cbOutput [in]
 
 The buffer size, in bytes, of *pOutputData*.
 
 ### -param pOutputData 
+
 [out]
 A pointer to an array of colors that receives the results of the color translation.
 
@@ -92,4 +98,4 @@ If the input and the output color data types are not compatible with the color t
 
 ## -see-also
 
-[COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85))
+[COLORDATATYPE](/previous-versions/ff546006(v=vs.85))

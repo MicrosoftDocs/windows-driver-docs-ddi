@@ -1,11 +1,9 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_VECTOR
 title: PALLOCATE_COMMON_BUFFER_VECTOR
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: be2dd87e-6c09-4493-82ef-152dfce0917e
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["PALLOCATE_COMMON_BUFFER_VECTOR callback function"]
 req.header: wdm.h
@@ -72,7 +70,7 @@ Implemented by the client driver to ...
 ## -returns
 
 Returns NTSTATUS that ...
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -104,4 +102,3 @@ NTSTATUS PallocateCommonBufferVector
 Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 
 ## -see-also
-

@@ -90,9 +90,8 @@ Specifies a pointer that is passed to the callback function specified by <i>Call
 ### -param CallbackRoutine 
 
 [in]
-Specifies a function that is called for each entry in the linked list.  The parameters passed to the function are the <i>Context</i> pointer and a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a> structure; the address of the entry is found in the <b>address</b> member of this structure.
+Specifies a function that is called for each entry in the linked list.  The parameters passed to the function are the <i>Context</i> pointer and a <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a> structure; the address of the entry is found in the <b>address</b> member of this structure.
 
 ## -returns
 
 This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure.
-

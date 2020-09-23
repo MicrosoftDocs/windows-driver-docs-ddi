@@ -41,7 +41,7 @@ api_name:
  - RILSMSACKOPT
 ---
 
-# RILSMSACKOPT enumeration
+# RILSMSACKOPT enumeration (ntddrilapitypes.h)
 
 
 ## -description

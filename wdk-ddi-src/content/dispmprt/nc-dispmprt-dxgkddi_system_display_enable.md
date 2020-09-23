@@ -55,12 +55,12 @@ Starting with Windows 8, the operating system calls this function during a bugc
 ### -param MiniportDeviceContext 
 
 [in]
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 ### -param TargetId 
 
 [in]
-A D3DDDI_VIDEO_PRESENT_TARGET_ID value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPn) state during the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>.
+A D3DDDI_VIDEO_PRESENT_TARGET_ID value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPn) state during the previous call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>.
 
 For more details about the use of the <i>TargetId</i> parameter, see the following "Video present target initialization" section.
 
@@ -82,7 +82,7 @@ A UINT value that specifies the height of the display mode  of the specified dev
 ### -param ColorFormat 
 
 [out]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> value that specifies the color format of the display device.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> value that specifies the color format of the display device.
 
 ## -returns
 
@@ -95,26 +95,26 @@ The display miniport driver must follow these steps when its <i>DxgkDdiSystemDis
 
 <ol>
 <li>The driver must cancel all graphics processing unit (GPU) operations or reset the GPU to the idle state.</li>
-<li>The operating system indicates the video present target through the <i>TargetId</i> parameter. The driver  must keep the display associated with this target powered on and visible. If the driver cannot power on the display, it must fail the call to this function. In such a failure case, the operating system might call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_reset_device">DxgkDdiResetDevice</a> function and cause a system bugcheck to occur.</li>
+<li>The operating system indicates the video present target through the <i>TargetId</i> parameter. The driver  must keep the display associated with this target powered on and visible. If the driver cannot power on the display, it must fail the call to this function. In such a failure case, the operating system might call the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_reset_device">DxgkDdiResetDevice</a> function and cause a system bugcheck to occur.</li>
 <li>The driver must check the connectivity of the display associated with this target. If the target does not have a display connected, the driver must complete the call to this function and return the <b>STATUS_NOT_SUPPORTED</b> error code.</li>
 <li>The driver must disable the signal to all other displays that are connected to the display adapter. If this is not possible, the driver should attempt to place a blank image on all other displays. If this is not possible, the driver must leave the last image on the screen unchanged.</li>
 <li>The driver must keep the current display mode on the indicated target and provide this mode back to the operating system as part of this function call.</li>
 <li>
 If the driver cannot maintain the current display mode, or if the target is not part of the active topology, the driver should attempt to set a frame buffer on another target that is capable of a display resolution of at least 640 x 480 pixels in a format of 24 bits per pixel. If that is not possible, the driver can fail this function call, which will result in a system bugcheck and the display of a black screen.
 
-It is not required that the driver use a linear frame buffer mode. However, the driver should support write operations to this frame buffer from sources that have the  <b>D3DDDIFMT_A8R8G8B8</b> format of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration.
+It is not required that the driver use a linear frame buffer mode. However, the driver should support write operations to this frame buffer from sources that have the  <b>D3DDDIFMT_A8R8G8B8</b> format of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration.
 
 </li>
 </ol>
 <h3><a id="Source_image_restrictions"></a><a id="source_image_restrictions"></a><a id="SOURCE_IMAGE_RESTRICTIONS"></a>Source image restrictions</h3>
-After the driver gives the operating system control over display  functionality, the operating system can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> function to update the screen image and to write a block of images from specified sources to the screen that was reset by the <i>DxgkDdiSystemDisplayEnable</i> function.
+After the driver gives the operating system control over display  functionality, the operating system can call the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> function to update the screen image and to write a block of images from specified sources to the screen that was reset by the <i>DxgkDdiSystemDisplayEnable</i> function.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> provides the driver with the starting address of the source image as well as the stride, width, and height. The color format of the source image is always <b>D3DDDIFMT_X8R8G8B8</b>. The operating system guarantees that the source image is in non-paged memory.
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> provides the driver with the starting address of the source image as well as the stride, width, and height. The color format of the source image is always <b>D3DDDIFMT_X8R8G8B8</b>. The operating system guarantees that the source image is in non-paged memory.
 
-The  driver must write this source image to the current screen starting at the positions specified by the <i>PositionX</i> and <i>PositionY</i> parameters of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> function.
+The  driver must write this source image to the current screen starting at the positions specified by the <i>PositionX</i> and <i>PositionY</i> parameters of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> function.
 
-It is recommended that the driver use the CPU to write the image from the source to the frame buffer because a system bugcheck might be caused by repeated <a href="https://docs.microsoft.com/windows-hardware/drivers/display/timeout-detection-and-recovery">Timeout Detection and Recovery (TDR)</a> instances that result in the GPU being in an unknown condition.
+It is recommended that the driver use the CPU to write the image from the source to the frame buffer because a system bugcheck might be caused by repeated <a href="/windows-hardware/drivers/display/timeout-detection-and-recovery">Timeout Detection and Recovery (TDR)</a> instances that result in the GPU being in an unknown condition.
 
 <h3><a id="Use_non-paged_memory"></a><a id="use_non-paged_memory"></a><a id="USE_NON-PAGED_MEMORY"></a>Use non-paged memory</h3>
 Windows kernel-mode functions might not be available while this function is being called.
@@ -123,25 +123,24 @@ Windows kernel-mode functions might not be available while this function is bein
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_acquire_post_display_ownership">DxgkCbAcquirePostDisplayOwnership</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_acquire_post_display_ownership">DxgkCbAcquirePostDisplayOwnership</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_reset_device">DxgkDdiResetDevice</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_reset_device">DxgkDdiResetDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a>

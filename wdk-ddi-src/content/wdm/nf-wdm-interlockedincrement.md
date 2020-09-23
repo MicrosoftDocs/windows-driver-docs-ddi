@@ -46,7 +46,7 @@ api_name:
  - InterlockedIncrement
 ---
 
-# InterlockedIncrement function
+# InterlockedIncrement function (wdm.h)
 
 
 ## -description
@@ -76,17 +76,16 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545335">ExInterlockedAddLargeInteger</a>
+<a href="/previous-versions/ff545335(v=vs.85)">ExInterlockedAddLargeInteger</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545343">ExInterlockedAddUlong</a>
+<a href="/previous-versions/ff545343(v=vs.85)">ExInterlockedAddUlong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockeddecrement">InterlockedDecrement</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockeddecrement">InterlockedDecrement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedexchange">InterlockedExchange</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-interlockedexchange">InterlockedExchange</a>

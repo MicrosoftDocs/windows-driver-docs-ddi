@@ -52,7 +52,7 @@ This I/O control function resets the specified statistic's value to zero.
 
 ### -input-buffer
 
-[PosStringType](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstringtype) that names the statistic to reset to zero.
+[PosStringType](./ns-pointofservicedriverinterface-_posstringtype.md) that names the statistic to reset to zero.
 
 ### -input-buffer-length
 
@@ -76,7 +76,6 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
 ## -remarks
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
 
 - STATUS_NOT_SUPPORTED: Statistic updating or reporting is not supported.
-

@@ -107,5 +107,4 @@ Before using <b>MmFlushImageSection</b>, file system writers are strongly encour
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpurgecachesection">CcPurgeCacheSection</a>

@@ -41,7 +41,7 @@ api_name:
  - RILGSMMNMRPARAMMASK
 ---
 
-# RILGSMMNMRPARAMMASK enumeration
+# RILGSMMNMRPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
@@ -375,5 +375,4 @@ Same as RxLevel in serving cell
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
+<a href="/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>

@@ -52,7 +52,7 @@ The <code>IPrintOemDriverUni::DrvGetDriverSetting</code> method is provided by t
 
 ### -param pdriverobj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param Feature
 
@@ -124,7 +124,7 @@ When the <code>IPrintOemDriverUni::DrvGetDriverSetting</code> method is called, 
 
 <ul>
 <li>
-If <i>pFeatureKeyword</i> is a string, it must represent a feature name specified in a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/unidrv-minidrivers">Unidrv minidriver</a> GPD file
+If <i>pFeatureKeyword</i> is a string, it must represent a feature name specified in a <a href="/windows-hardware/drivers/print/unidrv-minidrivers">Unidrv minidriver</a> GPD file
 
 The method should return one or more NULL-terminated strings in the buffer pointed to by <i>pOutput</i>. Each string should represent the name of a currently selected option. The number of strings should be returned in <i>pdwOptionsReturned</i>.
 
@@ -134,4 +134,3 @@ If <i>pFeatureKeyword</i> is a constant, it must be one of the <b>OEMGDS_</b>-pr
 
 </li>
 </ul>
-

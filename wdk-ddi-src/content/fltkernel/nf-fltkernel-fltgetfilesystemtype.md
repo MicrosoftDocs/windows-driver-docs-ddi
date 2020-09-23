@@ -90,37 +90,36 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromfileobject">FltGetVolumeFromFileObject</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromfileobject">FltGetVolumeFromFileObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefrominstance">FltGetVolumeFromInstance</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefrominstance">FltGetVolumeFromInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromname">FltGetVolumeFromName</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumefromname">FltGetVolumeFromName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeinformation">FltGetVolumeInformation</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeinformation">FltGetVolumeInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeinstancefromname">FltGetVolumeInstanceFromName</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeinstancefromname">FltGetVolumeInstanceFromName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetvolumeproperties">FltGetVolumeProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisvolumewritable">FltIsVolumeWritable</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisvolumewritable">FltIsVolumeWritable</a>

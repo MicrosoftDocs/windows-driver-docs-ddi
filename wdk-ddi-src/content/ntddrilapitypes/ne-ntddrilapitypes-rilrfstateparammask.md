@@ -41,7 +41,7 @@ api_name:
  - RILRFSTATEPARAMMASK
 ---
 
-# RILRFSTATEPARAMMASK enumeration
+# RILRFSTATEPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

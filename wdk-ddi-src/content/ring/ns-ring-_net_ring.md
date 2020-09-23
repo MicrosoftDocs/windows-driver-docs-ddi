@@ -99,9 +99,8 @@ A byte array that contains the elements in the net ring. Typically, a client dri
 
 The **NET_RING** structure is a generic ring buffer, optimized for efficient access from a single thread. A **NET_RING** contains [**NET_PACKET**](../packet/ns-packet-_net_packet.md) or [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) elements.
 
-For more info about packet and fragment ring buffers, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions#storage-of-packet-descriptors).
+For more info about packet and fragment ring buffers, see [Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions#storage-of-packet-descriptors).
 
-For more info about using net rings, see [Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings).
+For more info about using net rings, see [Introduction to net rings](/windows-hardware/drivers/netcx/introduction-to-net-rings).
 
 ## -see-also
-

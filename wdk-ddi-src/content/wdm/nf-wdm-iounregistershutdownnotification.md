@@ -57,15 +57,14 @@ Pointer to the driver's device object.
 
 ## -remarks
 
-<b>IoUnregisterShutdownNotification</b> can be called by a driver only if that driver previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistershutdownnotification">IoRegisterShutdownNotification</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a> with the given <i>DeviceObject</i>. This routine is usually called from a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routine.
+<b>IoUnregisterShutdownNotification</b> can be called by a driver only if that driver previously called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistershutdownnotification">IoRegisterShutdownNotification</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a> with the given <i>DeviceObject</i>. This routine is usually called from a driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> routine.
 
 Calling <b>IoUnregisterShutdownNotification</b> cancels all shutdown notifications that have been registered for the given <i>DeviceObject</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistershutdownnotification">IoRegisterShutdownNotification</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistershutdownnotification">IoRegisterShutdownNotification</a>

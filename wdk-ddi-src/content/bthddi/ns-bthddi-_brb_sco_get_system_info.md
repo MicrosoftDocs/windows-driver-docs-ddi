@@ -54,7 +54,7 @@ The _BRB_SCO_GET_SYSTEM_INFO structure describes information about the local sys
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field Features
@@ -126,8 +126,8 @@ Reserved for future use. Do not use.
 ## -remarks
 
 To get the local system's support for SCO connections, profile drivers should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/previous-versions/ff536625(v=vs.85)">BRB_SCO_GET_SYSTEM_INFO</a> request.
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/previous-versions/ff536625(v=vs.85)">BRB_SCO_GET_SYSTEM_INFO</a> request.
 
 Higher-level profile drivers can build and send a <b>BRB_SCO_GET_SYSTEM_INFO</b> request to determine whether
     the local Bluetooth driver stack supports SCO connections, the maximum number of SCO channels that the
@@ -135,9 +135,8 @@ Higher-level profile drivers can build and send a <b>BRB_SCO_GET_SYSTEM_INFO</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536625(v=vs.85)">BRB_SCO_GET_SYSTEM_INFO</a>
-
+<a href="/previous-versions/ff536625(v=vs.85)">BRB_SCO_GET_SYSTEM_INFO</a>

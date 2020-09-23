@@ -54,23 +54,22 @@ The<b> KsStreamPointerGetMdl </b>function returns the MDL associated with the fr
 ### -param StreamPointer 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure that references the frame for which to return the associated MDL.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure that references the frame for which to return the associated MDL.
 
 ## -returns
 
-Returns either a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">memory descriptor list (MDL)</a> describing the frame referenced by <i>StreamPointer</i> or returns <b>NULL</b>. A <b>NULL</b> return value usually indicates that the given stream pointer was not locked at call-time.
+Returns either a pointer to the <a href="/windows-hardware/drivers/">memory descriptor list (MDL)</a> describing the frame referenced by <i>StreamPointer</i> or returns <b>NULL</b>. A <b>NULL</b> return value usually indicates that the given stream pointer was not locked at call-time.
 
 ## -remarks
 
 The stream pointer <b>must</b> be locked in order for <b>KsStreamPointerGetMdl </b>to execute successfully.
 
-Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-pointers">Stream Pointers</a>.
+Also see <a href="/windows-hardware/drivers/stream/stream-pointers">Stream Pointers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointergetirp">KsStreamPointerGetIrp</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointergetirp">KsStreamPointerGetIrp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerlock">KsStreamPointerLock</a>
-
+<a href="/windows-hardware/drivers/devtest/ks-ksstreampointerlock">KsStreamPointerLock</a>

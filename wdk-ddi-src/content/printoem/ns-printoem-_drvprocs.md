@@ -58,42 +58,42 @@ All of the functions pointed to by members of this structure are obsolete. For i
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwritespoolbuf">DrvWriteSpoolBuf</a>
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwritespoolbuf">DrvWriteSpoolBuf</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvxmoveto">DrvXMoveTo</a>
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvxmoveto">DrvXMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvymoveto">DrvYMoveTo</a>
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvymoveto">DrvYMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a>
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetstandardvariable">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetstandardvariable">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvunidrivertextout">DrvUnidriverTextOut</a>
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvunidrivertextout">DrvUnidriverTextOut</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwriteabortbuf">DrvWriteAbortBuf</a>
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwriteabortbuf">DrvWriteAbortBuf</a>
 
 
 </dd>
@@ -114,4 +114,3 @@ All of the functions pointed to by members of this structure are obsolete. For i
 ### -field DrvUnidriverTextOut
 
 ### -field DrvWriteAbortBuf
-

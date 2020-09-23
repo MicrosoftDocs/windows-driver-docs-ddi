@@ -9,13 +9,15 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: wdf
+f1_keywords:
+ - wdfpdo
+ - wdfpdo/wdfpdo
 ---
 
 # Wdfpdo.h header
 
 
 ## -description
-
 
 This header is used by wdf. For more information, see:
 
@@ -34,52 +36,52 @@ The categories on this page are:
 
 ## Framework PDO Event Callbacks
 
-- [*EvtDeviceDisableWakeAtBus*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_disable_wake_at_bus)
-- [*EvtDeviceEject*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_eject)
-- [*EvtDeviceEnableWakeAtBus*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_enable_wake_at_bus)
-- [*EvtDeviceReportedMissing*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_reported_missing)
-- [*EvtDeviceResourceRequirementsQuery*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query)
-- [*EvtDeviceResourcesQuery*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_resources_query)
-- [*EvtDeviceSetLock*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_set_lock)
+- [*EvtDeviceDisableWakeAtBus*](./nc-wdfpdo-evt_wdf_device_disable_wake_at_bus.md)
+- [*EvtDeviceEject*](./nc-wdfpdo-evt_wdf_device_eject.md)
+- [*EvtDeviceEnableWakeAtBus*](./nc-wdfpdo-evt_wdf_device_enable_wake_at_bus.md)
+- [*EvtDeviceReportedMissing*](./nc-wdfpdo-evt_wdf_device_reported_missing.md)
+- [*EvtDeviceResourceRequirementsQuery*](./nc-wdfpdo-evt_wdf_device_resource_requirements_query.md)
+- [*EvtDeviceResourcesQuery*](./nc-wdfpdo-evt_wdf_device_resources_query.md)
+- [*EvtDeviceSetLock*](./nc-wdfpdo-evt_wdf_device_set_lock.md)
 
 ## Framework PDO Initialization Methods
 
-- [**WdfPdoInitAddCompatibleID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitaddcompatibleid)
-- [**WdfPdoInitAddDeviceText**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitadddevicetext)
-- [**WdfPdoInitAddHardwareID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitaddhardwareid)
-- [**WdfPdoInitAllocate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitallocate)
-- [**WdfPdoInitAllowForwardingRequestToParent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitallowforwardingrequesttoparent)
-- [**WdfPdoInitAssignContainerID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassigncontainerid)
-- [**WdfPdoInitAssignDeviceID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassigndeviceid)
-- [**WdfPdoInitAssignInstanceID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassigninstanceid)
-- [**WdfPdoInitAssignRawDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassignrawdevice)
-- [**WdfPdoInitSetDefaultLocale**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitsetdefaultlocale)
-- [**WdfPdoInitSetEventCallbacks**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks)
+- [**WdfPdoInitAddCompatibleID**](./nf-wdfpdo-wdfpdoinitaddcompatibleid.md)
+- [**WdfPdoInitAddDeviceText**](./nf-wdfpdo-wdfpdoinitadddevicetext.md)
+- [**WdfPdoInitAddHardwareID**](./nf-wdfpdo-wdfpdoinitaddhardwareid.md)
+- [**WdfPdoInitAllocate**](./nf-wdfpdo-wdfpdoinitallocate.md)
+- [**WdfPdoInitAllowForwardingRequestToParent**](./nf-wdfpdo-wdfpdoinitallowforwardingrequesttoparent.md)
+- [**WdfPdoInitAssignContainerID**](./nf-wdfpdo-wdfpdoinitassigncontainerid.md)
+- [**WdfPdoInitAssignDeviceID**](./nf-wdfpdo-wdfpdoinitassigndeviceid.md)
+- [**WdfPdoInitAssignInstanceID**](./nf-wdfpdo-wdfpdoinitassigninstanceid.md)
+- [**WdfPdoInitAssignRawDevice**](./nf-wdfpdo-wdfpdoinitassignrawdevice.md)
+- [**WdfPdoInitSetDefaultLocale**](./nf-wdfpdo-wdfpdoinitsetdefaultlocale.md)
+- [**WdfPdoInitSetEventCallbacks**](./nf-wdfpdo-wdfpdoinitseteventcallbacks.md)
 
 ## Framework PDO Methods
 
-- [**WdfPdoInitAddCompatibleID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitaddcompatibleid)
-- [**WdfPdoAddEjectionRelationsPhysicalDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice)
-- [**WdfPdoClearEjectionRelationsDevices**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoclearejectionrelationsdevices)
-- [**WdfPdoGetParent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdogetparent)
-- [**WdfPdoInitAddDeviceText**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitadddevicetext)
-- [**WdfPdoInitAddHardwareID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitaddhardwareid)
-- [**WdfPdoInitAllocate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitallocate)
-- [**WdfPdoInitAllowForwardingRequestToParent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitallowforwardingrequesttoparent)
-- [**WdfPdoInitAssignContainerID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassigncontainerid)
-- [**WdfPdoInitAssignDeviceID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassigndeviceid)
-- [**WdfPdoInitAssignInstanceID**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassigninstanceid)
-- [**WdfPdoInitAssignRawDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitassignrawdevice)
-- [**WdfPdoInitSetDefaultLocale**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitsetdefaultlocale)
-- [**WdfPdoInitSetEventCallbacks**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks)
-- [**WdfPdoMarkMissing**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdomarkmissing)
-- [**WdfPdoRemoveEjectionRelationsPhysicalDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice)
-- [**WdfPdoRequestEject**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdorequesteject)
-- [**WdfPdoRetrieveAddressDescription**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoretrieveaddressdescription)
-- [**WdfPdoRetrieveIdentificationDescription**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoretrieveidentificationdescription)
-- [**WdfPdoUpdateAddressDescription**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoupdateaddressdescription)
+- [**WdfPdoInitAddCompatibleID**](./nf-wdfpdo-wdfpdoinitaddcompatibleid.md)
+- [**WdfPdoAddEjectionRelationsPhysicalDevice**](./nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md)
+- [**WdfPdoClearEjectionRelationsDevices**](./nf-wdfpdo-wdfpdoclearejectionrelationsdevices.md)
+- [**WdfPdoGetParent**](./nf-wdfpdo-wdfpdogetparent.md)
+- [**WdfPdoInitAddDeviceText**](./nf-wdfpdo-wdfpdoinitadddevicetext.md)
+- [**WdfPdoInitAddHardwareID**](./nf-wdfpdo-wdfpdoinitaddhardwareid.md)
+- [**WdfPdoInitAllocate**](./nf-wdfpdo-wdfpdoinitallocate.md)
+- [**WdfPdoInitAllowForwardingRequestToParent**](./nf-wdfpdo-wdfpdoinitallowforwardingrequesttoparent.md)
+- [**WdfPdoInitAssignContainerID**](./nf-wdfpdo-wdfpdoinitassigncontainerid.md)
+- [**WdfPdoInitAssignDeviceID**](./nf-wdfpdo-wdfpdoinitassigndeviceid.md)
+- [**WdfPdoInitAssignInstanceID**](./nf-wdfpdo-wdfpdoinitassigninstanceid.md)
+- [**WdfPdoInitAssignRawDevice**](./nf-wdfpdo-wdfpdoinitassignrawdevice.md)
+- [**WdfPdoInitSetDefaultLocale**](./nf-wdfpdo-wdfpdoinitsetdefaultlocale.md)
+- [**WdfPdoInitSetEventCallbacks**](./nf-wdfpdo-wdfpdoinitseteventcallbacks.md)
+- [**WdfPdoMarkMissing**](./nf-wdfpdo-wdfpdomarkmissing.md)
+- [**WdfPdoRemoveEjectionRelationsPhysicalDevice**](./nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice.md)
+- [**WdfPdoRequestEject**](./nf-wdfpdo-wdfpdorequesteject.md)
+- [**WdfPdoRetrieveAddressDescription**](./nf-wdfpdo-wdfpdoretrieveaddressdescription.md)
+- [**WdfPdoRetrieveIdentificationDescription**](./nf-wdfpdo-wdfpdoretrieveidentificationdescription.md)
+- [**WdfPdoUpdateAddressDescription**](./nf-wdfpdo-wdfpdoupdateaddressdescription.md)
 
 ## Framework PDO Structures and Initialization Functions
 
-- [**WDF_PDO_EVENT_CALLBACKS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/ns-wdfpdo-_wdf_pdo_event_callbacks)
-- [**WDF_PDO_EVENT_CALLBACKS_INIT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdf_pdo_event_callbacks_init)
+- [**WDF_PDO_EVENT_CALLBACKS**](./ns-wdfpdo-_wdf_pdo_event_callbacks.md)
+- [**WDF_PDO_EVENT_CALLBACKS_INIT**](./nf-wdfpdo-wdf_pdo_event_callbacks_init.md)

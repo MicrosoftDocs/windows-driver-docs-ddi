@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddstor._STORAGE_SET_INDICATOR
 title: STORAGE_SET_INDICATOR
-author: windows-driver-content
 description: 
 tech.root: storage
 ms.assetid: 8d6df6a0-5449-49ac-a2df-14af2c83ee30
-ms.author: windowsdriverdev
 ms.date: 11/30/2019
 ms.topic: struct
 f1_keywords:

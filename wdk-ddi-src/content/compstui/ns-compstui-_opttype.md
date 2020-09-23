@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/property-sheet-options">property sheet option</a>, if the option is specified by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure.
+The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a <a href="/windows-hardware/drivers/print/property-sheet-options">property sheet option</a>, if the option is specified by an <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Size, in bytes, of the OPTTYPE structure.
 
 ### -field Type
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
+Specifies the <a href="/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
 ### -field Flags
 
@@ -72,9 +72,9 @@ Optional bit flags that modify the option's characteristics. The following flags
 
 #### OPTTF_NOSPACE_BEFORE_POSTFIX
 
-CPSUI should not add a space character between the string specified by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure's <b>pName</b> string and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam">OPTPARAM</a> structure's <b>pData</b> string, when displaying the option.
+CPSUI should not add a space character between the string specified by the <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure's <b>pName</b> string and the <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam">OPTPARAM</a> structure's <b>pData</b> string, when displaying the option.
 
-Valid only if the option type is or <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-scrollbar">TVOT_SCROLLBAR</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-trackbar">TVOT_TRACKBAR</a>.
+Valid only if the option type is or <a href="/windows-hardware/drivers/print/tvot-scrollbar">TVOT_SCROLLBAR</a> or <a href="/windows-hardware/drivers/print/tvot-trackbar">TVOT_TRACKBAR</a>.
 
 
 
@@ -86,21 +86,21 @@ All the OPTPARAM structures to which <b>pOptParam</b> points are disabled, so th
 
 ### -field Count
 
-Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam">OPTPARAM</a> structures to which <b>pOptParam</b> points. This member's value is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
+Specifies the number of <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam">OPTPARAM</a> structures to which <b>pOptParam</b> points. This member's value is dependent on the <a href="/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
 ### -field BegCtrlID
 
-If <b>pDlgPage</b> in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> identifies a CPSUI-supplied page, or if <b>DlgTemplateID</b> in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> identifies a CPSUI-supplied template, <b>BegCtrlID</b> is not used.
+If <b>pDlgPage</b> in <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> identifies a CPSUI-supplied page, or if <b>DlgTemplateID</b> in <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> identifies a CPSUI-supplied template, <b>BegCtrlID</b> is not used.
 
-Otherwise, <b>BegCtrlID</b> must contain the first of a sequentially numbered set of Windows control identifiers. Control identifier usage is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
+Otherwise, <b>BegCtrlID</b> must contain the first of a sequentially numbered set of Windows control identifiers. Control identifier usage is dependent on the <a href="/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
 ### -field pOptParam
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam">OPTPARAM</a> structures describing the parameter values that a user can select for the option.
+Pointer to an array of <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam">OPTPARAM</a> structures describing the parameter values that a user can select for the option.
 
 ### -field Style
 
-Specifies flags that can be used to modify the option's display characteristics. The flags that can be specified are dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
+Specifies flags that can be used to modify the option's display characteristics. The flags that can be specified are dependent on the <a href="/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
 ### -field wReserved
 
@@ -109,4 +109,3 @@ Reserved, must be initialized to zero.
 ### -field dwReserved
 
 Reserved, must be initialized to zero.
-

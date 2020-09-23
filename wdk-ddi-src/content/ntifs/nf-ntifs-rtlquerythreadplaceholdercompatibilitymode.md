@@ -85,13 +85,12 @@ Returns the thread's placeholder compatibility mode. If there was an error it re
 
 ## -remarks
 
-This function is similar to [RtlQueryProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode), but performs at a thread level instead of a process level.
+This function is similar to [RtlQueryProcessPlaceholderCompatibilityMode](./nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode.md), but performs at a thread level instead of a process level.
 
 ## -see-also
 
-[RtlQueryProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode)
+[RtlQueryProcessPlaceholderCompatibilityMode](./nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode.md)
 
-[RtlSetProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetprocessplaceholdercompatibilitymode)
+[RtlSetProcessPlaceholderCompatibilityMode](./nf-ntifs-rtlsetprocessplaceholdercompatibilitymode.md)
 
-[RtlSetThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetthreadplaceholdercompatibilitymode)
-
+[RtlSetThreadPlaceholderCompatibilityMode](./nf-ntifs-rtlsetthreadplaceholdercompatibilitymode.md)

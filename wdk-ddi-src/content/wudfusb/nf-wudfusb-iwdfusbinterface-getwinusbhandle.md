@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetWinUsbHandle</b> method retrieves the WinUsb interface handle that is associated with a USB interface.
 
@@ -56,23 +56,22 @@ The <b>GetWinUsbHandle</b> method retrieves the WinUsb interface handle that is 
 
 ## -remarks
 
-If called on the default interface, the <b>IWDFUsbInterface::GetWinUsbHandle</b> method returns the same WinUsb interface handle as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-getwinusbhandle">IWDFUsbTargetDevice::GetWinUsbHandle</a>. The default interface is identified by index zero.
+If called on the default interface, the <b>IWDFUsbInterface::GetWinUsbHandle</b> method returns the same WinUsb interface handle as <a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-getwinusbhandle">IWDFUsbTargetDevice::GetWinUsbHandle</a>. The default interface is identified by index zero.
 
-If called on interfaces with index greater than zero, <b>IWDFUsbInterface::GetWinUsbHandle</b> returns a different handle  than <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-getwinusbhandle">IWDFUsbTargetDevice::GetWinUsbHandle</a>.
+If called on interfaces with index greater than zero, <b>IWDFUsbInterface::GetWinUsbHandle</b> returns a different handle  than <a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-getwinusbhandle">IWDFUsbTargetDevice::GetWinUsbHandle</a>.
 
-  A UMDF driver can use the WinUsb interface handle to bypass the UMDF interfaces and call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540046(v=vs.85)">WinUSB Routines</a> directly for interface-related operations.
+  A UMDF driver can use the WinUsb interface handle to bypass the UMDF interfaces and call <a href="/previous-versions/windows/hardware/drivers/ff540046(v=vs.85)">WinUSB Routines</a> directly for interface-related operations.
 
-The UMDF driver should not call the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a> function to free the WinUsb interface handle because the USB interface object owns the handle.
+The UMDF driver should not call the <a href="/windows/win32/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a> function to free the WinUsb interface handle because the USB interface object owns the handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
+<a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>
+<a href="/windows/win32/api/winusb/nf-winusb-winusb_free">WinUsb_Free</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
-
+<a href="/windows/win32/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>

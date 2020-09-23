@@ -99,17 +99,16 @@ Specifies the location of data within a slice for a corresponding bitstream data
 |1|The bits for the start of the slice are within the corresponding bitstream data buffer, and the bits for the end of the slice are not (because the bitstream data buffer is full).|
 |2|The bits for the start of the slice are not within the corresponding bitstream data buffer (because the previous bitstream data buffer was full), but the bits for the end of the slice are within the corresponding bitstream data buffer.|
 |3|The bits for the start of the slice are not within the corresponding bitstream data buffer (because the previous bitstream data buffer was full), and the bits for the end of the slice are also not within the corresponding bitstream data buffer (because the corresponding bitstream data buffer is also full).|
- 
+
 > [!NOTES]
 > Nonzero values of <b>wBadSliceChopping</b> should generally be avoided by the host software decoder.
 
 ## -remarks
 
-Slice-control buffers are provided to guide the operation of off-host VLD bitstream processing. Slice-control buffers are sent only when the <b>bConfigBitstreamRaw</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a> is 1. The host software decoder must determine the location of slice-level resynchronization points in the bitstream. A <i>slice</i> is defined to be a multimacroblock layer that includes a resynchronization point in the bitstream data.
+Slice-control buffers are provided to guide the operation of off-host VLD bitstream processing. Slice-control buffers are sent only when the <b>bConfigBitstreamRaw</b> member of <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a> is 1. The host software decoder must determine the location of slice-level resynchronization points in the bitstream. A <i>slice</i> is defined to be a multimacroblock layer that includes a resynchronization point in the bitstream data.
 
 In H.261 bitstreams, a GOB is considered a slice. In H.263 bitstreams, a sequence of one or more GOBs starting with a GOB start code and containing no additional GOB start codes, is considered a slice. A slice-control buffer must contain one or more DXVA_SliceInfo structures, according to the contents of a corresponding bitstream data buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configpicturedecode">DXVA_ConfigPictureDecode</a>

@@ -104,5 +104,4 @@ This enumeration type is the same as the Win32 SID_NAME_USE enumeration type def
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556579">SecLookupAccountSid</a>
-
+<a href="/previous-versions/ff556579(v=vs.85)">SecLookupAccountSid</a>

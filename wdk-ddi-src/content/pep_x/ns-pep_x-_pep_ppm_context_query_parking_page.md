@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
 ---
 
-# _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure
+# _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure (pep_x.h)
 
 
 ## -description
@@ -64,9 +64,8 @@ The virtual memory address of the parking page.
 
 ## -remarks
 
-The output buffer for a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_context_query_parking_page">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a> power control request is a <b>PEP_PPM_CONTEXT_QUERY_PARKING_PAGE</b> structure.
+The output buffer for a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_context_query_parking_page">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a> power control request is a <b>PEP_PPM_CONTEXT_QUERY_PARKING_PAGE</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_context_query_parking_page">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_context_query_parking_page">PEP_PPM_POWER_CONTROL_QUERY_PARKING_PAGE</a>

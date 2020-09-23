@@ -63,7 +63,7 @@ Output pointer for the position value. This parameter points to a caller-allocat
 
 The position indicated by the <code>GetPosition</code> method is expressed as a byte offset from the beginning of the stream. It represents the miniport driver's best estimate of the byte position of the data currently in the DAC or ADC. The miniport object is required to maintain stream position based on the mappings it acquires, regardless of whether mappings are released or revoked.
 
-The position is zero immediately following initialization of the stream. A transition to the KSSTATE_STOP state (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>) resets the position to zero. When the stream is halted by a transition from KSSTATE_RUN to KSSTATE_PAUSE or KSSTATE_ACQUIRE, the position freezes. It unfreezes when the stream transitions from KSSTATE_PAUSE or KSSTATE_ACQUIRE back to KSSTATE_RUN.
+The position is zero immediately following initialization of the stream. A transition to the KSSTATE_STOP state (see <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>) resets the position to zero. When the stream is halted by a transition from KSSTATE_RUN to KSSTATE_PAUSE or KSSTATE_ACQUIRE, the position freezes. It unfreezes when the stream transitions from KSSTATE_PAUSE or KSSTATE_ACQUIRE back to KSSTATE_RUN.
 
 The position reported by <code>GetPosition</code> is not an offset into any one physical buffer that either your driver has allocated or a client has allocated. Instead, the offset is stream-relative and can be thought of as an offset into an idealized buffer that contains the entire stream and is contiguous from beginning to end. Any internal offsets that point into the actual physical buffers that contain the data need to be maintained separately.
 
@@ -85,17 +85,16 @@ Some audio hardware contains a position register to keep track of the byte offse
 
 Audio hardware that internally buffers a portion of a playback or capture stream might make a precise position reading more difficult to obtain. In this case, the driver should estimate the current position as accurately as possible. For example, if an audio device prefetches the playback stream into an internal buffer, the driver might need to take both the buffer size and timing information into account in order to properly estimate the play position.
 
-The WavePci port driver implements a property handler for <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>. This property handler calls the <code>GetPosition</code> method to obtain the current play or record position from the miniport driver. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-position-property">Audio Position Property</a>.
+The WavePci port driver implements a property handler for <a href="/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>. This property handler calls the <code>GetPosition</code> method to obtain the current play or record position from the miniport driver. For more information, see <a href="/windows-hardware/drivers/audio/audio-position-property">Audio Position Property</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>

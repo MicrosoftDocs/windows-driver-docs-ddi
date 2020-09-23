@@ -43,12 +43,12 @@ api_name:
  - POWER_ACTION
 ---
 
-# *PPOWER_ACTION enumeration
+# *PPOWER_ACTION enumeration (ntpoapi.h)
 
 
 ## -description
 
-The <b>POWER_ACTION</b> enumeration identifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power actions</a> that can occur on a computer.
+The <b>POWER_ACTION</b> enumeration identifies the <a href="/windows-hardware/drivers/kernel/system-power-actions">system power actions</a> that can occur on a computer.
 
 ## -enum-fields
 
@@ -62,15 +62,15 @@ Reserved for system use.
 
 ### -field PowerActionSleep
 
-The computer is entering a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-sleeping-states">system sleeping (S1, S2, or S3) state</a>.
+The computer is entering a <a href="/windows-hardware/drivers/kernel/system-sleeping-states">system sleeping (S1, S2, or S3) state</a>.
 
 ### -field PowerActionHibernate
 
-The computer is entering its <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-sleeping-states">hibernation (S4) state</a>.
+The computer is entering its <a href="/windows-hardware/drivers/kernel/system-sleeping-states">hibernation (S4) state</a>.
 
 ### -field PowerActionShutdown
 
-The computer is entering its <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-shutdown-state-s5">shutdown (S5) state</a>. After all devices have entered their <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-sleeping-states">off (D3) state</a>, the computer remains powered on until an administrator presses the power button.
+The computer is entering its <a href="/windows-hardware/drivers/kernel/system-shutdown-state-s5">shutdown (S5) state</a>. After all devices have entered their <a href="/windows-hardware/drivers/kernel/device-sleeping-states">off (D3) state</a>, the computer remains powered on until an administrator presses the power button.
 
 ### -field PowerActionShutdownReset
 
@@ -103,9 +103,8 @@ typedef enum  {
 
 ## -remarks
 
-The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-getsystempoweraction">IWDFDevice2::GetSystemPowerAction</a>.
+The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-getsystempoweraction">IWDFDevice2::GetSystemPowerAction</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-getsystempoweraction">IWDFDevice2::GetSystemPowerAction</a>
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-getsystempoweraction">IWDFDevice2::GetSystemPowerAction</a>

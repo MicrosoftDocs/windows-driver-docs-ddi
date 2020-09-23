@@ -45,7 +45,7 @@ api_name:
  - MONITOR_DISPLAY_STATE
 ---
 
-# _MONITOR_DISPLAY_STATE enumeration
+# _MONITOR_DISPLAY_STATE enumeration (ntpoapi.h)
 
 
 ## -description

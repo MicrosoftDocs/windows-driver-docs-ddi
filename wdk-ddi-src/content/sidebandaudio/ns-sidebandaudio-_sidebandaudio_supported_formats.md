@@ -70,5 +70,4 @@ Array of pointers of KSDATAFORMAT.
 
 [sidebandaudio.h](index.md)
 
-[IOCTL_SBAUD_GET_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_supported_formats)
-
+[IOCTL_SBAUD_GET_SUPPORTED_FORMATS](./ni-sidebandaudio-ioctl_sbaud_get_supported_formats.md)

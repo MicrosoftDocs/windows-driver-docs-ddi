@@ -1,11 +1,9 @@
 ---
 UID: NF:dispmprt.DlMapMemoryEx
 title: DlMapMemoryEx function
-author: windows-driver-content
 description: Maps a range of bus-relative physical addresses of display memory into system space or into the virtual address space of a user-mode process.
 tech.root: display
 ms.assetid: a474b01c-75bc-49fe-8b5a-cbe281c97d16
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlMapMemoryEx function"]
 ms.keywords: DlMapMemoryEx

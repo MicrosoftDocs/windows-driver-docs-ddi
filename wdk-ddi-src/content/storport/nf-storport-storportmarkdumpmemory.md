@@ -85,7 +85,7 @@ Dump memory marking flags. The *Flags* parameter must be 0 or contain only the f
 
 ## -remarks
 
-The **StorPortMarkDumpMemory** routine must only be called by a miniport driver in its [**DriverEntry**](https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) or [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routines.
+The **StorPortMarkDumpMemory** routine must only be called by a miniport driver in its [**DriverEntry**](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) or [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md) routines.
 
 If *Length* = 0, the entire section containing *Address* is marked.
 
@@ -93,9 +93,8 @@ Miniport drivers should call **StorPortMarkDumpMemory** to ensure that the memor
 
 ## -see-also
 
-[**DriverEntry**](https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver)
+[**DriverEntry**](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver)
 
 [**HwStorFindAdapter**](nc-storport-hw_find_adapter.md)
 
 [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md)
-

@@ -63,13 +63,12 @@ A pointer to the register where the data is to be read.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisteruchar">ScsiPortReadRegisterUchar</a>. For a buffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterbufferuchar">StorPortReadRegisterBufferUchar</a>.
+For more information, see <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisteruchar">ScsiPortReadRegisterUchar</a>. For a buffered version of this routine, see <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterbufferuchar">StorPortReadRegisterBufferUchar</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisteruchar">ScsiPortReadRegisterUchar</a>
+<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadregisteruchar">ScsiPortReadRegisterUchar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterbufferuchar">StorPortReadRegisterBufferUchar</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreadregisterbufferuchar">StorPortReadRegisterBufferUchar</a>

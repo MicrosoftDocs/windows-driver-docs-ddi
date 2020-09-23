@@ -54,11 +54,11 @@ The KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure describes the scanning ca
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field NetworkType
 
-A GUID for the broadcast network type for which the tuner filter receives capabilities. The driver returned this GUID as an element in the array that the <b>GUIDBucket</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_tuner_scan_caps_s">KSPROPERTY_TUNER_SCAN_CAPS_S</a> structure specifies in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-scan-caps">KSPROPERTY_TUNER_SCAN_CAPS</a> property.
+A GUID for the broadcast network type for which the tuner filter receives capabilities. The driver returned this GUID as an element in the array that the <b>GUIDBucket</b> member of the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_tuner_scan_caps_s">KSPROPERTY_TUNER_SCAN_CAPS_S</a> structure specifies in a call to the driver's <a href="/windows-hardware/drivers/stream/ksproperty-tuner-scan-caps">KSPROPERTY_TUNER_SCAN_CAPS</a> property.
 
 ### -field BufferSize
 
@@ -66,25 +66,24 @@ The size, in bytes, of the buffer that is required to hold the network capabilit
 
 ### -field NetworkTunerCapabilities
 
-A pointer to a buffer to hold the scanning capabilities of a broadcast network type. For example, if the ANALOG_TV_NETWORK_TYPE GUID is set in the <b>NetworkType</b> member, the driver fills the buffer with a populated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tuner_analog_caps_s">TUNER_ANALOG_CAPS_S</a> structure.
+A pointer to a buffer to hold the scanning capabilities of a broadcast network type. For example, if the ANALOG_TV_NETWORK_TYPE GUID is set in the <b>NetworkType</b> member, the driver fills the buffer with a populated <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tuner_analog_caps_s">TUNER_ANALOG_CAPS_S</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-networktype-scan-caps">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-tuner-networktype-scan-caps">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-scan-caps">KSPROPERTY_TUNER_SCAN_CAPS</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-tuner-scan-caps">KSPROPERTY_TUNER_SCAN_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_tuner_scan_caps_s">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_tuner_scan_caps_s">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tuner_analog_caps_s">TUNER_ANALOG_CAPS_S</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tuner_analog_caps_s">TUNER_ANALOG_CAPS_S</a>

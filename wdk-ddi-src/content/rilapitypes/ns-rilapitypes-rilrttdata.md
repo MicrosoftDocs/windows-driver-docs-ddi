@@ -43,7 +43,7 @@ api_name:
  - RILRTTDATA
 ---
 
-# RILRTTDATA structure
+# RILRTTDATA structure (rilapitypes.h)
 
 
 ## -description

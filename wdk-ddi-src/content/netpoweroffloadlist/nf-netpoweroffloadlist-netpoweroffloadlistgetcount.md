@@ -1,16 +1,14 @@
 ---
 UID: NF:netpoweroffloadlist.NetPowerOffloadListGetCount
 title: NetPowerOffloadListGetCount function (netpoweroffloadlist.h)
-author: windows-driver-content
 description: The NetPowerOffloadListGetCount function gets the number of low power protocol offloads to a net adapter.
 tech.root: netvista
 ms.assetid: 30c4d484-07c2-42ab-bce7-42d2f73968e4
-ms.author: windowsdriverdev
 ms.date: 10/03/2019
 keywords: ["NetPowerOffloadListGetCount function"]
 ms.keywords: NetPowerOffloadListGetCount
 req.header: netpoweroffloadlist.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -66,15 +64,14 @@ Call [**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffload
 
 The client driver must only call **NetPowerOffloadListGetCount** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
 
-For a code sample of working with NETPOWEROFFLOAD objects, see [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
+For a code sample of working with NETPOWEROFFLOAD objects, see [Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management).
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffloadlist-net_power_offload_list_init.md)
 
 [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md)
 
 [**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md)
-

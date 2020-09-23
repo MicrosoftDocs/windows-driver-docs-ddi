@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_sensor_status">IOCTL_BIOMETRIC_GET_SENSOR_STATUS</a> IOCTL returns the WINBIO_DIAGNOSTICS structure as output.
+The <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_sensor_status">IOCTL_BIOMETRIC_GET_SENSOR_STATUS</a> IOCTL returns the WINBIO_DIAGNOSTICS structure as output.
 
 ## -struct-fields
 
@@ -69,13 +69,12 @@ The status detail of the I/O operation.  This is where WINBIO error and informat
 
 ### -field SensorStatus
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_data">WINBIO_SENSOR_STATUS</a> that contains the operating status of the biometric sensor.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_data">WINBIO_SENSOR_STATUS</a> that contains the operating status of the biometric sensor.
 
 ### -field VendorDiagnostics
 
-An optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a> structure for vendor-specific additional information.
+An optional <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a> structure for vendor-specific additional information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_sensor_status">IOCTL_BIOMETRIC_GET_SENSOR_STATUS</a>
-
+<a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_sensor_status">IOCTL_BIOMETRIC_GET_SENSOR_STATUS</a>

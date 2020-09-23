@@ -77,8 +77,8 @@ This value is reserved for future use. Do not use.
 ### -field WwanSmsFormatCdma
 
 The message is in text format. For more information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a> and 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send_cdma">WWAN_SMS_SEND_CDMA</a>. This value applies
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a> and 
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send_cdma">WWAN_SMS_SEND_CDMA</a>. This value applies
      only to CDMA-based devices.
 
 ### -field WwanSmsFormatMax
@@ -93,25 +93,24 @@ CDMA-based devices support only
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_sms_configuration">WWAN_SET_SMS_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_sms_configuration">WWAN_SET_SMS_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_configuration">WWAN_SMS_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_configuration">WWAN_SMS_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_read">WWAN_SMS_READ</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_read">WWAN_SMS_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send">WWAN_SMS_SEND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send_cdma">WWAN_SMS_SEND_CDMA</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send_cdma">WWAN_SMS_SEND_CDMA</a>

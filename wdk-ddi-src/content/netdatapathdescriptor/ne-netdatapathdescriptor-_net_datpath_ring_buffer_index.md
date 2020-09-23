@@ -44,10 +44,10 @@ The **NET_DATAPATH_RING_BUFFER_INDEX** enumeration defines indices in a datapath
 ## -enum-fields
 
 ### -field NET_DATPATH_RING_BUFFER_INDEX_PACKET : 
-The index of the queue's ring buffer of [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md)s.
+The index of the queue's ring buffer of [NET_PACKET](../packet/ns-packet-_net_packet.md)s.
 
 ### -field NET_DATPATH_RING_BUFFER_INDEX_FRAGMENT : 
-The index of the queue's ring buffer of [NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net_packet_fragment.md)s.
+The index of the queue's ring buffer of [NET_PACKET_FRAGMENT](../fragment/ns-fragment-_net_fragment.md)s.
 
 ## -remarks
 NIC client drivers should not use this enumeration directly. Instead, they should call the appropriate macro to access a particular ring buffer:
@@ -59,8 +59,8 @@ NIC client drivers should not use this enumeration directly. Instead, they shoul
 
 ## -see-also
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescriptor-_net_datapath_descriptor.md)
 
-[NET_RING_BUFFER](../netringbuffer/ns-netringbuffer-_net_ring_buffer.md)
+[NET_RING_BUFFER](../ring/ns-ring-_net_ring.md)

@@ -55,12 +55,12 @@ Describes the configuration of a Microsoft Direct3D 11 decoder device for Micro
 Defines the encryption protocol type for bit-stream data buffers. If no encryption is applied, the value is <b>DXVA_NoEncrypt</b> (a GUID name defined in Dxva.h). If <b>ConfigBitstreamRaw</b> is 0, the value must be <b>DXVA_NoEncrypt</b>.
 
 
-If set to <b>D3DWDDM2_0DDI_DECODER_ENCRYPTION_HW_CENC</b>, this indicates that the following parameters will be passed in to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe">VideoDecoderBeginFrame</a> call:
+If set to <b>D3DWDDM2_0DDI_DECODER_ENCRYPTION_HW_CENC</b>, this indicates that the following parameters will be passed in to the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe">VideoDecoderBeginFrame</a> call:
 
 | **Value** | **Meaning** | 
 |:--|:--|
-| **pContentKey** | A pointer to the [D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session) structure, indicating which CryptoSession and the key information used to decrypt the frame. | 
-| **ContentKeySize** | Set to the size of the [D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session) structure. |
+| **pContentKey** | A pointer to the [D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION](./ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md) structure, indicating which CryptoSession and the key information used to decrypt the frame. | 
+| **ContentKeySize** | Set to the size of the [D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION](./ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md) structure. |
 
 ### -field guidConfigMBcontrolEncryption
 
@@ -166,7 +166,7 @@ The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0, indicating purely
 
 ### -field Config4GroupedCoefs
 
-If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoef4group">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
+If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoef4group">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
 
 ### -field ConfigMinRenderTargetBuffCount
 
@@ -178,13 +178,12 @@ Contains decoder-specific configuration information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoef4group">DXVA_TCoef4Group</a>
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoef4group">DXVA_TCoef4Group</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a>

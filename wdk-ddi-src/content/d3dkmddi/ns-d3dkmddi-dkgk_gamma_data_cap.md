@@ -1,11 +1,9 @@
 ---
 UID: NS:d3dkmddi._DKGK_GAMMA_DATA_CAP
 title: DKGK_GAMMA_DATA_CAP
-author: windows-driver-content
 description: Gamma data caps.
 tech.root: display
 ms.assetid: ff38c435-e1d4-48a9-8762-803e1619f6f1
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DKGK_GAMMA_DATA_CAP structure"]
 ms.keywords: DKGK_GAMMA_DATA_CAP, DKGK_GAMMA_DATA_CAP,

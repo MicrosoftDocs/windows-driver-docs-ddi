@@ -63,7 +63,7 @@ A network specific error, in the event of a registration failure. For more infor
 ### -field RegisterState
 
 The registration state of the device. For a list of defined values, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>.
      
 
 The 
@@ -76,7 +76,7 @@ The
 ### -field RegisterMode
 
 The registration mode of the device. For a list of defined values, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>.
 
 ### -field ProviderId
 
@@ -189,7 +189,7 @@ A bitmask that represents the data access technologies that are preferred for a 
     <b>uNwError</b> member. If there is no network specific error or the network specific error is not known,
     miniport drivers should set this member to zero. The 
     "Status Indication Structure" section in 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-operational-semantics">MB Operational Semantics</a> shows the
+    <a href="/windows-hardware/drivers/network/mb-operational-semantics">MB Operational Semantics</a> shows the
     registration cause code failure values that are defined in the 
     <i>3GPP TS 24.008 Specification</i>.
 
@@ -238,17 +238,16 @@ Miniport drivers must report the cause code at the earliest possible instance. F
     device encounters one of these codes when attempting to register the device on with a network provider,
     the miniport driver should report it at that time.
 
-Miniport drivers connected to a multi-mode network should indicate the cellular class change through a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-register-state">NDIS_STATUS_WWAN_REGISTER_STATE</a> notification.
+Miniport drivers connected to a multi-mode network should indicate the cellular class change through a <a href="/windows-hardware/drivers/network/ndis-status-wwan-register-state">NDIS_STATUS_WWAN_REGISTER_STATE</a> notification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_registration_state">NDIS_WWAN_REGISTRATION_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_registration_state">NDIS_WWAN_REGISTRATION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>

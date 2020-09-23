@@ -45,7 +45,7 @@ api_name:
  - SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
 ---
 
-# _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure
+# _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure (storport.h)
 
 
 ## -description
@@ -62,8 +62,8 @@ Indicates the diagnostic page being sent or requested. . The value of this is 0x
 ### -field NumberOfSecondarySubEnclosures
 
 Indicates the number of download microcode status
-descriptors in <i>Descriptors</i>, not including the primary <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_status_descriptor">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a>. This value shall
-be set to the same value as the <i>NumberOfSecondarySubEnclosures</i> field in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_configuration_diagnostic_page">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a> structure.
+descriptors in <i>Descriptors</i>, not including the primary <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_status_descriptor">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a>. This value shall
+be set to the same value as the <i>NumberOfSecondarySubEnclosures</i> field in the <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_configuration_diagnostic_page">SES_CONFIGURATION_DIAGNOSTIC_PAGE</a> structure.
 
 ### -field PageLength
 
@@ -75,6 +75,5 @@ Indicates the value of the generation code
 
 ### -field Descriptors
 
-Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_status_descriptor">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a> for each
+Contains a <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_status_descriptor">SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</a> for each
 download microcode operation where status is being reported.
-

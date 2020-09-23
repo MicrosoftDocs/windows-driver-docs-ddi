@@ -66,7 +66,7 @@ Version number.
 
 Identifies the specific command that the driver is required to execute.
 
-This is a well-defined list of GNSS driver commands, as defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_drivercommand_type">GNSS_DRIVERCOMMAND_TYPE</a> enumeration.
+This is a well-defined list of GNSS driver commands, as defined by the <a href="/windows-hardware/drivers/ddi/gnssdriver/ne-gnssdriver-gnss_drivercommand_type">GNSS_DRIVERCOMMAND_TYPE</a> enumeration.
 
 ### -field Reserved
 
@@ -100,4 +100,3 @@ The flags are defined by the GNSS_DRIVERCOMMAND_FLAG_* macro.
 #### - Unused[512]
 
 Padding buffer.
-

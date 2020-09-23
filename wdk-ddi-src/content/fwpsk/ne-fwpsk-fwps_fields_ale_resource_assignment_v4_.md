@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V4 enumeration type specifies the data field identifiers for
   the FWPS_LAYER_ALE_RESOURCE_ASSIGNMENT_V4 and FWPS_LAYER_ALE_RESOURCE_ASSIGNMENT_V4_DISCARD 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layers</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layers</a>.
 
 ## -enum-fields
 
@@ -69,7 +69,7 @@ The local IP address.
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V4_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V4_IP_LOCAL_PORT
 
@@ -87,14 +87,14 @@ The possible values are:
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
      local IP address.
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V4_FLAGS
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a>.
+     <a href="/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a>.
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V4_INTERFACE_TYPE
 
@@ -170,9 +170,8 @@ For the case of an implicit bind, the local address and port information might n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
-
+<a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>

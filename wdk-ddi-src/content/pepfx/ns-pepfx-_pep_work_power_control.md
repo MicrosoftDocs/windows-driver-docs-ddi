@@ -45,22 +45,22 @@ api_name:
  - PEP_WORK_POWER_CONTROL
 ---
 
-# _PEP_WORK_POWER_CONTROL structure
+# _PEP_WORK_POWER_CONTROL structure (pepfx.h)
 
 
 ## -description
 
-The <b>PEP_WORK_POWER_CONTROL</b> structure contains the parameters for a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power control request</a> that the platform extension plug-in (PEP) sends directly to a processor driver.
+The <b>PEP_WORK_POWER_CONTROL</b> structure contains the parameters for a <a href="/windows-hardware/drivers/ddi/index">power control request</a> that the platform extension plug-in (PEP) sends directly to a processor driver.
 
 ## -struct-fields
 
 ### -field DeviceHandle
 
-A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
+A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 ### -field PowerControlCode
 
-[in] A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> value that specifies the power control operation to perform.
+[in] A pointer to a GUID value that specifies the power control operation to perform.
 
 ### -field RequestContext
 
@@ -84,27 +84,26 @@ A pointer to a PEP-defined context value. The PEP might use this value to unique
 
 ## -remarks
 
-The <b>PowerControl</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure is a pointer to a <b>PEP_WORK_POWER_CONTROL</b> structure.
+The <b>PowerControl</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure is a pointer to a <b>PEP_WORK_POWER_CONTROL</b> structure.
 
-The PEP issues a power control request from a worker thread. The Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) forwards this request by calling the processor driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a> routine, if the driver implements this routine.
+The PEP issues a power control request from a worker thread. The Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) forwards this request by calling the processor driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a> routine, if the driver implements this routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
+GUID
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>

@@ -41,7 +41,7 @@ api_name:
  - RILUICCSERVICESERVICE
 ---
 
-# RILUICCSERVICESERVICE enumeration
+# RILUICCSERVICESERVICE enumeration (rilapitypes.h)
 
 
 ## -description

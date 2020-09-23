@@ -54,7 +54,7 @@ A [**WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE**](ne-wwan-_wwan_sar_transm
 
 ### -field HysteresisTimer
 
-A Hysteresis indicator that is used by the modem to determine when to send the a [NDIS_STATUS_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-sar-transmission-status) notification to the host. This value is the timer the modem sees as a continuous no-transmit activity before it sends an OFF indicator to host. This timer should be set in seconds, ranging from 1 second to 5 seconds.
+A Hysteresis indicator that is used by the modem to determine when to send the a [NDIS_STATUS_WWAN_SAR_TRANSMISSION_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-sar-transmission-status) notification to the host. This value is the timer the modem sees as a continuous no-transmit activity before it sends an OFF indicator to host. This timer should be set in seconds, ranging from 1 second to 5 seconds.
 
 ## -remarks
 
@@ -62,11 +62,10 @@ This structure is used in the [**NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS**](../ndi
 
 ## -see-also
 
-[MB SAR Platform Support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-sar-platform-support)
+[MB SAR Platform Support](/windows-hardware/drivers/network/mb-sar-platform-support)
 
-[OID_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sar-transmission-status)
+[OID_WWAN_SAR_TRANSMISSION_STATUS](/windows-hardware/drivers/network/oid-wwan-sar-transmission-status)
 
-[NDIS_STATUS_WWAN_SAR_TRANSMISSION_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-sar-transmission-status)
+[NDIS_STATUS_WWAN_SAR_TRANSMISSION_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-sar-transmission-status)
 
 [**NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS**](../ndiswwan/ns-ndiswwan-_ndis_wwan_set_sar_transmission_status.md)
-

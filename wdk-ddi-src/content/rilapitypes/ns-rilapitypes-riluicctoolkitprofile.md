@@ -43,7 +43,7 @@ api_name:
  - RILUICCTOOLKITPROFILE
 ---
 
-# RILUICCTOOLKITPROFILE structure
+# RILUICCTOOLKITPROFILE structure (rilapitypes.h)
 
 
 ## -description

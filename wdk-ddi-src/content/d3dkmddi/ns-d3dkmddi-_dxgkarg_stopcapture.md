@@ -58,5 +58,4 @@ The DXGKARG_STOPCAPTURE structure contains the handle to the allocation that is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_stopcapture">DxgkDdiStopCapture</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_stopcapture">DxgkDdiStopCapture</a>

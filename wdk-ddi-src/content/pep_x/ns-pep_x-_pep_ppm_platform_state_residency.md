@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PLATFORM_STATE_RESIDENCY
 ---
 
-# _PEP_PPM_PLATFORM_STATE_RESIDENCY structure
+# _PEP_PPM_PLATFORM_STATE_RESIDENCY structure (pep_x.h)
 
 
 ## -description
@@ -64,9 +64,8 @@ The total number of times that the platform has entered this idle state since sy
 
 ## -remarks
 
-The <b>States</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_platform_state_residencies">PEP_PPM_PLATFORM_STATE_RESIDENCIES</a> structure is a pointer to an array of <b>PEP_PPM_PLATFORM_STATE_RESIDENCY</b> structures.
+The <b>States</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_platform_state_residencies">PEP_PPM_PLATFORM_STATE_RESIDENCIES</a> structure is a pointer to an array of <b>PEP_PPM_PLATFORM_STATE_RESIDENCY</b> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_platform_state_residencies">PEP_PPM_PLATFORM_STATE_RESIDENCIES</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_platform_state_residencies">PEP_PPM_PLATFORM_STATE_RESIDENCIES</a>

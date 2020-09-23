@@ -41,7 +41,7 @@ api_name:
  - RILIMSSUBSCRIBETYPE
 ---
 
-# RILIMSSUBSCRIBETYPE enumeration
+# RILIMSSUBSCRIBETYPE enumeration (rilapitypes.h)
 
 
 ## -description

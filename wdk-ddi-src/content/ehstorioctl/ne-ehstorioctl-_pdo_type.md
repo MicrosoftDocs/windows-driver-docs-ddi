@@ -54,7 +54,7 @@ This enumeration describes the types of Physical Device Objects (PDOs).
 
 ### -field PDO_TYPE_UNDEFINED
 
-Types either enumerated or provided as filter parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
+Types either enumerated or provided as filter parameter to <a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
 
 ### -field PDO_TYPE_DISK
 
@@ -72,5 +72,4 @@ This value indicates the PDO is for a logical silo device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
-
+<a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>

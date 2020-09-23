@@ -59,7 +59,7 @@ A valid bitwise OR of [NET_CONFIGURATION_QUERY_ULONG_FLAGS](ne-netconfiguration-
 
 ### -param ValueName
 
-A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a name for the ULONG value.
+A pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a name for the ULONG value.
 
 ### -param Value
 
@@ -74,4 +74,3 @@ The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, this f
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).
 
 ## -see-also
-

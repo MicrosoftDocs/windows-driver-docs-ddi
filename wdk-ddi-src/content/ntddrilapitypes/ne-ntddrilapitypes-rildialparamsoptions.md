@@ -41,7 +41,7 @@ api_name:
  - RILDIALPARAMSOPTIONS
 ---
 
-# RILDIALPARAMSOPTIONS enumeration
+# RILDIALPARAMSOPTIONS enumeration (ntddrilapitypes.h)
 
 
 ## -description

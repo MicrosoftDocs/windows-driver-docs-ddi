@@ -62,13 +62,13 @@ The number of devices that have been discovered.
 ### -field deviceList
 
 An open-ended array of 
-     <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structures. Each
+     <a href="/windows/win32/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a> structures. Each
      structure contains information about a previously discovered remote device.
 
 ## -remarks
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_device_info">IOCTL_BTH_GET_DEVICE_INFO</a> call's
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_device_info">IOCTL_BTH_GET_DEVICE_INFO</a> call's
     output buffer contains the list of all cached, previously discovered remote devices.
 
 The 
@@ -78,9 +78,8 @@ The
 
 ## -see-also
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+<a href="/windows/win32/api/bthdef/ns-bthdef-bth_device_info">BTH_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_device_info">IOCTL_BTH_GET_DEVICE_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_get_device_info">IOCTL_BTH_GET_DEVICE_INFO</a>

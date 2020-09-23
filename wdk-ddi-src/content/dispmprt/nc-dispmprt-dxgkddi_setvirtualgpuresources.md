@@ -1,11 +1,9 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SETVIRTUALGPURESOURCES
 title: DXGKDDI_SETVIRTUALGPURESOURCES
-author: windows-driver-content
 description: This function assigns physical resources capabilities to a virtual GPU.
 tech.root: display
 ms.assetid: fd5896b3-0db1-497d-a984-5e05a293626d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_SETVIRTUALGPURESOURCES callback function"]
 req.header: dispmprt.h

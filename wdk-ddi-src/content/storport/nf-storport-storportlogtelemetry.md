@@ -49,7 +49,7 @@ dev_langs:
 
 ## -description
 
-The **StorPortLogTelemetry** routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure [STORPORT_TELEMETRY_EVENT](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_storport_telemetry_event).
+The **StorPortLogTelemetry** routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure [STORPORT_TELEMETRY_EVENT](./ns-storport-_storport_telemetry_event.md).
 
 ## -parameters
 
@@ -134,4 +134,3 @@ If miniport has no payload to fill in Event->EventBuffer, it should set Event->E
 [STORPORT_TELEMETRY_EVENT](ns-storport-_storport_telemetry_event.md)
 
 [StorPortLogTelemetryEx](nf-storport-storportlogtelemetryex.md)
-

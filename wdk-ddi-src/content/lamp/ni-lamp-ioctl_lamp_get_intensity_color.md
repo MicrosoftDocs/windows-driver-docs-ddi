@@ -57,11 +57,11 @@ The **IOCTL_LAMP_GET_INTENSITY_COLOR** control code queries the light intensity 
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_color) structure.
+`Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_COLOR](./ns-lamp-lamp_intensity_color.md) structure.
 
 ### -input-buffer-length
 
-Length of a [LAMP_INTENSITY_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_color) structure.
+Length of a [LAMP_INTENSITY_COLOR](./ns-lamp-lamp_intensity_color.md) structure.
 
 ### -output-buffer
 
@@ -83,5 +83,4 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 
 ## -remarks
 
-The payload type of this IOCTL is a [LAMP_INTENSITY_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_intensity_color) structure.
-
+The payload type of this IOCTL is a [LAMP_INTENSITY_COLOR](./ns-lamp-lamp_intensity_color.md) structure.

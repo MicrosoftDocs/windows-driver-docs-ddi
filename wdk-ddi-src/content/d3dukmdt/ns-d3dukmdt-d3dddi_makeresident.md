@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<b>D3DDDI_MAKERESIDENT</b> is used with <b>MakeResident</b> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_makeresidentcb">pfnMakeResidentCb</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtmakeresident">D3DKMTMakeResident</a>) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
+<b>D3DDDI_MAKERESIDENT</b> is used with <b>MakeResident</b> (<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_makeresidentcb">pfnMakeResidentCb</a> or <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtmakeresident">D3DKMTMakeResident</a>) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ api_name:
 
 ### -field Flags
 
-[in] Specifies memory residency behavior as documented in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident_flags">D3DDDI_MAKERESIDENT_FLAGS</a>.
+[in] Specifies memory residency behavior as documented in <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident_flags">D3DDDI_MAKERESIDENT_FLAGS</a>.
 
 ### -field PagingFenceValue
 
@@ -81,13 +81,12 @@ api_name:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident_flags">D3DDDI_MAKERESIDENT_FLAGS</a>
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-d3dddi_makeresident_flags">D3DDDI_MAKERESIDENT_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtmakeresident">D3DKMTMakeResident</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtmakeresident">D3DKMTMakeResident</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_makeresidentcb">pfnMakeResidentCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_makeresidentcb">pfnMakeResidentCb</a>

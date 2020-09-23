@@ -41,7 +41,7 @@ api_name:
  - RILSENDMSGRESPONSEPARAMMASK
 ---
 
-# RILSENDMSGRESPONSEPARAMMASK enumeration
+# RILSENDMSGRESPONSEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

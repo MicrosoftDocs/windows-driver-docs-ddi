@@ -54,7 +54,7 @@ The <b>ExtRemoteList</b> constructors create a new instance that wraps a singly-
 ### -param Head 
 
 [in, ref]
-A reference to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, in the target's memory, that wraps the head of the list.  The head is not considered to be an item in the list.  The type of the head of the list is SINGLE_LIST_ENTRY or LIST_ENTRY.
+A reference to an <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, in the target's memory, that wraps the head of the list.  The head is not considered to be an item in the list.  The type of the head of the list is SINGLE_LIST_ENTRY or LIST_ENTRY.
 
 ### -param LinkOffset 
 
@@ -72,9 +72,8 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-extremotelist(ulong64_ulong_bool)">ExtRemoteList::ExtRemoteList (ULONG64)</a>
-
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotelist-extremotelist(ulong64_ulong_bool)">ExtRemoteList::ExtRemoteList (ULONG64)</a>

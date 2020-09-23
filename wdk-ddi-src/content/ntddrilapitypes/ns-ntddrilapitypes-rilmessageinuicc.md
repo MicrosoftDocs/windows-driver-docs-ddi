@@ -43,7 +43,7 @@ api_name:
  - RILMESSAGEINUICC
 ---
 
-# RILMESSAGEINUICC structure
+# RILMESSAGEINUICC structure (ntddrilapitypes.h)
 
 
 ## -description

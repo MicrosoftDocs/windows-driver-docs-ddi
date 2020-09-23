@@ -41,7 +41,7 @@ api_name:
  - RILCALLRTTMODE
 ---
 
-# RILCALLRTTMODE enumeration
+# RILCALLRTTMODE enumeration (ntddrilapitypes.h)
 
 
 ## -description

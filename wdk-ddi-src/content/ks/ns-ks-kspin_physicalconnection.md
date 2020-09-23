@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-physicalconnection">KSPROPERTY_PIN_PHYSICALCONNECTION</a> request.
+A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a <a href="/windows-hardware/drivers/stream/ksproperty-pin-physicalconnection">KSPROPERTY_PIN_PHYSICALCONNECTION</a> request.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ This structure is used with port class only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-physicalconnection">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-pin-physicalconnection">KSPROPERTY_PIN_PHYSICALCONNECTION</a>

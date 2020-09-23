@@ -68,5 +68,4 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinex">IKsPinEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspinex">IKsPinEx</a>

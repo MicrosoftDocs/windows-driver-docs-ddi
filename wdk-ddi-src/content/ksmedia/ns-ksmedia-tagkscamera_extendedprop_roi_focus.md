@@ -56,9 +56,8 @@ This structure contains the ROI info structure for focus.
 
 ### -field ROIInfo
 
-See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_roi_info">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
+See the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_roi_info">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
 
 ### -field Reserved
 
 Reserved for future use.
-

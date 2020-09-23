@@ -74,7 +74,7 @@ If the enabling event's KSEVENT_SET.AddHandler for the event set is <b>NULL</b>,
 ### -param EventsFlags 
 
 [in, optional]
-Specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
+Specifies <a href="/windows-hardware/drivers/ddi/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
 
 ### -param EventsLock 
 
@@ -91,5 +91,4 @@ Minidrivers do not call <b>KsEnableEvent</b>. Only a pure KS driver or a class d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdisableevent">KsDisableEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksdisableevent">KsDisableEvent</a>

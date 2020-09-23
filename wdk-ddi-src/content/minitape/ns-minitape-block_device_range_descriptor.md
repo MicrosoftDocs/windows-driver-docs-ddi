@@ -43,7 +43,7 @@ api_name:
  - BLOCK_DEVICE_RANGE_DESCRIPTOR
 ---
 
-# BLOCK_DEVICE_RANGE_DESCRIPTOR structure
+# BLOCK_DEVICE_RANGE_DESCRIPTOR structure (minitape.h)
 
 
 ## -description
@@ -72,9 +72,8 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-populate_token_header">POPULATE_TOKEN_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-write_using_token_header">WRITE_USING_TOKEN_HEADER</a>

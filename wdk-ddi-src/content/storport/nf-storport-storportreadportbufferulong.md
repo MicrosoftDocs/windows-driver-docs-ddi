@@ -78,13 +78,12 @@ Pointer to the hardware device extension.
 
 ## -remarks
 
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferulong">ScsiPortReadPortBufferUlong</a> routine. For a nonbuffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportulong">StorPortReadPortUlong</a>.
+For more information, see the <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferulong">ScsiPortReadPortBufferUlong</a> routine. For a nonbuffered version of this routine, see <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportulong">StorPortReadPortUlong</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferulong">ScsiPortReadPortBufferUlong</a>
+<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferulong">ScsiPortReadPortBufferUlong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportulong">StorPortReadPortUlong</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportulong">StorPortReadPortUlong</a>

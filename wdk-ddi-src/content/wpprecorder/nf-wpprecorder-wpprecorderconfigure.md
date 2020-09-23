@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderconfigure">WppRecorderConfigure</a> method enables or disables the default log to which WPP prints.
+The <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderconfigure">WppRecorderConfigure</a> method enables or disables the default log to which WPP prints.
 
 ## -parameters
 
@@ -56,7 +56,6 @@ Pointer to a caller-allocated RECORDER_CONFIGURE_PARAMS structure.
 
 ## -remarks
 
-Before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderconfigure">WppRecorderConfigure</a>, allocate a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_configure_params">RECORDER_CONFIGURE_PARAMS</a> structure and initialize by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_configure_params_init">RECORDER_CONFIGURE_PARAMS_INIT</a>. 
+Before calling <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderconfigure">WppRecorderConfigure</a>, allocate a <a href="/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_configure_params">RECORDER_CONFIGURE_PARAMS</a> structure and initialize by calling <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_configure_params_init">RECORDER_CONFIGURE_PARAMS_INIT</a>. 
 
 This method only configures the default log. By default that log is enabled. If you have a custom log, you must disable the default log by setting the <b>CreateDefaultLog</b> to FALSE.
-

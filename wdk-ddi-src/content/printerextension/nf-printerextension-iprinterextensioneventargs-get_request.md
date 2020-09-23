@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a> object for the current event.
+Gets the <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a> object for the current event.
 
 This interface is used to complete or cancel the event.
 
@@ -57,9 +57,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a>

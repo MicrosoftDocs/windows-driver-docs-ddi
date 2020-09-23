@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains a debug client constant to provide to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>  method.
+Contains a debug client constant to provide to the <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>  method.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ A client value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">IDebugClient7::SetClientContext</a>

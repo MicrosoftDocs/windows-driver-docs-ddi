@@ -58,9 +58,8 @@ The transfer state must be preserved after the endpoint reset operation is compl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_endpoint_reset">ENDPOINT_RESET</a>
+<a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_endpoint_reset">ENDPOINT_RESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_reset">EVT_UCX_ENDPOINT_RESET</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_reset">EVT_UCX_ENDPOINT_RESET</a>

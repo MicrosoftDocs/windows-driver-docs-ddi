@@ -43,7 +43,7 @@ api_name:
  - RILSTARTDTMFPARAMS
 ---
 
-# RILSTARTDTMFPARAMS structure
+# RILSTARTDTMFPARAMS structure (rilapitypes.h)
 
 
 ## -description

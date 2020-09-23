@@ -53,7 +53,7 @@ The <code>UnRegisterAdapterPowerManagement</code> method unregisters the PnP man
 ### -param DeviceObject 
 
 [in]
-Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter that the PnP management was registered with earlier using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclspnp-registeradapterpnpmanagement">IPortClsPnp::RegisterAdapterPnpManagement</a>.
+Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter that the PnP management was registered with earlier using <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclspnp-registeradapterpnpmanagement">IPortClsPnp::RegisterAdapterPnpManagement</a>.
 
 ## -returns
 
@@ -61,13 +61,12 @@ The <code>UnregisterAdapterPowerManagement</code> method returns STATUS_SUCCESS 
 
 ## -remarks
 
-For more information,  see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers">Implement PnP Rebalance for PortCls Audio Drivers</a>.
+For more information,  see <a href="/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers">Implement PnP Rebalance for PortCls Audio Drivers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclspnp">IPortClsPnp</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclspnp">IPortClsPnp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclspnp-registeradapterpnpmanagement">IPortClsPnp::RegisterAdapterPnpManagement</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclspnp-registeradapterpnpmanagement">IPortClsPnp::RegisterAdapterPnpManagement</a>

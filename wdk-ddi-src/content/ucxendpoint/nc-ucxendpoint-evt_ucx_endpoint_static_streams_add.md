@@ -74,26 +74,22 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 ## -remarks
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
  method.
 
-This callback function creates a UCX static streams object by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxsstreams/nf-ucxsstreams-ucxstaticstreamscreate">UcxStaticStreamsCreate</a>
- method. Only one UCX static streams object can be associated with a single endpoint.  The driver then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxsstreams/nf-ucxsstreams-ucxstaticstreamssetstreaminfo">UcxStaticStreamsSetStreamInfo</a>
+This callback function creates a UCX static streams object by calling the <a href="/windows-hardware/drivers/ddi/ucxsstreams/nf-ucxsstreams-ucxstaticstreamscreate">UcxStaticStreamsCreate</a>
+ method. Only one UCX static streams object can be associated with a single endpoint.  The driver then calls <a href="/windows-hardware/drivers/ddi/ucxsstreams/nf-ucxsstreams-ucxstaticstreamssetstreaminfo">UcxStaticStreamsSetStreamInfo</a>
  once per stream to create a queue for each stream.
 
 A static streams object is not enabled
-    until UCX calls the client driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_enable">EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE</a> callback function.
+    until UCX calls the client driver's <a href="/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_static_streams_enable">EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE</a> callback function.
 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```
+NTSTATUS
 Endpoint_EvtEndpointStaticStreamsAdd(
     UCXENDPOINT         UcxEndpoint,
     ULONG               NumberOfStreams,
@@ -126,8 +122,5 @@ Endpoint_EvtEndpointStaticStreamsAdd(
 
             UcxStaticStreamsSetStreamInfo(ucxStaticStreams, &streamInfo);
         }
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

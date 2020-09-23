@@ -1,11 +1,9 @@
 ---
 UID: NF:fltkernel.FltQueryDirectoryFileEx
 title: FltQueryDirectoryFileEx function
-author: windows-driver-content
 description: FltQueryDirectoryFileEx returns various kinds of information about files in the directory specified by a given file object.
 tech.root: ifsk
 ms.assetid: 5f07dff9-004f-415a-81fb-5d32e44fbc48
-ms.author: windowsdriverdev
 ms.date: 03/08/2019
 keywords: ["FltQueryDirectoryFileEx function"]
 ms.keywords: FltQueryDirectoryFileEx, FltQueryDirectoryFile
@@ -73,18 +71,18 @@ Type of information to be returned about files in the directory. One of the valu
 
 | Value | Meaning |
 | ----- | ------- |
-| **FileBothDirectoryInformation** | Return a [FILE_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information#requirements) structure for each file. |
-| **FileDirectoryInformation** | Return a [FILE_DIRECTORY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information#requirements) structure for each file. |
-| **FileFullDirectoryInformation** | Return a [FILE_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information#requirements) structure for each file. |
-| **FileIdBothDirectoryInformation** | Return a [FILE_ID_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information#requirements) structure for each file. |
-| **FileIdExtdBothDirectoryInformation** | Return a [FILE_ID_EXTD_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information#requirements) structure for each file. |
-| **FileIdExtdDirectoryInformation** | Return a [FILE_ID_EXTD_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information#requirements) structure for each file. |
-| **FileIdFullDirectoryInformation** | Return a [FILE_ID_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information#requirements) structure for each file. |
-| **FileIdGlobalTxDirectoryInformation** | Return a [FILE_ID_GLOBAL_TX_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information#requirements) structure for each file. |
-| **FileNamesInformation** | Return a [FILE_NAMES_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information#requirements) structure for each file. |
-| **FileObjectIdInformation** | Return a [FILE_OBJECTID_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information#requirements) structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes. |
-| **FileQuotaInformation** | Return a single [FILE_QUOTA_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information#requirements) structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes. |
-| **FileReparsePointInformation** | Return a single [FILE_REPARSE_POINT_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information#requirements) structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes. |
+| **FileBothDirectoryInformation** | Return a [FILE_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_both_dir_information.md#requirements) structure for each file. |
+| **FileDirectoryInformation** | Return a [FILE_DIRECTORY_INFORMATION](../ntifs/ns-ntifs-_file_directory_information.md#requirements) structure for each file. |
+| **FileFullDirectoryInformation** | Return a [FILE_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_full_dir_information.md#requirements) structure for each file. |
+| **FileIdBothDirectoryInformation** | Return a [FILE_ID_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_both_dir_information.md#requirements) structure for each file. |
+| **FileIdExtdBothDirectoryInformation** | Return a [FILE_ID_EXTD_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_extd_both_dir_information.md#requirements) structure for each file. |
+| **FileIdExtdDirectoryInformation** | Return a [FILE_ID_EXTD_DIR_INFO](/windows/win32/api/winbase/ns-winbase-file_id_extd_dir_info) structure for each file. |
+| **FileIdFullDirectoryInformation** | Return a [FILE_ID_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_full_dir_information.md#requirements) structure for each file. |
+| **FileIdGlobalTxDirectoryInformation** | Return a [FILE_ID_GLOBAL_TX_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_global_tx_dir_information.md#requirements) structure for each file. |
+| **FileNamesInformation** | Return a [FILE_NAMES_INFORMATION](../ntifs/ns-ntifs-_file_names_information.md#requirements) structure for each file. |
+| **FileObjectIdInformation** | Return a [FILE_OBJECTID_INFORMATION](../ntifs/ns-ntifs-_file_objectid_information.md#requirements) structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes. |
+| **FileQuotaInformation** | Return a single [FILE_QUOTA_INFORMATION](../ntifs/ns-ntifs-_file_quota_information.md#requirements) structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes. |
+| **FileReparsePointInformation** | Return a single [FILE_REPARSE_POINT_INFORMATION](../ntifs/ns-ntifs-_file_reparse_point_information.md#requirements) structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes. |
 
 ### -param QueryFlags
 
@@ -94,13 +92,13 @@ One or more of the flags contained in SL_QUERY_DIRECTORY_MASK. Possible values a
 | ----- | ------- |
 | **SL_RESTART_SCAN** (0x00000001) | If this flag is set, the scan will start at the first entry in the directory. If this flag is not set, the scan will resume from where the last query ended. |
 | **SL_RETURN_SINGLE_ENTRY** (0x00000002) | Normally the return buffer is packed with as many matching directory entries that fit. If this flag is set, the file system will return only one directory entry at a time. This does make the operation less efficient. |
-| **SL_INDEX_SPECIFIED** (0x00000004) | If this flag is set, the scan should start at a specified indexed position in the directory. This flag can only be set if you generate your own [IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control); the index is specified in the IRP. How the position is specified varies from file system to file system. |
+| **SL_INDEX_SPECIFIED** (0x00000004) | If this flag is set, the scan should start at a specified indexed position in the directory. This flag can only be set if you generate your own [IRP_MJ_DIRECTORY_CONTROL IRP](/windows-hardware/drivers/ifs/irp-mj-directory-control); the index is specified in the IRP. How the position is specified varies from file system to file system. |
 | **SL_RETURN_ON_DISK_ENTRIES_ONLY** (0x00000008) | If this flag is set, any file system filters that perform directory virtualization or just-in-time expansion should simply pass the request through to the file system and return entries that are currently on disk. Not all file systems support this flag. |
 | **SL_NO_CURSOR_UPDATE_QUERY** (0x00000010) | File systems maintain per-*FileObject* directory cursor information. When multiple threads do queries using the same *FileObject*, access to the per-*FileObject* structure is single threaded to prevent corruption of the cursor state. This flag tells the file system to not update per-*FileObject* cursor state information thus allowing multiple threads to query in parallel using the same handle. It behaves as if SL_RESTART_SCAN is specified on each call. If a wild card pattern is given on the next call, the operation will not pick up where the last query ended. This allows for true asynchronous directory query support. If this flag is used inside a TxF transaction the operation will be failed. Not all file systems support this flag. |
 
 ### -param FileName
 
-Pointer to a caller-allocated [UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string) structure with the Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**. If *fileName* is **NULL**, all files are included.
+Pointer to a caller-allocated [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure with the Unicode string that contains the name of a file (or multiple files, if wildcards are used) within the directory specified by *FileObject*. This parameter is optional and can be **NULL**. If *fileName* is **NULL**, all files are included.
 
 If *FileName* is not **NULL**, only files whose names match the *FileName* string are included in the directory scan. If the *QueryFlags* **ResetScan** flag is set, the value of *FileName* is ignored.
 
@@ -138,45 +136,44 @@ The final call to **FltQueryDirectoryFileEx** returns an empty output buffer and
 
 **FltQueryDirectoryFileEx** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by the file system.
 
-Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see [Disabling APCs](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## -see-also
 
-[FILE_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_both_dir_information)
+[FILE_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_both_dir_information.md)
 
-[FILE_DIRECTORY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_directory_information)
+[FILE_DIRECTORY_INFORMATION](../ntifs/ns-ntifs-_file_directory_information.md)
 
-[FILE_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_full_dir_information)
+[FILE_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_full_dir_information.md)
 
-[FILE_ID_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information)
+[FILE_ID_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_both_dir_information.md)
 
-[FILE_ID_EXTD_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_both_dir_information)
+[FILE_ID_EXTD_BOTH_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_extd_both_dir_information.md)
 
-[FILE_ID_EXTD_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_extd_dir_information)
+[FILE_ID_EXTD_DIR_INFO](/windows/win32/api/winbase/ns-winbase-file_id_extd_dir_info)
 
-[FILE_ID_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information)
+[FILE_ID_FULL_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_full_dir_information.md)
 
-[FILE_ID_GLOBAL_TX_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_global_tx_dir_information)
+[FILE_ID_GLOBAL_TX_DIR_INFORMATION](../ntifs/ns-ntifs-_file_id_global_tx_dir_information.md)
 
-[FILE_NAMES_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_names_information)
+[FILE_NAMES_INFORMATION](../ntifs/ns-ntifs-_file_names_information.md)
 
-[FILE_OBJECTID_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information)
+[FILE_OBJECTID_INFORMATION](../ntifs/ns-ntifs-_file_objectid_information.md)
 
-[FILE_QUOTA_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information)
+[FILE_QUOTA_INFORMATION](../ntifs/ns-ntifs-_file_quota_information.md)
 
-[FILE_REPARSE_POINT_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_reparse_point_information)
+[FILE_REPARSE_POINT_INFORMATION](../ntifs/ns-ntifs-_file_reparse_point_information.md)
 
-[FltCreateFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile)
+[FltCreateFile](./nf-fltkernel-fltcreatefile.md)
 
-[FltCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex)
+[FltCreateFileEx](./nf-fltkernel-fltcreatefileex.md)
 
-[FltCreateFileEx2](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2)
+[FltCreateFileEx2](./nf-fltkernel-fltcreatefileex2.md)
 
-[FltQueryDirectoryFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerydirectoryfile)
+[FltQueryDirectoryFile](./nf-fltkernel-fltquerydirectoryfile.md)
 
-[IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control)
+[IRP_MJ_DIRECTORY_CONTROL IRP](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
 [UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
 
 [ZwQueryDirectoryFile](https://msdn.microsoft.com/library/windows/hardware/ff567047")
-

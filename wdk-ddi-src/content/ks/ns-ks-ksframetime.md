@@ -58,7 +58,7 @@ Specifies the duration in presentation time units.
 
 ### -field FrameFlags
 
-Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for [KSALLOCATOR_FRAMING](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing).
+Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for [KSALLOCATOR_FRAMING](./ns-ks-ksallocator_framing.md).
 
 ### -field Reserved
 
@@ -67,4 +67,3 @@ Set to zero.
 ## -remarks
 
 Note that this is an optional property, which need only be implemented if the pin instance understands the specifics of the media type it is transporting.
-

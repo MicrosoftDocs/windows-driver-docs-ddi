@@ -41,7 +41,7 @@ api_name:
  - RILREGSTAT
 ---
 
-# RILREGSTAT enumeration
+# RILREGSTAT enumeration (ntddrilapitypes.h)
 
 
 ## -description
@@ -85,5 +85,4 @@ enum RILREGSTAT  {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
-
+<a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>

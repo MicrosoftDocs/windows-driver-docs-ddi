@@ -1,11 +1,9 @@
 ---
 UID: NF:fltkernel.FltRetrieveFileInfoOnCreateCompletionEx
 title: FltRetrieveFileInfoOnCreateCompletionEx function
-author: windows-driver-content
 description: A minifilter calls FltRetrieveFileInfoOnCreateCompletionEx to query file information upon file creation completion.
 tech.root: ifsk
 ms.assetid: b0a99090-40a5-4e40-8ddb-54816ba789b5
-ms.author: windowsdriverdev
 ms.date: 01/11/2019
 keywords: ["FltRetrieveFileInfoOnCreateCompletionEx function"]
 ms.keywords: FltRetrieveFileInfoOnCreateCompletionEx, FltRetrieveFileInfoOnCreateCompletion
@@ -95,9 +93,8 @@ A minifilter must call **FltRequestFileInfoOnCreateCompletionEx** during file pr
 
 ## -see-also
 
-[ECP_LIST](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
+[ECP_LIST](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 
 [**FltRequestFileInfoOnCreateCompletion**](nf-fltkernel-fltrequestfileinfooncreatecompletion.md)
-

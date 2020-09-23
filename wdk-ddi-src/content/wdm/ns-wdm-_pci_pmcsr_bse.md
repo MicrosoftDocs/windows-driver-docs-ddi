@@ -46,7 +46,7 @@ api_name:
  - PCI_PMCSR_BSE
 ---
 
-# _PCI_PMCSR_BSE structure
+# _PCI_PMCSR_BSE structure (wdm.h)
 
 
 ## -description
@@ -79,5 +79,4 @@ typedef struct _PCI_PMCSR_BSE {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pm_capability">PCI_PM_CAPABILITY</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_pm_capability">PCI_PM_CAPABILITY</a>

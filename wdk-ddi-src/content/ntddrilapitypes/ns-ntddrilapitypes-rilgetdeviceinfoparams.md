@@ -43,7 +43,7 @@ api_name:
  - RILGETDEVICEINFOPARAMS
 ---
 
-# RILGETDEVICEINFOPARAMS structure
+# RILGETDEVICEINFOPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

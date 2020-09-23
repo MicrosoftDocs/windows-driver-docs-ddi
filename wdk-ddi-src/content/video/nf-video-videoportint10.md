@@ -56,7 +56,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param BiosArguments
 
-Pointer to a structure containing values for the x86 registers that should be set before making the BIOS call. The miniport driver should set any unused registers to zero. All values set up in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_x86_bios_arguments">VIDEO_x86_BIOS_ARGUMENTS</a> structure are interpreted as immediate values.
+Pointer to a structure containing values for the x86 registers that should be set before making the BIOS call. The miniport driver should set any unused registers to zero. All values set up in the <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_x86_bios_arguments">VIDEO_x86_BIOS_ARGUMENTS</a> structure are interpreted as immediate values.
 
 ## -returns
 
@@ -64,7 +64,7 @@ Pointer to a structure containing values for the x86 registers that should be se
 
 ## -remarks
 
-Generally, VGA-compatible miniport drivers, which support full-screen MS-DOS applications on x86-based machines, call <b>VideoPortInt10</b>. Such a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a> function must have set up the <b>VdmPhysicalVideoMemoryAddress</b> and <b>VdmPhysicalVideoMemoryLength</b> for the range in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> structure.
+Generally, VGA-compatible miniport drivers, which support full-screen MS-DOS applications on x86-based machines, call <b>VideoPortInt10</b>. Such a driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a> function must have set up the <b>VdmPhysicalVideoMemoryAddress</b> and <b>VdmPhysicalVideoMemoryLength</b> for the range in the <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> structure.
 
 However, other video miniport drivers also can call this function.
 
@@ -72,17 +72,16 @@ Because <b>VideoPortInt10</b> interprets the <i>BiosArgument</i> parameter value
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_x86_bios_arguments">VIDEO_x86_BIOS_ARGUMENTS</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_x86_bios_arguments">VIDEO_x86_BIOS_ARGUMENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>

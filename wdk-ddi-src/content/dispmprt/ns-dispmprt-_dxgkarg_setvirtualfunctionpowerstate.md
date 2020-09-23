@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE
 title: _DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE
-author: windows-driver-content
 description: Used to set virtual function power state.
 tech.root: display
 ms.assetid: 9dfe1c32-54a4-41d9-85b7-89872c807359
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure"]
 ms.prod: windows-hardware

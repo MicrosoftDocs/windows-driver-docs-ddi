@@ -54,7 +54,7 @@ The <b>RtlUnicodeStringToInteger</b> routine converts a Unicode string represent
 ### -param String 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the number representation to convert to the equivalent integer value.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the number representation to convert to the equivalent integer value.
 
 ### -param Base 
 
@@ -154,13 +154,12 @@ The following table contains examples of output values that result from various 
 </table>
  
 
-A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
+A related routine, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

@@ -48,7 +48,6 @@ api_name:
 
 The **IWiaMiniDrv** interface provides the methods that are the entry points for all communication between the minidriver and the WIA service. These methods allow the WIA service to control the device.
 
-A WIA minidriver writer must implement each method in this interface, although the implementations are not required to do anything more than return E_NOTIMPL (for [IWiaMiniDrv::drvAnalyzeItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvanalyzeitem) and [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)) or S_OK (for the other methods in this interface).
+A WIA minidriver writer must implement each method in this interface, although the implementations are not required to do anything more than return E_NOTIMPL (for [IWiaMiniDrv::drvAnalyzeItem](./nf-wiamindr_lh-iwiaminidrv-drvanalyzeitem.md) and [IWiaMiniDrv::drvGetDeviceErrorStr](./nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md)) or S_OK (for the other methods in this interface).
 
 ## -inheritance
-

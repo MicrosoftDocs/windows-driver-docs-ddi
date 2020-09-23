@@ -8,7 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NetAdapterInitFree function"]
 ms.keywords: NetAdapterInitFree
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -56,7 +56,7 @@ A pointer to a NETADAPTER_INIT structure.
 
 If a client driver receives a NETADAPTER_INIT structure from a call to [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md), the driver must always call **NetAdapterInitFree** to deallocate it regardless of the result of [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-For more information and a code example about calling [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md), see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization).
+For more information and a code example about calling [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md), see [Device initialization](/windows-hardware/drivers/netcx/device-initialization).
 
 ## -see-also
 
@@ -64,5 +64,4 @@ For more information and a code example about calling [**NetAdapterCreate**](nf-
 
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 
-[Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)
-
+[Device initialization](/windows-hardware/drivers/netcx/device-initialization)

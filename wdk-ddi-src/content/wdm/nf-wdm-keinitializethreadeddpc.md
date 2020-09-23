@@ -53,7 +53,7 @@ The <b>KeInitializeThreadedDpc</b> routine initializes a threaded DPC object, an
 ### -param Dpc 
 
 [out]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
+Pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that represents the DPC object to initialize. The caller must allocate storage for the structure from resident memory.
 
 ### -param DeferredRoutine 
 
@@ -67,7 +67,7 @@ Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="
 
 ## -remarks
 
-For more information about threaded DPCs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/threaded-dpcs">Threaded DPCs</a>.
+For more information about threaded DPCs, see <a href="/windows-hardware/drivers/kernel/introduction-to-threaded-dpcs">Introduction to Threaded DPCs</a>.
 
 ## -see-also
 
@@ -75,9 +75,8 @@ For more information about threaded DPCs, see <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovequeuedpc">KeRemoveQueueDpc</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovequeuedpc">KeRemoveQueueDpc</a>

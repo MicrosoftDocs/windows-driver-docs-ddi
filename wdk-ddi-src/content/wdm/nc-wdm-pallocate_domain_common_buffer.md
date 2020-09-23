@@ -85,7 +85,7 @@ This callback function allocates the memory for a domain common buffer.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -116,4 +116,3 @@ NTSTATUS PallocateDomainCommonBuffer
 ## -remarks
 
 ## -see-also
-

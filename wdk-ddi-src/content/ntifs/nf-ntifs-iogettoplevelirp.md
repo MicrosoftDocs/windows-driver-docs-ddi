@@ -41,7 +41,7 @@ api_name:
  - IoGetTopLevelIrp
 ---
 
-# IoGetTopLevelIrp function
+# IoGetTopLevelIrp function (ntifs.h)
 
 
 ## -description
@@ -111,5 +111,4 @@ The cache manager is the top-level component for the current thread, and the cur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosettoplevelirp">IoSetTopLevelIrp</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosettoplevelirp">IoSetTopLevelIrp</a>

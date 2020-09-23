@@ -35,7 +35,7 @@ api_name:
 
 # IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -68,11 +68,10 @@ Size of the **UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS** structure.
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, set to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 Certain UCSI commands do not generate notifications from the PPM firmware, such as the PPM_RESET command. When this command is received, the firmware disables all notification. The UcmUcsiCx class extension sends such commands to the client driver through this IOCTL request. The client driver is expected to poll on reset complete indicator and return the current result from the firmware to UcmUcsiCx.
 
 ## -see-also
-

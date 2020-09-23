@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The STI_USD_CAPS structure is used as a parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getcapabilities">IStiUSD::GetCapabilities</a> method.
+The STI_USD_CAPS structure is used as a parameter for the <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getcapabilities">IStiUSD::GetCapabilities</a> method.
 
 ## -struct-fields
 
@@ -77,4 +77,3 @@ The driver supports asynchronous device notifications.
 #### STI_USD_GENCAP_OPEN_DEVICE_FOR_ME
 
 <i>Not used.</i>
-

@@ -23,4 +23,4 @@ To develop Point of Service (POS) device drivers, you need these headers:
 * [poscx.h](../poscx/index.md)
 * [poscxfuncenum.h](../poscxfuncenum/index.md)
 
-For the programming guide, see [Point of Service (POS)](https://docs.microsoft.com/windows-hardware/drivers/pos).
+For the programming guide, see [Point of Service (POS)](/windows-hardware/drivers/pos).

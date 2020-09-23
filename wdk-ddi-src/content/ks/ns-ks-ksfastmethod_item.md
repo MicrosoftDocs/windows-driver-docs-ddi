@@ -58,7 +58,7 @@ Contains the identifier of the method and the flags describing the type of metho
 
 ### -field MethodHandler
 
-Points to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine for this method.
+Points to a driver-supplied <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine for this method.
 
 ### -field MethodSupported
 
@@ -66,9 +66,8 @@ Set to <b>TRUE</b> if the method is supported, otherwise set to <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item">KSMETHOD_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a>

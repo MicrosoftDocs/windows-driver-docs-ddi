@@ -5,7 +5,7 @@ description: The CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)
 old-location: image\cwiaupropertylist_setvalidvalues_long__range_.htm
 tech.root: image
 ms.assetid: da84a381-b564-4356-bd08-dd145b3dcc0b
-ms.date: 09/07/2018
+ms.date: 09/21/2020
 keywords: ["CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(LONG,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_long__range_, wiauFncs_49a3f9ad-d74b-436c-ba14-8047889431ea.xml, wiautil/CWiauPropertyList::SetValidValues
 req.header: wiautil.h
@@ -42,8 +42,7 @@ api_name:
  - CWiauPropertyList.SetValidValues
 ---
 
-# CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)
-
+# CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG) (wiautil.h)
 
 ## -description
 
@@ -83,5 +82,4 @@ Specifies the increment between two successive values in the range of values.
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
-[CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_int_plong))
-
+[CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)](nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_int_plong).md)

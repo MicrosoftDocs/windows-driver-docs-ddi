@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The IO_BLOCK_EX structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_send_usb_request">IOCTL_SEND_USB_REQUEST</a>. Values contained in structure members are used to create a USB Device Request (described in the <i>Universal Serial Bus Specification</i>).
+The IO_BLOCK_EX structure is used as a parameter to <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_send_usb_request">IOCTL_SEND_USB_REQUEST</a>. Values contained in structure members are used to create a USB Device Request (described in the <i>Universal Serial Bus Specification</i>).
 
 ## -struct-fields
 
@@ -81,4 +81,3 @@ Used as the <b>bmRequestType</b> field of a USB Device Request.
 ### -field fTransferDirectionIn
 
 <b>TRUE</b> for transfers from device to host; <b>FALSE</b> for transfers from host to device.
-

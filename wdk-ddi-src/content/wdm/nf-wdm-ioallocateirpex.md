@@ -1,11 +1,9 @@
 ---
 UID: NF:wdm.IoAllocateIrpEx
 title: IoAllocateIrpEx function (wdm.h)
-author: windows-driver-content
 description: IoAllocateIrpEx allocates an I/O request packet (IRP) from
-tech.root:
+tech.root: 
 ms.assetid: 121309fe-e6f5-4d5d-8817-25ed7e9e2e5f
-ms.author: windowsdriverdev
 ms.date: 10/11/2019
 keywords: ["IoAllocateIrpEx function"]
 ms.keywords: IoAllocateIrpEx
@@ -13,34 +11,37 @@ req.header: wdm.h
 req.include-header: wdm.h, ntddk.h, ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting Windows 10 (version 1507)
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
 req.lib: ntoskrnl.lib
 req.dll: ntoskrnl.exe
 req.irql: <= DISPATCH_LEVEL
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location: 
-- ntoskrnl.exe
-api_name: 
-- IoAllocateIrpEx
-product: 
-- Windows
 targetos: Windows
-
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - ntoskrnl.exe
+api_name:
+ - IoAllocateIrpEx
+product:
+ - Windows
+f1_keywords:
+ - IoAllocateIrpEx
+ - wdm/IoAllocateIrpEx
 ---
 
 # IoAllocateIrpEx function
+
 
 ## -description
 
@@ -68,30 +69,30 @@ Setting **ChargeQuota** to **TRUE** causes the memory allocated for the IRP to b
 
 **IoAllocateIrpEx** allocates **StackSize** stack locations and initializes the IRP. It does not associate the IRP with a thread. The allocating driver must free the IRP instead of completing it back to the I/O manager.
 
-An intermediate or highest-level driver can call **IoAllocateIrpEx** to create IRPs for requests it sends to lower-level drivers. Such a driver must initialize the IRP and must set its [*IoCompletion*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine) callback routine in the IRP it creates so the caller can dispose of the IRP when lower-level drivers have completed processing of the request.
-IoAllocateIrp automatically initializes the IRP's members. Do not use IoInitializeIrp to initialize the IRP before its first use. (You can use IoInitializeIrp to reuse an IRP that you have already used under certain special circumstances. See [Reusing IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/reusing-irps) for details.)
-An intermediate or highest-level driver also can call [**IoBuildDeviceIoControlRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest), [**IoBuildAsynchronousFsdRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest) or [**IoBuildSynchronousFsdRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest) to set up requests it sends to lower-level drivers. Only a highest-level driver can call [**IoMakeAssociatedIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp).
+An intermediate or highest-level driver can call **IoAllocateIrpEx** to create IRPs for requests it sends to lower-level drivers. Such a driver must initialize the IRP and must set its [*IoCompletion*](./nc-wdm-io_completion_routine.md) callback routine in the IRP it creates so the caller can dispose of the IRP when lower-level drivers have completed processing of the request.
+IoAllocateIrp automatically initializes the IRP's members. Do not use IoInitializeIrp to initialize the IRP before its first use. (You can use IoInitializeIrp to reuse an IRP that you have already used under certain special circumstances. See [Reusing IRPs](/windows-hardware/drivers/kernel/reusing-irps) for details.)
+An intermediate or highest-level driver also can call [**IoBuildDeviceIoControlRequest**](./nf-wdm-iobuilddeviceiocontrolrequest.md), [**IoBuildAsynchronousFsdRequest**](./nf-wdm-iobuildasynchronousfsdrequest.md) or [**IoBuildSynchronousFsdRequest**](./nf-wdm-iobuildsynchronousfsdrequest.md) to set up requests it sends to lower-level drivers. Only a highest-level driver can call [**IoMakeAssociatedIrp**](../ntddk/nf-ntddk-iomakeassociatedirp.md).
 
 ## -see-also
 
-[IO_STACK_LOCATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location)
+[IO_STACK_LOCATION](./ns-wdm-_io_stack_location.md)
 
-[IRP](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
+[IRP](./ns-wdm-_irp.md)
 
-[**IoAllocateIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateirp)
+[**IoAllocateIrp**](./nf-wdm-ioallocateirp.md)
 
-[**IoBuildAsynchronousFsdRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildasynchronousfsdrequest)
+[**IoBuildAsynchronousFsdRequest**](./nf-wdm-iobuildasynchronousfsdrequest.md)
 
-[**IoBuildDeviceIoControlRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest)
+[**IoBuildDeviceIoControlRequest**](./nf-wdm-iobuilddeviceiocontrolrequest.md)
 
-[*IoCompletion*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_completion_routine)
+[*IoCompletion*](./nc-wdm-io_completion_routine.md)
 
-[**IoBuildSynchronousFsdRequest**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest)
+[**IoBuildSynchronousFsdRequest**](./nf-wdm-iobuildsynchronousfsdrequest.md)
 
-[**IoFreeIrp**](https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp)
+[**IoFreeIrp**](/windows-hardware/drivers/devtest/storport-iofreeirp)
 
-[**IoMakeAssociatedIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iomakeassociatedirp)
+[**IoMakeAssociatedIrp**](../ntddk/nf-ntddk-iomakeassociatedirp.md)
 
-[**IoReuseIrp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreuseirp)
+[**IoReuseIrp**](./nf-wdm-ioreuseirp.md)
 
-[**IoSetCompletionRoutine**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcompletionroutine)
+[**IoSetCompletionRoutine**](./nf-wdm-iosetcompletionroutine.md)

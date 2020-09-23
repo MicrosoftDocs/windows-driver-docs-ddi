@@ -44,7 +44,7 @@ api_name:
  - PCI_X_CAPABILITY
 ---
 
-# PCI_X_CAPABILITY structure
+# PCI_X_CAPABILITY structure (wdm.h)
 
 
 ## -description
@@ -55,7 +55,7 @@ The PCI_X_CAPABILITY structure reports the contents of the command and status re
 
 ### -field Header
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description.
+Contains a structure of type <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description.
 
 ### -field Command
 
@@ -184,5 +184,4 @@ typedef struct {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a>

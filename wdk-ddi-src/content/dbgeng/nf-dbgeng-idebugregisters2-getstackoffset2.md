@@ -78,7 +78,7 @@ DEBUG_REGSRC_EXPLICIT
 
 </td>
 <td>
-Fetch register information from the current explicit <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/changing-contexts">register context</a>.
+Fetch register information from the current explicit <a href="/windows-hardware/drivers/debugger/changing-contexts">register context</a>.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Receives the location in the process's virtual address space of the current thre
 
 ## -returns
 
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -125,9 +125,8 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getstackoffset">GetStackOffset</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getstackoffset">GetStackOffset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>

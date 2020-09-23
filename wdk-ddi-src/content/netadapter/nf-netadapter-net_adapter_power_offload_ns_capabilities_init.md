@@ -1,16 +1,14 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT
 title: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function initializes a NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: a9f9665f-e74c-409e-ad33-968fb40c629b
-ms.author: windowsdriverdev
 ms.date: 10/22/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -70,11 +68,10 @@ After calling this function to initialize the **NET_ADAPTER_POWER_OFFLOAD_NS_CAP
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_ns_capabilities.md)
 
 [**NetAdapterPowerOffloadSetNsCapabilities**](../netadapter/nf-netadapter-netadapterpoweroffloadsetnscapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

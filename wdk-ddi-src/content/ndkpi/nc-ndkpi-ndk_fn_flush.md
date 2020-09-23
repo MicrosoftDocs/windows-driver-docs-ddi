@@ -53,7 +53,7 @@ The <i>NdkFlush</i> (<i>NDK_FN_FLUSH</i>) function initiates cancelling of the r
 ### -param pNdkQp 
 
 [in]
-A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
+A pointer to an NDK queue pair (QP) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
 ## -remarks
 
@@ -63,5 +63,4 @@ If the  NDK consumer wants to verify that all of the requests are flushed after 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
-
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>

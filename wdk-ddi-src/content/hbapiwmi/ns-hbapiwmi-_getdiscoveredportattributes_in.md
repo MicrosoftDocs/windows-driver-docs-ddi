@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GetDiscoveredPortAttributes_IN structure is used to pass input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a> WMI method.
+The GetDiscoveredPortAttributes_IN structure is used to pass input parameter data to the <a href="/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a> WMI method.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ Indicates the index within the specified HBA of the port of type FC_Port to quer
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the GetDiscoveredPortAttributes_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a>
-
+<a href="/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a>

@@ -60,15 +60,15 @@ A wide character string that contains the name of the iSCSI target.
 
 ### -field CID
 
-The iSCSI connection identifier (ID) for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the connection. Do not use this ID. Application software should use the connection identifier that the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods return in the <i>UniqueConnectionId</i> parameter.
+The iSCSI connection identifier (ID) for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the connection. Do not use this ID. Application software should use the connection identifier that the <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods return in the <i>UniqueConnectionId</i> parameter.
 
 ### -field USID
 
-The iSCSI session ID for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the session. Application software should use the session identifier that the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods return in the <i>UniqueSessionId</i> parameter.
+The iSCSI session ID for this connection instance. This ID is an internal value that the iSCSI protocol uses to identify the session. Application software should use the session identifier that the <a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods return in the <i>UniqueSessionId</i> parameter.
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_msiscsi_hbainformation">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_msiscsi_hbainformation">MSiSCSI_HBAInformation</a> structure.
 
 ### -field BytesSent
 
@@ -88,35 +88,29 @@ The number of PDUs that are received over this connection.
 
 ## -remarks
 
-Initiators must register the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-connectionstatistics-wmi-class">MSiSCSI_ConnectionStatistics WMI Class</a> with the following dynamic instance name for the connection: 
+Initiators must register the <a href="/windows-hardware/drivers/storage/msiscsi-connectionstatistics-wmi-class">MSiSCSI_ConnectionStatistics WMI Class</a> with the following dynamic instance name for the connection: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>targetname_#:#</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+targetname_#:#
+```
+
 The first number sign (#) is the value in the <b>USID</b> member of <b>MSiSCSI_ConnectionStatistics</b>, and the second number sign (#) is the value in the <b>CID</b> member. It is optional that you implement this class.
 
-The totals tracked by this structure are valid for the lifetime of the connection in the session. Totals for all connections in a session are obtained in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiprf/ns-iscsiprf-_msiscsi_sessionstatistics">MSiSCSI_SessionStatistics</a> structure.
+The totals tracked by this structure are valid for the lifetime of the connection in the session. Totals for all connections in a session are obtained in <a href="/windows-hardware/drivers/ddi/iscsiprf/ns-iscsiprf-_msiscsi_sessionstatistics">MSiSCSI_SessionStatistics</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
+<a href="/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
+<a href="/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-connectionstatistics-wmi-class">MSiSCSI_ConnectionStatistics WMI Class</a>
+<a href="/windows-hardware/drivers/storage/msiscsi-connectionstatistics-wmi-class">MSiSCSI_ConnectionStatistics WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_msiscsi_hbainformation">MSiSCSI_HBAInformation</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_msiscsi_hbainformation">MSiSCSI_HBAInformation</a>

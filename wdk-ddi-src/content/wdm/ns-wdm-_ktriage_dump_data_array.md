@@ -48,7 +48,7 @@ Specifies an array of memory locations and lengths (ranges) to be preserved in c
 
 ### -field List
 
-A pointer to a [**LIST_ENTRY**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry) structure that represents the entry to be added in the array.
+A pointer to a [**LIST_ENTRY**](/windows/win32/api/ntdef/ns-ntdef-list_entry) structure that represents the entry to be added in the array.
 
 ### -field NumBlocksUsed
 
@@ -64,9 +64,8 @@ A pointer to a [**LIST_ENTRY**](https://docs.microsoft.com/windows/win32/api/ntd
 
 ## -remarks
 
-A driver provides a pointer to a structure of this type when it calls the [**KeAddTriageDumpDataBlock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keaddtriagedumpdatablock) function.
+A driver provides a pointer to a structure of this type when it calls the [**KeAddTriageDumpDataBlock**](./nf-wdm-keaddtriagedumpdatablock.md) function.
 
 ## -see-also
 
-[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine)
-
+[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md)

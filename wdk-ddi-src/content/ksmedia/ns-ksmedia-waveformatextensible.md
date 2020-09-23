@@ -54,7 +54,7 @@ The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.
 
 ### -field Format
 
-Specifies the stream's wave-data format. This member is a structure of type [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex). The **wFormat** member of WAVEFORMATEX should be set to WAVE_FORMAT_EXTENSIBLE. The **wBitsPerSample** member of WAVEFORMATEX is defined unambiguously as the size of the container for each sample. Sample containers are always byte-aligned, and **wBitsPerSample** must be a multiple of eight.
+Specifies the stream's wave-data format. This member is a structure of type [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex). The **wFormat** member of WAVEFORMATEX should be set to WAVE_FORMAT_EXTENSIBLE. The **wBitsPerSample** member of WAVEFORMATEX is defined unambiguously as the size of the container for each sample. Sample containers are always byte-aligned, and **wBitsPerSample** must be a multiple of eight.
 
 ### -field Samples
 
@@ -72,7 +72,7 @@ Reserved for internal use by operating system. Initialize to zero.
 
 ### -field dwChannelMask
 
-Specifies the assignment of channels in the multichannel stream to speaker positions. The encoding is the same as that used for the **ActiveSpeakerPositions** member of the [KSAUDIO_CHANNEL_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_channel_config) structure. For more information, see the [Remarks](#remarks) section.
+Specifies the assignment of channels in the multichannel stream to speaker positions. The encoding is the same as that used for the **ActiveSpeakerPositions** member of the [KSAUDIO_CHANNEL_CONFIG](./ns-ksmedia-ksaudio_channel_config.md) structure. For more information, see the [Remarks](#remarks) section.
 
 ### -field SubFormat
 
@@ -80,7 +80,7 @@ Specifies the subformat. For more information, see the [Remarks](#remarks) secti
 
 ## -remarks
 
-WAVEFORMATEXTENSIBLE is an extended form of the [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex) structure. WAVEFORMATEX can unambiguously describe only a subset of the formats that can be described by WAVEFORMATEXTENSIBLE. WAVEFORMATEXTENSIBLE is not subject to the limitations of WAVEFORMATEX, which is unable to unambiguously specify formats with more than two channels or for which the number of valid bits per sample does not equal the sample container size. For more information, see [Audio Data Formats and Data Ranges](https://docs.microsoft.com/windows-hardware/drivers/audio/audio-data-formats-and-data-ranges).
+WAVEFORMATEXTENSIBLE is an extended form of the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure. WAVEFORMATEX can unambiguously describe only a subset of the formats that can be described by WAVEFORMATEXTENSIBLE. WAVEFORMATEXTENSIBLE is not subject to the limitations of WAVEFORMATEX, which is unable to unambiguously specify formats with more than two channels or for which the number of valid bits per sample does not equal the sample container size. For more information, see [Audio Data Formats and Data Ranges](/windows-hardware/drivers/audio/audio-data-formats-and-data-ranges).
 
 Frequently, the **wValidBitsPerSample** member, which specifies the sample precision, contains the same value as the **Format**.**wBitsPerSample** member, which specifies the sample container size. However, these values can be different. For example, if the wave data originated from a 20-bit A/D converter, then **wValidBitsPerSample** should be 20 but **Format**.**wBitsPerSample** might be 24 or 32. If **wValidBitsPerSample** is less than **Format**.**wBitsPerSample**, the valid bits (the actual PCM data) are left-aligned within the container. The unused bits in the least-significant portion of the container should be set to zero.
 
@@ -113,7 +113,7 @@ The channels that are specified in **dwChannelMask** should be present in the or
 
 For example, if only front-left and front-center are specified, then front-left and front-center should be in channels 0 and 1, respectively, of the interleaved stream.
 
-As a second example, if **nChannels** (in the **Format** member; see [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex)) is set to 4 and **dwChannelMask** is set to 0x00000033, the audio channels are intended for playback to the front-left, front-right, back-left, and back-right speakers. The channel data should be interleaved in that order within each block.
+As a second example, if **nChannels** (in the **Format** member; see [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex)) is set to 4 and **dwChannelMask** is set to 0x00000033, the audio channels are intended for playback to the front-left, front-right, back-left, and back-right speakers. The channel data should be interleaved in that order within each block.
 
 Channel locations beyond the predefined ones are considered reserved.
 
@@ -133,15 +133,15 @@ KSAUDIO_SPEAKER_7POINT1
 
 KSAUDIO_SPEAKER_DIRECTOUT
 
-A hardware device can be set to one of these speaker configurations by a [KSPROPERTY_AUDIO_CHANNEL_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config) set-property request. For more information about setting speaker configurations, see [KSAUDIO_CHANNEL_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_channel_config).
+A hardware device can be set to one of these speaker configurations by a [KSPROPERTY_AUDIO_CHANNEL_CONFIG](/windows-hardware/drivers/audio/ksproperty-audio-channel-config) set-property request. For more information about setting speaker configurations, see [KSAUDIO_CHANNEL_CONFIG](./ns-ksmedia-ksaudio_channel_config.md).
 
-Typically, the count in **nChannels** equals the number of bits set in **dwChannelMask**, but this is not necessarily so. If **nChannels** is less than the number of bits set in **dwChannelMask**, the extra (most significant) bits in **dwChannelMask** are ignored. If **nChannels** exceeds the number of bits set in **dwChannelMask**, the channels that have no corresponding mask bits are not assigned to any physical speaker position. In any speaker configuration other than KSAUDIO_SPEAKER_DIRECTOUT, an audio sink like KMixer (see [KMixer System Driver](https://docs.microsoft.com/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components)) simply ignores these excess channels and mixes only the channels that have corresponding mask bits.
+Typically, the count in **nChannels** equals the number of bits set in **dwChannelMask**, but this is not necessarily so. If **nChannels** is less than the number of bits set in **dwChannelMask**, the extra (most significant) bits in **dwChannelMask** are ignored. If **nChannels** exceeds the number of bits set in **dwChannelMask**, the channels that have no corresponding mask bits are not assigned to any physical speaker position. In any speaker configuration other than KSAUDIO_SPEAKER_DIRECTOUT, an audio sink like KMixer (see [KMixer System Driver](/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components)) simply ignores these excess channels and mixes only the channels that have corresponding mask bits.
 
-KSAUDIO_SPEAKER_DIRECTOUT represents a configuration with no speakers and is defined in *Ksmedia.h* as zero. In this configuration, the audio device renders the first channel to the first port on the device, the second channel to the second port on the device, and so on. This allows an audio authoring application to output multichannel data directly and without modification to a device such as a digital mixer or a digital audio storage device (hard disk or ADAT). For example, channels 0 through 30 might contain, respectively, drums, guitar, bass, voice, and so on. For this kind of raw audio data, speaker positions are meaningless, and assigning speaker positions to the input or output streams could cause a component such as KMixer to intervene inappropriately by performing an unwanted format conversion. If a device is unable to process the raw audio streams, it should reject a request to change its speaker configuration to KSAUDIO_SPEAKER_DIRECTOUT. For more information, see [DSSPEAKER_DIRECTOUT Speaker Configuration](https://docs.microsoft.com/windows-hardware/drivers/audio/dsspeaker-directout-speaker-configuration).
+KSAUDIO_SPEAKER_DIRECTOUT represents a configuration with no speakers and is defined in *Ksmedia.h* as zero. In this configuration, the audio device renders the first channel to the first port on the device, the second channel to the second port on the device, and so on. This allows an audio authoring application to output multichannel data directly and without modification to a device such as a digital mixer or a digital audio storage device (hard disk or ADAT). For example, channels 0 through 30 might contain, respectively, drums, guitar, bass, voice, and so on. For this kind of raw audio data, speaker positions are meaningless, and assigning speaker positions to the input or output streams could cause a component such as KMixer to intervene inappropriately by performing an unwanted format conversion. If a device is unable to process the raw audio streams, it should reject a request to change its speaker configuration to KSAUDIO_SPEAKER_DIRECTOUT. For more information, see [DSSPEAKER_DIRECTOUT Speaker Configuration](/windows-hardware/drivers/audio/dsspeaker-directout-speaker-configuration).
 
-For more information about multichannel configurations, see the white paper titled *Multiple Channel Audio Data and WAVE Files* at the [audio technology](https://go.microsoft.com/fwlink/p/?linkid=8751) website.
+For more information about multichannel configurations, see the white paper titled *Multiple Channel Audio Data and WAVE Files* at the [audio technology](/windows-hardware/drivers/audio/) website.
 
-The **SubFormat** member contains a GUID that specifies the general data format for a wave stream. For example, this GUID might specify that the stream contains integer PCM data. The other members provide additional information such as the sample size and the number of channels. The meaning of the **SubFormat** GUID is similar to that of the 16-bit format tag in the [WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex) structure's **wFormatTag** member.
+The **SubFormat** member contains a GUID that specifies the general data format for a wave stream. For example, this GUID might specify that the stream contains integer PCM data. The other members provide additional information such as the sample size and the number of channels. The meaning of the **SubFormat** GUID is similar to that of the 16-bit format tag in the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure's **wFormatTag** member.
 
 Before WAVEFORMATEXTENSIBLE was introduced in Windows 98 Second Edition, WAVEFORMATEX was the preferred structure for specifying wave formats. At that time, vendors needed to register each new wave format with Microsoft so that an official format tag could be assigned to the format. A list of registered format tags appears in public header file *Mmreg.h*.
 
@@ -158,13 +158,12 @@ For backward compatibility, any wave format that can be specified by a stand-alo
 | WAVE_FORMAT_MULAW | KSDATAFORMAT_SUBTYPE_MULAW |
 | WAVE_FORMAT_ADPCM | KSDATAFORMAT_SUBTYPE_ADPCM |
 
-For more information, see [Converting Between Format Tags and Subformat GUIDs](https://docs.microsoft.com/windows-hardware/drivers/audio/converting-between-format-tags-and-subformat-guids).
+For more information, see [Converting Between Format Tags and Subformat GUIDs](/windows-hardware/drivers/audio/converting-between-format-tags-and-subformat-guids).
 
 Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can describe additional formats that cannot be described by WAVEFORMATEX alone. Vendors are free to define their own **SubFormat** GUIDs to identify proprietary formats for which no wave-format tags exist.
 
 ## -see-also
 
-[KSAUDIO_CHANNEL_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_channel_config)
+[KSAUDIO_CHANNEL_CONFIG](./ns-ksmedia-ksaudio_channel_config.md)
 
-[WAVEFORMATEX](https://docs.microsoft.com/windows/win32/api/mmreg/ns-mmreg-twaveformatex)
-
+[WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex)

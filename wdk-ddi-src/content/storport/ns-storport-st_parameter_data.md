@@ -43,7 +43,7 @@ api_name:
  - ST_PARAMETER_DATA
 ---
 
-# ST_PARAMETER_DATA structure
+# ST_PARAMETER_DATA structure (storport.h)
 
 
 ## -description
@@ -69,5 +69,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-rt_parameter_data">RT_PARAMETER_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-rt_parameter_data">RT_PARAMETER_DATA</a>

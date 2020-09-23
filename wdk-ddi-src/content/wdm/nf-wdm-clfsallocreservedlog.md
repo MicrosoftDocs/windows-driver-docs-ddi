@@ -54,17 +54,17 @@ The <b>ClfsAllocReservedLog</b> routine reserves space in a marshalling area for
 ### -param pvMarshalContext 
 
 [in]
-A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
 ### -param cRecords 
 
 [in]
-The number of records in the set. This value must match the value of <i>cRecords</i> previously passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsalignreservedlog">ClfsAlignReservedLog</a>.
+The number of records in the set. This value must match the value of <i>cRecords</i> previously passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsalignreservedlog">ClfsAlignReservedLog</a>.
 
 ### -param pcbAdjustment 
 
 [in]
-A pointer to a LONGLONG-typed variable that supplies the size, in bytes, of the reservation that will hold all the records in the set. The caller previously obtained this size by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsalignreservedlog">ClfsAlignReservedLog</a>.
+A pointer to a LONGLONG-typed variable that supplies the size, in bytes, of the reservation that will hold all the records in the set. The caller previously obtained this size by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsalignreservedlog">ClfsAlignReservedLog</a>.
 
 ## -returns
 
@@ -72,9 +72,8 @@ A pointer to a LONGLONG-typed variable that supplies the size, in bytes, of the 
 
 ## -remarks
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsalignreservedlog">ClfsAlignReservedLog</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsalignreservedlog">ClfsAlignReservedLog</a>

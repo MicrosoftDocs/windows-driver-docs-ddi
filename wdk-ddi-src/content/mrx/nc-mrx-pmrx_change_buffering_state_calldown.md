@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The<i>MRxCompleteBufferingStateChangeRequest</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify the network mini-redirector that a buffering state change request has been completed.
+The<i>MRxCompleteBufferingStateChangeRequest</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify the network mini-redirector that a buffering state change request has been completed.
 
 ## -parameters
 
@@ -127,9 +127,8 @@ RDBSS ignores the return value from <i>MRxCompleteBufferingStateChangeRequest</i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_compute_new_buffering_state">MRxComputeNewBufferingState</a>
+<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_compute_new_buffering_state">MRxComputeNewBufferingState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_get_connection_id">MRxGetConnectionId</a>
-
+<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_get_connection_id">MRxGetConnectionId</a>

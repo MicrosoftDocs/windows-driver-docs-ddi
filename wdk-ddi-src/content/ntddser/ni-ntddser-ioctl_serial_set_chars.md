@@ -48,13 +48,13 @@ api_name:
 
 The <b>IOCTL_SERIAL_SET_CHARS</b> request sets the special characters that the serial controller driver uses for handshake flow control. This driver verifies the specified special characters.
 
-To obtain the special characters, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_chars">IOCTL_SERIAL_GET_CHARS</a> request.
+To obtain the special characters, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_chars">IOCTL_SERIAL_GET_CHARS</a> request.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_chars">SERIAL_CHARS</a> structure that is used to input special characters.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_chars">SERIAL_CHARS</a> structure that is used to input special characters.
 
 ### -input-buffer-length
 
@@ -76,13 +76,12 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that <b>XoffChar</b> equals <b>XonChar</b>, or that one of them equals the handshake flow control escape character.
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that <b>XoffChar</b> equals <b>XonChar</b>, or that one of them equals the handshake flow control escape character.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_chars">IOCTL_SERIAL_GET_CHARS</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_chars">IOCTL_SERIAL_GET_CHARS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_chars">SERIAL_CHARS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_chars">SERIAL_CHARS</a>

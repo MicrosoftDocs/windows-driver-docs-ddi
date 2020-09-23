@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The CPSUIDATABLOCK structure is used as a parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, if the function code is <a href="https://docs.microsoft.com/previous-versions/ff547036(v=vs.85)">CPSFUNC_SET_DATABLOCK</a> or <a href="https://docs.microsoft.com/previous-versions/ff546425(v=vs.85)">CPSFUNC_QUERY_DATABLOCK</a>.
+The CPSUIDATABLOCK structure is used as a parameter for the <a href="/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, if the function code is <a href="/previous-versions/ff547036(v=vs.85)">CPSFUNC_SET_DATABLOCK</a> or <a href="/previous-versions/ff546425(v=vs.85)">CPSFUNC_QUERY_DATABLOCK</a>.
 
 ## -struct-fields
 
@@ -61,4 +61,3 @@ Size, in bytes of the buffer pointed to by <b>pbData</b>.
 ### -field pbData
 
 Pointer to a caller-allocated buffer.
-

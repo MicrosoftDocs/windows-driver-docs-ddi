@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The SetGroupPresharedKey_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgrouppresharedkey">SetGroupPresharedKey</a> method.
+The SetGroupPresharedKey_IN structure holds the input data for the <a href="/windows-hardware/drivers/storage/setgrouppresharedkey">SetGroupPresharedKey</a> method.
 
 ## -struct-fields
 
@@ -68,9 +68,8 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgrouppresharedkey">SetGroupPresharedKey</a>
+<a href="/windows-hardware/drivers/storage/setgrouppresharedkey">SetGroupPresharedKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setgrouppresharedkey_out">SetGroupPresharedKey_OUT</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_setgrouppresharedkey_out">SetGroupPresharedKey_OUT</a>

@@ -188,9 +188,8 @@ STATUS_CLEANER_CARTRIDGE_INSTALLED
 
 </li>
 </ul>
-Each of these NT status values correspond to a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/processing-tape-device-control-requests">Processing Tape Device Control Requests</a>.
+Each of these NT status values correspond to a value in the <a href="/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="/windows-hardware/drivers/storage/processing-tape-device-control-requests">Processing Tape Device Control Requests</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>

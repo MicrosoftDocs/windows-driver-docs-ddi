@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_attributes">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a> structure returns the WINBIO_SENSOR_ATTRIBUTES structure as output.
+The <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_attributes">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a> structure returns the WINBIO_SENSOR_ATTRIBUTES structure as output.
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ An HRESULT value that indicates containing status detail of the I/O operation.  
 
 ### -field WinBioVersion
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_version">WINBIO_VERSION</a> that contains a WinBio WBDI version that is supported by the driver. To be compatible with the WinBio service, <b>WinBioVersion</b> must contain the same major version as the current major version of the WinBio service, in addition to a minor version that is less than or equal to the current minor version of the WinBio service.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_version">WINBIO_VERSION</a> that contains a WinBio WBDI version that is supported by the driver. To be compatible with the WinBio service, <b>WinBioVersion</b> must contain the same major version as the current major version of the WinBio service, in addition to a minor version that is less than or equal to the current minor version of the WinBio service.
 
 ### -field SensorType
 
@@ -120,7 +120,7 @@ A structure of type WINBIO_STRING that contains the serial number of the device,
 
 ### -field FirmwareVersion
 
- A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_version">WINBIO_VERSION</a> that contains the version of the firmware that is loaded on the device.
+ A structure of type <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_version">WINBIO_VERSION</a> that contains the version of the firmware that is loaded on the device.
 
 ### -field SupportedFormatEntries
 
@@ -128,9 +128,8 @@ A structure of type WINBIO_STRING that contains the serial number of the device,
 
 ### -field SupportedFormat
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_registered_format">WINBIO_REGISTERED_FORMAT</a> that contains a list of the formats supported by the driver and device.
+A structure of type <a href="/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_registered_format">WINBIO_REGISTERED_FORMAT</a> that contains a list of the formats supported by the driver and device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_attributes">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a>
-
+<a href="/windows-hardware/drivers/ddi/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_attributes">IOCTL_BIOMETRIC_GET_ATTRIBUTES</a>

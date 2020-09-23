@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The<b> DsmSetLoadBalancePolicyALUA_OUT</b> structure reports the output of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/dsmsetloadbalancepolicyalua">DsmSetLoadBalancePolicyALUA</a> method.
+The<b> DsmSetLoadBalancePolicyALUA_OUT</b> structure reports the output of the <a href="/windows-hardware/drivers/storage/dsmsetloadbalancepolicyalua">DsmSetLoadBalancePolicyALUA</a> method.
 
 ## -struct-fields
 
 ### -field Status
 
-The status of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/dsmsetloadbalancepolicyalua">DsmSetLoadBalancePolicyALUA</a> operation.
-
+The status of the <a href="/windows-hardware/drivers/storage/dsmsetloadbalancepolicyalua">DsmSetLoadBalancePolicyALUA</a> operation.

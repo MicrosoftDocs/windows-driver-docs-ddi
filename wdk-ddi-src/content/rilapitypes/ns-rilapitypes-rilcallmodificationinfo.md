@@ -43,7 +43,7 @@ api_name:
  - RILCALLMODIFICATIONINFO
 ---
 
-# RILCALLMODIFICATIONINFO structure
+# RILCALLMODIFICATIONINFO structure (rilapitypes.h)
 
 
 ## -description

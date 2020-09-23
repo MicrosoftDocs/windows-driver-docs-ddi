@@ -46,7 +46,7 @@ api_name:
  - PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
 ---
 
-# _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure
+# _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure (wdm.h)
 
 
 ## -description
@@ -57,7 +57,7 @@ The PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure describes a serial number for
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a> structure that describes the header for this structure.
+A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a> structure that describes the header for this structure.
 
 ### -field LowSerialNumber
 
@@ -85,5 +85,4 @@ The PCIe device serial number capability is an optional extended capability that
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_enhanced_capability_header">PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER</a>

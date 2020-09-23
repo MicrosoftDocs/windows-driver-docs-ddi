@@ -67,21 +67,20 @@ It is an error to call <b>KeRemoveDeviceQueue</b> when the device queue object i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedevicequeue">KeInitializeDeviceQueue</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedevicequeue">KeInitializeDeviceQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertbykeydevicequeue">KeInsertByKeyDeviceQueue</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertbykeydevicequeue">KeInsertByKeyDeviceQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertdevicequeue">KeInsertDeviceQueue</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertdevicequeue">KeInsertDeviceQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovebykeydevicequeue">KeRemoveByKeyDeviceQueue</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keremovebykeydevicequeue">KeRemoveByKeyDeviceQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keremoveentrydevicequeue">KeRemoveEntryDeviceQueue</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keremoveentrydevicequeue">KeRemoveEntryDeviceQueue</a>

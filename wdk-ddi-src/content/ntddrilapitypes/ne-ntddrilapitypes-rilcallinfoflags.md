@@ -41,7 +41,7 @@ api_name:
  - RILCALLINFOFLAGS
 ---
 
-# RILCALLINFOFLAGS enumeration
+# RILCALLINFOFLAGS enumeration (ntddrilapitypes.h)
 
 
 ## -description

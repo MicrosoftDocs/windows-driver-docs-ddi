@@ -45,7 +45,7 @@ api_name:
  - COUNTED_REASON_CONTEXT
 ---
 
-# _COUNTED_REASON_CONTEXT structure
+# _COUNTED_REASON_CONTEXT structure (wdm.h)
 
 
 ## -description
@@ -100,9 +100,9 @@ A pointer to a wide-character, null-terminated string that explains the reason f
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a> uses the reason string or strings contained in this structure as a diagnostic aid during functional and performance testing.
+The <a href="/windows-hardware/drivers/kernel/power-manager">power manager</a> uses the reason string or strings contained in this structure as a diagnostic aid during functional and performance testing.
 
 The <b>COUNTED_REASON_CONTEXT</b> structure can contain either a simple reason string or a set of detailed reason strings. If <b>Flags</b> = DIAGNOSTIC_REASON_SIMPLE_STRING, the <b>SimpleString</b> member points to a string that explains the reason for the power request. If <b>Flags</b> = DIAGNOSTIC_REASON_DETAILED_STRING, the <b>ResourceFileName</b>, <b>ResourceReasonId</b>, <b>StringCount</b>, and <b>ReasonStrings</b> members can give a detailed set of reasons for the power request.
 
@@ -110,5 +110,4 @@ The DIAGNOSTIC_REASON_DETAILED_STRING flag supports localization. If the localiz
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>

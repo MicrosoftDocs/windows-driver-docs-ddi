@@ -41,7 +41,7 @@ api_name:
  - KeQueryPerformanceCounter
 ---
 
-# KeQueryPerformanceCounter function
+# KeQueryPerformanceCounter function (wdm.h)
 
 
 ## -description
@@ -67,29 +67,28 @@ A pointer to a variable to which <b>KeQueryPerformanceCounter</b> writes the per
 
 To obtain the frequency of the performance counter, specify a non-<b>NULL</b> pointer value for the <i>PerformanceFrequency</i> parameter. The frequency of the performance counter is fixed at system boot and is consistent across all processors. Therefore, a driver can cache the frequency of the performance counter during initialization.  
 
-For more info about this function and its usage, see <a href="https://docs.microsoft.com/windows/win32/sysinfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>.
+For more info about this function and its usage, see <a href="/windows/win32/sysinfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>.
 
 ## -see-also
 
-[KeQueryInterruptTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryinterrupttime)
+[KeQueryInterruptTime](./nf-wdm-kequeryinterrupttime.md)
 
 
 
-[KeQuerySystemTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1)
+[KeQuerySystemTime](./nf-wdm-kequerysystemtime~r1.md)
 
 
 
-[KeQueryTickCount](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerytickcount)
+[KeQueryTickCount](../ntddk/nf-ntddk-kequerytickcount.md)
 
 
 
-[KeQueryTimeIncrement](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerytimeincrement)
+[KeQueryTimeIncrement](./nf-wdm-kequerytimeincrement.md)
 
 
 
-[QueryPerformanceCounter](https://docs.microsoft.com/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)
+[QueryPerformanceCounter](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)
 
 
 
-[QueryPerformanceFrequency](https://docs.microsoft.com/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)
-
+[QueryPerformanceFrequency](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)

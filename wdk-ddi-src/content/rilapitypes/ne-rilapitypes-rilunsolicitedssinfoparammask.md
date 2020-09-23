@@ -41,7 +41,7 @@ api_name:
  - RILUNSOLICITEDSSINFOPARAMMASK
 ---
 
-# RILUNSOLICITEDSSINFOPARAMMASK enumeration
+# RILUNSOLICITEDSSINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

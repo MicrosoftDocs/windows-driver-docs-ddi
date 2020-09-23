@@ -63,15 +63,14 @@ A pointer to the file object, or <b>NULL</b> if the file is not cached or is no 
 
 The file system is responsible for ensuring that the file object remains valid while in use. It is impossible for the cache manager to guarantee this. 
 
-By using <b>CcGetFileObjectFromSectionPtrs</b>, you lose some caching functionality. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539113">CcGetFileObjectFromSectionPtrsRef</a> routine, which provides the same functionality as <b>CcGetFileObjectFromSectionPtrs</b> as well as creating a reference for the object.
+By using <b>CcGetFileObjectFromSectionPtrs</b>, you lose some caching functionality. Instead, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccgetfileobjectfromsectionptrsref">CcGetFileObjectFromSectionPtrsRef</a> routine, which provides the same functionality as <b>CcGetFileObjectFromSectionPtrs</b> as well as creating a reference for the object.
 
-For more information about creating mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Sections and Views</a>.
+For more information about creating mapped sections and views of memory, see <a href="/windows-hardware/drivers/ddi/index">Sections and Views</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539113">CcGetFileObjectFromSectionPtrsRef</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccgetfileobjectfromsectionptrsref">CcGetFileObjectFromSectionPtrsRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpurgecachesection">CcPurgeCacheSection</a>

@@ -61,15 +61,14 @@ This method does not return a value.
 
 ## -remarks
 
-If this method is defined in the extension library class <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>, it can be used to allow the extension library to cache information about the session without the need to register event callbacks.
+If this method is defined in the extension library class <a href="/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>, it can be used to allow the extension library to cache information about the session without the need to register event callbacks.
 
 This method is called when a target starts executing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
+<a href="/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552310(v=vs.85)">OnSessionAccessible</a>
-
+<a href="/previous-versions/windows/hardware/previsioning-framework/ff552310(v=vs.85)">OnSessionAccessible</a>

@@ -58,5 +58,4 @@ Supplies a pointer to the Mcb structure to uninitialize.
 
 ## -see-also
 
-[**FsRtlInitializeLargeMcb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb)
-
+[**FsRtlInitializeLargeMcb**](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb.md)

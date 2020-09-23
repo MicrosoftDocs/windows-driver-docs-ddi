@@ -41,7 +41,7 @@ api_name:
  - WIAS_HRESULT
 ---
 
-# WIAS_HRESULT macro
+# WIAS_HRESULT macro (wiautil.h)
 
 
 ## -description
@@ -62,9 +62,8 @@ This macro is the recommended way to output HRESULTS on Windows Vista.
 
 ## -see-also
 
-[WIAS_ASSERT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_assert)
+[WIAS_ASSERT](../wiamdef/nf-wiamdef-wias_assert.md)
 
-[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error)
+[WIAS_ERROR](../wiamdef/nf-wiamdef-wias_error.md)
 
-[WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)
-
+[WIAS_TRACE](../wiamdef/nf-wiamdef-wias_trace.md)

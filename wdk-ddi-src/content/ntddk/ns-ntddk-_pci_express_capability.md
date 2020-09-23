@@ -45,7 +45,7 @@ api_name:
  - PCI_EXPRESS_CAPABILITY
 ---
 
-# _PCI_EXPRESS_CAPABILITY structure
+# _PCI_EXPRESS_CAPABILITY structure (ntddk.h)
 
 
 ## -description
@@ -56,59 +56,59 @@ The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability s
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a> structure that describes the PCI capabilities header of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a> structure that describes the PCI capabilities header of the PCIe capability structure.
 
 ### -field ExpressCapabilities
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capabilities_register">PCI_EXPRESS_CAPABILITIES_REGISTER</a> structure that describes the PCIe capabilities register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capabilities_register">PCI_EXPRESS_CAPABILITIES_REGISTER</a> structure that describes the PCIe capabilities register of the PCIe capability structure.
 
 ### -field DeviceCapabilities
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_capabilities_register">PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER</a> structure that describes the PCIe device capabilities register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_capabilities_register">PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER</a> structure that describes the PCIe device capabilities register of the PCIe capability structure.
 
 ### -field DeviceControl
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_control_register">PCI_EXPRESS_DEVICE_CONTROL_REGISTER</a> structure that describes the PCIe device control register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_control_register">PCI_EXPRESS_DEVICE_CONTROL_REGISTER</a> structure that describes the PCIe device control register of the PCIe capability structure.
 
 ### -field DeviceStatus
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_status_register">PCI_EXPRESS_DEVICE_STATUS_REGISTER</a> structure that describes the PCIe device status register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_status_register">PCI_EXPRESS_DEVICE_STATUS_REGISTER</a> structure that describes the PCIe device status register of the PCIe capability structure.
 
 ### -field LinkCapabilities
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_capabilities_register">PCI_EXPRESS_LINK_CAPABILITIES_REGISTER</a> structure that describes the PCIe link capabilities register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_capabilities_register">PCI_EXPRESS_LINK_CAPABILITIES_REGISTER</a> structure that describes the PCIe link capabilities register of the PCIe capability structure.
 
 ### -field LinkControl
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_control_register">PCI_EXPRESS_LINK_CONTROL_REGISTER</a> structure that describes the PCIe link control register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_control_register">PCI_EXPRESS_LINK_CONTROL_REGISTER</a> structure that describes the PCIe link control register of the PCIe capability structure.
 
 ### -field LinkStatus
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_status_register">PCI_EXPRESS_LINK_STATUS_REGISTER</a> structure that describes the PCIe link status register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_status_register">PCI_EXPRESS_LINK_STATUS_REGISTER</a> structure that describes the PCIe link status register of the PCIe capability structure.
 
 ### -field SlotCapabilities
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_capabilities_register">PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER</a> structure that describes the PCIe slot capabilities register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_capabilities_register">PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER</a> structure that describes the PCIe slot capabilities register of the PCIe capability structure.
 
 ### -field SlotControl
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_control_register">PCI_EXPRESS_SLOT_CONTROL_REGISTER</a> structure that describes the PCIe slot control register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_control_register">PCI_EXPRESS_SLOT_CONTROL_REGISTER</a> structure that describes the PCIe slot control register of the PCIe capability structure.
 
 ### -field SlotStatus
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_status_register">PCI_EXPRESS_SLOT_STATUS_REGISTER</a> structure that describes the PCIe slot status register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_status_register">PCI_EXPRESS_SLOT_STATUS_REGISTER</a> structure that describes the PCIe slot status register of the PCIe capability structure.
 
 ### -field RootControl
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_control_register">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a> structure that describes the PCIe root control register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_control_register">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a> structure that describes the PCIe root control register of the PCIe capability structure.
 
 ### -field RootCapabilities
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_capabilities_register">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a> structure that describes the PCIe root capabilities register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_capabilities_register">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a> structure that describes the PCIe root capabilities register of the PCIe capability structure.
 
 ### -field RootStatus
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_status_register">PCI_EXPRESS_ROOT_STATUS_REGISTER</a> structure that describes the PCIe root status register of the PCIe capability structure.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_status_register">PCI_EXPRESS_ROOT_STATUS_REGISTER</a> structure that describes the PCIe root status register of the PCIe capability structure.
 
 ### -field DeviceCapabilities2
 
@@ -145,57 +145,56 @@ For additional information about the PCIe capability structure, see the <a href=
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_capabilities_register">PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_capabilities_register">PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_capabilities_register">PCI_EXPRESS_LINK_CAPABILITIES_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_capabilities_register">PCI_EXPRESS_LINK_CAPABILITIES_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_capabilities_register">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_capabilities_register">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_status_register">PCI_EXPRESS_ROOT_STATUS_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_status_register">PCI_EXPRESS_ROOT_STATUS_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_control_register">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_root_control_register">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_control_register">PCI_EXPRESS_DEVICE_CONTROL_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_control_register">PCI_EXPRESS_DEVICE_CONTROL_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_status_register">PCI_EXPRESS_DEVICE_STATUS_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_device_status_register">PCI_EXPRESS_DEVICE_STATUS_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capabilities_register">PCI_EXPRESS_CAPABILITIES_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_capabilities_register">PCI_EXPRESS_CAPABILITIES_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_capabilities_register">PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_capabilities_register">PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_status_register">PCI_EXPRESS_LINK_STATUS_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_status_register">PCI_EXPRESS_LINK_STATUS_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_control_register">PCI_EXPRESS_SLOT_CONTROL_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_control_register">PCI_EXPRESS_SLOT_CONTROL_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_control_register">PCI_EXPRESS_LINK_CONTROL_REGISTER</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_link_control_register">PCI_EXPRESS_LINK_CONTROL_REGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_status_register">PCI_EXPRESS_SLOT_STATUS_REGISTER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_pci_express_slot_status_register">PCI_EXPRESS_SLOT_STATUS_REGISTER</a>

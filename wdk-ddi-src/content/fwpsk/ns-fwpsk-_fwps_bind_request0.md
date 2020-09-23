@@ -51,7 +51,7 @@ api_name:
 The <b>FWPS_BIND_REQUEST0</b> structure defines modifiable data for the FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V4
   and FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V6 layers. The callout driver uses this data to inspect or modify the
   connection information.
-<div class="alert"><b>Note</b>  <b>FWPS_BIND_REQUEST0</b> is a specific version of <b>FWPS_BIND_REQUEST</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_BIND_REQUEST0</b> is a specific version of <b>FWPS_BIND_REQUEST</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,14 +59,14 @@ The <b>FWPS_BIND_REQUEST0</b> structure defines modifiable data for the FWPM_LAY
 
 The local transport address of the bind request. This is an IPV4 or IPV6 address and TCP/UDP port
      formatted as a 
-     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
+     <a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
 
 ### -field portReservationToken
 
 A token used to reserve the appropriate port. The token is obtained when a port is reserved by
      calling either 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a> or 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>. Both reservation functions can be found in iphlpapi.h.
+     <a href="/windows/win32/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a> or 
+     <a href="/windows/win32/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>. Both reservation functions can be found in iphlpapi.h.
 
 ### -field previousVersion
 
@@ -76,21 +76,21 @@ The previous version of the bind request data. This read-only field records the 
 
 The value of the 
      <b>FilterId</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
+     <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function's 
      <i>filter</i> parameter. For more information about the 
      <b>FilterId</b> member, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
+     <a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>.
 
 ## -remarks
 
 The callout driver obtains this structure by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
     FwpsAcquireWritableLayerDataPointer0</a> function, which returns a pointer to a <b>FWPS_BIND_REQUEST0</b>
     structure through the 
     <i>writableLayerData</i> parameter.
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function can modify the bind
+    <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function can modify the bind
     request's parameters, such as redirecting the local transport address or port to another address or port. If
     it modifies the bind request's parameters, the  
     <i>classifyFn</i> function must do the following:
@@ -98,19 +98,19 @@ The
 <ul>
 <li>
 Make all changes to the <b>FWPS_BIND_REQUEST0</b> structure that was returned by
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">FwpsAcquireWritableLayerDataPointer0</a>. Only the 
+      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">FwpsAcquireWritableLayerDataPointer0</a>. Only the 
       <b>localAddressAndPort</b> and 
       <b>portReservationToken</b> members can be modified.
 
 </li>
 <li>
 Call 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">
+      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">
       FwpsApplyModifiedLayerData0</a> with the 
       <i>modifiedLayerData</i> parameter set to the address of the <b>FWPS_BIND_REQUEST0</b> structure, even if the callout driver didn't modify any data. This value
       must be the same as the 
       <i>modifiedLayerData</i> parameter value that was returned by 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
+      <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
       FwpsAcquireWritableLayerDataPointer0</a>.
 
 </li>
@@ -123,22 +123,21 @@ This structure acts as a linked list that contains a record of all changes made 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsacquirewritablelayerdatapointer0">
    FwpsAcquireWritableLayerDataPointer0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">FwpsApplyModifiedLayerData0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsapplymodifiedlayerdata0">FwpsApplyModifiedLayerData0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
-
+<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>

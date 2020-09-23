@@ -60,15 +60,15 @@ Specifies the size, in bytes, of the DEVOBJ structure. Supplied by the Unidrv or
 
 ### -field pdevOEM
 
-Pointer to the rendering plug-in's private PDEV structure, as returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the rendering plug-in's private PDEV structure, as returned by <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> or <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field hEngine
 
-GDI handle to the physical device. This handle is received by the printer driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function, as the function's <i>hdev</i> argument.
+GDI handle to the physical device. This handle is received by the printer driver's <a href="/windows/win32/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function, as the function's <i>hdev</i> argument.
 
 ### -field hPrinter
 
-Spooler's handle to the printer. This handle is received by the printer driver's <a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function, as the function's <i>hDriver</i> argument.
+Spooler's handle to the printer. This handle is received by the printer driver's <a href="/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function, as the function's <i>hDriver</i> argument.
 
 ### -field hOEM
 
@@ -76,7 +76,7 @@ Plug-in instance handle. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field pPublicDM
 
-Pointer to the printer's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the printer's <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field pOEMDM
 
@@ -84,33 +84,32 @@ Pointer to the rendering plug-in's private DEVMODEW structure members. Supplied 
 
 ### -field pDrvProcs
 
-      Not used. In a previous version of the interface, this was a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structure.
+      Not used. In a previous version of the interface, this was a pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structure.
 
 ## -remarks
 
-The DEVOBJ structure is accessible to graphics DDI hooking functions through the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure's <b>dhpdev</b> member. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>.
+The DEVOBJ structure is accessible to graphics DDI hooking functions through the <a href="/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure's <b>dhpdev</b> member. For more information, see <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a> or <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>
+<a href="/windows/win32/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/win32/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enablepdev">IPrintOemPS::EnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enablepdev">IPrintOemUni::EnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_surfobj">SURFOBJ</a>
-
+<a href="/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

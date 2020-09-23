@@ -45,12 +45,12 @@ api_name:
  - TAPE_GET_MEDIA_PARAMETERS
 ---
 
-# _TAPE_GET_MEDIA_PARAMETERS structure
+# _TAPE_GET_MEDIA_PARAMETERS structure (ntddtape.h)
 
 
 ## -description
 
-The TAPE_GET_MEDIA_PARAMETERS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetMediaParameters</a> routine to retrieve tape media parameters.
+The TAPE_GET_MEDIA_PARAMETERS structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetMediaParameters</a> routine to retrieve tape media parameters.
 
 ## -struct-fields
 
@@ -76,5 +76,4 @@ Is set to <b>TRUE</b> if the tape is write-protected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetMediaParameters</a>
-
+<a href="/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniGetMediaParameters</a>

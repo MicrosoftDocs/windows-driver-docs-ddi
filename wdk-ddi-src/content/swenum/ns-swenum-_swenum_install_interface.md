@@ -72,9 +72,8 @@ The <i>swenum</i> driver uses device interface instances as placeholders for sof
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksinstallbusenuminterface">KsInstallBusEnumInterface</a>
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksinstallbusenuminterface">KsInstallBusEnumInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksremovebusenuminterface">KsRemoveBusEnumInterface</a>
-
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksremovebusenuminterface">KsRemoveBusEnumInterface</a>

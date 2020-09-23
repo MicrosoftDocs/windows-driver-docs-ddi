@@ -53,7 +53,7 @@ The <b>IoGetDeviceInterfaceAlias</b> routine returns the alias device interface 
 ### -param SymbolicLinkName 
 
 [in]
-Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a> or in a PnP notification structure.
+Pointer to the name of the device interface instance for which to retrieve an alias. The caller typically received this string from a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceinterfaces">IoGetDeviceInterfaces</a> or in a PnP notification structure.
 
 ### -param AliasInterfaceClassGuid 
 
@@ -63,7 +63,7 @@ Pointer to a GUID specifying the interface class of the alias to retrieve.
 ### -param AliasSymbolicLinkName 
 
 [out]
-Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>AliasSymbolicLinkName</i>.<b>Buffer</b> points to a string containing the name of the alias. The caller must free the Unicode string with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a> when it is no longer needed.
+Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>AliasSymbolicLinkName</i>.<b>Buffer</b> points to a string containing the name of the alias. The caller must free the Unicode string with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a> when it is no longer needed.
 
 ## -returns
 
@@ -123,9 +123,8 @@ Callers of <b>IoGetDeviceInterfaceAlias</b> must be running at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>

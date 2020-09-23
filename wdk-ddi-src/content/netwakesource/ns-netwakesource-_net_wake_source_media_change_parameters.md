@@ -1,16 +1,14 @@
 ---
 UID: NS:netwakesource._NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS
 title: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS (netwakesource.h)
-author: windows-driver-content
 description: The NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure contains parameters for a media change wake-on-LAN (WoL) wake source.
 tech.root: netvista
 ms.assetid: de7b5a2a-dc88-4b27-8896-7682e8dce72a
-ms.author: windowsdriverdev
 ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure"]
 ms.keywords: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS, NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS,
 req.header: netwakesource.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -68,9 +66,8 @@ Call [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT**](../netwakesource/nf-netw
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT**](../netwakesource/nf-netwakesource-net_wake_source_media_change_parameters_init.md)
 
 [**NetWakeSourceGetMediaChangeParameters**](../netwakesource/nf-netwakesource-netwakesourcegetmediachangeparameters.md)
-

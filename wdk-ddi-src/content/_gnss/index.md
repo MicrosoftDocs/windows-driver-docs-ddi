@@ -20,4 +20,4 @@ To develop GNSS drivers, you need these headers:
 
 - [gnssdriver.h](../gnssdriver/index.md)
 
-For the programming guide, see the [Global Navigation Satellite System (GNSS) driver design guide](https://docs.microsoft.com/windows-hardware/drivers/gnss).
+For the programming guide, see the [Global Navigation Satellite System (GNSS) driver design guide](/windows-hardware/drivers/gnss).

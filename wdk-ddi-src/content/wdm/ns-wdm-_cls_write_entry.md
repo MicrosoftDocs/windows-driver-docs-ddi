@@ -68,9 +68,8 @@ CLFS collects the buffers pointed to by several <b>CLFS_WRITE_ENTRY</b> structur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreserveandappendlog">ClfsReserveAndAppendLog</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreserveandappendlog">ClfsReserveAndAppendLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreserveandappendlogaligned">ClfsReserveAndAppendLogAligned</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreserveandappendlogaligned">ClfsReserveAndAppendLogAligned</a>

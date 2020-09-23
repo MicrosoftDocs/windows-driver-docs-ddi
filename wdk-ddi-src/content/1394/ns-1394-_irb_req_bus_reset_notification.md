@@ -67,21 +67,15 @@ Specifies whether a callback should be registered or deactivated. Use REGISTER_N
 
 Points to the notification routine for bus resets. The notification routine parameters follow this prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void BusResetNotificationRoutine(IN PVOID Context);
- </pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+void BusResetNotificationRoutine(IN PVOID Context);
+ 
+```
+
 
 ### -field ResetContext
 
 Specifies the argument to be passed to the notification routine.
 
-When the EXTENDED_NOTIFICATION_ROUTINE flag is specified, <b>ResetContext</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_bus_reset_data">BUS_RESET_DATA</a> structure.
-
+When the EXTENDED_NOTIFICATION_ROUTINE flag is specified, <b>ResetContext</b> points to a <a href="/windows-hardware/drivers/ddi/1394/ns-1394-_bus_reset_data">BUS_RESET_DATA</a> structure.

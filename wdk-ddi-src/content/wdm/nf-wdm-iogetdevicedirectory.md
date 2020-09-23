@@ -68,7 +68,7 @@ Returns a handle to a directory on disk, in which drivers can store files. The f
 
 ## -returns
 
-Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
+Returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
 
 | Error code | Description |
 | --- | --- |
@@ -79,9 +79,9 @@ Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardw
 
 If **IoGetDeviceDirectory** is called before the required disks and volumes have been started, the function does not open a handle and returns an error. 
 
-Drivers typically use [**ZwOpenFile**](nf-wdm-zwopenfile.md) and [**ZwCreateFile**](nf-wdm-zwcreatefile.md) to access/create files. One of the parameters for those functions is an [**OBJECT_ATTRIBUTES**](https:://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure, which contains the object name and a root directory. If the root directory is NULL, then the object name must be a fully qualified path. However, if you provide a handle for the root directory, then the object name must be relative to the object (in the case of files, the directory), that the handle represents. 
+Drivers typically use [**ZwOpenFile**](nf-wdm-zwopenfile.md) and [**ZwCreateFile**](nf-wdm-zwcreatefile.md) to access/create files. One of the parameters for those functions is an [**OBJECT_ATTRIBUTES**](./ns-wdm-_io_status_block.md) structure, which contains the object name and a root directory. If the root directory is NULL, then the object name must be a fully qualified path. However, if you provide a handle for the root directory, then the object name must be relative to the object (in the case of files, the directory), that the handle represents. 
 
-After the **IoGetDeviceDirectory** call succeeds, use the received HANDLE as a root directory in the [**OBJECT_ATTRIBUTES**](https:://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) that you are passing to a [**ZwOpenFile**](nf-wdm-zwopenfile.md) and [**ZwCreateFile**](nf-wdm-zwcreatefile.md).
+After the **IoGetDeviceDirectory** call succeeds, use the received HANDLE as a root directory in the [**OBJECT_ATTRIBUTES**](./ns-wdm-_io_status_block.md) that you are passing to a [**ZwOpenFile**](nf-wdm-zwopenfile.md) and [**ZwCreateFile**](nf-wdm-zwcreatefile.md).
 
 
 The driver must call [**ZwClose**](nf-wdm-zwclose.md) to close the received handle when access is no longer required.
@@ -98,7 +98,6 @@ Callers of **IoGetDeviceDirectory** must be running at IRQL = PASSIVE_LEVEL in t
 
 [**_DEVICE_DIRECTORY_TYPE**](ne-wdm-_device_directory_type.md)
 
-[**OBJECT_ATTRIBUTES**](https:://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
+[**OBJECT_ATTRIBUTES**](./ns-wdm-_io_status_block.md)
 
-[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes)
-
+[**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)

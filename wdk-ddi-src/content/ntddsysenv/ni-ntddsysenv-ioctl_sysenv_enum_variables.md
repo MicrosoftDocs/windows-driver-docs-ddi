@@ -61,9 +61,9 @@ Size of BOOLEAN.
 
 ### -output-buffer
 
-A pointer to a buffer that contains the system environment variable information. If values have been requested, the buffer points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name_and_value">XVARIABLE_NAME_AND_VALUE</a> structures. Otherwise, returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name">XVARIABLE_NAME</a>  structures. 
+A pointer to a buffer that contains the system environment variable information. If values have been requested, the buffer points to an array of <a href="/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name_and_value">XVARIABLE_NAME_AND_VALUE</a> structures. Otherwise, returns an array of <a href="/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name">XVARIABLE_NAME</a>  structures. 
 
-The location of the next entry is determined by <b>NextEntryOffset</b> of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name_and_value">XVARIABLE_NAME_AND_VALUE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name">XVARIABLE_NAME</a>.
+The location of the next entry is determined by <b>NextEntryOffset</b> of the <a href="/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name_and_value">XVARIABLE_NAME_AND_VALUE</a> and <a href="/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name">XVARIABLE_NAME</a>.
 
 ### -output-buffer-length
 
@@ -79,21 +79,20 @@ On input, the length in bytes of the output buffer. On output,
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>

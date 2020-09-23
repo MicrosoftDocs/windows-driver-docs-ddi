@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The TRACK_MODE_TYPE enumeration type is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_raw_read">IOCTL_CDROM_RAW_READ</a> request and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-__raw_read_info">RAW_READ_INFO</a> structure to read data from a CD-ROM in raw mode.
+The TRACK_MODE_TYPE enumeration type is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_raw_read">IOCTL_CDROM_RAW_READ</a> request and the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-__raw_read_info">RAW_READ_INFO</a> structure to read data from a CD-ROM in raw mode.
 
 ## -enum-fields
 
@@ -80,9 +80,8 @@ CD_RAW_SECTOR_WITH_SUBCODE_SIZE per sector
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_raw_read">IOCTL_CDROM_RAW_READ</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_raw_read">IOCTL_CDROM_RAW_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-__raw_read_info">RAW_READ_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-__raw_read_info">RAW_READ_INFO</a>

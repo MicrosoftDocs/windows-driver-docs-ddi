@@ -41,7 +41,7 @@ api_name:
  - READ_REGISTER_ULONG
 ---
 
-# READ_REGISTER_ULONG function
+# READ_REGISTER_ULONG function (wdm.h)
 
 
 ## -description

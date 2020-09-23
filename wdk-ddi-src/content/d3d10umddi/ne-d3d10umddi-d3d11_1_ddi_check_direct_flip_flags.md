@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Used by the <i>CheckDirectFlipFlags</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_checkdirectflipsupport">CheckDirectFlipSupport(D3D11_1)</a> function to specify seamless flipping of video memory.
+Used by the <i>CheckDirectFlipFlags</i> parameter of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_checkdirectflipsupport">CheckDirectFlipSupport(D3D11_1)</a> function to specify seamless flipping of video memory.
 
 ## -enum-fields
 
@@ -56,5 +56,4 @@ Seamless flipping should occur immediately and does not have to be synchronized 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_checkdirectflipsupport">CheckDirectFlipSupport(D3D11_1)</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_checkdirectflipsupport">CheckDirectFlipSupport(D3D11_1)</a>

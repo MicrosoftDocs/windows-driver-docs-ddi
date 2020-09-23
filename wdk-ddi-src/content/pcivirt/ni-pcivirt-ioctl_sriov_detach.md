@@ -47,12 +47,12 @@ api_name:
 ##  Major Code:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
+<a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
 
 
 ## -description
 
-The  request indicates that the virtualization stack wants to unregister for Plug and Play events (previously registered through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_attach">IOCTL_SRIOV_ATTACH</a> request).
+The  request indicates that the virtualization stack wants to unregister for Plug and Play events (previously registered through the <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_attach">IOCTL_SRIOV_ATTACH</a> request).
 
 ## -ioctlparameters
 
@@ -70,28 +70,24 @@ The  request indicates that the virtualization stack wants to unregister for Plu
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> indicates the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> indicates the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
 
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
-From here on, the PF should not expect to receive  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> requests.
+From here on, the PF should not expect to receive  <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a> and <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> requests.
 
 
-The driver that must stop waiting for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a>.
+The driver that must stop waiting for <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a>.
 If the driver is currently waiting it should stop waiting and continue
  processing Plug and Play IRPs.
 
-In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver maintains PnP states in its device context. The deviceContext->PnpRebalancing is set to TRUE, when the driver receives <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a> and set to FALSE when it receives IRP_MN_START_DEVICE.
+In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver maintains PnP states in its device context. The deviceContext->PnpRebalancing is set to TRUE, when the driver receives <a href="/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a> and set to FALSE when it receives IRP_MN_START_DEVICE.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    case IOCTL_SRIOV_DETACH:
+
+```cpp
+    case IOCTL_SRIOV_DETACH:
 
         WdfWaitLockAcquire(deviceContext->PnpStateLock, NULL);
 
@@ -123,10 +119,9 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
         break;
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 
@@ -138,13 +133,12 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_attach">IOCTL_SRIOV_ATTACH</a>
+<a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_attach">IOCTL_SRIOV_ATTACH</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-

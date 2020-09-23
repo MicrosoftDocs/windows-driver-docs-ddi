@@ -28,5 +28,4 @@ To develop Sensors, you need these headers:
  * [sensorsutils.h](../sensorsutils/index.md)
 
 
-For the programming guide, see [Sensors](https://docs.microsoft.com/windows-hardware/drivers/sensors).
-
+For the programming guide, see [Sensors](/windows-hardware/drivers/sensors).

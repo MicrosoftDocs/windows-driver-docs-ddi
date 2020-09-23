@@ -43,7 +43,7 @@ api_name:
  - STOR_POWER_ACTION
 ---
 
-# STOR_POWER_ACTION enumeration
+# STOR_POWER_ACTION enumeration (minitape.h)
 
 
 ## -description
@@ -86,5 +86,4 @@ The system is preparing for ejection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_power_request_block">SCSI_POWER_REQUEST_BLOCK</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_scsi_power_request_block">SCSI_POWER_REQUEST_BLOCK</a>

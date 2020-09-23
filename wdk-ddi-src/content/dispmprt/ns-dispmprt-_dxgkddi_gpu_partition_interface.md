@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKDDI_GPU_PARTITION_INTERFACE
 title: _DXGKDDI_GPU_PARTITION_INTERFACE
-author: windows-driver-content
 description: Used to query how a GPU can be partitioned for use in Virtual Machines and create or destroy a virtual GPU.
 tech.root: display
 ms.assetid: 37aeff80-0eed-4a18-a387-c83c57b4b9d3
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_GPU_PARTITION_INTERFACE structure"]
 ms.prod: windows-hardware

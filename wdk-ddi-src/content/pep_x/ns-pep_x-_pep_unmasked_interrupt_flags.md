@@ -45,7 +45,7 @@ api_name:
  - PEP_UNMASKED_INTERRUPT_FLAGS
 ---
 
-# _PEP_UNMASKED_INTERRUPT_FLAGS structure
+# _PEP_UNMASKED_INTERRUPT_FLAGS structure (pep_x.h)
 
 
 ## -description
@@ -71,7 +71,7 @@ A structure that contains the bitfields for the individual unmasked interrupt fl
 
 #### SecondaryInterrupt
 
-Whether this interrupt is a primary interrupt or a secondary interrupt. This bitfield is 0 if the interrupt source is a primary interrupt, and is 1 is the interrupt source is a secondary interrupt. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/primary-and-secondary-interrupts">Primary and Secondary Interrupts</a>.
+Whether this interrupt is a primary interrupt or a secondary interrupt. This bitfield is 0 if the interrupt source is a primary interrupt, and is 1 is the interrupt source is a secondary interrupt. For more information, see <a href="/windows-hardware/drivers/gpio/primary-and-secondary-interrupts">Primary and Secondary Interrupts</a>.
 
 
 
@@ -87,13 +87,12 @@ Reserved for future use.
 
 ##### - ( unnamed struct ).SecondaryInterrupt
 
-Whether this interrupt is a primary interrupt or a secondary interrupt. This bitfield is 0 if the interrupt source is a primary interrupt, and is 1 is the interrupt source is a secondary interrupt. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/primary-and-secondary-interrupts">Primary and Secondary Interrupts</a>.
+Whether this interrupt is a primary interrupt or a secondary interrupt. This bitfield is 0 if the interrupt source is a primary interrupt, and is 1 is the interrupt source is a secondary interrupt. For more information, see <a href="/windows-hardware/drivers/gpio/primary-and-secondary-interrupts">Primary and Secondary Interrupts</a>.
 
 ## -remarks
 
-The <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_information">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure is a <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union.
+The <b>Flags</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_information">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure is a <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_information">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_information">PEP_UNMASKED_INTERRUPT_INFORMATION</a>

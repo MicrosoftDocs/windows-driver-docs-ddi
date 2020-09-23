@@ -59,7 +59,7 @@ A pointer to a HANDLE variable that receives a handle to the file.
 ### -param DesiredAccess 
 
 [in]
-Specifies an [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
+Specifies an [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to files.
 
 |ACCESS_MASK flag|Allows caller to do this|
 |----|----|
@@ -93,7 +93,7 @@ If the file is actually a directory, the caller can also specify the following g
 |FILE_LIST_DIRECTORY|List the files in the directory.|
 |FILE_TRAVERSE|Traverse the directory, in other words, include the directory in the path of a file.|
 
-For more information about access rights, see [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask).
+For more information about access rights, see [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask).
 
 ### -param ObjectAttributes 
 
@@ -103,7 +103,7 @@ A pointer to an [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/
 ### -param IoStatusBlock 
 
 [out]
-A pointer to an [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
+A pointer to an [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
 
 * FILE_CREATED
 * FILE_OPENED
@@ -120,7 +120,7 @@ A pointer to a LARGE_INTEGER that contains the initial allocation size, in bytes
 ### -param FileAttributes 
 
 [in]
-Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
+Specifies one or more FILE_ATTRIBUTE_*XXX* flags, which represent the file attributes to set if you create or overwrite a file. The caller usually specifies FILE_ATTRIBUTE_NORMAL, which sets the default attributes. For a list of valid FILE_ATTRIBUTE_*XXX* flags, see the [CreateFile](/windows/win32/api/fileapi/nf-fileapi-createfilea) routine in the Microsoft Windows SDK documentation. If no file is created or overwritten, *FileAttributes* is ignored.
 
 ### -param ShareAccess 
 
@@ -260,7 +260,7 @@ Open a file with a reparse point and bypass normal reparse point processing for 
 FILE_DELETE_ON_CLOSE
 </td>
 <td>
-The system deletes the file when the last handle to the file is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">NtClose</a>. If this flag is set, the DELETE flag must be set in the <i>DesiredAccess</i> parameter.
+The system deletes the file when the last handle to the file is passed to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">NtClose</a>. If this flag is set, the DELETE flag must be set in the <i>DesiredAccess</i> parameter.
 </td>
 </tr>
 <tr>
@@ -350,11 +350,11 @@ For device and intermediate drivers, this parameter must be zero.
 
 ## -remarks
 
-**NtCreateFile** supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see [Using Files in a Driver](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-files-in-a-driver).
+**NtCreateFile** supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see [Using Files in a Driver](/windows-hardware/drivers/kernel/using-files-in-a-driver).
 
-Once the handle pointed to by *FileHandle* is no longer in use, the driver must call [NtClose](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) to close it.
+Once the handle pointed to by *FileHandle* is no longer in use, the driver must call [NtClose](./nf-ntifs-ntclose.md) to close it.
 
-If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](https://docs.microsoft.com/windows-hardware/drivers/kernel/object-handles).
+If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
 There are two alternate ways to specify the name of the file to be created or opened with **NtCreateFile**:
 
@@ -385,10 +385,10 @@ The FILE_DIRECTORY_FILE *CreateOptions* value specifies that the file to be crea
 
 The FILE_NO_INTERMEDIATE_BUFFERING *CreateOptions* flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this flag places the following restrictions on the caller's parameters to other **Zw*Xxx*File** routines.
 
-* Any optional *ByteOffset* passed to [NtReadFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) or [NtWriteFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile) must be a multiple of the sector size.
+* Any optional *ByteOffset* passed to [NtReadFile](./nf-ntifs-ntreadfile.md) or [NtWriteFile](./nf-ntifs-ntwritefile.md) must be a multiple of the sector size.
 * The *Length* passed to **NtReadFile** or **NtWriteFile** must be an integral of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
-* Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call **NtCreateFile** to get a handle for the file object that represents the physical device, and pass that handle to [NtQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile). For a list of the system's FILE_*XXX*_ALIGNMENT values, see [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object).
-* Calls to [NtSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is a multiple of the sector size.
+* Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call **NtCreateFile** to get a handle for the file object that represents the physical device, and pass that handle to [NtQueryInformationFile](./nf-ntifs-ntqueryinformationfile.md). For a list of the system's FILE_*XXX*_ALIGNMENT values, see [DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md).
+* Calls to [NtSetInformationFile](./nf-ntifs-ntsetinformationfile.md) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is a multiple of the sector size.
 
 The FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT *CreateOptions* flags, which are mutually exclusive as their names suggest, specify that all I/O operations on the file will be synchronous—as long as they occur through the file object referred to by the returned *FileHandle*. All I/O on such a file is serialized across all threads using the returned handle. If either of these *CreateOptions* flags is set, the SYNCHRONIZE *DesiredAccess* flag must also be set—to compel the I/O manager to use the file object as a synchronization object. In these cases, the I/O manager keeps track of the current file-position offset, which you can pass to **NtReadFile** and **NtWriteFile**. Call **NtQueryInformationFile** or **NtSetInformationFile** to get or set this position.
 
@@ -417,34 +417,33 @@ Step 3 makes this practical only for Filter oplocks. The handle opened in step 3
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-Callers of **NtCreateFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **NtCreateFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
 > [!NOTE]
 > If the call to this function occurs in user mode, you should use the name "**NtCreateFile**" instead of "**ZwCreateFile**".
 
-For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
-[ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
-[DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[DEVICE_OBJECT](../wdm/ns-wdm-_device_object.md)
 
-[IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
+[IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md)
 
 [InitializeObjectAttributes](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nf-wudfwdm-initializeobjectattributes)
 
-[Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-[NtClose](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[NtClose](./nf-ntifs-ntclose.md)
 
-[NtOpenFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)
+[NtOpenFile](./nf-ntifs-ntopenfile.md)
 
-[NtQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[NtQueryInformationFile](./nf-ntifs-ntqueryinformationfile.md)
 
-[NtReadFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile)
+[NtReadFile](./nf-ntifs-ntreadfile.md)
 
-[NtSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+[NtSetInformationFile](./nf-ntifs-ntsetinformationfile.md)
 
-[NtWriteFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
-
+[NtWriteFile](./nf-ntifs-ntwritefile.md)

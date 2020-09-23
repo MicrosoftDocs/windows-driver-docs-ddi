@@ -1,11 +1,9 @@
 ---
 UID: NF:ntddk.RtlFillNonVolatileMemory
 title: RtlFillNonVolatileMemory function
-author: windows-driver-content
 description: Fills the non-volatile destination buffer with the given value.
 tech.root: 
 ms.assetid: 4126cd43-dfd3-4d78-ba6c-192ece10aa2d
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["RtlFillNonVolatileMemory function"]
 ms.keywords: RtlFillNonVolatileMemory
@@ -54,7 +52,7 @@ The routine <b>RtlFillNonVolatileMemory</b> fills the non-volatile destination b
 
 ### -param NvToken
 
-A pointer to an opaque structure that has more information about the non-volatile memory region which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
+A pointer to an opaque structure that has more information about the non-volatile memory region which <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
 
 ### -param NvDestination
 
@@ -115,4 +113,3 @@ The request was successful.
 ## -remarks
 
 ## -see-also
-

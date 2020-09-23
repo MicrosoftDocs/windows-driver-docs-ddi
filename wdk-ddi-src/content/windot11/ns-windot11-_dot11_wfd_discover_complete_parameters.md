@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>the <b>DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS</b> structure is returned in a  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-discover-complete">NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE</a> indication. The structure contains a list of devices discovered
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>the <b>DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS</b> structure is returned in a  <a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-discover-complete">NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE</a> indication. The structure contains a list of devices discovered
 
 ## -struct-fields
 
@@ -114,5 +114,4 @@ typedef struct _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-discover-complete">NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE</a>
-
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-discover-complete">NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE</a>

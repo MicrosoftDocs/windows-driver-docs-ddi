@@ -41,7 +41,7 @@ api_name:
  - IoGetAttachedDeviceReference
 ---
 
-# IoGetAttachedDeviceReference function
+# IoGetAttachedDeviceReference function (ntifs.h)
 
 
 ## -description
@@ -63,9 +63,8 @@ Pointer to the device object for which the topmost attached device object is ret
 
 If the device object at <i>DeviceObject</i> has no device objects attached to it, <i>DeviceObject</i> and the returned pointer are equal.
 
-Device driver writers must ensure that when they have completed all operations that required them to make this call, that they call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> with the device object pointer returned by this routine. Failure to do so will prevent the system from freeing or deleting the device object because of an outstanding reference count.
+Device driver writers must ensure that when they have completed all operations that required them to make this call, that they call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> with the device object pointer returned by this routine. Failure to do so will prevent the system from freeing or deleting the device object because of an outstanding reference count.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>

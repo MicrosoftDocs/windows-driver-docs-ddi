@@ -41,7 +41,7 @@ api_name:
  - RILCALLINFODISCONNECTREASON
 ---
 
-# RILCALLINFODISCONNECTREASON enumeration
+# RILCALLINFODISCONNECTREASON enumeration (rilapitypes.h)
 
 
 ## -description

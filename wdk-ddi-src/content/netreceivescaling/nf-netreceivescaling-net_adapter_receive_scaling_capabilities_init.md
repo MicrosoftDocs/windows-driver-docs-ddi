@@ -8,7 +8,7 @@ ms.date: 10/19/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
 req.header: netreceivescaling.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -93,5 +93,4 @@ The [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter
 
 [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md)
 
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
-
+[NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)

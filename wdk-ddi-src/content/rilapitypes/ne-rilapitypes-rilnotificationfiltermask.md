@@ -41,7 +41,7 @@ api_name:
  - RILNOTIFICATIONFILTERMASK
 ---
 
-# RILNOTIFICATIONFILTERMASK enumeration
+# RILNOTIFICATIONFILTERMASK enumeration (rilapitypes.h)
 
 
 ## -description

@@ -58,7 +58,7 @@ The WSK_CLIENT_DISPATCH structure specifies a WSK application's dispatch table o
 ### -field Version
 
 The version of the WSK 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
+     <a href="/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
      (NPI)</a> that the WSK application would like to use.
 
 ### -field Reserved
@@ -68,67 +68,56 @@ Reserved for system use. WSK applications must set this member to zero.
 ### -field WskClientEvent
 
 A pointer to the WSK application's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_client_event">WskClientEvent</a> event callback function. If
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_client_event">WskClientEvent</a> event callback function. If
      a WSK application does not implement a 
      <i>WskClientEvent</i> event callback function, this member must be set to <b>NULL</b>.
 
 ## -remarks
 
 When a WSK application calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> function, it provides a pointer to
+    <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> function, it provides a pointer to
     an initialized WSK_CLIENT_DISPATCH structure by means of the 
     <b>Dispatch</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a> structure pointed to by the 
+    <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a> structure pointed to by the 
     <i>WskClientNpi</i> parameter.
 
 The major and minor version numbers that are contained within the 
     <b>Version</b> member are encoded by using the MAKE_WSK_VERSION macro:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Version = MAKE_WSK_VERSION(Major,Minor);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Version = MAKE_WSK_VERSION(Major,Minor);
+```
+
 The major and minor version numbers can be extracted from the 
     <b>Version</b> member by using the WSK_MAJOR_VERSION and WSK_MINOR_VERSION macros:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Major = WSK_MAJOR_VERSION(Version);
-Minor = WSK_MINOR_VERSION(Version);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+Major = WSK_MAJOR_VERSION(Version);
+Minor = WSK_MINOR_VERSION(Version);
+```
+
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_dispatch">WSK_PROVIDER_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_dispatch">WSK_PROVIDER_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_client_event">WskClientEvent</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_client_event">WskClientEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>

@@ -48,19 +48,18 @@ api_name:
 
 ## -description
 
-Defines classes of memory information that can be retrieved by using the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn957455">ZwQueryVirtualMemory</a> function.
+Defines classes of memory information that can be retrieved by using the  <a href="/previous-versions/dn957455(v=vs.85)">ZwQueryVirtualMemory</a> function.
 
 ## -enum-fields
 
 ### -field MemoryBasicInformation
 
-Memory information described in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure will be retrieved.
+Memory information described in the <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information">MEMORY_BASIC_INFORMATION</a> structure will be retrieved.
 
 ## -remarks
 
-Currently, only the <b>MemoryBasicInformation</b> value is supported for use with the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957455">ZwQueryVirtualMemory</a> routine.
+Currently, only the <b>MemoryBasicInformation</b> value is supported for use with the <a href="/previous-versions/dn957455(v=vs.85)">ZwQueryVirtualMemory</a> routine.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957455">ZwQueryVirtualMemory</a>
-
+<a href="/previous-versions/dn957455(v=vs.85)">ZwQueryVirtualMemory</a>

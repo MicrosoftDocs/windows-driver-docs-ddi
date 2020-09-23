@@ -47,7 +47,7 @@ api_name:
 ## -description
 
 The ATA_CHANNEL_STATE enumeration type indicates the state of the channel.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -enum-fields
 
@@ -65,9 +65,8 @@ Indicates that the state of the channel is unknown.
 
 ## -remarks
 
-The ATA_CHANNEL_STATE enumeration type is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> routine to determine whether the channel is enabled.
+The ATA_CHANNEL_STATE enumeration type is used in conjunction with the <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> routine to determine whether the channel is enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a>
-
+<a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a>

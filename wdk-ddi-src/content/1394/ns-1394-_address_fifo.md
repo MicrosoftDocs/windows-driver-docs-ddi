@@ -64,9 +64,8 @@ Specifies the MDL for the FIFO element described by this entry of the list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_notification_info_w2k">NOTIFICATION_INFO</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_notification_info_w2k">NOTIFICATION_INFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
-

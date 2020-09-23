@@ -69,17 +69,16 @@ Callers of <b>RtlSubtreeSuccessor</b> must be running at IRQL <= DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializesplaylinks">RtlInitializeSplayLinks</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinitializesplaylinks">RtlInitializeSplayLinks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrealsuccessor">RtlRealSuccessor</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlrealsuccessor">RtlRealSuccessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsubtreepredecessor">RtlSubtreePredecessor</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlsubtreepredecessor">RtlSubtreePredecessor</a>

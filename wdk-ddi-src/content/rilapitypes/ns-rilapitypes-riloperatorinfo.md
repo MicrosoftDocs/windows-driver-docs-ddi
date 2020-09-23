@@ -43,7 +43,7 @@ api_name:
  - RILOPERATORINFO
 ---
 
-# RILOPERATORINFO structure
+# RILOPERATORINFO structure (rilapitypes.h)
 
 
 ## -description

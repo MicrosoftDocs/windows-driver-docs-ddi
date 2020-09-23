@@ -57,5 +57,4 @@ support NX non-paged pool allocations.
 
 ## -see-also
 
-[Single Binary Opt-In: POOL_NX_OPTIN](https://docs.microsoft.com/windows-hardware/drivers/kernel/single-binary-opt-in-pool-nx-optin)
-
+[Single Binary Opt-In: POOL_NX_OPTIN](/windows-hardware/drivers/kernel/single-binary-opt-in-pool-nx-optin)

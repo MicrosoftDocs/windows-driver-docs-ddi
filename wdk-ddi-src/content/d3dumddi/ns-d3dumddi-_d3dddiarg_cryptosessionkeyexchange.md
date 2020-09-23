@@ -54,7 +54,7 @@ The D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure describes a buffer that contain
 
 ### -field hCryptoSession
 
-[in] A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
+[in] A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
 
 ### -field DataSize
 
@@ -66,5 +66,4 @@ The D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure describes a buffer that contain
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>

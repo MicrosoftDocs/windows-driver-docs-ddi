@@ -8,7 +8,7 @@ ms.date: 03/08/2018
 keywords: ["NetAdapterSetReceiveScalingCapabilities function"]
 ms.keywords: NetAdapterSetReceiveScalingCapabilities
 req.header: netreceivescaling.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -65,5 +65,4 @@ The client driver must call this function when starting a net adapter, before ca
 
 [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT](nf-netreceivescaling-net_adapter_receive_scaling_capabilities_init.md)
 
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
-
+[NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)

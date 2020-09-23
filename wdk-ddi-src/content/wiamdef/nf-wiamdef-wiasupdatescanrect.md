@@ -58,7 +58,7 @@ Pointer to a WIA item context.
 ### -param pContext 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure containing the property context, created by a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatepropcontext">wiasCreatePropContext</a>.
+Pointer to a <a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure containing the property context, created by a prior call to <a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatepropcontext">wiasCreatePropContext</a>.
 
 ### -param lWidth
 
@@ -78,9 +78,8 @@ This helper method is called to update the properties making up the scan rectang
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatepropcontext">wiasCreatePropContext</a>
-
+<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatepropcontext">wiasCreatePropContext</a>

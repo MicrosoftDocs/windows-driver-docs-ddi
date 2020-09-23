@@ -69,9 +69,8 @@ No progress is being made. This value indicates that no data bytes have been tra
 
 ## -remarks
 
-The constants in this enumeration are used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactionreportprogress">SerCx2CustomReceiveTransactionReportProgress</a> method.
+The constants in this enumeration are used by the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactionreportprogress">SerCx2CustomReceiveTransactionReportProgress</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactionreportprogress">SerCx2CustomReceiveTransactionReportProgress</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactionreportprogress">SerCx2CustomReceiveTransactionReportProgress</a>

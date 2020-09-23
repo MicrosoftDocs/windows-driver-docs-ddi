@@ -48,7 +48,7 @@ api_name:
 
 The 
   <b>WskFreeAddressInfo</b> function frees address information that the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a> function has dynamically
+  <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a> function has dynamically
   allocated.
 
 ## -parameters
@@ -57,24 +57,24 @@ The
 
 [in]
 [in] A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
+     <a href="/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
+     <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
      WskCaptureProviderNPI</a> function.
 
 ### -param AddrInfo 
 
 [in]
-[in] A pointer to a linked list of one or more <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that contain response
+[in] A pointer to a linked list of one or more <a href="/windows/win32/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that contain response
      information about the host. This pointer was returned through the 
      <i>Result</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a> function.
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a> function.
      
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structure is defined in the 
+The <a href="/windows/win32/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structure is defined in the 
      Ws2def.h header file. It is identical to the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure.
+     <a href="/windows/win32/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure.
 
 <div class="alert"><b>Important</b>  The 
      Ws2def.h header file is automatically included in 
@@ -84,13 +84,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-add
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a>
+<a href="/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_get_address_info">WskGetAddressInfo</a>

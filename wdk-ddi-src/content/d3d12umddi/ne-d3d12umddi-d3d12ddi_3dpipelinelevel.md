@@ -1,11 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_3DPIPELINELEVEL
 title: D3D12DDI_3DPIPELINELEVEL
-author: windows-driver-content
 description: Contains values that identify the pipeline level that the driver supports.
 tech.root: display
 ms.assetid: 39150f42-529e-4d79-bd70-10984a6783b0
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3D12DDI_3DPIPELINELEVEL enumeration"]
 ms.keywords: D3D12DDI_3DPIPELINELEVEL, D3D12DDI_3DPIPELINELEVEL,

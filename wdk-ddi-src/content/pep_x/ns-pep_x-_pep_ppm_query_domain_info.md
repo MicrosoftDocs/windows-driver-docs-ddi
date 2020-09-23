@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_DOMAIN_INFO
 ---
 
-# _PEP_PPM_QUERY_DOMAIN_INFO structure
+# _PEP_PPM_QUERY_DOMAIN_INFO structure (pep_x.h)
 
 
 ## -description
@@ -90,5 +90,4 @@ On output, this value indicates the worst case overhead (PEP code execution time
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
-
+<a href="/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>

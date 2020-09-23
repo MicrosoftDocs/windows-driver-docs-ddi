@@ -43,7 +43,7 @@ api_name:
  - IO_ACCESS_MODE
 ---
 
-# _IO_ACCESS_MODE enumeration
+# _IO_ACCESS_MODE enumeration (wdm.h)
 
 
 ## -description

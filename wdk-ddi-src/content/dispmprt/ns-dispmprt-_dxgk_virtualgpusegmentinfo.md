@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGK_VIRTUALGPUSEGMENTINFO
 title: _DXGK_VIRTUALGPUSEGMENTINFO
-author: windows-driver-content
 description: Information about the virtual GPU segment info.
 tech.root: display
 ms.assetid: 25475970-446a-4dbf-b916-222bc6eb6ba3
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUSEGMENTINFO structure"]
 ms.prod: windows-hardware

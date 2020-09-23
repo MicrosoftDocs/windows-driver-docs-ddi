@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The UFF_FILEHEADER structure is used to define the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv font format files</a> (.uff files).
+The UFF_FILEHEADER structure is used to define the contents of <a href="/windows-hardware/drivers/print/customized-font-management">Unidrv font format files</a> (.uff files).
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Specifies the size, in bytes, of the UFF_FILEHEADER structure.
 
 ### -field nFonts
 
-Specifies the number of fonts specified within the .uff file and identified by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structures. This is also the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a> structures within the .uff file.
+Specifies the number of fonts specified within the .uff file and identified by <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structures. This is also the number of <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a> structures within the .uff file.
 
 ### -field nGlyphSets
 
@@ -80,7 +80,7 @@ Specifies the  number of variable data sections specified within the .uff file a
 
 ### -field offFontDir
 
-Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a> structure.
+Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first <a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a> structure.
 
 ### -field dwFlags
 
@@ -109,9 +109,8 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a>
-
+<a href="/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uff_fontdirectory">UFF_FONTDIRECTORY</a>

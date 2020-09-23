@@ -45,7 +45,7 @@ api_name:
  - STOR_ADDRESS
 ---
 
-# _STOR_ADDRESS structure
+# _STOR_ADDRESS structure (minitape.h)
 
 
 ## -description
@@ -99,9 +99,8 @@ The address data specific to an address type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>
+<a href="/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a>

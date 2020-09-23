@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvDeinitAdapter</i> function to have the IHV Extensions DLL halt all operations for the wireless
   LAN (WLAN) adapter, as well as free any resources allocated for the station.
 
@@ -86,11 +86,11 @@ The operating system also calls the
     <i>Dot11ExtIhvDeinitAdapter</i> function.
 
 For more information about operations that are performed when the WLAN adapter is removed, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/802-11-wlan-adapter-removal">802.11 WLAN Adapter Removal</a>.
+    <a href="/windows-hardware/drivers/network/802-11-wlan-adapter-removal">802.11 WLAN Adapter Removal</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+<a href="/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
    Extensibility Functions</a>
 
 
@@ -100,4 +100,3 @@ For more information about operations that are performed when the WLAN adapter i
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-

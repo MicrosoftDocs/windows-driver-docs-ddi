@@ -51,16 +51,11 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 <li>Get a list of structures that the DLL can format for printing.</li>
 <li>Get a single-line representation of a particular structure.</li>
 <li>Ask whether a particular structure should have its name printed along with its single-line representation.</li>
-</ul><div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT KnownStructOutput;</pre>
-</td>
-</tr>
-</table></span></div>
+</ul>
+```cpp
+ CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT KnownStructOutput;
+```
+
 
 ## -parameters
 
@@ -191,9 +186,8 @@ This function is optional.  An extension DLL only needs to export <b>KnownStruct
 After initializing the extension DLL, the engine calls this function to query the DLL for the list of structure names it knows how to print.  Then, whenever the engine prints a summary of one of the structures whose name is in the list, it calls this function to format the structure for printing.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_known_struct">KnownStructOutput</a> is called <b>PDEBUG_EXTENSION_KNOWN_STRUCT</b>   in the Dbgeng.h header file.
+<a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_known_struct">KnownStructOutput</a> is called <b>PDEBUG_EXTENSION_KNOWN_STRUCT</b>   in the Dbgeng.h header file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>

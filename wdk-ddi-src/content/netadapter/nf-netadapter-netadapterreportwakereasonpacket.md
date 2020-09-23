@@ -1,16 +1,14 @@
 ---
 UID: NF:netadapter.NetAdapterReportWakeReasonPacket
 title: NetAdapterReportWakeReasonPacket function (netadapter.h)
-author: windows-driver-content
 description: The NetAdapterReportWakeReasonPacket function reports to the framework that a net adapter generated a wake-up event because it received a packet that matched a wake-on-LAN (WoL) pattern.
 tech.root: netvista
 ms.assetid: d37c2805-6f94-48e8-991e-0700b6b0c7fe
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetAdapterReportWakeReasonPacket function"]
 ms.keywords: NetAdapterReportWakeReasonPacket
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -68,7 +66,6 @@ This function does not return a value.
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md)
-

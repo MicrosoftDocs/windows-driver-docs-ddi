@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_TIERING_QUERY_OUTPUT
 title: DEVICE_DSM_TIERING_QUERY_OUTPUT
-author: windows-driver-content
 description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: a68815d1-7e95-482a-aeef-d7dafbc1b5c1
-ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_TIERING_QUERY_OUTPUT structure"]
 ms.keywords: DEVICE_DSM_TIERING_QUERY_OUTPUT, DEVICE_DSM_TIERING_QUERY_OUTPUT, *PDEVICE_DSM_TIERING_QUERY_OUTPUT,

@@ -43,7 +43,7 @@ api_name:
  - RILCARDAPPADDED
 ---
 
-# RILCARDAPPADDED structure
+# RILCARDAPPADDED structure (rilapitypes.h)
 
 
 ## -description

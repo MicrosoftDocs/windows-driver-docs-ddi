@@ -72,9 +72,8 @@ It's not guaranteed that this shrink factor can be applied in all scenarios. For
 
 ### -field OverlayCaps
 
-The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
+The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddi_multiplane_overlay_feature_caps">D3DDDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a>

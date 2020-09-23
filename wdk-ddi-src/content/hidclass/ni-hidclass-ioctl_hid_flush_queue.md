@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-The IOCTL_HID_FLUSH_QUEUE request dequeues all of the unparsed input reports from a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> input report queue. 
+The IOCTL_HID_FLUSH_QUEUE request dequeues all of the unparsed input reports from a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> input report queue. 
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
@@ -78,5 +78,4 @@ The HID class driver sets the <b>Status</b> member of <b>Irp->IoStatus</b> to ST
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_flushqueue">HidD_FlushQueue</a>
-
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_flushqueue">HidD_FlushQueue</a>

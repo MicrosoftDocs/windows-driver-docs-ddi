@@ -62,5 +62,4 @@ Indicates the controller state was preserved after reset.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_reset_complete_info">UCX_CONTROLLER_RESET_COMPLETE_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_reset_complete_info">UCX_CONTROLLER_RESET_COMPLETE_INFO</a>

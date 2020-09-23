@@ -1,11 +1,9 @@
 ---
 UID: NE:storport._STOR_TELEMETRY_CATEGORY
 title: STOR_TELEMETRY_CATEGORY
-author: windows-driver-content
 description: The STOR_TELEMETRY_CATEGORY enumerator indicates the category of the telemetry event being logged in StorPortLogTelemetryEx.
 tech.root: storage
 ms.assetid: ad3a4a08-b060-4979-86ca-35d8b868b7f2
-ms.author: windowsdriverdev
 ms.date: 03/06/2019
 keywords: ["STOR_TELEMETRY_CATEGORY enumeration"]
 ms.keywords: STOR_TELEMETRY_CATEGORY, STOR_TELEMETRY_CATEGORY, *PSTOR_TELEMETRY_CATEGORY, StorPortLogTelemetryEx, STORPORT_TELEMETRY_EVENT

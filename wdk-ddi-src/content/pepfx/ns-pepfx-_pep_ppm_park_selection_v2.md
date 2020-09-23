@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PARK_SELECTION_V2
 ---
 
-# _PEP_PPM_PARK_SELECTION_V2 structure
+# _PEP_PPM_PARK_SELECTION_V2 structure (pepfx.h)
 
 
 ## -description
@@ -58,7 +58,7 @@ The <b>PEP_PPM_PARK_SELECTION_V2</b> structure indicates the preferences of the 
 
 [in] The number of additional processors that need to be unparked.
 
-This number includes all processors in the <b>Processors</b> array for which the PEP sets <b>PepPreference</b> to PROCESSOR_PARK_PREFERENCE_PARKED but the operating system sets <b>PoPreference</b> to either PROCESSOR_PARK_PREFERENCE_UNPARKED or PROCESSOR_PARK_PREFERENCE_NONE. For more information about these values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a>.
+This number includes all processors in the <b>Processors</b> array for which the PEP sets <b>PepPreference</b> to PROCESSOR_PARK_PREFERENCE_PARKED but the operating system sets <b>PoPreference</b> to either PROCESSOR_PARK_PREFERENCE_UNPARKED or PROCESSOR_PARK_PREFERENCE_NONE. For more information about these values, see <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a>.
 
 This number does not include processors in the <b>Processors</b> array for which the operating system sets the <b>PoPreference</b> value to PROCESSOR_PARK_PREFERENCE_PARKED.
 
@@ -68,7 +68,7 @@ This number does not include processors in the <b>Processors</b> array for which
 
 ### -field Processors
 
-[in/out] A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a> structures. Each array element indicates the parking preferences for a particular processor. The <b>Count</b> member specifies the number of elements in the array.
+[in/out] A pointer to an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a> structures. Each array element indicates the parking preferences for a particular processor. The <b>Count</b> member specifies the number of elements in the array.
 
 ### -field EvaluationTime
 
@@ -109,5 +109,4 @@ Interrupts should be steered away from the processor.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_SELECTION_V2 notification</a> notification. All three members of the structure contain input values that are set by the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) before this notification is sent to the PEP.
-
+This structure is used by the <a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_SELECTION_V2 notification</a> notification. All three members of the structure contain input values that are set by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) before this notification is sent to the PEP.

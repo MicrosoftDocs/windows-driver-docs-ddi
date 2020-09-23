@@ -43,7 +43,7 @@ api_name:
  - RILMSGCDMAINDELIVER
 ---
 
-# RILMSGCDMAINDELIVER structure
+# RILMSGCDMAINDELIVER structure (rilapitypes.h)
 
 
 ## -description

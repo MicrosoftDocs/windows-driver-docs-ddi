@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The D3D11DDIARG_CREATECOMMANDLIST structure contains a handle to the deferred context that was created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createdeferredcontext">CreateDeferredContext</a> function.
+The D3D11DDIARG_CREATECOMMANDLIST structure contains a handle to the deferred context that was created by the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createdeferredcontext">CreateDeferredContext</a> function.
 
 ## -struct-fields
 
@@ -56,5 +56,4 @@ The D3D11DDIARG_CREATECOMMANDLIST structure contains a handle to the deferred co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createdeferredcontext">CreateDeferredContext</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createdeferredcontext">CreateDeferredContext</a>

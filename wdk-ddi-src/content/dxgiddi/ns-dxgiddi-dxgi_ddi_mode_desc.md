@@ -64,37 +64,36 @@ The DXGI_DDI_MODE_DESC structure describes a display mode.
 
 ### -field RefreshRate
 
-[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_rational">DXGI_DDI_RATIONAL</a> structure that indicates the refresh rate of the display mode.
+[out] A <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_rational">DXGI_DDI_RATIONAL</a> structure that indicates the refresh rate of the display mode.
 
 ### -field ScanlineOrdering
 
-[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_scanline_order">DXGI_DDI_MODE_SCANLINE_ORDER</a>-typed value that indicates how scan lines are ordered in the display mode.
+[out] A <a href="/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_scanline_order">DXGI_DDI_MODE_SCANLINE_ORDER</a>-typed value that indicates how scan lines are ordered in the display mode.
 
 ### -field Rotation
 
-[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_rotation">DXGI_DDI_MODE_ROTATION</a>-typed value that identifies the orientation of the display mode.
+[out] A <a href="/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_rotation">DXGI_DDI_MODE_ROTATION</a>-typed value that identifies the orientation of the display mode.
 
 ### -field Scaling
 
-[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_scaling">DXGI_DDI_MODE_SCALING</a>-typed value that identifies the scaling of the display mode.
+[out] A <a href="/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_scaling">DXGI_DDI_MODE_SCALING</a>-typed value that identifies the scaling of the display mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_rotation">DXGI_DDI_MODE_ROTATION</a>
+<a href="/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_rotation">DXGI_DDI_MODE_ROTATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_scaling">DXGI_DDI_MODE_SCALING</a>
+<a href="/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_scaling">DXGI_DDI_MODE_SCALING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_scanline_order">DXGI_DDI_MODE_SCANLINE_ORDER</a>
+<a href="/windows-hardware/drivers/ddi/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_scanline_order">DXGI_DDI_MODE_SCANLINE_ORDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_primary_desc">DXGI_DDI_PRIMARY_DESC</a>
+<a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_primary_desc">DXGI_DDI_PRIMARY_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_rational">DXGI_DDI_RATIONAL</a>
-
+<a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_rational">DXGI_DDI_RATIONAL</a>

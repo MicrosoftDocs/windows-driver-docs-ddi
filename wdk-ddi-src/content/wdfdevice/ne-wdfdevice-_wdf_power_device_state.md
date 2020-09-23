@@ -45,14 +45,14 @@ api_name:
  - WDF_POWER_DEVICE_STATE
 ---
 
-# _WDF_POWER_DEVICE_STATE enumeration
+# _WDF_POWER_DEVICE_STATE enumeration (wdfdevice.h)
 
 
 ## -description
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WDF_POWER_DEVICE_STATE</b> enumeration identifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power states</a> that a device might support.
+The <b>WDF_POWER_DEVICE_STATE</b> enumeration identifies the <a href="/windows-hardware/drivers/kernel/device-power-states">device power states</a> that a device might support.
 
 ## -enum-fields
 
@@ -78,11 +78,11 @@ The D3 device power state.
 
 ### -field WdfPowerDeviceD3Final
 
-Represents the final time that the device enters the D3 device power state. Typically, this enumerator means that the system is being turned off, the device is about to be removed, or a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/the-pnp-manager-redistributes-system-resources">resource rebalance</a> is in progress. The device might have been already removed.
+Represents the final time that the device enters the D3 device power state. Typically, this enumerator means that the system is being turned off, the device is about to be removed, or a <a href="/windows-hardware/drivers/wdf/the-pnp-manager-redistributes-system-resources">resource rebalance</a> is in progress. The device might have been already removed.
 
 ### -field WdfPowerDevicePrepareForHibernation
 
-The device supports hibernation files, and the system is ready to hibernate by entering <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-sleeping-states">system state S4</a>. The driver must not turn off the device. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-special-files">Supporting Special Files</a>.
+The device supports hibernation files, and the system is ready to hibernate by entering <a href="/windows-hardware/drivers/kernel/system-sleeping-states">system state S4</a>. The driver must not turn off the device. For more information, see <a href="/windows-hardware/drivers/wdf/supporting-special-files">Supporting Special Files</a>.
 
 ### -field WdfPowerDeviceMaximum
 
@@ -90,9 +90,8 @@ The maximum enumerator value for this enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit">EvtDeviceD0Exit</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit">EvtDeviceD0Exit</a>

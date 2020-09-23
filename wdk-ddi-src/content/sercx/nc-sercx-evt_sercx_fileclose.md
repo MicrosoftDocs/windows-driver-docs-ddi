@@ -57,69 +57,53 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 ## -remarks
 
-This function should remove the serial controller device from the state in which it is ready to receive and transmit data. This function should disable interrupts if interrupts are enabled. Any memory that is allocated only for the lifetime of the file object should be deallocated either in this function or in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_filecleanup">EvtSerCxFileCleanup</a> function.
+This function should remove the serial controller device from the state in which it is ready to receive and transmit data. This function should disable interrupts if interrupts are enabled. Any memory that is allocated only for the lifetime of the file object should be deallocated either in this function or in the <a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_filecleanup">EvtSerCxFileCleanup</a> function.
 
 If the serial controller driver implements an <i>EvtSerCxFileCleanup</i> function, the serial framework extension (SerCx)  calls this function before it calls the <i>EvtSerCxFileClose</i> function. SerCx calls the <i>EvtSerCxFileCleanup</i> function when a client closes the last handle to the file object that represents the serial controller device. After this call, the driver receives no new requests for I/O operations. SerCx calls the <i>EvtSerCxFileClose</i> function when the file object is released, which occurs only after all outstanding I/O requests are either completed or canceled.
 
-To register an <i>EvtSerCxFileClose</i> callback function, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a> method.
+To register an <i>EvtSerCxFileClose</i> callback function, the driver must call the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a> method.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
+For more information, see <a href="/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
 
 
 #### Examples
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```cpp
+typedef VOID
   EVT_SERCX_FILECLOSE(
     __in WDFDEVICE Device
-    );</pre>
-</td>
-</tr>
-</table></span></div>
-To define an <i>EvtSerCxFileClose</i> callback function that is named <code>MyEvtSerCxFileClose</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
+    );
+```
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_FILECLOSE MyEvtSerCxFileClose;</pre>
-</td>
-</tr>
-</table></span></div>
+To define an <i>EvtSerCxFileClose</i> callback function that is named <code>MyEvtSerCxFileClose</code>, you must first provide a function declaration that <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
+
+
+```cpp
+EVT_SERCX_FILECLOSE MyEvtSerCxFileClose;
+```
+
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```cpp
+VOID
   MyEvtSerCxFileClose(
     __in WDFDEVICE Device
     )
-{ ... }</pre>
-</td>
-</tr>
-</table></span></div>
-For more information about SDV requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
+{ ... }
+```
+
+For more information about SDV requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_filecleanup">EvtSerCxFileCleanup</a>
+<a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_filecleanup">EvtSerCxFileCleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>

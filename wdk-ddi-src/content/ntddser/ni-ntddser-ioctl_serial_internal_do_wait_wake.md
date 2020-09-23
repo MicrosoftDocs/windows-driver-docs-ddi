@@ -74,9 +74,8 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_internal_cancel_wait_wake">IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_internal_cancel_wait_wake">IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE</a>

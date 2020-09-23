@@ -56,7 +56,7 @@ The <b>IO_SESSION_CONNECT_INFO</b> structure provides information about a user s
 
 ### -field SessionId
 
-Session ID. This member contains the <a href="https://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier of the user session for which the driver is receiving this notification.
+Session ID. This member contains the <a href="/windows/win32/termserv/terminal-services-portal">Terminal Services</a> session identifier of the user session for which the driver is receiving this notification.
 
 ### -field LocalSession
 
@@ -64,13 +64,12 @@ Indicates whether the user session is a local session or a remote session. If <b
 
 ## -remarks
 
-If a driver is registered to receive notifications of events in a user session, and if this session enters the <i>connected</i> state, the I/O manager calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function. For this call, the I/O manager sets the function's <i>Event</i> parameter to <b>IoSessionEventConnected</b>. Additionally, the I/O manager sets the function's <i>NotificationPayload</i> parameter to point to an <b>IO_SESSION_CONNECT_INFO</b> structure that contains information about the user session. For more information about <b>IoSessionEventConnected</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a>.
+If a driver is registered to receive notifications of events in a user session, and if this session enters the <i>connected</i> state, the I/O manager calls the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function. For this call, the I/O manager sets the function's <i>Event</i> parameter to <b>IoSessionEventConnected</b>. Additionally, the I/O manager sets the function's <i>NotificationPayload</i> parameter to point to an <b>IO_SESSION_CONNECT_INFO</b> structure that contains information about the user session. For more information about <b>IoSessionEventConnected</b>, see <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a>

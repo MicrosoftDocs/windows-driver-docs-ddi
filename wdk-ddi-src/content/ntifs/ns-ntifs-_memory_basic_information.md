@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains information about a range of pages in the virtual address space of a process. The [**ZwQueryVirtualMemory**](https://msdn.microsoft.com/library/windows/hardware/dn957455) routine uses this structure.
+Contains information about a range of pages in the virtual address space of a process. The [**ZwQueryVirtualMemory**](/previous-versions/dn957455(v=vs.85)) routine uses this structure.
 
 ## -struct-fields
 
@@ -110,5 +110,4 @@ The type of pages in the region. The following types are defined.
 
 ## -see-also
 
-[**ZwQueryVirtualMemory**](https://msdn.microsoft.com/library/windows/hardware/dn957455)
-
+[**ZwQueryVirtualMemory**](/previous-versions/dn957455(v=vs.85))

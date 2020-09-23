@@ -62,9 +62,8 @@ Specifies the amount of right attenuation.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-volume">KSPROPERTY_WAVE_VOLUME</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-wave-volume">KSPROPERTY_WAVE_VOLUME</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-volume">KSPROPERTY_WAVE_VOLUME</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-wave-volume">KSPROPERTY_WAVE_VOLUME</a>

@@ -69,13 +69,12 @@ Pointer to an IO_STATUS_BLOCK structure. If the call to <b>CcUnpinRepinnedBcb</b
 
 File systems call <b>CcUnpinRepinnedBcb</b> to write a previously pinned buffer through to disk.
 
-Every call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539196">CcRepinBcb</a> must be matched by a subsequent call to <b>CcUnpinRepinnedBcb</b>.
+Every call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccrepinbcb">CcRepinBcb</a> must be matched by a subsequent call to <b>CcUnpinRepinnedBcb</b>.
 
 Because <b>CcUnpinRepinnedBcb</b> acquires the BCB resource exclusively, the caller must be extremely careful to avoid deadlocks. If possible, the caller should own no resources. Otherwise the caller must guarantee that it has nothing else pinned in the same cached file. Normally <b>CcUnpinRepinnedBcb</b> is called during request completion, after all other resources have been released.
 
-<b>CcUnpinRepinnedBcb</b> synchronously writes the buffer (for write-through requests) and unpins the BCB repinned by the earlier call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539196">CcRepinBcb</a>.
+<b>CcUnpinRepinnedBcb</b> synchronously writes the buffer (for write-through requests) and unpins the BCB repinned by the earlier call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccrepinbcb">CcRepinBcb</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539196">CcRepinBcb</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccrepinbcb">CcRepinBcb</a>

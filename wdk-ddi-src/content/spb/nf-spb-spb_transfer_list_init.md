@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>SPB_TRANSFER_LIST_INIT</b> function initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a> structure.
+The <b>SPB_TRANSFER_LIST_INIT</b> function initializes an <a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a> structure.
 
 ## -parameters
 
@@ -62,21 +62,20 @@ The number of entries in the transfer list. The function writes this value to th
 
 ## -remarks
 
-To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transfers</b> array, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_simple">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_non_paged">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_buffer_list">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a> function.
+To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transfers</b> array, use the <a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_simple">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>, <a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_non_paged">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>, or <a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_buffer_list">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/spb/ns-spb-spb_transfer_list">SPB_TRANSFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_buffer_list">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_buffer_list">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_non_paged">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>
+<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_non_paged">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_simple">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>
-
+<a href="/windows-hardware/drivers/ddi/spb/nf-spb-spb_transfer_list_entry_init_simple">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>

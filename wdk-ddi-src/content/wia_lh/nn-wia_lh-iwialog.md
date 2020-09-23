@@ -47,11 +47,10 @@ api_name:
 ## -description
 
 > [!IMPORTANT]
-> The IWiaLog interface is obsolete and is no longer supported. Instead, use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/image/wia-diagnostic-log-macros).
+> The IWiaLog interface is obsolete and is no longer supported. Instead, use the [Diagnostic Log Macros](/windows-hardware/drivers/image/wia-diagnostic-log-macros).
 
 The **IWiaLog** interface provides methods to enable minidrivers to log trace, error, and warning messages to the diagnostic log file Wiaservc.log.
 
-The prototypes for the methods appear in *Wia.h*. The diagnostic log file *Wiaservc.log* is found in the Windows directory, or in the directory returned by the [GetWindowsDirectory](https://docs.microsoft.com/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) system API call.
+The prototypes for the methods appear in *Wia.h*. The diagnostic log file *Wiaservc.log* is found in the Windows directory, or in the directory returned by the [GetWindowsDirectory](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) system API call.
 
 ## -inheritance
-

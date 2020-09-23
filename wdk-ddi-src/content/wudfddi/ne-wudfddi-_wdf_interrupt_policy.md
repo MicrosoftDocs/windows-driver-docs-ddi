@@ -45,7 +45,7 @@ api_name:
  - WDF_INTERRUPT_POLICY
 ---
 
-# _WDF_INTERRUPT_POLICY enumeration
+# _WDF_INTERRUPT_POLICY enumeration (wudfddi.h)
 
 
 ## -description
@@ -82,9 +82,8 @@ The PnP manager should assign different message-based interrupts to different pr
 
 ## -remarks
 
-The <b>WDF_INTERRUPT_POLICY</b> enumeration type is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a> method.
+The <b>WDF_INTERRUPT_POLICY</b> enumeration type is used as input to the <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a>

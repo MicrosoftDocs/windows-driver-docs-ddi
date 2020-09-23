@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>.
+The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>.
 
 ## -enum-fields
 
@@ -89,21 +89,20 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/">AGP Functions Implemented by the Video Port Driver</a>
+<a href="/windows-hardware/drivers/ddi/videoagp/">AGP Functions Implemented by the Video Port Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Debug Report Functions Implemented by the Video Port Driver</a>
+<a href="/windows-hardware/drivers/ddi/index">Debug Report Functions Implemented by the Video Port Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">I2C Functions Implemented by the Video Port Driver</a>
+<a href="/windows-hardware/drivers/ddi/index">I2C Functions Implemented by the Video Port Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Int10 Functions Implemented by the Video Port Driver</a>
+<a href="/windows-hardware/drivers/ddi/index">Int10 Functions Implemented by the Video Port Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>

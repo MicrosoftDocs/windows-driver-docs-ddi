@@ -41,7 +41,7 @@ api_name:
  - RILINFOCLASS
 ---
 
-# RILINFOCLASS enumeration
+# RILINFOCLASS enumeration (rilapitypes.h)
 
 
 ## -description

@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_PERF_CHECK_COMPLETE
 ---
 
-# _PEP_PPM_PERF_CHECK_COMPLETE structure
+# _PEP_PPM_PERF_CHECK_COMPLETE structure (pep_x.h)
 
 
 ## -description
@@ -60,5 +60,4 @@ The <b>PEP_PPM_PERF_CHECK_COMPLETE</b> structure is used to inform the PEP of de
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PERF_CHECK_COMPLETE notification</a>
-
+<a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PERF_CHECK_COMPLETE notification</a>

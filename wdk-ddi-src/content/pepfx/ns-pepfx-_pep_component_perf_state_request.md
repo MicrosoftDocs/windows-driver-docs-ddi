@@ -45,7 +45,7 @@ api_name:
  - PEP_COMPONENT_PERF_STATE_REQUEST
 ---
 
-# _PEP_COMPONENT_PERF_STATE_REQUEST structure
+# _PEP_COMPONENT_PERF_STATE_REQUEST structure (pepfx.h)
 
 
 ## -description
@@ -56,7 +56,7 @@ The <b>PEP_COMPONENT_PERF_STATE_REQUEST</b> structure specifies a performance st
 
 ### -field Set
 
-The index of the P-state set to which to assign the new performance level. If N is the number of P-state sets specified for this component, P-state set indexes range from 0 to N–1. The PEP previously specified the number of P-state sets in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_capabilities">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
+The index of the P-state set to which to assign the new performance level. If N is the number of P-state sets specified for this component, P-state set indexes range from 0 to N–1. The PEP previously specified the number of P-state sets in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_capabilities">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
 
 ### -field StateIndex
 
@@ -75,19 +75,18 @@ A value that indicates the new performance level that has been selected for this
 
 #### StateIndex
 
-The index of the discrete value to use as the new performance level. This member is used if the performance level for this P-state set is expressed as an index into an array of discrete values. The PEP previously supplied this array of discrete values in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_states">PEP_DPM_QUERY_COMPONENT_PERF_STATES</a> notification.
+The index of the discrete value to use as the new performance level. This member is used if the performance level for this P-state set is expressed as an index into an array of discrete values. The PEP previously supplied this array of discrete values in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_states">PEP_DPM_QUERY_COMPONENT_PERF_STATES</a> notification.
 
 
 
 #### StateValue
 
-The value to use as the new performance level. This member is used if the performance level for this P-state set is expressed as a value in a continuous range of possible values. The PEP previously supplied this range in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification.
+The value to use as the new performance level. This member is used if the performance level for this P-state set is expressed as a value in a continuous range of possible values. The PEP previously supplied this range in response to a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_component_perf_set">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification.
 
 ## -remarks
 
-The <b>PerfRequests</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_request_component_perf_state">PEP_REQUEST_COMPONENT_PERF_STATE</a> structure is a pointer to an array of <b>PEP_COMPONENT_PERF_STATE_REQUEST</b> structures.
+The <b>PerfRequests</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_request_component_perf_state">PEP_REQUEST_COMPONENT_PERF_STATE</a> structure is a pointer to an array of <b>PEP_COMPONENT_PERF_STATE_REQUEST</b> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_request_component_perf_state">PEP_REQUEST_COMPONENT_PERF_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_request_component_perf_state">PEP_REQUEST_COMPONENT_PERF_STATE</a>

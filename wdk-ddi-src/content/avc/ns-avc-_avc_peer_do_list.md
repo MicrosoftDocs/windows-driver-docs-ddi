@@ -64,21 +64,20 @@ Ignored on input. On output (and if the <b>Count</b> member is not zero) <b>Obje
 
 ## -remarks
 
-This structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-peer-do-list">AVC_FUNCTION_PEER_DO_LIST</a> function code.
+This structure is used with the <a href="/windows-hardware/drivers/stream/avc-function-peer-do-list">AVC_FUNCTION_PEER_DO_LIST</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/using-avc-sys">How to Use Avc.sys</a> For information about building and sending an AV/C command.
+See <a href="/windows-hardware/drivers/stream/using-avc-sys">How to Use Avc.sys</a> For information about building and sending an AV/C command.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ne-avc-_tagavc_function">AVC_FUNCTION</a>
+<a href="/windows-hardware/drivers/ddi/avc/ne-avc-_tagavc_function">AVC_FUNCTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-peer-do-list">AVC_FUNCTION_PEER_DO_LIST</a>
+<a href="/windows-hardware/drivers/stream/avc-function-peer-do-list">AVC_FUNCTION_PEER_DO_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_multifunc_irb">AVC_MULTIFUNC_IRB</a>
-
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_multifunc_irb">AVC_MULTIFUNC_IRB</a>

@@ -54,7 +54,7 @@ The <b>D3DKMTCreateDevice</b> function creates a kernel-mode device context.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdevice">D3DKMT_CREATEDEVICE</a> structure that describes the kernel-mode device context.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdevice">D3DKMT_CREATEDEVICE</a> structure that describes the kernel-mode device context.
 
 ## -returns
 
@@ -65,11 +65,10 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_SUCCESS** | The device context was successfully created. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTCreateDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice)  could not complete because of insufficient memory. | 
+| **STATUS_NO_MEMORY** | [D3DKMTCreateDevice](./nf-d3dkmthk-d3dkmtcreatedevice.md)  could not complete because of insufficient memory. | 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdevice">D3DKMT_CREATEDEVICE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdevice">D3DKMT_CREATEDEVICE</a>

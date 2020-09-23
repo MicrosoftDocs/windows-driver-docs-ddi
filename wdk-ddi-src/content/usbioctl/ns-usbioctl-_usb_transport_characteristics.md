@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Stores the transport characteristics at relevant points in time. This structure is used in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_transport_characteristics">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a> request.
+Stores the transport characteristics at relevant points in time. This structure is used in the  <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_transport_characteristics">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a> request.
 
 ## -struct-fields
 
@@ -90,5 +90,4 @@ For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_transport_characteristics">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a>
-
+<a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_transport_characteristics">IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS</a>

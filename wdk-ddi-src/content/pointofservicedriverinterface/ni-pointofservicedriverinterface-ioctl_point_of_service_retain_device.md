@@ -76,13 +76,12 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
 ## -remarks
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following list shows common error values:
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following list shows common error values:
 
 - STATUS_ACCESS_DENIED: The device is currently claimed by another client.
 
 - STATUS_DEVICE_NOT_READY: The POS library has not successfully initialized.
 
-This IOCTL only works if the client has previously called [IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device).
+This IOCTL only works if the client has previously called [IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE](./ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device.md).
 
-When handling this IOCTL, the driver can call [PosCxRetainDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxretaindevice). The driver writer does not need to handle claim contention because the PosCx library determines who gets the claim.
-
+When handling this IOCTL, the driver can call [PosCxRetainDevice](../poscx/nf-poscx-poscxretaindevice.md). The driver writer does not need to handle claim contention because the PosCx library determines who gets the claim.

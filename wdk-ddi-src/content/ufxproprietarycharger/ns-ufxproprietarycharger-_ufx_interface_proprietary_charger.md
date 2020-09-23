@@ -60,21 +60,20 @@ The interface version number.
 
 ### -field ProprietaryChargerDetect
 
-A pointer to the driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_detect">UFX_PROPRIETARY_CHARGER_DETECT</a> callback function.
+A pointer to the driver's implementation of the <a href="/windows-hardware/drivers/ddi/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_detect">UFX_PROPRIETARY_CHARGER_DETECT</a> callback function.
 
 ### -field ProprietaryChargerSetProperty
 
-A pointer to the driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_set_property">UFX_PROPRIETARY_CHARGER_SET_PROPERTY</a> callback function.
+A pointer to the driver's implementation of the <a href="/windows-hardware/drivers/ddi/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_set_property">UFX_PROPRIETARY_CHARGER_SET_PROPERTY</a> callback function.
 
 ### -field ProprietaryChargerAbortOperation
 
-A pointer to the driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_abort_operation">UFX_PROPRIETARY_CHARGER_ABORT_OPERATION</a> callback function.
+A pointer to the driver's implementation of the <a href="/windows-hardware/drivers/ddi/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_abort_operation">UFX_PROPRIETARY_CHARGER_ABORT_OPERATION</a> callback function.
 
 ### -field ProprietaryChargerResetOperation
 
-A pointer to the driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_reset_operation">UFX_PROPRIETARY_CHARGER_RESET_OPERATION</a> callback function.
+A pointer to the driver's implementation of the <a href="/windows-hardware/drivers/ddi/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_reset_operation">UFX_PROPRIETARY_CHARGER_RESET_OPERATION</a> callback function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>
-
+<a href="/previous-versions/windows/hardware/drivers/mt188012(v=vs.85)">USB filter driver for supporting proprietary chargers</a>

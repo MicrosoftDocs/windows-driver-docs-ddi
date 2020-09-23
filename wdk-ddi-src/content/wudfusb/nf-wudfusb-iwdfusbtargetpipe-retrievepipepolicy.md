@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrievePipePolicy</b> method retrieves a WinUsb pipe policy.
 
@@ -84,7 +84,7 @@ A pointer that receives the buffer that contains the WinUsb pipe policy.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> successfully retrieved the WinUsb pipe policy. 
+<a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> successfully retrieved the WinUsb pipe policy. 
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ A pointer that receives the buffer that contains the WinUsb pipe policy.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> encountered an allocation failure.
+<a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -117,21 +117,20 @@ This value corresponds to the error code that the WinUsb API returned.
 
 Pipe policy controls the behavior of the USB pipe (for example, time-outs, handling short packets, and so on).
 
-For more information about valid policy types that a UMDF driver can pass for the <i>PolicyType</i> parameter and values that the framework returns, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a> function.
+For more information about valid policy types that a UMDF driver can pass for the <i>PolicyType</i> parameter and values that the framework returns, see the <a href="/windows/win32/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a> function.
 
-For information about the behavior of the pipe policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WinUSB Functions for Pipe Policy Modification</a>.
+For information about the behavior of the pipe policies, see <a href="/windows-hardware/drivers/ddi/index">WinUSB Functions for Pipe Policy Modification</a>.
 
 The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
+<a href="/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">IWDFUsbTargetPipe::SetPipePolicy</a>
+<a href="/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">IWDFUsbTargetPipe::SetPipePolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>
-
+<a href="/windows/win32/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>

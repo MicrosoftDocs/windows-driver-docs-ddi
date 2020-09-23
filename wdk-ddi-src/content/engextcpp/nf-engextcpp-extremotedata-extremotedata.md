@@ -41,7 +41,7 @@ api_name:
  - ExtRemoteData.ExtRemoteData
 ---
 
-# ExtRemoteData::ExtRemoteData
+# ExtRemoteData::ExtRemoteData (engextcpp.h)
 
 
 ## -description
@@ -60,5 +60,4 @@ The constructor is called by the ExtRemoteData::Set(Typed) or ExtRemoteData::Set
 
 [ExtRemoteData::GetData](nf-engextcpp-extremotedata-getdata.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
-
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>

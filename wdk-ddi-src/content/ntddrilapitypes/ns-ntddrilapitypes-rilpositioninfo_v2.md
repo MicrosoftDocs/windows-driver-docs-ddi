@@ -43,7 +43,7 @@ api_name:
  - RILPOSITIONINFO_V2
 ---
 
-# RILPOSITIONINFO_V2 structure
+# RILPOSITIONINFO_V2 structure (ntddrilapitypes.h)
 
 
 ## -description
@@ -70,7 +70,7 @@ UMTS serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilposit
 
 ### -field stTDSCDMAServingCellInfo
 
-TD-SCDMA serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn931134(v=vs.85)">RILPOSITIONINFO_V1</a>.
+TD-SCDMA serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="/previous-versions/windows/hardware/cellular/dn931134(v=vs.85)">RILPOSITIONINFO_V1</a>.
 
 ### -field stLTEServingCellInfo
 
@@ -147,5 +147,4 @@ struct RILPOSITIONINFO_V2 {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
-
+<a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>

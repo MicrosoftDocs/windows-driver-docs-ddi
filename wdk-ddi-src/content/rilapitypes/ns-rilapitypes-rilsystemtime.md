@@ -43,7 +43,7 @@ api_name:
  - RILSYSTEMTIME
 ---
 
-# RILSYSTEMTIME structure
+# RILSYSTEMTIME structure (rilapitypes.h)
 
 
 ## -description

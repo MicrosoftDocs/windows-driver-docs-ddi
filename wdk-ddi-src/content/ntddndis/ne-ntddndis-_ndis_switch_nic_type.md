@@ -56,7 +56,7 @@ The <b>NDIS_SWITCH_NIC_TYPE</b> enumeration specifies the type of the virtual ne
 
 This value specifies a virtual network adapter that is exposed in the management operating system that runs in the Hyper-V parent partition. The external network adapter provides the connection to the  physical network interface that is available on the host. This allows processes that run in either the management or guest operating systems to send or receive packets over the extensible switch.
 
-<div class="alert"><b>Note</b>  An extensible switch supports no more than one external network adapter. The external network adapter can be bound to one or more underlying physical network adapters. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/external-network-adapters">External Network Adapters</a>.</div>
+<div class="alert"><b>Note</b>  An extensible switch supports no more than one external network adapter. The external network adapter can be bound to one or more underlying physical network adapters. For more information, see <a href="/windows-hardware/drivers/network/external-network-adapters">External Network Adapters</a>.</div>
 <div> </div>
 
 ### -field NdisSwitchNicTypeSynthetic
@@ -77,16 +77,16 @@ This value specifies an emulated network adapter that is exposed in a guest oper
 
 This value specifies a virtual network adapter that is exposed in the management operating system that runs in the Hyper-V parent partition. The internal network adapter provides access to an extensible switch for processes that run in the management operating system. This allows these processes to send or receive packets over the extensible switch.
 
-<div class="alert"><b>Note</b>  An extensible switch supports no more than one internal network adapter. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/internal-network-adapters">Internal Network Adapters</a>.</div>
+<div class="alert"><b>Note</b>  An extensible switch supports no more than one internal network adapter. For more information, see <a href="/windows-hardware/drivers/network/internal-network-adapters">Internal Network Adapters</a>.</div>
 <div> </div>
 
 ## -remarks
 
-The <b>NicType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_TYPE</b> enumeration data type. 
+The <b>NicType</b> member of the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_TYPE</b> enumeration data type. 
 
 
 
-For more information on the types of network adapters that connect to extensible switch ports, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-network-adapters">Hyper-V Extensible Switch Network Adapters</a>.
+For more information on the types of network adapters that connect to extensible switch ports, see <a href="/windows-hardware/drivers/network/hyper-v-extensible-switch-network-adapters">Hyper-V Extensible Switch Network Adapters</a>.
 
 ## -see-also
 
@@ -94,5 +94,4 @@ For more information on the types of network adapters that connect to extensible
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a>

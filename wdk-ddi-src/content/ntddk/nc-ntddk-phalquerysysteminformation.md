@@ -143,7 +143,6 @@ pHalQuerySystemInformation
 ## -remarks
 
 The **HalQuerySystemInformation** function returns the first error. It is the MCA driver's responsibility to call this routine again to see if there are any more errors available.
->Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through [Windows Hardware Error Architecture (WHEA)](https://docs.microsoft.com/windows-hardware/drivers/whea) instead.
+>Windows Vista and later versions of Windows do not support the type of Machine Check Architecture (MCA) and Machine Check Exception (MCE) reporting that is described in this topic. MCA and MCE reporting are supported through [Windows Hardware Error Architecture (WHEA)](/windows-hardware/drivers/whea) instead.
 
 ## -see-also
-

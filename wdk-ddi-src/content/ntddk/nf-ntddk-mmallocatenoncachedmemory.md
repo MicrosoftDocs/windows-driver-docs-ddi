@@ -61,7 +61,7 @@ If the requested memory cannot be allocated, the return value is <b>NULL</b>. Ot
 
 ## -remarks
 
-<b>MmAllocateNonCachedMemory</b> can be called from a <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine to allocate a noncached block of virtual memory for various device-specific buffers. The function always returns a full multiple of the virtual memory page size, of nonpaged system-address-space memory, regardless of the requested allocation size.
+<b>MmAllocateNonCachedMemory</b> can be called from a <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine to allocate a noncached block of virtual memory for various device-specific buffers. The function always returns a full multiple of the virtual memory page size, of nonpaged system-address-space memory, regardless of the requested allocation size.
 
 Noncached allocations are aligned on an integral multiple of the processor's data-cache-line size to prevent cache and coherency problems.
 
@@ -72,21 +72,20 @@ The physical memory pages that <b>MmAllocateNonCachedMemory</b> returns are typi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">KeGetDcacheFillSize</a>
+<a href="/windows-hardware/drivers/kernel/mmcreatemdl">KeGetDcacheFillSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemory">MmAllocateContiguousMemory</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemory">MmAllocateContiguousMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache">MmAllocateContiguousMemorySpecifyCache</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatecontiguousmemoryspecifycache">MmAllocateContiguousMemorySpecifyCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmfreenoncachedmemory">MmFreeNonCachedMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmfreenoncachedmemory">MmFreeNonCachedMemory</a>

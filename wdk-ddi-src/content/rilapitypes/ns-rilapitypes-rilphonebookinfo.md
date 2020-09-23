@@ -43,7 +43,7 @@ api_name:
  - RILPHONEBOOKINFO
 ---
 
-# RILPHONEBOOKINFO structure
+# RILPHONEBOOKINFO structure (rilapitypes.h)
 
 
 ## -description

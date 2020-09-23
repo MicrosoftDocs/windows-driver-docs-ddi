@@ -47,16 +47,11 @@ api_name:
 ## -description
 
 The <i>FreeStackSymFrames</i> callback function frees memory from a stack provider.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> CALLBACK* PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES FreeStackSymFrames;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+ CALLBACK* PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES FreeStackSymFrames;
+```
+
 
 ## -parameters
 
@@ -77,5 +72,4 @@ After <i>FreeStackSymFrames</i> is called, the debugger calls the stack provider
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_stack_provider_endthreadstackreconstruction">EndThreadStackReconstruction</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_stack_provider_endthreadstackreconstruction">EndThreadStackReconstruction</a>

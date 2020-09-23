@@ -66,12 +66,12 @@ Specifies the number of pin descriptors passed.
 ### -param Descriptor 
 
 [in]
-Specifies a pointer to the list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a> structures.
+Specifies a pointer to the list of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a> structures.
 
 ### -param Connect 
 
 [out]
-Specifies a location in which to place a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_connect">KSPIN_CONNECT</a> pointer passed to the create request. If <b>KsValidateConnectRequest</b>  returns success, then Connect+1 will contain a pointer to the KSDATAFORMAT with which the pin was opened.
+Specifies a location in which to place a pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kspin_connect">KSPIN_CONNECT</a> pointer passed to the create request. If <b>KsValidateConnectRequest</b>  returns success, then Connect+1 will contain a pointer to the KSDATAFORMAT with which the pin was opened.
 
 ## -returns
 
@@ -82,4 +82,3 @@ The <b>KsValidateConnectRequest</b> function returns STATUS_SUCCESS if successfu
 The <b>KsValidateConnectRequest</b> function handles basic connection structure access exceptions and validates the communication requirements, medium, protocol, and basic data format. The validation performed on the data format passed is based on the data range list for the specified pin against which a pin instance is to be created. Validation is successful in three instances: if a range major format is a wildcard, the range major format matches and the range subformat is a wildcard, or the range major format, range subformat, and the range specifier all match.
 
 The buffer is passed a copy of the original input buffer, if the originator was not in kernel mode, and is therefore safe to access.
-

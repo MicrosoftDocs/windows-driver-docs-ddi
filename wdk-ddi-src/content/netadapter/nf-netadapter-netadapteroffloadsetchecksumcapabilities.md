@@ -8,7 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NetAdapterOffloadSetChecksumCapabilities function"]
 ms.keywords: NetAdapterOffloadSetChecksumCapabilities
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -62,7 +62,7 @@ Client drivers typically call this function from within their [*EvtDevicePrepare
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 
@@ -73,4 +73,3 @@ Client drivers typically call this function from within their [*EvtDevicePrepare
 [*EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM*](nc-netadapter-evt_net_adapter_offload_set_checksum.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)
-

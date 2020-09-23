@@ -59,9 +59,9 @@ The
 ## -remarks
 
 Before marking send 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures with cancellation
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures with cancellation
     IDs by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
+    <a href="/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
     NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro, a driver should call 
     <b>NdisGeneratePartialCancelId</b> one or more times. 
     <b>NdisGeneratePartialCancelId</b> returns a value that the calling driver can use as the high-order byte
@@ -74,26 +74,25 @@ Typically, an overlying driver calls
     returned value or values for later use. A protocol driver, for example, could call 
     <b>NdisGeneratePartialCancelId</b> once for each client (such as DHCP or ARC) that it supports. The
     protocol driver can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscancelsendnetbufferlists">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscancelsendnetbufferlists">
     NdisCancelSendNetBufferLists</a> function later to cancel a send request. In this case, NDIS calls the
     cancel send function (for example, 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>) of the
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>) of the
     underlying drivers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_cancel_send">MiniportCancelSend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
+<a href="/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>

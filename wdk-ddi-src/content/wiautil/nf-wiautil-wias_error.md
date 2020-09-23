@@ -41,7 +41,7 @@ api_name:
  - WIAS_ERROR
 ---
 
-# WIAS_ERROR macro
+# WIAS_ERROR macro (wiautil.h)
 
 
 ## -description
@@ -58,7 +58,7 @@ The WIAS_ERROR macro writes a diagnostic message to the *Wiatrace.log* file.
 
 ## -remarks
 
-This macro is the recommended way to implement error logging on Windows Vista, because unlike [WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lerror), WIA_ERROR allows error messages to be written to the log file (*Wiatrace.log*). The *Wiatrace.log* file is only available in Windows Vista and later versions of the operating system. The utility used to view the contents of this log file is WiaTrcVw.exe.
+This macro is the recommended way to implement error logging on Windows Vista, because unlike [WIAS_LERROR](../wiamdef/nf-wiamdef-wias_lerror.md), WIA_ERROR allows error messages to be written to the log file (*Wiatrace.log*). The *Wiatrace.log* file is only available in Windows Vista and later versions of the operating system. The utility used to view the contents of this log file is WiaTrcVw.exe.
 
 To enable tracing in free builds, drivers must define the WIA_DEBUG macro by adding `#define WIA_DEBUG` before including any of the WIA headers. Tracing is enabled by default in checked and debug builds of the operating system.
 
@@ -72,9 +72,8 @@ This code snippet was taken from [Wiadriver.cpp](https://github.com/Microsoft/Wi
 
 ## -see-also
 
-[WIAS_ASSERT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_assert)
+[WIAS_ASSERT](../wiamdef/nf-wiamdef-wias_assert.md)
 
-[WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult)
+[WIAS_HRESULT](../wiamdef/nf-wiamdef-wias_hresult.md)
 
-[WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)
-
+[WIAS_TRACE](../wiamdef/nf-wiamdef-wias_trace.md)

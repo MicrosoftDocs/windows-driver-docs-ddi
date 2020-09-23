@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The `PcwAddInstance` function adds the specified instance of the counterset to the consumer buffer. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated AddXxx function instead of calling this function directly. See Remarks below for more info.
+The `PcwAddInstance` function adds the specified instance of the counterset to the consumer buffer. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated AddXxx function instead of calling this function directly. See Remarks below for more info.
 
 ## -parameters
 
@@ -122,4 +122,3 @@ The CTRPP-generated Add function will be named *Prefix*Add*Counterset*. *Prefix*
 ## -see-also
 
 [PCW_CALLBACK callback function](nc-wdm-pcw_callback.md)
-

@@ -54,7 +54,7 @@ The <b>ObfReferenceObject</b> routine increments the reference count to the give
 ### -param Object 
 
 [in]
-Pointer to the object. The caller obtained this parameter either when it created the object or from a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> after it opened the object.
+Pointer to the object. The caller obtained this parameter either when it created the object or from a preceding call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> after it opened the object.
 
 ## -returns
 
@@ -62,7 +62,7 @@ Pointer to the object. The caller obtained this parameter either when it created
 
 ## -remarks
 
-<b>ObfReferenceObject</b> simply increments the pointer reference count for an object, without making any access checks on the given object, as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbypointer">ObReferenceObjectByPointer</a> do. 
+<b>ObfReferenceObject</b> simply increments the pointer reference count for an object, without making any access checks on the given object, as <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbypointer">ObReferenceObjectByPointer</a> do. 
 
 <b>ObfReferenceObject</b> prevents deletion of the object at least until the driver subsequently calls its reciprocal, <b>ObDereferenceObject</b>, or closes the given object. The caller must decrement the reference count with <b>ObDereferenceObject</b> as soon as it is done with the object. 
 
@@ -70,17 +70,16 @@ When the reference count for an object reaches zero, a kernel-mode component can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbypointer">ObReferenceObjectByPointer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbypointer">ObReferenceObjectByPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>

@@ -54,7 +54,7 @@ The<b> KsRegisterFilterWithNoKSPins </b>function registers with DirectShow filte
 ### -param DeviceObject 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure corresponding to the device to which to register the filter.
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure corresponding to the device to which to register the filter.
 
 ### -param InterfaceClassGUID 
 
@@ -74,7 +74,7 @@ A pointer to the first element of an array of Boolean values indicating pin dire
 ### -param MediumList 
 
 [in]
-A pointer to the first element of an array of <a href="https://docs.microsoft.com/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures defining the mediums for each pin on the filter. This array must be <i>PinCount</i> in length.
+A pointer to the first element of an array of <a href="/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> structures defining the mediums for each pin on the filter. This array must be <i>PinCount</i> in length.
 
 ### -param CategoryList 
 
@@ -91,23 +91,22 @@ Use<b> KsRegisterFilterWithNoKSPins</b> to register TvTuners, Crossbars, and sim
 
 This function is only used to register filters that have no corresponding kernel pins. If successful, <b>KsRegisterFilterWithNoKSPins</b> creates a key in the registry that can be then used by DirectShow.
 
-If writing a BDA minidriver, consider using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryupdatecachedata">KsFilterFactoryUpdateCacheData</a> instead of this routine. See details on the reference page for <b>KsFilterFactoryUpdateCacheData</b>.
+If writing a BDA minidriver, consider using <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryupdatecachedata">KsFilterFactoryUpdateCacheData</a> instead of this routine. See details on the reference page for <b>KsFilterFactoryUpdateCacheData</b>.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-descriptors">AVStream Descriptors</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/initializing-an-avstream-minidriver">Initializing an AVStream Minidriver</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/avstream-descriptors">AVStream Descriptors</a> and <a href="/windows-hardware/drivers/stream/initializing-an-avstream-minidriver">Initializing an AVStream Minidriver</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryupdatecachedata">KsFilterFactoryUpdateCacheData</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactoryupdatecachedata">KsFilterFactoryUpdateCacheData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisterpowercallbacks">KsFilterRegisterPowerCallbacks</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterregisterpowercallbacks">KsFilterRegisterPowerCallbacks</a>

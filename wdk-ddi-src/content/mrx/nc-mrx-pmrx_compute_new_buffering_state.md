@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The<i>MRxComputeNewBufferingState</i> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector compute a new buffering state change.
+The<i>MRxComputeNewBufferingState</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector compute a new buffering state change.
 
 ## -parameters
 
@@ -95,9 +95,8 @@ The Server Message Block (SMB) redirector uses <i>MRxComputeNewBufferingState</i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_change_buffering_state_calldown">MRxCompleteBufferingStateChangeRequest</a>
+<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_change_buffering_state_calldown">MRxCompleteBufferingStateChangeRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_get_connection_id">MRxGetConnectionId</a>
-
+<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_get_connection_id">MRxGetConnectionId</a>

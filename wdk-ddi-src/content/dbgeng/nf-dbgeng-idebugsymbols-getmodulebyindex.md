@@ -64,7 +64,7 @@ Receives the location in the target's memory address space of the module.
 
 ## -returns
 
-This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return other error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -97,5 +97,4 @@ The specified module was not loaded, and information about the module was not av
 
 ## -remarks
 
-For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
-
+For more information about modules, see <a href="/windows-hardware/drivers/debugger/modules">Modules</a>.

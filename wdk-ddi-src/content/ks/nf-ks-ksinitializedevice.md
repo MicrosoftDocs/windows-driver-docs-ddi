@@ -47,31 +47,31 @@ api_name:
 
 ## -description
 
-The<b> KsInitializeDevice </b>function is called by AVStream to initialize the AVStream device class from within <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatedevice">KsCreateDevice</a>.
+The<b> KsInitializeDevice </b>function is called by AVStream to initialize the AVStream device class from within <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatedevice">KsCreateDevice</a>.
 
 ## -parameters
 
 ### -param FunctionalDeviceObject 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the WDM functional device object for the device being initialized. 
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the WDM functional device object for the device being initialized. 
 
-Normally, this is returned from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> call. Minidrivers calling this function directly are responsible for calling <b>IoCreateDevice</b> and attaching themselves to the device stack.
+Normally, this is returned from an <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> call. Minidrivers calling this function directly are responsible for calling <b>IoCreateDevice</b> and attaching themselves to the device stack.
 
 ### -param PhysicalDeviceObject 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the WDM physical device object for the device being initialized.
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the WDM physical device object for the device being initialized.
 
 ### -param NextDeviceObject 
 
 [in]
-A pointer to the next <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure in the device stack as determined by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
+A pointer to the next <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure in the device stack as determined by a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
 
 ### -param Descriptor 
 
 [in, optional]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a> structure that describes the characteristics of the device being initialized. If this parameter is <b>NULL</b>, the device is initialized with the default characteristics and has no associated filter factories.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a> structure that describes the characteristics of the device being initialized. If this parameter is <b>NULL</b>, the device is initialized with the default characteristics and has no associated filter factories.
 
 ## -returns
 
@@ -79,41 +79,40 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -remarks
 
-Most minidrivers do not call this function directly. Only call <b>KsInitializeDevice</b> if your minidriver does not use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a> for initialization, handles <b>AddDevice</b> independently, and does not use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksadddevice">KsAddDevice</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatedevice">KsCreateDevice</a> in its <b>AddDevice</b> handler.
+Most minidrivers do not call this function directly. Only call <b>KsInitializeDevice</b> if your minidriver does not use <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a> for initialization, handles <b>AddDevice</b> independently, and does not use <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksadddevice">KsAddDevice</a> or <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatedevice">KsCreateDevice</a> in its <b>AddDevice</b> handler.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksadddevice">KsAddDevice</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksadddevice">KsAddDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatedevice">KsCreateDevice</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kscreatedevice">KsCreateDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksinitializedriver">KsInitializeDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksterminatedevice">KsTerminateDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksterminatedevice">KsTerminateDevice</a>

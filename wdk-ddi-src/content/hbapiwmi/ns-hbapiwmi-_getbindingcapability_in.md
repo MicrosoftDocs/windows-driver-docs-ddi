@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GetBindingCapability_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a> WMI method to the HBA miniport driver.
+The GetBindingCapability_IN structure is used by a WMI client to deliver the input parameter data of the <a href="/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a> WMI method to the HBA miniport driver.
 
 ## -struct-fields
 
@@ -60,9 +60,8 @@ Contains a worldwide name that indicates the port whose persistent bindings are 
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the GetBindingCapability_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetBindingCapability_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a>
-
+<a href="/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a>

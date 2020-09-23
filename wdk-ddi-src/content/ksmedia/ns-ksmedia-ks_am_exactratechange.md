@@ -62,5 +62,4 @@ Specifies the new rate. This value is multiplied by 10000 (decimal).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-am-rate-exactratechange">KS_AM_RATE_ExactRateChange</a>
-
+<a href="/windows-hardware/drivers/stream/ks-am-rate-exactratechange">KS_AM_RATE_ExactRateChange</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The  structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a> WMI method to report the attributes for a specified remote fibre channel port.
+The  structure is used by the <a href="/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a> WMI method to report the attributes for a specified remote fibre channel port.
 
 ## -struct-fields
 
@@ -379,5 +379,4 @@ Indicates the number of ports that are visible to <b>PortWWN</b>. For a more det
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a>
-
+<a href="/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a>

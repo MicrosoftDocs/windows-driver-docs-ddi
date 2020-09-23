@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11EXT_IHV_PROFILE_PARAMS structure specifies the general parameters of a basic service set
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11EXT_IHV_PROFILE_PARAMS structure specifies the general parameters of a basic service set
   (BSS) network with which a network profile will be applied.
 
 ## -struct-fields
@@ -92,7 +92,7 @@ typedef struct _DOT11EXT_IHV_PROFILE_PARAMS {
 The operating system passes a pointer to a DOT11EXT_IHV_PROFILE_PARAMS structure as a parameter to any
     IHV handler function that processes the IHV-defined fragments of connectivity and security profiles. For
     more information, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+    <a href="/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
     Functions</a>.
 
 Although the IHV handler function cannot access the entire network profile, the function can access
@@ -109,12 +109,12 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+<a href="/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff553763(v=vs.85)">
+<a href="/previous-versions/windows/hardware/wireless/ff553763(v=vs.85)">
    IDot11ExtUIProperty::Dot11ExtUIPropertySetDisplayInfo</a>
 
 
@@ -141,6 +141,5 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff553752(v=vs.85)">
+<a href="/previous-versions/windows/hardware/wireless/ff553752(v=vs.85)">
    IDot11ExtUIProperty::Dot11ExtUIPropertyGetDisplayInfo</a>
-

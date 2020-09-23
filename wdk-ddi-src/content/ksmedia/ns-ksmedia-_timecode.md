@@ -74,5 +74,4 @@ This structure is defined for the purpose of searching to a timecode based on an
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-raw-avc-cmd">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-raw-avc-cmd">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>

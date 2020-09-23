@@ -43,7 +43,7 @@ api_name:
  - RILADDITIONALNUMBERSTRINGUPDATE
 ---
 
-# RILADDITIONALNUMBERSTRINGUPDATE structure
+# RILADDITIONALNUMBERSTRINGUPDATE structure (ntddrilapitypes.h)
 
 
 ## -description

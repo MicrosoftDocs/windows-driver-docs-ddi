@@ -76,7 +76,7 @@ KSPROPERTY_SUPPORT_GET
 
 </td>
 <td>
-Supports retrieving a property. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get">IKsPropertySet::Get</a> method to retrieve the property.
+Supports retrieving a property. Use the <a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get">IKsPropertySet::Get</a> method to retrieve the property.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ KSPROPERTY_SUPPORT_SET
 
 </td>
 <td>
-Supports setting a property. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a> method to set the property.
+Supports setting a property. Use the <a href="/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a> method to set the property.
 
 </td>
 </tr>
@@ -153,9 +153,8 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get">IKsPropertySet::Get</a>
+<a href="/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-get">IKsPropertySet::Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a>
-
+<a href="/windows-hardware/drivers/ddi/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a>

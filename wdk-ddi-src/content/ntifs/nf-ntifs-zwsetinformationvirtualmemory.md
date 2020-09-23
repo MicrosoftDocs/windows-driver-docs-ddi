@@ -53,7 +53,7 @@ The <b>ZwSetInformationVirtualMemory</b> routine performs an operation on a spec
 ### -param ProcessHandle 
 
 [in]
-Specifies an open handle for the process in the context of which the operation is to be performed. This handle cannot be invalid. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">NtCurrentProcess</a> macro, defined in Ntddk.h, to specify the current process.
+Specifies an open handle for the process in the context of which the operation is to be performed. This handle cannot be invalid. Use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">NtCurrentProcess</a> macro, defined in Ntddk.h, to specify the current process.
 
 ### -param VmInformationClass 
 
@@ -106,4 +106,3 @@ Drivers call this routine  purely for performance optimization: prefetching is n
 
 
 Because this call is  not necessary for correct operation of the driver, it is treated as a strong hint by the system and is subject to usual physical memory constraints where it can completely or partially fail under low-memory conditions. It can also create memory pressure if called with large address ranges, so applications should only prefetch address ranges they will actually use.
-

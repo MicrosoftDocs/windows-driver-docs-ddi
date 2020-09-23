@@ -46,7 +46,6 @@ api_name:
 
 ## -description
 
-This section describes the methods defined for the [IStillImage COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istillimage-com-interface). Method prototypes are contained in *Sti.h*.
+This section describes the methods defined for the [IStillImage COM Interface](/windows-hardware/drivers/image/istillimage-com-interface). Method prototypes are contained in *Sti.h*.
 
 ## -inheritance
-

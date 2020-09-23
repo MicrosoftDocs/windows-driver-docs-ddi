@@ -45,12 +45,12 @@ api_name:
  - PEP_QUERY_SOC_SUBSYSTEM
 ---
 
-# _PEP_QUERY_SOC_SUBSYSTEM structure
+# _PEP_QUERY_SOC_SUBSYSTEM structure (pep_x.h)
 
 
 ## -description
 
-The <b>PEP_QUERY_SOC_SUBSYSTEM</b> structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM notification</a> to gather basic information about a particular system on a chip (SoC) subsystem.
+The <b>PEP_QUERY_SOC_SUBSYSTEM</b> structure is used by the <a href="/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM notification</a> to gather basic information about a particular system on a chip (SoC) subsystem.
 
 ## -struct-fields
 
@@ -124,5 +124,4 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM notification</a>
-
+<a href="/windows-hardware/drivers/ddi/index">PEP_DPM_QUERY_SOC_SUBSYSTEM notification</a>

@@ -53,7 +53,7 @@ The client driver's implementation that UCX calls to retrieve the current 32-bit
 ### -param UcxController 
 
 [in]
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
+ A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 ### -param FrameNumber 
 
@@ -66,18 +66,14 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 ## -remarks
 
-The UCX client driver registers its <i>EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER</i> implementation with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
+The UCX client driver registers its <i>EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER</i> implementation with the USB host controller extension (UCX) by calling the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```
+NTSTATUS
 Controller_EvtControllerGetCurrentFrameNumber(
     UCXCONTROLLER   UcxController,
     PULONG          FrameNumber
@@ -96,12 +92,10 @@ Controller_EvtControllerGetCurrentFrameNumber(
     DbgTrace(TL_INFO, Controller, "Controller_EvtControllerGetCurrentFrameNumber");
 
     return STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
-
+<a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>

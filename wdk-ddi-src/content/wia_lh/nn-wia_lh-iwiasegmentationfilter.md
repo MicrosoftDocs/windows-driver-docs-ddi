@@ -46,7 +46,6 @@ api_name:
 
 ## -description
 
-The **IWiaSegmentationFilter** interface provides the [DetectRegions](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiasegmentationfilter-detectregions) method, which enables minidrivers to detect image subregions on a flatbed scanner's platen.
+The **IWiaSegmentationFilter** interface provides the [DetectRegions](./nf-wia_lh-iwiasegmentationfilter-detectregions.md) method, which enables minidrivers to detect image subregions on a flatbed scanner's platen.
 
 ## -inheritance
-

@@ -60,15 +60,15 @@ A handle to a framework interrupt object.
 
 ## -returns
 
-The <b>WdfInterruptWdmGetInterrupt</b> method returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure. This method returns <b>NULL</b> if it is called before the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_enable">EvtInterruptEnable</a> callback function is called or after the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable">EvtInterruptDisable</a> callback function returns.
+The <b>WdfInterruptWdmGetInterrupt</b> method returns a pointer to a <a href="/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure. This method returns <b>NULL</b> if it is called before the driver's <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_enable">EvtInterruptEnable</a> callback function is called or after the driver's <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable">EvtInterruptDisable</a> callback function returns.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-The pointer that the <b>WdfInterruptWdmGetInterrupt</b> method returns is valid until the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable">EvtInterruptDisable</a> callback function returns. 
+The pointer that the <b>WdfInterruptWdmGetInterrupt</b> method returns is valid until the driver's <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_disable">EvtInterruptDisable</a> callback function returns. 
 
-For more information about handling interrupts in framework-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
+For more information about handling interrupts in framework-based drivers, see <a href="/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
 
 
 #### Examples
@@ -83,5 +83,4 @@ wdmInterrupt = WdfInterruptWdmGetInterrupt(Interrupt);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a>
-
+<a href="/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a>

@@ -60,9 +60,8 @@ Codec ID structure version 1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ns-bthhfpddi-_hfp_bypass_codec_id_v1">HFP_BYPASS_CODEC_ID_V1</a>
+<a href="/windows-hardware/drivers/ddi/bthhfpddi/ns-bthhfpddi-_hfp_bypass_codec_id_v1">HFP_BYPASS_CODEC_ID_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
-
+<a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>

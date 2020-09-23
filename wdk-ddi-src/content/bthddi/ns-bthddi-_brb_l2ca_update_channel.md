@@ -54,7 +54,7 @@ The _BRB_L2CA_UPDATE_CHANNEL structure describes an update to the link character
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field BtAddress
@@ -64,8 +64,8 @@ The Bluetooth address of the remote device.
 ### -field ChannelHandle
 
 The L2CAP channel handle that was returned by Bluetooth driver stack in response to an earlier 
-     <a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a> or 
-     <a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
+     <a href="/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a> or 
+     <a href="/previous-versions/ff536616(v=vs.85)">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 ### -field NewChannelFlags
@@ -82,8 +82,8 @@ The flag or flags in the
 ## -remarks
 
 To retrieve the current settings of a L2CAP channel, profile drivers should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/previous-versions/ff536620(v=vs.85)">BRB_L2CA_UPDATE_CHANNEL</a> request.
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/previous-versions/ff536620(v=vs.85)">BRB_L2CA_UPDATE_CHANNEL</a> request.
 
 The profile driver can then determine when certain channel attributes have changed. Additionally, if
     the CF_LINK_PASSIVE_MODE flag is not set, the BRB will attempt to change the current channel settings to
@@ -103,18 +103,17 @@ By building and sending a <b>BRB_L2CA_UPDATE_CHANNEL</b> request, profile driver
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a>
+<a href="/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
+<a href="/previous-versions/ff536616(v=vs.85)">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536620(v=vs.85)">BRB_L2CA_UPDATE_CHANNEL</a>
-
+<a href="/previous-versions/ff536620(v=vs.85)">BRB_L2CA_UPDATE_CHANNEL</a>

@@ -41,7 +41,7 @@ api_name:
  - POWER_INFORMATION_LEVEL
 ---
 
-# POWER_INFORMATION_LEVEL enumeration
+# POWER_INFORMATION_LEVEL enumeration (wdm.h)
 
 
 ## -description

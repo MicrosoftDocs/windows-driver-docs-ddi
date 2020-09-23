@@ -56,7 +56,7 @@ A handle to the printer that is currently being queried.
 
 ### -param cbDevMode
 
-The size of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure, in bytes, including appended data.
+The size of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure, in bytes, including appended data.
 
 ### -param pDevMode
 
@@ -72,7 +72,7 @@ A pointer to the data that is contained in the vendor portion of the DEVMODE str
 
 ### -param prclImageableArea
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that contains the printable area. This parameter is populated by UnidrvUI.dll or PS5UI.dll with data from the corresponding GPD or PPD, before the parameter is passed to the plug-in. The plug-in can then update this data before returning.
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that contains the printable area. This parameter is populated by UnidrvUI.dll or PS5UI.dll with data from the corresponding GPD or PPD, before the parameter is passed to the plug-in. The plug-in can then update this data before returning.
 
 ## -returns
 
@@ -86,9 +86,8 @@ If the plug-in cannot complete the operation, it should return an appropriate fa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuimxdc">IPrintOemUIMXDC</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuimxdc">IPrintOemUIMXDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
-
+<a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>

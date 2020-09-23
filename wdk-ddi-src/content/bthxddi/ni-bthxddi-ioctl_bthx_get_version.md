@@ -60,11 +60,11 @@ None.
 
 ### -output-buffer
 
-Profile drivers should use KMDF and its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveoutputmemory">WdfRequestRetrieveOutputMemory</a> method to retrieve output parameters.  For example, to get the output buffer:
+Profile drivers should use KMDF and its <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveoutputmemory">WdfRequestRetrieveOutputMemory</a> method to retrieve output parameters.  For example, to get the output buffer:
 
 <code>Status = WdfRequestRetrieveOutputMemory(_Request, &ReqOutMemory);</code>
 
-The buffer describes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ns-bthxddi-_bthx_version">BTHX_VERSION</a> structure. 
+The buffer describes a <a href="/windows-hardware/drivers/ddi/bthxddi/ns-bthxddi-_bthx_version">BTHX_VERSION</a> structure. 
 
 Refer to the WDK Bluetooth samples for more information.
 
@@ -109,4 +109,3 @@ Any unsuccessful NT status code prevents the driver from loading.
 IOCTL_BTHX_GET_VERSION is a synchronous operation.
 
 A transport driver can return one or more versions that it supports in BTHX_VERSION structure.  If no version is set,  Windows unloads the Bluetooth stack.
-

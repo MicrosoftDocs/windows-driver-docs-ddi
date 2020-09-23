@@ -60,11 +60,10 @@ Specifies the type and calibration of the mixing room used for the final audio m
 
 This structure characterizes the production environment of an AC-3-encoded stream. The information in the structure is not typically used by the decoder, but might be used by other audio components after decoding.
 
-This structure is used by the [KSPROPERTY_AC3_ROOM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-room-type) property.
+This structure is used by the [KSPROPERTY_AC3_ROOM_TYPE](/windows-hardware/drivers/audio/ksproperty-ac3-room-type) property.
 
 For more information about bit stream modes, see the AC-3 specification at the [Dolby Laboratories](https://www.dolby.com) website. The specification is titled Digital Audio Compression Standard (AC-3).
 
 ## -see-also
 
-[KSPROPERTY_AC3_ROOM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-room-type)
-
+[KSPROPERTY_AC3_ROOM_TYPE](/windows-hardware/drivers/audio/ksproperty-ac3-room-type)

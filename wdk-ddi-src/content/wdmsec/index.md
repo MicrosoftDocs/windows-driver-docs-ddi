@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
+f1_keywords:
+ - wdmsec
+ - wdmsec/wdmsec
 ---
 
 # Wdmsec.h header
@@ -16,13 +19,10 @@ tech.root: kernel
 
 ## -description
 
-
 This header exposes security routines for kernel-mode  drivers.  They are used to create the device object with a security descriptor.
 Do not use the functions in this header directly, instead use:
 
 - [**IoCreateDeviceSecure**]()
 - [**IoValidateDeviceIoControlAccess**]()
 - [**RtlInitUnicodeString**]()
-
-
 

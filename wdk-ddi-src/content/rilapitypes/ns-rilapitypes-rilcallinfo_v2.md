@@ -43,7 +43,7 @@ api_name:
  - RILCALLINFO_V2
 ---
 
-# RILCALLINFO_V2 structure
+# RILCALLINFO_V2 structure (rilapitypes.h)
 
 
 ## -description

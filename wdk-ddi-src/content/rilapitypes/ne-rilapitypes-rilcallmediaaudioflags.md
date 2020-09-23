@@ -41,7 +41,7 @@ api_name:
  - RILCALLMEDIAAUDIOFLAGS
 ---
 
-# RILCALLMEDIAAUDIOFLAGS enumeration
+# RILCALLMEDIAAUDIOFLAGS enumeration (rilapitypes.h)
 
 
 ## -description

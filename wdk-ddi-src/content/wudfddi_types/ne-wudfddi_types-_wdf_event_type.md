@@ -44,7 +44,7 @@ api_name:
  - WDF_EVENT_TYPE
 ---
 
-# _WDF_EVENT_TYPE enumeration
+# _WDF_EVENT_TYPE enumeration (wudfddi_types.h)
 
 
 ## -description
@@ -61,7 +61,7 @@ Reserved for system use.
 
 ### -field WdfEventBroadcast
 
-In the current version of UMDF, the driver must specify <b>WdfEventBroadcast</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>.
+In the current version of UMDF, the driver must specify <b>WdfEventBroadcast</b>. For more information, see <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>.
 
 ### -field WdfEventMaximum
 
@@ -69,9 +69,8 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-postevent">IWDFDevice::PostEvent</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-postevent">IWDFDevice::PostEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>

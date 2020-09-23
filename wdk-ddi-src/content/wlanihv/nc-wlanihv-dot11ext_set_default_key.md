@@ -47,13 +47,13 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The IHV Extensions DLL calls the
   <b>Dot11ExtSetDefaultKey</b> function to add or delete a cipher key from the
   default key or per-station default key tables of the wireless LAN (WLAN) adapter. For more information
   about these key types, see
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>.
+  <a href="/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>.
 
 ## -parameters
 
@@ -105,7 +105,7 @@ DWORD WINAPI * Dot11ExtSetDefaultKey(
 
 A call to the
     <b>Dot11ExtSetDefaultKey</b> function results in a set request of the
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
+    <a href="/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">
     OID_DOT11_CIPHER_DEFAULT_KEY</a> object identifier to the WLAN adapter.
 
 A default cipher key is defined by setting the
@@ -130,7 +130,7 @@ A cipher key is deleted from the adapter's key tables if the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>
+<a href="/windows-hardware/drivers/network/802-11-cipher-key-types">802.11 Cipher Key Types</a>
 
 
 
@@ -138,10 +138,9 @@ A cipher key is deleted from the adapter's key tables if the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
 
 
 <a href="..\windot11\ns-windot11-dot11_cipher_default_key_value.md">
    DOT11_CIPHER_DEFAULT_KEY_VALUE</a>
-

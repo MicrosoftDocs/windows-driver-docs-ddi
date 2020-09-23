@@ -58,7 +58,7 @@ Points to the <b>IWiaItem2</b> item that the image acquisition was initiated for
 ### -param pWiaTransferCallback 
 
 [in]
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback</a> interface. The IWiaTransferCallback interface is the application's callback interface, which is passed to <b>IWiaTransfer::Download</b> and <b>IWiaPreview::GetNewPreview</b>.
+Points to a <a href="/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback</a> interface. The IWiaTransferCallback interface is the application's callback interface, which is passed to <b>IWiaTransfer::Download</b> and <b>IWiaPreview::GetNewPreview</b>.
 
 ## -returns
 
@@ -78,9 +78,8 @@ The <b>IWiaItem2, IWiaPreview</b> and <b>IWiaTransfer</b> interfaces are describ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiaimagefilter">IWiaImageFilter</a>
+<a href="/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiaimagefilter">IWiaImageFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback Interface</a>
-
+<a href="/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback Interface</a>

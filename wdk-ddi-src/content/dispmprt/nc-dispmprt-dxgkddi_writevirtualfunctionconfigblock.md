@@ -1,11 +1,9 @@
 ---
 UID: NC:dispmprt.DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK
 title: DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK
-author: windows-driver-content
 description: This function allows the non-privileged virtual machine to write configuration data supplied by the Physical Function driver in the privileged VM.
 tech.root: display
 ms.assetid: faac7ab9-5120-4f67-a968-96582f0f980d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_WRITEVIRTUALFUNCTIONCONFIGBLOCK callback function"]
 req.header: dispmprt.h

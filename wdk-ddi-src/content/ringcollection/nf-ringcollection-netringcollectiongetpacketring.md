@@ -63,5 +63,4 @@ Client drivers typically call this function when they need information about a p
 
 ## -see-also
 
-[Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings)
-
+[Introduction to net rings](/windows-hardware/drivers/netcx/introduction-to-net-rings)

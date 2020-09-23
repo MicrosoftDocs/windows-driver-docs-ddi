@@ -41,7 +41,7 @@ api_name:
  - RILMSGCDMAMSGPRIORITY
 ---
 
-# RILMSGCDMAMSGPRIORITY enumeration
+# RILMSGCDMAMSGPRIORITY enumeration (rilapitypes.h)
 
 
 ## -description

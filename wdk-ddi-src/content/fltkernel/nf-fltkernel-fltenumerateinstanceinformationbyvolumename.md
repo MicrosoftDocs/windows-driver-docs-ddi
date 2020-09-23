@@ -77,7 +77,7 @@ Type of information to be returned for the minifilter driver instance or legacy 
 
 </td>
 <td>
-The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_basic_information">INSTANCE_BASIC_INFORMATION</a> structure for a minifilter instance.  Legacy filter drivers are ignored.
+The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_basic_information">INSTANCE_BASIC_INFORMATION</a> structure for a minifilter instance.  Legacy filter drivers are ignored.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https:
 
 </td>
 <td>
-The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_full_information">INSTANCE_FULL_INFORMATION</a> structure for a minifilter instance.  Legacy filter drivers are ignored.
+The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_full_information">INSTANCE_FULL_INFORMATION</a> structure for a minifilter instance.  Legacy filter drivers are ignored.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https:
 
 </td>
 <td>
-The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a> structure for a minifilter instance.  Legacy filter drivers are ignored.
+The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a> structure for a minifilter instance.  Legacy filter drivers are ignored.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https:
 
 </td>
 <td>
-The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_aggregate_standard_information">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a> structure for a minifilter driver instance or legacy filter driver.
+The buffer pointed to by the <i>Buffer</i> parameter receives an <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_aggregate_standard_information">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a> structure for a minifilter driver instance or legacy filter driver.
 
 </td>
 </tr>
@@ -243,13 +243,12 @@ This routine will return both legacy filter driver information and minifilter dr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbydeviceobject">FltEnumerateInstanceInformationByDeviceObject</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbydeviceobject">FltEnumerateInstanceInformationByDeviceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter">FltEnumerateInstanceInformationByFilter</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter">FltEnumerateInstanceInformationByFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>

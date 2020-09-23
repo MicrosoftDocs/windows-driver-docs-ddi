@@ -89,19 +89,18 @@ Invalid device request (for example, calling <code>Read</code> on a MIDI output 
 
 ## -remarks
 
-The miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportmidi-notify">IPortMidi::Notify</a> to notify the port driver when incoming MIDI data becomes available from the capture device. The port driver calls <b>IMiniportMidi::Read</b> to retrieve the data. The port driver continues to call <code>Read</code> as long as more data is available.
+The miniport driver calls <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportmidi-notify">IPortMidi::Notify</a> to notify the port driver when incoming MIDI data becomes available from the capture device. The port driver calls <b>IMiniportMidi::Read</b> to retrieve the data. The port driver continues to call <code>Read</code> as long as more data is available.
 
 The <code>Read</code> method returns STATUS_SUCCESS and a <i>BytesRead</i> count of zero to indicate that no more MIDI input data is currently available from the device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportmidistream-write">IMiniportMidiStream::Write</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportmidistream-write">IMiniportMidiStream::Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportmidi-notify">IPortMidi::Notify</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportmidi-notify">IPortMidi::Notify</a>

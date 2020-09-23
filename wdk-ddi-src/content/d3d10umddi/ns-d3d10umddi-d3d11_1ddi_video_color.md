@@ -52,11 +52,11 @@ Defines a color value for Microsoft Direct3D 11 video.
 
 ### -field YCbCr
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a> structure that contains a YCbCr color value.
 
 ### -field RGBA
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_rgba">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
+A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_rgba">D3D11_1DDI_VIDEO_COLOR_RGBA</a> structure that contains an RGB color value.
 
 ## -remarks
 
@@ -64,9 +64,8 @@ The anonymous union can represent both RGB and YCbCr colors. The interpretation 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_rgba">D3D11_1DDI_VIDEO_COLOR_RGBA</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_rgba">D3D11_1DDI_VIDEO_COLOR_RGBA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color_ycbcra">D3D11_1DDI_VIDEO_COLOR_YCbCrA</a>

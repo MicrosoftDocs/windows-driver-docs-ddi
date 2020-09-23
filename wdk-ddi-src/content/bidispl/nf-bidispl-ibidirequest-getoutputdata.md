@@ -58,7 +58,7 @@ A zero-based index of the output data that is requested. For more information, s
 ### -param ppszSchema 
 
 [out]
-A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free this pointer.
+A pointer to a NULL-terminated string that receives the schema string. The caller must call the <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free this pointer.
 
 ### -param pdwType 
 
@@ -155,7 +155,7 @@ Binary data.
 ### -param ppData 
 
 [out]
-A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the buffer.
+A pointer to the variable that receives a pointer to the byte array containing the output data. The buffer is allocated by the COM interface to store the output data. The caller is responsible for calling <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the buffer.
 
 ### -param uSize 
 
@@ -164,7 +164,7 @@ A pointer to a variable that receives the size of the byte array specified by **
 
 ## -returns
 
-The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
 <table>
 <tr>
@@ -219,23 +219,22 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -remarks
 
-A single bidi request can have multiple results. The application calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a> to get the number of results from the bidi request.
+A single bidi request can have multiple results. The application calls <a href="/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a> to get the number of results from the bidi request.
 
 If an application calls <b>GetOutputData</b> with the same index twice, the interface allocates two different buffers and thus the application must free both buffers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
+<a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a>
+<a href="/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
-
+<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>

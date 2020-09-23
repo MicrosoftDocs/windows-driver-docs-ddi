@@ -52,19 +52,19 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method allows a rendering plug-in
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that describes the surface on which to write.
+Pointer to a <a href="/windows/win32/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to write.
 
 ### -param pstro
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_strobj">STROBJ</a> structure that defines the glyphs to be rendered and the positions in which to place them.
+Pointer to a <a href="/windows/win32/api/winddi/ns-winddi-strobj">STROBJ</a> structure that defines the glyphs to be rendered and the positions in which to place them.
 
 ### -param pfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure from which to retrieve information about the font and its glyphs.
+Pointer to a <a href="/windows/win32/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure from which to retrieve information about the font and its glyphs.
 
 ### -param pco
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure that defines the clip region through which all rendering must be done. The driver cannot affect any pixels outside the clip region.
+Pointer to a <a href="/windows/win32/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that defines the clip region through which all rendering must be done. The driver cannot affect any pixels outside the clip region.
 
 ### -param prclExtra
 
@@ -72,11 +72,11 @@ Pointer to a RECTL structure. GDI always sets this parameter to <b>NULL</b> in c
 
 ### -param prclOpaque
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that represents a single opaque rectangle. This rectangle is bottom-right exclusive. Pixels within this rectangle (those that are not foreground and not clipped) are to be rendered with the opaque brush. This rectangle always bounds the text to be drawn. If this parameter is <b>NULL</b>, no opaque pixels are to be rendered.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that represents a single opaque rectangle. This rectangle is bottom-right exclusive. Pixels within this rectangle (those that are not foreground and not clipped) are to be rendered with the opaque brush. This rectangle always bounds the text to be drawn. If this parameter is <b>NULL</b>, no opaque pixels are to be rendered.
 
 ### -param pboFore
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure that represents the brush object to be used for the foreground pixels. This brush will always be a solid color brush.
+Pointer to a <a href="/windows/win32/api/winddi/ns-winddi-brushobj">BRUSHOBJ</a> structure that represents the brush object to be used for the foreground pixels. This brush will always be a solid color brush.
 
 ### -param pboOpaque
 
@@ -84,7 +84,7 @@ Pointer to a BRUSHOBJ structure that represents the opaque pixels. Both the fore
 
 ### -param pptlOrg
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that defines the brush origin for both brushes.
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that defines the brush origin for both brushes.
 
 ### -param mix
 
@@ -136,19 +136,18 @@ The method is not implemented.
 
 ## -remarks
 
-The <code>IPrintOemUni::TextOutAsBitmap</code> method is called from Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvunitextout">IPrintOemDriverUni::DrvUniTextOut</a> method, if that method cannot create the text string using downloadable fonts, either because the font is not available or is rotated. <code>IPrintOemUni::TextOutAsBitmap</code> should create a bitmap image of the text and send it to the print device.
+The <code>IPrintOemUni::TextOutAsBitmap</code> method is called from Unidrv's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvunitextout">IPrintOemDriverUni::DrvUniTextOut</a> method, if that method cannot create the text string using downloadable fonts, either because the font is not available or is rotated. <code>IPrintOemUni::TextOutAsBitmap</code> should create a bitmap image of the text and send it to the print device.
 
-The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "TextOutAsBitmap" as input.
+The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "TextOutAsBitmap" as input.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvunitextout">IPrintOemDriverUni::DrvUniTextOut</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriveruni-drvunitextout">IPrintOemDriverUni::DrvUniTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a>
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a>

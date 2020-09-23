@@ -72,23 +72,22 @@ The extension library was successfully initialized.
 
 ## -remarks
 
-The extension library version number should be set by this method.  This can be done by setting the members <b>m_ExtMajorVersion</b> and <b>m_ExtMinorVersion</b> of the base class <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>.
+The extension library version number should be set by this method.  This can be done by setting the members <b>m_ExtMajorVersion</b> and <b>m_ExtMinorVersion</b> of the base class <a href="/previous-versions/ff543981(v=vs.85)">ExtExtension</a>.
 
 The <b>ExtExtension</b> member <b>m_KnownStructs</b> should be set by this method to indicate to the engine which structures the extension library is capable of formatting for output.
 
-If this method is defined in the extension library class <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>, it can be used by the extension library to initialize any variables it requires.
+If this method is defined in the extension library class <a href="/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>, it can be used by the extension library to initialize any variables it requires.
 
 There may or may not be a debugging session active when this function is called, so you should not assume that the extension can query session information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
+<a href="/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+<a href="/previous-versions/ff543981(v=vs.85)">ExtExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-uninitialize">Uninitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-uninitialize">Uninitialize</a>

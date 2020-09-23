@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a> function.
+The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a> function.
 
 ## -struct-fields
 
 ### -field pDevMode
 
-Spooler-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
+Spooler-supplied pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 ### -field pDatatype
 
@@ -84,9 +84,8 @@ Spooler-supplied pointer to a string representing the name of the printer to be 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>

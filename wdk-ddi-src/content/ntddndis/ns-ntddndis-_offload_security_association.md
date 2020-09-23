@@ -81,7 +81,7 @@ The Security Parameters Index (SPI) for the SA.
 ### -field IntegrityAlgo
 
 The integrity (authentication) algorithm for the SA, formatted as an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_algo_info">OFFLOAD_ALGO_INFO</a> structure.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_algo_info">OFFLOAD_ALGO_INFO</a> structure.
 
 ### -field ConfAlgo
 
@@ -95,20 +95,19 @@ This member is reserved.
 ## -remarks
 
 The OFFLOAD_SECURITY_ASSOCIATION structure is used with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+    <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a> and 
+    <a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
     OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a> OIDs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_algo_info">OFFLOAD_ALGO_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_algo_info">OFFLOAD_ALGO_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a>
+<a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
+<a href="/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-udpesp-sa">
    OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a>
-

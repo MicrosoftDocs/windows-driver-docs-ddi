@@ -60,7 +60,7 @@ This is a unique identifier for the secure element.
 
 ### -field eEventType
 
-This is an event type. For more information about the types, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ne-nfcsedev-_secure_element_event_type">SECURE_ELEMENT_EVENT_TYPE</a> enumeration topic.
+This is an event type. For more information about the types, see the <a href="/windows-hardware/drivers/ddi/nfcsedev/ne-nfcsedev-_secure_element_event_type">SECURE_ELEMENT_EVENT_TYPE</a> enumeration topic.
 
 ### -field cbEventData
 
@@ -75,9 +75,8 @@ This is the amount of bytes for the pbEventData array.
 
 #### - pbEventData[ANYSIZE_ARRAY]
 
-This is the event data buffer. When <b>eEventType</b> is <b>HceActivated</b> or <b>HceDeactivated</b>, this member contains a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_activation_payload">SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD</a> structure. The <b>bConnectionId</b> member in that structure is the same ID value that’s used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_data_packet">SECURE_ELEMENT_HCE_DATA_PACKET</a> to send and receive an HCE packet with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_hce_remote_send">IOCTL_NFCSE_HCE_REMOTE_SEND</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_hce_remote_recv">IOCTL_NFCSE_HCE_REMOTE_RECV</a>.
+This is the event data buffer. When <b>eEventType</b> is <b>HceActivated</b> or <b>HceDeactivated</b>, this member contains a pointer to a <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_activation_payload">SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD</a> structure. The <b>bConnectionId</b> member in that structure is the same ID value that’s used in <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_hce_data_packet">SECURE_ELEMENT_HCE_DATA_PACKET</a> to send and receive an HCE packet with <a href="/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_hce_remote_send">IOCTL_NFCSE_HCE_REMOTE_SEND</a> and <a href="/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_hce_remote_recv">IOCTL_NFCSE_HCE_REMOTE_RECV</a>.
 
 When <b>eEventType</b> is <b>ExternalReaderArrival</b> or <b>ExternalReaderDeparture</b>, <b>pbEventData</b> is empty and <b>cbEventData</b> is 0.
 
 When <b>eEventType</b> is <b>Transaction</b>, <b>pbEventData</b> contains a list of parameters that is encoded in BER-TLV fields. This event is mapped to EVT_TRANSACTION.
-

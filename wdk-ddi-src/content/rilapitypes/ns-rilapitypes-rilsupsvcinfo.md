@@ -43,7 +43,7 @@ api_name:
  - RILSUPSVCINFO
 ---
 
-# RILSUPSVCINFO structure
+# RILSUPSVCINFO structure (rilapitypes.h)
 
 
 ## -description

@@ -100,11 +100,10 @@ The data buffer containing *ProviderId*.
 
 ## -see-also
 
-[MB base stations information query support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support)
+[MB base stations information query support](/windows-hardware/drivers/network/mb-base-stations-information-query-support)
 
 [WWAN_BASE_STATIONS_INFO](ns-wwan-_wwan_base_stations_info.md)
 
 [WWAN_GSM_NMR](ns-wwan-_wwan_gsm_nmr.md)
 
 [WWAN_GSM_NMR_INFO](ns-wwan-_wwan_gsm_nmr_info.md)
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)">AddPort</a> WMI method to the HBA miniport driver.
+The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the <a href="/previous-versions/ff545022(v=vs.85)">AddPort</a> WMI method to the HBA miniport driver.
 
 ## -struct-fields
 
@@ -60,5 +60,4 @@ Contains a worldwide name that indicates the port whose events are to be reporte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)">AddPort</a>
-
+<a href="/previous-versions/ff545022(v=vs.85)">AddPort</a>

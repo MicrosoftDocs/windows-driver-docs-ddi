@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CM_PARTIAL_RESOURCE_LIST</b> structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a> structure.
+The <b>CM_PARTIAL_RESOURCE_LIST</b> structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a> structure.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ The number of elements contained in the <b>PartialDescriptors</b> array.
 
 ### -field PartialDescriptors
 
-The first element in an array of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structures.
+The first element in an array of one or more <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structures.
 
 ## -remarks
 
@@ -80,9 +80,8 @@ This structure is the header for an array of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_full_resource_descriptor">CM_FULL_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>

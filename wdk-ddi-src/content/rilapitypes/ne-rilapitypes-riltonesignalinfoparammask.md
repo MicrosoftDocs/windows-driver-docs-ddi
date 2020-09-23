@@ -41,7 +41,7 @@ api_name:
  - RILTONESIGNALINFOPARAMMASK
 ---
 
-# RILTONESIGNALINFOPARAMMASK enumeration
+# RILTONESIGNALINFOPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

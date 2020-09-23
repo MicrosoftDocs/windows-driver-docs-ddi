@@ -64,7 +64,7 @@ For internal use only. Do not use.
 
 This value should be specified for profile drivers. For more information about how this value is
      used, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a>.
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a>.
 
 ### -field ENUMERATOR_TYPE_DEVICE
 
@@ -76,16 +76,15 @@ For internal use only. Do not use.
 
 A value from this enumeration is returned as the 
     <b>EnumeratorType</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a> structure, which the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
+    <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a> structure, which the 
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
     IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> returns in its output buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
-

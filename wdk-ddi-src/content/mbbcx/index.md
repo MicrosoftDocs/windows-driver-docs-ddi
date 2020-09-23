@@ -9,9 +9,14 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
-product: 
-- Windows
 ms.custom: RS5
+product:
+ - Windows
+f1_keywords:
+ - mbbcx
+ - mbbcx/mbbcx
 ---
 
 # Mbbcx.h header
+
+

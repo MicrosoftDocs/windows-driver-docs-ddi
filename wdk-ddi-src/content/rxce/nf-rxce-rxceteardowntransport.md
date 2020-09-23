@@ -85,5 +85,4 @@ If a transport that has not been bound to is specified in the <i>pTransport</i> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcebuildtransport">RxCeBuildTransport</a>
-
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcebuildtransport">RxCeBuildTransport</a>

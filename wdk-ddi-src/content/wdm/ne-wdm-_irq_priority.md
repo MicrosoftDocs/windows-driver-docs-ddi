@@ -45,7 +45,7 @@ api_name:
  - IRQ_PRIORITY
 ---
 
-# _IRQ_PRIORITY enumeration
+# _IRQ_PRIORITY enumeration (wdm.h)
 
 
 ## -description
@@ -76,5 +76,4 @@ The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>

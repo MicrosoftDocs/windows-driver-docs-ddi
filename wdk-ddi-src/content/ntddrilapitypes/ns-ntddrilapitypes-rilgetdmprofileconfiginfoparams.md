@@ -43,7 +43,7 @@ api_name:
  - RILGETDMPROFILECONFIGINFOPARAMS
 ---
 
-# RILGETDMPROFILECONFIGINFOPARAMS structure
+# RILGETDMPROFILECONFIGINFOPARAMS structure (ntddrilapitypes.h)
 
 
 ## -description

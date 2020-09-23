@@ -41,7 +41,7 @@ api_name:
  - RILCONFPARTICIPANTSTATUSPARAMMASK
 ---
 
-# RILCONFPARTICIPANTSTATUSPARAMMASK enumeration
+# RILCONFPARTICIPANTSTATUSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description

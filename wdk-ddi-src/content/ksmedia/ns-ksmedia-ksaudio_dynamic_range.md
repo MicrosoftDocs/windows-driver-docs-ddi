@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The KSAUDIO_DYNAMIC_RANGE structure specifies the dynamic range of an audio stream. This structure is used to get or set the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-dynamic-range">KSPROPERTY_AUDIO_DYNAMIC_RANGE</a> property.
+The KSAUDIO_DYNAMIC_RANGE structure specifies the dynamic range of an audio stream. This structure is used to get or set the data value for the <a href="/windows-hardware/drivers/audio/ksproperty-audio-dynamic-range">KSPROPERTY_AUDIO_DYNAMIC_RANGE</a> property.
 
 ## -struct-fields
 
@@ -66,5 +66,4 @@ By default, both structure members are set to zero percent, which reproduces the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-dynamic-range">KSPROPERTY_AUDIO_DYNAMIC_RANGE</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-audio-dynamic-range">KSPROPERTY_AUDIO_DYNAMIC_RANGE</a>

@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_CST_STATES
 ---
 
-# _PEP_PPM_CST_STATES structure
+# _PEP_PPM_CST_STATES structure (pep_x.h)
 
 
 ## -description
@@ -60,17 +60,16 @@ The number of elements in the <b>IdleStates</b> array.
 
 ### -field IdleStates
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_state">PEP_PPM_CST_STATE</a> structures.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_state">PEP_PPM_CST_STATE</a> structures.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_states">PEP_NOTIFY_PPM_CST_STATES</a> notification. The contents of this structure are obtained from the _CST object that is located in the ACPI namespace for the processor.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_states">PEP_NOTIFY_PPM_CST_STATES</a> notification. The contents of this structure are obtained from the _CST object that is located in the ACPI namespace for the processor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_states">PEP_NOTIFY_PPM_CST_STATES</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_states">PEP_NOTIFY_PPM_CST_STATES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_state">PEP_PPM_CST_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_cst_state">PEP_PPM_CST_STATE</a>

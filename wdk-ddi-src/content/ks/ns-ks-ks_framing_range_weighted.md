@@ -66,5 +66,4 @@ Not currently supported. Drivers should set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_item">KS_FRAMING_ITEM</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_item">KS_FRAMING_ITEM</a>

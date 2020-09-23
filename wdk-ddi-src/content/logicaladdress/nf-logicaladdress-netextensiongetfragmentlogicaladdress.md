@@ -1,11 +1,9 @@
 ---
 UID: NF:logicaladdress.NetExtensionGetFragmentLogicalAddress
 title: NetExtensionGetFragmentLogicalAddress function (logicaladdress.h)
-author: windows-driver-content
 description: The NetExtensionGetFragmentLogicalAddress function retrieves the DMA logical address extension information for a net fragment.
 tech.root: netvista
 ms.assetid: 8ED86035-A4B3-47C5-A138-1164B5A58291
-ms.author: windowsdriverdev
 ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentLogicalAddress function"]
 ms.keywords: NetExtensionGetFragmentLogicalAddress
@@ -66,15 +64,14 @@ Returns a pointer to a [**NET_FRAGMENT_LOGICAL_ADDRESS**](../logicaladdresstypes
 
 ## -remarks
 
-NIC client drivers typically query offsets for fragment extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the DMA logical address offset from the queue context to pass to **NetExtensionGetFragmentLogicalAddress**.
+NIC client drivers typically query offsets for fragment extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the DMA logical address offset from the queue context to pass to **NetExtensionGetFragmentLogicalAddress**.
 
 This function is a wrapper function around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md).
 
 ## -see-also
 
-[Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues)
+[Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues)
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md)
-

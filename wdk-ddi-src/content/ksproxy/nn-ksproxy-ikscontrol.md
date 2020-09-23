@@ -42,16 +42,16 @@ api_name:
  - IKsControl
 ---
 
-# IKsControl interface
+# IKsControl interface (ksproxy.h)
 
 
 ## -description
 
-The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface.
+The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsControl</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -62,5 +62,4 @@ The IID for this interface is IID_IKsControl.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nn-ks-ikscontrol">IKsControl (AVStream COM Interface)</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nn-ks-ikscontrol">IKsControl (AVStream COM Interface)</a>

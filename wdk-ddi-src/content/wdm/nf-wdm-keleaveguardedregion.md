@@ -41,7 +41,7 @@ api_name:
  - KeLeaveGuardedRegion
 ---
 
-# KeLeaveGuardedRegion function
+# KeLeaveGuardedRegion function (wdm.h)
 
 
 ## -description
@@ -52,9 +52,8 @@ The <b>KeLeaveGuardedRegion</b> routine exits a guarded region entered by <b>KeE
 
 Guarded regions can be nested, so APCs are only reenabled once the thread exists the outermost guarded region.
 
-For more information about guarded regions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/critical-regions-and-guarded-regions">Critical Regions and Guarded Regions</a>.
+For more information about guarded regions, see <a href="/windows-hardware/drivers/kernel/critical-regions-and-guarded-regions">Critical Regions and Guarded Regions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keenterguardedregion">KeEnterGuardedRegion</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keenterguardedregion">KeEnterGuardedRegion</a>

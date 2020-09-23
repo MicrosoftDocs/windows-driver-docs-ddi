@@ -41,7 +41,7 @@ api_name:
  - RILC2KMRLPARAMMASK
 ---
 
-# RILC2KMRLPARAMMASK enumeration
+# RILC2KMRLPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
@@ -267,5 +267,4 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
-
+<a href="/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>

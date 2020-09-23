@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The TRACK_DATA structure is used in conjunction with [CDROM_TOC](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc) and [CDROM_TOC_SESSION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_session_data).
+The TRACK_DATA structure is used in conjunction with [CDROM_TOC](./ns-ntddcdrm-_cdrom_toc.md) and [CDROM_TOC_SESSION_DATA](./ns-ntddcdrm-_cdrom_toc_session_data.md).
 
 ## -struct-fields
 
@@ -84,10 +84,9 @@ This structure contains table of contents information for a track.
 
 ## -see-also
 
-[CDROM_TOC](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc)
+[CDROM_TOC](./ns-ntddcdrm-_cdrom_toc.md)
 
-[CDROM_TOC_SESSION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_toc_session_data)
+[CDROM_TOC_SESSION_DATA](./ns-ntddcdrm-_cdrom_toc_session_data.md)
 
-[IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex
+[IOCTL_CDROM_READ_TOC_EX](./ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md
 )
-

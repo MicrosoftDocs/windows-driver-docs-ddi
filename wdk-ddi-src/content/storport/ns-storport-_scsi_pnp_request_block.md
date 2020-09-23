@@ -45,7 +45,7 @@ api_name:
  - SCSI_PNP_REQUEST_BLOCK
 ---
 
-# _SCSI_PNP_REQUEST_BLOCK structure
+# _SCSI_PNP_REQUEST_BLOCK structure (storport.h)
 
 
 ## -description
@@ -54,7 +54,7 @@ The**SCSI_PNP_REQUEST_BLOCK** structure is a special version of a [**SCSI_REQUES
 
 > [!NOTE]
 >
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver) and [Storport miniport driver](/windows-hardware/drivers/storage/storport-miniport-drivers) models.
 
 ## -struct-fields
 
@@ -157,4 +157,3 @@ The Storport driver calls [**HwStorBuildIo**](nc-storport-hw_buildio.md) to pass
 [**SCSI_REQUEST_BLOCK**](../srb/ns-srb-_scsi_request_block.md)
 
 [**StorPortNotification**](nf-storport-storportnotification.md)
-

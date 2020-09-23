@@ -1,16 +1,14 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT
 title: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT function initializes a NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: c7a01b5d-7ad6-498e-bd6a-0d66eb9bd220
-ms.author: windowsdriverdev
 ms.date: 10/22/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -70,11 +68,10 @@ After calling this function to initialize the **NET_ADAPTER_POWER_OFFLOAD_ARP_CA
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_arp_capabilities.md)
 
 [**NetAdapterPowerOffloadSetArpCapabilities**](../netadapter/nf-netadapter-netadapterpoweroffloadsetarpcapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

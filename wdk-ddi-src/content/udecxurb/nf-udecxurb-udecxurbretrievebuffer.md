@@ -54,12 +54,12 @@ Retrieves the transfer buffer of an URB from the specified framework request obj
 ### -param Request 
 
 [in]
-A handle to a framework request object that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for the transfer.
+A handle to a framework request object that contains the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for the transfer.
 
 ### -param TransferBuffer 
 
 [out]
-A pointer to a buffer that receives the transfer buffer of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>.
+A pointer to a buffer that receives the transfer buffer of an <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>.
 
 ### -param Length 
 
@@ -68,7 +68,7 @@ A ULONG variable that receives  the length of the buffer pointer to by <i>Transf
 
 ## -returns
 
-The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
+The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code. 
 
 <table>
 <tr>
@@ -101,13 +101,12 @@ The transfer buffer MDL was not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
+<a href="/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxurb/nf-udecxurb-udecxurbsetbytescompleted">UdecxUrbSetBytesCompleted</a>
+<a href="/windows-hardware/drivers/ddi/udecxurb/nf-udecxurb-udecxurbsetbytescompleted">UdecxUrbSetBytesCompleted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
-
+<a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>

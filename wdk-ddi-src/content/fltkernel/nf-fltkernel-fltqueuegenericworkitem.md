@@ -53,7 +53,7 @@ api_name:
 ### -param FltWorkItem 
 
 [in]
-Pointer to the work item to be added to the work queue. The work item must have been allocated by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>.
+Pointer to the work item to be added to the work queue. The work item must have been allocated by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>.
 
 ### -param FltObject 
 
@@ -65,21 +65,16 @@ Opaque filter (PFLT_FILTER) or instance (PFLT_INSTANCE) pointer for the caller.
 [in]
 Pointer to a caller-supplied worker routine. This routine is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef VOID
+
+```
+typedef VOID
 (*PFLT_GENERIC_WORKITEM_ROUTINE) (
  _In_ PFLT_GENERIC_WORKITEM FltWorkItem,
  _In_ PVOID FltObject,
  _In_opt_ PVOID Context
-      );</pre>
-</td>
-</tr>
-</table></span></div>
+      );
+```
+
 
 
 
@@ -166,15 +161,14 @@ The minifilter driver is being unloaded. This is an error code.
 
 <b>FltQueueGenericWorkItem</b> inserts a work item that is not associated with a specific I/O operation into a system work queue. The specified <i>WorkerRoutine</i> callback routine is called in the context of a system thread, at IRQL PASSIVE_LEVEL. 
 
-To allocate a work item, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>. 
+To allocate a work item, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>. 
 
-To free the work item when it is no longer needed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreegenericworkitem">FltFreeGenericWorkItem</a>.
+To free the work item when it is no longer needed, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreegenericworkitem">FltFreeGenericWorkItem</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocategenericworkitem">FltAllocateGenericWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreegenericworkitem">FltFreeGenericWorkItem</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreegenericworkitem">FltFreeGenericWorkItem</a>

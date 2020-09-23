@@ -1,7 +1,6 @@
 ---
 UID: NF:hidport.HidNotifyPresence
 title: HidNotifyPresence function
-author: windows-driver-content
 description: The HidNotifyPresence function is reserved for the HID driver internal framework
 tech.root: 
 ms.date: 02/05/2019

@@ -41,7 +41,7 @@ api_name:
  - RILEXECUTORFOCUSSTATEPARAMMASK
 ---
 
-# RILEXECUTORFOCUSSTATEPARAMMASK enumeration
+# RILEXECUTORFOCUSSTATEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

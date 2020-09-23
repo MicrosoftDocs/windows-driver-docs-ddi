@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_INBOUND_ICMP_ERROR_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_INBOUND_ICMP_ERROR_V6 and FWPS_LAYER_INBOUND_ICMP_ERROR_V6_DISCARD 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layers</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layers</a>.
 
 ## -enum-fields
 
@@ -74,7 +74,7 @@ The remote IP address that is embedded in the ICMP packet.
 
 The local IP address type that is embedded in the ICMP packet. The possible condition values are
      defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_EMBEDDED_LOCAL_PORT
 
@@ -86,7 +86,7 @@ The remote transport protocol port number that is embedded in the ICMP packet.
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
      local IP address.
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ICMP_TYPE
@@ -165,7 +165,7 @@ The encapsulation method used by a tunnel if the
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a>.
+     <a href="/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a>.
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V6_ARRIVAL_INTERFACE_PROFILE_ID
 
@@ -202,13 +202,9 @@ The following macros in
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_INBOUND_ICMP_ERROR_V6 enumeration
     values:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 #if (NTDDI_VERSION >= NTDDI_WIN6SP1)   
 
 #define FWPS_FIELD_INBOUND_ICMP_ERROR_V6_LOCAL_INTERFACE_INDEX \
@@ -224,10 +220,9 @@ The following macros in
         FWPS_FIELD_INBOUND_ICMP_ERROR_V6_TUNNEL_TYPE
 
 #endif // (NTDDI_VERSION >= NTDDI_WIN6SP1)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 These macros are used to access the following IPV6 data fields:
 
 FWPS_FIELD_INBOUND_ICMP_ERROR_V6_LOCAL_INTERFACE_INDEX  
@@ -256,9 +251,8 @@ The encapsulation method used by a tunnel if the IfType member of the IP_ADAPTER
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
-
+<a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>

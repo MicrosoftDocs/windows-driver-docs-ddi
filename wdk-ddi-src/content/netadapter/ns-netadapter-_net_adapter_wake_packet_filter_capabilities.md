@@ -1,16 +1,14 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
 title: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure describes a net adapter's wake on LAN (WoL) capabilities for waking from a packet filter match.
 tech.root: netvista
 ms.assetid: 4c04cbbb-a926-4371-a717-bfe6bf0742c4
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -64,11 +62,10 @@ Call [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](../netadapter/nf-net
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_packet_filter__capabilities_init.md)
 
 [**NetAdapterWakeSetPacketFilterCapabilities**](../netadapter/nf-netadapter-netadapterwakesetpacketfiltercapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

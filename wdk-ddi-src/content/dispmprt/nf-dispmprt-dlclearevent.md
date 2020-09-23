@@ -1,11 +1,9 @@
 ---
 UID: NF:dispmprt.DlClearEvent
 title: DlClearEvent function
-author: windows-driver-content
 description: Sets an event to a not-signaled state.
 tech.root: display
 ms.assetid: c59129e0-c837-41b6-bb32-25e2eba1fa07
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlClearEvent function"]
 ms.keywords: DlClearEvent

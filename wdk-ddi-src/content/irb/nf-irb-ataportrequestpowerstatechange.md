@@ -47,7 +47,7 @@ api_name:
 ## -description
 
 The <b>AtaPortRequestPowerStateChange</b> routine requests a power state transition for the indicated device.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Specifies the logical unit number (LUN).
 
 ### -param DesiredPowerState
 
-Contains an enumerator value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a> that indicates the power state to which the indicated device should be changed.
+Contains an enumerator value of type <a href="/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a> that indicates the power state to which the indicated device should be changed.
 
 ## -remarks
 
@@ -76,5 +76,4 @@ The <b>AtaPortRequestPowerStateChange</b> routine is used when a miniport driver
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a>

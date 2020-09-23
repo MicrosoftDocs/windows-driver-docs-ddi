@@ -89,5 +89,4 @@ USBD_STATUS_SUCCESS, or appropriate USBD error code if validation failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
-
+<a href="/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>

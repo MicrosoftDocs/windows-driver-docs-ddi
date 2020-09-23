@@ -205,9 +205,8 @@ Reserved for future use. Should always be zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a>
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_direct">ATA_PASS_THROUGH_DIRECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_ex">ATA_PASS_THROUGH_EX</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_ata_pass_through_ex">ATA_PASS_THROUGH_EX</a>

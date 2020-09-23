@@ -56,7 +56,7 @@ The <b>D3DKMTUnlock2</b> function unlocks a list of allocations.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock2">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock2">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
 
 ## -returns
 
@@ -69,5 +69,4 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock2">D3DKMT_UNLOCK2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock2">D3DKMT_UNLOCK2</a>

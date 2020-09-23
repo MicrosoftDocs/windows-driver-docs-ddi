@@ -56,7 +56,7 @@ The SM_GetTargetMapping structure_OUT structure is used to receive output parame
 
 ### -field HBAStatus
 
-The status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
+The status of the operation. For a list of allowed values and their descriptions, see <a href="/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 ### -field TotalEntryCount
 
@@ -73,4 +73,3 @@ An array of structures of type SMHBA_SCSIENTRY that describes an HBA's bindings 
 ## -remarks
 
 The WMI tool suite generates a declaration of the SM_GetTargetMapping_OUT structure in <i>Hbapiwmi.h</i> when it compiles the MS_SM_TargetInformationMethods WMI class.
-

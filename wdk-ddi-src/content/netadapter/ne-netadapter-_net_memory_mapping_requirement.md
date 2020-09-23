@@ -8,7 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NET_MEMORY_MAPPING_REQUIREMENT enumeration"]
 ms.keywords: _NET_MEMORY_MAPPING_REQUIREMENT, NET_MEMORY_MAPPING_REQUIREMENT, *PNET_MEMORY_MAPPING_REQUIREMENT,
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

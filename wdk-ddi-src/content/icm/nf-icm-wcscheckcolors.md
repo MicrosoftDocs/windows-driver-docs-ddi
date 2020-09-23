@@ -11,7 +11,7 @@ ms.keywords: WcsCheckColors, WcsCheckColors function [Print Devices], colorfnc_a
 req.header: icm.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -25,20 +25,24 @@ req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mscms.dll
-api_name:
-- WcsCheckColors
 targetos: Windows
 req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mscms.dll
+api_name:
+ - WcsCheckColors
+f1_keywords:
+ - WcsCheckColors
+ - icm/WcsCheckColors
 ---
 
 # WcsCheckColors function
+
 
 ## -description
 
@@ -59,6 +63,7 @@ The number of elements in the array pointed to by *pInputData* and *paResult*.
 The number of channels per element in the array pointed to by *pInputData*.
 
 ### -param cdtInput 
+
 [in]
 The input COLORDATATYPE color data type.
 
@@ -67,6 +72,7 @@ The input COLORDATATYPE color data type.
 The buffer size of *pInputData*.
 
 ### -param pInputData 
+
 [in]
 A pointer to an array of input colors. Colors in this array correspond to the color space of the source profile.
 
@@ -79,3 +85,4 @@ A pointer to an array of *nColors* bytes that receives the results of the test.
 If the input and the output color data types are not compatible with the color transform, this function will convert the input color data as required.
 
 This function will fail if an ICC transform is used.
+

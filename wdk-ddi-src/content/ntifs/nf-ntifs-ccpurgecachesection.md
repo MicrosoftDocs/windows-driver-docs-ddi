@@ -87,21 +87,20 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccflushcache">CcFlushCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff539143(v=vs.85)">CcIsFileCached</a>
+<a href="/previous-versions/ff539143(v=vs.85)">CcIsFileCached</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539225">CcUninitializeCacheMap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccuninitializecachemap">CcUninitializeCacheMap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>

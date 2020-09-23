@@ -82,13 +82,12 @@ This function returns the process's placeholder compatibily mode (PHCM_xxx), or 
 
 ## -remarks
 
-This function is similar to [RtlQueryThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlquerythreadplaceholdercompatibilitymode), but performs at a process level instead of a thread level.
+This function is similar to [RtlQueryThreadPlaceholderCompatibilityMode](./nf-ntifs-rtlquerythreadplaceholdercompatibilitymode.md), but performs at a process level instead of a thread level.
 
 ## -see-also
 
-[RtlQueryThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlquerythreadplaceholdercompatibilitymode)
+[RtlQueryThreadPlaceholderCompatibilityMode](./nf-ntifs-rtlquerythreadplaceholdercompatibilitymode.md)
 
-[RtlSetProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetprocessplaceholdercompatibilitymode)
+[RtlSetProcessPlaceholderCompatibilityMode](./nf-ntifs-rtlsetprocessplaceholdercompatibilitymode.md)
 
-[RtlSetThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsetthreadplaceholdercompatibilitymode)
-
+[RtlSetThreadPlaceholderCompatibilityMode](./nf-ntifs-rtlsetthreadplaceholdercompatibilitymode.md)

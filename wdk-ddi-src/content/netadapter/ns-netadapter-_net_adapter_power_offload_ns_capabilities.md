@@ -1,16 +1,14 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES
 title: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure describes a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
 tech.root: netvista
 ms.assetid: f740c2ac-25b0-4d04-a524-e5670b53e903
-ms.author: windowsdriverdev
 ms.date: 10/22/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES, NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES,
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -69,11 +67,10 @@ Call [**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT**](../netadapter/nf-netad
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_power_offload_ns_capabilities_init.md)
 
 [**NetAdapterPowerOffloadSetNsCapabilities**](../netadapter/nf-netadapter-netadapterpoweroffloadsetnscapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

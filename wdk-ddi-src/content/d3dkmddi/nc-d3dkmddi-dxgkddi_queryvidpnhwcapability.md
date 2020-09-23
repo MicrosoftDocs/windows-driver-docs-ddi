@@ -54,11 +54,11 @@ The <i>DxgkDdiQueryVidPnHWCapability</i> function requests that the display mini
 
 ### -param i_hAdapter
 
-[in] A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 ### -param io_pVidPnHWCaps
 
-[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryvidpnhwcapability">DXGKARG_QUERYVIDPNHWCAPABILITY</a> structure that describes the hardware capabilities of a functional VidPN.
+[in/out] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryvidpnhwcapability">DXGKARG_QUERYVIDPNHWCAPABILITY</a> structure that describes the hardware capabilities of a functional VidPN.
 
 ## -returns
 
@@ -66,11 +66,10 @@ The <i>DxgkDdiQueryVidPnHWCapability</i> function requests that the display mini
 
 ## -remarks
 
-For more information on how to process this function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/querying-vidpnhardware-capabilities">Querying VidPN Hardware Capabilities</a>.
+For more information on how to process this function, see <a href="/windows-hardware/drivers/display/querying-vidpnhardware-capabilities">Querying VidPN Hardware Capabilities</a>.
 
 <i>DxgkDdiQueryInterface</i> should be made pageable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryvidpnhwcapability">DXGKARG_QUERYVIDPNHWCAPABILITY</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryvidpnhwcapability">DXGKARG_QUERYVIDPNHWCAPABILITY</a>

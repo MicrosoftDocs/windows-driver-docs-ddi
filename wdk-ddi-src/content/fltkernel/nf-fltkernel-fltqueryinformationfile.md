@@ -73,7 +73,7 @@ Size, in bytes, of the *FileInformation* buffer.
 ### -param FileInformationClass 
 
 [in]
-A [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) value that specifies the type of file information to be returned in the *FileInformation* buffer.
+A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that specifies the type of file information to be returned in the *FileInformation* buffer.
 
 ### -param LengthReturned 
 
@@ -108,23 +108,22 @@ A minifilter driver calls **FltQueryInformationFile** to retrieve information fo
 
 **FltQueryInformationFile** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by a particular file system. 
 
-Callers of **FltQueryInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with APCs enabled](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **FltQueryInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
 **NOTE:**
 Do not call this routine with a non-NULL top level IRP value, as this can cause a system deadlock.
 
 ## -see-also
 
-[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class)
+[FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md)
 
 
-[FltQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformationfile)
-
-
-
-[FltSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile)
+[FltQueryVolumeInformationFile](./nf-fltkernel-fltqueryvolumeinformationfile.md)
 
 
 
-[ZwQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[FltSetInformationFile](./nf-fltkernel-fltsetinformationfile.md)
 
+
+
+[ZwQueryInformationFile](../ntifs/nf-ntifs-ntqueryinformationfile.md)

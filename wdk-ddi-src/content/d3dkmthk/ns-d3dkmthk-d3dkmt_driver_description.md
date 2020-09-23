@@ -1,11 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DRIVER_DESCRIPTION
 title: D3DKMT_DRIVER_DESCRIPTION
-author: windows-driver-content
 description: Describes the kernel mode display driver.
 tech.root: display
 ms.assetid: a86d4140-7543-4a9a-9421-9c5b38565326
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3DKMT_DRIVER_DESCRIPTION structure"]
 ms.keywords: D3DKMT_DRIVER_DESCRIPTION, D3DKMT_DRIVER_DESCRIPTION,

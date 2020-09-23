@@ -70,13 +70,12 @@ When the demand-load bus enumerator object's PDO reference count is 0, it become
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/ns-swenum-_bus_interface_swenum">BUS_INTERFACE_SWENUM</a>
+<a href="/windows-hardware/drivers/ddi/swenum/ns-swenum-_bus_interface_swenum">BUS_INTERFACE_SWENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksquerysoftwarebusinterface">KsQuerySoftwareBusInterface</a>
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksquerysoftwarebusinterface">KsQuerySoftwareBusInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksreferencesoftwarebusobject">KsReferenceSoftwareBusObject</a>
-
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksreferencesoftwarebusobject">KsReferenceSoftwareBusObject</a>

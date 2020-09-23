@@ -1,11 +1,9 @@
 ---
 UID: NF:storport.StorPortInitializeEvent
 title: StorPortInitializeEvent function
-author: windows-driver-content
 description: StorPortInitializeEvent initializes an event object as a synchronization or notification type event, and sets it to a signaled or not-signaled state.
 tech.root: storage
 ms.assetid: fb3aa321-9b9c-4138-8180-76bb8ed07748
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortInitializeEvent
@@ -33,9 +31,10 @@ f1_keywords:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
- - 
+ - Storport.lib
+ - Storport.dll
 api_name:
  - StorPortInitializeEvent
 product:
@@ -75,11 +74,11 @@ Boolean value that specifies the initial state of the event.
 
 A miniport can call **StorPortInitializeEvent** to initialize an event object as a synchronization or notification-type event, and set the event object to a signaled or not-signaled state.
 
-See [**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent) for more details.
+See [**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md) for more details.
 
 ## -see-also
 
-[**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md)
 
 [**STOR_EVENT**](ns-storport-stor_event.md)
 
@@ -88,4 +87,3 @@ See [**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/
 [**StorPortSetEvent**](nf-storport-storportsetevent.md)
 
 [**StoPortWaitForSingleObject**](nf-storport-storportwaitforsingleobject.md)
-

@@ -54,7 +54,7 @@ A profile driver uses the _BRB_L2CA_UNREGISTER_SERVER structure to unregister it
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field BtAddress
@@ -64,31 +64,30 @@ The address of the remote device.
 ### -field ServerHandle
 
 The handle of the L2CAP server to unregister, as returned earlier from a previous 
-     <a href="https://docs.microsoft.com/previous-versions/ff536618(v=vs.85)">
+     <a href="/previous-versions/ff536618(v=vs.85)">
      BRB_L2CA_REGISTER_SERVER</a> request.
 
 ### -field Psm
 
 The Protocol/Service Multiplexer (PSM) that was specified in a previous 
-     <a href="https://docs.microsoft.com/previous-versions/ff536618(v=vs.85)">
+     <a href="/previous-versions/ff536618(v=vs.85)">
      BRB_L2CA_REGISTER_SERVER</a> request.
 
 ## -remarks
 
 To unregister itself as a L2CAP server, a profile driver should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">
     BRB_L2CA_UNREGISTER_SERVER</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">BRB_L2CA_UNREGISTER_SERVER</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">_BRB_L2CA_REGISTER_SERVER</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_register_server">_BRB_L2CA_REGISTER_SERVER</a>

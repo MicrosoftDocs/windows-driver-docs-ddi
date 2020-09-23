@@ -64,13 +64,13 @@ The size, in bytes, of each element of the array that <i>QueryInfo</i> points to
 ### -param QueryInfo 
 
 [out, optional]
-A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_extended_info">AUX_MODULE_EXTENDED_INFO</a> structures that receives information about loaded image modules. If this pointer is <b>NULL</b>, <b>AuxKlibQueryModuleInformation</b> writes the required buffer size to the location that <i>BufferSize</i> points to.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a> or <a href="/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_extended_info">AUX_MODULE_EXTENDED_INFO</a> structures that receives information about loaded image modules. If this pointer is <b>NULL</b>, <b>AuxKlibQueryModuleInformation</b> writes the required buffer size to the location that <i>BufferSize</i> points to.
 
 ## -returns
 
 <b>AuxKlibQueryModuleInformation</b> returns STATUS_SUCCESS if the operation succeeds. <b>AuxKlibQueryModuleInformation</b> returns STATUS_BUFFER_TOO_SMALL if the <i>QueryInfo</i> pointer is not <b>NULL</b> and the driver-supplied <i>BufferSize</i> value is too small.
 
-The routine might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+The routine might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 ## -remarks
 
@@ -82,7 +82,7 @@ Call <b>AuxKlibQueryModuleInformation</b> with a <b>NULL</b> <i>QueryInfo</i> po
 
 </li>
 <li>
-Call a memory allocation routine, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>, to allocate a buffer for the array. 
+Call a memory allocation routine, such as <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>, to allocate a buffer for the array. 
 
 </li>
 <li>
@@ -92,22 +92,18 @@ Call <b>AuxKlibQueryModuleInformation</b> again. This time, the <i>QueryInfo</i>
 </ol>
 The number of loaded modules can change between the first and second calls to <b>AuxKlibQueryModuleInformation</b>. As a result, the second call to <b>AuxKlibQueryModuleInformation</b> might return STATUS_BUFFER_TOO_SMALL even if the driver allocates a buffer that is based on the size that was obtained from the first call.
 
-If a call to <b>AuxKlibQueryModuleInformation</b> succeeds, the routine writes an <b>ImageBase</b> value to each element in the <i>QueryInfo</i> array. Each <b>ImageBase</b> value is a pointer to the base of a loaded driver image. This pointer remains valid only while the driver remains loaded. The caller should assume that the driver can be unloaded at any time unless the caller can guarantee otherwise. For example, a driver might be unloaded between a call to <b>AuxKlibQueryModuleInformation</b> that obtains a pointer to the driver image and a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetimageexportdirectory">AuxKlibGetImageExportDirectory</a> that uses this pointer.
+If a call to <b>AuxKlibQueryModuleInformation</b> succeeds, the routine writes an <b>ImageBase</b> value to each element in the <i>QueryInfo</i> array. Each <b>ImageBase</b> value is a pointer to the base of a loaded driver image. This pointer remains valid only while the driver remains loaded. The caller should assume that the driver can be unloaded at any time unless the caller can guarantee otherwise. For example, a driver might be unloaded between a call to <b>AuxKlibQueryModuleInformation</b> that obtains a pointer to the driver image and a call to <a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetimageexportdirectory">AuxKlibGetImageExportDirectory</a> that uses this pointer.
 
-Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibQueryModuleInformation</b>.
+Drivers must call <a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibQueryModuleInformation</b>.
 
 
 #### Examples
 
 The following code example illustrates the steps that are listed in the preceding Remarks section.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+
+```
+NTSTATUS  status;
 ULONG  modulesSize;
 AUX_MODULE_EXTENDED_INFO*  modules;
 ULONG  numberOfModules;
@@ -158,28 +154,26 @@ status = AuxKlibQueryModuleInformation(
                                        );
 if (!NT_SUCCESS(status)) {
     break;
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a>
+<a href="/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_extended_info">AUX_MODULE_EXTENDED_INFO</a>
+<a href="/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_extended_info">AUX_MODULE_EXTENDED_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetimageexportdirectory">AuxKlibGetImageExportDirectory</a>
+<a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetimageexportdirectory">AuxKlibGetImageExportDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a>
+<a href="/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>

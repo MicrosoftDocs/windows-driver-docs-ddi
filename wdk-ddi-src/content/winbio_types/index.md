@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: biometric
+f1_keywords:
+ - winbio_types
+ - winbio_types/winbio_types
 ---
 
 # Winbio_Types.h header
@@ -16,7 +19,7 @@ tech.root: biometric
 
 ## -description
 
-
 This header is used by biometric. For more information, see:
 
 - [Biometric](../_biometric/index.md)
+

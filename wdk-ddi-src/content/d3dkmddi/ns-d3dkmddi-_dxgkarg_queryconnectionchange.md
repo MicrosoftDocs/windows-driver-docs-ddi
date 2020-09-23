@@ -48,11 +48,10 @@ api_name:
 
 ## -description
 
-Used to hold the arguments for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryconnectionchange">DXGKDDI_QUERYCONNECTIONCHANGE</a>.
+Used to hold the arguments for <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryconnectionchange">DXGKDDI_QUERYCONNECTIONCHANGE</a>.
 
 ## -struct-fields
 
 ### -field ConnectionChange
 
 [out] Buffer into which the oldest available change is copied by driver.
-

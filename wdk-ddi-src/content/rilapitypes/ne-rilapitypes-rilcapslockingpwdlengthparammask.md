@@ -41,7 +41,7 @@ api_name:
  - RILCAPSLOCKINGPWDLENGTHPARAMMASK
 ---
 
-# RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration
+# RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

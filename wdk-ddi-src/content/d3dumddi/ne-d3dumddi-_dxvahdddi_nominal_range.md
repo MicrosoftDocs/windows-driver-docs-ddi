@@ -66,5 +66,4 @@ The <i>full luminance range</i>, or <i>extended range</i>, of 0 to 255, inclusiv
 
 ## -remarks
 
-For more information on luminance range, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.
-
+For more information on luminance range, see <a href="/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.

@@ -41,7 +41,7 @@ product:
  - Windows
 ---
 
-# CVEC3D::CVEC3D
+# CVEC3D::CVEC3D (math3dhelper.h)
 
 
 ## -description

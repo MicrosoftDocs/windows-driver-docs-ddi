@@ -43,7 +43,7 @@ api_name:
  - RILSETEXECUTORRFSTATEPARAMS
 ---
 
-# RILSETEXECUTORRFSTATEPARAMS structure
+# RILSETEXECUTORRFSTATEPARAMS structure (rilapitypes.h)
 
 
 ## -description

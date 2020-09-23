@@ -52,15 +52,14 @@ api_name:
 
 The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure specifies an audio signal processing mode.
 
-This structure is used to by mode aware drivers with  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> which contain a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structures that reference a KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE. The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE AttributeHeader.Attribute member is set to KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE, and the KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE SignalProcessingMode member is set to AUDIO_SIGNALPROCESSINGMODE_DEFAULT or other processing modes that the driver supports. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-data-formats-and-data-ranges">KS Data Formats and Data Ranges</a>.
+This structure is used to by mode aware drivers with  <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> which contain a  <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> of <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structures that reference a KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE. The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE AttributeHeader.Attribute member is set to KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE, and the KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE SignalProcessingMode member is set to AUDIO_SIGNALPROCESSINGMODE_DEFAULT or other processing modes that the driver supports. For more information, see <a href="/windows-hardware/drivers/stream/ks-data-formats-and-data-ranges">KS Data Formats and Data Ranges</a>.
 
 ## -struct-fields
 
 ### -field AttributeHeader
 
-The AttributeHeader member specifies the attribute header using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> data type.
+The AttributeHeader member specifies the attribute header using a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> data type.
 
 ### -field SignalProcessingMode
 
-The SignalProcessingMode member specifies the unique GUIDs of the SignalProcessingMode. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-signal-processing-modes">Audio Signal Processing Modes</a>.
-
+The SignalProcessingMode member specifies the unique GUIDs of the SignalProcessingMode. For more information, see <a href="/windows-hardware/drivers/audio/audio-signal-processing-modes">Audio Signal Processing Modes</a>.

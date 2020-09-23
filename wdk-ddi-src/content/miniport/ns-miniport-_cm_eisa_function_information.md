@@ -45,18 +45,18 @@ api_name:
  - CM_EISA_FUNCTION_INFORMATION
 ---
 
-# _CM_EISA_FUNCTION_INFORMATION structure
+# _CM_EISA_FUNCTION_INFORMATION structure (miniport.h)
 
 
 ## -description
 
-The <b>CM_EISA_FUNCTION_INFORMATION</b> structure defines detailed EISA configuration information returned by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a> for the input <i>BusDataType </i><b>EisaConfiguration</b>, or by <b>HalGetBusDataByOffset</b> for the input <i>BusDataType </i><b>EisaConfiguration</b> and the <i>Offset</i> zero, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
+The <b>CM_EISA_FUNCTION_INFORMATION</b> structure defines detailed EISA configuration information returned by <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a> for the input <i>BusDataType </i><b>EisaConfiguration</b>, or by <b>HalGetBusDataByOffset</b> for the input <i>BusDataType </i><b>EisaConfiguration</b> and the <i>Offset</i> zero, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
 
 ## -struct-fields
 
 ### -field CompressedId
 
-The EISA compressed identification of the device at this slot. The value is identical to the <b>CompressedId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> structure.
+The EISA compressed identification of the device at this slot. The value is identical to the <b>CompressedId</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> structure.
 
 ### -field IdSlotFlags1
 
@@ -80,7 +80,7 @@ The EISA selections for the device.
 
 ### -field FunctionFlags
 
-Indicates which of the members has available information. Callers can use the following system-defined masks to determine whether a particular type of configuration information can be or has been returned by <b>HalGetBusData</b> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>:
+Indicates which of the members has available information. Callers can use the following system-defined masks to determine whether a particular type of configuration information can be or has been returned by <b>HalGetBusData</b> or <a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>:
 
 EISA_FUNCTION_ENABLED
 
@@ -120,76 +120,56 @@ Specifies the type of device.
 
 Describes the EISA device memory configuration information, defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _EISA_MEMORY_CONFIGURATION {
+
+```
+typedef struct _EISA_MEMORY_CONFIGURATION {
     EISA_MEMORY_TYPE ConfigurationByte;
     UCHAR DataSize;
     USHORT AddressLowWord;
     UCHAR AddressHighByte;
     USHORT MemorySize;
-} EISA_MEMORY_CONFIGURATION, *PEISA_MEMORY_CONFIGURATION;</pre>
-</td>
-</tr>
-</table></span></div>
+} EISA_MEMORY_CONFIGURATION, *PEISA_MEMORY_CONFIGURATION;
+```
+
 
 ### -field EisaIrq
 
 Describes the EISA interrupt configuration information, defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _EISA_IRQ_CONFIGURATION {
+
+```
+typedef struct _EISA_IRQ_CONFIGURATION {
     EISA_IRQ_DESCRIPTOR ConfigurationByte;
     UCHAR Reserved;
-} EISA_IRQ_CONFIGURATION, *PEISA_IRQ_CONFIGURATION;</pre>
-</td>
-</tr>
-</table></span></div>
+} EISA_IRQ_CONFIGURATION, *PEISA_IRQ_CONFIGURATION;
+```
+
 
 ### -field EisaDma
 
 Describes the EISA DMA configuration information, defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _EISA_DMA_CONFIGURATION {
+
+```
+typedef struct _EISA_DMA_CONFIGURATION {
     DMA_CONFIGURATION_BYTE0 ConfigurationByte0;
     DMA_CONFIGURATION_BYTE1 ConfigurationByte1;
-} EISA_DMA_CONFIGURATION, *PEISA_DMA_CONFIGURATION;</pre>
-</td>
-</tr>
-</table></span></div>
+} EISA_DMA_CONFIGURATION, *PEISA_DMA_CONFIGURATION;
+```
+
 
 ### -field EisaPort
 
 Describes the EISA device port configuration information, defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _EISA_PORT_CONFIGURATION {
+
+```
+typedef struct _EISA_PORT_CONFIGURATION {
     EISA_PORT_DESCRIPTOR Configuration;
     USHORT PortAddress;
-} EISA_PORT_CONFIGURATION, *PEISA_PORT_CONFIGURATION;</pre>
-</td>
-</tr>
-</table></span></div>
+} EISA_PORT_CONFIGURATION, *PEISA_PORT_CONFIGURATION;
+```
+
 
 ### -field InitializationData
 
@@ -197,17 +177,16 @@ Vendor-supplied, device-specific initialization data, if any.
 
 ## -remarks
 
-The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b> in <b>CM_EISA_FUNCTION_INFORMATION</b> and/or in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> header immediately preceding it is read-only.
+The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b> in <b>CM_EISA_FUNCTION_INFORMATION</b> and/or in the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> header immediately preceding it is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)">HalGetBusDataByOffset</a>

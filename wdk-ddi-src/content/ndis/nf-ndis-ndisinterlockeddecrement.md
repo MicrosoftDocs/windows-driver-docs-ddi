@@ -73,5 +73,4 @@ This macro is a wrapper around the [**InterlockedDecrement**](../wdm/nf-wdm-inte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedincrement">NdisInterlockedIncrement</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinterlockedincrement">NdisInterlockedIncrement</a>

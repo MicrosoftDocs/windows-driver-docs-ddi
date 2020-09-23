@@ -64,9 +64,8 @@ Specifies the height of the video port, in pixels.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-scalefactor">KSPROPERTY_VPCONFIG_SCALEFACTOR</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-scalefactor">KSPROPERTY_VPCONFIG_SCALEFACTOR</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-scalefactor">KSPROPERTY_VPCONFIG_SCALEFACTOR</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-scalefactor">KSPROPERTY_VPCONFIG_SCALEFACTOR</a>

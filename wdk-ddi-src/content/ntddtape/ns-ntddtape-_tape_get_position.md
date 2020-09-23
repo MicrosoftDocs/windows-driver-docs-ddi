@@ -45,12 +45,12 @@ api_name:
  - TAPE_GET_POSITION
 ---
 
-# _TAPE_GET_POSITION structure
+# _TAPE_GET_POSITION structure (ntddtape.h)
 
 
 ## -description
 
-The TAPE_GET_POSITION structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_position">IOCTL_TAPE_GET_POSITION</a> request to retrieve the current absolute, logical, or pseudological partition and offset position on the tape.
+The TAPE_GET_POSITION structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_position">IOCTL_TAPE_GET_POSITION</a> request to retrieve the current absolute, logical, or pseudological partition and offset position on the tape.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ Indicates the number of bytes from the beginning of the partition to the current
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_position">IOCTL_TAPE_GET_POSITION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_position">IOCTL_TAPE_GET_POSITION</a>

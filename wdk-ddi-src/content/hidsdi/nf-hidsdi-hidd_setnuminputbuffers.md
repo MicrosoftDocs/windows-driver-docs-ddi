@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>HidD_SetNumInputBuffers</b> routine sets the maximum number of input reports that the HID class driver ring buffer can hold for a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
+The <b>HidD_SetNumInputBuffers</b> routine sets the maximum number of input reports that the HID class driver ring buffer can hold for a specified <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
 
 ## -parameters
 
@@ -62,21 +62,20 @@ Specifies the maximum number of buffers that the HID class driver should maintai
 
 ## -returns
 
-<b>HidD_SetNumInputBuffers</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
+<b>HidD_SetNumInputBuffers</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 ## -remarks
 
-Only user-mode applications can call <b>HidD_SetNumInputBuffers</b>. Kernel-mode drivers must use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_set_num_device_input_buffers">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a> request.
+Only user-mode applications can call <b>HidD_SetNumInputBuffers</b>. Kernel-mode drivers must use an <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_set_num_device_input_buffers">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a> request.
 
 If <b>HidD_SetNumInputBuffers</b> returns <b>FALSE</b>, and the Microsoft Win32 <b>GetLastError</b> function indicates that an invalid parameter was supplied, the value of <i>NumberBuffers</i> is invalid. The HID class driver requires a minimum of two input buffers. On Windows 2000, the maximum number of input buffers that the HID class driver supports is 200, and on Windows XP and later, the maximum number of input buffers that the HID class driver supports is 512. The default number of input buffers is 32.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getnuminputbuffers">HidD_GetNumInputBuffers</a>
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getnuminputbuffers">HidD_GetNumInputBuffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_set_num_device_input_buffers">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>
-
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_set_num_device_input_buffers">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>

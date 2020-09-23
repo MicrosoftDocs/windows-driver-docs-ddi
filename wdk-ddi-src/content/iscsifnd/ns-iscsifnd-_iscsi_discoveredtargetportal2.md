@@ -156,7 +156,7 @@ A variable-length array of characters that contains the encryption key that is a
 
 ## -remarks
 
-The ISCSI_DiscoveredTargetPortal2 structure is a superset of the information that is provided by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportal">ISCSI_DiscoveredTargetPortal</a> structure, which only defines the target portal address. In addition to the network address of the target portal, the ISCSI_DiscoveredTargetPortal2 structure contains information about the target portal's security characteristics.
+The ISCSI_DiscoveredTargetPortal2 structure is a superset of the information that is provided by the <a href="/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportal">ISCSI_DiscoveredTargetPortal</a> structure, which only defines the target portal address. In addition to the network address of the target portal, the ISCSI_DiscoveredTargetPortal2 structure contains information about the target portal's security characteristics.
 
 If the iSNS server does not assign a security bitmap to the target portal, the operating system associates the bitmap in the <b>DefaultSecurityBitmap</b> registry value with the portal. The <b>DefaultSecurityBitmap</b> registry value is located under the following registry key: <b>HKLM\Software\Microsoft\Windows NT\Current Version\ISCSI\Discovery Values</b>. 
 
@@ -164,17 +164,16 @@ The default security bitmap is useful in cases where the target portal is config
 
 In general, management applications should use the iSCSI client PSKey command to configure the security bitmap for a target portal. But if there are a large number of portals that have the same security bitmap, the default security bitmap is a good way to automatically assign the same bitmap to all portals.
 
-The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTargetPortal2 structure when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a> in <i>Discover.mof</i>.
+The WMI tool suite automatically generates a declaration of the ISCSI_DiscoveredTargetPortal2 structure when it compiles the <a href="/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a> in <i>Discover.mof</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportal">ISCSI_DiscoveredTargetPortal</a>
+<a href="/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtargetportal">ISCSI_DiscoveredTargetPortal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a>
+<a href="/windows-hardware/drivers/storage/iscsi-discoveredtargetportal-wmi-class">ISCSI_DiscoveredTargetPortal WMI Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_targetportal">ISCSI_TargetPortal</a>

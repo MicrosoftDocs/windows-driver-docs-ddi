@@ -8,7 +8,7 @@ ms.date: 08/01/2018
 keywords: ["NetAdapterInitSetDatapathCallbacks function"]
 ms.keywords: NetAdapterInitSetDatapathCallbacks
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -64,15 +64,14 @@ Call this function after calling [**NetAdapterInitAllocate**](nf-netadapter-neta
 
 If the driver encounters an error after the NETADAPTER_INIT allocation succeeds but before [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md) succeeds, it must call [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md) to deallocate the NETADAPTER_INIT object.
 
-For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization).
+For a code example of creating a NETADAPTER, see [Device initialization](/windows-hardware/drivers/netcx/device-initialization).
 
 ## -see-also
 
-[Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)
+[Device initialization](/windows-hardware/drivers/netcx/device-initialization)
 
 [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md)
 
 [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md)
 
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
-

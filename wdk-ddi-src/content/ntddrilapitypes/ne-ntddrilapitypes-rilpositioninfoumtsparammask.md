@@ -41,7 +41,7 @@ api_name:
  - RILPOSITIONINFOUMTSPARAMMASK
 ---
 
-# RILPOSITIONINFOUMTSPARAMMASK enumeration
+# RILPOSITIONINFOUMTSPARAMMASK enumeration (ntddrilapitypes.h)
 
 
 ## -description
@@ -504,5 +504,4 @@ No
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
-
+<a href="/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>

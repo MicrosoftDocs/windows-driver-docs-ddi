@@ -86,13 +86,12 @@ Indicates the subunit is unable to respond with either <b>AVC_RESPONSE_ACCEPTED<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ne-avc-_tagavc_function">AVC_FUNCTION</a>
+<a href="/windows-hardware/drivers/ddi/avc/ne-avc-_tagavc_function">AVC_FUNCTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-command">AVC_FUNCTION_COMMAND</a>
+<a href="/windows-hardware/drivers/stream/avc-function-command">AVC_FUNCTION_COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-send-response">AVC_FUNCTION_SEND_RESPONSE</a>
-
+<a href="/windows-hardware/drivers/stream/avc-function-send-response">AVC_FUNCTION_SEND_RESPONSE</a>

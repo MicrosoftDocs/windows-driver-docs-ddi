@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtchecksharedresourceaccess">D3DKMTCheckSharedResourceAccess</a> function uses to determine if a process can access a shared resource.
+The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtchecksharedresourceaccess">D3DKMTCheckSharedResourceAccess</a> function uses to determine if a process can access a shared resource.
 
 ## -struct-fields
 
@@ -62,5 +62,4 @@ The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtchecksharedresourceaccess">D3DKMTCheckSharedResourceAccess</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtchecksharedresourceaccess">D3DKMTCheckSharedResourceAccess</a>

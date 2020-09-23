@@ -91,9 +91,8 @@ If the operation succeeds, the function should return <b>TRUE</b>. If the operat
 
 Print processors are required to export an <b>EnumPrintProcessorDatatypes</b> function. The local print provider calls the function during initialization. The function is also called when an application calls the spooler's version of the same function.
 
-The function must return an array of DATATYPES_INFO_1 structures, with each structure pointing to a string that represents a data type. The actual strings must also be included in the buffer, after the structure array. See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/sample-print-processor">Sample Print Processor</a> for an example.
+The function must return an array of DATATYPES_INFO_1 structures, with each structure pointing to a string that represents a data type. The actual strings must also be included in the buffer, after the structure array. See <a href="/windows-hardware/drivers/print/sample-print-processor">Sample Print Processor</a> for an example.
 
 The function should return the number of DATATYPES_INFO_1 structures returned (that is, the number of data types supported) in the location pointed to by <i>pcReturned</i>.
 
 The function should return the minimum required buffer size in the location pointed to by <i>pcbNeeded</i>. If the supplied buffer is too small, the function should specify a value for <i>pcbNeeded</i>, set the error code to ERROR_INSUFFICIENT_BUFFER, and return <b>FALSE</b>.
-

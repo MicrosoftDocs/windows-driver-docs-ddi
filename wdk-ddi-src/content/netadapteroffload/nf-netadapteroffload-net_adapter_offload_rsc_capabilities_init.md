@@ -1,16 +1,14 @@
 ---
 UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function (netadapteroffload.h)
-author: windows-driver-content
 description: The NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function initializes a NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 1df09a2f-d816-407a-8759-142f569f0f57
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 req.header: netadapteroffload.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -82,9 +80,8 @@ The [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapte
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md)
 
 [**NetAdapterOffloadSetRscCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md)
-

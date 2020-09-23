@@ -53,11 +53,11 @@ Do not use.
 
 ### -input-buffer
 
-The input buffer contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ns-usbfnioctl-_usbfn_power_filter_state">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.
+The input buffer contains a <a href="/windows-hardware/drivers/ddi/usbfnioctl/ns-usbfnioctl-_usbfn_power_filter_state">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.
 
 ### -input-buffer-length
 
-The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ns-usbfnioctl-_usbfn_power_filter_state">USBFN_POWER_FILTER_STATE</a> structure.
+The size of a <a href="/windows-hardware/drivers/ddi/usbfnioctl/ns-usbfnioctl-_usbfn_power_filter_state">USBFN_POWER_FILTER_STATE</a> structure.
 
 ### -output-buffer
 
@@ -77,5 +77,4 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).

@@ -60,11 +60,11 @@ Specifies the size, in bytes, of this structure.
 
 ### -field pIWiaItemRoot
 
-Points to an [IWiaItem2](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2) interface that represents the valid root item in the application item tree.
+Points to an [IWiaItem2](/windows/win32/wia/-wia-iwiaitem2) interface that represents the valid root item in the application item tree.
 
 ### -field dwFlags
 
-Specifies the flags passed to [IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2-devicedlg) and [IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiadevmgr2-getimagedlg) by the calling program. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in header file *Wiadef.h*).
+Specifies the flags passed to [IWiaItem2::DeviceDlg](/windows/win32/wia/-wia-iwiaitem2-devicedlg) and [IWiaDevMgr2::GetImageDlg](/windows/win32/wia/-wia-iwiadevmgr2-getimagedlg) by the calling program. The possible values for this member are WIA_DEVICE_DIALOG_SINGLE_IMAGE and WIA_DEVICE_DIALOG_USE_COMMON_UI (defined in header file *Wiadef.h*).
 
 ### -field hwndParent
 
@@ -76,7 +76,7 @@ A string of type **BSTR** that contains the name of the destination folder to wh
 
 ### -field bstrFilename
 
-A string of type **BSTR** that contains the file name template to be used for files transferred from WIA items to the destination folder designated by **bstrFolderName**. An arbitrary number of unique file names can be created by appending additional characters to the file name template. For more information about file name templates, see [PathMakeUniqueName](https://docs.microsoft.com/windows/win32/api/shlobj_core/nf-shlobj_core-pathmakeuniquename) and [PathYetAnotherMakeUniqueName](https://docs.microsoft.com/windows/win32/api/shlobj_core/nf-shlobj_core-pathyetanothermakeuniquename).
+A string of type **BSTR** that contains the file name template to be used for files transferred from WIA items to the destination folder designated by **bstrFolderName**. An arbitrary number of unique file names can be created by appending additional characters to the file name template. For more information about file name templates, see [PathMakeUniqueName](/windows/win32/api/shlobj_core/nf-shlobj_core-pathmakeuniquename) and [PathYetAnotherMakeUniqueName](/windows/win32/api/shlobj_core/nf-shlobj_core-pathyetanothermakeuniquename).
 
 ### -field lNumFiles
 
@@ -92,35 +92,34 @@ Pointer to the **IWiaItem2** interface of the WIA item that transfers data to th
 
 ## -remarks
 
-The DEVICEDIALOGDATA2 structure is used by the [IWiaUIExtension2::DeviceDialog](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545053(v=vs.85)) method.
+The DEVICEDIALOGDATA2 structure is used by the [IWiaUIExtension2::DeviceDialog](/previous-versions/windows/hardware/drivers/ff545053(v=vs.85)) method.
 
-The **DeviceDialog** method must allocate the **BSTR** pointer array specified in *pbstrFilePaths* by calling the [CoTaskMemAlloc](https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) function, and it must allocate each string pointed to by the array by calling the [SysAllocString](https://docs.microsoft.com/windows/win32/api/oleauto/nf-oleauto-sysallocstring) function. The calling program is responsible for freeing the storage for the pointer array and strings.
+The **DeviceDialog** method must allocate the **BSTR** pointer array specified in *pbstrFilePaths* by calling the [CoTaskMemAlloc](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) function, and it must allocate each string pointed to by the array by calling the [SysAllocString](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) function. The calling program is responsible for freeing the storage for the pointer array and strings.
 
-To retain a reference to an **IWiaItem2** interface, the **DeviceDialog** method must call the [IUnknown::AddRef](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) method on the interface before returning from the call.
+To retain a reference to an **IWiaItem2** interface, the **DeviceDialog** method must call the [IUnknown::AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) method on the interface before returning from the call.
 
-To access information about an **IWiaItem2** object's properties, the **DeviceDialog** method must query the object to obtain its [IWiaPropertyStorage](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface. To transfer data from an **IWiaItem2** object, the **DeviceDialog** method must query the object to obtain its [IWiaTransfer](https://docs.microsoft.com/windows/win32/wia/-wia-iwiatransfer) interface.
+To access information about an **IWiaItem2** object's properties, the **DeviceDialog** method must query the object to obtain its [IWiaPropertyStorage](/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage) interface. To transfer data from an **IWiaItem2** object, the **DeviceDialog** method must query the object to obtain its [IWiaTransfer](/windows/win32/wia/-wia-iwiatransfer) interface.
 
 ## -see-also
 
-[CoTaskMemAlloc](https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc)
+[CoTaskMemAlloc](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc)
 
-[IUnknown::AddRef](https://docs.microsoft.com/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)
+[IUnknown::AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)
 
-[IWiaDevMgr2::GetImageDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiadevmgr2-getimagedlg)
+[IWiaDevMgr2::GetImageDlg](/windows/win32/wia/-wia-iwiadevmgr2-getimagedlg)
 
-[IWiaItem2](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2)
+[IWiaItem2](/windows/win32/wia/-wia-iwiaitem2)
 
-[IWiaItem2::DeviceDlg](https://docs.microsoft.com/windows/win32/wia/-wia-iwiaitem2-devicedlg)
+[IWiaItem2::DeviceDlg](/windows/win32/wia/-wia-iwiaitem2-devicedlg)
 
-[IWiaPropertyStorage](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage)
+[IWiaPropertyStorage](/windows/win32/api/wia_xp/nn-wia_xp-iwiapropertystorage)
 
-[IWiaTransfer](https://docs.microsoft.com/windows/win32/wia/-wia-iwiatransfer)
+[IWiaTransfer](/windows/win32/wia/-wia-iwiatransfer)
 
-[IWiaUIExtension2::DeviceDialog](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545053(v=vs.85))
+[IWiaUIExtension2::DeviceDialog](/previous-versions/windows/hardware/drivers/ff545053(v=vs.85))
 
-[PathMakeUniqueName](https://docs.microsoft.com/windows/win32/api/shlobj_core/nf-shlobj_core-pathmakeuniquename)
+[PathMakeUniqueName](/windows/win32/api/shlobj_core/nf-shlobj_core-pathmakeuniquename)
 
-[PathYetAnotherMakeUniqueName Function](https://docs.microsoft.com/windows/win32/api/shlobj_core/nf-shlobj_core-pathyetanothermakeuniquename)
+[PathYetAnotherMakeUniqueName Function](/windows/win32/api/shlobj_core/nf-shlobj_core-pathyetanothermakeuniquename)
 
-[SysAllocString](https://docs.microsoft.com/windows/win32/api/oleauto/nf-oleauto-sysallocstring)
-
+[SysAllocString](/windows/win32/api/oleauto/nf-oleauto-sysallocstring)

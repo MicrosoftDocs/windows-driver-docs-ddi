@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-SECURE_ELEMENT_TECH_ROUTING_INFO is  a member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table_entry">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>.
+SECURE_ELEMENT_TECH_ROUTING_INFO is  a member of <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_routing_table_entry">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>.
 
 ## -struct-fields
 
@@ -61,4 +61,3 @@ Secure element unique identifier returned by enumeration DDI.
 ### -field eRfTechType
 
 NFC Forum RF technology type.
-

@@ -41,7 +41,7 @@ api_name:
  - WIAS_TRACE
 ---
 
-# WIAS_TRACE macro
+# WIAS_TRACE macro (wiautil.h)
 
 
 ## -description
@@ -70,9 +70,8 @@ This code snippet was taken from*Wiadriver.cpp*, which is included with the WDK.
 
 ## -see-also
 
-[WIAS_ASSERT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_assert)
+[WIAS_ASSERT](../wiamdef/nf-wiamdef-wias_assert.md)
 
-[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error)
+[WIAS_ERROR](../wiamdef/nf-wiamdef-wias_error.md)
 
-[WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_hresult)
-
+[WIAS_HRESULT](../wiamdef/nf-wiamdef-wias_hresult.md)

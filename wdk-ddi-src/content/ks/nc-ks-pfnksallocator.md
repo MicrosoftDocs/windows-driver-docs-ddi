@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Minidrivers can optionally supply a callback function of type <b>PFNKSALLOCATOR</b> as a parameter in calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksenableeventwithallocator">KsEnableEventWithAllocator</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandlerwithallocator">KsPropertyHandlerWithAllocator</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator">KsMethodHandlerWithAllocator</a>.
+Minidrivers can optionally supply a callback function of type <b>PFNKSALLOCATOR</b> as a parameter in calls to <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksenableeventwithallocator">KsEnableEventWithAllocator</a>, <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandlerwithallocator">KsPropertyHandlerWithAllocator</a>, and <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator">KsMethodHandlerWithAllocator</a>.
 
 ## -parameters
 
@@ -74,4 +74,3 @@ Returns STATUS_SUCCESS if the request is handled.  Otherwise returns an appropri
 Typically, pool memory is used for buffer allocations. This enables filters that pass event, property, and method queries directly to hardware to avoid extra data copies by allowing them to provide the buffer into which such data is placed by the standard handling functions. So, a filter may have memory blocks that have already been mapped to an adapter from which buffer allocations can occur.
 
 Since this memory presumably is not typical pool-allocated memory, the filter must perform buffer cleanup on completion of the Irp. This means that for input operations from usermode that are not synchronous, the allocator must allocate an MDL for the destination buffer, probe and lock it, and retrieve a system address. This must be done in order to enable copying of the return data to the original buffer.
-

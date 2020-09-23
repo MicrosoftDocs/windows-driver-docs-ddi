@@ -42,7 +42,7 @@ api_name:
  - RILUICCLOCKSTATEPARAMMASK
 ---
 
-# RILUICCLOCKSTATEPARAMMASK enumeration
+# RILUICCLOCKSTATEPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

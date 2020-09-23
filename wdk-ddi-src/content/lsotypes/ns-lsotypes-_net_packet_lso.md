@@ -1,11 +1,9 @@
 ---
 UID: NS:lsotypes._NET_PACKET_LSO
 title: NET_PACKET_LSO (lsotypes.h)
-author: windows-driver-content
 description: The NET_PACKET_LSO structure contains large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: dbdc4d6d-06fb-45aa-8792-1bef0538b0d1
-ms.author: windowsdriverdev
 ms.date: 09/23/2019
 keywords: ["NET_PACKET_LSO structure"]
 ms.keywords: NET_PACKET_LSO, NET_PACKET_LSO,
@@ -73,5 +71,4 @@ Client drivers can obtain this structure for a packet by calling [**NetExtension
 
 ## -see-also
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
-
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

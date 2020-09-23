@@ -54,7 +54,7 @@ The **RtlAllocateHeap** routine allocates a block of memory from a heap.
 ### -param HeapHandle 
 
 [in]
-Handle for a private heap from which the memory will be allocated. This parameter is a handle returned from a successful call to [**RtlCreateHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap)    .
+Handle for a private heap from which the memory will be allocated. This parameter is a handle returned from a successful call to [**RtlCreateHeap**](./nf-ntifs-rtlcreateheap.md)    .
 
 ### -param Flags 
 
@@ -70,7 +70,7 @@ Controllable aspects of heap allocation. Specifying any of these values will ove
 ### -param Size 
 
 [in]
-Number of bytes to be allocated. If the heap, specified by the *HeapHandle* parameter, is a nongrowable heap, *Size* must be less than or equal to the heap's virtual memory threshold. (For more information, see the **VirtualMemoryThreshold** member of the *Parameters* parameter to [**RtlCreateHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap).)
+Number of bytes to be allocated. If the heap, specified by the *HeapHandle* parameter, is a nongrowable heap, *Size* must be less than or equal to the heap's virtual memory threshold. (For more information, see the **VirtualMemoryThreshold** member of the *Parameters* parameter to [**RtlCreateHeap**](./nf-ntifs-rtlcreateheap.md).)
 
 ## -returns
 
@@ -93,13 +93,12 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 - The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.
 
 > [!NOTE]
-> To guard against an access violation, use structured exception handling to protect any code that writes to or reads from a heap. For more information about structured exception handling with memory accesses, see [Handling Exceptions](https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-exceptions).
+> To guard against an access violation, use structured exception handling to protect any code that writes to or reads from a heap. For more information about structured exception handling with memory accesses, see [Handling Exceptions](/windows-hardware/drivers/kernel/handling-exceptions).
 
 ## -see-also
 
-[**RtlCreateHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap)
+[**RtlCreateHeap**](./nf-ntifs-rtlcreateheap.md)
 
-[**RtlDestroyHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldestroyheap)
+[**RtlDestroyHeap**](./nf-ntifs-rtldestroyheap.md)
 
-[**RtlFreeHeap**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfreeheap)
-
+[**RtlFreeHeap**](./nf-ntifs-rtlfreeheap.md)

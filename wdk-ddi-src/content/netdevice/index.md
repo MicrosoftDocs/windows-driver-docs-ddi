@@ -10,6 +10,11 @@ ms.technology: windows-devices
 ms.topic: portal
 tech.root: netvista
 ms.custom: RS5
+f1_keywords:
+ - netdevice
+ - netdevice/netdevice
 ---
 
 # Netconfiguration.h header
+
+

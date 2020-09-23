@@ -58,7 +58,7 @@ Physical address of the root page table being invalidated.
 
 ### -field hProcess
 
-KMD process handle,  returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>, that the page table belongs to.
+KMD process handle,  returned from <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>, that the page table belongs to.
 
 ### -field StartVirtualAddress
 
@@ -67,4 +67,3 @@ The start of the affected GPU virtual address range.
 ### -field EndVirtualAddress
 
 The end of the affected GPU virtual address range. When both <b>StartVirtualAddress</b> and <b>EndVirtualAddress</b> are zero, the entire GPU virtual address range is affected.
-

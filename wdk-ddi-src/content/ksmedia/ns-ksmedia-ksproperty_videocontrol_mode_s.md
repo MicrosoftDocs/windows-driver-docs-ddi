@@ -54,7 +54,7 @@ The KSPROPERTY_VIDEOCONTROL_MODE_S structure describes video-control modes for a
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field StreamIndex
 
@@ -62,25 +62,24 @@ Contains the zero-based index of the stream.
 
 ### -field Mode
 
-Specifies the video control mode. For a Set request, this member contains the requested video control mode. For a Get request, the minidriver should return the current video control mode of the device. This member can be one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_videocontrolflags">KS_VideoControlFlags</a> enumeration values.
+Specifies the video control mode. For a Set request, this member contains the requested video control mode. For a Get request, the minidriver should return the current video control mode of the device. This member can be one of the <a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_videocontrolflags">KS_VideoControlFlags</a> enumeration values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videocontrol_caps_s">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_videocontrol_caps_s">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-videocontrol-mode">KSPROPERTY_VIDEOCONTROL_MODE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-videocontrol-mode">KSPROPERTY_VIDEOCONTROL_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_videocontrolflags">KS_VideoControlFlags</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_videocontrolflags">KS_VideoControlFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-videocontrol">PROPSETID_VIDCAP_VIDEOCONTROL</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-vidcap-videocontrol">PROPSETID_VIDCAP_VIDEOCONTROL</a>

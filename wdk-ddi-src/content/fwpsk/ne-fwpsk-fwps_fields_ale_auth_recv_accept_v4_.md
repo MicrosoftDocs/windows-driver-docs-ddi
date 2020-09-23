@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4 and FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4_DISCARD 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layers</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layers</a>.
 
 ## -enum-fields
 
@@ -69,7 +69,7 @@ The local IP address.
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_PORT
 
@@ -97,14 +97,14 @@ The identifier of the remote machine.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
      local IP address.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_FLAGS
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a>.
+     <a href="/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a>.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_SIO_FIREWALL_SYSTEM_PORT
 
@@ -252,7 +252,7 @@ The current profile identifier (network category) of the network interface. The 
 The reason for reauthorizing a previously authorized connection. For more information about
      reasons for reauthorization, see 
      the Filtering Condition Reauthorization Flag of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a> topic.
+     <a href="/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a> topic.
      
 
 <div class="alert"><b>Note</b>  Supported starting with Windows 7.</div>
@@ -347,20 +347,16 @@ typedef enum FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4_ {
 
 In Windows Server 2008, Windows Vista SP1, and later versions of Windows, when an outbound packet is
     indicated to this layer during a reauthorization call to the callout filter's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function, all arrival network
+    <a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function, all arrival network
     interface related fields are set to FWP_EMPTY.
 
 The following macros in 
     <i>Fwpsk.h</i> are defined with FWPS_FIELDS_ALE_AUTH_RECV_ACCEPT_V4 enumeration
     values:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 #define FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ICMP_TYPE \
         FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_PORT
 
@@ -386,10 +382,9 @@ The following macros in
         FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_SIO_FIREWALL_SYSTEM_PORT
 #endif // (NTDDI_VERSION >= NTDDI_WIN7)
 #endif // (NTDDI_VERSION >= NTDDI_WIN6SP1)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 These macros are used to access the following IPV4 data fields:
 
 FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ICMP_TYPE  
@@ -430,9 +425,8 @@ The IP_PROTECTION_LEVEL property associated with the socket.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
-
+<a href="/windows/win32/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>

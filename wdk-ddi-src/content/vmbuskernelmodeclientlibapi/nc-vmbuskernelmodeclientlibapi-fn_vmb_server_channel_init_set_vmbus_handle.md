@@ -83,7 +83,7 @@ NTSTATUS FnVmbServerChannelInitSetVmbusHandle
 
 The VMBus instance was previously initialized for the specific guest virtual machine. Therefore, invoking this function identifies the child virtual machine to which this channel is offered.
 
-Obtain a value for the <i>VmbusHandle</i> parameter by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle">VmbConvertVmbusHandleToKernelHandle</a> function.
+Obtain a value for the <i>VmbusHandle</i> parameter by using the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle">VmbConvertVmbusHandleToKernelHandle</a> function.
 
 This function can be called while running in any thread context.
 
@@ -94,5 +94,4 @@ This function can be called while running in any thread context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle">VmbConvertVmbusHandleToKernelHandle</a>
-
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle">VmbConvertVmbusHandleToKernelHandle</a>

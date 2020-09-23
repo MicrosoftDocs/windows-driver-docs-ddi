@@ -134,9 +134,8 @@ Specifies the largest, free contiguous amount of sample memory.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-output-capabilities">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-wave-output-capabilities">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-output-capabilities">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-wave-output-capabilities">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a>

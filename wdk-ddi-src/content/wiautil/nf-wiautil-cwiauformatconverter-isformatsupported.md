@@ -60,9 +60,8 @@ The method returns <b>TRUE</b> if the format indicated by the format GUID is sup
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540363(v=vs.85)">CWiauFormatConverter</a>
+<a href="/previous-versions/windows/hardware/drivers/ff540363(v=vs.85)">CWiauFormatConverter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-converttobmp">CWiauFormatConverter::ConvertToBmp</a>
-
+<a href="/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-converttobmp">CWiauFormatConverter::ConvertToBmp</a>

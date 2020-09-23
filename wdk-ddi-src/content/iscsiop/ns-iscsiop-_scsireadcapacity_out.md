@@ -45,18 +45,18 @@ api_name:
  - ScsiReadCapacity_OUT
 ---
 
-# _ScsiReadCapacity_OUT structure
+# _ScsiReadCapacity_OUT structure (iscsiop.h)
 
 
 ## -description
 
-The ScsiReadCapacity_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a> method.
+The ScsiReadCapacity_OUT structure holds the output data for the <a href="/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a> method.
 
 ## -struct-fields
 
 ### -field Status
 
-The status of the <b>ScsiReadCapacity</b> method. This member will contain 0 if the READ CAPACITY operation succeeds and ISDSC_SCSI_REQUEST_FAILED if the operation fails. If the READ CAPACITY operation fails, <b>ScsiStatus</b> will contain the SCSI status of the SCSI command. SCSI status qualifiers are documented in the <i>SCSI Primary Commands</i> specification. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
+The status of the <b>ScsiReadCapacity</b> method. This member will contain 0 if the READ CAPACITY operation succeeds and ISDSC_SCSI_REQUEST_FAILED if the operation fails. If the READ CAPACITY operation fails, <b>ScsiStatus</b> will contain the SCSI status of the SCSI command. SCSI status qualifiers are documented in the <i>SCSI Primary Commands</i> specification. For a list of status qualifiers, see <a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 ### -field ResponseBufferSize
 
@@ -80,13 +80,12 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
+<a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a>
+<a href="/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_scsireadcapacity_in">ScsiReadCapacity_IN</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_scsireadcapacity_in">ScsiReadCapacity_IN</a>

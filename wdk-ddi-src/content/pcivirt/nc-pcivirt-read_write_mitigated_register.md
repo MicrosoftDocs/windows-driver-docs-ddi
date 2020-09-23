@@ -65,7 +65,7 @@ A zero-based index of the VF to which this read/write operation applies.
 [in]
 
 
-                A boolean that indicates whether to perform a read or a write operation. TRUE indicates read, FALSE otherwise.
+A boolean that indicates whether to perform a read or a write operation. TRUE indicates read, FALSE otherwise.
 
 ### -param BarIndex 
 
@@ -82,7 +82,7 @@ The offset in number of bytes into the BAR at which this access begins.
 [in]
 
 
-                The length in bytes of this read or write operation.
+The length in bytes of this read or write operation.
 
 ### -param Data 
 
@@ -91,7 +91,7 @@ A pointer to a buffer that contains the data to read or write.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -prototype
 
@@ -116,5 +116,4 @@ typedef READ_WRITE_MITIGATED_REGISTER *PREAD_WRITE_MITIGATED_REGISTER;
 
 This callback function is implemented by the physical function (PF) driver. It is invoked  when the system wants to read or write from a mitigable register.
 
-The PF driver registers its implementation by setting the <b>ReadWriteMitigatedRegister</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_mitigable_device_interface">MITIGABLE_DEVICE_INTERFACE</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
-
+The PF driver registers its implementation by setting the <b>ReadWriteMitigatedRegister</b> member of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_mitigable_device_interface">MITIGABLE_DEVICE_INTERFACE</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.

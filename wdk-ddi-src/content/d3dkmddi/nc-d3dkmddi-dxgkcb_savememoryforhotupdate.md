@@ -1,11 +1,9 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_SAVEMEMORYFORHOTUPDATE
 title: DXGKCB_SAVEMEMORYFORHOTUPDATE
-author: windows-driver-content
 description: Implemented by the client driver to save adapter memory to support driver hot update.
 tech.root: display
 ms.assetid: 5ce7e415-c589-4d8e-b53a-d4bc8625f9c1
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKCB_SAVEMEMORYFORHOTUPDATE callback function"]
 req.header: d3dkmddi.h

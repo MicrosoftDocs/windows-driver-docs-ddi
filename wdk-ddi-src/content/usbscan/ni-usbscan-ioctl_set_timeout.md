@@ -52,7 +52,7 @@ Sets the time-out value for USB bulk IN, bulk OUT, or interrupt pipe access.
 
 ### -input-buffer
 
-Pointer to a [USBSCAN_TIMEOUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_timeout) structure.
+Pointer to a [USBSCAN_TIMEOUT](./ns-usbscan-_usbscan_timeout.md) structure.
 
 ### -input-buffer-length
 
@@ -72,18 +72,17 @@ Zero.
 
 ### -status-block
 
-**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values) code.
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](/windows-hardware/drivers/kernel/using-ntstatus-values) code.
 
 ## -remarks
 
 ### DeviceIoControl Parameters</h3>
 
-When the **DeviceloControl** function is called with the IOCTL_SET_TIMEOUT I/O control code, the caller must specify the address of a [USBSCAN_TIMEOUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_timeout) structure as the function's *lpInBuffer* parameter.
+When the **DeviceloControl** function is called with the IOCTL_SET_TIMEOUT I/O control code, the caller must specify the address of a [USBSCAN_TIMEOUT](./ns-usbscan-_usbscan_timeout.md) structure as the function's *lpInBuffer* parameter.
 
 Using the USBSCAN_TIMEOUT structure's contents, the kernel-mode driver resets the time-out value for each type of operation: bulk IN read, bulk OUT write, or interrupt.
 
-For more information, see [Accessing Kernel-Mode Drivers for Still Image Devices](https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices).
+For more information, see [Accessing Kernel-Mode Drivers for Still Image Devices](/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices).
 
 > [!NOTE]
 > The default time-out value is 120 seconds. The maximum time-out value is 214 seconds. Values greater than 214 seconds will cause transfer time-outs.
-

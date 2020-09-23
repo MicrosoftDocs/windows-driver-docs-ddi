@@ -52,31 +52,31 @@ Describes the capabilities of a Microsoft Direct3D 11 video processor.
 
 ### -field DeviceCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_device_caps">D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_device_caps">D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS</a> enumeration.
 
 ### -field FeatureCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_feature_caps">D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_feature_caps">D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS</a> enumeration.
 
 ### -field FilterCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_filter_caps">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_filter_caps">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS</a> enumeration.
 
 ### -field InputFormatCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_caps">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_caps">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS</a> enumeration.
 
 ### -field AutoStreamCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_auto_stream_caps">D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_auto_stream_caps">D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a> enumeration.
 
 ### -field StereoCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_caps">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_caps">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS</a> enumeration.
 
 ### -field RateConversionCapsCount
 
-The number of frame-rate conversion capabilities. To enumerate the frame-rate conversion capabilities, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps">GetVideoProcessorRateConversionCaps</a> function.
+The number of frame-rate conversion capabilities. To enumerate the frame-rate conversion capabilities, call the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps">GetVideoProcessorRateConversionCaps</a> function.
 
 ### -field MaxInputStreams
 
@@ -94,29 +94,28 @@ The <b>MaxStreamStates</b> member gives the maximum number of stream states that
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_auto_stream_caps">D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_auto_stream_caps">D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_device_caps">D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_device_caps">D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_feature_caps">D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_feature_caps">D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_filter_caps">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_filter_caps">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_caps">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_caps">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_caps">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_caps">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps">GetVideoProcessorRateConversionCaps</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorrateconversioncaps">GetVideoProcessorRateConversionCaps</a>

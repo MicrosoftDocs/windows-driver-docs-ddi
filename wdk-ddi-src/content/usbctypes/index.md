@@ -10,6 +10,9 @@ ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 ms.custom: RS5
+f1_keywords:
+ - usbctypes
+ - usbctypes/usbctypes
 ---
 
 # Usbctypes.h header
@@ -23,3 +26,4 @@ This header is the structure and enumeration declarations for client drivers of 
 
 For more information, see:
 - [Universal Serial Bus (USB)](../_usbref/index.md)
+

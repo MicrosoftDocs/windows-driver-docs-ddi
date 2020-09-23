@@ -43,7 +43,7 @@ api_name:
  - RILUICCCARDINFO
 ---
 
-# RILUICCCARDINFO structure
+# RILUICCCARDINFO structure (ntddrilapitypes.h)
 
 
 ## -description

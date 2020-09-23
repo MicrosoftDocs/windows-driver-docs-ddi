@@ -56,9 +56,8 @@ The SM_GetLUNStatistics_IN structure is used to provide input parameters to the 
 
 ### -field Lunit
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a> that contains information that is used by the operating system to identify a SCSI logical unit.
+A structure of type <a href="/previous-versions/ff557191(v=vs.85)">HBA_ScsiId</a> that contains information that is used by the operating system to identify a SCSI logical unit.
 
 ## -remarks
 
 When the WMI tool suite compiles the MS_SM_TargetInformationMethods WMI class, it generates a declaration of the SM_GetLUNStatistics_IN structure in <i>Hbapiwmi.h</i>.
-

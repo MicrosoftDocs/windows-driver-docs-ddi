@@ -43,7 +43,7 @@ api_name:
  - GPIO_PIN_CONFIG_TYPE
 ---
 
-# _GPIO_PIN_CONFIG_TYPE enumeration
+# _GPIO_PIN_CONFIG_TYPE enumeration (pep_x.h)
 
 
 ## -description

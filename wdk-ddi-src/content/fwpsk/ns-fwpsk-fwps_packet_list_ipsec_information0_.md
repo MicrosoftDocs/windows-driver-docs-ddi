@@ -50,20 +50,20 @@ api_name:
 
 The <b>FWPS_PACKET_LIST_IPSEC_INFORMATION0</b> structure defines IPsec information associated with a packet
   list.
-<div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_IPSEC_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_IPSEC_INFORMATION</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_IPSEC_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_IPSEC_INFORMATION</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
 ### -field inbound
 
 An 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_">FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
+      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_">FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
       with inbound packet data.
 
 ### -field outbound
 
 An 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_outbound_ipsec_information0_">FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
+      <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_outbound_ipsec_information0_">FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a> structure that contains IPsec information associated
       with outbound packet data.
 
 ### -field flags
@@ -74,20 +74,19 @@ A value that contains a generic representation of the IPsec information associat
 ## -remarks
 
 A FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure is included as a member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">
+    <a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">
     FWPS_PACKET_LIST_INFORMATION0</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_">
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_">
    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_outbound_ipsec_information0_">
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_outbound_ipsec_information0_">
    FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a>
-

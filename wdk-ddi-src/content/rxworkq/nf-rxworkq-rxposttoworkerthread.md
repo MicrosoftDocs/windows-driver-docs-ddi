@@ -127,7 +127,7 @@ When an operation is going to be repeatedly dispatched, time is conserved by all
 
 </li>
 <li>
-For an infrequent operation, you can conserve space by dynamically allocating and freeing memory for the work queue item when it is needed. In this case, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxdispatchtoworkerthread">RxDispatchToWorkerThread</a> routine. 
+For an infrequent operation, you can conserve space by dynamically allocating and freeing memory for the work queue item when it is needed. In this case, use the <a href="/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxdispatchtoworkerthread">RxDispatchToWorkerThread</a> routine. 
 
 </li>
 </ul>
@@ -135,17 +135,16 @@ The <b>RxPostToWorkerThread</b> routine invokes a routine in the context of a wo
 
 The current implementation of the <b>RxPostToWorkerThread </b>routine queues work onto the same processor from which the call originated. 
 
-If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a> routine is called with details of the error. If the <b>RxPostToWorkerThread </b>routine fails and WMI is enabled in the kernel, details of the error will be logged with WMI.
+If the <b>RxPostToWorkerThread </b>routine fails on a debug build, the <a href="/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a> routine is called with details of the error. If the <b>RxPostToWorkerThread </b>routine fails and WMI is enabled in the kernel, details of the error will be logged with WMI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxdispatchtoworkerthread">RxDispatchToWorkerThread</a>
+<a href="/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxdispatchtoworkerthread">RxDispatchToWorkerThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxspindownmrxdispatcher">RxSpinDownMRxDispatcher</a>
+<a href="/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxspindownmrxdispatcher">RxSpinDownMRxDispatcher</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a>
-
+<a href="/windows-hardware/drivers/ddi/rxlog/nf-rxlog-_rxlog">_RxLog</a>

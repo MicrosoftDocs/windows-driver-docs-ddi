@@ -45,13 +45,13 @@ api_name:
  - PEP_ACPI_RESOURCE_FLAGS
 ---
 
-# _PEP_ACPI_RESOURCE_FLAGS structure
+# _PEP_ACPI_RESOURCE_FLAGS structure (pepfx.h)
 
 
 ## -description
 
 > [!NOTE]
-> Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word slave. Microsoft's [Style Guide for Bias-Free Communications](https://docs.microsoft.com/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. When this word is removed from the software, we will correct this document to be in alignment.
+> Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word slave. Microsoft's [Style Guide for Bias-Free Communications](/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. When this word is removed from the software, we will correct this document to be in alignment.
 
 
 The <b>PEP_ACPI_RESOURCE_FLAGS</b> structure contains flags describing an ACPI resource.
@@ -93,4 +93,3 @@ When set, indicates that this device is in shared mode.
 ### -field DUMMYSTRUCTNAME.Reserved
 
 This member is reserved and should be set to zero.
-

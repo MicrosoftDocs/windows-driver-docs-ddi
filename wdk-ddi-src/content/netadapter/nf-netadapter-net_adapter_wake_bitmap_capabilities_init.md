@@ -1,16 +1,14 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT
 title: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function initializes a NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 8e7670bc-a6b2-4f1b-ad10-6f16cd0bd7f9
-ms.author: windowsdriverdev
 ms.date: 10/24/2019
 keywords: ["NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT
 req.header: netadapter.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -66,11 +64,10 @@ This function zeroes out the memory for the **NET_ADAPTER_WAKE_BITMAP_CAPABILITI
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_bitmap_capabilities.md)
 
 [**NetAdapterWakeSetBitmapCapabilities**](../netadapter/nf-netadapter-netadapterwakesetbitmapcapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

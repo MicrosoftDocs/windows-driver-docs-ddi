@@ -53,12 +53,12 @@ The <i>HwVidBugcheckCallback</i> function enables the miniport driver to append 
 ### -param HwDeviceExtension 
 
 [in]
-Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
+Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
 ### -param BugcheckCode 
 
 [in]
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check code</a>.
+Specifies a <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check code</a>.
 
 ### -param Buffer 
 
@@ -76,7 +76,7 @@ This function is available in Windows XP SP1 and later.
 
 This function is called when a bug check occurs. The miniport driver can collect data that is to be appended to the dump file and write this data to the buffer. The driver must not write more than <i>BufferSize</i> bytes to the buffer.
 
-A video miniport driver registers the <i>HwVidBugcheckCallback</i> function by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportregisterbugcheckcallback">VideoPortRegisterBugcheckCallback</a> function. The <b>VideoPortRegisterBugcheckCallback</b> function exposes this video miniport driver-supplied callback to the system.
+A video miniport driver registers the <i>HwVidBugcheckCallback</i> function by calling the <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportregisterbugcheckcallback">VideoPortRegisterBugcheckCallback</a> function. The <b>VideoPortRegisterBugcheckCallback</b> function exposes this video miniport driver-supplied callback to the system.
 
 To facilitate system recovery after a bug check, any registers that are accessed by this function must not impede the ability of the hardware to transfer to fallback mode, regardless of the state of the device. Also, the function <i>must</i> return control to its caller.
 
@@ -86,5 +86,4 @@ The function is called at raised IRQL and must not attempt to access pageable co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportregisterbugcheckcallback">VideoPortRegisterBugcheckCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportregisterbugcheckcallback">VideoPortRegisterBugcheckCallback</a>

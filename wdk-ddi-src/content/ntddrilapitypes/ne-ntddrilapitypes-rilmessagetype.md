@@ -41,7 +41,7 @@ api_name:
  - RILMESSAGETYPE
 ---
 
-# RILMESSAGETYPE enumeration
+# RILMESSAGETYPE enumeration (ntddrilapitypes.h)
 
 
 ## -description

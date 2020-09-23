@@ -41,7 +41,7 @@ api_name:
  - RILUICCSERVICESTATE
 ---
 
-# RILUICCSERVICESTATE enumeration
+# RILUICCSERVICESTATE enumeration (rilapitypes.h)
 
 
 ## -description

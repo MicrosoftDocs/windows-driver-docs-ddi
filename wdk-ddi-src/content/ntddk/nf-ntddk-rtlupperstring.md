@@ -72,5 +72,4 @@ The number of bytes copied from <i>SourceString</i> is either the <b>Length</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupperchar">RtlUpperChar</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupperchar">RtlUpperChar</a>

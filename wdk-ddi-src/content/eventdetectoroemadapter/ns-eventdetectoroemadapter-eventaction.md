@@ -1,11 +1,9 @@
 ---
 UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0008
 title: EVENTACTION
-author: windows-driver-content
 description: Structure used to provide detail from ParseDetectionResults.
 tech.root: audio
 ms.assetid: 399761eb-8c8e-47a8-b150-de42cde0e0aa
-ms.author: windowsdriverdev
 ms.date: 04/10/2019
 keywords: ["EVENTACTION structure"]
 ms.keywords: EVENTACTION, EVENTACTION,
@@ -73,11 +71,10 @@ An HRESULT error code from ParseDetectionResults.
 
 ## -remarks
 
-This structure is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
+This structure is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
-

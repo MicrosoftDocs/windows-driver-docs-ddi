@@ -43,7 +43,7 @@ api_name:
  - RtlCopyMemory
 ---
 
-# RtlCopyMemory macro
+# RtlCopyMemory macro (wdm.h)
 
 
 ## -description
@@ -87,5 +87,4 @@ Callers of <b>RtlCopyMemory</b> can be running at any IRQL if the source and des
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlmovememory">RtlMoveMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlmovememory">RtlMoveMemory</a>

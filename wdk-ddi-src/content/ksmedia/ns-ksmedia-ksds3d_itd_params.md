@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The KSDS3D_ITD_PARAMS structure specifies the parameters applied by the interaural time delay (ITD) algorithm to the left or right channel in a 3D node (<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-3d-effects">KSNODETYPE_3D_EFFECTS</a>).
+The KSDS3D_ITD_PARAMS structure specifies the parameters applied by the interaural time delay (ITD) algorithm to the left or right channel in a 3D node (<a href="/windows-hardware/drivers/audio/ksnodetype-3d-effects">KSNODETYPE_3D_EFFECTS</a>).
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ Specifies the attenuation factor for the "wet" signal (the muffled signal after 
 
 ### -field SmoothFrequency
 
-Specifies the sample frequency of the audio stream. When changing to a new <b>TotalDryAttenuation</b> or <b>TotalWetAttenuation</b> value, the ITD algorithm needs this value to determine the number of samples over which to apply smoothing in order to complete the transition within some fixed time interval. For example, the ITD algorithm implemented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">KMixer system driver</a> uses a transition time interval of roughly 1/8 second.
+Specifies the sample frequency of the audio stream. When changing to a new <b>TotalDryAttenuation</b> or <b>TotalWetAttenuation</b> value, the ITD algorithm needs this value to determine the number of samples over which to apply smoothing in order to complete the transition within some fixed time interval. For example, the ITD algorithm implemented by the <a href="/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">KMixer system driver</a> uses a transition time interval of roughly 1/8 second.
 
 ### -field Delay
 
@@ -78,7 +78,7 @@ Specifies the time delay for this channel. The delay is expressed as an integer 
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_itd_params_msg">KSDS3D_ITD_PARAMS_MSG</a> structure, which the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a> property request uses to specify the ITD parameters for the left and right channels of a 3D audio stream.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_itd_params_msg">KSDS3D_ITD_PARAMS_MSG</a> structure, which the <a href="/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a> property request uses to specify the ITD parameters for the left and right channels of a 3D audio stream.
 
 The <b>Delay</b> member specifies the amount by which the current channel delays the sound arriving from the source. The interaural time delay is the difference in delays between the two channels.
 
@@ -95,9 +95,8 @@ When a KSPROPERTY_ITD3D_PARAMS set-property request changes either <b>TotalDryAt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_itd_params_msg">KSDS3D_ITD_PARAMS_MSG</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_itd_params_msg">KSDS3D_ITD_PARAMS_MSG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a>

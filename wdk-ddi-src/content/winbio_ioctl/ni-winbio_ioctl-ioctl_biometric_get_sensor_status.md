@@ -60,11 +60,11 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_diagnostics">WINBIO_DIAGNOSTICS</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_diagnostics">WINBIO_DIAGNOSTICS</a> structure.
 
 ### -output-buffer-length
 
-The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_diagnostics">WINBIO_DIAGNOSTICS</a> structure.
+The length of a <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_diagnostics">WINBIO_DIAGNOSTICS</a> structure.
 
 The vendor-supplied driver can optionally return a DWORD-sized buffer that specifies the buffer size necessary for the requested operation.
 
@@ -89,4 +89,3 @@ The <b>Status</b> member is set to one of the values in the following table.
 ## -remarks
 
 If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of WINBIO_DIAGNOSTICS with the status of the Biometric operation.
-

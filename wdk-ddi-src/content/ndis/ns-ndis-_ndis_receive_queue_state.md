@@ -58,7 +58,7 @@ The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure contains information about the ope
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_QUEUE_STATE</b>  structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>, the 
@@ -78,26 +78,25 @@ An <b>NDIS_RECEIVE_QUEUE_ID</b> type value that contains a queue identifier. The
 ### -field QueueState
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_receive_queue_operational_state">NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a> enumeration value that specifies the operational state of the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_receive_queue_operational_state">NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a> enumeration value that specifies the operational state of the
      receive queue.
 
 ## -remarks
 
 The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
     NDIS_STATUS_RECEIVE_QUEUE_STATE</a> status indication.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_receive_queue_operational_state">
+<a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_receive_queue_operational_state">
    NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
    NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
-

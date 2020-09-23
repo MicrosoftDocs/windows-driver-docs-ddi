@@ -58,28 +58,23 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 ### -param TimerHandle 
 
 [in]
-A pointer to an opaque buffer for the timer context returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>.
+A pointer to an opaque buffer for the timer context returned by <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>.
 
 ### -param TimerCallback 
 
 [in]
 A pointer to a timer callback routine supplied by the miniport. The following is the prototype defined for <b>PHW_TIMER_EX</b>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID
 (*PHW_TIMER_EX) (
   _In_ PVOID  DeviceExtension,
   _In_opt_ PVOID Context
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 
 ### -param CallbackContext 
 
@@ -159,17 +154,16 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_timer">HwStorTimer</a>
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_timer">HwStorTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreetimer">StorPortFreeTimer</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportfreetimer">StorPortFreeTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializetimer">StorPortInitializeTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a>

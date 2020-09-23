@@ -45,13 +45,13 @@ api_name:
  - SRBEX_DATA
 ---
 
-# _SRBEX_DATA structure
+# _SRBEX_DATA structure (storport.h)
 
 
 ## -description
 
 The <b>SRBEX_DATA</b> structure is the generalized format for containing extended SRB data.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ The SRB extended data type is unknown.
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_bidirectional">SRBEX_DATA_BIDIRECTIONAL</a> structure.
+The SRB extended data is formatted as an <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_bidirectional">SRBEX_DATA_BIDIRECTIONAL</a> structure.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ The SRB extended data is formatted as an <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb16">SRBEX_DATA_SCSI_CDB16</a> structure.
+The SRB extended data is formatted as an <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb16">SRBEX_DATA_SCSI_CDB16</a> structure.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ The SRB extended data is formatted as an <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb32">SRBEX_DATA_SCSI_CDB32</a> structure.
+The SRB extended data is formatted as an <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb32">SRBEX_DATA_SCSI_CDB32</a> structure.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ The SRB extended data is formatted as an <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb_var">SRBEX_DATA_SCSI_CDB_VAR</a> structure.
+The SRB extended data is formatted as an <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb_var">SRBEX_DATA_SCSI_CDB_VAR</a> structure.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The SRB extended data is formatted as an <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_wmi">SRBEX_DATA_WMI</a> structure.
+The SRB extended data is formatted as an <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_wmi">SRBEX_DATA_WMI</a> structure.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ The SRB extended data is formatted as an <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_power">SRBEX_DATA_POWER</a> structure.
+The SRB extended data is formatted as an <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_power">SRBEX_DATA_POWER</a> structure.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ The SRB extended data is formatted as an <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_pnp">SRBEX_DATA_PNP</a> structure.
+The SRB extended data is formatted as an <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_pnp">SRBEX_DATA_PNP</a> structure.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ The SRB extended data is formatted as an <a href="https://docs.microsoft.com/win
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_io_info">SRBEX_DATA_IO_INFO</a> structure.
+The SRB extended data is formatted as an <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_io_info">SRBEX_DATA_IO_INFO</a> structure.
 
 </td>
 </tr>
@@ -166,17 +166,13 @@ The extended SRB data block contents.
 
 ## -remarks
 
-The SRB extended data is present when the <b>SrbExDataOffset</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a> structure contains valid offset locations.  A storage driver initially references a memory offset location contained in <b>SrbExDataOffset</b> as an <b>SRBEX_DATA</b> structure. A pointer to the data block is then cast to the appropriate structure type based on the data type value in the <b>Type</b> member.
+The SRB extended data is present when the <b>SrbExDataOffset</b> array in the <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a> structure contains valid offset locations.  A storage driver initially references a memory offset location contained in <b>SrbExDataOffset</b> as an <b>SRBEX_DATA</b> structure. A pointer to the data block is then cast to the appropriate structure type based on the data type value in the <b>Type</b> member.
 
 The following example code fragment shows how to access the extended data for the an SRB function of SRB_FUNCTION_PNP.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN CheckIo( _In_ PSCSI_REQUEST_BLOCK Srb)
+
+```cpp
+BOOLEAN CheckIo( _In_ PSCSI_REQUEST_BLOCK Srb)
 {
     BOOLEAN result = TRUE;
     ULONG function;
@@ -240,40 +236,38 @@ The following example code fragment shows how to access the extended data for th
     }
 
     return result;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_bidirectional">SRBEX_DATA_BIDIRECTIONAL</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_bidirectional">SRBEX_DATA_BIDIRECTIONAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_io_info">SRBEX_DATA_IO_INFO</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_io_info">SRBEX_DATA_IO_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_pnp">SRBEX_DATA_PNP</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_pnp">SRBEX_DATA_PNP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_power">SRBEX_DATA_POWER</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_power">SRBEX_DATA_POWER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb16">SRBEX_DATA_SCSI_CDB16</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb16">SRBEX_DATA_SCSI_CDB16</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb32">SRBEX_DATA_SCSI_CDB32</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb32">SRBEX_DATA_SCSI_CDB32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb_var">SRBEX_DATA_SCSI_CDB_VAR</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_scsi_cdb_var">SRBEX_DATA_SCSI_CDB_VAR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_wmi">SRBEX_DATA_WMI</a>
-
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_srbex_data_wmi">SRBEX_DATA_WMI</a>

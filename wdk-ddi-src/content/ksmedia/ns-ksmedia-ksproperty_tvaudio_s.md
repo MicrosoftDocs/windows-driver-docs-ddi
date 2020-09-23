@@ -54,7 +54,7 @@ The KSPROPERTY_TVAUDIO_S structure describes the current TV audio mode, such as 
 
 ### -field Property
 
-Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 ### -field Mode
 
@@ -119,13 +119,12 @@ Indicates that the audio is in the third language supported by the device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tvaudio-mode">KSPROPERTY_TVAUDIO_MODE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-tvaudio-mode">KSPROPERTY_TVAUDIO_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-tvaudio">PROPSETID_VIDCAP_TVAUDIO</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-vidcap-tvaudio">PROPSETID_VIDCAP_TVAUDIO</a>

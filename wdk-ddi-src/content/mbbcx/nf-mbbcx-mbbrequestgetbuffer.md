@@ -65,7 +65,6 @@ Returns a pointer to the memory location where the MBIM message is stored:
 
 ## -remarks
 
-For more information, see [Handling MBIM control messages](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
+For more information, see [Handling MBIM control messages](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
 
 ## -see-also
-

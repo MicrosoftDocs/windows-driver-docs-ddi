@@ -1,11 +1,9 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERYMITIGATEDRANGECOUNT
 title: DXGKDDI_QUERYMITIGATEDRANGECOUNT
-author: windows-driver-content
 description: This function is called to get the count of the number of ranges per BAR that need to be mitigated.
 tech.root: display
 ms.assetid: a8e1860b-026a-4de4-8219-e3e40cfbc837
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKDDI_QUERYMITIGATEDRANGECOUNT callback function"]
 req.header: dispmprt.h

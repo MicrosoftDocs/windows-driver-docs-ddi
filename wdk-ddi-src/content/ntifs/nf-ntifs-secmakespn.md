@@ -125,9 +125,8 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556585">SecMakeSPNEx</a>
+<a href="/previous-versions/ff556585(v=vs.85)">SecMakeSPNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556592">SecMakeSPNEx2</a>
-
+<a href="/previous-versions/ff556592(v=vs.85)">SecMakeSPNEx2</a>

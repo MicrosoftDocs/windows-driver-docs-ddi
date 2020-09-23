@@ -4,12 +4,15 @@ title: Ucmucsicx.h header
 ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1
 ms.date: 10/19/2018
 keywords: ["Ucmucsicx.h header"]
-ms.keywords:
+ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
 ms.custom: RS5
+f1_keywords:
+ - ucmucsicx
+ - ucmucsicx/ucmucsicx
 ---
 
 # Ucmucsicx.h header
@@ -36,5 +39,5 @@ Ucmucsicx includes these headers:
 > Do not include the preceding headers directly. Instead, only include Ucmucsicx.h.
 
 For more information, see:
-- [Write a UcmUcsi client driver](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
-- [Universal Serial Bus (USB)](https://docs.microsoft.com/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
+- [Write a UcmUcsi client driver](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)
+- [Universal Serial Bus (USB)](/windows-hardware/drivers/usbcon/write-a-ucsi-driver)

@@ -61,9 +61,8 @@ The size, in bytes, of the block of memory being allocated.
 
 ## -remarks
 
-A PSHED plug-in calls the <b>PshedAllocateMemory</b> function to allocate a block of memory. When the PSHED plug-in is done using the allocated block of memory, it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedfreememory">PshedFreeMemory</a> function to free the memory.
+A PSHED plug-in calls the <b>PshedAllocateMemory</b> function to allocate a block of memory. When the PSHED plug-in is done using the allocated block of memory, it calls the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedfreememory">PshedFreeMemory</a> function to free the memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedfreememory">PshedFreeMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pshedfreememory">PshedFreeMemory</a>

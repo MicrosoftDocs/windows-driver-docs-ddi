@@ -76,5 +76,4 @@ File system filter drivers should not call <b>IoSetFileOrigin</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioisfileoriginremote">IoIsFileOriginRemote</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioisfileoriginremote">IoIsFileOriginRemote</a>

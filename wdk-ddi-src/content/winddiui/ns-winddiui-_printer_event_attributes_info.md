@@ -74,9 +74,8 @@ Because this structure might become larger in future operating system versions, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvprinterevent">DrvPrinterEvent</a>
+<a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvprinterevent">DrvPrinterEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-printerevent">IPrintOemUI::PrinterEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-printerevent">IPrintOemUI::PrinterEvent</a>

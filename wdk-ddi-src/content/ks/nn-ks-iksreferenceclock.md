@@ -51,11 +51,11 @@ The **IKsReferenceClock** interface is a COM-style interface that is provided by
 
 ## -inheritance
 
-The **IKsReferenceClock** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
+The **IKsReferenceClock** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 
-The minidriver can acquire an **IKsReferenceClock** interface by calling [KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface). Because this is a COM-style interface, **KsPinGetReferenceClockInterface** calls **QueryInterface**, which in turn invokes **AddRef** to increment the interface pointer. This means that when the minidriver is finished with the **IKsReferenceClock** interface, the minidriver must release it by calling **Release**.
+The minidriver can acquire an **IKsReferenceClock** interface by calling [KsPinGetReferenceClockInterface](./nf-ks-kspingetreferenceclockinterface.md). Because this is a COM-style interface, **KsPinGetReferenceClockInterface** calls **QueryInterface**, which in turn invokes **AddRef** to increment the interface pointer. This means that when the minidriver is finished with the **IKsReferenceClock** interface, the minidriver must release it by calling **Release**.
 
 Clients that are written in C will see the **IKsReferenceClock** interface as a structure that contains a pointer to a table of functions instead of a C++ abstract base class. A client that is written in C++ might do the following:
 
@@ -87,13 +87,12 @@ If (NT_SUCCESS (
 }
 ```
 
-For more information, see [AVStream Overview](https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-overview).
+For more information, see [AVStream Overview](/windows-hardware/drivers/stream/avstream-overview).
 
 ## -see-also
 
-[KsPinGetConnectedFilterInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedfilterinterface)
+[KsPinGetConnectedFilterInterface](./nf-ks-kspingetconnectedfilterinterface.md)
 
-[KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface)
+[KsPinGetConnectedPinInterface](./nf-ks-kspingetconnectedpininterface.md)
 
-[KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface)
-
+[KsPinGetReferenceClockInterface](./nf-ks-kspingetreferenceclockinterface.md)

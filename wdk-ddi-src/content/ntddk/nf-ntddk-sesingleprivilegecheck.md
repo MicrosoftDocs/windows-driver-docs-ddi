@@ -54,7 +54,7 @@ The
 ### -param PrivilegeValue 
 
 [in]
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a> value of the privilege being checked.
+Specifies the <a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a> value of the privilege being checked.
 
 ### -param PreviousMode 
 
@@ -71,21 +71,20 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlconvertlongtoluid">RtlConvertLongToLuid</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlconvertlongtoluid">RtlConvertLongToLuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlconvertulongtoluid">RtlConvertUlongToLuid</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlconvertulongtoluid">RtlConvertUlongToLuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">RtlEqualLuid</a>
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">RtlEqualLuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-sevalidsecuritydescriptor">SeValidSecurityDescriptor</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-sevalidsecuritydescriptor">SeValidSecurityDescriptor</a>

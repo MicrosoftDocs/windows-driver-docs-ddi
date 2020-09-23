@@ -54,12 +54,12 @@ The<b> KsStreamPointerScheduleTimeout </b>function registers a timeout callback 
 ### -param StreamPointer 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer for which to register a timeout.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer for which to register a timeout.
 
 ### -param Callback 
 
 [in]
-A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff556362(v=vs.85)">AVStrMiniTimeoutCallback</a> routine. If the stream pointer has not been deleted or the timeout canceled before the interval expires, AVStream calls this routine immediately following expiration of the interval.
+A pointer to a minidriver-supplied <a href="/previous-versions/windows/hardware/drivers/ff556362(v=vs.85)">AVStrMiniTimeoutCallback</a> routine. If the stream pointer has not been deleted or the timeout canceled before the interval expires, AVStream calls this routine immediately following expiration of the interval.
 
 ### -param Interval 
 
@@ -70,20 +70,19 @@ Specifies the interval in 100-nanosecond units from the current time to the time
 
 It is safe to call <b>KsStreamPointerScheduleTimeout</b> on a stream pointer that already has a timeout scheduled. In this case, AVStream cancels the previous timeout and replaces it with the new timeout.
 
-<div class="alert"><b>Note</b>  If you call <b>KsStreamPointerScheduleTimeout</b> while the pin associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> is still in the pause state, the scheduled timeout may not fire unless another timeout is scheduled later in the run state. At that point, it is possible for all the timeouts that were scheduled during pause to become active and fire immediately in a chain.<p class="note">Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-pointers">Stream Pointers</a>.
+<div class="alert"><b>Note</b>  If you call <b>KsStreamPointerScheduleTimeout</b> while the pin associated with the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> is still in the pause state, the scheduled timeout may not fire unless another timeout is scheduled later in the run state. At that point, it is possible for all the timeouts that were scheduled during pause to become active and fire immediately in a chain.<p class="note">Also see <a href="/windows-hardware/drivers/stream/stream-pointers">Stream Pointers</a>.
 
 </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointercanceltimeout">KsStreamPointerCancelTimeout</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointercanceltimeout">KsStreamPointerCancelTimeout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a>

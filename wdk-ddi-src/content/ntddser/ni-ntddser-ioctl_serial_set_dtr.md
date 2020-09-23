@@ -50,7 +50,7 @@ The <b>IOCTL_SERIAL_SET_DTR</b> request sets DTR (data terminal ready).
 
 If the handshake flow control of the device is configured to automatically use DTR, a client cannot clear or set DTR.
 
-To clear DTR, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clr_dtr">IOCTL_SERIAL_CLR_DTR</a> request.
+To clear DTR, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clr_dtr">IOCTL_SERIAL_CLR_DTR</a> request.
 
 ## -ioctlparameters
 
@@ -78,9 +78,8 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the handshake flow control of the device is set to automatically use DTR.
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>. A status of STATUS_INVALID_PARAMETER indicates that the handshake flow control of the device is set to automatically use DTR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clr_dtr">IOCTL_SERIAL_CLR_DTR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clr_dtr">IOCTL_SERIAL_CLR_DTR</a>

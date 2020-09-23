@@ -41,31 +41,30 @@ api_name:
  - IoStopTimer
 ---
 
-# IoStopTimer function
+# IoStopTimer function (ntifs.h)
 
 
 ## -description
 
-The <b>IoStopTimer</b> routine disables the timer for a specified device object so the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine is not called.
+The <b>IoStopTimer</b> routine disables the timer for a specified device object so the driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine is not called.
 
 ## -parameters
 
 ### -param DeviceObject 
 
 [in]
-Pointer to the device object with which the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine is associated.
+Pointer to the device object with which the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine is associated.
 
 ## -remarks
 
-The driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine can be reenabled with a call to <b>IoStartTimer</b>.
+The driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine can be reenabled with a call to <b>IoStartTimer</b>.
 
 Do not call <b>IoStopTimer</b> from within the <i>IoTimer</i> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer">IoInitializeTimer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer">IoInitializeTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostarttimer">IoStartTimer</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostarttimer">IoStartTimer</a>

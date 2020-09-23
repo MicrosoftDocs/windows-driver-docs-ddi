@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>ReloadSymbols</b> function deletes symbol information from the debugger so that it can be reloaded as needed.  This function behaves the same way as the debugger command <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-reload--reload-module-">.reload</a>.
+The <b>ReloadSymbols</b> function deletes symbol information from the debugger so that it can be reloaded as needed.  This function behaves the same way as the debugger command <a href="/windows-hardware/drivers/debugger/-reload--reload-module-">.reload</a>.
 
 ## -parameters
 
@@ -56,5 +56,4 @@ The <b>ReloadSymbols</b> function deletes symbol information from the debugger s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-reload--reload-module-">.reload (Reload Module)</a>
-
+<a href="/windows-hardware/drivers/debugger/-reload--reload-module-">.reload (Reload Module)</a>

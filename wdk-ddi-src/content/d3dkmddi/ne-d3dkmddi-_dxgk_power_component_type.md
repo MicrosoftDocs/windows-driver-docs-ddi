@@ -75,7 +75,7 @@ A typical component of this type is a self-refreshing monitor, which can display
 
 ### -field DXGK_POWER_COMPONENT_OTHER
 
-Indicates a component for which the idle state is managed entirely by the display miniport driver. The DirectX graphics kernel subsystem passes this information to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">Power Management Framework</a>.
+Indicates a component for which the idle state is managed entirely by the display miniport driver. The DirectX graphics kernel subsystem passes this information to the <a href="/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">Power Management Framework</a>.
 
 ### -field DXGK_POWER_COMPONENT_D3_TRANSITION
 
@@ -86,4 +86,3 @@ Indicates that the graphics driver supports shared power components.
 ### -field DXGK_POWER_COMPONENT_MAX
 
 A maximum value that is used for testing purposes.
-

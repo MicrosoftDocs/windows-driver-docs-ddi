@@ -54,7 +54,7 @@ Return STATUS_SUCCESS if the operation succeeds.
 
 Otherwise, return an appropriate NTSTATUS values error code.
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/using-ntstatus-values).
 
 ## -syntax
 
@@ -77,4 +77,3 @@ NTSTATUS PentropySourceCallbackFunction
 ## -remarks
 
 ## -see-also
-

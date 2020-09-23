@@ -41,19 +41,19 @@ api_name:
  - PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
 ---
 
-# PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function
+# PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function (pepfx.h)
 
 
 ## -description
 
-The <b>PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+The <b>PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 ## -parameters
 
 ### -param ResourceUsage 
 
 [in]
-This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 ### -param Decode 
 
@@ -238,9 +238,8 @@ an NVS sleep.
 ### -param Resource 
 
 [out]
-This is cast to *<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>.
+This is cast to *<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>

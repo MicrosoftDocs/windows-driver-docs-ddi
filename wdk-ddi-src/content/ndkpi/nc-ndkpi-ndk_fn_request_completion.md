@@ -58,7 +58,7 @@ The context value passed to the NDK provider when a consumer calls an asynchrono
 ### -param Status 
 
 [in]
-The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
+The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
 
 ## -remarks
 
@@ -66,5 +66,4 @@ Many NDK requests can be completed asynchronously. Asynchronous request function
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept">NDK_FN_ACCEPT</a>
-
+<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept">NDK_FN_ACCEPT</a>

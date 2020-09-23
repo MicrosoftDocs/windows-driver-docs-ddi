@@ -42,7 +42,7 @@ api_name:
  - RILGSMMNMRPARAMMASK
 ---
 
-# RILGSMMNMRPARAMMASK enumeration
+# RILGSMMNMRPARAMMASK enumeration (rilapitypes.h)
 
 
 ## -description

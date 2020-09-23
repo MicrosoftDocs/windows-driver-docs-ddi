@@ -1,15 +1,13 @@
 ---
 UID: NC:netdevice.EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD
 title: EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD (netdevice.h)
-author: windows-driver-content
 description: Implement this optional callback to reject protocol offloads that are not compatible with your hardware.
 tech.root: netvista
 ms.assetid: 7429f331-19e5-4a1c-8153-b814c57871d6
-ms.author: windowsdriverdev
 ms.date: 10/10/2019
 keywords: ["EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD callback function"]
 req.header: netdevice.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
@@ -93,7 +91,6 @@ Client drivers typically call **NetDeviceInitSetPowerPolicyEventCallbacks** when
 
 In this callback, client drivers get the chance to reject the protocol offload. For example, if the number of protocol offloads in the current protocol offload list for **Device** have already reached or exceeded the number of protocol offloads that the hardware supports, the driver can reject this protocol offload.
 
-For more info, see [Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
+For more info, see [Configuring Power Management](/windows-hardware/drivers/netcx/configuring-power-management).
 
 ## -see-also
-

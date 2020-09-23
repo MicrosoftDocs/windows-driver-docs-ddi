@@ -80,17 +80,16 @@ A ULONG representation of the contents of the WHEA_PCI_SLOT_NUMBER structure.
 
 ## -remarks
 
-A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_bridge_descriptor">WHEA_AER_BRIDGE_DESCRIPTOR</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_endpoint_descriptor">WHEA_AER_ENDPOINT_DESCRIPTOR</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_rootport_descriptor">WHEA_AER_ROOTPORT_DESCRIPTOR</a> structures.
+A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_bridge_descriptor">WHEA_AER_BRIDGE_DESCRIPTOR</a>, <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_endpoint_descriptor">WHEA_AER_ENDPOINT_DESCRIPTOR</a>, and <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_rootport_descriptor">WHEA_AER_ROOTPORT_DESCRIPTOR</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_bridge_descriptor">WHEA_AER_BRIDGE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_bridge_descriptor">WHEA_AER_BRIDGE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_endpoint_descriptor">WHEA_AER_ENDPOINT_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_endpoint_descriptor">WHEA_AER_ENDPOINT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_rootport_descriptor">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_aer_rootport_descriptor">WHEA_AER_ROOTPORT_DESCRIPTOR</a>

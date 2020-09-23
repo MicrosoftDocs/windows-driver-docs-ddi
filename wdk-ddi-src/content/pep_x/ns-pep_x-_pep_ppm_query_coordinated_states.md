@@ -45,7 +45,7 @@ api_name:
  - PEP_PPM_QUERY_COORDINATED_STATES
 ---
 
-# _PEP_PPM_QUERY_COORDINATED_STATES structure
+# _PEP_PPM_QUERY_COORDINATED_STATES structure (pep_x.h)
 
 
 ## -description
@@ -60,17 +60,16 @@ The <b>PEP_PPM_QUERY_COORDINATED_STATES</b> structure contains information about
 
 ### -field States
 
-[out] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_coordinated_idle_state">PEP_COORDINATED_IDLE_STATE</a> structures that contains information about each coordinated idle state that the PEP supports.
+[out] An array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_coordinated_idle_state">PEP_COORDINATED_IDLE_STATE</a> structures that contains information about each coordinated idle state that the PEP supports.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_coordinated_idle_state">PEP_COORDINATED_IDLE_STATE</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_coordinated_idle_state">PEP_COORDINATED_IDLE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
+<a href="/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES notification</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES notification</a>

@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT
 title: DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT
-author: windows-driver-content
 description: The DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT structure stores physical address ranges that correspond with one or more logical block ranges.
 tech.root: storage
 ms.assetid: 0eb514dd-588f-41ee-bd30-5dad00c19141
-ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT structure"]
 ms.keywords: DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT, DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT, *PDEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT,
@@ -73,13 +71,12 @@ Array of DEVICE_STORAGE_ADDRESS_RANGE structure(s) in which to return physical a
 
 ## -remarks
 
-The output block in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request is formatted as a DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT structure when the action is **DeviceDsmAction_GetPhysicalAddresses**. See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions) for more details about this action.
+The output block in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md) request is formatted as a DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT structure when the action is **DeviceDsmAction_GetPhysicalAddresses**. See [DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-dsm-action-descriptions) for more details about this action.
 
 ## -see-also
 
-[DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions)
+[DEVICE_DSM_ACTION Descriptions](/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 
 [DEVICE_STORAGE_ADDRESS_RANGE](ns-ntddstor_device_storage_address_range.md)
 
-[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
-
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](./ni-ntddstor-ioctl_storage_manage_data_set_attributes.md)

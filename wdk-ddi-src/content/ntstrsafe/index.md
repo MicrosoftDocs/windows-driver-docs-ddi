@@ -9,6 +9,9 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: kernel
+f1_keywords:
+ - ntstrsafe
+ - ntstrsafe/ntstrsafe
 ---
 
 # Ntstrsafe.h header
@@ -23,9 +26,9 @@ To manipulate Unicode and ANSI strings, each function is available in two versio
 - A W-suffixed version that supports two-byte Unicode characters.
 - An A-suffixed version that supports one-byte ANSI characters.
 
-Unicode strings are specified within [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structures in kernel-mode drivers.
+Unicode strings are specified within [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structures in kernel-mode drivers.
 
 
 For more information, see:
 
-- [Using Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions)
+- [Using Safe String Functions](/windows-hardware/drivers/kernel/using-safe-string-functions)

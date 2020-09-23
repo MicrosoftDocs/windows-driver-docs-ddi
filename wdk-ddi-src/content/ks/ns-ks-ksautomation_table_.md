@@ -64,7 +64,7 @@ This member specifies size in bytes of property items in this table.
 
 ### -field PropertySets
 
-A pointer to an array of [KSPROPERTY_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set) objects (**PropertySetsCount** in length) defining the property sets in this automation table.  Each set contains a specific number of items of size **PropertyItemSize**.
+A pointer to an array of [KSPROPERTY_SET](./ns-ks-ksproperty_set.md) objects (**PropertySetsCount** in length) defining the property sets in this automation table.  Each set contains a specific number of items of size **PropertyItemSize**.
 
 ### -field MethodSetsCount
 
@@ -76,7 +76,7 @@ This member specifies the size in bytes of method items in this table.
 
 ### -field MethodSets
 
-An array of [KSMETHOD_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_set) objects (**MethodSetsCount** in length) defining the method sets in this automation table.  Each set has a specific number of items in it of size **MethodItemSize**.
+An array of [KSMETHOD_SET](./ns-ks-ksmethod_set.md) objects (**MethodSetsCount** in length) defining the method sets in this automation table.  Each set has a specific number of items in it of size **MethodItemSize**.
 
 ### -field EventSetsCount
 
@@ -88,7 +88,7 @@ This member specifies the size in bytes of event items in this table.
 
 ### -field EventSets
 
-An array of [KSEVENT_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_set) objects (**EventSetsCount** in length) defining the event sets in this automation table.  Each set has a specific number of items in it of size **EventItemSize**.
+An array of [KSEVENT_SET](./ns-ks-ksevent_set.md) objects (**EventSetsCount** in length) defining the event sets in this automation table.  Each set has a specific number of items in it of size **EventItemSize**.
 
 ### -field Alignment
 
@@ -126,15 +126,14 @@ DEFINE_KSAUTOMATION_TABLE (MyAutomationTable) {
 
 ## -see-also
 
-[KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_item)
+[KSEVENT_ITEM](./ns-ks-ksevent_item.md)
 
-[KSEVENT_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_set)
+[KSEVENT_SET](./ns-ks-ksevent_set.md)
 
-[KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item)
+[KSMETHOD_ITEM](./ns-ks-ksmethod_item.md)
 
-[KSMETHOD_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_set)
+[KSMETHOD_SET](./ns-ks-ksmethod_set.md)
 
-[KSPROPERTY_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_item)
+[KSPROPERTY_ITEM](./ns-ks-ksproperty_item.md)
 
-[KSPROPERTY_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksproperty_set)
-
+[KSPROPERTY_SET](./ns-ks-ksproperty_set.md)

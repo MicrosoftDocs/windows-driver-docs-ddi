@@ -41,7 +41,7 @@ api_name:
  - RILCALLSUPPORTCAPS
 ---
 
-# RILCALLSUPPORTCAPS enumeration
+# RILCALLSUPPORTCAPS enumeration (rilapitypes.h)
 
 
 ## -description

@@ -66,15 +66,14 @@ A formatted [**WWAN_MODEM_LOGGING_CONFIG**](../wwan/ns-wwan-_wwan_modem_logging_
 
 ## -remarks
 
-This structure is used in the payload of an [OID_WWAN_MODEM_LOGGING_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-logging-config) Set request.
+This structure is used in the payload of an [OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config) Set request.
 
 ## -see-also
 
-[MB modem logging with DSS](https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-logging-with-dss)
+[MB modem logging with DSS](/windows-hardware/drivers/network/mb-modem-logging-with-dss)
 
-[OID_WWAN_MODEM_LOGGING_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-modem-logging-config)
+[OID_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/oid-wwan-modem-logging-config)
 
-[NDIS_STATUS_WWAN_MODEM_LOGGING_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-modem-logging-config)
+[NDIS_STATUS_WWAN_MODEM_LOGGING_CONFIG](/windows-hardware/drivers/network/ndis-status-wwan-modem-logging-config)
 
 [**WWAN_MODEM_LOGGING_CONFIG**](../wwan/ns-wwan-_wwan_modem_logging_config.md)
-

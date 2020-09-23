@@ -63,24 +63,23 @@ A pointer to the device object for which the topmost attached device is to be re
 
 If the device object specified by <i>DeviceObject</i> has no other device objects attached to it, <i>DeviceObject</i> and the returned pointer are equal.
 
-<b>IoGetAttachedDevice</b> differs from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a> in the following respects:
+<b>IoGetAttachedDevice</b> differs from <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a> in the following respects:
 
 <ul>
 <li>
-<b>IoGetAttachedDevice</b> does not increment the reference count on the device object. (Thus no matching call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> is required.)
+<b>IoGetAttachedDevice</b> does not increment the reference count on the device object. (Thus no matching call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a> is required.)
 
 </li>
 <li>
-Callers of <b>IoGetAttachedDevice</b> must ensure that no device objects are added to or removed from the stack while <b>IoGetAttachedDevice</b> is executing. Callers that cannot do this must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a> instead.
+Callers of <b>IoGetAttachedDevice</b> must ensure that no device objects are added to or removed from the stack while <b>IoGetAttachedDevice</b> is executing. Callers that cannot do this must use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a> instead.
 
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetattacheddevicereference">IoGetAttachedDeviceReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>

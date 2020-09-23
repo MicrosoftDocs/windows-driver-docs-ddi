@@ -115,17 +115,16 @@ Since <b>StorPortQueryDepthSList</b> is not interlocked, the list  depth value p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeslisthead">StorPortInitializeSListHead</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeslisthead">StorPortInitializeSListHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedflushslist">StorPortInterlockedFlushSList</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedflushslist">StorPortInterlockedFlushSList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpopentryslist">StorPortInterlockedPopEntrySList</a>
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpopentryslist">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpushentryslist">StorPortInterlockedPushEntrySList</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportinterlockedpushentryslist">StorPortInterlockedPushEntrySList</a>

@@ -41,12 +41,12 @@ api_name:
  - WIAS_LERROR
 ---
 
-# WIAS_LERROR macro
+# WIAS_LERROR macro (wiamdef.h)
 
 
 ## -description
 
-The WIAS_LERROR macro is obsolete. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error) macro be used instead.
+The WIAS_LERROR macro is obsolete. It is recommended that the [WIAS_ERROR](./nf-wiamdef-wias_error.md) macro be used instead.
 
 The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
@@ -54,7 +54,7 @@ The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
 ### -param pILog
 
-Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwialog).
+Pointer to an [IWiaLog Interface](../wia_lh/nn-wia_lh-iwialog.md).
 
 ### -param ResID
 
@@ -72,15 +72,14 @@ The following is an example of how the macro can be used:
 WIAS_LERROR(g_pIWiaLog, WIALOG_NO_RESOURCE_ID, ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));
 ```
 
-The WIAS_LERROR macro is obsolete and not recommended for use because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error) macro be used instead.
+The WIAS_LERROR macro is obsolete and not recommended for use because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_ERROR](./nf-wiamdef-wias_error.md) macro be used instead.
 
 ## -see-also
 
-[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error)
+[WIAS_ERROR](./nf-wiamdef-wias_error.md)
 
-[WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult)
+[WIAS_LHRESULT](./nf-wiamdef-wias_lhresult.md)
 
-[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_ltrace)
+[WIAS_LTRACE](./nf-wiamdef-wias_ltrace.md)
 
-[WIAS_LWARNING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lwarning)
-
+[WIAS_LWARNING](./nf-wiamdef-wias_lwarning.md)

@@ -74,11 +74,11 @@ The thread issuing the read ahead request. For a file system with disk I/O accou
 
 <b>CcScheduleReadAheadEx</b> should be called only when <i>Length</i> >= 256. Measurements have shown that calling <b>CcScheduleReadAheadEx</b> for smaller reads actually decreases performance.
 
-<b>CcScheduleReadAheadEx</b> can only be called after a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh971560">CcCopyReadEx</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539067">CcFastCopyRead</a>, or <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
+<b>CcScheduleReadAheadEx</b> can only be called after a successful call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopyread">CcCopyRead</a>, <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopyreadex">CcCopyReadEx</a>, <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccfastcopyread">CcFastCopyRead</a>, or <a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopyread">CcCopyRead</a>
 
 
 
@@ -86,21 +86,20 @@ The thread issuing the read ahead request. For a file system with disk I/O accou
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539067">CcFastCopyRead</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccfastcopyread">CcFastCopyRead</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>
+<a href="/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff539191(v=vs.85)">CcReadAhead</a>
+<a href="/previous-versions/ff539191(v=vs.85)">CcReadAhead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539203">CcSetAdditionalCacheAttributes</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetadditionalcacheattributes">CcSetAdditionalCacheAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetreadaheadgranularity">CcSetReadAheadGranularity</a>

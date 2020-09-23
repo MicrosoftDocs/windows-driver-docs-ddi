@@ -41,11 +41,11 @@ Defines the kind of calling convention of a function type.
 
 ## -enum-fields
 
-### -field CallingConventionUnknown 
+### -field CallingConventionUnknown
 
 The calling convention is not known
 
-### -field CallingConventionCDecl 
+### -field CallingConventionCDecl
 
 The calling convention is __cdecl
 
@@ -69,5 +69,4 @@ The calling convention is thiscall
 
 ## -see-also
 
-[Debugger Data Model C++ Interfaces Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
-
+[Debugger Data Model C++ Interfaces Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

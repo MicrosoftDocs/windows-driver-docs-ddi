@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The CHANNEL_INFO structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_channel_align_rqst">IOCTL_GET_CHANNEL_ALIGN_RQST</a>.
+The CHANNEL_INFO structure is used as a parameter to <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_channel_align_rqst">IOCTL_GET_CHANNEL_ALIGN_RQST</a>.
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ Maximum packet size for the bulk IN transfer pipe.
 ### -field uWriteDataAlignment
 
 Maximum packet size for the bulk OUT transfer pipe.
-

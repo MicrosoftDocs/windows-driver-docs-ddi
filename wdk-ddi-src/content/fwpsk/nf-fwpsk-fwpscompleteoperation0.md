@@ -50,7 +50,7 @@ api_name:
 The 
   <b>FwpsCompleteOperation0</b> function is called by a callout to resume packet processing that was suspended
   pending completion of another operation.
-<div class="alert"><b>Note</b>  <b>FwpsCompleteOperation0</b> is a specific version of <b>FwpsCompleteOperation</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsCompleteOperation0</b> is a specific version of <b>FwpsCompleteOperation</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -58,20 +58,20 @@ The
 
 [in]
 A completion context handle that was previously created by a call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendoperation0">FwpsPendOperation0</a> function.
+     <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendoperation0">FwpsPendOperation0</a> function.
 
 ### -param netBufferList 
 
 [in, optional]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data for which processing has been suspended pending completion of another operation.
 
 ## -remarks
 
 When the callout is ready to resume packet processing after operations on the packet were suspended by
     a call to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendoperation0">FwpsPendOperation0</a>, the callout should
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendoperation0">FwpsPendOperation0</a>, the callout should
     call the 
     <b>FwpsCompleteOperation0</b> function, passing it the 
     <i>completionContext</i> parameter value from 
@@ -93,9 +93,8 @@ Pended connections are authenticated again after the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendoperation0">FwpsPendOperation0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpspendoperation0">FwpsPendOperation0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>

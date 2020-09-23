@@ -41,7 +41,7 @@ api_name:
  - FIELD_OFFSET
 ---
 
-# FIELD_OFFSET macro
+# FIELD_OFFSET macro (wdm.h)
 
 
 ## -description
@@ -67,5 +67,4 @@ Used by device driver writers to symbolically determine the offset of a known fi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
-
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>

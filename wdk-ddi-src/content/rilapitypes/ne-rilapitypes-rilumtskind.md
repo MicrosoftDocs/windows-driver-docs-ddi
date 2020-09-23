@@ -41,7 +41,7 @@ api_name:
  - RILUMTSKIND
 ---
 
-# RILUMTSKIND enumeration
+# RILUMTSKIND enumeration (rilapitypes.h)
 
 
 ## -description

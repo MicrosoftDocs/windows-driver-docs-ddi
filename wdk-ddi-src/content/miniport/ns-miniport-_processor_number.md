@@ -45,7 +45,7 @@ api_name:
  - PROCESSOR_NUMBER
 ---
 
-# _PROCESSOR_NUMBER structure
+# _PROCESSOR_NUMBER structure (miniport.h)
 
 
 ## -description
@@ -70,27 +70,26 @@ Reserved for future use. Initialize to zero.
 
 Windows 7 is the first version of Windows to support processor groups. In Windows 7, only 64-bit versions of Windows support multiple groups; 32-bit versions of Windows support only one group. If a multiprocessor system is running a 64-bit version of Windows and contains no more than 64 logical processors, Windows assigns all processors to group 0. A multiprocessor system that is running a 32-bit version of Windows can contain no more than 32 processors.
 
-In Windows 7, the maximum number of groups in a multiprocessor system is four, but this value might change in future versions of Windows. The safest way to determine the maximum number of groups in Windows 7 or a later version of Windows is to call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a> routine. Kernel-mode drivers that call <b>KeQueryMaximumGroupCount</b> will not require code changes if the formula that is used to calculate the maximum number of groups changes in a future version of Windows.
+In Windows 7, the maximum number of groups in a multiprocessor system is four, but this value might change in future versions of Windows. The safest way to determine the maximum number of groups in Windows 7 or a later version of Windows is to call the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a> routine. Kernel-mode drivers that call <b>KeQueryMaximumGroupCount</b> will not require code changes if the formula that is used to calculate the maximum number of groups changes in a future version of Windows.
 
-Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumberex">KeGetCurrentProcessorNumberEx</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kegetprocessorindexfromnumber">KeGetProcessorIndexFromNumber</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerylogicalprocessorrelationship">KeQueryLogicalProcessorRelationship</a>.
+Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumberex">KeGetCurrentProcessorNumberEx</a>, <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kegetprocessorindexfromnumber">KeGetProcessorIndexFromNumber</a>, <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>, and <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerylogicalprocessorrelationship">KeQueryLogicalProcessorRelationship</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumberex">KeGetCurrentProcessorNumberEx</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumberex">KeGetCurrentProcessorNumberEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kegetprocessorindexfromnumber">KeGetProcessorIndexFromNumber</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kegetprocessorindexfromnumber">KeGetProcessorIndexFromNumber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerylogicalprocessorrelationship">KeQueryLogicalProcessorRelationship</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerylogicalprocessorrelationship">KeQueryLogicalProcessorRelationship</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequerymaximumgroupcount">KeQueryMaximumGroupCount</a>

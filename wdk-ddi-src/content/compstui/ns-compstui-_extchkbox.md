@@ -162,9 +162,8 @@ Reserved, must be initialized to zero.
 
 ## -remarks
 
-An extended check box is a CPSUI-defined type of check box that can be associated with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure. An OPTITEM structure can have one extended check box or one extended push button associated with it.
+An extended check box is a CPSUI-defined type of check box that can be associated with an <a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structure. An OPTITEM structure can have one extended check box or one extended push button associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush">EXTPUSH</a>
-
+<a href="/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush">EXTPUSH</a>

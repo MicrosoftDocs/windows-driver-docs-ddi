@@ -68,13 +68,12 @@ The USSD string that accompanies the event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_ussd_event_type">WWAN_USSD_EVENT_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_ussd_event_type">WWAN_USSD_EVENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_ussd_session_state">WWAN_USSD_SESSION_STATE</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_ussd_session_state">WWAN_USSD_SESSION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_string">WWAN_USSD_STRING</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_string">WWAN_USSD_STRING</a>

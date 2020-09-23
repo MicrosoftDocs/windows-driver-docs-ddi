@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
+The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure contains information about a <a href="/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
 
 ## -struct-fields
 
 ### -field LogIdentity
 
-A GUID that KTM uses to identify restart records in a transaction manager object's log stream. For more information about restart records, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-restart-records-to-a-clfs-stream">Writing Restart Records to a CLFS Stream</a>.
+A GUID that KTM uses to identify restart records in a transaction manager object's log stream. For more information about restart records, see <a href="/windows-hardware/drivers/kernel/writing-restart-records-to-a-clfs-stream">Writing Restart Records to a CLFS Stream</a>.
 
 ## -remarks
 
-The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a> routine.
+The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure is used with the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_transactionmanager_information_class">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_transactionmanager_information_class">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>

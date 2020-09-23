@@ -8,7 +8,7 @@ ms.date: 03/07/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE, NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE,
 req.header: netreceivescaling.h
-req.include-header: 
+req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -76,5 +76,4 @@ The **ReceiveScalingProtocolTypes** member of the [NET_ADAPTER_RECEIVE_SCALING_C
 
 ## -see-also
 
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
-
+[NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)

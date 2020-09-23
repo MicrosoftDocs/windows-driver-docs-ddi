@@ -43,7 +43,7 @@ api_name:
  - GPIO_PIN_IORESTRICTION_TYPE
 ---
 
-# _GPIO_PIN_IORESTRICTION_TYPE enumeration
+# _GPIO_PIN_IORESTRICTION_TYPE enumeration (pepfx.h)
 
 
 ## -description

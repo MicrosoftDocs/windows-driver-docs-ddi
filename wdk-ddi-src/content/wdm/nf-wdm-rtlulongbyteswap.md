@@ -67,13 +67,12 @@ A typical use of this routine is to convert a ULONG value from little-endian byt
 
 Use this routine instead of <b>ntohl</b> or <b>htonl</b>.
 
-To reverse the ordering of bytes in a USHORT value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlushortbyteswap">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlulonglongbyteswap">RtlUlonglongByteSwap</a> routine.
+To reverse the ordering of bytes in a USHORT value, use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlushortbyteswap">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlulonglongbyteswap">RtlUlonglongByteSwap</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlulonglongbyteswap">RtlUlonglongByteSwap</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlulonglongbyteswap">RtlUlonglongByteSwap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlushortbyteswap">RtlUshortByteSwap</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlushortbyteswap">RtlUshortByteSwap</a>

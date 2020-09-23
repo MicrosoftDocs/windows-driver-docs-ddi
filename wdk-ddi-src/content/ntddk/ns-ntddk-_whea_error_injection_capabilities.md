@@ -134,17 +134,16 @@ A ULONG representation of the contents of the WHEA_ERROR_INJECTION_CAPABILITIES 
 
 ## -remarks
 
-A user-mode WHEA management application calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::GetErrorInjectionCapabilitiesRtn</a> method to retrieve a WHEA_ERROR_INJECTION_CAPABILITIES union that describes the types of hardware errors that can be injected into the hardware platform. If a PSHED plug-in is registered to participate in error injection, the PSHED plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_get_injection_capabilities">GetInjectionCapabilities</a> callback function is called to provide this information back to the calling application. The application uses this information when it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::InjectErrorRtn</a> method to inject a hardware error into the hardware platform.
+A user-mode WHEA management application calls the <a href="/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::GetErrorInjectionCapabilitiesRtn</a> method to retrieve a WHEA_ERROR_INJECTION_CAPABILITIES union that describes the types of hardware errors that can be injected into the hardware platform. If a PSHED plug-in is registered to participate in error injection, the PSHED plug-in's <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_get_injection_capabilities">GetInjectionCapabilities</a> callback function is called to provide this information back to the calling application. The application uses this information when it calls the <a href="/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::InjectErrorRtn</a> method to inject a hardware error into the hardware platform.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_get_injection_capabilities">GetInjectionCapabilities</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pshed_pi_get_injection_capabilities">GetInjectionCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::GetErrorInjectionCapabilitiesRtn</a>
+<a href="/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::GetErrorInjectionCapabilitiesRtn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::InjectErrorRtn</a>
-
+<a href="/windows-hardware/drivers/ddi/_whea/">WHEAErrorInjectionMethods::InjectErrorRtn</a>

@@ -53,7 +53,7 @@ The <i>Dump_Read</i> callback routine is called after the read from the dump por
 ### -param FilterExtension 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
 
 ### -param DiskByteOffset 
 
@@ -63,7 +63,7 @@ The value, in bytes, relative to the source partition for the crash dump or hibe
 ### -param Mdl 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> structure that describes the data buffer containing the dump data. Filter drivers should not modify this field.
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> structure that describes the data buffer containing the dump data. Filter drivers should not modify this field.
 
 ## -returns
 
@@ -77,9 +77,8 @@ Filter drivers can modify the contents of the data buffer contained in <b>Mdl</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_write">Dump_Write</a>
+<a href="/windows-hardware/drivers/ddi/ntdddump/nc-ntdddump-dump_write">Dump_Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>

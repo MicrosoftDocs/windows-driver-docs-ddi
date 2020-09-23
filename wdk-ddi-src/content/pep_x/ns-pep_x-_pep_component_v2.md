@@ -45,7 +45,7 @@ api_name:
  - PEP_COMPONENT_V2
 ---
 
-# _PEP_COMPONENT_V2 structure
+# _PEP_COMPONENT_V2 structure (pep_x.h)
 
 
 ## -description
@@ -56,7 +56,7 @@ The <b>PEP_COMPONENT_V2</b> structure specifies the power state attributes of a 
 
 ### -field Id
 
-A component ID that uniquely identifies this component with respect to the other components in the device. The PEP should specify a nonzero value for this member if the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) requires a component ID to distinguish this component from other, similar components in the same device. This member is optional. If this member is not used, it must be set to all zeros.
+A component ID that uniquely identifies this component with respect to the other components in the device. The PEP should specify a nonzero value for this member if the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) requires a component ID to distinguish this component from other, similar components in the same device. This member is optional. If this member is not used, it must be set to all zeros.
 
 ### -field Flags
 
@@ -72,7 +72,7 @@ The number of elements in the array that is pointed to by the <b>IdleStates</b> 
 
 ### -field IdleStates
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a> structures. The length of this array is specified by the <b>IdleStateCount</b> member. Each array element specifies the attributes of an F<i>x</i> power state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on.
+A pointer to an array of <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a> structures. The length of this array is specified by the <b>IdleStateCount</b> member. Each array element specifies the attributes of an F<i>x</i> power state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on.
 
 ## -remarks
 
@@ -80,5 +80,4 @@ This structure
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_component_idle_state">PO_FX_COMPONENT_IDLE_STATE</a>

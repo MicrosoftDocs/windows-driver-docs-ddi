@@ -116,7 +116,7 @@ DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_thread_basic_information">DEBUG_THREAD_BASIC_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_thread_basic_information">DEBUG_THREAD_BASIC_INFORMATION</a>
 
 
 </td>
@@ -135,7 +135,7 @@ Receives the size of the information that is returned.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -168,13 +168,12 @@ The method was successful. However, the information would not fit in the buffer 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced2">IDebugAdvanced2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced2">IDebugAdvanced2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects">IDebugSystemObjects</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects">IDebugSystemObjects</a>

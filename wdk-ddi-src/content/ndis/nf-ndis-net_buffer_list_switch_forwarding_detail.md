@@ -62,27 +62,26 @@ The **NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL** macro returns a pointer to the 
 
 ## -see-also
 
-[Adding Extensible Switch Destination Port Data to a Packet](https://docs.microsoft.com/windows-hardware/drivers/network/adding-extensible-switch-destination-port-data-to-a-packet)
+[Adding Extensible Switch Destination Port Data to a Packet](/windows-hardware/drivers/network/adding-extensible-switch-destination-port-data-to-a-packet)
 
-[Cloning Packet Traffic](https://docs.microsoft.com/windows-hardware/drivers/network/cloning-or-duplicating-packet-traffic)
+[Cloning Packet Traffic](/windows-hardware/drivers/network/cloning-or-duplicating-packet-traffic)
 
-[Excluding Packet Delivery to Extensible Switch Destination Ports](https://docs.microsoft.com/windows-hardware/drivers/network/excluding-packet-delivery-to-extensible-switch-destination-ports)
+[Excluding Packet Delivery to Extensible Switch Destination Ports](/windows-hardware/drivers/network/excluding-packet-delivery-to-extensible-switch-destination-ports)
 
-[Forwarding Extensions](https://docs.microsoft.com/windows-hardware/drivers/network/forwarding-extensions)
+[Forwarding Extensions](/windows-hardware/drivers/network/forwarding-extensions)
 
-[Forwarding Packets to Hyper-V Extensible Switch Ports](https://docs.microsoft.com/windows-hardware/drivers/network/forwarding-packets-to-hyper-v-extensible-switch-ports)
+[Forwarding Packets to Hyper-V Extensible Switch Ports](/windows-hardware/drivers/network/forwarding-packets-to-hyper-v-extensible-switch-ports)
 
-[Forwarding Packets to Physical Network Adapters](https://docs.microsoft.com/windows-hardware/drivers/network/forwarding-packets-to-physical-network-adapters)
+[Forwarding Packets to Physical Network Adapters](/windows-hardware/drivers/network/forwarding-packets-to-physical-network-adapters)
 
-[Modifying a Packet's Extensible Switch Source Port Data](https://docs.microsoft.com/windows-hardware/drivers/network/modifying-a-packet-s-extensible-switch-source-port-data)
+[Modifying a Packet's Extensible Switch Source Port Data](/windows-hardware/drivers/network/modifying-a-packet-s-extensible-switch-source-port-data)
 
-[Overview of the Hyper-V Extensible Switch](https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-the-hyper-v-extensible-switch)
+[Overview of the Hyper-V Extensible Switch](/windows-hardware/drivers/network/overview-of-the-hyper-v-extensible-switch)
 
-[Packet Management Guidelines for the Extensible Switch Data Path](https://docs.microsoft.com/windows-hardware/drivers/network/packet-management-guidelines-for-the-extensible-switch-data-path)
+[Packet Management Guidelines for the Extensible Switch Data Path](/windows-hardware/drivers/network/packet-management-guidelines-for-the-extensible-switch-data-path)
 
-[Querying a Packet's Extensible Switch Source Port Data](https://docs.microsoft.com/windows-hardware/drivers/network/querying-a-packet-s-extensible-switch-source-port-data)
+[Querying a Packet's Extensible Switch Source Port Data](/windows-hardware/drivers/network/querying-a-packet-s-extensible-switch-source-port-data)
 
 [**NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO**](ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md)
 
 [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md)
-

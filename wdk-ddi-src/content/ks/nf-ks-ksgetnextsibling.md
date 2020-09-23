@@ -64,31 +64,30 @@ The object for which to find the next sibling.
 
 If <i>Object</i> is a filter factory, <b>KsGetNextSibling </b>returns the next filter factory belonging to the parent device, and so on. Callers must perform appropriate typecasting to and from PVOID.
 
-The object hierarchy is guaranteed stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-overview">AVStream Overview</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
+The object hierarchy is guaranteed stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="/windows-hardware/drivers/stream/avstream-overview">AVStream Overview</a> and <a href="/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
-Minidrivers rarely call <b>KsGetNextSibling</b> directly. There are a number of functions that are inline calls to <b>KsGetNextSibling</b> and that perform the typecasting for you: <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorygetnextsiblingfilterfactory">KsFilterFactoryGetNextSiblingFilterFactory</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetnextsiblingfilter">KsFilterGetNextSiblingFilter</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetnextsiblingpin">KsPinGetNextSiblingPin</a>.
+Minidrivers rarely call <b>KsGetNextSibling</b> directly. There are a number of functions that are inline calls to <b>KsGetNextSibling</b> and that perform the typecasting for you: <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorygetnextsiblingfilterfactory">KsFilterFactoryGetNextSiblingFilterFactory</a>, <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetnextsiblingfilter">KsFilterGetNextSiblingFilter</a>, and <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetnextsiblingpin">KsPinGetNextSiblingPin</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorygetnextsiblingfilterfactory">KsFilterFactoryGetNextSiblingFilterFactory</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfilterfactorygetnextsiblingfilterfactory">KsFilterFactoryGetNextSiblingFilterFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetnextsiblingfilter">KsFilterGetNextSiblingFilter</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergetnextsiblingfilter">KsFilterGetNextSiblingFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetnextsiblingpin">KsPinGetNextSiblingPin</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetnextsiblingpin">KsPinGetNextSiblingPin</a>

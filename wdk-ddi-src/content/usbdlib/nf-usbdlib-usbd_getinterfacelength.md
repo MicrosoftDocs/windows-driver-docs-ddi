@@ -71,5 +71,4 @@ Callers can use this routine to obtain the length of an interface and associated
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
-
+<a href="/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>

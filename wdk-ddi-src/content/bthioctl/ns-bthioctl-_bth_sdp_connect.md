@@ -53,7 +53,7 @@ api_name:
 The BTH_SDP_CONNECT structure contains input and output information about a connection between the
   local Bluetooth system and a remote SDP server. This structure is passed as the input buffer and output
   buffer of 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>.
+  <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>.
 
 ## -struct-fields
 
@@ -111,5 +111,4 @@ A handle for the SDP connection on the remote server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
