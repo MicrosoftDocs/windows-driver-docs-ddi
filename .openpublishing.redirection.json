@@ -518,7 +518,7 @@
     {
       "source_path": "wdk-ddi-src/content/storport/ns-storport-_hw_initialization_data.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-net_rxqueue_get_packet_context_token.md",
@@ -738,22 +738,22 @@
     {
       "source_path": "wdk-ddi-src/content/netpacket/nf-netpacket-netpacketgetpacketlargesendsegmentation.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/lso/nf-lso-netextensiongetpacketlargesendsegmentation",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/nf-netpacket-netpacketgetpacketreceivesegmentcoalescence.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/rsc/nf-rsc-netextensiongetpacketreceivesegmentcoalescence",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_large_send_segmentation.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/lsotypes/ns-lsotypes-_net_packet_large_send_segmentation",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_receive_segment_coalescence.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/rsctypes/ns-rsctypes-_net_packet_receive_segment_coalescence",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_checksum.md",
