@@ -77,6 +77,7 @@ If the request is successful, the **Information** member of the STATUS_BLOCK str
 The **Status** member is set to one of the values in the following table:
 
 | Status value | Description |
+| --- | --- |
 | STATUS_SUCCESS | The IOCTL completed successfully. |
 | STATUS_INSUFFICIENT_RESOURCES | Not enough memory was allocated to process this request. |
 | STATUS_INVALID_BUFFER_SIZE | The output buffer was sized incorrectly. |
