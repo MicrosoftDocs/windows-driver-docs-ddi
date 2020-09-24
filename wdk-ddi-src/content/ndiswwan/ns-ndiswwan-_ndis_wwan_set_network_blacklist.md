@@ -46,6 +46,11 @@ product:
 
 ## -description
 
+> [!IMPORTANT]
+> ### Bias-free communication
+>
+> Microsoft supports a diverse and inclusive environment. This article contains references to terminology that the Microsoft [style guide for bias-free communication](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
+
 The **NDIS_WWAN_SET_NETWORK_BLACKLIST** structure describes a list of network blacklist providers that a mobile broadband (MBB) device should use to overwrite any existing blacklist providers in the modem.
 
 ## -struct-fields
