@@ -71,11 +71,11 @@ Indicates that all outstanding requests for a pipe should be canceled. If set, t
 
 #### URB_FUNCTION_TAKE_FRAME_LENGTH_CONTROL
 
-This URB function is **deprecated** in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use. If you specify this function with an URB request, the request will fail and the system will report an error. 
+This URB function is **deprecated** in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use. If you specify this function with an URB request, the request will fail and the system will report an error.
 
 #### URB_FUNCTION_RELEASE_FRAME_LENGTH_CONTROL
 
-This URB function is **deprecated** in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use. If you specify this function with an URB request, the request will fail and the system will report an error. 
+This URB function is **deprecated** in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use. If you specify this function with an URB request, the request will fail and the system will report an error.
 
 #### URB_FUNCTION_GET_FRAME_LENGTH
 
@@ -83,7 +83,7 @@ This URB function is **deprecated** in Windows 2000 and later operating systems 
 
 #### URB_FUNCTION_SET_FRAME_LENGTH
 
-This URB function is **deprecated** in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use.  If you use it with a URB request, the request will fail and the system will report an error. 
+This URB function is **deprecated** in Windows 2000 and later operating systems and is not supported by Microsoft. Do not use.  If you use it with a URB request, the request will fail and the system will report an error.
 
 #### URB_FUNCTION_GET_CURRENT_FRAME_NUMBER
 
@@ -134,13 +134,13 @@ The bus driver accomplishes three tasks in response to this URB:
 
 First, for all pipes except isochronous pipes, this URB sends a CLEAR_FEATURE request to clear the device's ENDPOINT_HALT feature.
 
-Second, the USB bus driver resets the data toggle on the host side, as required by the USB specification. The USB device should reset the data toggle on the device side when the bus driver clears its ENDPOINT_HALT feature. Since some non-compliant devices do not support this feature, Microsoft provides the two additional URBs: URB_FUNCTION_SYNC_CLEAR_STALL and URB_FUNCTION_SYNC_RESET_PIPE. These allow client drivers to clear the ENDPOINT_HALT feature on the device, or reset the pipe on the host side, respectively, without affecting the data toggle on the host side. If the device does not reset the data toggle when it should, then the client driver can compensate for this defect by not resetting the host-side data toggle. If the data toggle is reset on the host side but not on the device side, packets will get out of sequence, and the device might drop packets. 
+Second, the USB bus driver resets the data toggle on the host side, as required by the USB specification. The USB device should reset the data toggle on the device side when the bus driver clears its ENDPOINT_HALT feature. Since some non-compliant devices do not support this feature, Microsoft provides the two additional URBs: URB_FUNCTION_SYNC_CLEAR_STALL and URB_FUNCTION_SYNC_RESET_PIPE. These allow client drivers to clear the ENDPOINT_HALT feature on the device, or reset the pipe on the host side, respectively, without affecting the data toggle on the host side. If the device does not reset the data toggle when it should, then the client driver can compensate for this defect by not resetting the host-side data toggle. If the data toggle is reset on the host side but not on the device side, packets will get out of sequence, and the device might drop packets.
 
 Third, after the bus driver has successfully reset the pipe, it resumes transfers with the next queued URB.
 
 After a pipe reset, transfers resume with the next queued URB.
 
-It is not necessary to clear a halt condition on a default control pipe. The default control pipe must always accept setup packets, and so if it halts, the USB stack will clear the halt condition automatically. The client driver does not need to take any special action to clear the halt condition on a default pipe. 
+It is not necessary to clear a halt condition on a default control pipe. The default control pipe must always accept setup packets, and so if it halts, the USB stack will clear the halt condition automatically. The client driver does not need to take any special action to clear the halt condition on a default pipe.
 
 All transfers must be aborted or canceled before attempting to reset the pipe.
 
@@ -156,11 +156,11 @@ The following status codes are important and have the indicated meaning:
 
 USBD_STATUS_INVALID_PIPE_HANDLE
 
-    The **PipeHandle** is not valid
+The **PipeHandle** is not valid
 
 USBD_STATUS_ERROR_BUSY
 
-    The endpoint has active transfers pending.  
+The endpoint has active transfers pending.  
 
 It is not necessary to clear a halt condition on a default control pipe. The default control pipe must always accept setup packets, and so if it halts, the USB stack will clear the halt condition automatically. The client driver does not need to take any special action to clear the halt condition on a default pipe.
 
@@ -172,7 +172,7 @@ Available in Windows XP and later operating systems.
 
 #### URB_FUNCTION_SYNC_CLEAR_STALL
 
-Clears the stall condition on the endpoint. For all pipes except isochronous pipes, this URB sends a CLEAR_FEATURE request to clear the device's ENDPOINT_HALT feature. However, unlike the URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL function, this URB function does not reset the data toggle on the host side of the pipe. The USB specification requires devices to reset the device-side data toggle after the client clears the device's ENDPOINT_HALT feature, but some non-compliant devices do not reset their data toggle properly. Client drivers that manage such devices can compensate for this defect by clearing the stall condition directly with URB_FUNCTION_SYNC_CLEAR_STALL instead of resetting the pipe with URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL. URB_FUNCTION_SYNC_CLEAR_STALL clears a stall condition on the device without resetting the host-side data toggle. This prevents a non-compliant device from interpreting the next packet as a retransmission and dropping the packet.
+Clears the stall condition on the endpoint. For all pipes except isochronous pipes, this URB sends a CLEAR_FEATURE request to clear the device's ENDPOINT_HALT feature. However, unlike the RB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL function, this URB function does not reset the data toggle on the host side of the pipe. The USB specification requires devices to reset the device-side data toggle after the client clears the device's ENDPOINT_HALT feature, but some non-compliant devices do not reset their data toggle properly. Client drivers that manage such devices can compensate for this defect by clearing the stall condition directly with URB_FUNCTION_SYNC_CLEAR_STALL instead of resetting the pipe with URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL. URB_FUNCTION_SYNC_CLEAR_STALL clears a stall condition on the device without resetting the host-side data toggle. This prevents a non-compliant device from interpreting the next packet as a retransmission and dropping the packet.
 
 If set, the URB is used with [_URB_PIPE_REQUEST](/windows-hardware/drivers/ddi/usb/ns-usb-_urb_pipe_request) as the data structure.
 
@@ -275,8 +275,6 @@ Sends a USB-defined class-specific command to an endpoint, on an interface, on a
 #### URB_FUNCTION_CLASS_OTHER
 
 Sends a USB-defined class-specific command to a device defined target on a USB device. If set, the URB is used with [_URB_CONTROL_VENDOR_OR_CLASS_REQUEST](/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_vendor_or_class_request) as the data structure.
-
-
 
 #### URB_FUNCTION_GET_CONFIGURATION
 
