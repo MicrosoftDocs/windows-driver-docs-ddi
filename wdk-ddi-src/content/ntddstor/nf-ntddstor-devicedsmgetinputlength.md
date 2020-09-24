@@ -65,13 +65,12 @@ The number of data set ranges associated with the input operation. If the input 
 
 ## -remarks
 
-See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for information on how to set up and process a DSM action.
+See [Data Set Management Overview](/windows-hardware/drivers/storage/data-set-management-overview) for information on how to set up and process a DSM action.
 
 ## -see-also
 
-[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+[Data Set Management Overview](/windows-hardware/drivers/storage/data-set-management-overview)
 
 [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
 
 [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
-

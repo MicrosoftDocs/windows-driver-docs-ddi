@@ -52,11 +52,11 @@ The IOCTL_BIOMETRIC_SET_INDICATOR IOCTL directs the driver to update the status 
 
 ### -input-buffer
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a>
+<a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a>
 
 ### -input-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a> structure.
+Length of a <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a> structure.
 
 ### -output-buffer
 
@@ -89,4 +89,3 @@ The <b>Status</b> member is set to one of the values in the following table.
 If the vendor-supplied driver passes back the entire payload, it should fill in the WinBioHresult member of WINBIO_BLANK_PAYLOAD with the status of the biometric operation.
 
 Possible values include:
-

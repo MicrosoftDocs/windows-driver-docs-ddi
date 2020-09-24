@@ -1,11 +1,9 @@
 ---
 UID: NF:netwakesource.NetWakeSourceGetType
 title: NetWakeSourceGetType function (netwakesource.h)
-author: windows-driver-content
 description: The NetWakeSourceGetType function gets the type for wake-on-LAN (WoL) source.
 tech.root: netvista
 ms.assetid: 05e0ca0e-5cf2-43b6-b5e1-325a11fde2da
-ms.author: windowsdriverdev
 ms.date: 10/10/2019
 keywords: ["NetWakeSourceGetType function"]
 ms.keywords: NetWakeSourceGetType
@@ -66,9 +64,8 @@ The client driver must only call **NetWakeSourceGetType** during a power transit
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_WAKE_SOURCE_TYPE**](../netwakesource/ne-netwakesource-_net_wake_source_type.md)
 
 [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md)
-

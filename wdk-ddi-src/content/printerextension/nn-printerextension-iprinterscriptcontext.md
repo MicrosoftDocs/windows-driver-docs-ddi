@@ -52,11 +52,10 @@ The **IPrinterScriptContext** interface has these properties.
 
 | Property | Access type | Description |
 | --- | --- | --- |
-| [DriverProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioncontext-get_driverproperties) | Read-only | Provides access to the driver property bag, if the property bag is present. |
-| [QueueProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptcontext-get_queueproperties) | Read-only | Provides access to the queue property bag, if the property bag is present.
-| [UserProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioncontext-get_userproperties) | Read-only | Provides access to the user property bag, if the property bag is present.
+| [DriverProperties](./nf-printerextension-iprinterextensioncontext-get_driverproperties.md) | Read-only | Provides access to the driver property bag, if the property bag is present. |
+| [QueueProperties](./nf-printerextension-iprinterscriptcontext-get_queueproperties.md) | Read-only | Provides access to the queue property bag, if the property bag is present.
+| [UserProperties](./nf-printerextension-iprinterextensioncontext-get_userproperties.md) | Read-only | Provides access to the user property bag, if the property bag is present.
 
 ## -see-also
 
-[V4 Printer Driver Property Bags](https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags)
-
+[V4 Printer Driver Property Bags](/windows-hardware/drivers/print/v4-driver-property-bags)

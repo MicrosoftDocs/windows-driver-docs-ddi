@@ -94,16 +94,11 @@ Because it is an expensive operation to lock down a section, if a driver locks d
 
 Each driver routine within a pageable code section must be marked with the following compiler directive:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#pragma alloc_text(PAGExxxx, DriverRoutine)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#pragma alloc_text(PAGExxxx, DriverRoutine)
+```
+
 where <i>xxxx</i> is an optional four-character, unique identifier for the caller's pageable section and <i>DriverRoutine</i> is an entry point to be included within the pageable code section. The keyword <b>PAGE</b> and the driver-determined suffix, which can be up to four characters, are case-sensitive; that is, <b>PAGE</b> must be capitalized.
 
 A single call to <b>MmLockPagableCodeSection</b> in, for example, a driver's <i>DispatchCreate</i> routine, causes the entire section, containing every driver routine marked with the same <b>PAGE</b><i>xxxx</i> identifier, to be locked in system space.
@@ -128,25 +123,24 @@ Note that routines in a pageable section marked with the compiler directive <b>#
 
 The memory manager maintains an internal lock count on any driver's pageable section. Calls to <b>MmLockPagableCodeSection</b> increment this count and the reciprocal <b>MmUnlockPagableImageSection</b> decrements the count. A driver's pageable section is not available to be paged out unless this count is zero.
 
-For more information about creating pageable code sections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-drivers-pageable">Making Drivers Pageable</a>.
+For more information about creating pageable code sections, see <a href="/windows-hardware/drivers/kernel/making-drivers-pageable">Making Drivers Pageable</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagabledatasection">MmLockPagableDataSection</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagabledatasection">MmLockPagableDataSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmlockpagablesectionbyhandle">MmLockPagableSectionByHandle</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmlockpagablesectionbyhandle">MmLockPagableSectionByHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmpageentiredriver">MmPageEntireDriver</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmpageentiredriver">MmPageEntireDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmresetdriverpaging">MmResetDriverPaging</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmresetdriverpaging">MmResetDriverPaging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpagableimagesection">MmUnlockPagableImageSection</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunlockpagableimagesection">MmUnlockPagableImageSection</a>

@@ -48,7 +48,7 @@ api_name:
 ## -description
 
 The <b>AtaPortInitializeEx</b> ATA port driver library routine initializes the port and miniport drivers.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -76,7 +76,7 @@ Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChan
 The <b>AtaPortInitializeEx</b> routine initializes key data structures that are used by the port and miniport drivers. It also starts the initialization of the controller's channels. The following sequence describes the principal actions taken by this routine:
 
 <ol>
-<li>While in its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine, the miniport driver calls the port driver's <b>AtaPortInitializeEx</b> library routine and passes it the following key parameters: <ul>
+<li>While in its <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine, the miniport driver calls the port driver's <b>AtaPortInitializeEx</b> library routine and passes it the following key parameters: <ul>
 <li><i>ControllerInterface</i>: Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChannelInitRoutine</i></b>, <b><i>AtaControllerChannelEnabled</i></b>, and <b><i>AtaControllerTransferModeSelect</i></b> routines.</li>
 </ul>
 </li>
@@ -92,28 +92,27 @@ While starting the adapter device, the miniport driver routine <b><i>AtaAdapterC
 
 </li>
 <li>
-When the ATA port driver is processing a channel device start request, the miniport driver routine <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> is called for each channel on the controller to determine whether it is enabled.
+When the ATA port driver is processing a channel device start request, the miniport driver routine <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> is called for each channel on the controller to determine whether it is enabled.
 
 </li>
 <li>
-After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> routine determines which channels are enabled, the ATA port driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a> for this channel. 
+After the <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> routine determines which channels are enabled, the ATA port driver calls <a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a> for this channel. 
 
 </li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a>
+<a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a>
+<a href="/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
+<a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a>
-
+<a href="/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a>

@@ -1,11 +1,9 @@
 ---
 UID: NF:wdm.IoRemoveLinkShareAccessEx
 title: IoRemoveLinkShareAccessEx function
-author: windows-driver-content
 description: The IoRemoveLinkShareAccessEx routine removes the access and share access information in a file system Share Access structure for a given open instance.
 tech.root: 
 ms.assetid: 27927d21-35cd-4036-b4b0-23d17cc9cde2
-ms.author: windowsdriverdev
 ms.date: 03/12/2019
 keywords: ["IoRemoveLinkShareAccessEx function"]
 ms.keywords: IoRemoveLinkShareAccessEx, IoRemoveLinkShareAccessEx function [Kernel-Mode Driver Architecture], kernel.IoRemoveLinkShareAccessEx, wdm/IoRemoveLinkShareAccessEx
@@ -65,7 +63,7 @@ A pointer to the common share-access data structure that is associated with <i>F
 ### -param LinkShareAccess 
 
 [in, out, optional]
-A pointer to the common link share-access data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
+A pointer to the common link share-access data structure (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 ### -param IoShareAccessFlags
 
@@ -76,4 +74,3 @@ IO_SHARE_ACCESS_NON_PRIMARY_STREAM         (0x00000080) specifies that the strea
 ## -remarks
 
 ## -see-also
-

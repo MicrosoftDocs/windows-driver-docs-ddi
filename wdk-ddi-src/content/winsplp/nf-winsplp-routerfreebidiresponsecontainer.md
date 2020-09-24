@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<code>RouterFreeBidiResponseContainer</code> frees a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a> structure previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a>.
+<code>RouterFreeBidiResponseContainer</code> frees a <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a> structure previously allocated by <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a>.
 
 ## -parameters
 
@@ -61,9 +61,8 @@ Pointer to the BIDI_RESPONSE_CONTAINER structure to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a>
+<a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a>

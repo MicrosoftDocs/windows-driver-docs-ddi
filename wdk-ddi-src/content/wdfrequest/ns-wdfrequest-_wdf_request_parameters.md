@@ -66,15 +66,15 @@ The IRP minor function code, if any, that is associated with the I/O request. So
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type.
+A <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_type">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type.
 
 ### -field Parameters
 
-Parameters that are unique for each IRP major function code. This member contains a subset of the Parameters member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure.
+Parameters that are unique for each IRP major function code. This member contains a subset of the Parameters member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure.
 
 ### -field Parameters.Create
 
-Parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>.
+Parameters for <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>.
 
 ### -field Parameters.Create.SecurityContext
 
@@ -88,7 +88,7 @@ Parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/
 
 ### -field Parameters.Read
 
-Parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>.
+Parameters for <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>.
 
 ### -field Parameters.Read.Length
 
@@ -98,7 +98,7 @@ Parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/
 
 ### -field Parameters.Write
 
-Parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>.
+Parameters for <a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>.
 
 ### -field Parameters.Write.Length
 
@@ -108,7 +108,7 @@ Parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 
 ### -field Parameters.DeviceIoControl
 
-Parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>.
+Parameters for <a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> and <a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>.
 
 ### -field Parameters.DeviceIoControl.OutputBufferLength
 
@@ -132,17 +132,16 @@ Use of this member is defined by the driver stack.
 
 ## -remarks
 
-The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>. Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_parameters_init">WDF_REQUEST_PARAMETERS_INIT</a> to initialize this structure before they call <b>WdfRequestGetParameters</b>.
+The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>. Drivers must call <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_parameters_init">WDF_REQUEST_PARAMETERS_INIT</a> to initialize this structure before they call <b>WdfRequestGetParameters</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_parameters_init">WDF_REQUEST_PARAMETERS_INIT</a>
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_parameters_init">WDF_REQUEST_PARAMETERS_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>

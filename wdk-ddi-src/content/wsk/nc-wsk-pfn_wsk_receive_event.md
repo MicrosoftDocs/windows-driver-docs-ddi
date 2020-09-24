@@ -62,24 +62,24 @@ A pointer to the socket context for the connection-oriented socket that has rece
 <ul>
 <li>
 It called the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create the socket.
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create the socket.
 
 </li>
 <li>
 It called the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function to create
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function to create
        the socket.
 
 </li>
 <li>
 It called the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a> function to accept the socket as an
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a> function to accept the socket as an
        incoming connection.
 
 </li>
 <li>
 Its 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a> event callback function
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a> event callback function
        was called to accept the socket as an incoming connection.
 
 </li>
@@ -105,7 +105,7 @@ A ULONG value that contains a bitwise OR of a combination of the following flags
 The data buffers that contain the received data should not be retained by the WSK application if
        at all possible. If the WSK application retains the buffers, it should release them as soon as
        possible by calling the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a> function.
+       <a href="/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a> function.
 
 </td>
 </tr>
@@ -141,17 +141,17 @@ The WSK subsystem called the
 
 [in, optional]
 A pointer to a linked list of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures that
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures that
      describe the received data. If this parameter is <b>NULL</b>, the socket is no longer functional and the WSK
      application must call the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
+     <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
      socket as soon as possible.
 
 ### -param BytesIndicated 
 
 [in]
 The number of bytes of received data described by the linked list of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures.
+     <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures.
 
 ### -param BytesAccepted 
 
@@ -186,7 +186,7 @@ The WSK application accepted at least some of the received data. If the WSK appl
        if the WSK application accepted only a portion of the received data, the WSK subsystem will not call
        the 
        <i>WskReceiveEvent</i> event callback function again until after the WSK application calls the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive">WskReceive</a> function. After the WSK
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive">WskReceive</a> function. After the WSK
        application calls the 
        <b>WskReceive</b> function, the WSK subsystem will resume calling the 
        <i>WskReceiveEvent</i> event callback function with any remaining buffered data and when new data is
@@ -207,10 +207,10 @@ The WSK application accepted at least some of the received data. If the WSK appl
 <td width="60%">
 The WSK application accepted the data but did not retrieve all of the data contained in the
        linked list of 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures. The
+       <a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures. The
        WSK application retains the linked list of WSK_DATA_INDICATION structures until all of the data has
        been retrieved. After the WSK application has retrieved all of the data it calls the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a> function to release the linked
+       <a href="/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a> function to release the linked
        list of WSK_DATA_INDICATION structures back to the WSK subsystem. The WSK subsystem can call the 
        <i>WskReceiveEvent</i> event callback function again when new data is received on the socket.
 
@@ -227,7 +227,7 @@ The WSK application did not accept the data. In this situation, the WSK subsyste
        underlying transport buffer the data if possible or if otherwise required by the protocol. The WSK
        subsystem will not call the 
        <i>WskReceiveEvent</i> event callback function again until after the WSK application calls the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive">WskReceive</a> function. After the WSK
+       <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive">WskReceive</a> function. After the WSK
        application calls the 
        <b>WskReceive</b> function, the WSK subsystem will resume calling the 
        <i>WskReceiveEvent</i> event callback function with any remaining buffered data and when new data is
@@ -246,15 +246,15 @@ The WSK application did not accept the data. In this situation, the WSK subsyste
 The WSK subsystem calls a WSK application's 
     <i>WskReceiveEvent</i> event callback function when new data is received on a connection-oriented socket
     only if the event callback function was previously enabled with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a> socket option.
+    <a href="/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a> socket option.
     For more information about enabling a socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="/windows/win32/api/evntprov/nc-evntprov-penablecallback">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application's 
     <i>WskReceiveEvent</i> event callback function is enabled on a connection-oriented socket and the
     application also has a pending call to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive">WskReceive</a> function on the same
+    <a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive">WskReceive</a> function on the same
     connection-oriented socket, then, when data arrives, the pending call to the 
     <b>WskReceive</b> function will take precedence over the 
     <i>WskReceiveEvent</i> event callback function. The WSK subsystem calls the application's 
@@ -278,42 +278,41 @@ A WSK application's <i>WskReceiveEvent</i> event callback function must not wait
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive">WskReceive</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive">WskReceive</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a>
+<a href="/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send">WskSend</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send">WskSend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>

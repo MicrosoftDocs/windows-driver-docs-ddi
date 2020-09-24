@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>GetNumberEvents</b> method returns the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/events">events</a> for the current target, if the number of events is fixed.
+The <b>GetNumberEvents</b> method returns the number of <a href="/windows-hardware/drivers/debugger/events">events</a> for the current target, if the number of events is fixed.
 
 ## -parameters
 
@@ -57,7 +57,7 @@ Receives the number of events stored in the target.  If the target offers multip
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -94,17 +94,16 @@ Crash dump files contain a static list of events; each event represents a snapsh
 
 Live targets generate events dynamically and do not necessarily have a known set of events.  If the current target is a live target with unconstrained number of events, this method sets <i>Events</i> to the number of events currently available and returns S_FALSE.
 
-For more information, see the topic <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/event-information">Event Information</a>.
+For more information, see the topic <a href="/windows-hardware/drivers/debugger/event-information">Event Information</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getcurrenteventindex">GetCurrentEventIndex</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-getcurrenteventindex">GetCurrentEventIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setnexteventindex">SetNextEventIndex</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-setnexteventindex">SetNextEventIndex</a>

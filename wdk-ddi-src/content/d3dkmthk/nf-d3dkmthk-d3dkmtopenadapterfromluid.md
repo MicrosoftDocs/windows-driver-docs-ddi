@@ -56,7 +56,7 @@ Maps a locally unique identifier (LUID) to a graphics adapter handle.
 
 *pAdapter* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a> structure that describes information that is required to perform the mapping.
 
 ## -returns
 
@@ -66,10 +66,9 @@ Returns one of the following values:
 |--- |--- |
 |STATUS_SUCCESS|The mapping was performed successfully.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromluid">D3DKMT_OPENADAPTERFROMLUID</a>

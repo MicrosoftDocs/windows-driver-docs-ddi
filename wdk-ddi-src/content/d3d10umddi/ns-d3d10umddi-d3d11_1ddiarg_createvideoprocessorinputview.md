@@ -64,7 +64,7 @@ A FOURCC code that the application uses to override the surface format. A value 
 
 For example, if a new video standard emerges that requires a new substream format, the application can create an equivelant surface using a standard format and then specify a FOURCC code when it creates a view to indicate that the data is laid out according to the new video standard.
 
-For more information about FOURCC codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=231686">Video FOURCCs</a>.
+For more information about FOURCC codes, see <a href="/windows/win32/medfound/video-fourccs">Video FOURCCs</a>.
 
 ### -field MipSlice
 
@@ -80,5 +80,4 @@ The number of array slices for the texture.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a>

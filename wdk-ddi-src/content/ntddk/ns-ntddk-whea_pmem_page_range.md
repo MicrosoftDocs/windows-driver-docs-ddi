@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddk._WHEA_PMEM_PAGE_RANGE
 title: WHEA_PMEM_PAGE_RANGE
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 40e9ec87-2e15-4cef-96c8-4b2df3dc9d8b
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_PAGE_RANGE structure"]
 ms.keywords: WHEA_PMEM_PAGE_RANGE, WHEA_PMEM_PAGE_RANGE, *PWHEA_PMEM_PAGE_RANGE,

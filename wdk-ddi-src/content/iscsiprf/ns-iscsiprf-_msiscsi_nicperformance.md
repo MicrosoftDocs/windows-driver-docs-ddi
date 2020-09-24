@@ -76,5 +76,4 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-nicperformance-wmi-class">MSiSCSI_NICPerformance WMI Class</a>
-
+<a href="/windows-hardware/drivers/storage/msiscsi-nicperformance-wmi-class">MSiSCSI_NICPerformance WMI Class</a>

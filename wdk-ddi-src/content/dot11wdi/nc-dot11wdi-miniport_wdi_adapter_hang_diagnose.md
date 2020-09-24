@@ -48,7 +48,7 @@ api_name:
 
 The MiniportWdiAdapterHangDiagnose handler function is used to collect hardware control register states and optionally full firmware state.
 
-This is a WDI miniport handler inside <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
+This is a WDI miniport handler inside <a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
@@ -57,12 +57,12 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 ### -param MiniportDriverContext 
 
 [in]
-The handle to a driver-allocated context area where the driver maintains state and configuration information. The miniport driver passed this context area to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nf-dot11wdi-ndismregisterwdiminiportdriver">NdisMRegisterWdiMiniportDriver</a> function.
+The handle to a driver-allocated context area where the driver maintains state and configuration information. The miniport driver passed this context area to the <a href="/windows-hardware/drivers/ddi/dot11wdi/nf-dot11wdi-ndismregisterwdiminiportdriver">NdisMRegisterWdiMiniportDriver</a> function.
 
 ### -param DiagnoseLevel 
 
 [in]
-The diagnose level, as defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-ediagnoselevel">eDiagnoseLevel</a> enumeration. The default level is <b>DiagnoseLevelHardwareRegisters</b>, 1KB maximum in the output buffer.
+The diagnose level, as defined in the <a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-ediagnoselevel">eDiagnoseLevel</a> enumeration. The default level is <b>DiagnoseLevelHardwareRegisters</b>, 1KB maximum in the output buffer.
 
 ### -param BufferSize 
 
@@ -88,13 +88,12 @@ The return value is ignored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+<a href="/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
+<a href="/windows-hardware/drivers/network/wdi-hang-detection-and-recovery">WDI hang detection and recovery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-ediagnoselevel">eDiagnoseLevel</a>
-
+<a href="/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-ediagnoselevel">eDiagnoseLevel</a>

@@ -58,24 +58,19 @@ Pointer to a file object for the cached file to which the data is to be written.
 ### -param PostRoutine 
 
 [in]
-Address of a routine for the cache manager to call to write to the cached file. Note that it is possible that this routine will be called immediately, even if <a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a> has just returned <b>FALSE</b> .
+Address of a routine for the cache manager to call to write to the cached file. Note that it is possible that this routine will be called immediately, even if <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccaniwrite">CcCanIWrite</a> has just returned <b>FALSE</b> .
 
 The post routine is defined in ntifs.h as:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID (*PCC_POST_DEFERRED_WRITE) (
     _In_ PVOID Context1,
     _In_ PVOID Context2
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 
 ### -param Context1 
 
@@ -99,21 +94,20 @@ Set to <b>FALSE</b> if the request is being posted for the first time, <b>TRUE</
 
 ## -remarks
 
-A file system would normally call <b>CcDeferWrite</b> after receiving a return value of <b>FALSE</b> from <a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a>.
+A file system would normally call <b>CcDeferWrite</b> after receiving a return value of <b>FALSE</b> from <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccaniwrite">CcCanIWrite</a>.
 
-To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
+To cache a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>.
 
 The context parameters passed to <i>PostRoutine</i> are typically the I/O request and related context data.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539021">CcCanIWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccaniwrite">CcCanIWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539209">CcSetDirtyPageThreshold</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetdirtypagethreshold">CcSetDirtyPageThreshold</a>

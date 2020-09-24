@@ -63,7 +63,7 @@ Attaches a device to an existing domain.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -97,4 +97,3 @@ _InputMappingIdBase_ and _MappingCount_ are intended only to accommodate ACPI-en
 - MappingCount = 1
 
 ## -see-also
-

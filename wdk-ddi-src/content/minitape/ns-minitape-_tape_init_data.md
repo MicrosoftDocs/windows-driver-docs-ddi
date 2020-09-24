@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_tape_init_data_ex">TAPE_INIT_DATA_EX</a> instead.
+TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="/windows-hardware/drivers/ddi/minitape/ns-minitape-_tape_init_data_ex">TAPE_INIT_DATA_EX</a> instead.
 
 ## -struct-fields
 
@@ -58,13 +58,9 @@ TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use <a href="https
 
 TAPE_INIT_DATA is defined as follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _TAPE_INIT_DATA { 
+
+```
+typedef struct _TAPE_INIT_DATA { 
   TAPE_VERIFY_INQUIRY_ROUTINE     VerifyInquiry;   
   BOOLEAN                         QueryModeCapabilitiesPage; 
   ULONG                           MinitapeExtensionSize; 
@@ -84,8 +80,5 @@ TAPE_INIT_DATA is defined as follows.
   TAPE_PROCESS_COMMAND_ROUTINE    SetPosition; 
   TAPE_PROCESS_COMMAND_ROUTINE    WriteMarks; 
   TAPE_PROCESS_COMMAND_ROUTINE    PreProcessReadWrite; 
-} TAPE_INIT_DATA, *PTAPE_INIT_DATA;</pre>
-</td>
-</tr>
-</table></span></div>
-
+} TAPE_INIT_DATA, *PTAPE_INIT_DATA;
+```

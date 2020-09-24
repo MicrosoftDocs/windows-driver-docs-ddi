@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the [ACPI driver](https://docs.microsoft.com/windows-hardware/drivers/kernel/acpi-driver) to the device's operation region.
+An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the [ACPI driver](/windows-hardware/drivers/kernel/acpi-driver) to the device's operation region.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Specifies one of the following access types:
 
 ### -param OperationRegionObject
 
-Specifies the operation region object returned by [RegisterOpRegionHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler) for the operation region handler.
+Specifies the operation region object returned by [RegisterOpRegionHandler](./nf-oprghdlr-registeropregionhandler.md) for the operation region handler.
 
 ### -param Address
 
@@ -101,7 +101,7 @@ Returns one of the following status values:
 
 When the ACPI driver calls an operation region handler, it specifies values for *Address* and *Size* that ensure that the access is within the operation region that is defined in the ACPI BIOS for the ACPI device. The ACPI device function driver must ensure that the operation region memory buffer it allocates is at least as large, in bytes, as the operation region defined for the ACPI device.
 
-For more information about operation region handlers, see [Supporting an Operation Region](https://docs.microsoft.com/windows-hardware/drivers/acpi/supporting-an-operation-region).
+For more information about operation region handlers, see [Supporting an Operation Region](/windows-hardware/drivers/acpi/supporting-an-operation-region).
 
 An ACPI_OP_REGION_HANDLER-typed routine runs at the caller's IRQL.
 
@@ -109,7 +109,6 @@ For detailed information about constraints on operation regions, see the [Advanc
 
 ## -see-also
 
-[DeRegisterOpRegionHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-deregisteropregionhandler)
+[DeRegisterOpRegionHandler](./nf-oprghdlr-deregisteropregionhandler.md)
 
-[RegisterOpRegionHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/oprghdlr/nf-oprghdlr-registeropregionhandler)
-
+[RegisterOpRegionHandler](./nf-oprghdlr-registeropregionhandler.md)

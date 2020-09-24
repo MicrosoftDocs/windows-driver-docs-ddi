@@ -1,11 +1,9 @@
 ---
 UID: NF:wdm.MmAllocateMappingAddressEx
 title: MmAllocateMappingAddressEx function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: 1eb6fff3-a98c-41b9-b0b2-6bdae1f4ba7a
-ms.author: windowsdriverdev
 ms.date: 03/01/2020
 ms.topic: function
 ms.keywords: MmAllocateMappingAddressEx

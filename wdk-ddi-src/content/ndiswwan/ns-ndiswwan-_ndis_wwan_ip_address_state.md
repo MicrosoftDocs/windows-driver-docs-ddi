@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_IP_ADDRESS_STATE)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field WwanIpAddressState
 
@@ -110,5 +110,4 @@ The PDP context's IP address.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ip_address_state">WWAN_IP_ADDRESS_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ip_address_state">WWAN_IP_ADDRESS_STATE</a>

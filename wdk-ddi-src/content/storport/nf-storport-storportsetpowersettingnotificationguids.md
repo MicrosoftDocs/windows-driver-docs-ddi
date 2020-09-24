@@ -158,17 +158,16 @@ The notification GUIDs were registered successfully.
 
 ## -remarks
 
-A miniport calls <b>StorPortSetPowerSettingNotificationGuids</b> in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine to register the GUIDs it requests to receive notifications for.
+A miniport calls <b>StorPortSetPowerSettingNotificationGuids</b> in its <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine to register the GUIDs it requests to receive notifications for.
 
-When a power state change occurs for a registered notification, the miniport is notified in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> routine. The control type of <b>ScsiPowerSettingNotification</b> is set in the <i>ControlType</i> parameter.
+When a power state change occurs for a registered notification, the miniport is notified in its <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> routine. The control type of <b>ScsiPowerSettingNotification</b> is set in the <i>ControlType</i> parameter.
 
 The AHCI Link Power management settings are part of the Disk Settings subgroup (0012ee47-9041-4b5d-9b77-535fba8b1442) in the power policy configuration. These are managed under the SUB_DISK configuration  alias with <i>powercfg.exe</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>

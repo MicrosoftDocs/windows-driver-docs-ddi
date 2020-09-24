@@ -53,7 +53,7 @@ The <b>FsRtlInitExtraCreateParameterLookasideList</b> routine initializes a page
 ### -param Lookaside 
 
 [in, out]
-Pointer to an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> lookaside list-head structure. For a paged or nonpaged lookaside list, the list-head structure must be allocated from nonpaged pool.
+Pointer to an opaque <a href="/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a> or <a href="/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> lookaside list-head structure. For a paged or nonpaged lookaside list, the list-head structure must be allocated from nonpaged pool.
 
 ### -param Flags 
 
@@ -68,43 +68,42 @@ Specifies the size, in bytes, for all ECP entries in the lookaside list.
 ### -param Tag 
 
 [in]
-Specifies the pool tag to use when allocating lookaside list ECP entries. For more information about pool tags, see the <i>Tag</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
+Specifies the pool tag to use when allocating lookaside list ECP entries. For more information about pool tags, see the <i>Tag</i> parameter of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 ## -remarks
 
-Use this routine to initialize a paged or nonpaged pool lookaside list. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545616">FsRtlAllocateExtraCreateParameterFromLookasideList</a> routine to allocate an ECP from the lookaside list, and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545989">FsRtlFreeExtraCreateParameter</a> routine to return an ECP buffer to the lookaside list for recycling.
+Use this routine to initialize a paged or nonpaged pool lookaside list. Use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist">FsRtlAllocateExtraCreateParameterFromLookasideList</a> routine to allocate an ECP from the lookaside list, and the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfreeextracreateparameter">FsRtlFreeExtraCreateParameter</a> routine to return an ECP buffer to the lookaside list for recycling.
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545849">FsRtlDeleteExtraCreateParameterLookasideList</a> routine to free the lookaside list itself.
+Use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtldeleteextracreateparameterlookasidelist">FsRtlDeleteExtraCreateParameterLookasideList</a> routine to free the lookaside list itself.
 
 Drivers must free all ECPs and lookaside lists that they create before they unload.
 
-For more information on using lookaside lists with drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-lookaside-lists">Using Lookaside Lists</a>.
+For more information on using lookaside lists with drivers, see <a href="/windows-hardware/drivers/kernel/using-lookaside-lists">Using Lookaside Lists</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
+<a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545616">FsRtlAllocateExtraCreateParameterFromLookasideList</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist">FsRtlAllocateExtraCreateParameterFromLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545849">FsRtlDeleteExtraCreateParameterLookasideList</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtldeleteextracreateparameterlookasidelist">FsRtlDeleteExtraCreateParameterLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545989">FsRtlFreeExtraCreateParameter</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfreeextracreateparameter">FsRtlFreeExtraCreateParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a>
+<a href="/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a>
-
+<a href="/windows-hardware/drivers/kernel/eprocess">PAGED_LOOKASIDE_LIST</a>

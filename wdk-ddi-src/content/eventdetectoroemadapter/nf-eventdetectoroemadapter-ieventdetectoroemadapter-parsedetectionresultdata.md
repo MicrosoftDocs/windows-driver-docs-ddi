@@ -1,11 +1,9 @@
 ---
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.ParseDetectionResultData
 title: IEventDetectorOemAdapter::ParseDetectionResultData
-author: windows-driver-content
 description: Uses the input model data and SOUNDDETECTOR_PATTERNHEADER to determine the DETECTIONEVENTID,LANGID and USER detected.
 tech.root: audio
 ms.assetid: 862be70a-9d24-442f-a4fa-deb3fbefd4c6
-ms.author: windowsdriverdev
 ms.date: 02/26/2019
 keywords: ["IEventDetectorOemAdapter::ParseDetectionResultData"]
 ms.keywords: IEventDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData, IEventDetectorOemAdapter::ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData
@@ -94,11 +92,10 @@ Returns S_OK if the function exit successfully. Otherwise it returns:
 
 ## -remarks
 
-This function is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
+This function is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
-

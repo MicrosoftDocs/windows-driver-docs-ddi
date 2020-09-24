@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The STI_ERROR_INFO structure is used as a parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlasterrorinfo">IStiDevice::GetLastErrorInfo</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getlasterrorinfo">IStiUSD::GetLastErrorInfo</a> methods. It is also used as a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_diag">STI_DIAG</a> structure.
+The STI_ERROR_INFO structure is used as a parameter for the <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlasterrorinfo">IStiDevice::GetLastErrorInfo</a> and <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getlasterrorinfo">IStiUSD::GetLastErrorInfo</a> methods. It is also used as a member of the <a href="/windows-hardware/drivers/ddi/sti/ns-sti-_sti_diag">STI_DIAG</a> structure.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ Optional, vendor-specific error code.
 ### -field szExtendedErrorText
 
 Optional character array containing a text string describing the error.
-

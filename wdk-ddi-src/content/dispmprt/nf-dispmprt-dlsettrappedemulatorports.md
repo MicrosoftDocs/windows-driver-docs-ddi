@@ -1,11 +1,9 @@
 ---
 UID: NF:dispmprt.DlSetTrappedEmulatorPorts
 title: DlSetTrappedEmulatorPorts function
-author: windows-driver-content
 description: 
 tech.root: display
 ms.assetid: 8a7ee6f8-a1cb-4a92-b6df-cb0c8679599c
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DlSetTrappedEmulatorPorts function"]
 ms.keywords: DlSetTrappedEmulatorPorts
@@ -65,7 +63,7 @@ Specifies the number of elements in the *AccessRange* array.
 
 ### -param AccessRange
 
-Pointer to an array of [VIDEO_ACCESS_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_access_range) elements.
+Pointer to an array of [VIDEO_ACCESS_RANGE](../video/ns-video-_video_access_range.md) elements.
 
 ## -returns
 
@@ -74,4 +72,3 @@ This function returns VP_STATUS.
 ## -remarks
 
 ## -see-also
-

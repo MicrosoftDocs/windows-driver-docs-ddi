@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>IWDFRemoteTarget::Start</b> method restarts a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is stopped.
+The <b>IWDFRemoteTarget::Start</b> method restarts a <a href="/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is stopped.
 
 ## -returns
 
@@ -77,36 +77,30 @@ This method might return one of the other values that Winerror.h contains.
 
 ## -remarks
 
-The <b>Start</b> method resumes processing any I/O requests that are in queued to the remote I/O target. After a driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-stop">IWDFRemoteTarget::Stop</a>, the driver must call <b>Start</b> so the framework can resume sending I/O requests to the I/O target.
+The <b>Start</b> method resumes processing any I/O requests that are in queued to the remote I/O target. After a driver calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-stop">IWDFRemoteTarget::Stop</a>, the driver must call <b>Start</b> so the framework can resume sending I/O requests to the I/O target.
 
-For more information about <b>Start</b>, and how to use remote I/O targets in UMDF-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/controlling-a-general-i-o-target-s-state-in-umdf">Controlling a General I/O Target's State in UMDF</a>.
+For more information about <b>Start</b>, and how to use remote I/O targets in UMDF-based drivers, see <a href="/windows-hardware/drivers/wdf/controlling-a-general-i-o-target-s-state-in-umdf">Controlling a General I/O Target's State in UMDF</a>.
 
 
 #### Examples
 
 The following code example restarts a remote I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (S_OK == RemoteTarget->Start())
+
+```
+if (S_OK == RemoteTarget->Start())
 {
     //
     // Resume sending I/O requests to the I/O target.
     //
-...}</pre>
-</td>
-</tr>
-</table></span></div>
+...}
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-stop">IWDFRemoteTarget::Stop</a>
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfremotetarget-stop">IWDFRemoteTarget::Stop</a>

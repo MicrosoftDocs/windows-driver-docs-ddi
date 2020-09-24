@@ -55,10 +55,10 @@ The
 
 [in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
+     <a href="/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
+     <a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">
      WskCaptureProviderNPI</a> function.
 
 ### -param ControlCode 
@@ -105,14 +105,14 @@ Enable specified event callback functions automatically on all sockets.
 #### WSK_TDI_DEVICENAME_MAPPING
 
 Map combinations of address family, socket type, and protocol to device names of 
-       <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transports.
+       <a href="/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transports.
 
 
 
 #### WSK_TDI_BEHAVIOR
 
 Control whether the WSK subsystem will divert network I/O to 
-       <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transports.
+       <a href="/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transports.
 
 ### -param InputSize 
 
@@ -174,14 +174,14 @@ The number of bytes of output data that is returned by the operation that is bei
 [in, out]
 A pointer to a caller-allocated IRP that the WSK subsystem uses to complete the control operation
      asynchronously. For more information about using IRPs with WSK functions, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
+     <a href="/windows-hardware/drivers/network/using-irps-with-winsock-kernel-functions">Using IRPs with Winsock
      Kernel Functions</a>.
      
 
 This parameter is required, is optional, or must be <b>NULL</b>, depending on the particular client control
      operation that is being performed. For more information about the requirements for this parameter for
      each of the supported client control operations, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client-control-operations">WSK Client Control
+     <a href="/windows-hardware/drivers/network/wsk-client-control-operations">WSK Client Control
      Operations</a>.
 
 ## -returns
@@ -250,7 +250,7 @@ An error occurred. The IRP will be completed with failure status.
 
 For more information about how the input and output buffers are used for each client control
     operation, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client-control-operations">WSK Client Control
+    <a href="/windows-hardware/drivers/network/wsk-client-control-operations">WSK Client Control
     Operations</a>.
 
 If the 
@@ -264,32 +264,31 @@ If the
     <b>WskControlClient</b> function until after the IRP is completed.
 
 <div class="alert"><b>Note</b>  TDI will not be supported in Microsoft Windows versions after Windows Vista. Use 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Windows Filtering
+    <a href="/windows-hardware/drivers/ddi/_netvista/">Windows Filtering
     Platform</a> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Winsock Kernel</a> instead.</div>
+    <a href="/windows-hardware/drivers/ddi/_netvista/">Winsock Kernel</a> instead.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client-control-operations">WSK Client Control Operations</a>
+<a href="/windows-hardware/drivers/network/wsk-client-control-operations">WSK Client Control Operations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a>
+<a href="/windows-hardware/drivers/network/wsk-client">WSK_CLIENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_dispatch">WSK_PROVIDER_DISPATCH</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_dispatch">WSK_PROVIDER_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_transport">WSK_TRANSPORT</a>
+<a href="/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_transport">WSK_TRANSPORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>
-
+<a href="/windows-hardware/drivers/ddi/wsk/nf-wsk-wskcaptureprovidernpi">WskCaptureProviderNPI</a>

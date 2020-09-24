@@ -1,11 +1,9 @@
 ---
 UID: NF:virtualaddress.NetExtensionGetFragmentVirtualAddress
 title: NetExtensionGetFragmentVirtualAddress function (virtualaddress.h)
-author: windows-driver-content
 description: The NetExtensionGetFragmentVirtualAddress function retrieves the virtual address extension information for a net fragment.
 tech.root: netvista
 ms.assetid: 054DB38D-7496-424F-A521-A2368878F690
-ms.author: windowsdriverdev
 ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentVirtualAddress function"]
 ms.keywords: NetExtensionGetFragmentVirtualAddress
@@ -66,15 +64,14 @@ Returns a pointer to a [**NET_FRAGMENT_VIRTUAL_ADDRESS**](../virtualaddresstypes
 
 ## -remarks
 
-NIC client drivers typically query offsets for fragment extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the virtual address offset from the queue context to pass to **NetExtensionGetFragmentVirtualAddress**.
+NIC client drivers typically query offsets for fragment extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the virtual address offset from the queue context to pass to **NetExtensionGetFragmentVirtualAddress**.
 
 This function is a wrapper function around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md).
 
 ## -see-also
 
-[Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues)
+[Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues)
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md)
-

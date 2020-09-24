@@ -51,13 +51,13 @@ api_name:
    DirectX 8.0 and later versions only.
    
 
-The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
+The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for <a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
 ## -struct-fields
 
 ### -field dwVBHandle
 
-Specifies the surface handle associated with this surface through a call to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>.
+Specifies the surface handle associated with this surface through a call to <a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>.
 
 ### -field dwStride
 
@@ -69,9 +69,8 @@ A handle value of zero is valid and indicates that the current index buffer is c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
+<a href="/windows/win32/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>

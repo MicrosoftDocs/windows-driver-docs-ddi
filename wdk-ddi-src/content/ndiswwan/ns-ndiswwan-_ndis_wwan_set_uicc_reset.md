@@ -102,25 +102,24 @@ sizeof(NDIS_WWAN_SET_UICC_RESET)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field SetUiccReset
 
-A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a> structure that represents the passthrough action the host specifies for the miniport adapter after it resets the UICC.
+A formatted <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a> structure that represents the passthrough action the host specifies for the miniport adapter after it resets the UICC.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+<a href="/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-reset">OID_WWAN_UICC_RESET</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-uicc-reset">OID_WWAN_UICC_RESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a>

@@ -49,7 +49,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfIoResourceRequirementsListRemoveByIoResList</b> method removes a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> from a resource requirements list.
+The <b>WdfIoResourceRequirementsListRemoveByIoResList</b> method removes a <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> from a resource requirements list.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ The <b>WdfIoResourceRequirementsListRemoveByIoResList</b> method removes the log
 
 When <b>WdfIoResourceRequirementsListRemoveByIoResList</b> removes the logical configuration that has the index value <i>n</i>, the index value of the next logical configuration changes from <i>n</i>+1 to <i>n</i>.
 
-For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+For more information about resource requirements lists, see <a href="/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples
@@ -145,25 +145,24 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistgetcount">WdfIoResourceListGetCount</a>
+<a href="/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistgetcount">WdfIoResourceListGetCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistgetdescriptor">WdfIoResourceListGetDescriptor</a>
+<a href="/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistgetdescriptor">WdfIoResourceListGetDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetcount">WdfIoResourceRequirementsListGetCount</a>
+<a href="/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetcount">WdfIoResourceRequirementsListGetCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>
+<a href="/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistremove">WdfIoResourceRequirementsListRemove</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistremove">WdfIoResourceRequirementsListRemove</a>

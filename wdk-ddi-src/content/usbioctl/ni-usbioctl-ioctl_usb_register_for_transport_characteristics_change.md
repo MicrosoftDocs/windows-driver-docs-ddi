@@ -60,17 +60,17 @@ This request registers for notifications about the changes in transport characte
 
 ### -in-out-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_transport_characteristics_change_registration">USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION</a> structure. On input, the client driver can specify the type of notification changes in which the driver is interested by setting the flags in the <b>ChangeNotificationInputFlags</b> member.
+The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_transport_characteristics_change_registration">USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION</a> structure. On input, the client driver can specify the type of notification changes in which the driver is interested by setting the flags in the <b>ChangeNotificationInputFlags</b> member.
 
 On output, the structure is filled with the registration handle and initial values of the transport characteristics.
 
 ### -inout-buffer-length
 
-The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_transport_characteristics_change_registration">USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION</a> structure.
+The size of the <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_transport_characteristics_change_registration">USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION</a> structure.
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> indicates  the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> indicates  the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
 
@@ -80,21 +80,20 @@ This request can be sent by a user mode application, UMDF driver, or a KMDF driv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
+<a href="/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>

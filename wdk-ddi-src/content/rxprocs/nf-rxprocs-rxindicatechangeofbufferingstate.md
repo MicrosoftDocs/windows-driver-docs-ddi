@@ -74,17 +74,16 @@ If a buffering state request can be processed immediately instead of being queue
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxchangebufferingstate">RxChangeBufferingState</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxchangebufferingstate">RxChangeBufferingState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen">RxIndicateChangeOfBufferingStateForSrvOpen</a>
+<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen">RxIndicateChangeOfBufferingStateForSrvOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>
-
+<a href="/windows-hardware/drivers/ifs/the-srv-open-structure">The SRV_OPEN Structure</a>

@@ -60,32 +60,32 @@ The BTH_PROFILE_DRIVER_INTERFACE structure provides functions to allocate, free,
 A structure that describes the 
      <b>BTH_PROFILE_DRIVER_INTERFACE</b> interface for use by profile drivers. For more information about this
      structure, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>.
+     <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>.
 
 ### -field BthAllocateBrb
 
 Pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a> function.
+     <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a> function.
 
 ### -field BthFreeBrb
 
 Pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_free_brb">BthFreeBrb</a> function.
+     <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_free_brb">BthFreeBrb</a> function.
 
 ### -field BthInitializeBrb
 
 Pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a> function.
+     <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a> function.
 
 ### -field BthReuseBrb
 
 Pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a> function.
+     <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a> function.
 
 ### -field IsBluetoothVersionAvailable
 
 Pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_is_bluetooth_version_available">
+     <a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_is_bluetooth_version_available">
      IsBluetoothVersionAvailable</a> function.
 
 ## -remarks
@@ -99,25 +99,24 @@ All the members of this structure, other than the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_free_brb">BthFreeBrb</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_free_brb">BthFreeBrb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_is_bluetooth_version_available">IsBluetoothVersionAvailable</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_is_bluetooth_version_available">IsBluetoothVersionAvailable</a>

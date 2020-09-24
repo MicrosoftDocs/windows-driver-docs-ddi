@@ -84,7 +84,7 @@ Receives the number of bytes that were written.  If <i>BytesWritten</i> is <b>NU
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -121,7 +121,6 @@ This method is only available in kernel mode debugging.
 
 The number of bytes this method attempts to write is the smaller of the size of the buffer and the size of the variable.
 
-This is a convenience method.  The same result can be obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>.
+This is a convenience method.  The same result can be obtained by calling <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a> and <a href="/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>.
 
-For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.
-
+For more information about types, see <a href="/windows-hardware/drivers/debugger/types">Types</a>.

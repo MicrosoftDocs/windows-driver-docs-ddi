@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config">SPB_CONTROLLER_CONFIG</a> structure.
+The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes an <a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config">SPB_CONTROLLER_CONFIG</a> structure.
 
 ## -parameters
 
@@ -57,13 +57,12 @@ A pointer to the <b>SPB_CONTROLLER_CONFIG</b> structure that is to be initialize
 
 ## -remarks
 
-Your SPB controller driver must use this function to initialize an <b>SPB_CONTROLLER_CONFIG</b> structure before passing this structure as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a> method. This method completes the initialization of the SPB framework extension (SpbCx).
+Your SPB controller driver must use this function to initialize an <b>SPB_CONTROLLER_CONFIG</b> structure before passing this structure as an input parameter to the <a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a> method. This method completes the initialization of the SPB framework extension (SpbCx).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config">SPB_CONTROLLER_CONFIG</a>
+<a href="/windows-hardware/drivers/ddi/spbcx/ns-spbcx-_spb_controller_config">SPB_CONTROLLER_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbdeviceinitialize">SpbDeviceInitialize</a>

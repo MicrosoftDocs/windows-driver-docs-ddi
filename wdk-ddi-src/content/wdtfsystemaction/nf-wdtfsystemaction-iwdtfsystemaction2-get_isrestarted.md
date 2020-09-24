@@ -48,8 +48,8 @@ api_name:
 ## -description
 
 Gets a value that indicates whether the test script restarted as a result of a call to 
-	<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestart">RebootRestart</a> or 
-	<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>.
+	<a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestart">RebootRestart</a> or 
+	<a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>.
 
 This property is read-only.
 
@@ -57,5 +57,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
-
+<a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>

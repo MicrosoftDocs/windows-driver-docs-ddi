@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The DISK_GEOMETRY_EX structure is an arbitrary-length structure composed of a [DISK_GEOMETRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry) structure followed by a [DISK_PARTITION_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_partition_info) structure followed, in turn, by a [DISK_DETECTION_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_detection_info) structure.
+The DISK_GEOMETRY_EX structure is an arbitrary-length structure composed of a [DISK_GEOMETRY](./ns-ntdddisk-_disk_geometry.md) structure followed by a [DISK_PARTITION_INFO](./ns-ntdddisk-_disk_partition_info.md) structure followed, in turn, by a [DISK_DETECTION_INFO](./ns-ntdddisk-_disk_detection_info.md) structure.
 
 ## -struct-fields
 
 ### -field Geometry
 
-See [DISK_GEOMETRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry) for a description of this member.
+See [DISK_GEOMETRY](./ns-ntdddisk-_disk_geometry.md) for a description of this member.
 
 ### -field DiskSize
 
@@ -64,11 +64,11 @@ Contains the size in bytes of the disk.
 
 ### -field Data
 
-Beginning of the data block, starting with a [DISK_PARTITION_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_partition_info) structure followed by a [DISK_DETECTION_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_detection_info) structure.
+Beginning of the data block, starting with a [DISK_PARTITION_INFO](./ns-ntdddisk-_disk_partition_info.md) structure followed by a [DISK_DETECTION_INFO](./ns-ntdddisk-_disk_detection_info.md) structure.
 
 ## -remarks
 
-DISK_GEOMETRY_EX is used in conjunction with the [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_drive_geometry_ex) and the [IOCTL_DISK_GET_MEDIA_TYPES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_media_types) IOCTLs, in order to retrieve information about the geometry of a physical disk (media type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector).
+DISK_GEOMETRY_EX is used in conjunction with the [IOCTL_DISK_GET_DRIVE_GEOMETRY_EX](./ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md) and the [IOCTL_DISK_GET_MEDIA_TYPES](./ni-ntdddisk-ioctl_disk_get_media_types.md) IOCTLs, in order to retrieve information about the geometry of a physical disk (media type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector).
 
 Because the partition and detect information are not at fixed locations within the DISK_GEOMETRY_EX structure, *ntdddisk.h* provides two macros for accessing this information. Both macros take a pointer to a structure of type DISK_GEOMETRY_EX as an argument:
 
@@ -92,13 +92,12 @@ Because the partition and detect information are not at fixed locations within t
 
 ## -see-also
 
-[DISK_DETECTION_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_detection_info)
+[DISK_DETECTION_INFO](./ns-ntdddisk-_disk_detection_info.md)
 
-[DISK_GEOMETRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry)
+[DISK_GEOMETRY](./ns-ntdddisk-_disk_geometry.md)
 
-[DISK_PARTITION_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_partition_info)
+[DISK_PARTITION_INFO](./ns-ntdddisk-_disk_partition_info.md)
 
-[IOCTL_DISK_GET_DRIVE_GEOMETRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_drive_geometry)
+[IOCTL_DISK_GET_DRIVE_GEOMETRY](./ni-ntdddisk-ioctl_disk_get_drive_geometry.md)
 
-[IOCTL_DISK_GET_MEDIA_TYPES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_get_media_types)
-
+[IOCTL_DISK_GET_MEDIA_TYPES](./ni-ntdddisk-ioctl_disk_get_media_types.md)

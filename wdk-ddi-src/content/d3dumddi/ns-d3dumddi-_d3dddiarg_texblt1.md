@@ -66,25 +66,24 @@ The face of a cube map.
 
 ### -field DstPoint
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the destination point where the source texture is copied.
+A <a href="/windows/win32/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the destination point where the source texture is copied.
 
 ### -field SrcRect
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that describes the source texture to copy to the destination point.
+A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that describes the source texture to copy to the destination point.
 
 ### -field CopyFlags
 
-A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a> enumeration type.
+A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-tagpoint">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>

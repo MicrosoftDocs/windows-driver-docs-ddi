@@ -65,5 +65,4 @@ A system thread calls <b>PsTerminateSystemThread</b> to terminate itself. A driv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>

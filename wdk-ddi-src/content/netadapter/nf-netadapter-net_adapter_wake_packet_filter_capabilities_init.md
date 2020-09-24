@@ -1,11 +1,9 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT
 title: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT function (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT function initializes a NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 73db1824-1b27-4cf6-a613-10fe0109f7ea
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES_INIT
@@ -66,11 +64,10 @@ This function zeroes out the memory for the **NET_ADAPTER_WAKE_PACKET_FILTER_CAP
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_wake_packet_filter_capabilities.md)
 
 [**NetAdapterWakeSetPacketFilterCapabilities**](../netadapter/nf-netadapter-netadapterwakesetpacketfiltercapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

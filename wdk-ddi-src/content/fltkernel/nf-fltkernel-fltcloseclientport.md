@@ -66,27 +66,26 @@ None
 
 ## -remarks
 
-A minifilter driver normally calls <b>FltCloseClientPort</b> from the <i>DisconnectNotifyCallback</i> routine that it registered when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>. The Filter Manager calls the <i>DisconnectNotifyCallback</i> routine whenever the user-mode handle count for the client port reaches zero or when the minifilter driver is about to be unloaded. 
+A minifilter driver normally calls <b>FltCloseClientPort</b> from the <i>DisconnectNotifyCallback</i> routine that it registered when it called <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>. The Filter Manager calls the <i>DisconnectNotifyCallback</i> routine whenever the user-mode handle count for the client port reaches zero or when the minifilter driver is about to be unloaded. 
 
 <b>FltCloseClientPort</b> closes a communication client port that was created by the minifilter driver's <i>ConnectNotifyCallback</i> routine. 
 
-On input, the <i>ClientPort</i> parameter is a pointer to a variable containing the opaque handle for the client port to be closed. To ensure that any messages sent by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a> are synchronized properly when the communication client port is being closed, <b>FltCloseClientPort</b> sets this variable to <b>NULL</b>. 
+On input, the <i>ClientPort</i> parameter is a pointer to a variable containing the opaque handle for the client port to be closed. To ensure that any messages sent by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a> are synchronized properly when the communication client port is being closed, <b>FltCloseClientPort</b> sets this variable to <b>NULL</b>. 
 
-This routine disconnects a specific connection from the minifilter driver. To close the handle for the minifilter driver's server port, which listens for incoming connections, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>.
+This routine disconnects a specific connection from the minifilter driver. To close the handle for the minifilter driver's server port, which listens for incoming connections, use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>

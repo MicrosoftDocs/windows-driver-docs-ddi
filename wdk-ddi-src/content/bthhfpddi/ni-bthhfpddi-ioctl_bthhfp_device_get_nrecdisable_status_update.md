@@ -85,5 +85,4 @@ Additionally, in this scenario where NREC is enabled in the remote Bluetooth dev
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
-
+<a href="/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>

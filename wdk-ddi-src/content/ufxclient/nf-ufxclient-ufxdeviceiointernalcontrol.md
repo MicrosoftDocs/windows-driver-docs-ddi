@@ -53,7 +53,7 @@ Passes kernel mode IOCTLs to UFX.
 ### -param UfxDevice 
 
 [in]
-A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ### -param Request 
 
@@ -77,15 +77,11 @@ The driver-defined or system-defined IOCTL that is associated with the request.
 
 ## -remarks
 
-The client driver calls <b>UfxDeviceIoInternalControl</b> to forward internal IOCTLs that it receives in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a> callback function to UFX.  The following example shows how:
+The client driver calls <b>UfxDeviceIoInternalControl</b> to forward internal IOCTLs that it receives in its <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_internal_device_control">EvtIoInternalDeviceControl</a> callback function to UFX.  The following example shows how:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 DefaultQueue_EvtIoInternalDeviceControl(
     _In_ WDFQUEUE Queue,
     _In_ WDFREQUEST Request,
@@ -142,8 +138,5 @@ Arguments:
 
     TraceExit();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

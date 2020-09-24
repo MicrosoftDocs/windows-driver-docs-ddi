@@ -65,5 +65,4 @@ The ANSI string is interpreted for the current system locale.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodesize">RtlAnsiStringToUnicodeSize</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodesize">RtlAnsiStringToUnicodeSize</a>

@@ -68,7 +68,7 @@ The flags that apply to this instance of the <b>CLFS_MGMT_POLICY</b> structure. 
 
 ### -field PolicyType
 
-A value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of this instance of the <b>CLFS_MGMT_POLICY</b> structure.
+A value of the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of this instance of the <b>CLFS_MGMT_POLICY</b> structure.
 
 ### -field PolicyParameters
 
@@ -182,17 +182,16 @@ You can only install a policy whose policy type specified in the <b>PolicyType</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtinstallpolicy">ClfsMgmtInstallPolicy</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtinstallpolicy">ClfsMgmtInstallPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtquerypolicy">ClfsMgmtQueryPolicy</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtquerypolicy">ClfsMgmtQueryPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtremovepolicy">ClfsMgmtRemovePolicy</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsmgmtremovepolicy">ClfsMgmtRemovePolicy</a>

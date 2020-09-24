@@ -62,5 +62,4 @@ The D3DKMT_DESTROYOVERLAY structure contains the handle to the overlay to destro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroyoverlay">D3DKMTDestroyOverlay</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtdestroyoverlay">D3DKMTDestroyOverlay</a>

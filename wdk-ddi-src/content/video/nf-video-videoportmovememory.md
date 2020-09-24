@@ -72,23 +72,22 @@ None
 
 <b>VideoPortMoveMemory</b> moves memory either forward or backward, aligned or unaligned, in 4-byte blocks, followed by any remaining bytes.
 
-The given <i>Destination</i> and <i>Source</i> must be in a mapped logical range returned by <b>VideoPortGetDeviceBase</b> and/or a <a href="https://docs.microsoft.com/windows-hardware/drivers/">system space</a> RAM address, such as an address on the stack.
+The given <i>Destination</i> and <i>Source</i> must be in a mapped logical range returned by <b>VideoPortGetDeviceBase</b> and/or a <a href="/windows-hardware/drivers/">system space</a> RAM address, such as an address on the stack.
 
 Callers of <b>VideoPortMoveMemory</b> can be running at any IRQL if both memory blocks are resident. Otherwise, the caller must be running at IRQL < DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportcomparememory">VideoPortCompareMemory</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportcomparememory">VideoPortCompareMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportzerodevicememory">VideoPortZeroDeviceMemory</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportzerodevicememory">VideoPortZeroDeviceMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>

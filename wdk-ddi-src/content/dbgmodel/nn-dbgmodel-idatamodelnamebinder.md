@@ -55,5 +55,4 @@ In order to provide a degree of consistency across script providers, the data mo
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
-
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

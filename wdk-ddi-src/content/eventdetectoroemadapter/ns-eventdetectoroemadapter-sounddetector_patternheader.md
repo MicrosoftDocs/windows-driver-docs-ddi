@@ -1,11 +1,9 @@
 ---
 UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0001
 title: SOUNDDETECTOR_PATTERNHEADER
-author: windows-driver-content
 description: The SOUNDDETECTOR_PATTERNHEADER structure specifies the size and the format of the pattern data for the sound detector.
 tech.root: audio
 ms.assetid: 1aa2d821-a1f6-46ca-be4c-9c8f280f9fa0
-ms.author: windowsdriverdev
 ms.date: 03/22/2019
 keywords: ["SOUNDDETECTOR_PATTERNHEADER structure"]
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER,
@@ -60,11 +58,10 @@ Identifies the format of the pattern data.
 
 ## -remarks
 
-This structure is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
+This structure is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
-

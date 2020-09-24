@@ -89,9 +89,8 @@ The NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration specifies NFC-IP target mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

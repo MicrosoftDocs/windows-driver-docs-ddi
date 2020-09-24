@@ -53,7 +53,7 @@ The<b> KsGateGetStateUnsafe</b> function returns the state of the given gate (op
 ### -param Gate 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the gate for which to return the state.
+A pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the gate for which to return the state.
 
 ## -returns
 
@@ -66,4 +66,3 @@ Because <b>KsGateGetStateUnsafe</b> does not handle synchronization, it is possi
 Consider a situation in which the output of gate A is connected as an input to gate B. A transitions to closed, causing B to transition from open to closed. If, at the same time, another thread calls <b>KsGateGetStateUnsafe</b> between the time A closes and the time B closes, the routine still returns that B was open.
 
 <b>KsGateGetStateUnsafe</b> returns whether <i>Gate->Count</i> is greater than zero. The function does not use any interlocked functions to do this. Thus, the call is performed without regard to synchronization.
-

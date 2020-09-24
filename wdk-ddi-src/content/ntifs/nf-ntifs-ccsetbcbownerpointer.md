@@ -58,25 +58,24 @@ Pointer to a pinned BCB structure that is owned by the current thread.
 ### -param OwnerPointer 
 
 [in]
-A valid resource owner pointer, which means a pointer to an allocated system address, with the low-order two bits set. This address may not be deallocated until after the BCB is unpinned by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539231">CcUnpinDataForThread</a>.
+A valid resource owner pointer, which means a pointer to an allocated system address, with the low-order two bits set. This address may not be deallocated until after the BCB is unpinned by a subsequent call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindataforthread">CcUnpinDataForThread</a>.
 
 ## -remarks
 
 File systems call <b>CcSetBcbOwnerPointer</b> to set the resource owner for a pinned buffer control block (BCB), in cases where another thread will unpin the BCB and thus the current thread can exit.
 
-Each call to <b>CcSetBcbOwnerPointer</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539231">CcUnpinDataForThread</a>, which must be called with the same owner pointer.
+Each call to <b>CcSetBcbOwnerPointer</b> must be matched by a subsequent call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindataforthread">CcUnpinDataForThread</a>, which must be called with the same owner pointer.
 
-BCBs that have been modified by <b>CcSetBcbOwnerPointer</b> cannot be unpinned by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>.
+BCBs that have been modified by <b>CcSetBcbOwnerPointer</b> cannot be unpinned by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539231">CcUnpinDataForThread</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindataforthread">CcUnpinDataForThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsetresourceownerpointer">ExSetResourceOwnerPointer</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exsetresourceownerpointer">ExSetResourceOwnerPointer</a>

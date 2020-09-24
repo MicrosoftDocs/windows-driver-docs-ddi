@@ -71,15 +71,14 @@ Client drivers typically store packet extensions in the context space for each q
 - For Large Send Offload (LSO) information, the client driver calls [**NetExtensionGetPacketLargeSendSegmentation**](../lso/nf-lso-netextensiongetpacketlargesendsegmentation.md).
 - For Receive Segment Coalescence (RSC) offload information, the client driver calls [**NetExtensionGetPacketReceiveSegmentCoalescence**](../rsc/nf-rsc-netextensiongetpacketreceivesegmentcoalescence.md).
 
-For examples of creating packet queues, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
+For examples of creating packet queues, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 
 ## -see-also
 
-[Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues)
+[Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues)
 
 [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md)
 
 [**NetExtensionGetPacketLargeSendSegmentation**](../lso/nf-lso-netextensiongetpacketlargesendsegmentation.md)
 
 [**NetExtensionGetPacketReceiveSegmentCoalescence**](../rsc/nf-rsc-netextensiongetpacketreceivesegmentcoalescence.md)
-

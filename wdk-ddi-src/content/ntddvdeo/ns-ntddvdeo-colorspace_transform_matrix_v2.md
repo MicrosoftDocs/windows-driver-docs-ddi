@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddvdeo._COLORSPACE_TRANSFORM_MATRIX_V2
 title: COLORSPACE_TRANSFORM_MATRIX_V2
-author: windows-driver-content
 description: The colorspace transform matrix structure.
 tech.root: display
 ms.assetid: 5f0f66c3-a9d2-4f61-9f40-c0d6bae6657d
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_MATRIX_V2 structure"]
 ms.keywords: COLORSPACE_TRANSFORM_MATRIX_V2, COLORSPACE_TRANSFORM_MATRIX_V2, *PCOLORSPACE_TRANSFORM_MATRIX_V2,

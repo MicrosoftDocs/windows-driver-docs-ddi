@@ -58,5 +58,4 @@ The type of characteristic of the endpoint.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_endpoint_characteristic">UCX_ENDPOINT_CHARACTERISTIC</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_ucx_endpoint_characteristic">UCX_ENDPOINT_CHARACTERISTIC</a>

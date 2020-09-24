@@ -1,11 +1,9 @@
 ---
 UID: NF:ntifs.RtlUnicodeStringToUTF8String
 title: RtlUnicodeStringToUTF8String function
-author: windows-driver-content
 description: RtlUnicodeStringToUTF8String converts the specified Unicode string to a UTF-8 string.
 tech.root: ifsk
 ms.assetid: 8c1e181a-7737-4e26-8fc1-a00ed16673e9
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
@@ -33,9 +31,9 @@ f1_keywords:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - 
+ - NtosKrnl.exe
 api_name:
  - RtlUnicodeStringToUTF8String
 product:

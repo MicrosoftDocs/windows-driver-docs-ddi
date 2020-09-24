@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> capabilities of a miniport adapter.
+The <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure specifies the <a href="/windows-hardware/drivers/network/ndis-receive-side-scaling2">receive side scaling (RSS)</a> capabilities of a miniport adapter.
 
 ## -struct-fields
 
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_CAPABILITIES</b>. 
@@ -102,7 +102,7 @@ Set this flag if the NIC supports message-signaled interrupts (MSIs). This flag 
 </dl>
 </td>
 <td width="60%">
-Set this flag if the NIC can indicate to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a> function which target CPUs have
+Set this flag if the NIC can indicate to the <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a> function which target CPUs have
         queued received packets.
 
 </td>
@@ -135,7 +135,7 @@ Set this flag if the NIC supports MSIs. This flag is supported in NDIS 6.30 and 
 </td>
 <td width="60%">
 Set this flag if the miniport driver can detect which target CPUs have queued receive packets
-        from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> function.
+        from its <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> function.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ Set this flag if the NIC can identify an IPv6 packet and compute a hash value ov
 <td width="60%">
 Set this flag if the NIC supports the toeplitz hash function. If the NIC supports RSS, support
         for the hash function is mandatory. For more information about hash functions, see
-        <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>.
+        <a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ The maximum number of entries that the miniport driver supports in the indirecti
 ## -remarks
 
 Overlying drivers can use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+    <a href="/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
     OID_GEN_RECEIVE_SCALE_CAPABILITIES</a> OID to query the receive side scaling (RSS) capabilities of a
     NIC and its miniport driver.
 
@@ -277,27 +277,26 @@ For some workloads, a subset of UDP packets could be fragmented due to route cha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
+<a href="/windows-hardware/drivers/network/ndis-rss-hash-info-from-type-and-func">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+<a href="/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
    OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
-
+<a href="/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>

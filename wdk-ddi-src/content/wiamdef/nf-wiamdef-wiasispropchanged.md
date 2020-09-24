@@ -57,7 +57,7 @@ Specifies the property identifier of the property to be checked.
 ### -param pContext 
 
 [in]
-Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains the current property context.
+Pointer to a [WIA_PROPERTY_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_wia_property_context.md) structure that contains the current property context.
 
 ### -param pbChanged 
 
@@ -68,21 +68,20 @@ Pointer to a memory location that receives a BOOL value. The BOOL value is **TRU
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
-This function determines whether a property is being changed by looking at the **bChanged** member value in the property's [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure. Minidrivers typically use this function to check when an independent property has been changed so that its dependents can be updated.
+This function determines whether a property is being changed by looking at the **bChanged** member value in the property's [WIA_PROPERTY_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_wia_property_context.md) structure. Minidrivers typically use this function to check when an independent property has been changed so that its dependents can be updated.
 
 ## -see-also
 
-[WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context)
+[WIA_PROPERTY_CONTEXT](../wiamindr_lh/ns-wiamindr_lh-_wia_property_context.md)
 
-[wiasGetChangedValueFloat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluefloat)
+[wiasGetChangedValueFloat](./nf-wiamdef-wiasgetchangedvaluefloat.md)
 
-[wiasGetChangedValueGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvalueguid)
+[wiasGetChangedValueGuid](./nf-wiamdef-wiasgetchangedvalueguid.md)
 
-[wiasGetChangedValueLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluelong)
+[wiasGetChangedValueLong](./nf-wiamdef-wiasgetchangedvaluelong.md)
 
-[wiasGetChangedValueStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluestr)
-
+[wiasGetChangedValueStr](./nf-wiamdef-wiasgetchangedvaluestr.md)

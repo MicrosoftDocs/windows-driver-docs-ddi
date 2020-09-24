@@ -82,7 +82,7 @@ On output, a pointer to a linked list of memory descriptor lists (MDLs) that poi
 
 ### -param IoStatus 
 [out]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to <b>STATUS_SUCCESS</b>. Otherwise, it is set to an appropriate <b>NTSTATUS</b> error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
 
 ## -returns
@@ -121,9 +121,9 @@ If fast I/O is available for the file system, the <b>FsRtlPrepareMdlWriteEx</b> 
 
  If fast I/O is not enabled, <b>FsRtlPrepareMdlWriteEx</b> will generate a synchronous IRP based MDL write prepare and return the MDLs allocated from the request.
 
-The pages that the MDLs point to are locked in memory, but are not mapped in system space. The caller can perform this mapping by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
+The pages that the MDLs point to are locked in memory, but are not mapped in system space. The caller can perform this mapping by calling <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
 
-Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539172">CcMdlWriteComplete</a>.
+Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmdlwritecomplete">CcMdlWriteComplete</a>.
 
 
 
@@ -133,16 +133,15 @@ Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539172">CcMdlWriteComplete</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccmdlwritecomplete">CcMdlWriteComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparemdlwrite">CcPrepareMdlWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
  
 
  
-

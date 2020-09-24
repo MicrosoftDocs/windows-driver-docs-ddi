@@ -57,7 +57,7 @@ The <b>D3DKMTUnlock</b> function unlocks a list of allocations.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
 
 ## -returns
 
@@ -67,7 +67,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |STATUS_SUCCESS|The allocations were successfully unlocked.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks
@@ -104,5 +104,4 @@ HRESULT UnlockThree(D3DKMT_HANDLE hDevice,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock">D3DKMT_UNLOCK</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_unlock">D3DKMT_UNLOCK</a>

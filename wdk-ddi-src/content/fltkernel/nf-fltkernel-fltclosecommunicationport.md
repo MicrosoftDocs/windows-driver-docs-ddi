@@ -61,33 +61,32 @@ None
 
 ## -remarks
 
-<b>FltCloseCommunicationPort</b> closes a communication server port that was created by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>. 
+<b>FltCloseCommunicationPort</b> closes a communication server port that was created by a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>. 
 
-A minifilter driver normally calls <b>FltCloseCommunicationPort</b> from its <i>FilterUnloadCallback</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>) routine. 
+A minifilter driver normally calls <b>FltCloseCommunicationPort</b> from its <i>FilterUnloadCallback</i> (<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>) routine. 
 
 After <b>FltCloseCommunicationPort</b> is called, the opaque port handle specified by the <i>ServerPort</i> parameter is no longer valid and cannot safely be used. (The <i>ServerPort</i> handle is for the communication server port that the minifilter driver uses to listen for incoming connections.) 
 
 When the communication server port is closed, existing connections are not affected. However, no more incoming connections will be accepted. 
 
-This routine closes handle for the minifilter driver's server port, which listens for incoming connections. To disconnect a specific connection from the minifilter driver, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>.
+This routine closes handle for the minifilter driver's server port, which listens for incoming connections. To disconnect a specific connection from the minifilter driver, use <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a>

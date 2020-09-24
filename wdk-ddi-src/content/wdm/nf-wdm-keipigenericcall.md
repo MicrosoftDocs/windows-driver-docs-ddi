@@ -53,7 +53,7 @@ The <b>KeIpiGenericCall</b> routine causes the specified routine to run on all p
 ### -param BroadcastFunction 
 
 [in]
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a> routine. This routine is run on every processor simultaneously.
+Pointer to an <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a> routine. This routine is run on every processor simultaneously.
 
 ### -param Context 
 
@@ -62,13 +62,12 @@ Specifies the value to pass to <i>IpiGenericCall</i> when it is called.
 
 ## -returns
 
-<b>KeIpiGenericCall</b> returns the value that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a> returns on the source processor (the processor that called <b>KeIpiGenericCall</b>).
+<b>KeIpiGenericCall</b> returns the value that <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a> returns on the source processor (the processor that called <b>KeIpiGenericCall</b>).
 
 ## -remarks
 
-When a driver calls <b>KeIpiGenericCall</b>, the system interrupts every processor and raises the IRQL to IPI_LEVEL (interprocessor interrupt level). Each processor spins on a barrier until all processors have reached the barrier; then, all processors begin calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a>. <b>KeIpiGenericCall</b> waits for all calls to <i>IpiGenericCall</i> to complete before returning.
+When a driver calls <b>KeIpiGenericCall</b>, the system interrupts every processor and raises the IRQL to IPI_LEVEL (interprocessor interrupt level). Each processor spins on a barrier until all processors have reached the barrier; then, all processors begin calling <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a>. <b>KeIpiGenericCall</b> waits for all calls to <i>IpiGenericCall</i> to complete before returning.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kipi_broadcast_worker">IpiGenericCall</a>

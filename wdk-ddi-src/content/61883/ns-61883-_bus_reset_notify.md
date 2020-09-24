@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure is used to register or deregister the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/nc-61883-pbus_reset_routine">PBUS_RESET_ROUTINE</a> callback. The request registers the caller to be notified when a reset of the 1394 bus occurs or cancels a previous registration. When the registered callback (bus reset) routine is called, the updated generation count and node address will be specified in parameter <b>BusResetInfo</b>. If a driver registers for bus-reset notification, it must cancel registration before the system unloads the driver.
+This structure is used to register or deregister the <a href="/windows-hardware/drivers/ddi/61883/nc-61883-pbus_reset_routine">PBUS_RESET_ROUTINE</a> callback. The request registers the caller to be notified when a reset of the 1394 bus occurs or cancels a previous registration. When the registered callback (bus reset) routine is called, the updated generation count and node address will be specified in parameter <b>BusResetInfo</b>. If a driver registers for bus-reset notification, it must cancel registration before the system unloads the driver.
 
 ## -struct-fields
 
@@ -64,20 +64,15 @@ Pointer to a caller-supplied function to be called by the protocol driver when t
 
 This function uses the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Void
+
+```
+Void
   (*PBUS_RESET_ROUTINE)( 
  IN PVOID  Context; 
  IN PBUS_GENERATION_NODE  BusResetInfo;
- );</pre>
-</td>
-</tr>
-</table></span></div>
+ );
+```
+
 
 ### -field Context
 
@@ -91,5 +86,4 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp->IoStatu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
-
+<a href="/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>

@@ -119,24 +119,24 @@ The specified I/O queue is configured for the parallel dispatching method.
 </dl>
 </td>
 <td width="60%">
-The specified I/O queue is <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-power-managed-i-o-queues">power-managed</a> and its device is in a low-power state.
+The specified I/O queue is <a href="/windows-hardware/drivers/wdf/using-power-managed-i-o-queues">power-managed</a> and its device is in a low-power state.
 
 </td>
 </tr>
 </table>
  
 
-This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+This method also might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-A driver that has configured an I/O queue for manual or sequential dispatching might call <b>WdfIoQueueRetrieveRequestByFileObject</b>. For more information about using <b>WdfIoQueueRetrieveRequestByFileObject</b> with the manual or sequential dispatching methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>. 
+A driver that has configured an I/O queue for manual or sequential dispatching might call <b>WdfIoQueueRetrieveRequestByFileObject</b>. For more information about using <b>WdfIoQueueRetrieveRequestByFileObject</b> with the manual or sequential dispatching methods, see <a href="/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">Dispatching Methods for I/O Requests</a>. 
 
-After calling <b>WdfIoQueueRetrieveRequestByFileObject</b> to obtain an I/O request, the driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-ownership">owns</a> the request and must <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">process the I/O request</a> in some manner.
+After calling <b>WdfIoQueueRetrieveRequestByFileObject</b> to obtain an I/O request, the driver <a href="/windows-hardware/drivers/wdf/request-ownership">owns</a> the request and must <a href="/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">process the I/O request</a> in some manner.
 
-For more information about the <b>WdfIoQueueRetrieveRequestByFileObject</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
+For more information about the <b>WdfIoQueueRetrieveRequestByFileObject</b> method, see <a href="/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
 
 #### Examples
@@ -155,9 +155,8 @@ status = WdfIoQueueRetrieveRequestByFileObject(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>
+<a href="/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievenextrequest">WdfIoQueueRetrieveNextRequest</a>
-
+<a href="/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievenextrequest">WdfIoQueueRetrieveNextRequest</a>

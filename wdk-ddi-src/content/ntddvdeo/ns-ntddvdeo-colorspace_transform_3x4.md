@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddvdeo._COLORSPACE_TRANSFORM_3x4
 title: COLORSPACE_TRANSFORM_3x4
-author: windows-driver-content
 description: Contains colorspace transform for 3x4 information.
 tech.root: display
 ms.assetid: 120bbf98-6e76-4ab2-98b3-d934d966baca
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_3x4 structure"]
 ms.keywords: COLORSPACE_TRANSFORM_3x4, COLORSPACE_TRANSFORM_3x4, *PCOLORSPACE_TRANSFORM_3x4,

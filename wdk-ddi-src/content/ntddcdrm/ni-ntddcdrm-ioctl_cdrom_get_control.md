@@ -62,7 +62,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_audio_control">CDROM_AUDIO_CONTROL</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_audio_control">CDROM_AUDIO_CONTROL</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 ### -output-buffer-length
 
@@ -78,5 +78,4 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_audio_control">CDROM_AUDIO_CONTROL</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_audio_control">CDROM_AUDIO_CONTROL</a>

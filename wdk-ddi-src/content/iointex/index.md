@@ -21,6 +21,5 @@ f1_keywords:
 
 This header exposes the programming interfaces to connect and disconnect interrupts allowing drivers to use those interfaces to run on downlevel systems. For more information, see:
 
-- [Registering an ISR](https://docs.microsoft.com/windows-hardware/drivers/kernel/registering-an-isr)
-- [Servicing Interrupts](https://docs.microsoft.com/windows-hardware/drivers/kernel/servicing-interrupts)
-
+- [Registering an ISR](/windows-hardware/drivers/kernel/registering-an-isr)
+- [Introduction to Interrupt Service Routines](/windows-hardware/drivers/kernel/introduction-to-interrupt-service-routines)

@@ -556,5 +556,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetparameters">ChangerGetParameters</a>
-
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetparameters">ChangerGetParameters</a>

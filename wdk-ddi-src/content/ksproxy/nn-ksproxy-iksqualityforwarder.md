@@ -46,11 +46,11 @@ api_name:
 
 ## -description
 
-The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin.
+The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -58,4 +58,3 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> inte
 ## -remarks
 
 The IID for this interface is IID_IKsQualityForwarder.
-

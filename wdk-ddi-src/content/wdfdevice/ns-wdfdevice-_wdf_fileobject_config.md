@@ -62,40 +62,40 @@ The size, in bytes, of this structure.
 
 ### -field EvtDeviceFileCreate
 
-A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function, or <b>NULL</b>.
 
 ### -field EvtFileClose
 
-A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback function, or <b>NULL</b>.
 
 ### -field EvtFileCleanup
 
-A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> callback function, or <b>NULL</b>.
 
 ### -field AutoForwardCleanupClose
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed value. For more information about this member, see the following Comments section.
+A <a href="/windows-hardware/drivers/ddi/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed value. For more information about this member, see the following Comments section.
 
 ### -field FileObjectClass
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WDF_FILEOBJECT_CLASS</a>-typed value that identifies whether the driver requires a framework file object to represent each file that an application or another driver creates or opens. Additionally, this value specifies where the framework can store the object's handle.
+A <a href="/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WDF_FILEOBJECT_CLASS</a>-typed value that identifies whether the driver requires a framework file object to represent each file that an application or another driver creates or opens. Additionally, this value specifies where the framework can store the object's handle.
 
 ## -remarks
 
-The <b>WDF_FILEOBJECT_CONFIG</b> structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetfileobjectconfig">WdfDeviceInitSetFileObjectConfig</a> method.
+The <b>WDF_FILEOBJECT_CONFIG</b> structure is used as input to the <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetfileobjectconfig">WdfDeviceInitSetFileObjectConfig</a> method.
 
-<b>WDF_FILEOBJECT_CONFIG</b> must be initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_fileobject_config_init">WDF_FILEOBJECT_CONFIG_INIT</a>.
+<b>WDF_FILEOBJECT_CONFIG</b> must be initialized by calling <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdf_fileobject_config_init">WDF_FILEOBJECT_CONFIG_INIT</a>.
 
 <h3><a id="Framework_Behavior_for_AutoForwardCleanupClose"></a><a id="framework_behavior_for_autoforwardcleanupclose"></a><a id="FRAMEWORK_BEHAVIOR_FOR_AUTOFORWARDCLEANUPCLOSE"></a>Framework Behavior for <b>AutoForwardCleanupClose</b></h3>
 If <b>AutoForwardCleanupClose</b> is set to <b>WdfTrue</b>, the framework does the following:
 
 <ul>
 <li>
-The framework forwards file creation requests to the next-lower driver if the driver does not provide an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function and has not called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurerequestdispatching">WdfDeviceConfigureRequestDispatching</a> to set an I/O queue to receive file creation requests. The framework does not forward file creation requests if the driver provides a callback function or a queue to handle the requests, so the driver must <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">forward</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">complete</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">cancel</a> the requests.
+The framework forwards file creation requests to the next-lower driver if the driver does not provide an <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function and has not called <a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurerequestdispatching">WdfDeviceConfigureRequestDispatching</a> to set an I/O queue to receive file creation requests. The framework does not forward file creation requests if the driver provides a callback function or a queue to handle the requests, so the driver must <a href="/windows-hardware/drivers/wdf/forwarding-i-o-requests">forward</a>, <a href="/windows-hardware/drivers/wdf/completing-i-o-requests">complete</a>, or <a href="/windows-hardware/drivers/wdf/canceling-i-o-requests">cancel</a> the requests.
 
 </li>
 <li>
-The framework sends file cleanup and close requests to the next-lower driver after calling the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback functions.
+The framework sends file cleanup and close requests to the next-lower driver after calling the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> and <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback functions.
 
 </li>
 </ul>
@@ -104,15 +104,15 @@ If <b>AutoForwardCleanupClose</b> is set to <b>WdfFalse</b>, the framework does 
 If <b>AutoForwardCleanupClose</b> is set to <b>WdfUseDefault</b>, the framework uses <b>WdfTrue</b> behavior for filter drivers and <b>WdfFalse</b> behavior for function drivers.
 
 <h3><a id="Driver_Behavior_for_AutoForwardCleanupClose"></a><a id="driver_behavior_for_autoforwardcleanupclose"></a><a id="DRIVER_BEHAVIOR_FOR_AUTOFORWARDCLEANUPCLOSE"></a>Driver Behavior for <b>AutoForwardCleanupClose</b></h3>
-Your driver's local I/O target must always receive an equal number of I/O requests with request types of <b>WdfRequestTypeCreate</b>, <b>WdfRequestTypeCleanup</b>, and <b>WdfRequestTypeClose</b>. Therefore, if the driver provides either an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function or an I/O queue that receives file creation requests, you must use the following rules:
+Your driver's local I/O target must always receive an equal number of I/O requests with request types of <b>WdfRequestTypeCreate</b>, <b>WdfRequestTypeCleanup</b>, and <b>WdfRequestTypeClose</b>. Therefore, if the driver provides either an <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function or an I/O queue that receives file creation requests, you must use the following rules:
 
 <ul>
 <li>
-If your driver sets <b>AutoForwardCleanupClose</b> to <b>WdfTrue</b>, the driver must forward all file creation requests to the local I/O target. You must follow this rule because the framework will forward all cleanup and close requests to the local target, whether or not your driver provides <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback functions.
+If your driver sets <b>AutoForwardCleanupClose</b> to <b>WdfTrue</b>, the driver must forward all file creation requests to the local I/O target. You must follow this rule because the framework will forward all cleanup and close requests to the local target, whether or not your driver provides <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> and <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback functions.
 
 </li>
 <li>
-If your driver sets <b>AutoForwardCleanupClose</b> to <b>WdfFalse</b>, the driver must <i>not</i> forward file creation requests to the local I/O target. You must follow this rule because the framework will <i>not</i> forward cleanup and close requests to the local target, whether or not your driver provides <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback functions.
+If your driver sets <b>AutoForwardCleanupClose</b> to <b>WdfFalse</b>, the driver must <i>not</i> forward file creation requests to the local I/O target. You must follow this rule because the framework will <i>not</i> forward cleanup and close requests to the local target, whether or not your driver provides <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> and <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback functions.
 
 </li>
 <li>
@@ -120,4 +120,3 @@ If your driver sets <b>AutoForwardCleanupClose</b> to <b>WdfDefault</b>, the dri
 
 </li>
 </ul>
-

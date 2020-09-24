@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>PcDestroyContent</b> function deletes a DRM content ID that was created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pccreatecontentmixed">PcCreateContentMixed</a>. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a> function, and its parameter definitions and return value are also identical.
+The <b>PcDestroyContent</b> function deletes a DRM content ID that was created by <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pccreatecontentmixed">PcCreateContentMixed</a>. Note that this function call is identical in operation to the <a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a> function, and its parameter definitions and return value are also identical.
 
 ## -parameters
 
@@ -58,17 +58,16 @@ Specifies a nonzero DRM content ID assigned to a KS audio stream by <b>DrmCreate
 
 ## -returns
 
-See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>.
+See return value definition in <a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>.
 
 ## -remarks
 
-For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>.
+For more information, see the comments in <a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>
+<a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pccreatecontentmixed">PcCreateContentMixed</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-pccreatecontentmixed">PcCreateContentMixed</a>

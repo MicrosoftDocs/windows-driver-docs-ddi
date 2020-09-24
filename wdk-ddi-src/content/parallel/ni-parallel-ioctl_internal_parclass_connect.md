@@ -47,14 +47,14 @@ api_name:
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
 
 The <b>IOCTL_INTERNAL_PARCLASS_CONNECT</b> request returns information about a parallel port and the callback routines that the system-supplied bus driver for parallel ports provides to operate the parallel port.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff543942(v=vs.85)">Connecting to a Parallel Device</a>.
+For more information, see <a href="/previous-versions/ff543942(v=vs.85)">Connecting to a Parallel Device</a>.
 
 ## -ioctlparameters
 
@@ -98,4 +98,3 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_parclass_disconnect.md">IOCTL_INTERNAL_PARCLASS_DISCONNECT</a>
-

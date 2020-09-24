@@ -71,15 +71,14 @@ void RtlZeroMemory(
 
 ## -remarks
 
-To zero out a memory buffer to erase security-sensitive data, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory">RtlSecureZeroMemory</a> instead.
+To zero out a memory buffer to erase security-sensitive data, use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory">RtlSecureZeroMemory</a> instead.
 
 Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory">RtlSecureZeroMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlsecurezeromemory">RtlSecureZeroMemory</a>

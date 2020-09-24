@@ -48,7 +48,7 @@ api_name:
 
 The <b>IOCTL_SERIAL_SET_MODEM_CONTROL</b> request sets the modem control register (MCR) in the UART. No parameter checking is done on the client-supplied register settings.
 
-To obtain the value of the MCR, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_modem_control">IOCTL_SERIAL_GET_MODEM_CONTROL</a> request.
+To obtain the value of the MCR, a client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_modem_control">IOCTL_SERIAL_GET_MODEM_CONTROL</a> request.
 
 ## -ioctlparameters
 
@@ -76,7 +76,7 @@ None.
 
 The <b>Information</b> member is set to zero.
 
-The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
+The <b>Status</b> member is set to one of the <a href="/windows-hardware/drivers/serports/serial-device-control-requests2">Generic Status Values for Serial Device Control Requests</a>.
 
 ## -remarks
 
@@ -86,5 +86,4 @@ For an example layout of an MCR, see the definition of the MCR bits (SERIAL_MCR_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_modem_control">IOCTL_SERIAL_GET_MODEM_CONTROL</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_modem_control">IOCTL_SERIAL_GET_MODEM_CONTROL</a>

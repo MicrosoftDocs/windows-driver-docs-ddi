@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>FsRtlRemovePerFileContext</b> routine returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> object that is associated with a file. <b>FsRtlRemovePerFileContext</b> removes the <b>FSRTL_PER_FILE_CONTEXT</b> object from the list it occupies, along with the associated driver specific context information.
+The <b>FsRtlRemovePerFileContext</b> routine returns a pointer to a <a href="/previous-versions/ff547352(v=vs.85)">FSRTL_PER_FILE_CONTEXT</a> object that is associated with a file. <b>FsRtlRemovePerFileContext</b> removes the <b>FSRTL_PER_FILE_CONTEXT</b> object from the list it occupies, along with the associated driver specific context information.
 
 ## -parameters
 
 ### -param PerFileContextPointer 
 
 [in]
-A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To obtain this pointer from a file object, use the <a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
+A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To obtain this pointer from a file object, use the <a href="/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
 ### -param OwnerId 
 
@@ -67,15 +67,15 @@ A pointer to a filter driver-allocated variable that can be used to distinguish 
 
 ## -returns
 
-A pointer to the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> that matches the <i>OwnerId</i> and <i>InstanceId</i>, if specified. If no match is found or if the system does not support per file context information, this routine returns <b>NULL</b>.
+A pointer to the first <a href="/previous-versions/ff547352(v=vs.85)">FSRTL_PER_FILE_CONTEXT</a> that matches the <i>OwnerId</i> and <i>InstanceId</i>, if specified. If no match is found or if the system does not support per file context information, this routine returns <b>NULL</b>.
 
 ## -remarks
 
 <b>FsRtlRemovePerFileContext</b> removes only the first matching per-file context structure that it finds. If there are additional matching per-file contexts, the filter driver must call <b>FsRtlRemovePerFileContext</b> as many times as required to remove them all.
 
-The file system filter driver must free the memory that is used for this context information after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> has been removed.
+The file system filter driver must free the memory that is used for this context information after the <a href="/previous-versions/ff547352(v=vs.85)">FSRTL_PER_FILE_CONTEXT</a> has been removed.
 
-Use this routine for your drivers to remove contexts only when the driver must discard per-file context information while the file is still open. Contexts are removed when a file is closed by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff547290">FsRtlTeardownPerFileContexts</a>.
+Use this routine for your drivers to remove contexts only when the driver must discard per-file context information while the file is still open. Contexts are removed when a file is closed by using <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlteardownperfilecontexts">FsRtlTeardownPerFileContexts</a>.
 
 <div class="alert"><b>Note</b>  <ul>
 <li>
@@ -92,21 +92,20 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a>
+<a href="/previous-versions/ff547352(v=vs.85)">FSRTL_PER_FILE_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a>
+<a href="/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlinsertperfilecontext">FsRtlInsertPerFileContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546930">FsRtlLookupPerFileContext</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtllookupperfilecontext">FsRtlLookupPerFileContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-
+<a href="/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>

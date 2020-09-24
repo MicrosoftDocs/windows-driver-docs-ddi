@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddk._MCI_STATUS
 title: MCI_STATUS
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 468fe430-d8d6-4736-956a-7639abd9c12b
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["MCI_STATUS structure"]
 ms.keywords: MCI_STATUS, MCI_STATUS, *PMCI_STATUS,

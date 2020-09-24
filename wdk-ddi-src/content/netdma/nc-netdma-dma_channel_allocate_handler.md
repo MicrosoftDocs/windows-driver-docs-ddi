@@ -58,14 +58,14 @@ in Windows 8 and later.</div><div> </div>The
 [in]
 A pointer that identifies a DMA provider's context area. The DMA provider driver passes this
      handle to the NetDMA interface in a call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
+     <a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
 ### -param ChannelParameters 
 
 [in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
+     <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
      NET_DMA_CHANNEL_PARAMETERS</a> structure that defines the configuration parameters for the DMA
      channel.
 
@@ -136,12 +136,12 @@ The NetDMA interface calls a DMA provider driver's
 The DMA provider driver attempts to allocate a DMA channel with an interrupt CPU affinity that matches
     a bit that is specified in the 
     <b>ProcessorAffinityMask</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
+    <a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">
     NET_DMA_CHANNEL_PARAMETERS</a> structure at the 
     <i>ChannelParameters</i> parameter. If MSI-X is not supported or MSI-X is supported but a DMA channel with
     a matching interrupt CPU affinity is not available, the DMA provider driver allocates any available DMA
     channel and calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesettargetprocessordpc">KeSetTargetProcessorDpc</a> routine to
+    <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesettargetprocessordpc">KeSetTargetProcessorDpc</a> routine to
     set the target CPU of the interrupt DPC to match one of the specified affinity mask bits.
 
 The DMA provider always driver returns the CPU number that it associated with the interrupt DPC for
@@ -160,7 +160,7 @@ When the NetDMA interface calls
     <b>NetDma<i>Xxx</i></b> functions that are associated with the DMA channel.
 
 The NetDMA interface calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_free_handler">ProviderFreeDmaChannel</a> function to
+    <a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_free_handler">ProviderFreeDmaChannel</a> function to
     free a previously allocated DMA channel.
 
 NetDMA calls 
@@ -168,17 +168,16 @@ NetDMA calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesettargetprocessordpc">KeSetTargetProcessorDpc</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesettargetprocessordpc">KeSetTargetProcessorDpc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
+<a href="/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_free_handler">ProviderFreeDmaChannel</a>
-
+<a href="/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_free_handler">ProviderFreeDmaChannel</a>

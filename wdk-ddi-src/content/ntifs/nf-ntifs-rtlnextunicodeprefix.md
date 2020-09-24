@@ -53,7 +53,7 @@ The <b>RtlNextUnicodePrefix</b> routine is used to enumerate the elements in a U
 ### -param PrefixTable 
 
 [in]
-Pointer to the prefix table. The table must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>.
+Pointer to the prefix table. The table must have been initialized by calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>.
 
 ### -param Restart 
 
@@ -62,20 +62,15 @@ Set to <b>TRUE</b> if the enumeration is to start at the first element in the ta
 
 To enumerate all elements in the table, use <b>RtlNextUnicodePrefix</b> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>for (p = RtlNextUnicodePrefix ( Table, TRUE );
+
+```
+for (p = RtlNextUnicodePrefix ( Table, TRUE );
      p != NULL;
      p = RtlNextUnicodePrefix ( Table, FALSE )) {
         // Process the element pointed to by p
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -returns
 
@@ -83,25 +78,24 @@ To enumerate all elements in the table, use <b>RtlNextUnicodePrefix</b> as follo
 
 ## -remarks
 
-File systems must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a> to initialize the prefix table before using any other <b>Rtl..UnicodePrefix</b> routines on it. The initialized prefix table structure should be considered opaque.
+File systems must call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a> to initialize the prefix table before using any other <b>Rtl..UnicodePrefix</b> routines on it. The initialized prefix table structure should be considered opaque.
 
 Callers of the <b>Rtl..UnicodePrefix</b> routines are responsible for synchronizing access to the prefix table. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfindunicodeprefix">RtlFindUnicodePrefix</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfindunicodeprefix">RtlFindUnicodePrefix</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinitializeunicodeprefix">RtlInitializeUnicodePrefix</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinsertunicodeprefix">RtlInsertUnicodePrefix</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlinsertunicodeprefix">RtlInsertUnicodePrefix</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlremoveunicodeprefix">RtlRemoveUnicodePrefix</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlremoveunicodeprefix">RtlRemoveUnicodePrefix</a>

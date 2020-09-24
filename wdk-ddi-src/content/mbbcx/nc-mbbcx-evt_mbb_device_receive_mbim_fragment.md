@@ -83,7 +83,7 @@ In this callback function, the client driver puts the response MBIM message into
 
 To access the pre-allocated buffer space and its size, the client driver should call [**MbbRequestGetBuffer**](nf-mbbcx-mbbrequestgetbuffer.md). Once the client driver fills this buffer space with the response message, or a fragment of the response message, it must call [**MbbRequestCompleteWithInformation**](nf-mbbcx-mbbrequestcompletewithinformation.md) with the number of bytes actually being filled. This can be done either asychronously or sychronously.
 
-For more information, see [Handling MBIM control messages](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
+For more information, see [Handling MBIM control messages](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
 
 ### Example
 
@@ -115,4 +115,3 @@ EvtMbbDeviceReceiveMbimFragment(
 ```
 
 ## -see-also
-

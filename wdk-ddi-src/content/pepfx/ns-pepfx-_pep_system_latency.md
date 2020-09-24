@@ -60,9 +60,8 @@ The <b>PEP_SYSTEM_LATENCY</b> structure specifies the new value for the system l
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_system_latency">PEP_DPM_SYSTEM_LATENCY_UPDATE</a> notification. The <b>Latency</b> member of the structure contains an input value that is supplied by the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">power management framework</a> (PoFx).
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_system_latency">PEP_DPM_SYSTEM_LATENCY_UPDATE</a> notification. The <b>Latency</b> member of the structure contains an input value that is supplied by the Windows <a href="/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">power management framework</a> (PoFx).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_system_latency">PEP_DPM_SYSTEM_LATENCY_UPDATE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_system_latency">PEP_DPM_SYSTEM_LATENCY_UPDATE</a>

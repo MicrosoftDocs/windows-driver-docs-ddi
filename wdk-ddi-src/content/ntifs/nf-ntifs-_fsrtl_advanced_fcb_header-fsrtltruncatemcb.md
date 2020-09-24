@@ -49,7 +49,7 @@ dev_langs:
 
 ## -description
 
-The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb">FsRtlTruncateLargeMcb</a> instead.
+The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb">FsRtlTruncateLargeMcb</a> instead.
 
 ## -parameters
 
@@ -60,4 +60,3 @@ The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support exis
 ### -param Vbn
 
 Reserved.
-

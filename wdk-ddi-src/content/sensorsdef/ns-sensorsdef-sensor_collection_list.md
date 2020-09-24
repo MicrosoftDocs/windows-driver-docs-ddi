@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-This structure contains a list of all <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
+This structure contains a list of all <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Represents the number of used entries in List.
 
 ### -field List
 
-A list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> structures.
+A list of <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> structures.
 
 ## -remarks
 
@@ -70,13 +70,12 @@ The SENSOR_COLLECTION_LIST structure works with the following helper functions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/nf-sensorsdef-sensor_collection_list_init">SENSOR_COLLECTION_LIST_INIT</a>
+<a href="/windows-hardware/drivers/ddi/sensorsdef/nf-sensorsdef-sensor_collection_list_init">SENSOR_COLLECTION_LIST_INIT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/nf-sensorsdef-sensor_collection_list_size">SENSOR_COLLECTION_LIST_SIZE</a>
+<a href="/windows-hardware/drivers/ddi/sensorsdef/nf-sensorsdef-sensor_collection_list_size">SENSOR_COLLECTION_LIST_SIZE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/nf-sensorsdef-sensor_collection_list_calculate_max_count">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
+<a href="/windows-hardware/drivers/ddi/sensorsdef/nf-sensorsdef-sensor_collection_list_calculate_max_count">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
 </li>
 </ul>
-

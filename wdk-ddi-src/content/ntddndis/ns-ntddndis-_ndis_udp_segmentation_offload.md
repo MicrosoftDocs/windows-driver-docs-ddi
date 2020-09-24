@@ -73,7 +73,7 @@ A ULONG value that specifies whether all segments that a miniport driver derives
 
 The driver should set the value of **SubMssFinalSegmentSupported** to **NDIS_OFFLOAD_SUPPORTED** if the miniport is capable of segmenting UDP sends where the total length of the large packet has a non-zero remainder when divided by **MSS**. When miniport driver support is indicated via this flag, the protocol driver is permitted to issue large UDP sends where the UDP payload length of the final segmented packet is less than **MSS**.
 
-For more information, see [UDP Segmentation Offload (USO)](https://docs.microsoft.com/windows-hardware/drivers/network/udp-segmentation-offload-uso-).
+For more information, see [UDP Segmentation Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-).
 
 ### -field IPv4.Reserved
 
@@ -101,7 +101,7 @@ A ULONG value that specifies whether all segments that a miniport driver derives
 
 The driver should set the value of **SubMssFinalSegmentSupported** to **NDIS_OFFLOAD_SUPPORTED** if the miniport is capable of segmenting UDP sends where the total length of the large packet has a non-zero remainder when divided by **MSS**. When miniport driver support is indicated via this flag, the protocol driver is permitted to issue large UDP sends where the UDP payload length of the final segmented packet is less than **MSS**.
 
-For more information, see [UDP Segmentation Offload (USO)](https://docs.microsoft.com/windows-hardware/drivers/network/udp-segmentation-offload-uso-).
+For more information, see [UDP Segmentation Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-).
 
 ### -field IPv6.Reserved1
 
@@ -121,15 +121,15 @@ Miniport drivers should set the values of this structure's fields and encapsulat
 
 The **NDIS_UDP_SEGMENTATION_OFFLOAD** structure is used in the **UdpSegmentation** member of the [**NDIS_OFFLOAD**](../ntddndis/ns-ntddndis-_ndis_offload.md) structure. **NDIS_UDP_SEGMENTATION_OFFLOAD** specifies current or supported services that a miniport adapter provides for segmenting large UDP packets into smaller packets.
 
-[**NDIS_OFFLOAD**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload) is used in the [**NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes) structure, [**NDIS_BIND_PARAMETERS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters) structure, [**NDIS_FILTER_ATTACH_PARAMETERS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attach_parameters) structure, [OID_TCP_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config) OID, and the [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config) status indication.
+[**NDIS_OFFLOAD**](/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload) is used in the [**NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES**](/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes) structure, [**NDIS_BIND_PARAMETERS**](/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters) structure, [**NDIS_FILTER_ATTACH_PARAMETERS**](/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attach_parameters) structure, [OID_TCP_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/oid-tcp-offload-current-config) OID, and the [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/ndis-status-task-offload-current-config) status indication.
 
-For  [OID_TCP_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config), the [**NDIS_OFFLOAD**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload) structure specifies the task offload capabilities that a miniport adapter supports. If the current offloads capabilities change, a miniport driver reports the new capabilities in an [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config) status indication.
+For  [OID_TCP_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/oid-tcp-offload-current-config), the [**NDIS_OFFLOAD**](/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload) structure specifies the task offload capabilities that a miniport adapter supports. If the current offloads capabilities change, a miniport driver reports the new capabilities in an [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/ndis-status-task-offload-current-config) status indication.
 
 The **Encapsulation** members of **NDIS_UDP_SEGMENTATION_OFFLOAD** define the UDP encapsulation settings for the miniport adapter.
 
-In response to an [OID_TCP_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config) query request, NDIS provides a bitwise OR of the encapsulation flags, which indicate the supported encapsulation settings, in each of the  **Encapsulation** members. Miniport drivers must provide Ethernet encapsulation (NDIS_ENCAPSULATION_IEEE_802_3). The other types of encapsulation are optional.
+In response to an [OID_TCP_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/oid-tcp-offload-current-config) query request, NDIS provides a bitwise OR of the encapsulation flags, which indicate the supported encapsulation settings, in each of the  **Encapsulation** members. Miniport drivers must provide Ethernet encapsulation (NDIS_ENCAPSULATION_IEEE_802_3). The other types of encapsulation are optional.
 
-For an [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config) status indication, the miniport driver provides a bitwise OR of the encapsulation flags, which indicate the current capabilities, in each of the **Encapsulation** members.
+For an [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/ndis-status-task-offload-current-config) status indication, the miniport driver provides a bitwise OR of the encapsulation flags, which indicate the current capabilities, in each of the **Encapsulation** members.
 
 The following flags are defined for the **Encapsulation** members:
 
@@ -153,5 +153,4 @@ Specifies logical link control (LLC) encapsulation for routed protocols, as desc
 
 ## -see-also
 
-[UDP Segmentation Offload (USO)](https://docs.microsoft.com/windows-hardware/drivers/network/udp-segmentation-offload-uso-)
-
+[UDP Segmentation Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-)

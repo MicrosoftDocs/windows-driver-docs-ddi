@@ -53,7 +53,7 @@ The <b>RtlEnumerateGenericTableLikeADirectory</b> routine returns the elements o
 ### -param Table 
 
 [in]
-A pointer to the Adelson-Velsky/Landis (AVL) table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>) that will be enumerated.
+A pointer to the Adelson-Velsky/Landis (AVL) table (<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>) that will be enumerated.
 
 ### -param MatchFunction 
 
@@ -75,13 +75,9 @@ If <i>RestartKey</i> is not <b>NULL</b>, a value of <b>TRUE</b> indicates that t
 [in, out]
 A value that determines where to begin or resume the enumeration of generic table elements. If <i>RestartKey</i> is <b>NULL</b>, the enumeration begins or resumes from the position that is described in <i>Buffer</i>. If not <b>NULL</b>, the enumeration resumes from the point that <i>RestartKey</i> indicates. On return, the <i>RestartKey</i> holds a value that indicates the place in the tree where the enumeration left off. On the next call to <b>RtlEnumerateGenericTableLikeADirectory</b> caller should pass the same value back in to inform <b>RtlEnumerateGenericTableLikeADirectory</b> where to resume the enumeration. The following code example illustrates how to do this:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NextFlag = FALSE;
+
+```
+NextFlag = FALSE;
 RestartKey = NULL;
 DeleteCount = 0;
 // Initialize Buffer for start/resume point
@@ -99,10 +95,9 @@ for (ptr = NULL; ptr != NULL;  ) {
   // is called in the next iteration of this loop.
   // This ensures that the enumeration will pick up
   // where it left off.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 If a node is deleted from the tree between calls to <b>RtlEnumerateGenericTableLikeADirectory</b>, enumeration resumes from the position in the tree that is described in <i>Buffer</i>, no matter what the value of <i>RestartKey</i>.
 
 ### -param DeleteCount 
@@ -129,16 +124,11 @@ There are four routines you can use to enumerate a generic table:
 
 By default, the operating system uses splay trees to implement generic tables, but the <b>RtlEnumerateGenericTableLikeADirectory</b> routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including Ntddk.h:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre> #define RTL_USE_AVL_TABLES 0</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ #define RTL_USE_AVL_TABLES 0
+```
+
 If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. 
 
 Callers of <b>RtlEnumerateGenericTableLikeADirectory</b> must be running at IRQL <= APC_LEVEL if either of the following conditions holds:
@@ -156,13 +146,12 @@ The caller-supplied <i>MatchFunction</i> contains pageable code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictable">RtlEnumerateGenericTable</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictable">RtlEnumerateGenericTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplaying">RtlEnumerateGenericTableWithoutSplaying</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplaying">RtlEnumerateGenericTableWithoutSplaying</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetelementgenerictable">RtlGetElementGenericTable</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetelementgenerictable">RtlGetElementGenericTable</a>

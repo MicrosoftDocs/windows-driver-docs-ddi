@@ -72,7 +72,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -80,17 +80,16 @@ Must be called at IRQL = PASSIVE_LEVEL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_subunit_addr_spec">AVC_SUBUNIT_ADDR_SPEC</a>
+<a href="/windows-hardware/drivers/ddi/avc/ns-avc-_avc_subunit_addr_spec">AVC_SUBUNIT_ADDR_SPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_class">IOCTL_AVC_CLASS</a>
+<a href="/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_class">IOCTL_AVC_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_remove_virtual_subunit_info">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
+<a href="/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_remove_virtual_subunit_info">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_update_virtual_subunit_info">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_update_virtual_subunit_info">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>

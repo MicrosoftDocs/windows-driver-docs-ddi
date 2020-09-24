@@ -56,27 +56,27 @@ The D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure describes a blend state for a 
 
 ### -field SrcBlend
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the source for the enabled render target.
+[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the source for the enabled render target.
 
 ### -field DestBlend
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the destination for the enabled render target.
+[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the destination for the enabled render target.
 
 ### -field BlendOp
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a>-typed value that indicates the blending operation for the enabled render target.
+[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a>-typed value that indicates the blending operation for the enabled render target.
 
 ### -field SrcBlendAlpha
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the source for the enabled render target.
+[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the source for the enabled render target.
 
 ### -field DestBlendAlpha
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the destination for the enabled render target.
+[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the destination for the enabled render target.
 
 ### -field BlendOpAlpha
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a>-typed value that indicates the transparency blending operation for the enabled render target.
+[in] A <a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a>-typed value that indicates the transparency blending operation for the enabled render target.
 
 ### -field RenderTargetWriteMask
 
@@ -92,25 +92,24 @@ The D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure describes a blend state for a 
 
 ## -remarks
 
-An array of D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structures are specified in the <b>RenderTarget</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_1_ddi_blend_desc">D3D10_1_DDI_BLEND_DESC</a> structure to describe a blend state.
+An array of D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structures are specified in the <b>RenderTarget</b> member of the <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_1_ddi_blend_desc">D3D10_1_DDI_BLEND_DESC</a> structure to describe a blend state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize">CalcPrivateBlendStateSize(D3D10_1)</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize">CalcPrivateBlendStateSize(D3D10_1)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10_1ddi_createblendstate">CreateBlendState(D3D10_1)</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10_1ddi_createblendstate">CreateBlendState(D3D10_1)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_1_ddi_blend_desc">D3D10_1_DDI_BLEND_DESC</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_1_ddi_blend_desc">D3D10_1_DDI_BLEND_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend">D3D10_DDI_BLEND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d10_ddi_blend_op">D3D10_DDI_BLEND_OP</a>

@@ -72,5 +72,4 @@ For more information about how ATL implements this functionality, see the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFActions2</a>
-
+<a href="/windows-hardware/drivers/ddi/index">IWDTFActions2</a>

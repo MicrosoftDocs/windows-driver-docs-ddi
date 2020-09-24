@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>PoUnregisterPowerSettingCallback</b> routine unregisters a power-setting callback routine that a driver previously registered by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterpowersettingcallback">PoRegisterPowerSettingCallback</a> routine.
+The <b>PoUnregisterPowerSettingCallback</b> routine unregisters a power-setting callback routine that a driver previously registered by calling the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterpowersettingcallback">PoRegisterPowerSettingCallback</a> routine.
 
 ## -parameters
 
@@ -96,5 +96,4 @@ A driver must call <b>PoUnregisterPowerSettingCallback</b> to unregister each ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterpowersettingcallback">PoRegisterPowerSettingCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregisterpowersettingcallback">PoRegisterPowerSettingCallback</a>

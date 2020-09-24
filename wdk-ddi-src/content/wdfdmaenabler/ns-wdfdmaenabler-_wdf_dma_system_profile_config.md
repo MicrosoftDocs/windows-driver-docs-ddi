@@ -75,29 +75,28 @@ The width of the register specified by <b>DeviceAddress</b>. Possible values are
 
 ### -field DeviceAddress
 
-The translated address to or from which the DMA controller transfers. The driver can specify an offset from this base address on each transaction by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsetdeviceaddressoffset">WdfDmaTransactionSetDeviceAddressOffset</a>.
+The translated address to or from which the DMA controller transfers. The driver can specify an offset from this base address on each transaction by calling <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsetdeviceaddressoffset">WdfDmaTransactionSetDeviceAddressOffset</a>.
 
 ### -field DmaDescriptor
 
 The translated resource descriptor for the DMA channel assigned 
-      the device during <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>. This provides the DMA request line for the adapter.
+      the device during <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>. This provides the DMA request line for the adapter.
 
 ## -remarks
 
-The driver provides this structure to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile">WdfDmaEnablerConfigureSystemProfile</a> after creating a system-profile DMA enabler.
+The driver provides this structure to <a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile">WdfDmaEnablerConfigureSystemProfile</a> after creating a system-profile DMA enabler.
 
-Typically, drivers set <b>DemandMode</b> to TRUE.   The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> callback function then programs the device to assert its DMA request line and initiate the transfer.  In this case, the transfer might begin while <i>EvtProgramDma</i> is still running.
+Typically, drivers set <b>DemandMode</b> to TRUE.   The driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> callback function then programs the device to assert its DMA request line and initiate the transfer.  In this case, the transfer might begin while <i>EvtProgramDma</i> is still running.
 
-The driver must ensure that the device's DMA request line is not asserted before the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> callback function begins execution. Otherwise, it is possible for the DMA transfer to begin before the framework calls <i>EvtProgramDma</i>.
+The driver must ensure that the device's DMA request line is not asserted before the driver's <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> callback function begins execution. Otherwise, it is possible for the DMA transfer to begin before the framework calls <i>EvtProgramDma</i>.
 
 
-If <b>DemandMode</b> is set to FALSE, the DMA transfer may begin before the framework calls the driver’s <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> function.
+If <b>DemandMode</b> is set to FALSE, the DMA transfer may begin before the framework calls the driver’s <a href="/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_program_dma">EvtProgramDma</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdf_dma_system_profile_config_init">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
+<a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdf_dma_system_profile_config_init">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile">WdfDmaEnablerConfigureSystemProfile</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile">WdfDmaEnablerConfigureSystemProfile</a>

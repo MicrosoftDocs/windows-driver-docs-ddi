@@ -64,12 +64,12 @@ Specifies the file handle of the file to write the crash dump to.  If <i>FileHan
 ### -param Qualifier 
 
 [in]
-Specifies the type of dump to create.  For possible values, see <a href="https://docs.microsoft.com/previous-versions/ff541472(v=vs.85)">DEBUG_DUMP_XXX</a>.
+Specifies the type of dump to create.  For possible values, see <a href="/previous-versions/ff541472(v=vs.85)">DEBUG_DUMP_XXX</a>.
 
 ### -param FormatFlags 
 
 [in]
-Specifies flags that determine the format of the dump file and--for user-mode minidumps--what information to include in the file.  For details, see <a href="https://docs.microsoft.com/previous-versions/ff541497(v=vs.85)">DEBUG_FORMAT_XXX</a>.
+Specifies flags that determine the format of the dump file and--for user-mode minidumps--what information to include in the file.  For details, see <a href="/previous-versions/ff541497(v=vs.85)">DEBUG_FORMAT_XXX</a>.
 
 ### -param Comment 
 
@@ -78,7 +78,7 @@ Specifies a comment string to be included in the crash dump file.  This string i
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -100,21 +100,20 @@ The method was successful.
 
 ## -remarks
 
-For more information about crash dump files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dump-file-targets">Dump-File Targets</a>.
+For more information about crash dump files, see <a href="/windows-hardware/drivers/debugger/dump-file-targets">Dump-File Targets</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-dump--create-dump-file-">.dump (Create Dump File)</a>
+<a href="/windows-hardware/drivers/debugger/-dump--create-dump-file-">.dump (Create Dump File)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-writedumpfile2">WriteDumpFile2</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-writedumpfile2">WriteDumpFile2</a>

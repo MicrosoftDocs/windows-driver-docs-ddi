@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The OutputContextStackTraceEx method prints the call stack specified by an array of stack frames and corresponding register contexts. The OutputContextStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-optimized-code-and-inline-functions-external">Debugging Optimized Code and Inline Functions</a>.
+The OutputContextStackTraceEx method prints the call stack specified by an array of stack frames and corresponding register contexts. The OutputContextStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="/windows-hardware/drivers/debugger/debugging-optimized-code-and-inline-functions-external">Debugging Optimized Code and Inline Functions</a>.
 
 ## -parameters
 
 ### -param OutputControl 
 
 [in]
-Specifies where to send the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
+Specifies where to send the output.  For possible values, see <a href="/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 ### -param Frames 
 
@@ -204,7 +204,7 @@ Displays each parameter and its type and value on a new line.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -226,5 +226,4 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>

@@ -49,7 +49,7 @@ api_name:
 The filter engine calls a callout's 
   <i>completionFn</i> callout function whenever packet data, described by the 
   <i>netBufferList</i> parameter in one of the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, has been
+  <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, has been
   injected into the network stack.
 
 ## -parameters
@@ -59,7 +59,7 @@ The filter engine calls a callout's
 [in]
 A pointer to the 
      <i>completionContext</i> parameter of one of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
+     <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
      by the callout driver.
 
 ### -param netBufferList 
@@ -67,7 +67,7 @@ A pointer to the
 [in, out]
 The pointer passed in the 
      <i>netBufferList</i> parameter of one of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
+     <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> called
      by the callout driver.
 
 ### -param dispatchLevel 
@@ -84,34 +84,29 @@ A value that indicates the IRQL at which the
 The FWPS_INJECT_COMPLETE0 type is defined as a pointer to the 
     <i>completionFn</i> function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef void (NTAPI *FWPS_INJECT_COMPLETE0) completionFn</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef void (NTAPI *FWPS_INJECT_COMPLETE0) completionFn
+```
+
 The 
     <b>Status</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pointed to by 
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pointed to by 
     <i>NetBufferList</i> indicates the result of the injection operation.
 
-After packet data in a cloned or created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure chain has successfully been
+After packet data in a cloned or created <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure chain has successfully been
     injected into the network stack by one of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, 
+    <a href="/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>, 
     <i>completionFn</i> is called.
 
 If the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a> function is
-    called to inject a chain of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures, 
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a> function is
+    called to inject a chain of <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures, 
     <i>completionFn</i> will be called once for each <b>NET_BUFFER_LIST</b> in the chain, each time using the same 
     <i>completionContext</i> parameter specified in 
     <b>FwpsStreamInjectAsync0</b>. In this case, the callout driver's 
     <i>completionFn</i> implementation should call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a> to
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a> to
     free the currently indicated <b>NET_BUFFER_LIST</b>.
 
 The filter engine calls a callout's 
@@ -119,37 +114,36 @@ The filter engine calls a callout's
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
+<a href="/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">FwpsInjectionHandleCreate0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">FwpsInjectionHandleCreate0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandledestroy0">FwpsInjectionHandleDestroy0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsinjectionhandledestroy0">FwpsInjectionHandleDestroy0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
-
+<a href="/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>

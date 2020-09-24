@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PEP_SOC_SUBSYSTEM_METADATA</b> structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a> notification sent to a platform extension plug-in (PEP).
+The <b>PEP_SOC_SUBSYSTEM_METADATA</b> structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a> notification sent to a platform extension plug-in (PEP).
 
 ## -struct-fields
 
@@ -92,9 +92,8 @@ Since this memory is pre-allocated, its size cannot be changed. The PEP is respo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_soc_subsystem_metadata">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_soc_subsystem_metadata">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_query_soc_subsystem_metadata">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>

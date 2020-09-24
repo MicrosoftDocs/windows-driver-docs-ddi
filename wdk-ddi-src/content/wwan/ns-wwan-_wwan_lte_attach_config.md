@@ -65,9 +65,8 @@ This structure is used in the [**NDIS_WWAN_LTE_ATTACH_CONTEXTS**](../ndiswwan/ns
 
 ## -see-also
 
-[MB LTE Attach Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-lte-attach-operations)
+[MB LTE Attach Operations](/windows-hardware/drivers/network/mb-lte-attach-operations)
 
 [**NDIS_WWAN_LTE_ATTACH_CONTEXTS**](../ndiswwan/ns-ndiswwan-_ndis_wwan_lte_attach_contexts.md)
 
 [**WWAN_CONTEXT_V2**](ns-wwan-_wwan_context_v2.md)
-

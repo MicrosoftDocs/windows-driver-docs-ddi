@@ -74,9 +74,8 @@ Reserved for system use.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetpagingiopriority">IoGetPagingIoPriority</a> routine returns an <b>IO_PAGING_PRIORITY</b> value to indicate the priority value of a paging I/O IRP.
+The <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetpagingiopriority">IoGetPagingIoPriority</a> routine returns an <b>IO_PAGING_PRIORITY</b> value to indicate the priority value of a paging I/O IRP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetpagingiopriority">IoGetPagingIoPriority</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetpagingiopriority">IoGetPagingIoPriority</a>

@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>RtlUnicodeStringCat</b> function concatenates two strings that are contained in <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures.
+The <b>RtlUnicodeStringCat</b> function concatenates two strings that are contained in <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures.
 
 ## -parameters
 
@@ -114,7 +114,7 @@ This <i>error</i> status means that the function received an invalid input param
 <li>A buffer pointer is <b>NULL</b>.</li>
 <li>The destination buffer's length is zero, but a nonzero length source string is present.</li>
 </ul>
-For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 ## -remarks
 
@@ -122,15 +122,14 @@ The <b>RtlUnicodeStringCat</b> function uses the destination buffer's size to en
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>SourceString</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcatex">RtlUnicodeStringCatEx</a>.
+The <i>SourceString</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcatex">RtlUnicodeStringCatEx</a>.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcatex">RtlUnicodeStringCatEx</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcatex">RtlUnicodeStringCatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

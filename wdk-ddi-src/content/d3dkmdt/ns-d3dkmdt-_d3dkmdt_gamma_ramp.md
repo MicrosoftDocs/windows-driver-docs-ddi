@@ -54,7 +54,7 @@ The D3DKMDT_GAMMA_RAMP structure contains descriptive information about a gamma 
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_gammaramp_type">D3DDDI_GAMMARAMP_TYPE</a> enumerator that specifies the format of the lookup table.
+A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_gammaramp_type">D3DDDI_GAMMARAMP_TYPE</a> enumerator that specifies the format of the lookup table.
 
 ### -field DataSize
 
@@ -66,11 +66,11 @@ The size, in bytes, of the lookup table pointed to by <i>Data</i>.
 
 ### -field Data.pRgb256x3x16
 
-If <b>Type</b> is equal to D3DDDI_GAMMARAMP_RGB256x3x16, this member is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16">D3DDDI_GAMMA_RAMP_RGB256x3x16</a> structure that contains the lookup table.
+If <b>Type</b> is equal to D3DDDI_GAMMARAMP_RGB256x3x16, this member is a pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16">D3DDDI_GAMMA_RAMP_RGB256x3x16</a> structure that contains the lookup table.
 
 ### -field Data.pDxgi1
 
-If <b>Type</b> is equal to D3DDDI_GAMMARAMP_DXGI_1, this member is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1">D3DDDI_GAMMA_RAMP_DXGI_1</a> structure that contains the lookup table.
+If <b>Type</b> is equal to D3DDDI_GAMMARAMP_DXGI_1, this member is a pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1">D3DDDI_GAMMA_RAMP_DXGI_1</a> structure that contains the lookup table.
 
 ### -field Data.p3x4
 
@@ -82,5 +82,4 @@ This member provides an alternative way to access the lookup table data. For exa
 
 ## -remarks
 
-The <b>GammaRamp</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_GAMMA_RAMP structure.
-
+The <b>GammaRamp</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_GAMMA_RAMP structure.

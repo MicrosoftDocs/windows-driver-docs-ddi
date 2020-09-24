@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>VideoPortGetCommonBuffer</b> function is <b>obsolete</b> in Windows XP and later, and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatecommonbuffer">VideoPortAllocateCommonBuffer</a>.
+The <b>VideoPortGetCommonBuffer</b> function is <b>obsolete</b> in Windows XP and later, and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportallocatecommonbuffer">VideoPortAllocateCommonBuffer</a>.
 
 <b>VideoPortGetCommonBuffer</b> allocates and maps system memory so that it is simultaneously accessible from both the processor and a device for common-buffer DMA operations.
 
@@ -88,9 +88,8 @@ Specifies whether the allocated memory can be cached.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+See <a href="/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatecommonbuffer">VideoPortAllocateCommonBuffer</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportallocatecommonbuffer">VideoPortAllocateCommonBuffer</a>

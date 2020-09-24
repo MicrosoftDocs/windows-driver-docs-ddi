@@ -48,9 +48,9 @@ api_name:
 
 The <b>DrvUpgradeRegistrySetting</b> function is obsolete.
 
- Windows 2000 and later UI plug-ins should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupgraderegistrysetting">IPrintOemDriverUI::DrvUpgradeRegistrySetting</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-drvupgraderegistrysetting">IPrintCoreUI2::DrvUpgradeRegistrySetting</a>.
+ Windows 2000 and later UI plug-ins should use <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverui-drvupgraderegistrysetting">IPrintOemDriverUI::DrvUpgradeRegistrySetting</a> or <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-drvupgraderegistrysetting">IPrintCoreUI2::DrvUpgradeRegistrySetting</a>.
 
-This function pointer prototype defines the type of the <i>pfnUpgrade</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nf-printoem-oemupgraderegistry">OEMUpgradeRegistry</a> function.
+This function pointer prototype defines the type of the <i>pfnUpgrade</i> parameter of the <a href="/windows-hardware/drivers/ddi/printoem/nf-printoem-oemupgraderegistry">OEMUpgradeRegistry</a> function.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ This function pointer prototype defines the type of the <i>pfnUpgrade</i> parame
 ### -param pFeature
 
 ### -param pOption
-

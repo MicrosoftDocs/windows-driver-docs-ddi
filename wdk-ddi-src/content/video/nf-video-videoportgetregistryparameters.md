@@ -69,7 +69,7 @@ Pointer to the miniport driver's [HwVidQueryNamedValueCallback](nc-video-pminipo
 
 ### -param Context
 
-Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>, typically the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> buffer.
+Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>, typically the <a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> buffer.
 
 ## -returns
 
@@ -77,43 +77,42 @@ Pointer to a caller-determined context parameter to be passed to the <i>Callback
 
 ## -remarks
 
-<b>VideoPortGetRegistryParameters</b> cannot be called from a miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_timer">HwVidTimer</a> functions, or from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>, or from a callback to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>.
+<b>VideoPortGetRegistryParameters</b> cannot be called from a miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> or <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_timer">HwVidTimer</a> functions, or from <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>, or from a callback to <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>.
 
 For Windows XP and later operating system versions, the <i>ParameterName</i> parameter can contain a path that exactly references a value name one or more levels below the <b>adapter</b> key. For example, the string "SubKey1\Value1" can be used to obtain the value entry for the Value1 value number under the SubKey1 subkey. 
 
-The registry key from which <b>VideoPortGetRegistryParameters</b> retrieves configuration information cannot contain any information about the corresponding display driver, because miniport driver <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a> functions execute before any display driver is loaded.
+The registry key from which <b>VideoPortGetRegistryParameters</b> retrieves configuration information cannot contain any information about the corresponding display driver, because miniport driver <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a> functions execute before any display driver is loaded.
 
 Miniport drivers should not query configuration information stored in the <b>DefaultSettings</b> entries, which may not be supported in later versions of the operating system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_initialize">HwVidInitialize</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_initialize">HwVidInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_query_device_routine">HwVidQueryDeviceCallback</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_query_device_routine">HwVidQueryDeviceCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_get_registry_routine">HwVidQueryNamedValueCallback</a>
+<a href="/windows-hardware/drivers/ddi/video/nc-video-pminiport_get_registry_routine">HwVidQueryNamedValueCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
+<a href="/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportflushregistry">VideoPortFlushRegistry</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportflushregistry">VideoPortFlushRegistry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicedata">VideoPortGetDeviceData</a>
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportgetdevicedata">VideoPortGetDeviceData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsetregistryparameters">VideoPortSetRegistryParameters</a>
-
+<a href="/windows-hardware/drivers/ddi/video/nf-video-videoportsetregistryparameters">VideoPortSetRegistryParameters</a>

@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-PosCxClose is called to delete an opened PosCx library instance. This function releases the device if the caller is the owner, and cancels pending requests. It should be called from the driver's [EVT_WDF_FILE_CLOSE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close) callback.
+PosCxClose is called to delete an opened PosCx library instance. This function releases the device if the caller is the owner, and cancels pending requests. It should be called from the driver's [EVT_WDF_FILE_CLOSE](../wdfdevice/nc-wdfdevice-evt_wdf_file_close.md) callback.
 
 ## -parameters
 
@@ -64,4 +64,3 @@ A handle to a framework file object that identifies the caller associated with t
 ## -returns
 
 An appropriate NTSTATUS error code that indicates the close instance completion status.
-

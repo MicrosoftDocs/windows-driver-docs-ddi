@@ -53,7 +53,7 @@ The <b> 	SeEtwWriteKMCveEvent</b> function is a tracing function for publishing 
 ### -param CveId 
 
 [in]
-A pointer to a string mentioning the CVE-ID associated with the vulnerability for which this event is being raised. Technical guidance for handling the CVE-ID is shared <a href="ttp://go.microsoft.com/fwlink/?LinkId=798519">here</a>
+A pointer to a string mentioning the CVE-ID associated with the vulnerability for which this event is being raised. Technical guidance for handling the CVE-ID is shared <a href="http://go.microsoft.com/fwlink/?LinkId=798519">here</a>
 
 ### -param AdditionalDetails 
 
@@ -89,7 +89,7 @@ The driver was successfully published
 <td width="60%">
 Invalid pointer to CVE-ID passed
 
-<div class="alert"><b>Note</b>  Events can be lost for several reasons; for example, if the event rate is too high or if the event size is greater than the buffer size. In these cases, the <b>EventsLost</b> counter, a member of the <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure for the corresponding logger, is updated with the number of events that were not recorded.</div>
+<div class="alert"><b>Note</b>  Events can be lost for several reasons; for example, if the event rate is too high or if the event size is greater than the buffer size. In these cases, the <b>EventsLost</b> counter, a member of the <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure for the corresponding logger, is updated with the number of events that were not recorded.</div>
 <div> </div>
 </td>
 </tr>
@@ -108,13 +108,9 @@ Source Name: Microsoft-Windows-Audit-CVE or CVE-Audit
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 
 NTStatus status;
 UNICODE_STRING CVEID;
@@ -128,8 +124,5 @@ RtlInitUnicodeString(&EventDetails, L”Vulnerable request with data is logged i
 status = SeEtwWriteKMCveEvent( &CVEID, &EventDetails);
 
 //
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

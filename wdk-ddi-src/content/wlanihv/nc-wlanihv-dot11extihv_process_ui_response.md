@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvProcessUIResponse</i> function to complete a UI request initiated by the IHV Extensions DLL
   through a call to
   <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>.
@@ -97,7 +97,7 @@ DWORD APIENTRY Dot11ExtIhvProcessUIResponse(
 The IHV Extensions DLL can issue requests to the IHV UI Extensions DLL for interaction with the user,
     such as the display of notifications during the pre-association operation or the input of credential for
     the post-association operation. For more information about the IHV UI Extensions DLL, see
-    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560635(v=vs.85)">Native 802.11 IHV UI Extensions
+    <a href="/previous-versions/windows/hardware/wireless/ff560635(v=vs.85)">Native 802.11 IHV UI Extensions
     DLL</a>.
 
 The IHV Extensions DLL initiates these requests for user interaction through calls to the
@@ -123,4 +123,3 @@ After receiving this data from the IHV Extensions DLL, the operating system call
 
 
 <a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
-

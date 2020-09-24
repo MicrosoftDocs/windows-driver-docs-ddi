@@ -57,7 +57,7 @@ The <b>D3DKMTGetContextSchedulingPriority</b> function retrieves the scheduling 
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getcontextschedulingpriority">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for retrieving the scheduling priority for a device context.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getcontextschedulingpriority">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for retrieving the scheduling priority for a device context.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getcontextschedulingpriority">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getcontextschedulingpriority">D3DKMT_GETCONTEXTSCHEDULINGPRIORITY</a>

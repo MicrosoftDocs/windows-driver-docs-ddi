@@ -46,7 +46,7 @@ dev_langs:
 
 ## -description
 
-The structure is used by [**NtQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile) and [**NtSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile) routines to query and set the storage reserve ID on a file or directory.
+The structure is used by [**NtQueryInformationFile**](./nf-ntifs-ntqueryinformationfile.md) and [**NtSetInformationFile**](./nf-ntifs-ntsetinformationfile.md) routines to query and set the storage reserve ID on a file or directory.
 
 ## -struct-fields
 
@@ -67,4 +67,3 @@ Attempting to set a storage reserve ID fails with STATUS_STORAGE_RESERVE_DOES_NO
 ## -see-also
 
 [**STORAGE_RESERVE_ID**](ne-ntifs-_storage_reserve_id.md)
-

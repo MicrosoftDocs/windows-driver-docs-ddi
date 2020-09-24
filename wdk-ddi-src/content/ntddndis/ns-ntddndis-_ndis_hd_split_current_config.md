@@ -58,7 +58,7 @@ The NDIS_HD_SPLIT_CURRENT_CONFIG structure provides the current header-data spli
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_HD_SPLIT_CURRENT_CONFIG structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -181,19 +181,18 @@ The maximum size, in bytes, that the miniport driver is using for the header por
 ## -remarks
 
 The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-hd-split-current-config">
+    <a href="/windows-hardware/drivers/network/oid-gen-hd-split-current-config">
     OID_GEN_HD_SPLIT_CURRENT_CONFIG</a> OID query request to obtain the current header-data split
     configuration of a miniport adapter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
-
+<a href="/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>

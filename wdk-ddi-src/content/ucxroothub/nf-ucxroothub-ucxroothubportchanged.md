@@ -53,13 +53,12 @@ Notifies UCX about a new port change event on the host controller.
 ### -param UcxRootHub 
 
 [in]
-A handle to the root hub object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>.
+A handle to the root hub object. The client driver retrieved the handle in a previous call to <a href="/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>.
 
 ## -remarks
 
-This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_interrupt_tx">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
+This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_interrupt_tx">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>
-
+<a href="/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>

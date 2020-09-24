@@ -64,13 +64,12 @@ Not used. Set to zero.
 
 ## -remarks
 
-This structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_queue_size">IOCTL_SERIAL_SET_QUEUE_SIZE</a> requests to specify the size requested for the new input buffer. This buffer is used internally by the serial controller driver to hold data received from the serial controller until the data can be copied to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> request packet. If the requested buffer size is greater than the current receive buffer size, a new receive buffer is created. Otherwise, the receive buffer is not changed.
+This structure is used by <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_queue_size">IOCTL_SERIAL_SET_QUEUE_SIZE</a> requests to specify the size requested for the new input buffer. This buffer is used internally by the serial controller driver to hold data received from the serial controller until the data can be copied to an <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> request packet. If the requested buffer size is greater than the current receive buffer size, a new receive buffer is created. Otherwise, the receive buffer is not changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_queue_size">IOCTL_SERIAL_SET_QUEUE_SIZE</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_set_queue_size">IOCTL_SERIAL_SET_QUEUE_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
-
+<a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>

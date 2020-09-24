@@ -59,7 +59,7 @@ A profile driver defined tag to associate with the node.
 ## -returns
 
 If successful, this function returns a pointer to the newly allocated 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structure. If not successful, this
+     <a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structure. If not successful, this
      function returns 
      <b>NULL</b>.
 
@@ -67,29 +67,28 @@ If successful, this function returns a pointer to the newly allocated
 
 After an alternative sequence node is created by calling the 
     <b>SdpCreateNodeAlternative</b> function, Bluetooth drivers can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpappendnodetocontainernode">
+    <a href="/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpappendnodetocontainernode">
     SdpAppendNodeToContainerNode</a> function to insert other nodes into the alternative sequence node or
     to add the new alternative sequence node to another alternative sequence node.
 
 An alternative sequence node can be added as a top-level attribute of an SDP record by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpaddattributetotree">SdpAddAttributeToTree</a> function.
+    <a href="/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpaddattributetotree">SdpAddAttributeToTree</a> function.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>.
+    <a href="/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>
+<a href="/windows-hardware/drivers/ddi/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a>
+<a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpaddattributetotree">SdpAddAttributeToTree</a>
+<a href="/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpaddattributetotree">SdpAddAttributeToTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpappendnodetocontainernode">SdpAppendNodeToContainerNode</a>
-
+<a href="/windows-hardware/drivers/ddi/sdplib/nf-sdplib-sdpappendnodetocontainernode">SdpAppendNodeToContainerNode</a>

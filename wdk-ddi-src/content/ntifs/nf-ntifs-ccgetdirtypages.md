@@ -60,13 +60,9 @@ Log handle stored by a previous call to <b>CcSetLogHandleForFile</b>.
 [in]
 Pointer to a callback routine that builds up a dirty page table from the pages found. This routine, which is called for each dirty page found, is declared as follows: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 VOID (*PDIRTY_PAGE_ROUTINE) (
             IN PFILE_OBJECT FileObject,
             IN PLARGE_INTEGER FileOffset,
@@ -75,10 +71,9 @@ VOID (*PDIRTY_PAGE_ROUTINE) (
             IN PLARGE_INTEGER NewestLsn,
             IN PVOID Context1,
             IN PVOID Context2
-            );</pre>
-</td>
-</tr>
-</table></span></div>
+            );
+```
+
 
 
 
@@ -141,13 +136,12 @@ Second context parameter to be passed to the <i>DirtyPageRoutine</i>.
 
 File systems call <b>CcGetDirtyPages</b> to return dirty pages in all files that match a given log handle. <b>CcGetDirtyPages</b> searches for dirty pages in all files that match the given <i>LogHandle</i> and calls the <i>DirtyPageRoutine</i> for each page. 
 
-To set a log handle for a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539217">CcSetLogHandleForFile</a>.
+To set a log handle for a file, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetloghandleforfile">CcSetLogHandleForFile</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetdirtypinneddata">CcSetDirtyPinnedData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539217">CcSetLogHandleForFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetloghandleforfile">CcSetLogHandleForFile</a>

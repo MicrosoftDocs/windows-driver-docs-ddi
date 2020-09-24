@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_device_attributes">HID_DEVICE_ATTRIBUTES</a> structure.
+The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a <a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_device_attributes">HID_DEVICE_ATTRIBUTES</a> structure.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
@@ -89,9 +89,8 @@ The HID minidriver sets the following fields of <b>Irp->IoStatus</b>:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_device_attributes">HID_DEVICE_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/hidport/ns-hidport-_hid_device_attributes">HID_DEVICE_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/hh439622(v=vs.85)">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
-
+<a href="/previous-versions/hh439622(v=vs.85)">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>

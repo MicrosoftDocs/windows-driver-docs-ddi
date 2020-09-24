@@ -62,20 +62,15 @@ None.
 
 The output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure. <b>EHSTOR_DEVICE_PROPERTIES</b> is declared in <i>ehstorioctl.h</i> as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _EHSTOR_DEVICE_PROPERTIES
+
+```
+typedef struct _EHSTOR_DEVICE_PROPERTIES
 {
     ULONG  StructSize;
     ULONG  BytesPerSector;
-} EHSTOR_DEVICE_PROPERTIES;</pre>
-</td>
-</tr>
-</table></span></div>
+} EHSTOR_DEVICE_PROPERTIES;
+```
+
 
 ### -output-buffer-length
 
@@ -103,5 +98,4 @@ Currently, bytes per sector is the only property available in <b>EHSTOR_DEVICE_P
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">SILO_DRIVER_CAPABILITES</a>
-
+<a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">SILO_DRIVER_CAPABILITES</a>

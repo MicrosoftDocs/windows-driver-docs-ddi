@@ -53,7 +53,7 @@ api_name:
 ### -param Filter 
 
 [in]
-Opaque filter pointer returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>.
+Opaque filter pointer returned by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>.
 
 ## -returns
 
@@ -79,9 +79,8 @@ Filtering was already started for this minifilter driver. This is an error code.
 
 ## -remarks
 
-A minifilter driver typically calls <b>FltStartFiltering</b> from its <b>DriverEntry</b> routine after it has completed its global initialization and called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>. <b>FltStartFiltering</b> notifies the Filter Manager that the minifilter driver is ready to begin attaching to volumes and filtering I/O requests. After the minifilter driver calls this routine, the Filter Manager treats the minifilter driver as a fully active minifilter driver, presenting it with volumes to attach to, as well as I/O requests. The minifilter driver must be prepared to begin receiving these notifications and I/O requests even before <b>FltStartFiltering</b> returns.
+A minifilter driver typically calls <b>FltStartFiltering</b> from its <b>DriverEntry</b> routine after it has completed its global initialization and called <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>. <b>FltStartFiltering</b> notifies the Filter Manager that the minifilter driver is ready to begin attaching to volumes and filtering I/O requests. After the minifilter driver calls this routine, the Filter Manager treats the minifilter driver as a fully active minifilter driver, presenting it with volumes to attach to, as well as I/O requests. The minifilter driver must be prepared to begin receiving these notifications and I/O requests even before <b>FltStartFiltering</b> returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>

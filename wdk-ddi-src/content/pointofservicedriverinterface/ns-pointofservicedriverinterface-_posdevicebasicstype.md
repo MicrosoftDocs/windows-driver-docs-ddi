@@ -58,9 +58,8 @@ Contains the major and minor version of the POS driver interface. The top 16 bit
 
 ### -field DeviceType
 
-Indicates the [PosDeviceType](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_posdevicetype) of the POS device (for example, a barcode scanner or a magnetic stripe reader).
+Indicates the [PosDeviceType](../pointofservicecommontypes/ne-pointofservicecommontypes-_posdevicetype.md) of the POS device (for example, a barcode scanner or a magnetic stripe reader).
 
 ### -field RecommendedBufferSize
 
-Indicates the size of the buffer that needs to be allocated to receive event data when calling [ReadFile](https://docs.microsoft.com/windows/win32/api/fileapi/nf-fileapi-readfile) to retrieve events for this device.
-
+Indicates the size of the buffer that needs to be allocated to receive event data when calling [ReadFile](/windows/win32/api/fileapi/nf-fileapi-readfile) to retrieve events for this device.

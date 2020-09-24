@@ -61,7 +61,7 @@ The NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure is the basic building block of a 
 ### -field Header
 
 The header of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure. The header is formatted as an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The
      NDIS_OBJECT_HEADER structure contains the revision number of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure, the type of offload state that immediately follows the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure in memory, and the size of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure, including the
@@ -82,7 +82,7 @@ The following OFFLOAD_STATE_TYPE values are supported:
 #### NeighborOffloadConstState
 
 Specifies the constant neighbor state. This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_const">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_const">
        NEIGHBOR_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -90,7 +90,7 @@ Specifies the constant neighbor state. This state is formatted as a
 #### NeighborOffloadCachedState
 
 Specifies the cached neighbor state. This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_cached">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_cached">
        NEIGHBOR_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -98,7 +98,7 @@ Specifies the cached neighbor state. This state is formatted as a
 #### NeighborOffloadDelegatedState
 
 Specifies the delegated neighbor state. This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_delegated">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_delegated">
        NEIGHBOR_OFFLOAD_STATE_DELEGATED</a> structure.
 
 
@@ -115,7 +115,7 @@ Specifies all of the neighbor state information, including the constant, cached,
 #### Ip4OffloadConstState
 
 Specifies the constant path state (IPv4). This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_const">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_const">
        PATH_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -123,7 +123,7 @@ Specifies the constant path state (IPv4). This state is formatted as a
 #### Ip4OffloadCachedState
 
 Specifies the cached path state (IPv4). This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_cached">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_cached">
        PATH_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -131,7 +131,7 @@ Specifies the cached path state (IPv4). This state is formatted as a
 #### Ip4OffloadDelegatedState
 
 Specifies the delegated path state (IPv4). This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_delegated">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_delegated">
        PATH_OFFLOAD_STATE_DELEGATED</a> structure. Currently there is no delegated path state. The
        PATH_OFFLOAD_STATE_DELEGATED structure does not contain any variables.
 
@@ -178,7 +178,7 @@ Specifies all of the path state information(IPv6), including the constant, cache
 #### TcpOffloadConstState
 
 Specifies the constant TCP state. This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_const">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_const">
        TCP_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -186,7 +186,7 @@ Specifies the constant TCP state. This state is formatted as a
 #### TcpOffloadCachedState
 
 Specifies the cached TCP state. This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">
        TCP_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -194,7 +194,7 @@ Specifies the cached TCP state. This state is formatted as a
 #### TcpOffloadDelegatedState
 
 Specifies the delegated TCP state. This state is formatted as a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">
        TCP_OFFLOAD_STATE_DELEGATED</a> structure.
 
 
@@ -357,7 +357,7 @@ Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 Initiate offload: The offload target failed to offload the state associated with the
        NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the host stack specified a non-<b>NULL</b><b>DlSourceAddress</b> member in the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_const">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_const">
        NEIGHBOR_OFFLOAD_STATE_CONST</a> structure, and the offload target either does not support
        configurable source MAC addresses or cannot accept additional source MAC addresses.
        
@@ -372,7 +372,7 @@ Initiate offload: The offload target failed to offload the state associated with
        NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a data
        structure for the source IP address that is referenced by the 
        <b>SourceAddress</b> pointer in the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_const">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_const">
        PATH_OFFLOAD_STATE_CONST</a> structure.
        
 
@@ -407,7 +407,7 @@ Query, update, invalidate, or terminate offload: Not an allowed status value.
 Initiate offload: The offload target failed to offload the state associated with the
        NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the 
        <b>InitialRcvWnd</b> member specified in the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">
+       <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">
        TCP_OFFLOAD_STATE_CACHED</a> structure is larger than the offload target can support.
        
 
@@ -460,9 +460,9 @@ A pointer to a memory location into which the offload target writes a PVOID valu
 ### -field NdisOffloadHandle
 
 The handle that the offload target supplies in subsequent calls to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">
      NdisTcpOffloadEventHandler</a> function or the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
      NdisTcpOffloadReceiveHandler</a> function when making an indication on the offload state associated
      with this NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
 
@@ -495,7 +495,7 @@ This member is not significant for an offload target. An offload target must not
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter. Use the default port if the miniport driver has
      not allocated ports for the specified adapter.
 
@@ -507,10 +507,10 @@ When the host stack specifies a <b>NULL</b> value,
 
 When the host stack specifies a non-<b>NULL</b> value, 
      <b>NetBufferListChain</b> points to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that can be a
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that can be a
      stand-alone structure or the first structure in a linked list of such structures. Each NET_BUFFER_LIST
      structure in the linked list describes one 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. The NET_BUFFER structure
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. The NET_BUFFER structure
      maps to a chain of memory descriptor lists (MDLs). The NET_BUFFER_LIST and associated structures are
      locked so that they remain resident in physical memory. However, they are not mapped into system
      memory.
@@ -520,12 +520,12 @@ The MDLs associated with the NET_BUFFER structures contain data that the host st
      back to the host stack by calling the appropriate 
      <b>NdisTcpOffload<i>Xxx</i>Complete</b> function. At present, the linked list can contain just one type of data:
      outstanding send data. For more information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a>.
+     <a href="/windows-hardware/drivers/network/handling-outstanding-send-data-during-and-after-an-offload-operation">Handling Outstanding Send Data During and After an Offload Operation</a>.
 
 An offload target can pass outstanding send data to the host stack when terminating the offload of a
      TCP connection. In this case, the offload target specifies a non-<b>NULL</b> value for the 
      <b>NetBufferListChain</b> member when calling the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismterminateoffloadcomplete">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismterminateoffloadcomplete">
      NdisMTerminateOffloadComplete</a> function. If the offload target is not passing send data for a TCP
      connection that is being terminated, it must specify a <b>NULL</b> value for the 
      <b>NetBufferListChain</b> member.
@@ -534,7 +534,7 @@ An offload target can pass outstanding send data to the host stack when terminat
 
 NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures can be linked together to build the framework of a TCP
     chimney 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/offload-state-tree">offload state tree</a>.
+    <a href="/windows-hardware/drivers/network/offload-state-tree">offload state tree</a>.
 
 Through NDIS, the host stack passes an 
     <i>OffloadBlockList</i> pointer, which references an offload state tree to one of the following functions
@@ -543,31 +543,31 @@ Through NDIS, the host stack passes an
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_initiate_offload_handler">MiniportInitiateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_initiate_offload_handler">MiniportInitiateOffload</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">MiniportUpdateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">MiniportUpdateOffload</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">MiniportInvalidateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">MiniportInvalidateOffload</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
 
 
 </li>
@@ -578,41 +578,41 @@ The offload target returns the tree to the host stack by passing the same pointe
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">
        NdisMInitiateOffloadComplete</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismqueryoffloadstatecomplete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismqueryoffloadstatecomplete">
        NdisMQueryOffloadStateComplete</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">NdisMUpdateOffloadComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">NdisMUpdateOffloadComplete</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminvalidateoffloadcomplete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminvalidateoffloadcomplete">
        NdisMInvalidateOffloadComplete</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismterminateoffloadcomplete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismterminateoffloadcomplete">
        NdisMTerminateOffloadComplete</a>
 
 
 </li>
 </ul>
 An NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure can be immediately followed in memory by an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">offload state structure</a> that contains
+    <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">offload state structure</a> that contains
     state to be offloaded, queried, updated, invalidated, or terminated. The 
     <b>Type</b> member of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure's 
     <b>Header</b> specifies the type of offload state, and by implication, the specific offload state
@@ -622,13 +622,13 @@ The host stack and offload target use the
     <b>*MiniportOffloadContext</b> and 
     <b>NdisOffloadHandle</b> members of an NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure to reference offloaded
     state. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
+    <a href="/windows-hardware/drivers/network/storing-and-referencing-offloaded-state">Storing and Referencing
     Offloaded State</a>.
 
 An NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure can perform one of several functions in an offload state
     tree. It can function as a placeholder, a linker, or it can convey new state to be offloaded by the
     offload target. For more information, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
+    <a href="/windows-hardware/drivers/network/placeholders--linkers--and-new-offloads">Placeholders, Linkers, and
     New Offloads</a>.
 
 Before completing an initiate offload, query offload, update offload, invalidate offload, or terminate
@@ -637,93 +637,92 @@ Before completing an initiate offload, query offload, update offload, invalidate
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_initiate_offload_handler">MiniportInitiateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_initiate_offload_handler">MiniportInitiateOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">MiniportInvalidateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">MiniportInvalidateOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">MiniportUpdateOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_update_offload_handler">MiniportUpdateOffload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_cached">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_cached">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_delegated">
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_neighbor_offload_state_delegated">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">NdisMInitiateOffloadComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminitiateoffloadcomplete">NdisMInitiateOffloadComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminvalidateoffloadcomplete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisminvalidateoffloadcomplete">
    NdisMInvalidateOffloadComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismqueryoffloadstatecomplete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismqueryoffloadstatecomplete">
    NdisMQueryOffloadStateComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismterminateoffloadcomplete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismterminateoffloadcomplete">
    NdisMTerminateOffloadComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">NdisMUpdateOffloadComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndismupdateoffloadcomplete">NdisMUpdateOffloadComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">NdisTcpOffloadEventHandler</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">NdisTcpOffloadEventHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">NdisTcpOffloadReceiveHandler</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">NdisTcpOffloadReceiveHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_cached">PATH_OFFLOAD_STATE_CACHED</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_cached">PATH_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_const">PATH_OFFLOAD_STATE_CONST</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_const">PATH_OFFLOAD_STATE_CONST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_delegated">PATH_OFFLOAD_STATE_DELEGATED</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_path_offload_state_delegated">PATH_OFFLOAD_STATE_DELEGATED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">TCP_OFFLOAD_STATE_CACHED</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_cached">TCP_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_const">TCP_OFFLOAD_STATE_CONST</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_const">TCP_OFFLOAD_STATE_CONST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
-
+<a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>

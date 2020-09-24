@@ -54,12 +54,12 @@ The <i>SubmitIsoOutUrb</i> function submits a USB request block (URB) directly t
 
 #### - BusContext [in]
 
-Handle returned in the <i>BusContext</i> member of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <i>BusContext</i> member of the  <a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - Urb [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to be passed to the port driver.
+Pointer to the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to be passed to the port driver.
 
 ## -returns
 
@@ -104,18 +104,12 @@ The calling driver forfeits any packet-level error information when calling this
 
 The function definition that is provided on this reference page is an example routine whose parameters are just placeholder names. The actual prototype of this function is declared in <i>usbbusif.h</i> as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```
+typedef NTSTATUS
   (USB_BUSIFFN *PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB) (
     IN PVOID,
-    IN PURB</pre>
-</td>
-</tr>
-</table></span></div>
-  );
+    IN PURB
+```
 
+  );

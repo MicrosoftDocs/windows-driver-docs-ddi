@@ -47,18 +47,17 @@ api_name:
 ## -description
 
 The <b>DebugBaseEventCallbacksWide</b> class provides a base implementation
-of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugeventcallbackswide">IDebugEventCallbacksWide</a> interface.  
+of the <a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugeventcallbackswide">IDebugEventCallbacksWide</a> interface.  
 
 A program can derive an event callbacks class from <b>DebugBaseEventCallbacksWide</b> and implement
 only the methods needed. 
 
-Be careful to implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbackswide-getinterestmask">GetInterestMask</a> appropriately.
+Be careful to implement <a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbackswide-getinterestmask">GetInterestMask</a> appropriately.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbackswide-getinterestmask">GetInterestMask</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbackswide-getinterestmask">GetInterestMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugeventcallbackswide">IDebugEventCallbacksWide</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugeventcallbackswide">IDebugEventCallbacksWide</a>

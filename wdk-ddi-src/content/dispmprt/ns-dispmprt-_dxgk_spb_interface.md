@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Simple Peripheral Bus (SPB) Interface</a> that the Windows Display Driver Model (WDDM) 1.2 and later  display miniport driver can call to inspect and alter SPB resources.
+Contains pointers to functions in the <a href="/windows-hardware/drivers/ddi/index">Simple Peripheral Bus (SPB) Interface</a> that the Windows Display Driver Model (WDDM) 1.2 and later  display miniport driver can call to inspect and alter SPB resources.
 
-To use these functions, first supply the <b>Size</b> and <b>Version</b> members of the  <b>DXGK_SPB_INTERFACE</b> structure. Then call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a> function with the  <i>ServicesType</i>  parameter set to a value of <b>DxgkServicesFirmwareTable</b>, and set the <i>Interface</i> parameter to the address (cast as <b>PINTERFACE</b>) of the <b>DXGK_SPB_INTERFACE</b> structure.
+To use these functions, first supply the <b>Size</b> and <b>Version</b> members of the  <b>DXGK_SPB_INTERFACE</b> structure. Then call the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a> function with the  <i>ServicesType</i>  parameter set to a value of <b>DxgkServicesFirmwareTable</b>, and set the <i>Interface</i> parameter to the address (cast as <b>PINTERFACE</b>) of the <b>DXGK_SPB_INTERFACE</b> structure.
 
-For more information on SPB architecture, see <a href="https://docs.microsoft.com/previous-versions/hh450903(v=vs.85)">Simple Peripheral Buses</a> and <a href="https://docs.microsoft.com/previous-versions/hh698226(v=vs.85)">SPB Peripheral Device Driver Overview</a>.
+For more information on SPB architecture, see <a href="/previous-versions/hh450903(v=vs.85)">Simple Peripheral Buses</a> and <a href="/previous-versions/hh698226(v=vs.85)">SPB Peripheral Device Driver Overview</a>.
 
 ## -struct-fields
 
@@ -86,7 +86,7 @@ Opens a Simple Peripheral Bus (SPB) resource. All input parameters are supplied 
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 
 
@@ -104,19 +104,19 @@ An optional pointer to the Unicode SPB resource subname.
 
 #### DesiredAccess
 
-Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the SPB resource. For more information, see the <i>DesiredAccess</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> function.
+Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that determines the requested access to the SPB resource. For more information, see the <i>DesiredAccess</i> parameter of the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> function.
 
 
 
 #### ShareAccess
 
-Specifies the type of share access for the file. For more information, see the <i>ShareAccess</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
+Specifies the type of share access for the file. For more information, see the <i>ShareAccess</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
 
 
 
 #### OpenOptions
 
-Specifies the options to apply when opening the SPB resource. For more information, see the <i>CreateOptions</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
+Specifies the options to apply when opening the SPB resource. For more information, see the <i>CreateOptions</i> parameter of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>.
 
 
 
@@ -130,34 +130,34 @@ Closes a Simple Peripheral Bus (SPB) resource. All input parameters are supplied
 
 Closing an open object handle causes that handle to become invalid. The system also decrements the handle count for the object and checks whether the object can be deleted. The system does not actually delete the object until all of the object's handles are closed and no referenced pointers remain.
 
-The driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a> to close every handle that it has opened with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> as soon as the handle is no longer required.
+The driver must call <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a> to close every handle that it has opened with <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> as soon as the handle is no longer required.
 
-Callers of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a> should not assume that this function automatically waits for all I/O to complete prior to returning.
+Callers of <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a> should not assume that this function automatically waits for all I/O to complete prior to returning.
 
 
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 
 
 #### SpbResource
 
-A pointer to an SPB resource that the display miniport driver opened using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
+A pointer to an SPB resource that the display miniport driver opened using the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
 
 ### -field ReadSpbResource
 
 Reads data from an open Simple Peripheral Bus (SPB) resource. All input parameters are supplied by the display miniport driver.
 
-If the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> set either of the <i>OpenOptions</i> flags <b>FILE_SYNCHRONOUS_IO_ALERT</b> or <b>FILE_SYNCHRONOUS_IO_NONALERT</b> (defined in Wdm.h), the I/O Manager maintains the current file position. If so, the caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:<ul>
+If the call to <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> set either of the <i>OpenOptions</i> flags <b>FILE_SYNCHRONOUS_IO_ALERT</b> or <b>FILE_SYNCHRONOUS_IO_NONALERT</b> (defined in Wdm.h), the I/O Manager maintains the current file position. If so, the caller of <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:<ul>
 <li>Specify a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with the <b>HighPart</b> member set to -1 and the <b>LowPart</b> member set to the system-defined value <b>FILE_USE_FILE_POINTER_POSITION</b> (defined in Wdm.h).</li>
 <li>Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.</li>
 </ul>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> updates the current file position by adding the number of bytes read when it completes the read operation, if it is using the current file position maintained by the I/O Manager.
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> updates the current file position by adding the number of bytes read when it completes the read operation, if it is using the current file position maintained by the I/O Manager.
 
 Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <b>ReadSpbResource</b>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the read operation, and then updates the position according to the number of bytes actually read. This technique gives the caller atomic seek-and-read service.
 
@@ -165,13 +165,13 @@ Even when the I/O Manager is maintaining the current file position, the caller c
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 
 
 #### SpbResource
 
-A pointer to an SPB resource that the display miniport driver opened using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
+A pointer to an SPB resource that the display miniport driver opened using the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
 
 
 
@@ -189,7 +189,7 @@ A pointer to a buffer that receives the data read from the specified SPB resourc
 
 #### ByteOffset
 
-An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the read operation will begin. If an attempt is made to read beyond the end of the file, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> returns an error.
+An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the read operation will begin. If an attempt is made to read beyond the end of the file, <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a> returns an error.
 
 For more details on how to specify the byte offset, see the following Remarks section.
 
@@ -205,26 +205,26 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
 
 ### -field WriteSpbResource
 
 Writes data to an open Simple Peripheral Bus (SPB) resource.
 
-If the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function set only the <i>DesiredAccess</i> flag <b>FILE_APPEND_DATA</b>, the <i>ByteOffset</i> parameter is ignored. In this case, data in the buffer pointed to by the <i>Buffer</i> parameter, for <b>Length</b> bytes, is written starting at the current end of file.
+If the call to the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function set only the <i>DesiredAccess</i> flag <b>FILE_APPEND_DATA</b>, the <i>ByteOffset</i> parameter is ignored. In this case, data in the buffer pointed to by the <i>Buffer</i> parameter, for <b>Length</b> bytes, is written starting at the current end of file.
 
 
 
-If the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> set either of the <i>CreateOptions</i> flags, <b>FILE_SYNCHRONOUS_IO_ALERT</b> or <b>FILE_SYNCHRONOUS_IO_NONALERT</b>, the I/O Manager maintains the current file position. If so, the caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:<ul>
+If the call to <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> set either of the <i>CreateOptions</i> flags, <b>FILE_SYNCHRONOUS_IO_ALERT</b> or <b>FILE_SYNCHRONOUS_IO_NONALERT</b>, the I/O Manager maintains the current file position. If so, the caller of <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:<ul>
 <li>Specify a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with the <b>HighPart</b> member set to -1 and the <b>LowPart</b> member set to the system-defined value <b>FILE_USE_FILE_POINTER_POSITION</b> (defined in Wdm.h).</li>
 <li>Pass a <b>NULL</b> pointer for <i>ByteOffset</i>.</li>
 </ul>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> updates the current file position by adding the number of bytes written when it completes the write operation, if it is using the current file position maintained by the I/O Manager.
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> updates the current file position by adding the number of bytes written when it completes the write operation, if it is using the current file position maintained by the I/O Manager.
 
-Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the write operation, and then updates the position according to the number of bytes actually written. This technique gives the caller atomic seek-and-write service.
+Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit <i>ByteOffset</i> value to <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a>. Doing this automatically changes the current file position to that <i>ByteOffset</i> value, performs the write operation, and then updates the position according to the number of bytes actually written. This technique gives the caller atomic seek-and-write service.
 
 It is also possible to cause a write operation to start at the current end of file by specifying for <i>ByteOffset</i> a pointer to a <a href="https://go.microsoft.com/fwlink/p/?linkid=243118">LARGE_INTEGER</a> value with <b>HighPart</b> set to -1 and <b>LowPart</b> set to <b>FILE_WRITE_TO_END_OF_FILE</b>. This works regardless of whether the I/O Manager is maintaining the current file position.
 
@@ -232,13 +232,13 @@ It is also possible to cause a write operation to start at the current end of fi
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 
 
 #### SpbResource
 
-A pointer to an SPB resource that the display miniport driver opened using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
+A pointer to an SPB resource that the display miniport driver opened using the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
 
 
 
@@ -256,7 +256,7 @@ A pointer to a caller-allocated buffer that contains the data to be written to t
 
 #### ByteOffset
 
-An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the write operation will begin. If the <i>Length</i> and <i>ByteOffset</i> parameters specify a write operation past the current end-of-file mark, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero.
+An optional pointer to a variable that specifies the starting byte offset in the SPB resource where the write operation will begin. If the <i>Length</i> and <i>ByteOffset</i> parameters specify a write operation past the current end-of-file mark, <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a> automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero.
 
 For more details on how to specify the byte offset, see the following Remarks section.
 
@@ -272,7 +272,7 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
 
 ### -field SpbResourceIoControl
 
@@ -284,13 +284,13 @@ If the caller opened the file for asynchronous I/O (with neither <b>FILE_SYNCHRO
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 
 
 #### SpbResource
 
-A pointer to an SPB resource that the display miniport driver opened using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
+A pointer to an SPB resource that the display miniport driver opened using the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a> function.
 
 
 
@@ -338,25 +338,24 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure.
+A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">CloseSpbResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">OpenSpbResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">ReadSpbResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">SpbResourceIoControl</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">SpbResourceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_spb_interface">WriteSpbResource</a>

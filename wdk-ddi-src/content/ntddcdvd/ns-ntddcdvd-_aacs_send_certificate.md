@@ -60,21 +60,20 @@ A value of type DVD_SESSION_ID that specifies an AGID.
 
 ### -field Certificate
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_certificate">AACS_CERTIFICATE</a> that specifies the certificate to retrieve.
+A structure of type <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_certificate">AACS_CERTIFICATE</a> that specifies the certificate to retrieve.
 
 ## -remarks
 
-Clients send an Advanced Access Content System (AACS) certificate with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_certificate">IOCTL_AACS_SEND_CERTIFICATE</a> request. Clients retrieve an AACS certificate with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a> request.
+Clients send an Advanced Access Content System (AACS) certificate with an <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_certificate">IOCTL_AACS_SEND_CERTIFICATE</a> request. Clients retrieve an AACS certificate with an <a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_certificate">AACS_CERTIFICATE</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_certificate">AACS_CERTIFICATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>
+<a href="/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_certificate">IOCTL_AACS_GET_CERTIFICATE</a>

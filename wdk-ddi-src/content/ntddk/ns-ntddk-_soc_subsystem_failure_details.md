@@ -56,10 +56,10 @@ These bug codes store information in a
   this structure.
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x14b--soc-subsystem-failure">Bug    Check 0x14B SOC_SUBSYSTEM_FAILURE</a>
+<a href="/windows-hardware/drivers/debugger/bug-check-0x14b--soc-subsystem-failure">Bug    Check 0x14B SOC_SUBSYSTEM_FAILURE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x15d-soc-subsystem-failure-livedump">Bug Check 0x15D SOC_SUBSYSTEM_FAILURE_LIVEDUMP</a>
+<a href="/windows-hardware/drivers/debugger/bug-check-0x15d-soc-subsystem-failure-livedump">Bug Check 0x15D SOC_SUBSYSTEM_FAILURE_LIVEDUMP</a>
 </li>
 </ul>
 
@@ -67,7 +67,7 @@ These bug codes store information in a
 
 ### -field SubsysType
 
-A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_soc_subsystem_type">SOC_SYBSYSTEM_TYPE</a> enumeration or a vendor-defined subsystem type. Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors.
+A value in the <a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_soc_subsystem_type">SOC_SYBSYSTEM_TYPE</a> enumeration or a vendor-defined subsystem type. Subsystem types in the range 0x10000 through 0x80000000 are reserved for independent hardware vendors.
 
 ### -field FirmwareVersion
 
@@ -84,4 +84,3 @@ The size, in bytes, of the <b>UnifiedFailureRegion</b> string including the <b>N
 ### -field UnifiedFailureRegion
 
 A null-terminated string, defined by the vendor, that  contains classification details about the error that occurred.
-

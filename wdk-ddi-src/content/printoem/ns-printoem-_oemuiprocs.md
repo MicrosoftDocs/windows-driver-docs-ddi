@@ -52,13 +52,13 @@ api_name:
 
 The OEMUIPROCS structure is obsolete.
 
-The OEMUIPROCS structure contains the address of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupdateuisetting">DrvUpdateUISetting</a> functions that are exported by Microsoft printer drivers.
+The OEMUIPROCS structure contains the address of the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a> and <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupdateuisetting">DrvUpdateUISetting</a> functions that are exported by Microsoft printer drivers.
 
 ## -struct-fields
 
 ### -field DrvGetDriverSetting
 
-Pointer to the printer driver's <b>DrvGetDriverSetting</b> function. (To obtain this function's address in kernel mode, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a>.)
+Pointer to the printer driver's <b>DrvGetDriverSetting</b> function. (To obtain this function's address in kernel mode, see <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_drvprocs">DRVPROCS</a>.)
 
 ### -field DrvUpdateUISetting
 
@@ -66,7 +66,6 @@ Pointer to the printer driver's <b>DrvUpdateUISetting</b> function.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupdateuisetting">DrvUpdateUISetting</a> have been superseded by COM-based interfaces. 
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a> and <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupdateuisetting">DrvUpdateUISetting</a> have been superseded by COM-based interfaces. 
 
-The OEMUIPROCS structure's address is contained in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
-
+The OEMUIPROCS structure's address is contained in an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.

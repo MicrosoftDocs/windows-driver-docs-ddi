@@ -58,7 +58,7 @@ The <b>WdfTimerGetParentObject</b> method returns a handle to the parent object 
 ### -param Timer 
 
 [in]
-A handle to a framework timer object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
+A handle to a framework timer object that was obtained by calling <a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
 ## -returns
 
@@ -68,12 +68,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-For more information about framework timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
+For more information about framework timer objects, see <a href="/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
 
 #### Examples
 
-The following code example shows now an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function can obtain a timer object's parent. In this example, the driver previously specified that the timer object's parent is a queue object.
+The following code example shows now an <a href="/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function can obtain a timer object's parent. In this example, the driver previously specified that the timer object's parent is a queue object.
 
 ```cpp
 VOID
@@ -90,5 +90,4 @@ MyEvtTimerFunc(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>
-
+<a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>

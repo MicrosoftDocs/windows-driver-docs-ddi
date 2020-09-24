@@ -58,7 +58,7 @@ A reference to a sensor object.
 ### -param pSensorData 
 
 [in]
-A list of <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
+A list of <a href="/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>. For more information, see <a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 ## -returns
 
@@ -86,17 +86,16 @@ STATUS_INVALID_PARAMETER is returned if any of the _In_ parameters are NULL.
 
 This function is implemented by the class extension and the driver must call it. Note that when batch latency expires for sensor drivers
     that support data batching, <b>SensorsCxSensorDataReady</b> is called repeatedly until all the batched data samples are delivered to the client.
-    For more information about the callback function related to  batch latency, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">EvtSensorSetBatchLatency</a>.
+    For more information about the callback function related to  batch latency, see <a href="/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">EvtSensorSetBatchLatency</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">EvtSensorSetBatchLatency</a>
+<a href="/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">EvtSensorSetBatchLatency</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>
+<a href="/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>
-
+<a href="/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>

@@ -53,13 +53,13 @@ A driver can use <b>IOCTL_STORAGE_DEVICE_POWER_CAP</b> to specify a maximum oper
 ### -input-buffer
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
 
 <b>
-       Irp->AssociatedIrp.SystemBuffer</b> contains <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a> data that specifies the maximum power. 
+       Irp->AssociatedIrp.SystemBuffer</b> contains <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a> data that specifies the maximum power. 
 
 <b>
-       Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp->AssociatedIrp.SystemBuffer</b>. <b>OutputBufferLength</b> must be <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
+       Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp->AssociatedIrp.SystemBuffer</b>. <b>OutputBufferLength</b> must be <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
 
 ### -input-buffer-length
 
@@ -67,12 +67,12 @@ The length of .
 
 ### -output-buffer
 
-If the operation is successful, the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> will contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a> structure.
+If the operation is successful, the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> will contain a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a> structure.
 
 ### -output-buffer-length
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>).
 
 ### -in-out-buffer
 
@@ -84,9 +84,8 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_power_cap">STORAGE_DEVICE_POWER_CAP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_device_power_cap_units">STORAGE_DEVICE_POWER_CAP_UNITS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_device_power_cap_units">STORAGE_DEVICE_POWER_CAP_UNITS</a>

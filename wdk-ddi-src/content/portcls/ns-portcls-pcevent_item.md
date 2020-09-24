@@ -54,7 +54,7 @@ The <b>PCEVENT_ITEM</b> structure is used to describe an event that is supported
 
 ### -field Set
 
-Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-drivers-event-sets">Audio Drivers Event Sets</a>.
+Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="/windows-hardware/drivers/audio/audio-drivers-event-sets">Audio Drivers Event Sets</a>.
 
 ### -field Id
 
@@ -88,32 +88,26 @@ If the client specifies this flag, the driver returns STATUS_SUCCESS if it suppo
 
 Pointer to the miniport driver's event-handler routine. This member is a function pointer of type PCPFNEVENT_HANDLER, which is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>  typedef NTSTATUS (*PCPFNEVENT_HANDLER)
+
+```
+  typedef NTSTATUS (*PCPFNEVENT_HANDLER)
   (
       IN PPCEVENT_REQUEST  EventRequest
-  );</pre>
-</td>
-</tr>
-</table></span></div>
-When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a> structure.
+  );
+```
+
+When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a> structure.
 
 ## -remarks
 
-The <b>PCEVENT_ITEM</b> structure specifies a particular event item in an automation table. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure points to an array of <b>PCEVENT_ITEM</b> structures.
+The <b>PCEVENT_ITEM</b> structure specifies a particular event item in an automation table. The <a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure points to an array of <b>PCEVENT_ITEM</b> structures.
 
 In WDM audio, the target for an event request is either a pin instance or a node on a pin. A filter instance cannot be the target of an event request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a>

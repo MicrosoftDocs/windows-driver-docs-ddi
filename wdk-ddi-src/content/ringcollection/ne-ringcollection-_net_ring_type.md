@@ -54,7 +54,6 @@ The [**NET_RING**](../ring/ns-ring-_net_ring.md) is a fragment ring.
 
 ## -see-also
 
-[Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings)
+[Introduction to net rings](/windows-hardware/drivers/netcx/introduction-to-net-rings)
 
 [**NET_RING**](../ring/ns-ring-_net_ring.md)
-

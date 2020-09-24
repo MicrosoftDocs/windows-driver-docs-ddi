@@ -61,7 +61,7 @@ A pointer to a <b>FileObject</b> to send the QueryEA request to.
 ### -param EaBuffer 
 
 [in]
-A pointer to a caller-supplied, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set
+A pointer to a caller-supplied, <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set
 
 ### -param Length 
 
@@ -154,13 +154,12 @@ You delete EA’s by specifying an <b>EAName</b> with an <b>EaValueLength</b> of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F">FsRtlQueryKernelEaFile</a>
+<a href="/previous-versions/mt807492(v=vs.85)">FsRtlQueryKernelEaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryeafile">ZwQueryEaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwseteafile">ZwSetEaFile</a>

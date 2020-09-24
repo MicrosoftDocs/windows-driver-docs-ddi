@@ -52,7 +52,7 @@ Resets the volume for its device's audio ports.  Obsolete, beginning with Window
 
 ### -input-buffer
 
-The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_volume_control">VOLUME_CONTROL</a> value or values to be set.
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_volume_control">VOLUME_CONTROL</a> value or values to be set.
 
 ### -input-buffer-length
 
@@ -82,5 +82,4 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_volume_control">VOLUME_CONTROL</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_volume_control">VOLUME_CONTROL</a>

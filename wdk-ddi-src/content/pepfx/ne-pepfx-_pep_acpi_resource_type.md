@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>PEP_ACPI_RESOURCE_TYPE</b> enumeration is used to identify the type of ACPI resource that is contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a> union.
+The <b>PEP_ACPI_RESOURCE_TYPE</b> enumeration is used to identify the type of ACPI resource that is contained in the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a> union.
 
 ## -enum-fields
 
@@ -94,9 +94,8 @@ Indicates that the resource is an ACPI extended IO resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_request_convert_to_bios_resources">PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_request_convert_to_bios_resources">PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a>

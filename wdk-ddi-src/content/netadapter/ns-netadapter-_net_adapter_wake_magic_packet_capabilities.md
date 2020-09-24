@@ -1,11 +1,9 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES
 title: NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES structure describes a net adapter's wake on LAN (WoL) capabilities for waking from a magic packet.
 tech.root: netvista
 ms.assetid: 275f7fe2-1bfc-4a88-b3c7-b78840b34930
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES, NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES,
@@ -64,11 +62,10 @@ Call [**NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT**](../netadapter/nf-neta
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_magic_packet_capabilities_init.md)
 
 [**NetAdapterWakeSetMagicPacketCapabilities**](../netadapter/nf-netadapter-netadapterwakesetmagicpacketcapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

@@ -89,5 +89,4 @@ The following capabilities are defined.
 
 ## -see-also
 
-[KSCAMERA_EXTENDEDPROP_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_value)
-
+[KSCAMERA_EXTENDEDPROP_VALUE](./ns-ksmedia-tagkscamera_extendedprop_value.md)

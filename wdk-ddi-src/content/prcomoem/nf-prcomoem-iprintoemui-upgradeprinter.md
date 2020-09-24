@@ -56,7 +56,7 @@ Caller-supplied version number of the structure pointed to by <i>pDriverUpgradeI
 
 ### -param pDriverUpgradeInfo
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_1">DRIVER_UPGRADE_INFO_1</a> structure.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_driver_upgrade_info_1">DRIVER_UPGRADE_INFO_1</a> structure.
 
 ## -returns
 
@@ -106,9 +106,8 @@ The method is not implemented.
 
 If you provide a user interface plug-in for one of Microsoft's printer drivers, and if the user interface plug-in stores device option values in the registry, it should implement the <code>IPrintOemUI::UpgradePrinter</code> method to update those values.
 
-A user interface plug-in's <code>IPrintOemUI::UpgradePrinter</code> method performs the same types of operations as the <b>DrvUpgradePrinter</b> function that is exported by user-mode printer interface DLLs. When the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a> function is called, it updates its own registry values and then calls the <code>IPrintOemUI::UpgradePrinter</code> method.
+A user interface plug-in's <code>IPrintOemUI::UpgradePrinter</code> method performs the same types of operations as the <b>DrvUpgradePrinter</b> function that is exported by user-mode printer interface DLLs. When the driver's <a href="/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a> function is called, it updates its own registry values and then calls the <code>IPrintOemUI::UpgradePrinter</code> method.
 
 If <code>IPrintOemUI::UpgradePrinter</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
-For more information about creating and installing user interface plug-ins, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.
-
+For more information about creating and installing user interface plug-ins, see <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a>.

@@ -21,6 +21,5 @@ f1_keywords:
 
 This header is used by debugger. For more information, see:
 
-- [EngExtCpp Extension Design Guide](engextcpp-extension-design-guide.md)
+- [EngExtCpp Extension Design Guide](/windows-hardware/drivers/debugger/engextcpp-extension-design-guide)
 - [Debugger](../_debugger/index.md)
-

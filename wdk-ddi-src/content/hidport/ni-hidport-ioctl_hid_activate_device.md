@@ -48,7 +48,7 @@ api_name:
 
 The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations.
 
-For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For general information about HIDClass devices, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -ioctlparameters
 
@@ -90,5 +90,4 @@ Minidrivers that call other drivers with this IRP to carry out the I/O to their 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_deactivate_device">IOCTL_HID_DEACTIVATE_DEVICE</a>
-
+<a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_deactivate_device">IOCTL_HID_DEACTIVATE_DEVICE</a>

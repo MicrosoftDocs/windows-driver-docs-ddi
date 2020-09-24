@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>KdEnableDebugger</b> routine re-enables the kernel debugger after a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kddisabledebugger">KdDisableDebugger</a> routine disables the kernel debugger.
+The <b>KdEnableDebugger</b> routine re-enables the kernel debugger after a call to the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kddisabledebugger">KdDisableDebugger</a> routine disables the kernel debugger.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If the kernel debugger is blocked (that is, the <b>KdBlockEnable</b> system vari
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kddisabledebugger">KdDisableDebugger</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kddisabledebugger">KdDisableDebugger</a>

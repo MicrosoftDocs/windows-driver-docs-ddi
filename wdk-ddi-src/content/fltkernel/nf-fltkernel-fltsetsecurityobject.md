@@ -63,7 +63,7 @@ File object pointer for the object whose security state is to be set. The caller
 ### -param SecurityInformation 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be set as a combination of one or more of the following. This parameter is required and cannot be <b>NULL</b>. 
+Pointer to a <a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be set as a combination of one or more of the following. This parameter is required and cannot be <b>NULL</b>. 
 
 <table>
 <tr>
@@ -226,21 +226,20 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
+<a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567066">ZwQuerySecurityObject</a>
+<a href="/previous-versions/ff567066(v=vs.85)">ZwQuerySecurityObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567106">ZwSetSecurityObject</a>
-
+<a href="/previous-versions/ff567106(v=vs.85)">ZwSetSecurityObject</a>

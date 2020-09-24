@@ -61,7 +61,7 @@ Specifies the HRESULT to be logged.
 
 ## -remarks
 
-A call to the **wiauDbgLegacyHresult2** function is equivalent to the following call to the [wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr) function:
+A call to the **wiauDbgLegacyHresult2** function is equivalent to the following call to the [wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md) function:
 
 ```cpp
 wiauDbgErrorHr(hr, "", "");
@@ -75,5 +75,4 @@ ERROR HRESULT = HRESULT value, Error text for HRESULT
 
 ## -see-also
 
-[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr)
-
+[wiauDbgErrorHr](./nf-wiautil-wiaudbgerrorhr.md)

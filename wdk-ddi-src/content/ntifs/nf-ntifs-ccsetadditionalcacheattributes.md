@@ -67,17 +67,16 @@ Set to <b>TRUE</b> to disable write-behind, <b>FALSE</b> to enable it. The calle
 
 ## -remarks
 
-<b>CcSetAdditionalCacheAttributes</b> can be called any time after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>. Initially, both read-ahead and write-behind are enabled.
+<b>CcSetAdditionalCacheAttributes</b> can be called any time after calling <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>. Initially, both read-ahead and write-behind are enabled.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccinitializecachemap">CcInitializeCacheMap</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff539191(v=vs.85)">CcReadAhead</a>
+<a href="/previous-versions/ff539191(v=vs.85)">CcReadAhead</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539224">CcSetReadAheadGranularity</a>
-

@@ -52,7 +52,7 @@ api_name:
 
 The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote
   SDP connection to terminate. This structure is passed as the input buffer of 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect">IOCTL_BTH_SDP_DISCONNECT</a>.
+  <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect">IOCTL_BTH_SDP_DISCONNECT</a>.
 
 ## -struct-fields
 
@@ -68,19 +68,18 @@ The BTH_SDP_DISCONNECT structure contains input information about a connection h
 A handle for the SDP connection on the remote server to terminate. This should be a value returned
      in the 
      <b>hConnection</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a> structure of a previous call
+     <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a> structure of a previous call
      to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>.
+     <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect">IOCTL_BTH_SDP_DISCONNECT</a>
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect">IOCTL_BTH_SDP_DISCONNECT</a>

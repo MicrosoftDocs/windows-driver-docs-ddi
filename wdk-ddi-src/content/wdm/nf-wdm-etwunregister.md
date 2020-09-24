@@ -67,5 +67,4 @@ Callers of <b>EtwRegister</b> must be running at IRQL = PASSIVE_LEVEL in the con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a>

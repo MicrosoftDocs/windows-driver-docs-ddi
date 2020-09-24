@@ -59,7 +59,7 @@ A pointer to a caller-supplied buffer. This buffer must be in nonpageable  memor
 ### -param SourceAddress 
 
 [in]
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address">MM_COPY_ADDRESS</a> structure, passed by value, that contains either the virtual address or the physical address of the data to be copied to the buffer pointed to by <i>TargetAddress</i>.
+An <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address">MM_COPY_ADDRESS</a> structure, passed by value, that contains either the virtual address or the physical address of the data to be copied to the buffer pointed to by <i>TargetAddress</i>.
 
 ### -param NumberOfBytes 
 
@@ -102,7 +102,7 @@ A pointer to a location to which the routine writes the number of bytes successf
 
 Kernel-mode drivers can call this routine to safely access arbitrary physical or virtual addresses.
 
-If the MM_COPY_MEMORY_PHYSICAL flag is set, <i>SourceAddress</i> should point to regular memory that is under control of the operating system. <b>MmCopyMemory</b> will return an error status code for physical addresses that refer to I/O space, which includes memory-mapped devices and firmware tables. To access physical memory in I/O space, drivers can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a> routine.
+If the MM_COPY_MEMORY_PHYSICAL flag is set, <i>SourceAddress</i> should point to regular memory that is under control of the operating system. <b>MmCopyMemory</b> will return an error status code for physical addresses that refer to I/O space, which includes memory-mapped devices and firmware tables. To access physical memory in I/O space, drivers can use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a> routine.
 
 If the MM_COPY_MEMORY_VIRTUAL flag is set, <i>SourceAddress</i> can point to either a buffer in system address space, or a buffer in the user address space of the current process. If the caller does not control the lifetime of the allocation containing the specified source address, <b>MmCopyMemory</b> might fail or might return inconsistent data, but will not cause a system crash—even for system addresses that are invalid and would trigger a bug check if referenced directly. <b>MmCopyMemory</b> will return an error status code for system virtual addresses that refer to I/O space.
 
@@ -110,9 +110,8 @@ If memory at the virtual address specified by <i>SourceAddress</i> is not reside
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address">MM_COPY_ADDRESS</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_mm_copy_address">MM_COPY_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>

@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-<b>D3DKMT_RECLAIMALLOCATIONS2</b> describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreclaimallocations2">D3DKMTReclaimAllocations2</a> function.
+<b>D3DKMT_RECLAIMALLOCATIONS2</b> describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtreclaimallocations2">D3DKMTReclaimAllocations2</a> function.
 
 ## -struct-fields
 
@@ -87,4 +87,3 @@ If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b
 ### -field PagingFenceValue
 
 The paging fence to synchronize against before submitting work to the GPU which references any of the resources or allocations in the provided arrays.
-

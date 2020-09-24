@@ -48,7 +48,7 @@ api_name:
 
 The <b>IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES</b> 
    IOCTL Gets the KSNODE types that best describe the Bluetooth device’s input and output.
-<div class="alert"><b>Note</b>  This IOCTL has been deprecated for Windows 8.1, so you should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This IOCTL has been deprecated for Windows 8.1, so you should use <a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a> instead.</div><div> </div>
 
 ## -ioctlparameters
 
@@ -62,21 +62,16 @@ None.
 
 ### -output-buffer
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>struct
+
+```cpp
+struct
 {
     GUID OutputType;
     GUID InputType;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ### -output-buffer-length
 
@@ -104,9 +99,8 @@ This request completes immediately.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
+<a href="/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>

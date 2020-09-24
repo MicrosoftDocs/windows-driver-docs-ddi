@@ -54,7 +54,7 @@ The <b>ClfsCreateScanContext</b> routine creates a scan context that can be used
 ### -param plfoLog 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The scan context is created for the log that provides the underlying storage for that stream. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The scan context is created for the log that provides the underlying storage for that stream. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
 ### -param cFromContainer 
 
@@ -64,7 +64,7 @@ The index of the first container to be scanned. Containers are indexed starting 
 ### -param cContainers 
 
 [in]
-The number of containers to be scanned with each call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>.
+The number of containers to be scanned with each call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>.
 
 ### -param eScanMode 
 
@@ -116,7 +116,7 @@ If <i>pcxScan</i> points to a CLFS_SCAN_CONTEXT structure that has been passed t
 ### -param pcxScan 
 
 [in, out]
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_scan_context">CLFS_SCAN_CONTEXT</a> structure whose members are initialized by this routine. This structure is later passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>.
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_scan_context">CLFS_SCAN_CONTEXT</a> structure whose members are initialized by this routine. This structure is later passed to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>.
 
 ## -returns
 
@@ -124,9 +124,8 @@ A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hard
 
 ## -remarks
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>

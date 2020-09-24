@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>UPSCancelWait</b> function cancels all waits initiated by calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upswaitforstatechange">UPSWaitForStateChange</a>.
+The <b>UPSCancelWait</b> function cancels all waits initiated by calls to <a href="/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upswaitforstatechange">UPSWaitForStateChange</a>.
 
 ## -remarks
 
@@ -54,5 +54,4 @@ The call returns immediately.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upswaitforstatechange">UPSWaitForStateChange</a>
-
+<a href="/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upswaitforstatechange">UPSWaitForStateChange</a>

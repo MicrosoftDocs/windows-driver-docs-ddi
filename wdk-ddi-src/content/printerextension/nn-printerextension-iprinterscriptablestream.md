@@ -46,28 +46,27 @@ api_name:
 
 ## -description
 
-The IPrinterScriptableStream interface builds on <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a> and adds IStream-like semantics.
+The IPrinterScriptableStream interface builds on <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a> and adds IStream-like semantics.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptableStream</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>. <b>IPrinterScriptableStream</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptableStream</b> interface inherits from <a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>. <b>IPrinterScriptableStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getreadstream">IPrinterScriptablePropertyBag::GetReadStream</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getreadstream">IPrinterScriptablePropertyBag::GetReadStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getwritestream">IPrinterScriptablePropertyBag::GetWriteStream</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getwritestream">IPrinterScriptablePropertyBag::GetWriteStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>
-
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterscriptablesequentialstream">IPrinterScriptableSequentialStream</a>

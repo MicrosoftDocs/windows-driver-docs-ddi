@@ -62,7 +62,7 @@ The size, in bytes, of this structure.
 
 ### -field Flags
 
-A bitwise OR of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags.
+A bitwise OR of <a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>-typed flags.
 
 ### -field Timeout
 
@@ -84,29 +84,28 @@ If the value is zero, the framework does not time out the request.
 </ul>
 Relative expiration times are not affected by any changes to the system time that might occur within the specified time-out period. Absolute expiration times do reflect system time changes.
 
-The framework provides <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/">time conversion functions</a> that convert time values into system time units.
+The framework provides <a href="/windows-hardware/drivers/ddi/wdftimer/">time conversion functions</a> that convert time values into system time units.
 
 If the framework cancels an I/O request because the specified time-out period has elapsed, the framework provides a completion status of STATUS_IO_TIMEOUT for the I/O request. However, after the time-out period elapses, the I/O target might complete the I/O request before the framework is able to cancel it. In that case, the I/O request's completion status will not be STATUS_IO_TIMEOUT.
 
 ## -remarks
 
-The <b>WDF_REQUEST_SEND_OPTIONS</b> structure is passed to object methods that send an I/O request to an I/O target, such as the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a> method. The structure must be initialized by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_send_options_init">WDF_REQUEST_SEND_OPTIONS_INIT</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_send_options_set_timeout">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a> functions.
+The <b>WDF_REQUEST_SEND_OPTIONS</b> structure is passed to object methods that send an I/O request to an I/O target, such as the <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a> method. The structure must be initialized by calling the <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_send_options_init">WDF_REQUEST_SEND_OPTIONS_INIT</a> and <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_send_options_set_timeout">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a> functions.
 
 If the driver is sending the request synchronously, we recommend that the driver set a time-out value and the time-out flag in the <b>Flags</b> member of this structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
+<a href="/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_send_options_flags">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_send_options_init">WDF_REQUEST_SEND_OPTIONS_INIT</a>
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_send_options_init">WDF_REQUEST_SEND_OPTIONS_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_send_options_set_timeout">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdf_request_send_options_set_timeout">WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>

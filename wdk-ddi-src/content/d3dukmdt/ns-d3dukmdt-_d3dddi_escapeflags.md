@@ -54,7 +54,7 @@ The D3DDDI_ESCAPEFLAGS structure identifies how the user-mode display driver sha
 
 ### -field HardwareAccess
 
-A <b>UINT</b> value that specifies whether the operating system performs the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-second-level">second level of synchronization</a> into the display miniport driver for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call. If the driver requires the second level of synchronization and the <b>HardwareAccess</b> flag is not set, the call to the driver's <i>DxgkDdiEscape</i> function should fail. 
+A <b>UINT</b> value that specifies whether the operating system performs the <a href="/windows-hardware/drivers/display/threading-and-synchronization-second-level">second level of synchronization</a> into the display miniport driver for the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call. If the driver requires the second level of synchronization and the <b>HardwareAccess</b> flag is not set, the call to the driver's <i>DxgkDdiEscape</i> function should fail. 
 
 Starting in Windows 8.1,  if this member is set, <b>DeviceStatusQuery</b> and <b>ChangeFrameLatency</b> must be set to zero.
 
@@ -63,7 +63,7 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 ### -field DeviceStatusQuery
 
   
-  If set, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> function is called and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_escape">D3DDDICB_ESCAPE</a>.<b>PrivateDriverDataSize</b> member is <code>sizeof(D3DDDI_EXECUTIONSTATEESCAPE)</code>, the Direct3D runtime interprets the <b>D3DDDICB_ESCAPE</b>.<b>pPrivateDriverData</b> member as a pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_executionstateescape">D3DDDI_EXECUTIONSTATEESCAPE</a> structure. In addition, the runtime processes the <i>pfnEscapeCb</i> as a status query by writing the requested info into the provided buffer instead of sending a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call to the display miniport driver.
+  If set, when the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> function is called and the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_escape">D3DDDICB_ESCAPE</a>.<b>PrivateDriverDataSize</b> member is <code>sizeof(D3DDDI_EXECUTIONSTATEESCAPE)</code>, the Direct3D runtime interprets the <b>D3DDDICB_ESCAPE</b>.<b>pPrivateDriverData</b> member as a pointer to a buffer that contains a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_executionstateescape">D3DDDI_EXECUTIONSTATEESCAPE</a> structure. In addition, the runtime processes the <i>pfnEscapeCb</i> as a status query by writing the requested info into the provided buffer instead of sending a <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call to the display miniport driver.
 
 If this member is set, <b>HardwareAccess</b> and <b>ChangeFrameLatency</b> must be set to zero.
 
@@ -76,7 +76,7 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 ### -field ChangeFrameLatency
 
   
-  If set, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> function is called, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_escape">D3DDDICB_ESCAPE</a>.<b>PrivateDriverDataSize</b> member is <code>sizeof(D3DDDI_FRAMELATENCYESCAPE)</code> and conditions in Remarks are also met, the Direct3D runtime interprets the <b>D3DDDICB_ESCAPE</b>.<b>pPrivateDriverData</b> member as a pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_framelatencyescape">D3DDDI_FRAMELATENCYESCAPE</a> structure. In addition, the runtime processes the <i>pfnEscapeCb</i> as a request to change the DirectX graphics kernel subsystem's maximum frame latency by writing the requested info into the provided buffer instead of sending a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call to the display miniport driver.
+  If set, when the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> function is called, the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_escape">D3DDDICB_ESCAPE</a>.<b>PrivateDriverDataSize</b> member is <code>sizeof(D3DDDI_FRAMELATENCYESCAPE)</code> and conditions in Remarks are also met, the Direct3D runtime interprets the <b>D3DDDICB_ESCAPE</b>.<b>pPrivateDriverData</b> member as a pointer to a buffer that contains a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_framelatencyescape">D3DDDI_FRAMELATENCYESCAPE</a> structure. In addition, the runtime processes the <i>pfnEscapeCb</i> as a request to change the DirectX graphics kernel subsystem's maximum frame latency by writing the requested info into the provided buffer instead of sending a <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call to the display miniport driver.
 
 If this member is set, <b>HardwareAccess</b> and <b>DeviceStatusQuery</b> must be set to zero.
 
@@ -116,7 +116,7 @@ A member in the union that is contained in D3DDDI_ESCAPEFLAGS that can hold one 
 
 ## -remarks
 
-If <b>ChangeFrameLatency</b> is set, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> call will succeed only if:
+If <b>ChangeFrameLatency</b> is set, a <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> call will succeed only if:
 
 <ul>
 <li>The display miniport driver is responsible for a linked adapter configuration (LDA) provided by a single vendor.</li>
@@ -127,25 +127,24 @@ If these conditions are not met, <i>pfnEscapeCb</i> call returns an <b>E_INVALID
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_escape">D3DDDICB_ESCAPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_escape">D3DDDICB_ESCAPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_executionstateescape">D3DDDI_EXECUTIONSTATEESCAPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_executionstateescape">D3DDDI_EXECUTIONSTATEESCAPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_framelatencyescape">D3DDDI_FRAMELATENCYESCAPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_framelatencyescape">D3DDDI_FRAMELATENCYESCAPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_escape">DXGKARG_ESCAPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_escape">DXGKARG_ESCAPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>

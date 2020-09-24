@@ -88,23 +88,23 @@ The minor function code for the I/O operation. This member is optional and can b
 
 ### -field OperationFlags
 
-A bitmask of flags that specify various aspects of the I/O operation. These flags are used only for IRP-based operations. The Filter Manager copies these flags from the  **Flags** member of the [**IO_STACK_LOCATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location) structure that is associated with the [**IRP**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp). The following table shows the most commonly used flag values.
+A bitmask of flags that specify various aspects of the I/O operation. These flags are used only for IRP-based operations. The Filter Manager copies these flags from the  **Flags** member of the [**IO_STACK_LOCATION**](../wdm/ns-wdm-_io_stack_location.md) structure that is associated with the [**IRP**](../wdm/ns-wdm-_irp.md). The following table shows the most commonly used flag values.
 
 | Value | Meaning |
 | ----- | ------- |
-| SL_CASE_SENSITIVE    | Used for [**IRP_MJ_CREATE**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, file name comparisons should be case-sensitive. |
-| SL_EXCLUSIVE_LOCK    | Used for [**IRP_MJ_LOCK_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-lock-control). If this flag is set, an exclusive byte-range lock is requested. Otherwise, a shared lock is requested. |
-| SL_FAIL_IMMEDIATELY  | Used for [**IRP_MJ_LOCK_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-lock-control). If this flag is set, the lock request should fail if it cannot be granted immediately. |
-| SL_FORCE_ACCESS_CHECK  | Used for [**IRP_MJ_CREATE**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, access checks must be performed even if the value of the IRP's **RequestorMode** member is **KernelMode**. |
-| SL_FORCE_DIRECT_WRITE  | Used for IRP_MJ_WRITE and IOCTL_DISK_COPY_DATA. If this flag is set, kernel-mode drivers can write to volume areas that they are normally blocked from writing to due to security reasons. This flag is checked both at the file system layer and storage stack layer. For more information about this flag, see [Blocking Direct Write Operations to Volumes and Disks](https://docs.microsoft.com/windows-hardware/drivers/ddi/index). The SL_FORCE_DIRECT_WRITE flag is available in Windows Vista and later versions of Windows. |
-| SL_INDEX_SPECIFIED    | Used for [**IRP_MJ_DIRECTORY_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_QUERY_EA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-ea), and [**IRP_MJ_SET_QUOTA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-quota). If this flag is set, the scan for directory, quota, or extended-attribute information should begin at the entry in the list whose index is specified. |
-| SL_OPEN_PAGING_FILE    | Used for [**IRP_MJ_CREATE**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, the file is a paging file. |
-| SL_OPEN_TARGET_DIRECTORY | Used for [**IRP_MJ_CREATE**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, the file's parent directory should be opened. |
-| SL_OVERRIDE_VERIFY_VOLUME | Used for [**IRP_MJ_DIRECTORY_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_READ**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read), and [**IRP_MJ_WRITE**](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write). If this flag is set, the I/O operation should be performed even if the DO_VERIFY_VOLUME flag is set on the volume's device object. |
-| SL_RESTART_SCAN | Used for [**IRP_MJ_DIRECTORY_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_QUERY_EA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-ea), and [**IRP_MJ_SET_QUOTA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-quota). If this flag is set, the scan for directory, quota, or extended-attribute information should begin at the first entry in the directory or list. Otherwise, the scan should be resumed from the previous scan. |
-| SL_RETURN_SINGLE_ENTRY | Used for [**IRP_MJ_DIRECTORY_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_QUERY_EA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-ea), and [**IRP_MJ_SET_QUOTA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-quota). If this flag is set, the scan for directory, quota, or extended-attribute information should return only the first entry that is found. |
-| SL_WATCH_TREE | Used for [**IRP_MJ_DIRECTORY_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control). If this flag is set, all subdirectories of this directory should also be watched. Otherwise, only the directory itself is to be watched. |
-| SL_WRITE_THROUGH | Used for [**IRP_MJ_WRITE**](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write). If this flag is set, the file data must be written through to persistent storage, not just written to the cache. |
+| SL_CASE_SENSITIVE    | Used for [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, file name comparisons should be case-sensitive. |
+| SL_EXCLUSIVE_LOCK    | Used for [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control). If this flag is set, an exclusive byte-range lock is requested. Otherwise, a shared lock is requested. |
+| SL_FAIL_IMMEDIATELY  | Used for [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control). If this flag is set, the lock request should fail if it cannot be granted immediately. |
+| SL_FORCE_ACCESS_CHECK  | Used for [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, access checks must be performed even if the value of the IRP's **RequestorMode** member is **KernelMode**. |
+| SL_FORCE_DIRECT_WRITE  | Used for IRP_MJ_WRITE and IOCTL_DISK_COPY_DATA. If this flag is set, kernel-mode drivers can write to volume areas that they are normally blocked from writing to due to security reasons. This flag is checked both at the file system layer and storage stack layer. For more information about this flag, see [Blocking Direct Write Operations to Volumes and Disks](../index.yml). The SL_FORCE_DIRECT_WRITE flag is available in Windows Vista and later versions of Windows. |
+| SL_INDEX_SPECIFIED    | Used for [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea), and [**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota). If this flag is set, the scan for directory, quota, or extended-attribute information should begin at the entry in the list whose index is specified. |
+| SL_OPEN_PAGING_FILE    | Used for [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, the file is a paging file. |
+| SL_OPEN_TARGET_DIRECTORY | Used for [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create). If this flag is set, the file's parent directory should be opened. |
+| SL_OVERRIDE_VERIFY_VOLUME | Used for [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_READ**](/windows-hardware/drivers/ifs/irp-mj-read), and [**IRP_MJ_WRITE**](/windows-hardware/drivers/kernel/irp-mj-write). If this flag is set, the I/O operation should be performed even if the DO_VERIFY_VOLUME flag is set on the volume's device object. |
+| SL_RESTART_SCAN | Used for [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea), and [**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota). If this flag is set, the scan for directory, quota, or extended-attribute information should begin at the first entry in the directory or list. Otherwise, the scan should be resumed from the previous scan. |
+| SL_RETURN_SINGLE_ENTRY | Used for [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control), [**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea), and [**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota). If this flag is set, the scan for directory, quota, or extended-attribute information should return only the first entry that is found. |
+| SL_WATCH_TREE | Used for [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control). If this flag is set, all subdirectories of this directory should also be watched. Otherwise, only the directory itself is to be watched. |
+| SL_WRITE_THROUGH | Used for [**IRP_MJ_WRITE**](/windows-hardware/drivers/kernel/irp-mj-write). If this flag is set, the file data must be written through to persistent storage, not just written to the cache. |
 
 ### -field Reserved
 
@@ -164,7 +164,7 @@ A minifilter can initiate an I/O operation by calling a support routine such as 
 
 [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
-[**FLT_IS_IRP_OPERATION**](https://docs.microsoft.com/previous-versions/ff544654(v=vs.85))
+[**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85))
 
 [**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)
 
@@ -180,55 +180,55 @@ A minifilter can initiate an I/O operation by calling a support routine such as 
 
 [**FltSetCallbackDataDirty**](nf-fltkernel-fltsetcallbackdatadirty.md)
 
-[**IO_STACK_LOCATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location)
+[**IO_STACK_LOCATION**](../wdm/ns-wdm-_io_stack_location.md)
 
-[**IRP**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp)
+[**IRP**](../wdm/ns-wdm-_irp.md)
 
-[**IRP_MJ_CLEANUP**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-cleanup)
+[**IRP_MJ_CLEANUP**](/windows-hardware/drivers/ifs/irp-mj-cleanup)
 
-[**IRP_MJ_CLOSE**](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-close)
+[**IRP_MJ_CLOSE**](/windows-hardware/drivers/kernel/irp-mj-close)
 
-[**IRP_MJ_CREATE**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create)
+[**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create)
 
-[**IRP_MJ_DEVICE_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control)
+[**IRP_MJ_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-device-control)
 
-[**IRP_MJ_DIRECTORY_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control)
+[**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-[**IRP_MJ_FILE_SYSTEM_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-file-system-control)
+[**IRP_MJ_FILE_SYSTEM_CONTROL**](/windows-hardware/drivers/kernel/irp-mj-file-system-control)
 
-[**IRP_MJ_FLUSH_BUFFERS**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
+[**IRP_MJ_FLUSH_BUFFERS**](/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
 
-[**IRP_MJ_INTERNAL_DEVICE_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+[**IRP_MJ_INTERNAL_DEVICE_CONTROL**](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
 
-[**IRP_MJ_LOCK_CONTROL**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-lock-control)
+[**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)
 
-[**IRP_MJ_PNP**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-pnp)
+[**IRP_MJ_PNP**](/windows-hardware/drivers/ifs/irp-mj-pnp)
 
-[**IRP_MJ_QUERY_EA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-ea)
+[**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea)
 
-[**IRP_MJ_QUERY_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-information)
+[**IRP_MJ_QUERY_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-information)
 
-[**IRP_MJ_QUERY_QUOTA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-quota)
+[**IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-query-quota)
 
-[**IRP_MJ_QUERY_SECURITY**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-security)
+[**IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-query-security)
 
-[**IRP_MJ_QUERY_VOLUME_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
+[**IRP_MJ_QUERY_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
 
-[**IRP_MJ_READ**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read)
+[**IRP_MJ_READ**](/windows-hardware/drivers/ifs/irp-mj-read)
 
-[**IRP_MJ_SET_EA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-ea)
+[**IRP_MJ_SET_EA**](/windows-hardware/drivers/ifs/irp-mj-set-ea)
 
-[**IRP_MJ_SET_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-information)
+[**IRP_MJ_SET_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-set-information)
 
-[**IRP_MJ_SET_QUOTA**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-quota)
+[**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota)
 
-[**IRP_MJ_SET_SECURITY**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-security)
+[**IRP_MJ_SET_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-set-security)
 
-[**IRP_MJ_SET_VOLUME_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-volume-information)
+[**IRP_MJ_SET_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-set-volume-information)
 
-[**IRP_MJ_SHUTDOWN**](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-shutdown)
+[**IRP_MJ_SHUTDOWN**](/windows-hardware/drivers/ifs/irp-mj-shutdown)
 
-[**IRP_MJ_WRITE**](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write)
+[**IRP_MJ_WRITE**](/windows-hardware/drivers/kernel/irp-mj-write)
 
 [**PFLT_COMPLETED_ASYNC_IO_CALLBACK**](nc-fltkernel-pflt_completed_async_io_callback.md)
 
@@ -237,4 +237,3 @@ A minifilter can initiate an I/O operation by calling a support routine such as 
 [**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
 [**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)
-

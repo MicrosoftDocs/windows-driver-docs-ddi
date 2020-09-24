@@ -64,5 +64,4 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_removeisnsserver_out">RemoveiSNSServer_OUT</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_removeisnsserver_out">RemoveiSNSServer_OUT</a>

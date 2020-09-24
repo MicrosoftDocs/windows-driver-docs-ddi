@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>StorPortEnablePassiveInitialization</b> routine enables  the miniport's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a> callback routine to execute at PASSIVE_LEVEL during miniport initialization.
+The <b>StorPortEnablePassiveInitialization</b> routine enables  the miniport's <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a> callback routine to execute at PASSIVE_LEVEL during miniport initialization.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Pointer to the per-adapter device extension.
 ### -param HwPassiveInitializeRoutine 
 
 [in]
-Pointer to a callback routine that the port driver calls at PASSIVE_LEVEL to initialize the DPCs that the miniport driver will use. For a description of this callback routine, see [HwStorPassiveInitializeRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine).
+Pointer to a callback routine that the port driver calls at PASSIVE_LEVEL to initialize the DPCs that the miniport driver will use. For a description of this callback routine, see [HwStorPassiveInitializeRoutine](./nc-storport-hw_passive_initialize_routine.md).
 
 ## -returns
 
@@ -66,11 +66,10 @@ The <b>StorPortEnablePassiveInitialization</b> routine returns <b>TRUE</b> if th
 
 ## -remarks
 
-A miniport must call the <b>StorPortEnablePassiveInitialization</b> routine only from within <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>. Otherwise, <b>StorPortEnablePassiveInitialization</b> will return <b>FALSE</b> and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a> routine will not execute.
+A miniport must call the <b>StorPortEnablePassiveInitialization</b> routine only from within <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>. Otherwise, <b>StorPortEnablePassiveInitialization</b> will return <b>FALSE</b> and the <a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a> routine will not execute.
 
 This routine is implemented using inline function definitions, so that miniport drivers that use this routine will not have to link to libraries that are dependent on the version of the operating system. Miniport drivers can use this routine without sacrificing backward compatibility with versions of the operating system that do not support DPCs in storage miniport drivers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a>

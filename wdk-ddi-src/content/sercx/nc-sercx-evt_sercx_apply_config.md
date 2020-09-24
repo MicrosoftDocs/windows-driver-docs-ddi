@@ -66,74 +66,55 @@ The <i>EvtSerCxApplyConfig</i> function returns STATUS_SUCCESS if the call is su
 
 ## -remarks
 
-SerCx calls this function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_apply_default_configuration">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> I/O control request to the controller.
+SerCx calls this function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_apply_default_configuration">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> I/O control request to the controller.
 
 SerCx obtains these configuration parameters from the ACPI resource descriptor for the serial controller device. The data format that the ACPI firmware uses to store these configuration settings should be the same data format that is expected by the serial controller driver.
 
 When a client sends an <b>IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</b> request to a serial port that is managed by SerCx, SerCx determines whether the serial controller driver for the serial port supports the <i>EvtSerCxApplyConfig</i> callback, and whether the ACPI resource descriptor for the serial port provides default connection settings. If not, SerCx completes the request with error status code STATUS_NOT_SUPPORTED. Otherwise, SerCx passes the connection parameters to the driver's <i>EvtSerCxApplyConfig</i> callback function. After this callback returns, SerCx completes the request and uses the return value from the callback as the status code for the request.
 
-If a serial controller driver needs to obtain the default connection parameters at a time other than during an <i>EvtSerCxApplyConfig</i> callback, the driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetconnectionparameters">SerCxGetConnectionParameters</a> method.
+If a serial controller driver needs to obtain the default connection parameters at a time other than during an <i>EvtSerCxApplyConfig</i> callback, the driver can call the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetconnectionparameters">SerCxGetConnectionParameters</a> method.
 
-To register an <i>EvtSerCxApplyConfig</i> callback function, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a> method.
+To register an <i>EvtSerCxApplyConfig</i> callback function, the driver must call the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a> method.
 
 
 #### Examples
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
   EVT_SERCX_APPLY_CONFIG(
     __in WDFDEVICE Device
-    );</pre>
-</td>
-</tr>
-</table></span></div>
-To define an <i>EvtSerCxApplyConfig</i> callback function that is named <code>MyEvtSerCxApplyConfig</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
+    );
+```
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_APPLY_CONFIG MyEvtSerCxApplyConfig;</pre>
-</td>
-</tr>
-</table></span></div>
+To define an <i>EvtSerCxApplyConfig</i> callback function that is named <code>MyEvtSerCxApplyConfig</code>, you must first provide a function declaration that <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
+
+
+```cpp
+EVT_SERCX_APPLY_CONFIG MyEvtSerCxApplyConfig;
+```
+
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
   MyEvtSerCxApplyConfig(
     __in WDFDEVICE Device
     )
-{ ... }</pre>
-</td>
-</tr>
-</table></span></div>
-For more information about SDV requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
+{ ... }
+```
+
+For more information about SDV requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 <div class="code"></div>
 The following code example shows a partial implementation of an <i>EvtSerCxApplyConfig</i> function for a UART.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // Define the UART ACPI descriptor, plus any vendor-specific
 // data that is needed by the serial controller (UART) driver.
 //
@@ -215,17 +196,15 @@ NTSTATUS
     }
 
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR pointer types in the preceding code example are defined in the Reshub.h header file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_apply_default_configuration">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_apply_default_configuration">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetconnectionparameters">SerCxGetConnectionParameters</a>
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetconnectionparameters">SerCxGetConnectionParameters</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>

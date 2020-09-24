@@ -56,7 +56,7 @@ The <b>NDIS_QOS_PARAMETERS</b> structure specifies the NDIS Quality of Service (
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_QOS_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_QOS_PARAMETERS</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_QOS_PARAMETERS. To specify the version of the <b>NDIS_QOS_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -78,14 +78,14 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the
 
 A <b>ULONG</b> value that specifies the number of NDIS QoS traffic classes that are enabled on the network adapter.  Each traffic class is referenced through an identifier in the range from zero to (<b>NumTrafficClasses</b>–1).
 
-<div class="alert"><b>Note</b>  The value of the <b>NumTrafficClasses</b> member must be less than or equal to <b>min</b>(<b>NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES</b>, <i>MaxNumTrafficClasses</i>), where <i>MaxNumTrafficClasses</i> is the value of the <b>MaxNumTrafficClasses</b> member that was specified  in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_capabilities">NDIS_QOS_CAPABILITIES</a> structure.</div>
+<div class="alert"><b>Note</b>  The value of the <b>NumTrafficClasses</b> member must be less than or equal to <b>min</b>(<b>NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES</b>, <i>MaxNumTrafficClasses</i>), where <i>MaxNumTrafficClasses</i> is the value of the <b>MaxNumTrafficClasses</b> member that was specified  in the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_capabilities">NDIS_QOS_CAPABILITIES</a> structure.</div>
 <div> </div>
 
 ### -field PriorityAssignmentTable
 
 An array of <b>UCHAR</b> elements that specifies an IEEE 802.1p priority level for each traffic class. The <b>PriorityAssignmentTable</b> array is indexed  by the  802.1p priority level (0–7). 
 
-Each element contains the traffic class identifier. This identifier is the index of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure for the traffic class within the classification array.
+Each element contains the traffic class identifier. This identifier is the index of the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure for the traffic class within the classification array.
 
 <div class="alert"><b>Note</b>  Each element in the <b>PriorityAssignmentTable</b> array must be assigned a valid traffic class identifier. A traffic class identifier can be assigned to more than one element in the <b>PriorityAssignmentTable</b> array.</div>
 <div> </div>
@@ -111,7 +111,7 @@ Each element of the <b>TsaAssignmentTable</b> array contains one of the followin
 
 #### NDIS_QOS_TSA_STRICT
 
-The strict priority algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/strict-priority-algorithm">Strict Priority Algorithm</a>.
+The strict priority algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="/windows-hardware/drivers/network/strict-priority-algorithm">Strict Priority Algorithm</a>.
 
 
 
@@ -119,13 +119,13 @@ The strict priority algorithm must be used as the TSA for the traffic class. For
 
 The IEEE 802.1Qav credit-based shaper (CBS) algorithm must be used as the TSA for the traffic class.
 
-<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the DCB component (Msdcb.sys) does not support the CBS TSA and won't enable this parameter through object identifier (OID) method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-parameters">OID_QOS_PARAMETERS</a>. For more information on the DCB component, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-qos-architecture-for-data-center-bridging">NDIS QoS Architecture for Data Center Bridging</a>.</div>
+<div class="alert"><b>Note</b>  Starting with Windows Server 2012, the DCB component (Msdcb.sys) does not support the CBS TSA and won't enable this parameter through object identifier (OID) method requests of <a href="/windows-hardware/drivers/network/oid-qos-parameters">OID_QOS_PARAMETERS</a>. For more information on the DCB component, see <a href="/windows-hardware/drivers/network/ndis-qos-architecture-for-data-center-bridging">NDIS QoS Architecture for Data Center Bridging</a>.</div>
 <div> </div>
 
 
 #### NDIS_QOS_TSA_ETS
 
-The IEEE 802.1Qaz Enhanced Transmission Selection (ETS) algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enhanced-transmission-selection--ets--algorithm">Enhanced Transmission Selection (ETS) Algorithm</a>.
+The IEEE 802.1Qaz Enhanced Transmission Selection (ETS) algorithm must be used as the TSA for the traffic class. For more information about this TSA, see <a href="/windows-hardware/drivers/network/enhanced-transmission-selection--ets--algorithm">Enhanced Transmission Selection (ETS) Algorithm</a>.
 
 ### -field PfcEnable
 
@@ -176,15 +176,15 @@ is enabled on the IEEE 802.1p priority level. If the bit is set to one, PFC is e
 </table>
  
 
-<div class="alert"><b>Note</b>  The total number of 802.1p priority levels that have PFC enabled must be less than or equal to the value of the <b>MaxNumPfcEnabledTrafficClasses</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_capabilities">NDIS_QOS_CAPABILITIES</a> structure.</div>
+<div class="alert"><b>Note</b>  The total number of 802.1p priority levels that have PFC enabled must be less than or equal to the value of the <b>MaxNumPfcEnabledTrafficClasses</b> member in the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_capabilities">NDIS_QOS_CAPABILITIES</a> structure.</div>
 <div> </div>
-For more information about priority levels, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ieee-802-1p-priority-levels">IEEE 802.1p Priority Levels</a>.
+For more information about priority levels, see <a href="/windows-hardware/drivers/network/ieee-802-1p-priority-levels">IEEE 802.1p Priority Levels</a>.
 
 ### -field NumClassificationElements
 
 A <b>ULONG</b> value that specifies the number of elements in the traffic classification array. The offset to the first element in this array is specified  by the <b>FirstClassificationElementOffset</b> member.
 
-<div class="alert"><b>Note</b>  Each element in the array is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.</div>
+<div class="alert"><b>Note</b>  Each element in the array is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.</div>
 <div> </div>
 
 ### -field ClassificationElementSize
@@ -196,7 +196,7 @@ A <b>ULONG</b> value that specifies the size, in bytes, of each element in the t
 
 ### -field FirstClassificationElementOffset
 
-A <b>ULONG</b> value that specifies the offset, in bytes, to the first element in an array of traffic classification elements that follow this structure. The offset is measured from the start of the <b>NDIS_QOS_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.
+A <b>ULONG</b> value that specifies the offset, in bytes, to the first element in an array of traffic classification elements that follow this structure. The offset is measured from the start of the <b>NDIS_QOS_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.
 
 
 
@@ -209,15 +209,15 @@ The <b>NDIS_QOS_PARAMETERS</b> structure specifies the parameters that define ho
 
 <ul>
 <li>
-OID query request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-operational-parameters">OID_QOS_OPERATIONAL_PARAMETERS</a>.  This OID request returns the operational QoS parameters that are currently provisioned on the network adapter.
+OID query request of <a href="/windows-hardware/drivers/network/oid-qos-operational-parameters">OID_QOS_OPERATIONAL_PARAMETERS</a>.  This OID request returns the operational QoS parameters that are currently provisioned on the network adapter.
 
 </li>
 <li>
-OID query request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-remote-parameters">OID_QOS_REMOTE_PARAMETERS</a>. This OID request returns the remote QoS parameters that are currently provisioned on the network adapter.
+OID query request of <a href="/windows-hardware/drivers/network/oid-qos-remote-parameters">OID_QOS_REMOTE_PARAMETERS</a>. This OID request returns the remote QoS parameters that are currently provisioned on the network adapter.
 
 </li>
 <li>
-OID method requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-parameters">OID_QOS_PARAMETERS</a>. This OID request provisions the network adapter with the local QoS parameters.
+OID method requests of <a href="/windows-hardware/drivers/network/oid-qos-parameters">OID_QOS_PARAMETERS</a>. This OID request provisions the network adapter with the local QoS parameters.
 
 </li>
 </ul>
@@ -226,16 +226,16 @@ The miniport driver also returns an <b>NDIS_QOS_PARAMETERS</b> structure  in the
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-qos-operational-parameters-change">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>. This miniport driver issues this status indication when its operational QoS parameters change.
+<a href="/windows-hardware/drivers/network/ndis-status-qos-operational-parameters-change">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>. This miniport driver issues this status indication when its operational QoS parameters change.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-qos-remote-parameters-change">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>. This miniport driver issues this status indication when its remote QoS parameters change.
+<a href="/windows-hardware/drivers/network/ndis-status-qos-remote-parameters-change">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>. This miniport driver issues this status indication when its remote QoS parameters change.
 
 </li>
 </ul>
- For more information about the types of NDIS QoS parameters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-ndis-qos-parameters">Overview of NDIS QoS Parameters</a>.
+ For more information about the types of NDIS QoS parameters, see <a href="/windows-hardware/drivers/network/overview-of-ndis-qos-parameters">Overview of NDIS QoS Parameters</a>.
 
 <h3><a id="overview"></a><a id="OVERVIEW"></a>Overview of the Flags Member</h3>
 The <b>Flags</b> member contains a bitwise <b>OR</b> of flags that specify the status of the NDIS QoS parameters for the network adapter. 
@@ -245,21 +245,21 @@ The miniport driver sets the <b>Flags</b> member when it issues the following ND
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-qos-operational-parameters-change">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
+<a href="/windows-hardware/drivers/network/ndis-status-qos-operational-parameters-change">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-qos-remote-parameters-change">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
+<a href="/windows-hardware/drivers/network/ndis-status-qos-remote-parameters-change">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
 
 
 </li>
 </ul>
-The DCB component sets the <b>Flags</b> member when it issues an OID method request of  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-parameters">OID_QOS_PARAMETERS</a>.
+The DCB component sets the <b>Flags</b> member when it issues an OID method request of  <a href="/windows-hardware/drivers/network/oid-qos-parameters">OID_QOS_PARAMETERS</a>.
 
 <div class="alert"><b>Note</b>  Only the DCB component can issue the OID request.  An overlying protocol or filter driver must not issue this OID.
-For more information on the DCB component, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-qos-architecture-for-data-center-bridging">NDIS QoS Architecture for Data Center Bridging</a>.</div>
+For more information on the DCB component, see <a href="/windows-hardware/drivers/network/ndis-qos-architecture-for-data-center-bridging">NDIS QoS Architecture for Data Center Bridging</a>.</div>
 <div> </div>
 The following flags are defined for the <b>Flags</b> member.
 
@@ -267,7 +267,7 @@ The following flags are defined for the <b>Flags</b> member.
 
 <div class="alert"><b>Note</b>  NDIS guarantees that both the <b>NDIS_QOS_PARAMETERS_ETS_CONFIGURED</b> and <b>NDIS_QOS_PARAMETERS_PFC_CONFIGURED</b> flags are set or cleared together.</div>
 <div> </div>
-The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whether the corresponding group of parameters has changed from a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-parameters">OID_QOS_PARAMETERS</a> method request  or <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> status notification. When the miniport driver issues the <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> status notifications, it can  optionally set these flags.
+The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whether the corresponding group of parameters has changed from a previous <a href="/windows-hardware/drivers/network/oid-qos-parameters">OID_QOS_PARAMETERS</a> method request  or <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> status notification. When the miniport driver issues the <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> status notifications, it can  optionally set these flags.
 
 <div class="alert"><b>Note</b>  If the <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags are not set, overlying drivers must not assume that the corresponding group of parameters are supported or enabled on the underlying network adapter.</div>
 <div> </div>
@@ -278,38 +278,37 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_capabilities">NDIS_QOS_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_capabilities">NDIS_QOS_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_qos_classification_element">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-qos-operational-parameters-change">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
+<a href="/windows-hardware/drivers/network/ndis-status-qos-operational-parameters-change">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-qos-remote-parameters-change">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
+<a href="/windows-hardware/drivers/network/ndis-status-qos-remote-parameters-change">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
     NdisMSetMiniportAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-current-capabilities">OID_QOS_CURRENT_CAPABILITIES</a>
+<a href="/windows-hardware/drivers/network/oid-qos-current-capabilities">OID_QOS_CURRENT_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>
-
+<a href="/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>

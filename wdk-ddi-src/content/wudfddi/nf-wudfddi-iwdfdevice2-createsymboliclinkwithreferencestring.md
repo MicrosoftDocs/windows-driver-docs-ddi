@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
+<p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The<b>CreateSymbolicLinkWithReferenceString</b> method creates a symbolic link name, and optionally, a reference string, for a device
 
@@ -100,42 +100,33 @@ This method might return one of the other values that Winerror.h contains.
 
 ## -remarks
 
-<b>CreateSymbolicLinkWithReferenceString</b> creates a symbolic link name, and optionally a reference string, for the device that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface represents. After a driver calls <b>CreateSymbolicLinkWithReferenceString</b>, applications can use the symbolic link name to access the device.
+<b>CreateSymbolicLinkWithReferenceString</b> creates a symbolic link name, and optionally a reference string, for the device that the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface represents. After a driver calls <b>CreateSymbolicLinkWithReferenceString</b>, applications can use the symbolic link name to access the device.
 
-Suppose your device's name is "\Device\MyDevice". You can create a symbolic link name of "DeviceUserName" for your device by specifying "L"DeviceUserName"" for the <i>pSymbolicLink</i> parameter. If you specify "L"Instance3"" for the <i>pReferenceString</i> parameter, you are creating a symbolic link to \Device\MyDevice\Instance3. If an application opens the device by using the symbolic link name, the I/O manager opens \Device\MyDevice and creates a WDM file object that contains the \Instance3 string as the file name. Your UMDF-based driver receives a framework-created file object, which also contains the \Instance3 string as the file name (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile-retrievefilename">IWDFFile::RetrieveFileName</a>). 
+Suppose your device's name is "\Device\MyDevice". You can create a symbolic link name of "DeviceUserName" for your device by specifying "L"DeviceUserName"" for the <i>pSymbolicLink</i> parameter. If you specify "L"Instance3"" for the <i>pReferenceString</i> parameter, you are creating a symbolic link to \Device\MyDevice\Instance3. If an application opens the device by using the symbolic link name, the I/O manager opens \Device\MyDevice and creates a WDM file object that contains the \Instance3 string as the file name. Your UMDF-based driver receives a framework-created file object, which also contains the \Instance3 string as the file name (see <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile-retrievefilename">IWDFFile::RetrieveFileName</a>). 
 
-Typically, instead of providing symbolic links, framework-based drivers provide <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createdeviceinterface">device interfaces</a> that applications can use to access their devices.
+Typically, instead of providing symbolic links, framework-based drivers provide <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createdeviceinterface">device interfaces</a> that applications can use to access their devices.
 
 If the device is removed unexpectedly (surprise-removed), the framework removes the symbolic link to the device. The driver can then use the symbolic link name for a new instance of the device. 
 
-If you do not need to add a reference string to your device's symbolic link name, your driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createsymboliclink">IWDFDevice::CreateSymbolicLink</a> instead of <b>CreateSymbolicLinkWithReferenceString</b>.
+If you do not need to add a reference string to your device's symbolic link name, your driver can call <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createsymboliclink">IWDFDevice::CreateSymbolicLink</a> instead of <b>CreateSymbolicLinkWithReferenceString</b>.
 
 
 #### Examples
 
 
-          The following line defines a symbolic link name prefix in the global <b>DosDevices</b> namespace.
+The following line defines a symbolic link name prefix in the global <b>DosDevices</b> namespace.
         
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define SYMBOLIC_LINK_NAME_PREFIX   L"\\DosDevices\\Global\\"</pre>
-</td>
-</tr>
-</table></span></div>
-The following code example creates a symbolic name string, obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface, and then calls <b>CreateSymbolicLinkWithReferenceString</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+```
+#define SYMBOLIC_LINK_NAME_PREFIX   L"\\DosDevices\\Global\\"
+```
+
+The following code example creates a symbolic name string, obtains the <a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface, and then calls <b>CreateSymbolicLinkWithReferenceString</b>.
+
+
+```
+
     IWDFDevice2 *pDevice2 = NULL;
     HRESULT hr;
 
@@ -166,16 +157,14 @@ The following code example creates a symbolic name string, obtains the <a href="
             goto Exit;
         }
         SAFE_RELEASE(pDevice2);
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
+<a href="/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createsymboliclink">IWDFDevice::CreateSymbolicLink</a>
-
+<a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createsymboliclink">IWDFDevice::CreateSymbolicLink</a>

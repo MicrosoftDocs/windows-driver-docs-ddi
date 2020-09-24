@@ -54,7 +54,7 @@ The <b>ClfsAddLogContainerSet</b> routine atomically adds a set of containers to
 ### -param plfoLog 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the log to which the containers will be added. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the log to which the containers will be added. The caller previously obtained this pointer by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
 ### -param cContainers 
 
@@ -84,7 +84,7 @@ If the log currently has at least one container and this parameter is a valid po
 ### -param rguszContainerPath 
 
 [in]
-A pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures. Each string supplies the path name for one of the new containers. The number of elements in the array is given by <i>cContainers</i>. A given path can be absolute or relative to the location of the base log file. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\").
+A pointer to an array of <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structures. Each string supplies the path name for one of the new containers. The number of elements in the array is given by <i>cContainers</i>. A given path can be absolute or relative to the location of the base log file. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\").
 
 ## -returns
 
@@ -92,7 +92,7 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/n
 
 ## -remarks
 
-A container is a contiguous extent on stable storage. For example, a container could be a contiguous file on disk. A log is a set of containers along with a base log file. For more information about containers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/clfs-stable-storage">CLFS Stable Storage</a>. 
+A container is a contiguous extent on stable storage. For example, a container could be a contiguous file on disk. A log is a set of containers along with a base log file. For more information about containers, see <a href="/windows-hardware/drivers/kernel/clfs-stable-storage">CLFS Stable Storage</a>. 
 
 A container specified by a path that is relative to the base log file must be in the same directory as the base log file or a subdirectory of the base log file. The directories "." and ".." are not allowed in a relative path.
 
@@ -102,13 +102,12 @@ Containers are created in a non-compressed mode and are initialized with zeros.
 
 A log must have at least two containers before any I/O can be performed on it.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsaddlogcontainer">ClfsAddLogContainer</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsaddlogcontainer">ClfsAddLogContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsremovelogcontainerset">ClfsRemoveLogContainerSet</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsremovelogcontainerset">ClfsRemoveLogContainerSet</a>

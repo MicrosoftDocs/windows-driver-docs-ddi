@@ -58,17 +58,16 @@ A pointer to the I/O request packet (IRP) for the I/O operation.
 ### -param pSessionId 
 
 [out]
-A pointer to a caller-allocated variable that receives the session ID for the process that requested the I/O operation. If the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a> fails, this variable is set to -1.
+A pointer to a caller-allocated variable that receives the session ID for the process that requested the I/O operation. If the call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a> fails, this variable is set to -1.
 
 ## -returns
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a> returns STATUS_SUCCESS if the session ID is successfully returned, STATUS_UNSUCCESSFUL otherwise. STATUS_UNSUCCESSFUL is an error NTSTATUS value.
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a> returns STATUS_SUCCESS if the session ID is successfully returned, STATUS_UNSUCCESSFUL otherwise. STATUS_UNSUCCESSFUL is an error NTSTATUS value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocess">IoGetRequestorProcess</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocess">IoGetRequestorProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogetrequestorprocessid">IoGetRequestorProcessId</a>

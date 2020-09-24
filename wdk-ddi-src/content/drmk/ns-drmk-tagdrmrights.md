@@ -213,18 +213,13 @@ If the driver supports DRMRIGHTS and also implements a proprietary copy protecti
 
 The <b>DEFINE_DRMRIGHTS_DEFAULT</b> macro defines a constant <b>DRMRIGHTS</b> structure that specifies default DRM content rights.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID DEFINE_DRMRIGHTS_DEFAULT(
+
+```cpp
+VOID DEFINE_DRMRIGHTS_DEFAULT(
    DRMRIGHTS DrmRights
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
 Parameters
 
 <i>DrmRights</i>
@@ -243,25 +238,24 @@ This macro does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>
+<a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>
+<a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttofileobject">DrmForwardContentToFileObject</a>
+<a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttofileobject">DrmForwardContentToFileObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttointerface">DrmForwardContentToInterface</a>
+<a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttointerface">DrmForwardContentToInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>
+<a href="/windows-hardware/drivers/ddi/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>
 
 
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
-

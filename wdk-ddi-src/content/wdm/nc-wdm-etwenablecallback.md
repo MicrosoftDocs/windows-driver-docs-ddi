@@ -62,14 +62,14 @@ The GUID that identifies the session that enabled the provider.
 [in]
 The level at which the event is enabled. This parameter is a provider-defined value that specifies the verboseness of the events that the provider writes. The provider must write the event if this value is less than or equal to the level value that the event defines. 
 
-This value is passed in the <i>Level</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a> function or the <i>EnableLevel</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a> function.
+This value is passed in the <i>Level</i> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex">EnableTraceEx</a> function or the <i>EnableLevel</i> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletrace">EnableTrace</a> function.
 
 ### -param MatchAnyKeyword 
 
 [in]
 The bitmask of keywords that the provider uses to determine the category of events that it writes. 
 
-This value is passed in the <i>MatchAnyKeyword</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a> function or the <i>EnableFlag</i> parameter of the <a href="https://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a> function. <i>MatchAnyKeyword</i> is a 64-bit value and is basically an extended version of the 32-bit <i>EnableFlag</i>.
+This value is passed in the <i>MatchAnyKeyword</i> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex">EnableTraceEx</a> function or the <i>EnableFlag</i> parameter of the <a href="/windows/win32/api/evntrace/nf-evntrace-enabletrace">EnableTrace</a> function. <i>MatchAnyKeyword</i> is a 64-bit value and is basically an extended version of the 32-bit <i>EnableFlag</i>.
 
 ### -param MatchAllKeyword 
 
@@ -81,12 +81,12 @@ This value is passed in the <i>MatchAllKeywords</i> parameter of the <b>EnableTr
 ### -param FilterData 
 
 [in, optional]
-The provider-defined data. This parameter is optional. The provider determines the layout of the data and its purpose. For example, the provider can use this data to additionally filter the events that it writes or use it to perform some calculations before writing the events. For detailed information, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">Event Filter Descriptor</a>.
+The provider-defined data. This parameter is optional. The provider determines the layout of the data and its purpose. For example, the provider can use this data to additionally filter the events that it writes or use it to perform some calculations before writing the events. For detailed information, see <a href="/windows/win32/api/evntprov/ns-evntprov-event_filter_descriptor">Event Filter Descriptor</a>.
 
 ### -param CallbackContext 
 
 [in, out, optional]
-The context of the callback function that is defined when the provider called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> to register itself. This parameter is optional.
+The context of the callback function that is defined when the provider called <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> to register itself. This parameter is optional.
 
 
 #### - IsEnabled [in]
@@ -103,25 +103,24 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 ## -see-also
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
+<a href="/windows/win32/api/evntrace/nf-evntrace-enabletrace">EnableTrace</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a>
+<a href="/windows/win32/api/evntrace/nf-evntrace-enabletraceex">EnableTraceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">Event Filter Descriptor</a>
-
+<a href="/windows/win32/api/evntprov/ns-evntprov-event_filter_descriptor">Event Filter Descriptor</a>

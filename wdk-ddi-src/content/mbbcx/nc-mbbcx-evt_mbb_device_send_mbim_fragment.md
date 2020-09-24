@@ -81,7 +81,7 @@ The MBBCx framework calls this callback function when it wants to issue a comman
 
 To get the actual MBIM message fragment being sent, the client driver should call [**MbbRequestGetBuffer**](nf-mbbcx-mbbrequestgetbuffer.md) to get the buffer where the MBIM message fragment is stored. Once its device has successfully accepted the control request, or any failure condition has occurred, the client driver must acknowledge this to MBBCx by calling [**MbbRequestComplete**](nf-mbbcx-mbbrequestcomplete.md) either asynchronously or sychronously. 
 
-For more information, see [Handling MBIM control messages](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
+For more information, see [Handling MBIM control messages](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
 
 ### Example
 
@@ -139,4 +139,3 @@ EvtMbbDeviceSendMbimFragment(
 ```
 
 ## -see-also
-

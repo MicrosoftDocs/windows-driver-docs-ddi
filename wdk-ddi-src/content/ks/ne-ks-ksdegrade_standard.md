@@ -68,9 +68,8 @@ Requests to skip ahead a specified delta in the data stream.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/quality-management">Quality Management</a>.
+For more information, see <a href="/windows-hardware/drivers/stream/quality-management">Quality Management</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff561671(v=vs.85)">KSDEGRADE</a>
-
+<a href="/previous-versions/ff561671(v=vs.85)">KSDEGRADE</a>

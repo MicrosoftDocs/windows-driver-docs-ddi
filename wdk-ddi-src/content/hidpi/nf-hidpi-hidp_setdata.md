@@ -54,12 +54,12 @@ The <b>HidP_SetData</b> routine sets a specified set of HID control button and v
 ### -param ReportType 
 
 [in]
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
+Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
 ### -param DataList 
 
 [in, out]
-Pointer to a caller-allocated array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a> structures that specify which buttons and usage values to set.
+Pointer to a caller-allocated array of <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a> structures that specify which buttons and usage values to set.
 
 ### -param DataLength 
 
@@ -69,7 +69,7 @@ Specifies, on input, the number of members in the <i>DataList</i> array. For inf
 ### -param PreparsedData 
 
 [in]
-Pointer to a top-level's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+Pointer to a top-level's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 
 ### -param Report 
 
@@ -79,7 +79,7 @@ Pointer to a HID report.
 ### -param ReportLength 
 
 [in]
-Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a> returns in a collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a> returns in a collection's <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
 
 ## -returns
 
@@ -110,7 +110,7 @@ The preparsed data specified by <i>PreparsedData</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-The size, in bytes, of the HID report is not equal to the length specified in the collection's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure for the specified report type.
+The size, in bytes, of the HID report is not equal to the length specified in the collection's <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure for the specified report type.
 
 </td>
 </tr>
@@ -200,7 +200,7 @@ A button or usage value is contained in a report, but it is not in the specified
 </dl>
 </td>
 <td width="60%">
-A data index specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/value-capability-arrays">usage value array</a>.
+A data index specifies a <a href="/windows-hardware/drivers/hid/value-capability-arrays">usage value array</a>.
 
 </td>
 </tr>
@@ -208,43 +208,42 @@ A data index specifies a <a href="https://docs.microsoft.com/windows-hardware/dr
 
 ## -remarks
 
-Except for usage value arrays, a user-mode application or kernel-mode driver can use <b>HidP_SetData</b> to set buttons and usage values in a report. To set a usage value array, an application or driver must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusagevaluearray">HidP_SetUsageValueArray</a>.
+Except for usage value arrays, a user-mode application or kernel-mode driver can use <b>HidP_SetData</b> to set buttons and usage values in a report. To set a usage value array, an application or driver must use <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusagevaluearray">HidP_SetUsageValueArray</a>.
 
 <b>HidP_SetData</b> sets the output value of <i>DataLength</i> as follows:
 
 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_data">HIDP_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getdata">HidP_GetData</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getdata">HidP_GetData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hdpi-h-macros">HidP_SetButtons</a>
+<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_SetButtons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusagevaluearray">HidP_SetUsageValueArray</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusagevaluearray">HidP_SetUsageValueArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages">HidP_SetUsages</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_setusages">HidP_SetUsages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hdpi-h-macros">HidP_UnsetButtons</a>
+<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_UnsetButtons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_unsetusages">HidP_UnsetUsages</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_unsetusages">HidP_UnsetUsages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>

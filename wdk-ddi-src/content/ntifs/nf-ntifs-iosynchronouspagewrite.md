@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IoSynchronousPageWrite</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest">IoBuildSynchronousFsdRequest</a>.
+The <b>IoSynchronousPageWrite</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-cccopywrite">CcCopyWrite</a>, <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpreparemdlwrite">CcPrepareMdlWrite</a>, and <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest">IoBuildSynchronousFsdRequest</a>.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ Reserved.
 ### -param IoStatusBlock
 
 Reserved.
-

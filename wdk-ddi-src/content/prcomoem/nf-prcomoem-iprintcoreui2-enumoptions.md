@@ -53,7 +53,7 @@ The <code>IPrintCoreUI2::EnumOptions</code> method enumerates the available opti
 ### -param poemuiobj 
 
 [in]
-Pointer to the current context, an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
+Pointer to the current context, an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
 ### -param dwFlags 
 
@@ -162,17 +162,16 @@ This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv p
 
 To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in *<i>pcbNeeded</i> is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-enumoptions">Using EnumOptions</a>.
+For more information, see <a href="/windows-hardware/drivers/print/using-enumoptions">Using EnumOptions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumfeatures">IPrintCoreUI2::EnumFeatures</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumfeatures">IPrintCoreUI2::EnumFeatures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>
-
+<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a>

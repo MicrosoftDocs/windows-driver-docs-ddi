@@ -54,9 +54,8 @@ If TRUE, the disk
 
 ## -remarks
 
-A file system driver uses the <b>PsIsDiskCountersEnabled</b> routine to query the system enabled  state of the disk I/O  counters. A file system driver will use this routine prior to accounting for process disk I/O using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psupdatediskcounters">PsUpdateDiskCounters</a>.
+A file system driver uses the <b>PsIsDiskCountersEnabled</b> routine to query the system enabled  state of the disk I/O  counters. A file system driver will use this routine prior to accounting for process disk I/O using <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psupdatediskcounters">PsUpdateDiskCounters</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psupdatediskcounters">PsUpdateDiskCounters</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psupdatediskcounters">PsUpdateDiskCounters</a>

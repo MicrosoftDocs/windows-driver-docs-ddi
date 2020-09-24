@@ -46,21 +46,20 @@ api_name:
 
 ## -description
 
-The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.
+The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.
 
 ## -returns
 
-<b>IoSizeofWorkItem</b> returns the number of bytes necessary to hold an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.
+<b>IoSizeofWorkItem</b> returns the number of bytes necessary to hold an <a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.
 
 ## -remarks
 
-For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
+For more information about work items, see <a href="/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a>
+<a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a>

@@ -128,21 +128,20 @@ The device string for the remote device.
 ## -remarks
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
     IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> call's output buffer contains the information about an
     underlying device and the service that caused the Plug and Play (PnP) manager to load the profile
     driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_enumerator_action">ENUMERATOR_ACTION</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_enumerator_action">ENUMERATOR_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_enumerator_type">ENUMERATOR_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_enumerator_type">ENUMERATOR_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
+<a href="/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bthenum_get_enuminfo">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
-

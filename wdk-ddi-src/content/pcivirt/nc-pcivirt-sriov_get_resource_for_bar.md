@@ -70,11 +70,11 @@ The index of the BAR (between 0 and 5).
 [out]
 
 
-                A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that is filled with the translated hardware resources for the specified BAR.
+                A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that is filled with the translated hardware resources for the specified BAR.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -prototype
 
@@ -100,13 +100,9 @@ The PF driver registers its implementation by setting the <b>GetResourceForBar</
 
 Here is an example implementation of this callback function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 NTSTATUS
 Virtualization_GetResourceForBar(
     __inout     PVOID             Context,
@@ -153,8 +149,5 @@ Virtualization_GetResourceForBar(
     return STATUS_SUCCESS;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

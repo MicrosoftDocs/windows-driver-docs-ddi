@@ -50,13 +50,13 @@ api_name:
 > [!CAUTION]
 > For ARM and ARM64 processors, we strongly recommend that NDIS driver writers use WDF DMA or WDM DMA instead of NDIS Scatter/Gather DMA. 
 >
-> For more information about WDF DMA, see [Handling DMA Operations in KMDF Drivers](https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-dma-operations-in-kmdf-drivers).
+> For more information about WDF DMA, see [Handling DMA Operations in KMDF Drivers](/windows-hardware/drivers/wdf/handling-dma-operations-in-kmdf-drivers).
 >
-> For more information about WDM DMA, see the DMA-related child topics of [Managing Input/Output for Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-input-output-for-drivers).
+> For more information about WDM DMA, see the DMA-related child topics of [Managing Input/Output for Drivers](/windows-hardware/drivers/kernel/managing-input-output-for-drivers).
 
 Bus-master miniport drivers call 
   <b>NdisMDeregisterScatterGatherDma</b> to release DMA resources that were allocated with the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
   NdisMRegisterScatterGatherDma</a> function.
 
 ## -parameters
@@ -72,20 +72,19 @@ A handle to a context area that NDIS uses to manage a DMA resource. The caller o
 
 An NDIS miniport driver calls 
     <b>NdisMDeregisterScatterGatherDma</b> from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function to release the
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function to release the
     DMA resources it allocated and initialized in a previous call to 
     <b>NdisMRegisterScatterGatherDma</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-scatter-gather-dma">NDIS Scatter/Gather DMA</a>
+<a href="/windows-hardware/drivers/network/ndis-scatter-gather-dma">NDIS Scatter/Gather DMA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterscattergatherdma">
    NdisMRegisterScatterGatherDma</a>
-

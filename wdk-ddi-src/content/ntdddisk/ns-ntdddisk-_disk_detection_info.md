@@ -76,7 +76,7 @@ Indicates one of three possible detection types:
 
 </li>
 </ol>
-See the structure <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ne-ntdddisk-_detection_type">DETECTION_TYPE</a> for further information.
+See the structure <a href="/windows-hardware/drivers/ddi/ntdddisk/ne-ntdddisk-_detection_type">DETECTION_TYPE</a> for further information.
 
 ### -field DUMMYUNIONNAME
 
@@ -99,23 +99,22 @@ Contains the quantity, in bytes, of retrieved detect information.
 
 #### Int13
 
-Contains <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_int13_info">DISK_INT13_INFO</a> structure with the disk parameters for INT 13 type partitions. This member is used if <b>DetectionType </b>== <b>DetectInt13</b>.
+Contains <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_int13_info">DISK_INT13_INFO</a> structure with the disk parameters for INT 13 type partitions. This member is used if <b>DetectionType </b>== <b>DetectInt13</b>.
 
 
 
 #### ExInt13
 
-Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_ex_int13_info">DISK_EX_INT13_INFO</a> structure with the disk parameters for extended INT 13 type partitions. This member is used if <b>DetectionType</b> == <b>DetectExInt13</b>.
+Contains a <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_ex_int13_info">DISK_EX_INT13_INFO</a> structure with the disk parameters for extended INT 13 type partitions. This member is used if <b>DetectionType</b> == <b>DetectExInt13</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_ex_int13_info">DISK_EX_INT13_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_ex_int13_info">DISK_EX_INT13_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry_ex">DISK_GEOMETRY_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry_ex">DISK_GEOMETRY_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_int13_info">DISK_INT13_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_int13_info">DISK_INT13_INFO</a>

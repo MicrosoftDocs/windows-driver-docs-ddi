@@ -46,11 +46,10 @@ api_name:
 
 ## -description
 
-The <b>KeAttachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kestackattachprocess">KeStackAttachProcess</a> instead.
+The <b>KeAttachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kestackattachprocess">KeStackAttachProcess</a> instead.
 
 ## -parameters
 
 ### -param Process
 
 <p>Reserved.</p>
-

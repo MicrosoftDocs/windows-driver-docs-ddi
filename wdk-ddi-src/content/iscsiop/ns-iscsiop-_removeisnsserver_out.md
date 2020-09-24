@@ -56,7 +56,7 @@ The RemoveiSNSServer_OUT structure holds the output data for the user-mode <b>Re
 
 ### -field Status
 
-On output from <b>RemoveISNSServer</b>, the status of the operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
+On output from <b>RemoveISNSServer</b>, the status of the operation. For a list of status qualifiers, see <a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 ## -remarks
 
@@ -64,9 +64,8 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
+<a href="/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_removeisnsserver_in">RemoveiSNSServer_IN</a>
-
+<a href="/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_removeisnsserver_in">RemoveiSNSServer_IN</a>

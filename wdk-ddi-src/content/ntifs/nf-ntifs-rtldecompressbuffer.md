@@ -204,31 +204,30 @@ An invalid compression format was specified through the <i>CompressionFormat</i>
 
 The <b>RtlDecompressBuffer</b> function takes as input an entire compressed buffer and produces its decompressed equivalent provided that the uncompressed data fits within the specified destination buffer.
 
-To decompress only a portion of a compressed buffer (that is, a "fragment" of the buffer), use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a> function.
+To decompress only a portion of a compressed buffer (that is, a "fragment" of the buffer), use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a> function.
 
-To compress an uncompressed buffer, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a> function.
+To compress an uncompressed buffer, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_compression_information">FILE_COMPRESSION_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_compression_information">FILE_COMPRESSION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbufferex">RtlDecompressBufferEx</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbufferex">RtlDecompressBufferEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbufferex2">RtlDecompressBufferEx2</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbufferex2">RtlDecompressBufferEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragmentex">RtlDecompressFragmentEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragmentex">RtlDecompressFragmentEx</a>

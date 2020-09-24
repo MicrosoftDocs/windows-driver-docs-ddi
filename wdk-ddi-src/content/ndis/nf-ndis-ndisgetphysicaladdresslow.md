@@ -57,13 +57,12 @@ Specifies a physical address of an OS-dependent size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff557129(v=vs.85)">NDIS_PHYSICAL_ADDRESS</a>
+<a href="/previous-versions/windows/hardware/network/ff557129(v=vs.85)">NDIS_PHYSICAL_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetphysicaladdresshigh">NdisGetPhysicalAddressHigh</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetphysicaladdresshigh">NdisGetPhysicalAddressHigh</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetphysicaladdresslow">NdisSetPhysicalAddressLow</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissetphysicaladdresslow">NdisSetPhysicalAddressLow</a>

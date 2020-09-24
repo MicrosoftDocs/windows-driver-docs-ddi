@@ -67,7 +67,7 @@ Describes a resource that is used as a primary (that is, a resource that is scan
 
 ### -field ModeDesc
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_mode_desc">DXGI_DDI_MODE_DESC</a> structure that describes the display mode.
+[in] A <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_mode_desc">DXGI_DDI_MODE_DESC</a> structure that describes the display mode.
 
 ### -field DriverFlags
 
@@ -77,9 +77,8 @@ The DXGI_DDI_PRIMARY_DRIVER_FLAG_NO_SCANOUT (0x1) value is currently the only su
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createresource">D3D10DDIARG_CREATERESOURCE</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createresource">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_mode_desc">DXGI_DDI_MODE_DESC</a>
-
+<a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-dxgi_ddi_mode_desc">DXGI_DDI_MODE_DESC</a>

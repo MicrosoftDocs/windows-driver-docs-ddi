@@ -58,12 +58,12 @@ Pointer to a WIA item context.
 ### -param pContext 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure containing a property context.
+Pointer to a <a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure containing a property context.
 
 ### -param pIMiniDrv 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv">IWiaMiniDrv Interface</a> of the current minidriver.
+Pointer to the <a href="/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv">IWiaMiniDrv Interface</a> of the current minidriver.
 
 ## -returns
 
@@ -71,5 +71,4 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a>
-
+<a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a>

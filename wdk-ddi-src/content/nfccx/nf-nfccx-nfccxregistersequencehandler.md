@@ -56,11 +56,11 @@ A handle to a framework device object.
 
 ### -param Sequence
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_sequence">NFC_CX_SEQUENCE</a>-typed enumerator.
+An <a href="/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_sequence">NFC_CX_SEQUENCE</a>-typed enumerator.
 
 ### -param EvtNfcCxSequenceHandler
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_sequence_handler">EvtNfcCxSequenceHandler</a> callback function.
+A pointer to an <a href="/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_sequence_handler">EvtNfcCxSequenceHandler</a> callback function.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

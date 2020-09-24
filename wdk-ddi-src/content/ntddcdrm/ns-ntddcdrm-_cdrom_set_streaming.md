@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The CDROM_SET_SPEED structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_set_speed">IOCTL_CDROM_SET_SPEED</a> request to set the spindle speed of a CD-ROM drive during isochronous transfers that permit some data loss.
+The CDROM_SET_SPEED structure is used with the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_set_speed">IOCTL_CDROM_SET_SPEED</a> request to set the spindle speed of a CD-ROM drive during isochronous transfers that permit some data loss.
 
 ## -struct-fields
 
 ### -field RequestType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_speed_request">CDROM_SPEED_REQUEST</a>-typed value that indicates which multimedia command to use when setting the spindle speed.
+A <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_speed_request">CDROM_SPEED_REQUEST</a>-typed value that indicates which multimedia command to use when setting the spindle speed.
 
 ### -field ReadSize
 
@@ -84,7 +84,7 @@ The last logical block address, in bytes, of the IOCTL_CDROM_SET_SPEED request.
 
 ### -field RotationControl
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_write_rotation">WRITE_ROTATION</a>-typed value that indicates whether the device will write to the media by using CLV (constant linear velocity) rotation or CLA (constant angular velocity) rotation.
+A <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_write_rotation">WRITE_ROTATION</a>-typed value that indicates whether the device will write to the media by using CLV (constant linear velocity) rotation or CLA (constant angular velocity) rotation.
 
 ### -field RestoreDefaults
 
@@ -104,17 +104,16 @@ A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_set_speed">CDROM_SET_SPEED</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_set_speed">CDROM_SET_SPEED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_speed_request">CDROM_SPEED_REQUEST</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_speed_request">CDROM_SPEED_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_set_speed">IOCTL_CDROM_SET_SPEED</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_set_speed">IOCTL_CDROM_SET_SPEED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_write_rotation">WRITE_ROTATION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_write_rotation">WRITE_ROTATION</a>

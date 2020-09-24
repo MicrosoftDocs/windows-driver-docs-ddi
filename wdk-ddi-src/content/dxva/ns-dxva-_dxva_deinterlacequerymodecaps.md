@@ -62,21 +62,20 @@ Specifies for which mode of deinterlacing the driver should return capabilities.
 
 ### -field VideoDesc
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a> structure that describes the type of video that is to be deinterlaced.
+Specifies a <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a> structure that describes the type of video that is to be deinterlaced.
 
 ## -remarks
 
-The driver receives the DXVA_DeinterlaceQueryModeCaps structure with all members assigned in a query for capabilities about a particular deinterlacing mode. The driver returns capabilities in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlacecaps">DXVA_DeinterlaceCaps</a> structure.
+The driver receives the DXVA_DeinterlaceQueryModeCaps structure with all members assigned in a query for capabilities about a particular deinterlacing mode. The driver returns capabilities in a <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlacecaps">DXVA_DeinterlaceCaps</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlacecaps">DXVA_DeinterlaceCaps</a>
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlacecaps">DXVA_DeinterlaceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlacequeryavailablemodes">DXVA_DeinterlaceQueryAvailableModes</a>
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_deinterlacequeryavailablemodes">DXVA_DeinterlaceQueryAvailableModes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a>
-
+<a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a>

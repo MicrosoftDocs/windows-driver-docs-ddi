@@ -58,35 +58,34 @@ Pointer to an initialized KSPIN_LOCK spin lock for which the caller must provide
 
 ## -remarks
 
-Drivers call <b>KeAcquireSpinLockAtDpcLevel</b> instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a> for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
+Drivers call <b>KeAcquireSpinLockAtDpcLevel</b> instead of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a> for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
 
 If a driver is running at IRQL <= APC_LEVEL, it should call <b>KeAcquireSpinLock</b> to have IRQL raised by that routine. <b>KeAcquireSpinLockAtDpcLevel</b> assumes the caller is already running at IRQL >= DISPATCH_LEVEL, so no raise is necessary.
 
-The caller should release the spin lock with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlockfromdpclevel">KeReleaseSpinLockFromDpcLevel</a> as quickly as possible.
+The caller should release the spin lock with <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlockfromdpclevel">KeReleaseSpinLockFromDpcLevel</a> as quickly as possible.
 
-For more information about spin locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
+For more information about spin locks, see <a href="/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+<a href="/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlockfromdpclevel">KeReleaseSpinLockFromDpcLevel</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlockfromdpclevel">KeReleaseSpinLockFromDpcLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553317">KeTryToAcquireSpinLockAtDpcLevel</a>
-
+<a href="/previous-versions/ff553317(v=vs.85)">KeTryToAcquireSpinLockAtDpcLevel</a>

@@ -47,14 +47,14 @@ api_name:
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
 
 The <b>IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE</b> request allocates a parallel port for exclusive access by a client. Before accessing port hardware, a client must first allocate it.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544809(v=vs.85)">Synchronizing the Use of a ParallelPort</a>.
+For more information, see <a href="/previous-versions/ff544809(v=vs.85)">Synchronizing the Use of a ParallelPort</a>.
 
 ## -ioctlparameters
 
@@ -87,4 +87,3 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 ## -see-also
 
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_port_free.md">IOCTL_INTERNAL_PARALLEL_PORT_FREE</a>
-

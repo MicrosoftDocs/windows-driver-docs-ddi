@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-<b>FltClose</b> closes a file handle that was opened by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>.
+<b>FltClose</b> closes a file handle that was opened by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>.
 
 ## -parameters
 
 ### -param FileHandle 
 
 [in]
-Handle created by a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>.
+Handle created by a successful call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>.
 
 ## -returns
 
@@ -79,17 +79,16 @@ Handle created by a successful call to <a href="https://docs.microsoft.com/windo
 
 ## -remarks
 
-<b>FltClose</b> is only for closing file handles opened by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>. It should not be used to close arbitrary handles.
+<b>FltClose</b> is only for closing file handles opened by <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>. It should not be used to close arbitrary handles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">ZwClose</a>

@@ -70,13 +70,12 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 A still image minidriver typically implements this method by calling <b>ReadFile</b> (described in the Windows SDK documentation).
 
-For USB devices, better performance can be achieved if read requests are aligned to maximum packet size boundaries. Maximum packet sizes can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, specifying the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_channel_align_rqst">IOCTL_GET_CHANNEL_ALIGN_RQST</a> I/O control code.
+For USB devices, better performance can be achieved if read requests are aligned to maximum packet size boundaries. Maximum packet sizes can be obtained by calling <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, specifying the <a href="/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_channel_align_rqst">IOCTL_GET_CHANNEL_ALIGN_RQST</a> I/O control code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawreaddata">IStiDevice::RawReadData</a>
+<a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawreaddata">IStiDevice::RawReadData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
-
+<a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>

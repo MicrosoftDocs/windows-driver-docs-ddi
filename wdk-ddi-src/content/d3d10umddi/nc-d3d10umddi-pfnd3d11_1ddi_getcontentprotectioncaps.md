@@ -66,7 +66,7 @@ A pointer to a GUID that specifies the decoder profile to query.
 
 ### -param pCaps
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a> structure that contains the protection capabilities for the specified encryption algorithm and decoder profile.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a> structure that contains the protection capabilities for the specified encryption algorithm and decoder profile.
 
 ## -returns
 
@@ -88,9 +88,8 @@ The *pCryptoType* parameter can contain one of the following values:
 * NULL_GUID if the driver is not configured to use any encryption algorithm.
 
 > [!NOTE]
-> The Microsoft Direct3D runtime verifies that the  *pDecodeProfile* and *pCryptoType* parameter data is valid before it calls the [GetContentProtectionCaps](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps) function.
+> The Microsoft Direct3D runtime verifies that the  *pDecodeProfile* and *pCryptoType* parameter data is valid before it calls the [GetContentProtectionCaps]() function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>

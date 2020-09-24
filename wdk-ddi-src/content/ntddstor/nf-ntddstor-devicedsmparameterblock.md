@@ -57,11 +57,10 @@ Pointer to a [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.m
 
 ## -remarks
 
-The DSM handler calls this function only if the members of *Input* indicate that the operation has a parameter block. See [Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
+The DSM handler calls this function only if the members of *Input* indicate that the operation has a parameter block. See [Data Set Management](/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
 
 ## -see-also
 
-[Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+[Data Set Management](/windows-hardware/drivers/storage/data-set-management-overview)
 
 [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
-

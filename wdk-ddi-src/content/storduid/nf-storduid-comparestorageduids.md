@@ -62,9 +62,8 @@ A pointer to a DUID to compare with the DUID that <i>Duid1</i> points to.
 
 ## -returns
 
-<b>CompareStorageDuids</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storduid/ne-storduid-_duid_match_status">DUID_MATCH_STATUS</a> value that indicates whether the two DUIDs matched or not, if the operation succeeds. Otherwise, this routine returns a DUID_MATCH_STATUS value that indicates the error status.
+<b>CompareStorageDuids</b> returns a <a href="/windows-hardware/drivers/ddi/storduid/ne-storduid-_duid_match_status">DUID_MATCH_STATUS</a> value that indicates whether the two DUIDs matched or not, if the operation succeeds. Otherwise, this routine returns a DUID_MATCH_STATUS value that indicates the error status.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storduid/ne-storduid-_duid_match_status">DUID_MATCH_STATUS</a>
-
+<a href="/windows-hardware/drivers/ddi/storduid/ne-storduid-_duid_match_status">DUID_MATCH_STATUS</a>

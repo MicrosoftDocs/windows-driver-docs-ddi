@@ -1,11 +1,9 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES
 title: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES structure describes a net adapter's capabilities for IPv4 ARP low power protocol offload.
 tech.root: netvista
 ms.assetid: ec844b92-7cff-4b99-82cc-afa5ff022b7b
-ms.author: windowsdriverdev
 ms.date: 10/21/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES, NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES,
@@ -69,11 +67,10 @@ Call [**NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT**](../netadapter/nf-neta
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_power_offload_arp_capabilities_init.md)
 
 [**NetAdapterPowerOffloadSetArpCapabilities**](../netadapter/nf-netadapter-netadapterpoweroffloadsetarpcapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

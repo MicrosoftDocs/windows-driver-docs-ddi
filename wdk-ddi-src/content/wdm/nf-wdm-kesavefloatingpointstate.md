@@ -53,7 +53,7 @@ The <b>KeSaveFloatingPointState</b> routine saves the nonvolatile floating-point
 ### -param FloatSave 
 
 [out]
-Pointer to a caller-allocated resident buffer, which must be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KFLOATING_SAVE</a>).
+Pointer to a caller-allocated resident buffer, which must be at least <b>sizeof</b>(<a href="/windows-hardware/drivers/kernel/eprocess">KFLOATING_SAVE</a>).
 
 ## -returns
 
@@ -90,31 +90,30 @@ The system is configured to use floating-point emulation, rather than doing floa
 
 ## -remarks
 
-A successful call to <b>KeSaveFloatingPointState</b> allows the caller to carry out floating-point operations of its own, but such a caller must restore the previous nonvolatile floating-point context as soon as its floating-point operations are done. Any routine that calls <b>KeSaveFloatingPointState</b> must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a> before that routine returns control.
+A successful call to <b>KeSaveFloatingPointState</b> allows the caller to carry out floating-point operations of its own, but such a caller must restore the previous nonvolatile floating-point context as soon as its floating-point operations are done. Any routine that calls <b>KeSaveFloatingPointState</b> must call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a> before that routine returns control.
 
-If the call to <b>KeSaveFloatingPointState</b> is successful, the data at <i>FloatSave</i> is opaque to the caller. The caller should not release the memory that it allocated for this data until after the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a>.
+If the call to <b>KeSaveFloatingPointState</b> is successful, the data at <i>FloatSave</i> is opaque to the caller. The caller should not release the memory that it allocated for this data until after the call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a>.
 
-In Windows Vista and earlier versions of Windows, a <b>KeSaveFloatingPointState</b> call and the corresponding <b>KeRestoreFloatingPointState</b> call must occur in a guarded region. That is, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keenterguardedregion">KeEnterGuardedRegion</a> routine must be called before <b>KeSaveFloatingPointState</b> is called, and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleaveguardedregion">KeLeaveGuardedRegion</a> routine must be called after <b>KeRestoreFloatingPointState</b> is called. No such requirement exists in Windows 7 and later versions of Windows.
+In Windows Vista and earlier versions of Windows, a <b>KeSaveFloatingPointState</b> call and the corresponding <b>KeRestoreFloatingPointState</b> call must occur in a guarded region. That is, the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keenterguardedregion">KeEnterGuardedRegion</a> routine must be called before <b>KeSaveFloatingPointState</b> is called, and the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleaveguardedregion">KeLeaveGuardedRegion</a> routine must be called after <b>KeRestoreFloatingPointState</b> is called. No such requirement exists in Windows 7 and later versions of Windows.
 
 For performance reasons, drivers should avoid doing any floating-point operations unless absolutely necessary. The overhead of saving and restoring the current thread's nonvolatile floating-point state degrades the performance of any driver that does floating-point operations.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keenterguardedregion">KeEnterGuardedRegion</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keenterguardedregion">KeEnterGuardedRegion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentthread">KeGetCurrentThread</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentthread">KeGetCurrentThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleaveguardedregion">KeLeaveGuardedRegion</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keleaveguardedregion">KeLeaveGuardedRegion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kerestorefloatingpointstate">KeRestoreFloatingPointState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>

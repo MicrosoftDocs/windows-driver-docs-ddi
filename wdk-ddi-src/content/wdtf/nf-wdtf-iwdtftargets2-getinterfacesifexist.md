@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Returns a collection of actions that support the interface - one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> for each item
+Returns a collection of actions that support the interface - one <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> for each item
 that has one.
 
 ## -parameters
@@ -94,5 +94,4 @@ This method will succeed even if one or more of the collection members do not re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>

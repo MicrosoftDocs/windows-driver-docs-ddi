@@ -54,7 +54,7 @@ The <b>IoSetLinkShareAccess</b> routine sets the access rights for link sharing 
 ### -param DesiredAccess 
 
 [in]
-Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
+Specifies an <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
 
 ### -param DesiredShareAccess 
 
@@ -80,7 +80,7 @@ A pointer to the common share-access data structure that is associated with <i>F
 ### -param LinkShareAccess 
 
 [in, out, optional]
-A pointer to the common link share-access data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
+A pointer to the common link share-access data structure (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 ### -param IoShareAccessFlags 
 
@@ -95,13 +95,12 @@ is updated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iochecklinkshareaccess">IoCheckLinkShareAccess</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iochecklinkshareaccess">IoCheckLinkShareAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioremovelinkshareaccess">IoRemoveLinkShareAccess</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioremovelinkshareaccess">IoRemoveLinkShareAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioupdatelinkshareaccess">IoUpdateLinkShareAccess</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioupdatelinkshareaccess">IoUpdateLinkShareAccess</a>

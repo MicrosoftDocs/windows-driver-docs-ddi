@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <code>RegisterWMIProvider</code> method registers the <a href="https://docs.microsoft.com/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a> (ETW) capability of the miniport driver with PortCls.
+The <code>RegisterWMIProvider</code> method registers the <a href="/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a> (ETW) capability of the miniport driver with PortCls.
 
 ## -parameters
 
@@ -54,12 +54,12 @@ The <code>RegisterWMIProvider</code> method registers the <a href="https://docs.
 
 #### - MiniportWmiContext [in]
 
-Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
+Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
 
 
 #### - pDeviceObject [in]
 
-Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
+Specifies a pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
 
 ## -returns
 
@@ -67,25 +67,24 @@ The <code>RegisterWMIProvider</code> method returns STATUS_SUCCESS if the call i
 
 ## -remarks
 
-For more information about ETW, see <a href="https://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>.
+For more information about ETW, see <a href="/archive/msdn-magazine/2007/april/event-tracing-improve-debugging-and-performance-tuning-with-etw">Improve Debugging And Performance Tuning With ETW</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a>
+<a href="/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwmiregistration">IPortWMIRegistration</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwmiregistration">IPortWMIRegistration</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
+<a href="/archive/msdn-magazine/2007/april/event-tracing-improve-debugging-and-performance-tuning-with-etw">Improve Debugging And Performance Tuning With ETW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>
-
+<a href="/windows-hardware/drivers/ddi/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>

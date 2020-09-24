@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The VENDOR_ATTR structure defines the data that is stored in the <b>VendorAttr</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/smclib/ns-smclib-_smartcard_extension">SMARTCARD_EXTENSION</a> structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number.
+The VENDOR_ATTR structure defines the data that is stored in the <b>VendorAttr</b> member of the <a href="/windows-hardware/drivers/ddi/smclib/ns-smclib-_smartcard_extension">SMARTCARD_EXTENSION</a> structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number.
 
 ## -struct-fields
 
@@ -113,4 +113,3 @@ A pointer to the serial number of the connected reader. This field should only b
 ### -field Reserved
 
 Reserved for system use.
-

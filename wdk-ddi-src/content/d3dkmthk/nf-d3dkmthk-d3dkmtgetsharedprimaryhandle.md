@@ -57,7 +57,7 @@ The <b>D3DKMTGetSharedPrimaryHandle</b> function retrieves the global shared han
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getsharedprimaryhandle">D3DKMT_GETSHAREDPRIMARYHANDLE</a> structure that describes the parameters that are required to retrieve the shared handle.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getsharedprimaryhandle">D3DKMT_GETSHAREDPRIMARYHANDLE</a> structure that describes the parameters that are required to retrieve the shared handle.
 
 ## -returns
 
@@ -68,7 +68,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |STATUS_SUCCESS|The handle was successfully retrieved.|
 |STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -remarks
@@ -136,5 +136,4 @@ HRESULT OpenSharedPrimarySurface(D3DKMT_HANDLE hAdapter,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getsharedprimaryhandle">D3DKMT_GETSHAREDPRIMARYHANDLE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getsharedprimaryhandle">D3DKMT_GETSHAREDPRIMARYHANDLE</a>

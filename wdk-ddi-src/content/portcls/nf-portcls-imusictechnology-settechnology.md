@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <code>SetTechnology</code> method changes the <b>Technology</b> member of each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdatarange_music">KSDATARANGE_MUSIC</a> structure in the data ranges for the miniport driver's pins.
+The <code>SetTechnology</code> method changes the <b>Technology</b> member of each <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdatarange_music">KSDATARANGE_MUSIC</a> structure in the data ranges for the miniport driver's pins.
 
 ## -parameters
 
 ### -param Technology 
 
 [in]
-Specifies a technology GUID. This parameter should point to one of the GUIDs that are defined for the <b>Technology</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdatarange_music">KSDATARANGE_MUSIC</a> structure.
+Specifies a technology GUID. This parameter should point to one of the GUIDs that are defined for the <b>Technology</b> member of the <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdatarange_music">KSDATARANGE_MUSIC</a> structure.
 
 ## -returns
 
@@ -123,13 +123,12 @@ MOD_SWSYNTH
 </table>
  
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/music-technology-guids">Music Technology GUIDs</a>.
+For more information, see <a href="/windows-hardware/drivers/audio/music-technology-guids">Music Technology GUIDs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-imusictechnology">IMusicTechnology</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-imusictechnology">IMusicTechnology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdatarange_music">KSDATARANGE_MUSIC</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdatarange_music">KSDATARANGE_MUSIC</a>

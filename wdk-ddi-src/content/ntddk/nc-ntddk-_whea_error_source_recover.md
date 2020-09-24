@@ -1,11 +1,9 @@
 ---
 UID: NC:ntddk._WHEA_ERROR_SOURCE_RECOVER
 title: _WHEA_ERROR_SOURCE_RECOVER
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 4af06800-2c68-4f0f-8774-96486a84bb9b
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_RECOVER callback function"]
 req.header: ntddk.h

@@ -53,7 +53,7 @@ The <code>ReportProgress</code> method reports the progress of the XPS job consu
 ### -param update 
 
 [in]
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003">EXpsJobConsumption</a>-typed value that describes the progress to the pipeline manager.
+An <a href="/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003">EXpsJobConsumption</a>-typed value that describes the progress to the pipeline manager.
 
 ## -returns
 
@@ -61,9 +61,8 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeli
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003">EXpsJobConsumption</a>
+<a href="/windows-hardware/drivers/ddi/filterpipeline/ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003">EXpsJobConsumption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelineprogressreport">IPrintPipelineProgressReport</a>
-
+<a href="/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelineprogressreport">IPrintPipelineProgressReport</a>

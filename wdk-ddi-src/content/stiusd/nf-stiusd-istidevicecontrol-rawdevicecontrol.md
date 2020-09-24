@@ -80,5 +80,4 @@ Defines the <b>HRESULT</b> return value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
-
+<a href="/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>

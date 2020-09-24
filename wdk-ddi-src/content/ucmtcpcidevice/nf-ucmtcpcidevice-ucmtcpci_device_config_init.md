@@ -46,16 +46,15 @@ api_name:
 
 ## -description
 
-                        Initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a> structure.
+                        Initializes the <a href="/windows-hardware/drivers/ddi/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a> structure.
 
 ## -parameters
 
 ### -param Config 
 
 [out]
-A pointer to the driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a> structure.
+A pointer to the driver-allocated <a href="/windows-hardware/drivers/ddi/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a>

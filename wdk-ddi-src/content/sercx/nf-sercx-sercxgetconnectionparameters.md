@@ -64,9 +64,8 @@ A pointer to a location into which the method writes a pointer to the connection
 
 The serial framework extension (SerCx) obtains the connection parameters for the peripheral device from the ACPI resource descriptors in the platform firmware.
 
-For more information about the data format of the connection parameters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_apply_config">EvtSerCxApplyConfig</a>.
+For more information about the data format of the connection parameters, see <a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_apply_config">EvtSerCxApplyConfig</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_apply_config">EvtSerCxApplyConfig</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_apply_config">EvtSerCxApplyConfig</a>

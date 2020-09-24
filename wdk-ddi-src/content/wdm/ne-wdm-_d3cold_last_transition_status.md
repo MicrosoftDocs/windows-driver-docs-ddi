@@ -68,9 +68,8 @@ The most recent transition to the D3hot device power state was followed by a tra
 
 ## -remarks
 
-The <i>LastTransitionStatus</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_d3cold_last_transition_status">GetLastTransitionStatus</a> routine is a pointer to a variable of type <b>D3COLD_LAST_TRANSITION_STATUS</b>.
+The <i>LastTransitionStatus</i> parameter of the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_d3cold_last_transition_status">GetLastTransitionStatus</a> routine is a pointer to a variable of type <b>D3COLD_LAST_TRANSITION_STATUS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_d3cold_last_transition_status">GetLastTransitionStatus</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_d3cold_last_transition_status">GetLastTransitionStatus</a>

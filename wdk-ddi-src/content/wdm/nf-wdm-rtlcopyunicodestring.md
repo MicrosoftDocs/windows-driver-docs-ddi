@@ -54,7 +54,7 @@ The <b>RtlCopyUnicodeString</b> routine copies a source string to a destination 
 ### -param DestinationString 
 
 [in, out]
-A pointer to the destination string buffer. This parameter points to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
+A pointer to the destination string buffer. This parameter points to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
 ### -param SourceString 
 
@@ -79,9 +79,8 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlcopystring">RtlCopyString</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlcopystring">RtlCopyString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

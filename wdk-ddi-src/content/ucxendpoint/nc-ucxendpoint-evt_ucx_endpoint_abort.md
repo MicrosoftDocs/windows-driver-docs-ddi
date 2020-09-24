@@ -53,7 +53,7 @@ The client driver's implementation that UCX calls to abort the queue associated 
 ### -param UcxController 
 
 [in]
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
+ A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 ### -param UcxEndpoint
 
@@ -63,21 +63,17 @@ A handle to a UCXENDPOINT object.
 
 ## -remarks
 
-The client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
+The client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
  method.
 
-This function completes all requests associated with the endpoint, typically by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestopandpurge">WdfIoQueueStopAndPurge</a>.
+This function completes all requests associated with the endpoint, typically by calling <a href="/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueuestopandpurge">WdfIoQueueStopAndPurge</a>.
 
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 Endpoint_UcxEvtEndpointAbort(
     UCXCONTROLLER   UcxController,
 	   UCXENDPOINT     UcxEndpoint
@@ -87,8 +83,5 @@ Endpoint_UcxEvtEndpointAbort(
 	                                   Endpoint_WdfEvtAbortComplete,
 	                                   UcxEndpoint);
 	}
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

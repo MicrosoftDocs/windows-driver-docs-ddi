@@ -82,9 +82,8 @@ The method succeeded.
 
 When the VARTYPE for <i>pValue</i> is VT_VECTOR or VT_UI1, setting and retrieving a <b>NULL</b> or zero-sized buffer is not supported. For example, neither  pValue.caub.pElems = <b>NULL</b> nor pValue.caub.cElems = 0 are allowed.
 
-If a caller tries to add an item of a different <b>VARTYPE</b> contained in the collection and the <b>PROPVARIANT</b> value cannot be changed by this interface automatically, this method will fail. To change the collection type manually, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicepropvariantcollection-changetype">IPortableDevicePropVariantCollection::ChangeType</a>.
+If a caller tries to add an item of a different <b>VARTYPE</b> contained in the collection and the <b>PROPVARIANT</b> value cannot be changed by this interface automatically, this method will fail. To change the collection type manually, call <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicepropvariantcollection-changetype">IPortableDevicePropVariantCollection::ChangeType</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
-
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](https://docs.microsoft.com/windows/win32/perfctrs/ctrpp)-generated UnregisterXxx function instead of calling this function directly.
+The `PcwUnregister` function closes the specified counterset registration. Most developers will use a [CTRPP](/windows/win32/perfctrs/ctrpp)-generated UnregisterXxx function instead of calling this function directly.
 
 ## -parameters
 
@@ -81,4 +81,3 @@ The CTRPP-generated Unregister function will be named *Prefix*Unregister*Counter
 ## -see-also
 
 [PcwRegister function](nf-wdm-pcwregister.md)
-

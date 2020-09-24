@@ -1,11 +1,9 @@
 ---
 UID: NI:ntddvdeo.IOCTL_MIPI_DSI_TRANSMISSION
 title: IOCTL_MIPI_DSI_TRANSMISSION
-author: windows-driver-content
 description: Mipi (mobile industry processor interface) DCS IOCLTs must be handled by the monitor, oem-panel, or port/miniport driver.
 tech.root: display
 ms.assetid: 7292a449-2c3c-4409-a031-ffe6316767f6
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 req.header: ntddvdeo.h
 req.include-header: 
@@ -37,7 +35,7 @@ dev_langs:
 
 # IOCTL_MIPI_DSI_TRANSMISSION IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -74,7 +72,7 @@ At least ```sizeof(DXGK_DSI_TRANSMISSION) + ((PacketCount - 1) * sizeof(DXGK_DSI
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -241,4 +239,3 @@ To ensure that output is returned to the caller to provide details of any errors
 [**IOCTL_MIPI_DSI_QUERY_CAPS**](ni-ntddvdeo-ioctl_mipi_dsi_query_caps.md)
 
 [**IOCTL_MIPI_DSI_RESET**](ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
-

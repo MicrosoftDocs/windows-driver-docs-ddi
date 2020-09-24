@@ -52,7 +52,7 @@ Plays the specified range of the media. Obsolete, beginning with Windows Vista.
 
 ### -input-buffer
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_play_audio_msf">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp->AssociatedIrp.System</i> contains the starting and ending MSF values.
+The <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_play_audio_msf">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp->AssociatedIrp.System</i> contains the starting and ending MSF values.
 
 ### -input-buffer-length
 
@@ -82,5 +82,4 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_play_audio_msf">CDROM_PLAY_AUDIO_MSF</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_play_audio_msf">CDROM_PLAY_AUDIO_MSF</a>

@@ -63,61 +63,45 @@ The <i>EvtSerCxFileOpen</i> function returns STATUS_SUCCESS if the call is succe
 
 The serial framework extension (SerCx) calls this function to prepare the serial controller hardware to accept requests for I/O operations. This function should configure the controller in a state in which it is ready to receive and transmit data. If interrupts are required, this function should enable interrupts. In addition, this function should allocate any memory that is required only during the lifetime of the file object. For example, this function can allocate an interrupt data buffer.
 
-To register an <i>EvtSerCxFileOpen</i> callback function, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a> method.
+To register an <i>EvtSerCxFileOpen</i> callback function, the driver must call the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a> method.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
+For more information, see <a href="/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
 
 
 #### Examples
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NTSTATUS
+
+```cpp
+typedef NTSTATUS
   EVT_SERCX_FILEOPEN(
     __in WDFDEVICE Device
-    );</pre>
-</td>
-</tr>
-</table></span></div>
-To define an <i>EvtSerCxFileOpen</i> callback function that is named <code>MyEvtSerCxFileOpen</code>, you must first provide a function declaration that <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
+    );
+```
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_SERCX_FILEOPEN MyEvtSerCxFileOpen;</pre>
-</td>
-</tr>
-</table></span></div>
+To define an <i>EvtSerCxFileOpen</i> callback function that is named <code>MyEvtSerCxFileOpen</code>, you must first provide a function declaration that <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
+
+
+```cpp
+EVT_SERCX_FILEOPEN MyEvtSerCxFileOpen;
+```
+
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage="cpp"><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+
+```cpp
+NTSTATUS
   MyEvtSerCxFileOpen(
     __in WDFDEVICE Device
     )
-{ ... }</pre>
-</td>
-</tr>
-</table></span></div>
-For more information about SDV requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
+{ ... }
+```
+
+For more information about SDV requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions Using Function Role Types for KMDF Drivers</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxinitialize">SerCxInitialize</a>

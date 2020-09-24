@@ -57,7 +57,7 @@ The
 [in]
 A handle used by the NMR to represent the registration of the provider module. The NMR returns
      this handle to the provider module when the provider module calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function.
+     <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function.
 
 ## -returns
 
@@ -77,7 +77,7 @@ The
 </td>
 <td width="60%">
 The NMR initiated the deregistration of the provider module. The provider module must call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrwaitforproviderderegistercomplete">
+       <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrwaitforproviderderegistercomplete">
        NmrWaitForProviderDeregisterComplete</a> function to wait until the deregistration is complete
        before the provider module can be unloaded.
 
@@ -100,9 +100,9 @@ An error occurred.
 
 When a provider module calls the 
     <b>NmrDeregisterProvider</b> function, the NMR calls the provider module's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a> callback
+    <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a> callback
     function and the client module's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a> callback
+    <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a> callback
     function for each of the bindings between the provider module and a client module. The deregistration of
     the provider module from the NMR is complete after the provider module has successfully detached from all
     the client modules to which it is attached and all of those client modules have successfully detached
@@ -110,11 +110,11 @@ When a provider module calls the
 
 A provider module typically calls the 
     <b>NmrDeregisterProvider</b> function from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> function to detach itself from all of the
+    <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a> function to detach itself from all of the
     client modules to which it is attached before the provider module is unloaded from the system. After
     calling the 
     <b>NmrDeregisterProvider</b> function a provider module must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrwaitforproviderderegistercomplete">
+    <a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrwaitforproviderderegistercomplete">
     NmrWaitForProviderDeregisterComplete</a> function to wait for the deregistration to complete before the
     provider module can be unloaded. A provider module must not return from a call to its 
     <i>Unload</i> function until after deregistration is
@@ -124,7 +124,7 @@ A provider module typically calls the
 <div class="alert"><b>Note</b>  If a provider module uses the Windows Driver Framework, it will typically call the
      
      <b>NmrDeregisterProvider</b> function from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_unload">EvtDriverUnload</a> event callback function. In
+     <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_unload">EvtDriverUnload</a> event callback function. In
      this situation, the provider module must not return from a call to its 
      <i>EvtDriverUnload</i> function until after
      deregistration is complete.</div>
@@ -132,26 +132,25 @@ A provider module typically calls the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_unload">EvtDriverUnload</a>
+<a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_unload">EvtDriverUnload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrwaitforproviderderegistercomplete">
+<a href="/windows-hardware/drivers/ddi/netioddk/nf-netioddk-nmrwaitforproviderderegistercomplete">
    NmrWaitForProviderDeregisterComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>
+<a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload">Unload</a>

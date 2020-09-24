@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>IoInitializeDpcRequest</b> routine registers a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine.
+The <b>IoInitializeDpcRequest</b> routine registers a driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine.
 
 ## -parameters
 
 ### -param DeviceObject 
 
 [in]
-Supplies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the physical device that generates interrupts.
+Supplies a pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing the physical device that generates interrupts.
 
 ### -param DpcRoutine 
 
@@ -62,33 +62,32 @@ Supplies a pointer to the driver-supplied <i>DpcForIsr</i> routine.
 
 ## -remarks
 
-<b>IoInitializeDpcRequest</b> associates a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine with a given device object. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine (ISR) can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a> to queue the <i>DpcForIsr</i> routine. The <i>DpcForIsr</i> routine completes interrupt-driven I/O operations at a lower IRQL than that of the ISR.
+<b>IoInitializeDpcRequest</b> associates a driver-supplied <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine with a given device object. The driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine (ISR) can call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a> to queue the <i>DpcForIsr</i> routine. The <i>DpcForIsr</i> routine completes interrupt-driven I/O operations at a lower IRQL than that of the ISR.
 
-PnP drivers call <b>IoInitializeDpcRequest</b> from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
+PnP drivers call <b>IoInitializeDpcRequest</b> from the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/dpc-objects-and-dpcs">DPC Objects and DPCs</a>.
+For more information, see <a href="/windows-hardware/drivers/kernel/dpc-objects-and-dpcs">DPC Objects and DPCs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>

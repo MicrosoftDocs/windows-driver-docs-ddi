@@ -58,13 +58,13 @@ The SDP_NODE structure holds information about an element in a tree-based repres
 ### -field hdr
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a> structure that contains
+     <a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a> structure that contains
      links to peer SDP_NODE structures and the data type of the current node.
 
 ### -field DataSize
 
 The size, in bytes, of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a> union held in the 
+     <a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a> union held in the 
      <b>u</b> member.
 
 ### -field u
@@ -82,24 +82,23 @@ Each SDP_NODE structure in the tree representation of an SDP record contains a S
 
 The header specifies the type of data. Driver developers can access links to peer SDP_NODE structures
     by calling the 
-    <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure of the header. By evaluating 
+    <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure of the header. By evaluating 
     <code>Node.hdr.Link.Flink</code>and 
     <code>Node.hdr.Link.Blink</code>, drivers can obtain the addresses of peer
     nodes in the tree. Keep in mind that 
     <b>LIST_ENTRY</b> pointers contain the addresses of other LIST_ENTRY structures, and that the profile
     drivers must use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> memory manager macro to
+    <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> memory manager macro to
     extract the address of the containing node record.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a>
+<a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a>

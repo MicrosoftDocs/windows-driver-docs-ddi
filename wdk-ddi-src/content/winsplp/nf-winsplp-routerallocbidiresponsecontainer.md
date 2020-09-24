@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<code>RouterAllocBidiResponseContainer</code> allocates a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a> structure containing a list of bidi responses. The bidi response list is an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a> structures.
+<code>RouterAllocBidiResponseContainer</code> allocates a <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a> structure containing a list of bidi responses. The bidi response list is an array of <a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a> structures.
 
 ## -parameters
 
@@ -62,21 +62,20 @@ Specifies the number of BIDI_RESPONSE_DATA structures to be allocated.
 
 ## -remarks
 
-When the memory allocated by this function is no longer needed, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>.
+When the memory allocated by this function is no longer needed, use <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a>
+<a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a>
+<a href="/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_data">BIDI_RESPONSE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff562071(v=vs.85)">SendRecvBidiDataFromPort</a>
-
+<a href="/previous-versions/ff562071(v=vs.85)">SendRecvBidiDataFromPort</a>

@@ -72,7 +72,7 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_isoch_descriptor">ISOCH_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/1394/ns-1394-_isoch_descriptor">ISOCH_DESCRIPTOR</a>
 
 
 
@@ -89,4 +89,3 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
-

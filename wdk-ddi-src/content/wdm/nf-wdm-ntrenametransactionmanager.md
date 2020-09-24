@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>NtRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream contained in the log file name.
+The <b>NtRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream contained in the log file name.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ The <b>NtRenameTransactionManager</b> routine changes the identity of the transa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmrenametransactionmanager">TmRenameTransactionManager</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-tmrenametransactionmanager">TmRenameTransactionManager</a>

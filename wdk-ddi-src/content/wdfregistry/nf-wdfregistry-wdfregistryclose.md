@@ -66,9 +66,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-After your driver has finished accessing a registry key, it must call <b>WdfRegistryClose</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>. Both of these methods close the registry key and delete the registry-key object. 
+After your driver has finished accessing a registry key, it must call <b>WdfRegistryClose</b> or <a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>. Both of these methods close the registry key and delete the registry-key object. 
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples
@@ -81,5 +81,4 @@ WdfRegistryClose(Key);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>

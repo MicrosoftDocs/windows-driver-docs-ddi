@@ -75,28 +75,27 @@ The
     functionality for CPUs.
 
 <div class="alert"><b>Note</b>  NDIS drivers should not use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a> function
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a> function
     to retrieve the number of currently active processors. Also, NDIS 6.20 and later drivers should not use
     the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
     NdisSystemActiveProcessorCount</a> function because it only returns the processor count and provides
     the affinity mask as an out parameter, for processor group 0.</div>
 <div> </div>
 To obtain an active processor count, call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupactiveprocessorcount">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupactiveprocessorcount">
     NdisGroupActiveProcessorCount</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupactiveprocessorcount">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupactiveprocessorcount">
    NdisGroupActiveProcessorCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
    NdisSystemActiveProcessorCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>

@@ -75,7 +75,7 @@ DEBUG_HANDLE_DATA_TYPE_BASIC
 <td>
 Returns basic information about the system object.
 
-In this case, the argument <i>Buffer</i> can be considered to have type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_handle_data_basic">PDEBUG_HANDLE_DATA_BASIC</a>.
+In this case, the argument <i>Buffer</i> can be considered to have type <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_handle_data_basic">PDEBUG_HANDLE_DATA_BASIC</a>.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ DEBUG_HANDLE_DATA_TYPE_HANDLE_COUNT
 
 </td>
 <td>
-Returns the number of handles held by the object.  This is similar to the field <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_handle_data_basic">DEBUG_HANDLE_DATA_BASIC</a>.<b>HandleCount</b>.
+Returns the number of handles held by the object.  This is similar to the field <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_handle_data_basic">DEBUG_HANDLE_DATA_BASIC</a>.<b>HandleCount</b>.
 
 In this case, the argument <i>Buffer</i> can be considered to have type PULONG.
 
@@ -179,7 +179,7 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method can also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
 
@@ -191,13 +191,12 @@ Handles
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces2">IDebugDataSpaces2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces2">IDebugDataSpaces2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces3">IDebugDataSpaces3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces3">IDebugDataSpaces3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>

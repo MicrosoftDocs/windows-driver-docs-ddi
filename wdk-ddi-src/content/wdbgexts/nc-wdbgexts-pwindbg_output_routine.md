@@ -58,7 +58,7 @@ The wdbgexts.h header declares a macro, <b>dprintf</b> that  prints the formatte
 
 #### - [arguments] [in]
 
-Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a>. 
+Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a>. 
 
 
 #### - format [in]
@@ -241,4 +241,3 @@ String containing the name of the specified symbol (and displacement, if any), a
 ## -remarks
 
 When generating very large output strings, it is possible the limits of the debugger engine or operating system may be reached.  For example, some versions of the debugger engine have a 16K character limit for a single piece of output.  If you find that very large output is getting truncated, you may need to split your output into multiple requests.
-

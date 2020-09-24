@@ -54,5 +54,4 @@ Indicates that unhashed frames are delivered to the queue at the specified hash 
 
 ## -see-also
 
-[NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)
-
+[NetAdapterCx Receive Side Scaling](/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)

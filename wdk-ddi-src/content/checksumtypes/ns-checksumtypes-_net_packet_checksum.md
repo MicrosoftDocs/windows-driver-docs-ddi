@@ -73,5 +73,4 @@ For a receive queue, the client specifies flag values from the [**NET_PACKET_RX_
 
 ## -see-also
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
-
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

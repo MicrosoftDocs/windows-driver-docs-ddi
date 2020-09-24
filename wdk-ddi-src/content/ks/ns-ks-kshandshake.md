@@ -66,15 +66,14 @@ A pointer to an interface-dependent argument.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinhandshake">KsPinHandshake</a> for more information about negotiating private interfaces between AVStream pins.
+See <a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinhandshake">KsPinHandshake</a> for more information about negotiating private interfaces between AVStream pins.
 
 Pin handshaking is a concept that is usable only between two pins that support IOCTL_KS_HANDSHAKE. Currently, only AVStream pins support this interface; thus this is only useful for negotiating private interfaces between two AVStream pins. Currently, connections between AVStream pins are negotiated via this mechanism.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ni-ks-ioctl_ks_handshake">IOCTL_KS_HANDSHAKE</a>
+<a href="/windows-hardware/drivers/ddi/ks/ni-ks-ioctl_ks_handshake">IOCTL_KS_HANDSHAKE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinhandshake">KsPinHandshake</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspinhandshake">KsPinHandshake</a>

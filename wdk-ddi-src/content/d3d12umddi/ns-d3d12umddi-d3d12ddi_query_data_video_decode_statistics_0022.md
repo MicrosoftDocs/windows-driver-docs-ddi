@@ -69,5 +69,4 @@ For all other <b>Status</b> values, <b>BitRate</b> is not used and is set to zer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_status_0020">D3D12DDI_VIDEO_DECODE_STATUS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_status_0020">D3D12DDI_VIDEO_DECODE_STATUS</a>

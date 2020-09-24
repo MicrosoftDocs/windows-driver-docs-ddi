@@ -46,7 +46,6 @@ api_name:
 
 ## -description
 
-This section describes the methods defined for the [IStiDeviceControl COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istidevicecontrol-com-interface). Method prototypes are contained in *Stiusd.h*.
+This section describes the methods defined for the [IStiDeviceControl COM Interface](/windows-hardware/drivers/image/istidevicecontrol-com-interface). Method prototypes are contained in *Stiusd.h*.
 
 ## -inheritance
-

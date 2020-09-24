@@ -117,10 +117,10 @@ NTSTATUS FnVmbPacketInitialize
 ## -remarks
 
 The size of the buffer must be at
-least the size calculated by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket">VmbChannelSizeofPacket</a> function.  
+least the size calculated by using the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket">VmbChannelSizeofPacket</a> function.  
 
 <b>VmbPacketInitialize</b> is  an alternative
-to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketallocate">VmbPacketAllocate</a> function. Use the current function if the caller supplies the
+to the <a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketallocate">VmbPacketAllocate</a> function. Use the current function if the caller supplies the
 memory for the packet object. 
 
 The packet's initial completion routine is invalid and must be set before
@@ -133,9 +133,8 @@ sending the packet.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket">VmbChannelSizeofPacket</a>
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket">VmbChannelSizeofPacket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketallocate">VmbPacketAllocate</a>
-
+<a href="/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketallocate">VmbPacketAllocate</a>

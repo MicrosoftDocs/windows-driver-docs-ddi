@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This structure is used with the [IOCTL_STORAGE_PROTOCOL_COMMAND](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_protocol_command) pass-through mechanism that issues a vendor-specific protocol command to a storage device.
+This structure is used with the [IOCTL_STORAGE_PROTOCOL_COMMAND](./ni-ntddstor-ioctl_storage_protocol_command.md) pass-through mechanism that issues a vendor-specific protocol command to a storage device.
 
 ## -struct-fields
 
@@ -148,5 +148,4 @@ The vendor-specific command that is to be passed-through to the device.
 
 ## -see-also
 
-[IOCTL_STORAGE_PROTOCOL_COMMAND](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_protocol_command)
-
+[IOCTL_STORAGE_PROTOCOL_COMMAND](./ni-ntddstor-ioctl_storage_protocol_command.md)

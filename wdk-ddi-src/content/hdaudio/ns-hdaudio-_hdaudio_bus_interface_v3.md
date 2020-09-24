@@ -1,11 +1,9 @@
 ---
 UID: NS:hdaudio._HDAUDIO_BUS_INTERFACE_V3
 title: _HDAUDIO_BUS_INTERFACE_V3
-author: windows-driver-content
 description: 
 tech.root: audio
 ms.assetid: a7bcda7e-4e39-4250-9154-6af32cdc1ecf
-ms.author: windowsdriverdev
 ms.date: 12/19/2018
 keywords: ["HDAUDIO_BUS_INTERFACE_V3 structure"]
 ms.prod: windows-hardware
@@ -154,13 +152,12 @@ A function pointer to the UnregisterNotificationCallback routine.
 
 ## -remarks
 
-The [IRP_MN_QUERY_INTERFACE IOCTL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface) uses this structure to provide interface information to a client that is querying the HD Audio bus driver for the HD Audio DDI.
+The [IRP_MN_QUERY_INTERFACE IOCTL](/windows-hardware/drivers/kernel/irp-mn-query-interface) uses this structure to provide interface information to a client that is querying the HD Audio bus driver for the HD Audio DDI.
 
 The names and definitions of the first five members of the HDAUDIO_BUS_INTERFACE_V3 structure (Size, Version, Context, InterfaceReference, and InterfaceDereference) are the same as in the INTERFACE structure. The remaining members are specific to the baseline HD Audio DDI and specify function pointers to the routines in the DDI.
 
 ## -see-also
 
-[IRP_MN_QUERY_INTERFACE IOCTL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface)
+[IRP_MN_QUERY_INTERFACE IOCTL](/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
 [hdaudio.h](../hdaudio/index.md)
-

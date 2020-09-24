@@ -68,11 +68,10 @@ Length of the range in bytes.
 
 The entire range specified by <i>Address</i> and <i>Length</i> must reside within the system cache.
 
-For more information about memory management, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-memory-for-drivers">Memory Management</a>. 
+For more information about memory management, see <a href="/windows-hardware/drivers/kernel/managing-memory-for-drivers">Memory Management</a>. 
 
 Callers of <b>MmSetAddressRangeModified</b> must be running at IRQL < DISPATCH_LEVEL for pageable addresses, and IRQL <= DISPATCH_LEVEL for nonpageable addresses.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539145">CcIsThereDirtyData</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccistheredirtydata">CcIsThereDirtyData</a>

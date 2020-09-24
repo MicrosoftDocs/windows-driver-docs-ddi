@@ -1,11 +1,9 @@
 ---
 UID: NS:netpoweroffload._NET_POWER_OFFLOAD_NS_PARAMETERS
 title: NET_POWER_OFFLOAD_NS_PARAMETERS (netpoweroffload.h)
-author: windows-driver-content
 description: The NET_POWER_OFFLOAD_NS_PARAMETERS structure contains IPv6 NS low-power protocol offload parameters for a net adapter.
 tech.root: netvista
 ms.assetid: 4ebf3a7f-90b5-43dd-8c28-33319fdf0d59
-ms.author: windowsdriverdev
 ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_NS_PARAMETERS structure"]
 ms.keywords: NET_POWER_OFFLOAD_NS_PARAMETERS, NET_POWER_OFFLOAD_NS_PARAMETERS,
@@ -92,9 +90,8 @@ For more information about IPv6 NS and NA messages, see [RFC 4861](https://www.i
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_POWER_OFFLOAD_NS_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_ns_parameters_init.md)
 
 [**NetPowerOffloadGetNsParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetnsparameters.md)
-

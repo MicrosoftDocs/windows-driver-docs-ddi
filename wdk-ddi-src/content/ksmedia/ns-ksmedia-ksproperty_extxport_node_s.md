@@ -54,7 +54,7 @@ The KSPROPERTY_EXTXPORT_NODE_S structure describes an external transport and its
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
+Specifies an initialized <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
 
 ### -field u
 
@@ -122,17 +122,16 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-extxport-state">KSPROPERTY_EXTXPORT_STATE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-extxport-state">KSPROPERTY_EXTXPORT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-medium_info">MEDIUM_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-medium_info">MEDIUM_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-transport_state">TRANSPORT_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-transport_state">TRANSPORT_STATE</a>

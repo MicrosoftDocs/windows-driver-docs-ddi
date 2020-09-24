@@ -68,12 +68,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-For more information about <b>WdfRequestGetRequestorMode</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/obtaining-information-about-an-i-o-request">Obtaining Information About an I/O Request</a>.
+For more information about <b>WdfRequestGetRequestorMode</b>, see <a href="/windows-hardware/drivers/wdf/obtaining-information-about-an-i-o-request">Obtaining Information About an I/O Request</a>.
 
 
 #### Examples
 
-The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">NDISProt</a> sample driver. This example checks for a valid MAC address if the I/O request came from a user-mode application.
+The following code example is from the <a href="/windows-hardware/drivers/wdf/sample-kmdf-drivers">NDISProt</a> sample driver. This example checks for a valid MAC address if the I/O request came from a user-mode application.
 
 ```cpp
 //
@@ -89,4 +89,3 @@ if ((WdfRequestGetRequestorMode(Request) == UserMode) &&
     break;
 }
 ```
-

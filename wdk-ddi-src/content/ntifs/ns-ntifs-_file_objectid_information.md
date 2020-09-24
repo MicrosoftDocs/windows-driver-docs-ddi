@@ -86,7 +86,7 @@ User-provided data. You can use it to contain the **BirthVolumeID**, **BirthObje
 
 This information can be queried in either of the following ways:
 
-* Call [ZwQueryDirectoryFile](https://msdn.microsoft.com/library/windows/hardware/ff567047), passing FileObjectIdInformation as the value of *FileInformationClass* and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of *FileInformation*.
+* Call [ZwQueryDirectoryFile](/previous-versions/ff567047(v=vs.85)), passing FileObjectIdInformation as the value of *FileInformationClass* and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of *FileInformation*.
 
 * Create an IRP with major function code IRP_MJ_DIRECTORY_CONTROL and minor function code IRP_MN_QUERY_DIRECTORY.
 
@@ -102,7 +102,6 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 [FILE_INTERNAL_INFORMATION](ns-ntifs-_file_internal_information.md)
 
-[IRP_MJ_DIRECTORY_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control)
+[IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
-[ZwQueryDirectoryFile](https://msdn.microsoft.com/library/windows/hardware/ff567047)
-
+[ZwQueryDirectoryFile](/previous-versions/ff567047(v=vs.85))

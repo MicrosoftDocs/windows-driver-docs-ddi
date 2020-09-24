@@ -1,11 +1,9 @@
 ---
 UID: NS:netadapteroffload._NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES
 title: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES (netadapteroffload.h)
-author: windows-driver-content
 description: The NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for receive segment coalescence (RSC).
 tech.root: netvista
 ms.assetid: ec0a7407-64eb-477e-be2e-ada7c1c3bcc7
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES,
@@ -75,9 +73,8 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md)
 
 [**NetAdapterOffloadSetRscCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md)
-

@@ -47,7 +47,7 @@ api_name:
 ## -description
 
 This routine deallocates any information copied into a create operation by
-    a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcopyopenreparselist">FltCopyOpenReparseList</a>.
+    a previous call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcopyopenreparselist">FltCopyOpenReparseList</a>.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ The ECP list whose open reparse information should
 ## -returns
 
 This routine does not return a value.
-

@@ -52,7 +52,7 @@ The enumerated list of jobs represents a snapshot of the current job status.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -60,15 +60,14 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> inte
 
 ## -remarks
 
-The order of print jobs in the enumerated list is the same as the order provided by <a href="https://docs.microsoft.com/windows/win32/printdocs/enumjobs">EnumJobs</a>, which is the actual print queue order.
+The order of print jobs in the enumerated list is the same as the order provided by <a href="/windows/win32/printdocs/enumjobs">EnumJobs</a>, which is the actual print queue order.
 
-<b>IPrintJobCollection</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>.
+<b>IPrintJobCollection</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="/windows-hardware/drivers/print/job-management">Job Management</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/printdocs/enumjobs">EnumJobs</a>
+<a href="/windows/win32/printdocs/enumjobs">EnumJobs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>
-
+<a href="/windows-hardware/drivers/print/job-management">Job Management</a>

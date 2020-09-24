@@ -48,7 +48,6 @@ api_name:
 
 The **IXpsRasterizer** interface represents an XPS rasterizer that can create a bitmap image of an XPS fixed page or of a rectangular region of a fixed page.
 
-A client obtains an **IXpsRasterizer** interface instance by calling the [IXpsRasterizationFactory::CreateRasterizer](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer) method.
+A client obtains an **IXpsRasterizer** interface instance by calling the [IXpsRasterizationFactory::CreateRasterizer](./nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer.md) method.
 
 ## -inheritance
-

@@ -53,12 +53,12 @@ The <b>DxgkCbMapMemory</b> function maps a range of translated physical addresse
 ### -param DeviceHandle 
 
 [in]
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 ### -param TranslatedAddress 
 
 [in]
-The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_get_device_information">DxgkCbGetDeviceInformation</a>.
+The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_get_device_information">DxgkCbGetDeviceInformation</a>.
 
 ### -param Length 
 
@@ -78,7 +78,7 @@ A Boolean value that specifies whether the range is mapped into user-mode space 
 ### -param CacheType 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
 
 ### -param VirtualAddress 
 
@@ -100,5 +100,4 @@ The PHYSICAL_ADDRESS data type is defined in <i>Ntdef.h</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>

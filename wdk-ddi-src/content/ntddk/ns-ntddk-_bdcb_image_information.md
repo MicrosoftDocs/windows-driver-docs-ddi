@@ -52,13 +52,13 @@ api_name:
 
 The <b>BDCB_IMAGE_INFORMATION</b> structure describes information about a boot-start driver that is about to 
     be initialized, provided by Windows to a boot-start driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-boot_driver_callback_function">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine.
+    <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-boot_driver_callback_function">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine.
 
 ## -struct-fields
 
 ### -field Classification
 
-An enumeration of type [**BDCB_CLASSIFICATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification) that the ELAM driver sets to specify the classification of the boot start image.
+An enumeration of type [**BDCB_CLASSIFICATION**](./ne-ntddk-_bdcb_classification.md) that the ELAM driver sets to specify the classification of the boot start image.
 
 ### -field ImageFlags
 
@@ -223,11 +223,10 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification">BDCB_CLASSIFICATION</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ne-ntddk-_bdcb_classification">BDCB_CLASSIFICATION</a>
 
 
 
 [**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
 
-[**ALG_ID**](https://docs.microsoft.com/windows/win32/seccrypto/alg-id)
-
+[**ALG_ID**](/windows/win32/seccrypto/alg-id)

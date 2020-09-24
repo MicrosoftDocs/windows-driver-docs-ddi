@@ -53,12 +53,12 @@ The **IoCreateFileEx** routine either causes a new file or directory to be creat
 ### -param FileHandle 
 
 [out]
-A pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose) as soon as the handle is no longer being used.
+A pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with [**ZwClose**](../ntifs/nf-ntifs-ntclose.md) as soon as the handle is no longer being used.
 
 ### -param DesiredAccess 
 
 [in]
-A bitmask of flags (see [**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)) that specifies the type of access that the caller requires to the file or directory. This set of system-defined *DesiredAccess* flags determines the following specific access rights for file objects.
+A bitmask of flags (see [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)) that specifies the type of access that the caller requires to the file or directory. This set of system-defined *DesiredAccess* flags determines the following specific access rights for file objects.
 
 | *DesiredAccess* flag | Meaning |
 | -------------------- | ------- |
@@ -66,12 +66,12 @@ A bitmask of flags (see [**ACCESS_MASK**](https://docs.microsoft.com/windows-har
 | FILE_READ_DATA       | Data can be read from the file. |
 | FILE_READ_ATTRIBUTES | *FileAttributes* flags, described below, can be read. |
 | FILE_READ_EA         | Extended attributes (EAs) associated with the file can be read. |
-| READ_CONTROL         | The access control list ([**ACL**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)) and ownership information associated with the file can be read. |
+| READ_CONTROL         | The access control list ([**ACL**](../wdm/ns-wdm-_acl.md)) and ownership information associated with the file can be read. |
 | FILE_WRITE_DATA      | Data can be written to the file. |
 | FILE_WRITE_ATTRIBUTES | *FileAttributes* flags can be written. |
 | FILE_WRITE_EA        | EAs associated with the file can be written. |
 | FILE_APPEND_DATA     | Data can be appended to the file. |
-| WRITE_DAC            | The discretionary access control list ([**DACL**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)) associated with the file can be written. |
+| WRITE_DAC            | The discretionary access control list ([**DACL**](../wdm/ns-wdm-_acl.md)) associated with the file can be written. |
 | WRITE_OWNER          | Ownership information associated with the file can be written. |
 | SYNCHRONIZE          | The caller can synchronize the completion of an I/O operation by waiting for the returned *FileHandle* to be set to the Signaled state. This flag must be set if the *CreateOptions* FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT flag is set. |
 | FILE_EXECUTE         | Data can be read into memory from the file using system paging I/O. |
@@ -96,7 +96,7 @@ The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA *Desired
 ### -param ObjectAttributes 
 
 [in]
-Pointer to an [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes) structure already initialized by the [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) routine. If the caller is running in the system process context, this parameter can be **NULL**. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to **InitializeObjectAttributes**. Members of this structure for a file object include the following.
+Pointer to an [**OBJECT_ATTRIBUTES**](/windows/win32/api/ntdef/ns-ntdef-_object_attributes) structure already initialized by the [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) routine. If the caller is running in the system process context, this parameter can be **NULL**. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to **InitializeObjectAttributes**. Members of this structure for a file object include the following.
 
 | Member | Value |
 | ------ | ----- |
@@ -109,7 +109,7 @@ Pointer to an [**OBJECT_ATTRIBUTES**](https://docs.microsoft.com/windows/desktop
 ### -param IoStatusBlock 
 
 [out]
-Pointer to a variable of type [**IO_STATUS_BLOCK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) that receives the final completion status and information about the requested operation. On return from **IoCreateFileEx**, the **Information** member of the variable contains one of the following values:
+Pointer to a variable of type [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) that receives the final completion status and information about the requested operation. On return from **IoCreateFileEx**, the **Information** member of the variable contains one of the following values:
 
 * FILE_CREATED
 * FILE_OPENED
@@ -198,7 +198,7 @@ FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | This flag instructs the file syste
 ### -param EaBuffer 
 
 [in, optional]
-A pointer to a caller-supplied variable of type [**FILE_FULL_EA_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information) that contains extended attribute (EA) information to be applied to the file.  For device and intermediate drivers, this parameter must be **NULL**.
+A pointer to a caller-supplied variable of type [**FILE_FULL_EA_INFORMATION**](../wdm/ns-wdm-_file_full_ea_information.md) that contains extended attribute (EA) information to be applied to the file.  For device and intermediate drivers, this parameter must be **NULL**.
 
 ### -param EaLength 
 
@@ -224,13 +224,13 @@ Specifies options to be used during the generation of the create request. Zero o
 | -------------- | ------- |
 | IO_FORCE_ACCESS_CHECK | The I/O manager must check the create request against the file's security descriptor. For more information, see Remarks. |
 | IO_IGNORE_SHARE_ACCESS_CHECK | The I/O manager should not perform share-access checks on the file object after it is created. However, the file system might still perform these checks. |
-| IO_STOP_ON_SYMLINK | If a junction, symbolic link, or global reparse point is encountered while opening or creating the file, I/O manager will return STATUS_STOPPED_ON_SYMLINK. Additionally, a REPARSE_DATA_BUFFER structure will be returned in **IoStatusBlock->Information**. The caller is responsible for freeing the [**REPARSE_DATA_BUFFER**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_reparse_data_buffer) structure. |
+| IO_STOP_ON_SYMLINK | If a junction, symbolic link, or global reparse point is encountered while opening or creating the file, I/O manager will return STATUS_STOPPED_ON_SYMLINK. Additionally, a REPARSE_DATA_BUFFER structure will be returned in **IoStatusBlock->Information**. The caller is responsible for freeing the [**REPARSE_DATA_BUFFER**](../ntifs/ns-ntifs-_reparse_data_buffer.md) structure. |
 | IO_OPEN_TARGET_DIRECTORY | Open the file's parent directory. |
 
 ### -param DriverContext 
 
 [in, optional]
-An optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context) structure that was previously initialized by the [**IoInitializeDriverCreateContext**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioinitializedrivercreatecontext) routine.  The IO_DRIVER_CREATE_CONTEXT structure can be used to pass additional parameters to the **IoCreateFileEx** and [**FltCreateFileEx2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2) routines.  See the following Remarks section for more information.
+An optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](./ns-ntddk-_io_driver_create_context.md) structure that was previously initialized by the [**IoInitializeDriverCreateContext**](./nf-ntddk-ioinitializedrivercreatecontext.md) routine.  The IO_DRIVER_CREATE_CONTEXT structure can be used to pass additional parameters to the **IoCreateFileEx** and [**FltCreateFileEx2**](../fltkernel/nf-fltkernel-fltcreatefileex2.md) routines.  See the following Remarks section for more information.
 
 ## -returns
 
@@ -238,8 +238,8 @@ An optional pointer to an [**IO_DRIVER_CREATE_CONTEXT**](https://docs.microsoft.
 
 | Return code | Description |
 | ----------- | ----------- |
-| STATUS_INVALID_DEVICE_OBJECT_PARAMETER | [**IoCreateFileEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex) returns this status value if the *DriverContext* parameter is not **NULL** and if the specified device object is not attached to the file system driver stack for the volume specified in the file or directory name.  This device object is specified by the **DeviceObjectHint** member of the IO_DRIVER_CREATE_CONTEXT structure.  For more information, see [**IO_DRIVER_CREATE_CONTEXT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context). |
-| STATUS_MOUNT_POINT_NOT_RESOLVED | **IoCreateFileEx** returns this status value if the *DriverContext* parameter is not **NULL** and if the file or directory name contains a mount point that resolves to a volume other than the one to which the specified device object is attached.  This device object is specified by the **DeviceObjectHint** member of the IO_DRIVER_CREATE_CONTEXT structure.  For more information, see [**IO_DRIVER_CREATE_CONTEXT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context). |
+| STATUS_INVALID_DEVICE_OBJECT_PARAMETER | [**IoCreateFileEx**]() returns this status value if the *DriverContext* parameter is not **NULL** and if the specified device object is not attached to the file system driver stack for the volume specified in the file or directory name.  This device object is specified by the **DeviceObjectHint** member of the IO_DRIVER_CREATE_CONTEXT structure.  For more information, see [**IO_DRIVER_CREATE_CONTEXT**](./ns-ntddk-_io_driver_create_context.md). |
+| STATUS_MOUNT_POINT_NOT_RESOLVED | **IoCreateFileEx** returns this status value if the *DriverContext* parameter is not **NULL** and if the file or directory name contains a mount point that resolves to a volume other than the one to which the specified device object is attached.  This device object is specified by the **DeviceObjectHint** member of the IO_DRIVER_CREATE_CONTEXT structure.  For more information, see [**IO_DRIVER_CREATE_CONTEXT**](./ns-ntddk-_io_driver_create_context.md). |
 | STATUS_OBJECT_PATH_SYNTAX_BAD | **IoCreateFileEx** returns this status value if the *ObjectAttributes* parameter did not contain a **RootDirectory** member, but the **ObjectName** member in the OBJECT_ATTRIBUTES structure was an empty string or did not contain an OBJECT_NAME_PATH_SEPARATOR character. This indicates incorrect syntax for the object path. |
 | STATUS_STOPPED_ON_SYMLINK | **IoCreateFileEx** returns this status value if the *Options* parameter flag **IO_STOP_ON_SYMLINK** is set and a symbolic link is encountered while opening or creating the file. |
 
@@ -249,7 +249,7 @@ If the **IoCreateFileEx** routine returns an error status, the caller can find a
 
 ## -remarks
 
-The **IoCreateFileEx** routine is similar to both the [**IoCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile) routine and the [**IoCreateFileSpecifyDeviceObjectHint**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint) routine but offers additional functionality including access to extra create parameters (ECPs), device objects hints, and transaction information through the **IoCreateFileEx** routine's *DriverContext* parameter.  For more information about these structure based parameters, see [**IO_DRIVER_CREATE_CONTEXT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context).
+The **IoCreateFileEx** routine is similar to both the [**IoCreateFile**](../wdm/nf-wdm-iocreatefile.md) routine and the [**IoCreateFileSpecifyDeviceObjectHint**](./nf-ntddk-iocreatefilespecifydeviceobjecthint.md) routine but offers additional functionality including access to extra create parameters (ECPs), device objects hints, and transaction information through the **IoCreateFileEx** routine's *DriverContext* parameter.  For more information about these structure based parameters, see [**IO_DRIVER_CREATE_CONTEXT**](./ns-ntddk-_io_driver_create_context.md).
 
 File system filter drivers call **IoCreateFileEx** to send a create request only to a specified device object, the filters attached below it, and the file system. Filters attached above the specified device object in the driver stack do not receive the create request.  However, if the **DeviceObjectHint** member of the IO_DRIVER_CREATE_CONTEXT structure (passed through the *DriverContext* parameter) is **NULL**, the request goes to the top of the stack and is received by all filters and the file system.
 
@@ -257,7 +257,7 @@ If the I/O request does not go to the top of the driver stack, that is if the *D
 
 * If the file name path that is passed to the **IoCreateFileEx** routine contains a mount point, the mount point must resolve to the same volume where the file or directory resides.
 
-The handle obtained by **IoCreateFileEx** can be used by subsequent calls to manipulate data within the file or the state or attributes of the file object.  Any handle that is obtained from **IoCreateFileEx** must eventually be released by calling [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose).
+The handle obtained by **IoCreateFileEx** can be used by subsequent calls to manipulate data within the file or the state or attributes of the file object.  Any handle that is obtained from **IoCreateFileEx** must eventually be released by calling [**ZwClose**](../ntifs/nf-ntifs-ntclose.md).
 
 There are two alternate ways to specify the name of the file to be created or opened with **IoCreateFileEx**:
 
@@ -265,7 +265,7 @@ There are two alternate ways to specify the name of the file to be created or op
 
 * As a pathname relative to the handle in the **RootDirectory** member of the input *ObjectAttributes* parameter. (This handle can represent a directory file.)
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFileEx**. This restricts the use of the handle that is returned by **IoCreateFileEx** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.  Drivers can call [**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) to set the OBJ_KERNEL_HANDLE attribute.
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFileEx**. This restricts the use of the handle that is returned by **IoCreateFileEx** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.  Drivers can call [**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) to set the OBJ_KERNEL_HANDLE attribute.
 
 Certain *DesiredAccess* flags and combinations of flags have the following effects:
 
@@ -279,7 +279,7 @@ Certain *DesiredAccess* flags and combinations of flags have the following effec
 
 The *ShareAccess* parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both file openers have the privilege to access a file in the specified manner, the file can be successfully opened and shared. If the original caller of **IoCreateFileEx** does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other open operations can be performed on the file: that is, the original caller is given exclusive access to the file.
 
-For a shared file to be successfully opened, the requested *DesiredAccess* value for the file must be compatible with both the *DesiredAccess* and *ShareAccess* specifications of all previous open requests that have not yet been released with [**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose). That is, the *DesiredAccess* value that is specified to **IoCreateFileEx** for a given file must not conflict with the accesses that other openers of the file have disallowed.
+For a shared file to be successfully opened, the requested *DesiredAccess* value for the file must be compatible with both the *DesiredAccess* and *ShareAccess* specifications of all previous open requests that have not yet been released with [**ZwClose**](../ntifs/nf-ntifs-ntclose.md). That is, the *DesiredAccess* value that is specified to **IoCreateFileEx** for a given file must not conflict with the accesses that other openers of the file have disallowed.
 
 >[!NOTE]
 >If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the *Options* parameter, the I/O manager ignores the *ShareAccess* parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the *ShareAccess* parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag.
@@ -298,15 +298,15 @@ The *CreateOptions* FILE_DIRECTORY_FILE value specifies that the file to be crea
 
 The *CreateOptions* FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this value places certain restrictions on the caller's parameters to the **Zw..File** routines, including the following:
 
-* Any optional *ByteOffset* passed to [**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) or [**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile) must be an integral (integer multiple) of the sector size.
+* Any optional *ByteOffset* passed to [**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md) or [**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md) must be an integral (integer multiple) of the sector size.
 
-* The *Length* passed to [**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) or [**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile), must be an integral of the sector size. Notice that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
+* The *Length* passed to [**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md) or [**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md), must be an integral of the sector size. Notice that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
 
-* Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling **IoCreateFileEx** to get a handle for the file object that represents the physical device, and, then, calling [**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile) with that handle. For a list of the system FILE_*XXX*_ALIGNMENT values, see [**DEVICE_OBJECT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object).
+* Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling **IoCreateFileEx** to get a handle for the file object that represents the physical device, and, then, calling [**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md) with that handle. For a list of the system FILE_*XXX*_ALIGNMENT values, see [**DEVICE_OBJECT**](../wdm/ns-wdm-_device_object.md).
 
-* Calls to [**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is an integral of the sector size.
+* Calls to [**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md) with the *FileInformationClass* parameter set to **FilePositionInformation** must specify an offset that is an integral of the sector size.
 
-The mutually exclusive *CreateOptions*, FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT flags, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned *FileHandle*. All I/O on such a file is serialized across all threads by using the returned handle. With either of these *CreateOptions* values, the *DesiredAccess* SYNCHRONIZE flag must be set so that the I/O Manager will use the file object as a synchronization object. With either of these *CreateOptions* values set, the I/O Manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to [**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) and [**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile). Its position can also be queried by calling [**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile), or set by calling [**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile).
+The mutually exclusive *CreateOptions*, FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT flags, specify that all I/O operations on the file are to be synchronous as long as they occur through the file object referred to by the returned *FileHandle*. All I/O on such a file is serialized across all threads by using the returned handle. With either of these *CreateOptions* values, the *DesiredAccess* SYNCHRONIZE flag must be set so that the I/O Manager will use the file object as a synchronization object. With either of these *CreateOptions* values set, the I/O Manager maintains the "file position context" for the file object, an internal, current file position offset. This offset can be used in calls to [**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md) and [**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md). Its position can also be queried by calling [**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md), or set by calling [**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md).
 
 If the *CreateOptions* FILE_OPEN_REPARSE_POINT flag is *not* specified and **IoCreateFileEx** attempts to open a file with a reparse point, normal reparse point processing occurs for the file.  If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does *not* occur and **IoCreateFileEx** attempts to directly open the reparse point file.  In either case, if the open operation was successful, **IoCreateFileEx** returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. **IoCreateFileEx** never returns STATUS_REPARSE.
 
@@ -319,7 +319,7 @@ If this create operation would break an oplock that already exists on the file, 
  An application that uses this flag must request an oplock after this call succeeds, or all later attempts to open the file will be blocked without the benefit of typical oplock processing. Similarly, if this call succeeds but the later oplock request fails, an application that uses this flag must close its handle after it detects that the oplock request has failed.
 
 >[!NOTE]
->The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2and later Windows operating systems. The Microsoft file systems that implement this flag are NTFS, FAT, and exFAT.</div>
+>The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2and later Windows operating systems. The Microsoft file systems that implement this flag are NTFS, FAT, and exFAT.
 
 The *CreateOptions* flag, FILE_RESERVE_OPFILTER, allows an application to request a level 1, batch, or filter oplock to prevent other applications from getting share violations. However, FILE_RESERVE_OPFILTER is only practically useful for filter oplocks. To use it, you must follow these steps:
 
@@ -341,43 +341,42 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 ## -see-also
 
-[**ACCESS_MASK**](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask)
 
-[**ACL**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
-[**DEVICE_OBJECT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
+[**DEVICE_OBJECT**](../wdm/ns-wdm-_device_object.md)
 
-[**FILE_FULL_EA_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information)
+[**FILE_FULL_EA_INFORMATION**](../wdm/ns-wdm-_file_full_ea_information.md)
 
-[**FltAcknowledgeEcp**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacknowledgeecp)
+[**FltAcknowledgeEcp**](../fltkernel/nf-fltkernel-fltacknowledgeecp.md)
 
-[**FltAllocateExtraCreateParameter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter)
+[**FltAllocateExtraCreateParameter**](../fltkernel/nf-fltkernel-fltallocateextracreateparameter.md)
 
-[**FltAllocateExtraCreateParameterList**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist)
+[**FltAllocateExtraCreateParameterList**](../fltkernel/nf-fltkernel-fltallocateextracreateparameterlist.md)
 
-[**FltClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclose)
+[**FltClose**](../fltkernel/nf-fltkernel-fltclose.md)
 
-[**FltCreateFileEx2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2)
+[**FltCreateFileEx2**](../fltkernel/nf-fltkernel-fltcreatefileex2.md)
 
-[**IO_DRIVER_CREATE_CONTEXT**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context)
+[**IO_DRIVER_CREATE_CONTEXT**](./ns-ntddk-_io_driver_create_context.md)
 
-[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes)
+[**InitializeObjectAttributes**](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
-[**IoCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile)
+[**IoCreateFile**](../wdm/nf-wdm-iocreatefile.md)
 
-[**IoCreateFileSpecifyDeviceObjectHint**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint)
+[**IoCreateFileSpecifyDeviceObjectHint**](./nf-ntddk-iocreatefilespecifydeviceobjecthint.md)
 
-[**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
 
-[**ZwClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose)
+[**ZwClose**](../ntifs/nf-ntifs-ntclose.md)
 
-[**ZwCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
+[**ZwCreateFile**](../ntifs/nf-ntifs-ntcreatefile.md)
 
-[**ZwQueryInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
+[**ZwQueryInformationFile**](../ntifs/nf-ntifs-ntqueryinformationfile.md)
 
-[**ZwReadFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile)
+[**ZwReadFile**](../ntifs/nf-ntifs-ntreadfile.md)
 
-[**ZwSetInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)
+[**ZwSetInformationFile**](../ntifs/nf-ntifs-ntsetinformationfile.md)
 
-[**ZwWriteFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile)
-
+[**ZwWriteFile**](../ntifs/nf-ntifs-ntwritefile.md)

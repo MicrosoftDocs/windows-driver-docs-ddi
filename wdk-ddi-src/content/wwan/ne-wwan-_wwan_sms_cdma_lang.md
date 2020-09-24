@@ -93,9 +93,8 @@ The total number of supported SMS CDMA languages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_cdma_record">WWAN_SMS_CDMA_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send_cdma">WWAN_SMS_SEND_CDMA</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_sms_send_cdma">WWAN_SMS_SEND_CDMA</a>

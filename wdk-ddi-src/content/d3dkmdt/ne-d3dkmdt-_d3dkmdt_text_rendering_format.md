@@ -58,9 +58,8 @@ Indicates that a variable of type D3DKMDT_TEXT_RENDERING_FORMAT has not yet been
 
 ## -remarks
 
-The <b>Format.Text</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_source_mode">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_TEXT_RENDERING_FORMAT value.
+The <b>Format.Text</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_source_mode">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a D3DKMDT_TEXT_RENDERING_FORMAT value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">VidPn Source Mode Set Interface</a>
-
+<a href="/windows-hardware/drivers/ddi/index">VidPn Source Mode Set Interface</a>

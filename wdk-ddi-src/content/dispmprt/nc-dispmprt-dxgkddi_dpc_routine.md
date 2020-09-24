@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <i>DxgkDdiDpcRoutine</i> function is called back at IRQL DISPATCH_LEVEL after the display miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_queue_dpc">DxgkCbQueueDpc</a>.
+The <i>DxgkDdiDpcRoutine</i> function is called back at IRQL DISPATCH_LEVEL after the display miniport driver calls <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_queue_dpc">DxgkCbQueueDpc</a>.
 
 ## -parameters
 
 ### -param MiniportDeviceContext 
 
 [in]
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 ## -remarks
 
@@ -63,5 +63,4 @@ If the display miniport driver is supporting several display adapters, the <i>Dx
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a>

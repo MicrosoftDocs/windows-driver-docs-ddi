@@ -1,11 +1,9 @@
 ---
 UID: NS:virtualaddresstypes._NET_FRAGMENT_VIRTUAL_ADDRESS
 title: NET_FRAGMENT_VIRTUAL_ADDRESS (virtualaddresstypes.h)
-author: windows-driver-content
 description: The NET_FRAGMENT_VIRTUAL_ADDRESS structure contains data buffer information for a NET_FRAGMENT.
 tech.root: netvista
 ms.assetid: 6D9E0986-50FF-4CDC-B5F3-475047DD5699
-ms.author: windowsdriverdev
 ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_VIRTUAL_ADDRESS structure"]
 ms.keywords: NET_FRAGMENT_VIRTUAL_ADDRESS, NET_FRAGMENT_VIRTUAL_ADDRESS,
@@ -62,9 +60,8 @@ To obtain this structure, call [**NetExtensionGetFragmentVirtualAddress**](../vi
 
 ## -see-also
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
 
 [**NetExtensionGetFragmentVirtualAddress**](../virtualaddress/nf-virtualaddress-netextensiongetfragmentvirtualaddress.md)
-

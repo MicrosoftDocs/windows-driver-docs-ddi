@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtofferallocations">D3DKMTOfferAllocations</a>  function.
+Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtofferallocations">D3DKMTOfferAllocations</a>  function.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 ### -field Priority
 
-[in] The priority, of type  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_offer_priority">D3DKMT_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
+[in] The priority, of type  <a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_offer_priority">D3DKMT_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
 
 ### -field Flags
 
@@ -83,9 +83,8 @@ Flag options.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtofferallocations">D3DKMTOfferAllocations</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtofferallocations">D3DKMTOfferAllocations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_offer_priority">D3DKMT_OFFER_PRIORITY</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_offer_priority">D3DKMT_OFFER_PRIORITY</a>

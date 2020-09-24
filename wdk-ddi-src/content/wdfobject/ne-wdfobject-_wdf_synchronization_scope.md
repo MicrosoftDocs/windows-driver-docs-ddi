@@ -88,7 +88,7 @@ The framework does not synchronize the object's event callback functions, so the
 
 ## -remarks
 
-Drivers use the WDF_SYNCHRONIZATION_SCOPE enumeration type to specify the <b>SynchronizationScope</b> member of an object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure.
+Drivers use the WDF_SYNCHRONIZATION_SCOPE enumeration type to specify the <b>SynchronizationScope</b> member of an object's <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 You can specify a <b>SynchronizationScope</b> value for only the following objects:
 
@@ -108,9 +108,8 @@ Framework queue objects
 </ul>
 The framework sets the <b>SynchronizationScope</b> value of framework driver objects to <b>WdfSynchronizationScopeNone</b>. It sets the <b>SynchronizationScope</b> value of framework device objects and framework queue objects to <b>WdfSynchronizationScopeInheritFromParent</b>.
 
-For more information about synchronization of a driver's event callback functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
+For more information about synchronization of a driver's event callback functions, see <a href="/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>

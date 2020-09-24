@@ -54,11 +54,11 @@ The <i>DxgkDdiRecommendVidPnTopology</i> function creates the topology of a spec
 
 ### -param hAdapter
 
-A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
+A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 ### -param pRecommendVidPnTopology
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_recommendvidpntopology">DXGKARG_RECOMMENDVIDPNTOPOLOGY</a> structure that contains function arguments.
+[in] A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_recommendvidpntopology">DXGKARG_RECOMMENDVIDPNTOPOLOGY</a> structure that contains function arguments.
 
 ## -returns
 
@@ -80,5 +80,4 @@ The miniport driver should pass through any error code that it gets from the ope
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">VidPn Topology Interface</a>
-
+<a href="/windows-hardware/drivers/ddi/index">VidPn Topology Interface</a>

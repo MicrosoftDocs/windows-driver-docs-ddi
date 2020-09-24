@@ -58,7 +58,7 @@ The silo from which the object is to be removed. This parameter is required and 
 ### -param ContextSlot 
 
 [in]
-A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
+A slot allocated by the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
 ### -param RemovedSiloContext
 
@@ -110,5 +110,4 @@ The operation completed successfully.
 
 ## -remarks
 
-In a successful call to <b>PsRemoveSiloContext</b> where the <i>RemovedSiloContext</i> parameter is not <b>NULL</b> and does not point to <b>NULL</b>, the caller must decrement the object that the <i>RemovedSiloContext</i> parameter points to, by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdereferencesilocontext">PsDereferenceSiloContext</a> when it is no longer needed.
-
+In a successful call to <b>PsRemoveSiloContext</b> where the <i>RemovedSiloContext</i> parameter is not <b>NULL</b> and does not point to <b>NULL</b>, the caller must decrement the object that the <i>RemovedSiloContext</i> parameter points to, by calling <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psdereferencesilocontext">PsDereferenceSiloContext</a> when it is no longer needed.

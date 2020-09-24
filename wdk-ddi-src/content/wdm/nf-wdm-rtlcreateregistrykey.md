@@ -137,25 +137,24 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcheckregistrykey">RtlCheckRegistryKey</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcheckregistrykey">RtlCheckRegistryKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtldeleteregistryvalue">RtlDeleteRegistryValue</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtldeleteregistryvalue">RtlDeleteRegistryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlqueryregistryvalues">RtlQueryRegistryValues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlwriteregistryvalue">RtlWriteRegistryValue</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlwriteregistryvalue">RtlWriteRegistryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwenumeratekey">ZwEnumerateKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>

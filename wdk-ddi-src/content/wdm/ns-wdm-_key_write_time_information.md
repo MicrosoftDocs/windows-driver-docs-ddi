@@ -60,5 +60,4 @@ Specifies the last time that the key was changed. This time value is expressed i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_set_information_class">KEY_SET_INFORMATION_CLASS</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_key_set_information_class">KEY_SET_INFORMATION_CLASS</a>

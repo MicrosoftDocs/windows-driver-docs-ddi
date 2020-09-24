@@ -62,9 +62,8 @@ FORCEINLINE void UMDEtwUnregister()
 }
 ```
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventunregister">EventUnregister</a> function is  described in the <a href="https://docs.microsoft.com/windows/desktop/Events/windows-events">Windows Events</a> documentation.
+The <a href="/windows/win32/api/evntprov/nf-evntprov-eventunregister">EventUnregister</a> function is  described in the <a href="/windows/desktop/Events/windows-events">Windows Events</a> documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwregister">UMDEtwRegister</a>
-
+<a href="/windows-hardware/drivers/ddi/umdprovider/nf-umdprovider-umdetwregister">UMDEtwRegister</a>

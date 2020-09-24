@@ -55,21 +55,20 @@ A driver's <i>EvtDeviceShutdownNotification</i> event callback function notifies
 ### -param Device 
 
 [in]
-A handle to a framework device object that the driver initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
+A handle to a framework device object that the driver initialized by calling <a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
 
 ## -remarks
 
-To register an <i>EvtDeviceShutdownNotification</i> event callback function, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification">WdfControlDeviceInitSetShutdownNotification</a>. Only drivers that create control device objects can register this callback function.
+To register an <i>EvtDeviceShutdownNotification</i> event callback function, a driver must call <a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification">WdfControlDeviceInitSetShutdownNotification</a>. Only drivers that create control device objects can register this callback function.
 
 The framework calls a driver's <i>EvtDeviceShutdownNotification</i> event callback function if the user is about to turn off the computer, or if the computer suddenly loses its power and an emergency power supply, such as an uninterruptible power supply (UPS), is available to safely turn off the computer.
 
-For more information about control device objects and the <i>EvtDeviceShutdownNotification</i> callback function see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
+For more information about control device objects and the <i>EvtDeviceShutdownNotification</i> callback function see <a href="/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
+<a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification">WdfControlDeviceInitSetShutdownNotification</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification">WdfControlDeviceInitSetShutdownNotification</a>

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-A still image minidriver's <b>IStiUSD::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice">IStiUSD::LockDevice</a>.
+A still image minidriver's <b>IStiUSD::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice">IStiUSD::LockDevice</a>.
 
 ## -returns
 
@@ -54,13 +54,12 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 ## -remarks
 
-If a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice">IStiUSD::LockDevice</a> method called <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, then <b>IStiUSD::UnlockDevice</b> should call <b>CloseHandle</b>.
+If a driver's <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice">IStiUSD::LockDevice</a> method called <a href="/windows/win32/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, then <b>IStiUSD::UnlockDevice</b> should call <b>CloseHandle</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unlockdevice">IStiDevice::UnLockDevice</a>
+<a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unlockdevice">IStiDevice::UnLockDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
-
+<a href="/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>

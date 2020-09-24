@@ -49,7 +49,7 @@ api_name:
 
 A filter drivers calls the
   <b>NdisFDeregisterFilterDriver</b> function to release resources that it previously allocated with the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
+  <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">
   NdisFRegisterFilterDriver</a> function.
 
 ## -parameters
@@ -65,13 +65,12 @@ The filter driver handle that identifies this filter driver. NDIS returned the h
 
 A filter driver must call 
     <b>NdisFDeregisterFilterDriver</b> from its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/unloading-a-filter-driver">FilterDriverUnload</a> routine.
+    <a href="/windows-hardware/drivers/network/unloading-a-filter-driver">FilterDriverUnload</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/unloading-a-filter-driver">FilterDriverUnload</a>
+<a href="/windows-hardware/drivers/network/unloading-a-filter-driver">FilterDriverUnload</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>

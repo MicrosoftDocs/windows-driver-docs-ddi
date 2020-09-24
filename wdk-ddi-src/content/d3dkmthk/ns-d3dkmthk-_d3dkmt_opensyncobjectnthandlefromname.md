@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-<b>D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectnthandlefromname">D3DKMTOpenSyncObjectNtHandleFromName</a> to open an NT handle for a named shared monitored fence object.
+<b>D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME</b> is used with <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectnthandlefromname">D3DKMTOpenSyncObjectNtHandleFromName</a> to open an NT handle for a named shared monitored fence object.
 
 ## -struct-fields
 
@@ -62,13 +62,12 @@ api_name:
 
 ### -field hNtHandle
 
-[out] NT handle to the sync object that can be used to open it via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>.
+[out] NT handle to the sync object that can be used to open it via <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectnthandlefromname">D3DKMTOpenSyncObjectNtHandleFromName</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectnthandlefromname">D3DKMTOpenSyncObjectNtHandleFromName</a>

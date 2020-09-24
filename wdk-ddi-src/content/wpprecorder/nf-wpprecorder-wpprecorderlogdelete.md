@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogdelete">WppRecorderLogDelete</a> method deletes the specified recorder log.
+The <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogdelete">WppRecorderLogDelete</a> method deletes the specified recorder log.
 
 ## -parameters
 
@@ -57,4 +57,3 @@ Handle to the recorder log to delete.
 ## -remarks
 
 When a thread enters this function, no threads can subsequently  log to this buffer.
-

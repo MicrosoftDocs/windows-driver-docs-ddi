@@ -84,9 +84,8 @@ The comparison always succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc">D3D10_DDI_DEPTH_STENCILOP_DESC</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_depth_stencilop_desc">D3D10_DDI_DEPTH_STENCILOP_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_depth_stencil_desc">D3D10_DDI_DEPTH_STENCIL_DESC</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_depth_stencil_desc">D3D10_DDI_DEPTH_STENCIL_DESC</a>

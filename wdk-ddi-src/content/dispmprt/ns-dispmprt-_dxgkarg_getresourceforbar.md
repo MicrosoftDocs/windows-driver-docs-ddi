@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETRESOURCEFORBAR
 title: _DXGKARG_GETRESOURCEFORBAR
-author: windows-driver-content
 description: Arguments used to get the host partition base address of a single Virtual Function base address register (BAR).
 tech.root: display
 ms.assetid: e1eb7f17-4895-4920-b51a-db3b8cdb374a
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_GETRESOURCEFORBAR structure"]
 ms.prod: windows-hardware

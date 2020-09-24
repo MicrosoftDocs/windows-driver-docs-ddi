@@ -52,7 +52,7 @@ api_name:
 
 The <b>STORAGE_DEVICE_DESCRIPTOR</b> structure 
    is used in conjunction with the 
-   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to 
+   <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to 
    retrieve the storage device descriptor data for a device.
 
 ## -struct-fields
@@ -113,7 +113,7 @@ Specifies the byte offset from the beginning of the structure to a <b>NULL</b>-t
 ### -field BusType
 
 Specifies an enumerator value of type 
-      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)">STORAGE_BUS_TYPE</a> that indicates the type of bus to 
+      <a href="/previous-versions/windows/hardware/drivers/ff566356(v=vs.85)">STORAGE_BUS_TYPE</a> that indicates the type of bus to 
       which the device is connected. This should be used to interpret the raw device properties at the end of this 
       structure (if any).
 
@@ -129,36 +129,35 @@ Contains an array of length one that serves as a place holder for the first byte
 ## -remarks
 
 Applications and storage class drivers issue a device-control request with the I/O control code 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve 
+     <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve 
      this structure, which contains information about a target device. The structure can be retrieved only from an 
      FDO; attempting to retrieve device properties from an adapter causes an error.
 
 An application or driver can determine the required buffer size by casting the retrieved 
      <b>STORAGE_DEVICE_DESCRIPTOR</b> structure to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>, which contains 
+     <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>, which contains 
      only <b>Version</b> and <b>Size</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>

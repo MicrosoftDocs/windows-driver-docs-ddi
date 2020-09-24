@@ -68,7 +68,7 @@ identifier of the SR_IOV device implementing the interface.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 ## -prototype
 
@@ -93,13 +93,9 @@ The PF driver registers its implementation by setting the <b>QueryLuid</b> membe
 
 Here is an example implementation of this callback function. The PF driver generates a unique identifier by calling <a href="..\ntddk\nf-ntddk-zwallocatelocallyuniqueid.md">ZwAllocateLocallyUniqueId</a>  and stores it in the device context.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 NTSTATUS
 Virtualization_QueryLuid (
     _In_        PVOID             Context,
@@ -116,8 +112,5 @@ Virtualization_QueryLuid (
     return STATUS_SUCCESS;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

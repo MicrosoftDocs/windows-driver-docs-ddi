@@ -74,5 +74,4 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcopyunicodestring">RtlCopyUnicodeString</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcopyunicodestring">RtlCopyUnicodeString</a>

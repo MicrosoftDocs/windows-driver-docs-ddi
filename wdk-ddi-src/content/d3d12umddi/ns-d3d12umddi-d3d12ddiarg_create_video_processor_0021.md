@@ -62,7 +62,7 @@ A node mask. For single GPU operation, set this value to zero (0). If there are 
 
 ### -field Usage
 
-Specifies a hint for the intended usage for the video processor. For more information, see the <a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a> enumeration.
+Specifies a hint for the intended usage for the video processor. For more information, see the <a href="/previous-versions/mt782355(v=vs.85)">D3D12DDI_VIDEO_USAGE</a> enumeration.
 
 
 ## -remarks
@@ -79,8 +79,7 @@ A video processor holds state for a video processing session. State includes req
 
 
 
-<a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a>
+<a href="/previous-versions/mt782355(v=vs.85)">D3D12DDI_VIDEO_USAGE</a>
  
 
  
-

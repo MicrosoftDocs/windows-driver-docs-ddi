@@ -1,11 +1,9 @@
 ---
 UID: NF:ntddk.WheaReportHwError
 title: WheaReportHwError function
-author: windows-driver-content
 description: Drivers should not call this wrapper function.
 tech.root: 
 ms.assetid: c550f3ec-d88d-4c31-8bb6-06b133630881
-ms.author: windowsdriverdev
 ms.date: 03/06/2019
 keywords: ["WheaReportHwError function"]
 ms.keywords: WheaReportHwError
@@ -49,8 +47,6 @@ product:
 ## -description
 
 Drivers should not call this wrapper function.
-
-After the driver's [*_WHEA_ERROR_SOURCE_READY_DEVICE_DRIVER*](nc-ntddk-_whea_error_source_ready_device_driver.md) callback function is called, the driver can report errors by calling [**WheaReportHwErrorDeviceDriver**](nf-ntddk-wheareporthwerrordevicedriver.md).
 
 ## -parameters
 

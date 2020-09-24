@@ -54,7 +54,7 @@ The D3DKMT_PRESENT structure describes the present operation.
 
 ### -field hDevice
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device to present to. A device handle is supplied to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a> function in the union that D3DKMT_PRESENT contains for compatibility with Microsoft Direct3D version 10.
 
 ### -field hContext
 
@@ -84,13 +84,13 @@ If the handle in the <b>hDestination</b> member is nonzero, the <b>hDestination<
 
 ### -field Color
 
-[in] The ARGB 32-bit (see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration) color-fill or color-key value . A value for color fill is set when the <b>ColorFill</b> bit-field flag is set in the <b>Flags</b> member. A value for color key is set when either the <b>SrcColorKey</b> or <b>DstColorKey</b> bit-field flag is set in the <b>Flags</b> member. Note that only one of the <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags is set at any time. 
+[in] The ARGB 32-bit (see the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration) color-fill or color-key value . A value for color fill is set when the <b>ColorFill</b> bit-field flag is set in the <b>Flags</b> member. A value for color key is set when either the <b>SrcColorKey</b> or <b>DstColorKey</b> bit-field flag is set in the <b>Flags</b> member. Note that only one of the <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags is set at any time. 
 
 If the primary format is palettized RGB, <b>Color</b> contains the palette index rather than the D3DDDIFMT_A8R8G8B8 value from D3DDDIFORMAT.
 
 ### -field DstRect
 
-[in] The optional destination <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> for the bitblt. The destination RECT is used only if the <b>DstRectValid</b> bit-field flag is set in the <b>Flags</b> member.
+[in] The optional destination <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> for the bitblt. The destination RECT is used only if the <b>DstRectValid</b> bit-field flag is set in the <b>Flags</b> member.
 
 ### -field SrcRect
 
@@ -110,11 +110,11 @@ If the primary format is palettized RGB, <b>Color</b> contains the palette index
 
 ### -field FlipInterval
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
+[in] A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
 
 ### -field Flags
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presentflags">D3DKMT_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display. Note that the <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags are mutually exclusive.
+[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presentflags">D3DKMT_PRESENTFLAGS</a> structure that identifies, in bit-field flags, how to display. Note that the <b>ColorFill</b>, <b>SrcColorKey</b>, and <b>DstColorKey</b> bit-field flags are mutually exclusive.
 
 ### -field BroadcastContextCount
 
@@ -124,7 +124,7 @@ If the primary format is palettized RGB, <b>Color</b> contains the palette index
 
 [in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the additional contexts to broadcast the current present operation to. The D3DDDI_MAX_BROADCAST_CONTEXT constant, which is defined as 64, defines the maximum number of contexts that the OpenGL ICD can broadcast the current present operation to.
 
-Broadcasting is supported only for flip operations. To broadcast a flip operation, the display miniport driver must support memory mapped I/O (MMIO)-based flips. To indicate support of MMIO flips, the display miniport driver sets the <b>FlipOnVSyncMmIo</b> bit-field flag in the <b>FlipCaps</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a> structure when its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called.
+Broadcasting is supported only for flip operations. To broadcast a flip operation, the display miniport driver must support memory mapped I/O (MMIO)-based flips. To indicate support of MMIO flips, the display miniport driver sets the <b>FlipOnVSyncMmIo</b> bit-field flag in the <b>FlipCaps</b> member of the <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a> structure when its <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function is called.
 
 The original context that the <b>hContext</b> member specifies and that the OpenGL ICD presents to is not an element in the <b>BroadcastContext</b> array. For example, if the <b>BroadcastContext</b> array contains one element, the OpenGL ICD sends the present operation to the owning context (<b>hContext</b>) and broadcasts to that one additional context.
 
@@ -136,13 +136,13 @@ Supported starting with Windows 7.
 
 ### -field PresentHistoryToken
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a> structure that identifies the type of present operation.
+[in] A <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a> structure that identifies the type of present operation.
 
 Supported starting with Windows 7.
 
 ### -field pPresentRegions
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a> structure that identifies dirty and move regions.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a> structure that identifies dirty and move regions.
 
 Supported starting with Windows 8.
 
@@ -185,25 +185,24 @@ Indicates whether the device is optimized for composition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtpresent">D3DKMTPresent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presentflags">D3DKMT_PRESENTFLAGS</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presentflags">D3DKMT_PRESENTFLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>

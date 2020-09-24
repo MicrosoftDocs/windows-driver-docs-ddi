@@ -54,16 +54,16 @@ The client driver's implementation that UCX calls when the port to which the dev
 ### -param UcxController 
 
 [in]
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
+ A handle to the UCX controller that the client driver received in a previous call to  the <a href="/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 ### -param Request 
 
 [in]
-Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_reset">USBDEVICE_RESET</a> structure.
+Contains the <a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_reset">USBDEVICE_RESET</a> structure.
 
 ## -remarks
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
 
 To
     transition the device to the desired state, the host controller driver communicates with the hardware to complete the request.
@@ -73,13 +73,9 @@ The client driver returns completion status in <i>Request</i>.  The driver can c
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 UsbDevice_EvtUcxUsbDeviceReset(
     UCXCONTROLLER      UcxController,
     WDFREQUEST         Request
@@ -96,16 +92,14 @@ UsbDevice_EvtUcxUsbDeviceReset(
     ...
 
     WdfRequestComplete(Request, STATUS_SUCCESS);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_reset">USBDEVICE_RESET</a>
+<a href="/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_reset">USBDEVICE_RESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>
-
+<a href="/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>

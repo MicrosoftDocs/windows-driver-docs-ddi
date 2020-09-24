@@ -64,7 +64,7 @@ The number of device event callback functions provided by this structure.
 
 ### -field EvtControllerQueryUsbCapability
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_query_usb_capability">EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY</a> callback function.
+A pointer to an <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_query_usb_capability">EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY</a> callback function.
 
 ### -field Reserved1
 
@@ -72,15 +72,15 @@ Do not use.
 
 ### -field EvtControllerGetCurrentFrameNumber
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_current_framenumber">EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER</a> call back function.
+A pointer to an <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_current_framenumber">EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER</a> call back function.
 
 ### -field EvtControllerUsbDeviceAdd
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_usbdevice_add">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a> callback function.
+A pointer to an <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_usbdevice_add">EVT_UCX_CONTROLLER_USBDEVICE_ADD</a> callback function.
 
 ### -field EvtControllerReset
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_reset">EVT_UCX_CONTROLLER_RESET</a> callback function.
+A pointer to an <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_reset">EVT_UCX_CONTROLLER_RESET</a> callback function.
 
 ### -field Reserved2
 
@@ -124,11 +124,11 @@ String containing the model number of the controller hardware.
 
 ### -field EvtControllerGetTransportCharacteristics
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a> callback function.
+A pointer to an <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a> callback function.
 
 ### -field EvtControllerSetTransportCharacteristicsChangeNotification
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_set_transport_characteristics_change_notification">EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION</a> callback function.
+A pointer to an <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_set_transport_characteristics_change_notification">EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION</a> callback function.
 
 ### -field Reserved5
 
@@ -141,4 +141,3 @@ Do not use.
 ### -field Reserved7
 
 Do not use.
-

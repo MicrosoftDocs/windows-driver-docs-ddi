@@ -68,7 +68,7 @@ A pointer to the section object for the file on which the flush failed.
 ### -param FlushError 
 
 [in]
-The error returned by the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>.
+The error returned by the call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccflushcache">CcFlushCache</a>.
 
 ### -param Flags 
 
@@ -108,23 +108,22 @@ The <b>FsRtlLogCcFlushError</b> routine returns STATUS_SUCCESS on success or ano
 
 ## -remarks
 
-Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioraiseinformationalharderror">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a> logs the error. 
+Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioraiseinformationalharderror">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a> logs the error. 
 
 If the entire <i>FileName</i> cannot fit within the log buffer, the routine inserts an ellipsis into the file name.
 
 If the cache still has pages that have been modified, the error is not fatal. The routine returns to the caller without logging an error or displaying the dialog box. 
 
-If the error is fatal, the routine increments the lost delayed write counter in the processor control block (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PRCB</a>). This counter can be used in troubleshooting lost delayed write errors.
+If the error is fatal, the routine increments the lost delayed write counter in the processor control block (<a href="/windows-hardware/drivers/">PRCB</a>). This counter can be used in troubleshooting lost delayed write errors.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccflushcache">CcFlushCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioraiseinformationalharderror">IoRaiseInformationalHardError</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioraiseinformationalharderror">IoRaiseInformationalHardError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a>

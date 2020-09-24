@@ -74,17 +74,16 @@ If caller sets <i>AllocateDestinationString</i> to <b>TRUE</b>, <b>RtlDowncaseUn
 
 <b>RtlDowncaseUnicodeString</b> does not modify the source string.
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupcaseunicodestring">RtlUpcaseUnicodeString</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupcaseunicodestring">RtlUpcaseUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The CDROM_PERFORMANCE_HEADER structure is used by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>  IOCTL to  return data.  When the request type is  CdromPerformanceRequest, the IOCTL returns this header followed by optional descriptors.
+The CDROM_PERFORMANCE_HEADER structure is used by the  <a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>  IOCTL to  return data.  When the request type is  CdromPerformanceRequest, the IOCTL returns this header followed by optional descriptors.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ The size of the available data (not just the size of returned data). The size do
 
 ### -field Except
 
-The format of the descriptors that follow the header depend on the value in this field. If false (0), the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_nominal_performance_descriptor">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a> follows the <b>CDROM_PERFORMANCE_HEADER</b> in the returned data. If true (1),  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exception_performance_descriptor">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a> follows the <b>CDROM_PERFORMANCE_HEADER</b> in the returned data.
+The format of the descriptors that follow the header depend on the value in this field. If false (0), the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_nominal_performance_descriptor">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a> follows the <b>CDROM_PERFORMANCE_HEADER</b> in the returned data. If true (1),  the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exception_performance_descriptor">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a> follows the <b>CDROM_PERFORMANCE_HEADER</b> in the returned data.
 
 ### -field Write
 
@@ -76,23 +76,22 @@ Reserved.
 
 ### -field Data
 
-Contains a list of the following records, depending upon the type of request: <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_nominal_performance_descriptor">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a>,   
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exception_performance_descriptor">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a>,   
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_write_speed_descriptor">CDROM_WRITE_SPEED_DESCRIPTOR</a>.
+Contains a list of the following records, depending upon the type of request: <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_nominal_performance_descriptor">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a>,   
+    <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exception_performance_descriptor">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a>,   
+    <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_write_speed_descriptor">CDROM_WRITE_SPEED_DESCRIPTOR</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exception_performance_descriptor">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exception_performance_descriptor">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_nominal_performance_descriptor">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_nominal_performance_descriptor">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_write_speed_descriptor">CDROM_WRITE_SPEED_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_write_speed_descriptor">CDROM_WRITE_SPEED_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>

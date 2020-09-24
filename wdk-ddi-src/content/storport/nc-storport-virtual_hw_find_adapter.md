@@ -72,7 +72,7 @@ A pointer to a null-terminated ASCII string. This string, if supplied, contains 
 
 ### -param ConfigInfo
 
-A pointer to a [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information) structure. The port driver initializes this structure with any known configuration information, such as values that the miniport driver's [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) set in the [VIRTUAL_HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data). **VirtualHwStorFindAdapter**  must use any supplied information to determine if the virtual HBA it describes is one that the miniport driver supports. If so, **VirtualHwStorFindAdapter** initializes and configures that HBA and fills in any missing configuration information. If possible, a miniport driver should have default configuration values for each type of HBA that it supports, in the event that the operating system-dependent port driver cannot supply additional configuration information that was not provided by the miniport driver's **DriverEntry** routine.
+A pointer to a [PORT_CONFIGURATION_INFORMATION](./ns-storport-_port_configuration_information.md) structure. The port driver initializes this structure with any known configuration information, such as values that the miniport driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) set in the [VIRTUAL_HW_INITIALIZATION_DATA](./ns-storport-_virtual_hw_initialization_data.md). **VirtualHwStorFindAdapter**  must use any supplied information to determine if the virtual HBA it describes is one that the miniport driver supports. If so, **VirtualHwStorFindAdapter** initializes and configures that HBA and fills in any missing configuration information. If possible, a miniport driver should have default configuration values for each type of HBA that it supports, in the event that the operating system-dependent port driver cannot supply additional configuration information that was not provided by the miniport driver's **DriverEntry** routine.
 
 ### -param Again
 
@@ -94,7 +94,7 @@ Not used.
 </dl>
 </td>
 <td width="60%">
-Indicates that a supported HBA was found and that the HBA-relevant configuration information was determined successfully and set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure.
+Indicates that a supported HBA was found and that the HBA-relevant configuration information was determined successfully and set in the <a href="/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Indicates that a supported HBA was found and that the HBA-relevant configuration
 </dl>
 </td>
 <td width="60%">
-Indicates that an HBA was found, but an error occurred when it obtained the configuration information. If possible, such an error should be logged with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>.
+Indicates that an HBA was found, but an error occurred when it obtained the configuration information. If possible, such an error should be logged with <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>.
 
 </td>
 </tr>
@@ -141,13 +141,9 @@ The port driver calls the Storport virtual miniport's <b>VirtualHwStorFindAdapte
 
 The name <b>VirtualHwStorFindAdapter</b> is placeholder text for the actual routine name. The actual prototype of this routine is defined in Srb.h as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef
+
+```
+typedef
 ULONG
 VIRTUAL_HW_FIND_ADAPTER (
   _In_ PVOID  DeviceExtension,
@@ -157,36 +153,26 @@ VIRTUAL_HW_FIND_ADAPTER (
   _In_ PCHAR  ArgumentString,
   _Inout_ PPORT_CONFIGURATION_INFORMATION  ConfigInfo,
   _Out_ PBOOLEAN Again
-  );</pre>
-</td>
-</tr>
-</table></span></div>
+  );
+```
+
 
 #### Examples
 
-To define an <b>VirtualHwStorFindAdapter</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+To define an <b>VirtualHwStorFindAdapter</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
  For example, to define a <b>VirtualHwStorFindAdapter</b> callback routine that is named <i>MyVirtualHwFindAdapter</i>, use the <b>VIRTUAL_HW_FIND_ADAPTER</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VIRTUAL_HW_FIND_ADAPTER MyVirtualHwFindAdapter;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+VIRTUAL_HW_FIND_ADAPTER MyVirtualHwFindAdapter;
+```
+
 Then, implement your callback routine as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 ULONG
 MyVirtualHwFindAdapter (
   _In_ PVOID  DeviceExtension,
@@ -199,25 +185,23 @@ MyVirtualHwFindAdapter (
   );
   {
       ...
-  }</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>VIRTUAL_HW_FIND_ADAPTER</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>VIRTUAL_HW_FIND_ADAPTER</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+  }
+```
+
+The <b>VIRTUAL_HW_FIND_ADAPTER</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>VIRTUAL_HW_FIND_ADAPTER</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-storport-drivers">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>
+<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a>

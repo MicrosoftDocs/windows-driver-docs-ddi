@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>CcUnpinDataForThread</b> routine releases pages of a cached file whose buffer control block (BCB) was modified by an earlier call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>.
+The <b>CcUnpinDataForThread</b> routine releases pages of a cached file whose buffer control block (BCB) was modified by an earlier call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetbcbownerpointer">CcSetBcbOwnerPointer</a>.
 
 ## -parameters
 
@@ -58,21 +58,20 @@ Pointer to the BCB for the pages to be released.
 ### -param ResourceThreadId 
 
 [in]
-Identifies the thread that originally acquired the BCB. Must match the owner pointer used in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>.
+Identifies the thread that originally acquired the BCB. Must match the owner pointer used in the call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetbcbownerpointer">CcSetBcbOwnerPointer</a>.
 
 ## -remarks
 
 <b>CcUnpinDataForThread</b> releases the BCB for the indicated thread and performs any other necessary cleanup.
 
-Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a> must be matched by a subsequent call to <b>CcUnpinDataForThread</b>.
+Each call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetbcbownerpointer">CcSetBcbOwnerPointer</a> must be matched by a subsequent call to <b>CcUnpinDataForThread</b>.
 
-<b>CcUnpinDataForThread</b> is functionally equivalent to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>, except that it also releases the BCB resource for the indicated thread.
+<b>CcUnpinDataForThread</b> is functionally equivalent to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a>, except that it also releases the BCB resource for the indicated thread.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccsetbcbownerpointer">CcSetBcbOwnerPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccunpindata">CcUnpinData</a>

@@ -55,13 +55,9 @@ The <b>RtlTimeFieldsToTime</b> routine converts <b>TIME_FIELDS</b> information t
 [in]
 Pointer to the following structure, containing the time information to be converted:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct TIME_FIELDS {
+
+```
+typedef struct TIME_FIELDS {
     CSHORT Year;
     CSHORT Month;
     CSHORT Day;
@@ -70,10 +66,9 @@ Pointer to the following structure, containing the time information to be conver
     CSHORT Second;
     CSHORT Milliseconds;
     CSHORT Weekday;
-} TIME_FIELDS;</pre>
-</td>
-</tr>
-</table></span></div>
+} TIME_FIELDS;
+```
+
 
 
 
@@ -141,17 +136,16 @@ Callers of <b>RtlTimeFieldsToTime</b> can be running at any IRQL if both input b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exlocaltimetosystemtime">ExLocalTimeToSystemTime</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exlocaltimetosystemtime">ExLocalTimeToSystemTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsystemtimetolocaltime">ExSystemTimeToLocalTime</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exsystemtimetolocaltime">ExSystemTimeToLocalTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtltimetotimefields">RtlTimeToTimeFields</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtltimetotimefields">RtlTimeToTimeFields</a>

@@ -67,7 +67,7 @@ Pointer to the first element of an array of PROPSPEC structures (defined in the 
 ### -param pwpi 
 
 [in]
-Pointer to the first element of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info">WIA_PROPERTY_INFO</a> structures that contain the property values to be written.
+Pointer to the first element of an array of <a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info">WIA_PROPERTY_INFO</a> structures that contain the property values to be written.
 
 ## -returns
 
@@ -115,7 +115,7 @@ VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_I1, VT_I2, VT_I4, ,VT_I8, VT_R4, VT_R8, VT_BS
 </table>
  
 
-Minidrivers should initialize complex properties using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropertyattributes">wiasSetPropertyAttributes</a> function.
+Minidrivers should initialize complex properties using the <a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropertyattributes">wiasSetPropertyAttributes</a> function.
 
 The minidriver can set the WIA_PROP_CACHEABLE flag on a property that does not change over time. By setting this flag on a property, the minidriver indicates that the WIA service can cache the property value. See the Windows SDK documentation for a list of all property attributes.
 
@@ -129,13 +129,12 @@ Reboot the system and repeat the steps necessary to produce this error. There wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info">WIA_PROPERTY_INFO</a>
+<a href="/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wia_property_info">WIA_PROPERTY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropnames">wiasSetItemPropNames</a>
+<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropnames">wiasSetItemPropNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropertyattributes">wiasSetPropertyAttributes</a>
-
+<a href="/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropertyattributes">wiasSetPropertyAttributes</a>

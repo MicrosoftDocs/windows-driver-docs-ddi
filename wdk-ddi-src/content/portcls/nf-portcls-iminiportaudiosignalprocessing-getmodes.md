@@ -98,5 +98,4 @@ The following table presents and explains  the error messages than can be return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudiosignalprocessing">IMiniportAudioSignalProcessing</a>
-
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudiosignalprocessing">IMiniportAudioSignalProcessing</a>

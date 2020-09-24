@@ -71,11 +71,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 If the object's reference count becomes zero, the object might be deleted before **WdfDeviceResumeIdleWithTag** returns.
 
-Calling **WdfDeviceResumeIdleWithTag** instead of [**WdfDeviceResumeIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceresumeidle) provides additional information (tag value, line number, and file name) that you can view in Microsoft debuggers. **WdfDeviceResumeIdleWithTag** uses the driver's current line number and file name.
+Calling **WdfDeviceResumeIdleWithTag** instead of [**WdfDeviceResumeIdle**](./nf-wdfdevice-wdfdeviceresumeidle.md) provides additional information (tag value, line number, and file name) that you can view in Microsoft debuggers. **WdfDeviceResumeIdleWithTag** uses the driver's current line number and file name.
 
-You can view the tag, line number, and file name values by using the [**!wdfkd.wdftagtracker**](https://docs.microsoft.com/windows-hardware/drivers/debugger/-wdfkd-wdftagtracker) debugger extension.
+You can view the tag, line number, and file name values by using the [**!wdfkd.wdftagtracker**](/windows-hardware/drivers/debugger/-wdfkd-wdftagtracker) debugger extension.
 
-Use [**!wdfkd.wdfdevice**](https://docs.microsoft.com/windows-hardware/drivers/debugger/-wdfkd-wdfdevice) with verbose flags on and locate the link to [**!wdftagtracker**](https://docs.microsoft.com/windows-hardware/drivers/debugger/-wdfkd-wdftagtracker) in the output:
+Use [**!wdfkd.wdfdevice**](/windows-hardware/drivers/debugger/-wdfkd-wdfdevice) with verbose flags on and locate the link to [**!wdftagtracker**](/windows-hardware/drivers/debugger/-wdfkd-wdftagtracker) in the output:
 
 ```cpp
 kd> !wdfdevice <handle> f 
@@ -83,11 +83,10 @@ kd> !wdfdevice <handle> f
 
 ## -see-also
 
-[Debugging Power Reference Leaks in WDF](https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-power-reference-leaks-in-wdf)
+[Debugging Power Reference Leaks in WDF](/windows-hardware/drivers/wdf/debugging-power-reference-leaks-in-wdf)
 
-[**WdfDeviceResumeIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceresumeidle)
+[**WdfDeviceResumeIdle**](./nf-wdfdevice-wdfdeviceresumeidle.md)
 
-[**WdfDeviceStopIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicestopidle)
+[**WdfDeviceStopIdle**](./nf-wdfdevice-wdfdevicestopidle.md)
 
-[**WdfDeviceStopIdleWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicestopidlewithtag)
-
+[**WdfDeviceStopIdleWithTag**](./nf-wdfdevice-wdfdevicestopidlewithtag.md)

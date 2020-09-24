@@ -69,5 +69,4 @@ The total number of supported registration actions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_set_register_state">WWAN_SET_REGISTER_STATE</a>

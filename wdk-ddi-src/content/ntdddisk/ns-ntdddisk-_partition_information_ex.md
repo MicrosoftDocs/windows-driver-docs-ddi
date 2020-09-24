@@ -56,7 +56,7 @@ PARTITION_INFORMATION_EX is the extended version of the [PARTITION_INFORMATION](
 
 ### -field PartitionStyle
 
-Takes a [PARTITION_STYLE](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)) enumerated value that specifies the type of partition table that contains the partition.
+Takes a [PARTITION_STYLE](/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)) enumerated value that specifies the type of partition table that contains the partition.
 
 ### -field StartingOffset
 
@@ -86,15 +86,14 @@ Contains a structure of type [PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_
 
 ## -remarks
 
-This is the extended version of the partition information structure, PARTITION_INFORMATION. [IoReadPartitionTableEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontableex) and [IoWritePartitionTableEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iowritepartitiontableex) operate on an array of PARTITON_INFORMATION_EX structures contained within the extended drive layout structure, [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk-_drive_layout_information_ex.md). **PARTITION_INFORMATION_EX** replaces the structure **PARTITION_INFORMATION** that was used with [IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable) and [IoWritePartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iowritepartitiontable). The principle difference is that the new structures and routines support both Master Boot Record (MBR) partitions and GUID Partition Table (GPT) partitions, whereas the older routines and structures are only used with MBR partitions.
+This is the extended version of the partition information structure, PARTITION_INFORMATION. [IoReadPartitionTableEx](../ntddk/nf-ntddk-ioreadpartitiontableex.md) and [IoWritePartitionTableEx](../ntddk/nf-ntddk-iowritepartitiontableex.md) operate on an array of PARTITON_INFORMATION_EX structures contained within the extended drive layout structure, [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk-_drive_layout_information_ex.md). **PARTITION_INFORMATION_EX** replaces the structure **PARTITION_INFORMATION** that was used with [IoReadPartitionTable](../ntddk/nf-ntddk-ioreadpartitiontable.md) and [IoWritePartitionTable](../ntddk/nf-ntddk-iowritepartitiontable.md). The principle difference is that the new structures and routines support both Master Boot Record (MBR) partitions and GUID Partition Table (GPT) partitions, whereas the older routines and structures are only used with MBR partitions.
 
 ## -see-also
 
-[IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable)
+[IoReadPartitionTable](../ntddk/nf-ntddk-ioreadpartitiontable.md)
 
-[IoWritePartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iowritepartitiontable)
+[IoWritePartitionTable](../ntddk/nf-ntddk-iowritepartitiontable.md)
 
 [PARTITION_INFORMATION_GPT](ns-ntdddisk-_partition_information_gpt.md)
 
 [PARTITION_INFORMATION_MBR](ns-ntdddisk-_partition_information_mbr.md)
-

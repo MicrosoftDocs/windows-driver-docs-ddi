@@ -94,7 +94,7 @@ Possible values are as follows:
 
 ### -field BootIndicator
 
-Indicates, when **TRUE**, that this partition is a bootable (active) partition for this device. When **FALSE**, this partition is not bootable. This member is set according to the partition list entry boot indicator returned by [IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable).
+Indicates, when **TRUE**, that this partition is a bootable (active) partition for this device. When **FALSE**, this partition is not bootable. This member is set according to the partition list entry boot indicator returned by [IoReadPartitionTable](../ntddk/nf-ntddk-ioreadpartitiontable.md).
 
 ### -field RecognizedPartition
 
@@ -106,9 +106,9 @@ Indicates, when **TRUE**, that the partition information has changed. When **FAL
 
 ## -remarks
 
-The partition entry data in PARTITION_INFORMATION forms part of the drive layout information reported by the legacy routine [IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable) in the [DRIVE_LAYOUT_INFORMATION](ns-ntdddisk-_drive_layout_information.md) structure. DRIVE_LAYOUT_INFORMATION contains an array of PARTITION_INFORMATION structures pointed to by its **PartitionEntry** member. Each partition entry contains information for a partition on the drive. PARTITION_INFORMATION is also used with the legacy routine [IoSetPartitionInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetpartitioninformation) to change the properties of the partition, such as its type, recorded on the disk.
+The partition entry data in PARTITION_INFORMATION forms part of the drive layout information reported by the legacy routine [IoReadPartitionTable](../ntddk/nf-ntddk-ioreadpartitiontable.md) in the [DRIVE_LAYOUT_INFORMATION](ns-ntdddisk-_drive_layout_information.md) structure. DRIVE_LAYOUT_INFORMATION contains an array of PARTITION_INFORMATION structures pointed to by its **PartitionEntry** member. Each partition entry contains information for a partition on the drive. PARTITION_INFORMATION is also used with the legacy routine [IoSetPartitionInformation](../ntddk/nf-ntddk-iosetpartitioninformation.md) to change the properties of the partition, such as its type, recorded on the disk.
 
-Disk drivers should now use structures [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk-_drive_layout_information_ex.md) and [PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md) along with routines [IoReadPartitionTableEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontableex) and [IoSetPartitionInformationEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetpartitioninformationex) to read and alter partition information on the disk.
+Disk drivers should now use structures [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk-_drive_layout_information_ex.md) and [PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md) along with routines [IoReadPartitionTableEx](../ntddk/nf-ntddk-ioreadpartitiontableex.md) and [IoSetPartitionInformationEx](../ntddk/nf-ntddk-iosetpartitioninformationex.md) to read and alter partition information on the disk.
 
 ## -see-also
 
@@ -116,13 +116,12 @@ Disk drivers should now use structures [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk
 
 [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk-_drive_layout_information_ex.md)
 
-[IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable)
+[IoReadPartitionTable](../ntddk/nf-ntddk-ioreadpartitiontable.md)
 
-[IoReadPartitionTableEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontableex)
+[IoReadPartitionTableEx](../ntddk/nf-ntddk-ioreadpartitiontableex.md)
 
-[IoSetPartitionInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontableex)
+[IoSetPartitionInformation](../ntddk/nf-ntddk-ioreadpartitiontableex.md)
 
-[IoSetPartitionInformationEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetpartitioninformationex)
+[IoSetPartitionInformationEx](../ntddk/nf-ntddk-iosetpartitioninformationex.md)
 
 [PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md)
-

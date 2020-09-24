@@ -58,7 +58,7 @@ A handle to the device context for the DMA buffer that contains the unformatted 
 
 ### -param pFormatData
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a> structure that contains data about how to format the history buffer.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a> structure that contains data about how to format the history buffer.
 
 ## -returns
 
@@ -66,5 +66,4 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_formathistorybuffer">DXGKARG_FORMATHISTORYBUFFER</a>

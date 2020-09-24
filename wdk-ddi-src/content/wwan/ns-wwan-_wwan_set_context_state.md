@@ -220,17 +220,16 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_context_state">NDIS_WWAN_SET_CONTEXT_STATE</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_context_state">NDIS_WWAN_SET_CONTEXT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_activation_command">WWAN_ACTIVATION_COMMAND</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_activation_command">WWAN_ACTIVATION_COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_auth_protocol">WWAN_AUTH_PROTOCOL</a>
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_auth_protocol">WWAN_AUTH_PROTOCOL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_compression">WWAN_COMPRESSION</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_compression">WWAN_COMPRESSION</a>

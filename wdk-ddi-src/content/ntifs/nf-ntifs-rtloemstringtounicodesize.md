@@ -58,17 +58,16 @@ The <b>RtlOemStringToUnicodeSize</b> routine determines the size, in bytes, that
 
 <b>RtlOemStringToUnicodeSize</b> can be called to determine how much memory to allocate when translating an OEM string to Unicode with <b>RtlOemStringToUnicodeString</b>. The returned value includes space for the NULL terminator. 
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff558741(v=vs.85)">OEM_STRING</a>
+<a href="/previous-versions/windows/hardware/drivers/ff558741(v=vs.85)">OEM_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemstringtocountedunicodesize">RtlOemStringToCountedUnicodeSize</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemstringtocountedunicodesize">RtlOemStringToCountedUnicodeSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemstringtounicodestring">RtlOemStringToUnicodeString</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemstringtounicodestring">RtlOemStringToUnicodeString</a>

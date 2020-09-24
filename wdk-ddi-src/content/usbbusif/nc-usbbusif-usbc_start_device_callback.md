@@ -63,7 +63,7 @@ The configuration of the device.
 ### -param FunctionDescriptorBuffer 
 
 [out]
-Pointer to a buffer that contains an array of function descriptors (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_function_descriptor">USBC_FUNCTION_DESCRIPTOR</a>).
+Pointer to a buffer that contains an array of function descriptors (<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_function_descriptor">USBC_FUNCTION_DESCRIPTOR</a>).
 
 ### -param FunctionDescriptorBufferLength 
 
@@ -86,9 +86,8 @@ If the operation succeeds, the vendor-supplied callback routine must return STAT
 
 ## -remarks
 
-For a general description of the callback routine mechanism, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Customizing Enumeration of Interface Collections for Composite Devices</a>.
+For a general description of the callback routine mechanism, see <a href="/windows-hardware/drivers/ddi/index">Customizing Enumeration of Interface Collections for Composite Devices</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_device_configuration_interface_v1">USBC_DEVICE_CONFIGURATION_INTERFACE_V1</a>
-
+<a href="/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_device_configuration_interface_v1">USBC_DEVICE_CONFIGURATION_INTERFACE_V1</a>

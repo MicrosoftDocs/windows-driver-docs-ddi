@@ -1,11 +1,9 @@
 ---
 UID: NS:netpoweroffload._NET_POWER_OFFLOAD_ARP_PARAMETERS
 title: NET_POWER_OFFLOAD_ARP_PARAMETERS (netpoweroffload.h)
-author: windows-driver-content
 description: The NET_POWER_OFFLOAD_ARP_PARAMETERS structure contains IPv4 ARP low-power protocol offload parameters for a net adapter.
 tech.root: netvista
 ms.assetid: bec3ab2b-5884-4c7d-895a-76b8a44126bf
-ms.author: windowsdriverdev
 ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_ARP_PARAMETERS structure"]
 ms.keywords: NET_POWER_OFFLOAD_ARP_PARAMETERS, NET_POWER_OFFLOAD_ARP_PARAMETERS,
@@ -83,9 +81,8 @@ For more information about the ARP protocol, see [RFC 826](https://tools.ietf.or
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_arp_parameters_init.md)
 
 [**NetPowerOffloadGetArpParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetarpparameters.md)
-

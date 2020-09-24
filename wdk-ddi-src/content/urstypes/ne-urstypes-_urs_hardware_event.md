@@ -80,5 +80,4 @@ The Type-C connector has resolved to UFP. Not to be used directly by the URS cli
 
 ## -remarks
 
-Values defined for USB Type-C systems should not be directly used by the client driver. Instead the driver should report that it does not support hardware event reporting by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-urssethardwareeventsupport">UrsSetHardwareEventSupport</a>. These hardware events are detected by a USB Type-C connector driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmmanager/">USB Type-C connector driver programming reference</a>.
-
+Values defined for USB Type-C systems should not be directly used by the client driver. Instead the driver should report that it does not support hardware event reporting by calling <a href="/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-urssethardwareeventsupport">UrsSetHardwareEventSupport</a>. These hardware events are detected by a USB Type-C connector driver, see <a href="/windows-hardware/drivers/ddi/ucmmanager/">USB Type-C connector driver programming reference</a>.

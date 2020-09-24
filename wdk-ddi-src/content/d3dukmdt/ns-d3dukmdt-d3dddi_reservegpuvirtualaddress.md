@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-<b>D3DDDI_RESERVEGPUVIRTUALADDRESS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a> to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
+<b>D3DDDI_RESERVEGPUVIRTUALADDRESS</b> is used with <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a> to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
 
 ## -struct-fields
 
@@ -117,5 +117,4 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>

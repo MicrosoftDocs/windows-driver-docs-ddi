@@ -55,7 +55,7 @@ Configures a domain for use. All DMA blocked until the domain is configured.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -81,4 +81,3 @@ IOMMU_DOMAIN_CONFIGURE *PIOMMU_DOMAIN_CONFIGURE
 ## -remarks
 
 ## -see-also
-

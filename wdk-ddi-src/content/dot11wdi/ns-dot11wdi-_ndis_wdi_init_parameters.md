@@ -57,7 +57,7 @@ The NDIS_WDI_INIT_PARAMETERS structure specifies the WDI functions provided by t
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_WDI_INIT_PARAMETERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_WDI_INIT_PARAMETERS.
@@ -89,17 +89,16 @@ WDI version 1.0
 
 ### -field OpenAdapterCompleteHandler
 
-The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_open_adapter_complete">NdisWdiOpenAdapterComplete</a> callback function.
+The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_open_adapter_complete">NdisWdiOpenAdapterComplete</a> callback function.
 
 ### -field CloseAdapterCompleteHandler
 
-The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_close_adapter_complete">NdisWdiCloseAdapterComplete</a> callback function.
+The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_close_adapter_complete">NdisWdiCloseAdapterComplete</a> callback function.
 
 ### -field UeIdleNotificationConfirm
 
-The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_idle_notification_confirm">NdisWdiIdleNotificationConfirm</a> callback function.
+The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_idle_notification_confirm">NdisWdiIdleNotificationConfirm</a> callback function.
 
 ### -field UeIdleNotificationComplete
 
-The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_idle_notification_complete">NdisWdiIdleNotificationComplete</a> callback function.
-
+The entry point of the <a href="/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_idle_notification_complete">NdisWdiIdleNotificationComplete</a> callback function.

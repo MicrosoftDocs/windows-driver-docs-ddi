@@ -61,13 +61,12 @@ Pointer to a file object for the file.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546873">FsRtlIsPagingFile</a>
+<a href="/previous-versions/ff546873(v=vs.85)">FsRtlIsPagingFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow">FsRtlPostPagingFileStackOverflow</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow">FsRtlPostPagingFileStackOverflow</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff547285(v=vs.85)">FsRtlSupportsPerStreamContexts</a>
-
+<a href="/previous-versions/ff547285(v=vs.85)">FsRtlSupportsPerStreamContexts</a>

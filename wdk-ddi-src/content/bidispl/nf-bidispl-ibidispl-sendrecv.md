@@ -138,7 +138,7 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 </table>
  
 
-Note that the <b>HRESULT</b> may contain a system error code defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidi-error-codes">Bidi Error Codes</a>.
+Note that the <b>HRESULT</b> may contain a system error code defined in <a href="/windows-hardware/drivers/print/bidi-error-codes">Bidi Error Codes</a>.
 
 ## -remarks
 
@@ -146,13 +146,12 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
+<a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
-
+<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>

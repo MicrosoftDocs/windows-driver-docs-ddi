@@ -142,7 +142,7 @@ If set and the function returns STATUS_BUFFER_OVERFLOW, the contents of the dest
 
 ## -returns
 
-The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
+The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 <table>
 <tr>
@@ -210,7 +210,7 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 The size, in characters, of the destination buffer is provided to ensure that <b>RtlStringCchCatExW</b> and <b>RtlStringCchCatExA</b> do not write past the end of the buffer.
 
-<b>RtlStringCchCatExW</b> and <b>RtlStringCchCatExA</b> add to the functionality of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcata">RtlStringCchCat</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in the destination buffer. Flags can be passed to the function for additional control.
+<b>RtlStringCchCatExW</b> and <b>RtlStringCchCatExA</b> add to the functionality of <a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcata">RtlStringCchCat</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in the destination buffer. Flags can be passed to the function for additional control.
 
 Use <b>RtlStringCchCatExW</b> to handle Unicode strings and <b>RtlStringCchCatExA</b> to handle ANSI strings. The form you use depends on your data.
 
@@ -255,17 +255,16 @@ If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior o
 
 Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set, in which case either or both can be <b>NULL</b>. If <i>pszDest</i> is <b>NULL</b>, <i>pszSrc</i> must either be <b>NULL</b> or point to an empty string.
 
-For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
+For more information about the safe string functions, see <a href="/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatexa">RtlStringCbCatEx</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcbcatexa">RtlStringCbCatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcata">RtlStringCchCat</a>
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcata">RtlStringCchCat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcatnexa">RtlStringCchCatNEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlstringcchcatnexa">RtlStringCchCatNEx</a>

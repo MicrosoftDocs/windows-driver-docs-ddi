@@ -49,7 +49,7 @@ api_name:
 The <b>IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2</b> 
    IOCTL Gets descriptive information about the paired Handsfree profile (HFP) device.
 
-This IOCTL is available in Windows 8.1 and later operating systems, and it supersedes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>.
+This IOCTL is available in Windows 8.1 and later operating systems, and it supersedes <a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>.
 
 ## -ioctlparameters
 
@@ -63,7 +63,7 @@ None
 
 ### -output-buffer
 
-A buffer containing a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ns-bthhfpddi-_bthhfp_descriptor2">BTHHFP_DESCRIPTOR2</a> structure followed by any other data that is referenced by the structure. This is true,  if the output buffer size is sufficient and the request succeeds. In particular, the buffer includes storage for the string that is referenced by the <i>FriendlyName</i> field of the <b>BTHHFP_DESCRIPTOR2</b> structure.
+A buffer containing a <a href="/windows-hardware/drivers/ddi/bthhfpddi/ns-bthhfpddi-_bthhfp_descriptor2">BTHHFP_DESCRIPTOR2</a> structure followed by any other data that is referenced by the structure. This is true,  if the output buffer size is sufficient and the request succeeds. In particular, the buffer includes storage for the string that is referenced by the <i>FriendlyName</i> field of the <b>BTHHFP_DESCRIPTOR2</b> structure.
 
 ### -output-buffer-length
 
@@ -87,13 +87,12 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ns-bthhfpddi-_bthhfp_descriptor2">BTHHFP_DESCRIPTOR2</a>
+<a href="/windows-hardware/drivers/ddi/bthhfpddi/ns-bthhfpddi-_bthhfp_descriptor2">BTHHFP_DESCRIPTOR2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
+<a href="/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_descriptor">IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</a>

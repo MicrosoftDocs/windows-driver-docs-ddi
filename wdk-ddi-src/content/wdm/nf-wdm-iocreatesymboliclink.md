@@ -66,23 +66,22 @@ Pointer to a buffered Unicode string that is the name of the driver-created devi
 
 ## -remarks
 
-WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> to set up a symbolic link. 
+WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> to set up a symbolic link. 
 
-For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/named-device-objects">Named Device Objects</a>.
+For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="/windows-hardware/drivers/kernel/named-device-objects">Named Device Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioassignarcname">IoAssignArcName</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioassignarcname">IoAssignArcName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreateunprotectedsymboliclink">IoCreateUnprotectedSymbolicLink</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreateunprotectedsymboliclink">IoCreateUnprotectedSymbolicLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iodeletesymboliclink">IoDeleteSymbolicLink</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iodeletesymboliclink">IoDeleteSymbolicLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>

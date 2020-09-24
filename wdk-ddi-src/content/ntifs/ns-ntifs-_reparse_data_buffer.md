@@ -64,7 +64,7 @@ Size, in bytes, of the reparse data in the buffer that **DataBuffer** points to.
 
 ### -field Reserved
 
-Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object. For more information about the **FileName** member, see [FILE_OBJECT<](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object). This member is only valid for create operations when the I/O fails with STATUS_REPARSE. For all other purposes, such as setting or querying a reparse point for the reparse data, this member is treated as reserved.
+Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object. For more information about the **FileName** member, see [FILE_OBJECT<](../wdm/ns-wdm-_file_object.md). This member is only valid for create operations when the I/O fails with STATUS_REPARSE. For all other purposes, such as setting or querying a reparse point for the reparse data, this member is treated as reserved.
 
 ### -field DUMMYUNIONNAME
 
@@ -140,27 +140,27 @@ For more information about reparse point tags, see the Microsoft Windows SDK doc
 
 ## -see-also
 
-[FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object)
+[FILE_OBJECT](../wdm/ns-wdm-_file_object.md)
 
 [FILE_REPARSE_POINT_INFORMATION](ns-ntifs-_file_reparse_point_information.md)
 
-[FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-file-system-control)
+[FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-file-system-control)
 
-[FSCTL_DELETE_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
+[FSCTL_DELETE_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
 
-[FSCTL_GET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
+[FSCTL_GET_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
 
-[FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
+[FSCTL_SET_REPARSE_POINT](/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
 
-[FltFsControlFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile)
+[FltFsControlFile](../fltkernel/nf-fltkernel-fltfscontrolfile.md)
 
-[FltTagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfile)
+[FltTagFile](../fltkernel/nf-fltkernel-flttagfile.md)
 
-[FltTagFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-flttagfileex)
+[FltTagFileEx](../fltkernel/nf-fltkernel-flttagfileex.md)
 
-[FltUntagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltuntagfile)
+[FltUntagFile](../fltkernel/nf-fltkernel-fltuntagfile.md)
 
-[IRP_MJ_FILE_SYSTEM_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-file-system-control)
+[IRP_MJ_FILE_SYSTEM_CONTROL](/windows-hardware/drivers/kernel/irp-mj-file-system-control)
 
 [IsReparseTagMicrosoft](nf-ntifs-isreparsetagmicrosoft.md)
 
@@ -170,5 +170,4 @@ For more information about reparse point tags, see the Microsoft Windows SDK doc
 
 [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md)
 
-[ZwFsControlFile](https://msdn.microsoft.com/library/windows/hardware/ff566462)
-
+[ZwFsControlFile](/previous-versions/ff566462(v=vs.85))

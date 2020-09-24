@@ -53,7 +53,7 @@ The <i>PPARALLEL_QUERY_WAITERS_ROUTINE</i>-typed callback routine returns the nu
 ### -param QueryAllocsContext 
 
 [in]
-Pointer to the device extension of a functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>) that represents a parallel port.
+Pointer to the device extension of a functional device object (<a href="/windows-hardware/drivers/">FDO</a>) that represents a parallel port.
 
 ## -returns
 
@@ -73,7 +73,7 @@ To obtain a pointer to the system-supplied <i>PPARALLEL_QUERY_WAITERS_ROUTINE</i
 
 A driver can use the <i>PPARALLEL_QUERY_WAITERS_ROUTINE</i> callback to adjust its use of the parallel port based on the number of other clients that are waiting for access to the parallel port. The system-supplied function driver for parallel ports queues only allocate and select requests.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544809(v=vs.85)">Synchronizing the Use of a ParallelPort</a>.
+For more information, see <a href="/previous-versions/ff544809(v=vs.85)">Synchronizing the Use of a ParallelPort</a>.
 
 ## -see-also
 
@@ -94,4 +94,3 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
-

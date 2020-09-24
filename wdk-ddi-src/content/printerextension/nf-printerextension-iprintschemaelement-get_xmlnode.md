@@ -55,29 +55,28 @@ This property is read-only.
 
 ## -remarks
 
-When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obtain a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method, to access the underlying <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms760248(v=vs.85)">IXMLDOMElement</a> object.print.
+When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obtain a pointer to an interface of type <b>IUnknown</b>. Use this pointer to  call the <b>QueryInterface</b> method, to access the underlying <a href="/previous-versions/windows/desktop/ms760248(v=vs.85)">IXMLDOMElement</a> object.print.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-notifyxmlchanged">IPrintSchemaTicket::NotifyXmlChanged</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-notifyxmlchanged">IPrintSchemaTicket::NotifyXmlChanged</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket_GetCapabilities</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">IPrintSchemaTicket_GetCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms760248(v=vs.85)">IXMLDOMElement</a>
-
+<a href="/previous-versions/windows/desktop/ms760248(v=vs.85)">IXMLDOMElement</a>

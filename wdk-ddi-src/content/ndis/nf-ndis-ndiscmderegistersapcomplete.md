@@ -66,12 +66,12 @@ Specifies the handle identifying the SAP.
 
 <b>NdisCmDeregisterSapComplete</b> notifies both NDIS and the client that the call manager has completed
     the SAP-deregistration request for which its 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">
     ProtocolCmDeregisterSap</a> function previously returned NDIS_STATUS_PENDING.
 
 A call to 
     <b>NdisCmDeregisterSapComplete</b> causes NDIS to call the client's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
     ProtocolClDeregisterSapComplete</a> function.
 
 The call manager should consider the 
@@ -85,18 +85,17 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmderegistersapcomplete">NdisMCmDeregisterSapComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmderegistersapcomplete">NdisMCmDeregisterSapComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
    ProtocolClDeregisterSapComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">ProtocolCmDeregisterSap</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_deregister_sap">ProtocolCmDeregisterSap</a>

@@ -55,8 +55,8 @@ NDIS drivers call the
 ### -param NdisIoWorkItemHandle 
 
 [in]
-A handle to a private <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure that was returned by a previous call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">
+A handle to a private <a href="/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure that was returned by a previous call to the 
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">
      NdisAllocateIoWorkItem</a> function.
 
 ### -param Routine 
@@ -85,7 +85,7 @@ A pointer to the context area that the driver passed to the
 #### NdisIoWorkItemHandle
 
 A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a previous call to the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">
+       <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">
      NdisAllocateIoWorkItem</a> function.
 
 ### -param WorkItemContext 
@@ -98,7 +98,7 @@ A pointer to a caller-supplied context area that NDIS passes through to the call
 ## -remarks
 
 <b>NdisQueueIoWorkItem</b> calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> to queue a work item. NDIS
+    <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> to queue a work item. NDIS
     work items use the 
     <b>CriticalWorkQueue</b> queue type.
 
@@ -106,63 +106,52 @@ The caller-supplied callback routine (NDIS_IO_WORKITEM_ROUTINE) runs in a system
     IRQL = PASSIVE_LEVEL.
 
 This caller-supplied routine can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreeioworkitem">NdisFreeIoWorkItem</a> function to reclaim
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreeioworkitem">NdisFreeIoWorkItem</a> function to reclaim
     the storage allocated for the work item.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>Routine</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>Routine</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>Routine</i> function that is named "MyWorkitemRoutine", use the <b>NDIS_IO_WORKITEM_FUNCTION</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NDIS_IO_WORKITEM_FUNCTION MyWorkitemRoutine;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+NDIS_IO_WORKITEM_FUNCTION MyWorkitemRoutine;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 VOID
  MyWorkitemRoutine(
     PVOID   WorkItemContext,
     NDIS_HANDLE  NdisIoWorkItemHandle
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>NDIS_IO_WORKITEM_FUNCTION</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_IO_WORKITEM_FUNCTION</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The <b>NDIS_IO_WORKITEM_FUNCTION</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_IO_WORKITEM_FUNCTION</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-i-o-work-items">NDIS I/O Work Items</a>
+<a href="/windows-hardware/drivers/network/ndis-i-o-work-items">NDIS I/O Work Items</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">NdisAllocateIoWorkItem</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocateioworkitem">NdisAllocateIoWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreeioworkitem">NdisFreeIoWorkItem</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreeioworkitem">NdisFreeIoWorkItem</a>

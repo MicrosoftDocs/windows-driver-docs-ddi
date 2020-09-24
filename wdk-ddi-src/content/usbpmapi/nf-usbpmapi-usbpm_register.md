@@ -58,7 +58,7 @@ Registers the client driver with the Policy Manager to report hub arrival/remova
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 
@@ -67,4 +67,3 @@ The client driver's callback functions might start getting invoked before **UsbP
 The driver typically calls **UsbPm_Register** in the driver's [**EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT**](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md) and unregisters in [**EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP**](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md) by calling [**UsbPm_Deregister**](nf-usbpmapi-usbpm_deregister.md).
 
 ## -see-also
-

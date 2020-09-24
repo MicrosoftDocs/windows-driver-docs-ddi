@@ -35,7 +35,7 @@ api_name:
 
 # IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -46,19 +46,19 @@ The IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL Gets the volume level setting of 
 
 ### -input-buffer
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a> with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
+<a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a> with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
 
 ### -input-buffer-length 
 
-Szie of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
+Szie of <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
 
 ### -output-buffer
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
+<a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
 
 ### -output-buffer-length 
 
-Size of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
+Size of <a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
 
 ### -in-out-buffer
 
@@ -72,7 +72,7 @@ Size of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sideban
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -80,5 +80,4 @@ The volume update IOCTL can be used in two modes - update and immediate. If SIDE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>
-
+<a href="/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>

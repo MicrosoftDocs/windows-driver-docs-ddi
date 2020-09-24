@@ -1,11 +1,9 @@
 ---
 UID: NF:ntddstor.IsDsmActionNonDestructive
 title: IsDsmActionNonDestructive macro
-author: windows-driver-content
 description: The IsDsmActionNonDestructive macro determines whether a data set management (DSM) action is nondestructive.
 tech.root: storage
 ms.assetid: a52c39a3-c6a2-4885-9679-5f56531be851
-ms.author: windowsdriverdev
 ms.date: 08/23/2019
 keywords: ["IsDsmActionNonDestructive macro"]
 ms.keywords: IsDsmActionNonDestructive

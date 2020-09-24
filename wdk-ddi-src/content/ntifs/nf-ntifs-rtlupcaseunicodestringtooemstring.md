@@ -76,33 +76,32 @@ This routine can substitute a default character in the destination string for al
 
 This routine does not modify the source string. It returns a null-terminated OEM string. 
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
+For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/index">Strings</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff558741(v=vs.85)">OEM_STRING</a>
+<a href="/previous-versions/windows/hardware/drivers/ff558741(v=vs.85)">OEM_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfreeoemstring">RtlFreeOemString</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfreeoemstring">RtlFreeOemString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtocountedoemstring">RtlUnicodeStringToCountedOemString</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtocountedoemstring">RtlUnicodeStringToCountedOemString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtooemsize">RtlUnicodeStringToOemSize</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtooemsize">RtlUnicodeStringToOemSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetooemn">RtlUpcaseUnicodeToOemN</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetooemn">RtlUpcaseUnicodeToOemN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

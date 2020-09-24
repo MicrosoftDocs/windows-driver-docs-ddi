@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The CHANGER_DEVICE_PROBLEM_TYPE data type contains the values returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerperformdiagnostics">ChangerPerformDiagnostics</a> routine.
+The CHANGER_DEVICE_PROBLEM_TYPE data type contains the values returned by the <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerperformdiagnostics">ChangerPerformDiagnostics</a> routine.
 
 ## -enum-fields
 
@@ -112,9 +112,8 @@ Indicates the changer's drive is malfunctioning.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerperformdiagnostics">ChangerPerformDiagnostics</a>
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerperformdiagnostics">ChangerPerformDiagnostics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmidata/ns-wmidata-_wmi_changer_problem_device_error">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
-
+<a href="/windows-hardware/drivers/ddi/wmidata/ns-wmidata-_wmi_changer_problem_device_error">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>

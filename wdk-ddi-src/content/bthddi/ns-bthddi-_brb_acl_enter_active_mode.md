@@ -54,7 +54,7 @@ The _BRB_ACL_ENTER_ACTIVE_MODE structure specifies the remote device to be place
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field BtAddress
@@ -64,15 +64,14 @@ The address of the remote device.
 ## -remarks
 
 To place a remote device into active mode, profile drivers should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_enter_active_mode">
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_enter_active_mode">
     BRB_ACL_ENTER_ACTIVE_MODE</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_enter_active_mode">BRB_ACL_ENTER_ACTIVE_MODE</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_acl_enter_active_mode">BRB_ACL_ENTER_ACTIVE_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
-
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>

@@ -54,7 +54,7 @@ The <b>D3DKMTCheckOcclusion</b> function verifies whether the client area of a w
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_checkocclusion">D3DKMT_CHECKOCCLUSION</a> structure that describes parameters for checking occlusion.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_checkocclusion">D3DKMT_CHECKOCCLUSION</a> structure that describes parameters for checking occlusion.
 
 ## -returns
 
@@ -65,7 +65,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |STATUS_SUCCESS|The client area of the window is not occluded.|
 |STATUS_GRAPHICS_PRESENT_OCCLUDED|The client area of the window is occluded.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 
 This function might also return other <b>NTSTATUS</b> values.
 
@@ -75,5 +75,4 @@ The handle to the window that is checked for occlusion must be valid. A window i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_checkocclusion">D3DKMT_CHECKOCCLUSION</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_checkocclusion">D3DKMT_CHECKOCCLUSION</a>

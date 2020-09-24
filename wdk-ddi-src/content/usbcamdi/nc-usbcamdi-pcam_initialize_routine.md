@@ -74,11 +74,10 @@ This function is required.
 
 <b>About CamUnInitialize</b>
 
-USBCAMD calls the camera minidriver's <b>CamUnInitialize</b> callback function while processing an <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-uninitialize-device">SRB_UNINITIALIZE_DEVICE</a> request. The <b>CamUnInitialize</b> function in version 1.0 is invoked after the user no longer requires the peripheral for that session.
+USBCAMD calls the camera minidriver's <b>CamUnInitialize</b> callback function while processing an <a href="/windows-hardware/drivers/stream/srb-uninitialize-device">SRB_UNINITIALIZE_DEVICE</a> request. The <b>CamUnInitialize</b> function in version 1.0 is invoked after the user no longer requires the peripheral for that session.
 
 Whereas the stream class driver automatically resets values associated with the minidriver, this call allows the minidriver to deallocate any specific resources used during its operation, such as memory used to store processed and decoded video frames.
 
 <b>CamUnInitialize</b> is called by both versions 1.0 and 2.0 of USBCAMD.
 
 This function is required.
-

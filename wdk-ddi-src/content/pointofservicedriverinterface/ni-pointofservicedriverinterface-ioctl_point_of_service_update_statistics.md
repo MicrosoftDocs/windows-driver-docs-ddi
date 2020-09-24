@@ -52,9 +52,9 @@ This I/O control function sets the specified statistic to the value in the input
 
 ### -input-buffer
 
-[PosStatisticsHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstatisticsheader) where *PosStatisticsHeader.EntryCount* is set to the number of statistics to update.
+[PosStatisticsHeader](./ns-pointofservicedriverinterface-_posstatisticsheader.md) where *PosStatisticsHeader.EntryCount* is set to the number of statistics to update.
 
-This structure is then followed by a corresponding number of [PosValueStatisticsEntry](https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posvaluestatisticsentry) structures that contain the name of a statistic and the corresponding value to which it will be updated.
+This structure is then followed by a corresponding number of [PosValueStatisticsEntry](./ns-pointofservicedriverinterface-_posvaluestatisticsentry.md) structures that contain the name of a statistic and the corresponding value to which it will be updated.
 
 ### -input-buffer-length
 
@@ -78,7 +78,6 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
 ## -remarks
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following is a common error value:
 
 - STATUS_NOT_SUPPORTED: Statistic updating or reporting is not supported.
-

@@ -1,11 +1,9 @@
 ---
 UID: NF:storport.StorPortHardwareReset
 title: StorPortHardwareReset function
-author: windows-driver-content
 description: A miniport can call StorPortHardwareReset to issue a hardware reset.
 tech.root: storage
 ms.assetid: 99e1fcdc-a727-4198-b02e-f4906f7b3d69
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortHardwareReset
@@ -33,9 +31,10 @@ f1_keywords:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
- - 
+ - Storport.lib
+ - Storport.dll
 api_name:
  - StorPortHardwareReset
 product:
@@ -72,10 +71,9 @@ A [**STOR_DEVICE_RESET_TYPE**](ne-storport-stor_device_reset_type.md) enum that 
 
 ## -remarks
 
-See [Resetting and recovering a device](https://docs.microsoft.com/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
+See [Resetting and recovering a device](/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
 ) for more details.
 
 ## -see-also
 
 [**STOR_DEVICE_RESET_TYPE**](ne-storport-stor_device_reset_type.md)
-

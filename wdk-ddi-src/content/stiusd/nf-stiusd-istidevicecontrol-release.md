@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IStiDeviceControl::Release</b> method closes the instance of the COM object that was created when a minidriver client called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a>.
+The <b>IStiDeviceControl::Release</b> method closes the instance of the COM object that was created when a minidriver client called <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a>.
 
 ## -returns
 
@@ -54,15 +54,14 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -remarks
 
-The <b>IStiDeviceControl::Release</b> method should be called from within the destructor function of a user-mode still image minidriver's <b>IStiUSD</b> interface. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/creating-a-user-mode-still-image-minidriver">Creating a User-Mode Still Image Minidriver</a>.)
+The <b>IStiDeviceControl::Release</b> method should be called from within the destructor function of a user-mode still image minidriver's <b>IStiUSD</b> interface. (For more information, see <a href="/windows-hardware/drivers/image/creating-a-user-mode-still-image-minidriver">Creating a User-Mode Still Image Minidriver</a>.)
 
-A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as input to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
+A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as input to its <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiDeviceControl</a>
+<a href="/windows-hardware/drivers/ddi/_image/index">IStiDeviceControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istidevicecontrol-addref">IStiDeviceControl::AddRef</a>
-
+<a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istidevicecontrol-addref">IStiDeviceControl::AddRef</a>

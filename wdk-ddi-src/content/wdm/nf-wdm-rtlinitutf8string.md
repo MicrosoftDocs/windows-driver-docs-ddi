@@ -1,11 +1,9 @@
 ---
 UID: NF:wdm.RtlInitUTF8String
 title: RtlInitUTF8String function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: ec238356-9307-4888-8764-685a83d76eea
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlInitUTF8String
@@ -65,11 +63,10 @@ None
 
 ## -remarks
 
-The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the [**UTF8_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string) structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
+The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the [**UTF8_STRING**](/windows/win32/api/ntdef/ns-ntdef-string) structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
 
 <b>RtlInitUTF8String</b> does not alter the source string pointed to by <i>SourceString</i>.
 
 ## -see-also
 
-[**RtlInitAnsiString**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitansistring)
-
+[**RtlInitAnsiString**](./nf-wdm-rtlinitansistring.md)

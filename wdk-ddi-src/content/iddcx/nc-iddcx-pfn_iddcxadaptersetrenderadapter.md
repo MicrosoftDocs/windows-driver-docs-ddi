@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.PFN_IDDCXADAPTERSETRENDERADAPTER
 title: PFN_IDDCXADAPTERSETRENDERADAPTER
-author: windows-driver-content
 description: PFN_IDDCXADAPTERSETRENDERADAPTER is a pointer to a system-implemented function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 tech.root: display
 ms.assetid: 0a4cd4b6-a6a2-4f23-9775-bddab232fded
@@ -65,25 +64,6 @@ dev_langs:
 ### -param pInArgs
 
 [in] Input arguments.
-
-## -prototype
-
-```c++
-//Declaration
-
-*PFN_IDDCXADAPTERSETRENDERADAPTER *PfnIddcxadaptersetrenderadapter;
-
-// Definition
-
-VOID *PfnIddcxadaptersetrenderadapter
-(
-    PIDD_DRIVER_GLOBALS DriverGlobals
-    IDDCX_ADAPTER AdapterObject
-    const IDARG_IN_ADAPTERSETRENDERADAPTER *pInArgs
-)
-{...}
-
-```
 
 ## -remarks
 

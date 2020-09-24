@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_SET_PIN_EX)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 ### -field PinAction
 
@@ -110,5 +110,4 @@ A formatted [**WWAN_PIN_ACTION**](../wwan/ns-wwan-_wwan_pin_action.md) object th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>

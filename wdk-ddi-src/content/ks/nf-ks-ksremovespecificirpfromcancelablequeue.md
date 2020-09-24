@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>KsRemoveSpecificIrpFromCancelableQueue</b> function removes the specified IRP from the specified queue. This is performed on an IRP that was previously acquired using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksremoveirpfromcancelablequeue">KsRemoveIrpFromCancelableQueue</a>, but that was not actually removed from the queue.
+The <b>KsRemoveSpecificIrpFromCancelableQueue</b> function removes the specified IRP from the specified queue. This is performed on an IRP that was previously acquired using <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksremoveirpfromcancelablequeue">KsRemoveIrpFromCancelableQueue</a>, but that was not actually removed from the queue.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ Points to I/O request packet.
 ## -returns
 
 None
-

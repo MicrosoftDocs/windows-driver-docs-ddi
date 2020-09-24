@@ -62,5 +62,4 @@ Describes information that is required to map a GDI display name to a remote vid
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryremotevidpnsourcefromgdidisplayname">D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryremotevidpnsourcefromgdidisplayname">D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName</a>

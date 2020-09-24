@@ -65,7 +65,7 @@ This routine sets the device fault reporting state to a device already attached 
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -92,4 +92,3 @@ NTSTATUS IommuSetDeviceFaultReporting
 Register your implementation of this callback function by setting **SetDeviceFaultReporting** of [_DMA_IOMMU_INTERFACE](ns-wdm-_dma_iommu_interface.md).
 
 ## -see-also
-

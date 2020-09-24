@@ -47,14 +47,14 @@ api_name:
 
 ## -description
 
-The  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
+The  <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 ## -parameters
 
 ### -param Context 
 
 [in, out]
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 ### -param VirtualFunction 
 
@@ -79,7 +79,7 @@ The length, in bytes, of the data to be read.
 ## -returns
 
 The
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
+      <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was read after a successful read operation. If the read operation is unsuccessful, the routine returns zero.
 
 ## -prototype
 
@@ -98,11 +98,11 @@ ULONG GetVirtualFunctionData(
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine resembles the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).
+The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine resembles the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine, except that it reads PCIe configuration data from a VF instead of from a device's physical function (PF).
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface. The <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a> interface.
+The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface. The <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a> interface.
 
-<div class="alert"><b>Note</b>  The virtualization stack calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> when a driver that is running in the guest operating system calls the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine.</div>
+<div class="alert"><b>Note</b>  The virtualization stack calls <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_data">GetVirtualFunctionData</a> when a driver that is running in the guest operating system calls the <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> routine.</div>
 <div> </div>
 
 ## -see-also
@@ -115,7 +115,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
+<a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
@@ -124,4 +124,3 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 
 <b></b>
-

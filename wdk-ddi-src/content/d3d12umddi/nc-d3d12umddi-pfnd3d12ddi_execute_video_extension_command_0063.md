@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_EXECUTE_VIDEO_EXTENSION_COMMAND_0063
 title: PFND3D12DDI_EXECUTE_VIDEO_EXTENSION_COMMAND_0063
-author: windows-driver-content
 description: Records a command to execute a video extension command into a command list.
 tech.root: display
 ms.assetid: 5dbedff3-049b-459b-8096-5a1d7db05c81
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["PFND3D12DDI_EXECUTE_VIDEO_EXTENSION_COMMAND_0063 callback function"]
 req.header: d3d12umddi.h
@@ -74,6 +72,7 @@ The size of the initialization parameters structure in bytes.
 The following error codes are allowed:
 
 |Return value|Description|
+|-|-|
 |S_OK|Initialization succeeded.|
 |D3DDDIERR_APPLICATIONERROR|The caller has attempted to initialize the command incorrectly. For example, provided an invalid argument. This error puts the command list in error and an error code is returned from the Close method on the API command list.|
 |D3DDDIERR_DEVICEREMOVED|Cannot initialize the command because the device is in a device removed state. If the runtime as not already realized device removed, this will set the device and command list in error.|

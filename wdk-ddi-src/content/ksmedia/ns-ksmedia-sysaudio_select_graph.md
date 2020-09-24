@@ -54,7 +54,7 @@ The SYSAUDIO_SELECT_GRAPH structure is used to specify a graph that includes an 
 
 ### -field Property
 
-Specifies the property to get or set. This parameter is a structure of type <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
+Specifies the property to get or set. This parameter is a structure of type <a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
 ### -field PinId
 
@@ -74,9 +74,8 @@ Reserved. Set to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
+<a href="/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-select-graph">KSPROPERTY_SYSAUDIO_SELECT_GRAPH</a>
-
+<a href="/windows-hardware/drivers/audio/ksproperty-sysaudio-select-graph">KSPROPERTY_SYSAUDIO_SELECT_GRAPH</a>

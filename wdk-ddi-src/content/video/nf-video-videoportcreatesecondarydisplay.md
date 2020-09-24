@@ -75,11 +75,10 @@ Is a set of attributes for the secondary display device. This parameter is restr
 
 ## -remarks
 
-In Windows XP and later, a removable logical device will never become the <a href="https://docs.microsoft.com/windows-hardware/drivers/">primary display</a>.
+In Windows XP and later, a removable logical device will never become the <a href="/windows-hardware/drivers/">primary display</a>.
 
 Note that on some editions of Windows XP, <b>VideoPortCreateSecondaryDisplay</b> can deliberately fail to enable Dualview. In such cases, the display driver should remain in SingleView mode.
 
 When the video minport driver calls <b>VideoPortCreateSecondaryDisplay</b>, the value of the <i>ulFlags</i> parameter must be equal to VIDEO_DUALVIEW_REMOVABLE, which is defined in <i>ntddvdeo.h</i>.
 
 The flags VIDEO_DUALVIEW_PRIMARY and VIDEO_DUALVIEW_SECONDARY, which are defined in <i>ntddvdeo.h</i>, are for internal use only. The video miniport driver must never set these flags.
-

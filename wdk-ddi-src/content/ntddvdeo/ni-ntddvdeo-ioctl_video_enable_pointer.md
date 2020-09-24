@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Makes the pointer visible by enabling pointer attributes. Support for this modal request is optional; however, if a miniport driver supports this request, it must process an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a> request before processing this request.
+Makes the pointer visible by enabling pointer attributes. Support for this modal request is optional; however, if a miniport driver supports this request, it must process an <a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a> request before processing this request.
 
 ## -ioctlparameters
 
@@ -68,9 +68,8 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ni-ntddvdeo-ioctl_video_set_pointer_attr">IOCTL_VIDEO_SET_POINTER_ATTR</a>

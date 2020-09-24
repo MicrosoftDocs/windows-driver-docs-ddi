@@ -61,9 +61,8 @@ None
 
 ## -remarks
 
-To add a rundown reference to an opaque filter, instance, or volume pointer, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectreference">FltObjectReference</a>.
+To add a rundown reference to an opaque filter, instance, or volume pointer, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectreference">FltObjectReference</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectreference">FltObjectReference</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectreference">FltObjectReference</a>

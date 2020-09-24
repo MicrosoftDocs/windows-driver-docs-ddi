@@ -50,13 +50,13 @@ api_name:
 
 <b>DirectX 8.0 and later versions only.</b>
 
-DD_GETFORMATDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETFORMAT.
+DD_GETFORMATDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETFORMAT.
 
 ## -struct-fields
 
 ### -field gdi2
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getdriverinfo2data">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
+Specifies a <a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getdriverinfo2data">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 ### -field dwFormatIndex
 
@@ -64,7 +64,7 @@ Specifies the index of the pixel format to return.
 
 ### -field format
 
-Receives the actual pixel format in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure.
+Receives the actual pixel format in a <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure.
 
 ## -remarks
 
@@ -76,13 +76,12 @@ When processing this <b>GetDriverInfo2</b> request the driver should read the <b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getdriverinfo2data">DD_GETDRIVERINFO2DATA</a>
+<a href="/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getdriverinfo2data">DD_GETDRIVERINFO2DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
-
+<a href="/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>

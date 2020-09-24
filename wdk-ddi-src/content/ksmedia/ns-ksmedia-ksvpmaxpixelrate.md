@@ -74,7 +74,7 @@ Reserved. Do not use.
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-maxpixelrate">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a> property.
+This structure is used by the <a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-maxpixelrate">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a> property.
 
 
 
@@ -84,8 +84,7 @@ This structure is used by the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-maxpixelrate">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-vpconfig-maxpixelrate">KSPROPERTY_VPCONFIG_MAXPIXELRATE</a>
  
 
  
-

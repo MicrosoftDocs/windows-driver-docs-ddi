@@ -93,7 +93,7 @@ The DXGK_DRIVERCAPS structure describes capabilities of a display miniport drive
 
 ### -field GammaRampCaps
 
-[out] A [**DXGK_GAMMARAMPCAPS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_gammarampcaps) structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
+[out] A [**DXGK_GAMMARAMPCAPS**](./ns-d3dkmddi-_dxgk_gammarampcaps.md) structure that identifies the gamma-ramp capabilities, in bit-field flags, that the driver can support.
 
 ### -field ColorTransformCaps
 
@@ -173,7 +173,7 @@ Supported starting with Windows 8.
 
 [out] If **TRUE**, the driver supports the creation and opening of shared managed primary allocations. A value of **TRUE** also indicates the following:
 
-- The display miniport driver guarantees that when the [*DxgkDdiSetVidPnSourceAddress*](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)) function is called, the driver does not allow video memory to be flipped to an incompatible allocation.
+- The display miniport driver guarantees that when the [*DxgkDdiSetVidPnSourceAddress*](/previous-versions/windows/hardware/drivers/ff560767(v=vs.85)) function is called, the driver does not allow video memory to be flipped to an incompatible allocation.
 - The user mode driver validates Direct Flip resources before the Desktop Windows Manager (DWM) uses them.
 
 Only the DWM can flip video memory to Direct Flip resources. The DWM validates these resources using the user-mode [*CheckDirectFlipSupport*](..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkdirectflipsupport.md) function.
@@ -190,7 +190,7 @@ Supported starting with Windows 8.1.
 
 [out] If **TRUE**, the display miniport driver supports run-time power management.
 
-If this member is set, the display miniport driver must implement the [*DxgkDdiSetPowerComponentFState*](..\d3dkmddi\nc-d3dkmddi-dxgkddisetpowercomponentfstate.md) and [*DxgkDdiPowerRuntimeControlRequest*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest) functions.
+If this member is set, the display miniport driver must implement the [*DxgkDdiSetPowerComponentFState*](..\d3dkmddi\nc-d3dkmddi-dxgkddisetpowercomponentfstate.md) and [*DxgkDdiPowerRuntimeControlRequest*](./nc-d3dkmddi-dxgkddipowerruntimecontrolrequest.md) functions.
 
 Supported starting with Windows 8.
 
@@ -200,13 +200,13 @@ Supported starting with Windows 8.
 
 If this member is set, the display miniport driver must implement the [*DxgkDdiNotifySurpriseRemoval*](..\dispmprt\nc-dispmprt-dxgkddi_notify_surprise_removal.md) function with the *RemovalType* parameter set to **DxgkRemovalHibernation**.
 
-For more information, see [Using cross-adapter resources in a hybrid system](https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
+For more information, see [Using cross-adapter resources in a hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
 
 Supported starting with Windows 8.
 
 ### -field HybridDiscrete
 
-[out] If **TRUE**, the display miniport driver is a discrete GPU in a [hybrid system](https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
+[out] If **TRUE**, the display miniport driver is a discrete GPU in a [hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
 
 If this member is set, the display miniport driver should:
 
@@ -214,7 +214,7 @@ If this member is set, the display miniport driver should:
 - support cross-adapter resources
 - have no display outputs
 
-For more information, see [Using cross-adapter resources in a hybrid system](https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
+For more information, see [Using cross-adapter resources in a hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system).
 
 Supported starting with Windows 8.1.
 
@@ -314,11 +314,11 @@ Reserved.
 
 [*DxgkDdiSetPowerComponentFState*](..\d3dkmddi\nc-d3dkmddi-dxgkddisetpowercomponentfstate.md)
 
-[*DxgkDdiSetVidPnSourceAddress*](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560767(v=vs.85))
+[*DxgkDdiSetVidPnSourceAddress*](/previous-versions/windows/hardware/drivers/ff560767(v=vs.85))
 
 [*DxgkDdiResetEngine*](..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetengine.md)
 
-[*DxgkDdiPowerRuntimeControlRequest*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest)
+[*DxgkDdiPowerRuntimeControlRequest*](./nc-d3dkmddi-dxgkddipowerruntimecontrolrequest.md)
 
 [*DxgkCbNotifyInterrupt*](..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md)
 
@@ -329,4 +329,3 @@ Reserved.
 [**DXGK_FLIPCAPS**](..\d3dkmddi\ns-d3dkmddi-_dxgk_flipcaps.md)
 
 [**DXGKARG_QUERYADAPTERINFO**](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
-

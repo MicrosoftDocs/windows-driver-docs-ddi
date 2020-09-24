@@ -56,17 +56,16 @@ The <b>WOF_EXTERNAL_FILE_ID</b> structure contains a file ID that is used to ope
 
 ### -field FileId
 
-The file ID used with the <b>FILE_OPEN_BY_FILE_ID</b> flag to open a file with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> functions.
+The file ID used with the <b>FILE_OPEN_BY_FILE_ID</b> flag to open a file with the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> functions.
 
 ## -remarks
 
-Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> function to open a handle to a minifilter driver and use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> function to open a handle to a driver.
+Use the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a> function to open a handle to a minifilter driver and use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> function to open a handle to a driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_external_info">WOF_EXTERNAL_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_external_info">WOF_EXTERNAL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_version_info">WOF_VERSION_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_version_info">WOF_VERSION_INFO</a>

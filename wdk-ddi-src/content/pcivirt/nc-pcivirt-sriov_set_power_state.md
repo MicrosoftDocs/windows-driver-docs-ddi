@@ -72,7 +72,7 @@ A boolean value that indicates whether to arm the device for a wake signal (PME 
 
 ## -returns
 
-Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code to indicate the error condition.
+Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code to indicate the error condition.
 
 ## -prototype
 
@@ -93,13 +93,9 @@ The PF driver registers its implementation by setting the <b>SetVfPowerState</b>
 
 Here is an example implementation of this callback function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 NTSTATUS
 Virtualization_SetPowerState (
     __inout              PVOID              Context,
@@ -157,8 +153,5 @@ Virtualization_SetPowerState (
 
     return status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

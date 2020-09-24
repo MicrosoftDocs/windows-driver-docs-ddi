@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderdumplivedriverdata">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
+The <a href="/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderdumplivedriverdata">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Pointer to a ULONG that contains the size of the output buffer pointed to by Out
 ### -param Guid
 
 Pointer to the WPP controller GUID that identifies the driver data.
-

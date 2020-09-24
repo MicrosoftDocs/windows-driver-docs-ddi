@@ -62,9 +62,8 @@ Specifies the height of the overlay surface
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-allocator-control-surface-size">KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE</a>
+<a href="/windows-hardware/drivers/stream/ksproperty-allocator-control-surface-size">KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-allocator-control">PROPSETID_ALLOCATOR_CONTROL</a>
-
+<a href="/windows-hardware/drivers/stream/propsetid-allocator-control">PROPSETID_ALLOCATOR_CONTROL</a>

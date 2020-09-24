@@ -27,8 +27,5 @@ To develop Audio drivers, you can use these headers:
  * [keyworddetectoroemadapter.h](../keyworddetectoroemadapter/index.md)
  * [ksmedia.h](../ksmedia/index.md)
  * [portcls.h](../portcls/index.md)
- * [punknown.h](../punknown/index.md)
- * [unknown.h](../unknown/index.md)
 
-For programming information, see [Audio Devices Design Guide](https://docs.microsoft.com/windows-hardware/drivers/audio).
- 
+For programming information, see [Audio Devices Design Guide](/windows-hardware/drivers/audio).

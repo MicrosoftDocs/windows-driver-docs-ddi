@@ -83,5 +83,4 @@ When <b>RxCeTearDownAddress</b> is successful, the data members in the RXCE_ADDR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcebuildaddress">RxCeBuildAddress</a>
-
+<a href="/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcebuildaddress">RxCeBuildAddress</a>

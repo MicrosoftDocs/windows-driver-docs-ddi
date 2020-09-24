@@ -54,12 +54,12 @@ The <b>USBCAMD_AdapterReceivePacket</b> function allows USBCAMD to process an ad
 ### -param Srb 
 
 [in]
-Pointer to the SRB passed to the camera minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> callback function.
+Pointer to the SRB passed to the camera minidriver's <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> callback function.
 
 ### -param DeviceData 
 
 [in]
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data">USBCAMD_DEVICE_DATA</a> structure that contains entry points to the camera minidriver's callback functions.
+Pointer to the <a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data">USBCAMD_DEVICE_DATA</a> structure that contains entry points to the camera minidriver's callback functions.
 
 ### -param DeviceObject 
 
@@ -77,15 +77,14 @@ Specifies if USBCAMD is to process and complete the SRB request. Specify <b>TRUE
 
 ## -remarks
 
-Typically, this function is called by the camera minidriver from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> routine. 
+Typically, this function is called by the camera minidriver from its <a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a> routine. 
 
 This function can also be used by the minidriver to retrieve the device context by setting the <i>NeedsCompletion</i> parameter to <b>FALSE</b>. In this case, the <i>DeviceData</i> and <i>DeviceObject</i> parameters are ignored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a>
+<a href="/windows-hardware/drivers/ddi/usbcamdi/nc-usbcamdi-padapter_receive_packet_routine">AdapterReceivePacket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data">USBCAMD_DEVICE_DATA</a>
-
+<a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data">USBCAMD_DEVICE_DATA</a>

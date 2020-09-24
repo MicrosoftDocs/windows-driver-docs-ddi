@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <b>SetThreadContext</b> method sets the current <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">thread context</a>.
+The <b>SetThreadContext</b> method sets the current <a href="/windows-hardware/drivers/debugger/scopes-and-symbol-groups">thread context</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Specifies the size of the buffer <i>Context</i>.
 
 ## -returns
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -86,28 +86,27 @@ The method was successful.
 
 ## -remarks
 
-For more information about the thread context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
+For more information about the thread context, see <a href="/windows-hardware/drivers/debugger/scopes-and-symbol-groups">Scopes and Symbol Groups</a>.
 
 <div class="alert"><b>Note</b>    The CONTEXT structure varies with operating system and platform.  Care should be taken when using the CONTEXT structure.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-getthreadcontext">GetThreadContext</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-getthreadcontext">GetThreadContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced">IDebugAdvanced</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced">IDebugAdvanced</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced2">IDebugAdvanced2</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced2">IDebugAdvanced2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugadvanced3">IDebugAdvanced3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setscope">SetScope</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols3-setscope">SetScope</a>

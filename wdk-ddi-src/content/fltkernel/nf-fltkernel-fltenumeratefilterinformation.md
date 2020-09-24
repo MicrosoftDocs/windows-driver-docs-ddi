@@ -72,7 +72,7 @@ Type of information requested. This parameter can have one of the following valu
 
 </td>
 <td>
-The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_full_information">FILTER_FULL_INFORMATION</a> structure for the minifilter driver (legacy filter drivers are ignored).
+The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_full_information">FILTER_FULL_INFORMATION</a> structure for the minifilter driver (legacy filter drivers are ignored).
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https:/
 
 </td>
 <td>
-The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a> structure for the minifilter or legacy filter driver. This <i>InformationClass</i> value is available starting with Microsoft Windows Server 2003 SP1 and Windows XP SP2 with filter manager rollup.  For more about the filter manager rollup package for Windows XP SP2, see article 914882, "<a href="https://go.microsoft.com/fwlink/p/?linkid=3100&ID=914882">The filter manager rollup package for Windows XP SP2</a>," in the Microsoft Knowledge Base.
+The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a> structure for the minifilter or legacy filter driver. This <i>InformationClass</i> value is available starting with Microsoft Windows Server 2003 SP1 and Windows XP SP2 with filter manager rollup.  For more about the filter manager rollup package for Windows XP SP2, see article 914882, "<a href="https://go.microsoft.com/fwlink/p/?linkid=3100&ID=914882">The filter manager rollup package for Windows XP SP2</a>," in the Microsoft Knowledge Base.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https:/
 
 </td>
 <td>
-The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_standard_information">FILTER_AGGREGATE_STANDARD_INFORMATION</a> structure for the minifilter or legacy filter driver. This <i>InformationClass</i> value is available starting with Windows Vista.
+The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_standard_information">FILTER_AGGREGATE_STANDARD_INFORMATION</a> structure for the minifilter or legacy filter driver. This <i>InformationClass</i> value is available starting with Windows Vista.
 
 </td>
 </tr>
@@ -174,70 +174,64 @@ Starting with Microsoft Windows Server 2003 SP1 and Windows XP SP2 with filt
 
 The following pseudocode enumerates filter information for all registered filter drivers.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define InfoClass FilterAggregateStandardInformation   // Assumes Windows Vista or later operating system.
+
+```
+#define InfoClass FilterAggregateStandardInformation   // Assumes Windows Vista or later operating system.
 
 int i = 0;
 while ( FltEnumerateFilterInformation(i, InfoClass, ...) != STATUS_NO_MORE_ENTRIES )
 {
  Process acquired filter driver information returned by the Buffer parameter of FltEnumerateFilterInformation, if applicable.
  i++;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 <b>FltEnumerateFilterInformation</b> returns information about registered filter drivers, through the <i>Buffer</i> parameter, in order of decreasing distance from the underlying file system.  For example, assume that there are <i>n</i> filter drivers attached above an underlying file system.  Information about the filter driver attached farthest from the file system is returned first (with an <i>Index</i> parameter value of 0).  Information about the next-farthest attached filter driver is returned second (with an <i>Index</i> parameter value of 1), and so on.  Finally, information about the filter driver closest to the file system is returned last (with an <i>Index</i> parameter value of <i>n</i>-1).
 
 <div class="alert"><b>Note</b>    Because filter drivers can register at any time, it is possible that two calls to <b>FltEnumerateFilterInformation</b> with the same <i>Index</i> might not return the same result. </div>
 <div> </div>
-To enumerate all registered minifilter drivers, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a>. 
+To enumerate all registered minifilter drivers, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a>. 
 
-To enumerate all registered legacy filter drivers, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioenumerateregisteredfilterslist">IoEnumerateRegisteredFiltersList</a>. 
+To enumerate all registered legacy filter drivers, call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioenumerateregisteredfilterslist">IoEnumerateRegisteredFiltersList</a>. 
 
-To enumerate all instances of a given minifilter driver, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter">FltEnumerateInstanceInformationByFilter</a>. 
+To enumerate all instances of a given minifilter driver, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter">FltEnumerateInstanceInformationByFilter</a>. 
 
-To enumerate all minifilter driver instances on a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>. 
+To enumerate all minifilter driver instances on a given volume, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>. 
 
-To list volume information for all volumes that are known to the Filter Manager, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratevolumeinformation">FltEnumerateVolumeInformation</a>.
+To list volume information for all volumes that are known to the Filter Manager, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratevolumeinformation">FltEnumerateVolumeInformation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_basic_information">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_standard_information">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_aggregate_standard_information">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_full_information">FILTER_FULL_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_full_information">FILTER_FULL_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter">FltEnumerateInstanceInformationByFilter</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter">FltEnumerateInstanceInformationByFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratevolumeinformation">FltEnumerateVolumeInformation</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumeratevolumeinformation">FltEnumerateVolumeInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilterinformation">FltGetFilterInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioenumerateregisteredfilterslist">IoEnumerateRegisteredFiltersList</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ioenumerateregisteredfilterslist">IoEnumerateRegisteredFiltersList</a>

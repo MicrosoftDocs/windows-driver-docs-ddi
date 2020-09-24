@@ -53,7 +53,7 @@ The **CreateRasterize** method creates an XPS rasterizer object that can handle 
 
 ### -param xpsPage
 
-[in, optional] Pointer to an **IXpsOMPage** object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information, see [IXpsOMPage](https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage).
+[in, optional] Pointer to an **IXpsOMPage** object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. For more information, see [IXpsOMPage](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage).
 
 ### -param DPI
 
@@ -61,7 +61,7 @@ The **CreateRasterize** method creates an XPS rasterizer object that can handle 
 
 ### -param nonTextRenderingMode
 
-[in] Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following [XPSRAS_RENDERING_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001) enumeration values:
+[in] Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following [XPSRAS_RENDERING_MODE](./ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md) enumeration values:
 
 - XPSRAS_RENDERING_MODE_ANTIALIASED
 
@@ -69,7 +69,7 @@ The **CreateRasterize** method creates an XPS rasterizer object that can handle 
 
 ### -param textRenderingMode
 
-[in] Rendering mode for text in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following [XPSRAS_RENDERING_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001) enumeration values:
+[in] Rendering mode for text in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following [XPSRAS_RENDERING_MODE](./ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md) enumeration values:
 
 - XPSRAS_RENDERING_MODE_ANTIALIASED
 
@@ -81,7 +81,7 @@ The *pixelFormat* parameter.
 
 ### -param ppIXPSRasterizer
 
-[out, optional] This parameter points to a location into which the method writes a pointer to the [IXpsRasterizer](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer) interface of the newly created XPS rasterizer object. If the method fails, it writes **NULL** to this location and returns an error code.
+[out, optional] This parameter points to a location into which the method writes a pointer to the [IXpsRasterizer](./nn-xpsrassvc-ixpsrasterizer.md) interface of the newly created XPS rasterizer object. If the method fails, it writes **NULL** to this location and returns an error code.
 
 ## -returns
 
@@ -89,5 +89,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IXPSRasterizationFactory1](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizationfactory1)
-
+[IXPSRasterizationFactory1](./nn-xpsrassvc-ixpsrasterizationfactory1.md)

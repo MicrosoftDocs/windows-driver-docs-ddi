@@ -49,7 +49,7 @@ The *DxgkDdi_ControlInterrupt3* function enables or disables the given interrupt
 
 ### -param hAdapter
 
-[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the *MiniportDeviceContext* parameter from a call to its [*DxgkDdiAddDevice*](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device) function.
+[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the *MiniportDeviceContext* parameter from a call to its [*DxgkDdiAddDevice*](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) function.
 
 ### -param InterruptControl
 
@@ -62,7 +62,7 @@ The *DxgkDdi_ControlInterrupt3* function enables or disables the given interrupt
 | **Return code** | **Description** |
 |:--|:--|
 | **STATUS_SUCCESS** | The interrupt type was successfully enabled or disabled on the graphics hardware. |
-| **STATUS_NOT_IMPLEMENTED** | [DxgkDdi_ControlInterrupt3](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2)  does not support enabling or disabling the specified interrupt type. |
+| **STATUS_NOT_IMPLEMENTED** | [DxgkDdi_ControlInterrupt3](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md)  does not support enabling or disabling the specified interrupt type. |
 
 ## -remarks
 
@@ -70,17 +70,16 @@ VSync control is used in WDDM to toggle VSync ON and OFF to balance between acti
 
 For dual screen portable devices, keeping VSync ON for one screen when it is not needed has significant power costs. It requires the display controller/display link to remain active and prevents panels which support self-refresh from going into a low frequency, low power self-refresh mode. In Windows 10, version 2004 and later versions, *DxgkDdiControlInterrupt3* allows for finer granularity VSync control of per VidPn Source of an adapter.
 
-Only one of *DxgkDdiControlInterrupt3* or [*DxgkDdi_ControlInterrupt2*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2) will be used by the OS during the lifetime of an adapter.
+Only one of *DxgkDdiControlInterrupt3* or [*DxgkDdi_ControlInterrupt2*](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md) will be used by the OS during the lifetime of an adapter.
 
-WDDM 2.7 drivers that do not implement *DxgkDdi_ControlInterrupt3* are opting out of independent VidPn VSync control, and the OS will only call [*DxgkDdi_ControlInterrupt2*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2). The [**DXGK_DRIVERCAPS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps)**->IndependentVidPnVSync** capability must be 0 in drivers that do not support *DxgkDdi_ControlInterrupt3*; otherwise, the OS will fail adapter initialization. If a driver does implement *DxgkDdi_ControlInterrupt3*, then the capability can be set to 0 or 1 to indicate Per-VidPn support.
+WDDM 2.7 drivers that do not implement *DxgkDdi_ControlInterrupt3* are opting out of independent VidPn VSync control, and the OS will only call [*DxgkDdi_ControlInterrupt2*](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md). The [**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md)**->IndependentVidPnVSync** capability must be 0 in drivers that do not support *DxgkDdi_ControlInterrupt3*; otherwise, the OS will fail adapter initialization. If a driver does implement *DxgkDdi_ControlInterrupt3*, then the capability can be set to 0 or 1 to indicate Per-VidPn support.
 
 ## -see-also
 
-[**DXGKARG_CONTROLINTERRUPT2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt2)
+[**DXGKARG_CONTROLINTERRUPT2**](./ns-d3dkmddi-_dxgkarg_controlinterrupt2.md)
 
-[**DXGK_DRIVERCAPS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps)
+[**DXGK_DRIVERCAPS**](./ns-d3dkmddi-_dxgk_drivercaps.md)
 
 [**DXGKARG_CONTROLINTERRUPT3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt3)
 
-[*DxgkDdi_ControlInterrupt2*](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2)
-
+[*DxgkDdi_ControlInterrupt2*](./nc-d3dkmddi-dxgkddi_controlinterrupt2.md)

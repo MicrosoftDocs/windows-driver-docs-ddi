@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 > [!NOTE]
-> Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word slave. Microsoft's [Style Guide for Bias-Free Communications](https://docs.microsoft.com/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. When this word is removed from the software, we will correct this document to be in alignment.
+> Microsoft supports a diverse and inclusionary environment. This article contains references to terminology that the Microsoft [Style Guide for Bias-Free Communications](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
 
 
 The <b>PEP_ACPI_RESOURCE_FLAGS</b> structure contains flags describing an ACPI resource.
@@ -93,4 +93,3 @@ When set, indicates that this device is in shared mode.
 ### -field DUMMYSTRUCTNAME.Reserved
 
 This member is reserved and should be set to zero.
-

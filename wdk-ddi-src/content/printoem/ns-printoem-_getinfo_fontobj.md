@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The GETINFO_FONTOBJ structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
+The GETINFO_FONTOBJ structure is used as input to the <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
 
 ## -struct-fields
 
@@ -60,17 +60,16 @@ Specifies the size, in bytes, of the GETINFO_FONTOBJ structure. Supplied by the 
 
 ### -field pFontObj
 
-Pointer to an empty <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure. The structure is filled in by Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. The pointer is supplied by the UNIFONTOBJ_GetInfo caller.
+Pointer to an empty <a href="/windows/win32/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure. The structure is filled in by Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. The pointer is supplied by the UNIFONTOBJ_GetInfo caller.
 
 ## -remarks
 
-To obtain a font's FONTOBJ structure contents, a rendering plug-in can supply the address of a GETINFO_FONTOBJ structure when calling Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
+To obtain a font's FONTOBJ structure contents, a rendering plug-in can supply the address of a GETINFO_FONTOBJ structure when calling Unidrv's <a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
+<a href="/windows/win32/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
-
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>

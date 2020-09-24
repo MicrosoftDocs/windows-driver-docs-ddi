@@ -65,39 +65,39 @@ A handle to a framework interrupt object.
 ### -param Callback 
 
 [in]
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function.
+A pointer to an <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function.
 
 ### -param Context 
 
 [in]
-An untyped pointer to driver-supplied information that the framework passes to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function.
+An untyped pointer to driver-supplied information that the framework passes to the <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function.
 
 ## -returns
 
-<b>WdfInterruptSynchronize</b> returns the Boolean status value that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function returns.
+<b>WdfInterruptSynchronize</b> returns the Boolean status value that the <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function returns.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-If you want your driver to execute code that must run without being preempted and with servicing of device interrupts effectively disabled, you should place that code in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function. To schedule execution of the callback function, your driver must call <b>WdfInterruptSynchronize</b>.
+If you want your driver to execute code that must run without being preempted and with servicing of device interrupts effectively disabled, you should place that code in an <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function. To schedule execution of the callback function, your driver must call <b>WdfInterruptSynchronize</b>.
 
-The <b>WdfInterruptSynchronize</b> method returns after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function has finished executing.
+The <b>WdfInterruptSynchronize</b> method returns after the <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a> callback function has finished executing.
 
-Instead of calling <b>WdfInterruptSynchronize</b>, your driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>.
+Instead of calling <b>WdfInterruptSynchronize</b>, your driver can call <a href="/previous-versions/ff547340(v=vs.85)">WdfInterruptAcquireLock</a> and <a href="/previous-versions/ff547376(v=vs.85)">WdfInterruptReleaseLock</a>.
 
-For more information about the <b>WdfInterruptSynchronize</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
+For more information about the <b>WdfInterruptSynchronize</b> method, see <a href="/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
 
-For more information about handling interrupts in framework-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
+For more information about handling interrupts in framework-based drivers, see <a href="/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
 
 For passive level interrupts, the driver must call <b>WdfInterruptSynchronize</b> at IRQL = PASSIVE_LEVEL.
 
-Do not call <b>WdfInterruptSynchronize</b> from an arbitrary thread context,  such as a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handler</a>.
+Do not call <b>WdfInterruptSynchronize</b> from an arbitrary thread context,  such as a <a href="/windows-hardware/drivers/wdf/request-handlers">request handler</a>.
 
 
 #### Examples
 
-The following code example shows how to call <b>WdfInterruptSynchronize</b> to schedule execution of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a>  callback function.
+The following code example shows how to call <b>WdfInterruptSynchronize</b> to schedule execution of an <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a>  callback function.
 
 ```cpp
 BOOLEAN synchronizeReturnValue;
@@ -111,13 +111,12 @@ synchronizeReturnValue = WdfInterruptSynchronize(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a>
+<a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
+<a href="/previous-versions/ff547340(v=vs.85)">WdfInterruptAcquireLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>
-
+<a href="/previous-versions/ff547376(v=vs.85)">WdfInterruptReleaseLock</a>

@@ -47,14 +47,14 @@ api_name:
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
 
 The <b>IOCTL_INTERNAL_LOCK_PORT</b> request allocates the parallel device's parent parallel port and selects the parallel device on the port.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544195(v=vs.85)">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
+For more information, see <a href="/previous-versions/ff544195(v=vs.85)">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
 
 ## -ioctlparameters
 
@@ -95,4 +95,3 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_lock_port_no_select.md">IOCTL_INTERNAL_LOCK_PORT_NO_SELECT</a>
-

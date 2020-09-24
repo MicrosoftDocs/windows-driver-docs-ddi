@@ -76,5 +76,4 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-[WcsGetUsePerUserProfiles](https://docs.microsoft.com/previous-versions/ff563734(v=vs.85))
-
+[WcsGetUsePerUserProfiles](/previous-versions/ff563734(v=vs.85))

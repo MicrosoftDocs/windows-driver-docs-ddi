@@ -56,7 +56,7 @@ The <b>SERIALPERF_STATS</b> structure contains performance statistics for a seri
 
 ### -field ReceivedCount
 
-The number of characters received since either the serial port was opened or the last <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clear_stats">IOCTL_SERIAL_CLEAR_STATS</a> request was processed.
+The number of characters received since either the serial port was opened or the last <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clear_stats">IOCTL_SERIAL_CLEAR_STATS</a> request was processed.
 
 ### -field TransmittedCount
 
@@ -80,15 +80,14 @@ The number of parity errors detected since either the serial port was opened or 
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a> request.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a> request.
 
-To reset the performance statistics to zero, send an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clear_stats">IOCTL_SERIAL_CLEAR_STATS</a> request.
+To reset the performance statistics to zero, send an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clear_stats">IOCTL_SERIAL_CLEAR_STATS</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clear_stats">IOCTL_SERIAL_CLEAR_STATS</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_clear_stats">IOCTL_SERIAL_CLEAR_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_stats">IOCTL_SERIAL_GET_STATS</a>

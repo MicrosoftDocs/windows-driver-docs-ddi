@@ -47,14 +47,14 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
+The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
 
 ## -parameters
 
 ### -param Context 
 
 [in, out]
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 ### -param VirtualFunction 
 
@@ -78,7 +78,7 @@ A pointer to a caller-supplied variable in which this routine returns a UINT8 va
 
 ## -returns
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns one of the following NTSTATUS values:
+The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns one of the following NTSTATUS values:
 
 <table>
 <tr>
@@ -126,18 +126,18 @@ NTSTATUS GetLocation(
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns the current device location of a VF  in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
+The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine returns the current device location of a VF  in the PCIe hierarchy. This information is necessary for a virtualization system that is using an I/O memory management unit (IOMMU) to route traffic to or from the device.
 
-Upon a successful return from a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine, the <i>FunctionNumber</i> parameter contains a value that represents the function number for the specified VF on the PCI bus. This value is based on the Alternative Routing Interpretation (ARI) option of the PCI Express 3.0 specification.  ARI treats a PCIe bus as a single device with an 8-bit function space, which allows for 256 functions on the bus.
+Upon a successful return from a call to the <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine, the <i>FunctionNumber</i> parameter contains a value that represents the function number for the specified VF on the PCI bus. This value is based on the Alternative Routing Interpretation (ARI) option of the PCI Express 3.0 specification.  ARI treats a PCIe bus as a single device with an 8-bit function space, which allows for 256 functions on the bus.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
+The <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_device_location">GetLocation</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
 
 <div class="alert"><b>Important</b>  The PCI bus number on which the VF is located can change. We do not recommend that drivers store the device location for a VF in nonvolatile storage such as the registry.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
+<a href="/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
@@ -146,4 +146,3 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-
 
 
 <b></b>
-

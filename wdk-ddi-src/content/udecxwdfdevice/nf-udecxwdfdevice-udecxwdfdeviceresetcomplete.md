@@ -53,21 +53,20 @@ Informs the  USB device emulation  class extension (UdeCx) that the reset operat
 
 ### -param UdeWdfDevice
 
-<p>A handle to a framework device object that represents the controller that has been reset. The client driver initialized this object in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation"><b>UdecxWdfDeviceAddUsbDeviceEmulation</b></a>.</p>
+<p>A handle to a framework device object that represents the controller that has been reset. The client driver initialized this object in the previous call to <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation"><b>UdecxWdfDeviceAddUsbDeviceEmulation</b></a>.</p>
 
 ## -remarks
 
-When the class extension calls the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_reset">EVT_UDECX_WDF_DEVICE_RESET</a> callback function, that call is asynchronous. The client driver must call  <b>UdecxWdfDeviceResetComplete</b> to notify the class extension when the reset operation is complete with appropriate status information.
+When the class extension calls the  <a href="/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_reset">EVT_UDECX_WDF_DEVICE_RESET</a> callback function, that call is asynchronous. The client driver must call  <b>UdecxWdfDeviceResetComplete</b> to notify the class extension when the reset operation is complete with appropriate status information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
+<a href="/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_reset">EVT_UDECX_WDF_DEVICE_RESET</a>
+<a href="/windows-hardware/drivers/ddi/udecxwdfdevice/nc-udecxwdfdevice-evt_udecx_wdf_device_reset">EVT_UDECX_WDF_DEVICE_RESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
-
+<a href="/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>

@@ -23,5 +23,4 @@ Thsi header defines function prototypes for accessing I/O ports and     memory o
 
 For information about accessing device registers, see:
 
-- [Reading and Writing to Device Registers](https://docs.microsoft.com/windows-hardware/drivers/wdf/reading-and-writing-to-device-registers)
-
+- [Reading and Writing to Device Registers](/windows-hardware/drivers/wdf/reading-and-writing-to-device-registers)

@@ -75,9 +75,8 @@ The PEP claims ownership of the device on behalf of the default PEP. The default
 
 ## -remarks
 
-This enumeration is used by <b>DeviceAccepted</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE_V2</a> structure to indicate whether a PEP accepts ownership of a device.
+This enumeration is used by <b>DeviceAccepted</b> member of the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE_V2</a> structure to indicate whether a PEP accepts ownership of a device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE_V2</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_device_v2">PEP_REGISTER_DEVICE_V2</a>

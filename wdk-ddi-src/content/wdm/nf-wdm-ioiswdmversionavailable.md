@@ -66,7 +66,7 @@ Specifies the minor version number of WDM that is requested.
 
 ## -remarks
 
-Drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a> routine instead of the <b>IoIsWdmVersionAvailable</b> routine.
+Drivers should use the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a> routine instead of the <b>IoIsWdmVersionAvailable</b> routine.
 
 Cross-platform drivers should use this routine to check the WDM version before performing any operations that vary by platform or are not supported in all versions of WDM.
 
@@ -213,25 +213,16 @@ Later versions of WDM support all the features available in earlier versions of 
 
 The following call returns <b>TRUE</b> on any of the listed operating systems, because all these systems support all the features of WDM 1.0:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>bVersion = IoIsWdmVersionAvailable(1,0);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+bVersion = IoIsWdmVersionAvailable(1,0);
+```
+
 The following example shows how a driver can dynamically detect the current operating system:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (IoIsWdmVersionAvailable(1, 0x10)) {
+
+```
+if (IoIsWdmVersionAvailable(1, 0x10)) {
     //
     //If WDM 1.10 is supported, this is Windows 2000
     //or better.
@@ -246,13 +237,11 @@ The following example shows how a driver can dynamically detect the current oper
     //WDM 1.0 is always supported, so this is Windows 98, 
     //Windows 98 SE, or better.
     //
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 As the example shows, calling <b>IoIsWdmVersionAvailable</b>(1, 5) returns <b>TRUE</b> on Windows Me, Windows 2000, and any succeeding operating systems, but <b>FALSE</b> on Windows 98 and Windows 98 SE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a>

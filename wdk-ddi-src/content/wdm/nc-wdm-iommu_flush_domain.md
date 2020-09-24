@@ -51,7 +51,7 @@ Flushes the TLB for all entries which match this domain.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -76,4 +76,3 @@ IOMMU_FLUSH_DOMAIN *PIOMMU_FLUSH_DOMAIN
 ## -remarks
 
 ## -see-also
-

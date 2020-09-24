@@ -63,7 +63,7 @@ The file object pointer for the file.
 ### -param Buffer 
 
 [in]
-A pointer to a caller-supplied, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that contains the quota information entries to be set.
+A pointer to a caller-supplied, <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that contains the quota information entries to be set.
 
 ### -param Length 
 
@@ -94,13 +94,12 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryquotainformationfile">FltQueryQuotaInformationFile</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryquotainformationfile">FltQueryQuotaInformationFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567105">ZwSetQuotaInformationFile</a>
-
+<a href="/previous-versions/ff567105(v=vs.85)">ZwSetQuotaInformationFile</a>

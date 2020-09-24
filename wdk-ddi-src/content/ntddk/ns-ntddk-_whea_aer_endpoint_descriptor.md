@@ -72,7 +72,7 @@ The endpoint's bus number.
 
 ### -field Slot
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the endpoint is located in the system.
+A <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the endpoint is located in the system.
 
 ### -field DeviceControl
 
@@ -82,13 +82,9 @@ The contents of the endpoint's Device Control register.
 
 An AER_ENDPOINT_DESCRIPTOR_FLAGS union that indicates which of the members of the WHEA_AER_ENDPOINT_DESCRIPTOR structure can be written to by the operating system. The AER_ENDPOINT_DESCRIPTOR_FLAGS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _AER_ENDPOINT_DESCRIPTOR_FLAGS {
+
+```
+typedef union _AER_ENDPOINT_DESCRIPTOR_FLAGS {
   struct {
     USHORT  UncorrectableErrorMaskRW:1;
     USHORT  UncorrectableErrorSeverityRW:1;
@@ -97,10 +93,9 @@ An AER_ENDPOINT_DESCRIPTOR_FLAGS union that indicates which of the members of th
     USHORT  Reserved:12;
   };
   USHORT  AsUSHORT;
-} AER_ENDPOINT_DESCRIPTOR_FLAGS, *PAER_ENDPOINT_DESCRIPTOR_FLAGS</pre>
-</td>
-</tr>
-</table></span></div>
+} AER_ENDPOINT_DESCRIPTOR_FLAGS, *PAER_ENDPOINT_DESCRIPTOR_FLAGS
+```
+
 
 
 
@@ -157,13 +152,12 @@ The contents of the endpoint's Advanced Error Capabilities and Control register.
 
 ## -remarks
 
-A WHEA_AER_ENDPOINT_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A WHEA_AER_ENDPOINT_DESCRIPTOR structure is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a>

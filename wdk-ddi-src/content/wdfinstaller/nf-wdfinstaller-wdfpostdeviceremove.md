@@ -61,7 +61,7 @@ A pointer to a null-terminated wide-character string that contains the directory
 ### -param InfSectionName 
 
 [in, optional]
-A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
+A pointer to a null-terminated wide-character string that contains the <i>Wdf-install-section</i> name in the driver's INF file. For more information about this name, see <a href="/windows-hardware/drivers/wdf/installing-the-framework-s-co-installer">Using the KMDF Co-installer</a>. If this pointer is <b>NULL</b>, the co-installer uses <b>WdfSection</b> for the name.
 
 ## -returns
 
@@ -73,16 +73,15 @@ The installer for the framework-based drivers of a non-PnP device must call <b>W
 
 To obtain the address of the co-installer's <b>WdfPostDeviceRemove</b> function, the installer must call <b>GetProcAddress</b> after the installer has called <b>LoadLibrary</b> to load the co-installer.
 
-For more information about the <b>WdfPostDeviceRemove</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-a-non-pnp-driver">Installing a Non-PnP Driver</a>. For more information about <b>DeleteService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
+For more information about the <b>WdfPostDeviceRemove</b> function and installers for framework-based drivers of non-PnP devices, see <a href="/windows-hardware/drivers/wdf/installing-a-non-pnp-driver">Installing a Non-PnP Driver</a>. For more information about <b>DeleteService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
 
 
 #### Examples
 
-For a code example that uses the <b>WdfPostDeviceRemove</b> function, see the installer for the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
+For a code example that uses the <b>WdfPostDeviceRemove</b> function, see the installer for the <a href="/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceremove">WdfPreDeviceRemove</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceremove">WdfPreDeviceRemove</a>

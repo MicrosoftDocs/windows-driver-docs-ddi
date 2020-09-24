@@ -64,34 +64,24 @@ The <b>StorPortConvertUlongToPhysicalAddress</b> routine returns the physical ad
 
 <b>StorPortConvertUlongToPhysicalAddress</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent physical addresses.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef PHYSICAL_ADDRESS STOR_PHYSICAL_ADDRESS, *PSTOR_PHYSICAL_ADDRESS;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+typedef PHYSICAL_ADDRESS STOR_PHYSICAL_ADDRESS, *PSTOR_PHYSICAL_ADDRESS;
+
+```
+
 The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data type that Storport miniport drivers use to represent either a physical addresses or a bus-relative address. 
 
 The StorPortConvertPhysicalAddressToULong64 macro converts a physical address to a ULONG64 value.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ULONG64 StorPortConvertPhysicalAddressToULong64(
+
+```cpp
+ULONG64 StorPortConvertPhysicalAddressToULong64(
   [in] STOR_PHYSICAL_ADDRESS Address
 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 
 <table>

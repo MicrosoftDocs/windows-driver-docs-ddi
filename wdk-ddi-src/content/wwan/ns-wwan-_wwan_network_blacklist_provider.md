@@ -68,9 +68,8 @@ A list of **WWAN_NETWORK_BLACKLIST_PROVIDER** structures follows the **Blacklist
 
 ## -see-also
 
-[MB Network Blacklist Operations](https://docs.microsoft.com/windows-hardware/drivers/network/mb-network-blacklist-operations)
+[MB Network Blacklist Operations](/windows-hardware/drivers/network/mb-network-blacklist-operations)
 
 [**WWAN_NETWORK_BLACKLIST_INFO**](ns-wwan-_wwan_network_blacklist_info.md)
 
 [**WWAN_NETWORK_BLACKLIST_TYPE**](ne-wwan-_wwan_network_blacklist_type.md)
-

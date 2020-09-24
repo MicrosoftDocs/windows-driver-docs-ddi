@@ -55,5 +55,4 @@ This property is read-only.
 
 ## -see-also
 
-[IPrintSchemaElement](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)
-
+[IPrintSchemaElement](./nn-printerextension-iprintschemaelement.md)

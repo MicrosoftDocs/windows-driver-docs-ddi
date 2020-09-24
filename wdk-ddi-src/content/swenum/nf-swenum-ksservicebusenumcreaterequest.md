@@ -73,5 +73,4 @@ Returns STATUS_SUCCESS if successful. Otherwise. it returns STATUS_OBJECT_NAME_N
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksservicebusenumpnprequest">KsServiceBusEnumPnpRequest</a>
-
+<a href="/windows-hardware/drivers/ddi/swenum/nf-swenum-ksservicebusenumpnprequest">KsServiceBusEnumPnpRequest</a>

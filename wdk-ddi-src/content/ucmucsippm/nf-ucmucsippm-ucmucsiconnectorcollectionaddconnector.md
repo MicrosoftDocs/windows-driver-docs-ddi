@@ -58,7 +58,7 @@ Adds a connector to the connector collection object.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 
@@ -71,4 +71,3 @@ The client driver must not call **UcmUcsiConnectorCollectionAddConnector** after
 [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md)
 
 [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md)
-

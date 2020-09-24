@@ -50,29 +50,28 @@ The <code>IDmaChannel</code> interface provides an abstraction of a DMA channel 
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavepci-newmasterdmachannel">IPortWavePci::NewMasterDmaChannel</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavepci-newmasterdmachannel">IPortWavePci::NewMasterDmaChannel</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavecyclic-newmasterdmachannel">IPortWaveCyclic::NewMasterDmaChannel</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavecyclic-newmasterdmachannel">IPortWaveCyclic::NewMasterDmaChannel</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavecyclic-newslavedmachannel">IPortWaveCyclic::NewSlaveDmaChannel</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavecyclic-newslavedmachannel">IPortWaveCyclic::NewSlaveDmaChannel</a>
 
 
 </dd>
-</dl>A miniport driver can also implement its own <code>IDmaChannel</code> interface if it requires capabilities that are not in the port driver's default implementation. For more information about this, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/wave-filters">Wave Filters</a>. When the port driver calls the miniport driver's <b>NewStream</b> method (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavecyclic-newstream">IMiniportWaveCyclic::NewStream</a>), the method outputs the miniport driver's <code>IDmaChannel</code> object to the port driver. <code>IDmaChannel</code> inherits from the <b>IUnknown</b> interface.
+</dl>A miniport driver can also implement its own <code>IDmaChannel</code> interface if it requires capabilities that are not in the port driver's default implementation. For more information about this, see <a href="/windows-hardware/drivers/audio/wave-filters">Wave Filters</a>. When the port driver calls the miniport driver's <b>NewStream</b> method (for example, <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavecyclic-newstream">IMiniportWaveCyclic::NewStream</a>), the method outputs the miniport driver's <code>IDmaChannel</code> object to the port driver. <code>IDmaChannel</code> inherits from the <b>IUnknown</b> interface.
 
 The current implementation of the <code>IDmaChannel</code> interface in Portcls.sys is not multithread-safe because it does not internally synchronize access to shared data. Typically, a single driver thread calls the methods of an <code>IDmaChannel</code> object. In this case, there is no risk of two method calls simultaneously accessing the same data. However, if multiple threads can potentially call the methods of an <code>IDmaChannel</code> object at the same time, the driver writer must synchronize the method calls to prevent internal data corruption.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/dma-channel-objects">DMA Channel Objects</a>.
+For more information, see <a href="/windows-hardware/drivers/audio/dma-channel-objects">DMA Channel Objects</a>.
 
 
 > [!NOTE]
 > Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
-

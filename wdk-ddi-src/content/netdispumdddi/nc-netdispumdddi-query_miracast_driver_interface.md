@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Called by the operating system to query the Miracast user-mode driver interface, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>.
+Called by the operating system to query the Miracast user-mode driver interface, <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ The size, supplied by the operating system, of the buffer pointed to by <i>pMira
 ### -param pMiracastDriverInterface 
 
 [out]
-A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>.
+A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>.
 
 ## -returns
 
@@ -73,16 +73,15 @@ On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function
 
 ## -remarks
 
-When the Miracast user-mode driver is loaded, the operating system calls the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function with "QueryMiracastDriverInterface" entered as the function name in the <i>lpProcName</i> parameter.
+When the Miracast user-mode driver is loaded, the operating system calls the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function with "QueryMiracastDriverInterface" entered as the function name in the <i>lpProcName</i> parameter.
 
 <div class="alert"><b>Note</b>  If the Miracast user-mode driver doesn't supply a function with this name, the operating system fails the Miracast display device.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>
-
+<a href="/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>

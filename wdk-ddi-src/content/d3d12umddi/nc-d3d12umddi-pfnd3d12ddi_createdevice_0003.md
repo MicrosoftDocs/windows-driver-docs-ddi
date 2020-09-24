@@ -54,11 +54,11 @@ The PFND3D12DDI_CREATEDEVICE_0003 function creates a graphics context that is re
 
 ### -param Arg1
 
-A handle to the graphics adapter object that was created with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_openadapter">PFND3D12DDI_OPENADAPTER</a> function.
+A handle to the graphics adapter object that was created with the <a href="/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_openadapter">PFND3D12DDI_OPENADAPTER</a> function.
 
 ### -param Arg2
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddiarg_createdevice_0003">D3D12DDIARG_CREATEDEVICE</a> structure.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddiarg_createdevice_0003">D3D12DDIARG_CREATEDEVICE</a> structure.
 
 ## -returns
 
@@ -67,6 +67,5 @@ PFND3D12DDI_CREATEDEVICE_0003 returns one of the following values:
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The graphics context was successfully created. | 
-| **DXGI_STATUS_NO_REDIRECTION** | The graphics context was successfully created. However, the DirectX Graphics Infrastructure (DXGI) should not use the shared resource presentation path to effect communication with the Desktop Windows Manager (DWM). For more information about the DXGI DDI, see [Supporting the DXGI DDI](https://docs.microsoft.com/windows-hardware/drivers/display/supporting-the-dxgi-ddi) . | 
+| **DXGI_STATUS_NO_REDIRECTION** | The graphics context was successfully created. However, the DirectX Graphics Infrastructure (DXGI) should not use the shared resource presentation path to effect communication with the Desktop Windows Manager (DWM). For more information about the DXGI DDI, see [Supporting the DXGI DDI](/windows-hardware/drivers/display/supporting-the-dxgi-ddi) . | 
 | **E_OUTOFMEMORY** |             PFND3D12DDI_CREATEDEVICE_0003 could not allocate the memory that was required for it to complete. |
-

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-connection-startat">KSPROPERTY_CONNECTION_STARTAT</a> property is passed a KSRELATIVEEVENT structure.
+The <a href="/windows-hardware/drivers/stream/ksproperty-connection-startat">KSPROPERTY_CONNECTION_STARTAT</a> property is passed a KSRELATIVEEVENT structure.
 
 ## -struct-fields
 
@@ -72,9 +72,8 @@ Reserved and set to zero.
 
 ### -field Event
 
-A <a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a> structure that contains the event to be used.
+A <a href="/previous-versions/ff561744(v=vs.85)">KSEVENT</a> structure that contains the event to be used.
 
 ### -field EventData
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that specifies the header for the event-specific data. The header itself is not actually used except as a starting point to access the event-specific data, and must be initialized to zero.
-
+A <a href="/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure that specifies the header for the event-specific data. The header itself is not actually used except as a starting point to access the event-specific data, and must be initialized to zero.

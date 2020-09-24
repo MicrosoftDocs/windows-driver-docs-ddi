@@ -58,7 +58,7 @@ A handle to the display device (graphics context).
 
 ### -param FlushFlags
 
-A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_flush_flags">D3DDDI_FLUSH_FLAGS</a> enumeration that indicates whether the driver should continue to submit command buffers if there have been no new commands.
+A value from the <a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_flush_flags">D3DDDI_FLUSH_FLAGS</a> enumeration that indicates whether the driver should continue to submit command buffers if there have been no new commands.
 
 ## -returns
 
@@ -66,5 +66,4 @@ If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_flush_flags">D3DDDI_FLUSH_FLAGS</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_flush_flags">D3DDDI_FLUSH_FLAGS</a>

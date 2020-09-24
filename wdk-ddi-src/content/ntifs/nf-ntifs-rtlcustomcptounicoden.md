@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicoden">RtlMultiByteToUnicodeN</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemtounicoden">RtlOemToUnicodeN</a>.
+The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlmultibytetounicoden">RtlMultiByteToUnicodeN</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemtounicoden">RtlOemToUnicodeN</a>.
 
 ## -parameters
 
@@ -73,4 +73,3 @@ Reserved.
 ### -param BytesInCustomCPString
 
 Reserved.
-

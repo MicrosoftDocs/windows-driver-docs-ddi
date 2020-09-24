@@ -62,7 +62,7 @@ A handle to the display device (graphics context).
 
 *Format* [in]
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) typed value that indicates the pixel format to retrieve capabilities for.
+A [DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) typed value that indicates the pixel format to retrieve capabilities for.
 
 ### -param Arg3
 
@@ -93,14 +93,14 @@ A pointer to a variable that receives a valid bitwise <b>OR</b> of the following
 
 ## -remarks
 
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
+The driver can use the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
-The driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function to set <b>E_FAIL</b> if the format in the <i>Format</i> parameter does not exist or can set <b>E_INVALIDARG</b> if the <i>pFormatCaps</i> parameter is <b>NULL</b>.
+The driver can call the <a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function to set <b>E_FAIL</b> if the format in the <i>Format</i> parameter does not exist or can set <b>E_INVALIDARG</b> if the <i>pFormatCaps</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
 
 
 
@@ -108,9 +108,8 @@ The driver can call the <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxgi-format-r10g10b10-xr-bias-a2-unorm">DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM</a>
+<a href="/windows-hardware/drivers/display/dxgi-format-r10g10b10-xr-bias-a2-unorm">DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
-
+<a href="/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>

@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
+The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
 
 ## -parameters
 
 ### -param Descriptor 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to update.
+A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure to update.
 
 ### -param Type 
 
@@ -96,7 +96,7 @@ The maximum address that can be assigned to the device.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure was updated.
+The <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure was updated.
 
 </td>
 </tr>
@@ -167,9 +167,8 @@ Lowest 32 bits must be zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource">RtlIoDecodeMemIoResource</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtliodecodememioresource">RtlIoDecodeMemIoResource</a>

@@ -76,11 +76,10 @@ Retrieves the redirected location for the specified SourceID from the redirectio
 
 ## -returns
 
-Returns an NTSTATUS value that indicates the success of failure of the operation. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Returns an NTSTATUS value that indicates the success of failure of the operation. Otherwise returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 ## -see-also
 
 [**STATE_LOCATION_TYPE**](ne-ntddk-_state_location_type.md)
-

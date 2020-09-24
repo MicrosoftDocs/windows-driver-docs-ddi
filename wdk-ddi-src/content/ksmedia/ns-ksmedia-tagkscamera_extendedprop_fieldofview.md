@@ -72,5 +72,4 @@ Reserved. Set to 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-fieldofview">KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW</a>
-
+<a href="/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-fieldofview">KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The STINOTIFY structure is used as a parameter to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543796(v=vs.85)">IStillImage::LaunchApplicationForDevice</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata">IStiDevice::GetLastNotificationData</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getnotificationdata">IStiUSD::GetNotificationData</a> methods.
+The STINOTIFY structure is used as a parameter to the <a href="/previous-versions/windows/hardware/drivers/ff543796(v=vs.85)">IStillImage::LaunchApplicationForDevice</a>, <a href="/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata">IStiDevice::GetLastNotificationData</a>, and <a href="/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getnotificationdata">IStiUSD::GetNotificationData</a> methods.
 
 ## -struct-fields
 
@@ -60,9 +60,8 @@ Caller-supplied size, in bytes, of the STINOTIFY structure.
 
 ### -field guidNotificationCode
 
-GUID of the event. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/still-image-device-events">Still Image Device Events</a>.
+GUID of the event. For more information, see <a href="/windows-hardware/drivers/image/still-image-device-events">Still Image Device Events</a>.
 
 ### -field abNotificationData
 
 Byte array containing optional, vendor-defined information.
-

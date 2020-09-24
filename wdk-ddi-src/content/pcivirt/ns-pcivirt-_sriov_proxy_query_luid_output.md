@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Stores the local unique
-identifier of the SR_IOV device implementing the interface. This structure is the output buffer for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_proxy_query_luid">IOCTL_SRIOV_PROXY_QUERY_LUID</a> request.
+identifier of the SR_IOV device implementing the interface. This structure is the output buffer for the <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_proxy_query_luid">IOCTL_SRIOV_PROXY_QUERY_LUID</a> request.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ typedef struct _SRIOV_PROXY_QUERY_LUID_OUTPUT {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_proxy_query_luid">IOCTL_SRIOV_PROXY_QUERY_LUID</a>
-
+<a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_proxy_query_luid">IOCTL_SRIOV_PROXY_QUERY_LUID</a>

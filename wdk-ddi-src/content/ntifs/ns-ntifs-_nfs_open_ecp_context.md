@@ -56,23 +56,22 @@ The NFS_OPEN_ECP_CONTEXT structure is used by the Network File System (NFS) serv
 
 ### -field ExportAlias
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the export alias (share name) for the NFS server that contains the files to be opened. This member is a hint and can be a name, <b>NULL</b>, or a zero-length string.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the export alias (share name) for the NFS server that contains the files to be opened. This member is a hint and can be a name, <b>NULL</b>, or a zero-length string.
 
 ### -field ClientSocketAddress
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure that specifies the transport address of the client computer. This client originates the open file request.
+A pointer to a <a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure that specifies the transport address of the client computer. This client originates the open file request.
 
 ## -remarks
 
-The file-system stack can determine whether NFS_OPEN_ECP_CONTEXT is attached to the create file request. The file-system stack can then use the information in NFS_OPEN_ECP_CONTEXT to determine the client that requested that the file be opened and why it was requested. For information about how to retrieve the NFS_OPEN_ECP_CONTEXT extra information that is attached to a create file request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/using-ecps-to-process-irp-mj-create-operations-in-a-file-system-filter">Retrieving ECPs</a>. 
+The file-system stack can determine whether NFS_OPEN_ECP_CONTEXT is attached to the create file request. The file-system stack can then use the information in NFS_OPEN_ECP_CONTEXT to determine the client that requested that the file be opened and why it was requested. For information about how to retrieve the NFS_OPEN_ECP_CONTEXT extra information that is attached to a create file request, see <a href="/windows-hardware/drivers/ifs/using-ecps-to-process-irp-mj-create-operations-in-a-file-system-filter">Retrieving ECPs</a>. 
 
-The NFS_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about the open file ECP only. For more information about this issue, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/system-defined-ecps">System-Defined ECPs</a>.
+The NFS_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve information about the open file ECP only. For more information about this issue, see <a href="/windows-hardware/drivers/ifs/system-defined-ecps">System-Defined ECPs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a>
+<a href="/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

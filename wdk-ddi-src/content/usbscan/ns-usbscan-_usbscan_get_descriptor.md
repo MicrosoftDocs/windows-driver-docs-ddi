@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_usb_descriptor">IOCTL_GET_USB_DESCRIPTOR</a>.
+The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to <a href="/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_usb_descriptor">IOCTL_GET_USB_DESCRIPTOR</a>.
 
 ## -struct-fields
 
 ### -field DescriptorType
 
-Same as the <i>DescriptorType</i> parameter to <a href="https://docs.microsoft.com/previous-versions/ff538943(v=vs.85)">UsbBuildGetDescriptorRequest</a>.
+Same as the <i>DescriptorType</i> parameter to <a href="/previous-versions/ff538943(v=vs.85)">UsbBuildGetDescriptorRequest</a>.
 
 ### -field Index
 
@@ -65,4 +65,3 @@ Same as the <i>Index</i> parameter to <b>UsbBuildGetDescriptorRequest</b>.
 ### -field LanguageId
 
 Same as the <i>LanguageId</i> parameter to <b>UsbBuildGetDescriptorRequest</b>.
-

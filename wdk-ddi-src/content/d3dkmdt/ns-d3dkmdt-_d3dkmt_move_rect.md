@@ -54,17 +54,16 @@ Provides information on a screen-to-screen move and a dirty rectangle copy opera
 
 ### -field SourcePoint
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the source (<i>x, y</i>) point where the source rectangle is copied from.
+A <a href="/windows/win32/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the source (<i>x, y</i>) point where the source rectangle is copied from.
 
 ### -field DestRect
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that contains the destination rectangle where the dirty rectangle is copied to.
+A <a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a> structure that contains the destination rectangle where the dirty rectangle is copied to.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-tagpoint">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
-
+<a href="/windows/win32/api/windef/ns-windef-tagrect">RECT</a>

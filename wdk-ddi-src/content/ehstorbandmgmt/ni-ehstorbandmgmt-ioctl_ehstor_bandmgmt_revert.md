@@ -54,39 +54,29 @@ This <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request is sent to deactivate the secur
 
 The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <b> ACTIVATE_REVERT_PARAMETERS</b>  structure. <b>ACTIVATE_REVERT_PARAMETERS</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _ACTIVATE_REVERT_PARAMETERS
+
+```
+typedef struct _ACTIVATE_REVERT_PARAMETERS
 {
     ULONG           StructSize;
     ULONG           Flags;
     ULONG           AuthKeyOffset;
-} ACTIVATE_REVERT_PARAMETERS;</pre>
-</td>
-</tr>
-</table></span></div>
+} ACTIVATE_REVERT_PARAMETERS;
+```
+
 
 
 Following <b>ACTIVATE_REVERT_PARAMETERS</b> in the system buffer is an <b>AUTH_KEY</b> structure. This holds the key data bytes for the authentication key. <b>AUTH_KEY</b> is declared in <i>ehstorbandmgmt.h</i> as the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _AUTH_KEY
+
+```
+typedef struct _AUTH_KEY
 {
     ULONG   KeySize;
     UCHAR   Key[ANYSIZE_ARRAY];
-} AUTH_KEY;</pre>
-</td>
-</tr>
-</table></span></div>
+} AUTH_KEY;
+```
+
 
 ### -input-buffer-length
 
@@ -180,13 +170,12 @@ The size of the structure. This is set to <b>sizeof</b>(ACTIVATE_REVERT_PARAMETE
 
 ## -remarks
 
-On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the storage device will return to an inactive security state and all band management IOCTLs, except for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>, become unavailable.
+On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the storage device will return to an inactive security state and all band management IOCTLs, except for <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> and <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>, become unavailable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
+<a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
-
+<a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>

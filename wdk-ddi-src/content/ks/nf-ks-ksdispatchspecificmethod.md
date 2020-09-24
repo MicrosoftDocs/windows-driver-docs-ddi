@@ -73,5 +73,4 @@ The <b>KsDispatchSpecificMethod</b> function is intended for additional processi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler">KsMethodHandler</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler">KsMethodHandler</a>

@@ -63,7 +63,7 @@ A handle to a framework string object.
 ### -param UnicodeString 
 
 [out]
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives a pointer to the Unicode string that is currently assigned to the string object that <i>String</i> specifies.
+A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives a pointer to the Unicode string that is currently assigned to the string object that <i>String</i> specifies.
 
 ## -remarks
 
@@ -75,7 +75,7 @@ After <b>WdfStringGetUnicodeString</b> returns, the UNICODE_STRING structure tha
 
  The framework does not make a copy of the string for the driver.
 
-For more information about framework string objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
+For more information about framework string objects, see <a href="/windows-hardware/drivers/wdf/using-string-objects">Using String Objects</a>.
 
 
 #### Examples
@@ -93,9 +93,8 @@ WdfStringGetUnicodeString(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfstring/nf-wdfstring-wdfstringcreate">WdfStringCreate</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfstring/nf-wdfstring-wdfstringcreate">WdfStringCreate</a>

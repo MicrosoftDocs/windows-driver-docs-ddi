@@ -60,9 +60,9 @@ NDIS calls the
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param MiniportOffloadContext 
@@ -77,10 +77,10 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
 
 [in]
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. This structure
      may be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes one 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. Each NET_BUFFER structure
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. Each NET_BUFFER structure
      maps to a chain of memory descriptor lists (MDLs). The MDLs associated with a NET_BUFFER structure
      contain one and only one TCP segment that is being forwarded to the offload target. The first byte of
      the first MDL is the first byte of the TCP header. The NET_BUFFER_LIST and associated structures are
@@ -91,7 +91,7 @@ A pointer to a
 
 NDIS_STATUS_PENDING is the only allowable return value. An offload target always completes a
      forward request asynchronously by calling the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
+     <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
      NdisTcpOffloadForwardComplete</a> function.
 
 ## -remarks
@@ -146,24 +146,23 @@ When forwarding TCP segments, the host stack transfers one TCP segment per NET_B
 The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS passes to the 
     <i>MiniportTcpOffloadForward</i> function. The offload target owns these resources until it passes them to
     the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
+    <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
     NdisTcpOffloadForwardComplete</a> function. While it owns these resources, the offload target is free
     to queue them for processing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
+<a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-ndis_tcp_offload_forward_complete">
    NdisTcpOffloadForwardComplete</a>
-

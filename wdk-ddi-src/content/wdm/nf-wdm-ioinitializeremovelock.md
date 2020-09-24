@@ -58,9 +58,9 @@ Pointer to a caller-supplied <b>IO_REMOVE_LOCK</b> structure that this routine i
 ### -param Tag 
 
 [in]
-Specifies a tag to identify the creator of the lock. Driver writers typically use a 4-character string, specified in reverse order, like the tags used for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
+Specifies a tag to identify the creator of the lock. Driver writers typically use a 4-character string, specified in reverse order, like the tags used for <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
-The I/O system uses this parameter if <a href="https://docs.microsoft.com/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> is enabled. The caller should always supply a nonzero tag value for this parameter.
+The I/O system uses this parameter if <a href="/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> is enabled. The caller should always supply a nonzero tag value for this parameter.
 
 ### - param Maxmin 
 [in]
@@ -76,29 +76,28 @@ The I/O system uses this parameter if Driver Verifier is enabled.
 
 ## -remarks
 
-A driver can use a remove lock to track outstanding I/O operations on a device and to determine when the driver can delete its device object in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request.
+A driver can use a remove lock to track outstanding I/O operations on a device and to determine when the driver can delete its device object in response to an <a href="/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request.
 
-Before calling <b>IoInitializeRemoveLock</b>, a driver should allocate an <b>IO_REMOVE_LOCK</b> structure in its <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">device extension</a>. A driver typically calls <b>IoInitializeRemoveLock</b> in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine, when the driver initializes the rest of the device extension for a device object.
+Before calling <b>IoInitializeRemoveLock</b>, a driver should allocate an <b>IO_REMOVE_LOCK</b> structure in its <a href="/windows-hardware/drivers/kernel/device-extensions">device extension</a>. A driver typically calls <b>IoInitializeRemoveLock</b> in its <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine, when the driver initializes the rest of the device extension for a device object.
 
-After the <b>IoReleaseRemoveLockAndWait</b> routine returns, the driver should consider the device to be in a state in which it is ready to be removed and cannot perform I/O operations. Therefore, the driver must not call <b>IoInitializeRemoveLock</b> to re-initialize the remove lock. Violation of this rule while the driver is being verified by <a href="https://docs.microsoft.com/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> will result in a bug check.
+After the <b>IoReleaseRemoveLockAndWait</b> routine returns, the driver should consider the device to be in a state in which it is ready to be removed and cannot perform I/O operations. Therefore, the driver must not call <b>IoInitializeRemoveLock</b> to re-initialize the remove lock. Violation of this rule while the driver is being verified by <a href="/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> will result in a bug check.
 
-Because the driver stores the <b>IO_REMOVE_LOCK</b> structure in the device extension of a device object, the remove lock is deleted when the driver deletes the device extension as part of processing an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request.
+Because the driver stores the <b>IO_REMOVE_LOCK</b> structure in the device extension of a device object, the remove lock is deleted when the driver deletes the device extension as part of processing an <a href="/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-remove-locks">Using Remove Locks</a>.
+For more information, see <a href="/windows-hardware/drivers/kernel/using-remove-locks">Using Remove Locks</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioacquireremovelock">IoAcquireRemoveLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeremovelock">IoInitializeRemoveLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelock">IoReleaseRemoveLock</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelock">IoReleaseRemoveLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioreleaseremovelockandwait">IoReleaseRemoveLockAndWait</a>

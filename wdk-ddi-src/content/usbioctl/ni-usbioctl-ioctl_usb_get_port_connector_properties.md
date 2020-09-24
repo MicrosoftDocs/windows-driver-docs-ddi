@@ -54,9 +54,9 @@ The <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> I/O control request is sent b
 
 ### -input-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a caller-allocated    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a> structure. The caller must set the structure members as follows:<ul>
+<b>AssociatedIrp.SystemBuffer</b> points to a caller-allocated    <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a> structure. The caller must set the structure members as follows:<ul>
 <li>
-The caller must specify the port number of the port being queried in the <b>ConnectionIndex</b> member.  <b>ConnectionIndex</b> must be a value in the range of 1 to <i>n</i>, where <i>n</i> is the highest port number retrieved in a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request.
+The caller must specify the port number of the port being queried in the <b>ConnectionIndex</b> member.  <b>ConnectionIndex</b> must be a value in the range of 1 to <i>n</i>, where <i>n</i> is the highest port number retrieved in a previous <a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request.
 
 </li>
 <li>
@@ -73,7 +73,7 @@ The <b>Parameters.DeviceIoControl.InputBufferLength</b> member indicates the siz
 
 ### -output-buffer
 
-On output, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a>, pointed to by  <b>AssociatedIrp.SystemBuffer</b>,  is filled with information about the physical connector associated with the port.
+On output, <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a>, pointed to by  <b>AssociatedIrp.SystemBuffer</b>,  is filled with information about the physical connector associated with the port.
 
 ### -output-buffer-length
 
@@ -89,19 +89,18 @@ The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request 
 
 ## -remarks
 
-The caller must supply a buffer that is large enough to hold a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a> structure and  the symbolic link name of a companion hub, if such a hub is associated with the specified port. To obtain the size of the buffer to allocate, the caller must send a <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> request. In the request, <b>AssociatedIrp.SystemBuffer</b> must be a caller-allocated <b>USB_PORT_CONNECTOR_PROPERTIES</b> structure and <b>Parameters.DeviceIoControl.InputBufferLength</b> must be  <code>sizeof(USB_PORT_CONNECTOR_PROPERTIES)</code>. Upon successful completion, the <b>ActualLength</b> member of <b>USB_PORT_CONNECTOR_PROPERTIES</b> indicates the actual size of the  buffer. If a symbolic link name exists, the received value includes the size of the string that stores the link name. 
+The caller must supply a buffer that is large enough to hold a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a> structure and  the symbolic link name of a companion hub, if such a hub is associated with the specified port. To obtain the size of the buffer to allocate, the caller must send a <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> request. In the request, <b>AssociatedIrp.SystemBuffer</b> must be a caller-allocated <b>USB_PORT_CONNECTOR_PROPERTIES</b> structure and <b>Parameters.DeviceIoControl.InputBufferLength</b> must be  <code>sizeof(USB_PORT_CONNECTOR_PROPERTIES)</code>. Upon successful completion, the <b>ActualLength</b> member of <b>USB_PORT_CONNECTOR_PROPERTIES</b> indicates the actual size of the  buffer. If a symbolic link name exists, the received value includes the size of the string that stores the link name. 
 
 Based on the <b>ActualLength</b> value, the caller can then allocate a buffer and send the  <b>IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</b> request again. After the request completes, the buffer is filled with port information and the <b>CompanionHubSymbolicLinkName</b> member is a Unicode string that contains the symbolic link  name of the companion hub.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_port_connector_properties">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
+<a href="/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_port_connector_properties">IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_information_ex">USB_HUB_INFORMATION_EX</a>
+<a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_information_ex">USB_HUB_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a>
-
+<a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_port_connector_properties">USB_PORT_CONNECTOR_PROPERTIES</a>

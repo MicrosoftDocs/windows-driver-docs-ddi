@@ -49,7 +49,7 @@ api_name:
 The filter engine calls the 
   <i>FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i> callout function to notify the callout driver about events that are
   associated with packets tagged by the callout.
-<div class="alert"><b>Note</b>  <i>FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i> is the specific version of <i>FWPS_NET_BUFFER_LIST_NOTIFY_FN</i> used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn1">FWPS_NET_BUFFER_LIST_NOTIFY_FN1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <i>FWPS_NET_BUFFER_LIST_NOTIFY_FN0</i> is the specific version of <i>FWPS_NET_BUFFER_LIST_NOTIFY_FN</i> used in Windows 7 and later. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn1">FWPS_NET_BUFFER_LIST_NOTIFY_FN1</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The filter engine calls the
 [in]
 A value that indicates the type of notification that the filter engine is sending to the callout.
      This parameter will be set to one of the values of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_net_buffer_list_event_type0_">
+     <a href="/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_net_buffer_list_event_type0_">
      FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a> enumeration.
 
 ### -param netBufferList 
@@ -94,37 +94,36 @@ The context tag used to associate the packets of interest with the context of th
 ## -remarks
 
 This function is associated with a callout driver by a call to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">
+    <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">
     FwpsNetBufferListAssociateContext0</a>. A callout driver can use a single notification function to
     handle messages for multiple associated buffer lists by using the context and context tag to
     differentiate between instances.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
+<a href="/windows-hardware/drivers/ddi/_netvista/">Callout Driver Callout Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout0_">FWPS_CALLOUT0</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_callout0_">FWPS_CALLOUT0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
+<a href="/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn1">
+<a href="/windows-hardware/drivers/ddi/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn1">
   FWPS_NET_BUFFER_LIST_NOTIFY_FN1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>
+<a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-packet-tagging">Using Packet Tagging</a>
+<a href="/windows-hardware/drivers/network/using-packet-tagging">Using Packet Tagging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
-
+<a href="/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>

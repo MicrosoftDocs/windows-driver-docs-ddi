@@ -97,13 +97,12 @@ On checked builds, <b>RxPrefixTableLookupName</b> causes the system to ASSERT if
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/nf-prefix-rxpacquireprefixtablelockexclusive">RxpAcquirePrefixTableLockExclusive</a>
+<a href="/windows-hardware/drivers/ddi/prefix/nf-prefix-rxpacquireprefixtablelockexclusive">RxpAcquirePrefixTableLockExclusive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/nf-prefix-rxpacquireprefixtablelockshared">RxpAcquirePrefixTableLockShared</a>
+<a href="/windows-hardware/drivers/ddi/prefix/nf-prefix-rxpacquireprefixtablelockshared">RxpAcquirePrefixTableLockShared</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prefix/nf-prefix-rxpreleaseprefixtablelock">RxpReleasePrefixTableLock</a>
-
+<a href="/windows-hardware/drivers/ddi/prefix/nf-prefix-rxpreleaseprefixtablelock">RxpReleasePrefixTableLock</a>

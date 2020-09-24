@@ -73,5 +73,4 @@ The zero-based physical adapter index in a linked display adapter link.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_unmapcpuhostaperture">DxgkDdiUnmapCpuHostAperture</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_unmapcpuhostaperture">DxgkDdiUnmapCpuHostAperture</a>

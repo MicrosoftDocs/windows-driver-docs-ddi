@@ -58,7 +58,7 @@ The <b>PEP_PPM_PARK_SELECTION</b> structure indicates the preferences of the ope
 
 [in] The number of additional processors that need to be parked.
 
-This number includes all processors in the <b>Processors</b> array for which the PEP sets <b>PepPreference</b> to PROCESSOR_PARK_PREFERENCE_PARKED but the operating system sets <b>PoPreference</b> to either PROCESSOR_PARK_PREFERENCE_UNPARKED or PROCESSOR_PARK_PREFERENCE_NONE. For more information about these values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a>.
+This number includes all processors in the <b>Processors</b> array for which the PEP sets <b>PepPreference</b> to PROCESSOR_PARK_PREFERENCE_PARKED but the operating system sets <b>PoPreference</b> to either PROCESSOR_PARK_PREFERENCE_UNPARKED or PROCESSOR_PARK_PREFERENCE_NONE. For more information about these values, see <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a>.
 
 This number does <u>not</u> include processors in the <b>Processors</b> array for which the operating system sets the <b>PoPreference</b> value to PROCESSOR_PARK_PREFERENCE_PARKED.
 
@@ -68,7 +68,7 @@ This number does <u>not</u> include processors in the <b>Processors</b> array fo
 
 ### -field Processors
 
-[in/out] A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a> structures. The <b>Count</b> member specifies the number of elements in the array.
+[in/out] A pointer to an array of <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a> structures. The <b>Count</b> member specifies the number of elements in the array.
 
 
 
@@ -98,13 +98,12 @@ Returns the PEP parking preference for each processor.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_NOTIFY_PPM_PARK_SELECTION</a> notification. All three members of the structure contain input values that are set by the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) before this notification is sent to the PEP.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_NOTIFY_PPM_PARK_SELECTION</a> notification. All three members of the structure contain input values that are set by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) before this notification is sent to the PEP.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_NOTIFY_PPM_PARK_SELECTION</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_NOTIFY_PPM_PARK_SELECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_processor_park_preference">PEP_PROCESSOR_PARK_PREFERENCE</a>

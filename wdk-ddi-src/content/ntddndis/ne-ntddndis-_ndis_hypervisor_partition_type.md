@@ -52,7 +52,7 @@ api_name:
 
 <div class="alert"><b>Important</b>  <p class="note">Starting with Windows 10 Version 1703, NDIS_HYPERVISOR_PARTITION_TYPE is deprecated and should not be used.  Drivers are encouraged to move away from it, as it may not be available in future versions of the operating system. 
 
-<p class="note">Drivers should instead follow a hypervisor's instructions to query hypervisor presence and capabilities. For example, Hyper-V's instructions are documented in the <a href="https://docs.microsoft.com/virtualization/hyper-v-on-windows/reference/tlfs">Top-Level Functional Specification</a>.
+<p class="note">Drivers should instead follow a hypervisor's instructions to query hypervisor presence and capabilities. For example, Hyper-V's instructions are documented in the <a href="/virtualization/hyper-v-on-windows/reference/tlfs">Top-Level Functional Specification</a>.
 
 </div><div> </div>The <b>NDIS_HYPERVISOR_PARTITION_TYPE</b> enumeration identifies the current partition type that is running
   on the hypervisor.
@@ -83,9 +83,8 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -remarks
 
-For more information about Hyper-V parent and child partitions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/virtualized-networking-concepts-and-terms">Virtualized Networking Concepts and Terms</a>.
+For more information about Hyper-V parent and child partitions, see <a href="/windows-hardware/drivers/network/virtualized-networking-concepts-and-terms">Virtualized Networking Concepts and Terms</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a>

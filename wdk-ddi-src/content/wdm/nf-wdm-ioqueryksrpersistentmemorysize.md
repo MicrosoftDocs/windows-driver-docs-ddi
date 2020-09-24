@@ -1,11 +1,9 @@
 ---
 UID: NF:wdm.IoQueryKsrPersistentMemorySize
 title: IoQueryKsrPersistentMemorySize function
-author: windows-driver-content
 description: TBD
 tech.root: kernel
 ms.assetid: fdd9095f-124c-4bc5-a2da-5e126f92db95
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: IoQueryKsrPersistentMemorySize

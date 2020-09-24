@@ -60,5 +60,4 @@ Represents the index of the SIM slot. <b>SlotIndex</b> can be mapped to either a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_get_slot_info">NDIS_WWAN_GET_SLOT_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_get_slot_info">NDIS_WWAN_GET_SLOT_INFO</a>

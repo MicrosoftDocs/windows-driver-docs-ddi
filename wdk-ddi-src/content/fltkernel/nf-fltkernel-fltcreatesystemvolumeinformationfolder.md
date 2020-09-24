@@ -68,7 +68,7 @@ Opaque instance pointer for an instance that is attached to the volume.
 
 **FltCreateSystemVolumeInformationFolder** verifies the existence of the "System Volume Information" folder in the root directory of the volume to which the given *Instance* is attached.
 
-If the folder is not present, then the folder is created. If the volume is an NTFS volume, the folder is created with an access control list ([ACL](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)) containing one access control entry ([ACE](https://docs.microsoft.com/windows-hardware/drivers/ifs/ace)) indicating full access for the local SYSTEM account, and the ACE will have the inheritance bits set. The folder will be created with the FILE_ATTRIBUTE_HIDDEN and FILE_ATTRIBUTE_SYSTEM attributes set.
+If the folder is not present, then the folder is created. If the volume is an NTFS volume, the folder is created with an access control list ([ACL](../wdm/ns-wdm-_acl.md)) containing one access control entry ([ACE](/windows-hardware/drivers/ifs/ace)) indicating full access for the local SYSTEM account, and the ACE will have the inheritance bits set. The folder will be created with the FILE_ATTRIBUTE_HIDDEN and FILE_ATTRIBUTE_SYSTEM attributes set.
 
 If the folder is already present and the volume is an NTFS volume, the ACE that indicates full control for SYSTEM will be checked and if necessary modified to have the inheritance bits set.
 
@@ -76,9 +76,8 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-[ACE](https://docs.microsoft.com/windows-hardware/drivers/ifs/ace)
+[ACE](/windows-hardware/drivers/ifs/ace)
 
-[ACL](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)
+[ACL](../wdm/ns-wdm-_acl.md)
 
-[RtlCreateSystemVolumeInformationFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreatesystemvolumeinformationfolder)
-
+[RtlCreateSystemVolumeInformationFolder](../ntifs/nf-ntifs-rtlcreatesystemvolumeinformationfolder.md)

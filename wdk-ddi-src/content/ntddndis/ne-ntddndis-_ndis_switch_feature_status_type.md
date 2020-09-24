@@ -70,9 +70,9 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -remarks
 
-The <b>FeatureStatusType</b> member of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_parameters">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a> structure is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_property_type">NDIS_SWITCH_PROPERTY_TYPE</a> enumeration data type.
+The <b>FeatureStatusType</b> member of the  <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_parameters">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a> structure is an <a href="/windows-hardware/drivers/ddi/ntddndis/ne-ntddndis-_ndis_switch_property_type">NDIS_SWITCH_PROPERTY_TYPE</a> enumeration data type.
 
-For more information about extensible switch  policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
+For more information about extensible switch  policies, see <a href="/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
 
 ## -see-also
 
@@ -80,5 +80,4 @@ For more information about extensible switch  policies, see <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_parameters">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_feature_status_parameters">NDIS_SWITCH_FEATURE_STATUS_PARAMETERS</a>

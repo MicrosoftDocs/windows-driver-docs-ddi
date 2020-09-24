@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
+The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a <a href="/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
 
 ## -struct-fields
 
 ### -field LastRecoveredLsn
 
-The last <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/clfs-log-sequence-numbers">log sequence number</a> of the last log record that KTM obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">CLFS</a> during the most recent recovery operation.
+The last <a href="/windows-hardware/drivers/kernel/clfs-log-sequence-numbers">log sequence number</a> of the last log record that KTM obtained from <a href="/windows-hardware/drivers/kernel/using-common-log-file-system">CLFS</a> during the most recent recovery operation.
 
 ## -remarks
 
-The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a> routine.
+The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure is used with the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_transactionmanager_information_class">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_transactionmanager_information_class">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>

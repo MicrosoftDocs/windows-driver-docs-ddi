@@ -72,15 +72,14 @@ Contains a 64-bit fibre channel protocol (FCP) number for the logical unit.
 
 ## -remarks
 
-The WMI tool suite generates a declaration for this structure in <i>hbapiwm.h</i> after compiling the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hbafcpid-wmi-class">HBAFCPID WMI Class</a>.
+The WMI tool suite generates a declaration for this structure in <i>hbapiwm.h</i> after compiling the <a href="/windows-hardware/drivers/storage/hbafcpid-wmi-class">HBAFCPID WMI Class</a>.
 
 For more information about the fibre channel protocol (FCP), see the T11 committee's <i>dpANS Fibre Channel Protocol for SCSI</i> and <i>Fibre Channel HBA API</i> specifications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry">HBAFCPBindingEntry</a>
+<a href="/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry">HBAFCPBindingEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556062">HBA_FcpId</a>
-
+<a href="/previous-versions/ff556062(v=vs.85)">HBA_FcpId</a>

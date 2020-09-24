@@ -1,11 +1,9 @@
 ---
 UID: NF:netpoweroffload.NetPowerOffloadGetType
 title: NetPowerOffloadGetType function (netpoweroffload.h)
-author: windows-driver-content
 description: The NetPowerOffloadGetType function gets the power offload type for a low power protocol offload to a net adapter.
 tech.root: netvista
 ms.assetid: 04e24520-1ccd-4c27-8bad-ff4cac890e2e
-ms.author: windowsdriverdev
 ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetType function"]
 ms.keywords: NetPowerOffloadGetType
@@ -66,9 +64,8 @@ The client driver must only call **NetPowerOffloadGetType** during a power trans
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_POWER_OFFLOAD_TYPE**](../netpoweroffload/ne-netpoweroffload-_net_power_offload_type.md)
 
 [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md)
-

@@ -1,11 +1,9 @@
 ---
 UID: NF:netadapter.NetAdapterReportWakeReasonMediaChange
 title: NetAdapterReportWakeReasonMediaChange function (netadapter.h)
-author: windows-driver-content
 description: The NetAdapterReportWakeReasonMediaChange function reports to the framework that a net adapter generated a wake-up event because of a media change.
 tech.root: netvista
 ms.assetid: 877cde13-87d8-42e6-bf83-7ff81743bacc
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetAdapterReportWakeReasonMediaChange function"]
 ms.keywords: NetAdapterReportWakeReasonMediaChange
@@ -58,7 +56,7 @@ A handle to the NETADAPTER object.
 
 ### -param Reason
 
-A [**NET_IF_MEDIA_CONNECT_STATE**](https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state) value that specifies the network interface connection state that triggered the wake-up event.
+A [**NET_IF_MEDIA_CONNECT_STATE**](/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state) value that specifies the network interface connection state that triggered the wake-up event.
 
 ## -returns
 
@@ -68,7 +66,6 @@ This function does not return a value.
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
-[**NET_IF_MEDIA_CONNECT_STATE**](https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state)
-
+[**NET_IF_MEDIA_CONNECT_STATE**](/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state)

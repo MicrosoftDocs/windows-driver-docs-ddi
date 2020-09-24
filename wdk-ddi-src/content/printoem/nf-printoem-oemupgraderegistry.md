@@ -56,5 +56,4 @@ api_name:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupgraderegistrysetting">DrvUpgradeRegistrySetting</a>
-
+<a href="/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupgraderegistrysetting">DrvUpgradeRegistrySetting</a>

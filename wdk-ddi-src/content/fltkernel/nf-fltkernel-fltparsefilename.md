@@ -53,7 +53,7 @@ api_name:
 ### -param FileName 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the string to parse as a file name. This parameter is required and cannot be <b>NULL</b>.
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the string to parse as a file name. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param Extension 
 
@@ -80,16 +80,11 @@ Pointer to a UNICODE_STRING structure that receives the final name component par
 
 The following is an example of a normalized name for a local file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+\Device\HarddiskVolume1\Documents and Settings\MyUser\My Documents\Test Results.txt:stream1
+```
+
 <b>FltParseFileName</b> parses this normalized name as follows: 
 
 <i>Extension</i>: "txt" 
@@ -100,16 +95,11 @@ The following is an example of a normalized name for a local file:
 
 The following is an example of a short name for a file: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>TestRe~1.txt</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+TestRe~1.txt
+```
+
 <b>FltParseFileName</b> parses this short name as follows: 
 
 <i>Extension</i>: "txt" 
@@ -118,19 +108,18 @@ The following is an example of a short name for a file:
 
 <i>FinalComponent</i>: "TestRe~1.txt" 
 
-For more information about file name normalization and file name parsing, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>. 
+For more information about file name normalization and file name parsing, see <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>. 
 
-To parse the contents of a FLT_FILE_NAME_INFORMATION structure, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>.
+To parse the contents of a FLT_FILE_NAME_INFORMATION structure, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
-
+<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>

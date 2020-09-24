@@ -53,7 +53,7 @@ The **wiasQueueEvent** function informs the service that the device generated an
 ### -param bstrDeviceId 
 
 [in]
-Specifies the device ID. This is the value passed to the minidriver in the call to the [IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia) method.
+Specifies the device ID. This is the value passed to the minidriver in the call to the [IWiaMiniDrv::drvInitializeWia](../wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia.md) method.
 
 ### -param pEventGUID 
 
@@ -69,7 +69,7 @@ Specifies the full item name, including path information.
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
@@ -85,5 +85,4 @@ See the Windows SDK documentation for a complete list of WIA event identifiers.
 
 ## -see-also
 
-[IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia)
-
+[IWiaMiniDrv::drvInitializeWia](../wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia.md)

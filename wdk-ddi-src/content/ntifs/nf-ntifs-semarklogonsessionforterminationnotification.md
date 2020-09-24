@@ -88,19 +88,18 @@ The logon session was not found.
 
 ## -remarks
 
-To register the callback routine, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seregisterlogonsessionterminatedroutine">SeRegisterLogonSessionTerminatedRoutine</a>.
+To register the callback routine, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seregisterlogonsessionterminatedroutine">SeRegisterLogonSessionTerminatedRoutine</a>.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+<a href="/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seregisterlogonsessionterminatedroutine">SeRegisterLogonSessionTerminatedRoutine</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seregisterlogonsessionterminatedroutine">SeRegisterLogonSessionTerminatedRoutine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunregisterlogonsessionterminatedroutine">SeUnregisterLogonSessionTerminatedRoutine</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-seunregisterlogonsessionterminatedroutine">SeUnregisterLogonSessionTerminatedRoutine</a>

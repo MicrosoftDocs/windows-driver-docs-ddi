@@ -56,7 +56,7 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture">DXGKARG_UNMAPCPUHOSTAPERTURE</a> structure that describes the operation.
+A <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture">DXGKARG_UNMAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
 ## -returns
 
@@ -64,5 +64,4 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture">DXGKARG_UNMAPCPUHOSTAPERTURE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture">DXGKARG_UNMAPCPUHOSTAPERTURE</a>

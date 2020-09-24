@@ -66,27 +66,26 @@ Supplies the name of the device object to which the symbolic link name refers.
 
 ## -remarks
 
-WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> to set up a symbolic link. 
+WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> to set up a symbolic link. 
 
 <b>IoCreateUnprotectedSymbolicLink</b> can be used by drivers if the user needs to be able to manipulate the symbolic link. For example, the parallel and serial drivers create unprotected symbolic links for LPTx and COMx, so that users can manipulate and reassign them by using the MODE command.
 
-In general, drivers should call this routine instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesymboliclink">IoCreateSymbolicLink</a> if a protected subsystem lets end users change what a named device references as, for example, when using LPT1 to access a network printer.
+In general, drivers should call this routine instead of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesymboliclink">IoCreateSymbolicLink</a> if a protected subsystem lets end users change what a named device references as, for example, when using LPT1 to access a network printer.
 
-For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/named-device-objects">Named Device Objects</a>.
+For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="/windows-hardware/drivers/kernel/named-device-objects">Named Device Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioassignarcname">IoAssignArcName</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioassignarcname">IoAssignArcName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesymboliclink">IoCreateSymbolicLink</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesymboliclink">IoCreateSymbolicLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iodeletesymboliclink">IoDeleteSymbolicLink</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iodeletesymboliclink">IoDeleteSymbolicLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>

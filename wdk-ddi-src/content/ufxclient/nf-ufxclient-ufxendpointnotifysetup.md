@@ -52,7 +52,7 @@ Notifies UFX when the client driver receives a setup packet from the host.
 
 ### -param UfxEndpoint
 
-<p>A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate"><b>UfxDeviceCreate</b></a>.</p>
+<p>A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate"><b>UfxDeviceCreate</b></a>.</p>
 
 ### -param SetupInfo 
 
@@ -63,13 +63,9 @@ A pointer to a USB setup packet described in a <b>USB_DEFAULT_PIPE_SETUP_PACKET<
 
 The following example shows how to handle setup packet completion.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    if (ControlContext->SetupRequested) {
+
+```
+    if (ControlContext->SetupRequested) {
         TRACE_TRANSFER("COMPLETE (Setup)", Endpoint, NULL);
         
         ControlContext->SetupRequested = FALSE;
@@ -78,8 +74,5 @@ The following example shows how to handle setup packet completion.
         UfxEndpointNotifySetup(Endpoint, ControlContext->SetupPacket);
 
     } 
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

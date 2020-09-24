@@ -46,32 +46,31 @@ api_name:
 
 ## -description
 
-The <b>GetBoolean</b> method returns a Boolean version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
+The <b>GetBoolean</b> method returns a Boolean version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
 ## -returns
 
-<b>GetBoolean</b> returns the BOOLEAN version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.
+<b>GetBoolean</b> returns the BOOLEAN version of the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.
 
 ## -remarks
 
-The size of the memory represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object must be <code>sizeof(BOOLEAN)</code>.
+The size of the memory represented by the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object must be <code>sizeof(BOOLEAN)</code>.
 
-<div class="alert"><b>Note</b>    There are several different types that can be used to represent a Boolean value. BOOLEAN is one of these types.  For the C++ <b>bool</b> type, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getstdbool">ExtRemoteData::GetStdBool</a>.  For the BOOL type, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getw32bool">ExtRemoteData::GetW32Bool</a>.</div>
+<div class="alert"><b>Note</b>    There are several different types that can be used to represent a Boolean value. BOOLEAN is one of these types.  For the C++ <b>bool</b> type, use <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getstdbool">ExtRemoteData::GetStdBool</a>.  For the BOOL type, use <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getw32bool">ExtRemoteData::GetW32Bool</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getdata">ExtRemoteData::GetData</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getdata">ExtRemoteData::GetData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getstdbool">ExtRemoteData::GetStdBool</a>
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getstdbool">ExtRemoteData::GetStdBool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getw32bool">ExtRemoteData::GetW32Bool</a>
-
+<a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getw32bool">ExtRemoteData::GetW32Bool</a>

@@ -63,10 +63,9 @@ Pointer to a buffer containing the binary data.
 
 The BINARY_DATA structure is used in the 
     <b>ParameterData</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
+    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
     NDIS_CONFIGURATION_PARAMETER</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">NDIS_CONFIGURATION_PARAMETER</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">NDIS_CONFIGURATION_PARAMETER</a>

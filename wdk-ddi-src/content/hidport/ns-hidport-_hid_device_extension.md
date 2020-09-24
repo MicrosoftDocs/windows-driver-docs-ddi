@@ -68,5 +68,4 @@ Pointer to the minidriver-specific portion of the device extension.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/nf-hidport-hidregisterminidriver">HidRegisterMinidriver</a>
-
+<a href="/windows-hardware/drivers/ddi/hidport/nf-hidport-hidregisterminidriver">HidRegisterMinidriver</a>

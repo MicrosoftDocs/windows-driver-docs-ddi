@@ -53,29 +53,22 @@ Notifies UFX about a non-recoverable hardware failure in the controller.
 ### -param UfxDevice 
 
 [in]
-A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ### -param HardwareFailureContext 
 
 [in, optional]
-Optional pointer to a client driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_hardware_failure_context">UFX_HARDWARE_FAILURE_CONTEXT</a> structure containing controller-specific information about the hardware failure.
+Optional pointer to a client driver-defined <a href="/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_hardware_failure_context">UFX_HARDWARE_FAILURE_CONTEXT</a> structure containing controller-specific information about the hardware failure.
 
 ## -remarks
 
 The client driver calls <b>UfxDeviceNotifyHardwareFailure</b> when the controller has entered a non-recoverable hardware failure (such as PHY lockup). UFX can try resetting the controller to see if the controller can be recovered. The following example shows the syntax for the call:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    UfxDeviceNotifyHardwareFailure(
+
+```
+    UfxDeviceNotifyHardwareFailure(
         ControllerContext->UfxDevice,
         (PUFX_HARDWARE_FAILURE_CONTEXT) HardwareFailureContext);
 
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

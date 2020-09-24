@@ -65,21 +65,20 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
+<a href="/windows/win32/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer">IXpsRasterizationFactory::CreateRasterizer</a>
+<a href="/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer">IXpsRasterizationFactory::CreateRasterizer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer">IXpsRasterizer</a>
+<a href="/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizer">IXpsRasterizer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect">IXpsRasterizer::RasterizeRect</a>
+<a href="/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect">IXpsRasterizer::RasterizeRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback">IXpsRasterizerNotificationCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback">IXpsRasterizerNotificationCallback</a>

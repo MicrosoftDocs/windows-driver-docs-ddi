@@ -86,5 +86,4 @@ Specifies an aligned structure that is used to return error status and informati
 
 ## -remarks
 
-The minidriver provides an entry point for this routine in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksfastproperty_item">KSFASTPROPERTY_ITEM</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksfastmethod_item">KSFASTMETHOD_ITEM</a>.
-
+The minidriver provides an entry point for this routine in <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksfastproperty_item">KSFASTPROPERTY_ITEM</a> or <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksfastmethod_item">KSFASTMETHOD_ITEM</a>.

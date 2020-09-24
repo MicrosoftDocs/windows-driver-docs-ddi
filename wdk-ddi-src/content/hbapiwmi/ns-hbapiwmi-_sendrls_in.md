@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The SendRLS_IN structure is used to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrls">SendRLS</a> WMI method.
+The SendRLS_IN structure is used to deliver input parameter data to the <a href="/windows-hardware/drivers/storage/sendrls">SendRLS</a> WMI method.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ Contains a worldwide name for the destination port.
 
 ## -remarks
 
-The WMI tool suite generates a declaration of the SendRLS_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the SendRLS_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrls">SendRLS</a>
-
+<a href="/windows-hardware/drivers/storage/sendrls">SendRLS</a>

@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-PosCxOpen is called to create an open PosCx library instance. This function initializes all resources it needs to manage a single open instance. It should be called from the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EVT_WDF_DEVICE_FILE_CREATE</a>   callback.
+PosCxOpen is called to create an open PosCx library instance. This function initializes all resources it needs to manage a single open instance. It should be called from the driver's <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EVT_WDF_DEVICE_FILE_CREATE</a>   callback.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ An identifier used to specify the caller's device interface in a multi-function 
 ## -returns
 
 An appropriate NTSTATUS error code that indicates the open instance completion status.
-

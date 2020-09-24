@@ -55,38 +55,33 @@ api_name:
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a> structure. The structure contains a manufacturer identifier, a link
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a> structure. The structure contains a manufacturer identifier, a link
       management protocol (LMP) version, an HCI command header, and the associated vendor command data that
       includes optional pattern data to match an event to the command.
 
 ### -input-buffer-length
 
 The length of a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a> structure.
+      <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a> structure.
 
 ### -output-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains the event data returned from the radio. The data is available in the <b>EventInfo</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_event_info">BTH_VENDOR_EVENT_INFO</a> structure.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains the event data returned from the radio. The data is available in the <b>EventInfo</b> member of the <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_event_info">BTH_VENDOR_EVENT_INFO</a> structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _BTH_VENDOR_EVENT_INFO {
+
+```
+typedef struct _BTH_VENDOR_EVENT_INFO {
   BTH_ADDR BthAddress;
   ULONG    EventSize;
   UCHAR    EventInfo[1];
-} BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO;</pre>
-</td>
-</tr>
-</table></span></div>
+} BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO;
+```
+
 The <b>EventSize</b> member provides the size of the vendor-specific event data returned from the radio.
 
 ### -output-buffer-length
 
-The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_event_info">BTH_VENDOR_EVENT_INFO</a> structure.
+The length of a <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_event_info">BTH_VENDOR_EVENT_INFO</a> structure.
 
 ### -in-out-buffer
 
@@ -164,7 +159,7 @@ The IOCTL_BTH_HCI_VENDOR_COMMAND request provides a mechanism that allows vendor
     that are specific to their Bluetooth radios.
 
 The manufacturer ID and link management protocol (LMP) version values that are in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">
     BTH_VENDOR_SPECIFIC_COMMAND</a> structure help to prevent the sending of vendor-specific commands to
     the wrong radio. The LMP version enables the vendors to send vendor-specific commands to radios that have
     a matching LMP version. If the LMP version is zero, all radios from that vendor will receive the
@@ -174,7 +169,7 @@ Patterns are required if a vendor-specific command does not follow the standard 
     vendor-specific event is generated in response to the vendor-specific command.
 
 If patterns are required, the command should be followed by 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a> structures for patterns
+    <a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a> structures for patterns
     that are present in the event. These patterns allow the Bluetooth driver stack to match vendor-specific
     events with the corresponding vendor-specific commands.
 
@@ -190,13 +185,9 @@ The BTH_VENDOR_PATTERN structure specifies such patterns that follow the vendor-
     <b>AdjustTokenPrivileges</b> functions. The following code example demonstrates how to obtain this
     privilege. Note that the example does not demonstrate error handling.</div>
 <div> </div>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HANDLE procToken;
+
+```
+HANDLE procToken;
 LUID luid;
 TOKEN_PRIVILEGES tp;
 
@@ -208,22 +199,20 @@ Tp.PrivilegeCount = 1;
 Tp.privileges[0].Luid = luid;
 Tp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
 
-AdjustTokenPrivileges(procToken, FALSE, &tp, sizeof(TOKEN_PRIVILEGES), (PTOKEN_PRIVILEGES) NULL, (PDWORD)NULL);</pre>
-</td>
-</tr>
-</table></span></div>
+AdjustTokenPrivileges(procToken, FALSE, &tp, sizeof(TOKEN_PRIVILEGES), (PTOKEN_PRIVILEGES) NULL, (PDWORD)NULL);
+```
+
 The event that is generated because of this command is copied into the output buffer (including the
     event header).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_command_header">BTH_COMMAND_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_command_header">BTH_COMMAND_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a>
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a>
-
+<a href="/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a>

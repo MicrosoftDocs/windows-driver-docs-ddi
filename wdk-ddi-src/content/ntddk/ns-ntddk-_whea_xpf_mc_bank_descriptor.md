@@ -90,23 +90,18 @@ AMD64 machine check architecture.
 
 An XPF_MC_BANK_FLAGS union that indicates which of the members of the WHEA_XPF_MC_BANK_DESCRIPTOR structure can be written to by the operating system. The XPF_MC_BANK_FLAGS union is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _XPF_MC_BANK_FLAGS {
+
+```
+typedef union _XPF_MC_BANK_FLAGS {
   struct {
     UCHAR  ClearOnInitializationRW:1;
     UCHAR  ControlDataRW:1;
     UCHAR  Reserved:6;
   };
   UCHAR  AsUCHAR;
-} XPF_MC_BANK_FLAGS, *PXPF_MC_BANK_FLAGS;</pre>
-</td>
-</tr>
-</table></span></div>
+} XPF_MC_BANK_FLAGS, *PXPF_MC_BANK_FLAGS;
+```
+
 
 
 
@@ -155,13 +150,12 @@ The value that the operating system writes to the register bank's control regist
 
 ## -remarks
 
-An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mce_descriptor">WHEA_XPF_MCE_DESCRIPTOR</a> structures.
+An array of WHEA_XPF_MC_BANK_DESCRIPTOR structures is contained in the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a> and <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mce_descriptor">WHEA_XPF_MCE_DESCRIPTOR</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_cmc_descriptor">WHEA_XPF_CMC_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mce_descriptor">WHEA_XPF_MCE_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_mce_descriptor">WHEA_XPF_MCE_DESCRIPTOR</a>

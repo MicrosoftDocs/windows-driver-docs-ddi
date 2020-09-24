@@ -56,7 +56,7 @@ Drivers can use the symbolic name to retrieve additional information about the h
 
 ### -input-buffer
 
-<b>Irp->AssociatedIrp.SystemBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_name">USB_HUB_NAME</a> structure.
+<b>Irp->AssociatedIrp.SystemBuffer</b> points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_name">USB_HUB_NAME</a> structure.
 
 ### -input-buffer-length
 
@@ -80,5 +80,4 @@ A lower-level driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS or the a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_root_hub_name">USB_ROOT_HUB_NAME</a>
-
+<a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_root_hub_name">USB_ROOT_HUB_NAME</a>

@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-<b>DXGKARGCB_UPDATECONTEXTALLOCATION</b> contains the data used to call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>.
+<b>DXGKARGCB_UPDATECONTEXTALLOCATION</b> contains the data used to call <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>.
 
 ## -struct-fields
 
@@ -58,7 +58,7 @@ Handle to the context allocation being updated. The allocation defines a physica
 
 ### -field pPrivateDriverData
 
-Pointer to a private driver data buffer to be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a> paging operation.
+Pointer to a private driver data buffer to be passed to the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a> paging operation.
 
 ### -field PrivateDriverDataSize
 
@@ -66,5 +66,4 @@ Specify the size of the driver private data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>

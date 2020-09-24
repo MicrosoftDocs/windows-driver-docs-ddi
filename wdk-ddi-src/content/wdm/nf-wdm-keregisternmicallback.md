@@ -55,20 +55,15 @@ The <b>KeRegisterNmiCallback</b> routine registers a routine to be called whenev
 [in]
 Pointer to a function of the form:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN
+
+```
+BOOLEAN
  XxxNmiCallback(
  IN PVOID Context,
   IN BOOLEAN Handled
- );</pre>
-</td>
-</tr>
-</table></span></div>
+ );
+```
+
 
 ### -param Context 
 
@@ -77,7 +72,7 @@ Specifies the value to be passed as the <i>Context</i> parameter of <i>XxxNmiCal
 
 ## -returns
 
-On success, <b>KeRegisterNmiCallback</b> returns an opaque pointer that the caller passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
+On success, <b>KeRegisterNmiCallback</b> returns an opaque pointer that the caller passes to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
 
 ## -remarks
 
@@ -87,5 +82,4 @@ The callback routine must be able to be run at IRQL = HIGH_LEVEL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a>

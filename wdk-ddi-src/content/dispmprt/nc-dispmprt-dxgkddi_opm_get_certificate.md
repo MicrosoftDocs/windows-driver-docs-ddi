@@ -53,17 +53,17 @@ The<i> DxgkDdiOPMGetCertificate</i> function retrieves a certificate of the give
 ### -param MiniportDeviceContext 
 
 [in]
-A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
 
 ### -param CertificateType 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgkmdt_certificate_type">DXGKMDT_CERTIFICATE_TYPE</a>-typed value that identifies the type of certificate to retrieve.
+A <a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgkmdt_certificate_type">DXGKMDT_CERTIFICATE_TYPE</a>-typed value that identifies the type of certificate to retrieve.
 
 ### -param CertificateSize 
 
 [in]
-The size, in bytes, of the certificate to retrieve. This size was returned by a call to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a> function.
+The size, in bytes, of the certificate to retrieve. This size was returned by a call to the display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a> function.
 
 ### -param CertificateBuffer 
 
@@ -81,7 +81,7 @@ A pointer to a buffer that receives the requested certificate if <i>DxgkDdiOPMGe
 |STATUS_GRAPHICS_COPP_NOT_SUPPORTED|The display miniport driver does not support COPP either because the hardware vender never signed the COPP license agreement or the miniport driver's graphics hardware does not comply with COPP rules. DxgkDdiOPMGetCertificate can also return this value if the display miniport driver detected tampering.|
 |STATUS_GRAPHICS_UAB_NOT_SUPPORTED|The display miniport driver does not support UAB either because the hardware vender never signed the UAB license agreement or the miniport driver's graphics hardware does not comply with UAB rules. DxgkDdiOPMGetCertificate can also return this value if the display miniport driver detected tampering.|
 |STATUS_GRAPHICS_PVP_HFS_FAILED|The display miniport driver's hardware functionality scan (HFS) failed or the display miniport driver detected tampering. A display miniport driver can optionally return this value. If DxgkDdiOPMGetCertificate does not return this value for tampering, it can return one of the previous error codes instead.|
- 
+
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
@@ -93,13 +93,12 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgkmdt_certificate_type">DXGKMDT_CERTIFICATE_TYPE</a>
+<a href="/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_dxgkmdt_certificate_type">DXGKMDT_CERTIFICATE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a>
-
+<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_opm_get_certificate_size">DxgkDdiOPMGetCertificateSize</a>

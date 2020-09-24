@@ -58,17 +58,17 @@ NDIS receive filters are used in the following NDIS interfaces:
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS Packet Coalescing</a>. For more information on how to use receive filters in this technology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-packet-coalescing-receive-filters">Managing Packet Coalescing Receive Filters</a>.
+<a href="/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS Packet Coalescing</a>. For more information on how to use receive filters in this technology, see <a href="/windows-hardware/drivers/network/managing-packet-coalescing-receive-filters">Managing Packet Coalescing Receive Filters</a>.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>. For more information on how to use receive filters in this technology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/setting-a-receive-filter-on-a-virtual-port">Setting a Receive Filter on a Virtual Port</a>.
+<a href="/windows-hardware/drivers/network/single-root-i-o-virtualization--sr-iov-">Single Root I/O Virtualization (SR-IOV)</a>. For more information on how to use receive filters in this technology, see <a href="/windows-hardware/drivers/network/setting-a-receive-filter-on-a-virtual-port">Setting a Receive Filter on a Virtual Port</a>.
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>. For more information about how to use receive filters in this interface, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/setting-and-clearing-vmq-filters">Setting and Clearing VMQ Filters</a>.
+<a href="/windows-hardware/drivers/network/virtual-machine-queue--vmq-">Virtual Machine Queue (VMQ)</a>. For more information about how to use receive filters in this interface, see <a href="/windows-hardware/drivers/network/setting-and-clearing-vmq-filters">Setting and Clearing VMQ Filters</a>.
 
 </li>
 </ul>
@@ -78,7 +78,7 @@ NDIS receive filters are used in the following NDIS interfaces:
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -139,7 +139,7 @@ A receive queue identifier. This identifier is an
      integer between zero and the number of queues that the network adapter supports. A value of NDIS_DEFAULT_RECEIVE_QUEUE_ID specifies
      the default receive queue.
 
-<div class="alert"><b>Note</b>  Miniport drivers that support <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS packet coalescing</a> or the SR-IOV interface must set the <b>QueueId</b> member to NDIS_DEFAULT_RECEIVE_QUEUE_ID.</div>
+<div class="alert"><b>Note</b>  Miniport drivers that support <a href="/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS packet coalescing</a> or the SR-IOV interface must set the <b>QueueId</b> member to NDIS_DEFAULT_RECEIVE_QUEUE_ID.</div>
 <div> </div>
 
 ### -field FilterId
@@ -150,7 +150,7 @@ A receive filter identifier. The filter identifier
 
 ### -field FieldParametersArrayOffset
 
-The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
+The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
 
@@ -170,7 +170,7 @@ The size, in bytes, of each element in the array.
 The number of bits in a filter identifier. The miniport driver uses
      this number of bits for the filter identifier in the 
      <b>NetBufferListFilteringInfo</b> out-of-band (OOB) data in 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.  If this member is zero, a miniport driver must not specify the filter identifier
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures.  If this member is zero, a miniport driver must not specify the filter identifier
      in the OOB 
      <b>NetBufferListFilteringInfo</b> data.
 
@@ -184,7 +184,7 @@ As soon as the first  packet that matches the filter is received, the network ad
 
 When the hardware timer expires, the adapter must generate a receive interrupt to signal the host about coalesced packets that match the receive filter.
 
-<div class="alert"><b>Note</b>  Miniport drivers that do not support <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS packet coalescing</a> must ignore this member.</div>
+<div class="alert"><b>Note</b>  Miniport drivers that do not support <a href="/windows-hardware/drivers/network/ndis-packet-coalescing">NDIS packet coalescing</a> must ignore this member.</div>
 <div> </div>
 
 ### -field VPortId
@@ -199,9 +199,9 @@ The VPort identifier on which the receive filter is to be configured. A value of
 ## -remarks
 
 The <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure is used with OID requests of  
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-parameters">OID_RECEIVE_FILTER_PARAMETERS</a>
+    <a href="/windows-hardware/drivers/network/oid-receive-filter-parameters">OID_RECEIVE_FILTER_PARAMETERS</a>
     and  
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>. These OID
+    <a href="/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>. These OID
     requests specify the configuration parameters of a filter. A filter specification can include tests for
     multiple fields in a network packet.
 
@@ -210,12 +210,12 @@ The
     <b>FieldParametersArrayNumElements</b>, and 
     <b>FieldParametersArrayElementSize</b> members of the <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure define an
     array of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structures. Each <b>NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b>
     structure in the array sets the filter test criterion for one field in a network header.
 
 The network adapter combines the results from all the field tests with a logical AND operation.
-    That is, if any field test that is included in the array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+    That is, if any field test that is included in the array of <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
     structures fails, the network packet does not meet the specified filter criterion.
 
 When a network adapter tests a received packet against these filter criteria, it must ignore all
@@ -235,7 +235,7 @@ The available space within the hardware coalescing buffer reaches an adapter-spe
 </ul>
 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-packet-coalescing-receive-filters">Handling Packet Coalescing Receive Filters</a>.
+For more information, see <a href="/windows-hardware/drivers/network/handling-packet-coalescing-receive-filters">Handling Packet Coalescing Receive Filters</a>.
 
 </li>
 <li>
@@ -252,22 +252,21 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-parameters">OID_RECEIVE_FILTER_PARAMETERS</a>
+<a href="/windows-hardware/drivers/network/oid-receive-filter-parameters">OID_RECEIVE_FILTER_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
-
+<a href="/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>

@@ -74,15 +74,14 @@ RtlAnsiStringToUnicodeSize(
 
 **RtlAnsiStringToUnicodeSize** returns the necessary size in bytes for a Unicode string buffer.
 
-Casting the return value of the <b>RtlAnsiStringToUnicodeSize</b> routine to USHORT might cause a loss of data. To avoid potential problems, callers of this routine should test the return value for arithmetic overflow. Note that <b>RtlAnsiStringToUnicodeSize</b> accounts for the trailing <b>NULL</b>.</div>
+Casting the return value of the <b>RtlAnsiStringToUnicodeSize</b> routine to USHORT might cause a loss of data. To avoid potential problems, callers of this routine should test the return value for arithmetic overflow. Note that <b>RtlAnsiStringToUnicodeSize</b> accounts for the trailing <b>NULL</b>.
 
 Callers of <b>RtlAnsiStringToUnicodeSize</b> must be running at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlxansistringtounicodesize">RtlxAnsiStringToUnicodeSize</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlxansistringtounicodesize">RtlxAnsiStringToUnicodeSize</a>

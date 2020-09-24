@@ -76,11 +76,11 @@ Specifies the average time per frame, in 100-nanosecond units.
 
 ### -field bmiHeader
 
-Describes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
+Describes a <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
 ## -remarks
 
-To describe a video stream with bob or weave settings, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a>.
+To describe a video stream with bob or weave settings, use <a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a>.
 
 The KS_VIDEOINFOHEADER structure is identical to the Microsoft DirectShow VIDEOINFOHEADER structure.
 
@@ -92,9 +92,8 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a>
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader2">KS_VIDEOINFOHEADER2</a>

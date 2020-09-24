@@ -51,7 +51,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfRequestFormatRequestUsingCurrentType</b> method formats a specified I/O request so that the driver can <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">forward</a> it, unmodified, to the driver's local I/O target.
+The <b>WdfRequestFormatRequestUsingCurrentType</b> method formats a specified I/O request so that the driver can <a href="/windows-hardware/drivers/wdf/forwarding-i-o-requests">forward</a> it, unmodified, to the driver's local I/O target.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-When your driver <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/receiving-i-o-requests">receives an I/O request</a>, sometimes you will want the driver to forward the request, unmodified, to its local I/O target. To forward such a request, the driver must:
+When your driver <a href="/windows-hardware/drivers/wdf/receiving-i-o-requests">receives an I/O request</a>, sometimes you will want the driver to forward the request, unmodified, to its local I/O target. To forward such a request, the driver must:
 
 <ol>
 <li>
@@ -74,16 +74,16 @@ Call <b>WdfRequestFormatRequestUsingCurrentType</b> to format the request object
 
 </li>
 <li>
-Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a> to send the request to the I/O target.
+Call <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a> to send the request to the I/O target.
 
 </li>
 </ol>
-For more information about <b>WdfRequestFormatRequestUsingCurrentType</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
+For more information about <b>WdfRequestFormatRequestUsingCurrentType</b>, see <a href="/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 
 #### Examples
 
-The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a> callback function that forwards every I/O request that it receives, without modification, to the device's local I/O target.
+The following code example is an <a href="/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a> callback function that forwards every I/O request that it receives, without modification, to the device's local I/O target.
 
 ```cpp
 VOID
@@ -129,9 +129,8 @@ MyEvtIoDefault(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestwdmformatusingstacklocation">WdfRequestWdmFormatUsingStackLocation</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestwdmformatusingstacklocation">WdfRequestWdmFormatUsingStackLocation</a>

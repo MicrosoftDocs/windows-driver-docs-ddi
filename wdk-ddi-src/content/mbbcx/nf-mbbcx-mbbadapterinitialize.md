@@ -62,7 +62,6 @@ This method might return failure in low resource situations.
 
 The client driver must call this method from within [*EvtMbbDeviceCreateAdapter*](nc-mbbcx-evt_mbb_device_create_adapter.md). 
 
-For more information, see [Creating the NetAdapter interface for the PDP context/EPS bearer](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#creating-the-netadapter-interface-for-the-pdp-contexteps-bearer).
+For more information, see [Creating the NetAdapter interface for the PDP context/EPS bearer](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#creating-the-netadapter-interface-for-the-pdp-contexteps-bearer).
 
 ## -see-also
-

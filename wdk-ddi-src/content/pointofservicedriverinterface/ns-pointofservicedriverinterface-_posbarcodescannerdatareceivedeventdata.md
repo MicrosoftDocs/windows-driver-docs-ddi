@@ -48,17 +48,17 @@ api_name:
 
 ## -description
 
-This structure contains the scanned data that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757463(v=vs.85)">BarcodeScannerDataReceived</a> event.
+This structure contains the scanned data that is passed to the <a href="/previous-versions/windows/hardware/previsioning-framework/dn757463(v=vs.85)">BarcodeScannerDataReceived</a> event.
 
 ## -struct-fields
 
 ### -field Header
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> header information for this event.
+The <a href="/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> header information for this event.
 
 ### -field DataType
 
-Indicates which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology">BarcodeSymbology</a> is associated with the scan data.
+Indicates which <a href="/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology">BarcodeSymbology</a> is associated with the scan data.
 
 ### -field ScanDataLength
 
@@ -71,4 +71,3 @@ Indicates the number of bytes of decoded scan data. A label is the decoded scan 
 ## -remarks
 
 *ScanDataLength* bytes of scan data immediately follows the *PosBarcodeScannerDataReceivedEventData* structure, followed by *ScanDataLabelLength* bytes of label data.
-

@@ -47,7 +47,7 @@ api_name:
 ##  Major Code:
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
+<a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
 
 
 ## -description
@@ -63,15 +63,15 @@ identifier of the SR_IOV device implementing the interface.
 
 ### -output-buffer
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure that is filled with the identifier.
+A pointer to a <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure that is filled with the identifier.
 
 ### -output-buffer-length
 
-The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure
+The size of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 ## -remarks
 
@@ -84,13 +84,9 @@ Before sending this request, the user mode application must obtain a handle to t
 
 In this example, the PF driver generates a unique identifier by calling <a href="..\ntddk\nf-ntddk-zwallocatelocallyuniqueid.md">ZwAllocateLocallyUniqueId</a>  and stores it in the device context.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 
     case IOCTL_SRIOV_PROXY_QUERY_LUID:
 
@@ -107,12 +103,10 @@ In this example, the PF driver generates a unique identifier by calling <a href=
         WdfRequestSetInformation(Request, sizeof(LUID));
         status = STATUS_SUCCESS;
         break;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a>
-
+<a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a>

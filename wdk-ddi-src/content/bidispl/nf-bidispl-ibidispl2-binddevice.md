@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>BindDevice</b> method binds a printer to a bidirectional printer communication (bidi communication) request. This method is similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a> function.
+The <b>BindDevice</b> method binds a printer to a bidirectional printer communication (bidi communication) request. This method is similar to the <a href="/windows-hardware/drivers/print/openprinter">OpenPrinter</a> function.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ The access privileges for the printer. This parameter can be one of the followin
 </dl>
 </td>
 <td width="60%">
-Permits users to perform all administrative tasks and basic printing operations except for SYNCHRONIZE. This is the same as PRINTER_ALL_ACCESS in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>.
+Permits users to perform all administrative tasks and basic printing operations except for SYNCHRONIZE. This is the same as PRINTER_ALL_ACCESS in <a href="/windows-hardware/drivers/print/openprinter">OpenPrinter</a>.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ Permits users to perform all administrative tasks and basic printing operations 
 </dl>
 </td>
 <td width="60%">
-Permits users to perform basic printing operations. This is the same as PRINTER_ACCESS_USE in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>.
+Permits users to perform basic printing operations. This is the same as PRINTER_ACCESS_USE in <a href="/windows-hardware/drivers/print/openprinter">OpenPrinter</a>.
 
 </td>
 </tr>
@@ -133,21 +133,20 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
+<a href="/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
+<a href="/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2">IBidiSpl2</a>
+<a href="/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl2">IBidiSpl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>
+<a href="/windows-hardware/drivers/print/openprinter">OpenPrinter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
-
+<a href="/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>

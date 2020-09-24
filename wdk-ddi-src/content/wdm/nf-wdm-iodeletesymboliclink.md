@@ -61,13 +61,12 @@ Pointer to a buffered Unicode string that is the user-visible name for the symbo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesymboliclink">IoCreateSymbolicLink</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatesymboliclink">IoCreateSymbolicLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreateunprotectedsymboliclink">IoCreateUnprotectedSymbolicLink</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreateunprotectedsymboliclink">IoCreateUnprotectedSymbolicLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iodeassignarcname">IoDeassignArcName</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iodeassignarcname">IoDeassignArcName</a>

@@ -65,13 +65,12 @@ The <b>StorPortWritePortUshort</b> routine writes a value to a specified registe
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportushort">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportbufferushort">StorPortWritePortBufferUshort</a>.
+For more information, see <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportushort">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportbufferushort">StorPortWritePortBufferUshort</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportushort">ScsiPortWritePortUshort</a>
+<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportushort">ScsiPortWritePortUshort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportbufferushort">StorPortWritePortBufferUshort</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportbufferushort">StorPortWritePortBufferUshort</a>

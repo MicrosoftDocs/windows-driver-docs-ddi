@@ -54,7 +54,7 @@ api_name:
 
 ### -param String
 
-[_In_] A handle to a [framework string object](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects). The framework will assign the directory path to the string object on successful return.
+[_In_] A handle to a [framework string object](/windows-hardware/drivers/wdf/using-string-objects). The framework will assign the directory path to the string object on successful return.
 
 ## -returns
 
@@ -63,9 +63,8 @@ This function returns NTSTATUS.
 
 ## -remarks
 
-UMDF only. KMDF drivers should use [**IoGetDeviceDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdevicedirectory).
+UMDF only. KMDF drivers should use [**IoGetDeviceDirectory**](../wdm/nf-wdm-iogetdevicedirectory.md).
 
 ## -see-also
 
-For info about string objects, see [Using String Objects](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects).
-
+For info about string objects, see [Using String Objects](/windows-hardware/drivers/wdf/using-string-objects).

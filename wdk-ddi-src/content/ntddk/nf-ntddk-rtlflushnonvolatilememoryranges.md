@@ -53,7 +53,7 @@ The routine <b>RtlFlushNonVolatileMemoryRanges</b> optimally flushes the given n
 ### -param NvToken
 
  A pointer to an opaque structure that has
-        information about various properties of the non-volatile memory region which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
+        information about various properties of the non-volatile memory region which <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
 
 ### -param NvRanges
 
@@ -65,7 +65,7 @@ Specifies an array of <b>NV_MEMORY_RANGE</b> structures which describe the non-v
 
 ### -param Flags
 
-For flags specified, refer <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">RtlFlushNonVolatileMemory</a> as this routine also honors the flags apart from passing it to <b>RtlFlushNonVolatileMemory</b>.
+For flags specified, refer <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">RtlFlushNonVolatileMemory</a> as this routine also honors the flags apart from passing it to <b>RtlFlushNonVolatileMemory</b>.
 
 ## -returns
 
@@ -106,22 +106,21 @@ This routine is currently not supported for Windows Server until the next major 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldrainnonvolatileflush">RtlDrainNonVolatileFlush</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtldrainnonvolatileflush">RtlDrainNonVolatileFlush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlflushnonvolatilememory">
 RtlFlushNonVolatileMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlfreenonvolatiletoken">RtlFreeNonVolatileToken</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlfreenonvolatiletoken">RtlFreeNonVolatileToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlwritenonvolatilememory">RtlWriteNonVolatileMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlwritenonvolatilememory">RtlWriteNonVolatileMemory</a>

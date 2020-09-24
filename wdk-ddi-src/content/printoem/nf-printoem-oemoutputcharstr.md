@@ -48,7 +48,7 @@ api_name:
 
 This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins.
 
-Use [IPrintOemUni::OutputCharStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-outputcharstr) instead.
+Use [IPrintOemUni::OutputCharStr](../prcomoem/nf-prcomoem-iprintoemuni-outputcharstr.md) instead.
 
 ## -parameters
 
@@ -63,4 +63,3 @@ Use [IPrintOemUni::OutputCharStr](https://docs.microsoft.com/windows-hardware/dr
 ### -param pGlyph 
 
 [in]
-

@@ -60,5 +60,4 @@ An opaque handle to the default log.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn914614(v=vs.85)">WppRecorderIsDefaultLogAvailable</a>
-
+<a href="/previous-versions/windows/hardware/previsioning-framework/dn914614(v=vs.85)">WppRecorderIsDefaultLogAvailable</a>

@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>Input</b>  method requests an input string from the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
+The <b>Input</b>  method requests an input string from the <a href="/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
 
 ## -parameters
 
@@ -97,17 +97,16 @@ The method was successful. However, the buffer was not big enough to hold the wh
 </table>
  
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
 
-For an overview of input in the debugger engine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
+For an overview of input in the debugger engine, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
+<a href="/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-inputwide">InputWide</a>
-
+<a href="/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol4-inputwide">InputWide</a>

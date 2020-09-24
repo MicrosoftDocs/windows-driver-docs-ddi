@@ -56,19 +56,19 @@ The IOCTL_HPMI_QUERY_CAPABILITIES command is sent to query features supported by
 
 ### -input-buffer
 
-The AssociatedIrp.SystemBuffer member of the I/O request packet (IRP) points to an initiator-allocated buffer that is used both as the input buffer and the output buffer for the request. On input, this buffer contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities">HPMI_QUERY_CAPABILITIES</a> structure  in which the version is set to a valid value.
+The AssociatedIrp.SystemBuffer member of the I/O request packet (IRP) points to an initiator-allocated buffer that is used both as the input buffer and the output buffer for the request. On input, this buffer contains a <a href="/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities">HPMI_QUERY_CAPABILITIES</a> structure  in which the version is set to a valid value.
 
 ### -input-buffer-length
 
-The Parameters.DeviceIoControl.InputBufferLength member of the IRP's current I/O stack location (IO_STACK_LOCATION) is set to the size in bytes of the buffer that is pointed to by the AssociatedIrp.SystemBuffer member. This size must be greater than or equal to sizeof <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities">HPMI_QUERY_CAPABILITIES</a> structure  or the request will fail with an error status of STATUS_INVALID_PARAMETER.
+The Parameters.DeviceIoControl.InputBufferLength member of the IRP's current I/O stack location (IO_STACK_LOCATION) is set to the size in bytes of the buffer that is pointed to by the AssociatedIrp.SystemBuffer member. This size must be greater than or equal to sizeof <a href="/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities">HPMI_QUERY_CAPABILITIES</a> structure  or the request will fail with an error status of STATUS_INVALID_PARAMETER.
 
 ### -output-buffer
 
-If the request completes successfully, the buffer pointed to by the AssociatedIrp.SystemBuffer member contains the requested HPMI capability information. Located at the start of this buffer is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities_response">HPMI_QUERY_CAPABILITIES_RESPONSE</a> structure that indicates the type and size of the information in the buffer.
+If the request completes successfully, the buffer pointed to by the AssociatedIrp.SystemBuffer member contains the requested HPMI capability information. Located at the start of this buffer is a <a href="/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities_response">HPMI_QUERY_CAPABILITIES_RESPONSE</a> structure that indicates the type and size of the information in the buffer.
 
 ### -output-buffer-length
 
-The Parameters.DeviceIoControl.OutputBufferLength member of the IRP's current I/O stack location is set to the size in bytes of the buffer that is pointed to by the AssociatedIrp.SystemBuffer member. For the request to succeed, this size must be large enough to contain the HPMI capability described in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities_response">HPMI_QUERY_CAPABILITIES_RESPONSE</a>. Otherwise, the request will fail with error status STATUS_BUFFER_TOO_SMALL.
+The Parameters.DeviceIoControl.OutputBufferLength member of the IRP's current I/O stack location is set to the size in bytes of the buffer that is pointed to by the AssociatedIrp.SystemBuffer member. For the request to succeed, this size must be large enough to contain the HPMI capability described in <a href="/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities_response">HPMI_QUERY_CAPABILITIES_RESPONSE</a>. Otherwise, the request will fail with error status STATUS_BUFFER_TOO_SMALL.
 
 ### -in-out-buffer
 
@@ -80,11 +80,11 @@ TBD
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code, for example STATUS_INVALID_PARAMETER.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code, for example STATUS_INVALID_PARAMETER.
 
 ## -remarks
 
-The <b>IOCTL_HPMI_QUERY_CAPABILITIES</b> request queries the HPMI capabilities or asset information of the power meter. The input <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities">HPMI_QUERY_CAPABILITIES</a> structure value specifies the type of capability information to be returned. The data type and contents of the output buffer vary based on the data requested.
+The <b>IOCTL_HPMI_QUERY_CAPABILITIES</b> request queries the HPMI capabilities or asset information of the power meter. The input <a href="/windows-hardware/drivers/ddi/hpmi/ns-hpmi-_hpmi_query_capabilities">HPMI_QUERY_CAPABILITIES</a> structure value specifies the type of capability information to be returned. The data type and contents of the output buffer vary based on the data requested.
 
 This IOCTL may be issued multiple times, HPMI must respond with same  
 information in HPMI_QUERY_CAPABILITIES_RESPONSE, as a response to all  
@@ -92,21 +92,20 @@ subsequent IOCTL calls.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
+<a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>

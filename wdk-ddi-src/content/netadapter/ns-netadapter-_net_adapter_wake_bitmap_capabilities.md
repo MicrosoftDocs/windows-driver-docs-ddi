@@ -1,11 +1,9 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_WAKE_BITMAP_CAPABILITIES
 title: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure describes a net adapter's wake on LAN (WoL) capabilities for waking from a bitmap pattern.
 tech.root: netvista
 ms.assetid: 0d68d5a2-5d25-4f33-96b5-57774a6f441e
-ms.author: windowsdriverdev
 ms.date: 10/24/2019
 keywords: ["NET_ADAPTER_WAKE_BITMAP_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES, NET_ADAPTER_WAKE_BITMAP_CAPABILITIES,
@@ -72,11 +70,10 @@ Call [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT**](../netadapter/nf-netadapter
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_wake_bitmap_capabilities_init.md)
 
 [**NetAdapterWakeSetBitmapCapabilities**](../netadapter/nf-netadapter-netadapterwakesetbitmapcapabilities.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

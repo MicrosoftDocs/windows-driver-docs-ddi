@@ -1,11 +1,9 @@
 ---
 UID: NF:storport.StorPortMarkDeviceFailed
 title: StorPortMarkDeviceFailed function
-author: windows-driver-content
 description: The StorPortMarkDeviceFailed routine marks a device with failed status.
 tech.root: storage
 ms.assetid: 91951a88-18ba-4ddc-b8e0-d789f179fa1f
-ms.author: windowsdriverdev
 ms.date: 03/19/2019
 keywords: ["StorPortMarkDeviceFailed function"]
 ms.keywords: StorPortMarkDeviceFailed
@@ -50,7 +48,7 @@ dev_langs:
 
 ## -description
 
-The **StorPortMarkDeviceFailed** routine marks a device with failed status. See also [**StorPortMarkDeviceFailedEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportmarkdevicefailedex).
+The **StorPortMarkDeviceFailed** routine marks a device with failed status. See also [**StorPortMarkDeviceFailedEx**](./nf-storport-storportmarkdevicefailedex.md).
 
 ## -parameters
 
@@ -78,7 +76,6 @@ The PnP manager will send an IRP to query the failed device's PnP state. If *Fla
 
 ## -see-also
 
-[**IoInvalidateDeviceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinvalidatedevicestate)
+[**IoInvalidateDeviceState**](../wdm/nf-wdm-ioinvalidatedevicestate.md)
 
-[**StorPortMarkDeviceFailedEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportmarkdevicefailedex)
-
+[**StorPortMarkDeviceFailedEx**](./nf-storport-storportmarkdevicefailedex.md)

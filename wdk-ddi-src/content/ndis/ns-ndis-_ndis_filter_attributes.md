@@ -57,7 +57,7 @@ The NDIS_FILTER_ATTRIBUTES structure defines the attributes of a filter module.
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      filter attributes structure (NDIS_FILTER_ATTRIBUTES). Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_FILTER_ATTRIBUTES, the 
@@ -71,13 +71,12 @@ Reserved. Set this member to zero.
 ## -remarks
 
 A filter drivers passes an NDIS_FILTER_ATTRIBUTES structure to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsetattributes">NdisFSetAttributes</a> function.
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsetattributes">NdisFSetAttributes</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsetattributes">NdisFSetAttributes</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfsetattributes">NdisFSetAttributes</a>

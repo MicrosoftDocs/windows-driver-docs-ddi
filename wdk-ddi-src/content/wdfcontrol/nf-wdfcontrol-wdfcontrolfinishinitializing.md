@@ -67,12 +67,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The system will not send I/O requests or Windows Management Instrumentation (WMI) requests to a control device object unless the driver has called <b>WdfControlFinishInitializing</b>.
 
-For more information about control device objects and calling <b>WdfControlFinishInitializing</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
+For more information about control device objects and calling <b>WdfControlFinishInitializing</b>, see <a href="/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
+For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
 
 <div class="code"></div>
-

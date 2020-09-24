@@ -46,17 +46,17 @@ api_name:
 
 ## -description
 
-The <code>IPrintOemUni::MemoryUsage</code> method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a> method.
+The <code>IPrintOemUni::MemoryUsage</code> method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a> method.
 
 ## -parameters
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 ### -param pMemoryUsage
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a> structure.
+Caller-supplied pointer to an <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a> structure.
 
 ## -returns
 
@@ -104,7 +104,7 @@ The method is not implemented.
 
 ## -remarks
 
-The <code>IPrintOemUni::MemoryUsage</code> method's purpose is to help the Unidrv driver determine the optimum size for the GDI drawing surface, based on the memory requirements of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a> method. Implementation of the <code>IPrintOemUni::MemoryUsage</code> method is optional.
+The <code>IPrintOemUni::MemoryUsage</code> method's purpose is to help the Unidrv driver determine the optimum size for the GDI drawing surface, based on the memory requirements of the <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a> method. Implementation of the <code>IPrintOemUni::MemoryUsage</code> method is optional.
 
 The <code>IPrintOemUni::MemoryUsage</code> method should return two values, as follows:
 
@@ -112,7 +112,7 @@ The <code>IPrintOemUni::MemoryUsage</code> method should return two values, as f
 <li>
 The amount of permanently-allocated, fixed-sized memory that the <b>IPrintOemUni::ImageProcessing</b> method needs to allocate.
 
-This value is returned in the <b>dwFixedMemoryUsage</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a> structure.
+This value is returned in the <b>dwFixedMemoryUsage</b> member of the <a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a> structure.
 
 </li>
 <li>
@@ -132,21 +132,20 @@ For example, suppose GDI reports that the optimum amount of memory to use for dr
 
 If an <code>IPrintOemUni::MemoryUsage</code> method is not provided, Unidrv allocates all the optimum available space to the source bitmap. This is acceptable if the <b>IPrintOemUni::ImageProcessing</b> method returns the processed bitmap in the memory space allocated for the source bitmap. However, if a rendering plug-in's <b>IPrintOemUni::ImageProcessing</b> method does allocate space for a destination bitmap but does not provide an <code>IPrintOemUni::MemoryUsage</code> method, the result is that more memory will be allocated for bitmaps than the optimum available size, potentially causing performance degradation.
 
-The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "MemoryUsage" as input.
+The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "MemoryUsage" as input.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a>
+<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a>
+<a href="/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a>
-
+<a href="/windows-hardware/drivers/ddi/printoem/ns-printoem-oemmemoryusage">OEMMEMORYUSAGE</a>

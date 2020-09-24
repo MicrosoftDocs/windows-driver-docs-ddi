@@ -61,7 +61,7 @@ A handle to a framework device object.
 ### -param PhysicalDevice
 
 [in]
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
+A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 
 ## -returns
 
@@ -97,7 +97,7 @@ A memory allocation failed.
 </table>
  
 
-The method might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+The method might return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -121,9 +121,8 @@ status = WdfDeviceAddRemovalRelationsPhysicalDevice(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceclearremovalrelationsdevices">WdfDeviceClearRemovalRelationsDevices</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceclearremovalrelationsdevices">WdfDeviceClearRemovalRelationsDevices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceremoveremovalrelationsphysicaldevice">WdfDeviceRemoveRemovalRelationsPhysicalDevice</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceremoveremovalrelationsphysicaldevice">WdfDeviceRemoveRemovalRelationsPhysicalDevice</a>

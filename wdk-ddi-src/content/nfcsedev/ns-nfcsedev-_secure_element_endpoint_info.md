@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-SECURE_ELEMENT_ENDPOINT_INFO is a member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_list">SECURE_ELEMENT_ENDPOINT_LIST</a>.
+SECURE_ELEMENT_ENDPOINT_INFO is a member of <a href="/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_endpoint_list">SECURE_ELEMENT_ENDPOINT_LIST</a>.
 
 ## -struct-fields
 
@@ -61,4 +61,3 @@ This is a unique identifier for the secure element.
 ### -field eSecureElementType
 
 Type of secure element endpoint (NFCEE).
-

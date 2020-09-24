@@ -57,7 +57,7 @@ The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforidle">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforidle">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for.
 
 ## -returns
 
@@ -67,10 +67,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |STATUS_SUCCESS|The wait for the display device successfully occurred.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
- 
+
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforidle">D3DKMT_WAITFORIDLE</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforidle">D3DKMT_WAITFORIDLE</a>

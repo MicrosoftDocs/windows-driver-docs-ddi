@@ -67,15 +67,14 @@ A WCHAR array that contains a NULL-terminated string that is limited to a maximu
 ## -remarks
 
 The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a> and 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a> power management
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a> and 
+    <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a> power management
     structures to define name strings.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>

@@ -160,7 +160,7 @@ WWAN_PROVIDER_STATE_HOME
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-home-provider">OID_WWAN_HOME_PROVIDER</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-home-provider">OID_WWAN_HOME_PROVIDER</a>
 
 
 </td>
@@ -174,7 +174,7 @@ WWAN_PROVIDER_STATE_PREFERRED
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-preferred-providers">OID_WWAN_PREFERRED_PROVIDERS</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-preferred-providers">OID_WWAN_PREFERRED_PROVIDERS</a>
 
 
 </td>
@@ -194,7 +194,7 @@ WWAN_PROVIDER_STATE_FORBIDDEN
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-visible-providers">OID_WWAN_VISIBLE_PROVIDERS</a>
+<a href="/windows-hardware/drivers/network/oid-wwan-visible-providers">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 
 </td>
@@ -221,24 +221,23 @@ Miniport drivers should specify a <b>NULL</b> string for devices that do not hav
 A bitmap that represents the data-class(es) that the device supports. For a detailed list of
      values, see the 
      <b>WwanDataClass</b> member of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
+     <a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
      
 
 This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_home_provider">NDIS_WWAN_HOME_PROVIDER</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_home_provider">NDIS_WWAN_HOME_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_preferred_providers">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_preferred_providers">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_visible_providers">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_visible_providers">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
-
+<a href="/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>

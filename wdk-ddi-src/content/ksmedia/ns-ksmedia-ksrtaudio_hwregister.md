@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The KSRTAUDIO_HWREGISTER structure specifies the address and additional information about a hardware register requested by the client.  It is filled in by the driver in response to a register request via <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>.
+The KSRTAUDIO_HWREGISTER structure specifies the address and additional information about a hardware register requested by the client.  It is filled in by the driver in response to a register request via <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a> and <a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>.
 
 ## -struct-fields
 
@@ -90,13 +90,12 @@ For position registers, the <i>Accuracy</i> parameter represents the accuracy of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
+<a href="/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_hwregister_property">KSRTAUDIO_HWREGISTER_PROPERTY</a>
-
+<a href="/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_hwregister_property">KSRTAUDIO_HWREGISTER_PROPERTY</a>

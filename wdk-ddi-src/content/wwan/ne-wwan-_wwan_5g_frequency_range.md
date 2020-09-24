@@ -67,9 +67,8 @@ This enumeration is used in the [**WWAN_PACKET_SERVICE**](ns-wwan-_wwan_packet_s
 
 ## -see-also
 
-[MB 5G data class support](https://docs.microsoft.com/windows-hardware/drivers/network/mb-5g-data-class-support)
+[MB 5G data class support](/windows-hardware/drivers/network/mb-5g-data-class-support)
 
-[OID_WWAN_SAR_CONFIG](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-packet-service)
+[OID_WWAN_SAR_CONFIG](/windows-hardware/drivers/network/oid-wwan-packet-service)
 
 [**WWAN_PACKET_SERVICE*](ns-wwan-_wwan_packet_service.md)
-

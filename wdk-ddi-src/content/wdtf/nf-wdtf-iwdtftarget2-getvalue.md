@@ -68,7 +68,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -remarks
 
 You specify the field that the<b> GetValue</b> method retrieves 
-by using a regular <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">SDEL</a> 
+by using a regular <a href="/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">SDEL</a> 
 statement. Typically, an SDEL statement can contain comparison operators and value specifiers to 
 perform matches. However, you do not need these items for <b>GetValue</b> 
 to work properly. 
@@ -86,9 +86,8 @@ of the values on both sides of itself, but <b>OR</b> will allow collection
 of only the first value found (starting with the left).
 
 For more information about using <b>GetValue</b>, 
-see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">Simple Data Evaluation Language Overview</a>.
+see <a href="/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">Simple Data Evaluation Language Overview</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>

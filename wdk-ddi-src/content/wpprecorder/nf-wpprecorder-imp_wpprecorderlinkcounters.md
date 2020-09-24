@@ -61,5 +61,4 @@ ID of the counter whose current value is to be read.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values
-
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values

@@ -1,11 +1,9 @@
 ---
 UID: NS:wdm._KBUGCHECK_CALLBACK_RECORD
 title: KBUGCHECK_CALLBACK_RECORD
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: ed7bd00d-b5ea-423a-a644-f36336beeb16
-ms.author: windowsdriverdev
 ms.date: 05/08/2019
 keywords: ["KBUGCHECK_CALLBACK_RECORD structure"]
 ms.keywords: KBUGCHECK_CALLBACK_RECORD, KBUGCHECK_CALLBACK_RECORD, *PKBUGCHECK_CALLBACK_RECORD,
@@ -69,9 +67,8 @@ The **KBUGCHECK_CALLBACK_RECORD** structure is used for bookkeeping by the KeReg
 
 The structure must be allocated in resident memory, such as nonpaged pool. Use the KeInitializeCallbackRecord routine to initialize the structure before using it.
 
-For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For more information about how this structure is used, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
-
+<a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.

@@ -52,14 +52,13 @@ Exposes a validation, merge, or commit completion event delegate.
 
 ## -remarks
 
-An event sink that implements **IPrintSchemaAsyncOperationEvent** and the event source, [IPrintSchemaAsyncOperation](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation) are connected via the [IConnectionPoint](https://docs.microsoft.com/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint) mechanism. You must retrieve a pointer to the **IConnectionPoint** interface by invoking **QueryInterface** on the **IPrinterQueue** object.
+An event sink that implements **IPrintSchemaAsyncOperationEvent** and the event source, [IPrintSchemaAsyncOperation](./nn-printerextension-iprintschemaasyncoperation.md) are connected via the [IConnectionPoint](/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint) mechanism. You must retrieve a pointer to the **IConnectionPoint** interface by invoking **QueryInterface** on the **IPrinterQueue** object.
 
 > [!NOTE]
 > It is mandatory to implement **IDispatch::Invoke** on the event sink that implements **IPrinterQueueEvent**, since that is the mechanism via which events are raised. It is sufficient to provide stub implementations of the other methods on the **IDispatch** interface.
 
 ## -see-also
 
-[IConnectionPoint](https://docs.microsoft.com/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint)
+[IConnectionPoint](/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint)
 
-[IPrintSchemaAsyncOperation](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation)
-
+[IPrintSchemaAsyncOperation](./nn-printerextension-iprintschemaasyncoperation.md)

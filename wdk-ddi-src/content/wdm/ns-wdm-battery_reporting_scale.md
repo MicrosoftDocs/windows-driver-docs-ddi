@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Battery miniclass drivers fill in this structure in response to certain <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> requests.
+Battery miniclass drivers fill in this structure in response to certain <a href="/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> requests.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ typedef struct {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
-
+<a href="/windows/win32/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>

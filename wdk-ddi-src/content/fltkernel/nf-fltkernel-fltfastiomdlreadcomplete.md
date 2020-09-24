@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine initiated.
+The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine initiated.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A pointer to the file object.
 ### -param MdlChain 
 
 [in]
-A pointer to a linked list of memory descriptor lists (MDLs) that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
+A pointer to a linked list of memory descriptor lists (MDLs) that the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
 
 ## -returns
 
@@ -70,9 +70,8 @@ None
 
 ## -remarks
 
-The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
+The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a>
-
+<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a>

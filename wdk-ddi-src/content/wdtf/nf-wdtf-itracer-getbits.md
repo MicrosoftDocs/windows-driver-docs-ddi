@@ -46,14 +46,14 @@ api_name:
 
 ## -description
 
-The <b>GetBits</b> method returns the set of tracing flags for a coclass as a bit mask, given a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> value and the CLSID of the coclass.
+The <b>GetBits</b> method returns the set of tracing flags for a coclass as a bit mask, given a specified <a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a> value and the CLSID of the coclass.
 
 ## -parameters
 
 ### -param ClassID 
 
 [in]
-The CLSID of the co-class of the object that is requesting the tracing bit mask. This parameter causes the interface's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TraceLevel Path</a> to be defined as HKCR\CLSID\<<i>ClassID</i>>.
+The CLSID of the co-class of the object that is requesting the tracing bit mask. This parameter causes the interface's <a href="/windows-hardware/drivers/ddi/index">TraceLevel Path</a> to be defined as HKCR\CLSID\<<i>ClassID</i>>.
 
 ### -param Level 
 
@@ -71,7 +71,7 @@ The returned set of flags as a bit mask.
 
 ## -remarks
 
-The <b>GetBits</b> method is intended for low-level WDTF usage. If you want to change the trace level of an object at runtime, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>.
+The <b>GetBits</b> method is intended for low-level WDTF usage. If you want to change the trace level of an object at runtime, see <a href="/windows-hardware/drivers/ddi/index">ITracing</a>.
 
 If no default trace level exists, this method fails.
 
@@ -79,13 +79,12 @@ If <b>GetBits</b> fails for any reason, the caller is expected to silently conti
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a>
+<a href="/windows-hardware/drivers/ddi/index">ITracer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>
+<a href="/windows-hardware/drivers/ddi/index">ITracing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a>
-
+<a href="/windows-hardware/drivers/ddi/index">TTraceLevel</a>

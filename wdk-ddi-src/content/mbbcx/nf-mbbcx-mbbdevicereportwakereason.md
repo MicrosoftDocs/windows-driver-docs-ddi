@@ -1,11 +1,9 @@
 ---
 UID: NF:mbbcx.MbbDeviceReportWakeReason
 title: MbbDeviceReportWakeReason function (mbbcx.h)
-author: windows-driver-content
 description: The MbbDeviceReportWakeReason method reports to the framework the reason that a mobile broadband device has generated a wake-up event.
 tech.root: netvista
 ms.assetid: 57af271e-cd06-4749-abd1-89f4d3c7075c
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["MbbDeviceReportWakeReason function"]
 ms.keywords: MbbDeviceReportWakeReason

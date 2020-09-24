@@ -1,11 +1,9 @@
 ---
 UID: NF:netwakesource.NetWakeSourceGetMediaChangeParameters
 title: NetWakeSourceGetMediaChangeParameters function (netwakesource.h)
-author: windows-driver-content
 description: The NetWakeSourceGetMediaChangeParameters function gets parameters for a media change wake source.
 tech.root: netvista
 ms.assetid: 197b0268-eace-4c01-bacd-62102bae7225
-ms.author: windowsdriverdev
 ms.date: 10/07/2019
 keywords: ["NetWakeSourceGetMediaChangeParameters function"]
 ms.keywords: NetWakeSourceGetMediaChangeParameters
@@ -72,9 +70,8 @@ The client driver must only call **NetWakeSourceGetMediaChangeParameters** durin
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_wake_source_parameters.md)
 
 [**NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT**](../netwakesource/nf-netwakesource-net_wake_source_media_change_parameters_init.md)
-

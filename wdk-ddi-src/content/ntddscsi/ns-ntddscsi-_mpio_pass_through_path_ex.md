@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>MPIO_PASS_THROUGH_PATH_EX</b>  structure is used together with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_ex">IOCTL_MPIO_PASS_THROUGH_PATH_EX</a> request to instruct the port driver to send an embedded SCSI command to the target device.
+The <b>MPIO_PASS_THROUGH_PATH_EX</b>  structure is used together with an <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_ex">IOCTL_MPIO_PASS_THROUGH_PATH_EX</a> request to instruct the port driver to send an embedded SCSI command to the target device.
 
 ## -struct-fields
 
 ### -field PassThroughOffset
 
-The offset from the beginning of this structure to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_ex">SCSI_PASS_THROUGH_EX</a> structure that is configured in the same manner as it is for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_ex">IOCTL_SCSI_PASS_THROUGH_EX</a> request.
+The offset from the beginning of this structure to a <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_ex">SCSI_PASS_THROUGH_EX</a> structure that is configured in the same manner as it is for an <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_ex">IOCTL_SCSI_PASS_THROUGH_EX</a> request.
 
 ### -field Version
 
@@ -76,7 +76,7 @@ The size of the <b>MPIO_PASS_THROUGH_PATH_EX</b> structure.
 
 ### -field PortNumber
 
-The port number if MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set. Otherwise, this member is zero. If MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set, the <b>PathID</b> and <b>TargetId</b> values are taken from address structure associated with the embedded <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_ex">SCSI_PASS_THROUGH_EX</a> structure.
+The port number if MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set. Otherwise, this member is zero. If MPIO_IOCTL_FLAG_USE_SCSIADDRESS is set, the <b>PathID</b> and <b>TargetId</b> values are taken from address structure associated with the embedded <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_ex">SCSI_PASS_THROUGH_EX</a> structure.
 
 ### -field MpioPathId
 
@@ -84,34 +84,33 @@ The <b>PathID</b> for the real LUN. This value can be obtained by using a WMI re
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  All 32 bit processes running on a 64 bit version of Windows must use the <b>MPIO_PASS_THROUGH_PATH32_EX</b> structure when issuing an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_ex">IOCTL_MPIO_PASS_THROUGH_PATH_EX</a> request.</div>
+<div class="alert"><b>Note</b>  All 32 bit processes running on a 64 bit version of Windows must use the <b>MPIO_PASS_THROUGH_PATH32_EX</b> structure when issuing an <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_ex">IOCTL_MPIO_PASS_THROUGH_PATH_EX</a> request.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_direct_ex">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_ex">IOCTL_MPIO_PASS_THROUGH_PATH_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path_ex">IOCTL_MPIO_PASS_THROUGH_PATH_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct_ex">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct_ex">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_ex">IOCTL_SCSI_PASS_THROUGH_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_ex">IOCTL_SCSI_PASS_THROUGH_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_direct_ex">SCSI_PASS_THROUGH_DIRECT_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_direct_ex">SCSI_PASS_THROUGH_DIRECT_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_ex">SCSI_PASS_THROUGH_EX</a>
+<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_ex">SCSI_PASS_THROUGH_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>
-
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a>

@@ -46,13 +46,13 @@ api_name:
 
 ## -description
 
-Sets the adapter to the specified operating mode. Miniport drivers are required to support this nonmodal request because it resets the current mode. The miniport driver must also consider the two high order flags which are used to additionally control the mode set operation. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode">VIDEO_MODE</a> for further information.
+Sets the adapter to the specified operating mode. Miniport drivers are required to support this nonmodal request because it resets the current mode. The miniport driver must also consider the two high order flags which are used to additionally control the mode set operation. See <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode">VIDEO_MODE</a> for further information.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode">VIDEO_MODE</a> structure specifying the mode to be set.
+The VRP <b>InputBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode">VIDEO_MODE</a> structure specifying the mode to be set.
 
 ### -input-buffer-length
 
@@ -68,9 +68,8 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode">VIDEO_MODE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_mode">VIDEO_MODE</a>

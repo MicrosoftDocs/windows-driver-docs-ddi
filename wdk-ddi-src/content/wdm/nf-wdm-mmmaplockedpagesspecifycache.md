@@ -53,7 +53,7 @@ The <b>MmMapLockedPagesSpecifyCache</b> routine maps the physical pages that are
 ### -param MemoryDescriptorList 
 
 [in]
-A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a> routine. For mappings to user space, MDLs that are built by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> routine can be used.
+A pointer to the MDL that is to be mapped. This MDL must describe physical pages that are locked down. A locked-down MDL can be built by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a> or <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a> routine. For mappings to user space, MDLs that are built by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> routine can be used.
 
 ### -param AccessMode 
 
@@ -63,7 +63,7 @@ Specifies the access mode in which to map the MDL: <b>KernelMode</b> or <b>UserM
 ### -param CacheType 
 
 [in]
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the MDL. For more information, see the following Remarks section.
+Specifies a <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the MDL. For more information, see the following Remarks section.
 
 ### -param RequestedAddress
 
@@ -79,7 +79,7 @@ Specifies the behavior of the routine for <i>AccessMode</i> = <b>KernelMode</b> 
 ### -param Priority 
 
 [in]
-An <b>MM_PAGE_PRIORITY</b> value that indicates the importance of success when page table entries (PTEs) are scarce. Starting with Windows 8, the specified priority value can be bitwise-ORed with the <b>MdlMappingNoWrite</b> or <b>MdlMappingNoExecute</b> flags to specify memory in which writes or instruction execution are disabled. For more information about the possible values for <i>Priority</i>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
+An <b>MM_PAGE_PRIORITY</b> value that indicates the importance of success when page table entries (PTEs) are scarce. Starting with Windows 8, the specified priority value can be bitwise-ORed with the <b>MdlMappingNoWrite</b> or <b>MdlMappingNoExecute</b> flags to specify memory in which writes or instruction execution are disabled. For more information about the possible values for <i>Priority</i>, see <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>.
 
 ## -returns
 
@@ -87,7 +87,7 @@ An <b>MM_PAGE_PRIORITY</b> value that indicates the importance of success when p
 
 ## -remarks
 
-Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmaplockedpages">MmUnmapLockedPages</a> to unmap the physical pages that were mapped by <b>MmMapLockedPagesSpecifyCache</b>.
+Use <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmaplockedpages">MmUnmapLockedPages</a> to unmap the physical pages that were mapped by <b>MmMapLockedPagesSpecifyCache</b>.
 
 If <i>AccessMode</i> is <b>KernelMode</b>, and if <b>MmMapLockedPagesSpecifyCache</b> cannot map the specified pages, the routine returns <b>NULL</b> (if <i>BugCheckOnFailure</i> = <b>FALSE</b>), or the operating system issues a bug check (if <i>BugCheckOnFailure</i> = <b>TRUE</b>).
 
@@ -95,7 +95,7 @@ If <i>AccessMode</i> is <b>UserMode</b>, be aware of the following details:
 
 <ul>
 <li>
-If the specified pages cannot be mapped, the routine raises an exception. Callers that specify <b>UserMode</b> must wrap the call to <b>MmMapLockedPagesSpecifyCache</b> in a <b>try/except</b> block. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>.
+If the specified pages cannot be mapped, the routine raises an exception. Callers that specify <b>UserMode</b> must wrap the call to <b>MmMapLockedPagesSpecifyCache</b> in a <b>try/except</b> block. For more information, see <a href="/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>.
 
 </li>
 <li>
@@ -111,9 +111,9 @@ The non-executable protection of the mapping and any write protection of the map
 
 </li>
 </ul>
-The routine uses the <i>CacheType</i> parameter only if the pages that are described by the MDL do not already have a cache type associated with them. However, in nearly all cases, the pages already have an associated cache type, and this cache type is used by the new mapping. An exception to this rule is for pages that are allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl">MmAllocatePagesForMdl</a>, which do not have a specific cache type associated with them. For such pages, the <i>CacheType</i> parameter determines the cache type of the mapping. 
+The routine uses the <i>CacheType</i> parameter only if the pages that are described by the MDL do not already have a cache type associated with them. However, in nearly all cases, the pages already have an associated cache type, and this cache type is used by the new mapping. An exception to this rule is for pages that are allocated by <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl">MmAllocatePagesForMdl</a>, which do not have a specific cache type associated with them. For such pages, the <i>CacheType</i> parameter determines the cache type of the mapping. 
 
-A driver must not try to create more than one system-address-space mapping for an MDL. Additionally, because an MDL that is built by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> routine is already mapped to the system address space, a driver must not try to map this MDL into the system address space again by using the <b>MmMapLockedPagesSpecifyCache</b> routine (although creating user-address-space mappings is allowed). If it is not known whether a locked-down MDL already has a system-address-space mapping, a driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a> macro instead of <b>MmMapLockedPagesSpecifyCache</b>. If the MDL is already mapped into the system address space, <b>MmGetSystemAddressForMdlSafe</b> will return the existing system-address-space mapping instead of creating a new mapping.
+A driver must not try to create more than one system-address-space mapping for an MDL. Additionally, because an MDL that is built by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a> routine is already mapped to the system address space, a driver must not try to map this MDL into the system address space again by using the <b>MmMapLockedPagesSpecifyCache</b> routine (although creating user-address-space mappings is allowed). If it is not known whether a locked-down MDL already has a system-address-space mapping, a driver can use the <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a> macro instead of <b>MmMapLockedPagesSpecifyCache</b>. If the MDL is already mapped into the system address space, <b>MmGetSystemAddressForMdlSafe</b> will return the existing system-address-space mapping instead of creating a new mapping.
 
 <div class="alert"><b>Warning</b>    A driver that maps kernel memory into user address space must avoid exposing potentially sensitive kernel data to untrusted processes. Uninitialized buffers, such as buffers that are allocated from pool, must be explicitly filled with zeros before they are mapped. In addition, the size of a user-mode buffer that is allocated from pool must be a multiple of the virtual memory page size to prevent any part of the pages in the buffer from being used for other allocations. Finally, buffers must not be freed back to the pool while they are still mapped to user address space. </div>
 <div> </div>
@@ -121,25 +121,24 @@ If <i>AccessMode</i> is <b>UserMode</b>, the caller must be running at IRQL <= A
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl">MmAllocatePagesForMdl</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdl">MmAllocatePagesForMdl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex">MmAllocatePagesForMdlEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmbuildmdlfornonpagedpool">MmBuildMdlForNonPagedPool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmaplockedpages">MmUnmapLockedPages</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmaplockedpages">MmUnmapLockedPages</a>

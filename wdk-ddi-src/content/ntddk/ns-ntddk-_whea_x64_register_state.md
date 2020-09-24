@@ -182,19 +182,14 @@ The control register 8.
 
 A WHEA128A structure that contains the state of the global descriptor table register. The WHEA128A structure describes a 128-bit value and is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _WHEA128A {
+
+```
+typedef struct _WHEA128A {
   ULONGLONG  Low;
   LONGLONG  High;
-} WHEA128A, *PWHEA128A;</pre>
-</td>
-</tr>
-</table></span></div>
+} WHEA128A, *PWHEA128A;
+```
+
 
 
 
@@ -223,9 +218,8 @@ The task register.
 
 ## -remarks
 
-If the <b>RegisterContextType</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X64_REGISTER_STATE structure.
+If the <b>RegisterContextType</b> member of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X64_REGISTER_STATE structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info">WHEA_XPF_CONTEXT_INFO</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_xpf_context_info">WHEA_XPF_CONTEXT_INFO</a>

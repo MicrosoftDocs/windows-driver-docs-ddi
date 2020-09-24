@@ -65,5 +65,4 @@ This routine does not fail because it always returns a silo: the server silo or 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psishostsilo">PsIsHostSilo</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psishostsilo">PsIsHostSilo</a>

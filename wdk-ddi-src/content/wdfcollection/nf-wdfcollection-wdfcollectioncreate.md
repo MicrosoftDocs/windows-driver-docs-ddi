@@ -58,7 +58,7 @@ The <b>WdfCollectionCreate</b> method creates a framework collection object.
 ### -param CollectionAttributes 
 
 [in, optional]
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+A pointer to a caller-allocated <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the new collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 ### -param Collection 
 
@@ -99,36 +99,35 @@ A collection object could not be allocated.
 </table>
  
 
-This method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+This method might also return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 ## -remarks
 
-After calling <b>WdfCollectionCreate</b> to create a framework collection object, a driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionadd">WdfCollectionAdd</a> to add objects to the collection. 
+After calling <b>WdfCollectionCreate</b> to create a framework collection object, a driver can call <a href="/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionadd">WdfCollectionAdd</a> to add objects to the collection. 
 
-By default, the new collection object's parent is the framework driver object that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> method created. You can use the <b>ParentObject</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure to specify a different parent. The framework deletes the collection object when it deletes the parent object. If your driver does not change the default parent, the driver should delete the collection object when it has finished using the object; otherwise, the object will remain until the I/O manager unloads your driver. 
+By default, the new collection object's parent is the framework driver object that the <a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> method created. You can use the <b>ParentObject</b> member of the <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure to specify a different parent. The framework deletes the collection object when it deletes the parent object. If your driver does not change the default parent, the driver should delete the collection object when it has finished using the object; otherwise, the object will remain until the I/O manager unloads your driver. 
 
-For more information about object collections, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
+For more information about object collections, see <a href="/windows-hardware/drivers/wdf/framework-object-collections">Framework Object Collections</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfCollectionCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionadd">WdfCollectionAdd</a>.
+For a code example that uses <b>WdfCollectionCreate</b>, see <a href="/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionadd">WdfCollectionAdd</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
+<a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionadd">WdfCollectionAdd</a>
+<a href="/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionadd">WdfCollectionAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionremove">WdfCollectionRemove</a>
+<a href="/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionremove">WdfCollectionRemove</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>

@@ -65,17 +65,16 @@ The system considers exclusive access to be a subset of shared access. Therefore
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544363">ExAcquireResourceSharedLite</a>
+<a href="/previous-versions/ff544363(v=vs.85)">ExAcquireResourceSharedLite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544367">ExAcquireSharedStarveExclusive</a>
+<a href="/previous-versions/ff544367(v=vs.85)">ExAcquireSharedStarveExclusive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544370">ExAcquireSharedWaitForExclusive</a>
+<a href="/previous-versions/ff544370(v=vs.85)">ExAcquireSharedWaitForExclusive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a>

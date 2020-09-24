@@ -50,7 +50,7 @@ api_name:
 
 This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
 
-For example, <a href="https://docs.microsoft.com/windows/win32/printdocs/job-info-1">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
+For example, <a href="/windows/win32/printdocs/job-info-1">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
 
 ## -enum-fields
 
@@ -118,9 +118,8 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_status">IPrintJob::Status</a>
+<a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_status">IPrintJob::Status</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/printdocs/job-info-1">JOB_INFO_1</a>
-
+<a href="/windows/win32/printdocs/job-info-1">JOB_INFO_1</a>

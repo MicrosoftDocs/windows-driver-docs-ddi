@@ -168,19 +168,15 @@ Reserved. Set to 0;
 
 ## -remarks
 
-The <b>FILE_FS_PERSISTENT_VOLUME_INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-persistent-volume-state">FSCTL_SET_PERSISTENT_VOLUME_STATE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-query-persistent-volume-state">FSCTL_QUERY_PERSISTENT_VOLUME_STATE</a> control codes.
+The <b>FILE_FS_PERSISTENT_VOLUME_INFORMATION</b> structure is used with the <a href="/windows-hardware/drivers/ifs/fsctl-set-persistent-volume-state">FSCTL_SET_PERSISTENT_VOLUME_STATE</a> and <a href="/windows-hardware/drivers/ifs/fsctl-query-persistent-volume-state">FSCTL_QUERY_PERSISTENT_VOLUME_STATE</a> control codes.
 
 To query the state flags, <b>FlagMask</b> is set to a combination of flags to check for. For example, if the only the seek penalty flags are of interest, <b>FlagMask</b> = PERSISTENT_VOLUME_STATE_GLOBAL_METADATA_NO_SEEK_PENALTY | PERSISTENT_VOLUME_STATE_LOCAL_METADATA_NO_SEEK_PENALTY. Also, if only short name support is queried, then set <b>FlagMask</b> = PERSISTENT_VOLUME_STATE_SHORT_NAME_CREATION_DISABLED.
 
-When setting or clearing the persistent volume state flags, using <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-persistent-volume-state">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>, <b>FlagMask</b> is set to all of the flags in <b>VolumeFlags</b> that will be affected for the volume. <b>VolumeFlags</b> contains the actual persistent state flags to set for the volume. The following example shows how to set the members of <b>FILE_FS_PERSISTENT_VOLUME_INFORMATION</b> to enable short name creation for a volume.
+When setting or clearing the persistent volume state flags, using <a href="/windows-hardware/drivers/ifs/fsctl-set-persistent-volume-state">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>, <b>FlagMask</b> is set to all of the flags in <b>VolumeFlags</b> that will be affected for the volume. <b>VolumeFlags</b> contains the actual persistent state flags to set for the volume. The following example shows how to set the members of <b>FILE_FS_PERSISTENT_VOLUME_INFORMATION</b> to enable short name creation for a volume.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IO_STATUS_BLOCK IoStatus;
+
+```cpp
+IO_STATUS_BLOCK IoStatus;
 FILE_FS_PERSISTENT_VOLUME_INFORMATION PersistVolInfo;
 NTSTATUS status;
 
@@ -200,17 +196,15 @@ status = ZwFsControlFile( VolumeHandle,
                           &PersistVolInfo,
                           sizeof(FILE_FS_PERSISTENT_VOLUME_INFORMATION),
                           NULL,
-                          0 );</pre>
-</td>
-</tr>
-</table></span></div>
+                          0 );
+```
+
 The <b>Version</b> member must be set to the current version of 1 for both a query and  a set  request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-query-persistent-volume-state">FSCTL_QUERY_PERSISTENT_VOLUME_STATE</a>
+<a href="/windows-hardware/drivers/ifs/fsctl-query-persistent-volume-state">FSCTL_QUERY_PERSISTENT_VOLUME_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-persistent-volume-state">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>
-
+<a href="/windows-hardware/drivers/ifs/fsctl-set-persistent-volume-state">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>

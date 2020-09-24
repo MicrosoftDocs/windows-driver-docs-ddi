@@ -46,5 +46,4 @@ api_name:
 
 ## -description
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-ipositionnotify-positionnotify">PositionNotify</a>
-
+<a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-ipositionnotify-positionnotify">PositionNotify</a>

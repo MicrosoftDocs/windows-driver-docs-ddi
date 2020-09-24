@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **ObReferenceObjectByHandleWithTag** routine increments the reference count of the object that is identified by the specified handle, and writes a four-byte tag value to the object to support [object reference tracing](https://docs.microsoft.com/windows-hardware/drivers/debugger/object-reference-tracing).
+The **ObReferenceObjectByHandleWithTag** routine increments the reference count of the object that is identified by the specified handle, and writes a four-byte tag value to the object to support [object reference tracing](/windows-hardware/drivers/debugger/object-reference-tracing).
 
 ## -parameters
 
@@ -58,12 +58,12 @@ Specifies an open handle for an object.
 ### -param DesiredAccess 
 
 [in]
-Specifies the types of access to the object that the caller requests. This parameter is a bitmask of type [ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask). The interpretation of this field depends on the object type. Do not use any generic access rights.
+Specifies the types of access to the object that the caller requests. This parameter is a bitmask of type [ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask). The interpretation of this field depends on the object type. Do not use any generic access rights.
 
 ### -param ObjectType 
 
 [in, optional]
-A pointer to an opaque structure that specifies the object type. This parameter points to an [OBJECT_TYPE](https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess) structure. Set *ObjectType* to **NULL** or to one of the following pointer values, which are declared in the Wdm.h header file: \***ExEventObjectType**, \***ExSemaphoreObjectType**, \***IoFileObjectType**, \***PsProcessType**, \***PsThreadType**, \***SeTokenObjectType**, \***TmEnlistmentObjectType**, \***TmResourceManagerObjectType**, \***TmTransactionManagerObjectType**, or \***TmTransactionObjectType**. If *ObjectType* is not **NULL**, the routine verifies that the supplied object type matches the object type of the object that the *Handle* parameter specifies.
+A pointer to an opaque structure that specifies the object type. This parameter points to an [OBJECT_TYPE](/windows-hardware/drivers/kernel/eprocess) structure. Set *ObjectType* to **NULL** or to one of the following pointer values, which are declared in the Wdm.h header file: \***ExEventObjectType**, \***ExSemaphoreObjectType**, \***IoFileObjectType**, \***PsProcessType**, \***PsThreadType**, \***SeTokenObjectType**, \***TmEnlistmentObjectType**, \***TmResourceManagerObjectType**, \***TmTransactionManagerObjectType**, or \***TmTransactionObjectType**. If *ObjectType* is not **NULL**, the routine verifies that the supplied object type matches the object type of the object that the *Handle* parameter specifies.
 
 ### -param AccessMode 
 
@@ -114,23 +114,23 @@ Drivers set this parameter to **NULL**.
 
 This routine does access validation of the specified object handle. If access can be granted, the routine increments the object reference count and provides an object pointer to the caller. This increment prevents the object from being deleted while the caller uses the object. When the object is no longer needed, the caller should decrement the reference count by calling the [ObDereferenceObjectWithTag](nf-wdm-obdereferenceobjectwithtag.md) or [ObDereferenceObjectDeferDeleteWithTag](nf-wdm-obdereferenceobjectdeferdeletewithtag.md) routine.
 
-For more information about object references, see [Life Cycle of an Object](https://docs.microsoft.com/windows-hardware/drivers/kernel/life-cycle-of-an-object).
+For more information about object references, see [Life Cycle of an Object](/windows-hardware/drivers/kernel/life-cycle-of-an-object).
 
 **ObReferenceObjectByHandleWithTag** does not close or invalidate the object handle that is specified by the *Handle* parameter. When the handle is no longer needed, the caller can close the handle by calling the [ZwClose](nf-wdm-zwclose.md) routine.
 
 If the *AccessMode* parameter value is **KernelMode**, the requested access is always allowed. If *AccessMode* is **UserMode**, the requested access is compared to the access rights that the caller has to the object. Only highest-level drivers can safely specify the **UserMode** value for the *AccessMode* parameter.
 
-Starting with Windows 7, if *AccessMode* is **KernelMode** and handle is received from user address space, [Driver Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/driver-verifier) issues bugcheck C4, subcode F6.
+Starting with Windows 7, if *AccessMode* is **KernelMode** and handle is received from user address space, [Driver Verifier](/windows-hardware/drivers/devtest/driver-verifier) issues bugcheck C4, subcode F6.
 
 The [ObReferenceObjectByHandle](nf-wdm-obreferenceobjectbyhandle.md) routine is similar to **ObReferenceObjectByHandleWithTag**, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, **ObReferenceObjectByHandle** always writes a default tag value ('tlfD') to the object. A call to **ObReferenceObjectByHandle** has the same effect as a call to **ObReferenceObjectByHandleWithTag** that specifies *Tag* = 'tlfD'.
 
-To view an object reference trace in the [Windows debugging tools](https://docs.microsoft.com/windows-hardware/drivers/debugger/), use the [!obtrace](https://docs.microsoft.com/windows-hardware/drivers/debugger/-obtrace) kernel-mode debugger extension. The **!obtrace** extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the [Global Flags Editor](https://docs.microsoft.com/windows-hardware/drivers/debugger/gflags) (Gflags) to enable object reference tracing. For more information, see [Object Reference Tracing with Tags](https://docs.microsoft.com/windows-hardware/drivers/kernel/object-reference-tracing-with-tags).
+To view an object reference trace in the [Windows debugging tools](/windows-hardware/drivers/debugger/), use the [!obtrace](/windows-hardware/drivers/debugger/-obtrace) kernel-mode debugger extension. The **!obtrace** extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the [Global Flags Editor](/windows-hardware/drivers/debugger/gflags) (Gflags) to enable object reference tracing. For more information, see [Object Reference Tracing with Tags](/windows-hardware/drivers/kernel/object-reference-tracing-with-tags).
 
 ## -see-also
 
-[ACCESS_MASK](https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask)
+[ACCESS_MASK](/windows-hardware/drivers/kernel/access-mask)
 
-[OBJECT_TYPE](https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess)
+[OBJECT_TYPE](/windows-hardware/drivers/kernel/eprocess)
 
 [ObDereferenceObjectDeferDeleteWithTag](nf-wdm-obdereferenceobjectdeferdeletewithtag.md)
 
@@ -139,4 +139,3 @@ To view an object reference trace in the [Windows debugging tools](https://docs.
 [ObReferenceObjectByHandle](nf-wdm-obreferenceobjectbyhandle.md)
 
 [ZwClose](nf-wdm-zwclose.md)
-

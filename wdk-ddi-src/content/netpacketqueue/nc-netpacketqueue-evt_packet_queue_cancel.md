@@ -74,7 +74,7 @@ Register this callback function in your *EVT_NET_ADAPTER_CREATE_TX(RX)QUEUE* cal
 
 NetAdapterCx serializes this callback function along with the packet queue's [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md) and [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md) callback functions.
 
-For more info and a diagram showing the NetAdapterCx data path polling model, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
+For more info and a diagram showing the NetAdapterCx data path polling model, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 
 ## -see-also
 
@@ -93,4 +93,3 @@ For more info and a diagram showing the NetAdapterCx data path polling model, se
 [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md)
 
 [*EVT_PACKET_QUEUE_STOP*](nc-netpacketqueue-evt_packet_queue_stop.md)
-

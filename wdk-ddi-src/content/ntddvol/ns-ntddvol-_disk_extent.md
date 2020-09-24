@@ -68,9 +68,8 @@ Specifies the number of bytes of this extent.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
+<a href="/windows-hardware/drivers/ddi/ntddvol/ni-ntddvol-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_disk_extents">VOLUME_DISK_EXTENTS</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_disk_extents">VOLUME_DISK_EXTENTS</a>

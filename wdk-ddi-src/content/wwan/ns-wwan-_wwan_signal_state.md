@@ -295,5 +295,4 @@ This member points to a list of [**WWAN_SIGNAL_STATE_EXT**](../wwan/ns-wwan-_wwa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_signal_state">NDIS_WWAN_SIGNAL_STATE</a>
-
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_signal_state">NDIS_WWAN_SIGNAL_STATE</a>

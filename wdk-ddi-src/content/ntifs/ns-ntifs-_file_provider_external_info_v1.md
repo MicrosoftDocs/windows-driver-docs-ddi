@@ -75,5 +75,4 @@ Specifies flags for the operation. Reserved for future use, should be 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v0">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_provider_external_info_v0">FILE_PROVIDER_EXTERNAL_INFO_V0</a>

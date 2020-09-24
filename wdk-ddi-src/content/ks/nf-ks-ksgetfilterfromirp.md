@@ -54,11 +54,11 @@ The<b> KsGetFilterFromIrp </b>function returns the AVStream filter object associ
 ### -param Irp 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure for which to return the associated filter.
+A pointer to the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure for which to return the associated filter.
 
 ## -returns
 
-<b>KsGetFilterFromIrp</b> returns either a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure associated with <i>Irp</i> or <b>NULL</b>. <b>NULL</b> indicates that <i>Irp</i> is not associated with an AVStream object.
+<b>KsGetFilterFromIrp</b> returns either a pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure associated with <i>Irp</i> or <b>NULL</b>. <b>NULL</b> indicates that <i>Irp</i> is not associated with an AVStream object.
 
 ## -remarks
 
@@ -66,9 +66,8 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetpinfromirp">KsGetPinFromIrp</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksgetpinfromirp">KsGetPinFromIrp</a>

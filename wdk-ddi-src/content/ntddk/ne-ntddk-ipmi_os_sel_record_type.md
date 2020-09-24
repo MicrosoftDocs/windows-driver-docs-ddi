@@ -1,11 +1,9 @@
 ---
 UID: NE:ntddk._IPMI_OS_SEL_RECORD_TYPE
 title: IPMI_OS_SEL_RECORD_TYPE
-author: windows-driver-content
 description: 
 tech.root: 
 ms.assetid: 4de0fd97-77ec-4e9a-bc0d-ae214718f472
-ms.author: windowsdriverdev
 ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD_TYPE enumeration"]
 ms.keywords: IPMI_OS_SEL_RECORD_TYPE, IPMI_OS_SEL_RECORD_TYPE, *PIPMI_OS_SEL_RECORD_TYPE,

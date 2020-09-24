@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The HIDP_BUTTON_CAPS structure contains information about the capability of a HID control button <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage</a> (or a set of buttons associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage range</a>).
+The HIDP_BUTTON_CAPS structure contains information about the capability of a HID control button <a href="/windows-hardware/drivers/hid/hid-usages">usage</a> (or a set of buttons associated with a <a href="/windows-hardware/drivers/hid/hid-usages">usage range</a>).
 
 ## -struct-fields
 
 ### -field UsagePage
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a> for a usage or usage range.
+Specifies the <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> for a usage or usage range.
 
 ### -field ReportID
 
@@ -64,7 +64,7 @@ Specifies the report ID of the HID report that contains the usage or usage range
 
 ### -field IsAlias
 
-Indicates, if <b>TRUE</b>, that a button has a set of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">aliased usages</a>. Otherwise, if <b>IsAlias</b> is <b>FALSE</b>, the button has only one usage.
+Indicates, if <b>TRUE</b>, that a button has a set of <a href="/windows-hardware/drivers/hid/hid-usages">aliased usages</a>. Otherwise, if <b>IsAlias</b> is <b>FALSE</b>, the button has only one usage.
 
 ### -field BitField
 
@@ -72,7 +72,7 @@ Contains the data fields (one or two bytes) associated with an input, output, or
 
 ### -field LinkCollection
 
-Specifies the index of the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection</a> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection array</a> that contains the usage or usage range. If <b>LinkCollection</b> is zero, the usage or usage range is contained in the top-level collection.
+Specifies the index of the <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> in a <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="/windows-hardware/drivers/hid/link-collections">link collection array</a> that contains the usage or usage range. If <b>LinkCollection</b> is zero, the usage or usage range is contained in the top-level collection.
 
 ### -field LinkUsage
 
@@ -132,7 +132,7 @@ Indicates the inclusive upper bound of a range of designators (specified by desi
 
 ### -field Range.DataIndexMin
 
-Indicates the inclusive lower bound of a sequential range of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/data-indices">data indices</a> that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
+Indicates the inclusive lower bound of a sequential range of <a href="/windows-hardware/drivers/hid/data-indices">data indices</a> that correspond, one-to-one and in the same order, to the usages specified by the usage range <b>Range.UsageMin</b> to <b>Range.UsageMax</b>.
 
 ### -field Range.DataIndexMax
 
@@ -148,7 +148,7 @@ Reserved for internal system use.
 
 ### -field NotRange.Usage
 
-Indicates a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage ID</a>.
+Indicates a <a href="/windows-hardware/drivers/hid/hid-usages">usage ID</a>.
 
 ### -field NotRange.StringIndex
 
@@ -176,35 +176,34 @@ Reserved for internal system use.
 
 ## -remarks
 
-Clients obtain a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/button-capability-arrays">button capability array</a> by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps">HidP_GetSpecificButtonCaps</a>. These routines return an array of HIDP_BUTTON_CAPS structures in a caller-allocated buffer. The required buffer length is specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a>. 
+Clients obtain a <a href="/windows-hardware/drivers/hid/button-capability-arrays">button capability array</a> by calling <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a> or <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps">HidP_GetSpecificButtonCaps</a>. These routines return an array of HIDP_BUTTON_CAPS structures in a caller-allocated buffer. The required buffer length is specified in the <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure returned by <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a>. 
 
-For information about the capabilities of HID control values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/collection-capability">Collection Capability</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/value-capability-arrays">Value Capability Arrays</a>.
+For information about the capabilities of HID control values, see <a href="/windows-hardware/drivers/hid/collection-capability">Collection Capability</a> and <a href="/windows-hardware/drivers/hid/value-capability-arrays">Value Capability Arrays</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getbuttoncaps">HidP_GetButtonCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps">HidP_GetSpecificButtonCaps</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificbuttoncaps">HidP_GetSpecificButtonCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps">HidP_GetSpecificValueCaps</a>
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getspecificvaluecaps">HidP_GetSpecificValueCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a>
-
+<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getvaluecaps">HidP_GetValueCaps</a>

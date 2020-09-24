@@ -61,7 +61,7 @@ Specifies the handle identifying the VC.
 
 [in]
 Pointer to a caller-allocated buffer, formatted as a structure of type 
-     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, containing all the
+     <a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, containing all the
      media-specific parameters that the miniport driver uses for the activated VC.
 
 ## -returns
@@ -69,7 +69,7 @@ Pointer to a caller-allocated buffer, formatted as a structure of type
 When 
      <b>NdisMCmActivateVc</b> returns anything other than NDIS_STATUS_PENDING, the MCM driver should make an
      internal call to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_activate_vc_complete">
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_activate_vc_complete">
      ProtocolCmActivateVcComplete</a> function. Otherwise, NDIS calls the MCM driver's 
      <i>ProtocolCmActivateVcComplete</i> function when this operation is completed.
 
@@ -87,12 +87,12 @@ For a client-initiated outgoing call, an MCM driver usually calls
     <b>NdisMCmActivateVc</b> following the handshake denoting a negotiated agreement with the remote node or
     successful call-setup at the switch, before it notifies NDIS (and the client) of outgoing call completion
     with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmmakecallcomplete">NdisMCmMakeCallComplete</a>. For an
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmmakecallcomplete">NdisMCmMakeCallComplete</a>. For an
     incoming call, an MCM driver usually calls 
     <b>NdisMCmActivateVc</b> after it has called 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a> successfully and before it
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a> successfully and before it
     calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingcall">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingcall">
     NdisMCmDispatchIncomingCall</a>.
 
 The driver writer determines whether an MCM driver has an (internal) 
@@ -101,7 +101,7 @@ The driver writer determines whether an MCM driver has an (internal)
 
 For the duration of the connection, an MCM driver can modify the call parameters as conditions on the
     network change and/or whenever the client calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>. The MCM driver
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>. The MCM driver
     must update the state that it maintains about call parameters to the new values if it can continue to
     make transfers on the VC according to the newly modified call parameters. It must call 
     <b>NdisMCmActivateVc</b> to notify NDIS of any changes in the call parameters for the active VC.
@@ -129,37 +129,36 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
+<a href="/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_activate_vc">MiniportCoActivateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_activate_vc">MiniportCoActivateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdeactivatevc">NdisMCmDeactivateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingcall">NdisMCmDispatchIncomingCall</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmdispatchincomingcall">NdisMCmDispatchIncomingCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>

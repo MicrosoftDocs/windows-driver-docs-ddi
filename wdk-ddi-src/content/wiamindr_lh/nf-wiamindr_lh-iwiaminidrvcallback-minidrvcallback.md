@@ -58,7 +58,7 @@ Specifies a constant value that designates a callback status message. This value
 | Message | Definition |
 | --- | --- |
 | IT_MSG_DATA | Indicates that the transfer buffer contains a block of data. |
-| IT_MSG_DATA_HEADER | Received before any data transfers. Indicates that the transfer buffer points to a [WIA_DATA_CALLBACK_HEADER](https://docs.microsoft.com/windows/win32/api/wia_xp/ns-wia_xp-wia_data_callback_header) structure that defines elements of the data transfer. |
+| IT_MSG_DATA_HEADER | Received before any data transfers. Indicates that the transfer buffer points to a [WIA_DATA_CALLBACK_HEADER](/windows/win32/api/wia_xp/ns-wia_xp-wia_data_callback_header) structure that defines elements of the data transfer. |
 | IT_MSG_DEVICE_STATUS | Callback contains only status information about the device. |
 | IT_MSG_FILE_PREVIEW_DATA | Indicates preview data is being transferred to the application. |
 | IT_MSG_FILE_PREVIEW_DATA_HEADER | Indicates a header is being transferred to the application, prior to the preview data being transferred. |
@@ -95,7 +95,7 @@ Specifies the number of bytes contained in the transfer.
 ### -param pTranCtx 
 
 [in]
-Points to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure containing the data transfer values.
+Points to a [MINIDRV_TRANSFER_CONTEXT](./ns-wiamindr_lh-_minidrv_transfer_context.md) structure containing the data transfer values.
 
 ### -param lReserved 
 
@@ -114,7 +114,6 @@ IT_MSG_FILE_PREVIEW_DATA_HEADER  is for out-of-band-data. This allows the applic
 
 ## -see-also
 
-[IWiaMiniDrvCallBack](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvcallback)
+[IWiaMiniDrvCallBack](./nn-wiamindr_lh-iwiaminidrvcallback.md)
 
-[MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context)
-
+[MINIDRV_TRANSFER_CONTEXT](./ns-wiamindr_lh-_minidrv_transfer_context.md)

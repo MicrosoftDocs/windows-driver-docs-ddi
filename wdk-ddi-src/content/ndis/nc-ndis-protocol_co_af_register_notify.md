@@ -61,18 +61,18 @@ The
 [in]
 Specifies the handle to the client-allocated context area in which the client protocol maintains
      per-binding run-time state. The client's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
      supplied this handle when it called 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>.
 
 ### -param AddressFamily 
 
 [in]
 Pointer to a buffer describing the signaling-protocol support provided by a call manager that just
      registered these services with NDIS by calling 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmregisteraddressfamilyex">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmregisteraddressfamilyex">
      NdisCmRegisterAddressFamilyEx</a> or 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
      NdisMCmRegisterAddressFamilyEx</a>.
 
 ## -returns
@@ -96,7 +96,7 @@ If the client finds the offered call-management services unacceptable,
     <i>ProtocolBindingContext</i> handle and an AF specification supplied by this or another call manager also
     bound to the same underlying miniport driver. Otherwise, 
     <i>ProtocolAfRegisterNotify</i> allocates a per-AF context area for the client and calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a> with
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a> with
     the 
     <i>AddressFamily</i> pointer. If this call succeeds, the client has registered its 
     <i>ProtocolClXxx</i> functions with NDIS for subsequent connection-oriented operations using this call manager's
@@ -105,100 +105,89 @@ If the client finds the offered call-management services unacceptable,
 For example, 
     <i>ProtocolCoAfRegisterNotify</i> or 
     <i>ProtocolClOpenAfCompleteEx</i> might call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
     NdisInitializeNPagedLookasideList</a> one or more times in preparation for dynamic allocations and
     releases of per-SAP, per-VC, and/or per-party context areas that the client will need subsequently.
 
 If it accepts incoming calls, a client's 
     <i>ProtocolCoAfRegisterNotify</i> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">
     ProtocolClOpenAfCompleteEx</a> function usually registers one or more SAPs with the call manager. After
     opening that call manager's AF, the client might proceed to allocate a per-SAP state area and call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a> one or more times with
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a> one or more times with
     the 
     <i>NdisAfHandle</i> it obtained from 
     <b>NdisClOpenAddressFamilyEx</b>. If it makes outgoing calls, the client might proceed to allocated a
     per-VC state area and create a VC with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> in anticipation of an
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> in anticipation of an
     incoming request from one of its own clients to make an outgoing call to a remote node.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolCoAfRegisterNotify</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolCoAfRegisterNotify</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCoAfRegisterNotify</i> function that is named "MyCoAfRegisterNotify", use the <b>PROTOCOL_CO_AF_REGISTER_NOTIFY</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PROTOCOL_CO_AF_REGISTER_NOTIFY MyCoAfRegisterNotify;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+PROTOCOL_CO_AF_REGISTER_NOTIFY MyCoAfRegisterNotify;
+```
+
 Then, implement your function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+
+```
+_Use_decl_annotations_
 VOID
  MyCoAfRegisterNotify(
     NDIS_HANDLE  ProtocolBindingContext,
     PCO_ADDRESS_FAMILY  AddressFamily
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>PROTOCOL_CO_AF_REGISTER_NOTIFY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_AF_REGISTER_NOTIFY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+  {...}
+```
 
-For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The <b>PROTOCOL_CO_AF_REGISTER_NOTIFY</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CO_AF_REGISTER_NOTIFY</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+
+For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-quality/annotating-function-behavior">Annotating Function Behavior</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a>
+<a href="/previous-versions/windows/hardware/network/ff545368(v=vs.85)">CO_ADDRESS_FAMILY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmregisteraddressfamilyex">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmregisteraddressfamilyex">
    NdisCmRegisterAddressFamilyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
    NdisInitializeNPagedLookasideList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmregisteraddressfamilyex">
    NdisMCmRegisterAddressFamilyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">ProtocolClOpenAfCompleteEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_open_af_complete_ex">ProtocolClOpenAfCompleteEx</a>

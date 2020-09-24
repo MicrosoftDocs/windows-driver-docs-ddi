@@ -54,7 +54,7 @@ The<b> KsPinGetTrailingEdgeStreamPointer</b> function acquires the trailing edge
 ### -param Pin 
 
 [in]
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for whose queue to return the trailing edge stream pointer.
+A pointer to the <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure for whose queue to return the trailing edge stream pointer.
 
 ### -param State 
 
@@ -79,43 +79,42 @@ Acquire and lock the leading edge stream pointer. If no data frame is associated
 
 ## -returns
 
-<b>KsPinGetTrailingEdgeStreamPointer</b> returns either a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the trailing edge stream pointer or <b>NULL</b>. A return value of <b>NULL</b> can indicate that there is no trailing edge for the queue associated with the pin. In this case, the pin descriptor probably does not specify that the pin should have a distinct trailing edge. Alternatively, <b>NULL</b> can indicate that there is no queue associated with the pin. In this case, the pin in question does not use the standard transport mechanism. A return value of <b>NULL</b> can also indicate that an attempt to lock the trailing edge failed. In other words, there is no data frame currently associated with the leading edge.
+<b>KsPinGetTrailingEdgeStreamPointer</b> returns either a pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the trailing edge stream pointer or <b>NULL</b>. A return value of <b>NULL</b> can indicate that there is no trailing edge for the queue associated with the pin. In this case, the pin descriptor probably does not specify that the pin should have a distinct trailing edge. Alternatively, <b>NULL</b> can indicate that there is no queue associated with the pin. In this case, the pin in question does not use the standard transport mechanism. A return value of <b>NULL</b> can also indicate that an attempt to lock the trailing edge failed. In other words, there is no data frame currently associated with the leading edge.
 
 ## -remarks
 
-The trailing edge stream pointer is a special pointer into the data stream that exists if and only if the pin descriptor for the pin specifies a distinct trailing edge. If this pointer exists, it points to the oldest data in the queue unless specifically advanced by a <b>KsStreamPointerAdvance</b><i>Xxx</i> or a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a> call. Older data can exist in the queue also if cloned stream pointers exist for frames older than the one pointed to by the trailing edge.
+The trailing edge stream pointer is a special pointer into the data stream that exists if and only if the pin descriptor for the pin specifies a distinct trailing edge. If this pointer exists, it points to the oldest data in the queue unless specifically advanced by a <b>KsStreamPointerAdvance</b><i>Xxx</i> or a <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a> call. Older data can exist in the queue also if cloned stream pointers exist for frames older than the one pointed to by the trailing edge.
 
 Data frames that reside in the window between the leading edge stream pointer and the trailing edge stream pointer have at least one reference count and thus will not leave the queue and be completed until they exit the window as a result of the advancement of the trailing edge. Note that frames between the leading edge and trailing edge are <b>not</b> locked by default and therefore can be canceled.
 
-<b>KsPinGetTrailingEdgeStreamPointer</b> is mostly of use in pin-centric filters. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/pin-centric-processing">Pin-Centric Processing</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
+<b>KsPinGetTrailingEdgeStreamPointer</b> is mostly of use in pin-centric filters. For more information, see <a href="/windows-hardware/drivers/stream/pin-centric-processing">Pin-Centric Processing</a> and <a href="/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
 
 <b>KsPinGetTrailingEdgeStreamPointer</b> will not work unless the pin descriptor for the pin specifies that the queue is to have a distinct trailing edge by setting the KSPIN_FLAG_DISTINCT_TRAILING_EDGE flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetleadingedgestreampointer">KsPinGetLeadingEdgeStreamPointer</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-kspingetleadingedgestreampointer">KsPinGetLeadingEdgeStreamPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointeradvance">KsStreamPointerAdvance</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointeradvance">KsStreamPointerAdvance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointeradvanceoffsetsandunlock">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointeradvanceoffsetsandunlock">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>
+<a href="/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerlock">KsStreamPointerLock</a>
+<a href="/windows-hardware/drivers/devtest/ks-ksstreampointerlock">KsStreamPointerLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a>

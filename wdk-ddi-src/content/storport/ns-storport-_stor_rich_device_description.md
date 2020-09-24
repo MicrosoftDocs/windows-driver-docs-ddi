@@ -84,5 +84,4 @@ This is invoked during the Unit enumeration process or the device description up
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>
-
+<a href="/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>

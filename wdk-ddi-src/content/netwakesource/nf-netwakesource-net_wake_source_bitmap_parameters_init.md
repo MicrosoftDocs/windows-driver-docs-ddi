@@ -1,11 +1,9 @@
 ---
 UID: NF:netwakesource.NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
 title: NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT function (netwakesource.h)
-author: windows-driver-content
 description: The NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT function initializes a NET_WAKE_SOURCE_BITMAP_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 514ad478-31fd-455b-a793-cacec1c241cb
-ms.author: windowsdriverdev
 ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT function"]
 ms.keywords: NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
@@ -68,7 +66,6 @@ The client driver must only call **NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT** duri
 
 ## -see-also
 
-[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+[Configuring power management](/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_WAKE_SOURCE_BITMAP_PARAMETERS**](../netwakesource/ns-netwakesource-_net_wake_source_bitmap_parameters.md)
-

@@ -50,7 +50,7 @@ api_name:
 
 The FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET (formerly WPS_FIELDS_INGRESS_VSWITCH_802_3) enumeration type specifies the data field identifiers for the
   FWPS_LAYER_INGRESS_VSWITCH_ETHERNET 
-  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
+  <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 ## -enum-fields
 
@@ -104,7 +104,7 @@ The virtual switch ingress source virtual machine (VM) identifier field.
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_L2_FLAGS
 
-A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](https://docs.microsoft.com/windows/win32/fwp/filtering-condition-flags-).
+A bitwise OR of Layer 2 (L2) flags. For a list of filtering condition flags, see [Filtering Condition Flags](/windows/win32/fwp/filtering-condition-flags-).
 
 ### -field FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_COMPARTMENT_ID
 
@@ -126,4 +126,3 @@ The virtual switch ingress ethernet flags field.
 #### - FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_TENANT_NETWORK_ID
 
 The virtual switch ingress tenant network identifier field.
-

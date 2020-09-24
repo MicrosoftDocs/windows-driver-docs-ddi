@@ -1,11 +1,9 @@
 ---
 UID: NS:d3dukmdt._D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2
 title: D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2
-author: windows-driver-content
 description: Structure to describe the 3 by 4 matrix color space transform.
 tech.root: display
 ms.assetid: 66c5b473-3479-4c68-88ba-cc1974e9af48
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2 structure"]
 ms.keywords: D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, *PD3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2,

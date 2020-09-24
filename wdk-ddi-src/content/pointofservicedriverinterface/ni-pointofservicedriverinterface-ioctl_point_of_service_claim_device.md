@@ -76,7 +76,7 @@ Returns **TRUE** if successful; otherwise, returns **FALSE**.
 
 ## -remarks
 
-To get extended error information, call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following list shows common error values:
+To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror). The following list shows common error values:
 
 - STATUS_ACCESS_DENIED: The claim could not be taken from the current claim owner.
 
@@ -84,5 +84,4 @@ To get extended error information, call [GetLastError](https://docs.microsoft.co
 
 - STATUS_PENDING: The claim request was queued.
 
-This IOCTL is handled by the PosCx library. The driver writer does not need to handle this IOCTL. Instead, call [PosCxClaimDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice). If the POS device is already claimed by another client, then the POS device driver is responsible for notifying the claim owner using a [ReleaseDeviceRequested](https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn790033(v=vs.85)) event and waiting for the claim owner to retain its claim within 50 milliseconds. If the claim is not reaffirmed, then the current claim owner's claim is automatically revoked and granted to the challenging client.
-
+This IOCTL is handled by the PosCx library. The driver writer does not need to handle this IOCTL. Instead, call [PosCxClaimDevice](../poscx/nf-poscx-poscxclaimdevice.md). If the POS device is already claimed by another client, then the POS device driver is responsible for notifying the claim owner using a [ReleaseDeviceRequested](/previous-versions/windows/hardware/previsioning-framework/dn790033(v=vs.85)) event and waiting for the claim owner to retain its claim within 50 milliseconds. If the claim is not reaffirmed, then the current claim owner's claim is automatically revoked and granted to the challenging client.

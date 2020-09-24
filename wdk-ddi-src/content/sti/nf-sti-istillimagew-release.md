@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>IStillImage::Release</b> method closes the instance of the COM object that was created by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a>, and removes access to the object's interface.
+The <b>IStillImage::Release</b> method closes the instance of the COM object that was created by a previous call to <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a>, and removes access to the object's interface.
 
 ## -returns
 
@@ -54,5 +54,4 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -remarks
 
-Before calling <b>IStillImage::Release</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
-
+Before calling <b>IStillImage::Release</b>, clients of the <b>IStillImage</b> COM interface must call <a href="/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.

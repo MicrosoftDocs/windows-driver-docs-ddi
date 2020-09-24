@@ -64,7 +64,7 @@ The number of channels per element in the array pointed to by *pInputData*.
 
 ### -param cdtInput [in]
 
-The input [COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85)) color data type.
+The input [COLORDATATYPE](/previous-versions/ff546006(v=vs.85)) color data type.
 
 ### -param cbInput [in]
 
@@ -81,7 +81,7 @@ The number of channels per element in the array pointed to by *pOutputData*.
 
 ### -param cdtOutput [in]
 
-The output [COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85)) color data type.
+The output [COLORDATATYPE](/previous-versions/ff546006(v=vs.85)) color data type.
 
 ### -param cbOutput [in]
 
@@ -98,5 +98,4 @@ If the input and the output color data types are not compatible with the color t
 
 ## -see-also
 
-[COLORDATATYPE](https://docs.microsoft.com/previous-versions/ff546006(v=vs.85))
-
+[COLORDATATYPE](/previous-versions/ff546006(v=vs.85))

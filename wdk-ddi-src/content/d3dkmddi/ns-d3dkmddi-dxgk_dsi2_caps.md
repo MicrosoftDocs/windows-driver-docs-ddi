@@ -1,11 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_DSI2_CAPS
 title: DXGK_DSI2_CAPS
-author: windows-driver-content
 description: DSI-2 (display serial interface) caps structure.
 tech.root: display
 ms.assetid: f426bf15-7573-494f-882c-7fe6f9eb7480
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGK_DSI2_CAPS structure"]
 f1_keywords:

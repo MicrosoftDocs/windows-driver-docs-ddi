@@ -53,13 +53,13 @@ The <i>NdkModifySrq</i> (<i>NDK_FN_MODIFY_SRQ</i>) function modifies the size an
 ### -param pNdkSrq 
 
 [in]
-A pointer to an NDK shared receive queue (SRQ) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).
+A pointer to an NDK shared receive queue (SRQ) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).
 
 ### -param SrqDepth 
 
 [in]
 
-The new size of the SRQ. The new size must be less than or equal to the  size that is specified in the <b>MaxSrqDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
+The new size of the SRQ. The new size must be less than or equal to the  size that is specified in the <b>MaxSrqDepth</b> member of the <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 A size of zero means no depth modification is requested. That is,  the existing SRQ depth value must be preserved.
 
 ### -param NotifyThreshold 
@@ -70,7 +70,7 @@ The number of queued receive requests  that will trigger an SRQ notification cal
 ### -param RequestCompletion 
 
 [in]
-A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
+A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>).
 
 ### -param RequestContext 
 
@@ -106,7 +106,7 @@ The request was completed successfully.
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
+ The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
  
 
 </td>
@@ -118,7 +118,7 @@ The request was completed successfully.
 </dl>
 </td>
 <td width="60%">
-The request failed because the  value in the  <i>SrqDepth</i> parameter  is not within the limits that are specified in the  <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
+The request failed because the  value in the  <i>SrqDepth</i> parameter  is not within the limits that are specified in the  <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure.
 
 </td>
 </tr>
@@ -137,21 +137,20 @@ An error occurred.
 
 ## -remarks
 
-<i>NdkModifySrq</i> modifies  the size and notification threshold for an NDK shared receive queue (SRQ) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).
+<i>NdkModifySrq</i> modifies  the size and notification threshold for an NDK shared receive queue (SRQ) object (<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
+<a href="/windows-hardware/drivers/network/ndkpi-object-lifetime-requirements">NDKPI Object Lifetime Requirements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
+<a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>
+<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_request_completion">NDK_FN_REQUEST_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>
-
+<a href="/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>

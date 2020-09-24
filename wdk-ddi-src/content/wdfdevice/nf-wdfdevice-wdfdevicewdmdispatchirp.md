@@ -51,7 +51,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfDeviceWdmDispatchIrp</b> method returns a dispatched IRP to the framework from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a>.
+The <b>WdfDeviceWdmDispatchIrp</b> method returns a dispatched IRP to the framework from <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a>.
 
 ## -parameters
 
@@ -68,25 +68,24 @@ A pointer to an IRP structure.
 ### -param DispatchContext 
 
 [in]
-The dispatch context parameter the driver received in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a>  callback.
+The dispatch context parameter the driver received in <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a>  callback.
 
 ## -returns
 
-The <b>WdfDeviceWdmDispatchIrp</b> method returns an NTSTATUS value that the framework or the driver provides as a result of processing the IRP. The driver must use this return value as the return value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a> callback function that called <b>WdfDeviceWdmDispatchIrp</b>.
+The <b>WdfDeviceWdmDispatchIrp</b> method returns an NTSTATUS value that the framework or the driver provides as a result of processing the IRP. The driver must use this return value as the return value for the <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a> callback function that called <b>WdfDeviceWdmDispatchIrp</b>.
 
 A bug check occurs if a KMDF  driver supplies an invalid object handle.  If a UMDF driver supplies an invalid handle, the driver host process terminates.
 
 ## -remarks
 
-If your driver provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a> callback function, you can call <b>WdfDeviceWdmDispatchIrp</b> from within the callback function to return the IRP to the framework for default processing instead of dispatching it to a specific queue.
+If your driver provides an <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a> callback function, you can call <b>WdfDeviceWdmDispatchIrp</b> from within the callback function to return the IRP to the framework for default processing instead of dispatching it to a specific queue.
 
- For more information about specifying queues for IRPs as they arrive, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">Dispatching IRPs to I/O Queues</a>.
+ For more information about specifying queues for IRPs as they arrive, see <a href="/windows-hardware/drivers/wdf/dispatching-irps-to-i-o-queues">Dispatching IRPs to I/O Queues</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a>
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch">EvtDeviceWdmIrpDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue">WdfDeviceWdmDispatchIrpToIoQueue</a>
-
+<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue">WdfDeviceWdmDispatchIrpToIoQueue</a>

@@ -56,7 +56,7 @@ The <b>NDIS_SRIOV_VF_SERIAL_NUMBER_INFO</b> structure contains the serial number
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SRIOV_VF_SERIAL_NUMBER_INFO</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SRIOV_VF_SERIAL_NUMBER_INFO</b> structure. This member is formatted as an <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 NDIS sets the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SRIOV_VF_SERIAL_NUMBER_INFO</b> structure, NDIS sets the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -78,9 +78,9 @@ The serial number is unique across all VF adapters in the child partition. NDIS 
 
 ## -remarks
 
-The <b>NDIS_SRIOV_VF_SERIAL_NUMBER_INFO</b> structure is used in OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-serial-number">OID_SRIOV_VF_SERIAL_NUMBER</a>.
+The <b>NDIS_SRIOV_VF_SERIAL_NUMBER_INFO</b> structure is used in OID query requests of <a href="/windows-hardware/drivers/network/oid-sriov-vf-serial-number">OID_SRIOV_VF_SERIAL_NUMBER</a>.
 
-The virtualization stack uses the serial number to map the VF network adapter in a Hyper-V child partition to an instance of a VF on the physical network adapter. The virtualization stack creates the unique VF serial number before  resources are allocated for the VF through an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>.
+The virtualization stack uses the serial number to map the VF network adapter in a Hyper-V child partition to an instance of a VF on the physical network adapter. The virtualization stack creates the unique VF serial number before  resources are allocated for the VF through an OID set request of <a href="/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>.
 
 ## -see-also
 
@@ -88,9 +88,8 @@ The virtualization stack uses the serial number to map the VF network adapter in
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-serial-number">OID_SRIOV_VF_SERIAL_NUMBER</a>
-
+<a href="/windows-hardware/drivers/network/oid-sriov-vf-serial-number">OID_SRIOV_VF_SERIAL_NUMBER</a>

@@ -59,11 +59,10 @@ Pointer to a WIA item context.
 
 Pointer to a memory location that receives a value indicating the type of the item.
 
-For more information, see [WIA Item Type Flags](https://docs.microsoft.com/windows/win32/wia/-wia-wia-item-type-flags).
+For more information, see [WIA Item Type Flags](/windows/win32/wia/-wia-wia-item-type-flags).
 
 ## -returns
 
 On success, the function returns S_OK.
 
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
-
+If the function fails, it returns a standard COM error or one of the [WIA error codes](/windows/win32/wia/-wia-error-codes).

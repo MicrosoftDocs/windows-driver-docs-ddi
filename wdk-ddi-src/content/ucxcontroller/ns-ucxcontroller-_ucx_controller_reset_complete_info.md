@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains information about the operation to reset the controller. This is used by the client driver in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_reset">EVT_UCX_CONTROLLER_RESET</a> callback function.
+Contains information about the operation to reset the controller. This is used by the client driver in its <a href="/windows-hardware/drivers/ddi/ucxcontroller/nc-ucxcontroller-evt_ucx_controller_reset">EVT_UCX_CONTROLLER_RESET</a> callback function.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ Indicates if the reset was coordinated with UCX (TRUE) or not (FALSE).
 
 ## -remarks
 
-This structure is populated by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucxcontrollerresetcomplete">UcxControllerResetComplete</a>.
-
+This structure is populated by a call to <a href="/windows-hardware/drivers/ddi/ucxcontroller/nf-ucxcontroller-ucxcontrollerresetcomplete">UcxControllerResetComplete</a>.

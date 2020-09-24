@@ -48,13 +48,13 @@ api_name:
 
 ## -description
 
-This structure contains data passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn790040(v=vs.85)">StatusUpdated</a> event.
+This structure contains data passed to the <a href="/previous-versions/windows/hardware/previsioning-framework/dn790040(v=vs.85)">StatusUpdated</a> event.
 
 ## -struct-fields
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
+A <a href="/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
 
 ### -field Status
 
@@ -63,4 +63,3 @@ Indicates a device-specific enumeration value.
 ### -field ExtendedStatus
 
 Indicates a driver-specific value intended to be used by the vendor for diagnostic purposes.
-

@@ -89,9 +89,8 @@ The engine had already received the input it requested. The input string in <i>B
 </table>
  
 
-This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
+This method may also return error values.  See <a href="/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 ## -remarks
 
-For an overview of input in the debugger engine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
-
+For an overview of input in the debugger engine, see <a href="/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.

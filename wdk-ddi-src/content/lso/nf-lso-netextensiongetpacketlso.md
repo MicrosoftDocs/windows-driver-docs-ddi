@@ -1,11 +1,9 @@
 ---
 UID: NF:lso.NetExtensionGetPacketLso
 title: NetExtensionGetPacketLso function (lso.h)
-author: windows-driver-content
 description: The NetExtensionGetPacketLso function retrieves large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: 768d42b2-5b31-42a2-bbc0-86c018205a1b
-ms.author: windowsdriverdev
 ms.date: 09/23/2019
 keywords: ["NetExtensionGetPacketLso function"]
 ms.keywords: NetExtensionGetPacketLso
@@ -66,15 +64,14 @@ Returns a pointer to a [**NET_PACKET_LSO**](../lsotypes/ns-lsotypes-_net_packet_
 
 ## -remarks
 
-NIC client drivers typically query offsets for packet extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the LSO offset from the queue context to pass to **NetExtensionGetPacketLso**.
+NIC client drivers typically query offsets for packet extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the LSO offset from the queue context to pass to **NetExtensionGetPacketLso**.
 
 This function is a wrapper function around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md).
 
 ## -see-also
 
-[Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues)
+[Transmit and receive queues](/windows-hardware/drivers/netcx/transmit-and-receive-queues)
 
-[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md)
-

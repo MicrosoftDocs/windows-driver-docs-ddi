@@ -1,11 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKARG_WRITEVIRTUALFUNCTIONCONFIG
 title: _DXGKARG_WRITEVIRTUALFUNCTIONCONFIG
-author: windows-driver-content
 description: Used to write a virtual function configuration.
 tech.root: display
 ms.assetid: bd1a1779-458c-4b44-9608-d700a5389bac
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["DXGKARG_WRITEVIRTUALFUNCTIONCONFIG structure"]
 ms.prod: windows-hardware

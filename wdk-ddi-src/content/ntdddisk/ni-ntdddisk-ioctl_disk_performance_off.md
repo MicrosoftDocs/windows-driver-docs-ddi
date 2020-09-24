@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Disables the counters that were enabled by previous calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>. This request is available in Windows XP and later operating systems. Caller must be running at IRQL = PASSIVE_LEVEL.
+Disables the counters that were enabled by previous calls to <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>. This request is available in Windows XP and later operating systems. Caller must be running at IRQL = PASSIVE_LEVEL.
 
 ## -ioctlparameters
 
@@ -76,5 +76,4 @@ The <b>Information</b> member is set to zero. The <b>Status</b> member is set to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>
-
+<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>

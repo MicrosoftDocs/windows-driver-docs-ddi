@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union describes which members of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure contain valid data.
+The WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union describes which members of a <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure contain valid data.
 
 ## -struct-fields
 
@@ -98,9 +98,8 @@ A ULONGLONG representation of the contents of the WHEA_PCIEXPRESS_ERROR_SECTION_
 
 ## -remarks
 
-A WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
+A WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union is contained within the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section">WHEA_PCIEXPRESS_ERROR_SECTION</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_pciexpress_error_section">WHEA_PCIEXPRESS_ERROR_SECTION</a>

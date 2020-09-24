@@ -46,9 +46,9 @@ api_name:
 
 ## -description
 
-The IOCTL_HID_DISABLE_SECURE_READ request cancels an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_enable_secure_read">IOCTL_HID_ENABLE_SECURE_READ</a> request for a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID collection</a>. Only a "trusted" user-mode application (an application with SeTcbPrivilege privileges) can successfully use this request. Kernel-mode drivers have SeTcbPrivilege privileges by default, but user-mode applications do not.
+The IOCTL_HID_DISABLE_SECURE_READ request cancels an <a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_enable_secure_read">IOCTL_HID_ENABLE_SECURE_READ</a> request for a <a href="/windows-hardware/drivers/hid/hid-collections">HID collection</a>. Only a "trusted" user-mode application (an application with SeTcbPrivilege privileges) can successfully use this request. Kernel-mode drivers have SeTcbPrivilege privileges by default, but user-mode applications do not.
 
-For information about how to use enable and disable secure read requests to enforce a secure read for a collection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/enforcing-a-secure-read-for-a-hid-collection">Enforcing a Secure Read For a HID Collection</a>.
+For information about how to use enable and disable secure read requests to enforce a secure read for a collection, see <a href="/windows-hardware/drivers/hid/enforcing-a-secure-read-for-a-hid-collection">Enforcing a Secure Read For a HID Collection</a>.
 
 ## -ioctlparameters
 
@@ -78,5 +78,4 @@ The HID class driver sets the <b>Status</b> member of <b>Irp->IoStatus</b> to ST
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_disable_secure_read">IOCTL_HID_DISABLE_SECURE_READ</a>
-
+<a href="/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_disable_secure_read">IOCTL_HID_DISABLE_SECURE_READ</a>

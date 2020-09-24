@@ -53,28 +53,21 @@ Notifies UFX about a USB bus resume event.
 ### -param UfxDevice 
 
 [in]
-A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 ## -remarks
 
 The client driver calls <b>UfxDeviceNotifyResume</b> when it receives a bus resume event. The controller should return to the same state it was in at the time of the bus resume event.
 
-The client driver typically calls <b>UfxDeviceNotifyResume</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function.  The following example shows how to handle a resume event.
+The client driver typically calls <b>UfxDeviceNotifyResume</b> from its <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function.  The following example shows how to handle a resume event.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    case DeviceEventWakeUp:
+
+```
+    case DeviceEventWakeUp:
         if (ControllerContext->Suspended) {
             ControllerContext->Suspended = FALSE;
             UfxDeviceNotifyResume(ControllerContext->UfxDevice);
         }
         break;
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```

@@ -48,14 +48,14 @@ api_name:
 ## -description
 
 The <b>ScsiPortGetLogicalUnit</b> routine returns a pointer to the miniport driver's per-LU storage area for a given peripheral.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
 ### -param HwDeviceExtension 
 
 [in]
-Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device.
+Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 ### -param PathId 
 
@@ -86,17 +86,16 @@ The operating system-specific port driver can consider a logical unit to be none
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">DriverEntry of SCSI Miniport Driver</a>
+<a href="/windows-hardware/drivers/ddi/index">DriverEntry of SCSI Miniport Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>
+<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportmovememory">ScsiPortMoveMemory</a>
-
+<a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportmovememory">ScsiPortMoveMemory</a>

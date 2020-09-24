@@ -52,7 +52,7 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ADDITIONAL_IE structure specifies characteristics of additional information elements (IEs)
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ADDITIONAL_IE structure specifies characteristics of additional information elements (IEs)
   for a BSS 802.11 Beacon or Probe Response frame.
 
 ## -struct-fields
@@ -127,21 +127,20 @@ typedef struct _DOT11_ADDITIONAL_IE {
 ## -remarks
 
 This structure is used with
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-additional-ie">OID_DOT11_ADDITIONAL_IE</a>.
+    <a href="/windows-hardware/drivers/network/oid-dot11-additional-ie">OID_DOT11_ADDITIONAL_IE</a>.
 
 The miniport driver should reset the members of the DOT11_ADDITIONAL_IE structure to the default
     values when it receives an
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a> request.
+    <a href="/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-reset-request">OID_DOT11_RESET_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-additional-ie">OID_DOT11_ADDITIONAL_IE</a>
+<a href="/windows-hardware/drivers/network/oid-dot11-additional-ie">OID_DOT11_ADDITIONAL_IE</a>
 
 
 
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-

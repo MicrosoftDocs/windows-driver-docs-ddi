@@ -21,5 +21,4 @@ f1_keywords:
 
 This header contains functions and data structures that an application can use power management. For more information, see:
 
-- [About Power Management](https://docs.microsoft.com/windows/win32/power/about-power-management)
-
+- [About Power Management](/windows/win32/power/about-power-management)

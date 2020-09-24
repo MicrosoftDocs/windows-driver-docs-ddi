@@ -51,5 +51,4 @@ A client interface which is used by the script provider in order to communicate 
 
 ## -see-also
 
-[Debugger Data Model C++ Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview)
-
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

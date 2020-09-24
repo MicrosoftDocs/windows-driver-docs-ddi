@@ -72,13 +72,12 @@ A unique 64-bit number that identifies the modem. This is required to distinguis
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-sys-caps">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
+<a href="/windows-hardware/drivers/network/ndis-status-wwan-sys-caps">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sys_caps_info">NDIS_WWAN_SYS_CAPS_INFO</a>
+<a href="/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sys_caps_info">NDIS_WWAN_SYS_CAPS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sys-caps">OID_WWAN_SYS_CAPS_INFO</a>
-
+<a href="/windows-hardware/drivers/network/oid-wwan-sys-caps">OID_WWAN_SYS_CAPS_INFO</a>

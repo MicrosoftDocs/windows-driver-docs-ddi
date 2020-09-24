@@ -68,21 +68,20 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
+<a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>
+<a href="/windows-hardware/drivers/ifs/ace">ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_ace_header">ACE_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>

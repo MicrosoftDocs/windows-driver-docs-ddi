@@ -1,11 +1,9 @@
 ---
 UID: NC:hdaudio.PREGISTER_NOTIFICATION_CALLBACK
 title: PREGISTER_NOTIFICATION_CALLBACK
-author: windows-driver-content
 description: The RegisterNotificationCallback routine registers a callback routine so that it can receive DMA progress notifications with more accurate timing information.
 tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
-ms.author: windowsdriverdev
 ms.date: 04/29/2019
 keywords: ["PREGISTER_NOTIFICATION_CALLBACK callback function"]
 ms.prod: windows-hardware
@@ -77,7 +75,7 @@ Driver-specific context value for the callback routine.
 
 RegisterNotificationCallback returns STATUS_SUCCESS if the call successfully registers the event. Otherwise, the routine returns STATUS_INSUFFICIENT_RESOURCES to indicate that there are insufficient resources that are available to complete the operation. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -117,4 +115,3 @@ The HD Audio bus driver will maintain a reference on the FDO after registration 
 [PREGISTER_NOTIFICATION_CALLBACK callback function](nc-hdaudio-pregister_notification_callback.md)
 
 [hdaudio.h](../hdaudio/index.md)
-

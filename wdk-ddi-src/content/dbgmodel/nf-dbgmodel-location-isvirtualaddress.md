@@ -54,5 +54,4 @@ This function returns bool.
 
 ## -see-also
 
-[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/)
-
+[dbgmodel.h header](./index.md)

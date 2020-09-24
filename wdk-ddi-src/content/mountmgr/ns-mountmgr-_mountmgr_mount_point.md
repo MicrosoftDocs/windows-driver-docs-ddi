@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request to query the mount manager for all of the mount points (symbolic links) associated with a device. The mount manager responds by sending an array of MOUNTMGR_MOUNT_POINT structures containing the mount points.
+The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request to query the mount manager for all of the mount points (symbolic links) associated with a device. The mount manager responds by sending an array of MOUNTMGR_MOUNT_POINT structures containing the mount points.
 
 ## -struct-fields
 
@@ -86,15 +86,14 @@ Contains the length, in bytes, of the nonpersistent device name.
 
 ## -remarks
 
-None of the names returned are <b>NULL</b> terminated, nor do the buffers require terminating <b>NULL</b> characters. The caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> is not required to provide data in all of the members of the MOUNTMGR_MOUNT_POINT structure, but empty members must have an offset of zero.
+None of the names returned are <b>NULL</b> terminated, nor do the buffers require terminating <b>NULL</b> characters. The caller of <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> is not required to provide data in all of the members of the MOUNTMGR_MOUNT_POINT structure, but empty members must have an offset of zero.
 
-On input, offsets are from the beginning of the MOUNTMGR_MOUNT_POINT structure. On output offsets are from the beginning of the buffer. This is usually the same as the beginning of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_mount_points">MOUNTMGR_MOUNT_POINTS</a> container structure (as opposed to the embedded MOUNTMGR_MOUNT_POINT array instance).
+On input, offsets are from the beginning of the MOUNTMGR_MOUNT_POINT structure. On output offsets are from the beginning of the buffer. This is usually the same as the beginning of the <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_mount_points">MOUNTMGR_MOUNT_POINTS</a> container structure (as opposed to the embedded MOUNTMGR_MOUNT_POINT array instance).
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request is available in Windows 2000 and later operating systems.
+The <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request is available in Windows 2000 and later operating systems.
 
-For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>
-
+<a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>

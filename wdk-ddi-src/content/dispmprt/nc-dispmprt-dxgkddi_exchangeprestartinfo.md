@@ -68,9 +68,8 @@ If this routine succeeds and returns the requested change, it returns STATUS_SUC
 
 ## -remarks
 
-This DDI will be called after [DxgkDdiAddDevice](nc-dispmprt-dxgkddi_add_device.md) and before [DxgkDdiStartDevice](nc-dispmprt-dxgkddi_start_device.md) so that the driver does not have access to its own hardware resources. However, it can use the *PhysicalDeviceObject* passed to the driver in **DxgkDdiAddDevice** to call [IoGetDeviceProperty](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty). For example, it can find the hardware id in order to decide what to return in the output fields of the DXGK_PRE_START_INFO structure.
+This DDI will be called after [DxgkDdiAddDevice](nc-dispmprt-dxgkddi_add_device.md) and before [DxgkDdiStartDevice](nc-dispmprt-dxgkddi_start_device.md) so that the driver does not have access to its own hardware resources. However, it can use the *PhysicalDeviceObject* passed to the driver in **DxgkDdiAddDevice** to call [IoGetDeviceProperty](../wdm/nf-wdm-iogetdeviceproperty.md). For example, it can find the hardware id in order to decide what to return in the output fields of the DXGK_PRE_START_INFO structure.
 
 
 
 This function is always called at PASSIVE level so the supporting code should be made pageable where possible.
-

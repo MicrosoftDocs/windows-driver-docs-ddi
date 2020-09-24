@@ -76,9 +76,8 @@ NFC-F poll mode (424 kbps)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
+<a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>

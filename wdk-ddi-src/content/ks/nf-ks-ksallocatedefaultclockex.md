@@ -64,17 +64,17 @@ Optionally contains the context of the alternate time facilities. This must be s
 ### -param SetTimer 
 
 [in, optional]
-Optionally contains a pointer to a driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkssettimer">KStrSetTimer</a> function to use to generate DPC timer callbacks based on a Presentation Time. If this is set, the function will be used to set timers based on deltas to the current Presentation Time in order to generate event notifications. If you supply a <i>KStrSetTimer</i> function to set timers, you must also supply a corresponding <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a> function. Pass <b>NULL</b> in this parameter if the default <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a> function is to be used to approximate the next notification time. This parameter would normally be set only if a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscorrelatedtime">KStrCorrelatedTime</a> function was also being used. The <i>KStrSetTimer</i> function must have the same characteristics as <b>KeSetTimerEx</b>.
+Optionally contains a pointer to a driver-defined <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkssettimer">KStrSetTimer</a> function to use to generate DPC timer callbacks based on a Presentation Time. If this is set, the function will be used to set timers based on deltas to the current Presentation Time in order to generate event notifications. If you supply a <i>KStrSetTimer</i> function to set timers, you must also supply a corresponding <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a> function. Pass <b>NULL</b> in this parameter if the default <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a> function is to be used to approximate the next notification time. This parameter would normally be set only if a <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscorrelatedtime">KStrCorrelatedTime</a> function was also being used. The <i>KStrSetTimer</i> function must have the same characteristics as <b>KeSetTimerEx</b>.
 
 ### -param CancelTimer 
 
 [in, optional]
-Optionally contains a pointer to a driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a> function to use to cancel outstanding timer callbacks. If you supply a <i>KStrCancelTimer</i> function to cancel timers, you must also supply a corresponding <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkssettimer">KStrSetTimer</a> function. Pass <b>NULL</b> in this parameter if the default <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a> function is to be used to cancel timers. The <i>KStrCancelTimer</i> function must have the same characteristics as <b>KeCancelTimer</b>.
+Optionally contains a pointer to a driver-defined <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a> function to use to cancel outstanding timer callbacks. If you supply a <i>KStrCancelTimer</i> function to cancel timers, you must also supply a corresponding <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkssettimer">KStrSetTimer</a> function. Pass <b>NULL</b> in this parameter if the default <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a> function is to be used to cancel timers. The <i>KStrCancelTimer</i> function must have the same characteristics as <b>KeCancelTimer</b>.
 
 ### -param CorrelatedTime 
 
 [in, optional]
-Optionally contains a pointer to a driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscorrelatedtime">KStrCorrelatedTime</a> function to retrieve both the Presentation and Physical Time in a correlated manner. This allows the clock owner to completely determine the current time. Pass <b>NULL</b> if the default <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a> function is to be used to regulate time progression.
+Optionally contains a pointer to a driver-defined <a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscorrelatedtime">KStrCorrelatedTime</a> function to retrieve both the Presentation and Physical Time in a correlated manner. This allows the clock owner to completely determine the current time. Pass <b>NULL</b> if the default <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a> function is to be used to regulate time progression.
 
 ### -param Resolution 
 
@@ -92,25 +92,24 @@ The <b>KsAllocateDefaultClockEx</b> function returns STATUS_SUCCESS if successfu
 
 ## -remarks
 
-The internal DefaultClock.ReferenceCount element is initialized to one by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a> function. The element is incremented and decremented as each notification DPC is queued and completed. When the structure is to be freed, the element is used to determine if the owner of the clock should free the structure or if a pending DPC should free it asynchronously.
+The internal DefaultClock.ReferenceCount element is initialized to one by the <a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a> function. The element is incremented and decremented as each notification DPC is queued and completed. When the structure is to be freed, the element is used to determine if the owner of the clock should free the structure or if a pending DPC should free it asynchronously.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a>
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscanceltimer">KStrCancelTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscorrelatedtime">KStrCorrelatedTime</a>
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkscorrelatedtime">KStrCorrelatedTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkssettimer">KStrSetTimer</a>
+<a href="/windows-hardware/drivers/ddi/ks/nc-ks-pfnkssettimer">KStrSetTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a>
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreedefaultclock">KsFreeDefaultClock</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/nf-ks-ksfreedefaultclock">KsFreeDefaultClock</a>

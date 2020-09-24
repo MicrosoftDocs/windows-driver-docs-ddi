@@ -1,11 +1,9 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_WAKE_REASON_PACKET
 title: NET_ADAPTER_WAKE_REASON_PACKET (netadapter.h)
-author: windows-driver-content
 description: The NET_ADAPTER_WAKE_REASON_PACKET structure describes a network packet (known as a wake packet) that caused the network adapter to generate a wake-up event.
 tech.root: netvista
 ms.assetid: b6693c4b-f299-4437-953c-868e6238c9b2
-ms.author: windowsdriverdev
 ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_REASON_PACKET structure"]
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET, NET_ADAPTER_WAKE_REASON_PACKET,

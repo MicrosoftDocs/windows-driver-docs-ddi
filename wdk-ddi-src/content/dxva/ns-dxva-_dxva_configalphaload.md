@@ -56,11 +56,11 @@ The DXVA_ConfigAlphaLoad structure is sent by the host decoder to the accelerato
 
 ### -field dwFunction
 
-Indicates the type of query or response when using probing and locking commands. The most significant 24 bits of <b>dwFunction</b> is the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxva-configqueryorreplyflag-and-dxva-configqueryorreplyfunc-variables">DXVA_ConfigQueryOrReplyFlag</a> variable.
+Indicates the type of query or response when using probing and locking commands. The most significant 24 bits of <b>dwFunction</b> is the <a href="/windows-hardware/drivers/display/dxva-configqueryorreplyflag-and-dxva-configqueryorreplyfunc-variables">DXVA_ConfigQueryOrReplyFlag</a> variable.
 
 The least significant 4 bits of the <i>DXVA_ConfigQueryOrReplyFlag</i> variable contains status indicators for the query or response being performed.
 
-The least significant 8 bits of <b>dwFunction</b> is the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> that, in this case, is equal to 2.
+The least significant 8 bits of <b>dwFunction</b> is the <a href="/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> that, in this case, is equal to 2.
 
 ### -field dwReservedBits
 
@@ -72,12 +72,11 @@ Specifies the type of alpha-blend data to be used. This member can be set to one
 
 | **Value** | **Description** | 
 |:--|:--|
-| 0 | 16-entry AYUV palette with [IA44](https://docs.microsoft.com/windows-hardware/drivers/)  alpha-blending surface. | 
-| 1 | 16-entry AYUV palette with [AI44](https://docs.microsoft.com/windows-hardware/drivers/)  alpha-blending surface. | 
+| 0 | 16-entry AYUV palette with [IA44](/windows-hardware/drivers/)  alpha-blending surface. | 
+| 1 | 16-entry AYUV palette with [AI44](/windows-hardware/drivers/)  alpha-blending surface. | 
 | 2 | 16-entry AYUV palette with DPXD, Highlight, and DCCMD data. | 
 | 3 | AYUV graphic surface. | 
 
  
 
 The preferred values for an accelerator to support for <b>bConfigDataType</b> are 1 and 3.
-

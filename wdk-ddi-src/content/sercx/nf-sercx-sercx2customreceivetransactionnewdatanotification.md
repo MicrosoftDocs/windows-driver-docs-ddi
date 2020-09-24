@@ -53,35 +53,34 @@ The <b>SerCx2CustomReceiveTransactionNewDataNotification</b> method notifies ver
 ### -param CustomReceiveTransaction 
 
 [in]
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
+A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive object. The serial controller driver previously called the <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
 
 ## -remarks
 
-If the receive FIFO in the serial controller becomes empty before a custom-receive transaction can be completed, SerCx2 calls the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn265201(v=vs.85)">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a> event callback function, if it is implemented, to enable a new-data notification to occur when new data is available to be read from the receive FIFO.
+If the receive FIFO in the serial controller becomes empty before a custom-receive transaction can be completed, SerCx2 calls the <a href="/previous-versions/windows/hardware/drivers/dn265201(v=vs.85)">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a> event callback function, if it is implemented, to enable a new-data notification to occur when new data is available to be read from the receive FIFO.
 
 If new-data notifications are enabled and new data is available to be read, the serial controller driver must call <b>SerCx2CustomReceiveTransactionNewDataNotification</b> to notify SerCx2. This notification occurs when the driver detects that one or more new bytes of received data either are ready to be transferred by the custom data-transfer mechanism or have already been transferred by this mechanism.
 
 The serial controller driver must call <b>SerCx2CustomReceiveTransactionNewDataNotification</b> only in response to a call to the <i>EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</i> function.
 
-If a serial controller driver supports new-data notifications for custom-receive transactions, SerCx uses these notifications to detect interval time-outs during the handling of read (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>) requests. For more information about interval time-outs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>. For more information about new-data notifications, see <a href="https://docs.microsoft.com/previous-versions/dn265314(v=vs.85)">SerCx2 Custom-Receive Transactions</a>.
+If a serial controller driver supports new-data notifications for custom-receive transactions, SerCx uses these notifications to detect interval time-outs during the handling of read (<a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>) requests. For more information about interval time-outs, see <a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>. For more information about new-data notifications, see <a href="/previous-versions/dn265314(v=vs.85)">SerCx2 Custom-Receive Transactions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn265201(v=vs.85)">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a>
+<a href="/previous-versions/windows/hardware/drivers/dn265201(v=vs.85)">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
+<a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVETRANSACTION</a>
+<a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>
+<a href="/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a>
-
+<a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a>

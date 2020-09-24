@@ -58,7 +58,7 @@ The
 [in]
 An NDIS handle that was obtained during caller initialization. For more information about this
      handle, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/obtaining-pool-handles">Obtaining Pool Handles</a>.
+     <a href="/windows-hardware/drivers/network/obtaining-pool-handles">Obtaining Pool Handles</a>.
      
 
 If the handle is an NDIS miniport adapter handle, NDIS returns information about all the interface
@@ -77,9 +77,9 @@ If the handle is an NDIS filter module handle, NDIS returns information about al
 [in]
 A pointer to a caller-allocated memory block in which NDIS returns the information for all the
      filter modules in a filter stack, starting with top-most filter. This buffer contains an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure that is
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure that is
      followed by zero or more 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a> structures, one
+     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a> structures, one
      for each filter module in the stack.
 
 ### -param InterfaceBufferLength 
@@ -167,9 +167,8 @@ An NDIS miniport driver, protocol driver, or filter driver can call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a>
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a>

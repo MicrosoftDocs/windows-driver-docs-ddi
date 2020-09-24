@@ -47,7 +47,7 @@ api_name:
 ##  Major Code:
 
 
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 
 ## -description
@@ -64,7 +64,7 @@ Returns the operating protocols that the parallel device supports
 
 </li>
 </ul>
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
+For more information, see <a href="/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 
 ## -ioctlparameters
 
@@ -108,4 +108,3 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is less than the
 
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
-

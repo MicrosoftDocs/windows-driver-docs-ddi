@@ -50,10 +50,10 @@ product:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ROAMING_COMPLETION_PARAMETERS structure specifies the completion results of the roaming
+<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ROAMING_COMPLETION_PARAMETERS structure specifies the completion results of the roaming
   operation performed by the Native 802.11 miniport driver. The driver includes a
   DOT11_ROAMING_COMPLETION_PARAMETERS structure when the driver makes an
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-roaming-completion">
+  <a href="/windows-hardware/drivers/network/ndis-status-dot11-roaming-completion">
   NDIS_STATUS_DOT11_ROAMING_COMPLETION</a> status indication.
 
 ## -struct-fields
@@ -95,7 +95,7 @@ For more information about these members, see
 ### -field uStatus
 
 The completion status of the roaming operation formatted as a
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a> value.
+     <a href="/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a> value.
 
 ## -syntax
 
@@ -109,14 +109,13 @@ typedef struct DOT11_ROAMING_COMPLETION_PARAMETERS {
 ## -remarks
 
 For more information about the roaming operation, see
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/roaming-operations">Roaming Operations</a>.
+    <a href="/windows-hardware/drivers/network/roaming-operations">Roaming Operations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-roaming-completion">
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-roaming-completion">
    NDIS_STATUS_DOT11_ROAMING_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a>
-
+<a href="/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a>

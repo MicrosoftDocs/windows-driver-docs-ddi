@@ -66,5 +66,4 @@ The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforverticalblankevent">D3DKMTWaitForVerticalBlankEvent</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforverticalblankevent">D3DKMTWaitForVerticalBlankEvent</a>

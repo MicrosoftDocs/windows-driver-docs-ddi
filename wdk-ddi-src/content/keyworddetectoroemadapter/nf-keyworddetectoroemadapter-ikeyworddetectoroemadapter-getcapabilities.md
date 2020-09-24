@@ -58,7 +58,7 @@ A Boolean value that indicates whether user specific training is supported.
 ### -param KeywordIds 
 
 [out]
-A pointer to an array of keyword IDs supported by the object. The object allocates the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The caller frees the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to an array of keyword IDs supported by the object. The object allocates the array by calling <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The caller frees the memory by calling <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param NumKeywords 
 
@@ -68,7 +68,7 @@ The number of keyword IDs in the <i>KeywordIds</i> array.
 ### -param LangIds 
 
 [out]
-A pointer to an array of language IDs supported by the object. The object allocates the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The caller frees the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to an array of language IDs supported by the object. The object allocates the array by calling <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The caller frees the memory by calling <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param NumLanguages 
 
@@ -78,7 +78,7 @@ The number of language IDs in the <i>LangIds</i> array.
 ### -param ppMediaType 
 
 [out]
-The audio format required by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-verifyuserkeyword">IKeywordDetectorOemAdapter::VerifyUserKeyword</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-computeandaddusermodeldata">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>. 
+The audio format required by <a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-verifyuserkeyword">IKeywordDetectorOemAdapter::VerifyUserKeyword</a> and <a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-computeandaddusermodeldata">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>. 
 
 The only valid values for the IMFMediaType are the following:
 
@@ -88,7 +88,7 @@ The only valid values for the IMFMediaType are the following:
 <li>Sampling Rate = 16 kHz</li>
 <li>Bits = 32</li>
 </ul>
-Typically, the OEMDLL calls <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex">MFInitMediaTypeFromWaveFormatEx</a> to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> pointer to return to the caller.
+Typically, the OEMDLL calls <a href="/windows/win32/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a> and <a href="/windows/win32/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex">MFInitMediaTypeFromWaveFormatEx</a> to obtain an <a href="/windows/win32/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> pointer to return to the caller.
 
 ## -returns
 
@@ -143,33 +143,32 @@ The OEMDLL must have internal user independent models for the keywords and langu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
+<a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
+<a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter">IKeywordDetectorOemAdapter</a>
+<a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter">IKeywordDetectorOemAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-computeandaddusermodeldata">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>
+<a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-computeandaddusermodeldata">IKeywordDetectorOemAdapter::ComputeAndAddUserModelData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-verifyuserkeyword">IKeywordDetectorOemAdapter::VerifyUserKeyword</a>
+<a href="/windows-hardware/drivers/ddi/keyworddetectoroemadapter/nf-keyworddetectoroemadapter-ikeyworddetectoroemadapter-verifyuserkeyword">IKeywordDetectorOemAdapter::VerifyUserKeyword</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
+<a href="/windows/win32/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a>
+<a href="/windows/win32/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex">MFInitMediaTypeFromWaveFormatEx</a>
-
+<a href="/windows/win32/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex">MFInitMediaTypeFromWaveFormatEx</a>

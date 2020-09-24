@@ -59,7 +59,7 @@ Opaque filter pointer to the minifilter driver. This pointer uniquely identifies
 ### -param EcpType 
 
 [in]
-Pointer to a GUID that indicates the type of the ECP context structure.  See [Using GUIDs in Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers) for more information.
+Pointer to a GUID that indicates the type of the ECP context structure.  See [Using GUIDs in Drivers](/windows-hardware/drivers/kernel/using-guids-in-drivers) for more information.
 
 ### -param SizeOfContext 
 
@@ -74,12 +74,12 @@ Defines pool allocation options.  If the value of the *SizeOfContext* parameter 
 ### -param CleanupCallback 
 
 [in, optional]
-Optional pointer to a minifilter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://msdn.microsoft.com/library/windows/hardware/ff551124).  The cleanup callback routine is called when the ECP context structure is deleted.  Set this parameter to **NULL** if a cleanup callback routine is not applicable.
+Optional pointer to a minifilter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](/previous-versions/ff551124(v=vs.85)).  The cleanup callback routine is called when the ECP context structure is deleted.  Set this parameter to **NULL** if a cleanup callback routine is not applicable.
 
 ### -param LookasideList 
 
 [in, out]
-Pointer to an initialized lookaside list in which to attempt to allocate pool from (for the ECP context structure).  To initialize the lookaside list, use the [FltInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinitextracreateparameterlookasidelist) routine.
+Pointer to an initialized lookaside list in which to attempt to allocate pool from (for the ECP context structure).  To initialize the lookaside list, use the [FltInitExtraCreateParameterLookasideList](./nf-fltkernel-fltinitextracreateparameterlookasidelist.md) routine.
 
 ### -param EcpContext 
 
@@ -107,11 +107,11 @@ Use the [FltDeleteExtraCreateParameterLookasideList](nf-fltkernel-fltdeleteextra
 
 Drivers must free all ECP context structures and lookaside lists they create before unloading. However, if a file system or file system filter driver attaches an ECP to an existing or newly-created ECP_LIST while processing an IRP_MJ_CREATE request, this ECP is automatically cleaned up when the IRP completes. As a result, a filter driver does not have to clean up ECPs that are added dynamically. This allows a filter driver's ECP to be properly propagated across the reparse points--a process that can require multiple IRP_MJ_CREATE requests to be generated.
 
-For more information about using lookaside lists with drivers, see [Using Lookaside Lists](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-lookaside-lists).
+For more information about using lookaside lists with drivers, see [Using Lookaside Lists](/windows-hardware/drivers/kernel/using-lookaside-lists).
 
 ## -see-also
 
-[ECP_LIST](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
+[ECP_LIST](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
 [FltAllocateExtraCreateParameter](nf-fltkernel-fltallocateextracreateparameter.md)
 
@@ -135,7 +135,6 @@ For more information about using lookaside lists with drivers, see [Using Lookas
 
 [FltSetEcpListIntoCallbackData](nf-fltkernel-fltsetecplistintocallbackdata.md)
 
-[IoCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex)
+[IoCreateFileEx](../ntddk/nf-ntddk-iocreatefileex.md)
 
-[PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://msdn.microsoft.com/library/windows/hardware/ff551124)
-
+[PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](/previous-versions/ff551124(v=vs.85))

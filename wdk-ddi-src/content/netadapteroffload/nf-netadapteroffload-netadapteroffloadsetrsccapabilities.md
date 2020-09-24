@@ -1,11 +1,9 @@
 ---
 UID: NF:netadapteroffload.NetAdapterOffloadSetRscCapabilities
 title: NetAdapterOffloadSetRscCapabilities function (netadapteroffload.h)
-author: windows-driver-content
 description: The NetAdapterOffloadSetRscCapabilities function sets the hardware receive segment coalescence (RSC) offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: d3e3c034-55cc-4324-8e03-b158f1ed8b03
-ms.author: windowsdriverdev
 ms.date: 11/07/2019
 keywords: ["NetAdapterOffloadSetRscCapabilities function"]
 ms.keywords: NetAdapterOffloadSetRscCapabilities
@@ -70,7 +68,7 @@ Client drivers typically call this function from within their [*EvtDevicePrepare
 
 ## -see-also
 
-[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+[NetAdapterCx hardware offloads](/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
 [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md)
 
@@ -81,4 +79,3 @@ Client drivers typically call this function from within their [*EvtDevicePrepare
 [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md)
 
 [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)
-

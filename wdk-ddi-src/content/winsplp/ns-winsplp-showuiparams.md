@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a> function uses the SHOWUIPARAMS structure to hold information about the appearance and behavior of a message box.
+The <a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a> function uses the SHOWUIPARAMS structure to hold information about the appearance and behavior of a message box.
 
 ## -struct-fields
 
@@ -58,13 +58,12 @@ Specifies the type of user interface element. This member can be set to a single
 
 ### -field MessageBoxParams
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-messagebox_params">MESSAGEBOX_PARAMS</a> structure that contains the information about the message box.
+Specifies a <a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-messagebox_params">MESSAGEBOX_PARAMS</a> structure that contains the information about the message box.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-messagebox_params">MESSAGEBOX_PARAMS</a>
+<a href="/windows-hardware/drivers/ddi/winsplp/ns-winsplp-messagebox_params">MESSAGEBOX_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>
-
+<a href="/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>

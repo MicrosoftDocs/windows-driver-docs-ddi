@@ -58,9 +58,8 @@ Specifies a handle to the CSR printer.
 ### -param pJobDataContainer 
 
 [in]
-Specifies a pointer to an array of <a href="https://docs.microsoft.com/dotnet/core/rid-catalog">BranchOfficeJobData</a> structures, containing the events to be logged.
+Specifies a pointer to an array of <a href="/dotnet/core/rid-catalog">BranchOfficeJobData</a> structures, containing the events to be logged.
 
 ## -returns
 
 Indicates success or failure.
-

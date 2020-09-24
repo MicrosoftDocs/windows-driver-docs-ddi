@@ -77,27 +77,27 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 When a driver calls <b>WdfInterruptAcquireLock</b> on a DIRQL interrupt object, the system raises the processor's IRQL to the device's DIRQL and acquires the spin lock that the driver specified in the interrupt object's <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure. As a result, the interrupt object's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a> and <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a> callback functions (and any other code that calls <b>WdfInterruptAcquireLock</b> for the same interrupt object) cannot execute.
 
-When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>, the system returns the processor's IRQL to its previous level and releases the spin lock.
+When the driver calls <a href="/previous-versions/ff547376(v=vs.85)">WdfInterruptReleaseLock</a>, the system returns the processor's IRQL to its previous level and releases the spin lock.
 
 When a driver calls <b>WdfInterruptAcquireLock</b> on a passive-level interrupt object, the system acquires the passive-level interrupt lock that the driver configured in the interrupt object's <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure.
 
-When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>, the system releases the interrupt lock.
+When the driver calls <a href="/previous-versions/ff547376(v=vs.85)">WdfInterruptReleaseLock</a>, the system releases the interrupt lock.
 
 For passive level interrupts, the driver must call <b>WdfInterruptAcquireLock</b> at IRQL = PASSIVE_LEVEL.
 
-Do not call <b>WdfInterruptAcquireLock</b> from an arbitrary thread context,  such as a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handler</a>.
+Do not call <b>WdfInterruptAcquireLock</b> from an arbitrary thread context,  such as a <a href="/windows-hardware/drivers/wdf/request-handlers">request handler</a>.
 
-You can use <b>WdfInterruptAcquireLock</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a> if your driver must execute a few lines of code without being preempted and with servicing of device interrupts effectively disabled. For larger sections of code, your driver should provide an <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a> callback function.
+You can use <b>WdfInterruptAcquireLock</b> and <a href="/previous-versions/ff547376(v=vs.85)">WdfInterruptReleaseLock</a> if your driver must execute a few lines of code without being preempted and with servicing of device interrupts effectively disabled. For larger sections of code, your driver should provide an <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a> callback function.
 
 Your driver cannot call <b>WdfInterruptAcquireLock</b> before the framework has called the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_enable.md">EvtInterruptEnable</a> callback function or after the framework has called the driver's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a> callback function.
 
-After your driver calls <b>WdfInterruptAcquireLock</b>, it must not call the method again for the same interrupt object before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>.
+After your driver calls <b>WdfInterruptAcquireLock</b>, it must not call the method again for the same interrupt object before calling <a href="/previous-versions/ff547376(v=vs.85)">WdfInterruptReleaseLock</a>.
 
-For more information about the <b>WdfInterruptAcquireLock</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
+For more information about the <b>WdfInterruptAcquireLock</b> method, see <a href="/windows-hardware/drivers/wdf/synchronizing-interrupt-code">Synchronizing Interrupt Code</a>.
 
-For more information about handling interrupts in framework-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
+For more information about handling interrupts in framework-based drivers, see <a href="/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>.
 
-For passive-level interrupt objects, drivers must call <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md">WdfInterruptTryToAcquireLock</a> instead of <b>WdfInterruptAcquireLock</b>, when running in an arbitrary thread, such as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/">queue object callback function</a>. For example, the driver might call <b>WdfInterruptTryToAcquireLock</b> from <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a>.
+For passive-level interrupt objects, drivers must call <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md">WdfInterruptTryToAcquireLock</a> instead of <b>WdfInterruptAcquireLock</b>, when running in an arbitrary thread, such as a <a href="/windows-hardware/drivers/ddi/wdfio/">queue object callback function</a>. For example, the driver might call <b>WdfInterruptTryToAcquireLock</b> from <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a>.
 
 Doing so avoids the possibility of deadlock, as described in the following scenario.
 <ol>
@@ -123,5 +123,4 @@ Doing so avoids the possibility of deadlock, as described in the following scena
 
 <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547376">WdfInterruptReleaseLock</a>
-
+<a href="/previous-versions/ff547376(v=vs.85)">WdfInterruptReleaseLock</a>

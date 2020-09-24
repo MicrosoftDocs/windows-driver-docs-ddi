@@ -60,7 +60,7 @@ A handle to a display device (graphics context).
 
 *pPresent* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_presentmultiplaneoverlay">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a> structure that describes the source and destination allocations that content is copied from and to.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_presentmultiplaneoverlay">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a> structure that describes the source and destination allocations that content is copied from and to.
 
 ## -returns
 
@@ -74,22 +74,21 @@ Returns one of these values:
 
 ## -remarks
 
-The user-mode display driver should call this function only after it has successfully processed a call by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlay">pfnPresentMultiplaneOverlay (D3D)</a> function.
+The user-mode display driver should call this function only after it has successfully processed a call by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlay">pfnPresentMultiplaneOverlay (D3D)</a> function.
 
-<div class="alert"><b>Note</b>  When the display driver calls <b>pfnPresentMultiPlaneOverlayCb (D3D)</b>, it must maintain the same order of allocations in the <b>AllocationInfo</b> array member of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_presentmultiplaneoverlay">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a> structure as it received from the Microsoft Direct3D runtime when the runtime called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlay">pfnPresentMultiplaneOverlay (D3D)</a>.<p class="note">For example, the allocation handle in index 1 of <b>AllocationInfo</b> must represent the same resource that was passed to the driver in index 1 of the <i>pPresentPlanes</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_presentmultiplaneoverlay">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a> structure used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlay">pfnPresentMultiplaneOverlay (D3D)</a>.
+<div class="alert"><b>Note</b>  When the display driver calls <b>pfnPresentMultiPlaneOverlayCb (D3D)</b>, it must maintain the same order of allocations in the <b>AllocationInfo</b> array member of the  <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_presentmultiplaneoverlay">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a> structure as it received from the Microsoft Direct3D runtime when the runtime called <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlay">pfnPresentMultiplaneOverlay (D3D)</a>.<p class="note">For example, the allocation handle in index 1 of <b>AllocationInfo</b> must represent the same resource that was passed to the driver in index 1 of the <i>pPresentPlanes</i> member of the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_presentmultiplaneoverlay">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a> structure used with <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlay">pfnPresentMultiplaneOverlay (D3D)</a>.
 
 </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_presentmultiplaneoverlay">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_presentmultiplaneoverlay">D3DDDIARG_PRESENTMULTIPLANEOVERLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_presentmultiplaneoverlay">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a>
+<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddicb_presentmultiplaneoverlay">D3DDDICB_PRESENTMULTIPLANEOVERLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlay">pfnPresentMultiplaneOverlay (D3D)</a>
-
+<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlay">pfnPresentMultiplaneOverlay (D3D)</a>

@@ -56,11 +56,11 @@ The <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure describes sets of resource co
 
 ### -field ListSize
 
-The total number of bytes that constitute the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure, its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a> array, and the latter's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> array.
+The total number of bytes that constitute the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure, its <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a> array, and the latter's <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> array.
 
 ### -field InterfaceType
 
-Specifies an interface type. This must be one of the types defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
+Specifies an interface type. This must be one of the types defined by <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_interface_type">INTERFACE_TYPE</a>, in Wdm.h or Ntddk.h. (Not used by WDM drivers.)
 
 ### -field BusNumber
 
@@ -80,27 +80,22 @@ The number of alternative lists (or configurations) of hardware resources that a
 
 ### -field List
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a> structure that serves as the header for the first alternative list of hardware resources. If the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure describes more than one alternative list, the second alternative list immediately follows the first alternative list in memory, and so on. The size of each alternative list depends on the length of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> array that it contains. For more information, see the following Remarks section.
+The <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a> structure that serves as the header for the first alternative list of hardware resources. If the <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure describes more than one alternative list, the second alternative list immediately follows the first alternative list in memory, and so on. The size of each alternative list depends on the length of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> array that it contains. For more information, see the following Remarks section.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a> IRPs to describe one or more alternative configurations of <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">hardware resources</a>.
+This structure is used by the <a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> and <a href="/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a> IRPs to describe one or more alternative configurations of <a href="/windows-hardware/drivers/kernel/hardware-resources">hardware resources</a>.
 
 The <b>IO_RESOURCE_REQUIREMENTS_LIST</b> structure is a header for a larger data structure, of variable size, that specifies one or more alternative lists of resources. All of the data in this larger structure occupies a contiguous block of memory, whose size is specified by the <b>ListSize</b> member. Each alternative list occupies a subblock within the larger block.
 
 Each alternative list begins with an <b>IO_RESOURCE_LIST</b> structure, which serves as a header for an array of <b>IO_RESOURCE_DESCRIPTOR</b> structures. The length of this array determines the size of the list, which can vary from one alternative list to the next. Driver code can use pointer arithmetic to step from one alternative list to the next. For example, if a parameter named <i>list</i> is a pointer to the <b>IO_RESOURCE_LIST</b> structure at the start of one alternative list, <i>list</i> can be updated to point to the start of the next list as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);</pre>
-</td>
-</tr>
-</table></span></div>
-In this example, <code>list->Descriptors</code> is a pointer to the start of the <b>IO_RESOURCE_DESCRIPTOR</b> array, and <code>list->Count</code> is the number of elements in the array. For more information about the <b>Descriptors</b> and <b>Count</b> members, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a>.
+
+```
+    list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);
+```
+
+In this example, <code>list->Descriptors</code> is a pointer to the start of the <b>IO_RESOURCE_DESCRIPTOR</b> array, and <code>list->Count</code> is the number of elements in the array. For more information about the <b>Descriptors</b> and <b>Count</b> members, see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a>.
 
 
 #### Examples
@@ -109,13 +104,9 @@ If a driver contains a handler for an <b>IRP_MN_FILTER_RESOURCE_REQUIREMENTS</b>
 
 The FilterResources function returns <b>TRUE</b> (probably from the <b>switch</b> statement, although the details are omitted to simplify the code example) if it finds the resource that it is looking for in the list, or if it makes a change to the list that does not change the size of the list. Otherwise, it returns <b>FALSE</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>/* Modify the resource list in place (without changing its size). */
+
+```
+/* Modify the resource list in place (without changing its size). */
 
 BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 {
@@ -148,24 +139,22 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
     }
 
     return FALSE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_list">IO_RESOURCE_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
+<a href="/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>
-
+<a href="/windows-hardware/drivers/kernel/irp-mn-query-resource-requirements">IRP_MN_QUERY_RESOURCE_REQUIREMENTS</a>

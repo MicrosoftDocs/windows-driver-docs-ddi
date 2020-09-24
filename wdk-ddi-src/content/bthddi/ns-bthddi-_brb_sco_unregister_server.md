@@ -54,7 +54,7 @@ A profile driver uses the _BRB_SCO_UNREGISTER_SERVER structure to unregister its
 ### -field Hdr
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
+     <a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 ### -field BtAddress
@@ -69,15 +69,14 @@ The handle of the SCO server to unregister, that was obtained earlier from
 ## -remarks
 
 To unregister itself as a SCO server, a profile driver should 
-    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
-    <a href="https://docs.microsoft.com/previous-versions/ff536630(v=vs.85)">
+    <a href="/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="/previous-versions/ff536630(v=vs.85)">
     BRB_SCO_UNREGISTER_SERVER</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
+<a href="/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ff536630(v=vs.85)">BRB_SCO_UNREGISTER_SERVER</a>
-
+<a href="/previous-versions/ff536630(v=vs.85)">BRB_SCO_UNREGISTER_SERVER</a>

@@ -58,7 +58,7 @@ Pointer to the driver object for the boot driver to be reinitialized.
 ### -param DriverReinitializationRoutine 
 
 [in]
-Pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize">Reinitialize</a> routine.
+Pointer to the driver's <a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize">Reinitialize</a> routine.
 
 ### -param Context 
 
@@ -67,7 +67,7 @@ Optional context pointer to be passed to the driver's reinitialization routine.
 
 ## -remarks
 
-A boot driver normally calls <b>IoRegisterBootDriverReinitialization</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine, which is run during boot driver initialization. <b>IoRegisterBootDriverReinitialization</b> registers the driver's reinitialization callback routine to be called by the I/O manager after all devices have been enumerated and started. The <i>DriverReinitializationRoutine</i> is run in a system thread at IRQL = PASSIVE_LEVEL. 
+A boot driver normally calls <b>IoRegisterBootDriverReinitialization</b> from its <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine, which is run during boot driver initialization. <b>IoRegisterBootDriverReinitialization</b> registers the driver's reinitialization callback routine to be called by the I/O manager after all devices have been enumerated and started. The <i>DriverReinitializationRoutine</i> is run in a system thread at IRQL = PASSIVE_LEVEL. 
 
 A driver should call <b>IoRegisterBootDriverReinitialization</b> only if its <i>DriverEntry</i> routine will return STATUS_SUCCESS. 
 
@@ -77,13 +77,12 @@ The <i>DriverEntry</i> routine can call <b>IoRegisterBootDriverReinitialization<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterdriverreinitialization">IoRegisterDriverReinitialization</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioregisterdriverreinitialization">IoRegisterDriverReinitialization</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize">Reinitialize</a>
-
+<a href="/windows-hardware/drivers/ddi/ntddk/nc-ntddk-driver_reinitialize">Reinitialize</a>

@@ -50,5 +50,4 @@ The **CWiauFormatConverter::CWiauFormatConverter** method is the constructor for
 
 ## -see-also
 
-[CWiauFormatConverter::~CWiauFormatConverter](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter--cwiauformatconverter)
-
+[CWiauFormatConverter::~CWiauFormatConverter](./nf-wiautil-cwiauformatconverter--cwiauformatconverter.md)

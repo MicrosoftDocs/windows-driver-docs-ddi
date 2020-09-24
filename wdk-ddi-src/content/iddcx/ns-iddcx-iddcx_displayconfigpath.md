@@ -5,7 +5,6 @@ author: windows-driver-content
 description: IDDCX_DISPLAYCONFIGPATH contains display monitor configuration for a path.
 tech.root: display
 ms.assetid: 5dce6205-f03c-4ca5-8f40-09a24eacbd13
-ms.author: windowsdriverdev
 ms.date: 09/20/2020
 keywords: ["IDDCX_DISPLAYCONFIGPATH structure"]
 ms.prod: windows-hardware

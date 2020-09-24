@@ -74,5 +74,4 @@ Specifies the last time a file was changed or modified.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt734230">ATOMIC_CREATE_ECP_CONTEXT</a>
-
+<a href="/previous-versions/mt734230(v=vs.85)">ATOMIC_CREATE_ECP_CONTEXT</a>

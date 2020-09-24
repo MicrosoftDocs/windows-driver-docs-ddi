@@ -59,5 +59,4 @@ logging defaults to disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfconfig2">IWDTFCONFIG2</a>
-
+<a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfconfig2">IWDTFCONFIG2</a>

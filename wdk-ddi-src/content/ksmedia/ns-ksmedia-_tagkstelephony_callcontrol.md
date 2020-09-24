@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>KSTELEPHONY_CALLCONTROL</b> structure specifies the phone call type and control operation to use for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-telephony-callcontrol">KSPROPERTY_TELEPHONY_CALLCONTROL</a> property.
+The <b>KSTELEPHONY_CALLCONTROL</b> structure specifies the phone call type and control operation to use for the <a href="/windows-hardware/drivers/audio/ksproperty-telephony-callcontrol">KSPROPERTY_TELEPHONY_CALLCONTROL</a> property.
 
 ## -struct-fields
 
@@ -61,4 +61,3 @@ Specifies the type of phone call (circuit-switched, LTE packet-switched, or WLAN
 ### -field CallControlOp
 
 Specifies the call control operation (enable or disable).
-

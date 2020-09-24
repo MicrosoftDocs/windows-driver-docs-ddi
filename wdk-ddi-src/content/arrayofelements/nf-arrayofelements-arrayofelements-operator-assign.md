@@ -52,7 +52,7 @@ The <b>operator=</b> overloaded assignment operator sets the typed data represen
 
 ## -param
 
-<p>A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data"><b>DEBUG_TYPED_DATA</b></a> structure that describes the data and type to be assigned to this object.</p>
+<p>A pointer to a <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data"><b>DEBUG_TYPED_DATA</b></a> structure that describes the data and type to be assigned to this object.</p>
 
 ## -returns
 
@@ -81,4 +81,3 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
-

@@ -56,7 +56,7 @@ The ELEMENT_TYPE enumeration provides a list of changer element types defined by
 
 ### -field AllElements
 
-Indicates all elements of a changer, including its robotic transport, drives, slots, and IEport. <b>AllElements</b> is valid only in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerinitializeelementstatus">ChangerInitializeElementStatus</a> call.
+Indicates all elements of a changer, including its robotic transport, drives, slots, and IEport. <b>AllElements</b> is valid only in a <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a> or <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerinitializeelementstatus">ChangerInitializeElementStatus</a> call.
 
 ### -field ChangerTransport
 
@@ -76,11 +76,11 @@ Indicates a data transfer element where data can be read from and written to med
 
 ### -field ChangerDoor
 
-Indicates a mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer are elements of this type. <b>ChangerDoor</b> is valid only in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changersetaccess">ChangerSetAccess</a> call.
+Indicates a mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer are elements of this type. <b>ChangerDoor</b> is valid only in a <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changersetaccess">ChangerSetAccess</a> call.
 
 ### -field ChangerKeypad
 
-Indicates the keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changersetaccess">ChangerSetAccess</a> call.
+Indicates the keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changersetaccess">ChangerSetAccess</a> call.
 
 ### -field ChangerMaxElement
 
@@ -88,13 +88,12 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a>
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changerinitializeelementstatus">ChangerInitializeElementStatus</a>
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changerinitializeelementstatus">ChangerInitializeElementStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/nf-mcd-changersetaccess">ChangerSetAccess</a>
-
+<a href="/windows-hardware/drivers/ddi/mcd/nf-mcd-changersetaccess">ChangerSetAccess</a>

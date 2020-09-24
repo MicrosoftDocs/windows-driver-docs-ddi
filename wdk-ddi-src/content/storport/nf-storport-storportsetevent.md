@@ -1,11 +1,9 @@
 ---
 UID: NF:storport.StorPortSetEvent
 title: StorPortSetEvent function
-author: windows-driver-content
 description: A miniport can call StorPortSetEvent to set an event object to the signaled state.
 tech.root: storage
 ms.assetid: 85d89cc8-a4b6-4f83-a3ba-2c64d28ca516
-ms.author: windowsdriverdev
 ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortSetEvent
@@ -33,9 +31,10 @@ f1_keywords:
 topic_type:
  - apiref
 api_type:
- - 
+ - LibDef
 api_location:
- - 
+ - Storport.lib
+ - Storport.dll
 api_name:
  - StorPortSetEvent
 product:
@@ -72,13 +71,12 @@ Pointer to a [**STOR_EVENT**](ns-storport-stor_event.md) structure containing th
 
 ## -remarks
 
-See [**KeSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent) for more details.
+See [**KeSetEvent**](../wdm/nf-wdm-kesetevent.md) for more details.
 
 ## -see-also
 
-[**KeSetEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesetevent) for more details.
+[**KeSetEvent**](../wdm/nf-wdm-kesetevent.md) for more details.
 
 [**STOR_EVENT**](ns-storport-stor_event.md)
 
 [**StorPortInitializeEvent**](ns-storport-storport_initialize_event.md)
-

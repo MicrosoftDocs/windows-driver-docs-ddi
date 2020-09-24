@@ -59,7 +59,7 @@ Detaches a device from an existing domain.
 
 ## -returns
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -prototype
 
@@ -93,4 +93,3 @@ InputMappingId is used only for ACPI-enumerated devices on ARM64. For all other 
 If multiple devices are simultaneously attached using the _MappingCount_ value specified in the [_IOMMU_DOMAIN_ATTACH_DEVICE_](nc-wdm-iommu_domain_attach_device.md) call, then those devices can only be detached as a group by specifying an _InputMappingId_ value that is equal to the _InputMappingIdBase_ value of [_IOMMU_DOMAIN_ATTACH_DEVICE_] used when attaching.
 
 ## -see-also
-

@@ -54,7 +54,7 @@ The <b>WmiCompleteRequest</b> routine indicates that a driver has finished proce
 ### -param DeviceObject 
 
 [in]
-A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
+A pointer to the driver's <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 ### -param Irp 
 
@@ -74,7 +74,7 @@ Specifies the number of bytes needed in the buffer passed to the driver's <i>DpW
 ### -param PriorityBoost 
 
 [in]
-Specifies a system-defined constant by which to increment the run-time priority of the original thread that requested the operation. WMI calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> with <i>PriorityBoost</i> when it completes the IRP. See <b>IoCompleteRequest</b> for more information on <i>PriorityBoost</i>.
+Specifies a system-defined constant by which to increment the run-time priority of the original thread that requested the operation. WMI calls <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> with <i>PriorityBoost</i> when it completes the IRP. See <b>IoCompleteRequest</b> for more information on <i>PriorityBoost</i>.
 
 ## -returns
 
@@ -86,37 +86,36 @@ A driver calls <b>WmiCompleteRequest</b> from a <i>DpWmiXxx</i> routine after it
 
 A driver should always return the return value from <b>WmiCompleteRequest</b> in its <i>DpWmiXxx</i> routine.
 
-A driver must not call <b>WmiCompleteRequest</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_query_reginfo_callback">DpWmiQueryRegInfo</a> routine.
+A driver must not call <b>WmiCompleteRequest</b> from its <a href="/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_query_reginfo_callback">DpWmiQueryRegInfo</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_execute_method_callback">DpWmiExecuteMethod</a>
+<a href="/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_execute_method_callback">DpWmiExecuteMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_function_control_callback">DpWmiFunctionControl</a>
+<a href="/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_function_control_callback">DpWmiFunctionControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a>
+<a href="/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_query_datablock_callback">DpWmiQueryDataBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_query_reginfo_callback">DpWmiQueryReginfo</a>
+<a href="/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_query_reginfo_callback">DpWmiQueryReginfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_set_datablock_callback">DpWmiSetDataBlock</a>
+<a href="/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_set_datablock_callback">DpWmiSetDataBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_set_dataitem_callback">DpWmiSetDataItem</a>
+<a href="/windows-hardware/drivers/ddi/wmilib/nc-wmilib-wmi_set_dataitem_callback">DpWmiSetDataItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>
-
+<a href="/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>

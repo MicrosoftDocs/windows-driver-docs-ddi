@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddvdeo._GAMMA_RAMP_RGB256x3x16
 title: GAMMA_RAMP_RGB256x3x16
-author: windows-driver-content
 description: Gamma ramp RGB 256x3x16.
 tech.root: display
 ms.assetid: a3e88fca-266a-4491-958c-e75b610f4854
-ms.author: windowsdriverdev
 ms.date: 04/04/2019
 keywords: ["GAMMA_RAMP_RGB256x3x16 structure"]
 ms.keywords: GAMMA_RAMP_RGB256x3x16, GAMMA_RAMP_RGB256x3x16,

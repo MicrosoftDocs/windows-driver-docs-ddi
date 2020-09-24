@@ -1,9 +1,7 @@
 ---
 UID: NF:netdevice.NetDeviceInitSetResetDiagnosticsCapabilities
 title: NetDeviceInitSetResetDiagnosticsCapabilities
-author: windows-driver-content
 ms.topic: language-reference
-ms.author: windowsdriverdev
 ms.date: 07/02/2020
 ms.custom: Fe
 targetos: Windows

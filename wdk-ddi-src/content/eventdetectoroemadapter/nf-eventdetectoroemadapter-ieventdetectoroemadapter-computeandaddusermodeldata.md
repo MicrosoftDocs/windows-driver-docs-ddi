@@ -1,11 +1,9 @@
 ---
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.ComputeAndAddUserModelData
 title: IEventDetectorOemAdapter::ComputeAndAddUserModelData
-author: windows-driver-content
 description: Adds the user specific model data to an existing model data blob.
 tech.root: audio
 ms.assetid: ab85e416-ed92-4956-9e51-5f7044fae368
-ms.author: windowsdriverdev
 ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::ComputeAndAddUserModelData"]
 ms.keywords: IEventDetectorOemAdapter::ComputeAndAddUserModelData, ComputeAndAddUserModelData, IEventDetectorOemAdapter.ComputeAndAddUserModelData, IEventDetectorOemAdapter::ComputeAndAddUserModelData, IEventDetectorOemAdapter.ComputeAndAddUserModelData
@@ -84,11 +82,10 @@ This method returns HRESULT. It returns S_OK if the function exit successfully. 
 
 ## -remarks
 
-This function is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
+This function is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 
 - [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
 
 - [Audio](../_audio/index.md)
-

@@ -73,6 +73,5 @@ This structure is provided by a client application to register or unregister a W
     not update any of the members of this structure.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
+    <a href="/windows-hardware/drivers/network/registering-a-winsock-kernel-application">Registering a Winsock Kernel
     Application</a>.
-

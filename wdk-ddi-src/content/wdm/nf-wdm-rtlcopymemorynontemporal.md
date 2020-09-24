@@ -66,11 +66,10 @@ None.
 
 ## -remarks
 
-**RtlCopyMemoryNonTemporal** only performs a non-temporal copy for x64-based systems, and only when the **Length** parameter is 8 bytes or greater. Otherwise, this function is equivalent to [RtlCopyMemory](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcopymemory).
+**RtlCopyMemoryNonTemporal** only performs a non-temporal copy for x64-based systems, and only when the **Length** parameter is 8 bytes or greater. Otherwise, this function is equivalent to [RtlCopyMemory](./nf-wdm-rtlcopymemory.md).
 
 Callers of RtlCopyMemoryNonTemporal can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
 ## -see-also
 
-[RtlCopyMemory](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcopymemory)
-
+[RtlCopyMemory](./nf-wdm-rtlcopymemory.md)

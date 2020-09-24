@@ -62,5 +62,4 @@ A PULONG64 pointer to the packet hash value that is a combination of the two low
 
 ## -see-also
 
-[KSPROPSETID_RTAudio](https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-rtaudio)
-
+[KSPROPSETID_RTAudio](/windows-hardware/drivers/audio/kspropsetid-rtaudio)

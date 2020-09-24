@@ -77,15 +77,14 @@ A formatted [**WWAN_UICC_FILE_STATUS**](../wwan/ns-wwan-_wwan_uicc_file_status.m
 
 ## -remarks
 
-This structure is used in the [NDIS_STATUS_WWAN_UICC_FILE_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-file-status) status notification in response to a previous [OID_WWAN_UICC_FILE_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-file-status) Query request.
+This structure is used in the [NDIS_STATUS_WWAN_UICC_FILE_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-uicc-file-status) status notification in response to a previous [OID_WWAN_UICC_FILE_STATUS](/windows-hardware/drivers/network/oid-wwan-uicc-file-status) Query request.
 
 ## -see-also
 
-[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
+[MB UICC application and file system access](/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
-[OID_WWAN_UICC_FILE_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-file-status)
+[OID_WWAN_UICC_FILE_STATUS](/windows-hardware/drivers/network/oid-wwan-uicc-file-status)
 
-[NDIS_STATUS_WWAN_UICC_FILE_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-uicc-file-status)
+[NDIS_STATUS_WWAN_UICC_FILE_STATUS](/windows-hardware/drivers/network/ndis-status-wwan-uicc-file-status)
 
 [**WWAN_UICC_FILE_STATUS**](../wwan/ns-wwan-_wwan_uicc_file_status.md)
-

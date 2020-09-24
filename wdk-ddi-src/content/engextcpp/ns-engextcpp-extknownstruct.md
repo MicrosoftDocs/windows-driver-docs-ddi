@@ -56,7 +56,7 @@ The name of the structure type.
 
 ### -field Method
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff543989(v=vs.85)">ExtKnownStructMethod</a> callback function that can be called to format an instance of the structure specified in <b>TypeName</b>.
+The <a href="/previous-versions/windows/hardware/previsioning-framework/ff543989(v=vs.85)">ExtKnownStructMethod</a> callback function that can be called to format an instance of the structure specified in <b>TypeName</b>.
 
 ### -field SuppressesTypeName
 
@@ -64,5 +64,4 @@ A Boolean flag that specifies whether the formatted output includes the name of 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff543989(v=vs.85)">ExtKnownStructMethod</a>
-
+<a href="/previous-versions/windows/hardware/previsioning-framework/ff543989(v=vs.85)">ExtKnownStructMethod</a>

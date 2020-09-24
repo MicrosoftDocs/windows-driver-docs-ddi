@@ -56,31 +56,30 @@ The <b>PEP_DEBUGGER_TRANSITION_REQUIREMENTS</b> structure indicates the platform
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the debugger device. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the debugger device. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 ### -field PlatformStateCount
 
-[in] The number of entries in the array pointed to by the <b>PowerTransitionRequired</b> member. This number is the same as the number of supported platform idle states that the PEP specified in response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification.
+[in] The number of entries in the array pointed to by the <b>PowerTransitionRequired</b> member. This number is the same as the number of supported platform idle states that the PEP specified in response to a previous <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification.
 
 ### -field PowerTransitionRequired
 
-[in] An output buffer to which the PEP writes a BOOLEAN array that indicates the platform idle states for which power to the debugger device must be turned on. This buffer is allocated by the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>PlatformStateCount</b> member. Set an array element to TRUE if the debugger device must be turned on in the corresponding platform idle state. Set to FALSE to indicate that the device is not required to be turned on in this state. If the platform supports N idle states, the array contains N elements, and idle states are numbered 0 to N–1 in the order in which they are represented in the array.
+[in] An output buffer to which the PEP writes a BOOLEAN array that indicates the platform idle states for which power to the debugger device must be turned on. This buffer is allocated by the Windows <a href="/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>PlatformStateCount</b> member. Set an array element to TRUE if the debugger device must be turned on in the corresponding platform idle state. Set to FALSE to indicate that the device is not required to be turned on in this state. If the platform supports N idle states, the array contains N elements, and idle states are numbered 0 to N–1 in the order in which they are represented in the array.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_debugger_transition_requirements">PEP_DPM_QUERY_DEBUGGER_TRANSITION_REQUIREMENTS</a> notification. All three members of the structure contain input values that are supplied by PoFx when this notification is sent to the PEP.
+This structure is used by the <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_debugger_transition_requirements">PEP_DPM_QUERY_DEBUGGER_TRANSITION_REQUIREMENTS</a> notification. All three members of the structure contain input values that are supplied by PoFx when this notification is sent to the PEP.
 
 During a debugging session, the debugger component that runs on the target computer communicates with the host computer through a debugger device such as a USB host controller, UART, or networking device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_debugger_transition_requirements">PEP_DPM_QUERY_DEBUGGER_TRANSITION_REQUIREMENTS</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_debugger_transition_requirements">PEP_DPM_QUERY_DEBUGGER_TRANSITION_REQUIREMENTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_query_platform_states">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>

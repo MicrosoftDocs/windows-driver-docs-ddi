@@ -59,7 +59,7 @@ The
 [in]
 An NDIS handle that identifies the AF that NDIS should close. NDIS supplied this handle to the
      call manager's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
 ## -returns
 
@@ -89,7 +89,7 @@ NDIS successfully closed the address family.
 </td>
 <td width="60%">
 NDIS is handling this request asynchronously, and it will call the call manager's 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
+       <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
        ProtocolCmNotifyCloseAfComplete</a> function when the close operation is complete.
 
 </td>
@@ -110,47 +110,46 @@ NDIS failed the request for some NDIS or client driver-determined reason.
 ## -remarks
 
 Stand-alone CoNDIS call managers, which register as NDIS protocol drivers by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">
     NdisRegisterProtocolDriver</a> function, can call the 
     <b>NdisCmNotifyCloseAddressFamily</b> function. Miniport call managers (MCMs) instead call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmnotifycloseaddressfamily">
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmnotifycloseaddressfamily">
     NdisMCmNotifyCloseAddressFamily</a> function.
 
 To close an AF for a binding, the stand-alone call manager should call 
     <b>NdisCmNotifyCloseAddressFamily</b> from the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> function. NDIS then calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">
     ProtocolClNotifyCloseAf</a> function of the client that has the specified AF open.
 
 If 
     <b>NdisCmNotifyCloseAddressFamily</b> returns NDIS_STATUS_PENDING, NDIS calls the call manager's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
+    <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
     ProtocolCmNotifyCloseAfComplete</a> function after the client completes the AF close operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmnotifycloseaddressfamily">
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmnotifycloseaddressfamily">
    NdisMCmNotifyCloseAddressFamily</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">ProtocolClNotifyCloseAf</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cl_notify_close_af">ProtocolClNotifyCloseAf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_notify_close_af_complete">
    ProtocolCmNotifyCloseAfComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
-
+<a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>

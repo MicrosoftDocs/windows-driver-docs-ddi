@@ -53,7 +53,7 @@ The <code>GetAllocatorFraming</code> method gets the preferred allocator-framing
 ### -param AllocatorFraming 
 
 [out]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
+Pointer to a <a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
 
 ## -returns
 
@@ -61,15 +61,14 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks
 
 ## -remarks
 
-The miniport driver should not assume that the actual allocator-framing parameters for the stream match those specified in the <code>GetAllocatorFraming</code> call. The port driver interprets the allocation-framing parameters from the <code>GetAllocatorFraming</code> as the miniport driver's preferences. Other factors might outweigh these preferences, however, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">SysAudio system driver</a> builds the audio filter graph.
+The miniport driver should not assume that the actual allocator-framing parameters for the stream match those specified in the <code>GetAllocatorFraming</code> call. The port driver interprets the allocation-framing parameters from the <code>GetAllocatorFraming</code> as the miniport driver's preferences. Other factors might outweigh these preferences, however, when the <a href="/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">SysAudio system driver</a> builds the audio filter graph.
 
-See the discussion of allocator framing in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/wavepci-latency">WavePci Latency</a>.
+See the discussion of allocator framing in <a href="/windows-hardware/drivers/audio/wavepci-latency">WavePci Latency</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
+<a href="/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
-
+<a href="/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>

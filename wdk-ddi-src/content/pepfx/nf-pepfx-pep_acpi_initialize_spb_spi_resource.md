@@ -46,7 +46,10 @@ api_name:
 
 ## -description
 
-The <b>PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_spi_resource">PEP_ACPI_SPB_SPI_RESOURCE</a> structure.
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. This article contains references to terminology that the Microsoft [Style Guide for Bias-Free Communications](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
+
+The <b>PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_spi_resource">PEP_ACPI_SPB_SPI_RESOURCE</a> structure.
 
 ## -parameters
 
@@ -132,9 +135,8 @@ The length of the buffer pointed to by the <i>VendorData</i> parameter.
 ### -param Resource 
 
 [out]
-A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_spi_resource">PEP_ACPI_SPB_SPI_RESOURCE</a>.
+A pointer to the resource. The structure behind the pointer is of type <a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_spi_resource">PEP_ACPI_SPB_SPI_RESOURCE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_spi_resource">PEP_ACPI_SPB_SPI_RESOURCE</a>
-
+<a href="/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_spi_resource">PEP_ACPI_SPB_SPI_RESOURCE</a>

@@ -60,7 +60,7 @@ A handle to the display device.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_getresourcepresentprivatedriverdata">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a> structure that describes the operation to perform and contains the results.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_getresourcepresentprivatedriverdata">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a> structure that describes the operation to perform and contains the results.
 
 ## -returns
 
@@ -68,7 +68,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |S_OK|The operation completed successfully.|
 |STATUS_INVALID_BUFFER_SIZE|The value of D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA::PrivateDriverDataSize was zero or was insufficient to hold the data. When control returns to the caller, PrivateDriverDataSize will contain the required buffer size.|
- 
+
 
 This method may return other <b>HRESULT</b> values.
-

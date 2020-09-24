@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-postevent">ISensorClassExtension::PostEvent</a> method raises one or more driver events in the sensor class extension.
+The <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-postevent">ISensorClassExtension::PostEvent</a> method raises one or more driver events in the sensor class extension.
 
 ## -parameters
 
@@ -77,24 +77,23 @@ This method returns an HRESULT. Possible values include, but are not limited to,
 
 The sensor class extension forwards these events to the Sensor API and Location API, which in turn, raise events in client programs.
 
-The collection passed through <i>pEventCollection</i> can contain one or more events. Represent each event and its associated data by using one <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object. Platform-defined <b>PROPERTYKEY</b>s for events and data types are defined in sensors.h.
+The collection passed through <i>pEventCollection</i> can contain one or more events. Represent each event and its associated data by using one <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> object. Platform-defined <b>PROPERTYKEY</b>s for events and data types are defined in sensors.h.
 
-Each <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object returned by this method must contain a time stamp, as described in <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-category-all">SENSOR_CATEGORY_ALL</a>.
+Each <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> object returned by this method must contain a time stamp, as described in <a href="/windows-hardware/drivers/sensors/sensor-category-all">SENSOR_CATEGORY_ALL</a>.
 
 The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> structures provided by this method.
 
 To specify the event type, use the SENSOR_EVENT_PARAMETER_EVENT_ID <b>PROPERTYKEY</b> with the appropriate <b>GUID</b> value. 
 
-For an example of a class that creates an event thread, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/raising-events">Raising sensor events</a>
+For an example of a class that creates an event thread, see <a href="/windows-hardware/drivers/sensors/raising-events">Raising sensor events</a>
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=131487">IPortableDeviceValuesCollection</a> are documented in Windows Portable Devices.
+<a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> and <a href="/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection</a> are documented in Windows Portable Devices.
 
 <div class="alert"><b>Note</b>  The sensor class extension will call PropVariantClear for PROPVARIANTs that you pass  to the sensor class extension.</div>
 <div> </div>
-Raise state change events by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-poststatechange">ISensorClassExtension::PostStateChange</a>.
+Raise state change events by calling <a href="/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-poststatechange">ISensorClassExtension::PostStateChange</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
-
+<a href="/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>

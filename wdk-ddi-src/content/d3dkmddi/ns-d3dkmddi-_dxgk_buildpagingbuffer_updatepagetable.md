@@ -58,7 +58,7 @@ Level of a page table, which is updated.
 
 ### -field hAllocation
 
-Kernel mode driver handle of an allocation, which is mapped by the page table entries. The handle is returned by the kernel mode driver from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>. The handle can be <b>NULL</b> for allocations, which do not have a kernel mode drver   handle (page tables, page directories, etc.).
+Kernel mode driver handle of an allocation, which is mapped by the page table entries. The handle is returned by the kernel mode driver from <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>. The handle can be <b>NULL</b> for allocations, which do not have a kernel mode drver   handle (page tables, page directories, etc.).
 
 ### -field PageTableAddress
 
@@ -82,7 +82,7 @@ This member is reserved and should be set to zero.
 
 ### -field Flags
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_updatepagetableflags">DXGK_UPDATEPAGETABLEFLAGS</a> structure describing the update operation.
+<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_updatepagetableflags">DXGK_UPDATEPAGETABLEFLAGS</a> structure describing the update operation.
 
 ### -field DriverProtection
 
@@ -94,7 +94,7 @@ When <b>hAllocation</b> is non-NULL, this field specifies the relative offset, i
 
 ### -field hProcess
 
-Kernel mode driver process handle for the process whose page table entries are updated. This is the value returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>.
+Kernel mode driver process handle for the process whose page table entries are updated. This is the value returned from <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>.
 
 ### -field UpdateMode
 
@@ -109,4 +109,3 @@ The entries which need to be copied from the 64KB page tables. The index zero in
 ### -field FirstPteVirtualAddress
 
 The GPU virtual address that is mapped by the first updated page table entry.
-

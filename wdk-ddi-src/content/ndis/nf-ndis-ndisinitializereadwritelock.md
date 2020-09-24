@@ -49,7 +49,7 @@ api_name:
 The
   <b>NdisInitializeReadWriteLock</b> function initializes a read or write lock variable of type 
   <b>NDIS_RW_LOCK</b>.
-<div class="alert"><b>Note</b>  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocaterwlock">NdisAllocateRWLock</a> instead of <b>NdisInitializeReadWriteLock</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocaterwlock">NdisAllocateRWLock</a> instead of <b>NdisInitializeReadWriteLock</b>.</div><div> </div>
 
 ## -parameters
 
@@ -74,7 +74,7 @@ The
     <b>Ndis..ReadWriteLock</b> functions.
 
 Before a driver calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560696">NdisAcquireReadWriteLock</a> function
+    <a href="/previous-versions/ff560696(v=vs.85)">NdisAcquireReadWriteLock</a> function
     to obtain write or read access to a resource, the driver must call 
     <b>NdisInitializeReadWriteLock</b> to initialize the lock that is associated with that resource. The
     caller must provide nonpaged storage for the variable at 
@@ -82,7 +82,7 @@ Before a driver calls the
 
 After calling 
     <b>NdisInitializeReadWriteLock</b>, the driver can call 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560696">NdisAcquireReadWriteLock</a> to obtain either write or read access to the resource. Only one non-ISR
+    <a href="/previous-versions/ff560696(v=vs.85)">NdisAcquireReadWriteLock</a> to obtain either write or read access to the resource. Only one non-ISR
     driver thread at a time can obtain write access to the resource. When one non-ISR thread has write
     access, all read and write accesses by other non-ISR threads must wait until the write-access holder
     releases the lock. However, if a non-ISR thread has read access, other non-ISR threads can concurrently
@@ -92,7 +92,7 @@ Initialize and use this type of lock for resources that are frequently accessed 
     infrequently accessed for writing.
 
 Once resource access is complete, the driver calls the 
-    <a href="https://msdn.microsoft.com/a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2">
+    <a href="/previous-versions/ff564521(v=vs.85)">
     NdisReleaseReadWriteLock</a> function.
 
 Each lock that a driver initializes does one of the following:
@@ -115,9 +115,8 @@ Callers of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560696">NdisAcquireReadWriteLock</a>
+<a href="/previous-versions/ff560696(v=vs.85)">NdisAcquireReadWriteLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564521">NdisReleaseReadWriteLock</a>
-
+<a href="/previous-versions/ff564521(v=vs.85)">NdisReleaseReadWriteLock</a>

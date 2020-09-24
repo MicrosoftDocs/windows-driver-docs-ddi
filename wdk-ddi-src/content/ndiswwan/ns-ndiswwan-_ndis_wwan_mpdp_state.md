@@ -70,13 +70,12 @@ A formatted [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md) struc
 
 ## -remarks
 
-This structure is used in an [NDIS_STATUS_WWAN_MPDP_STATE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
+This structure is used in an [NDIS_STATUS_WWAN_MPDP_STATE](/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
 
 ## -see-also
 
 [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md)
 
-[NDIS_STATUS_WWAN_MPDP_STATE](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state)
+[NDIS_STATUS_WWAN_MPDP_STATE](/windows-hardware/drivers/network/ndis-status-wwan-mpdp-state)
 
-[OID_WWAN_MPDP](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-mpdp)
-
+[OID_WWAN_MPDP](/windows-hardware/drivers/network/oid-wwan-mpdp)

@@ -80,5 +80,4 @@ File system drivers use <b>PsUpdateDiskCounters</b> to update counts for disk I/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psisdiskcountersenabled">PsIsDiskCountersEnabled</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psisdiskcountersenabled">PsIsDiskCountersEnabled</a>

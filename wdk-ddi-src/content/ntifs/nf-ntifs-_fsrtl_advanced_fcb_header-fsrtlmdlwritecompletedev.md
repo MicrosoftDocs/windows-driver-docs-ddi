@@ -49,7 +49,7 @@ dev_langs:
 
 ## -description
 
-The <b>FltFastIoMdlWriteComplete</b> routine frees the resources that <a href="https://msdn.microsoft.com/library/windows/hardware/hh706192">FltFastIoPrepareMdlWrite</a> allocated.
+The <b>FltFastIoMdlWriteComplete</b> routine frees the resources that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a> allocated.
 
 ## -parameters
 
@@ -66,11 +66,11 @@ A pointer to a value that specifies the starting byte offset within the cache th
 ### -param MdlChain 
 
 [in]
-A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https://msdn.microsoft.com/library/windows/hardware/hh706192">FltFastIoPrepareMdlWrite</a> allocated.
+A pointer to a linked list of memory descriptor lists (MDLs) that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a> allocated.
 
 ### -param DeviceObject
 
-<p>A pointer to a linked list of memory descriptor lists (MDLs) that <a href="https://msdn.microsoft.com/library/Hh706192(v=VS.85).aspx"><b>FltFastIoPrepareMdlWrite</b></a> allocated.</p>
+<p>A pointer to a linked list of memory descriptor lists (MDLs) that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev"><b>FltFastIoPrepareMdlWrite</b></a> allocated.</p>
 
 ## -returns
 
@@ -78,13 +78,12 @@ The <b>FltFastIoMdlWriteComplete</b> routine returns <b>TRUE</b> if the operatio
 
 ## -remarks
 
-The <b>FltFastIoMdlWriteComplete</b> routine frees the memory descriptor lists (MDLs) that <a href="https://msdn.microsoft.com/library/windows/hardware/hh706192">FltFastIoPrepareMdlWrite</a> allocated and unlocks the cache memory that <b>FltFastIoPrepareMdlWrite</b> locked.
+The <b>FltFastIoMdlWriteComplete</b> routine frees the memory descriptor lists (MDLs) that <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a> allocated and unlocks the cache memory that <b>FltFastIoPrepareMdlWrite</b> locked.
 
 If the FO_WRITE_THROUGH flag is set on the file object pointed to by the <i>FileObject</i> parameter, <b>FltFastIoMdlWriteComplete</b> immediately flushes the cached memory to disk. This flush operation re-enters the file system and can cause <b>FltFastIoMdlWriteComplete</b> to raise an exception if the flush operation fails. 
 
-Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh706192">FltFastIoPrepareMdlWrite</a> must be followed by a call to <b>FltFastIoMdlWriteComplete</b>.
+Each call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a> must be followed by a call to <b>FltFastIoMdlWriteComplete</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh706192">FltFastIoPrepareMdlWrite</a>
-
+<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev">FltFastIoPrepareMdlWrite</a>

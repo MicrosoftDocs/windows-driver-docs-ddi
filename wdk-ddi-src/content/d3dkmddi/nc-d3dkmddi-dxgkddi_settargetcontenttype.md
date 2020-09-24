@@ -59,7 +59,7 @@ A handle that identifies the adapter.
 
 ### -param pSetTargetContentTypeArg
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_settargetcontenttype">DXGKARG_SETTARGETCONTENTTYPE</a> structure that provides the target to be modified and the new type of content being displayed on it.
+A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_settargetcontenttype">DXGKARG_SETTARGETCONTENTTYPE</a> structure that provides the target to be modified and the new type of content being displayed on it.
 
 ## -returns
 
@@ -69,4 +69,3 @@ If this routine succeeds, it returns STATUS_SUCCESS.
 
 This is an optional DDI, so the function pointer in DRIVER_INITIALIZATION_DATA should be set to null if the DDI is not implemented for every adapter supported by the driver.
 This function is always called at PASSIVE level so the supporting code should be made pageable.
-

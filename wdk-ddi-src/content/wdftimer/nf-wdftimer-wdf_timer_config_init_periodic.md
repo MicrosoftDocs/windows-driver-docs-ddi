@@ -49,33 +49,33 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WDF_TIMER_CONFIG_INIT_PERIODIC</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure for a periodic timer.
+The <b>WDF_TIMER_CONFIG_INIT_PERIODIC</b> function initializes a <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure for a periodic timer.
 
 ## -parameters
 
 ### -param Config 
 
 [in]
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure.
+A pointer to a <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure.
 
 ### -param EvtTimerFunc 
 
 [in]
-A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function.
+A pointer to a driver-supplied <a href="/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function.
 
 ### -param Period 
 
 [in]
-A time value. For more information about specifying this value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a>.
+A time value. For more information about specifying this value, see <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a>.
 
 ## -remarks
 
-The <b>WDF_TIMER_CONFIG_INIT_PERIODIC</b> function zeros the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure. Then it sets the structure's <b>Size</b> member, stores the <i>EvtTimerFunc</i> pointer and <i>Period</i> value, sets the <b>TolerableDelay</b> member to zero and sets the <b>AutomaticSerialization</b> member to <b>TRUE</b>. 
+The <b>WDF_TIMER_CONFIG_INIT_PERIODIC</b> function zeros the specified <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure. Then it sets the structure's <b>Size</b> member, stores the <i>EvtTimerFunc</i> pointer and <i>Period</i> value, sets the <b>TolerableDelay</b> member to zero and sets the <b>AutomaticSerialization</b> member to <b>TRUE</b>. 
 
 
 #### Examples
 
-The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure and a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
+The following code example initializes a <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure and a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and then calls <a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
 ```cpp
 WDF_TIMER_CONFIG  timerConfig;
@@ -101,13 +101,12 @@ Status = WdfTimerCreate(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a>
+<a href="/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a>
+<a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdf_timer_config_init">WDF_TIMER_CONFIG_INIT</a>
-
+<a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdf_timer_config_init">WDF_TIMER_CONFIG_INIT</a>

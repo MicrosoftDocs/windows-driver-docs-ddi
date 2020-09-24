@@ -66,7 +66,7 @@ Specifies the bus address for this pipe.
 
 ### -field Interval
 
-Contains the polling interval, indicated by the <b>bInterval</b> field in the corresponding endpoint descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>). This value is only valid for interrupt and isochronous pipes.  For other types of pipe, this value should be ignored. It reflects the device's configuration in firmware. Drivers cannot change it. 
+Contains the polling interval, indicated by the <b>bInterval</b> field in the corresponding endpoint descriptor (<a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>). This value is only valid for interrupt and isochronous pipes.  For other types of pipe, this value should be ignored. It reflects the device's configuration in firmware. Drivers cannot change it. 
 
 The polling interval, together with the speed of the device and the type of host controller, determine the frequency with which the driver should initiate a transfer. The value in <b>Interval</b> does not represent a fixed amount of time. It is a relative value, and the actual polling frequency will also depend on whether the device and the USB host controller operate at low, full or high speed. 
 
@@ -196,13 +196,13 @@ For devices and host controllers that can operate at high speed, the period is m
 </table>
  
 
-The supported polling periods for high-speed isochronous transfers are 1, 2, 4, and 8. If a client driver submits a URB_FUNCTION_ISOCH_TRANSFER request for a high speed isochronous endpoint with polling period greater than 8, the request fails with status USBD_STATUS_INVALID_PARAMETER. For  information about isochronous transfers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">How to Transfer Data to USB Isochronous Endpoints</a>.
+The supported polling periods for high-speed isochronous transfers are 1, 2, 4, and 8. If a client driver submits a URB_FUNCTION_ISOCH_TRANSFER request for a high speed isochronous endpoint with polling period greater than 8, the request fails with status USBD_STATUS_INVALID_PARAMETER. For  information about isochronous transfers, see <a href="/windows-hardware/drivers/ddi/index">How to Transfer Data to USB Isochronous Endpoints</a>.
 
 The mappings in the preceding tables between periods and polling intervals are valid in Microsoft Windows 2000 and later versions of the Windows operating system.
 
 ### -field PipeType
 
-Specifies what type of transfers this pipe uses. These values are defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a> enumeration.
+Specifies what type of transfers this pipe uses. These values are defined in the <a href="/windows-hardware/drivers/ddi/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a> enumeration.
 
 ### -field PipeHandle
 
@@ -212,9 +212,9 @@ Specifies an opaque handle to the bulk or interrupt pipe. The host controller dr
 
 Specifies the maximum size, in bytes, for a transfer request on this pipe. In Windows Server 2003, Windows XP and later operating systems, this member is not used and does not contain valid data. 
 
-For information about the maximum transfer sizes of each type of USB endpoint in different versions of Windows, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Transfer and Packet Sizes</a>.
+For information about the maximum transfer sizes of each type of USB endpoint in different versions of Windows, see <a href="/windows-hardware/drivers/ddi/index">USB Transfer and Packet Sizes</a>.
 
-<div class="alert"><b>Note</b>  For WinUSB, do not use <b>MaximumTransferSize</b> to determine the maximum size of a USB transfer. Instead, use the MAXIMUM_TRANSFER_SIZE value retrieved by  <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>.</div>
+<div class="alert"><b>Note</b>  For WinUSB, do not use <b>MaximumTransferSize</b> to determine the maximum size of a USB transfer. Instead, use the MAXIMUM_TRANSFER_SIZE value retrieved by  <a href="/windows/win32/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>.</div>
 <div> </div>
 
 ### -field PipeFlags
@@ -242,7 +242,7 @@ Indicates that the driver is overriding the endpoint maximum packet size with th
 
 ## -remarks
 
-This structure contains information for an endpoint, retrieved from the device's interface descriptor. For an explanation of how to obtain the information in <b>USBD_PIPE_INFORMATION</b> from the interface descriptor, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">How to Select a Configuration for a USB Device</a>. 
+This structure contains information for an endpoint, retrieved from the device's interface descriptor. For an explanation of how to obtain the information in <b>USBD_PIPE_INFORMATION</b> from the interface descriptor, see <a href="/windows-hardware/drivers/ddi/index">How to Select a Configuration for a USB Device</a>. 
 
 The <b>MaximumPacketSize</b> value  is derived from the first <b>11</b> bits of the <b>wMaxPacketSize</b> field of the endpoint descriptor, which indicates the maximum number of bytes that the host controller can send to or receive from the endpoint in a single transaction.
 
@@ -258,9 +258,8 @@ The value received in <b>MaximumPacketSize</b> for an isochronous endpoint (high
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/index">USB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>
-
+<a href="/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_endpoint_descriptor">USB_ENDPOINT_DESCRIPTOR</a>

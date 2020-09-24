@@ -59,7 +59,7 @@ Pointer to device-specific context.
 ### -param DeviceData 
 
 [in]
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a> structure.
+Pointer to a <a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a> structure.
 
 ### -param Version 
 
@@ -112,7 +112,7 @@ USBCAMD_CamControlFlag_EnableDeviceEvents
 
 </td>
 <td>
-Setting the USBCAMD_CamControlFlag_EnableDeviceEvents exposes a device event to the stream class driver and Microsoft DirectShow. This enables an STI monitor to launch a still image application if the still button is pressed on the camera. USBCAMD sends a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-vidcaptosti-ext-trigger">KSEVENT_VIDCAPTOSTI_EXT_TRIGGER</a> event if this bit is set and the camera's still button is pressed.
+Setting the USBCAMD_CamControlFlag_EnableDeviceEvents exposes a device event to the stream class driver and Microsoft DirectShow. This enables an STI monitor to launch a still image application if the still button is pressed on the camera. USBCAMD sends a <a href="/windows-hardware/drivers/stream/ksevent-vidcaptosti-ext-trigger">KSEVENT_VIDCAPTOSTI_EXT_TRIGGER</a> event if this bit is set and the camera's still button is pressed.
 
 </td>
 </tr>
@@ -126,13 +126,12 @@ Setting the USBCAMD_CamControlFlag_EnableDeviceEvents exposes a device event to 
 
 This function is only called by USBCAMD version 2.0.
 
-The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera minidriver upon receiving an <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a> request.
+The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera minidriver upon receiving an <a href="/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a> request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a>
+<a href="/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a>
-
+<a href="/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a>

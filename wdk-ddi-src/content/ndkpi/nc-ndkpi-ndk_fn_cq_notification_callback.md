@@ -53,7 +53,7 @@ The <i>NdkCqNotificationCallback</i> (<i>NDK_FN_CQ_NOTIFICATION_CALLBACK</i>) fu
 ### -param CqNotificationContext 
 
 [in, optional]
-A context area that was specified in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ)  object was created.
+A context area that was specified in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ)  object was created.
 
 ### -param CqStatus 
 
@@ -103,13 +103,12 @@ Indicates a  fatal error occurred on the CQ and the CQ is  unusable. All of the 
 
 An NDK provider calls <i>NdkCqNotificationCallback</i> to notify the consumer about  a completion queue (CQ) event.
 
-The NDK consumer specified the <i>NdkCqNotificationCallback</i> function  in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ) object was created.
+The NDK consumer specified the <i>NdkCqNotificationCallback</i> function  in the <i>CqNotificationContext</i> parameter of the <i>NdkCreateCq</i> (<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) function when the completion queue (CQ) object was created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndkpi-completion-handling-requirements">NDKPI Completion Handling Requirements</a>
+<a href="/windows-hardware/drivers/network/ndkpi-completion-handling-requirements">NDKPI Completion Handling Requirements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>
-
+<a href="/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>

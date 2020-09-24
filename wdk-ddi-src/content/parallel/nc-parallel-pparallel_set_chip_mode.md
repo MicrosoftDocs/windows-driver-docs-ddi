@@ -53,7 +53,7 @@ The <i>PPARALLEL_SET_CHIP_MODE</i>-typed callback routine sets the operating mod
 ### -param SetChipContext 
 
 [in]
-Pointer to the device extension of a parallel port's functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>).
+Pointer to the device extension of a parallel port's functional device object (<a href="/windows-hardware/drivers/">FDO</a>).
 
 ### -param ChipMode 
 
@@ -119,7 +119,7 @@ A caller uses the <i>PPARALLEL_SET_CHIP_MODE</i> callback in conjunction with th
 
 To set a new mode, a caller must first clear the current mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544801(v=vs.85)">Setting and Clearing the Communication Mode on a ParallelPort</a>.
+For more information, see <a href="/previous-versions/ff544801(v=vs.85)">Setting and Clearing the Communication Mode on a ParallelPort</a>.
 
 ## -see-also
 
@@ -140,4 +140,3 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
-

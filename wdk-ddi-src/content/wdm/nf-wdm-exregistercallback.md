@@ -53,28 +53,23 @@ The <b>ExRegisterCallback</b> routine registers a given callback routine with a 
 ### -param CallbackObject 
 
 [in, out]
-A pointer to a callback object obtained from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a> routine.
+A pointer to a callback object obtained from the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a> routine.
 
 ### -param CallbackFunction 
 
 [in]
 A pointer to a driver-implemented callback routine, which must be nonpageable. The callback routine must conform to the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+
+```
+VOID
 (*PCALLBACK_FUNCTION ) (
     IN PVOID CallbackContext,
     IN PVOID Argument1,
     IN PVOID Argument2
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
 The callback routine parameters are as follows:
 
 
@@ -112,35 +107,34 @@ A driver calls <b>ExRegisterCallback</b> to register a callback routine with a s
 
 If the object allows only one registered callback routine, and such a routine is already registered, <b>ExRegisterCallback</b> returns <b>NULL</b>.
 
-Callers of <b>ExRegisterCallback</b> must save the returned pointer for use later in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exunregistercallback">ExUnregisterCallback</a>. The pointer is required when removing the callback routine from the list of registered callback routines for the callback object.
+Callers of <b>ExRegisterCallback</b> must save the returned pointer for use later in a call to <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exunregistercallback">ExUnregisterCallback</a>. The pointer is required when removing the callback routine from the list of registered callback routines for the callback object.
 
-The meanings of <i>Argument1</i> and <i>Argument2</i> of the registered callback routine depend on the callback object and are defined by the component that created it. The following are the parameters for the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-a-system-defined-callback-object">system-defined callback objects</a>:
+The meanings of <i>Argument1</i> and <i>Argument2</i> of the registered callback routine depend on the callback object and are defined by the component that created it. The following are the parameters for the <a href="/windows-hardware/drivers/kernel/using-a-system-defined-callback-object">system-defined callback objects</a>:
 
 
 
-Starting with Windows Vista, the <b>\Callback\ProcessorAdd</b> callback object is available to dynamically track changes in the processor population. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a> routine provides similar information, but additionally supports a KE_PROCESSOR_CHANGE_ADD_EXISTING flag that a driver can use to enumerate the processors in the initial multiprocessor system configuration. For drivers that run in Windows Server 2008 and later versions of Windows, use <b>KeRegisterProcessorChangeCallback</b> instead of the <b>\Callback\ProcessorAdd</b> callback object, if possible.
+Starting with Windows Vista, the <b>\Callback\ProcessorAdd</b> callback object is available to dynamically track changes in the processor population. The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a> routine provides similar information, but additionally supports a KE_PROCESSOR_CHANGE_ADD_EXISTING flag that a driver can use to enumerate the processors in the initial multiprocessor system configuration. For drivers that run in Windows Server 2008 and later versions of Windows, use <b>KeRegisterProcessorChangeCallback</b> instead of the <b>\Callback\ProcessorAdd</b> callback object, if possible.
 
-For more information about callback objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/callback-objects">Callback Objects</a>.
+For more information about callback objects, see <a href="/windows-hardware/drivers/kernel/callback-objects">Callback Objects</a>.
 
-The operating system calls registered callback routines at the same IRQL at which the driver that created the callback called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exnotifycallback">ExNotifyCallback</a> routine.
+The operating system calls registered callback routines at the same IRQL at which the driver that created the callback called the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exnotifycallback">ExNotifyCallback</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-excreatecallback">ExCreateCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exnotifycallback">ExNotifyCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exnotifycallback">ExNotifyCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exunregistercallback">ExUnregisterCallback</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exunregistercallback">ExUnregisterCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ke_processor_change_notify_context">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
+<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_ke_processor_change_notify_context">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a>
-
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterprocessorchangecallback">KeRegisterProcessorChangeCallback</a>

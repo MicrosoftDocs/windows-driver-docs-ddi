@@ -98,45 +98,44 @@ The content of all character string buffers referenced by this structure are Uni
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterinstancefindclose">FilterInstanceFindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancegetinformation">FilterInstanceGetInformation</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filterinstancegetinformation">FilterInstanceGetInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindclose">FilterVolumeInstanceFindClose</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindclose">FilterVolumeInstanceFindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindnext">FilterVolumeInstanceFindNext</a>
+<a href="/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindnext">FilterVolumeInstanceFindNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_aggregate_standard_information">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_aggregate_standard_information">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_basic_information">INSTANCE_BASIC_INFORMATION</a>
+<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_basic_information">INSTANCE_BASIC_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a>
-
+<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information">INSTANCE_PARTIAL_INFORMATION</a>
