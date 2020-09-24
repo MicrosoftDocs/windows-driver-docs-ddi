@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 > [!NOTE]
-> Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word slave. Microsoft's [Style Guide for Bias-Free Communications](/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. When this word is removed from the software, we will correct this document to be in alignment.
+> Microsoft supports a diverse and inclusionary environment. This article contains references to terminology that the Microsoft [Style Guide for Bias-Free Communications](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
 
 
 The <b>PEP_ACPI_SPB_RESOURCE</b> structure describes an ACPI serial bus connection resource.
