@@ -1,17 +1,17 @@
 ---
 UID: NS:iddcx.IDARG_OUT_ADAPTER_INIT
 title: IDARG_OUT_ADAPTER_INIT (iddcx.h)
-description: Gives information about the initialized adapter that can be used by the OS to call functions.
+description: IDARG_OUT_ADAPTER_INIT provides information about an initialized adapter.
 old-location: display\idarg_out_adapter_init.htm
 tech.root: display
 ms.assetid: 55e4c835-88c8-403f-883c-182915aa614d
-ms.date: 05/10/2018
+ms.date: 09/24/2020
 keywords: ["IDARG_OUT_ADAPTER_INIT structure"]
 ms.keywords: IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,14 +43,20 @@ api_name:
 
 # IDARG_OUT_ADAPTER_INIT structure
 
-
 ## -description
 
-Gives information about the initialized adapter that can be used by the OS to call functions.
+**IDARG_OUT_ADAPTER_INIT** provides information about an initialized adapter.
 
 ## -struct-fields
 
 ### -field AdapterObject
 
-                     [out] Handle to the adapter that the driver can use to identify it when calling OS functions.
+An opaque [IDDCX_ADAPTER](/windows-hardware/drivers/display/iddcx-objects) object that represents a single logical display adapter.
 
+## -remarks
+
+See [IDDCX objects](/windows-hardware/drivers/display/iddcx-objects) for more information.
+
+## -see-also
+
+[**IddCxAdapterInitAsync**](nf-iddcx-iddcxadapterinitasync.md)

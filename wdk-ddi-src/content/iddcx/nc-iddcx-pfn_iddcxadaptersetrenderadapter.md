@@ -2,12 +2,12 @@
 UID: NC:iddcx.PFN_IDDCXADAPTERSETRENDERADAPTER
 title: PFN_IDDCXADAPTERSETRENDERADAPTER
 author: windows-driver-content
-description: 
+description: PFN_IDDCXADAPTERSETRENDERADAPTER is a pointer to a system-implemented function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 tech.root: display
 ms.assetid: 0a4cd4b6-a6a2-4f23-9775-bddab232fded
 ms.author: windowsdriverdev
-ms.date: 08/19/2019
-keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback function"]
+ms.date: 09/24/2020
+keywords: ["PFN_IDDCXADAPTERSETRENDERADAPTER callback pointer"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: iddcx.h
@@ -46,35 +46,40 @@ dev_langs:
  - c++
 ---
 
-# *PFN_IDDCXADAPTERSETRENDERADAPTER callback function
-
+# PFN_IDDCXADAPTERSETRENDERADAPTER callback function
 
 ## -description
 
-Implemented by the client driver to ...
+**PFN_IDDCXADAPTERSETRENDERADAPTER** is a pointer to a system-implemented function that sets the preferred render adapter on which to render the swapchains for the specified adapter.
 
 ## -parameters
 
 ### -param DriverGlobals
 
+[in] Pointer to an [**IDD_DRIVER_GLOBALS**](/windows-hardware/drivers/ddi/iddcx/ns-iddcx-idd_driver_globals) structure containing system-defined per-driver data.
+
 ### -param AdapterObject
+
+[in] The adapter object of the adapter for which the rendering adapter preference is being set.
 
 ### -param pInArgs
 
+[in] Input arguments.
+
 ## -prototype
 
-```
+```c++
 //Declaration
 
-*PFN_IDDCXADAPTERSETRENDERADAPTER *PfnIddcxadaptersetrenderadapter; 
+*PFN_IDDCXADAPTERSETRENDERADAPTER *PfnIddcxadaptersetrenderadapter;
 
 // Definition
 
-VOID *PfnIddcxadaptersetrenderadapter 
+VOID *PfnIddcxadaptersetrenderadapter
 (
-	PIDD_DRIVER_GLOBALS DriverGlobals
-	IDDCX_ADAPTER AdapterObject
-	 const IDARG_IN_ADAPTERSETRENDERADAPTER *pInArgs
+    PIDD_DRIVER_GLOBALS DriverGlobals
+    IDDCX_ADAPTER AdapterObject
+    const IDARG_IN_ADAPTERSETRENDERADAPTER *pInArgs
 )
 {...}
 
@@ -82,7 +87,8 @@ VOID *PfnIddcxadaptersetrenderadapter
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+An indirect display driver (IDD) should call [**IddCxAdapterSetRenderAdapter**](nf-iddcx-iddcxadaptersetrenderadapter.md) to set their rendering adapter preference. IDDs should not directly call the function that **PFN_IDDCXADAPTERSETRENDERADAPTER** points to.
 
 ## -see-also
 
+[**IddCxAdapterSetRenderAdapter**](nf-iddcx-iddcxadaptersetrenderadapter.md)
