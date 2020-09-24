@@ -1009,6 +1009,11 @@
       "source_path": "wdk-ddi-src/content/wudfwdm/ns-wudfwdm-_unicode_string.md",
       "redirect_URL": "https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wudfwdm/nf-wudfwdm-initializeobjectattributes.md",
+      "redirect_URL": "https://docs.microsoft.com/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes",
+      "redirect_document_id": false
     }
   ]
 }
