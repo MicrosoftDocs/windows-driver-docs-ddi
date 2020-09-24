@@ -15,6 +15,11 @@ author: duncanmacmichael
 
 ## -description
 
+> [!IMPORTANT]
+> ### Bias-free communication
+>
+> Microsoft supports a diverse and inclusive environment. This article contains references to terminology that the Microsoft [style guide for bias-free communication](/style-guide/bias-free-communication) recognizes as exclusionary. The word or phrase is used in this article for consistency because it currently appears in the software. When the software is updated to remove the language, this article will be updated to be in alignment.
+
 This section lists functions, event callbacks, macros, structures, and enumerations used in Windows networking device drivers starting with Windows Vista. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
 
 For the programming guide, see [Networking drivers for Windows Vista and later](/windows-hardware/drivers/network).
