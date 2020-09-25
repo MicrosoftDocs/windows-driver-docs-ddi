@@ -1,8 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
 title: IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO (ntddscsi.h)
-author: mimisasouvanh
-ms.author: misaso
 description: 
 ms.assetid: 04498f2d-a468-4b94-a762-5234e0d220a5
 ms.date: 10/19/2018
