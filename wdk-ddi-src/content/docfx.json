@@ -42,8 +42,8 @@
       "ms.topic": "language-reference",
       "ms.prod": "windows-hardware",
       "ms.technology": "windows-devices",
-      "author": "windows-driver-content",
-      "ms.author": "windowsdriverdev",
+      "author": "tedhudek",
+      "ms.author": "tedhudek",
       "dev_langs": ["c++"]
     },
     "fileMetadata": {
