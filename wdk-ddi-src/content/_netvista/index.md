@@ -8,7 +8,6 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-author: duncanmacmichael
 ---
 
 # Networking drivers for Windows Vista and later
